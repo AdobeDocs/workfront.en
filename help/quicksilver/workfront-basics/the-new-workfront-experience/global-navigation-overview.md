@@ -1,9 +1,9 @@
 ---
 content-type: overview
-title: Top navigation bar overview
+title: Top Navigation Bar Overview
 description: The top navigation bar — which appears at the top of your screen in [!DNL Adobe Workfront] — allows you to easily find and navigate to other areas of the platform.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
 ---
 # Top navigation bar overview
@@ -26,11 +26,13 @@ Your Workfront administrator can customize the Home icon to open a different pag
 
 You can pin pages that you visit frequently so that they display within the top navigation bar. To learn more about pinned pages, see [Pin pages to customize your workspace](../../workfront-basics/the-new-workfront-experience/pin-pages.md).
 
+<!--
 ## [!UICONTROL Help] menu
 
 The **[!UICONTROL Help]** menu allows you to search for help with a specific task, find more information on using [!DNL Workfront], view content related to the page you are currently on, or submit feedback about your experience.
 
 To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+-->
 
 ## [!UICONTROL Notifications] menu
 
@@ -142,3 +144,4 @@ In the lower part of the Main Menu, you can access the following:
   </tr> 
  </tbody> 
 </table>
+

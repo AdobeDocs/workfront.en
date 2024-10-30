@@ -121,20 +121,28 @@ To create a connection for your [!DNL Adobe Experience Manager Assets] modules:
                   <td>Enter the URL for your [!DNL Adobe Experience Manager] instance. Do not include a slash <code>/</code> at the end of the URL.</td>
               </tr>
               <tr>
+                  <td role="rowheader">[!UICONTROL Account details fill options]</td>
+                  <td>Select whether you want to provide JSON describing your account details, or if you want to enter details manually.</td>
+              </tr>
+              <tr>
+                  <td role="rowheader">[!UICONTROL Technical account details in JSON format]</td>
+                  <td>If providing JSON, enter or paste the JSON describing your account details.</td>
+              </tr>
+              <tr>
                   <td role="rowheader">[!UICONTROL Client ID]</td>
-                  <td>Enter the Client ID generated in the [!UICONTROL Server-to-server] setup.</td>
+                  <td>If entering details manually, enter the Client ID generated in the [!UICONTROL Server-to-server] setup.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Client Secret]</td>
-                  <td>Enter the Client Secret generated in the [!UICONTROL Server-to-server] setup.</td>
+                  <td>If entering details manually, enter the Client Secret generated in the [!UICONTROL Server-to-server] setup.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Technical account ID]</td>
-                  <td>Enter the ID of the technical account. This is the "[!UICONTROL id]" field in the client credentials JSON file.</td>
+                  <td>If entering details manually, enter the ID of the technical account. This is the "[!UICONTROL id]" field in the client credentials JSON file.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Org ID]</td>
-                  <td class="">Enter the ID of your organization. This is the "[!UICONTROL org]" field in the client credentials JSON file.</td>
+                  <td class="">If entering details manually, enter the ID of your organization. This is the "[!UICONTROL org]" field in the client credentials JSON file.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Meta Scopes]</td>
@@ -184,9 +192,18 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
+* [Copy a folder or asset](#copy-a-folder-or-asset)
+* [Create a record](#create-a-record)
+* [Delete a folder, asset, or rendition](#delete-a-folder-asset-or-rendition)
+* [Get a folder listing](#get-a-folder-listing)
+* [Make a custom API call](#make-a-custom-api-call)
+* [Move a folder or asset](#move-a-folder-or-asset)
+* [Update a record](#update-a-record)
+* [Upload an asset](#upload-an-asset)
+
 ### [!UICONTROL Copy a folder or asset]
 
-This action module copies a folder or asset to another location in your Adobe Experience Manager Assetsaccount.
+This action module copies a folder or asset to another location in your Adobe Experience Manager Assets account.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -254,7 +271,7 @@ This action module creates a folder or an asset comment.
  </tbody> 
 </table>
 
-### [!UICONTROL Delete a record]
+### [!UICONTROL Delete a folder, asset, or rendition]
 
 This action module deletes a folder, asset, or rendition.
 

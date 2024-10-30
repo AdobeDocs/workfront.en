@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: Import data into Adobe Workfront using a Kick-Start template
+title: Import Data into Workfront Using a Kick-Start Template
 description: Kick-Starts are specially formatted Excel workbooks that you can populate with data you want to import into Workfront. Adobe Workfront provides a Kick-Start template you can use to do this, as explained in Kick-Starts data importer.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
 ---
-# Import data into Adobe Workfront using a Kick-Start template
+# Import data into Workfront using a Kick-Start template
 
 <!--Audited: 12/2023-->
 
@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td>You must be a Workfront administrator. </td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -103,7 +103,7 @@ To export a Kick-Start template:
       <td scope="col"> <p>Parameter</p> <p>Descriptive Text</p><p>Parameter Option</p> <p>Parameter Group</p> <p>Category Parameter</p> <p>Category</p> <p>Report</p> <p>Portal Tab Section</p> <p>Dashboard</p> <p>Preferences</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>Report</p> <p>All reports in the system are available to export. You can select up to 100 specific reports in a single export.</p> <p>Kick-Starts does not support Text Mode filters. For successful exporting, the reporting filters must be switched to Standard Mode.</p> </td> 
+      <td scope="col"> <p>Report</p> <p>All reports in the system are available to export. You can select up to 100 specific reports in a single export.</p> <p>Kick-Starts does not support Text Mode filters or groupings. For successful exporting, the reporting filters and groupings must be switched to Standard Mode.</p> </td> 
       <td scope="col">Exports as ZIP file </td> 
       <td scope="col"> <p scope="col">Parameter</p> <p scope="col">Descriptive Text</p> <p scope="col">Parameter Option</p> <p scope="col">Parameter Group</p> <p scope="col">Category Parameter</p> <p scope="col">Category</p> <p scope="col">Report</p> <p scope="col">Preferences</p> </td> 
      </tr> 

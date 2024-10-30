@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Create, edit, and share default filters, views, and groupings
+title: Create, Edit, and Share Default Filters, Views, and Groupings
 description: You can create default filters, views, and groupings, then make them available to users in your organization.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
@@ -21,6 +21,8 @@ When you create default filters, views, and groupings as described in this artic
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -33,14 +35,22 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td>[!UICONTROL Plan]</td> 
-  </tr> 
+   <td><p>New: [!UICONTROL Standard]</p>
+   Or
+   <p>Current: [!UICONTROL Plan]</p>
+   </td> 
+  </tr>
+  <tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a [!DNL Workfront] administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Create default filters, views, or groupings
 

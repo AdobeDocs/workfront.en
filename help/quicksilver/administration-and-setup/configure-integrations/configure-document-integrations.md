@@ -1,5 +1,5 @@
 ---
-title: Configure document integrations
+title: Configure Document Integrations
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -138,7 +138,7 @@ After the custom document integration is built, you can make it available to use
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Base API URL] </td> 
-      <td>The base HTTP or secure HTTP URL for API calls. For example, <code>https://documentprovider.com/api/v2</code></td> 
+      <td>The base HTTP or secure HTTP URL for API calls. For example, <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Authentication Type]</td> 

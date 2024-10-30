@@ -109,7 +109,7 @@ If you see the map button above a field or function, you can use it to set varia
      <li> <p><strong>[!UICONTROL Multipart/form-data]</strong> </p> <p>The [!UICONTROL Multipart/form-data] is an HTTP multipart request used to send files and data. It is commonly used to upload files to the server.</p> <p>Add fields to be sent in the request. Each field must contain Key-Value pair.</p> 
       <ul> 
        <li> <p><strong>[!UICONTROL Text]</strong> </p> <p>Enter the key and value to be sent within the request body.</p> </li> 
-       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>Enter the key and specify the source file you want to send in the request body.</p> <p>Map the file you want to upload from the previous module (such as [!UICONTROL HTTP] >[!UICONTROL Get a File] or [!UICONTROL Google Drive] >[!UICONTROL Download a File)], or enter the file name and file data manually.</p> </li> 
+       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>Enter the key and specify the source file you want to send in the request body.</p> <p>Map the file you want to upload from the previous module (such as [!UICONTROL HTTP] > [!UICONTROL Get a File] or [!UICONTROL Google Drive] > [!UICONTROL Download a File]), or enter the file name and file data manually.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

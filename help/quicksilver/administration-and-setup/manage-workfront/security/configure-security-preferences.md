@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
-title: Configure system preferences
+title: Configure System Preferences
 description: As an Adobe Workfront administrator, you can configure preferences for your Workfront system, including security preferences.
 author: Becky
 feature: System Setup and Administration
@@ -30,6 +30,8 @@ We recommend that you configure your system preferences during the Workfront imp
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -54,6 +56,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configure your system preferences
 
@@ -118,8 +122,12 @@ For more detail about the information in this table, see [Access requirements in
       <td>Lets you specify whether users will see the New Home experience by default. When enabled, users will see the New Home experience by default, but can still opt to enable or disable New Home on an individual basis. When disabled, users will not see the banner that allows them to switch to New Home—however, they can still navigate to their New Home page by manually entering <code>/home/workspaces</code> at the end of their instance URL. This setting is enabled by default.</td> 
      </tr>
      <tr> 
+      <td role="rowheader">Enable the Priorities worklist </td> 
+      <td>Lets you choose to enable or disable the Priorities worklist experience for your users. Users will still see the Priorities icons in Workfront, but they will not have access to the functionality. For more information about Priorities, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Get started with Priorities</a>.</td> 
+     </tr>
+     <tr> 
       <td role="rowheader">Test Environments</td> 
-      <td>Lets you access your Workfront test environments. For more information, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">The Adobe Workfront Preview Sandbox Environment</a>.</p></td> 
+      <td>Lets you access your Workfront test environments. For more information, see <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">The Adobe Workfront Preview Sandbox Environment</a>.</p></td> 
     </tbody> 
    </table>
 

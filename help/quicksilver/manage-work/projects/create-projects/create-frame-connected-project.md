@@ -5,6 +5,8 @@ title: Create a project connected with Frame.io
 description: A project is a large unit of work in Adobe Workfront. You can create projects from scratch, use a template, or convert issues or tasks to projects.
 author: Courtney
 feature: Work Management
+hide: yes
+hidefromtoc: yes
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
 ---
 # Create a project connected with Frame.io

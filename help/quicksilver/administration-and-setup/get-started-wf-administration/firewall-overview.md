@@ -5,7 +5,7 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Firewall overview
 description: Because Adobe Workfront communicates with your organization's network, your organization's firewall must be configured to allow that communication. Firewalls are highly effective security measures that function by separating an organization's network from the internet. They ensure that only selected data and network traffic can move into or out of the organization's network. The firewall allows or blocks data based on the site that is sending or receiving the data. As an Adobe Workfront administrator, you must ensure that data sent to or from Workfront can pass through your organization's firewall.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
@@ -17,7 +17,7 @@ Because Adobe Workfront communicates with your organization's network, your orga
 This is accomplished through an allowlist, which is essentially a "list" of sites that are "allowed" to send or receive data through the firewall. Sites can be identified in one of two ways:
 
 * **IP address**: a series of numbers such as 52.31.132.175
-* **Domain**: part of a URL, such as "thisdomain" in www.thisdomain.com
+* **Domain**: part of a URL, such as `thisdomain` in `www.thisdomain.com`.
 
 Workfront uses specific IP addresses and domains for web communication. These must be added to your organization's allowlist before you can use Workfront in your organization.
 
@@ -92,7 +92,7 @@ Provide your network administrator with the following information:
 
 ### View your organization's cluster and Workfront plan {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+{{step-1-to-setup}}
 
 1. Click **System** in the left panel
 1. To view your cluster, Select **Customer Info**.

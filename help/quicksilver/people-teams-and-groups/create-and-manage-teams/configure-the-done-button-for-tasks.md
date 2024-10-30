@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
-title: Configure the Done button for tasks
+title: Configure the Done Button for Tasks
 description: The Done button can automatically set the status of a task or an issue. By default, Adobe Workfront marks a task as Completed when an assignee clicks Done on their work item.
 author: Lisa
 feature: People Teams and Groups
@@ -9,11 +9,15 @@ exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
 ---
 # Configure the [!UICONTROL Done] button for tasks
 
-The [!UICONTROL Done] button can automatically set the status of a task or an issue. By default, [!UICONTROL Adobe Workfront] marks a task as [!UICONTROL Completed] when an assignee clicks Done on their work item.
+The [!UICONTROL Done] button can automatically set the status of a task or an issue. By default, [!UICONTROL Adobe Workfront] marks a task as [!UICONTROL Completed] when an assignee clicks Mark as done on their work item.
+
+>[!NOTE]
+>
+>The Done button displays as Mark as done in all areas of Workfront.
 
 ## Overview
 
-Users with certain permissions can configure the [!UICONTROL Done] button to reflect certain statuses in the system. There are two different ways the [!UICONTROL Done] button works for tasks in [!UICONTROL Workfront]:
+Users with certain permissions can configure the [!UICONTROL Done] button to associate it with certain statuses in the system. There are two different ways the [!UICONTROL Done] button works for tasks in [!UICONTROL Workfront]:
 
 * If the user has an assigned Home Team, a [!DNL Workfront] administrator or a user with a [!UICONTROL Plan] license can configure the [!UICONTROL Done] button to reflect certain statuses for team members. See [Configure the [!UICONTROL Done] button for a Team](#configure-the-uicontrol-done-button-for-a-team) in this article.
 * If the user does not have a [!UICONTROL Home Team], but they have [!UICONTROL Other Teams] in their profile, Workfront searches for the setting of the [!UICONTROL Done] button on any of the teams associated with the user. The selection is random and the status associated with any of the teams is used for the task. 
@@ -21,32 +25,37 @@ Users with certain permissions can configure the [!UICONTROL Done] button to ref
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong><p>[!DNL Adobe Workfront] plan*</strong></p></td> 
-   <td> <p>Any</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong><p>[!DNL Adobe Workfront] license*</strong></p></td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard</p>
+   <p>or</p>
+   <p>Current: Plan</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configure the [!UICONTROL Done] button for a Team 
 
 You can change which status is applied to the work item with the [!UICONTROL Done] button. You can also set multiple statuses and allow the user to choose which status is appropriate.
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. Click the **[!UICONTROL Switch team]** icon, then either select a new team from the drop-down menu or search for a team in the search bar.
 1. Click the **[!UICONTROL More]** menu, then click **[!UICONTROL Edit]**.
@@ -87,7 +96,7 @@ To associate users with a Home Team:
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront].
 
 1. Click **[!UICONTROL Users]**, then select the user or users you want to associate with a Home Team.
-1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.  
+1. Click the **[!UICONTROL More]** menu, then click **[!UICONTROL Edit]**.  
    ![](assets/user-settings-nwe-350x291.png)
 
 1. In the **[!UICONTROL Organization]** section, select the **[!UICONTROL Home Team]** field. Start typing the name of the team whose settings you want to associate with the users. Click the name of the team when you see it in the list.

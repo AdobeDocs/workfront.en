@@ -1,13 +1,13 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Deactivate a team
+title: Deactivate or Delete a Team
 description: You can deactivate teams you no longer use while retaining the associated historical data. Adobe Workfront administrators can reactivate a team at any time from the Teams area in Setup.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
 ---
-# Deactivate a team
+# Deactivate or delete a team
 
 You can deactivate teams you no longer use while retaining the associated historical data. [!DNL Adobe Workfront] administrators can reactivate a team at any time from the Teams area in Setup. If you deactivate a team, the team no longer displays in the following areas:
 
@@ -38,24 +38,36 @@ Deactivated teams don't appear when you search for a team, but will still displa
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Any</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Plan</p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard</p>
+   <p>or</p>
+   <p>Current: Plan</p></td>
+  </tr>
+  <tr>
+   <td>Access level configurations</td>
+   <td><p>To deactivate a team, no configurations are required.</p>
+   <p>To delete a team, you must be a system administrator.</p></td>
+  </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Deactivate a team
 
@@ -67,17 +79,33 @@ Any work assigned to the team prior to deactivation remains assigned. We recomme
 
 When using request queues, if you deactivate a team assigned as the default team in a routing rule, the team remains and requests are still routed to the deactivated team. We recommend updating routing rules with active teams before you deactivate the team.
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Teams]**.
+{{step1-to-team}}
+
 1. Click the **[!DNL Switch team]** icon, then either select a new team from the drop-down menu or search for a team in the search bar.
 1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.
 
-   ![](assets/edit-team-settings-350x205.png)
+   ![](assets/edit-team-settings.png)
 
-1. Clear the **[!UICONTROL Is Active]** check box.
+1. Clear the **[!UICONTROL Is Active]** check box in the team settings.
 1. Click **[!UICONTROL Save changes]**.
 
-## Known limitations
+## Known limitations of deactivating a team
 
 Deactivated teams display in the following areas:
 
 * The Owner field in [!DNL Workfront Goals]. This requires an additional license for [!DNL Adobe Workfront Goals]. For more information, see [Get started with [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+
+## Delete a team
+
+Only a system administrator can delete a team. If you are a team owner (but not an administrator) and you try to delete a team, you will see an error message.
+
+To delete a team:
+
+{{step1-to-team}}
+
+1. Click the **[!DNL Switch team]** icon, then either select a new team from the drop-down menu or search for a team in the search bar.
+1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Delete]**.
+
+   ![](assets/edit-team-settings.png)
+
+1. Click [!UICONTROL **Confirm**] on the confirmation message to permanently delete the team. Deleted teams cannot be recovered.

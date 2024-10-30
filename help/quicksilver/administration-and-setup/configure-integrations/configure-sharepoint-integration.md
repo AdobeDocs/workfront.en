@@ -1,5 +1,5 @@
 ---
-title: Configure the [!DNL SharePoint] integration
+title: Configure the [!DNL SharePoint] Integration
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -19,7 +19,11 @@ exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 
 >[!IMPORTANT]
 >
->The new [!DNL SharePoint] integration was released to production with the 22.3 release (July 2022.) Although your users can still access documents linked through the legacy [!DNL SharePoint] integration, they must use the new [!DNL SharePoint] integration to link documents from SharePoint.
+>The new [!DNL SharePoint] integration was released to production with the 22.3 release (July 2022.) 
+>
+>* Although your users can still access documents linked through the legacy [!DNL SharePoint] integration, they can not link documents through it. they must use the new [!DNL SharePoint] integration to link documents from SharePoint.
+>
+>* If you do not have a legacy SharePoint integration configured, you cannot add it. You must use the new SharePoint integration to link documents to SharePoint.
 >
 >* The new SharePoint integration may not require configuration by an administrator, and may be set up by individual users. However, to ensure a smooth transition to the new SharePoint integration, a Workfront administrator must make some small settings changes in the Workfront Setup area.
 >

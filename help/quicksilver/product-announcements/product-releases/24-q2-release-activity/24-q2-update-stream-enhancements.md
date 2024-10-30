@@ -38,7 +38,6 @@ For more information, see [New commenting experience](/help/quicksilver/product-
 
 We have now added the new commenting functionality to the **Add new update** quick action button in the My Work, My Projects, My Tasks, and My Issues widgets in new Home.
 
-For more information, see [Get started with the new Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Additional commenter information available in the new commenting experience
 

@@ -61,7 +61,45 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL NetSuite] modules, you must have a [!DNL NetSuite] account.
 
+## Create a connection to NetSuite
 
+To create a connection for your [!DNL NetSuite] modules:
+
+1. In the [!DNL NetSuite] module, click **[!UICONTROL Add]** next to the Connection box.
+
+1. Fill in the following fields:
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection name]</td>
+          <td>
+            <p>Enter a name for this connection.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Type] </td>
+          <td>Select whether you are connecting to a service account or a personal account.</p>
+        </tr>
+       <tr>
+          <td role="rowheader">[!UICONTROL Account ID] </td>
+          <td>Enter the ID for your NetSuite account.</p>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client ID]</td>
+          <td>Enter the client ID for your NetSuite account. This can be found in your NetSuite client credentials.</p></td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client Secret]</td>
+          <td>Enter the client secret for your NetSuite account.</p>
+        </tr>
+        </tbody>
+    </table>
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
 
 ## [!DNL NetSuite] modules and their fields
 
@@ -86,7 +124,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL NetSuite] account to Workfront Fusion, see <a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Create a connection to [!DNL NetSuite] in a Workfront Fusion NetSuite module</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL NetSuite] account to Workfront Fusion, see <a href="#create-a-connection-to-netsuite" class="MCXref xref">Create a connection to [!DNL NetSuite]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 

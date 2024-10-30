@@ -1,5 +1,5 @@
 ---
-title: Set up reminder notifications
+title: Set Up Reminder Notifications
 description: Reminder notifications generate emails that are sent to users based on specified criteria. Reminder notifications remind users of an action the need to take for a task, issue, project, or timesheet. 
 author: Alina, Nolan
 feature: System Setup and Administration

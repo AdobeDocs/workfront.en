@@ -1,5 +1,5 @@
 ---
-title: Customize object headers using a layout template
+title: Customize Object Headers Using a Layout Template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -27,32 +27,36 @@ After configuring a layout template, you must assign it to users for changes you
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 
-<table>
-  <tr>
-   <td><strong>Adobe Workfront plan</strong>
-   </td>
-   <td>Any
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Adobe Workfront license</strong>
-   </td>
-   <td>Plan
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Access level configurations</strong>
-   </td>
-   <td>You must be a Workfront or a group administrator.
-<p>
-   </td>
-  </tr>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard</p>
+  <p> Current: Plan</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>To perform these steps at the system level, you need the System Administrator access level.
+To perform them for a group, you must be a manager of that group.</p> </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see [Create or modify custom access levels](../../add-users/configure-and-grant-access/create-modify-access-levels.md). 
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Customize object headers
 

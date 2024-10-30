@@ -1,21 +1,22 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
+navigation-topic: data connect
 title: Create a  reader (service) account for Snowflake
-description: In order to access the data in the Workfront Data Lake, you must first create a reader account for Snowflake.
+description: In order to access Data Connect data, you must first create a Snowflake reader account.
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
 ---
 # Create a reader (service) account for Snowflake
 
-In order to access Workfront data lake data, you must first create a Snowflake reader (or service) account for each new connection. After creating a connection, you can find its associated URL and username by clicking on it on the **Data access** page (**Main menu** > **Setup** > **System** > **Data access**) under the **Existing Connections** tab.
+In order to access Data Connect data, you must first create a Snowflake reader (or service) account for each new connection. After creating a connection, you can find its associated URL and username by clicking on it on the **Data access** page (**Main menu** > **Setup** > **System** > **Data access**) under the **Existing Connections** tab.
 
-For information on using a newly created connection with an external product, see [Establish a connection to Workfront data lake](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
+For information on using a newly created connection with an external product, see [Establish a connection to Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## Access requirements
+
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article: 
 
@@ -25,7 +26,17 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td>TBD</td> 
+   <td><p>Included in the following plans:</p>
+    <ul>
+        <li>Ultimate</li> 
+    </ul>    
+   <p>Can be purchased as an add-on to the following plans:</p> 
+    <ul>
+        <li>Select</li> 
+        <li>Prime</li>
+    </ul> 
+    <p>Workfront Data Connect is not available for legacy Workfront plans.</p> 
+   </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -39,6 +50,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Create a reader account
 
@@ -62,7 +75,7 @@ For more detail about the information in this table, see [Access requirements in
 
     ![Reset Snowflake password](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. You may now use your username and new password to access your Workfront data lake in Snowflake or the business visualization tool of your choice.
+1. You may now use your username and new password to access your Data Connect data lake in Snowflake or the business visualization tool of your choice.
 
 ## Revoke a reader account
 

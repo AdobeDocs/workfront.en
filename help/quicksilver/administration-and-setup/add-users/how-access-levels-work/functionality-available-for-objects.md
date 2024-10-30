@@ -4,9 +4,9 @@ content-type: reference
 product-area: system-administration
 keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
-title: Functionality available for each object type for new access levels
+title: Functionality Available for Each Object Type for New Access Levels
 description: The following tables lists the functionality available for each object type in the various access levels.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
@@ -18,6 +18,11 @@ exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
 The following tables lists the functionality available for each object type in the various access levels.
 
 It also indicates which actions Workfront administrators can disable or enable using an access level.
+
+>[!NOTE]
+>
+>This article describes functionality available to access levels in the new Workfront plan model. To see functionality available in the current plan model, see [Functionality available for each object type for various access levels](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+
 
 ## Projects
 
@@ -33,8 +38,8 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Update custom fields         | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Add an approval process      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Approve a project            | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Add document                 | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Add issue                    | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Add document                 | ✓        | ✓      | ✓      | &nbsp;        |
+| Add issue                    | ✓        | ✓      | ✓      | &nbsp;        |
 | Add tasks                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Give updates/comments        | ✓        | ✓      | ✓      | &nbsp;        |
 | Change status                | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
@@ -102,7 +107,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Attach custom forms           | ✓        | ✓      | ✓           | &nbsp;        |
 | Edit custom fields            | ✓        | ✓      | ✓           | &nbsp;        |
 | Approve issues                | ✓        | ✓      | ✓           | &nbsp;        |
-| Add an approval process       | ✓        | ✓      | ✓           | &nbsp;        |
+| Add an approval process       | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Add documents                 | ✓        | ✓      | ✓           | &nbsp;        |
 | Copy issues                   | ✓        | ✓      | ✓           | &nbsp;        |
 | Move issues                   | ✓        | ✓      | ✓           | &nbsp;        |
@@ -319,7 +324,7 @@ Only users with a Standard license can have full access to resource management. 
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Edit priorities and budget hours in the Planner                | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
 | Create, edit, delete Resource Pools&#42;&#42;                  | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
+| Update Planned Hours in the Workload Balancer&#42;&#42;&#42;   | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
 | View project priorities in the Resource Planner                | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
 | View resource allocation in the Resource Planning tools        | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
 | View Resource Pools                                            | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
@@ -379,3 +384,4 @@ Only users with a Standard license can have full access to resource management. 
 | View the Check-in area in the left panel |&nbsp; |✓ |
 | View the Settings area in the left panel |✓ |✓  |
 | Print a list of goals |✓ |✓  |
+

@@ -91,13 +91,11 @@ For information about creating a report, see [Create a custom report](../../../r
    >
    >To edit a view using text mode, you must edit one column at a time.
 
-1. Click **Switch to Text Mode** in the upper-right corner of the builder.
+1. Click **Switch to Text Mode** in the upper-right corner of the builder, then click **Edit Text Mode**.
 
    >[!NOTE]
    >
    >When you edit a column in text mode, Workfront adds the `textmode=true` line of code to the column. This indicates that the column is modified in text mode.
-
-   ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
    The following table outlines the key lines in a text mode view:
 

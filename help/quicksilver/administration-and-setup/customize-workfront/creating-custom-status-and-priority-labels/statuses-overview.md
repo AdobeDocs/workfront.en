@@ -3,7 +3,7 @@ user-type: administrator
 content-type: overview
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Statuses overview
+title: Statuses Overview
 description: To find out what the current state of development is for a project, task, or issue, a user can view its status.
 author: Lisa
 feature: System Setup and Administration

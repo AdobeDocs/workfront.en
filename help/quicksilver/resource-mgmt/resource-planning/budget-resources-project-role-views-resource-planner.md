@@ -1,9 +1,9 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Budget resources in the Resource Planner using the Project and Role views
+title: Budget Resources in the Resource Planner Using the Project and Role Views
 description: You can budget resources in the Adobe Workfront Resource Planner using the Project and Role views. You cannot budget resourcing using the User view in the Resource Planner. 
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
 ---
@@ -27,6 +27,8 @@ Before starting to budget information in the Resource Planner, see the following
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -34,27 +36,31 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro and higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+    <td><p>New: Any</p>
+       <p>or</p>
+       <p>Current: Pro or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Resource Management that includes access to&nbsp;Edit priorities and budget hours in the Resource Planner</p> <p>Edit access to Financial Data to budget resources byCost</p> <p>Edit access to Projects and Users</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Resource Management that includes access to Edit priorities and budget hours in the Resource Planner</p> <p>Edit access to Financial Data to budget resources by Cost</p> <p>Edit access to Projects and Users</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the projects you want to budget information for</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to the projects you want to budget information for</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Budget resources in the Resource Planner
 
@@ -68,9 +74,8 @@ You must have the following access to perform the steps in this article:
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is linked to the Budgeting Project Resources in the Business Case article)</p>
 -->
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Click **Resourcing**. 
 1. The **Planner** displays by default.  
 1. (Conditional) Select the **View by Project** view. 
 1. Expand the projects and the job roles to manage the allocation for the project, job roles, or users. 
@@ -81,9 +86,7 @@ You must have the following access to perform the steps in this article:
    * Click the **More** menu for the job role of the user, then click **Set Users' Planned Hours as Budgeted**.  
      The Budgeted Hours of each user are calculated using the following formula:
 
-     ```   
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. To budget allocation for job roles, do one of the following:
 
@@ -96,17 +99,13 @@ You must have the following access to perform the steps in this article:
    * (Conditional) If you have budgeted hours for users, click the **More** menu for the job role, then click **Total Users' Budgeted Hours for Role**.  
      The Budgeted Hours for each role are calculated using the following formula:
 
-     ```   
-     Role Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(User Budgeted Hours)`
 
    * Click the **More** menu for the project, then click **Set Roles' Planned Hours as Budgeted**.  
      The Budgeted Hours for each role are calculated using the following formula:  
      * 
    
-     ```   
-     Role Budgeted Hours = Role Planned Hours
-     ```   
+     `Role Budgeted Hours = Role Planned Hours`
    
      >[!NOTE]
      >   
@@ -126,9 +125,7 @@ You must have the following access to perform the steps in this article:
    * Budget the roles under the project, as described in Step 7.  
      The Project Budgeted Hours is calculated by the following formula:
 
-     ```   
-     Project Budgeted Hours = SUM(Role Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(Role Budgeted Hours)`
 
    * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the project.  
      This updates the Role Budgeted Hours, as described in Step 7.  
@@ -169,9 +166,7 @@ To budget allocations in the Resource Planner in the**** Role view:
    * Click the **More** menu for the project, then click **Set Users' Planned Hours as Budgeted**.  
      The Budgeted Hours of each user are calculated using the following formula:
 
-     ```   
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. To budget allocation for job roles, do one of the following:
 
@@ -181,15 +176,11 @@ To budget allocations in the Resource Planner in the**** Role view:
    * Click the **More** menu for the job role, then click **Set Projects' Planned Hours as Budgeted.**The Role Budgeted Hours are calculated using the following formula:  
      * 
    
-     ```   
-     Role Budgeted Hours = SUM(Project Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
      *The Project Budgeted Hours are calculated using the following formula:
 
-     ```   
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
    * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the projects listed under the job role.  
      This adds the number of Project Budgeted Hours to the role.
@@ -207,23 +198,19 @@ To budget allocations in the Resource Planner in the**** Role view:
    * Click the **More** menu for the job role, then click **Set Projects' Planned Hours as Budgeted**.  
      The Project Budgeted Hours are calculated by the following formula:
 
-     ```   
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
      The Project Budgeted Hours are added to the Role Budgeted Hours. 
    
    * (Conditional) If you have budgeted the hours for the users, click the **More** menu for the project, then click **Total Users' Budgeted Hours for Project**.  
      The Project Budgeted Hours is calculated using the following formula:
 
-     ```   
-     Project Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(User Budgeted Hours)`
 
      ![budget_by_role.png](assets/budget-by-role-350x181.png)
 
 1. Click **Save**.  
-   After you budget your resources in the Resource Planner, the Budgeted Hours for your resources and any cost associated with them are listed in the Business Case of every project.  
+   After you budget your resources in the Resource Planner, the Budgeted Hours for your resources and any cost associated with them are listed in the Business Case of every project.
    For more information about understanding the Resource Budgeting area of the Business Case, see the article [Budget resources in the Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 1. (Optional) Select the **View by User** view to notice any user overallocations or underutilization between the Available and the Planned Hours for each user. Budgeted Hours are not visible in the View by User view.

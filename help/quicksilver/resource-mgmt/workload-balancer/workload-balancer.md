@@ -2,7 +2,7 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: The Workload Balancer
+title: "The Workload Balancer: Article Index"
 description: The Workload Balancer is a resource scheduling tool in Adobe Workfront that allows you to assign tasks and issues to your people resources. 
 author: Lisa
 feature: Resource Management

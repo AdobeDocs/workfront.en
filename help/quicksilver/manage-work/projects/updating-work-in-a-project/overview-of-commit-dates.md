@@ -55,7 +55,7 @@ Consider the following when working with commit dates:
 You can find the Commit Date ot tasks and issues in the following areas of Workfront:
 
 * The Details page
-* The Summary panel, after a Workfront or group administrator adds it to your layout template. For information, see [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). 
+* The Summary panel, after a Workfront or group administrator adds it to your layout template. For information, see [Customize the Summary panel using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). 
 * The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). 
 
 ## Notifications and updates triggered by changing the Commit Date {#notifications-and-updates-triggered-by-changing-the-commit-date}
@@ -87,7 +87,7 @@ Manually setting the Commit Date for a task or issue triggers the following chan
   >For more information, see the following articles:
   >
   >* [Summary overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-  >* [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+  >* [Customize the Summary panel using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
   >* [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 <!--this is no longer possible: 

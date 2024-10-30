@@ -3,9 +3,9 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: group,projects
 navigation-topic: work-with-a-groups-objects
-title: Create and modify a group's projects
+title: Create and Modify a Group's Projects
 description: When you are viewing a group that you manage in the Groups area, you can create, edit export, copy, and delete the group's projects.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
@@ -20,6 +20,8 @@ When you are viewing a group that you manage in the Groups area, you can view an
 If there are any groups above your group, their administrators can also do these things for your group. The same is true for Workfront administrators (for any group).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -48,9 +50,11 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## View, work with, and create projects for your group from the Groups area
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 

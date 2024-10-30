@@ -1,5 +1,5 @@
 ---
-title: Configure event notifications for everyone in the system
+title: Configure Event Notifications for Everyone in the System
 description: Event notifications trigger emails to users when a certain event occurs. As an Adobe Workfront administrator or a user with a Planner access level, you can configure an event notification for all users in the system. Configuration of an event notification consists of activating or deactivating it.
 author: Nolan
 feature: System Setup and Administration

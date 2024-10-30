@@ -1,8 +1,8 @@
 ---
 product-area: programs
 navigation-topic: create and manage programs
-title: Edit programs
-description: You can edit information on programs that you have created, or that other users have created if they shared them with you.
+title: Edit Programs
+description: You can edit information on programs that you have created, or that other users have created if they shared them with you. This article describes how you can search for, find, and edit a program, if you have the permissions to do so.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
@@ -15,6 +15,9 @@ You can edit a program in the program page or you can edit programs in a list.
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -22,25 +25,27 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>New: [!UICONTROL Standard] </p><p>Or </p><p>Current: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>[!UICONTROL Edit] access to Programs</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information about access to programs in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md" class="MCXref xref">Grant access to programs</a>. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>[!UICONTROL Edit] access to Programs</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>[!UICONTROL Manage] permissions to a program</p> <p> For information about granting permissions to programs, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md" class="MCXref xref">Share a program </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a program</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Edit programs
 
@@ -157,7 +162,7 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >Depending on how your [!DNL Workfront] administrator set the permissions for the sections in your custom form, not everyone can view or edit the same fields on a given custom form. The permissions to edit fields within a section of a custom form depend on the permissions you have on the program itself. For information about setting permissions on sections of a custom form, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Depending on how your [!DNL Workfront] administrator set the permissions for the sections in your custom form, not everyone can view or edit the same fields on a given custom form. The permissions to edit fields within a section of a custom form depend on the permissions you have on the program itself. For information about setting permissions on sections of a custom form, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Update any fields in the custom forms, then click **[!UICONTROL Save Changes]** or continue with the following section.
 

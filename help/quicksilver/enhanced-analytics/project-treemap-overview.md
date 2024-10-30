@@ -18,7 +18,9 @@ The Project treemap visualization is a view of hours—or days—that have been 
 
 ## Access requirements
 
-You must have the following:
++++ Expand to view access requirements. 
+
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,6 +50,8 @@ You must have the following:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisites
 

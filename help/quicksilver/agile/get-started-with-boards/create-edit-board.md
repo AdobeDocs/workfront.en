@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Create or edit a board
+title: Create or Edit a Board
 description: From the [!UICONTROL boards] dashboard, you can create a new board or edit an existing board.
 author: Lisa
 feature: Agile
@@ -68,7 +68,7 @@ For more detail about the information in this table, see [Access requirements in
 
       >[!NOTE]
       >
-      >The card limit for dynamic boards is 700 tasks and 700 issues, for a total of 1,400 cards. High numbers of cards on the board can affect the board performance.
+      >The card limit for dynamic boards is 700 tasks and 700 issues, for a total of 1,400 cards. High numbers of cards on the board can affect the board performance. All archived cards, both hidden and visible, count toward this limit.
 
    1. (Optional) Select [!UICONTROL **Do not archive completed cards**] to bring completed tasks and issues onto the board as visible cards in the Completed column. When this option is not selected, completed cards at the time of board creation are brought onto the board as archived cards.
    
@@ -101,6 +101,8 @@ For more detail about the information in this table, see [Access requirements in
 
 1. On the dashboard, select the board to open.
 1. Edit the board as needed. You can click on the board name to rename it.
+   
+   To synchronize connected cards with Workfront and bring new tasks and issues onto the board or intake column, click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) next to the board name and select **[!UICONTROL Sync connected items]**.
 
    For information, see [Add or remove members from a board](../../agile/get-started-with-boards/add-members-to-board.md), [Manage board columns](../../agile/get-started-with-boards/manage-board-columns.md), and [Add a card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 

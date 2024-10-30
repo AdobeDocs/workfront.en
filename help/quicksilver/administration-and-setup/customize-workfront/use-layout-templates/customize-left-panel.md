@@ -1,5 +1,5 @@
 ---
-title: Customize the left panel using a layout template
+title: Customize the Left Panel Using a Layout Template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -10,6 +10,8 @@ role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
 ---
 # Customize the left panel using a layout template
+
+<!--Audited: 10/2024-->
 
 In a layout template, you can customize what users see in the left panel area throughout [!DNL Adobe Workfront].
 
@@ -29,6 +31,8 @@ After configuring a layout template, you must assign it to users for changes you
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -36,50 +40,50 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard</p>
+  <p> Current: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> To perform these steps at the system level, you need the [!UICONTROL System Administrator] access level.<p>To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE</b>: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>To perform these steps at the system level, you need the System Administrator access level.
+To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
 ## Customize the left panel for an area in [!DNL Workfront]:
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Click the down arrow ![](assets/dropdown-arrow.png) under **[!UICONTROL Customize what users see]**, then click the left panel you want to customize.
+1. Click the down arrow ![](assets/dropdown-arrow.png) under **[!UICONTROL Customize what users see]**, then click the name of an object type or a [!DNL Workfront] area whose left panel you want to customize.
 
-   >[!NOTE]
-   >
-   >For information about the [!UICONTROL Home] option in this drop-down list, see [Customize [!UICONTROL Home] and [!UICONTROL Summary] using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). For information about the Lists option, see [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   The object types and [!DNL Workfront] areas whose left panel you can customize are listed in the following table: 
 
-1. In the **[!UICONTROL Left panel]** list, do any of the following to determine what will users see in the left panel for the option ([!DNL Workfront] area or object type) you have selected:
-
-   * Show ![](assets/add-secondary-nav-item.png) or hide ![](assets/delete-secondary-nav-item.png) items. Any item without ![](assets/add-secondary-nav-item.png) or ![](assets/delete-secondary-nav-item.png) cannot be hidden.
-
-   * Drag items ![](assets/move-icon---dots.png) to change their order on the left panel.
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <col> 
     <thead> 
      <tr> 
-      <th>Option</th> 
+      <th>Object type or [!DNL Workfront] area</th> 
       <th>When users click the following...</th> 
-      <th>They see the left panel items you choose from the following:</th> 
+      <th>Sections in the left panel that users see after you show them in the layout template:</th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
       <td>[!UICONTROL Project]</td> 
       <td>The name of a project</td> 
-      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [!UICONTROL Hours], [!UICONTROL Workload Balancer], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics]</td> 
+      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [!UICONTROL Hours], [!UICONTROL Workload Balancer], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Task]</td> 
@@ -94,12 +98,12 @@ You must have the following access to perform the steps in this article:
      <tr> 
       <td>[!UICONTROL Portfolio]</td> 
       <td>The name of a portfolio</td> 
-      <td>[!UICONTROL Projects], [!UICONTROL Programs], [!UICONTROL Portfolio Details], [!UICONTROL Portfolio] [!UICONTROL Optimization], [!UICONTROL Documents], [!UICONTROL Updates]</td> 
+      <td>[!UICONTROL Projects], [!UICONTROL Programs], [!UICONTROL Portfolio Details], [!UICONTROL Portfolio] [!UICONTROL Optimization], [!UICONTROL Documents], [!UICONTROL Updates], [!UICONTROL Planning]*</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Program]</td> 
       <td>The name of a program</td> 
-      <td>[!UICONTROL Projects], [!UICONTROL Program Details], [!UICONTROL Updates], [!UICONTROL Documents]</td> 
+      <td>[!UICONTROL Projects], [!UICONTROL Program Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Planning]*</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Template]</td> 
@@ -189,24 +193,40 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
+   *Your company must purchase an additional license for Workfront Planning to be able to add this area to the left panel of projects, portfolios, and programs. For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md)
+
+
+1. In the **[!UICONTROL Left panel]** list, do any of the following to determine what users will see in the left panel for the [!DNL Workfront] area or object type you have selected:
+
+   * Click the **Show** ![](assets/add-secondary-nav-item.png) or **Hide** ![](assets/delete-secondary-nav-item.png) icons to display or hide sections in the left panel. You cannot hide items that do not have a **Show** or **Hide** icon.
+
+   * Drag items ![](assets/move-icon---dots.png) to change their order on the left panel.
+
    >[!NOTE]
    >
-   >The last 3 items in the **[!UICONTROL Customize what users see]** drop-down list ([!UICONTROL Lists], [!UICONTROL Home and Summary], and [!UICONTROL Branding]) are for configuring areas other than the left panel. For information about them, see these articles:
->   
->* [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
->* [Customize [!UICONTROL Home] and [!UICONTROL Summary] using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
->* [Brand Adobe [!DNL Workfront] using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+   >The following items in the **[!UICONTROL Customize what users see]** drop-down list refer to areas other than the left panel:
+   >* [!UICONTROL Lists]
+   >* [!UICONTROL Summary panel]
+   >* [!UICONTROL Home]
+   >* [!UICONTROL Branding]
+   > 
+   >For information about how to customize the additional areas, see the following articles:
+   >
+   >* [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >* [Customize the [!UICONTROL Summary panel] using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) 
+   >* [Customize Home using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
+   >* [Brand Adobe [!DNL Workfront] using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. (Optional) If you want to add a left panel item that links to one of your organization's dashboards, click **[!UICONTROL Add custom section]**, type a **[!UICONTROL Custom section title]** for the item, then add the dashboard.
 
-   Dashboard items appear at the bottom of the left panel. Users see the Custom section title you type next to the dashboard item when they hover over the left panel.
+   Dashboard items appear at the bottom of the left panel. Users see the Custom section title you type next to the dashboard item when they hover over it in the left panel.
 
    >[!NOTE]
    >
-   >Users can add custom dashboard items to their own left panel. When you add custom dashboard items in a layout template, your items merge with theirs, without overwriting or resetting them. This is also true if you assign users to a new layout template with custom dashboard items. For information about how users can customize the left panel, see [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
-
-   For information about dashboards, see [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
+   >Users can add custom dashboard items to their own left panel. When you add custom dashboard items in a layout template, your items display in addition to the ones they add, without overwriting or resetting them. This is also true if you assign users to a new layout template with custom dashboard items. For information about how users can customize the left panel, see [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >
+   >For information about dashboards, see [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
 1. Continue customizing the layout template.
 
@@ -216,4 +236,4 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >You can click [!UICONTROL Save] at any time to save your progress, then continue to modify the template later.
+   >You can click [!UICONTROL **Save**] at any time to save your progress, which closes the layout template editor, then continue to modify the template later.

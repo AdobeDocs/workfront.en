@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: iterations
-title: Create an iteration
+title: Create an Iteration
 description: Iterations are a key component for Scrum agile teams in planning out work capacity. [!DNL Adobe Workfront] allows Scrum agile teams to manage their work by creating multiple iterations to accommodate team needs.
 author: Lisa
 feature: Agile
@@ -13,6 +13,8 @@ Iterations are a key component for Scrum agile teams in planning out work capaci
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -22,27 +24,31 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Review] or higher</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>New: [!UICONTROL Light] or higher</p> 
+   or
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Add an iteration
 
 Use the [!UICONTROL Add Iteration] feature to quickly create an iteration and add tasks and issues later.
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 
-1. On the **[!UICONTROL Iterations]** tab, click **[!UICONTROL Add Iteration]**.\
+1. On the **[!UICONTROL Iterations]** tab, click **[!UICONTROL Add Iteration]**.
    ![](assets/add-iteration-adobe-350x275.png)
 
 1. Specify the following:
@@ -84,7 +90,7 @@ Use the [!UICONTROL Add Iteration] feature to quickly create an iteration and ad
 
 Use the [!UICONTROL Plan Iteration] feature to create an iteration using tasks on your backlog.
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 
@@ -123,10 +129,10 @@ Use the [!UICONTROL Plan Iteration] feature to create an iteration using tasks o
     </tbody> 
    </table>
 
-1. (Optional) Select stories to add them to the iteration now, or you can skip this step and add stories to an iteration at a later time. The stories at the top of the backlog are higher priority. Stories are highlighted in green when they fit in the capacity; they are highlighted in red if they do not.\
+1. (Optional) Select stories to add them to the iteration now, or you can skip this step and add stories to an iteration at a later time. The stories at the top of the backlog are higher priority. Stories are highlighted in green when they fit in the capacity; they are highlighted in red if they do not.
    You can add both tasks and issues to a single iteration:
 
-   * **To add tasks to the iteration:** On the **[!UICONTROL Backlog]** tab, ensure that the **[!UICONTROL Stories]** tab is selected (this tab is selected by default when viewing the backlog). Select the stories you want to add to the iteration.\
+   * **To add tasks to the iteration:** On the **[!UICONTROL Backlog]** tab, ensure that the **[!UICONTROL Stories]** tab is selected (this tab is selected by default when viewing the backlog). Select the stories you want to add to the iteration.
 
       When you add tasks to an iteration, the start date of the task is calculated as described in [[!UICONTROL Understand] how task start dates are calculated when added to an iteration](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
 
@@ -145,4 +151,4 @@ When you add a task as a story to an iteration, the [!UICONTROL Must Finish On t
 
 The [!UICONTROL Project End Date] is used instead of the   if the project start date is after the iteration start date, and the project end date is after the iteration end date.
 
-You can configure individual Scrum teams to use the project dates by default, rather than the iteration dates. For information, see the section [Configure how dates are applied when adding work items to an iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in the article [Configure Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+You can configure individual Scrum teams to use the project dates by default, rather than the iteration dates. For information, see the section [Configure how dates are applied when adding work items to an iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) in the article [Configure Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).

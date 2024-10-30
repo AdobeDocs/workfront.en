@@ -3,9 +3,9 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 'Error: SSO Users are Unable to Log In to [!DNL Adobe Workfront] Due to Various Errors'
-description: When you receive a login error about federated single sign-on, your username/password combination, or your access to [!DNL Workfront], the problem might be that your [!DNL Workfront] instance uses SSO and you are trying to log in using an incorrect URL. Make sure you're logging in using the correct URL without anything after ".com".
-author: Caroline
+title: "Error: SSO Users are Unable to Log In to [!DNL Adobe Workfront] Due to Various Errors"
+description: When you receive a login error about federated single sign-on, your username/password combination, or your access to [!DNL Workfront], the problem might be that your [!DNL Workfront] instance uses SSO and you are trying to log in using an incorrect URL.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 92936761-cda3-41ab-88b1-ec1cac3900d4

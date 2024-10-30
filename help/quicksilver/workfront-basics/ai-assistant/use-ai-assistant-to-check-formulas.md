@@ -4,21 +4,55 @@ content-type: reference
 description: You can use AI Assistant to resolve errors in your invalid custom expressions in calculated fields.
 author: Becky
 feature: Get Started with Workfront
-hide: yes
-hidefromtoc: yes
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
 ---
-# Revise calculated field formulas with AI Assistant
+# Generate or revise calculated field formulas with AI Assistant
 
-You can use AI Assistant to resolve errors in your invalid custom expressions in calculated fields.
+You can use AI Assistant to generate formulas based on a prompt you provide. You can also resolve errors in your invalid custom expressions in calculated fields.
+
+## Access requirements
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>New: Prime or Ultimate</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Prerequisites
+
+* Your Workfront administrator must have enabled AI Assistant for your organization.
+
+    For more information, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in the article AI Assistant overview.
+* Your Workfront administrator must have enabled AI Assistant for your access level.
+
+   For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+
+<!--## Generate a calculated field expression-->
+
+## Revise a calculated field expression
 
 When you are creating the calculated field in the custom form builder, an error message appears under the field if the formula is invalid.
 
 ![Invalid expression error](assets/invalid-expression.png)
 
 AI Assistant can help you revise your formula into a valid calculated field expression.
-
-## Revise a calculated field expression
 
 To revise an invalid calculated field expression:
 
@@ -37,3 +71,4 @@ To revise an invalid calculated field expression:
 >We recommend testing the calculated field to ensure that it retrieves the expected result.
 
 For more information on calculated fields in Workfront, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+

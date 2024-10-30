@@ -3,7 +3,7 @@ content-type: reference
 product-area: agile-and-teams
 keywords: agile
 navigation-topic: agile-navigation-topic
-title: Get started with [!DNL agile] in [!DNL Adobe Workfront]
+title: Get Started with [!DNL Agile] in [!DNL Adobe Workfront]
 description: Review these articles to get started with agile in Workfront.
 author: Lisa
 feature: Agile

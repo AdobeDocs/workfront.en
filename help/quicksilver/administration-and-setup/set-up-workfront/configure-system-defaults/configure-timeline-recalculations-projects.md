@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;projects;setup
 navigation-topic: configure-system-defaults
-title: Configure timeline recalculations for projects
+title: Configure Timeline Recalculations for Projects
 description: Recalculating timelines allows managers to see how forces outside of the project are impacting the project's timeline. A project's timeline refers to the planned and projected dates for the project.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
@@ -19,7 +19,9 @@ This article describes how you, as a [!DNL Workfront] administrator, can determi
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,20 +33,27 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>New: [!UICONTROL Standard]</p>
+   Or
+   <p>Current: [!UICONTROL Plan]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>System administrator access level</p> <p><b>NOTE</b>: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configure automatic recalculations
 
 As an [!DNL Adobe Workfront] administrator, you can configure when [!DNL Workfront] automatically recalculates project timelines. [!DNL Workfront] can recalculate project timelines either every night or when the project scope changes, or both.
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner, or the [!UICONTROL **Main Menu**] icon ![](assets/lines-main-menu.png) in the upper-left corner of [!DNL Workfront], if available, then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects].**
 
@@ -62,6 +71,11 @@ As an [!DNL Adobe Workfront] administrator, you can configure when [!DNL Workfro
 1. Click **[!UICONTROL Save]**.
 
    The timeline of all projects in the system recalculates automatically based on the Update Type of each project.
+
+>[!IMPORTANT]
+>
+>For the Preview and Custom Refresh Sandbox environments, the nightly recalculation is disabled, and the project timelines are not recalculated automatically. You must manually recalculate the project timeline for the Preview and the Custom Refresh Sandbox environments. For information, see [Recalculate project timelines](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
 
 ## Recalculate timelines for the entire [!DNL Workfront] instance
 

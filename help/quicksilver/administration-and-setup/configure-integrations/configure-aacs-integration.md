@@ -1,7 +1,7 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration
+title: Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] Integration
 description: You can connect your work with your content in [!DNL Experience Manager Assets].
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
@@ -14,7 +14,7 @@ exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
 
 >[!IMPORTANT]
 >
->This functionality is available only to organization that have been onboarded to the [!DNL Adobe Admin Console].
+>This functionality is available only to organizations that have been onboarded to the [!DNL Adobe Admin Console].
 
 You can connect your work with your content in [!DNL Experience Manager Assets]â€‹:
 
@@ -33,36 +33,35 @@ You can connect your work with your content in [!DNL Experience Manager Assets]â
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following:
+You must have the following access to perform the steps in this article:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   <td>[!DNL Adobe Workfront] plan
    </td>
    <td>Any
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenses</strong>
+   <td>[!DNL Adobe Workfront] license
    </td>
-   <td>Current: [!UICONTROL Plan] <br>
-   New: [!UICONTROL Standard]
-   </td>
+   <td><p>Current: [!UICONTROL Plan]</p>
+   <p>New: [!UICONTROL Standard]</p></td>
   </tr>
   <tr>
-   <td><strong>[!DNL Experience Manager] license</strong>
+   <td>[!DNL Experience Manager] license
    </td>
    <td>[!UICONTROL Standard]
    </td>
   </tr>
   <tr>
-   <td><strong>Product</strong>
+   <td>Product
    </td>
    <td>You must have [!DNL Experience Manager Assets as a Cloud Service], and you must be added to the product as a user.
    </td>
   </tr>
   <tr>
-   <td>Access level configurations*
+   <td>Access level configurations
    </td>
    <td>You must be a [!DNL Workfront] administrator.
    </td>
@@ -72,7 +71,6 @@ You must have the following:
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Prerequisites
 
@@ -120,7 +118,7 @@ To configure metadata fields:
 1. Configure a metadata schema in [!DNL Experience Manager Assets] as explained in [Configure asset metadata mapping between Adobe [!DNL Workfront] and [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
 
-1. Configure custom form fields in Workfront. [!DNL Workfront] has many built-in custom fields you can use. However, you can also create your own custom fields as explained in [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Configure custom form fields in Workfront. [!DNL Workfront] has many built-in custom fields you can use. However, you can also create your own custom fields as explained in [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 +++ **Expand to see more information about supported Workfront and Experience Manager Assets fields** 
 
@@ -238,9 +236,11 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 ## Set up workflows (Optional)
 
-A workflow is a set of actions that connect Workfront to Adobe Experience Manager as a Cloud Service. As a Workfront administrator, you can configure workflows in Workfront, then assign them to Project Templates. When a Project is created using a Project Template to which a workflow is assigned, the actions defined in the workflow are triggered. 
+A workflow is a set of actions that connect Workfront to Adobe Experience Manager as a Cloud Service. As a Workfront administrator, you can configure workflows in Workfront, then assign them to Project Templates. 
 
-Workflows are enabled and configured for the Adobe Experience Manager as a whole. These workflows can then be applied to project templates, and adjusted or customized at the template or project level.
+When a Project is created using a Project Template to which a workflow is assigned, the actions defined in the workflow are triggered. 
+
+Workflows are enabled and configured for the Adobe Experience Manager as a whole. These workflows can then be applied to project templates. They can be adjusted or customized at the template level, or at the project level when a project is created from that template.
 
 The followings workflows are available in the Adobe Experience Manager integration:
 

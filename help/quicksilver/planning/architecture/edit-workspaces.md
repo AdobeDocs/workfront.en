@@ -1,12 +1,12 @@
 ---
 title: Edit Workspaces
 description: You can edit the information of an existing workspace, like rename it.
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
 ---
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Edit workspaces
 
@@ -23,6 +23,73 @@ All changes you make to a workspace are visible to all those who have at least V
 ## Access requirements
 
 +++ Expand to view access requirements for Workfront Planning. 
+
+You must have the following access to perform the steps in this article:  
+
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>Manage permissions to the workspace </p>   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Layout template</p></td> 
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+  </tr> 
+</tbody> 
+</table> 
+
+ *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--OLD
 
 <table style="table-layout:auto">
  <col>
@@ -79,33 +146,30 @@ All changes you make to a workspace are visible to all those who have at least V
 
 For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-+++ 
+-->
 
 ## Edit a workspace
 
 {{step1-to-planning}}
     
-1. (Conditional) If you are a Workfront administrator, click **My workspaces** to access workspaces you created, or **Other workspaces** to access workspaces others shared with you. <!--change it to Workspaces I'm on-->
+1. (Conditional) If you are a Workfront administrator, click **Workspaces I'm on** to access workspaces you created, or **Other workspaces** to access workspaces others shared with you. 
 
-1. Click a workspace card to open the workspace. 
+<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******-->
 
-<!--***********Replace the first step with this:*******
-
-1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have workspaces that display on more than two rows.
+1. (Optional) Click **Show all** to display additional workspaces. The **Show all** link displays only when you have more than two rows of workspace cards.
 1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
 1. To edit a workspace, do one of the following:
 
-   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card, then click **Edit**. 
-   * Click a workspace card to open the workspace. 
-   
-   ***********Add (Conditional) If you clicked a workspace card,**********-->
+   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
+      Or
+   * Click a workspace card to open the workspace, then click the **More** menu ![](assets/more-menu.png) to the right of the workspace name. 
+1. Click **Edit**.
 
-1. Click inside the name of the workspace in the header of the new workspace to rename it, then press **Enter**. 
-1. Click the **More** menu ![](assets/more-menu.png) to the right of the workspace name in the header, then click **Edit**.
+   The **Edit workspace** box displays.
 
    ![](assets/edit-workspace-box.png)
 
-   Update the following information in the **Edit workspace** box:
+1. Update the following information in the **Edit workspace** box:
 
    * Add a name for the workspace. <!--did they add a label for this field?-->
    * **Description**: Add information about the workspace. 

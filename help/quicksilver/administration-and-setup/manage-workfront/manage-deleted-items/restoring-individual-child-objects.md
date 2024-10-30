@@ -2,15 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: Restoring individual child objects
-description: This document describes how you can get help recovering individual child objects that have been deleted from your Adobe Workfront Production or Preview environments fewer than 30 days previously.
+title: Restore Individual Child Objects
+description: This article describes how you can get help recovering individual child objects that have been deleted from your Adobe Workfront Production or Preview environments fewer than 30 days previously.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
 ---
-# Restoring individual child objects
+# Restore individual child objects
 
-This document describes how you can get help recovering individual child objects that have been deleted from your Adobe Workfront Production or Preview environments fewer than 30 days previously.
+This article describes how you can get help recovering individual child objects that have been deleted from your Adobe Workfront Production or Preview environments fewer than 30 days previously.
 
 A Workfront administrator can restore projects, tasks, issues, and documents in each Workfront instance, as described in [Restore deleted items](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md). But only the Workfront Database Team can restore a objects such as tasks, issues, documents, custom forms, hours, and notes independently of their parent object.
 
@@ -34,7 +35,40 @@ For more information about the windows of maintenance for the Preview Sandbox en
 
 >[!IMPORTANT]
 >
->Documents are an exception to these methods of restoration. You can manually download them from the Preview Environment, and re-upload them into the Production environment. If you want to download and upload documents in bulk, you will need to request a data restore from Workfront. 
+>Documents are an exception to these methods of restoration. You can manually download them from the Preview Environment, and re-upload them into the Production environment. If you want to download and upload documents in bulk, you will need to request a data restore from Workfront.
+
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article: 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>Or</p>
+       <p>Current: Plan</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td>[!UICONTROL System Administrator]</td>
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Information needed for a data restore
 

@@ -4,8 +4,6 @@ content-type: reference
 description: You can quickly summarize work items and documents using the Summarize this functionality.
 author: Becky
 feature: Get Started with Workfront
-hide: yes
-hidefromtoc: yes
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
 ---
 # Summarize using AI Assistant
@@ -27,14 +25,72 @@ AI Assistant can summarize the following objects:
 >
 >For information on the Summary panel in Workfront, see [Summary overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-## Summarize an object
+## Access requirements
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>New: Any</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Prerequisites
+
+* Your Workfront administrator must have enabled AI Assistant for your organization.
+
+    For more information, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in the article AI Assistant overview.
+* Your Workfront administrator must have enabled AI Assistant for your access level.
+
+   For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+
+## Summarize using Summarize buttons
+
+The following areas have buttons that generate summaries using AI Assistant:
+
+* Project header: Summarize project
+* Updates area: Summarize comments
+
+To use the Summarize project or Summarize comments button:
+
+1. Click the button.
+
+   AI Assistant opens, with a prompt to summarize the project or the last 7 days of comments on the update stream.
+
+   AI Assistant may take a few moments to generate the summary, depending on how large or complex the object is.
+
+1. View the AI summary in the AI Assistant panel.
+1. (Optional) Refine the prompt to ensure that it gives you the information you need. 
+
+   For example, you can refine the Summarize Contents prompt to summarize comments for the last 14 days, instead of the last 7. 
+
+## Summarize an object in AI Assistant
 
 To see a summary of an object:
 
 1. Navigate to the object for which you want to see a summary. 
 1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
-1. In the AI Assistant panel, click **Summarize this**.
+1. In the AI Assistant panel, enter a prompt such as:
+
+   * Provide a summary in three sentences
+   * Summarize this
 
    AI Assistant may take a few moments to generate the summary, depending on how large or complex the object is.
 
 1. View the AI summary in the AI Assistant panel.
+

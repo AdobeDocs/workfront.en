@@ -1,8 +1,8 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: Edit portfolios
-description: You can edit information on portfolios that you have created, or that other users have created if they shared them with you.
+title: Edit Portfolios
+description: You can edit information on portfolios that you have created, or that other users have created if they shared them with you. This article describes how you can search for, find, and edit a portfolio, if you have the permissions to do so.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
@@ -22,9 +22,8 @@ You can edit a [!UICONTROL portfolio] in the portfolio page or you can edit port
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>New: Any</p>
-   <p>Current:[!UICONTROL Business] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe [!DNL Workfront] licenses*</td> 
@@ -170,7 +169,7 @@ You can edit a [!UICONTROL portfolio] in the portfolio page or you can edit port
 
    >[!NOTE]
    >
-   >Depending on how your [!DNL Workfront] administrator set the permissions for the sections in your custom form, not everyone can view or edit the same fields on a given custom form. The permissions to edit fields within a section of a custom form depend on the permissions you have on the portfolio itself. For information about setting permissions on sections of a custom form, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   >Depending on how your [!DNL Workfront] administrator set the permissions for the sections in your custom form, not everyone can view or edit the same fields on a given custom form. The permissions to edit fields within a section of a custom form depend on the permissions you have on the portfolio itself. For information about setting permissions on sections of a custom form, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Update any fields in the custom forms, then click **[!UICONTROL Save Changes]** or continue with the following section.
 

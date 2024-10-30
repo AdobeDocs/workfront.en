@@ -1,5 +1,5 @@
 ---
-title: Rename a custom form
+title: Rename a Custom Form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -14,6 +14,8 @@ exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
 You can rename a custom form any time after it has been created with the form designer.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -40,6 +42,8 @@ You must have the following to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Rename a custom form with the form designer 
 

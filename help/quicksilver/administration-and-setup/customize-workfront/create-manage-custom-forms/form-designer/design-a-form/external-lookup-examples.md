@@ -15,7 +15,7 @@ An External lookup field in a custom form calls an external API and returns valu
 
 This article provides examples of using the External lookup field to call the same instance of Workfront or a public API. You can also use the External lookup to communicate with an external system such as Jira, Salesforce, or ServiceNow.
 
-For more information about adding an External lookup field to a custom form and additional definitions of the external lookup components, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+For more information about adding an External lookup field to a custom form and additional definitions of the external lookup components, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Set up an External lookup field for the same instance of Workfront
 
@@ -29,10 +29,10 @@ This example shows how to call the Workfront API and bring data from the existin
 1. On the left side of the screen, find **External lookup** and drag it to a section on the canvas.
 1. Enter the **Label** and **Name** for the field.
 1. Select the **Format** for the field.
-1. Enter the API URL call in the **Base API URL** field.
+1. Enter the API call in the **Base API URL** field.
 
-   * You can add $$HOST to reference the same instance.
-   * You can add $$QUERY to filter the results based on querying a different field.
+   * To reference the same instance of Workfront that the custom form is in, use $$HOST for the URL.
+   * To filter the results based on querying a different field, add $$QUERY.
 
    **Example**
    `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
@@ -102,6 +102,18 @@ This example shows you to call the Workfront API and bring data from a custom fi
 1. Click **Apply**.
 
    When the custom form is added to a Workfront object, all of the values in the "Combo Colors" field appear in the External lookup field dropdown.
+
+## Set up an External lookup field for the Workfront Planning API
+
+An endpoint is available in the Workfront Planning API to search records by record type ID through the Get method. You can use this endpoint to reference Planning records in External lookup fields.
+
+* **Base API URL:** `$$HOST/maestro/api/v1/records/search?recordTypeId={recordTypeID}`
+* **HTTP Method:** Get
+* **JSON Path:** `$.records[*].data.{fieldID}`
+  
+  **{fieldID}** is the field to display in the External lookup search results on the custom form for end users.
+
+For more information, see [Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md). 
 
 ## Set up an External lookup field for a public API
 

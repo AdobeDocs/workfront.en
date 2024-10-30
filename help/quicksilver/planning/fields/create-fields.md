@@ -1,25 +1,14 @@
 ---
-title: Create fields
+title: Create Fields
 description: In Adobe Workfront Planning, you can create custom fields for each kind of record type. You can then associate the field with Workfront Planning records.
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 ---
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!---
-title: Create fields
-description: In Adobe Workfront Planning, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with records.
-hidefromtoc: yes
-hide: yes
-author: Alina
-feature: (*******************WE NEED A NEW ONE*******************)
-role: User, Administrator (************is this right???************)
-recommendations: noDisplay, noCatalog
---->
-
-<!--Should the structure of this article be like this one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -37,15 +26,85 @@ You can create fields in the following ways in Workfront Planning:
 
 * From scratch
 * By connecting record types
-* By importing record types using an Excel or CSV file
 * By creating a record type
 * By creating a workspace from a template
+<!--* By importing record types using an Excel or CSV file-->
 
 For more information about Workfront Planning fields, see [Field overview](/help/quicksilver/planning/fields/fields-overview.md).
 
 ## Access requirements
 
 +++ Expand to view access requirements for Workfront Planning. 
+
+You must have the following access to perform the steps in this article:  
+
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard </p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Layout template</p></td> 
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+  </tr> 
+</tbody> 
+</table> 
+
+ *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+
+<!--
+OLD:
 
 <table style="table-layout:auto">
  <col>
@@ -102,12 +161,8 @@ For more information about Workfront Planning fields, see [Field overview](/help
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-+++
+-->
 
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## Create fields from scratch {#create-fields-from-scratch} 
 
@@ -164,7 +219,7 @@ For more information about Workfront Planning fields, see [Field overview](/help
 
 ### Single-line text {#single-line-text}
 
-Single-line text fields capture limited alphanumeric information. For example,  you can capture the Owner, Stakeholder, Team, or Organizational unit information in a single-line text field. The content of a single-line text field can have up to 250 characters. <!-- asked Lilit if we can change this to "Single-line" since this can have numbers and text.-->
+Single-line text fields capture limited alphanumeric information. For example,  you can capture the Owner, Stakeholder, Team, or Organizational unit information in a single-line text field. The content of a single-line text field can have up to 1,000 characters. <!-- used to be 250 but just tested with 1000 and it allowed this as a maximum. -->
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Single-line text** field type.
 
@@ -184,9 +239,12 @@ Paragraph fields capture additional alphanumeric information about a record, sim
 
 >[!TIP]
 >
->* The content of a paragraph field can have up to 1,000 characters. 
+>* You can have a maximum of 20 paragraph fields for one record type.  
 >
->* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+>* The content of a paragraph field can have up to 10,000 characters.
+>* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+>
+ 
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Paragraph** field type.
 
@@ -213,8 +271,8 @@ You can use a multi-select field to capture additional information in any format
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
-     * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. 
-1. Click **Add choice** to add as many choices as needed. There is no limit to how many choices you can add to a multi-select field.
+     * **Choices**: The options that users can select when updating this field. You can use both numbers and letters for the name of each choice. 
+1. Click **Add choice** to add more choices. There is no limit to how many choices you can add to a multi-select field.
 1. (Optional) Manually drag and drop each choice in the desired order, or select the 
 **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Optional) To remove a choice, click the **x** icon to the right of it.
@@ -237,7 +295,7 @@ Single-select fields capture additional information in any format by selecting o
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
      * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. 
      
-1. Click **Add choice** to add as many choices as needed. There is no limit to how many choices you can add to a single-select field.     
+1. Click **Add choice** to add more choices. There is no limit to how many choices you can add to a single-select field.     
 1. (Optional) Manually drag and drop each choice in the desired order, or select the **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Optional) To remove a choice, click the **x** icon to the right of it.
 1. Click the color swatch to the left of a choice to expand the color selector and customize the color of each option. 
@@ -287,7 +345,7 @@ Number field types capture information in a number format.
 
     * **Name**: The name of the field type, as it will appear in a table or the record page. 
     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
-    * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimals.
+    * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimal places.
     * **Allow negative numbers**: Select this option if you want to allow negative numbers in this field. This option is unselected by default. 
     
     >[!NOTE]
@@ -309,7 +367,7 @@ Percentage field types capture information in a number format followed by a perc
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the record page. 
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
-    * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimals.
+    * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimal places.
     * **Allow negative numbers**: Select this option if you want to allow negative percentage values in this field. This option is unselected by default. 
 
     >[!NOTE]
@@ -386,12 +444,36 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
     >
     >* You cannot add Multi-select type fields in a formula.
     >
-    >* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a formula field for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Budget in the formula you are creating for the Activity record type. 
+    >* You can reference a field that is up to 4 fields (and objects) away from the current record type. For example, if you are creating a formula field for an Activity record type (1), and the Activity is connected to the Campaign record type (2) which is connected to a Workfront Project (3), you can reference the project's Budget field (4) in the formula you are creating for the Activity record type. 
+    >
+    >![](assets/formula-example-project-budget-four-fields-removed.png)
+    >
+
+1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
+
+    * **Text**: The result of the formula field displays as plain text. 
+    * **Number**: The result of the formula field displays as a number. 
+    * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
+    * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
+    * **Tags**: The result of the formula field displays as a tag with the object's name. 
     
+        >[!TIP]
+        >
+        >We recommend tags for fields that show arrays. In this case, each array member displays as a separate tag.
+        
+        ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+
+    * **Date**: The result of the formula field displays as a date. 
+
+        A preview of what the result will look like displays under the **Format** field. 
+
+        >[!WARNING]
+        >
+        >If the result of the formula does not match the selected format, the field will show an error message where it displays. 
+
 1. Click **Create**.
 
      The new formula field is added as a column to the record type, and its values can be associated with records.
-
 
 ### People
 
@@ -519,11 +601,11 @@ You can use the Last modified date field type to add the date when a record was 
 
 You can create linked record fields when you add a new connection between two record types, or a record type and an object types from other applications. 
         
-For information about connecting Workfront Planning record types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
+For information about connecting Workfront Planning record types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
-## Create fields by importing record types using an Excel or CSV file
+<!--## Create fields by importing record types using an Excel or CSV file
 
-For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
 
 ## Create fields by creating a record type
 

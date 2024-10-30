@@ -67,6 +67,12 @@ Returns the value path of an object or array. To access nested objects, use dot 
 
 Returns the `value1` if the expression is evaluated to true; otherwise it returns the `value2`.
 
+To create an if statement that returns a value only if two or more expressions are evaluated to true, use the `and` keyword. 
+
+To combine `if` statements, use the `and` and `or` operators.
+
+![and operator](/help/quicksilver/workfront-fusion/functions/assets/and-in-if-statement.png)
+
 >[!INFO]
 >
 >**Examples:** 
@@ -75,9 +81,14 @@ Returns the `value1` if the expression is evaluated to true; otherwise it return
 >
 >    Returns A
 >
->* `if( = 2 ; A ; B )`
+>* `if( 1 = 2 ; A ; B )`
 >
 >   Returns B
+>
+>*  `if( 1 = 2 and 1 = 2 ; A ; B )`
+>
+>    Returns B
+>   
 
 ## [!UICONTROL ifempty (value1; value2)]
 
@@ -101,7 +112,7 @@ Returns the `value1` if this value is not empty; otherwise it returns the `value
 
 ## [!UICONTROL switch (expression; value1; result1; [value2; result2; ...]; [else])]
 
-Evaluates one value (called the expression) against a list of values; returns the result corresponding to the first matching value.
+Evaluates one value (called the expression) against a list of values; returns the result corresponding to the first matching value. To include an  `else` value, add it after the final expression or value.
 
 >[!INFO]
 >
@@ -117,7 +128,9 @@ Evaluates one value (called the expression) against a list of values; returns th
 >
 >* `switch( X ; A ; 1 ; B ; 2 ; C ; 3 ; 4 )`
 >
->  Returns 4
+>   Returns 4
+>   
+>   In this function, 4 is the value to be returned if no expressions apply (the `else` value).
 
 ## [!UICONTROL omit(object; key1; [key2; ...])]
 
@@ -142,3 +155,8 @@ Picks only the given keys from the object.
 >`pick(` User `;` password `;` email `)`
 >
 >Returns a collection of only the user's password and email address.
+
+## mergeCollections(collection1 ; collection2)
+
+Merges two collections by combining their key-value pairs. If both collections contain the same key, the value from the second collection overwrites that value from the first collection.
+

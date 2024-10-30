@@ -1,9 +1,9 @@
 ---
 product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
-title: Define Request Types for a project
+title: Define Request Types for a Project
 description: You can organize the kind of issues or requests that are logged in Adobe Workfront by Request Types.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
 ---
@@ -15,6 +15,8 @@ This organization is useful for reporting reasons and for helping users understa
 
 ## Access requirements
 
++++
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -22,27 +24,30 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Licenses overview</a>*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+    <p>New: Standard</p>
+    <p>or</p>
+    <p>Current: Plan</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a project</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisites
 
@@ -60,7 +65,7 @@ Before you begin, you must do the following:
 
 ## Define the issue or request types for a project
 
-1. Click **Projects** in the Main Menu. ![](assets/main-menu-icon.png)
+{{step1-to-projects}}
 
 1. Click the name of the project to open it.
 1. In the left panel, click **Queue Details**. 
@@ -83,4 +88,4 @@ Before you begin, you must do the following:
 
 1. Click **Save**.
 
-   The request types you specified&nbsp;will be available to select when you enter a new issue on a task or a project, or when you submit a new request to the project, if the project is enabled as a request queue.
+   The request types you specified will be available to select when you enter a new issue on a task or a project, or when you submit a new request to the project, if the project is enabled as a request queue.

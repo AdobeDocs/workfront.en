@@ -1,5 +1,5 @@
 ---
-title: Customize the landing page using a layout template
+title: Customize the Landing Page Using a Layout Template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -13,6 +13,11 @@ exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
 
 As an Adobe Workfront administrator, you can use a layout template to specify the area you want users to see each time they log in to Workfront.
 
+Users can open one of the following: 
+
+* A designated Workfront area
+* A custom dashboard. 
+
 For information about creating layout templates, see [Create and manage layout templates](../use-layout-templates/create-and-manage-layout-templates.md). 
 
 For information about layout templates for groups, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
@@ -25,6 +30,8 @@ After configuring a layout template, you must assign it to users for changes you
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -36,25 +43,60 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard</p>
+  <p> Current: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
    <td> <p>To perform these steps at the system level, you need the System Administrator access level.
-To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Customize the landing page
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. In the **Top Navigation area**, click **Select landing page**, then select the area you want users to see when they log in.
 
+   Select from the following areas, or add a custom dashboard: 
+
+   * Analytics
+   * Calendars
+   * Dashboards
+   * Documents
+   * Goals
+   * Home
+   * My Updates
+   * Portfolios
+   * Programs
+   * Projects
+   * Reports
+   * Requests
+   * Resourcing
+   * Scenarios
+   * Teams
+   * Templates
+   * Timesheets
+   * Users
+   * Blueprints
+   * Planning
+
    >[!IMPORTANT]
    >
-   >To view the Scenarios and Goals areas requires additional licenses. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md) or for information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+   >To view the Scenarios, Goals, and Planning areas requires additional licenses. 
+   >
+   >* For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
+   >
+   >* For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+   >
+   >* For information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
 
 1. Continue customizing the layout template.
 

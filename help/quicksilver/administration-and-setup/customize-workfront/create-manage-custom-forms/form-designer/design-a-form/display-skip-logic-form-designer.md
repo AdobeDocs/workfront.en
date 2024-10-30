@@ -1,5 +1,5 @@
 ---
-title: Add display logic and skip logic to a form
+title: Add Display Logic and Skip Logic to a Form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -18,6 +18,8 @@ You can decide which sections of a custom form should be displayed or skipped ba
 >Logic only applies within one form and can't be based on selections from a different form.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -45,6 +47,8 @@ You must have the following to perform the steps in this article:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Display and skip logic icons
 
 Custom forms display icons to indicate which logic is applied to certain fields. Icons on a field in the form designer indicate that logic is applied to the field.
@@ -65,7 +69,7 @@ Select a field with logic applied to display the existing logic rules in the fie
 ## Considerations for using display logic and skip logic
 
 * To add display logic on a custom field, widget, or section break, at least one multiple choice field (radio buttons, dropdown, or check boxes) must be positioned prior to it on the form.
-For information about custom fields and widgets in custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+For information about custom fields and widgets in custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * You cannot add skip logic to a widget or section break. You can add it only to a multiple choice field (radio buttons, dropdown, or check boxes).
 * You can add both display logic and skip logic to a custom field if all of the following is true about the custom field:
 
@@ -88,7 +92,7 @@ Display logic defines which custom fields appear on the form when the user selec
 {{step-1-to-setup}}
 
 1. Click **Custom Forms**.
-1. Create a new custom form or open an existing form. See [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
+1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
 1. Add fields to the form as needed. At least one multiple choice field (radio button, dropdown, or check box) must be positioned prior to the target field that will display.
 1. Select the target field and click **Add Logic** on the lower left of the screen.
 1. Select the **Display Logic** tab.
@@ -118,7 +122,7 @@ Skip logic defines custom form fields that are skipped when the user selects a s
 {{step-1-to-setup}}
 
 1. Click **Custom Forms**.
-1. Create a new custom form or open an existing form. See [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
+1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
 1. Add fields to the form as needed. The defining field for skip logic must be a multiple choice field (radio button, dropdown, or check box).
 1. Select the defining field and click **Add Logic** on the lower left of the screen.
 1. Select the **Skip Logic** tab.

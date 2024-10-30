@@ -1,13 +1,13 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Add existing tasks or issues to an Adobe Workfront board or workstream
+title: Add Existing Tasks or Issues to a Workfront Board
 description: You can add any task or issue to a board in Adobe Workfront from a list or report view.
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
 ---
-# Add existing tasks or issues to an [!DNL Adobe Workfront] board or workstream
+# Add existing tasks or issues to a [!DNL Workfront] board
 
 >[!IMPORTANT]
 >
@@ -17,6 +17,8 @@ You can add any task or issue to a board or a workstream in [!DNL Adobe Workfron
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto">
@@ -24,26 +26,33 @@ You must have the following access to perform the steps in this article:
  <col>
  <tbody>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td>
    <td> <p>Any</p> </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td>
-   <td> <p>[!UICONTROL Work] or higher</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] license</td>
+   <td>
+   <p>New: [!UICONTROL Standard]</p> 
+   <p>or</p>
+   <p>Current: [!UICONTROL Work] or higher</p>
+   </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>Object permissions</strong></td>
-   <td> <p>[!UICONTROL View] or higher permissions to the task or issue</p> <p>For information on requesting additional access, see <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td>
+   <td role="rowheader">Object permissions</td>
+   <td>[!UICONTROL View] or higher permissions to the task or issue </td>
   </tr>
  </tbody>
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Add existing tasks or issues to a board or a workstream from a list
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront].
-1. Choose one of the following: **[!UICONTROL Projects]**, **[!UICONTROL Reporting]**, or **[!UICONTROL Dashboards]**.
+{{step1-click-main-menu}}
+
+1. Choose one of the following: **[!UICONTROL Projects]**, **[!UICONTROL Reports]**, or **[!UICONTROL Dashboards]**.
 1. Go to the project, report, or dashboard that contains the task or issue you want to add to the board or workstream.
 1. Select one or more tasks or issues.
 
@@ -64,7 +73,8 @@ You must have the following access to perform the steps in this article:
 
 ## Add existing task or issues to a board or a workstream from the object details
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront].
+{{step1-click-main-menu}}
+
 1. Click [!UICONTROL **Projects**], then click the name of a project to open it.
 1. Click [!UICONTROL **Tasks**] or [!UICONTROL **Issues**] in the left panel.
 1. Click the task, subtask, or issue you want to add to a board or workstream.

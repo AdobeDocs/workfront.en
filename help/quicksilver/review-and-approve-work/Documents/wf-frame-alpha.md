@@ -6,6 +6,8 @@ description: We are excited to announce the launch of our Beta program for Workf
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: yes
+hidefromtoc: yes
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
 ---
 # Beta Program –  Workfront + Frame.io
@@ -88,7 +90,6 @@ To help you manage and analyze your approval requests at a glance, we've added t
 
 You can drill down into the categories listed above for a more detailed view. The All Approvals widget is available in New Home and Canvas Dashboards.
 
-For more information, see [Get started with new Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ### Lock your review & approvals once an overall decision is made
 

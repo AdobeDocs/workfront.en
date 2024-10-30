@@ -2,13 +2,13 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner
+title: Overview of Hours, FTE, and Cost Information in the Project and Role Views of the Resource Planner
 description: Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
 ---
-# Overview of hours, FTE, and cost information in the Project and&nbsp;Role views of the Resource Planner
+# Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this came from the budget-resources-project-role-views-resource-planner article)</p>
@@ -323,7 +323,7 @@ Consider the following when working with Budgeted Hours:
 
 >[!NOTE]
 >
->**When the NET Hours, FTE, or Cost display in red, there is not enough Available time or budget to cover either the Budgeted** or the Planned time or cost associated with the work. In this case, the resources are overallocated.
+>When the NET Hours, FTE, or Cost display in red, there is not enough Available time or budget to cover either the Budgeted or the Planned time or cost associated with the work. In this case, the resources are overallocated.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>

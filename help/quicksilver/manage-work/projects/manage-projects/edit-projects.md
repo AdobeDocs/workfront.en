@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: Edit projects
-description: You can edit a project in Adobe Workfront as often as needed. Ideally, you should edit a project when the project is in the Planning status.
+title: Edit Projects
+description: You can edit a project in Adobe Workfront as often as needed. Ideally, you should edit a project when the project is in the Planning status. This article describes how you can search for, find, and edit a project, if you have the permissions to do so. 
 author: Alina
 feature: Work Management, Projects
 role: User
@@ -334,7 +334,7 @@ To edit information on custom forms when editing a project:
 
    >[!NOTE]
    >
-   >You must build the custom forms before they are available to select in this field. Only active custom forms appear in the list. For more information about building custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). You can add up to ten custom forms to a project. 
+   >You must build the custom forms before they are available to select in this field. Only active custom forms appear in the list. For more information about building custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). You can add up to ten custom forms to a project. 
 
 
 1. (Conditional) If you attached a custom form to the project, edit any fields on the form. You must specify all required fields before you can save the project.
@@ -556,7 +556,7 @@ For information about how these settings affect creating new tasks, see the sect
    * When you select multiple projects from the same group, both system-level and group-specific task approval processes display in this field.
    * When you select multiple projects from different groups, only system-level task approval processes display in this field.
 
-1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to the project. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. For more information about building custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). You can associate up to ten custom forms with a task.
+1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to the project. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. For more information about building custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). You can associate up to ten custom forms with a task.
 1. (Optional) Select **Use Work Effort to automatically calculate task Planned Hours** if you want to enable managing task effort by using Work Effort instead of Planned Hours.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)

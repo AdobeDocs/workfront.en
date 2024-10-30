@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Reorder system-level and group statuses
+title: Reorder System-Level and Group Statuses
 description: As a Workfront administrator, you can change the order of project, task, and issue statuses for everyone in the system or for a single group.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
@@ -29,24 +29,36 @@ As a Workfront administrator, you can change the order of project, task, and iss
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan* </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td>Any</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> <p>You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+     <p>New: Standard</p>
+     <p>or</p>
+     <p>Current: Plan</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Default order of statuses
 
@@ -102,7 +114,7 @@ By default, statuses display in the following order:
 
 ## Reorder statuses for tasks and projects system wide or for a group
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Project Preferences > Statuses**.
 1. (Conditional) If you are reordering statuses for a group, start typing the name of the group in the box in the upper-right corner, then click the name when it appears.

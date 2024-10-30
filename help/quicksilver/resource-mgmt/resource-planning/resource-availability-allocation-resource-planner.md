@@ -1,9 +1,9 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Review resource availability and allocation using the Adobe Workfront Resource Planner
+title: Review Resource Availability and Allocation using the Adobe Workfront Resource Planner
 description: You can view the availability of your resources and the amount of planned or budgeted work for your projects in the Resource Planner. These values are displayed in Hours, FTE (Full Time Equivalent), or Cost amounts and are organized in columns.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
 ---
@@ -13,6 +13,8 @@ You can view the availability of your resources and the amount of planned or bud
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -20,39 +22,37 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro and higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>New: Any</p>
+       <p>or</p>
+       <p>Current: Pro or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Review or higher </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Light or higher</p>
+       <p>or</p>
+       <p>Current: Review or higher</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>View or higher access to the following:</p> 
     <ul> 
      <li> <p>Resource Management</p> </li> 
      <li> <p>Financial Data</p> </li> 
      <li> <p>Users</p> </li> 
      <li> <p>Projects</p> </li> 
-    </ul> <p><b>NOTE</b>
-    
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects you want to view in the Resource Planner</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View or higher permissions to the projects you want to view in the Resource Planner</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--note from the table about the license: Review or higher: 
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       (waiting on Vazgen to confirm - working differenly in classic)
-      </MadCap:conditionalText>
-     -->
++++
 
 ## Prerequisites
 
@@ -167,9 +167,7 @@ Consider the following when changing your view to the Resource Planner:
 
    When selecting this option Workfront calculates the Net values using the following formula:
 
-   ```
-   Net = Available - Planned
-   ```
+   `Net = Available - Planned`
 
    >[!TIP]
    >

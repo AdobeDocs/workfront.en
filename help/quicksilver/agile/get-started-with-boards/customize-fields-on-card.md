@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: customize-fields-on-card
-title: Customize which fields are displayed on a card
+title: Customize which Fields are Displayed on a Card
 description: You can customize which fields are displayed on a card by disabling a field so it is not displayed in the full card or condensed view, or hiding a field on the condensed card view.
 author: Lisa
 feature: Agile
@@ -26,30 +26,37 @@ You can also display custom fields that were previously created. You can't desig
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
-  </tr>
-   </tbody> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>New: [!UICONTROL Contributor] or higher</p> 
+   <p>or</p>
+   <p>Current: [!UICONTROL Request] or higher</p>
+   </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configure cards {#configure-cards}
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
 1. Click [!UICONTROL **Configure**] on the right of the board to open the Configure panel.
 1. Expand [!UICONTROL **Cards**].

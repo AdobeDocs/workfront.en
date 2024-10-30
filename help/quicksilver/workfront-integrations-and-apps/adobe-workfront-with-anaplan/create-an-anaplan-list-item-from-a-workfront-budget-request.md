@@ -32,7 +32,7 @@ You must have the following access to use the functionality in this article:
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"[!DNL >Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
   </tr> 
   <tr> 
@@ -93,7 +93,7 @@ You must have the following in [!DNL Workfront] to use this scenario:
    </tbody> 
   </table>
 
-   For information on creating custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   For information on creating custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Project templates representing campaigns and other projects requiring funding, configured with a [!UICONTROL Budget Request] queue topic. The [!UICONTROL Budget Request] queue topic is assigned to use the [!UICONTROL Budget Request] custom form.
 * A **[!UICONTROL Campaign Brief]** form for the project object.
@@ -135,7 +135,7 @@ You must have the following in [!DNL Workfront] to use this scenario:
    </tbody> 
   </table>
 
-   For information on creating custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   For information on creating custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Expected [!DNL Anaplan] Configuration
 

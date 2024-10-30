@@ -3,9 +3,9 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Automatic reminders vs. reminder notifications
-description: This article describes the differences between automatic reminders and reminder notifications and provides scenarios for each. For more information on all [!DNL Adobe Workfront] notifications, seeAdobe [!DNL Workfront] notifications.
-author: Caroline
+title: Automatic Reminders vs. Reminder Notifications
+description: This article describes the differences between automatic reminders and reminder notifications and provides scenarios for each.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 26c6fa2c-5c3a-4f53-bd7e-e49a623ff60d

@@ -4,9 +4,9 @@ content-type: reference
 product-area: system-administration
 keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
-title: Functionality available for each object type for various access levels
+title: Functionality Available for Each Object Type for Various Access Levels
 description: The following tables lists the functionality available for each object type in the various access levels.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
@@ -18,6 +18,10 @@ exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
 The following tables lists the functionality available for each object type in the various access levels.
 
 It also indicates which actions Workfront administrators can disable or enable using an access level.
+
+>[!NOTE]
+>
+>This article describes functionality available to access levels in the current Workfront plan model. To see functionality available in the new plan model, see [Functionality available for each object type for new access levels](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
 
 ## Projects
 
@@ -351,7 +355,7 @@ Users with a Plan license can have full access to reports. All other Access Leve
   </tr> 
   <tr> 
    <td>Edit, delete, deactivate, log in as, or reset the password for any user</td> 
-   <td>✓*</td> 
+   <td>✓*<p><b>NOTE</b>: You can not log in as any user that is a system administrator.</p></td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
@@ -359,7 +363,7 @@ Users with a Plan license can have full access to reports. All other Access Leve
   </tr> 
   <tr> 
    <td>Edit, delete, deactivate, log in as, or reset the password for any user in a group they administer</td> 
-   <td>✓*</td> 
+   <td>✓*<p><b>NOTE</b>: You can not log in as any user that is a system administrator.</p></td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
@@ -513,7 +517,7 @@ Only users with a Plan license can have full access to [select object or area]. 
 |---|---|---|---|---|---|
 | Edit priorities and budget hours in the Planner |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Create, edit, delete Resource Pools&#42;&#42; |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | `✓*`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Update Planned Hours in the Workload Balancer&#42;&#42;&#42; | ✓*  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | View project priorities in the Resource Planner | ✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | View resource allocation in the Resource Planning tools | ✓&#42; |✓&#42; |✓&#42; |&nbsp; |&nbsp; |
 | View Resource Pools | ✓&#42; |✓&#42; |✓&#42; |&nbsp; |&nbsp; |
@@ -567,4 +571,5 @@ Only users with a Plan license can have full access to [select object or area]. 
 | View the Goal List section in the left panel |✓ |✓ |
 | View the Graphs section in the left panel |✓ |✓ |
 | View the Goal Alignment section in the left panel |✓ |✓ |
+
 

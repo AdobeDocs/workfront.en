@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Configure default proof settings
+title: Configure Default Proof Settings
 description: These settings allow you to set default values that apply to all new proofs created by your users. However, users can override most of these settings when creating a proof.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
@@ -13,9 +13,42 @@ exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
 
 These settings allow you to set default values that apply to all new proofs created by your users. However, users can override most of these settings when creating a proof.
 
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td>
+   <p>New: Standard</p>
+   or
+   <p>Current: Plan</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
+
 ## Configure new proof default settings
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup**.
+{{step-1-to-setup}}
+
 1. In the left panel, click **Proofs** > **Proof settings**.
 1. In the **New proof defaults** section, configure the following settings:
 
@@ -75,7 +108,8 @@ Users can use proof decisions to indicate the status of the proof after review.
 
 To configure proof decisions:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup**.
+{{step-1-to-setup}}
+
 1. In the left panel, click **Proofs** > **Proof settings**.
 1. In the **Decisions**section, you can
 

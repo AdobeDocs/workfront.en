@@ -59,9 +59,13 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## View incomplete executions
 
-If a module encounters an error during its operation, a new incomplete execution is added to the Incomplete executions folder. Each incomplete execution contains the scenario's blueprint and all the bundles that can be mapped into the failed module. The list of incomplete executions can be opened by clicking on the [!UICONTROL Incomplete Executions] tab on the scenario detail page:
+If a module encounters an error during its operation, a new incomplete execution is added to the Incomplete executions folder. Each incomplete execution contains the scenario's blueprint and all the bundles that can be mapped into the failed module. The list of incomplete executions can be opened by clicking on the [!UICONTROL Incomplete Executions] tab on the scenario detail page.
+
+<!--
 
 ![](assets/incomplete-executions-tab-350x102.png)
+
+-->
 
 For more information, see [Errors resulting into incomplete executions](#errors-resulting-into-incomplete-executions).
 

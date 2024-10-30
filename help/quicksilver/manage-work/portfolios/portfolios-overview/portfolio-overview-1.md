@@ -2,14 +2,14 @@
 content-type: overview;reference
 product-area: portfolios
 navigation-topic: portfolios-navigation-topic
-title: Portfolios
-description: Find out information about portfolios in the following articles. 
+title: "Portfolios: Article Index"
+description: A Portfolio is a collection of projects that have unifying characteristics. Find out information about portfolios in the following articles. 
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 655c655c-4bfe-44c8-bbb5-0222b0d158eb
 ---
-# Portfolios
+# Portfolios: article index
 
 This section contains the following articles:
 

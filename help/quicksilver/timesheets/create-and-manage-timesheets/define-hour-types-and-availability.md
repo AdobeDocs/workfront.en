@@ -1,13 +1,15 @@
 ---
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
-title: Define hour types and availability
+title: Define Hour Types and Availability
 description: An Hour Type is a label that allows you to categorize time entry. Depending on the reporting requirements of your organization for hours, this can be an essential part of logging time.
 author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
 ---
 # Define hour types and availability
+
+<!--Audited: 10/2024-->
 
 An Hour Type is a label that allows you to categorize time entry. Depending on the reporting requirements of your organization for hours, this can be an essential part of logging time.
 
@@ -28,6 +30,8 @@ You must have the following access to perform the steps in this article:
 
 +++ Expand to view access requirements for the functionality in this article.
 
+You must have the following access and permissions to perform the steps described in this article: 
+
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -35,15 +39,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan or higher</p> </td> 
+   <td> <p>New: Standard</p> 
+   <p>Current: Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>System administrator access to define system-wide hour types and to edit all users</p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +59,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -66,24 +72,32 @@ The system administrator determines which project-specific hour types are made a
 The project owner determines whether all hour types defined at the system level are available on the project (and tasks and issues within the project), or whether only a subset of those hour types are available. 
 
 1. Go to the project where you want to determine the availability of hour types.
-1. Click the **More** menu next to the task name, then click **Edit**.
+1. Click the **More** menu next to the project name in the header, then click **Edit**.
+   The **Edit Project** box opens. 
 
-1. Click **Edit Project**.
-1. In the **Settings** section, locate the **Filter Hour Types** option.  
+1. In the **Project Settings** section, locate the **Filter Hour Types** setting.  
 
 1. Select **No** to make all project-specific hour types available on the project.
 
    Or
 
-   Select **Yes** to make only a subset of the project-specific hour types available on the project, then select the hour types you want to make available. (Hold the Shift key to select multiple hour types.)
+   Select **Yes** to make only a subset of the project-specific hour types available on the project, then select the hour types you want to make available. 
+   
+   Hold the Shift key to select multiple hour types.
 
-   If you select this option, only the hour types you select are made available to select when logging hours on the project (or on tasks and issues within the project). If you select this option and you do not select any hour types, the project displays only general hour types.
+   >[!NOTE]
+   >
+   >   Consider the following: 
+   >   
+   >   * If you select **Yes**, only the hour types you select are made available to select when logging hours on the project (or on tasks and issues within the project). 
+   >   
+   >   * If you select **Yes** and you do not select any hour types, the project displays only general hour types.
+   >
+   >   * The same selections must be made at the individual user level in order for the user to see these hour type options on the project.
+   >
+   >   * When the user's Default Hour Type and a project Filtered Hour Type match, that hour type is selected by default when logging time. 
 
-   The same selections must be made at the individual user level in order for the user to see these hour type options on the project.
-
-   When the user Default Hour Type and a project Filtered Hour Type match, that hour type is selected by default when logging time. 
-
-1. Click **Save Changes**.
+1. Click **Save**.
 
 ## Define availability at the user level
 
@@ -93,12 +107,21 @@ If you make an hour type available at the user level as described in this sectio
 
 To define the hour types that are available to a user:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user avatar in the upper-left corner
 
-1. Click your user avatar in the upper-left corner.
+   Or
+
+   Click the **Main Menu** icon ![](assets/adobe-main-menu.png) in the upper-right corner, if available, then click **Workfront Profile**.
+
 1. Click the **More** menu next to the user name, then click **Edit**.
 
-1. Only a system administrator can edit other users. If you have a Plan license, you can edit the hour types on your own profile.
+   The **Edit Person** box opens.
+
+      >[!IMPORTANT]
+      >
+      >Only a system administrator can edit other users. If you have a Plan license, you can edit the hour types on your own profile.
+
+
 1. In the **Resource Planning** section, in the **Available Hour Types** drop-down menu, do either of the following, depending on which hour types you want to make available when logging time on a project, task, or issue:
 
    * **To make all hour types available for the user:** Select all the hour types.  
@@ -113,8 +136,7 @@ To define the hour types that are available to a user:
 
 1. Click **Save Changes**.
 
-   Now when you log hours on a project, task, or issue, the hour types you select are available if those same hour types have been made available at the project level.
-
+   Now, when you log hours on a project, task, or issue, the hour types you select are available if those same hour types have been made available at the project level.
 
 ## How user-level and project-level hour types work together
 

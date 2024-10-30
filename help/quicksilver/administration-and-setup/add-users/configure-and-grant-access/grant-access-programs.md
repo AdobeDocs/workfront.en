@@ -1,10 +1,10 @@
 ---
-title: Grant access to programs
+title: Grant Access to Programs
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-access-to-workfront
 description: As an Adobe Workfront administrator, you can use an access level to define a user's access to programs in Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 169f6357-1fbb-43e0-83af-1c4be682ddbf
@@ -16,6 +16,8 @@ As an Adobe Workfront administrator, you can use an access level to define a use
 For information about using custom access levels to manage users' access to other object types in Workfront, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -37,6 +39,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Configure user access to programs using a custom access level
 

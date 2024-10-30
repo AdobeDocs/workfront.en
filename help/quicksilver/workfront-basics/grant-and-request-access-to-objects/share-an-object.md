@@ -45,11 +45,22 @@ For information about how to share all other objects in Workfront, also see the 
 * For document folders, see [Share a document folder](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 * For plans, see [Share a plan in the Scenario Planner](../../scenario-planner/share-a-plan.md).
 
-  This requires an additional license. 
+  Workfront Scenario Planner might require an additional license. 
 
-* For goals, see [Share a goal in Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md). This requires an additional license.
+* For goals, see [Share a goal in Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md). 
+
+   Workfront Goals might require an additional license.
+
+* For Workfront Planning objects, see the following articles:
+
+   * [Share views](/help/quicksilver/planning/access/share-views.md)
+   * [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
+
+   Workfront Planning access requires an additional license. 
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following to share objects:
 
@@ -79,7 +90,9 @@ You must have the following to share objects:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Share a project, task, or issue from its page
 
@@ -93,7 +106,7 @@ You must have the following to share objects:
 
 1. In the **Grant < object name > access to** box, begin typing the name of the user, team, role, group, or company with whom you want to share the object, then click the name when it appears in the drop-down list.
 
-   ![](assets/new-share-button-add-people.png) {width="350" }
+   ![](assets/new-share-button-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -126,7 +139,8 @@ You must have the following to share objects:
 
    ![](assets/new-share-advanced-permissions-dropdown.png)
 
-   View, Manage and Contribute have different advanced options depending on the selected object.  
+   View, Manage and Contribute have different advanced options depending on the selected object.
+
    For more information about permission levels, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Optional) To make this object available to all users in the system, click the dropdown menu under **Who has access**, then in the drop-down menu click **Everyone in the system can view**.
@@ -169,7 +183,7 @@ You must have the following to share objects:
 
    Click the **Share** button next to the object name.
 
-      ![](assets/new-share-button.png)
+   ![](assets/new-share-button-on-portfolio.png)
 
    Or
 
@@ -177,22 +191,17 @@ You must have the following to share objects:
 
    Click the **More** icon ![](assets/more-icon.png) next to the object name, then click **Share**.
 
-      ![](assets/share-a-document-350x160.png)
+   ![](assets/share-a-document-350x160.png)
 
-1. In the **Give < Object Name > access to** box, begin typing the name of the user, team, role, group, or company with whom you want to share the object, then click the name when it appears in the drop-down list.
+1. In the **Give < Object Name > access to** field, begin typing the name of the user, team, role, group, or company with whom you want to share the object, then click the name when it appears in the drop-down list.
 
-   ![](assets/list-share-add-people.png) {width="350" }
-
-   >[!TIP]
-   >
-   >You can share an object only with active users, teams, roles, or companies.
-
-
+   ![](assets/portfolio-access-box.png)
 
    >[!TIP]
    >
-   >If you have multiple entities named similarly, they are all listed under their type. The names of the entities appear in alphabetical order. However, the order in which the entity types appear is random.
+   >* If you have multiple entities named similarly, they are all listed under their type. The names of the entities appear in alphabetical order. However, the order in which the entity types appear is random.
    >
+   >* You can share an object only with active users, teams, roles, or companies.
 
 1. (Optional) Repeat step 3 for each user, team, role, or group to whom you want to grant access to the object.
 
@@ -209,14 +218,12 @@ You must have the following to share objects:
      >
      >The Workfront administrator or the object creator has the ability to remove permissions from these entities.
 
-     ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
+     ![](assets/view-manage-sharing-options-for-portfolio-or-document.png)
 
 1. (Optional) Click **Advanced Settings** to configure specific permissions on the object.
 
-   View, Manage and Contribute have different advanced options depending on the selected object.  
+   View and Manage permissions have different advanced options depending on the selected object.  
    For more information about the permissions levels, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
 1. (Optional) To make this object available to all users in the system, click the **Gear** icon ![](assets/gear-icon-settings-with-dn-arrow.jpg), then in the drop-down menu click **Make this visible system-wide**.
 
@@ -228,7 +235,7 @@ You must have the following to share objects:
    >
    >This option is not available for all objects.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width="350" }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. (Conditional) If you made the object public to external users, click **copy link**, then distribute the link to external users.
 
@@ -242,25 +249,26 @@ You must have the following to share objects:
 
 ## Share single or bulk objects from a list
 
-1. Go to the list that contains the object(s) you want to share.
+1. Go to the list that contains the objects you want to share.
 
    For information about which objects can be shared, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. Click the checkbox next to the object(s) you would like to share, then click the **Share icon** ![](assets/share-icon.png) at the top of the page.
 
-      ![](assets/list-share-object-select.png) {width="350" }
+   The **< Object > Access** box opens.
 
-1. In the **< Object > Access** window appears, begin typing in the **Edit < Object Name > access for** box the name of the user, team, role, group, or company with whom you want to share the object(s), then click the name when it appears in the drop-down list.
+   ![](assets/list-share-object-select.png){width="350"}
 
-   ![](assets/list-share-add-people.png) {width="350" }
+1. In the **Edit < Object Name > access for** box, begin typing the name of the user, team, role, group, or company with whom you want to share the objects, then click the name when it appears in the drop-down list.
 
-   >[!TIP]
-   >
-   >You can share an object only with active users, teams, roles, or companies.
+   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
-   >If you have multiple entities named similarly, they are all listed under their type. The names of the entities appear in alphabetical order. However, the order in which the entity types appear is random.
+   >* You can share an object only with active users, teams, roles, or companies.
+   >
+   >
+   >* If you have multiple entities named similarly, they are all listed under their type. The names of the entities appear in alphabetical order. However, the order in which the entity types appear is random.
    >
 
 1. (Optional) Repeat step 3 for each user, team, role, or group to whom you want to grant access to the object(s).
@@ -280,10 +288,10 @@ You must have the following to share objects:
      >
      >You can grant Contribute permissions only to the following objects: 
      >
-     >   * Projects
-     >   * Tasks
-     >   * Issues
-     >  
+     >* Projects
+     >* Tasks
+     >* Issues
+     >
 
    * **Manage:** Users have full access to the object without administrative rights (which are granted at the access level). In addition, they also have all the View and Contribute permissions.
 
@@ -322,7 +330,7 @@ You must have the following to share objects:
    >
    >This option is not available for all objects.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width="350" }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. (Conditional) If you made the object(s) public to external users, click **copy link**, then distribute the link to external users.
 

@@ -1,5 +1,5 @@
 ---
-title: Custom forms overview
+title: Custom Forms Overview
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -13,8 +13,6 @@ exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
 
 <!--Audited: 12/2023-->
 
-{{form-designer-default}}
-
 You can build a custom form that users can attach to an Adobe Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
 
 For example, you can attach a custom form called "Marketing Content Research" to attach to a project so that users on the project can request marketing content for the project:
@@ -25,7 +23,7 @@ For example, you can attach a custom form called "Marketing Content Research" to
 
 The form designer has a canvas-style workspace that allows you to view the fields, canvas, and field settings all at the same time. It also allows you to drag and drop fields within the sections while designing your form. You can resize the right side of the screen to provide more room for the field options.
 
-For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ![Sample form designer](assets/form-designer-example.png)
 
@@ -38,19 +36,19 @@ In a custom form, you can create additional fields that prompt users for informa
 You can add the following types of custom fields to a custom form in Workfront:
 
 * Single line text
-* Paragraph text
+* Paragraph
 * Text with formatting
-* Dropdown
-* Multi-Select Dropdown
+* Single-select dropdown
+* Multi-elect dropdown
 * External lookup
-* Native Field
+* Native field reference
 * Typeahead
 * Calculated
-* Date Field
-* Checkbox Group
-* Radio Buttons
-* Descriptive Text
-* Section Break
+* Date
+* Checkbox group
+* Radio buttons
+* Descriptive text
+* Section break
 * Adobe XD
 * Image
 * PDF
@@ -82,4 +80,5 @@ Users can attach custom forms to the following object types:
 For more information about attaching custom forms to objects, see [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 For information about what happens to custom forms when converting an object, see [Transfer custom form data when converting an object](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+
 

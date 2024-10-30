@@ -50,7 +50,8 @@ You can print a proof summary directly from the document list.
 
 >[!NOTE]
 >
->You cannot print multiple proof summaries from the document list at the same time.
+>* Summaries larger than 1 GB are not supported.
+>* You cannot print multiple proof summaries from the document list at the same time.
 
 1. From the document list that contains the proof, hover over the row containing the document, then click **Print Summary**.
 

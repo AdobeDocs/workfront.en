@@ -2,7 +2,7 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Agile burndown chart overview
+title: Agile Burndown Chart Overview
 description: The burndown chart provides a visual representation of how stories are progressing through the iteration or project . The actual burndown rate is measured against the ideal burndown rate for the iteration or project timeline.
 author: Lisa
 feature: Agile

@@ -12,6 +12,14 @@
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
+## Preview and fast release Q4 2024 {#preview-and-fast-release-Q424}
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
+
 ## Preview and fast release Q4 2023 {#preview-and-fast-release}
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
@@ -60,7 +68,7 @@
 >
 >The legacy form builder is no longer available as of the 24.7 release on July 18, 2024. The form designer is now the default experience for creating and editing custom forms in Adobe Workfront.
 >
->For information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Associate right group with team {#right-group-team}
 
@@ -139,6 +147,10 @@ To set up linked folders:
 >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different than shown in this article.
 >* Replace the page linked to it with a different page. In this case, click the **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of the page, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Home]**.
 >
+
+## Step 1 - Getting to Priorities - {#step1-to-priorities}
+
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Priorities]**.
 
 <!-- Integrations -->
 
@@ -262,6 +274,21 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 >[!IMPORTANT]
 >
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>
+>You must have the following to access Workfront Planning:
+>
+>* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
+>* An additional license for Workfront Planning. 
+>* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
+>
+> For a complete list of requirements to access Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
+> 
+>For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+
+<!--OLD: 
+>[!IMPORTANT]
+>
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
 >
 >Currently, Workfront Planning is in an early access stage which is open to a limited number of customers. 
@@ -271,6 +298,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 >Your account representative will inform you if you are part of this stage.
 >
 >For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+-->
 
 <!-- Manage Work -->
 
@@ -318,7 +346,9 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 ## Latest DPV Version {#latest-version}
 
-**Latest version**: 2.1.35 as of 7/04/2024
+**Latest version**: 
+* Mac: 2.1.39 as of 10/2/2024
+* Windows: 2.1.39 of 10/2/2024
 
 <!-- Release -->
 

@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: start-with-workfront-administration
-title: Overview of defining objectives for your Adobe Workfront implementation
+title: Overview of Defining Objectives for Your Adobe Workfront Implementation
 description: When implementing Adobe Workfront, it is important to identify the principles of your success criteria. We recommend you start by documenting your current processes, organizational structure, and workflows, and then define your overall objectives for how Workfront will fit in your organization.
 author: Alina
 feature: System Setup and Administration

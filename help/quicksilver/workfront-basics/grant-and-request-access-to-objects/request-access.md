@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-title: Request access to objects
+title: Request Access to Objects
 description: Your visibility to objects in Adobe Workfront depends on your access to that type of object as well as your permissions on an individual object.
 author: Alina
 feature: Get Started with Workfront
@@ -13,7 +13,12 @@ Your visibility to objects in Adobe Workfront depends on your access to that typ
 
 >[!NOTE]
 >
->This article describes how you can request permissions to all objects except for plans in the Adobe Workfront Scenario Planner. For information about requesting access to plans, see [Request access to a plan in the Scenario Planner](../../scenario-planner/request-access-to-plan.md). This requires an additional license.
+>This article describes how you can request permissions to all objects except for the following:
+>
+>* Scenario Planner plans in the Adobe Workfront Scenario Planner. For more information, see [Request access to a plan in the Scenario Planner](../../scenario-planner/request-access-to-plan.md). This requires an additional license.
+>
+>* Views and workspaces in Workfront Planning. For more information, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). This requires an additional license. 
+
 
 Your Workfront administrator configures your access to a type of object in your access level. For more information, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
@@ -25,33 +30,7 @@ For example, you might have View permissions to a project, but you need to add t
 
 ## Access requirements
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p> 
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to the objects you request permissions to</p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
--->
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following to share objects:
 
@@ -60,23 +39,25 @@ You must have the following to share objects:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work or higher</p> </td> 
+   <td> <p>New: Standard</p> 
+   <p>Current: Work or higher</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to the objects you request permissions to</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View access or higher to the objects you request permissions to</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Understand standard sharing rules
 

@@ -3,9 +3,9 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: The [!DNL Adobe Workfront] Custom Refresh Sandbox environment
+title: The [!DNL Adobe Workfront] Custom Refresh Sandbox Environment
 description: The Custom Refresh Sandbox is an environment where you can test and work using data from your production environment. It's also ideal for running trainings and determining setup functionality.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
@@ -25,12 +25,11 @@ The Custom Refresh Sandbox is an environment where you can test and work using d
 >
 >  For more information about the Preview Sandbox, see [The [!DNL Adobe Workfront] Preview Sandbox Environment](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,6 +49,8 @@ You must have the following to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -192,6 +193,16 @@ For more information about configuring [!DNL Workfront] with SSO, see [Overview 
 >[!NOTE]
 >
 >This is not available if your organization's [!DNL Workfront] instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+
+## Automatic recalculation of project timelines 
+
+Recalculating timelines allows managers to see how forces outside of the project are impacting the project's timeline. A project's timeline refers to the planned and projected dates for the project.
+
+As a Workfront administrator, you can configure when Workfront automatically recalculates project timelines. Workfront can recalculate project timelines either every night or when the project scope changes, or both.
+
+For information, see [Configure timeline recalculations for projects](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md). 
+
+For the Custom Refresh Sandbox environment, the nightly recalculation is disabled, and the project timelines are not recalculated automatically. You must manually recalculate the project timeline for the Custom Refresh Sandbox environment. For information, see [Recalculate project timelines](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 ## Intended use and availability
 

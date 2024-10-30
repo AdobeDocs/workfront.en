@@ -6,6 +6,8 @@ description: Learn more about the formal review and approval process in using Wo
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: yes
+hidefromtoc: yes
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
 ---
 # Get started with asset review and approval with Frame.io
@@ -114,7 +116,7 @@ Reviewers and approvers can be added to a single-use approval workflow or a reus
 Users can access the Frame.io viewer in the following ways:
 
 * Workfront email notifications
-* The Awaiting my approval widget in the new Workfront Home area
+* The My approval widget in the new Workfront Home area
     ![](assets/awaiting-my-approval.png)
 
 >[!NOTE]

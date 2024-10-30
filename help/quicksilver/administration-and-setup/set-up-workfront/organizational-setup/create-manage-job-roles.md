@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: Create and manage job roles
+title: Create and Manage Job Roles
 description: As an [!DNL Adobe Workfront] administrator or a user with administrative access to Job Roles, you can create job roles which can be assigned to users and delete default job roles that are not relevant to your organization.
 author: Lisa
 feature: System Setup and Administration
@@ -21,7 +21,7 @@ As an [!DNL Adobe Workfront] administrator or a user with administrative access 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,17 +34,18 @@ You must have the following:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td>
-   <p>New: Standard</p>
+   <p>New: [!UICONTROL Standard]</p>
+   <p>Or</p>
    <p>Current: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>Administrative access to Job roles</p> </td> 
+   <td>Administrative access to Job Roles</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

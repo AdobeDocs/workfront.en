@@ -1,12 +1,12 @@
 ---
-title: Disable the auto-upgrade option for non-paid users on the new licensing plan
+title: Disable the Auto-Upgrade Option for Non-Paid Users on the New Licensing Plan
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: access,level,system,administrator,standard,light,contributor
 navigation-topic: access-levels
 description: Every user must have an access level in order to log in and work in Workfront. You use the access level to control what a user can see and do with certain Workfront objects and areas.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
@@ -22,6 +22,8 @@ You can disable the auto-upgrade option from the setup area. To learn more about
 >Once disabled, any non-paid user who goes over their allotted number of decisions will not be upgraded automatically.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -45,6 +47,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Disable auto-upgrades for non-paid users
 

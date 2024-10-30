@@ -1,5 +1,5 @@
 ---
-title: Create OAuth2 applications for [!DNL Workfront] integrations
+title: Create OAuth2 Applications for [!DNL Workfront] Integrations
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
@@ -34,23 +34,23 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td><p>New: [!UICONTROL Standard]</p>
    Or
    <p>Current:[!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> You must be a [!DNL Workfront] administrator. </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -171,6 +171,14 @@ When creating an OAuth2 application, choose the type of application that best me
 For instructions on configuring and using the OAuth2 application with user credentials (authorization code flow), see [Configure and use your organization's custom OAuth 2 applications using JWT flow](../../wf-api/api/oauth-app-jwt-flow.md).
 
 ### Create an OAuth2 application using user credentials (Authorization code flow) {#create-an-oauth2-application-using-user-credentials-authorization-code-flow}
+
+>[!NOTE]
+>
+>If you are creating an application to connect to Workfront Fusion, use one of the following redirect URLs:
+>
+>* `https://app.workfrontfusion.com/oauth/cb/workfront-workfront` 
+>* `https://app-eu.workfrontfusion.com/oauth/cb/workfront-workfront` (EU Data center)
+>* `https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront` (Azure Data Center)
 
 {{step-1-to-setup}}
 

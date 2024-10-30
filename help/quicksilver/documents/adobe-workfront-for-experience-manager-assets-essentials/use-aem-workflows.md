@@ -9,7 +9,9 @@ exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
 ---
 # Use workflows in the Experience Manager Assets integration
 
-A workflow is a set of actions that connect Workfront to Adobe Experience Manager as a Cloud Service. A Workfront administrator can configure workflows in Workfront, then assign them to Project Templates. When a Project is created using a Project Template to which a workflow is assigned, the actions defined in the workflow are triggered. 
+A workflow is a set of actions that connect Workfront to Adobe Experience Manager as a Cloud Service. A Workfront administrator can configure workflows in Workfront, then assign them to Project Templates. 
+
+When a Project is created using a Project Template to which a workflow is assigned, the actions defined in the workflow are triggered. 
 
 >[!NOTE]
 >

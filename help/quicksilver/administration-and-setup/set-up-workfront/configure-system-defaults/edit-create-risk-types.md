@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Edit and create risk types
+title: Edit and Create Risk Types
 description: You can add risks to a project in the planning phase to identify potential obstacles prior to the approval of any work. Risks are possible events that could prevent completion of the project on time or within budget.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
@@ -16,6 +16,8 @@ exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
 You can add risks to a project in the planning phase to identify potential obstacles prior to the approval of any work. Risks are possible events that could prevent completion of the project on time or within budget.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -29,14 +31,21 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>New: [!UICONTROL Standard]</p>
+   Or
+   <p>Current: [!UICONTROL Plan]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a [!DNL Workfront] administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Risks types
 
@@ -51,7 +60,7 @@ Some risk types are already in [!DNL Workfront], by default. To reflect the need
 
 ### Edit existing risk types {#edit-existing-risk-types}
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **[!UICONTROL Risk Types]**.
 1. Select the risk type you want to edit.
@@ -68,7 +77,7 @@ You can create new risk types, in addition to the default ones, to reflect the n
 
 To create a new risk type:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **[!UICONTROL Risk Types]**.
 1. Click **[!UICONTROL New Risk Type]**.

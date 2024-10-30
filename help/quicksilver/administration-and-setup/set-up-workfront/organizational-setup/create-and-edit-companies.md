@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
-title: Create and edit companies
+title: Create and Edit Companies
 description: You can add companies to [!DNL Adobe Workfront] and use them for financial planning, reporting purposes, to define permissions around objects, and to keep information confidential.
 author: Lisa
 feature: System Setup and Administration
@@ -21,7 +21,7 @@ A company is an organizational unit in [!DNL Adobe Workfront] that can represent
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following in order to manage companies in [!DNL Workfront]:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -32,9 +32,9 @@ You must have the following in order to manage companies in [!DNL Workfront]:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront] license</p> </td> 
    <td><p>Current: [!UICONTROL Plan]</p>
-   Or
+   <p>Or</p>
    <p>New: [!UICONTROL Standard]</p>
    </td> 
   </tr> 
@@ -42,22 +42,23 @@ You must have the following in order to manage companies in [!DNL Workfront]:
    <td role="rowheader">Access level configuration</td> 
    <td> <p>One of the following:</p> 
     <ul> 
-     <li> <p>The [!UICONTROL System Administrator] access level, which allows you to edit any company in the system. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md">Grant a user full administrative access</a>. </p> </li> 
-     <li> <p>Administrative access to manage companies, which allows you to edit any company in the system. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md">Grant users administrative access to certain areas</a>.</p> </li> 
+     <li> <p>The [!UICONTROL System Administrator] access level, which allows you to edit any company in the system.</p> </li> 
+     <li> <p>Administrative access to manage companies, which allows you to edit any company in the system.</p> </li> 
     </ul> <p><b>NOTE</b>:  
      <ul> 
       <li> <p>You can also manage companies associated with any group where you are assigned as a group administrator.</p> </li> 
       <li> <p>In order to add to and remove users from the [!DNL Workfront] system, you must have one of the following:</p> 
        <ul> 
-        <li> <p>The [!UICONTROL System Administrator] access level. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
+        <li> <p>The [!UICONTROL System Administrator] access level. </p> </li> 
         <li> <p>In your access level, [!UICONTROL Edit] must be selected for the [!UICONTROL Users] setting. Also, for the [!UICONTROL Users] setting, under [!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png">, the [!UICONTROL Create] option and at least one of the two [!UICONTROL User Admin] options must be enabled. </p> <p> <img src="assets/access-req-users.png"> </p> <p>If you are using the [!UICONTROL User Admin (Group Users)] option, you must be a group administrator of a group where the user is a member.</p> </li> 
-       </ul> <p>For information about the Users setting in an access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
+       </ul>
+       </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your [!DNL Workfront] administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -85,11 +86,12 @@ By default, the company associated with your instance of [!DNL Workfront] is alr
 
 To add or edit a company:
 
-{#step-1-to-setup}
+{{step-1-to-setup}}
 
 1. Click **[!UICONTROL Companies]**.
 
-   A list of companies displays. 
+   A list of companies displays.
+
 1. If you are adding a company, click **[!UICONTROL New Company]**.
 
    Or

@@ -68,7 +68,6 @@ The following actions are not being re-introduced as links on the document withi
 
 For more information, see the following sections:
 
-* &nbsp;
 * &nbsp;in&nbsp;
 
 ## User View Improvements in the Resource Planner {#user-view-improvements-in-the-resource-planner}

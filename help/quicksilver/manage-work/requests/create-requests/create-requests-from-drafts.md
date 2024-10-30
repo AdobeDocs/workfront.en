@@ -1,9 +1,9 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Create requests from drafts
+title: Create Requests from Drafts
 description: In addition to using the available drafts that Workfront suggests to you when you enter a new request, you can also access a draft request from the Drafts section and finish submitting it from there.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
 ---
@@ -13,6 +13,8 @@ In addition to using the available drafts that Workfront suggests to you when yo
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -20,21 +22,26 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Contributor or higher</p>
+   Or
+   <p>Current: Request or higher</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisites for creating requests from drafts
 
@@ -46,8 +53,9 @@ You must do the following before you can create a request from a draft:&nbsp;
 
 ## Create requests from drafts
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront.
-1. Click **Requests** > **Drafts**.
+{{step1-to-requests}}
+
+1. Select **Drafts** in the left panel.
 
    A draft for each queue topic of each request queue displays in this list.
 

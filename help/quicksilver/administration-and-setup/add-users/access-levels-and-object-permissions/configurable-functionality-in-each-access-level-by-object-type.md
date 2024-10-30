@@ -1,14 +1,18 @@
 ---
-title: Configurable access to functionality for each object type
+title: Configurable Access to Functionality for Each Object Type
 description: This article explains what you can allow as an Adobe Workfront administrator for each object type, in each access level. It also explains what the default configuration is for each type of access level.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
 ---
 # Configurable access to functionality for each object type
 
-This article explains what you can allow as an Adobe Workfront administrator for each object type, in each access level. It also explains what the default configuration is for each type of access level.
+When configuring an access level for your organization, you can determine which specific actions are available to the access level.
+
+This article explains the options an Adobe Workfront administrator can select for each object type, in each access level. It also explains what the default configuration is for each type of access level.
+
+For example, if a Workfront administrator selects "View" for projects in a given access level, users with that access level will be able to only view projects, not edit them. 
 
 For information about all functionality available for an object type in each access level, see [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 

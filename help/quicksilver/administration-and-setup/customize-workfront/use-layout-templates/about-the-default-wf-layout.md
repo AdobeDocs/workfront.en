@@ -1,5 +1,5 @@
 ---
-title: About the default Adobe Workfront layout
+title: About the Default Adobe Workfront Layout
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;templates
@@ -12,7 +12,7 @@ exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
 ---
 # About the default Adobe Workfront layout
 
-The default layout is the arrangement of the Main Menu ![](assets/main-menu-icon.png), the left panel, and the views, groupings, and filters before an Adobe Workfront administrator makes any changes using a layout template.
+The default layout is the arrangement of the Main Menu ![](assets/main-menu-icon.png) or the Main Menu ![](assets/lines-main-menu.png), if available, the left panel, and the views, groupings, and filters before an Adobe Workfront administrator makes any changes using a layout template.
 
 For information about how a Workfront administrator can modify a user's default layout by assigning the user a layout template, see [Assign users to a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -24,7 +24,7 @@ For information about how a Workfront administrator can modify a user's default 
 
 Each user's default layout depends on their access level. Some users might not see certain areas in the Main Menu or certain left panel items, depending on the access level that is assigned to them.
 
-The following table shows what left panel items are displayed for each access level, by default. The default landing area for each access level is also indicated:
+The following table shows teh default landing area and what left panel items are displayed for each access level:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,8 +39,8 @@ The following table shows what left panel items are displayed for each access le
   <tr> 
    <th>Area</th> 
    <th> Left panel items </th> 
-   <th> <p>System Administrator</p> </th> 
-   <th> <p>Planner</p> </th> 
+   <th> System Administrator</th> 
+   <th> Planner </th> 
    <th>Worker</th> 
    <th>Reviewer</th> 
    <th>Requestor</th> 
@@ -144,7 +144,7 @@ The following table shows what left panel items are displayed for each access le
   </tr> 
   <tr> 
    <td rowspan="3"><strong>Requests</strong> </td> 
-   <td><strong>New Request</strong> </td> 
+   <td>New Request </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 

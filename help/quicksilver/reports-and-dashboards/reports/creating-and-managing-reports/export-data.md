@@ -115,7 +115,6 @@ There are several limitations around the way reports display in Workfront as wel
   >Exporting a report that includes a collection reference within a column may result in an error, even if the report is otherwise within the listed export limits. If the referenced collection is too large, the export process times out and subsequently results in an error.
   >
   >To avoid this error, either exclude columns that reference large collections or reduce the size of the referenced collections before exporting.
-  >
   
   If your report has more items than these limits, you receive an error that the export is not successful. Reduce the number of items you see on the screen to a number less than or equal to these limits to be able to export the results.
 
@@ -145,6 +144,14 @@ There are several limitations around the way reports display in Workfront as wel
 * **10MB file size:** File size limit for any exported report scheduled for delivery. If an exported file attached to an email is larger than 5MB, a link where the file can be downloaded is emailed instead of the attached exported report.
 * **65,530 hyperlinks:** This is a limit imposed by Excel on documents that contain more than 65,530 hyperlinks. These documents cannot be opened when they are exported manually, or sent in a delivered report. Note that an Excel document may have just 200 rows of data, but if there are more than 65,530 links inside the document, the document does not open. This limit exists on Excel files only, not on the other supported formats.&nbsp;
 * **256 columns**: This is a limit imposed by Excel on documents that contain more than 256 columns. These documents cannot be exported manually, or sent in a delivered report. This limit exists on Excel files only, not on the other supported formats.
+
+  >[!IMPORTANT]
+  >
+  >Exporting a report that includes a Reports column may result in an error even if the report is otherwise within the listed export limits.
+  >
+  >If you are using the export feature to share a report containing a Reports column with others, consider sharing the report by making it public instead. For more information on making a report public, see [Share a report in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  >
+  >If you are using the export feature to evaluate data externally, we recommend using Workfront Data Connect instead. For more information, see [Workfront Data Connect overview](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 If you attempt to export data beyond the limit, you might not receive all of the expected data in the export. Rather, a modified report is produced within the limit.
 

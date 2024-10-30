@@ -69,7 +69,7 @@ To create a static proof, the website needs to be publicly accessible (not behin
 
    >[!NOTE]
    >
-   > The URL must be less than 1,000 characters.
+   > The URL must be less than 2,000 characters.
 
 1. Click the URL you have added.
 

@@ -97,6 +97,10 @@ exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
    <td> <p>A user-created series of automated steps, each represented and performed by a module. The purpose of a scenario is to move and manipulate data.</p> <p> <img src="assets/scenario-350x178.jpg" style="width: 350;height: 178;"> </p> <p> For more information, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in[!UICONTROL  Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"> <p>Scenario segment</p> </td> 
+   <td> <p> A section of a scenario consisting of a series of modules that all connect to the same application. Scenario segments often represent a short workflow in the application.</p> </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"> <p>Transactions</p> </td> 
    <td> <p>[!DNL Workfront Fusion] uses transactional processing to capture the scenario lifecycle. A transaction consists of several phases during which data is transformed from one consistent state into another consistent state. There are 4 phases: initalization, operation (reading or writing), commit/rollback, and finalization.</p> </td> 
   </tr> 

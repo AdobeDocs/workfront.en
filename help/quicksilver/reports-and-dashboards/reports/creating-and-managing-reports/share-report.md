@@ -105,7 +105,7 @@ Sharing one report or several reports from a list is identical.
 
      >[!NOTE]
      >
-     >If the report has a prompt and you share it publicly, the users running the report must be logged in to Workfront to be able to run the report using the prompt. If they cannot log in to Workfront, they will see the report without the prompt applied to it. For more information about limitations of sharing reports with prompts, see the section [Limitations of sharing prompted reports](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) in the article [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+     >If the report has a prompt and you share it publicly, users running the report through the public share link will not be able to run the report using the prompt. They will see the report without the prompt applied to it unless they log in to Workfront and access the report without using the public share link. For more information about the limitations of sharing reports with prompts, see the section [Limitations of sharing prompted reports](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) in the article [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
    * **Make this visible system-wide:** Select this option so that everyone in Workfront with access to reports can see the report.
 
