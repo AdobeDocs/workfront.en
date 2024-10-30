@@ -95,11 +95,16 @@ Consider the following when delegating approvals:
 
 ### Delegate approvals from the Home area
 
+
 To delegate approvals to another user:
 
 1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add the **My Approvals** widget.
-1. Go to the My Approvals widget, then click **Delegate My Approvals**
+1. Go to the My Approvals widget, then click **Delegate My Approvals**.
+   >[!NOTE]
+   >
+   >Workfront administrators can disable approval delegations from the setup area. If approval delegations are disabled, you will not see the Delegate approvals button. 
+
    ![](assets/delegate-approvals-home.png)
 
 1. Specify the following information in the Delegate My Approvals section:
