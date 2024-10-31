@@ -77,6 +77,8 @@ This option is only available if you have a Standard, Plan, or Work license.
 1. Select the user or users you want to send a message to, and click [!UICONTROL **Send Update to User**].
 1. Type your message in the [!UICONTROL Send update to user] window.
 
+   <span class="preview">Sample image in the Preview environment:</span>
+
    <span class="preview">![Message user on the Send update to user window](assets/send-message-to-user-dialog-from-user-list.png)</span>
 
 1. (Optional) Search for any additional users you want to tag on the message. You do not need to tag the users you already selected in the user list.

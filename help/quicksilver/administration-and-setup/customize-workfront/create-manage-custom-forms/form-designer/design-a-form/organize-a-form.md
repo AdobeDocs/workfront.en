@@ -11,7 +11,9 @@ exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 ---
 # Organize and preview a form
 
- You can organize a custom form with the form designer, and preview it to verify that it is set up correctly.
+{{highlighted-preview}}
+
+You can organize a custom form with the form designer, and preview it to verify that it is set up correctly.
 
 ## Access requirements
 
@@ -150,7 +152,12 @@ In a custom form with a section break configured with the Limited Edit permissio
    >* You can use the **Preview** button in the upper-right corner to get an idea of how the custom fields and widgets will display in the form.
    >* Custom fields and widgets may not always display the same way in the form, depending on how much screen space is available when a user is viewing it. For example, the third field in a row of fields may wrap to the next row of fields if horizontal space is limited.
 
-1. (Optional)To position a custom field or widget above or below another one, drag it above or below until a horizontal blue line appears between the items.
+1. (Optional) To position a custom field or widget above or below another one, drag it above or below until a horizontal blue line appears between the items.
+
+1. To move a custom field to another section on the form, you can drag and drop it into place, <span class="preview">or click the **Move to** icon on the field and select the section to move it to.</span>
+   
+   <span class="preview">Sample image in the Preview environment:</span>
+   ![Move field to a section](assets/move-field-to-section.png)
 
 1. To save your changes, click **Apply** 
 

@@ -11,6 +11,7 @@ recommendations: noDisplay, noCatalog
 
 This section contains the following subsections:
 
+* [Priorities: Upcoming releases](/help/quicksilver/workfront-basics/priorities/priorities-upcoming-releases.md)
 * [Get started with Priorities](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 * [Filter and group your work in Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
 * [Customize the Priorities worklist columns](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)

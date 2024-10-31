@@ -539,6 +539,7 @@ feature-set: Workfront
       * [Access to objects and areas by new licenses](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
       * [Functionality available for each object type for new access levels](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
       * [Disable the auto-upgrade option for non-paid users on the new licensing plan](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+      * [Compare functionality across license models](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
       * [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
     * How access levels work {#legacy-access-levels}
       * [How access levels work](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
@@ -881,6 +882,7 @@ feature-set: Workfront
     * [Overview of the Project, Task, and Issue dates in Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
   * Priorities {#priorities}
     * [Priorities: article index](workfront-basics/priorities/priorities-toc.md)
+    * [Priorities: Upcoming releases](workfront-basics/priorities/priorities-upcoming-releases.md)
     * [Get started with Priorities](workfront-basics/priorities/get-started-with-priorities.md)
     * [Filter and group your work in Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
     * [Customize the worklist columns](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
@@ -911,6 +913,7 @@ feature-set: Workfront
     * [Summarize using AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
     * [Get help from AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
     * [Revise calculated field formulas with AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
+    * [Use AI Assistant to work with projects, tasks, and issues](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
     * [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
   * Update work items and view updates {#update-work-items-view-updates}
     * [Update work items and view updates: article index](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
