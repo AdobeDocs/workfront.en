@@ -24,7 +24,7 @@ We're excited to show you what we have coming for Priorities. Use the Feedback b
   <tr>
     <td><strong>Planned</strong>
     <ul>
-    <li><strong>View work in a calendar view</strong>: The Calendar view will provide a visual representation of your tasks and issues. You will be able to choose between a day, week, or month view.</li>
+    <li><strong>View work in a calendar view</strong>: The Calendar view will provide a visual representation of your tasks and issues in a month view.</li>
     <li><strong>Stay on top of work with Priorities AI feature: Catch Me Up</strong>: Catch me up will summarize updates, uploaded documents, approvals, and other notable changes about your active projects within the following time frames: 24 hours, 3 days, 7 days.</li>
     </ul>
     </td>
