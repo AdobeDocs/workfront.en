@@ -31,12 +31,17 @@ The following table shows the release and support schedule for the Workfront API
  </thead> 
  <tbody> 
  <tr>
+   <td>19</td> 
+   <td> <p>October 10, 2024</p> </td> 
+   <td> <p>**during 2027</p> <p>(with the 27.10 release)</p> </td> 
+  </tr>  <tr>
+ <tr>
    <td>18</td> 
-   <td> <p>April 8 2023</p> </td> 
+   <td> <p>April 8, 2024</p> </td> 
    <td> <p>**during 2027</p> <p>(with the 27.4 release)</p> </td> 
   </tr>  <tr>
    <td>17</td> 
-   <td> <p>October 12 2023</p> </td> 
+   <td> <p>October 12, 2023</p> </td> 
    <td> <p>**during 2026</p> <p>(with the 26.10 release)</p> </td> 
   </tr> 
  <tr>
