@@ -56,9 +56,9 @@ You can view or manage approvals from the following areas:
 
 * In the Home area
 
-   * All projects, tasks, issues, timesheets, documents, and access awaiting your approval are displayed in the Home area when you select to view All or Approvals.
-   * Approvals that you submitted yourself also display in the Home area, in the Approvals I've Submitted section of the Work List. For more information, see the [Review work you submit for approval in the Home area](#review-work-you-submit-for-approval-in-the-home-area) section in this article.
-   * Approvals are removed from the Home area when the associated project, task, or issue is marked Resolved, On Hold, Closed, or Canceled.
+   * All projects, tasks, issues, timesheets, documents, and access awaiting your approval are displayed in the My Approvals widget in the Home area.
+   * Approvals that you submitted yourself also display in the My Approvals widget in the Home area when you choose the Approvals I've submitted filter option. For more information, see the [Review work you submit for approval in the Home area](#review-work-you-submit-for-approval-in-the-home-area) section in this article.
+   * Approvals are removed from the My Approvals widget in the Home area when the associated project, task, or issue is marked Resolved, On Hold, Closed, or Canceled.
 
   For information about using Home, see [Get started with Home](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md). 
 
@@ -76,19 +76,10 @@ You can view or manage approvals from the following areas:
 
 ## Review work you submit for approval in the Home area {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Click **Customize** to add the **My Approvals** widget.
+1. (Conditional) Click the **Filter** drop-down menu, then select **Approvals I've submitted** to see approvals you've submitted.
 
-   >[!NOTE]
-   >
-   >Your Workfront administrator might make the following changes to the Home icon in your environment:
-   >
-   >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
-
-1. Select **Work List**, then click the **Filter** drop-down menu and select **Approvals**.
-1. Expand the **Approvals I've Submitted** section and find the approvals you submitted.
-
-   ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
 
 ## View the approval status of an object
 

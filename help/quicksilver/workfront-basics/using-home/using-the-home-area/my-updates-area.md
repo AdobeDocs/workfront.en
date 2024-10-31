@@ -141,8 +141,6 @@ You must have the following before you begin:
 1. Click **[!UICONTROL Delegate my approvals]** to delegate the approvals submitted to you if you are unavailable to make approval decisions for some time. For more information about delegating approvals, see [Delegate approval request](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 1. Scroll to the **[!UICONTROL Mentions]** area underneath your approvals. Here, you can view all items where you have been included in a conversation.
 
-   ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
-
    >[!TIP]
    >
    >The first 50 mentions display by default.
