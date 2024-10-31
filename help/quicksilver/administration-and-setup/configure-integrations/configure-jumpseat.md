@@ -65,15 +65,13 @@ To configure the [!DNL JumpSeat] integration:
 {{step-1-to-setup}}
 
 1. In the left panel, click **[!UICONTROL System]** > **[!UICONTROL [!DNL JumpSeat] Integration]**.
-1. Enter your **[!UICONTROL [!DNL JumpSeat] URL]**, which can be found on your extension icon in [!DNL JumpSeat]. If you are on the Adobe Unified Experience, the JumpSeat URL must end with `.workfront.adobe.com`. 
+1. Enter your **[!UICONTROL [!DNL JumpSeat] URL]**, which can be found on your extension icon in [!DNL JumpSeat].
 
 >[!BEGINSHADEBOX]
 
 **Example:** 
 
 https://{mycompanyname}.jumpseat.io
-
-Adobe Unified Experience: [!DNL https]://{mycompanyname.workfront.adobe.com}.jumpseat.io
 
 >
 
