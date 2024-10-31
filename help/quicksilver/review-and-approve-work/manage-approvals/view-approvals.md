@@ -78,7 +78,7 @@ You can view or manage approvals from the following areas:
 
 1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add the **My Approvals** widget.
-1. (Conditional) Click the **Filter** drop-down menu, then select **Approvals I've submitted** to see approvals assigned and delegated to you.
+1. (Conditional) Click the **Filter** drop-down menu, then select **Approvals I've submitted** to see approvals you've submitted.
 
 
 ## View the approval status of an object
