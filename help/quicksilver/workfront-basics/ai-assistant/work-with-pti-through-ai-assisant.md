@@ -10,7 +10,7 @@ feature: Get Started with Workfront
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 
-AI Assistant can help you locate, create, and update projects, tasks, and issues in Workfront.                                  
+AI Assistant can help you locate projects, tasks, and issues in Workfront.                                  
 
 ## Locate work items
 
@@ -24,6 +24,8 @@ AI Assistant can help you locate, create, and update projects, tasks, and issues
    AI Assistant may take a few moments to locate the information, depending on how large or complex the prompt is and how many records it needs to search.
 1. View the response in the AI Assistant panel.
 1. (Optional) To go to the work item, click the link in the AI Assistant panel.
+
+<!--
 
 ## Create a work item
 
@@ -45,6 +47,10 @@ AI Assistant can help you locate, create, and update projects, tasks, and issues
 >
 >We recommend checking the new item to ensure that it was created as expected.
 
+-->
+
+<!--
+
 ## Update a work item
 
 1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
@@ -60,3 +66,4 @@ AI Assistant can help you locate, create, and update projects, tasks, and issues
 1. (Conditional) To cancel the creation of the new item, click **No**.
 1. (Optional) To go to the work item, click the link in the AI Assistant panel.
 
+-->
