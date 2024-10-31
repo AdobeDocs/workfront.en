@@ -54,8 +54,6 @@ Now you can manage your personal work tasks and schedules using the Workfront Ho
 
 If you use a calendar in Outlook, you can integrate your calendar to display your Outlook events in your Home Calendar view.
 
-For more information, see [Home Calendar view](../../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
-
 ## Additional Updates to the Work List (Left Panel) in Home {#additional-updates-to-the-work-list-left-panel-in-home}
 
 The following enhancements are now available for the Work List in the Home area:
