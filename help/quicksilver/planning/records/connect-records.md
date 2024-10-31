@@ -1,6 +1,6 @@
 ---
 title: Connect Records
-description: After you create connections between record types, you can connect individual records to one another.
+description: After you create connections between record types, you can connect individual records to one another. You can display information from one record on another record when you connect them. 
 recommendations: noDisplay, noCatalog
 feature: Workfront Planning
 role: User, Admin
@@ -10,9 +10,13 @@ exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 
 # Connect records 
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
 {{planning-important-intro}}
 
-You can connect Adobe Workfront Planning records to one another or to objects from other applications. 
+You can connect Adobe Workfront Planning records to one another or to objects from other applications. You can display information from one record on another record when you connect them. 
 
 This article describes how you can connect records. For more general information about connecting records, see [Connected records overview](/help/quicksilver/planning/records/connected-records-overview.md). 
 
@@ -123,19 +127,21 @@ You must have the following access to perform the steps in this article:
 
 +++
 
-## Prerequisites for connecting records
+## Considerations for connecting records
 
-To connect records with other records or objects, you must have the following:
+* To connect records with other records or objects, you must have the following:
 
-* At least one workspace, record type, and record. 
+    * At least one workspace, record type, and record. 
 
-  For more information, see the following articles:
+    For more information, see the following articles:
 
-  * [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md)
-  * [Create record types](/help/quicksilver/planning/architecture/create-record-types.md)
-  * [Create records](/help/quicksilver/planning/records/create-records.md)
+    * [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md)
+    * [Create record types](/help/quicksilver/planning/architecture/create-record-types.md)
+    * [Create records](/help/quicksilver/planning/records/create-records.md)
 
-* Connections between record types, or between record types and objects from other applications. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+    * Connections between record types, or between record types and objects from other applications. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+* You can connect one or several records or objects to each other. This depends on the connection type you selected when connecting the record or object types. For information, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). 
 
 ## Connect records from Workfront Planning
 
@@ -166,9 +172,10 @@ You can connect records from Workfront Planning in the following areas of a Plan
 
     >[!TIP]
     >
-    >    If only the image of the record was selected to display when the record types were connected, only the thumbnail or the icon of the record displays in the connected field. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
-
-
+    >If only the image of the record was selected to display when the record types were connected, only the thumbnail or the icon of the record displays in the connected field. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
+    >
+    
+1. <span class="preview"> (Conditional) If you selected One to many or One to one for the Connection type when you connected the record types, and you try connecting a record or an object that is already connected elsewhere, you will receive a warning that connecting it again will remove it from the original connection. Click **Connect** to allow the removal and connect the record, or **Cancel** to go back to the field and select another record.</span>
 1. (Optional) If you cannot find a record or an object to connect, and you want to add it, click **+ Add** to add a new record. For more information, see the section "Create records as you connect them" in the article [Create records](/help/quicksilver/planning/records/create-records.md).
     
     >[!TIP]

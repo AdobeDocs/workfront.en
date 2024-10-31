@@ -2,13 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Grouping: projects by Entry Date'
+title: 'Grouping: Projects by Entry Date'
 description: In this custom project grouping, you can display projects grouped by their Entry Date values.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 511faad5-b5bd-4e2d-8daa-3fcde49a502c
 ---
 # Grouping: projects by Entry Date
+
+<!--Audited: 10/2024-->
 
 In this custom project grouping, you can display projects grouped by their Entry Date values.
 
@@ -70,11 +72,15 @@ To apply this grouping:
 1. Remove the text in the **Group by** area.
 1. Replace the text with the following code:
 
+
+   ```
    group.0.linkedname=direct
    group.0.name=Project Entry
    group.0.valueexpression=IF(ABS(DATEDIFF({entryDate},$$TODAY))<=30,"Last 30 Days",IF(ABS(DATEDIFF({entryDate},$$TODAY))>30&&ABS(DATEDIFF({entryDate},$$TODAY))<=60,"30-60 Days","Older than 60 days"))
    group.0.valueformat=atDateAsMonthString
    textmode=true
 
+   ```
+  
 1. Click **Done** > **Save Grouping**.
 1. (Optional) Update the name of the grouping, then click **Save Grouping**.
