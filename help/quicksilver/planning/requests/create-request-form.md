@@ -11,6 +11,12 @@ exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
+<!--take Preview and Production references at Production time-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
 You can create a request form and associate it with a record type in Adobe Workfront Planning. You can then share a link to it with other internal or external users. 
@@ -129,14 +135,19 @@ You must have the following access to perform the steps in this article:
 
       >[!IMPORTANT]
       >
-      >   Fields of the following types do not display in the request form: 
+      > Depending on what environment you use to create a request form, the following scenarios exist:
+      >
+      >* Fields of the following types do not display in the request form <span class="preview">in the Preview </span> or Production environments: 
       >
       >    * People (includes Created by and Last modified by)
-      >    * Connected fields (includes connections with Workfront, and Experience Manager assets)
-      >    * Connected lookup fields
       >    * Formula
       >    * Created date
       >    * Last modified date
+      >    * Workfront objects' connected fields or lookup fields
+      >    * Workfront Planning records' connected lookup fields
+      >* Fields of the following types do not display in the request form in the Production environment. <span class="preview">They display in the Preview environment:</span>
+      >    * <span class="preview"> Workfront Planning records' connected fields (includes connections with Workfront, and Experience Manager assets)</span>
+      
 
    * **Default section**: This is the default section break that Workfront applies to the request form. The Default section cannot be renamed or removed. 
    * **Subject** field: The field which will identify the request in Workfront. This capability is not yet available. The configuration and the value of the Subject field are not editable. 
