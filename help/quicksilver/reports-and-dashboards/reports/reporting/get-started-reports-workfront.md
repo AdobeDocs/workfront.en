@@ -58,8 +58,7 @@ To enhance your reports, you can add the following elements:
 
 When building a report, you can modify any of these elements individually in the report builder.
 
-Another way of enhancing the relevance of the information included in your reports is by applying conditional formatting to your views.  
-For information about using conditional formatting, see [Use conditional formatting in views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Another way of enhancing the relevance of the information included in your reports is by applying conditional formatting to your views. For information about using conditional formatting, see [Use conditional formatting in views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## System reports
 
@@ -75,17 +74,20 @@ In addition to the system reports that Workfront provides, you can create your o
 To create a report you can do one of the following:
 
 * Build a report from scratch.
-* Copy an existing report.  
+* Copy an existing report.
+
   You must have at least View permission to copy a report created by someone else. For more information about copying a report, see [Create a copy of a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-For information about creating reports, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+For information about creating reports, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Prerequisites for creating reports {#prerequisites-for-creating-reports}
 
-* You must have a Plan license (current licenses) or Standard license (new licenses) to create your own reports.  
+* You must have a Plan license (current licenses) or Standard license (new licenses) to create your own reports.
+
   For information about the Workfront license types, see [Licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) for the current licenses, and [New licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) for the new licenses.
 
-* Your Workfront administrator must give you access to Edit Reports in your Access Level.  
+* Your Workfront administrator must give you access to Edit Reports in your Access Level.
+
   For information about granting access to Edit reports, see [Grant access to reports, dashboards, and calendars](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Your Workfront administrator must give you access to Edit Filters, Views, and Groupings in your Access Level.
@@ -103,7 +105,7 @@ For information on copying reports, see [Create a copy of a report](../../../rep
 
 You can see who owns a report by reviewing the **Entered By** field.
 
-![Entered By field](assets/nwe-entered-by-350x218.png)
+![Entered By field](assets/unshimmed-entered-by.png)
 
 ### Create reports in the builder interface {#create-reports-in-the-builder-interface}
 
