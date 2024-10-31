@@ -26,8 +26,8 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> <p>Or</p>
-   <td> <p>New: Ultmate</p> <p>Current: Not available</p></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td>
+   <td> <p>New: Ultmate</p> <p>Or</p> <p>Current: Not available</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
@@ -90,7 +90,7 @@ When Fusion processes files, larger files are added to persistent storage (S3 Bu
 
 Yes, Fusion supports incomplete executions with larger files. Note that incomplete executions are limited in size for an organization, and should be actively managed.  
 
-### an I use larger files with any connector? 
+### Can I use larger files with any connector? 
 
 Each Fusion connector must be updated to support larger files. The supported connectors include Workfront, HTTP, and AEM Assets. Fusion connectors are still limited by the file size supported by the web service. File size limits are typically included in the API documentation for web service endpoints that download and upload files.  
 
@@ -112,9 +112,9 @@ Designing a scenario to work within the 40 minutes execution limit can seem comp
 
 * **Consolidate file actions**: the most common example of file actions in a Fusion scenario is one download and one upload. Most scenarios with only these two actions will execute in a few minutes. When possible Fusion designers should constrain their scenarios to one download and one upload.  
 
-* Calculating size using the mapping panel – Workfront and other web services include the file size of a file in the download module's output. You can use this data to filter out files too large for a module upload or too large for the scenario execution time.  
+* **Calculate size using the mapping panel**: Workfront and other web services include the file size of a file in the download module's output. You can use this data to filter out files too large for a module upload or too large for the scenario execution time.  
 
-* Isolate file actions in their own scenario when working with multiple files - Fusion designers should consider isolating file actions into separate scenarios. For example, a Fusion scenario triggered by a new Workfront request with multiple attached files may need to accommodate up to 30 files. Given that uploading and downloading each file could take up to 3 minutes, processing all files in a single execution would surpass Fusion's 40-minute execution limit. The solution is to create a file actions scenario dedicated to handling the upload and download of individual files. The request-triggered scenario would iterate through the attached files, invoking the file actions scenario for each file using the HTTP module. This approach ensures that each file is processed within the execution time limits. 
+* **Isolate file actions in their own scenario when working with multiple files**: Fusion designers should consider isolating file actions into separate scenarios. For example, a Fusion scenario triggered by a new Workfront request with multiple attached files may need to accommodate up to 30 files. Given that uploading and downloading each file could take up to 3 minutes, processing all files in a single execution would surpass Fusion's 40-minute execution limit. The solution is to create a file actions scenario dedicated to handling the upload and download of individual files. The request-triggered scenario would iterate through the attached files, invoking the file actions scenario for each file using the HTTP module. This approach ensures that each file is processed within the execution time limits. 
 
 <!--
 ## Connectors that do not support large files
