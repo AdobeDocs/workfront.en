@@ -22,12 +22,3 @@ This section contains the following articles:
 * [Create work items and projects from the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 * [Log time on a work item from the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 * [Mark an item as [!UICONTROL Done] in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
-
-The following articles contain functionality was removed with the Legacy Home deprecation on 10/17/2014:
-
-* [Prioritize work in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
-* [[!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
-* [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)
-* [Use the [!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
-* [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
-* [[!UICONTROL Home] area for Reviewers](../../../workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)
