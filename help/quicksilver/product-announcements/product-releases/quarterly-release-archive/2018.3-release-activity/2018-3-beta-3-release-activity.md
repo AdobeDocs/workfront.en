@@ -44,8 +44,6 @@ Using the My Priority sort option, you can now prioritize any work item in your 
 
 Previously, you could prioritize only tasks and issues in the My Work area.
 
-For more information, see [Prioritize work in the Home area](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
-
 ## Update Roles in the User Profile as a Group Administrator {#update-roles-in-the-user-profile-as-a-group-administrator}
 
 You can now update the following fields for users who belong to a group you administer:
