@@ -146,7 +146,7 @@ You must have the following access to perform the steps in this article:
       >    * Workfront objects' connected fields or lookup fields
       >    * Workfront Planning records' connected lookup fields
       >* Fields of the following types do not display in the request form in the Production environment. <span class="preview">They display in the Preview environment:</span>
-      >    * <span class="preview"> Workfront Planning records' connected fields (includes connections with Workfront, and Experience Manager assets)</span>
+      >    * <span class="preview"> Workfront Planning records' connected fields</span>
       
 
    * **Default section**: This is the default section break that Workfront applies to the request form. The Default section cannot be renamed or removed. 
