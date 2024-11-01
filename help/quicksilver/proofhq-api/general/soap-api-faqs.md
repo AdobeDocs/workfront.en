@@ -63,7 +63,4 @@ For example, the miniproof URL
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com&customparam1=somevalue&customparam2=` must be encoded as&nbsp;
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com%26customparam1=somevalue%26customparam2=` in order for the custom parameters to be passed through.
 
-## How to create a Java Web Service Client?
-
-[This video](https://screencast.com/t/xsSNrqs5b) shows how you can create a Java Web Service client using Eclipse and the Workfront Proof WSDL definition.
- 
+                                       

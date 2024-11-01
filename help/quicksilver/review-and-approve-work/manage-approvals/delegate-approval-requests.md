@@ -9,7 +9,7 @@ exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
 ---
 # Delegate approval request
 
-You can temporarily delegate the work you are assigned to while you are out of the office. You can delegate task and issue assignments or you can delegate approval requests. This article describes how to delegate approval requests. For information about delegating task and issue assignments, see [Delegate tasks and issues](../../manage-work/delegate-work/how-to-delegate-work.md).
+You can temporarily delegate the work you are assigned to while you are out of the office. You can delegate task and issue assignments, or you can delegate approval requests. This article describes how to delegate approval requests. For information about delegating task and issue assignments, see [Delegate tasks and issues](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 You can delegate the following types of approvals, regardless of how&nbsp;the approval was assigned to you (whether assigned directly to you, to a team you are a member of, or to your job role):
 
@@ -75,11 +75,7 @@ After the approval delegation stops or is canceled, the user designated as the a
 * Continues to have View access to work items  
   Users who have been granted View access&nbsp;to objects via an approval delegation retain that View access even after the approval delegation stops or is recalled. To remove View access to any objects that the user had access to during the time that approvals were being delegated, you must go to the object and remove access rights directly from the object.
 
-## Delegate approval requests in the Home area
-
-You can delegate approval requests from the Home area.
-
-### Delegate your approvals to another user {#delegate-your-approvals-to-another-user}
+## Delegate your approvals to another user {#delegate-your-approvals-to-another-user}
 
 You can delegate the following types of approvals, regardless of how&nbsp;the approval was assigned to you (whether assigned directly to you, to a team you are a member of, or to your job role):
 
@@ -97,61 +93,60 @@ Consider the following when delegating approvals:
 * A maximum of 5 users can delegate approvals to the same user at the same time. In other words, a single user cannot be designated as a temporary approver for more than 5 users at the same time.
 * Activity regarding approvals displays on the Updates tab. You must have Show System Updates enabled. Both the user delegating the approval and the user to whom approvals are being delegated receive an email notification regarding approval activity.
 
+### Delegate approvals from the Home area
+
+
 To delegate approvals to another user:
 
-1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Click **Customize** to add the **My Approvals** widget.
+1. Go to the My Approvals widget, then click **Delegate My Approvals**.
 
    >[!NOTE]
    >
-   >Your Workfront administrator might make the following changes to the Home icon in your environment:
-   >
-   >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >Workfront administrators can disable approval delegations from the setup area. If approval delegations are disabled, you will not see the Delegate approvals button. 
 
-   Or
-
-   Click the **Main Menu** icon > **your name** > **Time Off** in the left panel. 
-
-1. (Optional and conditional) In the Home area, click the **Filter** drop-down menu, then click **Approvals**.
-
-1. (Conditional) Click **Delegate My Approvals**
-
-   Or
-
-   If your system or group administrator enabled the task and issue delegation, click **Delegate**, then click **Delegate approvals**.
-
-   ![](assets/delegate-approvals-nwe.png)
+   ![](assets/delegate-approvals-home.png)
 
 1. Specify the following information in the Delegate My Approvals section:
 
    * **Name**: Begin typing the name of the user who you want to delegate approvals to, then click the name when it appears in the drop-down menu.
    * **Start date**: Select the date for approvals to begin being forwarded. Forwarding begins at 12:00 A.M. on the date that you select.  
      The Start Date must be the current date or a future date.
-   * **End date**:Do one of the following:
-
+   * **End date**: Do one of the following:
       * Select the date for approvals to stop being forwarded. Forwarding ends at 11:59 P.M. on the date that you select.
       * Select **No end date** to configure Workfront to delegate approvals indefinitely.
 
 1. Click **Save**.
 
-### Update or stop an approval delegation {#update-or-stop-an-approval-delegation}
+### Delegate approvals from your user profile
 
-1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **Main Menu** icon > **your name** > **Time Off** in the left panel. 
+1. Click **Delegate approvals**.
 
    >[!NOTE]
    >
-   >Your Workfront administrator might make the following changes to the Home icon in your environment:
-   >
-   >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >Workfront administrators can disable approval delegations from the setup area. If approval delegations are disabled, you will not see the Delegate approvals button. 
+1. Specify the following information in the Delegate My Approvals section:
 
-1. Click the **Filter** drop-down menu, then click **Approvals**.
+   * **Name**: Begin typing the name of the user who you want to delegate approvals to, then click the name when it appears in the drop-down menu.
+   * **Start date**: Select the date for approvals to begin being forwarded. Forwarding begins at 12:00 A.M. on the date that you select.  
+     The Start Date must be the current date or a future date.
+   * **End date**: Do one of the following:
+      * Select the date for approvals to stop being forwarded. Forwarding ends at 11:59 P.M. on the date that you select.
+      * Select **No end date** to configure Workfront to delegate approvals indefinitely.
 
-1. (Conditional) Click **Edit delegation**
+## Update or stop an approval delegation {#update-or-stop-an-approval-delegation}
 
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Click **Customize** to add the **My Approvals** widget.
+
+1. Go to the My Approvals widget, then click **Edit delegation**.
+   ![](assets/edit-delegations.png)
+<!--
    Or
 
-   If your system or group administrator enabled task and issue delegation, click **Edit delegation**, then click **Delegate approvals**.   
+   If your system or group administrator enabled task and issue delegation, click **Edit delegation**, then click **Delegate approvals**.   -->
 
 1. (Conditional) Do either of the following:
 
@@ -159,11 +154,9 @@ To delegate approvals to another user:
    
    * To stop the existing delegation: Click **Stop delegation**, then click **Stop delegation** to confirm.
 
-     ![](assets/stop-delegation-nwe.png)
+## View delegated approvals {#view-delegated-approvals}
 
-### View delegated approvals {#view-delegated-approvals}
-
-You can view only the following types of approval delegations in the Work List:
+You can view only the following types of approval delegations in the My Approvals widget:
 
 * Project approvals
 * Task approvals
@@ -171,16 +164,7 @@ You can view only the following types of approval delegations in the Work List:
 
 To view delegated approvals:
 
-1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
-
-   >[!NOTE]
-   >
-   >Your Workfront administrator might make the following changes to the Home icon in your environment:
-   >
-   >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
-
-1. Click the **Filter** drop-down menu, then click **Approvals**.  
-   All approvals display in the list by default, including approvals assigned to you and approvals delegated to you.
-
-   ![](assets/delegated-to-me-nwe-350x93.png)
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Click **Customize** to add the **My Approvals** widget.
+1. In the **My Approvals** widget, click the **Filter** drop-down menu, then click **Delegated Approvals**.  
+   All approvals delegated to you display in the list.

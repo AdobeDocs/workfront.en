@@ -21,8 +21,8 @@ It also indicates which actions Workfront administrators can disable or enable u
 
 >[!NOTE]
 >
->This article describes functionality available to access levels in the new Workfront plan model. To see functionality available in the current plan model, see [Functionality available for each object type for various access levels](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
-
+>* This article describes functionality available to access levels in the new Workfront plan model. To see functionality available in the current plan model, see [Functionality available for each object type for various access levels](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+>* For a list of functionality available to the different plans in the new plan model, see [Adobe Workfront Pricing and Packaging](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projects
 
