@@ -15,6 +15,8 @@ feature-set: Workfront
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 2025 Q1 Release {#release-25-q1}
       * [2025 Q1 Release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
+      * [2025 Q1 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)<!--* [2025 Q1 Boards enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md)-->
+      * [Other enhancements during the First Quarter 2025 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
       * [Look-and-feel updates during the 2025 Q1 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
     * 2024 Q4 Release {#release-24-q4}
       * [2024 Q4 Release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
@@ -896,23 +898,16 @@ feature-set: Workfront
     * [Home](workfront-basics/using-home/home.md)
     * Use the Home area {#use-home-area}
       * [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
-      * [Move from Legacy home to Priorities](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
       * [Add, edit, or remove widgets in New Home](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
       * [Display items in the Work List in the Home area](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
       * [Home widget filters overview](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
       * [Manage your work with the My Work widget](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
-      * [Prioritize work in the Home area](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
       * [Manage work and team requests in the Home area](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
       * [Update or edit a work item in the Home area](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
       * [Create work items and projects from the Home area](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
       * [Log time on a work item from the Home area](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
       * [Mark an item as Done in the Home area](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
-      * [Home Calendar view](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
-      * [Configure your Home Calendar view settings](workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)
-      * [Home area for Reviewers](workfront-basics/using-home/using-the-home-area/home-for-reviewers.md)
-      * [Use the Home Calendar view](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
-      * [View the Home Calendar](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
       * [Use the My Updates area](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
   * AI Assistant {#ai-assistant}
     * [AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
@@ -1031,7 +1026,6 @@ feature-set: Workfront
     * [The Innovation Lab](workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
     * [Working across time zones](workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
     * [Workfront Proof Manager permissions troubleshooting](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
-    * [Duplicate approval processes showing in the Home Work List](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
     * [Filter buttons do not display in page headers](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
     * [Projects I'm On filter includes unexpected results](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
     * [Multiple browser tabs cause Workfront to log out](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)

@@ -46,26 +46,16 @@ To find out what plan, license type, or access you have, contact your Workfront 
 
 ## View submitted proof approvals
 
-1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Click **Customize** to add the **My Approvals** widget.
+1. (Conditional) Click the **Filter** drop-down menu, then select **Approvals I've submitted** to see approvals you've submitted.
 
-   >[!NOTE]
-   >
-   >Your Workfront administrator might make the following changes to the Home icon in your environment:
-   >
-   >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
-
-1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
-
-1. Click a **Proof** approval in the Work List.
-
-   This opens the proof approval to the right of the Work list.
-
+   ![](assets/proof-approval.png)
+   
    >[!NOTE]
    >
    >&nbsp;If you submit an approval to a guest proofing user, the approval doesn't display in Home.
 
-   ![](assets/proof-approval-pending-home-nwe-350x230.png)
 
 1. (Optional) Click **Go to Proof** in the upper-right corner of the right panel to launch the proofing viewer.
 
