@@ -55,7 +55,6 @@ Before you begin, you must
 >[!IMPORTANT]
 >
 >If you are on the Adobe Unified Experience, you must use the following Application URL: `.workfront.adobe.com`.
-> ![](assets)
 
 
 
