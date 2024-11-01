@@ -52,6 +52,13 @@ Before you begin, you must
 
 * Add and activate [!DNL Workfront] as an application in [!DNL JumpSeat]. For more information, see [How To Add Or Delete An Application](https://support.jumpseat.io/article/how-to-add-an-application/).
 
+>[!IMPORTANT]
+>
+>If you are on the Adobe Unified Experience, you must use the following Application URL: `.workfront.adobe.com`.
+> ![](assets)
+
+
+
 ## Configure the [!DNL JumpSeat] integration
 
 We recommend setting up a [!DNL JumpSeat] integration in both your Preview and Production environments.
