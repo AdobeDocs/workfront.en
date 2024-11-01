@@ -166,6 +166,6 @@ For more information about the Proof Approvals object report, see the [Report on
 
 ## Approve a shared proof
 
-When a user adds you to a proof and grants either the Approver role or the Reviewer & Approver role using Automated Workflow, the approval request displays on the Approvals tab in your Home or My Work area. You can then view the proof and make an approval decision on the proof directly from Workfront.
+When a user adds you to a proof and grants either the Approver role or the Reviewer & Approver role using Automated Workflow, the approval request displays in the My Approvals widget in the Home area. You can then view the proof and make an approval decision on the proof directly from Workfront.
 
-For information about how to make approval decisions from the My Work area, see [Approve work from the Home area](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) or [Approving work](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) in [Approving work](../../../review-and-approve-work/manage-approvals/approving-work.md).
+For information about how to make approval decisions from the My Approvals widget, see [Approve work from the Home area](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) or [Approving work](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) in [Approving work](../../../review-and-approve-work/manage-approvals/approving-work.md).

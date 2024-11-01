@@ -27,10 +27,9 @@ This page provides information about functionality that is included in the First
 
 ## Adobe Workfront enhancements
 
-<!--* [Administrator enhancements](#administrator-enhancements)-->
+* [Administrator enhancements](#administrator-enhancements)
+<!--* [Boards enhancements](#boards-enhancements)-->
 * [Other enhancements](#other-enhancements)
-
-<!--
 
 ### Administrator enhancements
 
@@ -56,7 +55,7 @@ This page provides information about functionality that is included in the First
                 <td><p><b>Available on these dates:</b></p>
                     <ul>
                         <li>
-                            <p>Preview release: October 24, 2024</p>
+                            <p>Preview release: October 29, 2024</p>
                         </li>
                         <li>
                             <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
@@ -70,7 +69,43 @@ This page provides information about functionality that is included in the First
         </tbody>
 </table> 
 
--->
+<!--### Boards enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 50%;" />
+        <tbody>
+            <tr>
+                <td>
+                    <p><span class="bold">Feature</span>
+                    </p>
+                </td>
+                <td>
+                    <p><span class="bold">Release dates</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Change the owner of a board</a></p>
+                    <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
+                </td>
+                <td><p><b>Available on these dates:</b></p>
+                    <ul>
+                        <li>
+                            <p>Preview release: October 31, 2024</p>
+                        </li>
+                        <li>
+                            <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
+                        </li>
+                        <li>
+                            <p>Production release for all customers: With the 25.1 release (January 2025)</p>
+                        </li>
+                   </ul>
+                </td>
+            </tr>
+        </tbody>
+</table>--> 
 
 ### Other enhancements
 
@@ -78,7 +113,26 @@ This page provides information about functionality that is included in the First
     <col style="width: 50%;" />
     <col style="width: 50%;" />
         <tbody>
-             <tr>
+            <tr>
+                <td>
+                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">AI Assistant can now work with projects, tasks, and issues</a></p>
+                    <p>To make it easier to manage your work items in Workfront, we've updated AI Assistant to work with projects, tasks, and issues. Now, AI Assistant can locate projects, tasks, and issues based on criteria you specify, such as "Find my tasks that are due this week."</p>
+                </td>
+                <td><p><b>Available on these dates:</b></p>
+                    <ul>
+                        <li>
+                            <p>Preview release: October 31, 2024</p>
+                        </li>
+                        <li>
+                            <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
+                        </li>
+                        <li>
+                            <p>Production release for all customers: With the 25.1 release (January 2025)</p>
+                        </li>
+                   </ul>
+                </td>
+            </tr>
+            <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the First Quarter 2025 timeframe</a></p>
                     <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the First Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
@@ -102,7 +156,6 @@ This page provides information about functionality that is included in the First
 
 The following functionality is soon to be removed from Workfront:
 -->
-
 
 ## Announcements
 
