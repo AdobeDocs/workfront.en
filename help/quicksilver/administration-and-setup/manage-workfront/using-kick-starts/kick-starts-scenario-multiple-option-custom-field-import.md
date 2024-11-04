@@ -12,6 +12,8 @@ exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
 ---
 # Kick-Starts scenario: Import multiple-option custom fields into Workfront
 
+{{highlighted-preview}}
+
 You can import custom fields with multiple options in Adobe Workfront using the Kick-Start functionality. 
 
 Examples of custom fields with multiple options are:  
@@ -78,25 +80,25 @@ To export existing data from Workfront:
 
 {{step-1-to-setup}}
 
-1. Expand **System** in the left menu, then click **Export Data (Kick-Starts)**. 
-
-    ![](assets/export-data-kick-starts-link-in-setup.png)
+1. Expand **System** in the left menu, then click **Export Data (Kick-Starts)**.
 
 1. Select **Custom Data** in the **What to include** section. 
+   
+   Sample image in the Preview environment:
+   ![Select Custom Data](assets/kickstarts-select-existing-data.png)
 
-    ![](assets/existing-custom-data-box-checked-kick-starts.png)
+   Sample image in the Production environment:
+   ![Select Custom Data](assets/existing-custom-data-box-checked-kick-starts.png)
 
-1. Choose **.xlsx file** in the **Download format** section.   
+1. Choose **.xlsx file** in the **Download format** section.
   
     >[!TIP]
     >
-    >    Depending on how much custom data you have in your system, this might take a long time. 
+    >Depending on how much custom data you have in your system, this might take a long time.
 
-    ![](assets/download-button-for-kick-starts.png)
+1. Click **Download**. An .xlsx file downloads to your computer. Navigate to it and open it.
 
-1. Click **Download**. An .xlsx file downloads to your computer. Navigate to and open it. 
-
-    ![](assets/existing-data-excel-parameter-sheet.png)
+    ![Exported data in Excel](assets/existing-data-excel-parameter-sheet.png)
 
 1. Examine the downloaded file and make note of the following details:  
 
@@ -118,19 +120,20 @@ After scanning the information about existing custom fields in your system, you 
 
 1. Expand **System** in the left menu.
 
-1. Click **Import Data (Kick-Starts)**.   
-
-    ![](assets/import-data-kick-starts-link-in-setup.png)
+1. Click **Import Data (Kick-Starts)**.
  
-1. In the **Download a blank Kick-Start spreadsheet** area, choose the **Custom Data** checkbox and click **Download**. 
+1. In the **Download a blank Kick-Start spreadsheet** area, select the **Custom Data** checkbox and click **Download**.
 
-    ![](assets/blank-custom-data-option-checked-kick-starts.png)
+   Sample image in the Preview environment:
+   ![Select Custom Data](assets/kickstarts-select-existing-data.png)
 
-    A blank kick-start file downloads to your computer.  
+   ![](assets/blank-custom-data-option-checked-kick-starts.png)
 
-    >[!NOTE]
-    >
-    >The number of sheets in the file, their names, and the number of and names of the columns in each sheet should be identical to the ones from the kick-start downloaded in the above section which contained your existing custom data. 
+   A blank kick-start file downloads to your computer.  
+
+   >[!NOTE]
+   >
+   >The number of sheets in the file, their names, and the number of and names of the columns in each sheet should be identical to the ones from the kick-start downloaded in the above section which contained your existing custom data. 
 
 ## Populate the Excel Kick-Starts spreadsheet
 
@@ -274,7 +277,7 @@ After performing the steps described in the previous sections, continue with the
 
 1. Click **Choose File** under the section **Upload data with Kick-Start spreadsheet**. 
 
-1. Browse for the Excel spreadsheet you prepared, on your computer and select it when you find it.  When the file is recognized by Workfront, the Upload button will turn blue. 
+1. Browse for the Excel spreadsheet you prepared, on your computer and select it when you find it. When Workfront recognizes the file, the Upload button turns blue.
 1. Click **Upload.** 
 
     ![](assets/kick-start-file-selected-and-upload-blue-button.png)
@@ -283,7 +286,7 @@ After performing the steps described in the previous sections, continue with the
 
     ![](assets/kick-start-successful.png)
 
-    The new custom fields and forms are now in your Workfront system. You can find them in the Custom Forms area of Setup. 
+    The new custom fields and forms are now in your Workfront system. You can find them in the Custom Forms area of Setup.
 
     >[!NOTE]
     >
