@@ -16,7 +16,7 @@ exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
 
 You can import custom fields with multiple options in Adobe Workfront using the Kick-Start functionality. 
 
-Examples of custom fields with multiple options are:  
+Examples of custom fields with multiple options are:
 
 * Multi-Select Dropdown 
 * Dropdown 
@@ -84,7 +84,7 @@ To export existing data from Workfront:
 
 1. Select **Custom Data** in the **What to include** section. 
    
-   Sample image in the Preview environment:
+   <span class="preview">Sample image in the Preview environment:</span>
    ![Select Custom Data](assets/kickstarts-select-existing-data.png)
 
    Sample image in the Production environment:
@@ -124,59 +124,60 @@ After scanning the information about existing custom fields in your system, you 
  
 1. In the **Download a blank Kick-Start spreadsheet** area, select the **Custom Data** checkbox and click **Download**.
 
-   Sample image in the Preview environment:
+   <span class="preview">Sample image in the Preview environment:</span>
    ![Select Custom Data](assets/kickstarts-select-existing-data.png)
+   
+   Sample image in the Production environment:
+   ![Select Custom Data](assets/blank-custom-data-option-checked-kick-starts.png)
 
-   ![](assets/blank-custom-data-option-checked-kick-starts.png)
-
-   A blank kick-start file downloads to your computer.  
+   A blank kick-start file downloads to your computer.
 
    >[!NOTE]
    >
-   >The number of sheets in the file, their names, and the number of and names of the columns in each sheet should be identical to the ones from the kick-start downloaded in the above section which contained your existing custom data. 
+   >The number of sheets in the file, their names, and the number of and names of the columns in each sheet should be identical to the ones from the kick-start downloaded in the above section which contained your existing custom data.
 
 ## Populate the Excel Kick-Starts spreadsheet
 
-Before populating the excel spreadsheet, download the kick-start template as described in the above section.  
+Before populating the Excel spreadsheet, download the kick-start template as described in the above section.  
 
 >[!IMPORTANT]
 >
->Do not try to import information using an ad-hoc Excel spreadsheet. All spreadsheets for importing information into Workfront using the kick-start functionality must match the contents of the files you download from Workfront and described in this article. 
+>Do not try to import information using an ad-hoc Excel spreadsheet. All spreadsheets for importing information into Workfront using the kick-start functionality must match the contents of the files you download from Workfront and described in this article.
 
-To populate the Excel spreadsheet with information for the new custom fields: 
+To populate the Excel spreadsheet with information for the new custom fields:
 
-1. Open the Excel spreadsheet you downloaded in the previous section, and notice a number of sheets. Each sheet represents an object in the application. 
+1. Open the Excel spreadsheet you downloaded in the previous section, and notice a number of sheets. Each sheet represents an object in the application.
 
     >[!INFO]
     >
-    >For example, **Parameter** (which refers to Custom Field), **Parameter Option**(which refers to Custom Field option), **Category** (which refers to Custom Form). 
+    >For example, **Parameter** (which refers to Custom Field), **Parameter Option**(which refers to Custom Field option), **Category** (which refers to Custom Form).
     >
     >You must write the names of the objects and their attributes in the format supported by the Workfront database.
     >
-    >For information about the meaning of these objects, see the [Glossary of [!DNL Adobe Workfront] terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md). 
+    >For information about the meaning of these objects, see the [Glossary of [!DNL Adobe Workfront] terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
     >
-    >For information about the names of the objects in the Workfront database, see the [API Explorer](../../../wf-api/general/api-explorer.md). 
+    >For information about the names of the objects in the Workfront database, see the [API Explorer](../../../wf-api/general/api-explorer.md).
     >
     >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
     
 
-1. Ensure the following information is formatted correctly:  
+1. Ensure the following information is formatted correctly:
 
-    * The first row of every sheet must remain empty, otherwise the import generates an error.  
-    * The column headers in each sheet represent attributes of the objects that can be set during an import. All column headers must remain in the same order you find them when you export the sheet and they cannot be renamed.  
-    * The column headers in bold are required fields and they must have a value. 
-
-        >[!TIP]
-        >
-        >Some columns are required although they are not in bold. For example, the `isNew` and `ID` columns are not in bold, but they are required fields.  
-
-1. Select the `**PARAM Parameter`** sheet and add information about the new custom fields in the following required columns: 
-
-    * **`isNew`** = enter **`TRUE`** in this column for every line that represents a new custom field. This indicates that the field is new and not existing in Workfront.    
+    * The first row of every sheet must remain empty, otherwise the import generates an error.
+    * The column headers in each sheet represent attributes of the objects that can be set during an import. All column headers must remain in the same order you find them when you export the sheet and they cannot be renamed.
+    * The column headers in bold are required fields and they must have a value.
 
         >[!TIP]
         >
-        >    If a line represents an existing field already in Workfront, you would enter **`isNew`** = **`FALSE`**. 
+        >Some columns are required although they are not in bold. For example, the `isNew` and `ID` columns are not in bold, but they are required fields.
+
+1. Select the `**PARAM Parameter`** sheet and add information about the new custom fields in the following required columns:
+
+    * **`isNew`** = enter **`TRUE`** in this column for every line that represents a new custom field. This indicates that the field is new and not existing in Workfront.
+
+        >[!TIP]
+        >
+        >If a line represents an existing field already in Workfront, you would enter **`isNew`** = **`FALSE`**.
 
     * **`ID`** = must be a unique number for each line that represents a new field. You can use any number starting with 1, as long as each new field has  a unique number.  
     * **`setDataType`** = for each line that represents a new field, enter the data type that the field supports. The Data Type must be entered as it would appear in the database. Select from the following data types: 
