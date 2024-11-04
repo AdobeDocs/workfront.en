@@ -35,6 +35,7 @@ You must create the scenario described in [Create a basic scenario](/help/quicks
 1. Select **Watch Record**.
 1. Make sure that the module uses the same connection as the rest of the modules in the scenario.
 1. In the Filter field, select **New Records Only**.
+1. In the Record Type field, select **Issue**.
 1. In the Outputs box, select `ID`, `Name`, and `Project ID`.
 1. Click **OK** to save the module settings.
    

@@ -19,7 +19,10 @@ For a list of all changes available with the First Quarter 2025 release, see [Fi
 
 We've upgraded the Workfront navigation bar to improve its performance. The look-and-feel changes are minimal.
 
-The most noticeable change is that the Favorites and Recents drop-down screens no longer have a close button. You can simply click away from the screen or press ESC on your keyboard to close it.
+The most noticeable changes are as follows:
+
+* The Favorites and Recents drop-down screens no longer have a close button. You can simply click away from the screen or press ESC on your keyboard to close it.
+* You can no longer drag-and-drop pinned pages to arrange them. Instead, there is a drop-down menu with buttons that allow you to move your pinned pages.
 
 ## Look-and-feel update for Send update to user window
 
