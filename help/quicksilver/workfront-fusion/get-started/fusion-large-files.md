@@ -61,7 +61,8 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 For the initial release, the following connectors support large files. 
 
-* Workfront
+* Workfront > Upload document
+* Adobe Experience Manager Assets > Upload document
 * HTTP
 
 Other connectors will be supported in future releases.
