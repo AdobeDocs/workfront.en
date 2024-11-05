@@ -13,10 +13,6 @@ You can view the document's status directly in the document list:
 
 ![](assets/status-in-doc-list.png)
 
->[!IMPORTANT]
->
->The ability to view the document status in the document list is temporarily unavailable. 
-
 
 The following statuses are available:
 
