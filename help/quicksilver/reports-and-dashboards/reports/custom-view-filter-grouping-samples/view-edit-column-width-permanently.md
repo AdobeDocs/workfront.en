@@ -74,6 +74,7 @@ For more detail about the information in this table, see [Access requirements in
    width=200
    usewidths=true
    ```
+   
    For the **width** line, specify any number (in pixels) that represents how wide you want the column to display in the view.
 
 1. Click **Done**, then **Save View**.
