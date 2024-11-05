@@ -82,7 +82,7 @@ To export existing data from Workfront:
 
 1. Expand **System** in the left menu, then click **Export Data (Kick-Starts)**.
 
-1. Select **Custom Data** in the **What to include** section. 
+1. Select **Custom Data** in the **What to include** section.
    
    <span class="preview">Sample image in the Preview environment:</span>
    ![Select Custom Data](assets/kickstarts-select-existing-data.png)
@@ -122,7 +122,7 @@ After scanning the information about existing custom fields in your system, you 
 
 1. Click **Import Data (Kick-Starts)**.
  
-1. In the **Download a blank Kick-Start spreadsheet** area, select the **Custom Data** checkbox and click **Download**.
+1. In the **Download a blank Kick-Start spreadsheet** area, select the **Custom Data** check box and click **Download**.
 
    <span class="preview">Sample image in the Preview environment:</span>
    ![Select Custom Data](assets/kickstarts-select-existing-data.png)
