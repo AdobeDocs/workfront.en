@@ -24,6 +24,7 @@ You can add an existing custom form to any of the objects listed below. A custom
 * Programs
 * Documents
 * Users
+* Groups
 * Iterations
 * Expenses
 * Billing records

@@ -37,7 +37,7 @@ This section provides examples of custom views, filters, and groupings that you 
 * [View: calculate time and date differences](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md) 
 * [View: display the result of a calculation between two fields in a column](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md) 
 * [View: add a list of task successors in a column](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md) 
-* [View and grouping: display project Actual Duration aggregated by the average in a Grouping](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md) 
+* [View and grouping: display project Actual Duration aggregated by the average in a grouping](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md) 
 * [View: combined task and issue details in an Hour list](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md) 
 * [View: display an image instead of a string in a column](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md) 
 * [View: display objects that are not included in the standard interface](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md) 
