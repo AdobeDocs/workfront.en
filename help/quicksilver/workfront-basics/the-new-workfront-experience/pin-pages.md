@@ -88,7 +88,7 @@ You can rearrange the order that pinned pages appear.
 ## Remove a pinned page
 
 1. Click the More icon ![](assets/more-icon.png) next to the pin you want to remove.
-1. Click **Remove Pin**. 
+1. Click **Remove pin**. 
 
    ![Remove pin](assets/pin-menu.png)
 
