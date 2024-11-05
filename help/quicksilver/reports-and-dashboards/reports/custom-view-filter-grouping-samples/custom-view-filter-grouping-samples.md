@@ -41,7 +41,7 @@ This section provides examples of custom views, filters, and groupings that you 
 * [View: combined task and issue details in an Hour list](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md) 
 * [View: display an image instead of a string in a column](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md) 
 * [View: display objects that are not included in the standard interface](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md) 
-* [View: display original issue information on task and project lists](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md) 
+* [View: display original issue information on task or project lists](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md) 
 * [View: display Program and Portfolio information in a task view](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md) 
 * [View: display task indentations in a task list](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md) 
 * [View: document report with link to a proof](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md) 

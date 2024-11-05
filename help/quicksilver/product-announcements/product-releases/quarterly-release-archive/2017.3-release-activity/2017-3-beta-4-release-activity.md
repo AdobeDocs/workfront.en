@@ -145,7 +145,7 @@ This information can be displayed in a task or project report or list by buildin
 
 Prior to this change you were not able to report on this information.
 
-For more information about building the custom text mode view which captures the information from the original issue, see [View: display original issue information on task and project lists](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+For more information about building the custom text mode view which captures the information from the original issue, see [View: display original issue information on task or project lists](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
 
 ## Filter System Updates in the Update Stream Is Now Persistent across Objects {#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects}
 
