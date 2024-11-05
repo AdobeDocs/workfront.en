@@ -102,8 +102,6 @@ To merge data from two columns without a line break:
    If you share more than one column, ensure you add the column number in the lines of code that contain the sharing information for each column. 
 
 
-   >[!BEGINSHADEBOX]
-
    **EXAMPLE:** The following is the text mode code for a merged column that contains three separate columns, starting with the second column of the list. The merged values are Project Name, Planned Start Date, and Project Owner's name and there is no break between the three values:
     
      ```
@@ -118,8 +116,6 @@ To merge data from two columns without a line break:
      ```
    
    ![](assets/shared-column-no-line-breaks-350x142.png)
-
-   >[!ENDSHADEBOX]
 
 
 1. Click **Done**, then **Save View**.
@@ -156,8 +152,6 @@ Do the following to merge the data from multiple columns to display it in one co
 
    If you share more than one column, ensure you add the column number in the lines of code that contain the sharing information. 
 
-      >[!BEGINSHADEBOX]
-
       **EXAMPLE:** The following is the text mode code for a shared column that contains Project Name, Planned Start Date, and Project Owner's name with a line break. The shared column is the second column of a project view.
 
       ```
@@ -183,9 +177,5 @@ Do the following to merge the data from multiple columns to display it in one co
       ```
 
       ![](assets/shared-column-with-line-breaks-350x199.png)
-
-
-   >[!ENDSHADEBOX]
-
 
 1. Click **Done**, then **Save View**.
