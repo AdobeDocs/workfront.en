@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 
 # View project and task details in the Priorities worklist
 
-
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 You can view project and task details in the priorities worklist. 
 
