@@ -41,7 +41,10 @@ You must have the following access to perform the steps in this article and log 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Light or higher to log hours on a project, task, issue, or General Hours on a timesheet</p>
+   <td> <p>New:</p>
+   <ul><li><p> Light or higher to log hours on a task, issue, or General Hours on a timesheet</p>
+   <li><p>Standard to log hours on projects</p></li></ul>
+   <p>
    <p>Current: 
    <ul><li>Review or higher to log General Hours in a timesheet</li>
    <li>Work or higher to log hours on a project, task, or issue</li></ul> </td> 
