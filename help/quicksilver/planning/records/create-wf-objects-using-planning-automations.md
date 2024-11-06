@@ -22,9 +22,9 @@ For more information on connected records, see [Connected records overview](/hel
 
 You must configure an automation in Workfront Planning before you can use it to create Workfront objects.
 
-1. Cclick the **More** menu ![](assets/more-menu.png) amd select **Automations**. 
+1. Click the **More** menu ![](assets/more-menu.png) and select **Automations**. 
 
-  You are directed to the list of available automations.
+   The list of available automations opens.
 
 1. Click **Create new automation** in the upper-right corner of the screen.
 1. In the **Button Text** field, enter the text that you want to appear on the button. Users will click this button when using the automation to create a Workfront object.
@@ -47,4 +47,14 @@ The automation appears on the list of automations, and is available to use in re
 
 ## Use a Workfront Planning automation to create a Workfront object
 
+1. In Workfront Planning, open the record type page that contains the records you want to use to create Workfront objects.
+1. Select one or more records.
+1. Click the automation button near the lower-right corner of the screen. 
 
+   In this example, it is the Create project button. 
+
+   ![Automation button](assets/automation-custom-button.png)
+
+>[!NOTE]
+>
+>We recommend checking that the object was created and connected as expected.
