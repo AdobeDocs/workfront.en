@@ -9,15 +9,13 @@ exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
 ---
 # Reporting elements: filters, views, and groupings
 
-<!--
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
+<!-- Audited: 11/2024 -->
+
+<!--AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
 <p>- overview for Filters</p>
 <p>- create a filter</p>
 <p>- share a filter</p>
-<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well</p>
-</div>
--->
+<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well-->
 
 There are several elements that make a list or a report possible in Adobe Workfront. The main elements that every list and report must have are a filter, a view, and a grouping. Each element provides different information within any report.
 
@@ -50,11 +48,10 @@ Some attributes of filters are:
   
   For more information about filters, see the article [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-![Filter icon](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
-
 ## Views
 
-By defining the view of a report, you define what information you include in the report. Like all reporting elements, views are based on one object type.  
+By defining the view of a report, you define what information you include in the report. Like all reporting elements, views are based on one object type.
+  
 For example, a view for a task report could show Due Dates, include key financial details such as Cost, or be used to show Assignments and Delivery Date details. Views can be used to deliver a variety of details about the data in the report.
 
 Some attributes of views are:

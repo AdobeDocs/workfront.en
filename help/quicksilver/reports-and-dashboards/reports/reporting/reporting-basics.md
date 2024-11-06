@@ -11,6 +11,8 @@ exl-id: 7cec252f-e5be-4099-8fa6-308f80952a21
 ---
 # Reporting basics
 
+<!-- Audited: 11/2024 -->
+
 This section contains the following articles:
 
 * [Get started with reports](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md) 

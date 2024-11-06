@@ -10,9 +10,9 @@ exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
 ---
 # Groupings overview in Adobe Workfront
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)-->
 
 You can add groupings to manage the layout of the information in your reports and lists.
 
@@ -26,13 +26,13 @@ You can add groupings to reports in the following ways:
 
   For information about creating a grouping from scratch, see [Create groupings in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
-By default, groupings are shown in a gray or blue highlight in your report or list. The results of the report or list are listed under their individual grouping, with no highlight.
+By default, groupings are shown in a gray highlight in your report or list. The results of the report or list are listed under their individual grouping, with no highlight.
+
+![Groupings example](assets/grouping-example-blue.png)
 
 You can add up to three groupings to a report. You can organize your information with up to four groupings by creating a matrix report. For more information on matrix reports, see [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-In a standard grouping report, the first grouping is a darker color, the second and third groupings are lighter. You cannot customize the color of the highlight for your grouping, or the font of the grouping name. The number in parentheses after the name of the grouping represents the number of results under that grouping. If your report spans multiple pages, ensure that you display *All* the results in the report or list to get an accurate count for your results under each grouping.
-
-![Sample grouping](assets/grouping-example-blue.png)
+The number in parentheses after the name of the grouping represents the number of results under that grouping. If your report spans multiple pages, ensure that you display *All* the results in the report or list to get an accurate count for your results under each grouping.
 
 Consider the following when working with groupings:
 
