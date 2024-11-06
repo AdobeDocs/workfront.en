@@ -9,7 +9,7 @@ exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
 ---
 # Create or edit filters in Adobe Workfront
 
-<!--Audited: 12/2023-->
+<!-- Audited: 11/2024 -->
 
 You can limit the amount of information you display on the screen in a list of items with a filter. You can define certain criteria based on particular pieces of information about an object and only display the objects that meet those criteria.
 
@@ -41,42 +41,36 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>New: Contributor or higher</p> 
-   
-   Or
-
-   <p>Current: Request or higher</p>
-
-   <p><b>NOTE:</b></p>
-
-   To edit a filter in a report, you must have the following license:
-
-   <p>New: Standard</p> 
-   
-   Or
-   
-   <p>Current: Plan</p>
-
-   </td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Contributor to modify a filter</p></li>
+         <li><p>Standard to modify a filter in a report</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Request to modify a filter</p></li>
+         <li><p>Plan to modify a filter in a report</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <ul><li><p>Edit access to Filters, Views, and Groupings</p></li></ul>
-    <p><b>NOTE:</b></p>
+
    To edit a filter in a report, you must have the following access level configuration, in addition to Edit access to Filters, Views, and Groupings:
 
    <ul><li><p>Edit access to Reports, Dashboards, and Calendars</p></li></ul>   
-   
-   <p><b>NOTE:</b></p> <p> If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>Manage permissions to a filter</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td role="rowheader"><strong>Object permissions*</strong></td> 
+   <td> <p>Manage permissions to a filter</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -363,19 +357,17 @@ You can create legacy filters in lists and reports in the following ways:
 Regardless of the method you use to create filters, creating a filter from scratch or from an existing filter is similar.
 
 1. Go to a list or a report that contains the filter that you want to customize.
-1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png).
+1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png), then click the **More** icon ![More icon](assets/more-icon.png) and click **Go back to Legacy Filters**.
 
    >[!TIP]
    >
    >The report creator must allow for filters to be edited in order to view the Filter drop-down list on a report. The Report Default filter is applied to a report by default. The Report Default filter can be customized only when you edit the report.
 
-   ![Filter drop-down](assets/filter-drop-down-expanded-nwe.png)
-
-1. Click **New Filter** at the top of the list of filters.
+1. Click **+ New Filter** at the top of the list of filters.
 
    Or
 
-   Hover over the filter that you want to modify and click the **Edit** icon ![](assets/edit-icon.png). 
+   Hover over the filter that you want to modify and click the **Edit** icon ![Edit icon](assets/edit-icon.png). 
    
    The builder for customizing the filter launches.
 
@@ -417,7 +409,7 @@ Regardless of the method you use to create filters, creating a filter from scrat
    
    Or
    
-   Click **Save as New Filter** to create a filter from the selected one. 
+   Click **Save as New Filter** to create a new filter from the selected one. 
    
    The new filter displays in the list of filters and it is automatically applied to the list or report you selected.
 

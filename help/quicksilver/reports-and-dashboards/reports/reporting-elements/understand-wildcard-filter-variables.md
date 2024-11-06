@@ -10,18 +10,14 @@ exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
 ---
 # Wildcard filter variables overview
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 11/2024 -->
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: This article is linked to the training self-serve promted articles for user-based and date-based widlcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.) </p>
-<p>(NOTE: Alina: ***&gt;&gt;Linked in other articles - do not move/ delete.</p>
-<p>&gt;&gt;This was included but it is not supported???:</p>
-<p>The $$USER.roleIDs variable refers to all the job roles that are associated with the logged-in user. Using this variable, you can&nbsp; items assigned to all of the job roles associated with the logged-in user.</p>
-<p>For example, if you want to display tasks assigned to any of the job roles associated with the logged-in user, you can use the following filter rule in a task filter:</p>
-<p>AssignedToID Equals $$USER.roleIDs.)</p>
-</div>
--->
+<!--(NOTE: This article is linked to the training self-serve promoted articles for user-based and date-based wildcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.)
+(NOTE: Alina: ***&gt;&gt;Linked in other articles - do not move/ delete.
+This was included but it is not supported???:
+The $$USER.roleIDs variable refers to all the job roles that are associated with the logged-in user. Using this variable, you can&nbsp; items assigned to all of the job roles associated with the logged-in user.
+For example, if you want to display tasks assigned to any of the job roles associated with the logged-in user, you can use the following filter rule in a task filter:
+AssignedToID Equals $$USER.roleIDs.)-->
 
 Using wildcards, you can reference a generic user or date instead of a specific user or date. In this way, the elements you build are dynamic; the results change depending on the context in which they are used.
 
