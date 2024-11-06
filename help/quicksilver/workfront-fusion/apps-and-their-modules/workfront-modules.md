@@ -625,7 +625,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Action]</td> 
-   <td> <p>Select the action you want the module to perform.</p> <p>You may need to fill out additional fields, depending on the [!UICONTROL Record Type] and [!UICONTROL Action] you choose. Some combinations of these two settings may require only a record ID, while others (such as Project for the <strong>[!UICONTROL Record Type]</strong> and [!UICONTROL Attach Template] for the <strong>[!UICONTROL Action]</strong>) require additional information (such as an Object ID and a Template ID).</p> <p>For details about individual fields, see the <a href="http://developer.workfront.com/">Workfront developer documentation</a>. <p><strong>Note</strong>: The developer documentation site includes information only through API version 14, but still contains valuable information for API calls. </p> 
+   <td> <p>Select the action you want the module to perform.</p> <p>You may need to fill out additional fields, depending on the [!UICONTROL Record Type] and [!UICONTROL Action] you choose. Some combinations of these two settings may require only a record ID, while others (such as Project for the <strong>[!UICONTROL Record Type]</strong> and [!UICONTROL Attach Template] for the <strong>[!UICONTROL Action]</strong>) require additional information (such as an Object ID and a Template ID).</p><p>For options available to some actions, see <a href="#misc-action-options" class="MCXref xref">Misc action options</a> in this article.</p> <p>For details about individual fields, see the <a href="http://developer.workfront.com/">Workfront developer documentation</a>. <p><strong>Note</strong>: The developer documentation site includes information only through API version 14, but still contains valuable information for API calls. </p> 
     <ol> 
      <li value="1"> <p>Select the record type from the left navigation on the [!DNL Workfront] developer documentation page. The following types have their own pages:</p> 
       <ul> 
@@ -647,6 +647,156 @@ When you are configuring this module, the following fields display.
 </table>
 
 See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
+
+#### Misc action options
+
+##### Task
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Action</th> 
+   <th>Options</th> 
+  </tr> 
+  <tr> 
+   <td>Copy</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearConstraints</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Clears financial data</p></li>
+   <li>clearPermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>Clears reminder notifications</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>Move</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearDocuments</li>
+   <li>clearConstraints</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Clears financial data</p></li>
+   <li>clearPermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>Clears reminder notifications</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### Issue
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Action</th> 
+   <th>Options</th> 
+  </tr> 
+  <tr> 
+   <td>Copy</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearPermissions</li>
+   <li>clearProgress</li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>Convert to task</td> 
+   <td>
+   <ul>
+   <li>preserveIssue<p>Keep the original issue and tie its resolution to this task</p></li>
+   <li>preservePrimaryContact<p>Allow the issues's primary contact access to this task</p</li>
+   <li>preserveCompletionDate<<p>Keep the Planned Completion Date of the issue</p/li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>Convert to project</td> 
+   <td>
+   <ul>
+   <li>preserveIssue<p>Keep the original issue and tie its resolution to this task</p></li>
+   <li>preservePrimaryContact<p>Allow the issues's primary contact access to this task</p</li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+##### Project
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Action</th> 
+   <th>Options</th> 
+  </tr> 
+  <tr> 
+   <td>Copy</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Clears financial data</p></li>
+   <li>clearPermissions</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>Clears reminder notifications</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>Attach template / Save as template</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearBillingRates</li>
+   <li>clearConstraints</li>
+   <li>clearDeliverables<p>Clears goals</p></li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>Clears financial data</p></li>
+   <li>clearHourTypes</li>
+   <li>clearIssueSetup<p>Clears queue propterties and issues setup</p></li>
+   <li>clearPredecessors</li>
+   <li>clearRisks</li>
+   <li>clearSharingOptions</li>
+   <li>clearTimedNotifications<p>Clears reminder notifications</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 
 +++
 
@@ -923,6 +1073,7 @@ When you are configuring this module, the following fields display.
   </tr> 
  </tbody> 
 </table>
+
 +++
 
 +++ **[!UICONTROL Search (Legacy)]**
