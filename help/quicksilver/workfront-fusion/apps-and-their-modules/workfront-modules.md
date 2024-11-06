@@ -726,7 +726,7 @@ See a list of the [!DNL Workfront] object types for which you can use this modul
    <td>
    <ul>
    <li>preserveIssue<p>Keep the original issue and tie its resolution to this task</p></li>
-   <li>preservePrimaryContact<p>Allow the issues's primary contact access to this task</p</li>
+   <li>preservePrimaryContact<p>Allow the issues's primary contact access to this task</p></li>
    <li>preserveCompletionDate<<p>Keep the Planned Completion Date of the issue</p/li>
    </ul>
    </td> 
@@ -736,7 +736,7 @@ See a list of the [!DNL Workfront] object types for which you can use this modul
    <td>
    <ul>
    <li>preserveIssue<p>Keep the original issue and tie its resolution to this task</p></li>
-   <li>preservePrimaryContact<p>Allow the issues's primary contact access to this task</p</li>
+   <li>preservePrimaryContact<p>Allow the issues's primary contact access to this task</p></li>
    </ul>
    </td> 
   </tr> 
