@@ -13,6 +13,8 @@ If a document is marked needs work in a previous review, you can upload a new ve
 
 If the file name of the new version is different from the file name of the previous version, Workfront displays the document with the newer file name.
 
+When a new version is added to a document with outstanding approvals, the approval on the previous version displays as Withdrawn. The previous approval process closes, even if some participants have not yet made a decision.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
