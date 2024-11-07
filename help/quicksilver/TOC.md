@@ -174,6 +174,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of November 5, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-4.md)
       * [Workfront Fusion release activity: Week of October 21, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-21.md)
       * [Workfront Fusion release activity: Week of October 7, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-7.md)
       * [Workfront Fusion release activity: Week of September 30, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-9-30.md)
