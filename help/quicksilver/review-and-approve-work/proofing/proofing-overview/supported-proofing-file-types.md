@@ -43,6 +43,7 @@ Workfront has the following limits:
 > * PPSX - Microsoft PowerPoint Slideshow
 > * XLT - Microsoft Excel Template 
 > * XLTX - Microsoft Excel Template
+> * EPS - Encapsulated PostScript
 
 * ABC - LEAD Advanced Bitonal Compression
 * ABIC - Adaptive Bi-level Image Compression
@@ -175,7 +176,6 @@ Workfront has the following limits:
 > * PPSX - Microsoft PowerPoint Slideshow
 > * XLT - Microsoft Excel Template 
 > * XLTX - Microsoft Excel Template
-> * EPS - Encapsulated PostScript
  
 
 * AI -&nbsp;Adobe Illustrator Artwork 

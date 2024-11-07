@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'View: merge information from multiple columns in one shared column'
+title: 'View: Merge Information from Multiple Columns in One Shared Column'
 description: You can merge the information that displays in multiple separate columns and display it in one shared column.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
 ---
 # View: merge information from multiple columns in one shared column
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 You can merge the information that displays in multiple separate columns and display it in one shared column.
 
@@ -88,7 +88,10 @@ You can merge the data from multiple separate columns to display it in one colum
 
 To merge data from two columns without a line break:
 
-1. Using text mode for a view, add the following text to the first column you want to merge:
+1. Go to a list of objects. 
+1. From the **View** drop-down, select a view, then click the **Edit** icon ![](assets/edit-icon.png) to edit the view. 
+1. Go to the first colum you want to merge, then click **Switch to Text Mode** > **Edit Text Mode**.
+1. Add the following text to the first column you want to merge:
 
    `sharecol=true`
    
@@ -98,32 +101,31 @@ To merge data from two columns without a line break:
 
    If you share more than one column, ensure you add the column number in the lines of code that contain the sharing information for each column. 
 
-   **Example:** The following is the text mode code for a merged column that contains three separate columns, starting with the second column of the list. The merged values are Project&nbsp;Name, Planned Start Date, and Project&nbsp;Owner's name and there is no break between the three values:
 
-   `column.1.valuefield=name`
+   **EXAMPLE:** The following is the text mode code for a merged column that contains three separate columns, starting with the second column of the list. The merged values are Project Name, Planned Start Date, and Project Owner's name and there is no break between the three values:
+    
+     ```
+     column.1.valuefield=name
+     column.1.valueformat=HTML
+     column.1.sharecol=true
+     column.2.valuefield=plannedStartDate
+     column.2.valueformat=atDate
+     column.2.sharecol=true
+     column.3.valuefield=owner:name
+     column.3.valueformat=HTML
+     ```
    
-   `column.1.valueformat=HTML`
-   
-   `column.1.sharecol=true`
-     
-   `column.2.valuefield=plannedStartDate`
-   
-   `column.2.valueformat=atDate`
-   
-   `column.2.sharecol=true`
-   
-   `column.3.valuefield=owner:name`
-   
-   `column.3.valueformat=HTML`
-   
-  ![](assets/shared-column-no-line-breaks-350x142.png)
+   ![](assets/shared-column-no-line-breaks-350x142.png)
 
-1. Click **Save**, then **Save View**.
+
+1. Click **Done**, then **Save View**.
 
 ## Merge data from two columns with a line break
 
 Do the following to merge the data from multiple columns to display it in one common column with a line break between the values from each column:
 
+1. Go to a list of objects. 
+1. From the **View** drop-down, select a view, then click the **Edit** icon ![](assets/edit-icon.png) to edit the view. 
 1. Add a third column between the two columns you want to merge.
 
    >[!TIP]
@@ -131,18 +133,16 @@ Do the following to merge the data from multiple columns to display it in one co
    >* The columns you want to merge must be adjacent to each other.
    >* You must click the first column that you want to merge.
 
-1. Click **Switch to Text Mode** and add the following code in the middle column that you added in step 1:
+1. Click **Switch to Text Mode** > **Edit Text Mode**, and add the following code in the middle column that you added in step 1:
 
-   `value=<br>`
+   ```
+   value=<br>
+   valueformat=HTML
+   width=1
+   sharecol=true
+   ```
 
-   `valueformat=HTML`
-   
-   `width=1`
-   
-   `sharecol=true`
-   
-
-1. Click the first column and click **Switch to Text Mode**, then add the following text to the column:
+1. Click the first column and click **Switch to Text Mode** > **Edit Text Mode**, then add the following text to the column:
 
    `sharecol=true`
    
@@ -152,49 +152,30 @@ Do the following to merge the data from multiple columns to display it in one co
 
    If you share more than one column, ensure you add the column number in the lines of code that contain the sharing information. 
 
-   **Example:** The following is the text mode code for a shared column that contains Project Name, Planned Start Date, and Project Owner's name with a line break. The shared column is the second column of a project view.
+      **EXAMPLE:** The following is the text mode code for a shared column that contains Project Name, Planned Start Date, and Project Owner's name with a line break. The shared column is the second column of a project view.
 
-    
-   `column.1.displayname=Project_StartDate_Owner`
-     
-   `column.1.sharecol=true`
-      
-   `column.1.textmode=true`
-      
-   `column.1.valuefield=name`
-      
-   `column.1.valueformat=HTML`
-       
-   `column.2.value=<br>`
-      
-   `column.2.width=1`
-       
-   `column.2.valueformat=HTML`
-       
-   `column.2.sharecol=true`
-       
-   `column.3.valuefield=plannedStartDate`
-       
-   `column.3.valueformat=atDate`
-       
-   `column.3.sharecol=true`
-       
-   `column.4.value=<br>`
-       
-   `column.4.width=1`
-       
-   `column.4.valueformat=HTML`
-       
-   `column.4.sharecol=true`
-       
-   `column.5.textmode=true`
-       
-   `column.5.valuefield=owner:name`
-       
-   `column.5.valueformat=HTML`
-    
+      ```
+      column.1.displayname=Project_StartDate_Owner
+      column.1.sharecol=true
+      column.1.textmode=true
+      column.1.valuefield=name
+      column.1.valueformat=HTML
+      column.2.value=<br>
+      column.2.width=1
+      column.2.valueformat=HTML
+      column.2.sharecol=true
+      column.3.valuefield=plannedStartDate
+      column.3.valueformat=atDate
+      column.3.sharecol=true
+      column.4.value=<br>
+      column.4.width=1
+      column.4.valueformat=HTML
+      column.4.sharecol=true
+      column.5.textmode=true
+      column.5.valuefield=owner:name
+      column.5.valueformat=HTML 
+      ```
 
-   ![](assets/shared-column-with-line-breaks-350x199.png)
+      ![](assets/shared-column-with-line-breaks-350x199.png)
 
-
-1. Click **Save**, then **Save View**.
+1. Click **Done**, then **Save View**.

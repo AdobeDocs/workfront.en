@@ -10,7 +10,7 @@ exl-id: 18016417-e24d-4797-9422-00915db47bb9
 ---
 # Views overview in Adobe Workfront
 
-<!--Audited: 01/2024-->
+<!--Audited: 11/2024-->
 
 You can customize the type of information you display in a list or report by managing the view of the list or report. You can display objects and their attributes in a view. For information about the objects of Adobe Workfront, see [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
