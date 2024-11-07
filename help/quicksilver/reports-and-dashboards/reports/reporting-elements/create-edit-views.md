@@ -9,6 +9,8 @@ exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
 ---
 # Create or edit views in Adobe Workfront
 
+<!-- Audited: 11/2024 -->
+
 You can customize the type of information you display on the screen using views. You can use several types of views in Adobe Workfront.
 
 This article describes how to create and edit standard views for lists and reports, and how to create Agile views. For more information, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
@@ -24,25 +26,36 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Contributor or higher</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Request or higher</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to create a view in a report</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to create a view in a report</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>Manage permissions to a report to create or edit a view in a report</p> <p>Manage permissions to a view to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td role="rowheader"><strong>Object permissions*</strong></td> 
+   <td> <p>Manage permissions to a report to create or edit a view in a report</p> <p>Manage permissions to a view to edit it</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -58,9 +71,10 @@ The process for creating or customizing a view differs depending on whether you 
 You can create a new standard view, or you can customize an existing standard view that you previously created.
 
 1. Click the **View** drop-down menu on any list where you want to create or customize a view.
-1. (Optional) To customize an existing view, select the standard View you want to customize.  
-   Standard Views are available on any type of list in Workfront, such as a report, project list, or task list.
-1. Click the **View** drop-down menu, then click **Customize View** or **New View**.  
+
+1. Click the **+ New View** button to create a new view.
+   Or
+   Click the **Edit** icon ![Edit icon](assets/edit-icon.png) that appears on mouseover to the right of an existing view you want to edit.
    The **Customize View** dialog box displays.  
 
 1. In the **Column Preview** section, do any of the following:
@@ -115,7 +129,7 @@ You can create a new standard view, or you can customize an existing standard vi
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Column Rules</strong></td> 
-           <td><p>Click <strong>Add a Rule for this Column</strong> to define a rule for the column. After you add a rule, you can define field and text styles for how fields that match that rule are displayed. Click <strong>Add Rule</strong> after you have finished defining the rule.</p></td> 
+           <td><p>Click <strong>+ Add a Rule for this Column</strong> to define a rule for the column. After you add a rule, you can define field and text styles for how fields that match that rule are displayed. Click <strong>Add Rule</strong> after you have finished defining the rule.</p></td> 
           </tr> 
          </tbody> 
         </table>
@@ -228,7 +242,7 @@ To create or customize an Agile view:
     </tbody> 
    </table>
 
-1. In the **Agile** section, in the **Additional Fields** area, click **Add Field**, then select the field you want to add to story cards. (These are the same fields you can add when creating customizing a view or creating columns for a report.)  
+1. In the **Additional Fields** area, click **Add Field**, then select the field you want to add to story cards. (These are the same fields you can add when creating customizing a view or creating columns for a report.)  
    Repeat this process to add up to three additional fields to the story cards.  
    When you add fields to story cards, fields are view-only and display only when the field is populated.
 
