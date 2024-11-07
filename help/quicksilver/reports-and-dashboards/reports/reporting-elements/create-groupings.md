@@ -9,15 +9,17 @@ exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
 ---
 # Create groupings in Adobe Workfront
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference)-->
 
 The results of a report or a list can be organized with a grouping. Groupings categorize information based on a particular piece of information.
 
 You can create a custom grouping from scratch or customize an existing grouping. Follow the steps below to create a grouping from scratch.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following access to perform the steps in this article:
 
@@ -31,20 +33,31 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Request or higher </p> </td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Contributor or higher</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Request or higher</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to create a grouping in a report</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to create a grouping in a report</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>Manage permissions to a report to edit a grouping in a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td><p>Manage permissions to a report to edit a grouping in a report</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Create a grouping
 
@@ -53,10 +66,10 @@ You must have the following access to perform the steps in this article:
   
    ![Select New Grouping](assets/newgrouping-nwe-standard-350x304.png)
 
-1. Click **New Grouping**.
+1. Click **+ New Grouping**.
    The interface builder for creating the grouping launches.
 
-1. In the **Grouping Preview** section, click **Add Grouping** to define how you want information in the report to be organized. A preview of what the grouping looks like in the report is shown below.
+1. In the **Grouping Preview** area, click **Add Grouping** to define how you want information in the report to be organized. A preview of what the grouping looks like in the report is shown below.
 
 1. Begin typing the name of the field that represents the way that you want to organize information in the report, then click it when it appears in the drop-down list.
 1. (Optional and conditional) When building a grouping in an updated list, select **Collapse this grouping by default** if you want the results in the grouping to display collapsed rather than expanded.&nbsp;This setting is disabled by default and the results of the grouping always display in the expanded list.
