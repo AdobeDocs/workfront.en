@@ -10,6 +10,8 @@ exl-id: 303f8824-311a-4de0-9777-cfa11ecad1e1
 ---
 # View: display the result of a calculation between two fields in a column
 
+<!--Audited: 11/2024-->
+
 You can use text mode in a column to display a calculation between two fields.
 
 For example, if you want to find out the number of week days that elapsed between two dates, you can use text mode syntax and data expressions to calculate this difference.  
@@ -20,6 +22,8 @@ For more information about calculated data expressions, see [Overview of calcula
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -27,28 +31,35 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request to modify a view </p>
-   <p>Plan to modify a report</p> </td> 
+   <td> 
+    <p>New:</p>
+   <ul><li><p>Contributor to modify a filter </p></li>
+   <li><p>Standard to modify a report</p></li> </ul>
+
+   <p>Current:</p>
+   <ul><li><p>Request to modify a filter </p></li>
+   <li><p>Plan to modify a report</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a view</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a filter</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
 
 ## Display the result of a calculation between two fields in a column
 
@@ -57,11 +68,15 @@ To add this column to a task view:
 1. Go to a list of tasks.
 1. From the **View** drop-down menu, click **New View**.
 
-1. Click **Add Column**, then **Switch to Text Mode**.
-
-1. Hover over the text mode area, and click **Click to edit text**.
+1. Click **Add Column**, then **Switch to Text Mode** > **Edit Text Mode**.
 1. Remove the text you find in the **Text Mode** box, and replace it with the following code:
-   <pre>displayname=Week Day Difference<br>textmode=true<br>valueexpression=WEEKDAYDIFF({plannedCompletionDate},{actualCompletionDate})<br>valueformat=HTML</pre>
+
+   ```
+   displayname=Week Day Difference
+   textmode=true
+   valueexpression=WEEKDAYDIFF({plannedCompletionDate},{actualCompletionDate})
+   valueformat=HTML
+   ```
 
 1. (Optional) To aggregate the values displayed in the view in a grouping, follow the steps described in [Grouping: display the result of aggregating multiple calculated values in a grouping](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
-1. Click **Save**, then **Save View**.
+1. Click **Done**, then **Save View**.

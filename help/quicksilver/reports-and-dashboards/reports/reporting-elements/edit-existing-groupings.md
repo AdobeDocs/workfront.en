@@ -7,13 +7,15 @@ exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
 ---
 # Edit existing groupings
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is the third part of a former artcle split in 3: two how-tos and one refernece article about creating and customizing groupings)</p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--NOTE: This is the third part of a former article split in 3: two how-tos and one reference article about creating and customizing groupings)-->
 
 You can customize an existing grouping that you originally created or that was shared with you. Then, you can save it as a new grouping.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following access to perform the steps in this article:
 
@@ -27,20 +29,31 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Request or higher </p> </td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Contributor or higher</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Request or higher</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit a grouping in a report</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to Reports, Dashboards, Calendars to edit a grouping in a report</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>Manage permissions to a report to edit a grouping in a report</p> <p>Manage permissions to a grouping </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a report to edit a grouping in a report</p> <p>Manage permissions to a grouping</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 
@@ -52,7 +65,7 @@ For information on creating a grouping, see [Create groupings in Adobe Workfront
 
 1. Go to a list of objects that contains the grouping that you want to customize.
 1. Click the **Grouping** icon.
-1. Select the grouping that you want to customize, then click the **Edit** icon.
+1. Select the grouping that you want to customize, then click the **Edit** icon ![Edit icon](assets/edit-icon.png).
 
    ![Select the edit icon.](assets/customizegrouping-nwe-standard-350x291.png)
 
@@ -77,4 +90,4 @@ For information on creating a grouping, see [Create groupings in Adobe Workfront
 1. Repeat Steps 4, 5, and 6 to define additional groupings.  
    You can define up to three groupings for organizing information. You can further organize your information with up to four groupings by creating a matrix report. For more information on matrix reports, see [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-1. Click **Save as New Grouping** to replace the current grouping with your changes.
+1. Click **Save Grouping** to replace the current grouping with your changes.

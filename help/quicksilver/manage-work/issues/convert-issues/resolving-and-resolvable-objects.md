@@ -222,7 +222,7 @@ The following table shows what fields you can display and in which views you can
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Original Issue Name, Original Issue Entry Date, Originator Name</strong>: Displays the name and entry date of the original issue, as well as the name of the user who created the issue in a text-mode customized view.<br>For more information about building a text mode custom view for a project or task report or list to display information about the original issue, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">View: display original issue information on task and project lists</a>.<br></td> 
+   <td><strong>Original Issue Name, Original Issue Entry Date, Originator Name</strong>: Displays the name and entry date of the original issue, as well as the name of the user who created the issue in a text-mode customized view.<br>For more information about building a text mode custom view for a project or task report or list to display information about the original issue, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">View: display original issue information on task or project lists</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 

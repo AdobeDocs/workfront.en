@@ -9,6 +9,8 @@ exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
 ---
 # Modify column width and order
 
+<!-- Audited: 11/2024 -->
+
 The following are guidelines about how column widths work in Adobe Workfront:
 
 * Workfront defines the width of columns in lists and reports, by default.
@@ -30,6 +32,8 @@ The following are guidelines about how column widths work in Adobe Workfront:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -42,20 +46,31 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Request or higher </p> </td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Contributor or higher</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Request or higher</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit the view in a report</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit the view in a report</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>Manage permissions to a report to edit a view in a report</p> <p>Manage permissions to a view to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a report to edit a view in a report</p> <p>Manage permissions to a view to edit it</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Modify column width and order
 
@@ -107,17 +122,13 @@ For more information about exporting data from lists and reports, see the articl
 #### Resize columns temporarily {#resize-columns-temporarily}
 
 1. Go to the list that you want to modify.
-1. Drag the border of a column until the column reaches the desired size.  
+1. Drag the border of a column header until the column reaches the desired size.  
    ![](assets/column-resize-350x124.png)
 
 #### Reorder columns temporarily {#reorder-columns-temporarily}
 
 1. Go to the list you want to modify. 
-1. Click a column you want to move to another location to pick the column. 
-1. Drag the column into the correct location. 
-1. Drop the column into the location, to move it.
-
-   ![](assets/column-reorder-350x118.png)
+1. Click and drag the column header you want to move to the desired location.
 
 >[!TIP]
 >
