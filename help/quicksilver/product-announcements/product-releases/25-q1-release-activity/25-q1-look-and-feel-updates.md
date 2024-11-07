@@ -11,6 +11,39 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the First Quarter 2025 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Look-and-feel updates for the main and secondary navigation areas
+
+>[!NOTE]
+>
+>Preview release: November 6, 2024; Production release for all customers: November 6, 2024
+
+We've upgraded the Workfront main navigation and secondary navigation areas to improve performance. The look-and-feel changes are minimal.
+
+The most noticeable changes are as follows:
+
+* The Favorites and Recents drop-down screens no longer have a close button. You can simply click away from the screen or press ESC on your keyboard to close it.
+* You can no longer drag-and-drop pinned pages to arrange them. Instead, there is a drop-down menu with buttons that allow you to move your pinned pages.
+
+## Look-and-feel updates for the list of exchange rates
+
+>[!NOTE]
+>
+>Preview release: November 4, 2024; Production for fast release: With the 24.12 release (December 2024); Production for quarterly release: With the 25.1 release (January 2025)
+
+We are introducing a new list format in the Workfront Setup area, and the exchange rates list is the first page to use this table-style format. The functionality for adding new exchange rates and searching for exchange rates has not changed.
+
+For information on exchange rates, see [Set up exchange rates](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+## Look-and-feel updates for the Export Data (Kick-Starts) page
+
+>[!NOTE]
+>
+>Preview release: November 4, 2024; Production for fast release: With the 24.12 release (December 2024); Production for quarterly release: With the 25.1 release (January 2025)
+
+We have updated the Export Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront.
+
+For information, see [Export data from Workfront via Kick-Starts](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+
 ## Look-and-feel updates to the Workfront navigation bar
 
 >[!NOTE]
@@ -28,7 +61,7 @@ The most noticeable changes are as follows:
 
 >[!NOTE]
 >
->Preview release: October 24, 2024; Production for fast release: With the 24.11 release (November 14, 2024); Production for quarterly release: With the 25.1 release (January 2024)
+>Preview release: October 24, 2024; Production for fast release: With the 24.11 release (November 14, 2024); Production for quarterly release: With the 25.1 release (January 2025)
 
 The Send update to user window has been updated to a more modern design that is consistent with other areas of Workfront.
 

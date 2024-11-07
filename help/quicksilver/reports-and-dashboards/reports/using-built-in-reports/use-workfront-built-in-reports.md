@@ -9,7 +9,7 @@ exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
 ---
 # Use Adobe Workfront built-in reports
 
-<!--Audited: 07/2024-->
+<!--Audited: 11/2024-->
 
 Adobe Workfront has an extensive list of built-in reports that you can use.
 
@@ -21,6 +21,8 @@ For more information about how to hide built-in reports, see [Hide built-in repo
 
 +++ Expand to view access requirements for the functionality in this article. 
 
+You must have the following access to perform the steps in this article:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -31,8 +33,16 @@ For more information about how to hide built-in reports, see [Hide built-in repo
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Contributor or higher</p>  
-   <p>Current: Request or higher</p> </td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Contributor or higher</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Request or higher</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
