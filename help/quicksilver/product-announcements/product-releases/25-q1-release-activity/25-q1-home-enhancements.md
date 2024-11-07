@@ -19,4 +19,4 @@ For a list of all changes available at this point in the First Quarter 2025 rele
 
 You can now view project details and comments from the worklist in Priorities.
 
-For more information, see [View project and task details in the Priorities worklist](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
+<!--For more information, see [View project and task details in the Priorities worklist](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).-->
