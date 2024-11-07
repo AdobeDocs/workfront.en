@@ -377,9 +377,9 @@ Percentage field types capture information in a number format followed by a perc
 
         >[!NOTE]
         >
-        >    If you select Allow negative numbers, and negative values are stored on the records the field is attached to, then you can no longer deselect the setting in the future.
+        >If you select Allow negative numbers, and negative values are stored on the records the field is attached to, then you can no longer deselect the setting in the future.
     
-    <!--<div class="preview">  
+    <div class="preview">  
 
     * **Show as**: From the drop-down menu, choose how you want the percentage values to display in the table view. Select from the following options:
         * **Number**: The percent value displays as a number followed by the percentage sign. 
@@ -390,8 +390,7 @@ Percentage field types capture information in a number format followed by a perc
     >
     >* The selection you make in the Show as field only applies to the percentage value visible in the table view. The percent value of the field displays as a number followed by the percentage sign everywhere else in Workfront Planning. This also applies to the percentage-type field when it displays as a lookup field in other records' table views.
     >* You can change the Show as selection when editing the field later. 
-    </div>-->    
-
+    </div>
 
 1. Click **Create**. 
 
