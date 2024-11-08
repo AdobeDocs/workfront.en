@@ -21,4 +21,6 @@ For a list of all changes available at this point in the First Quarter 2025 rele
 >
 >Preview release: November 7, 2024; Production for fast release: With the 24.11 release (November 14, 2024); Production for quarterly release: With the 25.1 release (January 2025)
 
-When a new version is added to a document with outstanding approvals, the approvals on the previous version now display as Withdrawn. The previous approval process closes, even if some participants have not yet made a decision.
+When a new version is added to a document with pending approvals, the approval for the previous version will now display as "Withdrawn," indicating that the prior approval process has closed due to the new version being added.
+
+For more information, see [Upload a new document version and request an approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md).

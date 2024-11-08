@@ -890,6 +890,7 @@ feature-set: Workfront
     * [Priorities: article index](workfront-basics/priorities/priorities-toc.md)
     * [Priorities: Upcoming releases](workfront-basics/priorities/priorities-upcoming-releases.md)
     * [Get started with Priorities](workfront-basics/priorities/get-started-with-priorities.md)
+    * [View project and task details in the Priorities worklist](workfront-basics/priorities/view-task-project-details.md)
     * [Filter and group your work in Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
     * [Customize the worklist columns](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
     * [Prioritize important work items](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)

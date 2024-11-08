@@ -128,7 +128,7 @@ This page provides information about functionality that is included in the First
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New Withdrawn status available for document version approvals</a></p>
-                <p>When a new version is added to a document with outstanding approvals, the approvals on the previous version now display as Withdrawn. The previous approval process closes, even if some participants have not yet made a decision.</p>
+                <p>When a new version is added to a document with pending approvals, the approval for the previous version will now display as "Withdrawn," indicating that the prior approval process has closed due to the new version being added.</p>
             </td>
             <td><p><b>Available on these dates:</b></p>
                 <ul>
