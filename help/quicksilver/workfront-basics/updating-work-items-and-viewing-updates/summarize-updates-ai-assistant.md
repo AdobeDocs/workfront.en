@@ -5,6 +5,7 @@ title: Summarize updates with AI Assistant
 description: The Updates are of an object includes a button that uses AI Assistant to summarize updates.
 author: Becky
 feature: Get Started with Workfront
+exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
 ---
 # Summarize updates with AI Assistant
 
@@ -86,4 +87,3 @@ To see a summary of an object:
    AI Assistant may take a few moments to generate the summary, depending on how large or complex the object is.
 
 1. View the AI summary in the AI Assistant panel.
-

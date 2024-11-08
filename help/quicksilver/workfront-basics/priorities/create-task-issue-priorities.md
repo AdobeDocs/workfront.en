@@ -5,8 +5,8 @@ description: You can create new tasks and issues directly from Priorities.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
+exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
 ---
-
 # Create a new task or issue in Priorities
 
 You can create new tasks and issues directly from Priorities:
@@ -75,4 +75,3 @@ To create a task or issue in a project:
     | Due date (Optional)      |  Choose a due date.           |
 
 1. Click **Create**.
-  

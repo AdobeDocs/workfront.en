@@ -5,7 +5,7 @@ description: Review these areas to get an understanding the Priorities area in A
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-
+exl-id: 26f13890-5d79-44b6-9cf8-70ef05e4564d
 ---
 # Priorities: article index
 

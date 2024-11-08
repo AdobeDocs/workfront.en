@@ -6,6 +6,7 @@ title: Working with large files in Adobe Workfront Fusion
 description: Large file support is currently available for the Workfront and HTTP connectors.
 author: Becky
 feature: Workfront Fusion
+exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
 ---
 # Working with large files in Adobe Workfront Fusion
 
@@ -234,7 +235,3 @@ If a file is not on this list, it does not support large files. For these connec
 This limit is based on a total memory cost. Every operation contributes to that cost. If a single file of 400 MB is downloaded and uploaded then the total cost to the file capacity would be 800 MB.
 
 -->
-
-
-
-

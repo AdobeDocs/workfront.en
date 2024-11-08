@@ -4,6 +4,7 @@ description: First Quarter 2025 Home enhancements
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
 ---
 # First Quarter 2025 Home enhancements
 

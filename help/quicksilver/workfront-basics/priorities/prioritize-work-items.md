@@ -1,12 +1,12 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Prioritize important work items
-description: Priorities is a streamlined, intuitive experience tailored for task owners. 
+description: Priorities is a streamlined, intuitive experience tailored for task owners.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
+exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
 ---
-
 # Prioritize important work items
 
 You can use the My Focus column to prioritize your work. The My Focus column is a personal value and does not impact the priority set on the task or issue.
@@ -30,4 +30,3 @@ You can use the My Focus column to prioritize your work. The My Focus column is 
     >[!TIP]
     >
     >You can Filter and Group your work by your focus levels.
-

@@ -1,12 +1,12 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Filter and group your work with Priorities
-description: You can use filters to find work you and looking for and then apply a grouping to keep it organized. 
+description: You can use filters to find work you and looking for and then apply a grouping to keep it organized.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
+exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
 ---
-
 # Filter and group your work with Priorities
 
 You can use filters to find the work you are looking for and then apply a grouping to keep it organized. 
@@ -157,5 +157,3 @@ To sort your work, open **Group** and click **Sort ascending** or **Sort descend
 To expand or collapse all sections, open **Group** and click **Expand all** or **Collapse all**.
 
 ![](assets/expand-sort-groups.png)
-
-
