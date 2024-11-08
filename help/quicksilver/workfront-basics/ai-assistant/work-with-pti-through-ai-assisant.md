@@ -4,6 +4,7 @@ content-type: reference
 description: You can quickly summarize work items and documents using the Summarize this functionality.
 author: Becky
 feature: Get Started with Workfront
+exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
 ---
 # Use AI Assistant to work with projects, tasks, and issues
 

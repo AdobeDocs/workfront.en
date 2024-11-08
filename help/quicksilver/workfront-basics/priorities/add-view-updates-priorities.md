@@ -1,12 +1,12 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Add and view comments in Priorities
-description: You can add an update on a task or issue to communicate to others about progress on the work item. 
+description: You can add an update on a task or issue to communicate to others about progress on the work item.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
+exl-id: a7237746-0a18-408b-b932-8a608fd72eee
 ---
-
 # Add and view comments in Priorities
 
 You can add an update on a task or issue to communicate to others about progress on the work item. 

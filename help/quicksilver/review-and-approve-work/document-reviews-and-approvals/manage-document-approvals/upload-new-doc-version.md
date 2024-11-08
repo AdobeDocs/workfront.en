@@ -5,8 +5,8 @@ title: Upload a new document version and request an approval
 description: You can upload a new document version and request approval from other users in Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
+exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 ---
-
 # Upload a new document version and request an approval
 
 If a document is marked needs work in a previous review, you can upload a new version to the original document and start another round of approvals. 

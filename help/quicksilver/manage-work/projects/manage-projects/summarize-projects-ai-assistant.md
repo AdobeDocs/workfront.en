@@ -5,6 +5,7 @@ title: Summarize projects with AI Assistant
 description: The project header includes a button that uses AI Assistant to summarize projects.
 author: Becky
 feature: Get Started with Workfront
+exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
 ---
 # Summarize projects with AI Assistant
 
@@ -93,4 +94,3 @@ To see a summary of an object:
    AI Assistant may take a few moments to generate the summary, depending on how large or complex the object is.
 
 1. View the AI summary in the AI Assistant panel.
-
