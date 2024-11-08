@@ -26,6 +26,8 @@ AI Assistant can help you locate projects, tasks, and issues in Workfront.
 1. View the response in the AI Assistant panel.
 1. (Optional) To go to the work item, click the link in the AI Assistant panel.
 
+<!--
+
 ## Create a work item
 
 1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
@@ -46,7 +48,7 @@ AI Assistant can help you locate projects, tasks, and issues in Workfront.
 >
 >We recommend checking the new item to ensure that it was created as expected.
 
-
+-->
 
 <!--
 

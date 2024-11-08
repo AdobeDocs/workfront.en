@@ -232,7 +232,7 @@ This page provides information about functionality that is included in the First
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">AI Assistant can now work with projects, tasks, and issues</a></p>
-                <p>To make it easier to manage your work items in Workfront, we've updated AI Assistant to work with projects, tasks, and issues. Now, AI Assistant can locate or create projects, tasks, and issues based on criteria you specify.</p>
+                <p>To make it easier to manage your work items in Workfront, we've updated AI Assistant to work with projects, tasks, and issues. Now, AI Assistant can locate  projects, tasks, and issues based on criteria you specify.</p>
             </td>
             <td><p><b>Available on these dates:</b></p>
                 <ul>
