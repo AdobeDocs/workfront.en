@@ -18,11 +18,7 @@ For a list of all changes available at this point in the First Quarter 2025 rele
 >
 >Preview release: October 31, 2024; Production for fast release: With the 24.11 release (November 14, 2024); Production for quarterly release: With the 25.1 release (January 2025)
 
-To make it easier to manage your work items in Workfront, we've updated AI Assistant to work with projects, tasks, and issues. Now, AI Assistant can: 
-
-* Locate projects, tasks, and issues based on criteria you specify, such as "Find my tasks that are due this week."
-* Create projects, tasks, and issues based on information you provide, such as "Create a task called Revise Proof in project Spring Campaign."
-
+To make it easier to manage your work items in Workfront, we've updated AI Assistant to work with projects, tasks, and issues. Now, AI Assistant can locate projects, tasks, and issues based on criteria you specify, such as "Find my tasks that are due this week."
 Previously, AI Assistant was not able to work directly with projects, tasks, and issues.
 
 Your Workfront administrator can enable or disable AI Assistant for your organization. The AI Assistant is available for instances with Select, Prime, and Ultimate plans.
