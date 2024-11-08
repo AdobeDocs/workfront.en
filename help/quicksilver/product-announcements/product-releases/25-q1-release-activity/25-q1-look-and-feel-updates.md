@@ -45,19 +45,6 @@ We have updated the Export Data (Kick-Starts) page in the Setup area with a more
 
 For information, see [Export data from Workfront via Kick-Starts](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
-## Look-and-feel updates to the Workfront navigation bar
-
->[!NOTE]
->
->Production release for all customers: Before the 24.11 release (November 14, 2024)
-
-We've upgraded the Workfront navigation bar to improve its performance. The look-and-feel changes are minimal.
-
-The most noticeable changes are as follows:
-
-* The Favorites and Recents drop-down screens no longer have a close button. You can simply click away from the screen or press ESC on your keyboard to close it.
-* You can no longer drag-and-drop pinned pages to arrange them. Instead, there is a drop-down menu with buttons that allow you to move your pinned pages.
-
 ## Look-and-feel update for Send update to user window
 
 >[!NOTE]
