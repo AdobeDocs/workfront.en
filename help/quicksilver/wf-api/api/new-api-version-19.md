@@ -6,6 +6,7 @@ description: Adobe Workfront released API version 19 on April 6, 2022. API versi
 author: Becky
 feature: Workfront API
 role: Developer
+exl-id: 84909dea-7ce1-4ad3-90f5-9dbdb354eaa4
 ---
 # What's new in API version 19
 
@@ -516,5 +517,3 @@ A Timesheet object represents a virtual timecard that allows Users to enter actu
       </td>
   </tbody>
 </table>
-
-

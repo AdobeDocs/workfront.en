@@ -6,6 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
+exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
 ---
 # First Quarter 2025 release activity for Adobe Workfront Planning
 
@@ -19,14 +20,31 @@ recommendations: noDisplay, noCatalog
 >
 >For a complete list of requirements to access Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
 >For an overview of Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
->
 
 This article describes the features that are releasing for Workfront Planning during the 2025 First Quarter release. 
 
 <!--keep the sentence below for all future quarterly release pages-->
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
-For a list of all features released for Adobe Workfront Planning after the general availability release on August 28, 2024, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md). 
+For a list of all features released for Adobe Workfront Planning after the general availability release on August 28, 2024, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## New display types for percentage-type fields in the table view
+
+>[!NOTE]
+>
+>Preview release: November 7, 2024; Production for fast release: With the 24.12 release (December 2024); Production for quarterly release: With the 25.1 release (January 2025)
+
+To make numbers easier to read in the table view, you can now select from the following choices to change the how a Percentage-type field displays in the table view:
+
+* Number
+* Bar
+* Circle
+
+This display type is supported only in the table view.
+
+Prior to this enhancement, you could display percentage values only as numbers.
+
+For more information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Connection fields are now supported in request forms 
 
