@@ -7,9 +7,12 @@ author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 ---
-# Create resource pools
+# Create resource pools {#create-resource-pools}
 
-{{preview-and-fast-release-Q424}}
+>[!CONTEXTUALHELP]
+>id="wf_resource_pools"
+>title="Resource pools"
+>abstract="A Resource Pool is a collection of users that are needed at the same time for the completion of a project. After you create a resource pool, you can associate it with projects and templates."
 
 Resource pools are collections of users that help you manage resources easier in Adobe Workfront. For more information about resource pools, see [Resource pools overview](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
@@ -54,15 +57,11 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step1-to-resourcing}}
 
-1. Click **Resource Pools** in the left panel.   
-   
-   <span class="preview">Sample image in the Preview environment:</span>
-   <span class="preview">![Resource Pools](assets/list-of-resource-pools.png)</span>
-
-   Sample image in the Production environment:
-   ![Resource Pools](assets/resource-pools-tab-350x198.png)
-
+1. Click **Resource Pools** in the left panel.
 1. Click **New Resource Pool**.
+
+   ![Resource Pools](assets/list-of-resource-pools.png)
+
 1. Specify the following:
 
    <table style="table-layout:auto">
@@ -97,11 +96,7 @@ For more detail about the information in this table, see [Access requirements in
    >
    >There is no limit to how many users you can have in a Resource Pool. However, we recommend not adding too many users to a Resource Pool, as Resource Management could become a challenge otherwise. The list of users only shows the first 2,000 users in the Resource Pool, and they are listed alphabetically.
 
-   <span class="preview">Sample image in the Preview environment:</span>
-   <span class="preview">![Users added to Resource Pool](assets/users-in-resource-pool2.png)</span>
-
-   Sample image in the Production environment:
-   ![Users added to Resource Pool](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
+   ![Users added to Resource Pool](assets/users-in-resource-pool2.png)
 
 1. (Optional) Click the X icon to the right of a user's name to remove a user. For more information about removing users from a resource pool, see [Remove users from resource pools](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md).
 1. (Optional) Use the **Search** option to find a user in the Resource Pool.

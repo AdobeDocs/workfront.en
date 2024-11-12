@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: As an Adobe Workfront administrator, you can track user-changes triggered in the system during the past 90 days using audit logs.
-author: Lisa
+author: Alina 
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
@@ -59,10 +59,11 @@ The following fields are recorded in every audit log entry:
 ## Audit log types and the actions that trigger them
 
 * [Access Level](#access-level) 
+* [Business Rules](#business-rules)
 * [Company](#company) 
 * [Condition](#condition) 
 * [Custom Field](#custom-field) 
-* [Custom Forms](#custom-forms) 
+* [Custom Form](#custom-forms) 
 * [Custom Section](#custom-section) 
 * [Exchange Rate](#exchange-rate) 
 * [Group](#group) 
@@ -91,6 +92,21 @@ The system generates an Access Level log entry when a user does one of the follo
      >The system does not record any permission changes to Financial Data or within the following access types: View and Edit.
      >
      >For example, if a user changes the Planner access type from View to Edit, the system does not display information contained in the Fine-tune your settings drop-down menu.
+
+### Business Rules
+
+Business Rules are only available for customers who have purchased an Ultimate Workfront Plan. For more information, see [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md). 
+
+The system generates a Business Rule audit log entry when a user does one of the following:
+
+* Creates a business rule
+* Edits a business rule:
+
+   * Renames it
+   * Adds or removes expressions
+   * Changes a trigger
+
+* Deletes a business rule
 
 ### Company {#company}
 
@@ -154,7 +170,7 @@ The system generates a Custom Field audit log entry when a user does one of the 
 * Deletes a custom field
 * Shares a custom field
 
-### Custom Forms {#custom-forms}
+### Custom Form {#custom-form}
 
 The system generates a Custom Forms audit log entry when a user does one of the following actions:
 
@@ -186,7 +202,7 @@ The system generates a Custom Section audit log entry when a user does one of th
 * Changes the name or description of a custom section
 * Deletes a custom section
 
-For information about custom sections in custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+For information about custom sections in custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Exchange Rate {#exchange-rate}
 

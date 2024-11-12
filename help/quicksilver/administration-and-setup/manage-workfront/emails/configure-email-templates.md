@@ -9,7 +9,11 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
 ---
+
 # Configure email templates
+
+<!--Audited: 10/2024-->
+
 
 As an Adobe Workfront administrator, you can configure email templates to support reminder notifications.
 
@@ -34,9 +38,10 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td><p>Current: Plan</p>
+   <td><p>New: Standard</p>
    Or
-   <p>New: Standard</p></td> 
+   <p>Current: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configuration</td> 

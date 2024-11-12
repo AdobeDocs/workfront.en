@@ -155,3 +155,8 @@ Picks only the given keys from the object.
 >`pick(` User `;` password `;` email `)`
 >
 >Returns a collection of only the user's password and email address.
+
+## mergeCollections(collection1 ; collection2)
+
+Merges two collections by combining their key-value pairs. If both collections contain the same key, the value from the second collection overwrites that value from the first collection.
+

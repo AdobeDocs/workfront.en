@@ -34,8 +34,6 @@ When you configure your Home calendar to sync with your Outlook Calendar, items 
 
 Previously, you could sync items only from your Outlook Calendar to your Home Calendar.
 
-For information on configuring your Home calendar to sync with Outlook, see [Configure your Home Calendar view settings](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
-
 ## Updates for Adding New Tasks in Home {#updates-for-adding-new-tasks-in-home}
 
 * You can now update the Planned Completion date on a Personal Task.

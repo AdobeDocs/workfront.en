@@ -9,6 +9,8 @@ exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
 ---
 # Use date-based wildcards to generalize reports
 
+<!-- Audited: 11/2024 -->
+
 You can generalize a report by using wildcards instead of specific information when building certain reporting elements.
 
 For example, if you want to create a report that shows the tasks that have a specific Planned Start Date, you can use the calendar date picker in a filter to select a specific date. However, if you want to create a report that shows tasks that have the Planned Start Date within a certain timeframe from the date when the report is accessed, you can use a wildcard that indicates that when someone views the report it displays information for a timeframe relevant for the moment when they view the report.
@@ -23,6 +25,8 @@ You can use date-based wildcards when building the following reporting elements:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -35,20 +39,31 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit reporting elements in a report</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit reporting elements in a report</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>Manage permissions to a report to edit reporting elements in a report</p> <p>Manage permissions to a view or filter to edit them</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a report to edit reporting elements in a report</p> <p>Manage permissions to a view or filter to edit them</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 
@@ -62,7 +77,6 @@ To insert a date-based wildcard in a report:
 
 1. Go to a report for which you want to insert a date-based wildcard.
 1. Click **Report Actions**, then **Edit**.
-
 1. Click the **Filters** tab.
 1. Click **Add a Filter Rule**.
 1. Start typing the name of the field that you want to filter by.  
@@ -73,7 +87,7 @@ To insert a date-based wildcard in a report:
    >
    >You must always select the **Equal** filter variable when working with wildcards in Adobe Workfront.
 
-1. In the **Start typing name ...** box, type: `$$TODAY` if you want to display information about something that occurs the same day that the report is run.
+1. Click the **Set relative date** toggle, then in the text box that appears type: `$$TODAY` if you want to display information about something that occurs the same day that the report is run.
 
    Or
 
@@ -85,8 +99,6 @@ To insert a date-based wildcard in a report:
 1. (Optional) If you want to display information about something that occurred within a timeframe before the date when the report is run, type `$$TODAY-1w` to display information from the previous week, or `$$TODAY-2m` to display information from the previous two months. You can also indicate timeframes for quarters, hours, days, or years.
 
    For a complete list of attributes, qualifiers, and operators that you can use in date-based wildcards, see the article [Wildcard filter variables overview](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
-
-   ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
 1. Click **Save + Close**.
 

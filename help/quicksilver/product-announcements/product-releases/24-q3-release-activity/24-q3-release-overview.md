@@ -290,7 +290,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                                 <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
                             </li>
                             <li>
-                                <p>Production release for all customers: With the 24.10 release (October 2024)</p>
+                                <p>Production release for all customers: To be announced</p>
                             </li>
                         </ul>
                     </td>
@@ -310,7 +310,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                                 <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
                             </li>
                             <li>
-                                <p>Production release for all customers: With the 24.10 release (October 2024)</p>
+                                <p>Production release for all customers: To be announced</p>
                             </li>
                         </ul>
                     </td>

@@ -2,13 +2,15 @@
 product-area: reporting
 keywords: user,delegation,report,delegate,approval
 navigation-topic: create-and-manage-reports
-title: Create a User Delegation report
+title: Create a User Delegation Report
 description: Create a User Delegation report
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
 ---
 # Create a User Delegation report
+
+<!--Audited: 10/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
@@ -33,6 +35,8 @@ To learn more about delegating approvals, see [Delegate approval request](../../
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -40,12 +44,13 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>New: Standard </p>
+   <p>Current: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -58,7 +63,8 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
++++
 
 ## Create a user delegation report
 
@@ -73,14 +79,14 @@ You must have the following access to perform the steps in this article:
    |---|---|
    | **From User** |This is the user that is delegating their task, issue, and project approvals to another user. |
    | **To User** |This is the user that has task, issue, and project approvals delegated to them. |
-   | **Start** |This is the beginning of the out of office time for the user that has made the delegations. |
-   | **End** |This is the end of the out of office time for the user that has made the delegations. |
+   | **Start Date** |This is the beginning of the out of office time for the user that has made the delegations. |
+   | **End Date** |This is the end of the out of office time for the user that has made the delegations. |
 
    {style="table-layout:auto"}
 
 1. (Optional) In the report builder, modify the following:
 
-   * Columns
+   * Columns (View)
    * Groupings
    * Filters
    * Chart
@@ -88,7 +94,5 @@ You must have the following access to perform the steps in this article:
    To learn more about these features, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. After you finish building your report, click **Save + Close**.  
-
-1. Enter a new name in the **Report Name** field, then click **Save Report**.
-
+   
    The report displays.

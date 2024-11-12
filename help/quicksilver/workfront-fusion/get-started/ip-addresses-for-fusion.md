@@ -17,6 +17,55 @@ exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
 
 If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist in order to allow open communication between your environment and [!DNL Adobe Workfront Fusion].
 
+You can add all Fusion IP addresses and domains to your allowlist, or you can locate your Fusion cluster and add only the IP addresses and domains for that cluster.
+
+## Add all Fusion IP addresses and domains
+
+Add the following IP addresses to your allowlist:
+
+* 52.30.133.50
+* 54.220.93.204 
+* 34.254.76.122
+* 54.244.142.219 
+* 52.39.217.230 
+* 44.241.82.96
+* 100.20.126.137
+* 34.223.32.4
+* 52.39.176.220
+* 20.36.133.48/28 
+* 20.81.156.240/28 
+* 172.172.84.48/28 
+
+Also, if your organization uses outbound network filtering, add the following domain to your allowlist to enable your system to access Workfront Fusion.
+
+* hook.app.workfrontfusion.com
+* hook.app-eu.workfrontfusion.com
+* hook.app-az.workfrontfusion.com
+
+## Add Fusion IP addresses and domains for your cluster only
+
+### Identify your datacenter
+
+The IP addresses vary based on where your data is stored. 
+
+If you access Fusion through a URL, you can examine the URL to locate your datacenter.
+
+| URL | Datacenter |
+| --- | --- |
+| `https://app.workfrontfusion.com/` | US datacenter |
+| `https://app-eu.workfrontfusion.com/` | EU datacenter |
+| `https://app-az.workfrontfusion.com/` | Azure datacenter |
+
+If you access Fusion through experience.adobe.com, you can check the network tab in your browser to identify the datacenter.
+
+| URL | Datacenter |
+| --- | --- |
+| Calls to `https://fusion.adobe.com` |US datacenter |
+| Calls to `https://eu.fusion.adobe.com` | EU datacenter |
+| Calls to `https://az.fusion.adobe.com`  | Azure datacenter |
+
+### Add IP addresses and domains for your datacenter
+
 Add the following IP addresses to your allowlist to enable [!DNL Workfront Fusion] to access your system.
 
 <table style="table-layout:auto"> 

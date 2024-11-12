@@ -8,13 +8,18 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 ---
 
-<!--Should the structure of this article be like this one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
 <!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
 
 # Create fields
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
 
 {{planning-important-intro}}
 
@@ -36,7 +41,7 @@ For more information about Workfront Planning fields, see [Field overview](/help
 
 +++ Expand to view access requirements for Workfront Planning. 
 
-You must have the following to be able to access Workfront Planning:  
+You must have the following access to perform the steps in this article:  
 
  <table style="table-layout:auto"> 
 <col> 
@@ -227,7 +232,7 @@ Single-line text fields capture limited alphanumeric information. For example,  
 
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column header in a table.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column header in a table, or <span class="preview"> when you click the information icon next to the field name in the record's details page.</span>
 1. Click **Create**. 
 
     The new single-line field is added as a column to the record type, and its values can be associated with records. 
@@ -271,8 +276,8 @@ You can use a multi-select field to capture additional information in any format
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
-     * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. 
-1. Click **Add choice** to add as many choices as needed. There is no limit to how many choices you can add to a multi-select field.
+     * **Choices**: The options that users can select when updating this field. You can use both numbers and letters for the name of each choice. 
+1. Click **Add choice** to add more choices. There is no limit to how many choices you can add to a multi-select field.
 1. (Optional) Manually drag and drop each choice in the desired order, or select the 
 **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Optional) To remove a choice, click the **x** icon to the right of it.
@@ -295,7 +300,7 @@ Single-select fields capture additional information in any format by selecting o
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
      * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. 
      
-1. Click **Add choice** to add as many choices as needed. There is no limit to how many choices you can add to a single-select field.     
+1. Click **Add choice** to add more choices. There is no limit to how many choices you can add to a single-select field.     
 1. (Optional) Manually drag and drop each choice in the desired order, or select the **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Optional) To remove a choice, click the **x** icon to the right of it.
 1. Click the color swatch to the left of a choice to expand the color selector and customize the color of each option. 
@@ -323,7 +328,7 @@ You can use a date field to capture additional information in date and time form
         * **Long**: May 16, 2023
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
-    * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. <!--update this setting name - submitted bug for it to be changed-->
+        * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. <!--update this setting name - submitted bug for it to be changed-->
     
         Select from the following options:
         
@@ -345,7 +350,7 @@ Number field types capture information in a number format.
 
     * **Name**: The name of the field type, as it will appear in a table or the record page. 
     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
-    * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimals.
+    * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimal places.
     * **Allow negative numbers**: Select this option if you want to allow negative numbers in this field. This option is unselected by default. 
     
     >[!NOTE]
@@ -360,19 +365,32 @@ Number field types capture information in a number format.
 
 Percentage field types capture information in a number format followed by a percentage sign. 
 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Percentage** field type.
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Percentage** field type. <!--change screen shot for preview-->
 
     ![](assets/percentage-field-type.png)
 
 1. Add the following information in the **New field** tab:
-     * **Name**: The name of the field type, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
-    * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimals.
+    * **Name**: The name of the field type, as it will appear in a table or the record page. 
+    * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
+    * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimal places.
     * **Allow negative numbers**: Select this option if you want to allow negative percentage values in this field. This option is unselected by default. 
+
+        >[!NOTE]
+        >
+        >If you select Allow negative numbers, and negative values are stored on the records the field is attached to, then you can no longer deselect the setting in the future.
+    
+    <div class="preview">  
+
+    * **Show as**: From the drop-down menu, choose how you want the percentage values to display in the table view. Select from the following options:
+        * **Number**: The percent value displays as a number followed by the percentage sign. 
+        * **Bar**: The percent value displays as a bar next to the percentage number. The fill color of the bar indicates the percent value. 
+        * **Circle**: The percent value displays as the outline of a circle next to the percentage number. The fill color of the circle's outline indicates the percent value.
 
     >[!NOTE]
     >
-    >    If you select Allow negative numbers, and negative values are stored on the records the field is attached to, then you can no longer deselect the setting in the future.
+    >* The selection you make in the Show as field only applies to the percentage value visible in the table view. The percent value of the field displays as a number followed by the percentage sign everywhere else in Workfront Planning. This also applies to the percentage-type field when it displays as a lookup field in other records' table views.
+    >* You can change the Show as selection when editing the field later. 
+    </div>
 
 1. Click **Create**. 
 
@@ -390,8 +408,8 @@ Currency field types capture information in a number format preceded by a curren
      * **Name**: The name of the field type, as it will appear in a table or the record page. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
      * **Currency**: The type of currency you want to display in this field. This is a list of currencies according to the International Organizaton of Standardization (ISO). 
-      * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimals.
-    * **Allow negative numbers**: Select this option if you want to allow negative currency values in this field. This option is unselected by default. 
+     * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimals.
+     * **Allow negative numbers**: Select this option if you want to allow negative currency values in this field. This option is unselected by default. 
 
     >[!NOTE]
     >
@@ -444,7 +462,10 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
     >
     >* You cannot add Multi-select type fields in a formula.
     >
-    >* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a formula field for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Budget in the formula you are creating for the Activity record type. 
+    >* You can reference a field that is up to 4 fields (and objects) away from the current record type. For example, if you are creating a formula field for an Activity record type (1), and the Activity is connected to the Campaign record type (2) which is connected to a Workfront Project (3), you can reference the project's Budget field (4) in the formula you are creating for the Activity record type. 
+    >
+    >![](assets/formula-example-project-budget-four-fields-removed.png)
+    >
 
 1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
 
@@ -532,7 +553,7 @@ You can use the Created date field type to add the date when the record was crea
         * **Long**: May 16, 2023
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
-    * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. <!--submitted a UI text change for this - check the UI-->
+     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. <!--submitted a UI text change for this - check the UI-->
     
         Select from the following options:
         
@@ -583,7 +604,8 @@ You can use the Last modified date field type to add the date when a record was 
         * **Long**: May 16, 2023
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
-    * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. <!--submitted a UI text change for this - check the UI-->
+     
+     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. <!--submitted a UI text change for this - check the UI-->
     
         Select from the following options:
         
@@ -598,7 +620,7 @@ You can use the Last modified date field type to add the date when a record was 
 
 You can create linked record fields when you add a new connection between two record types, or a record type and an object types from other applications. 
         
-For information about connecting Workfront Planning record types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
+For information about connecting Workfront Planning record types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
 <!--## Create fields by importing record types using an Excel or CSV file
 
@@ -612,4 +634,4 @@ When you create a record type, several fields associated with the new record typ
 
 Adobe Workfront Planning creates fields for record types when you create a workspace from a template. 
 
-For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). 
+For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).

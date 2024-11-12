@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Update Condition for tasks and issues
+title: Update Condition for Tasks and Issues
 description: The Condition of a task or issue is a flag placed on it to indicate how it's going. This is different than the Status of the work item, which indicates the current stage of the development of the item.
 author: Alina
 feature: Work Management
@@ -77,7 +77,7 @@ You can locate the Condition of tasks and issues in the following areas of Workf
 
 * The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). 
 
-* The Summary panel, after a Workfront or group administrator adds it to your layout template. For information, see [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). 
+* The Summary panel, after a Workfront or group administrator adds it to your layout template. For information, see [Customize the Summary panel using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). 
 
 * Reports and lists when you display the Condition field in a View or Grouping. 
 
@@ -110,7 +110,7 @@ You can manually update the Condition of a task or issue in a task or issue repo
 >For more information, see the following articles:
 >
 >* [Summary overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Customize the Summary panel using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 <!--old Condition update - in the commenting stream: 

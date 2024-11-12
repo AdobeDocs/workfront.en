@@ -17,6 +17,8 @@ When you delete a connected card from any other board type that has an intake co
 
 Archiving a card sends it to the archive and you can restore it to the board later.
 
+Archived cards do not sync to Workfront tasks and issues. If you restore a card, it will sync again.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
@@ -65,7 +67,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. To restore an archived card, click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the card and select **[!UICONTROL Restore]**.
 
-## Filter a board to show archived cards {#filter-a-board-to-show-archived-cards}
+## Filter a board to show archived cards
 
 By default, only active cards are displayed on a board. You can filter the board to also display any archived cards.
 

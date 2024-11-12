@@ -128,7 +128,7 @@ If the proof has an Automated Workflow, you can add the user to an individual st
 By default, users you add to the proof:
 
 * Receive an email notification with a link to the proof.
-* Can make approval decisions on the proof from the Home or My Work area, as described in [Approving work](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+* Can make approval decisions on the proof from the Home area, as described in [Approving work](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 * Do not need to have proofing enabled in order to review the proof.
 
 When Automated Workflow is enabled and you add a user to the proof who does not have proofing enabled in Workfront, a new stage is created within the Automated Workflow. The user who you are adding is automatically added to this new stage when they view the proof for the first time. For more information, see [Automated Workflow overview](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).

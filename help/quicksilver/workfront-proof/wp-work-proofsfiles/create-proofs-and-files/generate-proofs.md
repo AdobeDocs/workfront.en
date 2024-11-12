@@ -28,7 +28,7 @@ exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
 
 1. To proof one or more documents, add documents to be proofed in either of the following ways (repeat this process to add multiple documents to be proofed):
 
-   * Drag a document from you file system into the drag-and-drop area in the **[!UICONTROL Add Files]** area.
+   * Drag a document from your file system into the drag-and-drop area in the **[!UICONTROL Add Files]** area.
    * Click in the drag-and-drop area in the **[!UICONTROL Add Files]** area, then browse to find and select the document you want to upload from the file system on your workstation.
 
       ![proof_document_upload.png](assets/proof-document-upload-350x64.png)
@@ -75,7 +75,7 @@ exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
 
       For more information about sharing a proof, see "Adding Users to a Proof" in [Share a proof within [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-   * **Automated:** Select this option to manage content review and approval when you have complex review processes, or if you send content for review to the same groups of people regularly. With automated workflow, the proof moves from stage to stage until final approval. The relevant users are notified any time they are required to make an approval.
+   * **Automated:** Select this option to manage content review and approval when you have complex review processes, or if you send content for review to the same groups of people regularly. With an automated workflow, the proof moves from stage to stage until final approval. The relevant users are notified any time that they are required to make an approval.
 
       For more information about creating an Automated Workflow, see [Set up a proof with an Automated Workflow in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
 
@@ -100,7 +100,7 @@ exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Only one decision required for this proof</td> 
+      <td role="rowheader">Only one decision is required for this proof</td> 
       <td> <p>When this option is selected, the review is completed after one of the decision makers makes their decision.</p> <p>This option is disabled by default.</p> </td> 
      </tr> 
      <tr> 
@@ -116,11 +116,11 @@ exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
       <td> <p><strong></strong> When this option is selected, reviewers are able to download the original file from which the proof was created.</p> <p>When this option is deselected, the Download icon is no longer visible.<br>This option is enabled by default.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Share proof via public URL or embed code</td> 
+      <td role="rowheader">Share proof via a public URL or embed code</td> 
       <td>When this option is selected, the proof can be shared via a public URL or embed code.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Subscribe to proof via public URL or embed code</td> 
+      <td role="rowheader">Subscribe to proof via a public URL or embed code</td> 
       <td> <p>When this option is selected, people who have not been added explicitly to the proof can subscribe to the proof. The person subscribing to the proof is granted the role and email that you define in the following settings:</p> 
        <ul> 
         <li><strong>Subscriber role</strong>: The default proof role that is assigned to all reviewers that subscribe to the proof.</li> 
@@ -193,7 +193,7 @@ To generate a proof for a URL:
      </tr> 
      <tr> 
       <td role="rowheader">Interactive</td> 
-      <td> <p>Creates a proof that allows reviewers to navigate the site, view HTML5 images, Flash elements, and so forth.</p> <p>In order to create an interactive proof, the website must be hosted with a secure protocol (https). In addition, websites that cannot be embedded in an iframe cannot be generated as an interactive proof (iframe embedding restrictions are controlled by the website you are attempting to embed).</p> <p>After the initial proof is created, this setting cannot be changed when creating subsequent versions.</p> <p>For more information about interactive proofing, see <a href="#generate-a-proof-for-interactive-content" class="MCXref xref">Generate a proof for interactive content</a>.</p> </td> 
+      <td> <p>Creates a proof that allows reviewers to navigate the site, view HTML5 images, Flash elements, and so forth.</p> <p>To create an interactive proof, the website must be hosted with a secure protocol (https). In addition, websites that cannot be embedded in an iframe cannot be generated as an interactive proof (iframe embedding restrictions are controlled by the website you are attempting to embed).</p> <p>After the initial proof is created, this setting cannot be changed when creating subsequent versions.</p> <p>For more information about interactive proofing, see <a href="#generate-a-proof-for-interactive-content" class="MCXref xref">Generate a proof for interactive content</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Screenshot resolution</td> 
@@ -214,7 +214,7 @@ To generate a proof for a URL:
 
 1. Click **[!UICONTROL Done]**.
 
-   If you are adding a new version to an existing URL proof, any options that were configured on the original proof or previous version are maintained in this version.If you are adding a new version to an existing URL proof, any options that were configured on the original proof or previous version are maintained in this version.
+   If you are adding a new version to an existing URL proof, any options that were configured on the original proof or previous version are maintained in this version. If you are adding a new version to an existing URL proof, any options that were configured on the original proof or previous version are maintained in this version.
 
 1. Click **[!UICONTROL Create Proof]**.
 
@@ -229,7 +229,7 @@ For more information about Interactive content, see [Interactive content proofs 
 
 ### Add interactive content as a URL {#add-interactive-content-as-a-url}
 
-For information about how to add an interactive URL proof, see  [Generate a proof for a URL](#generate-a-proof-for-a-url).
+For information about how to add an interactive URL proof, see [Generate a proof for a URL](#generate-a-proof-for-a-url).
 
 ### Add interactive content as a ZIP file {#add-interactive-content-as-a-zip-file}
 

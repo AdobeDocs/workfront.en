@@ -17,13 +17,11 @@ In Adobe Workfront Planning, a record is an instance of a record type.
 
 You can create records by doing one of the following:
 
-* Add records from the record type page in the table view
-* Copy and paste a list of records from an external list
-* Duplicate records from a table view
-* Create records as you connect them from other records
-* Create them by submitting a request form to a record type
-
-This article describes how you can create records. 
+* [Add records from the record type page in the table view](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [Copy and paste a list of records from an external list](#create-records-by-copying-and-pasting-them-from-an-external-list)
+* [Duplicate records from a table view](#create-records-by-duplicating-them)
+* [Create records as you connect them from other records](#create-records-as-you-connect-them)
+* [Create them by submitting a request form to a record type](#create-records-by-submitting-a-request-form-to-a-record-type)
 
 For information about managing records in the table or timeline views, see the following articles:
 
@@ -34,7 +32,7 @@ For information about managing records in the table or timeline views, see the f
 
 +++ Expand to view access requirements for Workfront Planning. 
 
-You must have the following to be able to access Workfront Planning:  
+You must have the following access to perform the steps in this article:  
 
  <table style="table-layout:auto"> 
 <col> 
@@ -100,62 +98,6 @@ You must have the following to be able to access Workfront Planning:
 </table> 
 
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).   
-
-<!--OLD info: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p>  
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Adobe Workfront Planning </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 +++
 
@@ -299,6 +241,15 @@ To create records as you are connecting them from other records:
     ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
     The record is created and added to the connected record field. 
+
+    >[!IMPORTANT]
+    >
+    >* You can create only projects and portfolios in Workfront when connecting them from a record. 
+    >
+    >* You cannot create programs, groups, or companies when connecting them from a record in Workfront Planning. 
+    >
+    >* You cannot create a project from a template when when you create projects by connecting them from a record. You must manually add tasks and project information or a template to the new project after you add it to the record.   
+
 1. (Optional) Go to the table view of the record type whose record you created. A new record displays in the last row of the view. 
 1. (Optional) Start adding information for the new record in the table view
 Or

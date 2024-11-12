@@ -2,11 +2,10 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Establish a connection to Workfront data lake
-description: Workfront data lake allows you to use your organization's Workfront data with popular business intelligence tools or store it in an external data warehouse.
+title: Establish a connection to Workfront Data Connect
+description: Workfront Data Connect allows you to use your organization's Workfront data with business intelligence tools or store it in an external data warehouse.
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
 ---
 # Establish a connection to Workfront Data Connect
@@ -34,6 +33,45 @@ In order connect your Data Connect data lake with an external product, you must 
 >
 >If you don't have any IP addresses included in your allowlist but are still having trouble connecting to a BI tool, check the proxy server configuration for the BI tool.
 
+## Access requirements
+
++++ Expand to view access requirements. 
+
+You must have the following access to perform the steps in this article: 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>Included in the following plans:</p>
+    <ul>
+        <li>Ultimate</li> 
+    </ul>    
+   <p>Can be purchased as an add-on to the following plans:</p> 
+    <ul>
+        <li>Select</li> 
+        <li>Prime</li>
+    </ul> 
+    <p>Workfront Data Connect is not available for legacy Workfront plans.</p> 
+   </td> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>Plan</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 ## Add IPs to the allowlist
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Setup**.
@@ -58,16 +96,16 @@ In order connect your Data Connect data lake with an external product, you must 
 
 ## Share data with Business intelligence tools
 
-A number of common business intelligence tools are listed below; the links will take you to the service's documentation site to learn more about connecting to your data lake.
+A number of common business intelligence tools are listed below; visit their documentation sites to learn more about connecting to your data lake.
 
-* [Tableau](https://help.tableau.com/current/pro/desktop/en-us/basicconnectoverview.htm)
-* [Power BI](https://learn.microsoft.com/power-query/connectors/snowflake)
-* [Domo](https://www.domo.com/appstore/connector/snowflake-connector/overview)
+* Tableau
+* Power BI
+* Domo
 * SAP HANA
 
 ## Store data in an external data warehouse
 
-A number of common data warehouses are listed below; the links will take you to each service's documentation site where you can learn more about connecting to your data lake.
+A number of common data warehouses are listed below; visit their documentation sites to learn more about connecting to your data lake.
 
-* [Databricks](https://docs.databricks.com/en/connect/index.html)
-* [AWS Redshift](https://docs.aws.amazon.com/redshift/latest/gsg/federated-query.html)
+* Databricks
+* AWS Redshift

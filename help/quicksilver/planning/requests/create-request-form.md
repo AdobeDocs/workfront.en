@@ -11,6 +11,12 @@ exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
+<!--take Preview and Production references at Production time-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
 You can create a request form and associate it with a record type in Adobe Workfront Planning. You can then share a link to it with other internal or external users. 
@@ -25,7 +31,7 @@ For information about submitting a request to a record type to create a record, 
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following to be able to access Workfront Planning: 
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto">
  <col>
@@ -127,44 +133,59 @@ You must have the following to be able to access Workfront Planning:
 
    * Record fields available in the table view of the selected record type. <!--they are working on removing the limitation below-->
 
-      >[!IMPORTANT]
-      >
-      >   Fields of the following types do not display in the request form: 
-      >
-      >    * People
-      >    * Connected fields (includes connections with Experience Manager assets)
-      >    * Connected lookup fields
-      >    * Formula
+   >[!IMPORTANT]
+   >
+   > Depending on what environment you use to create a request form, the following scenarios exist:
+   >
+   >* Fields of the following types do not display in the request form <span class="preview">in the Preview </span> or Production environments: 
+   >
+   >    * People (includes Created by and Last modified by)
+   >    * Formula
+   >    * Created date
+   >    * Last modified date
+   >    * Workfront objects' connected fields or lookup fields
+   >    * Workfront Planning records' connected lookup fields
+   >* Fields of the following types do not display in the request form in the Production environment. <span class="preview">They display in the Preview environment:</span>
+   >    * <span class="preview"> Workfront Planning records' connected fields</span>
+      
 
    * **Default section**: This is the default section break that Workfront applies to the request form. The Default section cannot be renamed or removed. 
-   * **Subject** field: The field which will identify the request in Workfront. This capability is not yet available. 
+   * **Subject** field: The field which will identify the request in Workfront. This capability is not yet available. The configuration and the value of the Subject field are not editable. 
    * All the fields associated with the record type. 
 
-   The fields contained in the request form will be visible to everyone submitting a request to this record type. 
+      The fields contained in the request form will be visible to everyone submitting a request to this record type. 
 
 1. (Optional) Hover over any fields on the form that you want to remove, then click the **x** icon to remove them. They are added to the **Fields** tab to the left of the form. 
 
    For example, remove the **Subject** field, as this is not visible in Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
-1. Click any field, then use the controls on the right side of the form to define their size, or any of the following information about the fields:
+1. Click any field, then use the controls in the right panel in the form to define their size, or any of the following information:
 
    * **Label**: this is the name of the field as it will appear on the request form. This does not change the name of the record field.
    * **Instructions**: Add more information about the field.
    * **Make a required field**: When selected, the field must have a value. Otherwise, the form cannot be submitted. 
    * **Add logic**: Define what conditions must be met in order for the field to display or be hidden.
 
+   >[!NOTE]
+   >
+   >   The field type of each field displays at the top of the right panel, after you select the field on the form. 
+   >   
+   >
+   >   Currency, Number, and Percentage fields display as a Single-line text field type. However, the field format is preserved and the values inside these fields will display as Currency, Number, and Percentage values.
+
 1. (Optional) Click the **Content elements** tab on the left side of the form, and add any of the following elements:
 
    * **Descriptive text**
    * **Section Break** 
 
-   For more information about building a custom form, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
+   For more information about building a custom form, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
 
 1. (Optional) Click **Preview** to view how the form will display for other users when they will use it to submit a new record.
+1. (Optional) Click the **More** menu ![](assets/more-menu.png) to the right of the form's name in the header, then click **Edit** to update the name of the form.
 1. Click **Publish** to publish the form and obtain a unique link for it. 
 
    The following things occur:
 
-   * The Publish button is removed.
+   * The **Publish** button is removed.
    * The **Unpublish** button is added to the form. Clicking it will prevent the form from being accessible. 
    * A **Share** button is added to the form.
 

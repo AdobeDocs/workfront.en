@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Interactions between the Commit Date and the Planned Completion Date
+title: Interactions Between the Commit Date and the Planned Completion Date
 description: Both the Planned Completion and the Commit Dates indicate when the task should be completed. But they differ because of who sets each date.
 author: Alina
 feature: Work Management

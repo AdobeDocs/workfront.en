@@ -11,7 +11,9 @@ exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 ---
 # Organize and preview a form
 
- You can organize a custom form with the form designer, and preview it to verify that it is set up correctly.
+{{highlighted-preview}}
+
+You can organize a custom form with the form designer, and preview it to verify that it is set up correctly.
 
 ## Access requirements
 
@@ -55,13 +57,13 @@ The access settings you select for a section are directly tied to the permission
 
 For information about permissions on objects, see [Overview of sharing permissions on objects](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-For information about custom fields and widgets in custom forms, see [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+For information about custom fields and widgets in custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Create and configure access for a section in a custom form
 
-1. Begin creating or editing a custom form and adding fields, as described in [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Begin creating or editing a custom form and adding fields, as described in [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Click **Section Break** and drag it into the desired position on the canvas.
+1. Click **Section break** and drag it into the desired position on the canvas.
 
 1. In the right panel, configure the options you want for the section:
 
@@ -141,7 +143,7 @@ In a custom form with a section break configured with the Limited Edit permissio
 ## Position custom fields and widgets in a custom form
 
  
-1. Begin creating or editing a custom form, as described in [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Begin creating or editing a custom form, as described in [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. To position custom fields and widgets on the same row, drag one next to the other until a line appears between them.
 
@@ -150,17 +152,22 @@ In a custom form with a section break configured with the Limited Edit permissio
    >* You can use the **Preview** button in the upper-right corner to get an idea of how the custom fields and widgets will display in the form.
    >* Custom fields and widgets may not always display the same way in the form, depending on how much screen space is available when a user is viewing it. For example, the third field in a row of fields may wrap to the next row of fields if horizontal space is limited.
 
-1. (Optional)To position a custom field or widget above or below another one, drag it above or below until a horizontal blue line appears between the items.
+1. (Optional) To position a custom field or widget above or below another one, drag it above or below until a horizontal blue line appears between the items.
+
+1. To move a custom field to another section on the form, you can drag and drop it into place, <span class="preview">or click the **Move to** icon on the field and select the section to move it to.</span>
+   
+   <span class="preview">Sample image in the Preview environment:</span>
+   ![Move field to a section](assets/move-field-to-section.png)
 
 1. To save your changes, click **Apply** 
 
     or
 
-    Click **Save and Close**. 
+    Click **Save and Close**.
 
 ## Preview a custom form
 
-1. Begin creating or editing a custom form and adding fields, as described in [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Begin creating or editing a custom form and adding fields, as described in [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Click **Preview** in the top-right corner to see how the form will look when being used, then click **End Preview** to return to editing the form.
 

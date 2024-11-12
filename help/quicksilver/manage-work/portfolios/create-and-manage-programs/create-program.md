@@ -52,6 +52,18 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
+## Ways to create programs
+
+You can create a program in Workfront using one of the following methods:
+
+* Create a program from scratch starting in the Programs area of the Main Menu, or in the Programs section of a portfolio. This article describes how you can create a program from scratch. 
+
+* Import a program using kick-starts.
+
+   As a Workfront administrator, you can import programs using a kick-start.
+
+   For information about importing data using kick-starts in Workfront, see [Import data into Adobe Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
 ## Create a program
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner.

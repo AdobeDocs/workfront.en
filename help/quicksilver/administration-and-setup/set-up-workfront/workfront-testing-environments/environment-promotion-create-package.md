@@ -56,8 +56,10 @@ For more detail about the information in this table, see [Access requirements in
 
 1. In the **Package name** field, enter a name for the package.
 1. In the **Description** field, enter a description for this package. 
-1. To add an object to the package, click **Add Objects** in the left navigation and select the type of object you want to add.
-1. Select one or more objects from the list, or type the name in the search bar and select the object when it appears in the list. You can select more than one object in the list.
+1. To add an object to the package, in the left navigation, select the type of object you want to add.
+1. Select one or more objects from the list that appears, or type the name in the search bar and select the object when it appears in the list. You can select more than one object in the list.
+
+   The list includes up to 500 objects of the object type selected. To locate an object not on the list, use the search bar.
 1. Click **Add (X Objects)** to add the selected objects to the package.
 
    >[!INFO]
@@ -83,7 +85,9 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Edit or assemble an existing package
 
-1. Go to the environment that you want to create the package in. This is the environment that you are copying objects **from**.
+A package must be in `DRAFT` status to be edited. 
+
+1. Go to the environment that you want to edit the package in. This is the environmentwhere the package was originally created.
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
 1. Select **System** in the left navigation, then select **Environment Promotion**.
 1. Select the package from the displayed list.
@@ -91,6 +95,7 @@ For more detail about the information in this table, see [Access requirements in
 1. (Optional) To view the contents, including all objects and their sub-objects, click the drop-down arrow next to the object type in the **Contents** section.
 1. (Optional) To view previous installations and installation attempts of this package, click **Deployments**.
 1. (Optional) To edit the package, click **Edit Package** at the upper-right of the screen.
+    A package must be in `DRAFT` status to be edited. To move the package to `DRAFT` status, in the **Status** field, select `Draft`. You can then continue editing the package.
 1. To install the package, click **Install** at the upper-right of the screen.
 
    For instructions on installing a package, see [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).

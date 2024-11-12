@@ -1,7 +1,7 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Submit a timesheet for approval
+title: Submit a Timesheet for Approval
 description: Submitting your timesheet for approval provides your manager with visibility into your work hours. Approvers can verify that all time recorded has been allocated in the correct areas and that a sufficient number of hours have been recorded for the time period.
 author: Alina
 feature: Timesheets
@@ -28,7 +28,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>New: Light or higher </p>
    <p>Current: Review or higher </p>
   </tr> 
@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ To submit a timesheet for approval:
 
    The **Submit for approval** button is replaced by the **Approve**, **Reject**, and **Recall** buttons. The status of the timesheet changes to **Submitted**.
 
-   When your timesheet is submitted for approval, the approver sees the timesheet listed in the **Approvals** area on the **Home** page. The following things might occur:
+   When your timesheet is submitted for approval, the approver sees the timesheet listed in the **My Approvals** widget in the **Home** area. The following things might occur:
 
    * If they approve it, the **Recall** button changes to **Re-open** and the timesheet status updates to **Open**.
    * If they reject it, the **Submit for approval** button replaces the **Recall** button and the timesheet status updates to **Rejected**.

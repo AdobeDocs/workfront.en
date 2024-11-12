@@ -1,7 +1,7 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Log time
+title: Log Time
 description: You can log time for work items in&nbsp;Adobe Workfront to indicate the number of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
 author: Alina
 feature: Timesheets
@@ -40,9 +40,11 @@ You must have the following access to perform the steps in this article and log 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: </p>
-   <p>Light or higher to log hours on a project, task, issue, or General Hours on a timesheet</p>
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New:</p>
+   <ul><li><p> Light or higher to log hours on a task, issue, or General Hours on a timesheet</p>
+   <li><p>Standard to log hours on projects</p></li></ul>
+   <p>
    <p>Current: 
    <ul><li>Review or higher to log General Hours in a timesheet</li>
    <li>Work or higher to log hours on a project, task, or issue</li></ul> </td> 
@@ -58,7 +60,7 @@ You must have the following access to perform the steps in this article and log 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +76,7 @@ For more detail about the information in this table, see [Access requirements in
 * Timesheets include the total time for all logged dates. Weekends are always included, even when timeline calculations have been configured to exclude them (as described in [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)).
 * The maximum number of items displayed in a timesheet is 45. If there are more than 45 items whose dates match the timesheet time frame, only the most recently updated items display.
 * Hour entries that are included in billed billing records are dimmed and cannot be edited in the timesheet. For more information, see [Create billing records](../../manage-work/projects/project-finances/create-billing-records.md).
-* Personal tasks do not display in the timesheet by default. Personal tasks display in the timesheet only when they have time logged. After you log the time on a personal task, you can pin the task to the timesheet and it will remain on the timesheet if it remains pinned. For more information, see [Create work items from the Home area](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+* Personal tasks do not display in the timesheet by default. Personal tasks display in the timesheet only when they have time logged. After you log the time on a personal task, you can pin the task to the timesheet and it will remain on the timesheet if it remains pinned. For more information, see [Create work items and projects from the Home area](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Log time {#log-time-section}
 
@@ -329,29 +331,26 @@ To remove an item from the timesheet that was manually added:
 
 You can log project-specific time in Home.
 
-For general information about using the Home area, see the following sections: 
+For general information about using the Home area, see [Use the Home area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
-* For information about using the legacy Home area, see [Use the Home area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* For information about using the new Home area, see [Get started with New Home](../../workfront-basics/using-home/new-home/get-started-with-new-home.md). 
-
-#### Log time on a work item from the new Home area
+<!--#### Log time on a work item from the new Home area-->
 
 You can log time to tasks and issues in any of the widgets using the Summary panel in the Home area. For information, see the [Summary panel](#summary-panel) section in this article. 
 
 Additionally, to log time for an item in the My Work widget:
 
-1. Got to the **Home** area. 
+1. Go to the **Home** area. 
 1. Add the **My Work** widget to your Home. 
-1. (Optional) Select a task, issue, or request in a list, then click **Work On It**
+1. (Optional) Select a task, issue, or request in a list, then click **Work On It**.
 1. Hover over the task or issue you want to log time for, then click the **Log Time** icon ![](assets/log-time-icon-in-new-home.png) to the right of the task information.
 
    ![](assets/log-time-ui-for-task-from-new-home.png)
 
 1. Click **Log time**.
 
-   The logged time displays in the object's Hours section, nad in your timesheet. 
+   The logged time displays in the object's Hours section, and in your timesheet. 
 
-#### Log time on a work item from the legacy Home area
+<!--#### Log time on a work item from the legacy Home area
 
 1. In the **Work List** area, select the item where you want to log time.
 1. In the right panel, click **Log Time**.  
@@ -363,7 +362,7 @@ Additionally, to log time for an item in the My Work widget:
 1. (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 1. Specify the time you want to log, then click **Log Time**.
 
-   The logged time displays in the object's Hours section, nad in your timesheet. 
+   The logged time displays in the object's Hours section, nad in your timesheet. -->
 
 ### Project, task, or issue {#project-task-or-issue}
 

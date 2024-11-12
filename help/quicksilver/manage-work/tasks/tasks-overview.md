@@ -16,7 +16,7 @@ exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
 Tasks are smaller work items in Adobe Workfront that contribute to the completion of a project. Learn information about managing tasks in the articles in the following subsections:
 
 * [Task information](../../manage-work/tasks/task-information/task-information.md) 
-* [Create tasks](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md) 
+* [Create tasks: article index](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md) 
 * [Assign tasks](../../manage-work/tasks/assign-tasks/assign-tasks-1.md) 
 * [Manage tasks](../../manage-work/tasks/manage-tasks/manage-tasks.md) 
 * [Task Constraints](../../manage-work/tasks/task-constraints/task-constraints.md) 

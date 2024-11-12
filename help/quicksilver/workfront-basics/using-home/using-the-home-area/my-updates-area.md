@@ -3,15 +3,12 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Use the My Updates area
 description: You can use the [!UICONTROL My Updates] area to quickly review the approvals waiting for your decision or the conversations you have been included in.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
 ---
 # Use the [!UICONTROL My Updates] area
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)</p>
--->
 
 You can use the [!UICONTROL My Updates] area to quickly review the approvals waiting for your decision or the conversations you have been included in.
 
@@ -22,6 +19,8 @@ For information about [!DNL Adobe Workfront] licenses, see [[!DNL Adobe Workfron
 If you have a license type different than Review, the [!DNL Workfront] or Group administrator must add the [!UICONTROL My Updates] area to your layout template to display it in the Main Menu. For information, see [Customize the [!UICONTROL Main Menu] using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -51,6 +50,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 *To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 
@@ -139,8 +140,6 @@ You must have the following before you begin:
 1. (Optional) Click **[!UICONTROL Ignore]** to clear the access request from your approval list without granting it.
 1. Click **[!UICONTROL Delegate my approvals]** to delegate the approvals submitted to you if you are unavailable to make approval decisions for some time. For more information about delegating approvals, see [Delegate approval request](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 1. Scroll to the **[!UICONTROL Mentions]** area underneath your approvals. Here, you can view all items where you have been included in a conversation.
-
-   ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
 
    >[!TIP]
    >

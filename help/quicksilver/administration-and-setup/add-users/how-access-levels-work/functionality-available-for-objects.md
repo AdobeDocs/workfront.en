@@ -19,6 +19,11 @@ The following tables lists the functionality available for each object type in t
 
 It also indicates which actions Workfront administrators can disable or enable using an access level.
 
+>[!NOTE]
+>
+>* This article describes functionality available to access levels in the new Workfront plan model. To see functionality available in the current plan model, see [Functionality available for each object type for various access levels](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+>* For a list of functionality available to the different plans in the new plan model, see [Adobe Workfront Pricing and Packaging](https://business.adobe.com/products/workfront/pricing.html).
+
 ## Projects
 
 | Action                       | Standard | Light  | Contributor | External user |
@@ -33,8 +38,8 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Update custom fields         | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Add an approval process      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Approve a project            | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Add document                 | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Add issue                    | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Add document                 | ✓        | ✓      | ✓      | &nbsp;        |
+| Add issue                    | ✓        | ✓      | ✓      | &nbsp;        |
 | Add tasks                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Give updates/comments        | ✓        | ✓      | ✓      | &nbsp;        |
 | Change status                | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
@@ -102,7 +107,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Attach custom forms           | ✓        | ✓      | ✓           | &nbsp;        |
 | Edit custom fields            | ✓        | ✓      | ✓           | &nbsp;        |
 | Approve issues                | ✓        | ✓      | ✓           | &nbsp;        |
-| Add an approval process       | ✓        | ✓      | ✓           | &nbsp;        |
+| Add an approval process       | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Add documents                 | ✓        | ✓      | ✓           | &nbsp;        |
 | Copy issues                   | ✓        | ✓      | ✓           | &nbsp;        |
 | Move issues                   | ✓        | ✓      | ✓           | &nbsp;        |
@@ -217,7 +222,7 @@ Users with a Standard license can have full access to reports. All other Access 
 | Edit details                   | ✓        | ✓      | ✓           | &nbsp;        |
 | Download                       | ✓        | ✓      | ✓           | ✓             |
 | Checkout                       | ✓        | ✓      | ✓           | &nbsp;        |
-| Add approvers                  | ✓        | ✓      | ✓           | &nbsp;        |
+| Add approvers (documents)                  | ✓        | ✓      | ✓           | &nbsp;        |
 | Approve documents              | ✓        | ✓      | ✓           | ✓             |
 | Attach custom forms            | ✓        | ✓      | ✓           | &nbsp;        |
 | Edit custom fields             | ✓        | ✓      | ✓           | &nbsp;        |
@@ -227,8 +232,8 @@ Users with a Standard license can have full access to reports. All other Access 
 | Upload new version             | ✓        | ✓      | ✓           | &nbsp;        |
 | Delete a version               | ✓        | ✓      | ✓           | &nbsp;        |
 | Preview                        | ✓        | ✓      | ✓           | ✓             |
-| Proof                          | ✓        | ✓      | ✓           | ✓             |
-| Generate proof                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| Approve proofs                          | ✓        | ✓      | ✓           | ✓             |
+| Generate proofs                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Remove proof                   | ✓        | ✓      | ✓           | &nbsp;        |
 | Add/Remove&#42;&#42;           | ✓        | ✓      | ✓           | &nbsp;        |
 | Rename&#42;&#42;               | ✓        | ✓      | ✓           | &nbsp;        |
@@ -379,3 +384,4 @@ Only users with a Standard license can have full access to resource management. 
 | View the Check-in area in the left panel |&nbsp; |✓ |
 | View the Settings area in the left panel |✓ |✓  |
 | Print a list of goals |✓ |✓  |
+

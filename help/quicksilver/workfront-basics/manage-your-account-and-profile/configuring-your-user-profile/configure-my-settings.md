@@ -3,7 +3,7 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: Configure My Settings
 description: Your [!DNL Adobe Workfront] profile contains information about yourself (for example, your name, email address, address, phone number, title, etc). It also contains information about your interactions with [!DNL Workfront] and other users in your company.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
 ---
@@ -339,7 +339,7 @@ You can change any of the following in this sub-section:
   
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Send work assigned to myself to my Working On tab]</strong> </td> 
-   <td>Select this field to display work you are assigning to yourself directly on your [!UICONTROL Working On] tab instead of the [!UICONTROL Work Requests] tab.</td> 
+   <td>This field refers to a deprecated feature that has been removed from [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Conditional) Automatically generate proofs when uploading documents</strong></td> 
@@ -518,7 +518,7 @@ You must have either of the following access or permissions in order to attach a
 
 All users can see custom forms that have been associated with their profiles.
 
-Your [!DNL Workfront] administrator must configure custom forms for the user object in order for you to be able to attach a custom form to your user profile. For more information about creating custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Your [!DNL Workfront] administrator must configure custom forms for the user object in order for you to be able to attach a custom form to your user profile. For more information about creating custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### [!UICONTROL Comment]
 

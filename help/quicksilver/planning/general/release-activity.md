@@ -16,11 +16,11 @@ exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 >
 ><span class="preview">This article lists the features that were released during the early phase for Workfront Planning, in 2024, prior to the general availability release on August 28, 2024.</span>
 >
->The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
 >
 >You must purchase a Workfront Planning plan, in addition to a Workfront plan to be able to access and use Workfront Planning capabilities. 
 >
->For a complete list of requirements to access Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
+>For a complete list of requirements to access Workfront Planning, see [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 >For an overview of Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
 >
 
@@ -1253,7 +1253,7 @@ The following are the permissions levels for record views:
 * View: Users can select the view from the View drop-down menu of a record type page.
 * Manage: Users can edit, share, and delete the view. 
 
-For more information, see [Access overview](/help/quicksilver/planning/access/access-overview.md) and [Overview of sharing permissions in Adobe Workfront Planning capabilities](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+For more information, see [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md) and [Overview of sharing permissions in Adobe Workfront Planning capabilities](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ### New Formula field type
 

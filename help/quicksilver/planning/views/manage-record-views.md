@@ -1,6 +1,6 @@
 ---
 title: Manage Record Views
-description: You can display records in a table, timeline, or calendar view when using Adobe Workfront Planning.
+description: You can display records in a table, timeline, or calendar view when using Adobe Workfront Planning. This article describes how you can create a view and edit or delete an existing one.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -39,7 +39,7 @@ This article describes the following information about record views:
 
 +++ Expand to view access requirements for Workfront Planning. 
 
-You must have the following to be able to access Workfront Planning:  
+You must have the following access to perform the steps in this article:  
 
  <table style="table-layout:auto"> 
 <col> 

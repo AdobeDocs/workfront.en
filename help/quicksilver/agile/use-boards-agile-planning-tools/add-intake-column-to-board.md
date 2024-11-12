@@ -35,6 +35,8 @@ Issues:
 >[!IMPORTANT]
 >
 >It is recommended to refresh the board frequently if multiple users are working on the board at the same time. Refreshing the page helps to keep the visual changes on the board up to date and prevents issues such as duplicate cards being moved onto the board from the intake column.
+>
+>To synchronize with Workfront and bring new tasks and issues onto the board or intake column, click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) next to the board name and select **[!UICONTROL Sync connected items]**.
 
 For more information on columns, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). For information on connected cards, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
