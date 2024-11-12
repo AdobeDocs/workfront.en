@@ -58,3 +58,4 @@ The automation appears on the list of automations, and is available to use in re
 >[!NOTE]
 >
 >We recommend checking that the object was created and connected as expected.
+
