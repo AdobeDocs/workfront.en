@@ -101,6 +101,8 @@ For more detail about the information in this table, see [Access requirements in
 
 1. On the dashboard, select the board to open.
 1. Edit the board as needed. You can click on the board name to rename it.
+   
+   To synchronize connected cards with Workfront and bring new tasks and issues onto the board or intake column, click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) next to the board name and select **[!UICONTROL Sync connected items]**.
 
    For information, see [Add or remove members from a board](../../agile/get-started-with-boards/add-members-to-board.md), [Manage board columns](../../agile/get-started-with-boards/manage-board-columns.md), and [Add a card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 

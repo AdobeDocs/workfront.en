@@ -13,6 +13,7 @@ You can view the document's status directly in the document list:
 
 ![](assets/status-in-doc-list.png)
 
+
 The following statuses are available:
 
 <table>

@@ -1,5 +1,5 @@
 ---
-title: Access Overview
+title: Adobe Workfront Planning Access Overview
 description: Not all users in the organization have the same access and permissions to use Adobe Workfront Planning. This article describes the access and permissions that users could have to use the capabilities of Adobe Workfront Planning.
 author: Alina
 feature: Workfront Planning
@@ -8,13 +8,13 @@ role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
 ---
 
-# Access overview
+# Adobe Workfront Planning access overview
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
 >
 >Your company must purchase an additional license for Workfront Planning to access its capabilities. 
 >
@@ -32,7 +32,7 @@ This article describes the access and settings that you need in place to use the
 
 <!--*********ensure that the link ^^^^^^^^below^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************-->
 
-You must have the following to be able to access Workfront Planning: 
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto">
  <col>
@@ -122,7 +122,7 @@ You must have the following to be able to access Workfront Planning:
 
 <!--Acccess and permissions before GA (OLD): 
 
-You must have the following to be able to access Workfront Planning:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto">
  <col>

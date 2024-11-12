@@ -9,9 +9,9 @@ exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
 ---
 # Built-in Status Icons in Views
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ALina: ***Link this from the Understanding Fields in Lists and Reports.) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: ALina: ***Link this from the Understanding Fields in Lists and Reports.)-->
 
 You can add the built-in Status Icons field as a column in your views to enhance visibility into key points about your objects. Using Status Icons, you can see at a glance when the following conditions exist:
 
@@ -20,7 +20,7 @@ You can add the built-in Status Icons field as a column in your views to enhance
 * An object has additional notes associated with it
 * An expense is billable or reimbursable 
 * A task is on a critical path
-* A user belongs to a company, a team, or is located in a different time zone
+* A user belongs to a company, a team, or is personally located in a different time zone
 
 Consider the following:
 
@@ -39,6 +39,8 @@ You cannot customize the look and feel of the icons that are included in the Sta
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -51,24 +53,31 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">&nbsp;</td> 
-   <td>&nbsp;</td> 
-  </tr> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Contributor or higher</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Request or higher</p></li>
+         </ul>
+   </td>
+  </tr>
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to Reports,&nbsp;Dashboards, Calendars to add columns to a report</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to Reports,&nbsp;Dashboards, Calendars to add columns to a report</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to an existing view</p> <p>Manage permissions to a report to add columns to it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to an existing view</p> <p>Manage permissions to a report to add columns to it</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Add the Status Icons field to a view
 

@@ -11,7 +11,7 @@ exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
 ---
 # Customize pinned pages using a layout template
 
-In a layout template, you can pin the pages that you want users to always have available at the top of Adobe Workfront. These can be either pages accessed via the Main Menu ![](assets/main-menu-icon.png) or dashboards.
+In a layout template, you can pin the pages that you want users to always have available at the top of Adobe Workfront. These can be either pages accessed via the Main Menu ![](assets/main-menu-icon.png) or the Main Menu ![](assets/lines-main-menu.png) when available, or dashboards.
 
 Any pins that your users have added on their own are displayed to the right of the pins you add in the layout template.
 
@@ -38,16 +38,20 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard</p>
+  <p> Current: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
    <td> <p>To perform these steps at the system level, you need the System Administrator access level.
-To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

@@ -12,9 +12,11 @@ exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
 ---
 # Kick-Starts scenario: Import multiple-option custom fields into Workfront
 
+{{highlighted-preview}}
+
 You can import custom fields with multiple options in Adobe Workfront using the Kick-Start functionality. 
 
-Examples of custom fields with multiple options are:  
+Examples of custom fields with multiple options are:
 
 * Multi-Select Dropdown 
 * Dropdown 
@@ -78,25 +80,25 @@ To export existing data from Workfront:
 
 {{step-1-to-setup}}
 
-1. Expand **System** in the left menu, then click **Export Data (Kick-Starts)**. 
+1. Expand **System** in the left menu, then click **Export Data (Kick-Starts)**.
 
-    ![](assets/export-data-kick-starts-link-in-setup.png)
+1. Select **Custom Data** in the **What to include** section.
+   
+   <span class="preview">Sample image in the Preview environment:</span>
+   ![Select Custom Data](assets/kickstarts-select-existing-data.png)
 
-1. Select **Custom Data** in the **What to include** section. 
+   Sample image in the Production environment:
+   ![Select Custom Data](assets/existing-custom-data-box-checked-kick-starts.png)
 
-    ![](assets/existing-custom-data-box-checked-kick-starts.png)
-
-1. Choose **.xlsx file** in the **Download format** section.   
+1. Choose **.xlsx file** in the **Download format** section.
   
     >[!TIP]
     >
-    >    Depending on how much custom data you have in your system, this might take a long time. 
+    >Depending on how much custom data you have in your system, this might take a long time.
 
-    ![](assets/download-button-for-kick-starts.png)
+1. Click **Download**. An .xlsx file downloads to your computer. Navigate to it and open it.
 
-1. Click **Download**. An .xlsx file downloads to your computer. Navigate to and open it. 
-
-    ![](assets/existing-data-excel-parameter-sheet.png)
+    ![Exported data in Excel](assets/existing-data-excel-parameter-sheet.png)
 
 1. Examine the downloaded file and make note of the following details:  
 
@@ -118,62 +120,64 @@ After scanning the information about existing custom fields in your system, you 
 
 1. Expand **System** in the left menu.
 
-1. Click **Import Data (Kick-Starts)**.   
-
-    ![](assets/import-data-kick-starts-link-in-setup.png)
+1. Click **Import Data (Kick-Starts)**.
  
-1. In the **Download a blank Kick-Start spreadsheet** area, choose the **Custom Data** checkbox and click **Download**. 
+1. In the **Download a blank Kick-Start spreadsheet** area, select the **Custom Data** check box and click **Download**.
 
-    ![](assets/blank-custom-data-option-checked-kick-starts.png)
+   <span class="preview">Sample image in the Preview environment:</span>
+   ![Select Custom Data](assets/kickstarts-select-existing-data.png)
+   
+   Sample image in the Production environment:
+   ![Select Custom Data](assets/blank-custom-data-option-checked-kick-starts.png)
 
-    A blank kick-start file downloads to your computer.  
+   A blank kick-start file downloads to your computer.
 
-    >[!NOTE]
-    >
-    >The number of sheets in the file, their names, and the number of and names of the columns in each sheet should be identical to the ones from the kick-start downloaded in the above section which contained your existing custom data. 
+   >[!NOTE]
+   >
+   >The number of sheets in the file, their names, and the number of and names of the columns in each sheet should be identical to the ones from the kick-start downloaded in the above section which contained your existing custom data.
 
 ## Populate the Excel Kick-Starts spreadsheet
 
-Before populating the excel spreadsheet, download the kick-start template as described in the above section.  
+Before populating the Excel spreadsheet, download the kick-start template as described in the above section.  
 
 >[!IMPORTANT]
 >
->Do not try to import information using an ad-hoc Excel spreadsheet. All spreadsheets for importing information into Workfront using the kick-start functionality must match the contents of the files you download from Workfront and described in this article. 
+>Do not try to import information using an ad-hoc Excel spreadsheet. All spreadsheets for importing information into Workfront using the kick-start functionality must match the contents of the files you download from Workfront and described in this article.
 
-To populate the Excel spreadsheet with information for the new custom fields: 
+To populate the Excel spreadsheet with information for the new custom fields:
 
-1. Open the Excel spreadsheet you downloaded in the previous section, and notice a number of sheets. Each sheet represents an object in the application. 
+1. Open the Excel spreadsheet you downloaded in the previous section, and notice a number of sheets. Each sheet represents an object in the application.
 
     >[!INFO]
     >
-    >For example, **Parameter** (which refers to Custom Field), **Parameter Option**(which refers to Custom Field option), **Category** (which refers to Custom Form). 
+    >For example, **Parameter** (which refers to Custom Field), **Parameter Option**(which refers to Custom Field option), **Category** (which refers to Custom Form).
     >
     >You must write the names of the objects and their attributes in the format supported by the Workfront database.
     >
-    >For information about the meaning of these objects, see the [Glossary of [!DNL Adobe Workfront] terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md). 
+    >For information about the meaning of these objects, see the [Glossary of [!DNL Adobe Workfront] terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
     >
-    >For information about the names of the objects in the Workfront database, see the [API Explorer](../../../wf-api/general/api-explorer.md). 
+    >For information about the names of the objects in the Workfront database, see the [API Explorer](../../../wf-api/general/api-explorer.md).
     >
     >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
     
 
-1. Ensure the following information is formatted correctly:  
+1. Ensure the following information is formatted correctly:
 
-    * The first row of every sheet must remain empty, otherwise the import generates an error.  
-    * The column headers in each sheet represent attributes of the objects that can be set during an import. All column headers must remain in the same order you find them when you export the sheet and they cannot be renamed.  
-    * The column headers in bold are required fields and they must have a value. 
-
-        >[!TIP]
-        >
-        >Some columns are required although they are not in bold. For example, the `isNew` and `ID` columns are not in bold, but they are required fields.  
-
-1. Select the `**PARAM Parameter`** sheet and add information about the new custom fields in the following required columns: 
-
-    * **`isNew`** = enter **`TRUE`** in this column for every line that represents a new custom field. This indicates that the field is new and not existing in Workfront.    
+    * The first row of every sheet must remain empty, otherwise the import generates an error.
+    * The column headers in each sheet represent attributes of the objects that can be set during an import. All column headers must remain in the same order you find them when you export the sheet and they cannot be renamed.
+    * The column headers in bold are required fields and they must have a value.
 
         >[!TIP]
         >
-        >    If a line represents an existing field already in Workfront, you would enter **`isNew`** = **`FALSE`**. 
+        >Some columns are required although they are not in bold. For example, the `isNew` and `ID` columns are not in bold, but they are required fields.
+
+1. Select the `**PARAM Parameter`** sheet and add information about the new custom fields in the following required columns:
+
+    * **`isNew`** = enter **`TRUE`** in this column for every line that represents a new custom field. This indicates that the field is new and not existing in Workfront.
+
+        >[!TIP]
+        >
+        >If a line represents an existing field already in Workfront, you would enter **`isNew`** = **`FALSE`**.
 
     * **`ID`** = must be a unique number for each line that represents a new field. You can use any number starting with 1, as long as each new field has  a unique number.  
     * **`setDataType`** = for each line that represents a new field, enter the data type that the field supports. The Data Type must be entered as it would appear in the database. Select from the following data types: 
@@ -204,7 +208,7 @@ To populate the Excel spreadsheet with information for the new custom fields:
     
     The value of a field is the name which appears in reports, for example, whereas the name displays in the custom forms attached to objects.
     
-    For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+    For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
     ![](assets/parameter-sheet-filled-out-kick-starts.png)
 
@@ -225,7 +229,7 @@ To populate the Excel spreadsheet with information for the new custom fields:
 
     * **`setParameterID`** = the options corresponding to the _Brand_ custom field  have a **`setParameterID`** of 1, and the options corresponding to the _Media_ have a **`setParameterID`**of 2. The `PARAM` and `POPT` sheets cross-reference each other to indicate which options belong to which custom field.  
     * **`setDisplayOrder`**=  the display order column indicates the order in which the options will display in your custom field. You can start with 1 and continue in ascending order for all the options, regardless of which fields they will belong to. The important thing here is to have unique numbers for each option.  
-    * The **`setLabel`** and the `**setValue`** columns usually contain the same information and they should reflect the names desired in the Workfront UI. The value of an option is the name that displays in reports, for example, whereas the label displays in the custom forms when attached to an object. For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).  
+    * The **`setLabel`** and the `**setValue`** columns usually contain the same information and they should reflect the names desired in the Workfront UI. The value of an option is the name that displays in reports, for example, whereas the label displays in the custom forms when attached to an object. For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).  
     * **`setIsHidden`** = enter `TRUE` if you want any of the options to be hidden.  
 
     ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
@@ -274,7 +278,7 @@ After performing the steps described in the previous sections, continue with the
 
 1. Click **Choose File** under the section **Upload data with Kick-Start spreadsheet**. 
 
-1. Browse for the Excel spreadsheet you prepared, on your computer and select it when you find it.  When the file is recognized by Workfront, the Upload button will turn blue. 
+1. Browse for the Excel spreadsheet you prepared, on your computer and select it when you find it. When Workfront recognizes the file, the Upload button turns blue.
 1. Click **Upload.** 
 
     ![](assets/kick-start-file-selected-and-upload-blue-button.png)
@@ -283,14 +287,14 @@ After performing the steps described in the previous sections, continue with the
 
     ![](assets/kick-start-successful.png)
 
-    The new custom fields and forms are now in your Workfront system. You can find them in the Custom Forms area of Setup. 
+    The new custom fields and forms are now in your Workfront system. You can find them in the Custom Forms area of Setup.
 
     >[!NOTE]
     >
     >The new forms and the fields you imported are not yet connected. The form is imported with no custom fields. You must manually add the fields to the new custom form or to another existing custom form.   
 
     
-    For information about adding fields to custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+    For information about adding fields to custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Conditional) If the import was not successful, you receive an error message with what the problem is. Try to identify the field, the sheet, and the row number in which the problem was encountered and correct the information in the Excel file, then try importing the file one more time.
 

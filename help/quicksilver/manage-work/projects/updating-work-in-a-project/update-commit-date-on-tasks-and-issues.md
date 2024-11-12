@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Update Commit Dates on tasks and issues
+title: Update Commit Dates on Tasks and Issues
 description: You can manually update the Commit date of a task or an issue that you are assigned to. For more information about Commit Dates in Adobe Workfront, see Commit Date overview.
 author: Alina
 feature: Work Management
@@ -89,7 +89,7 @@ Updating the Commit Date is identical for tasks and issues.
 >For more information, see the following articles:
 >
 >* [Summary overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). 
+>* [Customize the Summary panel using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). 
 
 
 1. Go to a task or issue that you are assigned to as the **Owner**.

@@ -1,6 +1,6 @@
 ---
 title: Manage the calendar view
-description: You can display records and their fields in a calendar view.
+description: You can display records and their fields in a calendar view. This article describes how you can create a calendar view and edit or delete an existing one.
 feature: Workfront Planning
 role: User
 author: Alina
@@ -19,7 +19,7 @@ For information about Adobe Workfront Planning views and how to manage them, see
 
 +++ Expand to view access requirements for Workfront Planning. 
 
-You must have the following to be able to access Workfront Planning:  
+You must have the following access to perform the steps in this article:  
 
  <table style="table-layout:auto"> 
 <col> 

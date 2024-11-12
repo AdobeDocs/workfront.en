@@ -92,7 +92,7 @@ The following functionality supports this methodology:
 
 1. Click the **[!UICONTROL Switch Teams]** icon ![Switch team icon](assets/switch-team-icon.png), then click **[!UICONTROL Create new team]**.
 
-   ![Select Create new team.](assets/create-new-team-350x198.png)
+   ![Select Create new team](assets/create-new-team.png)
 
    The New Team box displays.
 
@@ -152,7 +152,7 @@ You can convert an existing team to be an agile team:
 1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.
 
    Only team members with a [!UICONTROL Standard], [!UICONTROL Plan], or [!UICONTROL Work] license see this option.
-   ![](assets/edit-team-settings-350x205.png)
+   ![Select Edit](assets/edit-team-settings.png)
 
 1. In the **[!UICONTROL Agile]** section, select **[!UICONTROL This is an Agile Team]**.
 

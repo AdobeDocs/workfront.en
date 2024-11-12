@@ -70,6 +70,10 @@ You must have the following access to perform the steps in this article:
 
 1. Repeat the previous step to add additional approvers or reviewers.
 
+## Add additional reviews and approvers from a previous version
+
+If you need approval on a new document version, you can easily add 
+
 <!--
 ## Add additional approvers or reviewers from Home
 

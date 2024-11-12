@@ -1,6 +1,6 @@
 ---
 title: Manage the Table View
-description: You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront Planning.
+description: You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront Planning. This article describes how you can create a table view and edit or delete an existing one.
 feature: Workfront Planning
 role: User
 author: Alina
@@ -19,7 +19,7 @@ For information about record views and how to manage them, see [Manage record vi
 
 +++ Expand to view access requirements for Workfront Planning. 
 
-You must have the following to be able to access Workfront Planning:  
+You must have the following access to perform the steps in this article:  
 
  <table style="table-layout:auto"> 
 <col> 

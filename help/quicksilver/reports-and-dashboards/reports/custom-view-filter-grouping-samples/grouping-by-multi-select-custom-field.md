@@ -2,13 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Group a report by a multi-select custom field
+title: Group a Report by a Multi-select Custom Field
 description: You can group by the value in a multi-select custom field in a Adobe Workfront report only by using text mode. 
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
 ---
 # Group a report by a multi-select custom field
+
+<!--Audited: 10/2024-->
 
 You can group by the value in a multi-select custom field in a Adobe Workfront report only by using text mode. 
 
@@ -31,6 +33,8 @@ For information about using text mode, see the article [Text Mode overview](../.
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -38,48 +42,54 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request to modify a grouping </p>
-   <p>Plan to modify a report</p> </td> 
+   <td> 
+    <p>New:</p>
+   <ul><li><p>Contributor to modify a filter </p></li>
+   <li><p>Standard to modify a report</p></li> </ul>
+
+   <p>Current:</p>
+   <ul><li><p>Request to modify a filter </p></li>
+   <li><p>Plan to modify a report</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a grouping</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr>  
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a filter</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Group a report by multi-select custom fields
 
 To be able to group by a multi-select custom field, you must have the following prerequisites:
 
 * Build the multi-select custom field in a custom form.  
-  For information about building custom forms and adding custom fields to them, see the article [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  For information about building custom forms and adding custom fields to them, see the article [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Attach the custom form to objects.
-* Populate the multi-select custom field with a value on each object.&nbsp;
+* Populate the multi-select custom field with a value on each object.
 
 To group by a multi-select custom field in a report:
 
 1. Create a report or edit an existing one where you want to add a grouping for a multi-select custom field.  
    For information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-
+1. Click **Report Actions**, then **Edit**. 
 1. Select the **Groupings** tab.
 1. Click **Switch to Text Mode**.
 
-1. Select the text in the **Group your Report** box and replace it with the following code:  
+1. Select the text in the **Group by** box and replace it with the following code:  
    
    <pre>
    group.0.displayname=Multi-select Custom Field Name
@@ -88,7 +98,7 @@ To group by a multi-select custom field in a report:
    group.0.textmode=true
    </pre>
 
-1. Replace "Multi-select Custom Field Name" with the actual name of your multi-select custom field, as it appears in Workfront.
+1. Replace "Multi-select Custom Field Name" with the actual name of your multi-select custom field, as it appears in your Workfront instance.
 1. Click **Save and Close**.  
    
    The objects in the report are grouped by the values of the multi-select custom field.  

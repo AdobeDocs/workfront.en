@@ -28,6 +28,7 @@ This table describes some features that differ between the two experiences.
 | Help is accessible via the [!UICONTROL Main Menu] and top navigation area | Help is accessible via the [!UICONTROL Main Menu] and [!DNL Workfront] navigation bar |
 | The proofing viewer opens in a new tab | The proofing viewer opens inside Workfront |
 | URL used to access Workfront is `experience.adobe.com` | URL used to access Workfront is `(CompanyName).my.workfront.com` |
+| Date format (such as MM/DD/YYYY) is based on Unified Experience language settings. If the user has not updated their language settings, `en-US` settings are used. | Date format (such as MM/DD/YYYY) is based on browser preferences |
 
 {style="table-layout:auto"}
 
@@ -137,3 +138,7 @@ There is no impact to [!DNL Creative Cloud] users with the migration to [!DNL Ad
 ### Will logins change for [!DNL Workfront] mobile users?
 
 [!DNL Workfront] mobile users should not be affected by the migration to [!DNL Adobe Unified Experience].
+
+### JumpSeat is not working with the [!DNL Adobe Unified Experience], how can I resolve this? 
+
+JumpSeat works with the [!DNL Adobe Unified Experience], but requires a configuration update. Using the JumpSeat admin panel, change the application URL from `workfront.com` to end with `.workfront.adobe.com`

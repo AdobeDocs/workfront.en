@@ -7,9 +7,13 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 ---
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Edit records
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
 
 {{planning-important-intro}}
 
@@ -27,7 +31,7 @@ For information about creating records, see [Create records](/help/quicksilver/p
 
 +++ Expand to view access requirements for Workfront Planning.
 
-You must have the following to be able to access Workfront Planning:  
+You must have the following access to perform the steps in this article:  
 
  <table style="table-layout:auto"> 
 <col> 
@@ -298,7 +302,7 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
 
     Workfront automatically saves your changes.
 
-1. (Optional) Click the **Export** icon ![](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Click the **Export** menu ![](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).
 
 1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record's preview to open the record's page in a new tab. Continue editing the record as described in [Edit a record from the record's page](#edit-a-record-from-the-records-page) section in this article. 
 
@@ -339,6 +343,7 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
     >  * Linked fields that are created by connecting record types. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
+1. <span class="preview">(Optional) Click the information icon to the right of any field that displays it to view the description of a field. </span>
 1. (Optional) Click **Add cover** to add a cover image to the record
     
     Or
@@ -353,7 +358,7 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
 
     Workfront automatically saves your changes.
 
-1. (Optional) Click the **Export** icon ![](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Click the **Export** menu ![](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).
     
 
 ## Edit a record from a Workfront object in the Planning section

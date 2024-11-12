@@ -10,7 +10,7 @@ exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
 ---
 # Filters overview
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 11/2024 -->
 
 You can use filters in Adobe Workfront to reduce the amount of information you display on the screen in lists, reports, or other areas.
 
@@ -65,13 +65,16 @@ For more information about filters in lists and reports, see the following artic
 
 You can use either built-in filters or build custom filters in the following areas of Workfront:
 
-* Home   
-  For information, see the [Filter the Work List](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) section in the article [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+* Home
+   
+  For information, see [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+
 * Requests area. You cannot customize filters in the Requests area.
 
   For information, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md). 
 
-* Resource Planner  
+* Resource Planner
+
   For information, see the article [Filter information in the Resource Planner](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 * Utilization report
@@ -98,9 +101,7 @@ You can use either built-in filters or build custom filters in the following are
   >
   >You cannot customize filters in the Scenario Planner.
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip above: this might change with the beta filters??)</p>
-  -->
+  <!--(NOTE: the tip above: this might change with the beta filters??)-->
 
   You can use built-in filters for plans, initiatives, or projects and you can customize project filters in the Scenario Planner.
 

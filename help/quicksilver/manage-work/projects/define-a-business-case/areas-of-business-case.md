@@ -173,7 +173,7 @@ For more information about enabling the areas of the Business Case, see [Configu
 
 To apply a custom form, your Workfront administrator must first create a custom form.
 
-For more information about&nbsp;creating a custom form, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+For more information about&nbsp;creating a custom form, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 You can use custom forms to collect additional information that is not displayed in the other fields of the Business Case.
 

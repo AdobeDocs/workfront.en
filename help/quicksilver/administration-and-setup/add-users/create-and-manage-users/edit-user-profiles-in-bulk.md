@@ -81,7 +81,7 @@ For more detail about the information in this table, see [Access requirements in
        <ul> 
         <li><b>Time Zone:</b> The users' time zone.</li> 
         <li><b>Locale</b>: The users' preferred locale. This affects the format of numbers and dates in the emails that come from Workfront.</li> 
-        <li><b>Send work I assign to myself to my Working On tab</b>: Check this option if you want everything that the users assign to themselves to appear directly on their Working On tab. The default is to list everything assigned to a user on their Work Request tab.</li> 
+        <li><b>Send work I assign to myself to my Working On tab</b>: This setting refers to a deprecated feature that has been removed from Workfront.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -209,7 +209,7 @@ For more detail about the information in this table, see [Access requirements in
        <p>For more information about resource pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>.</p> </li> 
        <li><b>Cost Per Hour</b>: The amount of cost per hour for the user. </li> 
        <li><b>Billing Per Hour</b>: The amount of billing per hour for the user.</li> 
-       <li><b>Custom Forms</b>: Associate an existing user custom form with the users. You must create a custom form before you can associate it with a user. Only active custom forms display in the list. For information about creating custom forms, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Design a form with the form designer</a>.</li> 
+       <li><b>Custom Forms</b>: Associate an existing user custom form with the users. You must create a custom form before you can associate it with a user. Only active custom forms display in the list. For information about creating custom forms, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Create a custom form</a>.</li> 
        <li><b>Comment</b>: Enter a comment in the field provided. All users selected will receive an in-app notification as well as an email notification with your comment. The comment shows in the Updates tab of the users' profile.</li> 
        </ul> </td> 
      </tr> 
