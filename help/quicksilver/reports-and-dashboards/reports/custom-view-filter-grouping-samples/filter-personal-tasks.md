@@ -6,6 +6,7 @@ title: 'Filter: Personal Tasks'
 description: This task filter returns ad hoc work requests sent to a user, or to-do items added by users in their Home area. Personal tasks are not connected to a project but they can be moved to a project, if needed.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
 ---
 # Filter: personal tasks
 
@@ -72,4 +73,4 @@ To create this filter:
     * From a report filter: **Task** > **Personal** > **Equals** > **True**. 
 1. Save the filter. 
 
-    The list displays only personal tasks that are not on any projects. 
+    The list displays only personal tasks that are not on any projects.
