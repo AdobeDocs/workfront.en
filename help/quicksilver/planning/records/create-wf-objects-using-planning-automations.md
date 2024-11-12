@@ -5,8 +5,8 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
+exl-id: c669217a-40e2-471f-951d-93157a34f1ee
 ---
-
 # Create objects using Workfront Planning record automations
 
 You can configure automations in Workfront Planning that, when activated, create objects in Workfront or Workfront Planning.
@@ -58,4 +58,3 @@ The automation appears on the list of automations, and is available to use in re
 >[!NOTE]
 >
 >We recommend checking that the object was created and connected as expected.
-
