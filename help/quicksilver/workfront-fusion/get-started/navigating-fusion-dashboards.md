@@ -32,7 +32,7 @@ If you do not see the left navigation panel, click the Main Menu icon ![main men
 >![Team dropdown](assets/team-dropdown.png)
 
 
-<!-->
+<!--
 If you are an administrator, the following sections are available (Find out if these are visible, and if so, what they mean.)
 Native apps | 
 Apps | 
