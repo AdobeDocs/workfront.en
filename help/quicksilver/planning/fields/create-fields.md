@@ -328,7 +328,7 @@ You can use a date field to capture additional information in date and time form
         * **Long**: May 16, 2023
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
-    * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. <!--update this setting name - submitted bug for it to be changed-->
+        * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. <!--update this setting name - submitted bug for it to be changed-->
     
         Select from the following options:
         
@@ -370,16 +370,16 @@ Percentage field types capture information in a number format followed by a perc
     ![](assets/percentage-field-type.png)
 
 1. Add the following information in the **New field** tab:
-     * **Name**: The name of the field type, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
+    * **Name**: The name of the field type, as it will appear in a table or the record page. 
+    * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
     * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimal places.
     * **Allow negative numbers**: Select this option if you want to allow negative percentage values in this field. This option is unselected by default. 
 
         >[!NOTE]
         >
-        >    If you select Allow negative numbers, and negative values are stored on the records the field is attached to, then you can no longer deselect the setting in the future.
+        >If you select Allow negative numbers, and negative values are stored on the records the field is attached to, then you can no longer deselect the setting in the future.
     
-    <!--<div class="preview">  
+    <div class="preview">  
 
     * **Show as**: From the drop-down menu, choose how you want the percentage values to display in the table view. Select from the following options:
         * **Number**: The percent value displays as a number followed by the percentage sign. 
@@ -390,8 +390,7 @@ Percentage field types capture information in a number format followed by a perc
     >
     >* The selection you make in the Show as field only applies to the percentage value visible in the table view. The percent value of the field displays as a number followed by the percentage sign everywhere else in Workfront Planning. This also applies to the percentage-type field when it displays as a lookup field in other records' table views.
     >* You can change the Show as selection when editing the field later. 
-    </div>-->    
-
+    </div>
 
 1. Click **Create**. 
 
@@ -409,8 +408,8 @@ Currency field types capture information in a number format preceded by a curren
      * **Name**: The name of the field type, as it will appear in a table or the record page. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
      * **Currency**: The type of currency you want to display in this field. This is a list of currencies according to the International Organizaton of Standardization (ISO). 
-      * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimals.
-    * **Allow negative numbers**: Select this option if you want to allow negative currency values in this field. This option is unselected by default. 
+     * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimals.
+     * **Allow negative numbers**: Select this option if you want to allow negative currency values in this field. This option is unselected by default. 
 
     >[!NOTE]
     >
@@ -554,7 +553,7 @@ You can use the Created date field type to add the date when the record was crea
         * **Long**: May 16, 2023
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
-    * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. <!--submitted a UI text change for this - check the UI-->
+     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. <!--submitted a UI text change for this - check the UI-->
     
         Select from the following options:
         
@@ -605,7 +604,8 @@ You can use the Last modified date field type to add the date when a record was 
         * **Long**: May 16, 2023
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
-    * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. <!--submitted a UI text change for this - check the UI-->
+     
+     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. <!--submitted a UI text change for this - check the UI-->
     
         Select from the following options:
         
@@ -634,4 +634,4 @@ When you create a record type, several fields associated with the new record typ
 
 Adobe Workfront Planning creates fields for record types when you create a workspace from a template. 
 
-For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). 
+For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).

@@ -5,9 +5,8 @@ title: Review interactive content in the Web proofing viewer extension
 description: The Adobe Workfront review tool is a browser extension that allows you to proof interactive content in a ZIP file or with a URL.
 author: Courtney
 feature: Digital Content and Documents
-
+exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
 ---
-
 # Review interactive content with the Adobe Workfront review tool
 
 <span class="preview">The Adobe Workfront Review tool will be available on November 7, 2024. This extension is currently in beta.</span>
@@ -63,8 +62,4 @@ Once you install the extension, interactive proofs open in the Adobe Workfront r
  
 >[!IMPORTANT]
 >
->You must remove the Legacy Web Viewer extension to use the Adobe Workfront Review tool. 
- 
-
-
- 
+>You must remove the Legacy Web Viewer extension to use the Adobe Workfront Review tool.

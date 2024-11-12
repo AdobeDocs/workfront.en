@@ -1,12 +1,12 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Customize the Priorities worklist columns
-description: You can customize the columns on the worklist in Priorities to support the way you work. 
+description: You can customize the columns on the worklist in Priorities to support the way you work.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
+exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
 ---
-
 # Customize the Priorities worklist columns
 
 You can customize the columns on the worklist in Priorities to support the way you work. 

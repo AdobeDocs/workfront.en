@@ -9,12 +9,10 @@ exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
 ---
 # Share a filter, view, or grouping
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)</p>
-<p>(NOTE: This is linked from the TOC article in WF Basics > permissions section)&nbsp;</p>
-</div>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
+(NOTE: This is linked from the TOC article in WF Basics > permissions section)-->
 
 Your Adobe Workfront administrator grants users access to view or edit objects when they assign access levels. For more information about granting access to objects, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -32,7 +30,9 @@ For information about how to create a filter, view, or grouping, see the followi
 
 ## Access requirements
 
-You must have the following:
++++ Expand to view access requirements for the functionality in this article. 
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,26 +44,35 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Contributor or higher</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Request or higher</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View or higher access to&nbsp;Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Filters, Views, Groupings</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>View or higher permissions with access to share to a view, filter, or grouping</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td><p>View or higher permissions with access to share to a view, filter, or grouping</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Share a filter, view, or grouping
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)</p>
--->
+<!--(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)-->
 
 Sharing filters in select lists is different depending on which interface you use to share the filter from: standard or legacy. For information about the types of filter-building interfaces, see [Create or edit filters in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 

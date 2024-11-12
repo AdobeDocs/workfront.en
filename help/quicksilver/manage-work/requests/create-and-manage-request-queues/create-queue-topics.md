@@ -122,7 +122,7 @@ For more detail about the information in this table, see [Access requirements in
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Custom Forms</strong> </td> 
-      <td>Select any custom forms you want to associate with the queue topic. You must create custom forms for issues before you can associate them with queue topics. For information about creating custom forms, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Design a form with the form designer</a>.</td> 
+      <td>Select any custom forms you want to associate with the queue topic. You must create custom forms for issues before you can associate them with queue topics. For information about creating custom forms, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Create a custom form</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Default Approval</strong></td> 
