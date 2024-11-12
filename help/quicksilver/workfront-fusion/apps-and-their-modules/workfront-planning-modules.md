@@ -59,15 +59,55 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 You can create a connection to your [!DNL Workfront Planning] account directly from inside a [!DNL Workfront Fusion] module.
 
-1. In any [!DNL Workfront Planning] app module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] box.
-1. Enter a name for this connection.
-1. Select whether you want to connect to a production environment, or a non-production environment.
-1. Select whether you are connecting to a service account or a personal account.
-1. Click **[!UICONTROL SAML log in]** to create the connection and go back to the module.
+1. In any [!DNL Adobe Workfront Planning] module, click **[!UICONTROL Add]** next to the Connection box.
+
+1. Fill in the following fields:
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection name]</td>
+          <td>
+            <p>Enter a name for this connection.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Environment]</td>
+          <td>Select whether you are connecting to a production or non-production environment.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Type]</td>
+          <td>Select whether you care connecting to a service account or a personal account.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client ID]<p>(Optional)</p></td>
+          <td>Enter your [!DNL Adobe] [!UICONTROL Client ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client Secret]<p>(Optional)</p></td>
+          <td>Enter your [!DNL Adobe] [!UICONTROL Client Secret]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Authentication URL]<p>(Optional)</p></td>
+          <td>Enter the URL that your instance of Workfront will use to authenticate this connection. <p>The default value is <code>https://oauth.my.workfront.com/integrations/oauth2</code>.</p>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Host prefix]</td>
+          <td>Enter your host prefix.<p>The default value is <code>origin-</code>.</p>
+        </tr>
+      </tbody>
+    </table>
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
 
 ## [!DNL Adobe Workfront Planning] modules and their fields
 
-### Watch Events
+### Triggers
+
+#### Watch Events
 
 This trigger module starts a scenario when a record, record type, or workspace is created, updated, or deleted in Workfront Planning.
 
@@ -104,7 +144,12 @@ This trigger module starts a scenario when a record, record type, or workspace i
   </tbody>
 </table>
 
-### Delete a record type
+### Actions
+
+* [Delete a record type](#delete-a-record-type)
+* [Make a custom AI call](#make-a-custom-api-call)
+
+#### Delete a record type
 
 This action module deletes a single record type in Workfront Planning by its ID.
 
@@ -129,7 +174,7 @@ This action module deletes a single record type in Workfront Planning by its ID.
   </tbody>
 </table>
 
-### Make a custom API call
+#### Make a custom API call
 
 This module makes a custom API call to the [!DNL Adobe Workfront Planning] API.
 
@@ -143,26 +188,10 @@ This module makes a custom API call to the [!DNL Adobe Workfront Planning] API.
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Path]</p>
+        <p>[!UICONTROL URL]</p>
       </td>
       <td>
-        <p>Enter a path relative to https://&ltWORKFRONT_DOMAIN&gt/attask/api/&ltAPI_VERSION&gt/</p>
-      </td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL API version]</p>
-      </td>
-      <td>
-        <p>Select the API version that you want to use. If you do not select a version, the most recent version will be used by default.</p>
-      </td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL API Path override]</p>
-      </td>
-      <td>
-        <p>Enter a path relative to https://&ltWORKFRONT_DOMAIN&gt/attask/api/&ltAPI_VERSION&gt/</p>
+        <p>Enter a path relative to <code>https://(YOUR_WORKFRONT_DOMAIN)/maestro/api/</code></p>
       </td>
     </tr>
     <tr>
@@ -195,57 +224,18 @@ This module makes a custom API call to the [!DNL Adobe Workfront Planning] API.
 </table>
 
 <!--
+### Searches
 
-### Delete a field
+#### Search records
 
-This action module deletes a single field in Workfront Planning by its ID.
-
->[!WARNING]
->
->Deleting a field in Workfront Planning deletes it and any data in it from every object of that record type in Workfront Planning.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Field ID]</p>
-      </td>
-      <td>Enter or map the ID of the record type you want to delete.</td> 
-      </tr>
-  </tbody>
-</table>
-
-### Get a field 
-
-
-This action module retrieves a single field in Workfront Planning by its ID.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Field ID]</p>
-      </td>
-      <td>Enter or map the ID of the field you want to delete.</td> 
-      </tr>
-  </tbody>
-</table>
+This action module retrieves a list of records based on criteria you specify.
 
 -->
 
-### Create a record
+### Uncategorized
+
+
+#### Create a record
 
 This action creates a single record in Workfront Planning.
 
@@ -408,11 +398,3 @@ This action updates a single record in Workfront Planning.
      <tr>
   </tbody>
 </table>
-
-### Search records
-
-This action module retrieves a list of records based on criteria you specify.
-
->[!NOTE]
->
->This module is under construction.
