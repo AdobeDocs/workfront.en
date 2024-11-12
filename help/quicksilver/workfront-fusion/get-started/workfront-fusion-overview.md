@@ -72,7 +72,9 @@ As you begin working with Workfront Fusion, you may find the following resources
 
 * For Workfront Fusion training resources, see [Workfront Fusion Training Overview](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
 
+
 * For more information on scenarios, see [Scenario overview](/help/quicksilver/workfront-fusion/scenarios/scenario-overview.md).
+
 
 * To begin creating practice scenarios, see [Create practice scenarios](../../workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md).
 
