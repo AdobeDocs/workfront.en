@@ -10,6 +10,8 @@ exl-id: 478747bc-82b4-45c5-bd64-57e370c86567
 ---
 # Use built-in reports
 
+<!-- Audited: 11/2024 -->
+
 This section contains the following articles:
 
 * [Built-in Status Icons in Views](../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md) 

@@ -9,7 +9,7 @@ exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
 ---
 # Use the Milestone view
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 You can apply the Milestone view to a project list or report.
 
@@ -36,8 +36,15 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
    <td> 
-   <p>New: Standard</p>
-   <p>Current: Work or higher </p> </td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Work or higher</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 

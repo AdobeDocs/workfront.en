@@ -222,7 +222,7 @@ Users with a Standard license can have full access to reports. All other Access 
 | Edit details                   | ✓        | ✓      | ✓           | &nbsp;        |
 | Download                       | ✓        | ✓      | ✓           | ✓             |
 | Checkout                       | ✓        | ✓      | ✓           | &nbsp;        |
-| Add approvers                  | ✓        | ✓      | ✓           | &nbsp;        |
+| Add approvers (documents)                  | ✓        | ✓      | ✓           | &nbsp;        |
 | Approve documents              | ✓        | ✓      | ✓           | ✓             |
 | Attach custom forms            | ✓        | ✓      | ✓           | &nbsp;        |
 | Edit custom fields             | ✓        | ✓      | ✓           | &nbsp;        |
@@ -232,8 +232,8 @@ Users with a Standard license can have full access to reports. All other Access 
 | Upload new version             | ✓        | ✓      | ✓           | &nbsp;        |
 | Delete a version               | ✓        | ✓      | ✓           | &nbsp;        |
 | Preview                        | ✓        | ✓      | ✓           | ✓             |
-| Proof                          | ✓        | ✓      | ✓           | ✓             |
-| Generate proof                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| Approve proofs                          | ✓        | ✓      | ✓           | ✓             |
+| Generate proofs                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Remove proof                   | ✓        | ✓      | ✓           | &nbsp;        |
 | Add/Remove&#42;&#42;           | ✓        | ✓      | ✓           | &nbsp;        |
 | Rename&#42;&#42;               | ✓        | ✓      | ✓           | &nbsp;        |

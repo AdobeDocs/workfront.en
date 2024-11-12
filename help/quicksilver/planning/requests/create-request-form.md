@@ -133,20 +133,20 @@ You must have the following access to perform the steps in this article:
 
    * Record fields available in the table view of the selected record type. <!--they are working on removing the limitation below-->
 
-      >[!IMPORTANT]
-      >
-      > Depending on what environment you use to create a request form, the following scenarios exist:
-      >
-      >* Fields of the following types do not display in the request form <span class="preview">in the Preview </span> or Production environments: 
-      >
-      >    * People (includes Created by and Last modified by)
-      >    * Formula
-      >    * Created date
-      >    * Last modified date
-      >    * Workfront objects' connected fields or lookup fields
-      >    * Workfront Planning records' connected lookup fields
-      >* Fields of the following types do not display in the request form in the Production environment. <span class="preview">They display in the Preview environment:</span>
-      >    * <span class="preview"> Workfront Planning records' connected fields (includes connections with Workfront, and Experience Manager assets)</span>
+   >[!IMPORTANT]
+   >
+   > Depending on what environment you use to create a request form, the following scenarios exist:
+   >
+   >* Fields of the following types do not display in the request form <span class="preview">in the Preview </span> or Production environments: 
+   >
+   >    * People (includes Created by and Last modified by)
+   >    * Formula
+   >    * Created date
+   >    * Last modified date
+   >    * Workfront objects' connected fields or lookup fields
+   >    * Workfront Planning records' connected lookup fields
+   >* Fields of the following types do not display in the request form in the Production environment. <span class="preview">They display in the Preview environment:</span>
+   >    * <span class="preview"> Workfront Planning records' connected fields</span>
       
 
    * **Default section**: This is the default section break that Workfront applies to the request form. The Default section cannot be renamed or removed. 

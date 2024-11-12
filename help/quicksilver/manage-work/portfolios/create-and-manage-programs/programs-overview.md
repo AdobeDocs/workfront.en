@@ -6,6 +6,7 @@ title: Programs Overview in [!DNL Adobe Workfront]
 description: A Program is a collection of projects that have unifying characteristics. Those projects usually compete for the same resources, budget, or time slot. Programs are a sub-group of portfolios. You can associate projects with programs before they are added to a portfolio.
 author: Alina
 feature: Work Management, Strategic Planning
+exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
 ---
 # Programs overview in [!DNL Adobe Workfront]
 
@@ -87,7 +88,4 @@ You must have the following access to create and manage portfolios:
 
 * You can use the portfolio optimizer to analyze the performance of all projects inside a portfolio. You cannot compare the performance of multiple projects across the same program alone. You must analyze project performance at the portfolio level. 
 
-    For information, see [Optimize projects in the Portfolio Optimizer](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md). 
-
-
-
+    For information, see [Optimize projects in the Portfolio Optimizer](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).

@@ -9,6 +9,7 @@ description: See a comparison of functionality available to different licenses i
 author: Becky
 feature: System Setup and Administration
 role: Admin
+exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
 ---
 # Compare functionality across license models
 
