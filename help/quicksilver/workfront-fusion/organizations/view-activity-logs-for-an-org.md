@@ -94,9 +94,11 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 1. Click the **[!UICONTROL Activity Logs]** tab near the top of the screen.
 
    The Activity Log page opens.
+1. Select the date range from the from the calendar, and (optional) enter times.
+1. Select whether to export an Excel file or a CSV file.
+1. Click **Apply**.
 
 
 
 
 
-   
