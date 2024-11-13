@@ -8,8 +8,6 @@ exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
 ---
 # Use AI Assistant to work with projects, tasks, and issues
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 
 AI Assistant can help you locate projects, tasks, and issues in Workfront.                                  
 
