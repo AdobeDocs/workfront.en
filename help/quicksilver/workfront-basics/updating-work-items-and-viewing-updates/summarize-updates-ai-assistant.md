@@ -13,8 +13,6 @@ Workfront's AI Assistant can summarize the contents of the update stream, allowi
 
 You can use the Summarize Contents button to generate a summary, or you can enter a prompt into AI Assistant.
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 >[!NOTE]
 >
 >The AI Assistant summarize functionality is different from the Summary panel. 
@@ -55,8 +53,6 @@ For more detail about the information in this table, see [Access requirements in
 
    For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).s
 
-<div class="preview">
-
 ## Summarize using Summarize Contents button
 
 1. Navigate to the update stream that you want to summarize. 
@@ -70,8 +66,6 @@ For more detail about the information in this table, see [Access requirements in
 1. (Optional) Refine the prompt to ensure that it gives you the information you need. 
 
    For example, you can refine the Summarize Contents prompt to summarize comments for the last 14 days, instead of the last 7. 
-
-   </div>
 
 ## Summarize an object in AI Assistant
 
