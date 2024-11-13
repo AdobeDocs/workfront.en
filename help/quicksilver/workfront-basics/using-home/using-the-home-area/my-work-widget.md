@@ -2,12 +2,11 @@
 product-area: home
 navigation-topic: use-the-home-area
 title: Manage your work with the My Work widget
-description: The My Work widget displays all of your assigned tasks, issues, and requests in one place. Here, you can filter and organize your work, log time, make updates, and mark work items complete. 
+description: The My Work widget displays all of your assigned tasks, issues, and requests in one place. Here, you can filter and organize your work, log time, make updates, and mark work items complete.
 author: Courtney
 feature: Get Started with Workfront
-
+exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
 ---
-
 # Manage your work with the My Work widget
 
 The My Work widget displays all of your assigned tasks, issues, and requests in one place. Here, you can filter and organize your work, log time, make updates, and mark work items complete.
@@ -185,7 +184,3 @@ Approvals and team requests do not display in the My Work widget. If you regular
 * Team requests 
 
 For information about adding widgets to your New Home page, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
-
-
-
-

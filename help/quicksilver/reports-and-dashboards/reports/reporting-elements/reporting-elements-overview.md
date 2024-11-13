@@ -11,6 +11,8 @@ exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
 ---
 # Reporting elements overview
 
+<!-- Audited: 11/2024 -->
+
 All Adobe Workfront reports and lists are a combination of three essential elements:
 
 * A view

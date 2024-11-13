@@ -616,7 +616,7 @@ The following table shows some of the differences between the legacy and updated
   </tr> 
   <tr> 
    <td>You can't inline edit custom fields with rich text formatting.</td> 
-   <td> <p>Text in custom fields with formatting can be configured to allow bold, italics, underline, bullets, numbering, hyperlinks, and block quotes.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Design a form with the form designer</a>.</p> </td> 
+   <td> <p>Text in custom fields with formatting can be configured to allow bold, italics, underline, bullets, numbering, hyperlinks, and block quotes.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Create a custom form/a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Conditional formatting can change the text color of links in a list</td> 

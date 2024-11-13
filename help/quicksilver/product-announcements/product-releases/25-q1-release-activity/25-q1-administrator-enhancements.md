@@ -4,6 +4,7 @@ description: First Quarter 2025 Administrator enhancements
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: fa24040d-0403-4799-b690-c3d172797115
 ---
 # First Quarter 2025 Administrator enhancements
 
@@ -20,4 +21,3 @@ For a list of all changes available at this point in the First Quarter 2025 rele
 When a custom form contains multiple sections with many fields, it can be difficult to move a field from one section to another by dragging and dropping. A "move to" icon has been added to each field, allowing you to select the section that the field is placed in.
 
 For more information, see [Organize and preview a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
-

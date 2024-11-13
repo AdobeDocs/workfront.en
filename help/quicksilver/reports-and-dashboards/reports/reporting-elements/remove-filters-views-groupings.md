@@ -9,11 +9,15 @@ exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
 ---
 # Remove filters, views, and groupings
 
+<!-- Audited: 11/2024 -->
+
 You can remove a filter, view, or grouping from lists and reports if you created them or they have been shared with you. You cannot remove default filters, views, or groupings.
 
 ## Access requirements
 
-You must have the following:
++++ Expand to view access requirements for the functionality in this article. 
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,20 +31,32 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Contributor or higher</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Request or higher</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View or higher access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td><p>View or higher access to Filters, Views, Groupings</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>View permissions with access to share to the filter, view, or grouping you want to remove</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td><p>View permissions with access to share to the filter, view, or grouping you want to remove</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Remove or delete a filter using the standard builder
 
@@ -63,9 +79,6 @@ The following scenarios exist when you remove or delete a filter using the stand
 1. Go to a list of projects, tasks, issues, portfolios, programs, users, templates, or groups.
 1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png).
 1. Hover over a filter under **Shared with me**, click the **More** menu ![More icon](assets/more-icon-spectrum.png), then click **Remove**.
-
-   ![Remove filter](assets/new-filters-more-menu-remove-filter.png)
-
 1. Select **Remove** on the confirmation message to permanently remove the filter.   
 
 ### Delete a filter using the standard builder

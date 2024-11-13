@@ -7,6 +7,7 @@ feature: Product Announcements
 hide: yes
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
+exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
 ---
 # Enhanced Analytics deprecation guide
 

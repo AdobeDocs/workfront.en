@@ -1,12 +1,12 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Log time in Priorities
-description: You can log time for work items in Adobe Workfront to indicate the number of hours you spend working on them. The time you log displays in your timesheet. 
+description: You can log time for work items in Adobe Workfront to indicate the number of hours you spend working on them. The time you log displays in your timesheet.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
+exl-id: 5457f516-c213-4b82-b033-bc8db943a217
 ---
-
 # Log time in Priorities
 
 You can log time for work items in Adobe Workfront to indicate the number of hours you spend working on them. The time you log displays in your timesheet.
@@ -77,4 +77,3 @@ You can log time in an individual work item:
 1. Enter the time you want to log, then click **Log time**.
 
     ![](assets/log-time-dialog.png)
-
