@@ -211,6 +211,12 @@ If your Production environment is on Cluster 6, add the following IP addresses.
  </tbody> 
 </table>
 
+### IP addresses to allow for Cluster 10
+
+* 20.36.133.48/28
+* 20.81.156.240/28
+* 172.172.84.48/28
+
 ### IP addresses to allow for a Test Drive
 
 <table style="table-layout:auto"> 
