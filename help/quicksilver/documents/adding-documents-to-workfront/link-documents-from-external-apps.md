@@ -28,6 +28,7 @@ You can link documents and folders to Adobe Workfront from the following sources
      <li>Microsoft OneDrive</li> 
      <li>Microsoft SharePoint</li> 
      <li>Google Drive</li> 
+     <li>Quip</li>
     </ul></td> 
   </tr> 
   <tr> 
