@@ -39,7 +39,7 @@ With the native Experience Manager integration, you can
 * Adobe Experience Manager Assets as a Cloud Service
 * Adobe Experience Manager Assets Essentials
 
-## Supported cloud service providers
+## Supported cloud service providers for Workfront
 
 * AWS (Amazon Web Services)
 * Azure
