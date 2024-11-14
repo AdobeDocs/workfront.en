@@ -4,6 +4,7 @@ description: Fourth Quarter 2024 Home enhancements
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 9b8ec3eb-5327-4b5b-b7a9-80205b46b5e3
 ---
 # Fourth Quarter 2024 Home enhancements
 
@@ -66,4 +67,4 @@ Users are encouraged to begin using new Home, which will continue to be enhanced
 
 >[!NOTE]
 >
->After Legacy home is deprecated, _new Home_ will be referred to as _Home_ in Workfront. All _new Home_ documentation will be renamed to _Home_. 
+>After Legacy home is deprecated, _new Home_ will be referred to as _Home_ in Workfront. All _new Home_ documentation will be renamed to _Home_.

@@ -71,7 +71,7 @@ You must have the following to perform the steps in this article:
      </tr>
      <tr> 
       <td role="rowheader">Custom Forms section</td> 
-      <td> <p>If there are fields that you want to add to your company that are not available in Workfront, you can build a custom form and associate it with your company. You can attach this form to your company by selecting it from the drop-down menu. Only active companies are listed in the drop-down menu. For information about creating custom forms, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Design a form with the form designer</a>. </p> </td> 
+      <td> <p>If there are fields that you want to add to your company that are not available in Workfront, you can build a custom form and associate it with your company. You can attach this form to your company by selecting it from the drop-down menu. Only active companies are listed in the drop-down menu. For information about creating custom forms, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Create a custom form</a>. </p> </td> 
      </tr> 
     </tbody> 
    </table>

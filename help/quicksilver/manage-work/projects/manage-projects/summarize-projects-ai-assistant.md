@@ -5,14 +5,13 @@ title: Summarize projects with AI Assistant
 description: The project header includes a button that uses AI Assistant to summarize projects.
 author: Becky
 feature: Get Started with Workfront
+exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
 ---
 # Summarize projects with AI Assistant
 
 Workfront's AI Assistant can summarize projects, allowing you to quickly understand project information, such as project purpose and status, gives examples of tasks that are completed and that are still pending, and provides some additional details and notes.
 
 You can use the Project Summary button to generate a summary, or you can enter a prompt into AI Assistant.
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 >[!NOTE]
 >
@@ -63,8 +62,6 @@ For more detail about the information in this table, see [Access requirements in
 
 
 
-<div class="preview">
-
 ## Summarize using Project Summary button
 
 1. Navigate to the update stream that you want to summarize. 
@@ -76,8 +73,6 @@ For more detail about the information in this table, see [Access requirements in
 
 1. View the AI summary in the AI Assistant panel.
 1. (Optional) Refine the prompt to ensure that it gives you the information you need.
-
-   </div>
 
 ## Summarize an object in AI Assistant
 
@@ -93,4 +88,3 @@ To see a summary of an object:
    AI Assistant may take a few moments to generate the summary, depending on how large or complex the object is.
 
 1. View the AI summary in the AI Assistant panel.
-

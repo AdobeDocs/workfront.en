@@ -4,13 +4,43 @@ content-type: reference
 description: You can quickly summarize work items and documents using the Summarize this functionality.
 author: Becky
 feature: Get Started with Workfront
+exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
 ---
 # Use AI Assistant to work with projects, tasks, and issues
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available in the Preview environment for all customers, and in the Production environment for customers that have enabled monthly releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
 
 
-AI Assistant can help you locate projects, tasks, and issues in Workfront.                                  
+AI Assistant can help you locate projects, tasks, and issues in Workfront. 
+
+## Access requirements
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>New: Any</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
 
 ## Locate work items
 
