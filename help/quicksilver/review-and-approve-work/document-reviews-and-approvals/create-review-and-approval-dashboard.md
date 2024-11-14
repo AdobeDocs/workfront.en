@@ -12,29 +12,77 @@ feature: Work Management, Digital Content and Documents
 
 You can create a report dashboard in the Canvas Dashboards area to display both high-level and detailed information about reviews and approvals with the new document approvals functionality. 
 
-## View high-level review and approval information 
+
+## Create a dashboard
+
+{{step1-to-dashboards}}
+
+1. In the left panel, click **Canvas Dashboards**.
+1. Click **New Dashboard**. 
+1. Name your dashboard.
+1. (Optional) Add a description. 
+1. Click **Create**.
+    ![add dashboard name and description](assets/create-a-dashboard.png)
+
+## Add high-level review and approval information with KPIs and Charts
 
 You can view high-level information about approvals with KPIs and charts. 
 
 ### Pending approvals KPI
 
-1. 
+1. [Create a dashboard](#create-a-dashboard) as described in the section above. 
+1. In the KPI card, click Add. 
+1. Type _Pending_ in the **KPI Title** textbox. 
+1. Type _Pending approvals_ count in the **KPI Caption** textbox. This text displays ...
+1. At the top of the page, click **Select KPI Field**. 
+1. Scroll down and find the **Document Approval folder**
+1. Choose **Status**, then select **Count** from the drop-down menu. 
+1. Click **Edit Filter** > **Add condition**. 
+    1. Click into the empty condition filter, click **Pick a Field**, then choose **Status**.
+    1. Leave the operator as **Equal**, and type _pending review_ in the textbox. - case sensitive?
+1. Click **Done** in the top-right corner of the screen.
+
+
 
 ### Overdue approvals KPI
 
+1. [Create a dashboard](#create-a-dashboard) as described in the section above. 
+1. In the KPI card, click Add. 
+1. Type _Overdue_ in the **KPI Title** textbox. 
+1. Type _Approval Stage Deadline in the Past_ count in the **KPI Caption** textbox. This text displays ...
+1. At the top of the page, click **Select KPI Field**. 
+1. Scroll down and find the **Document Approval folder**
+1. Choose **Status**, then select **Count** from the drop-down menu. 
+1. Click **Edit Filter** > **Add condition**:
+    1. Click into the empty condition filter, click **Pick a Field**, then choose **Deadline**.
+    1. Change the operator to **Less Than**, and toggle Relative date On, then type _$$TODAY_ in the textbox.
+1. Click **Add condition**: 
+    1. Click into the empty condition filter, click **Pick a Field**, then choose **Status**.
+    1. Change the operator to **Not Contains**, then type _approved_ in the textbox. - case sensitive?
+1. Click **Done** in the top-right corner of the screen.
+
+
 ### Completed approvals KPI
+
 
 ### Approvals by decision bar chart
 
+
 ### Revisions bar chart
 
-## View detailed detailed review and approval information 
+
+
+## Add detailed detailed review and approval information with Tables
 
 You can view detailed information using tables. 
 
 ### Pending approvals list 
 
+
+
 ### Overdue approvals list
+
+
 
 
 
