@@ -2,13 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'View: external URL using custom data field'
+title: 'View: External URL Using Custom Data Field'
 description: You can display a link to an internal custom URL by using a Calculated Custom Field named "Custom URL" in a Task View.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
 ---
 # View: external URL using custom data field
+
+<!--Audited: 11/2024-->
 
 You can display a link to an internal custom URL by using a **Calculated Custom Field** named "Custom URL" in a **Task View**.
 
@@ -22,6 +24,8 @@ Using the same steps, you can create similar calculated custom fields and custom
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -29,28 +33,39 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request to modify a view </p>
-   <p>Plan to modify a report</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p> Current: 
+   <ul>
+   <li>Request to modify a view</li> 
+   <li>Plan to modify a report</li>
+   </ul>
+     </p>
+     <p> New: 
+   <ul>
+   <li>Contributor to modify a view</li> 
+   <li>Standard to modify a report</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a view</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr>  
+   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a view</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Create the "Custom URL" calculated custom field
 
@@ -63,15 +78,7 @@ If you have access to create a custom form, you can create a calculated custom f
 
    CONCAT(''https://`<domain>`.my.workfront.com","/","task/",ID,"/overview'')
 
-1. Replace "`<domain>`" with your actual domain name, without the brackets.
-
-   The 
-
-   ```
-   /overview
-   ```
-
-   portion of this URL directs the link to the **Overview** section in the left panel of the task.
+1. Replace "`<domain>`" with your actual domain name, without the brackets. The `/overview` portion of this URL directs the link to the **Overview** section in the left panel of the task.
 
 1. After creating your **Calculated Custom Field**, attach the **Custom Form** with this field to several tasks in Adobe Workfront that you want display in your new view.
 
@@ -88,10 +95,50 @@ To customize this view:
 1. Click **Customize View**.
 1. Remove all the columns inside the view, except for the first column.
 1. Click the header of the first column.
-1. Click **Switch to Text Mode** in the upper-right corner of the interface.
-1. Click **Click to edit text**.
-1. Paste the text mode below into your one column.  
-   In this example the 'column.1.' displays the value in the 'Custom URL' field as a link into the task's **Overview**. 'Column.2.' displays the value stored in the **URL Field** of the task.  
-   <pre>column.0.descriptionkey=name<br>column.0.link.linkproperty.0.name=ID<br>column.0.link.linkproperty.0.valuefield=ID<br>column.0.link.linkproperty.0.valueformat= int<br>column.0.link.lookup=link.view<br>column.0.link.valuefield= objCode<br>column.0.link.valueformat= val<br>column.0.linkedname=direct<br>column.0.listsort=string(name)<br>column.0.namekey=name.abbr<br>column.0.querysort=name<br>column.0.shortview=false<br>column.0.stretch=100<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.width=150<br>column.1.description=Custom URL<br>column.1.link.isnewwindow=true<br>column.1.link.url=customDataLabelsAsString(Custom URL)<br>column.1.linkedname=direct<br>column.1.listsort=customDataLabelsAsString(Custom URL)<br>column.1.name=Custom URL<br>column.1.querysort=URL<br>column.1.shortview=false<br>column.1.stretch=0<br>column.1.valuefield=Custom URL<br>column.1.valueformat=customDataLabelsAsString<br>column.1.width=150<br>column.2.descriptionkey=url<br>column.2.linkedname=direct<br>column.2.listsort=string(URL)<br>column.2.namekey=url.abbr<br>column.2.querysort=URL<br>column.2.shortview=false<br>column.2.stretch=0<br>column.2.valuefield=URL<br>column.2.valueformat=HTML<br>column.2.width=150</pre>
+1. Click **Switch to Text Mode** > **Edit Text Mode**.
+1. Remove the text in the **Edit Text Mode** box and replace it with the following code: 
+   
 
-1. Click **Save View**.
+      ```
+      column.0.descriptionkey=name
+      column.0.link.linkproperty.0.name=ID
+      column.0.link.linkproperty.0.valuefield=ID
+      column.0.link.linkproperty.0.valueformat= int
+      column.0.link.lookup=link.view
+      column.0.link.valuefield= objCode
+      column.0.link.valueformat= val
+      column.0.linkedname=direct
+      column.0.listsort=string(name)
+      column.0.namekey=name.abbr
+      column.0.querysort=name
+      column.0.shortview=false
+      column.0.stretch=100
+      column.0.valuefield=name
+      column.0.valueformat=HTML
+      column.0.width=150
+      column.1.description=Custom URL
+      column.1.link.isnewwindow=true
+      column.1.link.url=customDataLabelsAsString(Custom URL)
+      column.1.linkedname=direct
+      column.1.listsort=customDataLabelsAsString(Custom URL)
+      column.1.name=Custom URL
+      column.1.querysort=URL
+      column.1.shortview=false
+      column.1.stretch=0
+      column.1.valuefield=Custom URL
+      column.1.valueformat=customDataLabelsAsString
+      column.1.width=150
+      column.2.descriptionkey=url
+      column.2.linkedname=direct
+      column.2.listsort=string(URL)
+      column.2.namekey=url.abbr
+      column.2.querysort=URL
+      column.2.shortview=false
+      column.2.stretch=0
+      column.2.valuefield=URL
+      column.2.valueformat=HTML
+      column.2.width=150
+      ```
+   In this example the 'column.1.' lines display the value in the 'Custom URL' field as a link into the task's **Overview** section; 'column.2.' displays the value stored in the **URL Field** of the task.
+
+1. Click **Done** > **Save View**.
