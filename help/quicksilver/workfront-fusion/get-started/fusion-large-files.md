@@ -10,9 +10,11 @@ exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
 ---
 # Working with large files in Adobe Workfront Fusion
 
-Enhanced data transfer capabilities are now available in Workfront Fusion, enabling scenarios to process significantly larger files. 
+>[!IMPORTANT]
+>
+>Large file capability is available only to Workfront Ultimate customers, and is a phased rollout. All Fusion organizations with a Workfront Ultimate plan will have large file capability by January 2025.
 
-Large file capability is available only to Workfront Ultimate customers. 
+Enhanced data transfer capabilities are now available in Workfront Fusion, enabling scenarios to process significantly larger files. 
 
 To handle larger files, your scenarios must be updated.  
 
@@ -64,6 +66,8 @@ For the initial release, the following connectors support large files.
 
 * Workfront > Upload document
 * Adobe Experience Manager Assets > Upload document
+* Workfront Proof > Upload File
+* Adobe Authenticator > Make a Custom API Call
 * HTTP
 
 Other connectors will be supported in future releases.
