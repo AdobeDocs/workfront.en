@@ -12,6 +12,21 @@ This page describes all Home enhancements made with the First Quarter 2025 relea
 
 For a list of all changes available at this point in the First Quarter 2025 release cycle, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Updated options in the My Focus column in Priorities
+
+>[!NOTE]
+>
+>Preview release: November 14, 2024; Production release for all customers: November 14, 2024
+
+We have updated the options in the My Focus column to help you prioritize and sort your work in a more intuitive way. The new labels include
+
+* Urgent
+* High
+* Normal
+* Low
+
+This change makes it easier to view and organize work based on urgency. For more information, see [Prioritize important work items](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
+
 ## View project details in Priorities
 
 >[!NOTE]
@@ -20,4 +35,4 @@ For a list of all changes available at this point in the First Quarter 2025 rele
 
 You can now view project details and comments from the worklist in Priorities.
 
-<!--For more information, see [View project and task details in the Priorities worklist](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).-->
+For more information, see [View project and task details in the Priorities worklist](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
