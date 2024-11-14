@@ -66,7 +66,7 @@ For the initial release, the following connectors support large files.
 
 * Workfront > Upload document
 * Adobe Experience Manager Assets > Upload document
-* Workfront Proof > Upload Proof
+* Workfront Proof > Upload File
 * Adobe Authenticator > Make a Custom API Call
 * HTTP
 
