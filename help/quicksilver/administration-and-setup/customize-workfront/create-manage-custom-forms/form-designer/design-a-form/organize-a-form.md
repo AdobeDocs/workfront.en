@@ -11,7 +11,7 @@ exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 ---
 # Organize and preview a form
 
-{{highlighted-preview}}
+{{preview-fast-release-general}}
 
 You can organize a custom form with the form designer, and preview it to verify that it is set up correctly.
 
