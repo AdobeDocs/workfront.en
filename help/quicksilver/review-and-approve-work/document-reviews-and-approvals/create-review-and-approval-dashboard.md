@@ -8,28 +8,35 @@ feature: Work Management, Digital Content and Documents
 
 ---
 
-# Create a review and approval dashboard 
+# Create a report dashboard for review and approvals
 
-## View pending approvals per project 
+You can create a report dashboard in the Canvas Dashboards area to display both high-level and detailed information about reviews and approvals with the new document approvals functionality. 
 
-As a Project Coordinator, when I need to check on the status of my project I want to see what asset approvals are pending so I can follow up with the appropriate individuals 
+## View high-level review and approval information 
 
-### KPI 
+You can view high-level information about approvals with KPIs and charts. 
 
-### Table  
+### Pending approvals KPI
 
-## View users assigned to overdue approvals
+1. 
 
-### KPI 
+### Overdue approvals KPI
 
-### Table  
+### Completed approvals KPI
 
-## View overdue and pending approvals
+### Approvals by decision bar chart
 
-### KPI 
+### Revisions bar chart
 
-### Table  
+## View detailed detailed review and approval information 
 
-## View outstanding team approvals 
+You can view detailed information using tables. 
 
-### Table  
+### Pending approvals list 
+
+### Overdue approvals list
+
+
+
+
+
