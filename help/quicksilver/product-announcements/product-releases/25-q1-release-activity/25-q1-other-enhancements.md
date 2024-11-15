@@ -12,6 +12,16 @@ This page describes enhancements made with the First Quarter 2025 release to the
 
 For a list of all changes available at this point in the First Quarter 2025 release cycle, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Sections within a custom form are now collapsible and expandable
+
+>[!NOTE]
+>
+>Preview release: November 11, 2024; Production for fast release: With the 24.12 release (December 2024); Production for quarterly release: With the 25.1 release (January 2025)
+
+When a custom form with multiple sections is attached to an object, you can now collapse and expand all sections except the default section at the top of the form. The administrator can also see this functionality when previewing the form in the form designer.
+
+For information about adding a section to a custom form, see [Organize and preview a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+
 ## AI Assistant can now work with projects, tasks, and issues
 
 >[!NOTE]
