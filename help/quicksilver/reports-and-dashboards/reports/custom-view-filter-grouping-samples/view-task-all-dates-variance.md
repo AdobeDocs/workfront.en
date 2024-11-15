@@ -288,4 +288,5 @@ For more detail about the information in this table, see [Access requirements in
    row.0.styledef.case.0.comparison.truetext=
    row.0.styledef.case.0.comparison.usefield=false
    ```
+   
 1. Click **Done** > **Save View**.

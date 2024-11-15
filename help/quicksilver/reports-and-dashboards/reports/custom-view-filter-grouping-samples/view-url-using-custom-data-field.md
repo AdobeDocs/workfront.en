@@ -139,6 +139,7 @@ To customize this view:
       column.2.valueformat=HTML
       column.2.width=150
       ```
-   In this example the 'column.1.' lines display the value in the 'Custom URL' field as a link into the task's **Overview** section; 'column.2.' displays the value stored in the **URL Field** of the task.
+
+    In this example the 'column.1.' lines display the value in the 'Custom URL' field as a link into the task's **Overview** section; 'column.2.' displays the value stored in the **URL Field** of the task.
 
 1. Click **Done** > **Save View**.
