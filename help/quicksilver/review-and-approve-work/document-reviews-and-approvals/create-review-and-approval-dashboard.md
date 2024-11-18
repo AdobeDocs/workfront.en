@@ -78,9 +78,31 @@ You can view detailed information using tables.
 
 ### Pending approvals list 
 
+Required filter: Status: eql pending approval
 
+**Optional filters**
+
+My Projects
+
+Approvals I've submitted
 
 ### Overdue approvals list
+
+
+Required filter: approval stage deadline > less than $$TODAY
+
+
+**Optional filters**
+
+To view more specific information depending on your use case, you can add additional filter conditions. You may want to recreate the table and add new filter conditions per use case.
+
+Add a filter to view overdue approvals for specific things:
+
+My Projects
+
+Approvals I've submitted
+
+My team
 
 
 
