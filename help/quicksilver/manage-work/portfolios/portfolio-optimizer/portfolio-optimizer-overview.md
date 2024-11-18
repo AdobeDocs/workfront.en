@@ -162,7 +162,9 @@ The following icons and options are available for the [!UICONTROL Portfolio Opti
   <tr> 
    <td> <img src="assets/nwe-set-priority-icon.png"> </td> 
    <td>[!UICONTROL Set project priority]</td> 
-   <td>Use this icon when you want to save the project order, based on their priority. </td> 
+   <td><p>Use this icon when you want to save the project order, based on their priority.</p>
+   <p>You must have Manage permissions to all the projects in the list to be able to use <b>Set project priority</b></p>.
+    </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-optimize-icon-in-optimizer.png"> </td> 
