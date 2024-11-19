@@ -36,7 +36,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>Contribute or higher permissions to the projects</p>  </td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>Contribute or higher permissions to the projects</p> 
+   <p>You must have Manage permissions to all the projects in the list to be able to use <b>Set project priority</b>.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +55,8 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **[!UICONTROL Optimize]** icon .
 
-   ![](assets/optimize-icon-portfolio-optimizer.png)\
+   ![](assets/optimize-icon-portfolio-optimizer.png)
+   
    The categories by which a project can be scored display to the left of the [!UICONTROL Optimize] icon.
 
 1. Using the sliding circle, modify the optimization of any of the following categories:
@@ -72,9 +75,14 @@ You must have the following access to perform the steps in this article:
 
 1. After the correct weights have been set for the **[!UICONTROL Score]** column, click the header of the **[!UICONTROL Score]** column to sort by this column. The project with the highest score is displayed at the top of the list.
 
-1. (Optional) Drag and drop projects in the order of your priority.\
+1. (Optional) Drag and drop projects in the order of your priority.
    This will change the order of the projects in the [!UICONTROL Portfolio Optimizer].
-1. (Optional) Click **[!UICONTROL Set Priority]** to save the new priority of the projects.\
-   For more information about prioritizing projects in the [!UICONTROL Portfolio Optimizer], see the article [Prioritize projects in the [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+1. (Optional) Click **[!UICONTROL Set Priority]** to save the new priority of the projects.
+
+      >[!NOTE]
+      >
+      >   You must have Manage permissions to all the projects in the list to be able to use **Set project priority**.
+
+   For more information about prioritizing projects in the [!UICONTROL Portfolio Optimizer], see the article [Prioritize projects in the [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md). 
 
 1. Click **[!UICONTROL Save]** to save your [!UICONTROL Portfolio Optimizer].

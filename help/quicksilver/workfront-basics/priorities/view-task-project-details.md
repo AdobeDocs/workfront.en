@@ -1,12 +1,12 @@
 ---
 navigation-topic: get-started-with-workfront
 title: View project and task details in the Priorities worklist
-description: You can view project and task details in the priorities worklist. 
+description: You can view project and task details in the priorities worklist.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
+exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
 ---
-
 # View project and task details in the Priorities worklist
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>

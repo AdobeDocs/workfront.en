@@ -39,37 +39,32 @@ This page provides information about functionality that is included in the First
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
-    <tbody>
-        <tr>
-            <td>
-                <p><span class="bold">Feature</span>
-                </p>
-            </td>
-            <td>
-                <p><span class="bold">Release dates</span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">"Move to" icon added to custom fields</a></p>
-                <p>When a custom form contains multiple sections with many fields, it can be difficult to move a field from one section to another by dragging and dropping. A "move to" icon has been added to each field, allowing you to select the section that the field is placed in.</p>
-            </td>
-            <td><p><b>Available on these dates:</b></p>
-                <ul>
-                    <li>
-                        <p>Preview release: October 29, 2024</p>
-                    </li>
-                    <li>
-                        <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
-                    </li>
-                    <li>
-                        <p>Production release for all customers: With the 25.1 release (January 2025)</p>
-                    </li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Feature</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Release dates</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            "Move to" icon added to custom fields</a></p>
+            [!BADGE In production for Fast Release ]{type=Positive}
+            <p>When a custom form contains multiple sections with many fields, it can be difficult to move a field from one section to another by dragging and dropping. A "move to" icon has been added to each field, allowing you to select the section that the field is placed in.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: October 29, 2024</li>
+                <li>Production for fast release: With the 24.11 release (November 14, 2024)</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
 </table> 
 
 <!--### Boards enhancements
@@ -77,37 +72,31 @@ This page provides information about functionality that is included in the First
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
-    <tbody>
-        <tr>
-            <td>
-                <p><span class="bold">Feature</span>
-                </p>
-            </td>
-            <td>
-                <p><span class="bold">Release dates</span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Change the owner of a board</a></p>
-                <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
-            </td>
-            <td><p><b>Available on these dates:</b></p>
-                <ul>
-                    <li>
-                        <p>Preview release: October 31, 2024</p>
-                    </li>
-                    <li>
-                        <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
-                    </li>
-                    <li>
-                        <p>Production release for all customers: With the 25.1 release (January 2025)</p>
-                    </li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Feature</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Release dates</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Change the owner of a board</a></p>
+            <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: October 31, 2024</li>
+                <li>Production for fast release: With the 24.11 release (November 14, 2024)</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
 </table>--> 
 
 ### Document management enhancements
@@ -115,37 +104,32 @@ This page provides information about functionality that is included in the First
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
-    <tbody>
-        <tr>
-            <td>
-                <p><span class="bold">Feature</span>
-                </p>
-            </td>
-            <td>
-                <p><span class="bold">Release dates</span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New Withdrawn status available for document version approvals</a></p>
-                <p>When a new version is added to a document with outstanding approvals, the approvals on the previous version now display as Withdrawn. The previous approval process closes, even if some participants have not yet made a decision.</p>
-            </td>
-            <td><p><b>Available on these dates:</b></p>
-                <ul>
-                    <li>
-                        <p>Preview release: November 7, 2024</p>
-                    </li>
-                    <li>
-                        <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
-                    </li>
-                    <li>
-                        <p>Production release for all customers: With the 25.1 release (January 2025)</p>
-                    </li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Feature</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Release dates</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            New Withdrawn status available for document version approvals</a></p>
+            [!BADGE In production for Fast Release ]{type=Positive}
+            <p>When a new version is added to a document with pending approvals, the approval for the previous version will now display as "Withdrawn," indicating that the prior approval process has closed due to the new version being added.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: November 7, 2024</li>
+                <li>Production for fast release: With the 24.11 release (November 14, 2024)</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
 </table> 
 
 ### Home enhancements
@@ -153,37 +137,53 @@ This page provides information about functionality that is included in the First
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
-    <tbody>
-        <tr>
-            <td>
-                <p><span class="bold">Feature</span>
-                </p>
-            </td>
-            <td>
-                <p><span class="bold">Release dates</span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">View project details in Priorities</a></p>
-                <p>You can now view project details and comments from the worklist in Priorities.</p>
-            </td>
-            <td><p><b>Available on these dates:</b></p>
-                <ul>
-                    <li>
-                        <p>Preview release: November 6, 2024</p>
-                    </li>
-                    <li>
-                        <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
-                    </li>
-                    <li>
-                        <p>Production release for all customers: With the 25.1 release (January 2025)</p>
-                    </li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Feature</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Release dates</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Updated options in the My Focus column in Priorities</a></p>
+            [!BADGE In production ]{type=Informative}
+            <p>We have updated the options in the My Focus column to help you prioritize and sort your work in a more intuitive way. The new labels include</p>
+            <ul>
+                <li>Urgent</li>
+                <li>High</li>
+                <li>Normal</li>
+                <li>Low</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: November 14, 2024</li>
+                <li><span class="preview">Production release for all customers: November 14, 2024</span></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            View project details in Priorities</a></p>
+            [!BADGE In production for Fast Release ]{type=Positive}
+            <p>You can now view project details and comments from the worklist in Priorities.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: November 6, 2024</li>
+                <li>Production for fast release: With the 24.11 release (November 14, 2024)</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
 </table>
 
 ## Proofing enhancements
@@ -191,36 +191,32 @@ This page provides information about functionality that is included in the First
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
-    <tbody>
-        <tr>
-            <td>
-                <p><span class="bold">Feature</span>
-                </p>
-            </td>
-            <td>
-                <p><span class="bold">Release dates</span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">New browser extension for interactive review available in beta</a></p>
-                [!BADGE In production ]{type=Informative}
-                <p>We are introducing a new browser extension, the Adobe Workfront review tool, to replace the legacy browser extension for reviewing interactive ZIP content. The new Adobe Workfront review tool supports reviewing ZIP content across all common browsers.</p>
-                <p>The legacy browser extension will be removed on February 28, 2025.</p>
-            </td>
-            <td><p><b>Available on these dates:</b></p>
-                <ul>
-                    <li>
-                        <p>Preview release: November 7, 2024</p>
-                    </li>
-                    <li>
-                        <p class="preview">Production release for all customers: November 7, 2024</p>
-                    </li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Feature</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Release dates</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            New browser extension for interactive review available in beta</a></p>
+            [!BADGE In production ]{type=Informative}
+            <p>We are introducing a new browser extension, the Adobe Workfront review tool, to replace the legacy browser extension for reviewing interactive ZIP content. The new Adobe Workfront review tool supports reviewing ZIP content across all common browsers.</p>
+            <p>The legacy browser extension will be removed on February 28, 2025.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: November 7, 2024</li>
+                <li><span class="preview">Production release for all customers: November 7, 2024</span></li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
 </table>
 
 ### Other enhancements
@@ -228,43 +224,53 @@ This page provides information about functionality that is included in the First
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
-    <tbody>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">AI Assistant can now work with projects, tasks, and issues</a></p>
-                <p>To make it easier to manage your work items in Workfront, we've updated AI Assistant to work with projects, tasks, and issues. Now, AI Assistant can locate or create projects, tasks, and issues based on criteria you specify.</p>
-            </td>
-            <td><p><b>Available on these dates:</b></p>
-                <ul>
-                    <li>
-                        <p>Preview release: October 31, 2024</p>
-                    </li>
-                    <li>
-                        <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
-                    </li>
-                    <li>
-                        <p>Production release for all customers: With the 25.1 release (January 2025)</p>
-                    </li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the First Quarter 2025 timeframe</a></p>
-                <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the First Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
-            </td>
-            <td><p><b>Available on these dates:</b></p>
-                <ul>
-                    <li>
-                        <p>Preview release: Throughout the First Quarter 2025 release timeframe</p>
-                    </li>
-                    <li>
-                        <p><span class="preview">Production release: Review the release notes for specific dates</span></p>
-                    </li>
-                </ul>
-            </td>
-        </tr>                            
-    </tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Sections within a custom form are now collapsible and expandable</a></p>
+            <p>When a custom form with multiple sections is attached to an object, you can now collapse and expand all sections except the default section at the top of the form. The administrator can also see this functionality when previewing the form in the form designer.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: November 11, 2024</li>
+                <li>Production for fast release: With the 24.12 release (December 2024)</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            AI Assistant can now work with projects, tasks, and issues</a></p>
+            [!BADGE In production for Fast Release ]{type=Positive}
+            <p>To make it easier to manage your work items in Workfront, we've updated AI Assistant to work with projects, tasks, and issues. Now, AI Assistant can locate  projects, tasks, and issues based on criteria you specify.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: October 31, 2024</li>
+                <li>Production for fast release: With the 24.11 release (November 14, 2024)</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
+            Look-and-feel updates during the First Quarter 2025 timeframe</a></p>
+            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the First Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: Throughout the First Quarter 2025 release timeframe</li>
+                <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
+            </ul>
+        </td>
+    </tr>                            
+</tbody>
 </table>   
 
 <!--
