@@ -7,7 +7,7 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
 ---
-# Download Documents
+# Download documents
 
 You can download documents from Adobe Workfront either individually or in bulk. Documents can be downloaded from any area that contains documents in Workfront.&nbsp;
 
