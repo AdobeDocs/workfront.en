@@ -198,7 +198,10 @@ OLD:
     Or
     
     Hover over the header of any column, click the downward-pointing arrow after the field name, then click **Insert left** or **Insert right** to add the new field.
-1. In the **New field** tab, search for a field type in the **Field type** box, or select from the following field types: 
+1. In the **New field** tab, search for a field type in the **Field type** box, or select from the following field types:
+
+    In the **New field** tab, search for a field type in the **Field type** box <!--using any related keyword-->, or select from the field types listed below. 
+
 
     * [Single-line text](#single-line-text)
     * [Paragraph](#paragraph)
@@ -219,6 +222,9 @@ OLD:
     >[!IMPORTANT]
     >
     >    You cannot change the Field type of the field after you save it. 
+
+    <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
+    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
 
 1. Continue with adding each field, as described in the sections below.
 

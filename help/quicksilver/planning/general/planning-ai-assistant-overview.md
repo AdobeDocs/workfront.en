@@ -10,6 +10,12 @@ exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
 
 # Adobe Workfront Planning AI Assistant overview
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
+-->
+
 {{planning-important-intro}}
 
 You can use the AI Assistant to generate, update, or remove records based on the current page context and record structure. 
@@ -53,9 +59,21 @@ You can use the AI Assistant to perform the following actions, at this time:
 * Delete records
 * Restore records that you just deleted
 
+
+<!-- ## Locate the AI Assistant in Workfront Planning
+
+You can locate the AI Assistant in the following areas of Workfront Planning:
+
+* The main navigation bar, in the upper-right corner of the screen.
+* Inside the details area of a record, after you opened the record in the preview or after you opened the record's page. 
+
+-->
+
 ## Access the AI Assistant in the Planning area
 
-1. Log in to Workfront, then go to the **Planning** area. 
+1. Log in to Workfront, then click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right corner of the screen, or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available.
+
+. Click **Planning**. The Planning area opens. 
 
 1. Click a **workspace card**. 
 
@@ -63,7 +81,7 @@ You can use the AI Assistant to perform the following actions, at this time:
 
 1. (Optional) Click a **record** to open the record's **Details** page.
 
-1. Click the **AI Assistant icon** in the upper-right corner of the screen in the global navigation bar. 
+1. Click the **AI Assistant icon** in the upper-right corner of the screen in the global navigation bar <!--or in the upper-right corner of the record's preview or page.--> 
 
     ![](assets/ai-assistant-icon-highlighted.png)
 
@@ -81,3 +99,6 @@ You can use the AI Assistant to perform the following actions, at this time:
     A visual indicator displays while the AI Assistant processes commands, setting expectations for response time.
     
     After receiving a successful response, follow the links provided or notice the changes on the left.
+
+
+

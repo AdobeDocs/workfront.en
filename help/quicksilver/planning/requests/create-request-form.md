@@ -160,7 +160,7 @@ You must have the following access to perform the steps in this article:
    For example, remove the **Subject** field, as this is not visible in Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
 1. Click any field, then use the controls in the right panel in the form to define their size, or any of the following information:
 
-   * **Label**: this is the name of the field as it will appear on the request form. This does not change the name of the record field.
+   * **Label**: This is the name of the field as it will appear on the request form. This does not change the name of the record field.
    * **Instructions**: Add more information about the field.
    * **Make a required field**: When selected, the field must have a value. Otherwise, the form cannot be submitted. 
    * **Add logic**: Define what conditions must be met in order for the field to display or be hidden.
@@ -199,7 +199,8 @@ You must have the following access to perform the steps in this article:
       * Anyone with contribute or higher access to the workspace
       * Anyone with the link
 
-   >[!IMPORTANT]
+   >[!WARNING]
+   >
    >
    >When you select **Anyone with the link**, anyone can access the form and submit a new record, even people outside your organization that don't have a Workfront account. 
 

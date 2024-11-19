@@ -10,6 +10,14 @@ exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
 
 # Add a cover image to a record
 
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
+
 {{planning-important-intro}}
 
 You can personalize records by adding a cover image to the record page in Adobe Workfront Planning, when editing a record.
@@ -197,8 +205,7 @@ You can personalize a record by adding a cover image at the top of the record pr
 
     ![](assets/details-page.png)
 
-1. In the record preview or page, click **Add cover** 
-
+1. In the record preview or page, click **Add cover** <!--in the Production environment, <span class="preview">or hover over the space above the record name, then click Add cover in the Preview environment</span>.--> 
     
     Or
     
