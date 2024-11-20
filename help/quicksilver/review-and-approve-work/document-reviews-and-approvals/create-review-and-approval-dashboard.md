@@ -12,7 +12,10 @@ feature: Work Management, Digital Content and Documents
 
 You can create a report dashboard in the Canvas Dashboards area to display both high-level and detailed information about reviews and approvals with the new document approvals functionality. 
 
-Chart data refreshes nightly. Real-time updates planned soon.
+>[!IMPORTANT]
+>
+>This functionality is available only for customers using the new document approvals service and enrolled in the Canvas Dashboards beta. For questions, contact X.
+
 
 ![example dashboard](assets/whole-dashboard.png)
 
@@ -29,16 +32,13 @@ Chart data refreshes nightly. Real-time updates planned soon.
 
 ## Add high-level review and approval information with KPIs and Charts
 
-You can view high-level information about approvals with KPIs and charts. Drill down information is not currently available in this beta but is planned. 
+You can view high-level information about approvals with KPIs and charts. Drill-down information is not currently available in this beta but is planned and coming soon. 
 
 ### KPIs
 
-You can use KPIs to view information about approvals.
-
 >[!IMPORTANT]
 >
->Chart data refreshes nightly. Real-time updates planned soon.
-
+>New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.
 
 ![KPI examples](assets/kpi-dashboard.png)
 
@@ -119,11 +119,9 @@ You can use KPIs to view information about approvals.
 
 ### Charts
 
-You can use bar charts to view information about approvals. 
-
 >[!IMPORTANT]
 >
->Chart data refreshes nightly. Real-time updates planned soon.
+>Add note once Matt approves.
 
 ![Chart examples](assets/chart-dashboard.png)
 
@@ -159,7 +157,7 @@ You can use bar charts to view information about approvals.
 1. Click **Update field** for the **Bottom (X) axis**, and choose the first **Document Approval** folder then **Document Version** > **Version**. 
 1. Set the Aggregation type to **Count**. 
 1. Click **Update field** for the **Left (Y) axis**, and choose the first **Document Approval** option then **Document Version** > **Document** > **Name**. 
-1. Click on the Filter tab ![filter tab icon](assets/filter-tab.png).
+1. Click the Filter tab ![filter tab icon](assets/filter-tab.png).
 1. Click **Edit Filter** > **Add condition**:
     1. Click into the empty condition filter, click **Pick a Field**, then choose **Approval Stage Participants Decision Date**.
     1. Change the operator to **Is Null**.
@@ -172,13 +170,13 @@ You can use bar charts to view information about approvals.
 
 ## Add detailed review and approval information with Tables
 
-You can view detailed information using tables. 
+>[!IMPORTANT]
+>
+>Add note once Matt approves.
 
 ![table example](assets/table-dashboard.png)
 
 ### Pending approvals list 
-
-Required filter: Status: eql pending approval
 
 1. [Create a dashboard](#create-a-dashboard) as described in the section above. 
 1. In the Table card, click **Add**. 
@@ -190,47 +188,51 @@ Required filter: Status: eql pending approval
 
     <table>
     <tr>
-    <td>Status</td>
+    <td><strong>Status</strong></td>
     <td>Document Approvals > Status</td>
     </tr>
     <tr>
-    <td>Project name</td>
+    <td><strong>Project name</strong></td>
     <td>Document Version > Document > Project > Name</td>
     </tr>
     <tr>
-    <td>Document name</td>
+    <td><strong>Document name</strong></td>
     <td>Document Version > Document > type _Name_ in the search box.</td>
     </tr>
     <tr>
-    <td>Document version</td>
+    <td><strong>Document version</strong></td>
     <td>Document Version > Document > Version</td>
     </tr>
     <tr>
-    <td>Deadline</td>
+    <td><strong>Deadline</strong></td>
     <td>Document > Approval Stage > Deadline</td>
     </tr>
     <tr>
-    <td>Requested by</td>
+    <td><strong>Requested by</strong></td>
     <td>Document > Approval Stage > Approval Stage Participants* > Requester > type _Name_ in the search box.</td>
     </tr>
      <tr>
-    <td>Requested date</td>
+    <td><strong>Requested date</strong></td>
     <td>Document > Approval Stage > Approval Stage Participants* > Created at</td>
     </tr>
      <tr>
-    <td>Approver</td>
+    <td><strong>Approver</strong></td>
     <td>Document > Approval Stage > Approval Stage Participants* > Participant User > type _Name_ in the search box.</td>
-    </tr>
-     <tr>
-    <td></td>
-    <td></td>
     </tr>
     <table>
 
     *Approval Stage Participants is truncated to Approval Stage Pa..
 
-1. Click Status.
-1. Click **Add column** 
+1. Continue to [Add the required filter below](#add-the-required-filter).
+
+#### Add the required filter
+
+1. Click the Filter tab ![filter tab icon](assets/filter-tab.png).
+1. Click **Edit Filter** > **Add condition**:
+    1. Click into the empty condition filter, click **Pick a Field**, then choose **Status**.
+    1. Change the operator to **Equal**, then type _pending approval_.
+        ![pending approval table filter example](assets/pending-approval-table-filter.png)
+1. Add optional filters as descried below, or click **Done** in the top-right corner of the screen.
 
 **Optional filters**
 
@@ -240,41 +242,102 @@ To view more specific information depending on your use case, you can add additi
 
 **My Projects**
 
-1. 
+1. Click **Edit Filter** > **Add condition**:
+    1. Click into the empty condition filter, click **Pick a Field**, then choose **Document version** > **Document** > **Project** > **Owner** > type _Name_ in the search box. 
+    1. Change the operator to **Equal**, then choose **Me (Logged in User)** to display projects in Workfront in which you are marked as the project owner.
+        ![pending approval table filter example](assets/pending-approvals-my-project-filter.png)
+1. Click **Done** in the top-right corner of the screen.
 
 **Approvals I've submitted**
 
-1. 
+1. Need help
 
 +++
 
 ### Overdue approvals list
 
-
-Required filter: approval stage deadline > less than $$TODAY
-
 1. [Create a dashboard](#create-a-dashboard) as described in the section above. 
 1. In the Table card, click **Add**. 
+1. Type _Overdue Approvals_ in the **Name** textbox. 
+1. (Optional) Type a description in the **Description** textbox. This text displays as a tooltip next to the chart name. 
+1. Click **Open column settings**.
+1. Click **Add column** and scroll to the first **Document Approvals** folder, and select it.
+1. Add the following columns:
+
+    <table>
+    <tr>
+    <td><strong>Status</strong></td>
+    <td>Document Approvals > Status</td>
+    </tr>
+    <tr>
+    <td><strong>Project name</strong></td>
+    <td>Document Version > Document > Project > Name</td>
+    </tr>
+    <tr>
+    <td><strong>Document name</strong></td>
+    <td>Document Version > Document > type _Name_ in the search box.</td>
+    </tr>
+    <tr>
+    <td><strong>Document version</strong></td>
+    <td>Document Version > Document > Version</td>
+    </tr>
+    <tr>
+    <td><strong>Deadline</strong></td>
+    <td>Document > Approval Stage > Deadline</td>
+    </tr>
+    <tr>
+    <td><strong>Requested by</strong></td>
+    <td>Document > Approval Stage > Approval Stage Participants* > Requester > type _Name_ in the search box.</td>
+    </tr>
+     <tr>
+    <td><strong>Requested date</strong></td>
+    <td>Document > Approval Stage > Approval Stage Participants* > Created at</td>
+    </tr>
+     <tr>
+    <td><strong>Approver</strong></td>
+    <td>Document > Approval Stage > Approval Stage Participants* > Participant User > type _Name_ in the search box.</td>
+    </tr>
+    <table>
+
+    *Approval Stage Participants is truncated to Approval Stage Pa..
+
+1. Continue to [Add the required filter below](#add-the-required-filter-1).
+
+#### Add the required filter
+
+1. Click the Filter tab ![filter tab icon](assets/filter-tab.png).
+1. Click **Edit Filter** > **Add condition**:
+    1. Click into the empty condition filter, click **Pick a Field**, then choose **Approval Stage** > **Deadline**.
+    1. Change the operator to **Less than**, toggle **Set relative date** On, then type _$$TODAY_.
+        ![overdue approval table filter example](assets/overdue-approval.png)
+1. Add optional filters as descried below, or click **Done** in the top-right corner of the screen.
 
 
 **Optional filters**
 
-To view more specific information depending on your use case, you can add additional filter conditions. You may want to recreate the table and add new filter conditions per use case.
+To view more specific information depending on your use case, you can add additional filter conditions. You may want to recreate the table, and add new, optional filter conditions per use case.
 
 +++ Expand to view additional filter options
 
 **My Projects**
 
-1. 
+1. Click **Edit Filter** > **Add condition**:
+    1. Click into the empty condition filter, click **Pick a Field**, then choose **Document version** > **Document** > **Project** > **Owner** > type _Name_ in the search box. 
+    1. Change the operator to **Equal**, then choose **Me (Logged in User)** to display projects in Workfront in which you are marked as the project owner.
+        ![pending approval table filter example](assets/pending-approvals-my-project-filter.png)
+1. Click **Done** in the top-right corner of the screen.
 
 **Approvals I've submitted**
 
-1. 
+1. Need help with this one.
 
 **My team**
 
-1. 
-
+1. Click **Edit Filter** > **Add condition**:
+    1. Click into the empty condition filter, click **Pick a Field**, then choose **Approval Stage** > **Approval Stage Participants** > **Participant Team** > type _Name_ in the search box. 
+    1. Change the operator to **Equal**, then choose **My default teams (Logged in User)** or **My other teams (Logged in User)** to display projects assigned to either your default team or other teams you are on.
+        ![pending approval table filter example](assets/approvals-for-my-teams.png)
+1. Click **Done** in the top-right corner of the screen.
 +++
 
 
