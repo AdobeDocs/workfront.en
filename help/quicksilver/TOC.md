@@ -849,6 +849,7 @@ feature-set: Workfront
     * [Save an email header file](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
     * [Sharing shows more than one permission](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
     * [Unauthenticated email not accepted](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
+    [Workfront: ZScalar settings can cause reduced performance](../../administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
     * [User credentials vs. SAML credentials](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
     * [Update auto-upgrade options in access levels](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront basics {#basics}
