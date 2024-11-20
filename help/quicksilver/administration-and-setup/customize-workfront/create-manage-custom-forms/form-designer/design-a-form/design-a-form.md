@@ -846,7 +846,6 @@ This table lists the available native fields for specific Workfront objects in a
        <p><b>NOTE</b>:
        <ul> 
         <li>The filter option is only available when you reference a native typeahead field, such as Portfolio, Company, or Owner.</li>
-        <li>If the field already has native filtering applied, the custom filter you add here will override it.</li>
         <li>If you are editing an existing custom form, adding a filter to a native field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
         <li>This filter is not available on mobile devices. If you use the filter for a native field, the field will appear on users' mobile devices unaffected by the filter.</li> 
         </ul></p></td> 
