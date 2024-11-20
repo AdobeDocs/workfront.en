@@ -69,7 +69,7 @@ The Box connector uses the following:
  <tbody> 
   <tr> 
    <td role="rowheader">Base URL</td> 
-   <td> baseUrl": "https://api.box.com/2.0
+   <td> https://api.box.com/2.0
     </td> 
   </tr> 
   <tr> 
