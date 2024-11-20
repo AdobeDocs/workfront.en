@@ -58,19 +58,20 @@ For more detail about the information in this table, see [Access requirements in
 
 1. In the left panel, click **[!UICONTROL Project Preferences]** >**[!UICONTROL Tasks & Issues].**
 
-1. On the page that appears, continue with one of the 5 sections listed below to configure settings for [!UICONTROL New Task Defaults], [!UICONTROL Issues], [!UICONTROL Deletion], [!UICONTROL Actual Dates], and [!UICONTROL Access]:
+1. On the page that appears, continue with one of the 6 sections listed below to configure settings for [!UICONTROL New Task Defaults], [!UICONTROL Issues], [!UICONTROL Deletion], [!UICONTROL Actual Dates], and [!UICONTROL Access]:
 
     * [[!UICONTROL New Task Defaults]](#new-task-defaults)
     * [[!UICONTROL Issues]](#issues)
     * [[!UICONTROL Deletion]](#deletion)
     * [[!UICONTROL Actual Dates]](#actual-dates)
     * [[!UICONTROL Delegation]](#delegation)
+    * [[!UICONTROL Access]](#access)
 
 <!--
   <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
 -->
 
-* [[!UICONTROL Access]](#access)
+
 
 ### [!UICONTROL New Task Defaults] {#new-task-defaults}
 
