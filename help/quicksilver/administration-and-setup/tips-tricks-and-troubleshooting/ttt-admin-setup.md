@@ -37,3 +37,4 @@ This section contains the following articles:
 * [Save an email header file](../../administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md) 
 * [Sharing shows more than one permission](../../administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md) 
 * [Unauthenticated email is not accepted due to domain's DMARC policy](../../administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
+* [Workfront: ZScalar settings can cause reduced performance](../../administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
