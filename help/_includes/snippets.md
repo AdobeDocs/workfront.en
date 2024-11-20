@@ -269,7 +269,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
    The Workfront Planning landing page opens. 
     
-1. (Optional and conditional) If you are a Workfront administrator, click the following tabs:
+1. (Optional and conditional) If you are a Workfront administrator, click one of the following tabs:
 
    * **My workspaces**: Displays workspaces you created.
    * **Other workspaces**: Displays all workspaces in Workfront Planning, including the ones shared with you. 
@@ -284,8 +284,8 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 >
 >You must have the following to access Workfront Planning:
 >
->* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
->* An additional license for Workfront Planning. 
+>* A new Workfront package and license. Workfront Planning is not available for legacy Workfront packages or licenses. 
+>* A Workfront Planning package. 
 >* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
 >
 > For a complete list of requirements to access Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
