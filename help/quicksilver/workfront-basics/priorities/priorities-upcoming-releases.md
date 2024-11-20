@@ -15,7 +15,7 @@ We're excited to show you what we have coming for Priorities. Use the Feedback b
   <tr>
     <td><strong>Upcoming</strong>
     <ul>
-    <li><strong>Access project details from the worklist</strong>: The project details tab will display the project's details, comments, and documents.</li>
+
    <li><strong>View documents in the Documents tab</strong>: The documents tab will allow you to view documents uploaded to tasks and issues. You will be able to view a preview and leave comments on a document. </li>
     </ul>
     </td>

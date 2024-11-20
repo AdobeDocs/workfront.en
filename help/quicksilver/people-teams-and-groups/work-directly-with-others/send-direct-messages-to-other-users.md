@@ -38,10 +38,14 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td>
-   <p>New: Light or higher</p>
-   <p>or</p>
-   <p>Current: Review or higher</p>
-   </td>
+   <p>To send a message from the user's profile page, you must have:<br>
+   New: Light or higher<br>
+   or<br>
+   Current: Review or higher</p>
+   <p>To send a message from the User list, you must have:<br>
+   New: Standard<br>
+   or<br>
+   Current: Work or higher</p></td>
   </tr> 
  </tbody> 
 </table>

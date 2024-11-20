@@ -1,12 +1,14 @@
 ---
 navigation-topic: use-lists
-title: Modify how a list displays
+title: Modify How a List Displays
 description: In [!DNL Adobe Workfront], you can customize how a list displays for you. Other users who view the list do not see your changes.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
 ---
 # Modify how a list displays
+
+<!--Audited: 11/2024-->
 
 In [!DNL Adobe Workfront], you can customize how a list displays for you. Other users who view the list do not see your changes.
 
@@ -26,6 +28,8 @@ For information on modifying the information that displays in your list, see [Re
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -33,27 +37,36 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> 
+    <p>New:</p>
+   <ul><li><p>Contributor or higher </p></li>
+   </ul>
+
+   <p>Current:</p>
+   <ul><li><p>Request or higher</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>[!UICONTROL View] access to the area the list is in</p> <p>For example, to modify the view on a project, you need [!UICONTROL View] access to Projects.</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level.<br>For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL View] access to the area the list is in</p> <p>For example, to modify the view on a project, you need [!UICONTROL View] access to Projects.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>[!UICONTROL View] or higher permissions to the view applied to the list</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher permissions to the view applied to the list</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-## Modify how a list displays
++++
+
+## Modify a list
 
 1. Go to the list in [!DNL Workfront] that you want to modify.
 
@@ -95,7 +108,8 @@ You must have the following access to perform the steps in this article:
 
 1. To reorder the columns in a list, mouse over a column header to display the hand tool, then click to drag the column to where you want it to display.
 
-   The position of the column is saved until you refresh your page.\
+   The position of the column is saved until you refresh your page.
+
    For more information about customizing the width and the order of columns in a list, see the article [Modify column width and order](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 1. To adjust the sorting order of a list, click a column header to select it, then press and hold the CMD key (on [!DNL Mac]) or the CTRL key (on [!DNL Windows]) on your keyboard and select up to 2 additional column headers to sort by them.

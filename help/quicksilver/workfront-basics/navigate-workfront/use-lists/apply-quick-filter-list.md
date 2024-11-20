@@ -1,16 +1,14 @@
 ---
 navigation-topic: use-lists
-title: Apply the quick filter to a list
+title: Apply the Quick Filter to a List
 description: You can use the quick filter in a list of objects to help you locate only items that are important to you, so you can quickly review, update, or share them with others.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
 ---
 # Apply the quick filter to a list
 
-<!--
-{{highlighted-preview}}
--->
+<!--Audited:11/2024-->
 
 You can use the quick filter in a list of objects to help you locate only items that are important to you, so you can quickly review, update, or share them with others.
 
@@ -29,6 +27,7 @@ You can use temporary quick filters in all lists, except the following:
 * The [!UICONTROL Reports] area
 * Document lists and reports
 * Several [!UICONTROL Setup] areas
+
    >[!NOTE]
    >
    >Quick filters are available in the following setup areas: [!UICONTROL Groups], [!UICONTROL Teams], [!UICONTROL Companies], [!UICONTROL Schedules], [!UICONTROL Layout Templates], and [!UICONTROL Custom Forms].
@@ -46,6 +45,8 @@ Consider the following when applying quick filters to a list:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -53,25 +54,35 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><b>[!DNL Adobe Workfront] plan*</b></td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>[!DNL Adobe Workfront] license*</b></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> 
+    <p>New:</p>
+   <ul><li><p>Contributor or higher </p></li>
+   </ul>
+
+   <p>Current:</p>
+   <ul><li><p>Request or higher</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>Access level configurations*</b></td> 
-   <td> <p>View access to the area the list is in</p> <p>For example, to apply a quick filter to a project, you need [!UICONTROL View] access to Projects.</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level.<br>For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View access to the area the list is in</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>Object permissions</b></td> 
-   <td> <p>[!UICONTROL View]</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] permissions to the object the list is in</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
 
 ## Apply a quick filter to a list
 
@@ -103,7 +114,7 @@ You must have the following access to perform the steps in this article:
    1. Select all or several of the items in the list, then click **[!UICONTROL Edit]** to bulk edit the items.
    1. After you complete your edits, click **[!UICONTROL Save Changes]**.
 
-1. (Optional) To export the items found by the quick filter, select all or several of the items in the list, then click **[!UICONTROL Export]**.
+1. (Optional) To export the items found by the quick filter, select all or several of the items in the list, then click the **[!UICONTROL Export]** icon ![](assets/export.png).
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
@@ -112,6 +123,6 @@ You must have the following access to perform the steps in this article:
    >Only the items you found in the quick filter search export to the file you selected. If you don't select any items before exporting the list, the complete, unfiltered list is exported.\
    >For more information, see [Export a list](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md).
 
-1. (Optional) To clear the filtered results, click the **[!UICONTROL Quick Filter]** icon in the top right corner of the window.\
-   Or\
+1. (Optional) To clear the filtered results, click the **[!UICONTROL Quick Filter]** icon in the top right corner of the window.
+   Or
    Refresh the page.
