@@ -29,7 +29,7 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 >* An additional license for Workfront Planning. 
 >* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
 >
-> For a complete list of requirements to access Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
+> For a complete list of requirements to access Workfront Planning, see [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 > 
 
 This article contains general information about Workfront Planning. 
@@ -99,7 +99,7 @@ The following features are currently available in Workfront Planning:
 * View the history of changes on a record             
 * Rich Text formatting for Paragraph fields             
 * Access Planning records from Workfront objects             
-* Connect Planning records from Workfront objects 
+* Connect and disconnect Planning records from Workfront objects 
 * Create Planning records by submitting a request form            
 * Workfront Planning public API             
 * Adobe Workfront Planning modules for Adobe Workfront Fusion             
@@ -162,7 +162,7 @@ After your organization purchases a license for Workfront Planning, as a Workfro
 
 * Assign the users who need access to Planning a layout template that includes Planning in the Main Menu. For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) and [Assign users to a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md). 
 
-* Assign users a Workfront license and Workfront Planning permissions that would allow you to either 5554hview or create objects in Workfront Planning. For more information about granting access to and enabling others to use Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
+* Assign users a Workfront license and Workfront Planning permissions that would allow you to either 5554hview or create objects in Workfront Planning. For more information about granting access to and enabling others to use Workfront Planning, see [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 
 ## Workfront Planning terminology
 
@@ -315,7 +315,7 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
 
 ## Locate Adobe Workfront Planning
 
-To locate Adobe Planning, ensure that your organization has received access to Workfront Planning and that your system or group administrator has added the Planning area to your Main Menu. For information, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
+To locate Adobe Planning, ensure that your organization has received access to Workfront Planning and that your system or group administrator has added the Planning area to your Main Menu. For information, see [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md).
 
 To locate Workfront Planning:   
 

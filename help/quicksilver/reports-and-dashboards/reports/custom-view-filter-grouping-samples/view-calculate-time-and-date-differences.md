@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'View: calculate time and date differences'
+title: 'View: Calculate Time and Date Differences'
 description: Learn to calculate time and date differences.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
 ---
 # View: calculate time and date differences
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 >[!IMPORTANT]
 >
@@ -103,10 +103,8 @@ For example, you can calculate the difference between the Planned Completion Dat
 
 1. Click **Add Column** and start typing "Planned Completion Date" in the **Show in this column** field then select it when it displays in the list.
 
-1. Click **Add Column**, then click **Switch to Text Mode**.
-
-1. Hover over the text mode area, and click **Click to edit text**.
-1. Remove the text you find in the **Text Mode** box, and replace it with one of the following codes:
+1. Click **Add Column**, then click **Switch to Text Mode** > **Edit Text Mode**.
+1. Remove the text you find in the **Edit Text Mode** box, and replace it with one of the following codes:
 
    * To display the difference between the Planned Completion Date of the project and that of the task:
 
@@ -125,4 +123,4 @@ For example, you can calculate the difference between the Planned Completion Dat
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. Click **Save**, then **Save View**.
+1. Click **Done**, then **Save View**.

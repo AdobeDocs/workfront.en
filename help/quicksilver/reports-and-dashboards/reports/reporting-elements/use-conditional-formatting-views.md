@@ -9,7 +9,7 @@ exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
 ---
 # Use conditional formatting in views
 
-<!--Audited: 01/2024-->
+<!-- Audited: 11/2024 -->
 
 As you share your reports with other users in Adobe Workfront, consider customizing the view of the reports, to make certain information easier to read, or just stand out.
 
@@ -48,7 +48,6 @@ You must have the following access to perform the steps in this article:
    <td> <p>New:</p> 
    <ul><li>Standard for report views</li>
   <li> Contributor or higher for list views</li></ul>
-   
    <p>Current:</p>
    <ul>
     <li> Plan for report views </li>
@@ -56,16 +55,16 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to Reports, Dashboards, Calendars to edit a view in a report</p> <p><b>NOTE</b></p> <p>If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to Reports, Dashboards, Calendars to edit a view in a report</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>Manage permissions to a report to create or edit a view in a report</p> <p>Manage permissions to a view</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a report to create or edit a view in a report</p> <p>Manage permissions to a view</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -133,7 +132,7 @@ For information on creating a report, see [Create a report](../../../reports-and
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Text Color</strong></td> 
-      <td> <p>Select the color in which the text is displayed. There are 8 colors available.</p> <p><b>NOTE</b></p> <p> If the field contains a hyperlink, the text color selections are not applied to this field.</p> </td> 
+      <td> <p>Select the color in which the text is displayed using the color selector.</p> <p><b>NOTE</b></p> <p> If the field contains a hyperlink, the text color selections are not applied to this field.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Text Format</strong></td> 
@@ -145,7 +144,7 @@ For information on creating a report, see [Create a report](../../../reports-and
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Background</strong></td> 
-      <td>Select the color of the background for the text. There are 8 colors available.</td> 
+      <td>Select the color of the background for the text using the color selector.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Show Icon</strong></td> 
@@ -183,6 +182,6 @@ For information on creating a report, see [Create a report](../../../reports-and
    * Add the column rule again for the red background on late projects.
    * When you save the rules and the view, the red background is not applied to a canceled project.
 
-1. Click **Done**.
+1. Click **Save**.
 1. Click **Save + Close**.  
    On the report, users see changes to the format if the specified conditions have been met.

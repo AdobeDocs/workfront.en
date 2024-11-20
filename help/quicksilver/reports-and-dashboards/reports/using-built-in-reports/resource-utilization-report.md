@@ -11,6 +11,8 @@ exl-id: c85b880a-c4a7-49ed-8118-ef9942a47bc3
 
 # Overview of the Resource Utilization report
 
+<!--Audited: 11/2024-->
+
 <!--CONTEXT SENSITIVE HELP - this is linked to the product. It is about a Resource reporting built-in report, so we need to keep it in both areas.-->
 
 Utilization reports enable you to view the progress or cost of one or more projects in a single report.

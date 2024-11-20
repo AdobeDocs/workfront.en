@@ -10,6 +10,8 @@ exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
 ---
 # Send direct messages to other users
 
+{{preview-fast-release-general}}
+
 [!DNL Adobe Workfront] enables you to quickly and easily send messages that are unrelated to any work item directly to other [!DNL Workfront] users. Messages sent as described in this section appear in the [!UICONTROL Updates] tab on the user's profile page and are visible to all users. For additional information on updates, see [Update work items and view updates: article index](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 The user you are sending the message to receives the following types of notifications when you send a message as described in this section:
@@ -36,10 +38,14 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td>
-   <p>New: Light or higher</p>
-   <p>or</p>
-   <p>Current: Review or higher</p>
-   </td>
+   <p>To send a message from the user's profile page, you must have:<br>
+   New: Light or higher<br>
+   or<br>
+   Current: Review or higher</p>
+   <p>To send a message from the User list, you must have:<br>
+   New: Standard<br>
+   or<br>
+   Current: Work or higher</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +72,6 @@ For more detail about the information in this table, see [Access requirements in
 1. Click **[!UICONTROL Update].** 
    The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on the user's profile page.
 
-<!--
 ## Send a message to one or more users from the User list
 
 This option is only available if you have a Standard, Plan, or Work license.
@@ -75,8 +80,12 @@ This option is only available if you have a Standard, Plan, or Work license.
 
 1. Select the user or users you want to send a message to, and click [!UICONTROL **Send Update to User**].
 1. Type your message in the [!UICONTROL Send update to user] window.
+
+   <span class="preview">Sample image in the Preview environment:</span>
+
+   <span class="preview">![Message user on the Send update to user window](assets/send-message-to-user-dialog-from-user-list.png)</span>
+
 1. (Optional) Search for any additional users you want to tag on the message. You do not need to tag the users you already selected in the user list.
 1. (Optional) Select **[!UICONTROL Private to my company]** to make this message visible only to other users in your company.
 1. Click [!UICONTROL **Send**].
    The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on each user's profile page.
--->

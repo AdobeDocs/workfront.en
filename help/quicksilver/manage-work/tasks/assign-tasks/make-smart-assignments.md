@@ -70,7 +70,6 @@ Smart assignments are available in most locations where you can make assignments
    * A task or issue header
    * The task or issue Summary panel
    * <span class="preview">A New Task</span> or New Issue box, as you add <span class="preview">a new task</span> or issue to a project
-   * The Assignments field for an item listed in the Home area
    * A task or issue in the Workload Balancer
 
 1. Place your cursor in the Assignments field, and wait for two seconds. 

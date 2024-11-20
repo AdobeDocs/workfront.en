@@ -465,7 +465,9 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Calendar]</td> 
-   <td> <p>There are two types of calendars in [!DNL Workfront]: the [!UICONTROL Home Calendar] and calendar reports.</p> <p>The [!UICONTROL Home Calendar] is a personal calendar that allows a user to manage their workload against their available hours in [!DNL Workfront]. The users can also integrate their [!UICONTROL Home Calendar] with [!DNL Outlook] ([!DNL Google] and [!DNL Microsoft] integration to come). </p> <p>For more information about the [!UICONTROL Home Calendar], see <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">[!UICONTROL Home Calendar] view</a>.</p> <p>A calendar report is a dynamic report in which users can view the date and other important details of an event, including the due date, status of work, and the user to whom the event is assigned.</p> <p> For more information about calendar reports, see <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Calendar reports overview</a>.</p> </td> 
+   <td> <p>In Workfront, a calendar report is a dynamic report in which users can view the date and other important details of an event, including the due date, status of work, and the user to whom the event is assigned.</p> <p> For more information about calendar reports, see <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Calendar reports overview</a>.</p>
+   <p> In Workfront Planning, a Calendar view is a type of view for a record type that displays records on a calendar. You must have an additional license to access Workfront Planning. </p>
+    </td> 
   </tr> 
    <tr> 
    <td>[!UICONTROL Can Start]</td> 
@@ -1638,7 +1640,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Portal Profile]</td> 
-   <td>An administrator-defined collection of Tabs and Portal Sections that appears on the [!DNL Workfront] Application [!UICONTROL Home] and other Dashboards.</td> 
+   <td>An administrator-defined collection of Tabs and Sections that displays in [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Portal Section]</td> 

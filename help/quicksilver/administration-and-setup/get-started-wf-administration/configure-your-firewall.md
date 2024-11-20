@@ -84,7 +84,7 @@ For more information, see the section [View your organization's cluster and Work
 
 ### IP addresses to allow for Clusters 1, 2, 3, 5, 7, 8 and 9 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
 
-If your Production environment is on Cluster 1, 2, 3, 5, or 7 you must allow the following IP addresses.
+If your Production environment is on Cluster 1, 2, 3, 5, 7, 8, or 9 you must allow the following IP addresses.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -210,6 +210,12 @@ If your Production environment is on Cluster 6, add the following IP addresses.
   </tr> 
  </tbody> 
 </table>
+
+### IP addresses to allow for Cluster 10
+
+* 20.36.133.48/28
+* 20.81.156.240/28
+* 172.172.84.48/28
 
 ### IP addresses to allow for a Test Drive
 

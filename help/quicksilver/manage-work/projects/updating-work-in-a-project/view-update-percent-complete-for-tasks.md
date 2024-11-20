@@ -85,7 +85,7 @@ You can update the percent complete for a task in any of the following areas:
 
 * **Home**: You can update the percent complete of a task or issue from the Summary panel in the Home area, or from the My Work widget. 
 
-For information, see  [Getting started with the new Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md). 
+  For information, see  [Getting started with Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md). 
 
 ## Considerations about updating the percent complete of a task
 

@@ -12,33 +12,54 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the Fourth Quarter 2024 release, see [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
+## Look-and-feel updates for reports
+
+>[!NOTE]
+>
+>Production release for all customers: Incrementally beginning with the 24.10 release (October 17, 2024), full availability by November 8, 2024
+
+We have updated the report interface to match the design of other areas of Workfront. These updates include additional changes to reporting features:
+
+* We have added an expanded color palette for conditional formatting rules in reports. For more information about conditional formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+* We have added a new "Edit Text Mode" button to enter text mode when editing a column in the report builder. For more information about editing report views in text mode, see [Edit a view using text mode](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* You can no longer edit the title of a report by clicking on its title. You can still edit a report title by clicking Report Actions > Edit, then changing the title. For more information about editing reports, see [Edit report settings](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md).
+* You can no longer create a grouping by clicking on a column name in the grouping builder. You can still create a grouping based on an existing column in a report by selecting the corresponding field in the Group by: field list. For more information about creating groupings, see [Create groupings in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md)
+* We have added a new toggle to the report filter interface to switch between a calendar date selector and a relative date wildcard text field when filtering by a date field. Additionally, selecting a relative date wildcard shortcut in the report filter interface now automatically populates the associated wildcard fields based on your selection. For more information about using relative date wildcards in report filters, see [Use date-based wildcards to generalize reports](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+* User-based wildcards in report filters now suggest relevant wildcards for auto-complete based on your selected field type. For more information on user-based wildcards in report filters, see [Use user-based wildcards to generalize reports](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
+* Reports with prompts that are shared publicly will now be displayed without prompts applied for all users accessing it through the public share link. Logged in users that access the report directly will still be able to apply prompts. For information about report prompts, see [Add a prompt to a report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+* We have made changes to existing reports that improve their compatibility with Canvas Dashboards.
+
+_These updates are being implemented incrementally in production starting with the 24.10 release on October 17, 2024. Changes will be available to only a small number of customers at first, becoming increasingly available over time until fully available for all customers by November 8, 2024._
+
 ## Look-and-feel updates for dashboards
 
 >[!NOTE]
 >
->Preview release: October 15; Production release for all customers: With the 24.10 release (October 17, 2024)
+>Production release for all customers: Incrementally beginning with the 24.10 release (October 17, 2024), full availability by November 8, 2024
 
-We have made a variety of updates to the dashboards interface to match the design of other areas of Workfront, including improvements to the print preview screen when printing a dashboard.
+We have updated the dashboards interface to match the design of other areas of Workfront. These updates include additional changes to dashboard features:
 
-For more information about dashboards, see [Create and manage dashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md). For more information about calendars, see [Calendar reports overview](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+* We have improved the print preview screen when printing a dashboard. For information about printing a dashboard, see [Print a dashboard](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
+* We have removed the All, Reports, and Calendars tabs under Available Reports & Calendars from the Dashboard editor. For more information about adding reports and calendars to a dashboard, see [Edit a dashboard](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).
 
-## Look and feel updates for reports
+For general information about dashboards, see [Create and manage dashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md).
+
+_These updates are being implemented incrementally in production starting with the 24.10 release on October 17, 2024. Changes will be available to only a small number of customers at first, becoming increasingly available over time until fully available for all customers by November 8, 2024._
+
+## Look-and-feel updates for views, groupings, and legacy filters in lists
 
 >[!NOTE]
 >
->Preview release: Starting September 12, 2024; Production release for all customers: Varied, all updates will be available by November 8, 2024
+>Production release for all customers: Incrementally beginning with the 24.10 release (October 17, 2024), full availability by November 8, 2024
 
-We have made a variety of updates to the reports interface to match the design of other areas of Workfront. These updates include some additional changes to various reporting features, including:
+We have updated the views, groupings, and legacy filters interfaces in lists to match the design of other areas of Workfront. These updates include additional changes to views, groupings, and legacy filters in lists:
 
-* A new button to enter text mode when editing a report column
-* Small changes to the function of relative date wildcards and wildcard shortcuts
-* Conditional rules no longer require clicking a "Done" button to be created
-* An expanded color palette for conditional formatting rules in reports
-* Changes to existing reports that improve their use in Canvas Dashboards
+* We have added an expanded color palette for conditional formatting rules in reports. For more information about conditional formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+* We have added a new "Edit Text Mode" button to enter text mode when editing a column while creating a new view. For more information about editing views in text mode, see [Edit a view using text mode](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).
+* We have added a new toggle to the legacy filter interface to switch between a calendar date selector and a relative date wildcard text field when filtering by a date field. Additionally, selecting a relative date wildcard shortcut in the report filter interface now automatically populates the associated wildcard fields based on your selection.
+* User-based wildcards in legacy filters now suggest relevant wildcards for auto-complete based on your selected field type. For more information about using legacy filters, see [Create or edit filters in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-These updates are being implemented individually in preview and production starting September 12, 2024. All updates will be completely implemented in production for all customer by November 8, 2024.
-
-For more information about reporting in Workfront, see [Get started with reports](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+_These updates are being implemented incrementally in production starting with the 24.10 release on October 17, 2024. Changes will be available to only a small number of customers at first, becoming increasingly available over time until fully available for all customers by November 8, 2024._
 
 ## Look-and-feel-updates for System Preferences page
 

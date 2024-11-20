@@ -127,7 +127,7 @@ You must have the following access to perform the steps in this article:
    * From a Workfront object, in the Updates section (for projects, tasks, and issues)  
    * From the Home area (for tasks and issues)
 
-      For information, see [Manage your work with the My Work widget](/help/quicksilver/workfront-basics/using-home/new-home/my-work-widget.md).
+      For information, see [Manage your work with the My Work widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
    * From the Summary panel in the following areas (for tasks, issues, and documents):
    
       * A list of objects

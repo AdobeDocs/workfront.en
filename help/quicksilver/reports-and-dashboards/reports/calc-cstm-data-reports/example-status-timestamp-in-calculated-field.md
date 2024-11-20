@@ -56,8 +56,8 @@ To add a calculated field that displays a field's edit history to a custom form,
 
 1. Go to a custom form where you want to add the field.
 1. Click **Calculated** to add a calculated custom field to the form.  
-1. Type a **Label** for the custom field, such as *Status Timestamp Custom Field*.
-1. Click **Done**, then click **Save+Close**.
+1. Type a **Label** for the custom field. For example,"Status Timestamp Custom Field".
+1. Click **Save+Close**.
 1. Re-open the custom form, then select the new **Status Timestamp Custom Field** on the form.
 1. In the **Calculation** box, copy and paste the following calculation for your custom field:  
    

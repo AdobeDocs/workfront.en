@@ -24,6 +24,7 @@ You can add an existing custom form to any of the objects listed below. A custom
 * Programs
 * Documents
 * Users
+* Groups
 * Iterations
 * Expenses
 * Billing records
@@ -69,7 +70,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-Your Workfront administrator or a user with a Plan license and administrative access to custom forms must create custom forms in your environment before you can add them to objects. For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Your Workfront administrator or a user with a Plan license and administrative access to custom forms must create custom forms in your environment before you can add them to objects. For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Add a custom form to an object
 

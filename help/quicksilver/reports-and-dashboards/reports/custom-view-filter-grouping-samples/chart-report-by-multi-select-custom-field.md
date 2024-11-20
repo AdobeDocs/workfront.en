@@ -2,13 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Chart a report by a multi-select custom field
+title: Chart a Report by a Multi-select Custom Field
 description: You can chart a report by a multi-select custom field only after you create an additional calculated field that captures the choices selected in the multi-select custom field. 
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
 ---
 # Chart a report by a multi-select custom field
+
+<!--Audited: 11/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -33,6 +35,8 @@ However, if it's not possible to have separate fields for each option of a multi
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -40,25 +44,34 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+    <p>New:</p>
+   <ul><li><p>Contributor to modify a filter </p></li>
+   <li><p>Standard to modify a report</p></li> </ul>
+
+   <p>Current:</p>
+   <ul><li><p>Request to modify a filter </p></li>
+   <li><p>Plan to modify a report</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a filter</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 
@@ -80,7 +93,7 @@ You cannot build a chart in a report by referencing a multi-select custom field.
 To build a calculated field that references a multi-select custom field, you must have the following prerequisites:
 
 * A multi-select custom field in a custom form.  
-  For information about building custom forms and adding custom fields to them, see the article [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  For information about building custom forms and adding custom fields to them, see the article [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * A custom form with the multi-select custom field attached to objects.
 * Values for the multi-select custom field for each object.
@@ -89,14 +102,14 @@ To build the calculated custom field that references the multi-select custom fie
 
 1. Create a custom form, or edit an existing one.  
 
-   For information about creating custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   For information about creating custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Select the object or objects that you plan to use with the custom form. 
 1. Click **Add a Field**, then **Calculated** to add the multi-select custom field to the form.
 
 1. In the **Label** box, name the new calculated field to indicate that it references the multi-select custom field.  
 
-   For example: "Calculated Multi-select Field."
+   For example: "Calculated Multi select Field."
 
 1. In the **Calculation** box, enter the following code:
 
@@ -108,12 +121,12 @@ To build the calculated custom field that references the multi-select custom fie
 
    ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
-1. (Optional) If the multi-select custom field is already on this form and if this form is already attached to objects, enable the **Update previous calculations (in the background)** option. 
+1. (Optional) If the multi-select custom field is already on this form and if this form is already attached to objects, enable the **Apply to existing calculations** option. 
 
    This ensures that the new calculated field is automatically populated with the value from the multi-select custom field as it is added to the forms already attached to the objects.
 
-1. Click **Done**.
-1. Click **Save + Close**.
+1. Click **Apply**.
+1. Click **Save and Close**.
 
    The calculated custom field is added to the custom form and if the form is currently attached to objects, the field is populated with information from the multi-select custom field. 
 
@@ -131,14 +144,14 @@ To build the calculated custom field that references the multi-select custom fie
 1. Click **Report Actions**, then **Edit**. 
 
 1. Select the <strong>Groupings</strong> tab, then click <strong>Add Grouping</strong>. 
-1. Add the <strong>Calculated Multi-select Field</strong> you created as your grouping. 
+1. Add the <strong>Calculated Multi select Field</strong> you created as your grouping. 
 1. Select the <strong>Chart</strong> tab, and add a chart to your report.
 
    For example, choose a **Column** chart. 
    <br>For information about adding a chart to a report, see the section <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">Add a chart to a report</a> in the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>. 
-1. In the **Bottom (X) Axis** field, select the <strong>Calculated Multi-select Field</strong> to display in the chart. 
+1. In the **Bottom (X) Axis** field, select the <strong>Calculated Multi select Field</strong> to display in the chart. 
 1. Click <strong>Save + Close</strong>.
 
-   The report displays the results grouped by the Calculated Multi-select Field in a chart.
+   The report displays the results grouped by the Calculated Multi select Field in a chart.
 
    ![](assets/chart-multi-select-field-column-chart-example.png)

@@ -55,5 +55,3 @@ To help you manage and analyze your approval requests at a glance, we've added t
 * Overdue approvals
 
 You can drill down into the categories listed above for a more detailed view. The All Approvals widget is available in New Home and Canvas Dashboards.
-
-For more information, see [Get started with new Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).

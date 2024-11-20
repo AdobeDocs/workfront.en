@@ -95,7 +95,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu and the Planning area for projects, portfolios, and programs. </p> For more information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  </p>  
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu and the Planning area for projects, portfolios, and programs. </p> For more information, see <a href="/help/quicksilver/planning/access/access-overview.md">Adobe Planning access overview</a>. </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -192,7 +192,7 @@ To add a section to a record preview or page:
 
     All changes to sections and field order are saved automatically. 
 
-1. (Optional) Click the **Export** icon ![](assets/export-icon-in-record-details-page.png) to export the Details tab to a Word file. For more information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md). 
+1. (Optional) Click the **Export** menu ![](assets/export-icon-in-record-details-page.png) to export the Details tab to a Word or a PDF file. For more information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md). 
 
 1. (Optional) Click the **Connections** tab next to the **Details** tab. You might have to click **More** before clicking the **Connections** tab.
 

@@ -12,6 +12,8 @@ exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
 ---
 # Overview of moving objects between Workfront environments (Environment promotion)
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 The environment promotion capability allows you to move objects from one Workfront environment to another. For example, you can create a template and configure it in your sandbox environment, knowing that any testing you do will not affect your organization's actual data. After the template is configured and tested, you can move it to your production environment, ready to use.
 
 This process is referred to as "environment promotion."
@@ -91,6 +93,8 @@ Because environment promotion deals with object configuration, transactional obj
 | Expense Type (EXPTYP) | Expense Type |
 | Risk Type (RSKTYP) | Risk Type |
 | Resource Pool (RSPL) | Resource Pool |
+| Access Level (ACSLVL) | Access Level |
+| <span class="preview">Rate Card (RTCRD)</span> | <span class="preview">Rate Card</span> |
 
 \* Not currently available 
 
@@ -147,4 +151,10 @@ These statuses include the following:
   </tr> 
   </tbody> 
 </table>
+
+## Resources
+
+* For FAQs regarding environment promotion, see [Environment promotion FAQ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
+* For troubleshooting recommendations, see [Environment promotion troubleshooting](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+
 

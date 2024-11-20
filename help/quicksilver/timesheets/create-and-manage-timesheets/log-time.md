@@ -41,7 +41,10 @@ You must have the following access to perform the steps in this article and log 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Light or higher to log hours on a project, task, issue, or General Hours on a timesheet</p>
+   <td> <p>New:</p>
+   <ul><li><p> Light or higher to log hours on a task, issue, or General Hours on a timesheet</p>
+   <li><p>Standard to log hours on projects</p></li></ul>
+   <p>
    <p>Current: 
    <ul><li>Review or higher to log General Hours in a timesheet</li>
    <li>Work or higher to log hours on a project, task, or issue</li></ul> </td> 
@@ -73,7 +76,7 @@ You must have the following access to perform the steps in this article and log 
 * Timesheets include the total time for all logged dates. Weekends are always included, even when timeline calculations have been configured to exclude them (as described in [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)).
 * The maximum number of items displayed in a timesheet is 45. If there are more than 45 items whose dates match the timesheet time frame, only the most recently updated items display.
 * Hour entries that are included in billed billing records are dimmed and cannot be edited in the timesheet. For more information, see [Create billing records](../../manage-work/projects/project-finances/create-billing-records.md).
-* Personal tasks do not display in the timesheet by default. Personal tasks display in the timesheet only when they have time logged. After you log the time on a personal task, you can pin the task to the timesheet and it will remain on the timesheet if it remains pinned. For more information, see [Create work items from the Home area](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+* Personal tasks do not display in the timesheet by default. Personal tasks display in the timesheet only when they have time logged. After you log the time on a personal task, you can pin the task to the timesheet and it will remain on the timesheet if it remains pinned. For more information, see [Create work items and projects from the Home area](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Log time {#log-time-section}
 
@@ -329,7 +332,6 @@ To remove an item from the timesheet that was manually added:
 You can log project-specific time in Home.
 
 For general information about using the Home area, see [Use the Home area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-
 
 <!--#### Log time on a work item from the new Home area-->
 

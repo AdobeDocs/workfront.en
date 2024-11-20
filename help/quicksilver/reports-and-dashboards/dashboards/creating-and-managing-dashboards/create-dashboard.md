@@ -96,13 +96,13 @@ You can add existing external pages to a dashboard, or you can create one from t
    Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. Search for reports, calendars, or external pages in the **Search by name or type ...** field, then drag them to the layout pane, when they appear in the list.
+1. In the **Available Reports & Calendars** section, start typing the name of a report, calendar, or external page in the search bar, then drag and drop the report, calendar, or external page in the layout pane to the right.
 
    >[!NOTE]
    >
    >When searching for an item, the search returns any of the 2,000 most recently created reports. Report names that include unicode characters are not returned in search results. As a best practice, avoid including unicode characters when naming objects in Workfront by typing names rather than copying and pasting names from another source.
 
-   ![Search for reports](assets/qs-new-dashboard-ui-0722.png)
+   ![Search for reports](assets/unshimmed-dashboard-ui.png)
 
 1. (Optional) Click **Add External Page** to add a new External Page to the dashboard.   
 

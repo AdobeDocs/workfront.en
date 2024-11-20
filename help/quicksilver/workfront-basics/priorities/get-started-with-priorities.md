@@ -1,12 +1,12 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Get started with Priorities
-description: Priorities is a streamlined, intuitive experience tailored for task owners. 
+description: Priorities is a streamlined, intuitive experience tailored for task owners.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
+exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
 ---
-
 # Get started with [!DNL Priorities]
 
 Priorities is a streamlined, intuitive experience tailored for task owners. Priorities will be rolled out in phases, starting with the worklist.
@@ -177,7 +177,7 @@ The ability to review and approve assets is on the Priorities roadmap.
 
 For now, we recommend using the My approval and All Approvals widgets in New Home. 
 
-For more information, see [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+For more information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 
 ## Use [!DNL Catch me up] to see what you missed [!BADGE Coming soon]{type=Informative}
@@ -191,5 +191,3 @@ Use the [!DNL Catch me up] feature to see what you missed. Catch me up will summ
 
 * Workfront Administrators cannot customize priorities through the Layout Template at this time.
 * Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.
-
-

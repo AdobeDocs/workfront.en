@@ -4,6 +4,7 @@ description: Fourth Quarter 2024 Document management enhancements
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 2af72926-a46a-4265-aa01-064436b93622
 ---
 # Fourth Quarter 2024 Document management enhancements
 
@@ -20,8 +21,6 @@ For a list of all changes available at this point in the Fourth Quarter 2024 rel
 >[!NOTE]
 >
 >~~Preview release: October 3, 2024~~; Production for all customers: With the 24.10 release (October 17, 2024)
->
->_This feature has been temporarily removed from Preview._
 
 You can now view a document's decision status directly in the document list. 
 

@@ -355,7 +355,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                                 <p>Production for fast release: With the 24.3 release (March, 2024)</p>
                             </li>
                             <li>
-                                <p>Production for all customers: With the 24.10 release (October 2024)</p>
+                                <p>Production for all customers: To be announced</p>
                             </li>
                         </ul>
                     </td>
