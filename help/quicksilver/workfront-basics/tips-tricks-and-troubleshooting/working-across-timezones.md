@@ -10,6 +10,13 @@ exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
 
 <!-- Audited: 2/2024 -->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
+-->
+
 It can be helpful to understand how [!DNL Adobe Workfront] uses time zones to calculate the following:
 
 * Time fields for objects
@@ -85,14 +92,31 @@ You can help users working more easily across several time zones in several ways
 
    This schedule might be different from a project schedule. For example, when someone creates a task in the project and hasn't assigned anyone to it yet, the task uses the project schedule. When a user is assigned to the task, the task uses that user's schedule.
 
-   If multiple users are assigned to a task, the system uses one of the following, as configured in the system-wide project preferences:
+   If multiple users are assigned to a task, the system uses one of the following, as configured in the system- or group-wide project preferences:
 
    * The time zone for the schedule of the task's primary owner
    * The time zone for the schedule of the project.
 
+<!--
+   <div class="preview">
+
+   If one user is assigned to a task, the system uses one of the following, as configured in the system- or group-wide project preferences: 
+
+   * The time zone for the schedule of the task's assignee
+   * The time zone for the schedule of the project.
+
+   </div>
+-->
+   
    This can cause tasks dates to change.
 
-   **Example:** An EST user is assigned to a one-day task scheduled to start at 9:00 AM PST, which is noon EST. Because the EST user has only 2 working hours remaining for the day, the task completion date extends by about 6 hours into the next working day.
+>[!BEGINSHADEBOX]
+
+   **EXAMPLE:** 
+   An EST user is assigned to a one-day task scheduled to start at 9:00 AM PST, which is noon EST. Because the EST user has only 2 working hours remaining for the day, the task completion date extends by about 6 hours into the next working day.
+
+
+>[!ENDSHADEBOX]
 
    For information about the [!UICONTROL Project Preferences] area of [!UICONTROL Setup], see [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 

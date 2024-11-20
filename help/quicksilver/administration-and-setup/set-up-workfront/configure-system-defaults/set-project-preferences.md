@@ -228,15 +228,15 @@ Configure any of the following preferences for newly created projects throughout
 
 <!--Add this to the table (under the "When multiple users are assigned ..." setting):
 
-When one user is assigned to a task, use the schedule of the...
+<span class="preview">When one user is assigned to a task, use the schedule of the...</span>
 
-
-<p>If a project does not have a schedule assigned or if the users assigned to its tasks do not have a Schedule assigned to them, [!DNL Workfront] uses the system default schedule to calculate the timeline of the tasks.</p> <p>If you assign one user to a task in a project and the project has an assigned schedule and the user assigned to the tasks also have a schedule assigned to them, [!UICONTROL Workfront] uses the following schedules:</p> 
+<div class="preview">
+<p>If a project does not have a schedule assigned or if the users assigned to its tasks do not have a Schedule assigned to them, [!DNL Workfront] uses the system default schedule to calculate the timeline of the tasks.</p> <p>If you assign one user to a task in a project and the project has an assigned schedule and the user assigned to the tasks also has a schedule assigned to them, [!UICONTROL Workfront] uses the following schedules:</p> 
     <ul> 
      <li><strong>[!UICONTROL User]</strong>: [!DNL Workfront] uses the schedule of the assigned user on the task to calculate timelines.</li> 
      <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront] uses the schedule of the project to calculate the timeline of the task.</li> 
     </ul> <p>For more information about schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Create a schedule</a>.</p>
-
+</div>
 -->
 
 ### [!UICONTROL Business Cases] {#business-cases}
