@@ -59,6 +59,29 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Box] modules, you must have a [!DNL Box] account.
 
+## Box API information
+
+The Box connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> baseUrl": "https://api.box.com/2.0
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v2.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v3.0.3</td> 
+ </tbody> 
+ </table>
+
 ## [!DNL Box] modules and their fields
 
 When you configure [!DNL Box] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Box] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
