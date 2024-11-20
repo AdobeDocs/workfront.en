@@ -53,11 +53,11 @@ Yes. For example, you can promote from Sandox to Production, or from Production 
 
 No, sharing is not currently supported.
 
-## When might a rollback feature become available?
+## Is package rollback available?
 
 ### Answer
 
-Rollback is a top priority, and is currently in development. We expect to release rollback functionality in Q3 or Q4 2024.
+Package rollback is available for the most recent package, within 24 hours of package installation.
 
 ## Will there be an option to skip promotion of individual components? Where the options `Use Existing`, `Overwrite`, and `Save with a new Name`" exist, can `Skip` be added so you can skip promotion of individual parameters?
 

@@ -11,6 +11,8 @@ exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
 ---
 # Enable custom quarters for projects
 
+<!--Audited: 11/2024-->
+
 For reporting purposes, you might want to create custom quarters if your organization's quarters are based on specific criteria other than calendar dates (such as business days or shopping days).
 
 You can configure up to eight custom quarters for your [!DNL Adobe Workfront] system.
