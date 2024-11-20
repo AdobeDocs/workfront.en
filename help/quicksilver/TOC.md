@@ -2331,6 +2331,7 @@ feature-set: Workfront
     * [Marketo modules](workfront-fusion/apps-and-their-modules/marketo-modules.md)
     * [Math](workfront-fusion/apps-and-their-modules/math-module.md)
     * [Microsoft Dynamics 365 modules](workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)
+    * [Microsoft Dynamics 365 modules Finance and Operations](workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md)
     * [Microsoft Office 365 Calendar](workfront-fusion/apps-and-their-modules/microsoft-365-calendar-modules.md)
     * [Microsoft Office 365 Email](workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)
     * [Microsoft Office 365 Excel modules](workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md)
