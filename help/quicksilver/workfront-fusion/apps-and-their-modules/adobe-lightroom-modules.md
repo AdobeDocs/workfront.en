@@ -65,7 +65,26 @@ Before you can use the [!DNL Adobe Lightroom] connector, you must ensure that th
 
 * You must have an active [!DNL Adobe Lightroom] account.
 
-## Create a connection to Adobe Lightroom
+## Adobe Lightroom API information
+
+The Adobe Lightroom connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td>https://lr.adobe.io</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.17.128</td> 
+  </tr>
+ </tbody> 
+ </table>
+
+<!--## Create a connection to Adobe Lightroom-->
 
 
 

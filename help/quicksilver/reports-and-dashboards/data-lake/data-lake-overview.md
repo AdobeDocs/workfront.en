@@ -23,7 +23,7 @@ Subscribers will be able to connect their business intelligence tool of choice (
 
 For more information about Data Connect, see the following articles:
 
-* [Create a reader (service) account for Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [Create a reader account or connection for Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
 * [Establish a connection to Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 * [Workfront Data Connect data dictionary](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
 * [Workfront Data Connect query examples](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md)
