@@ -11,8 +11,14 @@ exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
 ---
 # Customize the Summary panel using a layout template
 
+<!--Audited: 11/2024-->
 
-You can use a Layout Template to configure what users see when they click a task or issue in the Summary. Each configuration you make using the steps below affects the the Summary panel. These customizations don't apply to the Document Summary panel.
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
+
+You can use a Layout Template to configure what users see in the Summary panel when they click a task or an issue. Each configuration you make using the steps below affects the the Summary panel. These customizations don't apply to the Document Summary panel.
 
 You can configure:
 
@@ -65,9 +71,11 @@ To perform them for a group, you must be a manager of that group.</p> </td>
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Click the down arrow ![](assets/dropdown-arrow.png) under **Customize what users see**, then click **Summary panel**.
+1. Click the down arrow ![](assets/dropdown-arrow.png) under **Customize what users see**, then click **Summary panel**. 
 
-1. In the list on the left, click the object type (**Tasks**, **Issues**, **Projects**, **Documents**, or **Document Versions**) that you want to customize in the Summary panel.
+1. In the list that displays underneath, click the object type for which you want to customize the Summary panel. 
+
+   The table below explains what you can customize for each object
 
    <table style="table-layout:auto"> 
     <col> 
@@ -75,7 +83,9 @@ To perform them for a group, you must be a manager of that group.</p> </td>
     <tbody> 
      <tr> 
       <td role="rowheader">Tasks</td> 
-      <td><p> <img src="assets/summary-details.jpg"> </p> </td> 
+      <td> <p>In a list of tasks, this setting affects the Summary panel that displays on the right side of the page when a user selects a task, then clicks the Open Summary icon <img src="assets/summary-panel-icon.png">.</p>
+      
+      <p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Issues</td> 
@@ -83,19 +93,24 @@ To perform them for a group, you must be a manager of that group.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Projects</td> 
-      <td><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
-      <p>IMPORTANT: This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></td> 
+      <td><ul><li><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p>This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
+      <li><span class="preview"><p>This area was removed from the Preview environment.</p></li></span></ul> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Documents</td> 
-      <td><p>In Home, when a user clicks a document approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
-      <p>IMPORTANT: This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p>
+      <td>
+     <ul><li><p>In Home, when a user clicks a document approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
+      <li><span class="preview"><p>This area was removed from the Preview environment.</p></li></span></ul>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Document Versions</td> 
-      <td><p>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</p>
-      <p>IMPORTANT: This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p>
+      <td><ul><li><p>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
+      <li><span class="preview"><p>This area was removed from the Preview environment.</p></li></span></ul>
       </td> 
      </tr> 
     </tbody> 
@@ -107,15 +122,15 @@ To perform them for a group, you must be a manager of that group.</p> </td>
 
 1. (Conditional) If you clicked Tasks or Issues in the previous step, select the category of task or issue that you want to customize.
 
-   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+   <span class="preview">![](assets/choose-cat-cstmz-nwe-adobe-branding.png)</span>
 
 1. (Conditional) If the **Set primary action button** drop-down menu appears (if you select **Tasks** or **Issues** in the list on the left), click the primary action (**Done** or **Status**) that you want available for users in the Summary panel when they view a task or an issue.
 
-   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   <span class="preview">![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)</span>
 
 1. Add ![](assets/add-item-plus-in-circle-blue.png) or hide ![](assets/close-or-hide---x.png) fields for the selected object type.
 
-   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
+   <span class="preview">![](assets/lt-home-add-hide-fields-adobe-branding.png)</span>
 
 1. Repeat steps 3-6 to customize the Summary panel for any other object types.
 1. Click **Global settings**, near the lower left corner, then enable or disable any of the following options related to Adobe Workfront objects in the Summary:
