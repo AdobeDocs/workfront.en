@@ -66,6 +66,21 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 You must have configured a board in Adobe Workfront before you can connect to it.
 
+## Adobe Workfront Boards API information
+
+The Adobe Workfront Boards connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.23.6</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Create a connection to Workfront Boards
 
 >[!NOTE]

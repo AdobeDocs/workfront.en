@@ -63,6 +63,21 @@ Before you can use the [!DNL Adobe Firefly] connector, you must ensure that the 
 
 * You must have an active [!DNL Adobe Firefly] account.
 
+## Adobe Campaign API information
+
+The Adobe Campaign connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.4.24</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Create a connection to [!DNL Adobe Firefly]
 
 To create a connection for your [!DNL Adobe Firefly] modules:

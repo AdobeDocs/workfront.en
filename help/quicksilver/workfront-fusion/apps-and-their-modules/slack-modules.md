@@ -61,6 +61,25 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Slack] modules, you must have a [!DNL Slack] account.
 
+## Slack API information
+
+The Slack connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td>&#123;&#123;ifempty(parameters.domain, 'https://slack.com/api/')&#125;&#125;</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v4.0.15</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## [!DNL Slack] modules and their fields
 
 When you configure [!DNL Slack] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Slack] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.

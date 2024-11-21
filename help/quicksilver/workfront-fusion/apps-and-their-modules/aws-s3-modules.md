@@ -57,6 +57,25 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!UICONTROL AWS S3] modules, you must have an [!DNL Amazon Web Service] account.
 
+## AWS S3 API information
+
+The AWS S3 connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td>https://s3.&#123;&#123;parameters.region&#125;&#125;.amazonaws.com</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.5.21</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Connect [!DNL AWS] to [!DNL Workfront Fusion] {#connect-aws-to-workfront-fusion}
 
 To connect [!DNL AWS S3] to [!DNL Workfront Fusion] you must connect your [!DNL AWS] account to [!DNL Workfront Fusion]. To do so, you'll first need to create an API user in [!DNL AWS] [!UICONTROL IAM].

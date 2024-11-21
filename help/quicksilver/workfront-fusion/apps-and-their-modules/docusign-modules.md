@@ -57,6 +57,21 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL DocuSign] modules, you must have a [!DNL DocuSign] account.
 
+## DocuSign API information
+
+The DocuSign connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>1.18.11</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Connect [!DNL DocuSign] to [!DNL Workfront Fusion] {#connect-docusign-to-workfront-fusion}
 
 To create a connection for your [!DNL DocuSign] modules:
