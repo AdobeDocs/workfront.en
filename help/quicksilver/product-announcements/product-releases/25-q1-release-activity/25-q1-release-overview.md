@@ -32,7 +32,7 @@ This page provides information about functionality that is included in the First
 * [Document management enhancements](#document-management-enhancements)
 * [Home enhancements](#home-enhancements)
 * [Proofing enhancements](#proofing-enhancements)
-* [Report and Dashboard enhancements](#)
+* [Report and Dashboard enhancements](#report-and-dashboard-enhancements)
 * [Other enhancements](#other-enhancements)
 
 ### Administrator enhancements
