@@ -25,8 +25,8 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 >
 >You must have the following to access Workfront Planning:
 >
->* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
->* An additional license for Workfront Planning. 
+>* A new Workfront package and license. Workfront Planning is not available for legacy Workfront packages or licenses. 
+>* A Workfront Planning package. 
 >* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
 >
 > For a complete list of requirements to access Workfront Planning, see [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md). 

@@ -19,6 +19,7 @@ feature-set: Workfront
       * [2025 Q1 Document management enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md)
       * [2025 Q1 Home enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md)
       * [2025 Q1 Proofing enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md)
+      * [2025 Q1 Report and Dashboard enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md)
       * [Other enhancements during the First Quarter 2025 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
       * [Look-and-feel updates during the 2025 Q1 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
     * 2024 Q4 Release {#release-24-q4}
@@ -849,6 +850,7 @@ feature-set: Workfront
     * [Save an email header file](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
     * [Sharing shows more than one permission](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
     * [Unauthenticated email not accepted](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
+    * [Workfront: ZScalar settings can cause reduced performance](administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
     * [User credentials vs. SAML credentials](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
     * [Update auto-upgrade options in access levels](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront basics {#basics}
@@ -1761,7 +1763,7 @@ feature-set: Workfront
     * [View the Activity by team visualization in Enhanced analytics](enhanced-analytics/activity-by-team-overview.md)
   * Workfront Data Connect {#data-lake}
     * [Workfront Data Connect overview](reports-and-dashboards/data-lake/data-lake-overview.md)
-    * [Create a reader account](reports-and-dashboards/data-lake/create-a-reader-account.md)
+    * [Create a reader account or connection for Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
     * [Establish a connection to Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Workfront Data Connect data dictionary](reports-and-dashboards/data-lake/data-dictionary.md)
     * [Workfront Data Connect query examples](reports-and-dashboards/data-lake/basic-query-examples.md)
