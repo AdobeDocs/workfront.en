@@ -61,6 +61,29 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Google Calendar] modules, you must have a [!DNL Google] account.
 
+## Google Calendar API information
+
+The Google Calendar connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> https://www.googleapis.com/calendar/v3
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v5.4.5</td> 
+ </tbody> 
+ </table>
+
 ## [!DNL Google Calendar] modules and their fields
 
 When you configure [!DNL Google Calendar] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Google Calendar] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.

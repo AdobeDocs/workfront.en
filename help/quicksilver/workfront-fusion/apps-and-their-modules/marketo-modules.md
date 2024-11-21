@@ -65,6 +65,24 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Marketo] modules, you must have a [!DNL Marketo] account.
 
+## Marketo API information
+
+The Marketo connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.14.19</td> 
+ </tbody> 
+ </table>
+
 ## Connect [!DNL Marketo] to Workfront Fusion {#connect-marketo-to-workfront-fusion}
 
 You can create a connection to your [!DNL Marketo] account directly from inside [!DNL Marketo] module.

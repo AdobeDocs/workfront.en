@@ -59,6 +59,28 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## Google Drive API information
+
+The Google Drive connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> https://www.googleapis.com/drive/v3</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v4.1.22</td> 
+ </tbody> 
+ </table>
+
  
 
 ## Connecting [!DNL Google Drive] to [!DNL Workfront Fusion]
@@ -861,13 +883,13 @@ All examples on this page show the unencoded `<q>q</q>` parameter, where `title 
    <pre>fullText contains '"hello world"'fullText contains '"hello_world"'</pre>
 * Search for files with a query containing the "\" character (e.g., "\authors")
    <pre>fullText contains '\\authors'</pre>
-* Search for files writeable by the user "test@example.org"
+* Search for files writeable by the user `test@example.org`
    <pre>'test@example.org' in [!DNL writers]</pre>
 * Search for the ID `1234567` in the `parents` collection. This finds all files and folders located directly in the folder whose ID is `1234567`.
    <pre>'1234567' in [!UICONTROL parents]</pre>
 * Search for the alias ID `appDataFolder` in the `parents` collection. This finds all files and folders located directly under the [Application Data folder](https://developers.google.com/drive/api/v2/appdata).
    <pre>'appDataFolder' in parents</pre>
-* Search for files writeable by the users "test@example.org" and "test2@example.org"
+* Search for files writeable by the users `test@example.org` and `test2@example.org`
    <pre>'test@example.org' in writers and 'test2@example.org' in writers</pre>
 * Search for files containing the text "important" which are in the trash
    <pre>fullText contains 'important' and trashed = true</pre>

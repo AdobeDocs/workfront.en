@@ -61,6 +61,29 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Frame.io] modules, you must have a [!DNL Frame.io] account
 
+## Frame.io API information
+
+The Frame.io connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> https://api.frame.io/v2
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.0.76</td> 
+ </tbody> 
+ </table>
+
 ## Connect [!DNL Frame.io] to [!UICONTROL Adobe Workfront Fusion] 
 
 You can connect to [!DNL Frame.io] using an API token, or by using OAuth 2.0.

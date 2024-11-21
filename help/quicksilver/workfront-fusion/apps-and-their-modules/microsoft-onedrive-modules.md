@@ -63,6 +63,28 @@ To use [!DNL OneDrive] modules, you must have a [!DNL Microsoft OneDrive] accoun
 
 
 
+## OneDrive API information
+
+The OneDrive connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> https://graph.microsoft.com/v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v2.0.10</td> 
+ </tbody> 
+ </table>
+
 
 ## Connecting the [!DNL OneDrive] service to [!DNL Workfront Fusion]
 

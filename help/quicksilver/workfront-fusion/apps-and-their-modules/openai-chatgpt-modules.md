@@ -53,6 +53,24 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL OpenAI (ChatGPT & DALL-E)] modules, you must have an [!DNL OpenAI] account, including an API key and Organization ID.
 
+## OpenAI (ChatGPT & DALL-E) API information
+
+The OpenAI (ChatGPT & DALL-E) connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.11.1</td> 
+ </tbody> 
+ </table>
+
 ## Connecting [!DNL OpenAI (ChatGPT & DALL-E)] to [!DNL Workfront Fusion]
 
 You can create a connection to your [!DNL OpenAI (ChatGPT & DALL-E)] account directly from inside an [!DNL OpenAI (ChatGPT & DALL-E)] module.
