@@ -12,6 +12,17 @@ This page describes enhancements made with the First Quarter 2025 release to the
 
 For a list of all changes available at this point in the First Quarter 2025 release cycle, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Update on how moved or deleted assets in linked folders are managed
+
+>[!NOTE]
+>
+>Preview release: November 21, 2024; Production release for all customers: December 5, 2024
+
+We've changed the way moved and deleted assets are handled when using the Adobe Workfront integration with Experience Manager Assets and Assets Essentials:
+
+* Deleted assets: When an asset is deleted inside of a linked folder in Assets or Assets Essentials, the deleted asset will be retained in the Project Documents area.
+* Moved assets: When an asset is moved outside of a linked folder in Assets or Assets essentials, the moved asset will be retained in the Projects Documents area.
+
 ## Sections within a custom form are now collapsible and expandable
 
 >[!NOTE]
