@@ -24,12 +24,12 @@ Consider the following when editing document custom forms in bulk:
 * When you select documents that have different values for the same field, the field displays a "Multiple values" indicator. Fields that are checkboxes, radio buttons, and toggles have a "Multiple values" indicator next to them.
 * When you update one option in a multiple-option field (such as a field that displays as a set of toggles or checkboxes), all other options must match between the selected documents.
 
-    >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-    **Example**
-    You might have a custom form with a checkbox field with three checkboxes (Option1, Option 2, and Option 3) and Option 1 is unchecked for all selected documents, and Option 2 and 3 are checked for some and unchecked for other documents that you selected. If you want to check Option 1 for all documents, you must also make Option 2 and 3 match for all the selected projects before you can save your changes. So you must either select them or deselect them so that they can match on all the selected projects. If you do not change any of the options, you can save the field as is, and the documents maintain their current selection for all options.
+ **Example**
+ You might have a custom form with a checkbox field with three checkboxes (Option1, Option 2, and Option 3) and Option 1 is unchecked for all selected documents, and Option 2 and 3 are checked for some and unchecked for other documents that you selected. If you want to check Option 1 for all documents, you must also make Option 2 and 3 match for all the selected projects before you can save your changes. So you must either select them or deselect them so that they can match on all the selected projects. If you do not change any of the options, you can save the field as is, and the documents maintain their current selection for all options.
 
-    >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 ## Access Requirements
 
