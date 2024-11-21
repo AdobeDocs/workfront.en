@@ -57,7 +57,7 @@ The numbered icon in the upper-right corner of [!DNL Workfront] displays the num
 
    ![Recent unread notifications](assets/qs-notifications-350x330.png)
 
-   Up to 80 notifications display in a scrollable list. To see more, you can click **[!UICONTROL All notifications]** at the bottom of the list to view up to 500 notifications. Notifications are automatically deleted after 30 days.
+   The number icon displays a scrollable list with up to 80 notifications. To see more, you can click **[!UICONTROL All notifications]** at the bottom of the list to view up to 500 notifications. Notifications are automatically deleted after 30 days.
 
    At the bottom of each notification, the [!UICONTROL notification type] and a corresponding identifying icon display. These help you identify what happened to the [!DNL Workfront] item mentioned and alert you if you have an action item:
 
