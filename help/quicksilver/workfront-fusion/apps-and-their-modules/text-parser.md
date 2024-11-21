@@ -52,6 +52,21 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## Text parser API information
+
+The Text parser connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v2</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## [!UICONTROL Text parser] modules and their fields
 
 When you configure [!UICONTROL Text parser] modules, [!DNL Adobe Workfront Fusion] displays the fields listed below. A bolded title in a module indicates a required field.

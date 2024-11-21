@@ -52,6 +52,25 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL HubSpot CRM] modules, you must have a [!DNL HubSpot CRM] account.
 
+## HubSpot CRM API information
+
+The HubSpot CRM connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td>https://api.hubapi.com</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v2.0.14</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Connect [!DNL Adobe Workfront Fusion] to [!DNL HubSpot CRM]
 
 For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see [Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)

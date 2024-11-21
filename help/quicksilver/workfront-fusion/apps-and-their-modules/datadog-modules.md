@@ -61,6 +61,21 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Datadog] modules, you must have a [!DNL Datadog] account.
 
+## Datadog API information
+
+The Datadog connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>1.0.11</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Connect [!DNL Datadog] to [!DNL Workfront Fusion] {#connect-datadog-to-workfront-fusion}
 
 ### Retrieve your API key and application key {#retrieve-your-api-key-and-application-key}

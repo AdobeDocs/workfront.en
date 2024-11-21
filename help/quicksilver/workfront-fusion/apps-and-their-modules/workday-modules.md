@@ -66,6 +66,25 @@ To use the [!DNL Workday] modules, you must:
 
 * Create an OAuth application in [!DNL Workday]. For instructions, see the [!DNL Workday] documentation.
 
+## Workday API information
+
+The Workday connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td>https://&#123;&#123;connection.servicesUrl&#125;&#125;/api</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.6.4</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Connect [!DNL Workday] to [!DNL Workfront Fusion]
 
 1. In any [!DNL Workfront Fusion] module, click [!UICONTROL Add] next to the [!UICONTROL Connection] field

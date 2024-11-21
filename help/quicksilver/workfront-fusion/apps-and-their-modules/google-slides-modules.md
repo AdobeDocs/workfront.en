@@ -61,6 +61,29 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Google Slides] modules, you must have a [!DNL Google] account.
 
+## Google Slides API information
+
+The Google Slides connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> https://slides.googleapis.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.5.9</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## [!DNL Google Slides] modules and their fields
 
 When you configure [!DNL Google Slides] modules, Workfront Fusion displays the fields listed below. Along with these, additional [!DNL Google Slides] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
@@ -243,7 +266,7 @@ Creates a new presentation by replacing all tags like `{{Name}}`, `{{Email}}` in
    <td> <p>Add the values:</p> 
     <ul> 
      <li><strong>[!UICONTROL Tag]</strong>: Enter the tag you want to replace in the presentation. For example, <code>&#123;&#123;Name&#125;&#125;</code></li> 
-     <li><strong>[!UICONTROL Replaced Value]</strong>: Enter the value with which the existing tag is to be replaced. For example, if a string <code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name}}</code> will be replaced by <code>Sample</code>.</li> 
+     <li><strong>[!UICONTROL Replaced Value]</strong>: Enter the value with which the existing tag is to be replaced. For example, if a string <code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name&#125;&#125;</code> will be replaced by <code>Sample</code>.</li> 
     </ul> </td> 
   </tr> 
   <tr> 

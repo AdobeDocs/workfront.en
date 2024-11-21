@@ -61,6 +61,25 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL ServiceNow] modules, you must have a [!DNL ServiceNow] account.
 
+## ServiceNow API information
+
+The ServiceNow connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td>https://&#123;&#123;connection.instance&#125;&#125;/api</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.5.13</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Connect [!DNL ServiceNow] to [!DNL Workfront Fusion]
 
 To create a connection for your [!DNL ServiceNow] modules:

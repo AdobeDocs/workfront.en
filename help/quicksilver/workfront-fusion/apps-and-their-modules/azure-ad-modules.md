@@ -59,6 +59,25 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Azure Active Directory] modules, you must have an [!DNL Azure Active Directory] account.
 
+## [!DNL Azure Active Directory] API information
+
+The Azure Active Directory connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.4.5</td> 
+  </tr>
+ </tbody> 
+</table>
+
 ## [!DNL Azure Active Directory] modules and their fields
 
 When you configure [!DNL Azure Active Directory] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Azure Active Directory] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.

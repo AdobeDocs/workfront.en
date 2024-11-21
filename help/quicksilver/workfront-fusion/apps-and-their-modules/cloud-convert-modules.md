@@ -41,6 +41,29 @@ In an Adobe Workfront Fusion scenario, you can automate workflows that use Cloud
  </tbody> 
 </table>
 
+## CloudConvert API information
+
+The CloudConvert connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> https://api.cloudconvert.com/v2/</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v2.14.22</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Connect [!DNL CloudConvert] to [!DNL Workfront Fusion] {#connect-cloudconvert-to-workfront-fusion}
 
 To connect your [!DNL CloudConvert] account to [!DNL Workfront Fusion], you need to obtain the API Key from your [!DNL CloudConvert] account.

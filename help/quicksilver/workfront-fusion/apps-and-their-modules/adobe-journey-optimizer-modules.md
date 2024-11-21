@@ -73,6 +73,25 @@ Before you can use the [!DNL Adobe Journey Optimizer] connector, you must ensure
 
 * You must have an active [!DNL Adobe Journey Optimizer] account.
 
+## Adobe Journey Optimizer API information
+
+The Adobe Journey Optimizer connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td>&#123;&#123;connection.url&#125;&#125;</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.7.11</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Create a connection to Adobe Journey Optimizer
 
 You can create a connection in any Adobe Journey Optimizer module.

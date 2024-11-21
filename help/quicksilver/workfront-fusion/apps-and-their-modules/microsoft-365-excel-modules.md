@@ -61,6 +61,29 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Microsoft office 365 Excel], you must have a Microsoft account.
 
+## Microsoft Office 365 Excel API information
+
+The Microsoft Office 365 Excel connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> https://graph.microsoft.com/v1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v2.0.16</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 
 
 ## Connecting the [!DNL Office 365 Excel] service to [!DNL Workfront Fusion]

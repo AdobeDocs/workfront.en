@@ -61,6 +61,25 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Allocadia] modules, you must have an [!DNL Allocadia] account.
 
+## [!DNL Allocadia] API information
+
+The Allocadia connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.7.6</td> 
+  </tr>
+ </tbody> 
+</table>
+
 ## Connect [!DNL Allocadia] to [!DNL Workfront Fusion] 
 
 You can create a connection to your [!DNL Allocadia] account directly from inside an [!DNL Allocadia] module.

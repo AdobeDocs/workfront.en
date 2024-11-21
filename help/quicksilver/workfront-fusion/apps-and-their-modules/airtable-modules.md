@@ -55,6 +55,25 @@ You must have an Airtable account to use the functionality in this article.
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see the tutorial .</p>
 -->
 
+## Airtable API information
+
+The Airtable connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td>https://api.airtable.com/v0</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v3.3.28</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Connect Airtable to Workfront Fusion {#connect-airtable-to-workfront-fusion}
 
 <!--

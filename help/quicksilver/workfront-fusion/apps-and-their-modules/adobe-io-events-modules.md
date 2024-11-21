@@ -51,6 +51,25 @@ Before you can use the Adobe I/O Events connector, you must ensure that the foll
 
 * You must have an active Adobe account.
 
+## Adobe I/O Events API information
+
+The Adobe I/O Events connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td>https://api.adobe.io/events</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.6.7</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Create a connection to Adobe I/O Events
 
 To create a connection for your Adobe I/O Events modules:

@@ -63,6 +63,29 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Google Docs] modules, you must have a Google account.
 
+## Google Docs API information
+
+The Google Docs connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> https://docs.googleapis.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.4.13</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## [!DNL Google Docs] modules and their fields
 
 When you configure [!DNL Google Docs] modules, [!UICONTROL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Google Docs] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.

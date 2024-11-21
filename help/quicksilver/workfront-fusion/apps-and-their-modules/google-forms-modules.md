@@ -63,6 +63,21 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Google Forms] modules, you must have a [!DNL Google] account.
 
+## Google Forms API information
+
+The Google Forms connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>2.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Creating a Spreadsheet from the Form
 
 In order to work with your form responses, the spreadsheet from your responses must be created.

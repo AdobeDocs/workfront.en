@@ -60,6 +60,21 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 * You must have an [!DNL Adobe Experience Manager Forms] account to use this module.
 
+## Adobe Experience Manager Assets API information
+
+The Adobe Experience Manager Assets connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.2.27</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Create a connection to Adobe Experience Manager Forms
 
 To create a connection for your [!DNL Adobe Experience Manager Forms] modules:
