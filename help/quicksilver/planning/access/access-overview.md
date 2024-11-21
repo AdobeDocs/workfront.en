@@ -59,7 +59,7 @@ You must have the following access to perform the steps in this article:
    </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td>
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td>
    <td>
 <p>Any of the following Workfront Planning plans:</p>
 <ul><li>Planning</li>

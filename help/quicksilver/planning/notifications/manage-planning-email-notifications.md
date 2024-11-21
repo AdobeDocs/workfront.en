@@ -49,7 +49,7 @@ You can receive email notifications from Workfront Planning when the following s
 <p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
 <p>Any </p> 
 <p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
