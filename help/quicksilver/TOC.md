@@ -605,7 +605,7 @@ feature-set: Workfront
       * [Customize object headers using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
       * [Customize the left panel](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
       * [Customize the Details view](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-      * [Customize Home and Summary](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+      * [Customize the Summary panel using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
       * [Customize new Home](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
       * [Customize pinned pages](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
       * [Customize Filters, Views, Groupings](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
