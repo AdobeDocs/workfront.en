@@ -10,10 +10,9 @@ recommendations: noDisplay, noCatalog
 
 ---
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
-
 # Edit documents in bulk
+
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 You can edit the description, add custom forms, and edit custom forms across multiple documents at once. 
 
