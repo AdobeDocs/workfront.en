@@ -836,19 +836,20 @@ This table lists the available native fields for specific Workfront objects in a
       <td><p>(Required) Select a Workfront native field.<p><p>Only native fields for the form's objects are available. For example, if the Object Types list at the top of the form designer shows Project, you will be able to select native fields for projects but not fields that are specific to tasks.</p></td>
      </tr>
      <tr>
-      <td role="rowheader">Add Filter</td>
-      <td><p>Add a filter for the reference field to limit the list of items users can choose from when they are using the field. </p> <p>For example, you could limit a field so that user names can be selected only if they meet the following criteria:</p> 
-       <ul> 
+      <td role="rowheader"><span class="preview">Add Filter</span></td>
+      <td><span class="preview"><p>Add a filter for the reference field to limit the list of items users can choose from when they are using the field. </p> <p>For example, you could limit a field so that user names can be selected only if they meet the following criteria:</p> 
+       <ul>
         <li>They belong to a group or groups that you specify</li> 
         <li>They are associated with a role or job title you specify</li> 
         <li>They belong to the same group as the person using the field</li> 
-       </ul> <p>You must define the filter for the reference field you selected using Text Mode syntax. For information about creating a filter using Text Mode, see <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Edit a filter using text mode</a>.</p>
+       </ul>
+       <p>You must define the filter for the reference field you selected using Text Mode syntax. For information about creating a filter using Text Mode, see <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Edit a filter using text mode</a>.</p>
        <p><b>NOTE</b>:
        <ul> 
         <li>The filter option is only available when you reference a native typeahead field, such as Portfolio, Company, or Owner.</li>
         <li>If you are editing an existing custom form, adding a filter to a native field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
         <li>This filter is not available on mobile devices. If you use the filter for a native field, the field will appear on users' mobile devices unaffected by the filter.</li> 
-        </ul></p></td> 
+        </ul></p></span></td> 
       <td>
      </tr>
      <tr> 

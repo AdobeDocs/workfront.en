@@ -130,11 +130,11 @@ IF(
 
      <span class="preview">You can include a static URL in the error message, to link to documentation or other helpful pages to guide the user on how to modify their action within the constraint of the rule.</span>
 
-     <span class="preview">In this example, "Learn more" will link to the URL. `"You are not allowed to add a new expense in June.[Learn more](http://url)"` The URL must be in parentheses, but link text in brackets is not required. You can display the full URL and it will be a clickable link.</span>
+     <span class="preview">In this example, "Learn more" will link to the URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` The URL must be in parentheses, but link text in brackets is not required. You can display the full URL and it will be a clickable link.</span>
 
    ![Add business rule dialog](assets/add-business-rule-dialog-no-ai-button.png)
 
-   This example is a business rule for expenses. If the current month is June, then users are not permitted to create new expenses, and the message explains this.
+   This example is a business rule for projects. If the current month is November, then users are not permitted to create new projects, and the message explains this.
    
    For more examples of business rules, see [Scenarios for business rules](#scenarios-for-business-rules) in this article.
 
