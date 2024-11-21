@@ -152,3 +152,9 @@ These statuses include the following:
   </tbody> 
 </table>
 
+## Resources
+
+* For FAQs regarding environment promotion, see [Environment promotion FAQ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
+* For troubleshooting recommendations, see [Environment promotion troubleshooting](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+
+

@@ -56,7 +56,9 @@ You can manually update the Commit date of a task or an issue that you are assig
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions on the task or issue</p> </td> 
+   <td> <p>Manage permissions on the task or issue</p>
+   <p> You must be assigned to the task or issue to update the commit date </p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
