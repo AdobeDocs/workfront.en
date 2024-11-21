@@ -53,6 +53,26 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## [!DNL Adobe Acrobat Sign] API information
+
+The Adobe Acrobat Sign connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v6 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.35.1</td> 
+  </tr>
+ </tbody> 
+</table>
+
+
 ## [!DNL Adobe Acrobat Sign] connector usage recommendations
 
 The [!DNL Adobe Sign ]app makes automating eSignature business processes in [!DNL Fusion] much easier and more powerful.

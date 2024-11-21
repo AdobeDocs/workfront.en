@@ -63,6 +63,29 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Microsoft Office 365 Email] modules, you must have a [!DNL Microsoft Office 365 Email] account.
 
+## Microsoft Office 365 Email API information
+
+The Microsoft Office 365 Email connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> https://graph.microsoft.com/v1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v2.6.5</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 
 
 ## Connecting the [!DNL Office 365 Email] service to [!DNL Workfront Fusion]

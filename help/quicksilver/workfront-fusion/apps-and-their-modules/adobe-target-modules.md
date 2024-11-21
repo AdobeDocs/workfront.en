@@ -70,6 +70,21 @@ Before you can use the [!DNL Adobe Target] connector, you must ensure that the f
 
 * You must have an active [!DNL Adobe Target] account.
 
+## Adobe Target API information
+
+The Adobe Target connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.7.33</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Create a connection to [!DNL Adobe Target]
 
 >[!IMPORTANT]

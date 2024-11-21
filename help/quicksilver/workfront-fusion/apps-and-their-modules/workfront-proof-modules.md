@@ -61,6 +61,25 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## Workfront Proof information
+
+The Workfront Proof connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v21.3.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.8.92</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Connect [!DNL Workfront Proof] to [!DNL Workfront Fusion] 
 
 You can create a connection to your [!DNL Workfront Proof] account directly from inside a [!DNL Workfront Fusion] module.

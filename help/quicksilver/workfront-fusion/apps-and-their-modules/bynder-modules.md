@@ -61,6 +61,25 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Bynder] modules, you must have a [!DNL Bynder] account.
 
+## Bynder API information
+
+The Bynder connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v4 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.25.21</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Connect [!DNL Bynder] to Workfront Fusion  {#connect-bynder-to-workfront-fusion}
 
 * [Create a connection to [!DNL Bynder] from [!DNL Workfront Fusion]](#create-a-connection-to-bynder-from-workfront-fusion)

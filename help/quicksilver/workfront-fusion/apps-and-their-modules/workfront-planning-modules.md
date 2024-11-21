@@ -55,6 +55,25 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## Adobe Workfront Planning API information
+
+The Adobe Workfront Planning connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td>https://&#123;&#123;connection.host&#125;&#125;/maestro/api/&#123;&#123;common.maestroApiVersion&#125;&#125;/</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.13.7</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Create a connection to [!DNL Adobe Workfront Planning]
 
 You can create a connection to your [!DNL Workfront Planning] account directly from inside a [!DNL Workfront Fusion] module.

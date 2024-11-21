@@ -61,6 +61,25 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Cvent] modules, you must have a [!DNL Cvent] account.
 
+## Cvent API information
+
+The Cvent connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> V200611.ASMX </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.7.14</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Connect [!DNL Cvent] to [!DNL Adobe Workfront Fusion] {#connect-cvent-to-adobe-workfront-fusion}
 
 >[!NOTE]

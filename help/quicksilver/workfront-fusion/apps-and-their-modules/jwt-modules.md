@@ -52,6 +52,21 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## JWT API information
+
+The JWT connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+   <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.1.5</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## JWT module and its fields
 
 ### Generate JWT

@@ -70,6 +70,25 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Adobe Creative Cloud Libraries] modules, you must have an [!UICONTROL Adobe Creative Cloud] account.
 
+## Adobe Creative Cloud Libraries API information
+
+The Adobe Creative Cloud Libraries connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td>https://cc-libraries.adobe.io/api/v1</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.1.7</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## [!UICONTROL Adobe Creative Cloud Libraries] modules and their fields
 
 When you configure [!UICONTROL Adobe Creative Cloud Libraries] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Adobe Creative Cloud Libraries] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.

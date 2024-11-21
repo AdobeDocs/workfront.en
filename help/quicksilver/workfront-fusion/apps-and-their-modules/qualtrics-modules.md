@@ -61,6 +61,29 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Qualtrics] modules, you must have a [!UICONTROL Qualtrics] account.
 
+## Qualtrics API information
+
+The Qualtrics connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> https://&#123;&#123;connection.dataCenterCode&#125;&#125;.qualtrics.com/API/v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.1.1</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Connecting [!DNL Qualtrics] to [!DNL Workfront Fusion]
 
 You can create a connection to your [!DNL Qualtrics] account directly from inside a [!UICONTROL Qualtrics] module.

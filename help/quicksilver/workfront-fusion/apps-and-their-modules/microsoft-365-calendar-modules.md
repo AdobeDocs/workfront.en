@@ -63,6 +63,29 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Microsoft Office 365 Calendar] modules, you must have a [!DNL Microsoft Office 365 Calendar] account.
 
+## Microsoft Office 365 Calendar API information
+
+The Microsoft Office 365 Calendar connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> https://graph.microsoft.com/v1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v2.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Connecting the [!DNL Office 365 Calendar] service to [!DNL Workfront Fusion]
 
 For instructions about connecting your [!DNL Office 365 Calendar] account to [!UICONTROL Workfront Fusion], see [Create a connection to [!UICONTROL Adobe Workfront Fusion] - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)

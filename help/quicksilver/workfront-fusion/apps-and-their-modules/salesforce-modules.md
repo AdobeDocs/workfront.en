@@ -71,6 +71,29 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Salesforce] modules, you must have a [!DNL Salesforce] account.
 
+## Salesforce API information
+
+The Salesforce connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> &#123;&#123;connection.instanceUrl&#125;&#125;</td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v46.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.15.14</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## About searching for [!DNL Salesforce] objects
 
 When searching for objects, you can either enter individual search words or create a more complex query using wild cards and operators:

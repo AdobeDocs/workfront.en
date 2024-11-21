@@ -61,6 +61,29 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Trello] modules, you must have a [!UICONTROL Trello] account.
 
+## Trello API information
+
+The Trello connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> https://api.trello.com/1</td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v4.12.37</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Connect [!UICONTROL Trello] to [!DNL Workfront Fusion]
 
 For instructions about connecting your [!UICONTROL Trello] account to [!DNL Workfront Fusion], see [Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)

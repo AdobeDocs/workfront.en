@@ -59,6 +59,37 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Jira] modules you must have a [!DNL Jira] account.
 
+## Jira API information
+
+The Jira connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"></td> 
+   <td> Jira Cloud</td> 
+   <td> Jira Server</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">apiVersion</td> 
+   <td> 2</td> 
+   <td> 2</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">apiVersionAgile</td> 
+   <td> 1.0 </td> 
+   <td> 1.0</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>1.7.29</td> 
+   <td>1.0.19</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Connect [!DNL Jira Software] to [!DNL Workfront Fusion]
 
 Your connection method is based on whether you are using [!DNL Jira Cloud] or [!DNL Jira Server].

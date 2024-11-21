@@ -67,6 +67,29 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 >
 >For more information, search for "Production approval" in the Dropbox developer guide.
 
+## Dropbox API information
+
+The Dropbox connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> https://api.dropboxapi.com/2    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> 2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td><ul><li><p>Dropbox</p><p>v5.3.9</p></li><li><p>Dropbox Business</p><p>v1.0.12</p></li></ul></td> 
+  </tr>
+ </tbody> 
+ </table>
+
 
 ## Create a connection to [!DNL Dropbox]
 

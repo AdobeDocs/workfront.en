@@ -64,6 +64,29 @@ Before you can use the [!DNL Anaplan] connector, you must ensure that the follow
 * You must have an active [!UICONTROL Anaplan] account.
 * You must configure Workspaces, Models, and other [!DNL Anaplan] objects in your [!UICONTROL Anaplan] account before [!DNL Workfront Fusion] can interact with them.
 
+## Anaplan API information
+
+The Anaplan connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td>https://api.anaplan.com/2/0/
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.11.5/td> 
+ </tbody> 
+</table>
+
 ## Connect [!DNL Anaplan] to [!DNL Workfront Fusion] {#connect-anaplan-to-workfront-fusion}
 
 To create a connection for your [!DNL Anaplan] modules:

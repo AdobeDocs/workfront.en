@@ -61,6 +61,25 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Azure DevOps] modules, you must have an [!DNL Azure] DevOps account.
 
+## [!DNL Azure DevOps] API information
+
+The Azure DevOps connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v5.1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.29.33</td> 
+  </tr>
+ </tbody> 
+</table>
+
 ## Connect [!DNL Azure DevOps] to [!DNL Workfront Fusion] {#connect-azure-devops-to-workfront-fusion}
 
 1. Add an [!DNL Azure DevOps] module to your scenario.

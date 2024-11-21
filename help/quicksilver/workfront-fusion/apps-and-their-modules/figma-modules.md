@@ -66,6 +66,29 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Figma] modules, you must have a [!DNL Figma] account.
 
+## Figma API information
+
+The Figma connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> https://api.figma.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.8.25</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## [!DNL Figma] modules and their fields
 
 When you configure [!DNL Figma] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Figma] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.

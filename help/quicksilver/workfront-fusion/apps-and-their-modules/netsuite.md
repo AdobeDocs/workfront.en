@@ -61,6 +61,25 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL NetSuite] modules, you must have a [!DNL NetSuite] account.
 
+## NetSuite API information
+
+The NetSuite connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Create a connection to NetSuite
 
 To create a connection for your [!DNL NetSuite] modules:

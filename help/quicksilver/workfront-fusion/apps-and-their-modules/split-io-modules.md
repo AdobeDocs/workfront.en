@@ -61,6 +61,29 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Split.io] modules, you must have a [!DNL Split.io] account.
 
+## Split.io API information
+
+The Split.io connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> https://api.split.io/internal/api</td>
+   </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.34.1</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Connect [!DNL Split.io] to [!DNL Workfront Fusion]  {#connect-split-io-to-workfront-fusion}
 
 You can create a connection to your [!DNL Split.io] account directly from inside a [!DNL Split.io] module.

@@ -61,6 +61,29 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use the [!DNL Quickbase] module, you must have a [!DNL Quickbase] account.
 
+## Quickbase API information
+
+The Quickbase connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> https://api.quickbase.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.0.12</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## [!DNL Quickbase] module and its fields
 
 When you configure [!DNL Quickbase] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Quickbase] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
