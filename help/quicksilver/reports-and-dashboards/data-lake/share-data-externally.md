@@ -12,20 +12,22 @@ exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
 
 Workfront Data Connect allows you to use your organization's Workfront data with business intelligence tools or store it in an external data warehouse.
 
-In order connect your Data Connect data lake with an external product, you must first add any required IPs to the allowlist as described in [Add IPs to the allowlist](#add-ips-to-the-allowlist) below. Additionally, most products will require additional information about your data lake to establish a connection:
+In order connect your Data Connect data lake with an external product, you must first create a connection as described in [Create a reader account or connection for Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Then, you must add any required IPs to the allowlist as described in [Add IPs to the allowlist](#add-ips-to-the-allowlist) below.
+
+Most products will require the following information about your data lake to establish a connection:
 
 | Field name    | Value       |
 |---------------|-------------|
-| Server    | The URL for the connection, without the `https://` portion (found on the **Data access** page in Workfront*) |
+| Server    | The URL for the connection, without the `https://` portion (found on the **Data Connect** page in Workfront*) |
 | Port      | `443`         |
 | Database  | `WORKFRONT`   |
 | Warehouse | `READER_WH`   |
 | Schema    | `WF`          |
 | Role      | `READER_ROLE` |
-| Username  | The username chosen when creating the connection (found on the **Data access** page in Workfront*) |
+| Username  | The username chosen when creating the connection (found on the **Data Connect** page in Workfront*) |
 | Password  | The password chosen upon first Snowflake login* |
 
-*For information on where to find the **Data access** page containing your Data Connect connections, see [Create a reader (service) account for Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
+*For information on where to find the **Data Connect** page containing your connections, see [Create a reader account or connection for Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
 
 >[!IMPORTANT]
 >
@@ -76,7 +78,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Setup**.
 
-1. In the left panel, click **System** > **Data Access**.
+1. In the left panel, click **System** > **Data Connect**.
 
 1. Click on the **Allowed IPs** tab, then click on the **Add an IP Address to your Allowlist** button.
 
@@ -88,7 +90,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Setup**.
 
-1. In the left panel, click **System** > **Data Access**.
+1. In the left panel, click **System** > **Data Connect**.
 
 1. Click on the **Allowed IPs** tab, then click on the trashcan icon ![Delete icon](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) to the right of the IP address you would like to remove.
 
