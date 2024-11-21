@@ -79,6 +79,7 @@ The Box connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v3.0.3</td> 
+  </tr>
  </tbody> 
  </table>
 

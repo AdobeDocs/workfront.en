@@ -80,6 +80,7 @@ The Microsoft Office 365 Excel connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v2.0.16</td> 
+  </tr>
  </tbody> 
  </table>
 

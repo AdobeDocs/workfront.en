@@ -78,6 +78,7 @@ The Google Drive connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v4.1.22</td> 
+  </tr>
  </tbody> 
  </table>
 

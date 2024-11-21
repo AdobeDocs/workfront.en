@@ -80,6 +80,7 @@ The Marketo connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v1.14.19</td> 
+  </tr>
  </tbody> 
  </table>
 

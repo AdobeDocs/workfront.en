@@ -68,6 +68,7 @@ The OpenAI (ChatGPT & DALL-E) connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v1.11.1</td> 
+  </tr>
  </tbody> 
  </table>
 
@@ -342,6 +343,7 @@ This module lists and describes the various models available in the OpenAI API.
     <li><p><b>Retrieve model </b></p><p>Enter or map the ID of the model you want to retrieve. </p></li>
    </ul>
  </td> 
+  </tr>
  </tbody> 
 </table>
 

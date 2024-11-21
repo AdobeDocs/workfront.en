@@ -82,6 +82,7 @@ The OneDrive connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v2.0.10</td> 
+  </tr>
  </tbody> 
  </table>
 

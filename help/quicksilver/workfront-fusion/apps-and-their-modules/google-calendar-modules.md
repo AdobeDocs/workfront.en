@@ -71,8 +71,7 @@ The Google Calendar connector uses the following:
  <tbody> 
   <tr> 
    <td role="rowheader">Base URL</td> 
-   <td> https://www.googleapis.com/calendar/v3
-</td> 
+   <td> https://www.googleapis.com/calendar/v3</td> 
   </tr> 
   <tr> 
    <td role="rowheader">API version</td> 
@@ -81,6 +80,7 @@ The Google Calendar connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v5.4.5</td> 
+  </tr>
  </tbody> 
  </table>
 

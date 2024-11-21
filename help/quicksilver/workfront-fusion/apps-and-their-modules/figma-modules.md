@@ -76,8 +76,7 @@ The Figma connector uses the following:
  <tbody> 
   <tr> 
    <td role="rowheader">Base URL</td> 
-   <td> https://api.figma.com/v1
-</td> 
+   <td> https://api.figma.com/v1</td> 
   </tr> 
   <tr> 
    <td role="rowheader">API version</td> 
@@ -86,6 +85,7 @@ The Figma connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v1.8.25</td> 
+  </tr>
  </tbody> 
  </table>
 

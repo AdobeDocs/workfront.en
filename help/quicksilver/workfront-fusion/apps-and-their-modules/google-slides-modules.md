@@ -80,6 +80,7 @@ The Google Slides connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v1.5.9</td> 
+  </tr>
  </tbody> 
  </table>
 

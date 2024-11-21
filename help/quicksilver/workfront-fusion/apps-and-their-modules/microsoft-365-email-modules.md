@@ -82,6 +82,7 @@ The Microsoft Office 365 Email connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v2.6.5</td> 
+  </tr>
  </tbody> 
  </table>
 

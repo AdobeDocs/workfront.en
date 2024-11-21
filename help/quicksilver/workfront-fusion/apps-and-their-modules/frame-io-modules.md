@@ -71,8 +71,7 @@ The Frame.io connector uses the following:
  <tbody> 
   <tr> 
    <td role="rowheader">Base URL</td> 
-   <td> https://api.frame.io/v2
-</td> 
+   <td> https://api.frame.io/v2</td> 
   </tr> 
   <tr> 
    <td role="rowheader">API version</td> 
@@ -81,6 +80,7 @@ The Frame.io connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v1.0.76</td> 
+  </tr>
  </tbody> 
  </table>
 

@@ -86,6 +86,7 @@ The Jira connector uses the following:
    <td role="rowheader">API tag</td> 
    <td>1.7.29</td> 
    <td>1.0.19</td> 
+  </tr>
  </tbody> 
  </table>
 

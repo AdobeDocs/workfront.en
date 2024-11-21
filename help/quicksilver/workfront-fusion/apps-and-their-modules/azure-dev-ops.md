@@ -76,6 +76,7 @@ The Azure DevOps connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v1.29.33</td> 
+  </tr>
  </tbody> 
 </table>
 

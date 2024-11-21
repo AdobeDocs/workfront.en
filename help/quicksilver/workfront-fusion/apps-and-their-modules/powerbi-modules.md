@@ -78,6 +78,7 @@ The Microsoft Power BI connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v1.0.2</td> 
+  </tr>
  </tbody> 
  </table>
 

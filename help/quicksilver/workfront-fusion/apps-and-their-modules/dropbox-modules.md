@@ -86,6 +86,7 @@ The Dropbox connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td><ul><li><p>Dropbox</p><p>v5.3.9</p></li><li><p>Dropbox Business</p><p>v1.0.12</p></li></ul></td> 
+  </tr>
  </tbody> 
  </table>
 

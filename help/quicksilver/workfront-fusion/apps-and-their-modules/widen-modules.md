@@ -57,6 +57,25 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!UICONTROL Widen] modules, you must have a [!UICONTROL Widen] account.
 
+## Widen API information
+
+The Widen connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.10.11</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Connect [!DNL Widen] to [!DNL Workfront Fusion]  {#connect-widen-to-workfront-fusion}
 
 You can create a connection to your [!DNL Widen] account directly from inside a [!DNL Widen] module.

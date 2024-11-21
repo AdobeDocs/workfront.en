@@ -60,6 +60,7 @@ The CloudConvert connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v2.14.22</td> 
+  </tr>
  </tbody> 
  </table>
 

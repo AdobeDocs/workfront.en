@@ -76,6 +76,7 @@ The Allocadia connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v1.7.6</td> 
+  </tr>
  </tbody> 
 </table>
 

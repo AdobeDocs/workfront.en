@@ -76,6 +76,7 @@ The Bynder connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v1.25.21</td> 
+  </tr>
  </tbody> 
  </table>
 

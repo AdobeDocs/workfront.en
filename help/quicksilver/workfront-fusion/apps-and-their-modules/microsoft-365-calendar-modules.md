@@ -73,8 +73,7 @@ The Microsoft Office 365 Calendar connector uses the following:
  <tbody> 
   <tr> 
    <td role="rowheader">Base URL</td> 
-   <td> https://graph.microsoft.com/v1.0
-</td> 
+   <td> https://graph.microsoft.com/v1.0</td> 
   </tr> 
   <tr> 
    <td role="rowheader">API version</td> 
@@ -83,6 +82,7 @@ The Microsoft Office 365 Calendar connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v2.0.10</td> 
+  </tr>
  </tbody> 
  </table>
 

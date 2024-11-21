@@ -74,6 +74,7 @@ The Azure Active Directory connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v1.4.5</td> 
+  </tr>
  </tbody> 
 </table>
 

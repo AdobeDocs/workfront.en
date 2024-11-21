@@ -76,6 +76,7 @@ The Cvent connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v1.7.14</td> 
+  </tr>
  </tbody> 
  </table>
 

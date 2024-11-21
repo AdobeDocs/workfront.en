@@ -78,6 +78,7 @@ The Google Sheets connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v2.5.7</td> 
+  </tr>
  </tbody> 
  </table>
 

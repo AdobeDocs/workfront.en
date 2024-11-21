@@ -73,8 +73,7 @@ The Google Docs connector uses the following:
  <tbody> 
   <tr> 
    <td role="rowheader">Base URL</td> 
-   <td> https://docs.googleapis.com/v1
-</td> 
+   <td> https://docs.googleapis.com/v1</td> 
   </tr> 
   <tr> 
    <td role="rowheader">API version</td> 
@@ -83,6 +82,7 @@ The Google Docs connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v1.4.13</td> 
+  </tr>
  </tbody> 
  </table>
 

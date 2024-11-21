@@ -68,6 +68,7 @@ The Adobe Acrobat Sign connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v1.35.1</td> 
+  </tr>
  </tbody> 
 </table>
 

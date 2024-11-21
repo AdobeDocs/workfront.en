@@ -76,6 +76,7 @@ The NetSuite connector uses the following:
   <tr> 
    <td role="rowheader">API tag</td> 
    <td>v1.0.10</td> 
+  </tr>
  </tbody> 
  </table>
 
