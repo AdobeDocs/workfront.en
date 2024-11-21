@@ -13,12 +13,9 @@ exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
 
 <!-- Audited: 12/2023 -->
 
-<!--
-
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
--->
 
 The task Duration is the difference between the Planned Completion Date and the Planned Start Date of the task. The Duration indicates the time frame that is available for the task to get completed.
 
@@ -32,8 +29,6 @@ If the Actual Start and Actual Completion Dates of the task fall outside of the 
 
 The following are two scenarios that exist when calculating duration in Adobe Workfront: 
 
-<!--
-<div class="preview">
 * If the task is assigned to one user, the following scenarios exist based on what environment you use: 
 
   * In the Production environment, Workfront uses one of the following schedules, in this exact order to calculate Duration:
@@ -42,24 +37,19 @@ The following are two scenarios that exist when calculating duration in Adobe Wo
    1. If the user is not associated with a schedule, Workfront takes into account the project's schedule.
    1. If the project is not associated with a schedule, Workfront takes into account the Default Schedule of your system. For information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
+<div class="preview">
+
    * In the Preview environment:
 
-      1. Workfront takes into account either the schedule of the project or that of the primary assignee.
+      1. Workfront takes into account either the schedule of the project or that of the user assigned to the task.
 
-          Your Workfront or group administrator determines which schedule Workfront uses when a task is assigned to one  user. For information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+          Your Workfront or group administrator determines which schedule Workfront uses when a task is assigned to one user. For information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
       1. If the user or the project don't have a schedule, Workfront uses the system Default schedule. 
 
       The steps are similar to the first scenario after understanding which schedule Workfront uses to calculate Duration.
 
 </div>
--->
-
-* If the task is assigned to a user, Workfront uses one of the following schedules, in this exact order to calculate Duration:
-
-   1. Workfront takes into account the user's schedule. 
-   1. If the user is not associated with a schedule, Workfront takes into account the project's schedule.
-   1. If the project is not associated with a schedule, Workfront takes into account the Default Schedule of your system. For information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * If the task is assigned to multiple users:
 
