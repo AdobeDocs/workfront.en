@@ -44,7 +44,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>Or</p>
    <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
    </td> 
@@ -59,6 +59,21 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 ## Prerequisites
 
 * You must have an [!DNL Adobe Experience Manager Forms] account to use this module.
+
+## Adobe Experience Manager Assets API information
+
+The Adobe Experience Manager Assets connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.2.27</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Create a connection to Adobe Experience Manager Forms
 

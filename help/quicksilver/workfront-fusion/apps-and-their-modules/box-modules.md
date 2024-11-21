@@ -43,7 +43,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>Or</p>
    <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
    </td> 
@@ -58,6 +58,30 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 ## Prerequisites
 
 To use [!DNL Box] modules, you must have a [!DNL Box] account.
+
+## Box API information
+
+The Box connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td> https://api.box.com/2.0
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td> v2.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v3.0.3</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Box] modules and their fields
 

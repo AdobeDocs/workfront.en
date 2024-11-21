@@ -52,7 +52,7 @@ You must have the following access to use the functionality in this article:
     <tr>
       <td role="rowheader">Product</td>
       <td>
-   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>Or</p>
    <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
    </td>
@@ -72,6 +72,25 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 Before you can use the [!DNL Adobe Journey Optimizer] connector, you must ensure that the following prerequisites are met:
 
 * You must have an active [!DNL Adobe Journey Optimizer] account.
+
+## Adobe Journey Optimizer API information
+
+The Adobe Journey Optimizer connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td>&#123;&#123;connection.url&#125;&#125;</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.7.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Create a connection to Adobe Journey Optimizer
 
