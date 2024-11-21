@@ -425,7 +425,6 @@ feature-set: Workfront
     * [Announcements](product-announcements/announcements/announcements.md)
     * [Schedule of features no longer supported](product-announcements/announcements/feature-removal-timeline.md)
     * [Enhanced Analytics deprecation guide](product-announcements/announcements/enhanced-analytics-deprecation.md)
-    * [Legacy Home deprecation guide](product-announcements/announcements/legacy-home-deprecation.md)
     * [Maintenance Window FAQ](product-announcements/announcements/maintenance-window-faq.md)
     * [Change required for adding proofs to your allowlist](product-announcements/announcements/proofhq-domain-change-workfront.md)
     * [Unsubscribe from Announcement Center Messages in the new Adobe Workfront experience](product-announcements/announcements/unsubscribe-from-ac-messages.md)

@@ -63,7 +63,7 @@ With this change, the following areas will be impacted:
 
 * You will no longer be able to recall, remind, or remove users from submitted approvals in the Home area. Instead, you can manage this on the approval itself. 
 
-Users are encouraged to begin using new Home, which will continue to be enhanced with additional features prior to the deprecation. For more information about the transition, including advice about what users and administrators can do to prepare, see [Legacy Home deprecation guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+Users are encouraged to begin using new Home, which will continue to be enhanced with additional features prior to the deprecation. 
 
 >[!NOTE]
 >
