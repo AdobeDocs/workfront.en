@@ -41,7 +41,7 @@ Workspace managers can restore records from the trash bin for up to 30 days afte
 
 Prior to this enhancement, deleted records could not be restored.
 
-For more information, see Restore deleted records (/help/quicksilver/planning/records/records-information.md).  
+For more information, see [Restore deleted records](/help/quicksilver/planning/records/records-information.md).  
 
 ## Adobe AI Assistant available in the record details areas
 
