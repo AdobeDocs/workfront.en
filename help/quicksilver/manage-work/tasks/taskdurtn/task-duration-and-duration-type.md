@@ -25,7 +25,13 @@ The Duration Type of a task identifies the relationship between the number of re
 
 If the Actual Start and Actual Completion Dates of the task fall outside of the schedule of the project, primary assignee, or the Default Schedule, the task Duration is zero.
 
-**Example:** If you have a schedule that starts at 9:00 AM and ends at 12:00 PM and a task that is scheduled to start at 2:00 PM and end at 4:00 PM, the task's Duration is zero.
+>[!BEGINSHADEBOX]
+
+**EXAMPLE** 
+If you have a schedule that starts at 9:00 AM and ends at 12:00 PM and a task that is scheduled to start at 2:00 PM and end at 4:00 PM, the task's Duration is zero.
+
+
+>[!ENDSHADEBOX]
 
 The following are two scenarios that exist when calculating duration in Adobe Workfront: 
 
@@ -65,9 +71,17 @@ The following are two scenarios that exist when calculating duration in Adobe Wo
 >
 >When taking into account the Primary Assignee's time off on a project, the planned dates of the task might adjust, but the Duration of the task remains the same. For information about taking into account the time off of the Primary Assignee when planning a project, see  [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
+## The Original Duration of a parent task
+
+The Original Duration of a task is the Duration that a task originally had before it became a parent task, in minutes. 
+
+When a task becomes a parent, the Duration between the Planned Start Date of the earliest child and the Planned Completion Date of the last child rolls up to the parent task and becomes the Duration of the parent task. This replaces the Duration of the original task.
+
+For more information, see [Overview of task Original Duration and Original Planned Hours](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md). 
+
 ## Units of time for Task Duration
 
-You can indicate task&nbsp;Duration in both the regular time and the elapsed time between the Planned Start and Planned Completion Dates.
+You can indicate task Duration in both the regular time and the elapsed time between the Planned Start and Planned Completion Dates.
 
 When updating the Duration of tasks in a list, you can use the following abbreviations for indicating units of time in&nbsp;Workfront: 
 

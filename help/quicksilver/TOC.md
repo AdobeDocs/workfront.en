@@ -2113,6 +2113,7 @@ feature-set: Workfront
     * [Connect records](planning/records/connect-records.md)
     * [Edit records](planning/records/edit-records.md)
     * [Delete records](planning/records/delete-records.md)
+    * [Restore deleted records](planning/records/restore-deleted-records.md)
     * [Share records](planning/records/share-records.md)
     * [Duplicate records](planning/records/copy-or-duplicate-records.md)
     * [Manage record comments](planning/records/manage-record-comments.md)
