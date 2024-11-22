@@ -18,7 +18,7 @@ exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
 
 {{planning-important-intro}}
 
-You can delete records that are no longer relevant in Adobe Workfront Planning. <span class="preview">You can recover deleted records for 30 days after they were deleted. For information on recovering deleted records, see [Recover deleted records from Recently Deleted](/help/quicksilver/planning/records/recover-deleted-record-from-recently-deleted-area.md). </span>
+You can delete records that are no longer relevant in Adobe Workfront Planning. <span class="preview">You can recover deleted records for 30 days after they were deleted. For information about recovering deleted records, see [Recover deleted records](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
 
 ## Access requirements
 
@@ -194,7 +194,7 @@ You can delete a record from the following areas:
     The record is deleted.   
 1. (Optional and conditional) If you delete the record in the Preview environment, go to the table view of the record page, and click the **Undo** icon ![](assets/undo-icon.png) in the upper-right corner of the view, then click **Recently deleted** to recover the deleted records. 
 
-  For information about recovering deleted records, see [Recover deleted records from Recently Deleted](/help/quicksilver/planning/records/recover-deleted-record-from-recently-deleted-area.md). 
+  For information about recovering deleted records, see [Recover deleted records](/help/quicksilver/planning/records/restore-deleted-records.md).
 
 ### Delete a record from the record type table view
 
@@ -220,14 +220,14 @@ You can delete a record from the following areas:
     * Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the box with the record's detailed information, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**.
 
     The record is deleted.
-
+    
 1. (Optional) Do one of the following to undo or redo deleting a record:
 
-  * <span class="preview">Click the **Undo** icon ![](assets/undo-icon.png), then **Recently deleted** to recover the deleted records. For information about recovering deleted records, see [Recover deleted records from Recently Deleted](/help/quicksilver/planning/records/recover-deleted-record-from-recently-deleted-area.md). </span>
-  * Use the following keyboard shortcuts to undo or redo deleting a record:
+    * <span class="preview">Click the **Undo** icon ![](assets/undo-icon.png), then **Recently deleted** to recover the deleted records. For information about recovering deleted records, see [Recover deleted records](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
+    * Use the following keyboard shortcuts to undo or redo deleting a record:
 
-    * CTRL + Z (⌘ + Z for Mac) to undo deleting a record
-    * CTRL + Shift + Z (⌘ + Shift + Z for Mac) to redo deleting record
+      * CTRL + Z (⌘ + Z for Mac) to undo deleting a record
+      * CTRL + Shift + Z (⌘ + Shift + Z for Mac) to redo deleting record
 
 
 
