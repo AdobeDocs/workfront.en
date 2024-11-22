@@ -1,12 +1,12 @@
 ---
-title: Restore Deleted Records 
-description: You can recover deleted records from the Recently deleted area in Adobe Workfront Planning. 
+title: Restore Deleted Records
+description: You can recover deleted records from the Recently deleted area in Adobe Workfront Planning.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
 ---
-
 # Restore deleted records 
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -112,4 +112,4 @@ You must have the following access to perform the steps in this article:
 1. Select the records you want to delete, then click **Restore** > **Restore**. You can select more than one record. 
 
     If the restore was successful, you receive a success notification at the bottom of the screen. 
-1. Go to the table view and review the restored records. 
+1. Go to the table view and review the restored records.
