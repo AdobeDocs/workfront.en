@@ -7,9 +7,8 @@ description: You can edit multiple documents at once in the Documents area.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
-
+exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
 ---
-
 # Edit documents in bulk
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
@@ -90,6 +89,4 @@ To edit documents in bulk:
     <td>Click and drag the custom form to rearrange.</td>
     </tr>
     </table>
-1. Click **Save**. 
-
-
+1. Click **Save**.
