@@ -151,7 +151,7 @@ You can open the Summary panel to quickly update information in a task or issue.
 * Add an update
 * Navigate to the Document area to upload a document
 * View work item details and update custom fields
-    Workfront administrators can customize which fields appear in the Summary in the layout template. For more information, see [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+    Workfront administrators can customize which fields appear in the Summary in the layout template. For more information, see [Customize the Summary panel using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * Change the work item status
 * View subtasks
 * Log time
