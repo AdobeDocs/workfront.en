@@ -58,12 +58,18 @@ With this change, the following areas will be impacted:
 
 * The _Home workspace_ area will be renamed to _Home_. 
 * The _Home and Summary_ area will be renamed to _Summary panel_. Customizations in this area will still apply to the Summary panel in new Home. For more information, see [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* We will remove the following tabs from the Home and Summary panel:
+    * Projects
+    * Documents
+    * Document versions
+
+Note: The document and document versions only applied to legacy home. They did not allow you to customize the Summary in the Documents area. 
 
 **Manage approvals**
 
 * You will no longer be able to recall, remind, or remove users from submitted approvals in the Home area. Instead, you can manage this on the approval itself. 
 
-Users are encouraged to begin using new Home, which will continue to be enhanced with additional features prior to the deprecation. For more information about the transition, including advice about what users and administrators can do to prepare, see [Legacy Home deprecation guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+Users are encouraged to begin using new Home, which will continue to be enhanced with additional features prior to the deprecation. 
 
 >[!NOTE]
 >

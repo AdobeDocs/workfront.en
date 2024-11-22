@@ -12,6 +12,8 @@ exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
 
 You can create a folder linked with Experience Manager Assets or Assets Essentials while in Workfront. Because the folder is linked, any asset added to the folder will automatically show up in both Workfront and Experience Manger. You don't have to manually send the asset if it's in a linked folder.
 
+If an asset is deleted or moved from a linked folder inside of Experience Manager Assets or Assets Essentials, Workfront retains a copy of the asset in the Project > Documents area. 
+
 
 ## Access requirements
 
