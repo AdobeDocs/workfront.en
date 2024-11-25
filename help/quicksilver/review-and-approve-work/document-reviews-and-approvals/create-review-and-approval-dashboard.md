@@ -14,7 +14,7 @@ You can create a report dashboard in the Canvas Dashboards area to display both 
 
 >[!IMPORTANT]
 >
->This functionality is available only for customers using the new document approvals service and enrolled in the Canvas Dashboards beta. For questions, contact X.
+>This functionality is available only for customers using the new document approvals service and enrolled in the Canvas Dashboards beta.
 
 
 ![example dashboard](assets/whole-dashboard.png)
