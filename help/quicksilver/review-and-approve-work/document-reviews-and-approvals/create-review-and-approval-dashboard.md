@@ -36,9 +36,9 @@ You can view high-level information about approvals with KPIs and charts. Drill-
 
 ### KPIs
 
->[!IMPORTANT]
+<!-->>[!IMPORTANT]
 >
->New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.
+>New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.-->
 
 ![KPI examples](assets/kpi-dashboard.png)
 
@@ -119,10 +119,6 @@ You can view high-level information about approvals with KPIs and charts. Drill-
 
 ### Charts
 
->[!IMPORTANT]
->
->Add note once Matt approves.
-
 ![Chart examples](assets/chart-dashboard.png)
 
 #### Approvals by decision bar chart
@@ -169,10 +165,6 @@ You can view high-level information about approvals with KPIs and charts. Drill-
 1. Click **Done** in the top-right corner of the screen.
 
 ## Add detailed review and approval information with Tables
-
->[!IMPORTANT]
->
->Add note once Matt approves.
 
 ![table example](assets/table-dashboard.png)
 
@@ -250,7 +242,11 @@ To view more specific information depending on your use case, you can add additi
 
 **Approvals I've submitted**
 
-1. Need help
+1. Click **Edit Filter** > **Add condition**:
+    1. Click into the empty condition filter, click **Pick a Field**, then choose **Approval Stage** > **Approval Stage Participants** > **Requester** > type _Name_ in the search box. 
+    1. Change the operator to **Equal**, then choose **Me (Logged in User)** to display projects in Workfront in which you are marked as the project owner.
+        ![pending approval table filter example](assets/pending-approvals-my-project-filter.png)
+1. Click **Done** in the top-right corner of the screen.
 
 +++
 
@@ -336,7 +332,7 @@ To view more specific information depending on your use case, you can add additi
 1. Click **Edit Filter** > **Add condition**:
     1. Click into the empty condition filter, click **Pick a Field**, then choose **Approval Stage** > **Approval Stage Participants** > **Participant Team** > type _Name_ in the search box. 
     1. Change the operator to **Equal**, then choose **My default teams (Logged in User)** or **My other teams (Logged in User)** to display projects assigned to either your default team or other teams you are on.
-        ![pending approval table filter example](assets/approvals-for-my-teams.png)
+        ![pending approval table filter example](assets/approvals-ive-submitted-filter.png)
 1. Click **Done** in the top-right corner of the screen.
 +++
 
