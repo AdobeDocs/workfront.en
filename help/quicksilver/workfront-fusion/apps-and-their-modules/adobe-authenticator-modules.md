@@ -68,6 +68,21 @@ To see a list of available Adobe APIs, see [Adobe APIs](https://developer.adobe.
 
   For information on creating or adding an API to a project on the Adobe Developer Console, see [Create a project](https://developer.adobe.com/dep/guides/dev-console/create-project/) in the Adobe documentation.
 
+## Adobe Authenticator API information
+
+The Adobe Authenticator connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.1.4</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Create a connection
 
 An Adobe Authenticator connection connects to a single project on the Adobe Developer Console. To use the same connection for more than one Adobe API, add the APIs to the same project, and create a connection to that project.
@@ -172,15 +187,16 @@ To create a connection:
 
 1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
 
-## Module
+## Modules
 
-### Make a custom API call
+* [Make a custom API call](#make-a-custom-api-call)
+* [Make a custom API call (Legacy)](#make-a-custom-api-call-legacy)
 
-This action module allows you to make a call to any Adobe API.
+### Make a custom API call 
 
->[!TIP]
->
->You must enter the entire URL for the API you want to connect to. This module does not accept relative URLs.
+This action module allows you to make a call to any Adobe API. It supports large files, instead of text-only bodies.
+
+This module was made available on November 14, 2024. Any Adobe Authenticator > Make a custom API call configured before this date does not handle large files, and is now considered the Make a custom API call (Legacy) module.
 
 <table>
   <col/>
@@ -192,10 +208,83 @@ This action module allows you to make a call to any Adobe API.
     </tr>
     <tr>
       <td role="rowheader">
+        <p>[!UICONTROL Base URL]</p>
+      </td>
+      <td>
+        <p>Enter the base URL of the API point you want to connect to.</p>
+      </td>
+    <tr>
+      <td role="rowheader">
         <p>[!UICONTROL URL]</p>
       </td>
       <td>
-        <p>Enter the entire URL of the API point you want to connect to.</p>
+        <p>Enter the path relative to the base URL.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Method]</p>
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Headers]</td>
+      <td>
+        <p>Add the headers of the request in the form of a standard JSON object.</p>
+        <p>For example, <code>{"Content-type":"application/json"}</code></p>
+        <p>Workfront Fusion adds authorization headers automatically.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Query String]  </td>
+      <td>
+        <p>Enter the request query string.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Body Type]</td>
+   <td> Select the body type for this API request:
+   <ul>
+   <li>application/x-www-form-urlencoded</li>
+   <li>Raw</li>
+   <li>multipart/form-data</li>
+   </ul>
+      </td>
+    <tr>
+      <td role="rowheader">[!UICONTROL Fields]  </td>
+      <td>
+        <p>For each file that you want to add to the APU request, click <b>Add item</b> and enter the text of the file (for raw data), or enter the key <code>uploadedFile</code> and map the file's data.</p>
+      </td>
+    </tr>
+    </tr>
+  </tbody>
+</table>
+
+### Make a custom API call (Legacy)
+
+This action module allows you to make a call to any Adobe API.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+     <td role="rowheader">[!UICONTROL Connection]</td>
+     <td>For instructions on creating a connection to the Adobe Authenticator module, see <a href="#create-a-connection" class="MCXref xref" >Create a connection</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Base URL]</p>
+      </td>
+      <td>
+        <p>Enter the base URL of the API point you want to connect to.</p>
+      </td>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL URL]</p>
+      </td>
+      <td>
+        <p>Enter the path relative to the base URL.</p>
       </td>
     </tr>
     <tr>

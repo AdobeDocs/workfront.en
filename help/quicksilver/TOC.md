@@ -19,6 +19,7 @@ feature-set: Workfront
       * [2025 Q1 Document management enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md)
       * [2025 Q1 Home enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md)
       * [2025 Q1 Proofing enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md)
+      * [2025 Q1 Report and Dashboard enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md)
       * [Other enhancements during the First Quarter 2025 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
       * [Look-and-feel updates during the 2025 Q1 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
     * 2024 Q4 Release {#release-24-q4}
@@ -177,7 +178,8 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
-      * [Workfront Fusion release activity: Week of November 5, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-4.md)
+      * [Workfront Fusion release activity: Week of November 11, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-11.md)
+      * [Workfront Fusion release activity: Week of November 4, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-4.md)
       * [Workfront Fusion release activity: Week of October 21, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-21.md)
       * [Workfront Fusion release activity: Week of October 7, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-7.md)
       * [Workfront Fusion release activity: Week of September 30, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-9-30.md)
@@ -424,7 +426,6 @@ feature-set: Workfront
     * [Announcements](product-announcements/announcements/announcements.md)
     * [Schedule of features no longer supported](product-announcements/announcements/feature-removal-timeline.md)
     * [Enhanced Analytics deprecation guide](product-announcements/announcements/enhanced-analytics-deprecation.md)
-    * [Legacy Home deprecation guide](product-announcements/announcements/legacy-home-deprecation.md)
     * [Maintenance Window FAQ](product-announcements/announcements/maintenance-window-faq.md)
     * [Change required for adding proofs to your allowlist](product-announcements/announcements/proofhq-domain-change-workfront.md)
     * [Unsubscribe from Announcement Center Messages in the new Adobe Workfront experience](product-announcements/announcements/unsubscribe-from-ac-messages.md)
@@ -604,7 +605,7 @@ feature-set: Workfront
       * [Customize object headers using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
       * [Customize the left panel](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
       * [Customize the Details view](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-      * [Customize Home and Summary](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+      * [Customize the Summary panel using a layout template](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
       * [Customize new Home](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
       * [Customize pinned pages](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
       * [Customize Filters, Views, Groupings](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
@@ -622,7 +623,7 @@ feature-set: Workfront
       * Design a custom form {#design-a-form}
         * [Design a form: article index](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
         * [Create a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
-        * [Design a form from a copy](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
+        * [Create a form from a copy](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
         * [Add calculated fields to a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
         * [Add display logic and skip logic to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
         * [Examples of the External lookup field in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
@@ -848,6 +849,7 @@ feature-set: Workfront
     * [Save an email header file](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
     * [Sharing shows more than one permission](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
     * [Unauthenticated email not accepted](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
+    * [Workfront: ZScalar settings can cause reduced performance](administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
     * [User credentials vs. SAML credentials](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
     * [Update auto-upgrade options in access levels](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront basics {#basics}
@@ -1154,6 +1156,7 @@ feature-set: Workfront
     * [Check document storage limits](documents/managing-documents/check-document-storage.md)
     * [Delete Documents](documents/managing-documents/delete-documents.md)
     * [Paste images from the Clipboard](documents/managing-documents/paste-image-clipboard.md)
+    * [Edit documents in bulk](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
     * [AddBuilder within Workfront Document Details](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
   * Organize documents {#organize-documents}
     * [Organize documents](documents/organizing-documents/organize-documents.md)
@@ -1760,7 +1763,7 @@ feature-set: Workfront
     * [View the Activity by team visualization in Enhanced analytics](enhanced-analytics/activity-by-team-overview.md)
   * Workfront Data Connect {#data-lake}
     * [Workfront Data Connect overview](reports-and-dashboards/data-lake/data-lake-overview.md)
-    * [Create a reader account](reports-and-dashboards/data-lake/create-a-reader-account.md)
+    * [Create a reader account or connection for Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
     * [Establish a connection to Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Workfront Data Connect data dictionary](reports-and-dashboards/data-lake/data-dictionary.md)
     * [Workfront Data Connect query examples](reports-and-dashboards/data-lake/basic-query-examples.md)
@@ -2110,6 +2113,7 @@ feature-set: Workfront
     * [Connect records](planning/records/connect-records.md)
     * [Edit records](planning/records/edit-records.md)
     * [Delete records](planning/records/delete-records.md)
+    * [Restore deleted records](planning/records/restore-deleted-records.md)
     * [Share records](planning/records/share-records.md)
     * [Duplicate records](planning/records/copy-or-duplicate-records.md)
     * [Manage record comments](planning/records/manage-record-comments.md)
@@ -2119,6 +2123,7 @@ feature-set: Workfront
     * [Manage the record page layout](planning/records/manage-the-record-page.md)
     * [Manage records in the Planning section of Adobe Workfront objects](planning/records/manage-records-in-planning-section.md)
     * [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md)
+    * [Create objects using Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
   * Adobe Workfront Planning requests {#adobe-workfront-planning-requests}
     * [Adobe Workfront Planning Requests: article index](planning/requests/requests-article-index.md)
     * [Create and manage a request form in Adobe Workfront Planning](planning/requests/create-request-form.md)

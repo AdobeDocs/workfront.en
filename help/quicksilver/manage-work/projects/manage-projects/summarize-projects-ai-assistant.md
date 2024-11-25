@@ -13,8 +13,6 @@ Workfront's AI Assistant can summarize projects, allowing you to quickly underst
 
 You can use the Project Summary button to generate a summary, or you can enter a prompt into AI Assistant.
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 >[!NOTE]
 >
 >The AI Assistant summarize functionality is different from the Summary panel. 
@@ -64,8 +62,6 @@ For more detail about the information in this table, see [Access requirements in
 
 
 
-<div class="preview">
-
 ## Summarize using Project Summary button
 
 1. Navigate to the update stream that you want to summarize. 
@@ -77,8 +73,6 @@ For more detail about the information in this table, see [Access requirements in
 
 1. View the AI summary in the AI Assistant panel.
 1. (Optional) Refine the prompt to ensure that it gives you the information you need.
-
-   </div>
 
 ## Summarize an object in AI Assistant
 

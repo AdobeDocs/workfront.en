@@ -28,6 +28,44 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning after the general availability release on August 28, 2024, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## Restore deleted records
+
+>[!NOTE]
+>
+>Preview release: November 22, 2024; Production for fast release: With the 24.12 release (December 2024); Production for quarterly release: With the 25.1 release (January 2025)
+
+After records are deleted, they are now temporarily moved to a Recently deleted bin for 30 days. You can access the Recently deleted bin from the record type's page and it contains only records of a specific type. 
+
+Workspace managers can restore records from the trash bin for up to 30 days after they were deleted. Connected records and their field information is also restored. 
+
+Prior to this enhancement, deleted records could not be restored.
+
+For more information, see [Restore deleted records](/help/quicksilver/planning/records/records-information.md).  
+
+## Adobe AI Assistant available in the record details areas
+
+>[!NOTE]
+>
+>Preview release: November 21, 2024; Production for fast release: With the 24.12 release (December 2024); Production for quarterly release: With the 25.1 release (January 2025)
+
+To make it easier for you to accomplish work, we've added the Adobe AI Assistant to a record's details preview or record's page. You can use the AI Assistant inside of a record page to update information about the record.
+
+For information, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+
+## New experience when adding a thumbnail and a cover image to a record page
+
+>[!NOTE]
+>
+>Preview release: November 20, 2024; Production for fast release: With the 24.12 release (December 2024); Production for quarterly release: With the 25.1 release (January 2025)
+
+When you open a record's preview or page and the record does not have a thumbnail or a cover image, you must now hover over the area above the record name in the header to see the options for adding a cover and a thumbnail image to the record. Prior to this enhancement, the empty placeholder images for the thumbnail and the cover displayed above the record name.
+
+For more information, see the following articles:
+
+* [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [Add a thumbnail image to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+
 ## New display types for percentage-type fields in the table view
 
 >[!NOTE]

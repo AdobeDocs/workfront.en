@@ -3,10 +3,12 @@ navigation-topic: use-lists
 title: Get started with lists in [!DNL Adobe Workfront]
 description: You can view lists of objects in [!DNL Adobe Workfront] to get information about them, such as their start and due dates, users assigned to them, and other objects that are associated with them.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
 ---
 # Get started with lists in [!DNL Adobe Workfront]
+
+<!--Audited: 11/2024-->
 
 You can view lists of objects in [!DNL Adobe Workfront] to get information about them, such as their start and due dates, users assigned to them, and other objects that are associated with them.
 
@@ -22,6 +24,46 @@ The following are some characteristics of lists in [!DNL Workfront]:
    For more information about creating system-level lists, see the article [Create, edit, and share default filters, views, and groupings](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> 
+    <p>New:</p>
+   <ul><li><p>Contributor or higher </p></li>
+   </ul>
+
+   <p>Current:</p>
+   <ul><li><p>Request or higher</p></li>
+    </ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Filters, Views, Groupings </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions to a filter, view, or grouping with access to share </p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old access: 
 
 You must have the following access to perform the steps in this article:
 
@@ -49,6 +91,7 @@ You must have the following access to perform the steps in this article:
 </table>
 
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+-->
 
 ## Object lists
 
@@ -309,19 +352,23 @@ You can complete the following actions in a list:
  <tbody> 
   <tr> 
    <td><strong>Inline edit</strong> </td> 
-   <td> <p>Edit objects and their information directly in the list.</p> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">Inline edit items in a list in [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>Edit objects and their information directly in the list.</p> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">Inline edit items in a list in [!DNL Adobe Workfront]</a>.</p> 
+   <p><b>NOTE:</b></p>
+   <p>Inline editing is not possible in a grouping.</p>
+   
+   </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><strong>Update with the [!UICONTROL Summary]</strong> </td> 
-   <td> <p>Update tasks and issues at the project level using the [!UICONTROL Summary] panel.</p> <p>Tip: The Summary is not available for all objects and it is not available in Task or Issue reports.</p> <p>For more information, see <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview</a>.</p> </td> 
+   <td> <p>Update tasks and issues at the project level using the [!UICONTROL Summary] panel.</p> <p><b>TIP:</b></p> <p>The Summary is not available for all objects and it is not available in Task or Issue reports.</p> <p>For more information, see <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Customize list display</strong> </td> 
-   <td> <p>Customize the look and feel of a list, column arrangement, sorting order of items, or number of items that display.</p> <p>Note: Changes you make to the number of items to display on a page are reverted when you log out of [!DNL Workfront] or close your browser. Changes might also be reverted after a period of 8 hours.</p> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Modify how a list displays</a>.</p> </td> 
+   <td> <p>Customize the look and feel of a list, column arrangement, sorting order of items, or number of items that display.</p> <p><b>NOTE:</b></p> <p>Changes you make to the number of items to display on a page are reverted when you log out of [!DNL Workfront] or close your browser. Changes might also be reverted after a period of 8 hours.</p> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Modify how a list displays</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Quick filter</strong> </td> 
-   <td> <p>Apply a quick filter to find only items that are important to you so that you can quickly review, update, or share them with others.</p> <p>Important:  You can find items that contain a search word using the quick filter, whether that item is visible on your screen or will display after you scroll to the bottom of the page. When you use your browser's search capabilities, you can find only items that are already visible on the screen. If your list has multiple pages, quick filters find only the items on the current page.</p> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Apply the quick filter to a list</a>.</p> </td> 
+   <td> <p>Apply a quick filter to find only items that are important to you so that you can quickly review, update, or share them with others.</p> <p><b>IMPORTANT:</b></p> <p> You can find items that contain a search word using the quick filter, whether that item is visible on your screen or will display after you scroll to the bottom of the page. When you use your browser's search capabilities, you can find only items that are already visible on the screen. If your list has multiple pages, quick filters find only the items on the current page.</p> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Apply the quick filter to a list</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Export</strong> </td> 
@@ -437,7 +484,7 @@ The following table lists many of the icons available in the toolbar and indicat
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>[!UICONTROL Summary]</td> 
-   <td> <p>Display or hide the [!UICONTROL Summary] box for the selected item.</p> <p>This is available only for tasks and issues.</p> <p>For information about the [!UICONTROL Summary] panel in the new [!DNL Adobe Workfront] experience, see <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview</a>.</p> </td> 
+   <td> <p>Display or hide the [!UICONTROL Summary] box for the selected item.</p> <p>This is available only for tasks and issues.</p> <p>For information about the [!UICONTROL Summary] panel, see <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
@@ -577,13 +624,6 @@ There are two types of lists in [!DNL Workfront]:
 
    ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
-Both types of lists appear in the [!DNL Adobe Workfront].
-
-All lists and reports in the [!DNL Adobe Workfront] are updated lists, except for the following:
-
-* Lists in the [!UICONTROL Setup] area
-* Lists in the [!UICONTROL Reports] area
-
 The following table shows some of the differences between the legacy and updated lists in [!DNL Workfront]:
 
 <!--
@@ -598,16 +638,7 @@ The following table shows some of the differences between the legacy and updated
    <td><b>Legacy lists</b></td> 
    <td><b>Updated lists</b></td> 
   </tr> 
-  <tr> 
-   <td> <p>Legacy fonts, column headers, blue grouping color scheme</p> </td> 
-   <td> <p>Updated fonts, column headers, gray grouping color scheme</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Slower inline editing</p> </td> 
-   <td> <p>Faster inline editing</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Display <strong>100</strong> items by default</p> </td> 
+  <td> <p>Display <strong>100</strong> items by default</p> </td> 
    <td> <p>Display <strong>All</strong> or up to <strong>2000</strong> items by default</p> </td> 
   </tr> 
   <tr> 
@@ -616,7 +647,7 @@ The following table shows some of the differences between the legacy and updated
   </tr> 
   <tr> 
    <td>You can't inline edit custom fields with rich text formatting.</td> 
-   <td> <p>Text in custom fields with formatting can be configured to allow bold, italics, underline, bullets, numbering, hyperlinks, and block quotes.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Design a form with the form designer</a>.</p> </td> 
+   <td> <p>Text in custom fields with formatting can be configured to allow bold, italics, underline, bullets, numbering, hyperlinks, and block quotes.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Create a custom form</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Conditional formatting can change the text color of links in a list</td> 

@@ -12,6 +12,12 @@
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
+## Preview and fast release general {#preview-fast-release-general}
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 ## Preview and fast release Q4 2024 {#preview-and-fast-release-Q424}
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
@@ -263,7 +269,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
    The Workfront Planning landing page opens. 
     
-1. (Optional and conditional) If you are a Workfront administrator, click the following tabs:
+1. (Optional and conditional) If you are a Workfront administrator, click one of the following tabs:
 
    * **My workspaces**: Displays workspaces you created.
    * **Other workspaces**: Displays all workspaces in Workfront Planning, including the ones shared with you. 
@@ -278,8 +284,8 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 >
 >You must have the following to access Workfront Planning:
 >
->* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
->* An additional license for Workfront Planning. 
+>* A new Workfront package and license. Workfront Planning is not available for legacy Workfront packages or licenses. 
+>* A Workfront Planning package. 
 >* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
 >
 > For a complete list of requirements to access Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
