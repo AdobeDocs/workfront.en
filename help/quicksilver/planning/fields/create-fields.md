@@ -33,6 +33,7 @@ You can create fields in the following ways in Workfront Planning:
 * By connecting record types
 * By creating a record type
 * By creating a workspace from a template
+<!--* By importing copies of existing Workfront fields-->
 <!--* By importing record types using an Excel or CSV file-->
 
 For more information about Workfront Planning fields, see [Field overview](/help/quicksilver/planning/fields/fields-overview.md).
@@ -172,6 +173,8 @@ OLD:
 ## Create fields from scratch {#create-fields-from-scratch} 
 
 <!--in a table (not sure if this can be done elsewhere?!-->
+
+<!--the first 3 steps are the same as in Import fields from Workfron-->
 
 {{step1-to-planning}}
 
@@ -641,3 +644,14 @@ When you create a record type, several fields associated with the new record typ
 Adobe Workfront Planning creates fields for record types when you create a workspace from a template. 
 
 For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+<!--
+## Create fields by importing them from Workfront
+
+You can import copies of existing Workfront fields. Importing fields from Workfront creates a copy of each field for a Workfront Planning record type. 
+
+After you copy the fields, the fields are independent from one another and they do not exchange information. 
+
+For information, see [Import fields from Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md). 
+
+-->
