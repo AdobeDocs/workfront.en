@@ -5,7 +5,8 @@ title: Create a review and approval dashboard
 description: You can review approvals metrics in Canvas Dashboards. 
 author: Courtney
 feature: Work Management, Digital Content and Documents
-
+hide: yes
+hidefromtoc: yes
 ---
 
 # Create a report dashboard for review and approvals
@@ -30,13 +31,19 @@ You can create a report dashboard in the Canvas Dashboards area to display both 
 1. Click **Create**.
     ![add dashboard name and description](assets/create-a-dashboard.png)
 
+Once you create a dashboard, you can start adding KPIs, Charts, and Tables. See the following sections for more information:
+
+* [Add high-level review and approval information with KPIs and Charts](#add-high-level-review-and-approval-information-with-kpis-and-charts)
+* [Add detailed review and approval information with Tables](#add-detailed-review-and-approval-information-with-tables)
+
 ## Add high-level review and approval information with KPIs and Charts
 
-You can view high-level information about approvals with KPIs and charts. Drill-down information is not currently available in this beta but is planned and coming soon. 
+You can view high-level information about document approvals with KPIs and charts. Drill-down information is not currently available in the beta.
 
 ### KPIs
 
-<!-->>[!IMPORTANT]
+<!--
+>>[!IMPORTANT]
 >
 >New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.-->
 
@@ -45,11 +52,11 @@ You can view high-level information about approvals with KPIs and charts. Drill-
 #### Pending approvals
 
 1. [Create a dashboard](#create-a-dashboard) as described in the section above. 
-1. In the KPI card, click Add. 
+1. In the **KPI** card, click **Add**. 
 1. Type _Pending_ in the **KPI Title** textbox. 
-1. Type _Pending approvals_ count in the **KPI Caption** textbox. This text describes what the KPI is showing.
+1. Type _Pending approvals_ in the **KPI Caption** textbox. This text describes what the KPI is showing.
 1. At the top of the page, click **Select KPI Field**. 
-1. Scroll down and find the **Document Approval folder**
+1. Scroll down and find the **Document Approval folder**.
 1. Choose **Status**, then select **Count** from the drop-down menu. 
 1. Click **Edit Filter** > **Add condition**. 
     1. Click into the empty condition filter, click **Pick a Field**, then choose **Status**.
@@ -61,11 +68,11 @@ You can view high-level information about approvals with KPIs and charts. Drill-
 #### Overdue approvals
 
 1. [Create a dashboard](#create-a-dashboard) as described in the section above. 
-1. In the KPI card, click **Add**. 
+1. In the **KPI** card, click **Add**. 
 1. Type _Overdue_ in the **KPI Title** textbox. 
-1. Type _Approval Stage Deadline in the Past_ count in the **KPI Caption** textbox. This text describes what the KPI is showing.
+1. Type _Approval Stage Deadline in the Past_ in the **KPI Caption** textbox. This text describes what the KPI is showing.
 1. At the top of the page, click **Select KPI Field**. 
-1. Scroll down and find the **Document Approval folder**
+1. Scroll down and find the **Document Approval folder**.
 1. Choose **Status**, then select **Count** from the drop-down menu. 
 1. Click **Edit Filter** > **Add condition**:
     1. Click into the empty condition filter, click **Pick a Field**, then choose **Deadline**.
@@ -81,18 +88,18 @@ You can view high-level information about approvals with KPIs and charts. Drill-
 #### Completed approvals
 
 1. [Create a dashboard](#create-a-dashboard) as described in the section above. 
-1. In the KPI card, click **Add**. 
+1. In the **KPI** card, click **Add**. 
 1. Type _Completed_ in the **KPI Title** textbox. 
-1. Type _Approval Status Count_ count in the **KPI Caption** textbox. This text describes what the KPI is showing.
+1. Type _Approval Status Count_ in the **KPI Caption** textbox. This text describes what the KPI is showing.
 1. At the top of the page, click **Select KPI Field**. 
-1. Scroll down and find the **Document Approval folder**
+1. Scroll down and find the **Document Approval folder**.
 1. Choose **Status**, then select **Count** from the drop-down menu. 
 1. Click **Edit Filter** > **Add condition**:
     1. Click into the empty condition filter, click **Pick a Field**, then choose **Status**.
     1. Change the operator to **Contains**, and type _approved_ in the textbox.
     ![completed kpi filter example](assets/completed-kpi-filter.png)
 1. Click **Add condition**: 
-    1. Click on **And** to change it to **Or**.
+    1. Click **And** to change it to **Or**.
     1. Click into the empty condition filter, click **Pick a Field**, then choose **Status**.
     1. Change the operator to **Equals**, then type _reviewed_ in the textbox.
     ![completed kpi filter example](assets/completed-kpi-filter-2.png)
@@ -101,9 +108,9 @@ You can view high-level information about approvals with KPIs and charts. Drill-
 #### Abandoned approvals
 
 1. [Create a dashboard](#create-a-dashboard) as described in the section above. 
-1. In the KPI card, click **Add**. 
+1. In the **KPI** card, click **Add**. 
 1. Type _Abandoned_ in the **KPI Title** textbox. 
-1. Type _Approval deadline over 2 weeks past_ count in the **KPI Caption** textbox. This text describes what the KPI is showing.
+1. Type _Approval deadline over 2 weeks past_ in the **KPI Caption** textbox. This text describes what the KPI is showing.
 1. At the top of the page, click **Select KPI Field**. 
 1. Scroll down and find the **Document Approval Stage folder**.
 1. Choose **Deadline**, then select **Count** from the drop-down menu. 
@@ -124,7 +131,7 @@ You can view high-level information about approvals with KPIs and charts. Drill-
 #### Approvals by decision bar chart
 
 1. [Create a dashboard](#create-a-dashboard) as described in the section above. 
-1. In the Chart card, click **Add**. 
+1. In the **Chart** card, click **Add**. 
 1. Type _Approvals by decision_ in the **Name** textbox. 
 1. (Optional) Type a description in the **Description** textbox. This text displays as a tooltip next to the chart name. 
 1. Click **Open chart details**.
@@ -144,9 +151,9 @@ You can view high-level information about approvals with KPIs and charts. Drill-
 #### Revisions bar chart
 
 1. [Create a dashboard](#create-a-dashboard) as described in the section above. 
-1. In the Chart card, click **Add**. 
+1. In the **Chart** card, click **Add**. 
 1. Type _Revisions_ in the **Name** textbox. 
-1. Type _Number of revisions for documents with incomplete decisions planned before the end of this month_ count in the **Description** textbox. This text displays as a tooltip next to the chart name. 
+1. Type _Number of revisions for documents with incomplete decisions planned before the end of this month_ in the **Description** textbox. This text displays as a tooltip next to the chart name. 
 1. Click **Open chart details**.
 1. In the **Chart type** drop-down menu, leave **Bar Chart** selected. 
 1. In the **Bar type** drop-down menu, leave **Simple** selected.
@@ -171,18 +178,14 @@ You can view high-level information about approvals with KPIs and charts. Drill-
 ### Pending approvals list 
 
 1. [Create a dashboard](#create-a-dashboard) as described in the section above. 
-1. In the Table card, click **Add**. 
+1. In the **Table** card, click **Add**. 
 1. Type _Pending Approvals_ in the **Name** textbox. 
 1. (Optional) Type a description in the **Description** textbox. This text displays as a tooltip next to the chart name. 
 1. Click **Open column settings**.
-1. Click **Add column** and scroll to the first **Document Approvals** folder and select it.
+1. Click **Add column**, scroll down and click the first **Document Approvals** folder, then choose **Status**.
 1. Add the following columns:
 
     <table>
-    <tr>
-    <td><strong>Status</strong></td>
-    <td>Document Approvals > Status</td>
-    </tr>
     <tr>
     <td><strong>Project name</strong></td>
     <td>Document Version > Document > Project > Name</td>
@@ -217,7 +220,7 @@ You can view high-level information about approvals with KPIs and charts. Drill-
 
 1. Continue to [Add the required filter below](#add-the-required-filter).
 
-#### Add the required filter
+#### Add the required pending approvals filter
 
 1. Click the Filter tab ![filter tab icon](assets/filter-tab.png).
 1. Click **Edit Filter** > **Add condition**:
@@ -257,14 +260,10 @@ To view more specific information depending on your use case, you can add additi
 1. Type _Overdue Approvals_ in the **Name** textbox. 
 1. (Optional) Type a description in the **Description** textbox. This text displays as a tooltip next to the chart name. 
 1. Click **Open column settings**.
-1. Click **Add column** and scroll to the first **Document Approvals** folder, and select it.
+1. Click **Add column**, scroll down and click the first **Document Approvals** folder, then choose **Status**.
 1. Add the following columns:
 
     <table>
-    <tr>
-    <td><strong>Status</strong></td>
-    <td>Document Approvals > Status</td>
-    </tr>
     <tr>
     <td><strong>Project name</strong></td>
     <td>Document Version > Document > Project > Name</td>
@@ -299,7 +298,7 @@ To view more specific information depending on your use case, you can add additi
 
 1. Continue to [Add the required filter below](#add-the-required-filter-1).
 
-#### Add the required filter
+#### Add the required overdue approvals filter
 
 1. Click the Filter tab ![filter tab icon](assets/filter-tab.png).
 1. Click **Edit Filter** > **Add condition**:
