@@ -325,7 +325,11 @@ To view more specific information depending on your use case, you can add additi
 
 **Approvals I've submitted**
 
-1. Need help with this one.
+1. Click **Edit Filter** > **Add condition**:
+    1. Click into the empty condition filter, click **Pick a Field**, then choose **Approval Stage** > **Approval Stage Participants** > **Requester** > type _Name_ in the search box. 
+    1. Change the operator to **Equal**, then choose **Me (Logged in User)** to display projects in Workfront in which you are marked as the project owner.
+        ![pending approval table filter example](assets/pending-approvals-my-project-filter.png)
+1. Click **Done** in the top-right corner of the screen.
 
 **My team**
 
