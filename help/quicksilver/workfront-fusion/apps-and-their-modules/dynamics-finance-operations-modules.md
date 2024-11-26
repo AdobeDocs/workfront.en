@@ -25,7 +25,7 @@ For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](..
 
 ## Create a connection
 
-To create a connection for your Microsoft Dynamics 365 Finance and Operations modules modules:
+To create a connection for your Microsoft Dynamics 365 Finance and Operations modules:
 
 1. In any Microsoft Dynamics 365 Finance and Operations module, click **[!UICONTROL Add]** next to the Connection box.
     
@@ -78,7 +78,7 @@ To create a connection for your Microsoft Dynamics 365 Finance and Operations mo
 >
 >The data entities available through the Dynamics 365 F&O API can vary by instance. If you are not sure what entities are available through the API, it's useful to look through the entities in your instance using the "data" endpoint. The "data" endpoint in Dynamics 365 Finance and Operations is the root URL for accessing OData services. This endpoint allows you to interact with various data entities exposed by the system using standard OData protocols.
 >
->You can retrieve these entities using the Make a custom API call module.
+>You can retrieve these entities using the custom API call module.
 >
 ><!--For more information --> 
 
