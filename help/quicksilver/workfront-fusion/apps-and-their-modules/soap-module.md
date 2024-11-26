@@ -137,7 +137,7 @@ If the [!UICONTROL SOAP] module refuses to process the WSDL file or throws vario
 1. Click **[!UICONTROL Browse]**.
 1. Pick from the list of functions to the left, for example `getLanguages`.
 1. Copy the content of the [!UICONTROL Request XML] text area.
-1. In [!UICONTROL Workfront Fusion], paste the copied content to the module's URL field.
+1. In [!UICONTROL Workfront Fusion], paste the copied content to the module's Request content field.
 1. Provide values for selected parameters by replacing the question marks with actual values:
 
    ![](assets/request-xml-350x172.png)
