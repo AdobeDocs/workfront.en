@@ -109,7 +109,7 @@ This action module creates a new entity item in Microsoft Dynamics 365 Finance a
 
 
 
-### Delete Record
+### Delete entity item
 
 This action module deletes an entity item from Dynamics Finance and Operations. The item is identified by its primary key fields.
 
@@ -127,7 +127,7 @@ This action module deletes an entity item from Dynamics Finance and Operations. 
   </tr> 
   <tr> 
     <td>[!UICONTROL Primary Key Fields]</td>
-     <td> The primary key fields identify the item or items that you want to delete. For each item that you want to delete, click <b>Add item</b> and enter or map the unique key and value that identify that item. </td> 
+     <td> The primary key fields identify the item. For each primary key field that you want to provide, click <b>Add item</b> and enter or map the unique key and value that identify that item. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -172,9 +172,99 @@ This action module makes a custom call to the Dynamics Finance and Operations AP
 
 
 
+### Read entity item
+
+This action module returns data from an entity item. The item is identified by its primary key fields.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+    <td>[!UICONTROL Connection]</td>
+    <td> <p>For instructions about connecting Microsoft Dynamics 365 Finance and Operations to [!DNL Workfront Fusion], see <a href="#create-a-connection" class="MCXref xref">Create a connection</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+    <td>[!UICONTROL Entity]</td>
+     <td>Enter or map the Dynamics Finance and Operations entity type that you want to read.</td> 
+  </tr> 
+  <tr> 
+    <td>[!UICONTROL Primary Key Fields]</td>
+     <td> The primary key fields identify the item. For each primary key field that you want to provide, click <b>Add item</b> and enter or map the unique key and value that identify that item. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Update entity item
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+    <td>[!UICONTROL Connection]</td>
+    <td> <p>For instructions about connecting Microsoft Dynamics 365 Finance and Operations to [!DNL Workfront Fusion], see <a href="#create-a-connection" class="MCXref xref">Create a connection</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+    <td>[!UICONTROL Entity]</td>
+     <td>Enter or map the Dynamics Finance and Operations entity type that you want to update.</td> 
+  </tr>  
+  <tr> 
+    <td>[!UICONTROL Primary Key Fields]</td>
+     <td> The primary key fields identify the item. For each primary key field that you want to provide, click <b>Add item</b> and enter or map the unique key and value that identify that item. </td> 
+  </tr> 
+  <tr> 
+    <td>[!UICONTROL Body]</td>
+     <td> <p>Enter or map a JSON body that contains the data that you want to include in the new entity item.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Search
+
+This search module returns results based on criteria you specify.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Entity]</td> 
+   <td>Enter or map the Dynamics Finance and Operations entity type that you want to search.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Filter fields]</td> 
+   <td> <p>Select the fields that you want to use for your search criteria. These fields will then be available in the Search criteria dropdown.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Limit]</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Search criteria]</td> 
+   <td> <p>Enter the field that you want to search by, the operator you want to use in your query, and the value that you are searching for in the field.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Limit]</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Sort by]</td> 
+   <td> <p>Enter or map the field that you want to sort the results by.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+<!--
+
 ### List All
 
-This module lists all records for a given entity.
+This module lists all records for a given entity.  The item is identified by its primary key fields.
 
 <table style="table-layout:auto">
  <col> 
@@ -226,75 +316,4 @@ This trigger module starts a scenario when a record of the given type is created
  </tbody> 
 </table>
 
-### Search
-
-This search module returns results based on criteria you specify.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Filter fields]</td> 
-   <td> <p>Select the fields that you want to use for your search criteria. These fields will then be available in the Search criteria dropdown.</p></td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Limit]</td> 
-   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Search criteria]</td> 
-   <td> <p>Enter the field that you want to search by, the operator you want to use in your query, and the value that you are searching for in the field.</p> <p>Note: Do not use <code>username </code>in your search criteria. Including <code>username </code>in an API query to [!DNL Workfront] logs the user into Workfront, and the search will not be successful.</p> <p>Note: <code>In</code> and <code>NotIn</code>work with arrays. The inputs should be in array format.</p></td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Outputs]</td> 
-   <td> <p>Select the fields that you want to include in the output for this module.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Read Record
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-    <td>[!UICONTROL Connection]</td>
-    <td> <p>For instructions about connecting Microsoft Dynamics 365 Finance and Operations to [!DNL Workfront Fusion], see <a href="#create-a-connection" class="MCXref xref">Create a connection</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-    <td>[!UICONTROL ID]</td>
-     <td>Enter or map the ID of the record you want the module to return.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Update Record
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-    <td>[!UICONTROL Connection]</td>
-    <td> <p>For instructions about connecting Microsoft Dynamics 365 Finance and Operations to [!DNL Workfront Fusion], see <a href="#create-a-connection" class="MCXref xref">Create a connection</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-    <td>[!UICONTROL ID]</td>
-     <td>Enter or map the ID of the record you want yo==to update.</td> 
-  </tr> 
-  <tr> 
-    <td>[!UICONTROL Record Type]</td>
-     <td>Choose the Dynamics Finance and Operations entity type that you want to update.</td> 
-  </tr> 
-  <tr> 
-    <td>[!UICONTROL Record fields]</td>
-     <td> <p>Enter or map the data that you want included in the new record. Available fields are based on the record type.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+-->
