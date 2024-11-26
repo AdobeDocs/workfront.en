@@ -25,17 +25,113 @@ For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](..
 
 ## Create a connection
 
+To create a connection for your Microsoft Dynamics 365 Finance and Operations modules modules:
+
+1. In any Microsoft Dynamics 365 Finance and Operations module, click **[!UICONTROL Add]** next to the Connection box.
+    
+1. Fill in the following fields:
+    
+    <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td>
+          <p>Select whether you are creating a standard Dynamics Finance and Operations connection, or a connection using an authorization code.</p>
+        </td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>Enter a name for this connection.</p>
+        </td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>Enter your Dynamics Finance and Operations [!UICONTROL Client ID].</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>Enter your Dynamics Finance and Operations [!UICONTROL Client Secret]. </td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Tenant ID]</td>
+        <td>Enter your Dynamics Finance and Operations  Tenant ID.</td>
+        </tr>
+        <tr>
+        <td role="rowheader">Resource</td>
+        <td>Enter the URL of your Dynamics Finance and Operations account (without https://)</td>
+        </tr>
+      </tbody>
+    </table>
+    
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
+    
 
 
 ## Microsoft Dynamics 365 Finance and Operations modules and their fields
 
 >[!IMPORTANT]
 >
->The data entities available through the Dynamics 365 F&O API can vary by instance. If you are not sure what entities are available through the API, it's useful to look through the entities in your instance using the "data" endpoint. The "data" endpoint in Dynamics 365 Finance and Operations is the root URL for accessing OData services. This endpoint allows you to interact with various data entities exposed by the system using standard OData protocols. 
+>The data entities available through the Dynamics 365 F&O API can vary by instance. If you are not sure what entities are available through the API, it's useful to look through the entities in your instance using the "data" endpoint. The "data" endpoint in Dynamics 365 Finance and Operations is the root URL for accessing OData services. This endpoint allows you to interact with various data entities exposed by the system using standard OData protocols.
 >
 >You can retrieve these entities using the Make a custom API call module.
 >
->For more information <…> 
+><!--For more information --> 
+
+
+
+### Create entity item
+
+This action module creates a new entity item in Microsoft Dynamics 365 Finance and Operations.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+    <td>[!UICONTROL Connection]</td>
+    <td> <p>For instructions about connecting Microsoft Dynamics 365 Finance and Operations to [!DNL Workfront Fusion], see <a href="#create-a-connection" class="MCXref xref">Create a connection</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+    <td>[!UICONTROL Entity]</td>
+     <td>Enter or map the Dynamics Finance and Operations entity type that you want to create.</td> 
+  </tr> 
+  <tr> 
+    <td>[!UICONTROL Body]</td>
+     <td> <p>Enter or map a JSON body that contains the data that you want to include in the new entity item.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### Delete Record
+
+This action module deletes an entity item from Dynamics Finance and Operations. The item is identified by its primary key fields.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+    <td>[!UICONTROL Connection]</td>
+    <td> <p>For instructions about connecting Microsoft Dynamics 365 Finance and Operations to [!DNL Workfront Fusion], see <a href="#create-a-connection" class="MCXref xref">Create a connection</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+    <td>[!UICONTROL Entity]</td>
+     <td>Enter or map the Dynamics Finance and Operations entity type that you want to delete.</td> 
+  </tr> 
+  <tr> 
+    <td>[!UICONTROL Primary Key Fields]</td>
+     <td> The primary key fields identify the item or items that you want to delete. For each item that you want to delete, click <b>Add item</b> and enter or map the unique key and value that identify that item. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 
 ### List All
 
@@ -122,29 +218,6 @@ This search module returns results based on criteria you specify.
  </tbody> 
 </table>
 
-### Create Record
-
-This action module creates a new record in Microsoft Dynamics 365 Finance and Operations
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-    <td>[!UICONTROL Connection]</td>
-    <td> <p>For instructions about connecting Microsoft Dynamics 365 Finance and Operations to [!DNL Workfront Fusion], see <a href="#create-a-connection" class="MCXref xref">Create a connection</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-    <td>[!UICONTROL Record Type]</td>
-     <td>Choose the Dynamics Finance and Operations entity type that you want to create.</td> 
-  </tr> 
-  <tr> 
-    <td>[!UICONTROL Record fields]</td>
-     <td> <p>Enter or map the data that you want included in the new record. Available fields are based on the record type.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### Read Record
 
 <table style="table-layout:auto">
@@ -186,26 +259,6 @@ This action module creates a new record in Microsoft Dynamics 365 Finance and Op
   </tr> 
  </tbody> 
 </table>
-
-### Delete Record
-
-
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-    <td>[!UICONTROL Connection]</td>
-    <td> <p>For instructions about connecting Microsoft Dynamics 365 Finance and Operations to [!DNL Workfront Fusion], see <a href="#create-a-connection" class="MCXref xref">Create a connection</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-    <td>[!UICONTROL ID]</td>
-     <td>Enter or map the ID of the record you want the module to delete.</td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### Make a custom API call
 
 

@@ -65,7 +65,7 @@ Before you can use the [!DNL Adobe Lightroom] connector, you must ensure that th
 
 * You must have an active [!DNL Adobe Lightroom] account.
 
-## Create a connection to Adobe Lightroom
+<!--## Create a connection to Adobe Lightroom-->
 
 
 
