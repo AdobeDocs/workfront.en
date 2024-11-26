@@ -86,9 +86,7 @@ The Adobe Lightroom connector uses the following:
 
 ## Create a connection to Adobe Lightroom
 
-## Create a connection to [!DNL Adobe Lightroom]
-
-To create a connection for your [!DNL Adobe Photoshop] modules:
+To create a connection for your [!DNL Adobe Lightroom] modules:
 
 1. Click **[!UICONTROL Add]** next to the Connection box.
     
