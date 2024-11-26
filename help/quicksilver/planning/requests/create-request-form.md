@@ -202,7 +202,15 @@ You must have the following access to perform the steps in this article:
    >[!WARNING]
    >
    >
-   >When you select **Anyone with the link**, anyone can access the form and submit a new record, even people outside your organization that don't have a Workfront account. 
+   >* When you select **Anyone with the link**, anyone can access the form and submit a new record, even people outside your organization that don't have a Workfront account. 
+   >
+   > * <span class="preview">A form that contains the following field types canot be shared publicly:</span>
+   >
+   >     * <span class="preview">Formula</span>
+   >     * <span class="preview">Connections</span>
+   >     * <span class="preview">Lookup fields</span>
+   >     * <span class="preview">People</span>
+   >
 
 1. (Conditional) If you selected **Anyone with the link** in the previous step, select the **Link expiration date** from the available calendar. People will receive an error after the link expires and you must update the link date before they can access the form again. 
 

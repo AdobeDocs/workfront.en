@@ -118,7 +118,7 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations about adding approvals to a request form
 
-* You can add one or multiple approvers to a request form. 
+* You can add one or multiple approvers to a request form. You can add only users as approvers. 
 * When you add multiple approvers to a request form, all approvers must accept the request before a record is created in Workfront Planning. 
 * Adding approvals to a request form is optional. Workfront Planning immediately creates a record when a request is submitted, if the request form is not associated with an approval. 
 

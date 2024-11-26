@@ -33,8 +33,9 @@ You can create fields in the following ways in Workfront Planning:
 * By connecting record types
 * By creating a record type
 * By creating a workspace from a template
-<!--* By importing copies of existing Workfront fields-->
-<!--* By importing record types using an Excel or CSV file-->
+* <span class="preview">By importing record types using an Excel or CSV file</span>
+* <span class="preview">By importing copies of existing Workfront fields</span>
+
 
 For more information about Workfront Planning fields, see [Field overview](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -337,7 +338,7 @@ You can use a date field to capture additional information in date and time form
         * **Long**: May 16, 2023
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
-        * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. <!--update this setting name - submitted bug for it to be changed-->
+        * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you safe the field. 
     
         Select from the following options:
         
@@ -645,7 +646,14 @@ Adobe Workfront Planning creates fields for record types when you create a works
 
 For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-<!--
+<div class="preview">
+
+## Create fields when importing record types from a CSV or Excel file
+
+You can import fields when you import record types using a CSV or Excel file. 
+
+For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+
 ## Create fields by importing them from Workfront
 
 You can import copies of existing Workfront fields. Importing fields from Workfront creates a copy of each field for a Workfront Planning record type. 
@@ -654,4 +662,4 @@ After you copy the fields, the fields are independent from one another and they 
 
 For information, see [Import fields from Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md). 
 
--->
+</div>
