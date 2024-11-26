@@ -28,6 +28,21 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning after the general availability release on August 28, 2024, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## Restore deleted records
+
+>[!NOTE]
+>
+>Preview release: November 22, 2024; Production for fast release: With the 24.12 release (December 2024); Production for quarterly release: With the 25.1 release (January 2025)
+
+After records are deleted, they are now temporarily moved to a Recently deleted bin for 30 days. You can access the Recently deleted bin from the record type's page and it contains only records of a specific type. 
+
+Workspace managers can restore records from the trash bin for up to 30 days after they were deleted. Connected records and their field information is also restored. 
+
+Prior to this enhancement, deleted records could not be restored.
+
+For more information, see [Restore deleted records](/help/quicksilver/planning/records/records-information.md).  
+
 ## Adobe AI Assistant available in the record details areas
 
 >[!NOTE]

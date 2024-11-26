@@ -231,6 +231,12 @@ The following table shows the objects whose comments also display on their highe
    <td>Document </td> 
    <td>Object where document is attached, Project </td> 
   </tr> 
+ </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Proof </td> 
+   <td>Document </td> 
+  </tr>
+
   <tr> 
    <td>Program</td> 
    <td>Portfolio</td> 
