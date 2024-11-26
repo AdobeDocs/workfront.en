@@ -237,14 +237,6 @@ This search module returns results based on criteria you specify.
    <td>Enter or map the Dynamics Finance and Operations entity type that you want to search.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Filter fields]</td> 
-   <td> <p>Select the fields that you want to use for your search criteria. These fields will then be available in the Search criteria dropdown.</p></td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Limit]</td> 
-   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
-  </tr> 
-  <tr> 
    <td>[!UICONTROL Search criteria]</td> 
    <td> <p>Enter the field that you want to search by, the operator you want to use in your query, and the value that you are searching for in the field.</p> </td> 
   </tr> 
