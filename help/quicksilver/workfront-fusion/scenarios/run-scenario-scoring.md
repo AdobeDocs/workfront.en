@@ -56,7 +56,21 @@ The Scenario Scoring Expert returns a score out of 10, and shows which checks ha
 
 ![Scenario score](assets/scenario-score.png)
 
+## Scenario scoring checks
 
+The Scenario Scoring Expert uses the following checks:
+
+* The scenario must be named.
+* All modules must be labeled.
+* The scenario must run on a set schedule.
+
+   For instructions, see [Schedule a scenario](/help/quicksilver/workfront-fusion/scenarios/schedule-a-scenario.md).
+* The scenario blueprint size must be under 5 MB.
+
+   For more information, see [Fusion performance guardrails](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md#scenarios).
+* If a Workfront instant trigger module is used, it must be filtered.
+   
+   For instructions, see [Event subscription filters in the [!DNL Workfront] > [!UICONTROL Watch Events] module](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-module).
 
 
 

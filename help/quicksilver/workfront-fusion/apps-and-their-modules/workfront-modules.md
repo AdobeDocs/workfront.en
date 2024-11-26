@@ -2024,7 +2024,7 @@ See a list of the [!DNL Workfront] object types for which you can use this modul
 
 +++
 
-## Event subscription filters in the [!DNL Workfront] > [!UICONTROL Watch Events] modules 
+## Event subscription filters in the [!DNL Workfront] > [!UICONTROL Watch Events] module 
 
 >[!NOTE]
 >
