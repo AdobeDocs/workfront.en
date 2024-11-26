@@ -88,17 +88,21 @@ To request initial access to an object:
 1. Click **Request Access**.  
    The **Request Access** dialog box is displayed.  
 
-1. (Conditional) If more than one user has the appropriate access to grant you additional access, a drop-down arrow is displayed next to the name of the user. 
-1. Select the user from the drop-down list who you want to receive your access request.  
+1. (Conditional) If more than one user has the appropriate access to grant you additional access, a drop-down arrow is displayed next to the name of the user. Select the user from the drop-down list who should receive your access request.  
+   
    Only 10 users are displayed in the drop-down list. The list is sorted alphabetically.  
    For more information on the order of the users listed in this drop-down menu, see  [Hierarchy of the "Request Access" and "Request More Access" drop-down menus](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. From the drop-down list, select the type of access that you are requesting.
 1. (Optional) In the **P.S.** field, specify a note to the user regarding why you need additional access.
 
+   <span class="preview">Sample image in the Preview environment:</span>
+   ![Request access dialog box](assets/request-access-to-project.png)
+
+   Sample image in the Production environment:
    ![](assets/request-access-dialog-350x314.png)
 
-If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator. 
+If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
 
 For example, if you do not have portfolio access, but you were given a link to a portfolio, you would see the following message:  
 ![](assets/permission-request-initial2-350x96.png)
@@ -111,7 +115,7 @@ To request additional access to an object that you already have limited access t
 
 1. Click the **More** menu to the right of the project name, then click **Request More Access**.  
 
-   ![](assets/request-access-in-project-350x201.png)  
+   ![Request More Access](assets/more-menu-request-more-access.png)
 
 1. (Conditional) If more than one user has the appropriate access to grant you additional access, a drop-down arrow is displayed next to the name of the user.
 1. Select the user from the drop-down list who you want to receive your access request.  
@@ -120,7 +124,12 @@ To request additional access to an object that you already have limited access t
 
 1. From the drop-down list, select the level of access that you are requesting.
 1. (Optional) In the **P.S.** field, specify a note regarding why you need additional access.
-1. Click **Request Access**.  
+1. Click **Request Access**.
+
+   <span class="preview">Sample image in the Preview environment:</span>
+   ![Request access dialog box](assets/request-access-to-project.png)
+
+   Sample image in the Production environment:
    ![](assets/request-access-dialog-350x314.png)
 
 ## Hierarchy of the "Request Access" and "Request More Access" drop-down menus {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
