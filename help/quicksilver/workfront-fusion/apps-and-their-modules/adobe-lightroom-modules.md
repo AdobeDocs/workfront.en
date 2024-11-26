@@ -84,8 +84,47 @@ The Adobe Lightroom connector uses the following:
  </tbody> 
  </table>
 
-<!--## Create a connection to Adobe Lightroom-->
+## Create a connection to Adobe Lightroom
 
+To create a connection for your [!DNL Adobe Lightroom] modules:
+
+1. Click **[!UICONTROL Add]** next to the Connection box.
+    
+1. Fill in the following fields:
+    
+    <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>Enter a name for this connection.</p>
+        </td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>Select whether you are connecting to a production or non-production environment.</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>Select whether you are connecting to a service account or a personal account.</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>Enter your [!UICONTROL Adobe] [!UICONTROL Client ID]. This can be found in the [!UICONTROL Credentials] details section of the [!DNL Adobe Developer Console]</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>Enter your [!DNL Adobe] [!UICONTROL Client Secret]. This can be found in the [!UICONTROL Credentials] details section of the [!DNL Adobe Developer Console]</td>
+        </tr>
+      </tbody>
+    </table>
+    
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
+    
 
 
 ## Adobe Lightroom modules and their fields
