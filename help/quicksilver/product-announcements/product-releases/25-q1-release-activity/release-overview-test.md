@@ -206,7 +206,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Business rules now support hyperlinks</a></p>
-            [!BADGE New in Preview ]{type=Attention}
+            [!BADGE New in Preview ]{type=Caution}
             <p>You can now include hyperlinks in the custom error message of a business rule, to guide the user on how to modify their action within the constraint of the rule. The static URL could link to documentation or other pages that would be helpful to the user.</p>
         </td>
         <td>November 14, 2024</td>
