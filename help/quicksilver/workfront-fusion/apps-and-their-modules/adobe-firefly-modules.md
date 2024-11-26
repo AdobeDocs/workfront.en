@@ -287,7 +287,7 @@ This action module generates and image based on a prompt you provide. You can al
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Presets]</td> 
-   <td>If you want to use a preset style, click Add item and enter or map the style that you want to use.<p>For a list of preset styles, see <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/styles/" >Image Model Styles</a> in the Adobe developer documentation.</td> 
+   <td>If you want to use a preset style, click Add item and enter or map the style that you want to use.<p>For a list of preset styles, see <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/style-presets/" >Image Model Styles</a> in the Adobe developer documentation.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Negative prompt]</td> 
