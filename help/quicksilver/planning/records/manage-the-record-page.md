@@ -10,6 +10,10 @@ exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 
 # Manage the record page layout
 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
 You can edit the layout of the record preview and page in Adobe Workfront Planning. 
@@ -243,4 +247,52 @@ To add a section to a record preview or page:
     The new position of the field is updated in both the preview and the page of all records of the same type for all users viewing the records. 
 
     All changes to the layout of the record preview or page save automatically. 
+
+<span class="preview">
+
+## Add a Connected view page to a record's page
+
+You can add a Connected view page to a record's page.
+
+You cannot add a Connected view page to a record's preview area.
+
+Connected view pages display one connected record page in the table view. The table view is read-only. 
+
+You can add one Connected view page per each connected record type.  <!--edit this when we can remove fields from this page-->
+
+To add a Connected view page:
+
+1. From a record page view, click the name of a record to open it, then click the Open in new tab icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.
+1. Click **Add page** > **Connected view**. 
+1. Add the **Page name**, then click **Create**.
+
+   An additional page is added to the record's page in a new tab.
+1. Search or click the name of a connected record or object type in the list. 
+   The table view of the record type you selected displays and the connected records display in the table view. 
+   The table view is read-only. 
+
+   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+1. (Optional) Double-click the name of the tab
+
+   Or
+
+   Hover over the name of the tab, then click **More** ![](assets/more-menu.png), then click **Rename** to rename to new Connected view tab.
+1. (Optional) Use any view elements in the toolbar to manage the table view. For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+
+</span>
+
+<!--
+## Add a Brief page to a record's page
+
+You can add a Brief page to the record's preview or pages. 
+
+Brief pages contain the same information as the Details tab, in a read-only format. <!--edit this when we can remove fields from this page-->
+
+<!--
+1. From a record's page view, click the name of a record to open its preview or page.
+1. Click **Add page** > **Brief**. 
+1. Add the **Page name**, then click **Create**. 
+-->
+
+
 

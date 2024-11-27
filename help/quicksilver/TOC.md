@@ -2099,6 +2099,7 @@ feature-set: Workfront
     * [Edit field settings](planning/fields/edit-fields.md)
     * [Delete fields](planning/fields/delete-fields.md) 
     * [Formula fields overview](planning/fields/formula-fields.md)   
+    * [Import fields from Adobe Workfront](planning/fields/import-fields-from-workfront.md)
     * [Primary field overview](planning/fields/primary-field-overview.md)
   * Adobe Workfront Planning access {#adobe-workfront-planning-access}
     * [Adobe Workfront Planning access information: article index](planning/access/access-information.md)
