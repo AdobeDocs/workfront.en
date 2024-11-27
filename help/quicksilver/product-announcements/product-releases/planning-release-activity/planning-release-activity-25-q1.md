@@ -125,7 +125,7 @@ You can no longer share a request form publicly if the form contains any of the 
 * Lookup fields 
 * People 
 
- For information, see [Create and manage a request form in Adobe Workfront Planning](/help\quicksilver\planning\requests\create-request-form.md). 
+ For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). 
 
 
 ## Display records in the calendar view by week 
@@ -136,7 +136,7 @@ You can no longer share a request form publicly if the form contains any of the 
 
 You can now display records in the calendar view by week. Prior to this enhancement, you could display the calendar view only by month.  
 
- For information, see [Manage the calendar view](/help\quicksilver\planning\views\manage-the-calendar-view.md). 
+ For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
 
 ## Restore deleted records
 
