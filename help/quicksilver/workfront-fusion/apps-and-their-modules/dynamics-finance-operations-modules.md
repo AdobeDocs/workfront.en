@@ -8,6 +8,7 @@ title: Microsoft Dynamics 365 Finance and Operations modules
 description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Microsoft Dynamics 365 Finance and Operations, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
+exl-id: 19b00ee8-dc05-4cde-9a76-d857090fa543
 ---
 # [!DNL Microsoft Dynamics 365 Finance and Operations modules]
 

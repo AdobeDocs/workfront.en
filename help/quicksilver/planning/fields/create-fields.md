@@ -33,7 +33,9 @@ You can create fields in the following ways in Workfront Planning:
 * By connecting record types
 * By creating a record type
 * By creating a workspace from a template
-<!--* By importing record types using an Excel or CSV file-->
+* <span class="preview">By importing record types using an Excel or CSV file</span>
+* <span class="preview">By importing copies of existing Workfront fields</span>
+
 
 For more information about Workfront Planning fields, see [Field overview](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -172,6 +174,8 @@ OLD:
 ## Create fields from scratch {#create-fields-from-scratch} 
 
 <!--in a table (not sure if this can be done elsewhere?!-->
+
+<!--the first 3 steps are the same as in Import fields from Workfron-->
 
 {{step1-to-planning}}
 
@@ -334,7 +338,7 @@ You can use a date field to capture additional information in date and time form
         * **Long**: May 16, 2023
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
-        * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. <!--update this setting name - submitted bug for it to be changed-->
+        * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you safe the field. 
     
         Select from the following options:
         
@@ -461,6 +465,12 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
    ![](assets/description-of-formula-expression.png)
 
    For more information about what expressions are supported, see [Formula fields overview](/help/quicksilver/planning/fields/formula-fields.md).
+
+
+    >[!TIP]
+    >
+    ><span class="preview">You will receive a warning message when editing or creating a formula field that might cause a circular reference to itself or shared fields. You cannot save a formula field that either refers to itself or to items that are referenced in its calculation.  </span>
+
 
 1. Add field names as they display in Workfront Planning to reference them in a formula. 
 
@@ -641,3 +651,21 @@ When you create a record type, several fields associated with the new record typ
 Adobe Workfront Planning creates fields for record types when you create a workspace from a template. 
 
 For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+<div class="preview">
+
+## Create fields when importing record types from a CSV or Excel file
+
+You can import fields when you import record types using a CSV or Excel file. 
+
+For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+
+## Create fields by importing them from Workfront
+
+You can import copies of existing Workfront fields. Importing fields from Workfront creates a copy of each field for a Workfront Planning record type. 
+
+After you copy the fields, the fields are independent from one another and they do not exchange information. 
+
+For information, see [Import fields from Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md). 
+
+</div>

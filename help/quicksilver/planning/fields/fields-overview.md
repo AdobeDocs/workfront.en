@@ -10,6 +10,12 @@ exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
 
 # Field overview
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
+-->
+
 {{planning-important-intro}}
 
 You can add new fields in Adobe Workfront Planning that reflect your organization's lifecycle. Fields are attributes of record types. 
@@ -39,10 +45,11 @@ You can add new fields in Adobe Workfront Planning that reflect your organizatio
             You cannot create fields from the record's page.  
 
         * By connecting record types. You can create linked record fields when you add a new connection between two record types, or a record type and an object types from other applications. 
-        
-           <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
            For more information about connecting record types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).  
+
+        <!--* By importing existing fields from Workfront. 
+            For information, see [Import fields from Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).-->
 
         <!--* By importing record types using an Excel or CSV file. For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). -->
 
