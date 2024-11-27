@@ -48,7 +48,7 @@ We recommend that you also see the following articles:
 Submitted requests display in the Planning tab of the Submitted section in the Requests area of Workfront  with one of the following request statuses: 
 
 * **Pending review**: This status is shown when none of the approvers has opened the request object.
-* **In review**: The status changes to **In review** when at least one approver opens the request object.
+* **In review**: The status changes to **In review** when at least one approver opens the request object. The status of the request remains **In review** until all approvers have approved the request.
 * **Approved**: When an approver approves the request object, their individual status becomes 
 * **Approved**, but the overall request object status remains **In review** until all approvers have made their decisions.
 * **Completed**: If all approvers approve the request object, its status changes to **Completed**, or if the request did not need an approval.
@@ -146,7 +146,13 @@ To approve a request:
 
 1. Do one of the following: 
 
-    * From your Workfront **Main Menu** ![](assets/dots-menu.png) in the upper-right corner of the screen, or the **Main Menu** ![](assets/lines-menu.png) in the upper-left corner, if available, click **Requests** > **Submitted** > **Planning** and click the request with the status of **In review**. <!--did they change this to Pending approval; logged  a bug-->
+    * If you have access to Workfront Planning, click **Main Menu** ![](assets/dots-menu.png) in the upper-right corner of the screen, or the **Main Menu** ![](assets/lines-menu.png) in the upper-left corner, if available, then click **Requests** > **Submitted** > **Planning**, and click the request with the status of **In review**. <!--did they change this to Pending approval; logged  a bug-->
+
+      >[!TIP]
+      >
+      >    If you don't have access to Workfront Planning, you can only access a request to approve it using your notifications. 
+    
+
     * Go to the **Notifications** area in the upper-right corner of the screen and click the notification about a request pending your approval to open the request.
     * Go to the email notification in your email that notifies you about a request pending your approval, then click to open the request. <!--add the name of the button here, from the email-->
 
@@ -156,5 +162,5 @@ To approve a request:
 1. (Optional) Click the **Approvals** icon ![](assets/approvals-icon.png) in the upper-right corner of the request to view the approvers.
 1. Click **Review and approve**, then choose one of the following: <!--did they fix the button and removed the &??-->
 
-    * **Approve**: To approve the request. A record is immediately created for the record type associated with the request form.
-    * **Reject**: To reject the request. No record is created for the record type associated with the request form. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??-->
+    * **Approve**: This approves the request. A record is immediately created for the record type associated with the request form.
+    * **Reject**: This rejects the request. No record is created for the record type associated with the request form. <!--check to see if there is a notification sent to the requestor about it being rejected OR approved??--> <!--checking with PM what happens with the other approvers when one of them is rejecting it: does it ask them to approve it? Deleted the request? -->
