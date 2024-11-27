@@ -463,7 +463,7 @@ This page provides information about functionality that is included in the Fourt
                             <p>Production release for all customers: With the 24.10 release (October 17, 2024)</p>
                         </li>
                     </ul>
-                    <p><i>Only available for organizations on one of the new Adobe Workfront plans. Data Connect is included in the Ultimate plan or can be purchased as an add-on to the Prime and Select plans.</i></p>
+                    <p><i>Only available for organizations on one of the new Adobe Workfront plans. Data Connect is included in the Ultimate plan, and will be made available for purchase as an add-on to the Prime and Select plans in the first half of 2025.</i></p>
                 </td>
             </tr>
         </tbody>
