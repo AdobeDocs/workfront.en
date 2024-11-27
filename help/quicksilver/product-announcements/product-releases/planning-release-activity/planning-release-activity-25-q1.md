@@ -28,6 +28,61 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning after the general availability release on August 28, 2024, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## Import existing Workfront fields to Workfront Planning record types  
+
+>[!NOTE]
+>
+>Preview release: November 27, 2024; Production for fast release: With the 24.12 release (December, 2024); Production for quarterly release: With the 25.1 release (January 2025)
+
+Now, when you add fields to a record type, you have the option to import existing Workfront custom or native fields and associate them with the record type you selected.   
+
+Prior to this enhancement, you had to manually create all fields and associate them with record types.  
+
+Calculated fields are not supported at this time.   
+
+For information, see [Import fields from Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md) 
+
+## Create record types, records, and fields by importing a CSV or Excel file 
+
+>[!NOTE]
+>
+>Preview release: November 27, 2024; Production for fast release: With the 24.12 release (December, 2024); Production for quarterly release: With the 25.1 release (January 2025) 
+
+You can now import new record types by importing a CSV or Excel file.  
+
+The following information is imported: 
+
+* The name of the sheet or the file is imported as the record type name.  
+
+* The first row of every column is imported as a new field. You can have up to 500 fields in each imported sheet.
+
+* Each row is imported as a new record. You can have up to 10,000 records in each sheet.
+
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).  
+
+## Avoid circular references in formulas
+
+>[!NOTE]
+>
+>Preview release: November 27, 2024; Production for fast release: With the 24.12 release (December, 2024); Production for quarterly release: With the 25.1 release (January 2025) 
+
+We have introduced a warning message when editing or creating a formula field that might create a circular reference to itself or shared fields. You cannot save a formula field that either refers to itself or to items that are referenced in its calculation.  
+
+For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).  
+
+## Add Connected view pages to a record's page to display connected records in a table view
+
+>[!NOTE]
+>
+>Preview release: November 27, 2024; Production for fast release: With the 24.12 release (December, 2024); Production for quarterly release: With the 25.1 release (January 2025) 
+
+You can add pages to a record's details area to display connected records in a table view. You can add one page per connected record.  
+
+The added pages are read-only. 
+
+For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).  
+
 ## New Planning tab in the Submitted section of the Requests area
 
 >[!NOTE]
@@ -51,7 +106,6 @@ For information, see [Submit Adobe Workfront Planning requests to create records
 You can now add the following field types to a record type request form in Workfront Planning: 
 
 * People 
-* AEM Assets connections 
 * Workfront connections   
 
 Prior to this enhancement, these types of fields could not be added to request forms in Workfront Planning. 

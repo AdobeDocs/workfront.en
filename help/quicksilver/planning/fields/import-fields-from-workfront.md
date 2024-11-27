@@ -1,20 +1,11 @@
 ---
 title: Import Fields from Adobe Workfront
-description: You can import copies of existing Workfront fields. Importing fields from Workfront creates a copy of each field for a Workfront Planning record type.
-hide: yes
-hidefromtoc: yes
----
-
-<!--Update this metadata when publishing this: 
----
-title: Import Fields from Adobe Workfront
 description: In Adobe Workfront Planning, you can create custom fields for each kind of record type. You can then associate the field with Workfront Planning records.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 ---
--->
 
 <!--add to TOC-->
 

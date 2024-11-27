@@ -202,8 +202,8 @@ For information about what record types are included with each template, see [Li
       * [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md)
       * [Manage record views](/help/quicksilver/planning/views/manage-record-views.md) 
 
-<div class="preview"
->
+<div class="preview">
+
 ## Create record types by importing an Excel or CSV file
 
 Consider the following when importing record types using an Excel or CSV file: 

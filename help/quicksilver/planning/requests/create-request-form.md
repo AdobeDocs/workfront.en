@@ -143,7 +143,8 @@ You must have the following access to perform the steps in this article:
    >    * Formula
    >    * Created date and Last modified date
    >    * Workfront objects' lookup fields
-   >    * Workfront Planning records' connected lookup fields
+   >    * Workfront Planning connected records' lookup fields
+   >    * AEM Assets connected fields
    >* Fields of the following types do not display in the request form in the Production environment. <span class="preview">They display in the Preview environment:</span>
    >    * <span class="preview"> Workfront Planning records' connected fields</span>
    >    * <span class="preview">People </span>
