@@ -8,6 +8,7 @@ description: After user creation, you can edit the user and enable "Only Allow S
 author: Becky
 feature: System Setup and Administration
 role: Admin
+exl-id: 2752a9e2-44fe-49b5-a7ab-4021d91ed37b
 ---
 # Workfront: ZScalar settings can cause reduced performance
 

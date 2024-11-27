@@ -9,6 +9,8 @@ exl-id: 8089cbeb-4258-48b8-b13a-dfbd739c526a
 ---
 # Change the owner of a report
 
+<!-- Audited: 11/2024 -->
+
 You cannot change the owner of a report. However, when you copy a report, you automatically become the owner of the copied report.
 
 For more information that has moved to other articles, see:

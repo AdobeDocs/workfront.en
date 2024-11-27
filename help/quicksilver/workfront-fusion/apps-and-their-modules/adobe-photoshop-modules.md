@@ -68,6 +68,25 @@ Before you can use the [!DNL Adobe Photoshop] connector, you must ensure that th
 
 * You must have an active [!DNL Adobe Photoshop] account.
 
+## Adobe Photoshop API information
+
+The Adobe Photoshop connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Base URL</td> 
+   <td>https://image.adobe.io/pie/psdService</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.12.31</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Create a connection to [!DNL Adobe Photoshop]
 
 To create a connection for your [!DNL Adobe Photoshop] modules:

@@ -68,6 +68,21 @@ To see a list of available Adobe APIs, see [Adobe APIs](https://developer.adobe.
 
   For information on creating or adding an API to a project on the Adobe Developer Console, see [Create a project](https://developer.adobe.com/dep/guides/dev-console/create-project/) in the Adobe documentation.
 
+## Adobe Authenticator API information
+
+The Adobe Authenticator connector uses the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API tag</td> 
+   <td>v1.1.4</td> 
+  </tr>
+ </tbody> 
+ </table>
+
 ## Create a connection
 
 An Adobe Authenticator connection connects to a single project on the Adobe Developer Console. To use the same connection for more than one Adobe API, add the APIs to the same project, and create a connection to that project.
