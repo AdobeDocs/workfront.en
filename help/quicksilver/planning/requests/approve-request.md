@@ -1,13 +1,4 @@
 ---
-title: Approve a Request 
-description: When a user submits a request to a request form associated with an approval in Adobe Workfront Planning, approvers receive a notification and an email about the pending approval. They must approve the request before Workfront Planning creates an object. 
-hide: yes
-hidefromTOC: yes
----
-
-<!--Update the metadata when article is public:
-
----
 title: Approve a Request
 description: When a user submits a request to a request form associated with an approval in Adobe Workfront Planning, approvers receive a notification and an email about the pending approval. They must approve the request before Workfront Planning creates an object. 
 feature: Workfront Planning
@@ -15,13 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 ---
--->
+
 
 # Approve a request
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--take Preview and Production references at Production time-->
+
+<!-- do you need to add that only workspace owners can view the Submitted/ Planning tab?? - asking team in slack-->
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -38,6 +31,17 @@ We recommend that you also see the following articles:
 * [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
 * [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
+
+## Considerations about approving requests and request statuses
+
+Submitted requests display in the Planning tab of the Submitted section in the Requests area of Workfront  with one of the following request statuses: 
+
+   * **Pending review**: This status is shown when none of the approvers has opened the request object.
+   * **In review**: The status changes to **In review** when at least one approver opens the request object.
+   * **Approved**: When an approver approves the request object, their individual status becomes 
+   * **Approved**, but the overall request object status remains **In review** until all approvers have made their decisions.
+   * **Completed**: If all approvers approve the request object, its status changes to **Completed**, or if the request did not need an approval.
+   * **Rejected**: If any approver rejects the request object, the status becomes **Rejected**.
 
 ## Access requirements
 
@@ -134,6 +138,10 @@ To approve a request:
     * From your Workfront **Main Menu** ![](assets/dots-menu.png) in the upper-right corner of the screen, or the **Main Menu** ![](assets/lines-menu.png) in the upper-left corner, if available, click **Requests** > **Submitted** > **Planning** and click the request with the status of **In review**. <!--did they change this to Pending approval; logged  a bug-->
     * Go to the **Notifications** area in the upper-right corner of the screen and click the notification about a request pending your approval to open the request.
     * Go to the email notification in your email that notifies you about a request pending your approval, then click to open the request. <!--add the name of the button here, from the email-->
+
+    The request page opens in read-only mode.
+
+    ![](assets/read-only-reqeust-page-in-review-status.png) 
 1. (Optional) Click the **Approvals** icon ![](assets/approvals-icon.png) in the upper-right corner of the request to view the approvers.
 1. Click **Review and approve**, then choose one of the following: <!--did they fix the button and removed the &??-->
 

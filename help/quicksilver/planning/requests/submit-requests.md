@@ -11,6 +11,10 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
 After someone shares a link to a request form with you from a record type page in Adobe Workfront Planning, you can add a request to create records for the record type associated with the request form. 
@@ -106,17 +110,21 @@ The following must be in place before you can submit a request to a Workfront Pl
    
 * The request form must be shared with a link in a way you can access it. The following scenarios exist: 
 
-   * If you have a Workfront account, the link has been shared only with internal people and you have access to the workspace. People outside Workfront cannot access a link shared internally. 
+   * If you have a Workfront account, the link has been shared only with internal people and you have contribute or higher access to the workspace. People outside Workfront cannot access a link shared internally. 
    * If you don't have a Workfront account, the link has been shared with external people. Workfront users can also access a link shared with external people. 
 
 * The link to the form must not be expired.
 
 ## Considerations about submitting requests to Workfront Planning
 
-* You cannot access the request forms for Workfront Planning requests without a specific link to the forms. 
+* You can access a request form for Workfront Planning requests only from a specific link to the form. 
 * You cannot edit a request after you submit it to Workfront Planning.
-* Each submitted request creates a record for the record type associated with the form you use. 
+* Each submitted request creates a record for the record type associated with the form you use <span class="preview">if the form is not associated with an approval, or if the approval has been granted.</span> 
 * Records created by submitting request forms cannot be differentiated from records added through any other method. For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
+* <span class="preview">Submitted requests display in the Planning tab of the Submitted section in the Requests area of Workfront </span>. 
+
+<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some incosistency between unified-approvals-service and intake-approvals-flow.-->
+
 
 ## Submit a request to Workfront Planning
 
@@ -126,8 +134,26 @@ The following must be in place before you can submit a request to a Workfront Pl
 
    >[!TIP]
    >
-   >   If the Workfront **Subject** field is available, it might not be visible in Workfront Planning. We recommend that you update as many fields in your request as possible to make the new record identifiable when it is added to the record type.
+   >   If the Workfront **Subject** field is available,it might not be visible in Workfront Planning, after the request is submitted. 
+   >
+   >We recommend that you update as many fields in your request as possible to make the new record identifiable when it is added to the record type.
 
 1. Click **Submit**.
 
-   Your form is submitted and a new record is added to the record type associated with the form.
+   Your form is submitted and the following things occur:
+   
+   * <span class="preview">If the request form was associated with an approval, the request is temporarily saved to the Planning tab in the Submitted section of the Workfront Requests area. No record is created for the record type associated with the request form.</span>
+
+      <span class="preview">For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>  
+
+      ![](assets/planning-tab-in-requests.png)
+
+      >[!TIP]
+      >
+      ><span class="preview">Only workspace owners can view the new request in the Planning tab in the Submitted section of the Workfront Requests area.</span> <!--ensure this is correct; asking team in slack-->
+
+   * <span class="preview">If the request form was not associated with an approval, the request is added to the the Submitted section of the Workfront Requests area and a new record is added to the record type page.</span> 
+   * <span class="preview">You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.</span> 
+   * <span class="preview">If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.</span> 
+   * If the request form was not associated with an approval, or <span class="preview">if the approval was granted</span>, a new record is added to the record type associated with the form.
+

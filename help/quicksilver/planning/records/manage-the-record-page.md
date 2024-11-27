@@ -244,3 +244,33 @@ To add a section to a record preview or page:
 
     All changes to the layout of the record preview or page save automatically. 
 
+<span class="preview">
+
+## Add a Brief page to a record's page
+
+You can add a Brief page to the record's preview or pages. 
+
+Brief pages contain the same information as the Details tab, in a read-only format. <!--edit this when we can remove fields from this page-->
+
+1. From a record's page view, click the name of a record to open its preview or page.
+1. Click **Add page** > **Brief**. 
+1. Add the **Page name**, then click **Create**. 
+
+## Add a Connected view page to a record's page
+
+You can add a Connected view page to the record's preview or pages. 
+
+Connected view pages display one connected record page in the table view. The table view is read-only. 
+
+You can add one Connected view page per each connected record type.  <!--edit this when we can remove fields from this page-->
+
+To add a Connected view page:
+
+1. From a record's page view, click the name of a record to open its preview or page.
+1. Click **Add page** > **Connected view**. 
+1. Add the **Page name**, then click **Create**. 
+
+</span>
+
+
+

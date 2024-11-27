@@ -466,6 +466,12 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
 
    For more information about what expressions are supported, see [Formula fields overview](/help/quicksilver/planning/fields/formula-fields.md).
 
+
+    >[!TIP]
+    >
+    ><span class="preview">You will receive a warning message when editing or creating a formula field that might cause a circular reference to itself or shared fields. You cannot save a formula field that either refers to itself or to items that are referenced in its calculation.  </span>
+
+
 1. Add field names as they display in Workfront Planning to reference them in a formula. 
 
     >[!NOTE]

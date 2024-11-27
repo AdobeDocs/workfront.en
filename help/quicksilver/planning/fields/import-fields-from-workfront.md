@@ -153,7 +153,7 @@ You must have the following access to perform the steps in this article:
 
 {{step1-to-planning}}
 
-1. Click the workspace whose records you want to create fields for.
+1. Click the workspace whose record types you want to create fields for.
 
     The workspace opens and the record types display. 
 
@@ -163,13 +163,7 @@ You must have the following access to perform the steps in this article:
 
     >[!TIP]
     >
-    >    If no records display, you might not have any records yet, or you might have a filter applied that limits what you see on the screen.
-
-    All existing fields associated with the record type display in the columns of the table view. 
-
-    >[!TIP]
-    >
-    >    Some fields might be hidden. Click Fields and enable the toggle of the fields you want to view as columns in the table view. 
+    >    Some fields might be hidden. Click **Fields** and enable the toggle for the fields you want to view as columns in the table view. 
    
 1. Click the **+** icon in the upper-right corner of the table view
 
