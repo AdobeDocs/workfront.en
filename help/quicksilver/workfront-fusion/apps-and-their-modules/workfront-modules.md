@@ -818,18 +818,15 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection]</td>
- 
-   <td> <p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+    <td> <p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Record Type]</td>
-  
-   <td>Choose the [!DNL Workfront] object type that you want the module to read.</td> 
+     <td>Choose the [!DNL Workfront] object type that you want the module to read.</td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Outputs]</td>
-  
-   <td> <p>Select the information you want included in the output bundle for this module.</p> </td> 
+     <td> <p>Select the information you want included in the output bundle for this module.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL References]</td>
