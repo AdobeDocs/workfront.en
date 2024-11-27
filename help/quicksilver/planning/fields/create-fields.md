@@ -662,7 +662,9 @@ For information, see [Create record types](/help/quicksilver/planning/architectu
 
 ## Create fields by importing them from Workfront
 
-You can import copies of existing Workfront fields. Importing fields from Workfront creates a copy of each field for a Workfront Planning record type. 
+You can import copies of existing Workfront fields. 
+
+Importing fields from Workfront creates a copy of each field for a Workfront Planning record type. 
 
 After you copy the fields, the fields are independent from one another and they do not exchange information. 
 

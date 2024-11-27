@@ -35,7 +35,7 @@ For a list of all features released for Adobe Workfront Planning after the gener
 >
 >Preview release: November 27, 2024; Production for fast release: With the 24.12 release (December, 2024); Production for quarterly release: With the 25.1 release (January 2025)
 
-Now, when you add fields to a record type, you have the option to import existing Workfront custom or native fields and associate them with the record type you selected.   
+Now, when you add fields to a record type, you have the option to import existing Workfront custom or native fields and associate them with the record type you selected. Importing existing fields creates a copy of the Workfront fields in Workfront Planning. The copied fields are independent of their original versions.   
 
 Prior to this enhancement, you had to manually create all fields and associate them with record types.  
 
@@ -83,13 +83,16 @@ The added pages are read-only.
 
 For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).  
 
-## New Planning tab in the Submitted section of the Requests area
+## New Workfront and Planning tabs in the Submitted section of the Requests area
 
 >[!NOTE]
 >
 >Preview release: November 27, 2024; Production for fast release: With the 24.12 release (December, 2024); Production for quarterly release: With the 25.1 release (January 2025) 
 
-You can now find Workfront Planning requests in the Submitted section of the Requests area of Workfront. The Submitted section now displays two tabs: the requests submitted in Workfront on the Workfront tab, and the requests submitted using a Workfront Planning request form in the Planning tab.  
+You can now find Workfront Planning requests in the Submitted section of the Requests area of Workfront. The Submitted section now displays the following tabs: 
+
+* Workfront: Displays requests submitted in Workfront.
+* Planning: Displays requests submitted using a Workfront Planning request form. 
 
 You must use a link to the request form to be able to add requests to a Workfront Planning record type. Submitting a Workfront Planning request from Workfront's Requests area will be available at a later date.  
 
@@ -121,7 +124,7 @@ For information, see Create and manage a request form in Adobe Workfront Plannin
 You can no longer share a request form publicly if the form contains any of the following field types: 
 
 * Formula 
-* Connections 
+* Workfront and AEM Assets connections
 * Lookup fields 
 * People 
 
