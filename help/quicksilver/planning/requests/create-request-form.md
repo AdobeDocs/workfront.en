@@ -210,7 +210,7 @@ You must have the following access to perform the steps in this article:
    > * <span class="preview">A form that contains the following field types canot be shared publicly:</span>
    >
    >     * <span class="preview">Formula</span>
-   >     * <span class="preview">Connections</span>
+   >     * <span class="preview">Workfront or AEM Assets Connections</span>
    >     * <span class="preview">Lookup fields</span>
    >     * <span class="preview">People</span>
    >

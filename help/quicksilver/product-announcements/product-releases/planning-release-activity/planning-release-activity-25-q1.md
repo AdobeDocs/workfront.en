@@ -28,6 +28,61 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning after the general availability release on August 28, 2024, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## New Planning tab in the Submitted section of the Requests area
+
+>[!NOTE]
+>
+>Preview release: November 27, 2024; Production for fast release: With the 24.12 release (December, 2024); Production for quarterly release: With the 25.1 release (January 2025) 
+
+You can now find Workfront Planning requests in the Submitted section of the Requests area of Workfront. The Submitted section now displays two tabs: the requests submitted in Workfront on the Workfront tab, and the requests submitted using a Workfront Planning request form in the Planning tab.  
+
+You must use a link to the request form to be able to add requests to a Workfront Planning record type. Submitting a Workfront Planning request from Workfront's Requests area will be available at a later date.  
+
+Your organization must purchase a Workfront Planning package before the Planning tab is available to you in the Requests area.  
+
+For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).   
+
+## Additional field types are now supported in request forms
+
+>[!NOTE]
+>
+>Preview release: November 27, 2024; Production for fast release: With the 24.12 release (December, 2024); Production for quarterly release: With the 25.1 release (January 2025) 
+
+You can now add the following field types to a record type request form in Workfront Planning: 
+
+* People 
+* AEM Assets connections 
+* Workfront connections   
+
+Prior to this enhancement, these types of fields could not be added to request forms in Workfront Planning. 
+
+For information, see Create and manage a request form in Adobe Workfront Planning (/help/quicksilver/planning/requests/create-request-form.md). 
+
+##  Limit public sharing of request forms that contain certain field types
+
+>[!NOTE]
+>
+>Preview release: November 27, 2024; Production for fast release: With the 24.12 release (December 2024); Production for quarterly release: With the 25.1 release (January 2025)
+
+You can no longer share a request form publicly if the form contains any of the following field types: 
+
+* Formula 
+* Connections 
+* Lookup fields 
+* People 
+
+ For information, see [Create and manage a request form in Adobe Workfront Planning](/help\quicksilver\planning\requests\create-request-form.md). 
+
+
+## Display records in the calendar view by week 
+
+>[!NOTE]
+>
+>Preview release: November 26, 2024; Production for fast release: With the 24.12 release (December 2024); Production for quarterly release: With the 25.1 release (January 2025)
+
+You can now display records in the calendar view by week. Prior to this enhancement, you could display the calendar view only by month.  
+
+ For information, see [Manage the calendar view](/help\quicksilver\planning\views\manage-the-calendar-view.md). 
 
 ## Restore deleted records
 

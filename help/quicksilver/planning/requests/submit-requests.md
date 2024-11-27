@@ -7,6 +7,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 ---
+
 # Submit Adobe Workfront Planning requests to create records
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
@@ -119,7 +120,7 @@ The following must be in place before you can submit a request to a Workfront Pl
 
 * You can access a request form for Workfront Planning requests only from a specific link to the form. 
 * You cannot edit a request after you submit it to Workfront Planning.
-* Each submitted request creates a record for the record type associated with the form you use <span class="preview">if the form is not associated with an approval, or if the approval has been granted.</span> 
+* Each submitted request creates a record for the record type associated with the form you use <!--<span class="preview">if the form is not associated with an approval, or if the approval has been granted.</span> -->
 * Records created by submitting request forms cannot be differentiated from records added through any other method. For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
 * <span class="preview">Submitted requests display in the Planning tab of the Submitted section in the Requests area of Workfront </span>. 
 
@@ -134,26 +135,35 @@ The following must be in place before you can submit a request to a Workfront Pl
 
    >[!TIP]
    >
-   >   If the Workfront **Subject** field is available,it might not be visible in Workfront Planning, after the request is submitted. 
+   >   If the **Subject** field is available, it will not be visible in Workfront Planning, after the request is submitted. 
    >
-   >We recommend that you update as many fields in your request as possible to make the new record identifiable when it is added to the record type.
+   >We recommend that you update as many fields in your request as possible to make the new record identifiable when it is added to the record type in Workfront Planning.
 
 1. Click **Submit**.
 
    Your form is submitted and the following things occur:
-   
-   * <span class="preview">If the request form was associated with an approval, the request is temporarily saved to the Planning tab in the Submitted section of the Workfront Requests area. No record is created for the record type associated with the request form.</span>
 
-      <span class="preview">For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>  
+   * <!--If the request form was not associated with an approval, or <span class="preview">if the approval was granted</span>, a-->A new record is added to the record type associated with the form.
+
+   
+   * <!--If the request form was not associated with an approval, the--> <span class="preview"> The request is added to the the Submitted section of the Workfront Requests area and a new record is added to the record type page.</span> 
 
       ![](assets/planning-tab-in-requests.png)
 
-      >[!TIP]
+      >[!IMPORTANT]
       >
-      ><span class="preview">Only workspace owners can view the new request in the Planning tab in the Submitted section of the Workfront Requests area.</span> <!--ensure this is correct; asking team in slack-->
+      ><span class="preview">All users who have access to at least one workspace can view the Planning tab in the Requests area. You can view only the requests you submitted. Workfront administrators can view all requests in the system. </span> <!--ensure this is correct; asking team in slack-->
 
-   * <span class="preview">If the request form was not associated with an approval, the request is added to the the Submitted section of the Workfront Requests area and a new record is added to the record type page.</span> 
+   <!--
+   * <span class="preview">If the request form was associated with an approval, the request is temporarily saved to the Planning tab in the Submitted section of the Workfront Requests area. No record is created for the record type associated with the request form.</span>
+
+      <span class="preview">For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>  
+   -->
+   <!--
+
    * <span class="preview">You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.</span> 
    * <span class="preview">If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.</span> 
-   * If the request form was not associated with an approval, or <span class="preview">if the approval was granted</span>, a new record is added to the record type associated with the form.
+   -->
+
+  
 

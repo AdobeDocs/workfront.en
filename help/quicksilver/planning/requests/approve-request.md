@@ -1,11 +1,22 @@
 ---
 title: Approve a Request
 description: When a user submits a request to a request form associated with an approval in Adobe Workfront Planning, approvers receive a notification and an email about the pending approval. They must approve the request before Workfront Planning creates an object. 
+hide: yes
+hidefromTOC: yes
+---
+
+<!--
+
+---
+title: Approve a Request
+description: When a user submits a request to a request form associated with an approval in Adobe Workfront Planning, approvers receive a notification and an email about the pending approval. They must approve the request before Workfront Planning creates an object. 
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 ---
+
+-->
 
 
 # Approve a request

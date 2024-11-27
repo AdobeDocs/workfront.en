@@ -1,12 +1,22 @@
 ---
 title: Add an Approval to a Request Form
 description: You can add an approval process to an Adobe Workfront Planning request form, to initiate an approval for every submitted request, before it creates a record. 
+hide: yes
+hidefromTOC: yes
+---
+
+<!--
+
+---
+title: Add an Approval to a Request Form
+description: You can add an approval process to an Adobe Workfront Planning request form, to initiate an approval for every submitted request, before it creates a record. 
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 ---
 
+-->
 # Add an approval to a request form
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
