@@ -112,7 +112,7 @@ Prior to this enhancement, these types of fields could not be added to request f
 
 For information, see Create and manage a request form in Adobe Workfront Planning (/help/quicksilver/planning/requests/create-request-form.md). 
 
-##  Limit public sharing of request forms that contain certain field types
+## Limit public sharing of request forms that contain certain field types
 
 >[!NOTE]
 >
