@@ -75,6 +75,7 @@ For more information, see the section [View your organization's cluster and Work
 * [IP addresses to allow for Clusters 1, 2, 3, 5, 7, 8 and 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9) 
 * [IP addresses to allow for Cluster 4](#ip-addresses-to-allow-for-cluster-4) 
 * [IP addresses to allow for Cluster 6](#ip-addresses-to-allow-for-cluster-6) 
+* [IP addresses to allow for Cluster 10](#ip-addresses-to-allow-for-cluster-10)
 * [IP addresses to allow for a Test Drive](#IP%20Addre2) 
 * [IP addresses to allow when implementing event subscriptions](#ip-addresses-to-allow-when-implementing-event-subscriptions) 
 * [IP addresses to allow for enhanced authentication](#ip-addresses-to-allow-for-enhanced-authentication) 
