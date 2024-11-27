@@ -178,6 +178,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of November 25, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
       * [Workfront Fusion release activity: Week of November 11, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-11.md)
       * [Workfront Fusion release activity: Week of November 4, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-4.md)
       * [Workfront Fusion release activity: Week of October 21, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-21.md)
@@ -2335,6 +2336,7 @@ feature-set: Workfront
     * [Marketo modules](workfront-fusion/apps-and-their-modules/marketo-modules.md)
     * [Math](workfront-fusion/apps-and-their-modules/math-module.md)
     * [Microsoft Dynamics 365 modules](workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)
+    * [Microsoft Dynamics 365 modules Finance and Operations](workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md)
     * [Microsoft Office 365 Calendar](workfront-fusion/apps-and-their-modules/microsoft-365-calendar-modules.md)
     * [Microsoft Office 365 Email](workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)
     * [Microsoft Office 365 Excel modules](workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md)

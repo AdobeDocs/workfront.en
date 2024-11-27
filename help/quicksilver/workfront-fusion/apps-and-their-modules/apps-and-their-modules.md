@@ -87,6 +87,7 @@ This section contains the following articles:
 * [[!DNL Marketo] modules](../../workfront-fusion/apps-and-their-modules/marketo-modules.md) 
 * [Math](../../workfront-fusion/apps-and-their-modules/math-module.md) 
 * [[!DNL Microsoft Dynamics 365] modules](../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md) 
+* [[!DNL Microsoft Dynamics 365 Finance and Operations] modules](../../workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md) 
 * [[!DNL Microsoft Office 365 Calendar]](../../workfront-fusion/apps-and-their-modules/microsoft-365-calendar-modules.md) 
 * [[!DNL Microsoft Office 365 Email]](../../workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md) 
 * [[!DNL Microsoft Office 365 Excel] modules](../../workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md) 

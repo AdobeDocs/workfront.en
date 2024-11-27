@@ -65,6 +65,7 @@ Before you can use the [!DNL Adobe Lightroom] connector, you must ensure that th
 
 * You must have an active [!DNL Adobe Lightroom] account.
 
+
 ## Adobe Lightroom API information
 
 The Adobe Lightroom connector uses the following:
