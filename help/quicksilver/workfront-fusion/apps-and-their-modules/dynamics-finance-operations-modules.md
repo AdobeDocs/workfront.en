@@ -111,7 +111,7 @@ This action module creates a new entity item in Microsoft Dynamics 365 Finance a
 
 ### Delete entity item
 
-This action module deletes an entity item from Dynamics Finance and Operations. The item is identified by its primary key fields.
+This action module deletes an entity item from Dynamics Finance and Operations. The item is identified by its Primary key fields.
 
 <table style="table-layout:auto">
  <col> 
@@ -126,8 +126,8 @@ This action module deletes an entity item from Dynamics Finance and Operations. 
      <td>Enter or map the Dynamics Finance and Operations entity type that you want to delete.</td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL Primary Key Fields]</td>
-     <td> The primary key fields identify the item. For each primary key field that you want to provide, click <b>Add item</b> and enter or map the unique key and value that identify that item. </td> 
+    <td>[!UICONTROL Primary key fields]</td>
+     <td> The Primary key fields identify the item. For each primary key field that you want to provide, click <b>Add item</b> and enter or map the unique key and value that identify that item. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -157,7 +157,7 @@ This action module makes a custom call to the Dynamics Finance and Operations AP
    <td> <p>Add the headers of the request in the form of a standard JSON object. This determines the content type of the request.</p> <p>For example,<code> {"Content-type":"application/json"}</code></p> <p>Note: If you're getting errors and it's difficult to determine their origin, consider modifying headers based on the [!DNL Workfront] documentation. If your Custom API Call returns a 422 HTTP Request Error, try using a <code>"Content-Type":"text/plain"</code> header.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Query String]</td> 
+   <td role="rowheader">[!UICONTROL Query string]</td> 
    <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{"name":"something-urgent"}</code></p> <p>Tip: We recommend that you send information through the JSON body rather than as query parameters.</p> </td> 
   </tr> 
   <tr> 
@@ -174,7 +174,7 @@ This action module makes a custom call to the Dynamics Finance and Operations AP
 
 ### Read entity item
 
-This action module returns data from an entity item. The item is identified by its primary key fields.
+This action module returns data from an entity item. The item is identified by its Primary key fields.
 
 <table style="table-layout:auto">
  <col> 
@@ -189,8 +189,8 @@ This action module returns data from an entity item. The item is identified by i
      <td>Enter or map the Dynamics Finance and Operations entity type that you want to read.</td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL Primary Key Fields]</td>
-     <td> The primary key fields identify the item. For each primary key field that you want to provide, click <b>Add item</b> and enter or map the unique key and value that identify that item. </td> 
+    <td>[!UICONTROL Primary key fields]</td>
+     <td> The Primary key fields identify the item. For each primary key field that you want to provide, click <b>Add item</b> and enter or map the unique key and value that identify that item. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -210,8 +210,8 @@ This action module returns data from an entity item. The item is identified by i
      <td>Enter or map the Dynamics Finance and Operations entity type that you want to update.</td> 
   </tr>  
   <tr> 
-    <td>[!UICONTROL Primary Key Fields]</td>
-     <td> The primary key fields identify the item. For each primary key field that you want to provide, click <b>Add item</b> and enter or map the unique key and value that identify that item. </td> 
+    <td>[!UICONTROL Primary key fields]</td>
+     <td> The Primary key fields identify the item. For each primary key field that you want to provide, click <b>Add item</b> and enter or map the unique key and value that identify that item. </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Body]</td>
@@ -256,7 +256,7 @@ This search module returns results based on criteria you specify.
 
 ### List All
 
-This module lists all records for a given entity.  The item is identified by its primary key fields.
+This module lists all records for a given entity.  The item is identified by its Primary key fields.
 
 <table style="table-layout:auto">
  <col> 
