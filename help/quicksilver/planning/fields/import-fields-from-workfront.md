@@ -5,8 +5,8 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
 ---
-
 <!--add to TOC-->
 
 # Import fields from Adobe Workfront
@@ -172,5 +172,4 @@ You must have the following access to perform the steps in this article:
     * Object type: Select a Workfront object type whose fields you want to import. 
     * Custom form: Select one or several custom forms from Workfront. You may select a custom form without selecting an object type first. 
 1. Click **+**, then **Add fields**.
-    The fields are added to the table view and to the records' details pages. 
-
+    The fields are added to the table view and to the records' details pages.
