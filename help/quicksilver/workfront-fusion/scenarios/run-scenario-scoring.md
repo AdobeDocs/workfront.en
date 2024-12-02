@@ -8,6 +8,7 @@ author: Becky
 feature: Workfront Fusion
 hide: yes
 hidefromtoc: yes
+exl-id: 144c8dbd-a3e9-4267-b3db-0768dac8f384
 ---
 # Run the Scenario Scoring Expert in Adobe Workfront Fusion
 
@@ -73,8 +74,3 @@ The Scenario Scoring Expert uses the following checks:
 * If a Workfront instant trigger module is used, it must be filtered.
    
    For instructions, see [Event subscription filters in the [!DNL Workfront] > [!UICONTROL Watch Events] module](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-module).
-
-
-
-
-

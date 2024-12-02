@@ -9,6 +9,7 @@ author: Becky
 feature: Workfront Fusion
 hide: yes
 hidefromtoc: yes
+exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
 ---
 # View activity logs for an organization in Adobe Workfront Fusion
 
@@ -99,8 +100,3 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 1. Select the date range from the from the calendar, and (optional) enter times.
 1. Select whether to export an Excel file or a CSV file.
 1. Click **Apply**.
-
-
-
-
-
