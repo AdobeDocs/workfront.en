@@ -7,6 +7,8 @@ title: View activity logs for an organization in Adobe Workfront Fusion
 description: You can view a log of activities, such as scenario creation or activation, for your organization.
 author: Becky
 feature: Workfront Fusion
+hide: yes
+hidefromtoc: yes
 ---
 # View activity logs for an organization in Adobe Workfront Fusion
 
