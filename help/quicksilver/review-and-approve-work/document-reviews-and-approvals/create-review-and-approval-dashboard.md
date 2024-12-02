@@ -11,7 +11,7 @@ exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
 ---
 # Create a report dashboard for review and approvals
 
-You can create a report dashboard in the Canvas Dashboards area to display both high-level and detailed information about reviews and approvals with the new document approvals functionality. 
+You can create a report dashboard in the Canvas Dashboards area to display both high-level and detailed information about reviews and approvals with the new document approvals functionality.  
 
 >[!IMPORTANT]
 >
