@@ -32,6 +32,7 @@ This page provides information about functionality that is included in the First
 
 <table>
 <col style="width: 20%;" />
+<col style="width: 50%;" />
 <tbody>
     <tr>
     <td>Area</td>
@@ -83,7 +84,6 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             "Move to" icon added to custom fields</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
             <p>When a custom form contains multiple sections with many fields, it can be difficult to move a field from one section to another by dragging and dropping. A "move to" icon has been added to each field, allowing you to select the section that the field is placed in.</p>
         </td>
         <td>October 29, 2024</td>
@@ -167,8 +167,6 @@ This page provides information about functionality that is included in the First
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            "Move to" icon added to custom fields</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
             <p>When a custom form contains multiple sections with many fields, it can be difficult to move a field from one section to another by dragging and dropping. A "move to" icon has been added to each field, allowing you to select the section that the field is placed in.</p>
         </td>
         <td>October 29, 2024</td>
