@@ -6,6 +6,8 @@ title: Run the Scenario Scoring Expert
 description: Manage locked scenarios in [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
+hide: yes
+hidefromtoc: yes
 ---
 # Run the Scenario Scoring Expert in Adobe Workfront Fusion
 
