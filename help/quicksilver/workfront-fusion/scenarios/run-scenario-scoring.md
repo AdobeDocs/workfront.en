@@ -74,3 +74,4 @@ The Scenario Scoring Expert uses the following checks:
 * If a Workfront instant trigger module is used, it must be filtered.
    
    For instructions, see [Event subscription filters in the [!DNL Workfront] > [!UICONTROL Watch Events] module](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-module).
+
