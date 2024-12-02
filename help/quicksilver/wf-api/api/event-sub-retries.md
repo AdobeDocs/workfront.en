@@ -18,9 +18,26 @@ Some integrations can accept failure of delivery, and then drop the message and 
 
 Because customers leverage the Workfront platform as a core piece of their daily knowledge work, the Workfront Event Subscription framework provides a mechanism to ensure that the delivery of each message is attempted to the fullest extent possible.
 
-Event-triggered outbound messages that fail to be delivered to customer endpoints are resent until delivery is successful for up to a period of 48 hours. During this time, retries occur at an incrementally reduced frequency until delivery is successful or until 48 hours has elapsed.
+Event-triggered outbound messages that fail to be delivered to customer endpoints are resent until delivery is successful for up to a period of 48 hours. During this time, retries occur at an incrementally increased frequency until delivery is successful or until 11 attempts have been made.
+
+The formula for these retry attempts is:
+
+ `((2^attempt) - 1) * 84800ms`
+
+The first retry occurs after 1.5 minutes, second at almost 5 minutes, and 11th is at about 48 hours.
 
 Customers need to ensure that any endpoints consuming outbound messages from Workfront Event Subscriptions are set up to return a 200-level response message back to Workfront when delivery is successful.
+
+## Disabled and frozen subscription rules
+
+* A subscription URL is **disabled** if it has a failure rate over 70% with over 100 attempts OR if it has 2,000 consecutive failures
+* A subscription URL is **frozen** if it has over 2,000 consecutive failures and the last success was over 72 hours ago OR if it has 50,000 consecutive failures in any timeframe.
+* A **disabled** subscription URL will continue to attempt delivery every 10 minutes and become re-enabled with a successful delivery.
+* A **frozen** subscription URL will never attempt delivery unless it is manually enabled by making an API request.
+
+
+
+<!--
 
 ## Handling Failed Event-Triggered Outbound Messages
 
@@ -51,12 +68,4 @@ The following explanations correspond with the steps depicted in the flowchart:
 1. If the URL circuit is closed and allowing deliveries, attempt to deliver the message. If this delivery fails, the message will restart at step 1 
 
 1. If the URL circuit is closed and allowing deliveries, attempt to deliver the message. If this delivery fails, the message will restart at step 1.
-
-   <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfront disables Event Subscriptions when both of the following criteria are met:
-   <ul>
-   <!--
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The Event Subscription has failed 1000 delivery attempts consecutively</li>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">48 hours have passed since the last successful delivery</li>
-   </ul></li>
    -->
