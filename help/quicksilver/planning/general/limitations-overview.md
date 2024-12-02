@@ -11,6 +11,10 @@ exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
 
 # Adobe Workfront Planning object limitations overview
 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
 
@@ -34,6 +38,9 @@ The following table shows the limits for how many objects you can create in Work
 |     Size of file that you can import through the API for a record type table  |   1.5MB                                                                                                         |
 |     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
 | Number of views one user can create for one record type | 100 |
+| Size of CSV of Excel file you can import to create record types | 5MB |
+| <span class="preview">Number of rows you can import in a CSV or Excel file to create record types</span> | 10,000 |
+| <span class="preview">Number of columns you can import in a CSV or Excel file to create record types</span> | 500 |
 
 *We recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.
 
@@ -41,7 +48,7 @@ For information about Workfront Planning pricing and packaging, see [Adobe Workf
 
 <!--
 ****************KEEP THIS COMMENTED OUT:
-| Size of CSV of Excel file you can import** | 5MB |
+
 **This functionality has been temporarily removed and it will be available at a later date.**********************
 -->
 

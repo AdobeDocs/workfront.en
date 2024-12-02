@@ -12,6 +12,24 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the First Quarter 2025 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Look-and-feel updates for Document Integrations 
+
+>[!NOTE]
+>
+>Preview release: November 14, 2024; Production release for all customers: November 14, 2024
+
+We have made performance upgrades to the area in Setup where you configure custom integrations: Setup > Documents > Custom Integration. This upgrade includes slight visual changes to the area. No functionality has changed.
+
+## Look-and-feel updates for the Company Members and Company Billing Rates pages
+
+>[!NOTE]
+>
+>Preview release: November 4, 2024; Production for fast release: With the 24.12 release (December 2024); Production for quarterly release: With the 25.1 release (January 2025)
+
+We have updated the Company Members and Company Billing Rates pages with a more modern design that is consistent with other areas of Workfront. Company memberships are accessed via Setup > Companies > select a company name > select Company Members in the left panel. Company billing rates are accessed via Setup > Companies > select a company name > select Billing Rates in the left panel.
+
+For information, see [Create and edit companies](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) and [Manage company memberships](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+
 ## Look-and-feel updates for the main and secondary navigation areas
 
 >[!NOTE]

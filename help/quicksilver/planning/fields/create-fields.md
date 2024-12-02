@@ -33,7 +33,9 @@ You can create fields in the following ways in Workfront Planning:
 * By connecting record types
 * By creating a record type
 * By creating a workspace from a template
-<!--* By importing record types using an Excel or CSV file-->
+* <span class="preview">By importing record types using an Excel or CSV file</span>
+* <span class="preview">By importing copies of existing Workfront fields</span>
+
 
 For more information about Workfront Planning fields, see [Field overview](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -67,7 +69,7 @@ You must have the following access to perform the steps in this article:
 <p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
 <p>Any </p> 
 <p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
@@ -173,6 +175,8 @@ OLD:
 
 <!--in a table (not sure if this can be done elsewhere?!-->
 
+<!--the first 3 steps are the same as in Import fields from Workfron-->
+
 {{step1-to-planning}}
 
 1. Click the workspace whose records you want to create fields for.
@@ -198,7 +202,10 @@ OLD:
     Or
     
     Hover over the header of any column, click the downward-pointing arrow after the field name, then click **Insert left** or **Insert right** to add the new field.
-1. In the **New field** tab, search for a field type in the **Field type** box, or select from the following field types: 
+1. In the **New field** tab, search for a field type in the **Field type** box, or select from the following field types:
+
+    In the **New field** tab, search for a field type in the **Field type** box <!--using any related keyword-->, or select from the field types listed below. 
+
 
     * [Single-line text](#single-line-text)
     * [Paragraph](#paragraph)
@@ -219,6 +226,9 @@ OLD:
     >[!IMPORTANT]
     >
     >    You cannot change the Field type of the field after you save it. 
+
+    <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
+    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
 
 1. Continue with adding each field, as described in the sections below.
 
@@ -258,7 +268,7 @@ Paragraph fields capture additional alphanumeric information about a record, sim
 
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or <span class="preview"> when you click the information icon next to the field name in the record's details page.</span>
 1. Click **Create**. 
 
     The new paragraph field is added as a column to the record type, and its values can be associated with records.   
@@ -275,7 +285,7 @@ You can use a multi-select field to capture additional information in any format
 
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or <span class="preview"> when you click the information icon next to the field name in the record's details page.</span>
      * **Choices**: The options that users can select when updating this field. You can use both numbers and letters for the name of each choice. 
 1. Click **Add choice** to add more choices. There is no limit to how many choices you can add to a multi-select field.
 1. (Optional) Manually drag and drop each choice in the desired order, or select the 
@@ -297,7 +307,7 @@ Single-select fields capture additional information in any format by selecting o
 
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or <span class="preview"> when you click the information icon next to the field name in the record's details page.</span>
      * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. 
      
 1. Click **Add choice** to add more choices. There is no limit to how many choices you can add to a single-select field.     
@@ -319,7 +329,7 @@ You can use a date field to capture additional information in date and time form
 
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the record page. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or <span class="preview"> when you click the information icon next to the field name in the record's details page.</span>
      * **Date Format**: The type of date format you want to display in this field. <!--update this casing - submitted bug for it-->
         
         Select from the following formats:
@@ -328,7 +338,7 @@ You can use a date field to capture additional information in date and time form
         * **Long**: May 16, 2023
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
-        * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. <!--update this setting name - submitted bug for it to be changed-->
+        * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you safe the field. 
     
         Select from the following options:
         
@@ -349,7 +359,7 @@ Number field types capture information in a number format.
 1. Add the following information in the **New field** tab:
 
     * **Name**: The name of the field type, as it will appear in a table or the record page. 
-    * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
+    * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or <span class="preview"> when you click the information icon next to the field name in the record's details page.</span> 
     * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimal places.
     * **Allow negative numbers**: Select this option if you want to allow negative numbers in this field. This option is unselected by default. 
     
@@ -371,7 +381,7 @@ Percentage field types capture information in a number format followed by a perc
 
 1. Add the following information in the **New field** tab:
     * **Name**: The name of the field type, as it will appear in a table or the record page. 
-    * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
+    * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or <span class="preview"> when you click the information icon next to the field name in the record's details page.</span> 
     * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimal places.
     * **Allow negative numbers**: Select this option if you want to allow negative percentage values in this field. This option is unselected by default. 
 
@@ -383,7 +393,7 @@ Percentage field types capture information in a number format followed by a perc
 
     * **Show as**: From the drop-down menu, choose how you want the percentage values to display in the table view. Select from the following options:
         * **Number**: The percent value displays as a number followed by the percentage sign. 
-        * **Bar**: The percent value displays as a bar next to the percentage number. The fill color of the bar indicates the percent value. 
+        * **Bar**: The percent value displays as a bar next to the percentage number. The fill color of the bar indicates the percent value. This is the default selection. 
         * **Circle**: The percent value displays as the outline of a circle next to the percentage number. The fill color of the circle's outline indicates the percent value.
 
     >[!NOTE]
@@ -406,7 +416,7 @@ Currency field types capture information in a number format preceded by a curren
 
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the record page. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or <span class="preview"> when you click the information icon next to the field name in the record's details page.</span>
      * **Currency**: The type of currency you want to display in this field. This is a list of currencies according to the International Organizaton of Standardization (ISO). 
      * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimals.
      * **Allow negative numbers**: Select this option if you want to allow negative currency values in this field. This option is unselected by default. 
@@ -429,7 +439,7 @@ You can use the Checkbox field type to add a single checkbox option to a record.
 
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the record page. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or <span class="preview"> when you click the information icon next to the field name in the record's details page.</span>
 1. Click **Create**.
 
     The new checkbox field is added as a column to the record type, and its values can be associated with records.   
@@ -447,7 +457,7 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
 1. Add the following information in the **New field** tab:
 
    * **Name**: Enter a name for the new field.
-   * **Description**: Add information about the new field.
+   * **Description**: Add information about the new field. The description of a field displays when you hover over the field's column in a table, or <span class="preview"> when you click the information icon next to the field name in the record's details page.</span>
    * **Formula**: Start typing at least one character to access an expression, then select it when it displays in the list. 
   
 1. Click the selected expression to reveal the definition and view its formatting. 
@@ -455,6 +465,12 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
    ![](assets/description-of-formula-expression.png)
 
    For more information about what expressions are supported, see [Formula fields overview](/help/quicksilver/planning/fields/formula-fields.md).
+
+
+    >[!TIP]
+    >
+    ><span class="preview">You will receive a warning message when editing or creating a formula field that might cause a circular reference to itself or shared fields. You cannot save a formula field that either refers to itself or to items that are referenced in its calculation.  </span>
+
 
 1. Add field names as they display in Workfront Planning to reference them in a formula. 
 
@@ -503,7 +519,7 @@ You can use the People field type to add a user <!--, job role, or team--> to a 
 
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or <span class="preview"> when you click the information icon next to the field name in the record's details page.</span>
      * **Allow multiple values**: Select this option if you want to allow users to add more than one user in this field. This option is unselected by default. 
     
     >[!NOTE]
@@ -525,7 +541,7 @@ You can use the Created by field type to add the user who created the record to 
 1. Add the following information in the **New field** tab:
 
      * **Name**: The name of the field type, as it will appear in a table or the record page. <!--this might change and they might prepopulate it with "Created by"-->
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or <span class="preview"> when you click the information icon next to the field name in the record's details page.</span>
     
 1. Click **Create**.
 
@@ -545,7 +561,7 @@ You can use the Created date field type to add the date when the record was crea
 1. Add the following information in the **New field** tab:
 
      * **Name**: The name of the field type, as it will appear in a table or the record page. <!--this might change and they might prepopulate it with "Created date"-->
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or <span class="preview"> when you click the information icon next to the field name in the record's details page.</span>
      * **Date Format**: Select from the following formats:
 
         * **Locale**: Matches the locale of your browser.
@@ -576,7 +592,7 @@ You can use the Last modified by field type to add the user who last modified th
 1. Add the following information in the **New field** tab:
 
      * **Name**: The name of the field type, as it will appear in a table or the record page. <!--this might change and they might prepopulate it with "Created by"-->
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or <span class="preview"> when you click the information icon next to the field name in the record's details page.</span>
     
 1. Click **Create**.
 
@@ -596,7 +612,7 @@ You can use the Last modified date field type to add the date when a record was 
 1. Add the following information in the **New field** tab:
 
      * **Name**: The name of the field type, as it will appear in a table or the record page. <!--this might change and they might prepopulate it with "Created date"-->
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or <span class="preview"> when you click the information icon next to the field name in the record's details page.</span>
      * **Date Format**: Select from the following formats:
 
         * **Locale**: Matches the locale of your browser.
@@ -635,3 +651,23 @@ When you create a record type, several fields associated with the new record typ
 Adobe Workfront Planning creates fields for record types when you create a workspace from a template. 
 
 For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+<div class="preview">
+
+## Create fields when importing record types from a CSV or Excel file
+
+You can import fields when you import record types using a CSV or Excel file. 
+
+For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+
+## Create fields by importing them from Workfront
+
+You can import copies of existing Workfront fields. 
+
+Importing fields from Workfront creates a copy of each field for a Workfront Planning record type. 
+
+After you copy the fields, the fields are independent from one another and they do not exchange information. 
+
+For information, see [Import fields from Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md). 
+
+</div>

@@ -58,7 +58,7 @@ You must have the following access to perform the steps in this article:
    </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td>
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td>
    <td>
 <p>Any </p>  
 <p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </td>
@@ -139,14 +139,18 @@ You must have the following access to perform the steps in this article:
    >
    >* Fields of the following types do not display in the request form <span class="preview">in the Preview </span> or Production environments: 
    >
-   >    * People (includes Created by and Last modified by)
+   >    * Created by and Last modified by
    >    * Formula
-   >    * Created date
-   >    * Last modified date
-   >    * Workfront objects' connected fields or lookup fields
-   >    * Workfront Planning records' connected lookup fields
+   >    * Created date and Last modified date
+   >    * Workfront objects' lookup fields
+   >    * Workfront Planning connected records' lookup fields
+   >    * AEM Assets connected fields
    >* Fields of the following types do not display in the request form in the Production environment. <span class="preview">They display in the Preview environment:</span>
    >    * <span class="preview"> Workfront Planning records' connected fields</span>
+   >    * <span class="preview">People </span>
+   >    * <span class="preview">Workfront objects' connected fields</span>
+   >    * <span class="preview">AEM Assets connected fields </span>
+
       
 
    * **Default section**: This is the default section break that Workfront applies to the request form. The Default section cannot be renamed or removed. 
@@ -160,7 +164,7 @@ You must have the following access to perform the steps in this article:
    For example, remove the **Subject** field, as this is not visible in Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
 1. Click any field, then use the controls in the right panel in the form to define their size, or any of the following information:
 
-   * **Label**: this is the name of the field as it will appear on the request form. This does not change the name of the record field.
+   * **Label**: This is the name of the field as it will appear on the request form. This does not change the name of the record field.
    * **Instructions**: Add more information about the field.
    * **Make a required field**: When selected, the field must have a value. Otherwise, the form cannot be submitted. 
    * **Add logic**: Define what conditions must be met in order for the field to display or be hidden.
@@ -199,9 +203,18 @@ You must have the following access to perform the steps in this article:
       * Anyone with contribute or higher access to the workspace
       * Anyone with the link
 
-   >[!IMPORTANT]
+   >[!WARNING]
    >
-   >When you select **Anyone with the link**, anyone can access the form and submit a new record, even people outside your organization that don't have a Workfront account. 
+   >
+   >* When you select **Anyone with the link**, anyone can access the form and submit a new record, even people outside your organization that don't have a Workfront account. 
+   >
+   > * <span class="preview">A form that contains the following field types canot be shared publicly:</span>
+   >
+   >     * <span class="preview">Formula</span>
+   >     * <span class="preview">Workfront or AEM Assets Connections</span>
+   >     * <span class="preview">Lookup fields</span>
+   >     * <span class="preview">People</span>
+   >
 
 1. (Conditional) If you selected **Anyone with the link** in the previous step, select the **Link expiration date** from the available calendar. People will receive an error after the link expires and you must update the link date before they can access the form again. 
 

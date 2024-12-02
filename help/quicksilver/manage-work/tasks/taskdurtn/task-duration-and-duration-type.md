@@ -13,6 +13,10 @@ exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
 
 <!-- Audited: 12/2023 -->
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
 The task Duration is the difference between the Planned Completion Date and the Planned Start Date of the task. The Duration indicates the time frame that is available for the task to get completed.
 
 The Duration Type of a task identifies the relationship between the number of resources assigned to a task, the total effort, and the total Duration of the task.
@@ -21,21 +25,45 @@ The Duration Type of a task identifies the relationship between the number of re
 
 If the Actual Start and Actual Completion Dates of the task fall outside of the schedule of the project, primary assignee, or the Default Schedule, the task Duration is zero.
 
-**Example:** If you have a schedule that starts at 9:00 AM and ends at 12:00 PM and a task that is scheduled to start at 2:00 PM and end at 4:00 PM, the task's Duration is zero.
+>[!BEGINSHADEBOX]
 
-The following are two scenarios that exist when calculating duration in&nbsp;Adobe Workfront: 
+**EXAMPLE** 
+If you have a schedule that starts at 9:00 AM and ends at 12:00 PM and a task that is scheduled to start at 2:00 PM and end at 4:00 PM, the task's Duration is zero.
 
-* If the task is assigned to a user Workfront, uses one of the following schedules, in this exact order to calculate Duration:
+
+>[!ENDSHADEBOX]
+
+The following are two scenarios that exist when calculating duration in Adobe Workfront: 
+
+* If the task is assigned to one user, the following scenarios exist based on what environment you use: 
+
+  * In the Production environment, Workfront uses one of the following schedules, in this exact order to calculate Duration:
 
    1. Workfront takes into account the user's schedule. 
    1. If the user is not associated with a schedule, Workfront takes into account the project's schedule.
    1. If the project is not associated with a schedule, Workfront takes into account the Default Schedule of your system. For information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
+<div class="preview">
+
+* In the Preview environment:
+
+   1. Workfront takes into account either the schedule of the project or that of the user assigned to the task.
+
+      Your Workfront or group administrator determines which schedule Workfront uses when a task is assigned to one user. For information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+   1. If the user or the project don't have a schedule, Workfront uses the system Default schedule. 
+
+      The steps are similar to the first scenario after understanding which schedule Workfront uses to calculate Duration.
+
+</div>
+
 * If the task is assigned to multiple users:
 
   1. Workfront takes into account either the schedule of the project or that of the primary assignee.
 
-  Your Workfront administrator determines which schedule Workfront uses when a task is assigned to multiple users. For information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+      Your Workfront or group administrator determines which schedule Workfront uses when a task is assigned to multiple users. For information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+   1. If the primary assignee or the project don't have a schedule, Workfront uses the system Default schedule. 
 
   The steps are similar to the first scenario after understanding which schedule Workfront uses to calculate Duration.
 
@@ -43,9 +71,17 @@ The following are two scenarios that exist when calculating duration in&nbsp;Ado
 >
 >When taking into account the Primary Assignee's time off on a project, the planned dates of the task might adjust, but the Duration of the task remains the same. For information about taking into account the time off of the Primary Assignee when planning a project, see  [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
+## The Original Duration of a parent task
+
+The Original Duration of a task is the Duration that a task originally had before it became a parent task, in minutes. 
+
+When a task becomes a parent, the Duration between the Planned Start Date of the earliest child and the Planned Completion Date of the last child rolls up to the parent task and becomes the Duration of the parent task. This replaces the Duration of the original task.
+
+For more information, see [Overview of task Original Duration and Original Planned Hours](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md). 
+
 ## Units of time for Task Duration
 
-You can indicate task&nbsp;Duration in both the regular time and the elapsed time between the Planned Start and Planned Completion Dates.
+You can indicate task Duration in both the regular time and the elapsed time between the Planned Start and Planned Completion Dates.
 
 When updating the Duration of tasks in a list, you can use the following abbreviations for indicating units of time in&nbsp;Workfront: 
 
@@ -64,7 +100,14 @@ When updating the Duration of tasks in a list, you can use the following abbrevi
 
 {style="table-layout:auto"}
 
-**Example:** If you want to indicate that a task's Duration is 3 Elapsed Day, you would type "3 ED" in the Duration field in a task list .  You can also select the preferred option for the Duration Unit of Time from the available drop-down menu when editing a task or in the Task&nbsp;Details section. For information about editing tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>[!BEGINSHADEBOX]
+
+**EXAMPLE**
+
+If you want to indicate that a task's Duration is 3 Elapsed Day, you would type "3 ED" in the Duration field in a task list .  You can also select the preferred option for the Duration Unit of Time from the available drop-down menu when editing a task or in the Task Details section. For information about editing tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+
+>[!ENDSHADEBOX]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
@@ -75,9 +118,9 @@ When updating the Duration of tasks in a list, you can use the following abbrevi
 Consider the following when indicating the Duration of a task:
 
 * Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. 
-* Regular time takes into account holidays, weekends, and time off and excludes them from the Duration of the task.
-
-* When you indicate the Duration of a task in weeks, Workfront calculates the Duration in days and hours based on the Typical work days per week and Typical hours per work day settings set by your Workfront administrator in the Project&nbsp;Preferences area of Setup.
+* Days represent the working days defined in the system and it is configurable in the Setup area. In most cases, a day consists of 8 hours.
+* Regular time (days or working days) takes into account holidays, weekends, and time off and excludes them from the Duration of the task.
+* When you indicate the Duration of a task in weeks, Workfront calculates the Duration in days and hours based on the Typical work days per week and Typical hours per work day settings set by your Workfront administrator in the Project Preferences area of Setup.
 * Workfront uses the default duration of 4 weeks for one month when calculating Duration in months.
 
 ## Task Duration Type overview

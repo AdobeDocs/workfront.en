@@ -25,8 +25,8 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 >
 >You must have the following to access Workfront Planning:
 >
->* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
->* An additional license for Workfront Planning. 
+>* A new Workfront package and license. Workfront Planning is not available for legacy Workfront packages or licenses. 
+>* A Workfront Planning package. 
 >* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
 >
 > For a complete list of requirements to access Workfront Planning, see [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
@@ -55,11 +55,11 @@ The following are some of the main capabilities:
 * Fully customize your workflows, from deciding what object types (or record types) your organization uses to configuring how these objects link to one another.  
 * Link to object types from other systems, creating a coherent framework for all your processes.  
 
+<!--
 ## Currently available Workfront Planning features
+(*****for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section*****)
 
-<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section-->
-
-<!--at GA: update the link below to the new place for release notes-->
+(*****at GA: update the link below to the new place for release notes *****)
 
 For information about new features and when they are released, see [Adobe Workfront Planning release activity for 2024](/help/quicksilver/planning/general/release-activity.md). 
 
@@ -68,7 +68,7 @@ The following features are currently available in Workfront Planning:
 * Create workspaces             
 * Create record types             
 * Create record custom fields             
-<!--* Import record types and fields using an Excel or CSV file-->             
+(************ * Import record types and fields using an Excel or CSV file*****)
           
 * Display records in a table view            
 * Display records in a timeline view            
@@ -106,6 +106,8 @@ The following features are currently available in Workfront Planning:
 * Workfront Planning AI Assistant
 * Reporting on Workfront Planning information
     You can report on Planning information using the Canvas Dashboard. For information, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md). 
+
+-->
 
 <!--OLD: 
 
@@ -319,7 +321,7 @@ To locate Adobe Planning, ensure that your organization has received access to W
 
 To locate Workfront Planning:   
 
-1. Log in to Adobe Workfront. 
+1. Log in to Workfront. 
 
 {{step1-click-main-menu}}
 

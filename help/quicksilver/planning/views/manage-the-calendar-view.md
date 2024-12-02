@@ -9,6 +9,10 @@ exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
 ---
 # Manage the calendar view
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
 {{planning-important-intro}}
 
 You can display records and their fields in a calendar view, from the record type page.
@@ -45,7 +49,7 @@ You must have the following access to perform the steps in this article:
 <p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
 <p>Any </p> 
 <p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
@@ -173,7 +177,16 @@ To manage a calendar view:
     * Click **Today** to center the calendar to today's date. 
     * Select one of the following options from the time frame drown-down menu to update the time increments: 
 
-        * Month
+        * **Month**: Records display in a monthly calendar.
+
+        <div class="preview">
+
+        * **Week**: Records display in the following areas:
+
+            * Records that span over multiple days display at the top of the calendar.
+            * Records that last a day or less, display in the lower half of the calendar view. If you selected to display the hour of he Start and End Dates, the record displays at the appropriate time within the day that it occurs.
+         </div> 
+
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)
     * [Settings](#edit-the-calendar-view-settings)

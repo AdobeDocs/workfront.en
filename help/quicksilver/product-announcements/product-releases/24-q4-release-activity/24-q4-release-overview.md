@@ -463,7 +463,7 @@ This page provides information about functionality that is included in the Fourt
                             <p>Production release for all customers: With the 24.10 release (October 17, 2024)</p>
                         </li>
                     </ul>
-                    <p><i>Only available for organizations on one of the new Adobe Workfront plans. Data Connect is included in the Ultimate plan or can be purchased as an add-on to the Prime and Select plans.</i></p>
+                    <p><i>Only available for organizations on one of the new Adobe Workfront plans. Data Connect is included in the Ultimate plan, and will be made available for purchase as an add-on to the Prime and Select plans in the first half of 2025.</i></p>
                 </td>
             </tr>
         </tbody>
@@ -555,7 +555,7 @@ The following functionality is soon to be removed from Workfront:
 
 #### Deprecation of the legacy Home experience with 24.10
 
-We will be officially deprecating the legacy Home experience with the 24.10 release. Users are encouraged to begin using new Home, which will continue to be enhanced with additional features prior to the deprecation. For more information about the transition, including advice about what users and administrators can do to prepare, see [Legacy Home deprecation guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+We will be officially deprecating the legacy Home experience with the 24.10 release. Users are encouraged to begin using new Home, which will continue to be enhanced with additional features prior to the deprecation.
 
 ## Announcements
 

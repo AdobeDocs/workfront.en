@@ -11,6 +11,10 @@ exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 
 # Create records
 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
 In Adobe Workfront Planning, a record is an instance of a record type. 
@@ -22,6 +26,8 @@ You can create records by doing one of the following:
 * [Duplicate records from a table view](#create-records-by-duplicating-them)
 * [Create records as you connect them from other records](#create-records-as-you-connect-them)
 * [Create them by submitting a request form to a record type](#create-records-by-submitting-a-request-form-to-a-record-type)
+* <span class="preview">[Create records when importing record types from a CSV or Excel file](#create-records-when-importing-record-types-from-a-csv-or-excel-file)</span>
+
 
 For information about managing records in the table or timeline views, see the following articles:
 
@@ -58,7 +64,7 @@ You must have the following access to perform the steps in this article:
 <p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
 <p>Any </p> 
 <p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
@@ -264,3 +270,13 @@ For information, see [Create and manage a request form in Adobe Workfront Planni
 Both Workfront users and users external to your organization can submit requests to Planning record types and create records, if they have a link to the request form.
 
 For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+
+<div class="preview">
+
+## Create records when importing record types from a CSV or Excel file
+
+You can import records when you import record types using a CSV or Excel file. 
+
+For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+
+</div>
