@@ -22,3 +22,7 @@ This section contains the following articles:
 * [Add a user to an organization in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/add-user-to-an-organization.md)
 * [Manage users in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/manage-fusion-users.md)
 * [Organization roles in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md)
+* [View activity logs for an organization in Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/organizations/view-activity-logs-for-an-org.md)
+
+
+

@@ -2234,6 +2234,7 @@ feature-set: Workfront
     * [Add a user to an organization in Adobe Workfront Fusion](workfront-fusion/organizations/add-user-to-an-organization.md)
     * [Manage users in Adobe Workfront Fusion](workfront-fusion/organizations/manage-fusion-users.md)
     * [Organization roles in Adobe Workfront Fusion](workfront-fusion/organizations/organization-roles.md)
+    * [View activity logs for an organization in Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/organizations/view-activity-logs-for-an-org.md)
   * Scenarios in Adobe Workfront Fusion {#scenarios-in-fusion}
     * [Scenarios in Adobe Workfront Fusion](workfront-fusion/scenarios/scenarios.md)
     * [Adobe Workfront Fusion scenario overview](workfront-fusion/scenarios/scenario-overview.md)
