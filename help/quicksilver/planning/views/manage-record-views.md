@@ -10,6 +10,11 @@ exl-id: 77342724-0182-4134-903b-4428d54cdceb
 
 # Manage record views
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
+
 {{planning-important-intro}}
 
 After selecting a record type in Adobe Workfront Planning area, you can display all the records of that type in the following views: 
@@ -212,6 +217,9 @@ The following table shows the similarities and differences between the table, ti
 | Search for specific records                     |  ✓         | ✓              |
 | Share the view with others                     |  ✓         | ✓              |       ✓     |
 | Open the record's page from the view                    |  ✓         | ✓              |    |
+| Display records by year and quarter                    |           | ✓              |    |
+| Display records by month                    |           | ✓              |  ✓  |
+| <span class="preview">Display records by week</span>                    |           |               |  ✓  |
 
 
 ## Create or edit views {#create-or-edit-views}
