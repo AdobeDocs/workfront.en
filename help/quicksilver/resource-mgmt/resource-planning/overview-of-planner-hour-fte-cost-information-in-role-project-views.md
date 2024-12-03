@@ -90,7 +90,7 @@ The following tables show the allocation and availability information that displ
 * [The VAR (Variance) column](#the-var-variance-column) 
 * [The NET column](#the-net-column)
 
-### The AVL (Available)&nbsp;column {#the-avl-available-column}
+### The AVL (Available) column {#the-avl-available-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -134,7 +134,7 @@ The following tables show the allocation and availability information that displ
 
 
 
-### The PLN (Planned)&nbsp;column {#the-pln-planned-column}
+### The PLN (Planned) column {#the-pln-planned-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -184,7 +184,7 @@ Consider the following when viewing Planned Hours:
 * Planned Hours do not display in the Resource Planner if the task Duration is zero.
 * Planned Hours associated with deactivated users do not display.
 
-### The BDG (Budgeted)&nbsp;column {#the-bdg-budgeted-column}
+### The BDG (Budgeted) column {#the-bdg-budgeted-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -209,13 +209,7 @@ Consider the following when viewing Planned Hours:
  </tbody> 
 </table>
 
-Consider the following when working with Budgeted Hours: 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(Duplicated below ??)
-</MadCap:conditionalText>
--->
+Consider the following when working with Budgeted Hours:
 
 * You can budget resources only when you have Edit access to Resource Management and Financial Data and Manage Finance permissions on the projects.
 
@@ -227,16 +221,24 @@ Consider the following when working with Budgeted Hours:
 
 * The smallest period of time you can budget hours, FTE, or Cost for is a week. You cannot budget hours, FTE, or Cost for a day. 
 * Budgeted Hours are equally distributed to each day within the Duration of tasks, for each resource assigned to them. The task Duration is based on the task Planned Start and Completion Dates and includes every calendar day within that period of time.   
+  
   Workfront takes into account the schedule of the user or of the project when distributing Budgeted Hours to users or projects. In this case, Budgeted Hours are equally distributed to each day within the Duration of tasks excluding weekends, but including time-off and schedule exceptions.   
+  
   If you display the Resource Planner by Week, for example, and you have tasks that span multiple weeks, the number of Budgeted Hours per week depends on how many days within that week are part of the task Duration. Weekend days are excluded from this distribution. This works similarly when displaying the Resource Planner by Month or Quarter and when tasks span multiple months or quarters. 
 
 * You can report on Budgeted Hours, by selecting Budgeted Hour as your report object for a new report.  
+  
   For information about what objects you can report on in Workfront, see the section "Report on objects" in the article [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).   
+  
   For information about building a Budgeted Hour report, see the article [Report: Budgeted Hour](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 
 * Hours previously budgeted for users who were later deactivated do not display.
 
-### The VAR (Variance)&nbsp;column {#the-var-variance-column}
+  Note that the Budgeted Labor Cost of a project still includes the budgeted hours for users who were deactivated in the Resource Planner.
+
+  For example: If a role is assigned to two users and budgeted hours are added (20 hours per user, totaling 40 hours), and then the total is set manually for the role, deactivating one of the users in the Resource Planner causes their hours to no longer be considered in the calculation (dropping the total to 20 hours). However, the project budgeting correctly retains the manually set total for the role, so the deactivated user's hours are still included in the calculation (remaining at 40 hours).
+
+### The VAR (Variance) column {#the-var-variance-column}
 
 <table style="table-layout:auto"> 
  <col> 
