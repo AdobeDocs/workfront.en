@@ -20,7 +20,7 @@ The following are frequently asked questioned about environment promotion:
 
 Cross-domain environment promotion is not currently supported. You must promote between environments in the same domain.
 
-## Is the Adobe Business Platform / IMS a prerequisite for environemnt promotion?
+## Is the Adobe Business Platform / IMS a prerequisite for environment promotion?
 
 ### Answer
 
