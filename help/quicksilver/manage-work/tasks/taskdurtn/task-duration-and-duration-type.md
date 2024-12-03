@@ -100,7 +100,14 @@ When updating the Duration of tasks in a list, you can use the following abbrevi
 
 {style="table-layout:auto"}
 
-**Example:** If you want to indicate that a task's Duration is 3 Elapsed Day, you would type "3 ED" in the Duration field in a task list .  You can also select the preferred option for the Duration Unit of Time from the available drop-down menu when editing a task or in the Task&nbsp;Details section. For information about editing tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>[!BEGINSHADEBOX]
+
+**EXAMPLE**
+
+If you want to indicate that a task's Duration is 3 Elapsed Day, you would type "3 ED" in the Duration field in a task list .  You can also select the preferred option for the Duration Unit of Time from the available drop-down menu when editing a task or in the Task Details section. For information about editing tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+
+>[!ENDSHADEBOX]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
@@ -111,9 +118,9 @@ When updating the Duration of tasks in a list, you can use the following abbrevi
 Consider the following when indicating the Duration of a task:
 
 * Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. 
-* Regular time takes into account holidays, weekends, and time off and excludes them from the Duration of the task.
-
-* When you indicate the Duration of a task in weeks, Workfront calculates the Duration in days and hours based on the Typical work days per week and Typical hours per work day settings set by your Workfront administrator in the Project&nbsp;Preferences area of Setup.
+* Days represent the working days defined in the system and it is configurable in the Setup area. In most cases, a day consists of 8 hours.
+* Regular time (days or working days) takes into account holidays, weekends, and time off and excludes them from the Duration of the task.
+* When you indicate the Duration of a task in weeks, Workfront calculates the Duration in days and hours based on the Typical work days per week and Typical hours per work day settings set by your Workfront administrator in the Project Preferences area of Setup.
 * Workfront uses the default duration of 4 weeks for one month when calculating Duration in months.
 
 ## Task Duration Type overview

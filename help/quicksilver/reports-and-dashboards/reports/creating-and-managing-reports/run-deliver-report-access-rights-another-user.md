@@ -9,6 +9,8 @@ exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
 ---
 # Run and deliver a report with the access rights of another user
 
+<!-- Audited: 11/2024 -->
+
 By default, users can only see the objects in a report that they have permissions to View.
 
 You can allow all users to see the same results in a report as another user, regardless of their access level or permission level on the objects inside the report.
@@ -22,6 +24,8 @@ If you run a report with the access rights of another user who has higher access
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -34,20 +38,31 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+      <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to a report (to view the delivered report)</p> <p>Manage permissions to a report (to run the report)</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View permissions to a report (to view the delivered report)</p><p>Manage permissions to a report (to run the report)</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Display a report with the access rights of another user
 
@@ -57,7 +72,7 @@ The users accessing the report must have at least View permissions on the report
 
 To run a report with the access rights of another user:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Reports**. 
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Reports]**. 
 
 1. Select the report you want to display with the access rights of another user.
 1. Click **Report Actions**, then click **Edit**.
@@ -65,7 +80,7 @@ To run a report with the access rights of another user:
 1. Click **Report Settings**.  
 
 1. In the **Run this report with the Access Rights of:** field, start typing the name of the user that you want the report to display as, then select it when you see it in the list.  
-   ![](assets/qs-access-rights-of-350x251.png)
+   ![](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -95,7 +110,7 @@ To deliver a report with the access rights of another user:
 1. Click **Send Report**.  
 
 1. In the **Deliver this report with the Access Rights of:** field, start typing the name of the user that you want the report to display as when it is delivered in an email, then select it when you see it in the list. The default is the name of the user who is building the report.  
-   ![](assets/qs-send-report-access-rights-of-350x446.png)
+   ![](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -105,8 +120,8 @@ To deliver a report with the access rights of another user:
 
    * HTML
    * PDF
-   * MS Excel
-   * MS Excel (.xlsx)
+   * Excel
+   * Excel (.xlsx)
    * TSV
 
 1. Click **Send Now** to send it immediately.  
@@ -132,20 +147,22 @@ For example, you can add any of the following to a report with a Source column:
 * The Project Name or Task Name columns to an issue report. 
 * A column using text-mode expressions that references all three objects. The following is an example for an hour report: 
 
-   `displayname=Custom Source`
+   ```
+   displayname=Custom Source
 
-   `linkedname=opTask`
+   linkedname=opTask
    
-   `namekey=view.relatedcolumn`
+   namekey=view.relatedcolumn
    
-   `namekeyargkey.0=opTask`
+   namekeyargkey.0=opTask
    
-   `namekeyargkey.1=name`
+   namekeyargkey.1=name
    
-   `textmode=true`
+   textmode=true
    
-   `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
+   valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))
   
-   `valueformat=HTML`
+   valueformat=HTML
+   ```
 
    For information about text mode views, see [Edit a view using text mode](../text-mode/edit-text-mode-in-view.md).
