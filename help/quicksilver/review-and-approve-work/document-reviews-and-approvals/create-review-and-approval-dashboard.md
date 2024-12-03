@@ -1,17 +1,17 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Create a review and approval dashboard 
-description: You can review approvals metrics in Canvas Dashboards. 
+title: Create a review and approval dashboard
+description: You can review approvals metrics in Canvas Dashboards.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: yes
 hidefromtoc: yes
+exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
 ---
-
 # Create a report dashboard for review and approvals
 
-You can create a report dashboard in the Canvas Dashboards area to display both high-level and detailed information about reviews and approvals with the new document approvals functionality. 
+You can create a report dashboard in the Canvas Dashboards area to display both high-level and detailed information about reviews and approvals with the new document approvals functionality.  
 
 >[!IMPORTANT]
 >
@@ -338,9 +338,3 @@ To view more specific information depending on your use case, you can add additi
         ![pending approval table filter example](assets/approvals-ive-submitted-filter.png)
 1. Click **Done** in the top-right corner of the screen.
 +++
-
-
-
-
-
-

@@ -11,6 +11,8 @@ exl-id: e3596bd2-4f22-45c8-8cc2-cac08359a093
 ---
 # Create and manage reports
 
+<!-- Audited: 11/2024 -->
+
 This section contains the following articles:
 
 * [Create a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) 
