@@ -294,6 +294,9 @@ The following functionality is soon to be removed from Workfront:
 
 * [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 * [Adobe Workfront Planning First Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
+
+There are no updates for the following at this point in the release:
+
 * Scenario Planner
 * Proof
 * Goals
