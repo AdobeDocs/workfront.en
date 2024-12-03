@@ -2,12 +2,10 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Run the Scenario Scoring Expert
-description: Manage locked scenarios in [!DNL Adobe Workfront Fusion]
+title: Run the Scenario Scoring Expert in Adobe Workfront Fusion
+description: The Scenario Scoring Expert can help you ensure that your scenario is configured in a way that follows best practices. It checks your scenario and gives recommendations for its structure and organization.
 author: Becky
 feature: Workfront Fusion
-hide: yes
-hidefromtoc: yes
 exl-id: 144c8dbd-a3e9-4267-b3db-0768dac8f384
 ---
 # Run the Scenario Scoring Expert in Adobe Workfront Fusion
