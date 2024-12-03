@@ -120,7 +120,7 @@ This page provides information about functionality that is included in the First
 
 ### Administrator enhancements
 
-<table style="table-layout:auto">
+<table>
 <col style="width: 50%;" />
 <tbody>
     <tr>
