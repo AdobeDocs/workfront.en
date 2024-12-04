@@ -98,9 +98,9 @@ For more information, see [Filter and group your work in Priorities](/help/quick
 My Focus is a column in the worklist that helps you to prioritize your work. The My Focus value is personal and does not impact project, task, or issue data. You can use the following focus levels:
  
 * Urgent 
-* Primary 
-* Secondary 
+* High  
 * Normal (default)
+* Low
 
 Once you have assigned focus levels to your work items, you can sort the column to surface urgent items at the top of your worklist.
 
