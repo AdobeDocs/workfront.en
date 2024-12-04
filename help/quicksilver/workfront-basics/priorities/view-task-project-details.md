@@ -61,8 +61,9 @@ You must have the following access to perform the steps in this article:
     * View and add comments on the project
     * Log time
     * Add a file
+    * Go directly to the project
 
-    ![project details](assets/project-details.png)
+   <!-- ![project details](assets/project-details.png)-->
 
 ## View task details 
 
@@ -77,4 +78,4 @@ You must have the following access to perform the steps in this article:
     * Add a file
     * Add quick links
 
-    ![task details](assets/task-details.png)
+   <!-- ![task details](assets/task-details.png)-->
