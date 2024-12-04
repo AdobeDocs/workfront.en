@@ -683,6 +683,29 @@ Event Subscription supports filtering on nested fields of events by using the `f
 }
 ```
 
+Doubly nested filters can be addressed as well.
+
+```
+
+"filters": [
+    {
+        "fieldName": "data",
+        "fieldValue": {
+            "fields": {
+                "children": {
+                    "customerId":"customer1234",
+                    "name":"New Campaign"
+                }
+            }
+        },
+        "comparison": "eq",
+        "state": "newState"
+    }
+],
+"filterConnector": 'AND'
+
+```
+
 ### Using connector fields
 
 The `filterConnector` field on the subscription payload allows you to choose how the filters should be applied. The default is "AND", where the filters must all be `true` for the subscription message to come through. If "OR" is specified then only one filter must match for the subscription message to come through.
