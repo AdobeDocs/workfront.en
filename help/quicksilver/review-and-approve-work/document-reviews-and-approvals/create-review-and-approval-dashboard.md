@@ -40,7 +40,7 @@ You can view high-level information about document approvals with KPIs and chart
 
 ### KPIs
 
->>[!IMPORTANT]
+>[!IMPORTANT]
 >
 >New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.
 
@@ -123,7 +123,7 @@ You can view high-level information about document approvals with KPIs and chart
 
 ### Charts
 
->>[!IMPORTANT]
+>[!IMPORTANT]
 >
 >New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.
 
@@ -174,7 +174,7 @@ You can view high-level information about document approvals with KPIs and chart
 
 ## Add detailed review and approval information with Tables
 
->>[!IMPORTANT]
+>[!IMPORTANT]
 >
 >New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.
 
