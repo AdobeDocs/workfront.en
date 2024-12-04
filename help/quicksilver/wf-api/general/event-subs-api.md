@@ -647,6 +647,42 @@ This connector makes the filter apply to the new state or old state of the objec
 }
 ```
 
+### Using nested filters
+
+Event Subscription supports filtering on nested fields of events by using the `fieldValue.fields` keyword.
+
+```
+{
+    "objCode": "RECORD",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedRecords",
+    "filters": [
+        {
+            "fieldName": "data",
+            "fieldValue": {
+                "fields": {
+                    "customerID": "customer1234"
+                }
+            },
+            "comparison": "eq",
+            "state": "newState"
+        },
+        {
+            "fieldName": "options",
+            "fieldValue": {
+                "objects": {
+                    "projectID": "project1234"
+                }
+            },
+            "comparison": "contains",
+            "state": "newState"
+        },
+    ],
+    "filterConnector": 'AND'
+}
+```
+
 ### Using connector fields
 
 The `filterConnector` field on the subscription payload allows you to choose how the filters should be applied. The default is "AND", where the filters must all be `true` for the subscription message to come through. If "OR" is specified then only one filter must match for the subscription message to come through.
