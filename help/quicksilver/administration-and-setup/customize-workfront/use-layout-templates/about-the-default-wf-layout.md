@@ -20,11 +20,459 @@ For information about how a Workfront administrator can modify a user's default 
 >
 >Users can change their own layout by editing their user profile preferences. For more information, see the [Preferences](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) section in [Configure My Settings](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
-## Default layouts for each access level
+## Default Main Menu items for each license type
 
-Each user's default layout depends on their access level. Some users might not see certain areas in the Main Menu or certain left panel items, depending on the access level that is assigned to them.
+Each user's default layout depends on their license type. Some users might not see certain areas in the Main Menu or certain left panel items, depending on the license type that is assigned to them.
 
-The following table shows teh default landing area and what left panel items are displayed for each access level:
+There are two types of licenses that your organization might assign:
+
+* New licenses
+* Current licenses 
+
+<!--rename the above if we change Current to Legacy-->
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
+### Default Main Menu for current license types
+
+The following table shows the default Main Menu items and what left panel items display for each current license type:
+
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:bold">Area</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">Left panel items</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">System Administrator</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">Planner</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">Worker</span></th>
+    <th class="tg-1wig">Reviewer</th>
+    <th class="tg-1wig">Requestor</th>
+    <th class="tg-1wig">External User</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">Home</td>
+    <td class="tg-0lax">Home<br>Priorities</td>
+    <td class="tg-0lax">✔ (default landing page)</td>
+    <td class="tg-0lax">✔ (default landing page)</td>
+    <td class="tg-0lax">✔ (default landing page)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Projects</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔ </td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Portfolios</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Programs</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Reports</td>
+    <td class="tg-0lax">My Reports<br>Shared With Me<br>All Reports</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔ (Shared with me and All Reports in the left panel)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔ (Shared with me and All Reports in the left panel)</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Dashboards</td>
+    <td class="tg-0lax">My Dashboards<br>Shared Dashboards<br>All Dashboards<br>Canvas Dashboards*</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Calendars</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Resourcing</td>
+    <td class="tg-0lax">Planner<br>Workload Balancer<br>Utilization<br>Resource Pools</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔ (Planner and Resource Pools in the left panel)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Teams</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Users</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Requests</td>
+    <td class="tg-0lax">Submitted<br>Drafts</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Timesheets</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Documents</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Templates</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Analytics</td>
+    <td class="tg-0lax">Work<br>People</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Scenarios</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Boards</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Blueprints</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔ (Install capability)</td>
+    <td class="tg-0lax">✔ (Request capability only)</td>
+    <td class="tg-0lax">✔ (Request capability only)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Priorities</td>
+    <td class="tg-0lax">Home<br>Priorities</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔<br></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Setup</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax">✔ (limited functionality)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">My Updates</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">✔ (default landing page)</td>
+    <td class="tg-0lax">✔</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  
+</tbody></table>
+
+*You must be enrolled in Canvas Dashboards beta to view this area. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md). 
+
+### Default Main Menu for new license types
+
+The following table shows the default Main Menu items and what left panel items display for each new license type: 
+
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-fymr">Area</th>
+    <th class="tg-fymr">Left panel items</th>
+    <th class="tg-fymr">System Administrator</th>
+    <th class="tg-fymr">Standard</th>
+    <th class="tg-fymr">Light</th>
+    <th class="tg-fymr">Contributor</th>
+    <th class="tg-fymr">External User</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Home</td>
+    <td class="tg-0pky">Home<br>Priorities</td>
+    <td class="tg-0pky">✔ (default landing page)</td>
+    <td class="tg-0pky">✔ (default landing page)</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ (default landing page)</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Projects</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ </td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Portfolios</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Programs</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Reports</td>
+    <td class="tg-0pky">My Reports<br>Shared With Me<br>All Reports</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ (Shared With Me and All Reports in the left panel)</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Dashboards</td>
+    <td class="tg-0pky">My Dashboards<br>Shared Dashboards<br>All Dashboards<br>Canvas Dashboards*</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Calendars</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Resourcing</td>
+    <td class="tg-0pky">Planner<br>Workload Balancer<br>Utilization<br>Resource Pools</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Teams</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Users</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Requests</td>
+    <td class="tg-0pky">Submitted<br>Drafts</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Timesheets</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Documents</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Templates</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Analytics</td>
+    <td class="tg-0pky">Work<br>People</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Scenarios</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Boards</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Blueprints</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ (Install capability)</td>
+    <td class="tg-0pky">✔ (Request capability only)</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Priorities</td>
+    <td class="tg-0pky">Home<br>Priorities</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔<br></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Setup</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky">✔ (limited functionality)</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">My Updates</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">✔ (default landing page)</td>
+    <td class="tg-0pky">✔</td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody></table>
+
+*You must be enrolled in Canvas Dashboards beta to view this area. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md). 
+
+<!--
 
 <table style="table-layout:auto"> 
  <col> 
@@ -113,17 +561,7 @@ The following table shows teh default landing area and what left panel items are
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr> <!--
-   <tr> 
-    <td><strong>Legacy Resource Planning</strong> </td> 
-    <td>✔ </td> 
-    <td>✔ </td> 
-    <td>&nbsp;</td> 
-    <td>&nbsp;</td> 
-    <td>&nbsp;</td> 
-    <td>&nbsp;</td> 
-   </tr>
-  --> 
+  </tr> 
   <tr> 
    <td><strong>Planning</strong> </td> 
    <td>✔ </td> 
@@ -220,3 +658,4 @@ The following table shows teh default landing area and what left panel items are
   </tr> 
  </tbody> 
 </table>
+-->

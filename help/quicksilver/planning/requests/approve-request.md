@@ -52,7 +52,7 @@ Submitted requests display in the Planning tab of the Submitted section in the R
 * **Approved**: When an approver approves the request object, their individual status becomes 
 * **Approved**, but the overall request object status remains **In review** until all approvers have made their decisions.
 * **Completed**: If all approvers approve the request object, its status changes to **Completed**, or if the request did not need an approval.
-* **Rejected**: If any approver rejects the request object, the status becomes **Rejected**.
+* **Rejected**: If any approver rejects the request object, the status becomes **Rejected**. No record is created and a new request must be submitted to create the record. 
 
 ## Access requirements
 
