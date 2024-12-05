@@ -83,8 +83,7 @@ You can configure the following integrations for managing documents:
     * [!DNL Microsoft OneDrive]
     * [!DNL Microsoft SharePoint]
     * [!UICONTROL Google Drive]
-
-      <!--Quip-->
+    * Quip
       
    >[!TIP]
    >
