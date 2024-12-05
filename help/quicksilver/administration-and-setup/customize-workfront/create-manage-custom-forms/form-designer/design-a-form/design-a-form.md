@@ -744,7 +744,7 @@ The Workfront Mobile app -->
 
     Click **Save and Close**. 
 
-#### Add an image or video to a custom form from the Documents area{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### Add a video to a custom form from the Documents area{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >
