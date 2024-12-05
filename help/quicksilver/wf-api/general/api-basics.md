@@ -21,10 +21,6 @@ To ensure consistent Workfront on-demand system performance, the Workfront API l
 
 For production, preview, and test drive environments end user requests have a maximum URI length of 8892 bytes because they're being routed through the Workfront CDN (Akamai). This limit only applies to URIs that are routed through the CDN.
 
->[!NOTE]
->
->this limit is not applicable to sandbox environments because sandbox environments are not routed through the CDN.
-
 ### Disclaimer
 
 Any use of the API should be tested in the Workfront beta environment prior to being run in the production environment. If any customer uses the API for a process that Workfront reasonably believes to be burdensome to the on-demand software (i.e., the process causes a materially negative effect on the performance of the software for other customers), Workfront reserves the right to request that the customer discontinues that process. If the customer does not comply and the problem persists, Workfront reserves the right to terminate the process.
@@ -104,14 +100,6 @@ The following is an example of a request header:
 ```
 GET /attask/api/v15.0/project/search
 SessionID: abc1234
-```
-
-#### Request Parameter Authentication
-
-You can authenticate by passing a request parameter named sessionID, as shown in the following example:&nbsp;
-
-```
-GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
 ```
 
 #### Cookie-Based Authentication
