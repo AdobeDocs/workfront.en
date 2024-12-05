@@ -67,7 +67,7 @@ You can configure proof settings for proofs you create.
 
 <!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
-1. Click **[!UICONTROL Settings]** > **[!UICONTROL Personal settings]**.
+1. Click on your profile picture in the top-right corner, then click **[!UICONTROL Personal settings]**.
 
 1. Click the **[!UICONTROL Proofing defaults]** tab.
 1. Click **[!UICONTROL Default email notification settings]** to expand it.
@@ -157,7 +157,7 @@ You can change email alerts for a particular recipient in a batch action.
 
 If you are a [!DNL Workfront Proof] administrator, you can set proof defaults for users in your account.
 
-1. Click **[!UICONTROL Settings]** > **[!UICONTROL Account settings]**. 
+1. Click **[!UICONTROL Account settings]** at the top of the screen. 
 
 1. Open the **[!UICONTROL Users]** tab.
 1. Open the **[!UICONTROL  More]** menu ![More_button_small.png](assets/more-button-small.png) to the right of the user's name. 
