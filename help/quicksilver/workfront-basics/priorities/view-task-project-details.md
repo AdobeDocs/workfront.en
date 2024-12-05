@@ -61,9 +61,9 @@ You must have the following access to perform the steps in this article:
     * View and add comments on the project
     * Log time
     * Add a file
-    * Go directly to the project
+    * <span class="preview">Go directly to the project</span>
 
-   <!-- ![project details](assets/project-details.png)-->
+  <!-- ![project details](assets/project-details.png)-->
 
 ## View task details 
 
