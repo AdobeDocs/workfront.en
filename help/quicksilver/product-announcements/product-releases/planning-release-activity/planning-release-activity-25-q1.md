@@ -71,7 +71,7 @@ We have introduced a warning message when editing or creating a formula field th
 
 For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).  
 
-## Add Connected view pages to a record's page to display connected records in a table view
+## Add Connection view pages to a record's page to display connected records in a table view
 
 >[!NOTE]
 >
