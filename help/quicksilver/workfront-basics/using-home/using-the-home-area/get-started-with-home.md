@@ -143,32 +143,6 @@ You can add a bit of personal flare to your Home page by selecting a colorful ba
 
 1. In the **Background** section of the **Customize** panel, click the color you would like to select for your Home background. You can also click **None** to remove the background.
 
-## Revert to the current Home experience
-
-If you prefer the existing Home experience, you can toggled off the new Home experience.
-
-To go back to the current Home experience:
-
-1. Go to your Home page, by doing one of the following: 
-
-    * If Home is set as your landing page, click the **Adobe Workfront** icon ![Adobe Workfront Icon](assets/home-icon-30x29.png) in the upper-left corner of your screen.
-    * Click the **Main Menu** icon in the upper-right corner of the screen, or the **Main Menu** icon ![Main Menu Icon](assets/main-menu-icon.png) in the upper-left corner, if available, then click **Home**.
-
-1. Click on the **Go back to the current Home** button in the bottom-right corner of the page.
-
-    ![Go back to current Home button](assets/customize-button.png)
-
-    A confirmation window displays. 
-
-1. Take a brief survey about your experience with the new Home or click **Go Back to the current Home** to revert to the current Home experience.
-
->[!NOTE]
->
-> System Administrators can disable the new Home as the default for their users. For information on changing the default Home experience for users across a system, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-
-
-
-
 
 
 
