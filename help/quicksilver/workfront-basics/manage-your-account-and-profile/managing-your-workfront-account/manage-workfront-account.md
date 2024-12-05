@@ -4,7 +4,7 @@ product-area: user-management
 navigation-topic: manage-your-account-and-profile
 title: Manage your [!DNL Adobe Workfront] account
 description: Review these articles to learn how to manage your [!DNL Workfront] account.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: f442a681-39fa-499c-8b1f-95d50424f539

@@ -3,7 +3,7 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Log in to [!DNL Adobe Workfront]
 description: Read this article to learn how to log in to Workfront.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 ---

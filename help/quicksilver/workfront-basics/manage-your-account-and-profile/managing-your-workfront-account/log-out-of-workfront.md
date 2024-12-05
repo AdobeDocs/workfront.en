@@ -3,7 +3,7 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Log out of [!DNL Adobe Workfront]
 description: For security reasons, it is important to log out of [!DNL Adobe Workfront] regularly. By default, [!DNL Workfront] automatically logs users out after 8 hours of inactivity.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
 ---
