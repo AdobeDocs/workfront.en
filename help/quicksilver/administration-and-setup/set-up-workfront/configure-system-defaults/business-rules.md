@@ -68,7 +68,10 @@ For information about user-based wildcards, see [Use user-based wildcards to gen
 
 For information about date-based wildcards, see [Use date-based wildcards to generalize reports](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
-An API wildcard is also available in business rules. You can use `$$ISAPI` to trigger the rule only in the UI or only in the API.
+An API wildcard is also available in business rules. Use `$$ISAPI` to trigger the rule only in the API. Use `!$$ISAPI` to enforce the rule only in the user interface and allow users to bypass the rule through the API.
+
+* For example, this rule prohibits users from editing completed projects through the API. If the wildcard was not used, the rule would block the action in both the user interface and the API.
+  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
 
 The `$$BEFORE_STATE` and `$$AFTER_STATE` wildcards are used in expressions to access the object's field values before and after any edits.
 
