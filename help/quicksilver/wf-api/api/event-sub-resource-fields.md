@@ -12,6 +12,8 @@ exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
 
 Event subscription resource fields represent triggers for events that result in an event subscription sending an outbound message to a configured endpoint. When a resource field is edited, an UPDATE event is triggered.
 
+Note that data is filterable using nested filtering. For more information, see [Using nested filters](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) in the article Event Subscription API.
+
 The following table lists the fields available for event subscription resources:
 
 <table style="table-layout:auto"> 

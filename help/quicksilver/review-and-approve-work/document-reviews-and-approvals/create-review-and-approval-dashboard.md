@@ -1,17 +1,15 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Create a review and approval dashboard 
-description: You can review approvals metrics in Canvas Dashboards. 
+title: Create a review and approval dashboard
+description: You can review approvals metrics in Canvas Dashboards.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: yes
-hidefromtoc: yes
+exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
 ---
-
 # Create a report dashboard for review and approvals
 
-You can create a report dashboard in the Canvas Dashboards area to display both high-level and detailed information about reviews and approvals with the new document approvals functionality. 
+You can create a report dashboard in the Canvas Dashboards area to display both high-level and detailed information about reviews and approvals with the new document approvals functionality.  
 
 >[!IMPORTANT]
 >
@@ -42,10 +40,9 @@ You can view high-level information about document approvals with KPIs and chart
 
 ### KPIs
 
-<!--
->>[!IMPORTANT]
+>[!IMPORTANT]
 >
->New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.-->
+>New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.
 
 ![KPI examples](assets/kpi-dashboard.png)
 
@@ -126,6 +123,10 @@ You can view high-level information about document approvals with KPIs and chart
 
 ### Charts
 
+>[!IMPORTANT]
+>
+>New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.
+
 ![Chart examples](assets/chart-dashboard.png)
 
 #### Approvals by decision bar chart
@@ -172,6 +173,10 @@ You can view high-level information about document approvals with KPIs and chart
 1. Click **Done** in the top-right corner of the screen.
 
 ## Add detailed review and approval information with Tables
+
+>[!IMPORTANT]
+>
+>New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.
 
 ![table example](assets/table-dashboard.png)
 
@@ -338,9 +343,3 @@ To view more specific information depending on your use case, you can add additi
         ![pending approval table filter example](assets/approvals-ive-submitted-filter.png)
 1. Click **Done** in the top-right corner of the screen.
 +++
-
-
-
-
-
-

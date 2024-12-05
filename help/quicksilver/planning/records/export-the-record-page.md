@@ -95,7 +95,7 @@ You must have the following access to perform the steps in this article:
     * .docx Word
     * .pdf
 
-* You can export the Details tab of a record's page. 
+* You can export only the Details tab of a record's page or preview area. 
 
 * The exported file preserves the layout of the record page, including the thumbnail and the cover images. 
 

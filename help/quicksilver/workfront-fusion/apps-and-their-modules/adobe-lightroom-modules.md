@@ -12,7 +12,6 @@ exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
 ---
 # [!DNL Adobe Lightroom] modules
 
-<!--Add Connection info-->
 
 In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Adobe Lightroom], as well as connect it to multiple third-party applications and services. 
 
@@ -64,6 +63,7 @@ You must have the following access to use the functionality in this article:
 Before you can use the [!DNL Adobe Lightroom] connector, you must ensure that the following prerequisites are met:
 
 * You must have an active [!DNL Adobe Lightroom] account.
+
 
 ## Adobe Lightroom API information
 
