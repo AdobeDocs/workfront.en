@@ -8,6 +8,8 @@ exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
 ---
 # Report on the Updates area
 
+<!-- Audited: 11/2024 -->
+
 The Journal Entry report surfaces system updates from the Updates area of projects, tasks, issues, and other objects that were previously only available through the Adobe Workfront API. While this is an advanced report intended for specific use cases, the more digestible format makes it easier for you to report on project activity and system updates within Workfront.
 
 >[!TIP]
@@ -39,7 +41,16 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Standard </p><p>Or </p><p>Current: Plan </p> </td> 
+      <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -52,7 +63,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -433,7 +444,7 @@ To see how custom fields changed over the course of a project's life cycle:
 
    * **Project ID** > **Equal** > **`<project>`**
 
-     ![](assets/qs-custom-form-changes-filter-350x92.png)
+   ![](assets/qs-custom-form-changes-filter-350x92.png)
 
    For more information on adding filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -623,7 +634,7 @@ You can set up the Journal Entry report to show how many times the project owner
    * **Field Name** > **Equal** > **ownerID**
    * **Project ID** > **Equal** > **`<project name>`**
 
-     ![](assets/qs-owner-changes-filter-350x94.png)
+   ![](assets/qs-owner-changes-filter-350x94.png)
 
    For more information on adding filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

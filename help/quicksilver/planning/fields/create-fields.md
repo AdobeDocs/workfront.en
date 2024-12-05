@@ -204,7 +204,12 @@ OLD:
     Hover over the header of any column, click the downward-pointing arrow after the field name, then click **Insert left** or **Insert right** to add the new field.
 1. In the **New field** tab, search for a field type in the **Field type** box, or select from the following field types:
 
-    In the **New field** tab, search for a field type in the **Field type** box <!--using any related keyword-->, or select from the field types listed below. 
+    In the **New field** tab, search for a field type in the **Field type** box using any related keyword, or select from the field types listed below. 
+
+    >[!TIP]
+    >
+    >    You can type "Budget" and the field types of Number and Currency display in a short list.
+
 
 
     * [Single-line text](#single-line-text)
@@ -292,6 +297,14 @@ You can use a multi-select field to capture additional information in any format
 **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Optional) To remove a choice, click the **x** icon to the right of it.
 1. Click the color swatch to the left of a choice to expand the color selector and customize the color of each option. 
+
+1. <span class="preview">Click **Swatches** to select a predefined color</span>
+
+    <span class="preview">Or</span>
+
+    <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
+    </span>
+1. Click outside the color box to close it.    
 1. Click **Create**. 
 
     The new multi-select field is added as a column to the record type, and its values can be associated with records.  
@@ -314,6 +327,13 @@ Single-select fields capture additional information in any format by selecting o
 1. (Optional) Manually drag and drop each choice in the desired order, or select the **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Optional) To remove a choice, click the **x** icon to the right of it.
 1. Click the color swatch to the left of a choice to expand the color selector and customize the color of each option. 
+1. <span class="preview">Click **Swatches** to select a predefined color</span>
+
+    <span class="preview">Or</span>
+
+    <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
+    </span>
+1. Click outside the color box to close it.
 1. Click **Create**. 
 
     The new single-select field is added as a column to the record type, and its values can be associated with records.  

@@ -125,7 +125,7 @@ You must have the following access to perform the steps in this article:
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Click **Create**. The request form for the selected record type opens. 
+1. Click **Create**. The request form for the selected record type opens <!--<span class="preview"> in the Form tab</span>; add screen shot below with Configuration tab.-->. 
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -151,8 +151,7 @@ You must have the following access to perform the steps in this article:
    >    * <span class="preview">Workfront objects' connected fields</span>
    >    * <span class="preview">AEM Assets connected fields </span>
 
-      
-
+   
    * **Default section**: This is the default section break that Workfront applies to the request form. The Default section cannot be renamed or removed. 
    * **Subject** field: The field which will identify the request in Workfront. This capability is not yet available. The configuration and the value of the Subject field are not editable. 
    * All the fields associated with the record type. 
@@ -184,6 +183,16 @@ You must have the following access to perform the steps in this article:
    For more information about building a custom form, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
 
 1. (Optional) Click **Preview** to view how the form will display for other users when they will use it to submit a new record.
+
+   <!--
+   <div class="preview">
+   1. (Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
+      When you associate a request form with approvers, any new request must first be approved by all approvers before it generates a new record. 
+      You can add one or several approvers to a request form. If at least one approver rejects the request, the request is rejected and the record is not created.
+   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
+   </div>
+   -->
+
 1. (Optional) Click the **More** menu ![](assets/more-menu.png) to the right of the form's name in the header, then click **Edit** to update the name of the form.
 1. Click **Publish** to publish the form and obtain a unique link for it. 
 

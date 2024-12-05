@@ -7,7 +7,6 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 ---
-
 # Submit Adobe Workfront Planning requests to create records
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->

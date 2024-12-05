@@ -250,23 +250,29 @@ To add a section to a record preview or page:
 
 <span class="preview">
 
-## Add a Connected view page to a record's page
+## Add a Connection view page to a record's page
 
-You can add a Connected view page to a record's page.
+Consider the following when adding a Connection view to a record's page: 
 
-You cannot add a Connected view page to a record's preview area.
+* You can add a Connection view page to a record's page.
 
-Connected view pages display one connected record page in the table view. The table view is read-only. 
+* You cannot add a Connection view page to a record's preview area.
 
-You can add one Connected view page per each connected record type.  <!--edit this when we can remove fields from this page-->
+* Connection view pages display one connected record page in the table view. The table view is read-only. 
 
-To add a Connected view page:
+* You can add one Connection view page per each connected record type.  <!--edit this when we can remove fields from this page-->
 
-1. From a record page view, click the name of a record to open it, then click the Open in new tab icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.
-1. Click **Add page** > **Connected view**. 
-1. Add the **Page name**, then click **Create**.
+* After you add a Connection view page to a record's page, the page is visible from the record's preview area. 
 
-   An additional page is added to the record's page in a new tab.
+To add a Connection view page:
+
+1. From a record page view, click the name of a record to open it, then click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.
+1. Click **Add page** > **Connection view**. 
+
+   ![](assets/add-connection-view-page-modal.png)
+1. Add the **Page name**, click **Connection view**, then click **Create**.
+
+   A new tab is added to the record's page.
 1. Search or click the name of a connected record or object type in the list. 
    The table view of the record type you selected displays and the connected records display in the table view. 
    The table view is read-only. 
@@ -278,6 +284,7 @@ To add a Connected view page:
 
    Hover over the name of the tab, then click **More** ![](assets/more-menu.png), then click **Rename** to rename to new Connected view tab.
 1. (Optional) Use any view elements in the toolbar to manage the table view. For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+1. (Optional)  Hover over the name of the tab, then click **More** ![](assets/more-menu.png), then click **Delete** to remove to new Connected view tab.
 
 </span>
 
