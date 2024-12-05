@@ -12,6 +12,26 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the First Quarter 2025 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Updated experience on the Cloud Providers page in the Setup area
+
+>[!NOTE]
+>
+>Preview release: December 5, 2024; Production release for all customers: With the 24.12 release (December 12, 2024)
+
+To enhance performance, we've made visual updates to the Cloud Providers page in the Setup area. 
+
+A small functionality change was applied to the Quip integration. Instead of inputting Client ID and Client Secret directly on the Cloud Providers page, you must click the Edit icon to make those fields visible.
+
+## Look-and-feel update for Request access dialog
+
+>[!NOTE]
+>
+>Preview release: November 28, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 2025)
+
+The dialog for requesting access to objects has been updated to a more modern design that is consistent with other areas of Workfront. This dialog is available when you request access to projects, tasks, issues, programs, portfolios, templates, and template tasks.
+
+For information, see [Request access to objects](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md).
+
 ## Look-and-feel updates for Document Integrations 
 
 >[!NOTE]
@@ -24,7 +44,7 @@ We have made performance upgrades to the area in Setup where you configure custo
 
 >[!NOTE]
 >
->Preview release: November 4, 2024; Production for fast release: With the 24.12 release (December 2024); Production for quarterly release: With the 25.1 release (January 2025)
+>Preview release: November 4, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 2025)
 
 We have updated the Company Members and Company Billing Rates pages with a more modern design that is consistent with other areas of Workfront. Company memberships are accessed via Setup > Companies > select a company name > select Company Members in the left panel. Company billing rates are accessed via Setup > Companies > select a company name > select Billing Rates in the left panel.
 
@@ -47,7 +67,7 @@ The most noticeable changes are as follows:
 
 >[!NOTE]
 >
->Preview release: November 4, 2024; Production for fast release: With the 24.12 release (December 2024); Production for quarterly release: With the 25.1 release (January 2025)
+>Preview release: November 4, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 2025)
 
 We are introducing a new list format in the Workfront Setup area, and the exchange rates list is the first page to use this table-style format. The functionality for adding new exchange rates and searching for exchange rates has not changed.
 
@@ -57,7 +77,7 @@ For information on exchange rates, see [Set up exchange rates](/help/quicksilver
 
 >[!NOTE]
 >
->Preview release: November 4, 2024; Production for fast release: With the 24.12 release (December 2024); Production for quarterly release: With the 25.1 release (January 2025)
+>Preview release: November 4, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 2025)
 
 We have updated the Export Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront.
 
