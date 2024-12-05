@@ -26,7 +26,7 @@ Routing rules send issues to specific users or job roles best equipped to resolv
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan</p<</td> 
+   <td role="rowheader"><p>Adobe Workfront plan</p></td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
