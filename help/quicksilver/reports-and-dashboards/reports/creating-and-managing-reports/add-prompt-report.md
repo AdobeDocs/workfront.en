@@ -166,3 +166,5 @@ The following are limitations in sharing prompted reports from Workfront:
 * When you schedule a prompted report for delivery the report in the email attachment includes the data of the report unprompted. When the user clicks the link in the email to access the report, they must log in first to view the report and run the prompt themselves.
 
   For information about scheduling a delivered report, see [Schedule an automatic report delivery](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+
+* When running a report with a date-based prompt, the report results will be filtered based on your browser's time zone settings. This can cause slight discrepancies in the date ranges displayed in a prompted report for dates that are at the beginning or end of a month. If your browser's time zone settings are tied to a specific location, variations in the that location's local time (such as adherence to daylight saving time) will also be factored into the dates displayed for a prompted report. This can lead to slight date range discrepancies between users in the same time zone but with different location settings.

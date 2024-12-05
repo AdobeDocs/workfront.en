@@ -28,7 +28,7 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning after the general availability release on August 28, 2024, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Intelligent search when looking for a field type in Workfront Planning
+## Intelligent search when looking for a field type
 
 >[!NOTE]
 >
