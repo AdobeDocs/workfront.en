@@ -32,7 +32,7 @@ This page provides information about functionality that is included in the First
 
 <table>
 <col style="width: 20%;" />
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
     <td>Area</td>
@@ -241,7 +241,7 @@ This page provides information about functionality that is included in the First
 
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
         <td>
@@ -257,7 +257,7 @@ This page provides information about functionality that is included in the First
             Preference to use project or user schedule for single-assignment tasks</a></p>
             <p>As a system or group administrator, you now have a new preference to indicate whether Workfront should use the project's or the user's schedule to calculate the timeline of the project when you assign one user to a task and both the project and the user are associated with a schedule.</p>
         </td>
-        <td><p>Nov 16, 2024</p> <p>[!BADGE New in Preview ]{type=Negative}<p></td>
+        <td><p>Nov 16, 2024</p> <p>[!BADGE New]{type=Negative}<p></td>
         <td>Dec 2024</td>
         <td>25.1</td>
     </tr>     
@@ -278,8 +278,8 @@ This page provides information about functionality that is included in the First
             <p>When a custom form contains multiple sections with many fields, it can be difficult to move a field from one section to another by dragging and dropping. A "move to" icon has been added to each field, allowing you to select the section that the field is placed in.</p>
         </td>
         <td>October 29</td>
-          <td><p>December 2024</p><p> [!BADGE In production for Fast Release ]{type=Positive}</p></td>
-        <td>25.1<p> [!BADGE In production]{type=Positive}</p></td>
+          <td><p>December 2024</p><p> [!BADGE Production ]{type=Positive}</p></td>
+        <td>25.1<p> [!BADGE Production]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table> 
