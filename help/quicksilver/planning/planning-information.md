@@ -28,22 +28,8 @@ Access the following articles for general information about the new Workfront Pl
 
 * [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md): A high-level overview of Adobe Workfront Planning, including the terminology and concepts that are unique to this solution. We recommend that you start your journey with Workfront Planning here. 
 * [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md): A list of limitations for the number of objects you can create in Workfront Planning. 
-* [Adobe Workfront Planning release activity for 2024](/help/quicksilver/planning/general/release-activity.md): A list of all the features that released during the early stage of Workfront Planning, in 2024. This includes links to previous releases that occurred since the launch of the Adobe Workfront Planning beta program, on May 22, 2023.
+* [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md): A list of all release notes for Workfront Planning, starting with The Fourth Quarter release of 2024. 
 * [Adobe Workfront Planning best practices](/help/quicksilver/planning/general/planning-best-practices.md): A collection of frequently-asked questions and best practices for using Workfront Planning. 
-
-## Additional features available for Workfront Planning
-
-* [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md): The goal for the Adobe Workfront Planning API is to simplify building integrations with Planning by introducing a REST-ful architecture that operates over HTTP.
-
-* [Adobe Workfront Planning modules for Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): With the Adobe Workfront Planning modules, you can trigger a scenario when events occur in Workfront Planning. You can also create, read, update, and delete records, or perform a custom API call to your Adobe Workfront Planning account.
-
-* [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): With the Workfront AI Assistant for Planning you can search for records, or create, update, and delete records by using commands and letting the assistant do the work for you. 
-
-    >[!NOTE]
-    >
-    >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
-
-* **Workfront Planning reporting capabilities**: You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). 
 
 ## Workfront Planning architecture and functionality
 
@@ -94,4 +80,18 @@ The following sections contain articles that describe in detail the features cur
     * Manage notification preferences
     * Planning in-app notifications
     * Planning email notifications
+
+## Additional features available for Workfront Planning
+
+* [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md): The goal for the Adobe Workfront Planning API is to simplify building integrations with Planning by introducing a REST-ful architecture that operates over HTTP.
+
+* [Adobe Workfront Planning modules for Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): With the Adobe Workfront Planning modules, you can trigger a scenario when events occur in Workfront Planning. You can also create, read, update, and delete records, or perform a custom API call to your Adobe Workfront Planning account.
+
+* [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): With the Workfront AI Assistant for Planning you can search for records, or create, update, and delete records by using commands and letting the assistant do the work for you. 
+
+    >[!NOTE]
+    >
+    >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
+
+* **Workfront Planning reporting capabilities**: You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). 
 

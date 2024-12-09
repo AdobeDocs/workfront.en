@@ -173,8 +173,6 @@ You can create a filter from scratch or edit one of the predefined filters. For 
 
 1. Click **New filter.**
 
-   ![](assets/new-filters-empty-panel-workload-balancer-350x460.png)
-
 1. To create a filter, do the following:
 
    1. Select a field name in the first drop-down menu or click **Browse fields** to start typing the name of a field that does not display by default.
@@ -192,7 +190,7 @@ You can create a filter from scratch or edit one of the predefined filters. For 
       >You can select a field from the following sections:
       >
       >* **Recent selections**: the fields you have recently filtered for.
-      >* **Suggested fields**: the fields most commonly used.
+      >* **Suggested**: the fields most commonly used.
       
 
    1. Select a modifier from the second drop-down menu. For information about Workfront filter modifiers, see [Filters and condition modifiers](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md). 
@@ -200,13 +198,13 @@ You can create a filter from scratch or edit one of the predefined filters. For 
    
       >[!NOTE]
       >
-      > When you want to display work objects from a specific portfolio, you can apply the following filter: "Portfolio name contains marketing." This displays work items that belong to any portfolio that contains "marketing" in the name.
+      > When you want to display work objects from a specific portfolio, you can apply the following filter: "Portfolio ID Equals < the name of the portfolio >."
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
-
-      >[!NOTE]
       >
-      >To exclude projects in a status of On Hold, you must apply the following filter: "Project: Status does not equal On Hold." This prevents work items from On Hold projects from displaying in the Workload Balancer.
+      >To exclude projects in a status of On Hold, you must apply the following filter: "Project: Status Does not equal On Hold." This prevents work items from On Hold projects from displaying in the Workload Balancer.
+      >
+      >![](assets/project-%20status-filter-statement-wb.png)
 
    1. (Optional) Click the **Delete** icon ![](assets/delete.png) to remove a filter criteria.
 
@@ -234,8 +232,8 @@ You can create a filter from scratch or edit one of the predefined filters. For 
    >
    >Clicking **Cancel** at any time, takes you back to the filter building area.
 
-1. Select **Untitled Filter** and enter the name of the new filter instead. 
-1. Select an icon for the new filter from the **Icon** drop-down menu.
+1. Click inside the **Untitled Filter** field, and enter the name of the new filter. 
+1. (Optional) Select an icon for the new filter from the **Icon** drop-down menu.
 
    ![](assets/new-filters-select-icon-expanded-drop-down-wb.png)
 

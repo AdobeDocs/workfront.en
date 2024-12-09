@@ -1,5 +1,5 @@
 ---
-title: Report on the Updates area
+title: Report on the Updates Area
 description: The Journal Entry report surfaces system updates from the Updates area of projects, tasks, issues, and other objects that were previously only available through the Adobe Workfront API. While this is an advanced report intended for specific use cases, the more digestible format makes it easier for you to report on project activity and system updates within Workfront.
 author: Nolan
 draft: Probably
@@ -247,7 +247,7 @@ This information can be used to help with auditing and to illustrate how well yo
 
    For more information on adding columns, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In the **Filters** tab, click **Add filter rule**, then add the filter rule **Field Name** > **Equal** > **status**.
+1. In the **Filters** tab, click **Add a Filter Rule**, then add the filter rule **Field Name** > **Equal** > **status**.
 
    ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
@@ -333,7 +333,7 @@ To see when a task or issue was deleted:
 1. In the **Filters** tab, click **Add filter rule**, then add the following filters:
 
    * **Change Type** > **Equal** > **Delete**
-   * **Project ID** > **Equal** > **`<project>`**
+   * **Project ID** > **Equal** > **< project name >**
 
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
@@ -377,7 +377,7 @@ To see how custom fields changed over the course of a project's life cycle:
 
    The report builder loads.
 
-1. In the **Columns (View)** tab, add the following columns:
+1. In the **Columns (View)** tab, ensure you have or click **Add Column** to add the following columns:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -434,15 +434,15 @@ To see how custom fields changed over the course of a project's life cycle:
 
    For more information on adding columns, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In the **Filters** tab, click **Add filter rule**, then add the following filters:
+1. In the **Filters** tab, click **Add a Filter Rule**, then add the following filters:
 
    * **Journal Entry Field Name** > **Contains** > **DE**
 
      >[!TIP]
      >
-     >To limit this report to specific custom fields, add the filter rule **Journal Entry Field Name** > **Equal** > **`<custom field>`**.
+     >To limit this report to specific custom fields, add the filter rule **Journal Entry Field Name** > **Equal** > **< custom field name>**.
 
-   * **Project ID** > **Equal** > **`<project>`**
+   * **Project ID** > **Equal** > **< project >**. 
 
    ![](assets/qs-custom-form-changes-filter-350x92.png)
 
@@ -540,10 +540,10 @@ You can set up the Journal Entry report to show how often the Planned Completion
 
    For more information on adding columns, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In the **Filters** tab, click **Add filter rule**, then add the following:
+1. In the **Filters** tab, click **Add a Filter Rule**, then add the following:
 
    * **Field Name** > **Equal** > **Date**
-   * **Project ID** > **Equal** > **`<project>`**
+   * **Project ID** > **Equal** > **< project name >**.  
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
@@ -632,7 +632,7 @@ You can set up the Journal Entry report to show how many times the project owner
 1. In the **Filters** tab, click **Add filter rule**, then add the following:
 
    * **Field Name** > **Equal** > **ownerID**
-   * **Project ID** > **Equal** > **`<project name>`**
+   * **Project ID** > **Equal** > **< project name >**. 
 
    ![](assets/qs-owner-changes-filter-350x94.png)
 
@@ -656,4 +656,4 @@ You can set up the Journal Entry report to show how many times the project owner
 
 1. Click **Save + Close**.
 
-   Your new report loads.
+   The new journal entry report displays.
