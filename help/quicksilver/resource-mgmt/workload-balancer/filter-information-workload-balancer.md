@@ -204,7 +204,7 @@ You can create a filter from scratch or edit one of the predefined filters. For 
       >
       >To exclude projects in a status of On Hold, you must apply the following filter: "Project: Status Does not equal On Hold." This prevents work items from On Hold projects from displaying in the Workload Balancer.
       >
-      >![](assets/project-%20status-filter-statement-wb.png)
+      >![](assets/project-status-filter-statement-wb.png)
 
    1. (Optional) Click the **Delete** icon ![](assets/delete.png) to remove a filter criteria.
 
