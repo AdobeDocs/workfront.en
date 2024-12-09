@@ -283,7 +283,7 @@ This page provides information about functionality that is included in the First
         </td>
         <td>October 29</td>
           <td><p>December 2024</p><p> [!BADGE Fast-release ]{type=Positive}</p></td>
-        <td>25.1<p> [!BADGE Production]{type=Positive}</p></td>
+        <td>25.1<p> [!BADGE Production for all ]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table> 
