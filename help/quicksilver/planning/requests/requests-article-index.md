@@ -19,5 +19,6 @@ This section contains the following articles:
 
 * [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * [Submit Adobe Workfront Planning requests](/help/quicksilver/planning/requests/submit-requests.md)
+* [Unpublish a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/unpublish-request-form.md)
 <!--* <span class="preview">[Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md)</span>-->
 <!--* <span class="preview">[Approve request](/help/quicksilver/planning/requests/approve-request.md)</span>-->

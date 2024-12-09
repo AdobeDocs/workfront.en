@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: Create cross-project predecessors
+title: Create Cross-project Predecessors
 description: A Cross-Project Predecessor is a task that another task (called a successor task) in another project depends on. The predecessor is the task that takes priority over the dependent (successor) task. For example, you can create a dependency that requires that the predecessor task be marked Complete before the dependent task can start.
 author: Alina
 feature: Work Management
@@ -9,7 +9,7 @@ exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
 ---
 # Create cross-project predecessors
 
-<!--Audited: 12/2023-->
+<!--Audited: 12/2024-->
 
 A cross-project predecessor is a task that another task (called a successor task) in another project depends on. The predecessor is the task that takes priority over the dependent (successor) task. For example, you can create a dependency that requires that the predecessor task be marked Complete before the dependent task can start.
 
@@ -66,12 +66,18 @@ You must have the following access to perform the steps in this article:
 ## Create a cross-project predecessor
 
 1. Go to the task that will be your successor (dependent task). 
-1. Click **Predecessors** in the left panel. 
+1. Click **Predecessors** in the left panel. You might have to click **Show More**, and then **Predecessors**. 
+
+   >[!TIP]
+   >
+   >   Your Workfront or group administrator could remove the **Predecessors** section or other sections from the left panel. 
+
 1. Click **Add Predecessor.**
 1. In the **Parent Project** field, begin typing the name of the project that contains the task that you want to be the predecessor to your current task.
 1. Click the name when it appears in the drop-down list.
 1. In the **Tasks** field, begin typing the name of the task that you want to be the predecessor to your current task.
 1. Specify the following information for defining the relationship between the predecessor and dependent task:
+
 
    * **Dependency Type:** Select the relationship that you want the predecessor task to have with the dependent task. The default relationship is "Finish-Start," meaning that the predecessor task must finish before the dependent task can start. For more information about the various dependency types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
    
