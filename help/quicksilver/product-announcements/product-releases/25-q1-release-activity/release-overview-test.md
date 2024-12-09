@@ -110,18 +110,16 @@ This page provides information about functionality that is included in the First
 ## Workfront enhancements
 
 
-
-
-
-
-
 * [Administrator enhancements](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
 * [Document management enhancements](#document-management-enhancements)
 
 ### Administrator enhancements
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 55%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
 <tbody>
     <tr>
         <td>
@@ -180,7 +178,10 @@ This page provides information about functionality that is included in the First
 
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 55%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
 <tbody>
     <tr>
         <td>
@@ -241,7 +242,10 @@ This page provides information about functionality that is included in the First
 
 
 <table>
-<col style="width: 75%;" />
+<col style="width: 55%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
 <tbody>
     <tr>
         <td>
@@ -278,7 +282,7 @@ This page provides information about functionality that is included in the First
             <p>When a custom form contains multiple sections with many fields, it can be difficult to move a field from one section to another by dragging and dropping. A "move to" icon has been added to each field, allowing you to select the section that the field is placed in.</p>
         </td>
         <td>October 29</td>
-          <td><p>December 2024</p><p> [!BADGE Production ]{type=Positive}</p></td>
+          <td><p>December 2024</p><p> [!BADGE Fast-release ]{type=Positive}</p></td>
         <td>25.1<p> [!BADGE Production]{type=Positive}</p></td>
     </tr>
 </tbody>
