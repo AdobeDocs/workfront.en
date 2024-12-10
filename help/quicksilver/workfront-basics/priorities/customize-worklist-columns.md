@@ -9,7 +9,7 @@ exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
 ---
 # Customize the Priorities worklist columns
 
-
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 You can customize the columns on the worklist in Priorities to support the way you work. 
 
