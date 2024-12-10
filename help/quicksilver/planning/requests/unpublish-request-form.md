@@ -1,12 +1,12 @@
 ---
 title: Unpublish a Request Form in Adobe Workfront Planning
-description: You can unpublish a request form if it is no longer needed or relevant. By unpublishing, you remove everyone's permissions to access the form. 
+description: You can unpublish a request form if it is no longer needed or relevant. By unpublishing, you remove everyone's permissions to access the form.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
 ---
-
 # Unpublish a request form in Adobe Workfront Planning
 
 
@@ -151,4 +151,4 @@ When a request form becomes irrelevant and you don't want anyone to access it an
     
     Any records previously added using the request form remain on the record type page. 
 
-    <span class="preview">Any requests previously added remain in the Requests area of Workfront, on the Planning tab.</span> 
+    <span class="preview">Any requests previously added remain in the Requests area of Workfront, on the Planning tab.</span>
