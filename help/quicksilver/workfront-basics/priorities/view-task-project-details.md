@@ -63,6 +63,7 @@ You must have the following access to perform the steps in this article:
     * Add a file
 
     ![project details](assets/project-details.png)
+    <!--new screen for prod ![](assets/project-details-new.png)-->
 
 ## View task details 
 
@@ -78,3 +79,4 @@ You must have the following access to perform the steps in this article:
     * Add quick links
 
     ![task details](assets/task-details.png)
+    <!--new screen for prod ![](assets/task-details-new.png)-->
