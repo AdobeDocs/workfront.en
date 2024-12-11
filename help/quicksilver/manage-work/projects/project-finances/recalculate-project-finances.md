@@ -13,6 +13,8 @@ Finances are calculated on a project as changes occur in the hours logged for th
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -38,6 +40,10 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Considerations about calculating finances in Adobe Workfront
@@ -52,13 +58,11 @@ When the rate of a user or a role changes during the life of a project, the foll
 * When the change is made, the updated rate is used from that point on as hours are logged and the financial information is calculated. Changing the rate does not affect how things were calculated before the change was made. For all the existing hours logged, the old rate is used to calculate financial information. 
 * You can force Adobe Workfront to use the new rate retroactively for all the hours logged so far, by using the Recalculate Finance option. This forces Workfront to retroactively recalculate all previously entered hours, planned costs, and revenues in accordance with the new rate information.
 
-The report type Project (Financial Data) does not automatically recalculate before loading the data. To update the data in this report type, you must manually recalculate the finances on individual projects.
+The report type Project (Financial Data) does not automatically perform a recalculation of your financial data. To update the data in this report type, you must manually recalculate the finances on individual projects.
 
 >[!CAUTION]
 >
 >Prior to manually recalculating finances for a given project, you may want to preserve any financial data that has already been calculated at a previous rate. We recommend using the Recalculate Finance option only when you are sure that you are not making changes to existing information, or only when such changes are desired.
->
->Note that running a Project (Finance Data) report performs a recalculation of your financial data, and as such you should make the same considerations before running the report.
 
 ## Preserve financial data for tasks with existing hours {#preserve-financial-data-for-tasks-with-existing-hours}
 
