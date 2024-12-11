@@ -84,6 +84,13 @@ You can share the following objects in Workfront with other users:
   >* [Share a plan in the Scenario Planner](../../scenario-planner/share-a-plan.md) 
   >* [Share a goal in Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md) 
 
+* Workfront sends notifications to users when you share an object with them. Notifications go out when both these settings are enabled: 
+
+  * The **Object Share to User** and the **Object Share to Team** email notifications are enabled in the Setup area by a system or group administrator. For information, see [Configure event notifications for everyone in the system](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). 
+  * The **Someone shares an object with me** and **Someone shares an object with my team** notifications are enabled in the user's profile page. For information, see [Modify your own email notifications](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). 
+
+  The system- or group-level settings must be enabled first, before you can enable the notification settings for the user. 
+
 ## Share limitations
 
 You can share an object with up to 100 entities (users, teams, groups, job roles, companies). We recommend that you share objects with groups, teams, or companies rather than with individual users to avoid this limitation.

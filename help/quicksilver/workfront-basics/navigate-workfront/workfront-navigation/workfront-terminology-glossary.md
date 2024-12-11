@@ -1247,10 +1247,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
     --> </td> 
   </tr> 
-  <tr> 
-   <td>[!UICONTROL Library Task]</td> 
-   <td>A template for a single task that is used to provide consistent naming of [!UICONTROL Tasks] and [!UICONTROL Template Tasks] across the application.</td> 
-  </tr> 
+  
   <tr> 
    <td>[!UICONTROL License Type]</td> 
    <td>The type of license allocated to an [!UICONTROL Access Level]. It is either [!UICONTROL Full User], [!UICONTROL Limited User], or [!UICONTROL Requester].</td> 
