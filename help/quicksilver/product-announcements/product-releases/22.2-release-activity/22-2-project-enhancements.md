@@ -1,13 +1,13 @@
 ---
-title: 22.2&nbsp;Project enhancements
-description: 22.2&nbsp;Project enhancements
+title: 22.2 Project enhancements
+description: 22.2 Project enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
 ---
-# 22.2&nbsp;Project enhancements
+# 22.2 Project enhancements
 
 This page describes all Project enhancements made with the 22.2 release to the Preview environment. These enhancements will be made available in the Production environment 
 

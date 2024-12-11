@@ -322,7 +322,7 @@ To add radio buttons, checkbox groups, and dropdowns:
     </tr>
     <tr> 
      <td role="rowheader">Label</td> 
-     <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
+     <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: </p> <p>Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      <td><ul>
     <li>Radio buttons</li>
     <li>Checkbox group</li>
@@ -405,13 +405,18 @@ To add radio buttons, checkbox groups, and dropdowns:
     <li> <p><strong>Remove Choice</strong>: Remove the choice from the field.</p> <p><b>WARNING</b>:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
     </ul> 
      </li> 
-    </ol> </td> 
+    </ol> 
+    
+    <p><b>NOTE:</b></p>
+    <p>There is no limit for how many choices you can select. </p>    
+    </td> 
     <td><ul>
     <li>Radio buttons</li>
     <li>Checkbox group</li>
     <li>Single-select dropdown</li>
     <li>Multi-select dropdown</li>
-    </ul></td>
+    </ul>
+    </td>
      </tr> 
     </tbody> 
     </table>
