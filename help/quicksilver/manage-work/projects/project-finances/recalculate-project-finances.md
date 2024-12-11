@@ -3,7 +3,7 @@ title: Recalculate project finances
 product-area: projects
 navigation-topic: financials
 description: Finances are calculated on a project as changes occur in the hours logged for the project or in the rates used to calculate costs and revenue.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
 ---
@@ -51,6 +51,8 @@ When the rate of a user or a role changes during the life of a project, the foll
 
 * When the change is made, the updated rate is used from that point on as hours are logged and the financial information is calculated. Changing the rate does not affect how things were calculated before the change was made. For all the existing hours logged, the old rate is used to calculate financial information. 
 * You can force Adobe Workfront to use the new rate retroactively for all the hours logged so far, by using the Recalculate Finance option. This forces Workfront to retroactively recalculate all previously entered hours, planned costs, and revenues in accordance with the new rate information.
+
+The report type Project (Financial Data) does not automatically recalculate before loading the data. To update the data in this report type, you must manually recalculate the finances on individual projects.
 
 >[!CAUTION]
 >

@@ -86,7 +86,7 @@ If you do not already have access to an object and you navigate to that object f
 To request initial access to an object:
 
 1. Click **Request Access**.  
-   The **Request Access** dialog box is displayed.  
+   The **Request Access** dialog box is displayed.
 
 1. (Conditional) If more than one user has the appropriate access to grant you additional access, a drop-down arrow is displayed next to the name of the user. Select the user from the drop-down list who should receive your access request.  
    
@@ -102,10 +102,12 @@ To request initial access to an object:
    Sample image in the Production environment:
    ![](assets/request-access-dialog-350x314.png)
 
+<!--
 If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
 
 For example, if you do not have portfolio access, but you were given a link to a portfolio, you would see the following message:  
 ![](assets/permission-request-initial2-350x96.png)
+-->
 
 ### Request additional access {#request-additional-access}
 
