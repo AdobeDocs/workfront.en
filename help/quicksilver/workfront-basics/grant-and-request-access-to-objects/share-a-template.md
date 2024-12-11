@@ -55,6 +55,8 @@ Permissions are specific to one item in Workfront and define what actions one ca
 
 * The Workfront administrator can specify whether documents should inherit permissions from higher objects in the user's access level. For more information about restricting inherited permissions on documents, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
+* You cannot share template tasks, individually. Sharing a template shares the template tasks as well. Sharing the project from the template also shares the future project tasks. 
+
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Share a template</h2>
