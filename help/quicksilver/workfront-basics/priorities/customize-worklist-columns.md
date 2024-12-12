@@ -9,6 +9,8 @@ exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
 ---
 # Customize the Priorities worklist columns
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 You can customize the columns on the worklist in Priorities to support the way you work. 
 
 >[!NOTE]
@@ -53,7 +55,9 @@ You must have the following access to perform the steps in this article:
 
 +++
 
-## Enable or disable columns 
+## Customize the Priorities worklist columns in Production
+
+### Enable or disable columns 
 
 {{step1-to-priorities}}
 
@@ -61,7 +65,7 @@ You must have the following access to perform the steps in this article:
     ![](assets/columns.png)
 1. Use the toggles to enable or disable columns in the worklist. 
 
-## Reorder the columns
+### Reorder the columns
 
 {{step1-to-priorities}}
 
@@ -69,10 +73,37 @@ You must have the following access to perform the steps in this article:
 1. Click the **Drag** icon and move the column to your desired location. Moving columns updates in the worklist automatically.
     ![](assets/reorder-columns.png)
 
-## Reset Column widths
+### Reset Column widths
 
 {{step1-to-priorities}}
 
 1. Click **Columns** on the right side of the screen.
 1. Click the **More** icon ![](assets/more-icon.png), and choose **Reset column widths**.
  ![](assets/columns.png)
+
+<div class="preview">
+
+## Customize the Priorities worklist columns in Preview
+
+### Enable or disable columns 
+
+{{step1-to-priorities}}
+
+1. Click **Columns** on the left side of the screen.
+    ![](assets/columns-new.png)
+1. Use the toggles to enable or disable columns in the worklist. 
+
+### Reorder the columns
+
+{{step1-to-priorities}}
+
+1. Click **Columns** on the left side of the screen.
+1. Click the **Drag** icon and move the column to your desired location. Moving columns updates in the worklist automatically.
+    ![](assets/reorder-columns-new.png)
+
+>[!NOTE]
+>
+>The Name column is fixed and cannot be moved. 
+
+
+ </div>
