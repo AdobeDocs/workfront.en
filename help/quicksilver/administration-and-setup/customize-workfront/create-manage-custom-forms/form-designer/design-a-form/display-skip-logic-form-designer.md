@@ -71,7 +71,7 @@ Select a field with logic applied to display the existing logic rules in the fie
 * To add display logic on a custom field, widget, or section break, at least one multiple choice field (radio buttons, dropdown, or check boxes) must be positioned prior to it on the form.
 For information about custom fields and widgets in custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * You cannot add skip logic to a widget or section break. You can add it only to a multiple choice field (radio buttons, dropdown, or check boxes).
-* You cannot apply display or skip logic for options of a multi-option field. For example, you cannot restrict the display of the options of a Dropdown, a Checkbox group, or a Radio Button field, based on the display or skip logic of another field. 
+* You cannot apply display or skip logic to display or hide the choices of a multi-option field. For example, you cannot restrict the choices that display for a Dropdown, a Checkbox group, or a Radio Button field, based on the display or skip logic of another field. 
 * You can add both display logic and skip logic to a custom field if all of the following is true about the custom field:
 
   * It is a multiple choice field (radio buttons, dropdown, or check boxes)
