@@ -3,7 +3,7 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Receive email invitations and create a password for [!DNL Adobe Workfront]
 description: When a [!DNL Workfront] administrator creates a new user, the new user may receive an invitation email based on several factors.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
 ---

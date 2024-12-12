@@ -27,7 +27,7 @@ We've changed the way moved and deleted assets are handled when using the Adobe 
 
 >[!NOTE]
 >
->Preview release: November 11, 2024; Production for fast release: With the 24.12 release (December 2024); Production for quarterly release: With the 25.1 release (January 2025)
+>Preview release: November 11, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 2025)
 
 When a custom form with multiple sections is attached to an object, you can now collapse and expand all sections except the default section at the top of the form. The administrator can also see this functionality when previewing the form in the form designer.
 

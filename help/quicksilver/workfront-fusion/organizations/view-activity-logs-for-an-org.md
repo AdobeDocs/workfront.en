@@ -41,11 +41,14 @@ You must have the following access to use the functionality in this article:
    <p>Legacy: Any </p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Fusion administrator to use the Activity Log.</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>New: [!DNL Workfront Fusion] is included in the Ultimate Workfront plan.</p> <p>Or</p>
-   <p>Current: Not available</p>
+   <p>This functionality is available only to organizations with the Ultimate Workfront plan, which includes [!DNL Workfront Fusion]. No additional product purchase is necessary.</p>
    </td> 
   </tr>
  </tbody> 

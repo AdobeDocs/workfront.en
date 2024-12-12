@@ -4,7 +4,7 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Configure personal time off
 description: It is important to indicate in Adobe Workfront when approved time off happens, because this affects your schedule and impacts the Planned Completion Dates of the tasks you are assigned to.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
 ---

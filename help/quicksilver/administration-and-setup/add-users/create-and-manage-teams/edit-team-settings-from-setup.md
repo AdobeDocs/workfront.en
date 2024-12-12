@@ -15,8 +15,7 @@ For information about teams, see [Teams overview](../../../people-teams-and-grou
 >[!NOTE]
 >
 >* A group administrator can edit a team's settings for a group they administer. For more information, see [Create and modify a group's teams](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
->* A user with a Plan license can edit a team's settings from the People area. For more information, see [Edit team settings](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
->
+>* A user with a Standard or Plan license can edit a team's settings from the Teams area. For more information, see [Edit team settings](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 
 ## Access requirements
 

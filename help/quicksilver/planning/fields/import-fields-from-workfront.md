@@ -173,3 +173,9 @@ You must have the following access to perform the steps in this article:
     * Custom form: Select one or several custom forms from Workfront. You may select a custom form without selecting an object type first. 
 1. Click **+**, then **Add fields**.
     The fields are added to the table view and to the records' details pages.
+
+    >[!IMPORTANT]
+    >
+    >    There is a limit of 500 fields for any record type. The existing fields together with the imported fields contribute to this limit. 
+
+    The added fields are copies of the Workfront fields and no longer connect to the original fields in Workfront. 

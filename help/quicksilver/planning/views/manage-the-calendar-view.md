@@ -221,6 +221,6 @@ Consider the following when working with filters in the calendar view:
 
 ### Edit the calendar view settings
 
-Editing the calendar view settings is identical to editing the settings of a timeline view.
+Editing the calendar view settings is similar to editing the settings of a timeline view.
 
 For more information, see the "Edit the timeline view settings" section in the article [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
