@@ -40,11 +40,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Considerations about calculating finances in Adobe Workfront
 
