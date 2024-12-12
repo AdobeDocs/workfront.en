@@ -59,6 +59,7 @@ You can add a comment from the worklist:
 1. Locate the work item that you want to update. 
 1. Hover over the name, then click **Add new update**.
     ![](assets/add-update.png)
+    <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. Begin typing your comment.
 1. (Optional) In the **Tag people or teams** box, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list.
 1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, links, or images to your comment, to enhance your content.

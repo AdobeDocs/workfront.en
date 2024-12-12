@@ -85,7 +85,6 @@ Find your most important work with filters. You can filter tasks and issues assi
 
 After you have filtered your work, you can group items based on
 
-* None
 * My Focus
 * Week due
 * Status
@@ -98,15 +97,16 @@ For more information, see [Filter and group your work in Priorities](/help/quick
 My Focus is a column in the worklist that helps you to prioritize your work. The My Focus value is personal and does not impact project, task, or issue data. You can use the following focus levels:
  
 * Urgent 
-* Primary 
-* Secondary 
+* High  
 * Normal (default)
+* Low
 
 Once you have assigned focus levels to your work items, you can sort the column to surface urgent items at the top of your worklist.
 
 For more information, see [Prioritize important work items](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
 ![](assets/my-focus-column.png)
+<!-- new screen for prod ![](assets/worklist.png) -->
 
 ### Use the Calendar view [!BADGE Coming soon]{type=Informative}
 
@@ -135,6 +135,7 @@ The Updates section shows system updates, and up to 200 of the most recent updat
 For more information, see [Add and view comments in Priorities](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
 ![](assets/new-update.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Log time
 
@@ -143,6 +144,7 @@ You can log time for work items to indicate the number of hours you spend workin
 For more information, see [Log time in Priorities](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
 ![](assets/log-time.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Upload files
 
@@ -156,6 +158,7 @@ Upload files directly to the task or issue's Documents area without having to na
 For more information, see [Upload files in Priorities](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
 ![](assets/upload-file.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### View documents [!BADGE Coming soon]{type=Informative}
 

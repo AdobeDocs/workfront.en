@@ -63,7 +63,8 @@ You must have the following access to perform the steps in this article:
     * Add a file
     * <span class="preview">Go directly to the project</span>
 
-  <!-- ![project details](assets/project-details.png)-->
+    ![project details](assets/project-details.png)
+    <!--new screen for prod ![](assets/project-details-new.png)-->
 
 ## View task details 
 
@@ -78,4 +79,5 @@ You must have the following access to perform the steps in this article:
     * Add a file
     * Add quick links
 
-   <!-- ![task details](assets/task-details.png)-->
+    ![task details](assets/task-details.png)
+    <!--new screen for prod ![](assets/task-details-new.png)-->
