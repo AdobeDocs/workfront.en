@@ -48,6 +48,7 @@ To find out what plan, license type, or access you have, contact your Workfront 
 
 1. Hover over the name, then click **Upload**.
 ![](assets/upload-file.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 1. (Optional) Select a folder.
 1. Drag and drop your file or Cmd/Ctrl + V to paste from your clipboard
 or
