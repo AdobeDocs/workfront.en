@@ -58,7 +58,7 @@ You must have the following access to perform the steps in this article:
 
 ## Other allowlists
 
-If your organization has the Enterprise plan, you can configure an Adobe Workfront IP allowlist that limits access to Workfront to 45 IP addresses or IP address ranges that you specify. This provides an additional layer of security for the Workfront application. For more information, see [Restrict access to Adobe Workfront by IP address](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+If your organization has the Enterprise plan, you can configure an Adobe Workfront IP allowlist that limits access to Workfront to 75 IP addresses or IP address ranges that you specify. This provides an additional layer of security for the Workfront application. For more information, see [Restrict access to Adobe Workfront by IP address](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
 Also, if your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the Adobe Workfront servers. For information about that, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 

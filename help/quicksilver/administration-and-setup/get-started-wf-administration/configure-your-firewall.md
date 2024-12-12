@@ -45,7 +45,7 @@ You also need to open certain ports in order for email messages to be encrypted 
 If your organization has the Enterprise plan, you can also configure two Workfront allowlists:
 
 * **Email allowlist**: Lets you control where users can email data stored in Workfront. For more information, see [Configure your email allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **IP allowlist**: Limits access to Workfront to 45 IP addresses or IP address ranges that you specify, providing an additional layer of security for the Workfront application. For more information, see [Restrict access to Adobe Workfront by IP address](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **IP allowlist**: Limits access to Workfront to 75 IP addresses or IP address ranges that you specify, providing an additional layer of security for the Workfront application. For more information, see [Restrict access to Adobe Workfront by IP address](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
 ## Locate your Workfront cluster
 
