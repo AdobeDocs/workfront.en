@@ -2,9 +2,9 @@
 content-type: overview
 product-area: projects
 navigation-topic: financials
-title: Project finances fields
+title: Project Finances Fields
 description: Keeping track of project finances is critical to managing your projects.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
 ---
