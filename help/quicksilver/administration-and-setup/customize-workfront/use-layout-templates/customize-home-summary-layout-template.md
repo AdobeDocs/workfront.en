@@ -91,7 +91,12 @@ To perform them for a group, you must be a manager of that group.</p> </td>
       <td role="rowheader">Issues</td> 
       <td><p>In a list of issues, this setting affects the Summary panel that displays on the right side of the page when a user selects an issue, then clicks the Open Summary icon <img src="assets/summary-panel-icon.png">.</p> </td> 
      </tr> 
-     <tr> 
+    </tbody> 
+   </table>
+
+<!--These were removed with the new Home: 
+
+<tr> 
       <td role="rowheader">Projects</td> 
       <td><ul><li><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
       <p><b>IMPORTANT:</b> </p><p>This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
@@ -112,9 +117,8 @@ To perform them for a group, you must be a manager of that group.</p> </td>
       <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
       </ul>
       </td> 
-     </tr> 
-    </tbody> 
-   </table>
+     </tr> -->
+
 
    >[!IMPORTANT]
    >
