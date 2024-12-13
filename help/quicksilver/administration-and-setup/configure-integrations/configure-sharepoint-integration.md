@@ -170,7 +170,7 @@ Reconfiguring the legacy [!DNL SharePoint] integration allows your users to acce
 1. Click **[!UICONTROL Save]**.
 1. Select **[!UICONTROL Documents]** in the left navigation, then select **[!UICONTROL [!DNL SharePoint] Integration]**.
 1. Select the checkmark on the left of the list for all existing integrations, then select **[!UICONTROL Disable]**.
-   ![](assets/disable-old-sharepoint.png)
+
     
 
 ### Configure the Client Secret for continued access to the legacy [!DNL SharePoint] integration

@@ -26,6 +26,7 @@ You can use the My Focus column to prioritize your work. The My Focus column is 
     | **Low**    |  Low is for work items that do not need immediate attention and can be deferred until all higher-priority work items are done.    |
 
     ![](assets/my-focus.png)
+    <!--new screen for prod ![](assets/my-focus-new.png)-->
 
     >[!TIP]
     >

@@ -4,17 +4,17 @@ product-area: projects
 navigation-topic: financials
 title: Calculate Net Value
 description: The Net Value of a project is the total expected value of the project after calculating its benefit and removing the costs.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
 ---
 # Calculate Net Value
 
-The Net Value of a project is the total expected value of the project after calculating its benefit and removing the costs.&nbsp;
+The Net Value of a project is the total expected value of the project after calculating its benefit and removing the costs.
 
 ## Overview of the project Net Value
 
-Adobe Workfront calculates the Net Value of a project using the following formula:&nbsp;
+Adobe Workfront calculates the Net Value of a project using the following formula:
 
 ```
 Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost
