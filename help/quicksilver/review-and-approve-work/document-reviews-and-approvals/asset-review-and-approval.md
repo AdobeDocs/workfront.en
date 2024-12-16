@@ -51,6 +51,7 @@ Features available with new document approvals:
 * View multiple key performance indicators for your approvals in Workfront Home widgets
 
 * Use Canvas Dashboards to view reporting details about new document approvals
+    For more information, see [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
  
 
 
