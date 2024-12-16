@@ -1,12 +1,12 @@
 ---
 title: Add an Approval to a Request Form in Adobe Workfront Planning
-description: You can add an approval process to an Adobe Workfront Planning request form, to initiate an approval for every submitted request, before it creates a record. 
+description: You can add an approval process to an Adobe Workfront Planning request form, to initiate an approval for every submitted request, before it creates a record.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: 058148db-1795-4d39-be87-271008ae3d47
 ---
-
 # Add an approval to a request form in Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
@@ -154,5 +154,4 @@ You must have the following access to perform the steps in this article:
    >   Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience for users to be able to receive email and in-app notifications.
 
 
-    For information about approving requests, see [Approve a request](/help/quicksilver/planning/requests/approve-request.md). 
-
+    For information about approving requests, see [Approve a request](/help/quicksilver/planning/requests/approve-request.md).
