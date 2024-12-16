@@ -28,6 +28,42 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning after the general availability release on August 28, 2024, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## Configure approvals for Workfront Planning requests 
+
+>[!NOTE]
+>
+>Preview release: December 16, 2024; Production release for all customers: January 16, 2025
+
+You can now associate an approval with a Workfront Planning request form. You can add only users as approvers of a request. After the request is submitted, it is first sent to all the approvers to approve it before it creates a record.  
+
+For information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
+
+
+## Notifications for request submission, approvals, and status changes
+
+>[!NOTE]
+>
+>Preview release: December 16, 2024; Production release for all customers: January 16, 2025
+
+You will now receive an in-app as well as an email notification for the following actions after submitting a request in Workfront Planning: 
+
+* A requestor receives a notification that a request was successfully submitted 
+
+* A requestor receives a notification that a request was approved or rejected 
+
+* An approver receives a notification that a request was submitted to them for approval. 
+
+>[!NOTE]
+>
+>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience for users to be able to receive email and in-app notifications.
+
+For information about submitting or approving requests, see the following articles:  
+
+* [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
+
+* [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md). 
+
 ## Intelligent search when looking for a field type
 
 >[!NOTE]
@@ -132,7 +168,7 @@ You can now add the following field types to a record type request form in Workf
 
 Prior to this enhancement, these types of fields could not be added to request forms in Workfront Planning. 
 
-For information, see Create and manage a request form in Adobe Workfront Planning (/help/quicksilver/planning/requests/create-request-form.md). 
+For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). 
 
 ## Limit public sharing of request forms that contain certain field types
 
