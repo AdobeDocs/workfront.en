@@ -4,7 +4,7 @@ product-area: projects
 navigation-topic: financials
 title: Calculate Cost Schedule Performance Index (CSI)
 description: The Cost Schedule Performance Index (CSI) is an automatic calculation which combines the Cost Performance Index (CPI) and Schedule Performance Index (SPI) into one general metric that balances cost and schedule.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
 ---

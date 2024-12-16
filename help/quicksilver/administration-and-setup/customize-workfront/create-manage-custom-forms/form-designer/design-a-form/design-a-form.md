@@ -322,7 +322,7 @@ To add radio buttons, checkbox groups, and dropdowns:
     </tr>
     <tr> 
      <td role="rowheader">Label</td> 
-     <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
+     <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: </p> <p>Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      <td><ul>
     <li>Radio buttons</li>
     <li>Checkbox group</li>
@@ -405,13 +405,18 @@ To add radio buttons, checkbox groups, and dropdowns:
     <li> <p><strong>Remove Choice</strong>: Remove the choice from the field.</p> <p><b>WARNING</b>:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
     </ul> 
      </li> 
-    </ol> </td> 
+    </ol> 
+    
+    <p><b>NOTE:</b></p>
+    <p>There is no limit for how many choices you can select. </p>    
+    </td> 
     <td><ul>
     <li>Radio buttons</li>
     <li>Checkbox group</li>
     <li>Single-select dropdown</li>
     <li>Multi-select dropdown</li>
-    </ul></td>
+    </ul>
+    </td>
      </tr> 
     </tbody> 
     </table>
@@ -744,11 +749,11 @@ The Workfront Mobile app -->
 
     Click **Save and Close**. 
 
-#### Add a video widget to a custom form from the Documents area{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### Add a video to a custom form from the Documents area{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >
->When you add a video to a custom form this way, only the permissions set for the custom form apply to the video when users access the form on an object, not the permissions that were set for the video in the Documents area.
+>When you add a video to a custom form this way, the permissions set in the Documents area apply to the video when users access the form on an object.
 
 1. Go to the video in the Documents area and generate a proof for it, as described in [Create an interactive proof for a website or other web content](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
 1. Open the proof.
@@ -937,7 +942,7 @@ This table lists the available native fields for specific Workfront objects in a
 >You must have the following to access Workfront Planning:
 >
 >* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
->* An additional license for Workfront Planning. 
+>* An additional package for Workfront Planning. 
 >* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
 >
 > For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 

@@ -55,11 +55,11 @@ The following are some of the main capabilities:
 * Fully customize your workflows, from deciding what object types (or record types) your organization uses to configuring how these objects link to one another.  
 * Link to object types from other systems, creating a coherent framework for all your processes.  
 
+<!--
 ## Currently available Workfront Planning features
+(*****for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section*****)
 
-<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section-->
-
-<!--at GA: update the link below to the new place for release notes-->
+(*****at GA: update the link below to the new place for release notes *****)
 
 For information about new features and when they are released, see [Adobe Workfront Planning release activity for 2024](/help/quicksilver/planning/general/release-activity.md). 
 
@@ -68,7 +68,7 @@ The following features are currently available in Workfront Planning:
 * Create workspaces             
 * Create record types             
 * Create record custom fields             
-<!--* Import record types and fields using an Excel or CSV file-->             
+(************ * Import record types and fields using an Excel or CSV file*****)
           
 * Display records in a table view            
 * Display records in a timeline view            
@@ -106,6 +106,8 @@ The following features are currently available in Workfront Planning:
 * Workfront Planning AI Assistant
 * Reporting on Workfront Planning information
     You can report on Planning information using the Canvas Dashboard. For information, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md). 
+
+-->
 
 <!--OLD: 
 
@@ -158,15 +160,15 @@ The following features are currently available in Workfront Planning:
 
 ## Enable Workfront Planning for the users in your Workfront instance
 
-After your organization purchases a license for Workfront Planning, as a Workfront administrator, you must ensure the following are in place before users can access Workfront Planning:
+After your organization purchases a Workfront Planning package, as a Workfront administrator, you must ensure the following are in place before users can access Workfront Planning:
 
 * Assign the users who need access to Planning a layout template that includes Planning in the Main Menu. For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) and [Assign users to a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md). 
 
-* Assign users a Workfront license and Workfront Planning permissions that would allow you to either 5554hview or create objects in Workfront Planning. For more information about granting access to and enabling others to use Workfront Planning, see [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+* Assign users a Workfront license and Workfront Planning permissions that would allow them to either view or create objects in Workfront Planning. For more information about granting access to and enabling others to use Workfront Planning, see [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 
 ## Workfront Planning terminology
 
-Although Workfront Planning is part of Workfront, it comes with proprietary concepts and terminology. Ensure you are familiar with the new concepts before embarking on setting up Workfront Planning for your organization. 
+Although Workfront Planning is part of Workfront, it comes with proprietary concepts and terminology. Ensure you are familiar with these concepts before embarking on setting up Workfront Planning for your organization. 
 
 The framework for Workfront Planning is fully customizable. You can create all record types, their attributes, and any fields associated with them to suit the exact needs of your organization. 
 
@@ -180,7 +182,9 @@ The following are the main Workfront Planning objects and concepts:
     
     For more information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). 
 
-* **Record Type**: The name of object types in Workfront Planning.  
+* **Record Type**: The name of object types in Workfront Planning. 
+
+    Record types populate workspaces. 
     
     Unlike Workfront, where the object types are predefined, in Workfront Planning, you can create your own object types.  
     
@@ -319,7 +323,7 @@ To locate Adobe Planning, ensure that your organization has received access to W
 
 To locate Workfront Planning:   
 
-1. Log in to Adobe Workfront. 
+1. Log in to Workfront. 
 
 {{step1-click-main-menu}}
 

@@ -807,6 +807,14 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>[!UICONTROL Document Version]</td> 
    <td> <p>Each time the same document is uploaded to the same object, it is assigned a version number. Users can view and change several options for a previous version of a document.</p> <p>For more information, see <a href="../../../documents/managing-documents/manage-document-versions.md" class="MCXref xref">Manage document versions</a>.</p> </td> 
   </tr> 
+
+<tr> 
+   <td>[!UICONTROL Due Date]</td> 
+   <td> <p>The date when a task or an issue is due to complete. The Due Date of a task or issue is the same date as the Planned Completion Date.</p>
+    <p>The task and issue Due Date is visible in task and issue lists and reports.</p> 
+    <p>Also see Planned Completion Date in this table. 
+    </td> 
+  </tr>
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Duration]</td> 
    <td> <p>The window of time allocated for completion of a task issue, or project (as determined by the number of days between the [!UICONTROL Planned Start] and the Planned Completion).</p> 
@@ -1247,10 +1255,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
     --> </td> 
   </tr> 
-  <tr> 
-   <td>[!UICONTROL Library Task]</td> 
-   <td>A template for a single task that is used to provide consistent naming of [!UICONTROL Tasks] and [!UICONTROL Template Tasks] across the application.</td> 
-  </tr> 
+  
   <tr> 
    <td>[!UICONTROL License Type]</td> 
    <td>The type of license allocated to an [!UICONTROL Access Level]. It is either [!UICONTROL Full User], [!UICONTROL Limited User], or [!UICONTROL Requester].</td> 

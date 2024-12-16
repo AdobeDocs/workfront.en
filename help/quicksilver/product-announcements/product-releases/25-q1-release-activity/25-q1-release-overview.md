@@ -53,14 +53,14 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Preference to use project or user schedule for single-assignment tasks</a></p>
-            [!BADGE New in Preview ]{type=Negative}
+            [!BADGE In production for Fast Release ]{type=Positive}
             <p>As a system or group administrator, you now have a new preference to indicate whether Workfront should use the project's or the user's schedule to calculate the timeline of the project when you assign one user to a task and both the project and the user are associated with a schedule.</p>
         </td>
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: November 21, 2024</li>
-                <li>Production for fast release: With the 24.12 release (December 2024)</li>
+                <li>Production for fast release: With the 24.12 release (December 12, 2024)</li>
                 <li>Production release for all customers: With the 25.1 release (January 2025)</li>
             </ul>
         </td>
@@ -69,14 +69,14 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Business rules now support hyperlinks</a></p>
-            [!BADGE New in Preview ]{type=Negative}
+            [!BADGE In production for Fast Release ]{type=Positive}
             <p>You can now include hyperlinks in the custom error message of a business rule, to guide the user on how to modify their action within the constraint of the rule. The static URL could link to documentation or other pages that would be helpful to the user.</p>
         </td>
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: November 21, 2024</li>
-                <li>Production for fast release: With the 24.12 release (December 2024)</li>
+                <li>Production for fast release: With the 24.12 release (December 12, 2024)</li>
                 <li>Production release for all customers: With the 25.1 release (January 2025)</li>
             </ul>
         </td>
@@ -85,14 +85,13 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Filtering on native typeahead fields is now available</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>When you add a native field reference to a custom form and it references a typeahead field (such as Portfolio, Company, or Owner), a filter option is now available. The filter allows you to limit the objects users can choose when they are using the field. This custom filter works the same as a filter on a custom typeahead field, using Text Mode to define the filter.</p>
         </td>
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: November 21, 2024</li>
-                <li>Production for fast release: With the 24.12 release (December 2024)</li>
+                <li>Production for fast release: With the 24.12 release (December 12, 2024)</li>
                 <li>Production release for all customers: With the 25.1 release (January 2025)</li>
             </ul>
         </td>
@@ -166,14 +165,14 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Edit multiple documents at once</a></p>
-            [!BADGE New in Preview ]{type=Negative}
+            [!BADGE In production for Fast Release ]{type=Positive}
             <p>You can now edit multiple documents at once. You can edit the descriptions and update custom forms.</p>
         </td>
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: November 21, 2024</li>
-                <li>Production for fast release: With the 24.12 release (December 2024)</li>
+                <li>Production for fast release: With the 24.12 release (December 12, 2024)</li>
                 <li>Production release for all customers: With the 25.1 release (January 2025)</li>
             </ul>
         </td>
@@ -210,6 +209,35 @@ This page provides information about functionality that is included in the First
         </td>
         <td>
             <p><span class="bold">Release dates</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Updates to the Priorities worklist</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>We have updated the Priorities worklist to improve capabilities and align with other areas of the application.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: December 12, 2024</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Navigate to a project's Details page from Priorities</a></p>
+            <p>You can now navigate directly to a project in Workfront from the Priorities worklist.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: December 5, 2024</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
         </td>
     </tr>
     <tr>
@@ -303,6 +331,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             First time reader account creation button for Data Connect</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>Administrators accessing Data Connect for the first time are now presented with the option to create a new Snowflake reader account by clicking on a single button. The process takes a few minutes to complete, but requires no further action.</p>
         </td>
         <td>
@@ -326,7 +355,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Update on how moved or deleted assets in linked folders are managed</a></p>
-            [!BADGE New in Preview ]{type=Negative}
+            [!BADGE In production ]{type=Informative}
             <p>We've changed the way moved and deleted assets are handled when using the Adobe Workfront integration with Experience Manager Assets and Assets Essentials:</p>
             <ul>
                 <li>Deleted assets: When an asset is deleted inside of a linked folder in Assets or Assets Essentials, the deleted asset will be retained in the Project Documents area.</li>
@@ -345,13 +374,14 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Sections within a custom form are now collapsible and expandable</a></p>
+            [!BADGE In production for Fast Release ]{type=Positive}
             <p>When a custom form with multiple sections is attached to an object, you can now collapse and expand all sections except the default section at the top of the form. The administrator can also see this functionality when previewing the form in the form designer.</p>
         </td>
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: November 11, 2024</li>
-                <li>Production for fast release: With the 24.12 release (December 2024)</li>
+                <li>Production for fast release: With the 24.12 release (December 12, 2024)</li>
                 <li>Production release for all customers: With the 25.1 release (January 2025)</li>
             </ul>
         </td>

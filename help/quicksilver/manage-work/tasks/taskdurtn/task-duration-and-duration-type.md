@@ -71,14 +71,6 @@ The following are two scenarios that exist when calculating duration in Adobe Wo
 >
 >When taking into account the Primary Assignee's time off on a project, the planned dates of the task might adjust, but the Duration of the task remains the same. For information about taking into account the time off of the Primary Assignee when planning a project, see  [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-## The Original Duration of a parent task
-
-The Original Duration of a task is the Duration that a task originally had before it became a parent task, in minutes. 
-
-When a task becomes a parent, the Duration between the Planned Start Date of the earliest child and the Planned Completion Date of the last child rolls up to the parent task and becomes the Duration of the parent task. This replaces the Duration of the original task.
-
-For more information, see [Overview of task Original Duration and Original Planned Hours](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md). 
-
 ## Units of time for Task Duration
 
 You can indicate task Duration in both the regular time and the elapsed time between the Planned Start and Planned Completion Dates.
@@ -100,7 +92,14 @@ When updating the Duration of tasks in a list, you can use the following abbrevi
 
 {style="table-layout:auto"}
 
-**Example:** If you want to indicate that a task's Duration is 3 Elapsed Day, you would type "3 ED" in the Duration field in a task list .  You can also select the preferred option for the Duration Unit of Time from the available drop-down menu when editing a task or in the Task&nbsp;Details section. For information about editing tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>[!BEGINSHADEBOX]
+
+**EXAMPLE**
+
+If you want to indicate that a task's Duration is 3 Elapsed Day, you would type "3 ED" in the Duration field in a task list .  You can also select the preferred option for the Duration Unit of Time from the available drop-down menu when editing a task or in the Task Details section. For information about editing tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+
+>[!ENDSHADEBOX]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
@@ -111,14 +110,14 @@ When updating the Duration of tasks in a list, you can use the following abbrevi
 Consider the following when indicating the Duration of a task:
 
 * Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. 
-* Regular time takes into account holidays, weekends, and time off and excludes them from the Duration of the task.
-
-* When you indicate the Duration of a task in weeks, Workfront calculates the Duration in days and hours based on the Typical work days per week and Typical hours per work day settings set by your Workfront administrator in the Project&nbsp;Preferences area of Setup.
+* Days represent the working days defined in the system and it is configurable in the Setup area. In most cases, a day consists of 8 hours.
+* Regular time (days or working days) takes into account holidays, weekends, and time off and excludes them from the Duration of the task.
+* When you indicate the Duration of a task in weeks, Workfront calculates the Duration in days and hours based on the Typical work days per week and Typical hours per work day settings set by your Workfront administrator in the Project Preferences area of Setup.
 * Workfront uses the default duration of 4 weeks for one month when calculating Duration in months.
 
 ## Task Duration Type overview
 
-Managing the Duration&nbsp;Type of a task enables you to set consistent resource assignments based on the needs of the task.
+Managing the Duration Type of a task enables you to set consistent resource assignments based on the needs of the task.
 
 Duration Type helps to answer the following questions:
 
@@ -168,6 +167,27 @@ Duration Type helps to answer the following questions:
 ## The Duration Type of new tasks
 
 The Duration Type of a new task matches the Duration Type set up in your system. The default Duration Type is Calculated Assignment. Your Workfront administrator or a group administrator can update the default Duration Type for your system or for the group associated with the project. For information, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
+## The Original Duration of a parent task
+
+The Original Duration of a task is the Duration that a task originally had before it became a parent task, in minutes. 
+
+When a task becomes a parent, the Duration between the Planned Start Date of the earliest child and the Planned Completion Date of the last child rolls up to the parent task and becomes the Duration of the parent task. This replaces the Duration of the original task.
+
+When children use the Duration unit of Elapsed Days and their parent uses the Duration unit of Days, there might be discrepancies in the way Workfront calculates the Duration of the parent task.  
+
+Consider the following:  
+
+* The duration unit Elapsed Days represents calendar days, which always consists of 24 hours per day. 
+* The duration unit Days represents the working day defined in the system and is configurable. In most cases, it consists of 8 hours per day. 
+* The formula to calculate the duration of the parent task is the following:  
+
+   `Parent task duration = Planned Completion Date of the child task that is planned to end the latest - Planned Start Date of the child task that starts the earliest` 
+
+* When calculating the duration of the parent task, the system first calculates the duration by the above formula and then it applies the schedule. 
+
+
+For more information, see [Overview of task Original Duration and Original Planned Hours](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md). 
 
 ## Change the Duration Type of a task
 
