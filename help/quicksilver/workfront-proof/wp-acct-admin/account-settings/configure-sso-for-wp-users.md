@@ -53,12 +53,12 @@ To configure SSO:
 1. Enter the **Login URL** (3).
    This is the URL that will be invoked to redirect the users to your Identity Provider.
 
-1. This is not an actual URL you enter in the browser, but rather an endpoint which will process the information we send it in order to present the Login screen.
+   This is not an actual URL you enter in the browser, but rather an endpoint which will process the information we send it in order to present the Login screen.
 
-Enter the **Logout URL** (4).
+1. Enter the **Logout URL** (4).
 This is the URL you will be returned to after you log out, for example
 
-**https://www.yourcompany.com/services/logout.asp**
+   **https://www.yourcompany.com/services/logout.asp**
 
 1. Enter the **Certificate fingerprint** (5).
 1. The SHA1 fingerprint of the SAML certificate provided by your SAML Identity Provider.
