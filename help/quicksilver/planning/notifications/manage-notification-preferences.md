@@ -10,6 +10,10 @@ exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
 
 # Manage Adobe Workfront Planning notification preferences 
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
 You may receive in-app or email notification when the following actions occur in Workfront Planning: 
@@ -17,6 +21,14 @@ You may receive in-app or email notification when the following actions occur in
 * Someone adds you to a comment on the record page
 * Someone asks for permission to access a view or a workspace
 * Someone grants you permission to access a view or a workspace <!--I could not test this but Isk confirmed-->
+
+<div class="preview">
+
+* You submit a Workfront Planning request.
+* Someone approves or rejects a Workfront Planning request that you submitted.
+* The status changes to a Workfront Planning request that you submitted.
+
+</div>
 
 ## Access requirements
 
@@ -166,7 +178,12 @@ OLD:
 1. The following notifications are available for Workfront:
 
    * **Mentions**: You receive a notification when someone tags you in a comment in Workfront Planning
-   * **Requests**: You receive a notification when someone requests or grants you permission to a Workfront Planning object
+   * **Requests**: You receive a notification when someone done one of the following:
+   
+      * Requests or grants you permission to a Workfront Planning object
+      * <span class="preview">You submitted a Workfront Planning request</span>
+      * <span class="preview">The status of a Workfront Planning request that you submitted changes</span>
+      * <span class="preview">Requests, grants, or rejects an approval to a Workfront Planning request</span>
 
    For more information about managing notifications, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
