@@ -10,33 +10,49 @@ feature: Work Management, Digital Content and Documents
 
 # Asset and Document approvals overview 
 
-Explain current functionality available for approving assets and documents in Workfront today: 
+We have 3 different approval systems available in Workfront for Asset and Document review and approvals:
 
-Legacy document approvals 
+* Legacy document approvals 
+
+* New document approvals 
+
+* Proofing 
+
+## Legacy document approvals
+
+Legacy document approvals will be removed from Workfront in 2025. New document approvals will replace it. 
+
+Features available for legacy document approvals:
+
+
+## New document approvals 
 
 New document approvals 
 
-proofing 
+Features available with new document approvals:
 
+
+
+* Add both approvers and reviewers 
+
+* Add a Workfront team as approvers and reviewers
+
+* Set deadlines 
+
+* Use templates 
+
+* Review and comment with the proofing viewer 
+    For more information, see [Use new document approvals and proofing together](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
+
+* Approve in the proofing viewer [!BADGE Coming soon]{type=Informative}
+
+* Create multiple stage approvals [!BADGE Coming soon]{type=Informative}
+
+* View multiple key performance indicators for your approvals in Workfront Home widgets
+
+* Use Canvas Dashboards to view reporting details about new document approvals
  
 
-## Document approvals 
-
-Explain that legacy document approvals will be removed from Workfront in 2025. Introduce new approvals as a replacement and highlight functionality that comes with new document approvals: 
-
-Can use new document approvals with the proofing viewer 
-
-Can have both approvers and reviewers 
-
-Can have deadlines 
-
-Can use templates 
-
-Can approve in the proofing viewer – this is an item that is coming soon. I'll mark it with a badge 
-
-Can use multi-stage approvals – this is an item that is coming soon. I'll mark it with a badge 
-
- 
 
 Link to how to use new doc approvals with proofing article 
 
@@ -44,7 +60,7 @@ Link to how to create popular approval reports in Canvas Dashboards beta – Wor
 
  
 
-## roof approvals 
+## Proof approvals 
 
 Explain that customers can still use proofing alone or with new document approvals. 
 
