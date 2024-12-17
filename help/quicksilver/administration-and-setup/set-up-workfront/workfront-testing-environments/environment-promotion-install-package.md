@@ -18,7 +18,8 @@ You must install a package in the environment that you want to copy objects **to
 
 >[!IMPORTANT]
 >
->If your Custom Refresh Sandbox is refreshed while you are configuring object for environment promotion, that configuration will be lost in the refresh. We recommend that you do not refresh your Custom Refresh Sandbox unless all outstanding environment promotion objects and packages have been successfully promoted.
+>* If your Custom Refresh Sandbox is refreshed while you are configuring object for environment promotion, that configuration will be lost in the refresh. We recommend that you do not refresh your Custom Refresh Sandbox unless all outstanding environment promotion objects and packages have been successfully promoted.
+>* Objects created in the target environment as part of package installation do **not** have the same ID as the object in the original environment. This is due to the fact that IDs are assigned by the system when objects are created.
 
 ## Access requirements
 
