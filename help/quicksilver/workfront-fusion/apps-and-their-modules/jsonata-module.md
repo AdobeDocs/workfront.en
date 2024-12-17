@@ -6,7 +6,7 @@ feature: Workfront Fusion
 ---
 # [!UICONTROL JSONata] modules
 
-The [!DNL Adobe Workfront Fusion] [!UICONTROL JSONata] connector allows you to query JSON objects. This module does not require a connection
+The [!DNL Adobe Workfront Fusion] [!UICONTROL JSONata] connector allows you to query JSON objects. This module does not require a connection.
 
 ## Access requirements
 
