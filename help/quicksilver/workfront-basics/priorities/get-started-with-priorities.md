@@ -23,7 +23,7 @@ In Priorities, you can filter and group your work to help you manage deadlines a
 
 ### Find your work with filters
 
-Find your most important work with filters. You can filter tasks and issues assigned to you in the following ways:
+Find your most important work with filters. <span class="preview">You can use a natural language to find work with the Smart filter</span>, or you can use the Standard filter to find tasks and issues assigned to you:
 
 <table>
   <tbody>
@@ -186,7 +186,6 @@ From the Documents tab on a task or issue, you can
 ## Use [!DNL Catch me up] to see what you missed [!BADGE Available in preview]{type=Informative}
 
 Use the [!DNL Catch me up] feature to see what you missed. Catch me up will summarize updates, uploaded documents, approvals, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days. 
-
 
 ![](assets/catch-me-up.png)
 
