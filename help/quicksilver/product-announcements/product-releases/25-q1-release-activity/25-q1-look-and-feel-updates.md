@@ -54,7 +54,7 @@ For information, see [Create and edit companies](/help/quicksilver/administratio
 
 >[!NOTE]
 >
->Preview release: Temporarily removed November 6, 2024; Re-released to Production for all customers: December 17, 2024
+>Preview release: Temporarily removed December 12, 2024; Re-released to Production for all customers: December 17, 2024
 
 We've upgraded the Workfront main navigation and secondary navigation areas to improve performance. The look-and-feel changes are minimal.
 
