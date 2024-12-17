@@ -109,9 +109,7 @@ You must have the following access to perform the steps in this article:
 
 {{step1-to-priorities}}
 
-1. In the worklist, click the work item name.
-
-On this page, you can 
+1. In the worklist, click the work item name. On the Details page, you can 
 
 * View and edit project details and description
 * View and add comments on the project
