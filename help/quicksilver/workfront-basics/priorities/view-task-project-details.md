@@ -11,7 +11,7 @@ exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
-You can view project and task details in the priorities worklist. 
+<span class="preview">You can view real-time updates on the Details page of a task or issue. You can also see if others are viewing the page at the same time as you with real-time presence indicators.</span>
 
 ## Access requirements
 

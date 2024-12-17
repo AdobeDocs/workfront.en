@@ -190,6 +190,10 @@ Use the [!DNL Catch me up] feature to see what you missed. Catch me up will summ
 
 ![](assets/catch-me-up.png)
 
+## View real-time updates on the Details page [!BADGE Available in preview]{type=Informative}
+
+You can view real-time updates on the Details page of a task or issue. You can also see if others are viewing the page at the same time as you with real-time presence indicators. 
+
 ## Considerations
 
 * Workfront Administrators cannot customize priorities through the Layout Template at this time.

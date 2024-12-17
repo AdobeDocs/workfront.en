@@ -166,13 +166,14 @@ To expand or collapse all sections, open **Group** and click **Expand all** or *
 
 ## Filter and group your work with Priorities in Preview
 
-### Filter your work
+### Filter your work with Standard filters
 
 You can filter tasks and issues assigned to you.
 
 {{step1-to-priorities}}
 
 1. Click **Filters** in the top left of the worklist.
+1. click **Standard filters**. 
 1. Select one or many filters to narrow down your work items.
   ![](assets/filter-new.png)
 
@@ -237,6 +238,23 @@ You can filter tasks and issues assigned to you.
 
 1. (Optional) Click **Back to default** to reset your selection.
 
+### Filter your work with Smart filters
+
+Use natural language to filter quickly filter work.
+
+{{step1-to-priorities}}
+
+1. Click **Filters** in the top left of the worklist.
+1. Click **Smart filters**. 
+1. Type how you want to filter your work. 
+
+    You can type things like
+
+    * Show me late tasks
+    * Show my top priorities
+    * Show work due today
+
+
 ### Group your work
 
 {{step1-to-priorities}}
@@ -255,6 +273,8 @@ You can filter tasks and issues assigned to you.
 | Status    |   This groups items by the following statuses: New, In progress, Complete. <br>Note: You can't use custom statuses in Priorities at this time.          |
 
 +++
+
+
 
 ### Sort your work
 
