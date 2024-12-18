@@ -10,6 +10,8 @@ recommendations: noDisplay, noCatalog
 
 # Catch up on work in Priorities
 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 Catch me up—-powered by Workfront's AI Assistant—summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days, which helps reduce the amount of time looking for information on active projects.
 
 >[!NOTE]
