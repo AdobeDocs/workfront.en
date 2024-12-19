@@ -51,7 +51,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Objects that you can add to a dashboard
 
-You can populate a dashboard with the following items in Adobe Workfront:
+You can populate a dashboard with up to 25 of the following items in Adobe Workfront:
 
 * Reports  
   For more information about creating reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
