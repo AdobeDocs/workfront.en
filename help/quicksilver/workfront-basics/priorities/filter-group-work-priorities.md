@@ -60,7 +60,7 @@ You can filter tasks and issues assigned to you.
 {{step1-to-priorities}}
 
 1. Click **Filters** in the top right of the worklist.
-1. Select one or many filters to narrow down your work items.
+1. Select one or several filters to narrow down your work items.
   ![](assets/filters.png)
 
 +++Expand to see detailed information about available filters

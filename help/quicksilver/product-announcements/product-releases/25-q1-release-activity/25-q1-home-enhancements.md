@@ -42,14 +42,14 @@ For more information, see [View project and task details in the Priorities workl
 >
 >Preview release: December 19, 2024; Production release for all customers: With the 25.1 release (January 2025)
 
-You can now interact with documents and proofs for tasks and issues. In the new Documents tab, you can 
+You can now interact with documents and proofs for tasks and issues in the worklist and calendar. In the new Documents tab, you can 
 
 * Upload a document
 * Create a proof
 * Launch the proofing viewer
 * And more
 
-<!--For more information, see [Upload Documents and create proofs in Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).-->
+For more information, see [Upload Documents and create proofs in Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).
 
 ## Calendar view now available in Priorities
 
@@ -57,12 +57,14 @@ You can now interact with documents and proofs for tasks and issues. In the new 
 >
 >Preview release: December 19, 2024; Production release for all customers: With the 25.1 release (January 2025)
 
-Easily track your work with a clear, visual month calendar. With the Priorities calendar, you can
+You can now track your work with a clear, visual calendar. With the Priorities calendar, you can
 
 * Use filters to find your work
-* Display fields like status and focus level
-* Apply colors for quick prioritization
+* Apply custom fields like status and focus level to identify high-priority work
+* Apply colors for quick organization
 * And more
+
+For more information, see [Manage your work in the Priorities calendar](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md).
 
 ## Updates to the Priorities worklist 
 
