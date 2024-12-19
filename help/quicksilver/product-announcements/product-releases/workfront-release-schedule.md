@@ -28,7 +28,7 @@ Monthly and quarterly releases are planned to be available on the Thursday of th
 
 Releases typically take place around 8-10 PM US Mountain Time the evening before the release date.
 
-Usually, features in Preview are made available in your Production environment with the next release. However, in some cases, features are made available in the Production environment outside of a scheduled release. These changes remain in Preview for a minimum of 2 weeks to provide you with adequate time to become acquainted with the changes. These changes are also communicated via the Announcement Center at the time they are added to Preview.
+Usually, features in Preview are made available in your Production environment with the next release. However, in some cases, features are made available in the Production environment outside of a scheduled release. These changes typically remain in Preview for a minimum of 2 weeks to provide you with adequate time to become acquainted with the changes. 
 
 For more information about quarterly and fast release processes, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 

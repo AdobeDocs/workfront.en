@@ -12,11 +12,11 @@ exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
 
 <!--Audited: 10/2024-->
 
-This task filter returns ad hoc work requests sent to a user, or to-do items added by users in their Home area. 
+This task filter returns ad hoc work requests sent to a user, or to-do items added by users in their To-dos widget in the Home area. 
 
 Ad hoc work requests and to-do items are saved in Adobe Workfront as personal tasks. 
 
-Personal tasks are not connected to a project but they can be moved to a project, if needed.
+Personal tasks are not connected to a project but they can be moved to a project, if needed. For information, see [Create personal tasks](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md). 
 
 ![](assets/personal-tasks-report.png)
 
@@ -70,7 +70,7 @@ To create this filter:
 1. (Conditional) Select the following filtering criteria: 
 
     * From a list filter: **Task** > **Personal** **Is true**
-    * From a report filter: **Task** > **Personal** > **Equals** > **True**. 
+    * From a report filter: **Task** > **Personal** > **Equal (Case sensitive)** > **True**. 
 1. Save the filter. 
 
     The list displays only personal tasks that are not on any projects.

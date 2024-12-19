@@ -20,7 +20,7 @@ The following are frequently asked questioned about environment promotion:
 
 Cross-domain environment promotion is not currently supported. You must promote between environments in the same domain.
 
-## Is the Adobe Business Platform / IMS a prerequisite for environemnt promotion?
+## Is the Adobe Business Platform / IMS a prerequisite for environment promotion?
 
 ### Answer
 
@@ -62,7 +62,6 @@ Package rollback is available for the most recent package, within 24 hours of pa
 ## Will there be an option to skip promotion of individual components? Where the options `Use Existing`, `Overwrite`, and `Save with a new Name`" exist, can `Skip` be added so you can skip promotion of individual parameters?
 
 ### Answer
-
 
 * "Use existing" is the same as "skipping" or ignoring the deployment, because it maps to the existing object in the target environment, and does not make any changes.
 * To skip objects, we recommend removing
