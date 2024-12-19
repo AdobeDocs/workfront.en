@@ -12,6 +12,18 @@ exl-id: a7cf0030-79b4-478b-9684-531271bf717c
 ---
 # Functions in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Functions references: article index](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/functions-toc.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 This section contains the following articles:
 

@@ -11,6 +11,18 @@ exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
 ---
 # Array functions in Adobe Workfront Fusion
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Array functions](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/array-functions.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 ## Access requirements 
 
 You must have the following access to use the functionality in this article: 
