@@ -13,6 +13,18 @@ exl-id: 1d78e0db-9a77-437d-a72f-88fb256981c0
 ---
 # Airtable modules
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Airtable modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/airtable-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 
 With the [!DNL Airtable] connector for [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Airtable] account, create, upload, and update records, search records, and make custom API calls to the Airtable API.
 

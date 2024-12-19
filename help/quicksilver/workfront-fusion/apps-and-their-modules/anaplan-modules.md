@@ -12,6 +12,18 @@ exl-id: 03bcd0a4-c8ec-4f44-b1e1-b57e79595309
 ---
 # [!DNL Anaplan] Modules
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Anaplan Modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/anaplan-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Anaplan], as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).

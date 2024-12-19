@@ -13,6 +13,18 @@ exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
 ---
 # [!DNL Adobe Experience Manager Assets] modules
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Adobe Experience Manager Assets modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/aem-assets-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 With the [!DNL Adobe Experience Manager Assets] connector for [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets] account, create, upload, and update assets, and copy or move folders and assets.
 
 For an introduction to the Adobe Experience Manager Assets connector, see:
