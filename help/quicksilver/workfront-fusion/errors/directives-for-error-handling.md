@@ -11,6 +11,18 @@ exl-id: dcf4f7e3-78d8-4eb4-9483-8a1c18b0e436
 ---
 # Directives for error handling in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Directives for error handling](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/errors/directives-for-error-handling.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:

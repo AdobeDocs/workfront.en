@@ -11,6 +11,18 @@ exl-id: a08c18a0-1797-4126-827a-1ea7e11d4bad
 ---
 # Error handling in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Add error handling](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/error-handling.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 When errors occur during the execution of a scenario, it's usually because a service is unavailable due to a failure, a service responds with unexpected data, or the validation of input data fails.
 
 If a module throws an error during the scenario execution and there is no error handling route attached to the module, the default error handling logic executes, as described in [Error processing in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md).

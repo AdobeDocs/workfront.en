@@ -10,6 +10,18 @@ exl-id: f1a67dbf-c245-4936-9dcc-3fdbfc6ee3b1
 ---
 # Receive a webhook from a web service
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Configure a webhook for a web service without a connector](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/receive-a-webhook-from-a-web-service.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 If a web service is not currently implemented as an app in [!DNL Adobe Workfront Fusion], but it supports sending webhooks, you can add the service to a scenario using the Custom webhook module as an instant trigger.
 
 ## Access requirements

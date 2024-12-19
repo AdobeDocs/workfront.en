@@ -11,6 +11,18 @@ exl-id: 468d7460-3853-4016-bff9-b9d3b87198ed
 ---
 # Error processing in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Error types](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/errors/error-processing.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 Sometimes an error can occur during the execution of a scenario. This usually happens if a service is unavailable due to a failure to connect to a service or if a validation fails. This article discusses the common errors that you may encounter.
 
 [!DNL Adobe Workfront Fusion] distinguishes between several basic error types. It will react differently depending upon on the type of error that occurred.

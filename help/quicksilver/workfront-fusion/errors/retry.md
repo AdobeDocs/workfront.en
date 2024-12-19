@@ -10,6 +10,18 @@ exl-id: 1058905c-6c95-4a8c-8956-e1606f1486d9
 ---
 # Retry error handling in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Configure `retry` error handling workaround](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/retry.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 In some cases it is useful to re-execute a failing module if there is a chance that the reason for the failure might pass over time.
 
 ## Access requirements

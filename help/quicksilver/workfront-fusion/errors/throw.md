@@ -11,6 +11,18 @@ exl-id: 6258bd4d-31a0-4fbb-b1b4-8e9a5a9dbe36
 ---
 # Throw error handling in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Configure `throw` error workaround](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/throw.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 In some cases, you may want to forcibly stop the scenario execution followed by [Rollback](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) or [Commit](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit) phase or to stop the processing of a route and optionally store it in the queue of incomplete executions.
 
 Currently the error handling directives cannot be used out of the scope of an [Error handler route](../../workfront-fusion/errors/error-handling.md#error) and [!DNL Adobe Workfront Fusion] does not offer a module that would enable you to easily conditionally generate (throw) errors.
