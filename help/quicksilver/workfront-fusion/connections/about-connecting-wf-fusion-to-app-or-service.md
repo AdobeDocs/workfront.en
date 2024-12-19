@@ -10,6 +10,19 @@ exl-id: 2d5cf083-9893-45e8-8f7d-0f8f5a74eef3
 ---
 # Connections overview
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the articles:
+>
+>* [Connection overview](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/connection-overview.html)
+>* [Manage connections](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/manage-connections.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 <!-- Audited: 3/2024-->
 
 For most apps, [!DNL Workfront Fusion] requires a connection, through which it can communicate with the given third-party service according to the settings of the specific scenario.

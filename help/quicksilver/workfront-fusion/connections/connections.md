@@ -12,6 +12,18 @@ exl-id: 7fc257ea-0c17-4bf5-aa07-e81f6f2d756c
 ---
 # Connections in Fusion: article index
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Connect to applications: article index](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-to-apps-toc.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 <!-- Audited: 3/2024-->
 
 >[!NOTE]

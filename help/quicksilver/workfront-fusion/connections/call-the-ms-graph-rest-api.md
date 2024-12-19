@@ -7,6 +7,18 @@ exl-id: adae390d-8b9e-4dab-8551-605e50af5a1e
 ---
 # Call the[!UICONTROL  MS Graph REST API] via the [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Call the MS Graph REST API](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/call-the-ms-graph-rest-api.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 <!-- Audited: 3/2024-->
 
 Many [!DNL Microsoft] web services are accessed through the [!DNL Microsoft Graph API]. You can create a connection to the [!DNL Microsoft Graph API], by using the [!DNL Workfront Fusion] [!DNL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module.

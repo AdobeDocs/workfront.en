@@ -10,6 +10,19 @@ exl-id: 8b2a7d85-e20e-4836-8418-3463d284194e
 ---
 # Connect [!DNL Adobe Workfront Fusion] to any web service
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the articles:
+>
+>* [Connect Adobe Workfront Fusion to a web service that uses API token authorization](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-wf-web-service-uses-api-token-auth.html)
+>* [Configure a webhook for a web service without a connector](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/receive-a-webhook-from-a-web-service.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:

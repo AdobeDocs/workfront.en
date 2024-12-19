@@ -10,6 +10,18 @@ exl-id: 0feb745a-1ee0-4b29-92ab-14c12a8647d4
 ---
 # Connect [!DNL Adobe Workfront Fusion] to a web service that uses API token authorization
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Connect Adobe Workfront Fusion to a web service that uses API token authorization](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-wf-web-service-uses-api-token-auth.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 Some services do not allow integration solutions such as [!DNL Adobe Workfront Fusion] to create an app that you can easily use in your scenario.
 
 There is a workaround to this situation. You can connect the desired service (app) to [!DNL Workfront Fusion] using [!DNL Workfront Fusion]'s [!UICONTROL HTTP] module.

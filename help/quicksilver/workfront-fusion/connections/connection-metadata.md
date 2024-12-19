@@ -11,6 +11,18 @@ exl-id: af260c63-3385-4d5c-abc2-d5c23175be40
 ---
 # Connection metadata in Adobe Workfront Fusion
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Connection metadata](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/connections/connection-metadata.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 >[!NOTE]
 >
 >[!DNL Adobe Workfront Fusion] requires an [!DNL Adobe Workfront Fusion] license in addition to an [!DNL Adobe Workfront] license.

@@ -11,6 +11,18 @@ exl-id: 32dfef7a-7942-4025-8cb9-055d4e28090b
 ---
 # Connect [!DNL Adobe Workfront Fusion] to [!DNL Google Services] with updated security measures
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Connect Adobe Workfront Fusion to Google Services with updated security measures](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-to-google-with-new-security-measures.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
