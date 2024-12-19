@@ -12,6 +12,18 @@ exl-id: 3c94a6d8-6994-40b1-b4fe-2de09795799c
 ---
 # [!DNL Quickbase] modules
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Quickbase modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/quickbase-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Quickbase], as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).

@@ -12,6 +12,18 @@ exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
 ---
 # [!DNL Adobe Workfront] Boards modules
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Adobe Workfront Boards modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-boards-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 >[!NOTE]
 >
 >The Boards Fusion connector is in a beta status. As a result, support for this connector is limited and may change due to future development of Boards. In addition, there may be changes to the GraphQL API without notice that could impact your Fusion connector process.

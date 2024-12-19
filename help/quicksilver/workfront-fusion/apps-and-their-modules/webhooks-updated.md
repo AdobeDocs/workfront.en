@@ -13,6 +13,19 @@ exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
 
 
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the articles:
+>
+>* [Webhooks](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/webhooks-updated.html)
+>* [Configure a webhook for a web service without a connector](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/receive-a-webhook-from-a-web-service.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 <!--This information moved to the webhooks article in the create scenarios folders in the new repo-->
 
 A webhook is an HTTP call that is triggered by an event. You can use webhooks to activate instant trigger modules. Any application that is connected to the Internet and allows HTTP requests can send webhooks to Adobe Workfront Fusion.

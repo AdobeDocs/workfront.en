@@ -18,7 +18,7 @@ exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
 >
 >The information in this article can now be found in the article:
 >
->* [Marketo modules](https://experienceleague.corp.references/apps-and-their-modules/adobe-connectors/adobe-marketo-modules.html)
+>* [Marketo modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-marketo-modules.html)
 >
 >Please update any bookmarks.
 >

@@ -11,6 +11,18 @@ exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
 ---
 # [!UICONTROL Text parser]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Text parser](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/text-parser.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 You can use the [!UICONTROL Text parser tool] to parse text for use in other [!DNL Adobe Workfront Fusion] scenario modules. The [!UICONTROL Text parser] does not require a connection.
 
 ## Access requirements

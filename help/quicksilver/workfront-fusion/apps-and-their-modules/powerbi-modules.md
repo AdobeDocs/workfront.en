@@ -13,6 +13,18 @@ exl-id: 01405f5f-6821-4c38-b34c-373922f63004
 ---
 # [!DNL Power BI] Modules
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Power BI Modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/powerbi-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 [!DNL Power BI] is an application that allows you to visualize and present data to your stakeholders. It can take data from a variety of sources.
 
 >[!NOTE]

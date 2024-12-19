@@ -11,6 +11,18 @@ exl-id: 3459e930-8156-4171-8920-34f4e07bc530
 ---
 # XML
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [XML](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/xml-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 The [!UICONTROL XML] app enables you to parse an XML formatted text via the [!UICONTROL XML] > [!UICONTROL Parse XML] module and convert it to a bundle to make the data available to other modules. You can also convert a bundle to an XML formatted text via the [!UICONTROL XML] > [!UICONTROL Create XML] module
 
 ## Access requirements

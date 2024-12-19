@@ -12,6 +12,18 @@ exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
 ---
 # [!DNL Adobe Workfront] modules
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Adobe Workfront modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 You can use the [!DNL Adobe Workfront Fusion] [!DNL Adobe Workfront] connector to automate your processes within [!DNL Workfront]. If you have a [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] license, you can also use it to connect to third-party apps and services.
 
 The [!DNL Workfront] connector does not count against the number of active apps available to your organization. All scenarios, even if they use only the [!DNL Workfront] app, do count against your organization's total scenario count.

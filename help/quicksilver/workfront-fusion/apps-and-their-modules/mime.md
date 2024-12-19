@@ -17,7 +17,7 @@ exl-id: ebbf6ad0-a1d0-47f8-849f-7bba1e0763d3
 >
 >The information in this article can now be found in the article:
 >
->* [MIME modules](https://experienceleague.corp.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/mime.html?lang=en)
+>* [MIME modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/mime.html)
 >
 >Please update any bookmarks.
 >
