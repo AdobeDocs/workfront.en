@@ -12,6 +12,18 @@ exl-id: 680a5328-1d50-4434-beda-7a4670a6e458
 ---
 # [!DNL Google Slides] modules
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Google Slides modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-slides-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 The [!DNL Adobe Workfront Fusion] [!DNL Google Slides] modules allow you to create, update, list, and/or delete presentations and upload images to presentations in your [!DNL Google Slides] account.
 
 In order to use [!DNL Google Slides] with [!DNL Workfront Fusion], it is necessary to have a [!DNL Google] account. If you don't have a [!DNL Google] account yet, you can create one at the [!DNL Google] Account help page.

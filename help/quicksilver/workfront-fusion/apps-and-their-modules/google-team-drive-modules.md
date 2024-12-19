@@ -14,6 +14,18 @@ exl-id: 8b4c057f-bb98-44d1-9b71-cbeaa402a1c3
 
 The [!DNL Adobe Workfront Fusion] [!DNL Google Team Drive] modules enable you to monitor, upload, update, copy, delete, or retrieve files and create folders in your [!DNL Google Shared Drive].
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Google Team Drive modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-team-drive-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 In order to use [!DNL Google Team Drive] with [!DNL Adobe Workfront Fusion], it is necessary to have a [!DNL Google Workspace] account. If you do not have one, you can create a [!DNL Google Workspace] account at the [[!DNL Google Workspace] sign up site](https://workspace.google.com/business/signup/welcome).
 
 In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Google Team Drive], as well as connect it to multiple third-party applications and services.

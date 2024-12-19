@@ -7,6 +7,18 @@ exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
 ---
 # [!DNL HubSpot CRM] modules
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [HubSpot CRM modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/hubspot-crm-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 The [!DNL Adobe Workfront Fusion] [!DNL HubSpot CRM] modules enable you to monitor events, records, contacts, engagements, file and form submissions, or create, retrieve, update and delete records, contacts, engagements, events, or files in your [!DNL HubSpot CRM] account.
 
 ## Access requirements

@@ -12,6 +12,18 @@ exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
 ---
 # [!DNL Google Drive] modules
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Google Drive modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-drive-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 The [!DNL Adobe Workfront Fusion] [!DNL Google Drive] modules enable you to monitor, search, create, update, delete, and manage your files, folder, or shared drives in your [!DNL Google Drive].
 
 In a [!DNL Adobe Workfront Fusion] scenario, you can connect your [!DNL Google Drive] account to multiple third-party applications and services.

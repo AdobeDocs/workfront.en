@@ -12,6 +12,18 @@ exl-id: 5e520aab-8307-4a52-96b6-13b284f9cb53
 ---
 # [!DNL GitHub] modules
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [GitHub modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/github.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!UICONTROL GitHub], as well as connect it to multiple third-party applications and services.
 
 ## Access requirements
