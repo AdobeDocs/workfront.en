@@ -12,6 +12,18 @@ exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
 ---
 # [!DNL Marketo] modules
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Marketo modules](https://experienceleague.corp.references/apps-and-their-modules/adobe-connectors/adobe-marketo-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Marketo], as well as connect it to multiple third-party applications and services.
 
 For a video introduction to the Marketo connector, see:

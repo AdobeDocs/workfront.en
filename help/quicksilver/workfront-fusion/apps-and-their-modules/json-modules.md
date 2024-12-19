@@ -11,6 +11,18 @@ exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
 ---
 # [!UICONTROL JSON] modules
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [JSON modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/json-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 The [!DNL Adobe Workfront Fusion] [!UICONTROL JSON] app provides modules to process data in JSON format so that [!DNL Adobe Workfront Fusion] can further work with the data content, or create new JSON content.
 
 ## Access requirements
