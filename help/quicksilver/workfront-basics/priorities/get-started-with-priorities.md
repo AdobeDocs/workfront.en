@@ -187,7 +187,7 @@ From the Documents tab on a task or issue, you can
 
 Use the [!DNL Catch me up] feature to see what you missed. Catch me up will summarize updates, uploaded documents, approvals, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days. 
 
-For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
 
 ![](assets/catch-me-up.png)
 
