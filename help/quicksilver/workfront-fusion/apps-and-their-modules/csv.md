@@ -11,6 +11,18 @@ exl-id: 4e37482a-e84e-4ab2-a48f-7e7bfbecee56
 ---
 # CSV
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [CSV](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/csv.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 The [!DNL Adobe Workfront Fusion] [!UICONTROL CSV] modules let you create CSV files and parse CSV text from a received text value or a file.
 
 ## Access requirements

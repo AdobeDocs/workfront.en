@@ -12,6 +12,18 @@ exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
 ---
 # [!DNL Dropbox] modules
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Dropbox modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/dropbox-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!UICONTROL Dropbox] or [!DNL Dropbox Business], as well as connect it to multiple third-party applications and services.This allows you to automate activities such as monitoring, searching, retrieving, listing, creating, and editing files and folders in your [!UICONTROL Dropbox].
 
 If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).

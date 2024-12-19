@@ -12,6 +12,18 @@ exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
 ---
 # [!DNL Figma] Modules
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Figma Modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/figma-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 With the [!DNL Adobe Workfront Fusion] [!DNL Figma] modules, you can retrieve lists of comments, files, file versions, or projects. You can also post a comment or make a call to the [!DNL Figma] API.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).

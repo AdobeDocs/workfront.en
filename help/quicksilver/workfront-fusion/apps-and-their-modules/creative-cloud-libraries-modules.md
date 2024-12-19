@@ -12,6 +12,18 @@ exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
 ---
 # Adobe Creative Cloud Libraries Modules
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Adobe Creative Cloud Libraries Modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/creative-cloud-libraries-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 With the [!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries] modules, you can start a scenario when an element or library is created or updated. You can also upload, retrieve, archive, or list elements, or make a call to the [!DNL Adobe Creative Cloud Libraries] API.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).

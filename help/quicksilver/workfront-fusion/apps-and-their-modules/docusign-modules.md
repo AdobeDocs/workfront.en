@@ -8,6 +8,18 @@ exl-id: a6ebfe6f-dc3f-41f7-8129-bbc5775cff33
 ---
 # DocuSign modules
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [DocuSign modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/docusign-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 The [!DNL Adobe Workfront Fusion] [!DNL DocuSign] modules enable you to monitor and retrieve envelope status, search and retrieve envelopes, or download and send a document to sign in your [!DNL DocuSign] account.
 
 If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
