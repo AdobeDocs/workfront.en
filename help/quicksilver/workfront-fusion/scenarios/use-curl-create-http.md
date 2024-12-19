@@ -6,7 +6,7 @@ title: Use cURL to add an HTTP module
 description: You can paste a cURL request into your scenario, and Fusion creates an HTTP module configured from the cURL request.
 author: Becky
 feature: Workfront Fusion
-
+exl-id: 5eac3e87-0dd3-4bad-ae3e-77264329b717
 ---
 # Use cURL to add an HTTP module
 
@@ -81,6 +81,5 @@ To create an HTTP module using cURL:
 ## Troubleshooting
 
 If your cURL is not pasting into your scenario, check your browser settings to ensure that pasting from the clipboard is enabled.
-
 
 
