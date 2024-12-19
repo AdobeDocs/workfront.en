@@ -81,6 +81,7 @@ This section contains the following articles:
 * [Image modules](../../workfront-fusion/apps-and-their-modules/image-module.md) 
 * [[!DNL Jira] Software modules](../../workfront-fusion/apps-and-their-modules/jira-software-modules.md) 
 * [[!UICONTROL JSON] modules](../../workfront-fusion/apps-and-their-modules/json-modules.md)
+* [[!UICONTROL JSONata] module](../../workfront-fusion/apps-and-their-modules/jsonata-module.md)
 * [[!UICONTROL JWT] module](../../workfront-fusion/apps-and-their-modules/jwt-modules.md)
 * [[!DNL MariaDB] modules](../../workfront-fusion/apps-and-their-modules/mariadb-modules.md) 
 * [[!UICONTROL Markdown] modules](../../workfront-fusion/apps-and-their-modules/markdown-modules.md) 
