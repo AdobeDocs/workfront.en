@@ -9,7 +9,7 @@ exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 ---
 # Create an Approval Template for assets and documents
 
-In the Workfront Setup area, users with a Standard license can create resuable Approval Templates. Once created, Approval Templates can be applied to assets in the Documents area of a project, task, or issue. 
+In the Workfront Setup area, users with a Standard license can create reusable Approval Templates. Once created, Approval Templates can be applied to assets in the Documents area of a project, task, or issue. 
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ For more detail about the information in this table, see [Access requirements in
 
     | Template name              |Begin typing a name for this template.   |
     |----------------------------|---|
-    | **(Optional) Timeframe**|Enter the timeframe in days . The approval deadline is calcuated from this field once the template is applied to an asset.   |
+    | **(Optional) Timeframe**|Enter the timeframe in days . The approval deadline is calculated from this field once the template is applied to an asset.   |
     | **Add approvers or reviewers** |Begin typing the name of users or teams, then designate them as a reviewer or approver.   |
     
 1. Click **Save**.
