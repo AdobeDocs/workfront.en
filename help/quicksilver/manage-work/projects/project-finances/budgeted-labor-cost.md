@@ -4,7 +4,7 @@ product-area: projects
 navigation-topic: financials
 title: Understand Budgeted Labor Cost and Budgeted Hours for projects
 description: Understand Budgeted Labor Cost and Budgeted Hours for projects
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
 ---
@@ -14,7 +14,7 @@ exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
 <(NOTE: Keep the structure of this article similar to Calculating Budgeted Cost)</p>
 -->
 
-You can budget your resources for work using the Adobe Workfront Resource Planner. 
+You can budget your resources for work using the Adobe Workfront Resource Planner.
 
 As you budget your resources for work on projects, Workfront calculates the Budgeted Labor Cost for the roles, projects, and users based on cost per hour values.
 

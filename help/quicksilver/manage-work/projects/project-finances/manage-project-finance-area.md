@@ -1,9 +1,9 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Manage information in the project Finance area
-description: Manage information in the project Finance area
-author: Alina
+title: Manage Information in the Project Finance Area
+description: You can view or edit the financial information of a project by accessing the Finance area of the Project Details section.
+author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
 ---
@@ -17,33 +17,39 @@ You can view or edit the financial information of a project by accessing the Fin
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Review or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td>
+   <td>
+   <p>New: Light or higher</p>
+   <p>or</p>
+   <p>Current: Review or higher</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects and Financial Data</p> <p>Edit access to Projects and Financial Data to edit financial information on the project</p> <p><b>NOTE</b></p>
-   <p> If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View or higher access to Projects and Financial Data</p> <p>Edit access to Projects and Financial Data to edit financial information on the project</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to a project or higher that include View Finance permissions</p> <p>Manage permissions to the project that include Manage Finance to edit financial information for the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View permissions to a project or higher that include View Finance permissions</p> <p>Manage permissions to the project that include Manage Finance to edit financial information for the project</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overview of the Finance area
 

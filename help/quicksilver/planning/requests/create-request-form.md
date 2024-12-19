@@ -120,12 +120,12 @@ You must have the following access to perform the steps in this article:
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
 
 1. Click the **More** menu ![](assets/more-menu.png) to the right of the record type name in the page header, then click **Create request form**.
-1. Update the name of the request form. By default, the name of the form is **Untitled request form**. <!--check this; you logged a bug to rename it to this but was it fixed?--> 
+1. Update the name of the request form. By default, the name of the form is **Untitled form**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?--> 
 1. (Optional) Add a **Description** for the request form. 
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Click **Create**. The request form for the selected record type opens <!--<span class="preview"> in the Form tab</span>; add screen shot below with Configuration tab.-->. 
+1. Click **Create**. The request form for the selected record type opens <span class="preview"> in the Form tab</span>. 
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -153,7 +153,12 @@ You must have the following access to perform the steps in this article:
 
    
    * **Default section**: This is the default section break that Workfront applies to the request form. The Default section cannot be renamed or removed. 
-   * **Subject** field: The field which will identify the request in Workfront. This capability is not yet available. The configuration and the value of the Subject field are not editable. 
+   * **Subject** field: The field which will identify the request in Workfront. This capability is not yet available in the production environment. <span class="preview">It is available in the preview environment.</span> The configuration and the value of the Subject field are not editable.
+
+      >[!TIP]
+      >
+      >The **Subject** field requires a value when it is visible on the request form. However, you can remove the **Subject** field, if needed, and requestors will not see it on the form.   
+
    * All the fields associated with the record type. 
 
       The fields contained in the request form will be visible to everyone submitting a request to this record type. 
@@ -173,7 +178,7 @@ You must have the following access to perform the steps in this article:
    >   The field type of each field displays at the top of the right panel, after you select the field on the form. 
    >   
    >
-   >   Currency, Number, and Percentage fields display as a Single-line text field type. However, the field format is preserved and the values inside these fields will display as Currency, Number, and Percentage values.
+   >   Currency, Number, and Percentage fields display as a Single-line text field type. However, the field format is preserved and the values inside these fields will display as Currency, Number, and Percentage values.  
 
 1. (Optional) Click the **Content elements** tab on the left side of the form, and add any of the following elements:
 
@@ -184,14 +189,18 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Click **Preview** to view how the form will display for other users when they will use it to submit a new record.
 
-   <!--
-   <div class="preview">
-   1. (Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
-      When you associate a request form with approvers, any new request must first be approved by all approvers before it generates a new record. 
-      You can add one or several approvers to a request form. If at least one approver rejects the request, the request is rejected and the record is not created.
-   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
-   </div>
-   -->
+1. <div class="preview">(Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
+
+   ![](assets/configuration-tab.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+   * When you associate a request form with approvers, any new request must first be approved by all approvers before it generates a new record. 
+   * You can add one or several approvers to a request form. 
+   * If at least one approver rejects the request, the request is rejected and the record is not created. 
+   * All approvers must make a decision before a request is either approved or rejected.
+
+      For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). </div>
 
 1. (Optional) Click the **More** menu ![](assets/more-menu.png) to the right of the form's name in the header, then click **Edit** to update the name of the form.
 1. Click **Publish** to publish the form and obtain a unique link for it. 
@@ -217,7 +226,7 @@ You must have the following access to perform the steps in this article:
    >
    >* When you select **Anyone with the link**, anyone can access the form and submit a new record, even people outside your organization that don't have a Workfront account. 
    >
-   > * <span class="preview">A form that contains the following field types canot be shared publicly:</span>
+   > * <span class="preview">A form that contains the following field types cannot be shared publicly:</span>
    >
    >     * <span class="preview">Formula</span>
    >     * <span class="preview">Workfront or AEM Assets Connections</span>
@@ -225,7 +234,7 @@ You must have the following access to perform the steps in this article:
    >     * <span class="preview">People</span>
    >
 
-1. (Conditional) If you selected **Anyone with the link** in the previous step, select the **Link expiration date** from the available calendar. People will receive an error after the link expires and you must update the link date before they can access the form again. 
+1. (Conditional) If you selected **Anyone with the link** in the previous step, select the **Link expiration date** from the available calendar. People will receive an error after the link expires and you must update the link date and generate a new link to share before people can access the form again. 
 
    You can select future dates within 180 days from the current date.     
 
@@ -235,7 +244,7 @@ You must have the following access to perform the steps in this article:
 
    For information about creating records using a link to a request form, see [Submit Adobe Workfront Planning requests](/help/quicksilver/planning/requests/submit-requests.md). 
    
-1. Click **Save** in the lower-right corner of the screen to save the form.    
+1. Click **Save** in the lower-right corner of the **Form** tab to save the form.    
 1. Click the left-pointing arrow to the left of the form's name in the header to close the form. 
 
    The record type page opens. 
