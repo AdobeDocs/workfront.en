@@ -9,7 +9,11 @@ exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
 ---
 # Add or remove members from a board
 
+{{highlighted-preview}}
+
 People and teams must be added to the board as members before they can view the board.
+
+The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. <span class="preview">Only a system administrator or the current board owner can change the board owner.</span>
 
 ## Access requirements
 
@@ -74,3 +78,23 @@ For more detail about the information in this table, see [Access requirements in
    >[!NOTE]
    >
    >You can't remove the board owner.
+
+<div class="preview">
+
+## Change the board owner
+
+   >[!NOTE]
+   >
+   >Only a system administrator or the current board owner can change the board owner. A board can only have one owner.
+
+1. Access the board.
+1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) next to the board name, then choose **[!UICONTROL Change board owner]**.
+1. In the Change board owner dialog box, search for and select the user you want to make the owner.
+
+   You can't search for users who are already members on the board. To make an existing member the owner, you must first remove them from the board. Making a user the board owner adds them to the board.
+
+   Only a user can be the board owner. A team can't be an owner.
+
+1. Click [!UICONTROL **Update**].
+
+</div>

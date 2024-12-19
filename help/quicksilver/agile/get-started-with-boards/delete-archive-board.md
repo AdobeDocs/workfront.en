@@ -12,6 +12,8 @@ exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
 
 You can delete or archive a board in [!DNL Workfront]. Deleting a board permanently removes it from [!DNL Workfront], while archiving a board retains all cards and allows it to be restored at a later time.
 
+Only the board owner can delete the board.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
@@ -52,7 +54,7 @@ When you delete a board, it is permanently removed from [!DNL Workfront] and can
 
    >[!NOTE]
    >
-   >You can only delete boards that you created, not boards that you were added to.
+   >You can only delete boards that you created or were named the owner of, not boards that you were added to as a member.
 
    ![Board More menu](assets/boards-board-more-menu.png)
 
