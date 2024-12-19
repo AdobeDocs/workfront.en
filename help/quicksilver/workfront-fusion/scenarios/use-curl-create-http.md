@@ -64,10 +64,6 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 To create an HTTP module using cURL:
 
 1. Create the text of the cURL request outside of Fusion, such as in a text editor.
-
-   >[!IMPORTANT]
-   >
-   >If you are using Fusion on a Windows machine, your cURL request must not include line breaks. 
 1. Copy the cURL request to your clipboard.
 1. Click the **[!UICONTROL Scenario]** tab in the left panel.
 1. Select the scenario where you want to create the module.
@@ -84,10 +80,7 @@ To create an HTTP module using cURL:
 
 ## Troubleshooting
 
-If your cURL is not pasting into your scenario, check the following:
-
-* Check your browser settings to ensure that pasting from the clipboard is enabled.
-* If you are running Windows, check the cURL request to ensure that it does not include line breaks.
+If your cURL is not pasting into your scenario, check your browser settings to ensure that pasting from the clipboard is enabled.
 
 
 
