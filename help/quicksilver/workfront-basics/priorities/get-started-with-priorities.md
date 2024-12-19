@@ -23,7 +23,8 @@ In Priorities, you can filter and group your work to help you manage deadlines a
 
 ### Find your work with filters
 
-Find your most important work with filters. <span class="preview">You can use a natural language to find work with the Smart filter</span>, or you can use the Standard filter to find tasks and issues assigned to you:
+Find your most important work with filters. <!--<span class="preview">You can use a natural language to find work with the Smart filter</span>, or -->
+You can use the Standard filter to find tasks and issues assigned to you:
 
 <table>
   <tbody>
