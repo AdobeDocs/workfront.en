@@ -12,6 +12,18 @@ exl-id: c0b0057f-3db0-4c10-a274-ebaec1a5b87b
 ---
 # HTTP >[!UICONTROL Make a Client Certificate Authorization request] module
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [HTTP > Make a Client Certificate Authorization request module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/http-module-make-a-client-cert-auth-request.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 >[!NOTE]
 >
 >Adobe Workfront Fusion requires an [!DNL Adobe Workfront Fusion] license in addition to an Adobe Workfront license.

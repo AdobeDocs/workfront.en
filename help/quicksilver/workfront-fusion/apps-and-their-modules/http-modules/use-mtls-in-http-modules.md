@@ -12,6 +12,18 @@ exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
 ---
 # Use Mutual TLS in HTTP modules in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Use Mutual TLS in HTTP modules in Adobe Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/use-mtls-in-http-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 >[!NOTE]
 >
 >Adobe Workfront Fusion requires an [!DNL Adobe Workfront Fusion] license in addition to an Adobe Workfront license.

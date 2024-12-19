@@ -12,6 +12,18 @@ exl-id: 7857c395-ce84-480e-8fa2-065035ac5b95
 ---
 # [!UICONTROL HTTP] >[!UICONTROL Make a request] module
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [HTTP >Make a request module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/http-module-make-a-request.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 >[!NOTE]
 >
 >Adobe Workfront Fusion requires an [!DNL Adobe Workfront Fusion] license in addition to an [!DNL Adobe Workfront] license.
