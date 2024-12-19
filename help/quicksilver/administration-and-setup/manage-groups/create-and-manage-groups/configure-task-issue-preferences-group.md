@@ -12,6 +12,10 @@ exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
 ---
 # Configure task and issue preferences for a group
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 If groups in your organization need to configure a task or issue preference independently from the way it is configured at the system level, an Adobe Workfront administrator can unlock the preference. Then, as a group administrator, you can configure the preference for your group and it will affect all tasks or issues associated with your group.
 
 If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
@@ -85,10 +89,9 @@ For more detail about the information in this table, see [Access requirements in
    * [New Task Defaults](#new-task-defaults) 
    * [Issues](#issues) 
    * [Deletion](#deletion) 
-
-   <!--* <span class="preview">[Move](#move)</span>-->
-
+   * <span class="preview">[Move](#move)</span>
    * [Actual Dates](#actual-dates)
+   * [Delegation](#delegation)
    * [Access](#access)
 
 ### New Task Defaults {#new-task-defaults}
@@ -160,7 +163,7 @@ For more detail about the information in this table, see [Access requirements in
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Allow users to delete tasks &amp; issues with logged hours</td> 
+      <td role="rowheader">Allow users to delete tasks and issues with logged hours</td> 
       <td> <p> Lets you determine whether you allow the deletion of tasks or issues where hours are logged. This option is selected by default.</p> 
        <div> 
         <p><b>Tip</b>: This setting also applies to deleting projects that have tasks or issues with hours logged on them. This setting does not apply to deleting projects where time is logged directly for the project. </p> 
@@ -174,8 +177,6 @@ For more detail about the information in this table, see [Access requirements in
     </tbody> 
    </table>
 
-
-<!-- *****also replace the & with "and" in the Deletion section
 
 <div class="preview">
 
@@ -198,8 +199,6 @@ For more detail about the information in this table, see [Access requirements in
    </table>
 
 </div>
-
--->
 
 ### Actual Dates {#actual-dates}
 
@@ -249,6 +248,28 @@ For more detail about the information in this table, see [Access requirements in
    This setting can be configured both at the system level and at the Team level. Enabling the Start button for everyone in the system automatically disables the same setting at the Team level.
    If the Work On It setting is enabled, then disabled, tasks and issues function with a Work On It button the way they did before.
    -->
+
+### Delegation
+
+Enabling the **[!UICONTROL Allow users to delegate their tasks and issues]** setting allows all users in the group to temporarily delegate their work to others.
+
+When this setting is enabled, group users can see the following:
+
+* The [!UICONTROL **Delegate**] link in their [!UICONTROL My Work], [!UICONTROL My Tasks], or [!UICONTROL My Issues] widgets in the [!UICONTROL Home] area. They can delegate task and issue assignments from there.
+
+  >[!NOTE]
+  >
+  >  The [!UICONTROL **Delegate approvals**] link is always enabled in the [!UICONTROL Home] area.
+  
+* An indication that a task or issue is delegated to another user in the [!UICONTROL Assignments and delegations] area in the task or issue header.
+* An indication that a task or issue is delegated to another user in their [!UICONTROL My Work] widget in [!UICONTROL Home].
+
+  If you disable the [!UICONTROL Allow users to delegate their tasks and issues] setting, the delegations that are currently scheduled will stop and the users delegated will receive an email notification that the delegation was stopped.
+
+For information about delegating work to others, see the following articles:
+
+* [Delegate work overview](../../../manage-work/delegate-work/delegate-work-overview.md)
+* [Delegate tasks and issues](../../../manage-work/delegate-work/how-to-delegate-work.md)
 
 ### Access {#access}
 
