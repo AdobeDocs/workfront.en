@@ -28,11 +28,14 @@ This page provides information about functionality that is included in the First
 
 ## Adobe Workfront enhancements
 
-* [Administrator enhancements](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
+* [Administrator enhancements](#administrator-enhancements)
+* [Boards enhancements](#boards-enhancements)
 * [Document management enhancements](#document-management-enhancements)
 * [Home enhancements](#home-enhancements)
+* [Project enhancements](#project-enhancements)
 * [Proofing enhancements](#proofing-enhancements)
 * [Report and Dashboard enhancements](#report-and-dashboard-enhancements)
+* [Update stream enhancements](#update-stream-enhancements)
 * [Other enhancements](#other-enhancements)
 
 ### Administrator enhancements
@@ -49,6 +52,20 @@ This page provides information about functionality that is included in the First
             <p><span class="bold">Release dates</span></p>
         </td>
     </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Prevent Moving tasks when there are Hours logged</a></p>
+            <p>Because moving tasks or issues that have logged hours can sometimes cause compliance or audit problems, we have added a preference in the Task & Issues Preferences area of Setup that allows you to prevent users from moving tasks and issues if there are hours logged on them.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: December 19, 2024</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>  
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -115,7 +132,7 @@ This page provides information about functionality that is included in the First
 </tbody>
 </table> 
 
-<!--### Boards enhancements
+### Boards enhancements
 
 <table>
 <col style="width: 50%;" />
@@ -133,19 +150,19 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Change the owner of a board</a></p>
-            <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
+            <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel.</p>
+            <p>Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
         </td>
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
-                <li>Preview release: October 31, 2024</li>
-                <li>Production for fast release: With the 24.11 release (November 14, 2024)</li>
+                <li>Preview release: December 18, 2024</li>
                 <li>Production release for all customers: With the 25.1 release (January 2025)</li>
             </ul>
         </td>
     </tr>
 </tbody>
-</table>--> 
+</table>
 
 ### Document management enhancements
 
@@ -211,11 +228,79 @@ This page provides information about functionality that is included in the First
             <p><span class="bold">Release dates</span></p>
         </td>
     </tr>
+    <!--<tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Catch up on work in Priorities</a></p>
+            <p>You can use Catch me up to help reduce the amount of time looking for information on active projects.</p>
+            <p>Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: December 20, 2024</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>-->
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            View changes live on the Details page in Priorities</a></p>
+            <p>You can now view real-time updates on the Details page of a task or issue. You can also see if others are viewing the page at the same time as you with real-time presence indicators.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: December 19, 2024</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Upload and view documents and proofs in Priorities</a></p>
+            <p>You can now interact with documents and proofs for tasks and issues. In the new Documents tab, you can</p>
+            <ul>
+                <li>Upload a document</li>
+                <li>Create a proof</li>
+                <li>Launch the proofing viewer</li>
+                <li>And more</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: December 19, 2024</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Calendar view now available in Priorities</a></p>
+            <p>Easily track your work with a clear, visual month calendar. With the Priorities calendar, you can</p>
+            <ul>
+                <li>Use filters to find your work</li>
+                <li>Display fields like status and focus level</li>
+                <li>Apply colors for quick prioritization</li>
+                <li>And more</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: December 19, 2024</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Updates to the Priorities worklist</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>We have updated the Priorities worklist to improve capabilities and align with other areas of the application.</p>
         </td>
         <td>
@@ -280,7 +365,38 @@ This page provides information about functionality that is included in the First
 </tbody>
 </table>
 
-## Proofing enhancements
+### Project enhancements
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Feature</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Release dates</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            More relevant assignments removed from Preview and Production for Fast Release environments</a></p>
+            <p>A functionality that has been in the Preview environment since December 2023 and in the fast release Production environment since March 2024 has now been removed. The features added more relevant smart assignment suggestions when assigning tasks.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: December 19, 2024</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
+</table>
+
+### Proofing enhancements
 
 <table>
 <col style="width: 50%;" />
@@ -313,7 +429,7 @@ This page provides information about functionality that is included in the First
 </tbody>
 </table>
 
-## Report and Dashboard enhancements
+### Report and Dashboard enhancements
 
 <table>
 <col style="width: 50%;" />
@@ -330,6 +446,20 @@ This page provides information about functionality that is included in the First
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Limit of 25 reports, external pages, or calendars in dashboards</a></p>
+            <p>To maintain dashboard performance, we have implemented a limit to the total number of reports, external pages, or calendars that can be placed in a dashboard. When creating a new dashboard, a maximum of 25 items can be added.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: December 16, 2024</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             First time reader account creation button for Data Connect</a></p>
             [!BADGE In production ]{type=Informative}
             <p>Administrators accessing Data Connect for the first time are now presented with the option to create a new Snowflake reader account by clicking on a single button. The process takes a few minutes to complete, but requires no further action.</p>
@@ -339,6 +469,37 @@ This page provides information about functionality that is included in the First
             <ul>
                 <li>Preview release: November 14, 2024</li>
                 <li><span class="preview">Production release for all customers: November 14, 2024</span></li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
+</table>
+
+### Update stream enhancements
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">Feature</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Release dates</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Updated commenting experience in the Mentions widget in Home and My Updates area</a></p>
+            <p>We are updating the commenting experience in the Mentions widget in Home and the Mentions section in the My Updates area. Now, the same experience in the Updates area of most Workfront objects is also available in the Mentions widget and in the Mentions section of My Updates.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: December 19, 2024</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
             </ul>
         </td>
     </tr>

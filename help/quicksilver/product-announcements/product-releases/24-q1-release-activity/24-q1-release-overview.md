@@ -349,17 +349,14 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                         <ul>
                             <li>
                                 <p>Preview release: December 21, 2023</p>
-                                <p>NOTE: This feature will remain in Preview until the 24.4 release.</p>
                             </li>
                             <li>
                                 <p>Production for fast release: With the 24.3 release (March, 2024)</p>
                             </li>
-                            <li>
-                                <p>Production for all customers: To be announced</p>
-                            </li>
                         </ul>
+                    <p><i>This feature will be removed from Preview on December 19, 2024 and from fast release Production with 25.1 (January 2025).</i></p>
                     </td>
-                    </tr>
+                </tr>
            </tbody>
         </table>
 
