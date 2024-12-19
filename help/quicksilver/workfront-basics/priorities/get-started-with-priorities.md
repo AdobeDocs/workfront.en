@@ -183,7 +183,7 @@ From the Documents tab on a task or issue, you can
 * Launch the proofing viewer to leave comments and make decisions
 
 
-## Use [!DNL Catch me up] to see what you missed [!BADGE Available in preview]{type=Informative}
+## Use [!DNL Catch me up] to see what you missed [!BADGE Coming soon]{type=Informative}
 
 Use the [!DNL Catch me up] feature to see what you missed. Catch me up will summarize updates, uploaded documents, approvals, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days. 
 
