@@ -12,7 +12,7 @@ This page describes all Home enhancements made with the First Quarter 2025 relea
 
 For a list of all changes available at this point in the First Quarter 2025 release cycle, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
-<!--## Catch up on work in Priorities
+## Catch up on work in Priorities
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ You can use Catch me up to help reduce the amount of time looking for informatio
 
 Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.
 
-For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).-->
+For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ## View changes live on the Details page in Priorities
 
