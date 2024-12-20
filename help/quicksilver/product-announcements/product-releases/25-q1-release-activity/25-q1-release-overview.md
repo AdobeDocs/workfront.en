@@ -261,7 +261,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Upload and view documents and proofs in Priorities</a></p>
-            <p>You can now interact with documents and proofs for tasks and issues. In the new Documents tab, you can</p>
+            <p>You can now interact with documents and proofs for tasks and issues in the worklist and calendar. In the new Documents tab, you can</p>
             <ul>
                 <li>Upload a document</li>
                 <li>Create a proof</li>
@@ -281,11 +281,11 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Calendar view now available in Priorities</a></p>
-            <p>Easily track your work with a clear, visual month calendar. With the Priorities calendar, you can</p>
+            <p>You can track your work with a clear, visual month calendar. With the Priorities calendar, you can</p>
             <ul>
                 <li>Use filters to find your work</li>
-                <li>Display fields like status and focus level</li>
-                <li>Apply colors for quick prioritization</li>
+                <li>Apply custom fields like status and focus level to identify high-priority work</li>
+                <li>Apply colors for quick organization</li>
                 <li>And more</li>
             </ul>
         </td>
