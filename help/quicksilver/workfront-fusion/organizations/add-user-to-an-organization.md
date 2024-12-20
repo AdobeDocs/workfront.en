@@ -12,6 +12,10 @@ exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
 
 >[!IMPORTANT]
 >
+>This article will be removed in the near future as all organizations are moved to the Adobe Admin Console.
+
+>[!IMPORTANT]
+>
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the [!DNL Adobe Admin Console]. If your organization has been onboarded to the [!DNL Adobe Admin Console], you must perform this action through the [!DNL Adobe Admin Console].
 >
 >For instructions on adding a user after your organization has been moved to the [!DNL  Adobe Admin Console] and the Adobe Unified Experience, see [Add users to [!DNL Adobe Workfront Fusion] through the [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md).
