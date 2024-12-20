@@ -11,7 +11,7 @@ exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
 
 <!--Audited: 01/2024-->
 
-You can create dashboards to quickly access information in Adobe Workfront. Reports, calendars, and external pages can be added to dashboards that you can share with others for optimal collaboration.
+You can create dashboards to quickly access information in Adobe Workfront. Up to 25 reports, calendars, and external pages can be added to dashboards that you can share with others for optimal collaboration.
 
 To learn more about dashboards, see [Get started with dashboards](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 

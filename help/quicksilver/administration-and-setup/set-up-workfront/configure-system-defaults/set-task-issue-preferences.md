@@ -16,6 +16,11 @@ exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+
 As an [!DNL Adobe Workfront] administrator, you can configure system-wide preferences for tasks and issues. These preferences impact the way that your users create tasks and issues in [!DNL Workfront].
 
 By default, task and issue preferences are locked and group administrators cannot modify them at the group level unless you unlock them for all groups throughout the system. For more information, see the section [Lock task and issue preferences for groups](#lock-task-and-issue-preferences-for-groups) in this article.
@@ -36,7 +41,7 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td><p>New: [!UICONTROL Standard]</p>
    or
    <p>Current: [!UICONTROL Plan]</p></td> 
@@ -48,7 +53,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,6 +68,7 @@ For more detail about the information in this table, see [Access requirements in
     * [[!UICONTROL New Task Defaults]](#new-task-defaults)
     * [[!UICONTROL Issues]](#issues)
     * [[!UICONTROL Deletion]](#deletion)
+    * <span class="preview">[Move](#move)</span>
     * [[!UICONTROL Actual Dates]](#actual-dates)
     * [[!UICONTROL Delegation]](#delegation)
     * [[!UICONTROL Access]](#access)
@@ -143,7 +149,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ### [!UICONTROL Deletion] {#deletion}
 
-**[!UICONTROL Allow users to delete tasks & issues with logged hours]**: Lets you determine whether you allow the deletion of tasks or issues where hours are logged. This option is selected by default.
+**[!UICONTROL Allow users to delete tasks and issues with logged hours]**: Lets you determine whether you allow the deletion of tasks or issues where hours are logged. This option is selected by default.
 
   >[!TIP]
   >
@@ -156,6 +162,18 @@ For more detail about the information in this table, see [Access requirements in
     >When you delete a project with tasks and issues that have logged hours, the logged hours are either deleted or they are preserved according to the settings in the [!UICONTROL Timesheet & Hours Preferences] area of [!UICONTROL Setup]. The warning message does not display when deleting a project.
 
 * When you deselect this option, you receive a prohibitive warning when you delete a task or issue with logged hours, or when you delete a project with hours logged for its tasks or issues. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be deleted. The tasks, issues , or projects that have hours logged for tasks and issues cannot be deleted.
+
+<div class="preview">
+
+### Move
+
+**[!UICONTROL Allow users to move tasks and issues with logged hours]**: Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.
+
+* When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. 
+
+* When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. 
+
+</div>
 
 ### [!UICONTROL Actual Dates] {#actual-dates}
 
@@ -184,7 +202,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ### Delegation
 
-Enabling the **[!UICONTROL Allow users to delegate their tasks & issues]** setting allows all users in  to temporarily delegate their work to others.
+Enabling the **[!UICONTROL Allow users to delegate their tasks and issues]** setting allows all users in the system to temporarily delegate their work to others.
 
 When this setting is enabled, users can see the following:
 
@@ -197,7 +215,7 @@ When this setting is enabled, users can see the following:
 * An indication that a task or issue is delegated to another user in the [!UICONTROL Assignments and delegations] area in the task or issue header.
 * An indication that a task or issue is delegated to another user in their [!UICONTROL My Work] widget in [!UICONTROL Home].
 
-  If you disable the [!UICONTROL Allow users to delegate their tasks & issues] setting, the delegations that are currently scheduled will stop and the users delegated will receive an email notification that the delegation was stopped.
+  If you disable the [!UICONTROL Allow users to delegate their tasks and issues] setting, the delegations that are currently scheduled will stop and the users delegated will receive an email notification that the delegation was stopped.
 
 For information about delegating work to others, see the following articles:
 

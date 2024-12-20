@@ -16,7 +16,9 @@ For a list of all changes available at this point in the First Quarter 2024 rele
 
 >[!NOTE]
 >
->Preview release: December 21, 2023; Production for fast release: With the 24.3 release (March, 2024); Production for all customers: To be announced
+>Preview release: December 21, 2023; Production for fast release: With the 24.3 release (March, 2024).
+>
+>_This feature will be removed from Preview on December 19, 2024 and from fast release Production with 25.1 (January 2025)._
 
 We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel. 
 
