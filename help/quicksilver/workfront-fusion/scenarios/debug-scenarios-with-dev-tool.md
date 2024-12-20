@@ -31,7 +31,7 @@ The [!DNL Adobe Workfront Fusion] Devtool allows you to understand and troublesh
 For a video introduction and walkthrough of the Fusion Devtool, see 
 
 * [Fusion Development Tool](https://video.tv.adobe.com/v/3427031/){target=_blank}.
-* [Devtool walkthrough](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
+* [Devtool walkthrough](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html)
 
 ## Access requirements
 

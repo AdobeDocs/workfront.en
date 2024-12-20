@@ -16,7 +16,7 @@ exl-id: d28b6344-070a-4cfc-ab5a-b5c279a8b805
 >
 >[!DNL Adobe Workfront Fusion] requires an [!DNL Adobe Workfront Fusion] license in addition to an [!DNL Adobe Workfront] license.
 
-For training materials related to [!DNL Adobe Workfront Fusion], see [Workfront Fusion training overview](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/workfront-fusion-overview.html?lang=en).
+For training materials related to [!DNL Adobe Workfront Fusion], see [Workfront Fusion training overview](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/workfront-fusion-overview.html).
 
 For information about the latest enhancements with Workfront Fusion, see [[!DNL Adobe Workfront Fusion] release activity](../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
