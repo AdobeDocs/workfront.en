@@ -2,7 +2,7 @@
 product-area: documents
 navigation-topic: approvals
 title: Asset and Document approvals overview
-description: 
+description: Overview of the systems available for review and approval in Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 
@@ -26,14 +26,14 @@ Key features available for legacy document approvals:
 
 * Add users as approvers
 * Review and comment in the proofing viewer
-* Make decisions in proofing viewer 
+* Make decisions in the proofing viewer 
 * Create approval reports with legacy reporting
 
 For more information, see [Legacy document approvals](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
 
 ## New document approvals 
 
-New document approvals is a wholistic redesign of the legacy approvals system. Currently available in limited release, it is designed to be a practical and effective solution for businesses requiring comprehensive stakeholder engagement and version-specific document approvals. 
+New document approvals is a redesign of the legacy approvals system. Currently available in limited release, it is designed to be a practical and effective solution for businesses requiring comprehensive stakeholder engagement and version-specific document approvals. 
 
 For more detailed information about new document approvals, see [New document approvals overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
@@ -51,7 +51,7 @@ Key features available for new document approvals:
 * View multiple key performance indicators for your approvals in Workfront Home widgets
 
 * Use Canvas Dashboards, currently in beta, to view reporting details about new document approvals
-    For more information reporting, see [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+    For more information on reporting, see [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
 * Make decisions in the proofing viewer [!BADGE Coming soon]{type=Informative}
 
@@ -60,7 +60,7 @@ Key features available for new document approvals:
 
 ## Proof approvals 
 
-Proof approvals allow you use basic and automated workflows manage complex review and approve processes. For more information about proofing, see [Proofing](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/proofing-basics.md).
+Proof approvals allow you to use basic and automated workflows to manage complex review and approve processes. For more information about proofing, see [Proofing](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/proofing-basics.md).
 
 Features available for proofing:
 
