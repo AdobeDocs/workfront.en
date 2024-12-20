@@ -19,7 +19,7 @@ New document approvals is a wholistic redesign of the existing approvals process
 
 **Differences from Proofing**
 
-* Docuemnt approval decision buttons are not available in the proofing viewer. Decisions can be made in the document Summary, Workfront Home widgets, or on the Document Details page. 
+* Document approval decision buttons are not available in the proofing viewer. Decisions can be made in the document Summary, Workfront Home widgets, or on the Document Details page. 
 * Document approval participants display in the document Summary, not the proofing workflow tab.
 * New Document Approvals are not supported in the current reporting tool. The All Approvals widget available in new Home and Canvas Dashboards provides the following details about New Document Approvals:
 

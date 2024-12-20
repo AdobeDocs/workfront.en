@@ -144,13 +144,11 @@ You must have the following access to perform the steps in this article:
    >    * Created date and Last modified date
    >    * Workfront objects' lookup fields
    >    * Workfront Planning connected records' lookup fields
-   >    * AEM Assets connected fields
    >* Fields of the following types do not display in the request form in the Production environment. <span class="preview">They display in the Preview environment:</span>
    >    * <span class="preview"> Workfront Planning records' connected fields</span>
    >    * <span class="preview">People </span>
    >    * <span class="preview">Workfront objects' connected fields</span>
    >    * <span class="preview">AEM Assets connected fields </span>
-
    
    * **Default section**: This is the default section break that Workfront applies to the request form. The Default section cannot be renamed or removed. 
    * **Subject** field: The field which will identify the request in Workfront. This capability is not yet available in the production environment. <span class="preview">It is available in the preview environment.</span> The configuration and the value of the Subject field are not editable.

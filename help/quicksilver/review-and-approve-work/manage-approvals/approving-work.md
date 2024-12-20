@@ -162,7 +162,7 @@ To approve work directly from a project, task, or issue:
 1. Click **Approve** or **Reject**, depending on whether you want to approve or reject the approval process.  
    The approval stage that was pending approval is now approved, and the approval process moves to the next stage. The status is approved after all stages have been approved.
 
-## Approve a document directly from a document&nbsp;
+## Approve a document directly from a document
 
 1. Go to the documents area that contains the document that requires your approval.
 1. Select the document, then click **Approve**,&nbsp;**Changes**, or **Reject**.  
