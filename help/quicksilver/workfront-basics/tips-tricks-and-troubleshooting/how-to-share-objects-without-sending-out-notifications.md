@@ -69,6 +69,7 @@ You must have the following to share objects:
 +++
 
 ## Share objects without generating notifications
+
 1. Ensure that the following **Event Notifications** are enabled at the system or group level: 
 
     * **Object Share to User**
