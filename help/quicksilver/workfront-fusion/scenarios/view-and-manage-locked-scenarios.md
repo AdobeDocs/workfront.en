@@ -10,6 +10,18 @@ exl-id: 5fccf336-d904-43fe-ad4a-c3ce76dbcad0
 ---
 # Manage locked scenarios in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Manage locked scenarios](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-manage-locked-scenario.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 In some cases, a scenario might be temporarily locked in [!DNL Workfront Fusion]. Locked executions will be automatically unlocked within 2-4 hours. You can also unlock scenarios manually.
 
 >[!IMPORTANT]

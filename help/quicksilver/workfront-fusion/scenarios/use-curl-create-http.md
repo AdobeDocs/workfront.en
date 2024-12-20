@@ -10,6 +10,18 @@ exl-id: 5eac3e87-0dd3-4bad-ae3e-77264329b717
 ---
 # Use cURL to add an HTTP module
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Use cURL to add an HTTP module](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/use-curl-create-http.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 You can paste a cURL request into your scenario, and Fusion creates an HTTP module configured from the cURL request.
 
 ## Access requirements

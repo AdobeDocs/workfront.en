@@ -10,6 +10,18 @@ exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
 ---
 # View a scenario's history in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [View a scenario's execution history](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-scenario-execution-history.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 You can display information about a scenario's events or executions, or you can search all executions of the scenario for specific data. 
 
 A scenario execution represents a single run of the scenario.

@@ -10,6 +10,18 @@ exl-id: 60fcda91-b725-4ada-a42c-5c05720d68c2
 ---
 # View and resolve incomplete executions in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [View and resolve incomplete executions](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-and-resolve-incomplete-executions.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 The [!UICONTROL Incomplete executions] folder stores scenario executions that were not successfully finalized due to an error. Each stored incomplete execution can be resolved either manually or automatically.
 
 >[!NOTE]
