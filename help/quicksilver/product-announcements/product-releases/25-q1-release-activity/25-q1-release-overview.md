@@ -228,7 +228,7 @@ This page provides information about functionality that is included in the First
             <p><span class="bold">Release dates</span></p>
         </td>
     </tr>
-    <!--<tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Catch up on work in Priorities</a></p>
@@ -242,7 +242,7 @@ This page provides information about functionality that is included in the First
                 <li>Production release for all customers: With the 25.1 release (January 2025)</li>
             </ul>
         </td>
-    </tr>-->
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
