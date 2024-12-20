@@ -10,6 +10,18 @@ exl-id: 6694b883-6f94-449c-bcfe-5a4053e8655a
 ---
 # Add a webhook to a basic scenario in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Add a webhook to a basic scenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/add-a-webhook-to-basic-scenario.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 Webhooks, also known as instant triggers, are a specific kind of trigger module that can start a scenario whenever a change is made, instead of on a given schedule. 
 
 In this example, you will add a webhook to start a scenario as soon as any requests have been submitted to a specific queue. The scenario then converts those requests to a project.

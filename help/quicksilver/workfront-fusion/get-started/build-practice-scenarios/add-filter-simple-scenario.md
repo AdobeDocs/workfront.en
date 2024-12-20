@@ -10,6 +10,18 @@ exl-id: b43355ed-9329-4080-8e61-7177eb580994
 ---
 # Add a filter to a basic scenario  in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Add a filter to a basic scenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/add-filter-basic-scenario.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 Filters allow you to ensure that your scenario progresses only if certain conditions are met. 
 
 In this example, you will add a filter to your scenario that allows a new project to be created from a request only if the request was submitted to a specific request queue.

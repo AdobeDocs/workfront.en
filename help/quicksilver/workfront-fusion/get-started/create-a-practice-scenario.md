@@ -10,6 +10,18 @@ exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
 ---
 # Create a practice integration scenario in Adobe Workfront Fusion
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Workflow for creating a scenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 This article describes how to create an integration scenario with Adobe Workfront Fusion. Integration scenarios connect separate apps together, allowing your data to flow through different applications.
 
 To create an integration scenario, your organization must have a [!DNL Workfront Fusion for Work Automation and Integration] license.
