@@ -9,6 +9,8 @@ exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 ---
 # Log in to [!DNL Adobe Workfront]
 
+<!--Audited: 2024-->
+
 {{important-not-on-aec}}
 
 You need the following information to log in to [!DNL Adobe Workfront]:
@@ -27,6 +29,8 @@ You need the following information to log in to [!DNL Adobe Workfront]:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -36,17 +40,21 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+   <td> 
+   <p>New: [!UICONTROL Contributor] or higher</p>
+   <p>Current: [!UICONTROL Request] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Log in to [!DNL Workfront] without SSO
 
