@@ -1,13 +1,12 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Manage your work in the Priorities calendar
-description: Track your work with a clear, visual calendar. 
+description: Track your work with a clear, visual calendar.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-
+exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
 ---
-
 # Manage your work in the Priorities calendar
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
@@ -149,4 +148,3 @@ You must have the following access to perform the steps in this article:
 
 1. On the **Color** tab, choose how you would like your work items to display. For example, if you choose Project, your work items display according to the color assigned to the project on the worklist. 
     ![sample color project](assets/sample-calendar-projects.png)
-
