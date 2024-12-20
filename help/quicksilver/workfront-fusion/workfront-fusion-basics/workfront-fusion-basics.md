@@ -12,6 +12,16 @@ exl-id: 8c933a29-0fdd-4c00-92d9-931e70e2e093
 ---
 # Adobe Workfront Fusion basics
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>See the individual articles for links to the new documentation.
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 This section contains the following articles:
 

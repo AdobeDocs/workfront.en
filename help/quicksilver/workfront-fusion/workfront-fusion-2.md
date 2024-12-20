@@ -12,6 +12,18 @@ exl-id: d28b6344-070a-4cfc-ab5a-b5c279a8b805
 ---
 # [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Workfront Fusion documentation](https://experienceleague.adobe.com/docs/workfront-fusion/using/home.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 >[!NOTE]
 >
 >[!DNL Adobe Workfront Fusion] requires an [!DNL Adobe Workfront Fusion] license in addition to an [!DNL Adobe Workfront] license.

@@ -10,6 +10,18 @@ exl-id: 4b0a0abe-a913-429b-b02e-809b2e7410af
 ---
 # Delete user data In [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Delete scenario elements](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/delete-scenario-elements.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 You can store and delete user data in the following areas in your [!DNL Adobe Workfront Fusion] account:
 
 * [!UICONTROL Scenario]
