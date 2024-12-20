@@ -10,6 +10,20 @@ exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
 ---
 # Working with large files in Adobe Workfront Fusion
 
+
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Working with large files](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/fusion-large-files.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 >[!IMPORTANT]
 >
 >Large file capability is available only to Workfront Ultimate customers, and is a phased rollout. All Fusion organizations with a Workfront Ultimate plan will have large file capability by January 2025.

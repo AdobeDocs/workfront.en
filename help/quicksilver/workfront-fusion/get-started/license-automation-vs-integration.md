@@ -11,6 +11,18 @@ exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
 ---
 # [!DNL Adobe Workfront Fusion] licenses
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Adobe Workfront Fusion licenses](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 [!DNL Workfront Fusion] has two licensing models, a new operations-based model, and a legacy connector-based model. 
 
 ## Operations-based licensing model (New)

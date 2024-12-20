@@ -9,6 +9,18 @@ feature: Workfront Fusion
 ---
 # Navigate dashboards in Workfront Fusion
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Navigate Adobe Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/navigate-workfront-fusion.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 When you log into Workfront Fusion, you are taken to your organization's dashboard. From here, you can navigate to different areas of Fusion by clicking on the areas in the left navigation.
 
 If you do not see the left navigation panel, click the Main Menu icon ![main menu](assets/main-menu-icon-left-nav.png)  in the upper-left corner of the screen.

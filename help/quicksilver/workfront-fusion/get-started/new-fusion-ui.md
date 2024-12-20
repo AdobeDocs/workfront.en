@@ -10,6 +10,10 @@ exl-id: 2887a0e2-039e-4e29-823d-82809f217045
 ---
 # Navigate the new experience in Workfront Fusion
 
+>[!IMPORTANT]
+>
+>This article will be removed in the near future.
+
  Workfront Fusion has been updated for users that do not access Fusion through the Adobe Experience Cloud. The new Fusion UI provides a more seamless experience with other Adobe products, and will smooth the transition of your users to the Adobe Experience Cloud.
 
 >[!IMPORTANT]
