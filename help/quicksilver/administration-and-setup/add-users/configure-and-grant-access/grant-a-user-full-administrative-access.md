@@ -8,6 +8,8 @@ exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
 ---
 # Grant a user full administrative access
 
+<!--Audited: 12/2024-->
+
 >[!IMPORTANT]
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
@@ -41,16 +43,18 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard</p>
+   <p>Current: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator. For more information, see <a href="#" class="MCXref xref selected">Grant a user full administrative access</a>.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator. </td> 
   </tr> 
  </tbody> 
 </table>
 
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 +++
 
 ## Grant full System Administrator access to a single user
@@ -58,11 +62,11 @@ You must have the following access to perform the steps in this article:
 {{step-1-to-users}} 
 
 1. Click the name of the user to whom you want to grant administrator rights.
-1. Click the More menu ![](assets/more-icon.png), then click **Edit**.  
+1. Click the **More** menu ![](assets/more-icon.png) to the right of the user name, then click **Edit**.  
 
-1. On the **Edit Person** box that appears, click **Access**.
-
-1. In the **access level** drop-down list, select the **System Administrator** access level.
+   The **Edit Person** box displays. 
+1. Click **Access** in the left panel.
+1. In the **Access level** drop-down list, select the **System Administrator** access level.
 
    Depending on changes made in your system, the name of this access level might have changed.
 
@@ -72,7 +76,7 @@ You must have the following access to perform the steps in this article:
 
 ## Access of a Workfront administrator vs. access of a Plan user with administrative rights  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
-The two tables below show the difference between the access rights of a user with a Workfront administrator access level versus those of a user with a Plan license with some administrative rights.
+The two tables below show the difference between the access rights of a user with a Workfront System Administrator access level versus those of a user with a Plan license with some administrative rights.
 
 Workfront administrators can view all the objects in the system (regardless of who created them), create new ones, and modify or delete existing ones. They have full access to all objects in the system.
 

@@ -1,24 +1,13 @@
 ---
-title: Add an Approval to a Request Form
-description: You can add an approval process to an Adobe Workfront Planning request form, to initiate an approval for every submitted request, before it creates a record. 
-hide: yes
-hidefromTOC: yes
----
-
-<!--
-
----
-title: Add an Approval to a Request Form
-description: You can add an approval process to an Adobe Workfront Planning request form, to initiate an approval for every submitted request, before it creates a record. 
+title: Add an Approval to a Request Form in Adobe Workfront Planning
+description: You can add an approval process to an Adobe Workfront Planning request form, to initiate an approval for every submitted request, before it creates a record.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: 058148db-1795-4d39-be87-271008ae3d47
 ---
-
--->
-
-# Add an approval to a request form
+# Add an approval to a request form in Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
@@ -121,6 +110,8 @@ You must have the following access to perform the steps in this article:
 
 * You can add one or multiple approvers to a request form. You can add only users as approvers. 
 * When you add multiple approvers to a request form, all approvers must accept the request before a record is created in Workfront Planning. 
+* If all approvers approve the request, a record is created for the record type associated with the request form. 
+* If at least one approver rejects the request, and all others approve it, a request is created for the Requests area in Workfront, but no record is created for the record type associated with the request form. 
 * Adding approvals to a request form is optional. Workfront Planning immediately creates a record when a request is submitted, if the request form is not associated with an approval. 
 
 ## Add an approval to a request form
@@ -137,16 +128,30 @@ You must have the following access to perform the steps in this article:
 
     Start typing the name of an approver, then select it when it displays in the list. 
 
-    >[!TIP]
-    >
-    >    If you add more than one approver, all approvers must approve the request before Workfront Planning creates a record. 
+    <!--most of the Note below is duplicated in the Create a request form article-->
+
+      >[!NOTE]
+      >
+      >
+      >* You can add one or several approvers to a request form.
+      >
+      >* If you add more than one approver, all approvers must approve the request before Workfront Planning creates a record.
+      >
+      >* If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Planning tab of the Submitted section in the Requests area of Workfront.
+      >
+      >* All approvers must make a decision before a request is either approved or rejected.
+
 
 1. (Optional) Click **Publish** if you have never shared the request form before
 
     Or
 
     Click **Share** to share the form, then **Copy link**. 
-1. (Optional) After a user uses the link you share and submits a request, Workfront Planning sends an approval notification and email to the approvers. 
+1. (Optional) After a user uses the link you share and submits a request, Workfront Planning sends an approval in-app notification and an email to the approvers. 
 
-    For information about approving requests, see [Approve a request](/help/quicksilver/planning/requests/approve-request.md). 
+   >[!NOTE]
+   >
+   >   Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience for users to be able to receive email and in-app notifications.
 
+
+    For information about approving requests, see [Approve a request](/help/quicksilver/planning/requests/approve-request.md).

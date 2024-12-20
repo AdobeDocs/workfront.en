@@ -15,11 +15,14 @@ feature-set: Workfront
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 2025 Q1 Release {#release-25-q1}
       * [2025 Q1 Release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
-      * [2025 Q1 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)<!--* [2025 Q1 Boards enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md)-->
+      * [2025 Q1 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)
+      * [2025 Q1 Boards enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md)
       * [2025 Q1 Document management enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md)
       * [2025 Q1 Home enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md)
+      * [2025 Q1 Project enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-project-enhancements.md)
       * [2025 Q1 Proofing enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md)
       * [2025 Q1 Report and Dashboard enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md)
+      * [2025 Q1 Update stream enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md)
       * [Other enhancements during the First Quarter 2025 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
       * [Look-and-feel updates during the 2025 Q1 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
     * 2024 Q4 Release {#release-24-q4}
@@ -178,6 +181,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of December 16, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-16.md)
       * [Workfront Fusion release activity: Week of December 2, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-2.md)
       * [Workfront Fusion release activity: Week of November 25, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
       * [Workfront Fusion release activity: Week of November 11, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-11.md)
@@ -894,7 +898,7 @@ feature-set: Workfront
     * [Priorities: article index](workfront-basics/priorities/priorities-toc.md)
     * [Priorities: Upcoming releases](workfront-basics/priorities/priorities-upcoming-releases.md)
     * [Get started with Priorities](workfront-basics/priorities/get-started-with-priorities.md)
-    * [View project and task details in the Priorities worklist](workfront-basics/priorities/view-task-project-details.md)
+    * [View project and work item details in Priorities](workfront-basics/priorities/view-task-project-details.md)
     * [Filter and group your work in Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
     * [Customize the worklist columns](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
     * [Prioritize important work items](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
@@ -903,6 +907,8 @@ feature-set: Workfront
     * [Log time in Priorities](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
     * [Upload files in Priorities](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
     * [Add and manage quick links in Priorities](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
+    * [Upload Documents and create proofs in Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
+    * [Manage your work in the Priorities calendar](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
   * Home {#home}
     * [Home](workfront-basics/using-home/home.md)
     * Use the Home area {#use-home-area}
@@ -2134,6 +2140,8 @@ feature-set: Workfront
     * [Create and manage a request form in Adobe Workfront Planning](planning/requests/create-request-form.md)
     * [Submit Adobe Workfront Planning requests to create records](planning/requests/submit-requests.md)
     * [Unpublish a request form in Adobe Workfront Planning](planning/requests/unpublish-request-form.md)
+    * [Add an approval to a request form in Adobe Workfront Planning](planning/requests/add-approval-to-request-form.md)
+    * [Approve a request in Adobe Workfront Planning](planning/requests/approve-request.md)
   * Adobe Workfront Planning views {#adobe-workfront-planning-views}
     * [Views: article index](planning/views/views-information.md)
     * [Manage record views](planning/views/manage-record-views.md)
@@ -2257,6 +2265,7 @@ feature-set: Workfront
     * [Debug scenarios with the Adobe Workfront Fusion DevTool](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
     * [Generate a scenario segment using AI](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
     * [Run the Scenario Scoring Expert in Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
+    * [Use cURL to add an HTTP module](/help/quicksilver/workfront-fusion/scenarios/use-curl-create-http.md)
     * Adobe Workfront Fusion scenario templates {#fusion-scenario-templates}
       * [Scenario Templates](workfront-fusion/scenarios/templates/fusion-templates.md)
       * [[!DNL Fusion] templates overview](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
@@ -2335,6 +2344,7 @@ feature-set: Workfront
     * [Image modules](workfront-fusion/apps-and-their-modules/image-module.md)
     * [Jira Software modules](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
     * [JSON modules](workfront-fusion/apps-and-their-modules/json-modules.md)
+    * [JSONata modules](workfront-fusion/apps-and-their-modules/jsonata-module.md)
     * [JWT modules](workfront-fusion/apps-and-their-modules/jwt-modules.md)
     * [MariaDB modules](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
     * [Markdown modules](workfront-fusion/apps-and-their-modules/markdown-modules.md)

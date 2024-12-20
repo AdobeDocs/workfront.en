@@ -131,7 +131,7 @@ When you restore a project, task, or issue, the following associated information
 
 * Resolving objects
 
-  A resolving object is a converted issue configured with the option **Keep the original issue and tie its resolution to this** <**project** or **task)**>. If you delete the parent project or task, the issue is no longer identified as a resolving object because there is no longer a link connecting it to the project or task. If you restore the parent, the link is not restored.
+  A resolving object is a converted issue configured with the option **Keep the original issue and tie its resolution to this** <**(project** or **task)**>. If you delete the parent project or task, the issue is no longer identified as a resolving object because there is no longer a link connecting it to the project or task. If you restore the parent, the link is not restored.
 
   For more information about how a Workfront administrator or group administrator configures issues to match the resolving object when converted, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) and [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
