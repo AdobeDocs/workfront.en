@@ -5,9 +5,8 @@ title: Asset and Document approvals overview
 description: Overview of the systems available for review and approval in Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-
+exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
 ---
-
 # Asset and Document approvals overview 
 
 There are currently 3 different systems available in Workfront for Asset and Document review and approvals:
@@ -79,5 +78,3 @@ Features available for proofing:
 * Create multiple stage approvals
 
 * Use basic or automated workflows
-
-

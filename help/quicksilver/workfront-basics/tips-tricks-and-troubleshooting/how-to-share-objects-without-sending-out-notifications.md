@@ -2,11 +2,11 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: How to Share Objects Without Generating Notifications
-description: Find out how you can share objects and prevent notifications from being send out about this change. This is particularly helpful when you share objects in bulk. 
+description: Find out how you can share objects and prevent notifications from being send out about this change. This is particularly helpful when you share objects in bulk.
 author: Alina
 feature: Get Started with Workfront
+exl-id: 02106282-addb-4bdd-82d2-9da5a5f6a687
 ---
-
 # How to share objects without generating notifications
 
 <!--Audited: 12/2024-->
@@ -104,9 +104,3 @@ You must have the following to share objects:
 1. Click **Save Changes**.
 
     The objects were shared with the selected users and none of them received any email notifications about this change.
-
-
-
-
-
-
