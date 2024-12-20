@@ -93,8 +93,7 @@ The following built-in integrations are currently available in Workfront.
    <td role="rowheader">Microsoft Calendars (Office 365 / Outlook Live)</td> 
    <td> 
     <ul> 
-     <li> <p>Integrate with a web-based version of Outlook in cloud-hosted Office 365 or Outlook Live. </p> </li> 
-     <li> <p>Display all events from your [!DNL Outlook] calendar and any associated calendars you select, such as Birthdays and Holidays calendars, in your Home Calendar.</p>  <p>Note: The Outlook calendar configuration is completely separate from the Outlook Add-in (Outlook Integration or Workfront for Outlook). There's no installation required to configure the calendar.</p></li> 
+     <li> <p>Integrate with a web-based version of Outlook in cloud-hosted Office 365 or Outlook Live. </p>
     </ul> </td> 
   </tr> 
   <tr> 
