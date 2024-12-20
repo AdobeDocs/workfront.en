@@ -10,6 +10,18 @@ exl-id: 7e66728d-8c6f-4597-98c4-bc6d36f96911
 ---
 # Configure a module's settings in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Configure a module](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/configure-a-modules-settings.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 You must configure settings for every module you create.
 
 For example, the [[!DNL Dropbox] modules](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md) modules require you to specify the target folder where you want to upload files. For the [[!UICONTROL Email] modules](../../workfront-fusion/apps-and-their-modules/email-modules.md) modules, you need to enter the email address where emails should be sent.

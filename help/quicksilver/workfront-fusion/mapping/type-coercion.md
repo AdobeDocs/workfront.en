@@ -11,6 +11,18 @@ exl-id: 847a17c9-bd67-4132-81a8-2a5fe8d516cb
 ---
 # Type coercion in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Type coercion](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/data-types/type-coercion.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.

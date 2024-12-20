@@ -11,6 +11,18 @@ exl-id: 35a7e906-7ca2-433d-87a9-bbb01babffb0
 ---
 # Data structures in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Create and manage data stores](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/data-stores.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 A data structure is a document that describes in detail the format of the data being transferred to [!DNL Adobe Workfront Fusion]. Based on this document, the scenario editor is able to figure out which module returns or receives which kind of data. The data structure documents are most commonly used for serializing/parsing data formats such as JSON, XML, CSV and others.
 
 You can create a data structure by clicking the [!UICONTROL Create a new data structure] button in the [!UICONTROL Data structure overview] section or in the settings of the module that requires data structure specification.

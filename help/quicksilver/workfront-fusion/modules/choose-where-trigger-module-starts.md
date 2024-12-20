@@ -10,6 +10,18 @@ exl-id: 5ab7cac4-8d50-4be0-b26b-b832544f18f7
 ---
 # Choose where a trigger module starts in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Choose where a trigger module starts](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/choose-where-trigger-module-starts.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 Some trigger modules allow you to select the first bundle from which you want the retrieving of bundles to start.
 
 You can also specify whether you want to retrieve all bundles or just the bundles from after a specific date.

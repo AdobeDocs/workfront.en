@@ -11,6 +11,18 @@ exl-id: 20b3c0f4-4a4c-4ba0-8570-ac39573ef1c0
 ---
 # HTTP request methods in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [HTTP request methods](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/http-request-methods.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 When you are configuring an API call in a module, you need to fill in the field for the HTTP request method.
 
 ## Access requirements

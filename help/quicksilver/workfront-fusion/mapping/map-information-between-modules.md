@@ -10,6 +10,18 @@ exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
 ---
 # Map information from one module to another in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Map information from one module to another](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-data-from-one-to-another.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 Mapping is the process of assigning a module's outputs, structured into items, to another module's input fields.
 
 The mapping panel displays when you click a field where you want to insert a value outputted from a preceding module in a scenario. Within a module, in any field that is available for mapping, you can create a formula using any combination of functions and mapped items from the mapping panel with static text that you type. These elements can be nested inside each other.

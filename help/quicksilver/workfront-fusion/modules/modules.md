@@ -12,6 +12,16 @@ exl-id: b50b918c-7c74-442c-a91a-3f313d40d00b
 ---
 # Modules in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>See the individual articles for links to the new documentation.
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 This section contains the following articles:
 
 * [Types of modules](../../workfront-fusion/modules/module-types.md)

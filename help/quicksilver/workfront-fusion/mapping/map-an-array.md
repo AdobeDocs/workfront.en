@@ -10,6 +10,18 @@ exl-id: 725e0c24-cb4b-46c4-9c00-4f9cc334fbc7
 ---
 # Map an array in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Map an array or array element](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-an-array.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 An array is a special type of item that can contain the following:
 
 * One or more text values (simple array)
