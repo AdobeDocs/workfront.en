@@ -1838,7 +1838,8 @@ feature-set: Workfront
     * [Recall submitted approvals](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
   * Asset and document review and approval {#document-reviews-and-approvals}
     * [Asset and document review and approval: article index](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-    * [Document approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+    * [Asset and Document approvals overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+    * [New document approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
     * [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
     * Set up and manage asset and document approvals {#manage-asset-review-and-approval}
       * [Set up and manage asset and document approvals: article index](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
