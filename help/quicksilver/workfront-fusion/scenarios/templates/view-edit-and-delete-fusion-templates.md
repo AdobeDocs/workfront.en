@@ -10,6 +10,18 @@ exl-id: 97e3402c-d1d0-44f6-9752-11b0f5abee22
 ---
 # View, edit, and delete [!DNL Adobe Workfront Fusion] templates
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [View, edit, and delete templates](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/view-edit-and-delete-fusion-templates.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 [!DNL Adobe Workfront Fusion] requires an Adobe Workfront Fusion license in addition to an [!DNL Adobe Workfront license].
 
 ## Access requirements

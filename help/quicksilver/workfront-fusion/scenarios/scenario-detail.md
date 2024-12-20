@@ -10,6 +10,18 @@ exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
 ---
 # Scenario details in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Scenario details overview](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/scenario-details.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 The scenario detail page is the homepage of a specific scenario. It provides access to specific information for the scenario that is represented on the page.
 
 It also provides you access to the [The scenario editor in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), where you can edit the scenario.

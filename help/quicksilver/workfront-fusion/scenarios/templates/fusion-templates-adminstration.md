@@ -10,6 +10,19 @@ exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
 ---
 # [!DNL Adobe Workfront Fusion] Templates administration
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the articles:
+>
+>* [Approve or disapprove templates for the Public tab](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/manage-templates-admin/approve-templates.html)
+>* [Edit templates](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/manage-templates-admin/edit-templates.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 If you are an administrator, you have permission to view, modify, rename, publish, approve, and delete templates created by others. You can perform these actions from the [!UICONTROL Templates] page in the [!DNL Adobe Workfront Fusion Administration] area.
 
 ## Access requirements

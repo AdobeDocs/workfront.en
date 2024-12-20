@@ -10,6 +10,18 @@ exl-id: aaa59a1e-aa16-41f5-9f56-ce0615c1b685
 ---
 # Publish and share [!DNL Adobe Workfront Fusion] templates
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Publish and share templates](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/publish-and-share-fusion-templates.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 When you create a template, your template becomes available for all your team members. If you want to share the template with someone outside of your team, you must publish it first.
 
 For information on creating a template, see [Create new templates in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md).

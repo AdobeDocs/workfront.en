@@ -10,6 +10,10 @@ exl-id: ebcfa3b9-3207-441c-9ce5-9af696c0119d
 ---
 # [!DNL Adobe Workfront Fusion] scenario example: Connect email, [!UICONTROL Text Parser], and [!DNL Google Sheets]
 
+>[!IMPORTANT]
+>
+>This article will be removed in the near future.
+
 This scenario helps you create a log of all email messages and tag them for further action in a spreadsheet. It captures an email body in two separate tables in a spreadsheet using Regular Expressions (Regex) as search patterns. The first pattern searches for a phrase and the second searches for the same phrase and an email address.
 
 ## Access requirements

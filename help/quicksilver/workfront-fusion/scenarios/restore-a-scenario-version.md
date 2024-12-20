@@ -10,6 +10,18 @@ exl-id: 8885fe4e-a9ae-4cfa-895f-68a2f8228034
 ---
 # Restore a scenario version in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Restore a scenario version](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/restore-a-scenario-version.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:

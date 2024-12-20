@@ -10,6 +10,18 @@ exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
 ---
 # Currently available Adobe Workfront Fusion templates
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Currently available Adobe Workfront Fusion templates](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/currently-available-fusion-templates.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 The following public templates are currently available in Adobe Workfront Fusion.
 
 Your team or organization may have other team-created templates available. 

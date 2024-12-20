@@ -12,6 +12,16 @@ exl-id: 48fc3330-7fe1-4dea-8abe-cfc1139e26cf
 ---
 # Scenario Templates
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>See the individual articles for links to the new documentation.
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 >[!INFO]
 >
 >[!DNL Adobe Workfront Fusion] requires an [!DNL Adobe Workfront Fusion] license in addition to an [!DNL Adobe Workfront license].

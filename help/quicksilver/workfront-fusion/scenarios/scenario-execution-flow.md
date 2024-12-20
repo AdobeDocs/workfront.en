@@ -11,6 +11,18 @@ exl-id: 95c6e969-66b4-4b57-9e62-aae0cfb9bf98
 ---
 # Scenario execution flow in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Scenario execution flow](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/scenario-execution-flow.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 This article explains how a scenario executes and how data flows through it. It also explains where you can find information about your processed data and how to read it.
 
 ## Access requirements

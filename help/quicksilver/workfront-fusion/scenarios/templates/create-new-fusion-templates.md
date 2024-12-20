@@ -10,6 +10,18 @@ exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
 ---
 # Create new templates in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Create new templates](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/create-new-fusion-templates.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 You can create new scenario templates in [!DNL Adobe] Workfront Fusion.
 
 >[!TIP]

@@ -10,6 +10,18 @@ exl-id: 144c8dbd-a3e9-4267-b3db-0768dac8f384
 ---
 # Run the Scenario Scoring Expert in Adobe Workfront Fusion
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Run the Scenario Scoring Expert](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/run-scenario-scoring.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 The Scenario Scoring Expert can help you ensure that your scenario is configured in a way that follows best practices. It checks your scenario and gives recommendations for its structure and organization.
 
 ## Access requirements

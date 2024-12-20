@@ -10,6 +10,18 @@ exl-id: 3cd7cbc0-ddc5-4437-8672-3c9bea609c9b
 ---
 # [!DNL Adobe Workfront Fusion] templates FAQs
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Adobe Workfront Fusion templates FAQs](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/fusion-templates-faqs.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:

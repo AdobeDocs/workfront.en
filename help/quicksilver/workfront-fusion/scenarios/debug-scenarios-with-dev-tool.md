@@ -10,6 +10,18 @@ exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
 ---
 # Debug scenarios with the [!DNL Adobe Workfront Fusion] Devtool
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Debug a scenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/debug-a-scenario.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 The [!DNL Adobe Workfront Fusion] Devtool allows you to understand and troubleshoot scenarios. The Devtool adds an extra panel to the [!DNL Chrome Developer Tools]. Using this debugger panel, you can check all the manual runs of your scenario, review all the performed operations, and see the details of every API call performed. You can see which module, operation, or single response caused the error, and use that knowledge to refine your scenario.
 
 >[!NOTE]

@@ -12,6 +12,18 @@ exl-id: 899641a0-a104-4be9-b423-34a32e985b53
 ---
 # Generate a scenario segment using AI 
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Generate a scenario segment using AI](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/add-a-module-with-ai.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 <!--DO NOT DELETE - linked through CSH-->
 
 >[!IMPORTANT]
