@@ -912,7 +912,7 @@ feature-set: Workfront
   * Home {#home}
     * [Home](workfront-basics/using-home/home.md)
     * Use the Home area {#use-home-area}
-      * [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+      * [Use the Home area: article index](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
       * [Add, edit, or remove widgets in New Home](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
       * [Display items in the Work List in the Home area](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
@@ -1032,7 +1032,7 @@ feature-set: Workfront
       * [Tips, Tricks, and Troubleshooting for Adobe Workfront Mobile Apps](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
       * [Error Message on the Adobe Workfront Mobile App: "Your account is not API enabled."](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md) 
   * Tips, Tricks, and Troubleshooting for Adobe Workfront Basics {#tips-tricks-for-basics}
-    * [Tips, Tricks, and Troubleshooting for Adobe Workfront Basics](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
+    * [Tips, Tricks, and Troubleshooting for Adobe Workfront: article index](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
     * [Your quick guide to finding help in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
     * [Change the format for dates in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
     * [Contact Customer Support](workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
@@ -1043,7 +1043,8 @@ feature-set: Workfront
     * [Workfront Proof Manager permissions troubleshooting](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
     * [Filter buttons do not display in page headers](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
     * [Projects I'm On filter includes unexpected results](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
-    * [Multiple browser tabs cause Workfront to log out](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+    * [Multiple browser tabs cause Workfront to log out](workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+    * [How to share objects without generating notifications](workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
 * Agile {#agile}
   * [Agile](agile/agile.md)
   * [Boards overview](agile/boards-overview.md)
