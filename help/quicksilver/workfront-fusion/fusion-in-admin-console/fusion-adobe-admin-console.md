@@ -12,6 +12,10 @@ exl-id: 86f8cc24-c1a2-4f47-bd08-39bb0f6b2940
 ---
 # Platform-based administration differences ([!DNL Adobe Workfront Fusion]/[!DNL Adobe Admin Console])
 
+>[!IMPORTANT]
+>
+>This article will be removed in the near future as all organizations are moved to the Adobe Admin Console.
+
 If your organization has been onboarded to the [!DNL Adobe Admin Console], your users use the [!DNL Adobe Admin Console] to access [!DNL Adobe Workfront Fusion]. This means that:
 
 * User management is largely done through the [!DNL Adobe Admin Console]

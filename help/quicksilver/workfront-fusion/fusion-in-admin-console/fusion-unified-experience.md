@@ -10,6 +10,19 @@ exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
 ---
 # [!DNL Adobe Unified Experience] for [!DNL Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the articles:
+>
+>* [Change profile settings](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/change-profile-settings.html)
+>* [Set Team Notification Options](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-team-notification-options.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 Accessing [!DNL Workfront Fusion] through [!DNL Adobe Experience Cloud] gives you a seamless, unified experience for managing all of your [!DNL Adobe] applications. Single identity management gives you one place to log in, without multiple URLs or login IDs.
 
 For a video describing navigation in [!DNL Fusion] in the [!DNL Adobe Experience Cloud], see:

@@ -14,6 +14,18 @@ exl-id: c8924e00-1154-4cf8-84e8-472251b5fc28
 
 >[!IMPORTANT]
 >
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Add users to Adobe Workfront Fusion through the Adobe Admin Console](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/add-fusion-users-admin-console.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
+>[!IMPORTANT]
+>
 >The procedures described on this page apply only to organizations that have been onboarded to the [!DNL Adobe Admin Console].
 >
 >If your organization has not yet been onboarded to the [!DNL Adobe Admin Console], see [Add a user to an organization in [!DNL Adobe Workfront Fusion]](../organizations/add-user-to-an-organization.md).

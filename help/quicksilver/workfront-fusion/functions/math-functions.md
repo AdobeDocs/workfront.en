@@ -11,6 +11,18 @@ exl-id: 8a3c7a89-62b5-45e9-b857-8beedd0e5af4
 ---
 # Math functions in [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Math functions](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/math-functions.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 <!--Audited: 4/2024-->
 
 ## Access requirements
