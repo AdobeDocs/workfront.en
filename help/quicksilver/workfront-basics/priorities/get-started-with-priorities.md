@@ -109,7 +109,7 @@ For more information, see [Prioritize important work items](/help/quicksilver/wo
 ![](assets/my-focus-column.png)
 <!-- new screen for prod ![](assets/worklist.png) -->
 
-### Use the Calendar view [!BADGE Coming soon]{type=Informative}
+### Use the Calendar view [!BADGE Available in preview]{type=Informative}
 
 The Calendar view will provide a visual representation of your tasks and issues. You will be able to choose between a day, week, or month view. You will also be able to filter items in a similar way to the worklist.
 
@@ -184,11 +184,11 @@ From the Documents tab on a task or issue, you can
 * Launch the proofing viewer to leave comments and make decisions
 
 
-## Use [!DNL Catch me up] to see what you missed [!BADGE Coming soon]{type=Informative}
+## Use [!DNL Catch me up] to see what you missed [!BADGE Available in preview]{type=Informative}
 
 Use the [!DNL Catch me up] feature to see what you missed. Catch me up will summarize updates, uploaded documents, approvals, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days. 
 
-<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
+For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ![](assets/catch-me-up.png)
 
