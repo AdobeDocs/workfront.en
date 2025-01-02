@@ -78,7 +78,6 @@ For more information, see the section [View your organization's cluster and Work
 * [IP addresses to allow for Cluster 10](#ip-addresses-to-allow-for-cluster-10)
 * [IP addresses to allow for a Test Drive](#IP%20Addre2) 
 * [IP addresses to allow when implementing event subscriptions](#ip-addresses-to-allow-when-implementing-event-subscriptions) 
-* [IP addresses to allow for enhanced authentication](#ip-addresses-to-allow-for-enhanced-authentication) 
 * [IP addresses to add for accessing Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion) 
 * [IP addresses to add for using Workfront for Jira](#ip-addresses-to-add-for-using-workfront-for-jira) 
 * [URLs to add for all clusters Workfront](#urls-to-add-for-all-clusters-workfront)
@@ -283,70 +282,6 @@ For all environments, add the following IP addresses to receive payloads from Wo
  </tbody> 
 </table>
 
-### IP addresses to allow for enhanced authentication {#ip-addresses-to-allow-for-enhanced-authentication}
-
-Add the following IP addresses to use enhanced authentication for Preview or Production.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">If your environment is on Cluster 1, 2, 3, 5, 7, 8, or 9</td> 
-   <td> 
-    <ul> 
-     <li>35.167.74.121</li> 
-     <li>35.166.202.113</li> 
-     <li>35.160.3.103</li> 
-     <li>54.183.64.135</li> 
-     <li>54.67.77.38</li> 
-     <li>54.67.15.170</li> 
-     <li>54.183.204.205</li> 
-     <li>35.171.156.124</li> 
-     <li>18.233.90.226</li> 
-     <li>3.211.189.167</li> 
-     <li>18.232.225.224</li> 
-     <li>34.233.19.82</li> 
-     <li>52.204.128.250</li> 
-     <li>3.132.201.78</li> 
-     <li>3.19.44.88</li> 
-     <li>3.20.244.231</li> 
-     <li>54.244.142.219</li> 
-     <li>52.39.217.230</li> 
-     <li>44.241.82.96</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">If your environment is on Cluster 4</td> 
-   <td> 
-    <ul> 
-     <li>52.28.56.226</li> 
-     <li>52.28.45.240</li> 
-     <li>52.16.224.164</li> 
-     <li>52.16.193.66</li> 
-     <li>34.253.4.94</li> 
-     <li>52.50.106.250</li> 
-     <li>52.211.56.181</li> 
-     <li>52.213.38.246</li> 
-     <li>52.213.74.69</li> 
-     <li>52.213.216.142</li> 
-     <li>35.156.51.163</li> 
-     <li>35.157.221.52</li> 
-     <li>52.28.184.187</li> 
-     <li>52.28.212.16</li> 
-     <li>52.29.176.99</li> 
-     <li>52.57.230.214</li> 
-     <li>54.76.184.103</li> 
-     <li>52.210.122.50</li> 
-     <li>52.208.95.174</li> 
-     <li>52.30.133.50</li> 
-     <li>54.220.93.204</li> 
-     <li>34.254.76.122</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### IP addresses to add for accessing Workfront Fusion  {#ip-addresses-to-add-for-accessing-workfront-fusion}
 
 Add the following IP addresses to your allowlist to enable Workfront Fusion to access your system.
@@ -388,7 +323,7 @@ Add the following IP addresses to your allowlist to enable Workfront Fusion to a
  </tbody> 
 </table>
 
-Also, if your organization uses outbound network filtering, add the following domain to your allowlist to enable your system to access Workfront Fusion. 
+Also, if your organization uses outbound network filtering, add the following domain to your allowlist to enable your system to access Workfront Fusion. These URLs are used for webhooks in Fusion.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -479,9 +414,12 @@ If your organization uses outbound network filtering, add the following domains 
 * auth.split.io
 * rum-http-intake.logs.datadoghq.com
 * mfe.static.workfront.com
-* https://app.pendo.io/
-* https://cdn.pendo.io/
+* fonts.gstatic.com
+* dpm.demdex.net
+* storage.googleapis.com 
+* *.aptrinsic.com 
 * *.static.workfront.com 
+
 
   This is a static domain that excompasses all of the following domains. You may add the individual domains if you prefer:
   
@@ -490,6 +428,26 @@ If your organization uses outbound network filtering, add the following domains 
    * mfe-preview-c.static.workfront.com
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
+
+If your organization is on the Adobe Unified Experience, it uses the following domains. These domains are covered under `*.adobe.com`, but can be added if desired.
+
+* <your domain>.my.workfront.adobe.com
+* <your domain>.preview.workfront.adobe.com
+* <your domain>.sb01.workfront.adobe.com
+* <your domain>.sb02.workfront.adobe.com 
+
+
+For Workfront Fusion, add the following domains:
+
+* For organization not on the Adobe Unified Experience:
+   * app.workfrontfusion.com (US AWS)
+   * app-eu.workfrontfusion.com (EU AWS)
+   * app-az.workfrontfusion.com (US Azure)
+* For organization on the Adobe Unified Experience (These domains are covered under `*.adobe.com`, but can be added if desired.)
+   fusion.adobe.com
+   app-eu.fusion.adobe.com
+   app-az.fusion.adobe.com
+
 
 
 ## URLs to add for all clusters Workfront {#urls-to-add-for-all-clusters-workfront}
