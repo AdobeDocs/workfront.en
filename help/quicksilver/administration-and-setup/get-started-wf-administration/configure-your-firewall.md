@@ -443,10 +443,13 @@ For Workfront Fusion, add the following domains:
    * app.workfrontfusion.com (US AWS)
    * app-eu.workfrontfusion.com (EU AWS)
    * app-az.workfrontfusion.com (US Azure)
-* For organization on the Adobe Unified Experience (These domains are covered under `*.adobe.com`, but can be added if desired.)
-   fusion.adobe.com
-   app-eu.fusion.adobe.com
-   app-az.fusion.adobe.com
+   
+* For organization on the Adobe Unified Experience 
+(These domains are covered under `*.adobe.com`, but can be added if desired.)
+
+   * fusion.adobe.com
+   * app-eu.fusion.adobe.com
+   * app-az.fusion.adobe.com
 
 
 
