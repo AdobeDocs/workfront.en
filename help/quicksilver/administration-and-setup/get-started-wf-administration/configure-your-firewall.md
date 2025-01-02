@@ -431,10 +431,10 @@ If your organization uses outbound network filtering, add the following domains 
 
 If your organization is on the Adobe Unified Experience, it uses the following domains. These domains are covered under `*.adobe.com`, but can be added if desired.
 
-* <your domain>.my.workfront.adobe.com
-* <your domain>.preview.workfront.adobe.com
-* <your domain>.sb01.workfront.adobe.com
-* <your domain>.sb02.workfront.adobe.com 
+* &lt;your domain&gt;.my.workfront.adobe.com
+* &lt;your domain&gt;.preview.workfront.adobe.com
+* &lt;your domain&gt;.sb01.workfront.adobe.com
+* &lt;your domain&gt;.sb02.workfront.adobe.com 
 
 
 For Workfront Fusion, add the following domains:
