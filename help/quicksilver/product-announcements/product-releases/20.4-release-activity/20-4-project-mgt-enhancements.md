@@ -57,7 +57,7 @@ To save time and increase understanding of the overall health of a project, ther
 
 You can make selections on the charts to see different aspects of the tasks and issues in a project and click certain elements to display task information.
 
-This feature is now included in the [Planner Fundamentals, Part 3 learning path](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) on Workfront One.
+<!--This feature is now included in the [Planner Fundamentals, Part 3 learning path](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) on Workfront One. -->
 
 ## New for administrators: Assign a business leader to a group
 
