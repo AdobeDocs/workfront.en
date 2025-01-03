@@ -76,9 +76,77 @@ If you see the map button above a field or function, you can use it to set varia
 
 #### Get user groups and product profiles
 
+This action module retrieves a list of all user groups and product profiles in your organization, along with details about the groups and profiles.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Adobe User Management, see <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" >Create a connection to Adobe User Management</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Maximum number of returned results</td> 
+   <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### Get user information
 
+This action module retrieves details for a single user in the organization, identified by their email address.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Adobe User Management, see <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" >Create a connection to Adobe User Management</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Email address</td> 
+   <td>Enter or map the email address of the user you want to return details for. For AdobeID, Enterprise and email-federated users this should be the full email address including domain. In all cases the parameter is case-insensitive.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### Get users in a user group or product profile
+
+This action module retrieves a list of all users in the specified user group or product profile, along with details about the users.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Adobe User Management, see <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" >Create a connection to Adobe User Management</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Group name</td> 
+   <td>The user group, product profile name or an administrative group. For an admin group, the name can be one of the fixed groups <code>_org_admin</code>, <code>_deployment_admin</code>, or <code>_support_admin</code>; or a group-specific admin group. These are identified with a prefix on the group name , such as <code>_admin_groupName</code>, <code>_product_admin_productName</code>, or <code>_developer_groupName</code>. If the group exists but the admin group does not, an empty list is returned.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Direct only</td> 
+   <td>Specify whether the groups field in the returned user structure contains only those product profiles of which that user is a direct member. If false, returns all groups (user groups, product profiles, and admin groups) containing the user, regardless of whether an entitlement for a particular product profile comes directly (via user assignment) or indirectly (via a user group that contains the user being assigned to the product profile). If true, returns all user groups and admin groups containing the user, but only those product profiles to which the user has been explicitly assigned an entitlement. A user can be both a direct and an indirect member of a product profile.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Exclude groups</td> 
+   <td>Specify whether the response excludes the groups array from being returned for each individual user.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Status</td> 
+   <td>This option applies only to product profiles. Select active to list users that have been provisioned for the product and have an active license. Select inactive to list users who have been added to the product profile but do not have an active license. If left blank, the module returns all member users regardless of their entitlement status.
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Maximum number of returned results</td> 
+   <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### Get users in an organization
 
