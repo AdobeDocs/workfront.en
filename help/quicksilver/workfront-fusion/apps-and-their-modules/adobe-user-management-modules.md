@@ -76,7 +76,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 #### Get user groups and product profiles
 
-This action module retrieves a list of all user groups and product profiles in your organization, along with details about the groups and profiles.
+This search module retrieves a list of all user groups and product profiles in your organization, along with details about the groups and profiles.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +95,7 @@ This action module retrieves a list of all user groups and product profiles in y
 
 #### Get user information
 
-This action module retrieves details for a single user in the organization, identified by their email address.
+This search module retrieves details for a single user in the organization, identified by their email address.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -114,7 +114,7 @@ This action module retrieves details for a single user in the organization, iden
 
 #### Get users in a user group or product profile
 
-This action module retrieves a list of all users in the specified user group or product profile, along with details about the users.
+This search module retrieves a list of all users in the specified user group or product profile, along with details about the users.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -149,6 +149,23 @@ This action module retrieves a list of all users in the specified user group or 
 </table>
 
 #### Get users in an organization
+
+This search module returns all users of the organization associated with the connection.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Adobe User Management, see <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" >Create a connection to Adobe User Management</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Maximum number of returned results</td> 
+   <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ### User actions
 

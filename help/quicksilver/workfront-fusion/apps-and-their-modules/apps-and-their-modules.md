@@ -43,6 +43,7 @@ This section contains the following articles:
 * [[!DNL Adobe PDF Services] modules](../../workfront-fusion/apps-and-their-modules/pdf-modules.md) 
 * [[!DNL Adobe Photoshop] modules](../../workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md) 
 * [[!DNL Adobe Target] modules](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md) 
+* [[!DNL Adobe User Management] modules](../../workfront-fusion/apps-and-their-modules/adobe-user-management-modules.md) 
 * [[!DNL Airtable] modules](../../workfront-fusion/apps-and-their-modules/airtable-modules.md) 
 * [[!DNL Allocadia] modules](../../workfront-fusion/apps-and-their-modules/allocadia-modules.md) 
 * [[!DNL Anaplan] Modules](../../workfront-fusion/apps-and-their-modules/anaplan-modules.md) 
