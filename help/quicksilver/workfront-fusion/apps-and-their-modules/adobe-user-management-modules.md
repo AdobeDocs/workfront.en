@@ -171,9 +171,120 @@ This search module returns all users of the organization associated with the con
 
 #### Add a user as a member of a group
 
-#### Create a new user
+This action module adds a user as a member of the specified group or groups. This module can add the user to up to four groups.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Adobe User Management, see <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" >Create a connection to Adobe User Management</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">User</td> 
+   <td>Enter or map the user that you want to add to the groups.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Domain</td> 
+   <td>For federated IDs that are not email addresses, enter the domain the user belongs to.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Groups</td> 
+   <td>For each group that you want to add the user to, click <b>Add item</b> and enter or map the group. You can enter up to four groups, and must enter at least one.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Use Adobe ID</td> 
+   <td>Select true to ensure that the user ID is interpreted to refer to an existing Adobe ID even if a Enterprise or Federated ID exists with the same name.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Create a user
+
+This action module creates a new user in the organization.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Adobe User Management, see <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" >Create a connection to Adobe User Management</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">ID type</td> 
+   <td>Select whether you want to create a user with an Adobe ID, an Enterprise ID, or a Federated ID. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Login</td> 
+   <td>If you are creating a user with a Federated ID, select the login type</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Email</td> 
+   <td>Enter or map the email address for the new user.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Domain</td> 
+   <td>If you are creating a user with a Federated ID with a domain-based login, enter or map the domain.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">User</td> 
+   <td>If you are creating a user with a Federated ID with a domain-based login, enter or map the user that this the new user will represent.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">First name</td> 
+   <td>Enter or map the first name of the user.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Last name</td> 
+   <td>Enter or map the last name of the user.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Country</td> 
+   <td>Enter or map the two-character ISO country code. This cannot be changed after the user is created.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Option</td> 
+   <td>Select the action to take if the user already exists in the organization. If no option is selected, and the user already exists, the module returns an error.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Use Adobe ID</td> 
+   <td>When true, the user ID is interpreted to refer to an existing Adobe ID even if a Enterprise or Federated ID exists with the same name.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### Remove the membership of a user from groups
+
+This action module removes users or profiles from a group. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Adobe User Management, see <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" >Create a connection to Adobe User Management</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Group name</td> 
+   <td>Enter or map name of the group that you want to remove the users or profiles from.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Users</td> 
+   <td>For each user that you want to remove, click <b>Add user</b> and enter the user's email address.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Profiles</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">For each profile that you want to remove from the group, click <b>Add user</b> and enter the profile name.</td> 
+   <td></td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### Update an existing user
 
