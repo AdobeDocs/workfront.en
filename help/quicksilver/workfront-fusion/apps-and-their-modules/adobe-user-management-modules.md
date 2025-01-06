@@ -379,10 +379,26 @@ This action module creates a new user group. If a group already exists with the 
  </tbody> 
 </table>
 
-#### Delete an existing user group
+#### Delete abuser group
+
+This action module deletes an existing user group.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Adobe User Management, see <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" >Create a connection to Adobe User Management</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Group name</td> 
+   <td>Enter or map the name of the group that you want to delete.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### Remove memberships for a user group
-
 
 This action module removes users or profiles from a user group. 
 
@@ -413,11 +429,82 @@ This action module removes users or profiles from a user group.
  </tbody> 
 </table>
 
-#### Update an existing user group
+#### Update a user group
+
+This action module updates an existing user group.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Adobe User Management, see <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" >Create a connection to Adobe User Management</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Original group name</td> 
+   <td>Enter or map the current name of the group that you want to update.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">New group name</td> 
+   <td>Enter or map the new name that you want the group to have.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Original group name</td> 
+   <td>Enter or map the updated description of the group.</td> 
+  </tr> 
+ </tbody> 
 
 ### Other
 
+This action module makes a custom call to the Adobe User Management API.
+
 #### Make a custom API call
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to Adobe User Management, see <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" >Create a connection to Adobe User Management</a> in this article.</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>URL</p>
+      </td>
+      <td>
+        <p>Enter a path relative to <code>https://usermanagement.adobe.io/v2/usermanagement/</code></p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Method]</p>
+      </td>
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Headers]</td>
+      <td>
+        <p>Add the headers of the request in the form of a standard JSON object.</p>
+        <p>For example, <code>{"Content-type":"application/json"}</code></p>
+        <p>[!DNL Workfront Fusion] adds authorization headers and x-api-key headers automatically.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Query String]  </td>
+      <td>
+        <p>Enter the request query string.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Body]</td>
+   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td>     </tr>
+  </tbody>
+</table>
 
 
 
