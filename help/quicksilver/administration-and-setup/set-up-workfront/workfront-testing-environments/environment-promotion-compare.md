@@ -8,6 +8,7 @@ description: You can compare objects across environments to ensure that your env
 author: Becky
 feature: System Setup and Administration
 role: Admin
+exl-id: 085b0f04-5a9c-49b9-86d7-2363731ee067
 ---
 # Compare objects between environments
 
