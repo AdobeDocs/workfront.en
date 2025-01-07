@@ -13,7 +13,38 @@ role: Admin
 
 You can compare objects between environments to ensure that your environment promotion packages contain the objects that you need. 
 
-You select the environments and types of objects to compare. Workfront compares all object of the selected types in both environment and presents data regarding the object differences.
+You select the environments and types of objects to compare. Workfront compares all objects of the selected types in both environments, and presents data regarding the object differences.
+
+## Access requirements
+
+You must have the following:
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   </td>
+   <td> Prime or Ultimate (New plans only)
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] licenses</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>Access level configurations
+   </td>
+   <td>You must be a [!DNL Workfront] administrator.
+   </td>
+  </tr>
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
+## Prerequisites
+
+Your organization must be on the Adobe Business Platform to compare objects between environments.
 
 ## Generate an object comparison
 
@@ -50,10 +81,4 @@ In this example:
 
 You can create a package directly from an object comparison.
 
-1. Create an object comparison, as described in [Generate an object comparison](#generate-an-object-comparison).
-1. In the generated comparison, select the objects that you want to include in the package.
-1. Click **Create package** in the upper-right corner of the screen.
-1. Enter a name and description for the package.
-1. Click **Create package** in the Create package window.
-
-   The package is generated.
+For instructions, see [Create a package from an object comparison](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-a-package-from-an-object-comparison) in the article Create or edit an environment promotion package.
