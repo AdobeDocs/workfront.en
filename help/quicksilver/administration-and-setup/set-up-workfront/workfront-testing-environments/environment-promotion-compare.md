@@ -77,6 +77,12 @@ In this example:
 
 >[!ENDSHADEBOX]
 
+To view specific object differences:
+
+1. Click the magnifying glass icon ![](assets/compare-icon.png) in the line for that object.
+
+   A window opens with all of that object's fields. differences are marked in red.
+
 ## Create a package from an object comparison
 
 You can create a package directly from an object comparison.
