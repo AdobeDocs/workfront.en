@@ -12,6 +12,34 @@ This page describes all administrator enhancements made with the First Quarter 2
 
 For a list of all changes available at this point in the First Quarter 2025 release cycle, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Compare objects between environments for environment promotion
+
+>[!NOTE]
+>
+>Preview release: January 6, 2024; Production release for all customers: With the 25.1 release (January 2025)
+
+To make it easier to determine which object should be included in an environment promotion package, we've added the ability to compare objects across environments. Now, you can select object types and environments. Workfront generates a list of objects of that type, whether they are present in the target environment, and whether that object has differences between the source environment and the target environment. You can then add objects to a package directly from this list.
+
+Previously, if a user wanted to compare objects between environments, they must check those objects manually.
+
+For more information, see [Compare objects between environments](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md).
+
+## More objects available for environment promotion
+
+>[!NOTE]
+>
+>Preview release: January 6, 2024; Production release for all customers: With the 25.1 release (January 2025)
+
+To expand the capabilities of environment promotion functionality, we've added more objects. Now, you can add the following objects to an environment promotion package:
+
+* Locations
+* Rate cards
+* Assignments
+
+Previously, these objects were not available for environment promotion.
+
+For more information on objects available for environment promotion, see [Supported objects for environment promotion](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) in the article Environment promotion overview.
+
 ## Prevent Moving tasks when there are Hours logged
 
 >[!NOTE]
