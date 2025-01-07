@@ -104,7 +104,7 @@ A package must be in `DRAFT` status to be edited.
 
 You can create a package directly from an object comparison.
 
-1. Create an object comparison, as described in [Compare objects between environments](help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md).
+1. Create an object comparison, as described in [Compare objects between environments](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md).
 1. In the generated comparison, select the objects that you want to include in the package.
 1. Click **Create package** in the upper-right corner of the screen.
 1. Enter a name and description for the package.
