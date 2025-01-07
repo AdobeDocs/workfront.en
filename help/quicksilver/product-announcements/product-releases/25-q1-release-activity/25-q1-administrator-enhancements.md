@@ -22,7 +22,7 @@ To make it easier to determine which object should be included in an environment
 
 Previously, if a user wanted to compare objects between environments, they must check those objects manually.
 
-For more information, see [Compare objects between environments](help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md).
+For more information, see [Compare objects between environments](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md).
 
 ## More objects available for environment promotion
 
