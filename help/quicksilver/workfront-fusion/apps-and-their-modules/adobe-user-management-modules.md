@@ -60,9 +60,56 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 +++
 
-## Prerequisites
-
 ## Create a connection to Adobe User Management
+
+To create a connection for your [!DNL Adobe User Management] modules:
+
+1. Click **[!UICONTROL Add]** next to the Connection box.
+    
+1. Fill in the following fields:
+    
+    <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>Enter a name for this connection.</p>
+        </td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>Select whether you are connecting to a production or non-production environment.</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>Select whether you are connecting to a service account or a personal account.</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>Enter your [!UICONTROL Adobe] [!UICONTROL Client ID]. This can be found in the [!UICONTROL Credentials] details section of the [!DNL Adobe Developer Console]</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>Enter your [!DNL Adobe] [!UICONTROL Client Secret]. This can be found in the [!UICONTROL Credentials] details section of the [!DNL Adobe Developer Console]</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL IMS Organization ID]</td>
+        <td>Enter your [!DNL Adobe] IMS credentials. The unique identifier for an organization. This is a string of the form A495E53@AdobeOrg where the prefix before the @ is a hexadecimal number. You can find this value as part of the URL path for the organization in the Admin Console or in the adobe.io console for your User Management integration.</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Additional scopes]</td>
+        <td>For each additional scope you want to add, click <b>Add item</b> and enter the scope.</td>
+        </tr>
+      </tbody>
+    </table>
+    
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
+    
+
 
 ## Adobe User Management modules and their fields
 
@@ -302,7 +349,7 @@ This action module updates an existing user.
   </tr> 
   <tr> 
    <td role="rowheader">User</td> 
-   <td>Enter or map the ID of the user you want to update. </td> 
+   <td>Enter or map the ID of the user you want to update. This is the user's email address, such as <code>user@example.com</code></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Domain</td> 
