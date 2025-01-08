@@ -2301,6 +2301,7 @@ feature-set: Workfront
     * [Adobe PDF Services modules](workfront-fusion/apps-and-their-modules/pdf-modules.md)
     * [Adobe Photoshop modules](workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
     * [Adobe Target modules](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
+    * [Adobe User Management modules](workfront-fusion/apps-and-their-modules/adobe-user-management-modules.md)
     * [Airtable modules](workfront-fusion/apps-and-their-modules/airtable-modules.md)
     * [Allocadia modules](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
     * [Anaplan Modules](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
