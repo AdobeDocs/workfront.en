@@ -238,7 +238,9 @@ You can filter tasks and issues assigned to you.
 
 1. (Optional) Click **Back to default** to reset your selection.
 
-<!--### Filter your work with Smart filters
+<div class="preview">
+
+### Filter your work with Smart filters
 
 Use natural language to filter quickly filter work.
 
@@ -254,7 +256,7 @@ Use natural language to filter quickly filter work.
     * Show my top priorities
     * Show work due today
 
--->
+</div>
 
 ### Group your work
 
