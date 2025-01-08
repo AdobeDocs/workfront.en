@@ -17,6 +17,11 @@ You can use filters on the following widgets to find and organize work:
 * [My Work](#my-work)
 * [My Approvals](#my-approvals)
 
+>[!IMPORTANT]
+>
+>* To display tasks and issues in the Home widgets, their parent project must be in Current status or a status that equates current.
+>* Projects must also be in Current status or a status that equates current to display in the My Projects widget.
+
 ## My Projects
 
 You can use the following filters in the My Projects widget:
