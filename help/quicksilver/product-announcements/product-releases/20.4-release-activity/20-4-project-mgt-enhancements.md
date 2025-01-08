@@ -57,7 +57,7 @@ To save time and increase understanding of the overall health of a project, ther
 
 You can make selections on the charts to see different aspects of the tasks and issues in a project and click certain elements to display task information.
 
-This feature is now included in the [Planner Fundamentals, Part 3 learning path](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) on Workfront One.
+<!--This feature is now included in the [Planner Fundamentals, Part 3 learning path](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) on Workfront One. -->
 
 ## New for administrators: Assign a business leader to a group
 
@@ -67,7 +67,7 @@ The new Business Leader field can be used in report filters, views, and grouping
 
 For more information, see [Business Leader overview](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
 
-This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## New for administrators: Associate portfolios, programs, and companies with groups
 
@@ -77,7 +77,7 @@ For example, you can list all of your organization's portfolios in a report and 
 
 For more information, see the section "About associating a group with an object" in the article [Groups overview](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
-This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## New for administrators: Administrators for a group assigned to a company can manage the company
 
@@ -87,7 +87,7 @@ For more information, see [Create and edit companies](../../../administration-an
 
 For information about administrative access to companies, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Replace the Work On It button with a Start button
 
@@ -97,7 +97,7 @@ Updated on September 24th: After clicking Start task or Start issue, you now hav
 
 For more information on configuring this option, see [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
-This feature is now included in the [Worker Fundamentals learning path](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) and the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.
+<!--This feature is now included in the [Worker Fundamentals learning path](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) and the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Allow multiple drafts for a queue topic
 
@@ -105,7 +105,7 @@ To give you more freedom when working with requests, there is no longer a limit 
 
 Prior to this enhancement, Workfront saved only one draft for each queue topic in your request queue.
 
-For information about submitting requests, see " [Create and submit Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+For information about submitting requests, see [Create and submit Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Assign a group to a team
 
@@ -115,7 +115,7 @@ When you assign a team to a group, its Group Administrators can manage the team 
 
 For more information, see [Create a team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
-This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## New fields allow you to report on data for a top-level group and all its subgroups
 

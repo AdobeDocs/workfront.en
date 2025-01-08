@@ -95,6 +95,7 @@ Because environment promotion deals with object configuration, transactional obj
 | Resource Pool (RSPL) | Resource Pool |
 | Access Level (ACSLVL) | Access Level |
 | <span class="preview">Rate Card (RTCRD)</span> | <span class="preview">Rate Card</span> |
+| <span class="preview">Location / Classifier (CLSF)</span> | <span class="preview">Location / Classifier</span> |
 
 \* Not currently available 
 

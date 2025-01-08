@@ -522,6 +522,7 @@ feature-set: Workfront
       * [Create or edit an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
       * [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
       * [Roll back an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)
+      * [Compare objects between enviroments](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md)
       * [Environment promotion using the API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
       * [Environment promotion FAQ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
       * [Environment promotion troubleshooting](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
@@ -1847,7 +1848,7 @@ feature-set: Workfront
     * [Recall submitted approvals](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
   * Asset and document review and approval {#document-reviews-and-approvals}
     * [Asset and document review and approval: article index](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-    * [Asset and Document approvals overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+    * [Available functionality for asset and document review and approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
     * [New document approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
     * [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
     * Set up and manage asset and document approvals {#manage-asset-review-and-approval}
