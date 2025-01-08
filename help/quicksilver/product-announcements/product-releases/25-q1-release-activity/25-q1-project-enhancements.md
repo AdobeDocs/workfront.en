@@ -16,7 +16,7 @@ For a list of all changes available at this point in the First Quarter 2025 rele
 
 >[!NOTE]
 >
->Preview release: December 19, 2024; Production release for all customers: With the 25.1 release (January 2025) 
+>Preview release: December 19, 2024; Production release for all customers: With the 25.1 release (January 16, 2025) 
 
 A functionality that has been in the Preview environment since December 2023 and in the fast release Production environment since March 2024 has now been removed. The features added more relevant smart assignment suggestions when assigning tasks.  
 

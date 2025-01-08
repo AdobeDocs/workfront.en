@@ -16,7 +16,7 @@ For a list of all changes available at this point in the First Quarter 2025 rele
 
 >[!NOTE]
 >
->Preview release: December 19, 2024; Production release for all customers: With the 25.1 release (January 2025)
+>Preview release: December 19, 2024; Production release for all customers: With the 25.1 release (January 16, 2025)
 
 Because moving tasks or issues that have logged hours can sometimes cause compliance or audit problems, we have added a preference in the Task & Issues Preferences area of Setup that allows you to prevent users from moving tasks and issues if there are hours logged on them. Prior to this enhancement, users could move tasks and issues to other projects, even if there were hours logged on them. 
 
@@ -26,7 +26,7 @@ For information, see [Configure system-wide task and issue preferences](/help/qu
 
 >[!NOTE]
 >
->Preview release: November 21, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 2025)
+>Preview release: November 21, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 16, 2025)
 
 As a system or group administrator, you now have a new preference to indicate whether Workfront should use the project's or the user's schedule to calculate the timeline of the project when you assign one user to a task and both the project and the user are associated with a schedule. Prior to this enhancement, this setting existed for multiple-user assignments. The setting is now available for single-user assignments to tasks.  
 
@@ -36,7 +36,7 @@ For more information, see [Configure system-wide project preferences](/help/quic
 
 >[!NOTE]
 >
->Preview release: November 21, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 2025)
+>Preview release: November 21, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 16, 2025)
 
 You can now include hyperlinks in the custom error message of a business rule, to guide the user on how to modify their action within the constraint of the rule. The static URL could link to documentation or other pages that would be helpful to the user.
 
@@ -46,7 +46,7 @@ For information, see [Create and edit business rules](/help/quicksilver/administ
 
 >[!NOTE]
 >
->Preview release: November 21, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 2025)
+>Preview release: November 21, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 16, 2025)
 
 When you add a native field reference to a custom form and it references a typeahead field (such as Portfolio, Company, or Owner), a filter option is now available. The filter allows you to limit the objects users can choose when they are using the field. This custom filter works the same as a filter on a custom typeahead field, using Text Mode to define the filter.
 
@@ -56,7 +56,7 @@ For information, see [Create a custom form](/help/quicksilver/administration-and
 
 >[!NOTE]
 >
->Preview release: October 29, 2024; Production for fast release: With the 24.11 release (November 14, 2024); Production for quarterly release: With the 25.1 release (January 2025)
+>Preview release: October 29, 2024; Production for fast release: With the 24.11 release (November 14, 2024); Production for quarterly release: With the 25.1 release (January 16, 2025)
 
 When a custom form contains multiple sections with many fields, it can be difficult to move a field from one section to another by dragging and dropping. A "move to" icon has been added to each field, allowing you to select the section that the field is placed in.
 

@@ -62,7 +62,7 @@ This page provides information about functionality that is included in the First
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: December 19, 2024</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>  
@@ -78,7 +78,7 @@ This page provides information about functionality that is included in the First
             <ul>
                 <li>Preview release: November 21, 2024</li>
                 <li>Production for fast release: With the 24.12 release (December 12, 2024)</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>     
@@ -94,7 +94,7 @@ This page provides information about functionality that is included in the First
             <ul>
                 <li>Preview release: November 21, 2024</li>
                 <li>Production for fast release: With the 24.12 release (December 12, 2024)</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>    
@@ -109,7 +109,7 @@ This page provides information about functionality that is included in the First
             <ul>
                 <li>Preview release: November 21, 2024</li>
                 <li>Production for fast release: With the 24.12 release (December 12, 2024)</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>
@@ -125,7 +125,7 @@ This page provides information about functionality that is included in the First
             <ul>
                 <li>Preview release: October 29, 2024</li>
                 <li>Production for fast release: With the 24.11 release (November 14, 2024)</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>
@@ -151,13 +151,13 @@ This page provides information about functionality that is included in the First
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Change the owner of a board</a></p>
             <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel.</p>
-            <p>Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
+            <p>Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board. This functionality is available on basic, retrospective, and Kanban boards, but not dynamic boards.</p>
         </td>
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: December 18, 2024</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>
@@ -190,7 +190,7 @@ This page provides information about functionality that is included in the First
             <ul>
                 <li>Preview release: November 21, 2024</li>
                 <li>Production for fast release: With the 24.12 release (December 12, 2024)</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>    
@@ -206,7 +206,7 @@ This page provides information about functionality that is included in the First
             <ul>
                 <li>Preview release: November 7, 2024</li>
                 <li>Production for fast release: With the 24.11 release (November 14, 2024)</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
             <p><i>This feature is part of a phased release and only available for specific customers.</i></p>
         </td>
@@ -231,6 +231,25 @@ This page provides information about functionality that is included in the First
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Use Smart Filters to find your work in Priorities</a></p>
+            <p>Use natural language to quickly filter work in the Priorities worklist. You can type things like </p>
+            <ul>
+                <li>Show me late tasks</li>
+                <li>Show me tasks due this week</li>
+                <li>Show top priorities</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: January 9, 2025</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Catch up on work in Priorities</a></p>
             <p>You can use Catch me up to help reduce the amount of time looking for information on active projects.</p>
             <p>Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.</p>
@@ -239,7 +258,7 @@ This page provides information about functionality that is included in the First
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: December 20, 2024</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>
@@ -253,7 +272,7 @@ This page provides information about functionality that is included in the First
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: December 19, 2024</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>
@@ -273,7 +292,7 @@ This page provides information about functionality that is included in the First
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: December 19, 2024</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>
@@ -293,7 +312,7 @@ This page provides information about functionality that is included in the First
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: December 19, 2024</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>
@@ -307,7 +326,7 @@ This page provides information about functionality that is included in the First
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: December 12, 2024</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>
@@ -321,7 +340,7 @@ This page provides information about functionality that is included in the First
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: December 5, 2024</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>
@@ -358,7 +377,7 @@ This page provides information about functionality that is included in the First
             <ul>
                 <li>Preview release: November 6, 2024</li>
                 <li>Production for fast release: With the 24.11 release (November 14, 2024)</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>
@@ -389,7 +408,7 @@ This page provides information about functionality that is included in the First
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: December 19, 2024</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>
@@ -453,7 +472,7 @@ This page provides information about functionality that is included in the First
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: December 16, 2024</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>
@@ -499,7 +518,7 @@ This page provides information about functionality that is included in the First
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: December 19, 2024</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>
@@ -543,7 +562,7 @@ This page provides information about functionality that is included in the First
             <ul>
                 <li>Preview release: November 11, 2024</li>
                 <li>Production for fast release: With the 24.12 release (December 12, 2024)</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>
@@ -559,7 +578,7 @@ This page provides information about functionality that is included in the First
             <ul>
                 <li>Preview release: October 31, 2024</li>
                 <li>Production for fast release: With the 24.11 release (November 14, 2024)</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>

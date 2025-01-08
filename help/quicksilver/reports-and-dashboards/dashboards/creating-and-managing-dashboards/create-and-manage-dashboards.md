@@ -11,6 +11,8 @@ exl-id: a7f29a8e-1aa8-4c6c-adeb-e6177291999a
 ---
 # Create and manage dashboards
 
+<!-- Audited: 1/2025 -->
+
 This section contains the following articles:
 
 * [Create a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) 
