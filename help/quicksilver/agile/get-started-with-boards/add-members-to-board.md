@@ -86,6 +86,8 @@ For more detail about the information in this table, see [Access requirements in
    >[!NOTE]
    >
    >Only a system administrator or the current board owner can change the board owner. A board can only have one owner.
+   >
+   >The ability to change the board owner is available on basic, retrospective, and Kanban boards, but not dynamic boards.
 
 1. Access the board.
 1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) next to the board name, then choose **[!UICONTROL Change board owner]**.
