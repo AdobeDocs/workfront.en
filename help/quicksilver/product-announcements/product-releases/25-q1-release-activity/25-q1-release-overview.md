@@ -55,6 +55,34 @@ This page provides information about functionality that is included in the First
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+           Compare objects between environments for environment promotion</a></p>
+            <p>To make it easier to determine which object should be included in an environment promotion package, we've added the ability to compare objects across environments. You can then add objects to a package directly from this comparison.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: January 6, 2024</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            More objects available for environment promotion</a></p>
+            <p>To expand the capabilities of environment promotion functionality, we've added more objects.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: January 6, 2024</li>
+                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+            </ul>
+        </td>
+    </tr>  
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Prevent Moving tasks when there are Hours logged</a></p>
             <p>Because moving tasks or issues that have logged hours can sometimes cause compliance or audit problems, we have added a preference in the Task & Issues Preferences area of Setup that allows you to prevent users from moving tasks and issues if there are hours logged on them.</p>
         </td>
@@ -65,7 +93,7 @@ This page provides information about functionality that is included in the First
                 <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
-    </tr>  
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">

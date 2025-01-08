@@ -11,6 +11,10 @@ exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
 
 The My Work widget displays all of your assigned tasks, issues, and requests in one place. Here, you can filter and organize your work, log time, make updates, and mark work items complete.
 
+>[!IMPORTANT]
+>
+>To display tasks and issues in the My Work widget, their parent project must be in Current status or a status that equates current.
+
 ## Access requirements
 
  +++ Expand to view access requirements for the functionality in this article.

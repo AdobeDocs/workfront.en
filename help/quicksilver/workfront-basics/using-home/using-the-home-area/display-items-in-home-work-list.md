@@ -13,6 +13,11 @@ exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
 
 Each widget contains its own worklist. Worklists display all work items that are assigned to you. You can control which items display in your [!UICONTROL worklist], by using filters and groupings.
 
+>[!IMPORTANT]
+>
+>* To display tasks and issues in the Home widgets, their parent project must be in Current status or a status that equates current.
+>* Projects must also be in Current status or a status that equates current to display in Home.
+
 ## Access requirements
 
  +++ Expand to view access requirements for the functionality in this article.
