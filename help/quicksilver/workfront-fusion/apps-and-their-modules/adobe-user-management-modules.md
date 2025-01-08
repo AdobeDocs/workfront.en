@@ -7,6 +7,7 @@ title: Adobe User Management modules
 description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that manage users in your Adobe account.
 author: Becky
 feature: Workfront Fusion
+exl-id: e8fe8ec4-4b00-4c9a-81a5-acb2039b153b
 ---
 # Adobe User Management modules
 
@@ -573,13 +574,3 @@ This action module makes a custom call to the Adobe User Management API.
      </div> </p> </td>     </tr>
   </tbody>
 </table>
-
-
-
-
-
-
-
-
-
-
