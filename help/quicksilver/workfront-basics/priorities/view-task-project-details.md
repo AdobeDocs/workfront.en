@@ -13,6 +13,11 @@ exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
 
 You can view project, task, and issue details in the priorities worklist.
 
+>[!IMPORTANT]
+>
+>Projects must be in Current status or a status that equates current in order to display projects as well as their child tasks and issues. 
+
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.

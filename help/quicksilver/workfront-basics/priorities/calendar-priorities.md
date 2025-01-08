@@ -17,6 +17,11 @@ Easily track your work with a clear, visual calendar. With the Priorities calend
 * Apply custom fields like status and focus level to identify high-priority work
 * Apply colors for quick organization
 
+>[!IMPORTANT]
+>
+>Projects must be in Current status or a status that equates current in order to display projects as well as their child tasks and issues. 
+
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
