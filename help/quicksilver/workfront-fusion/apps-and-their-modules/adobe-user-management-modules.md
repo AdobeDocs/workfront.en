@@ -119,7 +119,17 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
+* [Searches](#searches)
+* [User actions](#user-actions)
+* [User group actions](#user-group-actions)
+* [Other](#other)
+
 ### Searches
+
+* [Get user groups and product profiles](#get-user-groups-and-product-profiles)
+* [Get user information](#get-user-information)
+* [Get users in a user group or product profile](#get-users-in-a-user-group-or-product-profile)
+* [Get users in an organization](#get-users-in-an-organization)
 
 #### Get user groups and product profiles
 
@@ -216,6 +226,11 @@ This search module returns all users of the organization associated with the con
 
 ### User actions
 
+* [Add a user as a member of a group](#add-a-user-as-a-member-of-a-group)
+* [Create a user](#create-a-user)
+* [Remove a user from groups](#remove-a-user-from-groups)
+* [Update a user](#update-a-user)
+
 #### Add a user as a member of a group
 
 This action module adds a user as a member of the specified group or groups. This module can add the user to up to four groups.
@@ -302,7 +317,7 @@ This action module creates a new user in the organization.
  </tbody> 
 </table>
 
-#### Remove a user from a group
+#### Remove a user from groups
 
 This action module removes the membership of a user from the specified groups. You can remove a user from up to four groups at a time.
 
@@ -372,6 +387,12 @@ This action module updates an existing user.
 
 ### User group actions
 
+* [Add memberships for a user group](#add-memberships-for-a-user-group)
+* [Create a user group](#create-a-user-group)
+* [Delete a user group](#delete-a-user-group)
+* [Remove memberships for a user group](#remove-memberships-for-a-user-group)
+* [Update a user group](#update-a-user-group)
+
 #### Add memberships for a user group
 
 This action module adds users and product profiles to a user group. Users added to the user group gain entitlement to all product profiles in the user group. Adding a product profile gives entitlement to that profile to users in the user group.
@@ -426,7 +447,7 @@ This action module creates a new user group. If a group already exists with the 
  </tbody> 
 </table>
 
-#### Delete abuser group
+#### Delete a user group
 
 This action module deletes an existing user group.
 
