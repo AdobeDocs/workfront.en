@@ -31,7 +31,7 @@ This page provides information about functionality that is included in the First
 * [Administrator enhancements](#administrator-enhancements)
 * [Boards enhancements](#boards-enhancements)
 * [Document management enhancements](#document-management-enhancements)
-* [Home enhancements](#home-enhancements)
+* [Priorities enhancements](#priorities-enhancements)
 * [Project enhancements](#project-enhancements)
 * [Proofing enhancements](#proofing-enhancements)
 * [Report and Dashboard enhancements](#report-and-dashboard-enhancements)
@@ -242,7 +242,7 @@ This page provides information about functionality that is included in the First
 </tbody>
 </table> 
 
-### Home enhancements
+### Priorities enhancements
 
 <table>
 <col style="width: 50%;" />
