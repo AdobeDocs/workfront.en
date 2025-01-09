@@ -9,7 +9,7 @@ exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
 ---
 # Create a dashboard
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 You can create dashboards to quickly access information in Adobe Workfront. Up to 25 reports, calendars, and external pages can be added to dashboards that you can share with others for optimal collaboration.
 
@@ -32,7 +32,7 @@ You must have the following:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront license*</strong></p> </td> 
+   <td> <p><strong>Adobe Workfront license</strong></p> </td> 
    <td> <p>Current: Plan </p>
    Or
    <p>New: Standard </p> </td> 
@@ -48,7 +48,7 @@ You must have the following:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
 
 +++
 

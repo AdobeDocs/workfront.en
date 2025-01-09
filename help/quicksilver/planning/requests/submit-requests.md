@@ -143,9 +143,10 @@ The following must be in place before you can submit a request to a Workfront Pl
 
    Your form is submitted and the following things occur:
 
-   * If the request form was not associated with an approval, or <span class="preview">if the approval was granted by all approvers,</span> a new record is added to the record type associated with the form.
+   * If the request form was not associated with an approval, the request is added to the <span class="preview">Planning tab of the Submitted section of the Workfront Requests area </span> and a new record is added to the record type associated with the form.
    
-   * If the request form was not associated with an approval, the <span class="preview"> request is added to the Planning tab of the Submitted section of the Workfront Requests area and a new record is added to the record type page.</span> 
+   * If the request form was associated with an approval, the <span class="preview"> request is added to the Planning tab of the Submitted section of the Workfront Requests area. A new record is added to the record type page only after all the approvers have approved it.</span> 
+   <span class="preview">For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>  
 
       ![](assets/planning-tab-in-requests.png)
 
@@ -153,9 +154,6 @@ The following must be in place before you can submit a request to a Workfront Pl
       >
       ><span class="preview">All users who have access to at least one workspace can view the Planning tab in the Requests area. You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. </span> <!--ensure this is correct; asking team in slack-->
 
-   * <span class="preview">If the request form was associated with an approval, the request is temporarily saved to the Planning tab in the Submitted section of the Workfront Requests area. No record is created for the record type associated with the request form.</span>
-
-      <span class="preview">For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>  
    * <span class="preview">You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.</span> 
    * <span class="preview">If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.</span> 
 

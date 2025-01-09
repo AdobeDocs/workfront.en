@@ -8,6 +8,7 @@ exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
 ---
 # Canvas Dashboards Overview
 
+<!-- This page is hidden as it is outdated, delete once full Canvas Dashboard docs are live-->
 <!-- Audited: 12/2023 -->
 
 Canvas Dashboards, a feature currently in development for Dashboards, offers a new option for building effective dashboards in Workfront. Canvas Dashboards will allow Reporting Canvas visualizations to be easily included with existing reports, providing increased flexibility as well as new layout options.
@@ -75,6 +76,7 @@ A new Canvas Dashboards option on the left panel of the existing dashboards land
 1. Begin typing in the name of the report you would like to display in the **Find Report** field. When you see the report in the list, click either the **List Report** or **Chart Report** icon next to its name to display the information from that report in your chosen format.
 
 >[!WARNING]
+>
 > While adding multiple widgets that display information from the same report is currently possible, we recommend only displaying each report once as it can affect dashboard performance.
 
 ### Edit a widget in a Canvas Dashboard

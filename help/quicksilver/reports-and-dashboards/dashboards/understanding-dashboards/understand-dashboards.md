@@ -11,6 +11,8 @@ exl-id: 9c7e0810-80e4-4048-a79b-cb91319e5e37
 ---
 # Understand dashboards
 
+<!-- Audited: 1/2025 -->
+
 This section contains the following articles:
 
 * [Get started with dashboards](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md) 

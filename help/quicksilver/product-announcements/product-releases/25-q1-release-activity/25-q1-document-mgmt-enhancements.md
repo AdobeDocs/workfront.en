@@ -16,7 +16,7 @@ For a list of all changes available at this point in the First Quarter 2025 rele
 
 >[!NOTE]
 >
->Preview release: November 21, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 2025)
+>Preview release: November 21, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 16, 2025)
 
 You can now edit multiple documents at once. You can edit the descriptions and update custom forms.
 
@@ -30,7 +30,7 @@ You can now edit multiple documents at once. You can edit the descriptions and u
 
 >[!NOTE]
 >
->Preview release: November 7, 2024; Production for fast release: With the 24.11 release (November 14, 2024); Production for quarterly release: With the 25.1 release (January 2025)
+>Preview release: November 7, 2024; Production for fast release: With the 24.11 release (November 14, 2024); Production for quarterly release: With the 25.1 release (January 16, 2025)
 
 When a new version is added to a document with pending approvals, the approval for the previous version will now display as "Withdrawn," indicating that the prior approval process has closed due to the new version being added.
 
