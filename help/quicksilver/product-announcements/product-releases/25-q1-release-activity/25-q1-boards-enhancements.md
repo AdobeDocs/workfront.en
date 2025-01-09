@@ -20,7 +20,7 @@ For a list of all changes available at this point in the First Quarter 2025 rele
 
 The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel.
 
-Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.
+Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board. This functionality is available on basic, retrospective, and Kanban boards, but not dynamic boards.
 
 Previously, the board owner could not be changed without intervention on the back end.
 

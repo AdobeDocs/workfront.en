@@ -17,6 +17,8 @@ Routing rules control what Adobe Workfront does with issues when they are submit
 
 Routing rules send issues to specific users or job roles best equipped to resolve the submitted issue or request. Routing rules are usually associated with queue topics, which are used to control which routing rule will be applied to the issue or request.
 
+Once created, you cannot move routing rules from one project to another.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.

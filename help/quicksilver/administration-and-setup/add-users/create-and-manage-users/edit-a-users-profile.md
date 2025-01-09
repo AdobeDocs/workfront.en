@@ -26,6 +26,8 @@ exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
 
 As an Adobe Workfront administrator, you can create users and manage the profiles of existing ones. For information about creating users, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
+For information about users updating their own profiles, see [Configure my settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
