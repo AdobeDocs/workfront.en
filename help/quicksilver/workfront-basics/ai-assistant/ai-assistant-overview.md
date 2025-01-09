@@ -94,12 +94,12 @@ AI Assistant currently offers the following functionality:
 
    For more information, see [Generate or revise calculated field formulas with AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md).
 
-<!--<div class="preview">
+<div class="preview">
 * Summarizing updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days in Priorities.
 
 For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
-</div>-->
+</div>
 
 ## Object types available for AI Assistant
 
