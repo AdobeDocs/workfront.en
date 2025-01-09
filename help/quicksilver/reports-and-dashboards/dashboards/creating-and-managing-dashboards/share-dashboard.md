@@ -9,6 +9,8 @@ exl-id: 21bd531f-8732-4d6c-b91f-990887285447
 ---
 # Share a dashboard
 
+<!-- Audited: 1/2025 -->
+
 Your Adobe Workfront administrator grants users access to view or edit dashboards when they assign access levels. For more information about granting access to issues, see [Grant access to reports, dashboards, and calendars](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 Along with the access level that users are granted, you can also grant them permissions to View or Manage specific dashboards that you have access to share. For more information about access levels and permissions, see [How access levels and permissions work together](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
@@ -21,6 +23,8 @@ Permissions are specific to one item in Workfront and define what actions one ca
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to share objects:
 
 <table style="table-layout:auto"> 
@@ -28,25 +32,36 @@ You must have the following to share objects:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Review or higher</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
+    <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Light or higher</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Review or higher</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View access or higher to&nbsp;Reports,&nbsp;Dashboards, Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>View access or higher to Reports, Dashboards, Calendars</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>View permissions or higher the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View permissions or higher the dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 
@@ -77,11 +92,11 @@ Sharing one dashboard or several dashboards from a list is identical.
 
    Or
 
-   Click the name of one dashboard, then click **Dashboard Actions >****Sharing**.
+   Click the name of one dashboard, then click **Dashboard Actions** > **Sharing**.
 
-   ![](assets/qs-dashboard-actions-menu-350x318.png)
+   ![](assets/unshimmed-share-dashboard.png)
 
-1. In the **Add people, teams, roles, groups, or companies ...**&nbsp;field, start typing the name of the user, team, role, group, or company that you want to share the dashboard with, then click the name when it appears in the drop-down list.
-1. (Optional) To make the dashboard accessible to all users in the system, click the **Settings** icon in the upper right corner of the sharing dialog box, then select **Make this visible system-wide**.
+1. In the **Add people, teams, roles, groups, or companies** field, start typing the name of the user, team, role, group, or company that you want to share the dashboard with, then click the name when it appears in the drop-down list.
+1. (Optional) To make the dashboard accessible to all users in the system, click the **Only invited people can access** dropdown menu in the sharing dialog box, then select **Everyone in the system can view**.
 
 1. Click **Save**.

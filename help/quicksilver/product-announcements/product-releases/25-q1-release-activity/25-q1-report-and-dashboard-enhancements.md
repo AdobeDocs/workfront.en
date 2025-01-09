@@ -16,7 +16,7 @@ For a list of all changes available at this point in the First Quarter 2025 rele
 
 >[!NOTE]
 >
->Preview release: December 16, 2024; Production release for all customers: With the 25.1 release (January 2025) 
+>Preview release: December 16, 2024; Production release for all customers: With the 25.1 release (January 16, 2025) 
 
 To maintain dashboard performance, we have implemented a limit to the total number of reports, external pages, or calendars that can be placed in a dashboard. When creating a new dashboard, a maximum of 25 items can be added.
 

@@ -9,7 +9,7 @@ exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
 ---
 # Embed an external web page in a dashboard
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 You can embed an external web page in a dashboard to provide access to related information from other systems or from within Adobe Workfront.
 
@@ -58,10 +58,17 @@ You must have the following:
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Current: Plan </p>
-   Or
-   <p>New: Standard </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations</strong></td> 
@@ -69,12 +76,12 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> </td> 
+   <td> <p>Edit access to the Dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -156,7 +163,7 @@ To update the information for an external page used in a dashboard:
 
    The **Dashboard Details** box opens.
 
-1. In the **Select Layout / Add Reports / Add Calendars** area of the **Dashboard Details** box, locate the external page you want to update, hover over it, and click the **Edit** icon.  
+1. In the **Select Layout / Add Reports** area of the **Dashboard Details** box, locate the external page you want to update, hover over it, and click the **Edit** icon.  
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. In the **Edit External Page** box, update the fields you want to change, then click **Save**.
@@ -169,7 +176,7 @@ You can view all external pages in Workfront in an External Page report.
 
 {{step1-to-reports}}
 
-1. Click **New Report** > select **External Page**.
+1. Click **New Report** > select **External Section**.
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 
@@ -177,8 +184,7 @@ You can view all external pages in Workfront in an External Page report.
 
    For more information, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). 
 
-1. Click **Save+Close**.
+1. Click **Save + Close**.
 
-   You can view the name and the URL associated with the external pages in your system in the new report.
+   You can view the name and the URL associated with any external pages in your system in the new report.
 
-   ![](assets/external-page-report-name-url-columns-nwe-350x213.png)

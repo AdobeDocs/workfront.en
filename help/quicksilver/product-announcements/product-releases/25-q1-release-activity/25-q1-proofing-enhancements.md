@@ -16,7 +16,7 @@ For a list of all changes available at this point in the First Quarter 2025 rele
 
 >[!NOTE]
 >
->Preview release: August 30, 2024; Production release for all customers: August 30, 2024.
+>Preview release: November 7, 2024; Production release for all customers: November 7, 2024.
 
 We are introducing a new browser extension, the Adobe Workfront review tool, to replace the legacy browser extension for reviewing interactive ZIP content. The legacy browser extension will be removed on February 28, 2025.
 

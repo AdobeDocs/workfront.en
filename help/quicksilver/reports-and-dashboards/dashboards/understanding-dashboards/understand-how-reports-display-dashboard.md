@@ -10,11 +10,13 @@ exl-id: 5ec2380e-e4fc-42f5-a553-b61c11573b9b
 ---
 # Understand how reports display on a dashboard
 
+<!-- Audited: 1/2025 -->
+
 You can manage how reports added to dashboards display on the dashboards.
 
 For information about editing the layout of reports on a dashboard, see [Create a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
-You can select which report columns should display on a dashboard when you are creating a report. If you want to always show all columns of the report on a dashboard, ensure that you specify that for each column when you create the report.
+You can select which report columns should display on a dashboard when you are creating or editing a report by clicking on [!UICONTROL **Advanced Options**] in [!UICONTROL **Column Settings**]. If you want to show all columns of the report on a dashboard, ensure that you specify that for each column of the report.
 
 For more information about selecting which columns of a report should display on a dashboard, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

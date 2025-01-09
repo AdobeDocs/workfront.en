@@ -27,7 +27,7 @@ We've changed the way moved and deleted assets are handled when using the Adobe 
 
 >[!NOTE]
 >
->Preview release: November 11, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 2025)
+>Preview release: November 11, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 16, 2025)
 
 When a custom form with multiple sections is attached to an object, you can now collapse and expand all sections except the default section at the top of the form. The administrator can also see this functionality when previewing the form in the form designer.
 
@@ -37,7 +37,7 @@ For information about adding a section to a custom form, see [Organize and previ
 
 >[!NOTE]
 >
->Preview release: October 31, 2024; Production for fast release: With the 24.11 release (November 14, 2024); Production for quarterly release: With the 25.1 release (January 2025)
+>Preview release: October 31, 2024; Production for fast release: With the 24.11 release (November 14, 2024); Production for quarterly release: With the 25.1 release (January 16, 2025)
 
 To make it easier to manage your work items in Workfront, we've updated AI Assistant to work with projects, tasks, and issues. Now, AI Assistant can locate projects, tasks, and issues based on criteria you specify, such as "Find my tasks that are due this week."
 Previously, AI Assistant was not able to work directly with projects, tasks, and issues.
