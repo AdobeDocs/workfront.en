@@ -192,7 +192,7 @@ For more detail about the information in this table, see [Access requirements in
        <p>Consider the following:</p> 
         <ul> 
          <li> When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. </li>
-      <li>When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. </li></ul>
+      <li>When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved to another project. You can move tasks with logged hours within the same project, even with this option deselected.  </li></ul>
       </td> 
      </tr> 
     </tbody> 

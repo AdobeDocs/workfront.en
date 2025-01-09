@@ -12,14 +12,10 @@ exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
 
 <!--Audited: 12/2023-->
 
-<!--remove all preview and production references from this article with 23.3 release-->
+<!--remove all preview and production references if any-->
+<!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
--->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>  
 
 You can log time for work items in Adobe Workfront to indicate the number of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
 
@@ -484,23 +480,74 @@ You can edit the following elements of an hour entry when you edit an hour entry
 * Number of hours
 * Hour Type
 * Job role associated with the hour entry
+* Description of the hour entry
 
-Depending on what type of hour entries you edit, the following fields are available for editing: 
+Depending on what type of hour entries you edit, the following fields are available for editing in an hour list or report: 
 
 * When you edit project-specific hours:
 
-   * You can edit the number of hours.  
-   * You can change the Hour Type only to project-specific types.
-   * You can change the hour Job role assignment only if it was enabled in Setup. For information, see [Configure timesheet and hour preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) 
+   * The number of hours
+   * The Hour Type. You can change the Hour Type only to project-specific types.
+   * Job role assignment. You can change the Job Role assignment only if it was enabled in Setup. For information, see [Configure timesheet and hour preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) 
+   * The Description of the hour entry. 
+
+<div class="preview">
+
+   ![](assets/edit-hour-box-project-hour-type.png)
+
+</div>
 
 * When you edit general hours: 
 
-   * You can edit the number of hours. 
-   * You can change the Hour Type only to general types. 
-   * You cannot change the hour Job role assignment, because general hours cannot be associated with roles. 
+   * The number of hours. 
+   * The Hour Type. You can change the Hour Type only to general types.
+   * The Description of the hour entry. 
+
+>[!TIP]
+>
+> You cannot change the hour Job role assignment, because general hours cannot be associated with roles. 
+
+<!--update the screen shot at production - we should not see the job role field for general hours-->
+
+![](assets/edit-hour-box-general-overhead-hour-type.png)
+
 
 * When you edit a mix of general and project-specific hours, in bulk: 
 
-   * You can edit the number of hours.
-   * You cannot change the Hour Type, because general hour types cannot be changed to project-specific types and project-specific hour types cannot be changed to general types. 
-   * You cannot change the Job role assignment, because general hours cannot be associated with roles. 
+   * The number of hours.
+   * The Description of the hour entry.
+
+>[!TIP]
+>
+>* You cannot change the Hour Type, because general hour types cannot be changed to project-specific types and project-specific hour types cannot be changed to general types. 
+>* You cannot change the Job role assignment, because general hours cannot be associated with roles. 
+
+
+<!--update the screen shot at production - we should not see the job role and the hour type fields for mixed hour types-->
+
+![](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
+
+To edit hour types in an hour report or list:
+
+1. Go to an hour list or report. 
+1. Click the box to the left of one or multiple hour entries to select them. 
+1. Click the **Edit icon** ![](assets/edit-icon.png) at the top of the list.
+
+   The **Edit Hour** or **Edit Hours** box opens. 
+1. Update any of the following available fields:
+
+   * Hours. This is a required field.
+   * Hour Type. This is a required field. 
+   * Job Role
+   * Description
+
+   >[!TIP]
+   >
+   >   Not all fields are available, depending on what hour type is associated with the selected hour entries. 
+
+1. Click **Save <span class="preview">changes</span>**.
+
+   The hour entry information is updated. 
+   If you selected more than one hour entry and modified the Hours field, the same amount of hours is allocated to all the selected hour entries. The original hours are replaced with the new value for all selected hour entries. 
+
+
