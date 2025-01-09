@@ -16,6 +16,8 @@ Queue Topics work in conjunction with Routing Rules to automatically assign inco
 
 There is no limit to the number of Queue Topics that can be assigned to a Topic Group or to a project. Queue Topics are a reportable object type.
 
+Once created, you cannot move queue topics from one project to another.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
