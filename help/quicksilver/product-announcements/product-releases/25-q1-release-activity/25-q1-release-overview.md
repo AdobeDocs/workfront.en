@@ -62,7 +62,7 @@ This page provides information about functionality that is included in the First
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: January 6, 2024</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>
@@ -76,7 +76,7 @@ This page provides information about functionality that is included in the First
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: January 6, 2024</li>
-                <li>Production release for all customers: With the 25.1 release (January 2025)</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
             </ul>
         </td>
     </tr>  
