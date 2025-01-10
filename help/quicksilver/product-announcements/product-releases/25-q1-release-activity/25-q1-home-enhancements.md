@@ -1,22 +1,20 @@
 ---
 title: First Quarter 2025 Home enhancements
-description: First Quarter 2025 Home enhancements
+description: First Quarter 2025 Priorities enhancements
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
 ---
-# First Quarter 2025 Home enhancements
+# First Quarter 2025 Priorities enhancements
 
-This page describes all Home enhancements made with the First Quarter 2025 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
+This page describes all Priorities enhancements made with the First Quarter 2025 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
 
 For a list of all changes available at this point in the First Quarter 2025 release cycle, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Priorities enhancements overview
 
-Watch the video below for a high-level look at the new features added to Priorities this quarter.
-
-[Priorities enhancements overview video](https://video.tv.adobe.com/v/3442750/){target=_blank}
+>[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
 See [Priorities enhancements demo video](#priorities-enhancements-demo-video) below for a full demonstration of the features included in this overview.
 
@@ -159,4 +157,6 @@ For more information, see [View project and task details in the Priorities workl
 
 Watch the video below for a detailed demonstration of the new features added to Priorities this quarter.
 
-[Priorities enhancements demo video](https://video.tv.adobe.com/v/3442751/){target=_blank}
+>[!VIDEO](https://video.tv.adobe.com/v/3442751/?quality=12&learn=on)
+
+
