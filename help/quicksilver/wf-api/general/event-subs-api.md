@@ -667,6 +667,7 @@ Event Subscription supports filtering on nested fields of events by using the ne
             "comparison": "eq",
             "state": "newState"
         }
+    ]
 }
 
 ```
