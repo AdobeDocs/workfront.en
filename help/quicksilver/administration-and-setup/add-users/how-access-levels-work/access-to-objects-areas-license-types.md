@@ -142,9 +142,11 @@ The table below tells you the highest level of access (Edit or View) that each o
 
 >[!NOTE]
 >
->Users with a Light license or a Contributor license have limited sharing capabilities. For more information, see [Licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>* Users with a Light license or a Contributor license have limited sharing capabilities. For more information, see [Licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 >
->External users cannot search for items in Workfront. They can view documents and calendars that are specifically shared with them. They can also see the users that share items with them.
+>* External users cannot search for items in Workfront. They can view documents and calendars that are specifically shared with them. They can also see the users that share items with them.
+>
+>* Contributor users and external users can't see content that is shared system-wide.  It must be shared with them explicitly.
 
 You can find detailed information about what the access levels allow for each object and area in the following articles:
 
