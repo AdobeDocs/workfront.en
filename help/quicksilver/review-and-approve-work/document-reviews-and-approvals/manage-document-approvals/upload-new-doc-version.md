@@ -9,11 +9,14 @@ exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 ---
 # Upload a new document version and request an approval
 
-If a document is marked needs work in a previous review, you can upload a new version to the original document and start another round of approvals. 
+If a document is marked needs work in a previous review, you can upload a new version to the original document and start another round of approvals. Once you upload a new version of the document, the previous versions are locked. 
 
 If the file name of the new version is different from the file name of the previous version, Workfront displays the document with the newer file name.
 
 When a new version is added to a document with outstanding approvals, the approval on the previous version displays as Withdrawn. The previous approval process closes, even if some participants have not yet made a decision.
+
+If the newest document version is deleted, the previous versions remain locked. If you need to edit a pervious version, you must manually unlock it. 
+
 
 ## Access requirements
 
