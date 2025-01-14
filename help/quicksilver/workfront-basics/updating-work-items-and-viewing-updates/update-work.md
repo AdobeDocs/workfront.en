@@ -376,16 +376,26 @@ You can enhance your comments by using Rich Text, or adding various items to it,
    1. Under **Text to display**, type or paste the link text.
    1. Click **Save**.
 
-1. (Optional) To attach an image to your update, do one of the following: 
+1. (Optional) Attach an image to an update. 
+
+   >[!WARNING]
+   >
+   >You cannot attach an image to the updates area of the following objects: 
+   >
+   >* Goals
+   >* Ad hoc cards on boards
+   >* Records in Workfront Planning. For information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md)
+   >
+   
+   To attach an image to your update, do one of the following: 
 
    * Save the image on our computer, then drag and drop it in the New comment area.
    * Copy a screenshot from your computer, then paste it in the comment.
    * Click the **Add image** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer. 
 
    
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >**IMPORTANT**
    >
    ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
@@ -592,7 +602,7 @@ The Updates section for a Workfront object displays two types of information:
    * Team
    * Template
    * Template Task
-   * Ad-hoc Card
+   * Ad hoc Card on a Board
 
 For more information about user and system updates and how they display in the Updates section of Workfront objects, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

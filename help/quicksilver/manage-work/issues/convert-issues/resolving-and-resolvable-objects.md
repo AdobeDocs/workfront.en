@@ -114,11 +114,13 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ### Synchronize statuses when the Resolving Object is an issue {#synchronize-statuses-when-the-resolving-object-is-an-issue}
 
-If an issue is manually tied to another issue, the status of the second issue (Resolving Object) triggers a change in the status of the first issue (Resolvable Object). The status of the first issue matches the status that the second issue is changed to. This applies for both default and custom issue statuses.
+When an issue is manually tied to another issue, the status of the second issue (Resolving Object) triggers a change in the status of the first issue (Resolvable Object). The status of the first issue matches the status that the second issue is changed to. This applies for both default and custom issue statuses.
 
 ### Synchronize statuses when the Resolving Object is a task or a project {#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project}
 
 When an issue is the Resolvable Object of a task or a project, the changes in the status of the tasks and the projects trigger changes in the status of the issue. Default statuses are triggered differently than Custom statuses, in this case.
+
+When project custom status equates to a default status that does not trigger a change to the issue status, it doesn't trigger change in status for the issue.
 
 * [Synchronize the Default Status of the Resolving Object with the Default Status of the Resolvable Object](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object) 
 * [Synchronize the Custom Status of the Resolving Object with the Custom Status of the Resolvable Object](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)

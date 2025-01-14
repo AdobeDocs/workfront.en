@@ -32,15 +32,13 @@ You can share the following objects:
 
     * You can share workspaces with people inside your organization.
     * When you share a workspace, all record types, records, and fields associated with the workspaces are also shared. 
-        
-        When you share a workspace, views are not shared. Views are shared separately. 
+    * When you share a workspace, views are not shared. Views are shared separately. 
 
 * Views
 
-    * You must give users, including system administrators, permissions to access views separately from their permissions to accessing workspaces. 
+    * You must give users, including System Administrators, permissions to access views separately from their permissions to accessing workspaces. 
     * When you share a view, all view elements are shared, including filters, grouping, sort, or Settings. 
-
-        When you share a view, the records visible in the view are not shared. Records must be shared by sharing workspaces.
+    * When you share a view, the records visible in the view are not shared. Records must be shared by sharing workspaces.
     * You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.
 
     For information, see [Share views](/help/quicksilver/planning/access/share-views.md).
@@ -55,8 +53,8 @@ Internally, you can share a workspace or a view with the following Workfront ent
 * Your Adobe Workfront license type works in conjunction with your Workfront Planning permissions to give you access to view, contribute, or manage workspaces and their objects.
 
     For information about how license types affect permission levels for Workfront Planning, see [License type overview when using Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
-* System administrators can manage all workspaces in the system, including the ones they did not create. 
-* Other users, including System Administrators, can only access views they created or that have been shared with them. System administrators can be given permissions only to Manage a view.
+* System Administrators can manage all workspaces in the system, including the ones they did not create. 
+* Other users, including System Administrators, can only access views they created or that have been shared with them. System Administrators can be given permissions only to Manage a view.
 * You can share a link to a workspace or to a view with others. 
 
     The following scenarios exist:
