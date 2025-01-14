@@ -449,6 +449,30 @@ This page provides information about functionality that is included in the First
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<tr>
+        <td>
+            <p><span class="bold">Feature</span></p>
+        </td>
+        <td>
+            <p><span class="bold">Release dates</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Desktop Proofing Viewer upgrade</a></p>
+            [!BADGE In production ]{type=Informative}
+            <p>We've updated Desktop Viewer with the latest Electron 33.3.0 version which uses Chromium 130.0.6723.152. </p>
+            <p>Latest version: 2.1.44 </p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: January 2, 2024</li>
+                <li><span class="preview">Production release for all customers: January 9, 2025</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><span class="bold">Feature</span></p>
