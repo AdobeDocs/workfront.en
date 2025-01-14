@@ -7,7 +7,7 @@ exl-id: c669217a-40e2-471f-951d-93157a34f1ee
 ---
 # Create objects using Adobe Workfront Planning record automations
 
-<!--add screen shots when UI is finalized-->
+<!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 <!--when you make this public, add this to the metadata above (and take the "hide" tags out):
 
 feature: Workfront Planning
@@ -17,9 +17,11 @@ recommendations: noDisplay, noCatalog
 
 -->
 
+<!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
+
 You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or Workfront Planning.
 
-You can configure and activate the automation in the record's page. The object that is created is connected to the Planning record and place in the field you specify in the automation.
+You can configure and activate the automation in the record's page. The object that is created is connected to the Planning record and placed in the field you specify in the automation.
 
 For example, you could create an automation that takes a Workfront Planning campaign and creates a project in Workfront to track that campaign's progress. The project would be connected to the Workfront Planning campaign.
 
@@ -102,8 +104,7 @@ You must have the following access to perform the steps in this article:
 ## Considerations about creating objects and records using an automation
 
 * The new object or record name is the same as the record name from which you create it. 
-* If the record you use the automation for already has objects of the same type connected in the field you select to add new objects, the new objects are added to the connection field and existing objects also remain connected. 
-
+* If the record you use the automation for already has objects of the same type connected in the field you select to add new objects to, the new objects are added to the connection field and existing objects also remain connected. 
 
 ## Configure an automation in Workfront Planning
 
@@ -118,11 +119,17 @@ You must configure an automation in Workfront Planning before you can use it to 
 
    The list of available automations opens.
 
-1. Click **New automation** in the upper-right corner of the screen.
+1. Click **New automation** in the upper-right corner of the screen. The **New automation** box opens.
 1. Update the following fields:
 
-   * **Button text**: Enter the text that you want to appear on the automation button. Users will click this button when using the automation to create a Workfront object.
-   * **Button icon**: Select an icon for the button. An icon is selected by default. 
+   * Replace **Untitled automation** with the text that you want to appear on the automation button. Users will click this button when using the automation to create a Workfront object.
+   * **Description**: Add a description to identify the purpose of the automation.
+
+1. On the automation's details page, update the following fields in the **Triggers** section: 
+
+   * **Trigger**: Select the action that will trigger the automation. For example, select **Button click**. <!--update this step with a list of all possible triggers; right not only Button click is available-->
+
+1. Update the following fields in the **Actions** section: 
    * **Object type**: Select the object that you want the automation to create. This is a required field.
 
       You can create the following objects from Workfront Planning records: 
@@ -153,10 +160,17 @@ You must configure an automation in Workfront Planning before you can use it to 
       * **Map field**: Select fields from the record type the automation is created for to map them to the fields of the connected record type. 
       * **To connected record field**: Select fields from the connected record that will correspond to the fields from the record type you create the automation for. 
 1. (Optional and conditional) If you don't have a connection field for a Workfront object type, click the **Create a connection field** icon ![](assets/create-a-connection-field-icon.png) to add a field. 
-1. (Optional and conditional) If you selected to add a record, click **Add** in the **Map connected fields** area to add and map additional fields. 
-1. Click **Create**
+1. (Optional and conditional) If you selected to add a record, click **Add** in the **Map fields** area to add and map additional fields, then select a filed to **Transfer from** and a field to **Transfer to** to indicate what field from the originally selected record  should display in what field of the connected record. 
+1. Click **Save**. 
 
-The automation appears on the list of automations, and is available to use in records.
+   The automation appears on the list of automations, and is available to use in records.
+1. (Optional) To edit, disable, or delete an automation, do the following:
+
+   From the list of automations, hover over the name of a saved automation, then click the **More** menu ![](assets/more-menu.png), then choose one of the following options:
+
+   * **Edit**: Update information about and configure fields on the automation.
+   * **Disable**: The automation will not display as an option in the toolbar of the records' table view and users can no longer use it to create records or objects. To make it available again, click the **More** menu ![](assets/more-menu.png) again, then click **Activate**.
+   * **Delete**: The automation is deleted and cannot be recovered. Records that have been created using the automation remain connected to the record originally selected.  
 
 ## Use a Workfront Planning automation to create an object
 
