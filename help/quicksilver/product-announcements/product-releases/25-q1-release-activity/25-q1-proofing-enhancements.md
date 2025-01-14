@@ -16,7 +16,7 @@ For a list of all changes available at this point in the First Quarter 2025 rele
 
 We've updated Desktop Viewer with the latest Electron 33.3.0 version which uses Chromium 130.0.6723.152.
 
-For information about installing the Desktop Proofing Viewer, see [Install the Desktop Proofing Viewer](help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+For information about installing the Desktop Proofing Viewer, see [Install the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 
 Latest version: 2.1.44 
