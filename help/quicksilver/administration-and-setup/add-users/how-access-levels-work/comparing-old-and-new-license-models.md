@@ -19,15 +19,15 @@ This table shows the functionality available to licenses in the legacy and new l
  <col> 
  <col> 
  <col> 
- <!--col> 
- <col> -->
+ <col> 
+ <col>
  <col> 
  <col> 
  <col> 
  <thead> 
   <tr> 
    <th> </th> 
-   <th colspan="3">[!UICONTROL Legacy]</th> 
+   <th colspan="5">[!UICONTROL Legacy]</th> 
    <!--<th>[!UICONTROL Requestor]</th> 
    <th>[!UICONTROL External]</th> -->
    <th colspan="3">[!UICONTROL New]</th> 
@@ -39,8 +39,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <th>[!UICONTROL Planner]</th> 
    <th>[!UICONTROL Worker]</th> 
    <th>[!UICONTROL Reviewer]</th> 
-   <!--<th>[!UICONTROL Requestor]</th> 
-   <th>[!UICONTROL External]</th> -->
+  <th>[!UICONTROL Requestor]</th> 
+   <th>[!UICONTROL External]</th>
    <th>[!UICONTROL Standard]</th> 
    <th>[!UICONTROL Light]</th> 
    <th>[!UICONTROL Contributor]</th> 
@@ -52,8 +52,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td>✓</td> 
-   <td></td> -->
+  <td>✓</td> 
+   <td></td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -63,8 +63,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td>✓</td> 
+   <td></td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -74,8 +74,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td>✓</td> 
+   <td>✓</td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -85,8 +85,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -96,8 +96,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -107,8 +107,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -118,8 +118,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -129,8 +129,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -140,8 +140,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -151,8 +151,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td>✓</td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -162,8 +162,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -173,8 +173,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -184,8 +184,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -195,8 +195,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -206,8 +206,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
@@ -217,8 +217,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
@@ -228,8 +228,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -239,8 +239,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
@@ -249,8 +249,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -260,8 +260,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -271,8 +271,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -282,8 +282,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -293,8 +293,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -304,8 +304,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -315,8 +315,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -326,8 +326,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -337,8 +337,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -348,8 +348,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -359,8 +359,8 @@ This table shows the functionality available to licenses in the legacy and new l
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
