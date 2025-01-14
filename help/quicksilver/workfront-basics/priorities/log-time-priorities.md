@@ -54,8 +54,7 @@ You can log time directly from the worklist:
 {{step1-to-priorities}}
 
 1. Hover over the name, then click **Log time**.
-![](assets/log-time.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 1. In the **Hour Type** drop-down menu, select the appropriate hour type. Hour types are available depending on what has been defined at the system, project, and user levels, as described in Define hour types and availability.
 
 1. (Conditional) If your Workfront or group administrator has enabled the Assign job roles to hour entries manually setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. If you do not have a Primary Role assigned, No Job role displays.
