@@ -12,6 +12,13 @@ This page describes all proofing enhancements made with the First Quarter 2025 r
 
 For a list of all changes available at this point in the First Quarter 2025 release cycle, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Desktop Proofing Viewer upgrade
+
+We've updated Desktop Viewer with the latest Electron 33.3.0 version which uses Chromium 130.0.6723.152.
+
+
+Latest version: 2.1.44 
+
 ## New browser extension for interactive review available in beta
 
 >[!NOTE]
