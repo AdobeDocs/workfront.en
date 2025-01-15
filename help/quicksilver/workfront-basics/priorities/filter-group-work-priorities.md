@@ -158,6 +158,14 @@ Use natural language to filter quickly filter work. Your Workfront instance must
 
 +++
 
+### Drag and drop work items when grouping by My Priority or Status
+
+You can drag and drop individual work items between categories when grouping by My Priority or Status.
+
+1. Group your work by **Status** or **My Priority**.
+2. Hover over the work item to find the move icon and drag it to the desired category.
+![drag icon](assets/drag-and-drop.png)
+
 ## Sort your work
 
 ### Sort in groups
