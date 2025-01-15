@@ -428,7 +428,7 @@ This page provides information about functionality that is included in the First
     </tr>
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
             More relevant assignments removed from Preview and Production for Fast Release environments</a></p>
             <p>A functionality that has been in the Preview environment since December 2023 and in the fast release Production environment since March 2024 has now been removed. The features added more relevant smart assignment suggestions when assigning tasks.</p>
         </td>
