@@ -12,9 +12,9 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -120,9 +120,9 @@ The following must be in place before you can submit a request to a Workfront Pl
 
 * You can access a request form for Workfront Planning requests only from a specific link to the form. 
 * You cannot edit a request after you submit it to Workfront Planning.
-* Each submitted request creates a record for the record type associated with the form you use <span class="preview">if the form is not associated with an approval, or if the approval has been granted by all of the approvers.</span> 
+* Each submitted request creates a record for the record type associated with the form you use if the form is not associated with an approval, or if the approval has been granted by all of the approvers.
 * Records created by submitting request forms cannot be differentiated from records added through any other method. For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
-* <span class="preview">Submitted requests display in the Planning tab of the Submitted section in the Requests area of Workfront </span>. 
+* Submitted requests display in the Planning tab of the Submitted section in the Requests area of Workfront. 
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
@@ -143,23 +143,24 @@ The following must be in place before you can submit a request to a Workfront Pl
 
    Your form is submitted and the following things occur:
 
-   * If the request form was not associated with an approval, the request is added to the <span class="preview">Planning tab of the Submitted section of the Workfront Requests area </span> and a new record is added to the record type associated with the form.
+   * If the request form was not associated with an approval, the request is added to the Planning tab of the Submitted section of the Workfront Requests area and a new record is added to the record type associated with the form.
    
-   * If the request form was associated with an approval, the <span class="preview"> request is added to the Planning tab of the Submitted section of the Workfront Requests area. A new record is added to the record type page only after all the approvers have approved it.</span> 
-   <span class="preview">For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>  
+   * If the request form was associated with an approval, the request is added to the Planning tab of the Submitted section of the Workfront Requests area. A new record is added to the record type page only after all the approvers have approved it.
+   
+      For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
       ![](assets/planning-tab-in-requests.png)
 
       >[!IMPORTANT]
       >
-      ><span class="preview">All users who have access to at least one workspace can view the Planning tab in the Requests area. You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. </span> <!--ensure this is correct; asking team in slack-->
+      >All users who have access to at least one workspace can view the Planning tab in the Requests area. You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. <!--ensure this is correct; asking team in slack-->
 
-   * <span class="preview">You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.</span> 
-   * <span class="preview">If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.</span> 
+   * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
+   * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
 
       >[!NOTE]
       >
-      ><span class="preview">The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.</span>
+      >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
 
 
   
