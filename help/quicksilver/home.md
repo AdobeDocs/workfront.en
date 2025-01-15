@@ -64,7 +64,7 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
  </td>
     <td>
         <ul>
-        <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">Get started with Workfront</a></li>
+        <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">Adobe Workfront basics: article index</a></li>
         <li><a href="/help/quicksilver/manage-work/manage-work.md">Get started managing Work</a></li>
         <li><a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md">Get started with Reports and Dashboards</a></li>
         <li><a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md">Get started with Text Mode</a></li>

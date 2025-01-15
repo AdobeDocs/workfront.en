@@ -861,7 +861,7 @@ feature-set: Workfront
     * [User credentials vs. SAML credentials](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
     * [Update auto-upgrade options in access levels](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront basics {#basics}
-  * [Adobe Workfront basics](workfront-basics/workfront-basics.md)
+  * [Adobe Workfront basics: article index](workfront-basics/workfront-basics.md)
   * [Glossary of Adobe Workfront terminology](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
   * [Adobe Workfront browser requirements](workfront-basics/workfront-browser-requirements.md)
   * [Supported languages in Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)

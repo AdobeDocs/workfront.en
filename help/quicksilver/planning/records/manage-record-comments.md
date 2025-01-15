@@ -141,14 +141,14 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >Navigating away from the Comments section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.
+   >Navigating away from the Comments section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. <!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
 
 1. (Optional) To undo or redo a change, use the following shortcut keys:
       * CTRL + Z (⌘+z for Mac) to undo a change 
       * CTRL + Y (⌘+y for Mac) to redo a change 
 1. (Optional and conditional) If your Workfront instance is part of the Adobe Unified Experience, add **@** followed by the name of a user to tag someone in the update. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article.
 
-1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, links, or images to your update, to enhance your content. 
+1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, or links to your update, to enhance your content. 
 
 1. Continue adding comments to the record. 
 
