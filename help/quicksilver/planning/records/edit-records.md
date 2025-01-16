@@ -11,9 +11,9 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 
 # Edit records
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->  
 
 {{planning-important-intro}}
 
@@ -160,7 +160,7 @@ You must have the following access to perform the steps in this article:
 * You can edit record fields from the following areas:
 
     * The record's preview in a record view
-    * The record's page
+    * The record's details page
     * Inline, in a table view. 
 
 * When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users.
@@ -343,7 +343,7 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
     >  * Linked fields that are created by connecting record types. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
-1. <span class="preview">(Optional) Click the information icon to the right of any field that displays it to view the description of a field. </span>
+1. (Optional) Click the information icon to the right of any field that displays it to view the description of a field. 
 1. (Optional) Click **Add cover** to add a cover image to the record
     
     Or

@@ -13,9 +13,9 @@ exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
 
 <!--Audited: 12/2023-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
   
 
 As an [!DNL Adobe Workfront] administrator, you can configure the default preferences for all projects created throughout the system. These preferences impact project, task, and issue behavior.
@@ -211,8 +211,8 @@ Configure any of the following preferences for newly created projects throughout
 
  </tr> 
   <tr> 
-   <td role="rowheader"> <p><span class="preview">When one user is assigned to a task, use the schedule of the...</span></p> </td> 
-   <td> <div class="preview">
+   <td role="rowheader"> <p>When one user is assigned to a task, use the schedule of the...</p> </td> 
+   <td> 
 <p>If a project does not have a schedule assigned or if the users assigned to its tasks do not have a Schedule assigned to them, [!DNL Workfront] uses the system default schedule to calculate the timeline of the tasks.</p> 
 
 <p>If you assign one user to a task in a project and both the project and the user assigned to the tasks have schedules associated with them, [!UICONTROL Workfront] uses the following schedules:</p> 
@@ -220,7 +220,7 @@ Configure any of the following preferences for newly created projects throughout
      <li><strong>[!UICONTROL User]</strong>: [!DNL Workfront] uses the schedule of the assigned user on the task to calculate timelines.</li> 
      <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront] uses the schedule of the project to calculate the timeline of the task.</li> 
     </ul> <p>For more information about schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Create a schedule</a>.</p>
-</div></td> 
+</td> 
   </tr> 
 
   <tr data-mc-conditions=""> 

@@ -10,9 +10,9 @@ exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 
 # Manage the record page layout
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -248,8 +248,6 @@ To add a section to a record preview or page:
 
     All changes to the layout of the record preview or page save automatically. 
 
-<span class="preview">
-
 ## Add a Connection view page to a record's page
 
 Consider the following when adding a Connection view to a record's page: 
@@ -286,7 +284,7 @@ To add a Connection view page:
 1. (Optional) Use any view elements in the toolbar to manage the table view. For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 1. (Optional)  Hover over the name of the tab, then click **More** ![](assets/more-menu.png), then click **Delete** to remove to new Connected view tab.
 
-</span>
+
 
 <!--
 ## Add a Brief page to a record's page

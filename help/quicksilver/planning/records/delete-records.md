@@ -12,13 +12,13 @@ exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
 
 <!--take Preview and Production references out at release-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->   
 
 {{planning-important-intro}}
 
-You can delete records that are no longer relevant in Adobe Workfront Planning. <span class="preview">You can recover deleted records for 30 days after they were deleted. For information about recovering deleted records, see [Recover deleted records](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
+You can delete records that are no longer relevant in Adobe Workfront Planning. You can recover deleted records for 30 days after they were deleted. For information about recovering deleted records, see [Recover deleted records](/help/quicksilver/planning/records/restore-deleted-records.md). 
 
 ## Access requirements
 
@@ -90,73 +90,10 @@ You must have the following access to perform the steps in this article:
 
 +++   
 
-
-<!--
-
-OLD
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p>
-   </td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning </p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
--->
-
 ## Considerations about deleting records
 
 * You can delete records that you or another user created. 
-* You cannot recover deleted records in the Production environment. <span class="preview">You can recover deleted records in the Preview environment.</span>
+* You cannot recover deleted records in the Production environment. You can recover deleted records in the Preview environment.
 * If the deleted records are linked to other records, the linked records are not deleted, but the information from the deleted record is also deleted. 
 * You cannot delete records from the timeline or the calendar views. 
 
@@ -223,7 +160,7 @@ You can delete a record from the following areas:
     
 1. (Optional) Do one of the following to undo or redo deleting a record:
 
-    * <span class="preview">Click the **Undo** icon ![](assets/undo-icon.png), then **Recently deleted** to recover the deleted records. For information about recovering deleted records, see [Recover deleted records](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
+    * Click the **Undo** icon ![](assets/undo-icon.png), then **Recently deleted** to recover the deleted records. For information about recovering deleted records, see [Recover deleted records](/help/quicksilver/planning/records/restore-deleted-records.md). 
     * Use the following keyboard shortcuts to undo or redo deleting a record:
 
       * CTRL + Z (⌘ + Z for Mac) to undo deleting a record

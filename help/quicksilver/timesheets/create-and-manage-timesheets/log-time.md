@@ -15,8 +15,6 @@ exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>  
-
 You can log time for work items in Adobe Workfront to indicate the number of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
 
 For more information about the type of hours you can log in Workfront, see [Manage hour types](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
@@ -491,11 +489,8 @@ Depending on what type of hour entries you edit, the following fields are availa
    * Job role assignment. You can change the Job Role assignment only if it was enabled in Setup. For information, see [Configure timesheet and hour preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) 
    * The Description of the hour entry. 
 
-<div class="preview">
 
    ![](assets/edit-hour-box-project-hour-type.png)
-
-</div>
 
 * When you edit general hours: 
 
@@ -545,7 +540,7 @@ To edit hour types in an hour report or list:
    >
    >   Not all fields are available, depending on what hour type is associated with the selected hour entries. 
 
-1. Click **Save <span class="preview">changes</span>**.
+1. Click **Save changes**.
 
    The hour entry information is updated. 
    If you selected more than one hour entry and modified the Hours field, the same amount of hours is allocated to all the selected hour entries. The original hours are replaced with the new value for all selected hour entries. 
