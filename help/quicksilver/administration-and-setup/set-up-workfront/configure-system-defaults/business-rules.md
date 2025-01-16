@@ -11,8 +11,6 @@ exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 ---
 # Create and edit business rules
 
-{{preview-fast-release-general}}
-
 A business rule allows you to apply validation to Workfront objects and prevent users from creating, editing, or deleting an object when certain conditions are met. Business rules help to improve data quality and operational efficiency by preventing actions that could compromise data integrity.
 
 A single business rule can be assigned to only one object. For example, if you create a business rule for not editing projects under certain conditions, you can't apply the same rule to tasks. You would have to create a separate business rule with the same conditions for tasks.
@@ -131,9 +129,9 @@ IF(
    * Because the object and the action are already defined, you do not include them in the formula.
    * The custom error message is displayed to the user when they trigger the business rule. It should provide clear instructions on what went wrong and how to correct the issue.
 
-     <span class="preview">You can include a static URL in the error message, to link to documentation or other helpful pages to guide the user on how to modify their action within the constraint of the rule.</span>
+     You can include a static URL in the error message, to link to documentation or other helpful pages to guide the user on how to modify their action within the constraint of the rule.
 
-     <span class="preview">In this example, "Learn more" will link to the URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` The URL must be in parentheses, but link text in brackets is not required. You can display the full URL and it will be a clickable link.</span>
+     In this example, "Learn more" will link to the URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` The URL must be in parentheses, but link text in brackets is not required. You can display the full URL and it will be a clickable link.
 
    ![Add business rule dialog](assets/add-business-rule-dialog-no-ai-button.png)
 
