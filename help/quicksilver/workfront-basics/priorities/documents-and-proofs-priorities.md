@@ -9,8 +9,6 @@ exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
 ---
 # Upload Documents and create proofs in Priorities
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 You can upload documents and create proofs in Priorities.
 
 ## Access requirements

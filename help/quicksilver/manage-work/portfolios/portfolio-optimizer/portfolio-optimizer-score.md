@@ -8,7 +8,9 @@ author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
 ---
-# Overview of the [!UICONTROL Portfolio Optimizer] Score
+# Overview of the [!UICONTROL Portfolio Optimizer] score
+
+<!--Audited: 01/2025-->
 
 You can find the [!UICONTROL Portfolio Optimizer] score in the [!UICONTROL Portfolio Optimizer]. It displays in the **[!UICONTROL Score]** column for every project. This represents a score for every project in the portfolio.
 
@@ -20,7 +22,8 @@ For information about how [!DNL Adobe Workfront] uses the project Score and othe
 
 There is a difference between the alignment score and the portfolio optimizer score of a project.
 
-The alignment score of a project is calculated based on the points obtained after completing the scorecard. This score is then used to determine the portfolio alignment score. The alignment score is displayed as a percentage.\
+The alignment score of a project is calculated based on the points obtained after completing the scorecard. This score is then used to determine the portfolio alignment score. The alignment score is displayed as a percentage.
+
 The alignment score of a project displays in the **[!UICONTROL Alignment]** column of the [!UICONTROL Portfolio Optimizer] or in the [!UICONTROL Alignment] field of the [!UICONTROL Business Case Summary].
 
 ![](assets/business-case-summary-aligned-field-highlighted.png)
@@ -62,7 +65,13 @@ To find out the ranking of a project, do the following:
 
 The algorithm for calculating the scores takes in to consideration the values outlined in the Business Cases of the projects and the weights they carry. It gives every project in the optimizer a score and normalizes that score so there is always a project with a score of 100. This gives a high score to the best project.
 
-**Example:** For example, if you make [!UICONTROL higher alignment] the only factor to consider, the project with the highest alignment gets the score of 100.
+>[!BEGINSHADEBOX]
+
+**EXAMPLE**
+
+For example, if you make [!UICONTROL higher alignment] the only factor to consider, the project with the highest alignment gets the score of 100.
+
+>[!ENDSHADEBOX]
 
 The following are criteria that you can score a project by:
 
