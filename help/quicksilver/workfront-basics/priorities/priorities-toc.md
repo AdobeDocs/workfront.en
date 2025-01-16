@@ -22,6 +22,6 @@ This section contains the following subsections:
 * [Log time in Priorities](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
 * [Upload files in Priorities](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
 * [Add and manage quick links in Priorities](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
-<!--* [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)-->
+* [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)
 * [Upload Documents and create proofs in Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
 * [Manage your work in the Priorities calendar](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
