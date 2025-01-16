@@ -12,8 +12,6 @@ exl-id: 16205e28-92e3-4c90-afa5-35eb793b239b
 ---
 # Errors in Adobe Workfront Fusion
 
->[!NOTE]
-
 >[!IMPORTANT]
 >
 >The Adobe Workfront Fusion documentation has moved to a new location. 
