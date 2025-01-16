@@ -9,6 +9,8 @@ exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
 ---
 # Export a dashboard
 
+<!-- Audited: 1/2025 -->
+
 You can export a dashboard to a .pdf file using the print options available in your web browser.
 
 >[!NOTE]
@@ -18,6 +20,8 @@ You can export a dashboard to a .pdf file using the print options available in y
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -25,25 +29,36 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Work or higher</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
+    <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Work or higher</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>View access to Reports, Dashboards, and Calendars</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>View permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View permissions to the dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 
@@ -54,13 +69,13 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 ## Export a dashboard to a .pdf file:
 
 1. Go to the dashboard you want to export.
-1. Click **Dashboard actions**, then select **Print**.
+1. Click **Dashboard actions**, then select **Print Preview**.
 
    ![](assets/dashboard-actions-print-350x254.png)
 
-   The Print dialog opens.
+   The Print Preview window opens.
 
-1. Depending on your web browser, select the appropriate print options to complete the .pdf. file export:
+1. Click **Print**, then select the appropriate print options based on your web browser to complete the .pdf. file export:
 
    <table style="table-layout:auto"> 
     <col> 

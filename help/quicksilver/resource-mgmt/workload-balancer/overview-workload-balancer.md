@@ -58,7 +58,7 @@ Consider the following benefits when using the Workload Balancer:
 
 * Executives can make timely staffing decisions through transparency into how people in their organization are utilized. 
 * Team members benefit from better collaboration, as they can all view what their coworkers are working on at any given time. For information about the access needed to view or manage resources in the Workload Balancer, see [Access needed to manage resources in the Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
-* Share it with anyone that does not have access to the Resourcing area by embedding a link to it in a custom tab. For information, see [Share the Workload Balancer with a link](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
+* Share it with anyone who does not have Resourcing in their Main Menu by embedding a link to it in a custom tab. For information, see [Share the Workload Balancer with a link](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
 * Visualize and manage people's workloads and demand in one view at the global, project, or team level, depending on your role. When managing projects, this includes not only resource allocation for the project, but also visualizing the allocation of resources from the Adobe Workfront Scenario Planner. People managers use the Workfront Scenario Planner to manage job skills across the organization. The Scenario Planner is only available in the new Adobe Workfront experience.
 
   >[!NOTE]
@@ -125,7 +125,7 @@ Ensure the following task and issue setup exists before starting assigning work 
 
 * Review the following articles before you start using the Workload Balancer: 
 
-    * This article walks you through how to navigate the Workload Balancer to perform these actions: [Navigate the Workload Balancer](../workload-balancer/navigate-the-workload-balancer.md). 
+  * This article walks you through how to navigate the Workload Balancer to perform these actions: [Navigate the Workload Balancer](../workload-balancer/navigate-the-workload-balancer.md). 
 
   * The following articles walk you through how you assign work and manage user allocations:
   

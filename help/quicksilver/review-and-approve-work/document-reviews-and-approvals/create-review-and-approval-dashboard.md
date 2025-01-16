@@ -40,10 +40,6 @@ You can view high-level information about document approvals with KPIs and chart
 
 ### KPIs
 
->[!IMPORTANT]
->
->New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.
-
 ![KPI examples](assets/kpi-dashboard.png)
 
 #### Pending approvals
@@ -123,10 +119,6 @@ You can view high-level information about document approvals with KPIs and chart
 
 ### Charts
 
->[!IMPORTANT]
->
->New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.
-
 ![Chart examples](assets/chart-dashboard.png)
 
 #### Approvals by decision bar chart
@@ -173,10 +165,6 @@ You can view high-level information about document approvals with KPIs and chart
 1. Click **Done** in the top-right corner of the screen.
 
 ## Add detailed review and approval information with Tables
-
->[!IMPORTANT]
->
->New document approvals data currently refreshes during the evenings in the US Mountain timezone. Real-time updates are planned and coming soon.
 
 ![table example](assets/table-dashboard.png)
 

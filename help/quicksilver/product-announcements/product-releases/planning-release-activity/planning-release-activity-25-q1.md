@@ -29,6 +29,18 @@ This article describes the features that are releasing for Workfront Planning du
 For a list of all features released for Adobe Workfront Planning after the general availability release on August 28, 2024, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 
+## Connection fields with Adobe Experience Manager assets are now supported in request forms 
+
+>[!NOTE]
+>
+>Preview release: December 20, 2024; Production release for all customers: January 16, 2025
+
+You can now add connection fields with AEM assets to a record type request form in Workfront Planning. 
+
+Prior to this enhancement, these types of fields could not be added to request forms. 
+
+For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). 
+
 ## Configure approvals for Workfront Planning requests 
 
 >[!NOTE]

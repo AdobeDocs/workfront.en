@@ -11,6 +11,8 @@ exl-id: e4ee3729-a39d-4d1f-971f-4eb557d151d4
 ---
 # Dashboards
 
+<!-- Audited: 1/2025 -->
+
 This section contains the following subsections:
 
 * [Understand dashboards](../../reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md) 

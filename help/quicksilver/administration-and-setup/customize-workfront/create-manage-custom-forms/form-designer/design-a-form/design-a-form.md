@@ -9,11 +9,7 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 ---
-# Create a custom form
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   
+# Create a custom form 
 
 You can design a custom form with the form designer in Adobe Workfront. You can attach custom forms to different Workfront objects to capture data about those objects.
 
@@ -841,8 +837,8 @@ This table lists the available native fields for specific Workfront objects in a
       <td><p>(Required) Select a Workfront native field.<p><p>Only native fields for the form's objects are available. For example, if the Object Types list at the top of the form designer shows Project, you will be able to select native fields for projects but not fields that are specific to tasks.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Add Filter</span></td>
-      <td><span class="preview"><p>Add a filter for the reference field to limit the list of items users can choose from when they are using the field. </p> <p>For example, you could limit a field so that user names can be selected only if they meet the following criteria:</p> 
+      <td role="rowheader">Add Filter</td>
+      <td><p>Add a filter for the reference field to limit the list of items users can choose from when they are using the field. </p> <p>For example, you could limit a field so that user names can be selected only if they meet the following criteria:</p> 
        <ul>
         <li>They belong to a group or groups that you specify</li> 
         <li>They are associated with a role or job title you specify</li> 
@@ -854,7 +850,7 @@ This table lists the available native fields for specific Workfront objects in a
         <li>The filter option is only available when you reference a native typeahead field, such as Portfolio, Company, or Owner.</li>
         <li>If you are editing an existing custom form, adding a filter to a native field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
         <li>This filter is not available on mobile devices. If you use the filter for a native field, the field will appear on users' mobile devices unaffected by the filter.</li> 
-        </ul></p></span></td> 
+        </ul></p></td> 
       <td>
      </tr>
      <tr> 
@@ -930,8 +926,6 @@ This table lists the available native fields for specific Workfront objects in a
     or
 
     Click **Save and Close**.
-
-<div class="preview">
 
 ### Add Planning connection fields
 
@@ -1025,8 +1019,6 @@ To add a Planning connection field:
     * Connect or disconnect records from the Workfront object. 
 
     For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
-
-</div>
 
 ## Organize and preview a form with the form designer
 

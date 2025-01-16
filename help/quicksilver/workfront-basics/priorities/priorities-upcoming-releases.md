@@ -14,23 +14,12 @@ We're excited to show you what we have coming for Priorities. Use the Feedback b
 <table>
   <tr>
     <td><strong>Upcoming</strong>
-    <ul>
-
-   <li><strong>View documents in the Documents tab</strong>: The documents tab will allow you to view documents uploaded to tasks and issues. You will be able to view a preview and leave comments on a document. </li>
-    </ul>
+   <p>More upcoming features will be added soon</p>
     </td>
   </tr>
   <tr>
     <td><strong>Planned</strong>
-    <ul>
-    <li><strong>View work in a calendar view</strong>: The Calendar view will provide a visual representation of your tasks and issues in a month view.</li>
-    <li><strong>Stay on top of work with Priorities AI feature: Catch Me Up</strong>: Catch me up will summarize updates, uploaded documents, approvals, and other notable changes about your active projects within the following time frames: 24 hours, 3 days, 7 days.</li>
-    </ul>
+<p>More planned features will be added soon</p>
     </td>
   </tr>
-</table>
-
-
->[!IMPORTANT]
->
->Items listed in this table are planned but not guaranteed.
+</table> 

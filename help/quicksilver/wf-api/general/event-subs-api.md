@@ -649,9 +649,10 @@ This connector makes the filter apply to the new state or old state of the objec
 
 ### Using nested filters
 
-Event Subscription supports filtering on nested fields of events by using the `fieldValue.fields` keyword.
+Event Subscription supports filtering on nested fields of events by using the nested field names. For example, to filter a message where `newState.data.customField1 = 'myCustomeFieldValue'`, the following subscription with filter can be created:
 
 ```
+
 {
     "objCode": "RECORD",
     "eventType": "UPDATE",
@@ -661,26 +662,14 @@ Event Subscription supports filtering on nested fields of events by using the `f
         {
             "fieldName": "data",
             "fieldValue": {
-                "fields": {
-                    "customerID": "customer1234"
-                }
+                    "customField1": "myCustomFieldValue"
             },
             "comparison": "eq",
             "state": "newState"
-        },
-        {
-            "fieldName": "options",
-            "fieldValue": {
-                "objects": {
-                    "projectID": "project1234"
-                }
-            },
-            "comparison": "contains",
-            "state": "newState"
-        },
-    ],
-    "filterConnector": 'AND'
+        }
+    ]
 }
+
 ```
 
 Doubly nested filters can be addressed as well.

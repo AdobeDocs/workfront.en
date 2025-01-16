@@ -9,45 +9,61 @@ exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
 ---
 # Remove an External Page from a dashboard
 
+<!-- Audited: 1/2025 -->
+
 You can remove an External Page from a dashboard if it's no longer needed.
 
 However, you cannot delete an external page after it is created in Adobe Workfront. You can delete an external page only using the API. For information about the Workfront API, see [API basics](../../../wf-api/general/api-basics.md). For information about creating external pages, see [Embed an external web page in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
+
+You must have the following:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Edit access to Reports, Dashboards, Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>Manage permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to the dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Remove an external page from a dashboard
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click **Dashboards**. 
-1. Select the dashboard from which you want to remove the external page, then click **Edit** ![](assets/edit-icon.png).
+1. Go to the dashboard thatcontains the external page you want to delete.
 
-   ![Select the Edit icon.](assets/nwe-editdashboard2021-350x188.png)
+1. Click **Dashboard Actions**, then click **Edit**.
+
+   ![](assets/unshimmed-edit-dashboard.png)
 
 1. On the right side of the screen, locate the external page you want to remove and click the **Delete** icon ![](assets/delete.png).
 

@@ -10,7 +10,7 @@ exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
 ---
 # Get started with dashboards
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 1/2025 -->
 
 The purpose of a dashboard is to provide quick access to information that comes from multiple reports. First, you can gather information in reports and you can then place multiple reports on dashboards to make the information easier to access.
 
@@ -32,7 +32,16 @@ You must have the following:
   </tr> 
   <tr> 
    <td> <p><strong>Adobe Workfront license</strong></p> </td> 
-   <td> <p>New: Contributor or higher</p><p>Or</p><p>Current: Review or higher</p> </td> 
+      <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Contributor or higher</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Review or higher</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td><strong>Access level</strong> </td> 
@@ -45,13 +54,13 @@ You must have the following:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
 ## Objects that you can add to a dashboard
 
-You can populate a dashboard with the following items in Adobe Workfront:
+You can populate a dashboard with up to 25 of the following items in Adobe Workfront:
 
 * Reports  
   For more information about creating reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

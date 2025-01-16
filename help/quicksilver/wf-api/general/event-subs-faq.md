@@ -45,6 +45,7 @@ Look for the following scenarios and use the recommended solution:
 * The events might not generate the way you think. Ensure that you're not making assumptions about how or when events should and do fire. For example, you might think that updating a document on a task generates a task update event, but instead, it generates a document create or document update event.
 * Your subscription might not be configured as you expect. You can create event subscriptions in different environments and expect them to transfer as their other Workfront data does. However, Event Subscription data is not configured to be copied or promoted to other environments. Ensure that you're issuing API requests to the correct environment and that the subscriptions in that environment are configured as expected.
 * The payload was not received because the necessary Workfront IP address hasn't been added to the allowlist on your firewall. Event Subscription events are sent from only a few IP addresses. Ensure that the destination network has all IP exceptions necessary to receive payloads from Workfront Event Subscriptions.
+* The payload was not received because it was over 1 MB. Event subscription messages or object cannot be larger than 1 MB.
 
 ## Why is it taking an excessive amount of time for my messages to reach my endpoint?
 

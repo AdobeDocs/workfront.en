@@ -1,22 +1,98 @@
 ---
 title: First Quarter 2025 Home enhancements
-description: First Quarter 2025 Home enhancements
+description: First Quarter 2025 Priorities enhancements
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
 ---
-# First Quarter 2025 Home enhancements
+# First Quarter 2025 Priorities enhancements
 
-This page describes all Home enhancements made with the First Quarter 2025 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
+This page describes all Priorities enhancements made with the First Quarter 2025 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
 
 For a list of all changes available at this point in the First Quarter 2025 release cycle, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Priorities enhancements overview
+
+>[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
+
+See [Priorities enhancements demo video](#priorities-enhancements-demo-video) below for a full demonstration of the features included in this overview.
+
+## Use Smart Filters to find your work in Priorities
+
+>[!NOTE]
+>
+>Preview release: January 9, 2025; Production release for all customers: With the 25.1 release (January 16, 2025)
+
+Use natural language to quickly filter work in the Priorities worklist. You can type things like 
+
+* Show me late tasks
+* Show me tasks due this week
+* Show top priorities
+
+Only available for IMS-enabled instances.
+
+For more information, see [Filter and group your work with Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+
+## Catch up on work in Priorities
+
+>[!NOTE]
+>
+>Preview release: December 20, 2024; Production release for all customers: With the 25.1 release (January 16, 2025)
+>
+>_This feature is only available for customers on the Unified Adobe Experience using the AI Assistant._
+
+You can use Catch me up to help reduce the amount of time looking for information on active projects. 
+
+Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.
+
+For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+
+## View changes live on the Details page in Priorities
+
+>[!NOTE]
+>
+>Preview release: December 19, 2024; Production release for all customers: With the 25.1 release (January 16, 2025)
+
+You can now view real-time updates on the Details page of a task or issue. You can also see if others are viewing the page at the same time as you with real-time presence indicators.
+
+For more information, see [View project and task details in the Priorities worklist](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
+
+## Upload and view documents and proofs in Priorities 
+
+>[!NOTE]
+>
+>Preview release: December 19, 2024; Production release for all customers: With the 25.1 release (January 16, 2025)
+
+You can now interact with documents and proofs for tasks and issues in the worklist and calendar. In the new Documents tab, you can 
+
+* Upload a document
+* Create a proof
+* Launch the proofing viewer
+* And more
+
+For more information, see [Upload Documents and create proofs in Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).
+
+## Calendar view now available in Priorities
+
+>[!NOTE]
+>
+>Preview release: December 19, 2024; Production release for all customers: With the 25.1 release (January 16, 2025)
+
+You can now track your work with a clear, visual calendar. With the Priorities calendar, you can
+
+* Use filters to find your work
+* Apply custom fields like status and focus level to identify high-priority work
+* Apply colors for quick organization
+* And more
+
+For more information, see [Manage your work in the Priorities calendar](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md).
 
 ## Updates to the Priorities worklist 
 
 >[!NOTE]
 >
->Preview release: December 12, 2024; Production release for all customers: With the 25.1 release (January 2025)
+>Preview release: December 12, 2024; Production release for all customers: With the 25.1 release (January 16, 2025)
 
 We have updated the Priorities worklist to improve capabilities and align with other areas of the application.
 
@@ -46,7 +122,7 @@ For more information, see [Filter and group your work with Priorities](/help/qui
 
 >[!NOTE]
 >
->Preview release: December 5, 2024; Production release for all customers: With the 25.1 release (January 2025)
+>Preview release: December 5, 2024; Production release for all customers: With the 25.1 release (January 16, 2025)
 
 You can now navigate directly to a project in Workfront from the Priorities worklist.
 
@@ -71,8 +147,16 @@ This change makes it easier to view and organize work based on urgency. For more
 
 >[!NOTE]
 >
->Preview release: November 6, 2024; Production for fast release: With the 24.11 release (November 14, 2024); Production for quarterly release: With the 25.1 release (January 2025)
+>Preview release: November 6, 2024; Production for fast release: With the 24.11 release (November 14, 2024); Production for quarterly release: With the 25.1 release (January 16, 2025)
 
 You can now view project details and comments from the worklist in Priorities.
 
 For more information, see [View project and task details in the Priorities worklist](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
+
+## Priorities enhancements demo video
+
+Watch the video below for a detailed demonstration of the new features added to Priorities this quarter.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3442751/?quality=12&learn=on)
+
+

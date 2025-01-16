@@ -9,8 +9,6 @@ exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
 ---
 # Request access to objects
 
-{{preview-fast-release-general}}
-
 Your visibility to objects in Adobe Workfront depends on your access to that type of object as well as your permissions on an individual object.
 
 >[!NOTE]
@@ -96,11 +94,7 @@ To request initial access to an object:
 1. From the drop-down list, select the type of access that you are requesting.
 1. (Optional) In the **P.S.** field, specify a note to the user regarding why you need additional access.
 
-   <span class="preview">Sample image in the Preview environment:</span>
    ![Request access dialog box](assets/request-access-to-project.png)
-
-   Sample image in the Production environment:
-   ![](assets/request-access-dialog-350x314.png)
 
 <!--
 If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
@@ -128,11 +122,8 @@ To request additional access to an object that you already have limited access t
 1. (Optional) In the **P.S.** field, specify a note regarding why you need additional access.
 1. Click **Request Access**.
 
-   <span class="preview">Sample image in the Preview environment:</span>
+   Sample image in the Preview environment:
    ![Request access dialog box](assets/request-access-to-project.png)
-
-   Sample image in the Production environment:
-   ![](assets/request-access-dialog-350x314.png)
 
 ## Hierarchy of the "Request Access" and "Request More Access" drop-down menus {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 

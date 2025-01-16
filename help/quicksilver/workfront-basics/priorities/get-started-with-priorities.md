@@ -23,7 +23,8 @@ In Priorities, you can filter and group your work to help you manage deadlines a
 
 ### Find your work with filters
 
-Find your most important work with filters. You can filter tasks and issues assigned to you in the following ways:
+Find your most important work with filters. You can use a natural language to find work with the Smart filter, or
+You can use the Standard filter to find tasks and issues assigned to you:
 
 <table>
   <tbody>
@@ -105,10 +106,9 @@ Once you have assigned focus levels to your work items, you can sort the column 
 
 For more information, see [Prioritize important work items](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
-![](assets/my-focus-column.png)
-<!-- new screen for prod ![](assets/worklist.png) -->
+![](assets/worklist.png)
 
-### Use the Calendar view [!BADGE Coming soon]{type=Informative}
+### Use the Calendar view
 
 The Calendar view will provide a visual representation of your tasks and issues. You will be able to choose between a day, week, or month view. You will also be able to filter items in a similar way to the worklist.
 
@@ -134,8 +134,7 @@ The Updates section shows system updates, and up to 200 of the most recent updat
 
 For more information, see [Add and view comments in Priorities](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
-![](assets/new-update.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### Log time
 
@@ -143,8 +142,7 @@ You can log time for work items to indicate the number of hours you spend workin
 
 For more information, see [Log time in Priorities](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
-![](assets/log-time.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### Upload files
 
@@ -157,14 +155,8 @@ Upload files directly to the task or issue's Documents area without having to na
 
 For more information, see [Upload files in Priorities](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
-![](assets/upload-file.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
-### View documents [!BADGE Coming soon]{type=Informative}
-
-The Documents tab will allow you to view all files related to a work item. You will be able to filter documents by name, file type, or person, and sort by name and upload date.
-
-You will also be able to open the document or proof.
 
 ### Add quick links
 
@@ -174,21 +166,33 @@ You can embed frequently used links in the work item's details page. Quick links
 
 For more information, see [Add and manage quick links in Priorities](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
-### Review and approve assets [!BADGE Coming soon]{type=Informative}
+### View documents
 
-The ability to review and approve assets is on the Priorities roadmap.
+The Documents tab allows you to view all files related to a work item. You will be able to filter documents by name, file type, or person, and sort by name and upload date.
 
-For now, we recommend using the My approval and All Approvals widgets in New Home. 
+You will also be able to open the document or proof.
 
-For more information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+### Review and approve assets
+
+From the Documents tab on a task or issue, you can
+
+* Create a simple or advanced proofs
+* Launch the proofing viewer to leave comments and make decisions
 
 
-## Use [!DNL Catch me up] to see what you missed [!BADGE Coming soon]{type=Informative}
+## Use [!DNL Catch me up] to see what you missed
 
 Use the [!DNL Catch me up] feature to see what you missed. Catch me up will summarize updates, uploaded documents, approvals, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days. 
 
+For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ![](assets/catch-me-up.png)
+
+<!--need new screen for prod-->
+
+## View real-time updates on the Details page
+
+You can view real-time updates on the Details page of a task or issue. You can also see if others are viewing the page at the same time as you with real-time presence indicators. 
 
 ## Considerations
 

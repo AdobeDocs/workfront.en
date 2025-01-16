@@ -12,6 +12,18 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the First Quarter 2025 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+
+## Look-and-feel updates for editing hour entries from an hours list or report
+
+>[!NOTE]
+>
+>Preview release: January 9, 2025; Production release for all customers: With the 25.1 release (January 16, 2025)
+
+We have updated the look and feel of the Edit hour box, when editing hours from an hours list or report to match the design of other areas of Workfront. 
+
+For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+
 ## Updated experience on the Cloud Providers page in the Setup area
 
 >[!NOTE]
@@ -26,7 +38,7 @@ A small functionality change was applied to the Quip integration. Instead of inp
 
 >[!NOTE]
 >
->Preview release: November 28, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 2025)
+>Preview release: November 28, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 16, 2025)
 
 The dialog for requesting access to objects has been updated to a more modern design that is consistent with other areas of Workfront. This dialog is available when you request access to projects, tasks, issues, programs, portfolios, templates, and template tasks.
 
@@ -44,7 +56,7 @@ We have made performance upgrades to the area in Setup where you configure custo
 
 >[!NOTE]
 >
->Preview release: November 4, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 2025)
+>Preview release: November 4, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 16, 2025)
 
 We have updated the Company Members and Company Billing Rates pages with a more modern design that is consistent with other areas of Workfront. Company memberships are accessed via Setup > Companies > select a company name > select Company Members in the left panel. Company billing rates are accessed via Setup > Companies > select a company name > select Billing Rates in the left panel.
 
@@ -67,7 +79,7 @@ The most noticeable changes are as follows:
 
 >[!NOTE]
 >
->Preview release: November 4, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 2025)
+>Preview release: November 4, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 16, 2025)
 
 We are introducing a new list format in the Workfront Setup area, and the exchange rates list is the first page to use this table-style format. The functionality for adding new exchange rates and searching for exchange rates has not changed.
 
@@ -77,7 +89,7 @@ For information on exchange rates, see [Set up exchange rates](/help/quicksilver
 
 >[!NOTE]
 >
->Preview release: November 4, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 2025)
+>Preview release: November 4, 2024; Production for fast release: With the 24.12 release (December 12, 2024); Production for quarterly release: With the 25.1 release (January 16, 2025)
 
 We have updated the Export Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront.
 
@@ -87,7 +99,7 @@ For information, see [Export data from Workfront via Kick-Starts](/help/quicksil
 
 >[!NOTE]
 >
->Preview release: October 24, 2024; Production for fast release: With the 24.11 release (November 14, 2024); Production for quarterly release: With the 25.1 release (January 2025)
+>Preview release: October 24, 2024; Production for fast release: With the 24.11 release (November 14, 2024); Production for quarterly release: With the 25.1 release (January 16, 2025)
 
 The Send update to user window has been updated to a more modern design that is consistent with other areas of Workfront.
 

@@ -48,7 +48,7 @@ Add the following IP addresses to your allowlist:
 * 20.81.156.240/28 
 * 172.172.84.48/28 
 
-Also, if your organization uses outbound network filtering, add the following domain to your allowlist to enable your system to access Workfront Fusion.
+Also, if your organization uses outbound network filtering, add the following domain to your allowlist to enable your system to access Workfront Fusion. These are used for webhooks.
 
 * hook.app.workfrontfusion.com
 * hook.app-eu.workfrontfusion.com
