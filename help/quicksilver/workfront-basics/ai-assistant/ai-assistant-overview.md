@@ -8,10 +8,6 @@ exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
 ---
 # AI Assistant overview
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available in the Preview environment for all customers, and in the Production environment for customers that have enabled monthly releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  
-
 Workfront's AI Assistant helps you accomplish your work by offering in-app information and suggestions in a natural-language conversation. AI Assistant can give you a smoother work experience by
 
 * Summarizing work items or documents
@@ -78,13 +74,9 @@ AI Assistant currently offers the following functionality:
 
    For more information, see [Get help from AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
-<div class="preview">
-
 * Locating specific items in Workfront.
 
    For more information, see [Use AI Assistant to work with projects, tasks, and issues](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
-
-</div>
 
 * Generating or refining formulas for calculated custom fields.
 
@@ -94,12 +86,10 @@ AI Assistant currently offers the following functionality:
 
    For more information, see [Generate or revise calculated field formulas with AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md).
 
-<div class="preview">
 * Summarizing updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days in Priorities.
 
 For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
-</div>
 
 ## Object types available for AI Assistant
 

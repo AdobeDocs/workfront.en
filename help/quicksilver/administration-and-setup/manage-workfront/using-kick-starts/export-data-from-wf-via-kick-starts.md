@@ -18,8 +18,6 @@ exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-{{highlighted-preview}}
-
 As an Adobe Workfront administrator, you can use the Kick-Starts data exporter to export data from Workfront. You can use it in other applications after you export it.
 
 Exporting data through Kick-Starts is also helpful in understanding what fields are associated with each object, how these fields are coded, as well as how the values of these fields are formatted in the database.
@@ -334,11 +332,7 @@ The following limitations exist when exporting data via kick-starts (data is exp
 
    You can select up to 100 dashboards and 100 reports in a single export.
    
-   <span class="preview">Sample image in the Preview environment:</span>
    ![Kickstart export](assets/kickstart-export-spreadsheet-options.png)
-
-   Sample image in the Production environment:
-   ![Kickstart export](assets/kickstart-export-350x381.png)
 
    You can export multiple objects at one time.
 

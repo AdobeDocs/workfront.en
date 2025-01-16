@@ -9,8 +9,6 @@ exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
 ---
 # View project and work item details in Priorities
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 You can view project, task, and issue details in the priorities worklist.
 
 >[!IMPORTANT]
@@ -70,8 +68,7 @@ You must have the following access to perform the steps in this article:
     * Add a file
     * <span class="preview">Go directly to the project</span>
 
-    ![project details](assets/project-details.png)
-    <!--new screen for prod ![](assets/project-details-new.png)-->
+    ![project details](assets/project-details-new.png)
 
 ### View task details 
 
@@ -81,35 +78,35 @@ You must have the following access to perform the steps in this article:
 1. Task is selected by default. Here you can
     * View and edit project and task details and description
     * View and add comments on the project
-    * <span class="preview">View and add documents</span>
-    * <span class="preview">Create a proof</span>
+    * View and add documents
+    * Create a proof
     * Log time
     * Add a file
     * Add quick links
 
 
-    ![task details](assets/task-details.png)
-    <!--new screen for prod ![](assets/task-details-new.png)-->
+   ![task details](assets/task-details-new.png)
 
 ### View issue details 
 
 {{step1-to-priorities}}
 
 1. In the worklist, hover over the work name, then click **Summary** icon ![open summary icon](assets/summary-icon.png).
+
 1. Issue is selected by default. Here you can
     * View and edit project and issue details and description
     * View and add comments on the project
-* <span class="preview">View and add documents</span>
-* <span class="preview">Create a proof</span>
-    * Log time
-    * Add a file
-    * Add quick links
+    * View and add documents
+    * Create a proof
+        * Log time
+        * Add a file
+        * Add quick links
 
-    <!--new screen for prod ![issue details](assets/issue-details.png)-->
+   ![issue details](assets/issue-details.png)
 
 ## View details on the Details page
 
-<span class="preview">You can view real-time updates on the Details page of a task or issue. You can also see if others are viewing the page at the same time as you with real-time presence indicators.</span>
+You can view real-time updates on the Details page of a task or issue. You can also see if others are viewing the page at the same time as you with real-time presence indicators.
 
 ## View work item details
 
@@ -119,8 +116,8 @@ You must have the following access to perform the steps in this article:
 
 * View and edit project details and description
 * View and add comments on the project
-* <span class="preview">View and add documents</span>
-* <span class="preview">Create a proof</span>
+* View and add documents
+* Create a proof
 * Log time
 * Add a file
 * Add quick links

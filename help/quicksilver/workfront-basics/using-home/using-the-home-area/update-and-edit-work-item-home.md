@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Update or edit a work item in the Home area
+title: Update or Edit a Work Item in the Home Area
 description: You can view and add updates to a work item within the [!UICONTROL Home] area in Adobe Workfront. You can also edit other data related to the work item if you have access to edit it.
 author: Lisa
 feature: Get Started with Workfront, Work Management
@@ -9,12 +9,11 @@ exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
 ---
 # Update or edit a work item in the [!UICONTROL Home] area
 
-<!--Audited: April 2024-->
+<!--Audited: 04/2024-->
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 You can view and add updates to a work item within the [!UICONTROL Home] area in [!DNL Adobe Workfront]. You can also edit other data related to the work item if you have access to edit it.
 
@@ -127,22 +126,18 @@ You can provide updates on any work item in the [!UICONTROL My Work] widget:
 
 1. Click **Reply**.
 
-   <div class="preview">
-
    ![](assets/reply-to-comment-in-mentions-widget.png)
 
-   </div>   
-
 1. Begin typing your comment.
-1. (Optional) In the <span class="preview">**Tag people**</span> box, start typing the name of a user or a team that you would like to include in this comment, then select it when it displays in the list.
+1. (Optional) In the **Tag people** box, start typing the name of a user or a team that you would like to include in this comment, then select it when it displays in the list.
 1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, links, or images to your comment, to enhance your content.
-1. <span class="preview">Click **Submit** to add the comment to the work item.</span>
+1. Click **Submit** to add the comment to the work item.
 
     >[!IMPORTANT]
     >
-    ><span class="preview">You can edit your comment only within 15 minutes from submitting it. To edit a comment, click the **More** menu in the upper-right corner of the comment, then click **Edit**.</span>
+    >You can edit your comment only within 15 minutes from submitting it. To edit a comment, click the **More** menu in the upper-right corner of the comment, then click **Edit**.
 
-   <span class="preview">For more detailed information about adding updates, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>
+   For more detailed information about adding updates, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Edit a work item
 
