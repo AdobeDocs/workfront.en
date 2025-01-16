@@ -8,7 +8,7 @@ description: .
 # Workfront knowledge base
 
 * [Administration and setup](administration-and-setup/administration-and-setup.md) 
-* [Adobe Workfront basics](workfront-basics/workfront-basics.md) 
+* [Adobe Workfront basics: article index](workfront-basics/workfront-basics.md) 
 * [People, teams, and groups](people-teams-and-groups/people-teams-and-groups.md) 
 * [Manage resources](resource-mgmt/manage-resources.md) 
 * [Agile](agile/agile.md) 

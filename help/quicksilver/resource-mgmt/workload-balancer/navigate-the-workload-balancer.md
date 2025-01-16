@@ -9,6 +9,8 @@ exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
 ---
 # Navigate the Workload Balancer
 
+<!--Audited: 12/2024-->
+
 Use the Workload Balancer in Adobe Workfront to assign work to users based on their availability. This article describes how you can use settings and options to navigate the Workload Balancer and display the information that is relevant to you. Additional articles listed here describe how you can use the Workload Balancer to manage your resources and their allocation to work. 
 
 The Workload Balancer is available in multiple areas of Adobe Workfront. Navigating it is similar in all areas. 
@@ -30,7 +32,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td><p>New: Standard</p>
        <p>or</p>
        <p>Current: Plan, when using the Workload Balancer in the Resourcing area;</br>
@@ -54,7 +56,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -223,7 +225,7 @@ To navigate the Workload Balancer for multiple projects:
 
 1. Click the **down-pointing arrow** to the left of the Unassigned or Assigned areas to collapse all items under the project names (in the Unassigned area) and under the user names (in the Assigned area).
 
-1. Drag and drop the **separation line** between the left panel and the timeline area to adjust the size of the left panel.
+1. Hover over, then drag and drop the **separation line** between the left panel and the timeline area to adjust the size of the left panel.
 
     ![Separation line](assets/wb-adjust-panel-size.png)
 

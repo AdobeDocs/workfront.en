@@ -24,11 +24,12 @@ Planned work is represented in Adobe Workfront by projects and tasks. However, y
 After you create a request in a Request Queue, you can either assign it to be completed or you can convert it to a task or a project.   
 For more information about converting issues to a task or project, see the article [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-You can create a request in the following ways:
+You can create a Workfront request in the following ways:
 
 * From scratch as described in this article. 
 * From drafts. For information, see [Create requests from drafts](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 * From an existing request, by copying and submitting a copy. For information, see [Copy and submit requests](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
+* From a Workfront Planning request form, to create records in Workfront Planning. Your organization must purchase a Workfront Planning package. For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
 
 ## Access requirements
 
@@ -338,6 +339,17 @@ You can submit requests using any applications that have been integrated with Wo
 
 * You can submit requests from Salesforce if you have installed the Workfront app for Salesforce.  
   For information about submitting requests from Salesforce using our Workfront app for Salesforce, see the article [Submit Adobe Workfront requests from Salesforce objects](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
+
+## Create requests using a Workfront Planning request form
+
+You can add a request using a Workfront Planning request form. Adding Workfront Planning requests might create Planning records, if the request form is approved or if it does not require approval. 
+
+Your organization must purchase a Workfront Planning package to be able to submit Planning requests. 
+
+For information, see the following articles: 
+
+* [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). 
+* [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
 
 ## Locate submitted requests
 

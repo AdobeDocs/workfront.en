@@ -13,7 +13,7 @@ exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
 
 <!-- Audited: 2/2024 -->
 
-Topic Groups are associated with Request Queues. They allow you to layer your Request Queues in multiple categories, depending on the nature of the requests.
+Topic Groups are associated with Request Queues. You can layer your Request Queues in multiple categories, depending on the nature of the requests by using topic groups.
 
 ## Access requirements
 
@@ -58,12 +58,12 @@ For example, if you have a Request Queue for Marketing Requests, you can have a 
 
 For more information about how to create Request Queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
->[!TIP]
->
->* You can create up to 10 tiers of Topic Groups within a Request Queue.
->* There is no limit to the number of Queue Topics that can be associated with a topic group. 
->* Topic groups are a reportable object.
->
+Consider the following when working with topic groups: 
+
+* You can create up to 10 tiers of Topic Groups within a Request Queue.
+* There is no limit to the number of Queue Topics that can be associated with a topic group. 
+* Topic groups are a reportable object.
+* You cannot move topic groups from one project to another.
 
 ## Create Topic Groups
 

@@ -7,7 +7,12 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
 ---
+
 # Use the [!UICONTROL My Updates] area
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 You can use the [!UICONTROL My Updates] area to quickly review the approvals waiting for your decision or the conversations you have been included in.
@@ -73,7 +78,7 @@ You must have the following before you begin:
 
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
-1. (Optional) Scroll to the bottom of the [!UICONTROL My Updates] area and click the right-pointing arrow to display more approvals that display on additional pages.
+1. (Optional) Scroll to the bottom of the [!UICONTROL **My Updates**] area and click the right-pointing arrow to display more approvals that display on additional pages.
 
    >[!TIP]
    >
@@ -150,8 +155,11 @@ You must have the following before you begin:
    * Start typing a reply
    * Use the Rich Text toolbar to format your text, add links, lists, emojis, quotes, or images to your message
    * Add users or teams to notify them of your reply.
+
+      For more information about replying to updates, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
       
-      When you are done adding the reply, click **[!UICONTROL Reply]** again.
+      When you are done adding the reply, click **[!UICONTROL Submit]**.
 
       ![](assets/reply-in-the-my-updates-area.png)
+
 1. (Optional) Click **[!UICONTROL Pin current page]** to pin the [!UICONTROL My Updates] area to your top navigation.

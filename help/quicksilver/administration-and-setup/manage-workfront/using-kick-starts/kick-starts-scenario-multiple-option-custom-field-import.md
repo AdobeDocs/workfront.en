@@ -12,8 +12,6 @@ exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
 ---
 # Kick-Starts scenario: Import multiple-option custom fields into Workfront
 
-{{highlighted-preview}}
-
 You can import custom fields with multiple options in Adobe Workfront using the Kick-Start functionality. 
 
 Examples of custom fields with multiple options are:
@@ -76,7 +74,7 @@ Exporting your existing data first allows you to scan it and see how your new da
 
 If you have a good understanding of the Workfront database objects and structure, you can continue with the section below.  
 
-To export existing data from Workfront: 
+To export existing data from Workfront:
 
 {{step-1-to-setup}}
 
@@ -84,11 +82,7 @@ To export existing data from Workfront:
 
 1. Select **Custom Data** in the **What to include** section.
    
-   <span class="preview">Sample image in the Preview environment:</span>
    ![Select Custom Data](assets/kickstarts-select-existing-data.png)
-
-   Sample image in the Production environment:
-   ![Select Custom Data](assets/existing-custom-data-box-checked-kick-starts.png)
 
 1. Choose **.xlsx file** in the **Download format** section.
   
@@ -124,11 +118,7 @@ After scanning the information about existing custom fields in your system, you 
  
 1. In the **Download a blank Kick-Start spreadsheet** area, select the **Custom Data** check box and click **Download**.
 
-   <span class="preview">Sample image in the Preview environment:</span>
    ![Select Custom Data](assets/kickstarts-select-existing-data.png)
-   
-   Sample image in the Production environment:
-   ![Select Custom Data](assets/blank-custom-data-option-checked-kick-starts.png)
 
    A blank kick-start file downloads to your computer.
 

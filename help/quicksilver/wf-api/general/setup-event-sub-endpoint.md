@@ -29,3 +29,5 @@ Service endpoints that consume Adobe Workfront event subscription messages must 
 
    1. the endpoint saves the message information upon receipt and immediately responds with a 200-level status. 
    1. After an endpoint has responded to an event subscription delivery request, the saved messages can be processed.
+
+* Event subscription messages or objects cannot be larger than 1 MB.

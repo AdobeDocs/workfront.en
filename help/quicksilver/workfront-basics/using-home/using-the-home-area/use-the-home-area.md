@@ -1,16 +1,18 @@
 ---
 content-type: reference
 navigation-topic: home-navigation-topic
-title: Use the Home area
+title: 'Use the Home area: Article index'
 description: Review these articles to learn how to use the Home area in Adobe Workfront.
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
 ---
-# Use the Home area
+# Use the Home area: article index
 
-This section contains the following articles:
+<!--Audited: 12/2024-->
+
+Review these articles to learn how to use the Home area in Adobe Workfront.
 
 * [Get started with [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
 * [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)

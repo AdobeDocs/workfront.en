@@ -9,7 +9,7 @@ exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
 ---
 # Share the Workload Balancer with a link
 
-You can share the Workload Balancer with other users who might not have the Resourcing area available to them. For information about using the Workload Balancer, see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+You can share the Workload Balancer with other users who might not have the Resourcing area available in the Main Menu. For information about using the Workload Balancer, see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Access requirements
 

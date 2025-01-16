@@ -9,13 +9,17 @@ exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
 ---
 # Embed a request queue in a dashboard
 
-You can embed a new request queue in a dashboard to provide direct access to the request queue to your users, without having to go to the Requests area.&nbsp;
+<!-- Audited: 1/2025 -->
+
+You can embed a new request queue in a dashboard to provide direct access to the request queue to your users, without having to go to the Requests area.
 
 For example, if you have a request queue that is open to your entire organization, like a Help Desk Queue, or a PTO Request queue that everyone must access on a regular basis, it might be convenient to insert the request queue directly into one of their dashboards for quick and easy access. The process of setting this up is similar to that of creating an external page on a dashboard.
 
 First, you need to obtain a URL to the request queue. Secondly, you can embed the URL into a dashboard by adding an external page.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following access to perform the steps in this article:
 
@@ -24,31 +28,43 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Edit access to Reports, Dashboards, Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>Manage permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to the dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 
 Both of the following must be created before you can embed a request queue in a dashboard:
 
 * **The dashboard**: For information on creating dashboards, see [Create a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+
 * **The request queue**: For information on creating request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 
 ## Obtain the URL of the request queue {#obtain-the-url-of-the-request-queue}
@@ -56,7 +72,9 @@ Both of the following must be created before you can embed a request queue in a 
 You can obtain the URL of a request queue in multiple ways, depending on what portion of the request queue you want to expose to the users when they access it from a dashboard.
 
 * [Obtain a link to a specific queue topic with ability to change the request type](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type) 
+
 * [Obtain a link to a request queue and ability to change the request type](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type) 
+
 * [Obtain a link to a request queue with no ability to change the request type](#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type)
 
 ### Obtain a link to a specific queue topic with ability to change the request type {#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type}
@@ -65,7 +83,7 @@ When you share a link to a specific queue topic with other users, the request fo
 
 Users can change the request type or choose another topic if they need to. The navigation of the Requests area also displays.
 
-1. Click the **Main Menu** > **Requests** >&nbsp;**New Request**. 
+1. Click the **Main Menu** > **Requests** > **New Request**. 
 1. Continue selecting topic groups and queue topics until you reach the queue you want to share on the dashboard, if you want to share specific queue. For information about submitting requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
    >[!TIP]
@@ -133,8 +151,11 @@ When you share a link to a preselected request type, the request type is selecte
 You can embed a link to the requests queue or to a queue topic nested under a request queue into a dashboard to give users direct access to entering requests.
 
 1. Obtain a request queue URL using one of the methods described in the [Obtain the URL of the request queue](#obtain-the-url-of-the-request-queue) section of this article. 
+
 1. Click the **Main Menu** > **Dashboards** > **New Dashboard**.
+
 1. Type a **Name** for the dashboard. This is a required field.
+
 1. Click **Add External Page**.
 
    ![](assets/add-external-page-highlighted---nwe-350x214.png)
@@ -144,35 +165,20 @@ You can embed a link to the requests queue or to a queue topic nested under a re
    * **Name**: enter the name of the request queue as you want it to appear on the dashboard. This is a required field.
 
    * **Description**: enter a description about that this external page displays. This is not a required field and it is important only for reporting purposes. It does not display in the dashboard.
+
    * **URL**: paste the URL that you obtained using one of the methods described in Step 1. 
    
-     <!--   
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <MadCap:conditionalText data-mc-conditions="">   
-     (NOTE: ensure this stays accurate)   
-     </MadCap:conditionalText>   
-     </MadCap:conditionalText>   
-     -->
-
    * **Height**: enter the height of the external page. This defines how much space the external page containing the request queue occupies on the dashboard. This is a required field and the default value is 500.
 
 1. Click **Save**. 
-1. Click **Save + Close**.&nbsp;
+
+1. Click **Save + Close**.
 
    The request queue displays in the dashboard as a separate dashboard component.
 
-   ![](assets/new-dashboard-with-embedded-request-queue-nwe-350x260.png)
+1. (Optional) Click **Dashboard Actions**, then **Edit** to add reports, calendars, or additional external pages to the same dashboard.
 
-1. (Optional) Click **Dashboard Actions**, then **Edit** to add reports, calendars, or additional external pages to the same dashboard.  
    For information about adding components to a dashboard, see [Create a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
-
-&nbsp;
-
-&nbsp;
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted - old information)</p>
--->
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">

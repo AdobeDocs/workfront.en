@@ -28,6 +28,11 @@ For information about converting issues to projects, see [Convert an issue to a 
    * During conversion, you might be asked whether you want to keep the issue and its resolution tied to the project or task you are creating.
    * If you keep the issue, the status and percent complete of the project or task automatically update the status and the percent complete of the issue when any changes occur on the project, task, or the issue or when the Workfront recalculates the timeline.
 
+   >[!NOTE]
+   >
+   >   After the status of the issue becomes Closed (as a result of closing the task or the project), regardless of what status the task or project changes to after closing them, the issue remains Closed.
+
+
 * When converting an issue to a task or a project, the issue is removed from the Home area of the user assigned to the issue.
 
 * When converting an issue, the permissions to the original issues are not transferred to the converted object (task or project).
