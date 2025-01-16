@@ -104,7 +104,7 @@ IF(
 1. Click **New business rule**.
 1. Select the object type to assign the business rule to, then click **Continue**.
 
-   ![Select an object](assets/object-for-business-rule2.png)
+   ![Select an object](assets/object-for-business-rule3.png)
 
 1. Type the **Name** for the business rule.
 1. In the **Is Active** field, select whether the rule should be active when you save it.
