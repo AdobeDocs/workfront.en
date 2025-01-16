@@ -12,7 +12,19 @@ exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
 ---
 # Adobe Workfront Fusion release activity overview
 
-Adobe Workfront Fusion connects your apps and web services seamlessly so that you can concentrate on new tasks rather than repeating the same tasks again and again.
+
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Adobe Workfront Fusion release activity overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.Adobe Workfront Fusion connects your apps and web services seamlessly so that you can concentrate on new tasks rather than repeating the same tasks again and again.
 
 For information about how to use Workfront Fusion, see [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
