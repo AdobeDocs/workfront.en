@@ -9,8 +9,6 @@ exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
 ---
 # Manage your work in the Priorities calendar
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 Easily track your work with a clear, visual calendar. With the Priorities calendar, you can
 
 * Use filters to find your work
