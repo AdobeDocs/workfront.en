@@ -20,7 +20,7 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Administration and Setup
 
-### Add Sharepoint dialog updated with new styling
+### Interface update for Add Sharepoint dialog box
 
 **Preview release: January 16, 2025; Production release: TBD**
 
