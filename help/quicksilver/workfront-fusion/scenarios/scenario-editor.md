@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: The scenario editor in [!DNL Adobe] Workfront Fusion
-description: The scenario editor allows you to create and edit scenarios in a visual interface.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
@@ -11,6 +11,18 @@ exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
 # The scenario editor in [!DNL Adobe Workfront Fusion]
 
 The scenario editor allows you to create and edit scenarios in a visual interface.
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [The scenario editor in Adobe Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/scenario-editor.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 ![](assets/scenario-editor.jpg)
 

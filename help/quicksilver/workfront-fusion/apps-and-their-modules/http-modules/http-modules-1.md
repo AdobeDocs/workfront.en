@@ -5,13 +5,25 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: HTTP modules
-description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 64dc0892-4d05-410b-ab30-aa4b21f759d0
 ---
 # HTTP modules
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Universal connectors](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/apps-and-modules-toc.html#universal-connectors)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 >[!NOTE]
 >

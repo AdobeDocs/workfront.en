@@ -5,12 +5,24 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Adobe Campaign v7/v8 modules
-description: With the [!DNL Adobe Campaign] modules, you can start an [!DNL Adobe Workfront Fusion] scenario based on events in your [!DNL Adobe Campaign] account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
 ---
 # [!DNL Adobe Campaign] modules
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Adobe Campaign modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-campaign-classic-connector.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 With the [!DNL Adobe Campaign] modules, you can start an [!DNL Adobe Workfront Fusion] scenario based on events in your [!DNL Adobe Campaign v7/v8] account, create, read, or update records, search for records using criteria you set, and perform custom API calls.
 

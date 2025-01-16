@@ -4,7 +4,7 @@ product-area: workfront-integrations
 keywords: fusion
 navigation-topic: workfront-fusion-navigation-topic
 title: Adobe Workfront Fusion
-description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -12,11 +12,23 @@ exl-id: d28b6344-070a-4cfc-ab5a-b5c279a8b805
 ---
 # [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Workfront Fusion documentation](https://experienceleague.adobe.com/docs/workfront-fusion/using/home.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
+
 >[!NOTE]
 >
 >[!DNL Adobe Workfront Fusion] requires an [!DNL Adobe Workfront Fusion] license in addition to an [!DNL Adobe Workfront] license.
 
-For training materials related to [!DNL Adobe Workfront Fusion], see [Workfront Fusion training overview](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/workfront-fusion-overview.html?lang=en).
+For training materials related to [!DNL Adobe Workfront Fusion], see [Workfront Fusion training overview](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/workfront-fusion-overview.html).
 
 For information about the latest enhancements with Workfront Fusion, see [[!DNL Adobe Workfront Fusion] release activity](../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 

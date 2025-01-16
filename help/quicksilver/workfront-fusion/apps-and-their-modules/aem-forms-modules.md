@@ -6,12 +6,24 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Adobe Experience Manager Forms modules
-description: With the [!DNL Adobe Experience Manager Forms] connector for [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Forms] account, create, upload, and update assets, and copy or move folders and assets.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 107d81f7-ca41-4d76-a6dd-e579886dc2ad
 ---
 # [!DNL Adobe Experience Manager Forms] modules
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Adobe Experience Manager Forms modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/aem-forms-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 With the [!DNL Adobe Experience Manager Forms] connector for [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Forms] account by creating a webhook.
 

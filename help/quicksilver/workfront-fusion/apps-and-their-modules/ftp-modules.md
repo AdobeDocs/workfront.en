@@ -5,12 +5,24 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: FTP modules
-description: FTP modules let you monitor file changes in a selected folder, upload new files to the desired folder, and modify or delete existing files that are already in a folder.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: 360825a4-4580-4039-894e-583e82132ed6
 ---
 # FTP modules
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [FTP modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/ftp-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 FTP modules let you monitor file changes in a selected folder, upload new files to the desired folder, and modify or delete existing files that are already in a folder.
 

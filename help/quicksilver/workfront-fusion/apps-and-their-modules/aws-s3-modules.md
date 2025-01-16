@@ -5,12 +5,24 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: AWS S3 modules
-description: The [!DNL Adobe Workfront Fusion AWS] S3 modules let you perform operations on your S3 buckets.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: 33623b5d-d9ff-4d41-b938-33378f50539e
 ---
 # AWS S3 modules
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [AWS S3 modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/aws-s3-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 The [!DNL Adobe Workfront Fusion AWS] S3 modules let you perform operations on your S3 buckets.
 

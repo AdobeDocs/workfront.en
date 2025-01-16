@@ -5,12 +5,24 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: connections-annd-webhooks
 title: Create connections in [!DNL Adobe Workfront Fusion]
-description: A connection must adhere to the requirements set by the API of the app or web service it connects to. For this reason, instructions for setting up a connection vary based on the app or web service. This article can help you identify and locate the instructions for connecting [!DNL Adobe Workfront Fusion] to your chosen app or web service.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
 ---
 # Create connections in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Connect to applications: article index](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-to-apps-toc.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 <!-- Audited: 3/2024-->
 

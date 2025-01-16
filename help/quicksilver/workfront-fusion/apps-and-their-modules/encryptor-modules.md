@@ -1,12 +1,24 @@
 ---
 title: Encryptor
-description: Adobe Workfront Fusion Encryptor modules allow you to encrypt any text data. They currently support message encryption via AES256 and PGP (OpenPGP).
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 9664c4f1-6467-45c9-8b9e-5a41d0e9ccb9
 ---
 # Encryptor
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Encryptor](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/encryptor-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 [!DNL Adobe Workfront Fusion] [!UICONTROL Encryptor] modules allow you to encrypt any text data. They currently support message encryption via AES256 and PGP ([!UICONTROL OpenPGP]).
 

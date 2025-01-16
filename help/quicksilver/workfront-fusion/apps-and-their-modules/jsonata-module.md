@@ -1,11 +1,23 @@
 ---
 title: JSONata modules
-description: The Adobe Workfront Fusion JSONata connector provides a module to process data in JSON format so that Adobe Workfront Fusion can further work with the data content.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5fd835a2-04cd-427c-a99f-985a99ecef0d
 ---
 # [!UICONTROL JSONata] modules
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [JSONata modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/jsonata-module.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 The [!DNL Adobe Workfront Fusion] [!UICONTROL JSONata] connector allows you to query JSON objects. This module does not require a connection.
 

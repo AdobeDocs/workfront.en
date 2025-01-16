@@ -3,12 +3,24 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: 'Create practice scenarios: article index'
-description: Follow these examples to learn how to create scenarios in Adobe Workfront Fusion
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: cd00008a-833c-46dd-a82d-22f27809493e
 ---
 # Create practice scenarios in [!DNL Adobe Workfront Fusion]: article index
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Build practice scenarios: article index](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/build-practice-scenarios-toc.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 This section contains the following articles:
 

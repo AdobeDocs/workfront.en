@@ -4,12 +4,24 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Connection metadata in Adobe Workfront Fusion
-description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: af260c63-3385-4d5c-abc2-d5c23175be40
 ---
 # Connection metadata in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Connection metadata](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/connections/connection-metadata.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 >[!NOTE]
 >

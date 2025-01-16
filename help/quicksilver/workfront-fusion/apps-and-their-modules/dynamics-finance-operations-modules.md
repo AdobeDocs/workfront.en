@@ -5,12 +5,24 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft Dynamics 365 Finance and Operations modules
-description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Microsoft Dynamics 365 Finance and Operations, as well as connect it to multiple third-party applications and services.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: 19b00ee8-dc05-4cde-9a76-d857090fa543
 ---
 # [!DNL Microsoft Dynamics 365 Finance and Operations modules]
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Microsoft Dynamics 365 Finance and Operations modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/dynamics-finance-operations-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Microsoft Dynamics 365], as well as connect it to multiple third-party applications and services.
 

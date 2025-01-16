@@ -4,12 +4,24 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: Directives for error handling in [!DNL Adobe Workfront Fusion]
-description: This article describes directives that you can use for error handling in your [!DNL Adobe Workfront Fusion] scenarios.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: dcf4f7e3-78d8-4eb4-9483-8a1c18b0e436
 ---
 # Directives for error handling in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Directives for error handling](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/errors/directives-for-error-handling.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 ## Access requirements
 

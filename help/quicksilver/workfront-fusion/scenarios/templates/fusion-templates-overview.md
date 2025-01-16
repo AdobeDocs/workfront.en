@@ -3,12 +3,24 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion templates overview
-description: Workfront Fusion templates feature allows you to create and use existing templates as a starting point for your [!DNL Workfront Fusion] scenarios.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: 02c10997-28bd-46b4-bbcc-0c907cdaeb7b
 ---
 # [!DNL Adobe Workfront Fusion] templates overview
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [View, edit, and delete templates](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/view-edit-and-delete-fusion-templates.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 [!DNL Workfront Fusion] templates feature allows you to create and use existing templates as a starting point for your [!DNL Workfront Fusion] scenarios. Templates represent common use cases that you can configure and modify to meet the needs of your organization and specific use case.
 

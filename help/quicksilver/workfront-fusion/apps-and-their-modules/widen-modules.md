@@ -1,12 +1,24 @@
 ---
 title: Widen modules
-description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!UICONTROL Widen], as well as connect it to multiple third-party applications and services.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: d46935bc-4f6c-4502-bd2f-3927f33241e1
 ---
 # [!DNL Widen] modules
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Widen modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/widen-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!UICONTROL Widen], as well as connect it to multiple third-party applications and services.
 

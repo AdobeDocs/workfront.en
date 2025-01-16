@@ -4,13 +4,17 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: fusion-in-admin-console
 title: Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)
-description: As an Adobe Workfront Fusion administrator, your administration responsibilities and procedures differ based on whether your organization has been onboarded to the Adobe Business Platform. This article lists the procedures that must be handled differently, and links to instructions for processes in both Workfront Fusion and the Adobe Admin Console.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: 86f8cc24-c1a2-4f47-bd08-39bb0f6b2940
 
 ---
 # Platform-based administration differences ([!DNL Adobe Workfront Fusion]/[!DNL Adobe Admin Console])
+
+>[!IMPORTANT]
+>
+>This article will be removed in the near future as all organizations are moved to the Adobe Admin Console.
 
 If your organization has been onboarded to the [!DNL Adobe Admin Console], your users use the [!DNL Adobe Admin Console] to access [!DNL Adobe Workfront Fusion]. This means that:
 
