@@ -1,6 +1,6 @@
 ---
 title: Adobe PDF Services
-description: Adobe PDF Services
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents

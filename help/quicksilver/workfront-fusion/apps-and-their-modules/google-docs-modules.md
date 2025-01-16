@@ -5,7 +5,7 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Docs modules
-description: The Adobe Workfront Fusion [!DNL Google Docs] modules enable you to monitor, create, edit and retrieve documents in your [!DNL Google Docs] and [!DNL Google Docs] (for [!DNL Google Workspace] users).
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: fbe7d628-d833-43ce-83b8-8e4e6a812fd1

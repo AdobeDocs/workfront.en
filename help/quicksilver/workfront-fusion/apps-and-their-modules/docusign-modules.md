@@ -1,6 +1,6 @@
 ---
 title: DocuSign modules
-description: The [!DNL Adobe Workfront Fusion DocuSign] modules enable you to monitor and retrieve envelope status, search and retrieve envelopes, or download and send a document to sign in your [!DNL DocuSign] account.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents

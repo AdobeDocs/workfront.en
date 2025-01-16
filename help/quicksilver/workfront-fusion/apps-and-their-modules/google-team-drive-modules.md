@@ -5,7 +5,7 @@ product-area: workfront-integrations;agile-and-teams;user-management
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Team Drive modules
-description: The [!DNL Adobe Workfront Fusion Google Team Drive] modules enable you to monitor, upload, update, copy, delete, or retrieve files and create folders in your [!DNL Google Shared] Drive.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8b4c057f-bb98-44d1-9b71-cbeaa402a1c3
