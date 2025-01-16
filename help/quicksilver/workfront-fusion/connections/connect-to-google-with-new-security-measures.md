@@ -4,7 +4,7 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: connections-annd-webhooks
 title: Connect [!DNL Adobe Workfront Fusion] to [!DNL Google Services] with updated security measures
-description: Google recently introduced restrictions on how users can use their API. This article describes how to connect [!DNL Adobe Workfront Fusion] to Google, accounting for these update security measures.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: 32dfef7a-7942-4025-8cb9-055d4e28090b

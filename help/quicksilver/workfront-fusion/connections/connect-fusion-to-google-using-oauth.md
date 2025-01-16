@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;setup
 navigation-topic: connections-annd-webhooks
 title: Connect [!DNL Adobe Workfront Fusion] to [!DNL Google Services] using a custom OAuth client
-description: You can use [!DNL Adobe Workfront Fusion] to connect to [!DNL Google Services] using a custom OAuth client. This procedure requires an existing [!DNL Google] account.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5efc0001-a8cd-4ffc-b074-3536f095727b

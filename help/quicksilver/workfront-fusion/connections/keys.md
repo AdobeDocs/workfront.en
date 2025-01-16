@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Keys in Adobe Workfront Fusion
-description: The keychain in [!DNL Adobe Workfront Fusion] will help you to administer public and private keys. Keys are used, for example, by the Encryptor app for encrypting or decrypting PGP messages.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: a36947aa-c218-4ff0-879c-2041c3cccae0

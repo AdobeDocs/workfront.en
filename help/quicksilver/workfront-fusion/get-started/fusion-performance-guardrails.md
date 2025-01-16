@@ -4,7 +4,7 @@ product-area: workfront-integrations
 keywords: scenario,performance
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion performance guardrails
-description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c

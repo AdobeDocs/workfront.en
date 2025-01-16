@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Connect [!DNL Adobe Workfront Fusion] to a web service that uses API token authorization
-description: Some services do not allow integration solutions such as [!DNL Adobe Workfront Fusion] to create an app that you can easily use in your scenario.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0feb745a-1ee0-4b29-92ab-14c12a8647d4

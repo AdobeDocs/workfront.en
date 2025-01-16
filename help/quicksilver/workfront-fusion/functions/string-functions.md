@@ -4,8 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: String functions in Adobe Workfront Fusion
-description: The following string functions are available in the Adobe Workfront Fusion mapping panel.
-author: Becky
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
 ---
