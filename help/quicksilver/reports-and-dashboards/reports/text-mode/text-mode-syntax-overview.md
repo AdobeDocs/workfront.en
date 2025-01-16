@@ -10,7 +10,7 @@ exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
 ---
 # Text mode syntax overview
 
-<!--Audited: 12/2023-->
+<!--Audited: 1/2025-->
 
 You can use the text mode interface to create more complex views, filters, groupings, and customized prompts in lists and reports. By using text mode, you can access fields and their attributes that are not available in the standard mode interface.
 
@@ -23,7 +23,7 @@ For more information about creating reports using text mode, including classes, 
 ## Considerations about text mode syntax
 
 * You must understand the Adobe Workfront syntax before you can start building reporting elements in text mode. The Workfront syntax for text mode is unique to this application and it has unique characteristics that you must be familiar with.
-* Before you start using text mode in your reports, we strongly recommend that you take our classes on advanced reporting, to gain a deeper understanding of our text mode language. <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
+* Before you start using text mode in your reports, we strongly recommend that you take our classes on advanced reporting, to gain a deeper understanding of our text mode language.
 * You can customize views, filters, and groupings using the standard mode interface. However, you can build Custom Prompts only using text mode.
 
 ## Common guidelines for building reporting elements in text mode
@@ -38,13 +38,11 @@ The following are common guidelines when building any reporting or list element 
 
   **Example:** You can display the name or GUID of the Portfolio Owner in a task view:
 
-
   `valuefield=project:portfolio:ownerID`
   
   You cannot group, filter, or prompt for the Portfolio Owner in a task view:
 
   `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
-
 
   In these examples, Portfolio Owner ID is three objects away from the object of the list.
 
@@ -84,7 +82,7 @@ The following similarities exist between the syntax of the sets of reporting ele
   For information about the key lines of codes for views and groupings when building them in text mode, see:
 
    * [Edit a view using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md) 
-   * [Edit text mode in a grouping](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+   * [Edit a grouping using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * The lines of code and syntax are similar for filters and custom prompts.
 

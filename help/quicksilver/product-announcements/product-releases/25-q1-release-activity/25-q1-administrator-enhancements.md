@@ -12,11 +12,25 @@ This page describes all administrator enhancements made with the First Quarter 2
 
 For a list of all changes available at this point in the First Quarter 2025 release cycle, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Business rules are now supported for more objects
+
+>[!NOTE]
+>
+>Preview release: January 16, 2025; Production release for all customers: With the 25.1 release (January 2025)
+>
+>_Only available for organizations on the Ultimate plan._
+
+You can now create business rules and apply validation to these additional objects: Company, Iteration, Non-Labor Resource Category, Job Role, User, Assignment, Resource Pool, Time Off, Document, and Hour.
+
+The following objects were already supported for business rules: Project, Task, Request, Portfolio, Program, Expense, Billing Record, Group, Risk, and Rate Card.
+
+For more information, see [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
 ## Compare objects between environments for environment promotion
 
 >[!NOTE]
 >
->Preview release: January 6, 2024; Production release for all customers: With the 25.1 release (January 2025)
+>Preview release: January 6, 2025; Production release for all customers: With the 25.1 release (January 2025)
 
 To make it easier to determine which object should be included in an environment promotion package, we've added the ability to compare objects across environments. Now, you can select object types and environments. Workfront generates a list of objects of that type, whether they are present in the target environment, and whether that object has differences between the source environment and the target environment. You can then add objects to a package directly from this list.
 
@@ -28,7 +42,7 @@ For more information, see [Compare objects between environments](/help/quicksilv
 
 >[!NOTE]
 >
->Preview release: January 6, 2024; Production release for all customers: With the 25.1 release (January 2025)
+>Preview release: January 6, 2025; Production release for all customers: With the 25.1 release (January 2025)
 
 To expand the capabilities of environment promotion functionality, we've added more objects. Now, you can add the following objects to an environment promotion package:
 
@@ -40,7 +54,7 @@ Previously, these objects were not available for environment promotion.
 
 For more information on objects available for environment promotion, see [Supported objects for environment promotion](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) in the article Environment promotion overview.
 
-## Prevent Moving tasks when there are Hours logged
+## Prevent moving tasks when there are hours logged
 
 >[!NOTE]
 >

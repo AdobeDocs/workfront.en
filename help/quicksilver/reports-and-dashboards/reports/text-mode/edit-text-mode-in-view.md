@@ -9,11 +9,7 @@ exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
 ---
 # Edit a view using text mode
 
-<!--Audited: 01/2024-->
-
-<!--
-<add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article) </p>
--->
+<!-- Audited: 1/2025 -->
 
 You can edit a view in a list or report using text mode to access fields that are not available in the standard interface and create more complex views.
 
@@ -21,23 +17,31 @@ You can edit a view in a list or report using text mode to access fields that ar
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
+You must have the following:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Standard </p>
-   <p>Current: Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit reporting elements in a report</p> </td> 
   </tr> 
   <tr> 
@@ -47,8 +51,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. 
-For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -64,7 +67,7 @@ For more information, see:
 
 ## Edit text mode in a view
 
-Editing a view using text mode is identical for reports and lists.&nbsp;Accessing the view from a report or from a list differs.
+Editing a view using text mode is identical for reports and lists. Accessing the view from a report or from a list differs.
 
 >[!TIP]
 >
