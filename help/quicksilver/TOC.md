@@ -313,6 +313,8 @@ feature-set: Workfront
         * [Adobe Workfront Proof 23.3 release activity: Week of May 8, 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
       * [Workfront Proof release activity: Week of May 17, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
       * [Workfront Proof release activity: Week of November 29, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
+    * Interface modernization {#interface-modernization}
+      * [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
     * Quarterly release archive {#quarterly-release}
       * [Quarterly release archive](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
       * 20.4 release {#release-20-4}
@@ -1709,7 +1711,7 @@ feature-set: Workfront
       * [Text mode syntax overview](reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
       * [Edit a view using text mode](reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
       * [Edit a filter using text mode](reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-      * [Edit text mode in a grouping](reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+      * [Edit a grouping using text mode](reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
       * [Use conditional formatting in Text Mode](reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
       * [Format dates in text mode reports](reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
       * [Format numbers, currency and percentage values in text mode reports](reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)

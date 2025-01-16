@@ -16,7 +16,7 @@ For a list of all changes available with the Fourth Quarter 2024 release, see [F
 
 >[!NOTE]
 >
->Production release for all customers: Incrementally beginning with the 24.10 release (October 17, 2024), full availability by November 8, 2024
+>Production release for all customers: Incrementally beginning with the 24.10 release (October 17, 2024)
 
 We have updated the report interface to match the design of other areas of Workfront. These updates include additional changes to reporting features:
 

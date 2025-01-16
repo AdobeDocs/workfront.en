@@ -171,23 +171,47 @@ The following table correlates object names in Workfront (as well as their names
         <td>BOOKNG | Booking</td>
         <td>BOOKINGS_CURRENT<br>BOOKINGS_DAILY_HISTORY<br>BOOKINGS_EVENT</td>
         <td>BOOKINGID (self)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>NLBRCATEGORYID<br>NONLABORRESOURCEID<br>OBJID<br>PROJECTID<br>SYSID<br>TASKID<br>TEMPLATEID<br>TEMPLATETASKID<br>TOPOBJID</td>
-        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>Non-labor Resource Category table not supported currently<br>NONLABORRESOURCES_CURRENT | NONLABORRESOURCEID<br>The ID of the object identified in the OBJOBJCODE field<br>PROJECTS_CURRENT | PROJECTID <br>Not a relationship; used for internal application purposes<br>TASKS_CURRENT | TASKID     <br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>The ID of the object identified in the TOPOBJCODE field</td>
+        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>Non-labor Resource Category table not supported currently<br>NONLABORRESOURCES_CURRENT | NONLABORRESOURCEID<br>The ID of the object identified in the OBJOBJCODE field<br>PROJECTS_CURRENT | PROJECTID <br>Not a relationship; used for internal application purposes<br>TASKS_CURRENT | TASKID<br>TEMPLATES_CURRENT | TEMPLATEID<br>TEMPLATETASKS_CURRENT | TEMPLATETASKID<br>The ID of the object identified in the TOPOBJCODE field</td>
+    </tr>
+    <tr>
+        <td>Business Profile</td>
+        <td>Business Profile</td>
+        <td>BSNPRF | BusinessProfile</td>
+        <td>BUSINESSPROFILE_CURRENT<br>BUSINESSPROFILE_DAILY_HISTORY<br>BUSINESSPROFILE_EVENT</td>
+        <td>ACCESSLEVELID<br>BUSINESSPROFILEID (self)<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>SYSID</td>
+        <td>ACCESSLEVELS_CURRENT | ACCESSLEVELID<br>Self<br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>Not a relationship; used for internal application purposes</td>
+    </tr>
+    <tr>
+        <td>Business Rule</td>
+        <td>Business Rule</td>
+        <td>BSNRUL | Business Rule</td>
+        <td>BUSINESSRULE_CURRENT<br>BUSINESSRULE_DAILY_HISTORY<br>BUSINESSRULE_EVENT</td>
+        <td>BUSINESSRULEID (self)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>SYSID</td>
+        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>Not a relationship; used for internal application purposes</td>
     </tr>
     <tr>
         <td>Category</td>
         <td>Custom Form</td>
         <td>CTGY | Category</td>
         <td>CATEGORIES_CURRENT<br>CATEGORIES_DAILY_HISTORY<br>CATEGORIES_EVENT</td>
-        <td>CATEGORYID (self)<br>ENTEREDBYID<br>GROUPID  <br>LASTUPDATEDBYID  <br>SYSID</td>
-        <td>Self<br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID  <br>USERS_CURRENT | USERID  <br>Not a relationship; used for internal application purposes</td>
+        <td>CATEGORYID (self)<br>ENTEREDBYID<br>GROUPID<br>LASTUPDATEDBYID<br>SYSID</td>
+        <td>Self<br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>Not a relationship; used for internal application purposes</td>
     </tr>
     <tr>
         <td>Category Parameter</td>
         <td>Custom Form Fields</td>
         <td>CTGYPA | Category Parameter</td>
         <td>CATEGORIESPARAMETERS_CURRENT<br>CATEGORIESPARAMETERS_DAILY_HISTORY<br>CATEGORIESPARAMETERS_EVENT</td>
-        <td>CATEGORIESPARAMETERID (self)<br>CATEGORYID<br>PARAMETERGROUPID<br>PARAMETERID    <br>SYSID</td>
+        <td>CATEGORIESPARAMETERID (self)<br>CATEGORYID<br>PARAMETERGROUPID<br>PARAMETERID<br>SYSID</td>
         <td>Self<br>CATEGORIES_CURRENT | CATEGORYID<br>Parameter Group table not supported currently<br>PARAMETERS_CURRENT | PARAMETERID    <br>Not a relationship; used for internal application purposes</td>
+    </tr>
+    <tr>
+        <td>Classifier</td>
+        <td>Location</td>
+        <td>CLSF | Location</td>
+        <td>CLASSIFIER_CURRENT<br>CLASSIFIER_DAILY_HISTORY<br>CLASSIFIER_EVENT</td>
+        <td>CLASSIFIERID (self)<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>PARENTID<br>SYSID</td>
+        <td>Self<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>Not a relationship; used for internal application purposes</td>
     </tr>
     <tr>
         <td>Company</td>
@@ -362,8 +386,16 @@ The following table correlates object names in Workfront (as well as their names
         <td>Non-labor resource</td>
         <td>NLBR | Non-labor resource</td>
         <td>NONLABORRESOURCES_CURRENT<br>NONLABORRESOURCES_DAILY_HISTORY<br>NONLABORRESOURCES_EVENT</td>
-        <td>CATEGORYID<br>NONLABORRESOURCEID (self)<br>ENTEREDBYID<br>HOMEGROUPID<br>LASTUPDATEDBYID<br>NONLABORRESOURCECATEGORYID  <br>SYSID  </td>
-        <td>CATEGORIES_CURRENT | CATEGORYID<br>Self<br>USERS_CURRENT | USERID  <br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID  <br>Non-labor Resource Category table not supported currently  <br>Not a relationship; used for internal application purposes    </td>
+        <td>CATEGORYID<br>NONLABORRESOURCEID (self)<br>ENTEREDBYID<br>HOMEGROUPID<br>LASTUPDATEDBYID<br>NONLABORRESOURCECATEGORYID<br>SYSID  </td>
+        <td>CATEGORIES_CURRENT | CATEGORYID<br>Self<br>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID<br>USERS_CURRENT | USERID<br>Non-labor Resource Category table not supported currently<br>Not a relationship; used for internal application purposes</td>
+    </tr>
+    <tr>
+        <td>Non-Labor Resource Category</td>
+        <td>Non-Labor Resource Category</td>
+        <td>NLBRCY | Non-labor resource category</td>
+        <td>NLBRCATEGORIES_CURRENT<br>NLBRCATEGORIES_DAILY_HISTORY<br>NLBRCATEGORIES_EVENT</td>
+        <td>CATEGORYID<br>ENTEREDBYID<br>LASTUPDATEDBYID<br>NLBRCATEGORYID (self)<br>PRIVATERATECARDID<br>SCHEDULEID<br>SYSID</td>
+        <td>CATEGORIES_CURRENT | CATEGORYID<br>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID<br>Self<br>RATECARD_CURRENT | RATECARDID<br>USERS_CURRENT | USERID<br>Not a relationship; used for internal application purposes</td>
     </tr>
     <tr>
         <td>Non-Work Day</td>
@@ -486,6 +518,22 @@ The following table correlates object names in Workfront (as well as their names
         <td>Not a Workfront relationship; used for integration to external systems<br>Scorecard table not supported currently<br>APPROVALPROCESSES_CURRENT | APPROVALPROCESSID<br>RATECARD_CURRENT | RATECARDID<br>CATEGORIES_CURRENT | CATEGORYID<br>COMPANIES_CURRENT | COMPANYID <br>OPTASK_CURRENT | OPTASKID<br>USER_CURRENT | USERID<br>APPROVALSTEPS_CURRENT | APPROVALSTEPID<br>Scorecard table not supported currently<br>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>NOTE_CURRENT | NOTEID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>MILESTONEPATH_CURRENT | MILESTONEPATHID<br>USER_CURRENT | USERID<br>Pop Account table not supported currently<br>PORTFOLIO_CURRENT | PORTFOLIOID<br>RATECARD_CURRENT | RATECARDID<br>PROGRAM_CURRENT | PROGRAMID<br>Self<br>Queue Definition  table not supported currently<br>OPTASK_CURRENT | OPTASKID<br>RESOURCEPOOLS_CURRENT | RESOURCEPOOLID<br>SCHEDULE_CURRENT | SCHEDULEID<br>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>TEAM_CURRENT | TEAMID<br>TEMPLATES_CURRENT | TEMPLATEID</td>
     </tr>
     <tr>
+        <td>Project Team User</td>
+        <td>Project Team User</td>
+        <td>PRTU | Project User</td>
+        <td>PROJECTSUSERS_CURRENT<br>PROJECTSUSERS_DAILY_HISTORY<br>PROJECTSUSERS_EVENT</td>
+        <td>PROJECTID<br>PROJECTSUSERID (self)<br>SYSID<br>TMPUSERID<br>USERID</td>
+        <td>PROJECTS_CURRENT | PROJECTID<br>Self<br>Not a relationship; used for internal application purposes<br>TEMPLATES_CURRENT | TEMPLATEID<br>USERS_CURRENT | USERID</td>
+    </tr>
+    <tr>
+        <td>Project Team User Role</td>
+        <td>Project Team User Role</td>
+        <td>PTEAM | ProjectUserRole</td>
+        <td>PROJECTSUSERSROLES_CURRENT<br>PROJECTSUSERSROLES_DAILY_HISTORY<br>PROJECTSUSERSROLES_EVENT</td>
+        <td>PROJECTID<br>PROJECTSUSERSROLEID (self)<br>ROLEID<br>SYSID<br>USERID</td>
+        <td>PROJECTS_CURRENT | PROJECTID<br>Self<br>ROLES_CURRENT | ROLEID<br>Not a relationship; used for internal application purposes<br>USERS_CURRENT | USERID</td>
+    </tr>
+    <tr>
         <td>RateCard</td>
         <td>Rate Card</td>
         <td>RTCRD |Rate Card</td>
@@ -498,16 +546,40 @@ The following table correlates object names in Workfront (as well as their names
         <td>Report Folder</td>
         <td>RPTFDR | Report Folder</td>
         <td>REPORTFOLDERS_CURRENT<br>REPORTFOLDERS_DAILY_HISTORY<br>REPORTFOLDERS_EVENT</td>
-        <td>REPORTFOLDERID (self)  <br>SYSID  </td>
-        <td>Self  <br>Not a relationship; used for internal application purposes  </td>
+        <td>REPORTFOLDERID (self)<br>SYSID</td>
+        <td>Self<br>Not a relationship; used for internal application purposes</td>
+    </tr>
+    <tr>
+        <td>Report View Statistic Count</td>
+        <td>Report View Statistic Count</td>
+        <td>PLSVST | PortalSectionStatisticInfo</td>
+        <td>REPORTVIEWSTATISTICCOUNTS_CURRENT<br>REPORTVIEWSTATISTICCOUNTS_DAILY_HISTORY<br>REPORTVIEWSTATISTICCOUNTS_EVENT</td>
+        <td>REPORTID<br>REPORTVIEWSTATISTICCOUNTID (self)<br>SYSID</td>
+        <td>PORTALSECTIONS_CURRENT | PORTALSECTIONID<br>Self<br>Not a relationship; used for internal application purposes</td>
+    </tr>
+    <tr>
+        <td>Reportable Budgeted Hours</td>
+        <td>Reportable Budgeted Hours</td>
+        <td>RPBGHR | Budgeted Hour</td>
+        <td>REPORTABLEBUDGETEDHOURS_CURRENT<br>REPORTABLEBUDGETEDHOURS_DAILY_HISTORY<br>REPORTABLEBUDGETEDHOURS_EVENT</td>
+        <td>PROJECTID<br>REPORTABLEBUDGETEDHOURID (self)<br>ROLEID<br>SYSID<br>USERID</td>
+        <td>PROJECTS_CURRENT | PROJECTID<br>Self<br>ROLES_CURRENT | ROLEID<br>Not a relationship; used for internal application purposes<br>USERS_CURRENT | USERID</td>
     </tr>
     <tr>
         <td>Reserved Time</td>
         <td>(Personal) Time Off</td>
         <td>RESVT | Time Off</td>
         <td>RESERVEDTIMES_CURRENT<br>RESERVEDTIMES_DAILY_HISTORY<br>RESERVEDTIMES_EVENT</td>
-        <td>RESERVEDTIMEID (self)  <br>SYSID<br>TASKID<br>USERID  </td>
-        <td>Self<br>Not a relationship; used for internal application purposes<br>TASKS_CURRENT | TASKID<br>USERS_CURRENT | USERID  </td>
+        <td>RESERVEDTIMEID (self)<br>SYSID<br>TASKID<br>USERID</td>
+        <td>Self<br>Not a relationship; used for internal application purposes<br>TASKS_CURRENT | TASKID<br>USERS_CURRENT | USERID</td>
+    </tr>
+    <tr>
+        <td>Resource Manager</td>
+        <td>Resource Manager</td>
+        <td>RESMGR | Resource Manager</td>
+        <td>RESOURCEMANAGERS_CURRENT<br>RESOURCEMANAGERS_DAILY_HISTORY<br>RESOURCEMANAGERS_EVENT</td>
+        <td>ID (self)<br>PROJECTID<br>RESOURCEMANAGERID<br>SYSID<br>TEMPLATEID</td>
+        <td>Self<br>PROJECTS_CURRENT | PROJECTID<br>USERS_CURRENT | USERID<br>Not a relationship; used for internal application purposes<br>TEMPLATES_CURRENT | TEMPLATEID</td>
     </tr>
     <tr>
         <td>Resource Pool</td>
@@ -522,8 +594,8 @@ The following table correlates object names in Workfront (as well as their names
         <td>Rich Text Note</td>
         <td>RHNOTE | Rich Text Note</td>
         <td>RESERVEDTEXTNOTES_CURRENT<br>RESERVEDTEXTNOTES_DAILY_HISTORY<br>RESERVEDTEXTNOTES_EVENT</td>
-        <td>RICHTEXTNOTEID (self)  <br>SYSID  </td>
-        <td>Self  <br>Not a relationship; used for internal application purposes  </td>
+        <td>RICHTEXTNOTEID (self)<br>SYSID</td>
+        <td>Self<br>Not a relationship; used for internal application purposes</td>
     </tr>
     <tr>
         <td>Rich Text Parameter Value</td>
@@ -716,6 +788,14 @@ The following table correlates object names in Workfront (as well as their names
         <td>USERSGROUPS_CURRENT<br>USERSGROUPS_DAILY_HISTORY<br>USERSGROUPS_EVENT</td>
         <td>GROUPID <br>SYSID<br>USERID  <br>USERSGROUPID (self)</td>
         <td>GROUPS_CURRENT | GROUPID <br>Not a relationship; used for internal application purposes<br>USERS_CURRENT | USERID  <br>Self</td>
+    </tr>
+    <tr>
+        <td>User Location</td>
+        <td>User Location</td>
+        <td>USRLOC | UserLocation</td>
+        <td>USERLOCATIONS_CURRENT<br>USERLOCATIONS_DAILY_HISTORY<br>USERLOCATIONS_EVENT</td>
+        <td>CLASSIFIERID<br>SYSID<br>USERID<br>USERLOCATIONID (self)</td>
+        <td>CLASSIFIER_CURRENT | CLASSIFIERID<br>Not a relationship; used for internal application purposes<br>USERS_CURRENT | USERID<br>Self</td>
     </tr>
     <tr>
         <td>User Role</td>

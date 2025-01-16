@@ -24,7 +24,6 @@ We have updated the look and feel of the Edit hour box, when editing hours from 
 For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
 
-
 ## Updated experience on the Cloud Providers page in the Setup area
 
 >[!NOTE]
