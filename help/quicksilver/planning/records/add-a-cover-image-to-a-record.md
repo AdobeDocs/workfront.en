@@ -10,9 +10,9 @@ exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
 
 # Add a cover image to a record
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -142,7 +142,7 @@ You can personalize a record by adding a cover image at the top of the record pr
 
     ![](assets/details-page.png)
 
-1. In the record preview or page, click **Add cover** in the Production environment, <span class="preview">or hover over the space above the record name, then click **Add cover** in the Preview environment</span>. 
+1. In the record preview or details page, hover over the space above the record name, then click **Add cover**.
     
     Or
     
@@ -161,7 +161,7 @@ You can personalize a record by adding a cover image at the top of the record pr
 
 1. Click **Use image**.
 
-    The image is uploaded at the top of the record preview or page and changes are saved automatically. 
+    The image is uploaded at the top of the record preview or details page and changes are saved automatically. 
 
     ![](assets/record-page-with-cover-image.png)
 

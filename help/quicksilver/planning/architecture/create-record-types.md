@@ -12,9 +12,9 @@ exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 
 # Create record types
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -102,11 +102,11 @@ You must have the following access to perform the steps in this article:
         
             For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-        * <span class="preview">When you import them using an Excel or CSV file. </span>
+        * When you import them using an Excel or CSV file. 
 
         >[!TIP]
         >
-        ><span class="preview">When you import a record type from an Excel or CSV file, records and fields might also be imported.</span>
+        >When you import a record type from an Excel or CSV file, you can also import records and fields. 
 
     * Manually:
 
@@ -141,7 +141,7 @@ For information about what record types are included with each template, see [Li
 
     From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
 1. (Optional) Click **Add section** to add a new section to the workspace.
-1. Click **Add record type**, then <span class="preview">**New**</span>. 
+1. Click **Add record type**, then **New**. 
 
     The Add record type box opens.
     <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
@@ -201,8 +201,6 @@ For information about what record types are included with each template, see [Li
       * [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md)
       * [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md)
       * [Manage record views](/help/quicksilver/planning/views/manage-record-views.md) 
-
-<div class="preview">
 
 ## Create record types by importing an Excel or CSV file
 
@@ -272,6 +270,3 @@ To import record types using an Excel or CSV file:
     You can start managing fields and records on the record types pages. 
     
     Everyone with access to Workfront Planning can now view and edit the imported record types and their information.
-
-</div>
-
