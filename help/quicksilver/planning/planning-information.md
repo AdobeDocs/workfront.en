@@ -65,7 +65,7 @@ The following sections contain articles that describe in detail the features cur
     * Share records
     * Manage Workfront Planning records from Workfront
 
-* [Adobe Workfront Planning Requests: article index](/help/quicksilver/planning/requests/requests-article-index.md) contains the following information:
+* [Adobe Workfront Planning requests: article index](/help/quicksilver/planning/requests/requests-article-index.md) contains the following information:
 
     * How to create a request form for a record type.
     * How users can submit a request to a record type request form and create records. 

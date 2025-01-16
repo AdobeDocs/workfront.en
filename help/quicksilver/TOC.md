@@ -2140,7 +2140,7 @@ feature-set: Workfront
     * [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md)
     * [Create objects using Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
   * Adobe Workfront Planning requests {#adobe-workfront-planning-requests}
-    * [Adobe Workfront Planning Requests: article index](planning/requests/requests-article-index.md)
+    * [Adobe Workfront Planning requests: article index](planning/requests/requests-article-index.md)
     * [Create and manage a request form in Adobe Workfront Planning](planning/requests/create-request-form.md)
     * [Submit Adobe Workfront Planning requests to create records](planning/requests/submit-requests.md)
     * [Unpublish a request form in Adobe Workfront Planning](planning/requests/unpublish-request-form.md)

@@ -76,7 +76,7 @@ You can create subtasks from the task list or the task subtask section.
 
 >[!NOTE]
 >
->Your Workfront or group administrator might hide the Subtasks section in your environment.
+>Your Workfront or group administrator might remove the Subtasks section in your environment using a layout template.
 
 1. Go to the project where you want to create subtasks.
 1. Click the **Tasks** section in the left panel.

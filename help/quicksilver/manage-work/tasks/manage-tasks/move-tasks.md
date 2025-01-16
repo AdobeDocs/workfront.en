@@ -12,9 +12,9 @@ exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
 <!--Audited: 12/2024-->
 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 You can move tasks in Adobe Workfront between the following objects:
@@ -66,6 +66,8 @@ You must have the following access to perform the actions in this article:
 
 Consider the following when moving a task: 
 
+* Your system or group administrator can prevent you from moving tasks that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+
 * When you move a task from one project to another, the task dates might be recalculated. The recalculation will take into consideration the schedule that the new project uses and the project's Schedule From information.
 
 * You have a chance to select to move some items associated with the task to the moved task during the moving process. However, by default, the following objects transfer to the moved task:
@@ -76,16 +78,9 @@ Consider the following when moving a task:
    * Custom forms and custom field information
    * Subtasks
 
-The following items do not move with the task, by default:
+* The following items do not move with the task, by default:
 
-* Milestones
-
-<div class="preview">
-
-* Your system or group administrator can prevent you from moving tasks that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
-
-</div>
-
+   * Milestones
 
 ## Move tasks in a list
 
