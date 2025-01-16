@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Manage [!DNL Adobe Workfront Fusion] users in your organization
-description: Manage [!DNL Adobe Workfront Fusion] users in your organization
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
@@ -12,6 +12,19 @@ exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
 # Manage [!DNL Adobe Workfront Fusion] users in your organization
 
 [!DNL Adobe Workfront Fusion] administrators can manage user roles inside [!DNL Workfront Fusion].
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the articlea:
+>
+>* [View or edit user roles](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-or-edit-user-roles.html)
+>* [View or edit user details](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-or-edit-user-details.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 <!--
 

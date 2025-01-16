@@ -5,12 +5,24 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: ServiceNow modules
-description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL ServiceNow], as well as connect it to multiple third-party applications and services.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: b362cd8b-06b3-4f4c-b405-a2afc24abddb
 ---
 # [!DNL ServiceNow] modules
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [ServiceNow modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/servicenow-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL ServiceNow], as well as connect it to multiple third-party applications and services.
 

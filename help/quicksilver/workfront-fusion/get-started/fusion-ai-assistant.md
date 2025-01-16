@@ -3,12 +3,24 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: AI Assistant in Workfront Fusion
-description: AI Assistant in Workfront Fusion
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: 99d614da-e900-448b-ab80-13f002638670
 ---
 # AI Assistant in Workfront Fusion
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [AI Assistant in Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/fusion-ai-assistant.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 AI Assistant can locate information from Workfront documentation, eliminating the need for you to visit Adobe Experience League to get the help you need. 
 

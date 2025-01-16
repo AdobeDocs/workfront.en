@@ -5,12 +5,24 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: http-modules
 title: HTTP &gt; Make an OAuth 2.0 request module
-description: In order to make an [!DNL Adobe Workfront Fusion] HTTP(S) request to servers that require an OAuth 2.0 authorization, you first need to create an OAuth connection. [!DNL Adobe Workfront Fusion] ensures that all calls made with this connection have the appropriate authorization headers and automatically refresh associated tokens when required.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
 ---
 # [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [HTTP > Make an OAuth 2.0 request module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/http-module-make-an-oauth-2-request.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 >[!NOTE]
 >

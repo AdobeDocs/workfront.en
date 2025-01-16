@@ -5,12 +5,24 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Adobe I/O Events modules
-description: With the Adobe I/O Events modules, you can start an Adobe Workfront Fusion scenario based on events in your Adobe applications.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 18ad8098-9742-44d2-97cd-b0c2b5591538
 ---
 # Adobe I/O Events modules
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Adobe I/O Events modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-io-events-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 With the Adobe I/O Events modules, you can start an Adobe Workfront Fusion scenario based on events in Adobe accounts and services that do not have a dedicated Workfront Fusion connector. 
 
