@@ -3,7 +3,7 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Create advanced assignments
 description: You can manage task or issue assignments by using Advanced Assignments.
-author: Alina
+author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
