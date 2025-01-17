@@ -18,16 +18,43 @@ This page lists interface updates we are making throughout Adobe Workfront to im
 
 For all other changes to Adobe Workfront, see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
-## Text mode for filters and groupings
+## Administration and Setup
 
-**Preview release: January 9, 2025; Production release: January 9, 2025**
+### Interface update for Add Sharepoint dialog box
+
+**Preview release: January 16, 2025; Production release: TBD**
+
+We have updated the Add Sharepoint dialog box in Setup > Documents > Sharepoint Integration with a more modern design that is consistent with other areas of Workfront.
+
+This update includes visual changes to the area. No functionality has changed.
+
+### Interface update for the Approvals area in the Setup
+
+**Preview release: January 16, 2025; Production release: TBD**
+
+We have updated the Project, Task, and Issue Approvals lists in Setup > Processes > Approvals with a more modern design that is consistent with other areas of Workfront.
+
+This update includes visual changes to the area. No functionality has changed.
+
+## Reports and Dashboards
+
+### Text mode for filters and groupings
+
+**Preview release: January 9, 2025; Production release: Beginning January 9, 2025**
 
 We have added a new Edit Text Mode button and editing modal to the following areas:
 
 * Legacy Filters
 * Groupings
 
-For information, see:
+### Updated approval reports with new styling
 
-* [Edit a filter using text mode](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-* [Edit a grouping using text mode](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+**Preview release: January 16, 2025; Production release: TBD**
+
+We have updated the interface of the following approval reports:
+
+* User Decisions Report
+* User Approvals Report    
+* Approval Process Report
+
+These updates include visual changes to the area. No functionality has changed.

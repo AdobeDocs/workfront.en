@@ -4,12 +4,25 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Adobe Workfront Fusion organizations and teams
-description: Adobe Workfront Fusion's Organization and Teams features make it possible for enterprises to control access to scenarios and other features within Fusion.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
 ---
 # [!DNL Adobe Workfront Fusion] organizations and teams
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the articles:
+>
+>* [Adobe Workfront Fusion organizations and teams overview](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/org-and-team-overview.html)
+>* [Set Team Notification Options](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-team-notification-options.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 [!DNL Adobe Workfront Fusion]'s Organization and Teams features make it possible for enterprises to control access to scenarios and other features within Fusion.
 

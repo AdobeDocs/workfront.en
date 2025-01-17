@@ -22,7 +22,7 @@ The articles in the following sections describe how you can create and configure
 
 * [Field overview](/help/quicksilver/planning/fields/fields-overview.md)
 * [Create fields](/help/quicksilver/planning/fields/create-fields.md)
-<span class="preview">[Import fields from Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md)</span>
+* [Import fields from Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md)
 * [Edit field settings](/help/quicksilver/planning/fields/edit-fields.md)
 * [Delete fields](/help/quicksilver/planning/fields/delete-fields.md)
 * [Formula fields](/help/quicksilver/planning/fields/formula-fields.md)

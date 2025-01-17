@@ -10,9 +10,9 @@ exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
 
 # Field overview
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 
 {{planning-important-intro}}
@@ -39,39 +39,43 @@ You can add new fields in Adobe Workfront Planning that reflect your organizatio
 
     * Manually:
 
-        * By adding columns in the table view of a record type page. The columns of the table are the fields associated with the record type. They are the same fields that display on a record's page. 
+        * When you add columns in the table view of a record type page. The columns of the table are the fields associated with the record type. They are the same fields that display on a record's page. 
         
             You cannot create fields from the record's page.  
 
-        * By connecting record types. You can create linked record fields when you add a new connection between two record types, or a record type and an object types from other applications. 
+        * When you connect record types. You can create linked record fields when you add a new connection between two record types, or a record type and an object types from other applications. 
 
            For more information about connecting record types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).  
 
-        * <span class="preview">By importing existing fields from Workfront. </span>
-            <span class="preview">For information, see [Import fields from Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).</span>
+        * When you import existing fields from Workfront. 
+            
+            For information, see [Import fields from Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
-        * <span class="preview">By importing record types using an Excel or CSV file. </span>
-        
-            <span class="preview">For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).</span>
 
     * Automatically: 
 
-        The following are standard fields created by default for each new record type:
+        * When you create a record type:
 
-        * Name
-        * Description
-        * Start Date
-        * End Date
-        * Status. The default values for record statuses are:
-            * Development
-            * Planned
-            * Active
-            * Completed
-            * On Hold
+            * Name
+            * Description
+            * Start Date
+            * End Date
+            * Status. The default values for record statuses are:
+                * Development
+                * Planned
+                * Active
+                * Completed
+                * On Hold
 
             You can add more values or rename the existing ones. 
 
-        Workfront Planning creates fields for record types when you create a workspace from a template. For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). 
+        * When you create a workspace from a template. 
+        
+            For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). 
+
+        * When you import record types using an Excel or CSV file. 
+        
+           For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
 
 * Workfront Planning fields are not accessible from Workfront. 
 

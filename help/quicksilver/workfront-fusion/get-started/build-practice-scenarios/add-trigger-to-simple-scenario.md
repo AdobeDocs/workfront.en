@@ -3,12 +3,24 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Add a trigger module to a basic scenario
-description: Learn how to add a trigger module to allow the scenario to periodically look for new requests and convert them to projects.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
 ---
 # Add a trigger module to a basic scenario
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Add a trigger module to a basic scenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/add-trigger-to-basic-scenario.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 Trigger modules are placed at the beginning of a scenario. These modules begin a scenario execution when specific criteria when there has been a change in a given service. The change can be a creation of new records, deletion of a records, update of a records, and so on. 
 

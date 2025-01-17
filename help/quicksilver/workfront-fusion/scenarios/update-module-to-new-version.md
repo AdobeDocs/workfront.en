@@ -3,12 +3,24 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Update a module to a new verison in an [!DNL Adobe Workfront Fusion] scenario
-description: Because the applications that Workfront Fusion connects to may update or release new version, it is occasionally necessary for Fusion to release updated modules for those applications.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1475a247-47eb-4fe3-98dc-50df242167e7
 ---
 # Update a module to a new verison in an [!DNL Adobe Workfront Fusion] scenario
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Update a module to a new version](https://experienceleague.corp.adobe.com/docs/workfront-fusion/using/manage-scenarios/update-module-to-new-version.html?lang=en)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 Because the applications that Workfront Fusion connects to may update or release new version, it is occasionally necessary for Fusion to release updated modules for those applications. 
 

@@ -12,16 +12,16 @@ exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
 
 # Manage record connections from Workfront objects 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->   
 
 {{planning-important-intro}}
 
 You can display Workfront Planning records and their respective records connected to Adobe Workfront objects in the following areas in Workfront:
 
 * The Planning section of a Workfront object: Displays all record types connected to an object and their respective connected records. 
-* <span class="preview">A Planning connection custom field: Displays one record type and its respective connected records. </span>
+* A Planning connection custom field: Displays one record type and its respective connected records. 
 
 ## Access requirements
 
@@ -174,8 +174,6 @@ Consider the following when you view Workfront Planning records from the Plannin
    * The Workfront object is added to the Workfront Planning record's connected field. 
    * The values for the Workfront lookup fields connected to the Planning record are populated in Workfront Planning. 
 
-<div class="preview">
-
 ## Manage records in the Planning connection field type
 
 You can use a Planning connection custom field on a Workfront object to view one record type and its respective records connected to the Workfront object. 
@@ -248,5 +246,3 @@ Consider the following when you view Workfront Planning records from a Planning 
 
 1. (Optional) From the custom form in Workfront, click the **Remove** icon ![](assets/remove-icon.png) on a record to remove it from the Planning connection field and disconnect it from the Workfront object. 
    The Workfront object is disconnected from the Planning record, and any lookup information from Workfront is removed from the record. 
-
-</div>

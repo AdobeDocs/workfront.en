@@ -4,12 +4,24 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Archive modules
-description: In a [!DNL Adobe Workfront Fusion] scenario, you can connect an archive, such as a zipped file, to multiple third-party applications and services. For example, you can configure a scenario that
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: e29b6d39-3666-4d6d-a178-1983ae9f3aa9
 ---
 # [!UICONTROL Archive] modules
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Archive modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/archive-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 In a [!DNL Adobe Workfront Fusion] scenario, you can use an archive, such as a zipped file, in your scenario, allowing you to use it in your automations or integrations.
 

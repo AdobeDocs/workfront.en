@@ -5,12 +5,24 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Forms modules
-description: The [!DNL Adobe Workfront Fusion Google Forms] modules allow you to monitor, select, add, update or delete responses on your Google Forms.
+description: The Adobe Workfront Fusion documentation has moved to a new location. This article has been deprecated, but contains a link to the new article that covers this functionality.
 author: Becky
 feature: Workfront Fusion
 exl-id: 45c86879-bc4e-4134-b63c-02410b9de43b
 ---
 # [!DNL Google Forms] modules
+
+>[!IMPORTANT]
+>
+>The Adobe Workfront Fusion documentation has moved to a new location. 
+>
+>The information in this article can now be found in the article:
+>
+>* [Google Forms modules](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-forms-modules.html)
+>
+>Please update any bookmarks.
+>
+>This article is no longer being updated, and will be removed in the near future.
 
 The [!DNL Adobe Workfront Fusion] [!DNL Google Forms] modules allow you to monitor, select, add, update or delete responses on your [!DNL Google Forms].
 
