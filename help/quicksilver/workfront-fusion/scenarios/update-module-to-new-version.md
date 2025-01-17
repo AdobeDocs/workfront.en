@@ -16,7 +16,7 @@ exl-id: 1475a247-47eb-4fe3-98dc-50df242167e7
 >
 >The information in this article can now be found in the article:
 >
->* [Update a module to a new version](https://experienceleague.corp.adobe.com/docs/workfront-fusion/using/manage-scenarios/update-module-to-new-version.html?lang=en)
+>* [Update a module to a new version](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/update-module-to-new-version.html?lang=en)
 >
 >Please update any bookmarks.
 >
