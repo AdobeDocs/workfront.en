@@ -50,7 +50,9 @@ For more detail about the information in this table, see [Access requirements in
 
 ## View a calendar report
 
-{{step1-to-calendars}}
+<!--{{step1-to-calendars}}-->
+
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Calendars]**.
 
    Depending on your access level, you might see the following calendars listed:
    
