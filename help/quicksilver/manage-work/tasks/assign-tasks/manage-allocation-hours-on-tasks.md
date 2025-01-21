@@ -3,7 +3,7 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Manage user and role allocation hours on tasks
 description: When assigning users or roles to a task, they are allocated to work a certain number of hours to complete the task. You can manually modify the amount of hours that each user or job role is allocated when they are assigned to a task, when the task Duration Type is Simple.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
 ---

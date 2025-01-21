@@ -3,7 +3,7 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Manage user or role allocation percentage on tasks
 description: Allocation percentage represents the amount of time an assigned resource is planned to work on a task in a day. It is the percent of a work day (according to the user or project schedule) at which a resource is allocated throughout the duration of the task.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
 ---
