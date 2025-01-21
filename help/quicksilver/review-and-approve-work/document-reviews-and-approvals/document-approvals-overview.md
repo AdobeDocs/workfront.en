@@ -21,7 +21,9 @@ New document approvals is a wholistic redesign of the existing approvals process
 
 * Document approval decision buttons are not available in the proofing viewer. Decisions can be made in the document Summary, Workfront Home widgets, or on the Document Details page. 
 * Document approval participants display in the document Summary, not the proofing workflow tab.
-* New Document Approvals are not supported in the current reporting tool. The All Approvals widget available in new Home and Canvas Dashboards provides the following details about New Document Approvals:
+* New Document Approvals are not supported in the current reporting tool. 
+
+    You can join the new Canvas Dashboards beta to [Create a report dashboard for review and approvals](//help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md), or you can use the All Approvals widget available in new Home and Canvas Dashboards provides the following details about New Document Approvals:
 
     * Approvals by decision
     * Average approval time

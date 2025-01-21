@@ -14,6 +14,7 @@ You can create a folder linked with Experience Manager Assets or Assets Essentia
 
 If an asset is deleted or moved from a linked folder inside of Experience Manager Assets or Assets Essentials, Workfront retains a copy of the asset in the Project > Documents area. 
 
+ You can create up to 100 linked folders per folder tree.
 
 ## Access requirements
 
@@ -68,7 +69,7 @@ Before you begin,
 
 ## Create a linked folder
 
-The linked folder is created in the location specified by the Workfront administrator when they set up the integration. Each integration can have only one folder location for linked folders.
+The linked folder is created in the location specified by the Workfront administrator when they set up the integration. Each integration can have only one folder location for linked folders. You can create up to 100 linked folders per folder tree.
 
 The name for the linked folder is automatically created based on the Portfolio, Program, Project its associated with and can't be changed. If project is not associated with a Portfolio or Program, the linked folder will display the project name and creation date.
 
