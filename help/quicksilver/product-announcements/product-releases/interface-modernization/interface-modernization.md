@@ -38,15 +38,6 @@ This update includes visual changes to the area. No functionality has changed.
 
 ## Reports and Dashboards
 
-### Text mode for filters and groupings
-
-**Preview release: January 9, 2025; Production release: Beginning January 9, 2025**
-
-We have added a new Edit Text Mode button and editing modal to the following areas:
-
-* Legacy Filters
-* Groupings
-
 ### Updated approval reports with new styling
 
 **Preview release: January 16, 2025; Production release: TBD**
@@ -58,3 +49,12 @@ We have updated the interface of the following approval reports:
 * Approval Process Report
 
 These updates include visual changes to the area. No functionality has changed.
+
+### Text mode for filters and groupings
+
+**Preview release: January 9, 2025; Production release: Beginning January 9, 2025**
+
+We have added a new Edit Text Mode button and editing modal to the following areas:
+
+* Legacy Filters
+* Groupings

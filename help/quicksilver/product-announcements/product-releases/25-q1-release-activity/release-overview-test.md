@@ -36,11 +36,13 @@ This page provides information about functionality that is included in the First
 ### Administrator enhancements
 
 <table>
-<col style="width: 55%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<tbody>
+  <colgroup>
+    <col style="width: 55%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+  </colgroup>
+  <tbody>
     <tr>
         <td>
             <p><span class="bold">Feature</span></p>
@@ -81,20 +83,20 @@ This page provides information about functionality that is included in the First
         <td>25.12</td>
         <td>25.1</td>
     </tr>
-
-</tbody>
+  </tbody>
 </table> 
 
 
 ### Document management enhancements
 
-
 <table>
-<col style="width: 55%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<tbody>
+  <colgroup>
+    <col style="width: 55%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+  </colgroup>
+  <tbody>
     <tr>
         <td>
             <p><span class="bold">Feature</span></p>
@@ -153,7 +155,7 @@ This page provides information about functionality that is included in the First
           <td><p>24.11</p><p> [!BADGE Available ]{type=Positive}</p></td>
         <td><p>25.1</p> <p> [!BADGE Available ]{type=Positive}</p></td>
     </tr>
-</tbody>
+  </tbody>
 </table> 
 
 <!--
