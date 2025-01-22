@@ -335,7 +335,7 @@ This page provides information about functionality that is included in the Fourt
                             <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
                         </li>
                     </ul>
-                <p><i>This feature will be removed from Preview on December 19, 2024 and from fast release Production with 25.1 (January 2025).</i></p>
+                <p><i>This feature has been removed from Preview and fast release Production.</i></p>
                 </td>
             </tr>
             <tr>
@@ -353,7 +353,7 @@ This page provides information about functionality that is included in the Fourt
                             <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
                         </li>
                     </ul>
-                <p><i>This feature will be removed from Preview on December 19, 2024 and from fast release Production with 25.1 (January 2025).</i></p>
+                <p><i>This feature has been removed from Preview and fast release Production.</i></p>
                 </td>
             </tr>
         </tbody>
