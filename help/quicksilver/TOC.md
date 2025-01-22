@@ -2139,7 +2139,8 @@ feature-set: Workfront
     * [Add a cover image to a record](planning/records/add-a-cover-image-to-a-record.md)
     * [Manage the record page layout](planning/records/manage-the-record-page.md)
     * [Manage records in the Planning section of Adobe Workfront objects](planning/records/manage-records-in-planning-section.md)
-    * [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md)
+    * [Export a record's details](planning/records/export-the-record-page.md)
+    * [Create Workfront objects from Workfront Planning](planning/records/create-workfront-objects-from-workfront-planning.md)
     * [Create objects using Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
   * Adobe Workfront Planning requests {#adobe-workfront-planning-requests}
     * [Adobe Workfront Planning requests: article index](planning/requests/requests-article-index.md)

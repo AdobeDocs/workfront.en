@@ -222,7 +222,7 @@ You can connect records from Workfront Planning in the following areas of a Plan
   
     Notice that the **Campaign** linked record field displays the names of the campaigns you linked to products in the Product record type page. Updating the Campaign information automatically updates the Campaign linked record field for the Product record type.
 
-### Connect Adobe Workfront Planning records to Workfront objects from the table view or the Details tab of the record page
+### Connect Adobe Workfront Planning records to Workfront objects from the table view or the details page of a record
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -258,7 +258,7 @@ After you create a connection between a record type and a Workfront object type,
 
 1. (Optional) If you cannot find an object to connect, and you want to add it, click **+ Add** to create and add a new project or portfolio. 
 
-    You can only add projects without a template or portfolios when connecting them to Planning records. You cannot add new programs, groups, or companies. 
+    For information, see [Create Workfront objects from Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 1. (Optional) Click **See all** to display all objects you have at least permissions to view.
 
