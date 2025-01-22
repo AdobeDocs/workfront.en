@@ -14,7 +14,6 @@ You can create a folder linked with Experience Manager Assets or Assets Essentia
 
 If an asset is deleted or moved from a linked folder inside of Experience Manager Assets or Assets Essentials, Workfront retains a copy of the asset in the Project > Documents area. 
 
-
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
