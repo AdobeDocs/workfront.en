@@ -90,7 +90,7 @@ Some rows contain information labeled "New" and "Current." This is because Workf
    <ul><li>Current: The current license model is based on the number of operations performed, and has no limitations on what actions an organization can perform. </li>
    <li>Legacy: Legacy licenses are based on whether scenarios are able to connect to third-party applications, or whether the scenarios are used for Workfront automation only. </li>
    </ul>
-   For information on Fusion licensing, see <a href="/help/quicksilver/workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">Workfront Fusion licenses</a>.
+   For information on Fusion licensing, see <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion licenses</a>.
    </td> 
   </tr> 
  </tbody> 

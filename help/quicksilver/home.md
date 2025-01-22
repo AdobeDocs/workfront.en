@@ -59,7 +59,7 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Get started with Workfront Administration</a></li>
-    <li><a href="/help/quicksilver/workfront-fusion/get-started/get-started.md">Get started with Workfront Fusion</li>
+    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Get started with Workfront Fusion</li>
     </ul>
  </td>
     <td>

@@ -137,7 +137,7 @@ The following resources can help you learn more about the [!DNL Workfront] API a
 | [[!DNL Adobe Workfront] integrations](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | You can integrate [!DNL Workfront] with third-party applications. Integrations can extend the utility of [!DNL Workfront] and tailor it to the needs of your organization. This Knowledge Base article covers your integration options and points you in the next direction. |
 |---|---|
 | [[!DNL Workfront] built-in integrations](https://www.workfront.com/integrations) | Workfront's free built-in integrations allow you and your team to smoothly transition into the Workfront platform while maintaining the same workflows and processes. |
-| [[!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-2.md) | Connects [!DNL Workfront] to 100+ applications, making it easy to automate your business critical processes without code. |
+| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | Connects [!DNL Workfront] to 100+ applications, making it easy to automate your business critical processes without code. |
 
 {style="table-layout:auto"}
 
