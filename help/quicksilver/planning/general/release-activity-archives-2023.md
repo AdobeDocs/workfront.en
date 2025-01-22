@@ -83,7 +83,7 @@ Production: December 21, 2023
 >
 >Your organization must purchase Adobe Workfront Fusion to be able to build connections with Adobe Workfront Planning capabilities.
 >
->For information, see [Adobe Workfront Fusion overview](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
+>For information, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 Now, you can use Adobe Workfront Fusion to connect to the planning capabilities. With the new Fusion connection, you can:  
 
@@ -99,7 +99,7 @@ Now, you can use Adobe Workfront Fusion to connect to the planning capabilities.
 
 * Trigger a scenario when a change is made in the planning capabilities
 
-For more information, see [Adobe Workfront Planning modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+For more information, see [Adobe Workfront Planning modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
 
 ## Week of December 11, 2023
 

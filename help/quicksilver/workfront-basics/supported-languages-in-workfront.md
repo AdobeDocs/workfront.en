@@ -85,7 +85,7 @@ Currently, Workfront Fusion supports only English.
 * Workfront Fusion does not support the use of non-English text characters in user-entered fields.
 
 Your company must purchase a Workfront Fusion license for you to access Workfront Fusion.   
-For more information about Workfront Fusion, see [Adobe Workfront Fusion overview](../workfront-fusion/get-started/workfront-fusion-overview.md).
+For more information about Workfront Fusion, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Change the language
 

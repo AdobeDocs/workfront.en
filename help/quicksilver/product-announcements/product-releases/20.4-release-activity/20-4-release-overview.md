@@ -292,7 +292,7 @@ Most new features coming to Workfront Goals release with the 20.4 release. For i
 
 ## Workfront Fusion enhancements
 
-New features in Workfront Fusion are available in Production at a cadence outside of the 20.4 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+New features in Workfront Fusion are available in Production at a cadence outside of the 20.4 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 ## API&nbsp;enhancements
 
