@@ -72,7 +72,7 @@ Please contact Workfront Support. To learn how to contact support, see [Contact 
 
 ## What different types of authentication can I use with Workfront Event Subscriptions?
 
-You can use any authentication that uses a bearer token. The **authToken** field of a subscription is a string that represents an OAuth2 bearer token used to authenticate with the URL specified in the **url** field. In theory, this token value could be anything as long as the destination endpoint is aware of how to handle its encoding, which is **utf-8**.
+You can use any authentication that uses a bearer token. The **authToken** field of a subscription is a string that represents an OAuth2 bearer token used to authenticate with the URL specified in the **url** field. In theory, this token value could be anything  under 255 characters as long as the destination endpoint is aware of how to handle its encoding, which is **utf-8**.
 
 ## How long should it be before I receive my event payload from Workfront Event Subscriptions?
 
