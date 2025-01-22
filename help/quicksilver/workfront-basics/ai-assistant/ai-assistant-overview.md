@@ -61,6 +61,8 @@ To enable AI Assistant for your organization, **all** of the following must appl
 
    For more information about AI Assistant in Workfront Planning, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
+* AI Assistant is currently only available in English.
+
 
 ## Functionality available in AI Assistant
 
