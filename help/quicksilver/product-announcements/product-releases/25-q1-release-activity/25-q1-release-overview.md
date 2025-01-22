@@ -714,7 +714,7 @@ The following functionality is soon to be removed from Workfront:
 >
 >The current Fusion documentation set is no longer being updated, and will be removed in the near future.
 
-New features in Workfront Fusion are available in Production at a cadence outside of the First Quarter 2025 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+New features in Workfront Fusion are available in Production at a cadence outside of the First Quarter 2025 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Workfront Planning enhancements
 

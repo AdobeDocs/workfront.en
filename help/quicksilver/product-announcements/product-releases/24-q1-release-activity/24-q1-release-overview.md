@@ -452,7 +452,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
 
 ### Workfront Fusion enhancements
 
-New features in Workfront Fusion are available in Production at a cadence outside of the First Quarter 2023 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+New features in Workfront Fusion are available in Production at a cadence outside of the First Quarter 2023 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Workfront Scenario Planner enhancements
 
