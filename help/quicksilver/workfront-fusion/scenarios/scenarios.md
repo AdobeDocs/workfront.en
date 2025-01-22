@@ -47,7 +47,6 @@ This section contains the following articles:
 * [[!DNL Adobe Workfront Fusion] scenario example: Connect email, [!UICONTROL Text Parser], and [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [Restore a scenario version in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [Copy modules or scenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
-* [Update a module to a new verison in an [!DNL Adobe Workfront Fusion] scenario](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [View and manage locked scenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
 * [Run the Scenario Scoring Expert in Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
 * [Use cURL to add an HTTP module](/help/quicksilver/workfront-fusion/scenarios/use-curl-create-http.md)
