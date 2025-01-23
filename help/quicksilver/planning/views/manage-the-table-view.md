@@ -9,6 +9,10 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 ---
 # Manage the table view
 
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
 You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront Planning. 
@@ -391,13 +395,22 @@ To add a filter to a table view:
 1. (Optional) Click **Add condition** to add another filtering option and repeat the above steps. The number of filters applied displays to the left of the Filters icon. 
 1. Click the following operators to indicate how the filter conditions are joined and should be applied:
 
-    * **And**: All specified conditions must be met. 
-    * **Or**: Any of the specified conditions must be met. This is the default option. 
-    
+    * **AND**: All specified conditions must be met. 
+    * **OR**: Any of the specified conditions must be met. This is the default option.
+
+    <div class="preview">
+
+    1. (Optional) Add additional **AND** or **OR** operators between multiple condition groupings.
+
+        ![](assets/multi-tiered-filters-in-views.png)
+
+    </div>
+
     The list of records is filtered automatically.  <!--at this time, you can't name and save the filter - but will this change?!-->
     <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
-    
-1. (Optional) Click **Filters**, then click the **x** icon to remove a filter. <!--right now you cannot "clear all" for filters, but this might come later-->
+
+1. (Optional) Click the **x** icon to remove a filter condition.
+1. (Optional) Click **Filters** to close the filters box. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 ### Add groupings {#add-groupings}
 
