@@ -21,6 +21,7 @@ After you create record types in Adobe Workfront Planning, you can create indivi
 The following articles describe how you can create and manage records and their information in Adobe Workfront Planning:
 
 * [Create records](/help/quicksilver/planning/records/create-records.md)
+* [Create Workfront objects from Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 * [Edit records](/help/quicksilver/planning/records/edit-records.md)
 * [Delete records](/help/quicksilver/planning/records/delete-records.md)
 * [Restore deleted records](/help/quicksilver/planning/records/restore-deleted-records.md)

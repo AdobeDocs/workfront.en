@@ -299,7 +299,7 @@ We understand that the available built-in (native) integrations might not meet a
 
   [!DNL Adobe Workfront Fusion] links actions within and between apps and services to create a scenario that transfers and transforms your data automatically. It has dedicated connectors to many apps, but can connect to any applications with a public API.
 
-  For more information, see [[!DNL Adobe Workfront Fusion] overview](../../workfront-fusion/get-started/workfront-fusion-overview.md).
+  For more information, see [[!DNL Adobe Workfront Fusion] overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (Requires [!DNL Workfront Fusion])

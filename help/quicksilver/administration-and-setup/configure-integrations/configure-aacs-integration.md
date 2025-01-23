@@ -249,6 +249,8 @@ The followings workflows are available in the Adobe Experience Manager integrati
 
 ### Create Adobe Experience Manager linked folders
 
+You can create up to 100 linked folders per folder tree.
+
 1. Toggle the **[!UICONTROL Create Linked folder]** on.
 1. Enter a name for the linked folder that you are creating. 
 1. (Conditional) Enable the **Default folder tree** option if you want this linked folder to be the default folder for projects created with templates that use this integration. You can select one or more default folders. 
