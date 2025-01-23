@@ -41,15 +41,15 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            AI Assistant can now work with projects, tasks, and issues</a></p>
-            <p>To make it easier to manage your work items in Workfront, we've updated AI Assistant to work with projects, tasks, and issues. Now, AI Assistant can locate  projects, tasks, and issues based on criteria you specify.</p>
+            Represent Adobe Admin Console user changes as "System" in the Workfront update feed</a></p>
+            <p>Now, when the administrator of the Adobe Admin Console makes a change to the user information of a Workfront user, Workfront records this change in the System activity tab of the user's Updates area as belonging to the "System". This refers to the Adobe Admin Console administrator.</p>
         </td>
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
-                <li>Preview release: October 31, 2024</li>
-                <li>Production for fast release: With the 24.11 release (November 14, 2024)</li>
-                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
+                <li>Preview release: January 23, 2025</li>
+                <li>Production for fast release: With the 25.2 release (February 2025)</li>
+                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
             </ul>
         </td>
     </tr>
