@@ -1,12 +1,12 @@
 ---
 title: Create Workfront Objects from Workfront Planning
-description: You can create Workfront objects types as you connect them from other records in Workfront Planning. 
+description: You can create Workfront objects types as you connect them from other records in Workfront Planning.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
 ---
-
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Create Workfront objects from Workfront Planning
@@ -158,4 +158,4 @@ To create portfolios as you are connecting them from other records:
 
     The portfolio is created and added to the connection field of the record you selected. 
 
-1. (Optional) Click the name of the new portfolio from Workfront Planning to open the portfolio's page in Workfront and make additional updates to the portfolio. 
+1. (Optional) Click the name of the new portfolio from Workfront Planning to open the portfolio's page in Workfront and make additional updates to the portfolio.
