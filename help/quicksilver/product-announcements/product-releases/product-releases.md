@@ -139,7 +139,7 @@ For information on helping your organization adjust smoothly to new releases, se
       </td>
       <td>
         <ul>
-          <li><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a></li>
+          <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning Fourth Quarter 2024 release activity</a></li>
         </ul>
       </td>
@@ -164,7 +164,7 @@ For information on helping your organization adjust smoothly to new releases, se
       <td>
         <ul>
           <li><a href="../../product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Goals with the 23.3 release</a></li>
-          <li><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a></li>
+          <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a></li>
         </ul>
       </td>
     </tr>
@@ -180,7 +180,7 @@ For information on helping your organization adjust smoothly to new releases, se
       </td>
       <td>
         <ul>
-          <li><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a></li>
+          <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a></li>
         </ul>
       </td>
     </tr>
@@ -197,7 +197,7 @@ For information on helping your organization adjust smoothly to new releases, se
       <td>
         <ul>
           <li><a href="../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Goals with the 21.2 release</a></li>
-          <li><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a></li>
+          <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a></li>
         </ul>
       </td>
     </tr>
@@ -229,7 +229,7 @@ For information on helping your organization adjust smoothly to new releases, se
         <ul>
           <li><a href="../../product-announcements/product-releases/goals-release-activity/goals-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Goals release activity</a></li>
           <li><a href="../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Scenario Planner release activity</a></li>
-          <li><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a></li>
+          <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a></li>
         </ul>
       </td>
     </tr>
