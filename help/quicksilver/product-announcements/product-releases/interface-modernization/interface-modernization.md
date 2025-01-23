@@ -3,8 +3,6 @@ title: Interface updates
 description: This page lists interface updates we are making throughout Adobe Workfront to improve the user experience and unify it with other Adobe applications.
 author: Nolan
 feature: Product Announcements
-hidefromtoc: yes
-hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
 ---
@@ -22,7 +20,7 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ### Interface update for Add Sharepoint dialog box
 
-**Preview release: January 16, 2025; Production release: TBD**
+**Preview release: January 16, 2025; Production release: To be announced**
 
 We have updated the Add Sharepoint dialog box in Setup > Documents > Sharepoint Integration with a more modern design that is consistent with other areas of Workfront.
 
@@ -30,7 +28,7 @@ This update includes visual changes to the area. No functionality has changed.
 
 ### Interface update for the Approvals area in the Setup
 
-**Preview release: January 16, 2025; Production release: TBD**
+**Preview release: January 16, 2025; Production release: To be announced**
 
 We have updated the Project, Task, and Issue Approvals lists in Setup > Processes > Approvals with a more modern design that is consistent with other areas of Workfront.
 
@@ -38,9 +36,19 @@ This update includes visual changes to the area. No functionality has changed.
 
 ## Reports and Dashboards
 
+### Updated iteration report with new styling
+
+**Preview release: January 17, 2025; Production release: To be announced**
+
+We have updated the Iteration report with a more modern design that is consistent with other areas of Workfront.
+
+This update includes visual changes to the report. No functionality has changed.
+
+To create an Iteration report, go to Reports > New Report > Iteration.
+
 ### Updated approval reports with new styling
 
-**Preview release: January 16, 2025; Production release: TBD**
+**Preview release: January 16, 2025; Production release: To be announced**
 
 We have updated the interface of the following approval reports:
 
