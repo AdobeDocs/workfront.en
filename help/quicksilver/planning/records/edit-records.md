@@ -11,9 +11,9 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 
 # Edit records
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -227,7 +227,7 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
 1. Press **Enter** on your keyboard or click outside of a row to save your changes. The changes are saved automatically. A **Saved** indicator displays briefly in the upper-right corner of the table view to show that the changes were saved. 
 
 
-1. (Optional) To copy and paste information from one field to another, do one of the following:
+1. (Optional) To copy and paste information from one field to another, do one of the following:       
 
     * Copy one or multiple existing values of one field, then paste them into a field of the same type on another record
     * Click the column header of a column to select it and copy it, then click the column header of another column and paste the contents of the copied column. The columns must contain similar field types. 
@@ -236,6 +236,16 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
     * Select the lower-right corner of an existing cell that contains the information you want to copy, then drag and drop it across the adjacent cells where you want to paste the same information. All cells must contain the same type of information. 
 
         ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
+    
+    <div class="preview">
+    
+    * Copy one or multiple cells from an external source (for example, an Excel file), then paste them in one of the the following fields types:
+
+        * Workfront Planning connection fields.  
+        * People fields. Only fields with one value are supported. 
+
+        You cannot copy information from an external source and paste it in any other field types, including Workfront or AEM Assets connection fields.
+    </div> 
 
     >[!NOTE]
     >
@@ -248,8 +258,7 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
     >* You cannot copy and paste field values in the record page. This functionality is supported only in the table view of a record type.  
     >* You cannot copy and paste field values for the following field types:   
     >
-    >
-    >    * Linked fields (or lookup fields) that are created by connecting record types. You can copy and paste linked record fields. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
+    >    * Lookup fields that are created when connecting record types. You can copy and paste linked record fields. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
     >    * Fields of the following types: Created by, Created date, Last modified by, Last Modified date 
     
 1. (Optional) Use the following keyboard shortcuts to undo or redo editing or copying and pasting record information: 
