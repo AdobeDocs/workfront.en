@@ -25,7 +25,7 @@ If your organization has been onboarded to the Adobe Business Platform, your use
 >
 >We recommend adding non-system administrator users directly in Workfront. It is possible to add users in the Adobe Admin Console, but adding them in Workfront allows you to set their access level while creating them, which can save you time.
 
-For instruction on creating Workfront system administrators, see [Manage system administrators in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+For instruction on creating Workfront system administrators, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 <!--
 <table style="table-layout:auto"> 
