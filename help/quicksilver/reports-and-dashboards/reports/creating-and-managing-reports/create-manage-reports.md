@@ -33,7 +33,7 @@ This section contains the following articles:
 * [Create financial data reports with unique exchange rates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md) 
 * [Edit report settings](../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md) 
 * [Change the owner of a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md) 
-* [Report on the Updates area](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md) 
+* [Report on the Updates area with a Journal Entry report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md) 
 * [Create a User Delegation report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
 
 <!--outdated: For in-depth training on reports, see [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).-->
