@@ -18,6 +18,65 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Administration and Setup
 
+### Interface update for the Proof Roles page in Setup
+
+**Preview release: January 23, 2025; Production release: To be announced**
+
+We have updated the look-and-feel of the Proof roles page with a more modern design that is consistent with other areas of Workfront.
+
+Instead of selecting radio buttons, you now use drop-down menus to choose proof roles for new and guest users.
+
+To view this change,  go to Setup > Review and Approval. 
+
+### Interface update for the Automatic Reminders page in Setup
+
+**Preview release: January 23, 2025; Production release: To be announced**
+
+We have updated the Automatic Reminders page with a more modern design that is consistent with other areas of Workfront.
+To view this page, go to Setup > Email > Automatic Reminders.
+This update includes visual changes to the area. No functionality has changed.
+
+### Interface update for the Email Templates page in Setup
+
+**Preview release: January 23, 2025; Production release: To be announced**
+
+We have updated the Email Templates page with a more modern design that is consistent with other areas of Workfront.
+
+Instead of clicking directly on the template name to edit the template, you must select the checkbox, then click Edit icon in the toolbar. 
+
+To view this page, go to Setup > Email > Notifications > Email Templates.
+
+### Interface update for the email Invitations page in Setup
+
+**Preview release: January 23, 2025; Production release: To be announced**
+
+We have updated the email Invitations page with a more modern design that is consistent with other areas of Workfront.
+
+To view this page, go to Setup > Email > Invitations.
+
+This update includes visual changes to the area. No functionality has changed.
+
+### Interface updates for the Event Notifications page in a Group
+
+**Preview release: January 23, 2025; Production release: To be announced**
+
+We have updated the Event Notification page in a Group with a more modern design that is consistent with other areas of Workfront.
+
+To view this page, go to Setup > Groups > Select a group > Event Notifications
+
+This update includes minor visual changes to the area. No functionality has changed.
+
+
+### Interface updates for the Reminder Notifications tab in Setup
+
+**Preview release: January 23, 2025; Production release: To be announced**
+
+We have updated the Reminder Notifications tab as well as the add and edit dialog boxes with a more modern design that is consistent with other areas of Workfront.
+
+Instead of clicking directly on the notification name to edit the notification, you must select the checkbox, then click Edit icon in the toolbar. 
+
+To view this page, go to Setup > Email > Notifications > Reminder Notifications.
+
 ### Interface update for Add Sharepoint dialog box
 
 **Preview release: January 16, 2025; Production release: To be announced**
@@ -36,6 +95,17 @@ This update includes visual changes to the area. No functionality has changed.
 
 ## Reports and Dashboards
 
+## Updated email reports with new styling
+
+**Preview release: January 23, 2025; Production release: To be announced**
+
+We have updated the interface of the following email reports:
+
+* Email template report
+* Reminder notification report 
+
+This update includes visual changes to the area. No functionality has changed.
+
 ### Updated iteration report with new styling
 
 **Preview release: January 17, 2025; Production release: To be announced**
@@ -48,7 +118,7 @@ To create an Iteration report, go to Reports > New Report > Iteration.
 
 ### Updated approval reports with new styling
 
-**Preview release: January 16, 2025; Production release: To be announced**
+**Preview release: January 16, 2025; Production release: Starting the week of January 20, 2025**
 
 We have updated the interface of the following approval reports:
 
@@ -60,7 +130,7 @@ These updates include visual changes to the area. No functionality has changed.
 
 ### Text mode for filters and groupings
 
-**Preview release: January 9, 2025; Production release: Beginning January 9, 2025**
+**Preview release: January 9, 2025; Production release: Starting the week of January 6, 2025**
 
 We have added a new Edit Text Mode button and editing modal to the following areas:
 
