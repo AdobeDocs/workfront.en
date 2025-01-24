@@ -74,5 +74,5 @@ For example, you can set up this report to show activity around a specific custo
 
 Previously, you could report on system updates only via the Workfront API.
 
-To learn more about this report and what you can use it for, see [Report on the Updates area](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+To learn more about this report and what you can use it for, see [Report on the Updates area with a Journal Entry report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
