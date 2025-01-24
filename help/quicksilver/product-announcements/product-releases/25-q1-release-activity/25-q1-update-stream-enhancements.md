@@ -16,7 +16,7 @@ For a list of all changes available at this point in the First Quarter 2025 rele
 
 >[!NOTE]
 >
->Preview release: December 19, 2024; Production release for all customers: With the 25.1 release (January 16, 2025)
+>Preview release: December 19, 2024; Production release for all customers: To be announced
 
 We are updating the commenting experience in the Mentions widget in Home and the Mentions section in the My Updates area. Now, the same experience in the Updates area of most Workfront objects is also available in the Mentions widget and in the Mentions section of My Updates.  
 
