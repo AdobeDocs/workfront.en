@@ -118,7 +118,7 @@ To create an Iteration report, go to Reports > New Report > Iteration.
 
 ### Updated approval reports with new styling
 
-**Preview release: January 16, 2025; Production release: January 23, 2025**
+**Preview release: January 16, 2025; Production release: Starting the week of January 20, 2025**
 
 We have updated the interface of the following approval reports:
 
@@ -130,7 +130,7 @@ These updates include visual changes to the area. No functionality has changed.
 
 ### Text mode for filters and groupings
 
-**Preview release: January 9, 2025; Production release: Beginning January 9, 2025**
+**Preview release: January 9, 2025; Production release: Starting the week of January 6, 2025**
 
 We have added a new Edit Text Mode button and editing modal to the following areas:
 
