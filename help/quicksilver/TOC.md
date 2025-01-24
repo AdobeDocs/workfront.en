@@ -1532,7 +1532,7 @@ feature-set: Workfront
       * [Create financial data reports with unique exchange rates](reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)
       * [Edit report settings](reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)
       * [Change the owner of a report](reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
-      * [Report on the Updates area](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
+      * [Report on the Updates area with a Journal Entry report](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
       * [Create a User Delegation report](reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
     * Calculated custom data in reports {#calculated-custom-data}
       * [Calculated custom data in reports](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)

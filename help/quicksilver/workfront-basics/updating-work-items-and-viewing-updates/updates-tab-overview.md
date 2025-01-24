@@ -339,4 +339,4 @@ The report allows you to see:
 * If priority changed over the course of a project
 * If the owner of a project changed
 
-For more information, see [Report on the Updates area](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+For more information, see [Report on the Updates area with a Journal Entry report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
