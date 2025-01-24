@@ -112,11 +112,11 @@ To access your Custom Refresh Sandbox using a URL:
 
 1. Navigate to this URL if you only have one Custom Refresh Sandbox:
 
-   https://companyname.sb01.workfront.com (old URL:https://cr1.attasksandbox.com/.)
+   `https://companyname.sb01.workfront.com` (old URL:`https://cr1.attasksandbox.com/`.)
 
    Or If you have two Custom Refresh Sandboxes, in addition to the URLs above, you can also go to the following URL to access your second Custom Refresh Sandbox:
 
-   https://companyname.sb02.workfront.com (old URL:https://cr2.attasksandbox.com/)
+   `https://companyname.sb02.workfront.com` (old URL:`https://cr2.attasksandbox.com/`)
 
 1. On the login screen, log in using your Custom Refresh Sandbox credentials.
 1. Your Custom Refresh Sandbox credentials are the same as your production credentials, unless you have changed your production credentials since your Custom Refresh Sandbox was last refreshed. The logins are synchronized only when a refresh occurs. They do not synchronize automatically.
@@ -131,15 +131,15 @@ To access your Custom Refresh Sandbox using a URL:
 
 1. Navigate to this URL if you only have one Custom Refresh Sandbox:
 
-   https://companyname.sb01.workfront.com (old URL:https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com` (old URL:`https://cr3.attasksandbox.com`)
 
    Or
 
    Go to either one of these URLs if you have two Custom Refresh Sandboxes:
 
-   https://companyname.sb01.workfront.com (old URL:https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com` (old URL:`https://cr3.attasksandbox.com`)
 
-   https://companyname.sb02.workfront.com (old URL:https://cr4.attasksandbox.com)
+   `https://companyname.sb02.workfront.com` (old URL:`https://cr4.attasksandbox.com`)
 
 1. On the login screen, log in using your Custom Refresh Sandbox credentials.
 
