@@ -86,7 +86,7 @@ For specific release dates and times for each cluster, see the
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for4" class="MCXref xref" xrefformat="{para}">For group administrators: Improved controls for moving subgroups and an updated toolbar</a> </p> <p>We have made the following improvements in the Subgroups area in Setup.</p> 
     <ul> 
-     <li> <p>To give you a quick way to reorganize the groups you manage, we have added an “Add subgroups” toolbar button that allows you to create new subgroups and move existing ones.</p> </li> 
+     <li> <p>To give you a quick way to reorganize the groups you manage, we have added an "Add subgroups" toolbar button that allows you to create new subgroups and move existing ones.</p> </li> 
      <li> <p>The toolbar in the Subgroups area now makes lists consistent with other modernized lists in the new Workfront experience. When you select groups, icons represent available functions in the toolbar.</p> </li> 
     </ul> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;April 22, 2021<br></p> <p>Production release:&nbsp;With the 21.2 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> </td> 
@@ -197,7 +197,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;April 1, 2021<br></p> <p>Production release:&nbsp;April 15, 2021</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md#update" class="MCXref xref" xrefformat="{para}">Update to setting that allows users to delete tasks and issues with logged hours</a> </p> <p>To offer you a cohesive experience across all objects, we changed the way the “Allow users to delete tasks &amp; issues with logged hours” setting works in Workfront. Now, when your Workfront or group administrator disables the Task &amp; Issue preference, you can no longer delete projects that contain tasks or issues with logged hours. </p> <p>Prior to this change, disabling the setting prevented users just from deleting tasks or issues, not projects.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md#update" class="MCXref xref" xrefformat="{para}">Update to setting that allows users to delete tasks and issues with logged hours</a> </p> <p>To offer you a cohesive experience across all objects, we changed the way the "Allow users to delete tasks &amp; issues with logged hours" setting works in Workfront. Now, when your Workfront or group administrator disables the Task &amp; Issue preference, you can no longer delete projects that contain tasks or issues with logged hours. </p> <p>Prior to this change, disabling the setting prevented users just from deleting tasks or issues, not projects.</p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;April 1, 2021<br></p> <p>Production release:&nbsp;With the 21.2 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> </td> 
   </tr> 
  </tbody> 
@@ -214,7 +214,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md#control" class="MCXref xref" xrefformat="{para}">Control what type of assignments you make on a new request</a> </p> <p>We have changed the way the Assignments field functions when creating a new request to provide consistency and always show the same field regardless of what types of assignments users can enter.</p> <p>When you enable the Assigned To, Job Role, or Team fields to be visible when setting up a request queue, requestors will see the same Assignments field that can accommodate all or any of these three assignment types.</p> <p>There is an indication in the Assignments field about which types of assignments are allowed. For example, when you enabled the Assigned To and Team fields when setting up the request queue, you will be prompted to “Search people or teams” instead of “Search people, roles, or teams.”</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md#control" class="MCXref xref" xrefformat="{para}">Control what type of assignments you make on a new request</a> </p> <p>We have changed the way the Assignments field functions when creating a new request to provide consistency and always show the same field regardless of what types of assignments users can enter.</p> <p>When you enable the Assigned To, Job Role, or Team fields to be visible when setting up a request queue, requestors will see the same Assignments field that can accommodate all or any of these three assignment types.</p> <p>There is an indication in the Assignments field about which types of assignments are allowed. For example, when you enabled the Assigned To and Team fields when setting up the request queue, you will be prompted to "Search people or teams" instead of "Search people, roles, or teams."</p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;April 8, 2021<br></p> <p>Production release:&nbsp;With the 21.2 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -436,7 +436,7 @@ New features coming to Workfront Scenario Planner release with the 21.2 release.
 
 ## Workfront Fusion enhancements
 
-New features in Workfront Fusion are available in Production at a cadence outside of the 21.2 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+New features in Workfront Fusion are available in Production at a cadence outside of the 21.2 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 ## API version 13
 

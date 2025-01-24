@@ -109,7 +109,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">New default access level configurations</a> </p> <p>To better suit the needs of most administrators who create access levels, we've changed the default configuration for several of the “Fine-tune your settings” options that display when you click the gear icon on an Edit button.</p> <p>The options, previously enabled by default, are now disabled. If this doesn't suit the needs of your organization, you can enable them when you are setting up a new access level, or any time later.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">New default access level configurations</a> </p> <p>To better suit the needs of most administrators who create access levels, we've changed the default configuration for several of the "Fine-tune your settings" options that display when you click the gear icon on an Edit button.</p> <p>The options, previously enabled by default, are now disabled. If this doesn't suit the needs of your organization, you can enable them when you are setting up a new access level, or any time later.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: January 27, 2022<br></p> </li> 
@@ -578,7 +578,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ## Workfront Fusion enhancements
 
-New features in Workfront Fusion are available in Production at a cadence outside of the 22.2 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+New features in Workfront Fusion are available in Production at a cadence outside of the 22.2 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Workfront Scenario Planner enhancements
 
