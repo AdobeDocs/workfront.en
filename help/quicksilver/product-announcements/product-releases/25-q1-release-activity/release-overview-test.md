@@ -36,11 +36,13 @@ This page provides information about functionality that is included in the First
 ### Administrator enhancements
 
 <table>
-<col style="width: 55%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<tbody>
+  <colgroup>
+    <col style="width: 55%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+  </colgroup>
+  <tbody>
     <tr>
         <td>
             <p><span class="bold">Feature</span></p>
@@ -81,20 +83,20 @@ This page provides information about functionality that is included in the First
         <td>25.12</td>
         <td>25.1</td>
     </tr>
-
-</tbody>
+  </tbody>
 </table> 
 
 
 ### Document management enhancements
 
-
 <table>
-<col style="width: 55%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<tbody>
+  <colgroup>
+    <col style="width: 55%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+  </colgroup>
+  <tbody>
     <tr>
         <td>
             <p><span class="bold">Feature</span></p>
@@ -153,7 +155,7 @@ This page provides information about functionality that is included in the First
           <td><p>24.11</p><p> [!BADGE Available ]{type=Positive}</p></td>
         <td><p>25.1</p> <p> [!BADGE Available ]{type=Positive}</p></td>
     </tr>
-</tbody>
+  </tbody>
 </table> 
 
 <!--
@@ -164,7 +166,7 @@ The following functionality is soon to be removed from Workfront:
 
 ## Release notes for other areas
 
-* [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Adobe Workfront Planning First Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
 
 There are no updates for the following at this point in the release:

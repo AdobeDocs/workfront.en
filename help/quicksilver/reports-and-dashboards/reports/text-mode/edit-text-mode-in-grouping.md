@@ -1,17 +1,15 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Edit text mode in a grouping
-description: 'NOTE: make all FVG articles the same for editing in text mode)'
+title: Edit a grouping using text mode
+description: 'You can edit a grouping in a list or report using text mode to access fields that are not available in the standard interface and create more complex groupings.'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
 ---
-# Edit text mode in a grouping
+# Edit a grouping using text mode
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: make all FVG articles the same for editing in text mode)</p>
--->
+<!-- Audited: 1/2025 -->
 
 You can edit a grouping in a list or report using text mode to access fields that are not available in the standard interface and create more complex groupings.
 
@@ -21,32 +19,45 @@ You can edit a grouping in a list or report using text mode to access fields tha
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
+
+You must have the following:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit groupings in a report</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit groupings in a report</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report to edit groupings in a report</p> <p>Manage permissions to a grouping to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a report to edit groupings in a report</p> <p>Manage permissions to a grouping to edit it</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 
@@ -58,7 +69,7 @@ For more information, see:
 * [Text mode syntax overview](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md) 
 * [Custom view, filter, and grouping samples: article index](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-## Edit text mode in a grouping
+## Edit a grouping using text mode
 
 Editing a grouping using text mode is identical for reports and lists. Accessing the grouping from a report or from a list differs.
 
@@ -77,7 +88,7 @@ For information about creating a report, see [Create a custom report](../../../r
 
       The grouping builder opens.
 
-1. Click&nbsp;**Add Grouping** to add the groupings, then click&nbsp;**Switch to Text Mode** in the upper-right corner of the builder.
+1. Click&nbsp;**Add Grouping** to add the groupings, click&nbsp;**Switch to Text Mode** in the upper-right corner of the builder, then click **Edit Text Mode**.
 
    >[!TIP]
    >

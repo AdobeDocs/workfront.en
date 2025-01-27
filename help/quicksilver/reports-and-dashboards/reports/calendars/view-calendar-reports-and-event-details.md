@@ -50,20 +50,23 @@ For more detail about the information in this table, see [Access requirements in
 
 ## View a calendar report
 
-{{step1-to-calendars}}
+<!--{{step1-to-calendars}}-->
+
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Calendars]**.
 
    Depending on your access level, you might see the following calendars listed:
-
+   
    * Your default [!DNL Adobe Workfront] calendar
-
-      Workfront creates a calendar for you based on the projects, tasks, and issues that are assigned to you or that are assigned to teams, groups, or roles to which you are assigned.
+   
+     Workfront creates a calendar for you based on the projects, tasks, and issues that are assigned to you or that are assigned to teams, groups, or roles to which you are assigned.
+      
    * Calendars that you have created
 
-      To learn about creating calendars, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+     To learn about creating calendars, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
    * Calendars that other users have shared with you
 
-      To learn about sharing calendars, see [[!UICONTROL Share a calendar] report](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+     To learn about sharing calendars, see [[!UICONTROL Share a calendar] report](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 1. (Conditional) Click the **[!UICONTROL View]** drop-down, then select the calendar duration you want to view.
    ![Calendar duration](assets/view-menu-calendar-report-350x189.png)

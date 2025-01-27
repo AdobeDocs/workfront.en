@@ -55,7 +55,23 @@ This page provides information about functionality that is included in the First
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+           Business rules are now supported for more objects</a></p>
+           [!BADGE In production ]{type=Informative}
+            <p>You can now create business rules and apply validation to these additional objects: Company, Iteration, Non-Labor Resource Category, Job Role, User, Assignment, Resource Pool, Time Off, Document, and Hour.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: January 16, 2024</li>
+                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
            Compare objects between environments for environment promotion</a></p>
+           [!BADGE In production ]{type=Informative}
             <p>To make it easier to determine which object should be included in an environment promotion package, we've added the ability to compare objects across environments. You can then add objects to a package directly from this comparison.</p>
         </td>
         <td>
@@ -70,6 +86,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             More objects available for environment promotion</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>To expand the capabilities of environment promotion functionality, we've added more objects.</p>
         </td>
         <td>
@@ -83,7 +100,8 @@ This page provides information about functionality that is included in the First
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Prevent Moving tasks when there are Hours logged</a></p>
+            Prevent moving tasks when there are hours logged</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>Because moving tasks or issues that have logged hours can sometimes cause compliance or audit problems, we have added a preference in the Task & Issues Preferences area of Setup that allows you to prevent users from moving tasks and issues if there are hours logged on them.</p>
         </td>
         <td>
@@ -98,7 +116,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Preference to use project or user schedule for single-assignment tasks</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
+            [!BADGE In production ]{type=Informative}
             <p>As a system or group administrator, you now have a new preference to indicate whether Workfront should use the project's or the user's schedule to calculate the timeline of the project when you assign one user to a task and both the project and the user are associated with a schedule.</p>
         </td>
         <td>
@@ -114,7 +132,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Business rules now support hyperlinks</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
+            [!BADGE In production ]{type=Informative}
             <p>You can now include hyperlinks in the custom error message of a business rule, to guide the user on how to modify their action within the constraint of the rule. The static URL could link to documentation or other pages that would be helpful to the user.</p>
         </td>
         <td>
@@ -130,6 +148,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Filtering on native typeahead fields is now available</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>When you add a native field reference to a custom form and it references a typeahead field (such as Portfolio, Company, or Owner), a filter option is now available. The filter allows you to limit the objects users can choose when they are using the field. This custom filter works the same as a filter on a custom typeahead field, using Text Mode to define the filter.</p>
         </td>
         <td>
@@ -145,7 +164,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             "Move to" icon added to custom fields</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
+            [!BADGE In production ]{type=Informative}
             <p>When a custom form contains multiple sections with many fields, it can be difficult to move a field from one section to another by dragging and dropping. A "move to" icon has been added to each field, allowing you to select the section that the field is placed in.</p>
         </td>
         <td>
@@ -178,6 +197,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Change the owner of a board</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel.</p>
             <p>Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board. This functionality is available on basic, retrospective, and Kanban boards, but not dynamic boards.</p>
         </td>
@@ -210,7 +230,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Edit multiple documents at once</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
+            [!BADGE In production ]{type=Informative}
             <p>You can now edit multiple documents at once. You can edit the descriptions and update custom forms.</p>
         </td>
         <td>
@@ -226,7 +246,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             New Withdrawn status available for document version approvals</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
+            [!BADGE In production ]{type=Informative}
             <p>When a new version is added to a document with pending approvals, the approval for the previous version will now display as "Withdrawn," indicating that the prior approval process has closed due to the new version being added.</p>
         </td>
         <td>
@@ -260,6 +280,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Use Smart Filters to find your work in Priorities</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>Use natural language to quickly filter work in the Priorities worklist. You can type things like </p>
             <ul>
                 <li>Show me late tasks</li>
@@ -279,6 +300,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Catch up on work in Priorities</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>You can use Catch me up to help reduce the amount of time looking for information on active projects.</p>
             <p>Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.</p>
         </td>
@@ -296,6 +318,7 @@ This page provides information about functionality that is included in the First
             View changes live on the Details page in Priorities</a></p>
             <p>You can now view real-time updates on the Details page of a task or issue. You can also see if others are viewing the page at the same time as you with real-time presence indicators.</p>
         </td>
+        [!BADGE In production ]{type=Informative}
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
@@ -308,6 +331,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Upload and view documents and proofs in Priorities</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>You can now interact with documents and proofs for tasks and issues in the worklist and calendar. In the new Documents tab, you can</p>
             <ul>
                 <li>Upload a document</li>
@@ -328,6 +352,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Calendar view now available in Priorities</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>You can track your work with a clear, visual month calendar. With the Priorities calendar, you can</p>
             <ul>
                 <li>Use filters to find your work</li>
@@ -348,6 +373,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Updates to the Priorities worklist</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>We have updated the Priorities worklist to improve capabilities and align with other areas of the application.</p>
         </td>
         <td>
@@ -362,6 +388,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Navigate to a project's Details page from Priorities</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>You can now navigate directly to a project in Workfront from the Priorities worklist.</p>
         </td>
         <td>
@@ -397,7 +424,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             View project details in Priorities</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
+            [!BADGE In production ]{type=Informative}
             <p>You can now view project details and comments from the worklist in Priorities.</p>
         </td>
         <td>
@@ -430,6 +457,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
             More relevant assignments removed from Preview and Production for Fast Release environments</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>A functionality that has been in the Preview environment since December 2023 and in the fast release Production environment since March 2024 has now been removed. The features added more relevant smart assignment suggestions when assigning tasks.</p>
         </td>
         <td>
@@ -517,7 +545,23 @@ This page provides information about functionality that is included in the First
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            New entities available in Data Connect</a></p>
+            [!BADGE In production ]{type=Informative}
+            <p>We have added support for a number of new entities in Data Connect, including some agency-specific entities.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: January 15, 2025</li>
+                <li>Production release for all customers: January 15, 2025</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Limit of 25 reports, external pages, or calendars in dashboards</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>To maintain dashboard performance, we have implemented a limit to the total number of reports, external pages, or calendars that can be placed in a dashboard. When creating a new dashboard, a maximum of 25 items can be added.</p>
         </td>
         <td>
@@ -562,7 +606,7 @@ This page provides information about functionality that is included in the First
     </tr>
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Updated commenting experience in the Mentions widget in Home and My Updates area</a></p>
             <p>We are updating the commenting experience in the Mentions widget in Home and the Mentions section in the My Updates area. Now, the same experience in the Updates area of most Workfront objects is also available in the Mentions widget and in the Mentions section of My Updates.</p>
         </td>
@@ -570,7 +614,7 @@ This page provides information about functionality that is included in the First
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: December 19, 2024</li>
-                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
+                <li>Production release for all customers: To be announced</li>
             </ul>
         </td>
     </tr>
@@ -606,7 +650,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Sections within a custom form are now collapsible and expandable</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
+            [!BADGE In production ]{type=Informative}
             <p>When a custom form with multiple sections is attached to an object, you can now collapse and expand all sections except the default section at the top of the form. The administrator can also see this functionality when previewing the form in the form designer.</p>
         </td>
         <td>
@@ -622,7 +666,7 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             AI Assistant can now work with projects, tasks, and issues</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
+            [!BADGE In production ]{type=Informative}
             <p>To make it easier to manage your work items in Workfront, we've updated AI Assistant to work with projects, tasks, and issues. Now, AI Assistant can locate  projects, tasks, and issues based on criteria you specify.</p>
         </td>
         <td>
@@ -661,7 +705,15 @@ The following functionality is soon to be removed from Workfront:
 
 ### Workfront Fusion enhancements
 
-New features in Workfront Fusion are available in Production at a cadence outside of the First Quarter 2025 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+>[!IMPORTANT]
+>
+>The Workfront Fusion documentation has moved to a new location. For information, instructions, and releases for Fusion, visit [Workfront Fusion documentation](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
+>
+>Each current Fusion documentation article contains a link to the corresponding article in the new location. Please update your bookmarks.
+>
+>The current Fusion documentation set is no longer being updated, and will be removed in the near future.
+
+New features in Workfront Fusion are available in Production at a cadence outside of the First Quarter 2025 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Workfront Planning enhancements
 

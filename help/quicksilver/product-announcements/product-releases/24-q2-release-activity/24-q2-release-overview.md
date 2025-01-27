@@ -366,7 +366,7 @@ You can also [view a PDF file](https://acrobat.adobe.com/id/urn:aaid:sc:US:17548
                                 <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
                             </li>
                         </ul>
-                    <p><i>This feature will be removed from Preview on December 19, 2024 and from fast release Production with 25.1 (January 2025).</i></p>
+                    <p><i>This feature has been removed from Preview and fast release Production.</i></p>
                     </td>
                  </tr>
                  <tr>
@@ -384,7 +384,7 @@ You can also [view a PDF file](https://acrobat.adobe.com/id/urn:aaid:sc:US:17548
                                 <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
                             </li>
                         </ul>
-                    <p><i>This feature will be removed from Preview on December 19, 2024 and from fast release Production with 25.1 (January 2025).</i></p>
+                    <p><i>This feature has been removed from Preview and fast release Production.</i></p>
                     </td>
                  </tr>
            </tbody>
@@ -632,7 +632,7 @@ You can also [view a PDF file](https://acrobat.adobe.com/id/urn:aaid:sc:US:17548
 
 ### Workfront Fusion enhancements
 
-New features in Workfront Fusion are available in Production at a cadence outside of the Second Quarter 2024 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+New features in Workfront Fusion are available in Production at a cadence outside of the Second Quarter 2024 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Workfront Scenario Planner enhancements
 

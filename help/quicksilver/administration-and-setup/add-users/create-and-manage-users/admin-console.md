@@ -6,7 +6,11 @@ feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
 ---
-# Manage system administrators in the Adobe Admin Console
+# Manage users in the Adobe Admin Console
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 >[!IMPORTANT]
 >
@@ -19,6 +23,8 @@ As an Adobe administrator, you can create Adobe Workfront system administrators 
 >[!NOTE]
 >
 >We recommend adding non-system administrator users directly in Workfront. It is possible to add users in the Adobe Admin Console, but adding them in Workfront allows you to set their access level while creating them, which can save you time.
+
+<span class="preview">When making changes to users' profiles from the Admin Console, an update is added to the System activity tab of the user in Workfront. The update shows as made by the "System". This refers to the Adobe Admin Console administrator and not to the Workfront main Administrator.</span> 
 
 ## Access requirements
 

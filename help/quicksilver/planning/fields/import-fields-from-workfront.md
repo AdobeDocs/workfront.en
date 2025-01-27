@@ -11,9 +11,9 @@ exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
 
 # Import fields from Adobe Workfront
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->   
 
 
 {{planning-important-intro}}
@@ -110,11 +110,11 @@ You must have the following access to perform the steps in this article:
     * Assignment
     * Hour
     * Billing Record
-    <!--Available only to Preview, but might not come to Prod:* Rate card-->
+    <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
     * Expense
     * Iteration
-    <!--* Non-labor resource-->
-    <!--* Non-labour resource category-->
+    <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
+    <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
 * Workfront fields might not preserve their field type, after they are imported in Workfront Planning. 
 
     The table below shows Workfront field types and their corresponding Workfront Planning field type.

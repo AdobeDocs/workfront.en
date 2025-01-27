@@ -16,9 +16,9 @@ exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 As an [!DNL Adobe Workfront] administrator, you can configure system-wide preferences for tasks and issues. These preferences impact the way that your users create tasks and issues in [!DNL Workfront].
@@ -68,15 +68,10 @@ You must have the following access to perform the steps in this article:
     * [[!UICONTROL New Task Defaults]](#new-task-defaults)
     * [[!UICONTROL Issues]](#issues)
     * [[!UICONTROL Deletion]](#deletion)
-    * <span class="preview">[Move](#move)</span>
+    * [Move](#move)
     * [[!UICONTROL Actual Dates]](#actual-dates)
     * [[!UICONTROL Delegation]](#delegation)
     * [[!UICONTROL Access]](#access)
-
-<!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
--->
-
 
 
 ### [!UICONTROL New Task Defaults] {#new-task-defaults}
@@ -163,8 +158,6 @@ You must have the following access to perform the steps in this article:
 
 * When you deselect this option, you receive a prohibitive warning when you delete a task or issue with logged hours, or when you delete a project with hours logged for its tasks or issues. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be deleted. The tasks, issues , or projects that have hours logged for tasks and issues cannot be deleted.
 
-<div class="preview">
-
 ### Move
 
 **[!UICONTROL Allow users to move tasks and issues with logged hours]**: Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.
@@ -172,8 +165,6 @@ You must have the following access to perform the steps in this article:
 * When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. 
 
 * When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours to another project. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. You can move tasks within the same project, even when this option is deselected. 
-
-</div>
 
 ### [!UICONTROL Actual Dates] {#actual-dates}
 

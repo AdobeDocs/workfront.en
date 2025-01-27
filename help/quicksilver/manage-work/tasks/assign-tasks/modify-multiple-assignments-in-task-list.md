@@ -3,7 +3,7 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Modify multiple user assignments in a task list
 description: When managing task assignments, you can simultaneously modify them for multiple tasks at a time by using the bulk editing feature in a list of tasks. 
-author: Alina
+author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
