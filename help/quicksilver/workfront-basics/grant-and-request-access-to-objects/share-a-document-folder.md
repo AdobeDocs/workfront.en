@@ -127,6 +127,8 @@ You must have the following access to perform the steps in this article:
 
    If you change your mind, you can, click **Remove system-wide access** (the default option).
 
+<!--1. (Optional) If you want everyone in the system to be able to view the folder and its contents, choose **Everyone in the System can view** in the **Who has access** drop-down menu. -->
+
 ## How users access the contents of a folder shared with them
 
 <!--

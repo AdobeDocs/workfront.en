@@ -9,6 +9,8 @@ exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 ---
 # Share a project in Adobe Workfront
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 <!-- Audited: 1/2024 -->
 
 Your Adobe Workfront administrator can grant you access to view or edit projects when assigning your access level. For more information, see [Grant access to projects](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
