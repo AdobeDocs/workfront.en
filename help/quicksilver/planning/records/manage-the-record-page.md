@@ -10,7 +10,7 @@ exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 
 # Manage the record page layout
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
@@ -155,7 +155,11 @@ To add a section to a record preview or page:
     
     The record's preview opens in the view.
 
+   <!--<div class="preview">
+
     ![](assets/details-box.png)  
+
+    </div>-->
 
 1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record preview  to open the record's page in a new tab. 
 
@@ -234,13 +238,21 @@ To add a section to a record preview or page:
     
     The record's preview opens in the view.
 
+    <!--<div class="preview">
+
     ![](assets/details-box.png) 
+
+    </div>-->
 
 1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 
     The **Details** tab of the record opens by default. 
 
-    ![](assets/details-page.png)
+   <!--<div class="preview">
+
+   ![](assets/details-page.png)
+
+   </div>-->
 
 1. In the record **Details** tab, click the **grab** icon ![](assets/grab-icon.png) to the left of a field name, then drag and drop it in a desired spot. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
