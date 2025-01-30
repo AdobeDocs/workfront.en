@@ -9,43 +9,49 @@ exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
 ---
 # Set Tracking Mode for tasks
 
+<!--Audited: 01/2025-->
+
 The Tracking Mode of a task determines how the task Progress Status is updated in Adobe Workfront.
 
 For information about Tracking Mode on tasks, see [Task Tracking Mode overview](../../../manage-work/tasks/task-information/task-tracking-mode.md).
 
 ## Access requirements
 
-<!--drafted for P&P - replace the table:
+You must have the following access to perform the steps in this article:
+
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-   <td> <p>Current license: Standard</p> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard</p> 
    Or
-   <p>Legacy license: Work or higher</p> 
+   <p>Current: Work or higher</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks </p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a></p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions on a task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions on a task</p> </td> 
   </tr> 
  </tbody> 
 </table>
--->
 
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--old: 
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -53,7 +59,7 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
+   <td role="rowheader">Adobe Workfront plan/td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
@@ -72,6 +78,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+-->
 
 ## Set Tracking Mode for tasks
 
