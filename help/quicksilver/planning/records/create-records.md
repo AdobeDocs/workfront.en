@@ -253,7 +253,9 @@ To create records as you are connecting them from other records:
     * The table view
     * The details page or preview box of a record
 
-1. (Conditional) If you cannot find a record when trying to add it from the connected record field of another record, search for a record, then click **+ Add**. The **+ Add** button is followed by the name of the record type you are connecting to. For example, "Add brands" when adding a brand to an existing campaign. 
+1. (Conditional) If you cannot find a record when trying to add it from the connected record field of another record, search for a record, then click **+ Add**. The **+ Add** button is followed by the name of the record type you are connecting to. For example, "Add brands" when adding a brand to an existing campaign. The name you typed also follows the Add button. 
+
+    <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
     ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
