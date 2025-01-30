@@ -385,7 +385,6 @@ You can create a calculated custom field that displays a text-formatted value us
    <p><code>ARRAY(string1, "delimiter")</code></p> 
    </td> 
   </tr>
-  <tr>
   <tr> 
    <td><strong>ARRAYLENGTH</strong> </td> 
    <td> <p>Returns the number of elements in the array and is formatted as follows:</p>
