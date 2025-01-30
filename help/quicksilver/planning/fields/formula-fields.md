@@ -175,6 +175,8 @@ OLD:
 
 Adobe Workfront Planning formula fields support most of the expressions from the Workfront calculated fields. 
 
+<!-- make the note available when WF releases the expressions listed in it: 
+
 >[!NOTE]
 >
 >The following Workfront expressions are not supported for Workfront Planning formula fields: 
@@ -184,10 +186,13 @@ Adobe Workfront Planning formula fields support most of the expressions from the
 >* ADDHOUR
 >* SWITCH
 >* FORMAT
+-->
 
 For a complete list of Workfront expressions, see [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 In addition, we support the following expressions for Workfront Planning formula fields. The following expressions are not supported for Workfront expressions:
+
+<!--take these three out when they also come to WF and Lisa has added them to the WF expression article linked above-->
 
 <table style="table-layout:auto"> 
  <col> 
@@ -199,14 +204,35 @@ In addition, we support the following expressions for Workfront Planning formula
   </tr> 
  </thead> 
  <tbody> 
-  
-  <tr> 
+
+  <tr>
+   <td><strong>ARRAY</strong> </td>
+   <td> <p>Converts a string into an array. The delimiter can be any string.</p>
+   <p>The expression is formatted as follows:</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>ARRAYELEMENT</strong> </td>
+   <td> <p>Returns the element at the specified number in the array. If the index is out of bounds, it returns empty.</p>
+   <p>The expression is formatted as follows:</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p>
+   </td>
+  </tr>
+
+<tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>Returns concatenated string by delimiter.</p> <p>The expression is formatted as follows:
    
    <code>ARRAYJOIN(delimiter,array)</code>
    </p>
    </td></tr>
+  <tr>
+   <td><strong>ARRAYLENGTH</strong> </td>
+   <td> <p>Returns the number of elements in the array and is formatted as follows:</p>
+   <p><code>ARRAYLENGTH(array)</code></p>
+   </td>
+  </tr>
 
    <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 

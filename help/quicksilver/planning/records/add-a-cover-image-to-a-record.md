@@ -10,9 +10,9 @@ exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
 
 # Add a cover image to a record
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -134,21 +134,21 @@ You can personalize a record by adding a cover image at the top of the record pr
     
     The record's preview opens in the view.
 
-    <div class="preview">
+    <!--<div class="preview">
 
     ![](assets/details-box.png) 
 
-    </div>
+    </div>-->
 
 1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 
     The record page opens. 
 
-    <div class="preview">
+    <!--<div class="preview">
 
     ![](assets/details-page.png)
 
-    </div>
+    </div>-->
 
 1. In the record preview or details page, hover over the space above the record name, then click **Add cover**.
     
