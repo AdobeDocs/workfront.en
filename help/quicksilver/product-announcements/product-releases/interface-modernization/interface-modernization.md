@@ -66,7 +66,6 @@ To view this page, go to Setup > Groups > Select a group > Event Notifications
 
 This update includes minor visual changes to the area. No functionality has changed.
 
-
 ### Interface updates for the Reminder Notifications tab in Setup
 
 **Preview release: January 23, 2025; Production release: To be announced**
@@ -93,9 +92,21 @@ We have updated the Project, Task, and Issue Approvals lists in Setup > Processe
 
 This update includes visual changes to the area. No functionality has changed.
 
+## Agile
+
+### Interface update for the Iterations list
+
+**Preview release: January 23, 2025; Production release: To be announced**
+
+We have updated the Teams > Iterations list with a more modern design that is consistent with other areas of Workfront.
+
+This update includes visual changes to the area. No functionality has changed.
+
+To view this change, go to Teams > choose a team > Iterations.
+
 ## Reports and Dashboards
 
-## Updated email reports with new styling
+### Updated email reports with new styling
 
 **Preview release: January 23, 2025; Production release: To be announced**
 
@@ -108,7 +119,7 @@ This update includes visual changes to the area. No functionality has changed.
 
 ### Updated iteration report with new styling
 
-**Preview release: January 17, 2025; Production release: To be announced**
+**Preview release: January 17, 2025; Production release: Starting the week of January 20, 2025**
 
 We have updated the Iteration report with a more modern design that is consistent with other areas of Workfront.
 
