@@ -30,10 +30,10 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 
 ## Adobe Workfront enhancements
 
-* [Administrator enhancements](#administrator-enhancements)
+<!--* [Administrator enhancements](#administrator-enhancements)-->
 * [Other enhancements](#other-enhancements)
 
-### Administrator enhancements
+<!--### Administrator enhancements
 
 <table>
 <col style="width: 50%;" />
@@ -54,7 +54,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
         </td>
     </tr>                          
 </tbody>
-</table>  
+</table>--> 
 
 ### Other enhancements
 
