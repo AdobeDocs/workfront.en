@@ -16,6 +16,42 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Functions added to formula fields
+
+>[!NOTE]
+>
+>Preview release: January 30, 2025; Production release for all customers: January 30, 2025
+
+The following expressions are now available in Workfront formula fields: ARRAY, ARRAYLENGTH, ARRAYELEMENT. Definitions and examples of each expression are available in the formula editor.
+
+For information, see [Formula fields overview](/help/quicksilver/planning/fields/formula-fields.md).
+
+<!--## Real-time presence indicators in a record's details preview or page
+
+>[!NOTE]
+>
+>Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+
+To understand what information is edited by other users when working in a record's preview or details page, we have introduced real-time presence indicators for this area of Workfront Planning.
+
+The field edited by another user will now be highlighted, and other users' avatars will be visible to you in the upper-right corner of the preview or details page.
+
+For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+
+## Sharing Workfront Planning items with teams, job roles, and companies
+
+>[!NOTE]
+>
+>Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+
+You can now share views and workspaces with teams, job roles, and companies, in Workfront Planning. Prior to this enhancement, you could share views and workspaces with users and groups.
+
+For information, see the following articles:
+
+[Share views](/help/quicksilver/planning/access/share-views.md)
+
+[Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
+
 ## Copying and pasting external text is now supported for connections and People fields
 
 >[!NOTE]
