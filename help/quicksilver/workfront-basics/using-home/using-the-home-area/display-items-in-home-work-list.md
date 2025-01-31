@@ -56,7 +56,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Requirements for work items to display in the worklist
 
-There are built-in requirements for which tasks display in each widget work list. Work items must meet these requirements in order to appear in the worklist. 
+There are built-in requirements for which work items display in certain widget work list. Work items must meet these requirements in order to appear in the following widget's worklists. 
 
 ### My tasks widget
 
@@ -80,10 +80,13 @@ Issues must meet the following requirements to appear in the My Issues widget:
 
 ### My teams widget
 
-isComplete = false
-currentApprovalStepID is not defined
-project:statusEquatesWith = CUR
-recurrenceRuleID is not defined
+Team requests must meet the following requirements to appear in the My Teams widget:
+
+* The logged in user belongs to the team the work item is assigned to.
+* The work item status does not equate with Complete.
+* The work item does not have an unresolved approval process attached. 
+* The work item is not a recurring task.
+* The project the work item belongs to must be in a status that equates with Current. 
 
 ## Filter your work
 
