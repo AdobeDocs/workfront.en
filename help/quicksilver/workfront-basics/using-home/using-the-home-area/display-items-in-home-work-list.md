@@ -54,6 +54,37 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
+## Requirements for work items to display in the worklist
+
+There are built-in requirements for which tasks display in each widget work list. Work items must meet these requirements in order to appear in the worklist. 
+
+### My tasks widget
+
+Tasks must meet the following requirements to appear in the My Tasks widget:
+
+* The task status does not equate with Complete.
+* The logged in user must be assigned to the task.
+* The task status is not equal to Done.
+* The project the task belongs to must be in a status that equates with Current. 
+
+
+### My issues widget
+
+Issues must meet the following requirements to appear in the My Issues widget:
+
+* The logged in user must be assigned to the issue.
+* The issue status does not equate with Complete.
+* There is not a unresolved object attached to the issue.
+* The issue status is not equal to Done.
+* The project the issue belongs to must be in a status that equates with Current. 
+
+### My teams widget
+
+isComplete = false
+currentApprovalStepID is not defined
+project:statusEquatesWith = CUR
+recurrenceRuleID is not defined
+
 ## Filter your work
 
 You can filter items in a widget's [!UICONTROL Worklist] to see only specific types of items. For example, you can filter the My Work [!UICONTROL Worklist] to display only issues or requests.
