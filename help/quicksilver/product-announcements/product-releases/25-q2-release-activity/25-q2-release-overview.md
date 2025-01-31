@@ -30,10 +30,10 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 
 ## Adobe Workfront enhancements
 
-<!--* [Administrator enhancements](#administrator-enhancements)-->
+* [Administrator enhancements](#administrator-enhancements)
 * [Other enhancements](#other-enhancements)
 
-<!--### Administrator enhancements
+### Administrator enhancements
 
 <table>
 <col style="width: 50%;" />
@@ -42,19 +42,19 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Represent Adobe Admin Console user changes as "System" in the Workfront update feed</a></p>
-            <p>Now, when the administrator of the Adobe Admin Console makes a change to the user information of a Workfront user, Workfront records this change in the System activity tab of the user's Updates area as belonging to the "System". This refers to the Adobe Admin Console administrator.</p>
+            Expressions added to calculated custom fields</a></p>
+            <p>The following expressions are now available in Workfront calculated custom fields: ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT, and ADDHOUR. Definitions and examples of each expression are available in the calculation editor and on Experience League.</p>
         </td>
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
-                <li>Preview release: January 30, 2025</li>
-                <li><span class="preview">Production release for all customers: January 30, 2025</span></li>
+                <li>Preview release: January 31, 2025</li>
+                <li><span class="preview">Production release for all customers: January 31, 2025</span></li>
             </ul>
         </td>
     </tr>                          
 </tbody>
-</table>--> 
+</table>
 
 ### Other enhancements
 
