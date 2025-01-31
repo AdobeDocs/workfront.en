@@ -30,7 +30,31 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 
 ## Adobe Workfront enhancements
 
+* [Administrator enhancements](#administrator-enhancements)
 * [Other enhancements](#other-enhancements)
+
+### Administrator enhancements
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Expressions added to calculated custom fields</a></p>
+            <p>The following expressions are now available in Workfront calculated custom fields: ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT, and ADDHOUR. Definitions and examples of each expression are available in the calculation editor and on Experience League.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: January 31, 2025</li>
+                <li><span class="preview">Production release for all customers: January 31, 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
 
 ### Other enhancements
 
@@ -53,20 +77,20 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
             </ul>
         </td>
     </tr>
-    <!--<tr>
+    <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
-            Look-and-feel updates during the First Quarter 2025 timeframe</a></p>
-            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the First Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
+            Look-and-feel updates during the Second Quarter 2025 timeframe</a></p>
+            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
         </td>
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
-                <li>Preview release: Throughout the First Quarter 2025 release timeframe</li>
+                <li>Preview release: Throughout the Second Quarter 2025 release timeframe</li>
                 <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
             </ul>
         </td>
-    </tr>-->                            
+    </tr>
 </tbody>
 </table>   
 
@@ -80,7 +104,7 @@ The following functionality is soon to be removed from Workfront:
 
 ### Interface modernization
 
-We are updating the interface throughout Adobe Workfront to improve the user experience and unify it with other Adobe applications. These changes are released outside the standard release schedule. For a list of these changes, see [Interface Modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
+We are updating the interface throughout Adobe Workfront to improve the user experience and unify it with other Adobe applications. These changes are released outside the standard release schedule. For a list of these changes, see [Interface Modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 ### Workfront Fusion enhancements
 

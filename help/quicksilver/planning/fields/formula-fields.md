@@ -11,6 +11,10 @@ exl-id: 5027d611-916e-492d-9a44-841bdde11c94
 
 <!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
 {{planning-important-intro}}
 
 You can create custom fields in Adobe Workfront Planning by referring to existing fields and connecting them in a Formula-type field.
@@ -169,9 +173,24 @@ OLD:
 
 ## Supported formulas
 
-Adobe Workfront Planning formula fields support all expressions from the Workfront calculated fields. For a list of Workfront expressions, see [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Adobe Workfront Planning formula fields support most of the expressions from the Workfront calculated fields. 
 
-In addition, we support the following expressions for Workfront Planning formula fields:
+>[!NOTE]
+>
+>The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>
+>* SORTASCARRAY
+>* SORTDESCARRAY
+>* ADDHOUR
+>* SWITCH
+>* FORMAT
+
+
+For a complete list of Workfront expressions, see [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+In addition, we support the following expressions for Workfront Planning formula fields. The following expressions are not supported for Workfront expressions:
+
+<!--take these three out when they also come to WF and Lisa has added them to the WF expression article linked above-->
 
 <table style="table-layout:auto"> 
  <col> 
@@ -183,16 +202,15 @@ In addition, we support the following expressions for Workfront Planning formula
   </tr> 
  </thead> 
  <tbody> 
-  
-  <tr> 
+
+ <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>Returns concatenated string by delimiter.</p> <p>The expression is formatted as follows:
    
    <code>ARRAYJOIN(delimiter,array)</code>
    </p>
    </td></tr>
-
-   <tr> 
+    <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>Returns array with unique values.</p> <p>The expression is formatted as follows:
 
