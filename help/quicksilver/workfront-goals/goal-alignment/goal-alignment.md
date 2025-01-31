@@ -22,7 +22,7 @@ exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
 >     Or    
 >        
 >   * An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. 
->       For more information, see [Adobe Workfront pricing and packaging](https://www.workfront.com/plans).   
+>      
 >      
 >* For the current plan and license structure:     
 >    
