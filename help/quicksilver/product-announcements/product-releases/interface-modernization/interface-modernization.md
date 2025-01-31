@@ -18,6 +18,16 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Administration and Setup
 
+### Interface update for the Approvals area in the Setup > Groups 
+
+**Preview release: January 30, 2025; Production release: To be announced**
+
+We have updated the Project, Task, and Issue Approvals lists in Setup > Groups > Approvals with a more modern design that is consistent with other areas of Workfront.
+
+To view this change, go to Setup > Groups > Approvals. 
+
+This update includes visual changes to the area. No functionality has changed.
+
 ### Interface update for the Proof Roles page in Setup
 
 **Preview release: January 23, 2025; Production release: To be announced**
@@ -104,7 +114,28 @@ This update includes visual changes to the area. No functionality has changed.
 
 To view this change, go to Teams > choose a team > Iterations.
 
+### Add Stories and Issues from Backlog
+
+**Preview release: January 30, 2025; Production release: To be announced**
+
+We have updated the Add story and Add issue dialog box with a more modern design that is consistent with other areas of Workfront. 
+
+This update includes visual changes to the area. No functionality has changed.
+
+To view this change, go to Teams > choose a team > Backlog, then click **New story** or **New issue**.
+
 ## Reports and Dashboards
+
+### Updated Team report with new styling
+
+**Preview release: January 30, 2025; Production release: To be announced**
+
+We have updated the Team report with a more modern design that is consistent with other areas of Workfront.
+
+This update includes visual changes to the report. No functionality has changed.
+
+To create an Team report, go to Reports > New Report > Team.
+
 
 ### Updated email reports with new styling
 
