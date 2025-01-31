@@ -17,7 +17,8 @@ exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
 
 ## Logging In
 
-1. Go to [the login page](https://app.proofhq.com/login). 
+
+1. Go to [the login page](https://app.proofhq.com/login).
 
 1. Click the [!UICONTROL login] button at the top right.
 1. Enter your email address and password.\
@@ -39,6 +40,7 @@ For [!UICONTROL Enterprise] and [!UICONTROL Unlimited] plans, we offer Single Si
 ## When You Forget Your Password {#when-you-forget-your-password}
 
 If you forget your password, you can have [!DNL Workfront Proof] email you a reset email message.
+
 
 1. Go to [the login page](https://app.proofhq.com/login).
 
