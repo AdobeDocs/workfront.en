@@ -77,7 +77,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
             </ul>
         </td>
     </tr>
-    <!--<tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
             Look-and-feel updates during the Second Quarter 2025 timeframe</a></p>
@@ -90,7 +90,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
                 <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
             </ul>
         </td>
-    </tr>-->
+    </tr>
 </tbody>
 </table>   
 
