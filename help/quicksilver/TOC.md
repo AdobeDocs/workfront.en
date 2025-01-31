@@ -14,8 +14,8 @@ feature-set: Workfront
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 2025 Q2 Release {#release-25-q2}
-      * [2025 Q2 Release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
-      * [Other enhancements during the Second Quarter 2025 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
+      * [2025 Q2 Release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)<!--* [2025 Q2 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)-->
+      * [Other enhancements during the Second Quarter 2025 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)<!--* [Look-and-feel updates during the 2025 Q2 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)-->
     * 2025 Q1 Release {#release-25-q1}
       * [2025 Q1 Release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
       * [2025 Q1 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)
@@ -1532,7 +1532,7 @@ feature-set: Workfront
       * [Create financial data reports with unique exchange rates](reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)
       * [Edit report settings](reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)
       * [Change the owner of a report](reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
-      * [Report on the Updates area](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
+      * [Report on the Updates area with a Journal Entry report](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
       * [Create a User Delegation report](reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
     * Calculated custom data in reports {#calculated-custom-data}
       * [Calculated custom data in reports](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)

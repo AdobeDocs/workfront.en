@@ -134,13 +134,21 @@ You can personalize a record by adding a cover image at the top of the record pr
     
     The record's preview opens in the view.
 
+    <!--<div class="preview">
+
     ![](assets/details-box.png) 
+
+    </div>-->
 
 1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 
     The record page opens. 
 
+    <!--<div class="preview">
+
     ![](assets/details-page.png)
+
+    </div>-->
 
 1. In the record preview or details page, hover over the space above the record name, then click **Add cover**.
     
