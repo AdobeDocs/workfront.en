@@ -4,6 +4,7 @@ description: Second Quarter 2025 Administrator enhancements
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 99caa38d-cf0a-4986-b0fe-976cb3b29c58
 ---
 # Second Quarter 2025 Administrator enhancements
 
