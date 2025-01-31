@@ -32,7 +32,7 @@ You must ensure that all the following conditions are met before you can access 
 
     * For the current Workfront plans, your organization must have both of the following: 
 
-      * Your organization must purchase a [!DNL Workfront] [!UICONTROL Business] or higher [!DNL Workfront] plan. For information about the [!DNL Workfront] plans, see [Workfront Plans](https://www.workfront.com/plans).
+      * Your organization must purchase a [!DNL Workfront] [!UICONTROL Business] or higher [!DNL Workfront] plan. 
       
       * Your organization must purchase a [!DNL Workfront Scenario Planner] license, in addition to a [!DNL Workfront] license. Contact your [!DNL Workfront] Account Representative to learn about [!DNL Workfront Scenario Planner] licenses. 
 

@@ -17,7 +17,7 @@ Your organization must have the following to use the functionality described in 
     
     Or
     
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. For information, see [Adobe Workfront plan](https://www.workfront.com/plans). 
+    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. 
 
 * For the current plan and license structure: 
 
