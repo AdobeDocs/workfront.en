@@ -4,6 +4,7 @@ description: Look-and-feel updates during the Second Quarter 2025 release time f
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
 ---
 # Look-and-feel updates during the Second Quarter 2025 release timeframe
 
