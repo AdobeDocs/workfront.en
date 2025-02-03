@@ -178,5 +178,3 @@ You can choose which columns appear in the widget worklist:
 * **Proof approvals**: [!UICONTROL Proof deadline]
 
 
-
-
