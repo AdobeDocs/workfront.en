@@ -104,6 +104,17 @@ This update includes visual changes to the area. No functionality has changed.
 
 ## Agile
 
+## Interface update for the Teams > Backlog area
+
+**Preview release: January 23, 2025; Production release: Starting the week of February 13, 2025**
+
+We have updated the Teams > Backlog area with a more modern design that is consistent with other areas of Workfront.
+
+This update includes the following changes:
+
+* Visual enhancements to the Stories and Issues tab as well as the Breakdown Story dialog box
+* A new dialog box for the Plan Iteration tool
+
 ### Interface update for the Iterations list
 
 **Preview release: January 23, 2025; Production release: To be announced**
