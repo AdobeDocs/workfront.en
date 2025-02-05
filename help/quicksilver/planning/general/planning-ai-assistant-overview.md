@@ -39,6 +39,8 @@ The user's commands and the AI's execution of those commands work together to en
 
 * You can use commands to undo your actions. For example, you can type "Undo last change" to revert your change. 
 
+* When creating, updating, or deleting an object through AI Assistant, AI Assistant displays the intended actions and asks for confirmation. You can then confirm or cancel the actions.
+
 ## Functionality currently available for the AI Assistant
 
 Currently, the AI Assistant is available in the Planning area of Workfront for the following pages:
