@@ -55,7 +55,7 @@ You can use the AI Assistant to perform the following actions, at this time:
 * Create records. An ID with a link to the new record displays after the record is created. You can specify the fields you want to update during the creation process, like dates or description. 
 * Create records based on a document that you upload. Workfront supports the following document formats for the AI Assistant:
 
-    .pptx, .pdf, .docx, .xlsx, .ppt, .doc, .txt, and most image formats
+    PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT, and most image formats
 * Update fields for the records you see on the screen
 * Delete records
 * Restore records that you just deleted
