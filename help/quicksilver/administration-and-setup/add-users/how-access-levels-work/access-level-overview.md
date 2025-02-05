@@ -111,7 +111,6 @@ Attached to the Light license, this access level is designed for users who:
 * View dashboards and reports
 * Track time and approve timesheets
 * Create and manage issues
-* Make updates on work
 
 Users with the Light access level:
 
