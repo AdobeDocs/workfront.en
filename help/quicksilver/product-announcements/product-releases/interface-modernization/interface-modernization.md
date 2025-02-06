@@ -135,7 +135,7 @@ This update includes the following changes:
 
 ### Interface update for the Iterations list
 
-**Preview release: January 23, 2025; Production release: To be announced**
+**Preview release: January 23, 2025; Production release: Starting the week of February 3, 2025**
 
 We have updated the Teams > Iterations list with a more modern design that is consistent with other areas of Workfront.
 

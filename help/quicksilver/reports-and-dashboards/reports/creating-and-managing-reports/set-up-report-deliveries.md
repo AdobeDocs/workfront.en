@@ -37,11 +37,11 @@ Consider the following when scheduling reports for delivery:
 
 There are several size limits that affect how reports display in Workfront and how they export through a manual export, a delivered report, or through the API:
 
-* **5MB file size:** File size limit for any exported report scheduled for delivery. If an exported file attached to an email is larger than 5MB, a link where the file can be downloaded is emailed instead of the attached exported report. 
+* **10MB file size:** File size limit for any exported report scheduled for delivery. If an exported file attached to an email is larger than 5MB, a link where the file can be downloaded is emailed instead of the attached exported report. 
 
   >[!NOTE]
   >
-  >Excel .xlsx files larger than 5MB do not generate an email. You can manually export the report to this format. For information about exporting reports, see [Export data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >Excel .xlsx files larger than 10MB do not generate an email. You can manually export the report to this format. For information about exporting reports, see [Export data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * **50,000 rows:** The number of rows of data allowed in a report export for .pdf and Tab Delimited files.
 
