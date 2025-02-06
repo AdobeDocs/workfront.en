@@ -4,6 +4,7 @@ description: Look-and-feel updates during the Second Quarter 2025 release time f
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
 ---
 # Look-and-feel updates during the Second Quarter 2025 release timeframe
 
@@ -11,7 +12,7 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the Second Quarter 2025 release, see [Second Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
-## New look and feel for the Share dialog 
+<!--## New look and feel for the Share dialog 
 
 >[!NOTE]
 >
@@ -20,4 +21,4 @@ For a list of all changes available with the Second Quarter 2025 release, see [S
 We have updated the look and feel of the Share dialog modern design that is consistent with other areas of Workfront. There are slight visual differences including:
 
 * The "Visible system-wide" option now displays "Everyone in the system can view". This option still functions as it did previously. 
-* There is a new icon to access advanced share settings.
+* There is a new icon to access advanced share settings.-->

@@ -7,7 +7,6 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
 ---
-<!--check the workfront.com/plans article linked below to see if there is content in there about Planning - after August 28, 2024-->
 
 # Adobe Workfront Planning object limitations overview
 
@@ -44,7 +43,7 @@ The following table shows the limits for how many objects you can create in Work
 
 *We recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.
 
-For information about Workfront Planning pricing and packaging, see [Adobe Workfront pricing and packaging](https://business.adobe.com/products/workfront/pricing.html). 
+For information about Workfront Planning pricing and packaging, contact your account manager.
 
 <!--
 ****************KEEP THIS COMMENTED OUT:
