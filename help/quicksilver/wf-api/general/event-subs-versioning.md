@@ -176,32 +176,75 @@ The following changes have been made for Event Subscriptions Version 2
      <li><code>securityRootID</code></li>
     </ul> 
    </td> 
-   <td></td> 
-   <td></td> 
+   <td>When this object was deleted, the <code>DELETE</code> event incorrectly showed the affected fields as <code>null</code> in the before state. </td> 
+   <td>The <code>DELETE</code> event correctly shows the affected fields in the before state.</td> 
+   <td>None. The <code>DELETE</code> event is still sent, but now shows correct data for the affected fields. </td> 
+  </tr> 
+  <tr> 
+   <th rowspan="2">OPTASK</th> 
+  <td>
+    <ul>
+     <li><code>rootGroupID</code></li>
+    </ul> 
+   </td> 
+   <td>When any parameter value was updated on this object, the <code>UPDATE</code> event incorrectly showed the affected field change from <code>null</code> to <code>ID value</code>. </td> 
+   <td>All <code>UPDATE</code> events show the correct value for the affected field.</td> 
+   <td>None. If you have a filter on the affected field, you receive an <code>UPDATE</code> event only if that field has actually changed, not if any other parameter value has changed.
+</td> 
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>resolveProjectID</code></li>
+     <li><code>resolveTaskID</code></li>
+     <li><code>resolvingObjID</code></li>
+    </ul> 
+   </td> 
+   <td>When this object was updated, the <code>UPDATE</code> event sometimes incorrectly showed the affected fields change from <code>null</code> to <code>ID value</code>.</td> 
+   <td>All <code>UPDATE</code> events will show the correct value for the affected fields.    </td> 
    <td></td> 
   </tr> 
   <tr> 
-   <th rowspan="1">ASSGN</th> 
+   <th rowspan="2">PROJ</th> 
   <td>
     <ul>
-     <li><code>groups</code></li>
+     <li><code>rootGroupID</code></li>
     </ul> 
-   </td> 
-   <td></td> 
-   <td></td> 
-   <td></td> 
+   <td>When any parameter value was updated on this object, the <code>UPDATE</code> event incorrectly showed the affected field change from <code>null</code> to <code>ID value</code>. </td> 
+   <td>When any parameter value was updated on this object, the <code>UPDATE</code> event incorrectly showed the affected field change from <code>null</code> to <code>ID value</code>. </td> 
+   <td>All <code>UPDATE</code> events show the correct value for the affected field.</td> 
+   <td>None. If you have a filter on the affected field, you receive an <code>UPDATE</code> event only if that field has actually changed, not if any other parameter value has changed.
   </tr> 
   <tr> 
-   <th rowspan="1">ASSGN</th> 
   <td>
     <ul>
-     <li><code>groups</code></li>
+     <li><code>convertedOpTaskID</code></li>
     </ul> 
    </td> 
-   <td></td> 
-   <td></td> 
-   <td></td> 
+   <td>When this object was updated, the <code>UPDATE</code> event sometimes incorrectly showed the affected fields change from <code>null</code> to <code>ID value</code>.</td> 
+   <td>All <code>UPDATE</code> events show the correct value for the affected field.</td> 
+   <td>None. If you have a filter on the affected field, you receive an <code>UPDATE</code> event only if that field has actually changed, not if any other parameter value has changed.
   </tr> 
+  <tr> 
+   <th rowspan="2">TASK</th> 
+  <td>
+    <ul>
+     <li><code>rootGroupID</code></li>
+    </ul> 
+   </td> 
+   <td>When any parameter value was updated on this object, the <code>UPDATE</code> event incorrectly showed the affected field change from <code>null</code> to <code>ID value</code>. </td> 
+   <td>All <code>UPDATE</code> events show the correct value for the affected field.</td> 
+   <td>None. If you have a filter on the affected field, you receive an <code>UPDATE</code> event only if that field has actually changed, not if any other parameter value has changed.
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>convertedOpTaskID</code></li>
+    </ul> 
+   </td> 
+   <td>When this object was updated, the <code>UPDATE</code> event sometimes incorrectly showed the affected fields change from <code>null</code> to <code>ID value</code>.</td> 
+   <td>All <code>UPDATE</code> events show the correct value for the affected field.</td> 
+   <td>None. If you have a filter on the affected field, you receive an <code>UPDATE</code> event only if that field has actually changed, not if any other parameter value has changed.
  </tbody> 
 </table>
 
