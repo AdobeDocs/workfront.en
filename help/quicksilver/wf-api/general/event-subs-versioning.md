@@ -12,6 +12,10 @@ Event Subscription Versioning
 
 Workfront has two versions of Event Subscriptions. This article describes the differences between them, as well as the process for upgrading or downgrading your event subscription versions.
 
+This is not a change to the Workfront API, but rather a change to the Event Subscription functionality. 
+
+The ability to upgrade or downgrade Event Subscriptions ensures that when changes are made to the structure of events, existing subscriptions do not break, allowing you to test and upgrade to the new version without a gap in your Event Subscription.
+
 >[!IMPORTANT]
 >
 >The following releases will affect event subscription versioning:
@@ -116,17 +120,6 @@ The following changes have been made for Event Subscriptions Version 2
    <th rowspan="1">DOCV</th> 
   <td>
     <ul>
-     <li><code>groups</code></li>
-    </ul> 
-   </td> 
-   <td></td> 
-   <td></td> 
-   <td></td> 
-  </tr> 
-  <tr> 
-   <th rowspan="1">ASSGN</th> 
-  <td>
-    <ul>
      <li><code>proofDecision</code></li>
      <li><code>proofName</code></li>
      <li><code>proofProgress</code></li>
@@ -211,7 +204,6 @@ The following changes have been made for Event Subscriptions Version 2
      <li><code>rootGroupID</code></li>
     </ul> 
    <td>When any parameter value was updated on this object, the <code>UPDATE</code> event incorrectly showed the affected field change from <code>null</code> to <code>ID value</code>. </td> 
-   <td>When any parameter value was updated on this object, the <code>UPDATE</code> event incorrectly showed the affected field change from <code>null</code> to <code>ID value</code>. </td> 
    <td>All <code>UPDATE</code> events show the correct value for the affected field.</td> 
    <td>None. If you have a filter on the affected field, you receive an <code>UPDATE</code> event only if that field has actually changed, not if any other parameter value has changed.
   </tr> 
@@ -247,9 +239,3 @@ The following changes have been made for Event Subscriptions Version 2
    <td>None. If you have a filter on the affected field, you receive an <code>UPDATE</code> event only if that field has actually changed, not if any other parameter value has changed.
  </tbody> 
 </table>
-
-
-You can upgrade version 1 event subscriptions to version 2, and temporarily downgrade version 2 event subscriptions to version 1. 
-
-
-
