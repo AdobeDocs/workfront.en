@@ -18,6 +18,14 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Administration and Setup
 
+### Interface update for approval process settings in Setup
+
+**Preview release: February 6, 2025; Production release: To be announced**
+
+We have updated the Approval settings dialog box with a more modern design that is consistent with other areas of Workfront.
+
+To view the settings, go to Setup > Preferences > Approvals > Select the settings icon at the top of the page.
+
 ### Interface update for the Proof Roles page in Setup
 
 **Preview release: January 23, 2025; Production release: To be announced**
