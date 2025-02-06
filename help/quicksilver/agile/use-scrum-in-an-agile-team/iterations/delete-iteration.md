@@ -51,4 +51,4 @@ For more detail about the information in this table, see [Access requirements in
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 
 1. In the left panel, select **[!UICONTROL Iterations]**.
-1. Select the iteration that you want to delete, then click **[!UICONTROL Delete]**.
+1. Select the iteration that you want to delete, then click the [!UICONTROL **Delete**] icon ![Delete icon](assets/delete-icon.png).
