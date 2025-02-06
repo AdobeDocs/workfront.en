@@ -104,7 +104,7 @@ This update includes visual changes to the area. No functionality has changed.
 
 ## Agile
 
-## Interface update for the Teams > Backlog area
+### Interface update for the Teams > Backlog area
 
 **Preview release: January 23, 2025; Production release: Starting the week of February 13, 2025**
 
@@ -117,7 +117,7 @@ This update includes the following changes:
 
 ### Interface update for the Iterations list
 
-**Preview release: January 23, 2025; Production release: To be announced**
+**Preview release: January 23, 2025; Production release: Starting the week of February 3, 2025**
 
 We have updated the Teams > Iterations list with a more modern design that is consistent with other areas of Workfront.
 
