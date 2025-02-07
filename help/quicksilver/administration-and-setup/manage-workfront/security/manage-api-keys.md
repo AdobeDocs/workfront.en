@@ -101,7 +101,7 @@ You can generate and manage API Keys for users in roles other than Workfront adm
    1. Expand **System**, then click **Single Sign-on (SSO)**. 
    1. In the **Type** field, select the type of SSO your organization uses.
    1. With the type selected, scroll down and clear the **Enable** checkbox. 
-      ![](assets/sysadmin-security-sso-disable-31620-350x320.png)  
+      ![Enable SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)  
    1. Click **Save**.
 
 
@@ -181,7 +181,7 @@ Obtain a valid X.509 certificate from a trusted Certificate Authority (such as V
 
 After you have obtained the X.509 certificate from your Certificate Authority, you need to upload it to Workfront.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).  
 
 1. Expand **System**, then click **Customer Info**.
 
