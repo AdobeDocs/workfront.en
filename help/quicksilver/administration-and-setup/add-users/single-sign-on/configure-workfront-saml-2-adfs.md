@@ -145,7 +145,7 @@ To enable authentication to the Workfront web application and the Workfront mobi
 
 1. Click **Test Connection**. If set up correctly, you should see a page similar to the one shown below:
 
-   ![](assets/success-saml-2.png)
+   ![SAML 2 success message](assets/success-saml-2.png)
 
    >[!NOTE]
    >

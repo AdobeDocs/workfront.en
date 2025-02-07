@@ -76,13 +76,13 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![Groups icon](assets/groups-icon.png).
 
 1. Click the name of the group for which you want to configure unlocked task and issue preferences.
 1. On the page that displays for the group, in the left panel, click **Task & Issue Preferences**.
 1. On the page that appears, continue with one of the 5 sections listed below these steps to configure settings for the areas New Task Defaults, Issues, Deletion, Actual Dates, and Access, then click **Save**.
 
-   If you hover over the lock icon ![](assets/lock-toggle-button-dimmed.png) for a preference that you need to configure and a tool tip displays to tell you that is locked, you can ask your Workfront administrator to unlock it for all groups in the organization.
+   If you hover over the lock icon ![Lock icon](assets/lock-toggle-button-dimmed.png) for a preference that you need to configure and a tool tip displays to tell you that is locked, you can ask your Workfront administrator to unlock it for all groups in the organization.
 
    When it is unlocked, you and other group administrators can configure it separately for your own groups. Also, you can lock it for your group and any subgroups below your group.
 

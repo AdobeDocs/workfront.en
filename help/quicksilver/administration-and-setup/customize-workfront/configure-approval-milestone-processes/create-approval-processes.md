@@ -76,10 +76,10 @@ For more detail about the information in this table, see [Access requirements in
 
    Or
 
-   If you are creating a group-level approval process, click **Groups** ![](assets/groups-icon.png), click the name of the group, then click **Approvals**.
+   If you are creating a group-level approval process, click **Groups** ![Groups icon](assets/groups-icon.png), click the name of the group, then click **Approvals**.
 
    <!--hidden for the new tab redesign - August 2023: 
-   ![](assets/approvals-area-in-setup-processes.png)
+   ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 
 1. Choose either the **Project Approvals**, **Task Approvals**, or **Issue Approvals** tab.

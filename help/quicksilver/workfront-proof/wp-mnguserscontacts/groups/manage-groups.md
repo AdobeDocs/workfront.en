@@ -35,10 +35,10 @@ As a [!DNL Workfront Proof] administrator, you can manage your public and privat
       * Private Groups are visible only to their creators.
       * Delete the selected Groups.
 
-         ![](assets/trash-button.png)
+         ![Delete icon](assets/trash-button.png)
    * You can perform actions on Groups also on each Group separately from their own **[!UICONTROL More]** (three dot) menu:
 
-      ![](assets/more-button-small.png)
+      ![More menu](assets/more-button-small.png)
 
       * View Group details.
 
@@ -96,7 +96,7 @@ You can Sort Groups by Group name, privacy status, and description.
 
 1. Select the check boxes next to the name or names of the contacts you want to add to a group.
 1. Click the **[!UICONTROL Add to group]** button.
-   ![](assets/screenshot-2018-04-06-15-27-17.png)
+   ![Add to group](assets/screenshot-2018-04-06-15-27-17.png)
    The **[!UICONTROL Add to group]** dialogue box appears.
 
 1. In the **[!UICONTROL People]** section:

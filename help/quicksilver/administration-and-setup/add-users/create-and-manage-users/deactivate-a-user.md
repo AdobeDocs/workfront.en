@@ -92,7 +92,7 @@ To deactivate a user:
 
 {{step-1-to-users}}
 
-1. Select a user, click the **More** icon ![](assets/more-icon.png), then click **Deactivate**.
+1. Select a user, click the **More** icon ![More icon](assets/more-icon.png), then click **Deactivate**.
 
 1. Click **Deactivate** in the box that appears.
 
@@ -112,7 +112,7 @@ To schedule a user for deactivation:
 
    (Optional) Select multiple users to schedule them for deactivation in bulk.
 
-1. Click the Edit icon ![](assets/edit-icon.png).
+1. Click the Edit icon ![Edit icon](assets/edit-icon.png).
 1. In the Edit User box that displays, click **Resource Planning** to go to that area.
 1. Enable the **Schedule Deactivation** option.  
 
@@ -133,7 +133,7 @@ We recommend that you build a report for users that you have scheduled for deact
 
 {{step-1-to-users}}
 
-1. Select a user, click the More icon ![](assets/more-icon.png), then click **Activate**.
+1. Select a user, click the More icon ![More icon](assets/more-icon.png), then click **Activate**.
 
 1. Assign a new **Access level**in the drop-down menu, then click **Reactivate**.
 <!--

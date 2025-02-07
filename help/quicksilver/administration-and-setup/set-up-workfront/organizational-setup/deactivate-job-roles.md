@@ -108,7 +108,7 @@ We recommend that you do the following before deactivating an unused job role:
 1. Click the name of the job role that you want to deactivate.
 1. In the **[!UICONTROL Is Active]** drop-down menu, select **[!UICONTROL No]**.
 
-   ![](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![Deactivate job role](assets/deactivate-job-role-edit-role-box-nwe.png)
 
 1. Click **[!UICONTROL Save Changes]**.
 

@@ -44,7 +44,7 @@ You must have the following to perform the steps in this article:
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png).
 
 1. Click the name of the group for which you want to create or modify companies.
 1. In the left panel, click **Companies** to list the companies associated with the group and any subgroups it may have.
@@ -80,8 +80,8 @@ You must have the following to perform the steps in this article:
    >
    >If you have administrative access to companies in your access level, you can also click Add More Companies at the bottom of the list. This adds a row where you can quickly configure the new company.
 
-1. (Optional) To edit or delete companies, select at least one company, then use the toolbar buttons to edit ![](assets/edit-icon.png) or delete ![](assets/delete.png) it.
+1. (Optional) To edit or delete companies, select at least one company, then use the toolbar buttons to edit ![Edit icon](assets/edit-icon.png) or delete ![Delete icon](assets/delete.png) it.
 
    For information about editing a company, see the section [Create or edit a company in Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) in the article [Create and edit companies](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-1. (Optional) To export the list of companies, click the Export icon ![](assets/export.png), then select the file format you want for the exported list.
+1. (Optional) To export the list of companies, click the Export icon ![Export icon](assets/export.png), then select the file format you want for the exported list.

@@ -15,7 +15,7 @@ As a Workfront administrator, you can change the order of project, task, and iss
 
 <!--The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.-->
 
-![](assets/statuses.png)
+![Statuses](assets/statuses.png)
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ By default, statuses display in the following order:
 1. In the left panel, click **Project Preferences > Statuses**.
 1. (Conditional) If you are reordering statuses for a group, start typing the name of the group in the box in the upper-right corner, then click the name when it appears.
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![System statuses](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. Above the Statuses list that displays, click the **Projects** or **Tasks** tab.
 
@@ -131,12 +131,12 @@ By default, statuses display in the following order:
 
 ## Reorder statuses for issues
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
 
 1. Click **Project Preferences > Statuses.**
 1. (Conditional) If you are reordering statuses for a group, start typing the name of the group in the box in the upper-right corner, then click the name when it appears.
 
-   ![](assets/issue-statuses-group-name.png)
+   ![Issue status for group](assets/issue-statuses-group-name.png)
 
 1. Click the **Issues** tab.
 1. (Optional) Select an issue type (**Bug Report**, **Change Order**, **Issue**, or **Request**).

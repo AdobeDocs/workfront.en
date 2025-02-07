@@ -76,7 +76,7 @@ If you are a group administrator, see [Set a status as a default status for a gr
 
 If the custom status is an Issue status, all four issue types must be enabled for it (Bug Report, Change Order, Issue, and Request). For example, in the issue status shown below, the status Reopened cannot be used as a default status because the Change Order issue type is not selected:
 
-![](assets/all-4-issue-types-enabled.png)
+![All issue types enabled](assets/all-4-issue-types-enabled.png)
 
 ## Set a custom status as a default status
 
@@ -95,6 +95,6 @@ If the custom status is an Issue status, all four issue types must be enabled fo
    >If you are setting the custom status for a group, and you later assign the project to a different group, the project status will reload and could change.
 
    1. Go to the project where you want to use the custom status.
-   1. Click the More menu ![](assets/more-icon.png), then click **Edit**.  
+   1. Click the More menu ![More icon](assets/more-icon.png), then click **Edit**.  
    1. In the **Edit Project** box that displays, in the **Group** field under **Project association**, select the group where the status resides.
    1. Click **Save Changes**.

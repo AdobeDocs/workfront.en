@@ -62,16 +62,16 @@ To log time using the Workfront plugin:
 
 1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Return to Work List](assets/go-back-to-work-list-350x314.png)
 
 1. From the **[!UICONTROL Work List]**, select the work item you need to log time to.
 1. Click **[!UICONTROL Time]** in the navigation bar.
 
-   ![](assets/log-time-350x337.png)
+   ![Log time](assets/log-time-350x337.png)
 
 1. (Optional) Choose the **[!UICONTROL Hour Type]** from the drop-down menu.
 1. Enter the time in hours for the day you need.
 
-   ![](assets/copy-of-log-hours-350x236.png)
+   ![Log hours](assets/copy-of-log-hours-350x236.png)
 
 1. Click **[!UICONTROL Submit]**.

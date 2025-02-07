@@ -21,7 +21,7 @@ Enhanced analytics can help you identify:
 * How often users complete specific actions during a project
 * The progress of projects, as well as the individual tasks within a project
 
-![](assets/nwe-full-screen-analytics-350x222.png)
+![Analytics](assets/nwe-full-screen-analytics-350x222.png)
 
 To see use cases or learn more about managing current work and planning for future work with Enhanced analytics, see [Enhanced analytics Learning Paths](https://one.workfront.com/s/enhanced-analytics-program).
 

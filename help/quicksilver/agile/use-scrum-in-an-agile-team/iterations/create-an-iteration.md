@@ -42,18 +42,19 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Add an iteration
 
-Use the [!UICONTROL Add Iteration] feature to quickly create an iteration and add tasks and issues later.
+You can add an iteration in the list to quickly create an iteration, and add tasks and issues to it later.
 
 {{step1-to-team}}
 
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 
-1. On the **[!UICONTROL Iterations]** tab, click **[!UICONTROL Add Iteration]**.
-   ![](assets/add-iteration-adobe-350x275.png)
+1. On the **[!UICONTROL Iterations]** tab, click **[!UICONTROL Add iteration]**.
+   
+   ![Click Add iteration](assets/click-add-iteration.png)
 
 1. Specify the following:
 
-   <table style="table-layout:auto"> 
+   <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
@@ -84,7 +85,7 @@ Use the [!UICONTROL Add Iteration] feature to quickly create an iteration and ad
     </tbody> 
    </table>
 
-1. Click **[!UICONTROL Submit]**. Now that you've created an iteration, you need to add stories. For more information, see [Add stories to an existing iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+1. Click **[!UICONTROL Add iteration]**. Now that you've created an iteration, you need to add stories. For more information, see [Add stories to an existing iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Plan an iteration on the [!UICONTROL Backlog] tab
 

@@ -60,7 +60,7 @@ For more detail about the information in this table, see [Access requirements in
 
    To edit an existing condition, hover over the condition you want to edit, then click the **Edit** icon that appears to the far right.
 
-   ![](assets/custom-condition-edit-nwe.jpg)
+   ![Custom condition](assets/custom-condition-edit-nwe.jpg)
 
 1. Configure your custom condition using the following options:
 
@@ -104,21 +104,21 @@ For more detail about the information in this table, see [Access requirements in
    >
    >You can standardize condition terminology and colors across all three object types. To do this, copy the condition Name and the Color hex code from one tab (Project, Task, Issue) to the corresponding condition on the other two tabs.
 
-1. (Optional) Drag ![](assets/move-icon---dots.png) any condition to a new position to re-order the list.
+1. (Optional) Drag ![Move icon](assets/move-icon---dots.png) any condition to a new position to re-order the list.
 
    This changes the order in which conditions display in projects, tasks and issues:
 
    * When a user is editing a project
 
-     ![](assets/change-condition-edit-project.png)
+     ![Change condition when editing project](assets/change-condition-edit-project.png)
 
    * When a user is changing the condition for a task or issue on the Updates tab:
 
-     ![](assets/change-condition-update-comment.png)
+     ![Change condition when updating comment](assets/change-condition-update-comment.png)
 
    * When a user is changing the condition for a task or issue in a list view:
 
-     ![](assets/change-conditions-list-dropdown-only.png)
+     ![Change condition in list](assets/change-conditions-list-dropdown-only.png)
 
 1. Click **Save**.
 

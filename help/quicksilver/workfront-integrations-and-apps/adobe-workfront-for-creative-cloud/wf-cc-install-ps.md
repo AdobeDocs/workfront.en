@@ -82,7 +82,7 @@ You can install the [!DNL Adobe Workfront for Photoshop] plugin for yourself fro
 
 1. In the top menu, click **[!UICONTROL Plugins]** > **[!UICONTROL Plugins Panel]**.
 
-   ![](assets/plugins-panel-ps.png)
+   ![Plugins panel](assets/plugins-panel-ps.png)
 
 1. In the **[!UICONTROL Plugins Panel]**, choose the **[!UICONTROL Plugins]** tab and find **[!UICONTROL Workfront for Adobe Photoshop]**.
 
@@ -101,7 +101,7 @@ You can install the [!DNL Adobe Workfront for Photoshop] plugin for yourself fro
    >[!TIP]
    >
    >* To find your domain, open a browser, navigate to your [!DNL Workfront] instance, and copy the first part of the URL:  
-   >![](assets/domain-350x50.png)   
+   >![Locate domain](assets/domain-350x50.png)   
    >
    > * If your Workfront instance is integrated with Experience Cloud, ask your admin to provide you with the Workfront domain found under Product > Workfront in the Admin Console.
 

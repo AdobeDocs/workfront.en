@@ -203,7 +203,7 @@ As a Workfront Proof administrator, you can modify an Automated Workflow templat
     </tbody> 
    </table>
 
-1. In the **Workflow** section, change the name of any stage and expand it's settings ![](assets/arrow-button.png) to make any needed changes:
+1. In the **Workflow** section, change the name of any stage and expand it's settings ![Expand button](assets/arrow-button.png) to make any needed changes:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -250,7 +250,7 @@ As a Workfront Proof administrator, you can modify an Automated Workflow templat
 
    If you don't need to see the diagram, you can click **Hide Diagram**.
 
-1. In the **Shared with** section, if you want to delete a user, click the More ![](assets/more-icon.png) button to the right, then click **Remove**.
+1. In the **Shared with** section, if you want to delete a user, click the More ![More icon](assets/more-icon.png) button to the right, then click **Remove**.
 
 ## Create Automated Workflow template groups {#create-automated-workflow-template-groups}
 

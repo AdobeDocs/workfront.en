@@ -91,9 +91,9 @@ To enable Frame.io users:
 
 {{step-1-to-users}}
 
-1. Select one or more users, then click the **Edit** icon ![](assets/edit-icon.png). 
+1. Select one or more users, then click the **Edit** icon ![Edit icon](assets/edit-icon.png). 
 1. In the Access section, enable the Add to projects in Frame.io checkbox, then select **Yes** in the drop-down menu. 
-    ![](assets/add-to-frame-project.png)
+    ![Add to Frame project](assets/add-to-frame-project.png)
 
     >[!NOTE]
     >

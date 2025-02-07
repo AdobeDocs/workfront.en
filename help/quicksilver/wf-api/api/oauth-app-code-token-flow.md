@@ -79,7 +79,7 @@ The third-party application may require configuration. The following table conta
 
 ## Set up Authorization Code Flow
 
-![](assets/oauth-2-authorization-code-flow.png)
+![OAuth code flow](assets/oauth-2-authorization-code-flow.png)
 
 To log your users in with OAuth2, use the following process:
 
@@ -87,7 +87,7 @@ To log your users in with OAuth2, use the following process:
 
    If user is already logged in to Workfront on that same browser, or the user successfully logs into Workfront, the user is redirected to the consent screen:
 
-   ![](assets/consent-screen-350x227.png)
+   ![Consent screen](assets/consent-screen-350x227.png)
 
 1. If the user Allows the access, the page is redirected to the `redirect_url`. The redirect must include the following query parameters:
 
@@ -166,7 +166,7 @@ To log your users in with OAuth2, use the following process:
 
 ## Set Up Refresh Access Token
 
-![](assets/refresh-access-token-flow-350x142.png)
+![Refresh access token flow](assets/refresh-access-token-flow-350x142.png)
 
 To refresh the access_token we again need to do a 'POST' call to the token endpoint. This time we send a different form data as follows:
 

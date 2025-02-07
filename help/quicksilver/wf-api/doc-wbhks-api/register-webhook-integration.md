@@ -16,9 +16,7 @@ Adobe Workfront administrators can add a custom webhook integration for their co
 
 To add an integration, click **Add Custom Integration**. 
 
-![](assets/webhooks-integration-350x230.png)  
-
-![](assets/webhooks-integration-2-350x220.png)
+![Add custom integration](assets/webhooks-integration-2-350x220.png)
 
 ## Available Fields
 

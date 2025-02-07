@@ -145,7 +145,7 @@ To create new user by copying an existing one:
 
 {{step-1-to-users}}
 
-1. Select the user that you want to copy, then click the Copy icon ![](assets/copy-icon.png).
+1. Select the user that you want to copy, then click the Copy icon ![Copy icon](assets/copy-icon.png).
 1. In the **Copy User** box that displays, edit the fields available for the new user.
 
    For information about all fields associated with a user, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).

@@ -119,15 +119,15 @@ To configure proof decisions:
       >
       >Retain the logic for a decision when you rename it. For example, the default decision Rejected could be changed to *New version required*, but it should not be changed to *Send to Printers*.
 
-      ![](assets/rename-decision-350x109.png)
+      ![Rename decision](assets/rename-decision-350x109.png)
 
    1. **Rearrange the decision order**: Drag the decision boxes in the order you want them to appear in the proofing viewer.
 
-      ![](assets/move-decision-350x110.png)
+      ![Move decision](assets/move-decision-350x110.png)
 
    1. **Hide a decision**: Hover over the decision box, and click the Hide icon in the upper-right corner.
 
-      ![](assets/hide-decision-350x109.png)
+      ![Hide decision](assets/hide-decision-350x109.png)
 
 1. (Optional) To go back to the Workfront defaults, click **Restore defaults**.
 1. Click **Save**.

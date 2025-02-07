@@ -530,7 +530,7 @@ To enable the commenting experience option for projects, tasks, issues, and docu
 1. (Conditional) If it is disabled, enable the **New commenting** option in the upper-right corner of the Updates area to enable it. This should be enabled by default. 
 <span class="preview">The New commenting option has been removed from the Preview environment.</span> 
 
-    ![](assets/new-commenting-toggle-off-highlighted.png)
+    ![New commenting toggle off](assets/new-commenting-toggle-off-highlighted.png)
 
 1. Start typing an update in the **Comments** tab. The Comments tab is the default tab when the new experience opens
 

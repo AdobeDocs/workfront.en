@@ -66,13 +66,13 @@ When you create a custom status for the entire organization, you can configure i
 
 1. (Conditional) If you are creating or editing a status for use system wide, ensure that **System Statuses** is selected in the box in the upper-right corner.
 
-   ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![System statuses](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
    Or
 
    If the status is for a group or subgroup, start typing the name of the group in the upper-right corner, then select it when it appears.
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![System statuses for group](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. Select the tab of the object type (**Project**, **Tasks**, or **Issues**) that you want to associate with the status.
 
@@ -82,7 +82,7 @@ When you create a custom status for the entire organization, you can configure i
 
    If you are editing an existing status, hover over it, then click the **Edit** icon that displays to the far-right.
 
-   ![](assets/custom-status-edit.png)
+   ![Edit custom status](assets/custom-status-edit.png)
 
 1. Configure the status using the following options:
 

@@ -106,7 +106,7 @@ You can get the Workfront add-in for Outlook from the [Microsoft store](https://
 
 ### [!DNL Workfront] for [!DNL Outlook 365] {#workfront-for-outlook-365}
 
-1. In [!DNL Outlook 365], click the **[!UICONTROL Browse Add-ins]** icon ![](assets/outlook-add-in-26x26.png)at the top of the Office 365 interface, then click **[!UICONTROL Manage add-ins]**.
+1. In [!DNL Outlook 365], click the **[!UICONTROL Browse Add-ins]** icon ![Browse Add-ins](assets/outlook-add-in-26x26.png)at the top of the Office 365 interface, then click **[!UICONTROL Manage add-ins]**.
 
 1. In the **[!UICONTROL Search add-ins]** box, search for **[!DNL Workfront]** then press [!UICONTROL Enter]. 
 
@@ -115,7 +115,7 @@ You can get the Workfront add-in for Outlook from the [Microsoft store](https://
 ### [!DNL Workfront] for [!DNL Outlook] on the Web {#workfront-for-outlook-on-the-web}
 
 1. Open [!DNL Microsoft Outlook] in a web browser.
-1. Click the **[!UICONTROL Browse] add-ins** icon ![](assets/outlook-add-in-web-version-20x20.png).
+1. Click the **[!UICONTROL Browse] add-ins** icon ![Browse add-ins](assets/outlook-add-in-web-version-20x20.png).
 
    To locate the icon, see [Using add-ins in [!DNL Outlook] on the web](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) in the Microsoft documentation.
 
