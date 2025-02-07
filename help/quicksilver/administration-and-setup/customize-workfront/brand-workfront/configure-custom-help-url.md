@@ -13,7 +13,7 @@ exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
 
 If you create a custom internal help site containing information about how your organization uses Workfront, you can configure the Main Menu Help icon to go to that site.
 
- ![](assets/custom-help-button.png)
+ ![Custom help button](assets/custom-help-button.png)
 
 This does not affect the context-sensitive help links throughout Workfront, which take users to the Workfront Help site.
 

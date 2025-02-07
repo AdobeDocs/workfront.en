@@ -92,7 +92,7 @@ You must have the following access to perform the steps in this article:
 
      >[!NOTE]
      >
-     >Only users with a Plan license (in the current license model), or the users with a Standard license (in the new license model) can see the Users area ![](assets/users-icon-in-main-menu.png) in the Main Menu.
+     >Only users with a Plan license (in the current license model), or the users with a Standard license (in the new license model) can see the Users area ![Users icon](assets/users-icon-in-main-menu.png) in the Main Menu.
 
    * Requests
    * Timesheets
@@ -117,9 +117,9 @@ You must have the following access to perform the steps in this article:
 
 1. Do any of the following:
 
-   * Hide ![](assets/remove-icon---x-in-circle.png) **Active items** that you don't want to display
-   * Show ![](assets/add-icon-plus-in-circle.png) **Available items** that you do want to display on the Main Menu.
-   * Drag ![](assets/move-icon---dots.png) **Active items** to change their display order on the Main Menu.
+   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) **Active items** that you don't want to display
+   * Show ![Show icon](assets/add-icon-plus-in-circle.png) **Available items** that you do want to display on the Main Menu.
+   * Drag ![Drag icon](assets/move-icon---dots.png) **Active items** to change their display order on the Main Menu.
 
 1. Click **Done**.
 

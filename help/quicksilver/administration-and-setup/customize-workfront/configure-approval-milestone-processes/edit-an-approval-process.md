@@ -66,7 +66,7 @@ You must have the following:
 
    If you are editing a group-level approval process, do the following:
 
-   1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+   1. In the left panel, click **Groups** ![Groups icon](assets/groups-icon.png).
    1. Click the name of the group for which you want to list or manage group approval processes.
    1. In the left panel, click **Approvals**. You might need to click **Show More** first.
 
@@ -74,7 +74,7 @@ You must have the following:
 
 1. Select the approval process you want to edit, then click **Edit** at the top of the list. The Edit approval process box displays.
 
-   ![](assets/edit-approval-process-global-area-new.png)
+   ![Edit approval process](assets/edit-approval-process-global-area-new.png)
 
 1. Specify the following information in the box that displays:
 

@@ -68,7 +68,7 @@ To perform them for a group, you must be a manager of that group.</p> </td>
 
    Recently added names display with a blue background. This is helpful when you are editing an existing layout template because you can distinguish the names you have just added from those that were already in the list.
 
-   An Info icon ![](assets/info-icon.png) displays to the right of the name of any user, job role, team, or group that is already assigned to another layout template. You can hover over the icon to see the name of that layout template and decide whether you want to override the existing assignment.
+   An Info icon ![Info icon](assets/info-icon.png) displays to the right of the name of any user, job role, team, or group that is already assigned to another layout template. You can hover over the icon to see the name of that layout template and decide whether you want to override the existing assignment.
 
 1. Repeat the two previous steps to assign the layout template to other users, job roles, teams, or groups as needed.
 

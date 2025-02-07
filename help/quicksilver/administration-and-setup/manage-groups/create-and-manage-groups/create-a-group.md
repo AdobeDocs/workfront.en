@@ -63,7 +63,7 @@ You must be a Workfront administrator to create a top-level group.
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png).
 
 1. Above the list of groups, click **New Group**.
 
@@ -135,11 +135,11 @@ To create a new top-level group by copying a group or subgroup:
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![groups](assets/groups-icon.png).
 
    In the list that displays, you can see the groups you manage, along with any subgroups they have. Adobe Workfront administrators can see all groups.
 
-1. Select the group you want to copy, then click the Copy icon ![](assets/copy-icon.png).
+1. Select the group you want to copy, then click the Copy icon ![Copy icon](assets/copy-icon.png).
 1. In the **Copy Group** box that appears, type a **Group Name** for the copied group.  
 
 1. Specify the following information:

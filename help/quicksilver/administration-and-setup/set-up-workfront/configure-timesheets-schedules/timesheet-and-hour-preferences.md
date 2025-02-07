@@ -71,7 +71,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. (Optional) In the **System Timesheets and Hours Preferences** search box, start typing the name of a group, then select it when it displays in the list. 
 
-   ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
+   ![Search for group box](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
    The Timesheet and Hours Preferences page updates with the preferences for the group you selected. System-level preferences must be unlocked to be able to modify group-level preferences. For more information, see the section [Unlock timesheet and hour preferences for groups](#unlock-timesheet-and-hour-preferences-for-groups) in this article. 
 
@@ -206,8 +206,8 @@ To unlock a project preference so that groups can configure it:
 
 1. Do any of the following:
 
-   * If you want group administrators to be able to configure a preference for their groups, click the **unlock** toggle ![](assets/unlock-toggle-button.png) to unlock it .
-   * If you want all groups to use your configuration for a preference, make sure that it is the toggle is locked ![](assets/locked-preference-toggle.png) (this is the default).
+   * If you want group administrators to be able to configure a preference for their groups, click the **unlock** toggle ![Unlock toggle](assets/unlock-toggle-button.png) to unlock it .
+   * If you want all groups to use your configuration for a preference, make sure that it is the toggle is locked ![Locked preference toggle](assets/locked-preference-toggle.png) (this is the default).
 
       >[!IMPORTANT]
       >

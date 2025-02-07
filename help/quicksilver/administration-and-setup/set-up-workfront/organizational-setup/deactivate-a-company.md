@@ -63,7 +63,7 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **[!UICONTROL Companies]** ![](assets/companies-icon-left-panel.png).
+1. In the left panel, click **[!UICONTROL Companies]** ![Companies icon](assets/companies-icon-left-panel.png).
 
 1. Select one or more companies to deactivate or reactivate.
 1. Click **[!UICONTROL Edit]**.

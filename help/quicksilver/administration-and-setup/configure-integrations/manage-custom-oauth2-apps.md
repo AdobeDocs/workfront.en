@@ -71,7 +71,7 @@ For more information, see [Create OAuth2 applications for [!DNL Workfront] integ
 
 1. In the left navigation panel, click **[!UICONTROL System]**, then select **[!UICONTROL OAuth Applications]**.
 1. Click **[!UICONTROL Create app integration]**.
-1. Hover over the application and click **[!UICONTROL Edit]** ![](assets/edit-icon.png) when it appears on the far right.
+1. Hover over the application and click **[!UICONTROL Edit]** ![Edit icon](assets/edit-icon.png) when it appears on the far right.
 1. (Optional) Edit any details of the application.
 
    For fields related to OAuth2 and JWT apps, see [Create OAuth2 applications for [!DNL Workfront] integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md).
@@ -81,7 +81,7 @@ For more information, see [Create OAuth2 applications for [!DNL Workfront] integ
 {{step-1-to-setup}}
 
 1. In the left navigation panel, click **[!UICONTROL System]**, then select **[!UICONTROL OAuth Applications]**.
-1. Hover over the application and click **[!UICONTROL Delete]** ![](assets/delete.png) when it appears on the far right.
+1. Hover over the application and click **[!UICONTROL Delete]** ![Delete](assets/delete.png) when it appears on the far right.
 
 ## Manage Client Secrets in OAuth2 applications
 
@@ -137,4 +137,4 @@ For more information, see [Create OAuth2 applications for [!DNL Workfront] integ
 1. Click **[!UICONTROL Create app integration]**.
 1. Hover over the application and click the **[!UICONTROL Edit]** icon when it appears on the far right.
 1. Locate the Client Secret that you want to delete.
-1. Click the **[!UICONTROL Delete]** icon ![](assets/delete.png) next to the Client Secret.
+1. Click the **[!UICONTROL Delete]** icon ![Delete](assets/delete.png) next to the Client Secret.

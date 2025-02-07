@@ -31,13 +31,13 @@ The [!UICONTROL Updates] area includes the following types of updates:
 
    For more information about configuring user updates, see [Configure preferences for user updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
-   ![](assets/updates-qs-350x125.png)
+   ![Updates](assets/updates-qs-350x125.png)
 
 * **System updates:** Automatically made by the system. A system update includes a brief note describing what kind of change happened to the item. System updates display in the System Activity and the All tabs of the Updates section of an object. 
 
    For more information about system update feeds and how to enable them, see [Configure system updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md). 
 
-   ![](assets/system-updates-example-unified-stream.png)
+   ![System updates example](assets/system-updates-example-unified-stream.png)
 
 
    <!--

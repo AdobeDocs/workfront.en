@@ -57,7 +57,7 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png).
 
    In the list that displays, you can see the groups you manage, along with any subgroups they have. Adobe Workfront administrators can see all groups.
 
@@ -147,9 +147,9 @@ You can make a subgroup a top-level group by removing it from its parent group.
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png).
 
-1. Select the parent group of the group you want to make a top-level group, then click the Edit icon ![](assets/edit-icon.png). 
+1. Select the parent group of the group you want to make a top-level group, then click the Edit icon ![Edit icon](assets/edit-icon.png). 
 1. In the **Edit Group** box that appears, under **Group Members and Group Administrators**, start typing the name of the subgroup that you want to make a top-level group, then click the X to the right of its name it when it appears.
 1. Click **Save**.
 

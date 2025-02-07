@@ -83,7 +83,7 @@ You can add fields you want [!DNL Workfront] to track for a particular type of o
 >
 >You can track up to 300 built-in and custom fields in the update feeds. If you are tracking the maximum number of fields and want to track additional fields that are not displayed in the [!UICONTROL All Fields] Sub-tab, you must first remove some of the tracked fields in order to track new fields. For more information about removing fields from the update fields, see see [Remove fields that you don't want tracked](#remove-fields-that-you-don-t-want-tracked).
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![Gear settings icon](assets/gear-icon-settings.png).
 
 1. In the panel on the left, click **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
 
@@ -105,7 +105,7 @@ You can add fields you want [!DNL Workfront] to track for a particular type of o
 
 You can remove fields you do not want the system to track for a particular type of object throughout the [!DNL Workfront] interface.
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![Gear settings icon](assets/gear-icon-settings.png).
 
 1. Click **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
 
@@ -192,7 +192,7 @@ For example, you can have [!DNL Workfront] record an update every time a user ch
 
 To configure which actions you want [!DNL Workfront] to track:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![Gear settings icon](assets/gear-icon-settings.png).
 
 1. Click **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
 

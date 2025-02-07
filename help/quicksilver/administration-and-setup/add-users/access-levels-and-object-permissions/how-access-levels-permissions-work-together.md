@@ -18,7 +18,7 @@ The Adobe Workfront administrator determines what access level each user should 
 Users also gain access to individual objects when other users share and grant certain permissions on those objects.
 
 
-![](assets/security-model-hierachy.png)
+![Security model hierarchy](assets/security-model-hierachy.png)
 
 For example, if your access level says that you can create tasks, but the permissions you receive on a specific project don't allow you to add tasks to it, you can't add tasks on the project even though you can create tasks elsewhere in Workfront.
 

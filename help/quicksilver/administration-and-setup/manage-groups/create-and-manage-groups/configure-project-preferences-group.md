@@ -74,7 +74,7 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![Groups icon](assets/groups-icon.png).
 
 1. Click the name of  the group whose project preferences you want to configure.
 1. In the left panel, click **Project Preferences**.  
