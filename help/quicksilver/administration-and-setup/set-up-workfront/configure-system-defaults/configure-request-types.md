@@ -87,7 +87,7 @@ To customize the names of the request types:
 1. Click the **[!UICONTROL Issues]** tab.
 1. At the top of the **[!UICONTROL Issues]** tab, hover over the name of a request type, then click the **[!UICONTROL Edit]** icon that appears.
 
-   ![](assets/edit-request-type-name-nwe.png)
+   ![Edit request type name](assets/edit-request-type-name-nwe.png)
 
 1. In the box that appears, type a new name, then press **[!UICONTROL Enter]**.
 

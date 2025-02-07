@@ -56,7 +56,7 @@ This article explains how to find the object and then resolve the problem in one
 
    **Example:** Field 1 on Form 1 = Yes, Field 2 on Form 2 = Yes, Field 3 on Form 3 = Yes. This means "The Calculated Custom Field exists on Form 1," or "The Calculated Custom Field exists on Form 2," and so on.
 
-1. In the **[!UICONTROL Search icon]** ![](assets/search-icon.png) in the upper-right corner of the screen, click **[!UICONTROL Advanced Search]**.
+1. In the **[!UICONTROL Search icon]** ![Search icon](assets/search-icon.png) in the upper-right corner of the screen, click **[!UICONTROL Advanced Search]**.
 1. Click the object of your custom form (such as Issue), click **[!UICONTROL Filter your results]**, then click **[!UICONTROL Add a filter]**.
 1. Start typing the name of a Checkbox field in the **[!UICONTROL Start typing field name]** field and select it when it displays in the list, then select **[!UICONTROL Equal]** and type **[!UICONTROL Yes]** (without quotation marks) in the following box.
 

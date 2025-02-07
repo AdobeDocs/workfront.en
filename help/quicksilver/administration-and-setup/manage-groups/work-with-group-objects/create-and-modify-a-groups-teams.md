@@ -48,10 +48,10 @@ You must have the following to perform the steps in this article:
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png).
 
 1. Click the name of the group for which you want to create or modify teams.
-1. In the left panel, click **Teams** ![](assets/teams.png) to list the teams associated with the group and with any subgroups it may have.
+1. In the left panel, click **Teams** ![Teams](assets/teams.png) to list the teams associated with the group and with any subgroups it may have.
 
 1. Do any of the following:
 
@@ -143,5 +143,5 @@ You must have the following to perform the steps in this article:
       </tbody> 
      </table>
 
-   * **Delete teams**: Select at least one team, then click the Delete icon ![](assets/delete.png).
-   * **Export the list of teams**: Click **Export** ![](assets/export.png), then select the file format you want for the exported list.
+   * **Delete teams**: Select at least one team, then click the Delete icon ![Delete icon](assets/delete.png).
+   * **Export the list of teams**: Click **Export** ![Export icon](assets/export.png), then select the file format you want for the exported list.

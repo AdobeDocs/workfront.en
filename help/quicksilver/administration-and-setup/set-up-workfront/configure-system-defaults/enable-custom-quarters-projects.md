@@ -60,14 +60,14 @@ For more detail about the information in this table, see [Access requirements in
 1. Type a name for the custom quarter, such as "Fiscal Q1 2021."
 1. Select start and end dates for the custom quarter.
 
-   ![](assets/custom-quarters-nwe.png)
+   ![Custom quarters](assets/custom-quarters-nwe.png)
 
 1. (Optional) Click **[!UICONTROL Add Custom Quarter]** to add additional custom quarters to the system.
 1. (Optional) Create a reporting element that refers to the fiscal quarters.
 
    **Example:** Create a filter for a [!UICONTROL project] list and include the Planned Completion Date of a project referencing the custom quarters.
 
-   ![](assets/example-of-project-filter-with-custom-quarters.png)
+   ![Project filter with custom quarters](assets/example-of-project-filter-with-custom-quarters.png)
 
    The references to "This Quarter", "Next Quarter", and "Last Quarter" are replaced with new references to the custom quarters.
 
