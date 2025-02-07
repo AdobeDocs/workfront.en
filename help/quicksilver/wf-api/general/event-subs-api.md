@@ -17,7 +17,7 @@ exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 {{highlighted-preview}}
 -->
 
-When an action occurs on a Adobe Workfront object that is supported by event subscriptions, you can configure Workfront to send a response to your desired endpoint. This means that third-party applications can receive updates from Workfront interactions via the Workfront API soon after they occur. In general, you can expect to receive webhook notifications in less than 5 seconds from the data change being logged. On average, customers receive webhook notifications in less than 1 second from the data change being logged.&nbsp;&nbsp;
+When an action occurs on a Adobe Workfront object that is supported by event subscriptions, you can configure Workfront to send a response to your desired endpoint. This means that third-party applications can receive updates from Workfront interactions via the Workfront API soon after they occur. In general, you can expect to receive webhook notifications in less than 5 seconds from the data change being logged. On average, customers receive webhook notifications in less than 1 second from the data change being logged.  
 
 In order to receive event subscriptions payloads through your firewall, you must add the following IP addresses to your allowlist:
 
@@ -41,7 +41,7 @@ In order to receive event subscriptions payloads through your firewall, you must
 
 The following topics support the Event Subscription API:
 
-## Objects Supported by Event Subscriptions
+## Objects supported by event subscriptions
 
 The following Workfront objects are supported by event subscriptions.
 
@@ -68,7 +68,7 @@ The following Workfront objects are supported by event subscriptions.
 
 For a list of fields supported by event subscription objects, see [Event subscription resource fields](../../wf-api/api/event-sub-resource-fields.md).
 
-## Event Subscription Authentication
+## Event subscription authentication
 
 To create, query, or delete an event subscription, your Workfront user needs the following:
 
@@ -77,9 +77,9 @@ To create, query, or delete an event subscription, your Workfront user needs the
 
    For more information, see [Authentication](api-basics.md#authentication) in [API Basics](api-basics.md).
 
-## Forming the Subscription&nbsp;Resource
+## Forming the subscription resource
 
-The subscription resource&nbsp;contains the following fields.
+The subscription resource contains the following fields.
 
 * objId (optional)
 
@@ -104,7 +104,7 @@ The subscription resource&nbsp;contains the following fields.
         <td scope="col"><p>ASSGN</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">Company&nbsp;</td> 
+        <td scope="col">Company </td> 
         <td scope="col"><p>CMPY</p></td> 
        </tr> 
        <tr> 
@@ -113,7 +113,7 @@ The subscription resource&nbsp;contains the following fields.
        </tr> 
        <tr> 
         <td scope="col"><p>Document</p></td> 
-        <td scope="col">DOCU&nbsp;</td> 
+        <td scope="col">DOCU </td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Expense</p></td> 
@@ -187,7 +187,7 @@ The subscription resource&nbsp;contains the following fields.
    * **String** - A value that represents the type of event to which the object is subscribed. The available event types include:
 
       * CREATE
-      * DELETE&nbsp;
+      * DELETE 
       * UPDATE
 
 * url (required)
@@ -196,22 +196,22 @@ The subscription resource&nbsp;contains the following fields.
 
 * authToken (required)
 
-   * **String** - The OAuth2 bearer token used to authenticate with the URL specified in the "URL" field.&nbsp;
+   * **String** - The OAuth2 bearer token used to authenticate with the URL specified in the "URL" field. 
 
-## Creating Event Subscription API&nbsp;Requests
+## Creating event subscription API requests
 
 After ensuring the user has administrator access and forming the subscription resource, you are ready to create event subscriptions.
 
 Use the following syntax to construct the URL.
 
-**Request URL:** 
+**Request URL** 
 
 
 ```
 POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**Request Headers:** 
+**Request headers** 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -247,18 +247,27 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
             }
 ```
 
+**Response body example**
+
+```
+{
+    "id": <NEW SUBSCRIPTION ID>,
+    "version": <NEW SUBSCRIPTION VERSION>
+}
+```
+
 | Response Code |Description |
 |---|---|
 | 201 (Created) |The event subscription was successfully created. |
-| 400 (Bad Request) |The URL field of the subscription resource&nbsp;was deemed invalid. |
+| 400 (Bad Request) |The URL field of the subscription resource was deemed invalid. |
 | 401 (Unauthorized) |The sessionID provided was empty or deemed invalid. |
 | 403 (Forbidden) |The user that matches the provided sessionID does not have administrator access. |
 
-Passing a&nbsp;subscription resource&nbsp;as the body of a&nbsp;request (with the content-type being&nbsp;"application/json") results in an event subscription being created for the object specified. A response code of 201 (Created) indicates the subscription was created. A response code other than 201 means the subscription was **NOT** created.
+Passing a subscription resource as the body of a request (with the content-type being "application/json") results in an event subscription being created for the object specified. A response code of 201 (Created) indicates the subscription was created. A response code other than 201 means the subscription was **NOT** created.
 
 >[!NOTE]
 >
->&nbsp;The "Location" response header contains the URI of the newly created event subscription.
+> The "Location" response header contains the URI of the newly created event subscription.
 
 **Response Headers Example:** 
 
@@ -282,7 +291,7 @@ You can query all events subscriptions for a customer, or use the following to m
 
 The request syntax for listing all event subscriptions for a specific customer is as follows:
 
-**Request URL:** 
+**Request URL** 
 
 <!-- [Copy](javascript:void(0);) --> 
 
@@ -309,7 +318,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </tbody> 
 </table>
 
-**Response Codes:** 
+**Response Codes** 
 
 | Response Code |Description |
 |---|---|
@@ -318,7 +327,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 403 (Forbidden) |The user, which matches the provided sessionID, does not have administrator access. |
 
 
-**Response Headers Example:** 
+**Response Headers Example** 
 
 | Response Header |Example |
 |---|---|
@@ -328,7 +337,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | Transfer-Encoding |`→chunked` |
 
 
-**Response Body Example:** 
+**Response Body Example** 
 
 ```
 {
@@ -362,7 +371,7 @@ Where
 
 You can query for event subscriptions by the event subscription's ID. The request syntax for listing event subscriptions is as follows:
 
-**Request URL:** 
+**Request URL** 
 
 <!-- [Copy](javascript:void(0);) --> 
 
@@ -370,7 +379,7 @@ You can query for event subscriptions by the event subscription's ID. The reques
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**Request Headers:** 
+**Request Headers** 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -389,7 +398,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </tbody> 
 </table>
 
-**Response Codes:** 
+**Response Codes** 
 
 | Response Code |Description |
 |---|---|
@@ -398,7 +407,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | 403 (Forbidden) |The user, which matches the provided sessionID, does not have administrator access. |
 
 
-**Response Body Example:** 
+**Response Body Example** 
 
 
 
@@ -423,6 +432,95 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
    }
 }
 ```
+
+## Event subscription versioning
+
+Workfront has two versions of event subscriptions. 
+
+The ability to upgrade or downgrade event subscriptions ensures that when changes are made to the structure of events, existing subscriptions do not break, allowing you to test and upgrade to the new version without a gap in your event subscription.
+
+For more information on event subscription versioning, including specific differences between the version and important dates, see [Event subscription versioning](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+
+### Single subscription version change
+
+The request sytax for changing the version for a single subscription is:
+
+**Request URL**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>/version 
+```
+
+**Example request body**
+
+```
+{
+    "version": "v2" 
+}
+```
+
+
+**Example response body (200)**
+
+```
+{
+    "id": <SUBSCRIPTION ID>,
+    "version": "v2" 
+}
+```
+
+**Possible response codes**
+
+* 200
+* 400
+* 404
+
+
+### Multiple subscription version change
+
+This endpoint changes the version of multiple subscriptions, by list of subscriptions or all customer's subscriptions flag.
+
+The request sytax for changing the version for a single subscription is:
+
+**Request URL**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
+```
+
+**Example request bodies**
+
+* Request body for list of subscriptions
+
+   ```
+   {
+       "subscriptionIds": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>],
+       "version": "v2" 
+   }
+   ```
+
+* Request Body for all customer's subscriptions
+
+   ```
+   {
+       "allCustomerSubscriptions": true,
+       "version": "v2" 
+   }
+   ```
+
+**Example response body (200)**
+
+```
+{
+    "subscription_ids": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>, ...],
+    "version": "v2" 
+}
+```
+
+**Possible response codes**
+
+* 200
+* 400
 
 ## Event subscription filtering
 
@@ -760,7 +858,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <thead> 
   <tr> 
    <th> <p>Response Code</p> </th> 
-   <th>&nbsp;Description</th> 
+   <th> Description</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -921,7 +1019,7 @@ Following is an example payload for a CREATE event:
 
 ## Base 64 Encoding
 
-If an event subscription is being rejected because of a conflict between special characters contained in your event subscriptions and your network settings, then you can use Base64 encoding to pass your event subscriptions. Base64 is a set of encoding schemes that can translate any arbitrary data into an ASCII&nbsp;string format. It is important to note that Base64 is not a form of security encryption.
+If an event subscription is being rejected because of a conflict between special characters contained in your event subscriptions and your network settings, then you can use Base64 encoding to pass your event subscriptions. Base64 is a set of encoding schemes that can translate any arbitrary data into an ASCII string format. It is important to note that Base64 is not a form of security encryption.
 
 ### Base 64 Encoding Field
 
@@ -1003,7 +1101,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  <thead> 
   <tr> 
    <th> <p>Response Code</p> </th> 
-   <th>&nbsp;Description</th> 
+   <th> Description</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1022,7 +1120,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 ### Response Body Example
 

@@ -8,13 +8,13 @@ feature: Workfront API
 role: Developer
 ---
 
-Event Subscription Versioning
+# Event subscription Versioning
 
-Workfront has two versions of Event Subscriptions. This article describes the differences between them, as well as the process for upgrading or downgrading your event subscription versions.
+Workfront has two versions of event subscriptions. This article describes the differences between them.
 
 This is not a change to the Workfront API, but rather a change to the Event Subscription functionality. 
 
-The ability to upgrade or downgrade Event Subscriptions ensures that when changes are made to the structure of events, existing subscriptions do not break, allowing you to test and upgrade to the new version without a gap in your Event Subscription.
+The ability to upgrade or downgrade event subscriptions ensures that when changes are made to the structure of events, existing subscriptions do not break, allowing you to test and upgrade to the new version without a gap in your Event Subscription.
 
 >[!IMPORTANT]
 >
@@ -25,7 +25,7 @@ The ability to upgrade or downgrade Event Subscriptions ensures that when change
 
 ## Changes between Version 1 and Version 2
 
-The following changes have been made for Event Subscriptions Version 2
+The following changes have been made for event subscriptions Version 2
 
 
 ### General changes
