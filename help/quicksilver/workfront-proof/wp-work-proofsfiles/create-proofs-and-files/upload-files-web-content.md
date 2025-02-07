@@ -31,7 +31,7 @@ Also, you can use [!DNL Workfront Proof] as cloud storage for files without crea
 To upload a file to [!DNL Workfront Proof]:
 
 1. In the upper-left corner of [!DNL Workfront Proof], click the down arrow on the **[!UICONTROL New proof]** button, then click **[!UICONTROL Upload file]** in the menu that appears.\
-   ![](assets/new-proof-button-menu.png)
+   ![New proof button](assets/new-proof-button-menu.png)
 
 1. The **[!DNL New File]** page appears.
 1. Do one of the following to upload or add the content you need to proof:

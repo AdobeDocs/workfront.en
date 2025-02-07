@@ -46,7 +46,7 @@ Before you can view or manage [!DNL Workfront] documents in [!DNL Google Workspa
 
 ## View and manage [!DNL Workfront] documents in [!DNL Google Workspace]
 
-1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
 1. Go to the [!DNL Workfront] task or issue within [!DNL Google Workspace], as described in [Access [!DNL Adobe Workfront] [!UICONTROL Home] content from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
 1. Click **[!UICONTROL Documents]**.
 
@@ -62,11 +62,11 @@ Before you can view or manage [!DNL Workfront] documents in [!DNL Google Workspa
 
    If you need information about posting updates or replies, see [Update a [!DNL Adobe Workfront] object from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
 
-1. (Optional) Click the **[!UICONTROL Download]** icon ![](assets/download-icon.png) to download a document in the list.
+1. (Optional) Click the **[!UICONTROL Download]** icon ![Download icon](assets/download-icon.png) to download a document in the list.
 
    Or
 
-   If the document is saved on a cloud drive, click the **[!UICONTROL Open]** icon ![](assets/open-icon.png) .
+   If the document is saved on a cloud drive, click the **[!UICONTROL Open]** icon ![Open icon](assets/open-icon.png) .
 
 1. Click **[!UICONTROL View in Workfront]** to go to the Document Details page for the document in [!DNL Workfront].
 

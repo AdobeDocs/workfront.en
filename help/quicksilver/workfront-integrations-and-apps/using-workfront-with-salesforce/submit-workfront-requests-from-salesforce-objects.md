@@ -101,7 +101,7 @@ To submit a [!DNL Workfront] request from a [!DNL Salesforce] Opportunity or Acc
 1. (Optional) Click **[!UICONTROL Go to [!DNL Salesforce]]** to access the Opportunity or Account where the issue originated from the following areas of Workfront:
 
    * In the [!UICONTROL Details] section of the issue
-   * In the Summary panel  when selecting the issue in a list, after clicking [!UICONTROL Open Summary] ![](assets/summary-panel-icon.png) in the list's toolbar.
+   * In the Summary panel  when selecting the issue in a list, after clicking [!UICONTROL Open Summary] ![Summary panel icon](assets/summary-panel-icon.png) in the list's toolbar.
    * In the issue header, when the [!UICONTROL Integrations] field is available. Your system or group administrator must add the [!UICONTROL Integrations] field to your Layout Template to view the Go to Salesforce link in the issue header. For more information, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
    >[!NOTE]

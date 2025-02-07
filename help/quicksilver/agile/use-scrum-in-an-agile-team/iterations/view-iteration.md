@@ -48,7 +48,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. In the left panel, select **[!UICONTROL Iterations]** to choose a specific iteration, or select **[!UICONTROL Current Iteration]**.
 
-   ![Iteration list](assets/view-iteration-NWE.png)
+   ![Iteration list](assets/view-iteration-list.png)
 
    >[!NOTE]
    >

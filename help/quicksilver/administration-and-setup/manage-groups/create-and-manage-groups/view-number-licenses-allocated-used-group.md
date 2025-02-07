@@ -53,14 +53,14 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png).
 
 1. Click the name of the group.
 1. On the page that displays, in the header area near the upper-right corner, view the **Licenses in use** area to see the number of **Plan** and **Work** licenses currently being used.
 
    If you are viewing a top-level group and the Workfront administrator defined a maximum number of each license type for the group, these numbers are also displayed. For example, in the group below, a maximum of 10 users can have a Plan license and a 15 can have a Work license:
 
-   ![](assets/licenses-used-allocated.png)
+   ![Allocated licenses](assets/licenses-used-allocated.png)
 
    For information about how a Workfront administrator defines a maximum number of allocated licenses for a group, see the section [Set the maximum license count for a Home Group](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set) in the article [Manage available licenses in your system](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
@@ -68,15 +68,15 @@ For more detail about the information in this table, see [Access requirements in
    >
    >If the group you are looking at is a subgroup, you can view only the numbers of licenses being used, not the maximum number of licenses allocated for the group. This is because Workfront administrators do not define a maximum license count for a subgroup.
    >
-   >![](assets/subgroup-used-licenses-only.png)
+   >![Used licenses in subgroup](assets/subgroup-used-licenses-only.png)
    >
 
 1. For separate counts of each type of license currently used in the group (including Review and Request), click the text area directly below **Licenses in use:**
 
-   ![](assets/click-text-to-see-more.png)
+   ![Click to see more](assets/click-text-to-see-more.png)
 
    The box that displays provides the same information for all four Workfront license types: Plan, Work, Review, and Request. At the bottom of the box, you can see the total number of licenses being used by members of this group or one of its subgroups:
 
-   ![](assets/more-license-info.png)
+   ![More license information](assets/more-license-info.png)
 
    For Review and Request licenses, the Max column always displays Unlimited.

@@ -85,8 +85,8 @@ For more detail about the information in this table, see [Access requirements in
 
 1. On the page that appears, do any of the following:
 
-   * If you want administrators of groups below your group to be able to configure a preference for their groups, unlock it ![](assets/unlock-toggle-button.png).
-   * If you want all groups below yours to use your configuration for a preference, make sure that it is locked ![](assets/lock-toggle-button.png) (this is the default).
+   * If you want administrators of groups below your group to be able to configure a preference for their groups, unlock it ![Unlock toggle](assets/unlock-toggle-button.png).
+   * If you want all groups below yours to use your configuration for a preference, make sure that it is locked ![Lock toggle](assets/lock-toggle-button.png) (this is the default).
 
      >[!IMPORTANT]
      >

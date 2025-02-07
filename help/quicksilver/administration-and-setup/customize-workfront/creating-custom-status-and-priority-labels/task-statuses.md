@@ -59,7 +59,7 @@ For information about editing the system statuses or creating new custom statuse
 
    The tasks statuses available in Workfront are listed on this tab.
 
-   ![](assets/task-status.png)
+   ![Task status](assets/task-status.png)
 
    For details about each of the built-in system task statuses, see [System task statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md).
 

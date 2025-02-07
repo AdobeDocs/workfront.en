@@ -65,7 +65,7 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-users}}
 
-1. Select the user, then click the **Edit** icon ![](assets/edit-icon.png).  
+1. Select the user, then click the **Edit** icon ![Edit icon](assets/edit-icon.png).  
 
     The Edit User box displays.
 

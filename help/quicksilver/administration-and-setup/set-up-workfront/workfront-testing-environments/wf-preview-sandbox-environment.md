@@ -69,7 +69,7 @@ The preview environment is ideal for running trainings, testing out new features
 >
 >The name of the environment you are accessing (Preview) and the release version of the code display on the banner. Click **[!UICONTROL See what's new]** for information about that release.
 >
->![](assets/preview-banner-nwe-350x161.png)
+>![Preview banner](assets/preview-banner-nwe-350x161.png)
 
 ## Accessing the Preview Sandbox
 

@@ -46,7 +46,7 @@ Before you can create a [!DNL Workfront] task in [!DNL Google Workspace], you mu
 
 ## Reply to an update notification from [!DNL Google Workspace]
 
-1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
 1. Open the [!DNL Workfront] email notification that contains the update. 
 1. Near the bottom of the [!UICONTROL Workfront for Google Workspace] panel, click **[!UICONTROL Post a comment]**, then type your reply.
 1. (Optional) To notify particular users about your reply, click **[!DNL Notify people and teams]**, begin typing a name, then click the name when it appears in the drop-down list.

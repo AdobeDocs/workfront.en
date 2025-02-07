@@ -70,7 +70,7 @@ You must enable notifications in the Setup area of Workfront before users can en
 
 1. Click **Email** > **Notifications**.
 
-    ![](assets/notifications-area-under-setup-emails.png)
+    ![Notifications area under setup emails](assets/notifications-area-under-setup-emails.png)
    
 
 1. Make sure the **Event Notifications** tab is open.
@@ -82,7 +82,7 @@ You must enable notifications in the Setup area of Workfront before users can en
 
    For more information about customizing the subject lines of email notifications, see [Customize email subjects for event notifications](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
-1. (Optional) If you want to unlock configuration for an email notification so that group administrators can configure it separately for their groups, click the button ![](assets/lock-toggle-button.png) to the right of the notification to switch it to the unlocked position ![](assets/unlock-toggle-button.png).
+1. (Optional) If you want to unlock configuration for an email notification so that group administrators can configure it separately for their groups, click the button ![Lock toggle](assets/lock-toggle-button.png) to the right of the notification to switch it to the unlocked position ![Unlock toggle](assets/unlock-toggle-button.png).
 
    >[!NOTE]
    >

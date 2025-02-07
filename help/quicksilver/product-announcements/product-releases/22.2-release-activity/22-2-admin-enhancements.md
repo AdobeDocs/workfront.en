@@ -55,7 +55,7 @@ Previously, custom forms were completely text based.
 
 ## New default access level configurations
 
-To better suit the needs of most administrators who create new access levels, we have changed the default configuration for the "Fine-tune your settings" options listed below. These display when you click the gear icon ![](assets/gear-icon-in-access-levels.png) on an Edit button.
+To better suit the needs of most administrators who create new access levels, we have changed the default configuration for the "Fine-tune your settings" options listed below. These display when you click the gear icon ![Access levels gear icon](assets/gear-icon-in-access-levels.png) on an Edit button.
 
 All of these changes disable an option that was previously enabled by default. If this doesn't suit the needs of your organization, you can enable them when you are setting up a new access level, or any time later.
 
@@ -94,7 +94,7 @@ When you install a blueprint, a message now displays the specific objects (such 
 
 For more information, see [Install a blueprint](../../../administration-and-setup/blueprints/blueprints-install.md).
 
-![](assets/blueprints-installation-history-350x95.png)
+![Blueprints installation history](assets/blueprints-installation-history-350x95.png)
 
 ## A warning now displays when installing a Preview-only blueprint in Production
 

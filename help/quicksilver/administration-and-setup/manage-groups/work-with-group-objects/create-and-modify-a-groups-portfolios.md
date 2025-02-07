@@ -48,7 +48,7 @@ You must have the following to perform the steps in this article:
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png).
 
 1. Click the name of the group for which you want to create, view, or work with portfolios.
 1. In the left panel, click **Portfolios** to list the portfolios associated with the group (and any subgroups below it).

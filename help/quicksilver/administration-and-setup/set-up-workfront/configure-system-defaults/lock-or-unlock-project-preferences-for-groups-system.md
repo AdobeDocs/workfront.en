@@ -69,7 +69,7 @@ For instructions on locking or unlocking a system-level project, task, or issue 
 
 1. Do any of the following:
 
-   * If you want group administrators to be able to configure a preference for their groups, unlock it ![](assets/unlock-toggle-button.png).
+   * If you want group administrators to be able to configure a preference for their groups, unlock it ![Unlock toggle](assets/unlock-toggle-button.png).
    * If you want all groups to use your configuration for a preference, make sure that it is locked (this is the default).
 
       >[!IMPORTANT]

@@ -294,7 +294,7 @@ To lock or unlock a task or issue preference so that groups can configure it:
 
 1. Do any of the following:
 
-   * If you want administrators of groups below your group to be able to configure a preference for their groups, unlock it ![](assets/unlock-toggle-button.png).
+   * If you want administrators of groups below your group to be able to configure a preference for their groups, unlock it ![Unlock toggle](assets/unlock-toggle-button.png).
    * If you want your group and all groups below it to use your configuration for a preference, make sure that it is locked (this is the default).
 
       >[!IMPORTANT]

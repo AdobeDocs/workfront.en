@@ -14,7 +14,7 @@ exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
 
 The Project treemap visualization is a view of hours—or days—that have been worked in a specific window of time compared against other work efforts in size. This helps you understand how much time people have dedicated to a project.
 
-![](assets/project-treemap-350x126.png){width="700"}
+![Project treemap](assets/project-treemap-350x126.png){width="700"}
 
 ## Access requirements
 
@@ -65,22 +65,22 @@ The Project treemap visualization is comprised of:
 
 * **Smaller, light blue boxes**: Projects that have fewer hours—or days—display as smaller boxes with a light blue color.
 
-  ![](assets/project-treemap-smaller-box.png)
+  ![Smaller box](assets/project-treemap-smaller-box.png)
 
 * **Larger, dark blue boxes**: Projects that have more hours—or days—display as larger boxes with a dark blue color.
 
-  ![](assets/project-treemap-larger-box-350x205.png)
+  ![Larger box](assets/project-treemap-larger-box-350x205.png)
 
 * **Medium-sized, blue boxes**: Projects that fall in between the two categories display as medium-sized boxes with a shade of blue between the dark blue and light blue colors. There are 3 possible shades of blue for the medium-sized boxes.
 
 The legend on the right side shows a breakdown of completed hours for each shade of blue. This legend is dynamic and updates according to the data.
 
-![](assets/project-treemap-hours-completed.png)
+![Treemap hours completed](assets/project-treemap-hours-completed.png)
 
 >[!NOTE]
 >
 >If you are looking at the Project treemap visualization by duration instead of by planned hours, this legend shows a breakdown of days worked for each shade of blue.  
->![](assets/project-treemap-days-worked.png)>
+>![Treemap days worked](assets/project-treemap-days-worked.png)>
 
 Seeing this information helps you determine:
 
@@ -93,10 +93,10 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
 ## View the Project treemap visualization
 
-1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
+1. Click the Main Menu icon ![Main menu icon](assets/main-menu-icon-16x12.png), then select **Analytics**.
 1. (Optional) To use a different date range, select new start and end dates from the date range filter.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Select date range](assets/filters-select-date-range-350x344.png)
 
    For information on using the date range filter, see [Apply filters in Enhanced analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -119,7 +119,7 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
    All other visualizations on the page update to match your page selection.
 
-   ![](assets/pagination-350x118.png)
+   ![Pagination](assets/pagination-350x118.png)
 
 1. (Optional) Change the view from **planned hours** to **duration**.
 
@@ -127,7 +127,7 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
 1. Hover over a project to see the project condition, as well as the number of total planned hours, the number of total completed hours, and the average number of hours spent on the project per day.
 
-   ![](assets/project-treemap-project-details-350x404.png)
+   ![Treemap project details](assets/project-treemap-project-details-350x404.png)
 
    >[!NOTE]
    >
@@ -136,11 +136,11 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
    >* **Planned Timeframe**: The number of days planned to complete the project.
    >* **Days Worked**: The planned duration for each task that was completed within the date range selected at the top, divided by the number of hours in a day.
    >   
-   >![](assets/duration-treemap-350x159.png)
+   >![Treemap duration](assets/duration-treemap-350x159.png)
    >
    >For more information on duration, see the section "Duration view" in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. (Optional) To export the visualization data, click the **Export icon** ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
+1. (Optional) To export the visualization data, click the **Export icon** ![Export icon](assets/export.png) in the top-right corner of the visualization, then select the export format:
 
    * **Chart (PNG)** 
    * **Data Table (XSLX)**

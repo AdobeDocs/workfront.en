@@ -17,7 +17,7 @@ In a layout template, you can customize what users see in the left panel area th
 
 For example, you can determine which of the following items users see in the left panel when viewing a task:
 
-![](assets/left-panel-adobe-branding.png)
+![Branding left panel](assets/left-panel-adobe-branding.png)
 
 >[!IMPORTANT]
 >
@@ -64,7 +64,7 @@ To perform them for a group, you must be a manager of that group.</p> </td>
 ## Customize the left panel for an area in [!DNL Workfront]:
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Click the down arrow ![](assets/dropdown-arrow.png) under **[!UICONTROL Customize what users see]**, then click the name of an object type or a [!DNL Workfront] area whose left panel you want to customize.
+1. Click the down arrow ![Down arrow](assets/dropdown-arrow.png) under **[!UICONTROL Customize what users see]**, then click the name of an object type or a [!DNL Workfront] area whose left panel you want to customize.
 
    The object types and [!DNL Workfront] areas whose left panel you can customize are listed in the following table: 
 
@@ -198,9 +198,9 @@ To perform them for a group, you must be a manager of that group.</p> </td>
 
 1. In the **[!UICONTROL Left panel]** list, do any of the following to determine what users will see in the left panel for the [!DNL Workfront] area or object type you have selected:
 
-   * Click the **Show** ![](assets/add-secondary-nav-item.png) or **Hide** ![](assets/delete-secondary-nav-item.png) icons to display or hide sections in the left panel. You cannot hide items that do not have a **Show** or **Hide** icon.
+   * Click the **Show** ![Show icon](assets/add-secondary-nav-item.png) or **Hide** ![Hide icon](assets/delete-secondary-nav-item.png) icons to display or hide sections in the left panel. You cannot hide items that do not have a **Show** or **Hide** icon.
 
-   * Drag items ![](assets/move-icon---dots.png) to change their order on the left panel.
+   * Drag items ![Move icon](assets/move-icon---dots.png) to change their order on the left panel.
 
    >[!NOTE]
    >

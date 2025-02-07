@@ -50,10 +50,10 @@ Before you can create an issue from [!DNL Google Workspace], you must
 
 ## Create a [!DNL Adobe Workfront] issue in [!DNL Google Workspace] using email content
 
-1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
 1. With the email message open in [!DNL Google Workspace], click an option in [!DNL Workfront for Google Workspace] to convert the email to a new [!DNL Workfront] issue.
 
-   ![](assets/convert-email-task-issue-update.png)
+   ![Convert email](assets/convert-email-task-issue-update.png)
 
 1. If you want to attach the issue to a parent project, click **[!UICONTROL Project name]**, start typing the name of the project where you want the issue, then click the project name when it appears in the list below.
 1. Make any of these changes:

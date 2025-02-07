@@ -80,11 +80,11 @@ To post an update:
 
 1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Return to Work List](assets/go-back-to-work-list-350x314.png)
 
 1. From the **[!UICONTROL Work List]**, select the work item you need to post an update to.
 1. Click **[!UICONTROL Update]** in the navigation bar.  
-   ![](assets/photoshop-update-350x295.png)
+   ![Photoshop update](assets/photoshop-update-350x295.png)
 
 1. Click **[!UICONTROL New Update]**.
 1. Type your update.

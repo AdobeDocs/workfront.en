@@ -60,14 +60,14 @@ For more detail about the information in this table, see [Access requirements in
 
 If the custom status is an Issue status, all four issue types must be enabled for it (Bug Report, Change Order, Issue, and Request). For example, in the issue status shown below, the status Reopened cannot be used as a default status because the Change Order issue type is not selected:
 
-![](assets/all-4-issue-types-enabled.png)
+![All issue types enabled](assets/all-4-issue-types-enabled.png)
 
 ## Set a custom status as a default status for a group
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png), then click the name of the group where you want to create or customize statuses.
-1. In the left panel, click **Statuses** ![](assets/gear-icon-settings.png).
+1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png), then click the name of the group where you want to create or customize statuses.
+1. In the left panel, click **Statuses** ![Gear settings icon](assets/gear-icon-settings.png).
 1. Open the **Project**, **Tasks**, or **Issues** tab, depending on the type of status you want to set as a default status.
 1. Click **Set Default Statuses** near the upper-right corner.
 1. In the drop-down area that displays, next to the status where you want to set the default status, select the default status you want to set.
@@ -84,7 +84,7 @@ If the custom status is an Issue status, all four issue types must be enabled fo
    >If you assign the project to a different group, the project status will reload and could change.
 
    1. Go to the project where you want to use the custom status.
-   1. Click the More menu ![](assets/more-icon.png), then click **Edit**. 
+   1. Click the More menu ![More icon](assets/more-icon.png), then click **Edit**. 
    1. In the **Edit Project** box that displays, in the **Group** field under **Project association**, select the group that the custom status is associated with.
    
    1. Click **Save Changes**.
@@ -103,4 +103,4 @@ If you hide a default status (by enabling the Hide status option for it), the sy
 
 If there is no available status of the equivalent type, the status type displays as **Hidden** and is not available for work items.
 
-![](assets/when-hide-default-status-no-equivalent.png)
+![No available status](assets/when-hide-default-status-no-equivalent.png)

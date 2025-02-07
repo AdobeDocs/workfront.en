@@ -17,7 +17,7 @@ Some objects in Adobe Workfront allow for the storage of text with rich-text for
 
 A custom field with rich-text formatting is called **Field with rich text** and can have the following values associated with it:
 
-![](assets/rich-text-example-350x158.png)
+![Rich text example](assets/rich-text-example-350x158.png)
 
 **Example:** A basic GET request to retrieve the value of the custom form field **Field with rich text**:
 
@@ -42,7 +42,7 @@ A block is a JSON object that represents a single-line of formatted text. Since 
 
 **Example:** Here, each line of text from a custom field maps to a block element in the array blocks
 
-![](assets/copy-of-rich-text-mapping-350x159.png)
+![Rich text mapping](assets/copy-of-rich-text-mapping-350x159.png)
 
 Since each block element is also a JSON&nbsp;object, each block is composed of the elements: **key**, **text**, **type**, **depth**, **inlineStyleRanges**, **entityRanges**, and **data**. Each of these elements functions as the following:
 
@@ -55,7 +55,7 @@ Since each block element is also a JSON&nbsp;object, each block is composed of t
 
 **Example:** Here is an inlineStyleRanges array that describes each style at the character level. In this case: 9 characters (length: 9) starting from the index 0 (offset: 0) had the style **Bold** applied:
 
-![](assets/copy-of-rich-text-mapping-2-350x136.png)
+![Rich text mapping](assets/copy-of-rich-text-mapping-2-350x136.png)
 
 In the case where multiple types of formatting have been applied to a single line, styles will be mapped to additional elements in the** inlineStyleRanges** array.
 

@@ -59,7 +59,7 @@ If you have [!DNL Adobe Workfront] [!UICONTROL administrator] access, there are 
 * **[!UICONTROL Issue]** An object in [!DNL Workfront] that communicates unplanned work, a problem that arises, or something that must be resolved in order to continue a task.
 * **[!UICONTROL Request]** An issue type that applies to a request queue where users make requests in Workfront.
 
-![](assets/default-issue-types.png)
+![Default issue types](assets/default-issue-types.png)
 
 ## Customize an issue type
 
@@ -80,8 +80,8 @@ To customize an issue type:
 1. Click the **[!UICONTROL Issues]** tab.
 1. Do any of the following:
 
-   * Hover over the issue type you want to customize, click the [!UICONTROL Edit] icon ![](assets/edit-icon.png) that appears to the far right, then type a new name for the issue type.
+   * Hover over the issue type you want to customize, click the [!UICONTROL Edit] icon ![Edit icon](assets/edit-icon.png) that appears to the far right, then type a new name for the issue type.
 
-      ![](assets/customize-issue-type.png)
+      ![Customize issue type](assets/customize-issue-type.png)
 
    * Click an [!UICONTROL issue type] to list its associated statuses, then drag the handles that appear when you hover over them and and drop them in the order you want them to appear in your users' issue **[!UICONTROL Status]** drop-down menu.
