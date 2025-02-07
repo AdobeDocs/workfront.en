@@ -91,4 +91,4 @@ The release notes provide a table with a list of features in the left column, wi
 
 For example:
 
-![](assets/release-notes-350x189.png)
+![Example release note](assets/release-notes-350x189.png)

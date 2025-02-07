@@ -27,4 +27,4 @@ To help manage large drop-down menus listing all users in the system, we've repl
 
 Previously, all profile search drop-downs listed all users in the system, producing a large menu.
 
-![](assets/user-profile-typeahead-350x142.png)
+![User profile typeahead](assets/user-profile-typeahead-350x142.png)

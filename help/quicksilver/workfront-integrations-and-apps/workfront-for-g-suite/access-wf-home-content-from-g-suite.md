@@ -47,26 +47,26 @@ Before you can access [!UICONTROL Home] content from [!DNL Google Workspace], yo
 ## Access [!DNL Workfront] [!UICONTROL Home] from [!DNL Google Workspace]
 
 1. Make sure you are logged in to [!DNL Workfront].
-1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
 1. If you see a left arrow at the top of [!DNL Workfront] for [!DNL Google Workspace], click the arrow to go to the [!UICONTROL Home] area.
 
-1. In the **[!UICONTROL Sort by]** area, click the expand arrow ![](assets/dropdown-arrow.png), then click an option to specify how you want to group your work items so you can find the one you want.
+1. In the **[!UICONTROL Sort by]** area, click the expand arrow ![Expand arrow](assets/dropdown-arrow.png), then click an option to specify how you want to group your work items so you can find the one you want.
 
    When you sort by **[!UICONTROL Commit date]** or **[!UICONTROL Planned completion]** date, the oldest work items are at the top.
 
    When you sort by **[!UICONTROL Project]**, work items appear in the order of their parent projects, listed alphabetically from A to Z. Work items without a parent project display under **[!UICONTROL No Project]**.
 
-1. Click the expand arrow ![](assets/dropdown-arrow.png) for the grouping you want to view.
+1. Click the expand arrow ![Expand arrow](assets/dropdown-arrow.png) for the grouping you want to view.
 
    The number of items contained within each group displays in parenthesis. When you click the [!UICONTROL expand] arrow, all the work items in the group display.
 
    Work items appear as follows:
 
-   * ![](assets/task-icon.png) **Tasks** display the parent project name, task name, and planned completion date.
+   * ![Task icon](assets/task-icon.png) **Tasks** display the parent project name, task name, and planned completion date.
 
-   * ![](assets/issue-icon.png) **Issues** display the parent project name, issue name, and planned completion date.
+   * ![Issue icon](assets/issue-icon.png) **Issues** display the parent project name, issue name, and planned completion date.
 
-   * ![](assets/document-icon.png)  **Approvals** display the requester's name, document name, and submission date.
+   * ![Document icon](assets/document-icon.png)  **Approvals** display the requester's name, document name, and submission date.
    * **Access requests** display the requester's name, object name, and submission date. The icon for the object type displays on the left.
 
 1. Click anywhere on a work item to see its details, updates, and documents.

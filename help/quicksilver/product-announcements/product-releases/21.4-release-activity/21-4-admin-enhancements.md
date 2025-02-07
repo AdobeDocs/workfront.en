@@ -53,7 +53,7 @@ The details page for each blueprint now displays an image of the project templat
 
 For more information, see [Blueprints overview](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-![](assets/blueprint-detailspage.png)
+![Blueprint details](assets/blueprint-detailspage.png)
 
 ## Blueprints preferences for new issues
 

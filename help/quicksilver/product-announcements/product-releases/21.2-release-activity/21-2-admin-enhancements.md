@@ -93,7 +93,7 @@ To better orient administrators in the Setup area and to maintain consistency Ad
 * Hierarchy information above the name of each subpage (on the page for a single group, for example)
 * Modernized font styles and sizes
 
-  ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
+  ![Updated headers in setup](assets/updated-headers-in-setup-02-29-21-350x214.png)
 
 For more information about the Setup area, see [Administration and setup](../../../administration-and-setup/administration-and-setup.md).
 
