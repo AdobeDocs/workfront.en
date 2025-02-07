@@ -58,4 +58,4 @@ As a reviewer, you can work with multiple proofs in a folder without leaving the
 
       While you are comparing proofs, if you want to switch to a new proof, either on the left or right side of the proofing viewer, click the [!UICONTROL Compare] button above the proof.
 
-      ![](assets/mceclip0-350x126.png)
+      ![Compare](assets/mceclip0-350x126.png)

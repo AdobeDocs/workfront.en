@@ -35,7 +35,7 @@ The dashboard contains the following:
 >
 >The menus and links you are able to see and use on your Dashboard will depend on your user profile and permissions.
 
-![](assets/dashboard-350x495.png)
+![Dashboard](assets/dashboard-350x495.png)
 
 You can brand your account to show your own organization's logo, colors, custom links, and more. For more information, see [Brand the [!DNL Workfront Proof] site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)."
 
@@ -43,7 +43,7 @@ If you don't brand your account, the [!DNL Workfront Proof] logo and standard co
 
 ## Header menu
 
-![](assets/header-menu-350x150.png)
+![Header menu](assets/header-menu-350x150.png)
 
 ### The user name
 
@@ -91,7 +91,7 @@ To open the New menu,
    * New user (12)
    * New group (13)
 
-![](assets/new-proof-350x256.png)
+![New proof](assets/new-proof-350x256.png)
 
 ## The Dashboard menu
 
@@ -110,7 +110,7 @@ The [!UICONTROL Edit tags] menu (1) lets you:
 * Create new tags
 * Manage tags (2)
 
-![](assets/edit-tags-350x204.png)
+![Edit tags](assets/edit-tags-350x204.png)
 
 ## Move to
 
@@ -120,7 +120,7 @@ This function lets you move proofs and files to one of your folders. To do this:
 1. Click **[!UICONTROL Move to]** (3) and choose the relevant folder (4).
 1. Click **[!UICONTROL Save]** (5).
 
-   ![](assets/move-to-350x297.png)
+   ![Move to](assets/move-to-350x297.png)
 
 ### More actions
 
@@ -132,7 +132,7 @@ In the [!UICONTROL More actions] menu (6) you can perform the following actions:
 * Unarchive (proofs only)
 * Change owner
 
-![](assets/more-actions-350x303.png)
+![More actions](assets/more-actions-350x303.png)
 
 ### Delete
 
@@ -140,11 +140,11 @@ To delete items:
 
 1. Select the tick box to the left of the item(s) and click **[!UICONTROL Delete]** (7).
 
-![](assets/delete-350x109.png)
+![Delete icon](assets/delete-350x109.png)
 
 1. In the confirmation screen that appears, check the details and confirm by clicking **[!UICONTROL Yes]** (8).
 
-![](assets/deleteing-items-350x237.png)
+![Deleting items](assets/deleteing-items-350x237.png)
 
 ### The Sidebar
 
@@ -162,7 +162,7 @@ The sidebar has links to the following pages:
 * Other Organizations' folders (10) (where you can find items that other organizations shared with you)
 * Tags (11)
 
-![](assets/sidebar-350x426.png)
+![Sidebar](assets/sidebar-350x426.png)
 
 The Sidebar is described in more detail on the Sidebar help page.
 
@@ -175,7 +175,7 @@ The [!UICONTROL Welcome] section has the following useful links:
 * Support contact details (3)
 * "Don't show me the Welcome section again" link (4)
 
-![](assets/welcome-350x73.png)
+![Welcome](assets/welcome-350x73.png)
 
 ### Overview
 
@@ -191,7 +191,7 @@ The overview section also displays pre-filtered information. These are:
 * Proofs to manage - total number of active proofs owned by you and delegated to you
 * Proofs awaiting decision - total number of active proofs that require your decisions
 
-   ![](assets/dashboard-overview-350x169.png)
+   ![Dashboard overview](assets/dashboard-overview-350x169.png)
 
 Here you can see right away how many proofs require immediate action from you or from your reviewers:
 
@@ -231,7 +231,7 @@ To access the Proof details page:
 1. Click on the **[!UICONTROL Actions]** menu (1) available to the right of the proof name.
 1. Select **[!UICONTROL View proof details]** (2) from the menu.
 
-![](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
+![Recent items](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
 
 ### Recent activity
 
@@ -252,4 +252,4 @@ To go to the Proof details page of that proof:
 1. Click on the **[!UICONTROL Actions]** menu (1).
 1. Select **[!UICONTROL View proof details]** (2) from the dropdown menu.
 
-   ![](assets/accessing-the-proof-details-page-recent-activity-350x51.png)
+   ![Recent activity](assets/accessing-the-proof-details-page-recent-activity-350x51.png)

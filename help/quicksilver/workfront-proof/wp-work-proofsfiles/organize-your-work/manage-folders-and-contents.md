@@ -76,7 +76,7 @@ You can easily manage your files from the [!UICONTROL Folder details] page.
    * See the name of the folder's **Creator**.
 
 1. (Optional)To change information associated with an item in the folder, click the **[!UICONTROL More]** icon to the right of the item, then use any of the options that appear.\
-   ![](assets/more-button-small.png)\
+   ![More menu](assets/more-button-small.png)\
    The options that appear depend on whether the item is a proof or a file.
 
    * **[!UICONTROL View proof details]** or **[!UICONTROL View file details]**: Opens the Proof details or File details page. For more information, see [Manage Files in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) or [Manage Proof Details in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
@@ -105,9 +105,9 @@ You can easily manage your files from the [!UICONTROL Folder details] page.
 1. (Optional) Click **[!UICONTROL Activity]** to view all actions performed in the folder in chronological order.
 1. (Optional) Click **[!UICONTROL Messages]** section to view the messages that have been sent to users on the folder.\
    When you hover over a message, you can click the **i** icon to the right to view the full message.\
-   ![](assets/messages-1-350x74.png)\
+   ![Messages](assets/messages-1-350x74.png)\
    A pop up with the full email displays:\
-   ![](assets/messages-2-350x252.png)
+   ![Message popup](assets/messages-2-350x252.png)
 
 ## Managing Sub-Folders
 
