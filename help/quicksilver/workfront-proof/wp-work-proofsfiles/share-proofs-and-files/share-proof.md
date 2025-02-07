@@ -48,7 +48,7 @@ You can add reviewers to a proof when you are creating a new proof or uploading 
 ## Adding Reviewers to an Existing Proof
 
 1. On the Dashboard or any list view, click the **[!UICONTROL More]** button dropdown to the right of the proof.\
-   ![](assets/more-button-small.png)
+   ![More menu](assets/more-button-small.png)
 
 1. Click **[!UICONTROL Share]** in the drop-down menu.
 1. In the **[!UICONTROL Share this version]** page that appears, add reviewers by adding their email addresses.\

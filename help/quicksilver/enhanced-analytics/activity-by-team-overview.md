@@ -19,7 +19,7 @@ The Activity by team visualization shows activities that happen during a specifi
 >The Project activity visualization is similar to this visualization, but it displays activity based on people assigned to projects rather than people assigned to a home team.  
 >For information on the Project activity visualization, see [View the Project activity visualization in Enhanced analytics](../enhanced-analytics/project-activity-overview.md).
 
-![](assets/activity-by-team-350x113.png){width="700"}
+![Activity by team](assets/activity-by-team-350x113.png){width="700"}
 
 ## Access requirements
 
@@ -69,15 +69,15 @@ The different activities display in different colors to summarize specific event
 
 * **Users logged in**: Purple boxes show that people on the home team logged in on that day. A darker shade indicates a higher number of people logging in.
 
-  ![](assets/project-activity-users-logged-in.png)
+  ![Users logged in](assets/project-activity-users-logged-in.png)
 
 * **Task status change**: Pink boxes show that people on the home team changed the status of a task on that day. A darker shade indicates a higher number of task statuses changing.
 
-  ![](assets/project-activity-task-status-changes.png)
+  ![Task status changes](assets/project-activity-task-status-changes.png)
 
 * **Tasks completed**: Blue boxes show that people on the home team completed a task on that day. A darker shade indicates a higher number of tasks being completed.
 
-  ![](assets/project-activity-tasks-completed.png)
+  ![Tasks completed](assets/project-activity-tasks-completed.png)
 
 Hovering over a box shows the exact number of times the action was completed in a given day. You can select a team to see a breakdown of these activities by each person on the home team.
 
@@ -91,14 +91,14 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
 ## View the Activity by team visualization
 
-1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
+1. Click the Main Menu icon ![Main menu icon](assets/main-menu-icon-16x12.png), then select **Analytics**.
 1. In the left panel, select **People**.
 
-   ![](assets/people-area-cropped-qs-350x276.png)
+   ![People area](assets/people-area-cropped-qs-350x276.png)
 
 1. (Optional) To use a different date range, select new start and end dates from the date range filter.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Select date range](assets/filters-select-date-range-350x344.png)
 
    For information on using the date range filter, see [Apply filters in Enhanced analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -112,7 +112,7 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
    All other visualizations update to the same date range and a timeframe filter is created.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Timeframe filter](assets/timeframe-filter-350x220.png)
 
 1. Click a team name
 
@@ -134,9 +134,9 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
    Darker colors indicate higher activity.
 
-   ![](assets/activity-by-team-activity-pop-up-350x155.png)
+   ![Activity by team](assets/activity-by-team-activity-pop-up-350x155.png)
 
-1. (Optional) To export the visualization data, click the Export icon ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
+1. (Optional) To export the visualization data, click the Export icon ![Export icon](assets/export.png) in the top-right corner of the visualization, then select the export format:
 
    * **Chart (PNG)** 
    * **Data Table (XSLX)**

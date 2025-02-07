@@ -29,7 +29,7 @@ For information about the Trash, see [Restore and Empty the Trash in [!DNL Workf
 ## Deleting a Proof
 
 1. From any list view, click the **[!UICONTROL More]** menu to the right of the proof.\
-   ![](assets/more-button-small.png)
+   ![More menu](assets/more-button-small.png)
 
 1. Click **[!UICONTROL View proof details]** in the dropdown menu that appears.
 1. Click the **[!UICONTROL Delete]** button near the top right of the page.
