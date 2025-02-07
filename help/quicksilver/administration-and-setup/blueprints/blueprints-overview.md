@@ -16,7 +16,7 @@ exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
 
 Blueprints are sets of Workfront objects that address common use cases in Workfront. You can download and install a blueprint, and then configure the objects for your specific use case. 
 
-![](assets/blueprints-main-page-catalog.png)
+![Blueprints main page](assets/blueprints-main-page-catalog.png)
 
 >[!INFO]
 >

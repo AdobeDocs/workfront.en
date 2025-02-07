@@ -66,7 +66,7 @@ Before you can map fields for the metadata mapping process, you must enable the 
 
 1. In the left panel, click **[!UICONTROL Documents]** > **[!UICONTROL Metadata Mapping]**.
 
-   ![](assets/metadata-mapping.png)
+   ![Metadata mapping](assets/metadata-mapping.png)
 
 1. In the **[!UICONTROL Select Source Field for Mapping]** box, begin typing the name of the Workfront field you want to map to [!DNL Workfront DAM], then select it when you see it in the list.
 1. In the **[!UICONTROL Select Target Field for Mapping]** box, select the field you want to populate with the information in the selected [!DNL Workfront] field.

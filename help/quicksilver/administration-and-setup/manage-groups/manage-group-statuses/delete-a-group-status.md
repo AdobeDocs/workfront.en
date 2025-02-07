@@ -64,7 +64,7 @@ For more detail about the information in this table, see [Access requirements in
 1. In the left panel click **Statuses**.
 1. In the list of statuses that displays, hover over the status you want to delete, then click **Delete** when it appears to the far right.
 
-   ![](assets/hover-click-delete.jpg)
+   ![Delete](assets/hover-click-delete.jpg)
 
 1. In the box that displays, select a status to designate a replacement status for objects (projects, tasks, issues, and approval processes) that were using the status that you are deleting.
 

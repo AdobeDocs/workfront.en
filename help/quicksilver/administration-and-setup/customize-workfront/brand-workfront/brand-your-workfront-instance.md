@@ -25,19 +25,19 @@ As a Workfront administrator, you can brand Workfront with logos in the followin
 
 * Login screen
 
-  ![](assets/brand-login-screen-nwe-adobe.jpg)
+  ![Brand in login screen](assets/brand-login-screen-nwe-adobe.jpg)
 
 * Top navigation area
 
-  ![](assets/brand-top-nav-area-nwe-adobe.jpg)
+  ![Brand in top navigation](assets/brand-top-nav-area-nwe-adobe.jpg)
 
 * Main Menu
 
-  ![](assets/brand-main-menu-adobe.jpg)
+  ![Brand in main menu](assets/brand-main-menu-adobe.jpg)
 
 You can also change the background image and color of the login screen:
 
-![](assets/wf_banner_on_login_screen-adobe.png)
+![Banner on login screen](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >

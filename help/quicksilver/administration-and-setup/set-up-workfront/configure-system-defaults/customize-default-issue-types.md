@@ -80,7 +80,7 @@ To customize an issue type:
 1. Click the **[!UICONTROL Issues]** tab.
 1. Do any of the following:
 
-   * Hover over the issue type you want to customize, click the [!UICONTROL Edit] icon ![](assets/edit-icon.png) that appears to the far right, then type a new name for the issue type.
+   * Hover over the issue type you want to customize, click the [!UICONTROL Edit] icon ![Edit icon](assets/edit-icon.png) that appears to the far right, then type a new name for the issue type.
 
       ![](assets/customize-issue-type.png)
 

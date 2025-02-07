@@ -94,7 +94,7 @@ You must have the following to perform the steps in this article:
       </tbody> 
      </table>
 
-   * **Edit teams**: Select at least one team, click **the** Edit icon ![](assets/edit-icon.png), then use the following options to configure it:
+   * **Edit teams**: Select at least one team, click **the** Edit icon ![Edit icon](assets/edit-icon.png), then use the following options to configure it:
 
      <table style="table-layout:auto"> 
       <col> 

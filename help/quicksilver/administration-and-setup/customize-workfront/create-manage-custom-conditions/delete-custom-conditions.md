@@ -58,7 +58,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Select the tab of the object type (**Project**, **Task**, or **Issue**) where the condition that you want to delete is located.
 
-1. Hover over the condition you want to delete, then click the **Delete** icon ![](assets/delete.png) that appears on the far right.
+1. Hover over the condition you want to delete, then click the **Delete** icon ![Delete](assets/delete.png) that appears on the far right.
 1. In the confirmation message that appears, click **Delete Condition**.  
 
 1. In the **Delete Condition** box that appears, select a new condition in the drop-down list for all projects that were using the condition that you are deleting.

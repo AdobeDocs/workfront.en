@@ -71,7 +71,7 @@ To customize Home using a layout template:
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Click the down arrow ![](assets/dropdown-arrow.png) under **Customize what users see**, then click **Home Workspace**.
+1. Click the down arrow ![Down arrow](assets/dropdown-arrow.png) under **Customize what users see**, then click **Home Workspace**.
 
 1. In the tabs to the right, click one of the following:
 
