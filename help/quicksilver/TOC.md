@@ -2458,6 +2458,7 @@ feature-set: Workfront
     * [Event subscription best practices](wf-api/general/event-sub-best-practice.md)
     * [Event Subscription delivery requirements](wf-api/general/setup-event-sub-endpoint.md)
     * [Event subscription retries](wf-api/api/event-sub-retries.md)
+    * [Event subscription versioning](/help/quicksilver/wf-api/general/event-subs-versioning.md)
     * [Outbound message format for event subscriptions](wf-api/api/message-format-event-subs.md)
     * [FAQs - Event Subscriptions](wf-api/general/event-subs-faq.md)
   * Document Webhooks API {#document-webhooks-api}
