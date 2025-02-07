@@ -443,7 +443,7 @@ For more information on event subscription versioning, including specific differ
 
 ### Single subscription version change
 
-The request sytax for changing the version for a single subscription is:
+The request syntax for changing the version for a single subscription is:
 
 **Request URL**
 
@@ -480,7 +480,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 This endpoint changes the version of multiple subscriptions, by list of subscriptions or all customer's subscriptions flag.
 
-The request sytax for changing the version for a single subscription is:
+The request syntax for changing the version for a single subscription is:
 
 **Request URL**
 
