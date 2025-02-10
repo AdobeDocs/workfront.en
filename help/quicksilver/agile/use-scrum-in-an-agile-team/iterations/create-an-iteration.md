@@ -150,6 +150,6 @@ When you add a task as a story to an iteration, the [!UICONTROL Must Finish On t
 
 [!UICONTROL Iteration End Date] minus (-) [!UICONTROL Task Duration] equals (=) [!UICONTROL Task Planned Start Date]
 
-The [!UICONTROL Project End Date] is used instead of the   if the project start date is after the iteration start date, and the project end date is after the iteration end date.
+The [!UICONTROL Project End Date] is used instead of the Iteration End Date if the project start date is after the iteration start date, and the project end date is after the iteration end date.
 
 You can configure individual Scrum teams to use the project dates by default, rather than the iteration dates. For information, see the section [Configure how dates are applied when adding work items to an iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) in the article [Configure Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
