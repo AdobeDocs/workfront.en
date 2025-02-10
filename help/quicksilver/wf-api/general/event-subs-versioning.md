@@ -12,9 +12,9 @@ exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
 
 Workfront has two versions of event subscriptions. This article describes the differences between them.
 
-This is not a change to the Workfront API, but rather a change to the Event Subscription functionality. 
+The new version is not a change to the Workfront API, but rather a change to the event subscription functionality. 
 
-The ability to upgrade or downgrade event subscriptions ensures that when changes are made to the structure of events, existing subscriptions do not break, allowing you to test and upgrade to the new version without a gap in your Event Subscription.
+The ability to upgrade or downgrade event subscriptions ensures that when changes are made to the structure of events, existing subscriptions do not break, allowing you to test and upgrade to the new version without a gap in your event subscription.
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,6 @@ The following changes have been made for event subscriptions Version 2
 
 
 ### General changes
-
 
 
 <table style="table-layout:auto"> 
