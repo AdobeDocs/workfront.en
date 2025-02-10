@@ -9,9 +9,6 @@ exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
 ---
 # Share a task
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
-
 Your Adobe Workfront administrator can grant you access to view or edit tasks when they assign access levels. For more information about granting access to tasks, see [Grant access to tasks](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
 Along with the access level that users are granted, you can also grant them permissions to View, Contribute, or Manage specific tasks that you have access to share.
@@ -32,10 +29,6 @@ In addition to the considerations below, also see [Overview of sharing permissio
    * Manage
    * Contribute  
      ![](assets/screen-shot-2014-05-30-at-11.37.24-am-175x192.png) ![](assets/screen-shot-2014-01-23-at-1.12.40-pm-154x258.png) ![](assets/screen-shot-2014-01-22-at-10.53.00-am-182x252.png)
-
-     <span class="preview">In preview:
-     ![](assets/task-permissons.png)
-    </span>
 
 * When you share a task, users inherit the same permissions on all the children objects associated with the task, by default. For example, they inherit the same permissions on the children tasks, issues, and documents attached to the task.   
   For more information about the hierarchy of objects in Workfront, see&nbsp; [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
