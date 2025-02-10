@@ -102,16 +102,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
    >![](assets/visible-system-wide-350x480.png)
    >   
    >If you are concerned about a custom form where users might enter sensitive data when it is attached to certain objects, limiting sharing for those *objects* might be better rather than limiting access to the form itself.
-<!--
-   >[!NOTE]
-   >
-   >* When you make a custom form visible to everyone in the system, you allow users only to see and fill it out on objects they are assigned to, not to attach it to other objects. You can grant the ability to attach the custom form to objects using the option "Attach to custom data" explained under step 5.
-   >* Most organizations want to ensure that everyone in the system can fill out a custom form when it's attached to objects they work on and view its data in reports. If this is true for your organization, we recommend that you use **Everyone in the system can view**.
-   >   
-   >![](assets/share-custom-form-in-designer.png)
-   >   
-   >If you are concerned about a custom form where users might enter sensitive data when it is attached to certain objects, limiting sharing for those *objects* might be better rather than limiting access to the form itself.
--->
+
 1. Click **Save**.
 
 ## Share a custom form from the form designer
