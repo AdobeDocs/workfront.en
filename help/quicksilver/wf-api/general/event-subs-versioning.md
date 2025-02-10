@@ -31,7 +31,6 @@ The following changes have been made for event subscriptions Version 2
 ### General changes
 
 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
