@@ -8,7 +8,7 @@ feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
 ---
-# Event subscription Versioning
+# Event subscription versioning
 
 Workfront has two versions of event subscriptions. This article describes the differences between them.
 
