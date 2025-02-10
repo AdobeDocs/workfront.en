@@ -9,6 +9,8 @@ exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 ---
 # Share a project in Adobe Workfront
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 <!-- Audited: 1/2024 -->
 
 Your Adobe Workfront administrator can grant you access to view or edit projects when assigning your access level. For more information, see [Grant access to projects](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
@@ -23,7 +25,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 * By default, the creator of a project has permissions to manage the project and is also designated as the Project Owner. If the project is assigned to another owner, that user also has permissions to manage the project. When the project creator (or owner) shares the project with other users, they grant certain permissions to those users to control what they can do as they work on the project.
 
-  However, if a project owner does not have a Planner license, they do not have full access to manage the project. Only a user with a Plan license can have permissions to manage a project. For more information, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  However, if a project owner does not have a Plan or Standard license, they do not have full access to manage the project. Only a user with a Plan or Standard license can have permissions to manage a project. For more information, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 * You can share projects individually, or you can share several of them at a time. Sharing projects is identical to sharing other objects. For more information about sharing items in Workfront, see [Share an object](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md). 
 * You can grant the following permissions to a project:
@@ -33,6 +35,10 @@ In addition to the considerations below, also see [Overview of sharing permissio
    * Contribute
 
      ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
+
+     <span class="preview">In preview: 
+     ![](assets/project-permissions.png)
+    </span>
 
 * When you share a project, all the tasks, issues, and documents inherit the same permissions, unless otherwise specified.
 
