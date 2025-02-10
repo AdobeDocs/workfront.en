@@ -2454,6 +2454,7 @@ feature-set: Workfront
     * [Using the API to sync data for programs and services](wf-api/general/api-sync-data.md)
     * [Deactivate a User via the API](wf-api/general/deactivate-user-api.md)
   * Event Subscriptions {#event-subscriptions}
+    * [Event Subscriptions](wf-api/api/event-subscriptions.md)
     * [Event Subscription API](wf-api/general/event-subs-api.md)
     * [Event subscription best practices](wf-api/general/event-sub-best-practice.md)
     * [Event Subscription delivery requirements](wf-api/general/setup-event-sub-endpoint.md)
