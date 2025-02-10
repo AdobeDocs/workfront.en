@@ -79,7 +79,7 @@ You can also have a different calculation for the same field, on the new form. K
 >
 >Changes in calculated expressions can cause the field value on objects to become outdated. To ensure that you always view the up-to-date calculation in these fields, do one of the following:
 >
->* After saving an object where you have edited data in an attached custom form, click the More icon ![](assets/more-icon.png) on the object's main page, then Recalculate Custom Expressions.
+>* After saving an object where you have edited data in an attached custom form, click the More icon ![More icon](assets/more-icon.png) on the object's main page, then Recalculate Custom Expressions.
 >* Select the Recalculate Custom Expressions option when editing objects in bulk.
 >* Select the Update previous calculations option when editing a Calculated Custom Field on a custom form.
 
@@ -98,7 +98,7 @@ To reuse an existing calculated custom field:
 
 1. On the top-left side of the screen, click **Field library**.
 
-   ![](assets/field-library.png)
+   ![Field library](assets/field-library.png)
 
 1. Use the search box or expand the **Calculated** section to locate the calculated field you need, then drag the field where you want it to appear in the custom form.
 
@@ -136,7 +136,7 @@ To reuse an existing calculated custom field:
 
 1. On the left side of the screen, find **Calculated** and drag it to a section on the canvas.
 
-    ![](assets/drag-field-to-section.png)
+    ![Drag field to section](assets/drag-field-to-section.png)
 
 1. On the right side of the screen, configure the options that are available for the type of custom field you are adding:
 
@@ -290,14 +290,14 @@ To reuse an existing calculated custom field:
       >You can do any of the following to get help with your calculation:
       > 
       >* Hover over an expression in your calculation to see a description, an example showing how it can be used, and a "Learn More" link to more information in the article [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-      >  ![](assets/hover-expression-help-text.jpg)
+      >  ![Expression help text](assets/hover-expression-help-text.jpg)
       >* Use the color coding to identify the components you have added. Expressions display in blue and fields display in green.
-      >  ![](assets/colors-fields-expressions.jpg)
+      >  ![Colors for field expressions](assets/colors-fields-expressions.jpg)
       >* Find calculation errors, highlighted in pink, as you go. You can hover over a highlighted error to display a brief description of its cause.
-      >  ![](assets/error-help.png) 
+      >  ![Error help](assets/error-help.png) 
       >* In the area below your calculation, preview the results on an existing Workfront object.
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![](assets/preview-calc.jpg)
+      >  ![Preview calculation](assets/preview-calc.jpg)
       >* Reference expressions in a long calculation using the line numbers that display on the left.
 
       +++

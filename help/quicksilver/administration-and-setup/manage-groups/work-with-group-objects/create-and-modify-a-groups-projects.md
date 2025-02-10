@@ -56,10 +56,10 @@ You must have the following to perform the steps in this article:
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png).
 
 1. Click the name of the group for which you want to create, view, or work with projects.
-1. In the left panel, click **Projects** ![](assets/projects-in-main-menu.png) to view a list of the projects associated with the group.
+1. In the left panel, click **Projects** ![Projects in Main Menu](assets/projects-in-main-menu.png) to view a list of the projects associated with the group.
 
 1. Do any of the following:
 

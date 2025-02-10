@@ -845,10 +845,10 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 (Release Date - TBD) This endpoint will allow a Workfront user (or perhaps an automated workflow event) to perform an action in the external system. The /customAction endpoint accepts a "name" parameter, which allows the webhook provider to implement multiple custom operations.
 
 The webhook provider registers custom actions with Workfront by including the actions in the /serviceInfo response under customActions. Workfront loads this list when setting up or refreshing the webhook provider under Setup > Documents > Custom Integrations.  
-![](assets/mceclip0-350x262.png)
+![Perform a custom action](assets/mceclip0-350x262.png)
 
 Users can trigger the custom action by selecting the section under "Document Actions"  
-![](assets/mceclip1-350x95.png)
+![Trigger custom actions](assets/mceclip1-350x95.png)
 
 **URL**
 

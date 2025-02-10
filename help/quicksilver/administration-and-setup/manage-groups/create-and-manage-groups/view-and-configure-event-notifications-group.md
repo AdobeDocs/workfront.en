@@ -65,7 +65,7 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png).
 
 1. Click the name of the top-level group.
 1. In the left menu, click **Event notifications**.

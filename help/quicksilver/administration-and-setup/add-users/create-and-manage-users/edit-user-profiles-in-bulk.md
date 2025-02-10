@@ -67,7 +67,7 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-users}}
 
-1. Select more than one user, then click the Edit icon ![](assets/edit-icon.png).
+1. Select more than one user, then click the Edit icon ![Edit icon](assets/edit-icon.png).
 
 1. In the **Edit User** box that appears, change any of the following options:
 

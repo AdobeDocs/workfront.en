@@ -48,7 +48,7 @@ You must have the following to perform the steps in this article:
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png).
 
 1. Click the name of the group for which you want to create or modify programs.
 1. In the left panel, click **Programs** to list the programs associated with the group that you have access to view (and any subgroups below it).

@@ -317,7 +317,7 @@ For more information about [!DNL Workfront] permissions, see [Create or modify c
 
 1. Click the **[!UICONTROL Groups]** tab.
 
-   ![](assets/groupstab.png)
+   ![Groups tab](assets/groupstab.png)
 
 1. Ensure the user belongs to at least one [!DNL Workfront] group that has Access levels that include the [!UICONTROL Create] and [!UICONTROL Delete] permissions.
 

@@ -23,7 +23,7 @@ To use the SSO functionality in Workfront, your organization needs to set up an 
 
 Federated solutions allow users to log in to all their applications by entering their username and password in a centralized login portal.
 
-![](assets/overview-sso-wf-fed-only.png)
+![SSO federated](assets/overview-sso-wf-fed-only.png)
 
 
 ## Configure your firewall

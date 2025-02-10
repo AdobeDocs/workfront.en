@@ -64,8 +64,8 @@ For more detail about the information in this table, see [Access requirements in
 1. Select **[!UICONTROL Trust Relationship]** > **[!UICONTROL Relying Party Trusts]** in the left-hand pane.
 
 1. Right-click on the relying party trust related to [!DNL Adobe Workfront], then select **[!UICONTROL Properties]**.
-1. Click on the **[!UICONTROL Advanced]** tab, then select **[!UICONTROL SHA-1]** from the **[!UICONTROL Secure hash algorithm]** drop-down menu.\
-   ![](assets/1-350x287.png)
+1. Click on the **[!UICONTROL Advanced]** tab, then select **[!UICONTROL SHA-1]** from the **[!UICONTROL Secure hash algorithm]** drop-down menu.
+   ![SHA-1](assets/1-350x287.png)
 
 ## Cause 2: ADFS Signing Certificate is about to expire and has been replaced by a new Certificate with overlapping dates
 

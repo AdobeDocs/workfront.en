@@ -28,7 +28,7 @@ To access the [!UICONTROL Workflow] panel:
 
    The **[!UICONTROL Workflow]** panel appears.
 
-   ![](assets/workflow-panel-350x115.png)
+   ![Workflow panel](assets/workflow-panel-350x115.png)
 
    Each section on the Workflow panel shows the progress and status of the proof, stages, and reviewers.
 

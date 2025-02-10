@@ -44,7 +44,7 @@ Customers need to ensure that any endpoints consuming outbound messages from Wor
 
 The following flowchart shows the strategy for reattempting message deliveries with Workfront Event Subscriptions:
 
-![](assets/event-subscription-circuit-breaker-retries-350x234.png)
+![Event sub retries](assets/event-subscription-circuit-breaker-retries-350x234.png)
 
 The following explanations correspond with the steps depicted in the flowchart:
 

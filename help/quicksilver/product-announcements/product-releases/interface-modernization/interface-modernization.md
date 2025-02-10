@@ -26,6 +26,14 @@ We have updated the Approval settings dialog box with a more modern design that 
 
 To view the settings, go to Setup > Preferences > Approvals > Select the settings icon at the top of the page.
 
+### Interface update for the Approvals area in the Setup > Groups 
+
+**Preview release: February 6, 2025; Production release: To be announced**
+
+We have updated the Approval settings dialog box with a more modern design that is consistent with other areas of Workfront.
+
+To view the settings, go to Setup > Preferences > Approvals > Select the settings icon at the top of the page.
+
 ### Interface update for the Proof Roles page in Setup
 
 **Preview release: January 23, 2025; Production release: To be announced**
@@ -100,6 +108,50 @@ This update includes visual changes to the area. No functionality has changed.
 We have updated the Project, Task, and Issue Approvals lists in Setup > Processes > Approvals with a more modern design that is consistent with other areas of Workfront.
 
 This update includes visual changes to the area. No functionality has changed.
+
+## Agile
+
+### Add Stories and Issues to an iteration
+
+**Preview release: February 6, 2025; Production release: To be announced**
+
+We have updated the Add story and Add issue dialog box with a more modern design that is consistent with other areas of Workfront. 
+
+This update includes visual changes to the area. No functionality has changed.
+
+To view this change, go to Teams > choose a team > Iterations > Choose an iteration, then click **New story** or **New issue**.
+
+### Interface update for the Teams > Backlog area
+
+**Preview release: January 23, 2025; Production release: Starting the week of February 13, 2025**
+
+We have updated the Teams > Backlog area with a more modern design that is consistent with other areas of Workfront.
+
+This update includes the following changes:
+
+* Visual enhancements to the Stories and Issues tab as well as the Breakdown Story dialog box
+* A new dialog box for the Plan Iteration tool
+
+### Interface update for the Iterations list
+
+**Preview release: January 23, 2025; Production release: Starting the week of February 3, 2025**
+
+We have updated the Teams > Iterations list with a more modern design that is consistent with other areas of Workfront.
+
+This update includes visual changes to the area. No functionality has changed.
+
+To view this change, go to Teams > choose a team > Iterations.
+
+### Add Stories and Issues from Backlog
+
+**Preview release: January 30, 2025; Production release: To be announced**
+
+We have updated the Add story and Add issue dialog box with a more modern design that is consistent with other areas of Workfront. 
+
+This update includes visual changes to the area. No functionality has changed.
+
+To view this change, go to Teams > choose a team > Backlog, then click **New story** or **New issue**.
+
 
 ## Reports and Dashboards
 

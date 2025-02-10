@@ -83,7 +83,7 @@ As a [!DNL Workfront] administrator, you can access your Custom Refresh Sandbox 
 
 To access your Custom Refresh Sandbox:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![Gear settings icon](assets/gear-icon-settings.png).
 
 1. Click **[!UICONTROL System]** >**[!UICONTROL Preferences]**.
 

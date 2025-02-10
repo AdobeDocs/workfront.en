@@ -75,7 +75,7 @@ To perform them for a group, you must be a manager of that group.</p> </td>
 1. Click **Set Terminology** near the upper-right corner of the page.
 1. Do any of the following:
 
-   * To use an alternative term provided by Workfront, click the down arrow  ![](assets/dropdown-arrow.png) next to the label, then click the alternative label you want in the drop-down list.
+   * To use an alternative term provided by Workfront, click the down arrow  ![Down arrow](assets/dropdown-arrow.png) next to the label, then click the alternative label you want in the drop-down list.
 
      >[!NOTE]
      >

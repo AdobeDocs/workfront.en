@@ -177,69 +177,69 @@ The following tables display the users to import and several user attributes for
 
 1. Go to the 'CMPY Company' sheet.
 
-   It should be empty unless companies are already in the system. ![](assets/cmpysheet-350x16.png)
+   It should be empty unless companies are already in the system. ![Company sheet](assets/cmpysheet-350x16.png)
 
-   ![](assets/companyid--1--350x78.png)
+   ![Company ID](assets/companyid--1--350x78.png)
 
 1. Specify TRUE into the **isNew** column.
 1. Repeat this action for each company being added. (In this example, complete this action for rows 3-6, because four companies are being added.)
 
-   ![](assets/cmpyisnew-350x86.png)
+   ![Company is new](assets/cmpyisnew-350x86.png)
 
 1. Specify a unique ID.
 
    This must be done for each row for the ID column. Integers starting at 1 work well when creating new records.
 
-   ![](assets/cmpyisnew-350x86.png)
+   ![Company is new](assets/cmpyisnew-350x86.png)
 
 1. Set a Name.
 
    Specify the names of each customer in the **setName** column.
 
-   ![](assets/companyid-350x78.png)
+   ![Company ID](assets/companyid-350x78.png)
 
 1. Go to the GROUP Group sheet.
 
    Unless you have already created groups in Workfront, this sheet should display only the Default Group provisioned with every account of Workfront.
 
-   ![](assets/groupsheet-350x15.png) ![](assets/emptygroupsheet-350x85.png)
+   ![Group sheet](assets/groupsheet-350x15.png) ![Empty group sheet](assets/emptygroupsheet-350x85.png)
 
 1. Set the **isNew** column.According to the scenario, 4 groups will be imported, so specify TRUE into rows 4 through 7 for the 'isNew' column.
 1. Specify a unique ID.
 
    This must be done for each row for the ID column. Integers starting at 1 work well when creating new records.
 
-   ![](assets/groupids-350x85.png)
+   ![Group IDs](assets/groupids-350x85.png)
 
 1. Set a Name.
 
    Specify the names of each department in the **setName** column.
 
-   ![](assets/groupnames-350x85.png)
+   ![Group names](assets/groupnames-350x85.png)
 
    Specify role information. Go to the ROLE Role sheet.
 
 1. Unless you have already created or deleted roles in your account, this sheet should display 8 roles that are provisioned with every account of Workfront.
 
-   ![](assets/groupnames-350x85.png)
+   ![Group names](assets/groupnames-350x85.png)
 
 1. Set True statement.
 
    Seven Job Roles are importing, input TRUE into rows 12 through 18 for the 'isNew' column.
 
-   ![](assets/roleisnew-350x104.png)
+   ![Role is new](assets/roleisnew-350x104.png)
 
 1. Specify a unique ID.
 
    This must be done for each row for the ID column. Integers starting at 1 work well when creating new records. 
 
-   ![](assets/usersheet-350x16.png)
+   ![User sheet](assets/usersheet-350x16.png)
 
-   ![](assets/roleisnew--1--350x104.png)
+   ![Role is new](assets/roleisnew--1--350x104.png)
 
 1. Provide a names for each role by typing it in the setName column.
 
-   ![](assets/roleisnew-350x104.png)
+   ![Role is new](assets/roleisnew-350x104.png)
 
 1. Provide additional details as needed.
 
@@ -249,23 +249,23 @@ The following tables display the users to import and several user attributes for
 
    Unless you have already created users in your account, this sheet should display only the Admin User that is provisioned with every account of Workfront.
 
-   ![](assets/rolenames-350x104.png) ![](assets/emptyusersheet-350x52.png)
+   ![Role names](assets/rolenames-350x104.png) ![Empty user sheet](assets/emptyusersheet-350x52.png)
 
 1. Set True value by specifying TRUE into rows 4 through 9 for the 'isNew' column, since 6 users are being imported.
 
-   ![](assets/userisnew-350x52.png)
+   ![User is new](assets/userisnew-350x52.png)
 
 1. Set a unique ID by specifying a unique ID in each row for the ID column. Typically integers starting at 1 work well for new records.
 
-   ![](assets/userisnew-350x52.png)
+   ![User is new](assets/userisnew-350x52.png)
 
 1. Input the names of each user into the 'setFirstName' and 'setLastName' columns.
 
-   ![](assets/usernames-350x52.png)
+   ![Usernames](assets/usernames-350x52.png)
 
 1. Set detail values by specifying values into the 'setEmail,' 'setPassword,' and 'setUsername' columns.
 
-   ![](assets/usercredentials-350x52.png)
+   ![User credentials](assets/usercredentials-350x52.png)
 
 1. Specify Access Level values.
 
@@ -273,13 +273,13 @@ The following tables display the users to import and several user attributes for
 
    Repeat this step for each user and access level.
 
-   ![](assets/copyalid-350x171.png) ![](assets/pastealid-350x59.png)
+   ![Copy access level ID](assets/copyalid-350x171.png) ![Paste access elevel ID](assets/pastealid-350x59.png)
 
 1. Specify Home Group details.
 
    According to the scenario, Chris Manning belongs to the Marketing group. On the GROUP Group sheet, locate the ID for the Marketing group, copy it into the clipboard, and on the USER User sheet paste it in the **setHomeGroupID**column on Chris' row. ​Repeat this step for each user and group assignment.
 
-   ![](assets/copygroupid-1-350x133.png) ![](assets/pastegroupid-350x59.png)
+   ![Copy group ID](assets/copygroupid-1-350x133.png) ![Paste group ID](assets/pastegroupid-350x59.png)
 
 1. Specify Company details.
 
@@ -287,17 +287,17 @@ The following tables display the users to import and several user attributes for
 
    Repeat this step for each user and group assignment.
 
-   ![](assets/companyid--1--350x78.png)
+   ![Company ID](assets/companyid--1--350x78.png)
 
-   ![](assets/pastecompanyid-350x84.png)
+   ![Paste company ID](assets/pastecompanyid-350x84.png)
 
 1. Specify Job Role details.
 
    According to the scenario, Chris Manning will have the Business Analyst role. On the ROLE Role sheet, locate the ID for the Business Analyst role, copy it into the clipboard, and on the USER User sheet paste it in the 'setRoleID' column on Chris' row. ​Repeat this step for each user and group assignment.
 
-   ![](assets/copyroleid-350x149.png)
+   ![Copy role ID](assets/copyroleid-350x149.png)
 
-   ![](assets/pasteroleid-350x95.png)
+   ![Paste role ID](assets/pasteroleid-350x95.png)
 
 1. Fill in other user details, as needed, then save the file.
 1. Import the Excel File.

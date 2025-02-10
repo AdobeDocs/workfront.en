@@ -71,7 +71,7 @@ For more detail about the information in this table, see [Access requirements in
    >
    >The options in the Action Type drop-down menu vary depending on the audit log selected.
 
-   ![](assets/audit-logs.jpg)
+   ![Audit logs](assets/audit-logs.jpg)
 
 1. Click **Apply**.
 1. (Optional) Click **Clear Filters** to reset changes made to the filters.

@@ -58,10 +58,10 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Return to Work List](assets/go-back-to-work-list-350x314.png)
 
 1. Go to the work item where you want to upload a proof.
-1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar. 
+1. Click the **[!UICONTROL Document]** icon ![Document icon](assets/documents.png) in the navigation bar. 
 1. Click **[!UICONTROL New File]** near the bottom of the plugin.
 1. Enable the **[!UICONTROL Create a proof]** toggle.
 1. (Optional) Type a name for the proof in the **[!UICONTROL Proof Name]** text box.
@@ -69,14 +69,14 @@ You must have the following access to perform the steps in this article:
 1. (Optional) Add approvers.
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
-   ![](assets/add-comment.png)
+   ![Add a comment](assets/add-comment.png)
 
 1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu.
 
 1. (Optional) Select **[!UICONTROL Add outside file]** to add a file from your computer.
 1. Click **[!UICONTROL Upload]**, then configure any desired export options based on the asset type chosen above. 
 
-   ![](assets/plugin-files-350x307.png)   
+   ![Files in plugin](assets/plugin-files-350x307.png)   
    The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
 
 
@@ -84,10 +84,10 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Return to Work List](assets/go-back-to-work-list-350x314.png)
 
 1. Go to the work item where you want to upload a proof.
-1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar. 
+1. Click the **[!UICONTROL Document]** icon ![Document icon](assets/documents.png) in the navigation bar. 
 
 1. Click **[!UICONTROL New File]** near the bottom of the plugin.
 1. Enable the **[!UICONTROL Create a proof]** toggle.
@@ -104,7 +104,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
-   ![](assets/add-comment-automated-approval.png) 
+   ![Add comment to automated approval](assets/add-comment-automated-approval.png) 
 
 1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu.
 1. (Optional) Select **[!UICONTROL Add outside file]** to add a file from your computer.
@@ -117,10 +117,10 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
 
 1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Return to Work List](assets/go-back-to-work-list-350x314.png)
 
 1. Go to the work item you need to upload a document to.
-1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png)in the navigation bar. 
+1. Click the **[!UICONTROL Document]** icon ![Document icon](assets/documents.png)in the navigation bar. 
 
 1. Click **[!UICONTROL New Version]** near the bottom of the plugin.
 1. Enable the **[!UICONTROL Create a proof]** toggle.

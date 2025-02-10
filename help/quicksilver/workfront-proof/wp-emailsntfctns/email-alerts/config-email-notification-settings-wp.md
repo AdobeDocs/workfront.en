@@ -145,7 +145,7 @@ You can configure proof settings for proofs you create.
 You can change email alerts for a particular recipient in a batch action.
 
 1. Click **[!UICONTROL Contacts]** in the left navigation panel.
-1. Click the **[!UICONTROL More]** menu ![](assets/more-button-small.png) for the recipient, then click **[!UICONTROL View member details]** in the dropdown menu.
+1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-button-small.png) for the recipient, then click **[!UICONTROL View member details]** in the dropdown menu.
 
 1. Open the **[!UICONTROL Shared items]** section.
 1. Select the checkbox to the left of each item for which you want to change the email alert.

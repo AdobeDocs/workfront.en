@@ -68,7 +68,7 @@ Attached to the Plan license, the built-in System Administrator access level is 
 
 Users with the System Administrator access level can do everything in Workfront. They can view and edit all Workfront objects and information entered in Workfront by all other users.
 
-They also have full access to the Setup area, where they can change any setting at the system level. And they can access all areas in the Main Menu ![](assets/main-menu-icon.png) or the Main Menu ![](assets/lines-main-menu.png), if available.
+They also have full access to the Setup area, where they can change any setting at the system level. And they can access all areas in the Main Menu ![Main menu icon](assets/main-menu-icon.png) or the Main Menu ![Main menu icon](assets/main-menu-icon.png), if available.
 
 For more information, see [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
@@ -80,7 +80,7 @@ Also attached to the Plan license, the Planner access level is designed for:
 * Anyone who is responsible for planning, creating, and managing tasks, projects, portfolios, and programs
 * Anyone who is responsible for assigning work (tasks and issues) to other users
 * Users who build reports and who approve timesheets, work items, and documents
-* Users who need access to all areas in the  Main Menu ![](assets/main-menu-icon.png) or the Main Menu ![](assets/lines-main-menu.png), if available
+* Users who need access to all areas in the  Main Menu ![Main menu icon](assets/main-menu-icon.png) or the Main Menu ![Main menu icon](assets/main-menu-icon.png), if available
 
 You can create a custom version of the Planner built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
 
@@ -116,7 +116,7 @@ Users with this access level:
 * Can approve work and documents, but not timesheets
 * Can access and share reports
 * Can communicate with other users in the system  
-* Cannot access all the areas in the Main Menu ![](assets/main-menu-icon.png) or the Main Menu ![](assets/lines-main-menu.png), if available, and their  "Users"  area is named Teams. In the Teams area, users with this access level can view only teams that they belong to, along with the work assigned to those teams.
+* Cannot access all the areas in the Main Menu ![Main menu icon](assets/main-menu-icon.png) or the Main Menu ![Main menu icon](assets/main-menu-icon.png), if available, and their  "Users"  area is named Teams. In the Teams area, users with this access level can view only teams that they belong to, along with the work assigned to those teams.
 * Have limited ability to create objects—they can't create projects, portfolios, programs, or reports.
 
 You can create a custom version of the Worker built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
@@ -152,7 +152,7 @@ For example, a stakeholder with this access level could log in to Workfront to p
 Users with the Reviewer access level:
 
 * Cannot be assigned work items or approve timesheets
-* Can access the Requests and Documents areas in the Main Menu ![](assets/main-menu-icon.png) or the Main Menu ![](assets/lines-main-menu.png), if available
+* Can access the Requests and Documents areas in the Main Menu ![Main menu icon](assets/main-menu-icon.png) or the Main Menu ![Main menu icon](assets/main-menu-icon.png), if available
 * Have limited ability to create objects—they can't create projects, portfolios, programs, or reports.
 
 You can create a custom version of the Reviewer built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
@@ -279,7 +279,7 @@ Users with this access level:
 * Can upload and approve documents
 * Can review the status of issues they have submitted
 * Cannot be assigned to work items  
-* Can  access requests only from the Requests area in Main Menu ![](assets/main-menu-icon.png) or the Main Menu ![](assets/lines-main-menu.png), if available. For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Can  access requests only from the Requests area in Main Menu ![Main menu icon](assets/main-menu-icon.png) or the Main Menu ![Main menu icon](assets/main-menu-icon.png), if available. For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 You can create a custom version of the Requester built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
 
