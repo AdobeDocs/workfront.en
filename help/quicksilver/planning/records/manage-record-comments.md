@@ -137,7 +137,7 @@ You must have the following access to perform the steps in this article:
 
 1. Start entering a comment in the **New comment** box. 
    
-   ![](assets/empty-comment-box-on-record.png)
+   ![Empty comment box on record](assets/empty-comment-box-on-record.png)
 
    >[!TIP]
    >

@@ -12,7 +12,9 @@ exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -161,6 +163,9 @@ For information about creating a project from a template, see [Create a project 
    * [Task Settings](#task-settings) 
    * [Issue Settings](#issue-settings) 
    * [Access](#access)
+   * [Linked folders](#linked-folders) (conditional availability) 
+   <!--* <span class="preview">[Comment](#comment)</span>-->
+   
 
    >[!NOTE]
    >
@@ -657,7 +662,7 @@ For information about how these settings affect creating new tasks, see the sect
 
 1. Click **Save**.
 
-### Linked folders
+### Linked folders (conditional availability)
 
 Linked folder functionality automatically creates folders in Adobe Experience Manager Assets, and connects these folders to Workfront. 
 
@@ -667,11 +672,28 @@ This section appears only if all of the following apply:
 * Your organization has enabled and configured an integration with Adobe Experience Manager
 * The template used to create this project has enabled and configured linked folders.
 
-For instructions on editing Linked folders, see [Edit workflow values in a project](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) in the article Use workflows in the Experience Manager Assets integration.
+For instructions on editing Linked folders, see [Edit workflow values in a project](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) in the article [Use workflows in the Experience Manager Assets integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
 
 >[!NOTE]
 >
 >Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.
+
+<!--
+<div class="preview">
+
+### Comment
+
+1. Begin editing your project as described above.
+1. Click **Comment** in the left panel.
+
+   ![project-comment-in-edit-project-box](assets/project-comment-in-edit-project-box.png)
+
+1. Add a comment in the space provided. Workfront adds the comment in the Updates area of the project. For more information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Click **Save**. 
+
+</div>
+
+-->
 
 ## Edit a project in the project header (limited)
 
@@ -796,6 +818,7 @@ For more information about editing the Task Settings area, see the section [Task
 For more information about editing the Issue Settings area, see the section [Issue Settings](#issue-settings) in this article.
 1. Click **Access** to edit the access settings for all selected projects.
 For more information about editing the Access area, see the section [Access](#access) in this article.
+<!--1. <span class="preview">Click **Comment**, then add a comment in the space provided. Workfront adds the comment in the **Updates** area of each project. For information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>--> 
 1. (Optional) To remove any of the information you added in the Edit Projects box, hover over an edited field, then click the **x** discard icon to the upper-right of the field. 
 
    ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
