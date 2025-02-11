@@ -27,7 +27,7 @@ For information on the endpoints used for upgrading or downgrading event subscri
 
 ## Changes between Version 1 and Version 2
 
-The following changes have been made for event subscriptions Version 2
+The following changes have been made for event subscriptions Version 2:
 
 
 ### General changes
