@@ -66,7 +66,7 @@ You can add additional object types to the form so that it can be attached to mu
 
 1. At the top of the form, click the plus sign + after **Object Types**, then select the type you want in the menu that displays. You can repeat this to add as many object types as you want. 
 
-   ![](assets/add-new-object.png)
+   ![Add new object](assets/add-new-object.png)
 
 1. Click **Save and Close**.
 
@@ -92,7 +92,7 @@ To delete an object type:
 1. Select the custom form you want to edit, then click ![Edit icon](assets/edit-icon2.png).
 1. Click the X on any of the **Object Types** that you want to delete from the form.
 
-   ![](assets/delete-object-types.png)
+   ![Delete object types](assets/delete-object-types.png)
 
 1. (Optional) Repeat the previous step for any other object type you want to remove from the form.
 1. Click **Apply**, then click **Save and Close**.

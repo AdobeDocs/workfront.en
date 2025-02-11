@@ -38,7 +38,7 @@ To match the modern look of other areas in the new Workfront experience, the sty
 
 For more information on assignments in lists, see [Assign tasks](../../../manage-work/tasks/assign-tasks/assign-tasks.md) or [Assign issues](../../../manage-work/issues/manage-issues/assign-issues.md).
 
-![](assets/assignments-updates-350x193.png)
+![Assignments updates](assets/assignments-updates-350x193.png)
 
 ## New look and feel for typeahead fields in updated lists and reports
 
@@ -58,7 +58,7 @@ To match the modern look of other areas in the new Workfront experience, the sty
 
 For information on updated lists, see the [The difference between the updated and the legacy lists](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) section in the article [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-![](assets/typeahead-updates-350x336.png)
+![Typeahead field](assets/typeahead-updates-350x336.png)
 
 ## Report on system updates
 
@@ -74,5 +74,5 @@ For example, you can set up this report to show activity around a specific custo
 
 Previously, you could report on system updates only via the Workfront API.
 
-To learn more about this report and what you can use it for, see [Report on the Updates area](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+To learn more about this report and what you can use it for, see [Report on the Updates area with a Journal Entry report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 

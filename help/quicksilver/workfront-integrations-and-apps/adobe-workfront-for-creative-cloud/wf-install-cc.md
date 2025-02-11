@@ -96,7 +96,7 @@ You can install [!DNL Adobe Workfront for design and video] for yourself from th
    >
    >If you're using Premiere Pro, you must have a project open to access this menu. 
 
-   ![](assets/adobe-workfront-menu.png)
+   ![Workfront menu](assets/adobe-workfront-menu.png)
 
 
    >[!TIP]
@@ -115,7 +115,7 @@ You can install [!DNL Adobe Workfront for design and video] for yourself from th
    >[!TIP]
    >
    >* To find your domain, open a browser, navigate to your [!DNL Workfront] instance, and copy the first part of the URL:  
-   >![](assets/domain-350x50.png)   
+   >![Locate domain](assets/domain-350x50.png)   
    >
    > * If your Workfront instance is integrated with Experience Cloud, ask your admin to provide you with the Workfront domain found under Product > Workfront in the Admin Console.
 

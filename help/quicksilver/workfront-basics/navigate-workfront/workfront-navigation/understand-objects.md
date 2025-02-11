@@ -277,7 +277,7 @@ You can report on the following objects when using the report builder in the [!D
 * [!UICONTROL Iteration]
 * [!UICONTROL Job Role]
 * [!UICONTROL Journal Entry]
-  * You can report on tracked system updates in the [!UICONTROL Updates] area of objects like tasks, projects, issues, etc. For more information, see [Report on the [!UICONTROL Updates] area](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+  * You can report on tracked system updates in the [!UICONTROL Updates] area of objects like tasks, projects, issues, etc. For more information, see [Report on the Updates area with a Journal Entry report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 * [!UICONTROL Layout Template]
 * [!UICONTROL Milestone]

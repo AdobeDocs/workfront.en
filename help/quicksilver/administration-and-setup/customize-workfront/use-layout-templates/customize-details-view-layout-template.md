@@ -13,7 +13,7 @@ exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-As an Adobe Workfront administrator, you can use a layout template to determine what information appears when a user clicks the Details icon ![](assets/project-details-icon.png) in the left panel while viewing a task, issue, document, program, or portfolio.
+As an Adobe Workfront administrator, you can use a layout template to determine what information appears when a user clicks the Details icon ![Details icon](assets/project-details-icon.png) in the left panel while viewing a task, issue, document, program, or portfolio.
 
 <!--
 or billing record
@@ -32,22 +32,22 @@ The changes you make to the Details view for an object also determine the availa
 
 * "Create object" boxes, such as Create Task
 
-  ![](assets/new-task-dialog.png)
+  ![New task dialog](assets/new-task-dialog.png)
 
 
 * "Edit object" screens when editing an object, such as Edit Task, Edit Issue, and Edit Project
 
-  ![](assets/edit-task-screen.png)
+  ![Edit task screen](assets/edit-task-screen.png)
 
 
 * "Edit objects" screens when editing objects in bulk. Currently this is supported for editing projects in bulk.
 
-  ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
+  ![Customize edit projects](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
   
 
-* Summary panel ![](assets/summary-panel-icon.png) for lists of tasks and issues
+* Summary panel ![Summary panel](assets/summary-panel-icon.png) for lists of tasks and issues
 
-  ![](assets/summary-area.png)
+  ![Summary area](assets/summary-area.png)
 
   >[!NOTE]
   >
@@ -94,14 +94,14 @@ To perform them for a group, you must be a manager of that group.</p> </td>
 ## Customize what users see in the Details view
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Click the down arrow ![](assets/dropdown-arrow-12x12.png) under **Customize what users see**, then click **Project**, **Task**, **Issue**, **Program**, or **Portfolio.**
+1. Click the down arrow ![Down arrow](assets/dropdown-arrow-12x12.png) under **Customize what users see**, then click **Project**, **Task**, **Issue**, **Program**, or **Portfolio.**
 <!--
 , or billing record
 -->
 
 1. In the **Details** section, do any of the following to customize what users see in the Details view:
 
-   * Drag any section headers ![](assets/move-icon---dots.png) to change their order.
+   * Drag any section headers ![Move icon](assets/move-icon---dots.png) to change their order.
    * Enable or disable options under the various areas (such as **Overview**, **Finance**, and **Custom Forms**) to show or hide them.
 
      If you hide all fields in one of these sections, the entire section is hidden.

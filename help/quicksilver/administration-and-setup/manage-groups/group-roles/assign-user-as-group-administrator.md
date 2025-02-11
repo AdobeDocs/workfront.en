@@ -54,7 +54,7 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png).
 
 1. Click the name of the group for which you want to assign a group administrator.
 1. In the header, near the upper-right corner, click one of the user profile pictures under **Group Administrators**.

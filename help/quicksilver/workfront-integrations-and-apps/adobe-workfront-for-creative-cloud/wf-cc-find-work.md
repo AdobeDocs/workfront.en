@@ -116,4 +116,4 @@ Use the [!UICONTROL Search] bar to locate projects, tasks, issues, and documents
 
 You can use the [!UICONTROL Menu] icon to navigate to parent items in a project.
 
-![](assets/go-back-to-work-list-350x314.png)
+![Return to Work List](assets/go-back-to-work-list-350x314.png)

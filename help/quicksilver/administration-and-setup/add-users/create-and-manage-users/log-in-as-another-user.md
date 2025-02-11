@@ -80,7 +80,7 @@ For more detail about the information in this table, see [Access requirements in
    >
    >* If you are a group administrator, you can log in only as users in the groups you manage. Also, the User Admin (Group Users) permission must be enabled in your access level:
    >   
-   >  ![](assets/group-admin-user.png)
+   >  ![Group admin user](assets/group-admin-user.png)
    >   
    >  This setting is disabled by default. For more information, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
    >   
@@ -147,7 +147,7 @@ For example, if you comment on an item while logged in as another user, a statem
 ### View audit information {#view-audit-information}
 
 1. Log in to Workfront as a Workfront administrator or group administrator.
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
 
 1. Click **Log in As,** then click the **Access Log** tab.
 

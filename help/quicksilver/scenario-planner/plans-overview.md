@@ -16,41 +16,6 @@ As a business manager, you can use the [!DNL Adobe Workfront Scenario Planner] t
 
 For information about access requirements to access the Scenario Planner, see [Access needed to use the Scenario Planner](/help/quicksilver/scenario-planner/access-needed-to-use-sp.md). 
 
-<!--To use the [!DNL Adobe Workfront Scenario Planner] you must have the following access:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront] plan</a>*</p> </td> 
-   <td>[!UICONTROL Business] or higher</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>License type*</p> </td> 
-   <td> <p>[!UICONTROL Review] or higher. For more information, see <a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] licenses overview</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the [!DNL Adobe Workfront Scenario Planner] to access functionality described in this article.</p> <p>For information about obtaining the [!DNL Workfront Scenario Planner], see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>[!UICONTROL View] access or higher to the [!DNL Scenario Planner]</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Object permissions</p> </td> 
-   <td> <p>[!UICONTROL View] permissions or higher for a plan***************
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        (NOTE: this might change if they have permissions for initiatives/ scenarios, etc) 
-      </MadCap:conditionalText>
-     ***************</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-*To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
---> 
-
 ## Plans overview
 
 <!--

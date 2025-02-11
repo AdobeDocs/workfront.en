@@ -13,7 +13,7 @@ exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
 
 As an Adobe Workfront administrator, you can use a layout template to specify which list controls appear in the Filter, View, and Grouping drop-down menus. These menus appear above lists throughout Workfront, such as the list of tasks for a project:
 
-![](assets/filter-view-grouping-layout-templates.png)
+![Filter view grouping layout templates](assets/filter-view-grouping-layout-templates.png)
 
 For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -56,25 +56,25 @@ To perform them for a group, you must be a manager of that group.</p> </td>
 ## Customize Filter, View, and Grouping list controls:
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Click the down arrow ![](assets/down-arrow-blue.png) under **Customize what users see**, then click **Lists** in the drop-down menu that displays.
+1. Click the down arrow ![Down arrow](assets/down-arrow-blue.png) under **Customize what users see**, then click **Lists** in the drop-down menu that displays.
 
-   ![](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
+   ![Customize what users see](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
 
-1. Click the down arrow ![](assets/down-arrow-blue.png) under **Select a list to customize**, then select the type of Workfront object for which you want to customize the Filter, View, and Grouping list controls.
+1. Click the down arrow ![Down arrow](assets/down-arrow-blue.png) under **Select a list to customize**, then select the type of Workfront object for which you want to customize the Filter, View, and Grouping list controls.
 
-   ![](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
+   ![Select a list to customize](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
 
    >[!NOTE]
    >
    >If you select Projects as the list to customize, then disable Projects I'm On or Projects I Own in the Filter section, users will no longer see or be able to use that filter:
    >
-   >* In the list of filters that displays when they click the filter icon ![](assets/filter-nwepng.png) above a list:
+   >* In the list of filters that displays when they click the filter icon ![Filter icon](assets/filter-nwepng.png) above a list:
    >   
-   >  ![](assets/disable-filters-projects-im-on-or-own.png)
+   >  ![Disable filters](assets/disable-filters-projects-im-on-or-own.png)
    >   
    >* In the header on the Projects area header:
    >   
-   >  ![](assets/disable-filter-pills.png)
+   >  ![Disable filters button](assets/disable-filter-pills.png)
 
 1. (Optional) If you want to change the default filter, view, or grouping for the layout template, hover over the filter, view, or grouping, then click **Set as default**.
 

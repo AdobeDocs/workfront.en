@@ -126,6 +126,13 @@ You can create a date or time calculated custom field using the following expres
    <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
+   <td><strong>ADDHOURS</strong> </td> 
+   <td> <p>Adds the number of hours to the date and is formatted as follows:</p>
+   
+   <p><code>ADDHOUR(date, number)</code></p>
+   <p>Note: This expression is not supported in Workfront Planning.</p></td> 
+  </tr>
+  <tr> 
    <td><strong>CLEARTIME</strong> </td> 
    <td> <p>Clears the time portion of a date and is formatted as follows. In this example, the date is the Entry Date for a work object.</p>
    
@@ -372,6 +379,42 @@ You can create a calculated custom field that displays a text-formatted value us
  </thead> 
  <tbody> 
   <tr> 
+   <td><strong>ARRAY</strong> </td> 
+   <td> <p>Converts a string into an array. The delimiter can be any string.</p> 
+   <p>The expression is formatted as follows:</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>ARRAYLENGTH</strong> </td> 
+   <td> <p>Returns the number of elements in the array and is formatted as follows:</p>
+   <p><code>ARRAYLENGTH(array)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>ARRAYELEMENT</strong> </td> 
+   <td> <p>Returns the element at the specified number in the array. If the index is out of bounds, it returns empty.</p> 
+   <p>The expression is formatted as follows:</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTASCARRAY</strong> </td> 
+   <td> <p>Orders the array elements in ascending order and converts them to the type of the first element.</p>
+   <p>The expression is formatted as follows:</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>For example, ["-12.6", -13.0] becomes ["-12.6", "-13"].</p>
+   <p>Note: This expression is not supported in Workfront Planning.</p></td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTDESCARRAY</strong> </td> 
+   <td> <p>Orders the array elements in descending order and converts them to the type of the first element.</p>
+   <p>The expression is formatted as follows:</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>For example, ["-12.6", -13.0] becomes ["-13", "-12.6"].</p>
+   <p>Note: This expression is not supported in Workfront Planning.</p></td> 
+  </tr>
+  <tr>   
    <td><strong>CASE</strong> </td> 
    <td> <p>Is used with other expressions to choose a value from a list, based on an index number. </p>
    <p>An index number is a field or function that returns a numerical value (usually in a known range).</p> 
@@ -407,6 +450,13 @@ You can create a calculated custom field that displays a text-formatted value us
    
    <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
+  <tr> 
+   <td><strong>FORMAT</strong> </td> 
+   <td><p>Returns formatted text. Color options are $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE, and the other formatting options are $$BOLD, $$ITALIC, $$UNDERLINE. Only one color option may be used per function, along with up to three other formatting options. If no color option is specified, the system's default color is applied.</p>
+   <p>The expression is formatted as follows:</p>
+   <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
+   <p>Note: This expression is not supported in Workfront Planning.</p></td> 
+  </tr>   
   <tr> 
    <td><strong>IF</strong> </td> 
    <td> <p>Evaluates a condition that you specify and returns the value of the trueExpression if it is true, or the value of the falseExpression if it is false.</p> 
@@ -498,17 +548,15 @@ You can create a calculated custom field that displays a text-formatted value us
    <td> <p>Converts a number to a string and is formatted as follows:</p>
    
    <p><code>STRING(number)</code></p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td><strong>SORTASCSTRING</strong> </td> 
    <td> <p>Sorts a list of strings in ascending order and is formatted as follows:</p>
-   
    <p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td><strong>SORTDESCSTRING</strong> </td> 
    <td> <p> Sorts a list of strings in descending order and is formatted as follows:</p>
-   
    <p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
   </tr> 
   <tr> 
@@ -517,6 +565,13 @@ You can create a calculated custom field that displays a text-formatted value us
    
    <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>SWITCH</strong> </td> 
+   <td> <p>Evaluates the expression against a list of values, and returns the result corresponding to the first matching value.</p>
+   <p>The epxression is formatted as follows:</p>
+   <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
+   <p>This expression is not supported in Workfront Planning.</p></td> 
+  </tr>   
   <tr> 
    <td><strong>TRIM</strong> </td> 
    <td> <p>Removes whitespace from the beginning and end of a string and is formatted as follows:</p>

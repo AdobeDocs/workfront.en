@@ -24,7 +24,7 @@ Each of the six built-in access levels is attached to one of the five Workfront 
 
 External is an unpaid license designed primarily for sharing documents with collaborators who don't use Workfront.
 
-![](assets/access-levels-and-licenses-old.png)
+![Legacy access levels and licenses](assets/access-levels-and-licenses-old.png)
 
 For information on topics related to access levels, see the following articles:
 

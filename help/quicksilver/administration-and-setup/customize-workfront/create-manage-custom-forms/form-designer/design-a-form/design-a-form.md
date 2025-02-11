@@ -54,10 +54,10 @@ For more detail about the information in this table, see [Access requirements in
 1. Click **New Custom Form.**
 1. Select which object types you'd like to attach the custom form to, then click **Continue**.
 
-   ![](assets/choose-object-type.jpg)
+   ![Choose object type](assets/choose-object-type.jpg)
 
 1. In the **Title is required** area, type the custom form title.
-1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the **Add** icon ![](assets/add-objects-icon.png) after **Object Types**, then select the type you want in the menu that displays. You can repeat this to add as many object types as you want. 
+1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the **Add** icon ![Add objects icon](assets/add-objects-icon.png) after **Object Types**, then select the type you want in the menu that displays. You can repeat this to add as many object types as you want. 
    
    You can also click the X on an object type to delete it from the form. 
 
@@ -173,7 +173,7 @@ To add a text field:
     * Text with formatting
     * Descriptive text
 
-    ![](assets/drag-field-to-section.png)
+    ![Drag field to section](assets/drag-field-to-section.png)
 
 1. On the right side of the screen, configure the options that are available for the type of custom field you are adding:
 
@@ -458,7 +458,7 @@ To add typeahead and date fields:
     * Typeahead
     * Date
 
-    ![](assets/drag-field-to-section.png)
+    ![Drag field to section](assets/drag-field-to-section.png)
 
 1. On the right side of the screen, configure the options that are available for the type of custom field you are adding:
 
@@ -692,7 +692,7 @@ The Workfront Mobile app -->
    * PDF
    * Video
 
-   ![](assets/drag-field-to-section.png)
+   ![Drag field to section](assets/drag-field-to-section.png)
 
 1. Type or edit any of the following properties for the widget:
 

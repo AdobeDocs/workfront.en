@@ -63,7 +63,7 @@ For more detail about the information in this table, see [Access requirements in
 1. In the left panel, click **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects]**.
 
 1. On the **Project Preferences** page, continue with one of the 4 sections listed below to configure preferences for [!UICONTROL Project Status], [!UICONTROL Timelines], [!UICONTROL Business Cases], and [!UICONTROL Life after Death].
-1. If you want all groups throughout the organization to use the same project preferences, ensure that each preference is locked ![](assets/lock-toggle-button.png) (this is the default).
+1. If you want all groups throughout the organization to use the same project preferences, ensure that each preference is locked ![Lock toggle](assets/lock-toggle-button.png) (this is the default).
 
    >[!IMPORTANT]
    >

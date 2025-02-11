@@ -18,7 +18,7 @@ You can view the recent activity for a given proof. This includes all activity a
 
 1. If the left toolbar is not displayed, click the **[!UICONTROL Menu]** icon on the upper-left corner of the proofing viewer.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![Proofing viewer menu](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. In the toolbar on the left of the proofing viewer, click the **[!UICONTROL Proof Details]** button.
 

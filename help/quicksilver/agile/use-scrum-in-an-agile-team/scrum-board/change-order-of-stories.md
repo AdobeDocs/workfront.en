@@ -9,7 +9,9 @@ exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
 ---
 # Change the order of stories on the [!UICONTROL Scrum] board
 
-The order in which stories appear on the story board does not indicate priority. However, it can affect the perceived priority by making stories more visible. By default, stories are displayed in alphabetical order within each status column on the story board. (Stories with swimlanes are displayed at the top of the story board, and stories without swimlanes are displayed separately below any swimlanes.)
+The order in which stories appear on the story board does not indicate priority. However, it can affect the perceived priority by making stories more visible. Priority is defined in the backlog, and when stories are brought onto the story board they do not have a set priority because they will be worked on during the iteration time frame. If stories are returned to the backlog, then you can re-order them there to show the priority.
+
+By default, stories are displayed in alphabetical order within each status column on the story board. Stories with swimlanes are displayed at the top of the story board, and stories without swimlanes are displayed separately below any swimlanes.
 
 When you reorder columns on the story board, any changes you make are saved on the iteration or project, so changes are retained the next time you or another user views the story board. (Changes you make are not reverted when clearing the browser cache.)
 

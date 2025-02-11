@@ -28,13 +28,13 @@ Direct integration into Outlook 365 will allow you to eliminate duplicate work a
 
 For more information see:&nbsp; [Functionality made available in Preview in 2016](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
 
-![](assets/mceclip0-350x218.png)   
+![Manage work from email](assets/mceclip0-350x218.png)   
 **Keep projects on track and budget** 
 Manage your resources and their utilization, keeping projects on track and on budget using the new Utilization Report. View planned vs. actual hours per project and role, and compare resources and departments on a regular basis.
 
 For more information see:&nbsp; [R1 Preview 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
-![](assets/mceclip1-350x169.png)   
+![Keep projects on track](assets/mceclip1-350x169.png)   
 **Terminology and Notification Customization** 
 Make Workfront more relevant to your team by leveraging the custom terminology feature to change terms like "Portfolio" or "Project" to fit your preferred lingo regardless of industry. Additionally, each user can now customize the types of notifications they receive by regulating their digest frequency.
 
@@ -45,7 +45,7 @@ New progress status icons let you get more out of your milestone reports. Also, 
 
 For more information see:&nbsp; [R1 Preview 5](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
 
-![](assets/mceclip3-350x122.png)
+![Milestone view](assets/mceclip3-350x122.png)
 
 **Workfront Recycle Bin** 
 The new Workfront Recycle Bin helps you restore projects, tasks, issues, and all related documents, forms, and updates within 30 days of deletion.
@@ -54,13 +54,13 @@ For more information see:&nbsp; [R1 Preview 1 and 2](../../../../product-announc
 
 ### PROOFHQ ENHANCEMENTS {#proofhq-enhancements}
 
-![](assets/mceclip4-350x201.png)   
+![ProofHQ enhancements](assets/mceclip4-350x201.png)   
 **Proof Search and Find** 
 New search functionality in ProofHQ allows you to quickly and easily search and find all instances of a word or phrase directly in the proofs as you review. This applies to all text-based documents, including PDFs and Microsoft Word files.
 
 For more information see:&nbsp; [R1 Final](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
 
-![](assets/mceclip5-350x226.png)   
+![Proof search and find](assets/mceclip5-350x226.png)   
 **Visual Reporting and Enhanced Custom Views** 
 New reporting metrics in ProofHQ allow you to track turnaround time, late percentages, number of comments, and time to first activity. New custom views create advanced filter logic so you get the exact data, right when you need it.
 
@@ -71,7 +71,7 @@ ProofHQ now allows you to test new features in a Preview environment before rele
 
 ## WORKFRONT DAM ENHANCEMENTS {#workfront-dam-enhancements}
 
-![](assets/mceclip6-350x195.png)   
+![Workfront DAM enhancements](assets/mceclip6-350x195.png)   
 **DAM Embedded Links** 
 For marketing teams who need a better way to manage, publish, and track the usage of digital assets to external platforms, the embedded links feature provides the control you need to manage the process of sharing the right content at the right time.
 

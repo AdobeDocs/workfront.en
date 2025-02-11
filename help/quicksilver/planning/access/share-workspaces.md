@@ -9,6 +9,10 @@ exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 ---
 # Share workspaces
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
 You can share a workspace with others to ensure collaboration when working in Adobe Workfront Planning. 
@@ -167,9 +171,13 @@ To share a workspace with others:
 
     ![](assets/share-button-on-workspace-top-right.png)
 
-1. In the **Grant workspace access to** field, start typing the name of a user or a group, then click it when it displays in the list. 
+1. In the **Grant workspace access to** field, start typing the name of a user, group, <span class="preview">team, company, or job role</span> then click it when it displays in the list. 
 
-    ![](assets/sharing-ui-with-groups.png)
+   <div class="preview">
+
+   ![](assets/sharing-ui-with-groups.png)
+
+   </div>
 
 1. Select one of the following permission levels from the drop-down menu: 
     * View
@@ -215,7 +223,7 @@ Users who access a link to a workspace to which they do not have permissions can
 {{step1-to-planning}}
 
 1. Open the workspace you want to remove permissions to, then click **Share** in the upper-right corner of the screen. 
-1. Click the drop-down menu to the right of a user or group name, then click **Remove**. 
+1. Click the drop-down menu to the right of the name of an entity you're sharing the workspace with, then click **Remove**. 
 1. Click **Save**.
 
-    The user or the users that belong to the group removed no longer have access to the workspace or its objects.
+   The users removed no longer have access to the workspace or its objects.

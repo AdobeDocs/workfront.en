@@ -77,7 +77,7 @@ For information about editing projects or tasks, see the following articles:
 * [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md) 
 * [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 
-![](assets/pasted-image-4-5-2021-0-350x278.png)
+![Edit project example](assets/pasted-image-4-5-2021-0-350x278.png)
 
 ## Custom forms enhancement
 
