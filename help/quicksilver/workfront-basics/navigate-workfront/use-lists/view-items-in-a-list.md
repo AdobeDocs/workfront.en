@@ -325,7 +325,7 @@ The following are the elements of a list:
 
 These elements display at the top of every list by default. They are sticky and do not move as you scroll through the list. Mouse over the icon for each element to identify them.
 
-![](assets/nwe-list-elements.png)
+![List elements](assets/nwe-list-elements.png)
 
 You can can customize list elements in the following areas and share them with other users:
 
@@ -618,11 +618,11 @@ There are two types of lists in [!DNL Workfront]:
 
 * Legacy lists
 
-   ![](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+   ![Blue groupings](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
 
 * Updated lists
 
-   ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+   ![Gray groupings](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
 The following table shows some of the differences between the legacy and updated lists in [!DNL Workfront]:
 

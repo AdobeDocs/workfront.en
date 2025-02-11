@@ -38,7 +38,7 @@ You must have the following access to perform the steps in this article:
 
 To view an item that you have previously added as a favorite:
 
-1. Click the **[!UICONTROL Favorites]** icon ![](assets/favorites-icon.png) in the upper-right corner of any [!DNL Adobe Workfront] page.
+1. Click the **[!UICONTROL Favorites]** icon ![Favorites](assets/favorites-icon.png) in the upper-right corner of any [!DNL Adobe Workfront] page.
 
 1. In the [!UICONTROL Favorites] list, click the item you want to view.
 
@@ -63,7 +63,7 @@ You can add recent items or the current page to the [!UICONTROL Favorites] menu.
 ### Add the current item as a favorite 
 
 1. Go to the page that you want to add as a favorite.
-1. Click the **[!DNL Favorites]** icon ![](assets/favorites-icon.png) in the upper-right corner of any [!DNL Workfront] page, then click **[!UICONTROL Add Current Page]**.
+1. Click the **[!DNL Favorites]** icon ![Favorites](assets/favorites-icon.png) in the upper-right corner of any [!DNL Workfront] page, then click **[!UICONTROL Add Current Page]**.
 
    ![Add current page to favorites](assets/add-current-page-favorite-2022-350x147.png)
 
@@ -71,19 +71,19 @@ You can add recent items or the current page to the [!UICONTROL Favorites] menu.
 
    Or
 
-   Click the **[!UICONTROL Favorites]** icon ![](assets/favorites-icon.png) to the right of the object name.
+   Click the **[!UICONTROL Favorites]** icon ![Favorites](assets/favorites-icon.png) to the right of the object name.
 
    >[!NOTE]
    >
    >If you click the **[!UICONTROL Favorites]** icon on an object that you have already added as a favorite, the object will be removed from the [!UICONTROL Favorites] menu.\
-   >![](assets/nwe-remove-from-favorites-350x52.png)
+   >![Remove from favorites](assets/nwe-remove-from-favorites-350x52.png)
 
 ## Remove an item from the [!UICONTROL Favorites] menu
 
-1. Click the **[!UICONTROL Favorites]** icon ![](assets/favorites-icon.png) in the upper-right corner of any [!DNL Workfront] page.
+1. Click the **[!UICONTROL Favorites]** icon ![Favorites](assets/favorites-icon.png) in the upper-right corner of any [!DNL Workfront] page.
 
 1. Hover over the item that you want to remove as a favorite, then click the **X** next to it.
 
    Or
 
-   If you are on the page that you want to remove as a favorite, click the **[!UICONTROL Favorites]** icon ![](assets/favorites-icon.png) next to the object name to remove it from the Favorites menu.
+   If you are on the page that you want to remove as a favorite, click the **[!UICONTROL Favorites]** icon ![Favorites](assets/favorites-icon.png) next to the object name to remove it from the Favorites menu.

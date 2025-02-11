@@ -88,7 +88,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional and conditional) If you want to show a specific number of items on the screen, click the **[!UICONTROL Showing]** drop-down menu in the lower-right corner of the screen, then select to display **100**, **250**, **500**, **[!UICONTROL All]**, or **2000** items.
 
-   ![](assets/list-number-page-350x119.png)
+   ![List number on page](assets/list-number-page-350x119.png)
 
    >[!TIP]
    >

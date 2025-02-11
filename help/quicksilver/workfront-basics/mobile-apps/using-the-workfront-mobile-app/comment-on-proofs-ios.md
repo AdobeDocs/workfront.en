@@ -59,7 +59,7 @@ In the [!UICONTROL comment] list, you can perform different actions such as reso
 
    This option is only available when you have unread comments selected.
 
-1. To delete the selected comments, select the **[!UICONTROL Delete]** icon ![](assets/delete-30x28.png) in the bottom toolbar. Then, select **[!UICONTROL Delete]** on the confirmation message to permanently delete the comment.
+1. To delete the selected comments, select the **[!UICONTROL Delete]** icon ![Delete icon](assets/delete-30x28.png) in the bottom toolbar. Then, select **[!UICONTROL Delete]** on the confirmation message to permanently delete the comment.
 
 ## Comment on a proof
 

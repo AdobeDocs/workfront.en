@@ -30,7 +30,7 @@ The following areas are included in the default layout of a [!UICONTROL Reviewer
 * **[!UICONTROL Blueprints]**: Review existing blueprints in your system and request one to be installed, if the [!DNL Workfront] administrator configured the request queue for blueprints. For more information, see [Blueprints overview](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 
-![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+![Access my updates from Main menu](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
 ## Customize your default [!UICONTROL Main Menu]
 

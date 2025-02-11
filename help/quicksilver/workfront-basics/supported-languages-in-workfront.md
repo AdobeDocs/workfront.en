@@ -132,7 +132,7 @@ When changing the default Workfront Email Locale, you modify the language, date,
 To change the default Workfront Email Locale:
 
 1. Log in to Workfront as the Workfront administrator.
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. Click **System** > **Customer Info.**
 
