@@ -97,7 +97,7 @@ Reply to a comment in the Updates section of an object is similar for most objec
 1. (Optional) To include text from a previous update in your reply, click the **More** menu in the upper-right corner of the comment you want to reply to, then click **Quote reply**. Text from the previous update appears in the input area, marked with a vertical gray line.
 1. Click **Reply**.
 
-   ![](assets/reply-to-update-empty-box.png)
+   ![Reply to update empty box](assets/reply-to-update-empty-box.png)
 
    You can see the users who are actively engaged in the conversation at the bottom of the **Add reply...** box and you can add more, or remove the ones that are no longer relevant. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
@@ -109,7 +109,7 @@ Reply to a comment in the Updates section of an object is similar for most objec
 
 1. Click **Submit** to save the reply.
 
-1. (Optional) Click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the comment you want to reply to for more options to manage the reply. For more information, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the comment you want to reply to for more options to manage the reply. For more information, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
 
 <!--
 ### Reply to an update or reply in the legacy Updates section
