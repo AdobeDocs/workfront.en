@@ -63,7 +63,7 @@ For more detail about the information in this table, see [Access requirements in
    The project allocation timeline is displayed.  
    The time frame where the hours are currently budgeted is highlighted in orange if there is a budgeting conflict and in blue if there are no conflicts.
 
-   ![](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
+   ![Adjust budgeting dates](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
 
 1. Drag and drop the highlighted time frame to another time to understand where there are no budgeting conflicts for the selected project. When you find a time frame where the Net value is positive, the highlighted time frame changes to blue. 
 1. Click the "x" in the upper right corner of the project allocation timeline to close it. 

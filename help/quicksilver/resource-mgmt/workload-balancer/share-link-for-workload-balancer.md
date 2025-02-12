@@ -117,7 +117,7 @@ You need the following access to view information in the Workload Balancer from 
 
      For information about filtering information in the Workload Balancer, see [Filter information in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-1. Click the **link icon** ![](assets/wb-shearable-link-icon-small.png).
+1. Click the **link icon** ![Link icon](assets/wb-shearable-link-icon-small.png).
 
    This adds the link to your clipboard. 
 

@@ -70,13 +70,13 @@ You can assign an item from the Unassigned Work area to a user, or you can reass
 
    Go to the **Assigned Work** area and expand the name of a user to view the work items assigned to them, if you want to reassign their items.
 
-1. (Conditional) In the Workload Balancer of a project, click the **Show all users** icon ![](assets/show-all-users-icon-project-workload-balancer.png) to display all Workfront users.
+1. (Conditional) In the Workload Balancer of a project, click the **Show all users** icon ![Show all users](assets/show-all-users-icon-project-workload-balancer.png) to display all Workfront users.
 
    This displays all users that you have access to view.
 
    The users who are also part of the project team and are already assigned to items on the project have the project icon to the right of their name in the Assigned Work area.
 
-   ![](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
+   ![User on the project](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
 
          
    >[!TIP]
@@ -94,7 +94,7 @@ You can assign an item from the Unassigned Work area to a user, or you can reass
    >
    >The Planned Hours for the user you're hovering over update in real time with the number of daily Planned Hours from the work item, to indicate what the impact of adding a new item might be to their overall allocation.
 
-   ![](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+   ![Drop item to assigned](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
 
 1. When you are ready, drop the selected work item in the same line as the user's name in the Assigned Area. The item is assigned and the allocated Planned Hours are updated for the user with the new hours from the work item.
 
@@ -112,7 +112,7 @@ You can assign an item from the Unassigned Work area to a user, or you can reass
 
 
 1. (Optional) Click the bar of a work item under the name of a user in the Assigned Work area and drag it then drop it over the Unassigned Work area to unassign it. The item is unassigned from the user, but it might still be assigned to a job role in which case it displays in the Unassigned Work area. If the item is assigned to another user, it remains in the Assigned Work area under the name of the user who is still assigned. 
-1. (Optional) Click the **Show allocations icon** ![](assets/show-allocations-icon-small.png), then click the **More menu** ![](assets/qs-more-menu.png) > **Edit allocations**. 
+1. (Optional) Click the **Show allocations icon** ![Show allocations icon](assets/show-allocations-icon-small.png), then click the **More menu** ![More menu](assets/qs-more-menu.png) > **Edit allocations**. 
 
    <!--
    (make sure these are still called this, and that the icon has not changed)

@@ -123,7 +123,7 @@ To create a filter in the Resource Planner:
    ![filter_icon.png](assets/filter-icon.png)
    Or
    Expand the **Filter** drop-down menu and click **Add New Filter**.
-   ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
+   ![Filter dropdown](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. To build a filter using the built-in criteria, specify any of the following fields:
 
@@ -208,7 +208,7 @@ You can change the name of a filter without changing its criteria. We recommend 
 1. Expand the **Filter** drop-down menu. Locate the filter that you want to rename and hover over its name. 
 1. Select the **Rename filter** icon next to the name of the filter.
 
-   ![](assets/rp-filter-options-edit-350x154.png)
+   ![Edit filter options](assets/rp-filter-options-edit-350x154.png)
 
 1. Specify a new name for the filter in the **Filter Name** box.
 1. Click **Save**.  
@@ -247,7 +247,7 @@ You can duplicate an existing filter. The original filtering criteria remain the
 1. Hover over the name of a saved filter that you want to duplicate. 
 1. Click the **Duplicate** icon.
 
-   ![](assets/rp-filter-options---duplicate-350x154.png)   
+   ![Duplicate filter](assets/rp-filter-options---duplicate-350x154.png)   
    The Duplicate Filter box is displayed.
 
 1. In the **Filter Name** field, specify a new name for the duplicated filter.  
@@ -274,7 +274,7 @@ To remove a filter:
 1. Locate the filter that you want to remove and hover over its name.
 1. Select the **Delete filter** icon next to the name of the filter.
 
-   ![](assets/rp-filter-options---delete-350x154.png)
+   ![Delete filter](assets/rp-filter-options---delete-350x154.png)
 
 1. Click **Delete** in the **Delete Filter** dialog box.
 
@@ -297,13 +297,13 @@ For information about duplicating filters, see the [Duplicate a filter](#duplica
 1. Locate the filter that you want to share and hover over its name.
 1. Select the **Share filter** icon next to the name of the filter.
 
-   ![](assets/rp-filter-options---share-350x154.png)
+   ![Share filter](assets/rp-filter-options---share-350x154.png)
 
    The Filter Access dialog box displays.
 
 1. (Optional) To make the filter available to all Resource Planner users, click the **Settings** icon, then select **Make this visible system-wide**.
 
-   ![](assets/make-this-visible-system-wide-350x119.png)
+   ![Make visible system-wide](assets/make-this-visible-system-wide-350x119.png)
 
 1. In the **Give resource planner filter access to:** box, start typing the names of users, teams, roles, groups, or companies that you want to share the filter with.
 1. Select from the following permissions levels:
@@ -315,10 +315,10 @@ For information about duplicating filters, see the [Duplicate a filter](#duplica
 
 1. (Optional) Click **Advanced Setting**s to add permissions for each level by selecting them or remove permissions for each level by deselecting them.
 
-   ![](assets/rp-share-filter-manage-advanced-settings-350x271.png)
+   ![Share filter](assets/rp-share-filter-manage-advanced-settings-350x271.png)
 
 1. Click **Save**.
 
    The filter is shared with the entities that you selected and it appears in the **Shared with me** area.
 
-   ![](assets/rp-shared-with-me-area.png)
+   ![Shared with me](assets/rp-shared-with-me-area.png)
