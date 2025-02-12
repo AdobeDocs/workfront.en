@@ -58,7 +58,7 @@ Consider the following when leveling resources on a project:
 * Predecessor relationships will take precedence over resource leveling.
 * **[!UICONTROL Resource Leveling]** needs to be set to **[!UICONTROL Manual]** for the project in order to adjust leveling in the [!UICONTROL Gantt chart]. If you have Manage permissions to the project, you can can have the system automatically level resources by adjusting this setting on the project and selecting **[!UICONTROL Automatic]** instead of **[!UICONTROL Manual]** in the **[!UICONTROL Edit Project]** box.
 
-   ![](assets/resource-leveling-mode-350x177.png)
+   ![Resource leveling mode](assets/resource-leveling-mode-350x177.png)
 
 * As the project owner, or the task assignee, you can introduce a leveling delay for a task to indicate that there is a great chance that the task might need extra time. For information about adding a leveling delay to a task, see [Update task Leveling Delay](../../../manage-work/tasks/task-information/task-leveling-delay.md).
 
@@ -77,7 +77,7 @@ You can use the Task List [!UICONTROL Gantt Chart] to level your resources.
    >
    >You cannot level resources in the  [!UICONTROL Gantt Chart] when the [!UICONTROL Autosave] option is enabled.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Manual setting enabled](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Click the **[!UICONTROL Level Resources]** drop-down menu.
 

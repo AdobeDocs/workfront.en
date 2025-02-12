@@ -17,4 +17,4 @@ You can display the Duration of an issue in an issue report or the view of a lis
 
 For more information about building a report, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-![](assets/nwe-issue-duration-view-highlighted-350x73.png)
+![Issue duration view](assets/nwe-issue-duration-view-highlighted-350x73.png)

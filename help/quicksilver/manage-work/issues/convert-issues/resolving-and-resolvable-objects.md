@@ -73,10 +73,10 @@ Depending on the way the Workfront or group administrator configured the system 
 The following scenarios exist:
 
 * If the Workfront or group administrator has the **Keep the original issue and tie its resolution to the task** and the **Keep the original issue and tie its resolution to the project** selected and the **Allow these settings to be changed during conversion** unselected, you will not be able to change these settings as you are converting issues to tasks or projects.  
-  ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
+  ![Project preferences issues area](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
 * If the Workfront or group administrator has the **Keep the original issue and tie its resolution to the task** and the **Keep the original issue and tie its resolution to the project** either selected or unselected and the **Allow these settings to be changed during conversion** selected, you will be able to change these settings as you are converting issues to tasks or projects.  
-  ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
+  ![Option to keep issue](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 For more information about converting issues to tasks and projects, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -196,7 +196,7 @@ Locating the resolving object is identical for tasks and projects.
 
 In a list of issues, you can identify issues that are labeled as resolving objects via status icons by locating this icon in the **Status Icons** or **Flags** columns:
 
-![](assets/ro1.png)
+![Resolving object](assets/ro1.png)
 
 ## View Resolvable and Resolving Object information in a report
 

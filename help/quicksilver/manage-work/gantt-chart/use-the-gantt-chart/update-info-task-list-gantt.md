@@ -57,7 +57,7 @@ You must have the following to follow the steps in this article:
 1. Go to the project you want to modify.
 1. Click **[!UICONTROL Tasks]** in the left panel.
 
-   ![](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
+   ![Tasks area](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
 
 1. Click the **[!UICONTROL Gantt chart]** icon.
 
@@ -67,7 +67,7 @@ You must have the following to follow the steps in this article:
 
 1. (Optional) Click the **[!UICONTROL Plan mode]** icon and select **[!UICONTROL Manual save Standard]** or **[!UICONTROL Timeline Planning]** to save your changes manually.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Manual setting enabled](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Hover over the timeline of a task and drag the time line indicator to a different date.
 1. Drop the indicator when you have reached the correct new Completion Date for the task. 
@@ -97,7 +97,7 @@ You must have the following to follow the steps in this article:
 
 1. (Optional) Click the **[!UICONTROL Plan mode]** icon and select **[!UICONTROL Manual save Standard]** or **[!UICONTROL Timeline Planning]** to save your changes manually.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Manual setting enabled](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. To create a predecessor relationship, click the start point of a task and drag it to the end point of task. 
 1. To delete a predecessor relationship, click a predecessor line that connects two tasks to select it, then press **[!UICONTROL Delete]** on your keyboard.  
@@ -129,7 +129,7 @@ You must have the following to follow the steps in this article:
 
 1. (Optional) Click the **[!UICONTROL Plan mode]** icon and select **[!UICONTROL Manual save Standard]** or **[!UICONTROL Timeline Planning]** to save your changes manually.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Manual setting enabled](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Hover over the center of the task and locate the multi-directional arrow.
 1. Click and drag the task to the desired date.
