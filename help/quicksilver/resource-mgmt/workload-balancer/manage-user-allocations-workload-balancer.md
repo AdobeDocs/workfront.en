@@ -206,7 +206,7 @@ As part of assigning work to users, you can modify user allocations in the Workl
       >
       >The Workfront administrator decides which schedule to use across your system for calculating user's capacity in the Resource Managament area of Setup. For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-1. Click the **More** menu ![](assets/qs-more-menu.png) for a work item, then click **Edit allocations**.
+1. Click the **More** menu ![More menu](assets/qs-more-menu.png) for a work item, then click **Edit allocations**.
 
    ![More menu for work item](assets/more-menu-on-task-wb-nwe.png)
 

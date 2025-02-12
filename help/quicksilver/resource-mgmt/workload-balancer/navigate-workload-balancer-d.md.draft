@@ -110,7 +110,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
 To navigate the Workload Balancer for multiple projects: 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Resourcing**.
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Resourcing**.
 1. Click **Workload Balancer** in the left panel.
 
     ![](assets/nwe-balancer-global.png)
@@ -146,7 +146,7 @@ To navigate the Workload Balancer for multiple projects:
                 > 
                 >For information about customizing settings, see the section [Customize the view](#customize-the-view) in this article.               
 
-1. (Optional) Click the **Filter** icon ![](assets/filter-icon.png) in the **Assigned Work** area, then select the **Default filter** in the **Suggested** area of the filter box.  
+1. (Optional) Click the **Filter** icon ![Filter icon](assets/filter-icon.png) in the **Assigned Work** area, then select the **Default filter** in the **Suggested** area of the filter box.  
 
     When applying the Default filter, users that belong to any of your teams and their work items display. You can edit a copy of this filter.
  
@@ -296,7 +296,7 @@ To navigate the Workload Balancer for multiple projects:
     ![](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. (Optional) Click the **Hide allocations icon** ![](assets/show-allocations-icon-small.png) to display the name of the tasks and issues  in the bars of the work items.
-1. Click the **More menu** icon ![](assets/more-icon.png) to the right of a task or issue name, then click one of the options below.
+1. Click the **More menu** icon ![More icon](assets/more-icon.png) to the right of a task or issue name, then click one of the options below.
 
     ![](assets/more-menu-right-of-task-350x104.png)
 
@@ -392,7 +392,7 @@ You can view more information about the tasks and the issues in the Workload Bal
 
 Navigating the Workload Balancer of a team is similar to how you navigate the Workload Balancer for multiple projects. For information, see the section "Navigate the Workload Balancer for multiple projects" in this article. 
 
-1. Click the **Main menu** icon ![](assets/main-menu-icon.png), then click **Teams**. 
+1. Click the **Main menu** icon ![Main menu icon](assets/main-menu-icon.png), then click **Teams**. 
 The page of your Home Team displays by default. 
 1. Click **Workload Balancer** in the left panel. The Workload Balancer of a team should display by default. 
 
@@ -407,7 +407,7 @@ The page of your Home Team displays by default.
 
 ## Navigate the Workload Balancer of a project
 
-1. Click the **Main menu** icon ![](assets/main-menu-icon.png), then click **Projects**.
+1. Click the **Main menu** icon ![Main menu icon](assets/main-menu-icon.png), then click **Projects**.
 1. Click the name of a project to open the project page.
 1. Click **Workload Balancer** in the left panel. You might have to click **Show More**, then **Workload Balancer**.
 
@@ -422,7 +422,7 @@ The page of your Home Team displays by default.
     
     For example, you might consider displaying only users that belong to your teams or groups. For more information, see [Filter information in the Workload Balancer](../workload-balancer/filter-information-workload-balancer.md). 
 
-1. (Optional) Click the **Filter** icon ![](assets/filter-icon.png) in the Assigned Work area and select the **This project's work items** option from the **Suggested** area of the filter area. 
+1. (Optional) Click the **Filter** icon ![Filter icon](assets/filter-icon.png) in the Assigned Work area and select the **This project's work items** option from the **Suggested** area of the filter area. 
 
     When this option is selected, only the items assigned to users on the selected project display. 
     

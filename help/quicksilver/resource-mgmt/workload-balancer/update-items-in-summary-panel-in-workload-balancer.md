@@ -76,7 +76,7 @@ For more detail about the information in this table, see [Access requirements in
 
    Or
 
-   Click the **More** menu ![](assets/more-icon.png) to the right of a task or issue, then click **Open Summary**.
+   Click the **More** menu ![More icon](assets/more-icon.png) to the right of a task or issue, then click **Open Summary**.
 
    The Summary panel opens on the right.
 

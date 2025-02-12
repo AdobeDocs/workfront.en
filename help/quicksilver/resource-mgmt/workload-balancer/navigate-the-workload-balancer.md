@@ -304,7 +304,7 @@ To navigate the Workload Balancer for multiple projects:
     ![Allocated time details](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. (Optional) Click the **Hide allocations icon** ![](assets/show-allocations-icon-small.png) to display the name of the tasks and issues  in the bars of the work items.
-1. Click the **More menu** icon ![](assets/more-icon.png) to the right of a task or issue name, then click one of the options below.
+1. Click the **More menu** icon ![More icon](assets/more-icon.png) to the right of a task or issue name, then click one of the options below.
 
     ![More menu](assets/more-menu-right-of-task-350x104.png)
 
@@ -597,7 +597,7 @@ You can update the view in the Workload Balancer to display exactly the informat
 
 After selecting the settings you want to apply to your view, the Workload Balancer remembers these settings every time you access it from any browser or device.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Resourcing**.
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Resourcing**.
 1. Click **Workload Balancer** in the left panel.
 
    The Workload Balancer displays work assignment information starting with the current week. The names of work items are listed on the left side as well as represented by bars on the right side of the of the Workload Balancer within their respective timelines. By default, blue bars represent the timelines of projects and tasks and maroon bars represent issues.
@@ -620,7 +620,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    ![](assets/separation-line-between-left-panel-and-timeline-highlighted-nwe-350x174.png)
 
-1. Click the **Filter icon** ![](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or the **Assigned Work** areas to select the type of information to display in the Workload Balancer.
+1. Click the **Filter icon** ![Filter icon](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or the **Assigned Work** areas to select the type of information to display in the Workload Balancer.
 
    For information about filtering information in the Workload Balancer, see [Manage filters in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md). 
 
@@ -774,7 +774,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
    ![](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. (Optional) Click the **Hide allocations icon** ![](assets/show-allocations-icon-small.png) to display the name of the tasks in the bars of the work items. 
-1. Click the **More menu** icon ![](assets/more-icon.png) to the right of a task or issue name, then click one of options below. 
+1. Click the **More menu** icon ![More icon](assets/more-icon.png) to the right of a task or issue name, then click one of options below. 
 
    ![](assets/more-menu-right-of-task-350x104.png)
 
@@ -803,7 +803,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    Or
 
-   Click the **More** menu ![](assets/more-icon.png) to the right of a task or issue, then click **Open Summary**.
+   Click the **More** menu ![More icon](assets/more-icon.png) to the right of a task or issue, then click **Open Summary**.
 
    For information about updating task information in the Summary in the Workload Balancer, see [Update work items in the Workload Balancer using the Summary](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
