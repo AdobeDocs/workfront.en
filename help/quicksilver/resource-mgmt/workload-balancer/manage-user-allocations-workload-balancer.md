@@ -185,11 +185,11 @@ As part of assigning work to users, you can modify user allocations in the Workl
    >
    >You can modify user allocations only for tasks and issues. You cannot modify user allocations for projects.
 
-1. (Optional) Click the **Show allocations** icon ![](assets/show-allocations-icon-small.png) to display allocations for all work items.
+1. (Optional) Click the **Show allocations** icon ![Show allocations icon](assets/show-allocations-icon-small.png) to display allocations for all work items.
 
    The name of the tasks and of the projects is replaced with the allocation of the user for the task or the project. 
 
-1. (Optional) Click the **Settings** icon ![](assets/gear-icon-settings.png) and select any of the following options:
+1. (Optional) Click the **Settings** icon ![Settings icon](assets/gear-icon-settings.png) and select any of the following options:
 
    1. **Include hours from issues**. This allows you to manage issue allocations in addition to task allocations. 
    1. **Show completed work**. This displays items that have been completed and are scheduled during the timeline you manage allocations for. 
@@ -216,11 +216,11 @@ As part of assigning work to users, you can modify user allocations in the Workl
    
    The allocation boxes become editable. 
 
-1. Click inside the box of each daily, weekly, or monthly allocation to manually update the amount of hours or the percentage value for which you want the user to be allocated each day, week, or month, then click the **Save** icon ![](assets/checkmark-icon.png).
+1. Click inside the box of each daily, weekly, or monthly allocation to manually update the amount of hours or the percentage value for which you want the user to be allocated each day, week, or month, then click the **Save** icon ![Save icon](assets/checkmark-icon.png).
 
    >[!TIP]
    >
-   >Click the **Cancel** icon ![](assets/cancel-allocations-wb.png) to remove the allocations you adjusted.
+   >Click the **Cancel** icon ![Cancel icon](assets/cancel-allocations-wb.png) to remove the allocations you adjusted.
 
    ![Save or cancel adjusted allocations](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 

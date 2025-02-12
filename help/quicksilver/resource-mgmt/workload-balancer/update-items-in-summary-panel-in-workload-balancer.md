@@ -72,7 +72,7 @@ For more detail about the information in this table, see [Access requirements in
 
    Or
 
-   Click **Open Summary** icon ![](assets/summary-panel-icon.png), then click the bar of a task or issue to open the Summary panel.
+   Click **Open Summary** icon ![Open Summary icon](assets/summary-panel-icon.png), then click the bar of a task or issue to open the Summary panel.
 
    Or
 
@@ -91,4 +91,4 @@ For more detail about the information in this table, see [Access requirements in
    For more information about updating information using the Summary, see [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 1. (Conditional) If you opened any of the sections of the work item, click your browser's **Back button** to return to the Workload Balancer.
-1. Click the **Close icon** ![](assets/close-icon.png) in the upper-right corner of the Summary, to close it.
+1. Click the **Close icon** ![Close icon](assets/close-icon.png) in the upper-right corner of the Summary, to close it.
