@@ -17,7 +17,7 @@ You can design a custom form with the form designer in Adobe Workfront. You can 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 

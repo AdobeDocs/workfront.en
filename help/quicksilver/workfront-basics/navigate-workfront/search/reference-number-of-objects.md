@@ -40,7 +40,7 @@ Reference numbers are displayed by default for tasks and issues. You can also ea
 
 Reference numbers are displayed by default when viewing a task or issue.  To see the reference number click **[!UICONTROL Task Details]** or **[!UICONTROL Issue Details]** in the left panel, then locate the **[!UICONTROL Basic Information]** section in the Overview.
 
-![](assets/reference-number-nwe-350x184.png)
+![Reference number](assets/reference-number-nwe-350x184.png)
 
 ### View reference numbers for other objects  
 

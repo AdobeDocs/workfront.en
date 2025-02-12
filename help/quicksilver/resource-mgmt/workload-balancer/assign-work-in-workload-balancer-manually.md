@@ -71,9 +71,9 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
    Go to the **Assigned Work** area and expand the name of a user to view the work items assigned to them, if you want to reassign their items.
 
-1. Click the **More menu** ![](assets/qs-more-menu.png) to the left of a work item name, then click **Assign this to**.
+1. Click the **More menu** ![More menu](assets/qs-more-menu.png) to the left of a work item name, then click **Assign this to**.
 
-   ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+   ![Assign this to](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    >[!TIP]
    >
@@ -95,7 +95,7 @@ You can assign work items that have not yet been assigned to a user or reassign 
    > You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md). 
 
 
-     ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
+     ![Advanced assignments](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
       >[!TIP]
       >
@@ -124,7 +124,7 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
      For more information about making Advanced Assignments, see [Create advanced assignments](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-1. (Optional) Click the **Show allocations icon** ![](assets/show-allocations-icon-small.png), then click the **More menu** ![](assets/qs-more-menu.png) > **Edit allocations**.
+1. (Optional) Click the **Show allocations icon** ![Show allocations icon](assets/show-allocations-icon-small.png), then click the **More menu** ![More menu](assets/qs-more-menu.png) > **Edit allocations**.
 
    Or
 

@@ -88,7 +88,7 @@ You must have the following access to perform the steps in this article:
 
    If the field can be edited, this turns the field and all other fields displayed in the list into editable cells.
 
-   ![](assets/nwe-editable-cells-350x131.png)
+   ![Editable cells](assets/nwe-editable-cells-350x131.png)
 
 1. Edit the information inside this cell, then press [!UICONTROL Enter].
 

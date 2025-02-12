@@ -21,7 +21,7 @@ You can decide which sections of a custom form should be displayed or skipped ba
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 

@@ -18,13 +18,13 @@ By using the Adobe Workfront Resource Planner, you can easily understand the ava
 
 You must meet the prerequisites needed to fully use the Resource Planner. For more information about the Resource Planner, see [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-![](assets/rp-project-view-all-functionality-350x117.png)
+![Resource Planner](assets/rp-project-view-all-functionality-350x117.png)
 
 The following sections outline all areas of the Resource Planner.
 
 ## Timeline of projects
 
-![](assets/timeline-calendar-resource-planner-nwe-350x25.png)
+![Timeline calendar](assets/timeline-calendar-resource-planner-nwe-350x25.png)
 
 
 
@@ -71,7 +71,7 @@ To navigate the timeline:
 
 ## Project/ Role/ User view selection
 
-![](assets/nwe-project-role-user-view-selection-resource-planner.png)
+![View by project, role, or user](assets/nwe-project-role-user-view-selection-resource-planner.png)
 
 You can change the view in the Resource Planner depending on how you want the information to display.
 
@@ -188,7 +188,7 @@ Consider the following when selecting the User View in the Resource Planner:
    * When you have permissions to see the projects, but not any tasks or issues on the projects, the project name displays, and the tasks and issues are listed under the **Inaccessible Items** section.  
      For more information about permissions in Workfront, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-     ![](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
+     ![Inaccessible items](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
 
   &nbsp;
 
@@ -204,7 +204,7 @@ Consider the following when selecting the User View in the Resource Planner:
 
 ## Project Name
 
-![](assets/project-name-highlighted-resource-planner-350x445.png)
+![Project name](assets/project-name-highlighted-resource-planner-350x445.png)
 
 You can see the following projects in the Resource Planner:
 
@@ -226,13 +226,13 @@ You can see the following projects in the Resource Planner:
 
 Projects are listed in order of priority in the Resource Planner with the most important project at the top. The priority is indicated by a number in front of the project name.
 
-![](assets/rp-planner-priority-highlighted-350x186.png)
+![Project Planning Priority](assets/rp-planner-priority-highlighted-350x186.png)
 
 You can also enable a setting to display the project priorities according to their portfolios, when they are associated with a portfolio. For information about prioritizing projects and displaying portfolio priorities in the Resource Planner , see [Prioritize projects in the Resource Planner](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 ## Job Role Name
 
-![](assets/role-highlighted-resource-planner-350x243.png)
+![Job role name](assets/role-highlighted-resource-planner-350x243.png)
 
 The following categories of job roles are listed in the Resource Planner:
 
@@ -248,7 +248,7 @@ The following categories of job roles are listed in the Resource Planner:
 
 ## User Name
 
-![](assets/user-highlighted-resource-planner-350x272.png)
+![User Name](assets/user-highlighted-resource-planner-350x272.png)
 
 The users listed in the Project and Role views in the Resource Planner belong to the resource pools associated with the projects.   
 For more information about populating resource pools with users, see [Associate resource pools with users](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
@@ -304,11 +304,11 @@ To enable settings in the Resource Planner:
 1. Open the Resource Planner.
 1. Click the **Settings** icon.
 
-   ![](assets/rp-settings-icon-edit-1.png)
+   ![Resource Planner settings icon](assets/rp-settings-icon-edit-1.png)
 
    The Resource Planner Settings box displays.
 
-   ![](assets/rp-settings-without-actual-hours-350x211.png)
+   ![Resource Planner settings](assets/rp-settings-without-actual-hours-350x211.png)
 
 1. Enable the **Include hours from Issues** setting to display Planned Hours from issues in the Resource Planner. This setting is disabled by default.
 
@@ -342,7 +342,7 @@ To display the Resource Planner in full screen:
 
 ## Export option
 
-![](assets/export-button-highlighted-resource-planner-350x92.png)
+![Export button](assets/export-button-highlighted-resource-planner-350x92.png)
 
 You can export information to an Excel (.xlsx) file from any view of the Resource Planner.  
 For information about exporting information from the Resource Planner, see [Export information from the Resource Planner](../../resource-mgmt/resource-planning/export-resource-planner.md).

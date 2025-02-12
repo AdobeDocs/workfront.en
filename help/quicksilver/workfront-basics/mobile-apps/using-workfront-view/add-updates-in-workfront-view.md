@@ -48,7 +48,7 @@ You must have the following access in [!DNL Workfront] to perform the steps in t
 
 1. Type in an update.
 1. (Optional) Include others in the update by tapping the [!UICONTROL people] icon and specifying the name of another user.\
-   ![](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
+   ![Updates in mobile app](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
 
 1. Tap **[!UICONTROL Post]**.\
    The update appears on the project, in the **[!UICONTROL Updates]** widget.

@@ -17,7 +17,7 @@ You can designate users as direct reports to another user. This allows you to cr
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
