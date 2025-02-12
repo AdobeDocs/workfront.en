@@ -59,7 +59,7 @@ To inline edit an issue:
 1. Go to a list of issues in a project or task. 
 1. Click inside any field that you have permissions to update manually. The field becomes editable and you can make your changes.
 
-   ![](assets/edit-issues-inline-350x34.png)
+   ![Edit issues inline](assets/edit-issues-inline-350x34.png)
 
 1. Press enter when you want to accept your changes. Changes are saved immediately.
 
@@ -70,9 +70,9 @@ To inline edit an issue:
 1. Go to a list of issues in a project or task. 
 1. Do one of the following
 
-   * Select the issue in the list, then click Edit icon ![](assets/qs-edit-icon.png) in the toolbar. 
-   * Click the **More menu** ![](assets/more-icon-task-list.png) to the right of the issue name, then click **Open in a new tab**. This opens the issue page in a new tab. Click&nbsp;**More** > **Edit** from the issue page. 
-   * Click the **More menu** ![](assets/more-icon-task-list.png) to the right of the issue name, then click **Edit**.
+   * Select the issue in the list, then click Edit icon ![Edit icon](assets/qs-edit-icon.png) in the toolbar. 
+   * Click the **More menu** ![More menu](assets/more-icon-task-list.png) to the right of the issue name, then click **Open in a new tab**. This opens the issue page in a new tab. Click&nbsp;**More** > **Edit** from the issue page. 
+   * Click the **More menu** ![More menu](assets/more-icon-task-list.png) to the right of the issue name, then click **Edit**.
 
      Any of these actions opens the Edit Issue box.
 
@@ -87,7 +87,7 @@ You can edit an issue in a list using the Summary.
 
    The list of issues on the project displays. 
 
-1. Select an issue that you want to edit, then click the **Open Summary** icon ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) in the upper-right corner of the issue list.
+1. Select an issue that you want to edit, then click the **Open Summary** icon ![Open Summary icon](assets/qs-open-summary-icon-in-new-toolbar-small.png) in the upper-right corner of the issue list.
 
    The **Summary** opens.
 
@@ -113,7 +113,7 @@ To edit issues in bulk:
 1. Click a project name to access the project.
 1. Click **Issues** in the left panel.  
 1. Select several issues in the list. 
-1. Click the **Edit** icon ![](assets/edit-icon.png).
+1. Click the **Edit** icon ![Edit icon](assets/edit-icon.png).
 
    The **Edit Issues** dialog box opens.
 

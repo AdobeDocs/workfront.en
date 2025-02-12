@@ -160,7 +160,7 @@ To assign issues in a list:
 
    * Click inside the **Assigned To** or **Assigned** fields and start typing the name of an active user that you want to assign to the issue, then click it when it displays in the list.
 
-     ![](assets/assigned-to-field-task-list-nwe.png)
+     ![Assigned to field](assets/assigned-to-field-task-list-nwe.png)
 
    * Click inside the **Assignments** field and start typing the name of an active user, job role, or active team that you want to assign to the issue, then click it when it displays in the list.
 
@@ -175,7 +175,7 @@ To assign issues in a list:
    >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md). 
 
 
-1. (Conditional) When visible in the Assignments field, click the **People icon** ![](assets/teams.png) in the upper-right corner of the assignments box to open the Advanced Assignments box and create advanced assignments. For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Conditional) When visible in the Assignments field, click the **People icon** ![People icon](assets/teams.png) in the upper-right corner of the assignments box to open the Advanced Assignments box and create advanced assignments. For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >
@@ -187,7 +187,7 @@ To assign issues in a list:
 
 1. Go to a list of issues that you want to assign in bulk. 
 1. Select several issues in the list. 
-1. Click the **Edit icon** ![](assets/qs-edit-icon.png).
+1. Click the **Edit icon** ![Edit icon](assets/qs-edit-icon.png).
 
    The **Edit Issues** dialog box opens.
 

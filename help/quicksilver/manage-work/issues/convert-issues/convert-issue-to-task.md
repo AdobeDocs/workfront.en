@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 1. Click the issue you want to convert to go to the issue's landing page. 
 1. Click the [!UICONTROL **More**] menu on the issue, then [!UICONTROL **Convert to Task**].
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![Issue More menu](assets/qs-issue-more-menu-highlighted-350x469.png)
 
    >[!TIP]
    >
@@ -56,7 +56,7 @@ You must have the following access to perform the steps in this article:
 
 1. Update the task name in the [!UICONTROL Task Name] section. By default, the name of the task will be the same name as that of the original issue.
 
-   ![](assets/convert-to-task-box-nwe.png)
+   ![Convert to task box](assets/convert-to-task-box-nwe.png)
 
 1. Click [!UICONTROL **Destination Project**], then start typing the name of the project where you want to place the new task in the [!UICONTROL **Destination Project**] field and select it when it displays in the list. The issue's project is selected by default.
 

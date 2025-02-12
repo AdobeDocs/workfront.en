@@ -85,7 +85,7 @@ You can move one or multiple issues from a list of issues or from an issue repor
 1. If you selected to go to a project, click **Issues** in the left panel. 
 1. Select the issue or issues that you want to move and click the **More menu** at the top of the issue list, then click **Move to**.
 
-   ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+   ![Copy and Move to links](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
 1. Continue with moving the issues, as described in the section [Move a single issue](#move-a-single-issue) starting with Step 2. 
 
@@ -95,13 +95,13 @@ You can move one issue when viewing it.
 
 ### Move a single issue
 
-1. Go to an issue that you want to move, click the **More** menu ![](assets/more-icon.png) to the right of the issue name, then click **Move to**.
+1. Go to an issue that you want to move, click the **More** menu ![More menu](assets/more-icon.png) to the right of the issue name, then click **Move to**.
 
-   ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
+   ![Move at issue level](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 
    The **Move Issue** box displays.
 
-   ![](assets/move-issue-box-nwe-350x280.png)
+   ![Move issue box](assets/move-issue-box-nwe-350x280.png)
 
 1. In the **Select Destination Project** section, specify the name of the project where you want to move the issues. The name of the current project displays by default.
 
@@ -112,7 +112,7 @@ You can move one issue when viewing it.
 1. (Conditional) Click **request access** if you do not have access to move issues to the project. 
 1. (Conditional) Continue to move the issue on the selected destination project without requesting access if you have access to add issues to one of the tasks on the destination project.
 
-   ![](assets/move-issue-request-access-from-project-nwe-350x118.png)
+   ![Move issue and request access](assets/move-issue-request-access-from-project-nwe-350x118.png)
 
    >[!TIP]
    >

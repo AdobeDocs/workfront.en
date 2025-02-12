@@ -68,7 +68,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 1. (Optional)&nbsp;Click **Tasks** , then click the name of a task to open the task. 
 1. Click **Issues** in the left panel.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![Issues icon](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. (Optional) To edit limited information about an issue, click **Issue Details** in the left panel.
 
@@ -79,9 +79,9 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
    To edit information in the Details section, do the following:
 
    1. (Optional) Click the **Collapse All** icon in the upper-right corner to collapse all areas. 
-   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
+   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![right pointing arrow](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
    1. (Optional) To attach a custom form, start typing the name of a form in the **Add custom form** field, then select it when it displays in the list, then click&nbsp;**Save Changes**. 
-   1. (Optional) Click the **Export** icon ![](assets/export.png) to export the Overview and custom forms information to a PDF file, then click **Export**. Select from the following:
+   1. (Optional) Click the **Export** icon ![Export icon](assets/export.png) to export the Overview and custom forms information to a PDF file, then click **Export**. Select from the following:
 
       * Select all (displays only when there is at least one custom form attached)
       * Overview
@@ -89,7 +89,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
       The PDF file downloads to your computer.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Export issue details](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       For more information, see [Export custom forms and object details](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
@@ -128,7 +128,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 1. Begin editing an issue as described above.
 1. Click **Issue Name**.
 
-   ![](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
+   ![Issue name section](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
 
 1. Update the **Issue Name** field. 
 1. Click **Save** or continue editing the following sections.
@@ -138,7 +138,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 1. Begin editing an issue as described above.
 1. Click **Overview**.
 
-   ![](assets/overview-section-edit-issue-box-nwe-350x284.png)
+   ![Issue overview section](assets/overview-section-edit-issue-box-nwe-350x284.png)
 
 1. Update or review any of the fields in the following table: 
 
@@ -265,7 +265,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 1. Begin editing the issue as described above.
 1. Click **Assignments** in the left panel.
 
-   ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
+   ![Issue assignments section](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
 1. Click **Search people, role and teams** and start typing the name of a user, role, or team that you want to assign to the task, then click it or press Enter when it displays on the list.
 
@@ -316,7 +316,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 1. Begin editing an issue as described above.
 1. Click **Custom Forms**.
 
-   ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
+   ![Issue custom forms section](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
 1. In the **Add custom form** field, select the custom form or forms that you want to associate with the issue. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. For more information about building custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). You can add up to ten custom forms to an issue. 
 
@@ -333,7 +333,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 1. Begin editing an issue as described above.
 1. Click **Settings**.
 
-   ![](assets/settings-section-edit-issue-box-nwe-350x240.png)
+   ![Issue settings icon](assets/settings-section-edit-issue-box-nwe-350x240.png)
 
    Update the following information:
 
@@ -377,7 +377,7 @@ You can edit a limited amount of information in the issue header.
 
 Your system or group administrator can customize the fields you see in the issue header. For information, see [Customize object headers using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-![](assets/issue-header-350x19.png)
+![Issue header](assets/issue-header-350x19.png)
 
 The following fields are included in the issue header, by default:
 
