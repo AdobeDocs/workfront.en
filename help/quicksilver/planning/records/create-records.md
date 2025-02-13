@@ -25,8 +25,10 @@ You can create records by doing one of the following:
 * [Copy and paste a list of records from an external list](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicate records from a table view](#create-records-by-duplicating-them)
 * [Create records as you connect them from other records](#create-records-as-you-connect-them)
-* [Create them by submitting a request form to a record type](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [Create records by submitting a request form to a record type](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Create records when importing record types from a CSV or Excel file](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
+
+<!--* <span class="preview">[Create records by using automations](#create-records-by-using-automations)</span>-->
 
 
 For information about managing records in the table or timeline views, see the following articles:
@@ -131,9 +133,9 @@ For information about editing record information, see [Edit records](/help/quick
         * Click **New record** in the last row of the table 
 
         * Click **Shift + Enter** on your keyboard from any column or row of the table. This adds an empty row under the record you start from. 
-        * Hover over a record's primary field, click the **More** menu ![](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. 
+        * Hover over a record's primary field, click the **More** menu ![More menu](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. 
 
-        ![](assets/adding-a-new-campaign-in-table-row.png)
+        ![Adding a new campaign in table row](assets/adding-a-new-campaign-in-table-row.png)
 
     * From any view: 
     
@@ -156,14 +158,14 @@ For information about editing record information, see [Edit records](/help/quick
 
     Or 
     
-    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. A preview with the record's detailed information opens in the table. 
+    Click the new record's name or the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) to the left of the record name. A preview with the record's detailed information opens in the table. 
 
     >[!TIP]
     >
     >You can access the **Open Details** icon only from the name field of the record when the Name field is a primary field. 
 
 1. Start editing the record's information in the record's preview. Workfront automatically saves your changes. 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record's preview to open the record's page in a new tab. Continue editing the record on the record page. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+1. (Optional) Click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record's preview to open the record's page in a new tab. Continue editing the record on the record page. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 
 1. (Optional) Use the following keyboard shortcuts to undo or redo adding new records or their information, when adding them in the table view: 
 
@@ -257,7 +259,7 @@ To create records as you are connecting them from other records:
 
     <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
-    ![](assets/add-button-to-create-records-in-context-highlighted.png)
+    ![Add button to create records in context highlighted](assets/add-button-to-create-records-in-context-highlighted.png)
 
     The record is created and added to the connected record field. 
 
@@ -291,3 +293,17 @@ You can import records when you import record types using a CSV or Excel file.
 
 For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
 
+<!--
+<div class="preview">
+
+## Create records by using automations
+
+You can configure automations in Workfront Planning that, when activated, create records when triggered from a Planning record. The created records are automatically connected to the records you are triggering the automation from.
+
+You can configure and activate the automation in the record's page in Workfront Planning. The connected record that is created is placed in the connected field of the record type you run the automation from.
+
+For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
+
+</div>
+
+-->
