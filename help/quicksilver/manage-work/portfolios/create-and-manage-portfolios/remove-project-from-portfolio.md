@@ -53,7 +53,7 @@ You can also delete projects from a portfolio which also removes them from [!DNL
 1. Go to a Portfolio and click **[!UICONTROL Projects]** in the left panel.
 1. Select the project to be removed.&nbsp;
 
-   ![](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
+   ![Remove projects button](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. Click&nbsp;**[!UICONTROL Remove Projects]**.
 1. Click either **[!UICONTROL Delete]** to delete the project from [!DNL Workfront], or **[!UICONTROL Remove]** **[!UICONTROL from Portfolio]** to remove it from the selected Portfolio.

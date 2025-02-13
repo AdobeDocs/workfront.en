@@ -71,7 +71,7 @@ To determine whether your organization is on the Adobe unified experience, exami
 
 ### Map user attributes in the classic experience
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
 
 1. Click **System** > **Single Sign-On (SSO)**.
 
@@ -79,7 +79,7 @@ To determine whether your organization is on the Adobe unified experience, exami
 
 1. Click **Map User Attributes**.
 
-   ![](assets/map-user-attributes.png)
+   ![Map user attributes](assets/map-user-attributes.png)
 
 1. In the row of options that appears, map the attributes you need for your Workfront users.
 
@@ -117,7 +117,7 @@ To determine whether your organization is on the Adobe unified experience, exami
    1. In the drop-down, choose the attribute modifier you want to use.
    1. In the 2 fields to the right, type the directory attribute value and the value you want to replace it with.
 
-      ![](assets/rule-fields.png)
+      ![Rule fields](assets/rule-fields.png)
 
    You can click **Add Rule** to add more rules to the attribute.
 
@@ -126,7 +126,7 @@ To determine whether your organization is on the Adobe unified experience, exami
 
 ### Map user attributes in the Adobe unified experience
 
-1. Click the **Main Menu** icon ![](assets/main-menu-left.png) in the upper-left corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-left.png) in the upper-left corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
 
 1. Click **System** > **Single Sign-On (SSO)**.
 

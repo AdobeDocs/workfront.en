@@ -27,7 +27,7 @@ The reviewers that were on the original proof automatically appear in the [!UICO
 1. Go to any of the **[!UICONTROL Views]** pages, as described in [Manage Items on the Views Page in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
 1. Open the **[!UICONTROL More]** menu for the proof.\
-   ![](assets/more-button-small.png)
+   ![More menu](assets/more-button-small.png)
 
 1. Choose **[!UICONTROL Copy]** from the dropdown menu.
 1. In the **[!UICONTROL Copy proof]** page that appears, specify whether you want to create the copy as a new version of the existing proof or as a new proof.\
@@ -71,7 +71,7 @@ To copy existing proof settings for a new proof:
 1. Go to any of the **[!UICONTROL Views]** pages, as described in [Manage Items on the Views Page in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
 1. Open the **[!UICONTROL More]** menu for the proof.\
-   ![](assets/more-button-small.png)
+   ![More menu](assets/more-button-small.png)
 
 1. Choose **[!UICONTROL View proof details]** from the dropdown menu.
 1. Click **[!UICONTROL More]**.\

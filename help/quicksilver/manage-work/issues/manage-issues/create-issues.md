@@ -105,7 +105,7 @@ To create an issue on a task or a project:
 1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-   ![](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
+   ![New issue screen](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
 
    * If there is only one Queue Topic set on the project, it is displayed automatically.
    * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
@@ -157,7 +157,7 @@ To create an issue on a task or a project:
 1. Click **New Issue** at the top of the issue list.
    The New issue box displays.
 
-      ![](assets/new-issue-box-matches-new-request-ui.png)
+      ![New issue box](assets/new-issue-box-matches-new-request-ui.png)
 
 1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -225,7 +225,7 @@ To create issues inline:
    >
    >This option is dimmed if the Allow users to add issues inline setting is deselected in the Edit Project box. For information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-   ![](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
+   ![Add more issues button](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
 
 1. Start typing the name of the issue in the Name field, then continue adding more information about the issue inline.
 

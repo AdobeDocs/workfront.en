@@ -13,6 +13,11 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2025 Q2 Release {#release-25-q2}
+      * [2025 Q2 Release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
+      * [2025 Q2 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
+      * [Other enhancements during the Second Quarter 2025 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
+      * [Look-and-feel updates during the 2025 Q2 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)
     * 2025 Q1 Release {#release-25-q1}
       * [2025 Q1 Release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
       * [2025 Q1 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)
@@ -181,6 +186,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Planning release activity{#planning-release-activity}
       * [Adobe Workfront Planning release activity](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+      * [Second Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
       * [First Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
       * [Fourth Quarter 2024 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
     * Adobe Workfront Scenario Planner release activity {#scenario-planner-release}
@@ -1528,7 +1534,7 @@ feature-set: Workfront
       * [Create financial data reports with unique exchange rates](reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)
       * [Edit report settings](reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)
       * [Change the owner of a report](reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
-      * [Report on the Updates area](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
+      * [Report on the Updates area with a Journal Entry report](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
       * [Create a User Delegation report](reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
     * Calculated custom data in reports {#calculated-custom-data}
       * [Calculated custom data in reports](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
@@ -2448,10 +2454,12 @@ feature-set: Workfront
     * [Using the API to sync data for programs and services](wf-api/general/api-sync-data.md)
     * [Deactivate a User via the API](wf-api/general/deactivate-user-api.md)
   * Event Subscriptions {#event-subscriptions}
+    * [Event Subscriptions](wf-api/api/event-subscriptions.md)
     * [Event Subscription API](wf-api/general/event-subs-api.md)
     * [Event subscription best practices](wf-api/general/event-sub-best-practice.md)
     * [Event Subscription delivery requirements](wf-api/general/setup-event-sub-endpoint.md)
     * [Event subscription retries](wf-api/api/event-sub-retries.md)
+    * [Event subscription versioning](/help/quicksilver/wf-api/general/event-subs-versioning.md)
     * [Outbound message format for event subscriptions](wf-api/api/message-format-event-subs.md)
     * [FAQs - Event Subscriptions](wf-api/general/event-subs-faq.md)
   * Document Webhooks API {#document-webhooks-api}

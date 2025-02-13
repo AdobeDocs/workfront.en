@@ -62,15 +62,15 @@ Project activities display in different colors to summarize specific events in a
 
 * **Users logged in**: Purple boxes show that people assigned to the project logged in on that day. A darker shade indicates a higher number of people logging in.
 
-  ![](assets/project-activity-users-logged-in.png)
+  ![Users logged in](assets/project-activity-users-logged-in.png)
 
 * **Task status change**: Pink boxes show that people changed the status of a task for the project on that day. A darker shade indicates a higher number of task statuses changing.
 
-  ![](assets/project-activity-task-status-changes.png)
+  ![Task status change](assets/project-activity-task-status-changes.png)
 
 * **Tasks completed**: Blue boxes show that people completed a task for the project. A darker shade indicates a higher number of tasks being completed.
 
-  ![](assets/project-activity-tasks-completed.png)
+  ![Tasks completed](assets/project-activity-tasks-completed.png)
 
 Hovering over a box shows the exact number of times the action was completed in a given day. You can select a project to see a breakdown of these activities by each individual contributor on the project.
 
@@ -84,10 +84,10 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
 ## View the Project activity visualization
 
-1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
+1. Click the Main Menu icon ![Main menu icon](assets/main-menu-icon-16x12.png), then select **Analytics**.
 1. (Optional) To use a different date range, select new start and end dates from the date range filter.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Select date range](assets/filters-select-date-range-350x344.png)
 
    For information on using the date range filter, see [Apply filters in Enhanced analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -105,7 +105,7 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
    All other visualizations update to the same date range and a timeframe filter is created.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Timeframe filter](assets/timeframe-filter-350x220.png)
 
 1. (Optional) To change how the projects are sorted, click the **Sort by** menu, then select a new sorting option:
 
@@ -120,7 +120,7 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
    All other visualizations on the page update to match your page selection.
 
-   ![](assets/pagination-350x118.png)
+   ![Pagination](assets/pagination-350x118.png)
 
 1. Click a project in the visualization to see more details for the project.
 
@@ -128,9 +128,9 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
 1. Mouse over a box to see the date that users completed an action, as well as the number of times the action was completed for that day.
 
-   ![](assets/project-activity-activity-pop-up-350x137.png)
+   ![Activity popup](assets/project-activity-activity-pop-up-350x137.png)
 
-1. (Optional) To export the visualization data, click the **Export icon** ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
+1. (Optional) To export the visualization data, click the **Export icon** ![Export icon](assets/export.png) in the top-right corner of the visualization, then select the export format:
 
    * **Chart (PNG)** 
    * **Data Table (XSLX)**

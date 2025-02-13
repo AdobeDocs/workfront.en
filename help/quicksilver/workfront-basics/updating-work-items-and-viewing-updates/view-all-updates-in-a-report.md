@@ -17,7 +17,7 @@ The Updates area of an object displays a maximum number of 200 updates by defaul
 
 >[!NOTE]
 >
->You can build a report to view updates on objects in Preview with the Journal entry report. For more information, see [Report on the Updates area](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+>You can build a report to view updates on objects in Preview with the Journal entry report. For more information, see [Report on the Updates area with a Journal Entry report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 ## Access requirements
 

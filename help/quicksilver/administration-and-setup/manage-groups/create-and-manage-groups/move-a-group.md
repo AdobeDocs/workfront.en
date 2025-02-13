@@ -58,9 +58,9 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png).
 
-1. Select the destination group where you want to move the group, then click the Edit icon ![](assets/edit-icon.png). 
+1. Select the destination group where you want to move the group, then click the Edit icon ![Edit icon](assets/edit-icon.png). 
 1. In the **Edit Group** box that appears, under **Group Members and Group Administrators**, start typing the name of the group you want to move, then click it when it appears.
 1. Click **Save**.
 

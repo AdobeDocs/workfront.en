@@ -9,6 +9,8 @@ exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
 ---
 # Reference collections in a report
 
+<!-- Audited: 1/2025 -->
+
 Building a report in Adobe Workfront allows you to display a set of objects, their respective fields, or linked objects in a list, a grid, or a chart format.
 
 For more information about building a report in Workfront, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
@@ -17,32 +19,41 @@ For more information about building a report in Workfront, see [Create a custom 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
+You must have the following:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>Manage permissions to a view, filter, or grouping </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>Manage permissions to a view, filter, or grouping </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-To find out what plan, license type, or access you have, contact your Workfront administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -123,7 +134,8 @@ For example, you can show task or issue information in a project report, by buil
 You can display information about the tasks or issues, like names, dates, primary assignees, percent complete, etc in the collection view.
 
 The view displays task or issue information in a list format, with every line of the list representing information about a task or an issue. The list of tasks or issues and their fields appears on the same line as the project the tasks or issues belong to.  
-![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png)
+
+![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png){width=400}
 
 * [Add a collection column in a report View](#add-a-collection-column-in-a-report-view) 
 * [Understand the lines of a collection View in Text Mode](#understand-the-lines-of-a-collection-view-in-text-mode) 
@@ -139,6 +151,7 @@ To add a collection column in a report view:
 1. Navigate away from your report, and using the [API Explorer](../../../wf-api/general/api-explorer.md), determine what collections are available for the object you selected for your report.
 
    For more information about selecting the object of your collection, see the section [Find collection objects and their fields in the API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in this article.  
+
    Make a note of what the name of the object for the collection is.
 
 1. Using the [API Explorer](../../../wf-api/general/api-explorer.md), go to the list of fields for the object you want to display in the collection.
@@ -149,7 +162,7 @@ To add a collection column in a report view:
 
 1. Navigate back to your report, and in the **Columns (View)** tab, click **Add Column**. 
 1. Click **Switch to Text Mode**.
-1. Mouse over the dialog box, and click **Click to edit text**.
+1. Click **Edit Text Mode**.
 1. Select all text in the **Text Mode** dialog box and remove it, then paste the following code if you are referencing a field of the collection object:
 
    ```
@@ -217,7 +230,7 @@ To add a collection column in a report view:
 
 1. The following column displays in the project report, listing all tasks in each project alongside their primary assignees:
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png)
+   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. Click **Save**.
 1. (Optional) Continue editing the report. 
@@ -305,7 +318,7 @@ To add a reference to a collection in a report filter:
 
    Make a note of the field you want to display in the collection. 
 
-1. Navigate back to your report, and in the **Filters** tab, click **Switch to Text Mode**.
+1. Navigate back to your report, and in the **Filters** tab, click **Switch to Text Mode** then **Edit Text Mode**.
 
 1. In the **Set Filter Rules for your Report** area, paste the following code:
 
@@ -331,7 +344,7 @@ To add a reference to a collection in a report filter:
    
    This report only displays projects which have at least one task that has the word "marketing" in their name.
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png)
+   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. To filter for the name of an issue, use the following code:
    
@@ -353,29 +366,29 @@ To add a reference to a collection in a report filter:
 
 ### Reference a collection in the custom prompt of a report {#reference-a-collection-in-the-custom-prompt-of-a-report}
 
-You can reference a collection of objects in the custom prompt&nbsp;of a report, to&nbsp;filter the results of the report for the&nbsp;attributes of objects associated with the object of the report.
+You can reference a collection of objects in the custom prompt of a report, to filter the results of the report for the attributes of objects associated with the object of the report.
 
-For example, you can prompt&nbsp;for task information in a project report by using a reference to the attributes of tasks on the project in the custom prompt of the report.
+For example, you can prompt for task information in a project report by using a reference to the attributes of tasks on the project in the custom prompt of the report.
 
 >[!NOTE]
 >
 >You cannot reference collections in a standard prompt.
 
-A custom prompt is a custom filter where the statements are joined by&nbsp;ampersand symbols. We recommend that you build your statement in a filter, first, then join the lines of the statements with ampersands.
+A custom prompt is a custom filter where the statements are joined by ampersand symbols. We recommend that you build your statement in a filter, first, then join the lines of the statements with ampersands.
 
 For more information about building a filter statement with a collection reference, see the section [Reference a collection in the Filter of a report](#reference-a-collection-in-the-filter-of-a-report) in this article.
 
-To add a reference to a collection&nbsp;in the&nbsp;custom prompt of a report:
+To add a reference to a collection in the custom prompt of a report:
 
-1. Click the **Main** menu ![](assets/main-menu-icon.png), then click&nbsp;**Reports**.
-1. Click&nbsp;**New Report**.
+1. Click the **Main** menu ![](assets/main-menu-icon.png), then click **Reports**.
+1. Click **New Report**.
 1. Select the object of your report.
-1. Build a filter with a collection reference as described in&nbsp;the section [Reference a collection in the Filter of a report](#reference-a-collection-in-the-filter-of-a-report) in this article.
+1. Build a filter with a collection reference as described in the section [Reference a collection in the Filter of a report](#reference-a-collection-in-the-filter-of-a-report) in this article.
 1. Click **Report Settings**.
 1. Click **Report Prompts**.
 1. Click **Add Prompt**.
 1. Click **Custom Prompt**.
-1. Specify the name of the prompt in the&nbsp;**Field****name** field.
+1. Specify the name of the prompt in the **Field****name** field.
 
 1. Specify a **Dropdown Item Label**.
 1. Specify the following in the **Condition** field:
@@ -385,15 +398,15 @@ To add a reference to a collection&nbsp;in the&nbsp;custom prompt of a report:
    ```
 
 1. (Optional) Specify if this choice is displayed by default in the prompt.
-1. Replace&nbsp;**collection object name**&nbsp;with the name of your collection object as it appears in the [API Explorer](../../../wf-api/general/api-explorer.md).&nbsp;This value is typically the plural form of the collection object name.
-1. Replace&nbsp;**collection object field**&nbsp;with the name of the field of your collection object, as it appears in the [API Explorer](../../../wf-api/general/api-explorer.md).
-1. Replace&nbsp;**collection object value**&nbsp;with the value of the collection object as it appears in Workfront.
+1. Replace **collection object name** with the name of your collection object as it appears in the [API Explorer](../../../wf-api/general/api-explorer.md). This value is typically the plural form of the collection object name.
+1. Replace **collection object field** with the name of the field of your collection object, as it appears in the [API Explorer](../../../wf-api/general/api-explorer.md).
+1. Replace **collection object value** with the value of the collection object as it appears in Workfront.
 
-   For example, if you are filtering for projects in which the name of the task contains "Marketing", replace&nbsp;**collection object value**&nbsp;with&nbsp;**marketing**.
+   For example, if you are filtering for projects in which the name of the task contains "Marketing", replace **collection object value** with **marketing**.
 
-1. Replace&nbsp;**value of the modifier**&nbsp;with a valid modifier.
+1. Replace **value of the modifier** with a valid modifier.
 
-   For a list of modifiers, see&nbsp; [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   For a list of modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    **Example:** For example, to build a project report with a custom prompt where you want to display only projects that have at least one task assigned to a specific user, use the code below:
 
@@ -401,11 +414,11 @@ To add a reference to a collection&nbsp;in the&nbsp;custom prompt of a report:
    tasks:assignedToID=57cf1b7a000077c9f02f66cb09c8f86c&tasks:assignedToID_Mod=in
    ```
 
-   This generates a report where all the projects listed have at least one task assigned to the user whose GUID is&nbsp;57cf1b7a000077c9f02f66cb09c8f86c.
+   This generates a report where all the projects listed have at least one task assigned to the user whose GUID is 57cf1b7a000077c9f02f66cb09c8f86c.
 
    >[!NOTE]
    >
-   >You cannot reference the name of the primary assignee ("Assigned To" field) of a task, according to the [API Explorer](../../../wf-api/general/api-explorer.md). You can only reference the&nbsp;ID of the primary assignee.
+   >You cannot reference the name of the primary assignee ("Assigned To" field) of a task, according to the [API Explorer](../../../wf-api/general/api-explorer.md). You can only reference the ID of the primary assignee.
 
    For example, to filter for any projects where any of the project issues are assigned to a specific user use the following code for your custom prompt:
 
@@ -413,15 +426,15 @@ To add a reference to a collection&nbsp;in the&nbsp;custom prompt of a report:
    issues:assignedToID=57cf1b7a000077c9f02f66cb09c8f86c&issues:assignedToID_Mod=in
    ```
 
-   This generates a report where all the projects listed have at least one issue assigned to the user whose GUID is&nbsp;57cf1b7a000077c9f02f66cb09c8f86c.
+   This generates a report where all the projects listed have at least one issue assigned to the user whose GUID is 57cf1b7a000077c9f02f66cb09c8f86c.
 
    >[!NOTE]
    >
-   >Notice that you must use **issues** for the collection object name. The API Explorer&nbsp; does not offer a collection object name for issues at this time.
+   >Notice that you must use **issues** for the collection object name. The API Explorer does not offer a collection object name for issues at this time.
 
-1. Click&nbsp;**Done**.
+1. Click **Done**.
 1. (Optional) Continue editing the report.  
 
    Or
 
-   Click&nbsp;**Save + Close** to save the report.
+   Click **Save + Close** to save the report.

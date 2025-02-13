@@ -63,9 +63,9 @@ To access the task list [!UICONTROL Gantt Chart] of a project or a template:
    * A task or template task, then click [!UICONTROL **Subtasks**] in the left panel.
    * A task report
 
-1. Click the [!UICONTROL **Gantt**] icon ![](assets/gantt-icon-nwe.png) at the top of the task list. 
+1. Click the [!UICONTROL **Gantt**] icon ![Gantt icon](assets/gantt-icon-nwe.png) at the top of the task list. 
 
-   ![](assets/task-list-gantt.png)
+   ![Task list Gantt](assets/task-list-gantt.png)
 
    The task list [!UICONTROL Gantt Chart] opens to the right of the task list. 
 
@@ -108,7 +108,7 @@ To access the project list [!UICONTROL Gantt Chart]:
 
 1. Click the [!UICONTROL **Gantt**] icon at the top of the project list.
 
-   ![](assets/project-list-gantt.png)
+   ![Project list Gantt](assets/project-list-gantt.png)
 
    The project list [!UICONTROL Gantt Chart] opens. 
 

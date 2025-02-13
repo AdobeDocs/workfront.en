@@ -15,11 +15,11 @@ You can change the order in which conditions display in projects, tasks and issu
 
 * When a user is editing a project
 
-  ![](assets/change-condition-edit-project.png)
+  ![Change condition when editing project](assets/change-condition-edit-project.png)
 
 * When a user is changing the condition for a task or issue
 
-  ![](assets/change-conditions-list-dropdown-only.png)
+  ![Change condition in list](assets/change-conditions-list-dropdown-only.png)
 
 ## Access requirements
 
@@ -62,7 +62,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Select the **Projects**,**Tasks**, or **Issues** tab.
 
-1. Drag ![](assets/move-icon---dots.png) Conditions to change their order.
+1. Drag ![Move icon](assets/move-icon---dots.png) Conditions to change their order.
 
    The new order saves automatically.
 

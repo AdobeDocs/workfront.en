@@ -109,7 +109,7 @@ AI assistant can query data associated with the following object types if the us
 
 ## Access AI Assistant
 
-1. At the top of any Workfront page, click the AI Assistant icon ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. At the top of any Workfront page, click the AI Assistant icon ![AI Assistant icon](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Type your question or prompt into the panel at the right of the screen.
 
    If you cannot type into this panel, your organization does not have a signed Adobe Gen AI agreement on file.
@@ -127,7 +127,7 @@ If a user attempts to use AI Assistant when the Adobe Gen AI agreement has not b
 
 To request the Adobe Gen AI agreement:
 
-1. As a Workfront Administrator, click the AI Assistant icon ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. As a Workfront Administrator, click the AI Assistant icon ![AI Assistant icon](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Begin typing in the AI Assistant panel.
 1. When the Adobe Gen AI agreement message appears, click **Review agreement**.
 1. Enter the name and email address of the individual at your organization who will sign the Adobe Gen AI agreement.

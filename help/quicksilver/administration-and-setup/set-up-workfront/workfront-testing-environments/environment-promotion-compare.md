@@ -80,7 +80,7 @@ In this example:
 
 To view specific object differences:
 
-1. Click the magnifying glass icon ![](assets/compare-icon.png) in the line for that object.
+1. Click the magnifying glass icon ![Compare icon](assets/compare-icon.png) in the line for that object.
 
    A window opens with all of that object's fields. differences are marked in red.
 

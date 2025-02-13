@@ -53,7 +53,7 @@ You can edit a [!UICONTROL portfolio] in the portfolio page or you can edit port
 1. Click the name of a portfolio to open it.
 1. (Optional) To edit limited information about the portfolio, click **[!UICONTROL Portfolio Details]** in the left panel.
 
-   ![](assets/portfolio-details-tab-nwe-350x163.png)
+   ![Portfolio details tab](assets/portfolio-details-tab-nwe-350x163.png)
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the note below will also be true for Edit Portfolio box)</p>
@@ -66,10 +66,10 @@ You can edit a [!UICONTROL portfolio] in the portfolio page or you can edit port
    To edit information in the [!UICONTROL Details] section, do the following:
 
    1. (Optional) Click the **[!UICONTROL Collapse All]** icon in the upper-right corner to collapse all areas.
-   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit.
+   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![Right pointing arrow](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit.
    1. For information about the fields visible in the [!UICONTROL Portfolio Details] section, continue with editing the portfolio in the [!UICONTROL Edit Portfolio] box as described below.
    1. (Optional) If there are no custom forms attached to the portfolio, start typing the name of a form in the **[!UICONTROL Add custom form]** field, select it when it displays in the list, then click **[!UICONTROL Save Changes]**.
-   1. (Optional) Click the **[!UICONTROL Export]** icon ![](assets/export.png) to export the [!UICONTROL Overview] and custom forms information to a PDF file, then click **[!UICONTROL Export]**. Select from the following:
+   1. (Optional) Click the **[!UICONTROL Export]** icon ![Export icon](assets/export.png) to export the [!UICONTROL Overview] and custom forms information to a PDF file, then click **[!UICONTROL Export]**. Select from the following:
 
       * Select all (displays only when there is at least one custom form attached)
       * Overview
@@ -77,7 +77,7 @@ You can edit a [!UICONTROL portfolio] in the portfolio page or you can edit port
 
       The PDF file downloads to your computer.
 
-      ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![Export portfolio details](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       For more information, see [Export custom forms and object details](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
@@ -94,14 +94,14 @@ You can edit a [!UICONTROL portfolio] in the portfolio page or you can edit port
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will change in NWE with a new Edit Portfolio UI)</p>   
      -->
 
-   * Go to a list of portfolios and select one or more portfolio that you want to edit, then click the **[!UICONTROL Edit]** icon ![](assets/edit-icon.png) at the top of the list.
+   * Go to a list of portfolios and select one or more portfolio that you want to edit, then click the **[!UICONTROL Edit]** icon ![Edit icon](assets/edit-icon.png) at the top of the list.
 
       <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to split into another section when they release the new [!UICONTROL Edit Portfolio] UI)</p>   
      -->
    The **[!UICONTROL Edit Portfolio]** dialog box displays.
 
-   ![](assets/edit-portfolio-box-classic-350x224.png)
+   ![Edit portfolio box](assets/edit-portfolio-box-classic-350x224.png)
 
    All portfolio fields are available in the [!UICONTROL Edit Portfolio] box and are grouped by the areas listed in the left panel.
 
@@ -178,7 +178,7 @@ You can edit a [!UICONTROL portfolio] in the portfolio page or you can edit port
 1. Begin editing a portfolio as described above.
 1. Click **[!UICONTROL Comment]**.
 
-   ![](assets/comment-box-edit-portfolio-classic-350x227.png)
+   ![Edit portfolio comment box](assets/comment-box-edit-portfolio-classic-350x227.png)
 
 1. Add a comment in the **[!UICONTROL Post an update to the portfolio]** field.
 1. (Optional) Click the **[!UICONTROL People]** icon to add a user or a team to the comment.

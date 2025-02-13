@@ -62,7 +62,7 @@ To modify email notification settings for multiple users:
 
 1. Expand a category to view notification settings related to that category.
 
-   If there is at least one user selected where the notifications do not match the notifications of the other selected users, the category check box for that notification contains a horizontal line ![](assets/straight-line-instead-of-checkmark.jpg) instead of a check mark.
+   If there is at least one user selected where the notifications do not match the notifications of the other selected users, the category check box for that notification contains a horizontal line ![Line instead of check](assets/straight-line-instead-of-checkmark.jpg) instead of a check mark.
 
 
 1. Click any notifications that you want the users to receive either daily or instantly, or clear any that you want them to stop receiving.
@@ -74,7 +74,7 @@ To modify email notification settings for multiple users:
 
 1. If you selected notifications to be sent as a daily digest, select the time of the day you want the digest delivered at the top of the **Notifications** section in the **Email Daily Digest after** menu.
 
-   ![](assets/daily-digest-time.png)
+   ![Daily digest time](assets/daily-digest-time.png)
 
    The daily digest includes events that meet the criteria of the notifications 24 hours prior to the selected time. Users receive one daily digest email for each notification type.
 

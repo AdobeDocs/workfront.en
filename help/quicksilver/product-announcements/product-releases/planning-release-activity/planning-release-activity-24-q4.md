@@ -10,27 +10,13 @@ exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
 ---
 # Fourth Quarter 2024 release activity for Adobe Workfront Planning
 
-<!--remove this important intro after the 25.1 release-->
-
->[!IMPORTANT]
->
->The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
->
->You must purchase a Workfront Planning plan, in addition to a Workfront plan to be able to access and use Workfront Planning capabilities. 
->
->For a complete list of requirements to access Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
->For an overview of Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
->
-
 This article describes the features that are releasing for Workfront Planning during the 2024 Fourth Quarter release. 
 
 For information about features included in this release, see [Adobe Workfront Planning release activity for 2024](/help/quicksilver/planning/general/release-activity.md).
 
-
 <!--keep the sentence below for all future quarterly release pages-->
-<!--remove the general activity mention after fourth quarter 2024 is released-->
 
-For a list of all features released for Adobe Workfront Planning after the general availability release on August 28, 2024, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md). 
+For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Display Options for Connected Records 
 

@@ -60,7 +60,7 @@ You must have the following access to perform the steps in this article:
 
 1. In the left panel, click **Email** > **Notifications**> **Email Templates**.
 
-    ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+    ![Email templates tab](assets/email-templates-tab-under-setup-email-notifications-area.png)
   
 1. Click **New Email Template**.  
 
@@ -233,7 +233,7 @@ A Project You Manage Has Become Late
 
 This produces an email similar to the following: 
 
-![](assets/project-became-late-email.png)
+![Project became late email](assets/project-became-late-email.png)
 
 #### Task or Issue About to Start reminder {#task-or-issue-about-to-start-reminder-example}
 

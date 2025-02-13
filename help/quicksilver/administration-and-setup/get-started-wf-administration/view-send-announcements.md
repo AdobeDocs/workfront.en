@@ -57,7 +57,7 @@ You can easily forward messages that you receive from Workfront to users in your
 
 1. Go to the Announcements page by clicking the **Notification** icon in the upper-right corner of the Workfront interface, then click **All Announcements**.
 
-   ![](assets/announcement-access-350x212.png)
+   ![All announcements](assets/announcement-access-350x212.png)
 
 1. On the **Announcements** page, select the message that you want to forward.
 1. Click **Forward**.
@@ -73,7 +73,7 @@ You can easily forward messages that you receive from Workfront to users in your
 
 1. Go to the Announcements page by clicking the **Notification** icon in the upper-right corner of the Workfront interface, then click **All Announcements**.
 
-   ![](assets/announcement-access-350x212.png)
+   ![All annoucements](assets/announcement-access-350x212.png)
 
 1. On the **Announcements** page, click **New Announcement.**
 

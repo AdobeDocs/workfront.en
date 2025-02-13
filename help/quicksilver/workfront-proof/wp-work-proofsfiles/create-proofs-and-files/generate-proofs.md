@@ -39,7 +39,7 @@ exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
 
    For more details about proofing websites, see [Generate a proof for a URL](#generate-a-proof-for-a-url).
 
-   ![](assets/proof-website-350x65.png)
+   ![Proof website](assets/proof-website-350x65.png)
 
 1. (Optional) Modify the file names of any uploaded files:
 

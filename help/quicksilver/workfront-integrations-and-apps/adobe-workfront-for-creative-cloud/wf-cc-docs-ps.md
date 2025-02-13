@@ -58,10 +58,10 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Return to Work List](assets/go-back-to-work-list-350x314.png)
 
 1. Go to the work item where you want to upload a document. 
-1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar. 
+1. Click the **[!UICONTROL Document]** icon ![Document icon](assets/documents.png) in the navigation bar. 
 
 1. Click **[!UICONTROL New File]** near the bottom of the plugin.
 1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu.

@@ -83,7 +83,7 @@ Without leaving the main page of a group you are viewing, you can quickly edit, 
 
    In the list that displays, you can see the groups you manage, along with any subgroups they have. Adobe Workfront administrators can see all groups.
 
-1. Select the group, then click the Edit ![](assets/edit-icon.png), Copy ![](assets/copy-icon.png), or Delete ![](assets/delete.png) icon.
+1. Select the group, then click the Edit ![Edit icon](assets/edit-icon.png), Copy ![Copy icon](assets/copy-icon.png), or Delete ![Delete icon](assets/delete.png) icon.
 
    If you need information about using the box that displays, see one of the following:
 

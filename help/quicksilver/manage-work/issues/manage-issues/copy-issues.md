@@ -89,7 +89,7 @@ You can copy one or multiple issues from a list of issues or from an issue repor
 1. If you selected to go to a project, click **Issues** in the left panel. 
 1. Select the issue or issues that you want to copy and click the **More menu** at the top of the issue list, then click **Copy to**.
 
-   ![](assets/copy-issue-in-list-nwe-350x169.png)
+   ![Copy issue in list](assets/copy-issue-in-list-nwe-350x169.png)
 
 1. Continue with copying the issue, as described in the section [Copy a single issue](#copy-a-single-issue) starting with Step 2.
 
@@ -103,13 +103,13 @@ You can copy one or multiple issues from a list of issues or from an issue repor
 
 You can copy one issue when viewing it.
 
-1. Go to an issue that you want to copy, then click the **More** menu ![](assets/more-icon.png) to the right of the issue name, then **Copy** to.
+1. Go to an issue that you want to copy, then click the **More** menu ![More menu](assets/more-icon.png) to the right of the issue name, then **Copy** to.
 
-   ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
+   ![Copy at issue level](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
    The **Copy Issue** box displays.
 
-   ![](assets/copy-issue-box-nwe-350x285.png)
+   ![Copy issue box](assets/copy-issue-box-nwe-350x285.png)
 
 1. In the **Select Destination Project** section, specify the name of the project where you want to copy the issues. The name of the current project displays by default.
 
@@ -120,7 +120,7 @@ You can copy one issue when viewing it.
 1. (Conditional) Click **request access** if you do not have access to copy issues to the project. 
 1. (Conditional) Continue to copy the issue to the selected destination project without requesting access if you have access to add issues to one of the tasks on the destination project.
 
-   ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
+   ![Copy issue and request access](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >

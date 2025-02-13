@@ -32,4 +32,4 @@ To eliminate the confusion of displaying an empty tab, we have removed the "My T
 
 For information about what information displays in Workfront Goals, see [Filter information in Adobe Workfront Goals](../../../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
-![](assets/goals-page-with-no-my-teams-tab-350x114.png)
+![Goals page](assets/goals-page-with-no-my-teams-tab-350x114.png)

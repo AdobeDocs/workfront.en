@@ -140,7 +140,7 @@ You can specify the following information:
    For information about adding projects to programs, see [Add a project to a program](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
 1. Click **[!UICONTROL Save Changes]**.
-1. (Optional) Click the **[!UICONTROL More menu]** ![](assets/more-icon.png) next to the program name and click **[!UICONTROL Deactivate Program]**.
+1. (Optional) Click the **[!UICONTROL More menu]** ![More menu](assets/more-icon.png) next to the program name and click **[!UICONTROL Deactivate Program]**.
 
    When you deactivate a program, the program no longer displays in a list of program when users try to add it to a project. You can still access the program from the [!UICONTROL Programs] area.
 

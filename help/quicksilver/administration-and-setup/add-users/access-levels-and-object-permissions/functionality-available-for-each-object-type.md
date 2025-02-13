@@ -540,7 +540,7 @@ Only users with a Plan license can have full access to [select object or area]. 
 | Add or edit job role information on plans and initiatives&#42; |✓ |✓ |✓ |&nbsp; |&nbsp; |
 | Add or edit cost information on plans and initiatives&#42; |✓ |✓ |✓ |&nbsp; |&nbsp; |
 | Delete plans and initiatives | ✓ |✓ |✓ |&nbsp; |&nbsp; |
-| View Scenarios in the Main Menu ![](assets/esp-icon-in-main-menu.png)| ✓ |✓ |✓ | |&nbsp; |
+| View Scenarios in the Main Menu ![Scenario planner icon](assets/esp-icon-in-main-menu.png)| ✓ |✓ |✓ | |&nbsp; |
 | View plans and initiatives that the user created&#42; |✓ |✓ |✓ |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}

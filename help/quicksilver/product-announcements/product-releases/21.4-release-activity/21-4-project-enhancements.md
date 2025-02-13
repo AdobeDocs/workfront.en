@@ -71,7 +71,7 @@ In addition to the Duration fields in the Task Details, Edit Tasks and New Task 
 
 For information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-![](assets/duration-combined-field-350x139.png)
+![Duration field](assets/duration-combined-field-350x139.png)
 
 ## Disable adding issues inline on projects
 

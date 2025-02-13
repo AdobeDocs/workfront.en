@@ -129,7 +129,7 @@ If the users in your organization would prefer to use the Desktop Proofing Viewe
 
 1. From Workfront, click the Workfront Proof icon in the Global Navigation Bar to access Workfront Proof.
 
-   ![](assets/proof-access-proofhq-350x39.png)
+   ![Proof icon](assets/proof-access-proofhq-350x39.png)
 
 1. Click **Account settings** near the upper-right corner of Workfront Proof, then click the **Settings** tab.
 

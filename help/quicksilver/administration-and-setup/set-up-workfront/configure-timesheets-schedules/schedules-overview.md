@@ -77,7 +77,7 @@ The order in which the schedules are used by the system when more than one exist
 * If the user assigned to the task has no schedule, or the task is assigned only to a job role, a team, or is unassigned, [!DNL Workfront] uses the project schedule for the timeline calculations.
 * If the user assigned to the task has no schedule, or the task is assigned only to a job role, a team, or is unassigned, and the project has no schedule, then [!DNL Workfront] uses the schedule in the system designated as the Default Schedule for timeline calculations.
 
-   ![](assets/default-schedule.png)
+   ![Default schedule](assets/default-schedule.png)
 
 ## Collaboration in [!DNL Workfront] across time zones
 

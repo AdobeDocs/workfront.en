@@ -40,10 +40,10 @@ To create a custom view:
 
    * To create a new custom view based on an existing standard view: From the drop-down menu, select the existing standard view you want to use as the basis for your new custom view. Click the **[!UICONTROL View Settings]** icon, then click **[!UICONTROL Copy]** to new custom view.
 
-   * ![](assets/proof-custom-view-icon.png)
+   * ![Custom view icon](assets/proof-custom-view-icon.png)
 
    * To create a new custom view from scratch: Click the **[!UICONTROL New View]** icon.
-   * ![](assets/proof-newview.png)
+   * ![New view](assets/proof-newview.png)
 
 1. In the **[!UICONTROL Details]** section, specify the following information:
 
@@ -53,7 +53,7 @@ To create a custom view:
 1. In the **[!UICONTROL Columns]** section, determine which columns you want to include in the custom view.
 
    1. Click the Right arrow icon.
-   1. ![](assets/proof-view-rightarrow.png)
+   1. ![Right arrow](assets/proof-view-rightarrow.png)
 
    1. Double-click the name of the selected column.
    1. You must select at least one column, and a column can be added only once.
@@ -268,10 +268,10 @@ You can edit a custom view easily. To edit a custom view:
 
 1. Click on the [!UICONTROL Views] button (1)
 1. Select the view you want to edit from the drop-down menu.\
-   ![](assets/proof-view-edit.png)
+   ![Edit view](assets/proof-view-edit.png)
 
 1. Click the **[!UICONTROL View Options]** button, then click **[!UICONTROL Edit view]**.\
-   ![](assets/proof-view-options.png)\
+   ![View options](assets/proof-view-options.png)\
    The Edit Custom View page is displayed.
 
 1. Click on the [!UICONTROL Actions] menu. (3)\
@@ -306,7 +306,7 @@ To copy a custom view:
    ![copying_custom_view.png](assets/copying-custom-view-350x258.png)
 
 1. In the Copy custom view page, all the original settings are populated. Modify the Custom view as per your choice and click the **[!UICONTROL Copy view]** button. You will be taken to your new view immediately.\
-   ![](assets/copy-custom-view-page-350x542.png)
+   ![Copy custom view](assets/copy-custom-view-page-350x542.png)
 
 ## Sharing Custom Views
 

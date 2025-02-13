@@ -88,7 +88,7 @@ To edit the Project Planning Priority:
 1. Go to the **Resource Planner**.  
 
 1. Click inside the field to the left of the project name which contains a number, and enter a number to change Planning Priority, then press Enter.  
-   ![](assets/mceclip4.png)  
+   ![Change Planning Priority](assets/mceclip4.png)  
    Or  
    Hover over the name of the project and click the indicator to the left of the project name, and drag it and drop it in the correct spot, to change the priority.
 
@@ -118,7 +118,7 @@ To edit the Project Planning Priority:
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![](assets/rp-portfolio-priority-unordered-edit-350x180.png)
+   ![Portfolio priority](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    The portfolio priorities of the projects display only in the Project view of the Resource Planner.
 
@@ -130,7 +130,7 @@ To edit the Project Planning Priority:
    1. Planned Start Date
    1. Project Name
 
-   ![](assets/rp-portfolio-priority-ordered-350x198.png)
+   ![Portfolio priority ordered](assets/rp-portfolio-priority-ordered-350x198.png)
 
 1. Click **Save**.
 

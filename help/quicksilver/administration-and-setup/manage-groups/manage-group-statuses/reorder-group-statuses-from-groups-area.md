@@ -17,7 +17,7 @@ As a group administrator, you can change the order of project, task, and issue s
 The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.
 -->
 
-![](assets/statuses.png)
+![Statuses](assets/statuses.png)
 
 If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
 

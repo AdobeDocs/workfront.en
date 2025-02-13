@@ -40,7 +40,7 @@ You must have the following access in [!DNL Workfront] to perform the steps in t
 1. Tap the tab at the bottom in the middle of the screen.\
    The [!UICONTROL widget] area displays.\
    Scroll through the widgets by swiping left to right.\
-   ![](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
+   ![Widgets](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
 1. Drag and drop a widget to customize the layout of your project page.\
    You can have up to four widgets display at one time.\

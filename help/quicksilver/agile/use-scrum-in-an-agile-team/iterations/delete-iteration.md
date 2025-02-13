@@ -11,6 +11,8 @@ exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
 
 You can delete an iteration for your agile team if it is no longer needed.
 
+When you delete an iteration, any stories on the iteration are moved to the backlog. The tasks and issues also remain on their projects.
+
 >[!NOTE]
 >
 >Any iterations you delete cannot be recovered.
@@ -51,4 +53,4 @@ For more detail about the information in this table, see [Access requirements in
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 
 1. In the left panel, select **[!UICONTROL Iterations]**.
-1. Select the iteration that you want to delete, then click **[!UICONTROL Delete]**.
+1. Select the iteration that you want to delete, then click the [!UICONTROL **Delete**] icon ![Delete icon](assets/delete-icon.png).

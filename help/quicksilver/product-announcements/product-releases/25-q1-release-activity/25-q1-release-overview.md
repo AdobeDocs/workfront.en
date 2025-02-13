@@ -608,14 +608,13 @@ This page provides information about functionality that is included in the First
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Updated commenting experience in the Mentions widget in Home and My Updates area</a></p>
-            [!BADGE In production ]{type=Informative}
             <p>We are updating the commenting experience in the Mentions widget in Home and the Mentions section in the My Updates area. Now, the same experience in the Updates area of most Workfront objects is also available in the Mentions widget and in the Mentions section of My Updates.</p>
         </td>
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: December 19, 2024</li>
-                <li>Production release for all customers: With the 25.1 release (January 16, 2025)</li>
+                <li>Production release for all customers: To be announced</li>
             </ul>
         </td>
     </tr>

@@ -81,7 +81,7 @@ The following sections illustrate where you can access the Workload Balancer wit
 
 1. Click **Workload Balancer** in the left panel.
   
-    ![](assets/nwe-balancer-global.png)
+    ![Workload Balancer](assets/nwe-balancer-global.png)
 
     The Workload Balancer displays the following by information in the Resourcing area, by default:
 
@@ -98,7 +98,7 @@ The following sections illustrate where you can access the Workload Balancer wit
   
 1. Click **Workload Balancer** in the left panel.
 
-   ![](assets/nwe-balancer-team-350x172.png)
+   ![Workload Balancer for team](assets/nwe-balancer-team-350x172.png)
 
    The Workload Balancer of a team displays the following information, by default:
 
@@ -118,7 +118,7 @@ The following sections illustrate where you can access the Workload Balancer wit
 
    The Workload Balancer for the project displays.
 
-   ![](assets/nwe-balancer-project-350x152.png)
+   ![Workload Balancer for Project](assets/nwe-balancer-project-350x152.png)
 
    The Workload Balancer of a project displays the following by information, by default:
 

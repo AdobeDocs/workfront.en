@@ -37,7 +37,7 @@ When a user leaves your organization, you can remove that user from Adobe Workfr
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -126,7 +126,7 @@ You can permanently delete users one at a time, or you can permanently delete mu
 
 {{step-1-to-users}}
 
-1. Select at least one user that you want to delete, click the More menu ![](assets/more-icon.png), then click **Delete**.
+1. Select at least one user that you want to delete, click the More menu ![More icon](assets/more-icon.png), then click **Delete**.
 1. In the box that appears, click **Delete** to confirm the deletion.
 
    The process of deleting users runs as a background process, so you can continue using Workfront as the user or users are deleted.

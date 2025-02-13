@@ -23,22 +23,22 @@ To learn how to add filters, see [Apply filters in Enhanced analytics](../enhanc
 
 The Projects completed KPI shows how many projects within the filtered time period have been completed, as well as how the percentage increased or decreased since the previous time period. Below these numbers, you can see the number of projects completed in the previous time period, as well as the number of days in the previous time period.
 
-![](assets/kpi-projects-completed-350x182.png)
+![KPI projects completed](assets/kpi-projects-completed-350x182.png)
 
 ## Projects completed on time
 
 The Projects completed on time KPI shows the percentage of projects within the filtered time period that were completed on time, as well as how the percentage increased or decreased since the previous time period. Below these numbers, you can see the percentage of projects completed on time in the previous time period, as well as the number of days in the previous time period.
 
-![](assets/kpi-projects-completed-on-time-350x180.png)
+![KPI projects completed on time](assets/kpi-projects-completed-on-time-350x180.png)
 
 ## Avg. project duration
 
 The Avg. project duration KPI shows the average amount of completion time—in days, weeks, or years—for projects with actual end dates within the filtered time period, as well as how the percentage increased or decreased since the previous time period. Below these numbers, you can see the average amount of completion time for projects with actual end dates in the previous time period, as well as the number of days in the previous time period.
 
-![](assets/kpi-avg.-project-duration-350x168.png)
+![KPI average project duration](assets/kpi-avg.-project-duration-350x168.png)
 
 ## Avg. tasks per project
 
 The Avg, tasks per project KPI shows the average number of tasks assigned to projects within the filtered time period, as well as how the percentage increased or decreased since the previous time period. Below these numbers, you can see the the average number of tasks assigned to projects in the previous time period, as well as the number of days in the previous time period.
 
-![](assets/kpi-average-tasks-per-project-350x179.png)
+![KPI average tasks per project](assets/kpi-average-tasks-per-project-350x179.png)

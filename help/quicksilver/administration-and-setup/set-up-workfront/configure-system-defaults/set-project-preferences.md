@@ -63,7 +63,7 @@ For more detail about the information in this table, see [Access requirements in
 1. In the left panel, click **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects]**.
 
 1. On the **Project Preferences** page, continue with one of the 4 sections listed below to configure preferences for [!UICONTROL Project Status], [!UICONTROL Timelines], [!UICONTROL Business Cases], and [!UICONTROL Life after Death].
-1. If you want all groups throughout the organization to use the same project preferences, ensure that each preference is locked ![](assets/lock-toggle-button.png) (this is the default).
+1. If you want all groups throughout the organization to use the same project preferences, ensure that each preference is locked ![Lock toggle](assets/lock-toggle-button.png) (this is the default).
 
    >[!IMPORTANT]
    >
@@ -240,13 +240,6 @@ Configure any of the following preferences for newly created projects throughout
  </tbody> 
 </table>
 
-
-
-
-
-
-
-
 ### [!UICONTROL Business Cases] {#business-cases}
 
 You can create a Business Case for newly created projects throughout the system to submit project requests. You can define preferences to determine which areas are visible on the **[!UICONTROL Business Case]** form. We recommend that you enable these options so that other tools, such as the [!UICONTROL Portfolio Optimizer], update properly. For more information about what each field displays, see [Define a Business Case: article index](../../../manage-work/projects/define-a-business-case/define-business-case.md).
@@ -273,11 +266,12 @@ Configure any of the following preferences for newly created projects throughout
    <td role="rowheader"> <p>[!UICONTROL After a Project is marked Complete, Dead, or it is Pending Approval, people can still]</p> </td> 
    <td> <p>Determine the rules for your organization (or group, if you are configuring project preferences for a group) regarding what happens to tasks, issues, documents, and other objects in a project after the project status has been marked <strong>[!UICONTROL Complete]</strong>, <strong>[!UICONTROL Dead]</strong>, or is <strong>[!UICONTROL Pending Approval]</strong>.</p> 
     <ul> 
-     <li><strong>[!UICONTROL Add and edit tasks]</strong> Allows users to:
+     <li><strong>[!UICONTROL Add and edit tasks:]</strong> Allows users to:
       <ul>
-       <li>Edit tasks within a project after the project has been marked [!UICONTROL Complete], [!UICONTROL Dead], or is [!UICONTROL Pending Approval]. This includes adding hours and changing expense entries on a task.</li>
+       <li><p>Edit tasks within a project after the project has been marked [!UICONTROL Complete], [!UICONTROL Dead], or is [!UICONTROL Pending Approval].</p>
+           <p>Note: Even when this option is not selected, users can add and edit expense entries. Logging hours has a separate setting. To allow or prevent users from logging time on projects with a Complete or Dead status, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configure timesheet and hour preferences</a>.</p></li>
        <li>Add tasks to a project.</li>
-      </ul></li> 
+      </ul></li>
      <li><strong>[!UICONTROL Add and edit issues]</strong>: Allows users to:
       <ul>
        <li>Edit issues within a project after the project has been marked [!UICONTROL Complete], [!UICONTROL Dead], or [!UICONTROL Pending Approval].</li>

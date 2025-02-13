@@ -52,14 +52,14 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png).
 
    In the list that displays, you can see the groups you manage, along with any subgroups they have. Adobe Workfront administrators can see all groups.
 
-1. If you want to export the entire group of groups that you manage, click the Export icon ![](assets/export.png).
+1. If you want to export the entire group of groups that you manage, click the Export icon ![Export icon](assets/export.png).
 
    Or
 
-   To export some of the groups you manage, select those groups, then click the Export icon ![](assets/export.png). 
+   To export some of the groups you manage, select those groups, then click the Export icon ![Export icon](assets/export.png). 
 
 1. Select the file format you want for the exported list.

@@ -70,7 +70,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click the name of the group to open its page. 
 
-1. Click the More menu ![](assets/more-icon.png) next to the name of the group, then click **Deactivate** or **Reactivate**.    
+1. Click the More menu ![More icon](assets/more-icon.png) next to the name of the group, then click **Deactivate** or **Reactivate**.    
   
    >[!NOTE]
    >
@@ -86,7 +86,7 @@ Consider the following about a group that you deactivate by disabling the Is Act
 
   For information about re-activating a subgroup in this situation, see [About reactivating a subgroup below an inactive parent group](#about-reactivating-a-subgroup-below-an-inactive-parent-group) in this article.
 
-* When you go to the Groups area in Setup, you can see only active groups in the list because Active is the default filter ![](assets/filter-nwepng.png) for it. If you want to see all of the groups you manage, including the inactive ones, you can use the All filter. Or use the Inactive filter to list only the inactive ones.
+* When you go to the Groups area in Setup, you can see only active groups in the list because Active is the default filter ![Filter icon](assets/filter-nwepng.png) for it. If you want to see all of the groups you manage, including the inactive ones, you can use the All filter. Or use the Inactive filter to list only the inactive ones.
 
   For more information about filters in lists, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

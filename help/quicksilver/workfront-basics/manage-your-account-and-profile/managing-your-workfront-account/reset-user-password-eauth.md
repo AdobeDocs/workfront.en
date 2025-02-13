@@ -42,17 +42,17 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 ## Reset a user's password in an eAuth enabled environment
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Workfront], then click **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of [!DNL Workfront], then click **[!UICONTROL Users]** ![Users icon](assets/users-icon-in-main-menu.png).
 
-   ![](assets/main-menu-options-350x481.png)
+   ![Main menu options](assets/main-menu-options-350x481.png)
 
 1. Select the **[!UICONTROL User]** that requires a password reset.
-   ![](assets/100520classicnweselectuser-350x105.png)
+   ![Select the user](assets/100520classicnweselectuser-350x105.png)
 
 1. Click the **[!UICONTROL More] button** that appears after you've chosen the desired **[!UICONTROL User]** and select the **[!UICONTROL Send Forgot Password Email]** option from the drop-down menu.
 
-   ![](assets/100520classicnwesendemail-350x134.png)
+   ![Send Forgot password email](assets/100520classicnwesendemail-350x134.png)
 
 After selecting the **[!UICONTROL Send Forgot Password Email]** option, an email is sent to the selected user that contains instructions for them to change their own password.
 
-![](assets/pwresetemail-resized-350x461.png)
+![Reset email](assets/pwresetemail-resized-350x461.png)
