@@ -49,7 +49,10 @@ To disable AI Assistant for a given access level:
 1. Select **Access Levels** in the left navigation.
 1. Select the access level for which you want to enable AI Assistant. 
 1. In the Edit Access Level window, scroll down to the bottom of the window and click **Set additional restrictions...**.
-1. In the Set additional restrictions area, enable the option **Disable the Workfront AI Assistant**.
+1. In the Set additional restrictions area, enable the option **Disable AI Features**.
 1. Click **Save**.
 1. Repeat steps 3-6 for each access level for which you want to disable AI assistant.
 
+>[!NOTE]
+>
+>As AI features are added to Workfront, some AI features will become foundational to how Workfront operates. The ability to disable all AI features will likely be deprecated in the near future.
