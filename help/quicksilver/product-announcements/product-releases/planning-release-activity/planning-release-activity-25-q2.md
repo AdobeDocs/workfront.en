@@ -16,6 +16,16 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Examine and confirm actions taken by AI Assistant
+
+>[!NOTE]
+>
+>Preview release: February 13, 2025; Production for fast release: With the 25.3 release (March 2025); Production for quarterly release: With the 25.4 release (April 2025)
+
+To make it easier to ensure that AI Assistant takes the actions you intend, you can now examine and confirm those actions before there are executed. Now, when you enter a prompt that performs an action such as creating, updating, or deleting a record, AI Assistant displays the actions it will take and asks for confirmation that those are the correct actions.
+
+Previously, this confirmation step was unavailable.
+
 ## Functions added to formula fields
 
 >[!NOTE]
@@ -42,7 +52,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+>Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 13, 2025); Production for quarterly release: With the 25.4 release (April 2025)
 
 You can now share views and workspaces with teams, job roles, and companies, in Workfront Planning. Prior to this enhancement, you could share views and workspaces with users and groups.
 
@@ -56,7 +66,7 @@ For information, see the following articles:
 
 >[!NOTE]
 >
->Preview release: January 23, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+>Preview release: January 23, 2025; Production for fast release: With the 25.2 release (February 13, 2025); Production for quarterly release: With the 25.4 release (April 2025)
 
 You can now copy text from a source external to Workfront and paste it in a Workfront Planning connected field or a People-type field. This enhancement is available when editing records in the table view.  The text must match an existing user (for People-type fields) or an existing record or object (for a connected record). You can copy and paste multiple values for multiple fields and update records in bulk. 
 
@@ -68,7 +78,7 @@ For more information, see [Edit records](/help/quicksilver/planning/records/edit
 
 >[!NOTE]
 >
->Preview release: January 23, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+>Preview release: January 23, 2025; Production for fast release: With the 25.2 release (February 13, 2025); Production for quarterly release: With the 25.4 release (April 2025)
 
 With this release, we have updated the filter builder in Workfront Planning to allow for multi-tier filters.  
 
@@ -86,7 +96,7 @@ For more information, see [Manage the table view](/help/quicksilver/planning/vie
 
 >[!NOTE]
 >
->Preview release: January 22, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+>Preview release: January 22, 2025; Production for fast release: With the 25.2 release (February 13, 2025); Production for quarterly release: With the 25.4 release (April 2025)
 
 You can now create projects using a template while you connect projects to existing records. 
 
@@ -100,7 +110,7 @@ For information, see [Create Workfront objects from Workfront Planning](/help/qu
 
 >[!NOTE]
 >
->Preview release: January 22, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+>Preview release: January 22, 2025; Production for fast release: With the 25.2 release (February 13, 2025); Production for quarterly release: With the 25.4 release (April 2025)
 
 To give you better visibility to record titles on the header of the display page, we have made an improvement to give titles more space, prevent overlap, and handle truncation gracefully. 
 
