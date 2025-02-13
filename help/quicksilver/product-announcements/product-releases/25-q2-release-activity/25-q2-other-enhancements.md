@@ -16,7 +16,7 @@ For a list of all changes available at this point in the Second Quarter 2025 rel
 
 >[!NOTE]
 >
->Preview release: January 23, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+>Preview release: January 23, 2025; Production for fast release: With the 25.2 release (February 13, 2025); Production for quarterly release: With the 25.4 release (April 2025)
 
 Now, when the administrator of the Adobe Admin Console makes a change to the user information of a Workfront user, Workfront records this change in the System activity tab of the user's Updates area as belonging to the "System". This refers to the Adobe Admin Console administrator.  
 
