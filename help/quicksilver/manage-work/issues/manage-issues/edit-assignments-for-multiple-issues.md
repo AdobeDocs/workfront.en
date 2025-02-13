@@ -96,13 +96,13 @@ For general information about assigning issues, see [Overview of modifying issue
    1. Begin typing the name of the user or role that you want to filter for, then click the name when it appears in the drop-down list.
    1. Click **Save Filter.**
 
-1. Select the issues for which you want to modify assignments, then click the **Edit** icon ![](assets/qs-edit-icon.png).
+1. Select the issues for which you want to modify assignments, then click the **Edit** icon ![Edit icon](assets/qs-edit-icon.png).
 
    The **Edit Issues** displays. The items that are edited display in the upper-left corner of the page.
 
 1. Go to the **Assignments** section, then select **Assignee**.
 
-   ![](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![Assignments area](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
 1. Do one of the following:
 

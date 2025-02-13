@@ -55,7 +55,7 @@ Consider the following when adding projects to portfolios:
 
 1. Go to a portfolio, then click **[!UICONTROL Projects]** in the left panel.
 
-   ![](assets/qs-portfolio-with-projects-350x90.png)
+   ![Portfolio with projects](assets/qs-portfolio-with-projects-350x90.png)
 
 1. Click **[!UICONTROL New Project]** and select a method for adding a project.
 
@@ -92,11 +92,11 @@ Consider the following when adding projects to portfolios:
     </tbody> 
    </table>
 
-   ![](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![New project dropdown](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. (Conditional) If you selected to add an existing project, start typing the name of a project in the **[!UICONTROL Add Projects]** box, then click them when they appear in the list. You may add several projects at a time.
 
-   ![](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
+   ![Add existing project](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
 1. Click **[!UICONTROL Add Projects]**.
 

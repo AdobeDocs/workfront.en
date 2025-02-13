@@ -31,7 +31,7 @@ Before you create a new user, first ensure that you have created all objects tha
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
