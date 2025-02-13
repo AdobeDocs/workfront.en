@@ -54,7 +54,7 @@ This scenario is scheduled to execute every 15 minutes.
 
 You must have the following in [!DNL Workfront] to use this scenario:
 
-* A user profile in [!DNL Workfront] named *[!UICONTROL *[!DNL Anaplan] Integration]**, that has system administrator rights.
+* A user profile in [!DNL Workfront] named **[!DNL Anaplan] Integration**, that has system administrator rights.
 
    For information on creating a user in [!DNL Workfront], see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
