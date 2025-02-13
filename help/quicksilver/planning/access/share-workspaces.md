@@ -169,15 +169,11 @@ To share a workspace with others:
 
 1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. 
 
-    ![](assets/share-button-on-workspace-top-right.png)
+    ![Share button on workspace top right](assets/share-button-on-workspace-top-right.png)
 
-1. In the **Grant workspace access to** field, start typing the name of a user, group, <span class="preview">team, company, or job role</span> then click it when it displays in the list. 
+1. In the **Grant access to this workspace** field, start typing the name of a user, group, <span class="preview">team, company, or job role</span> then click it when it displays in the list. 
 
-   <div class="preview">
-
-   ![](assets/sharing-ui-with-groups.png)
-
-   </div>
+   ![Sharing UI with groups](assets/sharing-ui-with-groups.png)
 
 1. Select one of the following permission levels from the drop-down menu: 
     * View
@@ -196,16 +192,16 @@ Users who access a link to a workspace to which they do not have permissions can
 1. (Conditional) If you are are the manager of a workspace, you might receive a request from another user to access the view in the following areas:
    
    * An in-app notification
-      ![](assets/in-app-notification-for-access-request.png)
+      ![In-app notification for access request](assets/in-app-notification-for-access-request.png)
    * An email notification
-      ![](assets/email-notification-for-access-request.png)
+      ![Email notification for access request](assets/email-notification-for-access-request.png)
 1. (Conditional) From the notification area in Workfront, click the in-app notification
    Or
    From the email notification, click **View all notifications**, then click the notification in the list.
 
    The **Pending access requests** box displays. 
 
-      ![](assets/notifications-list-approval-box.png)
+      ![Notifications list approval box](assets/notifications-list-approval-box.png)
 
 1. (Optional) For the user whose permissions you want to approve, select one of the following options from the drop-down menu to the right of the user's name: 
    * **View**
