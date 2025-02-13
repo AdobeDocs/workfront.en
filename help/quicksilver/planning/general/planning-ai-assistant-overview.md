@@ -10,9 +10,9 @@ exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
 
 # Adobe Workfront Planning AI Assistant overview
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
 
 
 {{planning-important-intro}}
@@ -39,6 +39,8 @@ The user's commands and the AI's execution of those commands work together to en
 
 * You can use commands to undo your actions. For example, you can type "Undo last change" to revert your change. 
 
+* <span class="preview"> When creating, updating, or deleting an object through AI Assistant, AI Assistant displays the intended actions and asks for confirmation. You can then confirm or cancel the actions. </span>
+
 ## Functionality currently available for the AI Assistant
 
 Currently, the AI Assistant is available in the Planning area of Workfront for the following pages:
@@ -53,7 +55,7 @@ You can use the AI Assistant to perform the following actions, at this time:
 * Create records. An ID with a link to the new record displays after the record is created. You can specify the fields you want to update during the creation process, like dates or description. 
 * Create records based on a document that you upload. Workfront supports the following document formats for the AI Assistant:
 
-    .pptx, .pdf, .docx, .xlsx, .ppt, .doc, .txt, and most image formats
+    PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT, and most image formats
 * Update fields for the records you see on the screen
 * Delete records
 * Restore records that you just deleted
