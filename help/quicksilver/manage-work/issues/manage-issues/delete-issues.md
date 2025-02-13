@@ -104,7 +104,7 @@ Depending on how your Workfront or group administrator configures the Project, T
 1. Click **Projects**.  
 1. Click the project name that contains the issues you want to delete.
 1. Click **Issues** in the left panel. 
-1. Select an issue, then click the **Delete** icon ![](assets/delete.png) at the top of the list. 
+1. Select an issue, then click the **Delete** icon ![Delete icon](assets/delete.png) at the top of the list. 
 
 1. If the deletion is allowed, click **Yes, Delete it**.  
    Your Workfront administrator might not allow the deletion of issues where hours are logged.  
@@ -117,12 +117,12 @@ Depending on how your Workfront or group administrator configures the Project, T
 1. Click the project name that contains the issue you want to delete.
 1. Click **Issues** in the left panel.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![Issues icon](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. Click the name of the issue you want to delete.
 1. Click the **More** menu to the right of the issue name.
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![Issue More menu](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Click **Delete Issue**. 
 1. If the deletion is allowed, click **Yes, Delete it**.  

@@ -11,7 +11,7 @@ exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
 
 Adobe Workfront can generate a unique URL for the User View of the Resource Planner which you can embed into a dashboard as an External Page, or open it separately in a new browser tab. This is helpful when sharing the Resource Planner information with users who might not have direct access to the Resourcing area.
 
-![](assets/rp-user-view-with-link-highlight-350x49.png)
+![User view with link](assets/rp-user-view-with-link-highlight-350x49.png)
 
 ## Access requirements
 

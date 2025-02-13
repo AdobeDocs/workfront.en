@@ -271,10 +271,10 @@ Go to the Kick-Starts page. Select the Company, Group, Project, Task, and User o
 
 Open the Workfront.xlsx file you just downloaded. Go to the PROJ Project sheet.
 
-![](assets/im2.png)
+![PROJ project seet](assets/im2.png)
 Unless you have already created projects in Workfront, it should be empty.  
 
-![](assets/im10.png)
+![Empty project sheet](assets/im10.png)
 
 Set the values for the following project fields: 
 
@@ -299,7 +299,7 @@ Set the values for the following project fields:
 * **Set other needed details.** 
   Fill in other details, such as a description or current status, as needed. Look up the Group IDs for each project on the GROUP Group sheet and input them into the setGroupID column for the respective projects. Look up the Company ID for the projects on the CMPY Company sheet and input it into the setCompanyID column. Look up the User ID for each project owner on the USER User sheet and input it into the setOwnerID column. Look up the User ID for each project sponsor on the USER User sheet and input it into the setSponsorID column.
 
-![](assets/im9.png)
+![Set values](assets/im9.png)
 
 >[!NOTE]
 >
@@ -313,11 +313,11 @@ Open the Workfront.xlsx file you just downloaded. **Go to the TASK Task sheet.**
 
 Unless you have already created tasks in Workfront, this sheet should be empty.
 
-![](assets/im8.png)
+![Task sheet](assets/im8.png)
 
-![](assets/im7.png)
+![Empty task sheet](assets/im7.png)
 
-![](assets/im6.png)
+![Task sheet columns](assets/im6.png)
 
 The easiest way to map tasks is one project at a time (especially when the tasks are the same on each project). You can then copy the task plan for the first project and make small adjustments to the task plan for the subsequent projects. The remaining steps will assume you are creating tasks for just the Implement Workfront project. According to the scenario, you will be importing 9 tasks per project, so input TRUE into rows 3 through 11 for the isNew column.
 
@@ -358,7 +358,7 @@ Set the values for the following task fields:
 * Input the whole number representation of the percent complete in the setPercentComplete field for each task. This value should not include the percent symbol (%).
 * Include a description and other details for each Task you are creating, as needed.
 
-  ![](assets/im5.png)
+  ![Add details](assets/im5.png)
 
 * The setPlannedStartDate and setTaskConstraint columns are not used to build out the timeline of this project because we are relying on predecessor relationships. You can input a date for each task instead. If you do this, be sure you also provide a valid task constraint in the setTaskConstraint column. Review the Task Constraintand related articles for details on valid values for this field.
 

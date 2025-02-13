@@ -73,7 +73,7 @@ For information about how to create an email template, see [Configure email temp
 
 1. Click **Email** > **Notifications** > **Reminder Notifications**.
 
-   ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   ![Reminder notifications tab](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
    
 1. Click **New Reminder Notification**.
 
@@ -170,4 +170,4 @@ To cause a reminder notification to trigger manually:
 
    The users designated in the reminder notification receive an email.
 
-![](assets/reminder-test.png)
+![Reminder notification test](assets/reminder-test.png)

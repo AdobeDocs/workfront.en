@@ -109,7 +109,7 @@ You can create new stories on the backlog by creating the story directly from th
 
 ### Create a story from the backlog {#create-a-story-from-the-backlog}
 
-When you create a story from the backlog, the story is created as a task or issue within a project. You cannot create a story from the backlog as an issue.
+When you create a story from the backlog, the story is created as a task or issue within a project.
 
 To create a story from the backlog:
 
@@ -183,11 +183,11 @@ To assign a task or issue to an agile team:
 
 ## Move stories into or out of the backlog
 
-* [Move stories from the backlog to an iteration or + board](#move-stories-from-the-backlog-to-an-iteration-or--board)
+* [Move stories from the backlog to an iteration or board](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [Move existing stories to the backlog](#move-existing-stories-to-the-backlog)
 * [Export stories from the backlog](#export-stories-from-the-backlog)
 
-### Move stories from the backlog to an iteration or + board
+### Move stories from the backlog to an iteration or board
 
 1. Go to the backlog of the agile team.
 1. Select the stories you want to move to an iteration or Kanban board, then click **[!UICONTROL More]** > **[!UICONTROL Move to]**.

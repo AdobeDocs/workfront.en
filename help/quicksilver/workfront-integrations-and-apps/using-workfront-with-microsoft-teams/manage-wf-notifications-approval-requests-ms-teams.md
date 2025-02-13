@@ -74,7 +74,7 @@ To manage the [!DNL Workfront] notifications that you can receive in [!DNL Micro
 1. Click [!DNL Workfront] in the list that appears.
 1. Select the **[!UICONTROL Settings]** tab.
 
-   ![](assets/ms-teams-settings-tab-350x552.png)
+   ![MS Teams settings tab](assets/ms-teams-settings-tab-350x552.png)
 
 1. Disable any of the notifications that you do not want to receive. You can enable or disable groups of notifications, such as information or approval notifications, or you can manage notifications individually.
 

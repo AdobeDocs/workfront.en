@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Processes** > **Approvals**.  
 
-1. Click the **Settings** icon ![](assets/gear-icon-settings.png) next to the **Approvals** area name.   
+1. Click the **Settings** icon ![Gear settings icon](assets/gear-icon-settings.png) next to the **Approvals** area name.   
 
 1. In the **Approval Settings** box that appears, specify the following information:
 

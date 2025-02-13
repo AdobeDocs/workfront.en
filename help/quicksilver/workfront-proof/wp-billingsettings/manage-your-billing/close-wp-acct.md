@@ -24,7 +24,7 @@ You can contact us at [!DNL support@proofhq.com] with your comments; all feedbac
 
    For more information about the Billing page, see [The [!DNL Workfront] Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-   ![](assets/upgradesdowngrades-billing-settings-350x168.png)
+   ![Billing settings](assets/upgradesdowngrades-billing-settings-350x168.png)
 
 1. Click the **[!UICONTROL Close account]** button (3).
 

@@ -65,7 +65,7 @@ To perform them for a group, you must be a manager of that group.</p> </td>
 ## Brand Adobe Workfront using a layout template
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Click the down arrow ![](assets/dropdown-arrow.png) under **Customize what users see**, then click **Branding**.
+1. Click the down arrow ![Down arrow](assets/dropdown-arrow.png) under **Customize what users see**, then click **Branding**.
 1. Make any of the following changes to customize Workfront with branding images for those who are assigned this layout template.
 
    <table style="table-layout:auto"> 

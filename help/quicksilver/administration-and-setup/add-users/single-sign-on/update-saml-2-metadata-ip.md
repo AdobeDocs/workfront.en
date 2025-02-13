@@ -62,7 +62,7 @@ By default, ADFS is configured to automatically check for updates to all of its 
 1. Select the relying party trust that you previously configured to be used with Workfront, then in the right-hand panel, click**Update from Federation Metadata**.
 1. (Conditional) If this option is dimmed (which means that the relying party trust was previously configured using a metadata file), complete the following.
 
-   1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+   1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
    
    1. Click **System** > **Single Sign On (SSO)**.
    

@@ -58,4 +58,4 @@ Before you can post a [!DNL Slack] comment as an update, you must
 
    When a comment originated in [!DNL Slack], the comment displays the message "[!UICONTROL Posted from [!DNL Slack]]" in [!DNL Workfront].
 
-   ![](assets/slack-update-posted-from-slack-350x112.png)
+   ![Update posted from Slack](assets/slack-update-posted-from-slack-350x112.png)

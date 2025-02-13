@@ -126,11 +126,11 @@ You can create a date or time calculated custom field using the following expres
    <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ADDHOUR</strong> </td> 
+   <td><strong>ADDHOURS</strong> </td> 
    <td> <p>Adds the number of hours to the date and is formatted as follows:</p>
    
    <p><code>ADDHOUR(date, number)</code></p>
-   <p>Note: This function is not supported in Workfront Planning.</p></td> 
+   <p>Note: This expression is not supported in Workfront Planning.</p></td> 
   </tr>
   <tr> 
    <td><strong>CLEARTIME</strong> </td> 
@@ -404,7 +404,7 @@ You can create a calculated custom field that displays a text-formatted value us
    <p>The expression is formatted as follows:</p>
    <p><code>SORTASCARRAY(array)</code></p>
    <p>For example, ["-12.6", -13.0] becomes ["-12.6", "-13"].</p>
-   <p>Note: This function is not supported in Workfront Planning.</p></td> 
+   <p>Note: This expression is not supported in Workfront Planning.</p></td> 
   </tr>
   <tr> 
    <td><strong>SORTDESCARRAY</strong> </td> 
@@ -412,7 +412,7 @@ You can create a calculated custom field that displays a text-formatted value us
    <p>The expression is formatted as follows:</p>
    <p><code>SORTDESCARRAY(array)</code></p>
    <p>For example, ["-12.6", -13.0] becomes ["-13", "-12.6"].</p>
-   <p>Note: This function is not supported in Workfront Planning.</p></td> 
+   <p>Note: This expression is not supported in Workfront Planning.</p></td> 
   </tr>
   <tr>   
    <td><strong>CASE</strong> </td> 
@@ -455,7 +455,7 @@ You can create a calculated custom field that displays a text-formatted value us
    <td><p>Returns formatted text. Color options are $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE, and the other formatting options are $$BOLD, $$ITALIC, $$UNDERLINE. Only one color option may be used per function, along with up to three other formatting options. If no color option is specified, the system's default color is applied.</p>
    <p>The expression is formatted as follows:</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
-   <p>Note: This function is not supported in Workfront Planning.</p></td> 
+   <p>Note: This expression is not supported in Workfront Planning.</p></td> 
   </tr>   
   <tr> 
    <td><strong>IF</strong> </td> 
@@ -570,7 +570,7 @@ You can create a calculated custom field that displays a text-formatted value us
    <td> <p>Evaluates the expression against a list of values, and returns the result corresponding to the first matching value.</p>
    <p>The epxression is formatted as follows:</p>
    <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
-   <p>This function is not supported in Workfront Planning.</p></td> 
+   <p>This expression is not supported in Workfront Planning.</p></td> 
   </tr>   
   <tr> 
    <td><strong>TRIM</strong> </td> 

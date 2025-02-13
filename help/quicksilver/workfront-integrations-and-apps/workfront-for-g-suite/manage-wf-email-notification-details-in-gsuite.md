@@ -50,7 +50,7 @@ Before you can manage notification details from [!DNL Google Workspace], you mus
 
 ## Manage [!DNL Adobe Workfront] notification details from [!DNL Google Workspace]
 
-1. If the [!DNL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. If the [!DNL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
 1. In [!DNL Google Workspace], open a [!DNL Workfront] notification email.
 1. Click **[!UICONTROL View all updates]** if it is displayed near the top of the panel.
 1. Click **[!UICONTROL Details]**.

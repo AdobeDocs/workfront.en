@@ -18,6 +18,14 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Administration and Setup
 
+### Interface update for approval process settings in Setup
+
+**Preview release: February 6, 2025; Production release: To be announced**
+
+We have updated the Approval settings dialog box with a more modern design that is consistent with other areas of Workfront.
+
+To view the settings, go to Setup > Preferences > Approvals > Select the settings icon at the top of the page.
+
 ### Interface update for the Approvals area in the Setup > Groups 
 
 **Preview release: January 30, 2025; Production release: To be announced**
@@ -104,7 +112,17 @@ This update includes visual changes to the area. No functionality has changed.
 
 ## Agile
 
-## Interface update for the Teams > Backlog area
+### Add Stories and Issues to an iteration
+
+**Preview release: February 6, 2025; Production release: To be announced**
+
+We have updated the Add story and Add issue dialog box with a more modern design that is consistent with other areas of Workfront. 
+
+This update includes visual changes to the area. No functionality has changed.
+
+To view this change, go to Teams > choose a team > Iterations > Choose an iteration, then click **New story** or **New issue**.
+
+### Interface update for the Teams > Backlog area
 
 **Preview release: January 23, 2025; Production release: Starting the week of February 13, 2025**
 
@@ -117,7 +135,7 @@ This update includes the following changes:
 
 ### Interface update for the Iterations list
 
-**Preview release: January 23, 2025; Production release: To be announced**
+**Preview release: January 23, 2025; Production release: Starting the week of February 3, 2025**
 
 We have updated the Teams > Iterations list with a more modern design that is consistent with other areas of Workfront.
 

@@ -55,9 +55,9 @@ For more detail about the information in this table, see [Access requirements in
 ## Configure user access to projects using a custom access level
 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** or **Edit** button to the right of Projects, then select the abilities you want to grant under **Fine-tune your settings**.
+1. Click the gear icon ![Gear settings icon](assets/gear-icon-settings.png) on the **View** or **Edit** button to the right of Projects, then select the abilities you want to grant under **Fine-tune your settings**.
 
-   ![](assets/planner-fine-tune-your-settings-with-copy-projects.png)
+   ![Fine tune settings for copying projects](assets/planner-fine-tune-your-settings-with-copy-projects.png)
 
    >[!NOTE]
    >

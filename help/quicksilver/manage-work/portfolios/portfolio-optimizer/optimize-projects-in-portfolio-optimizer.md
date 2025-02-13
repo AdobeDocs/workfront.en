@@ -55,7 +55,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **[!UICONTROL Optimize]** icon .
 
-   ![](assets/optimize-icon-portfolio-optimizer.png)
+   ![Optimize icon](assets/optimize-icon-portfolio-optimizer.png)
    
    The categories by which a project can be scored display to the left of the [!UICONTROL Optimize] icon.
 

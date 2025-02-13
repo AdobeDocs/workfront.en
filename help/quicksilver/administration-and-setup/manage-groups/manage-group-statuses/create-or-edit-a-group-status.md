@@ -60,7 +60,7 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png).
 
 1. Click the name of the group where you want to create or customize statuses.
 1. In the left panel, click **Statuses**. 
@@ -81,7 +81,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. (Conditional) If the status is an issue status, make sure that **Master List** is selected.
 
-   ![](assets/master-list.png)
+   ![Master list](assets/master-list.png)
 
    For information about customizing the other issue types (Bug Report, Change Order, Issue, Request), see [Customize default issue types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
@@ -91,7 +91,7 @@ For more detail about the information in this table, see [Access requirements in
 
    To edit an existing status, mouse over the status you want to edit, then click the **Edit** option that displays to the far right.
 
-   ![](assets/group-statuses-edit.jpg)
+   ![Group statuses](assets/group-statuses-edit.jpg)
 
    >[!NOTE]
    >You can edit a status for your group only if:
@@ -167,11 +167,11 @@ If you are a group administrator (or a Workfront administrator), you can create 
 1. In the box in the upper-right corner, delete **System Statuses**, begin typing the name of a group where you want to hide the status, then click the name when it appears.
 1. Hover over the status you want to hide from the group, then click **Edit** when it appears.
 
-   ![](assets/hover-click-edit.jpg)
+   ![Edit status](assets/hover-click-edit.jpg)
 
 1. Enable the **Hide Status** option that appears.
 
-   ![](assets/hide-group-status.png)
+   ![Hide status](assets/hide-group-status.png)
 
 1. Click **Save**.
 

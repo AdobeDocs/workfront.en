@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
 
 ## Change the priority of the projects in the [!UICONTROL Portfolio Optimizer]
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
 1. Click **[!UICONTROL Portfolios]**.
 1. (Optional) Select the correct filter in the **[!UICONTROL Filter]** drop-down menu, to view the correct list of portfolios.
@@ -70,7 +70,7 @@ You must have the following access to perform the steps in this article:
 1. Click **[!UICONTROL Portfolio Optimization]** in the left panel.
 1. In the [!UICONTROL project optization] area, alter the priority of your projects by dragging the projects in order of their priority and dropping then to the desired display position.
 
-   ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![Portfolio optimizer with projects](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    Click **[!UICONTROL Set Priority]** in the project optimization area when you finish re-arranging your projects. The projects will receive a new number based on the new order.
 

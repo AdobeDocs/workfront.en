@@ -36,7 +36,7 @@ No. Environment Promotion is available for both IMS-enabled and non-IMS Workfron
    1. Click **System** in the left panel
    1. To view your Workfront plan, select **Licenses**.
       Your plan displays near the upper-right corner of the page.
-      ![](assets/locate-plan.png)
+      ![Locate plan](assets/locate-plan.png)
 
    Or
 * Contact your Workfront account representative.

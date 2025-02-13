@@ -93,7 +93,7 @@ You must have the following access to perform the steps in this article:
 
    For example, if a task is assigned on Friday and has a duration of 3 elapsed days, the task completion date is set for Monday (assuming that Saturday and Sunday is a weekend). If the task has a duration of 3 days (not elapsed), the task completion date is set for Wednesday.
 
-   ![](assets/time-increments-for-automatic-reminder.png)
+   ![Time increments](assets/time-increments-for-automatic-reminder.png)
 
 1. Click **Save**.
 

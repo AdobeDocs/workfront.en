@@ -136,7 +136,7 @@ You can add icons in the view of a project or task report or list to show whethe
 
 To add icons that display whether a project has issues in a project report:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 1. Click **Reporting** > **New Report** > **Project Report**. 
 1. In the **Show in this column** field, start typing **Status Icons**, then select it when it appears in the list.
 

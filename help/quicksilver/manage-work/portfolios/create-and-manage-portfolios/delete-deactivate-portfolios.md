@@ -75,12 +75,12 @@ When you deactivate a portfolio, you can still access it from the [!UICONTROL Po
 
 1. Click **[!UICONTROL Portfolios]** .
 1. Click the name of the portfolio.
-1. Click the **More** menu ![](assets/more-icon.png) to the right of the portfolio name, then click **[!UICONTROL Deactivate Portfolio]**.
+1. Click the **More** menu ![More menu](assets/more-icon.png) to the right of the portfolio name, then click **[!UICONTROL Deactivate Portfolio]**.
 
 ## Delete a portfolio
 
 {{step1-click-main-menu}}
 
 1. Click **[!UICONTROL Portfolios]** .
-1. Select the portfolio, then click **[!UICONTROL Delete]**&#x200B;the [!UICONTROL Delete] icon ![](assets/delete.png).
+1. Select the portfolio, then click **[!UICONTROL Delete]**&#x200B;the [!UICONTROL Delete] icon ![Delete icon](assets/delete.png).
 1. Click **[!UICONTROL Yes, Delete It]** to confirm.

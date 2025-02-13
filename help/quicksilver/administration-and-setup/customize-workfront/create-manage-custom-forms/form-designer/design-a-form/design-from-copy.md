@@ -19,7 +19,7 @@ You can design a new custom form that is based on an existing one. You can attac
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 

@@ -50,7 +50,7 @@ You must have the following to perform the steps in this article:
    In the list that displays, you can see the groups you manage, along with any subgroups they have. Adobe Workfront administrators can see all groups.
 
 1. Click the name of the group that you want to create or modify layout templates for.
-1. In the left panel, click **Layout Templates** ![](assets/layout-templates-icon.png).
+1. In the left panel, click **Layout Templates** ![Layout templates icon](assets/layout-templates-icon.png).
 
 1. Do any of the following:
 

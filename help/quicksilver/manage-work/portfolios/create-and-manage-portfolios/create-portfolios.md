@@ -80,7 +80,7 @@ You can create a portfolios in Workfront using one of the following methods:
 
 1. (Optional) Click the name under **[!UICONTROL Portfolio Manager]** in the header at the top of the page to assign a different manager for the portfolio.
 
-   ![](assets/portfolio-manager-name-350x51.jpg)
+   ![Portfolio manager name](assets/portfolio-manager-name-350x51.jpg)
 
    As the creator of the portfolio, you are assigned as the portfolio manager by default.
 

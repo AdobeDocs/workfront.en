@@ -79,7 +79,7 @@ Once you are logged in to [!DNL Adobe Experience Cloud], you can view all of the
 
 ## Navigate [!DNL Workfront]
 
-Use the [!UICONTROL Main Menu] icon ![](assets/main-menu-icon-left-nav.png) on the left of the [!DNL Workfront] navigation bar to navigate to any pages that you have access to. The options that are available in the [!UICONTROL Main Menu] are dependent on:
+Use the [!UICONTROL Main Menu] icon ![Main Menu icon](assets/main-menu-icon-left-nav.png) on the left of the [!DNL Workfront] navigation bar to navigate to any pages that you have access to. The options that are available in the [!UICONTROL Main Menu] are dependent on:
 
 * **Layout template configurations**: To learn how a [!DNL Workfront] administrator can modify the [!UICONTROL Main Menu] from a layout template, see [Customize the [!UICONTROL Main Menu] using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 * **License type**: To learn the default configurations for different license types, see [Understand the navigation for a [!UICONTROL Review]-license user](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand the navigation for a [!UICONTROL Work]-license user](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
@@ -96,7 +96,7 @@ This menu allows you to:
 
 * Choose **[!UICONTROL Dark theme]** formatting for [!DNL Adobe Experience Cloud].
 * Set **[!UICONTROL Preferences]** for [!DNL Adobe Experience Cloud], including primary and secondary language preferences.
-* Access your **[!UICONTROL [!DNL Workfront] Profile]**. Once you are on the profile, click the **[!UICONTROL More]** menu ![](assets/more-icon.png) and select **[!UICONTROL Edit]**. For more information about the profile, see [Configure My Settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* Access your **[!UICONTROL [!DNL Workfront] Profile]**. Once you are on the profile, click the **[!UICONTROL More]** menu ![More menu](assets/more-icon.png) and select **[!UICONTROL Edit]**. For more information about the profile, see [Configure My Settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Sign out]** of Adobe Experience Cloud.
 
 ## Manage your password

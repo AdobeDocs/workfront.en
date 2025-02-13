@@ -74,14 +74,14 @@ For more detail about the information in this table, see [Access requirements in
 
 You can associate resource pools with a template in the same manner you associate resource pools with a project. This article describes how you can associate resource pools with projects.
 
-1. Go to a project and click the **More** icon ![](assets/more-icon.png)next to the project name, then click **Edit**.
+1. Go to a project and click the **More** icon ![More icon](assets/more-icon.png)next to the project name, then click **Edit**.
 
 1. Click **Project Settings**. 
 
 1. Start typing the name of a resource pool in the **Resource Pools** field, then select it from the list when it appears.  
    You can associate multiple resource pools with one project or template.
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![Project settings](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. Click **Save**.
 
@@ -98,7 +98,7 @@ You can associate resource pools with templates in the same manner you associate
 To associate resource pools with several projects in bulk:
 
 1. Go to a list of projects.
-1. Select multiple projects, then click the **Edit** icon ![](assets/edit-icon.png) at the top of the list. 
+1. Select multiple projects, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) at the top of the list. 
 
 1. Click **Settings**.
 1. Start typing the name of a resource pool in the **Resource Pools** field, then select it from the list when it appears.  
