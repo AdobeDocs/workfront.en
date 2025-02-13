@@ -194,9 +194,9 @@ You can share views you created or views you have Manage permissions to with use
 
    This opens the record type page.
 
-1. From the view tab, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. From the view tab, hover over the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. 
 
-   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+   ![More menu for views expanded with share option](assets/more-menu-for-views-expanded-with-share-option.png)
 
    The **Internal sharing** tab should be selected by default.
 
@@ -205,13 +205,9 @@ You can share views you created or views you have Manage permissions to with use
    * **Only invited people can access**: You must specify users, groups, <span class="preview">team, company, or job role</span> that you want to share the view with. This is the default option.
    * **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. 
 
-1. In the **Grant view access to** field, start typing the name of a user, a group, <span class="preview">team, company, or job role</span> then click it when it displays in the list.  
+1. In the **Grant access to this view** field, start typing the name of a user, a group, <span class="preview">team, company, or job role</span> then click it when it displays in the list.  
 
-   <div class="preview">
-
-   ![](assets/sharing-a-view-ui-with-groups.png)
-
-   </div>
+   ![Sharing a view with groups](assets/sharing-a-view-ui-with-groups.png)
 
 1. Select one of the following permission levels from the drop-down menu: 
     * View
@@ -224,7 +220,7 @@ You can share views you created or views you have Manage permissions to with use
 1. Click **Copy link** to copy a link to the view to your clipboard. 
 1. Click **Save**.
 
-   The view updates with a people icon ![](assets/view-shared-with-others-people-icon.png) to indicate that the view is now shared with other users. 
+   The view updates with a people icon ![View shared with others icon](assets/view-shared-with-others-people-icon.png) to indicate that the view is now shared with other users. 
 
    >[!TIP]
    >
@@ -249,25 +245,25 @@ To share a view publicly in Workfront Planning:
 
    This opens the record type page.
 
-1. From the view tab, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. From the view tab, hover over the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. 
 
-   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+   ![More menu for views expanded with share option](assets/more-menu-for-views-expanded-with-share-option.png)
 
 1. Click **Public sharing**.
 
-   ![](assets/public-sharing-tab-for-views.png)
+   ![Public sharing tab for views](assets/public-sharing-tab-for-views.png)
 
 1. Enable the **Create public link** setting.
 
    A link becomes available. This is a public link. When shared, anyone with the link, including people from outside your organization can access the record type page, and view records and fields on the page. 
 
-1. Click the **Copy link** icon ![](assets/copy-link-view.png) to copy the link to your clipboard. 
+1. Click the **Copy link** icon ![Copy link view](assets/copy-link-view.png) to copy the link to your clipboard. 
 
 1. Manually enter a date, or use the calendar in the **Link expiration date** field to select an expiration date for the public link. The record page view will not be accessible after the selected date. 
 
 1. Click **Save**.
 
-   The view updates with a global icon ![](assets/public-shared-view-icon-highlighted.png) to indicate that the view is shared publicly.  
+   The view updates with a global icon ![Public shared view icon highlighted](assets/public-shared-view-icon-highlighted.png) to indicate that the view is shared publicly.  
 
    >[!TIP]
    >
@@ -283,16 +279,16 @@ Users who access a link to a view to which they do not have permissions can requ
 1. (Conditional) If you are are the manager of a view, you might receive a request from another user to access the view in the following areas:
    
    * An in-app notification
-      ![](assets/in-app-notification-for-access-request-for-view.png)
+      ![In-app notification for access request for view](assets/in-app-notification-for-access-request-for-view.png)
    * An email notification
-      ![](assets/in-app-notification-for-access-request-for-view.png)
+      ![In-app notification for access request for view](assets/in-app-notification-for-access-request-for-view.png)
 1. (Conditional) From the notification area in Workfront, click the in-app notification
    Or
    From the email notification, click **View all notifications**, then click the notification in the list.
 
    The **Pending access requests** box displays. 
 
-      ![](assets/notifications-list-approval-box.png)
+      ![Notifications list approval box](assets/notifications-list-approval-box.png)
 1. (Optional) For the user whose permissions you want to approve, select one of the following options from the drop-down menu to the right of the user's name: 
    * **View**
    * **Manage**
@@ -306,7 +302,7 @@ Users who access a link to a view to which they do not have permissions can requ
 {{step1-to-planning}}
 
 1. Open the workspace whose view you want to stop sharing, then click a record type card. This opens the record type page.
-1. Hover over the tab name of the view you want to remove sharing from and click the **More** menu ![](assets/more-menu.png), then click **Share**.
+1. Hover over the tab name of the view you want to remove sharing from and click the **More** menu ![More menu](assets/more-menu.png), then click **Share**.
 1. To remove the internal sharing of a view, do the following: 
 
    1. Ensure the **Internal sharing** tab is selected.

@@ -10,9 +10,9 @@ exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 
 # License type overview when using Adobe Workfront Planning
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -66,7 +66,7 @@ System administrators can view all workspaces in the system, even the ones they 
 >
 >There is an indication in the sharing box that users cannot be granted permissions to contribute to or manage a workspace when they hold a lower-level license, as these permissions levels are dimmed. 
 >
-><span class="preview">![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)</span>
+>![Permissions grayed out for contributor user on workspace](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
 ### License types and view permissions
@@ -81,4 +81,4 @@ Only users with a Standard license can have Manage permissions to views. Users w
 >
 >There is an indication in the sharing box that users cannot be granted permissions to manage a view when they hold a lower-level license, as these permissions levels are dimmed. 
 >
-><span class="preview">![](assets/permissions-grayed-out-for-light-user.png)</span>
+>![Permissions grayed out for light user on view share](assets/permissions-grayed-out-for-light-user.png)
