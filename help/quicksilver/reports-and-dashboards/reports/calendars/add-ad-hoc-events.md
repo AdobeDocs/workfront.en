@@ -48,9 +48,9 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Add ad hoc events to a calendar report
+## Add ad hoc events to a calendar report in Production
 
-1. Within the calendar, go to the date to which you want to add an ad-hoc event, then click the [!UICONTROL starting] date for your event.
+1. In the calendar, go to the date to which you want to add an ad-hoc event, then click the [!UICONTROL starting] date for your event.
 1. Enter the event name and, if desired, select a color for the event.
 1. (Conditional) If your ad-hoc event takes place over several days, select **[!UICONTROL This will span multiple days]**, then select the ending date from the pop-up calendar.
 
@@ -66,3 +66,16 @@ For more detail about the information in this table, see [Access requirements in
 
    1. Click the event on the calendar to open the details page for the event.
    1. Click the trash can icon, then click **[!UICONTROL Yes, Delete it]**.
+
+<div class="preview">
+
+## Add ad hoc events to a calendar report in Preview
+
+1. Go to the Calendar you want to add an ad-hoc event to. 
+1. Click **Add** at the top of the calendar. 
+1. In the side panel on the right, **Name** the event.
+1. Choose a color for the event.
+1. Choose if the event should span multiple days.
+1. Enter or choose a date using the Calendar icon. 
+
+</div>
