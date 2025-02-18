@@ -586,6 +586,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
       * [Tasks Settings](#task-settings) 
       * [Issue Settings](#issue-settings) 
       * [Access](#access-preview) 
+      * [Linked folders](#linked-folders-conditional-availability) (conditional availability)
    
 
 ### Template Name{#template-name}
@@ -1024,6 +1025,23 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
       Now, when you use this template to create a project all these settings will transfer to the new project.
 
+
+### Linked folders (conditional availability) {#linked-folders}
+
+Linked folder functionality automatically creates folders in Adobe Experience Manager Assets, and connects these folders to Workfront. 
+
+This section appears only if all of the following apply:
+
+* Your organization has been migrated to the Adobe Admin Console
+* Your organization has enabled and configured an integration with Adobe Experience Manager
+* The template has enabled and configured linked folders.
+
+For instructions on editing Linked folders, see [Edit workflow values in a project](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) in the article [Use workflows in the Experience Manager Assets integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
+
+<!--I don't think this note is valid anymore - this note was on Edit project when this section was in that article, by mistake: 
+>[!NOTE]
+>
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.-->
 
 ## Edit templates in bulk
 
