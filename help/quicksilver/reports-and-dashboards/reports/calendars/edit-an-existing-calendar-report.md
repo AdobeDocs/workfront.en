@@ -100,7 +100,7 @@ Items from the project and its associated tasks and issues are added to the cale
 
 1. (Optional) To add a calendar grouping or to modify an existing calendar grouping:
    1. Click the **More** menu next to the project name, then click **Edit**. 
-   ![edit project in calendar](assets/edit-project-in-calendar.png)
+   ![edit project in calendar](assets/edit-project-in-calendar.png)e
 
    1. Choose how you want to group your items:
 
