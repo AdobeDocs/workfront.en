@@ -452,7 +452,8 @@ You can create a calculated custom field that displays a text-formatted value us
   </tr> 
   <tr> 
    <td><strong>FORMAT</strong> </td> 
-   <td><p>Returns formatted text. Color options are $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE, and the other formatting options are $$BOLD, $$ITALIC, $$UNDERLINE. Only one color option may be used per function, along with up to three other formatting options. If no color option is specified, the system's default color is applied.</p>
+   <td><p>Returns formatted text. Only the parameter options listed here are permitted with FORMAT.</p>
+   <p>The color options are $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE, and the other formatting options are $$BOLD, $$ITALIC, $$UNDERLINE. Only one color option is allowed, along with up to three other formatting options. If no color option is specified, the system's default color is applied.</p>
    <p>The expression is formatted as follows:</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
    <p>Note: This expression is not supported in Workfront Planning.</p></td> 
