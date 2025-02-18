@@ -20,7 +20,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 
 | Monthly release   | Quarterly release |
 | ----------------- | ----------------- |
-| <ul><li>25.2 (February 2025)</li><li>25.3 (March 2025)</li><li>25.4 (April 2025)</li></ul> | <ul><li>25.4 (April 2025)</li></ul> |
+| <ul><li>25.2 (February 13, 2025)</li><li>25.3 (March 2025)</li><li>25.4 (April 2025)</li></ul> | <ul><li>25.4 (April 2025)</li></ul> |
 
 >[!NOTE]
 >
@@ -31,6 +31,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 ## Adobe Workfront enhancements
 
 * [Administrator enhancements](#administrator-enhancements)
+* [Project enhancements](#project-enhancements)
 * [Other enhancements](#other-enhancements)
 
 ### Administrator enhancements
@@ -43,6 +44,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Expressions added to calculated custom fields</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>The following expressions are now available in Workfront calculated custom fields: ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT, and ADDHOUR. Definitions and examples of each expression are available in the calculation editor and on Experience League.</p>
         </td>
         <td>
@@ -50,6 +52,31 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
             <ul>
                 <li>Preview release: January 31, 2025</li>
                 <li><span class="preview">Production release for all customers: January 31, 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
+### Project enhancements
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Add a comment to projects when editing them in the Edit project box</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>You can now add a comment to a project as you edit it in the Edit Project box. You can also add a comment to multiple projects at one time when editing them in bulk. Prior to this update, this functionality did not exist when editing projects.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: February 13, 2025</li>
+                <li>Production for fast release: With the 25.3 release (March 2025)</li>
+                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
             </ul>
         </td>
     </tr>                          
@@ -66,18 +93,19 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Represent Adobe Admin Console user changes as "System" in the Workfront update feed</a></p>
+            [!BADGE In production for Fast Release ]{type=Positive}
             <p>Now, when the administrator of the Adobe Admin Console makes a change to the user information of a Workfront user, Workfront records this change in the System activity tab of the user's Updates area as belonging to the "System". This refers to the Adobe Admin Console administrator.</p>
         </td>
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: January 23, 2025</li>
-                <li>Production for fast release: With the 25.2 release (February 2025)</li>
+                <li>Production for fast release: With the 25.2 release (February 13, 2025)</li>
                 <li>Production release for all customers: With the 25.4 release (April 2025)</li>
             </ul>
         </td>
     </tr>
-    <!--<tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
             Look-and-feel updates during the Second Quarter 2025 timeframe</a></p>
@@ -90,15 +118,19 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
                 <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
             </ul>
         </td>
-    </tr>-->
+    </tr>
 </tbody>
 </table>   
 
-<!--
 ### Functionality soon to be removed from Workfront
 
 The following functionality is soon to be removed from Workfront:
--->
+
+#### We are removing the legacy Agile view in a project
+
+The legacy Agile view in a project will be removed from Workfront with the 25.3 release on March 13, 2025. You will still be able to view your tasks in an Agile view in a project by clicking on the Boards icon.
+
+For more information about using the Agile view, see [Manage a project in the Agile View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 ## Announcements
 
