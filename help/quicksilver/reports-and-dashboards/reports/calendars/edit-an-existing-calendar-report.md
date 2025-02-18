@@ -52,7 +52,7 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Edit an existing calendar report
+## Edit an existing calendar report in Production
 
 {{step1-to-calendars}}
 
@@ -79,3 +79,34 @@ Items from the project and its associated tasks and issues are added to the cale
       * [Use [!UICONTROL Planned Dates] in a calendar report](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
       * [Use [!UICONTROL Projected Dates] in a calendar report](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [Use custom date fields in a calendar report](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
+
+
+<div class="preview">
+
+## Edit an existing calendar report in Preview
+
+{{step1-to-calendars}}
+
+1. (Optional) To change the name of the calendar report, click the **More** menu and select **Edit**. 
+   ![more menu](assets/new-more-menu-calendar.png)
+   If you have shared the calendar report with other users or teams, the modified calendar name is automatically updated in their calendar view.
+
+1. (Optional) To add a project to the calendar report:
+   1. Click **[!UICONTROL Add to Calendar].**
+   1. Begin typing the name of a project from which you want to add calendar events, then click the name when it displays in the drop-down list.
+   1. Click **Add**. 
+   ![add a project to a calendar](assets/add-a-calendar-project.png)
+
+
+1. (Optional) To add a calendar grouping or to modify an existing calendar grouping:
+   1. Click the **More** menu next to the project name, then click **Edit**. 
+   ![edit project in calendar](assets/edit-project-in-calendar.png)
+
+   1. Choose how you want to group your items:
+
+      * [Use [!UICONTROL Planned Dates] in a calendar report](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+      * [Use [!UICONTROL Projected Dates] in a calendar report](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+      * [Use custom date fields in a calendar report](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
+
+
+      </div>
