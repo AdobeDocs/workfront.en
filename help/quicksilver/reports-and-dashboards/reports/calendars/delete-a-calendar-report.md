@@ -50,8 +50,21 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Delete a calendar report
+## Delete a calendar report in Production
 
 1. Go to the calendar you want to delete.
 1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then select **[!UICONTROL Delete]** from the drop-down list.
 1. Click **[!UICONTROL Yes, Delete It]**.
+
+<div class="preview">
+
+## Delete a calendar report in Preview
+
+1. Go to the calendar you want to delete.
+1. Click the **More** menu next to the Calendar drop-down menu. 
+![calendar more menu](assets/more-menu-calendar.png)
+
+1. Select **[!UICONTROL Delete]** from the drop-down list.
+1. Click **[!UICONTROL Delete]**.
+
+</div>
