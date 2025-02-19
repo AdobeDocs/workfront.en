@@ -9,6 +9,8 @@ exl-id: 4145119e-ef2c-4f0d-89e7-86669ca5b127
 ---
 # Add ad hoc events to a calendar report
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span> 
+
 You can add ad hoc events to a calendar. An ad hoc event simply serves as a reminder in your calendar and is not associated with a project, task, or issue.
 
 ## Access requirements

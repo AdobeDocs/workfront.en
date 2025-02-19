@@ -9,6 +9,8 @@ exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
 ---
 # Share a calendar report
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span> 
+
 You can share a calendar with other users and you can make it available publicly, allowing someone without an [!DNL Adobe Workfront] license to view it.
 
 ## Access requirements

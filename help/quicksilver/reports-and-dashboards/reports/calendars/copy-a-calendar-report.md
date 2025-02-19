@@ -9,6 +9,8 @@ exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
 ---
 # Copy a calendar report
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span> 
+
 If you created a calendar, you can copy the calendar and use it as a starting point for a new calendar.
 
 Additionally, if you have [!UICONTROL Manage] access to a calendar to which you are not the owner, you can copy the calendar and become the owner of the copied calendar.

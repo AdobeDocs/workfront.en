@@ -9,6 +9,8 @@ exl-id: 494d040c-bd1d-4356-824f-a75890803617
 ---
 # Edit an existing calendar report
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span> 
+
 You can modify an existing calendar by adding or deleting a link to a project. You can also modify calendar groupings associated with a calendar report.
 
 >[!NOTE]

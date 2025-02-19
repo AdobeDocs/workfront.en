@@ -9,6 +9,8 @@ exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
 ---
 # Delete a calendar report
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span> 
+
 You can delete a calendar that you own or that others shared with you. Once deleted, the calendar becomes inaccessible to users with whom you have shared it.
 
 You can't delete your default calendar unless you have an existing alternative calendar. If you try to delete all of your calendars, the system automatically creates a default calendar for you.
