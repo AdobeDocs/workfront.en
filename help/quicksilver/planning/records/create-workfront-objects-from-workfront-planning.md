@@ -57,7 +57,8 @@ You can create the following types of Workfront objects from Workfront Planning 
 You can connect projects and portfolios <!--<span class="preview"> and programs </span>--> from a connection field in following areas of Workfront Planning:
 
 * The table view of a record type
-* The details page or preview box of a record
+* The Details page or preview box of a record
+* The Connections tab of a record
 
 For information about connecting Planning records with Workfront objects, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
 

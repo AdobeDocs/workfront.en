@@ -250,10 +250,16 @@ You must have the following before you can add new records by connecting them fr
 
 To create records as you are connecting them from other records: 
 
-1. Start connecting Workfront Planning records, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). You can connect records from a connection field in following areas of Workfront Planning:
+1. Start connecting Workfront Planning records, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). You can connect records from the following areas: 
 
-    * The table view
-    * The details page or preview box of a record
+    * A connection field in following areas of Workfront Planning:
+
+        * The table view
+        * The details page or preview box of a record
+
+    * A connection field in the the Planning section of a project, portfolio, or program in Workfront. 
+    
+        For information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).  
 
 1. (Conditional) If you cannot find a record when trying to add it from the connected record field of another record, search for a record, then click **+ Add**. The **+ Add** button is followed by the name of the record type you are connecting to. For example, "Add brands" when adding a brand to an existing campaign. The name you typed also follows the Add button. 
 

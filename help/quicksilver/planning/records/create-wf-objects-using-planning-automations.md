@@ -304,7 +304,8 @@ You must have the following access to perform the steps in this article:
 
 * The new object or record name is the same as the record name from which you create it. 
 * New objects or records don't override existing ones in the same field. Triggering the same automation multiple times for the same record adds the new objects or records in the same connected field of the original record, in addition to the ones created before. 
-* The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered. 
+
+(************hide this for now: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered. ***************)
 
 ## Configure an automation in Workfront Planning
 
