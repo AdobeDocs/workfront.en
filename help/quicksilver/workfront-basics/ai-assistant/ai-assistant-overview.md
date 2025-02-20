@@ -154,7 +154,7 @@ When entering your prompt, include the phrase `using (keyword)`.
 > Not all keywords are available in all areas. 
 >
 >* The `formula` keyword is available only in Planning, Setup, and the Custom form builder.
->* The `planning` keyword is not available from within Workfront.
+>* The `planning` keyword is available only from Workfront Planning.
 
 
 
