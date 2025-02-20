@@ -56,8 +56,10 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step1-to-calendars}}
 
-1. (Optional) To change the name of the calendar report, click the [!UICONTROL calendar name] field, then make the desired changes.
+1. (Optional) To change the name of the calendar report, click the [!UICONTROL calendar name] field, then make the desired changes. We recommend using only UTF-8 characters to avoid compatibility issues.
+
    ![Change report name](assets/titlechange-250x230.png)
+
    If you have shared the calendar report with other users or teams, the modified calendar name is automatically updated in their calendar view.
 
 1. (Optional) To add a project to the calendar report:
