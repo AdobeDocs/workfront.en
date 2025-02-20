@@ -123,7 +123,11 @@ You can filter tasks and issues assigned to you.
 
 ## Filter your work with Smart filters
 
-Use natural language to filter quickly filter work. Your Workfront instance must be on a new Workfront plan and enabled on the Adobe Unified Experience. For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Use natural language to filter quickly filter work.
+
+>[!NOTE]
+>
+>This feature is only available for customers on the Unified Adobe Experience using the AI Assistant. For more information about the AI Assistant, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 {{step1-to-priorities}}
 
