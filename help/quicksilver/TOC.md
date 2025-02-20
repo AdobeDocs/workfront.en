@@ -2042,7 +2042,6 @@ feature-set: Workfront
   * Adobe Workfront Planning records {#adobe-workfront-planning-records}
     * [Records: article index](planning/records/records-information.md) 
     * [Create records](planning/records/create-records.md)
-    * [Create objects using Adobe Workfront Planning record automations](planning/records/create-wf-objects-using-planning-automations.md)
     * [Connected records overview](planning/records/connected-records-overview.md)
     * [Connect records](planning/records/connect-records.md)
     * [Edit records](planning/records/edit-records.md)
