@@ -21,7 +21,7 @@ You can view side-by-side comparisons of two proofs. These can be two versions o
 1. Open the proof that has multiple versions you want to compare.
 1. In the upper-left corner of the proofing viewer that displays, click the name of the proof. Then, in the list of versions that appears, click the **Compare** icon next to the version you want to open and compare.
 
-   ![](assets/compare-proofs-choose-version-350x115.jpg)
+   ![Compare proofs choose version](assets/compare-proofs-choose-version-350x115.jpg)
 
    The proofs display side by side, with the newer version on the left side.
 

@@ -11,9 +11,9 @@ exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 
 # Create records
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -25,8 +25,9 @@ You can create records by doing one of the following:
 * [Copy and paste a list of records from an external list](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicate records from a table view](#create-records-by-duplicating-them)
 * [Create records as you connect them from other records](#create-records-as-you-connect-them)
-* [Create them by submitting a request form to a record type](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [Create records by submitting a request form to a record type](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Create records when importing record types from a CSV or Excel file](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
+* <span class="preview">[Create records by using automations](#create-records-by-using-automations)</span>
 
 
 For information about managing records in the table or timeline views, see the following articles:
@@ -131,9 +132,9 @@ For information about editing record information, see [Edit records](/help/quick
         * Click **New record** in the last row of the table 
 
         * Click **Shift + Enter** on your keyboard from any column or row of the table. This adds an empty row under the record you start from. 
-        * Hover over a record's primary field, click the **More** menu ![](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. 
+        * Hover over a record's primary field, click the **More** menu ![More menu](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. 
 
-        ![](assets/adding-a-new-campaign-in-table-row.png)
+        ![Adding a new campaign in table row](assets/adding-a-new-campaign-in-table-row.png)
 
     * From any view: 
     
@@ -156,14 +157,14 @@ For information about editing record information, see [Edit records](/help/quick
 
     Or 
     
-    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. A preview with the record's detailed information opens in the table. 
+    Click the new record's name or the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) to the left of the record name. A preview with the record's detailed information opens in the table. 
 
     >[!TIP]
     >
     >You can access the **Open Details** icon only from the name field of the record when the Name field is a primary field. 
 
 1. Start editing the record's information in the record's preview. Workfront automatically saves your changes. 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record's preview to open the record's page in a new tab. Continue editing the record on the record page. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+1. (Optional) Click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record's preview to open the record's page in a new tab. Continue editing the record on the record page. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 
 1. (Optional) Use the following keyboard shortcuts to undo or redo adding new records or their information, when adding them in the table view: 
 
@@ -238,7 +239,7 @@ This section describes how you can create Workfront Planning records as you conn
 >
 >Creating Workfront projects and portfolios as you connect them to Workfront Planning records is similar to creating Planning records as you connect them from other records.
 >
->For information about creating Workfront objects from Workfront Planning, see [Create Workfront objects from Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md). 
+>For information about creating Workfront objects from Workfront Planning, see [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md). 
 
 You must have the following before you can add new records by connecting them from existing records:
 
@@ -248,27 +249,34 @@ You must have the following before you can add new records by connecting them fr
 
 To create records as you are connecting them from other records: 
 
-1. Start connecting Workfront Planning records, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). You can connect records from a connection field in following areas of Workfront Planning:
+1. Start connecting Workfront Planning records, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). You can connect records from the following areas: 
 
-    * The table view
-    * The details page or preview box of a record
+    * A connection field in following areas of Workfront Planning:
 
-1. (Conditional) If you cannot find a record when trying to add it from the connected record field of another record, search for a record, then click **+ Add**. The **+ Add** button is followed by the name of the record type you are connecting to. For example, "Add brands" when adding a brand to an existing campaign. The name you typed also follows the Add button. 
+        * The table view
+        * The details page or preview box of a record
+
+    * A connection field in the the Planning section of a project, portfolio, or program in Workfront. 
+    
+        For information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).  
+
+1. (Conditional) If you can't find a record when trying to connect it, <span class="preview">click **+ Add**</span>
+
+    Or
+    Start typing a name, then click **+ Add**. The **+ Add** button is followed by the name of the record type you are connecting to. For example, "Add brands" when adding a brand to an existing campaign. The name you typed also follows the Add button. 
 
     <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
-    ![](assets/add-button-to-create-records-in-context-highlighted.png)
+    ![Add button to create records in context highlighted](assets/add-button-to-create-records-in-context-highlighted.png)
 
     The record is created and added to the connected record field. 
 
-    <!--
     >[!IMPORTANT]
     >
-    >* You can create only projects and portfolios in Workfront when connecting them from a record. 
+    >* You can create only projects, portfolios, and programs in Workfront when connecting them from a record. 
     >
-    >* You cannot create programs, groups, or companies when connecting them from a record in Workfront Planning. 
-    >
-    >* You cannot create a project from a template when when you create projects by connecting them from a record. You must manually add tasks and project information or a template to the new project after you add it to the record. -->  
+    >* You cannot create groups or companies when connecting them from a record in Workfront Planning. 
+    > 
 
 1. (Optional) Go to the table view of the record type whose record you created. A new record displays in the last row of the view. 
 1. (Optional) Start adding information for the new record in the table view
@@ -290,4 +298,17 @@ For information, see [Submit Adobe Workfront Planning requests to create records
 You can import records when you import record types using a CSV or Excel file. 
 
 For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+
+<div class="preview">
+
+## Create records by using automations
+
+You can configure automations in Workfront Planning that, when activated, create records when triggered from a Planning record. The created records are automatically connected to the records you are triggering the automation from.
+
+You can configure and activate the automation in the record's page in Workfront Planning. The connected record that is created is placed in the connected field of the record type you run the automation from.
+
+For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
+
+</div>
+
 

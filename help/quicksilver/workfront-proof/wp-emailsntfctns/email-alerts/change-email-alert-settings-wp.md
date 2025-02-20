@@ -18,7 +18,7 @@ You can also change the [!DNL Workfront Proof] email alerts you receive for a pr
 
 ## Change the email alerts for the reviewers on a proof
 
-1. From any list view, click the **[!UICONTROL More]** menu to the right of the proof. ![](assets/more-button-small.png)
+1. From any list view, click the **[!UICONTROL More]** menu to the right of the proof. ![More menu](assets/more-button-small.png)
 
 1. Click **[!UICONTROL View proof details]**.
 1. On the **[!UICONTROL Proof details]** page, open the [!UICONTROL email alert] dropdown menu for a reviewer, and then select the new setting.

@@ -83,7 +83,7 @@ You can install the [!DNL Adobe Workfront for XD] plugin for yourself from the [
 
 1. In the bottom-left corner, click the **Plugins** icon.
 
- ![](assets/xd-plugin-window-350x620.png)
+ ![XD plugin window](assets/xd-plugin-window-350x620.png)
 
 1. In the **[!UICONTROL Plugins Panel]**, find **[!UICONTROL Adobe Workfront for XD]**.
 
@@ -97,7 +97,7 @@ You can install the [!DNL Adobe Workfront for XD] plugin for yourself from the [
    >[!TIP]
    >
    >* To find your domain, open a browser, navigate to your [!DNL Workfront] instance, and copy the first part of the URL:  
-   >![](assets/domain-350x50.png)   
+   >![Locate domain](assets/domain-350x50.png)   
    >
    > * If your Workfront instance is integrated with Experience Cloud, ask your admin to provide you with the Workfront domain found under Product > Workfront in the Admin Console.
 
@@ -116,4 +116,20 @@ You can install the [!DNL Adobe Workfront for XD] plugin for yourself from the [
 
 1. Click **[!UICONTROL Allow Access]** to finish logging in, and go back to [!DNL Adobe XD] to see your work.
 
-&nbsp;
+### Troubleshooting login errors
+
+**"Something went wrong" error displays when trying to log in**
+
+
+You can't use a URL that starts with `experience.adobe.com` to log into the plugin. 
+
+![log in error](assets/plugin-log-in-error.png) ![domain](assets/incorrect-domain.png)
+
+
+To fix this issue, 
+
+1. Uninstall and reinstall the Adobe Workfront for XD plugin to clear the domain and error.
+
+1. Enter your Workfront domain. The domain must be `company-name.my.workfront.com` and not `experience.adobe.com`.
+
+To find your Workfront domain if you are on the Adobe Unified Experience, go to 

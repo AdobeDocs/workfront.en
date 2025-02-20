@@ -97,7 +97,7 @@ Refer to the following table to understand each&nbsp;default priority label and 
 
 1. Click the **Priority** field in the **Basic information** area.
 
-   ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
+   ![Issue priority](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
 1. Select a value for the **Priority** field.
 

@@ -380,7 +380,7 @@ The following table compares a user's general access to objects (defined by the 
 
 The activities a user can do with an object are defined by a combination of their access level and the permissions given to them.
 
-![](assets/security-model-hierachy-copy.png)
+![Security model hierarchy](assets/security-model-hierachy-copy.png)
 
 ### Grant permissions through sharing objects
 

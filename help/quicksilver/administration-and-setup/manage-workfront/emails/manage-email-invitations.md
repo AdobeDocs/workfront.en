@@ -82,9 +82,9 @@ To manually generate email invitations to existing unregistered users:
 
 1. Select the user who shows the **Unregistered** label after their name.
 
-   ![](assets/unreg-user-qs-350x221.png)
+   ![Unregistered](assets/unreg-user-qs-350x221.png)
 
-1. Click the More icon ![](assets/more-icon.png), then click **Remind user to register**.
+1. Click the More icon ![More icon](assets/more-icon.png), then click **Remind user to register**.
 
    An email invitation is sent to the new user with a new link they can use to create their Workfront password.
 

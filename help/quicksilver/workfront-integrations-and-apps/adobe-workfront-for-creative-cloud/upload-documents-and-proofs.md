@@ -37,7 +37,7 @@ To change your switch back to a single file in [!DNL InDesign]:
 
 1. Open the **Set Export File Settings** dialog box. 
 
-    ![](assets/file-export-settings.png)
+    ![File export settings](assets/file-export-settings.png)
 
 1. Find the Asset Type you wish to export, and adjust the settings as described below: 
 

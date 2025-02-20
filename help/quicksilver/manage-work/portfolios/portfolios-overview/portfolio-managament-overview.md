@@ -38,7 +38,7 @@ You can prioritize your projects and ensure that they are aligned with your busi
 
 The following diagram illustrates the high-level overview of the PPM process in [!DNL Workfront]:
 
-![](assets/project-portfolio-management-process-diagram.png)
+![Project portfolio management process](assets/project-portfolio-management-process-diagram.png)
 
 * [Project Request](#project-request)
 * [Project Review](#project-review)

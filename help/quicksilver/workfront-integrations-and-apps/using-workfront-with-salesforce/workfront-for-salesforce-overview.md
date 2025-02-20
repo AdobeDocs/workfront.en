@@ -72,7 +72,7 @@ Consider the following when working with [!DNL Workfront] for [!DNL Salesforce]:
     * The header of a project or an issue.
 
       Your system or group administrator must add the [!UICONTROL Integrations] field to your Layout Template to view the [!UICONTROL Go to Salesforce] link in the project or issue header.
-    * The [!DNL Summary] panel  of an issue when selecting the issue in a list, after clicking [!UICONTROL Open Summary] ![](assets/summary-panel-icon.png) in the list's toolbar.
+    * The [!DNL Summary] panel  of an issue when selecting the issue in a list, after clicking [!UICONTROL Open Summary] ![Summary panel icon](assets/summary-panel-icon.png) in the list's toolbar.
 
       >[!NOTE]
       >

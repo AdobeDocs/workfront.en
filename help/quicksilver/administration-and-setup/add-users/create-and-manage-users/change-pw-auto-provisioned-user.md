@@ -74,7 +74,7 @@ For more detail about the information in this table, see [Access requirements in
 
    You receive a response similar to the following:
 
-   ![](assets/get-guid.png)
+   ![Get GUID](assets/get-guid.png)
 
    The return for "username" is the user's GUID.
 
@@ -92,7 +92,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. In the **Your login email address** box, verify that user's email address is correct, then click **Update Account**.
 
-   ![](assets/guidusername-350x272.png)
+   ![Username](assets/guidusername-350x272.png)
 
    The user's user name is changed to their Workfront email address.
 
@@ -100,7 +100,7 @@ For more detail about the information in this table, see [Access requirements in
 >
 >To find a user's ID:
 >
->1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+>1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![Users icon](assets/users-icon-in-main-menu.png). 
 >
 >1. Select the user.
 >

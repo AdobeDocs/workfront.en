@@ -13,17 +13,17 @@ The following significant enhancements were made for managing custom forms in th
 
 You can embed image in your custom forms. This allows you to communicate with custom form users in a more interactive and visual way. Additional widget types are coming soon.
 
-![](assets/image-in-custom-form.png)
+![Image in custom form](assets/image-in-custom-form.png)
 
 When a custom form containing a widget is attached to an object, users who work with the object can see it in the following areas:
 
 * The object's Details area (for example, for a project, the Project Details area)​
 
-  ![](assets/see-image-details-page.png)
+  ![Image details](assets/see-image-details-page.png)
 
 * The Edit box for the object, if it has the new Adobe Workfront experience look and feel (for example, the Edit Project and Edit Task boxes)​
 
-  ![](assets/image-see-in-edit.png)
+  ![Image edit](assets/image-see-in-edit.png)
 
 Currently, users cannot see the widget in the following areas:​
 
@@ -36,11 +36,11 @@ Currently, users cannot see the widget in the following areas:​
 
 You can associate multiple object types with any new custom form:
 
-![](assets/new-custom-form-object-types.png)
+![Custom form object types](assets/new-custom-form-object-types.png)
 
 Or any existing custom form:
 
-![](assets/add-object-type-existing-form.png)
+![Add object type to form](assets/add-object-type-existing-form.png)
 
 This allows you to create a single custom form for use on projects, tasks, issues, and any other types of objects that are supported for custom forms.
 
@@ -70,11 +70,11 @@ Consider the following when you create or edit a multi-object custom form:
 
 The set of section break permission options available for the Issue, Task, Project, and User object types has one more permission option than the set of permission options for all of the other object types: Limited Edit.
 
-![](assets/section-break-permissions-limited-edit.png)
+![Section break with limited edit](assets/section-break-permissions-limited-edit.png)
 
 The set of section break permissions available for all of the other object types (Portfolio, Document, Program, Expense, Company, Iteration, Billing Record, and Group) do not include Limited Edit:
 
-![](assets/section-break-permissions-no-limited-edit.png)
+![Section break without limited edit](assets/section-break-permissions-no-limited-edit.png)
 
 In a custom form associated with object types from both of these groups, the system uses a common set of section break permissions that work for all object types. In particular, instead of using the Limited Edit permission option, this common set substitutes the Edit permission option for the Limited Edit permission option. The Edit option is compatible with all object types.
 

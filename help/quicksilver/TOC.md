@@ -16,6 +16,7 @@ feature-set: Workfront
     * 2025 Q2 Release {#release-25-q2}
       * [2025 Q2 Release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
       * [2025 Q2 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
+      * [2025 Q2 Project enhancements](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md)
       * [Other enhancements during the Second Quarter 2025 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
       * [Look-and-feel updates during the 2025 Q2 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)
     * 2025 Q1 Release {#release-25-q1}
@@ -2055,7 +2056,7 @@ feature-set: Workfront
     * [Manage the record page layout](planning/records/manage-the-record-page.md)
     * [Manage records in the Planning section of Adobe Workfront objects](planning/records/manage-records-in-planning-section.md)
     * [Export a record's details](planning/records/export-the-record-page.md)
-    * [Create Workfront objects from Workfront Planning](planning/records/create-workfront-objects-from-workfront-planning.md)
+    * [Create Workfront objects from Workfront Planning as you connect them to records](planning/records/create-workfront-objects-from-workfront-planning.md)
     * [Create objects using Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
   * Adobe Workfront Planning requests {#adobe-workfront-planning-requests}
     * [Adobe Workfront Planning requests: article index](planning/requests/requests-article-index.md)
@@ -2454,10 +2455,12 @@ feature-set: Workfront
     * [Using the API to sync data for programs and services](wf-api/general/api-sync-data.md)
     * [Deactivate a User via the API](wf-api/general/deactivate-user-api.md)
   * Event Subscriptions {#event-subscriptions}
+    * [Event Subscriptions](wf-api/api/event-subscriptions.md)
     * [Event Subscription API](wf-api/general/event-subs-api.md)
     * [Event subscription best practices](wf-api/general/event-sub-best-practice.md)
     * [Event Subscription delivery requirements](wf-api/general/setup-event-sub-endpoint.md)
     * [Event subscription retries](wf-api/api/event-sub-retries.md)
+    * [Event subscription versioning](/help/quicksilver/wf-api/general/event-subs-versioning.md)
     * [Outbound message format for event subscriptions](wf-api/api/message-format-event-subs.md)
     * [FAQs - Event Subscriptions](wf-api/general/event-subs-faq.md)
   * Document Webhooks API {#document-webhooks-api}

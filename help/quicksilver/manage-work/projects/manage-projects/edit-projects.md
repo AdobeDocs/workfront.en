@@ -12,7 +12,9 @@ exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -92,7 +94,7 @@ For information about creating a project from a template, see [Create a project 
 
 1. (Optional) Click **Projects I'm On** or **Projects I Own** in the upper-right corner to display projects where you are the owner or projects where you are part of the project team.
 
-   ![](assets/projects-on-my-own-buttons-350x302.png)
+   ![Projects on my own buttons](assets/projects-on-my-own-buttons-350x302.png)
 
    >[!NOTE]
    >
@@ -102,7 +104,7 @@ For information about creating a project from a template, see [Create a project 
 
 1. (Optional) To edit limited information about a project, click **Project Details** in the left panel. If you want to edit all information about the project, proceed to Step 5. <!--accurate?!-->
 
-   ![](assets/nwe-project-details-expanded-350x298.png)
+   ![Project details expanded](assets/nwe-project-details-expanded-350x298.png)
 
    >[!NOTE]
    >
@@ -110,15 +112,15 @@ For information about creating a project from a template, see [Create a project 
 
    To edit information in the Details section, do the following:
 
-   1. (Optional) Click the **Collapse All** icon ![](assets/collapse-icon.png)  in the upper-right corner to collapse all areas. 
-   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
+   1. (Optional) Click the **Collapse All** icon ![Collapse all icon](assets/collapse-icon.png)  in the upper-right corner to collapse all areas. 
+   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![Right pointing arrow](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
    1. For more information about editing information in the Project Details tab, see the following articles:
 
       * [Manage information in the project Overview area](../../../manage-work/projects/manage-projects/understand-project-overview-area.md) 
       * [Manage information in the project Finance area](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. (Optional) To attach a custom form, start typing the name of a form in the **Add custom form** field, then select it when it displays in the list, then click **Save Changes**.
-   1. (Optional) Click the **Export** icon ![](assets/export.png) to export the Overview and custom forms information to a PDF file, then click **Export**. Select from the following:
+   1. (Optional) Click the **Export** icon ![Export icon](assets/export.png) to export the Overview and custom forms information to a PDF file, then click **Export**. Select from the following:
 
       * Select all (displays only when there is at least one custom form attached)
       * Overview
@@ -126,16 +128,16 @@ For information about creating a project from a template, see [Create a project 
 
       The PDF file downloads to your computer.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Export issue details seleection box with export button](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       For more information, see [Export custom forms and object details](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
    For information about the fields visible in the Project Details section, continue with editing the project in the Edit Project box as described below.
-1. To edit all information about the project, click the **More** menu ![](assets/qs-more-menu.png) next to the name of the project, then click **Edit**.
+1. To edit all information about the project, click the **More** menu ![More menu](assets/qs-more-menu.png) next to the name of the project, then click **Edit**.
 
    Or
 
-   From a list of projects, select one or multiple projects, then click the **Edit** icon ![](assets/edit-icon.png) at the top of the list.
+   From a list of projects, select one or multiple projects, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) at the top of the list.
 
    For more information about editing projects in bulk, see the section [Edit projects in bulk](#edit-projects-in-bulk) in this article. 
 
@@ -161,6 +163,8 @@ For information about creating a project from a template, see [Create a project 
    * [Task Settings](#task-settings) 
    * [Issue Settings](#issue-settings) 
    * [Access](#access)
+   * <span class="preview">[Comment](#comment)</span>
+   
 
    >[!NOTE]
    >
@@ -171,7 +175,7 @@ For information about creating a project from a template, see [Create a project 
 1. Begin editing your project as described above.
 1. Click **Project Name** in the left panel.
 
-   ![](assets/nwe-project-name-in-edit-project-box-350x125.png)
+   ![Project name area in edit project box](assets/nwe-project-name-in-edit-project-box-350x125.png)
 
 1. Update the name of the project.
 
@@ -182,7 +186,7 @@ For information about creating a project from a template, see [Create a project 
 1. Begin editing your project as described above.
 1. Click **Overview** in the left panel.
 
-   ![](assets/nwe-overview-in-edit-project-box-350x172.png)
+   ![Overview area in project edit box](assets/nwe-overview-in-edit-project-box-350x172.png)
 
 1. Update the following information about the project:
 
@@ -328,7 +332,7 @@ To edit information on custom forms when editing a project:
 1. Begin editing your project as described above.
 1. Click **Custom Forms** in the left panel.
 
-   ![](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
+   ![Cusrom forms in the edit project box](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
 1. Click the **Add custom form** box and select a form from the list to attach it to the project. By default, the first 40 forms display in alphabetical order. If you don't see the form in the list, start typing its name, then select it when it appears in the list. 
 
@@ -363,7 +367,7 @@ To edit fields in the Finance area:
 1. Begin editing your project as described above.
 1. Click **Finance** in the left panel.
 
-   ![](assets/nwe-finance-in-edit-project-box-350x183.png)
+   ![Finance area in the project edit box](assets/nwe-finance-in-edit-project-box-350x183.png)
 
 1. Update the following financial information for the project:
 
@@ -421,7 +425,7 @@ To edit fields in the Finance area:
 1. Begin editing your project as described above.
 1. Click **Project Settings** in the left panel.
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![Project settings area in the project edit box](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. Update the following information:
 
@@ -545,7 +549,7 @@ For information about how these settings affect creating new tasks, see the sect
 1. Begin editing your project as described above.
 1. Click **Task Settings** in the left panel.
 
-   ![](assets/nwe-task-settings-in-edit-project-box-350x211.png)
+   ![Task settings in the edit project box](assets/nwe-task-settings-in-edit-project-box-350x211.png)
 
 1. In the **Task Default Approval Process** box, select the task Approval Process you want to associate with all new tasks when you add them to the project.
 
@@ -559,7 +563,7 @@ For information about how these settings affect creating new tasks, see the sect
 1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to the project. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. For more information about building custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). You can associate up to ten custom forms with a task.
 1. (Optional) Select **Use Work Effort to automatically calculate task Planned Hours** if you want to enable managing task effort by using Work Effort instead of Planned Hours.
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![Work effort in the edit project box](assets/nwe-work-effort-on-projects-350x182.png)
 
 1. (Conditional and optional) If you selected Use Work Effort to automatically calculate task Planned Hours, click the drop-down menu for each level of effort and select a percentage for each level. The following percentage values are defaults:
 
@@ -584,7 +588,7 @@ For information about how these settings affect creating new tasks, see the sect
 1. Begin editing your project as described above.
 1. Click **Issue Settings** in the left panel.
 
-   ![](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
+   ![Issue settings in the edit project box](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
 
 1. (Optional) Deselect the **Allow users to add issues inline** option. It is selected by default.
 
@@ -616,7 +620,7 @@ For information about how these settings affect creating new tasks, see the sect
 1. Begin editing your project as described above.
 1. Click **Access** in the left panel.
 
-   ![](assets/nwe-access-in-edit-project-box-350x262.png)
+   ![Access area in the edit project box](assets/nwe-access-in-edit-project-box-350x262.png)
 
 1. Specify the following **Access** information for the project:  
 
@@ -657,21 +661,19 @@ For information about how these settings affect creating new tasks, see the sect
 
 1. Click **Save**.
 
-### Linked folders
+<div class="preview">
 
-Linked folder functionality automatically creates folders in Adobe Experience Manager Assets, and connects these folders to Workfront. 
+### Comment
 
-This section appears only if all of the following apply:
+1. Begin editing your project as described above.
+1. Click **Comment** in the left panel.
 
-* Your organization has been migrated to the Adobe Admin Console
-* Your organization has enabled and configured an integration with Adobe Experience Manager
-* The template used to create this project has enabled and configured linked folders.
+   ![project-comment-in-edit-project-box](assets/project-comment-in-edit-project-box.png)
 
-For instructions on editing Linked folders, see [Edit workflow values in a project](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) in the article Use workflows in the Experience Manager Assets integration.
+1. Add a comment in the space provided. Workfront adds the comment in the Updates area of the project. For more information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Click **Save**. 
 
->[!NOTE]
->
->Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.
+</div>
 
 ## Edit a project in the project header (limited)
 
@@ -679,7 +681,7 @@ You can edit a limited amount of information in the project header.
 
 Your system or group administrator can customize the fields you see in the project header. 
 
-![](assets/project-header-350x18.png)
+![Project header](assets/project-header-350x18.png)
 
 The following fields are included in the project header, by default.
 
@@ -713,21 +715,21 @@ Consider the following when editing projects in bulk:
 
 * When you select projects that have different values for the same field, the field displays a "Multiple values" indicator in the Edit projects box. Fields that are checkboxes, radio buttons, and toggles have a "Multiple values" indicator next to them.
 
-   ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+   ![Multiple value indicator for dates in bulk edit projects box](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
 * In addition to the "Multiple values" indicator, when the chosen options are different on at least one of the selected projects, fields that have multiple options display in one of the following ways:  
 
     * Checkbox fields have a line instead of a checkbox for the option that is checked for some but not for all the selected projects.
 
-      ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+      ![Multiple value indicator check boxes in bulk edit projects box](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
     * Toggle-type fields display dimmed, with the toggle in the middle for the option that is enabled for some but not for all the selected projects. 
 
-    ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+    ![Multiple values highlighted in bulk edit projects](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
     * Radio button-type fields that have some options selected but not all, display all radio buttons as empty. 
 
-      ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+      ![Multiple values indicator radio buttons bulk edit project box](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * When you update one option in a multiple-option field (such as a field that displays as a set of toggles or checkboxes), all other options must match between the selected projects. 
 
@@ -742,10 +744,10 @@ To edit projects in bulk:
 {{step1-to-projects}}
 
 1. Select several projects in the list.
-1. Click the **Edit** icon ![](assets/edit-icon.png) at the top of the list. 
+1. Click the **Edit** icon ![Edit icon](assets/edit-icon.png) at the top of the list. 
 The **Edit Projects** dialog box opens. 
 
-   ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
+   ![Edit projects in bulk modal](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
 Depending on how your Workfront administrator or Group administrator modified your Layout Template, the areas in the left panel of the Edit Project box or any fields listed in these areas might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
 
@@ -759,7 +761,7 @@ Depending on how your Workfront administrator or Group administrator modified yo
 
    The custom forms that are attached to all the selected projects display in the **Custom forms in common** subsection in the **Custom Forms** area.
 
-   ![](assets/custom-forms-in-common-unshimmed.png) 
+   ![Custom forms in common in bulk edit projects](assets/custom-forms-in-common-unshimmed.png) 
 
    >[!TIP]
    >
@@ -768,7 +770,7 @@ Depending on how your Workfront administrator or Group administrator modified yo
 1. Start typing the name of a custom form in the **Add custom form** field.
 
 
-   ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
+   ![Forms already attached indicator in bulk editing projects](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
    The custom forms that are already attached to the selected projects display in the **Attached forms** subsection in the **Add custom form** field. 
    
@@ -796,9 +798,10 @@ For more information about editing the Task Settings area, see the section [Task
 For more information about editing the Issue Settings area, see the section [Issue Settings](#issue-settings) in this article.
 1. Click **Access** to edit the access settings for all selected projects.
 For more information about editing the Access area, see the section [Access](#access) in this article.
+1. <span class="preview">Click **Comment**, then add a comment in the space provided. Workfront adds the comment in the **Updates** area of each project. For information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>
 1. (Optional) To remove any of the information you added in the Edit Projects box, hover over an edited field, then click the **x** discard icon to the upper-right of the field. 
 
-   ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
+   ![Discard icon for field edit projects in bulk](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
 1. (Optional) Click **Cancel** at the bottom of the **Edit projects** page to remove all the changes made to all projects. 
 1. Click **Save**. 

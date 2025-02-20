@@ -92,17 +92,19 @@ Before using the Admin Console for Workfront, you should receive an email inviti
   >
   >Do not make any changes to the Product Profile itself.
 
+* Adobe Admin Console administrators can set up automatic assignment rules to automate the process of assigning Adobe products to users in their organization. Your organization must be migrated to the Adobe Unified Experience to use this functionality. For more information and instructions, see [Manage automatic assignment rules](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) in the Adobe documentation.
+
 ## Access the user and admin area for your Production instance of Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
 1. From the [Adobe Admin Console page](https://adminconsole.adobe.com/), select the **Products** tab in the top navigation bar, and then select **Workfront**.
 
-   <!--![](assets/admin-product-1.png)-->
+   <!--![Admin Console product](assets/admin-product-1.png)-->
 
 1. In the list that displays, select the link at the top.
 
    This is your Production instance where your users work.
 
-   <!--![](assets/instances-1.png)-->
+   <!--![Admin Console instances](assets/instances-1.png)-->
 
    >[!TIP]
    >
@@ -113,7 +115,7 @@ Before using the Admin Console for Workfront, you should receive an email inviti
 
 1. In the list that displays, with the **Product Profiles** tab selected, click the name of the Workfront Product Profile link.
 
-   ![](assets/prod-profile-1.png)
+   ![Product profiles](assets/prod-profile-1.png)
 
    This list includes all users that are already assigned to your Production instance of Workfront.
 
@@ -139,7 +141,7 @@ You must add a user to your Production instance of Workfront before you can make
 1. Select **Add Admin**.
 1. In the **Add product profile administrators** box, enter the email addresses or names of the administrators you want to add, then select **Save**.
 
-   ![](assets/add-admin-1.png)
+   ![Add an admin](assets/add-admin-1.png)
 
    The system administrators are created in Workfront.
 
@@ -199,7 +201,7 @@ To approve a user:
 
 {{step-1-to-users}}
 
-1. Select the user, then click the **More** icon ![](assets/more-icon.png).
+1. Select the user, then click the **More** icon ![More icon](assets/more-icon.png).
 
 1. To approve the user, click **Approve**, then click **Submit**. 
 

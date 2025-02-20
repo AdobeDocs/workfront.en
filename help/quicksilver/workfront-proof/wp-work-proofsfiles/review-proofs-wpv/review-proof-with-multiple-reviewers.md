@@ -26,4 +26,4 @@ You can see presence indicators when other reviewers have the same proof open, w
 
 1. (Optional) Mouse over a presence indicator to view the name of the user.
 
-   ![](assets/proof-presence.png)
+   ![Proof presence](assets/proof-presence.png)

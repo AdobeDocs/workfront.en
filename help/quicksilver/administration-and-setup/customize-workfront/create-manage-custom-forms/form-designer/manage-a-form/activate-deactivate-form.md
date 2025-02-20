@@ -21,7 +21,7 @@ You can reactivate or deactivate a custom form. We recommend deactivating custom
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 

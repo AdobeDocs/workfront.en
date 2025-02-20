@@ -142,7 +142,7 @@ Consider the following when changing your view to the Resource Planner:
 
 1. (Conditional) If you selected **Customize**, indicate options in the **Customize displayed metrics** box to set up your custom view.
 
-   ![](assets/planner-customize-view-box-350x114.png)
+   ![Customize view box](assets/planner-customize-view-box-350x114.png)
 
 1. In the **View type** column on the left, select one of the following views:
 
@@ -183,7 +183,7 @@ Consider the following when changing your view to the Resource Planner:
    >
    >You can have only one customized view.
 
-   ![](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
+   ![Planner hours dropdown](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
 
 ## View the User Allocation chart
 

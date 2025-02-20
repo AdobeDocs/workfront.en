@@ -76,7 +76,7 @@ Some event notifications have multiple subject lines, depending on which objects
 
 For example, "Someone includes me on a directed update" has two different subjects lines: first is for tasks, issues, template tasks and documents (also known as a "referenceObject") and the second one is for objects that allow users to make comments, like portfolio, program, and so on (also known as a "topReferenceObject").
 
-![](assets/Ev-not-mult-subj-lines.png)
+![Event not multiple subject lines](assets/ev-multiple-subject.png)
 
 If a user is included in a conversation on the task, issue, template task, or document, an email will generate with the first subject line. The subject line contains "referenceObject:name" and the system defines the object and displays the appropriate name in the subject field. The email subject line would look similar to this: "Comment on Task 123 on Project ABC." 
 
@@ -90,6 +90,8 @@ Some event notifications also have multiple email subjects to outline the differ
 
 For example, requesting a document to be added to an issue is an event that can trigger two different emails: one for when the document is added, and one for when the document is edited. 
 
-![](assets/ev-not-mult-subj-lines-diff-actions.png)
+
+
+![Event not multiple subject lines](assets/Ev-not-mult-subj-lines.png)
 
 To edit the email subject lines and add additional fields to either subject lines, see [Customize email subject lines for event notifications](#customize-email-subject-lines-for-event-notifications) in this article.

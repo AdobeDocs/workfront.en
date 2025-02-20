@@ -17,7 +17,7 @@ As an Adobe Workfront administrator or a group administrator, you can use a layo
 >
 >Customizing object headers is currently available for projects, tasks, and issues.
 
-![](assets/object-header-fields.png)
+![Object header fields](assets/object-header-fields.png)
 
 For information about creating layout templates, see [Create and manage layout templates](../use-layout-templates/create-and-manage-layout-templates.md). 
 
@@ -74,7 +74,7 @@ To perform them for a group, you must be a manager of that group.</p> </td>
 
     <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
-    ![](assets/object-header-field-x-and-grab-icons-in-lt.png)
+    ![Object header fields hide and move icons](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. You can have up to five fields in the header of an object.
 If you already have five fields selected, you must remove a field before you can add a new one.
@@ -89,7 +89,7 @@ If you already have five fields selected, you must remove a field before you can
     >* When you add the "Resolved By" field to the header of an issue, the field changes to "Resolving Issue, Task, or Project", when there is a resolving object associated with the issue.  
 
    
-    ![](assets/add-field-to-header-in-lt-list.png)  
+    ![Add field to header](assets/add-field-to-header-in-lt-list.png)  
   
 
 1. (Optional) Drag and drop the fields added in a different order.       

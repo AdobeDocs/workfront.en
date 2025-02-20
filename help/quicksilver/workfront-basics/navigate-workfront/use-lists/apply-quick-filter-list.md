@@ -86,7 +86,7 @@ You must have the following access to perform the steps in this article:
 
 ## Apply a quick filter to a list
 
-1. Go to a list or report that supports quick filters, then click the **[!UICONTROL Quick Filter] icon** ![](assets/qs-quick-filter-icon.png) in the toolbar.
+1. Go to a list or report that supports quick filters, then click the **[!UICONTROL Quick Filter] icon** ![Quick filter icon](assets/qs-quick-filter-icon.png) in the toolbar.
 
    Or
 
@@ -114,7 +114,7 @@ You must have the following access to perform the steps in this article:
    1. Select all or several of the items in the list, then click **[!UICONTROL Edit]** to bulk edit the items.
    1. After you complete your edits, click **[!UICONTROL Save Changes]**.
 
-1. (Optional) To export the items found by the quick filter, select all or several of the items in the list, then click the **[!UICONTROL Export]** icon ![](assets/export.png).
+1. (Optional) To export the items found by the quick filter, select all or several of the items in the list, then click the **[!UICONTROL Export]** icon ![Export icon](assets/export.png).
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 

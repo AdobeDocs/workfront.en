@@ -54,7 +54,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Return to Work List](assets/go-back-to-work-list-350x314.png)
 
 1. From the **[!UICONTROL Work List]**, select the task or issue you wish to mark complete. 
 1. Click **[!UICONTROL Done]**.  If you are the only user assigned to this task or issue, this marks the item [!UICONTROL Complete] or [!UICONTROL Resolved] in [!DNL Workfront].
@@ -69,6 +69,6 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    >[!NOTE]
    >
    >If the work item has predecessors, the Done button is gray until those predecessors are marked complete. To view predecessors inside of [!DNL Workfront], click on the task name.
-   >![](assets/navigate-to-workfront.png)
+   >![Navigate to Workfront](assets/navigate-to-workfront.png)
 
-  <!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->
+  <!-- I dont think we need this one ![Complete work](assets/complete-work-350x529.png) -->

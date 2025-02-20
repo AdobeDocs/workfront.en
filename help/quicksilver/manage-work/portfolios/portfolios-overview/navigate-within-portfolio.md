@@ -54,7 +54,7 @@ You must have the following access to perform the steps in this article:
 
 ## Navigate within a portfolio
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront].
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront].
 
 1. Click [!UICONTROL Portfolios].
 1. From the **[!UICONTROL Filter]** drop-down menu, select the following:
@@ -103,7 +103,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Click **[!UICONTROL Portfolio Optimization]** in the left panel to optimize the performance of the portfolio.
 
-   ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![Portfolio optimizer with projects](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    >[!IMPORTANT]
    >
@@ -113,7 +113,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Click **Documents** in the left panel to attach documents to the portfolio.
 1. (Optional)  Click **[!UICONTROL Updates]** in the left panel to add comments to the update stream of the portfolio. For information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
-1. (Optional) Click the **[!UICONTROL More] menu** ![](assets/qs-more-icon-on-an-object.png) to do one of the following:
+1. (Optional) Click the **[!UICONTROL More] menu** ![More menu](assets/qs-more-icon-on-an-object.png) to do one of the following:
 
    * Deactivate the portfolio. When a portfolio is deactivated, you can no longer associate it with projects at the project level.
    * Delete the portfolio.
@@ -124,4 +124,4 @@ You must have the following access to perform the steps in this article:
 
    * Share the portfolio with other users.
 
-1. (Optional) Click the **Star** icon ![](assets/qs-star-icon-favorites-39x38.png) to the right of the portfolio name to add the portfolio to your list of favorites.
+1. (Optional) Click the **Star** icon ![Star icon](assets/qs-star-icon-favorites-39x38.png) to the right of the portfolio name to add the portfolio to your list of favorites.

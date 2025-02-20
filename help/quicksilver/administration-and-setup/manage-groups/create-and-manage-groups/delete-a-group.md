@@ -52,9 +52,9 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png).
 
-1. Select the group you want to delete, then click the Delete icon ![](assets/delete.png).
+1. Select the group you want to delete, then click the Delete icon ![Delete](assets/delete.png).
 
    >[!IMPORTANT]
    >
@@ -62,6 +62,6 @@ For more detail about the information in this table, see [Access requirements in
 
 1. In the **Delete Group** box that appears, starting typing and then select the name of the group where you want to move the members, work items, and subgroups of the group you are deleting.
 
-   You can make sure you are selecting the right group by hovering over it and clicking the information icon ![](assets/info-icon.png) that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.
+   You can make sure you are selecting the right group by hovering over it and clicking the information icon ![Info icon](assets/info-icon.png) that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.
 
 1. Click **Delete Them**.
