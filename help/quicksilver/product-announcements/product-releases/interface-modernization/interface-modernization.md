@@ -138,7 +138,7 @@ To view this change, go to Teams > Choose a team > Iterations > Choose an iterat
 
 ### Add Stories and Issues to an iteration
 
-**Preview release: February 6, 2025; Production release: To be announced**
+**Preview release: February 6, 2025; Production release: Starting the week of February 13, 2025**
 
 We have updated the Add story and Add issue dialog box with a more modern design that is consistent with other areas of Workfront. 
 
