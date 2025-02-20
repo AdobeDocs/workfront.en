@@ -117,7 +117,7 @@ You can create a new standard view, or you can customize an existing standard vi
          <tbody> 
           <tr> 
            <td role="rowheader"><strong>Custom Column Label</strong></td> 
-           <td><p>Specify a custom label for the column. This label replaces the default label.</p></td> 
+           <td><p>Specify a custom label for the column. This label replaces the default label. We recommend using only UTF-8 characters to avoid compatibility issues.</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Field Format</strong></td> 
