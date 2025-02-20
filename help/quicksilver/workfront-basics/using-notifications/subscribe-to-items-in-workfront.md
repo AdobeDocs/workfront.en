@@ -69,12 +69,12 @@ For example, to subscribe to an issue:
    >
    >To subscribe to projects, you can do one of the following:
    >
-   >* Go to the project you want to subscribe to, click the **[!UICONTROL More]** icon ![](assets/qs-more-menu.png) to the right of the project name, then **[!UICONTROL Subscribe]**.
-   >* Go to a project list or report and select a project, click the **[!UICONTROL More]** icon ![](assets/qs-more-menu.png) at the top of the list, then click **[!UICONTROL Subscribe]**. This is available only in a list of projects. 
+   >* Go to the project you want to subscribe to, click the **[!UICONTROL More]** icon ![More menu](assets/qs-more-menu.png) to the right of the project name, then **[!UICONTROL Subscribe]**.
+   >* Go to a project list or report and select a project, click the **[!UICONTROL More]** icon ![More menu](assets/qs-more-menu.png) at the top of the list, then click **[!UICONTROL Subscribe]**. This is available only in a list of projects. 
 
-1. Click **[!UICONTROL More]** ![](assets/more-icon.png), then click **[!UICONTROL Subscribe]**.
+1. Click **[!UICONTROL More]** ![More icon](assets/more-icon.png), then click **[!UICONTROL Subscribe]**.
 
-   ![](assets/subscribe-to-a-work-item-350x258.png)
+   ![Subscribe to a work item](assets/subscribe-to-a-work-item-350x258.png)
 
    A checkmark appears on the bell and the number next to it updates to add you to the count of subscribed users.
 
@@ -96,12 +96,12 @@ For example, to unsubscribe from an issue:
    >
    >To unsubscribe to projects, you can do one of the following:
    >
-   >* Go to the project you want to unsubscribe from, click the **[!UICONTROL More]** icon ![](assets/qs-more-menu.png) to the right of the project name, then **[!UICONTROL Unsubscribe]**.
-   >* Go to a project list or report and select a project, click the **[!UICONTROL More]** icon ![](assets/qs-more-menu.png) at the top of the list, then click **[!UICONTROL Unsubscribe]**. This is available only in a list of projects. 
+   >* Go to the project you want to unsubscribe from, click the **[!UICONTROL More]** icon ![More icon](assets/qs-more-menu.png) to the right of the project name, then **[!UICONTROL Unsubscribe]**.
+   >* Go to a project list or report and select a project, click the **[!UICONTROL More]** icon ![More icon](assets/qs-more-menu.png) at the top of the list, then click **[!UICONTROL Unsubscribe]**. This is available only in a list of projects. 
 
-1. Click **[!UICONTROL More]** ![](assets/more-icon.png), then click **[!UICONTROL Unsubscribe]**.
+1. Click **[!UICONTROL More]** ![More icon](assets/more-icon.png), then click **[!UICONTROL Unsubscribe]**.
 
-   ![](assets/unsubscribe-to-a-work-item-350x258.png)
+   ![Unsubscribe from a work item](assets/unsubscribe-to-a-work-item-350x258.png)
 
 1. You can also unsubscribe from an item you are subscribed to by clicking the [!UICONTROL Unsubscribe] link in the subscription email.
 
@@ -130,7 +130,7 @@ All subscribers are given [!UICONTROL View] permission to the subscribed item. I
    >   
    >* Go to a project list or report and select a project.
 
-1. Click **[!UICONTROL More]** ![](assets/more-icon.png).
+1. Click **[!UICONTROL More]** ![More icon](assets/more-icon.png).
 1. Click the number bubble next to the **[!UICONTROL Subscribe]** link.
 1. In the box that appears, begin typing the name of the user in the **[!UICONTROL Subscribe others]** box, then select the user from the options displayed.
 
@@ -153,7 +153,7 @@ When someone adds a comment to the [!UICONTROL Updates] tab of the item, the sub
    >   
    >* Go to a project list or report and select a project. 
 
-1. Click **[!UICONTROL More]** ![](assets/more-icon.png).
+1. Click **[!UICONTROL More]** ![More icon](assets/more-icon.png).
 1. Click the number bubble next to the **[!UICONTROL Subscribe]** or **[!UICONTROL Unsubscribe]** link.
 1. On the **[!UICONTROL Subscribers]** page that appears, click the "X" next to the name of the user you want to unsubscribe.
 
@@ -169,7 +169,7 @@ When someone adds a comment to the [!UICONTROL Updates] tab of the item, the sub
 
 Immediately after someone posts a comment on an item to which you are subscribed, you receive an in-app notification.
 
-![](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
+![In app notification](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
 
 For more information, see [View and manage in-app notifications](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
