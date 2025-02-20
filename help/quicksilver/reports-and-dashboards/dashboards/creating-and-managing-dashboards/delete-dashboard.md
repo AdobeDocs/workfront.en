@@ -66,7 +66,7 @@ To delete a dashboard:
 1. Go to the dashboard that you want to edit.
 1. Click **Dashboard Actions**, then click **Delete**.
 
-   ![](assets/unshimmed-delete-dashboard.png)
+   ![Delete dashboard](assets/unshimmed-delete-dashboard.png)
 
 1. To confirm that you want to delete the dashboard, click **Yes, Delete it.** 
    The dashboard is removed from Workfront.
@@ -78,9 +78,9 @@ If you are deleting multiple dashboards, you can delete the dashboards from the 
 To delete multiple dashboards:
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Dashboards]**.
-1. Select each dashboard in the list that you want to delete, then click **Delete** ![](assets/delete.png).
+1. Select each dashboard in the list that you want to delete, then click **Delete** ![Delte icon](assets/delete.png).
 
-   ![](assets/unshimmed-delete-dashboard-list.png)
+   ![Delete dashboard](assets/unshimmed-delete-dashboard-list.png)
 
 1. To confirm that you want to delete the dashboard, click **Yes, Delete it.** 
    The dashboard is removed from Workfront.

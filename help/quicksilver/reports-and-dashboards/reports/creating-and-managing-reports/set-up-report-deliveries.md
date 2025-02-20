@@ -183,7 +183,7 @@ You can see whether a report has been configured to be delivered by creating the
 
 * **A Filter** for the Report object: Create a filter on a list of reports or in a report on reports with the following statement: *Scheduled Report ID Is Not Blank*.  
   This will display only reports that have been scheduled in your list or report.  
-  ![](assets/qs-scheduled-report-filter-350x101.png)  
+  ![Scheduled report filter](assets/qs-scheduled-report-filter-350x101.png)  
   For more information about creating reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). For information on creating a report on reports, see [Create a report on reporting activities](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--

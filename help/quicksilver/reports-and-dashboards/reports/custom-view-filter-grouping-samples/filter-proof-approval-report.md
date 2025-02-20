@@ -68,7 +68,7 @@ You can create a filter for a Proof Approval report.
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   To create your own Proof Approval report, click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Reports** ![](assets/reports-in-main-menu.png).
+   To create your own Proof Approval report, click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** icon ![Main Menu lines](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Reports** ![Reports icon](assets/reports-in-main-menu.png).
    
 1. Click **New Report**. The list of object types displays.
 1. Click **Proof Approval** in the list. 

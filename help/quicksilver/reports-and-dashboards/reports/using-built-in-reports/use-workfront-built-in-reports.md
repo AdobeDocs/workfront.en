@@ -377,7 +377,7 @@ The following reports come with the Workfront package. The reports are available
 1. Under the **Report** object, select **Global ID**.
 
 1. In the filter modifier drop-down menu, select **Is Not Blank**.  
-   ![](assets/qs-global-id-filter-for-system-reports-350x179.png)
+   ![Global ID filter for system reports](assets/qs-global-id-filter-for-system-reports-350x179.png)
 
 1. Click **Save Filter**.  
    The reports list displays only built-in reports.  

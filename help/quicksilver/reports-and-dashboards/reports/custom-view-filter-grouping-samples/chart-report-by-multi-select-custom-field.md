@@ -119,7 +119,7 @@ To build the calculated custom field that references the multi-select custom fie
    
 1. Replace "Multi-select Custom Field" with the actual name of your multi-select custom field, as it appears in Workfront.
 
-   ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
+   ![Calculated multi select custom field](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
 1. (Optional) If the multi-select custom field is already on this form and if this form is already attached to objects, enable the **Apply to existing calculations** option. 
 
@@ -134,11 +134,11 @@ To build the calculated custom field that references the multi-select custom fie
 
 1. (Optional) To ensure that all the calculated fields that you want to chart by are populated with values, from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
 1. (Optional and conditional) Select the **Recalculate Custom Expressions** field, then click **Save Changes**.  
-   ![](assets/recalculate-custom-expressions-350x259.png) 
+   ![Recalculate custom expressions](assets/recalculate-custom-expressions-350x259.png) 
 
    >[!NOTE]
    >
-   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**. 
+   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![More icon](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**. 
 
 1. Go to the report where you want to add the chart for the calculated field that references the multi-select custom field. 
 1. Click **Report Actions**, then **Edit**. 
@@ -154,4 +154,4 @@ To build the calculated custom field that references the multi-select custom fie
 
    The report displays the results grouped by the Calculated Multi select Field in a chart.
 
-   ![](assets/chart-multi-select-field-column-chart-example.png)
+   ![Multi select field in chart](assets/chart-multi-select-field-column-chart-example.png)

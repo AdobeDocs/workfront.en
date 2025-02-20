@@ -17,14 +17,14 @@ You can create a matrix report for any report that contains 2 or more Groupings.
 
 For example, you want to create an Hour report that displays the hours logged during a 3-month period, and you want the report to be organized according to who entered the hours, as well as by month and week.
 
-![](assets/report-matrix-overview-350x123.png)
+![Report matrix overview](assets/report-matrix-overview-350x123.png)
 
 ## How data displays in a matrix report
 
 Information in the matrix report is always displayed as a numerical value. In most cases, columns that contain a numerical value are best for displaying in a matrix report (such as hours logged and actual cost).
 
 However, other columns (such as Status) can still be displayed in the matrix report as shown in the following graphic:  
-![](assets/report-matrix-status-350x73.png)
+![Matrix status](assets/report-matrix-status-350x73.png)
 
 ## Access requirements
 
@@ -85,7 +85,7 @@ You must have the following access to perform the steps in this article:
       >
       >If this option is not selected, the information from the column is not displayed correctly in the matrix report.
 
-      ![](assets/qs-report-matrix-summarized-350x392.png)
+      ![Matrix summarized](assets/qs-report-matrix-summarized-350x392.png)
 
    1. Repeat this process for each column in the Columns (View) tab, then click **Done**.
 
@@ -99,10 +99,10 @@ You must have the following access to perform the steps in this article:
    1. In the **Column Groupings** section, identify the column grouping, which establish the vertical groupings of the table.
    1. (Optional) To add an additional column grouping, click **Add secondary Column Grouping**.
    1. (Conditional) If you add a grouping by date, also specify whether the results are grouped by day, week, month, quarter or year.  
-      ![](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)  
+      ![Grouping by date options](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)  
    
    1. (Conditional) If you selected to group by date and to show results by quarter, for example, specify whether you want to show quarters with no data by selecting the **Show quarters with no results** checkbox.  
-      ![](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
+      ![Show quarters with no results](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
 
       >[!NOTE]
       >

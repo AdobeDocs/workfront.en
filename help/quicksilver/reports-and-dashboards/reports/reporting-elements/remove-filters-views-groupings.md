@@ -110,7 +110,7 @@ The following scenarios exist when you remove a filter, view, or grouping:
 ### Remove a filter, view, or grouping using the legacy builder
 
 1. Go to a list of objects or a report.
-1. (Conditional) From a list, click the **Filter**, **View**, or **Grouping** icon, then hover over the filter, view, or grouping you want to remove, click the **More** icon ![](assets/more-icon.png), then **Remove**. The filter, view, or grouping is removed. 
+1. (Conditional) From a list, click the **Filter**, **View**, or **Grouping** icon, then hover over the filter, view, or grouping you want to remove, click the **More** icon ![More icon](assets/more-icon.png), then **Remove**. The filter, view, or grouping is removed. 
 1. (Conditional) From a report, click the **Grouping**, **Filter**, or **View** drop-down menu and select **Remove Grouping**, **Remove Filter**, or **Remove View**.
 
    The **My Groupings**, **My Filters,** or **My Views** dialog box displays.

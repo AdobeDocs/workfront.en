@@ -64,7 +64,7 @@ You must have the following access to perform the steps in this article:
 
 You can apply the following filter to a task report to display tasks with no children. They could have parents of their own and be children of other tasks.
 
-1. From the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, click **Reports**. 
+1. From the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![Main Menu lines](assets/lines-main-menu.png) in the upper-left corner, if available, click **Reports**. 
 
 1. Click **New Report**.
 1. Select a **Task Report**.
@@ -73,7 +73,7 @@ You can apply the following filter to a task report to display tasks with no chi
 1. In the **Start typing field name ...** line, start typing **Number of Children**, then click **Task >> Number of Children** when it displays in the list.
 
 1. Select **Equal (Case Sensitive)** for your modifier, then enter **0** for the number of children.  
-   ![](assets/parent-task-filter-from-the-ui-350x76.png)
+   ![Parent task filter](assets/parent-task-filter-from-the-ui-350x76.png)
 
    Or
 
@@ -93,7 +93,7 @@ You can apply the following filter to a task report to display tasks with no chi
 
 You can apply the following filter to a task report to display tasks with parents, meaning they are children tasks. However, these tasks could also have children of their own because the filter does not exclude their children. Children tasks that are also parents for other tasks are not considered working tasks.
 
-1. From the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, click **Reports**. 
+1. From the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![Main Menu lines](assets/lines-main-menu.png) in the upper-left corner, if available, click **Reports**. 
 
 1. Click **New Report**.
 1. Select a **Task Report**.
@@ -102,7 +102,7 @@ You can apply the following filter to a task report to display tasks with parent
 1. In the **Start typing field name ...** line, start typing **Parent ID**, then select **Task >> Parent ID** when it displays in the list.
 1. Select **Is Not Blank** for your modifier.
     
-    ![](assets/filter-parent-id-not-blank-350x100.png)  
+    ![Parent ID is not blank](assets/filter-parent-id-not-blank-350x100.png)  
     
     Or
     
@@ -118,7 +118,7 @@ You can apply the following filter to a task report to display tasks with parent
 
 You can apply the following filter to a task report to display standalone working tasks. These tasks don't have a parent and they have no children of their own.
 
-1. From the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, click **Reports**. 
+1. From the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![Main Menu lines](assets/lines-main-menu.png) in the upper-left corner, if available, click **Reports**. 
 
 1. Click **New Report**.
 1. Select a **Task Report**.
@@ -130,7 +130,7 @@ You can apply the following filter to a task report to display standalone workin
 1. In the **Start typing field name ...** line start typing **Parent ID**, then select **Task >> Parent ID** from the list.
 1. Select **Is Blank** for the modifier.
 
-   ![](assets/filter-parent-id-blank-and-zero-children-350x121.png)
+   ![Parent ID is blank and no children](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    Or
 

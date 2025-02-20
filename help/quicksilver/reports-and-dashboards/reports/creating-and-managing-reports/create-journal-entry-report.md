@@ -175,7 +175,7 @@ This information can be used to help with auditing and to illustrate how well yo
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Reports**.
 1. Click **New Report**, then select **Journal Entry**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Select journal entry](assets/nwe-select-journal-entry-350x273.png)
 
    The report builder loads.
 
@@ -249,7 +249,7 @@ This information can be used to help with auditing and to illustrate how well yo
 
 1. In the **Filters** tab, click **Add a Filter Rule**, then add the filter rule **Field Name** > **Equal** > **status**.
 
-   ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
+   ![Journal entry status filter](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
@@ -289,7 +289,7 @@ To see when a task or issue was deleted:
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Reports**.
 1. Click **New Report**, then select **Journal Entry**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Select journal entry](assets/nwe-select-journal-entry-350x273.png)
 
    The report builder loads.
 
@@ -336,7 +336,7 @@ To see when a task or issue was deleted:
    * **Project ID** > **Equal** > **< project name >**
 
      <!--WRITER check link; this png file has spaces
-     [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
+     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
 
    For more information on adding filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -373,7 +373,7 @@ To see how custom fields changed over the course of a project's life cycle:
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Reports**.
 1. Click **New Report**, then select **Journal Entry**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Select journal entry](assets/nwe-select-journal-entry-350x273.png)
 
    The report builder loads.
 
@@ -444,7 +444,7 @@ To see how custom fields changed over the course of a project's life cycle:
 
    * **Project ID** > **Equal** > **< project >**. 
 
-   ![](assets/qs-custom-form-changes-filter-350x92.png)
+   ![Custom form changes filter](assets/qs-custom-form-changes-filter-350x92.png)
 
    For more information on adding filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -475,7 +475,7 @@ You can set up the Journal Entry report to show how often the Planned Completion
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Reports**.
 1. Click **New Report**, then select **Journal Entry**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Select journal entry](assets/nwe-select-journal-entry-350x273.png)
 
    The report builder loads.
 
@@ -545,7 +545,7 @@ You can set up the Journal Entry report to show how often the Planned Completion
    * **Field Name** > **Equal** > **Date**
    * **Project ID** > **Equal** > **< project name >**.  
 
-   ![](assets/qs-planned-completion-date-change-filter-350x91.png)
+   ![Planned completion date change filter](assets/qs-planned-completion-date-change-filter-350x91.png)
 
    For more information on adding filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -576,7 +576,7 @@ You can set up the Journal Entry report to show how many times the project owner
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Reports**.
 1. Click **New Report**, then select **Journal Entry**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Select journal entry](assets/nwe-select-journal-entry-350x273.png)
 
    The report builder loads.
 
@@ -634,7 +634,7 @@ You can set up the Journal Entry report to show how many times the project owner
    * **Field Name** > **Equal** > **ownerID**
    * **Project ID** > **Equal** > **< project name >**. 
 
-   ![](assets/qs-owner-changes-filter-350x94.png)
+   ![Owner change filter](assets/qs-owner-changes-filter-350x94.png)
 
    For more information on adding filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
