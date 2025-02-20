@@ -13,7 +13,6 @@ You can create work items and projects from the [!UICONTROL Home] area.
 
 From Home, you can 
 
-* Create personal to-dos for yourself
 * Submit requests
 * Add tasks and issues to specific projects
 * Create projects from a template, blank project, or import an MS project.
@@ -51,28 +50,6 @@ You must have the following access to perform the steps in this article:
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 +++
-
-## Create a personal to-do item
-
-You can create a personal to-do item in the To-dos widget in the [!UICONTROL Home] area. The to-do items are personal tasks that you create for yourself. 
-
-You and other users can view your personal tasks in a personal task report. From there, they can add them to projects, if needed. 
-
->[!TIP]
->
->Work items that you send to other users or to yourself from the user profile page also display in the To-dos widget in the Home area of the user. For information, see [Create personal tasks](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md). 
-
-
-To create a to-do item: 
-
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
-1. (Conditional) Click **Customize**, then click **To-dos** to add the To-dos widget to your home screen.
-1. Go to the **To-do** widget, then click **Add to-do**. 
-1. Type the name for your personal to-do item, then click Enter. 
-1. (Optional) Click the **Date** icon ![](assets/date-icon.png) to add a due date for the item. 
-![](assets/my-work-to-dos.png)
-1. (Optional) Create a personal task report or filter. For information about creating a personal task filter, see [Filter: personal task](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
-   You can view your to-do items as well as other users' to-do items in the personal task report. 
 
 ## Add a task to a project
 
