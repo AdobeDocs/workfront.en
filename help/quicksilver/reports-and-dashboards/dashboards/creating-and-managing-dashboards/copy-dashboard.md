@@ -65,7 +65,7 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Dashboards]**.
 
-1. Select the dashboard that you want to copy, then click **Copy** ![](assets/copy-icon.png).  
+1. Select the dashboard that you want to copy, then click **Copy** ![Copy icon](assets/copy-icon.png).  
    Or  
    Open the dashboard that you want to copy, then click **Dashboard Actions** > **Copy**.  
    The Dashboard Copy dialog box displays. All items on the original dashboard display.

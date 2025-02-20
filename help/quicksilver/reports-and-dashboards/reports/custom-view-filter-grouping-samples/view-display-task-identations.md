@@ -14,7 +14,7 @@ exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
 
 In this task view, you can add code to the Task Name column to display the tasks indented according to the Work Breakdown Structure of the project.
 
-![](assets/view-text-mode-indentation-task-list-350x171.png)
+![View task indentation](assets/view-text-mode-indentation-task-list-350x171.png)
 
 ## Access requirements
 

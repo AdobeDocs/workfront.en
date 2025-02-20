@@ -15,20 +15,20 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
 ## Add or edit a table block
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reporting**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reporting**.
 1. Click **New report**.
 
    Or
 
-   Go to an existing report, click the **More** icon ![](assets/more-icon-27x15.png) in the report header, then click **Edit**.
+   Go to an existing report, click the **More** icon ![More icon](assets/more-icon-27x15.png) in the report header, then click **Edit**.
 
 1. On the right side of the screen under **Add a block**, either:
 
-   Drag the **Table** icon ![](assets/table-icon.png) onto the canvas directly to your desired location.
+   Drag the **Table** icon ![Table icon](assets/table-icon.png) onto the canvas directly to your desired location.
 
    Or
 
-   Double-click the **Table** icon ![](assets/table-icon.png) to add a table to the top of the canvas.
+   Double-click the **Table** icon ![Table icon](assets/table-icon.png) to add a table to the top of the canvas.
 
    >[!TIP]
    >
@@ -36,14 +36,14 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
 1. Click **Untitled table** in the table header, then type a title for the table.
 
-   ![](assets/table-name-350x142.png)
+   ![Table name](assets/table-name-350x142.png)
 
 1. Click **Edit** in the center of the table block to configure the table.
 
    >[!NOTE]
    >
-   >If the table was already part of the canvas (such as when editing an existing report), the **Edit** button does not display in the center of the block. To edit the table, click the **Edit** icon ![](assets/edit-icon.png) in the table header instead.
-   >![](assets/edit-icon-table-header-350x71.png)
+   >If the table was already part of the canvas (such as when editing an existing report), the **Edit** button does not display in the center of the block. To edit the table, click the **Edit** icon ![Edit icon](assets/edit-icon.png) in the table header instead.
+   >![Edit icon in table header](assets/edit-icon-table-header-350x71.png)
 
 1. In the **Fields** panel on the right, locate a field that you want to add as a column to the table, then either drag it onto the table where you want it or double-click it to add it as the last column in the table.
 

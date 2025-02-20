@@ -120,16 +120,16 @@ When viewing a project list or project report in the Milestone view, the followi
 * **Task status icons:** A status icon is displayed next to each project and task in the Milestone view.
 
    * On Time  
-     ![](assets/gantt-ontime.png)
+     ![On time icon](assets/gantt-ontime.png)
 
    * Behind  
-     ![](assets/gantt-behind.png)
+     ![Behind icon](assets/gantt-behind.png)
 
    * At Risk  
-     ![](assets/gantt-atrisk.png)
+     ![At risk icon](assets/gantt-atrisk.png)
 
    * Late  
-     ![](assets/gantt-late.png)
+     ![Late icon](assets/gantt-late.png)
 
   You can disable these status icons from being displayed, as described in the section [Configure what information displays in the Milestone view](#configure-what-information-displays-in-the-milestone-view) in this article.  
   For more detailed information about each status type, see the article [Task Progress Status overview](../../../manage-work/tasks/task-information/task-progress-status.md).

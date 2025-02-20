@@ -16,11 +16,11 @@ You can rename groupings to something more familiar to your users.
 
 For example, when you apply the standard Portfolio Name grouping to a list of projects, the name of the grouping appears as *Portfolio: Name: `<name of portfolio>`*.
 
-![](assets/grouping-unedited-name-350x167.png)
+![Grouping by unedited name](assets/grouping-unedited-name-350x167.png)
 
 You can modify this grouping using text mode to display a name that is easier to read.
 
-![](assets/grouping-edited-name-350x160.png)
+![Grouping by edited name](assets/grouping-edited-name-350x160.png)
 
 ## Access requirements
 
@@ -97,7 +97,7 @@ To change the display name in a project grouping:
       >You can also leave the `group.0.name=` and the `group.0.displayname=` lines blank, in which case the grouping shows the value you are grouping by.
 
 
-     ![](assets/grouping-edited-name-no-name-350x162.png)
+     ![Grouping by edited name with no name](assets/grouping-edited-name-no-name-350x162.png)
 
 1. Click **Done**, then **Save Grouping**.
 1. (Optional) Update the grouping name, then click **Save Grouping**.

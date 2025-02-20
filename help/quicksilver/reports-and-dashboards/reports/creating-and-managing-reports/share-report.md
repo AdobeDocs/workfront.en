@@ -116,7 +116,7 @@ Sharing one report or several reports from a list is identical.
 
    * **Everyone in the system can view** Select this option so that everyone in Workfront with access to reports can view the report.
 
-1. (Optional) Click the **Gear** icon ![](assets/gear-icon-settings-with-dn-arrow.jpg) in the upper-right corner of the sharing box, then optionally select the following option:
+1. (Optional) Click the **Gear** icon ![Gear icon settings](assets/gear-icon-settings-with-dn-arrow.jpg) in the upper-right corner of the sharing box, then optionally select the following option:
 
    * **Make this public to external users** Select this option to generate a URL that can be shared with others. Anyone with the URL can access the report, without having an Adobe Workfront license.
 
