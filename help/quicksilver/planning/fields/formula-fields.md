@@ -224,15 +224,12 @@ In addition, we support the following expressions for Workfront Planning formula
    <code>{ID}</code>
    </p>
    </td></tr>
-  <!--
-   <tr> 
+  <tr> 
    <td><strong>JSONELEMENT</strong> </td> 
    <td> <p>Returns the data from JSON by the provided JSONPath. If the JSONPath doesn't exist in the JSON, an empty result will be returned. </p> <p>The expression is formatted as follows:
       <code>JSONELEMENT(JSONString, JSONPathString) </code>
    </p>
    </td></tr>
-   -->
-
   <tr> 
    <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>Sets the timezone of a date and time to a specific timezone.</p> <p>The expression is formatted as follows:

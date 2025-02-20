@@ -123,7 +123,7 @@ You can create a project in Workfront using one of the following methods:
 
   For information about access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
 
-  For information about creating projects by adding them to records, see the section "Create projects when connecting them with records from Workfront Planning" in the article [Create Workfront objects from Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+  For information about creating projects by adding them to records, see the section "Create projects when connecting them with records from Workfront Planning" in the article [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 ## Prerequisites
 
