@@ -76,7 +76,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click the URL you have added.
 
-   ![](assets/click-url-350x137.png)
+   ![Click URL](assets/click-url-350x137.png)
 
 1. (Optional) If you want to change the name of the proof from the website URL to something else, type a **Proof name**.
 1. Select **Interactive**, then click **Done**.

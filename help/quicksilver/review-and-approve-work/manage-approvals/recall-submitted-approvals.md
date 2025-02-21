@@ -63,14 +63,14 @@ If you recall an approval that is associated with the beginning status of the pr
 
 To recall a project approval you submitted:
 
-1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **Home** icon ![Home icon](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
    >[!NOTE]
    >
    >Your Workfront administrator might make the following changes to the Home icon in your environment:
    >
    >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
 
 1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
 
@@ -78,7 +78,7 @@ To recall a project approval you submitted:
 
    This opens the project on the right of the Work List.
 
-   ![](assets/project-pending-approval-phome-nwe-350x106.png)
+   ![Project pending approval](assets/project-pending-approval-phome-nwe-350x106.png)
 
 1. Click **Recall** in the upper-right corner of the right panel.
 
@@ -94,14 +94,14 @@ If you recall an approval that is associated with the beginning status of the ta
 
 To recall a task approval you submitted:
 
-1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **Home** icon ![Home icon](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
    >[!NOTE]
    >
    >Your Workfront administrator might make the following changes to the Home icon in your environment:
    >
    >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
 
 1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
 
@@ -109,7 +109,7 @@ To recall a task approval you submitted:
 
    This opens the task to the right of the Work List.
 
-   ![](assets/task-pending-approval-home-nwe-350x97.png)
+   ![Task pending approval](assets/task-pending-approval-home-nwe-350x97.png)
 
 1. Click **Recall** in the upper-right corner of the right panel.
 
@@ -123,14 +123,14 @@ If you recall an approval that is associated with the beginning status of the is
 >
 >You can associate the first status of an issue with an approval process by using a template. For more information about creating a request queue, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **Home** icon ![Home icon](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
    >[!NOTE]
    >
    >Your Workfront administrator might make the following changes to the Home icon in your environment:
    >
    >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
 
 1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
 
@@ -138,7 +138,7 @@ If you recall an approval that is associated with the beginning status of the is
 
    This opens the issue to the right of the Work List.
 
-   ![](assets/issue-pending-approval-home-nwe-350x103.png)
+   ![Issue pending approval](assets/issue-pending-approval-home-nwe-350x103.png)
 
 1. Click **Recall** in the upper-right corner of the right panel.
 
@@ -146,14 +146,14 @@ If you recall an approval that is associated with the beginning status of the is
 
 When you recall a timesheet approval, the timesheet returns to the status it was in before it was submitted for approval.
 
-1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **Home** icon ![Home icon](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
    >[!NOTE]
    >
    >Your Workfront administrator might make the following changes to the Home icon in your environment:
    >
    >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
 
 1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
 
@@ -161,7 +161,7 @@ When you recall a timesheet approval, the timesheet returns to the status it was
 
    This opens the timesheet to the right of the Work List.
 
-   ![](assets/timesheet-pending-approval-home-nwe-350x157.png)
+   ![Timesheet pending approval](assets/timesheet-pending-approval-home-nwe-350x157.png)
 
 1. Click **Recall** in the upper-right corner of the right panel.
 
@@ -169,14 +169,14 @@ When you recall a timesheet approval, the timesheet returns to the status it was
 
 To recall a document approval, you must manually remove one or all users from the approval.
 
-1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **Home** icon ![Home icon](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
    >[!NOTE]
    >
    >Your Workfront administrator might make the following changes to the Home icon in your environment:
    >
    >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
 
 1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
 
@@ -193,14 +193,14 @@ To recall a document approval, you must manually remove one or all users from th
 
 ## Access Requests
 
-1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **Home** icon ![Home icon](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
    >[!NOTE]
    >
    >Your Workfront administrator might make the following changes to the Home icon in your environment:
    >
    >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
 
 1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
 
@@ -208,6 +208,6 @@ To recall a document approval, you must manually remove one or all users from th
 
    This opens the access request to the right of the Work&nbsp;List.
 
-   ![](assets/access-request-pending-approval-nwe-350x104.png)
+   ![Access request pending approval](assets/access-request-pending-approval-nwe-350x104.png)
 
 1. Click **Recall** in the upper-right corner of the right panel.

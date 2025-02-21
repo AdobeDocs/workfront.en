@@ -57,7 +57,7 @@ You must have the following access to perform the steps in this article:
 1. Open&nbsp;the proof that you want to search.
 1. In the toolbar above the proof, click the&nbsp;**Search document**&nbsp;icon.
 
-   ![](assets/search-document-icon-search-in-proof-350x129.png)
+   ![Search document](assets/search-document-icon-search-in-proof-350x129.png)
 
 1. Begin typing the text you want to search for.
 

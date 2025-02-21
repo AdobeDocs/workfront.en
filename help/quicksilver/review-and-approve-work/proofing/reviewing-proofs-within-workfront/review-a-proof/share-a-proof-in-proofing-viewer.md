@@ -54,7 +54,7 @@ You can share a proof via a URL if the owner has configured the proof for sharin
 
 1. If the left icon menu is not displayed, click the **Menu** icon on the upper-left corner of the proofing viewer.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![Menu icon](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. In the left icon menu of the proofing viewer, click the **Share**&nbsp;icon.
 

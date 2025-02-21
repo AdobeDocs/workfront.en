@@ -111,7 +111,7 @@ You must have the follwoing:
 
 ## Share a goal
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -122,11 +122,11 @@ You must have the follwoing:
 
 1. Click the **More icon** next to the goal name, then click **Share**.
 
-   ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
+   ![More menu](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
    The Goal Access box displays.
 
-   ![](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
+   ![Goal access](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
 
 1. Do one of the following:
 

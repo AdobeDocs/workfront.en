@@ -116,16 +116,16 @@ Deactivating goals differs depending on which environment you use.
    >
    >You can open goals from any sections of Workfront Goals.
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Deactivate**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Deactivate**.
 
-   ![](assets/deactivate-goal-highlighted.png)
+   ![Deactivate goal](assets/deactivate-goal-highlighted.png)
 
    The goal status changes to Inactive. 
 
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
 
    The goal list displays.
 
@@ -140,9 +140,9 @@ Deactivating goals differs depending on which environment you use.
 
    The goal page opens.
 
-   ![](assets/goal-page-unshimmed.png)
+   ![Goal page](assets/goal-page-unshimmed.png)
 
-1. Click the **More** menu ![](assets/more-icon.png) to the right of the goal name, then click **Deactivate**. 
+1. Click the **More** menu ![More icon](assets/more-icon.png) to the right of the goal name, then click **Deactivate**. 
 
 1. The goal is deactivated and its status becomes Inactive. 
 
@@ -173,23 +173,23 @@ Deleting  goals differs depending on which environment you use.
 
    The Goal Details panel opens on the right. 
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Delete**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Delete**.
 
-   ![](assets/delete-goal-highlighted.png)
+   ![Delete goal](assets/delete-goal-highlighted.png)
 
 1. Click **Yes, delete**.
 
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. Click the Main Menu icon ![](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
+1. Click the Main Menu icon ![Main Menu icon](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
 
    The goal list displays. 
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. Click the name of a goal. This opens the goal page. 
-1. Click the **More** menu ![](assets/more-icon.png) to the right of the goal name, then click **Delete Goal**, then **Delete**. 
+1. Click the **More** menu ![More icon](assets/more-icon.png) to the right of the goal name, then click **Delete Goal**, then **Delete**. 
 
    The goal and its activities and results are also deleted and cannot be recovered. Projects that were associated with the goal or children goals are not deleted. 
 

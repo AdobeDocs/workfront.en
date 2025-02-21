@@ -44,7 +44,7 @@ You have the option to assign reviewers, approvers, or a mix of both:
 To assign participants:
 
 1. Select the document you uploaded and open the document Summary.
-    ![](assets/open-doc-summary.png)
+    ![Open document summary](assets/open-doc-summary.png)
 
 1. Scroll down to the Approvals section, then click **Add**.
 
@@ -56,7 +56,7 @@ To assign participants:
 
 1. To add a reviewer, click the Reviewer button and begin typing in a user or team name.
 
-    ![](assets/add-approvers.png)
+    ![Add approvers](assets/add-approvers.png)
  
 1. Once you've added all reviewers and approvers, click **Submit Request**. Participants are notified via email.
 
@@ -71,7 +71,7 @@ To add a new version:
 1. Once the document finishes uploading, select the document, then click **Create proof** > **Simple proof**. 
 
 1. Select the document again, and open the document Summary.
-    ![](assets/open-doc-summary.png)
+    ![Open document summary](assets/open-doc-summary.png)
 
 1. Scroll down to the Approvals section, then click **Add**.
 
@@ -83,7 +83,7 @@ To add a new version:
 
 1. To add a reviewer, click the Reviewer button and begin typing in a user or team name, <span class="preview">or choose a reviewer from the previous version. </span>
 
-    ![](assets/add-approvers.png)
+    ![Add approvers](assets/add-approvers.png)
  
 1. Once you've added all reviewers and approvers, click **Submit Request**. Participants are notified via email.
  

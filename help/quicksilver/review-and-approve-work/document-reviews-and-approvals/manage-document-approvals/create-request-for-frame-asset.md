@@ -61,7 +61,7 @@ You must have the following access to perform the steps in this article:
 
 1. Scroll down to the **Approvals** section, then click **Add**.
 
-   ![](assets/doc-summary-add-approvers.png)
+   ![Add approvers in document summary](assets/doc-summary-add-approvers.png)
 
 1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
 
@@ -69,14 +69,14 @@ You must have the following access to perform the steps in this article:
 
 1. To add a reviewer, click the **Reviewer** checkbox and begin typing in a user or team name. 
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Add approver and deadline](assets/add-approver-and-deadline.png)
 
 1. Repeat the previous step to add additional approvers or reviewers.
 
 ## Create a review or approval request from the Document Details page
 
 1. Hover over the document, then click **Document Details**.
-   ![](assets/doc-details.png)
+   ![Document details](assets/doc-details.png)
 
 1. Near the document name, select the version of the document you would like to create an approval for. The latest version is selected by default.
 
@@ -88,7 +88,7 @@ You must have the following access to perform the steps in this article:
 
 1. To add a reviewer, click the **Reviewer** checkbox and begin typing in a user or team name. 
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Add approver and deadline](assets/add-approver-and-deadline.png)
 
 1. Repeat the previous step to add additional approvers or reviewers.
 
@@ -104,5 +104,5 @@ Document approval decisions are not automatically reset when you upload a new ve
 
 1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
 -->

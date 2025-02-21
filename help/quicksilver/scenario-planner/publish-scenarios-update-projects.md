@@ -99,7 +99,7 @@ Before you begin:
 
 {{step1-to-scenario-planner}}
 
-1. (Optional and conditional) If you want to publish from an existing plan, click the **[!UICONTROL Filter]** icon ![](assets/filter-nwepng.png) in the upper-right corner of the plan and select one of the following options:
+1. (Optional and conditional) If you want to publish from an existing plan, click the **[!UICONTROL Filter]** icon ![Filter icon](assets/filter-nwepng.png) in the upper-right corner of the plan and select one of the following options:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -120,9 +120,9 @@ Before you begin:
     </tbody> 
    </table>
 
-   ![](assets/plans-filters-dropdown-options-scenario-planer.png)
+   ![Filter dropdown options](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. (Optional) Click the **[!UICONTROL Search]** icon ![](assets/search-icon.png) and start typing the name of a plan to quickly find it in the list.
+1. (Optional) Click the **[!UICONTROL Search]** icon ![search icon](assets/search-icon.png) and start typing the name of a plan to quickly find it in the list.
 1. (Conditional) To publish from a new plan, create a plan.
 
    For information about creating plans, see [Create and edit plans in the [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) . 
@@ -136,21 +136,21 @@ Before you begin:
    For information about creating initiatives, see [Create and edit initiatives in the [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
 1. Click **[!UICONTROL Save plan]**. 
-1. Select the scenario you want to publish from the **[!UICONTROL Initial scenario]** drop-down menu, then click **[!UICONTROL Go to Publish]** ![](assets/go-to-publish-button-icon.png) in the upper-right corner.
+1. Select the scenario you want to publish from the **[!UICONTROL Initial scenario]** drop-down menu, then click **[!UICONTROL Go to Publish]** ![Go to publish](assets/go-to-publish-button-icon.png) in the upper-right corner.
 
    Or
 
-   Click **[!UICONTROL Compare scenarios]**, hover over the scenario card that you want to publish from, then click **[!UICONTROL Go to Publish]** ![](assets/go-to-publish-button-icon.png).
+   Click **[!UICONTROL Compare scenarios]**, hover over the scenario card that you want to publish from, then click **[!UICONTROL Go to Publish]** ![Go to publish](assets/go-to-publish-button-icon.png).
 
-   The [!UICONTROL Publish initiatives] page displays, showing a list of all initiatives in the scenario. If any of the initiatives was previously published, the project icon ![](assets/project-icon-sp.png) displays after their name and the **[!UICONTROL Last published]** date is populated in the list.
+   The [!UICONTROL Publish initiatives] page displays, showing a list of all initiatives in the scenario. If any of the initiatives was previously published, the project icon ![Project icon](assets/project-icon-sp.png) displays after their name and the **[!UICONTROL Last published]** date is populated in the list.
 
    >[!TIP]
    >
-   >Initiatives that have been created by importing projects also display the project icon ![](assets/project-icon-sp.png) to the right of their name
+   >Initiatives that have been created by importing projects also display the project icon ![Project icon](assets/project-icon-sp.png) to the right of their name
 
-   ![](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
+   ![Project icon and last published date](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
-1. (Optional and conditional) If you want to publish from an existing plan, click the **[!UICONTROL Filter]** icon ![](assets/filter-nwepng.png) in the upper-right corner of the plan and select one of the following options:
+1. (Optional and conditional) If you want to publish from an existing plan, click the **[!UICONTROL Filter]** icon ![Filter icon](assets/filter-nwepng.png) in the upper-right corner of the plan and select one of the following options:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -171,9 +171,9 @@ Before you begin:
     </tbody> 
    </table>
 
-   ![](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
+   ![Initiatives filter](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
 
-1. (Optional) Click the **[!UICONTROL Search]** icon ![](assets/search-icon.png) and start typing the name of an initiative to quickly find it in the list.
+1. (Optional) Click the **[!UICONTROL Search]** icon ![Search icon](assets/search-icon.png) and start typing the name of an initiative to quickly find it in the list.
 1. Select one or multiple initiatives to publish and create or update projects from them, then click **[!UICONTROL Publish initiatives]**.
 
    This creates a new project from each selected initiatives or updates the existing connected projects, if the published initiatives were already linked to a project.
@@ -187,17 +187,17 @@ Before you begin:
    * If you published one initiative, click **[!UICONTROL See associated project]** to open the project created or updated from the initiative. 
    * If you published more than one initiative, click **[!UICONTROL See associated projects]** to open a list of projects published from initiatives. [!DNL Workfront] applies the [!DNL Scenario Planner] Projects filter to the list of projects by default. The projects published most recently display at the top of the list.
 
-     ![](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
+     ![Scenario planner after publishing initiatives](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
 1. Go to the following areas to view initiative information on the project:
 
    * **The [!UICONTROL Updates] section**: An update publishes to indicate that the project was created or updated from the initiative. The update contains the name of the initiative that created or updated the project and the linked name of the plan that contains the initiative. You can click the name of the plan in the update to open the plan in the [!DNL Scenario Planner].
 
-     ![](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
+     ![Update stream confirmation of publish](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
    * **The [!UICONTROL Overview] area of the [!UICONTROL Project Details] section**: A new [!DNL Scenario Planner] section is created in this area that contains information from the linked initiative.
 
-     ![](assets/scenario-planner-on-project-details-350x135.png)
+     ![Scenario planner on project details](assets/scenario-planner-on-project-details-350x135.png)
 
      The following initiative information is published in the [!DNL Scenario Planner] area of the [!UICONTROL Project Details] section:
 
@@ -251,7 +251,7 @@ Before you begin:
 
      For more information, see [Overview of reconciling resource allocations between projects and initiatives](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
-     ![](assets/role-allocation-panel-350x174.png)
+     ![Role allocation panel](assets/role-allocation-panel-350x174.png)
 
      Any changes to the dates or resources of the project do not affect the corresponding initiative or any of the areas on the project that contain initiative information. 
    
@@ -259,7 +259,7 @@ Before you begin:
 
      For more information, see [Budget resources in the [!UICONTROL Business Case] using the [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
-     ![](assets/sp-in-business-case-selected-350x110.png)
+     ![Scenario planner in business case](assets/sp-in-business-case-selected-350x110.png)
 
 1. (Optional) Review the following information in the [!DNL Scenario Planner] after you published a scenario:
 
@@ -268,11 +268,11 @@ Before you begin:
    * The [!UICONTROL Go to Publish] option is removed from all other scenarios after at least one initiative has been published from a scenario. 
    * A green indicator displays next to the published initiatives' project icons in the plan.
 
-     ![](assets/indicator-for-published-initiative-icon-350x119.png)
+     ![Indicator for published initiative](assets/indicator-for-published-initiative-icon-350x119.png)
 
    * A green "Published" indicator displays at the top of the scenario and on the scenario card and the Published field is populated on the scenario card indicating the number of initiatives in the scenario that have been published.
 
-     ![](assets/published-scenario-highlighted-350x632.png)
+     ![Published scenario](assets/published-scenario-highlighted-350x632.png)
 
      >[!TIP]
      >
