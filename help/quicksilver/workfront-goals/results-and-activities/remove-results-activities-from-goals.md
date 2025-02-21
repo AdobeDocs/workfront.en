@@ -113,7 +113,7 @@ How you delete results and activities differs depending on the environment you u
 ### Delete results and activities in the Production environment
 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -126,15 +126,15 @@ How you delete results and activities differs depending on the environment you u
 
 1. Click **Results** to remove results or **Activities** to remove activities. 
 
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result or activity name, then click **Delete** > **Yes, delete**.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result or activity name, then click **Delete** > **Yes, delete**.
 
-   ![](assets/delete-result-goal-details-350x108.png)
+   ![Delete result](assets/delete-result-goal-details-350x108.png)
 
    The result or activity is deleted and cannot be recovered. The percent complete of the goal updates to exclude the deleted activity or result.
 
 -->
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -146,7 +146,7 @@ How you delete results and activities differs depending on the environment you u
 
 1. Click **Progress indicators** in the left panel.
 
-1. Select a result or activity, then click the **Delete** icon ![](assets/delete-icon.png) at the top of the list. 
+1. Select a result or activity, then click the **Delete** icon ![Delete icon](assets/delete-icon.png) at the top of the list. 
 
 1. Click **Delete** to confirm the deletion. The result or activity is deleted and cannot be recovered. The percent complete of the goal updates to exclude the deleted activity or result.
 
@@ -159,7 +159,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 ### Disconnect projects from goals in the Production environment
 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -171,9 +171,9 @@ Dsconnecting projects from goals differs depending on the environment you use.
    This opens the Goal Details panel on the right.
 
 1. Click the **right-pointing arrow** to the left of the Activities sections to expand it. 
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the project name, then click **Disconnect**.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the project name, then click **Disconnect**.
 
-   ![](assets/disconnect-project-goal-details-350x94.png)
+   ![Disconnect](assets/disconnect-project-goal-details-350x94.png)
 
    The project is disconnected from the goal. The percent complete of the goal updates to exclude the percent complete of the disconnected project.
 -->
@@ -190,7 +190,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 
    This opens the goal page. 
 1. Click **Progress indicators** in the left panel.
-1. Select a project, then click the **Disconnect** icon ![](assets/disconnect-icon.png) at the top of the list.
+1. Select a project, then click the **Disconnect** icon ![Disconnect icon](assets/disconnect-icon.png) at the top of the list.
 1. Click **Disconnect** to confirm. 
 
    The project is no longer connected to the goal. The percent complete of the goal updates to exclude the disconnected project. 
