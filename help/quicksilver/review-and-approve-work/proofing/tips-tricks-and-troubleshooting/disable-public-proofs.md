@@ -58,7 +58,7 @@ You must be the proof owner or creator, or you must have the Author or Moderator
 
 You can disable the Public proof setting for individual users in your Workfront instance. You must have a Proof Permission Profile of administrator to make this change.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Proofing**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Proofing**.
 1. Click **Account Settings** near the top-right corner.
 1. Click the **Users** tab, then click on the name of a user.
 1. In the **Default proof settings** section, disable the **Public Sharing** checkbox.

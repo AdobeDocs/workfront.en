@@ -60,7 +60,7 @@ For more information about viewing items awaiting approvals or items that you ha
 
 ## Approve work from the Home area
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add the **My Approvals** widget.
 1. (Conditional) Click the **Filter** drop-down menu, then select **All** to see approvals assigned and delegated to you.
 

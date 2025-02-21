@@ -98,7 +98,7 @@ Consider the following when delegating approvals:
 
 To delegate approvals to another user:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add the **My Approvals** widget.
 1. Go to the My Approvals widget, then click **Delegate My Approvals**.
 
@@ -138,7 +138,7 @@ To delegate approvals to another user:
 
 ## Update or stop an approval delegation {#update-or-stop-an-approval-delegation}
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add the **My Approvals** widget.
 
 1. Go to the My Approvals widget, then click **Edit delegation**.
@@ -164,7 +164,7 @@ You can view only the following types of approval delegations in the My Approval
 
 To view delegated approvals:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add the **My Approvals** widget.
 1. In the **My Approvals** widget, click the **Filter** drop-down menu, then click **Delegated Approvals**.  
    All approvals delegated to you display in the list.
