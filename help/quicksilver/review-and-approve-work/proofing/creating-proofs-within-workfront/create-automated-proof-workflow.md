@@ -133,7 +133,7 @@ For more detail about the information in this table, see [Access requirements in
 
       In addition to the options **On proof creation**, **On a specific date and time**, or **Manually**, you can select an option that is dependent on what occurred in the previous step:
 
-      ![](assets/activate-stage-options-for-stage-2-plus-350x177.png)
+      ![Activate stage options](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
    1. If you selected an Activate stage option that is dependent on what occurred in the previous step, use the options that appear to configure the activation setting.
 
@@ -143,7 +143,7 @@ For more detail about the information in this table, see [Access requirements in
 
    As you add stages to the Automated Workflow, a diagram forms on the screen to represent them:
 
-   ![](assets/stages-diagram-350x213.png)
+   ![Stages diagram](assets/stages-diagram-350x213.png)
 
 1. Continue with [Configure email settings for the proof](#configure-email-settings-for-the-proof) below.
 
@@ -224,6 +224,6 @@ For more detail about the information in this table, see [Access requirements in
 
 1. After the proof is generated, click **Open proof** to launch the proofing viewer.
 
-   ![](assets/open-proof-350x132.png)
+   ![Open proof](assets/open-proof-350x132.png)
 
    Users who do not have proofing enabled on their account are still able to view the document and make comments to the proof [.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)

@@ -78,7 +78,7 @@ To recall a project approval you submitted:
 
    This opens the project on the right of the Work List.
 
-   ![](assets/project-pending-approval-phome-nwe-350x106.png)
+   ![Project pending approval](assets/project-pending-approval-phome-nwe-350x106.png)
 
 1. Click **Recall** in the upper-right corner of the right panel.
 
@@ -109,7 +109,7 @@ To recall a task approval you submitted:
 
    This opens the task to the right of the Work List.
 
-   ![](assets/task-pending-approval-home-nwe-350x97.png)
+   ![Task pending approval](assets/task-pending-approval-home-nwe-350x97.png)
 
 1. Click **Recall** in the upper-right corner of the right panel.
 
@@ -138,7 +138,7 @@ If you recall an approval that is associated with the beginning status of the is
 
    This opens the issue to the right of the Work List.
 
-   ![](assets/issue-pending-approval-home-nwe-350x103.png)
+   ![Issue pending approval](assets/issue-pending-approval-home-nwe-350x103.png)
 
 1. Click **Recall** in the upper-right corner of the right panel.
 
@@ -161,7 +161,7 @@ When you recall a timesheet approval, the timesheet returns to the status it was
 
    This opens the timesheet to the right of the Work List.
 
-   ![](assets/timesheet-pending-approval-home-nwe-350x157.png)
+   ![Timesheet pending approval](assets/timesheet-pending-approval-home-nwe-350x157.png)
 
 1. Click **Recall** in the upper-right corner of the right panel.
 
@@ -208,6 +208,6 @@ To recall a document approval, you must manually remove one or all users from th
 
    This opens the access request to the right of the Work&nbsp;List.
 
-   ![](assets/access-request-pending-approval-nwe-350x104.png)
+   ![Access request pending approval](assets/access-request-pending-approval-nwe-350x104.png)
 
 1. Click **Recall** in the upper-right corner of the right panel.

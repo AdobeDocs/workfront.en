@@ -79,7 +79,7 @@ To remind another user to approve your access request for an object:
 
    This opens the Access Request to the right of the Work List.
 
-   ![](assets/access-request-pending-approval-nwe-350x104.png)
+   ![Access request pending approval](assets/access-request-pending-approval-nwe-350x104.png)
 
 1. Click **Remind** in the upper-right corner of the right panel to send a notification to the approver.
 
@@ -99,7 +99,7 @@ To remind another user to approve your access request for an object:
 1. Click a **Document** approval in the Work List.
 
    This opens the document approval to the right of the Work&nbsp;List.   
-   ![](assets/document-350x232.png)
+   ![Document approval](assets/document-350x232.png)
 
 1. Click **Manage Approvals** in the upper-right corner of the right panel.
 1. Click the **Remind** icon to send a notification to the approver.  

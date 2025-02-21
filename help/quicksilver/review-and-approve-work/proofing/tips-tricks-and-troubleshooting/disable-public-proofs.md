@@ -50,7 +50,7 @@ You must be the proof owner or creator, or you must have the Author or Moderator
 1. Hover over the proof and select **Document Details** .
 1. In the left panel, click **Proofing Viewer Settings**, then disable the **Allow sharing proof via public URL or embed code** checkbox.
 
-   ![](assets/proofing-viewer-settings-350x200.png)
+   ![Proofing viewer settings](assets/proofing-viewer-settings-350x200.png)
 
 1. Click **Save**.
 
@@ -63,4 +63,4 @@ You can disable the Public proof setting for individual users in your Workfront 
 1. Click the **Users** tab, then click on the name of a user.
 1. In the **Default proof settings** section, disable the **Public Sharing** checkbox.
 
-   ![](assets/default-proof-settings--public-sharing-350x210.png)
+   ![Public sharing](assets/default-proof-settings--public-sharing-350x210.png)

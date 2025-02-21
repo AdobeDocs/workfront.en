@@ -55,13 +55,13 @@ To lock a proof:
 
    Or
 
-   If you want to open a proof for an earlier version of the document, click the More icon ![](assets/more-icon.png) for that version in the Summary, then click **Open proof**.
+   If you want to open a proof for an earlier version of the document, click the More icon ![More icon](assets/more-icon.png) for that version in the Summary, then click **Open proof**.
 
    For information about the Summary, see [Summary for documents overview](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. In the In the left panel, click the **Lock** icon ![](assets/unlock-proof-icon.png).
+1. In the In the left panel, click the **Lock** icon ![Lock icon](assets/unlock-proof-icon.png).
 
-   ![](assets/lock-proof-350x277.png)
+   ![Lock proof](assets/lock-proof-350x277.png)
 
 ## Unlock a proof
 
@@ -73,10 +73,10 @@ To unlock a proof:
 
    Or
 
-   If you want to open a proof for an earlier version of the document, click the More icon ![](assets/more-icon.png) for that version in the Summary, then click **Open proof**.
+   If you want to open a proof for an earlier version of the document, click the More icon ![More icon](assets/more-icon.png) for that version in the Summary, then click **Open proof**.
 
    For information about the Summary, see [Summary for documents overview](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. In the left panel, click the **Unlock** icon ![](assets/unlock-proof-icon.png), then click **Yes, unlock**.
+1. In the left panel, click the **Unlock** icon ![Unlock icon](assets/unlock-proof-icon.png), then click **Yes, unlock**.
 
-   ![](assets/copy-of-unlock-proof-350x279.png)
+   ![Unlock proof](assets/copy-of-unlock-proof-350x279.png)

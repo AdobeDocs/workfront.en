@@ -47,9 +47,9 @@ You must have the following access to perform the steps in this article:
 ## Download a single proof version
 
 1. In the document list, click on the proof.
-1. In the Summary, under **Versions**, click the click the More menu ![](assets/more-icon.png) to the right of the version, then click **Download** in the drop-down list that appears.
+1. In the Summary, under **Versions**, click the click the More menu ![More icon](assets/more-icon.png) to the right of the version, then click **Download** in the drop-down list that appears.
 
-   ![](assets/more-versions-350x143.png)
+   ![Download a version](assets/more-versions-350x143.png)
 
 ## Download all versions of a proof
 
