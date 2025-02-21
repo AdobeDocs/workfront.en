@@ -195,8 +195,6 @@ You must have the following to share objects:
 
 1. In the **Give < Object Name > access to** field, begin typing the name of the user, team, role, group, or company with whom you want to share the object, then click the name when it appears in the drop-down list.
 
-   ![](assets/portfolio-access-box.png)
-
    >[!TIP]
    >
    >* If you have multiple entities named similarly, they are all listed under their type. The names of the entities appear in alphabetical order. However, the order in which the entity types appear is random.
@@ -205,7 +203,7 @@ You must have the following to share objects:
 
 1. (Optional) Repeat step 3 for each user, team, role, or group to whom you want to grant access to the object.
 
-1. Specify the permissions for each user, team, role, group, or company that you added in Step 3 by clicking the drop-down menu, then selecting the permission level that you want to grant.
+1. Specify the permissions for each user, team, role, group, or company that you added in Step 3.
 
    For removing permissions from an object, see [Remove permissions from objects](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md). 
 
@@ -218,24 +216,24 @@ You must have the following to share objects:
      >
      >The Workfront administrator or the object creator has the ability to remove permissions from these entities.
 
-     ![](assets/view-manage-sharing-options-for-portfolio-or-document.png)
+1. (Optional) Click the advanced options icon next to the permission level you've granted to configure specific permissions on the object.
 
-1. (Optional) Click **Advanced Settings** to configure specific permissions on the object.
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    View and Manage permissions have different advanced options depending on the selected object.  
    For more information about the permissions levels, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. (Optional) To make this object available to all users in the system, click the **Gear** icon ![](assets/gear-icon-settings-with-dn-arrow.jpg), then in the drop-down menu click **Make this visible system-wide**.
+1. (Optional) To make this object available to all users in the system, click **Who has access** the drop-down menu and select **Everyone in the system can view**. 
 
    All users can see the object based on the permissions that you set.
 
-1. (Optional) To make the object public, click **Make this public to external users**.
+1. (Optional) To make the object public, click the gear icoin, then enable **Make this public to external users**.
 
    >[!TIP]
    >
    >This option is not available for all objects.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png)
 
 1. (Conditional) If you made the object public to external users, click **copy link**, then distribute the link to external users.
 
@@ -261,7 +259,6 @@ You must have the following to share objects:
 
 1. In the **Edit < Object Name > access for** box, begin typing the name of the user, team, role, group, or company with whom you want to share the objects, then click the name when it appears in the drop-down list.
 
-   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -273,11 +270,10 @@ You must have the following to share objects:
 
 1. (Optional) Repeat step 3 for each user, team, role, or group to whom you want to grant access to the object(s).
 
-1. Specify the permissions for each user, team, role, group, or company that you added in Step 3 by clicking the drop-down menu to the right of their name, then selecting the permission level that you want to grant.
+1. Specify the permissions for each user, team, role, group, or company that you added in Step.
 
    For removing permissions from an object, see [Remove permissions from objects](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md). 
 
-   ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
    The following options are available:
 
@@ -299,12 +295,12 @@ You must have the following to share objects:
      >
      >The Workfront administrator or the object creator has the ability to remove permissions from these entities.
 
-1. (Optional) Click **Advanced Settings** to configure specific permissions on the object.
+1. (Optional) Click the advanced options icon next to the permission level you've granted to configure specific permissions on the object.
+
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    View, Manage and Contribute have different advanced options depending on the selected object.  
    For more information about the permissions levels, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
 1. (Optional) To make this object available to all users in the system, click the **Gear** icon ![](assets/gear-icon-settings-with-dn-arrow.jpg) , then in the drop-down menu click **Make this visible system-wide**.
 

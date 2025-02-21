@@ -29,14 +29,16 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
    * View
 
-     ![view_on_issue.png](assets/view-on-issue-221x216.png)
+     ![view-an-issue](assets/view-issue.png) 
 
    * Manage
 
-     ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
+     ![manage_on_issues.png](assets/manage-issue.png)
 
    * Contribute  
-     ![contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
+     ![contribute_on_issue.png](assets/contribute-issue.png)
+    
+
 
 * When you share an issue, all the documents attached to the issue inherit the same permissions.
 
