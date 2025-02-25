@@ -289,7 +289,7 @@ To add a Connection view page:
    The table view of the record type you selected displays and the connected records display in the table view. 
    All fields of the connected record display in the table view of the connected record's tab. 
    
-   <!--<span class="preview">When you access Workfront Planning from the Preview environment, five fields from the connected record display in the connected record's table view by default. Some connection fields display in addition to other fields. All lookup fields are hidden.</span> (*****be more specific about which connected fields show, if Robert responds*******)-->
+   <!--<span class="preview">When you access Workfront Planning from the Preview environment, the first five fields from the connected record table display by default. No lookup fields display by default. -->
 
    The table view is read-only. 
 
@@ -307,7 +307,7 @@ To add a Connection view page:
    * Sort
    * Grouping
 
-   <!--Add to the list above some of the capabilities in the note with a preview tag when they are available.-->
+   <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
    For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
