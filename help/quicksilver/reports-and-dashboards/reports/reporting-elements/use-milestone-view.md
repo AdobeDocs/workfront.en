@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Use the Milestone view
-description: You can apply the Milestone view to a project list or report.
+description: You can apply the Milestone view to a project list or report. You can use the Milestone view to view all milestones that are associated with tasks within the projects you are viewing.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
@@ -11,11 +11,15 @@ exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
 
 <!-- Audited: 11/2024 -->
 
-You can apply the Milestone view to a project list or report.
+You can apply the Milestone view to a project list or report. You can use the Milestone view to view all milestones that are associated with tasks within the projects you are viewing.
 
-Before you can use the milestone view, Milestones need to be configured, Milestone Paths need to be added to projects, and Milestones need to be associated with tasks, as described in the articles [Create a milestone path](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) and [Associate milestones with tasks](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+Before you can use the milestone view, the following elements must exist:
 
-The Milestone view is available when viewing a project list or project report. The following sections describe how to view and use the milestone view.
+* Milestones paths are configured. For information, see [Create a milestone path](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+* Milestone paths need are added to projects. For information, see [Edit projects](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md). 
+* Milestones are associated with tasks. For information, see [Associate milestones with tasks](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+
+The Milestone view is available when viewing a project list or a project report. The following sections describe how to view and use the milestone view.
 
 ## Access requirements
 
