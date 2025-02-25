@@ -163,7 +163,7 @@ You must have the following access to perform the steps in this article:
    >    * Workfront Planning connected records' lookup fields
    >    * AEM Assets connection fields-->
    
-   * **Default section**: This is the default section break that Workfront applies to the request form. The Default section cannot be renamed or removed. 
+   * **Default section**: This is the default section break that Workfront applies to the request form. All record fields display in the **Default section** area. 
    * **Subject** field: The field which will identify the request in Workfront. The configuration and the value of the Subject field are not editable.
 
       >[!TIP]
@@ -177,6 +177,12 @@ You must have the following access to perform the steps in this article:
 1. (Optional) Hover over any fields on the form that you want to remove, then click the **x** icon to remove them. They are added to the **Fields** tab to the left of the form. 
 
    For example, remove the **Subject** field, as this is not visible in Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
+1. (Optional) To remove the **Default section** from the form, do the following:
+
+   1. Remove all fields from the Default Section. 
+   1. Click **Content elements** and add a new section, then add a name for the section. 
+   1. Add fields to the new section. 
+   1. Click the **x** icon to remove the **Default section**. 
 1. Click any field, then use the controls in the right panel in the form to define their size, or any of the following information:
 
    * **Label**: This is the name of the field as it will appear on the request form. This does not change the name of the record field.
