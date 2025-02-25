@@ -11,6 +11,8 @@ exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
 
 You can upload files from the Priorities worklist or from individual work items. Files uploaded from Priorities appear in the Documents tab of the work item. 
 
+Priorities displays work items assigned to you. You cannot see work items assigned to your team.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
