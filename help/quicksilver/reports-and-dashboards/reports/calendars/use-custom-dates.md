@@ -147,7 +147,7 @@ You can choose how you want the group of items to display on your calendar.
 
 {{step1-to-calendars}}
 
-1. Select the calendar you want to add a new group of items, Click the More menu, then **Edit**.
+1. Select the calendar you want to add a new group of items, click the More menu, then **Edit**.
    Or
    Click **[!UICONTROL + New Calendar]**, enter the project name, then click **[!UICONTROL Add advanced items]**.
 
