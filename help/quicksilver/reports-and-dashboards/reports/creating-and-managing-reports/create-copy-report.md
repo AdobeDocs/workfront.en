@@ -96,12 +96,12 @@ If you want to make a copy of a custom report, do the following:
 
 ## Create a new version of a report {#create-a-new-version-of-a-report}
 
-If you want to create a copy of a default report, do the following:
+If you want to create a copy of a built-in report, do the following:
 
 1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
 1. Click **Reports**, then **All Reports**. 
-1. Click the name of a default report to open it.
+1. Click the name of a built-in report to open it.
 1. Click **Report Actions**, then **Edit**.
 
    ![Edit report](assets/unshimmed-report-actions-default-report.png)
