@@ -17,11 +17,11 @@ Canvas Dashboards allow you to easily visualize your Adobe Workfront data by add
 
 ## Prerequisites
 
-* You must have a Plan license (current licenses) or Standard license (new licenses) to create a Canvas Dashboard.  
-  For information about Workfront license types, see [Licenses overview](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) for current licenses, and [New licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) for new licenses.
+* Your organization must be part of the Canvas Dashboards closed beta. For information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-* Your Workfront administrator must give you access to Edit dashboards in your Access Level to create or edit a Canvas Dashboard.  
-  For information about granting Edit access for dashboards, see [Grant access to reports, dashboards, and calendars](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+* You must have a Plan license (current licenses) or Standard license (new licenses) to create a Canvas Dashboard. For information about Workfront license types, see [Licenses overview](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) or [New licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+
+* Your Workfront administrator must give you Edit access to dashboards in your Access Level to create or edit a Canvas Dashboard. For information about granting Edit access, see [Grant access to reports, dashboards, and calendars](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Navigate to a Canvas Dashboard
 

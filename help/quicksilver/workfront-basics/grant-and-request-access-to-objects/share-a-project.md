@@ -98,8 +98,8 @@ You can share a project in the following ways:
 
 ## Limitations for different license types
 
-* Users with a Worker license don't have permissions to manage projects. For Workers, the highest sharing permission is Contribute. 
-* Users with a Request license can view project information, but they have limited project access. 
+* Users with a Light license and below (or Work license and below for the old license model) don't have permissions to manage projects. For these users, the highest sharing permission is Contribute. 
+* Users with a Contributor license (or Request license for the old license model) can view project information, but they have limited project access. 
 * An exception to changing the status of a project occurs when a user with View or Contribute permissions is also included in an approval process. They can approve the project, which changes the status of the project, but the status is the predefined status for approval or for rejection. 
 * To be able to copy a project, a user must also have access to create projects in their Access Level.
 

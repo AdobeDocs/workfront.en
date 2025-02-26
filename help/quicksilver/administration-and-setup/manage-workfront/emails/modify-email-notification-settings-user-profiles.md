@@ -35,10 +35,16 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New plan: Standard </p>
- <p>or</p> 
-<p>Current plan: Plan </p> 
-</td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
  </tbody> 
 </table>
