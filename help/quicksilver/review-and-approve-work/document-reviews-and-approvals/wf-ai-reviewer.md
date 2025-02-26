@@ -12,7 +12,7 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 ---
 # Workfront AI Reviewer
 
-## Supported file types
+## Supported file types {#supported-file-types-ai-reviewer}
 
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
