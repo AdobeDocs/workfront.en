@@ -31,7 +31,7 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> 
    <p>Current: Request or higher for Requests; Review or higher for issues; Work or higher for tasks</p>
-   <p>New: Contributor or higher for Requests; Light or higher for issues <!--and documents-->: Standard or higher tasks</p> 
+   <p>New: Contributor or higher for Requests; Light or higher for issues and documents: Standard or higher tasks</p> 
    </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ You must have the following access to perform the steps in this article:
 
 ## Create tasks or issues in Priorities
 
-You can create a task or issue in a project. 
+You can create a task or issue in a project. Priorities displays work items assigned to you. You cannot see work items assigned to your team in the Priorities worklist.
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ To create a task or issue in a project:
 
 1. Click **Create new** in the upper-right corner.
   ![](assets/create-new.png)
-  <!--new screen for prod ![](assets/create-new--.png)-->
+  new screen for prod ![](assets/create-new--.png)
 1. Specify the following information:
 
     | Field         | Instructions       |

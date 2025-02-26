@@ -11,6 +11,8 @@ exl-id: a7237746-0a18-408b-b932-8a608fd72eee
 
 You can add an update on a task or issue to communicate to others about progress on the work item. 
 
+Priorities displays work items assigned to you. You cannot see work items assigned to your team.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
