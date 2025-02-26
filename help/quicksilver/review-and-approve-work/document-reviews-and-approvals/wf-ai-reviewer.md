@@ -14,4 +14,9 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 
 ## Supported file types
 
+>[!CONTEXTUALHELP]
+>id="wf_document_approvals_ai_supported_files"
+>title="Unsupported file type"
+>abstract="This AI reviewer doesn't support the selected file type. Upload a supported file type, or remove the AI reviewer to submit the request."
+
 This links from the UI
