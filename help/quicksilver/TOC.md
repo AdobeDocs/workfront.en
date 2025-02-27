@@ -1073,6 +1073,7 @@ feature-set: Workfront
     * [The Documents area](documents/managing-documents/documents-area.md)
     * [Document Details overview](documents/managing-documents/document-details-overview.md)
     * [Summary for documents overview](documents/managing-documents/summary-for-documents.md)
+    * [Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * [Preview documents](documents/managing-documents/preview-documents.md)
     * [Document approvals and proofing](documents/managing-documents/document-approvals-and-proofing.md)
     * [Add an update to a document](documents/managing-documents/add-update-documents.md)
