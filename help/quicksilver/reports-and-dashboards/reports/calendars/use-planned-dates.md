@@ -8,9 +8,11 @@ feature: Reports and Dashboards
 exl-id: 27bf6f03-2f6b-4556-a715-75c4a21bfbbb
 ---
 # Use [!UICONTROL Planned Dates] in a calendar report
+
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span> 
 -->
+
 A calendar report is a dynamic report that provides a visual representation of your work. You can use [!UICONTROL Planned Date] fields in a calendar report for the following objects:
 
 * Tasks
