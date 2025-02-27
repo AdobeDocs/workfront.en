@@ -8,9 +8,9 @@ feature: Reports and Dashboards
 exl-id: 27bf6f03-2f6b-4556-a715-75c4a21bfbbb
 ---
 # Use [!UICONTROL Planned Dates] in a calendar report
-
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span> 
-
+-->
 A calendar report is a dynamic report that provides a visual representation of your work. You can use [!UICONTROL Planned Date] fields in a calendar report for the following objects:
 
 * Tasks
@@ -145,6 +145,7 @@ After you set up how you want items to display, you need to add the objects you 
 
 1. Click **[!UICONTROL Save]**.
 
+<!--
 
 ## Set up the group of items in Preview
 
@@ -235,4 +236,6 @@ After you set up how you want items to display, you need to add the objects you 
    >
    >If the default label options are not available for a certain object, the object name is shown instead. For example, when the [!UICONTROL Parent Task] label is selected and there is no parent task associated with the object, [!DNL Adobe Workfront] displays the object name you are viewing in the calendar.
 
-1. Click **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**. 
+
+-->
