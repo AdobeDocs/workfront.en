@@ -62,8 +62,6 @@ For information, see [Create and manage a request form in Adobe Workfront Planni
 
 We have updated the Connection view of a record page with the following capabilities: 
 
-* To ensure clarity and avoid confusion, the name of the "Connection view" page has been changed to "Connected records page". 
-
 * By default, only the first 5 fields of the connected record display in the table view. Prior to this update, all fields displayed. 
 
 * You can now hide columns in the connected record's table view. 
