@@ -12,9 +12,9 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -130,10 +130,9 @@ The following must be in place before you can submit a request to a Workfront Pl
 
 ## Submit a request to Workfront Planning
 
-<!--
-<div class="preview">
-
 Submitting requests to Workfront Planning differs depending on what environment you use. 
+
+<div class="preview">
 
 ### Submit a request to Workfront Planning in the Preview Environment
 
@@ -155,11 +154,11 @@ Submitting requests to Workfront Planning differs depending on what environment 
    >* You have access to view at least one workspace. 
    >
 
-1. Click **New request**. (********* update screen shot at release ********)
+1. Click **New request**. 
 
    ![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
 
-   The New request area opens with the following information: 
+   The **New request** box opens with the following information: 
 
    * The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. 
    * 50 additional Workfront request queues and Planning request forms display in alphabetical order in the **All request forms** section. You can search for a request queue that does not display by default. 
@@ -184,11 +183,11 @@ Submitting requests to Workfront Planning differs depending on what environment 
    
       For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-      ![](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
+      ![Requests area with toggle for unified workflow planning tab](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
 
       >[!IMPORTANT]
       >
-      >All users who have access to at least one workspace can view the Planning tab in the Requests area. You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. (******** ensure this is correct; asking team in slack **************)
+      >All users who have access to at least one workspace can view the Planning tab in the Requests area. You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. 
 
    * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
    * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
@@ -221,8 +220,6 @@ Submitting requests to Workfront Planning differs depending on what environment 
 
 ### Submit a request to Workfront Planning in the Production environment
 
--->
-
 1. Go to the link shared with you from a Workfront Planning record type. 
 
 1. Update the fields available in the form. Fields with an asterisk are required. 
@@ -243,7 +240,7 @@ Submitting requests to Workfront Planning differs depending on what environment 
    
       For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-      ![](assets/planning-tab-in-requests.png)
+      ![Planning tab in Requests](assets/planning-tab-in-requests.png)
 
       >[!IMPORTANT]
       >

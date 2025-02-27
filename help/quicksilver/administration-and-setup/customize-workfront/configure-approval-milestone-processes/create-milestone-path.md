@@ -17,9 +17,9 @@ exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 As an Adobe Workfront administrator, you can create milestone paths which can then be applied to any project in the system. The changes you make to milestone paths in this area affect the entire Workfront system.
 
@@ -139,12 +139,20 @@ For information about associating milestone paths to projects, see [Edit project
    The project report displays. The milestone paths associated with each project display in the last column of the report. 
 1. Click the name of a milestone path in the report's last column. 
 
-   The milestone path's details display. Details about each milestone also display. 
+   The milestone path's details display.  
+
+   <div class="preview">
 
    ![Milestone path details from project report](assets/milestone-details-from-project-report.png)
 
-   <!--replace screen shot above with unshimming and mark it for Preview-->
-   
+   The milestone path details page displays the following information:
+
+   * Milestone path name, ID, and Description
+   * Milestone path groups
+   * Milestone names, descriptions, colors, and color icons
+
+   </div>
+
 1. (Optional) Click **Back** to go back to the project report. 
 
 
