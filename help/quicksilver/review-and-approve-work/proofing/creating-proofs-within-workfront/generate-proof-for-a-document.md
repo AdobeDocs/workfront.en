@@ -60,7 +60,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Go to the project, task, or issue where you want to create a new proof.
 1. Click the **Documents** tab.
-1. Click Documents ![](assets/document-icon.png) in the left panel.
+1. Click Documents ![Documents icon](assets/document-icon.png) in the left panel.
 1. Click **Add New**, then click **Proof** in the menu that appears.
 
    >[!TIP]

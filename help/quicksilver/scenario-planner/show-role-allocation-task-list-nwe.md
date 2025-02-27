@@ -73,7 +73,7 @@ If your company has purchased a [!DNL Workfront Scenario Planner] license, you c
 
 1. Go to the project where you want to review the allocation of job roles for the project as well as for the associated initiative. 
 1. Click **[!UICONTROL Tasks]** in the left panel. 
-1. Click the **[!UICONTROL Show role allocation]** icon ![](assets/show-role-allocation-icon.png) in the upper-right corner of the toolbar.
+1. Click the **[!UICONTROL Show role allocation]** icon ![Show role allocation](assets/show-role-allocation-icon.png) in the upper-right corner of the toolbar.
 
    The [!UICONTROL Role Allocation] panel displays.
 

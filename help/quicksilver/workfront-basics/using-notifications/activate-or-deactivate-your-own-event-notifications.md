@@ -61,13 +61,13 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step1-click-profile-pic}}
 
-1. Click the **[!UICONTROL More]** icon ![](assets/more-icon.png) next to your name, then click **[!UICONTROL Edit]**.
+1. Click the **[!UICONTROL More]** icon ![More icon](assets/more-icon.png) next to your name, then click **[!UICONTROL Edit]**.
 
 1. In the **[!UICONTROL Edit Person]** box that displays, go to the **[!UICONTROL Notifications]** section.
 
 1. Click a category to view the notification settings related to that category.
 
-   ![](assets/my-profile-notifications.png)
+   ![My profile notifications](assets/my-profile-notifications.png)
 
 1. Select or deselect the check boxes on the right to specify whether you want to receive or not receive notifications daily, instantly, or both.
 
@@ -84,13 +84,13 @@ For more detail about the information in this table, see [Access requirements in
 
 1. If you selected any notifications to be sent as a daily digest, select the time of the day you want to receive it at the top of the **[!UICONTROL Notifications]** section in the **[!UICONTROL Email Daily Digest after]** menu.
 
-   ![](assets/digest-time-stamp-my-settings-350x78.png)
+   ![Daily Digest choose time of day](assets/digest-time-stamp-my-settings-350x78.png)
 
    The daily digest includes events that meet the criteria of the notifications 24 hours prior to the selected time. You receive one daily digest email for each type of notification.\
    The daily digest may arrive after the time you select, depending on how many emails are queued for delivery in the system. The time listed is your local time as specified in your browser settings.
 
 1. (Conditional and optional) When modifying email notifications settings in the Preview environment, enable the **[!UICONTROL Receive emails from this test environment]** setting to receive emails. Emails are not automatically generated from the Preview environment.
 
-   ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+   ![Receive emails from sndbox](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 1. Click **[!UICONTROL Save Changes]**.

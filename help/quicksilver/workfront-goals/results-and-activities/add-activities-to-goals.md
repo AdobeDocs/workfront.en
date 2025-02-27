@@ -95,7 +95,7 @@ Adding activities to goals differs depending on which environment you use.
 1. Go to the goal for which you want to add an activity and click the name to open the **Goal Details** panel.
 1. Click **Add activities**.
 
-   ![](assets/add-activity-inside-goal-details-highlighted-350x152.png)
+   ![Add activity inside goal](assets/add-activity-inside-goal-details-highlighted-350x152.png)
 
 1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
@@ -138,14 +138,14 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png), then **Goals**. 
+1. Click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), then **Goals**. 
 1. From the Goal List, click the name of a goal to open the goal's page.
 1. Click **Progress indicators** in the left panel.
 1. From the New progress indicator drop-down menu, click **Create activity**. 
 
    The New activity box opens. 
 
-   ![](assets/new-activity-box-unshimmed.png)
+   ![New activity box](assets/new-activity-box-unshimmed.png)
 
 1. Enter a name for the activity in the Activity name field. This is a required field. 
 1. (Optional) Remove your name from the **Activity owner** field if you want to assign the activity to another user. By default, you are the owner of an activity you create. 

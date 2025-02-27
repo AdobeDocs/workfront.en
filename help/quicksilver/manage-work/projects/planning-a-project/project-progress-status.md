@@ -26,7 +26,7 @@ The following are the Progress Statuses of projects in Workfront:
   </tr> 
   <tr> 
    <td>At Risk</td> 
-   <td> The Progress Status of a project is <strong>At Risk</strong> if <strong>all</strong> of the following are true:<ul><li>Both the Estimated and Projected Completion Dates are in the future</li><li> Both the Estimated and Projected Completion Dates are later than the Planned Completion Date</li><li> The Estimated Completion Date is later than the Projected Completion Date</li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> The Progress Status of a project is <strong>At Risk</strong> if <strong>all</strong> of the following are true:<ul><li>Both the Estimated and Projected Completion Dates are in the future</li><li> The Estimated Completion Date is later than both the Planned Completion Date and the Projected Completion Date </li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
   </tr> 
   <tr> 
    <td>Behind</td> 

@@ -18,7 +18,9 @@ For a list of all changes available with the Second Quarter 2025 release, see [S
 >
 >Preview release: February 13, 2025; Production release for all customers: February 13, 2025
 
-Emails related to adding or sharing documents will no longer have a thumbnail image in the email body. Some customers will also see the legacy task and issue assignment email, which only shows the assignee's avatar.
+Emails related to adding or sharing documents will no longer have a thumbnail image in the email body. 
+
+Some customers will also see the legacy task and issue assignment email, which only shows the assignee's avatar.
 
 These changes are temporary as we investigate email delays.
 

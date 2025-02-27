@@ -40,7 +40,7 @@ After you activate a goal, Workfront Goals starts calculating its progress and c
 | Expected percent complete |How much of the goal should be completed so far in order for the goal to complete on time. Workfront Goals calculates this value by looking at the Duration of the goal and the current moment in time. The goal should display this value at the current time, if it were to complete on time.  |
 | Progress  |A label that indicates whether the goal is on target to be completed on time, or if it is at risk or in trouble of not completing.  |
 
-![](assets/in-trouble-goal-progress-expanded.png)
+![In trouble](assets/in-trouble-goal-progress-expanded.png)
 
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
@@ -102,7 +102,7 @@ For example, if the Expected percent complete is 53% at the current time and the
 
 The following chart illustrates the relationship between the condition labels and the progress percentage:
 
-![](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
+![Progress status labels charted](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
 
 The table below lists the goal condition labels and the goal progress percentages associated with each label.
 

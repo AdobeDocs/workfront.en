@@ -96,7 +96,7 @@ Adding results to goals differs depending on which environment you use.
 1. Go to the goal for which you want to add a result and click the name to open the **Goal Details** panel.
 1. Click **Add results**.
 
-   ![](assets/add-result-inside-goal-details-highlighted-350x145.png)
+   ![Add result inside goal](assets/add-result-inside-goal-details-highlighted-350x145.png)
 
 1. Start typing the result you want to achieve in the **Result** field. This is the name of the result and it displays wherever the goal displays. 
 1. (Optional) If you want to set the Result Owner as someone other than yourself, click your name in the **Owner** field and start typing the name of the user that you want to assign as the owner of the result, then click it when it appears in the drop-down list.
@@ -107,7 +107,7 @@ Adding results to goals differs depending on which environment you use.
 
 1. In the Value drop-down menu, select the type of value that you want to measure your success by.
 
-   ![](assets/results-value-initial-target-boxes-350x49.png)
+   ![Results value](assets/results-value-initial-target-boxes-350x49.png)
 
    Select from the following options:
 
@@ -131,7 +131,7 @@ Adding results to goals differs depending on which environment you use.
 
 -->
 
-1. Click the Main Menu ![](assets/main-menu-icon.png), then **Goals**. 
+1. Click the Main Menu ![Main Menu icon](assets/main-menu-icon.png), then **Goals**. 
 
 1. From the **Goal List**, click the name of a goal to open the goal page.
 1. Click **Progress indicators** in the left panel.
@@ -139,7 +139,7 @@ Adding results to goals differs depending on which environment you use.
 
    The New result box opens. 
 
-   ![](assets/new-result-box-unshimmed.png)
+   ![New result box](assets/new-result-box-unshimmed.png)
    
 1. Enter a name for the result in the **Result name** field. This is a required field. 
 1. (Optional) Remove your name from the **Result owner** field if you want to assign the result to another user. By default, you are the owner of an activity you create. 

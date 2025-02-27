@@ -67,7 +67,7 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   For multiple users: Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png).  Then, select multiple users and click **[!UICONTROL Edit]**.
+   For multiple users: Click the **[!UICONTROL Main Menu]** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **[!UICONTROL Users]** ![User icon](assets/users-icon-in-main-menu.png).  Then, select multiple users and click **[!UICONTROL Edit]**.
 
 1. Click **[!UICONTROL Preferences]**.
 1. Select **[!UICONTROL Receive emails from this test environment]**.

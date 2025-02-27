@@ -14,7 +14,7 @@ exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
 
 You can maintain the distinction of parent - child relationships in an exported task list by adding a custom view to the task list and ensuring this view is selected before you export the list. 
 
-![](assets/parent-child-indented-custom-view-350x94.png)
+![Parent child indentation](assets/parent-child-indented-custom-view-350x94.png)
 
 ## Access requirements
 

@@ -16,6 +16,56 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## New expression added to formula fields
+
+>[!NOTE]
+>
+>Preview release: February 20, 2025; Production release for all customers: February 20, 2025
+
+We have added the JSONELEMENT expression to formula fields. This expression returns the data from JSON by the provided JSONPath.
+
+For information, see [Formula fields overview](/help/quicksilver/planning/fields/formula-fields.md).
+
+## Real-time presence indicators in a record's details preview or page
+
+>[!NOTE]
+>
+>Preview release: February 20, 2025; Production for fast release: With the 25.3 release (March 2025); Production for quarterly release: With the 25.4 release (April 2025)
+
+To understand what information is edited by other users when working in a record's preview or details page, we have introduced real-time presence indicators for this area of Workfront Planning.
+
+The field edited by another user will now be highlighted, and other users' avatars will be visible to you in the upper-right corner of the preview or details page.
+
+For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+## Enhancements for creating Workfront objects when connecting them to Planning records
+
+>[!NOTE]
+>
+>Preview release: February 20, 2025; Production for fast release: With the 25.3 release (March 2025); Production for quarterly release: With the 25.4 release (April 2025)
+
+You can now easily create projects, portfolios, and programs as you connect them to a record from an existing connection field.
+
+The following features are available with this improvement:
+
+* A persistent Add button when connecting to a Planning record a Workfront project, portfolio, or another Planning record
+
+* Ability to add programs and associate them with a portfolio using a persistent Add button in a connection field.
+
+For information, see [Create Workfront objects from Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+
+## Configure automations to create objects and records based on an existing record
+
+>[!NOTE]
+>
+>Preview release: February 20, 2025; Production for fast release: With the 25.3 release (March 2025); Production for quarterly release: With the 25.4 release (April 2025)
+
+As a workspace manager, you can now configure custom automations for a record type to automatically create either a connected Workfront object or a Planning record.
+
+The created objects or records are immediately connected to the record where the automation is configured and triggered.
+
+For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
 ## Examine and confirm actions taken by AI Assistant
 
 >[!NOTE]
@@ -35,18 +85,6 @@ Previously, this confirmation step was unavailable.
 The following expressions are now available in Workfront formula fields: ARRAY, ARRAYLENGTH, ARRAYELEMENT. Definitions and examples of each expression are available in the formula editor.
 
 For information, see [Formula fields overview](/help/quicksilver/planning/fields/formula-fields.md).
-
-<!--## Real-time presence indicators in a record's details preview or page
-
->[!NOTE]
->
->Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
-
-To understand what information is edited by other users when working in a record's preview or details page, we have introduced real-time presence indicators for this area of Workfront Planning.
-
-The field edited by another user will now be highlighted, and other users' avatars will be visible to you in the upper-right corner of the preview or details page.
-
-For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
 
 ## Sharing Workfront Planning items with teams, job roles, and companies
 

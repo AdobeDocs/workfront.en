@@ -89,7 +89,7 @@ You can merge the data from multiple separate columns to display it in one colum
 To merge data from two columns without a line break:
 
 1. Go to a list of objects. 
-1. From the **View** drop-down, select a view, then click the **Edit** icon ![](assets/edit-icon.png) to edit the view. 
+1. From the **View** drop-down, select a view, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) to edit the view. 
 1. Go to the first colum you want to merge, then click **Switch to Text Mode** > **Edit Text Mode**.
 1. Add the following text to the first column you want to merge:
 
@@ -115,7 +115,7 @@ To merge data from two columns without a line break:
      column.3.valueformat=HTML
      ```
    
-   ![](assets/shared-column-no-line-breaks-350x142.png)
+   ![Shared column with no line breaks](assets/shared-column-no-line-breaks-350x142.png)
 
 
 1. Click **Done**, then **Save View**.
@@ -125,7 +125,7 @@ To merge data from two columns without a line break:
 Do the following to merge the data from multiple columns to display it in one common column with a line break between the values from each column:
 
 1. Go to a list of objects. 
-1. From the **View** drop-down, select a view, then click the **Edit** icon ![](assets/edit-icon.png) to edit the view. 
+1. From the **View** drop-down, select a view, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) to edit the view. 
 1. Add a third column between the two columns you want to merge.
 
    >[!TIP]
@@ -176,6 +176,6 @@ Do the following to merge the data from multiple columns to display it in one co
       column.5.valueformat=HTML 
       ```
 
-      ![](assets/shared-column-with-line-breaks-350x199.png)
+      ![Shared column with line breaks](assets/shared-column-with-line-breaks-350x199.png)
 
 1. Click **Done**, then **Save View**.

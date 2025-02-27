@@ -86,7 +86,7 @@ To update initiative priority:
 
      Workfront displays the number of selected initiatives.
 
-     ![](assets/multi-select-initiative-number.png)
+     ![Multi select initiative number](assets/multi-select-initiative-number.png)
 
    * Click the **[!UICONTROL Prioritize]** box at the bottom of the plan, then choose from the following options:
 
@@ -94,7 +94,7 @@ To update initiative priority:
       * **[!UICONTROL Bottom]**: Moves the selected initiatives to the bottom of the initiative list. The selected initiatives are listed last on the plan.
       * **[!UICONTROL Select a number]**: Moves the selected initiatives after the initiative you indicate here.
 
-        ![](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
+        ![Prioritize initiatives](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
      [!DNL Workfront] immediately places the selected initiatives where you indicate and the numbers of all initiatives update accordingly.
 

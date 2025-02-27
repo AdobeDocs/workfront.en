@@ -13,7 +13,7 @@ exl-id: 6d053968-1578-4c20-b2a7-43634481696f
 ## Problem
 
 When inline editing dates in a list of objects, the calendar displays more dates than it should. This&nbsp;causes the days to display outside the calendar box.  
-![](assets/calendar-view-350x134.png)
+![Calendar view](assets/calendar-view-350x134.png)
 
 ## Cause
 

@@ -11,7 +11,7 @@ exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
 
 <!-- Audited: 1/2025 -->
 
-You can add a report to a new or existing dashboard directly from a report. You can also add an existing report to a dashboard, as described in [Create a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+You can add a report to a new or existing dashboard directly from a report. You can also add an existing report to a dashboard, as described in [Create a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md). Note that there is a maximum of 25 reports, calendars, or external pages that can be added to a single dashboard.
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 You must create a report before you can add it to a dashboard.
 
-For information on creating a report, see [Create a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+For information on creating a report, see [Create a report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
 ## Add a report to an existing dashboard
 

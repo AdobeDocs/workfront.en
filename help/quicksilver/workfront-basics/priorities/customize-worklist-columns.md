@@ -11,6 +11,8 @@ exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
 
 You can customize the columns on the worklist in Priorities to support the way you work. 
 
+Priorities displays work items assigned to you. You cannot see work items assigned to your team.
+
 >[!NOTE]
 >
 >You cannot add custom data to columns at this time.

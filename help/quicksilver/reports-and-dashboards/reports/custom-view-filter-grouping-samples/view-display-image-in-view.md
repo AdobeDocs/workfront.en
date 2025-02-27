@@ -18,7 +18,7 @@ You can replace the name of an object in a view with an image using text mode. Y
 >
 >Images appear in their actual resolution so try to use small images.
 
-![](assets/replace-project-name-with-image-and-link-350x125.png)
+![Replace project name with image and link](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## Access requirements
 
@@ -80,7 +80,7 @@ You must have the following access to perform the steps in this article:
    1. Right-click and select **Copy image location**, or **Get link**, depending on your browser. You now have the URL for that specific image and can paste it from your clipboard.
    1. Ensure that everyone with that link has permissions to view the image by just going to the link and they don't need a login to access it.
 
-1. Go to a project, click the **More** menu ![](assets/more-icon-45x33.png) next to the name of the project, then click **Edit**. 
+1. Go to a project, click the **More** menu ![More icon](assets/more-icon-45x33.png) next to the name of the project, then click **Edit**. 
 
 1. In the **URL** field, add the link to the image.
 1. Go to a project view in a list of projects.

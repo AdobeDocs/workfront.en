@@ -69,7 +69,7 @@ For more detail about the information in this table, see [Access requirements in
 
    Or
 
-   Click  the **Edit icon** ![](assets/edit-icon.png)
+   Click  the **Edit icon** ![Edit icon](assets/edit-icon.png)
 
    to edit an existing view, then select the view.
 

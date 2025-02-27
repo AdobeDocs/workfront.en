@@ -657,7 +657,7 @@ To add an external lookup:
 >The following items are technical limitations of the call to the external API:
 >
 >* Maximum number of options: 2000 (only the first 2000 unique options from the returned JSON are displayed)
->* Timeout: 3 seconds
+>* Timeout: 30 seconds
 >* Number of retries: 3
 >* Wait duration between retries: 500ms
 >* Expected response statuses: 2xx

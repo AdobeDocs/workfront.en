@@ -21,7 +21,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
 1. Begin by adding a visualization block with the **Column** visualization type to a report, as explained in [Add or edit a visualization block in Reporting Canvas](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
 
-1. Click the Edit visualization icon ![](assets/edit-icon.png) in the upper-right corner of the visualization, then do any of the following.
+1. Click the Edit visualization icon ![Edit icon](assets/edit-icon.png) in the upper-right corner of the visualization, then do any of the following.
 
    1. On the **Settings** tab:
 
