@@ -40,19 +40,19 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
 ## Configure filter rules for a table
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click**Reporting**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click**Reporting**.
 
 1. Click **New report**.
 
    Or
 
-   Go to an existing report, click the **More Menu** icon ![](assets/more-icon.png) in the report header, then select **Edit**.
+   Go to an existing report, click the **More Menu** icon ![More icon](assets/more-icon.png) in the report header, then select **Edit**.
 
 1. To group rows on a new table, drag or double-click a table block onto the canvas.
 
    Or
 
-   To group rows on an existing table, click the **Edit** icon ![](assets/edit-icon.png) in the table header.
+   To group rows on an existing table, click the **Edit** icon ![Edit icon](assets/edit-icon.png) in the table header.
 
 1. In the right panel, locate the field by which you want to filter your table, then drag it to the Filter section.
 

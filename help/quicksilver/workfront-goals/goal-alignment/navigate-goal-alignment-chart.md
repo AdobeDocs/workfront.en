@@ -131,11 +131,11 @@ Or
 
    Goals that are aligned to other goals display the number of aligned goals under the goal card.
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![Alignment chart arrow](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
 1. Click the **downward-pointing arrow** icon under a goal to further expand and view the children goals.
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![Alignment chart arrow](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
    >[!TIP]
    >
@@ -143,7 +143,7 @@ Or
 
 1. (Conditional) If the current filter excludes some of the goals that participate in an alignment, a warning message displays to indicate that not all goals display.
 
-   ![](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
+   ![Parent goal excluded](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
 1. Click&nbsp;**Show them** to display the goals currently eliminated by the filter.
 
@@ -152,14 +152,14 @@ Or
    * Connected goals previously eliminated by the filter now display in the alignment chart. 
    * The filter in the upper-right corner is outlined in yellow to indicate that it is currently not applied.
 
-     ![](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+     ![Yellow filter highlight](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
      A Reapply filter link displays to the left of the filter name.
 
 1. (Optional) Click **Reapply filter** to return to the original results and display the goal hierarchy.
 1. (Optional) Hover over the progress indicator to understand where the goal progress should be for the current day.
 
-   ![](assets/progress-mouse-over-alignment-chart-350x163.png)
+   ![Mouse over alignment chart](assets/progress-mouse-over-alignment-chart-350x163.png)
 
    The following information displays:
 

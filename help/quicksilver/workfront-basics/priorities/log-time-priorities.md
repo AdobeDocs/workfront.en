@@ -11,6 +11,8 @@ exl-id: 5457f516-c213-4b82-b033-bc8db943a217
 
 You can log time for work items in Adobe Workfront to indicate the number of hours you spend working on them. The time you log displays in your timesheet.
 
+Priorities displays work items assigned to you. You cannot see work items assigned to your team.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.

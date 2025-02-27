@@ -84,7 +84,7 @@ To delete a plan:
    A list of plans displays. 
 
 1. Click the name of a plan to open it.
-1. Click the **[!UICONTROL More menu]** ![](assets/more-menu.png) to the right of the plan name, then click **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
+1. Click the **[!UICONTROL More menu]** ![More menu](assets/more-menu.png) to the right of the plan name, then click **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
 
    The plan is deleted and you return to the list of plans.
 
@@ -108,7 +108,7 @@ To delete a scenario:
    By default, the Initial scenario displays.
 
 1. Click **[!UICONTROL Compare scenarios]**.
-1. From the upper-right corner of the scenario card, click the **[!UICONTROL More]** menu ![](assets/more-menu.png), then click **[!UICONTROL Delete]**.
+1. From the upper-right corner of the scenario card, click the **[!UICONTROL More]** menu ![More menu](assets/more-menu.png), then click **[!UICONTROL Delete]**.
 
    The scenario is deleted.
 

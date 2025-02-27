@@ -79,7 +79,7 @@ You must have the following to perform the activities described in this article:
 
 ## Access Workfront Goals
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -121,7 +121,7 @@ Accessing goals differs depending on what environment you use.
 
 To access an individual goal in the Production environment:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Goals** .
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Goals** .
 
      (!--drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -149,11 +149,11 @@ To access an individual goal:
 
 1. Click the **Main Menu** icon  in the upper-right corner of Workfront, then click **Goals** .
 The Goal List displays by default. 
-![](assets/goal-list-unshimmed.png)
+![Goal list](assets/goal-list-unshimmed.png)
 1. Click the name of a goal in the list. 
 The goal's page displays. 
-![](assets/goal-page-unshimmed.png)
-1. Click the **More** menu ![](assets/more-icon.png) to the right of the goal name to further edit or share the goal. 
+![Goal page](assets/goal-page-unshimmed.png)
+1. Click the **More** menu ![More icon](assets/more-icon.png) to the right of the goal name to further edit or share the goal. 
 1. Click **Goal details** in the left panel to edit information about the goal. For more information, see [Update goals in the Goal details section in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md). 
 
 

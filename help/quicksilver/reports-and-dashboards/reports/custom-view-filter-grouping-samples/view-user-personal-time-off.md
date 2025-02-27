@@ -65,7 +65,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## View user personal time off
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Reports > New Report**. 
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Reports > New Report**. 
 1. From the drop-down menu, select **Time Off**.
 1. Click **Save + Close**.
 

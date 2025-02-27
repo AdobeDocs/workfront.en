@@ -77,7 +77,7 @@ You can add existing external pages to a dashboard, or you can create one from t
     <tbody>
      <tr>
       <td role="rowheader"><strong>Name</strong></td>
-      <td><p>This is the name of your dashboard.</p><p>If you do not specify a name, the name of the first report on the dashboard becomes the name of the dashboard, by default.</p></td>
+      <td><p>This is the name of your dashboard. We recommend using only UTF-8 characters to avoid compatibility issues.</p><p>If you do not specify a name, the name of the first report on the dashboard becomes the name of the dashboard, by default.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>Description (Optional)</strong></td>

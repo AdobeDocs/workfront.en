@@ -183,10 +183,10 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* While this statement could be applied to a Company Name column, it could also be applied to any other column on the report. Green text would only be displayed if the project had a Company associated with it. Remember the `[field name]`, `[value]`, and `[qualifier]` drive whether or not the conditioning ultimately displays on the column.
 >* When working with qualifiers, we recommended using `cicontains` rather than `equal`. By default, `equal` looks for ID numbers. Using the `cicontains` qualifier, you can access items by their name.
 
-![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
+![Text mode example](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 
 
-![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
+![Text mode example results](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
 
 Whether Text Color, Alignment, Font Style, or Background Color are applied to a text mode, the same statement (shown above) is used.
 
@@ -292,9 +292,9 @@ styledef.case.0.comparison.truetext=not today
 >
 >The lines that start with `case.0.` use case comparisons to identifying the use of text. The lines that start with `styledef.case.0.` are early conditional formatting statements where we identify the use of text through the `truetext` expression. Make sure to set `truetext` to a value, rather than leaving it blank.
 
-![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
+![Apply text example](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
+![Apply text results](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
 
 #### Apply row formats {#apply-row-formats}
 
@@ -354,30 +354,30 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 >
 >Notice that the statement uses the `icon=true` expression. This statement is also different from other conditional formatting statements in that it does not use the `style.def` format, but rather a unique image format.
 
-![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
+![Icon text mode](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
+![Icon text mode results](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
 
 To use the images available, apply the following code and values:
 
 | **Icon** |**Line: image.case.0.comparison.truetext=** |
 |---|---|
-| Frown Face ![](assets/face-sad.png)|=`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
-| Happy Face ![](assets/face-happy.png)|=`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
-| Blue Flag  ![](assets/flag-blue-large.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
-| Green Flag  ![](assets/flag-green-large.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
-| Red Flag  ![](assets/flag-red-style2.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
-| Yellow Flag  ![](assets/flag-yellow-style2.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
-| Black Circle  ![](assets/dot-black.png)|=`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
-| Blue Circle ![](assets/dot-blue.png)|=`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
-| Grey Circle ![](assets/dot-gray.png)|=`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
-| Green Circle ![](assets/dot-green.png)|=`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
-| Orange Circle ![](assets/dot-orange.png)|=`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
-| Pink Circle ![](assets/dot-pink.png)|=`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
-| Purple Circle ![](assets/dot-purple.png)|=`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
-| Red Circle ![](assets/dot-red.png)|=`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
-| White Circle ![](assets/dot-white.png)|=`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
-| Yellow Circle ![](assets/dot-yellow.png)|=`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
+| Frown Face ![Frown face](assets/face-sad.png)|=`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
+| Happy Face ![Happy face](assets/face-happy.png)|=`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
+| Blue Flag  ![Blue flag](assets/flag-blue-large.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
+| Green Flag  ![Green flag](assets/flag-green-large.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
+| Red Flag  ![Red flag](assets/flag-red-style2.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
+| Yellow Flag  ![Yellow flag](assets/flag-yellow-style2.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
+| Black Circle  ![Black circle](assets/dot-black.png)|=`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
+| Blue Circle ![Blue circle](assets/dot-blue.png)|=`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
+| Grey Circle ![Grey circle](assets/dot-gray.png)|=`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
+| Green Circle ![Green circle](assets/dot-green.png)|=`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
+| Orange Circle ![Orange circle](assets/dot-orange.png)|=`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
+| Pink Circle ![Pink circle](assets/dot-pink.png)|=`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
+| Purple Circle ![Purple circle](assets/dot-purple.png)|=`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
+| Red Circle ![Red circle](assets/dot-red.png)|=`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
+| White Circle ![White circle](assets/dot-white.png)|=`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
+| Yellow Circle ![Yellow circle](assets/dot-yellow.png)|=`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
 {style="table-layout:auto"}
 

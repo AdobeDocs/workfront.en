@@ -71,7 +71,7 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 1. Go to the dashboard you want to export.
 1. Click **Dashboard actions**, then select **Print Preview**.
 
-   ![](assets/dashboard-actions-print-350x254.png)
+   ![Dashboard print preview](assets/dashboard-actions-print-350x254.png)
 
    The Print Preview window opens.
 

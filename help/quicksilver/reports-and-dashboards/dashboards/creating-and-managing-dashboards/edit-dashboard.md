@@ -80,7 +80,7 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 1. Go to the dashboard that you want to edit.
 1. Click **Dashboard Actions**, then click **Edit**.
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![Edit dashboard](assets/unshimmed-edit-dashboard.png)
 
    >[!TIP]
    >

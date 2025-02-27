@@ -94,6 +94,7 @@ Because environment promotion deals with object configuration, transactional obj
 | Access Level (ACSLVL) | Access Level |
 | Rate Card (RTCRD) | Rate Card |
 | Location / Classifier (CLSF) | Location / Classifier |
+| Business Rules (BSNRUL) | Business Rules |
 
 \* Not currently available 
 

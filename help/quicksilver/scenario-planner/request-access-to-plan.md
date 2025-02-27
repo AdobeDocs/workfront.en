@@ -74,7 +74,7 @@ To request permissions:
 
 1. Click a link to a plan.
 
-   ![](assets/request-access-to-plan-350x277.png)
+   ![Request access to plan](assets/request-access-to-plan-350x277.png)
 
 1. In the **[!UICONTROL Request access to]** drop-down menu, indicate what level of permissions you wish to be granted. Select from the following:
 
@@ -92,11 +92,11 @@ To request permissions:
    The following happens: 
 
    * [!DNL Workfront] sends an email notification to the plan owner where they can grant the permissions requested.  
-     ![](assets/request-access-to-plan-email-350x156.png)
+     ![Request access email notification](assets/request-access-to-plan-email-350x156.png)
 
    * After the plan owner grants the permissions requested, you receive an email that the permissions have been granted if your [!DNL Workfront] administrator has the Object share to user notification enabled in your system and you enable the [!UICONTROL Someone shares an object with me] email notification in your profile.
 
-     ![](assets/access-granted-to-plan-email-350x172.png)
+     ![Access granted email](assets/access-granted-to-plan-email-350x172.png)
 
    * You can also grant permissions to plans from the [!UICONTROL Home] area and from the [!DNL Workfront] mobile app.
 

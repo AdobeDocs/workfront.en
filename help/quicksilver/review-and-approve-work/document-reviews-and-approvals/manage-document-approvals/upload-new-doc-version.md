@@ -72,7 +72,7 @@ To find out what plan, license type, or access you have, contact your Workfront 
 
 1. Scroll down to the **Approvals** section in the Document Summary pane, then click **Add**.
 
-  ![](assets/doc-summary-add-approvers.png)
+  ![Add approvers in document summary](assets/doc-summary-add-approvers.png)
 
 1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
 
@@ -83,4 +83,4 @@ To find out what plan, license type, or access you have, contact your Workfront 
 
 1. To add new approvers and reviewers, click **Reviewer** or **Approver** and begin typing the user or team.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Add approver and deadline](assets/add-approver-and-deadline.png)

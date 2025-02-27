@@ -18,7 +18,7 @@ For example, if your organization has a web-based document repository, wiki, or 
 >[!IMPORTANT]
 >
 >* For security reasons, some websites do not allow you to embed web pages as an iframe. If the web page you want to embed in a dashboard does not allow this, the page does not display in the dashboard. However, you can still access the external page by clicking the name of the dashboard.  
->![](assets/qs-empty-external-page-report-350x165.png)  
+>![Empty external page report](assets/qs-empty-external-page-report-350x165.png)  
 >To allow embedding for a website you own, work with your web administrator to adjust the **X-Frame-Options** setting. For more information, see [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 >
 >
@@ -112,7 +112,7 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 
 1. Click **Add External Page** under the **Select Layout/ Add Reports/ Add Calendars** area.
 
-   ![](assets/qs-add-external-page-350x239.png)
+   ![Add external page](assets/qs-add-external-page-350x239.png)
 
    The **Add External Page** box displays. 
 
@@ -126,7 +126,7 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 
       * An https (encrypted) URL to a web page.  
      Only https (encrypted) pages load with the URL.  
-     ![](assets/add-external-page-dialog-qs-350x247.png)
+     ![Add external page dialog](assets/add-external-page-dialog-qs-350x247.png)
 
       * A template URL that contains session information for a specific website.  
      For example: *https://localhost/?session={!$$SESSION}* 
@@ -164,10 +164,10 @@ To update the information for an external page used in a dashboard:
    The **Dashboard Details** box opens.
 
 1. In the **Select Layout / Add Reports** area of the **Dashboard Details** box, locate the external page you want to update, hover over it, and click the **Edit** icon.  
-   ![](assets/nwe-inline-edit-external-page-350x226.png)
+   ![Inline edit external page](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. In the **Edit External Page** box, update the fields you want to change, then click **Save**.
-1. (Optional) Click the **Delete** icon ![](assets/delete.png) to remove the external page from the dashboard. For more information, see [Remove an External Page from a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md). 
+1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete.png) to remove the external page from the dashboard. For more information, see [Remove an External Page from a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md). 
 1. Click **Save + Close**.
 
 ## View external pages in a report
@@ -178,7 +178,7 @@ You can view all external pages in Workfront in an External Page report.
 
 1. Click **New Report** > select **External Section**.
 
-   ![](assets/external-page-new-report-in-dropdown-nwe.png)
+   ![External section](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. (Optional) Update the View, Filters, or Groupings tabs of the report.
 

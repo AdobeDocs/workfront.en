@@ -70,7 +70,7 @@ To compare the Planned Start Date and Actual Start Date of task using conditiona
 1. Enter the comparison criteria using existing values found in the builder and specify your conditional formatting.  
    For example, we want to highlight tasks where the Actual Start Date is later than ( or greater than) the Planned Start Date. Select the Greater Than modifier, and select an actual date in the date field.  
 
-   ![](assets/cond-format-1-350x84.png)
+   ![Conditional formatting for actual start date](assets/cond-format-1-350x84.png)
 
 1. (Optional) Select **Apply to entire row** if you want to apply the formatting to the entire row.
 1. Click **Save**.
@@ -98,7 +98,7 @@ To compare the Planned Start Date and Actual Start Date of task using conditiona
 
 1. Ensure that the `righttext` line of code matches the statement in the `rightmethod` line of code.
 
-   ![](assets/cond-format-2-350x171.png)
+   ![Conditional formatting](assets/cond-format-2-350x171.png)
 
 1. Click **Save**.
 1. Click **Save + Close**.  

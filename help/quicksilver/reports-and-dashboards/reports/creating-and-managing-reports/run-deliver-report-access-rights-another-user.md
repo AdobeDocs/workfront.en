@@ -80,7 +80,7 @@ To run a report with the access rights of another user:
 1. Click **Report Settings**.  
 
 1. In the **Run this report with the Access Rights of:** field, start typing the name of the user that you want the report to display as, then select it when you see it in the list.  
-   ![](assets/unshimmed-access-rights-of.png)
+   ![Run with access rights of](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -102,7 +102,7 @@ You can set up reports to be delivered as attachment to an email. You can set up
 
 To deliver a report with the access rights of another user:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Reports**. 
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Reports**. 
 
 1. Select the report you want to deliver with the access rights of another user.
 1. Click the name of the report to select it.
@@ -110,7 +110,7 @@ To deliver a report with the access rights of another user:
 1. Click **Send Report**.  
 
 1. In the **Deliver this report with the Access Rights of:** field, start typing the name of the user that you want the report to display as when it is delivered in an email, then select it when you see it in the list. The default is the name of the user who is building the report.  
-   ![](assets/unshimmed-send-report-access-rights-of.png)
+   ![Sent report with access rights of](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >

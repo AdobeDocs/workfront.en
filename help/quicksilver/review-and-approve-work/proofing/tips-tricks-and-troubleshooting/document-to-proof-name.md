@@ -28,6 +28,6 @@ Remove the invalid character from the document name:
     
     Invalid charaters: `! # % * \ | ' " / ? < > { } [ ]`
 
-    ![](assets/doc-name.png)
+    ![Document name](assets/doc-name.png)
 
 1. Refresh the page, and generate the proof.

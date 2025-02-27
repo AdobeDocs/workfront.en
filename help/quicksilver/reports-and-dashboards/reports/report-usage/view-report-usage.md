@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
 
 ## Display report usage information in the View of a report list
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Reports**. 
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Reports**. 
 
 1. On the list of reports, click the **View** drop-down menu.
 1. (Optional) Select the **Report Usage** view to display the most common report usage information.  
@@ -91,7 +91,7 @@ You must have the following access to perform the steps in this article:
 
 ## Filter a report list by usage information {#filter-a-report-list-by-usage-information}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Reports**. 
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Reports**. 
 1. On the list of reports, click the **Filter** drop-down menu.
 1. Click **New Filter**, then click **Add a Filter Rule**.
 1. Start typing any of the following fields, and select them when they appear in the list under the **Report** object to add them as a new filter rule:
@@ -106,7 +106,7 @@ You must have the following access to perform the steps in this article:
    * **Last Viewed Date**: Displays the date when the report was viewed last
 
 1. Select a modifier for your field, then specify a value, when prompted.  
-   ![](assets/qs-report-usage-filter-statistics-350x150.png)
+   ![Report usage filter statistics](assets/qs-report-usage-filter-statistics-350x150.png)
 
 1. Click **Save Filter**.  
    This displays a list of reports that meet the usage information you have defined.  

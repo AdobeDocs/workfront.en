@@ -180,7 +180,7 @@ For information about project permissions, see [Share a project in [!DNL Adobe W
    >
    >You can share a plan by clicking the avatars of users with whom the plan is shared in the upper-right corner of the plan header. 
 
-1. (Conditional) If you opened a plan, click the **[!UICONTROL More]** icon ![](assets/more-icon.png) to the right of the [!UICONTROL Plan] name, then click **[!UICONTROL Share]**
+1. (Conditional) If you opened a plan, click the **[!UICONTROL More]** icon ![More icon](assets/more-icon.png) to the right of the [!UICONTROL Plan] name, then click **[!UICONTROL Share]**
 
    Or
 

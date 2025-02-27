@@ -122,7 +122,7 @@ You can create a filter from scratch or edit one of the built-in filters.
 
 1. Click **Filter** in the upper-right corner of the list.
 
-   ![](assets/filter-icon-and-label.png)
+   ![Filter icon](assets/filter-icon-and-label.png)
 
    By default, Workfront applies the **All** filter which displays all goals in your system.
 
@@ -166,7 +166,7 @@ You can create a filter from scratch or edit one of the built-in filters.
       </tbody> 
      </table>
 
-   * Hover over the name of a filter, then click the **Edit** icon ![](assets/edit-icon.png) next to its name to customize it and add specific names of users, teams, groups, or the name of your organization, then select it when they appear on the list.
+   * Hover over the name of a filter, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) next to its name to customize it and add specific names of users, teams, groups, or the name of your organization, then select it when they appear on the list.
 
    * Click **New Filter** to create a new filter, then select from the following options to customize the new filter:
 
@@ -243,11 +243,11 @@ You can create a filter from scratch or edit one of the built-in filters.
 
 1. (Optional and conditional) When viewing goals in the Goal Alignment section,  click **Show them** if you want to view the filtered out goals.  
 
-   ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
+   ![Show them link on filtered items](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
    The filter name is outlined in yellow to indicate that it is being ignored. 
 
-   ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
+   ![Filter yellow outline](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
 1. (Optional and conditional) Click **Reapply filter** to apply the filter and omit the items you displayed in the previous step.

@@ -52,7 +52,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. In the **Add report** window that appears, click **Add** below the type of report you would like to add to your Canvas Dashboard.
 
-1. Continue setting up the report based on the type of report you selected. For detailed information about setting up each type of report, see [Canvas Dashboard report types](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md). If you close the window before completing setup, an empty report will still be added to your Canvas Dashboard. You may finish setting it up later by clicking the **Configuration** button in the center of the empty report.
+1. Continue setting up the report based on the type of report you selected. <!--For detailed information about setting up each type of report, see [Canvas Dashboard report types](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md).--> If you close the window before completing setup, an empty report will still be added to your Canvas Dashboard. You may finish setting it up later by clicking the **Configuration** button in the center of the empty report.
 
 ## Move or resize reports in a Canvas Dashboard
 

@@ -23,7 +23,7 @@ This view represents an example of calculated columns, in which you can take the
 
 For more information about using calculations in a View, see the [Overview of common uses for Text Mode](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) section in&nbsp; [Overview of common uses for Text Mode](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-![](assets/view-task-with-all-dates-variance.png)
+![View task with all dates](assets/view-task-with-all-dates-variance.png)
 
 ## Access requirements
 

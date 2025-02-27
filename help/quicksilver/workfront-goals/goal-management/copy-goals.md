@@ -111,7 +111,7 @@ To copy goals in the Production environment:
 
    This opens the Goal Details panel.
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Copy**. 
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Copy**. 
 
 1. Update any of the following information for the copied goal:
 
@@ -171,9 +171,9 @@ To copy goals in the Production environment:
 -->
 
 
-1. Go to a goal and click the **More** menu ![](assets/more-icon.png), then click **Copy Goal**.  
+1. Go to a goal and click the **More** menu ![More icon](assets/more-icon.png), then click **Copy Goal**.  
 
-   ![](assets/copy-goal-box-unshimmed.png)
+   ![Copy goal box](assets/copy-goal-box-unshimmed.png)
 
 1. Update the following information for the copied goal:
     * **Goal name**: The name of the new goal. The default name for the copied goal is "Copy of &lt;original goal>".
