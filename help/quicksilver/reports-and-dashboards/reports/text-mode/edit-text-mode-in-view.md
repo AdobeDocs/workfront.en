@@ -80,7 +80,7 @@ For information about creating a report, see [Create a custom report](../../../r
 1. Do one of the following:
 
    1. To access the view from a report, go to the report, then click&nbsp;**Report Actions** > **Edit** > **Columns (View)** tab.
-   1. To access the view from a list, go to the list and from the **View** drop-down menu, mouse over the view that you want to modify and click the&nbsp;**Edit** icon ![](assets/edit-icon.png).
+   1. To access the view from a list, go to the list and from the **View** drop-down menu, mouse over the view that you want to modify and click the&nbsp;**Edit** icon ![Edit icon](assets/edit-icon.png).
 
       The view builder opens.
 

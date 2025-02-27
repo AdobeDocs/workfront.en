@@ -129,7 +129,7 @@ When you check in on a goal at the goal level, you can update the progress of th
 
 For information about how to update additional information about results and activities, see [Edit results and activities in Adobe Workfront Goals](../../workfront-goals/results-and-activities/edit-results-and-activities.md).
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -154,7 +154,7 @@ For information about how to update additional information about results and act
 
 1. Click **Check in**.
 
-   ![](assets/check-in-link-inside-goal-details-highlighted-350x156.png)
+   ![Check in link](assets/check-in-link-inside-goal-details-highlighted-350x156.png)
 
    The progress of results and activities becomes editable.
 
@@ -191,7 +191,7 @@ You can use the Check-in section to check in on goals when you want to quickly p
 
 When you check in on a goal in the Check-in section, you can update the progress of the results and activities that are assigned only to you. You cannot update the progress of results and activities that are assigned to other users in this section.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -204,11 +204,11 @@ When you check in on a goal in the Check-in section, you can update the progress
 
    (Conditional) If you are in the Goal List, Goal Alignment, or Pulse sections, click the **Check in** button in the upper-right of the screen. This opens the Check-in section.
 
-   ![](assets/check-in-button-highlighted-350x102.png)
+   ![Check in button](assets/check-in-button-highlighted-350x102.png)
 
    Goals display in a list and results and activities are listed under each goal.
 
-   ![](assets/check-in-page-with-show-all-aligned-goals-link-350x178.png)
+   ![Check in page](assets/check-in-page-with-show-all-aligned-goals-link-350x178.png)
 
 1. (Optional) Click **Show all results**, **Show all activities**, or **Show all aligned goals** to the far right of the goal name to display all results, activities, and aligned goals of a goal whose progress you want to update.
 
@@ -238,7 +238,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 To update progress on goals:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -263,7 +263,7 @@ To update progress on goals:
 
 1. To update the progress of a result or activity, click the value inside the **Actual Progress** column of the result or activity and type a number to update its value, then press Enter.
 
-   ![](assets/actual-progress-result-updating-highlighted-unshimmed.png)
+   ![Actual progress](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 
    The progress bar for the progress indicator in the Progress column and the progress of the goal in the goal header update immediately. 
 

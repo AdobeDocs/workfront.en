@@ -73,7 +73,7 @@ A scenario is a copy of a plan. You can create as many scenarios as you need. Ho
 
 1. Click the down-pointing arrow next to an existing scenario, then  click the **[!UICONTROL Copy]** icon.
 
-   ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
+   ![Copy scenario](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
    This creates a new scenario with the same information as the copied scenario. It is automatically named "[!UICONTROL Scenario 2]" if it's the second scenario of your plan, "[!UICONTROL Scenario 3]" if it's the third, and so on. You cannot rename your scenarios. There is not a limit to the number of copies you can make.
 
@@ -110,7 +110,7 @@ After creating your scenarios, you can compare them to find the best one for you
 
    All existing scenarios for the plan display in a side-by-side card format. The Initial scenario is always listed first and it is static.
 
-   ![](assets/scenario-cards-overlapping-350x166.png)
+   ![Senario cards](assets/scenario-cards-overlapping-350x166.png)
 
 1. (Optional) Scroll to the right to view all scenario cards.
 
@@ -168,7 +168,7 @@ After creating your scenarios, you can compare them to find the best one for you
    >When information differs between the initial scenario and additional scenarios, an up or down arrow displays next to the value that changed to indicate an increase or decrease in that value, compared to the initial scenario. 
    >
    >
-   >![](assets/arrows-on-scenario-cards-highlighted-350x70.png)
+   >![Arrows on scenario cards](assets/arrows-on-scenario-cards-highlighted-350x70.png)
    >
    >For example, the budget, the number of job roles, the number of initiatives might change from one scenario to another.
 
@@ -182,9 +182,9 @@ After creating your scenarios, you can compare them to find the best one for you
 
    Click the description field to update it, then click anywhere on the screen to save your changes.
 
-1. (Optional) Click the **[!UICONTROL More]** menu ![](assets/more-icon.png) to **[!UICONTROL Copy]** or **[!UICONTROL Delete]** the scenario.
+1. (Optional) Click the **[!UICONTROL More]** menu ![More icon](assets/more-icon.png) to **[!UICONTROL Copy]** or **[!UICONTROL Delete]** the scenario.
 
-   ![](assets/copy-or-delete-scenario-links-from-card-350x109.png)
+   ![Copy or delete scenario](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    When you copy a scenario, it automatically appears on the card page and is renamed according to this pattern: "[!UICONTROL Scenario] `<next number in order>`." 
 

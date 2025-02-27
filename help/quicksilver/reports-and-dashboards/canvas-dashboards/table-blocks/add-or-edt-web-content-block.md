@@ -15,12 +15,12 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
 ## Add or edit a web content block
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click**Reporting**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click**Reporting**.
 1. Click **New report**.
 
    Or
 
-   Go to an existing report, click the **More** icon ![](assets/more-icon-27x15.png) in the report header, then click **Edit**.
+   Go to an existing report, click the **More** icon ![More icon](assets/more-icon-27x15.png) in the report header, then click **Edit**.
 
 1. On the right side of the screen, under **Add a Block**, either:
 
@@ -35,9 +35,9 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
    >You can change the size of the block after it is placed by dragging its corner handles.
 
 1. Click **Untitled web content** in the block header, then type a title for the block.
-1. Click the **Edit** icon ![](assets/edit-icon.png) in the block header.
+1. Click the **Edit** icon ![Edit icon](assets/edit-icon.png) in the block header.
 
-   ![](assets/web-content-block-header-350x76.png)
+   ![Edit icon in block header](assets/web-content-block-header-350x76.png)
 
 1. In the **Settings** panel that opens, enter the complete URL for the page that you would like to display (including "https://") in the **URL** field.
 

@@ -185,7 +185,7 @@ To schedule a report for automatic delivery or to edit or delete an existing rep
 
 View the following video to learn how to schedule a report delivery. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
 
-[ ![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
+[ ![Video walkthrough of report delivery](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
 
 
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Additional information</h2>

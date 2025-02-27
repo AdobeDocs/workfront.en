@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
 
 ## Approve a document from Home
 
-1. Click the **Home** icon ![](../assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **Home** icon ![Home icon](../assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
    >[!NOTE]
    >
@@ -60,7 +60,7 @@ You must have the following access to perform the steps in this article:
    >
    >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article.
    >
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](../assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![Main menu icon](../assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
 
 1. Click **Filters** at the top left of the page and ensure that **Approvals** is checked.
   
@@ -97,7 +97,7 @@ You must have the following access to perform the steps in this article:
    If the currently selected version of the document has a pending approval for you, the approval decision buttons are displayed in the top-right corner of the page; if other versions of the document have pending approvals for you, the version dropdown menu displays a red dot.
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Click one of the following two approval options in the top-right corner of the page:
@@ -121,7 +121,7 @@ You must have the following access to perform the steps in this article:
    If the currently selected version of the document has a pending approval for you, the approval decision buttons are displayed in the top-right corner of the Document Summary pane; if other versions of the document have pending approvals for you, the version dropdown menu displays a red dot.
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->   
 
 1. Click one of the following two approval options in the top-right corner of the Document Summary pane:

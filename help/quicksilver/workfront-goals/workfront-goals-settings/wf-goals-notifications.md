@@ -134,4 +134,4 @@ A personal goal is a goal where you are designated as the owner.
 
 When the event defined by the notification you enabled occurs, you receive an email describing the event. The following is an example of email notifying you that you are assigned as the Owner of a new goal:
 
-![](assets/wf-align-notification-email-350x164.png)
+![Goals notification email](assets/wf-align-notification-email-350x164.png)

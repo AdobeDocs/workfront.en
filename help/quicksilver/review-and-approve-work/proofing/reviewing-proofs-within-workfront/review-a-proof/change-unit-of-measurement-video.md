@@ -51,7 +51,7 @@ You must have the following access to perform the steps in this article:
 
 1. In the lower-left corner of the proofing viewer, click the current unit of measurement.
 
-   ![](assets/phq-viewer-video-timeline.png)
+   ![Video timeline](assets/phq-viewer-video-timeline.png)
 
 1. Select from the following options:
 

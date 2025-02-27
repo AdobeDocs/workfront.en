@@ -76,7 +76,7 @@ You can view or manage approvals from the following areas:
 
 ## Review work you submit for approval in the Home area {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add the **My Approvals** widget.
 1. (Conditional) Click the **Filter** drop-down menu, then select **Approvals I've submitted** to see approvals you've submitted.
 
@@ -127,6 +127,6 @@ To see the current state of where a task or issue is in the approval process:
 
    The Approvals tab displays&nbsp;the full information about all past approval paths and stages. You can see exactly who made a decision on the approval or whether the approval is set for a team, job role, or user.
 
-   ![](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
+   ![Approvals tab expanded](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
 
    For information about creating an Approval Process, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).

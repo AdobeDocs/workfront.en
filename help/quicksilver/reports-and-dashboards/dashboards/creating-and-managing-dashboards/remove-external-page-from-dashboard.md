@@ -63,11 +63,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Click **Dashboard Actions**, then click **Edit**.
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![Edit dashboard](assets/unshimmed-edit-dashboard.png)
 
-1. On the right side of the screen, locate the external page you want to remove and click the **Delete** icon ![](assets/delete.png).
+1. On the right side of the screen, locate the external page you want to remove and click the **Delete** icon ![Delete icon](assets/delete.png).
 
-   ![](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
+   ![Delete external page icon inside dashboard](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
 
 1. Click **Save + Close** in the lower-left corner.
 

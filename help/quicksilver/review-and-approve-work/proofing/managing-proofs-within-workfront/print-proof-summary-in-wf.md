@@ -59,7 +59,7 @@ You can print a proof summary directly from the document list.
 
    Or
 
-   While viewing the proof in the the proofing viewer, click the **Print**icon ![](assets/print-icon-in-pv.png) in the left toolbar. (If the left toolbar is not visible, click the Menu icon ![](assets/menu-icon-in-pv.png) in the upper-left corner of the proofing viewer.)
+   While viewing the proof in the the proofing viewer, click the **Print**icon ![Print icon](assets/print-icon-in-pv.png) in the left toolbar. (If the left toolbar is not visible, click the Menu icon ![Menu icon](assets/menu-icon-in-pv.png) in the upper-left corner of the proofing viewer.)
 
 1. Use any of the following options:
 
@@ -120,7 +120,7 @@ You can export a proof summary for static content as an XLS file or as a PDF fil
 
 1. Click the XLS icon or PDF icon near the upper-right corner of the page.
 
-   ![](assets/xls-pdf-icons-350x136.png)
+   ![XLS PDF icon](assets/xls-pdf-icons-350x136.png)
 
 When the exported file is ready, you receive an email from which you can download the file.
 

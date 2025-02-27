@@ -14,7 +14,7 @@ exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
 
 This task grouping allows you to group tasks by the Project Sponsor.
 
-![](assets/grouping--project-sponsor-for-a-task-350x189.png)
+![Group by project sponsor](assets/grouping--project-sponsor-for-a-task-350x189.png)
 
 ## Access requirements
 

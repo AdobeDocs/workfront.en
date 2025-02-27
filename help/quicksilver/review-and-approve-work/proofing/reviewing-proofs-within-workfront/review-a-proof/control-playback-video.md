@@ -65,7 +65,7 @@ For a more detailed look at the video proof, you can manually review&nbsp;the vi
 
 1. At the bottom of the proofing viewer, click the **Forward**&nbsp;and **Back** arrows to review the video frame-by-frame.
 
-   ![](assets/frame-.png)
+   ![Frame](assets/frame-.png)
 
 ## Change playback volume
 
@@ -76,7 +76,7 @@ You can control the volume in the video playback.
 
 1. In the lower-right corner of the proofing viewer, mouse over the **Volume** icon, then drag the slider to select a new volume.
 
-   ![](assets/phq-viewer-volume.png)
+   ![Volume](assets/phq-viewer-volume.png)
 
    Or
 

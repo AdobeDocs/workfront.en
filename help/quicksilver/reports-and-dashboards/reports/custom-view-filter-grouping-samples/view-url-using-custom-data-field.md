@@ -86,7 +86,7 @@ If you have access to create a custom form, you can create a calculated custom f
 
 The task **View** in the example below displays the **Calculated Custom Field** called "Custom URL" as a direct link to the **Overview** subtab within the task**Details** tab, as well as the **URL** field of the task.
 
-![](assets/task-view-with-custom-url-field-quicksilver-350x70.png)
+(assets/task-view-with-custom-url-field-quicksilver-350x70.png)
 
 To customize this view:
 

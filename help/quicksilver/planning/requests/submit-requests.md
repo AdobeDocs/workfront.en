@@ -119,15 +119,109 @@ The following must be in place before you can submit a request to a Workfront Pl
 ## Considerations about submitting requests to Workfront Planning
 
 * You can access a request form for Workfront Planning requests only from a specific link to the form. 
-* You cannot edit a request after you submit it to Workfront Planning.
-* Each submitted request creates a record for the record type associated with the form you use if the form is not associated with an approval, or if the approval has been granted by all of the approvers.
+* You cannot edit a request in Workfront after you submit it to Workfront Planning.
+* Each submitted request creates a record for the record type associated with the form you use, if the form is not associated with an approval, or if the approval has been granted by all of the approvers.
 * Records created by submitting request forms cannot be differentiated from records added through any other method. For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
 * Submitted requests display in the Planning tab of the Submitted section in the Requests area of Workfront. 
+* There are limitations in how certain field types display in a request form, or the request details page after a form is submitted. For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
 
 ## Submit a request to Workfront Planning
+
+<!--
+<div class="preview">
+
+Submitting requests to Workfront Planning differs depending on what environment you use. 
+
+### Submit a request to Workfront Planning in the Preview Environment
+
+>[!NOTE]
+>
+>After the monthly releases to Production, the features described in this section are also available in the Production environment for customers who enabled fast releases.
+
+{{step1-to-requests}}
+
+1. Enable the **Switch to a new experience** setting, in the upper-right corner of he screen. 
+   Enabling this setting makes the Workfront Planning request forms available in the **Requests** area of Workfront.
+
+   >[!TIP]
+   >
+   >This setting is available only when the following are in place:
+   >
+   >* Your company has purchased a Workfront Planning package. 
+   >* Your Workfront instance is onboarded to the Adobe Unified Experience. 
+   >* You have access to view at least one workspace. 
+   >
+
+1. Click **New request**. (********* update screen shot at release ********)
+
+   ![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
+
+   The New request area opens with the following information: 
+
+   * The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. 
+   * 50 additional Workfront request queues and Planning request forms display in alphabetical order in the **All request forms** section. You can search for a request queue that does not display by default. 
+
+1. Do one of the following:
+
+   * Click the card for one of the Planning request forms in the Recent or All request forms sections
+   * Start typing the name of a Planning request form in the search box, then click the card when it displays in the list. 
+
+   The request form opens.
+
+1. Update the fields available in the request form. Fields with a red asterisk are required. 
+1. Click **Submit**.
+    
+   The request form closes and you return to the **Requests** area. 
+
+   Your form is submitted and the following things occur:
+
+   * If the request form was not associated with an approval, the request is added to the Planning tab of the Submitted section of the Workfront Requests area and a new record is added to the record type associated with the form.
+   
+   * If the request form was associated with an approval, the request is added to the Planning tab of the Submitted section of the Workfront Requests area. A new record is added to the record type page only after all the approvers have approved it.
+   
+      For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
+      ![](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
+
+      >[!IMPORTANT]
+      >
+      >All users who have access to at least one workspace can view the Planning tab in the Requests area. You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. (******** ensure this is correct; asking team in slack **************)
+
+   * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
+   * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
+
+      >[!NOTE]
+      >
+      >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
+
+1. (Optional) Click the **Planning** tab in the Requests area to view your request, then click the name of the request. 
+
+   The request details page opens. 
+
+   ![Request details page](assets/request-details-page.png)
+
+1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
+
+   The record's page opens in Workfront Planning. 
+
+   >[!TIP]
+   >
+   >* If the record name was not added to the request form, the name of the record in the Record field of the request displays as **Untitled**. 
+   >
+   >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
+
+1. (Optional) Click the name of the **Record type**. 
+
+   The record type page opens in Workfront Planning. 
+
+</div>
+
+### Submit a request to Workfront Planning in the Production environment
+
+-->
 
 1. Go to the link shared with you from a Workfront Planning record type. 
 
@@ -161,6 +255,26 @@ The following must be in place before you can submit a request to a Workfront Pl
       >[!NOTE]
       >
       >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
+
+1. (Optional) Click the **Planning** tab in the Requests area to view your request, then click the name of the request. 
+
+   The request details page opens. 
+
+   ![Request details page](assets/request-details-page.png)
+
+1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
+
+   The record's page opens in Workfront Planning. 
+
+   >[!TIP]
+   >
+   >* If the record name was not added to the request form, the name of the record in the Record field of the request displays as **Untitled**. 
+   >
+   >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
+
+1. (Optional) Click the name of the **Record type**. 
+
+   The record type page opens in Workfront Planning. 
 
 
   

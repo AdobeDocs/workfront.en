@@ -93,7 +93,7 @@ Creating goals differs depending on what environment you use.
 #### Create a goal from scratch in the Production environment 
 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -)
@@ -102,7 +102,7 @@ Creating goals differs depending on what environment you use.
 
 1. (Conditional) Click **Goal List**, **Graphs**, **Pulse**, or **Check-in** in the left pane, then click **Add Goal** in the upper-right corner of the page. The Add Goal box displays.
 
-   ![](assets/add-goal-box-350x235.png)
+   ![Add goal box](assets/add-goal-box-350x235.png)
 
    >[!TIP]
    >
@@ -164,7 +164,7 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper right corner, then click **Goals**. 
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper right corner, then click **Goals**. 
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -174,7 +174,7 @@ Creating goals differs depending on what environment you use.
 
    The New goal box displays.  
 
-   ![](assets/new-goal-box-unshimmed.png)
+   ![New goal box](assets/new-goal-box-unshimmed.png)
 
 1. Enter information in the following fields:
     * **Goal name**: Enter a name for the goal. This is a required field.

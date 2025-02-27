@@ -32,7 +32,7 @@ For more information, see
 
 Open an interactive proof and download the app directly from the Launch screen.
 
-![](assets/mceclip0-350x114.png)&nbsp;
+![Launch screen](assets/mceclip0-350x114.png)&nbsp;
 
 ## Do new versions of the Desktop Viewer require me to re-install?
 

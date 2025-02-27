@@ -166,7 +166,10 @@ Consider the following when you view Workfront Planning records from the Plannin
    * The record is no longer connected to the Workfront object. 
    * The Workfront object is also removed from the record's connected field from Workfront Planning. 
    * The values for the Workfront lookup fields connected to the Planning record are also deleted.
-1. Click **Connect** to connect more records for the connected record types. For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+1. Click **Connect** to connect more records for the connected record types. 
+
+   For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+1. (Optional) If you cannot find a record to connect, and you want to add it, click **+ Add** to add a new record. For more information, see the section "Create records as you connect them from other records" in the article [Create records](/help/quicksilver/planning/records/create-records.md).  
 
    The following things occur:
 

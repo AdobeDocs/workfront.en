@@ -106,7 +106,7 @@ You must have the following:
 
 There is an indication on the goal list that the project no longer updates progress for the goal.
 
-  ![](assets/goal-closed-project-active-warning-goal-list-350x94.png)
+  ![Goal closed](assets/goal-closed-project-active-warning-goal-list-350x94.png)
 -->
 
 * When you delete a project attached to a goal, the project is also deleted from the goal.
@@ -118,14 +118,14 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Add projects to goals
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png) (draft this  for Shell: or click the **Main Menu** ![](assets/three-line-main-menu-icon.png) in the upper-left corner, if it's available.) , then **Goals**. 
+1. Click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) (draft this  for Shell: or click the **Main Menu** ![Main Menu lines](assets/three-line-main-menu-icon.png) in the upper-left corner, if it's available.) , then **Goals**. 
 1. From the Goal List, click the name of a goal to open the goal page.
 1. Click **Progress indicators** in the left panel.
 1. From the **New progress indicator** drop-down menu, click **Add existing project**. 
   
     The Add projects to goal box displays. 
 1. (Optional) Update the **View**, **Filter**, or **Grouping** by clicking the respective icons in the upper-right corner of the list to modify the way the list of projects displays. 
-1. (Optional) Click the **Search** icon ![](assets/search-icon.png) and start typing the name of a project to quickly find it in the list.
+1. (Optional) Click the **Search** icon ![Search icon](assets/search-icon.png) and start typing the name of a project to quickly find it in the list.
 1. Select the projects that you want to add to the goal, then click **Add**. 
 
     The selected projects are added to the goal and they display in the Progress indicators section of the goal  page, under the **Project** grouping.

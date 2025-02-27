@@ -64,14 +64,14 @@ For more information on creating reports, see [Create a report](../../../reports
 
 ## Filter a report by the time frame of a date {#filter-a-report-by-the-time-frame-of-a-date}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click&nbsp;**Reporting**. 
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png), then click&nbsp;**Reporting**. 
 
 1. Click **New Report**, then select the type of report you want.  
    For example, select **Hour Report**.
 
 1. Select the **Filters** tab.
 1. Click **Add a Filter Rule**, then select **Hour Entry Date**.  
-   ![](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
+   ![Filtering hour report by timeframe](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. In the following drop-down menu, select any of the following options:
 
@@ -123,11 +123,11 @@ For more information on creating reports, see [Create a report](../../../reports
 
 ## Built-in time frame modifiers {#built-in-time-frame-modifiers}
 
-Adobe Workfront has built-in time frame modifiers that you can use without defining a specific date.&nbsp;
+Adobe Workfront has built-in time frame modifiers that you can use without defining a specific date.
 
-These modifiers are available for any date field in a filter or a prompt in any report.&nbsp;
+These modifiers are available for any date field in a filter or a prompt in any report.
 
-For more information about how to&nbsp;filter a report by a time frame associated with a date, see&nbsp; [Filter a report by the time frame of a date](#filter-a-report-by-the-time-frame-of-a-date).
+For more information about how to filter a report by a time frame associated with a date, see the above section [Filter a report by the time frame of a date](#filter-a-report-by-the-time-frame-of-a-date).
 
 For example, if you are building an hour report and would like to display hours entered in a specific time frame, you can choose from the following built-in time frame filter options:
 

@@ -114,7 +114,7 @@ When you sort the comment list, the sort option you choose is remembered the nex
 1. If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.  
 
 1. Click the sorting&nbsp;menu to open it.
-1. ![](assets/mceclip3.png)   
+1. ![Sorting menu](assets/mceclip3.png)   
 
 1. Select one of the following sort options:
 

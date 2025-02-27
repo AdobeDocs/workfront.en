@@ -79,7 +79,7 @@ As a Workfront administrator, you can review the number of Workfront Goals licen
 
 Your Workfront or Group administrator must assign you a Layout Template that includes the Goals area in the Main Menu so you can access Workfront Goals.
 
-![](assets/layout-template-align-highlighted-350x220.png)
+![Layout template](assets/layout-template-align-highlighted-350x220.png)
 
 Your Workfront administrator or Group administrator can also add the following to your layout template so you can easily access Workfront Goals:
 

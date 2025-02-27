@@ -109,6 +109,49 @@ You must have the following access to perform the steps in this article:
 
 +++
 
+## Field and value display limitations in request forms
+
+<!--
+
+There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+
+For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+
+The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+
+* You cannot add fields of the following types to a request form:
+   
+   * Created by and Last modified by
+   * Created date and Last modified date
+   * Formula. Formula fields are supported in the Preview environment.
+   * Workfront objects' lookup fields
+   * Workfront Planning connected records' lookup fields
+
+<!--at release to Preview, replace the above with this:  
+>
+>Fields of the following types do not display in the request form:
+>* Created by and Last modified by
+>* Created date and Last modified date
+>* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
+>* Workfront objects' lookup fields
+>* Workfront Planning connected records' lookup fields-->
+
+* Difference between how field formats display in the request form builder and how the values are formatted on the record or in the request details page:
+
+   * Currency, Number, and Percentage fields display as a Single-line text field type in the form builder. 
+
+      However, the field format is preserved and the values of the numbers in these fields will display as Currency, Number, and Percentage values on the record type and in the request details page.
+
+<!--
+* The following describes how some field values display on request forms and the request details pages: 
+
+   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
+   * People field values display as IDs.
+   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
+   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
+   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
+-->
+
 ## Create a request form for a record type
 
 {{step1-to-planning}}
@@ -134,36 +177,8 @@ You must have the following access to perform the steps in this article:
    The request form contains the following information, by default:
 
    * Record fields available in the table view of the selected record type. <!--they are working on removing the limitation below-->
-
-   <!-- when we go to prod, the Preview batch below will become the only batch-->
-
-   >[!IMPORTANT]
-   >
-   >Fields of the following types do not display in the request form:
-   >
-   >* Created by and Last modified by
-   >* Created date and Last modified date
-   >* Formula
-   >* Workfront objects' lookup fields
-   >* Workfront Planning connected records' lookup fields
-   >
-
-   <!--before release to prod: 
-    > Depending on what environment you use to create a request form, the following scenarios exist:
-   >
-   >* Fields of the following types do not display in the request form in the Production environment: 
-   >
-   >    * Created by and Last modified by
-   >    * Created date and Last modified date
-   >    * Formula
-   >    * People 
-   >    * Workfront connected fields
-   >    * Workfront objects' lookup fields
-   >    * Workfront Planning records' connected fields
-   >    * Workfront Planning connected records' lookup fields
-   >    * AEM Assets connection fields-->
    
-   * **Default section**: This is the default section break that Workfront applies to the request form. The Default section cannot be renamed or removed. 
+   * **Default section**: This is the default section break that Workfront applies to the request form. All record fields display in the **Default section** area. 
    * **Subject** field: The field which will identify the request in Workfront. The configuration and the value of the Subject field are not editable.
 
       >[!TIP]
@@ -177,6 +192,12 @@ You must have the following access to perform the steps in this article:
 1. (Optional) Hover over any fields on the form that you want to remove, then click the **x** icon to remove them. They are added to the **Fields** tab to the left of the form. 
 
    For example, remove the **Subject** field, as this is not visible in Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
+1. (Optional) To remove the **Default section** from the form, do the following:
+
+   1. Remove all fields from the Default Section. 
+   1. Click **Content elements** and add a new section, then add a name for the section. 
+   1. Add fields to the new section. 
+   1. Click the **x** icon to remove the **Default section**. 
 1. Click any field, then use the controls in the right panel in the form to define their size, or any of the following information:
 
    * **Label**: This is the name of the field as it will appear on the request form. This does not change the name of the record field.
@@ -184,12 +205,10 @@ You must have the following access to perform the steps in this article:
    * **Make a required field**: When selected, the field must have a value. Otherwise, the form cannot be submitted. 
    * **Add logic**: Define what conditions must be met in order for the field to display or be hidden.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >   The field type of each field displays at the top of the right panel, after you select the field on the form. 
-   >   
-   >
-   >   Currency, Number, and Percentage fields display as a Single-line text field type. However, the field format is preserved and the values inside these fields will display as Currency, Number, and Percentage values.  
+   >     
 
 1. (Optional) Click the **Content elements** tab on the left side of the form, and add any of the following elements:
 

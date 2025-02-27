@@ -135,3 +135,25 @@ You can install [!DNL Adobe Workfront for design and video] for yourself from th
 1. Click **[!UICONTROL Allow Access]** to finish logging in.
 1. Go back to [!DNL Adobe Photoshop] to see your work.
 
+### Troubleshooting log in errors
+
+**"Something went wrong" error displays when trying to log in**
+
+
+You can't use a URL that starts with `experience.adobe.com` to log into the plugin. 
+
+![log in error](assets/plugin-log-in-error.png) ![domain](assets/incorrect-domain.png)
+
+
+To fix this issue, 
+
+1. Delete the folder that stores the domain for the plugin.
+
+   >[!TIP]
+   >
+   >On a Mac, Go to Finder, press **Command+Shift+.** to display hidden folders, navigate to **/Users//Library/Application Support**, then delete the **Workfront** folder.
+
+
+1. Navigate back to the plugin and enter your Workfront domain. The domain must be `company-name.my.workfront.com` and not `experience.adobe.com`.
+
+   To [find your Workfront domain](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) if you are on the Adobe Unified Experience, go to Setup, Customer info.

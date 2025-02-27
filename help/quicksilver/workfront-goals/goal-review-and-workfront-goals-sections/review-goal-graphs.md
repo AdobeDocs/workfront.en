@@ -107,7 +107,7 @@ The following charts are available in the Graphs section or Workfront Goals:
 
 ## Review goal progress in graphs
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -116,7 +116,7 @@ The following charts are available in the Graphs section or Workfront Goals:
 
 1. Click **Graphs** in the left panel.
 
-   ![](assets/graphs-in-left-panel.png)
+   ![Graphs in left panel](assets/graphs-in-left-panel.png)
 
    The Graphs section displays.
 
@@ -135,7 +135,7 @@ The following charts are available in the Graphs section or Workfront Goals:
 
 1. Review the information in the table below when you review the Goal Health Chart.
 
-   ![](assets/gauge-graph-wf-align-350x230.png)
+   ![Gauge graph](assets/gauge-graph-wf-align-350x230.png)
 
    | Total number of goals |The number at the bottom of the chart indicates the number of all goals in the selected period, in all statuses you selected. |
    |---|---|
@@ -145,7 +145,7 @@ The following charts are available in the Graphs section or Workfront Goals:
    
 1. Review the information in the table below when you review the Goal Progress Chart.
 
-   ![](assets/line-graph-wf-align-350x161.png)
+   ![Line graph](assets/line-graph-wf-align-350x161.png)
 
    <table style="table-layout:auto"> 
     <col> 

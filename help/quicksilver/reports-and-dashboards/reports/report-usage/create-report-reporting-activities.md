@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
 
 ## Create the report about existing reports {#create-the-report-about-existing-reports}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 1. Click **Reports**, then **New Report**.
 1. In the **New Report** drop-down men, select **Report** to create a report on existing reports.
 
