@@ -55,7 +55,7 @@ To add a custom form to a document:
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 
-1. Click the **Summary** icon ![](assets/summary-panel-icon.png), then find the **Details** section. 
+1. Click the **Summary** icon ![Summary icon](assets/summary-panel-icon.png), then find the **Details** section. 
 1. In the **Add custom form** box, begin typing and select a custom form. The form saves automatically to the document.
 
    >[!NOTE]
@@ -67,8 +67,8 @@ To add a custom form to a document:
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 
-1. Click the **Summary** icon ![](assets/summary-panel-icon.png), then find the **Details** section near the top. 
+1. Click the **Summary** icon ![Summary icon](assets/summary-panel-icon.png), then find the **Details** section near the top. 
 1. Click **Edit** in the top-right corner, then expand the desired form.
 1. Make the needed changes, then click **Save**.
 
-   ![](assets/edit-custom-form-350x265.png)
+   ![Edit custom form](assets/edit-custom-form-350x265.png)

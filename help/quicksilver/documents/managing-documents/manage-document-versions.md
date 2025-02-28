@@ -64,7 +64,7 @@ You must have the following:
 
 ## Download a single document version
 
-1. In the Summary, under **Versions**, click the click the More menu ![](assets/more-icon.png) to the right of the version, then click **Download** in the drop-down list that appears.
+1. In the Summary, under **Versions**, click the click the More menu ![More menu](assets/more-icon.png) to the right of the version, then click **Download** in the drop-down list that appears.
 
    ![](assets/more-versions-350x143.png)
 

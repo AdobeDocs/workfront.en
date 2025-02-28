@@ -62,7 +62,7 @@ You can display folders in thumbnail, standard, or list view. To change the view
 ## Edit a Smart Folder&nbsp;
 
 1. Go to the **Documents**&nbsp;area that contains the smart folder that you want to edit.
-1. In the **Folders** column, click the **More** icon ![](assets/more-icon.png) next to the smart folder that you want to edit.
+1. In the **Folders** column, click the **More** icon ![More menu](assets/more-icon.png) next to the smart folder that you want to edit.
 1. Click **Edit**.
 
    The **Edit Smart Folder**&nbsp;dialog box is displayed.  

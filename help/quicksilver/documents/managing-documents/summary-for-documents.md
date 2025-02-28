@@ -50,7 +50,7 @@ You must have the following:
 ## Open the Summary view
 
 1. Go to the **Documents** area and select an item in the list. 
-1. Click the **Open Summary icon** ![](assets/qs-summary-in-new-toolbar-small.png).
+1. Click the **Open Summary icon** ![Open Summary icon](assets/qs-summary-in-new-toolbar-small.png).
 
    After you open the Summary, it stays open as you click on other documents and remains open until you manually close it.
 
