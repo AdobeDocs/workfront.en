@@ -10,8 +10,6 @@ exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
 ---
 # Share a document
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 Your Adobe Workfront administrator grants users access to view or edit documents when they assign access levels, as explained in [Grant access to documents](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
 The access level that the Workfront administrator grants to users allows them to either view or edit documents. In addition to this, other users can also grant others permissions to view or manage specific documents that they uploaded themselves or that they have access to share.
@@ -35,10 +33,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
    * View
    * Manage
-
-  <span class="preview">In preview:
-  ![](assets/document-permissions.png) 
-</span>
+  ![view and manage share dialog](assets/document-permissions.png) 
 
 * You can also share a document publicly or system-wide.
 
