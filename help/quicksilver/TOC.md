@@ -1073,6 +1073,7 @@ feature-set: Workfront
     * [The Documents area](documents/managing-documents/documents-area.md)
     * [Document Details overview](documents/managing-documents/document-details-overview.md)
     * [Summary for documents overview](documents/managing-documents/summary-for-documents.md)
+    * [Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * [Preview documents](documents/managing-documents/preview-documents.md)
     * [Document approvals and proofing](documents/managing-documents/document-approvals-and-proofing.md)
     * [Add an update to a document](documents/managing-documents/add-update-documents.md)
@@ -1481,10 +1482,12 @@ feature-set: Workfront
     * Canvas Dashboard report types {#report-types}
       * [Canvas Dashboard report types overview](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
       * [Add an existing report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-      <!--* [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+<!--
+      * [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
       * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
       * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-      * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
+      * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
+-->
   * Reports {#reports}
     * [Reports](reports-and-dashboards/reports/reports-overview.md)
     * Reporting basics {#report-basics}

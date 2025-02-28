@@ -123,11 +123,11 @@ For more information on creating reports, see [Create a report](../../../reports
 
 ## Built-in time frame modifiers {#built-in-time-frame-modifiers}
 
-Adobe Workfront has built-in time frame modifiers that you can use without defining a specific date.&nbsp;
+Adobe Workfront has built-in time frame modifiers that you can use without defining a specific date.
 
-These modifiers are available for any date field in a filter or a prompt in any report.&nbsp;
+These modifiers are available for any date field in a filter or a prompt in any report.
 
-For more information about how to&nbsp;filter a report by a time frame associated with a date, see&nbsp; [Filter a report by the time frame of a date](#filter-a-report-by-the-time-frame-of-a-date).
+For more information about how to filter a report by a time frame associated with a date, see the above section [Filter a report by the time frame of a date](#filter-a-report-by-the-time-frame-of-a-date).
 
 For example, if you are building an hour report and would like to display hours entered in a specific time frame, you can choose from the following built-in time frame filter options:
 

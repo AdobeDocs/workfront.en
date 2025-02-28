@@ -13,9 +13,7 @@ exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
 
 Adobe Workfront has an extensive list of built-in reports that you can use.
 
-Workfront administrators can hide built-in reports so users do not have access to them.  
-
-For more information about how to hide built-in reports, see [Hide built-in reports](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
+Workfront administrators can hide built-in reports so users do not have access to them. For more information about how to hide built-in reports, see [Hide built-in reports](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
 
 ## Access requirements
 
@@ -61,7 +59,7 @@ You must have the following access to perform the steps in this article:
 
 ## Overview of built-in reports {#overview-of-built-in-reports}
 
-You can customize a built-in report and save it as a new report. For more information about customizing built-in reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+You can create a copy a built-in report and save it as a new report. For more information about creating copies of built-in reports, see [Create a new version of a report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report) in the article [Create a copy of a report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 The following reports come with the Workfront package. The reports are available to all users who have at least View rights to built-in reports in their access level.
 

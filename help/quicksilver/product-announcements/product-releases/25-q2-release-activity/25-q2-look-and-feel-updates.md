@@ -12,6 +12,34 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the Second Quarter 2025 release, see [Second Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
+## Look-and-feel updates to the Workfront Calendar
+
+>[!NOTE]
+>
+>Preview release: February 27, 2025; Production release for all customers: With the 25.3 release (March 2025)
+
+We have updated the look and feel of the Workfront Calendar to a modern design that is consistent with other areas of Workfront. There are small functionality differences from the current Workfront Calendar including:
+
+* How you add ad-hoc items to the calendar
+* How you create and rename the calendar
+* The calendar actions have moved to a More menu next to the calendar name
+* A new side panel for viewing calendar information
+* And more
+
+For more information, see the [Calendars](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md) articles.
+
+## Updated view of a project milestone path in a project view
+
+>[!NOTE]
+>
+>Preview release: February 27, 2025; Production for fast release: With the 25.3 release (March 2025); Production for quarterly release: With the 25.4 release (April 2025)
+
+When accessing the milestone path from a project list or a report, the milestone details page now has a new look and feel. You must add the Milestone Path Name field to the view of the list or report to be able to access the milestone path's details page. 
+
+With this update we have also added information about the colors and color codes of each milestone.  
+
+For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
 ## Temporary look-and-feel changes to document emails 
 
 >[!NOTE]

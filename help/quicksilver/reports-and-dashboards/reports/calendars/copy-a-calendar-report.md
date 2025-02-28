@@ -9,6 +9,8 @@ exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
 ---
 # Copy a calendar report
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span> 
+
 If you created a calendar, you can copy the calendar and use it as a starting point for a new calendar.
 
 Additionally, if you have [!UICONTROL Manage] access to a calendar to which you are not the owner, you can copy the calendar and become the owner of the copied calendar.
@@ -50,7 +52,7 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Copy a calendar report
+## Copy a calendar report in Production
 
 1. Go to the calendar you want to copy.
 1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then select **[!UICONTROL Copy]** from the drop-down list.
@@ -63,3 +65,25 @@ For more detail about the information in this table, see [Access requirements in
    Only you have access to the copied calendar. Users with access to the original calendar do not have access to the copied calendar. You can grant access to the newly-created calendar by sharing it with other users. To learn about sharing calendars, see [[!UICONTROL Share a calendar] report](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 1. (Optional) Rename the calendar.
+
+<div class="preview">
+
+## Copy a calendar report in Preview
+
+1. Go to the calendar you want to copy.
+1. Click the **More** menu next to the Calendar drop-down menu. 
+![calendar more menu](assets/more-menu-calendar.png)
+
+1. Select **[!UICONTROL Copy]** from the drop-down list. The calendar is copied and you are taken to the new copy.
+
+
+>[!NOTE]
+>
+>All the projects and calendar groupings in the original calendar display in the copy of the calendar. Only objects placed by calendar filters export to the newly copied calendar. Any events manually added to the original calendar must be manually added to the copied calendar.
+>&nbsp;
+>
+>Only you have access to the copied calendar. Users with access to the original calendar do not have access to the copied calendar. You can grant access to the newly-created calendar by sharing it with other users. To learn about sharing calendars, see [[!UICONTROL Share a calendar] report](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+
+1. (Optional) Click the **More** menu, then click **Edit** to rename the calendar.
+
+</div>
