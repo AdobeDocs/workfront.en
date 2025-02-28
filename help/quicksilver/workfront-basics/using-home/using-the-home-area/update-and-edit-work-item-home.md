@@ -61,7 +61,7 @@ You must have the following access to perform the steps in this article:
 
 You can view updates on any work item in the [!UICONTROL Work List]:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![Main Menu lines icon](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the item where you want to view updates.\
    Updates are displayed in the right panel.
 
@@ -98,13 +98,13 @@ You can edit work items in the following widgets in the Home area:
 
 You can provide updates on any work item in the [!UICONTROL My Work] widget:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![Main Menu lines icon](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add the [!UICONTROL **My Work**] widget.  
 
 1. Locate the work item that you want to update in the [!UICONTROL **My Work**] widget. 
 1. Hover over the name, then click the **Add new update** icon.
     
-    ![](assets/add-update-on-widget.png)
+    ![Add update on widget](assets/add-update-on-widget.png)
 
 1. Begin typing your comment.
 1. (Optional) In the **Tag people or teams** box, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list.
@@ -126,7 +126,7 @@ You can provide updates on any work item in the [!UICONTROL My Work] widget:
 
 1. Click **Reply**.
 
-   ![](assets/reply-to-comment-in-mentions-widget.png)
+   ![REply to comment](assets/reply-to-comment-in-mentions-widget.png)
 
 1. Begin typing your comment.
 1. (Optional) In the **Tag people** box, start typing the name of a user or a team that you would like to include in this comment, then select it when it displays in the list.
@@ -143,11 +143,11 @@ You can provide updates on any work item in the [!UICONTROL My Work] widget:
 
 You can edit any field on any work item that you have access to edit.
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![Main Menu lines icon](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add the **My Work** widget.  
 
 1. Hover over the work item, then click the **Summary** icon.
-   ![](assets/open-summary-new-home.png)
+   ![Open Summary](assets/open-summary-new-home.png)
 
 1. In the Summary panel, hover over the field you want to edit.
    If you have rights to edit the field, the field is highlighted as you hover over it.

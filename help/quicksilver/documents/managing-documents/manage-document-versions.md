@@ -58,7 +58,7 @@ You must have the following:
 
 1. Near the top of the Document Details page, click the drop-down menu next to the name, then click the name of the version you want to view and manage.
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![Version dropdown in document details](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    Along with viewing the version's Details, you can make changes to the version, such as its name, metadata, and proofing settings (if it's a document proof).
 
@@ -66,7 +66,7 @@ You must have the following:
 
 1. In the Summary, under **Versions**, click the click the More menu ![More menu](assets/more-icon.png) to the right of the version, then click **Download** in the drop-down list that appears.
 
-   ![](assets/more-versions-350x143.png)
+   ![Download a single document](assets/more-versions-350x143.png)
 
 ## Download all versions of a document
 
@@ -99,4 +99,4 @@ To delete a document version:
 
    If the document is linked to an outside source, that link is deleted and the document is no longer accessible through Workfront.
 
-   ![](assets/more-versions-350x143.png)
+   ![delete document version](assets/more-versions-350x143.png)
