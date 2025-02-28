@@ -16,6 +16,62 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Display the record name of a details page of a Workfront Planning request in the browser tab name
+
+>[!NOTE]
+>
+>Preview release: February 27, 2025; Production for fast release: With the 25.3 release (March 2025); Production for quarterly release: With the 25.4 release (April 2025)
+
+We have updated the way the details page of a Workfront Planning request displays in the browser. Now, the name of the record created by the request displays as the browser tab name. Prior to this enhancement, the browser tab displayed "Workfront".
+
+## Unified request workflow for Workfront and Planning
+
+>[!NOTE]
+>
+>Preview release: February 27, 2025; Production for fast release: With the 25.3 release (March 2025); Production for quarterly release: With the 25.4 release (April 2025)
+
+You can now submit both Workfront and Workfront Planning requests in the Requests area of the Main Menu.  
+
+The following features are now available with this update: 
+
+* A new toggle next to the New request button enables this experience in the Requests area. By deselecting the toggle, you can submit only Workfront requests.  
+
+* You can find both Workfront request queues and Workfront Planning request forms in a unified searchable area. 
+
+* The 6 most recent requests display first in the unified searchable area.  
+
+For more information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+
+## Formula fields are now supported in request forms 
+
+>[!NOTE]
+>
+>Preview release: February 27, 2025; Production for fast release: With the 25.3 release (March 2025); Production for quarterly release: With the 25.4 release (April 2025)
+
+You can now add formula fields to a record type request form in Workfront Planning. 
+
+Prior to this enhancement, these types of fields could not be added to request forms. 
+
+For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Updates to the Connection view page of a record
+
+>[!NOTE]
+>
+>Preview release: February 27, 2025; Production for fast release: With the 25.3 release (March 2025); Production for quarterly release: With the 25.4 release (April 2025)
+
+We have updated the Connection view of a record page with the following capabilities: 
+
+* By default, only the first 5 fields of the connected record display in the table view. Prior to this update, all fields displayed. 
+
+* You can now hide columns in the connected record's table view. 
+
+* You can rearrange columns using the Fields icon in the table's toolbar.  
+
+* You can connect and disconnect records.
+
+For more information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+
 ## New expression added to formula fields
 
 >[!NOTE]

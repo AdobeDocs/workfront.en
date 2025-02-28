@@ -17,6 +17,8 @@ With Priorities, you can enjoy
 * Greater productivity: Access project context and perform tasks quicker with fewer clicks
 * Personalized features: Benefit from features uniquely designed for task owners
 
+The Priorities Worklist and Calendar display work items assigned to you. You cannot see work items assigned to your team.
+
 ## Find and organize your work
 
 In Priorities, you can filter and group your work to help you manage deadlines and prioritize your what is important to you. You can also quickly identify Urgent work with the My Focus column.

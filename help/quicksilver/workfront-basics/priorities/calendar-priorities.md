@@ -60,6 +60,8 @@ You must have the following access to perform the steps in this article:
 
 ## View your work in the calendar
 
+Priorities displays work items assigned to you. You cannot see work items assigned to your team in the Priorities calendar.
+
 {{step1-to-priorities}}
 
 1. Click the Calendar icon at the top of the worklist. 

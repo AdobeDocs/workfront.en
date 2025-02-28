@@ -13,7 +13,7 @@ The articles linked from this page describe the current beta programs available 
 
 The following articles contain information about features currently in beta: 
 
-* [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+* [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
 
 
 <!--
