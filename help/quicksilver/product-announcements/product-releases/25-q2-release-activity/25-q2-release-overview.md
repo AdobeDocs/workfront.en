@@ -68,7 +68,6 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Add a comment to projects when editing them in the Edit project box</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>You can now add a comment to a project as you edit it in the Edit Project box. You can also add a comment to multiple projects at one time when editing them in bulk. Prior to this update, this functionality did not exist when editing projects.</p>
         </td>
         <td>
