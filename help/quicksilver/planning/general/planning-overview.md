@@ -23,7 +23,7 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 >
 >The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
 >
->You must have the following to access Workfront Planning:
+>You must have the following to full access to all capabilities in Workfront Planning:
 >
 >* A new Workfront package and license. Workfront Planning is not available for legacy Workfront packages or licenses. 
 >* A Workfront Planning package. 
