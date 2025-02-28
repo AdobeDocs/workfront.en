@@ -194,4 +194,4 @@ You can display the CPI of a project or a task in a project or task list or repo
 
    The CPI displays in the **CPI/ SPI/ CSI** field.
 
-   ![](assets/cpi-on-project-nwe.png)
+   ![CPI on project](assets/cpi-on-project-nwe.png)

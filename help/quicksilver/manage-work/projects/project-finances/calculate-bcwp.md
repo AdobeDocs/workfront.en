@@ -71,7 +71,7 @@ You can configure whether the BCWP is calculated in hours or costs by configurin
 1. Go to a project and expand **Project Details** in the left panel. 
 1. In the **Finance** area, locate the **Performance Index Method** field and double click to edit it.
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![PIM options](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Select from the following options:
 
@@ -119,7 +119,7 @@ You can view the value of the Budgeted Cost of Work Performed in a report or lis
 1. Click **Add Column**.
 1. In the **Show in this column:** field start typing **BCWP** and click to select it when it displays in the list.
 
-   ![](assets/bcwp-project-view.png)
+   ![BCWP in project view](assets/bcwp-project-view.png)
 
 1. Click **Save View**.
 1. The BCWP field displays in the view.

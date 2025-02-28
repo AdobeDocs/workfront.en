@@ -143,15 +143,15 @@ You can recalculate the finances of projects in Workfront from the project page 
 
 You can recalculate the finances while editing them in bulk. For information, see the [Manually recalculate finances in bulk](#manually-recalculate-finances-in-bulk) section in this article.
 
-1. Go to the project where you want to recalculate finances and click the **More** icon ![](assets/qs-more-icon-on-an-object.png) to the right of the project name.
+1. Go to the project where you want to recalculate finances and click the **More** icon ![More menu](assets/qs-more-icon-on-an-object.png) to the right of the project name.
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Project level more dropdown](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Or
 
-   Go to a project list or report and select one or several projects, then click the **More** icon ![](assets/qs-more-icon-on-an-object.png) at the top of the list.
+   Go to a project list or report and select one or several projects, then click the **More** icon ![More menu](assets/qs-more-icon-on-an-object.png) at the top of the list.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalculate expressions](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -175,9 +175,9 @@ You can manually recalculate the finances of several projects by editing them in
 To manually recalculate the finances of several projects:
 
 1. Go to a list of projects.
-1. Select several projects in the list, then click the **More** icon ![](assets/qs-more-icon-on-an-object.png) at the top of the list.
+1. Select several projects in the list, then click the **More** icon ![More menu](assets/qs-more-icon-on-an-object.png) at the top of the list.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalculate expressions](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -201,4 +201,4 @@ The following actions trigger the financial recalculation of projects in Workfro
 >
 >When you change the project status, only the planned values are being recalculated.
 
-You can also recalculate finances manually under the **More** menu ![](assets/qs-more-menu.png) at the project level, by clicking **Recalculate Finances**.
+You can also recalculate finances manually under the **More** menu ![More menu](assets/qs-more-menu.png) at the project level, by clicking **Recalculate Finances**.
