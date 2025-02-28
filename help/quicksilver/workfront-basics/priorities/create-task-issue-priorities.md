@@ -62,8 +62,8 @@ To create a task or issue in a project:
 {{step1-to-priorities}}
 
 1. Click **Create new** in the upper-right corner.
-  ![](assets/create-new.png)
-  new screen for prod ![](assets/create-new--.png)
+  ![Create new](assets/create-new.png)
+  new screen for prod ![Create new (production)](assets/create-new--.png)
 1. Specify the following information:
 
     | Field         | Instructions       |

@@ -52,21 +52,21 @@ You must have the following access to perform the steps in this article:
 
 ## Mark a work item as Done in the My Work widget
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add the **My Work** widget.
 1. Find the work item, then click **[!UICONTROL Mark as Done]** on the work item.
    See [Understand the options of the [!UICONTROL Done] button](#understand-the-options-of-the-done-button) for more detailed information about how this button might appear.
-   ![](assets/my-work-done.png)
+   ![My Work Mark as Done](assets/my-work-done.png)
 
 
 ## Mark a work item Done in the Summary panel
 
 You can mark a work item as Done in the My Tasks and My Issues widget using the Summary panel.
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add the **My Tasks** or **My Issues** widgets.
 1. Hover over the work item, then click the **Summary** icon.
-   ![](assets/open-summary-new-home.png)
+   ![Open Summary](assets/open-summary-new-home.png)
 1. Click **Mark as done** at the top of the Summary panel.
 
 
@@ -107,5 +107,5 @@ If the Done button is associated with multiple statuses, they are listed under *
 >
 >On a task or issue with multiple assignees, each user is responsible for indicating that their own assignment on the task or issue has actually been completed. For this reason, each assignee must click [!UICONTROL Done] to show they have completed the work assigned to them on the item.
 
-![](assets/done-with-my-part.png)
+![Done with my part](assets/done-with-my-part.png)
 

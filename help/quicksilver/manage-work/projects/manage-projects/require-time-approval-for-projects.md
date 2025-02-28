@@ -74,7 +74,7 @@ You must have the following access to perform the steps in this article:
 To require project manager approval for hours on the project:
 
 1. Go to the project where you want to require approval for hours.
-1. Click the **More** icon ![](assets/more-icon.png) to the right of the project name, then click **Edit**.  
+1. Click the **More** icon ![More icon](assets/more-icon.png) to the right of the project name, then click **Edit**.  
    The Edit Project dialog box displays.
 
 1. In the **Project Settings** section, select **Require time to be approved for this project**. 

@@ -81,9 +81,9 @@ You can copy a single template task or you can copy several template tasks in bu
 1. Do one of the following:
     * Click the name of a template task to open it.
     * Select one or several template tasks in the list. 
-1. (Conditional) Click the **More** menu ![](assets/more-icon.png) at the top of the template task list or to the right of the template task name if you opened the task, then click **Copy to** or **Copy**, depending where you are accessing the Copy option from. 
+1. (Conditional) Click the **More** menu ![More icon](assets/more-icon.png) at the top of the template task list or to the right of the template task name if you opened the task, then click **Copy to** or **Copy**, depending where you are accessing the Copy option from. 
     The Copy Template Task box opens.
-    ![](assets/copy-template-task-box-unshimmed.png)
+    ![Copu template task box](assets/copy-template-task-box-unshimmed.png)
 1. (Optional) Rename the template task in the **Template Task Name** field.
 
    >[!TIP]
@@ -204,9 +204,9 @@ You can move a template task either to another template task in the same templat
 1. Do one of the following:
     * Click the name of a template task to open it.
     * Select one or several template tasks in the list. 
-1. (Conditional) Click the **More** menu ![](assets/more-icon.png) at the top of the template task list or to the right of the template task name if you opened the task, then click **Move to** or **Move**, depending where you are accessing the Move option from. 
+1. (Conditional) Click the **More** menu ![More icon](assets/more-icon.png) at the top of the template task list or to the right of the template task name if you opened the task, then click **Move to** or **Move**, depending where you are accessing the Move option from. 
     The Move Template Task box opens.
-    ![](assets/move-template-task-box-unshimmed.png)
+    ![Move template task box](assets/move-template-task-box-unshimmed.png)
 
 1. (Optional) Rename the template task in the **Template Task Name** field.
 

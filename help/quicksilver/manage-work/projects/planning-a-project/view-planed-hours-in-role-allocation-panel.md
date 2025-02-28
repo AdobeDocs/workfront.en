@@ -94,7 +94,7 @@ You must have the following:
 
 ## View project Planned Hours in the Role Allocation panel
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Projects**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Projects**.
 1. Click the name of a project to access it.&nbsp;This opens the Project page. 
 1. Click one of the following in the left panel:
 

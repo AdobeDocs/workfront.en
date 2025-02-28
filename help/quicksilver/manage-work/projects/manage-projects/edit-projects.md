@@ -813,7 +813,7 @@ For more information about editing the Access area, see the section [Access](#ac
 
 To edit projects in bulk:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
 1. Click **Projects**.  
 1. Select several projects in the list.
@@ -821,7 +821,7 @@ To edit projects in bulk:
 
    The **Edit Projects** dialog box opens.
 
-   ![](assets/edit-projects-in-bulk-nwe-350x303.png)
+   ![Edit projects in bulk](assets/edit-projects-in-bulk-nwe-350x303.png)
 
 1. Specify the information on all selected projects in the following sections:
 
@@ -892,8 +892,8 @@ To edit projects in bulk:
 
 1. (Optional) Click **Comment**, then select the Post an update to each project box and specify a comment that you want to display in the updates stream of the project in the available field and do one of the following:
 
-   * Click the **People** icon ![](assets/people-icon-updates-classic.png) to tag a user who will be notified about your comment.
-   * Click the **Lock** icon ![](assets/lock-icon-open-updates-classic.png) to restrict your comment only to people within your company.
+   * Click the **People** icon ![People icon](assets/people-icon-updates-classic.png) to tag a user who will be notified about your comment.
+   * Click the **Lock** icon ![Lock icon](assets/lock-icon-open-updates-classic.png) to restrict your comment only to people within your company.
 
    This comment is visible for everyone with View access to the project and with access to view Notes.
 

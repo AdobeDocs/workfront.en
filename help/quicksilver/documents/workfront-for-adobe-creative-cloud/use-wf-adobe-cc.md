@@ -95,7 +95,7 @@ Consider the following when uploading or exporting a file from Adobe Creative Cl
 * Your Access Level must permit uploading documents to Workfront. For more information, see [Grant access to documents](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 * You must have permissions to upload documents to the item where you want it. For more information, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 * The file uploads to the Documents area for the Workfront object that you select. 
-* You cannot export a document to the Documents area in the Main Menu ![](assets/main-menu-icon.png) from an Adobe Creative Cloud application.
+* You cannot export a document to the Documents area in the Main Menu ![Main Menu icon](assets/main-menu-icon.png) from an Adobe Creative Cloud application.
 
 The following sections explain the following:
 
@@ -129,7 +129,7 @@ You can upload your files to a project, task, or issue without leaving your Adob
 
 1. (Optional) Type a new name for the file.
 
-   ![](assets/rename-file-uploading.png)
+   ![Rename file](assets/rename-file-uploading.png)
 
 1. Click **Upload**.
 
@@ -159,7 +159,7 @@ You can upload your files to a project, task, or issue without leaving your Adob
 1. (Conditional) If the work item where you want to upload the file has document folders, select a document folder in the**Click to select a document folder** field, then click **Select**.
 1. (Optional) To rename the document, click the document name and type a new name.
 
-   ![](assets/rename-doc-exporting.png)
+   ![Rename document when exporting](assets/rename-doc-exporting.png)
 
 1. Click **Export**.
 
@@ -205,7 +205,7 @@ You can upload your files to a project, task, or issue without leaving your Adob
    >The name of the document in Workfront is populated by default and cannot be edited. Nor does it change to the name of the file you upload or export as a new version.
    >
    >
-   >![](assets/doc-name-cant-be-changed.png)
+   >![Document name can't be changed](assets/doc-name-cant-be-changed.png)
 
 ## Comment on a Workfront document from Illustrator or InDesign {#comment-on-a-workfront-document-from-illustrator-or-indesign}
 
@@ -270,7 +270,7 @@ To request an approval on a document from an Adobe application:
 
    * Type the name of an approver, then select it when it displays in the list.
 
-     ![](assets/adobe-cc-adding-a-doc-approver-350x189.png)
+     ![Add a document approver](assets/adobe-cc-adding-a-doc-approver-350x189.png)
 
    * Type the email address of an external user.
 
@@ -344,7 +344,7 @@ If your organization uses Automated Workflow templates, you can generate a proof
 
 1. From the Adobe application, click **Window** > **Extensions** > **Workfront**.
 
-1. Click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the panel.  
+1. Click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the panel.  
 
 1. (Optional) Click **Feedback** to open a brief survey and send Workfront your feedback about Workfront for Adobe Creative Cloud.
 1. Click **Logout**.  

@@ -71,15 +71,15 @@ You must have the following to perform the steps described in this article:
 
 You can attach a template to a project in Workfront from the project page or from a project list or report.
 
-1. Go to the project where you want to attach a template and click the **More** icon ![](assets/qs-more-icon-on-an-object.png) to the right of the project name
+1. Go to the project where you want to attach a template and click the **More** icon ![More icon](assets/qs-more-icon-on-an-object.png) to the right of the project name
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![More dropdown](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Or
 
-   Go to a project list or report and select a project then click the **More** icon ![](assets/qs-more-icon-on-an-object.png) at the top of the list.
+   Go to a project list or report and select a project then click the **More** icon ![More icon](assets/qs-more-icon-on-an-object.png) at the top of the list.
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![More menu expanded](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
    
 1. Click **Attach Template**.
@@ -100,16 +100,16 @@ You can attach a template to a project in Workfront from the project page or fro
    * Total number of tasks 
    * Names of attached custom forms
 
-   ![](assets/attach-template-box-template-preview-area-nwe-350x282.png)
+   ![Attach template box](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. (Optional) Click the **Favorites** icon ![](assets/favorites-icon-small.png) to the left of the template name to mark it as a favorite. This moves the template in the Favorites list.
+1. (Optional) Click the **Favorites** icon ![Favorites icon](assets/favorites-icon-small.png) to the left of the template name to mark it as a favorite. This moves the template in the Favorites list.
 
-   ![](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+   ![Favorites icon on template list](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
 
-1. (Optional)&nbsp;Click the **Favorites** icon ![](assets/favorites-icon-selected.png) again to remove it from the Favorites list. 
+1. (Optional)&nbsp;Click the **Favorites** icon ![Favorites icon](assets/favorites-icon-selected.png) again to remove it from the Favorites list. 
 1. Click **Customize and attach**.
 
-   ![](assets/attach-template-large-box-nwe-350x262.png)
+   ![Attach template](assets/attach-template-large-box-nwe-350x262.png)
 
 1. Update information in the following sections before attaching the template (or, click **Attach Template** at any time):
 
@@ -187,6 +187,6 @@ To understand what template is applied to a project:
 1. Click **Project Details** in the left panel.
 1. Find the name of the template attached to the project in the **Template** field at the bottom of the **Overview** section under **Project relationships** .
 
-   ![](assets/nwe-template-info-on-project-350x356.png)
+   ![Template info on project](assets/nwe-template-info-on-project-350x356.png)
 
 
