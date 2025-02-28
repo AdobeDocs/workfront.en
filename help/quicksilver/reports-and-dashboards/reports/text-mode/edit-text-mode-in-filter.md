@@ -81,7 +81,7 @@ For information about creating a report, see [Create a custom report](../../../r
 
 1. Do one of the following:
 
-   To access the filter from a list, go to the list and click the **Filter** icon, then hover over the filter in the side **Filters** side panel that you want to modify and click the **Edit** icon ![](assets/edit-icon.png). Either the **Filters** side panel displays your selected filter or the legacy filter builder opens.
+   To access the filter from a list, go to the list and click the **Filter** icon, then hover over the filter in the side **Filters** side panel that you want to modify and click the **Edit** icon ![Edit icon](assets/edit-icon.png). Either the **Filters** side panel displays your selected filter or the legacy filter builder opens.
 
    OR
 

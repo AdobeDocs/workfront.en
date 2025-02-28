@@ -21,7 +21,7 @@ In this project view you can:
 * Display the Project Owner in parentheses after the Project Name.
 * Display the Project Name as a link to the project.
 
-![](assets/project-multi-row-stacked-view-350x219.png)
+![Project row with stacked view](assets/project-multi-row-stacked-view-350x219.png)
 
 ## Access requirements
 

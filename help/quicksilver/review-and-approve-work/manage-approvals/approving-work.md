@@ -60,7 +60,7 @@ For more information about viewing items awaiting approvals or items that you ha
 
 ## Approve work from the Home area
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add the **My Approvals** widget.
 1. (Conditional) Click the **Filter** drop-down menu, then select **All** to see approvals assigned and delegated to you.
 
@@ -71,7 +71,7 @@ For more information about viewing items awaiting approvals or items that you ha
 
 1. Select the item where you want to make an approval decision.
 
-   ![](assets/my-approvals-widget.png)
+   ![My Approvals widget](assets/my-approvals-widget.png)
 
 1. Click one of the available options when making an approval decision in the right panel. The following options display in the upper-right corner of the page, depending on the type of item you are approving:
 
@@ -140,7 +140,7 @@ To approve work directly from a project, task, or issue:
 
    Approval information regarding the current approval process of a project, task, or issue displays in the item's header.
 
-   ![](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
+   ![Current approval process in project header](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
 
    The following approval information is available:
 
@@ -166,8 +166,8 @@ To approve work directly from a project, task, or issue:
 
 1. Go to the documents area that contains the document that requires your approval.
 1. Select the document, then click **Approve**,&nbsp;**Changes**, or **Reject**.  
-   ![](assets/approval-approve-document-350x215.png)  
-   ![](assets/document-approval-350x199.png)  
+   ![Approve document](assets/approval-approve-document-350x215.png)  
+   ![Document approval](assets/document-approval-350x199.png)  
 
 1. (Optional) If a proof has been generated for the document, you can approve the document within the proofing interface, as described in [Approve a document from a proof](#approve-a-document-from-a-proof).
 
@@ -179,7 +179,7 @@ Depending on your notification settings, you may receive emails notifying you ab
 1. Do any of the following to review the document:
 
    * View the metadata about the document.
-   * If a proof has been created for reviewing the document with markup and comments, click **Open proof** ![](assets/open-proof-icon-qs.png) near the upper right corner and review the proof.    
+   * If a proof has been created for reviewing the document with markup and comments, click **Open proof** ![Open proof](assets/open-proof-icon-qs.png) near the upper right corner and review the proof.    
    
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   

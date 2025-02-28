@@ -91,7 +91,7 @@ You can review goals in any section of Workfront Goals.&nbsp;For information abo
 
 This article describes how to review goals in the Goal List.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -118,7 +118,7 @@ This article describes how to review goals in the Goal List.
 
 1. Hover over the progress bar indicator to see what the actual progress percentage is and what the expected value is for the current day.
 
-   ![](assets/goal-progress-hover-over-detail-unshimmed.png)
+   ![GOal progress hover detail](assets/goal-progress-hover-over-detail-unshimmed.png)
 
 1. (Optional) Use the filters to find goals that belong to a specific owner.
 
@@ -128,7 +128,7 @@ This article describes how to review goals in the Goal List.
 
    For information about updating results and activities, see [Update goal progress in Adobe Workfront Goals](../goal-review-and-workfront-goals-sections/check-in-goals.md)
 
-   ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
+   ![Actual progress](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 
    >[!NOTE]
    >

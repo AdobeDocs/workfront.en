@@ -99,7 +99,7 @@ To create a new version of a proof:
 
    Select the row where the proof is listed, click **Add new** > **Version**, then click the option you want to use to add the new version of the proof.
 
-   ![](assets/add-new-version-350x185.png)
+   ![Add new version](assets/add-new-version-350x185.png)
 
 ## Create a new version of a proof from the proofing viewer (Workfront Proof only)
 

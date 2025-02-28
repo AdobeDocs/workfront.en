@@ -11,6 +11,8 @@ exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
 
 You can save links that you visit often in a task or issue and access from the Overview tab in Priorities. 
 
+Priorities displays work items assigned to you. You cannot see work items assigned to your team.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.

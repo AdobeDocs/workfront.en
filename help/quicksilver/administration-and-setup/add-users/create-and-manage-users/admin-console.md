@@ -22,7 +22,10 @@ As an Adobe administrator, you can create Adobe Workfront system administrators 
 
 >[!NOTE]
 >
->We recommend adding non-system administrator users directly in Workfront. It is possible to add users in the Adobe Admin Console, but adding them in Workfront allows you to set their access level while creating them, which can save you time.
+>* **Workfront Administrators must be configured in the Adobe Admin Console.** For information and instructions, see [Create system administrators in Workfront with the Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console) in this article.
+>* **If your organization uses Single Sign-on (SSO)**, we recommend creating users and assigning them to Workfront in the Adobe Admin Console. Creating these users in Workfront is possible, but there may be issues transferring that information to the Adobe Admin Console, based on how your organization's Admin Console is configured. 
+>   After creating the user in the Adobe Admin Console, you can configure the user's information in Workfront, such as assigning roles, groups, teams, and access levels.
+>* **If your organization does not use Single Sign-on (SSO)**, you can add non-system administrator users directly in Workfront. It is possible to add users in the Adobe Admin Console, but adding them in Workfront allows you to set their access level while creating them, which can save you time.
 
 <span class="preview">When making changes to users' profiles from the Admin Console, an update is added to the System activity tab of the user in Workfront. The update shows as made by the "System". This refers to the Adobe Admin Console administrator and not to the Workfront main Administrator.</span> 
 
@@ -91,6 +94,8 @@ Before using the Admin Console for Workfront, you should receive an email inviti
   >[!IMPORTANT]
   >
   >Do not make any changes to the Product Profile itself.
+
+* Adobe Admin Console administrators can set up automatic assignment rules to automate the process of assigning Adobe products to users in their organization. Your organization must be migrated to the Adobe Unified Experience to use this functionality. For more information and instructions, see [Manage automatic assignment rules](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) in the Adobe documentation.
 
 ## Access the user and admin area for your Production instance of Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 

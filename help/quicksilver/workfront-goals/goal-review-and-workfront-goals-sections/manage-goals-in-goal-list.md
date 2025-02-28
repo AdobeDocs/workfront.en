@@ -95,7 +95,7 @@ Consider the following when reviewing the Goal List:
 
 ### Manage the Goal List in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -149,14 +149,14 @@ Consider the following when reviewing the Goal List:
 
    An arrow displays to the right of the field by which the list is sorted.
 
-   ![](assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png)
+   ![Goal list with goal expanded](assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png)
 
 1. (Optional) Click the field in the column again to sort the same column in a descending order. 
 1. Click the right-pointing arrow to the left of the goal name to expand a goal
 
    Or
 
-   Click the right-pointing arrow ![](assets/right-pointing-arrow.png) in the header of the list to expand all the goals in the list and view additional information about each goal, including any of the following:
+   Click the right-pointing arrow ![Right-pointing arrow](assets/right-pointing-arrow.png) in the header of the list to expand all the goals in the list and view additional information about each goal, including any of the following:
 
    * Results names, owners, and progress
 
@@ -184,12 +184,12 @@ Consider the following when reviewing the Goal List:
 
    For more information, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
 
-1. Click the **Alignment icon** ![](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+1. Click the **Alignment icon** ![Alignment icon](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 -->
 
 To manage goals in the Goal List: 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png)  in the upper-right corner, then click **Goals**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png)  in the upper-right corner, then click **Goals**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -226,7 +226,7 @@ To manage goals in the Goal List:
 
       For information, see [Calculate goal progress in Adobe Workfront Goals](../goal-management/calculate-goal-progress.md). 
 
-1. Click the filter icon ![](assets/filter-icon.png) in the upper-right corner of the goal list and apply filters to display only goals that are important to you. 
+1. Click the filter icon ![Filter icon](assets/filter-icon.png) in the upper-right corner of the goal list and apply filters to display only goals that are important to you. 
 
    For information about using filters in Workfront Goals, see [Filter information in Adobe Workfront Goals](../goal-management/filter-information-wf-goals.md).
 
@@ -236,10 +236,10 @@ An arrow displays to the right of the field by which the list is sorted.
 1. (Optional) Click the field in the column again to sort the same column in a descending order.
 1. Click the name of a goal to open the goal's page. 
 1. Select one goal in the list, then click one of the following options at the top of the list:
-   * **Edit** icon ![](assets/edit-icon.png) to edit information about the goal. For information, see [Edit goals in Adobe Workfront Goals](../goal-management/edit-goals.md). 
-   * **Share** icon ![](assets/share-icon.png) to share the goal with other people. For information, see [Share a goal in Adobe Workfront Goals](../workfront-goals-settings/share-a-goal.md). 
-   * **Open alignment** icon ![](assets/align-icon-unshimmed.png) to open the Goal Alignment area. This option displays only when the goal you select is aligned to another goal. 
-   * **Delete** icon ![](assets/delete-icon.png) to delete the goal, then click **Delete** to confirm.  For information, see [Delete and deactivate goals in Adobe Workfront Goals](../goal-management/delete-and-deactivate-goals.md).
+   * **Edit** icon ![Edit icon](assets/edit-icon.png) to edit information about the goal. For information, see [Edit goals in Adobe Workfront Goals](../goal-management/edit-goals.md). 
+   * **Share** icon ![Share icon](assets/share-icon.png) to share the goal with other people. For information, see [Share a goal in Adobe Workfront Goals](../workfront-goals-settings/share-a-goal.md). 
+   * **Open alignment** icon ![Open alignment icon](assets/align-icon-unshimmed.png) to open the Goal Alignment area. This option displays only when the goal you select is aligned to another goal. 
+   * **Delete** icon ![Delete icon](assets/delete-icon.png) to delete the goal, then click **Delete** to confirm.  For information, see [Delete and deactivate goals in Adobe Workfront Goals](../goal-management/delete-and-deactivate-goals.md).
 
    
 

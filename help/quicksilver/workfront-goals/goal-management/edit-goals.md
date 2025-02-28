@@ -98,9 +98,9 @@ Editing goals differs depending on what environment you use.
 ### Edit goals in the Production environment
 
 1. Go to a goal that you want to edit and click the goal name to open the **Goal Details** panel. 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Edit**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Edit**.
 
-   ![](assets/edit-goal-highlighted.png)
+   ![Edit goal](assets/edit-goal-highlighted.png)
 
 1. Update the name of the goal in the **Goal** field. 
 1. Select a time period when the goal should be completed.
@@ -138,17 +138,17 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click **Goals**.  
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png), then click **Goals**.  
 A list of goals displays.
 1. Click a goal.  
    The goal page displays. 
 
-   ![](assets/goal-page-unshimmed.png)
+   ![Goal page](assets/goal-page-unshimmed.png)
 
 1. Do one of the following to edit information for the goal:
     * Click fields that display in the goal header to update them. Not all fields in the header are editable. 
-    * Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Edit**. 
-    * Click **Goal details** in the left panel and click the **Edit icon** ![](assets/edit-icon.png) in the upper-right corner, then click **Edit all**. Start updating fields in the Goal details section. 
+    * Click the **More icon** ![More icon](assets/more-icon.png) to the right of the goal name, then click **Edit**. 
+    * Click **Goal details** in the left panel and click the **Edit icon** ![Edit icon](assets/edit-icon.png) in the upper-right corner, then click **Edit all**. Start updating fields in the Goal details section. 
     
       >[!IMPORTANT]
       >

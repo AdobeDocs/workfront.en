@@ -66,7 +66,7 @@ You must have the following access to perform the steps in this article:
 
 To build a report with this view:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Reports**. 
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** icon ![Main Menu lines](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Reports**. 
 
 1. Click **New Report** > **More** > **Work Item** from the drop-down menu.
 

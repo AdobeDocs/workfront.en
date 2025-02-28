@@ -64,4 +64,4 @@ For more detail about the information in this table, see [Access requirements in
 
 
 <!-- Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
-![](assets/assign-template.png)-->
+![Assign template](assets/assign-template.png)-->

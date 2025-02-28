@@ -56,7 +56,7 @@ Consider the following when creating plans:
 
 You can review job role general information for plans that indicates the amount of job roles available for the plan, as well as the amount of job roles required for the initiatives to complete. You can view this information in the [!UICONTROL Job Roles] box in the plan's header.
 
-![](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
+![Job role box on plan](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
 
 You can view the following in the job role box:
 
@@ -72,7 +72,7 @@ For information about accessing a plan and viewing detailed information about jo
 
 You can review financial information about a plan, specifically its planned budget, how that budget is utilized and what the Net Value of the plan is. The Net Value of a plan is based on the Net Value of its initiatives. You can view this information in the [!UICONTROL Financial] and [!UICONTROL Summary] boxes in the plan's header.
 
-![](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
+![Budget and net value boxes](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
 
 You can view the following in the [!UICONTROL Financial] and [!UICONTROL Summary] boxes on the plan: 
 

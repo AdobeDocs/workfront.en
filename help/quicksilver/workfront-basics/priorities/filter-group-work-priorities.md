@@ -11,6 +11,8 @@ exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
 
 You can use filters to find the work you are looking for and then apply a grouping to keep it organized. 
 
+Priorities displays work items assigned to you. You cannot see work items assigned to your team in the Priorities worklist.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.

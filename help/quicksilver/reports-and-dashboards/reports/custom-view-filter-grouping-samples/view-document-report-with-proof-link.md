@@ -14,7 +14,7 @@ exl-id: a38c5e86-9789-41ca-a832-2ee5eb0a570b
 
 In this document view, you can insert a link to a proof of the current version of the document.
 
-![](assets/view-document-with-proof-link-350x92.png)
+![View document with proof link](assets/view-document-with-proof-link-350x92.png)
 
 ## Access requirements
 

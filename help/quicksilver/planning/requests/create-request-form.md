@@ -13,11 +13,10 @@ exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 {{planning-important-intro}}
 
@@ -109,6 +108,40 @@ You must have the following access to perform the steps in this article:
 
 +++
 
+## Field and value display limitations in request forms
+
+There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+
+For information about submitting Workfront Planning requests, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+
+* The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: 
+
+   * You cannot add fields of the following types to a request form:
+   
+      * Created by and Last modified by
+      * Created date and Last modified date
+      * Formula. <span class="preview">Formula fields are supported in the Preview environment.</span>
+      * Workfront objects' lookup fields
+      * Workfront Planning connected records' lookup fields
+
+* The following are differences between how field formats display in the request form builder and how the fields' values are formatted on the record or in the request details page:
+
+   * Currency, Number, and Percentage fields display as a Single-line text field type in the form builder. 
+
+      However, the field format is preserved and the values of the numbers in these fields will display as Currency, Number, and Percentage values on the record type and in the request details page.
+
+<div class="preview">
+
+* The following describe how some field values display on request forms and the request details pages: 
+
+   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
+   * People field values display as IDs.
+   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
+   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
+   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
+
+</div>
+
 ## Create a request form for a record type
 
 {{step1-to-planning}}
@@ -121,7 +154,7 @@ You must have the following access to perform the steps in this article:
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
 
-1. Click the **More** menu ![](assets/more-menu.png) to the right of the record type name in the page header, then click **Create request form**.
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Create request form**.
 1. Update the name of the request form. By default, the name of the form is **Untitled form**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?--> 
 1. (Optional) Add a **Description** for the request form. 
 
@@ -129,41 +162,13 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Create**. The request form for the selected record type opens in the Form tab. 
 
-   ![](assets/campaigns-request-form-edit-mode.png)
+   ![Campaigns request form edit mode](assets/campaigns-request-form-edit-mode.png)
 
    The request form contains the following information, by default:
 
    * Record fields available in the table view of the selected record type. <!--they are working on removing the limitation below-->
-
-   <!-- when we go to prod, the Preview batch below will become the only batch-->
-
-   >[!IMPORTANT]
-   >
-   >Fields of the following types do not display in the request form:
-   >
-   >* Created by and Last modified by
-   >* Created date and Last modified date
-   >* Formula
-   >* Workfront objects' lookup fields
-   >* Workfront Planning connected records' lookup fields
-   >
-
-   <!--before release to prod: 
-    > Depending on what environment you use to create a request form, the following scenarios exist:
-   >
-   >* Fields of the following types do not display in the request form in the Production environment: 
-   >
-   >    * Created by and Last modified by
-   >    * Created date and Last modified date
-   >    * Formula
-   >    * People 
-   >    * Workfront connected fields
-   >    * Workfront objects' lookup fields
-   >    * Workfront Planning records' connected fields
-   >    * Workfront Planning connected records' lookup fields
-   >    * AEM Assets connection fields-->
    
-   * **Default section**: This is the default section break that Workfront applies to the request form. The Default section cannot be renamed or removed. 
+   * **Default section**: This is the default section break that Workfront applies to the request form. All record fields display in the **Default section** area. 
    * **Subject** field: The field which will identify the request in Workfront. The configuration and the value of the Subject field are not editable.
 
       >[!TIP]
@@ -176,7 +181,14 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Hover over any fields on the form that you want to remove, then click the **x** icon to remove them. They are added to the **Fields** tab to the left of the form. 
 
-   For example, remove the **Subject** field, as this is not visible in Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
+   For example, remove the **Subject** field, as this is not visible in Workfront Planning. <!--remove this example if this becomes visible in Planning?-->
+
+1. (Optional) To remove the **Default section** from the form, do the following:
+
+   1. Remove all fields from the Default Section. 
+   1. Click **Content elements** and add a new section, then add a name for the section. 
+   1. Add fields to the new section. 
+   1. Click the **x** icon to remove the **Default section**. 
 1. Click any field, then use the controls in the right panel in the form to define their size, or any of the following information:
 
    * **Label**: This is the name of the field as it will appear on the request form. This does not change the name of the record field.
@@ -184,12 +196,10 @@ You must have the following access to perform the steps in this article:
    * **Make a required field**: When selected, the field must have a value. Otherwise, the form cannot be submitted. 
    * **Add logic**: Define what conditions must be met in order for the field to display or be hidden.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >   The field type of each field displays at the top of the right panel, after you select the field on the form. 
-   >   
-   >
-   >   Currency, Number, and Percentage fields display as a Single-line text field type. However, the field format is preserved and the values inside these fields will display as Currency, Number, and Percentage values.  
+   >     
 
 1. (Optional) Click the **Content elements** tab on the left side of the form, and add any of the following elements:
 
@@ -202,7 +212,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
 
-   ![](assets/configuration-tab.png)
+   ![Configuration tab](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
@@ -213,7 +223,7 @@ You must have the following access to perform the steps in this article:
 
       For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
 
-1. (Optional) Click the **More** menu ![](assets/more-menu.png) to the right of the form's name in the header, then click **Edit** to update the name of the form.
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the form's name in the header, then click **Edit** to update the name of the form.
 1. Click **Publish** to publish the form and obtain a unique link for it. 
 
    The following things occur:
@@ -224,7 +234,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Share** to share the form with others. 
 
-      ![](assets/share-box-for-request-form.png)
+      ![Share box for request form](assets/share-box-for-request-form.png)
 
 1. Select from the following options to indicate which types of users can access this form: 
 
@@ -236,7 +246,7 @@ You must have the following access to perform the steps in this article:
    >
    >* When you select **Anyone with the link**, anyone can access the form and submit a new record, even people outside your organization that don't have a Workfront account. 
    >
-   > * A form that contains the following field types cannot be shared publicly:
+   >* A form that contains the following field types cannot be shared publicly:
    >
    >     * Workfront or AEM Assets Connections
    >     * People
@@ -244,9 +254,14 @@ You must have the following access to perform the steps in this article:
 
 1. (Conditional) If you selected **Anyone with the link** in the previous step, select the **Link expiration date** from the available calendar. People will receive an error after the link expires and you must update the link date and generate a new link to share before people can access the form again. 
 
-   You can select future dates within 180 days from the current date.     
+   You can select future dates within 180 days from the current date.  
 
-1. Click **Save and copy link** to save the sharing details for the form. If the form was previously saved, click **Copy link**.
+   >[!TIP]
+   >
+   ><span class="preview">After the sharing date expires, the request form is no longer available in the Requests area of Workfront.</span>    
+
+
+1. <span class="preview">(Optional)</span> Click **Save and copy link** to save the sharing details for the form. If the form was previously saved, click **Copy link**.
 
    The form sharing options are saved and the link is copied to your clipboard. You can now share it with others.
 
@@ -256,11 +271,15 @@ You must have the following access to perform the steps in this article:
 1. Click the left-pointing arrow to the left of the form's name in the header to close the form. 
 
    The record type page opens. 
-1. (Optional) Click the **More** menu ![](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
    * Click **Update request form** to make any changes to the request form.
    * Click **Copy link to request form**  to share the link to the form with others. 
+
+   Or
+
+   * <span class= "preview"> Go to the **Requests** area in Workfront and find the shared form to submit a request. For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).</span> 
 
    >[!TIP]
    >
    >There is an indication that the link is publicly shared when this is the case.
-   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+   >![Publicly shared link to form on record type menu](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)

@@ -11,6 +11,8 @@ exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
 
 You can view project, task, and issue details in the priorities worklist.
 
+Priorities displays work items assigned to you. You cannot see work items assigned to your team.
+
 >[!IMPORTANT]
 >
 >Projects must be in Current status or a status that equates current in order to display projects as well as their child tasks and issues. 

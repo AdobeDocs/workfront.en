@@ -86,7 +86,7 @@ For instructions on creating a report, see [Create a report](../../../reports-an
 
 1. Click the **Report Settings** button.
 1. Click the **Report Prompts** tab, then click **Add a Prompt**.  
-   ![](assets/create-report-prompt-tab.png)
+   ![Report prompts tab](assets/create-report-prompt-tab.png)
 
 1. (Conditional) Select the field that you want the prompt to be based on. Start typing the name of the field, then click to select it when it appears in the list.  
    The options available to users running the report will differ depending on the field you select.  
@@ -138,7 +138,7 @@ To run a report with a prompt:
 
 1. Go to the report with the prompt.
 
-   ![](assets/run-report-prompts.png)
+   ![Run report prompts](assets/run-report-prompts.png)
 
 1. Choose a condition for one or all the prompts displayed on the **Prompts** tab.  
    (Optional) You can leave the prompts blank and not filter the report by the prompt conditions.

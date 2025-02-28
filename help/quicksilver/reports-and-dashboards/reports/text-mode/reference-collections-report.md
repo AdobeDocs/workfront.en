@@ -145,7 +145,7 @@ The view displays task or issue information in a list format, with every line of
 
 To add a collection column in a report view:
 
-1. Click the **Main** menu ![](assets/main-menu-icon.png), then click **Reports**.
+1. Click the **Main** menu ![Main Menu icon](assets/main-menu-icon.png), then click **Reports**.
 1. Click **New Report**.
 1. Select the object of your report.
 1. Navigate away from your report, and using the [API Explorer](../../../wf-api/general/api-explorer.md), determine what collections are available for the object you selected for your report.
@@ -230,7 +230,7 @@ To add a collection column in a report view:
 
 1. The following column displays in the project report, listing all tasks in each project alongside their primary assignees:
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
+   ![Project report with task and assignee collection](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. Click **Save**.
 1. (Optional) Continue editing the report. 
@@ -303,7 +303,7 @@ For example, you can filter for task or issue information in a project report by
 
 To add a reference to a collection in a report filter:
 
-1. Click the **Main** menu ![](assets/main-menu-icon.png), then click **Reports**.
+1. Click the **Main** menu ![Main Menu icon](assets/main-menu-icon.png), then click **Reports**.
 1. Click **New Report**.
 1. Select the object of your report.
 1. Navigate away from your report, and using the [API Explorer](../../../wf-api/general/api-explorer.md), determine what collections are available for the object you selected for your report.
@@ -344,7 +344,7 @@ To add a reference to a collection in a report filter:
    
    This report only displays projects which have at least one task that has the word "marketing" in their name.
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
+   ![Marketing only tasks in project](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. To filter for the name of an issue, use the following code:
    
@@ -380,7 +380,7 @@ For more information about building a filter statement with a collection referen
 
 To add a reference to a collection in the custom prompt of a report:
 
-1. Click the **Main** menu ![](assets/main-menu-icon.png), then click **Reports**.
+1. Click the **Main** menu ![Main Menu icon](assets/main-menu-icon.png), then click **Reports**.
 1. Click **New Report**.
 1. Select the object of your report.
 1. Build a filter with a collection reference as described in the section [Reference a collection in the Filter of a report](#reference-a-collection-in-the-filter-of-a-report) in this article.

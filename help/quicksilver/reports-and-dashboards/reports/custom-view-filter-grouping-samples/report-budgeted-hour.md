@@ -22,7 +22,7 @@ When you want to share Budgeted Hour information with other users who do not hav
 >
 >Budgeted Hours are normally updated every hour (infrequently, it may take a maximum of three hours) in the Adobe Workfront database. Refreshing the report does not necessarily refresh the hour information in it. You can view the time lapsed since the last update in the upper-right corner of every Budgeted Hour report. Refreshing the report refreshes the information in it only when there has been more than one hour since the last update.
 >
->![](assets/budgeted-hour-report-time-sync-warning-350x74.png)
+>![Budgeted hour report time sync warning](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## Access requirements
 
@@ -66,7 +66,7 @@ You must have the following access to perform the steps in this article:
 
 ## Build a Budgeted Hour report
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Reports**. 
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** icon ![Main Menu lines](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Reports**. 
 
 1. Click **New Report** > **More** > **Budgeted Hour**.
 

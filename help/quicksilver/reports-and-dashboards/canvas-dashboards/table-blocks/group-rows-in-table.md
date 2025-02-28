@@ -15,18 +15,18 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
 ## Group rows in a table
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reporting**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reporting**.
 1. Click **New report**.
 
    Or
 
-   Go to an existing report, click the **More Menu** icon ![](assets/more-icon.png) in the report header, then select **Edit**.
+   Go to an existing report, click the **More Menu** icon ![More icon](assets/more-icon.png) in the report header, then select **Edit**.
 
 1. To group rows on a new table, drag or double-click a table block onto the canvas.
 
    Or
 
-   To group rows on an existing table, click the **Edit** icon ![](assets/edit-icon.png) in the table header.
+   To group rows on an existing table, click the **Edit** icon ![Edit icon](assets/edit-icon.png) in the table header.
 
 1. In the right panel, locate a field that you want to group by and drag it to the **Group** section.
 
@@ -85,10 +85,10 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 1. Do any of the following:
 
    * To add another group, drag another field from the side panel.
-   * To display rows in a group collapsed by default, click the **More menu** icon ![](assets/more-icon.png) next to the group, then click **Collapse group**.
+   * To display rows in a group collapsed by default, click the **More menu** icon ![More icon](assets/more-icon.png) next to the group, then click **Collapse group**.
 
      Each group can be individually configured to display with rows collapsed or expanded. By default, all grouped rows are collapsed.
    
-   * To display a count in the group row, click the **More menu** icon ![](assets/more-icon-27x15.png) next to the group, then click **Display count**.
-   * To remove a group, click the **More menu** icon ![](assets/more-icon.png) next to the group, then click **Remove group**.
-   * To rearrange multiple groups you have created, drag them ![](assets/move-icon---dots.png) into a new order.
+   * To display a count in the group row, click the **More menu** icon ![More icon](assets/more-icon-27x15.png) next to the group, then click **Display count**.
+   * To remove a group, click the **More menu** icon ![More icon](assets/more-icon.png) next to the group, then click **Remove group**.
+   * To rearrange multiple groups you have created, drag them ![Move icon](assets/move-icon---dots.png) into a new order.

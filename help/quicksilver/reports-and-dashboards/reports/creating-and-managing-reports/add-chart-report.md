@@ -271,11 +271,11 @@ To add a **Bubble** chart to your report:
 
    For example, if you selected **Project Name** in a task report, you can add **Task Status** as the **Bubble Color** field.  
 
-   ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)   
+   ![Task status as bubble color](assets/bubbles-field-correct-can-select-bubbles-color-example.png)   
 
    However, if you selected **Task Status** for the **Bubbles** field, you cannot select a **Bubble Color** field. Also, you cannot select **Project Name** for the **Bubble Color** field, even when you select **Project Name** for the **Bubbles** field. 
 
-   ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
+   ![Cannot select bubble color](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
    
 1. Click **Save + Close** to save the changes to the interface builder.
 
@@ -298,7 +298,7 @@ To customize chart colors:
 
 1. Click **Custom Colors** when this field is available.  
    The Custom Colors dialog box displays.  
-   ![](assets/unshimmed-custom-colors-in-charts.png)
+   ![Custom colors in charts](assets/unshimmed-custom-colors-in-charts.png)
 
    >[!NOTE]
    >

@@ -76,7 +76,7 @@ To view comments in the proofing viewer:
 In Workfront, you can view proof comments without launching the proofing viewer.
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
-1. Click the row containing the document, then click the **Summary** icon ![](assets/summary-panel-icon.png) on the right-side of the page.  
+1. Click the row containing the document, then click the **Summary** icon ![Summary icon](assets/summary-panel-icon.png) on the right-side of the page.  
    The comments display in the Updates section of the Document Summary.
 
 ## Mark all comments as read
@@ -90,7 +90,7 @@ As a reviewer of a proof, you can quickly mark all comments as Read.
 
 1. Above the comment list, click the **More** icon, then click **Mark all as read**.
 
-1. ![](assets/mceclip8-350x173.png)
+1. ![Mark all as read](assets/mceclip8-350x173.png)
 
 ## Reply to proof comments from the proofing viewer
 

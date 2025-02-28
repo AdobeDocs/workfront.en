@@ -14,7 +14,7 @@ exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
 
 You might want to view your tasks grouped by Percent Complete in ranges of 0-25, 26-50, 51-75, 75-99, and 100. You can create a grouping using text mode to do this.
 
-![](assets/grouping-calculated-value-column-to-all-objects.png)
+![Grouping by calculated value](assets/grouping-calculated-value-column-to-all-objects.png)
 
 ## Access requirements
 
