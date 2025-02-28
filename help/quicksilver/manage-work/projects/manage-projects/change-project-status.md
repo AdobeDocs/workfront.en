@@ -61,10 +61,10 @@ You must have the following access to perform the steps in this article:
 1. Go to the project whose status you want to update.
 1. In the project header, click the name of the status in the **Status** field, then select a new status.
 
-   ![](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
+   ![Change project status](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
 
    Or
 
-   Click the **More** menu ![](assets/qs-more-menu.png) next to the name of the project and click **Edit** and select a new status in the **Status** field, then click **Save**.
+   Click the **More** menu ![More menu](assets/qs-more-menu.png) next to the name of the project and click **Edit** and select a new status in the **Status** field, then click **Save**.
 
    The project status updates to the status you selected.

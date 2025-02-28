@@ -57,13 +57,13 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section,  then click **Overview**. This opens the Overview area for editing.
+   Click the **Edit** icon ![Edit icon](assets/edit-icon.png) in the upper-right corner of the Details section,  then click **Overview**. This opens the Overview area for editing.
 
    >[!NOTE]
    >
    >Depending on how your Workfront administrator configured your Layout Template, the Overview section might not be listed first, in which case it is collapsed. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Conditional) If there is a specific field that needs to be updated on a project but is not displayed in this section, click the **More menu** ![](assets/more-icon.png) next to the project name, then **Edit** to view more project fields.
+1. (Conditional) If there is a specific field that needs to be updated on a project but is not displayed in this section, click the **More menu** ![More icon](assets/more-icon.png) next to the project name, then **Edit** to view more project fields.
 
    For more information about editing projects, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 

@@ -113,7 +113,7 @@ Consider the following when selecting a Priority for your projects:
 
 1. Go to the project whose Priority you want to update.
 1. Click **Project Details** in the left panel.
-1. Click the **Edit** icon ![](assets/qs-edit-icon.png) in the upper-right corner of the Project Details area, then click **Overview**. 
+1. Click the **Edit** icon ![Edit icon](assets/qs-edit-icon.png) in the upper-right corner of the Project Details area, then click **Overview**. 
 
 1. In the **Priority** field, select from the following options:
 

@@ -54,7 +54,7 @@ Consider the following when requesting a project through a Business Case:
 
 ## Create a Business Case
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click&nbsp;**Projects**. 
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png), then click&nbsp;**Projects**. 
 1. Click&nbsp;**New Project** and select&nbsp;**Request Project**.  
    By default, the project is placed in the **Idea** status.
 
@@ -63,7 +63,7 @@ Consider the following when requesting a project through a Business Case:
    >If the Idea status has been deleted in your Workfront instance, the project is placed in the default status for new projects as defined in the Project Preferences area. For information about setting up project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 1. Specify a name for your project, then press Enter. 
-1. (Optional) Click the **More** icon ![](assets/qs-more-icon-on-an-object.png), then **Attach Template**, to create the Work Breakdown Structure of your project.
+1. (Optional) Click the **More** icon ![More icon](assets/qs-more-icon-on-an-object.png), then **Attach Template**, to create the Work Breakdown Structure of your project.
 
    Or
 

@@ -76,8 +76,8 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 1. Click the name of a template task in the list to open the template task.
 1. (Optional) To edit several template tasks in bulk, select multiple template tasks, then click **Edit** at the top of the template list.
 1. (Conditional) To edit limited information about a template task, click **Template Task Details** in the left panel, then go to the areas of the Details section to edit information for each area.
-1. (Optional) Click the **Collapse all** icon ![](assets/collapse-all-icon.png) to collapse all areas. 
-1. To edit information in the Details section, click the **Edit** icon ![](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
+1. (Optional) Click the **Collapse all** icon ![Collapse all icon](assets/collapse-all-icon.png) to collapse all areas. 
+1. To edit information in the Details section, click the **Edit** icon ![Edit icon](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
 
    * Overview
    * Custom Forms
@@ -90,7 +90,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template Task box, as described below.
 
-1. (Conditional) To edit all information about the template task, click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the template task, then click **Edit**.
+1. (Conditional) To edit all information about the template task, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template task, then click **Edit**.
 
    The **Edit Template Task** box displays.
 
@@ -98,7 +98,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
    >
    >You can also select a template task in a list, then click Edit to open the Edit Template Task box.
 
-   ![](assets/edit-template-tasks-box-classic-350x356.png)
+   ![Edit template task](assets/edit-template-tasks-box-classic-350x356.png)
 
 1. Consider specifying information in any of the following sections:
 
@@ -262,7 +262,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 1. Begin editing a template task as described above.
 1. Click **Settings**.
 
-   ![](assets/edit-template-tasks-settings-classic-350x231.png)
+   ![Edit template task settings](assets/edit-template-tasks-settings-classic-350x231.png)
 
 1. Update any of the following:
 
