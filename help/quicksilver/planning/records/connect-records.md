@@ -149,8 +149,9 @@ You must have the following access to perform the steps in this article:
 You can connect records from Workfront Planning in the following areas of a Planning record:
 
 * The connected record fields in the table view.
-* The record's preview or page in the connected record fields on the Details tab.
-* The record's preview or page on the Connections tab.
+* The record's preview box or page in the connected record fields on the Details tab.
+* The record's preview box or page on the Connections tab.
+* <span class="preview">The record's page on the Connection view tab.</span> <!--this needs title edit when they rename the "Connection view" page type-->
 
 ### Connect Workfront Planning records from the table view or the Details area of a record
 
@@ -456,3 +457,25 @@ You must have the following to connect Workfront Planning records from Workfront
 * Your Workfront or group administrator must add the Planning section to the Workfront projects, portfolios, and programs in your Layout Template. 
 
 For more information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+
+<div class="preview">
+
+## Connect records from the Connection view tab on a record's details page
+
+<!--section needs title edit when they rename the "Connection view" page type-->
+
+1. Go to any view of a record type that has been connected to other Planning record types or object types from other applications. 
+1. Follow the steps described in the previous subsections to find a record in the view that you want to connect with other records or objects. 
+1. Click the name of a record. 
+
+    The preview page opens. 
+1. Click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) to open the record's page. 
+1. Click an existing Connection view tab in the record's preview or page. You must first create a Connection view page. For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md). 
+
+    A connected record type page displays in the table view. 
+1. Click **Connect** to add or remove records.
+
+    ![Connect button highlighted in connected record details tab](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+1. (Optional) If you cannot find a connected record, click **+ Add** to create and connect them. 
+
+</div>
