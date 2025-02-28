@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
 {{step1-to-priorities}}
 
 1. Click **Columns** on the right side of the screen.
-    ![](assets/columns.png)
+    ![Columns](assets/columns.png)
 1. Use the toggles to enable or disable columns in the worklist. 
 
 ### Reorder the columns
@@ -71,15 +71,15 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Columns** on the right side of the screen.
 1. Click the **Drag** icon and move the column to your desired location. Moving columns updates in the worklist automatically.
-    ![](assets/reorder-columns.png)
+    ![Reorder columns](assets/reorder-columns.png)
 
 ### Reset Column widths
 
 {{step1-to-priorities}}
 
 1. Click **Columns** on the right side of the screen.
-1. Click the **More** icon ![](assets/more-icon.png), and choose **Reset column widths**.
- ![](assets/columns.png)
+1. Click the **More** icon ![More icon](assets/more-icon.png), and choose **Reset column widths**.
+ ![Columns](assets/columns.png)
 
 ## Customize the Priorities worklist columns
 
@@ -88,7 +88,7 @@ You must have the following access to perform the steps in this article:
 {{step1-to-priorities}}
 
 1. Click **Columns** on the left side of the screen.
-    ![](assets/columns-new.png)
+    ![Columns](assets/columns-new.png)
 1. Use the toggles to enable or disable columns in the worklist. 
 
 ### Reorder the columns
@@ -97,7 +97,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Columns** on the left side of the screen.
 1. Click the **Drag** icon and move the column to your desired location. Moving columns updates in the worklist automatically.
-    ![](assets/reorder-columns-new.png)
+    ![Reorder columns](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >

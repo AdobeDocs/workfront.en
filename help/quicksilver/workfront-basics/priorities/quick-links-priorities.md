@@ -59,7 +59,7 @@ You must have the following access to perform the steps in this article:
 1. In the **Quick links** section, click **Add link**. 
 1. Paste the URL in the **Add link** box.
 1. Click **Save**.
-![](assets/add-link.png)
+![Add link](assets/add-link.png)
 
 ## Copy a quick link to your clipboard
 
@@ -67,8 +67,8 @@ You must have the following access to perform the steps in this article:
 
 1. Click on a work item name to open the Overview page.
 1. In the **Quick links** section, find the link you want to copy.
-1. Click the Copy icon ![](assets/copy-icon.png).
-![](assets/copy-link.png)
+1. Click the Copy icon ![Copy icon](assets/copy-icon.png).
+![Copy link](assets/copy-link.png)
 
 ## Open a quick link
 
@@ -77,7 +77,7 @@ You must have the following access to perform the steps in this article:
 1. Click on a work item name to open the Overview page.
 1. In the **Quick links** section, find the link you want to open.
 1. Click on the link. The link opens in a new tab.
-![](assets/open-link.png)
+![Open link](assets/open-link.png)
 
 ## Delete quick links
 
@@ -85,5 +85,5 @@ You must have the following access to perform the steps in this article:
 
 1. Click on a work item name to open the Overview page.
 1. Click **Edit Details** in the top-right corner of the screen.
-    ![](assets/edit-details.png)
-1. Find the link that you want to remove, then click the Delete icon ![](assets/delete-icon.png).
+    ![Edit details](assets/edit-details.png)
+1. Find the link that you want to remove, then click the Delete icon ![Delete icon](assets/delete-icon.png).
