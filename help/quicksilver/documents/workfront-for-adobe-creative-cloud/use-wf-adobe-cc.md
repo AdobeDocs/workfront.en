@@ -95,7 +95,7 @@ Consider the following when uploading or exporting a file from Adobe Creative Cl
 * Your Access Level must permit uploading documents to Workfront. For more information, see [Grant access to documents](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 * You must have permissions to upload documents to the item where you want it. For more information, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 * The file uploads to the Documents area for the Workfront object that you select. 
-* You cannot export a document to the Documents area in the Main Menu ![](assets/main-menu-icon.png) from an Adobe Creative Cloud application.
+* You cannot export a document to the Documents area in the Main Menu ![Main Menu icon](assets/main-menu-icon.png) from an Adobe Creative Cloud application.
 
 The following sections explain the following:
 

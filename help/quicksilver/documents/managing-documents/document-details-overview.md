@@ -18,7 +18,7 @@ The Document Details page lets you view, communicate about, and manage the prope
 
 1. Hover over the document, then click **Document Details**.
 
-   ![](assets/document-details-350x179.png)
+   ![Document details](assets/document-details-350x179.png)
 
 ## Perform basic actions for documents and proofs
 
