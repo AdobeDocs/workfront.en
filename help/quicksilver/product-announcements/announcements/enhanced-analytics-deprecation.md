@@ -21,7 +21,7 @@ Due to declining use and limited functionality, Enhanced Analytics will soon be 
 
 **When?**
 
-* With the 25.2 release (February 2025)
+* The week of May 26th
 
 **What can I use instead?**
 
@@ -35,7 +35,7 @@ To minimize disruption for you and your organization, we've provided recommendat
 
 Our first recommendation is to ensure your organization has access to Workfront Data Connect and to familiarize yourself with its use as soon as possible. To learn more about Data Connect capabilities and how to begin using it, see [Workfront Data Connect overview](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
-Data Connect is included in the new Ultimate plan, and can be purchased as an add-on to the new Select and Prime plans. Note that Data Connect is not available for organizations on legacy Workfront plans. Contact your Workfront account representative to find out what plan your organization is currently on and how to purchase Data Connect.
+Data Connect is included in the new Ultimate plan<!--, and can be purchased as an add-on to the new Select and Prime plans-->. Note that Data Connect is not available for organizations on legacy Workfront plans. Contact your Workfront account representative to find out what plan your organization is currently on and how to purchase Data Connect.
 
 ### Replicate Enhanced Analytics visualizations
 
@@ -54,6 +54,7 @@ No, it will be completely removed from the application.
 +++
 
 +++ What do I do if my organization is on a legacy Workfront plan but I want to use Data Connect?
-Contact your account representative about moving to one of the new Workfront plans.
 
+Contact your account representative about moving to one of the new Workfront plans.
++++
 -->
