@@ -199,7 +199,6 @@ After you set up how you want items to display, you need to add the objects you 
    * **[!UICONTROL Tasks]**
    * **[!UICONTROL Projects]**
    * **[!UICONTROL Issues]**
-   * **Time Off**
 
 1. Click **[!UICONTROL Add Tasks]**, **[!UICONTROL Add Projects]**, **[!UICONTROL Add Issues]**, or **Time Off** depending on the object type you are adding to the calendar.
 

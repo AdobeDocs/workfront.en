@@ -195,14 +195,16 @@ You must have the following access to perform the steps in this article:
         >If you don't have other record types in the selected workspace, the workspace section does not display. 
         
 
-    * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
-
-        ![](assets/new-connection-allow-multiple-records-box.png)
-
+    * A record type from another workspace that was configured to connect from other workspaces. 
+    
         >[!TIP]
         >
-        >If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
+        >The **Connect from other workspaces** setting must be enabled for a record type in the **Advanced settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
+        > ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
 
+        For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
+
+        ![](assets/new-connection-allow-multiple-records-box.png)
 
     * A **Project, Portfolio, Program, Company**, or **Group** from the **Workfront Object Types** section.
 
