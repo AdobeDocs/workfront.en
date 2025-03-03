@@ -90,7 +90,8 @@ You must have the following access to perform the steps in this article:
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Revenue Type]</td> 
-    <td> <p>Calculates planned and actual revenue estimates for a task. When the <strong>[!UICONTROL Revenue Type]</strong> is set to <strong>[!UICONTROL Not Billable]</strong>, the hours planned and the actual hours recorded do not generate a revenue estimate for the task, and the work on the task does not contribute to project-level revenue.</p> </td> 
+    <td> <p>Calculates planned and actual revenue estimates for a task. When the <strong>[!UICONTROL Revenue Type]</strong> is set to <strong>[!UICONTROL Not Billable]</strong>, the hours planned and the actual hours recorded do not generate a revenue estimate for the task, and the work on the task does not contribute to project-level revenue.</p>
+         <p>For information on the different revenue types, see <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Overview of Billing and Revenue</a>.</p></td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Cost Type]</td> 
