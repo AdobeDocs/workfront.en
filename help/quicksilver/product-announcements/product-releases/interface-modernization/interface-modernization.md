@@ -18,6 +18,14 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Administration and Setup
 
+### Interface update for the Announcement Center
+
+**Preview release: February 27, 2025; To be announced**
+
+We have updated the Announcement Center with a more modern design that is consistent with other areas of Workfront. 
+
+To view this change, go to the Notifications icon in the upper-right corner, then choose All Annoucements. 
+
 ### Interface update for customizing Event Notfification subjects
 
 **Preview release: February 13, 2025; Starting the week of February 13, 2025**
@@ -28,7 +36,7 @@ To view this change, go to Setup > Email > Notifications > Event Notifications >
 
 ### Interface update for Teams area
 
-**Preview release: February 13, 2025; Production release: To be announced**
+**Preview release: February 13, 2025; Production release: Starting the week of February 20, 2025**
 
 We have updated the Teams area with a more modern design that is consistent with other areas of Workfront.
 
@@ -130,7 +138,7 @@ This update includes visual changes to the area. No functionality has changed.
 
 ### Interface update for Iterations overview page
 
-**Preview release: February 13, 2025; Production release: To be announced**
+**Preview release: February 13, 2025; Production release: Starting the week of February 20,2025**
 
 We have updated the Iterations overview page with a more modern design that is consistent with other areas of Workfront.
 
