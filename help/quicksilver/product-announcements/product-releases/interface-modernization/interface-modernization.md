@@ -28,7 +28,7 @@ To view this change, go to Setup > Email > Notifications > Event Notifications >
 
 ### Interface update for Teams area
 
-**Preview release: February 13, 2025; Production release: To be announced**
+**Preview release: February 13, 2025; Production release: Starting the week of February 20, 2025**
 
 We have updated the Teams area with a more modern design that is consistent with other areas of Workfront.
 
@@ -130,7 +130,7 @@ This update includes visual changes to the area. No functionality has changed.
 
 ### Interface update for Iterations overview page
 
-**Preview release: February 13, 2025; Production release: To be announced**
+**Preview release: February 13, 2025; Production release: Starting the week of February 20,2025**
 
 We have updated the Iterations overview page with a more modern design that is consistent with other areas of Workfront.
 
