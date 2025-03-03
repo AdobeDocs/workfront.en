@@ -195,6 +195,14 @@ We have udpated the Approvals area on a document with a more modern design that 
 
 To view this change, go to a document > Click Document Details > Approvals.
 
+### Interface update for Smart Folder edit dialog box
+
+**Preview release: January 27, 2025; Production release: Starting the week of February 3, 2025**
+
+We have udpated the Smart Folders edit dialog box with a more modern design that is consistent with other areas of Workfront. 
+
+To view this change, go to a Documents > Click the more menu next to the Smart Filter name > Click Edit. 
+
 ## Reports and Dashboards
 
 ### Updated Team report with new styling
