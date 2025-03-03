@@ -17,6 +17,8 @@ You can enable your email notifications for events occurring in [!DNL Adobe Work
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
 -->
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -49,18 +51,12 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
++++
+
 ## Prerequisites
 
-The user whose [!DNL Goals] notifications are updated must have the following:
+* The user whose [!DNL Goals] notifications you want to update must have a Layout Template that includes the [!DNL Goals] area in the [!UICONTROL Main Menu].
 
-* A Layout Template that includes the [!DNL Goals] area in the [!UICONTROL Main Menu].
-* Access to The new [!DNL Adobe Workfront] experience.
-
-   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: we need this here because you can see these notifications from Classic)
-  </MadCap:conditionalText>
-  -->
 
 ## [!DNL Goals] notifications in the [!UICONTROL user profile] area
 

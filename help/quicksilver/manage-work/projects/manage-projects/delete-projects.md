@@ -129,7 +129,7 @@ You must have the following access to perform the steps in this article:
 You can delete projects from a list of projects.
 
 1. Go to a list of projects or a project report.
-1. Select the project or projects that you want to delete, then click the **Delete** icon ![](assets/delete-icon.png) at the top of the list.  
+1. Select the project or projects that you want to delete, then click the **Delete** icon ![Delete icon](assets/delete-icon.png) at the top of the list.  
 
 1. Click **Yes, Delete It** to confirm the deletion.
 
@@ -138,9 +138,9 @@ You can delete projects from a list of projects.
 ## Delete a project at the project level
 
 1. Go to the project you want to delete. 
-1. Click the **More** icon ![](assets/qs-more-menu.png) to the right of the project name, then click **Delete Project**. 
+1. Click the **More** icon ![More menu](assets/qs-more-menu.png) to the right of the project name, then click **Delete Project**. 
 
-    ![](assets/more-icon-expanded-delete-project-highlighted.png)
+    ![More menu expanded](assets/more-icon-expanded-delete-project-highlighted.png)
 
 1. Click **Yes, Delete it**. 
 

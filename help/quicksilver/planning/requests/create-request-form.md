@@ -274,6 +274,9 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
    * Click **Update request form** to make any changes to the request form.
    * Click **Copy link to request form**  to share the link to the form with others. 
+
+   Or
+
    * <span class= "preview"> Go to the **Requests** area in Workfront and find the shared form to submit a request. For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).</span> 
 
    >[!TIP]

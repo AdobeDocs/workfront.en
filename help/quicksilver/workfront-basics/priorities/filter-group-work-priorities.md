@@ -60,7 +60,7 @@ You can filter tasks and issues assigned to you.
 1. Click **Filters** in the top left of the worklist.
 1. click **Standard filters**. 
 1. Select one or many filters to narrow down your work items.
-  ![](assets/filter-new.png)
+  ![Filter](assets/filter-new.png)
 
 +++Expand to see detailed information about available filters
 <table>
@@ -125,7 +125,11 @@ You can filter tasks and issues assigned to you.
 
 ## Filter your work with Smart filters
 
-Use natural language to filter quickly filter work. Your Workfront instance must be on a new Workfront plan and enabled on the Adobe Unified Experience. For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Use natural language to filter quickly filter work.
+
+>[!NOTE]
+>
+>This feature is only available for customers on the Unified Adobe Experience using the AI Assistant. For more information about the AI Assistant, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 {{step1-to-priorities}}
 
@@ -147,7 +151,7 @@ Use natural language to filter quickly filter work. Your Workfront instance must
 
 1. Click **Groups** in the top left of the worklist.
 1. Select a group to organize your work list
-  ![](assets/groups-new.png)
+  ![Groups](assets/groups-new.png)
 
   +++Expand to see detailed information about available groups
 
@@ -174,7 +178,7 @@ You can drag and drop individual work items between categories when grouping by 
 
 To sort your work within a group, open **Group** and click **Sort ascending** or **Sort descending**.
 
-![](assets/sort-in-groups.png)
+![Sort in groups](assets/sort-in-groups.png)
 
 ### Sort columns
 
@@ -186,4 +190,4 @@ To sort individual columns, go to the column and click the down arrow.
 
 To expand or collapse all group sections, open **Group** and click **Expand all** or **Collapse all**.
 
-![](assets/expand-collapse-groups.png)
+![Expand or collapse groups](assets/expand-collapse-groups.png)

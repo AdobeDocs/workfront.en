@@ -58,7 +58,7 @@ When a company is associated with a project and this option is enabled, changes 
 When a user manually recalculates finances on the project, any changes to the company-level billing rates are applied. Historical revenue calculations are also overridden unless they are marked as billed.
 
 1. Go to a project. 
-1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the project in the header, then click **Edit**. 
+1. Click the **More** menu ![More menu](assets/qs-more-icon-on-an-object.png) next to the name of the project in the header, then click **Edit**. 
 1. In the **Finance** section, enable the **Allow company-level billing rates to override project-level billing rates**.
 
    >[!CAUTION]
@@ -97,4 +97,4 @@ After you have enabled the company-level billing rates override option on a proj
    * Single project:
 
      1. Go to the project for which you enabled company-level billing rates override.
-     1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the project name in the header, then click **Recalculate Finance**.
+     1. Click the **More** menu ![More menu](assets/qs-more-icon-on-an-object.png) next to the project name in the header, then click **Recalculate Finance**.

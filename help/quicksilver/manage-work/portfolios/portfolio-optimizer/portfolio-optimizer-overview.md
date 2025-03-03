@@ -122,7 +122,7 @@ The following financial fields display in the [!UICONTROL Portfolio Optimizer]:
   </tr> 
   <tr> 
    <td>[!UICONTROL Remaining]</td> 
-   <td> <p>The remaining budget after all the [!UICONTROL Budgeted Costs] on all the projects inside the portfolio have been subtracted from the Budget of the portfolio.</p> <p>The [!UICONTROL Remaining Portfolio Budget] is calculated using the following formula:</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - Total [!UICONTROL Budgeted Cost] of All Portfolio Projects</em> </p> <p>The overall [!UICONTROL Budgeted Cost] of all the projects in the portfolio is represented in the indicator bar under the Budget field. </p> <p>For more information about tracking costs on a project, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
+   <td> <p>The remaining budget after the [!UICONTROL Total Cost] on all the projects inside the portfolio has been subtracted from the Budget of the portfolio.</p> <p>The [!UICONTROL Remaining Portfolio Budget] is calculated using the following formula:</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - Total [!UICONTROL Budgeted Cost] of All Portfolio Projects</em> </p> <p>The portfolio Budget is a manual entry in the Portfolio Optimizer's Budget field. </p> <p>For more information about tracking costs on a project, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Total Cost]</td> 

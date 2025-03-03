@@ -76,7 +76,7 @@ You can link an asset from Experience Manager Assets or Assets Essentials to Wor
 
 1. Select the assets you want.
 
-   ![](assets/select-an-asset.png)
+   ![Select an asset](assets/select-an-asset.png)
 
 1. Click **Select**.
 
@@ -93,7 +93,7 @@ Permissions to view individual assets inside of a folder rely on Experience Mana
 
 1. Select the folders you want.
 
-   ![](assets/select-a-folder.png)
+   ![Select a folder](assets/select-a-folder.png)
 
 1. Click **Select**.
 
@@ -113,7 +113,7 @@ To link a new version from Assets Essentials:
 
 1. Select the asset you want.
 
-   ![](assets/select-an-asset.png)
+   ![Select an asset](assets/select-an-asset.png)
 
 1. Click **Select**.
 

@@ -79,7 +79,7 @@ You must have the following access to perform the steps in this article:
 ## Save a project as a template
 
 1. Go to the project that you want to save as a template. 
-1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png), then **Save as Template**. 
+1. Click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png), then **Save as Template**. 
 1. Specify the following information for the template:
 
    <table style="table-layout:auto"> 

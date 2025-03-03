@@ -50,11 +50,11 @@ You must have the following:
 ## Open the Summary view
 
 1. Go to the **Documents** area and select an item in the list. 
-1. Click the **Open Summary icon** ![](assets/qs-summary-in-new-toolbar-small.png).
+1. Click the **Open Summary icon** ![Open Summary icon](assets/qs-summary-in-new-toolbar-small.png).
 
    After you open the Summary, it stays open as you click on other documents and remains open until you manually close it.
 
-   ![](assets/summary-details-350x585.png)
+   ![Summary details](assets/summary-details-350x585.png)
 
 ## Details
 
@@ -63,19 +63,19 @@ Use the Details section to view high-level overview information and interact wit
 * [Overview](#overview) 
 * [Custom Forms](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+![Document summary details](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### Overview {#overview}
 
 Expand the Overview section to view or download a image thumbnail, open a proof, update the basic description, check the document out and more.
 
-![](assets/copy-of-doc-summary-with-overview-350x560.png)
+![Document summary overview](assets/copy-of-doc-summary-with-overview-350x560.png)
 
 ### Custom Forms {#custom-forms}
 
 Use the Custom Forms section to add, edit, or view any custom forms associated with the document. Begin typing the name of the custom form to add it to the document. For more information, see [Add or edit a custom form to a document](../../documents/managing-documents/add-custom-form-documents.md).
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+![Add a custom form in document summary](assets/add-custom-form-doc-summary-350x265.png)
 
 ## Updates
 
@@ -92,7 +92,7 @@ Proof approvals must be added in the Proof Workflow. For more information on app
 * [Approving work](../../review-and-approve-work/manage-approvals/approving-work.md) 
 * [Request document approvals](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Document summary approvals](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versions
 
@@ -104,4 +104,4 @@ Use the Versions section to view the number of versions created for a specific d
 * Go to the Document Details
 * Delete a proof or document
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Document summary versions](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)

@@ -86,7 +86,7 @@ You must have the following access to perform the steps in this article:
 When you update the Group for a project, the options available for the Status of tasks, issues, or the project change to match the group.
 
 1. Go to a project, or create a new project, as described in [Create a project](../../../manage-work/projects/create-projects/create-project.md).
-1. Click the **More** icon ![](assets/more-icon.png), then click **Edit**.
+1. Click the **More** icon ![More icon](assets/more-icon.png), then click **Edit**.
 
 1. In the **Edit Project** box that displays, near the bottom of the **Overview** section, select the group in the **Group** drop-down menu.
 

@@ -79,7 +79,7 @@ To create or edit a risk in the Business Case:
    
    * **Mitigation Cost**: indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.
 
-   ![](assets/crp1-350x117.png)
+   ![Risks](assets/crp1-350x117.png)
 
 1. (Optional) Click **Add Another Risk** to add additional risks.
 1. Click **Save**.

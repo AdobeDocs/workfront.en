@@ -69,7 +69,7 @@ You must have the following access to perform the steps in this article:
 
    The Business Case displays.
 
-   ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
+   ![Business case info](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
 1. In the **Goals** section, click **Edit Goals**.
 
@@ -82,7 +82,7 @@ You must have the following access to perform the steps in this article:
    * Low
    * Lowest
 
-     ![](assets/g1-350x76.png)
+     Importance(assets/g1-350x76.png)
 
      You cannot customize the Importance levels of goals.
 

@@ -71,7 +71,7 @@ You can configure whether the BCWS is calculated in hours or costs by configurin
 1. Go to a project and click **Project Details** in the left panel.
 1. In the **Finance** area, locate the **Performance Index Method** field and double click it to edit it.
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![PIM options](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Select from the following options:
 
@@ -120,7 +120,7 @@ You can view the value of the Budgeted Cost of Work Scheduled in a report or lis
 1. Click **Add Column**.
 1. In the **Show in this column:** field start typing **BCWS** and click to select it when it displays in the list.
 
-   ![](assets/bcws-in-project-view.png)
+   ![BCWS in project view](assets/bcws-in-project-view.png)
 
 1. Click **Save View**.
 1. The **BCWS** field displays in the view.

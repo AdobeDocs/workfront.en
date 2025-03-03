@@ -46,7 +46,7 @@ CSI has the following three possible values:
 * \>1 = Under budget schedule combination
 * <1 = Over budget schedule combination
 
-![](assets/csi-highlighted.png)
+![CSI](assets/csi-highlighted.png)
 
 ## Locate the Cost Schedule Performance Index (CSI)
 

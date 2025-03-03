@@ -69,7 +69,7 @@ For more detail about the information in this table, see [Access requirements in
 1. Click **Project Details** in the left panel, then go to the **Finance** area. 
 1. Click **Add** in the **Currency** field and select the currency that you want to use as the default currency for the project. All the currencies that your Workfront administrator set for your Workfront instance display.
 
-   ![](assets/currency-on-project-expanded-nwe.png)
+   ![Currency on project](assets/currency-on-project-expanded-nwe.png)
 
 1. (Conditional) If you select a currency other than the default currency that is set for your Workfront system, specify the rate for the currency that you selected, as it relates to the currency that is set as the base currency in the system.
 1. Click **Save Changes**.

@@ -63,7 +63,7 @@ To send a document:
    >
    >Any name may be chosen for this integration, so it may not specifically mention Experience Manager Assets.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Send to](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Choose where you want the asset to go, then click **Select Folder**.
 1. When you find your desired destination, click **Save**.
@@ -81,6 +81,6 @@ To send the most recent version:
    >
    >Any name may be chosen for this integration, so it may not specifically mention Experience Manager Assets.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Send to](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Click **Save**. The new version saves in the same location as the previous version.

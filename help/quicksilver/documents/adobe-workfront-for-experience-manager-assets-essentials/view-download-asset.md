@@ -60,4 +60,4 @@ Before you begin,
 1. From the document list, select the document. 
 1. In the Document Summary on the right, hover over the thumbnail at the top and choose **Preview** or **Download**.
 
-   ![](assets/preview-or-download-350x107.png)
+   ![Preview or download](assets/preview-or-download-350x107.png)
