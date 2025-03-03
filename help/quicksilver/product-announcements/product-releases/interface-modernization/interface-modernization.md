@@ -18,6 +18,14 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Administration and Setup
 
+### Interface update for the Announcement Center
+
+**Preview release: February 27, 2025; To be announced**
+
+We have updated the Announcement Center with a more modern design that is consistent with other areas of Workfront. 
+
+To view this change, go to the Notifications icon in the upper-right corner, then choose All Annoucements. 
+
 ### Interface update for customizing Event Notfification subjects
 
 **Preview release: February 13, 2025; Starting the week of February 13, 2025**
