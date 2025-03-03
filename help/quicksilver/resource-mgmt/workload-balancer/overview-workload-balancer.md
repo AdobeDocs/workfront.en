@@ -8,7 +8,12 @@ author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 ---
-# Workload Balancer overview
+# Workload Balancer overview {#workload-balancer-overview}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-workload-balancer"
+>title:"Workload Balancer"
+>abstract:"Project owners and team managers can use the Workload Balancer to assign work items to users."
 
 <!--
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
