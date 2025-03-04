@@ -48,10 +48,11 @@ You can connect records to other records or to objects from another application 
   * The connected record fields in the table view of a record type in Planning.
   * The record's preview or page in the connected record fields on the Details tab.
   * The record's preview or page on the Connections tab.
+  * <span class="preview">The record's page in a Connection view tab of a connected record.</span>
 
-* You can connect Workfront objects to Workfront Planning records in the following areas: 
+* You can connect Workfront objects to Workfront Planning records in the following areas of Workfront: 
     
-    * From the Planning section of a Workfront object.
-    * <span class="preview">From a Planning connection field on a Workfront object's custom form. </span>
+    * The Planning section of a Workfront object.
+    * <span class="preview">A Planning connection field on a Workfront object's custom form. </span>
 
     For information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
