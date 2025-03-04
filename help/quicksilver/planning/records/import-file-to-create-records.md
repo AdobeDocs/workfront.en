@@ -1,10 +1,10 @@
 ---
 title: Create Records by Importing Information from a CSV or Excel File
 description: Records are individual instances of record types, which are the object types of Adobe Workfront Planning. In Workfront Planning, you can create records by importing information from a CSV or Excel file.
-hide: yes 
-hidefromtoc: yes 
+hide: yes
+hidefromtoc: yes
+exl-id: 940945df-391c-4672-9d9d-180d5028509b
 ---
-
 <!-- add the following in the metadata when live:
 
 feature: Workfront Planning
