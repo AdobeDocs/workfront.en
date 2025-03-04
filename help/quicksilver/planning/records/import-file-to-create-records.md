@@ -140,14 +140,9 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Select the **Create missing options** in the lower-left corner of the screen. When enabled, the missing choices of single- and multi-select fields are added. 
 
-    >[!BEGINSHADEBOX]
-
     For example, if the selected record type has a single-select Status field with the choices New, In Progress, and Closed and a Status field imported from a file also has an On Hold Status choice, the On Hold status choice is also added 
 
-
-    >[!ENDSHADEBOX]
-
-<!--when we add connected records and the info icon in the tool changes, also add those items to this step-->
+    <!--when we add connected records and the info icon in the tool changes, also add those items to this step-->
 
 1. Click **Import**. 
 
