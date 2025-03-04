@@ -1,10 +1,11 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
-title: "Troubleshooting: outlookIdentityToken error when using Workfront for Outlook"
+title: 'Troubleshooting: outlookIdentityToken error when using Workfront for Outlook'
 description: If you get an outlookIdentityToken error when using Workfront for Outlook, you must enable Microsoft 365 legacy tokens for your organization.
 author: Becky
 feature: Workfront Integrations and Apps
+exl-id: 4a911760-e3fe-4e77-b7aa-b08f9ea59d6a
 ---
 # Troubleshooting: outlookIdentityToken error when using Workfront for Outlook
 
