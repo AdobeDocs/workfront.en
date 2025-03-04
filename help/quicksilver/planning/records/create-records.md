@@ -27,6 +27,7 @@ You can create records by doing one of the following:
 * [Create records as you connect them from other records](#create-records-as-you-connect-them)
 * [Create records by submitting a request form to a record type](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Create records when importing record types from a CSV or Excel file](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
+<!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
 * <span class="preview">[Create records by using automations](#create-records-by-using-automations)</span>
 
 
@@ -298,6 +299,19 @@ For information, see [Submit Adobe Workfront Planning requests to create records
 You can import records when you import record types using a CSV or Excel file. 
 
 For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+
+<!--
+<div class="preview">
+
+## Create records when importing records from a CSV or Excel file
+
+You can import records for existing record types when you import information from a CSV or Excel file. 
+
+For information, see [Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md). 
+
+</div> 
+
+-->
 
 <div class="preview">
 
