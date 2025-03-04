@@ -102,11 +102,11 @@ To apply Resource Pools and budget project resources in the Business Case for a 
 
    * Select Resource Planner in the **Choose which hours to use to calculate the Budgeted Labor Cost of the project** field, then click&nbsp;**Choose > Edit Resource Budgeting**.
 
-     ![](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     ![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)
 
    * If the Scenario Planner was selected for budgeting resources for the project, click **Change** > **Edit Resource Budgeting**.
 
-     ![](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     ![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
 
    This uses the Budgeted Hours of the project to calculate the Budgeted Labor Cost for the project.
 
