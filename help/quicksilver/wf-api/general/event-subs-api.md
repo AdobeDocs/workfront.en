@@ -446,11 +446,11 @@ The ability to upgrade or downgrade event subscriptions ensures that when change
 
 For more information on event subscription versioning, including specific differences between the version and important dates, see [Event subscription versioning](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
-### Single subscription version change
-
 >[!NOTE]
 >
 >When you upgrade or downgrade your event subscription to another version, you receive duplicate events for every event delivery for a five minute window after the version change. The duplicates include one each of event subscription version 1 and version 2. This ensures that you do not miss any events due to changing the event subscription version.
+
+### Single subscription version change
 
 The request syntax for changing the version for a single subscription is:
 
