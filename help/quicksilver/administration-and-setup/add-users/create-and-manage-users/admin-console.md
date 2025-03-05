@@ -217,10 +217,18 @@ To approve a user:
    Rejected users are automatically deleted from Workfront.
 
 
+## Edit existing users in the Adobe Admin Console
 
+You can edit the following user details in the Adobe Admin Console:
 
+* User groups and products associated with the user
+* Administrative rights
+* Country
 
+For information on editing a single user in the Adobe Admin Console, see [Edit user details](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#edit-user-details) in the article Manage users individually in the Adobe documentation.
 
+For information on bulk editing users in the Adobe Admin Console, see 
+[Edit user details](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details) in the article Manage multiple users in the Adobe documentation.
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
