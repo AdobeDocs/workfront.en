@@ -11,6 +11,13 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 ---
 # Create a custom form 
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
+-->
+
 You can design a custom form with the form designer in Adobe Workfront. You can attach custom forms to different Workfront objects to capture data about those objects.
 
 ## Access requirements
@@ -999,6 +1006,17 @@ To add a Planning connection field:
     </tbody> 
    </table>
 
+
+   <!--
+
+    Add this to the table - one more row at the bottom at release time: 
+
+    <span class="preview">Record type fields</span>
+      
+    <p><span class="preview">(Optional) Select up to 7 lookup fields from the connected record type to display in the custom form. The primary field is selected by default and cannot be edited. </span></p> <span class="preview"><p> The connected record's fields that you select display in the table view on the custom form. The records that will later display on the selected Workfront objects' custom form will not be editable in the table view of the custom form.</span></p>  
+    <img src="assets/planning-connections-field-with-table-on-form-preview.png">
+    -->
+
 1. (Optional) Repeat the previous steps to add any other fields. 
 
     or
@@ -1023,3 +1041,6 @@ To add a Planning connection field:
 ## Organize and preview a form with the form designer
 
  For information on how to organize a custom form with section breaks and see a preview of the form, see [Organize and preview a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+
+
+
