@@ -194,13 +194,13 @@ You can connect records from Workfront Planning in the following areas of a Plan
     >Or
     >Click **Connect records** (if the field is empty) to add records from the connected record or object type. 
     >
-    >![](assets/connect-records-from-record-page-field.png)
+    >![Connect records from record page field](assets/connect-records-from-record-page-field.png)
 
 1. (Optional) Click **See all** to display all records. 
 
 1. (Conditional) If you clicked **See all** in the previous step, the **Connect objects** box displays. 
 
-    ![](assets/connected-objects-table-for-records.png)
+    ![Connected objects table for records](assets/connected-objects-table-for-records.png)
 
 1. Start typing the name of a record in the search box, then select it when it displays in the list
 
@@ -276,7 +276,7 @@ After you create a connection between a record type and a Workfront object type,
 
     If you clicked **See all** in the previous step, the **Connect objects** box displays. 
 
-    ![](assets/connect-objects-box-to-select-projects.png)
+    ![Connect objects box to select projects](assets/connect-objects-box-to-select-projects.png)
 
 1. Start typing the name of a Workfront object in the search box, then select it when it displays in the list
 
@@ -353,7 +353,7 @@ To connect records with Experience Manager assets:
 
     The **Select Assets** box displays. <!--we might change this to Connect assets-->
 
-    ![](assets/select-assets-box-for-aem-record-connections.png)
+    ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)
 
 1. Click to select some of the following types of assets:
 
@@ -383,7 +383,7 @@ To connect records with Experience Manager assets:
      
 1. (Optional) Go to the record type you linked to Experience Manager Assets from and click the name of an asset in the linked record field. The Experience Manager details of the asset display in a pop-up window. 
 
-    ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
+    ![Asset pop-up window with AEM details and thumbnail](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
     The following fields display for an image file:
 
@@ -397,7 +397,7 @@ To connect records with Experience Manager assets:
     * Date created
     * Date modified 
 
-1. (Optional) To open the Experience Manager assets record page in Experience Manager, go to the record type page of the record you are linking from, click the name of an asset in the linked record field to open the pop-up window, then click the **Open in AEM** icon ![](assets/open-asset-icon.png) to open the asset. 
+1. (Optional) To open the Experience Manager assets record page in Experience Manager, go to the record type page of the record you are linking from, click the name of an asset in the linked record field to open the pop-up window, then click the **Open in AEM** icon ![Open asset in AEM icon](assets/open-asset-icon.png) to open the asset. 
 
    This opens the Experience Manager asset in Adobe Experience Manager Assets.  
 
@@ -418,7 +418,7 @@ To connect records with Experience Manager assets:
 1. Click the name of a record. 
 
     The preview page opens. 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) to open the record's page. 
+1. (Optional) Click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) to open the record's page. 
 1. Click the **Connections** tab in the record's preview or page. 
 
     ![Connections tab on record in Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
@@ -443,24 +443,15 @@ To connect records with Experience Manager assets:
     For more information, see the section "Create records as you connect them from other records" in the article [Create records](/help/quicksilver/planning/records/create-records.md).
 1. Follow the steps described in the previous sections to connect records from Workfront Planning or objects from Workfront or Experience Manager Assets. 
     The records and objects are added immediately.
-1. (Optional) Hover over the connected card of a record or object, then click the **Disconnect record** icon ![](assets/disconnect-icon-with-tooltip.png)  to disconnect it from the selected record. 
+1. (Optional) Hover over the connected card of a record or object, then click the **Disconnect record** icon ![Disconnect record](assets/disconnect-icon-with-tooltip.png)  to disconnect it from the selected record. 
 
-    ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+    ![Disconnect record icon with tooltip on connections tab](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
     The record is immediately disconnected from all areas of Workfront Planning or from other applications where it might show as connected. Any lookup field values are also removed. 
 
-## Connect records from Workfront objects
-
-You must have the following to connect Workfront Planning records from Workfront objects: 
-
-* Connections between record types and Workfront object types that are established in Workfront Planning.
-* Your Workfront or group administrator must add the Planning section to the Workfront projects, portfolios, and programs in your Layout Template. 
-
-For more information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
-
 <div class="preview">
 
-## Connect records from the Connection view tab on a record's details page
+### Connect records from the Connection view tab on a record's details page
 
 <!--section needs title edit when they rename the "Connection view" page type-->
 
@@ -479,3 +470,22 @@ For more information, see [Manage records in the Planning section of Adobe Workf
 1. (Optional) If you cannot find a connected record, click **+ Add** to create and connect them. 
 
 </div>
+
+## Connect records from Workfront objects
+
+You must have the following to connect Workfront Planning records from Workfront objects: 
+
+* Connections between record types and Workfront object types that are established in Workfront Planning.
+* Your Workfront or group administrator must add any of the following to a Workfront object type:
+
+    * The Planning section to the Workfront projects, portfolios, and programs in your Layout Template. 
+
+    * The Planning connections custom field to a custom form for one of the following objects:
+
+        * Project
+        * Portfolio
+        * Program
+        * Group
+        * Company
+
+    For more information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

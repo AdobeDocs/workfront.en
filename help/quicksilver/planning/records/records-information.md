@@ -21,6 +21,7 @@ After you create record types in Adobe Workfront Planning, you can create indivi
 The following articles describe how you can create and manage records and their information in Adobe Workfront Planning:
 
 * [Create records](/help/quicksilver/planning/records/create-records.md)
+<!--* <span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>-->
 * [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 * [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [Edit records](/help/quicksilver/planning/records/edit-records.md)

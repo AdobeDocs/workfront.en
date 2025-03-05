@@ -2011,6 +2011,7 @@ feature-set: Workfront
     * [Create workspaces](planning/architecture/create-workspaces.md)
     * [Record types overview](planning/architecture/overview-of-record-types.md)
     * [Create record types](planning/architecture/create-record-types.md)
+    * [Create Record Types by importing information from a CSV or Excel file](planning/architecture/import-file-to-create-record-types.md)
     * [Connect record types overview](planning/architecture/connect-record-types-overview.md)
     * [Connect record types](planning/architecture/connect-record-types.md)
     * [Edit record types](planning/architecture/edit-record-types.md)
@@ -2039,6 +2040,7 @@ feature-set: Workfront
   * Adobe Workfront Planning records {#adobe-workfront-planning-records}
     * [Records: article index](planning/records/records-information.md) 
     * [Create records](planning/records/create-records.md)
+    * [Create Records by importing information from a CSV or Excel file](planning/records/import-file-to-create-records.md)
     * [Connected records overview](planning/records/connected-records-overview.md)
     * [Connect records](planning/records/connect-records.md)
     * [Edit records](planning/records/edit-records.md)
@@ -2139,6 +2141,7 @@ feature-set: Workfront
     * [Add an Outlook email as a task to your work list](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
     * [View additional information about Adobe Workfront for Outlook and log out](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
     * [Enable Outlook for Office for use with Adobe Workfront and SAML 2.0](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
+    * [Troubleshooting: outlookIdentityToken error when using Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/troubleshooting-outlookidentitytoken-error.md)
   * Adobe Workfront for Microsoft Teams {#workfront-for-microsoft-teams}
     * [[!DNL Adobe Workfront for Microsoft Teams]: article index](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
     * [Adobe Workfronts for Microsoft Teams Overview](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
