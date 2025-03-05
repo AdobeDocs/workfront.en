@@ -102,7 +102,7 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
    <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
-   <p>Edit access in Workfront for the object types that you want to create (projects and portfolios) as you connect the records to them. </p>  
+   <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect the records to them. </p>  
 </td> 
   </tr> 
 <tr> 

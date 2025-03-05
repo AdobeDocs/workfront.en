@@ -138,7 +138,7 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    * People field values display as IDs.
    * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
    * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
-   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
+   * The values of Paragraph fields display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
 
 </div>
 

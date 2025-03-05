@@ -30,7 +30,6 @@ You can create records by doing one of the following:
 <!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
 * <span class="preview">[Create records by using automations](#create-records-by-using-automations)</span>
 
-
 For information about managing records in the table or timeline views, see the following articles:
 
 * [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md)
@@ -88,12 +87,12 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
    <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
-   <p>Edit access in Workfront for the object types that you want to create (projects and portfolios) as you connect the records to them. </p>  
+   <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect the records to them. </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td> <p>Manage permissions to the workspace you want to add records to. </p>  
+   <td> <p>Contribute or higher permissions to the workspace you want to add records to. </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
    <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
    </td> 
