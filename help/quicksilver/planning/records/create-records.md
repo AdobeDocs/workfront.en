@@ -26,8 +26,7 @@ You can create records by doing one of the following:
 * [Duplicate records from a table view](#create-records-by-duplicating-them)
 * [Create records as you connect them from other records](#create-records-as-you-connect-them)
 * [Create records by submitting a request form to a record type](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [Create records when importing record types from a CSV or Excel file](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-* <Span class="preview">[Create records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
+* <span class="preview">[Create records by importing information from a CSV or Excel file](#create-records-by-importing-records-from-a-csv-or-excel-file)</span>
 * <span class="preview">[Create records by using automations](#create-records-by-using-automations)</span>
 
 For information about managing records in the table or timeline views, see the following articles:
@@ -299,7 +298,7 @@ For information, see [Create record types](/help/quicksilver/planning/architectu
 
 <div class="preview">
 
-## Create records when importing records from a CSV or Excel file
+## Create records by importing records from a CSV or Excel file
 
 You can import records for existing record types when you import information from a CSV or Excel file. 
 
