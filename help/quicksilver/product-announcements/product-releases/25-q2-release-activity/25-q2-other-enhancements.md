@@ -22,9 +22,9 @@ Workfront now has versions of event subscriptions. The new version is not a chan
 
 The ability to upgrade or downgrade event subscriptions ensures that when changes are made to the structure of events, existing subscriptions do not break, allowing you to test and upgrade to the new version without a gap in your event subscription.
 
-For more information on the differences between the two versions, see the article [Event subscription versioning](help/quicksilver/wf-api/general/event-subs-versioning.md).
+For more information on the differences between the two versions, see the article [Event subscription versioning](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
-For information on the endpoints used to upgrade or downgrade an event subscription between versions, see the section [Event subscription versioning](help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) in the article Event subscription API.
+For information on the endpoints used to upgrade or downgrade an event subscription between versions, see the section [Event subscription versioning](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) in the article Event subscription API.
 
 ## Represent Adobe Admin Console user changes as "System" in the Workfront update feed
 
