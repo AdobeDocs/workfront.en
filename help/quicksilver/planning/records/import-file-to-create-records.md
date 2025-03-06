@@ -76,12 +76,12 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
    <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
-   <p>Edit access in Workfront for the object types that you want to create (projects and portfolios) as you connect the records to them. </p>  
+   <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect the records to them. </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td> <p>Manage permissions to the workspace you want to add records to. </p>  
+   <td> <p>Contribute or higher permissions to the workspace you want to add records to. </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
    <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
    </td> 
@@ -97,23 +97,23 @@ You must have the following access to perform the steps in this article:
 
 +++ 
 
-## Considerations about importing record types using an Excel or CSV file
+## Considerations about importing records using an Excel or CSV file
 
 * The columns headers in each sheet become the fields associated with records. 
 * Each row in each sheet becomes a unique record associated. 
 * If the Excel file contains more than one sheet, only the information from one sheet that you select during the importing process is imported. 
 * The file should not exceed the following: 
-    * 10,000 rows
+    * 25,000 rows
     * 500 columns
 * The file should not be larger than 5MB.
 * Empty sheets are not supported.
 * Field of the following types are not supported and cannot be mapped to fields on the import sheet:
-    * Lookup fields of connected records or connected Workfront objects
+    * Connections and lookup fields of connected records <!--or connected Workfront objects-->
     * Formula fields
     * Created date, Created by
     * Last modified date, Last modified by
     * People
-* If a multi- or single-select field is imported and it has more choices than a similar field in Planning, the additional options are created during the import. 
+    * If a multi- or single-select field is imported and it has more choices than a similar field in Planning, the additional options are created during the import. Only users with Manage permissions to the workspace can import new choices. 
 
 ## Create records by importing a CSV or Excel file
 
@@ -138,9 +138,14 @@ You must have the following access to perform the steps in this article:
  
     Each row represents a new record. Only the first 10 records display in the Preview and edit box. 
 
-1. (Optional) Select the **Create missing options** in the lower-left corner of the screen. When enabled, the missing choices of single- and multi-select fields are added. 
+1. (Optional and conditional) If you have Manage permissions to the workspace, select the **Create missing options** in the lower-left corner of the screen. When enabled, the missing choices of single- and multi-select fields are added. 
 
-    For example, if the selected record type has a single-select Status field with the choices New, In Progress, and Closed and a Status field imported from a file also has an On Hold Status choice, the On Hold status choice is also added 
+>[!NOTE]
+>
+>For example, if the selected record type has a single-select Status field with the choices New, In Progress, and Closed and a Status field imported from a file also has an On Hold Status choice, the On Hold status choice is also added. 
+>
+>If you do not have Manage permissions to the workspace, you can import records, but the additional choices will not be created. Instead, you receive the following message in the upper-right corner of the Map the Planning fields to your column headers box: **The choices that do not exist in connection, single- or multi-select fields will not be added**.
+
 
     <!--when we add connected records and the info icon in the tool changes, also add those items to this step-->
 
