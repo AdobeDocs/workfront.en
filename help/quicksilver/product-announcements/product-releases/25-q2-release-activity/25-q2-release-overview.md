@@ -58,6 +58,29 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 </tbody>
 </table>
 
+### Document management enhancements
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Edit multiple documents at once in a Document report </a></p>
+            <p>You can now edit multiple documents at once in a Document report. You can edit the descriptions and update custom forms.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: February 6, 2025</li>
+                <li><span class="preview">Production release for all customers: March 13, 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
 ### Project enhancements
 
 <table>
@@ -88,6 +111,20 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Upgrade to the new event subscription version with version upgrade endpoints</a></p>
+            [!BADGE In production ]{type=Informative}
+            <p>Workfront now has versions of event subscriptions. The new version is not a change to the Workfront API, but rather a change to the event subscription functionality. You can switch your event subscriptions to the new version without creating a gap in your event subscription</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li><span class="preview">Production release for all customers: March 6, 2025</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
