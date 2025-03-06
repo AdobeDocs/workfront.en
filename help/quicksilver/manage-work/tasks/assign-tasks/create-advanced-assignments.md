@@ -12,13 +12,7 @@ exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 
 <!-- Audited: 07/2024-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
-
-You can manage task or issue assignments by using Advanced Assignments.
+You can manage task or issue assignments using Advanced Assignments.
 
 You can adjust the following assignment information when making advanced assignments:
 
@@ -96,7 +90,7 @@ In addition, you can make advanced assignments in the following areas of Workfro
 
    <span class="preview">![Click Advanced](assets/assignments-box-in-task-header.png)</span>
 
-1. In the **Search people, role and teams** field, start typing the name of a user, role, or team then click the name when it appears in the drop-down list.
+1. In the **Search people, role and teams** field, start typing the name of a user, role, or team, then click the name when it appears in the drop-down list.
 
    >[!NOTE]
    >
@@ -134,10 +128,6 @@ In addition, you can make advanced assignments in the following areas of Workfro
      >Depending on how your Workfront administrator or group administrator set up your project preferences, Workfront might use the schedule of the task owner to calculate the timeline of the task when you have multiple users assigned to the task. For information about multiple task assignees, see the "Assign multiple users to a task" section in the article [Assign tasks](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
    * **Allocations** : When the Duration Type of a task is Simple, specify the number of hours each user or job role should be assigned to the task. The sum of all assigned hours for each user is equal to the number in the **Planned Hours** field at the bottom of the  Allocations  column. In all other cases, specify the percentage of time (or allocation)&nbsp;that you want the assignee to spend solving the task or issue.
-
-     <!--   
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
-     -->
 
      >[!TIP]
      >   
