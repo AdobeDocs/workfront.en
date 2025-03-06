@@ -95,7 +95,7 @@ You must have the following access to perform the steps in this article:
 * Fields are unique for their respective record types. 
 * Each row in each sheet becomes a unique record associated with its respective record type. 
 * Each sheet of the Excel file should not exceed the following: 
-    * 10,000 rows
+    * 25,000 rows
     * 500 columns
 * The file should not be larger than 5MB.
 * Empty sheets are not supported. 
