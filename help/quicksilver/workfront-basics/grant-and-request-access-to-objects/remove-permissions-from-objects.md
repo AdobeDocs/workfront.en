@@ -17,6 +17,9 @@ Similar considerations as for sharing objects apply for removing permissions fro
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
+
 You must have the following to share objects:
 
 <table style="table-layout:auto"> 
@@ -53,6 +56,8 @@ You must have the following to share objects:
 </table>
 
 *To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Remove entities from the sharing list of an object {#remove-entities-from-the-sharing-list-of-an-object}
 
@@ -92,6 +97,7 @@ You can remove entities (users, job roles, teams, groups, companies) from the sh
 
 1. Click **Save**.
 
+<!--
 ## Remove permissions from several objects in bulk
 
 You can remove entities (users, job roles, teams, groups, companies) from several objects at a time when you bulk select them in a list.
@@ -126,6 +132,8 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
 
 1. Click **Save**.
 
+-->
+
 ## Remove inherited permissions
 
 Inherited permissions can be removed from objects allowing for owners to specifically&nbsp;identify who will get access to children objects regardless of the access of a user to a parent object.
@@ -138,7 +146,7 @@ To remove inherited permissions:
 
 1. Go to an object to which you have Manage permissions. For example, go to a task.   
 1. Go to the object access box as described in the [Remove entities from the sharing list of an object](#remove-entities-from-the-sharing-list-of-an-object) section in this article.
-1. Select the **x**&nbsp;next to **Inherited Permission**&nbsp;on the sharing box to remove&nbsp;anyone listed there.
+1. Select **Turn off** next to **Inherited Permission** to disable 
 
    ![inherited permissions](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
 
@@ -164,6 +172,6 @@ To make an object private:
 
    ![make private](assets/report-permissions-make-private-nwe-350x477.png)
 
-1. Click **Remove public access** to remove the access of external users to viewing the report.
-1. Click **Remove system-wide access** to stop sharing it with all Workfront users.&nbsp;
+1. Click the gear icon, then uncheck **Make this public to external users**.
+1. In the **Who has access** drop-down menu, click **Only invited people can access** to stop sharing it with all Workfront users.
 1. Click **Save**.
