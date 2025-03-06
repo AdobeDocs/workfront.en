@@ -401,4 +401,4 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
 
 After you connect records with Workfront objects, you can edit Workfront Planning records in Workfront from the object's Planning section. 
 
-For more information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md). 
+For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md). 
