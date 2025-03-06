@@ -31,6 +31,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 ## Adobe Workfront enhancements
 
 * [Administrator enhancements](#administrator-enhancements)
+* [Document management enhancements](#document-management-enhancements)
 * [Project enhancements](#project-enhancements)
 * [Other enhancements](#other-enhancements)
 
