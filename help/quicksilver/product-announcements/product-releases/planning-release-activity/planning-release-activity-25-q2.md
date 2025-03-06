@@ -16,6 +16,29 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Add connected records' lookup fields to Planning connection fields in Workfront custom forms
+
+>[!NOTE]
+>
+>Preview: March 6, 2025; Production for fast release: March 13, 2025; Production for all customers: April 10, 2025 
+
+To easily access all information from connected records from Workfront objects, we have added the connected records' lookup fields to the Planning connection fields in Workfront. 
+
+You can add up to seven lookup fields to a record connected to a Workfront object in the Planning connection custom field. As part of this improvement, you can now display the connected records and their fields in an easy-to-read table format in the custom form of a Workfront object.  
+
+For information, see [Create a custom form ](help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+## Import records using a CSV or an Excel file 
+
+>[!NOTE]
+>
+>Preview release: March 6, 2025; Production for all customers: April 10, 2025
+
+You can now import records using a CSV or Excel spreadsheet from a record type's page.
+Prior to this enhancement, you could import records only when creating record types. With this update, you can import records to existing record types.
+
+For information, see [Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md).
+
 ## Display the record name of a details page of a Workfront Planning request in the browser tab name
 
 >[!NOTE]
