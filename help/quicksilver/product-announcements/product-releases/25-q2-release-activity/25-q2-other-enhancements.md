@@ -12,6 +12,20 @@ This page describes enhancements made with the Second Quarter 2025 release to th
 
 For a list of all changes available at this point in the Second Quarter 2025 release cycle, see [Second Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
+## Upgrade to the new event subscription version with version upgrade endpoints
+
+>[!NOTE]
+>
+>Production for all customers: March 6, 2025
+
+Workfront now has versions of event subscriptions. The new version is not a change to the Workfront API, but rather a change to the event subscription functionality. 
+
+The ability to upgrade or downgrade event subscriptions ensures that when changes are made to the structure of events, existing subscriptions do not break, allowing you to test and upgrade to the new version without a gap in your event subscription.
+
+For more information on the differences between the two versions, see the article [Event subscription versioning](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+
+For information on the endpoints used to upgrade or downgrade an event subscription between versions, see the section [Event subscription versioning](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) in the article Event subscription API.
+
 ## Represent Adobe Admin Console user changes as "System" in the Workfront update feed
 
 >[!NOTE]
