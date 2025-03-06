@@ -201,7 +201,7 @@ Consider the following when you view Workfront Planning records from a Planning 
 * A Planning connection field displays in the following ways on a Workfront object's custom form, after Planning records are connected to the Workfront object:
 
    * If only the primary field of the connected record is selected, the Planning connection field displays as a field with multiple values, if the connection allows for multiple records to be linked. For information, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-   * <span class="preview">If any additional lookup fields from the connected record are selected, the Planning connection field displays as a table. Up to 7 fields can be selected for the Planning connection field. The table view is read-only.  </span>
+   * <span class="preview">If your Workfront or group administrator added additional lookup fields from the connected record on the custom form, the Planning connection field displays as a table. Up to 7 fields can be selected for the Planning connection field. The table view is read-only.  </span>
 
 * You can associate only one record type with one Planning connection field. There is no limit to how many Planning connection fields you have on a form. 
 * You must have the correct access and permissions to the object, the record, and Workfront Planning to attach a custom form with a Planning connection custom field to a Workfront object. 

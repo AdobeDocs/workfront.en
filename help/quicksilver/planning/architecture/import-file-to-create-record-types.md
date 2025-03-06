@@ -99,6 +99,12 @@ You must have the following access to perform the steps in this article:
     * 500 columns
 * The file should not be larger than 5MB.
 * Empty sheets are not supported. 
+* Fields of the following types are not supported and cannot be mapped to fields on the import sheet:
+    * Connections and lookup fields of connected records <!--or connected Workfront objects-->
+    * Formula fields
+    * Created date, Created by
+    * Last modified date, Last modified by
+    * People
 
 To import record types using an Excel or CSV file: 
 

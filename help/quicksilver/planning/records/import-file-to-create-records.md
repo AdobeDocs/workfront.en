@@ -103,7 +103,7 @@ You must have the following access to perform the steps in this article:
     * 500 columns
 * The file should not be larger than 5MB.
 * Empty sheets are not supported.
-* Field of the following types are not supported and cannot be mapped to fields on the import sheet:
+* Fields of the following types are not supported and cannot be mapped to fields on the import sheet:
     * Connections and lookup fields of connected records <!--or connected Workfront objects-->
     * Formula fields
     * Created date, Created by
@@ -142,9 +142,6 @@ You must have the following access to perform the steps in this article:
     >
     >If you do not have Manage permissions to the workspace, you can import records, but the additional choices will not be created. Instead, you receive the following message in the upper-right corner of the Map the Planning fields to your column headers box: **The choices that do not exist in connection, single- or multi-select fields will not be added**.
 
-
-    <!--when we add connected records and the info icon in the tool changes, also add those items to this step and to the NOTE-->
-
 1. Click **Import**. 
 
     The following information imports in to Workfront Planning:
@@ -156,3 +153,5 @@ You must have the following access to perform the steps in this article:
     You can start managing fields and records in the record types page. 
     
     Everyone with access to Workfront Planning and the workspace can now view and edit the imported records and their information.
+
+    <!--when we add connected records and the info icon in the tool changes, also add those items to the Import step and to the NOTE above it-->
