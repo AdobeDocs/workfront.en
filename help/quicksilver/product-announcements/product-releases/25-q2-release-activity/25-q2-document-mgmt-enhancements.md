@@ -15,7 +15,7 @@ For a list of all changes available at this point in the Second Quarter 2025 rel
 
 >[!NOTE]
 >
->Preview release: February 6, 2025; Production all customer: March 13, 2025
+>Preview release: February 6, 2025; Production for all customers: March 13, 2025
 
 You can now edit multiple documents at once in a Document report. You can edit the descriptions and update custom forms.
 
