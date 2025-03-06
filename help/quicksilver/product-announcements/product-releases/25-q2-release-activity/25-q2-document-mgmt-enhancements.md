@@ -4,6 +4,7 @@ description: Second Quarter 2025 Project enhancements
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 32c0df18-2093-42c2-810a-015345d2fa7c
 ---
 # Second Quarter 2025 Document management enhancements
 
@@ -20,4 +21,3 @@ For a list of all changes available at this point in the Second Quarter 2025 rel
 You can now edit multiple documents at once in a Document report. You can edit the descriptions and update custom forms.
 
 For more information, see [Edit documents in bulk](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).
-
