@@ -26,7 +26,7 @@ To easily access all information from connected records from Workfront objects, 
 
 You can add up to seven lookup fields to a record connected to a Workfront object in the Planning connection custom field. As part of this improvement, you can now display the connected records and their fields in an easy-to-read table format in the custom form of a Workfront object.  
 
-For information, see [Create a custom form ](help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+For information, see [Create a custom form ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Import records using a CSV or an Excel file 
 
