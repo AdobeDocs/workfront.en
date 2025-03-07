@@ -39,6 +39,25 @@ Data Connect is included in the new Ultimate plan<!--, and can be purchased as a
 
 You can use Workfront Data Connect to replicate the Enhanced Analytics visualizations that you find most valuable in addition to many new visualization options. As we get closer to the deprecation, we will add specific examples of queries that replicate Enhanced Analytics visualizations to the [Workfront Data Connect example queries](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md) page.
 
+<!--Use the queries in the articles below to create data visualizations similar to those in Enhanced Analytics:
+
+
+* [KPI queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
+
+Coming soon:
+
+* Flight plan queries
+* Project activities queries
+* Project treemap queries
+* People queries
+
+
+* [Flight plan queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
+* [Project activities queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
+* [Project treemap queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md) 
+* [People queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/people-queries.md)
+-->
+
 ### Ask for help
 
 If you encounter issues during the transition, please contact your account representative or the support team for assistance.
