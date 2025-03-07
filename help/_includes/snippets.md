@@ -490,6 +490,3 @@ In any .md file, add {{classic-note}} where you want that shared snippet content
 -->
 
 
-## Enhanced analytics deprecation message {#enhanced-analytics-deprecation}
-
-Enhanced Analytics will be removed from Workfront the week of May 26th. Workfront Data Connect is a new, alternative solution and can be used to replicate any Enhanced Analytics visualtions you currently use. <br>See the [Enhanced Analytics deprecation](/help/quicksilver/product-announcements/enhanced-analytics-deprecation.md) guide for more information.
