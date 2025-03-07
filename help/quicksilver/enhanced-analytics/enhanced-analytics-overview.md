@@ -12,7 +12,7 @@ exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
 
 >[!IMPORTANT]
 >
->Enhanced Analytics will be removed from Workfront the week of May 26th. Workfront Data Connect is a new, alternative solution and can be used to replicate any Enhanced Analytics visualizations you currently use. <br>See the [Enhanced Analytics deprecation](/help/quicksilver/product-announcements/enhanced-analytics-deprecation.md) guide for more information.
+>Enhanced Analytics will be removed from Workfront the week of May 26th. Workfront Data Connect is a new, alternative solution and can be used to replicate any Enhanced Analytics visualizations you currently use. <br>See the [Enhanced Analytics deprecation](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) guide for more information.
 
 
 Enhanced analytics is a powerful tool in Adobe Workfront with prebuilt visualizations that allows you to look at project data and identify trends with planning and completion. This insight into your projects helps you manage your current work and enables you to plan more accurately for future work.
