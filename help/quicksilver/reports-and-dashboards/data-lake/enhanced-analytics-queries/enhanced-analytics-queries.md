@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Workfront Data Connect overview
+title: Enhanced Analytics queries
 description: An overview of Workfront Data Connect
 author: Courtney
 feature: Reports and Dashboards
