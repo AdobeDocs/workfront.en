@@ -11,6 +11,10 @@ exl-id: 5d5be823-77d9-4d0c-bec6-cc172ea7f50b
 ---
 # Enhanced analytics
 
+>[!IMPORTANT]
+>
+>{{enhanced-analytics-deprecation}}
+
 This section contains the following articles:
 
 * [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md) 

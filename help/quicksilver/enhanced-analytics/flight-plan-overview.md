@@ -10,6 +10,10 @@ exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
 ---
 # View the Flight plan visualization in Enhanced analytics
 
+>[!IMPORTANT]
+>
+>{{enhanced-analytics-deprecation}}
+
 The Flight plan visualization shows how many projects (within the applied filter criteria) were in flight, what condition changes happened throughout the life of these projects, and how closely these projects adhered to their planned completion deadlines.
 
 ![Flight plan](assets/flight-plan-350x132.png)

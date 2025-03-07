@@ -12,6 +12,10 @@ exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
 
 >[!IMPORTANT]
 >
+>{{enhanced-analytics-deprecation}}
+
+>[!IMPORTANT]
+>
 >A Business plan or higher is required to use this feature.  
 >For more information about the various plans available, see [Adobe Workfront Plans](https://www.workfront.com/plans).
 

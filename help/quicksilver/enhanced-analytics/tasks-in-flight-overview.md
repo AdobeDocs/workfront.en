@@ -10,6 +10,10 @@ exl-id: cc738450-362a-49e8-836f-611fa82057b5
 ---
 # View the Tasks in flight visualization in Enhanced analytics
 
+>[!IMPORTANT]
+>
+>{{enhanced-analytics-deprecation}}
+
 The Tasks in flight visualization shows how many tasks (within the applied filter criteria) are in progress for a project, the percentage of work completed for each task, and how on schedule the tasks are.
 
 ![Tasks in flight](assets/tasks-in-flight-possible-replacement-350x104.png)

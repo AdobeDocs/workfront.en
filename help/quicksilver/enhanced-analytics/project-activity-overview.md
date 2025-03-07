@@ -10,6 +10,10 @@ exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
 ---
 # View the Project activity visualization in Enhanced analytics
 
+>[!IMPORTANT]
+>
+>{{enhanced-analytics-deprecation}}
+
 <!-- Audited: 12/2023 -->
 
 The Project activity visualization shows an aggregate view of activities on the project level—the activities of each person assigned to the project—that happened during a specific time frame. You can narrow your focus to understand the activities within a project, or you can compare project activities against other projects in Adobe Workfront.

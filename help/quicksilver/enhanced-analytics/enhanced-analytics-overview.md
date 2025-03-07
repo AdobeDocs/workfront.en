@@ -10,6 +10,10 @@ exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
 ---
 # Enhanced analytics overview
 
+>[!IMPORTANT]
+>
+>{{enhanced-analytics-deprecation}}
+
 Enhanced analytics is a powerful tool in Adobe Workfront with prebuilt visualizations that allows you to look at project data and identify trends with planning and completion. This insight into your projects helps you manage your current work and enables you to plan more accurately for future work.
 
 Enhanced analytics can help you identify:

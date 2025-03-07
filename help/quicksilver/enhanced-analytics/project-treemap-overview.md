@@ -10,6 +10,10 @@ exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
 ---
 # View the Project treemap visualization in Enhanced analytics
 
+>[!IMPORTANT]
+>
+>{{enhanced-analytics-deprecation}}
+
 <!-- Audited: 12/2023 -->
 
 The Project treemap visualization is a view of hours—or days—that have been worked in a specific window of time compared against other work efforts in size. This helps you understand how much time people have dedicated to a project.
