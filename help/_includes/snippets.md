@@ -488,3 +488,10 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
+
+
+## Enhanced analytics deprecation message
+
+Enhanced Analytics will be removed from Workfront the week of May 26th. Workfront Data Connect is a new, alternative solution and can be used to replicate any Enhanced Analytics visualtions you currently use. 
+
+See the [Enhanced Analytics deprecation]() guide for more information.
