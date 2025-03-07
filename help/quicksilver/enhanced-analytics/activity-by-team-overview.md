@@ -10,6 +10,11 @@ exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
 ---
 # View the Activity by team visualization in Enhanced analytics
 
+>[!IMPORTANT]
+>
+>{{enhanced-analytics-deprecation}}
+
+
 <!-- Audited: 12/2023 -->
 
 The Activity by team visualization shows activities that happen during a specific time frame for a home team, allowing you to understand how different home teams spent their time in Adobe Workfront. Depending on how your home team is set up in Workfront, this visualization can give you different insights and answer different questions.
