@@ -66,6 +66,7 @@ FROM completedProjectsInRange a, completedProjectsPreviousRange b, rawChange c,Â
 percentChange d
 
 ```
+
 ## Projects completed on time
 
 The Projects completed on time KPI shows the percentage of projects within the filtered time period that were completed on time, as well as how the percentage increased or decreased since the previous time period. Below these numbers, you can see the percentage of projects completed on time in the previous time period, as well as the number of days in the previous time period.
