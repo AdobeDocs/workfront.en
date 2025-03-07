@@ -7,7 +7,8 @@ description: Enhanced Analytics queries
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-
+hide: yes
+hidefromtoc: yes
 ---
 
 # Flight plan queries
