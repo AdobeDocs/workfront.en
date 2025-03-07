@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
+exl-id: 3943703a-0d0b-46d3-a708-52987d330523
 ---
-
 # Project treemap queries
 
 You can use the queries in this article to create data visualizations similar to those in Enhanced Analytics.

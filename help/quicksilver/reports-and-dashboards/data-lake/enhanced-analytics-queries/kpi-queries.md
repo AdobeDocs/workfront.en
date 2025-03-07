@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
+exl-id: 9ca5574d-7bc5-4d9d-9ed7-4d5fad6f7857
 ---
-
 # KPI queries
 
 You can use the queries in this article to create data visualizations similar to those in Enhanced Analytics.

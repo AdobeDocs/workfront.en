@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
+exl-id: 6f07e52b-b813-4b3a-9333-0c9300e051ca
 ---
-
 # People queries
 
 You can use the queries in this article to create data visualizations similar to those in Enhanced Analytics.
@@ -29,5 +29,3 @@ Before you begin, you must
     1. [Establish a connection to Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 
 Once you establish a connection, you can use the queries in this aticle to extract and visualize data.
-
-

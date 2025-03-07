@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
+exl-id: afa58d44-fd5c-48ee-aeb8-58888aaacb28
 ---
-
 # Flight plan queries
 
 You can use the queries in this article to create data visualizations similar to those in Enhanced Analytics.
