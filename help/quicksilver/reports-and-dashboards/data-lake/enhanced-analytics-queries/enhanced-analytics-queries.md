@@ -7,6 +7,8 @@ description: Enhanced Analytics queries
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
+hide: yes
+hidefromtoc: yes
 exl-id: 584a4195-150c-42a6-88be-7a0509545859
 ---
 # Enhanced Analytics queries
