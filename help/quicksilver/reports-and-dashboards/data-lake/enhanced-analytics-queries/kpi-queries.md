@@ -7,8 +7,6 @@ description: Enhanced Analytics queries
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-hide: yes
-hidefromtoc: yes
 exl-id: 9ca5574d-7bc5-4d9d-9ed7-4d5fad6f7857
 ---
 # KPI queries
@@ -42,31 +40,36 @@ You can also see the number of projects completed in the previous time period, a
 
 ```
 WITH completedProjectsInRange as ( 
-SELECT COUNT(t0.PROJECTID) as PROJECT_COUNT FROM PROJECTS_CURRENT t0 
-WHERE t0.ACTUALCOMPLETIONDATE >= '2025-01-01' 
-AND t0.ACTUALCOMPLETIONDATE <= '2025-01-31' 
+    SELECT 
+        COUNT(t0.PROJECTID) as PROJECT_COUNT 
+    FROM PROJECTS_CURRENT t0 
+    WHERE t0.ACTUALCOMPLETIONDATE >= '2025-01-01' 
+        AND t0.ACTUALCOMPLETIONDATE <= '2025-01-31' 
 ), completedProjectsPreviousRange as ( 
-SELECT COUNT(t0.PROJECTID) as PROJECT_COUNT FROM PROJECTS_CURRENT t0 
-WHERE t0.ACTUALCOMPLETIONDATE >= '2024-12-01' 
-AND t0.ACTUALCOMPLETIONDATE <= '2024-12-31' 
+    SELECT 
+        COUNT(t0.PROJECTID) as PROJECT_COUNT 
+    FROM PROJECTS_CURRENT t0 
+    WHERE t0.ACTUALCOMPLETIONDATE >= '2024-12-01' 
+        AND t0.ACTUALCOMPLETIONDATE <= '2024-12-31' 
 ), rawChange as ( 
-SELECT (a.PROJECT_COUNT - b.PROJECT_COUNT) as CHANGE_FROM_PREVIOUS_PERIOD FROM completedProjectsInRange a, completedProjectsPreviousRange b 
+    SELECT 
+        (a.PROJECT_COUNT - b.PROJECT_COUNT) as CHANGE_FROM_PREVIOUS_PERIOD 
+    FROM completedProjectsInRange a, completedProjectsPreviousRange b 
 ), percentChange as ( 
-SELECT  
-CASE 
-WHEN a.PROJECT_COUNT = b.PROJECT_COUNT THEN 0.00 
-WHEN b.PROJECT_COUNT > 0 THEN ((a.PROJECT_COUNT - b.PROJECT_COUNT) / b.PROJECT_COUNT * 100) 
-END AS PERCENT_CHANGE_FROM_PREVIOUS_PERIOD 
-FROM completedProjectsInRange a, completedProjectsPreviousRange b 
+    SELECT 
+        CASE 
+            WHEN a.PROJECT_COUNT = b.PROJECT_COUNT THEN 0.00 
+            WHEN b.PROJECT_COUNT > 0 THEN ((a.PROJECT_COUNT - b.PROJECT_COUNT) / b.PROJECT_COUNT * 100) 
+        END AS PERCENT_CHANGE_FROM_PREVIOUS_PERIOD 
+    FROM completedProjectsInRange a, completedProjectsPreviousRange b 
 ) 
 SELECT 
-a.PROJECT_COUNT, 
-b.PROJECT_COUNT as PREVIOUS_PROJECT_COUNT, 
-c.CHANGE_FROM_PREVIOUS_PERIOD, 
-d.PERCENT_CHANGE_FROM_PREVIOUS_PERIOD 
+    a.PROJECT_COUNT, 
+    b.PROJECT_COUNT as PREVIOUS_PROJECT_COUNT, 
+    c.CHANGE_FROM_PREVIOUS_PERIOD, 
+    d.PERCENT_CHANGE_FROM_PREVIOUS_PERIOD 
 FROM completedProjectsInRange a, completedProjectsPreviousRange b, rawChange c, 
 percentChange d
-
 ```
 
 ## Projects completed on time
