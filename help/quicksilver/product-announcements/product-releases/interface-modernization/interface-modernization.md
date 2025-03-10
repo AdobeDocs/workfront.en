@@ -136,6 +136,14 @@ This update includes visual changes to the area. No functionality has changed.
 
 ## Agile
 
+### Interface updates for team requests
+
+**Preview release: March 6, 2025; Production release: To be announced**
+
+We have updated the Team Requests page with a more modern design that is consistent with other areas of Workfront.
+
+To view this change, go to Teams > Choose a team > Team Requests.
+
 ### Interface update for Iterations overview page
 
 **Preview release: February 13, 2025; Production release: Starting the week of February 20,2025**
