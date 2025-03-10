@@ -9,8 +9,6 @@ exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 ---
 # Share financial permissions on an object
 
-{{highlighted-preview}}
-
 Your Adobe Workfront administrator can grant you access to view or edit financial data when assigning your access level. For more information, see [Grant access to financial data](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 Along with the access level that users are granted, you can also grant them permissions to View or Manage finances for specific projects, tasks, or issues that you have access to share.
@@ -48,6 +46,8 @@ For information about what users in each access level can do with financial data
  </tbody> 
 </table>
 -->
+
++++ Expand to view access requirements for the functionality in this article. 
 You must have the following to share financial data information on objects:
 
 <table style="table-layout:auto"> 
@@ -75,11 +75,13 @@ You must have the following to share financial data information on objects:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
++++
+
 ## Share an object and grant financial permissions
 
 Consider the following when granting financial permissions to objects:
 
-* You can grant financial permissions to projects, tasks, issues, <span class="preview">and rate cards</span>.
+* You can grant financial permissions to projects, tasks, and issues.
 * Permissions can be inherited: if you have View Finance permissions to a project, you automatically inherit View Finance permissions to the tasks and issues on the project.
 
 To grant financial permissions to an object:
@@ -99,9 +101,6 @@ To grant financial permissions to an object:
    * **Contribute to it**
    * **Manage it**
 
-     ![](assets/12.png)&nbsp; &nbsp; &nbsp; ![](assets/13.png) ![](assets/14.png)
-
-    <span class="preview"> In preview:
      ![](assets/project-permissions.png)
    </span>
 
@@ -154,18 +153,6 @@ The following table displays what financial permissions users gain when you gran
    <td>✓</td> 
    <td>&nbsp;✓</td> 
   </tr> 
-  <tr> 
-   <td><span class="preview">Manage rate cards</span></td> 
-   <td>✓</td> 
-   <td> <p>&nbsp;</p> </td> 
-   <td>&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td><span class="preview">View rate cards</span></td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>&nbsp;✓</td> 
-  </tr>
   <tr> 
    <td>View information by Cost in the Resource Planning tools</td> 
    <td>✓</td> 

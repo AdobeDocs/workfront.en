@@ -9,8 +9,6 @@ exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
 ---
 # Share a template
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 As an Adobe Workfront administrator, you can grant users access to view or edit templates when you assign their access level. A user must have a Plan license to have access to Edit templates.
 
 For more information about granting access to templates, see [Grant access to templates](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
@@ -38,9 +36,6 @@ Permissions are specific to one item in Workfront and define what actions one ca
       * View
       * Manage
 
-        ![](assets/view-on-template-262x221.png) ![](assets/manage-on-template-225x280.png)
-
-      <span class="preview">In preview:
       ![](assets/template-permissions.png)
     </span>
 

@@ -55,6 +55,7 @@ You can share a folder and its contents from the Documents area.
  </tbody> 
 </table>
 -->
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following access to perform the steps in this article:
 
@@ -82,6 +83,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 ## Share a folder
 
