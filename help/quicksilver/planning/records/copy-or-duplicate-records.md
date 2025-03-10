@@ -17,7 +17,7 @@ You can duplicate an existing record in the table view. An identical copy of the
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 

@@ -52,7 +52,7 @@ For information about connecting Planning records with Workfront objects, see [C
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 

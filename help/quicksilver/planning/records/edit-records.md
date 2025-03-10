@@ -28,7 +28,7 @@ For information about creating records, see [Create records](/help/quicksilver/p
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning.
++++ Expand to view access requirements..
 
 You must have the following access to perform the steps in this article:  
 

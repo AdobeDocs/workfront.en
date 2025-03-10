@@ -20,7 +20,7 @@ This article describes how you can edit the settings for Workfront Planning fiel
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 

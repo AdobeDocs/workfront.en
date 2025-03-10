@@ -1,43 +1,36 @@
 ---
-title: Share Views
-description: You can share a view with others to ensure collaboration when using Adobe Workfront Planning.
+title: Share Record Types
+description: You can share a record type with others to ensure collaboration when using Adobe Workfront Planning.
+hide: yes
+hidefromtoc: yes
+---
+
+<!-- add these to metadata on release:
+
 author: Alina
 feature: Workfront Planning
 role: User, Admin
-recommendations: noDisplay, noCatalog
-exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
----
+recommendations: noDisplay, noCatalog-->
 
-# Share views
+# Share record types
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
-You can share a view with others to ensure collaboration when working with records in Adobe Workfront Planning. 
+You can share a record type with others to ensure collaboration when working with records in Adobe Workfront Planning. 
 
 >[!IMPORTANT]
 >
->* Granting permissions to a workspace does not give other users permissions to the views on the record type pages. You must grant permissions to individual views in a record type page to share them with other users. 
->
->* Granting permissions to a view does not change permissions to viewing the records. Record permissions are granted by sharing workspaces.
->
->* When you share a view, you give others permissions to access all the elements of the view. For example, when you give them Manage permissions to a view, they can modify the grouping, filter, sort, or bar appearance. 
-
-
-You can share a view with the following entities: 
-
-* Internally, with Workfront users, groups, <span class="preview">teams, companies, and job roles</span>
-* Publicly, with users outside Workfront
-
-<!--
-This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+>* Granting permissions to a workspace gives users the same permissions to the record types in the workspace. 
+>* Granting permissions to the record type can give users lesser permissions and not higher permissions that they already have from the workspace. 
+> For more information, see the [Considerations when sharing record types](#considerations-when-sharing-record-types) section in this article. 
 
 ## Access requirements
 
-+++ Expand to view access requirements.. 
++++ Expand to view access requirements. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -106,71 +99,19 @@ You must have the following access to perform the steps in this article:
 
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a view</p>  
-   <p>Only users with Manage permissions to a workspace can share a view publicly.</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
-
 +++
 
-## Considerations when sharing views
+## Considerations when sharing record types
 
-* You can give View or Manage permissions to a view to internal Workfront users. 
+* You can share a record type internally with the following entities: 
 
-* Users with Manage permissions can modify the view settings, share, duplicate, or delete it. 
+    * Internally, with Workfront users, groups, teams, companies, and job roles
+* You cannot share record types externally, with users outside of Workfront
+* You can give View, Contribute, or Manage permissions to a record type to users who already have permissions to the workspace.
+
+* Users added to the record type that don't have workspace permissions are automatically added to the workspace with View permissions. 
+
+    If you need to give someone that does not have workspace permissionss
 
 * You can share views with people outside your organization with a public link.  
 

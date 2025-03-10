@@ -23,7 +23,7 @@ You can import copies of existing Workfront fields. Importing fields from Workfr
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 
