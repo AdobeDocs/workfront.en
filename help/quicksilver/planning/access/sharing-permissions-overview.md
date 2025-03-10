@@ -99,7 +99,7 @@ The following are the levels of permissions for workspaces:
 
 ### Record Type permissions
 
-Record Type permissions are inherited when you grant permissions to the workspace.
+<!--In the Production environment,--> Record Type permissions are always inherited when you grant permissions to the workspace.
 
 The following are the levels of permissions for record types: 
 
@@ -110,6 +110,8 @@ The following are the levels of permissions for record types:
 | Delete | ✓      |            |       |
 | Edit   | ✓      |            |       |
 | View   | ✓      | ✓          | ✓     |
+
+<!--In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. However, if users have Contribute permissions to the workspace, you can grant them View permissions or no permissions to the Record Type. -->
 
 ### Record permissions
 

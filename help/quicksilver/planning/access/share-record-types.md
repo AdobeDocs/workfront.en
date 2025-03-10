@@ -87,8 +87,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>  <p>Manage permissions to a view</p>  
-   <p>Only users with Manage permissions to a workspace can share a view publicly.</p></td> 
+   <td>  <p>Manage permissions to a record type</p>  
+   <p>Only users with Manage permissions to a workspace can share Manage permissions to a record type</p></td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
@@ -106,116 +106,70 @@ You must have the following access to perform the steps in this article:
 * You can share a record type internally with the following entities: 
 
     * Internally, with Workfront users, groups, teams, companies, and job roles
-* You cannot share record types externally, with users outside of Workfront
-* You can give View, Contribute, or Manage permissions to a record type to users who already have permissions to the workspace.
+* You cannot share record types externally, with users outside of Workfront.
+* You can give View, Contribute, or Manage permissions to a record type to users who already have these permissions to the workspace.
 
 * Users added to the record type that don't have workspace permissions are automatically added to the workspace with View permissions. 
 
-    If you need to give someone that does not have workspace permissionss
+    If you need to give someone record type permissions that does not have workspace permissions, you must first share the workspace with them. If you share the record type only, they can only receive View permissions to the record type and they are also added to the workspace with View permissions. There is an indicating in the sharing box that they are also added to the workspace.  
 
-* You can share views with people outside your organization with a public link.  
+* You cannot give someone higher permissions to the record type than they have on a workspace. 
 
-* When you share a view publicly, the link is accessible by anyone outside of your company for a limited time, indicated by the expiration date. There is no login required to view the shared view.  
+    For example, you cannot give someone View permissions to a workspace and Manage permissions to a record type. 
 
-* People outside your organization who have access to a view cannot create other views, edit the shared view, or add, delete, or edit record information in the view. 
 
-## Share permissions to a view internally
+## Share permissions to a record type
 
-You can share views you created or views you have Manage permissions to with users, groups, <span class="preview">teams, companies, and job roles</span> in Workfront. 
-
->[!NOTE]
->
->System Administrators cannot view or share views they did not create themselves. They can only access or share views that are shared with them.
->
->System administrators can have only Manage permissions to a view. 
+You can share record types you created or record types you have Manage permissions to with users, groups, teams, companies, and job roles in Workfront Planning. 
 
 {{step1-to-planning}}
 
-1. Open the workspace whose view you want to share, then click a record type card. 
+1. Open the workspace whose record types you want to share, then click a record type card. 
 
    This opens the record type page.
 
-1. From the view tab, hover over the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. From the tab of any view, click **Share** in the upper-right corner of the record type. 
 
-   ![More menu for views expanded with share option](assets/more-menu-for-views-expanded-with-share-option.png)
+   The **Share** box opens.
 
-   The **Internal sharing** tab should be selected by default.
+   ![Permissions for record types with inherited permissions on](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. (Optional) In the **Who has access** area, select from the following options: 
 
-   * **Only invited people can access**: You must specify users, groups, <span class="preview">team, company, or job role</span> that you want to share the view with. This is the default option.
-   * **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. 
+   * **Only invited people can access**: You must specify users, groups, team, company, or job role that you want to share the view with. 
+   * **Everyone in the workspace can view**: All users that have View or higher permissions to the workspace can access the view. This is the default option.
 
-1. In the **Grant access to this view** field, start typing the name of a user, a group, <span class="preview">team, company, or job role</span> then click it when it displays in the list.  
+1. (Optional) Expand the **Inherited permissions** option to view users, teams, groups, companies, or job roles that inherit permissions from the workspace.
+1.(Optional) Click **Turn off** to remove **Inherited permissions**. Inherited permissions are disabled and no one who has permissions to the workspace has permissions to the record type. 
+1. (Optional and conditional) If you want to share the record type with specific entities and give them lesser access to the record type than they already have for the workspace, in the **Grant access to this record type** field, add users, teams, groups, companies, or job roles, then choose a permission level. 
 
-   ![Sharing a view with groups](assets/sharing-a-view-ui-with-groups.png)
+    >[!IMPORTANT]
+    >
+    >You can never give users greater permissions on a record type than they have on a workspace.
+
+1. In the **Grant access to this view** field, start typing the name of a user, a group, team, company, or job role, then click it when it displays in the list. 
 
 1. Select one of the following permission levels from the drop-down menu: 
     * View
+    * Contribute
     * Manage
 
         For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-        System administrators always receive Manage permissions to views shared with them.
+        System administrators always receive Manage permissions to record types shared with them, and there is an indication that a user is a System administrator.
 
-1. Click **Copy link** to copy a link to the view to your clipboard. 
+1. Click **Copy link** to copy a link to the record type to your clipboard. 
 1. Click **Save**.
 
-   The view updates with a people icon ![View shared with others icon](assets/view-shared-with-others-people-icon.png) to indicate that the view is now shared with other users. 
-
-   >[!TIP]
-   >
-   >Views without a people or a global icon are views you created and are not shared with others. Unshared views are only visible to you. 
+   The record type is now shared with other users. 
 
 1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the record type page and display it in the selected view. 
 
-## Share permissions to a view publicly
+<!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
-You can share views you created or views you have Manage permissions to with people that do not have a Workfront license and who might be external to your organization.
+## Grant permissions to a record type from a permission request
 
->[!IMPORTANT]
->
->Only users with Manage permissions to a workspace can share the views of the workspace publicly.
-
-
-To share a view publicly in Workfront Planning: 
-
-{{step1-to-planning}}
-
-1. Open the workspace whose view you want to share, then click a record type card. 
-
-   This opens the record type page.
-
-1. From the view tab, hover over the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. 
-
-   ![More menu for views expanded with share option](assets/more-menu-for-views-expanded-with-share-option.png)
-
-1. Click **Public sharing**.
-
-   ![Public sharing tab for views](assets/public-sharing-tab-for-views.png)
-
-1. Enable the **Create public link** setting.
-
-   A link becomes available. This is a public link. When shared, anyone with the link, including people from outside your organization can access the record type page, and view records and fields on the page. 
-
-1. Click the **Copy link** icon ![Copy link view](assets/copy-link-view.png) to copy the link to your clipboard. 
-
-1. Manually enter a date, or use the calendar in the **Link expiration date** field to select an expiration date for the public link. The record page view will not be accessible after the selected date. 
-
-1. Click **Save**.
-
-   The view updates with a global icon ![Public shared view icon highlighted](assets/public-shared-view-icon-highlighted.png) to indicate that the view is shared publicly.  
-
-   >[!TIP]
-   >
-   >Views without a people or a global icon are views you created and are not shared with others. Unshared views are only visible to you. 
-
-
-1. (Optional) Paste the link you copied to an email, chat message, document, or in a Workfront comment to share it with others. 
-
-## Grant permissions to a view from a permission request
-
-Users who access a link to a view to which they do not have permissions can request permissions to the view. All users with Manage permissions to the view receive the permission request and can grant or deny the permissions. 
+Users who access a link to a record type to which they do not have permissions can request permissions to the record type. All users with Manage permissions to the view receive the permission request and can grant or deny the permissions. 
 
 1. (Conditional) If you are are the manager of a view, you might receive a request from another user to access the view in the following areas:
    
@@ -238,22 +192,21 @@ Users who access a link to a view to which they do not have permissions can requ
 
    If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
 
-## Remove permissions to a view
+## Remove permissions to a record type
 
 {{step1-to-planning}}
 
-1. Open the workspace whose view you want to stop sharing, then click a record type card. This opens the record type page.
-1. Hover over the tab name of the view you want to remove sharing from and click the **More** menu ![More menu](assets/more-menu.png), then click **Share**.
-1. To remove the internal sharing of a view, do the following: 
+1. Open the workspace whose record types you want to stop sharing, then click a record type card. This opens the record type page.
 
-   1. Ensure the **Internal sharing** tab is selected.
-   1. Find the user, group, <span class="preview">team, company, or job role</span>  what you want to remove, expand the permissions drop-down menu to the right of the name of the entity you are sharing the view with, then click **Remove**.
+1. From the tab of any view, click **Share** in the upper-right corner of the record type. 
 
-1. To remove the public sharing of a view, do the following: 
+   The **Share** box opens.
+1. Find the user, group, team, company, or job role that whose permissions you want to remove, expand the permissions drop-down menu to the right of their name, then click **Remove**. <!--check the screen shot below - the UI text for View might not be accurate-->
 
-   1. Click the **Public sharing** tab.
-   1. Deselect the **Create public link** option. 
+    ![Remove option on record type sharing drop-down](assets/remove-option-on-record-type-sharing-drop-down.png)
 
 1. Click **Save**.
 
-   People no longer have access to the view. There is no notification for the users that have been removed from accessing the view that they no longer have this access.
+   People no longer have access to the record type. They could still have permissions to the workspace, unless you remove them from workspace permissions, as well. 
+   
+   There is no notification for the users that have been removed from accessing the view that they no longer have this access.

@@ -180,7 +180,7 @@ You must have the following access to perform the steps in this article:
 
 ## Share permissions to a view internally
 
-You can share views you created or views you have Manage permissions to with users, groups, <span class="preview">teams, companies, and job roles</span> in Workfront. 
+You can share views you created or views you have Manage permissions to with users, groups, <span class="preview">teams, companies, and job roles</span> in Workfront Planning. 
 
 >[!NOTE]
 >
