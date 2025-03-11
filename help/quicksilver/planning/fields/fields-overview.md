@@ -81,7 +81,7 @@ You can add new fields in Adobe Workfront Planning that reflect your organizatio
 
 * Workfront fields are accessible from Workfront Planning only when you connect record types with Workfront object types and add linked or lookup fields from Workfront objects. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).  
 
-* You can view and update the settings for the fields that you or any other user created, if you have Manage permissions to the workspace that the field belongs to. 
+* You can view and update the settings for the fields that you or any other user created, if you have Manage permissions to the workspace <!--<span class="preview">and record type</span>-->  that the field belongs to. 
 
 * You can have up to 500 fields for one record type.
 

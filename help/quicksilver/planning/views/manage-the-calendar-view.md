@@ -21,7 +21,7 @@ For information about Adobe Workfront Planning views and how to manage them, see
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 

@@ -22,7 +22,7 @@ For information about record types, see [Record types overview](/help/quicksilve
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 
