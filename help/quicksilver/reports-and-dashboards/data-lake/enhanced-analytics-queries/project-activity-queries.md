@@ -7,8 +7,6 @@ description: Enhanced Analytics queries
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-hide: yes
-hidefromtoc: yes
 exl-id: b7155160-4537-4919-bebf-72056b181bb6
 ---
 # Project activity queries
@@ -145,7 +143,7 @@ WITH task_status_changes as (  
 SELECT 
     tds.projectid, 
     tsc.lastupdatedbyid, 
-    count(tcs.status), 
+    count(tsc.status), 
     ads.calendardate 
 FROM assignments_daily_history ads 
     INNER JOIN tasks_daily_history tds ON ads.taskid = tds.taskid AND tds.calendardate = ads.calendardate 
