@@ -7,8 +7,6 @@ description: Enhanced Analytics queries
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-hide: yes
-hidefromtoc: yes
 exl-id: 6f07e52b-b813-4b3a-9333-0c9300e051ca
 ---
 # Activity by team queries
@@ -88,7 +86,6 @@ GROUP BY uc.hometeamid, uc.userid, TO_DATE(ul.lastlogindate)
 ## Teams' users' login events 
 
 ```
-Teams' users' login events 
 WITH userlogins as ( 
     SELECT 
         userid, 
