@@ -3,8 +3,8 @@ title: Share Record Types
 description: You can share a record type with others to ensure collaboration when using Adobe Workfront Planning.
 hide: yes
 hidefromtoc: yes
+exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 ---
-
 <!-- add these to metadata on release:
 
 author: Alina
