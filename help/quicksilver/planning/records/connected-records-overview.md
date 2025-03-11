@@ -35,8 +35,8 @@ For information about how you can connect records to one another or to another o
 
   The values of the lookup fields populate the Workfront Planning record that you are linking from automatically after they are updated on the original record or object. 
 
-* Everyone with access to Workfront Planning and View or higher permissions to the workspace can see the connections that you make between records or between records and other applications' objects. They can view connected records and objects regardless of their permissions in the  applications you are connecting to. 
-* You can view and edit everyone else's connections, if you have Manage permissions to the workspace where the connected records are. 
+* Everyone with access to Workfront Planning and View or higher permissions to the workspace <!--<span class="preview">and record type</span>-->  can see the connections that you make between records or between records and other applications' objects. They can view connected records and objects regardless of their permissions in the  applications you are connecting to. 
+* You can view and edit everyone else's connections, if you have Manage permissions to the workspace <!--<span class="preview">and record type</span>-->  where the connected records are. 
 * You can connect one record to one or multiple objects from another application., depending on the type of connection you selected when connecting the record types. For more information, see the "Connections types" section in the article [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Areas where you can connect records 

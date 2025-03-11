@@ -86,7 +86,11 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
    <p>In Workfront, View or higher permissions to a project, portfolio, or program</a> </p> 
-   <p>In Workfront Planning, View permissions to a workspace to view any connected records or Contribute or higher permissions to a workspace to connect or disconnect records</a> </p>  
+   <p>In Workfront Planning:
+   <ul><li>
+   View permissions to a workspace <!--<span class="preview">and record type</span>--> to view any connected records </li>
+   or
+   <li> Contribute or higher permissions to a workspace <!--<span class="preview">and record type</span>-->  to connect or disconnect records</a></li></ul> </p>  
    <p>System Administrators have permissions to all Workfront Planning workspaces, including the ones they did not create</p> 
   </td>
   </tr>

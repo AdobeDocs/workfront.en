@@ -84,7 +84,7 @@ You must have the following access to perform the steps in this article:
 <tr>
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
-   <p>View or higher permissions to a workspace, if you are a Workfront user</p> 
+   <p>View or higher permissions to a workspace <!--<span class="preview">and record type</span>-->, if you are a Workfront user</p> 
   </td>
   </tr>
 <tr>

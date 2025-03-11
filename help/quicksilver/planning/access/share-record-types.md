@@ -103,20 +103,22 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations when sharing record types
 
+* For general information about sharing objects in Workfront Planning, also see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
 * You can share a record type internally with the following entities: 
 
-    * Internally, with Workfront users, groups, teams, companies, and job roles
+    * Workfront users, groups, teams, companies, and job roles
 * You cannot share record types externally, with users outside of Workfront.
-* You can give View, Contribute, or Manage permissions to a record type to users who already have these permissions to the workspace.
+* Automatically, users inherit record type permissions from the workspace. 
+* Manually, you can give View permissions to a record type to users, or you can remove the inherited permissions from the workspace. 
 
-* Users added to the record type that don't have workspace permissions are automatically added to the workspace with View permissions. 
+* Users added to the record type that don't have workspace permissions are automatically added to workspace sharing with View permissions. 
 
-    If you need to give someone record type permissions that does not have workspace permissions, you must first share the workspace with them. If you share the record type only, they can only receive View permissions to the record type and they are also added to the workspace with View permissions. There is an indicating in the sharing box that they are also added to the workspace.  
+    To give a user that does not have workspace permissions higher than View permissions to a record type, you must first share the workspace with them. If you share the record type only, they can only receive View permissions to the record type and they are also added to the workspace with View permissions. As you give them permissions to the record type, there is an indication in the sharing box that they are also added to the workspace.  
 
 * You cannot give someone higher permissions to the record type than they have on a workspace. 
 
     For example, you cannot give someone View permissions to a workspace and Manage permissions to a record type. 
-
+   
 
 ## Share permissions to a record type
 
@@ -134,29 +136,35 @@ You can share record types you created or record types you have Manage permissio
 
    ![Permissions for record types with inherited permissions on](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
-1. (Optional) In the **Who has access** area, select from the following options: 
+1. (Optional) In the **Who has access** area, select from the following options: <!--the Only invited people is supposed to be removed - rewrite this - according to Vahan-->
 
-   * **Only invited people can access**: You must specify users, groups, team, company, or job role that you want to share the view with. 
+   * **Only invited people can access**: You must specify users, groups, team, company, or job roles that you want to share the view with. 
    * **Everyone in the workspace can view**: All users that have View or higher permissions to the workspace can access the view. This is the default option.
 
 1. (Optional) Expand the **Inherited permissions** option to view users, teams, groups, companies, or job roles that inherit permissions from the workspace.
-1.(Optional) Click **Turn off** to remove **Inherited permissions**. Inherited permissions are disabled and no one who has permissions to the workspace has permissions to the record type. 
-1. (Optional and conditional) If you want to share the record type with specific entities and give them lesser access to the record type than they already have for the workspace, in the **Grant access to this record type** field, add users, teams, groups, companies, or job roles, then choose a permission level. 
 
-    >[!IMPORTANT]
-    >
-    >You can never give users greater permissions on a record type than they have on a workspace.
+   >[!TIP]
+   >
+   >You cannot remove individual entities from the Inherited permissions list.
 
-1. In the **Grant access to this view** field, start typing the name of a user, a group, team, company, or job role, then click it when it displays in the list. 
+1. (Optional and conditional) If you want to share the record type with specific entities and give them a different access to the record type than they already have for the workspace, do the following:
 
-1. Select one of the following permission levels from the drop-down menu: 
-    * View
-    * Contribute
-    * Manage
+   1. Turn off Inherited permissions.
+   1. In the **Grant access to this record type** field, add the users, teams, groups, companies, or job roles that you want to grant a different permission level to.
+   1.Choose a permission level. 
 
-        For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+   >[!IMPORTANT]
+   >
+   >* You can never give users greater permissions on a record type than they have on a workspace.
+   >* You cannot give users a lesser permission that Manage to a record type, if they have Manage permissions to the workspace. 
+   >* You can give users a lesser permission to the record type if they have Contribute permissions to the workspace. 
+   > For more information, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
 
-        System administrators always receive Manage permissions to record types shared with them, and there is an indication that a user is a System administrator.
+1. To give users who do not have permissions to the workspace access to view record type, in the **Grant access to this view** field, start typing the name of a user, a group, team, company, or job role, then click it when it displays in the list. 
+
+   The entity you selected is added to the record type and to the workspace with **View** permissions. 
+
+   System administrators always receive Manage permissions to record types shared with them, and there is an indication that a user is a System administrator.
 
 1. Click **Copy link** to copy a link to the record type to your clipboard. 
 1. Click **Save**.

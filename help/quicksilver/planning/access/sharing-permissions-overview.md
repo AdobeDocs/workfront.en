@@ -12,17 +12,17 @@ exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 
 # Overview of sharing permissions in Adobe Workfront Planning 
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+
+
 {{planning-important-intro}}
 
 You can share or remove permissions to an Adobe Workfront Planning workspace or view. 
 
 This article describes the permission levels for Workfront Planning objects. 
-
-For information about how to share workspaces or views, see the following articles: 
-
-* [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
-
-* [Share views](/help/quicksilver/planning/access/share-views.md)
 
 ## Objects you can share in Adobe Workfront Planning
 
@@ -34,6 +34,22 @@ You can share the following objects:
     * When you share a workspace, all record types, records, and fields associated with the workspaces are also shared. 
     * When you share a workspace, views are not shared. Views are shared separately. 
 
+    For more information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
+
+<!--
+<div class="preview">
+
+* Record types
+
+    * You can share record types with people inside your organization.
+    * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
+    * You cannot share a workspace with a higher permission level than the user has on the workspace. 
+
+    For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+
+</div>
+-->
+
 * Views
 
     * You must give users, including System Administrators, permissions to access views separately from their permissions to accessing workspaces. 
@@ -41,12 +57,20 @@ You can share the following objects:
     * When you share a view, the records visible in the view are not shared. Records must be shared by sharing workspaces.
     * You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.
 
-    For information, see [Share views](/help/quicksilver/planning/access/share-views.md).
+    For more information, see [Share views](/help/quicksilver/planning/access/share-views.md).
    
 Internally, you can share a workspace or a view with the following Workfront entities:
 
 * Users
 * Groups
+
+<div class="preview">
+
+* Teams
+* Companies
+* Job roles
+
+</div>
 
 ## Considerations about sharing objects in Adobe Workfront Planning
 
@@ -111,7 +135,26 @@ The following are the levels of permissions for record types:
 | Edit   | ✓      |            |       |
 | View   | ✓      | ✓          | ✓     |
 
-<!--In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. However, if users have Contribute permissions to the workspace, you can grant them View permissions or no permissions to the Record Type. -->
+<!--
+
+<div class="preview">
+
+In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. 
+
+You can remove inherited permissions from the record type, but you can never grant higher permissions for the record type than users have on the workspace. 
+
+The following scenarios exist: 
+
+|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
+|--------|--------|-------------|
+| Manage |   Manage    |   Manage, No permissions           | 
+| Contribute |     Contribute |  Contribute, View, No permissions        |
+| View   |  View     |      View, No permissions        |     
+
+
+</div>
+
+-->
 
 ### Record permissions
 
