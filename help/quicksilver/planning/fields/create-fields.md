@@ -527,7 +527,11 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
 ### People
 
 You can use the People field type to add a user <!--, job role, or team--> to a record. This is a type-ahead field, and you can add only users<!--, roles, or teams--> that already exist in your Workfront instance.
- 
+
+>[!TIP]
+>
+>When you add the name of a user in a People field, the name of the user and their primary job role display in the field.  
+
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
  
    ![](assets/people-field-type.png)

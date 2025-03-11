@@ -71,6 +71,11 @@ The linked folder is created in the location specified by the Workfront administ
 
 The name for the linked folder is automatically created based on the Portfolio, Program, Project its associated with and can't be changed. If project is not associated with a Portfolio or Program, the linked folder will display the project name and creation date.
 
+>[!NOTE]
+>
+>You cannot create a new document or proof version inside of a linked folder.
+
+
 To create a linked folder:
 
 1. Go to the Project where you want the folder.

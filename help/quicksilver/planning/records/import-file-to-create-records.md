@@ -1,18 +1,14 @@
 ---
 title: Create Records by Importing Information from a CSV or Excel File
 description: Records are individual instances of record types, which are the object types of Adobe Workfront Planning. In Workfront Planning, you can create records by importing information from a CSV or Excel file.
-hide: yes
-hidefromtoc: yes
-exl-id: 940945df-391c-4672-9d9d-180d5028509b
----
-<!-- add the following in the metadata when live:
-
 feature: Workfront Planning
 role: User, Admin
 author: Alina
-recommendations: noDisplay, noCatalog-->
+recommendations: noDisplay, noCatalog
+exl-id: 940945df-391c-4672-9d9d-180d5028509b
+---
 
-# Create Records by importing information from a CSV or Excel file
+# Create records by importing information from a CSV or Excel file
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -107,7 +103,7 @@ You must have the following access to perform the steps in this article:
     * 500 columns
 * The file should not be larger than 5MB.
 * Empty sheets are not supported.
-* Field of the following types are not supported and cannot be mapped to fields on the import sheet:
+* Fields of the following types are not supported and cannot be mapped to fields on the import sheet:
     * Connections and lookup fields of connected records <!--or connected Workfront objects-->
     * Formula fields
     * Created date, Created by
@@ -119,14 +115,14 @@ You must have the following access to perform the steps in this article:
 
 {{step1-to-planning}}
 
-1. Click the workspace where you want to create record types, 
+1. Click the workspace where you want to create records, 
 
     Or
 
     From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
 1. Click the card of the record type where you want to import the records.
 1. Click **New record** in the upper-right corner of the screen. 
-1. Click **Upload from file**, then **Continue**.
+1. Click **Upload from file**, then **Continue**. <!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 
 1. Click **Preview and edit**.
 1. (Conditional) If the imported file has more than one sheet, select the radio button of the sheet you want to import in the **Select a sheet to import** box, then click **Next**. Otherwise, continue to the next step.
@@ -140,14 +136,11 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional and conditional) If you have Manage permissions to the workspace, select the **Create missing options** in the lower-left corner of the screen. When enabled, the missing choices of single- and multi-select fields are added. 
 
->[!NOTE]
->
->For example, if the selected record type has a single-select Status field with the choices New, In Progress, and Closed and a Status field imported from a file also has an On Hold Status choice, the On Hold status choice is also added. 
->
->If you do not have Manage permissions to the workspace, you can import records, but the additional choices will not be created. Instead, you receive the following message in the upper-right corner of the Map the Planning fields to your column headers box: **The choices that do not exist in connection, single- or multi-select fields will not be added**.
-
-
-    <!--when we add connected records and the info icon in the tool changes, also add those items to this step-->
+    >[!NOTE]
+    >
+    >For example, if the selected record type has a single-select Status field with the choices New, In Progress, and Closed and a Status field imported from a file also has an On Hold Status choice, the On Hold status choice is also added. 
+    >
+    >If you do not have Manage permissions to the workspace, you can import records, but the additional choices will not be created. Instead, you receive the following message in the upper-right corner of the Map the Planning fields to your column headers box: **The choices that do not exist in connection, single- or multi-select fields will not be added**.
 
 1. Click **Import**. 
 
@@ -155,8 +148,10 @@ You must have the following access to perform the steps in this article:
 
     * New records that display at the bottom of the table view of the selected record type. 
     * New field values for existing fields associated with each record.
-    * New choices of a multi- or single-select field that did not exist in Planning.  
+    * New choices of a multi- or single-select field that did not exist in Planning.  <!--when we add connected records - add those here too-->
     
-    You can start managing fields and records on the record types page. 
+    You can start managing fields and records in the record types page. 
     
     Everyone with access to Workfront Planning and the workspace can now view and edit the imported records and their information.
+
+    <!--when we add connected records and the info icon in the tool changes, also add those items to the Import step and to the NOTE above it-->

@@ -1696,6 +1696,13 @@ feature-set: Workfront
     * [Workfront Data Connect data dictionary](reports-and-dashboards/data-lake/data-dictionary.md)
     * [Workfront Data Connect query examples](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [View Workfront Data Connect usage metrics](reports-and-dashboards/data-lake/view-usage-metrics.md)
+    * Enhanced Analytics queries{#enhanced-analytics-queries}
+      * [Enhanced Analytics queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
+      * [KPI queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
+      * [Flight plan queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
+      * [Project activities queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
+      * [Project treemap queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md) 
+      * [Activty by team queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
 * Manage resources {#manage-resources}
   * [Manage resources](resource-mgmt/manage-resources.md)
   * Resource Management {#resource-management}
@@ -2041,7 +2048,7 @@ feature-set: Workfront
   * Adobe Workfront Planning records {#adobe-workfront-planning-records}
     * [Records: article index](planning/records/records-information.md) 
     * [Create records](planning/records/create-records.md)
-    * [Create Records by importing information from a CSV or Excel file](planning/records/import-file-to-create-records.md)
+    * [Create records by importing information from a CSV or Excel file](planning/records/import-file-to-create-records.md)
     * [Connected records overview](planning/records/connected-records-overview.md)
     * [Connect records](planning/records/connect-records.md)
     * [Edit records](planning/records/edit-records.md)

@@ -56,7 +56,7 @@ To view the settings, go to Setup > Preferences > Approvals > Select the setting
 
 We have updated the Project, Task, and Issue Approvals lists in Setup > Groups > Approvals with a more modern design that is consistent with other areas of Workfront.
 
-To view this change, go to Setup > Groups > Approvals. 
+To view this change, go to Setup > Groups > Choose a group > Approvals. 
 
 This update includes visual changes to the area. No functionality has changed.
 
@@ -135,6 +135,14 @@ We have updated the Project, Task, and Issue Approvals lists in Setup > Processe
 This update includes visual changes to the area. No functionality has changed.
 
 ## Agile
+
+### Interface updates for team requests
+
+**Preview release: March 6, 2025; Production release: To be announced**
+
+We have updated the Team Requests page with a more modern design that is consistent with other areas of Workfront.
+
+To view this change, go to Teams > Choose a team > Team Requests.
 
 ### Interface update for Iterations overview page
 

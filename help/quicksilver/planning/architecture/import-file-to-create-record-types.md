@@ -7,7 +7,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 ---
-# Create Record Types by importing information from a CSV or Excel file
+# Create record types by importing information from a CSV or Excel file
 
 <!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -99,6 +99,12 @@ You must have the following access to perform the steps in this article:
     * 500 columns
 * The file should not be larger than 5MB.
 * Empty sheets are not supported. 
+* Fields of the following types are not supported and cannot be mapped to fields on the import sheet:
+    * Connections and lookup fields of connected records <!--or connected Workfront objects-->
+    * Formula fields
+    * Created date, Created by
+    * Last modified date, Last modified by
+    * People
 
 To import record types using an Excel or CSV file: 
 
@@ -152,4 +158,4 @@ To import record types using an Excel or CSV file:
 
     You can start managing fields and records on the record types pages. 
     
-    Everyone with access to Workfront Planning can now view and edit the imported record types and their information.
+    Everyone with access to Workfront Planning and the workspace can now view and edit the imported record types and their information.
