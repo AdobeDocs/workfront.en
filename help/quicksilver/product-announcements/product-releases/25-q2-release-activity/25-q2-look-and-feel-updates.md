@@ -62,3 +62,5 @@ We have updated the look and feel of the Share dialog to a modern design that is
 
 * The "Visible system-wide" option now displays "Everyone in the system can view". This option still functions as it did previously. 
 * There is a new icon to access advanced share settings.
+
+For more information about where to find the Share dialog, see [Grant and request permissions to objects](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
