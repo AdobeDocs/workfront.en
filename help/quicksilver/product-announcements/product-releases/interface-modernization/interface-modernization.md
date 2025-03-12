@@ -18,8 +18,6 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Administration and Setup
 
-+++Expand to view all Administration and Setup changes
-
 ### Interface update for customizing Event Notfification subjects
 
 **Preview release: February 13, 2025; Starting the week of February 13, 2025**
@@ -128,11 +126,7 @@ We have updated the Project, Task, and Issue Approvals lists in Setup > Processe
 
 This update includes visual changes to the area. No functionality has changed.
 
-+++
-
 ## Agile
-
-+++Expand to view all Agile changes
 
 ### Interface update for Iterations overview page
 
