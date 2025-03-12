@@ -103,7 +103,7 @@ To group by a multi-select custom field in a report:
    
    The objects in the report are grouped by the values of the multi-select custom field.  
 
-   ![](assets/grouping-by-multi-select-field-text-mode-ui-example.png)   
+   ![Grouping my multi select field](assets/grouping-by-multi-select-field-text-mode-ui-example.png)   
 
    The name of the groupings of the report are the names of the multi-select custom field followed by the values selected in the field.
 

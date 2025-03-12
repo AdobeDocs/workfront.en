@@ -14,7 +14,7 @@ exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
 
 Use this task grouping to group tasks by the portfolio, by program, and then by the project they are associated with.
 
-![](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
+![Portfolio program project grouping](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
 
 ## Access requirements
 

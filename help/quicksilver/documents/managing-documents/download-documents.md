@@ -49,7 +49,7 @@ You must have the following access to perform the steps in this article:
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 
-1. Click the **Download Selected** icon ![](assets/download-icon.png).
+1. Click the **Download Selected** icon ![Download Selected icon](assets/download-icon.png).
 
 ## Download multiple documents simultaneously
 
@@ -63,6 +63,6 @@ You can download multiple documents simultaneously.&nbsp;
    >Documents linked to Workfront from Box, Dropbox, Google Drive, and so forth cannot be downloaded in bulk.
 
 1. (Optional) Select the folders that contain the documents you want to download from the list of folders.
-1. Click the Download Selected icon ![](assets/download-icon.png).
+1. Click the Download Selected icon ![Download Selected icon](assets/download-icon.png).
 
    Folders are downloaded as .zip files and are limited to 4GB.

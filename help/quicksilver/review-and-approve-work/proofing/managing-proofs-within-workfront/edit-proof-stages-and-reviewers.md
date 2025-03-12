@@ -92,7 +92,7 @@ You must have the following access to perform the steps in this article:
 ## Edit reviewer details
 
 1. In Workfront, hover over the proof, then click **Proof details** to open the Proofing Details page.
-1. In the **Workflow** section, click the **More** menu ![](assets/more-button-small.png) to the right of the reviewer's name, then click **Edit** in the drop-down menu that appears.   
+1. In the **Workflow** section, click the **More** menu ![More menu](assets/more-button-small.png) to the right of the reviewer's name, then click **Edit** in the drop-down menu that appears.   
 
 1. In the **Edit reviewer** box that appears, edit any of the following details: 
 

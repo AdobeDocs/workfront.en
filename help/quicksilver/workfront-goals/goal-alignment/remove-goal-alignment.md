@@ -95,9 +95,9 @@ Removing goal alignment differs depending on which environment you use.
 
 1. Go to a child goal aligned to a parent goal. 
 1. Click the goal name to open the **Goal Details** panel. 
-1. Click the **gear icon** ![](assets/gear-icon-settings.png) next to the parent goal, then click **Remove alignment**.
+1. Click the **gear icon** ![Gear icon](assets/gear-icon-settings.png) next to the parent goal, then click **Remove alignment**.
 
-   ![](assets/edit-remove-alignment-350x88.png)
+   ![Reove alignment](assets/edit-remove-alignment-350x88.png)
 
    The goal becomes a standalone goal and its progress no longer influences the progress of the original parent goal. 
 
@@ -111,9 +111,9 @@ Removing goal alignment differs depending on which environment you use.
 1. Access the **Goals** area in Workfront and click the name of a goal to open the goal's page. 
 1. From the goal's page of a parent goal, click **Progress Indicators** in the left panel.
 
-   ![](assets/remove-goal-alignment-from-list-unshimmed.png)
+   ![REmove goal alignment](assets/remove-goal-alignment-from-list-unshimmed.png)
    
-1. In the **Type: Goal** grouping, select a goal, then click the **Disconnect** icon ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) at the top of the list.
+1. In the **Type: Goal** grouping, select a goal, then click the **Disconnect** icon ![Disconnect icon](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) at the top of the list.
 
    The Disconnect box displays. 
 

@@ -90,7 +90,7 @@ You must manually set the Planned Completion Date of a project when you schedule
 
 To schedule a project from Completion Date:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Projects**. 
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Projects**. 
 
 1. Click **New Project** then**New Project**.
 
@@ -111,7 +111,7 @@ The Planned Completion Date of a project is automatically calculated by Workfron
 
 To schedule a project from Start Date:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Projects**. 
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Projects**. 
 
 1. Click&nbsp;**New Project** then**New Project**.
 

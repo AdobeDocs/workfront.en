@@ -15,7 +15,7 @@ You can view information about how a proof is progressing through the review pro
 
 Proof progress indicates the work done on a proof from the time you send the proof to recipients to the time they make a decision on the proof. The progress icons, S, O, C, and D, appear next to the proof name and provide information about the proof's progress.
 
-![](assets/proof-edit-existing-progress-350x62.png)
+![Peoof edit existing progress](assets/proof-edit-existing-progress-350x62.png)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -87,9 +87,9 @@ The progress icons can appear in the following colors to indicate certain inform
 
 ## Proof status overview
 
-The proof status displays&nbsp;the status of decisions that are required for&nbsp;the proof. The status of the proof is driven by the “worst case” participant. For example, suppose&nbsp;there are three&nbsp;decisions&nbsp;on the proof: two have the status of **Accepted**&nbsp;and one has the status of **Rejected**. The "worst case" decision of **Rejected** over-rules the other decisions and the overall status of the proof is shown as **Rejected**.&nbsp;
+The proof status displays&nbsp;the status of decisions that are required for&nbsp;the proof. The status of the proof is driven by the "worst case" participant. For example, suppose&nbsp;there are three&nbsp;decisions&nbsp;on the proof: two have the status of **Accepted**&nbsp;and one has the status of **Rejected**. The "worst case" decision of **Rejected** over-rules the other decisions and the overall status of the proof is shown as **Rejected**.&nbsp;
 
-![](assets/proof-edit-existing-progress-350x62.png)
+![Proof edit existing progress](assets/proof-edit-existing-progress-350x62.png)
 
 The standard status options are as follows:
 

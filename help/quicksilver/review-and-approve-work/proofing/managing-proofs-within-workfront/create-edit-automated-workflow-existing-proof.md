@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   If you are reviewing the proof in the proofing viewer, click **Workflow** ![](assets/workflow-icon-proofing-viewer.png) in the left panel, then click the Edit icon ![](assets/edit-icon-proofing-viewer.png) to open the Automated Workflow settings for the proof.
+   If you are reviewing the proof in the proofing viewer, click **Workflow** ![Workflow icon](assets/workflow-icon-proofing-viewer.png) in the left panel, then click the Edit icon ![Edit icon](assets/edit-icon-proofing-viewer.png) to open the Automated Workflow settings for the proof.
 
 1. (Conditional) If the proof currently is currently using a basic workflow (without stages), click **Convert to Automated Workflow** in the screen that appears.
 
@@ -149,7 +149,7 @@ You must have the following access to perform the steps in this article:
 
    As you add stages to the Automated Workflow, a diagram forms on the screen to represent them:
 
-   ![](assets/workflow-diagram-existing-proof-qs-350x215.png)
+   ![Workflow diagram](assets/workflow-diagram-existing-proof-qs-350x215.png)
 
 1. When you are finished adding stages, click **Done**.
 

@@ -96,7 +96,7 @@ For more detail about the information in this table, see [Access requirements in
    >
    >You cannot edit tasks directly from this Gantt chart.
 
-1. To add information to your new template, click the **More** menu ![](assets/more-icon.png), then click **Edit**.
+1. To add information to your new template, click the **More** menu ![More icon](assets/more-icon.png), then click **Edit**.
 
    For information about editing a template, see [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 

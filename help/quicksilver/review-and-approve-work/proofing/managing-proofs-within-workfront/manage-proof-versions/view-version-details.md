@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 1. In a document list, hover over the row containing the proof, then click **Document Details**.
 1. Near the top of the Document Details page, click the drop-down menu next to the name, then click the name of the version you want to view and manage.
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![Version dropdown](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    Along with viewing the version's Details, you can make changes to the version, such as its name, metadata, and proofing settings (if it's a document proof).
 

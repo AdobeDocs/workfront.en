@@ -119,19 +119,19 @@ To associate an existing global approval process with a project, task, issue, te
 
    You might need to click **Show More**, then click **Approvals**.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![Approvals section on task](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
-1. ![](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
+1. ![Use existing or create single use approvals](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
    The approval process selected displays.
 
 1. Expand the **Use existing** drop-down menu and select an existing approval process. 
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![Approvals menu](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
    The approval process selected displays.
 
-   ![](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
+   ![Existing approval attached to task](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
 
 1. Click **Save**.
 1. (Optional) Click Edit Approval Process if you want to modify the existing approval you attached to the item. This changes the global approval process to a single-use approval process. For more information, see the section [Modify a global approval process for use on a specific object](#modify-a-global-approval-process-for-use-on-a-specific-object) in this article.
@@ -164,7 +164,7 @@ To modify a approval process already attached to an item:
    >
    >Ensure that you click **Save** when adding the approval.
 
-1. After the global approval process is added, click the **Edit**icon ![](assets/edit-icon.png) in the upper-right corner of the approval page. This action turns the global or group-level approval process into a single-use approval process. 
+1. After the global approval process is added, click the **Edit**icon ![Edit icon](assets/edit-icon.png) in the upper-right corner of the approval page. This action turns the global or group-level approval process into a single-use approval process. 
 1. Make any changes to the existing approval process. For more information, see the section [Associate a single-use approval process with a project, task, issue, template, or template task](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task) in this article. 
 1. Click **Save**, then click **Save** again to confirm that you want to convert the global approval process to a single-use approval process that is available only on this object.
 
@@ -189,11 +189,11 @@ To create a single-use approval process:
 
    You might need to click **Show More** > **Approvals**.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![Approvals section on task](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Click **Create single-use**.
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![Approvals menu](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
 1. Complete the steps beginning with step 6 in the section "Create a system-level or group-level global approval process for work items" in the article [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
@@ -228,12 +228,12 @@ To remove or delete an approval process from a work item:
 
    You might need to click **Show More** > **Approvals**.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![Approvals section on task](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Click one of the following icons in the upper-right corner of the Approvals section, depending on what type of approval is associated with the item:
 
-   * **The Remove**icon ![](assets/remove-icon---x-in-circle.png) for global or group-level approvals.
-   * **The Delete**icon ![](assets/delete.png) for single-use approvals.
+   * **The Remove**icon ![Remove icon](assets/remove-icon---x-in-circle.png) for global or group-level approvals.
+   * **The Delete**icon ![Delete icon](assets/delete.png) for single-use approvals.
 
 1. Click **Remove** or **Delete** to confirm.
 

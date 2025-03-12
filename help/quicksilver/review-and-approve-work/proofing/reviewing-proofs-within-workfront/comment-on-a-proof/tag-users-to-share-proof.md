@@ -77,7 +77,7 @@ To tag someone and share a proof in a comment:
 1. Finish the comment, then click **Post**.
 1. (Conditional) If you tagged anyone who was not already added to the proof, specify a **Proof role** and **Email alerts** setting for each user listed in the box that appears, then click **Add people and post comment**.
 
-   ![](assets/add-people-to-proof-350x220.png)
+   ![Add people to proof](assets/add-people-to-proof-350x220.png)
 
    For information about proof roles, see . For information about proof email alerts, see the section in the article [Configure email notification settings in Workfront Proof](../../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 

@@ -77,7 +77,7 @@ You can locate the Actual&nbsp;Start&nbsp;Date of a project in the following are
 
 To locate the Actual Start&nbsp;Date in the Details section of the project:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Projects**. 
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Projects**. 
 1. Click the project you want to view the Actual Start Date for.
 1. Click&nbsp;**Project Details** in the left panel, then go to the **Overview** section.
 

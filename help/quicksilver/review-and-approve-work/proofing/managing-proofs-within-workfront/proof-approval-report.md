@@ -50,7 +50,7 @@ You must have the following:
 
 1. Click **New Report**, then scroll to select **Proof Approval**.
 
-   ![](assets/proof-approval-report.png)
+   ![Proof approval report](assets/proof-approval-report.png)
 
 1. (Optional) Add any additional fields. 
 1. Click **Save + Close**.

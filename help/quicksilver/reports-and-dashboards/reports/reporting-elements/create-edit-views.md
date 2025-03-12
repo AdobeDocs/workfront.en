@@ -117,7 +117,7 @@ You can create a new standard view, or you can customize an existing standard vi
          <tbody> 
           <tr> 
            <td role="rowheader"><strong>Custom Column Label</strong></td> 
-           <td><p>Specify a custom label for the column. This label replaces the default label.</p></td> 
+           <td><p>Specify a custom label for the column. This label replaces the default label. We recommend using only UTF-8 characters to avoid compatibility issues.</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Field Format</strong></td> 
@@ -173,7 +173,7 @@ To create or customize an Agile view:
       You cannot customize the default Agile view.
    
    1. Click the **View** drop-down menu again, then click **Customize View**.  
-      ![](assets/view-agile-customize.png)
+      ![Customize view](assets/view-agile-customize.png)
 
 1. (Conditional) To create a new Agile view, click **New View**.  
    The **Customize Agile View** dialog box displays.  

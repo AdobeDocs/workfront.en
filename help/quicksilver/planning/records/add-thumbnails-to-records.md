@@ -26,7 +26,7 @@ For information, see [Create record types](/help/quicksilver/planning/architectu
 
 <!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -80,7 +80,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Manage permissions to a workspace </p>  
+   <td>   <p>Contribute or higher permissions to a workspace <!--<span class="preview">and record type</span>-->  </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 <tr> 
@@ -126,9 +126,9 @@ You can add a thumbnail in the following ways:
 
    This opens the record type page. 
 1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 
-1. Hover over the primary field information, click the **More** menu ![](assets/more-menu.png), then click **Thumbnail**. 
+1. Hover over the primary field information, click the **More** menu ![More menu](assets/more-menu.png), then click **Thumbnail**. 
 
-   ![](assets/record-more-menu-expanded.png)
+   ![Record more menu expanded](assets/record-more-menu-expanded.png)
 
       >[!TIP]
       >
@@ -174,15 +174,15 @@ You can add a thumbnail in the following ways:
 1. From any view, click a record to open it. 
 
    The details preview box displays.
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner.
+1. (Optional) Click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner.
 
    The record's details page opens. 
 
-1. (Conditional) In the record preview or details page, hover over the thumbnail image or icon ![](assets/record-thumbnail-icon-on-details-page.png), then hover over the space above the record name, then click **Add thumbnail** or **Edit thumbnail**.
+1. (Conditional) In the record preview or details page, hover over the thumbnail image or icon ![Record thumbnail icon on details page](assets/record-thumbnail-icon-on-details-page.png), then hover over the space above the record name, then click **Add thumbnail** or **Edit thumbnail**.
 
    The **Upload** tab opens by default in the **Record thumbnail** box. 
 
-   ![](assets/record-thumbnail-box-for-upload.png) 
+   ![Record thumbnail box for upload](assets/record-thumbnail-box-for-upload.png) 
 
 1. Drag and drop a file to add as a thumbnail
    
@@ -191,12 +191,12 @@ You can add a thumbnail in the following ways:
    Click **Browse images**, then browse for an image file to add. The file must be saved on your computer. 
 
 1. (Optional) After the image uploads in the **Record thumbnail** box, use the sizing tool to crop and resize the image.
-1. (Optional) Click the **Upload new image** icon ![](assets/upload-new-image-icon.png) to upload another image. 
+1. (Optional) Click the **Upload new image** icon ![Upload new image icon](assets/upload-new-image-icon.png) to upload another image. 
 1. (Optional) Click the **Gallery** tab, then click an image. The gallery of images cannot be modified. 
 
-   ![](assets/record-thumbnail-box-for-gallery.png)
+   ![Record thumbnail box for gallery](assets/record-thumbnail-box-for-gallery.png)
 
-1. (Optional) To remove the thumbnail before it is saved, click the **Remove** icon ![](assets/remove-image-icon.png) to the right of the image. 
+1. (Optional) To remove the thumbnail before it is saved, click the **Remove** icon ![Remove image icon](assets/remove-image-icon.png) to the right of the image. 
 
 1. Click **Use image** to add the image as a thumbnail. 
    This closes the **Record thumbnail** box.
@@ -206,7 +206,7 @@ You can add a thumbnail in the following ways:
    >
    >   You must enable the Thumbnail field in the table view to display thumbnails in this view. It is disabled by default.
 
-1. (Optional) To remove the thumbnail after it is saved, click a record in any view to open the details page, then hover over the thumbnail image and click the **More** menu ![](assets/more-menu.png)> **Remove** icon ![](assets/remove-image-icon.png). The thumbnail image is removed. 
+1. (Optional) To remove the thumbnail after it is saved, click a record in any view to open the details page, then hover over the thumbnail image and click the **More** menu ![More menu icon](assets/more-menu.png)> **Remove** icon ![Remove icon](assets/remove-image-icon.png). The thumbnail image is removed. 
 
 
 

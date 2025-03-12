@@ -68,7 +68,7 @@ For more detail about the information in this table, see [Access requirements in
    * **Actual Amount:** The amount that the expense actual cost.  
      This affects the Actual Cost of the project.
    
-   * **Planned Date:** The expected date for the expense to occur. You&nbsp;can type the&nbsp;date in the field using the *mm/dd/yy* format, or you can click&nbsp;the calendar icon&nbsp; ![](assets/calendar-icon.png)&nbsp;and select the date dynamically.
+   * **Planned Date:** The expected date for the expense to occur. You&nbsp;can type the&nbsp;date in the field using the *mm/dd/yy* format, or you can click&nbsp;the calendar icon&nbsp; ![Calendar icon](assets/calendar-icon.png)&nbsp;and select the date dynamically.
    
    * **Date Paid:** The date the expense was paid.
    * **Billable:** Select this option&nbsp;if you want to&nbsp;bill this expense. Categorizing an expense as billable is important when creating billing records.

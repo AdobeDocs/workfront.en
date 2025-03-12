@@ -63,7 +63,7 @@ The following items are never copied from an existing project to a new one:
 ## Copy a template
 
 1. Go to the template that you want to copy.
-1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png), then click **Copy**.
+1. Click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png), then click **Copy**.
 1. Specify a name for the template in the **New Template Name** field.
 
    By default, the new name is **Copy of `<original template name>`.**

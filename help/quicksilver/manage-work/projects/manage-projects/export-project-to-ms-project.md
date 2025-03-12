@@ -82,15 +82,15 @@ You must have the following access to perform the steps in this article:
 
 You can export a project from Workfront from the project page or from a project list or report.
 
-1. Go to the project you want to export and click the **More** icon ![](assets/qs-more-menu.png) to the right of the project name
+1. Go to the project you want to export and click the **More** icon ![More menu](assets/qs-more-menu.png) to the right of the project name
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![More dropdown](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Or
 
-   Go to a project list or report and select a project, then click the More icon ![](assets/qs-more-menu.png) at the top of the list.
+   Go to a project list or report and select a project, then click the More icon ![More menu](assets/qs-more-menu.png) at the top of the list.
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![More menu expanded](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. Click&nbsp;**Export MS Project**.    
   

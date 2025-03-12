@@ -24,35 +24,34 @@ For more information about creating and managing reports, including classes, vid
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
+You must have the following:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>New: Standard </p>
    or
    <p>Current: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Reports, Dashboards, Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p><b>NOTE</b></p>
-   <p> If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars</p> <p>Edit access to Filters, Views, Groupings</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>You obtain Manage permissions to the reports you create.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>You obtain Manage permissions to the reports you create.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -66,11 +65,13 @@ You must have the following access to perform the steps in this article:
 
    For specific information about available object reports, see the section [Report on objects](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) in the article [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-   ![](assets/nwe-select-new-report-350x666.png)
+   ![Select new report](assets/nwe-select-new-report-350x666.png)
 
    >[!TIP]
    >
    >You can also create a report by making a copy of an existing report. For more information, see [Create a copy of a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+
+1. (Optional) To edit the title of your new report, enter your desired report title in the text field in the top-left corner of the report builder. We recommend using only UTF-8 characters to avoid compatibility issues.
 
 1. In the report builder, add the following to your report:
 
@@ -120,11 +121,11 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   To change an existing column, click the column, click the **Remove** icon ![](assets/remove-column-icon.png) to the right of the current field in the **Show in this column field** area in the upper-left corner of the report builder, and start typing a new field, then click it when it displays in the list.
+   To change an existing column, click the column, click the **Remove** icon ![Remove column icon](assets/remove-column-icon.png) to the right of the current field in the **Show in this column field** area in the upper-left corner of the report builder, and start typing a new field, then click it when it displays in the list.
 
    For more information about the fields you see in the columns, see [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   ![](assets/nwe-add-column-typeahead-350x459.png)
+   ![Add column typeahead](assets/nwe-add-column-typeahead-350x459.png)
 
 1. (Optional) In the **Column Settings** area, select **Sort by this column** to sort the values in the column either in ascending on descending alphabetical order, then indicate whether the list should use this column as its first sort.
 
@@ -196,7 +197,7 @@ You must have the following access to perform the steps in this article:
 
    Choose **Apply an Existing Grouping** to select an existing grouping when it displays in the list. 
 
-   ![](assets/nwe-add-grouping-350x230.png)
+   ![Add grouping](assets/nwe-add-grouping-350x230.png)
 
 1. Start typing the field that you want to add as a grouping. If the field is available, it populates for each object where it can be associated. Click the name of the field to add it to that grouping.
 1. (Optional) You can choose to build a grouping in text mode, by clicking **Switch to Text Mode**. For more information about using text mode, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
@@ -228,7 +229,7 @@ You must have the following access to perform the steps in this article:
    Or  
    Choose **Apply an Existing Filter** to use an existing filter.
 
-   ![](assets/nwe-add-a-filter-350x93.png)
+   ![Add a filter](assets/nwe-add-a-filter-350x93.png)
 
 1. If you clicked **Add a Filter Rule**, start typing the field that you want to add as a filter. If the field is available, it populates for each object where it can be associated. Click the name of the field to add it to that filter.  
    Use filter modifiers to build your filter. For more information about filter modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
@@ -248,7 +249,7 @@ You must have the following access to perform the steps in this article:
 1. Start creating a report as described in the [Create a report](#create-a-report) section in this article.
 1. In the report builder, select the **Chart** tab, then select the type of chart you want to add.
 
-   ![](assets/nwe-add-a-chart-350x247.png)
+   ![Add a chart](assets/nwe-add-a-chart-350x247.png)
 
    For more information about building a chart in a report, see [Add a chart to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 

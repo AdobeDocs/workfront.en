@@ -24,7 +24,7 @@ For more information about record types, see [Record types overview](/help/quick
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning.  
++++ Expand to view access requirements..  
 
 You must have the following access to perform the steps in this article:  
 
@@ -92,7 +92,6 @@ You must have the following access to perform the steps in this article:
 
 +++   
 
-
 ## Considerations about creating record types 
 
 * You can create record types in a workspace in the following ways:
@@ -102,11 +101,11 @@ You must have the following access to perform the steps in this article:
         
             For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-        * When you import them using an Excel or CSV file. 
+        * When you import them using a CSV or Excel file. 
 
         >[!TIP]
         >
-        >When you import a record type from an Excel or CSV file, you can also import records and fields. 
+        >When you import a record type from a CSV or Excel file, you can also import records and fields. 
 
     * Manually:
 
@@ -146,7 +145,7 @@ For information about what record types are included with each template, see [Li
     The Add record type box opens.
     <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
-    ![](assets/add-record-type-box-with-appearance-options.png)
+    ![Add record type box with appearance options](assets/add-record-type-box-with-appearance-options.png)
 
 1. Update the following information:
 
@@ -161,12 +160,12 @@ For information about what record types are included with each template, see [Li
     The record type card is added to the section and the workspace you selected. 
     The Description of the record type displays on the card. 
 
-    ![](assets/record-type-card-with-description.png)
+    ![Record type card with description](assets/record-type-card-with-description.png)
 
-1. (Optional) Hover over the record type card, click the **More** icon ![](assets/more-menu.png) in the upper-right corner, then click **Edit** to modify information about the record type. 
+1. (Optional) Hover over the record type card, click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner, then click **Edit** to modify information about the record type. 
 1. (Optional) Click the record type card to open the record type page. 
 
-    ![](assets/operational-record-type-blank.png)
+    ![Operational record type blank](assets/operational-record-type-blank.png)
 
     The record type page displays in the table view by default. The columns of the table are fields associated with the new record type. Each row is a unique record that you must add. 
 
@@ -182,7 +181,7 @@ For information about what record types are included with each template, see [Li
 
     Or
 
-    Click the **More** icon ![](assets/more-menu.png) to the right of the record type name and click **Edit** to rename it or change the information about it. For more information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
+    Click the **More** icon ![More menu](assets/more-menu.png) to the right of the record type name and click **Edit** to rename it or change the information about it. For more information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
 
 1. (Optional) Click **+ New record** to add records of the selected record type. For more information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
 1. (Optional) Click the **+** icon in the upper-right corner of the table to add more fields to the record type. 
@@ -202,71 +201,14 @@ For information about what record types are included with each template, see [Li
       * [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md)
       * [Manage record views](/help/quicksilver/planning/views/manage-record-views.md) 
 
-## Create record types by importing an Excel or CSV file
+## Create record types by importing information from a CSV or Excel file
 
-Consider the following when importing record types using an Excel or CSV file: 
+You can import the following when importing information from a CSV or Excel file: 
 
-* Each sheet of the Excel file becomes a record type. The name of the sheet becomes the name of the record type.
-* If there is only one sheet, or if you import a CSV file, the name of the file becomes the name of the record type. 
-* The columns headers of each sheet become the fields associated with each record type. 
-* Fields are unique for their respective record types. 
-* Each row in each sheet becomes a unique record associated with its respective record type. 
-* Each sheet of the Excel file should not exceed the following: 
-    * 10,000 rows
-    * 500 columns
-* The Excel file should not be larger than 5MB.
-* Empty sheets are not supported. 
+* Record types
+* Records
+* Record fields
 
-To import record types using an Excel or CSV file: 
+For more information, see [Create Record Types by importing information from a CSV or Excel file](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md). 
 
-{{step1-to-planning}}
 
-1. Click the workspace where you want to create record types, 
-
-    Or
-
-    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
-1. Click **Add record type**. 
-1. Click **From file**.
-1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 
-1. Click **Preview and edit**.
-    
-    The **Preview and edit** box displays with the following information: 
-
-    * The names of the sheets or of the future record types display in the left panel. Workfront Planning selects an icon and a color for each new record type by default.
-    * The first sheet or record type is selected and the names of the fields associated with it display as the column headers. The type of each field is selected by default. 
-    * Each row represents a new record. Only the first 10 records display in the Preview and edit box. 
-
-    ![](assets/preview-and-edit-box.png)
-
-1. (Optional) Click the name of each sheet in the left panel to review the information it contains. 
-
-    >[!NOTE]
-    >
-    >Sheets that are empty are not supported and are dimmed. 
-
-1. (Optional) Deselect the sheets that you don't want to import from the left panel. 
-
-    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
-
-    Sheets you deselected display with a gray background. 
-
-1. (Optional) Click the downward-pointing arrow to the right of the column header to do one of the following:
-
-    * Rename one of the fields
-    * Change the **Field type**
-    * Update the field **Description**
-
-1. (Conditional) After updating information about the field, click **Save**.
-
-1. Click **Import** when you are ready to import your file. 
-
-    The following information imports in to Workfront Planning:
-
-    * New record types
-    * New fields associated with each record type
-    * New records associated with each record type
-
-    You can start managing fields and records on the record types pages. 
-    
-    Everyone with access to Workfront Planning can now view and edit the imported record types and their information.

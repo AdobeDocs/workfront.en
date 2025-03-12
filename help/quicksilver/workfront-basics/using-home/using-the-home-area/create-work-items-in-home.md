@@ -51,14 +51,36 @@ You must have the following access to perform the steps in this article:
 
 +++
 
+## Create a personal to-do item
+
+You can create a personal to-do item in the To-dos widget in the [!UICONTROL Home] area. The to-do items are personal tasks that you create for yourself. 
+
+You and other users can view your personal tasks in a personal task report. From there, they can add them to projects, if needed. 
+
+>[!TIP]
+>
+>Work items that you send to other users or to yourself from the user profile page also display in the To-dos widget in the Home area of the user. For information, see [Create personal tasks](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md). 
+
+
+To create a to-do item: 
+
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main menu** ![Main Menu lines icon](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
+1. (Conditional) Click **Customize**, then click **To-dos** to add the To-dos widget to your home screen.
+1. Go to the **To-do** widget, then click **Add to-do**. 
+1. Type the name for your personal to-do item, then click Enter. 
+1. (Optional) Click the **Date** icon ![Date icon](assets/date-icon.png) to add a due date for the item. 
+![My Work To-dos](assets/my-work-to-dos.png)
+1. (Optional) Create a personal task report or filter. For information about creating a personal task filter, see [Filter: personal task](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+   You can view your to-do items as well as other users' to-do items in the personal task report. 
+
 ## Add a task to a project
 
 You can add a task to an existing project directly from the Home area:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Add the **My Tasks** widget to your home screen. Click **Customize**, and find **My Tasks**. 
 1. Go to the **My Tasks** widget, then click **New**. 
-   ![](assets/create-new-task.png)
+   ![Create new task](assets/create-new-task.png)
 1. In the **New Task** dialog box, enter the task name.
 1. Begin typing a project name, then select the name from the list.
 1. (Optional) Enter information in the following fields:
@@ -78,10 +100,10 @@ You can add a task to an existing project directly from the Home area:
 
 You can add an issue to an existing project directly from the Home area:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Add the **My Issues** widget to your home screen. Click **Customize**, and find **My Issues**. 
 1. Go to the **My Issues** widget, then click **New**. 
-   ![](assets/create-new-issue.png)
+   ![Create new issue](assets/create-new-issue.png)
 1. In the **New issue dialog** box, begin typing a project name, then select the name from the list.
 1. Enter an issue name. 
 1. (Optional) Enter information in the following fields:
@@ -99,10 +121,10 @@ You can add an issue to an existing project directly from the Home area:
 
 You can create a request directly from the Home area:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**. 
 1. Go to the **My Requests** widget, then click **New**. 
-   ![](assets/create-new-request.png)
+   ![Create new request](assets/create-new-request.png)
 
 1. In the **New request** dialog, begin typing the name of the request queue. 
 1. Fill out the relevant fields.
@@ -114,10 +136,10 @@ For more information about submitting requests, see [Create and submit requests]
 
 You can create a project directly from the Home area:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Add the **My Projects** widget to your home screen. Click **Customize**, and find **My Projects**. 
 1. Go to the **My Projects** widget, then click **New**. 
-   ![](assets/create-new-project.png)
+   ![Create new project](assets/create-new-project.png)
 1. Choose one of the following options:
 
    | Field | Instructions |
@@ -132,7 +154,7 @@ You can create a project directly from the Home area:
 
 You can create a board directly from the Home area:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
 
 
@@ -142,13 +164,13 @@ You can create a board directly from the Home area:
 <!--
 ## Delete a to-do item
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
-1. Hover over the item, then click the **Delete** icon ![](assets/delete-to-do.png). 
+1. Hover over the item, then click the **Delete** icon ![Delete icon](assets/delete-to-do.png). 
 
 ## Edit a to-do item
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
 1. Edit the item name.
-1. Click on the **Date** icon ![](assets/date-icon.png) to add or adjust a due date. -->
+1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date. -->

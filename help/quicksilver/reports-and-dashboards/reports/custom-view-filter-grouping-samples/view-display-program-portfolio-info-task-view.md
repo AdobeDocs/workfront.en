@@ -14,7 +14,7 @@ This task view displays the Program and Portfolio that are associated with the p
 
 The view also provides links to the Project, Program, and Portfolio from a task list.
 
-![](assets/view--program-and-portfolio-350x116.png)
+![View program and portfolio](assets/view--program-and-portfolio-350x116.png)
 
 ## Access requirements
 

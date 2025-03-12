@@ -16,16 +16,16 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 ## Create a formula field
 
 1. Create or navigate to a table block, as described in [Add or edit a table block in Reporting Canvas](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
-1. On the table header in the report, click the **Edit** icon ![](assets/edit-icon.png).
+1. On the table header in the report, click the **Edit** icon ![Edit icon](assets/edit-icon.png).
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![Edit icon in table header](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >
    >If you just created the table and haven't yet added any fields, click the Edit button in the center of the table instead.
 
 1. Click **New +** at the top of the **Fields** list on the right panel.
-1. In the new page that opens, click the **Edit** icon ![](assets/edit-icon.png) next to the field name in the top-left corner to change the name of the formula field.
+1. In the new page that opens, click the **Edit** icon ![Edit icon](assets/edit-icon.png) next to the field name in the top-left corner to change the name of the formula field.
 1. Drag **Functions** or **Fields** from the left panel onto the field builder in the center to add them to your formula field.
 
 

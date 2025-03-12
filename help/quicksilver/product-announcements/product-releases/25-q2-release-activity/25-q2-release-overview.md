@@ -31,6 +31,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 ## Adobe Workfront enhancements
 
 * [Administrator enhancements](#administrator-enhancements)
+* [Document management enhancements](#document-management-enhancements)
 * [Project enhancements](#project-enhancements)
 * [Other enhancements](#other-enhancements)
 
@@ -58,6 +59,29 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 </tbody>
 </table>
 
+### Document management enhancements
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Edit multiple documents at once in a Document report </a></p>
+            <p>You can now edit multiple documents at once in a Document report. You can edit the descriptions and update custom forms.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: February 6, 2025</li>
+                <li><span class="preview">Production release for all customers: March 13, 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
 ### Project enhancements
 
 <table>
@@ -68,7 +92,6 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Add a comment to projects when editing them in the Edit project box</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>You can now add a comment to a project as you edit it in the Edit Project box. You can also add a comment to multiple projects at one time when editing them in bulk. Prior to this update, this functionality did not exist when editing projects.</p>
         </td>
         <td>
@@ -89,6 +112,20 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Upgrade to the new event subscription version with version upgrade endpoints</a></p>
+            [!BADGE In production ]{type=Informative}
+            <p>Workfront now has versions of event subscriptions. The new version is not a change to the Workfront API, but rather a change to the event subscription functionality. You can switch your event subscriptions to the new version without creating a gap in your event subscription</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li><span class="preview">Production release for all customers: March 6, 2025</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">

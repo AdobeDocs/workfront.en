@@ -70,11 +70,11 @@ If users are associated with the job roles on the project and their hours are bu
 
 * [!UICONTROL **Budgeted Labor Cost**]: The Resource Budgeting area of the Business Case under their respective roles.
 
-  ![](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
+  ![Budgeted labor cost in Business Case](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
 
 * [!UICONTROL **BDG**]: The Resource Planner when viewing information in the Project and Role view by Cost.
 
-  ![](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
+  ![Budgeted labor cost in Resource Plannes](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
 
 Users display in the Resource Budgeting area of the Business Case under their respective roles or in the Resource Planner if they meet the following requirements:
 

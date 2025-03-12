@@ -26,12 +26,12 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 >
 >All of your changes are saved automatically as you build and edit the blocks in your report.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reporting**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reporting**.
 1. Click **New report**, then create a report with tables that contain data, as described in [Build a report in Reporting Canvas](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) and [Add or edit a table block in Reporting Canvas](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
 
    Or
 
-   In an existing report with tables containing data, click the **More Menu** icon ![](assets/more-icon.png) in the report header, then select **Edit**.
+   In an existing report with tables containing data, click the **More Menu** icon ![More icon](assets/more-icon.png) in the report header, then select **Edit**.
 
 1. On the right side of the screen, under **Add a Block**, either:
 
@@ -51,7 +51,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
 1. (Conditional) If the report contains more than one table, in the **Build your visualization** box that displays, select the source table for the visualization.
 
-   ![](assets/select-table-on-vis-350x155.png)
+   ![Select table on visualization](assets/select-table-on-vis-350x155.png)
 
    >[!NOTE]
    >
@@ -59,7 +59,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
 1. Select the type of visualization you want to add.
 
-   ![](assets/select-vis-type-350x205.png)
+   ![Select visualization type](assets/select-vis-type-350x205.png)
 
    Your visualization displays, representing the data of the table you selected.
 

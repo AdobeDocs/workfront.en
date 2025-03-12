@@ -18,6 +18,14 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Administration and Setup
 
+### Interface update for the Announcement Center
+
+**Preview release: February 27, 2025; To be announced**
+
+We have updated the Announcement Center with a more modern design that is consistent with other areas of Workfront. 
+
+To view this change, go to the Notifications icon in the upper-right corner, then choose All Annoucements. 
+
 ### Interface update for customizing Event Notfification subjects
 
 **Preview release: February 13, 2025; Starting the week of February 13, 2025**
@@ -28,7 +36,7 @@ To view this change, go to Setup > Email > Notifications > Event Notifications >
 
 ### Interface update for Teams area
 
-**Preview release: February 13, 2025; Production release: To be announced**
+**Preview release: February 13, 2025; Production release: Starting the week of February 20, 2025**
 
 We have updated the Teams area with a more modern design that is consistent with other areas of Workfront.
 
@@ -48,7 +56,7 @@ To view the settings, go to Setup > Preferences > Approvals > Select the setting
 
 We have updated the Project, Task, and Issue Approvals lists in Setup > Groups > Approvals with a more modern design that is consistent with other areas of Workfront.
 
-To view this change, go to Setup > Groups > Approvals. 
+To view this change, go to Setup > Groups > Choose a group > Approvals. 
 
 This update includes visual changes to the area. No functionality has changed.
 
@@ -128,9 +136,17 @@ This update includes visual changes to the area. No functionality has changed.
 
 ## Agile
 
+### Interface updates for team requests
+
+**Preview release: March 6, 2025; Production release: To be announced**
+
+We have updated the Team Requests page with a more modern design that is consistent with other areas of Workfront.
+
+To view this change, go to Teams > Choose a team > Team Requests.
+
 ### Interface update for Iterations overview page
 
-**Preview release: February 13, 2025; Production release: To be announced**
+**Preview release: February 13, 2025; Production release: Starting the week of February 20,2025**
 
 We have updated the Iterations overview page with a more modern design that is consistent with other areas of Workfront.
 
@@ -138,7 +154,7 @@ To view this change, go to Teams > Choose a team > Iterations > Choose an iterat
 
 ### Add Stories and Issues to an iteration
 
-**Preview release: February 6, 2025; Production release: To be announced**
+**Preview release: February 6, 2025; Production release: Starting the week of February 13, 2025**
 
 We have updated the Add story and Add issue dialog box with a more modern design that is consistent with other areas of Workfront. 
 
@@ -181,11 +197,19 @@ To view this change, go to Teams > choose a team > Backlog, then click **New sto
 
 ### Interface update for the Approvals area on a document
 
-**Preview release: February 13, 2025; Production release: To be announced**
+**Preview release: February 13, 2025; Production release: Starting the week of February 27, 2025**
 
 We have udpated the Approvals area on a document with a more modern design that is consistent with other areas of Workfront. 
 
 To view this change, go to a document > Click Document Details > Approvals.
+
+### Interface update for Smart Folder edit dialog box
+
+**Preview release: January 27, 2025; Production release: Starting the week of February 3, 2025**
+
+We have udpated the Smart Folders edit dialog box with a more modern design that is consistent with other areas of Workfront. 
+
+To view this change, go to a Documents > Click the more menu next to the Smart Filter name > Click Edit. 
 
 ## Reports and Dashboards
 

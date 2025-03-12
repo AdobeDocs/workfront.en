@@ -198,7 +198,7 @@ Consider the following:
 
    For more information about adding tasks to a project, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Edit the project details by clicking the **More** menu and then **Edit** ![](assets/qs-edit-icon.png) next to the name of the project.
+1. Edit the project details by clicking the **More** menu and then **Edit** ![Edit icon](assets/qs-edit-icon.png) next to the name of the project.
 
    The **Edit Project** dialog box opens.
 

@@ -17,6 +17,8 @@ With Priorities, you can enjoy
 * Greater productivity: Access project context and perform tasks quicker with fewer clicks
 * Personalized features: Benefit from features uniquely designed for task owners
 
+The Priorities Worklist and Calendar display work items assigned to you. You cannot see work items assigned to your team.
+
 ## Find and organize your work
 
 In Priorities, you can filter and group your work to help you manage deadlines and prioritize your what is important to you. You can also quickly identify Urgent work with the My Focus column.
@@ -106,7 +108,7 @@ Once you have assigned focus levels to your work items, you can sort the column 
 
 For more information, see [Prioritize important work items](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
-![](assets/worklist.png)
+![Work list](assets/worklist.png)
 
 ### Use the Calendar view
 
@@ -134,7 +136,7 @@ The Updates section shows system updates, and up to 200 of the most recent updat
 
 For more information, see [Add and view comments in Priorities](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
-![](assets/update-log-upload.png)
+![Update, log time, and upload](assets/update-log-upload.png)
 
 ### Log time
 
@@ -142,7 +144,7 @@ You can log time for work items to indicate the number of hours you spend workin
 
 For more information, see [Log time in Priorities](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
-![](assets/update-log-upload.png)
+![Update, log time, and upload](assets/update-log-upload.png)
 
 ### Upload files
 
@@ -155,14 +157,14 @@ Upload files directly to the task or issue's Documents area without having to na
 
 For more information, see [Upload files in Priorities](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
-![](assets/update-log-upload.png)
+![Update, log time, and upload](assets/update-log-upload.png)
 
 
 ### Add quick links
 
 You can embed frequently used links in the work item's details page. Quick links allow you to quickly visit or copy the link. 
 
-![](assets/quick-links.png)
+![Quick links](assets/quick-links.png)
 
 For more information, see [Add and manage quick links in Priorities](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
@@ -186,7 +188,7 @@ Use the [!DNL Catch me up] feature to see what you missed. Catch me up will summ
 
 For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
-![](assets/catch-me-up.png)
+![Catch me up](assets/catch-me-up.png)
 
 <!--need new screen for prod-->
 

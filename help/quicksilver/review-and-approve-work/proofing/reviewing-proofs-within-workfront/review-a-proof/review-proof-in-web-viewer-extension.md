@@ -16,6 +16,7 @@ The Adobe Workfront review tool is a web-based browser extension that allows you
 * Firefox
 * Chrome
 * Edge
+* Safari
 
 We recommend using the Desktop Proofing Viewer if the content you need to review is on a website that
 

@@ -22,7 +22,7 @@ You can delete records that are no longer relevant in Adobe Workfront Planning. 
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -76,7 +76,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Contribute or higher permissions to a workspace</a> </p>  
+   <td>   <p>Contribute or higher permissions to a workspace <!--<span class="preview">and record type</span>--> </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 <tr> 

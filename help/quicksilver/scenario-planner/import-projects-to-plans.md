@@ -158,7 +158,7 @@ When you import a project into a plan some project information is also imported 
 
    The [!UICONTROL Import Projects] box displays. Projects that have dates included in the time frame of your plan display in a list.
 
-   ![](assets/project-import-ui-projects-selected-350x72.png)
+   ![Import projects](assets/project-import-ui-projects-selected-350x72.png)
 
    >[!TIP]
    >
@@ -168,9 +168,9 @@ When you import a project into a plan some project information is also imported 
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the status of the projects in the import projects UI might change; right now it's ALL statuses)</p>
    -->
 
-1. (Optional) Click the **[!UICONTROL Filter icon]** ![](assets/filter-nwepng.png)and select an available filter from the list to reduce the amount of projects on your list. By default, the list of projects is filtered by the user's currently selected project filter in a list of projects. 
+1. (Optional) Click the **[!UICONTROL Filter icon]** ![Filter icon](assets/filter-nwepng.png)and select an available filter from the list to reduce the amount of projects on your list. By default, the list of projects is filtered by the user's currently selected project filter in a list of projects. 
 
-1. (Optional) Click the **[!UICONTROL Search icon]** ![](assets/search-icon.png) and add a keyword displayed on any field on the screen. The items containing the search word display in the list automatically and all items are hidden. 
+1. (Optional) Click the **[!UICONTROL Search icon]** ![Search icon](assets/search-icon.png) and add a keyword displayed on any field on the screen. The items containing the search word display in the list automatically and all items are hidden. 
 
 1. (Conditional) Click the **[!UICONTROL X icon]** to remove the search and display all projects. 
 1. Select up to 100 projects and click **[!UICONTROL Import]**.
@@ -179,10 +179,10 @@ When you import a project into a plan some project information is also imported 
 
    Notice the following:
 
-   * A project icon ![](assets/project-icon-sp.png) displays to the right of the initiative name.
+   * A project icon ![Project icon](assets/project-icon-sp.png) displays to the right of the initiative name.
    * If the project timeline exceeds the duration of the plan, the bar of the initiative ends with a pointed margin to the left (when the Start Date is earlier than the plan's date) or to the right (when the End Date is later than the plan's date).
 
-     ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
+     ![Project bar earlier than start date](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
 
    * The number of months and job roles have been updated to match those of the project.
 
@@ -192,7 +192,7 @@ When you import a project into a plan some project information is also imported 
 
 1. Click the bar representing the new initiative to open the initiative details panel to the right.
 
-   ![](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
+   ![Initiative duration](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
 
    In the **[!UICONTROL Initiative Duration]** area review the following information: 
 
@@ -228,4 +228,4 @@ When you import a project into a plan some project information is also imported 
 1. (Optional) To update the changes you make to the initiative back to the project it was imported from, publish the project from the plan. For information about publishing plans, see [Update or create projects by publishing initiatives in the [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md). 
 1. (Optional) Click the project icon to access the linked project.
 
-   ![](assets/project-icon-on-initiative-highlighted-350x49.png)
+   ![Project icon on initiative](assets/project-icon-on-initiative-highlighted-350x49.png)

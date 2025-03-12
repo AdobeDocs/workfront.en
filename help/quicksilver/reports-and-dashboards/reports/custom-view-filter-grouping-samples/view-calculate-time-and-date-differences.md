@@ -64,7 +64,7 @@ For more detail about the information in this table, see [Access requirements in
 
 For example, you can calculate the difference between the Planned Completion Date and the Actual Completion Date of a task.
 
-![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
+![View date difference](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. Go to a list of tasks. 
 1. From the **View** drop-down menu, click **New View**.
@@ -94,7 +94,7 @@ For example, you can calculate the difference between the Planned Completion Dat
 For a list of objects and their parents, see the "Understanding the Interdependency and Hierarchy of Objects" section in [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).  
 For example, you can calculate the difference between the Planned Completion Date of a task and the Planned Completion Date of its parent task, or of the project that the task is on.
 
-![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
+![View planned completion date difference](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Go to a list of tasks. 
 1. From the **View** drop-down menu, click **New View**.

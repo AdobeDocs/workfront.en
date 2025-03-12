@@ -46,7 +46,7 @@ You must have the following:
 1. Click **Business Case** in the left panel. 
 1. In the upper-right**Business Case Summary** area, click **Export**.
 
-   ![](assets/bc-summary--350x587.png)   
+   ![Business Case Summary](assets/bc-summary--350x587.png)   
    A PDF&nbsp; file is downloaded to your computer. The file contains all areas of the Business Case in an easy to read format.
 
    ![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)

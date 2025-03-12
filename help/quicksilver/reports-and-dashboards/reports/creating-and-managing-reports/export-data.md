@@ -184,7 +184,7 @@ If you have concerns or issues regarding your limit, please contact Workfront Te
    >[!NOTE]
    >
    >To export a Dashboard report, you must have a Plan license.  
-   >![](assets/nwe-dashboard-export-note-350x271.png)
+   >![Export dashboard note](assets/nwe-dashboard-export-note-350x271.png)
    -->
 
    Or

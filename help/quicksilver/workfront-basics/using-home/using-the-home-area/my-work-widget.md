@@ -57,7 +57,7 @@ For more detail about the information in this table, see [Access requirements in
 
 You can fine-tune the My Work filters to focus on specific items in your list of work:   
 
-![](assets/filter-my-work-widget.png)
+![My Work filter](assets/filter-my-work-widget.png)
 
 ### Filter details
 
@@ -129,7 +129,7 @@ You can sort the work list by
 >To create a list that displays all past-due items at the top of the My Work widget, sort by Due Date and do not apply a grouping. 
 
 
-![](assets/sort-my-work-widget.png)
+![Sort in the My Work widget](assets/sort-my-work-widget.png)
 
 ### Group
 
@@ -145,7 +145,7 @@ You can group the work list by
 >When you apply a grouping, your selection in the Sort menu determines the order within the grouping.
 
 
-![](assets/group-my-work-widget.png)
+![Grouping in My Work widget](assets/group-my-work-widget.png)
 
 ## Update work item information in the Summary
 
@@ -161,7 +161,7 @@ You can open the Summary panel to quickly update information in a task or issue.
 * Log time
 * View attached approval processes
 
-To open the Summary, hover over the work item, then click the **Summary** icon ![](assets/open-summary-new-home.png).
+To open the Summary, hover over the work item, then click the **Summary** icon ![Summary icon](assets/open-summary-new-home.png).
 
 For additional information about how to use the Summary panel, see [Summary overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
@@ -176,7 +176,7 @@ You can use the quick actions menu to
 
 To locate the quick actions menu, hover over the work item. The quick actions list displays near the **Work On It** or **Done** button. 
 
-![](assets/quick-actions-new-home.png)
+![Quick actions menu](assets/quick-actions-new-home.png)
 
 
 ## View approvals and team requests

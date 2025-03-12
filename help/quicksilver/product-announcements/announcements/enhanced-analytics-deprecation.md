@@ -4,8 +4,6 @@ title: Enhanced Analytics deprecation guide
 description: This page contains information about the upcoming deprecation of Enhanced Analytics.
 author: Nolan
 feature: Product Announcements
-hide: yes
-hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
 ---
@@ -21,7 +19,7 @@ Due to declining use and limited functionality, Enhanced Analytics will soon be 
 
 **When?**
 
-* With the 25.2 release (February 2025)
+* The week of May 26th
 
 **What can I use instead?**
 
@@ -35,11 +33,20 @@ To minimize disruption for you and your organization, we've provided recommendat
 
 Our first recommendation is to ensure your organization has access to Workfront Data Connect and to familiarize yourself with its use as soon as possible. To learn more about Data Connect capabilities and how to begin using it, see [Workfront Data Connect overview](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
-Data Connect is included in the new Ultimate plan, and can be purchased as an add-on to the new Select and Prime plans. Note that Data Connect is not available for organizations on legacy Workfront plans. Contact your Workfront account representative to find out what plan your organization is currently on and how to purchase Data Connect.
+Data Connect is included in the new Ultimate plan<!--, and can be purchased as an add-on to the new Select and Prime plans-->. Note that Data Connect is not available for organizations on legacy Workfront plans. Contact your Workfront account representative to find out what plan your organization is currently on and how to purchase Data Connect.
 
 ### Replicate Enhanced Analytics visualizations
 
-You can use Workfront Data Connect to replicate the Enhanced Analytics visualizations that you find most valuable in addition to many new visualization options. As we get closer to the deprecation, we will add specific examples of queries that replicate Enhanced Analytics visualizations to the [Workfront Data Connect example queries](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md) page.
+You can use Workfront Data Connect to replicate the Enhanced Analytics visualizations that you find most valuable in addition to many new visualization options.
+
+Use the queries in the articles below to create data visualizations similar to those in Enhanced Analytics:
+
+
+* [KPI queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
+* [Flight plan queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
+* [Project activities queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
+* [Project treemap queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md) 
+* [Activity by team queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
 
 ### Ask for help
 
@@ -54,6 +61,7 @@ No, it will be completely removed from the application.
 +++
 
 +++ What do I do if my organization is on a legacy Workfront plan but I want to use Data Connect?
-Contact your account representative about moving to one of the new Workfront plans.
 
+Contact your account representative about moving to one of the new Workfront plans.
++++
 -->

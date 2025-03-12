@@ -56,7 +56,7 @@ You can display folders in thumbnail, standard, or list view. To change the view
 
 1. Click the view options above the right panel to change how the documents are displayed.
 
-   ![](assets/screenshot-2016-07-07-12.46.54.png)
+   ![Document view options](assets/screenshot-2016-07-07-12.46.54.png)
 
 ## Create folders and subfolders
 
