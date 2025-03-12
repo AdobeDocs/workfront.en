@@ -18,11 +18,14 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 
 {{planning-important-intro}}
 
-After someone shares a link to a request form with you from a record type page in Adobe Workfront Planning, you can add a request to create records for the record type associated with the request form. 
+After a workspace manager builds a request form for a record type in Adobe Workfront Planning, you can use the form to submit requests that will create records for the record type associated with the form. 
+
+You can submit a Workfront Planning request from the following areas: 
+
+* From the Requests area of Workfront, or from a direct link to the request form. This article describes how you can submit a request to add new records to a record type from the Requests area of Workfront, or from a shared link.
+* <span class="preview">From the record type page, when you add or request a new record. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).</span>  
 
 Workfront users and external users can submit requests to Planning record types and create records. <!--double check on the external users-->
-
-This article describes how you can submit a request to add new records to a record type.
 
 For information about how a workspace manager can create a request form and associate it with a record type, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
@@ -118,7 +121,6 @@ The following must be in place before you can submit a request to a Workfront Pl
 
 ## Considerations about submitting requests to Workfront Planning
 
-* You can access a request form for Workfront Planning requests only from a specific link to the form. 
 * You cannot edit a request in Workfront after you submit it to Workfront Planning.
 * Each submitted request creates a record for the record type associated with the form you use, if the form is not associated with an approval, or if the approval has been granted by all of the approvers.
 * Records created by submitting request forms cannot be differentiated from records added through any other method. For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 

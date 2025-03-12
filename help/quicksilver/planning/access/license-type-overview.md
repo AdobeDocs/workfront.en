@@ -65,7 +65,9 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 ### License types and workspace permissions
 
-Only users with a Standard license can have Contribute or Manage permissions to workspaces <span class="preview">and record types</span>. Users with all other license types can have View permissions to workspaces <span class="preview"> and record types </span> shared with them. 
+Only users with a Standard license can have Contribute or Manage permissions to workspaces <span class="preview">and record types</span>. The Contribute and Manage permissions to workspaces <span class="preview">and record types</span> also transfer to records and fields. 
+
+Users with all other license types can have View permissions to workspaces <span class="preview"> and record types </span> shared with them, as well as their records and fields. 
 
 System administrators can view all workspaces in the system, even the ones they did not create. 
 

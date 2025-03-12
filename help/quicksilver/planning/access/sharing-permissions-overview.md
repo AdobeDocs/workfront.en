@@ -26,7 +26,7 @@ This article describes the permission levels for Workfront Planning objects.
 
 ## Objects you can share in Adobe Workfront Planning
 
-You can share the following objects: 
+You can manually share the following objects in Workfront Planning: 
 
 * Workspaces
 
@@ -71,6 +71,8 @@ Internally, you can share a workspace or a view with the following Workfront ent
 * Job roles
 
 </div>
+
+<span class="preview"> When you share workspaces and record types with others, the permission level from the record type is automatically inherited to the records and fields associated with them. </span>
 
 ## Considerations about sharing objects in Adobe Workfront Planning
 
@@ -158,7 +160,7 @@ The following scenarios exist:
 
 ### Record permissions
 
-Record permissions are inherited when you grant permissions to the workspace.
+Record permissions are inherited from <span class="preview">the record type</span>, when you grant permissions to the workspace and <span class="preview">the record type</span>.
 
 The following are the levels of permissions for records: 
 
@@ -172,7 +174,7 @@ The following are the levels of permissions for records:
 
 ### Field permissions
 
-Field permissions are inherited when you grant permissions to the workspace.
+Field permissions are inherited from <span class="preview">the record type</span>, when you grant permissions to the workspace and <span class="preview">the record type</span>.
 The following permissions refer to the fields themselves and not to the values associated with each field. To edit field values you must have permissions to edit records. 
 
 |        | Manage | Contribute | View  |
