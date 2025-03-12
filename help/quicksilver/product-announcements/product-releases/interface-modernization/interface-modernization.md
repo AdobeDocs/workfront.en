@@ -171,7 +171,8 @@ We have updated the Teams > Backlog area with a more modern design that is consi
 This update includes the following changes:
 
 * Visual enhancements to the Stories and Issues tab as well as the Breakdown Story dialog box
-* A new dialog box for the Plan Iteration tool
+* A new dialog box for the Plan Iteration tool. You must select a story or issue for the Plan Iteration button to appear.
+* You can no longer switch between the Stories and Issues tab when planning an iteration. You can add stories or issues from the backlog tab once the iteration is created.
 
 ### Interface update for the Iterations list
 
