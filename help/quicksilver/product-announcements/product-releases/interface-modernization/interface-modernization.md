@@ -18,6 +18,8 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Administration and Setup
 
++++Expand to view Administration and Setup interface updates
+
 ### Interface update for the Announcement Center
 
 **Preview release: February 27, 2025; To be announced**
@@ -134,7 +136,11 @@ We have updated the Project, Task, and Issue Approvals lists in Setup > Processe
 
 This update includes visual changes to the area. No functionality has changed.
 
++++
+
 ## Agile
+
++++Expand to view Agile interface updates
 
 ### Interface updates for team requests
 
@@ -194,7 +200,11 @@ This update includes visual changes to the area. No functionality has changed.
 
 To view this change, go to Teams > choose a team > Backlog, then click **New story** or **New issue**.
 
++++
+
 ## Documents 
+
++++Expand to view Documents interface updates
 
 ### Interface update for the Approvals area on a document
 
@@ -212,7 +222,11 @@ We have udpated the Smart Folders edit dialog box with a more modern design that
 
 To view this change, go to a Documents > Click the more menu next to the Smart Filter name > Click Edit. 
 
++++
+
 ## Reports and Dashboards
+
++++Expand to view Reports and Dashboards interface updates
 
 ### Updated Team report with new styling
 
@@ -266,3 +280,5 @@ We have added a new Edit Text Mode button and editing modal to the following are
 
 * Legacy Filters
 * Groupings
+
++++
