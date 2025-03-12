@@ -15,7 +15,7 @@ This organization is useful for reporting reasons and for helping users understa
 
 ## Access requirements
 
-+++
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 

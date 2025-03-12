@@ -43,19 +43,10 @@ Use the queries in the articles below to create data visualizations similar to t
 
 
 * [KPI queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
-
-Coming soon:
-
-* Flight plan
-* Project activities
-* Project treemap
-* Activity by team
-<!--
 * [Flight plan queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
 * [Project activities queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
 * [Project treemap queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md) 
 * [Activity by team queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
--->
 
 ### Ask for help
 

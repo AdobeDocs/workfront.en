@@ -21,7 +21,7 @@ For general information about workspaces, see [Workspaces overview](/help/quicks
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 

@@ -19,7 +19,7 @@ exl-id: c669217a-40e2-471f-951d-93157a34f1ee
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -33,7 +33,7 @@ For more information on connected records, see [Connected records overview](/hel
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -88,7 +88,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td> <p>Contribute or higher permissions to the workspace you want to add records to. </p>  
+   <td> <p>Contribute or higher permissions to the workspace <!--<span class="preview">and record type</span>--> where you want to create objects. </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
    <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
    </td> 
@@ -270,7 +270,7 @@ For more information on connected records, see [Connected records overview](/hel
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 

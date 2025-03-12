@@ -20,7 +20,7 @@ We recommend recreating some or all of the record types, records, fields, and vi
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 
