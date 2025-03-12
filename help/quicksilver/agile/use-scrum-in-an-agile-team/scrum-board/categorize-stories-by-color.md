@@ -53,8 +53,8 @@ If the agile team settings have been configured so the [!UICONTROL Associate Car
 1. In the left panel, select **[!UICONTROL Iterations]** to choose a specific iteration, or select **[!UICONTROL Current Iteration]**.
 1. Hover over the colored banner at the top of the story tile.
 
-   ![](assets/agile-story-color1-nwe-350x140.png)
+   ![story card](assets/agile-story-color1-nwe-350x140.png)
 
 1. Click **[!UICONTROL Change color]**, then select the desired color.
 
-   ![](assets/agile-story-color2-nwe-350x138.png)
+   ![choose color](assets/agile-story-color2-nwe-350x138.png)
