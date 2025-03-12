@@ -95,7 +95,14 @@ Use the [!UICONTROL Plan Iteration] feature to create an iteration using tasks o
 
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 
-1. Select **[!UICONTROL Backlog]** on the left panel. Then, click **[!UICONTROL Plan Iteration]**.
+1. Select **[!UICONTROL Backlog]** on the left panel. 
+
+1. On the **Stories** or **Issues** tab, select at least one work item, then click **[!UICONTROL Plan Iteration]**.
+
+>[!NOTE]
+>
+> You can't switch between the Stories or Issues tab when planning an iteration on the Backlog tab. You can add existing stories or issues once the iteration has been created. For more information, see [Move stories from the backlog to an iteration or board](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board).
+
 
 1. Specify the following information:
 
