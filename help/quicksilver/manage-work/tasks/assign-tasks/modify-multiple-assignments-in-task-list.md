@@ -1,7 +1,7 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Modify multiple user assignments in a task list
+title: Modify Multiple User Assignments in a Task List
 description: When managing task assignments, you can simultaneously modify them for multiple tasks at a time by using the bulk editing feature in a list of tasks. 
 author: Lisa
 feature: Work Management, Tasks, Resource Management
@@ -16,7 +16,7 @@ exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
 <p>There is a similar article in Resource Scheduling and a similar one for Issues; when things change, you might need to update all 3</p>
 -->
 
-When managing task assignments, you can simultaneously modify them for multiple tasks at a time by using the bulk editing feature in a list of tasks. 
+When managing task assignments, you can simultaneously modify them for multiple tasks at a time by using the bulk editing feature in a list of tasks.
 
 This article refers to modifying multiple user assignments for multiple tasks in a task list. Also see the following articles for modifying assignments on multiple tasks in other areas:
 
@@ -26,7 +26,9 @@ For information about assigning a task to one resource in a list, see [Assign ta
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +39,7 @@ For information about assigning a task to one resource in a list, see [Assign ta
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>New: Standard</p>
    <p>Current: Work or higher</p> </td> 
   </tr> 
@@ -52,7 +54,7 @@ For information about assigning a task to one resource in a list, see [Assign ta
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
