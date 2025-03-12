@@ -5,7 +5,7 @@ title: Create and manage to-do items in Home
 description: You can create personal to-do items from the [!UICONTROL Home] area.
 author: Courtney
 feature: Get Started with Workfront, Work Management
-
+exl-id: 247085a7-bb9e-4468-b496-d81e02f2de00
 ---
 # Create and manage personal to-do item
 
