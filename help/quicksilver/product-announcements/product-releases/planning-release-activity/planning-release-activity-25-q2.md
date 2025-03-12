@@ -16,6 +16,49 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## WORKFRONT PLANNING 
+
+>[!NOTE]
+>
+>Preview: March 13, 2025; Production for all customers: April 10, 2025 
+
+To better control who can view or manage records in each record type and ensure that only authorized people can manage each record type's information based on their roles and responsibilities, we have introduced permissions at the record type level. 
+
+Prior to this enhancement, you could share only workspaces with others and the permission they were granted to a workspace applied to all the record types in the workspace.  
+
+We have introduced the following updates:  
+
+* Workspace permissions are automatically shared with all record types in the workspace. 
+* The level of permissions granted for the workspace displays as Inherited permissions for the record type.  
+* You cannot share a record type with a higher permission level than the user has on the workspace. 
+
+For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md).
+
+## Setup and manage multiple request forms from a record type 
+
+>[!NOTE]
+>
+>Preview: March 13, 2025; Production for all customers: April 10, 2025 
+
+To help you customize your request forms for various stakeholders coming from different areas of your organization, we are now introducing the ability to create and manage more than one request form for a record type. Prior to this enhancement, you could create only one form for one record type.
+
+All requests submitted using the different forms could create records for the selected record type. You can now have multiple request forms set up for the same record type. The forms are listed in a new Request forms table view on the record type. When you manage request forms, you can now edit, publish, share, copy, or delete a request form from the list of request forms on the record type. 
+
+For more information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Easy access to published request forms on the record type page 
+
+>[!NOTE]
+>
+>Preview: March 13, 2025; Production for all customers: April 10, 2025 
+
+You can now access request forms from the New record button in the upper-right corner of the record type's page. For users with View permissions to the workspace, the New record displays as a Request record button.
+
+In addition to being able to create records manually as well as by importing a CSV or Excel file, you can now also create records from a request form from the record type page. 
+Prior to this improvement, you could create records using a request form only from a direct link to a form, or from the Requests area of Workfront. 
+
+For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
 ## Add lookup fields from connected records in the Planning connection fields of Workfront custom forms
 
 >[!NOTE]
@@ -26,7 +69,7 @@ To easily access all information from connected records from Workfront objects, 
 
 You can add up to seven lookup fields to a record connected to a Workfront object in the Planning connection custom field. As part of this improvement, you can now display the connected records and their fields in an easy-to-read table format in the custom form of a Workfront object.  
 
-For information, see [Create a custom form ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Import records using a CSV or an Excel file 
 
