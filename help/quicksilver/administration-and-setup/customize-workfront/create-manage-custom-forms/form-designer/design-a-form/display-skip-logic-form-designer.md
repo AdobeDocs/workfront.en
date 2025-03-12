@@ -242,7 +242,9 @@ Skip logic defines custom form fields that are skipped when the user selects a s
 
 Validation logic is built using formulas, and you can make the logic as simple or as complex as you need. The validation can be based on the values of other fields or the status of objects, and you can provide an error message for when the validation fails.
 
-If the field with the logic applied does not pass the validation conditions when a user fills out the custom form, the field is highlighted and the error message is displayed.
+If the field with the logic applied meets the defined validation conditions when a user fills out the custom form, the field is highlighted and the error message is displayed.
+
+You can apply validation logic to the following field types: drop-down, radio button, checkbox, typeahead, single line text, paragraph text, date field, text with formatting, and calculated fields.
 
 ### Examples
 
