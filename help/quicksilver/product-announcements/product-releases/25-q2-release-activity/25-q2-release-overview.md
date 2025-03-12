@@ -46,7 +46,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Enhancements to custom forms logic</a></p>
-            <p>The custom forms logic builder has an updated interface to provide you with more room for creating logic rules. This new design can more easily accommodate additional logic types that may be added in the future.</p>
+            <p>The custom forms logic builder has an updated interface to provide you with more room for creating logic rules. This new design can more easily accommodate additional logic types that may be added in the future.</p><p>In addition to the current display and skip logic options, validation logic is also available.</p>
         </td>
         <td>
             <p><b>Available on these dates:</b></p>

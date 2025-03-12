@@ -26,7 +26,7 @@ For information, see [Create a milestone path](/help/quicksilver/administration-
 
 >[!NOTE]
 >
->Preview release: February 27, 2025; Production release for all customers: With the 25.3 release (March 10, 2025)
+>Preview release: February 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
 
 We have updated the look and feel of the Workfront Calendar to a modern design that is consistent with other areas of Workfront. There are small functionality differences from the current Workfront Calendar including:
 
@@ -42,7 +42,7 @@ For more information, see the [Calendars](/help/quicksilver/reports-and-dashboar
 
 >[!NOTE]
 >
->Preview release: February 27, 2025; Production for fast release: With the 25.3 release (March 10, 2025); Production for quarterly release: With the 25.4 release (April 10, 2025)
+>Preview release: February 27, 2025; Production for fast release: With the 25.3 release (March 13, 2025); Production for quarterly release: With the 25.4 release (April 10, 2025)
 
 When accessing the milestone path from a project list or a report, the milestone details page now has a new look and feel. You must add the Milestone Path Name field to the view of the list or report to be able to access the milestone path's details page. 
 
@@ -66,7 +66,7 @@ These changes are temporary as we investigate email delays.
 
 >[!NOTE]
 >
->Preview release: February 13, 2025; Production release for all customers: With the 25.3 release (March 10, 2025)
+>Preview release: February 13, 2025; Production release for all customers: With the 25.3 release (March 13, 2025)
 
 We have updated the look and feel of the Share dialog to a modern design that is consistent with other areas of Workfront. There are slight visual differences including:
 
