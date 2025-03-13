@@ -13,7 +13,6 @@ You can create work items and projects from the [!UICONTROL Home] area.
 
 From Home, you can 
 
-* Create personal to-dos for yourself
 * Submit requests
 * Add tasks and issues to specific projects
 * Create projects from a template, blank project, or import an MS project.

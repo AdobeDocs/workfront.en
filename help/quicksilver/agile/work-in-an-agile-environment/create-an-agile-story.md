@@ -59,7 +59,7 @@ For more detail about the information in this table, see [Access requirements in
    1. In the left panel, select **[!UICONTROL Iterations]** to choose a specific iteration, or select **[!UICONTROL Current Iteration]**.
    1. Click the name of the specific iteration where you want to create a story.
 
-   ![Add new story to iteration](assets/iteration-add-story.png)
+   ![Add new story to iteration](assets/iteration-stories-list.png)
 
 1. Click **[!UICONTROL New Story].**
 1. Specify the following information:
