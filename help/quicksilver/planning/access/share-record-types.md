@@ -24,8 +24,9 @@ You can share a record type with others to ensure collaboration when working wit
 
 >[!IMPORTANT]
 >
->* Granting permissions to a workspace gives users the same permissions to the record types in the workspace. 
->* Granting permissions to the record type can give users lesser permissions and not higher permissions that they already have from the workspace. 
+>* Granting permissions to a workspace gives users the same permissions to the record types in the workspace, by default. 
+>* You can adjust permissions on individual record types.
+>* You cannot grant people higher access to a record type compared to the access they have to the workspace.
 > For more information, see the [Considerations when sharing record types](#considerations-when-sharing-record-types) section in this article. 
 
 ## Access requirements
@@ -111,18 +112,18 @@ You must have the following access to perform the steps in this article:
 * Automatically, users inherit record type permissions from the workspace. 
 * Manually, you can give View permissions to a record type to users, or you can remove the inherited permissions from the workspace. 
 
-* Users added to the record type that don't have workspace permissions are automatically added to workspace sharing with View permissions. 
+* Users added to the record type sharing box that don't have workspace permissions are automatically added to workspace sharing with View permissions. 
 
     To give a user that does not have workspace permissions higher than View permissions to a record type, you must first share the workspace with them. If you share the record type only, they can only receive View permissions to the record type and they are also added to the workspace with View permissions. As you give them permissions to the record type, there is an indication in the sharing box that they are also added to the workspace.  
 
 * You cannot give someone higher permissions to the record type than they have on a workspace. 
 
-    For example, you cannot give someone View permissions to a workspace and Manage permissions to a record type. 
+    For example, you cannot give someone View permission to a workspace and Manage permission to a record type. 
    
 
 ## Share permissions to a record type
 
-You can share record types you created or record types you have Manage permissions to with users, groups, teams, companies, and job roles in Workfront Planning. 
+You can adjust permissions to individual record types of a workspace if you have Manage permission to the workspace. 
 
 {{step1-to-planning}}
 
@@ -139,7 +140,7 @@ You can share record types you created or record types you have Manage permissio
 1. (Optional) In the **Who has access** area, select from the following options: <!--the Only invited people is supposed to be removed - rewrite this - according to Vahan-->
 
    * **Only invited people can access**: You must specify users, groups, team, company, or job roles that you want to share the view with. 
-   * **Everyone in the workspace can view**: All users that have View or higher permissions to the workspace can access the view. This is the default option.
+   * **Everyone in the workspace can view**: All users that have View or higher permissions to the workspace can access the view. This is the default option. <!--rewrite this based on what Lilit says in the proof: At this point, once the inherited permissions are disabled, everyone in the workspace except workspace managers will have View permission to the record type because the "Everyone in the workspace can view"  setting cannot be changed. -->
 
 1. (Optional) Expand the **Inherited permissions** option to view users, teams, groups, companies, or job roles that inherit permissions from the workspace.
 
@@ -151,7 +152,7 @@ You can share record types you created or record types you have Manage permissio
 
    1. Turn off Inherited permissions.
    1. In the **Grant access to this record type** field, add the users, teams, groups, companies, or job roles that you want to grant a different permission level to.
-   1.Choose a permission level. 
+   1. Choose a permission level. 
 
    >[!IMPORTANT]
    >
@@ -201,6 +202,8 @@ Users who access a link to a record type to which they do not have permissions c
    If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
 
 ## Remove permissions to a record type
+
+<!-- take this section out - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
 {{step1-to-planning}}
 
