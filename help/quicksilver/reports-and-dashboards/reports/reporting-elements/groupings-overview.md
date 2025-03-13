@@ -65,7 +65,7 @@ You can aggregate the data displayed in your report in your grouping line by sum
 >
 >* All number, currency, and date fields, except for Actual Hours, aggregate values only for children tasks and standalone tasks. They do not aggregate values for parent tasks or parents of parents. Aggregating on number, currency, and date fields on a list that includes only parent tasks will not display an aggregated value in the grouping bar.
 >
->* Actual Hours aggregate values for the main parent and standalone tasks; they do not aggregate the numbers for children tasks or the parents of parent tasks. Examples of Actual hours include Planned/Actual Labor Cost, Planned/Actual Expense Cost, Planned/Actual Cost, and Planned Hours.
+>* Actual Hours aggregate values for the main parent and standalone tasks; they do not aggregate the numbers for children tasks or the parents of parent tasks. <!--Examples of Actual hours include Planned/Actual Labor Cost, Planned/Actual Expense Cost, Planned/Actual Cost, and Planned Hours.-->
 >
 >* Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.
 
