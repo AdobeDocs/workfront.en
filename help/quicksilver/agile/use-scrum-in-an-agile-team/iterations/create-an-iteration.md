@@ -97,11 +97,11 @@ Use the [!UICONTROL Plan Iteration] feature to create an iteration using tasks o
 
 1. Select **[!UICONTROL Backlog]** on the left panel. 
 
-1. On the **Stories** or **Issues** tab, select at least one work item, then click **[!UICONTROL Plan Iteration]**.
+1. On the **Stories** or **Issues** tab, select the work items you want to add to the iteration, then click **[!UICONTROL Plan Iteration]**.
 
 >[!NOTE]
 >
-> You can't switch between the Stories or Issues tab when planning an iteration on the Backlog tab. You can add existing stories or issues once the iteration has been created. For more information, see [Move stories from the backlog to an iteration or board](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board).
+> You can't switch between the Stories or Issues tab or add additoinal tasks when planning an iteration on the Backlog tab. You can add existing stories or issues once the iteration has been created. For more information, see [Add tasks or issues to an existing iteration on the Backlog tab](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab) below.
 
 
 1. Specify the following information:
@@ -137,19 +137,20 @@ Use the [!UICONTROL Plan Iteration] feature to create an iteration using tasks o
     </tbody> 
    </table>
 
-1. (Optional) Select stories to add them to the iteration now, or you can skip this step and add stories to an iteration at a later time. The stories at the top of the backlog are higher priority. Stories are highlighted in green when they fit in the capacity; they are highlighted in red if they do not.
-   You can add both tasks and issues to a single iteration:
+1. Click **[!UICONTROL Save].** The iteration is created.
 
-   * **To add tasks to the iteration:** On the **[!UICONTROL Backlog]** tab, ensure that the **[!UICONTROL Stories]** tab is selected (this tab is selected by default when viewing the backlog). Select the stories you want to add to the iteration.
+## Add tasks or issues to an existing iteration on the Backlog tab
 
-      When you add tasks to an iteration, the start date of the task is calculated as described in [[!UICONTROL Understand] how task start dates are calculated when added to an iteration](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+1. From the **Backlog** tab, click the **Stories** or **Issues** tab. 
 
-   * **To add issues to the iteration:** On the **[!UICONTROL Backlog]** tab, click the **[!UICONTROL Issues]** tab. Select the issues you want to add to the iteration.
+1. Select the stories or issues you want to add to the iteration. The stories at the top of the backlog are higher priority.
 
-1. Click **[!UICONTROL Save].**
-The iteration is created.
+   ![move a work item](assets/move-to-iteration.png)
 
-1. (Optional) To add stories to an existing iteration, see [Add stories to an existing iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+   >[!NOTE]
+   >
+   >  When you add tasks to an iteration, the start date of the task is calculated as described in [[!UICONTROL Understand] how task start dates are calculated when added to an iteration](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+
 
 ## Understand how task start dates are calculated when added to an iteration {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
 
