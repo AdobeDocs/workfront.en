@@ -252,13 +252,20 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    >     * People
    >
 
-1. (Conditional) If you selected **Anyone with the link** in the previous step, select the **Link expiration date** from the available calendar. People will receive an error after the link expires and you must update the link date and generate a new link to share before people can access the form again. 
+1. (Conditional) If you selected **Anyone with the link** in the previous step, select the **Link expiration date** from the available calendar. <!--take out this tip when we release to production as in multiple forms this is no longer happening-->
+
+   >[!TIP]
+   >
+   >There is an indication that the link is publicly shared when this is the case.
+   >![Publicly shared link to form on record type menu](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+
+   People will receive an error after the link expires and you must update the link date and generate a new link to share before people can access the form again. 
 
    You can select future dates within 180 days from the current date.  
 
    >[!TIP]
    >
-   ><span class="preview">After the sharing date expires, the request form is no longer available in the Requests area of Workfront.</span>    
+   ><span class="preview">After the sharing date expires, the request form is no longer available in the Requests area of Workfront.</span>   
 
 
 1. <span class="preview">(Optional)</span> Click **Save and copy link** to save the sharing details for the form. If the form was previously saved, click **Copy link**.
@@ -289,17 +296,10 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    <span class= "preview">The record type page opens. </span>
 1. (Optional and conditional) From the Production environment, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
    * Click **Update request form** to make any changes to the request form.
-   * Click **Copy link to request form**  to share the link to the form with others. 
+   * Click **Copy link to request form**  to share the link to the form with others.
 
-   Or
-
-   * <span class= "preview"> Go to the **Requests** area in Workfront and find the shared form to submit a request. For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).</span> 
-
-   >[!TIP]
-   >
-   >There is an indication that the link is publicly shared when this is the case.
-   >![Publicly shared link to form on record type menu](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
-
-1. <span class="preview">(optional and conditional) From the Preview environment, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then click Manage request forms. </span>
+1. <span class="preview">(optional and conditional) From the Preview environment, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then click **Manage request forms**. </span>
 
    <span class="preview">This opens the Request forms table view. </span>
+1. <span class="preview">Click a request form to open and edit it.</span>
+1. <span class= "preview">(Optional) Go to the **Requests** area in Workfront and find the shared form to submit a request. For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).</span> 

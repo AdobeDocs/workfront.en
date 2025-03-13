@@ -43,7 +43,7 @@ You can manually share the following objects in Workfront Planning:
 
     * You can share record types with people inside your organization.
     * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
-    * You cannot share a workspace with a higher permission level than the user has on the workspace. 
+    * You cannot share a record type with a higher permission level than the user has on the workspace. 
 
     For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
 
@@ -125,7 +125,7 @@ The following are the levels of permissions for workspaces:
 
 ### Record Type permissions
 
-<!--In the Production environment,--> Record Type permissions are always inherited when you grant permissions to the workspace.
+<!--In the Production environment,--> Record Type permissions are <!--always--> inherited when you grant permissions to the workspace.
 
 The following are the levels of permissions for record types: 
 
@@ -141,18 +141,17 @@ The following are the levels of permissions for record types:
 
 <div class="preview">
 
-In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. 
+In the Preview environment, you can remove the record type's inherited permissions received from the workspace. 
 
-You can remove inherited permissions from the record type, but you can never grant higher permissions for the record type than users have on the workspace. 
+You can give users different permissions on the record type than they have on the workspace. However, you can never grant higher permissions for the record type than users have on the workspace. 
 
 The following scenarios exist: 
 
 |   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, No permissions           | 
-| Contribute |     Contribute |  Contribute, View, No permissions        |
-| View   |  View     |      View, No permissions        |     
-
+| Manage |   Manage    |   Manage, Remove permissions           | 
+| Contribute |     Contribute |  Contribute, View, Remove permissions        |
+| View   |  View     |      View, Remove permissions        |     
 
 </div>
 
@@ -160,7 +159,7 @@ The following scenarios exist:
 
 ### Record permissions
 
-Record permissions are inherited from <span class="preview">the record type</span>, when you grant permissions to the workspace and <span class="preview">the record type</span>.
+Record permissions are inherited from <!--<span class="preview">the record type</span>, when you grant permissions to -->the workspace<!-- and <span class="preview">the record type</span>-->.
 
 The following are the levels of permissions for records: 
 
@@ -174,7 +173,8 @@ The following are the levels of permissions for records:
 
 ### Field permissions
 
-Field permissions are inherited from <span class="preview">the record type</span>, when you grant permissions to the workspace and <span class="preview">the record type</span>.
+Field permissions are inherited from <!--<span class="preview">the record type</span>, when you grant permissions to -->the workspace <!--and <span class="preview">the record type</span>-->.
+
 The following permissions refer to the fields themselves and not to the values associated with each field. To edit field values you must have permissions to edit records. 
 
 |        | Manage | Contribute | View  |

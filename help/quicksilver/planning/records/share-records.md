@@ -16,6 +16,8 @@ exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->   
 
+<!--take out preview and production references at release-->
+
 {{planning-important-intro}}
 
 To collaborate with other users, you can share records with others. 
@@ -210,3 +212,28 @@ You can share all records in a workspace when you share the workspace with other
 Only users with Manage permissions to a workspace can share it with others. 
 
 For more information, see [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md). 
+
+
+<!--
+<div class="preview">
+
+## Share all records in a record type by sharing the record type
+
+In the Production environment, records inherit permissions from the workspace. 
+
+In the Preview environment, records inherit permissions from the record type. 
+
+By default, record types inherit permissions from the workspace. 
+
+However, you can do any of the following:
+
+* Turn off inherited permissions from the workspace on a record type. This removes permissions from the records. 
+* Manually grant permissions to users to a record type, even when they have no permissions to the workspace. This automatically gives them View permissions to the workspace. This grants permissions to users to the records. 
+
+Only users with Manage permissions to a workspace can share its record types and records with others. 
+
+For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+
+</div>
+
+-->

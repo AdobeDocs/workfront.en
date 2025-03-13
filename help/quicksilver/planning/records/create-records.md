@@ -93,7 +93,7 @@ You must have the following access to perform the steps in this article:
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td> <p>Contribute or higher permissions to the workspace <!--<span class="preview">and record type</span>--> where you want to add records. </p>
-   <p><span class="preview">View or higher permissions to the workspace and record type to create records using the Request record button on the record page</span></p>
+   <p><span class="preview">View or higher permissions to the workspace <!--<span class="preview">and record type</span>--> to create records using the Request record button on the record page</span></p>
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
    <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
    </td> 
@@ -124,7 +124,7 @@ For information about editing record information, see [Edit records](/help/quick
 1. Click a record type card. For information about creating a record type, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
-    All the records of the selected type display in the view. 
+    Records of the selected type display in the view. 
 
 1. (Conditional) From the table view, do one of the following: 
 
@@ -139,9 +139,13 @@ For information about editing record information, see [Edit records](/help/quick
 
     A new record is added in the table. 
 
-1. Click the new record's primary field. 
+1. Click the new record's primary field 
 
-    The record's preview box opens. 
+    Or
+    
+    Click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) to the left of the record name. 
+    
+    The preview box opens in the table.  
 
 1. Start typing information about the new record in the fields you see in the preview box. 
 
@@ -155,14 +159,13 @@ For information about editing record information, see [Edit records](/help/quick
 
     Or 
     
-    Click the new record's name or the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The preview box opens in the table. 
+    Click the new record's name or the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) to the left of the record name to open the preview box and edit the record's information in the details area. 
 
     >[!TIP]
     >
-    >You can access the **Open Details** icon only from the name field of the record when the Name field is a primary field. 
+    >You can access the **Open details** icon only from the name field of the record when the Name field is a primary field. 
 
-1. (Conditional) After opening the record's preview box, start editing the record's information. 
-1. (Optional) Click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record's preview to open the record's page in a new tab. Continue editing the record on the record page. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+1. (Optional) From the record's preview box, click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner to open the record's page in a new tab. Continue editing the record on the record page. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 
     Workfront automatically saves your changes. 
 
@@ -177,7 +180,10 @@ For information about editing record information, see [Edit records](/help/quick
 
 ## Create records using the New record or Request record button from any record type view
 
-Users with View permissions to the workspace and record type can create records only using the Request record button on the record type page. <!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+Users with View permissions to the workspace <!--<span class="preview">and record type</span>--> can create records only using the Request record button on the record type page.
+
+Users with Contribute and Manage permissions to the workspace <!--<span class="preview">and record type</span>--> can create records using the New record button on the record type page. 
+<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
 
 >[!IMPORTANT]
 >
@@ -194,13 +200,13 @@ Users with View permissions to the workspace and record type can create records 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
     All the records of the selected type display in the view. 
 
-1. From any view, click of the following in the upper-right corner of your screen, depending on the workspace and record type permissions:
+1. From any view, click of the following in the upper-right corner of your screen, depending on the workspace <!--<span class="preview">and record type</span>--> permissions:
 
-    * Click **New record**, if you have Contribute or higher permissions on the workspace and record type 
+    * Click **New record**, if you have Contribute or higher permissions on the workspace <!--<span class="preview">and record type</span>--> 
 
         Or
 
-    * Click **Request record**, if you have View permissions on the workspace and record type. 
+    * Click **Request record**, if you have View permissions on the workspace <!--<span class="preview">and record type</span>-->. 
 
 1. (Conditional) If you clicked **New record**, do the following:
 
@@ -209,14 +215,17 @@ Users with View permissions to the workspace and record type can create records 
         * **Add manually**. The record's preview box opens.  
             Add information about the record, as described in the [Create records by adding them inline from the record type table view](#create-records-by-adding-them-inline-from-the-record-type-table-view) section in this article, starting with step 6. <!--insure this stays accurate-->
         * **Upload from file**
-            Add the record, as described in the article [Create records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md), starting with step 6. <!--ensure this stays accurate-->
-        * **Submit a request**. A workspace manager must create a request form to be able to add a record using a request form. The request form of the record type opens. 
+            Add records, as described in the article [Create records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md), starting with step 6. <!--ensure this stays accurate-->
+        * **Submit a request**
+            The request form of the record type opens. 
+            
+            A workspace manager must create a request form to be able to add a record using a request form. 
 
             >[!TIP]
             >
-            >Some record types may have multiple forms. Select one. 
+            >Some record types may have multiple forms. Click one to open it. 
 
-            Add the record, as described in the article [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+            Add the record, as described in the article [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md), starting with step 6. <!--ensure this stays accurate-->
  
         ![](assets/three-ways-to-create-records-choice-modal.png)
 
@@ -225,9 +234,11 @@ Users with View permissions to the workspace and record type can create records 
     1. (Conditional) If the record type has more than one request form, click one to choose it. 
     2. Continue adding information in the form to create the record, as described in the article [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md), starting with step 6. <!--ensure this stays accurate-->
 
-1. (Conditional) Depending on how you chose to add the record, some of the following things may occur:
+1. (Conditional) Review the new records. 
 
-    * A new record is added to the record type, unless you chose to add it using a request form with an approval process. 
+    Depending on how you chose to add the record, some of the following things may occur:
+
+    * A new record is added to the record type, unless you chose to add it using a request form with an approval process. The approval must be granted by all approvers before the record is created. 
     * Multiple records are added to the record type, if you added records using a CSV or Excel spreadsheet. 
     * A new request is added in the Planning tab of the Workfront Requests area, if you added the request by submitting a request form. 
 

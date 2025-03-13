@@ -110,33 +110,41 @@ The following must be in place before you can submit a request to a Workfront Pl
 * The following must exist in Workfront Planning:
 
    * A workspace
-   * A record type associated with a request form. For information, see [Create a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+   * A record type.
+   * A request form associated with a record type. 
    
-* The request form must be shared with a link in a way you can access it. The following scenarios exist: 
+      For information, see [Create a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+   
+* The request form must be shared in a way you can access it. The following scenarios exist: 
 
-   * If you have a Workfront account, the link has been shared only with internal people and you have contribute or higher access to the workspace. People outside Workfront cannot access a link shared internally. 
-   * If you don't have a Workfront account, the link has been shared with external people. Workfront users can also access a link shared with external people. 
+   * Internally, the form must be shared with users who have View or higher permissions to the workspace. 
+
+      Workfront users can either access the form from a link <span class="preview">or find the request form in the Requests area of Workfront.</span> 
+
+   * If you don't have a Workfront account, a link to the form has been shared with external people. 
+   
+      Workfront users can also access a link shared with external people. 
 
 * The link to the form must not be expired.
 
 ## Considerations about submitting requests to Workfront Planning
 
-* You cannot edit a request in Workfront after you submit it to Workfront Planning.
-* Each submitted request creates a record for the record type associated with the form you use, if the form is not associated with an approval, or if the approval has been granted by all of the approvers.
-* Records created by submitting request forms cannot be differentiated from records added through any other method. For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
+* You cannot edit a request in Workfront after you submit it.
+* Each submitted request creates a record for the record type associated with the form you use, if the form is not associated with an approval, or if the approval has been granted by all approvers.
+* Records created by submitting request forms cannot be differentiated from records added through any other method in Workfront Planning. 
+
+   For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
 * Submitted requests display in the Planning tab of the Submitted section in the Requests area of Workfront. 
-* There are limitations in how certain field types display in a request form, or the request details page after a form is submitted. For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+* There are limitations in how certain field types display in a request form, or the request details page after a form is submitted. 
+
+   For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
 
-## Submit a request to Workfront Planning
-
-Submitting requests to Workfront Planning differs depending on what environment you use. 
-
 <div class="preview">
 
-### Submit a request to Workfront Planning in the Preview Environment
+## Submit a request to Workfront Planning in the Requests area of Workfront
 
 >[!NOTE]
 >
@@ -210,7 +218,7 @@ Submitting requests to Workfront Planning differs depending on what environment 
 
    >[!TIP]
    >
-   >* If the record name was not added to the request form, the name of the record in the Record field of the request displays as **Untitled**. 
+   >* If the record's primary field was not updated in the request form, the name of the record in the Record field of the request displays as **Untitled**. 
    >
    >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
 
@@ -220,7 +228,7 @@ Submitting requests to Workfront Planning differs depending on what environment 
 
 </div>
 
-### Submit a request to Workfront Planning in the Production environment
+## Submit a request to Workfront Planning from a shared link to a request form
 
 1. Go to the link shared with you from a Workfront Planning record type. 
 

@@ -33,6 +33,7 @@ Granting a user permissions to a workspace also grants them permissions to recor
 
 You must grant users separate permissions to views, in addition to the ones they have for workspaces, to be able to access and manage views. 
 
+<!--
 
 <div class="preview">
 
@@ -43,33 +44,30 @@ Consider the following when working with record type permissions:
 * Users cannot have greater permissions to a record type than they have for the workspace the record type belongs to.
 
 </div>
+-->
 
 | Adobe Workfront license type*                                   | Highest permissions allowed in Adobe Workfront Planning                                                                                                                                             |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Standard                     | <p>Users can manage workspaces <span class="preview">, record types, </span> and views. They can create, edit, or delete workspaces, record types, records, fields, and views.</p> <br> <p>System administrators have Manage permissions to all workspaces, including the ones they did not create.</p>                                                                                                                     |
+|Standard                     | <p>Users can manage workspaces <!--<span class="preview">, record types, </span> --> and views. They can create, edit, or delete workspaces, record types, records, fields, and views.</p> <br> <p>System administrators have Manage permissions to all workspaces, including the ones they did not create.</p>                                                                                                                     |
 | Light or Contributor  | <p>Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces.</p> <br> <p>Users can view the views shared with them, but they cannot create their own. </p><br> <p>Users cannot create, edit, or delete workspaces, record types, records, or fields.</p>|
 
 *Workfront Planning is not available for legacy Workfront licenses. 
 For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-<!--OLD 
+### License types and permissions to workspaces
 
-| Adobe Workfront license type*                                   | Highest permissions allowed in Adobe Workfront Planning                                                                                                                                             |
-|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|New: Standard <br> or <br>Current: Plan                    | Users can manage workspaces. They can create, edit, or delete workspaces, record types, records, and fields. <br> System administrators have Manage permissions to all workspaces, including the ones they did not create.                                                                                                                     |
-| New: Light, Contributor <br> or <br>Current: Work, Requestor, Reviewer                      | Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces. <br> Users cannot create, edit, or delete workspaces, record types, records, or fields.|
+<!--should we add "record types" in the title above and to this section?-->
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
--->
+Only users with a Standard license can have Contribute or Manage permissions to workspaces <!--<span class="preview">and record types</span>-->. The Contribute and Manage permissions to workspaces <!--<span class="preview">and record types</span>--> also transfer to record types, records, and fields. 
 
-### License types and workspace permissions
+<!--take "record types" out from the end of the sentence above when we release record type-level access-->
 
-Only users with a Standard license can have Contribute or Manage permissions to workspaces <span class="preview">and record types</span>. The Contribute and Manage permissions to workspaces <span class="preview">and record types</span> also transfer to records and fields. 
+Users with all other license types can have View permissions to workspaces <!--<span class="preview"> and record types </span> --> shared with them, as well as to their record types, records, and fields. 
 
-Users with all other license types can have View permissions to workspaces <span class="preview"> and record types </span> shared with them, as well as their records and fields. 
+<!--take "record types" out from the end of the sentence above when we release record type-level access-->
 
-System administrators can view all workspaces in the system, even the ones they did not create. 
+System administrators can view all workspaces in the system, including the ones they did not create. 
 
 <!--does the shot below need to be replaced for record types??-->
 
@@ -84,7 +82,7 @@ System administrators can view all workspaces in the system, even the ones they 
 >![Permissions grayed out for contributor user on workspace](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
-### License types and view permissions
+### License types and permissions to views
 
 Only users with a Standard license can have Manage permissions to views. Users with all other license types can have View permissions to views shared with them. 
 
