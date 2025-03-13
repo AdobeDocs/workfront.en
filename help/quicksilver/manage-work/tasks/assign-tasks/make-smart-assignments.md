@@ -1,7 +1,7 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Make smart assignments
+title: Make Smart Assignments
 description: You can use smart assignments to identify who the best user is to complete the work. Smart assignments are suggestions for users, roles, or teams that Adobe Workfront presents to you when you assign work items to resources based on an algorithm that determines the most appropriate resource for the job. For information about smart assignments, see Smart assignments overview.
 author: Lisa
 feature: Work Management
@@ -29,7 +29,9 @@ For more information about the criteria used in determining smart assignments, s
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +42,7 @@ For more information about the criteria used in determining smart assignments, s
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>New: Standard</p>
       Or
       <p>Current: Work or higher</p> </td> 
@@ -56,7 +58,7 @@ For more information about the criteria used in determining smart assignments, s
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
 
 +++
 
@@ -84,7 +86,7 @@ Smart assignments are available in most locations where you can make assignments
       <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
       * **Users and teams**, **Job roles**, or <span class="preview">**Rate card job roles**</span>: <!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-      ![](assets/smart-assignments-task-list.png)
+      ![Smart assignments example in task list](assets/smart-assignments-task-list.png)
    
       For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

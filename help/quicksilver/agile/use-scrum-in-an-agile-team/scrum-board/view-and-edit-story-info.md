@@ -103,7 +103,7 @@ For more detail about the information in this table, see [Access requirements in
 1. Go to the [!UICONTROL Scrum] agile story board.
 1. Expand the [!UICONTROL story] tile to view all fields associated with the story.
 
-   ![](assets/agile-storycard-scrum-2021-350x333.png)
+   ![story card](assets/agile-storycard-scrum-2021-350x333.png)
 
 1. (Optional) To edit a field, click the field, then make any changes.
 

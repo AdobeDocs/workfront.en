@@ -58,4 +58,4 @@ For more detail about the information in this table, see [Access requirements in
 1. (Optional) Click the name of the specific iteration that you want to view.
    The iteration stories display.
 
-   ![[!UICONTROL Stories in iteration]](assets/iteration-stories-list-NWE.png)
+   ![[!UICONTROL Stories in iteration]](assets/iteration-stories-list.png)

@@ -96,9 +96,11 @@ The following sections describe the different methods of associating an approval
 
 ## Associate a global approval process with a work item {#associate-a-global-approval-process-with-a-work-item}
 
-You can associate a global approval process with a work item (project, task, issue, template, template task).
+You can associate a global approval process with a work item (project, task, issue, template, template task). 
 
-The global approval process must be available to the group associated with the work item or to all groups in the system.
+You can access any global approval process as long as it is shared with a group you belong to or all groups in the system. 
+
+<!--The global approval process must be available to the group associated with the work item or to all groups in the system.-->
 
 >[!NOTE]
 >
@@ -123,7 +125,7 @@ To associate an existing global approval process with a project, task, issue, te
 
    The approval process selected displays.
 
-1. Expand the **Use existing** drop-down menu and select an existing approval process.
+1. Expand the **Use existing** drop-down menu and select an existing approval process. 
 
    ![Approvals menu](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
