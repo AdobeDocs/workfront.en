@@ -143,18 +143,13 @@ Use the [!UICONTROL Plan Iteration] feature to create an iteration using tasks o
 
 1. From the **Backlog** tab, click the **Stories** or **Issues** tab. 
 
-1. Select stories to add them to the iteration now, or you can skip this step and add stories to an iteration at a later time. The stories at the top of the backlog are higher priority. Stories are highlighted in green when they fit in the capacity; they are highlighted in red if they do not.
-   You can add both tasks and issues to a single iteration:
+1. Select the stories or issues you want to add to the iteration. The stories at the top of the backlog are higher priority.
 
-1. Select the stories or issues you want to add to the iteration.
+   ![move a work item](assets/move-to-iteration.png)
 
->[!NOTE]
->
->   hen you add tasks to an iteration, the start date of the task is calculated as described in [[!UICONTROL Understand] how task start dates are calculated when added to an iteration](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
-
-
-
-
+   >[!NOTE]
+   >
+   >  When you add tasks to an iteration, the start date of the task is calculated as described in [[!UICONTROL Understand] how task start dates are calculated when added to an iteration](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
 
 
 ## Understand how task start dates are calculated when added to an iteration {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
