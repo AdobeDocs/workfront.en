@@ -16,24 +16,6 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Share record types 
-
->[!NOTE]
->
->Preview: March 13, 2025; Production for all customers: April 10, 2025 
-
-To better control who can view or manage records in each record type and ensure that only authorized people can manage each record type's information based on their roles and responsibilities, we have introduced permissions at the record type level. 
-
-Prior to this enhancement, you could share only workspaces with others and the permission they were granted to a workspace applied to all the record types in the workspace.  
-
-We have introduced the following updates:  
-
-* Workspace permissions are automatically shared with all record types in the workspace. 
-* The level of permissions granted for the workspace displays as Inherited permissions for the record type.  
-* You cannot share a record type with a higher permission level than the user has on the workspace. 
-
-For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md).
-
 ## Setup and manage multiple request forms from a record type 
 
 >[!NOTE]
