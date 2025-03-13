@@ -58,13 +58,17 @@ You can further manage report information when using Groupings by aggregating th
 
 You can aggregate the data displayed in your report in your grouping line by summarizing the values in each column of the report. For more information about summarizing column data in a grouping, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
+
 >[!NOTE]
 >
->The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
+>The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in >groupings:
 >
->* All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents. 
+>* All number, currency, and date fields, except for Actual Hours, aggregate values only for children tasks and standalone tasks. They do not aggregate values for parent tasks or parents of parents. Aggregating on number, currency, and date fields on a list that includes only parent tasks will not display an aggregated value in the grouping bar.
+>
 >* Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks. 
+>
 >* Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.
+
 
 ### Sort by a grouping {#sort-by-a-grouping}
 
