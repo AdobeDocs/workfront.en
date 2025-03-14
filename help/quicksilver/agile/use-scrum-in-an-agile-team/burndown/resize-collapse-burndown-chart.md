@@ -50,7 +50,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Go to the iteration that contains the burndown chart you want to resize.
 1. Hover over the bottom line of the burndown chart, then drag the chart to the desired size.
-   ![](assets/burndown-resize.png)
+   ![Resize the burndown chart](assets/burndown-resize.png)
 
 ## Collapse the burndown chart
 

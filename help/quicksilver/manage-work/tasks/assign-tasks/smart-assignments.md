@@ -2,7 +2,7 @@
 content-type: overview;how-to-procedural
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Smart assignments overview
+title: Smart Assignments Overview
 description: When managing task and issues assignments, you can use smart assignments to identify who the best user is to complete the work. Smart assignments are suggestions that Adobe Workfront presents to you when you assign work items to resources based on an algorithm that determines the most appropriate resource for the job.
 author: Lisa
 feature: Work Management
@@ -45,23 +45,23 @@ You can view smart assignments in the following areas where you can assign tasks
 
 * An issue list or report in the Assignments column
 
-  ![](assets/smart-assignments-issue-list.png)
+  ![Issue list Assignments column](assets/smart-assignments-issue-list.png)
 
- * A task list or report in the Assignments column
+* A task list or report in the Assignments column
 
-    ![](assets/smart-assignments-task-list.png)
+  ![Task list Assignments column](assets/smart-assignments-task-list.png)
 
 * A task header in the Assignments field
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  ![Task header Assignments field](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * An issue header in the Assignments field
 
-  ![](assets/smart-assignments-issue-header.png)
+  ![Issue header Assignments field](assets/smart-assignments-issue-header.png)
 
 * The task or issue Summary panel in the Assignments area
 
-  ![](assets/issue-assignments-summary-panel.png)
+  ![Summary panel Assignments area](assets/issue-assignments-summary-panel.png)
 
 <!--* The Assignments field in the New Task box, when adding a task to a project
 
@@ -75,8 +75,7 @@ You can view smart assignments in the following areas where you can assign tasks
 
 * Workload Balancer in the Assigned this to area when you assign a task or issue
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
-
+  ![Workload Balancer Assignments area](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 ## Smart assignments criteria
 
@@ -147,7 +146,7 @@ The identified assignments are listed in the **Users and teams**, **Job role ass
 >
 >The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
-![](assets/smart-assignments-issue-header.png)
+![Example smart assignment](assets/smart-assignments-issue-header.png)
 
 Users are recommended in the smart assignments drop-down list based on a combination of the following criteria (listed in order from most important to least important): 
 

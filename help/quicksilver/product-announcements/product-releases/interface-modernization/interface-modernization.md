@@ -18,6 +18,16 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Administration and Setup
 
++++Expand to view Administration and Setup interface updates
+
+### Interface update for the Announcement Center
+
+**Preview release: February 27, 2025; To be announced**
+
+We have updated the Announcement Center with a more modern design that is consistent with other areas of Workfront. 
+
+To view this change, go to the Notifications icon in the upper-right corner, then choose All Annoucements. 
+
 ### Interface update for customizing Event Notfification subjects
 
 **Preview release: February 13, 2025; Starting the week of February 13, 2025**
@@ -28,7 +38,7 @@ To view this change, go to Setup > Email > Notifications > Event Notifications >
 
 ### Interface update for Teams area
 
-**Preview release: February 13, 2025; Production release: To be announced**
+**Preview release: February 13, 2025; Production release: Starting the week of February 20, 2025**
 
 We have updated the Teams area with a more modern design that is consistent with other areas of Workfront.
 
@@ -48,7 +58,7 @@ To view the settings, go to Setup > Preferences > Approvals > Select the setting
 
 We have updated the Project, Task, and Issue Approvals lists in Setup > Groups > Approvals with a more modern design that is consistent with other areas of Workfront.
 
-To view this change, go to Setup > Groups > Approvals. 
+To view this change, go to Setup > Groups > Choose a group > Approvals. 
 
 This update includes visual changes to the area. No functionality has changed.
 
@@ -126,11 +136,23 @@ We have updated the Project, Task, and Issue Approvals lists in Setup > Processe
 
 This update includes visual changes to the area. No functionality has changed.
 
++++
+
 ## Agile
+
++++Expand to view Agile interface updates
+
+### Interface updates for team requests
+
+**Preview release: March 6, 2025; Production release: To be announced**
+
+We have updated the Team Requests page with a more modern design that is consistent with other areas of Workfront.
+
+To view this change, go to Teams > Choose a team > Team Requests.
 
 ### Interface update for Iterations overview page
 
-**Preview release: February 13, 2025; Production release: To be announced**
+**Preview release: February 13, 2025; Production release: Starting the week of February 20,2025**
 
 We have updated the Iterations overview page with a more modern design that is consistent with other areas of Workfront.
 
@@ -155,7 +177,8 @@ We have updated the Teams > Backlog area with a more modern design that is consi
 This update includes the following changes:
 
 * Visual enhancements to the Stories and Issues tab as well as the Breakdown Story dialog box
-* A new dialog box for the Plan Iteration tool
+* A new dialog box for the Plan Iteration tool. You must select a story or issue for the Plan Iteration button to appear.
+* You can no longer switch between the Stories and Issues tab when planning an iteration. You can add stories or issues from the backlog tab once the iteration is created.
 
 ### Interface update for the Iterations list
 
@@ -177,7 +200,11 @@ This update includes visual changes to the area. No functionality has changed.
 
 To view this change, go to Teams > choose a team > Backlog, then click **New story** or **New issue**.
 
++++
+
 ## Documents 
+
++++Expand to view Documents interface updates
 
 ### Interface update for the Approvals area on a document
 
@@ -187,7 +214,19 @@ We have udpated the Approvals area on a document with a more modern design that 
 
 To view this change, go to a document > Click Document Details > Approvals.
 
+### Interface update for Smart Folder edit dialog box
+
+**Preview release: January 27, 2025; Production release: Starting the week of February 3, 2025**
+
+We have udpated the Smart Folders edit dialog box with a more modern design that is consistent with other areas of Workfront. 
+
+To view this change, go to a Documents > Click the more menu next to the Smart Filter name > Click Edit. 
+
++++
+
 ## Reports and Dashboards
+
++++Expand to view Reports and Dashboards interface updates
 
 ### Updated Team report with new styling
 
@@ -241,3 +280,5 @@ We have added a new Edit Text Mode button and editing modal to the following are
 
 * Legacy Filters
 * Groupings
+
++++

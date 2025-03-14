@@ -20,7 +20,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 
 | Monthly release   | Quarterly release |
 | ----------------- | ----------------- |
-| <ul><li>25.2 (February 13, 2025)</li><li>25.3 (March 2025)</li><li>25.4 (April 2025)</li></ul> | <ul><li>25.4 (April 2025)</li></ul> |
+| <ul><li>25.2 (February 13, 2025)</li><li>25.3 (March 13, 2025)</li><li>25.4 (April 10, 2025)</li></ul> | <ul><li>25.4 (April 10, 2025)</li></ul> |
 
 >[!NOTE]
 >
@@ -31,6 +31,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 ## Adobe Workfront enhancements
 
 * [Administrator enhancements](#administrator-enhancements)
+* [Document management enhancements](#document-management-enhancements)
 * [Project enhancements](#project-enhancements)
 * [Other enhancements](#other-enhancements)
 
@@ -40,6 +41,21 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Enhancements to custom forms logic</a></p>
+            <p>The custom forms logic builder has an updated interface to provide you with more room for creating logic rules. This new design can more easily accommodate additional logic types that may be added in the future.</p><p>In addition to the current display and skip logic options, validation logic is also available.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: March 13, 20255</li>
+                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
+            </ul>
+        </td>
+    </tr>                          
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -58,6 +74,29 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 </tbody>
 </table>
 
+### Document management enhancements
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Edit multiple documents at once in a Document report </a></p>[!BADGE In production ]{type=Informative}
+            <p>You can now edit multiple documents at once in a Document report. You can edit the descriptions and update custom forms.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: February 6, 2025</li>
+                <li><span class="preview">Production release for all customers: March 13, 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
 ### Project enhancements
 
 <table>
@@ -67,7 +106,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Add a comment to projects when editing them in the Edit project box</a></p>
+            Add a comment to projects when editing them in the Edit project box</a>[!BADGE In production for Fast Release]{type=Positive}</p>
             <p>You can now add a comment to a project as you edit it in the Edit Project box. You can also add a comment to multiple projects at one time when editing them in bulk. Prior to this update, this functionality did not exist when editing projects.</p>
         </td>
         <td>
@@ -88,6 +127,20 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Upgrade to the new event subscription version with version upgrade endpoints</a></p>
+            [!BADGE In production ]{type=Informative}
+            <p>Workfront now has versions of event subscriptions. The new version is not a change to the Workfront API, but rather a change to the event subscription functionality. You can switch your event subscriptions to the new version without creating a gap in your event subscription</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li><span class="preview">Production release for all customers: March 6, 2025</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">

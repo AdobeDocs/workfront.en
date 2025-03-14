@@ -92,6 +92,8 @@ The following sections illustrate where you can access the Workload Balancer wit
 
 ### Access the Workload Balancer for a team
 
+For more information on teams in Workfront, see [Teams overview](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/teams-overview.md).
+
 {{step1-to-team}}
 
    Your Home Team's page displays. 

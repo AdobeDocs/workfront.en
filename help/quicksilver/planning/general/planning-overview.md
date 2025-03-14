@@ -271,9 +271,9 @@ The following are the main Workfront Planning objects and concepts:
         ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
-    After you establish a connection between the record types, you can connect individual records of those types to one another. The connection between the records displays as a linked record field.
+    After you establish a connection between the record types, you can connect individual records or objects of those types to one another. The connection between the records displays as a connected record field, or a connection.
 
-* **Linked fields** (or lookup fields): After you establish the connection between two record types and you link individual records together, you can reference the linked records' fields on the record you are connecting from.
+* **Lookup fields** (or linked fields): After you establish the connection between two record types and you connect individual records together, you can reference the fields from the connected records from the record you are connecting from.
 
     For example, if you connect a Campaign record type with a Workfront Project object type, you can display the Budget field of connected projects on the campaign records. 
 

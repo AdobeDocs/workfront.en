@@ -16,6 +16,9 @@ The new version is not a change to the Workfront API, but rather a change to the
 
 The ability to upgrade or downgrade event subscriptions ensures that when changes are made to the structure of events, existing subscriptions do not break, allowing you to test and upgrade to the new version without a gap in your event subscription.
 
+
+When you upgrade or downgrade your event subscription to another version, you receive duplicate events for every event delivery for a five minute window after the version change. The duplicates include one each of event subscription version 1 and version 2. This ensures that you do not miss any events due to changing the event subscription version.
+
 For information on the endpoints used for upgrading or downgrading event subscriptions, see [Event subscription versioning](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) in the article Event subscription API.
 
 >[!IMPORTANT]
@@ -24,6 +27,7 @@ For information on the endpoints used for upgrading or downgrading event subscri
 >
 >* **25.2 Release** (April 10, 2025): All new subscriptions created after the 25.2 release are created as Version 2.
 >* **25.3 Release** (July 17, 2025): Subscriptions can no longer be downgraded to Version 1 after the 25.3 release.
+>* **September 1, 2025**: All remaining Version 1 subscriptions are migrated to Version 2.
 
 ## Changes between Version 1 and Version 2
 

@@ -28,7 +28,7 @@ For information about creating records, see [Create records](/help/quicksilver/p
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning.
++++ Expand to view access requirements..
 
 You must have the following access to perform the steps in this article:  
 
@@ -82,7 +82,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>  <p>Contribute or higher permissions to a workspace</a> </p>  
+   <td>  <p>Contribute or higher permissions to a workspace <!--<span class="preview">and record type</span>--> </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr> 
 <tr> 
@@ -401,4 +401,4 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
 
 After you connect records with Workfront objects, you can edit Workfront Planning records in Workfront from the object's Planning section. 
 
-For more information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md). 
+For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md). 

@@ -89,7 +89,7 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
    <ul>
-   <li><p>Manage permissions to a workspace</p></li>
+   <li><p>Manage permissions to a workspace <!--<span class="preview">and record type</span>--> </p></li>
     <li><p>System Administrators can manage workspaces they did not create. </p></li>
     </ul>
    <p>For information about sharing permissions for Workfront Planning objects, see  
@@ -138,7 +138,7 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    * People field values display as IDs.
    * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
    * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
-   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
+   * The values of Paragraph fields display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
 
 </div>
 
@@ -154,7 +154,7 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
 
-1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Create request form**.
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Create request form** <span class="preview">or **Manage request form**, if you already have a form and you want to create additional ones</span>.
 1. Update the name of the request form. By default, the name of the form is **Untitled form**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?--> 
 1. (Optional) Add a **Description** for the request form. 
 
@@ -252,13 +252,20 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    >     * People
    >
 
-1. (Conditional) If you selected **Anyone with the link** in the previous step, select the **Link expiration date** from the available calendar. People will receive an error after the link expires and you must update the link date and generate a new link to share before people can access the form again. 
+1. (Conditional) If you selected **Anyone with the link** in the previous step, select the **Link expiration date** from the available calendar. <!--take out this tip when we release to production as in multiple forms this is no longer happening-->
+
+   >[!TIP]
+   >
+   >There is an indication that the link is publicly shared when this is the case.
+   >![Publicly shared link to form on record type menu](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+
+   People will receive an error after the link expires and you must update the link date and generate a new link to share before people can access the form again. 
 
    You can select future dates within 180 days from the current date.  
 
    >[!TIP]
    >
-   ><span class="preview">After the sharing date expires, the request form is no longer available in the Requests area of Workfront.</span>    
+   ><span class="preview">After the sharing date expires, the request form is no longer available in the Requests area of Workfront.</span>   
 
 
 1. <span class="preview">(Optional)</span> Click **Save and copy link** to save the sharing details for the form. If the form was previously saved, click **Copy link**.
@@ -267,19 +274,32 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
 
    For information about creating records using a link to a request form, see [Submit Adobe Workfront Planning requests](/help/quicksilver/planning/requests/submit-requests.md). 
    
-1. Click **Save** in the lower-right corner of the **Form** tab to save the form.    
+1. Click **Save** in the lower-right corner of the **Form** tab to save the form.  
+
 1. Click the left-pointing arrow to the left of the form's name in the header to close the form. 
 
-   The record type page opens. 
-1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
+   <span class="preview">The **Request forms** table view opens and the the form is added to it.</span>
+
+1. <span class="preview">(Optional) Hover over the name of a request form in the table view, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the form name, and click one of he following:</span>
+
+   * <span class="preview">**Edit form**: Click this to further edit information on the form. </span>
+   * <span class="preview"> **Unpublish**: Click this to unpublish the form which removes it from the Requests area in Workfront. </span>
+   * <span class="preview">**Share**: Click this to modify who has access to the form. </span>
+   * <span class="preview">**Copy link**: Click this to quickly copy the request form's link without opening the form. </span>
+   * <span class="preview">**Delete**: Click this to delete the form. All requests and records added using the form are not deleted. The form cannot be recovered. </span>
+
+   ![More menu on request form from request forms list](assets/more-menu-on-request-form-from-request-forms-list.png)
+
+
+1. <span class= "preview">Click the left-pointing arrow to the left of **Request forms** in the header to close the request forms table.   </span>
+
+   <span class= "preview">The record type page opens. </span>
+1. (Optional and conditional) From the Production environment, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
    * Click **Update request form** to make any changes to the request form.
-   * Click **Copy link to request form**  to share the link to the form with others. 
+   * Click **Copy link to request form**  to share the link to the form with others.
 
-   Or
+1. <span class="preview">(optional and conditional) From the Preview environment, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then click **Manage request forms**. </span>
 
-   * <span class= "preview"> Go to the **Requests** area in Workfront and find the shared form to submit a request. For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).</span> 
-
-   >[!TIP]
-   >
-   >There is an indication that the link is publicly shared when this is the case.
-   >![Publicly shared link to form on record type menu](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+   <span class="preview">This opens the Request forms table view. </span>
+1. <span class="preview">Click a request form to open and edit it.</span>
+1. <span class= "preview">(Optional) Go to the **Requests** area in Workfront and find the shared form to submit a request. For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).</span> 

@@ -11,7 +11,7 @@ exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
 ---
 # Edit documents in bulk
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 You can edit the description, add custom forms, and edit custom forms across multiple documents at once. 
 
@@ -90,3 +90,34 @@ To edit documents in bulk:
     </tr>
     </table>
 1. Click **Save**.
+
+<span class="preview">
+
+## Edit documents in bulk in a Document report
+
+1. Navigate to an existing document report.
+or
+Create a document report as described in [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Select the documents you want to edit.
+1. Click the Edit icon ![edit icon](assets/edit-icon.png).
+    ![edit icon location on page](assets/edit-multiple-documents.png)
+1. (Optional) Add or edit the **Description**. If the description on each document is different, you will see _Multiple values_ in the description box. You can add the same description for all documents, but you cannot edit individual document descriptions when editing in bulk.
+1. Make the following changes with custom forms:
+
+    <table>
+    <tr>
+    <td><strong>Add forms</strong></td>
+    <td>In the <strong>Add custom form box</strong>, you can choose from Attached forms and forms to add. Attached forms are on some of the selected documents, but not all. A form attached to all selected document displays in the edit window automatically.  </td>
+    </tr>
+    <tr>
+    <td><strong>Edit forms</strong></td>
+    <td>Edit any attached custom forms. The information you change overwrites the existing information on individual documents. Fields with different values across documents display as "Multiple values". </td>
+    </tr>
+    <tr>
+    <td><strong>Rearrange forms</strong></td>
+    <td>Click and drag the custom form to rearrange.</td>
+    </tr>
+    </table>
+1. Click **Save**.
+
+</span>

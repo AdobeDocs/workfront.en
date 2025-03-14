@@ -22,7 +22,7 @@ You can receive in-app notifications from Workfront Planning when the following 
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -95,7 +95,7 @@ You must have the following access to perform the steps in this article:
 <!--
 OLD:
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 <table style="table-layout:auto">
  <col>

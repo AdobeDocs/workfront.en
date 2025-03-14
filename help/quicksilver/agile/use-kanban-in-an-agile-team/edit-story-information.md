@@ -101,7 +101,7 @@ For more detail about the information in this table, see [Access requirements in
 1. Go to the [!UICONTROL Kanban] board.
 1. Expand the story tile to view all fields associated with the story.
 
-   ![](assets/story-expanded-on-kanban-board-2021-350x405.png)
+   ![Story card](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
 1. (Optional) To edit a field, click the field, then make any changes.
    You must have [!UICONTROL Edit] rights to the task or issue in order to edit the story tile.

@@ -38,7 +38,7 @@ The following table shows the limits for how many objects you can create in Work
 |     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
 | Number of views one user can create for one record type | 100 |
 | Size of CSV of Excel file you can import to create record types | 5MB |
-| Number of rows you can import in a CSV or Excel file to create record types | 10,000 |
+| Number of rows you can import in a CSV or Excel file to create record types | 25,000 |
 | Number of columns you can import in a CSV or Excel file to create record types | 500 |
 
 *We recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.

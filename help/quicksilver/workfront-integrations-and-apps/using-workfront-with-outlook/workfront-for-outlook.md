@@ -22,3 +22,4 @@ This section contains the following articles:
 * [Add an [!DNL Outlook] email as a task to your work list](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
 * [View additional information about [!DNL Adobe Workfront for Outlook] and log out](../../workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
 * [Enable [!DNL Outlook for Office] for use with [!DNL Adobe Workfront] and SAML 2.0](../../workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
+* [Troubleshooting: outlookIdentityToken error when using Workfront for Outlook](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-outlook/troubleshooting-outlookidentitytoken-error.md)
