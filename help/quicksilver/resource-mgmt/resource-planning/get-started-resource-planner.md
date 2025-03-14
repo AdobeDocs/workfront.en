@@ -8,7 +8,12 @@ author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
 ---
-# Resource Planner overview
+# Resource Planner overview {#resource-planner-overview}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-planner"
+>title="Resource Planner"
+>abstract="You can use the Resource Planner to estimate and budget the allocation of your resources to the projects they are assigned to, and forecast their availability for future work."
 
 <!-- Audited: 12/2023 -->
 
