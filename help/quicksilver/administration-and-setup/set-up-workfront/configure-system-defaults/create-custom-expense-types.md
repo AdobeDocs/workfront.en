@@ -65,8 +65,8 @@ The Expense Types that are in [!DNL Workfront] by default cannot be deleted or e
 {{step-1-to-setup}}
 
 1. Click **[!UICONTROL Expense Types]**.
-1. Click **[!UICONTROL New Expense Type]**.
-1. In the **[!UICONTROL New Expense Type]** box that displays, specify the following information:
+1. Click **[!UICONTROL New expense type]**.
+1. In the **[!UICONTROL New Expense Type]** dialog box, specify the following information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -100,7 +100,7 @@ The Expense Types that are in [!DNL Workfront] by default cannot be deleted or e
     </tbody> 
    </table>
 
-1. Click **[!UICONTROL Create Expense Type]**.\
+1. Click **[!UICONTROL Save]**.
    The expense type is now available for users to associate it with their expenses on projects and tasks.
 
 ## Modify custom Expense Types
@@ -112,7 +112,7 @@ The Expense Types that are in [!DNL Workfront] by default cannot be deleted or e
 
    The **[!UICONTROL Edit Expense Type]** dialog box is displayed.
 
-1. Make your desired changes, then click **[!UICONTROL Save Changes]**.\
+1. Make your desired changes, then click **[!UICONTROL Save]**.
    The expense type is now available for users to associate it with their expenses on projects and tasks.
 
 For more information about how to use expenses and how they can affect the cost of a project, see the article [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md).
