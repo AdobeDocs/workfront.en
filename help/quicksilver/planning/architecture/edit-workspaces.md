@@ -22,7 +22,7 @@ All changes you make to a workspace are visible to all those who have at least V
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 

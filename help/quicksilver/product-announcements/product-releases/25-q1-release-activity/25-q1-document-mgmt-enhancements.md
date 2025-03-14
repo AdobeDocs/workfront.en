@@ -20,11 +20,7 @@ For a list of all changes available at this point in the First Quarter 2025 rele
 
 You can now edit multiple documents at once. You can edit the descriptions and update custom forms.
 
-<!--For more information, see [Edit documents in bulk](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).-->
-
->[!IMPORTANT]
->
->The features listed below are part of a phased release and are only available for specific customers.
+For more information, see [Edit documents in bulk](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).
 
 ## New Withdrawn status available for document version approvals
 

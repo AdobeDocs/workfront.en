@@ -16,6 +16,54 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Setup and manage multiple request forms from a record type 
+
+>[!NOTE]
+>
+>Preview: March 13, 2025; Production for all customers: April 10, 2025 
+
+To help you customize your request forms for various stakeholders coming from different areas of your organization, we are now introducing the ability to create and manage more than one request form for a record type. Prior to this enhancement, you could create only one form for one record type.
+
+All requests submitted using the different forms could create records for the selected record type. You can now have multiple request forms set up for the same record type. The forms are listed in a new Request forms table view on the record type. When you manage request forms, you can now edit, publish, share, copy, or delete a request form from the list of request forms on the record type. 
+
+For more information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Easy access to published request forms on the record type page 
+
+>[!NOTE]
+>
+>Preview: March 13, 2025; Production for all customers: April 10, 2025 
+
+You can now access request forms from the New record button in the upper-right corner of the record type's page. For users with View permissions to the workspace, the New record displays as a Request record button.
+
+In addition to being able to create records manually as well as by importing a CSV or Excel file, you can now also create records from a request form from the record type page. 
+Prior to this improvement, you could create records using a request form only from a direct link to a form, or from the Requests area of Workfront. 
+
+For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+## Add lookup fields from connected records in the Planning connection fields of Workfront custom forms
+
+>[!NOTE]
+>
+>Preview: March 6, 2025; Production for fast release: March 13, 2025; Production for all customers: April 10, 2025 
+
+To easily access all information from connected records from Workfront objects, we have added the connected records' lookup fields to the Planning connection fields in Workfront. 
+
+You can add up to seven lookup fields to a record connected to a Workfront object in the Planning connection custom field. As part of this improvement, you can now display the connected records and their fields in an easy-to-read table format in the custom form of a Workfront object.  
+
+For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+## Import records using a CSV or an Excel file 
+
+>[!NOTE]
+>
+>Preview release: March 6, 2025; Production for all customers: April 10, 2025
+
+You can now import records using a CSV or Excel spreadsheet from a record type's page.
+Prior to this enhancement, you could import records only when creating record types. With this update, you can import records to existing record types.
+
+For information, see [Create records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md).
+
 ## Display the record name of a details page of a Workfront Planning request in the browser tab name
 
 >[!NOTE]
