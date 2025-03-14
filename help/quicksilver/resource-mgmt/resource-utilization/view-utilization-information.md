@@ -11,8 +11,8 @@ exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-utilization"
->title:"Utilization report"
->abstract:"The Utilization report allows you to view the progress, cost, or revenue of a project, program, or portfolio in a single report. You can also compare revenue against cost."
+>title="Utilization report"
+>abstract="The Utilization report allows you to view the progress, cost, or revenue of a project, program, or portfolio in a single report. You can also compare revenue against cost."
 
 <!-- Audited: 01/2024 -->
 
