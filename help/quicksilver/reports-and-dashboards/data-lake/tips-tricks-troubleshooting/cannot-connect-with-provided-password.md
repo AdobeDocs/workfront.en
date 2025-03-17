@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Troubleshoot Workfront Data Connect
+title: Cannot connect with provided password
 description: Troubleshoot Workfront Data Connect
 author: Courtney
 feature: Reports and Dashboards
