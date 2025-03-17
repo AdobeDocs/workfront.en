@@ -15,11 +15,13 @@ feature: Reports and Dashboards
 
 When you try and connect Tableau Desktop to Snowflake, you see the following error:
 
-
+`Cannot load data into PowerBI. Receiving an HY000 [Microsoft][Snowflake] (25) message`
 
 ## Cause
 
-Tableau Desktop cannot establish a connection to the Workfornt Snowflake data warehouse when the organization uses Zscaler. 
+This is caused by a proxy setting on your local machine that prevents data from being loaded from Snowflake.
+
+^ is this Zscaler?
 
 ## Solution
 
