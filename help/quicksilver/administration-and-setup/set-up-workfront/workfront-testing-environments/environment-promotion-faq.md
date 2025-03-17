@@ -64,5 +64,4 @@ Package rollback is available for the most recent package, within 24 hours of pa
 ### Answer
 
 * "Use existing" is the same as "skipping" or ignoring the deployment, because it maps to the existing object in the target environment, and does not make any changes.
-* To skip objects, we recommend removing
-any objects that you don't want to install from the promotion package, or from the source environment directly. After removing the objects, reassemble the package.
+* To skip objects, we recommend removing any objects that you don't want to install from the promotion package, or from the source environment directly. After removing the objects, reassemble the package.
