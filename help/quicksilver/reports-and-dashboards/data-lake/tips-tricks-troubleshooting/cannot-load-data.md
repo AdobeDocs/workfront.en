@@ -21,7 +21,7 @@ When you try and connect Tableau Desktop to Snowflake, you see the following err
 
 This is caused by a proxy setting on your local machine that prevents data from being loaded from Snowflake.
 
-^ is this Zscaler?
+^ is this
 
 ## Solution
 
