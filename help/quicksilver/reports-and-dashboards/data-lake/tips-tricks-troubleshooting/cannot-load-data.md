@@ -6,7 +6,6 @@ title: Cannot load data
 description: Troubleshoot Workfront Data Connect
 author: Courtney
 feature: Reports and Dashboards
-
 ---
 
 # Tableau Desktop cannot establish a connection
