@@ -25,8 +25,10 @@ You can share a record type with others to ensure collaboration when working wit
 >[!IMPORTANT]
 >
 >* Granting permissions to a workspace gives users the same permissions to the record types in the workspace, by default. 
->* You can adjust permissions on individual record types.
->* You cannot grant people higher access to a record type compared to the access they have to the workspace.
+>* Additionally, you can adjust permissions on individual record types.
+>* However, you cannot grant people higher permissions to a record type than the permissions they have to the workspace.
+>* People with Manage permission to the workspace always keep their Manage access to all record types in the workspace. Their permissions cannot be lowered on record types, even when Inherited permissions are turned off.
+> 
 > For more information, see the [Considerations when sharing record types](#considerations-when-sharing-record-types) section in this article. 
 
 ## Access requirements
@@ -105,21 +107,28 @@ You must have the following access to perform the steps in this article:
 ## Considerations when sharing record types
 
 * For general information about sharing objects in Workfront Planning, also see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
+
+* Currently you can achieve the following when you share record types:
+   * Give people View permissions to a workspace, when you share a record type with them for the first time and they don't have any permissions to the workspace. 
+   
+      This also gives them View permissions to all record types in the workspace.
+
+      As you give them permissions to the record type, there is an indication in the sharing box that they are also added to the workspace.
+   * Make the record type view-only for everyone in the workspace (except for workspace managers), when you turn off Inherited permissions. 
+   
+      People with Manage permissions to the workspace always have Manage permissions on the record types, even when you turn off Inherited permissions on the record type.
+   <!-- checking with Lilit - this doesn't make much sense: * Add people with Contribute permission to the workspace, who will retain Contribute permission to the record type. This way, only the selected people can manage records in the record type, while others can only view them. -->
+   * Lower people's permission to a record type. You cannot increase someone's permission to a record type from what they have on the workspace. 
+   
+      For example, if someone has Contribute permission to the workspace, you can change their permission to a specific record type to View. However, if they have View permission to the workspace, you cannot grant them Contribute permission to any record type. 
+
+* It's not possible to remove access to a record type for people in the workspace. Everyone always has at least View permission.
+
 * You can share a record type internally with the following entities: 
 
     * Workfront users, groups, teams, companies, and job roles
 * You cannot share record types externally, with users outside of Workfront.
-* Automatically, users inherit record type permissions from the workspace. 
-* Manually, you can give View permissions to a record type to users, or you can remove the inherited permissions from the workspace. 
-
-* Users added to the record type sharing box that don't have workspace permissions are automatically added to workspace sharing with View permissions. 
-
-    To give a user that does not have workspace permissions higher than View permissions to a record type, you must first share the workspace with them. If you share the record type only, they can only receive View permissions to the record type and they are also added to the workspace with View permissions. As you give them permissions to the record type, there is an indication in the sharing box that they are also added to the workspace.  
-
-* You cannot give someone higher permissions to the record type than they have on a workspace. 
-
-    For example, you cannot give someone View permission to a workspace and Manage permission to a record type. 
-   
+* To give a user that does not have workspace permissions higher than View permissions to a record type, you must first share the workspace with them with a higher permission than View.   
 
 ## Share permissions to a record type
 
@@ -147,17 +156,24 @@ You can adjust permissions to individual record types of a workspace if you have
    >[!TIP]
    >
    >You cannot remove individual entities from the Inherited permissions list.
+ 
 
 1. (Optional and conditional) If you want to share the record type with specific entities and give them a different access to the record type than they already have for the workspace, do the following:
 
-   1. Turn off Inherited permissions.
+1. **Turn off** Inherited permissions.
+
+   >[!TIP]
+   >
+   >Workspace managers continue to have Manage permissions to the record type.
+
    1. In the **Grant access to this record type** field, add the users, teams, groups, companies, or job roles that you want to grant a different permission level to.
    1. Choose a permission level. 
+
 
    >[!IMPORTANT]
    >
    >* You can never give users greater permissions on a record type than they have on a workspace.
-   >* You cannot give users a lesser permission that Manage to a record type, if they have Manage permissions to the workspace. 
+   >* You cannot give users a lesser permission than Manage to a record type, if they have Manage permissions to the workspace. 
    >* You can give users a lesser permission to the record type if they have Contribute permissions to the workspace. 
    > For more information, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
 
@@ -218,6 +234,6 @@ Users who access a link to a record type to which they do not have permissions c
 
 1. Click **Save**.
 
-   People no longer have access to the record type. They could still have permissions to the workspace, unless you remove them from workspace permissions, as well. 
+   People no longer have access to the record type. They could still have permissions to the workspace, unless you also remove them from workspace permissions. 
    
    There is no notification for the users that have been removed from accessing the view that they no longer have this access.
