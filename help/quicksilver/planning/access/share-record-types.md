@@ -221,3 +221,4 @@ Users who access a link to a record type to which they do not have permissions c
    People no longer have access to the record type. They could still have permissions to the workspace, unless you remove them from workspace permissions, as well. 
    
    There is no notification for the users that have been removed from accessing the view that they no longer have this access.
+
