@@ -19,28 +19,27 @@ When you try and sign into Data Connect from your Power BI tool, you see the fol
 
 ## Cause
 
-The password provided on creating a JDBC connection is a temporary password. It will only work from the Snowflake login page at the URL provided on creating the connection profile. 
+When creating the JDBC connection, Workfront provides a temporary password. Before accessing Data Connect through Power BI, you must first log in using the connection details provided, update the temporary password, and then proceed with your login.
 
 ## Solution
 
-You need to change your temporary password. 
+Reset the connection password in Workfront, then create a new password with the link provided in the Edit Connection dialog box.
 
-### Reset connection password
+### Reset connection password in Workfront
 
 1. Go to Workfront > Setup > System > Data Connect.
-1. Create a new connection or open an exiting connection. 
+1. Find and open the connection from the list.
+1. Under **Reset Connection Password**, check the box to confirm that you want to reset the password.
+1. Click **Reset Connection Password**. 
+    ![reset connection password](assets/reset-password.png)
+1. Continue to the section below. 
 
+### Create a new password for the connection
 
-Go into WF data connect setup > reset password > log into snowflake with the 
+1. Copy the URL, and paste it into a new browser tab.
+1. In Workfront, copy and paste Connection User name and the Default Password into the new browser tab.
+    ![copy url and default password](assets/link-password.png)
+1. Click **Sign in**.
+1. Enter a new password, then click **Submit**.
+1. Go to your Power BI tool and log in with the new password.
 
-
-
-WF setup seytem > data connect >
- 
-
-
-Need to finish setting up profile by logging in with the link provided in WF and then they need to create a new password. 
-
-javadata base connection
-
-Cannot connect to Workfront Snowflake data warehouse from my home after adding my IP address to the allowlist while at work. - Different?
