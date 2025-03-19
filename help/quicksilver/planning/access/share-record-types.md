@@ -12,6 +12,8 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog-->
 
+<!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
+
 # Share record types
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -190,6 +192,25 @@ You can adjust permissions to individual record types of a workspace if you have
 
 1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the record type page and display it in the selected view. 
 
+## Remove permissions to a record type
+
+{{step1-to-planning}}
+
+1. Open the workspace whose record types you want to stop sharing, then click a record type card. This opens the record type page.
+
+1. From the tab of any view, click **Share** in the upper-right corner of the record type. 
+
+   The **Share** box opens.
+1. Find the user, group, team, company, or job role that whose permissions you want to remove, expand the permissions drop-down menu to the right of their name, then click **Remove**. <!--check the screen shot below - the UI text for View might not be accurate-->
+
+    ![Remove option on record type sharing drop-down](assets/remove-option-on-record-type-sharing-drop-down.png)
+
+1. Click **Save**.
+
+   People no longer have access to the record type. They could still have permissions to the workspace, unless you also remove them from workspace permissions. 
+   
+   There is no notification for the users that have been removed from accessing the view that they no longer have this access.
+
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
 ## Grant permissions to a record type from a permission request
@@ -216,25 +237,4 @@ Users who access a link to a record type to which they do not have permissions c
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
    If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
-
-## Remove permissions to a record type
-
-<!-- take this section out - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
-
-{{step1-to-planning}}
-
-1. Open the workspace whose record types you want to stop sharing, then click a record type card. This opens the record type page.
-
-1. From the tab of any view, click **Share** in the upper-right corner of the record type. 
-
-   The **Share** box opens.
-1. Find the user, group, team, company, or job role that whose permissions you want to remove, expand the permissions drop-down menu to the right of their name, then click **Remove**. <!--check the screen shot below - the UI text for View might not be accurate-->
-
-    ![Remove option on record type sharing drop-down](assets/remove-option-on-record-type-sharing-drop-down.png)
-
-1. Click **Save**.
-
-   People no longer have access to the record type. They could still have permissions to the workspace, unless you also remove them from workspace permissions. 
-   
-   There is no notification for the users that have been removed from accessing the view that they no longer have this access.
 
