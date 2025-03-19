@@ -9,11 +9,11 @@ feature: Reports and Dashboards
 
 ---
 
-# Power BI tool Cannot connect with provided password 
+# Power BI tool cannot connect with provided password 
 
 ## Problem
 
-When you try and sign into Snowflake from your Power BI tool, you see the following error:
+When you try and sign into Data Connect from your Power BI tool, you see the following error:
 
 `Cannot connect from BI tool with provided password`
 
@@ -23,10 +23,24 @@ The password provided on creating a JDBC connection is a temporary password. It 
 
 ## Solution
 
-Reset the password and then try to establish a connection from your BI tool.
+You need to change your temporary password. 
+
+### Reset connection password
+
+1. Go to Workfront > Setup > System > Data Connect.
+1. Create a new connection or open an exiting connection. 
+
+
+Go into WF data connect setup > reset password > log into snowflake with the 
 
 
 
+WF setup seytem > data connect >
+ 
 
+
+Need to finish setting up profile by logging in with the link provided in WF and then they need to create a new password. 
+
+javadata base connection
 
 Cannot connect to Workfront Snowflake data warehouse from my home after adding my IP address to the allowlist while at work. - Different?
