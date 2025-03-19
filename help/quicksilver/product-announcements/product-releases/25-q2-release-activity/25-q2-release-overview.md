@@ -184,6 +184,12 @@ The legacy Agile view in a project will be removed from Workfront with the 25.3 
 
 For more information about using the Agile view, see [Manage a project in the Agile View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
+#### Enhanced Analytics deprecation
+
+Due to low and declining usage, we have made the decision to deprecate the Enhanced Analytics product the week of May 25, 2025.
+We recommend considering our Data Connect product as a replacement. Data Connect allows you to build similar customizable visualizations using your preferred business intelligence tools.
+For more information about this deprecation, see the [Enhanced Analytics deprecation guide](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+
 ## Announcements
 
 ### Interface modernization
