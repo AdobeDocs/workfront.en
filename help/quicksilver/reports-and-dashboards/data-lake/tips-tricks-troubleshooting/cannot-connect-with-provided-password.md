@@ -19,7 +19,8 @@ When you try and sign into Data Connect from your Power BI tool, you see the fol
 
 ## Cause
 
-When creating the JDBC connection, Workfront provides a temporary password. Before accessing Data Connect through Power BI, you must first log in using the connection details provided, update the temporary password, and then proceed with your login.
+When creating the JDBC connection, Workfront provides a temporary password for Data Connect. Before accessing Data Connect through Power BI, you must first log in using the connection details provided, update the temporary password, and then proceed with your login.
+
 
 ## Solution
 

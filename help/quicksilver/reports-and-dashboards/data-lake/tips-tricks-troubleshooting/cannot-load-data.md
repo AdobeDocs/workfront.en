@@ -20,36 +20,17 @@ When you try and connect Tableau Desktop to Data Connect, you see the following 
 
 This is caused by a proxy setting on your local machine that prevents data from being loaded from Data Connect.
 
-Security tools like Zscaler or Cisco
 
-Generic term for zscaler: firewall 
 
 ## Solution
 
-Steps to solve
-
 You can try the following to resolve this problem:
 
-* Troubleshooting option: Turn off Zscaler to see if it resolves the connectivity issue.
+* **Troubleshoot by disabling your security tool**: Turn off your security tool, like Zscaler or Cisco, to see if it resolves the connectivity issue. If this resolves the connection issue, make sure your security tool is upgraded to the latest version, add IP address to the VPN allowlist with your internal network team.
 
-* Workaround option: Create an extract from a worksheet screen instead of the Data Source pane in Tableau. The connection doesn't get lost and the extract process completes.
+* **Add IP Addresses to Allowlist**: Ensure your firewall settings allow the IP addresses used by Data Connect. Use the command `SYSTEM$ALLOWLIST()` to obtain the IP address, which you can then whitelist in the VPN.
 
-Tableau recommended resolution: Upgrade Zscaler to latest version, and add IP address to the VPN allowlist with your internal network team.
+* **Check firewall and Proxy Settings**: Check if any firewall or proxy configurations on your network are blocking access to Snowflake's endpoints. You might need to contact your network administrator to add the required Snowflake IP addresses and ports to your company's allowlist.
 
-Snowflake recommended resolution: Use the command SYSTEM$ALLOWLIST() to obtain the IP address, which you can then whitelist in the VPN. Please let us know if this resolves the issue."
+* **Workaround option**: Create an extract from a worksheet screen instead of the Data Source pane in Tableau. The connection doesn't get lost and the extract process completes.
 
-
-
-
-
-Whitelist IP Addresses:
-
-If you're using Power BI Service, make sure Snowflake's firewall settings allow the IP addresses used by Power BI. You'll need to configure the whitelist in Snowflake's network policy.
-
-Ensure Network Connectivity:
-
-Confirm that your machine can reach the Snowflake server (e.g., via a ping or network diagnostic). Network proxies or VPN configurations might also interfere with the connection.
-
-    Firewall and Proxy Settings:
-
-Check if any firewall or proxy configurations on your network are blocking access to Snowflake's endpoints. You might need to contact your network administrator to whitelist the required Snowflake IP addresses and ports.
