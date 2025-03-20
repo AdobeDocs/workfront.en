@@ -20,7 +20,9 @@ When you try and connect Tableau Desktop to Data Connect, you see the following 
 
 This is caused by a proxy setting on your local machine that prevents data from being loaded from Data Connect.
 
+Security tools like Zscaler or Cisco
 
+Generic term for zscaler: firewall 
 
 ## Solution
 
@@ -36,4 +38,18 @@ Tableau recommended resolution: Upgrade Zscaler to latest version, and add IP ad
 
 Snowflake recommended resolution: Use the command SYSTEM$ALLOWLIST() to obtain the IP address, which you can then whitelist in the VPN. Please let us know if this resolves the issue."
 
-Generic term for zscaler: firewall 
+
+
+
+
+Whitelist IP Addresses:
+
+If you're using Power BI Service, make sure Snowflake's firewall settings allow the IP addresses used by Power BI. You'll need to configure the whitelist in Snowflake's network policy.
+
+Ensure Network Connectivity:
+
+Confirm that your machine can reach the Snowflake server (e.g., via a ping or network diagnostic). Network proxies or VPN configurations might also interfere with the connection.
+
+    Firewall and Proxy Settings:
+
+Check if any firewall or proxy configurations on your network are blocking access to Snowflake's endpoints. You might need to contact your network administrator to whitelist the required Snowflake IP addresses and ports.
