@@ -51,7 +51,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
-                <li>Preview release: March 13, 20255</li>
+                <li>Preview release: March 13, 2025</li>
                 <li>Production release for all customers: With the 25.4 release (April 2025)</li>
             </ul>
         </td>
