@@ -55,11 +55,11 @@ To do this:
         * **Image**: Displays only the thumbnail or the icon of the connected records.
     * **Select lookup fields**: If you leave this option selected, the **Add lookup fields** box opens next, to allow you to link Product fields with the Campaign record type. You can click **Skip** to skip this step and add Product fields later. 
 
-        ![](assets/new-connection-with-product-record-type.png)
+        ![New connection with product record type](assets/new-connection-with-product-record-type.png)
 
 1. (Conditional) If you selected the **Select lookup fields option** in the previous step, from the list of fields associated with the **Product** record type, click the **+** icon for the **Budget** field, then click **Add fields**. This creates a field called **Budget (from Product information)**, which is the name of the linked field. Any information for the Product Budget displays in this field for the Campaign records. 
 
-    ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
+    ![Add fields for budget field for connection with record type](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
 
     >[!TIP]
     >
@@ -78,17 +78,17 @@ To do this:
 
         * **Campaign**: This indicates that the Product record type is linked from the Campaign record type.
 
-        ![](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
+        ![Example campaign information relationship fields from product record table](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
 
     >[!TIP]
     >
-    >    Linked record fields are preceded by the relationship icon ![](assets/relationship-field-icon.png). 
+    >    Linked record fields are preceded by the relationship icon ![Relationship field icon](assets/relationship-field-icon.png). 
 
 1. From the **Campaign** record type table view, create a campaign by adding a new row in the Campaign record type page's table. 
 
 1. Double-click inside the **Product information** column of the new campaign. 
 
-    ![](assets/connect-other-records-smaller-box-in-table-view.png)
+    ![Connect other records smaller box in table view](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. Do one of the following:
 
@@ -98,7 +98,7 @@ To do this:
 
 1. (Conditional) If you clicked **See all** in the previous step, the **Connect objects** box displays. 
 
-    ![](assets/connected-objects-table-for-records.png)
+    ![Connected objects table for records](assets/connected-objects-table-for-records.png)
 
 1. Start typing the name of a product in the search box, then select it when it displays in the list
 
@@ -114,7 +114,7 @@ To do this:
     * The **Product information** field populates for the Campaign record with the selected Products. 
     * **The Budget (from Product information)** field populates with the Budget value for each selected Product, or with a total of all budgets of the selected products (if you selected SUM for your aggregator). 
 
-    ![](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
+    ![Example of product information and budget relationship fields for campaign record table](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
 
     >[!TIP]
     >
@@ -153,7 +153,7 @@ To do this:
     * **Link only objects that match this criteria**: Select a custom form from the **Custom form** drop-down menu. Only projects that are associated with the specified forms are available to be connected to campaigns. You can select multiple forms. 
     * **Select lookup fields**: If you leave this option selected, the **Add lookup fields** box opens next, to allow you to link Project fields with the Campaign record type. You can click **Skip** to skip this step and add Project fields later. 
 
-     ![](assets/new-connection-tab-with-workfront-option.png)
+     ![New connection tab with Workfront option](assets/new-connection-tab-with-workfront-option.png)
 
 1. (Conditional) If you selected the **Select lookup fields option** in the previous step, from the list of fields associated with the **Project** object type, click the **+** icon for the **Planned Revenue** field, then click **Add fields**. This creates a field called **Planned Revenue (from Project information)**, which is the name of the linked field. Any information from the Project Planned Revenue field will automatically display in this field for the Campaign records.  
 
@@ -163,7 +163,7 @@ To do this:
     >
     > If you select **None**, instead of **SUM**, the individual Planned Revenues display separated by commas.
 
-    ![](assets/add-planned-revenue-project-field-to-new-connection.png)
+    ![Add Planned Revenue project field to new connection](assets/add-planned-revenue-project-field-to-new-connection.png)
 
     This generates the following fields: 
     
@@ -174,13 +174,13 @@ To do this:
 
     >[!TIP]
     >
-    >    Linked object fields are preceded by the relationship icon ![](assets/relationship-field-icon.png). 
+    >    Linked object fields are preceded by the relationship icon ![Relationship field icon](assets/relationship-field-icon.png). 
 
 1. From the **Campaign** record type table view, create a campaign by adding a new row in the table. 
 
 1. Double-click inside the Project information** column of the new campaign. 
 
-    ![](assets/connect-projects-smaller-box-in-table.png)
+    ![Connect projects smaller box in table](assets/connect-projects-smaller-box-in-table.png)
 
 1. Do one of the following:
 
@@ -190,7 +190,7 @@ To do this:
 
 1. (Conditional) If you clicked **See all** in the previous step, the **Connect objects** box displays. 
 
-    ![](assets/connect-projects-larger-box.png)
+    ![Connect projects larger box](assets/connect-projects-larger-box.png)
 
 1. Start typing the name of a project in the search box, then select it when it displays in the list
 
@@ -208,7 +208,7 @@ To do this:
         * The **Project information** field populates for the Campaign record with the selected projects. 
         * The **Planned Revenue (from Product information)** field populates with the Budget value for each selected Product. This is a read-only field. 
 
-    ![](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
+    ![Project linked field and Planned Revenue in campaign table highlighted](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
 
     >[!TIP]
     >
