@@ -2,14 +2,14 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Cannot connect with provided password
-description: Troubleshoot Workfront Data Connect
+title: Power BI tool cannot connect with provided password 
+description: When you try to sign into Data Connect from your Power BI tool, you receive a login error.
 author: Courtney
 feature: Reports and Dashboards
 
 ---
 
-# Power BI tool cannot connect with provided password 
+# Power BI tool cannot connect with the provided password 
 
 ## Problem
 
@@ -19,7 +19,9 @@ When you try to sign into Data Connect from your Power BI tool, you see the foll
 
 ## Cause
 
-When creating the JDBC connection, Workfront provides a temporary password for Data Connect. Before accessing Data Connect through Power BI, you must first log in using the connection details provided, update the temporary password, and then proceed with your login.
+When creating the JDBC connection, Workfront provides a temporary password for Data Connect. 
+
+Before accessing Data Connect through Power BI, you must first log in using the connection details provided, update the temporary password, and then proceed with your login.
 
 
 ## Solution
@@ -38,7 +40,7 @@ Reset the connection password in Workfront, then create a new password with the 
 ### Create a new password for the connection
 
 1. Copy the URL, and paste it into a new browser tab.
-1. In Workfront, copy and paste Connection User name and the Default Password into the new browser tab.
+1. In Workfront, copy and paste the Connection User name and the Default Password into the new browser tab.
     ![copy url and default password](assets/link-password.png)
 1. Click **Sign in**.
 1. Enter a new password, then click **Submit**.
