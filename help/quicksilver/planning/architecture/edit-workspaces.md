@@ -160,14 +160,14 @@ For more information about access requirements, see [Access requirements in Work
 1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
 1. To edit a workspace, do one of the following:
 
-   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
+   * Hover over the workspace card, then click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the card
       Or
-   * Click a workspace card to open the workspace, then click the **More** menu ![](assets/more-menu.png) to the right of the workspace name. 
+   * Click a workspace card to open the workspace, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the workspace name. 
 1. Click **Edit**.
 
    The **Edit workspace** box displays.
 
-   ![](assets/edit-workspace-box.png)
+   ![Edit workspace box](assets/edit-workspace-box.png)
 
 1. Update the following information in the **Edit workspace** box:
 
@@ -180,16 +180,16 @@ For more information about access requirements, see [Access requirements in Work
 1. (Optional) To add a new workspace section, do one of the following:
 
    * Click **Add section** at the bottom of the workspace.
-   * Hover over the name of a section and click the **More** menu ![](assets/more-menu.png), then click **Add section above** or **Add section below**.  
+   * Hover over the name of a section and click the **More** menu ![More menu](assets/more-menu.png), then click **Add section above** or **Add section below**.  
 
 1. (Optional) To change the location of a section, do one of the following:
 
-   * Hover over the name of a section and click the **grab** icon ![](assets/grab-icon.png), then drag and drop it in the right spot. 
-   * Hover over the name of a section and click the **More** menu ![](assets/more-menu.png), then click **Move up** or **Move down**. The section moves up or down inside the workspace. 
+   * Hover over the name of a section and click the **grab** icon ![Grab icon](assets/grab-icon.png), then drag and drop it in the right spot. 
+   * Hover over the name of a section and click the **More** menu ![More menu](assets/more-menu.png), then click **Move up** or **Move down**. The section moves up or down inside the workspace. 
 
 1. (Optional) To delete a workspace section, do the following: 
    
-   1. Hover over the name of a section, then click the **More** menu ![](assets/more-menu.png), then click **Delete**. <!--add screen shot when UI is final?-->
+   1. Hover over the name of a section, then click the **More** menu ![More menu](assets/more-menu.png), then click **Delete**. <!--add screen shot when UI is final?-->
    1. Select a new section to move all record types to it, then click **Delete**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
       All record types are moved to the selection section, and the section is deleted. 
@@ -198,17 +198,17 @@ For more information about access requirements, see [Access requirements in Work
     
     For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
 
-1. (Optional) Hover over a record type card, click the **More** menu ![](assets/more-menu.png) in the upper-right corner, then click **Edit** to modify the appearance of a record type. 
+1. (Optional) Hover over a record type card, click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner, then click **Edit** to modify the appearance of a record type. 
 
    For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
 
-1. (Optional) Hover over a record type card, click the **More** menu ![](assets/more-menu.png) in the upper-right corner, then click **Delete** to delete a record type. 
+1. (Optional) Hover over a record type card, click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner, then click **Delete** to delete a record type. 
 
    For information, see [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. (Optional) Press-click a record type card to drag it and drop it in a new spot. You can drag and drop record types from one workspace section to another. 
 
-   ![](assets/drag-and-drop-record-types-in-a-workspace.png)
+   ![Drag and drop record types in a workspace](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. (Optional) Click **Share** in the upper-right corner of the workspace to share the workspace with others.
 

@@ -14,7 +14,7 @@ exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
 A workspace is a collection of record types used by an organizational unit and it represents the unit's work lifecycle and processes. You can fully customize workspaces in Adobe Workfront Planning. 
 
 
-![](assets/workspaces-landing-page-admin-account.png)
+![Workspaces landing page admin account](assets/workspaces-landing-page-admin-account.png)
 
 ## Considerations about workspaces
 
