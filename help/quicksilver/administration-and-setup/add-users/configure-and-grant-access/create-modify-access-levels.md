@@ -69,11 +69,9 @@ For more detail about the information in this table, see [Access requirements in
 
    * <span class="preview">In the preview environment:</span>
       
-      <spa>
+      <span class="preview">Select the access level you want to copy and customize, then click the **Copy** icon ![Copy icon](assets/copy-icon.png). </span>
 
-      <span class="preview">Sleect the e **Edit** icon ![Edit icon](assets/edit-icon.png). </span><spa>
-
-      <span class="preview">If you are editing an existing access level, select the access level by clicking the box at the left of that access level, then click the **Edit** icon ![Edit icon](assets/edit-icon.png). </span>
+      <span class="preview">Or </span>
 
       <span class="preview">If you are editing an existing access level, select the access level by clicking the box at the left of that access level, then click the **Edit** icon ![Edit icon](assets/edit-icon.png). </span>
 
