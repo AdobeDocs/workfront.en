@@ -2,8 +2,8 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Cannot load data
-description: Troubleshoot Workfront Data Connect
+title: Tableau Desktop cannot establish a connection
+description: When you try to connect Tableau Desktop to Data Connect, you get an error.
 author: Courtney
 feature: Reports and Dashboards
 ---
