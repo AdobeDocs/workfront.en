@@ -13,7 +13,7 @@ feature: Reports and Dashboards
 
 ## Problem
 
-When you try and sign into Data Connect from your Power BI tool, you see the following error:
+When you try to sign into Data Connect from your Power BI tool, you see the following error:
 
 `Cannot connect from BI tool with provided password`
 

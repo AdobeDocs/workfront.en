@@ -28,7 +28,7 @@ You can try the following to resolve this problem:
 
 * **Troubleshoot by disabling your security tool**: Turn off your security tool, like Zscaler or Cisco, to see if it resolves the connectivity issue. If this resolves the connection issue, make sure your security tool is upgraded to the latest version, add IP address to the VPN allowlist with your internal network team.
 
-* **Add IP Addresses to Allowlist**: Ensure your firewall settings allow the IP addresses used by Data Connect. Use the command `SYSTEM$ALLOWLIST()` to obtain the IP address, which you can then whitelist in the VPN.
+* **Add IP Addresses to Allowlist**: Ensure your firewall settings allow the IP addresses used by Data Connect. Use the command `SYSTEM$ALLOWLIST()` to obtain the IP address, which you can then allowlist in the VPN.
 
 * **Check firewall and Proxy Settings**: Check if any firewall or proxy configurations on your network are blocking access to Snowflake's endpoints. You might need to contact your network administrator to add the required Snowflake IP addresses and ports to your company's allowlist.
 
