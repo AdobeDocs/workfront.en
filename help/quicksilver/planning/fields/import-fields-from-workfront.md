@@ -163,11 +163,11 @@ You must have the following access to perform the steps in this article:
     Hover over the header of any column, click the downward-pointing arrow after the field name, then click **Insert left** or **Insert right** to add the new field.
 1. Click **Add existing** in the lower-right corner of the **New field** tab. <!--check UI - did they change this??-->
 
-    ![](assets/add-existing-fields-from-workfront-modal.png)
+    ![Add existing fields from Workfront modal](assets/add-existing-fields-from-workfront-modal.png)
 
 1. Start typing the name of an existing Workfront field in the search area, then click **+** when it displays in the list. 
 1. (Optional) Type another field, then click **+** when it displays in the list. 
-1. (Optional) Click the **Filters** icon ![](assets/filters-in-import-fields-icon.png), then update one or both of the following fields: 
+1. (Optional) Click the **Filters** icon ![Filters in import fields icon](assets/filters-in-import-fields-icon.png), then update one or both of the following fields: 
 
     * Object type: Select a Workfront object type whose fields you want to import. 
     * Custom form: Select one or several custom forms from Workfront. You may select a custom form without selecting an object type first. 

@@ -187,7 +187,7 @@ OLD:
      
 1. Find the field that you want to delete in the column headers, and hover over the column header, then click the downward-pointing arrow after the field name. 
 
-   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![Arrow menu after name of field in table header highlighted](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
    
 1. Click **Delete**. <!-- check this: they might replace it with **Delete field**-->
 

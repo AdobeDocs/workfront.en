@@ -11,6 +11,8 @@ exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
 ---
 # Edit and create risk types
 
+<!--Audited: 03/2025-->
+
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -40,7 +42,7 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td><p>New: [!UICONTROL Standard]</p>
    Or
    <p>Current: [!UICONTROL Plan]</p>
@@ -53,7 +55,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,10 +91,9 @@ You can do the following to enhance the number of risk types in your Workfront i
 
    >[!TIP]
    >
-   >   You can edit risk type information inline, when you double-click the Name or Description of a risk type in the list.
+   >   You can edit risk type information inline, when you double-click the Name or Description of a risk type in a list of risk types.
 
 1. (Optional) Change the name and the description of the risk type.
-
 
    There is a character limit of 50 characters for the **[!UICONTROL Name]** and the **[!UICONTROL Description]** fields.
 
@@ -124,7 +125,7 @@ You can create risk types, in addition to the default ones.
    Or
 
    Click [!UICONTROL **Add More Risk Types**] in the lower-left corner of the risk type list to add risk types inline. <!--add screen shot-->
-1. Type a **[!UICONTROL Name]** (required) and a **[!UICONTROL Description]** (optional) for the risk type. 
+1. Add a **[!UICONTROL Name]** (required) and a **[!UICONTROL Description]** (optional) for the risk type. 
 
    There is a character limit of 50 characters for the **[!UICONTROL Name]** and the **[!UICONTROL Description]** fields.
 
