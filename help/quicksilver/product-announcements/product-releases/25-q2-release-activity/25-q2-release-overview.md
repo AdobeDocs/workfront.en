@@ -51,7 +51,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
-                <li>Preview release: March 13, 20255</li>
+                <li>Preview release: March 13, 2025</li>
                 <li>Production release for all customers: With the 25.4 release (April 2025)</li>
             </ul>
         </td>
@@ -80,6 +80,21 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Desktop Proofing Viewer update </a></p>[!BADGE In production ]{type=Informative}
+            <p>The Desktop Proofing Viewer has been updated to version 2.1.45. This update allows the viewer to use
+            <ul><li>Electron version 35</li><li>Chromium version 134</li><ul></p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: March 20, 2025</li>
+                <li><span class="preview">Production release for all customers: March 20, 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
