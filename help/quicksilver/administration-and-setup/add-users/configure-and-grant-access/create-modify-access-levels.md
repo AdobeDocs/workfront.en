@@ -60,11 +60,22 @@ For more detail about the information in this table, see [Access requirements in
 {{step-1-to-setup}}
 
 1. Click **Access Levels** in the left panel.
-1. Select the access level you want to copy and customize, then click **Copy**.
+1. * In the production environment: 
+     Select the access level you want to copy and customize, then click **Copy**.
 
-   Or
+     Or
 
-   If you are editing an existing access level (that you copied previously), click its name.
+     If you are editing an existing access level (that you copied previously), click its name.
+
+   * <span class="preview">In the preview environment:</span>
+      
+      <spa>
+
+      <span class="preview">Sleect the e **Edit** icon ![Edit icon](assets/edit-icon.png). </span><spa>
+
+      <span class="preview">If you are editing an existing access level, select the access level by clicking the box at the left of that access level, then click the **Edit** icon ![Edit icon](assets/edit-icon.png). </span>
+
+      <span class="preview">If you are editing an existing access level, select the access level by clicking the box at the left of that access level, then click the **Edit** icon ![Edit icon](assets/edit-icon.png). </span>
 
 1. In the box that displays, do any of the following to start configuring the custom access level:
 
