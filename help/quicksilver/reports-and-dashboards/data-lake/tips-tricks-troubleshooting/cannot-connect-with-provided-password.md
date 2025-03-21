@@ -2,13 +2,12 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Power BI tool cannot connect with provided password 
+title: Power BI tool cannot connect with provided password
 description: When you try to sign into Data Connect from your Power BI tool, you receive a login error.
 author: Courtney
 feature: Reports and Dashboards
-
+exl-id: c3f2b4a9-0831-48f0-871b-486d09ae5ea4
 ---
-
 # Power BI tool cannot connect with the provided password 
 
 ## Problem
@@ -45,4 +44,3 @@ Reset the connection password in Workfront, then create a new password with the 
 1. Click **Sign in**.
 1. Enter a new password, then click **Submit**.
 1. Go to your Power BI tool and log in with the new password.
-

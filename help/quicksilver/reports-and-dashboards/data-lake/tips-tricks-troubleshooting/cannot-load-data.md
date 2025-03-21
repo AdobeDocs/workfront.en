@@ -6,8 +6,8 @@ title: Tableau Desktop cannot establish a connection
 description: When you try to connect Tableau Desktop to Data Connect, you get an error.
 author: Courtney
 feature: Reports and Dashboards
+exl-id: 2a25d99a-a05e-4f60-ae1a-51ee137ad5f3
 ---
-
 # Tableau Desktop cannot establish a connection
 
 ## Problem
@@ -33,4 +33,3 @@ You can try the following to resolve this problem:
 * **Check firewall and Proxy Settings**: Check if any firewall or proxy configurations on your network are blocking access to Snowflake's endpoints. You might need to contact your network administrator to add the required Snowflake IP addresses and ports to your company's allowlist.
 
 * **Workaround option**: Create an extract from a worksheet screen instead of the Data Source pane in Tableau. The connection doesn't get lost and the extract process completes.
-
