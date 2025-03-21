@@ -14,7 +14,7 @@ The completion information described in this article is displayed above the burn
 
 Completion percentage on an iteration:
 
-![](assets/burndown-percentcomplete-350x47.png)
+![iteration details panel](assets/burndown-percentcomplete-350x47.png)
 
 This information indicates the completion status of the iteration for the day that is currently selected in the burndown chart. By default, the completion status is displayed based on the current day's date.
 

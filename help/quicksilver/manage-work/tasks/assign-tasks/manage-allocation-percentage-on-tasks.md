@@ -1,7 +1,7 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Manage user or role allocation percentage on tasks
+title: Manage User or Role Allocation Percentage on Tasks
 description: Allocation percentage represents the amount of time an assigned resource is planned to work on a task in a day. It is the percent of a work day (according to the user or project schedule) at which a resource is allocated throughout the duration of the task.
 author: Lisa
 feature: Work Management
@@ -17,7 +17,9 @@ Allocation percentage represents the amount of time an assigned resource is plan
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,7 +30,7 @@ Allocation percentage represents the amount of time an assigned resource is plan
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>New: Standard</p> 
    <p>Current: Work or higher</p> </td> 
   </tr> 
@@ -43,7 +45,7 @@ Allocation percentage represents the amount of time an assigned resource is plan
  </tbody> 
 </table>
 
-*For information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

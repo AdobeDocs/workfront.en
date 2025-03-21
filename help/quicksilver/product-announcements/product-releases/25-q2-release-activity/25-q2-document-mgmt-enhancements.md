@@ -12,6 +12,19 @@ This page describes all document management enhancements made with the Second Qu
 
 For a list of all changes available at this point in the Second Quarter 2025 release cycle, see [Second Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
+## Desktop Proofing Viewer update
+
+>[!NOTE]
+>
+>Preview release: March 20, 2025; Production for all customers: March 20, 2025
+
+The Desktop Proofing Viewer has been updated to version 2.1.45. This update allows the viewer to use
+
+* Electron version 35
+* Chromium version 134
+
+This update is for both Mac and Windows.
+
 ## Edit multiple documents at once in a Document report 
 
 >[!NOTE]

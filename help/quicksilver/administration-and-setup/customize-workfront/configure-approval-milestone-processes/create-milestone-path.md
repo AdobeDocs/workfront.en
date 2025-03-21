@@ -108,27 +108,29 @@ For more information on how you can associate a milestone path with a project an
     </tbody> 
    </table>
 
-1. Click **Add Milestone** and continue to add milestones as needed until the path is completed. 
+1. Click **Add Milestone** and continue to add milestones as needed until the path is completed.
+
 1. Click **Create Milestone Path** to save your changes.
 
    Your milestone path is ready to be associated with a project.
 
    For more information on how to associate milestone paths to projects and milestones to tasks, see [Associate milestones with tasks](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-<!--
+
 1. <span class="preview">(Optional) Click the **Export** icon ![Export icon](assets/export-icon.png), then select from the following formats to export the milestone path list to a file: </span>
 
    * PDF
    * Excel
    * Excel (xlsx)
    * Tab Delimited
+
 1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) to edit milestone information. </span>
 1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Delete** icon ![Delete icon](assets/delete-icon.png) to delete it. </span>
 1. <span class="preview">Click **Yes, Delete it**. </span>
    <span class="preview">The milestone is deleted and cannot be recovered. Any project information associated with the milestone and any task information associated with the milestone paths is also deleted. </span>
 
-   </div>
--->
+
+<div class="preview">
 
 ## View milestone path details in a report
 
@@ -165,9 +167,8 @@ For information about associating milestone paths to projects, see [Edit project
    * Milestone path groups
    * Milestone names, descriptions, colors, and color icons
 
-   </div>
-
 1. (Optional) Click **Back** to go back to the project report. 
 
+</div>
 
 
