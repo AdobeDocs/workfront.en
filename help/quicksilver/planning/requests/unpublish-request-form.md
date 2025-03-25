@@ -118,7 +118,7 @@ To change the sharing of a request form:
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
 
-1. Click the **More** menu ![](assets/more-menu.png) to the right of the record type name in the page header, then click **Update request form**.
+1. Click the **More** menu ![Mroe menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Update request form**.
 1. Click **Share** in the upper-right corner of the screen, then update the sharing choices. For more information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). 
 1. (Optional) Click **Copy link**, if you changed the sharing of the request form and you want to share it to the new group of people with a new link. 
 
@@ -136,10 +136,10 @@ When a request form becomes irrelevant and you don't want anyone to access it an
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
 
-1. Click the **More** menu ![](assets/more-menu.png) to the right of the record type name in the page header, then click **Update request form**.
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Update request form**.
 1. Click **Unpublish** in the upper-right corner.
 
-    ![](assets/unpublish-button-highlighted.png)
+    ![Unpublish button highlighted](assets/unpublish-button-highlighted.png)
 
     A confirmation displays at the bottom of the screen notifying you that the form was unpublished. 
 

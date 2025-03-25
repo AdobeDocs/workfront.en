@@ -227,7 +227,7 @@ Users with Contribute and Manage permissions to the workspace <!--<span class="p
 
             Add the record, as described in the article [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md), starting with step 6. <!--ensure this stays accurate-->
  
-        ![](assets/three-ways-to-create-records-choice-modal.png)
+        ![Three ways to create records choice modal](assets/three-ways-to-create-records-choice-modal.png)
 
 1. (Conditional) If you clicked **Request record**, do the following:
 

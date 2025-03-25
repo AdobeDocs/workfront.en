@@ -93,6 +93,6 @@ The following are Budget Statuses:
 
 The Adobe Workfront administrator restricted you to viewing only Companies, Groups & Teams that you belong to in your Access Level of the. The team that the you are looking for is not one of the teams that you belong to.
 
-![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
+![View only teams, groups, companies they belong to](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
 For information about enabling a user to view all teams in the system, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).

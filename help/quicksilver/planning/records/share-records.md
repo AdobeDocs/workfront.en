@@ -190,9 +190,9 @@ You must have the following access to perform the steps in this article:
 
     Or 
 
-    Hover over a record's name, click the **More** menu ![](assets/more-menu.png), then click **Copy link**.
+    Hover over a record's name, click the **More** menu ![More menu](assets/more-menu.png), then click **Copy link**.
 
-    ![](assets/contextual-menu-for-record-row.png)
+    ![Contextual menu for record row](assets/contextual-menu-for-record-row.png)
 
     The link is copied to your clipboard. 
 

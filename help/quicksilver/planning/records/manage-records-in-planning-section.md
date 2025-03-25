@@ -160,12 +160,12 @@ Consider the following when you view Workfront Planning records from the Plannin
       * The name of the connected record field as it displays in Workfront Planning. 
    * Records display under their respective workspace and record type. 
 
-   ![](assets/planning-section-on-project.png)
+   ![Planning section on project](assets/planning-section-on-project.png)
 
 1. (Optional) Click **Show all connections** to show all connected record types, including the ones without connected records. By default, record types without connected records do not display.
 1. Click a record card to display more information about the record. The record preview box displays.
 1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
-1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page. The record's details page opens in Workfront Planning. 
+1. (Optional) Click the **Open in a new tab** icon ![Open detals in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page. The record's details page opens in Workfront Planning. 
 1. (Optional) Hover over a record card, then click the disconnect record icon **-**, then click **Disconnect**. 
    The following things occur: 
    * The record is no longer connected to the Workfront object. 
@@ -236,7 +236,7 @@ Consider the following when you view Workfront Planning records from a Planning 
 
 1. Click inside the field to add connected records, then click the downward-pointing arrow inside the field, to select records from the list. 
 
-   ![](assets/planning-connection-field-on-project-with-record-list-open.png)
+   ![Planning connection field on project with record list open](assets/planning-connection-field-on-project-with-record-list-open.png)
 
    >[!TIP]
    >
@@ -246,7 +246,7 @@ Consider the following when you view Workfront Planning records from a Planning 
    >
    >There is an indication that the object of the field and the object you selected don't match.  
    >
-   >![](assets/warning-unsupported-object-planning-connection-field-on-form.png)
+   >![Warning unsupported object Planning Connection field on form](assets/warning-unsupported-object-planning-connection-field-on-form.png)
 
 1. Click outside the list to close it. 
 
@@ -257,13 +257,13 @@ Consider the following when you view Workfront Planning records from a Planning 
    * The values for the Workfront lookup fields connected to the Planning record are populated in Workfront Planning. 
    * <span class="preview">If your Workfront or group administrator added record lookup fields when they created the custom form, the record's lookup fields populate automatically in a table view. The table view in the Planning connection field is read-only</span>
    
-      ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
+      ![Planning connection field with table on project Details custom form](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
 1. (Optional) Click the name of a record <span class="preview">or hover the name of the record in the table, then click the **Open record** icon ![Open record icon on Planning connection custom form](assets/open-record-icon-on-planning-connection-custom-form.png)</span> in the Planning connection field to open it in Workfront Planning. 
    The Workfront Planning record details preview box opens. 
 1. Review or edit information about the record, or click the **Open in a new tab** icon ![Open record in new tab](assets/open-details-in-a-new-tab-icon.png) to open the record details page. 
 
-1. (Optional) From the custom form in Workfront, click the **Remove** icon ![](assets/remove-icon.png) on a record to remove it from the Planning connection field and disconnect it from the Workfront object. 
+1. (Optional) From the custom form in Workfront, click the **Remove** icon ![Remove icon](assets/remove-icon.png) on a record to remove it from the Planning connection field and disconnect it from the Workfront object. 
    The Workfront object is disconnected from the Planning record, and any lookup information from Workfront is removed from the record. 
 
 1. Click **Save Changes** to save the custom form and any other changes you made to the Workfront object.
