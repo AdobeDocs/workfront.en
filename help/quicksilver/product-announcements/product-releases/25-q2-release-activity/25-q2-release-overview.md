@@ -51,7 +51,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
-                <li>Preview release: March 13, 20255</li>
+                <li>Preview release: March 13, 2025</li>
                 <li>Production release for all customers: With the 25.4 release (April 2025)</li>
             </ul>
         </td>
@@ -80,6 +80,21 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Desktop Proofing Viewer update </a></p>[!BADGE In production ]{type=Informative}
+            <p>The Desktop Proofing Viewer has been updated to version 2.1.45. This update allows the viewer to use
+            <ul><li>Electron version 35</li><li>Chromium version 134</li><ul></p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: March 20, 2025</li>
+                <li><span class="preview">Production release for all customers: March 20, 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -183,6 +198,12 @@ The following functionality is soon to be removed from Workfront:
 The legacy Agile view in a project will be removed from Workfront with the 25.3 release on March 13, 2025. You will still be able to view your tasks in an Agile view in a project by clicking on the Boards icon.
 
 For more information about using the Agile view, see [Manage a project in the Agile View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+
+#### Enhanced Analytics deprecation
+
+Due to low and declining usage, we have made the decision to deprecate the Enhanced Analytics product the week of May 25, 2025.
+We recommend considering our Data Connect product as a replacement. Data Connect allows you to build similar customizable visualizations using your preferred business intelligence tools.
+For more information about this deprecation, see the [Enhanced Analytics deprecation guide](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
 
 ## Announcements
 

@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: plan-a-project
-title: Plan a project overview
-description: Plan a project overview
+title: Plan a Project Overview
+description: Find out what a project is, how to establish is scope and structure, as well as key concepts like schedules, timelines, and start and completion dates. 
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
@@ -16,7 +16,7 @@ exl-id: 23372e16-3933-445d-977c-901f52299cb2
 < see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
-A project is a large work item in Adobe Workfront. You can break down a project into tasks which are smaller work items, like tasks. Tasks can be assigned to users or teams who can be responsible for their completion. When all users complete their tasks, the project also becomes complete.
+A project is a large work item in Adobe Workfront. You can break down a project into tasks which are smaller work items. Tasks can be assigned to users or teams who can be responsible for their completion. When all users complete their tasks, the project also becomes complete.
 
 In addition to planning your tasks in a project, many other details go into planning projects. From determining the economic impacts to considering resource availability, there are many elements of projects that need attention. 
 
