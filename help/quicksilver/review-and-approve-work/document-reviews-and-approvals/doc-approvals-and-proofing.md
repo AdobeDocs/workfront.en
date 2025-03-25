@@ -9,11 +9,13 @@ exl-id: be484629-6e70-4809-ad4c-a489d5814da6
 ---
 # Use new document approvals and proofing together
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span>
+
 New document approvals in Workfront introduces a new set of features to help you review and approve documents. You can use the new document approvals workflow with the existing proofing viewer to add comments and markup to documents in review.
 
 There are some key differences in the workflow when using new document approvals and proofing together:
 
-* Decision buttons do not appear in the proofing viewer 
+* Decision buttons do not appear in the proofing viewer <!--remove for prod-->
 
 * Participants are shown in the document Summary, not the proofing workflow 
 
@@ -90,15 +92,11 @@ To add a new version:
 <!-- add info about reusing previous participants once released -->
 
 
-## Review the proof and make a decision 
+## Review the proof and make a decision in Production
 
 The document does not move to an approved status until all assigned approvers choose "approved".
 
 If any one approver chooses "needs work", the status of the document immediately changes to Needs work. The document will need to be revised and uploaded as a new version with a new approval workflow. 
-
->[!IMPORTANT]
->
->Document decision buttons do not appear in the proofing viewer. You must navigate back to the document Summary or Document Details page to make your decision or mark your review complete. 
 
 To review and approve a document:
 
@@ -119,3 +117,29 @@ To review and approve a document:
     * **Needs work**: The document needs changes and is not ready for use. Once the specified changes are made, the document must be uploaded as a new version and go through another round of approvals. For more information on uploading a new version, see [ Create a new version as needed](#create-a-new-version-as-needed) in this article.
 
 Once you make a decision, the document owner is notified via email.
+
+<span class="preview">
+
+## Review the proof and make a decision in Preview
+
+The document does not move to an approved status until all assigned approvers choose "approved".
+
+If any one approver chooses "needs work", the status of the document immediately changes to Needs work. The document will need to be revised and uploaded as a new version with a new approval workflow. 
+
+To review and approve a document:
+
+1. Go to your review email notification, and click to **Go to review**.
+
+1. Once you're in Workfront, click **Go to proof**. 
+
+1. Review the content, and add any comments or markup. For more information about how to use the proofing viewer, see [Review proofs within Adobe Workfront: article index](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+
+1. Choose one of the following decisions:
+
+    * **Approve**: The document does not need changes and is ready for use.
+    * **Approve with changes**: The document needs changes and is ready for use once they are made. Additional approval is not required. 
+    * **Needs work**: The document needs changes and is not ready for use. Once the specified changes are made, the document must be uploaded as a new version and go through another round of approvals. For more information on uploading a new version, see [ Create a new version as needed](#create-a-new-version-as-needed) in this article.
+
+Once you make a decision, the document owner is notified via email.
+
+</span>
