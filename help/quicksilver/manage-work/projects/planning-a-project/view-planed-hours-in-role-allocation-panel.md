@@ -101,11 +101,11 @@ You must have the following:
    * **Tasks** 
    * **Workload Balancer**
 
-1. Click the **Show role allocation** icon ![](assets/show-role-allocation-icon.png).
+1. Click the **Show role allocation** icon ![Show role allocation icon](assets/show-role-allocation-icon.png).
 
    The Role Allocation panel displays.
 
-   ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   ![Role allocation panel with planned hours only](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. Review the following information in the **Role Allocation** panel:
 

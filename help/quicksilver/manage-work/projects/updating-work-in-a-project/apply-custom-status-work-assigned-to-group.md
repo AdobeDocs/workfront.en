@@ -97,7 +97,7 @@ When you update the Group for a project, the options available for the Status of
    >If you select a different group in the **Group** drop-down menu, the custom statuses in the **Status** menu change automatically to correlate with the new group.
    >
    >
-   >![](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >![Status drop-down expanded with custom statuses for project](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
    >
 
 1. Select the status of the project. The custom statuses you created and applied to that group display in the list.

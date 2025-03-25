@@ -170,7 +170,7 @@ To manage a timeline view:
 1. Go to the record type page for which you want to view the timeline. 
 1. Create a timeline view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
-    ![](assets/timeline-view-example.png)
+    ![Timeline view example](assets/timeline-view-example.png)
 
     The records associated with the record type you selected display as bars in a timeline and are sorted in chronological order of their Start Date, by default. 
 
@@ -199,9 +199,9 @@ To manage a timeline view:
 
 1. Do the following to quickly find records that match a keyword:
 
-    1. Click the **Search** icon ![](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the record with the correct match is highlighted.
+    1. Click the **Search** icon ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the record with the correct match is highlighted.
 
-        ![](assets/search-box-and-results-timeline-view.png)
+        ![Search box and results timeline view](assets/search-box-and-results-timeline-view.png)
 
         You can use any word or special character that is visible on the screen.
 
@@ -275,7 +275,7 @@ To add a grouping in the timeline view:
 1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 1. Click **Grouping** in the upper-right corner of the timeline view.
 
-    ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
+    ![Grouping UI timeline view with linked fields](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list. 
 
@@ -289,7 +289,7 @@ To add a grouping in the timeline view:
 
     <!-- update screen shot with view redesign-->
 
-    ![](assets/grouping-applied-in-timeline-view.png)
+    ![Grouping applies in timeline view](assets/grouping-applied-in-timeline-view.png)
 
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
@@ -341,11 +341,11 @@ Update the timeline view settings to indicate what and how information displays 
 
     A preview of what the bars will look like on the timeline displays on the right.
 
-    ![](assets/record-details-panel-timeline-settings-with-preview.png)
+    ![Record details panel timeline settings with preview](assets/record-details-panel-timeline-settings-with-preview.png)
 
 1. Click **Color** in the left panel, to customize the colors of the records and groupings in the timeline. 
 
-    ![](assets/color-tab-timeline-view.png)
+    ![Color tab timeline view](assets/color-tab-timeline-view.png)
 
 1. (Conditional and optional) If you added a grouping to the timeline view, select from the following options to set a color for the grouping in the **Set grouping color** section:
 
@@ -376,7 +376,7 @@ Update the timeline view settings to indicate what and how information displays 
 
 1. (Conditional) If you selected **Field values** for the record colors, select a field from the **Match the record color to** drop-down menu. 
 
-    ![](assets/field-selector-drop-down-menu-timeline-view.png)
+    ![Field selector drop-down menu in timeline view](assets/field-selector-drop-down-menu-timeline-view.png)
 
     Only fields with color-coded options display in the drop-down menu.
     
@@ -418,7 +418,7 @@ You can display connected records in a record's timeline view by using the Break
 1. (Conditional) If you are viewing the timeline view in the Standard mode, click **Breakdown**.
 1. Expand the **Select a linked record type** box and select a connected record type. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-    ![](assets/breakdown-picker-and-button-on-timeline.png)
+    ![Breakdown picker and button on timeline view](assets/breakdown-picker-and-button-on-timeline.png)
 
     >[!TIP]
     >
@@ -433,7 +433,7 @@ You can display connected records in a record's timeline view by using the Break
     A right-pointing arrow displays on the selected record's bar in the timeline, if they they are connected with other records. 
 1. Click the right-pointing arrow to expand a record type and display is connections. 
 
-    ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)    
+    ![Campaigns broken down by programs in the timeline view](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)    
 
 1. (Optional) Repeat the steps above to add more connected records. 
 

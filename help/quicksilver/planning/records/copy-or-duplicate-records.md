@@ -169,13 +169,13 @@ You can create records in the table view of a record type page by duplicating an
 
 1. Do one of the following:
 
-    * Hover over the name of a record then click the **More** menu inline with the record name, then click the **Duplicate** icon ![](assets/duplicate-icon-gray.png) .
+    * Hover over the name of a record then click the **More** menu inline with the record name, then click the **Duplicate** icon ![Duplicate icon gray](assets/duplicate-icon-gray.png) .
 
-        ![](assets/more-menu-from-record-in-table-view.png)
+        ![More menu from record in table view](assets/more-menu-from-record-in-table-view.png)
 
-    * Select a record, then click the **Duplicate** icon ![](assets/duplicate-icon-white-and-blue.png) in the toolbar at the bottom of the page. 
+    * Select a record, then click the **Duplicate** icon ![Duplicate icon white and blue](assets/duplicate-icon-white-and-blue.png) in the toolbar at the bottom of the page. 
 
-        ![](assets/duplicate-icon-in-toolbar-in-table-view.png)
+        ![Duplicate icon in toolbar in table view](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
     An identical record with an identical name is created underneath the original record. All fields of the new record are populated with the same information as in the original record.
 

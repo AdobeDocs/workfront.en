@@ -194,7 +194,7 @@ You must configure an automation for a record type in Workfront Planning before 
    A connected field for the selected record type is also created on the original record type from where you are configuring the automation. 
 1. (Optional and conditional) If you selected to create a Workfront object and don't have a connection field for the selected Workfront object type, click the question mark icon to the right of the **Connected field where the < Workfront object type name > is created** field, and click the **Add** icon ![Create a connection field icon](assets/create-a-connection-field-icon.png) to add a connection field. 
 
-   ![](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
+   ![Question mark icon to add connected fields in automations with Workfront](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
 
    The new field is automatically created and named **Connected < Workfront object name >**. For example, when a portfolio connected field is created for the record, it is named "Connected portfolio." 
 

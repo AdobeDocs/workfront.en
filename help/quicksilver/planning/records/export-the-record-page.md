@@ -112,11 +112,11 @@ You must have the following access to perform the steps in this article:
 
     The record's preview box opens. 
 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) to open the record's page.
+1. (Optional) Click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) to open the record's page.
 
 1. Choose the **Details** tab. The Details tab should open by default.
 
-1. Click the **Export** menu ![](assets/export-icon-in-record-details-page.png) either in the preview or the record's page, then click one of the following:
+1. Click the **Export** menu ![Export icon in record details page](assets/export-icon-in-record-details-page.png) either in the preview or the record's page, then click one of the following:
 
    * **Microsoft Word**
    * **Adobe PDF**
@@ -125,7 +125,7 @@ You must have the following access to perform the steps in this article:
 
     The name of the exported file is the Primary field of the record. 
 
-    ![](assets/exported-word-file.png)
+    ![Exported word file](assets/exported-word-file.png)
 
       >[!NOTE]
       >
