@@ -103,11 +103,11 @@ You must have the following access to perform the steps in this article:
 ## Restore deleted records
 
 1. Go to the record type page where you have deleted records. 
-1. Click the **Undo** icon ![](assets/undo-icon.png) in the upper-right corner of any record type page view, then click **Recently deleted**.
+1. Click the **Undo** icon ![Undo icon](assets/undo-icon.png) in the upper-right corner of any record type page view, then click **Recently deleted**.
 
     The **Recently deleted** box displays.
 
-    ![](assets/recently-deleted-box.png)
+    ![Recently deleted box](assets/recently-deleted-box.png)
 
 1. Select the records you want to delete, then click **Restore** > **Restore**. You can select more than one record. 
 

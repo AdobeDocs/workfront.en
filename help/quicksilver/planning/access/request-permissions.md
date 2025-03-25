@@ -112,7 +112,7 @@ When someone shares with you a link to a workspace or a view where you do not ha
     
     A **You have no access** page displays to inform you that you do not have access to the view or the workspace.
 
-    ![](assets/request-access-to-view.png)
+    ![Request access to view](assets/request-access-to-view.png)
 
 1. (Conditional) If the link shared is for a view for a workspace where you have access, click **Open with existing view**. If you have permissions to access the workspace, the record type page opens in the default view.
 
@@ -120,8 +120,8 @@ When someone shares with you a link to a workspace or a view where you do not ha
 
     All users with Manage permissions to the view or the workspace receive the following notifications for the access request:
       * An in-app notification
-         ![](assets/in-app-notification-for-access-request.png)
+         ![In-app notification for access request](assets/in-app-notification-for-access-request.png)
       * An email notification
-         ![](assets/email-notification-for-access-request.png)
+         ![Email notification for access request](assets/email-notification-for-access-request.png)
    
 1. (Conditional) When the view or workspace manager grants you permissions to the view or workspace, you receive an email notification and an in-app notification with a confirmation that the permission was granted. <!--check this - I was not able to test this, but Isk confirmed.-->

@@ -157,7 +157,7 @@ OLD:
 
 1. (Conditional and optional) After someone tags you in a comment on a record, go to the email notification that informs you of the tag and of the comment. The sender of the email is Adobe Experience Cloud. 
 
-    ![](assets/email-notification-example.png)
+    ![Email notifications example](assets/email-notification-example.png)
 
 1. (Optional) Click the message in the **Workfront** box inside the email. 
 
@@ -189,6 +189,6 @@ after you submit a request, or after a request you submitted has been approved o
 
 1. (Optional) Click **Open request**. This opens the request in Workfront Planning. 
 
-1. Click the **Notifications** icon ![](assets/notifications-area-icon-unified-shell.png) in the upper-right corner of the screen to access the **Notifications** page.
+1. Click the **Notifications** icon ![Notifications area icon Unified Shell](assets/notifications-area-icon-unified-shell.png) in the upper-right corner of the screen to access the **Notifications** page.
 
    For information about managing your Workfront Planning notifications, see [Manage Adobe Workfront Planning notification preferences](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

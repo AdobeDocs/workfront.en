@@ -34,7 +34,7 @@ Your access to review and approve proofs is the same as in [!DNL Adobe Workfront
 
    >[!NOTE]
    >
-   >Video proofs cannot be opened in the mobile app.
+   >Video proofs can only be opened in the iOS mobile app. This functionality is not yet available for Android.
 
 1. Review the document proof.
 1. (Optional) Select ![[!UICONTROL Single Page icon]](assets/mobile-proofpagingicon1-25x36.png) on the top right of the document to change from the single page view to the continuous view. Select ![[!UICONTROL Continuous Page icon]](assets/mobile-proofpagingicon2-25x25.png) to change back to the single page view.

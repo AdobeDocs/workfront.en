@@ -24,7 +24,7 @@ By default, the Name field is the primary field. However, you can designate any 
 * Number
 * Formula
 
-![](assets/another-text-field-as-a-primary-field-highlighted.png)
+![Another text field as a primary field highlighted](assets/another-text-field-as-a-primary-field-highlighted.png)
 
 For information about how to designate a field as the primary field, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 

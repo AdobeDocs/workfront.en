@@ -128,7 +128,7 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
 
    * Currency, Number, and Percentage fields display as a Single-line text field type in the form builder. 
 
-      However, the field format is preserved and the values of the numbers in these fields will display as Currency, Number, and Percentage values on the record type and in the request details page.
+      However, the field format is preserved and the field values will display as as currency, numbers, and percentages after the request is submitted, on the record type and in the request details page.
 
 <div class="preview">
 
