@@ -128,9 +128,13 @@ If any one approver chooses "needs work", the status of the document immediately
 
 To review and approve a document:
 
-1. Go to your review email notification, and click to **Go to review**.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 
-1. Once you're in Workfront, click **Go to proof**. 
+1. Find the document you need to review, then click **Open proof**.
+
+<!--1. Go to your review email notification, and click to **Go to review**.
+
+1. Once you're in Workfront, click **Go to proof**. -->
 
 1. Review the content, and add any comments or markup. For more information about how to use the proofing viewer, see [Review proofs within Adobe Workfront: article index](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
