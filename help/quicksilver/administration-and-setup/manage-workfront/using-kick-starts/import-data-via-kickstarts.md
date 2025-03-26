@@ -356,6 +356,10 @@ Each row of the sheet corresponds to a unique object.
 
      **Example:** Type A|D under the DE:Departments column to populate department A and department D in your custom form.
 
+     >[!NOTE]
+     >
+     >Only use the delimiter "|" to separate custom field values. You cannot use it in any of the other spreadsheet columns, including **setCategoryID**.
+
 ### Include dates  {#include-dates}
 
 Workfront can process most date formats. However, you must ensure that the date column in the spreadsheet is formatted as a date. The import will fail if the column is formatted as general, a number, or text.
