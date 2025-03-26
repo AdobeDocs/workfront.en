@@ -70,7 +70,7 @@ Add once functionality is added
 1. (Optional) Once you have reviewed the document, you can leave a comment for the requester in the document's **Updates** section. For more information on commenting, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. To record that you have completed your review, click **Complete review**.
 
-## Review a document from the Document Summary pane
+## Review a document from the Document Summary panel
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 
