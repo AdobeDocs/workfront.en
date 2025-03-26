@@ -34,6 +34,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 * [Document management enhancements](#document-management-enhancements)
 * [Mobile enhancements](#mobile-enhancements)
 * [Project enhancements](#project-enhancements)
+* [Reporting enhancements](#reporting-enhacements)
 * [Other enhancements](#other-enhancements)
 
 ### Administrator enhancements
@@ -90,8 +91,8 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
-                <li>Preview release: March 270, 2025</li>
-                <span class="preview"><li>Production release for all customers: </li></span>
+                <li>Preview release: March 27, 2025</li>
+                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
             </ul>
         </td>
     </tr>                          
@@ -183,7 +184,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 </tbody>
 </table>
 
-### Report and dashboard enhacements
+### Reporting enhacements
 
 <table>
 <col style="width: 50%;" />
@@ -191,7 +192,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 <tbody>
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Document approval and decision data now available in Data Connect</a>[!BADGE In production ]{type=Informative}</p>
             <p>You can now access data for document approvals and decisions in Data Connect. This data set bridges document approvals from Workfront proofing capabilities and Frame.io approvals that are happening on Workfront documents. You will now be able to illustrate cycle time, number of cycles, and timeline impacts for late approvals through your BI visualizations.</p>
         </td>
@@ -200,6 +201,25 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
             <ul>
                 <li>Preview release: March 25, 2025</li>
                 <li>Production release for all customers: March 25, 2025</li>
+            </ul>
+        </td>
+    </tr>                          
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Updates to the Workfront Calendar</a></p>
+            <p>We have updated the look and feel of the Workfront Calendar to a modern design that is consistent with other areas of Workfront. There are small functionality differences from the current Workfront Calendar including:
+            <ul>
+            <li>How you add ad-hoc items to the calendar</li>
+            <li>How you create and rename the calendar</li>
+            <li>The calendar actions have moved to a More menu next to the calendar name</li>
+            <li>A new side panel for viewing calendar information</li>
+            <li>And more</li>
+            <ul>        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: February 27, 2025</li>
+                <li>Production release for all customers: With the 25.4 release (April 10, 2025)</li>
             </ul>
         </td>
     </tr>                          
@@ -262,6 +282,13 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 ### Functionality soon to be removed from Workfront
 
 The following functionality is soon to be removed from Workfront:
+
+#### API version 2-15 deprecation
+
+As we continue to enhance the Workfront platform, it is crucial to keep our APIs up to date. This ensures optimal performance and security, and supports new capabilities. Therefore, we are deprecating Workfront API versions 2-15. 
+
+* **September 2025**: API versions 2-14, which are currently unsupported, will be deprecated. After this date, these versions will no longer be accessible.
+* **December 2025**: API version 15 will be deprecated.
 
 #### We are removing the legacy Agile view in a project
 
