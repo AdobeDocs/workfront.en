@@ -117,7 +117,7 @@ You must consider the following before making changes to a field's configuration
     
 * You cannot edit existing lookup fields from connected records. 
 
-<!--replace he last bullet with thsi: 
+<!--replace the last bullet with this, and at production remove this bullet point: 
 
 * <span class="preview">You can edit existing lookup fields from connected records.</span>--> 
 
@@ -158,7 +158,21 @@ You must consider the following before making changes to a field's configuration
 
     The field information updates for everyone with access to view the workspace. 
 
-1. (Conditional) For linked record fields, click **Edit lookup fields** and add or remove any of the fields from the linked record type.
+1. (Conditional) For connected record fields, click **Edit lookup fields** and add or remove any of the lookup fields from the connected record type.
 
     For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
+   >[!TIP]
+   >
+   >You can add or remove lookup fields from connected records, but you cannot edit the settings of lookup fields.
+
+
+<!-- replace the TIP above with the one below at Preview, and remove this tip altogether after April 10 Prod release:-->
+
+<!--
+   >[!TIP]
+   >
+   >* In the Production environment, you can add or remove lookup fields from connected records, but you cannot edit the settings of lookup fields.
+   >* <span class="preview">In the Preview environment, you can edit the settings of lookup fields.</span>
+
+-->

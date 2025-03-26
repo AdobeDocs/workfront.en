@@ -206,6 +206,8 @@ The following must be in place before you can submit a request to a Workfront Pl
       >
       >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
 
+   <!--1. (Optional) Click **View your request** in the confirmation message at the bottom of the page, to open the request, or click the **X** icon to close the confirmation. -->
+
 1. (Optional) Click the **Planning** tab in the Requests area to view your request, then click the name of the request. 
 
    The request details page opens. 
@@ -263,7 +265,11 @@ The following must be in place before you can submit a request to a Workfront Pl
       >
       >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
 
-1. (Optional) Click the **Planning** tab in the Requests area to view your request, then click the name of the request. 
+      <!--1. <span class="preview">(optional) Click **View your request** to open the request in Workfront.</span>
+      Or
+      <span class="preview">Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request. </span>-->
+
+1. (Optional) Click **Main menu** > **Requests** > the **Planning** tab to view your request, then click the name of the request. 
 
    The request details page opens. 
 

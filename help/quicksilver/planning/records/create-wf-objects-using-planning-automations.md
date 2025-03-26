@@ -19,7 +19,7 @@ exl-id: c669217a-40e2-471f-951d-93157a34f1ee
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -30,6 +30,16 @@ You can configure and activate the automation in the record type's page in Workf
 For example, you could create an automation that takes a Workfront Planning campaign and creates a project in Workfront to track that campaign's progress. The project would be connected to the Workfront Planning campaign in the Connected Project field on the campaign.
 
 For more information on connected records, see [Connected records overview](/help/quicksilver/planning/records/connected-records-overview.md).
+
+You can create the following using automations in Workfront Planning:
+
+<!--* One <span class="preview">or several</span> projects-->
+* A project
+* A group
+* A program
+* A portfolio
+* A project
+* A record
 
 ## Access requirements
 
@@ -88,9 +98,10 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td> <p>Contribute or higher permissions to the workspace <!--<span class="preview">and record type</span>--> where you want to create objects. </p>  
+   <td> <p>Manage permissions to the workspace to create automations. </p>
+   <p>Contribute or higher permissions to the workspace <!--<span class="preview">and to the record type</span>--> where you want to create object using existing automations. </p>  
+   <p>Manage permissions to Workfront objects (portfolios) to add children objects (programs or projects).</p>
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-   <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
    </td> 
   </tr> 
 <tr> 
@@ -107,7 +118,7 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations about creating objects and records using an automation
 
-* The name of the object or record created by an automation is the same as the record name from which you create it. 
+* The name of the object or record created by an automation is the same as the record name from which you create it<!--, when you create a single object at a time-->. 
 * New objects or records don't override existing ones in the same field. Triggering the same automation multiple times for the same record adds the new objects or records in the same connected field of the original record, in addition to the ones created before. 
 
 <!--hide this for now; they are trying to remove this militation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
@@ -141,11 +152,19 @@ You must configure an automation for a record type in Workfront Planning before 
    * **Actions**: Select the action that you want Workfront to perform when triggering the automation. This is a required field. 
    Select one of the following actions: 
 
-      * Create group
-      * Create program
-      * Create portfolio
+      <!--
+
+      * Create multiple projects
+      * Create a single project
+
+      -->
+
       * Create project
       * Create record
+      * Create program
+      * Create portfolio
+      * Create group
+         
 
       >[!TIP]
       >
@@ -153,7 +172,23 @@ You must configure an automation for a record type in Workfront Planning before 
 
 1. (Conditional) Depending on what action you selected, update the following fields:
 
-   * **Create project**: 
+   <!--
+
+   * Create multiple projects:
+      * **Connected field where the object is created**: This is the connected field where the new project will display. This is a required field. 
+      * **Field whose values will create the records**: Choose a multi- or single-select field from the selected record type. Workfront creates a project for each field choice that is currently selected on the record from where you trigger the automation. 
+
+      >[!TIP]
+      >
+      >A project is created only for selected options from the multi- or single-select field, and not for all possible choices.
+      >
+
+      * **Use the same template**: Select this option to use the same template for each new project. If the option is deselected, select a **Project template** for each field choice.   
+      * **Project template**: If you selected the **Use the same template** option, select a project template that Workfront will use to create the project. 
+   
+  -->    
+
+   * **Create project**: <!--replace to the left: Create a single project-->
       * **Connected field where the object is created**: This is the connected field where the new project will display. This is a required field. 
       * **Project template**: Select a project template that Workfront will use to create the project.  
    * **Create portfolio**:
@@ -168,6 +203,7 @@ You must configure an automation for a record type in Workfront Planning before 
       * **Custom form to attach to the new group**: Select a custom form to attach to the new program. You must create a program custom form before you can select it. 
    * **Create record**: 
       * **Record type**: Select the record type you want to create. 
+
 
       The **Settings** sub-section displays. Update the following fields in the **Settings** sub-section: 
 
@@ -248,7 +284,17 @@ You must configure an automation for a record type in Workfront Planning before 
 
    * A confirmation message displays at the bottom of the screen, if the automation successfully created an object or a record. 
 
-   * The new object displays in the connected field you indicated in the setup of the automation button. You might need to refresh your page before viewing the new object. 
+   * The new object displays in the connected field indicated in the setup of the automation button. You might need to refresh your page before viewing the new object. The new object has the same name as the original record.
+
+   <!--
+
+   * If multiple projects were created, the projects are automatically named according to the following pattern: 
+
+      `[ Name of the record ] Name of the field choice`
+
+      For example, if a campaign named `Summer breeze` generated a project from a field choice of `EMEA`, the project is named `[ Summer breeze ] EMEA`.
+
+   -->
 
    * The record you are triggering the automation from is added to the connected field of the new record.
 
