@@ -32,6 +32,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 
 * [Administrator enhancements](#administrator-enhancements)
 * [Document management enhancements](#document-management-enhancements)
+* [Mobile enhancements](#mobile-enhancements)
 * [Project enhancements](#project-enhancements)
 * [Other enhancements](#other-enhancements)
 
@@ -67,7 +68,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: January 31, 2025</li>
-                <li><span class="preview">Production release for all customers: January 31, 2025</span></li>
+                <span class="preview"><li>Production release for all customers: January 31, 2025</li></span>
             </ul>
         </td>
     </tr>                          
@@ -83,6 +84,20 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            New document approval decision buttons available in proofing viewer</a></p>
+            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: March 270, 2025</li>
+                <span class="preview"><li>Production release for all customers: </li></span>
+            </ul>
+        </td>
+    </tr>                          
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Desktop Proofing Viewer update </a></p>[!BADGE In production ]{type=Informative}
             <p>The Desktop Proofing Viewer has been updated to version 2.1.45. This update allows the viewer to use
             <ul><li>Electron version 35</li><li>Chromium version 134</li><ul></p>
@@ -91,7 +106,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: March 20, 2025</li>
-                <li><span class="preview">Production release for all customers: March 20, 2025</span></li>
+                <span class="preview"><li>Production release for all customers: March 20, 2025</li></span>
             </ul>
         </td>
     </tr>                          
@@ -105,7 +120,39 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: February 6, 2025</li>
-                <li><span class="preview">Production release for all customers: March 13, 2025</span></li>
+                <span class="preview"><li>Production release for all customers: March 13, 2025</li></span>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
+### Mobile enhancements
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Enhancements to proofs in the mobile app (iOS only)</a>[!BADGE In production ]{type=Informative}</p>
+            <p>Several enhancements are available for proof functionality in the Adobe Workfront mobile app:
+            <ul>
+            <li>You can now open a proof file from your mobile email application, from a link that was shared with you. Previously, links from emails were not supported and you had to access proofs from the Workfront mobile app.</li>
+            <li>Multimedia proof files are now supported in the mobile app.</li>
+            </ul>
+            </p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: N/A</li>
+                <span class="preview"><li>Production release for all customers: March 12, 2025</li> 
+            </ul>
+            <p><b>Available in these environments:</b></p>
+            <ul>
+                <li>iOS mobile app</li>
             </ul>
         </td>
     </tr>                          
@@ -136,6 +183,29 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 </tbody>
 </table>
 
+### Report and dashboard enhacements
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Document approval and decision data now available in Data Connect</a>[!BADGE In production ]{type=Informative}</p>
+            <p>You can now access data for document approvals and decisions in Data Connect. This data set bridges document approvals from Workfront proofing capabilities and Frame.io approvals that are happening on Workfront documents. You will now be able to illustrate cycle time, number of cycles, and timeline impacts for late approvals through your BI visualizations.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: March 25, 2025</li>
+                <li>Production release for all customers: March 25, 2025</li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
 ### Other enhancements
 
 <table>
@@ -152,7 +222,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
-                <li><span class="preview">Production release for all customers: March 6, 2025</span></li>
+                <span class="preview"><li>Production release for all customers: March 6, 2025</li></span>
             </ul>
         </td>
     </tr>
@@ -182,7 +252,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: Throughout the Second Quarter 2025 release timeframe</li>
-                <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
+                <span class="preview"><li>Production release: Review the release notes for specific dates</li></span>
             </ul>
         </td>
     </tr>
