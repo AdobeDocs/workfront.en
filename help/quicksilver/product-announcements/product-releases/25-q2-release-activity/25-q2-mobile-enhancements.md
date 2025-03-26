@@ -23,3 +23,5 @@ Several enhancements are available for proof functionality in the Adobe Workfron
 * You can now open a proof file from your mobile email application, from a link that was shared with you. Previously, links from emails were not supported and you had to access proofs from the Workfront mobile app.
 * Multimedia proof files are now supported in the mobile app.
 
+
+For information, see [Review and make decisions on proofs in the Adobe Workfront mobile app](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
