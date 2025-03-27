@@ -43,25 +43,6 @@ Prior to this enhancement, you could create only one project every time you woul
 
 For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
-## Share record types
-
->[!NOTE]
->
->Preview: March 27, 2025; Production for all customers: April 10, 2025 
-
-To better control who can view or manage records in each record type and ensure that only authorized people can manage each record type's information based on their roles and responsibilities, we have introduced permissions at the record type level. 
-
-Prior to this enhancement, you could share only workspaces with others and the permission they were granted to a workspace applied to all the record types in the workspace.  
-
-We have introduced the following updates:  
-
-* Workspace permissions are automatically shared with all record types in the workspace. 
-* The level of permissions granted for the workspace displays as Inherited permissions for the record type.  
-* You cannot share a record type with a higher permission level than the user has on the workspace.
-* You can disable the inherited permissions on the record type to make it read-only for all people in the workspace. After that,  you can add individual people, teams, groups, companies or roles and grant them Contribute permission.  
-
-For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md).
-
 ## Rename lookup fields  
 
 >[!NOTE]
@@ -72,7 +53,7 @@ You can now update information on lookup fields, after they have been added to a
 
 Prior to this enhancement, you could not edit existing lookup fields. 
 
-For information, see [Edit fields](/help/quicksilver/planning/fields/edit-fields.md).
+For information, see [Edit fields](/help/quicksilver/planning/fields/edit-fields.md). 
 
 ## Setup and manage multiple request forms from a record type 
 
