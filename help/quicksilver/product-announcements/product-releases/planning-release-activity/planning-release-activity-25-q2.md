@@ -24,9 +24,9 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 
 Now, you can open a new request immediately after submitting it from the following areas:
 
- * the request form after accessing it from a shared link
- * the record type page from the New record or Request record buttons
- * the Requests area in the Main menu
+* the request form after accessing it from a shared link
+* the record type page from the New record or Request record buttons
+* the Requests area in the Main menu
 
 For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
 
