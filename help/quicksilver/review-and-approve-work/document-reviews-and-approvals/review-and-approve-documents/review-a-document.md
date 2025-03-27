@@ -96,7 +96,7 @@ Add once functionality is added
 
 ## Review a document from the proof viewer
 
-To review and approve a document:
+To review a document:
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 
@@ -108,12 +108,6 @@ To review and approve a document:
 
 1. Review the content, and add any comments or markup. For more information about how to use the proofing viewer, see [Review proofs within Adobe Workfront: article index](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
-1. Choose one of the following decisions:
-
-    * **Approve**: The document does not need changes and is ready for use.
-    * **Approve with changes**: The document needs changes and is ready for use once they are made. Additional approval is not required. 
-    * **Needs work**: The document needs changes and is not ready for use. Once the specified changes are made, the document must be uploaded as a new version and go through another round of approvals. For more information on uploading a new version, see [ Create a new version as needed](#create-a-new-version-as-needed) in this article.
-
-Once you make a decision, the document owner is notified via email.
+1. To record that you have completed your review, click **Complete review**.
 
 </span>

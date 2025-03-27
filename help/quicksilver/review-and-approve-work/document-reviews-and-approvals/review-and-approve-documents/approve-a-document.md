@@ -133,3 +133,29 @@ You must have the following access to perform the steps in this article:
       * **Approve with changes** indicates that some small changes are still required on the document, but approval is given on the condition that those changes are made. If you select this option, a window will appear that contains a text box named **Next steps** where you can specify what changes are needed for the document to be approved. You may either enter that information and click **Add message**, or you may click **Skip** to send the approval decision without additional information.
    
    * **Needs work** indicates that the document version is not approved and requires significant changes.
+
+   <span class="preview">
+   
+   ## Approve a document from the proof viewer
+   
+   To review and approve a document:
+   
+   1. Go to the project, task, or issue that contains the document, then select **Documents**.
+   
+   1. Find the document you need to review, then click **Open proof**.
+   
+   <!--1. Go to your review email notification, and click to **Go to review**.
+   
+   1. Once you're in Workfront, click **Go to proof**. -->
+   
+   1. Review the content, and add any comments or markup. For more information about how to use the proofing viewer, see [Review proofs within Adobe Workfront: article index](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+   
+   1. Choose one of the following decisions:
+   
+       * **Approve**: The document does not need changes and is ready for use.
+       * **Approve with changes**: The document needs changes and is ready for use once they are made. Additional approval is not required. 
+       * **Needs work**: The document needs changes and is not ready for use. Once the specified changes are made, the document must be uploaded as a new version and go through another round of approvals. For more information on uploading a new version, see [ Create a new version as needed](#create-a-new-version-as-needed) in this article.
+   
+   Once you make a decision, the document owner is notified via email.
+   
+   </span>
