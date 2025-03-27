@@ -26,6 +26,16 @@ A small functionality change has been applied to the Access Levels list. To copy
 
 -->
 
+## Look-and-feel updates to the Expense Types dialogs
+
+>[!NOTE]
+>
+>Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+
+We have updated the look and feel of the dialogs for adding and editing Expense Types in the Setup area, to match the design of other areas of Workfront.
+
+For information, see [Create custom expense types](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
+
 ## Look-and-feel updates for the Edit Risk Type box  
 
 >[!NOTE]
