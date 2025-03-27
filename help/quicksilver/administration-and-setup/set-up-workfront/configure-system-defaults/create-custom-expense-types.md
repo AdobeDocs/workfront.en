@@ -11,6 +11,8 @@ exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
 ---
 # Create custom expense types
 
+{{highlighted-preview}}
+
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
 As an [!DNL Adobe Workfront] administrator, you can create custom expense types to define and track the expenses associated with your tasks and projects. Expenses are non-labor costs that can be associated with tasks or projects.
@@ -49,9 +51,9 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Default Expense Types
+## Default expense types
 
-The Expense Types that are in [!DNL Workfront] by default cannot be deleted or edited include the following:
+The default expense types in [!DNL Workfront] that cannot be deleted or edited include the following:
 
 * [!UICONTROL Advertising]
 * [!UICONTROL Consulting]
@@ -100,19 +102,21 @@ The Expense Types that are in [!DNL Workfront] by default cannot be deleted or e
     </tbody> 
    </table>
 
-1. Click **[!UICONTROL Save]**.
+1. Click **Create Expense Type** <span class="preview">or **[!UICONTROL Save]**.</span>
+   
    The expense type is now available for users to associate it with their expenses on projects and tasks.
 
-## Modify custom Expense Types
+## Modify custom expense types
 
 {{step-1-to-setup}}
 
 1. Click **[!UICONTROL Expense Types]**.
 1. Select the expense type that you want to modify, then click **[!UICONTROL Edit]**.
 
-   The **[!UICONTROL Edit Expense Type]** dialog box is displayed.
+   The **[!UICONTROL Edit Expense Type]** dialog box appears.
 
-1. Make your desired changes, then click **[!UICONTROL Save]**.
+1. Make your desired changes, then click **Save Changes** <span class="preview">or **[!UICONTROL Save]**.</span>
+   
    The expense type is now available for users to associate it with their expenses on projects and tasks.
 
 For more information about how to use expenses and how they can affect the cost of a project, see the article [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md).
