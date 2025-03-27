@@ -58,7 +58,7 @@ You can filter tasks and issues assigned to you.
 {{step1-to-priorities}}
 
 1. Click **Filters** in the top left of the worklist.
-1. click **Standard filters**. 
+1. Click **Standard filters**. 
 1. Select one or many filters to narrow down your work items.
   ![Filter](assets/filter-new.png)
 
@@ -87,8 +87,9 @@ You can filter tasks and issues assigned to you.
       <td>Not ready</td>
       <td>Displays items that have
        <ul>
-      <li>Incomplete predecessors or task constraints that prevent the item from being worked on</li>
+      <li>Incomplete predecessors or task constraints that prevent the item from being worked on</li></ul>
       <p>or</p>
+      <ul>
       <li>The Planned Start Date more than two weeks in the future</li>
       </ul>
        </td>
@@ -125,7 +126,7 @@ You can filter tasks and issues assigned to you.
 
 ## Filter your work with Smart filters
 
-Use natural language to filter quickly filter work.
+Use natural language to quickly filter work.
 
 >[!NOTE]
 >
@@ -137,7 +138,7 @@ Use natural language to filter quickly filter work.
 1. Click **Smart filters**. 
 1. Type how you want to filter your work. 
 
-    You can type things like
+    You can type things like:
 
     * Show me late tasks
     * Show my top priorities
