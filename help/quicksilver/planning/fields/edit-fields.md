@@ -10,9 +10,9 @@ exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
 
 # Edit field settings
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -115,11 +115,10 @@ You must consider the following before making changes to a field's configuration
     >
     >There is no notification to other users that the field configuration has changed.
     
-* You cannot edit existing lookup fields from connected records. 
+* In the Production environment, you cannot edit existing lookup fields. 
+  <span class="preview">In the Preview environment, you can edit existing lookup fields from connected records.</span> 
 
-<!--replace the last bullet with this, and at production remove this bullet point: 
-
-* <span class="preview">You can edit existing lookup fields from connected records.</span>--> 
+<!--at production - April 10, 2025 - remove the last bullet altogether-->
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 

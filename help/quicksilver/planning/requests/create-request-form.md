@@ -172,9 +172,11 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    * **Default section**: This is the default section break that Workfront applies to the request form. All record fields display in the **Default section** area. 
    * **Subject** field: The field which will identify the request in Workfront. The configuration and the value of the Subject field are not editable.
 
-      >[!TIP]
+      >[!NOTE]
       >
-      >The **Subject** field requires a value when it is visible on the request form. However, you can remove the **Subject** field, if needed, and requestors will not see it on the form when they submit the request.   
+      >* The **Subject** field requires a value when it is visible on the request form. However, you can remove the **Subject** field, if needed, and requestors will not see it on the form when they submit the request.   
+      >* When the Subject field is missing on a request form, but there is a Name field for the future record's name, the name of the request is automatically assigned the same name as the created record. 
+      >* When both the Subject and the Name fields are missing on the request form, the request is named using the following pattern: `< Record name > request form < Entry date of the request >`; the record is named **Untitled**. 
 
    * All the fields associated with the record type. 
 
