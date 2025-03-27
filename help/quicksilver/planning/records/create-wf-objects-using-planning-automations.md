@@ -238,17 +238,11 @@ You must configure an automation for a record type in Workfront Planning before 
    * A new connection field named **Connected record** is created for the record type you indicated in the **Record type** field.
    * A new connection field with the same name as the one indicated in the **Record type** field is created for the record type you are configuring the automation for. 
 
-   >[!BEGINSHADEBOX]
-
-   >For example, if you are configuring an automation for Campaigns to automatically create another record type called Brands and you click **Add connected field**, the following fields are created: 
-   >
-   >
-   >* The **Connected record** connection field is created for the **Brands** record type.
-   >* The **Brands** connection field is created for the **Campaigns** record type. 
-   >
-
-   >[!ENDSHADEBOX]
-
+      For example, if you are configuring an automation for Campaigns to automatically create another record type called Brands and you click **Add connected field**, the following fields are created: 
+      
+      * The **Connected record** connection field is created for the **Brands** record type.
+      * The **Brands** connection field is created for the **Campaigns** record type. 
+   
 1. (Optional) If there are no connection fields between the original record type and the Workfront object selected in the Actions area, click **Add connected field**. 
 
    ![Automation setup to create multiple projects](assets/automation-setup-create-multiple-projects.png)
