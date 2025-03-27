@@ -718,7 +718,7 @@ The following table correlates object names in Workfront (as well as their names
         <td>TEMPLATETASKS_CURRENT |TEMPLATETASKID<br>TEMPLATETASKS_CURRENT |TEMPLATETASKID  <br>Self<br>Not a relationship; used for internal application purposes</td>
     </tr>
        <tr>
-        <td>Time-phased KPI Currency</td>
+        <td>Time-phased KPI Currency (limited customer availability)</td>
         <td>Time-phased KPI</td>
         <td>TMPH | TimePhasedKPI</td>
         <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
@@ -726,7 +726,7 @@ The following table correlates object names in Workfront (as well as their names
         <td>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>Self<br>TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID<br>USER_CURRENT | USERID</td>
     </tr>
         <tr>
-        <td>Time-phased KPI Duration</td>
+        <td>Time-phased KPI Duration (limited customer availability)</td>
         <td>Time-phased KPI</td>
         <td>TMPH | TimePhasedKPI</td>
         <td>TIMEPHASED_DURATION_CURRENT<br>TIMEPHASED_DURATION_DAILY_HISTORY<br>TIMEPHASED_DURATION_EVENT</td>
