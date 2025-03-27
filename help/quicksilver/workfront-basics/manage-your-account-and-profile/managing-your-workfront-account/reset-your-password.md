@@ -71,11 +71,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Type your old password, then type the new password you want twice.
 
-   Your password must be at least 8 characters and contain two of each of the following types of characters:
+   Your password must be at least 8 characters and contain two of the following types of characters:
 
    * Uppercase letters
    * Lowercase letters
-   * Letters
    * Numbers
    * Special characters (such as ! @ # $ %)
 
