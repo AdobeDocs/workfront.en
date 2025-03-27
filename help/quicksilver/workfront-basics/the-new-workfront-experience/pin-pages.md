@@ -12,7 +12,7 @@ You can pin your most important work in [!DNL Adobe Workfront] for increased vis
 
 You might be assigned to a layout template that has pages already pinned (as described in [Customize pinned pages using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)). These predefined pins cannot be renamed or removed. Any pages you pin display to the right of the predefined pins.
 
-## Access requirements
+## Access requirements 
 
 You must have the following access to perform the steps in this article:
 
