@@ -103,7 +103,7 @@ When you add a user as the Project Owner of a project, Workfront automatically g
 
    The Project Owner updates in the project header and in the Project  Details area.
 
-   ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![Project stakeholders owner highlighted](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## Update the Project Sponsor of a project
 
@@ -125,4 +125,4 @@ When you add a user as the Project Sponsor of a project, Workfront automatically
 
    The Project  Sponsor updates in the Project  Details area.
 
-   ![](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)
+   ![Project stakeholders sponsor highlighted](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)

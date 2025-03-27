@@ -121,7 +121,7 @@ You must have the following access to perform the steps in this article:
 
     The **Configuration** area displays.
 
-    ![](assets/configuration-tab.png)
+    ![Configuration tab](assets/configuration-tab.png)
 1. In the **Approvers** field, click the drop-down icon and select one or several names in the list
 
     Or
