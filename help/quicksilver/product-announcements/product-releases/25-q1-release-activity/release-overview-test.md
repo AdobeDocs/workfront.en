@@ -34,7 +34,6 @@ This page provides information about functionality that is included in the First
 
 ### Administrator enhancements
 
-Monthly releases: November 14, December 12. January 15 | Quarterly release: January 
 <table style="table-layout:auto">
   <tbody>
     <tr>
@@ -54,7 +53,7 @@ Monthly releases: November 14, December 12. January 15 | Quarterly release: Janu
         </td>
         <td>November, 21, 2024</td>
         <td>December 2024</td>
-        <td>Januar 2024 (25.1)</td>
+        <td>Januar 2024</td>
     </tr>     
     <tr>
         <td>
@@ -82,11 +81,13 @@ Monthly releases: November 14, December 12. January 15 | Quarterly release: Janu
 
 
 
-<!--
+
 ### Functionality soon to be removed from Workfront
 
 The following functionality is soon to be removed from Workfront:
--->
+
+* Enhanced Analytics
+
 
 ## Release notes for other areas
 
