@@ -202,7 +202,7 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
     The records associated with the selected record type display in the table view. 
 1. Click inside the row of a record to start editing information about the record inline.
 
-    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+    ![Edit record paragraph field with formatting table view](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
     >[!TIP]
     >
@@ -220,7 +220,7 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
     * Add a bulleted list
     * Add a numbered list
 
-    ![](assets/rich-text-toolbar-on-paragraph-field.png)
+    ![Rich text toolbar on paragraph field](assets/rich-text-toolbar-on-paragraph-field.png)
 
 1. (Optional) Double-click a connected record field to add connected records or objects to another record. For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
 1. Press **Enter** on your keyboard or click outside of a row to save your changes. The changes are saved automatically. A **Saved** indicator displays briefly in the upper-right corner of the table view to show that the changes were saved. 
@@ -234,7 +234,7 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
     * Copy the information from one cell, then select multiple cells and paste the same information in multiple cells. You can select multiple cells and paste the same information in multiple cells from adjacent rows and columns. 
     * Select the lower-right corner of an existing cell that contains the information you want to copy, then drag and drop it across the adjacent cells where you want to paste the same information. All cells must contain the same type of information. 
 
-        ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
+        ![Dragable lower-right corner for copy paste in table view](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
     
     <div class="preview">
     
@@ -287,11 +287,11 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
 
     Or 
     
-    From the table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) in the first column. The record's preview opens in the view.
+    From the table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. The record's preview opens in the view.
 
     <div class="preview">
 
-    ![](assets/details-box.png) 
+    ![Details box](assets/details-box.png) 
 
     </div>
 
@@ -310,11 +310,11 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
 
 1. (Optional) Click **Add cover** to add a cover image to the record. For more information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md). 
 
-1. (Optional) Hover over the thumbnail icon, then click **More** ![](assets/more-menu.png) > **Edit thumbnail** to add a thumbnail image. For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md). 
+1. (Optional) Hover over the thumbnail icon, then click **More** ![More menu](assets/more-menu.png) > **Edit thumbnail** to add a thumbnail image. For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md). 
 
     Workfront automatically saves your changes.
 
-1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's preview box, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. <span class="preview"> (Optional) Click the **real-time indicator** ![Real-time indicator icon](assets/real-time-indicator-icon.png) in the upper-right corner of the record's preview box, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
 
     The names and avatars of all users accessing the record at the same time display in this area.  
 
@@ -322,13 +322,13 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
     
     <div class="preview">
 
-    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+    ![REal-time indicator expanded record preview box](assets/real-time-indicator-expanded-record-preview-box.png)
 
     </div>
 
-1. (Optional) Click the **Export** menu ![](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Click the **Export** menu ![Export icon in record details page](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).
 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record's preview to open the record's page in a new tab. Continue editing the record as described in [Edit a record from the record's page](#edit-a-record-from-the-records-page) section in this article. 
+1. (Optional) Click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record's preview to open the record's page in a new tab. Continue editing the record as described in [Edit a record from the record's page](#edit-a-record-from-the-records-page) section in this article. 
 
 ### Edit a record from the record's page
 
@@ -344,15 +344,15 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
 
 1. Do one of the following:
 
-    * From any view, access the record's preview, as described in the [Edit a record from the record's preview in a view](#edit-a-record-from-the-records-preview-in-a-view) section in this article, then click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
+    * From any view, access the record's preview, as described in the [Edit a record from the record's preview in a view](#edit-a-record-from-the-records-preview-in-a-view) section in this article, then click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 
-    * From the **Table** view, hover over the name of a record, then click the **More** menu ![](assets/more-menu.png), then click **View**
+    * From the **Table** view, hover over the name of a record, then click the **More** menu ![More menu](assets/more-menu.png), then click **View**
 
-        ![](assets/contextual-menu-for-record-row.png)
+        ![Contextual menu for record row](assets/contextual-menu-for-record-row.png)
     
         The record page opens.
 
-        ![](assets/details-page.png)
+        ![Details page](assets/details-page.png)
 
 1. (Optional) Click the **More** menu to the right of the record's title, then click **Rename**. This updates the field that displays as the record's title.
 
@@ -372,17 +372,17 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
     
     Or
     
-    Hover over the existing cover image, then click the **More** menu ![](assets/more-menu.png) > **Upload** to add a new cover image for the record. 
+    Hover over the existing cover image, then click the **More** menu ![More menu](assets/more-menu.png) > **Upload** to add a new cover image for the record. 
     
     For more information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md). 
 
-1. (Optional) Hover over an existing thumbnail, or the **thumbnail icon** ![](assets/record-thumbnail-icon-on-details-page.png), then click the **More** menu ![](assets/more-menu.png) > **Edit thumbnail** to add a thumbnail for the record. 
+1. (Optional) Hover over an existing thumbnail, or the **thumbnail icon** ![Record thumbnail icon on details page](assets/record-thumbnail-icon-on-details-page.png), then click the **More** menu ![More menu](assets/more-menu.png) > **Edit thumbnail** to add a thumbnail for the record. 
 
     For more information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
     Workfront automatically saves your changes.
 
-1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's page, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. <span class="preview"> (Optional) Click the **real-time indicator** ![Real-time indicator icon](assets/real-time-indicator-icon.png) in the upper-right corner of the record's page, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
 
     The names and avatars of all users accessing the record at the same time display in this area.  
 
@@ -390,11 +390,11 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
     
     <div class="preview">
 
-    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+    ![Real-time indicator expanded record preview box](assets/real-time-indicator-expanded-record-preview-box.png)
 
     </div>
 
-1. (Optional) Click the **Export** menu ![](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Click the **Export** menu ![Export icon in record details page](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).
     
 
 ## Edit a record from a Workfront object in the Planning section

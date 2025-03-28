@@ -166,12 +166,12 @@ OLD:
 1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
 1. To delete a workspace, do one of the following:
 
-   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
+   * Hover over the workspace card, then click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the card
       Or
-   * Click a workspace card to open the workspace, then click the **More** menu ![](assets/more-menu.png) to the right of the workspace name. 
+   * Click a workspace card to open the workspace, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the workspace name. 
 1. Click **Delete**.
 
-   ![](assets/permanently-delete-workspace-confirmation.png)
+   ![Permanently delete workspace confirmation](assets/permanently-delete-workspace-confirmation.png)
 
 1. Type "**delete**" in the space provided, then click **Permanently delete**. This is not case sensitive. 
 
