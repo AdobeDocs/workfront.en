@@ -12,8 +12,6 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the Second Quarter 2025 release, see [Second Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
-<!--
-
 ## Updated experience in the Access Levels area in Setup
 
 >[!NOTE]
@@ -24,7 +22,6 @@ To enhance performance, we've made some visual updates to the Access Levels area
 
 A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
 
--->
 
 ## Look-and-feel updates to the Expense Types dialogs
 
