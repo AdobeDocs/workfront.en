@@ -4,6 +4,7 @@ description: Second Quarter 2025 Project enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 35e5309a-ad8d-44f0-af84-6070c20d06e1
 ---
 # Second Quarter 2025 Mobile enhancements
 
