@@ -16,6 +16,45 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Link to view new request after submitting it
+
+>[!NOTE]
+>
+>Preview: March 27, 2025; Production for all customers: April 10, 2025 
+
+Now, you can open a new request immediately after submitting it from the following areas:
+
+* the request form after accessing it from a shared link
+* the record type page from the New record or Request record buttons
+* the Requests area in the Main menu
+
+For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+
+## Create multiple objects from one record using automations 
+
+>[!NOTE]
+>
+>Preview: March 27, 2025; Production for all customers: April 10, 2025 
+
+You can now create multiple projects from the same Workfront Planning record when you use automations in Workfront Planning. You can create multiple projects and base the creation of each project on the values of a single- or multi-select field when you trigger one automation. You can use this capability only to create projects.  You cannot trigger any other changes or create any other types of objects using automations in Planning.  
+
+  
+Prior to this enhancement, you could create only one project every time you would trigger an automation configured for projects. 
+
+For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+## Rename lookup fields  
+
+>[!NOTE]
+>
+>Preview: March 27, 2025; Production for all customers: April 10, 2025 
+
+You can now update information on lookup fields, after they have been added to a connected record's table. 
+
+Prior to this enhancement, you could not edit existing lookup fields. 
+
+For information, see [Edit fields](/help/quicksilver/planning/fields/edit-fields.md). 
+
 ## Setup and manage multiple request forms from a record type 
 
 >[!NOTE]
