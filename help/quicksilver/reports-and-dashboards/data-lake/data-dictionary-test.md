@@ -27,7 +27,7 @@ hidefromtoc: yes
         <td>Access Level</td>
          <td>Access Level</td>
         <td>ACSLVL | Access Level</td>
-        <<td>ACCESSLEVELS_CURRENT<br>ACCESSLEVELS_DAILY_HISTORY<br>ACCESSLEVELS_EVENT</td>
+        <td>ACCESSLEVELS_CURRENT<br>ACCESSLEVELS_DAILY_HISTORY<br>ACCESSLEVELS_EVENT</td>
     </tr>
      <tr>
      <tr>
