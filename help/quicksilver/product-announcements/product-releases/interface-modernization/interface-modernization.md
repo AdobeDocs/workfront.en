@@ -210,7 +210,7 @@ To view this change, go to Teams > choose a team > Backlog, then click **New sto
 
 **Preview release: February 13, 2025; Production release: Starting the week of February 27, 2025**
 
-We have udpated the Approvals area on a document with a more modern design that is consistent with other areas of Workfront. 
+We have updated the Approvals area on a document with a more modern design that is consistent with other areas of Workfront. 
 
 To view this change, go to a document > Click Document Details > Approvals.
 
