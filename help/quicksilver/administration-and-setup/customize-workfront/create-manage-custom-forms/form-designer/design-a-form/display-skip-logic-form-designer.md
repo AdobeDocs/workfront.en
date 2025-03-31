@@ -244,7 +244,7 @@ Validation logic is built using formulas, and you can make the logic as simple o
 
 If the field with the logic applied meets the defined validation conditions when a user fills out the custom form, the field is highlighted and the error message is displayed.
 
-You can apply validation logic to the following field types: drop-down, radio button, checkbox, typeahead, single line text, paragraph text, date field, text with formatting, and calculated fields.
+You can apply validation logic to the following field types: single line text, paragraph, single select dropdown, multi-select dropdown, external lookup, radio buttons, checkbox group, and typeahead.
 
 ### Examples
 
