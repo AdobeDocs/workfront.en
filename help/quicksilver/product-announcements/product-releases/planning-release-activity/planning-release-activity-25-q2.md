@@ -22,11 +22,14 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 >
 >Preview: March 27, 2025; Production for all customers: April 10, 2025 
 
-Now, you can open a new request immediately after submitting it from the following areas:
+We have made an improvement in the way you access a request that you submit in Workfront Planning. 
+We have added the "View your request" link which you can use to navigate to the details page of the request you just submitted. 
+ 
+ The new link is available after you submit a request from the following areas: 
 
-* the request form after accessing it from a shared link
-* the record type page from the New record or Request record buttons
-* the Requests area in the Main menu
+* From a shared link
+* From the New record or Request record button on the record type page
+* From the Requests area, after you enabled the new experience for submitting requests. 
 
 For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
 
