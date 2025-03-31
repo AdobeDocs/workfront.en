@@ -1,8 +1,6 @@
 ---
 title: Create Workfront Objects Using Adobe Workfront Planning Record Automations
 description: You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning. The created objects and records are automatically connected to existing Planning records. This article describes how you can manage automations, including how to edit, disable, delete, and trigger them to create objects and records. 
-hide: yes 
-hidefromtoc: yes 
 feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
