@@ -2,13 +2,15 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront Goals overview
+title: Adobe Workfront Goals Overview
 description: Workfront Goals helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery.
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
 ---
 # Adobe Workfront Goals overview
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >
