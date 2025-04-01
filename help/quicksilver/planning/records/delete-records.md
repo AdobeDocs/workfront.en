@@ -118,18 +118,18 @@ You can delete a record from the following areas:
 1. Do one of the following:
 
     * From a Table view, click the name of a record. 
-    * From the Table view, hover over the name of a record, then click the **More** menu ![](assets/more-menu.png), then click **View**
+    * From the Table view, hover over the name of a record, then click the **More** menu ![More menu](assets/more-menu.png), then click **View**
 
-        ![](assets/contextual-menu-for-record-row.png)
+        ![Contextual menu for record row](assets/contextual-menu-for-record-row.png)
     * From a Timeline view, click a record bar. 
 
     The record page opens.  
   
-1. Click the **More** menu ![](assets/more-menu.png) to the right of the record name, then click **Delete**, then **Delete** again to confirm. 
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record name, then click **Delete**, then **Delete** again to confirm. 
 
-    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+    ![More menu options from record details page](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
     The record is deleted.   
-1. (Optional and conditional) If you delete the record in the Preview environment, go to the table view of the record page, and click the **Undo** icon ![](assets/undo-icon.png) in the upper-right corner of the view, then click **Recently deleted** to recover the deleted records. 
+1. (Optional and conditional) If you delete the record in the Preview environment, go to the table view of the record page, and click the **Undo** icon ![Undo icon](assets/undo-icon.png) in the upper-right corner of the view, then click **Recently deleted** to recover the deleted records. 
 
   For information about recovering deleted records, see [Recover deleted records](/help/quicksilver/planning/records/restore-deleted-records.md).
 
@@ -150,17 +150,17 @@ You can delete a record from the following areas:
 1. Do one of the following:
 
     * Right-click a record row, then click **Delete**. 
-    * Click the **More** menu ![](assets/more-menu.png) to the right of the record name, then click **Delete**.
+    * Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record name, then click **Delete**.
 
-        ![](assets/contextual-menu-for-record-row.png)
+        ![Contextual menu for record row](assets/contextual-menu-for-record-row.png)
     
-    * Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the box with the record's detailed information, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**.
+    * Click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) to open the box with the record's detailed information, and click **More** ![More menu](assets/more-menu.png) to the right of the record name, then **Delete**.
 
     The record is deleted.
     
 1. (Optional) Do one of the following to undo or redo deleting a record:
 
-    * Click the **Undo** icon ![](assets/undo-icon.png), then **Recently deleted** to recover the deleted records. For information about recovering deleted records, see [Recover deleted records](/help/quicksilver/planning/records/restore-deleted-records.md). 
+    * Click the **Undo** icon ![Undo icon](assets/undo-icon.png), then **Recently deleted** to recover the deleted records. For information about recovering deleted records, see [Recover deleted records](/help/quicksilver/planning/records/restore-deleted-records.md). 
     * Use the following keyboard shortcuts to undo or redo deleting a record:
 
       * CTRL + Z (⌘ + Z for Mac) to undo deleting a record

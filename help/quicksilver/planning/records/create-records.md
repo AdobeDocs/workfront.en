@@ -200,7 +200,7 @@ Users with Contribute and Manage permissions to the workspace <!--<span class="p
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
     All the records of the selected type display in the view. 
 
-1. From any view, click of the following in the upper-right corner of your screen, depending on the workspace <!--<span class="preview">and record type</span>--> permissions:
+1. (Conditional) From any view, click of the following in the upper-right corner of your screen, depending on the workspace <!--<span class="preview">and record type</span>--> permissions:
 
     * Click **New record**, if you have Contribute or higher permissions on the workspace <!--<span class="preview">and record type</span>--> 
 
@@ -227,7 +227,7 @@ Users with Contribute and Manage permissions to the workspace <!--<span class="p
 
             Add the record, as described in the article [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md), starting with step 6. <!--ensure this stays accurate-->
  
-        ![](assets/three-ways-to-create-records-choice-modal.png)
+        ![Three ways to create records choice modal](assets/three-ways-to-create-records-choice-modal.png)
 
 1. (Conditional) If you clicked **Request record**, do the following:
 

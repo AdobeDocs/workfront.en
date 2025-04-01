@@ -18,7 +18,7 @@ If you are an administrator on your AD server, you can install and configure AD 
 
 ## Installing and Configuring AD FS
 
-1. Download [AD FS 2.0](http://www.microsoft.com/en-us/download/details.aspx?id=10909) to your computer.
+1. Download Microsoft AD FS 2.0 to your computer.
 1. Open the downloaded AdfsSetup.exe file to start the ADFS (Active Directory Federation Services) Installation Wizard.
 1. On the Server Role screen, select one of the options (you need at a minimum a Federation Server).
 1. If you do not want to expose IIS on your AD server to the internet (ports 80 and 443 for HTTP and HTTPS), you can first set up a Federation Server behind the firewall, then build a second Federation Server Proxy that passes requests through the firewall to the Federation Server.

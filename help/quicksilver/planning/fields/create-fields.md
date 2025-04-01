@@ -226,6 +226,7 @@ OLD:
     * [Created date](#created-date)
     * [Last modified by](#last-modified-by)
     * [Last modified date](#last-modified-date)
+    <!--* [Object](#object-field-type)-->
     
     >[!IMPORTANT]
     >
@@ -242,7 +243,7 @@ Single-line text fields capture limited alphanumeric information. For example,  
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Single-line text** field type.
 
-    ![](assets/single-line-text-field-type.png) 
+    ![Single line text field type](assets/single-line-text-field-type.png) 
 
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -267,7 +268,7 @@ Paragraph fields capture additional alphanumeric information about a record, sim
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Paragraph** field type.
 
-    ![](assets/paragraph-field-type.png)
+    ![Paragraph field type](assets/paragraph-field-type.png)
  
 
 1. Add the following information in the **New field** tab:
@@ -284,7 +285,7 @@ You can use a multi-select field to capture additional information in any format
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Multi-select** field type.
 
-    ![](assets/multi-select-field-type.png)
+    ![Multi-select field type](assets/multi-select-field-type.png)
  
 
 1. Add the following information in the **New field** tab:
@@ -313,7 +314,7 @@ Single-select fields capture additional information in any format by selecting o
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Single-select** field type.
 
-    ![](assets/single-select-field-type.png)
+    ![Single-select field type](assets/single-select-field-type.png)
  
 
 1. Add the following information in the **New field** tab:
@@ -342,7 +343,7 @@ You can use a date field to capture additional information in date and time form
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Date** field type.
 
-    ![](assets/date-field-type.png)
+    ![Date field type](assets/date-field-type.png)
  
 
 1. Add the following information in the **New field** tab:
@@ -369,11 +370,19 @@ You can use a date field to capture additional information in date and time form
 
 ### Number {#number}
 
-Number field types capture information in a number format. 
+Number field types capture information in a number format.
+
+>[!TIP]
+>
+>Number fields display as a Single-line text field type in a request form builder. 
+>
+>However, the field format is preserved and the values of these fields will display as numbers after the request is submitted, on the record type and in the request details page. 
+>For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). 
+
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Number** field type.
 
-    ![](assets/number-field-type.png)
+    ![Number field type](assets/number-field-type.png)
 1. Add the following information in the **New field** tab:
 
     * **Name**: The name of the field type, as it will appear in a table or the record page. 
@@ -393,9 +402,17 @@ Number field types capture information in a number format.
 
 Percentage field types capture information in a number format followed by a percentage sign. 
 
+>[!TIP]
+>
+>Percentage fields display as a Single-line text field type in a request form builder. 
+>
+>However, the field format is preserved and the values of these fields will display as percentages after the request is submitted, on the record type and in the request details page. 
+>For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Percentage** field type. 
 
-    ![](assets/percentage-field-type.png)
+    ![Percentage field type](assets/percentage-field-type.png)
 
 1. Add the following information in the **New field** tab:
     * **Name**: The name of the field type, as it will appear in a table or the record page. 
@@ -425,9 +442,16 @@ Percentage field types capture information in a number format followed by a perc
 
 Currency field types capture information in a number format preceded by a currency symbol. 
 
+>[!TIP]
+>
+>Currency fields display as a Single-line text field type in a request form builder. 
+>
+>However, the field format is preserved and the values of these fields will display as currency after the request is submitted, on the record type and in the request details page. 
+>For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). 
+
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Currency** field type.
 
-    ![](assets/currency-field-type.png)
+    ![Currency field type](assets/currency-field-type.png)
 
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the record page. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -450,7 +474,7 @@ You can use the Checkbox field type to add a single checkbox option to a record.
  
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Checkbox** field type.
  
-    ![](assets/checkbox-field-type.png)
+    ![Checkbox field type](assets/checkbox-field-type.png)
 
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the record page. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -467,7 +491,7 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
  
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Formula** field type.
  
-    ![](assets/new-formula-field-with-list-of-expressions.png)
+    ![New formula field with list of expressions](assets/new-formula-field-with-list-of-expressions.png)
 
 1. Add the following information in the **New field** tab:
 
@@ -477,7 +501,7 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
   
 1. Click the selected expression to reveal the definition and view its formatting. 
 
-   ![](assets/description-of-formula-expression.png)
+   ![Description of formula expression](assets/description-of-formula-expression.png)
 
    For more information about what expressions are supported, see [Formula fields overview](/help/quicksilver/planning/fields/formula-fields.md).
 
@@ -495,7 +519,7 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
     >
     >* You can reference a field that is up to 4 fields (and objects) away from the current record type. For example, if you are creating a formula field for an Activity record type (1), and the Activity is connected to the Campaign record type (2) which is connected to a Workfront Project (3), you can reference the project's Budget field (4) in the formula you are creating for the Activity record type. 
     >
-    >![](assets/formula-example-project-budget-four-fields-removed.png)
+    >![Formula example project budget four fields removed ](assets/formula-example-project-budget-four-fields-removed.png)
     >
 
 1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
@@ -510,7 +534,7 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
         >
         >We recommend tags for fields that show arrays. In this case, each array member displays as a separate tag.
         
-        ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+        ![formula field formats list with tag selected highlighted](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
     * **Date**: The result of the formula field displays as a date. 
 
@@ -530,11 +554,15 @@ You can use the People field type to add a user <!--, job role, or team--> to a 
 
 >[!TIP]
 >
->When you add the name of a user in a People field, the name of the user and their primary job role display in the field.  
+>* When you add the name of a user in a People field, the name of the user and their primary job role display in the field.  
+>
+>* People fields display as a reference (or connection) field type in a request form builder. 
+>
+>For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). 
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
  
-   ![](assets/people-field-type.png)
+   ![People field type](assets/people-field-type.png)
 
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the record page. 
@@ -555,7 +583,7 @@ You can use the Created by field type to add the user who created the record to 
  
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created by** field type.
  
-   ![](assets/created-by-field-type.png)
+   ![Created by field type](assets/created-by-field-type.png)
 
 1. Add the following information in the **New field** tab:
 
@@ -573,7 +601,7 @@ You can use the Created date field type to add the date when the record was crea
  
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
  
-   ![](assets/created-date-field-type.png)
+   ![Created date field type](assets/created-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -606,7 +634,7 @@ You can use the Last modified by field type to add the user who last modified th
  
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Last modified by** field type.
  
-   ![](assets/last-modified-by-field-type.png)
+   ![Last modified by field type](assets/last-modified-by-field-type.png)
 
 1. Add the following information in the **New field** tab:
 
@@ -624,7 +652,7 @@ You can use the Last modified date field type to add the date when a record was 
  
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
  
-   ![](assets/last-modified-date-field-type.png)
+   ![Last modified date field type](assets/last-modified-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -650,6 +678,52 @@ You can use the Last modified date field type to add the date when a record was 
 1. Click **Create**.
 
     The new Last modified date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record was last modified.   
+
+<!--
+
+## Object field type
+
+You can use the Object field type when you need to store several fields that might include several pieces of information. For example, you can store the source, code, error message, or details of an object in one field. In this case, instead of having several separate single-line text fields for that, you can use an Object field to store all information in one place. 
+
+For example, when using an Object-type field, you can store the following type of information: 
+
+```
+"{
+""source"": ""string"",
+""code"": ""string"",
+""subCode"": ""string"",
+""message"": ""string"",
+""details"": ""string""
+}"
+
+```
+
+You can also store an array of values in one field and you would rather rely on user input for each element of the array, instead of using a multi-select field type for the same purpose. For example, you can store information in the following format: 
+
+`["EMEA", "APAC"] `
+
+Consider the following when using Object-type fields:
+
+* In addition to strings and arrays, you can store other value formats like HTML.
+* There is no format validation for this field. 
+* Object-type fields have a limit of 10,000 characters.
+
+Create an Object field: 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+
+    ![Object field type](assets/object-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field type, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+
+1. Click **Create**.
+
+    The new Object-type field is added as a column to the record type.
+
+-->
 
 ## Create fields by connecting record types 
 

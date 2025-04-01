@@ -135,20 +135,20 @@ To approve a request:
 
 1. Do one of the following: 
 
-    * If you have access to Workfront Planning and can view at least one workspace, click **Main Menu** ![](assets/dots-menu.png) in the upper-right corner of the screen, or the **Main Menu** ![](assets/lines-menu.png) in the upper-left corner, if available, then click **Requests** > **Submitted** > **Planning**, and click the request with the status of **Pending review** or **In review**.
+    * If you have access to Workfront Planning and can view at least one workspace, click **Main Menu** ![Dots main menu](assets/dots-menu.png) in the upper-right corner of the screen, or the **Main Menu** ![Lines main menu](assets/lines-menu.png) in the upper-left corner, if available, then click **Requests** > **Submitted** > **Planning**, and click the request with the status of **Pending review** or **In review**.
 
       >[!TIP]
       >
       >If you don't have access to Workfront Planning, or if you don't have access to view any workspaces, you can only access a request to approve it using your email or in-app notifications. 
    
-    * Click the **Notifications** area icon ![](assets/notifications-area-icon-unified-shell.png) in the upper-right corner of the screen and click the notification about a request pending your approval to open the request.
+    * Click the **Notifications** area icon ![Notifications area icon in Unified Shell](assets/notifications-area-icon-unified-shell.png) in the upper-right corner of the screen and click the notification about a request pending your approval to open the request.
     * Go to the email notification in your email that notifies you about a request pending your approval, then click **Open request** to open the request. <!--add the name of the button here, from the email-->
 
     The request page opens in read-only mode.
 
-    ![](assets/read-only-reqeust-page-in-review-status.png) 
+    ![Read-only request page in review status](assets/read-only-reqeust-page-in-review-status.png) 
 
-1. (Optional) Click the **Approvals** icon ![](assets/approvals-icon.png) in the upper-right corner of the request to view the approvers.
+1. (Optional) Click the **Approvals** icon ![Approvals icon](assets/approvals-icon.png) in the upper-right corner of the request to view the approvers.
 1. Click **Review and approve**, then choose one of the following: <!--did they fix the button and removed the &??-->
 
     * **Approve**: This approves the request. A record is immediately created for the record type associated with the request form after all approvers approve the request.

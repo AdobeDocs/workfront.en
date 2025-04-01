@@ -108,14 +108,14 @@ You must have the following access to perform the steps in this article:
 1. From any view, click the name of a record. 
 
     The record's page opens. The Comments area opens by default in the right panel. 
-1. Click the **Show History** icon ![](assets/show-history-icon.png). All changes made to the record's fields display in the right panel, starting with the most recent one. 
-1. (Optional) Click the **Hide History** icon ![](assets/hide-history-icon.png) to close the right panel.
+1. Click the **Show History** icon ![Show history icon](assets/show-history-icon.png). All changes made to the record's fields display in the right panel, starting with the most recent one. 
+1. (Optional) Click the **Hide History** icon ![Hide history icon](assets/hide-history-icon.png) to close the right panel.
 
 ## Considerations about the History section 
 
 You can review the changes made to record fields in the History section of the right panel of a record's page. 
 
-![](assets/history-area-in-comments.png)
+![History area in Comments](assets/history-area-in-comments.png)
 
 * Workfront Planning records the following information in the History section: 
 

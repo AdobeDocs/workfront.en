@@ -1100,9 +1100,16 @@ Adding the following items to a template is identical to adding them to a projec
 
   For more information about adding expenses, see [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
+* Queue Details
+
+   For information about adding Queue Details to a project or a template, see [Create a Request Queue](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
 * Topic Groups and Queue Topics
 
-  For more information about adding Topic Groups and Queue Topics to a project or template, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  For information about adding Topic Groups and Queue Topics to a project or template, see the following articles:
+  
+   * [Create Topic Groups](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+   * [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 You can add the following items to the tasks in the template:
 

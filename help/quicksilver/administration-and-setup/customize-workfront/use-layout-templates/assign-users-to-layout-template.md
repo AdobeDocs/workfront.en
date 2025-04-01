@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: As an Adobe Workfront administrator, you can assign a layout template you have created to any user, job role, team, or group who needs to use it.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
@@ -38,7 +38,7 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td><p>New: Standard</p>
   <p> Current: Plan</p>
    </td> 
@@ -51,7 +51,7 @@ To perform them for a group, you must be a manager of that group.</p> </td>
  </tbody> 
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -104,8 +104,8 @@ However, only one layout template is visible to the user at any given time. The 
 
 ## Large numbers of users assigned to a layout template
 
-If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
-
+<!--If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
+-->
 If you have more than 2000 users to assign to a layout template, we recommend that you do one of the following:
 
 * Organize the users into groups or teams and assign the layout template to those groups or teams. For more information, see [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) and [Create and manage teams](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).

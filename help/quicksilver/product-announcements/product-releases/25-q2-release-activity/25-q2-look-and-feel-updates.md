@@ -12,6 +12,59 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the Second Quarter 2025 release, see [Second Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
+## Updated experience in the Access Levels area in Setup
+
+>[!NOTE]
+>
+>Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+
+To enhance performance, we've made some visual updates to the Access Levels area in Setup.
+
+A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
+
+
+## Look-and-feel updates to the Expense Types dialogs
+
+>[!NOTE]
+>
+>Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+
+We have updated the look and feel of the dialogs for adding and editing Expense Types in the Setup area, to match the design of other areas of Workfront.
+
+For information, see [Create custom expense types](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
+
+## Look-and-feel updates for the Edit Risk Type box  
+
+>[!NOTE]
+>
+>Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+
+We have updated the look and feel of the Edit Risk Type box when you update an existing Risk Type in the Setup area of Workfront. The new design now matches other areas of Workfront.  
+
+For information, see [Edit and create risk types](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+## Look-and-feel updates for the New Risk Type box 
+
+>[!NOTE]
+>
+>Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+
+We have updated the look and feel of the New Risk Type box when you add a new Risk Type in the Setup area of Workfront. The new design now matches other areas of Workfront.
+
+For information, see [Edit and create risk types](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+## Look and feel updates to the Queue Details area of a project
+
+>[!NOTE]
+>
+>Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+
+We have updated the look and feel of the Queue Details area on a project, to match the design of other areas of Workfront.
+
+With this update, the look and feel of the Queue Details area of a template has not changed.
+
+For information, see [Create a Request Queue](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
 ## Avatars no longer display in certain email notifications
 
 >[!NOTE]
@@ -29,27 +82,11 @@ Avatars will no longer display in the following email notifications:
 
 >[!NOTE]
 >
->Preview release: March 6, 2025; Production release for all customers: April 10, 2025
+>Preview release: March 6, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
 
 We have updated the look and feel of the Milestone Path list in the Setup area, to match the design of other areas of Workfront.  
 
 For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
-
-## Look-and-feel updates to the Workfront Calendar
-
->[!NOTE]
->
->Preview release: February 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
-
-We have updated the look and feel of the Workfront Calendar to a modern design that is consistent with other areas of Workfront. There are small functionality differences from the current Workfront Calendar including:
-
-* How you add ad-hoc items to the calendar
-* How you create and rename the calendar
-* The calendar actions have moved to a More menu next to the calendar name
-* A new side panel for viewing calendar information
-* And more
-
-For more information, see the [Calendars](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md) articles.
 
 ## Updated view of a project milestone path in a project view
 

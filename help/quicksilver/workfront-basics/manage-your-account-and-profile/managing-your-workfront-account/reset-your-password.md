@@ -73,9 +73,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    Your password must be at least 8 characters and contain two of the following types of characters:
 
-   * Letters
+   * Uppercase letters
+   * Lowercase letters
    * Numbers
-   * Special characters (i.e. ! @ # $ % etc.)
+   * Special characters (such as ! @ # $ %)
 
    Password rules might be more strict than this, depending on configuration settings set by your [!DNL Workfront] administrator.
 
