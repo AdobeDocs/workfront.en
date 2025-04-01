@@ -31,7 +31,7 @@ You must have the following:
 <tbody>
  <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <<td> 
+   <td> 
    <p>For the new plan and license structure:
   <ul><li>An Ultimate plan </li></ul>
    </p>
