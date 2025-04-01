@@ -1,7 +1,7 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Manage goal comments in Adobe Workfront Goals
+title: Manage Goal Comments in Adobe Workfront Goals
 description: You can add comments to all goals you can view in Adobe Workfront Goals.
 author: Alina
 feature: Workfront Goals
@@ -9,7 +9,7 @@ exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
 ---
 # Manage goal comments in Adobe Workfront Goals
 
-<!--Audited: 01/2024-->
+<!--Audited for P&P only: 04/2025-->
 
 <!--consider retiring this article when goals and all objects are in parity and we remove the legacy commenting from the system. From then on, there is just ONE way to comment and that will be documented in the Update Work article-->
 
@@ -57,9 +57,9 @@ You must have the following access to perform the actions described in this arti
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> New product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license. Workfront Goals are included in the Ultimate Workfront Plan.</p>
+ <p> New product requirement: Workfront</p>
  Or
- <p>Current product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Access level configuration</td>

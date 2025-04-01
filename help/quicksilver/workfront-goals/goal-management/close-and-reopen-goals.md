@@ -1,13 +1,15 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Close and reopen goals in Adobe Workfront Goals
+title: Close and Reopen Goals in Adobe Workfront Goals
 description: You can close a goal when you want to indicate that you have completed it or that you are no longer working on it because it became obsolete. 
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
 ---
 # Close and reopen goals in Adobe Workfront Goals
+
+<!--Audited for P&P only: 4/2025-->
 
 You can close a goal when you want to indicate the following:
 
@@ -17,6 +19,8 @@ You can close a goal when you want to indicate the following:
 You can reopen goals that have been closed when they become relevant again. 
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following:
 
@@ -48,12 +52,9 @@ You must have the following:
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> New product requirement, one of the following: </p>
-<ul>
-<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
-<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
+  <p> New product requirement: Workfront</p>
  <p>Or</p>
- <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+  <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <td role="rowheader">Access level</td>
  <td> <p>Edit access to Goals</p> </td>
@@ -76,6 +77,8 @@ You must have the following:
 </table>
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Considerations when closing or reopening goals
 

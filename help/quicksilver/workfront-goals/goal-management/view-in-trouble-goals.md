@@ -1,13 +1,15 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Review in-trouble goals in Adobe Workfront Goals
+title: Review In-trouble Goals in Adobe Workfront Goals
 description: oals with a Progress of In Trouble are in danger of not being achieved and are represented by a red progress bar in Adobe Workfront Goals. You should review your goals often and understand why the progress is lagging.
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
 ---
 # Review in-trouble goals in&nbsp;Adobe Workfront Goals
+
+<!--Audited: 4/2025-->
 
 <!--
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
@@ -16,6 +18,8 @@ exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
 Goals with a Progress of In Trouble are in danger of not being achieved and are represented by a red progress bar in Adobe Workfront Goals. You should review your goals often and understand why the progress is lagging. For information about goal progress, see [Overview of goal progress and condition in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following: 
 
@@ -27,7 +31,7 @@ You must have the following:
 <tbody>
  <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> 
+   <<td> 
    <p>For the new plan and license structure:
   <ul><li>An Ultimate plan </li></ul>
    </p>
@@ -46,12 +50,9 @@ You must have the following:
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> New product requirement, one of the following: </p>
-<ul>
-<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
-<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
- <p>Or</p>
- <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+  <p> New product requirement: Workfront</p>
+  Or
+  <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Access level</td>
@@ -75,6 +76,8 @@ You must have the following:
 </table>
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Recommendations for preventing goals to reach a progress of In&nbsp;Trouble
 

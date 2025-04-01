@@ -1964,10 +1964,10 @@ feature-set: Workfront
   * [Show role allocation for projects and initiatives in the task list](scenario-planner/show-role-allocation-task-list-nwe.md)
   * [Show role allocation for projects and initiatives in the Workload Balancer](scenario-planner/show-role-allocation-workload-balancer.md)
 * Adobe Workfront Goals {#adobe-workfront-goals}
-  * [Adobe Workfront Goals](workfront-goals/workfront-goals.md)
+  * [Adobe Workfront Goals: article index](workfront-goals/workfront-goals.md)
   * [Adobe Workfront Goals overview](workfront-goals/goal-management/wf-goals-overview.md)
   * Goal management in Adobe Workfront Goals {#goal-management}
-    * [Goal management in Adobe Workfront Goals](workfront-goals/goal-management/goal-management.md)
+    * [Goal management in Adobe Workfront Goals: article index](workfront-goals/goal-management/goal-management.md)
     * [Get started with Adobe Workfront Goals](workfront-goals/goal-management/getting-started-with-wf-goals.md)
     * [Access and open goals in Adobe Workfront Goals](workfront-goals/goal-management/access-goals-in-wf-goals.md)
     * [Requirements to use Workfront Goals](workfront-goals/goal-management/access-needed-for-wf-goals.md)
@@ -1984,7 +1984,7 @@ feature-set: Workfront
     * [Update goals in the Goal details section in Adobe Workfront Goals](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
     * [Review in-trouble goals in Adobe Workfront Goals](workfront-goals/goal-management/view-in-trouble-goals.md)
   * Goal alignment in Adobe Workfront Goals {#goal-alignment}
-    * [Goal alignment in Adobe Workfront Goals](workfront-goals/goal-alignment/goal-alignment.md)
+    * [Goal alignment in Adobe Workfront Goals: article index](workfront-goals/goal-alignment/goal-alignment.md)
     * [Align goals by connecting them in Adobe Workfront Goals](workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
     * [Align goals by converting results and activities to goals](workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
     * [Goal alignment overview in Adobe Workfront Goals](workfront-goals/goal-alignment/goal-alignment-overview.md)

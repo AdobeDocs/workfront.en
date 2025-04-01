@@ -43,7 +43,7 @@ After at least one of these items is added, you may activate the goal. You must 
 >
 > A goal cannot have more than a total of 1000 activities, results, projects, or aligned goals.</span>
 
-This article gives an overview of activities and results. For information about aligning goals, see [Goal alignment in Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment.md). For information about connecting projects to goals, see [Add projects to goals in Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
+This article gives an overview of activities and results. For information about aligning goals, see [Goal alignment in Adobe Workfront Goals: article index](../../workfront-goals/goal-alignment/goal-alignment.md). For information about connecting projects to goals, see [Add projects to goals in Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Results overview
 
