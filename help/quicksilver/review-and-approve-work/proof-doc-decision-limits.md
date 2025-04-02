@@ -9,7 +9,13 @@ exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
 ---
 # Limited document and proof decision for non-paid users overview
 
-Proof and document decisions are limited for all non-paid Workfront licenses on the new plans. For more information, see [New licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md). 
+Proof and document decisions are limited for all non-paid Workfront licenses on the new plans. When you are assigned as an approver for a document or proof, you must make a decision to move the review and approval process forward. 
+
+The following decision options count towards the monthly limit:
+
+* Approve
+* Approve with changes
+* Needs work
 
 Limits reset on a per-user basis each month. The decision limits for each license differ depending on the plan you're on: 
 
@@ -55,6 +61,8 @@ Limits reset on a per-user basis each month. The decision limits for each licens
    </td>
   </tr>
 </table>
+
+For more information, see [New licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md). 
 
 ## External users 
 
