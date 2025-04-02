@@ -21,8 +21,35 @@ The Adobe Workfront review tool is a web-based browser extension that allows you
 We recommend using the Desktop Proofing Viewer if the content you need to review is on a website that
 
 * Requires SSO authentication
-* Rrevents opening their site in iFrames, such as Figma
+* Prevents opening their site in iFrames, such as Figma
 
+
+## Use the extension
+
+### Prerequisites
+
+>[!IMPORTANT]
+>
+>You must remove the Legacy Web Viewer extension to use the Adobe Workfront Review tool.
+
+### Install the extension
+
+This extension is required to review conent in GS and Ex.
+
+You must install the extension to reiew content in GenS and Express.
+
+To review content in GS, Express, or Wou must install the extension if you are using GenStuido or Creative cloud express
+
+Reviewers and approvers must install the Adobe Workfront review tool. in one of the following browsers:
+
+* [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
+
+* [Chrome extension](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml) 
+
+* [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen) 
+
+Once you install the extension, interactive proofs open in the Adobe Workfront review tool automatically.
+ 
 
 
 ## Make the Adobe Workfront review tool the default viewer for URL and ZIP proofs
@@ -53,18 +80,4 @@ To use the web review tool for ZIP proofs only, a Workfront Administrator must a
 >
 >This change applies to all interactive proofs in your Preview and Production environments. We recommend testing the new experience in your Preview environment before enabling it in Production. You can easily switch back to the Desktop Viewer by changing the account setting back to either **Enabled for all interactive proofs**. 
 
-## Install the extension
 
-Reviewers and approvers must install the Adobe Workfront review tool. in one of the following browsers:
-
-* [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
-
-* [Chrome extension](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml) 
-
-* [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen) 
-
-Once you install the extension, interactive proofs open in the Adobe Workfront review tool automatically.
- 
->[!IMPORTANT]
->
->You must remove the Legacy Web Viewer extension to use the Adobe Workfront Review tool.
