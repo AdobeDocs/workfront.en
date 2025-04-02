@@ -76,7 +76,7 @@ Consider the following when editing tasks:
 * Updating tasks triggers notifications for projects that are a Current status. To avoid confusion for users who are assigned to the tasks, limit editing tasks as much as possible when the project is in the Current status. 
 * You cannot edit tasks that are in an Approval Process. You can only log time or update the Status for a task in an approval process.
 
-  ![](assets/edit-task-in-approval-process-nwe-350x148.png)
+  ![Edit task with approval process](assets/edit-task-in-approval-process-nwe-350x148.png)
 
 * You can edit and add documents to tasks on a project that has a status of Complete, Dead, or is Pending Approval only when your Workfront administrator or a group administrator enabled this functionality in the Project Preferences area. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md). 
 
@@ -217,7 +217,10 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
       <td role="rowheader">Status</td> 
       <td> <p>Select the status of the task that indicates what stage of development the task is in.</p> <p><b>TIP</b> 
       
-      You can update the task Status in the task header. </p> </td> 
+      You can update the task Status in the task header. </p> 
+      
+      <p>Your Workfront or group administrator can customize the names of task statuses. For information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md">Create or edit a status</a>. 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Priority</td> 
