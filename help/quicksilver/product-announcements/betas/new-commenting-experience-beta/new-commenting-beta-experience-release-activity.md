@@ -311,19 +311,19 @@ Available for issue commenting Beta experience and for Workfront Goals, by defau
 
 The following maintenance update was released for issue commenting beta and for goals: 
 
-Edit attached images when editing a comment. For information, see the "Maintenance Update on April 27" section in the article <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Updates in April 2023</a>.
+Edit attached images when editing a comment. For information, see the "Maintenance Update on April 27" section in the article <a href="https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a>.
 
 ### April 20, 2023
 
 The following maintenance update was released for issue commenting beta and for goals:
 
-Keep images as a draft when moving away from an update for goals and for issues in the commenting beta experience. For information, see the "Maintenance Update on April 20" section in the article <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Updates in April 2023</a>.
+Keep images as a draft when moving away from an update for goals and for issues in the commenting beta experience. For information, see the "Maintenance Update on April 20" section in the article <a href="https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a>.
 
 ### April 17, 2023 
 
 The following maintenance update was released for issue commenting beta and for goals:
 
-Show new comments outside of the visible screen area in the Updates section of issues (new commenting Beta experience) and Goals. For information, see the "Maintenance Update on April 17" section in the article  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Updates in April 2023</a>.
+Show new comments outside of the visible screen area in the Updates section of issues (new commenting Beta experience) and Goals. For information, see the "Maintenance Update on April 17" section in the article  <a href="https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a>.
 
 
 ### Week of April 6, 2023 

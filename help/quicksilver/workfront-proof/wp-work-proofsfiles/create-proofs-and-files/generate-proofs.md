@@ -220,7 +220,7 @@ To generate a proof for a URL:
 
 ## Generate a proof for interactive content {#generate-a-proof-for-interactive-content}
 
-A Pro Workfront Plan or higher is required to use this feature. For more information about the various plans available, see [Workfront Plans](https://www.workfront.com/plans).
+A Pro Workfront Plan or higher is required to use this feature. For more information about the various plans available, see [Workfront Plans](https://business.adobe.com/products/workfront/pricing.html).
 
 For more information about Interactive content, see [Interactive content proofs overview](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 

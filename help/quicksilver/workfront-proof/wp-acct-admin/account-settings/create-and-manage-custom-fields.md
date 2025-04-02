@@ -14,7 +14,7 @@ exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
 >
 >This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-A Select or Premium [!DNL Workfront] Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans](https://www.workfront.com/plans).
+A Select or Premium [!DNL Workfront] Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans](https://business.adobe.com/products/workfront/pricing.html).
 
 Custom fields allow you to capture additional data when creating a new proof, a new user, or a new guest.
 

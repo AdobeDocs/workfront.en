@@ -508,7 +508,7 @@ A Timesheet object represents a virtual timecard that allows Users to enter actu
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>These actions support the ability to share filters, views, and groupings system-wide.</p><p>For more information, see <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Make filters, views, or groupings available to all users</a>.</p>
+            <p>These actions support the ability to share filters, views, and groupings system-wide.</p><p>For more information, see <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3EMake filters, views, or groupings available to all users</a>.</p>
          </li>
         </ul>
       </td>
@@ -532,7 +532,7 @@ A Timesheet object represents a virtual timecard that allows Users to enter actu
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>These actions support the ability to share filters, views, and groupings system-wide.</p><p>For more information, see <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Make filters, views, or groupings available to all users</a>.</p>
+            <p>These actions support the ability to share filters, views, and groupings system-wide.</p><p>For more information, see <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3EMake filters, views, or groupings available to all users</a>.</p>
          </li>
         </ul>
       </td>
@@ -573,7 +573,7 @@ A Timesheet object represents a virtual timecard that allows Users to enter actu
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>These actions support the ability to share filters, views, and groupings system-wide.</p><p>For more information, see <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Make filters, views, or groupings available to all users</a>.</p>
+            <p>These actions support the ability to share filters, views, and groupings system-wide.</p><p>For more information, see <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3EMake filters, views, or groupings available to all users</a>.</p>
          </li>
         </ul>
       </td>

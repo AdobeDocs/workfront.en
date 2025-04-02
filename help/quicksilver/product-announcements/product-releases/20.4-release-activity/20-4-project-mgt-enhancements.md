@@ -132,5 +132,5 @@ For information about using fields in lists and reports, see [Glossary of Adobe 
 
 When discarding a saved draft, you can now click Cancel on the confirmation message that informs you that your draft will be deleted. This way, you don't lose the draft in case you change your mind about discarding it.
 
-This feature is available only in the new Workfront experience. For information, see [Create and Submit Workfront requests](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FManage_work%2FRequests%2FCreate_Requests%2Fcreate-submit-requests.html).
+This feature is available only in the new Workfront experience. For information, see [Create and Submit Workfront requests](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
