@@ -294,6 +294,16 @@ The following table is a list of commonly used terms in Adobe Workfront:
      --> 
     </ul> </td> 
   </tr> 
+
+  <tr> 
+   <td>[!UICONTROL Breakdown]</td> 
+   <td> <p>In Workfront Planning, you can display connected records in a record's timeline view by using the Breakdown feature. </p>
+   <p>Breaking down records by their connections allows you to view the timelines of other connected records and understand how they might affect the performance and deadlines of your records. </p>
+   <p>Connected records display nested under their respective record. </p>
+   <p>For information, see <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">Manage the timeline view</a>. </p>
+   </td> 
+    </tr> 
+   
   <tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that [!DNL Workfront] has removed. This field cannot be updated. </p>
