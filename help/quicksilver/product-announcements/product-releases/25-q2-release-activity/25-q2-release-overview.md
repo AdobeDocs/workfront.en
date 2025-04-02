@@ -342,7 +342,7 @@ For API version 19, we've modified some resources and endpoints. Some of the cha
 
 For information on what's new and updated, see [What's new in API version 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
-For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+For information on which API versions are currently supported, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront Maintenance Updates
 
