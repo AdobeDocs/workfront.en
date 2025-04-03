@@ -1,7 +1,7 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Manage goals in the Goal List of Adobe Workfront Goals
+title: Manage Goals in the Goal List of Adobe Workfront Goals
 description: After you or other users create goals, you can review their progress and information in the Goal List. For information about creating goals, see Create goals in Adobe Workfront Goals.
 author: Alina
 feature: Workfront Goals
@@ -9,13 +9,17 @@ exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
 ---
 # Manage goals in the Goal List of Adobe Workfront Goals
 
+<!--Audited for P&P only: 4/2025-->
+
 <!-- printing or exporting goals is no longer possible, but see if they add it later-->
 
 After you or other users create goals, you can review their progress and information in the Goal List. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 ## Access requirements
 
-You must have the following access to perform the actions described in this article:
++++ Expand to view access requirements for the functionality in this article. 
+
+You must have the following: 
 
 <table style="table-layout:auto">
 <col>
@@ -32,7 +36,7 @@ You must have the following access to perform the actions described in this arti
 <p>For the current plan and license structure: 
 <ul><li> A Pro or higher </li>
   <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
-   </td> 
+   </td>
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront license*</td>
@@ -44,12 +48,9 @@ You must have the following access to perform the actions described in this arti
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> New product requirement, one of the following: </p>
-<ul>
-<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
-<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
- <p>Or</p>
- <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+    <p> New product requirement: Workfront</p>
+    Or
+    <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Access level</td>
@@ -73,6 +74,8 @@ You must have the following access to perform the actions described in this arti
 </table>
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Manage goals in the Goal List
 
