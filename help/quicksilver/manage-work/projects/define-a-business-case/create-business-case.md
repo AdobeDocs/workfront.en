@@ -12,22 +12,24 @@ You can use the Business Case to request a project and define the purpose, the b
 
 ## Access requirements
 
-You must have the following:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Plan or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Projects, Financial Data, and Resource Management</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -37,7 +39,9 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+ +++
 
 ## Prerequisites
 
@@ -54,43 +58,43 @@ Consider the following when requesting a project through a Business Case:
 
 ## Create a Business Case
 
-1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png), then click&nbsp;**Projects**. 
-1. Click&nbsp;**New Project** and select&nbsp;**Request Project**.  
-   By default, the project is placed in the **Idea** status.
+{{step1-to-projects}}
+
+1. Click&nbsp;**New Project**, then select **Request Project** from the drop-down that appears. The project is created and the **Idea** status is assigned by default.
 
    >[!CAUTION]
    >
    >If the Idea status has been deleted in your Workfront instance, the project is placed in the default status for new projects as defined in the Project Preferences area. For information about setting up project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. Specify a name for your project, then press Enter. 
-1. (Optional) Click the **More** icon ![More icon](assets/qs-more-icon-on-an-object.png), then **Attach Template**, to create the Work Breakdown Structure of your project.
+1. Enter a name in the project title field. 
+1. (Optional) Click the **More** icon ![More icon](assets/qs-more-icon-on-an-object.png), then **Attach Template** to create the Work Breakdown Structure of your project.
 
    Or
 
    Start adding tasks to the project manually. 
 
-1. (Conditional) If you selected to attach a template, continue attaching the template to the project
-1. Click **Business Case** in the left panel. 
-1. (Optional) Click **Edit Project Info**.&nbsp;
+1. (Conditional) If you selected to attach a template, continue attaching the template to the project.
+1. In the left panel, click **Business Case**. 
+1. (Optional) To edit the **Project Info** section, click **Edit Project Info**.&nbsp;
 
-   For more information about editing the fields in the Project Info section of the Business Case, see the section [Project Info](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+   For more information about editing the **Project Info** section fields, see the section [Project Info](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-1. (Optional) Click **Edit Goals**.
+1. (Optional) To edit the **Goals** section, click **Edit Goals**.
 
-   For more information about editing the Goals section of the Business Case, see the section [Goals](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals) in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+   For more information about editing the **Goals** section of the Business Case, see the section [Goals](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals) in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-1. (Optional) Click**Edit Expenses**.
+1. (Optional) To edit the **Expenses** section, click **Edit Expenses**.
 
-   For more information about editing the Expenses section of the Business Case, see the section [Expenses](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses) in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+   For more information about editing the **Expenses** section of the Business Case, see the section [Expenses](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses) in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-1. (Optional) Use the Resource Budgeting area to budget your resources and obtain the Budgeted Labor Cost associated with the job roles on the project. For more information, see [Budget resources in the Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+1. (Optional) Click **Edit Resource Budgeting** to budget your resources and obtain the Budgeted Labor Cost associated with the job roles on the project. For more information, see [Budget resources in the Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
    >[!TIP]
    >
    >The information displayed here is the same as the information displayed in the system-level resource budgeting tools.
 
 1. (Optional)&nbsp;Click **Edit Risks** to add potential risks to this project. For information about adding risks to the Business Case, see the [Risks](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks) section in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md). 
-1. (Optional) Select a**Scorecard**&nbsp;in the **Add a Scorecard****to this Project** drop-down menu.
+1. (Optional) Select a **Scorecard** in the **Add a Scorecard to this Project** drop-down menu.
 
    Scorecards must be created before they can be attached to projects.
 
@@ -102,10 +106,13 @@ Consider the following when requesting a project through a Business Case:
 
    For more information about Custom Forms, see the article [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Click&nbsp;**Submit**.
-
-   The project status is changed to **Requested** and it is submitted to have the Business Case approved.
-
+1. Click&nbsp;**Submit**. The project status is changed to **Requested** and it is submitted to have the Business Case approved.
+ 
    For more information about approving a Business Case, see the article [Approve a Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
-1. (Optional) After completing the Business Case, you can export a copy of it to a .pdf file.&nbsp;For more information about exporting the Business Case to a .pdf file, see the section "Export the Business Case" in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+
+>[!TIP]
+>
+> After completing the Business Case, you can export a copy of it to a .pdf file.&nbsp;For more information about exporting the Business Case to a .pdf file, see [Export the Business Case of a project](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md).
+
+
