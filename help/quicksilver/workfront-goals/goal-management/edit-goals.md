@@ -1,7 +1,7 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Edit goals in Adobe Workfront Goals
+title: Edit Goals in Adobe Workfront Goals
 description: You can edit existing goals from any time period and in any status.
 author: Alina
 feature: Workfront Goals
@@ -9,9 +9,13 @@ exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
 ---
 # Edit goals in Adobe Workfront Goals
 
+<!--Audited for P&P only: 4/2025-->
+
 You can edit existing goals from any time period and in any status.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following:
 
@@ -30,8 +34,9 @@ You must have the following:
 <p>For the current plan and license structure: 
 <ul><li> A Pro or higher </li>
   <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
+ <tr>
  <tr>
  <td role="rowheader">Adobe Workfront license*</td>
  <td>
@@ -42,12 +47,9 @@ You must have the following:
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> New product requirement, one of the following: </p>
-<ul>
-<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
-<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
+  <p> New product requirement: Workfront</p>
  <p>Or</p>
- <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+  <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Access level</td>
@@ -62,7 +64,7 @@ You must have the following:
   <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
   </div> </td>
  </tr>
- <tr>
+<tr>
    <td role="rowheader"><p>Layout template</p></td>
    <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
 </td>
@@ -71,6 +73,8 @@ You must have the following:
 </table>
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Considerations about editing goals
 

@@ -4,6 +4,7 @@ description: Second Quarter 2025 Reporting enhancements
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 50639b81-d4d0-4702-98ba-2d5ec29575dc
 ---
 # Second Quarter 2025 Reporting enhancements
 

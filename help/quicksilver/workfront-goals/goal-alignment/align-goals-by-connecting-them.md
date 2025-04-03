@@ -1,13 +1,15 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Align goals by connecting them in Adobe Workfront Goals
+title: Align Goals by Connecting Them in Adobe Workfront Goals
 description: If you are an individual contributor who has a personal goal, you may want to align it to your team's goals in order to effectively display the progress of your own goal in the larger context of your organization's strategy.
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
 ---
 # Align goals by connecting them in Adobe Workfront Goals
+
+<!--Audited P&P only: 04/2025-->
 
 If you are an individual contributor who has a personal goal, you may want to align it to your team's goals in order to effectively display the progress of your own goal in the larger context of your organization's strategy.
 
@@ -27,6 +29,8 @@ This article describes how you can align goals by connecting them to one another
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following:
 
 <table style="table-layout:auto">
@@ -36,11 +40,15 @@ You must have the following:
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Adobe Workfront plan</td>
- <td>
- <p>Any</p>
- 
- </td>
+ <td role="rowheader">Adobe Workfront plan*</td>
+ <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront license*</td>
@@ -52,12 +60,9 @@ You must have the following:
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> New product requirement, one of the following: </p>
-<ul>
-<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
-<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
- <p>Or</p>
- <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+  <p> New product requirement: Workfront</p>
+  Or
+  <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Access level</td>
@@ -81,6 +86,8 @@ You must have the following:
 </table>
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Align goals by connecting them to one another
 

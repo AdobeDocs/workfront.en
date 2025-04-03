@@ -15,9 +15,9 @@ exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Adobe Workfront has a number of default risk types that you can associate with projects in the planning phase to identify potential obstacles prior to the approval of any work. 
 
@@ -87,7 +87,9 @@ You can do the following to enhance the number of risk types in your Workfront i
 1. Select the risk type you want to edit.
 1. Click the **[!UICONTROL Edit]** icon ![Edit icon](assets/edit-icon.png).
 
-   The [!UICONTROL **Edit Risk Type**] box opens. <!--add screen shot-->
+   <span class="preview">The [!UICONTROL **Edit Risk Type**] box opens.</span>
+
+   ![Edit risk type box](assets/edit-risk-type-box.png)
 
    >[!TIP]
    >
@@ -120,11 +122,18 @@ You can create risk types, in addition to the default ones.
 {{step-1-to-setup}}
 
 1. Click **[!UICONTROL Risk Types]**.
+
 1. Click **[!UICONTROL New Risk Type]** to open the [!UICONTROL **New Risk Type**] box
 
    Or
 
-   Click [!UICONTROL **Add More Risk Types**] in the lower-left corner of the risk type list to add risk types inline. <!--add screen shot-->
+   Click [!UICONTROL **Add More Risk Types**] in the lower-left corner of the risk type list to add risk types inline.
+
+   <span class="preview">The **New Risk Type** box opens. <span>
+
+   ![New risk type box](assets/new-risk-type-box.png)
+
+
 1. Add a **[!UICONTROL Name]** (required) and a **[!UICONTROL Description]** (optional) for the risk type. 
 
    There is a character limit of 50 characters for the **[!UICONTROL Name]** and the **[!UICONTROL Description]** fields.

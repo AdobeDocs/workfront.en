@@ -1,13 +1,15 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Activate goals in Adobe Workfront Goals
+title: Activate Goals in Adobe Workfront Goals
 description: When you create a goal, Adobe Workfront Goals saves it with a status of Draft. Drafted goals are not part of goal management.
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
 ---
 # Activate goals in Adobe Workfront Goals
+
+<!--Audited for P&P only: 4/2025-->
 
 When you create a goal, Adobe Workfront Goals saves it with a status of Draft. Drafted goals are not part of goal management.
 
@@ -21,6 +23,8 @@ For information about creating a goal, see [Create goals in Adobe Workfront Goal
 
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following:
 
@@ -51,12 +55,9 @@ You must have the following:
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> New product requirement, one of the following: </p>
-<ul>
-<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
-<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
+  <p> New product requirement: Workfront</p>
  <p>Or</p>
- <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+  <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Access level</td>
@@ -81,6 +82,7 @@ You must have the following:
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
++++
 
 ## Prerequisites
 

@@ -1,7 +1,7 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Access and open goals in Adobe Workfront Goals
+title: Access and Open Goals in Adobe Workfront Goals
 description: This article describes how you can find and manage goals in Adobe Workfront.
 author: Alina
 feature: Workfront Goals
@@ -9,12 +9,16 @@ exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
 ---
 # Access and open goals in Adobe Workfront Goals
 
-This article describes how you can find and manage strategic goals in Adobe Workfront.
+<!--Audited P&P only: 4/2025-->
+
+This article describes how you can find and manage strategic goals in Adobe Workfront. 
 
 
 ## Access requirements
 
-You must have the following to perform the activities described in this article:
++++ Expand to view access requirements for the functionality in this article. 
+
+You must have the following:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,17 +47,11 @@ You must have the following to perform the activities described in this article:
   <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> New product requirement, one of the following: </p>
-<ul>
-<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
-<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
- <p>Or</p>
- <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ <p> New product requirement: Workfront</p>
+<p>Or</p>
+ <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
- <tr>
- <td role="rowheader">Access level</td>
- <td> <p>Edit access to Goals</p> </td>
- </tr>
+ 
   <tr> 
    <td role="rowheader">Access level</td> 
    <td> <p>Edit access to Goals</p> </td> 
@@ -76,6 +74,8 @@ You must have the following to perform the activities described in this article:
 </table>
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Access Workfront Goals
 
