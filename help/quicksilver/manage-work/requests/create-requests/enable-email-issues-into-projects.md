@@ -3,11 +3,13 @@ product-area: requests
 navigation-topic: create-requests
 title: Enable Users to Email an Issue into a Request Queue Project
 description: You can configure a project to allow users to add issues to the project via email.
-author: LIsa
+author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
 ---
 # Enable users to email an issue into a Request Queue project
+
+<!-- Audited: 4/2025 -->
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
@@ -49,9 +51,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-The following prerequisites are required to configure a project to allow users to add issues to the project via email.
-
-These conditions must be met, before enabling this feature:
+The following conditions are required to configure a project to allow users to add issues to the project via email:
 
 * Users who are emailing issues to this account must be active users with a license for Workfront.  
 * Users who are emailing issues to this account must have Add Issue permissions on the project. 
