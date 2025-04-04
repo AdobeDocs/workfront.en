@@ -206,11 +206,23 @@ To view this change, go to Teams > choose a team > Backlog, then click **New sto
 
 +++Expand to view Documents interface updates
 
+### Interface updates to the share page for external documents
+
+**Preview release: April 3, 2025; Production release: Starting the week of April 10, 2025**
+
+We have updated the page the page external users see when a document is shared with them. From this page, external users can 
+
+* Download the document
+* Make an approval decision
+* Open the proofing viewer
+
+This update includes a more modern design that is consistent with other areas of Workfront.
+
 ### Interface update for the Approvals area on a document
 
 **Preview release: February 13, 2025; Production release: Starting the week of February 27, 2025**
 
-We have udpated the Approvals area on a document with a more modern design that is consistent with other areas of Workfront. 
+We have updated the Approvals area on a document with a more modern design that is consistent with other areas of Workfront. 
 
 To view this change, go to a document > Click Document Details > Approvals.
 

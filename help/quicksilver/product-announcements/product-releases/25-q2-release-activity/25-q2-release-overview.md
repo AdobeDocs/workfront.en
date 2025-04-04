@@ -292,9 +292,11 @@ As we continue to enhance the Workfront platform, it is crucial to keep our APIs
 
 #### We are removing the legacy Agile view in a project
 
-The legacy Agile view in a project will be removed from Workfront with the 25.3 release on March 13, 2025. You will still be able to view your tasks in an Agile view in a project by clicking on the Boards icon.
+The legacy Agile view in a project will be removed from Workfront with the 25.3 release on March 13, 2025. You will still be able to view your tasks in an Agile view in a project by clicking on the Boards icon. The existing legacy agile tools are still available in the Teams area. 
 
-For more information about using the Agile view, see [Manage a project in the Agile View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+The image below shows the legacy agile option that will be removed:
+![legacy agile view link](assets/project-agile-board-view.png)
+
 
 #### Enhanced Analytics deprecation
 
@@ -342,7 +344,7 @@ For API version 19, we've modified some resources and endpoints. Some of the cha
 
 For information on what's new and updated, see [What's new in API version 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
-For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+For information on which API versions are currently supported, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront Maintenance Updates
 
