@@ -294,6 +294,11 @@ As we continue to enhance the Workfront platform, it is crucial to keep our APIs
 
 The legacy Agile view in a project will be removed from Workfront with the 25.3 release on March 13, 2025. You will still be able to view your tasks in an Agile view in a project by clicking on the Boards icon.
 
+The following legacy agile tools are still available in the Teams area:
+
+* Iterations and backlogs for Scrum teams
+* Kanban boards and backlogs for Kanban teams
+
 For more information about using the Agile view, see [Manage a project in the Agile View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 #### Enhanced Analytics deprecation
