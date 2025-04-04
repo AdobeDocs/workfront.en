@@ -208,6 +208,8 @@ The following must be in place before you can submit a request to a Workfront Pl
       >[!NOTE]
       >
       >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
+      >
+      >There is a link to the request in the email confirmation or approval notification. 
 
    1. (Optional) Click **View your request** in the confirmation message, to open the request, or click the **X** icon to close the confirmation.
 

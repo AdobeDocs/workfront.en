@@ -1,7 +1,7 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Overview of goal progress and condition in Adobe Workfront Goals
+title: Overview of Goal Progress and Condition in Adobe Workfront Goals
 description: Goal progress is driven by progress indicators like activities, results, or children goals. Goal condition is determined by the progress of the goal at the current moment in time. 
 author: Alina
 feature: Workfront Goals
@@ -9,24 +9,25 @@ exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
 ---
 # Overview of goal progress and condition in Adobe Workfront Goals
 
-Your organization must have the following to use the functionality described in this article:
+<!--Audited for P&P only: 4/2025-->
 
-* For the new plan and license structure:
-
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. 
-
-* For the current plan and license structure: 
-
-  * A Pro or higher 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
-
-Contact your Workfront account manager to learn about a Workfront Goals license.
-
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>[!IMPORTANT]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>
+>* For the new plan and license structure:
+>
+>   * An Ultimate plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher 
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+> Contact your Workfront account manager to learn about a Workfront Goals license.
+>
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Adobe Workfront calculates goal progress automatically, based on the progress of its progress indicators.
 

@@ -388,7 +388,7 @@ Update the timeline view settings to indicate what and how information displays 
 
     The records display in the timeline view with the specifications that you selected.
 
-### Use the Breakdown feature to display connected records in the timeline view
+### Break down connected records in the timeline view
 
 You can display connected records in a record's timeline view by using the Breakdown feature. Breaking down records by their connections allows you to view the timelines of other connected records and understand how they might affect the performance and deadlines of your records. 
 
@@ -412,7 +412,7 @@ You can display connected records in a record's timeline view by using the Break
 * The Start and End dates of the record types you want to display in the timeline view must by in chronological order. For example, if a record has a Start date of January 31 and an End date of January 1, it does not display in the timeline view. For more information, see the section [Manage a timeline view](#manage-a-timeline-view) in this article. 
 * There is a limit of 5 record types that you can include in a record's breakdown. 
 
-#### Break down connected records in the timeline view
+#### Break down connected records
 
 1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 1. (Conditional) If you are viewing the timeline view in the Standard mode, click **Breakdown**.
