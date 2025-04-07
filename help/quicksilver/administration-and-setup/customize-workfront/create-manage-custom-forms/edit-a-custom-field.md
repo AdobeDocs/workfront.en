@@ -15,6 +15,8 @@ You can add a new custom field or widget directly from the Fields area in Workfr
 
 You can also edit the properties of a custom field, section break, or widget that is used in custom forms. These include the item's label, name, instructions, and so on.
 
+If you remove a custom field from a custom form, it still exists on all other forms it was added to, and you can edit it on a form or in the Fields area. For information on deleting a field, see [Delete a custom field or widget from the system](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
+
 For information about custom fields and widgets in custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Access requirements
@@ -74,3 +76,4 @@ For more detail about the information in this table, see [Access requirements in
    For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. When you are finished, click **Edit**.
+
