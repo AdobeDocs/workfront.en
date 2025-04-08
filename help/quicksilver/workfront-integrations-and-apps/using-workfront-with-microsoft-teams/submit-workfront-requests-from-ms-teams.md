@@ -11,7 +11,7 @@ exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
 
 >[!NOTE]
 >
->The Adobe Workfront for Microsoft Teams integration is currently supported only for the classic Microsoft Teams experience.
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
 
 After your team owner installs [!DNL Adobe Workfront for Microsoft Teams], you can submit [!DNL Workfront] requests from your [!DNL Microsoft Teams] account. To do so, you must have a Workfront account with access to submit requests. For information about installing [!DNL Workfront for Microsoft Teams], see [Installing [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
