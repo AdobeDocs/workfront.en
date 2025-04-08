@@ -111,13 +111,13 @@ To display two projects with custom currencies in a report:
 
 1. Create two projects with different currencies applied.
 
-   ![](assets/qs-currency-350x217.png)
+   ![Currency](assets/qs-currency-350x217.png)
 
 1. Log hours on both projects.
 
    For more information about logging time, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click **Reporting**.  
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png), then click **Reporting**.  
 1. Click **New Report**, then **Project Report**.
 1. In the **Columns (View)** tab, add an **Actual Cost** column and summarize it by **Sum**.
 
@@ -176,6 +176,6 @@ To in-line edit a financial field in a report:
 1. Click **Report Settings**.
 1. Click the **Default Currency** drop-down, then select **Project's Original Currency**.
 
-   ![](assets/qs-report-settings-default-currency-350x370.png)
+   ![Default currency](assets/qs-report-settings-default-currency-350x370.png)
 
 1. Click **Done**.

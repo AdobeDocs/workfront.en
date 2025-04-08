@@ -21,7 +21,7 @@ For general information about workspaces, see [Workspaces overview](/help/quicks
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -170,7 +170,7 @@ You can create a workspace and add record types to it to organize your objects i
     
     There is an indication of what operational record types, taxonomies and how many fields are associated with each template.
 
-    ![](assets/previewing-a-workspace-template.png)
+    ![Previewing a workspace template](assets/previewing-a-workspace-template.png)
 
     For information about Workfront Planning workspace templates, see [List of workspace templates](/help/quicksilver/planning/architecture/workspace-templates.md).
 
@@ -195,7 +195,7 @@ You can create a workspace and add record types to it to organize your objects i
 
    Or 
 
-   Hover the name of a section, then click the **More** menu ![](assets/more-menu.png), then click **Rename** to rename the section. 
+   Hover the name of a section, then click the **More** menu ![More menu](assets/more-menu.png), then click **Rename** to rename the section. 
 
       >[!TIP]
       >

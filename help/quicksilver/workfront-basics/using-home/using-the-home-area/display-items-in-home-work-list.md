@@ -98,7 +98,7 @@ You can filter items in a widget's [!UICONTROL Worklist] to see only specific ty
 
 To filter your work:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add any of the following widgets:
 
    | Widget         | Description                                                                                      |
@@ -111,12 +111,12 @@ To filter your work:
    | My Requests  | Displays all requests that you have submitted                                                                 |
    | My Approvals | Displays all of your pending, assigned, delegated, and submitted approvals    |
 
-1. Click the **Filter** icon ![](assets/filter-nwepng.png) in the right-top corner of the widget worklist. 
+1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png) in the right-top corner of the widget worklist. 
 1. Choose a **Suggested** filter or a filter that you have created. 
    For detailed information on suggested filters, see [Home widget filters overview](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 1. (Optional) Toggle **Stack filters** on to select multiple filter options. 
 
-   ![](assets/my-task-filter-open.png)
+   ![My Task filter open](assets/my-task-filter-open.png)
 
 
 ## Group your work
@@ -125,7 +125,7 @@ You can group the widget [!UICONTROL worklist] to keep your work items organized
 
 To group your worklist:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add any of the following widgets:
 
    | Widget         | Description                                                                                      |
@@ -138,16 +138,16 @@ To group your worklist:
    | My Requests  | Displays all requests that you have submitted                                                                 |
    | My Approvals | Displays all of your pending, assigned, delegated, and submitted approvals    |
 
-1. Click the **Group** icon ![](assets/group-icon.png) in the right-top corner of the widget worklist. 
+1. Click the **Group** icon ![Group icon](assets/group-icon.png) in the right-top corner of the widget worklist. 
 1. Choose a **Suggested** grouping or a grouping that you have created. 
-   ![](assets/grouping-expanded.png)
+   ![Grouping expanded](assets/grouping-expanded.png)
 
 
 ## Customize worklist columns
 
 You can choose which columns appear in the widget worklist:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add any of the following widgets:
 
    | Widget         | Description                                                                                      |
@@ -160,10 +160,10 @@ You can choose which columns appear in the widget worklist:
    | My Requests  | Displays all requests that you have submitted                                                                 |
    | My Approvals | Displays all of your pending, assigned, delegated, and submitted approvals    |
 
-1. Click the **Column** icon ![](assets/column-icon.png) in the right-top corner of the widget worklist. 
+1. Click the **Column** icon ![Column icon](assets/column-icon.png) in the right-top corner of the widget worklist. 
 1. Toggle the columns on or off depending on your preferences. 
-1. (Optional) Click the **Drag** icon ![](assets/drag-icon.png) to reorder the columns. 
-   ![](assets/columns-expanded.png)
+1. (Optional) Click the **Drag** icon ![Drag icon](assets/drag-icon.png) to reorder the columns. 
+   ![Columns expanded](assets/columns-expanded.png)
 
 
 ## View late items

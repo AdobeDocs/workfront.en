@@ -21,7 +21,7 @@ For information about record views and how to manage them, see [Manage record vi
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -165,7 +165,7 @@ To manage a table view:
 
 1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
-    ![](assets/table-view-example.png)
+    ![Table view example](assets/table-view-example.png)
 
 1. (Optional) Click **Row height**, then select from the following options to modify the height of the table rows: 
     * Short
@@ -203,7 +203,7 @@ You can add up to 500 fields (or columns) in a table view.
 
     * Click **Fields** in the table's toolbar, then drag and drop the fields in the desired order, then click outside the **Fields visibility and order** box to close it.
 
-        ![](assets/fields-setting-table-view-toolbar-expanded.png)
+        ![Fields setting table view toolbar expanded](assets/fields-setting-table-view-toolbar-expanded.png)
 
 
         >[!TIP]
@@ -218,7 +218,7 @@ You can add up to 500 fields (or columns) in a table view.
 
 1. (Optional) Hover over a field name in the column header of any field that does not display in the first column of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
     
-    ![](assets/set-as-primary-field-option-table-view.png)
+    ![Set as primary field option in table view](assets/set-as-primary-field-option-table-view.png)
 
 1. Click **Set field** to confirm. 
 
@@ -247,9 +247,9 @@ You can add up to 500 fields (or columns) in a table view.
 
 1. Do the following to quickly find records that match a keyword:
 
-    1. Click the **Search** icon ![](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
+    1. Click the **Search** icon ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
 
-        ![](assets/search-box-with-results-blue-outline-table-view.png)
+        ![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-table-view.png)
 
         You can use any word or special character that is visible on the screen. 
     
@@ -278,7 +278,7 @@ You can have up to 50,000 records (or rows) for a record typeS.
     
     For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Optional) Select one or multiple records in a row, then drag and drop the **handle** icon ![](assets/handle-icon.png) to the left of the record to reorder the rows. 
+1. (Optional) Select one or multiple records in a row, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
 
     >[!NOTE]
     >
@@ -388,7 +388,7 @@ To add a filter to a table view:
 
     * Select a value for the field selected. 
 
-     ![](assets/filter-ui-table-view.png)
+     ![Filter UI table view](assets/filter-ui-table-view.png)
 
     There is no limit to how many filtering conditions you can add.
 
@@ -402,7 +402,7 @@ To add a filter to a table view:
 
     1. (Optional) Add additional **AND** or **OR** operators between multiple condition groupings.
 
-        ![](assets/multi-tiered-filters-in-views.png)
+        ![Multi-tiered filters in views](assets/multi-tiered-filters-in-views.png)
 
     </div>
 
@@ -440,7 +440,7 @@ To add a grouping:
 1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 1. Click **Grouping** in the upper-right corner of the table view.
 
-    ![](assets/grouping-ui-table-view-with-linked-fields.png)
+    ![Grouping UI table view with linked fields](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list.
 
@@ -450,7 +450,7 @@ To add a grouping:
 
     The number of fields selected for the grouping displays next to the Grouping icon. 
 
-    ![](assets/grouping-applied-in-table-view.png)
+    ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
 
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
@@ -493,7 +493,7 @@ Consider the following when sorting records in the table view:
 To sort <!--ungrouped (add this when sorting for groupings will be available--> records, do the following:
 
 1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
-1. Click the **Sort** icon ![](assets/sort-icon.png) in the upper-right corner of the table
+1. Click the **Sort** icon ![Sort icon](assets/sort-icon.png) in the upper-right corner of the table
     
     Or
 
@@ -517,7 +517,7 @@ To sort <!--ungrouped (add this when sorting for groupings will be available--> 
 
 1. Click outside the **Sort records by** box to close it. 
 
-    ![](assets/sorting-in-table-view.png)
+    ![Sorting in table view](assets/sorting-in-table-view.png)
 
     The information displayed in the table is sorted according to your selected criteria. 
     

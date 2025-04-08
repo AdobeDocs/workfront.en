@@ -9,11 +9,11 @@ exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 ---
 # Copy and submit requests
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
-
 When you submit similar requests frequently you can copy an existing submitted request. In this case, you can copy an existing request, make minimal changes to it, and resubmit it as a new request.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -42,7 +42,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Access requirements
 

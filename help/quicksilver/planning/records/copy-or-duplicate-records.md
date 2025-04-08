@@ -9,6 +9,10 @@ exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
 ---
 # Duplicate records
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
 {{planning-important-intro}}
 
 In Adobe Workfront Planning, a record is an instance of a record type. 
@@ -17,7 +21,7 @@ You can duplicate an existing record in the table view. An identical copy of the
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -71,7 +75,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Contribute or higher permissions to a workspace</a> </p>  
+   <td>   <p>Contribute or higher permissions to a workspace <!--<span class="preview">and record type</span>--></a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 <tr> 
@@ -165,13 +169,13 @@ You can create records in the table view of a record type page by duplicating an
 
 1. Do one of the following:
 
-    * Hover over the name of a record then click the **More** menu inline with the record name, then click the **Duplicate** icon ![](assets/duplicate-icon-gray.png) .
+    * Hover over the name of a record then click the **More** menu inline with the record name, then click the **Duplicate** icon ![Duplicate icon gray](assets/duplicate-icon-gray.png) .
 
-        ![](assets/more-menu-from-record-in-table-view.png)
+        ![More menu from record in table view](assets/more-menu-from-record-in-table-view.png)
 
-    * Select a record, then click the **Duplicate** icon ![](assets/duplicate-icon-white-and-blue.png) in the toolbar at the bottom of the page. 
+    * Select a record, then click the **Duplicate** icon ![Duplicate icon white and blue](assets/duplicate-icon-white-and-blue.png) in the toolbar at the bottom of the page. 
 
-        ![](assets/duplicate-icon-in-toolbar-in-table-view.png)
+        ![Duplicate icon in toolbar in table view](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
     An identical record with an identical name is created underneath the original record. All fields of the new record are populated with the same information as in the original record.
 

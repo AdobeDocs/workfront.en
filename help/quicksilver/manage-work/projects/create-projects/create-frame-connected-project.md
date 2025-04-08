@@ -89,7 +89,7 @@ If you choose to create the project from scratch, Workfront automatically adds t
 
 Continue to the next section.
 
-![](assets/template-group.png)
+![Template group](assets/template-group.png)
 
 ### Add tasks and assign Frame.io enabled users
 
@@ -99,7 +99,7 @@ Continue to the next section.
    Or
 
    Click **New Template Task** to add one task at a time and configure additional settings.
-   ![](assets/add-tasks-to-template.png)
+   ![Add tasks to template](assets/add-tasks-to-template.png)
 1. Add a task name.
 1. In the **Assignments** area, assign users or teams. If you assign a Frame.io enabled user, either individually or in a team, they are granted collaborator access to the Frame.io project and notified about the task in the Frame.io project via email. From that email, they can join the Frame.io project and begin work. 
 1. Repeat steps 1 and 2 as needed.
@@ -127,7 +127,7 @@ Once you create a template, you can use it to create projects.
 1. Click **New Project from Template**. 
 1. Using the search box, begin typing the name of the template you need. 
 1. Select the template name, then click **Use template**. 
-   ![](assets/find-your-template.png)
+   ![Find your template](assets/find-your-template.png)
 1. Adjust any project settings as needed, then click **Create project**. 
 1. In the left panel, click **Documents**. 
 1. Use the one-way sync folder to automatically share creative materials with Frame.io. [!BADGE Coming soon]{type=Informative}
@@ -170,7 +170,7 @@ Continue to the next section.
    Or
 
    Click **New Task** to add one task at a time and configure additional settings.
-   ![](assets/add-project-tasks.png)
+   ![New task](assets/add-project-tasks.png)
 1. Add a task name.
 1. In the **Assignments** area, assign users or teams. If you assign a Frame.io enabled user, either individually or in a team, they are granted collaborator access to the Frame.io project and notified about the task in the Frame.io project via email. From that email, they can join the Frame.io project and begin work. 
 1. Repeat steps 1 and 2 as needed.

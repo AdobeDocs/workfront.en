@@ -93,7 +93,7 @@ When you add a user as the Project Owner of a project, Workfront automatically g
 
 1. Go to the project you want to update.
 1. Click **Project Details** in the left panel. 
-1. Click  the **Edit** icon ![](assets/qs-edit-icon.png) in the upper-right corner of the Project  Details area, then click  **Overview**.  
+1. Click  the **Edit** icon ![Edit icon](assets/qs-edit-icon.png) in the upper-right corner of the Project  Details area, then click  **Overview**.  
 
 1. Specify the name of a user for the **Project Owner** field.
 
@@ -103,7 +103,7 @@ When you add a user as the Project Owner of a project, Workfront automatically g
 
    The Project Owner updates in the project header and in the Project  Details area.
 
-   ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![Project stakeholders owner highlighted](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## Update the Project Sponsor of a project
 
@@ -115,7 +115,7 @@ When you add a user as the Project Sponsor of a project, Workfront automatically
 
 1. Go to the Project you want to update.
 1. Click **Project Details** in the left panel. 
-1. Click  the **Edit** icon ![](assets/qs-edit-icon.png) in the upper-right corner of the Project  Details area, then click  **Overview**.  
+1. Click  the **Edit** icon ![Edit icon](assets/qs-edit-icon.png) in the upper-right corner of the Project  Details area, then click  **Overview**.  
 
 1. Specify the name of a user for the **Project Sponsor** field.
 
@@ -125,4 +125,4 @@ When you add a user as the Project Sponsor of a project, Workfront automatically
 
    The Project  Sponsor updates in the Project  Details area.
 
-   ![](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)
+   ![Project stakeholders sponsor highlighted](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)

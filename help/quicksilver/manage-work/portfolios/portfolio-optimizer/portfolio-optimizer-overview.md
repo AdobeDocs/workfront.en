@@ -14,7 +14,7 @@ exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
 
 The [!UICONTROL Portfolio Optimizer] is the tool used for project evaluation and comparison. The process of reviewing and comparing [!UICONTROL Business Case] values for projects assigned to a portfolio is how a portfolio manager can prioritize projects and generate the most value for an organization.
 
-![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+![Portfolio optimizer with projects](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
 The purpose of the [!UICONTROL portfolio optimizer] is to provide an interface through which a portfolio manager, steering committee, or product management office can view summary information about the business case of each project. Projects can then be prioritized according to strategic values and goals, or according to their overall score.
 
@@ -56,7 +56,7 @@ The following financial fields display in the [!UICONTROL Portfolio Optimizer]:
 
 #### Portfolio header {#portfolio-header}
 
-![](assets/portfolio-header-nwe-350x14.png)
+![Portfolio header](assets/portfolio-header-nwe-350x14.png)
 
 [!DNL Adobe Workfront] calculates the financial fields in the portfolio header using information from projects with statuses that equate only with [!UICONTROL Approved] or [!UICONTROL Current].
 
@@ -95,7 +95,7 @@ The following financial fields display in the [!UICONTROL Portfolio Optimizer]:
 
 #### Portfolio finances for selected projects {#portfolio-finances-for-selected-projects}
 
-![](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
+![Portfolio finances](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -122,7 +122,7 @@ The following financial fields display in the [!UICONTROL Portfolio Optimizer]:
   </tr> 
   <tr> 
    <td>[!UICONTROL Remaining]</td> 
-   <td> <p>The remaining budget after all the [!UICONTROL Budgeted Costs] on all the projects inside the portfolio have been subtracted from the Budget of the portfolio.</p> <p>The [!UICONTROL Remaining Portfolio Budget] is calculated using the following formula:</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - Total [!UICONTROL Budgeted Cost] of All Portfolio Projects</em> </p> <p>The overall [!UICONTROL Budgeted Cost] of all the projects in the portfolio is represented in the indicator bar under the Budget field. </p> <p>For more information about tracking costs on a project, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
+   <td> <p>The remaining budget after the [!UICONTROL Total Cost] on all the projects inside the portfolio has been subtracted from the Budget of the portfolio.</p> <p>The [!UICONTROL Remaining Portfolio Budget] is calculated using the following formula:</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - Total [!UICONTROL Budgeted Cost] of All Portfolio Projects</em> </p> <p>The portfolio Budget is a manual entry in the Portfolio Optimizer's Budget field. </p> <p>For more information about tracking costs on a project, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Total Cost]</td> 

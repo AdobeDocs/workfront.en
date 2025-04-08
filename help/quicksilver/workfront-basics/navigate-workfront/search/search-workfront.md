@@ -12,7 +12,7 @@ You can easily locate items in [!DNL Adobe Workfront] by searching for them when
 
 You can see the [!UICONTROL Search] box in the upper-right corner of any page within [!DNL Workfront].
 
-![](assets/search-globalnavigationbar-350x62.png)
+![Search icon in nav bar](assets/search-globalnavigationbar-350x62.png)
 
 You must have permissions to View an object before you can find it in a search. For this reason, search results vary from user to user.
 
@@ -179,15 +179,15 @@ You can do a basic search in either of the following ways:
 
 To perform a basic search:
 
-1. Click the magnifying glass ![](assets/search-icon.png) in the upper-right corner of the page. You can also type **[!UICONTROL ALT + /]** or **[!UICONTROL Option + /]** to open the [!UICONTROL Search] menu.
+1. Click the magnifying glass ![Search icon](assets/search-icon.png) in the upper-right corner of the page. You can also type **[!UICONTROL ALT + /]** or **[!UICONTROL Option + /]** to open the [!UICONTROL Search] menu.
 
 1. (Optional) To search for a specific object, click the **[!UICONTROL All]** drop-down menu and select the object you want to search for.
 
-   ![](assets/search-objecttype.png)
+   ![Search by object type](assets/search-objecttype.png)
 
 1. In the **[!UICONTROL Search]** box, start typing the information you are searching for.\
    For information about what fields are searched in [!DNL Workfront], see [Understand Search](#understand-search).\
-   ![](assets/qs-search-drop-down-highlighted-350x234.png)\
+   ![Search dropdown](assets/qs-search-drop-down-highlighted-350x234.png)\
    As you begin typing in the search bar, [!DNL Workfront] makes recommendations based on your viewing history and it highlights the keyword you are searching for in blue.
 
 1. If the item you are looking for displays in the [!UICONTROL typeahead] menu, click it.
@@ -226,7 +226,7 @@ To refine a search:
 1. Click inside any of the fields available to shorten the list of results.\
    The selections you make are highlighted in blue and the field values that you do not select are hidden.\
    After you select each new value, the results to the right update dynamically.\
-   ![](assets/qs-refine-search-350x175.png)
+   ![Refine search](assets/qs-refine-search-350x175.png)
 
 1. (Optional) Click the selected values to deselect them and display all values for each field again.
 
@@ -247,16 +247,16 @@ This type of search is helpful when you cannot remember a keyword associated wit
 
 To perform an advanced search:
 
-1. In the upper-right corner of any page in [!DNL Workfront], click the **[!UICONTROL Search]** icon ![](assets/search-icon.png). The [!DNL Search] menu displays.
+1. In the upper-right corner of any page in [!DNL Workfront], click the **[!UICONTROL Search]** icon ![Search icon](assets/search-icon.png). The [!DNL Search] menu displays.
 
 1. At the bottom of the [!UICONTROL Search] menu, click **[!UICONTROL Advanced Search]**.\
-   ![](assets/qs-advanced-search-350x224.png)\
+   ![Advanced search](assets/qs-advanced-search-350x224.png)\
    The [!UICONTROL Advanced Search] page slides open from the right and covers most of the previous page.
 
 1. Select the type of object you are searching for.\
    **[!UICONTROL Projects]** is selected by default.
 
-   ![](assets/advanced-search-objects-qs-remove-after-prod-release.png)
+   ![Advanced search objects](assets/advanced-search-objects-qs-remove-after-prod-release.png)
 
 1. (Optional) Type a keyword in the field at the top of the list.
 1. (Optional) Click **[!UICONTROL Filter your results]** to filter your search results based on specific field types, then select a field from the list. If necessary, also select a value for the field.\

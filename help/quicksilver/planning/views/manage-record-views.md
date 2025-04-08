@@ -42,7 +42,7 @@ This article describes the following information about record views:
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -246,7 +246,7 @@ The following table shows the similarities and differences between the table, ti
 
     A new tab is created with the selected view. 
 
-    Depending on the width of your screen, additional views might display in the **More** menu ![](assets/more-menu.png).   
+    Depending on the width of your screen, additional views might display in the **More** menu ![More menu](assets/more-menu.png).   
 
 
 >[!TIP]
@@ -258,7 +258,7 @@ The following table shows the similarities and differences between the table, ti
 >Otherwise, the Timeline and the Calendar options are dimmed.
 >
 
-![](assets/view-types-drop-down-from-record-type-list.png)
+![View types drop-down from record type list](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Conditional) Click **Next**, when creating a timeline or calendar view.
     
@@ -279,10 +279,10 @@ The following table shows the similarities and differences between the table, ti
 1. Click **Create**.
 
     The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. 
-1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to display all views for the selected record type. 
+1. (Optional) Click the **More** menu ![More caret down icon views](assets/more-caret-down-icon-views.png) next to the last view to display all views for the selected record type. 
 
     Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views.
-1. (Optional) To rename a view after it is created, click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) > **Rename** to update the view name
+1. (Optional) To rename a view after it is created, click the view drop-down menu, then click the **More** menu ![More menu](assets/more-menu.png) > **Rename** to update the view name
 
     Or
 
@@ -309,7 +309,7 @@ The following table shows the similarities and differences between the table, ti
 
     By default, all the records of the selected type display in the table view. 
 
-1. Hover over one the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) to the left of the view name, then click **Delete**. 
+1. Hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**. 
 First, you might need to click **More** to the left of the last tab to find the view you want to delete.
 
 1. Click **Delete** to confirm. <!--ensure there is not another saving step here?!-->
@@ -339,9 +339,9 @@ The sharing permissions of the original view do not transfer to the duplicated v
     The record type page opens. 
     By default, all the records of the type selected display in the table view. 
 
-1. Hover over the tab of the view you want to duplicate, and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Duplicate**. 
+1. Hover over the tab of the view you want to duplicate, and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Duplicate**. 
 
-    ![](assets/view-more-menu-with-duplicate-option.png)
+    ![View more menu with duplicate option](assets/view-more-menu-with-duplicate-option.png)
 
     
     The view is duplicated and the new view's name follows the following pattern: `Original view's name (Copy)`. The new view tab displays at the end of all view tabs. 
@@ -356,13 +356,13 @@ When you display the table view, you can also view which field another user is e
 1. (Conditional) If there are other users editing the records of the selected type at the same time, their avatars display in the upper-right corner of the view. 
 1. Click the drop-down menu next to the avatars, the select the **Show collaborators** toggle. The toggle is selected by default. 
 
-    ![](assets/show-collaborators-toggle-selected.png)
+    ![Show collaborators toggle selected](assets/show-collaborators-toggle-selected.png)
 
 1. (Conditional) Open a table view, and the field which another person is actively editing is highlighted in the color corresponding to the outline of their avatar in the table view. 
 
     If the highlight color of the avatar is gray, the user stopped actively editing the record more than 30 seconds ago. 
 
-    ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+    ![Real-time indicator table field and avatar connection](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
     >[!TIP]
     >

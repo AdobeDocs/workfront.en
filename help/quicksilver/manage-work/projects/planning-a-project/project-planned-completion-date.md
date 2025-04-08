@@ -11,7 +11,9 @@ exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
 ---
 # Set the project Planned Completion Date
 
-The Planned Completion Date of a project is the date by which the project is set to complete.
+<!-- Audited: 4/2025 -->
+
+The Planned Completion Date of a project is the date the project is set to complete.
 
 The Planned Start and the Planned Completion Dates of a project rely on the dates of the tasks on the project. This article describes how you can manually or automatically set the Planned Completion Date of a project. For more information about the Planned Completion Date of a task, see [Overview of the task Planned Completion Date](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
@@ -50,6 +52,8 @@ The Planned Completion Date of a project can be set manually or automatically, d
 </table>
 -->
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -57,15 +61,22 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>
+   New: Standard
+
+   Or
+
+   Current: Plan </p>
+   
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
    
    If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
@@ -77,7 +88,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Manually set the Planned Completion Date of a project
 
@@ -90,15 +103,17 @@ You must manually set the Planned Completion Date of a project when you schedule
 
 To schedule a project from Completion Date:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Projects**. 
+{{step1-to-projects}}
 
-1. Click **New Project** then**New Project**.
+1. Click&nbsp;**New Project**, then select **New Project** from the drop-down that appears.
 
    For more information about creating projects, see the article [Create a project](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Select **Project Details** in the left panel, then click the **Edit Project** icon in the upper-right corner. 
+1. Select **Project Details** in the left panel. 
 
-1. In the **Schedule Mode** field, select **Completion Date**.
+1. Click the **Edit Project** icon ![Edit icon](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) in the upper-right corner and then select **Overview** in the drop-down that appears. 
+
+1. In the **Project dates** section, click the **Schedule Mode** field, then select **Completion Date**.
 
 1. Specify the **Planned Completion Date** of the project.
 1. Click **Save Changes**.
@@ -111,15 +126,17 @@ The Planned Completion Date of a project is automatically calculated by Workfron
 
 To schedule a project from Start Date:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Projects**. 
+{{step1-to-projects}}
 
-1. Click&nbsp;**New Project** then**New Project**.
+1. Click&nbsp;**New Project**, then select **New Project** from the drop-down that appears.
 
    For more information about creating projects, see the article [Create a project](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Select **Project Details** in the left panel, then click the **Edit Project** icon in the upper-right corner. 
+1. Select **Project Details** in the left panel. 
 
-1. In the **Schedule Mode** field, select **Start Date**.
+1. Click the **Edit Project** icon ![Edit icon](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) in the upper-right corner and then select **Overview** in the drop-down that appears. 
+
+1. In the **Project dates** section, click the **Schedule Mode** field, then select **Start Date**.
 
 1. Specify the **Planned Start Date** of the project.
 1. Click **Save Changes**.

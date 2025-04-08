@@ -22,10 +22,10 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
 ## Modify columns in a table
 
-1. Go to an existing report, click the **More Menu** icon ![](assets/more-icon.png) in the report header, then select **Edit**.
-1. On the table header in the report, click the **Edit** icon ![](assets/edit-icon.png).
+1. Go to an existing report, click the **More Menu** icon ![More icon](assets/more-icon.png) in the report header, then select **Edit**.
+1. On the table header in the report, click the **Edit** icon ![Edit icon](assets/edit-icon.png).
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![Edit icon in table header](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >

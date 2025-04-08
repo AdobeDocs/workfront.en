@@ -54,7 +54,7 @@ You must have the following access to perform the steps in this article:
 
 1. Select **Approvals** in the left pane.
 
-1. Hover over the name of the approver or reviewer you would like to remove, then click on the **Delete** icon ![](../assets/delete.png) that appears after their name.
+1. Hover over the name of the approver or reviewer you would like to remove, then click on the **Delete** icon ![Delete icon](../assets/delete.png) that appears after their name.
 
     The approval or review request is removed and the approver receives a notification that their approval is no longer needed. Their approval-related share access is also removed.
 
@@ -70,7 +70,7 @@ You must have the following access to perform the steps in this article:
 
 1. Select the version of the document you would like to remove an approver or reviewer for in the version dropdown. The latest version will be selected by default.
 
-1. Scroll down to the **Approvals** section in the Document Summary pane. Hover over the name of the approver or reviewer you would like to remove, then click on the **Delete** icon ![](../assets/delete.png) that appears after their name.
+1. Scroll down to the **Approvals** section in the Document Summary pane. Hover over the name of the approver or reviewer you would like to remove, then click on the **Delete** icon ![Delete icon](../assets/delete.png) that appears after their name.
 
     The approval or review request is removed and the approver receives a notification that their approval is no longer needed. Their approval-related share access is also removed.
 

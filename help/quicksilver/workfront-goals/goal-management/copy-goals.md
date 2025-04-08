@@ -1,7 +1,7 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Copy goals in Adobe Workfront Goals
+title: Copy Goals in Adobe Workfront Goals
 description: You can copy goals in Adobe Workfront Goals to create a goal. Some of the original goal information transfers to the new goal.
 author: Alina
 feature: Workfront Goals
@@ -9,9 +9,13 @@ exl-id: 690a6030-ee29-4e50-869f-cd014050b364
 ---
 # Copy goals in Adobe Workfront Goals
 
+<!--Audited for P&P only: 4/2025-->
+
 You can copy goals in Adobe Workfront Goals to create a goal. Some of the original goal information transfers to the new goal.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following:
 
@@ -30,7 +34,7 @@ You must have the following:
 <p>For the current plan and license structure: 
 <ul><li> A Pro or higher </li>
   <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
  <tr>
  <tr>
@@ -43,12 +47,9 @@ You must have the following:
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> New product requirement, one of the following: </p>
-<ul>
-<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
-<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
+  <p> New product requirement: Workfront</p>
  <p>Or</p>
- <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+  <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Access level</td>
@@ -72,6 +73,8 @@ You must have the following:
 </table>
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Considerations for copying goals
 
@@ -111,7 +114,7 @@ To copy goals in the Production environment:
 
    This opens the Goal Details panel.
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Copy**. 
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Copy**. 
 
 1. Update any of the following information for the copied goal:
 
@@ -171,9 +174,9 @@ To copy goals in the Production environment:
 -->
 
 
-1. Go to a goal and click the **More** menu ![](assets/more-icon.png), then click **Copy Goal**.  
+1. Go to a goal and click the **More** menu ![More icon](assets/more-icon.png), then click **Copy Goal**.  
 
-   ![](assets/copy-goal-box-unshimmed.png)
+   ![Copy goal box](assets/copy-goal-box-unshimmed.png)
 
 1. Update the following information for the copied goal:
     * **Goal name**: The name of the new goal. The default name for the copied goal is "Copy of &lt;original goal>".

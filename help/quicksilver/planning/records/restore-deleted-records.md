@@ -9,7 +9,7 @@ exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
 ---
 # Restore deleted records 
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->   
 
@@ -21,7 +21,7 @@ For information about deleting records, see [Delete records](/help/quicksilver/p
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -75,7 +75,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Manage permissions to a workspace</a> </p>  
+   <td>   <p>Contribute or higher permissions to a workspace <!--<span class="preview">and record type</span>--> </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 <tr> 
@@ -103,11 +103,11 @@ You must have the following access to perform the steps in this article:
 ## Restore deleted records
 
 1. Go to the record type page where you have deleted records. 
-1. Click the **Undo** icon ![](assets/undo-icon.png) in the upper-right corner of any record type page view, then click **Recently deleted**.
+1. Click the **Undo** icon ![Undo icon](assets/undo-icon.png) in the upper-right corner of any record type page view, then click **Recently deleted**.
 
     The **Recently deleted** box displays.
 
-    ![](assets/recently-deleted-box.png)
+    ![Recently deleted box](assets/recently-deleted-box.png)
 
 1. Select the records you want to delete, then click **Restore** > **Restore**. You can select more than one record. 
 

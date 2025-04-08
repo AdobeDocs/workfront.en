@@ -131,7 +131,7 @@ You can create a project from the Projects area in the Main Menu, or from the Pr
       * The number of all tasks in the template
       * The names of the template custom forms
 
-   1. (Optional) Hover over the name of a template name in the left pane and click the **Favorites** **icon** ![](assets/favorites-icon-small.png) to mark it as a favorite for future use.
+   1. (Optional) Hover over the name of a template name in the left pane and click the **Favorites** **icon** ![Favorites icon](assets/favorites-icon-small.png) to mark it as a favorite for future use.
 
       Or
 
@@ -169,7 +169,7 @@ Instead of starting in the Projects area, you can create a project from a templa
 {{step1-to-templates}}
 
 1. Click the name of a template you want to use.
-1. Click the **More** menu ![](assets/more-icon.png), then click **Create Project**.
+1. Click the **More** menu ![More icon](assets/more-icon.png), then click **Create Project**.
 
    ![Create project from template](assets/project-sharing-on-template.png)
 

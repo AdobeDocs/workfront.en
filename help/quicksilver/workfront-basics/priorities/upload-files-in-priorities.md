@@ -11,6 +11,8 @@ exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
 
 You can upload files from the Priorities worklist or from individual work items. Files uploaded from Priorities appear in the Documents tab of the work item. 
 
+Priorities displays work items assigned to you. You cannot see work items assigned to your team.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
@@ -47,12 +49,12 @@ To find out what plan, license type, or access you have, contact your Workfront 
 {{step1-to-priorities}}
 
 1. Hover over the name, then click **Upload**.
-![](assets/update-log-upload.png)
+![Update, log time, and upload](assets/update-log-upload.png)
 1. (Optional) Select a folder.
 1. Drag and drop your file or Cmd/Ctrl + V to paste from your clipboard
 or
 Click **Add files** to browse files or import files from a Document Cloud provider.
-![](assets/add-files.png)
+![Add files](assets/add-files.png)
 1. (Optional) Add a comment.
 1. (Optional) Add more files.
 
@@ -60,7 +62,7 @@ Click **Add files** to browse files or import files from a Document Cloud provid
     >
     >Additional files are uploaded as separate documents. 
 1. Click **Upload**. 
-![](assets/upload-file-module.png)
+![Upload file](assets/upload-file-module.png)
 
 
 ## Upload a file in a work item
@@ -73,7 +75,7 @@ Click **Add files** to browse files or import files from a Document Cloud provid
 1. Drag and drop your file or Cmd/Ctrl + V to paste from your clipboard
 or
 Click **Add files** to browse files or import files from a Document Cloud provider.
-![](assets/add-files.png)
+![Add files](assets/add-files.png)
 1. (Optional) Add a comment.
 1. (Optional) Add more files.
 
@@ -81,4 +83,4 @@ Click **Add files** to browse files or import files from a Document Cloud provid
     >
     >Additional files are uploaded as separate documents. 
 1. Click **Upload**. 
-![](assets/upload-file-module.png)
+![Upload file](assets/upload-file-module.png)

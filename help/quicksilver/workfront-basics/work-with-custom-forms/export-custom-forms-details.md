@@ -91,14 +91,10 @@ Exporting information from the Details section of an object is identical for all
    >
    >The following scenarios may exist:
    >
-   >   
-   >   
    >   * When your group or Workfront administrator deselects all fields in the Overview area and the object has custom forms attached, the Overview section does not display.
    >   * When your group or Workfront administrator deselects all fields in the Overview area and the object has no custom forms attached, the Export drop-down menu is not visible.
    >   * When the object has no custom forms attached, you can export only the Overview area.
-   >   * Custom fields that are behind logic and are not visible on the form do not export. For information about adding logic to a custom form, see [Add display logic and skip logic to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
-   >   
-   >
+   >   * Custom fields that are behind logic and are not visible on the form do not export. For information about adding logic to a custom form, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
 
    A PDF file is produced and downloaded to your computer. The PDF file contains the following information:
 

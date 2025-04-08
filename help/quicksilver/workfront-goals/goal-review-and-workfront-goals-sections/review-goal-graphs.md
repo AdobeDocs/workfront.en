@@ -1,7 +1,7 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Review graphs to understand goal progress trends in Adobe Workfront Goals
+title: Review Graphs to Understand Goal Progress Trends in Adobe Workfront Goals
 description: You can view the overall health of your goals and their progress trend in time in the Graphs section of Adobe Workfront Goals. The charts in this section do not break down the progress of each goal, but instead give you a holistic snapshot of all goals' progress status as well as their progress trend in time during a specified period.
 author: Alina
 feature: Workfront Goals
@@ -9,7 +9,7 @@ exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
 ---
 # Review graphs to understand goal progress trends in Adobe Workfront Goals
 
-<!-- drafted mostly for P&P release-->
+<!--Audited for P&P only: 4/2025-->
 
 You can view the overall health of your goals and their progress trend in time in the Graphs section of Adobe Workfront Goals. The charts in this section do not break down the progress of each goal, but instead give you a holistic snapshot of all goals' progress status as well as their progress trend in time during a specified period.
 
@@ -19,7 +19,9 @@ You can view the overall health of your goals and their progress trend in time i
 
 ## Access requirements
 
-You must have the following access to perform the actions described in this article:
++++ Expand to view access requirements for the functionality in this article. 
+
+You must have the following: 
 
 <table style="table-layout:auto">
 <col>
@@ -36,7 +38,7 @@ You must have the following access to perform the actions described in this arti
 <p>For the current plan and license structure: 
 <ul><li> A Pro or higher </li>
   <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront license*</td>
@@ -48,12 +50,9 @@ You must have the following access to perform the actions described in this arti
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> New product requirement, one of the following: </p>
-<ul>
-<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
-<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
- <p>Or</p>
- <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+    <p> New product requirement: Workfront</p>
+    Or
+    <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Access level</p></td>
@@ -77,6 +76,8 @@ You must have the following access to perform the actions described in this arti
 </table>
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Types of graphs in Workfront Goals
 
@@ -107,7 +108,7 @@ The following charts are available in the Graphs section or Workfront Goals:
 
 ## Review goal progress in graphs
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -116,7 +117,7 @@ The following charts are available in the Graphs section or Workfront Goals:
 
 1. Click **Graphs** in the left panel.
 
-   ![](assets/graphs-in-left-panel.png)
+   ![Graphs in left panel](assets/graphs-in-left-panel.png)
 
    The Graphs section displays.
 
@@ -135,7 +136,7 @@ The following charts are available in the Graphs section or Workfront Goals:
 
 1. Review the information in the table below when you review the Goal Health Chart.
 
-   ![](assets/gauge-graph-wf-align-350x230.png)
+   ![Gauge graph](assets/gauge-graph-wf-align-350x230.png)
 
    | Total number of goals |The number at the bottom of the chart indicates the number of all goals in the selected period, in all statuses you selected. |
    |---|---|
@@ -145,7 +146,7 @@ The following charts are available in the Graphs section or Workfront Goals:
    
 1. Review the information in the table below when you review the Goal Progress Chart.
 
-   ![](assets/line-graph-wf-align-350x161.png)
+   ![Line graph](assets/line-graph-wf-align-350x161.png)
 
    <table style="table-layout:auto"> 
     <col> 

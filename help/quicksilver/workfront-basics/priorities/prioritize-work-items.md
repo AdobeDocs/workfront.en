@@ -11,6 +11,8 @@ exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
 
 You can use the My Focus column to prioritize your work. The My Focus column is a personal value and does not impact the priority set on the task or issue.
 
+Priorities displays work items assigned to you. You cannot see work items assigned to your team.
+
 ## Prioritize your work with the My Focus column
 
 {{step1-to-priorities}}
@@ -25,7 +27,7 @@ You can use the My Focus column to prioritize your work. The My Focus column is 
     | **Normal**  | Normal is for routine work items that you will work on after Urgent and High-priority items are complete. This is the default for tasks and issues.        |
     | **Low**    |  Low is for work items that do not need immediate attention and can be deferred until all higher-priority work items are done.    |
 
-    ![](assets/my-focus-new.png)
+    ![My Focus](assets/my-focus-new.png)
 
     >[!TIP]
     >

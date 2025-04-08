@@ -17,7 +17,7 @@ You can add or delete object types from an existing custom form with the form de
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 

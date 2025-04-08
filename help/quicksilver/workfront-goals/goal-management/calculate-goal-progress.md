@@ -1,7 +1,7 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Overview of goal progress and condition in Adobe Workfront Goals
+title: Overview of Goal Progress and Condition in Adobe Workfront Goals
 description: Goal progress is driven by progress indicators like activities, results, or children goals. Goal condition is determined by the progress of the goal at the current moment in time. 
 author: Alina
 feature: Workfront Goals
@@ -9,24 +9,25 @@ exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
 ---
 # Overview of goal progress and condition in Adobe Workfront Goals
 
-Your organization must have the following to use the functionality described in this article:
+<!--Audited for P&P only: 4/2025-->
 
-* For the new plan and license structure:
-
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. 
-
-* For the current plan and license structure: 
-
-  * A Pro or higher 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
-
-Contact your Workfront account manager to learn about a Workfront Goals license.
-
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>[!IMPORTANT]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>
+>* For the new plan and license structure:
+>
+>   * An Ultimate plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher 
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+> Contact your Workfront account manager to learn about a Workfront Goals license.
+>
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Adobe Workfront calculates goal progress automatically, based on the progress of its progress indicators.
 
@@ -40,7 +41,7 @@ After you activate a goal, Workfront Goals starts calculating its progress and c
 | Expected percent complete |How much of the goal should be completed so far in order for the goal to complete on time. Workfront Goals calculates this value by looking at the Duration of the goal and the current moment in time. The goal should display this value at the current time, if it were to complete on time.  |
 | Progress  |A label that indicates whether the goal is on target to be completed on time, or if it is at risk or in trouble of not completing.  |
 
-![](assets/in-trouble-goal-progress-expanded.png)
+![In trouble](assets/in-trouble-goal-progress-expanded.png)
 
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
@@ -102,7 +103,7 @@ For example, if the Expected percent complete is 53% at the current time and the
 
 The following chart illustrates the relationship between the condition labels and the progress percentage:
 
-![](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
+![Progress status labels charted](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
 
 The table below lists the goal condition labels and the goal progress percentages associated with each label.
 

@@ -57,4 +57,4 @@ You must have the following access to perform the steps in this article:
 
    The [!UICONTROL Portfolio Optimizer] displays.
 
-   ![](assets/nwe-portfolio-optimizer-350x83.png)
+   ![Portfolio optimizer](assets/nwe-portfolio-optimizer-350x83.png)

@@ -1,17 +1,17 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Use new document approvals and proofing together
-description: You can use new document approvals with proofing.
+title: Use unified approvals and proofing together
+description: You can use unified approvals with proofing.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
 ---
-# Use new document approvals and proofing together
+# Use unified approvals and proofing together
 
-New document approvals in Workfront introduces a new set of features to help you review and approve documents. You can use the new document approvals workflow with the existing proofing viewer to add comments and markup to documents in review.
+Unified approvals in Workfront introduces a new set of features to help you review and approve documents. You can use a unified approvals workflow with the existing proofing viewer to add comments and markup to documents in review.
 
-There are some key differences in the workflow when using new document approvals and proofing together:
+There are some key differences in the workflow when using unified approvals and proofing together:
 
 * Decision buttons do not appear in the proofing viewer 
 
@@ -44,7 +44,7 @@ You have the option to assign reviewers, approvers, or a mix of both:
 To assign participants:
 
 1. Select the document you uploaded and open the document Summary.
-    ![](assets/open-doc-summary.png)
+    ![Open document summary](assets/open-doc-summary.png)
 
 1. Scroll down to the Approvals section, then click **Add**.
 
@@ -56,7 +56,7 @@ To assign participants:
 
 1. To add a reviewer, click the Reviewer button and begin typing in a user or team name.
 
-    ![](assets/add-approvers.png)
+    ![Add approvers](assets/add-approvers.png)
  
 1. Once you've added all reviewers and approvers, click **Submit Request**. Participants are notified via email.
 
@@ -71,7 +71,7 @@ To add a new version:
 1. Once the document finishes uploading, select the document, then click **Create proof** > **Simple proof**. 
 
 1. Select the document again, and open the document Summary.
-    ![](assets/open-doc-summary.png)
+    ![Open document summary](assets/open-doc-summary.png)
 
 1. Scroll down to the Approvals section, then click **Add**.
 
@@ -83,7 +83,7 @@ To add a new version:
 
 1. To add a reviewer, click the Reviewer button and begin typing in a user or team name, <span class="preview">or choose a reviewer from the previous version. </span>
 
-    ![](assets/add-approvers.png)
+    ![Add approvers](assets/add-approvers.png)
  
 1. Once you've added all reviewers and approvers, click **Submit Request**. Participants are notified via email.
  

@@ -25,7 +25,7 @@ The following table shows the limits for how many objects you can create in Work
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 |     Number of workspaces for one Workfront instance                                      |   unlimited*                                                                                                        |
 |     Number of sections for one workspace                                      |   50                                                                                                         |
-|     Number of record types for one workspace                                            |   1,000 (this includes record types from all sections and those that are created when using a workspace template)  |
+|     Number of record types for one workspace                                            |   100 (this includes record types from all sections and those that are created when using a workspace template)  |
 |     Number of records for one record type                                               |   25,000                                                                                                        |
 |     Number of records for one workspace                                               |   25,000 for customers with Planning <br> 500,000 for customers with Planning Plus                                                                                                         |
 |     Number of total records for one instance of Workfront Planning                                               |   500,000 for customers with Planning <br>2 million for customers with Planning Plus                                                                                                         |
@@ -38,7 +38,7 @@ The following table shows the limits for how many objects you can create in Work
 |     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
 | Number of views one user can create for one record type | 100 |
 | Size of CSV of Excel file you can import to create record types | 5MB |
-| Number of rows you can import in a CSV or Excel file to create record types | 10,000 |
+| Number of rows you can import in a CSV or Excel file to create record types | 25,000 |
 | Number of columns you can import in a CSV or Excel file to create record types | 500 |
 
 *We recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.

@@ -28,13 +28,13 @@ You need to install the [!DNL Workfront] app before you join the beta.
 
 1. After the progress completes, you receive a confirmation that you are now a beta user.\
    The word "[!UICONTROL Beta]" appears after the name of your app in the [!DNL Play Store] indicating that you are using the beta version of the app.\
-   ![](assets/android-beta-tester-adobe-350x468.png)
+   ![Android beta tester](assets/android-beta-tester-adobe-350x468.png)
 
 ### QR code
 
 You can also scan the QR Code below to sign up for the beta and download the app:
 
-![](assets/android-qr-code-350x409.png)
+![Android QR code](assets/android-qr-code-350x409.png)
 
 ## Let us know how we're doing
 

@@ -96,7 +96,7 @@ To create initiatives from scratch:
 1. (Optional) Drag the end of the initiative bar to extend its duration to more than one month and release it where you want the end month of the initiative to be. 
 1. (Optional and conditional) If the duration of the initiative is shorter than that of the plan, drag and drop the initiative bar in a different position on the timeline of the plan, to move it to another time frame.
 
-   ![](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
+   ![Move initiative on timeline](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
 
    >[!IMPORTANT]
    >
@@ -114,7 +114,7 @@ To create initiatives from scratch:
 1. (Optional) Scroll from left to right to see the entire duration of the initiative. 
 1. (Optional) Click the **[!UICONTROL Today]** indicator line to come back to the current date.
 
-   ![](assets/today-indicator-350x160.png)
+   ![Today indicator](assets/today-indicator-350x160.png)
 
    >[!TIP]
    >
@@ -122,7 +122,7 @@ To create initiatives from scratch:
 
 1. Click the bar of an initiative. The initiative details panel opens on the right.
 
-   ![](assets/initiative-details-panel-multiple-months-350x626.png)
+   ![Initiative details panel](assets/initiative-details-panel-multiple-months-350x626.png)
 
    Specify or review the following information:
 
@@ -190,7 +190,7 @@ To create initiatives from scratch:
    >
    >If you have already defined the number of job roles and the budget for your plan and the number of job role and the costs of the initiative you are editing and of all the initiatives above it and they all exceed the amounts you specified for the plan, [!DNL Workfront] might find that you do have not have enough resources to finish the initiative. [!DNL Workfront] marks this as a conflict when trying to achieve this initiative and it displays it as a red bar. All the initiatives that follow the conflicted initiative display in a red background. You might need to adjust some of the needs of your initiatives starting with the first one that has insufficient resources. For information about adjusting conflicting initiatives, see [Resolve initiative conflicts in the [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
 
-1. (Optional) Hover over the name of a job role, then click the **[!UICONTROL trash can icon]** ![](assets/delete.png) to remove it from the initiative. 
+1. (Optional) Hover over the name of a job role, then click the **[!UICONTROL trash can icon]** ![Delete icon](assets/delete.png) to remove it from the initiative. 
 
 1. (Conditional) If you made changes to the initiative, click **[!UICONTROL Apply]**.
 

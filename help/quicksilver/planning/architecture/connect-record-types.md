@@ -36,7 +36,7 @@ For an example of connecting record types and records, see [Example of connectin
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -181,13 +181,13 @@ You must have the following access to perform the steps in this article:
 1. Click the card of a record type to open the record type page. 
 1. Click the **+** icon in the upper-right corner of the table view, then click the **New connection** tab.
 
-    ![](assets/new-connection-tab-with-workfront-aem-options.png)
+    ![New connection tab with Workfront AEM options](assets/new-connection-tab-with-workfront-aem-options.png)
 
 1. In the **Record type** field, search for a record type, or select one of the following: 
 
     * Another record type from the current workspace
 
-        ![](assets/many-to-many-connection-picker.png)
+        ![Many to many connection picker](assets/many-to-many-connection-picker.png)
 
         >[!TIP]
         >
@@ -195,22 +195,24 @@ You must have the following access to perform the steps in this article:
         >If you don't have other record types in the selected workspace, the workspace section does not display. 
         
 
-    * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
-
-        ![](assets/new-connection-allow-multiple-records-box.png)
-
+    * A record type from another workspace that was configured to connect from other workspaces. 
+    
         >[!TIP]
         >
-        >If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
+        >The **Connect from other workspaces** setting must be enabled for a record type in the **Advanced settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
+        > ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
 
+        For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
+
+        ![New connection to allow multiple records box](assets/new-connection-allow-multiple-records-box.png)
 
     * A **Project, Portfolio, Program, Company**, or **Group** from the **Workfront Object Types** section.
 
-        ![](assets/workfront-project-connection-selection.png)
+        ![Workfront project connection selection](assets/workfront-project-connection-selection.png)
 
     * **Experience Manager Assets** from the **Adobe Applications** section. 
 
-        ![](assets/aem-assets-connection-selection.png)
+        ![AEM Assets connection selection](assets/aem-assets-connection-selection.png)
 
 1. Update the following information: 
 
@@ -225,7 +227,7 @@ You must have the following access to perform the steps in this article:
      
         This option is available only when connecting records from two different workspaces or a record and an Adobe Experience Manager asset object. 
 
-        ![](assets/new-connection-allow-multiple-records-box.png)
+        ![New connection to allow multiple records box](assets/new-connection-allow-multiple-records-box.png)
      
      * **Connection type**: Select one of the following options to indicate how many records they can connect to and from:
 
@@ -236,7 +238,7 @@ You must have the following access to perform the steps in this article:
      
         This option is available only when connecting records from the same workspace or a record and a Workfront object type.        
 
-        ![](assets/many-to-many-connection-picker.png)
+        ![Many to many connection picker](assets/many-to-many-connection-picker.png)
                 
         For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -295,7 +297,7 @@ You must have the following access to perform the steps in this article:
   
     Click the **-** icon to remove fields from the **Selected fields** area
 
-    ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
+    ![Add lookup fields for another record type box](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
     The values for the connected fields populate automatically after you link records or objects. 
 
@@ -320,7 +322,7 @@ You must have the following access to perform the steps in this article:
     >
     >    You must select an aggregator value when adding lookup date fields, if you want the fields to be available to add as Start and End Dates for the timeline and calendar views. For example, you can select the MAX or the MIN aggregator for a lookup date field. 
 
-    ![](assets/aggregator-drop-down-for-number-linked-field.png)  
+    ![Aggregator drop down for linked number field](assets/aggregator-drop-down-for-number-linked-field.png)  
 
     >[!NOTE]
     >
@@ -350,7 +352,7 @@ You must have the following access to perform the steps in this article:
     >* **UNIQUE**: $100,000 
     >
 
-1. (Optional) Use the **search** icon ![](assets/search-icon.png) to search for a field.
+1. (Optional) Use the **search** icon ![Search icon](assets/search-icon.png) to search for a field.
 
 1. Click **Add fields** to save your changes.
 
@@ -377,7 +379,7 @@ You must have the following access to perform the steps in this article:
     * **Edit field**: Update the **Name** and the **Description** information of the field. 
     * **Edit lookup fields**: Add or remove any of the linked record's fields. 
 
-    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
+    ![Edit field and lookup fields drop-down menu in table column](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
     To add or remove lookup fields, follow the directions in steps 16-17 above. <!--ensure these step numbers stay accurate--> 
 

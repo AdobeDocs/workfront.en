@@ -68,7 +68,7 @@ Consider the following about connecting record types:
     
         * A linked record field is created on the record type you're connecting from. No linked record field is automatically created on the other application's object type. 
         * Planning records fields are not accessible from Workfront objects.
-        * Planning records are visible from the Workfront object's Planning tab. For information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+        * Planning records are visible from the Workfront object's Planning tab. For information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
         * <span class="preview">You can create a Planning connection custom field and attach it to a Workfront object's custom form. For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). </span>
         * Planning record fields are accessible from Experience Manager assets when your Workfront administrator configures the metadata mapping through the integration between Workfront and Adobe Experience Manager Assets. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
         
@@ -87,7 +87,7 @@ Consider the following about connecting record types:
         >
         >Everyone with View or higher permissions to the workspace can view the information in the lookup fields, regardless of their permissions or access level in the application of the linked object types or their permissions in other workspaces. 
 
-        Linked record fields are preceded by a relationship icon ![](assets/relationship-field-icon.png). 
+        Linked record fields are preceded by a relationship icon ![Relationship field icon](assets/relationship-field-icon.png). 
     
         Linked fields are preceded by an icon that identifies the field type. For example, linked (or lookup) fields are preceded by icons that indicate that a field is a number, a paragraph, or a date. 
 
@@ -112,7 +112,7 @@ Depending on how many records you can add to a connected record field, the follo
 
 ### Many-to-many connection type
 
-![](assets/many-to-many-connection-picker.png)
+![Many to many connection picker](assets/many-to-many-connection-picker.png)
 
 When you create a many-to-many connection between record types, you can then select multiple records in the connection field from both record types. 
 
@@ -124,7 +124,7 @@ When you select this connection type, you cannot change the connection type afte
 
 ### One-to-many connection type
 
-![](assets/one-to-many-connection-picker.png)
+![One to many connection picker](assets/one-to-many-connection-picker.png)
 
 
 When you create a one-to-many connection between record types, you can then select multiple records in the connection field in the current record type, but the corresponding connection field in the record type you connect to will allow selecting only one record. The connected record field that is automatically created on the second record type is automatically set to a many-to-one relationship type. 
@@ -137,7 +137,7 @@ When you select this connection type, you can later change it only to a many-to-
 
 ### Many-to-one connection type
 
-![](assets/many-to-one-connection-picker.png)
+![Many to one connection picker](assets/many-to-one-connection-picker.png)
 
 
 When you create a many-to-one connection between record types, you can then connect each record in the current record type with only one record from the connected record type. The connected record field that is automatically created on the second record type is automatically set to a one-to-many relationship type. 
@@ -150,7 +150,7 @@ When you select this connection type, you can later change it only to a many-to-
 
 ### One-to-one connection type
 
-![](assets/one-to-one-connection-picker.png)
+![One to one connection picker](assets/one-to-one-connection-picker.png)
 
 When you create a one-to-one connection between record types, in both record types you can connect each record only with one record from the other record type.
 

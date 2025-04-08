@@ -17,7 +17,7 @@ You can see how often users log in to Adobe Workfront, as well as the last time 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 

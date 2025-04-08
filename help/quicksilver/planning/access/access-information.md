@@ -18,8 +18,15 @@ The following articles contain information about what access your users need to 
 
 * [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md)
 * [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
-* [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
+
+<!--<div class="preview">
+
+* [Share record types](/help/quicksilver/planning/access/share-record-types.md)
+
+</div>-->
+
 * [Share views](/help/quicksilver/planning/access/share-views.md)
+* [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
 * [License type overview when using Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
 * [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md)
 

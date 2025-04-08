@@ -60,11 +60,20 @@ For more detail about the information in this table, see [Access requirements in
 {{step-1-to-setup}}
 
 1. Click **Access Levels** in the left panel.
-1. Select the access level you want to copy and customize, then click **Copy**.
+1. * In the production environment: 
+     Select the access level you want to copy and customize, then click **Copy**.
 
-   Or
+     Or
 
-   If you are editing an existing access level (that you copied previously), click its name.
+     If you are editing an existing access level (that you copied previously), click its name.
+
+   * <span class="preview">In the preview environment:</span>
+      
+      <span class="preview">Select the access level you want to copy and customize, then click the **Copy** icon ![Copy icon](assets/copy-icon.png). </span>
+
+      <span class="preview">Or </span>
+
+      <span class="preview">If you are editing an existing access level, select the access level by clicking the box at the left of that access level, then click the **Edit** icon ![Edit icon](assets/edit-icon.png). </span>
 
 1. In the box that displays, do any of the following to start configuring the custom access level:
 
@@ -178,7 +187,7 @@ For more detail about the information in this table, see [Access requirements in
      </tr> 
      <tr> 
       <td role="rowheader">View only companies, groups &amp; teams they belong to</td> 
-      <td>Allows users to view and share items only with companies, groups, and teams they belong to.<p><strong>NOTE</strong>: Users with Requestor licenses cannot view companies they do not belong to, even if this option is selected.</td> 
+      <td>Allows users to view and share items only with companies, groups, and teams they belong to.<p><strong>NOTE</strong>: Users with Requestor or Contributor licenses cannot view companies they do not belong to, even if this option is selected.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Never allow visibility of Planned Hours or Actual Hours</td> 
@@ -215,3 +224,6 @@ If you grant a Standard or Planner user administrative access to job roles, the 
 Later, if you disable administrative access to job roles for the user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled.
 
 If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting. For instructions, see [Grant access to financial data](grant-access-financial.md).
+
+
+

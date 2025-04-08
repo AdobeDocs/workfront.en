@@ -9,11 +9,16 @@ exl-id: 48371389-952c-4732-b519-9774cd4d1b93
 ---
 # Align goals by converting results and activities to goals
 
+<!--Audited P&P only: 4/2025-->
+
 You can manually align two goals or you can convert the results and activities of an existing goal to another goal. The converted result or activity becomes the child goal of the original goal. 
 For information about manually aligning two goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
+You need the following access to perform activities listed in this article: 
 
 <table style="table-layout:auto">
 <col>
@@ -22,11 +27,15 @@ For information about manually aligning two goals, see [Align goals by connectin
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Adobe Workfront plan</td>
- <td>
- <p>Any</p>
- 
- </td>
+ <td role="rowheader">Adobe Workfront plan*</td>
+ <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront license*</td>
@@ -38,12 +47,9 @@ For information about manually aligning two goals, see [Align goals by connectin
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> New product requirement, one of the following: </p>
-<ul>
-<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
-<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
- <p>Or</p>
- <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+   <p> New product requirement: Workfront</p>
+   Or
+   <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Access level</td>
@@ -67,6 +73,8 @@ For information about manually aligning two goals, see [Align goals by connectin
 </table>
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 
@@ -103,9 +111,9 @@ Consider the following when converting results and activities to goals:
 1. Click the name of the goal to open the **Goal Details** panel.
 1. Expand the **Results** or **Activities** right-pointing arrows to see a list of results or activities for the goal. 
 
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
 
-   ![](assets/convert-to-goal-link-highlighted-350x191.png)
+   ![Convert to goal](assets/convert-to-goal-link-highlighted-350x191.png)
 
 1. (Optional) Remove the name of the original activity or result owner from the **Goal Owner** field and replace it with another user, team, group, or your organization's name. By default, Workfront selects the owner of the result or the activity as the goal owner. 
 1. Click **Convert**. The activity or result displays as an aligned goal in the Goal Details panel of the original goal and the original activity or result is removed from the original goal and transferred to the second goal. By default, the new goal has the same name as the original converted result or activity. 
@@ -114,9 +122,9 @@ Consider the following when converting results and activities to goals:
 
 1. Go to a goal that has a result or an activity that you want to convert to a goal.
 1. From the goal's page, click **Progress indicators** in the left panel. 
-1. Select a result or activity in the list of progress indicators, then click the **Convert to goal** icon ![](assets/convert-to-goal-icon-unshimmed.png) at the top of the progress indicator list. The Convert to goal box opens. 
+1. Select a result or activity in the list of progress indicators, then click the **Convert to goal** icon ![Convert to goal](assets/convert-to-goal-icon-unshimmed.png) at the top of the progress indicator list. The Convert to goal box opens. 
 
-   ![](assets/convert-to-goal-box-unshimmed.png) 
+   ![Convert to goal box](assets/convert-to-goal-box-unshimmed.png) 
 1. Update the following information:
     * **Goal name**: By default, the new goal has the same name as the original result or activity.
     * **Period**: By default, the new goal's period is the current quarter. You can select the **Enable custom dates** setting to define a custom time period for the new goal.

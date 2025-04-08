@@ -56,4 +56,4 @@ Before you begin, you must
 1. From the document list, select the document. 
 1. In the Document Summary on the right, hover over the thumbnail at the top and choose **Preview** or **Download**.
 
-   ![](assets/view-or-download-enhanced-connector-350x123.png)
+   ![Preview or Download](assets/view-or-download-enhanced-connector-350x123.png)

@@ -83,7 +83,7 @@ To create or edit a plan:
 
    A list of existing plans that you created displays in the [!DNL Workfront Scenario Planner]. 
 
-1. (Optional) Click the **[!UICONTROL Filter]** icon ![](assets/filter-icon-34x37.png)in the upper-right corner of the plan list, and select from the following:
+1. (Optional) Click the **[!UICONTROL Filter]** icon ![Filter icon](assets/filter-icon-34x37.png)in the upper-right corner of the plan list, and select from the following:
 
    | Filter |Description  |
    |---|---|
@@ -91,9 +91,9 @@ To create or edit a plan:
    | [!UICONTROL My plans] |Displays plans that you created.  |
    | [!UICONTROL Shared with me] |Displays plans shared with you.  |
 
-   ![](assets/plans-filters-dropdown-options-scenario-planer.png)
+   ![Plans filters dropdown options](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. (Optional) Click the **[!UICONTROL Search]** icon ![](assets/search-icon.png) to type a keyword and quickly locate a plan in the list. 
+1. (Optional) Click the **[!UICONTROL Search]** icon ![Search icon](assets/search-icon.png) to type a keyword and quickly locate a plan in the list. 
 
 1. Click the name of an existing plan to edit it and continue with step 7.
 
@@ -109,11 +109,11 @@ To create or edit a plan:
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
    -->
 
-   ![](assets/new-plan-button.png)
+   ![New plan button](assets/new-plan-button.png)
 
    The [!UICONTROL New Plan] box displays.
 
-   ![](assets/new-plan-ui-adding-a-new-plan-350x306.png)
+   ![New plan box](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
 1. (Conditional) When you create a new plan, specify the following information:
 
@@ -166,7 +166,7 @@ To create or edit a plan:
 
 1. (Optional) From the timeline drop-down menu select one of the options in the following table to change the way you view the timeline of the plan.
 
-   ![](assets/month-dropdown-with-all-options.png)
+   ![Month dropdown](assets/month-dropdown-with-all-options.png)
 
    | Drop-down menu option |Description  |
    |---|---|
@@ -177,7 +177,7 @@ To create or edit a plan:
 1. (Optional) Scroll from left to right to view the entire duration of the plan. 
 1. (Optional) Click the **[!UICONTROL Today]** indicator line to return to the current day.
 
-   ![](assets/today-indicator-350x160.png)
+   ![Today indicator](assets/today-indicator-350x160.png)
 
 1. Click the **[!UICONTROL Job Roles]** box in the header of the plan to add job roles that will be available to execute the plan.
 
@@ -187,7 +187,7 @@ To create or edit a plan:
    >
    >The role allocation unit (FTE or hours) that [!DNL Workfront] uses for this plan displays in parentheses in the title of the box.
 
-   ![](assets/adding-people-to-plan-350x206.png)
+   ![Adding people to plan](assets/adding-people-to-plan-350x206.png)
 
 1. Click the **[!UICONTROL Start typing job role]** field and select a role from the list or start typing the name of an active job role.
 
@@ -233,12 +233,12 @@ To create or edit a plan:
     </tbody> 
    </table>
 
-1. (Optional) Hover over the name of a job role or click tab after updating the role information, then click the **[!UICONTROL trash can icon]** ![](assets/delete.png) to remove it from the plan. 
+1. (Optional) Hover over the name of a job role or click tab after updating the role information, then click the **[!UICONTROL trash can icon]** ![Delete icon](assets/delete.png) to remove it from the plan. 
 1. Click **[!UICONTROL Job role distribution]**.
 
    The job role distribution panel displays for all months in the duration of the scenario.
 
-   ![](assets/job-role-monthly-distribution-box-fte-350x144.png)
+   ![Job role monthly distribution](assets/job-role-monthly-distribution-box-fte-350x144.png)
 
 1. Type the name of a job role to add it to the plan in the **[!UICONTROL Start typing job role field]**, then click Enter when it appears on the list. This adds the job role to the [!UICONTROL Job Roles] column. 
 1. Update or review the following information for each month of the scenario: 
@@ -328,13 +328,13 @@ To create or edit a plan:
 
 1. Click **[!UICONTROL Advanced]** to see the monthly budget distribution. The yearly and monthly budgets are always rounded numbers. When the budget amount cannot be distributed equally to all the months within a year because of decimals a **[!UICONTROL Remaining]** indicator displays under the yearly budget distribution.
 
-   ![](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
+   ![Advanced and remaining links](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
 
 1. Manually adjust the monthly budgets to eliminate the exceeding amounts.
 
    When the total of all monthly budget amounts is larger than the yearly budget, an **[!UICONTROL Exceeding]** warning indicator displays under the yearly budget distribution. Manually adjust the monthly budget amounts until they are equal or lower to the available budget for the plan.
 
-   ![](assets/exceeding-budget-warning-on-plan-350x483.png)
+   ![Exceeding budget warning](assets/exceeding-budget-warning-on-plan-350x483.png)
 
 1. Disable the **[!UICONTROL Include people costs]** setting to exclude costs associated with job roles from counting towards the overall cost of the plan. Fixed Costs are always counting towards the overall cost of the plan. This setting is enabled by default and affects all scenarios on the plan. 
 1. Click anywhere outside the [!UICONTROL Financial] box to close it. The information you entered is automatically saved.
@@ -354,6 +354,6 @@ To create or edit a plan:
 
    Your plan is created or updated.
 
-1. (Optional) Click the **[!UICONTROL Favorites icon]** ![](assets/favorites-icon-small.png) to the right of the plan name to add the plan to your list of Favorites. 
+1. (Optional) Click the **[!UICONTROL Favorites icon]** ![Favorites icon](assets/favorites-icon-small.png) to the right of the plan name to add the plan to your list of Favorites. 
 
 1. (Optional) Copy the URL of the plan and send it to any other user that might need to review or update it. They must have at least [!UICONTROL View] access in their access level to be able to view the plan. They must have [!UICONTROL Edit] access to edit it. If they must review financial information on the plan, like budgets, costs, and job role rates information, they must also have access to [!UICONTROL Financial Data] in their Access level. For information about the access needed for the [!DNL Scenario Planner], see [Access needed to use the [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).

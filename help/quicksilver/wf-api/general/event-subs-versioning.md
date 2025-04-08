@@ -13,8 +13,11 @@ exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
 Workfront has two versions of event subscriptions. This article describes the differences between them.
 
 The new version is not a change to the Workfront API, but rather a change to the event subscription functionality. 
-
+ 
 The ability to upgrade or downgrade event subscriptions ensures that when changes are made to the structure of events, existing subscriptions do not break, allowing you to test and upgrade to the new version without a gap in your event subscription.
+
+
+When you upgrade or downgrade your event subscription to another version, you receive duplicate events for every event delivery for a five minute window after the version change. The duplicates include one each of event subscription version 1 and version 2. This ensures that you do not miss any events due to changing the event subscription version.
 
 For information on the endpoints used for upgrading or downgrading event subscriptions, see [Event subscription versioning](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) in the article Event subscription API.
 
@@ -24,10 +27,11 @@ For information on the endpoints used for upgrading or downgrading event subscri
 >
 >* **25.2 Release** (April 10, 2025): All new subscriptions created after the 25.2 release are created as Version 2.
 >* **25.3 Release** (July 17, 2025): Subscriptions can no longer be downgraded to Version 1 after the 25.3 release.
+>* **September 1, 2025**: All remaining Version 1 subscriptions are migrated to Version 2.
 
 ## Changes between Version 1 and Version 2
 
-The following changes have been made for event subscriptions Version 2
+The following changes have been made for event subscriptions Version 2:
 
 
 ### General changes
@@ -240,3 +244,10 @@ The following changes have been made for event subscriptions Version 2
    <td>None. If you have a filter on the affected field, you receive an <code>UPDATE</code> event only if that field has actually changed, not if any other parameter value has changed.
  </tbody> 
 </table>
+
+
+## Update event subscription version in a Workfront Fusion scenario
+
+Workfront Fusion uses event subscriptions to watch for changes in Workfront to trigger scenarios. You can update the event susbcription version that Fusion uses directly in a scenario, using the Workfront > Update Events Payload Version module.
+
+For instructions on using this module, see [Workfront modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) In the Workfront Fusion documentation.

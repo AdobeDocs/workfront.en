@@ -81,12 +81,12 @@ If your company has purchased a [!DNL Workfront Scenario Planner] license, you c
 
 1. Do one of the following:
 
-   * Click **[!UICONTROL Month]** to view the Workload Balancer by month, click the drop-down menu next to a month in the timeline ![](assets/drop-down-next-to-month-month-view-wb.png), then click **[!UICONTROL More]**. 
-   * Click the **[!UICONTROL Show role allocation]** icon ![](assets/show-role-allocation-icon.png) in the upper-right corner of the toolbar.
+   * Click **[!UICONTROL Month]** to view the Workload Balancer by month, click the drop-down menu next to a month in the timeline ![Dropdown next to month](assets/drop-down-next-to-month-month-view-wb.png), then click **[!UICONTROL More]**. 
+   * Click the **[!UICONTROL Show role allocation]** icon ![Show role allocation](assets/show-role-allocation-icon.png) in the upper-right corner of the toolbar.
 
    The [!UICONTROL Role Allocation] panel displays.
 
-   ![](assets/role-allocation-panel-months-collapsed-350x319.png)
+   ![Role allocation panel](assets/role-allocation-panel-months-collapsed-350x319.png)
 
    >[!CAUTION]
    >
@@ -156,7 +156,7 @@ If your company has purchased a [!DNL Workfront Scenario Planner] license, you c
 
 1. (Optional) Click the drop-down icon to expand one of the months in the [!UICONTROL Role Allocation] panel or in the timeline of the [!UICONTROL Workload Balancer].
 
-   ![](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
+   ![Expand month in role allocation panel](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
    The same type of information displayed in the [!UICONTROL Project Totals] area also displays for each month.
 

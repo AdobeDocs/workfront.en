@@ -154,7 +154,7 @@ For information about the access needed for budgeting resources, see the article
 
 To budget allocations in the Resource Planner in the**** Role view:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
 1. Click **Resourcing**. 
 1. The **Planner** displays by default. 
@@ -219,7 +219,7 @@ To budget allocations in the Resource Planner in the**** Role view:
 
 You can budget allocations for your resources in bulk when using quick links. The quick links are available only for the Project and Role Views.
 
-![](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
+![Automatic budgeting options](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
 
 >[!NOTE]
 >

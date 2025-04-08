@@ -2,18 +2,17 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Requirements to use Workfront Goals
-description: Your Adobe Workfront administrator must ensure certain conditions are met before you can access Adobe Workfront Goals. 
+title: Requirements to Use Workfront Goals
+description: Your Adobe Workfront administrator must ensure certain conditions are met before you can access Adobe Workfront Goals. In this article, learn about the access, permissions, and layout requirements to access Workfront Goals.
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
 ---
 # Requirements to use Workfront Goals
 
-Your Adobe Workfront administrator must ensure all of the following conditions are met before you can access Adobe Workfront Goals:
+<!--Audited P&P only: 04/2025-->
 
-<!--drafted for P&P - replace the first bullet with this one when licensing changes: 
-* Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
+Your Adobe Workfront administrator must ensure all of the following conditions are met before you can access Adobe Workfront Goals:
 
 * Your organization must purchase the correct license for Workfront Goals. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access) in this article.
 
@@ -42,9 +41,9 @@ Your Adobe Workfront administrator must ensure all of the following conditions a
 
 Depending on which Workfront plan your company is currently on, the following scenarios exist: 
 
-* If your company has a new Workfront plan, you must have an Ultimate Workfront plan. Workfront Goals are included only in this plan. 
+* **A new Workfront plan**: You must have an Ultimate Workfront plan. Workfront Goals are included only in this plan. 
 
-* If your company has the current Workfront plan, your organization must purchase an additional license, in addition to the Workfront license, for your users to be able to access Workfront Goals. 
+* **A current Workfront plan**: Your organization must purchase an additional license, in addition to the Workfront license.
 
   After your organization purchases the additional license, Workfront enables Workfront Goals for your account. For information about purchasing a license for Workfront Goals contact your Workfront account manager.
 
@@ -54,13 +53,13 @@ For information about Workfront access requirements, see [Access requirements in
 
 Depending on which Workfront plan your company is currently on, the following scenarios exist: 
 
-* If your company has the new access level model, your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 
+* **The new access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 
 
   * Contributor
   * Light
   * Standard
 
-* If your company has the current access level model, your Workfront administrator, must grant you one of the following Workfront license types to access Workfront Goals:
+* **The current access level model**: Your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals:
 
   * Plan
   * Work 
@@ -79,7 +78,7 @@ As a Workfront administrator, you can review the number of Workfront Goals licen
 
 Your Workfront or Group administrator must assign you a Layout Template that includes the Goals area in the Main Menu so you can access Workfront Goals.
 
-![](assets/layout-template-align-highlighted-350x220.png)
+![Layout template](assets/layout-template-align-highlighted-350x220.png)
 
 Your Workfront administrator or Group administrator can also add the following to your layout template so you can easily access Workfront Goals:
 

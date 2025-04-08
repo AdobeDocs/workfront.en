@@ -63,9 +63,9 @@ Consider the following when viewing or editing information in the Finance area:
 
 1. Go to a project.
 1. Click **Project Details** in the left panel.
-1. Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section, then click **Finance**.
+1. Click the **Edit** icon ![Edit icon](assets/edit-icon.png) in the upper-right corner of the Details section, then click **Finance**.
 
-   ![](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![Finance area in details view](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
    >[!NOTE]
    >
@@ -150,14 +150,14 @@ To edit information on the Project Finance subtab:
    >You need Manage permissions to the project to perform the following steps. We also recommend that only the Project Owner should make changes to the Finance subtab of the project.
 
 1. Click **Project Details** in the left panel.
-1. Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section, then click&nbsp;**Finance** . This opens the Finance area for editing.
+1. Click the **Edit** icon ![Edit icon](assets/edit-icon.png) in the upper-right corner of the Details section, then click&nbsp;**Finance** . This opens the Finance area for editing.
 1. Edit any field that is available for editing, by single-clicking the field or click **+Add** to add information to an empty field.
 
    >[!TIP]
    >
    >Fields are not available for editing if they are automatically calculated by Workfront or if you don't have editing permissions on them.
 
-   ![](assets/edit-finance-area-in-project-details-nwe-350x275.png)
+   ![Edit finance area](assets/edit-finance-area-in-project-details-nwe-350x275.png)
 
 1. Update any of the fields below.
 

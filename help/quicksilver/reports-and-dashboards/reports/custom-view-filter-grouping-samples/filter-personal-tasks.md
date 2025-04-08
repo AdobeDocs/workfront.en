@@ -18,7 +18,7 @@ Ad hoc work requests and to-do items are saved in Adobe Workfront as personal ta
 
 Personal tasks are not connected to a project but they can be moved to a project, if needed. For information, see [Create personal tasks](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md). 
 
-![](assets/personal-tasks-report.png)
+![Personal tasks report](assets/personal-tasks-report.png)
 
 ## Access requirements
 

@@ -344,6 +344,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
     "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
     "date_created": "2024-04-11T17:10:10.305981",
     "date_modified": "2024-04-11T17:10:10.305981",
+    "version": "v2",
+    "dateVersionUpdated": "2025-01-15T04:04:04.407945"
     "customerId": "504f9640000013401be513579fbebffa",
     "objId": null,
     "objCode": "PROJ",
@@ -416,6 +418,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
     "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
     "date_created": "2024-04-11T17:10:10.305981",
     "date_modified": "2024-04-11T17:10:10.305981",
+    "version": "v2",
+    "dateVersionUpdated": "2025-01-15T04:04:04.407945"
     "customerId": "504f9640000013401be513579fbebffa",
     "objId": null,
     "objCode": "PROJ",
@@ -441,6 +445,10 @@ Workfront has two versions of event subscriptions.
 The ability to upgrade or downgrade event subscriptions ensures that when changes are made to the structure of events, existing subscriptions do not break, allowing you to test and upgrade to the new version without a gap in your event subscription.
 
 For more information on event subscription versioning, including specific differences between the version and important dates, see [Event subscription versioning](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+
+>[!NOTE]
+>
+>When you upgrade or downgrade your event subscription to another version, you receive duplicate events for every event delivery for a five minute window after the version change. The duplicates include one each of event subscription version 1 and version 2. This ensures that you do not miss any events due to changing the event subscription version.
 
 ### Single subscription version change
 
@@ -920,6 +928,8 @@ The following is an example payload for an UPDATE event:
                        "nano": 998000000,
                        "epochSecond": 1507319336
                    },
+                   "eventVersion": "v2",
+                   "subscriptionVersion": "v2",
                    "newState": {
                 "ID": "59d7ddf7000002322d791eb08bafddfb", 
                        "name": "EventSub Test updated",
@@ -989,6 +999,8 @@ Following is an example payload for a CREATE event:
                 "nano": 232000000,
                 "epochSecond": 1506453831
                 },
+                "eventVersion": "v2",
+                "subscriptionVersion": "v2",
                 "newState": {
                 "ID": "59caa946000000e07b0afc3383230c67",
                 "name": "EventSub Test fe16d470-0a40-4290-92f4-6a0389fb536c",
@@ -1057,6 +1069,8 @@ The following is an example of a request that uses the base64Encoding field:
                 "nano": 998000000,
                 "epochSecond": 1507319336
                 },
+                "eventVersion": "v2",
+                "subscriptionVersion": "v2",
                 "newState": "ewogICAgICAgIklEIjogIjU5ZDdkZGY3MDAwMDAyMzIyZDc5MWViMDhiYWZkZGZiIiwgCiAgICAgICAibmFtZSI6ICJFdmVudFN1YiBUZXN0IHVwZGF0ZWQiLAogICAgICAgIm9iakNvZGUiOiAiUFJPSiIsCiAgICAgICAiZW50cnlEYXRlIjogIjIwMTctMTAtMDZUMTM6NDg6MDcuNzc2LTA2MDAiLAogICAgICAgImFjY2Vzc29ySURzIjogWwogICAgICAgICAgICI1NDQ4MjBkZjAwMDAxNDIzNjI3NDFmYzBjMzY4ZGUxOSIKICAgICAgIF0sCiAgICAgICAibGFzdFVwZGF0ZURhdGUiOiAiMjAxNy0xMC0wNlQxMzo0ODo1Ni45ODAtMDYwMCIsCiAgICAgICAiZ3JvdXBJRCI6ICI1NDQ4MjBkZjAwMDAxNDBmNmE5YzFmYWE3Y2FjYWRkMyIsCiAgICAgICAic3BvbnNvcklEIjogbnVsbCwKICAgICAgICJkZXNjcmlwdGlvbiI6IG51bGwsCiAgICAgICAicGxhbm5lZENvbXBsZXRpb25EYXRlIjogIjIwMTctMTAtMDZUMDk6MDA6MDAuMDAwLTA2MDAiLAogICAgICAgImVudGVyZWRCeUlEIjogIjU0NDgyMGRmMDAwMDE0MjM2Mjc0MWZjMGMzNjhkZTE5IiwKICAgICAgICJvd25lcklEIjogIjU0NDgyMGRmMDAwMDE0MjM2Mjc0MWZjMGMzNjhkZTE5IiwKICAgICAgICJ0ZW1wbGF0ZUlEIjogbnVsbCwKICAgICAgICJwcmlvcml0eSI6IDAsCiAgICAgICAiY29tcGFueUlEIjogbnVsbCwKICAgICAgICJwb3J0Zm9saW9JRCI6IG51bGwsCiAgICAgICAicmVmZXJlbmNlTnVtYmVyIjogMTg5NCwKICAgICAgICJsYXN0VXBkYXRlZEJ5SUQiOiAiNTQ0ODIwZGYwMDAwMTQyMzYyNzQxZmMwYzM2OGRlMTkiLAogICAgICAgImN1c3RvbWVySUQiOiAiNTQ0ODIwZGYwMDAwMTM1Yjc3MTlkY2NhNjU0MzkxZjYiLAogICAgICAgImN1cnJlbmN5IjogbnVsbCwKICAgICAgICJjYXRlZ29yeUlEIjogbnVsbCwKICAgICAgICJzdGF0dXMiOiAiQ1VSIiwKICAgICAgICJwYXJhbWV0ZXJWYWx1ZXMiOiB7fQogICAgfQ==",
                 "oldState": "ewogICAgICAgICJJRCI6ICI1OWQ3ZGRmNzAwMDAwMjMyMmQ3OTFlYjA4YmFmZGRmYiIsCiAgICAgICAgIm5hbWUiOiAiRXZlbnRTdWIgVGVzdCAxODBmZDU5NS02M2ZiLTRmYTktYmQ0Ny01OGJmNmU1M2Q5NjQiLAogICAgICAgICJvYmpDb2RlIjogIlBST0oiLAogICAgICAgICJlbnRyeURhdGUiOiAiMjAxNy0xMC0wNlQxMzo0ODowNy43NzYtMDYwMCIsCiAgICAgICAgImFjY2Vzc29ySURzIjogWwogICAgICAgICAgICAiNTQ0ODIwZGYwMDAwMTQyMzYyNzQxZmMwYzM2OGRlMTkiCiAgICAgICAgXSwKICAgICAgICAibGFzdFVwZGF0ZURhdGUiOiAiMjAxNy0xMC0wNlQxMzo0ODowNy43OTItMDYwMCIsCiAgICAgICAgImdyb3VwSUQiOiAiNTQ0ODIwZGYwMDAwMTQwZjZhOWMxZmFhN2NhY2FkZDMiLAogICAgICAgICJzcG9uc29ySUQiOiBudWxsLAogICAgICAgICJkZXNjcmlwdGlvbiI6IG51bGwsCiAgICAgICAgInBsYW5uZWRDb21wbGV0aW9uRGF0ZSI6ICIyMDE3LTEwLTA2VDA5OjAwOjAwLjAwMC0wNjAwIiwKICAgICAgICAiZW50ZXJlZEJ5SUQiOiAiNTQ0ODIwZGYwMDAwMTQyMzYyNzQxZmMwYzM2OGRlMTkiLAogICAgICAgICJvd25lcklEIjogIjU0NDgyMGRmMDAwMDE0MjM2Mjc0MWZjMGMzNjhkZTE5IiwKICAgICAgICAidGVtcGxhdGVJRCI6IG51bGwsCiAgICAgICAgInByaW9yaXR5IjogMCwKICAgICAgICAiY29tcGFueUlEIjogbnVsbCw8CiAgICAgICAgInBvcnRmb2xpb0lEIjogbnVsbCwKICAgICAgICAicmVmZXJlbmNlTnVtYmVyIjogMTg5NCwKICAgICAgICAibGFzdFVwZGF0ZWRCeUlEIjogIjU0NDgyMGRmMDAwMDE0MjM2Mjc0MWZjMGMzNjhkZTE5IiwKICAgICAgICAiY3VzdG9tZXJJRCI6ICI1NDQ4MjBkZjAwMDAxMzViNzcxOWRjY2E2NTQzOTFmNiIsCiAgICAgICAgImN1cnJlbmN5IjogbnVsbCwKICAgICAgICAiY2F0ZWdvcnlJRCI6IG51bGwsCiAgICAgICAgInN0YXR1cyI6ICJDVVIiLAogICAgICAgICJwYXJhbWV0ZXJWYWx1ZXMiOiB7fQogICAgfQ=="
                 }

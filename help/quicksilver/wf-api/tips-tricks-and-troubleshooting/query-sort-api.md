@@ -17,6 +17,10 @@ You can sort your results by any field if you append the following to your API c
 &entryDate_Sort=asc
 ```
 
-For example, if you want to sort by task Planned Start Date, remove `entryDate` and replace it with `plannedCompletionDate`.
+For example, if you want to sort by task Planned Completition Date, remove `entryDate` and replace it with `plannedCompletionDate`.
+
+```
+&plannedCompletionDate_Sort=asc
+```
 
 This works for most fields in Adobe Workfront.

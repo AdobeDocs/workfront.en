@@ -105,7 +105,7 @@ To delegate your tasks and issues to others:
 
 1. Click [!UICONTROL **Delegate**] in the upper-left corner of the [!UICONTROL **My Work**], [!UICONTROL **My Tasks**], or [!UICONTROL **My Issues**] widgets.
 
-   ![](assets/delegate-button-on-my-work-widget.png)
+   ![Delegate button](assets/delegate-button-on-my-work-widget.png)
 
 1. Update the following:
 
@@ -127,7 +127,7 @@ To delegate your tasks and issues to others:
       >
       >If you leave the End date field empty, and the No end date option is not selected, the delegation is set only for the current day.
 
-      ![](assets/delegate-box-expanded-in-home.png)
+      ![Delegate box expanded](assets/delegate-box-expanded-in-home.png)
       <!--check screen shot - submitted bug for casing-->
 
 1. Click [!UICONTROL **Save**].
@@ -152,7 +152,7 @@ To delegate your tasks and issues to others:
       </MadCap:conditionalText>
       -->
 
-      ![](assets/edit-delegation-button-on-my-work-widget.png)
+      ![Edit delegation button](assets/edit-delegation-button-on-my-work-widget.png)
 
    * If your event notifications and your personal notifications are enabled, you also receive an email confirmation of your delegation.
 
@@ -173,7 +173,7 @@ You can let a delegation expire, if you selected an End Date, or you can manuall
    >
    >    You can edit only the End date of a delegation if the delegation already started.
 
-   ![](assets/stop-delegation-box-new-home-tasks-and-issues.png)
+   ![Stop delegation button](assets/stop-delegation-box-new-home-tasks-and-issues.png)
 
 1. (Conditional) click [!UICONTROL **Save**] to save the new delegation dates
 
@@ -207,11 +207,11 @@ You can access the [!UICONTROL Assignments] box in the following areas:
 
    The [!UICONTROL Assignments] field in the task or issue header changes to [!UICONTROL Assignments and delegations].
 
-   ![](assets/assignments-and-delegates-panel-in-task-header.png)
+   ![Assignments and delegates panel in task header](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * The [!UICONTROL Workload Balancer] when manually assigning tasks or issues
 
-   ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
+   ![Assignments and delegations panel in Balancer](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
 >[!NOTE]
 >
@@ -234,7 +234,7 @@ If a task or an issue is delegated and the [!UICONTROL Delegations] subtab is em
    * [!UICONTROL **Delegated to me**]: to view tasks and issues delegated to you by another user.
    * [!UICONTROL **Delegated by me**]: to view tasks and issues delegated by you to other users.
 
-      ![](assets/delegated-tasks-and-issues-new-home-filter.png)
+      ![Delegated tasks and issues filter](assets/delegated-tasks-and-issues-new-home-filter.png)
 
 1. (Optional) Click the [!UICONTROL **Sort**] drop-down menu to sort the list by the following criteria:
    * [!UICONTROL Due Date]. This is the default sorting option.

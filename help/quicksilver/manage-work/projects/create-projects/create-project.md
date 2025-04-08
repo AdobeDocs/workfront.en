@@ -123,7 +123,7 @@ You can create a project in Workfront using one of the following methods:
 
   For information about access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
 
-  For information about creating projects by adding them to records, see the section "Create projects when connecting them with records from Workfront Planning" in the article [Create Workfront objects from Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+  For information about creating projects by adding them to records, see the section "Create projects when connecting them with records from Workfront Planning" in the article [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 ## Prerequisites
 
@@ -198,7 +198,7 @@ Consider the following:
 
    For more information about adding tasks to a project, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Edit the project details by clicking the **More** menu and then **Edit** ![](assets/qs-edit-icon.png) next to the name of the project.
+1. Edit the project details by clicking the **More** menu and then **Edit** ![Edit icon](assets/qs-edit-icon.png) next to the name of the project.
 
    The **Edit Project** dialog box opens.
 

@@ -109,7 +109,7 @@ AI assistant can query data associated with the following object types if the us
 
 ## Access AI Assistant
 
-1. At the top of any Workfront page, click the AI Assistant icon ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. At the top of any Workfront page, click the AI Assistant icon ![AI Assistant icon](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Type your question or prompt into the panel at the right of the screen.
 
    If you cannot type into this panel, your organization does not have a signed Adobe Gen AI agreement on file.
@@ -127,9 +127,36 @@ If a user attempts to use AI Assistant when the Adobe Gen AI agreement has not b
 
 To request the Adobe Gen AI agreement:
 
-1. As a Workfront Administrator, click the AI Assistant icon ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. As a Workfront Administrator, click the AI Assistant icon ![AI Assistant icon](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Begin typing in the AI Assistant panel.
 1. When the Adobe Gen AI agreement message appears, click **Review agreement**.
 1. Enter the name and email address of the individual at your organization who will sign the Adobe Gen AI agreement.
 
    The agreement will be sent to this individual for signing. After it is signed and returned, AI Assistant is enabled for your organization.
+
+## Tips for creating prompts in AI Assistant
+
+Use the following keywords in your prompts to provide context and aid in locating the correct information. Keywords are not case-sensitive.
+
+When entering your prompt, include the phrase `using (keyword)`.
+
+| Keyword | Effect |
+|---|---|
+|`workfront` | Interacts with Workfront. |
+|`planning ` | Interacts with Workfront Planning. |
+|`help`| Returns information from Experience League documentation. |
+|`formula`| Checks and returns formulas for use in Planning, Setup, or custom forms. |
+| `health`| Checks project health with Project Health Advisor. |
+|`summarize`| Summarizes items, such as when uploading a file or summarizing a project. | 
+
+>[!NOTE]
+>
+> Not all keywords are available in all areas. 
+>
+>* The `formula` keyword is available only in Planning, Setup, and the Custom form builder.
+>* The `planning` keyword is available only from Workfront Planning.
+
+
+
+
+

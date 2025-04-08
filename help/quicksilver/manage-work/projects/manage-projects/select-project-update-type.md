@@ -85,7 +85,7 @@ You must have the following access to perform the steps in this article:
 When the tasks update, their parent objects (parent tasks or the project) update at the time indicated by the Update Type.&nbsp; To specify an Update Type for your project:
 
 1. Go to the project whose Update Type you want to specify.
-1. Click the More menu ![](assets/more-icon.png) next to the name of the project, then click **Edit** .
+1. Click the More menu ![More icon](assets/more-icon.png) next to the name of the project, then click **Edit** .
 
 1. Click  **Project** **Settings**.
 

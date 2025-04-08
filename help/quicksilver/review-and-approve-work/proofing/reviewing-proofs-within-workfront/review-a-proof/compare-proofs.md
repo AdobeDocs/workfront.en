@@ -62,13 +62,13 @@ You can compare two proofs within any single document list, such as within the D
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If this button is not visible, ensure that two proofed documents are selected.</p>
    -->
 
-   ![](assets/compare-proofs-select-docs-350x138.jpg)
+   ![Compare proofs](assets/compare-proofs-select-docs-350x138.jpg)
 
    Both proofs are displayed in the proofing viewer in a side-by-side view. You can review each document while comparing them.
 
    Separate breadcrumbs above each proof allow you to view and go to the work item associated with the proof:
 
-   ![](assets/compare-proofs-breadcrumbs-350x148.jpg)
+   ![Compare proofs breadcrumbs](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
    For information about the tools you can use to compare the two proofs, see&nbsp; [Use the compare tools](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools) in [Compare proofs in the proofing viewer](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
 

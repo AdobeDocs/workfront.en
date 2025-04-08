@@ -97,7 +97,7 @@ This can happen in any of the following cases:
 
 1. Ensure that **[!UICONTROL Show conflicts]** is enabled. It is enabled by default.
 
-   ![](assets/show-scenarios-toggle-on.png)
+   ![Show scenarios toggle](assets/show-scenarios-toggle-on.png)
 
    The first conflicting initiative displays the months that have conflicts in red and a warning icon displays next to the initiative name.
 
@@ -105,13 +105,13 @@ This can happen in any of the following cases:
 
    When an initiative displays a conflict, it means that the number of job role for at least one specific role, the costs incurred, or both exceed the number of job roles or the budget defined for the plan for a specific month.
 
-   ![](assets/initiatives-on-plan-with-conflicts-350x126.png)
+   ![Initiatives on plan with conflict](assets/initiatives-on-plan-with-conflicts-350x126.png)
 
 1. Do one of the following to understand more about the conflicts that might exist:
 
    * Hover over the warning icon next to the initiative name to understand whether you have a job role or a budget conflict.
 
-     ![](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
+     ![Budget job role conflict](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
 
      Depending on whether you overallocated job roles or overestimated costs for your initiative you might see one of the following options when hovering over the warning icon:
 
@@ -121,7 +121,7 @@ This can happen in any of the following cases:
 
    * When viewing the plan by month, hover over a month in the plan's timeline to view the required resources for that month and whether the conflicts for the month are people or cost-related.
 
-     ![](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
+     ![Details of conflicts on monthly timeline](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
 
      Review the following monthly information at the plan-level:
 
@@ -134,7 +134,7 @@ This can happen in any of the following cases:
 
    * Hover over an initiative's red bar for a month to display the additional information box about the conflict that occurs that month. 
 
-     ![](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
+     ![Details of conflicts on initiative timeline](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
 
      Review the following fields in the additional information box at the initiative's level:
 
@@ -175,7 +175,7 @@ This can happen in any of the following cases:
 
    * Click the warning icon next to the initiative's name.
    * Click the bar of an initiative.
-   * Click the **[!UICONTROL More]** icon ![](assets/more-icon.png) to the right of the initiative's name, then click **[!UICONTROL Edit]**.
+   * Click the **[!UICONTROL More]** icon ![More icon](assets/more-icon.png) to the right of the initiative's name, then click **[!UICONTROL Edit]**.
 
      The initiative details panel displays on the right.
 
@@ -186,11 +186,11 @@ This can happen in any of the following cases:
 
 1. (Conditional) For initiatives that have job role conflicts, go to the **[!UICONTROL Required Job Roles]** section to view all job roles required for your initiative. Identify which job roles might be overallocated. Review the number of FTE or hours needed for each job role for each month of the initiative. The box with the FTE or hours number for months that have overallocations displays in a red outline.
 
-   ![](assets/details-panel-overallocated-roles-350x275.png)
+   ![Overallocated roles](assets/details-panel-overallocated-roles-350x275.png)
 
 1. (Optional) Click the right-pointing arrow next to the months in the initiative's timeline to view which additional months display job role conflicts.
 
-   ![](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
+   ![Right arror inside details box](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
 
 1. (Optional) Click **[!UICONTROL Show details]** under the job role that displays a conflict to see where the conflicts appear and to highlight the conflicting months in the plan's chart area. Additional information displays for each job role.
 
@@ -219,12 +219,12 @@ This can happen in any of the following cases:
    >
    >On the plan's chart, the months where the job roles are allocated display the name and the number of roles needed for each initiative where they are needed. You must select the [!UICONTROL Month] view to see the name of the job roles
 
-   ![](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
+   ![Conflicting job roles](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
 
 1. Do one of the following to resolve job role conflicts:
 
    * Manually adjust the number of job roles for each month of the initiative to a lower number.
-   * Hover over the name of the job role and click the **[!UICONTROL delete] icon** ![](assets/delete.png) to remove the job role from the initiative. 
+   * Hover over the name of the job role and click the **[!UICONTROL delete] icon** ![Delete icon](assets/delete.png) to remove the job role from the initiative. 
    * Select **[!UICONTROL Add roles to the scenario's available resources]**, then click **[!UICONTROL Apply]**.
 
      This adds the missing number of job role FTEs or hours to the scenario's [!UICONTROL Available] field.
@@ -233,7 +233,7 @@ This can happen in any of the following cases:
      >
      >The roles you add to resolve the conflicts modify the [!UICONTROL Available] job roles for the selected scenario and not for all the scenarios in the plan.
 
-     An upward-pointing green arrow ![](assets/upward-green-arrow.png) displays for the month in the timeline of the plan to indicate that more resources were added to the plan that month. You must select the [!UICONTROL Month] view to see this indicator. 
+     An upward-pointing green arrow ![Upward pointing green arrow](assets/upward-green-arrow.png) displays for the month in the timeline of the plan to indicate that more resources were added to the plan that month. You must select the [!UICONTROL Month] view to see this indicator. 
    
    * (Conditional) Close the details panel and give the initiative a higher priority to receive budget resources from the plan first, if possible. For information about updating initiative priority, see [Update initiative priorities in the Scenario Planner](../scenario-planner/prioritize-initiatives.md).
 
@@ -242,7 +242,7 @@ This can happen in any of the following cases:
 1. (Conditional) For initiatives that have costs conflicts, go to the **[!UICONTROL Costs]** section in the initiative details panel to review costs for every month of the initiative's duration. Identify which months might not have enough money in the plan's budget to cover the costs for the selected initiative. The box with the insufficient available budget displays in a red outline.
 1. (Optional) Click the right-pointing arrow next to the months in the initiative's timeline to view additional months that have insufficient budget to cover the costs.
 
-   ![](assets/details-panel-insufficient-costs-350x239.png)
+   ![Arrow for insufficient costs](assets/details-panel-insufficient-costs-350x239.png)
 
 1. (Optional) Click **[!UICONTROL Show details]** under the cost information to see where the conflict appears and to highlight the conflicting months on the plan's chart. The following additional fields display for each type of cost: 
 
@@ -269,7 +269,7 @@ This can happen in any of the following cases:
    >
    >On the plan's chart, the months where the costs are insufficient display the name and the number of roles still needed for the initiative. You must select the Month view to view the cost amounts.
 
-   ![](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
+   ![Conflicting costs](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
 
    >[!NOTE]
    >

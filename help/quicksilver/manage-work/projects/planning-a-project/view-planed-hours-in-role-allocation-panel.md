@@ -94,18 +94,18 @@ You must have the following:
 
 ## View project Planned Hours in the Role Allocation panel
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Projects**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Projects**.
 1. Click the name of a project to access it.&nbsp;This opens the Project page. 
 1. Click one of the following in the left panel:
 
    * **Tasks** 
    * **Workload Balancer**
 
-1. Click the **Show role allocation** icon ![](assets/show-role-allocation-icon.png).
+1. Click the **Show role allocation** icon ![Show role allocation icon](assets/show-role-allocation-icon.png).
 
    The Role Allocation panel displays.
 
-   ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   ![Role allocation panel with planned hours only](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. Review the following information in the **Role Allocation** panel:
 

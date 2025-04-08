@@ -25,7 +25,7 @@ To improve system performance and to make forms easier to use for users, you mig
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 

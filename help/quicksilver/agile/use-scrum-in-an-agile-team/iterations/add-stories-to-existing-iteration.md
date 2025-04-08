@@ -92,7 +92,7 @@ You can add any task or issue to any iteration if you have Manage access to the 
    Or
    Go to the project, report, or dashboard that contains the task or issue you want to add to an iteration. Then, select one or more tasks or issues.
 
-1. Click **[!UICONTROL More]** ![](assets/more-icon.png) > **[!UICONTROL Add to Iteration]**.
+1. Click **[!UICONTROL More]** ![More icon](assets/more-icon.png) > **[!UICONTROL Add to Iteration]**.
    You cannot assign tasks or issues assigned to non-agile teams.
 
 1. In the **[!UICONTROL Add To]** box, begin typing the name of the iteration, and select it when it appears in the list.

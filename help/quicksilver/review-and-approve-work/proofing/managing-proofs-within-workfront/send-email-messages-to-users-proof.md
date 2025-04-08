@@ -55,15 +55,15 @@ You must have the following access to perform the steps in this article:
 1. Find the document for the proof that contains the users you want to message.
 1. Hover over the document, then click **Proofing Workflow**.
 
-   ![](assets/proof-workflow-doc-list-350x92.png)
+   ![Proofing workflow](assets/proof-workflow-doc-list-350x92.png)
 
 1. To send a message to all users on the stage, click the **More** menu on the stage and choose **Message All**.
 
-   ![](assets/message-stage-350x122.png)
+   ![Message on stage](assets/message-stage-350x122.png)
 
 1. To send a message to an individual user, click the **More** menu next to the user and choose **Message**.
 
-   ![](assets/message-user-350x121.png)
+   ![Message user](assets/message-user-350x121.png)
 
 1. In the **Message details** section, specify the following information:
 

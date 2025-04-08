@@ -25,7 +25,7 @@ For information, see the "Formula" section in the article [Create fields](/help/
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -79,7 +79,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Manage permissions to a workspace</a> </p>  
+   <td>   <p>Manage permissions to a workspace <!--<span class="preview">and record type</span>-->  </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 <tr> 
@@ -224,7 +224,12 @@ In addition, we support the following expressions for Workfront Planning formula
    <code>{ID}</code>
    </p>
    </td></tr>
-  
+  <tr> 
+   <td><strong>JSONELEMENT</strong> </td> 
+   <td> <p>Returns the data from JSON by the provided JSONPath. If the JSONPath doesn't exist in the JSON, an empty result will be returned. </p> <p>The expression is formatted as follows:
+      <code>JSONELEMENT(JSONString, JSONPathString) </code>
+   </p>
+   </td></tr>
   <tr> 
    <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>Sets the timezone of a date and time to a specific timezone.</p> <p>The expression is formatted as follows:

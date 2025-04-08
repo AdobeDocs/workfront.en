@@ -81,7 +81,7 @@ To override a billing rate for a project:
 
 1. In the **Job Role** field, select the job role you want to change the billing rate for.
 
-   ![](assets/override-billing-rate-on-project-nwe-350x310.png)
+   ![Override billing rate on project](assets/override-billing-rate-on-project-nwe-350x310.png)
 
    The **Default Billing Rate** field displays the system-level rate for this job role.
 

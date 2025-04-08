@@ -106,15 +106,15 @@ Copying a project also copies some information from the original project to the 
 
 To copy a project:
 
-1. Go to the project that you want to copy and click&nbsp;the **More** icon ![](assets/qs-more-menu.png) to the right of the project name
+1. Go to the project that you want to copy and click&nbsp;the **More** icon ![More menu](assets/qs-more-menu.png) to the right of the project name
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![More dropdown](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Or
 
-   Go to a project list or report and select a project, then click the **More** icon ![](assets/qs-more-menu.png) at the top of the list.
+   Go to a project list or report and select a project, then click the **More** icon ![More menu](assets/qs-more-menu.png) at the top of the list.
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![More menu expanded](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. Click **Copy**.
 
@@ -122,7 +122,7 @@ To copy a project:
 
    By default, the new name is **Copy of `<Original project name>`.**
 
-   ![](assets/copy-project-box-nwe-350x276.png)
+   ![Copy project box](assets/copy-project-box-nwe-350x276.png)
 
 1. Select the **Status** for the new project.
 

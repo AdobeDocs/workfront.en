@@ -32,17 +32,17 @@ You must have the following access to perform the steps in this article:
     <ul>
         <li>Ultimate</li> 
     </ul>    
-   <p>Can be purchased as an add-on to the following plans:</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
         <li>Select</li> 
         <li>Prime</li>
-    </ul> 
+    </ul>--> 
     <p>Workfront Data Connect is not available for legacy Workfront plans.</p> 
-   </td> </td> 
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

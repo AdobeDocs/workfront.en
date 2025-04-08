@@ -95,7 +95,14 @@ Use the [!UICONTROL Plan Iteration] feature to create an iteration using tasks o
 
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 
-1. Select **[!UICONTROL Backlog]** on the left panel. Then, click **[!UICONTROL Plan Iteration]**.
+1. Select **[!UICONTROL Backlog]** on the left panel. 
+
+1. On the **Stories** or **Issues** tab, select the work items you want to add to the iteration, then click **[!UICONTROL Plan Iteration]**.
+
+>[!NOTE]
+>
+> You can't switch between the Stories or Issues tab or add additoinal tasks when planning an iteration on the Backlog tab. You can add existing stories or issues once the iteration has been created. For more information, see [Add tasks or issues to an existing iteration on the Backlog tab](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab) below.
+
 
 1. Specify the following information:
 
@@ -130,19 +137,20 @@ Use the [!UICONTROL Plan Iteration] feature to create an iteration using tasks o
     </tbody> 
    </table>
 
-1. (Optional) Select stories to add them to the iteration now, or you can skip this step and add stories to an iteration at a later time. The stories at the top of the backlog are higher priority. Stories are highlighted in green when they fit in the capacity; they are highlighted in red if they do not.
-   You can add both tasks and issues to a single iteration:
+1. Click **[!UICONTROL Save].** The iteration is created.
 
-   * **To add tasks to the iteration:** On the **[!UICONTROL Backlog]** tab, ensure that the **[!UICONTROL Stories]** tab is selected (this tab is selected by default when viewing the backlog). Select the stories you want to add to the iteration.
+## Add tasks or issues to an existing iteration on the Backlog tab
 
-      When you add tasks to an iteration, the start date of the task is calculated as described in [[!UICONTROL Understand] how task start dates are calculated when added to an iteration](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+1. From the **Backlog** tab, click the **Stories** or **Issues** tab. 
 
-   * **To add issues to the iteration:** On the **[!UICONTROL Backlog]** tab, click the **[!UICONTROL Issues]** tab. Select the issues you want to add to the iteration.
+1. Select the stories or issues you want to add to the iteration. The stories at the top of the backlog are higher priority.
 
-1. Click **[!UICONTROL Save].**
-The iteration is created.
+   ![move a work item](assets/move-to-iteration.png)
 
-1. (Optional) To add stories to an existing iteration, see [Add stories to an existing iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+   >[!NOTE]
+   >
+   >  When you add tasks to an iteration, the start date of the task is calculated as described in [[!UICONTROL Understand] how task start dates are calculated when added to an iteration](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+
 
 ## Understand how task start dates are calculated when added to an iteration {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
 
@@ -150,6 +158,6 @@ When you add a task as a story to an iteration, the [!UICONTROL Must Finish On t
 
 [!UICONTROL Iteration End Date] minus (-) [!UICONTROL Task Duration] equals (=) [!UICONTROL Task Planned Start Date]
 
-The [!UICONTROL Project End Date] is used instead of the   if the project start date is after the iteration start date, and the project end date is after the iteration end date.
+The [!UICONTROL Project End Date] is used instead of the Iteration End Date if the project start date is after the iteration start date, and the project end date is after the iteration end date.
 
 You can configure individual Scrum teams to use the project dates by default, rather than the iteration dates. For information, see the section [Configure how dates are applied when adding work items to an iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) in the article [Configure Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).

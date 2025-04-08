@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article and log 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>View or higher access to the type of work item you log time for </p> <p>For example, you need View access to Issues, to log time for issues</p> </td> 
+   <td> <p>Edit access to the type of work item you log time for </p> <p>For example, you need Edit access to Issues, to log time for issues</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 

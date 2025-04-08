@@ -11,6 +11,8 @@ exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
 
 You can use filters to find the work you are looking for and then apply a grouping to keep it organized. 
 
+Priorities displays work items assigned to you. You cannot see work items assigned to your team in the Priorities worklist.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
@@ -56,9 +58,9 @@ You can filter tasks and issues assigned to you.
 {{step1-to-priorities}}
 
 1. Click **Filters** in the top left of the worklist.
-1. click **Standard filters**. 
+1. Click **Standard filters**. 
 1. Select one or many filters to narrow down your work items.
-  ![](assets/filter-new.png)
+  ![Filter](assets/filter-new.png)
 
 +++Expand to see detailed information about available filters
 <table>
@@ -85,8 +87,9 @@ You can filter tasks and issues assigned to you.
       <td>Not ready</td>
       <td>Displays items that have
        <ul>
-      <li>Incomplete predecessors or task constraints that prevent the item from being worked on</li>
+      <li>Incomplete predecessors or task constraints that prevent the item from being worked on</li></ul>
       <p>or</p>
+      <ul>
       <li>The Planned Start Date more than two weeks in the future</li>
       </ul>
        </td>
@@ -123,7 +126,11 @@ You can filter tasks and issues assigned to you.
 
 ## Filter your work with Smart filters
 
-Use natural language to filter quickly filter work. Your Workfront instance must be on a new Workfront plan and enabled on the Adobe Unified Experience. For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Use natural language to quickly filter work.
+
+>[!NOTE]
+>
+>This feature is only available for customers on the Unified Adobe Experience using the AI Assistant. For more information about the AI Assistant, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 {{step1-to-priorities}}
 
@@ -131,7 +138,7 @@ Use natural language to filter quickly filter work. Your Workfront instance must
 1. Click **Smart filters**. 
 1. Type how you want to filter your work. 
 
-    You can type things like
+    You can type things like:
 
     * Show me late tasks
     * Show my top priorities
@@ -145,7 +152,7 @@ Use natural language to filter quickly filter work. Your Workfront instance must
 
 1. Click **Groups** in the top left of the worklist.
 1. Select a group to organize your work list
-  ![](assets/groups-new.png)
+  ![Groups](assets/groups-new.png)
 
   +++Expand to see detailed information about available groups
 
@@ -172,7 +179,7 @@ You can drag and drop individual work items between categories when grouping by 
 
 To sort your work within a group, open **Group** and click **Sort ascending** or **Sort descending**.
 
-![](assets/sort-in-groups.png)
+![Sort in groups](assets/sort-in-groups.png)
 
 ### Sort columns
 
@@ -184,4 +191,4 @@ To sort individual columns, go to the column and click the down arrow.
 
 To expand or collapse all group sections, open **Group** and click **Expand all** or **Collapse all**.
 
-![](assets/expand-collapse-groups.png)
+![Expand or collapse groups](assets/expand-collapse-groups.png)

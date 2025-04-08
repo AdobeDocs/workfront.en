@@ -22,7 +22,7 @@ You can receive in-app notifications from Workfront Planning when the following 
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -95,7 +95,7 @@ You must have the following access to perform the steps in this article:
 <!--
 OLD:
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 <table style="table-layout:auto">
  <col>
@@ -154,9 +154,9 @@ OLD:
 
 ## Manage in-app notifications when someone tags you in a comment
 
-1. (Conditional) After someone tags you in a comment on a record, go to the in-app **Notifications** icon ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud. 
+1. (Conditional) After someone tags you in a comment on a record, go to the in-app **Notifications** icon ![Experience cloud notifications icon](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud. 
 
-    ![](assets/in-app-notification-example.png)
+    ![In-app notification example](assets/in-app-notification-example.png)
 
 1. Click the notification. 
 

@@ -25,31 +25,31 @@ The burndown chart contains the following visual indicators:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt="Ideal burndown rate beginning"> </td> 
    <td> <p>Ideal burndown rate based on when the iteration began.</p> <p>This line is not displayed if the scope of the iteration never changes (hours or points are never added or removed).</p> <p>This line is displayed as flat when work is done on a day off. For more information, see <a title="Using the Agile Burndown Chart" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">How days off affect the burndown chart</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt="Ideal burndown rate on stories or tasks"> </td> 
    <td> <p>Ideal burndown rate based on current stories or tasks.</p> <p>The current ideal burndown rate (solid blue line) differs from the original ideal burndown rate (dotted blue line) when hours or points are added to or removed from the iteration after the iteration begins.</p> <p>This line is displayed as flat when work is done on a day off.</p> <p>For more information, see <a title="Using the Agile Burndown Chart" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">How days off affect the burndown chart</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt="Actual burndown rate in red"> </td> 
    <td> <p>Actual burndown rate is shown in red when the burndown rate is less than the ideal (more points or hours remaining per day than the ideal burndown calculation).</p> <p>The following formula is used to calculate the actual burndown rate:</p> <p>[SUM(Point or Hour Value of In-Progress Work * Percent Complete) + Point or Hour Value of Completed Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt="Actual burndown rate in green"> </td> 
    <td> <p>Actual burndown rate is shown in green when the burndown rate is equal to or better than the ideal (equal or fewer points remaining per day than the ideal burndown calculation).</p> <p>The following formula is used to calculate the actual burndown rate:</p> <p>[SUM(Point or Hour Value of In-Progress Work * Percent Complete) + Point or Hour Value of Completed Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Change in scope"> </td> 
    <td> <p>Change in scope (hours or points are added or removed from the iteration).</p> <p>Scope changes are always shown as a vertical line in the middle of the day. In addition, a blue dot is displayed in the middle of any day where a scope change has occurred.</p> <p>The vertical axis of the burndown chart shows the story points or hours.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Change in date range"> </td> 
    <td> <p>Change in date range (iteration duration is either increased or decreased).</p> <p>A blue dot is displayed in the middle of any day where the iteration duration was changed.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Geen dot for work burned down"> </td> 
    <td> <p>A green or red dot is displayed on the actual burndown rate any time work is burned down. (When the actual burndown rate on that day is red, the dot is red; when the actual burndown rate on that day is green, the dot is green.)</p> <p>Work is burned down when any of the following occur:</p> 
     <ul> 
      <li> The [!UICONTROL Percent Complete] is increased on the story.<br>[!UICONTROL Percent Complete] is increased when: 

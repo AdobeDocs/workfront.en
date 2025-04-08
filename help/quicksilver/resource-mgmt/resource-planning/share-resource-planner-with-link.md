@@ -11,7 +11,7 @@ exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
 
 Adobe Workfront can generate a unique URL for the User View of the Resource Planner which you can embed into a dashboard as an External Page, or open it separately in a new browser tab. This is helpful when sharing the Resource Planner information with users who might not have direct access to the Resourcing area.
 
-![](assets/rp-user-view-with-link-highlight-350x49.png)
+![User view with link](assets/rp-user-view-with-link-highlight-350x49.png)
 
 ## Access requirements
 
@@ -50,7 +50,6 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-
 Consider the following when generating the unique URL for the User View of the Resource Planner:
 
 * You can obtain a unique URL only for the User View. The option to generate the URL does not exist in the Project or Role Views. 
@@ -74,18 +73,18 @@ To obtain a unique URL in the User View of the Resource Planner and share it wit
    * Quarter
 
 1. (Optional) Select whether you want to view the information by **FTE** or **Hours**.  
-   ![RP_hours_or_fte_in_user_view.png](assets/rp-hours-or-fte-in-user-view.png)
+   ![Select FTE or Hours](assets/rp-hours-or-fte-in-user-view.png)
 
 1. (Optional) Apply filters to the Resource Planner.  
    For information about applying filters, see [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md) .
 
 1. Click the **hyperlink** icon.  
-   ![RP_Storm_generate_URL_with_copy_URL_link.png](assets/rp-storm-generate-url-with-copy-url-link-350x182.png)
+   ![Hyperlink icon and URL](assets/rp-generate-url-from-link-icon.png)
 
 1. Click **Copy URL**.  
    This copies the unique URL of the Resource Planner in the User View to your clipboard. 
 
-1. (Optional) Do one of the following: &nbsp;
+1. (Optional) Do one of the following:
 
    * Paste the URL into another application to send it to another user.  
      The user must be logged in to Workfront to view the Resource Planner in the User view.
@@ -108,4 +107,4 @@ To obtain a unique URL in the User View of the Resource Planner and share it wit
    For information about adding dashboards to a layout template, see [Create and manage layout templates](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) .   
    For information about sharing dashboards, see [Share a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) .   
    When viewing the shared URL, users can see the information with the settings that you originally applied to the Resource Planner. They must be logged in to Workfront to view the shared URL.  
-   ![user_view_dashoard_from_unique_url.png](assets/user-view-dashoard-from-unique-url-350x85.png)
+   ![Sample dashboard with Resource Planner displayed](assets/user-view-dashoard-from-unique-url-350x85.png)

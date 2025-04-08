@@ -13,7 +13,7 @@ exl-id: 058148db-1795-4d39-be87-271008ae3d47
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
@@ -87,7 +87,7 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
    <ul>
-   <li><p>Manage permissions to a workspace</p></li>
+   <li><p>Manage permissions to a workspace <!--<span class="preview">and record type</span>--></p></li>
     <li><p>System Administrators can manage workspaces they did not create. </p></li>
     </ul>
    <p>For information about sharing permissions for Workfront Planning objects, see  
@@ -121,7 +121,7 @@ You must have the following access to perform the steps in this article:
 
     The **Configuration** area displays.
 
-    ![](assets/configuration-tab.png)
+    ![Configuration tab](assets/configuration-tab.png)
 1. In the **Approvers** field, click the drop-down icon and select one or several names in the list
 
     Or

@@ -65,7 +65,7 @@ To add a document:
 1. Go to the project, task, or issue where you want to add a new document.
 1. Click the **Documents** tab, then click the **Add New** drop-down menu.
 
-   ![](assets/add-new-doc.png)
+   ![Add new document](assets/add-new-doc.png)
 
 1. Depending on the type of document you want to add, do any of the following: 
 

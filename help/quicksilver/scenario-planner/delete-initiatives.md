@@ -84,7 +84,7 @@ You can delete one initiative at a time, or you can delete multiple initiatives 
 1. Click the name of a plan to open it, then locate the initiative you want to delete.
 1. Do one of the following:
 
-   * Click the **[!UICONTROL More menu]** ![](assets/more-menu.png) to the right of the initiative name, then click **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
+   * Click the **[!UICONTROL More menu]** ![More menu](assets/more-menu.png) to the right of the initiative name, then click **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
 
    * Select the box to the left of the initiative, then click **[!UICONTROL Delete]** on the floating menu that appears at the bottom of the plan, then click **[!UICONTROL Yes, delete it]**.
 
@@ -101,7 +101,7 @@ You can delete one initiative at a time, or you can delete multiple initiatives 
 1. Click the name of a plan to open it, then locate the initiative you want to delete.
 1. Select the boxes to the left of the initiatives that you want to delete, then click **[!UICONTROL Delete]** from the menu that appears at the bottom of the plan, then click **[!UICONTROL Yes, delete them]**.
 
-   ![](assets/bottom-manage-initiative-menu-350x45.png)
+   ![Manage initiative menu](assets/bottom-manage-initiative-menu-350x45.png)
 
    The initiatives and their job role and cost information are deleted from the plan.
 

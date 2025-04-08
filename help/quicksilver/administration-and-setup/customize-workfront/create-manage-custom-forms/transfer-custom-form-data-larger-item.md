@@ -24,7 +24,7 @@ For more information, see [Overview of converting issues in Adobe Workfront](../
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 

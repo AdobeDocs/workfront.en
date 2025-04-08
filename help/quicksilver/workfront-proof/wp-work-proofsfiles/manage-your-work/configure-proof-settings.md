@@ -107,11 +107,12 @@ Enabling subscription on the proof allows people who have not been added explici
 
 If Subscription has been enabled on a proof, the fields below will become active:
 
-* **[!UICONTROL Subscriber validation required]** - Subscriber must click a link in an email to access a proof\
+* **[!UICONTROL Subscriber role]** - This is the default proof role that will be assigned to all reviewers that subscribe themselves to the proof.
+* **[!UICONTROL Email alert settings for subscribers]** - This the default email alert that will be assigned to all reviewers that subscribe themselves to the proof.
+* **[!UICONTROL Proof access via email link required for]** - Subscriber must click a link in an email to access a proof\
    Selecting this option means that the person subscribing will not get immediate access to the proof, but will get a link to the proof in an email. The purpose of subscriber validation is to ensure that the person has entered a correct email address to which they have access.
 
-* **[!UICONTROL Default role for new subscribers]** - This is the default proof role that will be assigned to all reviewers that subscribe themselves to the proof.
-* **[!UICONTROL Default email alert for new subscribers]** - This the default email alert that will be assigned to all reviewers that subscribe themselves to the proof.
+
 
 See also [Subscribe to a Proof in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
 

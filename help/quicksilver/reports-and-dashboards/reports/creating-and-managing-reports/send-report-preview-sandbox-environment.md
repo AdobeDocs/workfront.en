@@ -79,7 +79,7 @@ Whether a delivered report is produced or not in the Preview environment depends
 
 For information about enabling emails from the Sandbox environment see [Enable delivery of emails from the Preview Sandbox environment](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![Receive emails from sandbox option](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 Scheduling reports for delivery in the Preview environment is identical to scheduling reports in the Production environment. For information about scheduling a report for delivery, see [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
@@ -94,7 +94,7 @@ Whether a delivered report is produced or not in the Custom Refresh Sandbox depe
 
 For information about enabling emails from the Preview environment see the section [View and modify your email notification settings](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) in the article [Modify your own email notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![Receive emails from sandbox option](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 Scheduling reports for delivery in the Custom Refresh Sandbox environment is identical to scheduling reports in the Production environment. For information about scheduling a report for delivery, see [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 

@@ -22,7 +22,7 @@ For information about record types, see [Record types overview](/help/quicksilve
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -180,9 +180,9 @@ OLD:
 1. Do one of the following:
 
    * Hover over the record type card, click the **More** menu, then **Delete**. 
-   * Click the card for the record type that you want to delete, and from the record type page, click the **More** menu ![](assets/more-menu.png) to the right of the record type name, then click **Delete**. 
+   * Click the card for the record type that you want to delete, and from the record type page, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Delete**. 
 
-   ![](assets/permanently-delete-record-type-confirmation.png)
+   ![Permanently delete record type confirmation](assets/permanently-delete-record-type-confirmation.png)
 
 1. Type **delete** in the confirmation box, then click **Permanently delete**. This is not case sensitive. 
    

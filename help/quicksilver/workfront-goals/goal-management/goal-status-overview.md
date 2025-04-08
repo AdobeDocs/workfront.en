@@ -2,13 +2,15 @@
 content-type: overview;reference
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Goal status overview in Adobe Workfront Goals
+title: Goal Status Overview in Adobe Workfront Goals
 description: Goal statuses indicate whether a goal is active and currently recording progress, or if it is inactive, drafted, or already achieved.
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
 ---
 # Goal status overview in Adobe Workfront Goals
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >

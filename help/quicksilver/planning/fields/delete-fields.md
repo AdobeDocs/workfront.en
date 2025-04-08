@@ -11,6 +11,10 @@ exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
 
 # Delete fields
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
+
 {{planning-important-intro}}
 
 In Adobe Workfront Planning, you can create custom fields to store information about records. 
@@ -38,7 +42,7 @@ You can delete Workfront Planning fields that are no longer relevant.
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -92,7 +96,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Manage permissions to a workspace</a> </p>  
+   <td>   <p>Manage permissions to a workspace <!--<span class="preview">and record type</span>--> </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p></td> 
   </tr> 
 <tr> 
@@ -183,7 +187,7 @@ OLD:
      
 1. Find the field that you want to delete in the column headers, and hover over the column header, then click the downward-pointing arrow after the field name. 
 
-   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![Arrow menu after name of field in table header highlighted](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
    
 1. Click **Delete**. <!-- check this: they might replace it with **Delete field**-->
 

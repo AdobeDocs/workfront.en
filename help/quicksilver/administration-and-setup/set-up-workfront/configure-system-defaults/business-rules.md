@@ -29,7 +29,7 @@ Business rules apply to creating, editing, and deleting objects through the API 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -69,7 +69,10 @@ For information about date-based wildcards, see [Use date-based wildcards to gen
 An API wildcard is also available in business rules. Use `$$ISAPI` to trigger the rule only in the API. Use `!$$ISAPI` to enforce the rule only in the user interface and allow users to bypass the rule through the API.
 
 * For example, this rule prohibits users from editing completed projects through the API. If the wildcard was not used, the rule would block the action in both the user interface and the API.
-  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
+
+  ```
+  IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")
+  ```
 
 The `$$BEFORE_STATE` and `$$AFTER_STATE` wildcards are used in expressions to access the object's field values before and after any edits.
 
@@ -79,8 +82,17 @@ The `$$BEFORE_STATE` and `$$AFTER_STATE` wildcards are used in expressions to ac
 
 Some simple business rule scenarios are:
 
-* Users cannot add new expenses during the last week of February. This formula could be stated as: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* Users cannot edit the project name of a project in Complete status. This formula could be stated as: `IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
+* Users cannot add new expenses during the last week of February. This formula could be stated as:
+
+  ```
+  IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")
+  ```
+
+* Users cannot edit the project name of a project in Complete status. This formula could be stated as:
+
+  ```
+  IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")
+  ```
 
 A scenario with nested IF statements is:
 

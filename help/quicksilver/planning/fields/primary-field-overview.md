@@ -10,6 +10,10 @@ exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
 
 # Primary field overview
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
 {{planning-important-intro}}
 
 The primary field is the field that displays in the first column of a record type table view in Adobe Workfront Planning. 
@@ -20,7 +24,7 @@ By default, the Name field is the primary field. However, you can designate any 
 * Number
 * Formula
 
-![](assets/another-text-field-as-a-primary-field-highlighted.png)
+![Another text field as a primary field highlighted](assets/another-text-field-as-a-primary-field-highlighted.png)
 
 For information about how to designate a field as the primary field, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
@@ -43,4 +47,4 @@ For information about how to designate a field as the primary field, see [Manage
 * Changing the primary field in your table view affects the view for all other users who choose it.
 * Changing the primary field in a table view affects all the table views of the record type. 
 * The value listed in the primary field is always hyperlinked to the record's page.
-* If you have Contribute or higher permissions to a workspace, you can edit the value of primary fields, except for formula fields. Formulas are calculations that update automatically.
+* If you have Contribute or higher permissions to a workspace <!--<span class="preview">and record type</span>-->, you can edit the value of primary fields, except for formula fields. Formulas are calculations that update automatically.

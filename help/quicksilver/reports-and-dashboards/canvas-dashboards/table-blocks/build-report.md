@@ -19,11 +19,11 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 >
 >All of your changes are saved automatically as you build and edit the blocks in your report.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reporting**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reporting**.
 1. Click **New report**.
 1. In the top-left corner of the editing canvas , type a name for your report.
 
-   You can change the name of the report at any time by clicking the **Edit** icon ![](assets/edit-icon.png) next to its name.
+   You can change the name of the report at any time by clicking the **Edit** icon ![Edit icon](assets/edit-icon.png) next to its name.
 
 1. From the right side of the screen, drag the blocks that you want to add onto the canvas.
 

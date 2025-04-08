@@ -10,6 +10,11 @@ exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
 ---
 # View the Project treemap visualization in Enhanced analytics
 
+>[!IMPORTANT]
+>
+>Enhanced Analytics will be removed from Workfront the week of May 26th. Workfront Data Connect is a new, alternative solution and can be used to replicate any Enhanced Analytics visualizations you currently use. <br>See the [Enhanced Analytics deprecation](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) guide for more information.
+
+
 <!-- Audited: 12/2023 -->
 
 The Project treemap visualization is a view of hours—or days—that have been worked in a specific window of time compared against other work efforts in size. This helps you understand how much time people have dedicated to a project.

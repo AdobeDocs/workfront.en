@@ -17,7 +17,7 @@ You can configure access for a custom form to control who—person, role, group,
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -71,7 +71,11 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
     <tbody> 
      <tr> 
       <td role="rowheader">View it</td> 
-      <td> <p>Ability to view and fill out the custom form on objects.</p> <p><b>NOTE</b>: For users with Light and Contributor licenses (or Work, Review, and Request licenses), this is the highest available option.</p> <p>Click <strong>Advanced Settings</strong> to specify whether you want to allow the following:</p> 
+      <td> <p>This option provides the ability to view and fill out the custom form on objects. At the object level, users must also have at least Contribute access with the <strong>Edit custom form</strong> advanced setting enabled. For example, if the form is attached to a project, users must have Contribute access to that project, or they will not be able to fill out the form.</p>
+      
+      <p><b>NOTE</b>: For users with Light and Contributor licenses (or Work, Review, and Request licenses), this is the highest available option.</p>
+      
+      <p>Click <strong>Advanced Settings</strong> to specify whether you want to allow the following:</p> 
        <ul> 
         <li><strong>Attach to custom data</strong>: Ability to attach the custom form to projects, tasks, and issues for which they have Manage access</li> 
         <li> <p><strong>Share</strong>: Ability to share the custom form with others in the system</p> <p>Users with a Light or Contributor license (or Work, Review, or Request license) can share a custom form only through the API or a custom forms report.</p> </li>
@@ -79,7 +83,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
      </tr> 
      <tr> 
       <td role="rowheader">Manage it</td> 
-      <td> <p>Available only for users with a Standard or Plan license. </p> <p>In addition to being able to add the form to objects they have access to edit, users can also fully edit the custom form, including adding, editing, and deleting fields.</p> <p>Click <strong>Advanced Settings</strong> to specify whether you want to allow following:</p> 
+      <td> <p>This option available only for users with a Standard or Plan license. </p> <p>In addition to being able to add the form to objects they have access to edit, users can also fully edit the custom form, including adding, editing, and deleting fields.</p> <p>Click <strong>Advanced Settings</strong> to specify whether you want to allow following:</p> 
        <ul> 
         <li> <p><strong>Attach to custom data</strong>: Ability to attach the custom form to projects, tasks, and issues for which they have Manage access</p> </li> 
         <li><strong>Delete</strong>: Delete the custom form from the system</li> 
@@ -102,16 +106,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
    >![](assets/visible-system-wide-350x480.png)
    >   
    >If you are concerned about a custom form where users might enter sensitive data when it is attached to certain objects, limiting sharing for those *objects* might be better rather than limiting access to the form itself.
-<!--
-   >[!NOTE]
-   >
-   >* When you make a custom form visible to everyone in the system, you allow users only to see and fill it out on objects they are assigned to, not to attach it to other objects. You can grant the ability to attach the custom form to objects using the option "Attach to custom data" explained under step 5.
-   >* Most organizations want to ensure that everyone in the system can fill out a custom form when it's attached to objects they work on and view its data in reports. If this is true for your organization, we recommend that you use **Everyone in the system can view**.
-   >   
-   >![](assets/share-custom-form-in-designer.png)
-   >   
-   >If you are concerned about a custom form where users might enter sensitive data when it is attached to certain objects, limiting sharing for those *objects* might be better rather than limiting access to the form itself.
--->
+
 1. Click **Save**.
 
 ## Share a custom form from the form designer
@@ -130,7 +125,9 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
     <tbody> 
      <tr> 
       <td role="rowheader">View it</td> 
-      <td> <p>Ability to view and fill out the custom form on objects.</p> <p><b>NOTE</b>: For users with Light and Contributor licenses (or Work, Review, and Request licenses), this is the highest available option.</p> <p>Click <strong>Advanced Settings</strong> to specify whether you want to allow the following:</p> 
+      <td> <p>This option provides the ability to view and fill out the custom form on objects. At the object level, users must also have at least Contribute access with the <strong>Edit custom form</strong> advanced setting enabled. For example, if the form is attached to a project, users must have Contribute access to that project, or they will not be able to fill out the form.</p>
+      
+      <p><b>NOTE</b>: For users with Light and Contributor licenses (or Work, Review, and Request licenses), this is the highest available option.</p> <p>Click <strong>Advanced Settings</strong> to specify whether you want to allow the following:</p> 
        <ul> 
         <li><strong>Attach to custom data</strong>: Ability to attach the custom form to projects, tasks, and issues for which they have Manage access</li> 
         <li> <p><strong>Share</strong>: Ability to share the custom form with others in the system</p> <p>Users with a Light or Contributor license (or Work, Review, or Request license) can share a custom form only through the API or a custom forms report.</p> </li>
@@ -138,7 +135,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
      </tr> 
      <tr> 
       <td role="rowheader">Manage it</td> 
-      <td> <p>Available only for users with a Standard or Plan license. </p> <p>In addition to being able to add the form to objects they have access to edit, users can also fully edit the custom form, including adding, editing, and deleting fields.</p> <p>Click <strong>Advanced Settings</strong> to specify whether you want to allow following:</p> 
+      <td> <p>This option is available only for users with a Standard or Plan license. </p> <p>In addition to being able to add the form to objects they have access to edit, users can also fully edit the custom form, including adding, editing, and deleting fields.</p> <p>Click <strong>Advanced Settings</strong> to specify whether you want to allow following:</p> 
        <ul> 
         <li> <p><strong>Attach to custom data</strong>: Ability to attach the custom form to projects, tasks, and issues for which they have Manage access</p> </li> 
         <li><strong>Delete</strong>: Delete the custom form from the system</li> 

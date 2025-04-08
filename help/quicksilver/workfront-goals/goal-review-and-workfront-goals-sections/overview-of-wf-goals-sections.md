@@ -2,13 +2,15 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Overview of the Adobe Workfront Goals sections
+title: Overview of the Adobe Workfront Goals Sections
 description: You can access lists of goals or individual goals and manage them from several sections of Adobe Workfront Goals. Which section you use depends on the purpose you want to achieve when you are working with goals.
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
 ---
 # Overview of the Adobe Workfront Goals sections
+
+<!--Audited for P&P only: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -50,7 +52,7 @@ You can use the Goal List to review goals that belong to you, your teams, groups
 
 For information about navigating the Goal List and managing goals, see [Manage goals in the Goal List of Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
-![](assets/goal-list-unshimmed.png)
+![Goal list](assets/goal-list-unshimmed.png)
 
 Use the Goal List to do the following:
 
@@ -72,7 +74,7 @@ You can use the Graphs section to gain a holistic view of the health of goals th
 
 For information about using the Graphs section, see [Review graphs to understand goal progress trends in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
-![](assets/graphs-section-unshimmed.png)
+![Graphs section](assets/graphs-section-unshimmed.png)
 
 Use the Graphs section to do the following:
 
@@ -91,7 +93,7 @@ For information about aligning goals, see the following articles:
 * [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md) 
 * [Align goals by converting results and activities to goals](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
-![](assets/goal-alignment-section-unshimmed.png)
+![Goal alignment section](assets/goal-alignment-section-unshimmed.png)
 
 Use the Goal Alignment section to do the following:
 
@@ -112,7 +114,7 @@ You can use the Pulse section to review and request updates to goals that might 
 
 For information about reviewing goals using the Pulse section, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).
 
-![](assets/pulse-section-350x141.png)
+![Pulse section](assets/pulse-section-350x141.png)
 
 Use the Pulse section to do the following:
 
@@ -143,7 +145,7 @@ You can use the Check-in section to update active goals and any results and acti
 
 For information about managing goals in the Goal List, see [Manage goals in the Goal List of Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
-![](assets/check-in-section-350x143.png)
+![Check in section](assets/check-in-section-350x143.png)
 
 Use the Check-in section to do the following:
 

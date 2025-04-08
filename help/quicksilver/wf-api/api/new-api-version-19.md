@@ -303,7 +303,7 @@ An Hour object represents an hour logged by a user on a timesheet.
           <li><p><b>rejectionComment</b></li>
           <li><p><b>submittedByID</b></li>
           </ul>
-          <p>The following changed were made to the <b>hours</b> field.</p>
+          <p>The following changes were made to the <b>hours</b> field.</p>
           <ul> 
           <li> Removed validator <b>GREATER_THAN</b></li>
           <li> Added validator <b>NOT_EQUAL</b></li>

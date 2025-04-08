@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
 
 To access reports that you have created or that have been shared with you or shared publicly:
 
-1. From the **Main Menu** ![](assets/main-menu-icon.png), click **Reports**. 
+1. From the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), click **Reports**. 
 
 1. Click one of the following options, depending on the report that you want to view:
 
@@ -61,10 +61,10 @@ You can use folders to organize the reports that you create. You cannot organize
 
 ### Create a new folder for reports {#create-a-new-folder-for-reports}
 
-1. From the **Main Menu** ![](assets/main-menu-icon.png), click **Reports**. 
+1. From the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), click **Reports**. 
 
 1. Click the **New Folder** icon.  
-   ![](assets/nwe-new-folder-350x346.png)
+   ![New folder icon](assets/nwe-new-folder-350x346.png)
 
 1. Specify a name for the new folder, then press Enter.
 1. From the **My Reports** folder, add reports to the new folder.  
@@ -76,16 +76,21 @@ You can use folders to organize the reports that you create. You cannot organize
 
 ### Add reports to a folder {#add-reports-to-a-folder}
 
-1. From the **Main Menu** ![](assets/main-menu-icon.png), click **Reports**. 
+1. From the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), click **Reports**. 
 
 1. Click **My Reports**.  
    Or  
    Click any folder nested under the **My Reports** folder.
 
-1. Drag a report from the report list into the folder where you want it to reside, and drop it when you reach the folder.
+1. Select the report, then click the folder icon ![Folder icon](assets/folder-icon.png) at the top of the list. 
+
+1. Choose the folder you want to add the report to. 
+
+   ![Choose a folder to move the report to](assets/choose-folder.png)
 
    >[!NOTE]
    >
    >You can only move reports from the **My Reports** folder to other folders nested under **My Reports**. You cannot move reports from or to the **Shared with Me** or **All Reports** folder to or from other folders.
 
-   ![](assets/nwe-drag-report-to-folder-350x292.png)
+   
+ 

@@ -16,7 +16,7 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -153,15 +153,15 @@ OLD:
    The workspace page opens and the record types display. 
 1. Do one of the following:
 
-   * Hover over the card of a record type and click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the record type card, then click **Edit**
+   * Hover over the card of a record type and click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the record type card, then click **Edit**
       Or
-   * Click a record type card to open the record type page, click the **More** menu ![](assets/more-menu.png) to the right of the record type name, then click **Edit**. 
+   * Click a record type card to open the record type page, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Edit**. 
 
-   ![](assets/more-menu-options-from-record-type-card.png)
+   ![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)
 
 1. In the **Edit record type** box, the **Appearance** tab opens by default. 
 
-   ![](assets/edit-record-type-box-appearance-tab.png) 
+   ![Edit record type box appearance tab ](assets/edit-record-type-box-appearance-tab.png) 
 
    Update the following information in the **Appearance** tab: 
 
@@ -173,7 +173,7 @@ OLD:
 
 1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box. 
 
-   ![](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. (Conditional) As a system administrator, update the following information in the **Advanced settings** tab: 
 
@@ -183,10 +183,10 @@ OLD:
 
 1. Click **Save**.
 
-      The record type card on the workspace displays a connectivity icon ![](assets/connect-from-other-workspaces-icon.png) in the upper-right corner to indicate that the record is now accessible from other workspaces. 
+      The record type card on the workspace displays a connectivity icon ![Connect from other workspaces icon](assets/connect-from-other-workspaces-icon.png) in the upper-right corner to indicate that the record is now accessible from other workspaces. 
 
 1. (Optional) Click the record type card from the workspace area to open the record type's page, then rename the record type in the header.  
 
 1. (Optional) To edit another record type, from the record type page, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list.
 
-   ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+   ![Record type drop-down on record type page with search box](assets/record-type-drop-down-on-record-type-page-with-search-box.png)

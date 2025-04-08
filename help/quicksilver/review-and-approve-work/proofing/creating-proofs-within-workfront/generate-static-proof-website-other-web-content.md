@@ -75,7 +75,7 @@ To create a static proof, the website needs to be publicly accessible (not behin
 
    Options for configuring the website proof appear.
 
-   ![](assets/interactive-proof-radio-btn-area-350x199.png)
+   ![Interactive proof](assets/interactive-proof-radio-btn-area-350x199.png)
 
 1. (Optional) If you want to change the name of the proof from the website URL to something else, type a&nbsp;**Proof name.**
 1. Make sure&nbsp;**Capture screenshot**&nbsp;is selected and use any of the following options:

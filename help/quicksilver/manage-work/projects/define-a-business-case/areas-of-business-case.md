@@ -109,7 +109,7 @@ The hours budgeted for the resources on the project display in the Resource Budg
 
 For more information about budgeting resources for the project in the Business Case, see [Budget resources in the Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-![](assets/business-case-sp-selected-with-choose-button-350x121.png)
+![Business case resource budgeting](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
 Consider the following when viewing the Resource Budgeting section of the Business Case:
 

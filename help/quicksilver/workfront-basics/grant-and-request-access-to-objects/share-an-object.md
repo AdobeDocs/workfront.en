@@ -104,7 +104,7 @@ You must have the following to share objects:
 
    ![](assets/new-share-button.png)
 
-1. In the **Grant < object name > access to** box, begin typing the name of the user, team, role, group, or company with whom you want to share the object, then click the name when it appears in the drop-down list.
+1. In the **Grant access to** box, begin typing the name of the user, team, role, group, or company with whom you want to share the object, then click the name when it appears in the drop-down list.
 
    ![](assets/new-share-button-add-people.png){width="350"}
 
@@ -163,13 +163,7 @@ You must have the following to share objects:
 
    You can specify permissions on the projects that will be created from a template when you share the template. For more information, see [Share project templates](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-1. (Conditional) To share the object with external users, click **Copy link**, then distribute the link to external users. 
-
-   Any users with the link are able to view the object.
-
-   >[!CAUTION]
-   >
-   >We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization.
+1. (Conditional) To quickly share the object with users who have access, click **Copy link**.
 
 1. Click **Save**.
 

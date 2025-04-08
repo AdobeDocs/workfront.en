@@ -21,7 +21,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 ## Export a report
 
 1. Navigate to the report that you want to export.
-1. In the report header, click the **More** icon ![](assets/more-icon-27x15.png), click **Export**, then select the file format you want to create.
+1. In the report header, click the **More** icon ![More icon](assets/more-icon-27x15.png), click **Export**, then select the file format you want to create.
 
    >[!NOTE]
    >
