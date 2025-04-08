@@ -13,7 +13,7 @@ exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
 
 >[!IMPORTANT]
 >
->The Adobe Workfront for Microsoft Teams integration is currently supported only for the classic Microsoft Teams experience.
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
 
 
 The [!DNL Adobe Workfront for Microsoft Teams] app allows you to perform basic actions in [!DNL Workfront] without leaving your [!DNL Microsoft Teams] chat channels.
