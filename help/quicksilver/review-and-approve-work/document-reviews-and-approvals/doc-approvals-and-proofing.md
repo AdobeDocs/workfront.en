@@ -1,17 +1,17 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Use new document approvals and proofing together
-description: You can use new document approvals with proofing.
+title: Use unified approvals and proofing together
+description: You can use unified approvals with proofing.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
 ---
-# Use new document approvals and proofing together
+# Use unified approvals and proofing together
 
-New document approvals in Workfront introduces a new set of features to help you review and approve documents. You can use the new document approvals workflow with the existing proofing viewer to add comments and markup to documents in review.
+Unified approvals in Workfront introduces a new set of features to help you review and approve documents. You can use a unified approvals workflow with the existing proofing viewer to add comments and markup to documents in review.
 
-There are some key differences in the workflow when using new document approvals and proofing together:
+There are some key differences in the workflow when using unified approvals and proofing together:
 
 * Decision buttons do not appear in the proofing viewer 
 
