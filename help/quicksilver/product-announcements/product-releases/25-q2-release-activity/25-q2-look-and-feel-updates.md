@@ -12,6 +12,33 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the Second Quarter 2025 release, see [Second Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
+## Look-and-feel update to the Google Drive document integration dialog 
+
+>[!NOTE]
+>
+>Preview release: March 26, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+
+We have updated the look-and-feel when you use the Google Drive document integration to create a new version of a document. This update brings the Version > From Google Drive dialog into parity with the Add new > From Google Drive dialog. 
+
+Previously, you had the option to choose from My Drive or a Shared Drive if your account was associated with one. Now, the dialog goes directly to the My Drive area of your Google Drive. 
+
++++ Expand to view this change
+
+<table>
+ <thead>
+    <tr>
+        <th>Previous</th>
+        <th>New</th>
+    </tr>
+  </thead>
+ <tr>
+        <td><img src="assets/legacy-add.png" alt="add document with Google Drive integration"></td>
+         <td><img src="assets/new-add.png" alt="add document with Google Drive integration"></td>
+    </tr>
+</table>
+
++++
+
 ## Updated experience in the Access Levels area in Setup
 
 >[!NOTE]
