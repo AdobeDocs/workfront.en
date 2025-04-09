@@ -302,13 +302,13 @@ The following are the highest access settings available for objects in the Contr
 
 This access level is not attached to a paid Workfront license. It is the most restrictive access level, designed primarily for collaborators like external consultants who don't log into Workfront, but need to review, download, or view documents occasionally.
 
-Workfront users can assign tasks to external users even though external users can't log in to the system. But we advise against this because that work would remain unresolved in the system.
-
 Users with the External User access level:
 
 * Can view only documents and calendar reports that are shared with them
 * View the users who share documents and calendar reports with them
 * Approve the documents that are shared with them
+
+External users cannot be assigned to work items.
 
 You cannot modify this access level.
 

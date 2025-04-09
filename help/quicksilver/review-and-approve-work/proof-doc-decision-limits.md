@@ -11,11 +11,47 @@ exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
 
 Proof and document decisions are limited for all non-paid Workfront licenses on the new plans. When you are assigned as an approver for a document or proof, you must make a decision to move the review and approval process forward. 
 
-The following decision options count towards the monthly limit:
+The following decision types count towards the monthly limit:
 
-* Approve
-* Approve with changes
-* Needs work
+<table>
+  <tr>
+  
+   <td><strong>Legacy document approvals</strong> 
+   </td>
+   <td><strong>Unified approvlas</strong> 
+   </td>
+   <td><strong>Proof approvals</strong> 
+   </td>
+  </tr>
+  <tr>
+   <td>
+   <ul>
+   <li>Approve</li>
+    <li>Approve with changes</li>
+     <li>Reject</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>Approve</li>
+    <li>Approve with changes</li>
+     <li>Needs work</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>Approve</li>
+    <li>Approve with changes</li>
+     <li>Changes required</li>
+   </ul>
+   <p><strong>Note</strong>: Proof approvals can have custom decision labels</p>
+  </tr>
+  </tr>
+</table>
+
+
+
+## Limits
 
 Limits reset on a per-user basis each month. The decision limits for each license differ depending on the plan you're on: 
 
