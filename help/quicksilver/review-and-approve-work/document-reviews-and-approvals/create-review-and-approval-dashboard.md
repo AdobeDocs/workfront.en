@@ -9,11 +9,11 @@ exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
 ---
 # Create a report dashboard for review and approvals
 
-You can create a report dashboard in the Canvas Dashboards area to display both high-level and detailed information about reviews and approvals with unified approvals functionality.  
+You can create a report dashboard in the Canvas Dashboards area to display both high-level and detailed information about reviews and approvals with Unified Approvals functionality.  
 
 >[!IMPORTANT]
 >
->This functionality is available only for customers using unified approvals service and enrolled in the Canvas Dashboards beta.
+>This functionality is available only for customers using Unified Approvals service and enrolled in the Canvas Dashboards beta.
 
 
 ![example dashboard](assets/whole-dashboard.png)
