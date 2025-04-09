@@ -89,7 +89,8 @@ To download the [!DNL Excel] summary from the Proof details page:
 
 1. Click the **More** button, then select **Export to Excel**.
 
-   ![Export to Excel option](assets/Export-to-excel-option.png)
+   <!--
+   ![Export to Excel option](assets/export-to-excel-option.png) -->
 
 ## Exporting to PDF
 
