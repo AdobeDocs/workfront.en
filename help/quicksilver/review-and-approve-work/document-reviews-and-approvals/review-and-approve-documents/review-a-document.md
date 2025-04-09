@@ -91,9 +91,6 @@ Add once functionality is added
 1. (Optional) You can also preview or download a specific version of the document by scrolling down to the **Versions** section of the Document Summary pane, then clicking on the More icon ![More icon](../assets/more-icon.png) next to the version you would like to review and selecting **Download** or **Preview**.
 1. To record that you have completed your review, click **Complete review**.
 
-
-<span class="preview">
-
 ## Review a document from the proof viewer
 
 To review a document:
@@ -110,4 +107,3 @@ To review a document:
 
 1. To record that you have completed your review, click **Complete review**.
 
-</span>

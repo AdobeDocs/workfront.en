@@ -134,7 +134,6 @@ You must have the following access to perform the steps in this article:
    
    * **Needs work** indicates that the document version is not approved and requires significant changes.
 
-   <span class="preview">
    
    ## Approve a document from the proof viewer
    
@@ -158,4 +157,4 @@ You must have the following access to perform the steps in this article:
    
    Once you make a decision, the document owner is notified via email.
    
-   </span>
+ 
