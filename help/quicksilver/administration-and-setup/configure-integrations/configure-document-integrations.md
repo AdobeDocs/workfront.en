@@ -244,4 +244,4 @@ To configure [!DNL Workfront] to send metadata to [!DNL Workfront DAM]:
 
 ## Limitations
 
-* The Google Drive document integration supports adding folders and images from the My Drive area of your Google Drive. You cannot add folders or images from a Shared Drive. Learn more about [Google Shared Drives](https://support.google.com/a/users/answer/7212025?hl=en). 
+* The Google Drive document integration supports adding folders and images from the My Drive area of your Google Drive. You cannot add folders or images from a Shared Drive. Learn more about [Google Shared Drives](https://support.google.com/a/users/answer/7212025?hl=en).
