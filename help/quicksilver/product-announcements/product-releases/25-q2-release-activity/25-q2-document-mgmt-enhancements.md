@@ -16,13 +16,13 @@ For a list of all changes available at this point in the Second Quarter 2025 rel
 >
 >The features listed on this page are part of a phased release and are only available for specific customers.
 
-<!--
+
 
 ## New document approval decision buttons available in proofing viewer
 
 >[!NOTE]
 >
->Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+>Preview release: April 8, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
 
 The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.
 
@@ -32,7 +32,7 @@ Approvals created before this release will not display the buttons in proofing v
 
 For more information, see [Use new document approvals and proofing together](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
 
--->
+
 
 ## Desktop Proofing Viewer update
 
