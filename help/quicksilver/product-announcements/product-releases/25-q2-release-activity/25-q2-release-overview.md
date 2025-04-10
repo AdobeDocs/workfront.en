@@ -82,7 +82,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
-    <tr>
+<!--    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             New document approval decision buttons available in proofing viewer</a></p>
@@ -95,7 +95,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
                 <li>Production release for a limited set of customers: With the 25.4 release (April 2025)</li>
             </ul>
         </td>
-    </tr>                        
+    </tr>   -->                     
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
