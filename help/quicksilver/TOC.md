@@ -1523,7 +1523,7 @@ feature-set: Workfront
       * [Run a report](reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)
       * [Create a matrix report](reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
       * [Create a copy of a report](reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)
-      * [Filter reports by timeframes](reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-timeframes.md)
+      * [Filter reports by timeframes](reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
       * [Add a prompt to a report](reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
       * [Add a chart to a report](reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)
       * [Report delivery overview](reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)
