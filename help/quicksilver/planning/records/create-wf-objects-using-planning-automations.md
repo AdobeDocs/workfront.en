@@ -17,9 +17,9 @@ exl-id: c669217a-40e2-471f-951d-93157a34f1ee
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. The created objects or records are automatically connected to the records you are triggering the automation from. 
 
@@ -31,7 +31,7 @@ For more information on connected records, see [Connected records overview](/hel
 
 You can create the following using automations in Workfront Planning:
 
-* One <span class="preview">or several</span> projects
+* One or several projects
 * A group
 * A program
 * A portfolio
@@ -117,15 +117,11 @@ You must have the following access to perform the steps in this article:
 
 * The name of the object or record created by an automation is the same as the record name from which you create it, when you create a single object. 
 
-<div class="preview">
-
 * When you create multiple projects,they are automatically named according to the following pattern: 
 
    `[ Name of the record ] Name of the field choice`
 
    For more information, see the [Use a Workfront Planning automation to create an object or a record](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) section in this article.
-
-</div>
 
 * New objects or records don't override existing ones in the same field. Triggering the same automation multiple times for the same record adds the new objects or records in the same connected field of the original record, in addition to the ones created before. 
 
@@ -160,8 +156,8 @@ You must configure an automation for a record type in Workfront Planning before 
    * **Actions**: Select the action that you want Workfront to perform when triggering the automation. This is a required field. 
    Select one of the following actions: 
 
-      * <span class="preview">Create multiple projects</span>
-      * <span class="preview">Create a single project</span>
+      * Create multiple projects
+      * Create a single project
       * Create project
       * Create record
       * Create program
@@ -174,12 +170,10 @@ You must configure an automation for a record type in Workfront Planning before 
 
 1. (Conditional) Depending on what action you selected, update the following fields:
 
-   * **Create <span class="preview">a single</span> project**: <!--replace to the left: Create a single project-->
+   * **Create a single project**: <!--replace to the left: Create a single project-->
       * **Connected field where the project is created**: This is the connected field where the new project will display. This is a required field. 
       * **Project template**: Select a project template that Workfront will use to create the project.  
    
-   <div class="preview">
-
    * Create multiple projects:
       * **Connected field where the project is created**: This is the connected field where the new project will display. This is a required field. 
       * **Field whose choices will create the records**: Choose a multi- or single-select field from the selected record type. Workfront creates a project for each field choice that is currently selected on the record from where you trigger the automation. 
@@ -192,8 +186,6 @@ You must configure an automation for a record type in Workfront Planning before 
       * **Use the same template**: Select this option to use the same template for each new project. If the option is deselected, select a **Project template** for each field choice.   
       * **Project template**: If you selected the **Use the same template** option, select a project template that Workfront will use to create the projects. 
    
-   </div> 
-
    * **Create portfolio**:
       * **Connected field where the portfolio is created**: This is the connected field where the new portfolio will display. This is a required field.
       * **Custom form to attach to the new portfolio**: Select a custom form to attach to the new portfolio. You must create a portfolio custom form before you can select it. 
@@ -305,15 +297,11 @@ You must configure an automation for a record type in Workfront Planning before 
 
    * The new object displays in the connected field indicated in the setup of the automation button. You might need to refresh your page before viewing the new object. The new object has the same name as the original record.
 
-   <div class="preview">
-
    * If multiple projects were created based on the choices of multi- or single-select fields, the projects are automatically named according to the following pattern: 
 
       `[ Name of the record ] Name of the field choice`
 
       For example, if a campaign named `Summer breeze` generated a project from a field choice of `EMEA`, the project is named `[ Summer breeze ] EMEA`.
-
-   </div>
 
    * The record you are triggering the automation from is added to the connected field of the new record.
 

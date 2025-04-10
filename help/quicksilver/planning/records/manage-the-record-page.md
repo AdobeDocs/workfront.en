@@ -10,9 +10,9 @@ exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 
 # Manage the record page layout
 
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -155,11 +155,7 @@ To add a section to a record preview or page:
     
     The record's preview opens in the view.
 
-   <div class="preview">
-
     ![Details box](assets/details-box.png)  
-
-    </div>
 
 1. (Optional) Click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record preview  to open the record's page in a new tab. 
 
@@ -238,21 +234,13 @@ To add a section to a record preview or page:
     
     The record's preview opens in the view.
 
-    <div class="preview">
-
     ![Details box](assets/details-box.png) 
-
-    </div>
 
 1. (Optional) Click the **Open in new tab** icon ![Open details box in a new tab icon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 
     The **Details** tab of the record opens by default. 
 
-   <div class="preview">
-
    ![Details page](assets/details-page.png)
-
-   </div>
 
 1. In the record **Details** tab, click the **grab** icon ![Grab icon](assets/grab-icon.png) to the left of a field name, then drag and drop it in a desired spot. 
 
@@ -295,17 +283,13 @@ To add a Connection view page:
    The table view of the record type you selected displays and the connected records display in the table view. 
    All fields of the connected record display in the table view of the connected record's tab. 
    
-   <span class="preview">When you access Workfront Planning from the Preview environment, the first five fields from the connected record table display by default. No lookup fields display by default.</span>
+   When you access Workfront Planning from the Preview environment, the first five fields from the connected record table display by default. No lookup fields display by default.0
 
    The table view is read-only. 
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
-   <div class="preview">
-
    ![Audience connected table view under campaign details](assets/audience-connected-table-view-under-campaign-details-page.png)
-
-   </div>
 
 1. (Optional) Double-click the name of the tab
 
@@ -317,7 +301,7 @@ To add a Connection view page:
    * Filters
    * Sort
    * Grouping
-   * <span class="preview">Fields, to display, hide, or rearrange fields</span>
+   * Fields, to display, hide, or rearrange fields
 
    <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
@@ -327,11 +311,11 @@ To add a Connection view page:
    >
    >   You cannot do any of the following in the table view of a connected record's tab:
    >
-   >   * Hide or rearrange fields. <span class="preview">You can hide and rearrange fields in the Preview environment.</span>
+   >   * Hide or rearrange fields. You can hide and rearrange fields in the Preview environment.
    >   * Create, edit, or delete fields
    >
 
-1. <span class="preview">Click **Connect** to add or remove records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md)</span>
+1. Click **Connect** to add or remove records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md)
 1. (Optional)  Hover over the name of the Connection view tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to new Connected view tab.
 
 
