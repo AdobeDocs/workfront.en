@@ -77,7 +77,7 @@ You can remove entities (users, job roles, teams, groups, companies) from the sh
 
       ![remove permission](assets/remove-permissions-on-portfolio.png)
 
-   1. In the **< User Name >'s Workfront access will be removed from this** drop-down menu, select whether you want their access to be removed just from the object you have selected, or from all children objects associated with it. 
+   1. In the **[User Name]'s Workfront access will be removed from this** drop-down menu, select whether you want their access to be removed just from the object you have selected, or from all children objects associated with it. 
 
 1. (Conditional) For projects, tasks, and issues, do the following:
 
@@ -146,11 +146,9 @@ To remove inherited permissions:
 
 1. Go to an object to which you have Manage permissions. For example, go to a task.   
 1. Go to the object access box as described in the [Remove entities from the sharing list of an object](#remove-entities-from-the-sharing-list-of-an-object) section in this article.
-1. Select **Turn off** next to **Inherited Permission** to disable 
+1. Select **Turn off** next to **Inherited Permission** to disable.
 
-   ![inherited permissions](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
-
-   This ensures that no one who is granted permissions to the parent object (for example, the project) has permissions to this task by default. You must list&nbsp; individual entities in the sharing list of the task to grant permissions on the task.
+   This ensures that no one who is granted permissions to the parent object (for example, the project) has permissions to this task by default. You must list individual entities in the sharing list of the task to grant permissions on the task.
 
    >[!TIP]
    >
