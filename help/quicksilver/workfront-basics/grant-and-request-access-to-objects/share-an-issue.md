@@ -28,15 +28,8 @@ In addition to the considerations below, also see [Overview of sharing permissio
 * You can grant the following permissions to an issue:&nbsp;
 
    * View
-
-     ![view_on_issue.png](assets/view-on-issue-221x216.png)
-
-   * Manage
-
-     ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
-
    * Contribute  
-     ![contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
+   * Manage
 
 * When you share an issue, all the documents attached to the issue inherit the same permissions.
 
