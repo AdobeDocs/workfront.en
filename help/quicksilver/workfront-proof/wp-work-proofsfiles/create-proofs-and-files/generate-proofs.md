@@ -10,6 +10,8 @@ exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
 ---
 # Generate Proofs in [!DNL Workfront Proof]
 
+<!-- Audited: 4/2025 -->
+
 >[!IMPORTANT]
 >
 >This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).

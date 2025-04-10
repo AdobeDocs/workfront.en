@@ -1489,7 +1489,7 @@ feature-set: Workfront
   * Reports {#reports}
     * [Reports](reports-and-dashboards/reports/reports-overview.md)
     * Reporting basics {#report-basics}
-      * [Reporting basics](reports-and-dashboards/reports/reporting/reporting-basics.md)
+      * [Reporting basics: article index](reports-and-dashboards/reports/reporting/reporting-basics.md)
       * [Get started with reports](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
       * [Save default reports as new reports](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
     * Reporting elements {#report-elements}
