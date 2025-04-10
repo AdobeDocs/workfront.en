@@ -10,6 +10,8 @@ exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
 ---
 # Print and Export Comments in [!DNL Workfront Proof]
 
+<!-- Audited: 4/2025 -->
+
 >[!IMPORTANT]
 >
 >This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).

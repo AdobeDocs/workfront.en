@@ -59,7 +59,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Move a story to a different iteration
 
-You can move a story to a different iteration for your Scrum team if you are a System Administrator or a member of the team the iteration is associated with.
+You can move a story to a different iteration for your Scrum team if you are a system administrator or a member of the team the iteration is associated with.
 
 >[!NOTE]
 >

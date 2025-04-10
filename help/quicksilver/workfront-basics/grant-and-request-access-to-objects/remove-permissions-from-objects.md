@@ -17,6 +17,9 @@ Similar considerations as for sharing objects apply for removing permissions fro
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
+
 You must have the following to share objects:
 
 <table style="table-layout:auto"> 
@@ -54,6 +57,8 @@ You must have the following to share objects:
 
 *To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
++++
+
 ## Remove entities from the sharing list of an object {#remove-entities-from-the-sharing-list-of-an-object}
 
 You can remove entities (users, job roles, teams, groups, companies) from the sharing list of an object. This removes their permissions to the object.
@@ -64,26 +69,26 @@ You can remove entities (users, job roles, teams, groups, companies) from the sh
 
 1. (Conditional) For programs, portfolios, and documents, do the following:
    
-   1. Click the **More** icon ![](assets/more-icon.png)next to the object name, then click **Sharing** or **Share.**
+   1. Click the **More** icon ![more icon](assets/more-icon.png)next to the object name, then click **Sharing** or **Share.**
 
-      ![](assets/share-a-document-350x160.png)
+      ![share](assets/share-a-document-350x160.png)
 
    1. Click the **x** next to the name of a user, team, group, company, job role to remove them in the object access box.
 
-      ![](assets/remove-permissions-on-portfolio.png)
+      ![remove permission](assets/remove-permissions-on-portfolio.png)
 
-   1. In the **< User Name >'s Workfront access will be removed from this** drop-down menu, select whether you want their access to be removed just from the object you have selected, or from all children objects associated with it. 
+   1. In the **[User Name]'s Workfront access will be removed from this** drop-down menu, select whether you want their access to be removed just from the object you have selected, or from all children objects associated with it. 
 
 1. (Conditional) For projects, tasks, and issues, do the following:
 
    1. Click **Share** to the right of the object's name. 
 
-      ![](assets/new-share-button.png)
+      ![share](assets/new-share-button.png)
    1. Find the user, role, team, group, or company you want to remove from the object.
    1. Click **Remove**. 
    In the **Remove < User Name > from** drop-down menu, select whether you want their access to be removed just from the object you have selected, or from all children objects associated with it. 
 
-      ![](assets/remove-permissions-on-project-nwe-350x479.png)
+      ![remove](assets/remove-permissions-on-project-nwe-350x479.png)
 
    The following scenarios exist:
 
@@ -92,6 +97,7 @@ You can remove entities (users, job roles, teams, groups, companies) from the sh
 
 1. Click **Save**.
 
+<!--
 ## Remove permissions from several objects in bulk
 
 You can remove entities (users, job roles, teams, groups, companies) from several objects at a time when you bulk select them in a list.
@@ -104,11 +110,11 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
 
    For information about which objects can be shared, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Select several objects in the list, then click the **Share** icon ![](assets/share-icon.png)at the top of the list. 
+1. Select several objects in the list, then click the **Share** icon ![share icon](assets/share-icon.png)at the top of the list. 
 1. Type the name of the user, role, team, group, or company for which you want to remove the access in the **Edit `<Object Name>` access to** field. 
 1. From the access drop-down menu, select **No Access**.
 
-   ![](assets/no-access-option-removing-permissions-bulk-tasks-nwe-350x166.png)
+   ![remove in bulk](assets/no-access-option-removing-permissions-bulk-tasks-nwe-350x166.png)
 
 1. In the `<User Name>`'s Workfront access will be removed from this drop-down menu, select whether you want their access to be removed just from the objects that you have selected, or from all other children objects associated with it.  
    The following scenarios exist:
@@ -118,13 +124,15 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
 
    **Example:** Select whether to remove permissions to just the tasks you selected in a list, or to the issues and documents attached to the tasks as well.
 
-   ![](assets/remove-permissions-bulk-drop-down-for-attached-objects-nwe-350x96.png)
+   ![access](assets/remove-permissions-bulk-drop-down-for-attached-objects-nwe-350x96.png)
 
 1. (Optional) To change permissions in bulk for several objects, select another level of sharing for the selected entity.
 
    For example, if they have Manage permissions, select Contribute or View instead. 
 
 1. Click **Save**.
+
+-->
 
 ## Remove inherited permissions
 
@@ -138,11 +146,9 @@ To remove inherited permissions:
 
 1. Go to an object to which you have Manage permissions. For example, go to a task.   
 1. Go to the object access box as described in the [Remove entities from the sharing list of an object](#remove-entities-from-the-sharing-list-of-an-object) section in this article.
-1. Select the **x**&nbsp;next to **Inherited Permission**&nbsp;on the sharing box to remove&nbsp;anyone listed there.
+1. Select **Turn off** next to **Inherited Permission** to disable.
 
-   ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
-
-   This ensures that no one who is granted permissions to the parent object (for example, the project) has permissions to this task by default. You must list&nbsp; individual entities in the sharing list of the task to grant permissions on the task.
+   This ensures that no one who is granted permissions to the parent object (for example, the project) has permissions to this task by default. You must list individual entities in the sharing list of the task to grant permissions on the task.
 
    >[!TIP]
    >
@@ -162,8 +168,8 @@ To make an object private:
    For example, navigate to a report.
 1. Click **Report Actions**, then **Sharing**.
 
-   ![](assets/report-permissions-make-private-nwe-350x477.png)
+   ![make private](assets/report-permissions-make-private-nwe-350x477.png)
 
-1. Click **Remove public access** to remove the access of external users to viewing the report.
-1. Click **Remove system-wide access** to stop sharing it with all Workfront users.&nbsp;
+1. Click the gear icon, then uncheck **Make this public to external users**.
+1. In the **Who has access** drop-down menu, click **Only invited people can access** to stop sharing it with all Workfront users.
 1. Click **Save**.
