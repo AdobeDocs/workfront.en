@@ -31,8 +31,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
   For more information about sharing items in Workfront, see [Share an object](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-* You can only grant View or Manage permissions on programs.
-  ![](assets/program-permissions.png)
+* You can only grant View or Manage permissions on programs:
 
 * When you share a program, users inherit the same permissions to all the children objects associated with the program, by default.
 
@@ -59,4 +58,6 @@ The following table displays what permissions you can grant users when allowing 
 | Share |✓ |✓ |
 | Share system-wide |&nbsp; |✓ |
 
-*These permissions are controlled by the access level and permissions on other objects, like projects.&nbsp;
+*These permissions are controlled by the access level and permissions on other objects, like projects.
+
+
