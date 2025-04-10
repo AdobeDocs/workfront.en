@@ -101,9 +101,6 @@ To grant financial permissions to an object:
    * **Contribute to it**
    * **Manage it**
 
-     ![](assets/project-permissions.png)
-   </span>
-
 1. In the same drop-down menu, click **Advanced Settings**, then do one of the following:
 
    * If you selected one of the three options in the previous step, make sure **View Finance** is selected.

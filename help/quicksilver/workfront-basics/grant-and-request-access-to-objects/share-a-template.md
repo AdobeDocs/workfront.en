@@ -36,9 +36,6 @@ Permissions are specific to one item in Workfront and define what actions one ca
       * View
       * Manage
 
-      ![](assets/template-permissions.png)
-    </span>
-
    * The future projects which are created using the template. You can give the same levels of permissions to projects created from a template as you would an individual project.&nbsp;
 
      For information about how to share a project from a template at the template level, see [Share project templates](../../manage-work/projects/create-and-manage-templates/share-project-template.md).

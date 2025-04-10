@@ -28,10 +28,6 @@ In addition to the considerations below, also see [Overview of sharing permissio
    * View
    * Manage
    * Contribute  
-  
-     ![](assets/task-permissons.png)
-    </span>
-
 * When you share a task, users inherit the same permissions on all the children objects associated with the task, by default. For example, they inherit the same permissions on the children tasks, issues, and documents attached to the task.   
   For more information about the hierarchy of objects in Workfront, see&nbsp; [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 

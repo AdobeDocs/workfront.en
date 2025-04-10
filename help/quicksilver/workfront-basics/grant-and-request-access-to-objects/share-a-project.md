@@ -31,11 +31,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
    * View
    * Manage
    * Contribute
-
- 
-     ![](assets/project-permissions.png)
-    </span>
-
+    
 * When you share a project, all the tasks, issues, and documents inherit the same permissions, unless otherwise specified.
 
   For information about managing the access to tasks and issues on the project based on a user's permissions to the project, see the [](../../manage-work/projects/manage-projects/edit-projects.md#access) section in the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).

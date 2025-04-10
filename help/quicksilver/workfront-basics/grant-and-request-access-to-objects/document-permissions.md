@@ -33,7 +33,6 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
    * View
    * Manage
-  ![view and manage share dialog](assets/document-permissions.png) 
 
 * You can also share a document publicly or system-wide.
 

@@ -31,8 +31,6 @@ In addition to the considerations below, also see [Overview of sharing permissio
    * Contribute  
    * Manage
 
-        ![view-an-issue](assets/view-issue.png)  ![contribute_on_issue.png](assets/contribute-issue.png) ![manage_on_issues.png](assets/manage-issue.png)
-
 * When you share an issue, all the documents attached to the issue inherit the same permissions.
 
   The Workfront administrator can specify whether documents should inherit permissions from higher objects in the user's access level. For more information about restricting inherited permissions on documents, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
