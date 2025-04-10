@@ -68,7 +68,7 @@ Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner
 
    1. Go to the **My Approvals** widget and find the request for more access, then click **Grant access**. 
 
-      ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
+      ![approve a request](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 
    1. (Optional) To grant a different level of access than requested, click the drop-down menu to the left of Grant access button and select the new access, then click **Grant access**.  
 
@@ -83,29 +83,11 @@ You can configure whether you receive email notifications for access requests. Y
 1. Go to your user profile by doing one of the following:
 
    * Click the **Main menu** ![](assets/dots-main-menu.png) in the upper-right corner of the screen, then click your name. 
-   * Click the Adobe **Main menu** ![](assets/adobe-blue-main-menu.png) in the upper-right corner, if available, then click **Workfront Profile**. 
+   * Click the Adobe **Main menu** ![profile icon](assets/adobe-blue-main-menu.png) in the upper-right corner, if available, then click **Workfront Profile**. 
 
-1. Click the **More** menu ![](assets/more-icon.png) to the right of your name in the header, then click **Edit**.
+1. Click the **More** menu ![more icon](assets/more-icon.png) to the right of your name in the header, then click **Edit**.
 1. Click **Notifications**, and select or deselect **Someone requests access from me** in the **Action Needed** section, depending on whether you want to receive email notifications when another user requests access from you or not.
 
    You can enable a daily or instant notification.
 
 1. Click **Save Changes**.
-
-<!--1. (Conditional) From the legacy Home area, do the following: 
-   
-   1. In the **Work List**, select the access request you want to manage in the **Approvals** section.  
-
-   ![Screen_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
-
-   The request displays on the right of the Work List. 
-
-   1. In the upper-right corner, click the grant access button.  
-   Depending on the type of access requested, the button name changes. For example, if the requestor asks for View access, the button says **Grant View Access**.  
-   ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
-
-   1. (Optional) To grant a different level of access than requested, click the arrow next to the grant access button and select the new access, then click **Grant < Permission level > Access >**.  
-   A message appears confirming access was granted.  
-   
-   1. (Optional) Click **Ignore** to deny access.  
-   A message appears confirming access was ignored.-->

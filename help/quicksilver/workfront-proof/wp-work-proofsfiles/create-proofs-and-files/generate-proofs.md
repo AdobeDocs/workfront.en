@@ -10,7 +10,7 @@ exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
 ---
 # Generate Proofs in [!DNL Workfront Proof]
 
- <!-- Audited: 4/2025 -->
+<!-- Audited: 4/2025 -->
 
 >[!IMPORTANT]
 >
