@@ -240,3 +240,8 @@ To configure [!DNL Workfront] to send metadata to [!DNL Workfront DAM]:
 1. Click **[!UICONTROL Delete]**.
 
    The fields are removed from metadata mapping and the information contained in them is not transferred to [!DNL Workfront DAM] with the uploaded documents.
+
+
+## Limitations
+
+* The Google Drive document integration supports adding folders and images from the My Drive area of your Google Drive. You cannot add folders or images from a Shared Drive. Learn more about [Google Shared Drives](https://support.google.com/a/users/answer/7212025?hl=en).
