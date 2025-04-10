@@ -49,6 +49,8 @@ For information about the hierarchy of objects in Workfront, see [Understand obj
 </table>
 -->
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -75,6 +77,8 @@ You must have the following:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 ## View inherited permissions for an object
 
