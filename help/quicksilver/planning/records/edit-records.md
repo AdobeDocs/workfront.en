@@ -308,7 +308,7 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
 
     Workfront automatically saves your changes.
 
-1.  (Optional) Click the **real-time indicator** ![Real-time indicator icon](assets/real-time-indicator-icon.png) in the upper-right corner of the record's preview box, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. (Optional) Click the **real-time indicator** ![Real-time indicator icon](assets/real-time-indicator-icon.png) in the upper-right corner of the record's preview box, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
 
     The names and avatars of all users accessing the record at the same time display in this area.  
 

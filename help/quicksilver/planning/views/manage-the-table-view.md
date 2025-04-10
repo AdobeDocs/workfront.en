@@ -535,3 +535,4 @@ The avatars of other users who are editing record information at the same time a
 When you display the table view, you can also view which field another user is editing at the time you are viewing the record. 
 
 For more information, see the "Enable the real-time presence indicator" section in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+
