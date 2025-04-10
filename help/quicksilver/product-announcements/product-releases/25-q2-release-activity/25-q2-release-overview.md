@@ -219,7 +219,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: February 27, 2025</li>
-                <li>Production release for all customers: With the 25.4 release (April 10, 2025)</li>
+                <li>This feature will release to Production in a three-phased rollout: Starting with the 25.4 release (April 10, 2025) and completing April 17, 2024</li>
             </ul>
         </td>
     </tr>                          
