@@ -11,8 +11,6 @@ exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
 ---
 # Create custom expense types
 
-{{highlighted-preview}}
-
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
 As an [!DNL Adobe Workfront] administrator, you can create custom expense types to define and track the expenses associated with your tasks and projects. Expenses are non-labor costs that can be associated with tasks or projects.
@@ -102,7 +100,7 @@ The default expense types in [!DNL Workfront] that cannot be deleted or edited i
     </tbody> 
    </table>
 
-1. Click **Create Expense Type** <span class="preview">or **[!UICONTROL Save]**.</span>
+1. Click **[!UICONTROL Save]**.
    
    The expense type is now available for users to associate it with their expenses on projects and tasks.
 
@@ -115,7 +113,7 @@ The default expense types in [!DNL Workfront] that cannot be deleted or edited i
 
    The **[!UICONTROL Edit Expense Type]** dialog box appears.
 
-1. Make your desired changes, then click **Save Changes** <span class="preview">or **[!UICONTROL Save]**.</span>
+1. Make your desired changes, then click **[!UICONTROL Save]**.
    
    The expense type is now available for users to associate it with their expenses on projects and tasks.
 
