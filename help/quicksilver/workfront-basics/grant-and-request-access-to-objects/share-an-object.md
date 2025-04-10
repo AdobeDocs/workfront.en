@@ -187,7 +187,7 @@ You must have the following to share objects:
 
    ![](assets/share-a-document-350x160.png)
 
-1. In the **Give < Object Name > access to** field, begin typing the name of the user, team, role, group, or company with whom you want to share the object, then click the name when it appears in the drop-down list.
+1. In the **Give [Object Name] access to** field, begin typing the name of the user, team, role, group, or company with whom you want to share the object, then click the name when it appears in the drop-down list.
 
    >[!TIP]
    >
