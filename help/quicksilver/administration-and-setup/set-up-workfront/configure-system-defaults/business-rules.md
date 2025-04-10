@@ -118,7 +118,29 @@ IF(
 
    ![Select an object](assets/object-for-business-rule3.png)
 
-1. Type the **Name** for the business rule.
+   You can apply business rules to the following objects:
+
+   * Project
+   * Task
+   * Issue / Request
+   * Portfolio
+   * Document
+   * Program
+   * Expense
+   * User
+   * Company
+   * Iteration
+   * Billing Record
+   * Group
+   * Risk
+   * Assignment
+   * Job Role
+   * Resource Pool
+   * Time Off
+   * Hour
+   * Template
+
+1. Type the **Name** for the business rule on the rule builder dialog.
 1. In the **Is Active** field, select whether the rule should be active when you save it.
 
    If you select **No**, the rule is saved as inactive, and you can activate it later.

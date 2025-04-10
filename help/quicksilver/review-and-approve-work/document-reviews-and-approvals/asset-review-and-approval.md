@@ -13,13 +13,13 @@ There are currently 3 different systems available in Workfront for Asset and Doc
 
 * [Legacy document approvals](#legacy-document-approvals)
 
-* [Unified approvals](#new-document-approvals)
+* [Unified Approvals](#new-document-approvals)
 
 * [Proof approvals](#proof-approvals)
 
 ## Legacy document approvals
 
-Legacy document approvals will be removed from Workfront in 2025. The unified approvals system has been designed to replace Legacy document approvals.
+Legacy document approvals will be removed from Workfront in 2025. The Unified Approvals system has been designed to replace Legacy document approvals.
 
 Key features available for legacy document approvals:
 
@@ -30,13 +30,13 @@ Key features available for legacy document approvals:
 
 For more information, see [Legacy document approvals](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
 
-## Unified approvals 
+## Unified Approvals 
 
-Unified approvals is a redesign of the legacy approvals system. Currently available in limited release, it is designed to be a practical and effective solution for businesses requiring comprehensive stakeholder engagement and version-specific document approvals. 
+Unified Approvals is a redesign of the legacy approvals system. Currently available in limited release, it is designed to be a practical and effective solution for businesses requiring comprehensive stakeholder engagement and version-specific document approvals. 
 
-For more detailed information about unified approvals, see [Unified approvals overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+For more detailed information about Unified Approvals, see [Unified Approvals overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-Key features available for unified approvals:
+Key features available for Unified Approvals:
 
 * Add users and teams as approvers and reviewers 
 
@@ -45,11 +45,11 @@ Key features available for unified approvals:
 * Create and use templates 
 
 * Review and comment in the proofing viewer 
-    For more information about using the proofing viewer, see [Use unified approvals and proofing together](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
+    For more information about using the proofing viewer, see [Use Unified Approvals and proofing together](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
 
 * View multiple key performance indicators for your approvals in Workfront Home widgets
 
-* Use Canvas Dashboards, currently in beta, to view reporting details about unified approvals
+* Use Canvas Dashboards, currently in beta, to view reporting details about Unified Approvals
     For more information on reporting, see [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
 * Make decisions in the proofing viewer [!BADGE Coming soon]{type=Informative}
