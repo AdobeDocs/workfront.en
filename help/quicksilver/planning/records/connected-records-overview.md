@@ -9,9 +9,9 @@ exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
 ---
 # Connected records overview
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->  
 
 {{planning-important-intro}}
 
@@ -48,11 +48,11 @@ You can connect records to other records or to objects from another application 
   * The connected record fields in the table view of a record type in Planning.
   * The record's preview or page in the connected record fields on the Details tab.
   * The record's preview or page on the Connections tab.
-  * <span class="preview">The record's page in a Connection view tab of a connected record.</span>
+  * The record's page in a Connection view tab of a connected record.
 
 * You can connect Workfront objects to Workfront Planning records in the following areas of Workfront: 
     
     * The Planning section of a Workfront object.
-    * <span class="preview">A Planning connection field on a Workfront object's custom form. </span>
+    * A Planning connection field on a Workfront object's custom form. 
 
-    For information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+    For information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

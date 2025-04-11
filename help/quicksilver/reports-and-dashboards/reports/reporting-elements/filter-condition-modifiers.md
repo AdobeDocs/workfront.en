@@ -25,7 +25,7 @@ Some modifiers are built-in and you can choose them from a drop-down menu inside
 
 For more information about understanding text mode, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-For a list of built-in time frame modifiers, see the article [Filter reports by time frames](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
+For a list of built-in time frame modifiers, see the article [Filter reports by timeframes](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
 
 You can use the following condition modifiers in filters and conditional formatting statements:
 
