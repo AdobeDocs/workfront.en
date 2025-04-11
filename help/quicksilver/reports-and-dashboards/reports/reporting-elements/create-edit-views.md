@@ -121,8 +121,8 @@ You can create a new standard view, or you can customize an existing standard vi
       > * All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.
       > * Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks.
       > * Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.
-
-      For more information about using groupings in a report, see the article [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+      >
+      >For more information about using groupings in a report, see the article [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
       
       * (Optional) Click **Advanced Options** to specify the following information for the column:
 
