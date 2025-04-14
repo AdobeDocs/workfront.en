@@ -351,11 +351,55 @@ A given work item, such as a task, document, or timesheet, may require that a su
 
 An Assignment object represents the connection between a work item and the user, team, or group that is assigned to work on it.
 
+The Assignment object added the flags `ATTRIBUTE_ATTACHABLE` and `DOMAIN_EXTENDABLE`.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>is billable</b>
+            </p>
+             <p>Added</p>
+           </li>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Collection fields</td>
+      <td>
+             <p>Added the following fields:</p>
+             <ul>
+              <li><b>assignmentBillingRoles<b></li>
+              <li><b>billingRates<b></li>
+              <li><b>costRates<b></li>
+            </ul>
+      </td>
+   <tr>
+      <td role="rowheader">Default fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>is billable</b>
+            </p>
+             <p>Added</p>
+           </li>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    </tr>
+ </tbody>
+</table>
 
 ### Avatar
 
-
+An Avatar object is a user photo.
 
 ### Baseline (BLIN)
 
