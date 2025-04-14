@@ -6722,6 +6722,7 @@ Self</td>
 </table>
 
 ## Time-phased KPI Currency
+
 Limited customer availability
 
 <table>
@@ -6847,6 +6848,7 @@ Limited customer availability
 </table>
 
 ## Time-phased KPI Duration
+
 Limited customer availability
 
 <table>
