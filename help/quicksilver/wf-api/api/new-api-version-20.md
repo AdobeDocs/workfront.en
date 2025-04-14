@@ -36,19 +36,210 @@ No resources were removed for API version 20
 
 An AccessLevelPermissions object represents a specific permission to access, create, or modify a Workfront object. These permissions can then be associated with an Access Level.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>coreAction</b>
+            </p>
+            <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>REMOVE_CUSTOMFORM</code> (Remove from Custom Data)</p>
+              </li>
+              <li>
+                <p><code>ADD_SUB_PROJECTS</code> (Add sub-projects)</p>
+              </li>
+              <li>
+                <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
+              </li>
+            </ul>
+            <p>Modified the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p><b>forbiddenActions</b>
+            </p>
+            <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>REMOVE_CUSTOMFORM</code> (Remove from Custom Data)</p>
+              </li>
+              <li>
+                <p><code>ADD_SUB_PROJECTS</code> (Add sub-projects)</p>
+              </li>
+              <li>
+                <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
+              </li>
+            </ul>
+            <p>Modified the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p><b>secondaryActions</b>
+            </p>
+            <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>REMOVE_CUSTOMFORM</code> (Remove from Custom Data)</p>
+              </li>
+              <li>
+                <p><code>ADD_SUB_PROJECTS</code> (Add sub-projects)</p>
+              </li>
+              <li>
+                <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
+              </li>
+            </ul>
+            <p>Modified the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### AccessRequest (ACSREQ)
 
 If a User does not have access to an object in Workfront that they need, they can request access to that object. The AccessRequest object represents this request.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>action</b>
+            </p>
+             <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>REMOVE_CUSTOMFORM</code> (Remove from Custom Data)</p>
+              </li>
+              <li>
+                <p><code>ADD_SUB_PROJECTS</code> (Add sub-projects)</p>
+              </li>
+              <li>
+                <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
+              </li>
+            </ul>
+            <p>Modified the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
+              </li>
+            </ul>
+          </li>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### AccessRule (ACSRUL)
 
 An AccessRule object represents a rule set in custom access levels that determines how users can share projects they create.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>coreAction</b>
+            </p>
+            <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>REMOVE_CUSTOMFORM</code> (Remove from Custom Data)</p>
+              </li>
+              <li>
+                <p><code>ADD_SUB_PROJECTS</code> (Add sub-projects)</p>
+              </li>
+              <li>
+                <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
+              </li>
+            </ul>
+            <p>Modified the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p><b>forbiddenActions</b>
+            </p>
+            <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>REMOVE_CUSTOMFORM</code> (Remove from Custom Data)</p>
+              </li>
+              <li>
+                <p><code>ADD_SUB_PROJECTS</code> (Add sub-projects)</p>
+              </li>
+              <li>
+                <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
+              </li>
+            </ul>
+            <p>Modified the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p><b>secondaryActions</b>
+            </p>
+            <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>REMOVE_CUSTOMFORM</code> (Remove from Custom Data)</p>
+              </li>
+              <li>
+                <p><code>ADD_SUB_PROJECTS</code> (Add sub-projects)</p>
+              </li>
+              <li>
+                <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
+              </li>
+            </ul>
+            <p>Modified the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### AnnouncementAttachment
 
