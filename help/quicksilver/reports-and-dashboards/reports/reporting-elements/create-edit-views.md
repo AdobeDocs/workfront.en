@@ -83,8 +83,7 @@ You can create a new standard view, or you can customize an existing standard vi
    * Add a column by clicking **Add Column**, begin typing the name of the column that you want to add, then click it when it appears in the drop-down list.
    * Adjust the order that columns appear by dragging the column title to a new location.
 
-   * In the **Column Settings** area, click **Summarize this column by** and choose how you want the data to display in the column:  
-
+   * In the **Column Settings** area, click **Summarize this column by**, and choose how you want the data to display in the column. This option is available for the following column types: 
        <table style="table-layout:auto"> 
          <col> 
          <col> 
@@ -102,7 +101,7 @@ You can create a new standard view, or you can customize an existing standard vi
            <li>Count</li>
          <li>Sum</li>
            <li>Average</li>
-         <li>Maximym</li>
+         <li>Maximum</li>
            <li>Minimum</li>
          </ul></td> 
           </tr> 
@@ -118,9 +117,9 @@ You can create a new standard view, or you can customize an existing standard vi
       >
       >The following exceptions apply for parent objects (for example, parent tasks) when you are summarizing values for the following fields in groupings:
       >   
-      > * All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.
-      > * Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks.
-      > * Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.
+      > * All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) summarize the values for only children tasks and standalone tasks. They do not summarize the values for the parent tasks or parents of parents.
+      > * Actual Hours summarizes the values for the main parent and the standalone tasks; they do not summarize the numbers for the parents of parent tasks or the children tasks.
+      > * Custom data fields for number and currency values summarize all tasks: parents, children, parents of parents, and standalone tasks.
       >
       >For more information about using groupings in a report, see the article [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
       
