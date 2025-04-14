@@ -23,7 +23,7 @@ You can use the External lookup to bring data from your Workfront instance into 
 
 ### Use native Workfront field values in the External lookup
 
-This example shows how to call the Workfront API and bring data from the existing "Status Query" field into your External lookup field.
+This example demonstrates how to call the Workfront API and populate a list of projects in an External Lookup field, filtered by status using the value of the "Status Query" custom field and a search term via $$QUERY.
 
 1. Open the custom form.
 1. On the left side of the screen, find **External lookup** and drag it to a section on the canvas.
@@ -31,17 +31,17 @@ This example shows how to call the Workfront API and bring data from the existin
 1. Select the **Format** for the field.
 1. Enter the API call in the **Base API URL** field.
 
-   * To reference the same instance of Workfront that the custom form is in, use $$HOST for the URL.
-   * To filter the results based on querying a different field, add $$QUERY.
+   * Use $$HOST to reference the same instance of Workfront where the custom form is.
+   * Use $$QUERY to dynamically filter the results based on user input.
 
-   **Example**
-   `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
+   **Example API call**
+   `$$HOST/attask/api/v15.0/project/search?status={DE:Status Query}&description=$$QUERY`
 
-1. Review the **Dependencies** for the fields that this lookup field is referencing in the API.   
+1. Review the **Dependencies** for the fields referenced in the API call.
 
-   A dependency field can be any custom or native field existing in the object's details page.
+   A dependency field can be any custom or native field available on the object. For example, when you're creating a custom form for groups that includes an external lookup field, dependency fields can include any fields available on a group.
 
-   In this example, the `{DE:StatusQuery}` will be replaced with the value of the StatusQuery custom field.
+   In this example, `{DE:Status Query}` will be dynamically replaced with the value of the "Status Query" custom field for the current group. So, when the form is attached to Group A, `{DE:Status Query}` is replaced with the value set in the "Status Query" field for that group.
 
 1. Select the **HTTP Method**.
 
