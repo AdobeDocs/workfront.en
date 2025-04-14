@@ -75,8 +75,6 @@ For more detail about the information in this table, see [Access requirements in
    * **[!UICONTROL Month]**: Displays four weeks of the calendar
    * **[!UICONTROL Week]**: Displays one week of the calendar
    * **[!UICONTROL Gantt]**: Displays a continuous view of the calendar
-
-      ![[!UICONTROL Gantt] calendar report](assets/gantt-calendar-report.png)
       
       You can see more events in a [!UICONTROL Gantt] view by scrolling down or sideways. A loading symbol appears as data is populated for the view.
 
@@ -112,16 +110,5 @@ For more detail about the information in this table, see [Access requirements in
 
 You can see the details of an event in a calendar, for both current and past events.
 
-1. Go to the event that you want to know the details for, then click the event.
-   A details page for the event opens.
-   ![calendar_report_EventDetails.png](assets/calendar-report-eventdetails-350x145.png)
-
-1. (Optional) To view additional details on the object:
-
-   1. Hover over the project, task, or issue name.
-
-      A details page opens for the object.
-      ![additional_object_details_-_calendar_report.png](assets/additional-object-details---calendar-report-350x131.png)
-
-   1. (Optional) To open the associated project, task, or issue, click the title of the object.
-   1. (Optional) To close all the opened details pages, click anywhere outside the event details pages.
+1. Go to the event that you want to know the details for, then click the event. The details open in a panel on the right side.
+1. (Optional) To open the associated project, task, or issue, click the title of the object.
