@@ -57,7 +57,7 @@ There are a number of date objects that provide information about when specific 
 
 The following table correlates object names in Workfront (as well as their names in the interface and API) with their equivalent names in Data Connect.
 
-## Access Level
+### Access Level
 
 <table>
     <thead>
@@ -125,7 +125,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Access Rule
+### Access Rule
 
 <table>
     <thead>
@@ -195,7 +195,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Approval Path
+### Approval Path
 
 <table>
     <thead>
@@ -264,7 +264,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Approval Process
+### Approval Process
 
 <table>
     <thead>
@@ -322,7 +322,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Approval Step
+### Approval Step
 
 <table>
     <thead>
@@ -374,7 +374,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Approver Status
+### Approver Status
 
 <table>
     <thead>
@@ -486,7 +486,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Assignment
+### Assignment
 
 <table>
     <thead>
@@ -587,7 +587,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Awaiting Approvals
+### Awaiting Approvals
 
 <table>
     <thead>
@@ -710,7 +710,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Baseline
+### Baseline
 
 <table>
     <thead>
@@ -768,7 +768,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Baseline Task
+### Baseline Task
 
 <table>
     <thead>
@@ -838,7 +838,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Billing Rate
+### Billing Rate
 
 <table>
     <thead>
@@ -956,7 +956,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Billing Record
+### Billing Record
 
 <table>
     <thead>
@@ -1031,7 +1031,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Booking
+### Booking
 
 <table>
     <thead>
@@ -1137,7 +1137,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Business Profile
+### Business Profile
 
 <table>
     <thead>
@@ -1207,7 +1207,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Business Rule
+### Business Rule
 
 <table>
     <thead>
@@ -1265,7 +1265,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Category
+### Category
 
 <table>
     <thead>
@@ -1329,7 +1329,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Category Parameter
+### Category Parameter
 
 <table>
     <thead>
@@ -1393,7 +1393,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Classifier
+### Classifier
 
 <table>
     <thead>
@@ -1457,7 +1457,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Company
+### Company
 
 <table>
     <thead>
@@ -1533,7 +1533,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Custom Quarter
+### Custom Quarter
 
 <table>
     <thead>
@@ -1579,7 +1579,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Custom Enum
+### Custom Enum
 
 <table>
     <thead>
@@ -1654,7 +1654,7 @@ The following table correlates object names in Workfront (as well as their names
 <li>STATUS_PROJ</li>
 <li>STATUS_TASK</li></ul></div>
 
-## Document
+### Document
 
 <table>
     <thead>
@@ -1818,7 +1818,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Document Approval
+### Document Approval
 
 <table>
     <thead>
@@ -1888,7 +1888,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Document Folder
+### Document Folder
 
 <table>
     <thead>
@@ -2006,7 +2006,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Document Provider Metadata
+### Document Provider Metadata
 
 <table>
     <thead>
@@ -2052,7 +2052,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Document Provider
+### Document Provider
 
 <table>
     <thead>
@@ -2110,7 +2110,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Document Provider Config
+### Document Provider Config
 
 <table>
     <thead>
@@ -2156,7 +2156,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Document Version
+### Document Version
 
 <table>
     <thead>
@@ -2253,7 +2253,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Exchange Rate
+### Exchange Rate
 
 <table>
     <thead>
@@ -2311,7 +2311,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Expense
+### Expense
 
 <table>
     <thead>
@@ -2429,7 +2429,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Expense Type
+### Expense Type
 
 <table>
     <thead>
@@ -2486,7 +2486,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Group
+### Group
 
 <table>
     <thead>
@@ -2573,7 +2573,7 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
-## Hour
+### Hour
 
 <table>
     <thead>
@@ -2713,7 +2713,7 @@ Self</td>
     </tbody>
 </table>
 
-## Hour Type
+### Hour Type
 
 <table>
     <thead>
@@ -2770,7 +2770,7 @@ Self</td>
     </tbody>
 </table>
 
-## Iteration
+### Iteration
 
 <table>
     <thead>
@@ -2846,7 +2846,7 @@ Self</td>
     </tbody>
 </table>
 
-## Journal Entry
+### Journal Entry
 
 <table>
     <thead>
@@ -3032,7 +3032,7 @@ Self</td>
     </tbody>
 </table>
 
-## Linked Folder
+### Linked Folder
 
 <table>
     <thead>
@@ -3101,7 +3101,7 @@ Self</td>
     </tbody>
 </table>
 
-## Milestone
+### Milestone
 
 <table>
     <thead>
@@ -3159,7 +3159,7 @@ Self</td>
     </tbody>
 </table>
 
-## Milestone Path
+### Milestone Path
 
 <table>
     <thead>
@@ -3217,7 +3217,7 @@ Self</td>
     </tbody>
 </table>
 
-## Non-Labor Resource
+### Non-Labor Resource
 
 <table>
     <thead>
@@ -3293,7 +3293,7 @@ Self</td>
     </tbody>
 </table>
 
-## Non-Labor Resource Category
+### Non-Labor Resource Category
 
 <table>
     <thead>
@@ -3369,7 +3369,7 @@ Self</td>
     </tbody>
 </table>
 
-## Non-Work Day
+### Non-Work Day
 
 <table>
     <thead>
@@ -3433,7 +3433,7 @@ Self</td>
     </tbody>
 </table>
 
-## Note
+### Note
 
 <table>
     <thead>
@@ -3650,7 +3650,7 @@ Self</td>
     </tbody>
 </table>
 
-## Object Integration
+### Object Integration
 
 <table>
     <thead>
@@ -3709,7 +3709,7 @@ Self</td>
     </tbody>
 </table>
 
-## Objects Category
+### Objects Category
 
 <table>
     <thead>
@@ -3767,7 +3767,7 @@ Self</td>
     </tbody>
 </table>
 
-## OpTask / Issue
+### OpTask / Issue
 
 <table>
     <thead>
@@ -3954,7 +3954,7 @@ Self</td>
     </tbody>
 </table>
 
-## Parameter
+### Parameter
 
 <table>
     <thead>
@@ -4011,7 +4011,7 @@ Self</td>
     </tbody>
 </table>
 
-## Parameter Group
+### Parameter Group
 
 <table>
     <thead>
@@ -4063,7 +4063,7 @@ Self</td>
     </tbody>
 </table>
 
-## Parameter Option
+### Parameter Option
 
 <table>
     <thead>
@@ -4115,7 +4115,7 @@ Self</td>
     </tbody>
 </table>
 
-## Portal Section / Report
+### Portal Section / Report
 
 <table>
     <thead>
@@ -4237,7 +4237,7 @@ Self</td>
     </tbody>
 </table>
 
-## Portal Tab / Dashboard
+### Portal Tab / Dashboard
 
 <table>
     <thead>
@@ -4305,7 +4305,7 @@ Self</td>
     </tbody>
 </table>
 
-## Portal Tab Section
+### Portal Tab Section
 
 <table>
     <thead>
@@ -4379,7 +4379,7 @@ Self</td>
     </tbody>
 </table>
 
-## Portal Section Last Viewer
+### Portal Section Last Viewer
 
 <table>
     <thead>
@@ -4437,7 +4437,7 @@ Self</td>
     </tbody>
 </table>
 
-## Portfolio
+### Portfolio
 
 <table>
     <thead>
@@ -4518,7 +4518,7 @@ Self</td>
     </tbody>
 </table>
 
-## Preference
+### Preference
 
 <table>
     <thead>
@@ -4569,7 +4569,7 @@ Self</td>
     </tbody>
 </table>
 
-## Program
+### Program
 
 <table>
     <thead>
@@ -4651,7 +4651,7 @@ Self</td>
     </tbody>
 </table>
 
-## Project
+### Project
 
 <table>
     <thead>
@@ -4867,7 +4867,7 @@ Self</td>
     </tbody>
 </table>
 
-## Project Team User
+### Project Team User
 
 <table>
     <thead>
@@ -4930,7 +4930,7 @@ Self</td>
     </tbody>
 </table>
 
-## Project Team User Role
+### Project Team User Role
 
 <table>
     <thead>
@@ -4994,7 +4994,7 @@ Self</td>
     </tbody>
 </table>
 
-## Rate Card
+### Rate Card
 
 <table>
     <thead>
@@ -5071,7 +5071,7 @@ Self</td>
     </tbody>
 </table>
 
-## Report Folder
+### Report Folder
 
 <table>
     <thead>
@@ -5117,7 +5117,7 @@ Self</td>
     </tbody>
 </table>
 
-## Report View Statistic Count
+### Report View Statistic Count
 
 <table>
     <thead>
@@ -5169,7 +5169,7 @@ Self</td>
     </tbody>
 </table>
 
-## Reportable Budgeted Hours
+### Reportable Budgeted Hours
 
 <table>
     <thead>
@@ -5233,7 +5233,7 @@ Self</td>
     </tbody>
 </table>
 
-## Reserved Time / PTO
+### Reserved Time / PTO
 
 <table>
     <thead>
@@ -5291,7 +5291,7 @@ Self</td>
     </tbody>
 </table>
 
-## Resource Manager
+### Resource Manager
 
 <table>
     <thead>
@@ -5355,7 +5355,7 @@ Self</td>
     </tbody>
 </table>
 
-## Resource Pool
+### Resource Pool
 
 <table>
     <thead>
@@ -5413,7 +5413,7 @@ Self</td>
     </tbody>
 </table>
 
-## Rich Text Note
+### Rich Text Note
 
 <table>
     <thead>
@@ -5459,7 +5459,7 @@ Self</td>
     </tbody>
 </table>
 
-## Rich Text Parameter Value
+### Rich Text Parameter Value
 
 <table>
     <thead>
@@ -5510,7 +5510,7 @@ Self</td>
     </tbody>
 </table>
 
-## Risk
+### Risk
 
 <table>
     <thead>
@@ -5592,7 +5592,7 @@ Self</td>
     </tbody>
 </table>
 
-## Risk Type
+### Risk Type
 
 <table>
     <thead>
@@ -5638,7 +5638,7 @@ Self</td>
     </tbody>
 </table>
 
-## Role
+### Role
 
 <table>
     <thead>
@@ -5707,7 +5707,7 @@ Self</td>
     </tbody>
 </table>
 
-## Schedule
+### Schedule
 
 <table>
     <thead>
@@ -5771,7 +5771,7 @@ Self</td>
     </tbody>
 </table>
 
-## Step Approver
+### Step Approver
 
 <table>
     <thead>
@@ -5841,7 +5841,7 @@ Self</td>
     </tbody>
 </table>
 
-## Task
+### Task
 
 <table>
     <thead>
@@ -6035,7 +6035,7 @@ Self</td>
     </tbody>
 </table>
 
-## Task Predecessor
+### Task Predecessor
 
 <table>
     <thead>
@@ -6093,7 +6093,7 @@ Self</td>
     </tbody>
 </table>
 
-## Team
+### Team
 
 <table>
     <thead>
@@ -6186,7 +6186,7 @@ Self</td>
     </tbody>
 </table>
 
-## Team Member
+### Team Member
 
 <table>
     <thead>
@@ -6244,7 +6244,7 @@ Self</td>
     </tbody>
 </table>
 
-## Team Member Role
+### Team Member Role
 
 <table>
     <thead>
@@ -6308,7 +6308,7 @@ Self</td>
     </tbody>
 </table>
 
-## Template
+### Template
 
 <table>
     <thead>
@@ -6442,7 +6442,7 @@ Self</td>
     </tbody>
 </table>
 
-## Template Task Assignment
+### Template Task Assignment
 
 <table>
     <thead>
@@ -6535,7 +6535,7 @@ Self</td>
     </tbody>
 </table>
 
-## Template Task
+### Template Task
 
 <table>
     <thead>
@@ -6663,7 +6663,7 @@ Self</td>
     </tbody>
 </table>
 
-## Template Task Predecessor
+### Template Task Predecessor
 
 <table>
     <thead>
@@ -6721,7 +6721,7 @@ Self</td>
     </tbody>
 </table>
 
-## Time-phased KPI Currency
+### Time-phased KPI Currency
 
 Limited customer availability
 
@@ -6847,7 +6847,7 @@ Limited customer availability
     </tbody>
 </table>
 
-## Time-phased KPI Duration
+### Time-phased KPI Duration
 
 Limited customer availability
 
@@ -6973,7 +6973,7 @@ Limited customer availability
     </tbody>
 </table>
 
-## Timesheet
+### Timesheet
 
 <table>
     <thead>
@@ -7049,7 +7049,7 @@ Limited customer availability
     </tbody>
 </table>
 
-## Timesheet Profile
+### Timesheet Profile
 
 <table>
     <thead>
@@ -7113,7 +7113,7 @@ Limited customer availability
     </tbody>
 </table>
 
-## UI Filter
+### UI Filter
 
 <table>
     <thead>
@@ -7188,7 +7188,7 @@ Limited customer availability
     </tbody>
 </table>
 
-## UI Group By
+### UI Group By
 
 <table>
     <thead>
@@ -7263,7 +7263,7 @@ Limited customer availability
     </tbody>
 </table>
 
-## UI Template
+### UI Template
 
 <table>
     <thead>
@@ -7327,7 +7327,7 @@ Limited customer availability
     </tbody>
 </table>
 
-## UI View
+### UI View
 
 <table>
     <thead>
@@ -7402,7 +7402,7 @@ Limited customer availability
     </tbody>
 </table>
 
-## User
+### User
 
 <table>
     <thead>
@@ -7581,7 +7581,7 @@ Limited customer availability
     </tbody>
 </table>
 
-## User Delegation
+### User Delegation
 
 <table>
     <thead>
@@ -7639,7 +7639,7 @@ Limited customer availability
     </tbody>
 </table>
 
-## User Group
+### User Group
 
 <table>
     <thead>
@@ -7697,7 +7697,7 @@ Limited customer availability
     </tbody>
 </table>
 
-## User Location
+### User Location
 
 <table>
     <thead>
@@ -7755,7 +7755,7 @@ Limited customer availability
     </tbody>
 </table>
 
-## User Role
+### User Role
 
 <table>
     <thead>
@@ -7819,7 +7819,7 @@ Limited customer availability
     </tbody>
 </table>
 
-## User Preference Value
+### User Preference Value
 
 <table>
     <thead>
@@ -7871,7 +7871,7 @@ Limited customer availability
     </tbody>
 </table>
 
-## User Role Set
+### User Role Set
 
 <table>
     <thead>
@@ -7929,7 +7929,7 @@ Limited customer availability
     </tbody>
 </table>
 
-## Users Decisions
+### Users Decisions
 
 <table>
     <thead>
@@ -7981,7 +7981,7 @@ Limited customer availability
     </tbody>
 </table>
 
-## Work Item
+### Work Item
 
 <table>
     <thead>
