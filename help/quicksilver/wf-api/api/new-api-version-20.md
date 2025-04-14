@@ -241,20 +241,102 @@ An AccessRule object represents a rule set in custom access levels that determin
   </tbody>
 </table>
 
-### AnnouncementAttachment
+### AnnouncementAttachment (ANMATT)
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>fileExtension</b>
+            </p>
+             <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>tiff</code> (enum.fileextension.tiff)</p>
+              </li>
+            </ul>
+          </li>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Approval (APPROVAL)
 
 A given work item, such as a task, document, or timesheet, may require that a supervisor or other user sign off on the work item. An Approval object represents the action of signing off on a work item.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>The following fields addd the flag <code>RESTRICTABLE</code>:
+            </p>
+             <ul>
+              <li>actualBenefit</li>
+              <li>actualBillableExpenseCost</li>
+              <li>actualCost</li>
+              <li>actualExpenseCost</li>
+              <li>actualLaborCost</li>
+              <li>actualNonBillableExpenseCost</li>
+              <li>actualRevenue</li>
+              <li>actualRiskCost</li>
+              <li>actualValue</li>
+              <li>billedRevenue</li>
+              <li>budget</li>
+              <li>budgetedCost</li>
+              <li>budgetedHours</li>
+              <li>budgetedLaborCost</li>
+              <li>costAmount</li>
+              <li>costType</li>
+              <li>fixedCost</li>
+              <li>fixedRevenue</li>
+              <li>plannedBenefit</li>
+              <li>plannedBillableExpenseCost</li>
+              <li>plannedCost</li>
+              <li>plannedExpenseCost</li>
+              <li>plannedLaborCost</li>
+              <li>plannedNonBillableExpenseCost</li>
+              <li>plannedRiskCost</li>
+              <li>plannedValue</li>
+              <li>remainingCost</li>
+              <li>remainingRevenue</li>
+              <li>remainingRiskCost</li>
+              <li>resourcePlannerBudgetedHours</li>
+              <li>resourcePlannerBudgetedLaborCost</li>
+              <li>riskPerformanceIndex</li>
+            </ul>
+          </li>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Assignment (ASSGN)
 
 An Assignment object represents the connection between a work item and the user, team, or group that is assigned to work on it.
 
+actualCost<note>type changed from double to class java.math.BigDecimal
+actualRevenue<note>type changed from double to class java.math.BigDecimal 
+costType<note>changes to possibleValues</note>
+plannedCost<note>type changed from double to class java.math.BigDecimal</note>
+plannedDuration<note>added flag DYNAMIC     added flag LAZY_READ
+plannedRevenue<note>type changed from double to class java.math.BigDecimal</note>    
+resourcePlannerBudgetedHours<note>added flag CURRENCY</note>
+revenueType<note>changes to possibleValues</note>    
 
 
 ### Avatar
