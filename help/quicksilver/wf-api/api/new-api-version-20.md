@@ -281,7 +281,7 @@ A given work item, such as a task, document, or timesheet, may require that a su
       <td>
         <ul>
           <li>
-            <p>The following fields addd the flag <code>RESTRICTABLE</code>:
+            <p>The following fields added the flag <code>RESTRICTABLE</code>:
             </p>
              <ul>
               <li>actualBenefit</li>
@@ -318,8 +318,30 @@ A given work item, such as a task, document, or timesheet, may require that a su
               <li>riskPerformanceIndex</li>
             </ul>
           </li>
+          <li>
+          <p>The following fields changed their type from <code>double</code> to <code>class java.math.BigDecimal</code>:
+          <ul>
+          <li>actualCost</li>
+          <li>actualRevenue</li>
+          <li>plannedCost</li>
+          <li>plannedRevenue</li>
+          </ul>
           </li>
+          <li><p><b>plannedDuration</b></p> <p>Added the flags <code>DYNAMIC</code>, <code>LAZY_READ</code>, and <code>READ_ONLY</code></li>
+          <li><p><b>resourcePlannerBudgetedHours</b></p> <p>Added the flag <code>CURRENCY</code></li>
+          <li><p><b>costType</b></p> <p>Added the possible value <code>URH</code> (User and Role Hourly) </li>
+          <li><p><b>revenueType</b></p> <p>Added the possible values <code>URH</code> (User and Role Hourly), <code>URC</code> (User and Role Hourly w/Cap), and <code>URF</code> (User and Role Hourly Plus Fixed)</li>
         </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Collections fields</td>
+      <td>
+          <p>The following fields were added:</p>
+             <ul>
+              <li><b>billingRates</b></li>
+              <li><b>costRates</b></li>
+            </ul>
       </td>
     </tr>
   </tbody>
@@ -329,14 +351,6 @@ A given work item, such as a task, document, or timesheet, may require that a su
 
 An Assignment object represents the connection between a work item and the user, team, or group that is assigned to work on it.
 
-actualCost<note>type changed from double to class java.math.BigDecimal
-actualRevenue<note>type changed from double to class java.math.BigDecimal 
-costType<note>changes to possibleValues</note>
-plannedCost<note>type changed from double to class java.math.BigDecimal</note>
-plannedDuration<note>added flag DYNAMIC     added flag LAZY_READ
-plannedRevenue<note>type changed from double to class java.math.BigDecimal</note>    
-resourcePlannerBudgetedHours<note>added flag CURRENCY</note>
-revenueType<note>changes to possibleValues</note>    
 
 
 ### Avatar
