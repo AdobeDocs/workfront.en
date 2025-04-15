@@ -1092,24 +1092,154 @@ The Rate object added the flag `ATTRIBUTE_ATTACHABLE`.
 
 A Role object (job role) represents a functional capacity or a skill set a user might fill, such as Designer or Product Manager.
 
+The Role object added the flag `DOMAIN_EXTENDABLE`.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>The following fields added the flag <code>RESTRICTABLE</code>:
+            </p>
+             <ul>
+              <li>billingPerHour</li>
+              <li>costPerHour</li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Collection fields</td>
+      <td>
+        <ul>
+          <li>
+          <p>The following fields were added:
+          <ul>
+          <li>billingRates</li>
+          <li>costRates</li>
+          </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-### ScheduledReport
+### ScheduledReport (SCHREP)
 
 A ScheduledReport object represents a report that has been configured to be scheduled for delivery.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>format</b>
+            </p>
+             <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>tiff</code> (enum.fileextension.tiff)</p>
+              </li>
+            </ul>
+          </li>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-
-### ScoreCardQuestion
+### ScoreCardQuestion (SCOREQ)
 
 A ScoreCardQuestion object represents a question that has been added to a Scorecard. These questions are usually determined by the Portfolio manager, and their answers allow the manager to understand how well a project aligns with the goals of the portfolio.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>displayType</b>
+            </p>
+             <p>Added the following possible values:</p>
+             <ul>
+              <li><p><code>INTRNL</code> (Internal Lookup)</p></li>
+              <li><p><code>MULTINTRNL</code> (Multi-Select Internal Lookup)</p></li>
+              <li><p><code>UIEXTNSION</code> (enum.parameterdisplaytypeenum.uiextension)</p></li>
+            </ul>
+          </li>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Task (TASK)
 
 A Task object represents a work item that must be performed as a step toward achieving a final goal (completing a Project).
 
+The Task object added the flag `DOMAIN_EXTENDABLE`.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>The following fields added the flag <code>RESTRICTABLE</code>:
+            </p>
+             <ul>
+              <li>actualBillableExpenseCost</li>
+              <li>actualCost</li>
+              <li>actualExpenseCost</li>
+              <li>actualLaborCost</li>
+              <li>actualNonBillableExpenseCost</li>
+              <li>actualRevenue</li>
+              <li>costAmount</li>
+              <li>costType</li>
+              <li>plannedBillableExpenseCost</li>
+              <li>plannedCost/li>
+              <li>plannedExpenseCost</li>
+              <li>plannedLaborCost</li>
+              <li>plannedNonBillableExpenseCost</li>
+              <li>plannedRevenue</li>
+            </ul>
+          </li>
+          <li>
+          <p>The following fields changed their type from <code>double</code> to <code>class java.math.BigDecimal</code>:
+          <ul>
+          <li>actualCost</li>
+          <li>actualRevenue</li>
+          <li>plannedCost</li>
+          </ul>
+          </li>
+          <li><p><b>costType</b></p> <p>Added the following possible values:<ul><li><code>URH</code> (User and Role Hourly)</li></ul></li>
+          <li><p><b>revenueType</b></p> <p>Added the following possible values:<ul><li><code>URH</code> (User and Role Hourly)</li><li><code>URC</code> (User and Role Hourly w/Cap)</li><li><code>URF</code> (User and Role Hourly Plus Fixed)</li></ul></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+costType<note>changes to possibleValues</note>
+revenueType<note>changes to possibleValues</note>    
 
 
 ### Template (TMPL)
