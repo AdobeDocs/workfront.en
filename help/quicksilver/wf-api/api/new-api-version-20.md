@@ -362,7 +362,7 @@ The Assignment object added the flags `ATTRIBUTE_ATTACHABLE` and `DOMAIN_EXTENDA
       <td>
         <ul>
           <li>
-            <p><b>is billable</b>
+            <p><b>isBillable</b>
             </p>
              <p>Added</p>
            </li>
@@ -385,7 +385,7 @@ The Assignment object added the flags `ATTRIBUTE_ATTACHABLE` and `DOMAIN_EXTENDA
       <td>
         <ul>
           <li>
-            <p><b>is billable</b>
+            <p><b>isBillable</b>
             </p>
              <p>Added</p>
            </li>
@@ -401,29 +401,195 @@ The Assignment object added the flags `ATTRIBUTE_ATTACHABLE` and `DOMAIN_EXTENDA
 
 An Avatar object is a user photo.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>attachedObjectCode</b>
+            </p>
+             <p>Added</p>
+           </li>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>attachedObjectCode</b>
+            </p>
+             <p>Added</p>
+           </li>
+          </li>
+        </ul>
+      </td>
+   <tr>
+      <td role="rowheader">Operations</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>COPY</b>
+            </p>
+             <p>Added</p>
+           </li>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    </tr>
+ </tbody>
+</table>
+
 ### Baseline (BLIN)
 
 Baselines are snapshots of what the performance of a project looked like at a given moment in time. They store key pieces of information about the project, like key dates, progress, cost and revenue values. 
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>The following fields added the flag <code>RESTRICTABLE</code>:
+            </p>
+             <ul>
+              <li>actualBillableExpenseCost</li>
+              <li>actualCost</li>
+              <li>actualNonBillableExpenseCost</li>
+              <li>budget</li>
+              <li>eac</li>
+              <li>plannedBillableExpenseCost</li>
+              <li>plannedCost</li>
+              <li>plannedNonBillableExpenseCost</li>
+            </ul>
+          </li>
+          <li>
+          <p>The following fields changed their type from <code>double</code> to <code>class java.math.BigDecimal</code>:
+          <ul>
+          <li>actualCost</li>
+          <li>plannedCost</li>
+          </ul>
+          </li>
+          <li><p><b>eac</b></p> <p>Added the flag <code>CURRENCY</code></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### BaselineTask (BSTSK)
 
 Baselines are snapshots of what the performance of a project looked like at a given moment in time. They store key pieces of information about the project, like key dates, progress, cost and revenue values. When you create a baseline, the task information is also captured on the baseline tasks of that baseline.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>The following fields added the flag <code>RESTRICTABLE</code>:
+            </p>
+             <ul>
+              <li>actualBillableExpenseCost</li>
+              <li>actualCost</li>
+              <li>actualNonBillableExpenseCost</li>
+              <li>plannedBillableExpenseCost</li>
+              <li>plannedCost</li>
+              <li>plannedNonBillableExpenseCost</li>
+            </ul>
+          </li>
+          <li>
+          <p>The following fields changed their type from <code>double</code> to <code>class java.math.BigDecimal</code>:
+          <ul>
+          <li>actualCost</li>
+          <li>plannedCost</li>
+          </ul>
+          </li>
+          <li><p><b>eac</b></p> <p>Added the flag <code>CURRENCY</code></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### BillingRecord (BILL)
 
 A BillingRecord object records the revenue, hours, or expenses that can be billed. This information can be used to create invoices in an external accounting system.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>The following fields added the flag <code>RESTRICTABLE</code>:
+            </p>
+             <ul>
+              <li>amount</li>
+              <li>otherAmount</li>
+            </ul>
+          </li>
+          <li><p><b>entryDate</b></p> <p>Added</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### Category (CTGY)
 
 A Category object is a custom form.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>catObjCode</b>
+            </p>
+             <p>Added the following possible values:</p>
+             <ul>
+              <li><p><code>BOOKNG</code> (Booking)</p> </li>
+              <li><p><code>STAFFP</code> (Staffing Plan)</p> </li>
+              <li><p><code>STAFFR</code> (Staffing plan resources)</p> </li>
+            </ul>
+          </li>
+          <li>
+            <p><b>objTypes</b>
+            </p>
+             <p>Added the following possible values:</p>
+             <ul>
+              <li><p><code>BOOKNG</code> (Booking)</p> </li>
+              <li><p><code>STAFFP</code> (Staffing Plan)</p> </li>
+              <li><p><code>STAFFR</code> (Staffing plan resources)</p> </li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### CategoryParameter (CTGYPA)
 
