@@ -593,12 +593,55 @@ A Category object is a custom form.
 
 ### CategoryParameter (CTGYPA)
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>configurations</b>
+            </p>
+             <p>Added</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### Company (CMPY)
 
 A Company object represents an organization consisting of a collection of people.
 
+The Company object added the flag `SHARABLE`.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Collection fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>billingRates</b>
+            </p>
+             <p>Added</p>
+          </li>
+          <li>
+            <p><b>costRates</b>
+            </p>
+             <p>Added</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -606,6 +649,29 @@ A Company object represents an organization consisting of a collection of people
 
 A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>name</b>
+            </p>
+             <p>Added the following possible values:</p>
+             <ul>
+              <li><p><code>project.mgmt:default.project.singleassignmentschedule</code> (singleassignmentschedule)</p></li>
+              <li><p><code>project.mgmt:logged.taskissue.move</code> (config.loggedtaskissuemove)</p></li>
+            </ul>
+          </li>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### ExchangeRate (EXRATE)
