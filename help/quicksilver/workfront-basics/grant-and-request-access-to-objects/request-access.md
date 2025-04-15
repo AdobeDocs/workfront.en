@@ -123,6 +123,7 @@ To request additional access to an object that you already have limited access t
 
    ![Request access dialog box](assets/request-access-to-project.png)
 
+1. Click **Request Access**.
 
 ## Hierarchy of the Request Access and Request More Access drop-down menus {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 
