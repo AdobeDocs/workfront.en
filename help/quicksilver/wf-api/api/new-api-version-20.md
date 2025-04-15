@@ -335,7 +335,7 @@ A given work item, such as a task, document, or timesheet, may require that a su
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Collections fields</td>
+      <td role="rowheader">Collection fields</td>
       <td>
           <p>The following fields were added:</p>
              <ul>
@@ -1279,7 +1279,7 @@ A Template object represents a pattern for a project. Projects can be created fr
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Collections fields</td>
+      <td role="rowheader">Collection fields</td>
       <td>
           <p>The following fields were added:</p>
              <ul>
@@ -1391,11 +1391,90 @@ Work Items in Workfront can be updated to keep users informed of the current sta
 
 A User object represents a person with an account in Workfront that can log in and interact with the system.
 
+The user object added the fields `ATTRIBUTE_ATTACHABLE` and `DOMAIN_EXTENDABLE`.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>The following fields added the flag <code>RESTRICTABLE</code>:
+            </p>
+             <ul>
+              <li>billingPerHour</li>
+              <li>costPerHour</li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Collection fields</td>
+      <td>
+          <p>The following fields were added:</p>
+             <ul>
+              <li><b>billingRates</b></li>
+              <li><b>costRates</b></li>
+            </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Work (WORK)
 
 A Work object is a common interface that both Task and OpTask inherit, and shares common code between the two.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>The following fields added the flag <code>RESTRICTABLE</code>:
+            </p>
+             <ul>
+              <li>actualBillableExpenseCost</li>
+              <li>actualCost</li>
+              <li>actualExpenseCost</li>
+              <li>actualLaborCost</li>
+              <li>actualNonBillableExpenseCost</li>
+              <li>actualRevenue</li>
+              <li>costAmount</li>
+              <li>costType</li>
+              <li>plannedBillableExpenseCost</li>
+              <li>plannedCost</li>
+              <li>plannedExpenseCost</li>
+              <li>plannedLaborCost</li>
+              <li>plannedNonBillableExpenseCost</li>
+              <li>plannedRevenue</li>
+            </ul>
+          </li>
+          <li>
+          <p>The following fields changed their type from <code>double</code> to <code>class java.math.BigDecimal</code>:
+          <ul>
+          <li>actualCost</li>
+          <li>actualRevenue</li>
+          <li>plannedCost</li>
+          <li>plannedRevenue</li>
+          </ul>
+          </li>
+          <li><p><b>plannedDuration</b></p> <p>Added the flags <code>DYNAMIC</code>, <code>LAZY_READ</code>, and <code>READ_ONLY</code></li>
+          <li><p><b>resourcePlannerBudgetedHours</b></p> <p>Added the flag <code>CURRENCY</code></li>
+          <li><p><b>costType</b></p> <p>Added the possible value <code>URH</code> (User and Role Hourly) </li>
+          <li><p><b>revenueType</b></p> <p>Added the possible values <code>URH</code> (User and Role Hourly), <code>URC</code> (User and Role Hourly w/Cap), and <code>URF</code> (User and Role Hourly Plus Fixed)</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 
