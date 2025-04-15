@@ -11,8 +11,6 @@ exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
 ---
 # Edit documents in bulk
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 You can edit the description, add custom forms, and edit custom forms across multiple documents at once. 
 
 ## Considerations when editing custom forms
@@ -91,7 +89,6 @@ To edit documents in bulk:
     </table>
 1. Click **Save**.
 
-<span class="preview">
 
 ## Edit documents in bulk in a Document report
 
@@ -119,5 +116,3 @@ Create a document report as described in [Create a custom report](/help/quicksil
     </tr>
     </table>
 1. Click **Save**.
-
-</span>

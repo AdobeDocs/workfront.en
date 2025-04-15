@@ -9,9 +9,9 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 ---
 # Manage the table view
 
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -398,13 +398,9 @@ To add a filter to a table view:
     * **AND**: All specified conditions must be met. 
     * **OR**: Any of the specified conditions must be met. This is the default option.
 
-    <div class="preview">
-
     1. (Optional) Add additional **AND** or **OR** operators between multiple condition groupings.
 
         ![Multi-tiered filters in views](assets/multi-tiered-filters-in-views.png)
-
-    </div>
 
     The list of records is filtered automatically.  <!--at this time, you can't name and save the filter - but will this change?!-->
     <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
@@ -539,3 +535,4 @@ The avatars of other users who are editing record information at the same time a
 When you display the table view, you can also view which field another user is editing at the time you are viewing the record. 
 
 For more information, see the "Enable the real-time presence indicator" section in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+

@@ -19,9 +19,9 @@ exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 </div>
 -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Planned work is represented in Adobe Workfront by projects and tasks. However, you might work in an environment where unplanned work, in the form of requests, can come in at any time. Workfront provides a workflow to accommodate this type of environment through the use of Request Queues. 
 
@@ -38,7 +38,7 @@ You can create a Workfront Planning request from scratch, to create records in W
 
 * From a link to a Workfront Planning request form.
 
-* <span class="preview">From a Workfront Planning request form in the Requests area of Workfront. </span>
+* From a Workfront Planning request form in the Requests area of Workfront. 
 
   Your organization must purchase a Workfront Planning package. For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
 
@@ -118,12 +118,12 @@ To create a request in the Workfront web app:
 
 {{step1-to-requests}}
 
-1. <span class="preview"> (Optional and conditional) Select the **Switch to new experience** setting in the upper-right of the screen, if the following things apply to your organization and your Workfront instance: </span>
+1. (Optional and conditional) Select the **Switch to new experience** setting in the upper-right of the screen, if the following things apply to your organization and your Workfront instance: 
 
-    * <span class="preview">Your organization has purchased a Workfront package</span>
-    * <span class="preview">Your organization has been onboarded to the Adobe Unified Experience. 
-    * <span class="preview">Your administrator has granted you access to Workfront Planning</span>
-    * <span class="preview">You have at least view permissions to a Workfront Planning workspace</span>
+    * Your organization has purchased a Workfront package
+    * Your organization has been onboarded to the Adobe Unified Experience. 
+    * Your administrator has granted you access to Workfront Planning
+    * You have at least view permissions to a Workfront Planning workspace
 
     For more information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
 
@@ -136,15 +136,15 @@ To create a request in the Workfront web app:
 
     The **New request** box opens.
 
-1. <span class="preview">(Conditional) If you switched to the new experience that includes Workfront Planning, the **New request** box displays the following:</span>
+1. (Conditional) If you switched to the new experience that includes Workfront Planning, the **New request** box displays the following:</span>
 
-    * <span class="preview">The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. </span>
-    * <span class="preview">50 additional Workfront request queues and Planning request forms display in alphabetical order in the **All request forms** section. You can search for a request queue that does not display by default. </span>
+    * The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. 
+    * 50 additional Workfront request queues and Planning request forms display in alphabetical order in the **All request forms** section. You can search for a request queue that does not display by default. 
 
     ![New request box with unified workflow for planning requests](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
-    <span class="preview">Click one of the Workfront request queue cards, or search for one, then click it when it displays in the list. </span>
-1. (Conditional) <span class="preview">If you switched to the new experience that includes Workfront Planning, select your topic groups and queue topics and continue updating the form</span>
+    Click one of the Workfront request queue cards, or search for one, then click it when it displays in the list. 
+1. (Conditional) If you switched to the new experience that includes Workfront Planning, select your topic groups and queue topics and continue updating the form.
 
     Otherwise, click inside the **Request Type** field and do one of the following:
 
@@ -327,7 +327,7 @@ To create a request in the Workfront web app:
 
    When you submit the request, the draft automatically deletes and cannot be restored.
 
-   Submitted requests are listed in the **Submitted** section of the Requests area. <span class="preview">If you are using the new experience that includes Workfront Planning, the Workfront submitted requests display in the **Workfront** tab of the Requests area. </span>
+   Submitted requests are listed in the **Submitted** section of the Requests area. If you are using the new experience that includes Workfront Planning, the Workfront submitted requests display in the **Workfront** tab of the Requests area. 
 
    For information about addressing incoming requests, see the article [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
