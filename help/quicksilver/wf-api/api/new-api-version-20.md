@@ -871,7 +871,7 @@ A Parameter object is a custom field.
 
 A Portfolio object is a collection of projects that compete for the same resources, typically money or people to complete them.
 
-The portfolio object added the flag `DOMAIN_EXTENDABLE`.
+The Portfolio object added the flag `DOMAIN_EXTENDABLE`.
 
 <table>
   <col/>
@@ -906,26 +906,188 @@ The portfolio object added the flag `DOMAIN_EXTENDABLE`.
 
 A Program object is a subset of projects within a portfolio, where similar projects can be grouped together.
 
-
+The Program object added the flag `DOMAIN_EXTENDABLE`.
 
 ### Project (PROJ)
 
 Projects are work items within Workfront, and are a main building block in the way Workfront helps people to do work. A Project object represents a group of tasks with a common, specific goal.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>The following fields added the flag <code>RESTRICTABLE</code>:
+            </p>
+             <ul>
+              <li>actualBenefit</li>
+              <li>actualBillableExpenseCost</li>
+              <li>actualCost</li>
+              <li>actualExpenseCost</li>
+              <li>actualLaborCost</li>
+              <li>actualNonBillableExpenseCost</li>
+              <li>actualRevenue</li>
+              <li>actualRiskCost</li>
+              <li>actualValue</li>
+              <li>bcwp</li>
+              <li>bcws</li>
+              <li>billedRevenue</li>
+              <li>budget</li>
+              <li>budgetedCost</li>
+              <li>budgetedHours</li>
+              <li>budgetedLaborCost</li>
+              <li>eac</li>
+              <li>fixedCost</li>
+              <li>fixedRevenue</li>
+              <li>plannedBenefit</li>
+              <li>plannedBillableExpenseCost</li>
+              <li>plannedCost</li>
+              <li>plannedExpenseCost</li>
+              <li>plannedLaborCost</li>
+              <li>plannedNonBillableExpenseCost</li>
+              <li>plannedRevenue</li>
+              <li>plannedRiskCost</li>
+              <li>plannedValue</li>
+              <li>remainingCost</li>
+              <li>remainingRevenue</li>
+              <li>remainingRiskCost</li>
+              <li>resourcePlannerBudgetedHours</li>
+              <li>resourcePlannerBudgetedLaborCost</li>
+              <li>riskPerformanceIndex</li>
+            </ul>
+          </li>
+          <li>
+          <p>The following fields changed their type from <code>double</code> to <code>class java.math.BigDecimal</code>:
+          <ul>
+          <li>actualCost</li>
+          <li>actualRevenue</li>
+          <li>plannedCost</li>
+          <li>plannedRevenue</li>
+          </ul>
+          </li>
+          <li><p><b>resourcePlannerBudgetedHours</b></p> <p>Added the flag <code>CURRENCY</code></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### QueueDef (QUED)
 
 A QueueDef object represents a Queue, which is a project that has been published to the Help Desk area to allow users to submit issues to it.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>requestorCoreAction</b>
+            </p>
+            <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>REMOVE_CUSTOMFORM</code> (Remove from Custom Data)</p>
+              </li>
+              <li>
+                <p><code>ADD_SUB_PROJECTS</code> (Add sub-projects)</p>
+              </li>
+              <li>
+                <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
+              </li>
+            </ul>
+            <p>Modified the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p><b>requestorForbiddenActions</b>
+            </p>
+            <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>REMOVE_CUSTOMFORM</code> (Remove from Custom Data)</p>
+              </li>
+              <li>
+                <p><code>ADD_SUB_PROJECTS</code> (Add sub-projects)</p>
+              </li>
+              <li>
+                <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
+              </li>
+            </ul>
+            <p>Modified the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### Rate (RATE)
 
 A Rate object represents a billing rate in Workfront.
 
+The Rate object added the flag `ATTRIBUTE_ATTACHABLE`.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>The following fields added the flag <code>RESTRICTABLE</code>:
+            </p>
+             <ul>
+              <li>costPerHour</li>
+              <li>localBillingPerHour</li>
+              <li>localCostPerHour</li>
+              <li>localCurrency</li>
+              <li>rateValue</li>
+            </ul>
+          </li>
+          <li>
+          <p>The following fields changed their type from <code>double</code> to <code>class java.math.BigDecimal</code>:
+          <ul>
+          <li>costPerHour</li>
+          <li>localBillingPerHour</li>
+          <li>localCostPerHour</li>
+          <li>rateValue</li>
+          </ul>
+          </li>
+         <li>
+          <p>The following fields were added:
+          <ul>
+          <li>currency</li>
+          <li>locked</li>
+          <li>type</li>
+          <li>value</li>
+          </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+    
 ### Role (ROLE)
 
 A Role object (job role) represents a functional capacity or a skill set a user might fill, such as Designer or Product Manager.
