@@ -678,21 +678,125 @@ A CustomerPreferences object represents the set of preferences that a customer h
 
 An ExchangeRate object represents a currency exchange rate set up in Workfront. ExchangeRate objects are not dynamic.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+           <p>The following fields changed their type from <code>double</code> to <code>class java.math.BigDecimal</code>:
+          <ul>
+          <li>rate</li>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### FinancialData (FINDAT)
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>The following fields added the flag <code>RESTRICTABLE</code>:
+            </p>
+             <ul>
+              <li>actualBillableExpenseCost</li>
+              <li>actualExpenseCost</li>
+              <li>actualFixedRevenue</li>
+              <li>actualLaborCost</li>
+              <li>actualLaborCostHours</li>
+              <li>actualLaborRevenue</li>
+              <li>actualNonBillableExpenseCost</li>
+              <li>fixedCost</li>
+              <li>plannedBillableExpenseCost</li>
+              <li>plannedExpenseCost</li>
+              <li>plannedFixedRevenue</li>
+              <li>plannedLaborCost</li>
+              <li>plannedLaborCostHours</li>
+              <li>plannedLaborRevenue</li>
+              <li>plannedNonBillableExpenseCost</li>
+              <li>totalActualCost</li>
+              <li>totalActualRevenue</li>
+              <li>totalPlannedCost</li>
+              <li>totalPlannedRevenue</li>
+              <li>totalVarianceCost</li>
+              <li>totalVarianceRevenue</li>
+              <li>varianceExpenseCost</li>
+              <li>varianceLaborCost</li>
+              <li>varianceLaborCostHours</li>
+              <li>varianceLaborRevenue</li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+   </tbody>
+</table>
 
 ### Group (GROUP)
 
 A Group object represents a set of users and teams. Groups often represent departmental structure.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>currency</b>
+            </p>
+             <p>Added</p>
+          </li>
+         </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Hour (HOUR)
 
 An Hour object represents an hour logged by a user on a timesheet.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>The following fields added the flag <code>RESTRICTABLE</code>:
+            </p>
+             <ul>
+              <li>actualCost</li>
+              <li>resourceRevenue</li>
+            </ul>
+          </li>
+          <li>
+          <p>The following fields changed their type from <code>double</code> to <code>class java.math.BigDecimal</code>:
+          <ul>
+              <li>actualCost</li>
+              <li>resourceRevenue</li>
+          </ul>
+          </li>
+          <li><p><b>ratesOrigin</b></p> <p>Added</p></li>
+        </ul>
+      </td>
+    </tr>
+   </tbody>
+</table>
 
 
 
@@ -700,11 +804,66 @@ An Hour object represents an hour logged by a user on a timesheet.
 
 An OpTask object is commonly known as an Issue. An issue is a work item that usually indicates that there is a problem preventing the completion of a task or project. An Issue can also be a Help Desk request. Change Orders, Requests, and Bugs are also Issues.
 
+The OpTask object added the flag DOMAIN_EXTENDABLE
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>The following fields added the flag <code>RESTRICTABLE</code>:
+            </p>
+             <ul>
+              <li>actualCost</li>
+            </ul>
+          </li>
+          <li>
+          <p>The following fields changed their type from <code>double</code> to <code>class java.math.BigDecimal</code>:
+          <ul>
+              <li>actualCost</li>
+          </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+   </tbody>
+</table>
 
 ### Parameter (PARAM)
 
 A Parameter object is a custom field.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>displayType</b>
+            </p>
+            <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>INTRNL</code> (Internal Lookup)</p>
+              </li>
+              <li>
+                <p><code>MULTINTRNL</code> (Multi-Select Internal Lookup)</p>
+              </li>
+              <li>
+                <p><code>UIEXTNSION</code> (enum.parameterdisplaytypeenum.uiextension)</p>
+              </li>
+            </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -712,6 +871,36 @@ A Parameter object is a custom field.
 
 A Portfolio object is a collection of projects that compete for the same resources, typically money or people to complete them.
 
+The portfolio object added the flag `DOMAIN_EXTENDABLE`.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>The following fields added the flag <code>RESTRICTABLE</code>:
+            </p>
+             <ul>
+              <li>aligned</li>
+              <li>budget</li>
+              <li>currency</li>
+              <li>netValue</li>
+              <li>onBudget</li>
+              <li>onTime</li>
+              <li>portfolioNetValue</li>
+              <li>portfolioRoi</li>
+              <li>roi</li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+   </tbody>
+</table>
 
 ### Program (PRGM)
 
