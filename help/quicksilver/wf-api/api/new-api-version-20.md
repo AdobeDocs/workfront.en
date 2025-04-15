@@ -1238,33 +1238,154 @@ The Task object added the flag `DOMAIN_EXTENDABLE`.
   </tbody>
 </table>
 
-costType<note>changes to possibleValues</note>
-revenueType<note>changes to possibleValues</note>    
-
-
 ### Template (TMPL)
 
 A Template object represents a pattern for a project. Projects can be created from templates to save time. A template contains a team and tasks, which will be copied to any project created from the template.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>The following fields added the flag <code>RESTRICTABLE</code>:
+            </p>
+             <ul>
+              <li>budget</li>
+              <li>fixedCost</li>
+              <li>fixedRevenue</li>
+              <li>plannedBenefit</li>
+              <li>plannedBillableExpenseCost</li>
+              <li>plannedCost</li>
+              <li>plannedExpenseCost</li>
+              <li>plannedLaborCost</li>
+              <li>plannedNonBillableExpenseCost</li>
+              <li>plannedRevenue</li>
+              <li>plannedRiskCost</li>
+              <li>workRequired</li>
+            </ul>
+          </li>
+          <li>
+          <p>The following fields changed their type from <code>double</code> to <code>class java.math.BigDecimal</code>:
+          <ul>
+          <li>plannedCost</li>
+          <li>plannedRevenue</li>
+          </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Collections fields</td>
+      <td>
+          <p>The following fields were added:</p>
+             <ul>
+              <li><b>billingRates</b></li>
+              <li><b>costRates</b></li>
+            </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### TemplateTask (TTSK)
 
 A TemplateTask object represents a Task that is part of a Template. Template Tasks become Tasks in the Project where the Template is used.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>The following fields added the flag <code>RESTRICTABLE</code>:
+            </p>
+             <ul>
+              <li>billingAmount</li>
+              <li>costAmount</li>
+              <li>costType</li>
+              <li>plannedBillableExpenseCost</li>
+              <li>plannedCost/li>
+              <li>plannedExpenseCost</li>
+              <li>plannedLaborCost</li>
+              <li>plannedNonBillableExpenseCost</li>
+              <li>plannedRevenue</li>
+              <li>revenueType</li>
+            </ul>
+          </li>
+          <li>
+          <p>The following fields changed their type from <code>double</code> to <code>class java.math.BigDecimal</code>:
+          <ul>
+          <li>plannedCost</li>
+          <li>plannedRevenue</li>
+          </ul>
+          </li>
+          <li><p><b>costType</b></p> <p>Added the following possible values:<ul><li><code>URH</code> (User and Role Hourly)</li></ul></li>
+          <li><p><b>revenueType</b></p> <p>Added the following possible values:<ul><li><code>URH</code> (User and Role Hourly)</li><li><code>URC</code> (User and Role Hourly w/Cap)</li><li><code>URF</code> (User and Role Hourly Plus Fixed)</li></ul></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Timesheet (TSHET)
 
 A Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>objCode</b>
+            </p>
+             <p>Removed</p>
+          </li>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Update (UPDATE)
 
 Work Items in Workfront can be updated to keep users informed of the current status. An Update object represents one of these updates. Updates can be entered by users or created by the Workfront system.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>updateType</b>
+            </p>
+             <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>externalFolderMetadataError</code> (enum.updatetypeenum.externalFolderMetadataError)</p>
+              </li>
+            </ul>
+          </li>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### User (USER)
 
