@@ -246,5 +246,8 @@ To configure [!DNL Workfront] to send metadata to [!DNL Workfront DAM]:
 
 ### Google Drive integration
 
-* The Google Drive document integration no longer supports linked folders. Instead, you can create a Document folder in Workfront, then select all of the files in the Google folder and add them to the Workfront folder. 
+* The Google Drive document integration no longer supports linked folders. 
+   * You can create a Document folder in Workfront, then select all of the files in the Google folder and add them to the Workfront folder. 
+   Or
+   * You can add the Google folder to Workfront without the contents, then add the files to Workfront. The files will automatically be added to the Google folder.
 * The Google Drive document integration supports adding files from the My Drive area of your Google Drive. You cannot add folders or images from a Shared Drive. Learn more about [Google Shared Drives](https://support.google.com/a/users/answer/7212025?hl=en).
