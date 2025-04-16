@@ -10,9 +10,9 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 
 # Edit records
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -236,15 +236,13 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
 
         ![Dragable lower-right corner for copy paste in table view](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
     
-    <div class="preview">
-    
+  
     * Copy one or multiple cells from an external source (for example, an Excel file), then paste them in one of the the following fields types:
 
         * Workfront Planning connection fields.  
         * People fields. Only fields with one value are supported. 
 
         You cannot copy information from an external source and paste it in any other field types, including Workfront or AEM Assets connection fields.
-    </div> 
 
     >[!NOTE]
     >
@@ -289,11 +287,7 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
     
     From the table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. The record's preview opens in the view.
 
-    <div class="preview">
-
     ![Details box](assets/details-box.png) 
-
-    </div>
 
 1. (Optional) Click the **More** menu to the right of the record's title, then click **Rename**. This updates the field that displays as the record's title.
 
@@ -314,17 +308,13 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
 
     Workfront automatically saves your changes.
 
-1. <span class="preview"> (Optional) Click the **real-time indicator** ![Real-time indicator icon](assets/real-time-indicator-icon.png) in the upper-right corner of the record's preview box, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. (Optional) Click the **real-time indicator** ![Real-time indicator icon](assets/real-time-indicator-icon.png) in the upper-right corner of the record's preview box, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
 
     The names and avatars of all users accessing the record at the same time display in this area.  
 
-    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
+    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. 
     
-    <div class="preview">
-
     ![REal-time indicator expanded record preview box](assets/real-time-indicator-expanded-record-preview-box.png)
-
-    </div>
 
 1. (Optional) Click the **Export** menu ![Export icon in record details page](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).
 
@@ -382,17 +372,13 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
 
     Workfront automatically saves your changes.
 
-1. <span class="preview"> (Optional) Click the **real-time indicator** ![Real-time indicator icon](assets/real-time-indicator-icon.png) in the upper-right corner of the record's page, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. (Optional) Click the **real-time indicator** ![Real-time indicator icon](assets/real-time-indicator-icon.png) in the upper-right corner of the record's page, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
 
     The names and avatars of all users accessing the record at the same time display in this area.  
 
-    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
+    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted.
     
-    <div class="preview">
-
     ![Real-time indicator expanded record preview box](assets/real-time-indicator-expanded-record-preview-box.png)
-
-    </div>
 
 1. (Optional) Click the **Export** menu ![Export icon in record details page](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).
     

@@ -116,7 +116,7 @@ For more information about viewing items awaiting approvals or items that you ha
          <ul>
          <li>Complete my review</li>
          </ul>
-      The options in this column apply only to new document approvals. Legacy document approvals appear the same as Work item approvals. 
+      The options in this column apply only to Unified Approvals. Legacy document approvals appear the same as Work item approvals. 
       </td>
       <td>
          <ul>

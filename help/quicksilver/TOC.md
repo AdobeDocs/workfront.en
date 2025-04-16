@@ -1489,7 +1489,7 @@ feature-set: Workfront
   * Reports {#reports}
     * [Reports](reports-and-dashboards/reports/reports-overview.md)
     * Reporting basics {#report-basics}
-      * [Reporting basics](reports-and-dashboards/reports/reporting/reporting-basics.md)
+      * [Reporting basics: article index](reports-and-dashboards/reports/reporting/reporting-basics.md)
       * [Get started with reports](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
       * [Save default reports as new reports](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
     * Reporting elements {#report-elements}
@@ -1523,7 +1523,7 @@ feature-set: Workfront
       * [Run a report](reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)
       * [Create a matrix report](reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
       * [Create a copy of a report](reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)
-      * [Filter reports by time frames](reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
+      * [Filter reports by timeframes](reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
       * [Add a prompt to a report](reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
       * [Add a chart to a report](reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)
       * [Report delivery overview](reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)
@@ -1780,7 +1780,7 @@ feature-set: Workfront
   * Asset and document review and approval {#document-reviews-and-approvals}
     * [Asset and document review and approval: article index](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
     * [Available functionality for asset and document review and approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
-    * [New document approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+    * [Unified Approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
     * [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
     * Set up and manage asset and document approvals {#manage-asset-review-and-approval}
       * [Set up and manage asset and document approvals: article index](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
@@ -1788,7 +1788,7 @@ feature-set: Workfront
       * [Add additional reviewers or approvers to an asset or document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Remove approvers or reviewers from an asset or document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [Create an Approval Template for assets and documents](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-      * [Use new document approvals and proofing together](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
+      * [Use Unified Approvals and proofing together](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
       * [Upload a new document version and request an approval](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
       * [Create a report dashboard for review and approvals](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
     * Review and approve assets and documents {#review-and-approve-documents}

@@ -12,9 +12,9 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -26,7 +26,7 @@ You can submit a Workfront Planning request from the following areas:
 * From a direct link to the request form that was shared. 
 
    This article describes how you can submit a request to add new records to a record type from the Requests area of Workfront, or from a shared link.
-* <span class="preview">From the record type page, when you add or request a new record. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).</span>  
+* From the record type page, when you add or request a new record. For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
 
 Workfront users and external users can submit requests to Planning record types and create records. <!--double check on the external users-->
 
@@ -122,7 +122,7 @@ The following must be in place before you can submit a request to a Workfront Pl
 
    * Internally, the form must be shared with users who have View or higher permissions to the workspace. 
 
-      Workfront users can either access the form from a link <span class="preview">or find the request form in the Requests area of Workfront.</span> 
+      Workfront users can either access the form from a link or find the request form in the Requests area of Workfront. 
 
    * If you don't have a Workfront account, a link to the form has been shared with external people. 
    
@@ -145,13 +145,7 @@ The following must be in place before you can submit a request to a Workfront Pl
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
 
-<div class="preview">
-
 ## Submit a request to Workfront Planning in the Requests area of Workfront
-
->[!NOTE]
->
->After the monthly releases to Production, the features described in this section are also available in the Production environment for customers who enabled fast releases.
 
 {{step1-to-requests}}
 
@@ -233,8 +227,6 @@ The following must be in place before you can submit a request to a Workfront Pl
 
    The record type page opens in Workfront Planning. 
 
-</div>
-
 ## Submit a request to Workfront Planning from a shared link to a request form
 
 1. Go to the link shared with you from a Workfront Planning record type. 
@@ -270,11 +262,11 @@ The following must be in place before you can submit a request to a Workfront Pl
       >
       >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
 
-1. <span class="preview">(optional) Click **View your request** to open the request in Workfront.</span>
+1. (Optional) Click **View your request** to open the request in Workfront.
 
-      Or
+      <!--Or-->
 
-      <span class="preview">Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request. </span>
+      <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
 
 1. (Optional) Click **Main menu** > **Requests** > the **Planning** tab to view your request, then click the name of the request. 
 
