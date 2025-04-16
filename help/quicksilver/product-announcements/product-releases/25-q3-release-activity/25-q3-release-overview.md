@@ -52,7 +52,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New document approval decision buttons available in proofing viewer</a><p>[!BADGE Out of cyle]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New document approval decision buttons available in proofing viewer</a><p>[!BADGE Out of cycle]{type=Neutral}</p>
             <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
         </td>
         <td>April 10, 2025</td>
@@ -84,7 +84,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Third Quarter 2025 release timeframe</a></p>
-                        <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Third Quarter 2025 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview. </p>
+                        <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Third Quarter 2025 release timeframe. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
