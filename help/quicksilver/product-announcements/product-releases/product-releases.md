@@ -115,6 +115,7 @@ For information on helping your organization adjust smoothly to new releases, se
       <td>
         <p>Releases in 2025</p>
         <ul>
+          <li><a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">Second Quarter 2025 release overview</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">Second Quarter 2025 release overview</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">First Quarter 2025 release overview</a></li>
         </ul>
