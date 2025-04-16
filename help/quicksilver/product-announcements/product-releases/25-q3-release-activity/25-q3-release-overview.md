@@ -34,7 +34,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront enhancements
     
-* [Other enhancements](#other-enhancements)
+* [Look and feel updates](#other-enhancements)
 
 <!--
     
@@ -64,7 +64,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 -->
 
 
-### Other enhancements
+### Look and feel updates
 
 <table>
             <col style="width: 50%;" />
