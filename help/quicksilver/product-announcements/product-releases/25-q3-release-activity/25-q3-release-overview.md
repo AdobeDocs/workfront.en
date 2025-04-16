@@ -34,11 +34,12 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront enhancements
     
-* [Look and feel updates](#other-enhancements)
+* [Document management enhancements](#document-management-enhancements)
+* [Other enhancements](#other-enhancements)
 
-<!--
+
     
-### add product area name
+### Document management enhancements
 
 <table style="table-layout:auto">
   <tbody>
@@ -51,20 +52,20 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <p>Title</p>
-            <p>Body</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New document approval decision buttons available in proofing viewer</a>
+            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
         </td>
-        <td>Date</td>
-        <td>Date</td>
-        <td>Date</td>
+        <td>April 17, 2025</td>
+        <td>April 17, 2025</td>
+        <td>April 17, 2025</td>
     </tr>     
   </tbody>
 </table> 
 
--->
 
 
-### Look and feel updates
+
+### Other enhancements
 
 <table>
             <col style="width: 50%;" />
@@ -82,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="add look and feel link" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Third Quarter 2025 release timeframe</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Third Quarter 2025 release timeframe</a></p>
                         <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Third Quarter 2025 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
