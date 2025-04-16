@@ -11,9 +11,9 @@ exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 
 <!-- Audited: 1/2024 -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 A program represents a collection of projects that share a common strategy, objective, or goal that transcends project boundaries. 
 Programs are a subdivision of portfolios and they cannot exist outside of a portfolio. Programs typically share the same resources as other programs within the same portfolio. 
@@ -68,17 +68,14 @@ You can create a program in Workfront using one of the following methods:
 
    For information about importing data using kick-starts in Workfront, see [Import data into Adobe Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-<div class="preview">
 
 * Add programs as you connect them from a record type in Workfront Planning. 
 
-   You must have a new Workfront license and an additional Workfront Planning package for Workfront Planning.
+   You must have an additional Workfront Planning package.
 
-   For information about access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
+   For information about access to Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md).
 
    For information about creating portfolios by adding them to records, see the section "Create records as you connect them" in the article [Create records](/help/quicksilver/planning/records/create-records.md).
-
-</div> 
 
 ## Create a program
 
