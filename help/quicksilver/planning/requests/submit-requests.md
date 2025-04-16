@@ -147,10 +147,6 @@ The following must be in place before you can submit a request to a Workfront Pl
 
 ## Submit a request to Workfront Planning in the Requests area of Workfront
 
->[!NOTE]
->
->After the monthly releases to Production, the features described in this section are also available in the Production environment for customers who enabled fast releases.
-
 {{step1-to-requests}}
 
 1. Enable the **Switch to a new experience** setting, in the upper-right corner of he screen. 
