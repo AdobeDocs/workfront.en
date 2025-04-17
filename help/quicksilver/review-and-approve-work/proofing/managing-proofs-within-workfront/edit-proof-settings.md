@@ -67,12 +67,7 @@ Some settings may be locked if your Workfront administrator disabled them at the
      </tr> 
      <tr> 
       <td role="rowheader">Require decisions to be electronically signed</td> 
-      <td> <p>You can require an electronic signature of any reviewer who makes a decision on the proof. When&nbsp;a reviewer makes a decision, a prompt appears asking them to input their email and password and to confirm their decision. <!--
-         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-          For more information, see 
-          <a href="../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md" class="MCXref xref">Understanding electronic signatures in Workfront Proof</a>
-         </MadCap:conditionalText>
-        --></p> </td> 
+      <td> <p>You can require an electronic signature of any reviewer who makes a decision on the proof. When&nbsp;a reviewer makes a decision, a prompt appears asking them to input their email and password and to confirm their decision.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lock proof when all required decisions are made</td> 
