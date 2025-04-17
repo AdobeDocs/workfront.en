@@ -6,6 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
+exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
 ---
 # Third Quarter 2025 release activity for Adobe Workfront Planning
 

@@ -6,8 +6,8 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
+exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
 ---
-
 # Third Quarter 2025 release overview
 
 This page provides information about functionality that is included in the Third Quarter 2025 release scheduled for July 2025. 

@@ -6,6 +6,7 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
+exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
 ---
 # Look-and-feel updates during the Third Quarter 2025 release timeframe
 
@@ -56,6 +57,3 @@ For information, see [Create a custom report](/help/quicksilver/reports-and-dash
 We have updated the look and feel of the Delete company box when you delete a company from a Company report. The new design now matches other areas of Workfront.
 
 With this update, the looks and feel of the Delete company box on the Companies page in the Setup area has not changed.
-
-
-
