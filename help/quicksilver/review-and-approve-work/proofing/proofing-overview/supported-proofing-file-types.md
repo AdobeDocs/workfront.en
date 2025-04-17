@@ -202,7 +202,7 @@ Workfront has the following limits:
 * AVI
 * Flash (VP6, Sorenson Spark/H.263+, H.264)
 * MOV
-* MP4
+* MP4 - limit 8,192 x 4,320 pixels
 * MPG
 * VOB (unencrypted VOBs only)
 * Flash

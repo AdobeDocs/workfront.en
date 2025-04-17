@@ -193,19 +193,19 @@ You can view high-level information about document approvals with KPIs and chart
     </tr>
     <tr>
     <td><strong>Deadline</strong></td>
-    <td>Document > Approval Stage > Deadline</td>
+    <td>Document Approval > Approval Stage > Deadline</td>
     </tr>
     <tr>
     <td><strong>Requested by</strong></td>
-    <td>Document > Approval Stage > Approval Stage Participants* > Requester > type _Name_ in the search box.</td>
+    <td>Document Approval > Approval Stage > Approval Stage Participants* > Requester > type _Name_ in the search box.</td>
     </tr>
      <tr>
     <td><strong>Requested date</strong></td>
-    <td>Document > Approval Stage > Approval Stage Participants* > Created at</td>
+    <td>Document Approval > Approval Stage > Approval Stage Participants* > Created at</td>
     </tr>
      <tr>
     <td><strong>Approver</strong></td>
-    <td>Document > Approval Stage > Approval Stage Participants* > Participant User > type _Name_ in the search box.</td>
+    <td>Document Approval > Approval Stage > Approval Stage Participants* > Participant User > type _Name_ in the search box.</td>
     </tr>
     <table>
 
