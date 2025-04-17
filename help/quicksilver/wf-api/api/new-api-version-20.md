@@ -13,6 +13,10 @@ Adobe Workfront released API version 20 on April 8, 2024. API version 20 feature
 
 ## Added resources
 
+No resources were added for API version 20.
+
+<!--
+
 ### AssignmentBillingRole (ASBLRL)
 
 <table>
@@ -104,6 +108,7 @@ Adobe Workfront released API version 20 on April 8, 2024. API version 20 feature
           <li><b>COPY</b></li>
           <li><b>COUNT</b></li>
           <li><b>DELETE</b></li>
+          <li><b>EDIT</b></li>
           <li><b>GET</b></li>
           <li><b>REPORT</b></li>
           <li><b>SEARCH</b></li>
@@ -125,7 +130,6 @@ Adobe Workfront released API version 20 on April 8, 2024. API version 20 feature
         <ul>
           <li><b>categoryID</b></li>
           <li><b>ID</b></li>
-          <li><b>name</b></li>
         </ul>
       </td>
     </tr>
@@ -150,7 +154,6 @@ Adobe Workfront released API version 20 on April 8, 2024. API version 20 feature
       <td>
         <ul>
           <li><b>ID</b></li>
-          <li><b>name</b></li>
           <li><b>objCode</b></li>
         </ul>
       </td>
@@ -160,9 +163,9 @@ Adobe Workfront released API version 20 on April 8, 2024. API version 20 feature
       <td>
         <ul>
           <li><b>ADD</b></li>
-          <li><b>COPY</b></li>
           <li><b>COUNT</b></li>
           <li><b>DELETE</b></li>
+          <li><b>EDIT</b></li>
           <li><b>GET</b></li>
           <li><b>REPORT</b></li>
           <li><b>SEARCH</b></li>
@@ -171,6 +174,8 @@ Adobe Workfront released API version 20 on April 8, 2024. API version 20 feature
     </tr>
   </tbody>
 </table>
+
+-->
 
 ## Removed resources
 
