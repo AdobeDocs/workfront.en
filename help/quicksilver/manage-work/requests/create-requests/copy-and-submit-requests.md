@@ -11,6 +11,8 @@ exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 
 When you submit similar requests frequently you can copy an existing submitted request. In this case, you can copy an existing request, make minimal changes to it, and resubmit it as a new request.
 
+<!--Old?? 
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
@@ -45,6 +47,7 @@ You must have the following access to perform the steps in this article:
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
+-->
 
 ## Access requirements
 
