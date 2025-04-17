@@ -15,16 +15,162 @@ Adobe Workfront released API version 20 on April 8, 2024. API version 20 feature
 
 ### AssignmentBillingRole (ASBLRL)
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li><b>assignmentID</b></li>
+          <li><b>customerID</b></li>
+          <li><b>endDate</b></li>
+          <li><b>ID</b></li>
+          <li><b>roleID</b></li>
+          <li><b>startDate</b></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Reference fields</td>
+      <td>
+        <ul>
+          <li><b>assignment</b></li>
+          <li><b>customer</b></li>
+          <li><b>role</b></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li><b>ID</b></li>
+          <li><b>objCode</b></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### StaffingPlan (STAFFP)
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li><b>categoryID</b></li>
+          <li><b>ID</b></li>
+          <li><b>name</b></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Reference fields</td>
+      <td>
+        <ul>
+          <li><b>category</b></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Collection fields</td>
+      <td>
+        <ul>
+          <li><b>objectCategories</b></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li><b>ID</b></li>
+          <li><b>name</b></li>
+          <li><b>objCode</b></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Operations</td>
+      <td>
+        <ul>
+          <li><b>ADD</b></li>
+          <li><b>COPY</b></li>
+          <li><b>COUNT</b></li>
+          <li><b>DELETE</b></li>
+          <li><b>GET</b></li>
+          <li><b>REPORT</b></li>
+          <li><b>SEARCH</b></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### StaffingPlanResource (STAFFR)
 
-
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li><b>categoryID</b></li>
+          <li><b>ID</b></li>
+          <li><b>name</b></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Reference fields</td>
+      <td>
+        <ul>
+          <li><b>category</b></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Collection fields</td>
+      <td>
+        <ul>
+          <li><b>objectCategories</b></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li><b>ID</b></li>
+          <li><b>name</b></li>
+          <li><b>objCode</b></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Operations</td>
+      <td>
+        <ul>
+          <li><b>ADD</b></li>
+          <li><b>COPY</b></li>
+          <li><b>COUNT</b></li>
+          <li><b>DELETE</b></li>
+          <li><b>GET</b></li>
+          <li><b>REPORT</b></li>
+          <li><b>SEARCH</b></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## Removed resources
 
