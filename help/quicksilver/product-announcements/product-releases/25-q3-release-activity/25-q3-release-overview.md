@@ -1,17 +1,18 @@
 ---
-title: <!-- add release --> release overview
-description: <!-- add release --> release overview
-author: Courtney
-draft: Probably
+title: Third Quarter 2025 release overview
+description: This page provides information about functionality that is included in the Third Quarter 2025 release. These enhancements are planned to become available in the Production environment throughout the quarter.
+author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+hide: yes
+hidefromtoc: yes
 ---
 
-# <!-- add release --> release overview
+# Third Quarter 2025 release overview
 
-This page provides information about functionality that is included in the <!-- add release --> release scheduled for <!-- add month and year-->. 
+This page provides information about functionality that is included in the Third Quarter 2025 release scheduled for July 2025. 
 
-The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the <!-- add release --> release nears its planned Production release.
+The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the Third Quarter 2025 release nears its planned Production release.
 
 
 <!-- Keep commented until Final Preview release.
@@ -25,9 +26,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>24.11 (November 14, 2024)</li><li>24.12 (December 12, 2024)</li><li>25.1 (January 15, 2025)</li></ul>| <ul><li>25.1 (January 16, 2025)</li></ul>|
+>|<ul><li>25.5 (May 2025)</li><li>26.6 (june 2025)</li><li>25.7 (July 2025)</li></ul>| <ul><li>25.7 (July 2025)</li></ul>|
 >
->Note that for the final release of each quarter (25.1 this quarter), users on the fast release schedule will receive the release one day early.
+>Note that for the final release of each quarter (25.7 this quarter), users on the fast release schedule will receive the release one day early.
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
 
@@ -35,9 +36,12 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront enhancements
     
-* <!-- add product areas -->
+* [Document management enhancements](#document-management-enhancements)
+* [Other enhancements](#other-enhancements)
+
+
     
-### <!--add product area name -->
+### Document management enhancements
 
 <table style="table-layout:auto">
   <tbody>
@@ -50,15 +54,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <p>Title</p>
-            <p>Body</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New document approval decision buttons available in proofing viewer</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
         </td>
-        <td>Date</td>
-        <td>Date</td>
-        <td>Date</td>
+        <td>April 10, 2025</td>
+        <td>April 17, 2025</td>
+        <td>April 17, 2025</td>
     </tr>     
   </tbody>
 </table> 
+
+
 
 
 ### Other enhancements
@@ -79,13 +85,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="add look and feel link" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the <!-- add release--> release timeframe</a></p>
-                        <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the <!-- add release--> release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Third Quarter 2025 release timeframe</a></p>
+                        <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Third Quarter 2025 release timeframe. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release:&#160;Throughout the <!-- add release--> release timeframe<br /></p>
+                                <p>Preview release:&#160;Throughout the Third Quarter 2025 release timeframe<br /></p>
                             </li>
                             <li>
                                 <p>Production release: A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</p>
