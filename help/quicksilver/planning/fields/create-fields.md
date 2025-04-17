@@ -16,9 +16,9 @@ exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 
 # Create fields
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
 
 
 {{planning-important-intro}}
@@ -94,7 +94,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Manage permissions to a workspace <!--<span class="preview">and record type</span>--> </a> </p>  
+   <td>   <p>Manage permissions to a workspace <span class="preview">and record type</span> </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
   </tr> 
 <tr> 
@@ -108,73 +108,11 @@ You must have the following access to perform the steps in this article:
 
 +++   
 
-
-<!--
-OLD:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p> 
-   <p>Current: Plan</p>
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level control for Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
--->
-
-
 ## Create fields from scratch {#create-fields-from-scratch} 
 
 <!--in a table (not sure if this can be done elsewhere?!-->
 
-<!--the first 3 steps are the same as in Import fields from Workfron-->
+<!--the first 3 steps are the same as in Import fields from Workfront-->
 
 {{step1-to-planning}}
 
@@ -230,7 +168,7 @@ OLD:
     
     >[!IMPORTANT]
     >
-    >    You cannot change the Field type of the field after you save it. 
+    >You cannot change the Field type of the field after you save it. 
 
     <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
     * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
