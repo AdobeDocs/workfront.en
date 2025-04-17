@@ -133,11 +133,11 @@ You must have the following access to perform the steps in this article:
    * **Needs work** indicates that the document version is not approved and requires significant changes.
 
    
-   ## Approve a document from the proof viewer
+## Approve a document from the proof viewer
    
    To review and approve a document:
    
--1. Go to your review email notification, and click to **Go to review**.
+   1. Go to your review email notification, and click to **Go to review**.
    
    1. Once you're in Workfront, click **Go to proof**. 
    
