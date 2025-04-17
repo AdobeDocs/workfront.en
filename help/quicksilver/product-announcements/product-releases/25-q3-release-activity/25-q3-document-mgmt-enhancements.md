@@ -6,6 +6,7 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
+exl-id: 4829d487-7041-447f-9a68-fb1acf467734
 ---
 # Third Quarter 2025 Document management enhancements
 

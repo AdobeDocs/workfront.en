@@ -54,6 +54,3 @@ For information, see [Create a custom report](/help/quicksilver/reports-and-dash
 We have updated the look and feel of the Delete company box when you delete a company from a Company report. The new design now matches other areas of Workfront.
 
 With this update, the looks and feel of the Delete company box on the Companies page in the Setup area has not changed.
-
-
-
