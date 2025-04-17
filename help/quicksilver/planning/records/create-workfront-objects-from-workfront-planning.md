@@ -14,9 +14,9 @@ exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -107,7 +107,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td> <p>Manage permissions to the workspace <!--<span class="preview">and record type</span>--> where you want to add records. </p>  
+   <td> <p>Manage permissions to the workspace <span class="preview">and record type</span> where you want to add records. </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
    <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
    </td> 
@@ -139,11 +139,7 @@ To create projects as you are connecting them from other records:
     
 1. (Conditional) Click **Add project** 
     Or 
-    Start typing the name of a project, then click **Add project** if you cannot find it. 
-    
-    If you cannot find a project when trying to add it from the connected record field of another record, add a name, then click **Add project**. The Add button is followed by the project name you typed. 
-
-   <!--at production or when the permanent Add button is released to preview, take the first part of the direction above out and say "Click Add to add a new project"; take this out too: "The Add button is followed by the project name you typed."-->
+    Start typing the name of a project, then click **Add project** if you cannot find it. The Add button is followed by the project name you typed. 
 
     ![Add project when connecting it from a connection field](assets/add-project-when-connecting-it-from-connection-field.png)
 
@@ -162,15 +158,13 @@ To create projects as you are connecting them from other records:
 
 To create portfolios as you are connecting them from Planning records: 
 
-1. Go to a record's details page or to the record type's table and start connecting Workfront Planning records with Workfront portfolios, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
-
-    <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
+1. Go to a record's details page or to the record type's table and start connecting Workfront Planning records with Workfront portfolios, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md).
     
 1. (Conditional) Click **Add portfolio**
 
     Or
     
-    Start typing the name of a portfolio, then click **Add portfolio** if you cannot find it.-->  If you cannot find a portfolio when trying to add it from the connected record field of another record, add a name, then click **Add portfolio**. The Add button is also followed by the portfolio name you typed. 
+    Start typing the name of a portfolio, then click **Add portfolio** if you cannot find it. The Add button is followed by the portfolio name you typed. 
 
     ![Add portfolio when connecting it from a connection field](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
@@ -183,8 +177,6 @@ To create portfolios as you are connecting them from Planning records:
 To create programs as you are connecting them from Planning records: 
 
 1. Go to a record's details page or to the record type's table and start connecting Workfront Planning records with Workfront portfolios, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
-
-    <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed."-->
     
 1. Click **Add program** 
 
