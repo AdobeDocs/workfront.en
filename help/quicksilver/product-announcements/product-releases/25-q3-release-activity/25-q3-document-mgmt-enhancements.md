@@ -22,8 +22,6 @@ For a list of all changes available at this point in the Third Quarter 2025 rele
 >[!NOTE]
 >
 >* Preview release: April 10, 2025; Production release for all customers: April 17, 2025
->
->* This functionality is currently not available to users on the Adobe Unified Experience.
 
 The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.
 
