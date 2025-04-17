@@ -50,7 +50,7 @@ To assign participants:
 
 1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
 
-1. To add an approver, click the Approver button and and begin typing in a user or team name.
+1. To add an approver, click the Approver button and begin typing in a user or team name.
 
 1. To add a reviewer, click the Reviewer button and begin typing in a user or team name.
 
@@ -77,7 +77,7 @@ To add a new version:
 
 1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
 
-1. To add an approver, click the Approver button and and begin typing in a user or team name,or choose an approver from the previous version.
+1. To add an approver, click the Approver button and begin typing in a user or team name, or choose an approver from the previous version.
 
 1. To add a reviewer, click the Reviewer button and begin typing in a user or team name, choose a reviewer from the previous version.
 
@@ -92,7 +92,7 @@ To add a new version:
 
 The document does not move to an approved status until all assigned approvers choose "approved".
 
-If any one approver chooses "needs work", the status of the document immediately changes to Needs work. The document will need to be revised and uploaded as a new version with a new approval workflow. 
+If any one approver chooses "needs work", the status of the document immediately changes to Needs work. The document needs to be revised and uploaded as a new version with a new approval workflow. 
 
 To review and approve a document:
 
