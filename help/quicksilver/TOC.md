@@ -13,6 +13,10 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2025 Q3 Release {#release-25-q3}
+      * [2025 Q3 Release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
+      * [Document management enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
+      * [Look-and-feel updates during the 2025 Q3 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md)
     * 2025 Q2 Release {#release-25-q2}
       * [2025 Q2 Release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
       * [2025 Q2 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
@@ -190,6 +194,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Planning release activity{#planning-release-activity}
       * [Adobe Workfront Planning release activity](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+      * [Third Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
       * [Second Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
       * [First Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
       * [Fourth Quarter 2024 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
@@ -1909,6 +1914,7 @@ feature-set: Workfront
       * [FAQ: proofing within Adobe Workfront - US to EMEA migration](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
       * [Document name changed after upload and contains an invalid character](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
       * [Proof a PowerPoint with an embedded video](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
+      * [Proof versions cannot be downloaded or previewed when an interactive proof is added as a new version](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
   * Tips, tricks, and troubleshooting for approvals {#ttt-approvals}
     * [Tips, tricks, and troubleshooting for approvals: article index](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
     * [View the number of proof and document decisions for all users](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
