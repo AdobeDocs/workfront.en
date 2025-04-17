@@ -13,9 +13,9 @@ exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
 
 <!-- do you need to add that only workspace owners can view the Submitted/ Planning tab?? - asking team in slack-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -99,7 +99,7 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
    <ul>
-   <li><p>Manage permissions to a workspace <!--<span class="preview">and record type</span>--> </p></li>
+   <li><p>Manage permissions to a workspace <span class="preview">and record type</span> </p></li>
     <li><p>System Administrators can manage workspaces they did not create. </p></li>
     </ul>
    <p>For information about sharing permissions for Workfront Planning objects, see  
@@ -149,7 +149,7 @@ To approve a request:
     ![Read-only request page in review status](assets/read-only-reqeust-page-in-review-status.png) 
 
 1. (Optional) Click the **Approvals** icon ![Approvals icon](assets/approvals-icon.png) in the upper-right corner of the request to view the approvers.
-1. Click **Review and approve**, then choose one of the following: <!--did they fix the button and removed the &??-->
+1. Click **Review and approve**, then choose one of the following: 
 
     * **Approve**: This approves the request. A record is immediately created for the record type associated with the request form after all approvers approve the request.
     * **Reject**: This rejects the request, even when you are the only approver that rejects it. No record is created for the record type associated with the request form. 

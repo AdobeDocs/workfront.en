@@ -10,9 +10,9 @@ exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 
 # Connect records 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  --> 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  
 
 {{planning-important-intro}}
 
@@ -112,8 +112,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Contribute or higher permissions to a workspace <!--<span class="preview">and record type</span>-->  to connect records </p>  
-   <p>View or higher permissions to a workspace <!--<span class="preview">and record type</span>-->  to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
+   <td>   <p>Contribute or higher permissions to a workspace <span class="preview">and record type</span>  to connect records </p>  
+   <p>View or higher permissions to a workspace <span class="preview">and record type</span>  to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
    <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
    <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
   </tr> 
