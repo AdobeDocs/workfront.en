@@ -110,21 +110,19 @@ You must have the following access to perform the steps in this article:
    
    * **Needs work** indicates that the document version is not approved and requires significant changes.  
 
-## Approve a document from the Document Summary pane
+## Approve a document from the Document Summary panel
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 
-1. Click on the document that needs your approval and the Document Summary pane will open.
+1. Click on the document that needs your approval and the Document Summary panel will open.
 
 1. Select the version of the document you would like review in the version dropdown. The latest version will be selected by default.
 
-   If the currently selected version of the document has a pending approval for you, the approval decision buttons are displayed in the top-right corner of the Document Summary pane; if other versions of the document have pending approvals for you, the version dropdown menu displays a red dot.
+   If the currently selected version of the document has a pending approval for you, the approval decision buttons are displayed in the top-right corner of the Document Summary panel; if other versions of the document have pending approvals for you, the version dropdown menu displays a red dot.
 
-   <!--
    ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
-   -->   
-
-1. Click one of the following two approval options in the top-right corner of the Document Summary pane:
+ 
+1. Click one of the following two approval options in the top-right corner of the Document Summary panel:
    
    * The **Approve** dropdown contains two options:
       
@@ -139,13 +137,9 @@ You must have the following access to perform the steps in this article:
    
    To review and approve a document:
    
-   1. Go to the project, task, or issue that contains the document, then select **Documents**.
+-1. Go to your review email notification, and click to **Go to review**.
    
-   1. Find the document you need to review, then click **Open proof**.
-   
-   <!--1. Go to your review email notification, and click to **Go to review**.
-   
-   1. Once you're in Workfront, click **Go to proof**. -->
+   1. Once you're in Workfront, click **Go to proof**. 
    
    1. Review the content, and add any comments or markup. For more information about how to use the proofing viewer, see [Review proofs within Adobe Workfront: article index](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
    

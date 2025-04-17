@@ -13,8 +13,6 @@ New document approvals in Workfront introduces a new set of features to help you
 
 There are some key differences in the workflow when using new document approvals and proofing together:
 
-* Decision buttons do not appear in the proofing viewer <!--remove for prod-->
-
 * Participants are shown in the document Summary, not the proofing workflow 
 
 * Sent, Opened, Comment, Decision (SOCD) details in the document list is proofing related and does not reflect the decision status of the document.
@@ -62,7 +60,7 @@ To assign participants:
 
 ## Create a new version as needed
 
-If you need another round of review and approval, you can create a new proof version.  <!-- and add the previous participants, new participants, or a mix of both. --> You can view information about previous versions and participants in the document Summary.
+If you need another round of review and approval, you can create a new proof version and add the previous participants, new participants, or a mix of both. You can view information about previous versions and participants in the document Summary.
 
 To add a new version:
 
@@ -98,13 +96,9 @@ If any one approver chooses "needs work", the status of the document immediately
 
 To review and approve a document:
 
-1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Go to your review email notification, and click to **Go to review**.
 
-1. Find the document you need to review, then click **Open proof**.
-
-<!--1. Go to your review email notification, and click to **Go to review**.
-
-1. Once you're in Workfront, click **Go to proof**. -->
+1. Once you're in Workfront, click **Go to proof**.
 
 1. Review the content, and add any comments or markup. For more information about how to use the proofing viewer, see [Review proofs within Adobe Workfront: article index](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 

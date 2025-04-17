@@ -52,7 +52,7 @@ Key features available for new document approvals:
 * Use Canvas Dashboards, currently in beta, to view reporting details about new document approvals
     For more information on reporting, see [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
-* Make decisions in the proofing viewer [!BADGE Coming soon]{type=Informative}
+* Make decisions in the proofing viewer
 
 * Create multiple stage approvals [!BADGE Coming soon]{type=Informative}
 
