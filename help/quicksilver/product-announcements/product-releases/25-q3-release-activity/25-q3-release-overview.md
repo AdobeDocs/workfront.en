@@ -4,6 +4,7 @@ description: This page provides information about functionality that is included
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
 ---
 # Third Quarter 2025 release overview
 
