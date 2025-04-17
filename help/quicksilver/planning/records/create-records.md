@@ -7,7 +7,6 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 ---
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Create records
 
@@ -22,13 +21,13 @@ In Adobe Workfront Planning, a record is an instance of a record type.
 You can create records by doing one of the following:
 
 * [Create records by adding them inline from the record type table view](#create-records-by-adding-them-inline-from-the-record-type-table-view)
-* <span class="preview">[Create records using the New record or Request record button from any record type view](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
+* [Create records using the New record or Request record button from any record type view](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
 * [Copy and paste a list of records from an external list](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicate records from a table view](#create-records-by-duplicating-them)
 * [Create records as you connect them from other records](#create-records-as-you-connect-them)
 * [Create records by submitting a request form to a record type](#create-records-by-submitting-a-request-form-to-a-record-type)
-* <span class="preview">[Create records by importing information from a CSV or Excel file](#create-records-by-importing-records-from-a-csv-or-excel-file)</span>
-* <span class="preview">[Create records by using automations](#create-records-by-using-automations)</span>
+* [Create records by importing information from a CSV or Excel file](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Create records by using automations](#create-records-by-using-automations)
 
 For information about managing records in the table or timeline views, see the following articles:
 
@@ -92,8 +91,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td> <p>Contribute or higher permissions to the workspace <!--<span class="preview">and record type</span>--> where you want to add records. </p>
-   <p><span class="preview">View or higher permissions to the workspace <!--<span class="preview">and record type</span>--> to create records using the Request record button on the record page</span></p>
+   <td> <p>Contribute or higher permissions to the workspace <span class="preview">and record type</span> where you want to add records. </p>
+   <p>View or higher permissions to the workspace <span class="preview">and record type</span> to create records using the Request record button on the record page</p>
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
    <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
    </td> 
@@ -176,8 +175,6 @@ For information about editing record information, see [Edit records](/help/quick
     * CTRL + Z (⌘ + Z for Mac) to undo a change 
     * CTRL + Shift + Z (⌘ + Shift + Z for Mac) to redo a change
 
-<div class="preview">
-
 ## Create records using the New record or Request record button from any record type view
 
 Users with View permissions to the workspace <!--<span class="preview">and record type</span>--> can create records only using the Request record button on the record type page.
@@ -200,7 +197,7 @@ Users with Contribute and Manage permissions to the workspace <!--<span class="p
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
     All the records of the selected type display in the view. 
 
-1. From any view, click of the following in the upper-right corner of your screen, depending on the workspace <!--<span class="preview">and record type</span>--> permissions:
+1. (Conditional) From any view, click of the following in the upper-right corner of your screen, depending on the workspace <!--<span class="preview">and record type</span>--> permissions:
 
     * Click **New record**, if you have Contribute or higher permissions on the workspace <!--<span class="preview">and record type</span>--> 
 
@@ -227,7 +224,7 @@ Users with Contribute and Manage permissions to the workspace <!--<span class="p
 
             Add the record, as described in the article [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md), starting with step 6. <!--ensure this stays accurate-->
  
-        ![](assets/three-ways-to-create-records-choice-modal.png)
+        ![Three ways to create records choice modal](assets/three-ways-to-create-records-choice-modal.png)
 
 1. (Conditional) If you clicked **Request record**, do the following:
 
@@ -241,8 +238,6 @@ Users with Contribute and Manage permissions to the workspace <!--<span class="p
     * A new record is added to the record type, unless you chose to add it using a request form with an approval process. The approval must be granted by all approvers before the record is created. 
     * Multiple records are added to the record type, if you added records using a CSV or Excel spreadsheet. 
     * A new request is added in the Planning tab of the Workfront Requests area, if you added the request by submitting a request form. 
-
-</div>
 
 <!-- this is not possible anymore: 
 
@@ -333,7 +328,7 @@ To create records as you are connecting them from other records:
     
         For information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).  
 
-1. (Conditional) If you can't find a record when trying to connect it, <span class="preview">click **+ Add**</span>
+1. (Conditional) If you can't find a record when trying to connect it, click **+ Add**
 
     Or
     Start typing a name, then click **+ Add**. The **+ Add** button is followed by the name of the record type you are connecting to. For example, "Add brands" when adding a brand to an existing campaign. The name you typed also follows the Add button. 
@@ -370,17 +365,11 @@ You can import records when you import record types using a CSV or Excel file.
 
 For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
 
-<div class="preview">
-
 ## Create records by importing records from a CSV or Excel file
 
 You can import records for existing record types when you import information from a CSV or Excel file. 
 
 For information, see [Create records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md). 
-
-</div> 
-
-<div class="preview">
 
 ## Create records by using automations
 
@@ -390,6 +379,5 @@ You can configure and activate the automation in the record's page in Workfront 
 
 For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
 
-</div>
 
 

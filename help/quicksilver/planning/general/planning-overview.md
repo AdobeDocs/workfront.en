@@ -178,7 +178,7 @@ The following are the main Workfront Planning objects and concepts:
 
 * **Workspace**: A collection of record types that define the operational lifecycle of a certain organization. A workspace is the work frame of an organizational unit. 
 
-    ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png) 
+    ![Marketing workspace with record type taxonomies opening page](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png) 
     
     For more information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). 
 
@@ -196,7 +196,7 @@ The following are the main Workfront Planning objects and concepts:
 
 * **Record**: An instance of a record type. 
 
-    ![](assets/records-highlighted-in-campaign-record-type-list.png)
+    ![Records highlighted in campaign record type list](assets/records-highlighted-in-campaign-record-type-list.png)
        
     After adding a record type to a workspace, you can start adding records of that type on the record type's page. 
 
@@ -206,7 +206,7 @@ The following are the main Workfront Planning objects and concepts:
 
 * **Workspace template**: You can create a workspace using predefined templates. You can use the predefined record types and fields that come in a template, or you can add your own. 
 
-    ![](assets/workspaces-page-with-templates-thumbnails.png)
+    ![Workspaces page with templates thumbnails](assets/workspaces-page-with-templates-thumbnails.png)
 
     Adobe Workfront Planning contains the following templates:
     
@@ -220,7 +220,7 @@ The following are the main Workfront Planning objects and concepts:
 
 * **Fields**: Fields are attributes that you can add to record types. Fields contain information about the record type. <!--check the shot below, "Connection" needs to be in lowercase-->
 
-    ![](assets/drop-down-list-of-record-fields.png)
+    ![Drop-down list of record fields](assets/drop-down-list-of-record-fields.png)
 
     Considerations about record fields:
     
@@ -268,7 +268,7 @@ The following are the main Workfront Planning objects and concepts:
 
         You must have an Adobe Experience Manager license to link record types with Experience Manager objects.
 
-        ![](assets/new-connection-tab-with-workfront-aem-options.png)
+        ![New connection tab with Workfront AEM options](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
     After you establish a connection between the record types, you can connect individual records or objects of those types to one another. The connection between the records displays as a connected record field, or a connection.
@@ -277,7 +277,7 @@ The following are the main Workfront Planning objects and concepts:
 
     For example, if you connect a Campaign record type with a Workfront Project object type, you can display the Budget field of connected projects on the campaign records. 
 
-    ![](assets/add-lookup-fields-modal.png)
+    ![Add lookup fields box](assets/add-lookup-fields-modal.png)
 
     >[!TIP]
     >
@@ -297,7 +297,7 @@ The following are the main Workfront Planning objects and concepts:
 
 * **Views**: Records display under their respective record type page in different types of views.
 
-    ![](assets/view-types-drop-down-from-record-type-list.png)
+    ![View types drop-down from record type list](assets/view-types-drop-down-from-record-type-list.png)
 
     Views contain personalized settings of a specific view type, such as the list of fields (columns), a list of records (rows), their order (sort), an applied or applicable filter and a grouping.  
     
@@ -305,14 +305,14 @@ The following are the main Workfront Planning objects and concepts:
 
     * **Table view**: Displays records and their fields, including connected and lookup fields, in a table format. The rows of the table are the individual records, and the columns are the record fields. The table view is the default view. 
 
-        ![](assets/table-view-example.png)
+        ![Table view example](assets/table-view-example.png)
 
     * **Timeline view**: Displays records that have at least two Date-type fields in a chronological timeline. You can display up to 5 connected record types and their records in the timeline view. 
 
-        ![](assets/grouping-applied-in-timeline-view.png)
+        ![Grouping applied in timeline view](assets/grouping-applied-in-timeline-view.png)
 
     * **Calendar view**: Displays records that have at least two Date-type fields in a calendar format. 
-    ![](assets/calendar-view-example.png)
+    ![Calendar view example](assets/calendar-view-example.png)
 
 
 For more information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
@@ -327,11 +327,11 @@ To locate Workfront Planning:
 
 {{step1-click-main-menu}}
 
-1. Click **Planning** ![](assets/planning-icon.png).
+1. Click **Planning** ![Planning icon](assets/planning-icon.png).
 
     The Workfront Planning main page opens. 
 
-    ![](assets/planning-landing-page-admin.png)
+    ![Planning landing page admin](assets/planning-landing-page-admin.png)
 
     >[!TIP]
     >

@@ -10,13 +10,13 @@ exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
+<!--take out preview and production references at release-->
+
 # Share records
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->   
-
-<!--take out preview and production references at release-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  
 
 {{planning-important-intro}}
 
@@ -28,22 +28,17 @@ You can share an Adobe Workfront Planning record in the following ways:
 
 * Copy a link to the record's page when viewing records in the record type's table view.   
 
-* You can share all records in a workspace with other users by sharing the workspace <!--<span class="preview">and record type</span>--> . For more information, see [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md).
+* You can share all records in a workspace with other users by sharing the workspace <span class="preview">and the record type.</span>
 
-<!-- replace the last sentence above with this: 
+   For more information see the following articles:
 
-For more information see the following articles:
+   * [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
 
-* [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
+   <div class="preview">
 
+   * [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
 
-<div class="preview">
-
-* [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
-
-</div>
-
--->
+   </div>
 
 This article describes how you can copy a link to a record's page from the table view of a record type. 
 
@@ -103,8 +98,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>  <p>View or higher permissions to a workspace to share <!--<span class="preview">and record type</span>-->  a record using a link </p>
-   <p>Manage permissions to a workspace <!--<span class="preview">and record type</span>-->  to share the records in the workspace </p>
+   <td>  <p>View or higher permissions to a workspace <span class="preview">and record type</span> to share   a record using a link </p>
+   <p>Manage permissions to a workspace <span class="preview">and record type</span> to share the records in the workspace </p>
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr> 
 <tr> 
@@ -190,9 +185,9 @@ You must have the following access to perform the steps in this article:
 
     Or 
 
-    Hover over a record's name, click the **More** menu ![](assets/more-menu.png), then click **Copy link**.
+    Hover over a record's name, click the **More** menu ![More menu](assets/more-menu.png), then click **Copy link**.
 
-    ![](assets/contextual-menu-for-record-row.png)
+    ![Contextual menu for record row](assets/contextual-menu-for-record-row.png)
 
     The link is copied to your clipboard. 
 
@@ -214,7 +209,6 @@ Only users with Manage permissions to a workspace can share it with others.
 For more information, see [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md). 
 
 
-<!--
 <div class="preview">
 
 ## Share all records in a record type by sharing the record type
@@ -227,7 +221,7 @@ By default, record types inherit permissions from the workspace.
 
 However, you can do any of the following:
 
-* Turn off inherited permissions from the workspace on a record type. This removes permissions from the records. 
+* Disable inherited permissions from the workspace on a record type. This removes higher permissions to the records, but keeps View permissions to the workspace, record type, and records. 
 * Manually grant permissions to users to a record type, even when they have no permissions to the workspace. This automatically gives them View permissions to the workspace. This grants permissions to users to the records. 
 
 Only users with Manage permissions to a workspace can share its record types and records with others. 
@@ -235,5 +229,3 @@ Only users with Manage permissions to a workspace can share its record types and
 For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
 
 </div>
-
--->

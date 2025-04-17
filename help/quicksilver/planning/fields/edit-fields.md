@@ -10,9 +10,9 @@ exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
 
 # Edit field settings
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -78,7 +78,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Manage permissions to a workspace <!--<span class="preview">and record type</span>--> </a> </p>  
+   <td>   <p>Manage permissions to a workspace <span class="preview">and record type</span> </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p></td> 
   </tr> 
 <tr> 
@@ -115,11 +115,9 @@ You must consider the following before making changes to a field's configuration
     >
     >There is no notification to other users that the field configuration has changed.
     
-* You cannot edit existing lookup fields from connected records. 
+* You can edit existing lookup fields from connected records. 
 
-<!--replace he last bullet with thsi: 
-
-* <span class="preview">You can edit existing lookup fields from connected records.</span>--> 
+<!--at production - April 10, 2025 - remove the last bullet altogether-->
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
@@ -158,7 +156,6 @@ You must consider the following before making changes to a field's configuration
 
     The field information updates for everyone with access to view the workspace. 
 
-1. (Conditional) For linked record fields, click **Edit lookup fields** and add or remove any of the fields from the linked record type.
+1. (Conditional) For connected record fields, click **Edit lookup fields** and add or remove any of the lookup fields from the connected record type.
 
     For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
-

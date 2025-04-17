@@ -10,9 +10,9 @@ exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 
 # Share views
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ You can share a view with others to ensure collaboration when working with recor
 
 You can share a view with the following entities: 
 
-* Internally, with Workfront users, groups, <span class="preview">teams, companies, and job roles</span>
+* Internally, with Workfront users, groups, teams, companies, and job roles
 * Publicly, with users outside Workfront
 
 <!--
@@ -123,7 +123,7 @@ You must have the following access to perform the steps in this article:
 
 ## Share permissions to a view internally
 
-You can share views you created or views you have Manage permissions to with users, groups, <span class="preview">teams, companies, and job roles</span> in Workfront Planning. 
+You can share views you created or views you have Manage permissions to with users, groups, teams, companies, and job roles in Workfront Planning. 
 
 >[!NOTE]
 >
@@ -145,10 +145,10 @@ You can share views you created or views you have Manage permissions to with use
 
 1. (Optional) In the **Who has access** area, select from the following options: 
 
-   * **Only invited people can access**: You must specify users, groups, <span class="preview">team, company, or job role</span> that you want to share the view with. This is the default option.
+   * **Only invited people can access**: You must specify users, groups, team, company, or job role that you want to share the view with. This is the default option.
    * **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. 
 
-1. In the **Grant access to this view** field, start typing the name of a user, a group, <span class="preview">team, company, or job role</span> then click it when it displays in the list.  
+1. In the **Grant access to this view** field, start typing the name of a user, a group, team, company, or job role then click it when it displays in the list.  
 
    ![Sharing a view with groups](assets/sharing-a-view-ui-with-groups.png)
 
@@ -249,7 +249,7 @@ Users who access a link to a view to which they do not have permissions can requ
 1. To remove the internal sharing of a view, do the following: 
 
    1. Ensure the **Internal sharing** tab is selected.
-   1. Find the user, group, <span class="preview">team, company, or job role</span>  what you want to remove, expand the permissions drop-down menu to the right of the name of the entity you are sharing the view with, then click **Remove**.
+   1. Find the user, group, team, company, or job role  what you want to remove, expand the permissions drop-down menu to the right of the name of the entity you are sharing the view with, then click **Remove**.
 
 1. To remove the public sharing of a view, do the following: 
 

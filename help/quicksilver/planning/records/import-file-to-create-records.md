@@ -72,12 +72,12 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
    <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
-   <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect the records to them. </p>  
+   <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect them from new records  </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td> <p>Contribute or higher permissions to the workspace <!--and record type--> where you want to add records. </p>  
+   <td> <p>Contribute or higher permissions to the workspace <span class="preview">and record type</span> where you want to add records. </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
    <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
    </td> 
@@ -122,6 +122,8 @@ You must have the following access to perform the steps in this article:
     From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
 1. Click the card of the record type where you want to import the records.
 1. Click **New record** in the upper-right corner of the screen. 
+
+    ![Choose way to add records three button box](assets/choose-way-to-add-records-three-button-box.png)
 1. Click **Upload from file**, then **Continue**. <!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 
 1. Click **Preview and edit**.

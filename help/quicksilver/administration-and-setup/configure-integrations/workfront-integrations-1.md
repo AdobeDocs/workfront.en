@@ -223,7 +223,7 @@ We understand that the available built-in (native) integrations might not meet a
      <li>Search for [!DNL Workfront] projects, tasks, and issues </li> 
      <li>Create [!DNL Workfront] personal tasks </li> 
      <li>Submit [!DNL Workfront] requests </li> 
-    </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: article index</a>.</p> </td> 
+    </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: article index</a>.</p><p><b>NOTE</b>: As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported once the Classic Teams desktop app is no longer available. </p></td> 
    <td> 
     <ul> 
      <li>Each team in your organization must install the integration if more than one team wants to use it</li> 

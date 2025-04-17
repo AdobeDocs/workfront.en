@@ -32,7 +32,9 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 
 * [Administrator enhancements](#administrator-enhancements)
 * [Document management enhancements](#document-management-enhancements)
+* [Mobile enhancements](#mobile-enhancements)
 * [Project enhancements](#project-enhancements)
+* [Reporting enhancements](#reporting-enhacements)
 * [Other enhancements](#other-enhancements)
 
 ### Administrator enhancements
@@ -45,7 +47,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Enhancements to custom forms logic</a></p>
+            Enhancements to custom forms logic</a></p><p>[!BADGE In production ]{type=Informative}</p>
             <p>The custom forms logic builder has an updated interface to provide you with more room for creating logic rules. This new design can more easily accommodate additional logic types that may be added in the future.</p><p>In addition to the current display and skip logic options, validation logic is also available.</p>
         </td>
         <td>
@@ -67,7 +69,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: January 31, 2025</li>
-                <li><span class="preview">Production release for all customers: January 31, 2025</span></li>
+                <span class="preview"><li>Production release for all customers: January 31, 2025</li></span>
             </ul>
         </td>
     </tr>                          
@@ -80,6 +82,20 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<!--    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            New document approval decision buttons available in proofing viewer</a></p>
+            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: April 9, 2025</li>
+                <li>Production release for a limited set of customers: With the 25.4 release (April 2025)</li>
+            </ul>
+        </td>
+    </tr>   -->                     
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -91,7 +107,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: March 20, 2025</li>
-                <li><span class="preview">Production release for all customers: March 20, 2025</span></li>
+                <span class="preview"><li>Production release for all customers: March 20, 2025</li></span>
             </ul>
         </td>
     </tr>                          
@@ -105,7 +121,39 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: February 6, 2025</li>
-                <li><span class="preview">Production release for all customers: March 13, 2025</span></li>
+                <span class="preview"><li>Production release for all customers: March 13, 2025</li></span>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
+### Mobile enhancements
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Enhancements to proofs in the mobile app (iOS only)</a><p>[!BADGE In production ]{type=Informative}</p></p>
+            <p>Several enhancements are available for proof functionality in the Adobe Workfront mobile app:
+            <ul>
+            <li>You can now open a proof file from your mobile email application, from a link that was shared with you. Previously, links from emails were not supported and you had to access proofs from the Workfront mobile app.</li>
+            <li>Multimedia proof files are now supported in the mobile app.</li>
+            </ul>
+            </p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: N/A</li>
+                <span class="preview"><li>Production release for all customers: March 12, 2025</li> 
+            </ul>
+            <p><b>Available in these environments:</b></p>
+            <ul>
+                <li>iOS mobile app</li>
             </ul>
         </td>
     </tr>                          
@@ -121,7 +169,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Add a comment to projects when editing them in the Edit project box</a>[!BADGE In production for Fast Release]{type=Positive}</p>
+            Add a comment to projects when editing them in the Edit project box</a><p>[!BADGE In production ]{type=Informative}</p>
             <p>You can now add a comment to a project as you edit it in the Edit Project box. You can also add a comment to multiple projects at one time when editing them in bulk. Prior to this update, this functionality did not exist when editing projects.</p>
         </td>
         <td>
@@ -130,6 +178,48 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
                 <li>Preview release: February 13, 2025</li>
                 <li>Production for fast release: With the 25.3 release (March 2025)</li>
                 <li>Production release for all customers: With the 25.4 release (April 2025)</li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
+### Reporting enhacements
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Document approval and decision data now available in Data Connect</a><p>[!BADGE In production ]{type=Informative}</p>
+            <p>You can now access data for document approvals and decisions in Data Connect. This data set bridges document approvals from Workfront proofing capabilities and Frame.io approvals that are happening on Workfront documents. You will now be able to illustrate cycle time, number of cycles, and timeline impacts for late approvals through your BI visualizations.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: March 25, 2025</li>
+                <li>Production release for all customers: March 25, 2025</li>
+            </ul>
+        </td>
+    </tr>                          
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Updates to the Workfront Calendar</a></p><p>[!BADGE In production ]{type=Informative}</p>
+            <p>We have updated the look and feel of the Workfront Calendar to a modern design that is consistent with other areas of Workfront. There are small functionality differences from the current Workfront Calendar including:
+            <ul>
+            <li>How you add ad-hoc items to the calendar</li>
+            <li>How you create and rename the calendar</li>
+            <li>The calendar actions have moved to a More menu next to the calendar name</li>
+            <li>A new side panel for viewing calendar information</li>
+            <li>And more</li>
+            <ul>        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: February 27, 2025</li>
+                <li>This feature will release to Production in a three-phased rollout: Starting with the 25.4 release (April 10, 2025) and completing April 17, 2024</li>
             </ul>
         </td>
     </tr>                          
@@ -152,16 +242,14 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
-                <li><span class="preview">Production release for all customers: March 6, 2025</span></li>
+                <span class="preview"><li>Production release for all customers: March 6, 2025</li></span>
             </ul>
         </td>
     </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Represent Adobe Admin Console user changes as "System" in the Workfront update feed</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
-            <p>Now, when the administrator of the Adobe Admin Console makes a change to the user information of a Workfront user, Workfront records this change in the System activity tab of the user's Updates area as belonging to the "System". This refers to the Adobe Admin Console administrator.</p>
+            Represent Adobe Admin Console user changes as "System" in the Workfront update feed</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Now, when the administrator of the Adobe Admin Console makes a change to the user information of a Workfront user, Workfront records this change in the System activity tab of the user's Updates area as belonging to the "System". This refers to the Adobe Admin Console administrator.</p>
         </td>
         <td>
             <p><b>Available on these dates:</b></p>
@@ -182,7 +270,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: Throughout the Second Quarter 2025 release timeframe</li>
-                <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
+                <span class="preview"><li>Production release: Review the release notes for specific dates</li></span>
             </ul>
         </td>
     </tr>
@@ -193,11 +281,20 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
 
 The following functionality is soon to be removed from Workfront:
 
+#### API version 2-15 deprecation
+
+As we continue to enhance the Workfront platform, it is crucial to keep our APIs up to date. This ensures optimal performance and security, and supports new capabilities. Therefore, we are deprecating Workfront API versions 2-15. 
+
+* **September 2025**: API versions 2-14, which are currently unsupported, will be deprecated. After this date, these versions will no longer be accessible.
+* **December 2025**: API version 15 will be deprecated.
+
 #### We are removing the legacy Agile view in a project
 
-The legacy Agile view in a project will be removed from Workfront with the 25.3 release on March 13, 2025. You will still be able to view your tasks in an Agile view in a project by clicking on the Boards icon.
+The legacy Agile view in a project will be removed from Workfront with the 25.3 release on March 13, 2025. You will still be able to view your tasks in an Agile view in a project by clicking on the Boards icon. The existing legacy agile tools are still available in the Teams area. 
 
-For more information about using the Agile view, see [Manage a project in the Agile View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+The image below shows the legacy agile option that will be removed:
+![legacy agile view link](assets/project-agile-board-view.png)
+
 
 #### Enhanced Analytics deprecation
 
@@ -245,7 +342,7 @@ For API version 19, we've modified some resources and endpoints. Some of the cha
 
 For information on what's new and updated, see [What's new in API version 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
-For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+For information on which API versions are currently supported, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront Maintenance Updates
 

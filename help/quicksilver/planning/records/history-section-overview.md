@@ -9,13 +9,11 @@ exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
 ---
 # History section overview
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
-
-<!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Workfront Planning records" should be there-->
 
 You can collaborate on Adobe Workfront Planning records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record and recorded by the system in this area.
 
@@ -80,7 +78,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>View or higher permissions to a workspace <!--<span class="preview">and record type</span>--> </a> </p>  
+   <td>   <p>View or higher permissions to a workspace <span class="preview">and record type</span> </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 <tr> 
@@ -108,14 +106,14 @@ You must have the following access to perform the steps in this article:
 1. From any view, click the name of a record. 
 
     The record's page opens. The Comments area opens by default in the right panel. 
-1. Click the **Show History** icon ![](assets/show-history-icon.png). All changes made to the record's fields display in the right panel, starting with the most recent one. 
-1. (Optional) Click the **Hide History** icon ![](assets/hide-history-icon.png) to close the right panel.
+1. Click the **Show History** icon ![Show history icon](assets/show-history-icon.png). All changes made to the record's fields display in the right panel, starting with the most recent one. 
+1. (Optional) Click the **Hide History** icon ![Hide history icon](assets/hide-history-icon.png) to close the right panel.
 
 ## Considerations about the History section 
 
 You can review the changes made to record fields in the History section of the right panel of a record's page. 
 
-![](assets/history-area-in-comments.png)
+![History area in Comments](assets/history-area-in-comments.png)
 
 * Workfront Planning records the following information in the History section: 
 

@@ -1,7 +1,7 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Update goals in the Goal Details panel in Adobe Workfront Goals
+title: Update Goals in the Goal Details Section in Adobe Workfront Goals
 description: You can update information for individual goals by accessing the Goal Details panel.
 author: Alina
 feature: Workfront Goals
@@ -9,10 +9,7 @@ exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
 ---
 # Update goals in the Goal details section in Adobe Workfront Goals
 
-<!--drafted for the goal redesign:
-- change the title for Production to Update goals in the Goal details section in Adobe Workfront Goals. 
-- update the description in the metadata above
--->
+<!--Audited for P&P only: 4/2025-->
 
 You can update information for individual goals by accessing the Goal Details panel.
 
@@ -20,8 +17,9 @@ You can update information for individual goals by accessing the Goal Details pa
 >
 >You cannot update goals that have a status of Closed. 
 
-
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following: 
 
@@ -52,12 +50,9 @@ You must have the following:
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> New product requirement, one of the following: </p>
-<ul>
-<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
-<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
- <p>Or</p>
- <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+  <p> New product requirement: Workfront</p>
+  Or
+  <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Access level*</td>
@@ -81,6 +76,8 @@ You must have the following:
 </table>
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Update goals in the Goal details section
 

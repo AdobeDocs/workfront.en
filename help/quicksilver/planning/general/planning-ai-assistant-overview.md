@@ -70,7 +70,7 @@ You can locate the AI Assistant in the following areas of Workfront Planning:
 
 ## Access the AI Assistant in the Planning area
 
-1. Log in to Workfront, then click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right corner of the screen, or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available.
+1. Log in to Workfront, then click the **Main Menu** icon ![Dots main menu](assets/dots-main-menu.png) in the upper-right corner of the screen, or the **Main Menu** icon ![Lines main menu](assets/lines-main-menu.png) in the upper-left corner, if available.
 
 . Click **Planning**. The Planning area opens. 
 
@@ -82,11 +82,11 @@ You can locate the AI Assistant in the following areas of Workfront Planning:
 
 1. Click the **AI Assistant icon** in the upper-right corner of the screen in the global navigation bar or in the upper-right corner of the record's preview or page.
 
-    ![](assets/ai-assistant-icon-highlighted.png)
+    ![AI Assistant icon](assets/ai-assistant-icon-highlighted.png)
 
 1. In the space provided, start typing commands for the AI Assistant, then click Enter when you are done. 
 
-    ![](assets/ai-assistant-panel-with-empty-command-box.png)
+    ![AI Assistant panel with empty command box](assets/ai-assistant-panel-with-empty-command-box.png)
 
     For example, you may type one of the following:
 

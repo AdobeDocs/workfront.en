@@ -1,13 +1,15 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Navigate the Goal Alignment section in Adobe Workfront Goals
+title: Navigate the Goal Alignment Section in Adobe Workfront Goals
 description: Use the Goal Alignment section to display a holistic view of goal alignment across the entire organization in a flowchart. Aligned goals display on cards that interconnect in a hierarchical tree.
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
 ---
 # Navigate the Goal Alignment section in Adobe Workfront Goals
+
+<!--Audited P&P only: 4/2025-->
 
 Use the Goal Alignment section to display a holistic view of goal alignment across the entire organization in a flowchart. Aligned goals display on cards that interconnect in a hierarchical tree.
 
@@ -18,6 +20,8 @@ For information about goal alignment and how to achieve it, also see the followi
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following to perform the activities described in this article:
 
 <table style="table-layout:auto">
@@ -27,11 +31,15 @@ You must have the following to perform the activities described in this article:
 </col>
 <tbody>
 <tr>
-<td role="rowheader">Adobe Workfront plan</td>
-<td>
-<p>Any</p>
-
-</td>
+<td role="rowheader">Adobe Workfront plan*</td>
+<td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
 </tr>
 <tr>
 <td role="rowheader">Adobe Workfront license*</td>
@@ -43,12 +51,9 @@ Or
 <tr>
 <td role="rowheader">Product*</td>
 <td>
-<p> New product requirement, one of the following: </p>
-<ul>
-<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
-<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
-<p>Or</p>
-<p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+  <p> New product requirement: Workfront</p>
+  Or
+  <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
 </tr>
 <tr>
 <td role="rowheader">Access level</td>
@@ -72,6 +77,8 @@ Or
 </table>
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Navigate the Goal Alignment section
 

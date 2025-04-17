@@ -96,80 +96,23 @@ You must have the following access to perform the steps in this article:
 
 +++   
 
-
 For more information about Workfront Planning notifications, also see the following articles: 
     
 * For information about comments on records, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
 * For information about in-app notifications from Workfront Planning, see [Manage in-app notifications for Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
 * For information about email notifications from Workfront Planning, see [Manage email notifications for Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md). 
-<!--
 
-OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> 
-   <p>In order to receive in-app notifications from Workfront Planning and manage notification preferences, your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
-   </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls in Workfront Planning. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
--->
 
 ## Manage notification preferences  
 
 1. Log in to Workfront with your Adobe Experience Cloud credentials. 
-1. Click the **account menu** icon ![](assets/account-menu-icon-on-experience-cloud.png) in the upper-right of the screen, then click **Preferences**.
+1. Click the **account menu** icon ![Account menu icon on Experience Cloud](assets/account-menu-icon-on-experience-cloud.png) in the upper-right of the screen, then click **Preferences**.
 1. Under the **Notifications** section, click **Workfront**.
 1. Select the notifications you want to receive.
    Or
    Deselect the notifications you want to stop receiving.
 
-   ![](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
+   ![Adobe Experience Cloud notifications panel for Workfront Planning](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. The following notifications are available for Workfront:
 
    * **Mentions**: You receive a notification when someone tags you in a comment in Workfront Planning

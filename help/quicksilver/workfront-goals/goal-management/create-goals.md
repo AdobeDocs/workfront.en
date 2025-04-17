@@ -1,7 +1,7 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Create goals in Adobe Workfront Goals
+title: Create Goals in Adobe Workfront Goals
 description: Whether you are a CEO, a manager, or an individual contributor, you can create goals in Adobe Workfront Goals to align your work with your goals and the goals that outline the strategy of your organization.
 author: Alina
 feature: Workfront Goals
@@ -9,9 +9,13 @@ exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
 ---
 # Create goals in Adobe Workfront Goals
 
+<!--Audited for P&P only: 4/2025-->
+
 Whether you are a CEO, a manager, or an individual contributor, you can create goals in Adobe Workfront Goals to align your work with your goals and the goals that outline the strategy of your organization.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following:
 
@@ -21,7 +25,7 @@ You must have the following:
 <col>
 </col>
 <tbody>
-<tr> 
+ <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> 
    <p>For the new plan and license structure:
@@ -30,9 +34,10 @@ You must have the following:
 <p>For the current plan and license structure: 
 <ul><li> A Pro or higher </li>
   <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
-  <tr>
+ <tr>
+ <tr>
  <td role="rowheader">Adobe Workfront license*</td>
  <td>
  <p>New license: Contributor or higher</p>
@@ -42,25 +47,23 @@ You must have the following:
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> New product requirement, one of the following: </p>
-<ul>
-<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
-<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
+  <p> New product requirement: Workfront</p>
  <p>Or</p>
- <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+  <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
-<tr>
-<td role="rowheader">Access level</td>
-<td> <p>Edit access to Goals</p> </td>
-</tr>
-<tr data-mc-conditions="">
-<td role="rowheader">Object permissions</td>
-<td>
-<p>View or higher permissions to the goal to view it</p>
-<p>Manage permissions to the goal to edit it</p>
-<p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-</td>
-</tr>
+ <tr>
+ <td role="rowheader">Access level</td>
+ <td> <p>Edit access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
    <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
@@ -70,6 +73,8 @@ You must have the following:
 </table>
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Guidelines for creating goals
 

@@ -12,9 +12,9 @@ exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
 
 <!--take Preview and Production references out at release-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  
 
 {{planning-important-intro}}
 
@@ -76,7 +76,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Contribute or higher permissions to a workspace <!--<span class="preview">and record type</span>--> </a> </p>  
+   <td>   <p>Contribute or higher permissions to a workspace <span class="preview">and record type</span> </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 <tr> 
@@ -118,18 +118,18 @@ You can delete a record from the following areas:
 1. Do one of the following:
 
     * From a Table view, click the name of a record. 
-    * From the Table view, hover over the name of a record, then click the **More** menu ![](assets/more-menu.png), then click **View**
+    * From the Table view, hover over the name of a record, then click the **More** menu ![More menu](assets/more-menu.png), then click **View**
 
-        ![](assets/contextual-menu-for-record-row.png)
+        ![Contextual menu for record row](assets/contextual-menu-for-record-row.png)
     * From a Timeline view, click a record bar. 
 
     The record page opens.  
   
-1. Click the **More** menu ![](assets/more-menu.png) to the right of the record name, then click **Delete**, then **Delete** again to confirm. 
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record name, then click **Delete**, then **Delete** again to confirm. 
 
-    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+    ![More menu options from record details page](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
     The record is deleted.   
-1. (Optional and conditional) If you delete the record in the Preview environment, go to the table view of the record page, and click the **Undo** icon ![](assets/undo-icon.png) in the upper-right corner of the view, then click **Recently deleted** to recover the deleted records. 
+1. (Optional and conditional) If you delete the record in the Preview environment, go to the table view of the record page, and click the **Undo** icon ![Undo icon](assets/undo-icon.png) in the upper-right corner of the view, then click **Recently deleted** to recover the deleted records. 
 
   For information about recovering deleted records, see [Recover deleted records](/help/quicksilver/planning/records/restore-deleted-records.md).
 
@@ -150,17 +150,17 @@ You can delete a record from the following areas:
 1. Do one of the following:
 
     * Right-click a record row, then click **Delete**. 
-    * Click the **More** menu ![](assets/more-menu.png) to the right of the record name, then click **Delete**.
+    * Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record name, then click **Delete**.
 
-        ![](assets/contextual-menu-for-record-row.png)
+        ![Contextual menu for record row](assets/contextual-menu-for-record-row.png)
     
-    * Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the box with the record's detailed information, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**.
+    * Click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) to open the box with the record's detailed information, and click **More** ![More menu](assets/more-menu.png) to the right of the record name, then **Delete**.
 
     The record is deleted.
     
 1. (Optional) Do one of the following to undo or redo deleting a record:
 
-    * Click the **Undo** icon ![](assets/undo-icon.png), then **Recently deleted** to recover the deleted records. For information about recovering deleted records, see [Recover deleted records](/help/quicksilver/planning/records/restore-deleted-records.md). 
+    * Click the **Undo** icon ![Undo icon](assets/undo-icon.png), then **Recently deleted** to recover the deleted records. For information about recovering deleted records, see [Recover deleted records](/help/quicksilver/planning/records/restore-deleted-records.md). 
     * Use the following keyboard shortcuts to undo or redo deleting a record:
 
       * CTRL + Z (⌘ + Z for Mac) to undo deleting a record
