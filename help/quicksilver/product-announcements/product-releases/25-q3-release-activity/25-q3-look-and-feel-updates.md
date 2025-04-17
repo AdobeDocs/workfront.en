@@ -4,9 +4,6 @@ description: Look-and-feel updates during the Third Quarter 2025 release time fr
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: yes
-hidefromtoc: yes
-exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
 ---
 # Look-and-feel updates during the Third Quarter 2025 release timeframe
 

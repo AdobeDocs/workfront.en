@@ -4,9 +4,6 @@ description: This page provides information about functionality that is included
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: yes
-hidefromtoc: yes
-exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
 ---
 # Third Quarter 2025 release overview
 
@@ -39,7 +36,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Document management enhancements](#document-management-enhancements)
 * [Other enhancements](#other-enhancements)
 
-
+<!--
     
 ### Document management enhancements
 
@@ -64,7 +61,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> 
 
-
+-->
 
 
 ### Other enhancements
