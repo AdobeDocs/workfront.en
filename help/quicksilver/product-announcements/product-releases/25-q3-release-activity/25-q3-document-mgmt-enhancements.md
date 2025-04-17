@@ -5,6 +5,8 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 32c0df18-2093-42c2-810a-015345d2fa7c
+hide: yes
+hidefromtoc: yes
 ---
 # Third Quarter 2025 Document management enhancements
 

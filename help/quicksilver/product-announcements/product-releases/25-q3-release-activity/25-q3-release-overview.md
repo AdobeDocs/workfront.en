@@ -4,6 +4,8 @@ description: This page provides information about functionality that is included
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+hide: yes
+hidefromtoc: yes
 ---
 
 # Third Quarter 2025 release overview
