@@ -206,16 +206,16 @@ An AccessLevelPermissions object represents a specific permission to access, cre
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Add sub-projects)</p>
               </li>
-              <li>
+<!--              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>
+              </li>-->
             </ul>
-            <p>Modified the following possible values:</p>
+<!--           <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>
+            </ul>-->
           </li>
           <li>
             <p><b>forbiddenActions</b>
@@ -228,16 +228,16 @@ An AccessLevelPermissions object represents a specific permission to access, cre
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Add sub-projects)</p>
               </li>
-              <li>
+<!--              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>
+              </li>-->
             </ul>
-            <p>Modified the following possible values:</p>
+<!--            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>
+            </ul>-->
           </li>
           <li>
             <p><b>secondaryActions</b>
@@ -250,16 +250,16 @@ An AccessLevelPermissions object represents a specific permission to access, cre
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Add sub-projects)</p>
               </li>
-              <li>
+<!--              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>
+              </li>-->
             </ul>
-            <p>Modified the following possible values:</p>
+<!--            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>
+            </ul>-->
           </li>
         </ul>
       </td>
@@ -290,17 +290,16 @@ If a User does not have access to an object in Workfront that they need, they ca
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Add sub-projects)</p>
               </li>
-              <li>
+<!--              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>
+              </li>-->
             </ul>
-            <p>Modified the following possible values:</p>
+<!--            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>
-          </li>
+            </ul>-->
           </li>
         </ul>
       </td>
@@ -331,16 +330,16 @@ An AccessRule object represents a rule set in custom access levels that determin
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Add sub-projects)</p>
               </li>
-              <li>
+<!--              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>
+              </li>-->
             </ul>
-            <p>Modified the following possible values:</p>
+<!--            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>
+            </ul>-->
           </li>
           <li>
             <p><b>forbiddenActions</b>
@@ -353,16 +352,16 @@ An AccessRule object represents a rule set in custom access levels that determin
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Add sub-projects)</p>
               </li>
-              <li>
+<!--              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>
+              </li>-->
             </ul>
-            <p>Modified the following possible values:</p>
+<!--            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>
+            </ul>-->
           </li>
           <li>
             <p><b>secondaryActions</b>
@@ -375,16 +374,16 @@ An AccessRule object represents a rule set in custom access levels that determin
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Add sub-projects)</p>
               </li>
-              <li>
+<!--              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>
+              </li>-->
             </ul>
-            <p>Modified the following possible values:</p>
+<!--            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>
+            </ul>-->
           </li>
         </ul>
       </td>
@@ -504,6 +503,8 @@ An Assignment object represents the connection between a work item and the user,
 
 The Assignment object added the flags `ATTRIBUTE_ATTACHABLE` and `DOMAIN_EXTENDABLE`.
 
+
+<!--
 <table>
   <col/>
   <col/>
@@ -547,6 +548,8 @@ The Assignment object added the flags `ATTRIBUTE_ATTACHABLE` and `DOMAIN_EXTENDA
     </tr>
  </tbody>
 </table>
+
+-->
 
 ### Avatar
 
@@ -704,7 +707,7 @@ A BillingRecord object records the revenue, hours, or expenses that can be bille
 </table>
 
 
-### Category (CTGY)
+<!--### Category (CTGY)
 
 A Category object is a custom form.
 
@@ -740,7 +743,7 @@ A Category object is a custom form.
       </td>
     </tr>
   </tbody>
-</table>
+</table>-->
 
 ### CategoryParameter (CTGYPA)
 
@@ -770,6 +773,8 @@ A Company object represents an organization consisting of a collection of people
 
 The Company object added the flag `SHARABLE`.
 
+<!--
+
 <table>
   <col/>
   <col/>
@@ -794,7 +799,7 @@ The Company object added the flag `SHARABLE`.
   </tbody>
 </table>
 
-
+-->
 
 ### CustomerPreferences (CUSTPR)
 
@@ -1150,16 +1155,16 @@ A QueueDef object represents a Queue, which is a project that has been published
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Add sub-projects)</p>
               </li>
-              <li>
+<!--              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>
+              </li>-->
             </ul>
-            <p>Modified the following possible values:</p>
+<!--            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>
+            </ul>-->
           </li>
           <li>
             <p><b>requestorForbiddenActions</b>
@@ -1172,16 +1177,16 @@ A QueueDef object represents a Queue, which is a project that has been published
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Add sub-projects)</p>
               </li>
-              <li>
+<!--              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>
+              </li>-->
             </ul>
-            <p>Modified the following possible values:</p>
+<!-->            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>
+            </ul>-->
           </li>
         </ul>
       </td>
