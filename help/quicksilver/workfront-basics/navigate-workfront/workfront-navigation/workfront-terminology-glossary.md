@@ -1095,6 +1095,10 @@ The designated full time equivalency for users. A full-time user should have 100
    <td> <p>The ID is an alphanumeric indicator associated with every object in [!DNL Workfront]. It uniquely identifies each object in the [!DNL Workfront] database. You can view the ID of any object in a report or a list for each object. </p> <p><b>TIP</b></p>   <p>You can also view the ID in the URL of the object's page. For example, the ID of a project might look something like the number outlined in the following URL, when you access the [!UICONTROL Project Details] page:</p> <p><code>https://&lt;your domain>.my.workfront.com/project/<b>5e29c8010027d8eb334762d4fff3ffca</b>/overview</code> </p> </p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+   <td>[!UICONTROL IMS]</td> 
+   <td>Identity Management System. Adobe IMS requires that you log in to Workfront through Adobe rather than using your Workfront username and password.</td> 
+  </tr> 
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Individual Goals]</td> 
    <td>Individual goals which contribute to the metrics of the team goals, but not related to personal or career development.</td> 
   </tr> 
