@@ -13,8 +13,6 @@ Unified Approvals in Workfront introduces a new set of features to help you revi
 
 There are some key differences in the workflow when using Unified Approvals and proofing together:
 
-* Decision buttons do not appear in the proofing viewer 
-
 * Participants are shown in the document Summary, not the proofing workflow 
 
 * Sent, Opened, Comment, Decision (SOCD) details in the document list is proofing related and does not reflect the decision status of the document.
@@ -52,7 +50,7 @@ To assign participants:
 
 1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
 
-1. To add an approver, click the Approver button and and begin typing in a user or team name.
+1. To add an approver, click the Approver button and begin typing in a user or team name.
 
 1. To add a reviewer, click the Reviewer button and begin typing in a user or team name.
 
@@ -62,7 +60,7 @@ To assign participants:
 
 ## Create a new version as needed
 
-If you need another round of review and approval, you can create a new proof version.  <!-- and add the previous participants, new participants, or a mix of both. --> You can view information about previous versions and participants in the document Summary.
+If you need another round of review and approval, you can create a new proof version and add the previous participants, new participants, or a mix of both. You can view information about previous versions and participants in the document Summary.
 
 To add a new version:
 
@@ -79,9 +77,9 @@ To add a new version:
 
 1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
 
-1. To add an approver, click the Approver button and and begin typing in a user or team name,<span class="preview"> or choose an approver from the previous version.</span>
+1. To add an approver, click the Approver button and begin typing in a user or team name, or choose an approver from the previous version.
 
-1. To add a reviewer, click the Reviewer button and begin typing in a user or team name, <span class="preview">or choose a reviewer from the previous version. </span>
+1. To add a reviewer, click the Reviewer button and begin typing in a user or team name, choose a reviewer from the previous version.
 
     ![Add approvers](assets/add-approvers.png)
  
@@ -90,27 +88,19 @@ To add a new version:
 <!-- add info about reusing previous participants once released -->
 
 
-## Review the proof and make a decision 
+## Review the proof and make a decision
 
 The document does not move to an approved status until all assigned approvers choose "approved".
 
-If any one approver chooses "needs work", the status of the document immediately changes to Needs work. The document will need to be revised and uploaded as a new version with a new approval workflow. 
-
->[!IMPORTANT]
->
->Document decision buttons do not appear in the proofing viewer. You must navigate back to the document Summary or Document Details page to make your decision or mark your review complete. 
+If any one approver chooses "needs work", the status of the document immediately changes to Needs work. The document needs to be revised and uploaded as a new version with a new approval workflow. 
 
 To review and approve a document:
 
 1. Go to your review email notification, and click to **Go to review**.
 
-1. Once you're in Workfront, click **Go to proof**. 
+1. Once you're in Workfront, click **Go to proof**.
 
 1. Review the content, and add any comments or markup. For more information about how to use the proofing viewer, see [Review proofs within Adobe Workfront: article index](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
-
-1. When you are finished with your review, close the proofing viewer.
-
-1. If you are on the Document Details page, the decision buttons are located in the top-right corner of the screen. 
 
 1. Choose one of the following decisions:
 
@@ -119,3 +109,4 @@ To review and approve a document:
     * **Needs work**: The document needs changes and is not ready for use. Once the specified changes are made, the document must be uploaded as a new version and go through another round of approvals. For more information on uploading a new version, see [ Create a new version as needed](#create-a-new-version-as-needed) in this article.
 
 Once you make a decision, the document owner is notified via email.
+
