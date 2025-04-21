@@ -117,7 +117,7 @@ You must have the following access to perform the steps in this article:
 
 * The name of the object or record created by an automation is the same as the record name from which you create it, when you create a single object. 
 
-* When you create multiple projects,they are automatically named according to the following pattern: 
+* When you create multiple projects, they are automatically named according to the following pattern: 
 
    `[ Name of the record ] Name of the field choice`
 
@@ -303,7 +303,7 @@ You must configure an automation for a record type in Workfront Planning before 
 
       For example, if a campaign named `Summer breeze` generated a project from a field choice of `EMEA`, the project is named `[ Summer breeze ] EMEA`.
 
-   * The record you are triggering the automation from is added to the connected field of the new record.
+   * The record you are triggering the automation from is added to the connected field of the new records.
 
    >[!NOTE]
    >

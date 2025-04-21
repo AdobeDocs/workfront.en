@@ -196,7 +196,7 @@ The following must be in place before you can submit a request to a Workfront Pl
       >
       >All users who have access to at least one workspace can view the Planning tab in the Requests area. You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. 
 
-   * The request is visible only to the owner, approver, and the people who have at least View permissions to the workspace <!--and people with Manage access to the request type (asking Rafael about this, because not sure how one would give Manage access to the request type??)-->.
+   * The request is visible only to the owner, approver, and the people who have at least View permissions to the workspace.
 
    * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
    * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.

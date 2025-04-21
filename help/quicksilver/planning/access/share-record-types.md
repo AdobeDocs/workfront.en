@@ -24,6 +24,7 @@ You can share a record type with others to ensure collaboration when working wit
 >
 >Users with access to a workspace automatically gain at least View permissions to all the record types in the workspace. 
 >Sharing views does not give users permissions to record types. Only sharing workspaces can grant users permissions to record types. 
+>
 >* For general information about sharing objects in Workfront Planning, also see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
 >* For more information, see the [Considerations when sharing record types](#considerations-when-sharing-record-types) section in this article. 
 
