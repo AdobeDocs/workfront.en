@@ -1,10 +1,10 @@
 ---
-title: Create Record Types Globally 
+title: Create Record Types Globally
 description: You can designate a record type to be global and use it in multiple workspaces, in Adobe Workfront Planning. You must first define a global record type in a workspace, and then you can import it in other workspaces.
 hidefromtoc: yes
 hide: yes
+exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
 ---
-
 <!-- add these to the metadata, when making this public: 
 
 feature: Workfront Planning
@@ -36,4 +36,3 @@ For information about creating record types in Workfront Planning, see [Create r
 ## Create a record type from an existing global record type
 
 1. Start creating a record type, as described in the article [Create record types](/help/quicksilver/planning/architecture/create-record-types.md), then click **Use global record type**. <!--check this - the option might have been renamed in the UI-->
-
