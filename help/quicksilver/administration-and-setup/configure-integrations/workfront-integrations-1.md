@@ -310,8 +310,6 @@ The integration between Workfront and Experience Manager Assets or Assets Essent
 
 ## Partner integrations
 
-[!DNL Workfront] has many partner integrations  enrich your [!DNL Workfront] experience.
-
 Workfront has many partner integrations that enrich your Workfront experience. Examples of existing partner offerings include integrations with Claravine, RWS Group, and more. 
 
 For more information about these and other partner integrations, see the [Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&partnerLevel=All&product=WRKFRNT&sort=RELEVANCE).
