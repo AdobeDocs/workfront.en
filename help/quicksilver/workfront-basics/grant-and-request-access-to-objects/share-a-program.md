@@ -108,7 +108,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
     ![Configured advanced permission options](assets/advanced-options-icon.png)
 
-1. (Optional) To turn off inherited permissions for the program's children objects, click **Turn off** in-line with **Inherited permissions**. 
+1. (Optional) To turn off inherited permissions for the program's children objects, click **Turn off** inline with **Inherited permissions**. 
 
 1. (Optional) To quickly share the program using a link, click **Copy link** and then forward it to the recipient.
 
