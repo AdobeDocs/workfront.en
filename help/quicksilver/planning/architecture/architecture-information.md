@@ -34,3 +34,5 @@ The articles in the following sections describe how you can configure the Adobe 
 * [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md)
 
+<!--* [Create record types globally](/help/quicksilver/planning/architecture/create-record-types-globally.md)-->
+

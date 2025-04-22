@@ -171,15 +171,17 @@ OLD:
         * Select a color to identify the record type. This is the color of the record type icon. 
         * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default. 
 
-1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box. 
+1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box. <!--the info here is duplicated in the Create record types article-->
 
    ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
 
-1. (Conditional) As a system administrator, update the following information in the **Advanced settings** tab: 
+1. (Conditional) Update the following information in the **Advanced settings** tab: 
 
-      * **Connect from other workspaces**: Select this toggle to allow users to connect to this record type from other workspaces. This is deselected by default.
-      * **System wide**: Select this option to allow users to connect to this record from all workspaces in the system.
-      * **Specific workspaces**: Select this option to restrict the workspaces from which users can connect to this record type, then expand the drop down menu and select the workspaces you want users to connect to this record type from. You can start typing the name of a workspace, and select it when it displays in the list. 
+   * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
+   * Choose from which workspaces the record type can be accessed. Choose from the following options:
+
+      * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
+      * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.
 
 1. Click **Save**.
 
