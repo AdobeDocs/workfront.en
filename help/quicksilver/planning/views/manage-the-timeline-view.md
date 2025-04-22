@@ -85,65 +85,6 @@ You must have the following access to perform the steps in this article:
 
 +++     
 
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
-
-
 ## Manage a timeline view {#manage-a-timeline-view}
 
 <!--insert screen shot of timeline view-->
@@ -320,7 +261,7 @@ Update the timeline view settings to indicate what and how information displays 
     >
     >Records that have no values for the Start or the End dates or have a Start date later than the End date do not display in the timeline view.
 
-1. Click **Bar style** in the left panel, to indicate what fields you want to display on the record bars. 
+1. Click **Bar style** in the left panel, to indicate what information you want to display on the record bars. 
 
     The primary field (or title) of the record, as defined in the record's table view, is selected by default. <!--adjust this when the primary field is released??-->
 
@@ -330,18 +271,27 @@ Update the timeline view settings to indicate what and how information displays 
     >
     >    You must first add thumbnails in the table view before you can display them in the timeline view. For more information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md). 
 
-1. Click **Add field** to add up to 4 fields to the record bars.
-1. Click inside the **Search fields** box, and click the field you want to add. 
+1. Click **Add field**, then click inside the **Search fields** box, and click the field you want to add. 
 
     >[!TIP]
     >
     >   * You must create the fields before you can add them to the record bars. 
     > 
     >   * You must have at least one field selected. **Name** is selected by default.
+    >
+    >   * You can add up to 5 fields. 
 
     A preview of what the bars will look like on the timeline displays on the right.
 
     ![Record details panel timeline settings with preview](assets/record-details-panel-timeline-settings-with-preview.png)
+
+    <!--
+    1. <span class="preview">(Optional and conditional) If you display the timeline in the Standard mode, enable the **Truncate bar details** setting. When enabled, the information on the record bars is truncated, and only displays fully when you hover over the bars. This setting is disabled by default, and the information is fully displayed on the bars. </span>
+        ![Truncate setting enabled on timeline settings box highlighted](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
+        >[!TIP]
+        >
+        ><span class="preview">The Truncate bar details setting is not available when displaying the timeline view in Compact mode, and it is not available in the Calendar view.</span>
+    -->
 
 1. Click **Color** in the left panel, to customize the colors of the records and groupings in the timeline. 
 
