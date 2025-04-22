@@ -24,18 +24,12 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 **Preview release: date; Production release: Starting the week of date**
 
-We have updated the Advanced Sarch area with the following changes:
+We have updated the Advanced Search area with the following changes:
 
-* Added a new Full Search tab. On this tab, you can search by type, entered by, entry date, category, and last updated by
-* The filter on the 
+* Added a new Full Search tab. On this tab, you can search by type, entered by, entry date, category, and last updated by.
+* The filter on the  Advance Search tab is slightly different. Now, the filter is not prepopulated. You must toggle it on and build the filter from scratch. The filter does not remain if the page is refreshed. 
 
-Added full search tab
-changes to filters
-
-
-filter changes
-
-+++****
++++
 
 ## Administration and Setup
 
