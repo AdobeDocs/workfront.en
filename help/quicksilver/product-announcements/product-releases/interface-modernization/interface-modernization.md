@@ -16,21 +16,6 @@ This page lists interface updates we are making throughout Adobe Workfront to im
 
 For all other changes to Adobe Workfront, see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
-## Workfront navigation and search
-
-+++Expand to view navigation and search updates
-
-### Interface update for Advanced Search
-
-**Preview release: date; Production release: Starting the week of date**
-
-We have updated the Advanced Search area with the following changes:
-
-* Added a new Full Search tab. On this tab, you can search by type, entered by, entry date, category, and last updated by.
-* The filter on the  Advance Search tab is slightly different. Now, the filter is not prepopulated. You must toggle it on and build the filter from scratch. The filter does not remain if the page is refreshed. 
-
-+++
-
 ## Administration and Setup
 
 +++Expand to view Administration and Setup interface updates
