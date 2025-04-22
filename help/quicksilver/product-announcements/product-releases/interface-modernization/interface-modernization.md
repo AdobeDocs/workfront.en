@@ -16,13 +16,34 @@ This page lists interface updates we are making throughout Adobe Workfront to im
 
 For all other changes to Adobe Workfront, see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
+## Workfront navigation and search
+
++++Expand to view navigation and search updates
+
+### Interface update for Advanced Search
+
+**Preview release: date; Production release: Starting the week of date**
+
+We have updated the Advanced Sarch area with the following changes:
+
+* Added a new Full Search tab. On this tab, you can search by type, entered by, entry date, category, and last updated by
+* The filter on the 
+
+Added full search tab
+changes to filters
+
+
+filter changes
+
++++****
+
 ## Administration and Setup
 
 +++Expand to view Administration and Setup interface updates
 
 ### Interface update for the Announcement Center
 
-**Preview release: February 27, 2025; To be announced**
+**Preview release: February 27, 2025; Starting the week of March 6, 2025**
 
 We have updated the Announcement Center with a more modern design that is consistent with other areas of Workfront. 
 
@@ -302,23 +323,4 @@ We have added a new Edit Text Mode button and editing modal to the following are
 +++
 
 
-## Workfront navigation and search
 
-+++Expand to view navigation and search updates
-
-### Interface update for Advanced Search
-
-**Preview release: date; Production release: Starting the week of date**
-
-We have updated the Advanced Sarch area with the following changes:
-
-* Added a new Full Search tab. On this tab, you can search by type, entered by, entry date, category, and last updated by
-* The filter on the 
-
-Added full search tab
-changes to filters
-
-
-filter changes
-
-+++
