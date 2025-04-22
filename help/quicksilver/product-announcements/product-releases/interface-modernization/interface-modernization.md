@@ -300,3 +300,25 @@ We have added a new Edit Text Mode button and editing modal to the following are
 * Groupings
 
 +++
+
+
+## Workfront navigation and search
+
++++Expand to view navigation and search updates
+
+### Interface update for Advanced Search
+
+**Preview release: date; Production release: Starting the week of date**
+
+We have updated the Advanced Sarch area with the following changes:
+
+* Added a new Full Search tab. On this tab, you can search by type, entered by, entry date, category, and last updated by
+* The filter on the 
+
+Added full search tab
+changes to filters
+
+
+filter changes
+
++++
