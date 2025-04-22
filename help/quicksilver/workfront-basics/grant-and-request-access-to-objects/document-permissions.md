@@ -4,7 +4,7 @@ content-type: reference
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
 description: Your Adobe Workfront administrator grants users access to view or edit documents when they assign access levels, as explained in Grant access to documents.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
 ---
@@ -19,6 +19,42 @@ Permissions are specific to one item in Workfront and define what actions one ca
 The user who uploads a document to Workfront has Manage permissions to it, by default.
 
 For information about sharing an entire document folder, see [Share a document folder](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
+
+You must have the following to share objects:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard</p> 
+   Or
+   <p>Current: Work or higher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View access or higher to the objects you want to share</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions or higher to the objects you want to share</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Considerations about sharing documents
 
@@ -51,6 +87,52 @@ In addition to the considerations below, also see [Overview of sharing permissio
   You can manually remove inherited permissions on documents. For more information, see [Remove permissions from objects](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
 
 * An attached document inherits permissions only from the object where it was attached. If you create a folder on the object and move the document into the folder, it inherits the folder's permissions. But, if you create a folder on a parent or grandparent object and move the document into that folder, it does not inherit that folder's permissions.
+
+## Share a document
+
+{{step1-to-documents}}
+
+1. On the **Documents** page, hover over the document you want to share and click the **Document Details** link that appears. The **Document details** page opens.
+
+    ![Document Details link](assets/document-details-link.png)
+
+1. Click the **More** icon ![More icon](assets/more-icon.png) to the right of the document name, then click **Share**. The **Share [Document Name]** dialog box opens.
+
+   ![Share a document](assets/share-a-document-350x160.png)
+
+1. In the **Grant document access to** field, begin typing the name of the user, team, role, group, or company you want to share the document with, then click the name when it appears in the drop-down list.
+
+   >[!TIP]
+   >
+   >You can only share a document with active users, teams, roles, or companies.
+
+
+1. (Optional) Select the **Who has access** drop-down and select the document's access level:
+
+   * **Only invited people can access:** Only users who are invited to the document can access it (Default).
+   * **Everyone in the system can view**: All users in the system can view the document without an invitation.
+
+1. (Optional) To make the document public, click the gear icon ![Select the gear icon](assets/gear-icon.png), then click the box in-line with **Make this public to external users**. The **Copy public link** button appears at the bottom of the dialog box.
+
+1. Click the drop-down to the right of the user's name and select their permission level for this document:
+
+   * **View**: User can review and share the document. 
+   * **Manage**: User has full access to the program without administrative rights, which are granted at the access level (also includes all View permissions).
+
+1. (Optional) Click the advanced options icon next to the permission level you've granted to configure specific permissions on the program.
+
+    ![Configured advanced permission options](assets/advanced-options-icon.png)
+
+1. (Optional) To turn off inherited permissions for the document's children objects, click **Turn off** in-line with **Inherited permissions**. 
+
+1. (Conditional) To copy the public link that allows you to share the document with external users, click **Copy public link**.
+
+   >[!CAUTION]
+   >
+   >We recommend you use caution when sharing a document containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization.
+
+1. Click **Save**.
+
 
 ## Document permissions
 
