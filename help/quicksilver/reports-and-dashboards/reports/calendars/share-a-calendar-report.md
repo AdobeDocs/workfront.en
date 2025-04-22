@@ -72,11 +72,15 @@ To share a calendar inside of [!DNL Workfront]:
    * **[!UICONTROL View]:** Users can review and share the calendar.
 
       ![Share calendar with View access](assets/calendar-share-view-permissions-350x249.png)
-    <!--![Share calendar with view access](assets/view-calendar.png)-->
+      
+      <!--
+      ![Share calendar with view access](assets/view-calendar.png)
+      -->
 
    * **[!UICONTROL Manage]:** Users have full access to the calendar, minus administrative rights, which are granted at the access level, plus all View permissions.
 
       ![Share calendar with Manage access](assets/calendar-share-manage-permissions-350x241.png)
+      
       <!--![Share calendar with manage access](assets/manage-calendar.png)-->
 
       >[!NOTE]
