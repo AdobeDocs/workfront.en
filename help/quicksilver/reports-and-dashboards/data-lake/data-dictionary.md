@@ -1888,6 +1888,235 @@ The following table correlates object names in Workfront (as well as their names
     </tbody>
 </table>
 
+### Document Approval (NEW)
+
+Limited customer availability
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront Entity Name</th>
+            <th>Interface References</th>
+            <th>API Reference</th>
+            <th>API Label</th>
+            <th>Data Lake Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Document Approval</td>
+            <td>Approval</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>APPROVAL_CURRENT<br>APPROVAL_DAILY_HISTORY<br>APPROVAL_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primary/Foreign Key</th>
+            <th>Type</th>
+            <th>Related Table</th>
+            <th>Related Field</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">APPROVALID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>NOTE: This is also the ID of the DOCUMENTVERSION object the approval is associated with.</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>Variable, based on ASSETTYPE</td>
+             <td>The primary key / ID of the object identified in the ASSETTYPE field</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">EAUTHTENANTID</td>
+             <td>-</td>
+             <td colspan="2">Not a relationship; used for internal application purposes</td>
+        </tr>
+        <tr>
+             <td class="key">PRODUCTID</td>
+             <td>-</td>
+             <td colspan="2">Not a relationship; used for internal application purposes</td>
+        </tr>
+        <tr>
+             <td class="key">REALCREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Document Approval Stage (NEW)
+
+Limited customer availability
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront Entity Name</th>
+            <th>Interface References</th>
+            <th>API Reference</th>
+            <th>API Label</th>
+            <th>Data Lake Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Document Approval Stage</td>
+            <td>Approval Stage</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>APPROVAL_STAGE_CURRENT<br>APPROVAL_STAGE_DAILY_HISTORY<br>APPROVAL_STAGE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primary/Foreign Key</th>
+            <th>Type</th>
+            <th>Related Table</th>
+            <th>Related Field</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">APPROVALID</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>APPROVALID</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">Variable, based on OBJCODE</td>
+             <td>The primary key / ID of the object identified in the OBJCODE field</td>
+        </tr>
+    </tbody>
+</table>
+
+### Document Approval Stage Participants (NEW)
+
+Limited customer availability
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront Entity Name</th>
+            <th>Interface References</th>
+            <th>API Reference</th>
+            <th>API Label</th>
+            <th>Data Lake Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Document Approval Stage Participant</td>
+            <td>Approval Decisions</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>APPROVAL_STAGE_PARTICIPANT_CURRENT<br>APPROVAL_STAGE_PARTICIPANT_DAILY_HISTORY<br>APPROVAL_STAGE_PARTICIPANT_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primary/Foreign Key</th>
+            <th>Type</th>
+            <th>Related Table</th>
+            <th>Related Field</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">APPROVALID</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>APPROVALID</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEPARTICIPANTID/td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>Variable, based on ASSETTYPE</td>
+             <td>The primary key / ID of the object identified in the ASSETTYPE field</td>
+        </tr>
+        <tr>
+             <td class="key">DECISIONUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">Variable, based on OBJCODE</td>
+             <td>The primary key / ID of the object identified in the OBJCODE field</td>
+        </tr>
+        <tr>
+             <td class="key">PARTICIPANTID</td>
+             <td>FK</td>
+             <td class="relatedtable">Variable, based on PARTICIPANTTYPE</td>
+             <td>The primary key / ID of the object identified in the PARTICIPANTTYPE field</td>
+        </tr>
+        <tr>
+             <td class="key">REALREQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">REALUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">REQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">STAGEID</td>
+             <td>FK</td>
+             <td>APPROVAL_STAGE_CURRENT</td>
+             <td>STAGEID</td>
+        </tr>
+    </tbody>
+</table>
+
 ### Document Folder
 
 <table>
