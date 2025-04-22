@@ -120,7 +120,7 @@ You can share a task in the following ways:
 
     ![Configured advanced permission options](assets/advanced-permission-options.png)
 
-1. (Optional) To turn off inherited permissions for the task's children objects, click **Turn off** in-line with **Inherited permissions**. 
+1. (Optional) To turn off inherited permissions for the task's children objects, click **Turn off** inline with **Inherited permissions**. 
 
 1. (Optional) To quickly share the task using a link, click **Copy link** and then forward it to the recipient.
 
