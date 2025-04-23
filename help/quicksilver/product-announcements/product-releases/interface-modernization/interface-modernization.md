@@ -29,6 +29,12 @@ We have updated the Advanced Search area with the following changes:
 
 For more information, see [Search [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
 
+### Interface update for granting support access to your Workfront account
+
+**Preview release: April 24; Production release: To be announced**
+
+We have updated the page you use to grant support access to your Workfront account with a more modern design that is consistent with other areas of Workfront. 
+
 ## Administration and Setup
 
 +++Expand to view Administration and Setup interface updates
