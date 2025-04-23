@@ -52,10 +52,10 @@ The following changes have been made for event subscriptions Version 2:
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Parameter values</p> </td> 
-   <td> <p>For any object created from a template that included a custom form, a <code>CREATE</code> event was sent, then an <code>UPDATE</code> was sent with the parameter values (including calculated fields and their values).    </p> </td> 
+   <td> <p>Calculated parameter values</p> </td> 
+   <td> <p>Any object created from a template that included a custom form with calculated parameter values, a <code>CREATE</code> event would be sent, and then an <code>UPDATE</code> would be sent with the parameter values (including calculated fields and their values). </p> </td> 
    <td> <p>When an object is created from a template that includes a custom form with calculated parameter values, only a <code>CREATE</code> event will be sent and will contain parameter values including calculated fields.</p> </td> 
-   <td> <p>If you have a subscription for <code>UPDATE<code> events and are expecting to receive an <code>UPDATE</code> event after an object is created with calculated parameter values, you will no longer receive that <code>UPDATE</code> event. If you wish to see calculated parameter values on object creation, you must create an additional <code>CREATE</code> subscription.</p> </td> 
+   <td> <p>If you have a subscription for <code>UPDATE</code> events and are expecting to receive an <code>UPDATE</code> event after an object is created with calculated parameter values, you will no longer receive that <code>UPDATE</code> event. If you wish to see calculated parameter values on object creation, you must create an additional <code>CREATE</code> subscription.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Multi-Select type fields</p> </td> 
