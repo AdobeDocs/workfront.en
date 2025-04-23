@@ -12,6 +12,35 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the Third Quarter 2025 release, see [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
+## Look-and-feel-updates to recently restored items
+
+>[!NOTE]
+>
+>Preview release: April 23, 2025; Production release for all customers: April 23, 2025
+
+We have updated the look and feel of the recently restored items in the Setup area, to match the design of other areas of Workfront. No functionality has changed for recently restored projects, tasks, requests, documents, or templates.
+
+To view this change, go to Setup > Recycle Bin > Recently Restored.
+
+For information, see [View restored items](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+
+## Updated reports with new styling 
+
+>[!NOTE]
+>
+>Preview release: April 23, 2025; Production release for all customers: April 23, 2025 
+
+We have updated the look and feel of multiple reports, to match the design of other areas of Workfront. No functionality has changed. 
+
+This update includes visual changes to the lists and toolbars of the reports for the following object types: 
+
+* Template Tasks 
+* Topic Groups 
+* Scorecards 
+* Schedules 
+
+For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
 ## Look-and-feel-updates to the Resource Management area in Setup
 
 >[!NOTE]
