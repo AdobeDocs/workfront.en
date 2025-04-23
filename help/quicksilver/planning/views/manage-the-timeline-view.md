@@ -9,6 +9,10 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 ---
 # Manage the timeline view
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
 You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning. 
@@ -285,13 +289,16 @@ Update the timeline view settings to indicate what and how information displays 
 
     ![Record details panel timeline settings with preview](assets/record-details-panel-timeline-settings-with-preview.png)
 
-    <!--
-    1. <span class="preview">(Optional and conditional) If you display the timeline in the Standard mode, enable the **Truncate bar details** setting. When enabled, the information on the record bars is truncated, and only displays fully when you hover over the bars. This setting is disabled by default, and the information is fully displayed on the bars. </span>
-        ![Truncate setting enabled on timeline settings box highlighted](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
-        >[!TIP]
-        >
-        ><span class="preview">The Truncate bar details setting is not available when displaying the timeline view in Compact mode, and it is not available in the Calendar view.</span>
-    -->
+1. <span class="preview">(Optional and conditional) If you display the timeline in the Standard mode, enable the **Truncate bar details** setting. When enabled, the information on the record bars is truncated, and only displays fully when you hover over the bars. This setting is disabled by default, and the information is fully displayed on the bars. </span>
+
+    ![Truncate setting enabled on timeline settings box highlighted](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
+
+    >[!TIP]
+    >
+    >* <span class="preview">The Truncate bar details setting is not available when displaying the timeline view in Compact mode, and it is not available in the Calendar view.</span>
+    >
+    >* <span class="preview">If you break down the timeline view to display connected objects in the timeline, the Truncate bar details setting applies only to the main record type. It does not apply to the connected record bars.</span> 
+
 
 1. Click **Color** in the left panel, to customize the colors of the records and groupings in the timeline. 
 
