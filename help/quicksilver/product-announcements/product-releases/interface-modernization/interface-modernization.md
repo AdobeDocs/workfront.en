@@ -16,7 +16,7 @@ This page lists interface updates we are making throughout Adobe Workfront to im
 
 For all other changes to Adobe Workfront, see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
-## Workfront navigation and search
+## Navigation and search
 
 ### Interface update for Advanced Search
 
@@ -319,3 +319,9 @@ We have added a new Edit Text Mode button and editing modal to the following are
 * Groupings
 
 +++
+
+## Users 
+
+### Updated external user registration page
+
+We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
