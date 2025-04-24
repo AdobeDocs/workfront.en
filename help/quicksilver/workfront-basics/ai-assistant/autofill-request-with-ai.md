@@ -9,16 +9,33 @@ hidefromtoc: yes
 ---
 # Auto-fill a request using AI
 
-AI can help you auto-fill request fields, by using information from filled fields or by parsing text such as an email.
+AI can help you auto-fill request fields. It can suggest field values based on previous requests, or parse them from text such as emails. 
 
-Will not overwrite anything already there.
+You can approve or reject these submissions before submitting the request.
 
-Can approve or reject changes ony by one or all at once.
+Auto-fill does not overwrite any fields that you have already filled in.
 
+## Fill in a field based on previous requests
 
-## Fill in a field
+Auto-fill can suggest field values based on previous requests. As you enter values into the request fields, Workfront compares those values with previous requests. If the entered value closely correlates with other field values in similar contexts in previous requests, Workfront suggests those values.
 
-Looks at past requests and recommends other fields based on the fields you have filled in.
+For example, if a clinic always uses the same billing code, Workfront would suggest that billing code in the appropriate field when the clinic name is entered.
+
+To use suggestions based on previous requests:
+
+1. Begin creating a request.
+
+   For instructions, see [Create and submit requests  ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+1. Begin filling in fields.
+
+   As you fill in fields, other fields may show suggestions.
+
+1. For each field suggestion, select **Accept** or **Reject** below that field.
+
+   Or
+
+   Select **Accept all** or **Reject all** at the top of the page to accept or reject all suggestions. 
 
 ## Paste in text
 
