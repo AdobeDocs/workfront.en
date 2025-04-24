@@ -25,7 +25,7 @@ To use suggestions based on previous requests:
 
 1. Begin creating a request.
 
-   For instructions, see [Create and submit requests  ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+   For instructions, see [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 1. Begin filling in fields.
 
@@ -49,7 +49,7 @@ To use suggestions based on a pasted text prompt:
 
 1. Begin creating a request.
 
-   For instructions, see [Create and submit requests  ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+   For instructions, see [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 1. To apply the text prompt to the entire form, click **Auto-fill with AI** in the upper-right corner of the screen.
 
