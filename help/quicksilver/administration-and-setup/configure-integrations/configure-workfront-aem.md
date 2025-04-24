@@ -122,7 +122,7 @@ Before you begin, you must enable permissions for workfront-service:
 1. On the right side of the screen, select **[!UICONTROL Add ACE]** to create new entries.
 1. In the &#x200B;**[!UICONTROL Add New Entry]**&#x200B; window, select the checkbox icon in the **[!UICONTROL Path]**&#x200B; field and choose the folder: */conf*
 1. In the **Privileges** field, enter: *jcr:read*
-1. In the top-right corner, select **[!UICONTROL Add]**&#x200B;.
+1. In the top-right corner, select **Add**.
 1. (Optional) Repeat the steps above to create more entries.
 
 ### Integrate AEM with [!DNL Workfront] {#integrate-aem-with-workfront}
