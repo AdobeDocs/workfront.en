@@ -240,7 +240,7 @@ For more information on developing and running the application, see the [Adobe d
 Shared context is used to share data from Workfront to a UI Extension. The data available through shared context includes user data and the application context.  
  
 
- ### User 
+### User 
 
 Workfront's UI Extensions share user data. The user object available through shared context includes a Workfront user ID and the user's email address.  
 
