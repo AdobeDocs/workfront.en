@@ -76,7 +76,7 @@ To print the thumbnail view, click the **[!UICONTROL Printer]** icon in the top-
 
 The full-page view shows each page in order with the comments on that page and a pin indicating where the comment is located.
 
-To print the full page view, click the **[!UICONTROL Printer]** icon in the top-right corner of the page.
+To print the full-page view, click the **[!UICONTROL Printer]** icon in the top-right corner of the page.
 
 ![PV_full.png](assets/pv-full-350x347.png)
 
@@ -91,8 +91,7 @@ To download the [!DNL Excel] summary from the Proof details page:
 
 1. Click the **More** button, then select **Export to Excel**.
 
-   <!--
-   ![Export to Excel option](assets/export-to-excel-option.png) -->
+   ![Export to Excel](assets/export-to-excel.png)
 
 ## Exporting to PDF
 
