@@ -24,7 +24,7 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 >* Production fast release: May 15, 2025 
 >* Production for all customers:  July 17, 2025
 
-You can now enable a setting in the Bar style tab of the Settings box of a timeline view to truncate longer record names, when displaying them in the Standard view. The setting is disabled by default and can be enabled only when you display the timeline view in the Standard mode.   
+You can now enable a setting in the Bar style tab of the Settings box of a timeline view to truncate longer record names, when displaying them in the Standard view. The setting is disabled by default and can be enabled only when you display the timeline view in the Standard mode. As this setting is disabled, information on the record bars displays expanded, by default. Prior to this enhancement, information on the record bars was truncated by default.   
 
 For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
