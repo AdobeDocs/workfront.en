@@ -111,7 +111,6 @@ You must have the following access to perform the steps in this article:
 
 <!--replace the layout template info in the table with this at release: 
 
-
 <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
 <p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
 
@@ -262,42 +261,75 @@ To add a section to a record preview or page:
 
    All changes to the layout of the record preview or page save automatically. 
 
-## Add a Connection view page to a record's page
+## Add a Connection view tab to a record's page
 
-<!--suggested a new name for this type of page: "Connected records details" - check to see if this changed-->
+<!--suggested a new name for this type of page: "Connected records page" - check to see if this changed, and update this everywhere in this section-->
+
+You can view information from connected records or objects by adding a tab for a Connection view page type to a record. The information from the connected records displays in a read-only table view. 
+
+<!-replace the last sentence above with this at release:
+
+In the Production environment, the information from the connected records or objects displays in a read-only table view. 
+
+<Span class="preview">In the Preview environment, the information from the connected records can be edited in the table view. The information from the objects connected from another application is not editable in the table view.</span> --> 
 
 Consider the following when adding a Connection view to a record's page: 
 
-* You can add a Connection view page to a record's page.
+* You can add a Connection view page to a record's page after you connected record or object types to the record type.
 
 * You cannot add a Connection view page to a record's preview area.
 
-* Connection view pages display one connected record type page in the table view.
+* Connection view pages display one connected record type page or connected object type from another application in a table view.
 
 * After you add a Connection view page to a record's page, the page tab is visible from the record's preview area. You must go to the full page to see the table view for the connected record. <!--this might have changed? check and take disclaimer out--> 
 
 To add a Connection view page:
 
 1. From a record page view, click the name of a record to open it, then click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.
-1. Click **Add page** > **Connection view**. 
+1. Click **Add page**.  
 
    ![Add connection view page modal](assets/add-connection-view-page-modal.png)
 1. Add the **Page name**, click **Connection view**, then click **Create**.
 
    A new tab is added to the record's page.
-1. Search or click the name of a connected record or object type in the list. 
-   The table view of the record type you selected displays and the connected records display in the table view. 
+1. Search for or click the name of a connected record or object type in the list. 
+   The table view of the record type you selected displays in the new page, and the connected records display in the table view. 
    All fields of the connected record display in the table view of the connected record's tab. 
    
    The first five fields from the connected record table display by default. No lookup fields display by default.
-
-   The table view is read-only. 
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    ![Audience connected table view under campaign details](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. (Optional) Double-click the name of the tab
+1. (Optional) In the table view of the connected records, do any of the following:
+
+   * Click the name of a record. This opens the record's page in a new tab. <!--<span class="preview">In the Preview environment, this opens the record's preview page.</span>-->
+   * Click **Connect** to connect more records, then click outside the connection box to close it. The new records are automatically added to the table. 
+   <!--* <span class="preview">Edit any information from the connected records inside the table view. </span>-->
+
+   <!--<div class="preview">
+
+   * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options: 
+      * View 
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Insert record above or below
+      * Delete 
+   * Select one of the records, then click one of the following options in the blue bar at the bottom of the screen: 
+      * View
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Delete. Delete is the only option available when you select more than one record. 
+
+      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+
+   </div>-->
+
+
+1. (Optional) Double-click the name of the Connection view tab
 
    Or
 
@@ -317,7 +349,7 @@ To add a Connection view page:
    >
 
 1. Click **Connect** to add or remove records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md)
-1. (Optional)  Hover over the name of the Connection view tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to new Connected view tab.
+1. (Optional)  Hover over the name of the Connection view tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.
 
 
 
