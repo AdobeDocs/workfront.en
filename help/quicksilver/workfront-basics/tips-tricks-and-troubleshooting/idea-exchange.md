@@ -41,4 +41,4 @@ After the critical threshold of 450 points is reached, the idea will have one of
 * **[!UICONTROL Delivered]:** A solution has been created and delivered. No further updates will be provided and comments will be disabled.
 * **[!UICONTROL Archived]**: Ideas that reach the 18-month-mark (from submission date) and have less than 300 points will be archived.
 
-To get started or to learn more, log in to the Innovation Lab at  [workfront.com/customer](https://www.workfront.com/customer).
+To get started or to learn more, log in to the [Innovation Lab](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
