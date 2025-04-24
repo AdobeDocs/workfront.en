@@ -67,7 +67,6 @@ To share a calendar inside of [!DNL Workfront]:
 1. Specify the permissions for each user, team, role, group, or company that you added in Step 3 by clicking the drop-down menu, then select the permission level that you want to grant:
 
    * **[!UICONTROL View]:** Users can review and share the calendar.
-
    
       ![Share calendar with view access](assets/view-calendar.png)
 

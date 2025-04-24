@@ -12,9 +12,9 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -90,7 +90,7 @@ You must have the following access to perform the steps in this article:
 <tr>
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
-   <p>View or higher permissions to a workspace <!--<span class="preview">and record type</span>-->, if you are a Workfront user</p> 
+   <p>View or higher permissions to a workspace <span class="preview">and record type</span>, if you are a Workfront user</p> 
   </td>
   </tr>
 <tr>
@@ -195,6 +195,8 @@ The following must be in place before you can submit a request to a Workfront Pl
       >[!IMPORTANT]
       >
       >All users who have access to at least one workspace can view the Planning tab in the Requests area. You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. 
+
+   * The request is visible only to the owner, approver, and the people who have at least View permissions to the workspace.
 
    * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
    * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.

@@ -70,15 +70,15 @@ Add once functionality is added
 1. (Optional) Once you have reviewed the document, you can leave a comment for the requester in the document's **Updates** section. For more information on commenting, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. To record that you have completed your review, click **Complete review**.
 
-## Review a document from the Document Summary pane
+## Review a document from the Document Summary panel
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 
-1. Click on the document you need and the Document Summary pane will open.
+1. Click on the document you need and the Document Summary panel will open.
 
 1. Select the version of the document you would like review in the version dropdown. The latest version will be selected by default.
 
-1. Hover over the preview of the document in the **Details** section at the top of the Document Summary pane. Then, either:
+1. Hover over the preview of the document in the **Details** section at the top of the Document Summary panel. Then, either:
 
     Click **Preview** to open a read-only version of the document in a new window.
 
@@ -88,5 +88,18 @@ Add once functionality is added
 
 1. (Optional) Once you have reviewed the document, you can leave a comment for the requester in the document's **Updates** section. For more information on commenting, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) You can also preview or download a specific version of the document by scrolling down to the **Versions** section of the Document Summary pane, then clicking on the More icon ![More icon](../assets/more-icon.png) next to the version you would like to review and selecting **Download** or **Preview**.
+1. (Optional) You can also preview or download a specific version of the document by scrolling down to the **Versions** section of the Document Summary panel, then clicking on the More icon ![More icon](../assets/more-icon.png) next to the version you would like to review and selecting **Download** or **Preview**.
 1. To record that you have completed your review, click **Complete review**.
+
+## Review a document from the proof viewer
+
+To review a document:
+
+1. Go to your review email notification, and click to **Go to review**.
+
+1. Once you're in Workfront, click **Go to proof**. 
+
+1. Review the content, and add any comments or markup. For more information about how to use the proofing viewer, see [Review proofs within Adobe Workfront: article index](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+
+1. To record that you have completed your review, click **Complete review**.
+
