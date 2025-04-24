@@ -266,10 +266,6 @@ If the configuration was completed correctly, when you reload the layout templat
 
 Additional instructions are available on the Adobe developer site, using an example from AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/ 
 
-  
-
 ## Publish applications and approve the submission  
 
 To publish the application and approve it, follow the instructions on the [Adobe developer site](https://developer.adobe.com/uix/docs/guides/publication/).
-
-  
