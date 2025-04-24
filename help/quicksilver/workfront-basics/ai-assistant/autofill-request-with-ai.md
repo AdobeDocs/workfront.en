@@ -15,7 +15,7 @@ You can approve or reject these submissions before submitting the request.
 
 Auto-fill does not overwrite any fields that you have already filled in.
 
-## Fill in a field based on previous requests
+## Suggest field values based on previous requests
 
 Auto-fill can suggest field values based on previous requests. As you enter values into the request fields, Workfront compares those values with previous requests. If the entered value closely correlates with other field values in similar contexts in previous requests, Workfront suggests those values.
 
@@ -37,7 +37,34 @@ To use suggestions based on previous requests:
 
    Select **Accept all** or **Reject all** at the top of the page to accept or reject all suggestions. 
 
-## Paste in text
+## Suggest field values from a text prompt
 
-Can copy and paste email content into form or into section.
+Auto-fill can suggest field values based on text such as emails. You paste in a text block, and Workfront processed the text to suggest field values based on the text.
+
+For example, If the email includes "This is due on June 1," and the request form has a field for due date, Workfront would suggest June 1 for that field value.
+
+You can paste in text to be applied to the entire form, or to a single section of the form.
+
+To use suggestions based on a pasted text prompt:
+
+1. Begin creating a request.
+
+   For instructions, see [Create and submit requests  ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+1. To apply the text prompt to the entire form, click **Auto-fill with AI** in the upper-right corner of the screen.
+
+   Or
+
+
+   To apply the text prompt for a single section, click the AI icon ![AI icon](assets/request-prompt-icon.png) next to the section name.
+
+1. Paste the text into the prompt box.
+1. Click **Fill the form**.
+
+   Workfront generates suggestions for the form.
+1. For each field suggestion, select **Accept** or **Reject** below that field.
+
+   Or
+
+   Select **Accept all** or **Reject all** at the top of the page to accept or reject all suggestions. 
 
