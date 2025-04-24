@@ -87,7 +87,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td><p> Contributor, Light, or Standard </p>
+   <td><p> Contributor or higher license </p>
    <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
@@ -114,61 +114,20 @@ You must have the following access to perform the steps in this article:
 +++   
 
 
-<!--OLD:
+<!--replace the layout template info in the table with this at release: 
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace to share a record using a link </p>
-   <p>Manage permissions to a workspace to share the workspace the record belongs to </p>
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
+<div class="preview">
+<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
+   <ul><li>Main Menu</li>
+   <li>Left panel of projects, portfolios, and programs</li>
+   <li>Landing page</li>
+   <li>Pins</li></ul>
+   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
+   <p><b>NOTE</b></p>
+   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
 
- </tbody>
-</table>
-
--->
+--> 
 
 ## Share record links from the record type table view
 
