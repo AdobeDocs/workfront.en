@@ -72,4 +72,60 @@ If AppBuilder is configured properly, you should see Create project from templat
 
 You must use the Adobe Developer Console to build your UI extension.  
 
-Additional instructions are available on the [Adobe Developer site](https://developer.adobe.com/uix/docs/guides/creating-project-in-dev-console/)
+Additional instructions are available on the [Adobe Developer site](https://developer.adobe.com/uix/docs/guides/creating-project-in-dev-console/).
+
+1. Sign in to the Adobe Developer Console with your Adobe ID.  
+
+1. Choose your account, and your profile or organization.  
+
+1. Click **Create project from template** in the Quick Start area, or click **Create new project > Project from template**.
+
+    >[!IMPORTANT]
+    >
+    >If you do not see the option to create a project from a template, then you are misconfigured in the admin console and do not have access to the app builder catalog. This option only shows when you have access to AppBuilder.
+
+    ![Create from template](assets/create-from-template.png)
+
+1. Select **App Builder**.  
+
+1. Enter a **Project title** and **App name**. Both have defaults, but it will be easier to identify the project you want later if you customize the value.  
+
+1. Leave **Include runtime** selected.  
+
+1. Click **Save**.  
+
+## Use Adobe IO (aio) CLI
+
+Adobe provides an open source CLI that you can use to create the App Builder application.  
+
+Additional instructions are available on GitHub and the Adobe Developer site: 
+
+* https://github.com/adobe/aio-cli   
+* https://developer.adobe.com/app-builder/docs/getting_started/first_app/
+
+1. To install the tool, (make sure you are on node v18 first) run: `npm install -g @adobe/aio-cli`.
+1. Launch your terminal and log in to AIO with the command: `aio login`. If you have issues logging into the correct IMS org, try `aio login -f` to force a login prompt. Use `aio where` to see which organization you are logged into the correct IMS org. for more details, use `aio config`.
+1. Begin setting up your app by running: `aio app init example-app` be sure to replace "example-app" with your app name. If you are not sure of app names, you can see a list of app names with the command `aio console project list`.
+1. Select your Organization and Project from the provided options.
+    ![command result](assets/1-command-result.png)
+    ![Select a project](assets/2-select-a-project.png)
+
+1. Browse all available templates and choose the **@adobe/workfront-ui-ext-tpl** for your project.
+    ![Choose a template](assets/3-choose-template.png)
+1. Select and enter the project name you created in the Adobe Developer Console.
+    ![select and enter project name](assets/4-select-and-enter-project-name.png)
+
+1. Answer the prompts for the application:  
+
+    * Name the extension.  
+    * Provide a descriptive summary of the extension's functionality.  
+    * Select an initial version number to start with.  
+    * The template will create the code for a primary navigation button if you select "Add a custom button to Main Menu Item" when prompted for "What would you like to do next?".
+
+    ![select done](assets/5-select-done.png)
+
+1. Confirm completion by selecting I'm done. The code generation from the template is in process.
+    ![generation in process](assets/6-generation-in-process.png)
+1. Wait until you see a message that the app initialization is finished. Then you can open the project in an IDE (VSCode is recommended) and access the src folder.  
+
+    For more information on the folders and files in your project, see the [Adobe developer site](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application).
