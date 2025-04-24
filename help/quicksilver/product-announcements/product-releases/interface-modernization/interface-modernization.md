@@ -324,4 +324,14 @@ We have added a new Edit Text Mode button and editing modal to the following are
 
 ### Updated external user registration page
 
+**Preview release: ; Production release: To be announced**
+
 We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+
+<!--## Licenses
+
+### Updated license agreement page
+
+**Preview release: tbd; Production release: To be announced**
+
+We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.-->
