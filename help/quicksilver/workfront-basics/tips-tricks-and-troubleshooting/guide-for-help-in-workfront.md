@@ -38,7 +38,7 @@ To learn more about [!DNL Workfront], you can:
     <ul> 
      <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/home">Documentation</a> </p> </li> 
      <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home">Tutorials</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases Releases</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases</a> </p>Releases</li> 
      <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics">API documentation</a> </p> </li> 
      <li> <p>And more!</p> </li> 
     </ul> </td> 
@@ -79,7 +79,7 @@ The following resources can help you determine how you can use [!DNL Workfront]:
    <td>This is your starting source for webinars, ebooks, whitepapers, videos, and reports.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3ECase studies</a> </td> 
+   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3</a>ECase studies </td> 
    <td>Read through a growing collection of 60+ case studies, highlighting customer challenges and [!DNL Workfront] solutions and benefits.</td> 
   </tr> 
   <tr> 
@@ -101,7 +101,7 @@ These 3 steps can help you as a [!DNL Workfront] administrator stay on top of ea
    <td><strong>Step 1: Learn what's coming</strong> </td> 
    <td> <p>These resources keep you informed on what updates are releasing to Workfront:</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases target="_blank">Product Announcements</a>: Looking for updates of Workfront's product roadmap? The Product Announcements page is where you can find release updates and roadmap presentations.</p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases">Product Announcements</a>: Looking for updates of Workfront's product roadmap? The Product Announcements page is where you can find release updates and roadmap presentations.</p> </li> 
      <li> <p><strong>Announcement Center</strong>: Review your notifications and receive important updates from our [!DNL Workfront] Product team regarding information for all customers. Visit the <a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">[!UICONTROL "Notifications"]</a> section in [!DNL Workfront], in your top navigation.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -110,7 +110,7 @@ These 3 steps can help you as a [!DNL Workfront] administrator stay on top of ea
    <td> 
     <ul> 
      <li> <p>Test the latest updates in your [!DNL Workfront] <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234">Sandbox</a>.</p> </li> 
-     <li> <p>Determine how those updates impact the way your people work. Our <a href="https://experienceleague.adobe.com/en/docs/workfront/using/home Base</a> and <a href="https://experienceleague.adobe.com/en/events can help! Our Product Managers often cite the direct end user or business problem solved by the functionality, helping you shortcut the change impact.</p> </li> 
+     <li> <p>Determine how those updates impact the way your people work. Our <a href="https://experienceleague.adobe.com/en/docs/workfront/using/home">Knowledge Base</a> and <a href="https://experienceleague.adobe.com/en/events"> Events</a> can help! Our Product Managers often cite the direct end user or business problem solved by the functionality, helping you shortcut the change impact.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
