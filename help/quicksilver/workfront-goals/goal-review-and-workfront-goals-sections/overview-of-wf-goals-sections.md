@@ -2,13 +2,15 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Overview of the Adobe Workfront Goals sections
+title: Overview of the Adobe Workfront Goals Sections
 description: You can access lists of goals or individual goals and manage them from several sections of Adobe Workfront Goals. Which section you use depends on the purpose you want to achieve when you are working with goals.
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
 ---
 # Overview of the Adobe Workfront Goals sections
+
+<!--Audited for P&P only: 4/2025-->
 
 >[!IMPORTANT]
 >

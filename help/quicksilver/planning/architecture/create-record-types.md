@@ -92,6 +92,14 @@ You must have the following access to perform the steps in this article:
 
 +++   
 
+<!--replace the layout template info in the table with this at release: 
+
+
+<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
+
+-->
+
 ## Considerations about creating record types 
 
 * You can create record types in a workspace in the following ways:
@@ -140,20 +148,30 @@ For information about what record types are included with each template, see [Li
 
     From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
 1. (Optional) Click **Add section** to add a new section to the workspace.
-1. Click **Add record type**, then **New**. 
+1. Click **Add record type**, then **Add manually**. 
 
     The Add record type box opens.
     <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
     ![Add record type box with appearance options](assets/add-record-type-box-with-appearance-options.png)
 
-1. Update the following information:
+1. Update the following information on the **Appearance** tab:
 
     * Replace "Untitled record type" with the name of your future record type. <!--did they bring back the field label here and did they rename it to "Name"-->
     * **Description**: Add more information about the record type.  
     * Select a color and shape for the icon associated with the record type. Do the following: 
         * Select a color to identify your new record type. This is the color of the record type icon. Gray is selected by default.
         * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default. 
+
+1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Connectivity scope** section: <!--the info here is duplicated in the Edit record types article-->
+
+    * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
+    * Choose from which workspaces the record type can be accessed. Choose from the following options:
+
+        * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
+        * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type. 
+
+    ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png)
 
 1. Click **Create**.
 

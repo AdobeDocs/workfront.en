@@ -2,13 +2,15 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Goal review and the Adobe Workfront Goals sections
+title: "Goal Review and the Adobe Workfront Goals Sections: Article Index"
 description: Learn about reviewing goals and understand the sections where you can manage goals in Adobe Workfront in the following articles.
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
 ---
-# Goal review and the Adobe Workfront Goals sections
+# Goal review and the Adobe Workfront Goals sections: article index
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >

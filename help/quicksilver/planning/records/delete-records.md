@@ -12,9 +12,9 @@ exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
 
 <!--take Preview and Production references out at release-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  
 
 {{planning-important-intro}}
 
@@ -76,7 +76,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Contribute or higher permissions to a workspace <!--<span class="preview">and record type</span>--> </a> </p>  
+   <td>   <p>Contribute or higher permissions to a workspace <span class="preview">and record type</span> </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 <tr> 
@@ -89,6 +89,14 @@ You must have the following access to perform the steps in this article:
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
+
+<!--replace the layout template info in the table with this at release: 
+
+
+<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
+
+-->
 
 ## Considerations about deleting records
 

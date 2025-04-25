@@ -9,11 +9,11 @@ exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
 ---
 # Create a report dashboard for review and approvals
 
-You can create a report dashboard in the Canvas Dashboards area to display both high-level and detailed information about reviews and approvals with the new document approvals functionality.  
+You can create a report dashboard in the Canvas Dashboards area to display both high-level and detailed information about reviews and approvals with Unified Approvals functionality.  
 
 >[!IMPORTANT]
 >
->This functionality is available only for customers using the new document approvals service and enrolled in the Canvas Dashboards beta.
+>This functionality is available only for customers using Unified Approvals service and enrolled in the Canvas Dashboards beta.
 
 
 ![example dashboard](assets/whole-dashboard.png)
@@ -193,19 +193,19 @@ You can view high-level information about document approvals with KPIs and chart
     </tr>
     <tr>
     <td><strong>Deadline</strong></td>
-    <td>Document > Approval Stage > Deadline</td>
+    <td>Document Approval > Approval Stage > Deadline</td>
     </tr>
     <tr>
     <td><strong>Requested by</strong></td>
-    <td>Document > Approval Stage > Approval Stage Participants* > Requester > type _Name_ in the search box.</td>
+    <td>Document Approval > Approval Stage > Approval Stage Participants* > Requester > type _Name_ in the search box.</td>
     </tr>
      <tr>
     <td><strong>Requested date</strong></td>
-    <td>Document > Approval Stage > Approval Stage Participants* > Created at</td>
+    <td>Document Approval > Approval Stage > Approval Stage Participants* > Created at</td>
     </tr>
      <tr>
     <td><strong>Approver</strong></td>
-    <td>Document > Approval Stage > Approval Stage Participants* > Participant User > type _Name_ in the search box.</td>
+    <td>Document Approval > Approval Stage > Approval Stage Participants* > Participant User > type _Name_ in the search box.</td>
     </tr>
     <table>
 

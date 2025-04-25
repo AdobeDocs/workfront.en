@@ -15,7 +15,7 @@ exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
 
 This section contains the following subsections:
 
-* [Reporting basics](../../reports-and-dashboards/reports/reporting/reporting-basics.md) 
+* [Reporting basics: article index](../../reports-and-dashboards/reports/reporting/reporting-basics.md) 
 * [Reporting elements overview](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md) 
 * [Use built-in reports](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md) 
 * [Create and manage reports](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md) 

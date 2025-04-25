@@ -11,8 +11,6 @@ exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
 ---
 # Add logic rules to custom forms and fields
 
-{{highlighted-preview}}
-
 Logic rules allow you to further customize the fields on your form.
 
 For example, you can display or skip fields or sections in a custom form based on the choices that a user makes when filling it out.
@@ -109,13 +107,7 @@ Display logic defines which custom fields appear on the form when the user selec
 1. Select the **Display** tab on the logic builder.
 1. Click **Add Display Rule**.
 
-   <span class="preview">Sample image in the Preview environment:</span>
-
    ![Display logic builder](assets/simple-display-logic1-val-only-in-menu.png)
-
-   Sample image in the Production environment:
-
-   ![Display logic builder](assets/custom-form-logic-builder-display-blank.png)
 
 1. Follow the steps below to create the logic statement in the builder.
 
@@ -124,17 +116,11 @@ Display logic defines which custom fields appear on the form when the user selec
    1. The third option is **Selected** or **Not Selected**. Choosing **Selected** means that when the value is selected, the target field is displayed. Choosing **Not Selected** means that when any other value is selected in the defining field, the target field is displayed.
    1. To add an **And** rule to the logic statement, click **Add Rule** directly underneath the rule you just created. Follow the same prompts to build the rule. All of the And rules must be met for the target field to be displayed.
 
-      <span class="preview">Sample image in the Preview environment:</span>
-
       ![Display logic builder](assets/simple-display-logic2.png)
-
-      Sample image in the Production environment:
-
-      ![Display logic builder](assets/custom-form-logic-builder-display1.png)
 
    1. To add an **Or** rule to the logic statement, click **Add Rule** near the bottom of the logic builder. Then, click **Add Rule** inside the Or area and follow the same prompts to build the rule. When one Or rule is met, the target field is displayed.
 
-1. Click **Save** <span class="preview">or **Apply**</span> when you are finished building the logic statement.
+1. Click **Apply** when you are finished building the logic statement.
 
    The display logic icons are added to the target field and the defining field in the form designer.
 
@@ -206,14 +192,7 @@ Skip logic defines custom form fields that are skipped when the user selects a s
 1. Select the **Skip** tab on the logic builder.
 1. Click **Add Skip Rule**.
 
-
-   <span class="preview">Sample image in the Preview environment:</span>
-
    ![Skip logic builder](assets/skip-logic1-val-only-in-menu.png)
-   
-   Sample image in the Production environment:
-
-   ![Skip logic builder](assets/custom-form-logic-builder-skip-blank.png)
 
 1. Follow the steps below to create the logic statement in the builder.
 
@@ -222,21 +201,13 @@ Skip logic defines custom form fields that are skipped when the user selects a s
    1. The second option is **Selected** or **Not Selected**. Choosing **Selected** means that when the value is selected, the target field is displayed and the fields in between are skipped. Choosing **Not Selected** means that when any other value is selected in the defining field, the target field is displayed and the fields in between are skipped.
    1. The third option is the target field, or where to skip to. Select a field name or **End of form**. You might need to click the word "empty" first before selecting an option.
 
-      <span class="preview">Sample image in the Preview environment:</span>
-
       ![Skip logic builder](assets/skip-logic2.png)
-
-      Sample image in the Production environment:
-
-      ![Skip logic builder](assets/custom-form-logic-builder-skip1.png)
 
    1. To add an **Or** rule to the logic statement, click **Add Rule** near the bottom of the logic builder. Then, select the options following the same prompts to build the rule. When one **Or** rule is met, the target field is displayed.
 
-1. Click **Save** <span class="preview">or **Apply**</span> when you are finished building the logic statement.
+1. Click **Apply** when you are finished building the logic statement.
 
    The skip logic icons are added to the target field and the defining field in the form designer.
-
-<div class="preview">
 
 ## Add validation logic to a custom form
 
@@ -244,7 +215,7 @@ Validation logic is built using formulas, and you can make the logic as simple o
 
 If the field with the logic applied meets the defined validation conditions when a user fills out the custom form, the field is highlighted and the error message is displayed.
 
-You can apply validation logic to the following field types: single line text, paragraph, single select dropdown, multi-select dropdown, external lookup, radio buttons, checkbox group, and typeahead.
+You can apply validation logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, date, checkbox group, and radio buttons.
 
 ### Examples
 
@@ -281,14 +252,14 @@ An additional example for validation based on other fields is a field for meetin
    
    The logic is applied to the field in the form designer.
 
-</div>
-
 <!--
 <div class="preview">
 
 ## Add formatting logic to a custom form
 
-Formatting logic highlights a field value when it meets the defined conditions. You can apply formatting logic to all field types, and it will work on multiple fields at once.
+Formatting logic highlights a field value when it meets the defined conditions. The applied formatting will work on multiple fields at once.
+
+You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
 
 Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 

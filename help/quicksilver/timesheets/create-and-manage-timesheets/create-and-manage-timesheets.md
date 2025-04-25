@@ -10,6 +10,8 @@ exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
 ---
 # Create and manage timesheets: article index
 
+<!-- Audited: 4/2025 -->
+
 This section contains the following articles:
 
 * [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) 
