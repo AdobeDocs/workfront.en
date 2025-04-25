@@ -38,7 +38,7 @@ To learn more about [!DNL Workfront], you can:
     <ul> 
      <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/home">Documentation</a> </p> </li> 
      <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home">Tutorials</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases</a> </p>Releases</li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases>Releases</a> </p></li> 
      <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics">API documentation</a> </p> </li> 
      <li> <p>And more!</p> </li> 
     </ul> </td> 
@@ -79,7 +79,7 @@ The following resources can help you determine how you can use [!DNL Workfront]:
    <td>This is your starting source for webinars, ebooks, whitepapers, videos, and reports.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3</a>ECase studies </td> 
+   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E</a>Case studies </td> 
    <td>Read through a growing collection of 60+ case studies, highlighting customer challenges and [!DNL Workfront] solutions and benefits.</td> 
   </tr> 
   <tr> 
