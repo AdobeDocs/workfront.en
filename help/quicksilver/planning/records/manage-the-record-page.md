@@ -267,7 +267,7 @@ To add a section to a record preview or page:
 
 You can view information from connected records or objects by adding a tab for a Connection view page type to a record. The information from the connected records displays in a read-only table view. 
 
-<!-replace the last sentence above with this at release:
+<!--replace the last sentence above with this at release:
 
 In the Production environment, the information from the connected records or objects displays in a read-only table view. 
 
