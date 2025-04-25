@@ -27,7 +27,7 @@ Previously, you were required to go to the document details and proof workflow i
 
 For more information about proof decisions, see [The Documents area](../../../documents/managing-documents/documents-area.md).
 
-This feature is now included in the [Manage proofs and versions in the new Workfront experience](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) learning path on Workfront One.
+This feature is now included in the [Manage proofs and versions in the new Workfront experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
 ## New fields on the Proof Approval report
 
@@ -39,7 +39,7 @@ To help surface useful proofing information, we've added the following fields to
 
 These fields are not part of the default report. You need to add them if you want to see them.
 
-This feature is now included in the [Proof system setups, Part 2: Workflow management](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) learning path on Workfront One.
+This feature is now included in the [Proof system setups, Part 2: Workflow management](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
 ## Carry over the existing proof workflow when generating a new version
 

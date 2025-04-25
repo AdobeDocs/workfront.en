@@ -19,7 +19,7 @@ For a list of all changes available with the 2020.1 release, see [2020.1 release
 
 To make your experience more consistent when using Workfront on both the mobile app and the web, any customization of the left panel secondary navigation in the new or existing layout templates is automatically reflected in the mobile app.
 
-To learn more about customizing the left panel, see [Customize the left panel using a Layout Template in the new Workfront experience](https://one.workfront.com/s/article/Customize-the-left-panel-using-a-Layout-Template-in-the-new-Workfront-experience-354734188).
+To learn more about customizing the left panel, see [Customize the left panel using a Layout Template in the new Workfront experience](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 ## Like updates on the mobile app
 

@@ -30,7 +30,7 @@ In the Audit Logs area, you can now track and troubleshoot changes in more areas
 
 For more information, see [Audit logs](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-This feature is now included in the [Admin Fundamentals for the new Workfront experience, Part 2: Project Setup](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) learning path on Workfront One.
+This feature is now included in the [Admin Fundamentals for the new Workfront experience, Part 2: Project Setup](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
 ## For group administrators: Improved controls for moving subgroups and an updated toolbar
 
@@ -131,7 +131,7 @@ Previously, these defaults couldn't be customized, so they were always set as Al
 
 For more information, see [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-This feature is now included in the [Administrator Fundamentals in the new Workfront Experience, Part 3: Control and Interface Experience](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) learning path on Workfront One.
+This feature is now included in the [Administrator Fundamentals in the new Workfront Experience, Part 3: Control and Interface Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
 ## New for administrators: Easily list the reports that are currently using a custom field
 
