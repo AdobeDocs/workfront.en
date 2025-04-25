@@ -12,4 +12,4 @@ exl-id: 36424cd3-61a0-4d19-9071-7d78c8570bfe
 ---
 # File encryption
 
-For information about Adobe Workfront file encryption, see the [Workfront Security home page](https://www.workfront.com/workfront-security). If you need additional information, contact your Account Executive.
+For information about Adobe Workfront file encryption, see the [Workfront Security home page](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html). If you need additional information, contact your Account Executive.
