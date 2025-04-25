@@ -219,4 +219,4 @@ If you have a default subject and message saved in your personal settings, this 
 If you do not have a default subject and message saved in your personal settings, the following will show on the New version page:
 
 * If you notified your reviewers about the previous proof version using the standard email (e.g. no custom subject/message), the Notify people by email option will be selected by default on the New version page. To add a custom message, click the link.
-* If you didn't notify your reviewers by email for the previous proof version (e.g. no standard or custom email), the New version page will not include any message by default. To notify your reviewers of the new version, click the Send a Message link. You can then add a custom subject and message by clicking the Add Custom Message link.
+* If you didn't notify your reviewers about the previous proof version (e.g. no standard or custom email), the New version page will not include any message by default. To notify your reviewers of the new version, click the Send a Message link. You can then add a custom subject and message by clicking the Add Custom Message link.
