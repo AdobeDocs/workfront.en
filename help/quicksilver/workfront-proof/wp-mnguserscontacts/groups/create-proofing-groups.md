@@ -14,7 +14,7 @@ exl-id: c0433621-3988-45f2-9d6b-68ef92b5b7d2
 >
 >This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-A Select or Premium Plan is required to use this feature. For more information about the various plans available, see [[!DNL Workfront] Plans](https://www.workfront.com/plans).
+A Select or Premium Plan is required to use this feature. For more information about the various plans available, see [[!DNL Workfront] Plans](https://business.adobe.com/products/workfront/pricing.html).
 
 You can create groups of users that you can add as reviewers on multiple proofs. This is useful if you send content to the same users regularly.
 

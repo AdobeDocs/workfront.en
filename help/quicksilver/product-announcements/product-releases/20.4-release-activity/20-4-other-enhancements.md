@@ -21,7 +21,7 @@ In the new Workfront experience, the option Switch to Classic appears in the Mai
 
 In Workfront Classic, the option Switch to the new experience appears in the menu that displays when clicking the profile picture in the top-right corner of the Global Navigation Bar.
 
-This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.
+This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) on Workfront One.
 
 ## Improved encryption for Workfront Proof
 
@@ -56,7 +56,7 @@ Also, notice our modern styling now improving the experience of configuring even
 
 For information about configuring email notifications, see [Configure event notifications for everyone in the system](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-This feature is now included in the [Email and in-app notifications learning path](https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-20Y4X000000CaZGUA0) on Workfront One.
+This feature is now included in the [Email and in-app notifications learning path](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) on Workfront One.
 
 ## New API&nbsp;objects that trigger event subscription updates
 

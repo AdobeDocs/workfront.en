@@ -68,7 +68,7 @@ You can configure the following integrations for managing documents:
 
 * [!DNL Workfront Proof]
 
-   Linking proofs from [!DNL Workfront Proof] allows you to make proofs that were originally created within [!DNL Workfront Proof] available within [!DNL Workfront]. For the current plans, a [!UICONTROL Pro] [!DNL Workfront] Plan or higher is required to use this feature. For the new plans, this feature is available with all plans. For more information about the various plans available, see [Workfront Plans](https://www.workfront.com/plans).
+   Linking proofs from [!DNL Workfront Proof] allows you to make proofs that were originally created within [!DNL Workfront Proof] available within [!DNL Workfront]. For the current plans, a [!UICONTROL Pro] [!DNL Workfront] Plan or higher is required to use this feature. For the new plans, this feature is available with all plans. For more information about the various plans available, see [Workfront Plans](https://business.adobe.com/products/workfront/pricing.html).
 
 * [!DNL Microsoft SharePoint]
 
@@ -91,7 +91,7 @@ You can configure the following integrations for managing documents:
 
 * Other document providers (through custom document integrations).
 
-   For the current plans, a [!UICONTROL Pro] [!DNL Workfront] Plan or higher is required to use this feature. For the new plans, this feature is available with all plans. For more information about the various plans available, see [Workfront Plans](https://www.workfront.com/plans).
+   For the current plans, a [!UICONTROL Pro] [!DNL Workfront] Plan or higher is required to use this feature. For the new plans, this feature is available with all plans. For more information about the various plans available, see [Workfront Plans](https://business.adobe.com/products/workfront/pricing.html).
 
 In addition, you can enhance your [!DNL Workfront] document experience with a third-party DAM integrations. Administrators must enable these features in order for users to link the service to their [!DNL Workfront] account.
 
