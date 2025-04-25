@@ -20,7 +20,7 @@ In Setup, you configure a preference to ensure that every new project has a cert
 
 To make sure that new projects always have a status, even if an administrator hides or unlocks the status configured for new projects, the system now assigns the first status in the Status list to all new projects until you configure the new status for new projects once again.
 
-For information about setting the preference for the status of all new projects, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (or if you are using Adobe Workfront Classic, see [Setting Project Preferences](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+For information about setting the preference for the status of all new projects, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (or if you are using Adobe Workfront Classic, see [Setting Project Preferences](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Available in these environments:**
 
@@ -36,7 +36,7 @@ The experience of setting project preferences is now more intuitive and easy to 
 * If you type an invalid number for an option such as "Typical hours per work day," a warning message appears immediately instead of appearing after you click Save.
 * Option labels match corresponding interface text elsewhere in Workfront, such as the Details area and reports.
 
-For information about the Project Preferences area, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (or if you are using Adobe Workfront Classic, see [Setting Project Preferences](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+For information about the Project Preferences area, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (or if you are using Adobe Workfront Classic, see [Setting Project Preferences](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Available in these environments:**
 
@@ -62,11 +62,11 @@ For example, when you move or copy a task with a Must Start On constraint to ano
 
 Prior to this change, the Task Constraint always changes to As Soon As Possible.
 
-For information about moving tasks see, [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md) (or if you are using Adobe Workfront Classic, see [Moving Tasks](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
+For information about moving tasks see, [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md) (or if you are using Adobe Workfront Classic, see [Moving Tasks](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-For information about copying tasks, see [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (or if you are using Adobe Workfront Classic, see [Copy and Duplicate Tasks](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
+For information about copying tasks, see [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (or if you are using Adobe Workfront Classic, see [Copy and Duplicate Tasks](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-For an overview of all Task Constraints, see [Task Constraint overview](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (or if you are using Adobe Workfront Classic, see [Task Constraint Overview](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+For an overview of all Task Constraints, see [Task Constraint overview](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (or if you are using Adobe Workfront Classic, see [Task Constraint Overview](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Available in these environments:**
 

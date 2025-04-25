@@ -58,7 +58,7 @@ For information about filtering in the Workload Balancer, see [Manage filters in
 
 To help you make correct assignment decisions, a new setting now allows you to view the difference of hours between the hours a user is available to work according to their schedule and the hours that they have already been allocated to work (the remaining hours). The new setting is now available in the Workload Balancer.
 
-For information about viewing information in the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (or if you are using Adobe Workfront Classic, see [Navigate the Workload Balancer](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).)
+For information about viewing information in the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (or if you are using Adobe Workfront Classic, see [Navigate the Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/home).)
 
 **Available in these environments:**
 
@@ -70,7 +70,7 @@ To help you understand how tasks will affect the workload of your users before y
 
 Prior to this change, this setting was updating only information in the Assigned Work area of the Balancer.
 
-For information about navigating the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (or if you are using Adobe Workfront Classic, see [Navigate the Workload Balancer](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).). 
+For information about navigating the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (or if you are using Adobe Workfront Classic, see [Navigate the Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/home).). 
 
 **Available in these environments:**
 
@@ -84,7 +84,7 @@ To streamline your experience, a Settings box is now available that displays add
 * Group by Project
 * Display either the Allocated hours or the Remaining hours for your tasks and projects.
 
-For information about viewing information in the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (or if you are using Adobe Workfront Classic, see [Navigate the Workload Balancer](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).).
+For information about viewing information in the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (or if you are using Adobe Workfront Classic, see [Navigate the Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/home).).
 
 **Available in these environments:**
 
@@ -95,7 +95,7 @@ For information about viewing information in the Workload Balancer, see [Navigat
 
 You can now share your people's workload with executives so that they can have context about your staffing needs. For this, you can now share the Workload Balancer by sharing a unique URL to the Workload Balancer with anyone else.
 
-For information about navigating the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (or if you are using Adobe Workfront Classic, see [Navigate the Workload Balancer](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+For information about navigating the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (or if you are using Adobe Workfront Classic, see [Navigate the Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Available in these environments:**
 
@@ -108,7 +108,7 @@ To further help you customize the timeline duration for the Workload Balancer to
 
 Prior to this enhancement, the Workload Balancer always displayed information starting with the current week.
 
-For information about navigating the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (or if you are using Adobe Workfront Classic, see [Navigate the Workload Balancer](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+For information about navigating the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (or if you are using Adobe Workfront Classic, see [Navigate the Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Available in these environments:**
 
@@ -123,11 +123,11 @@ For example, when you move or copy a task with a Must Start On constraint to ano
 
 Prior to this change, the Task Constraint always changes to As Soon As Possible.
 
-For information about moving tasks see, [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md) (or if you are using Adobe Workfront Classic, see [Moving Tasks](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
+For information about moving tasks see, [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md) (or if you are using Adobe Workfront Classic, see [Moving Tasks](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-For information about copying tasks, see [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (or if you are using Adobe Workfront Classic, see [Copy and Duplicate Tasks](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
+For information about copying tasks, see [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (or if you are using Adobe Workfront Classic, see [Copy and Duplicate Tasks](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-For an overview of all Task Constraints, see [Task Constraint overview](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (or if you are using Adobe Workfront Classic, see [Task Constraint Overview](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+For an overview of all Task Constraints, see [Task Constraint overview](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (or if you are using Adobe Workfront Classic, see [Task Constraint Overview](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Available in these environments:**
 
@@ -155,9 +155,9 @@ Custom statuses can be used now in both single-use and system-wide approval proc
 * Create a single-use approval process for an object (project, task, or issue) and base it on statuses that are associated with the group working on that object. This includes any custom statuses associated with the group.
 * Create a global approval process and make it available only for the group or for everyone in the system.
 
-For users with administrative access to approval processes, information about configuring approval processes is available in [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (or if you are using Adobe Workfront Classic, see [Creating Approval Processes](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+For users with administrative access to approval processes, information about configuring approval processes is available in [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (or if you are using Adobe Workfront Classic, see [Creating Approval Processes](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-For users, information about associating approval processes with work items is available in [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (or if you are using Adobe Workfront Classic, see [Associating a New or Existing Approval Process with Work](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+For users, information about associating approval processes with work items is available in [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (or if you are using Adobe Workfront Classic, see [Associating a New or Existing Approval Process with Work](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Available in these environments:**
 

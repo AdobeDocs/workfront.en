@@ -15,7 +15,7 @@ Use the Workload Balancer in Adobe Workfront to assign work to users based on th
 
 The Workload Balancer is available in multiple areas of Adobe Workfront. Navigating it is similar in all areas. 
 
-For more information about where the Workload Balancer is located, see [Locate the Workload Balancer](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
+For more information about where the Workload Balancer is located, see [Locate the Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Access requirements
 
@@ -100,8 +100,8 @@ For more information about viewing information in the Workload Balancer, also se
 
 For information about managing resources using the Workload Balancer, also see the following articles:
 
-* [Overview of assigning work in the Workload Balancer](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer.html?lang=en)
-* [Manage user allocations in the Workload Balancer](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer.html?lang=en)
+* [Overview of assigning work in the Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Manage user allocations in the Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## Navigate the Workload Balancer for multiple projects in the Resourcing area
