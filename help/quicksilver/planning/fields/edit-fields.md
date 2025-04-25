@@ -78,7 +78,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Manage permissions to a workspace <!--<span class="preview">and record type</span>--> </a> </p>  
+   <td>   <p>Manage permissions to a workspace <span class="preview">and record type</span> </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p></td> 
   </tr> 
 <tr> 
@@ -92,6 +92,13 @@ You must have the following access to perform the steps in this article:
 
 +++   
 
+<!--replace the layout template info in the table with this at release: 
+
+
+<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
+
+-->
 
 ## Considerations about editing field settings
 
@@ -115,8 +122,7 @@ You must consider the following before making changes to a field's configuration
     >
     >There is no notification to other users that the field configuration has changed.
     
-* In the Production environment, you cannot edit existing lookup fields. 
-  <span class="preview">In the Preview environment, you can edit existing lookup fields from connected records.</span> 
+* You can edit existing lookup fields from connected records. 
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -160,18 +166,3 @@ You must consider the following before making changes to a field's configuration
 1. (Conditional) For connected record fields, click **Edit lookup fields** and add or remove any of the lookup fields from the connected record type.
 
     For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
-
-   >[!TIP]
-   >
-   >You can add or remove lookup fields from connected records, but you cannot edit the settings of lookup fields.
-
-
-<!-- replace the TIP above with the one below at Preview, and remove this tip altogether after April 10 Prod release:-->
-
-<!--
-   >[!TIP]
-   >
-   >* In the Production environment, you can add or remove lookup fields from connected records, but you cannot edit the settings of lookup fields.
-   >* <span class="preview">In the Preview environment, you can edit the settings of lookup fields.</span>
-
--->
