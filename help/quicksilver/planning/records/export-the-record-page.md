@@ -1,6 +1,6 @@
 ---
 title: Export the Record Page
-description: You can export the record's preview or details page to Word.
+description: You can export a record's preview or details page from Adobe Workfront Planning to a Microsoft Word file.
 feature: Workfront Planning
 role: User
 author: Alina
@@ -9,12 +9,12 @@ exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
 ---
 # Export a record's details
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 
-To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details to a file and share it with them. 
+To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details page to a Microsoft Word file and share it with them. 
 
 ## Access requirements
 
@@ -72,7 +72,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>View or higher permissions to a workspace <!--<span class="preview">and record type</span>--> </a> </p>  
+   <td>   <p>View or higher permissions to a workspace <span class="preview">and record type</span></a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 <tr> 
@@ -85,6 +85,14 @@ You must have the following access to perform the steps in this article:
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
+
+<!--replace the layout template info in the table with this at release: 
+
+
+<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
+
+-->
 
 ## Considerations about exporting a record's details:
 

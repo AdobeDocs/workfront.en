@@ -13,6 +13,10 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2025 Q3 Release {#release-25-q3}
+      * [2025 Q3 Release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
+      * [Document management enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
+      * [Look-and-feel updates during the 2025 Q3 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md)
     * 2025 Q2 Release {#release-25-q2}
       * [2025 Q2 Release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
       * [2025 Q2 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
@@ -190,6 +194,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Planning release activity{#planning-release-activity}
       * [Adobe Workfront Planning release activity](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+      * [Third Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
       * [Second Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
       * [First Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
       * [Fourth Quarter 2024 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
@@ -897,13 +902,13 @@ feature-set: Workfront
     * [Notifications: Miscellaneous information](workfront-basics/using-notifications/notifications-misc-information.md)
     * [Notifications: Requests I have made](workfront-basics/using-notifications/notifications-requests-i-have-made.md)
   * Grant and request permissions to objects {#grant-request-object-permissions}
-    * [Grant and request permissions to objects](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
+    * [Grant and request permissions to objects: article index](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
     * [Overview of sharing permissions on objects](workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
     * [Grant access to objects in the Home area](workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
     * [Request access to objects](workfront-basics/grant-and-request-access-to-objects/request-access.md)
     * [View inherited permissions on objects](workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
     * [Share an object](workfront-basics/grant-and-request-access-to-objects/share-an-object.md)
-    * [Share a project in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+    * [Share a project](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
     * [Share a task](workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
     * [Share an issue](workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
     * [Share a template](workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
@@ -1489,7 +1494,7 @@ feature-set: Workfront
   * Reports {#reports}
     * [Reports](reports-and-dashboards/reports/reports-overview.md)
     * Reporting basics {#report-basics}
-      * [Reporting basics](reports-and-dashboards/reports/reporting/reporting-basics.md)
+      * [Reporting basics: article index](reports-and-dashboards/reports/reporting/reporting-basics.md)
       * [Get started with reports](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
       * [Save default reports as new reports](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
     * Reporting elements {#report-elements}
@@ -1523,7 +1528,7 @@ feature-set: Workfront
       * [Run a report](reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)
       * [Create a matrix report](reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
       * [Create a copy of a report](reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)
-      * [Filter reports by time frames](reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
+      * [Filter reports by timeframes](reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
       * [Add a prompt to a report](reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
       * [Add a chart to a report](reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)
       * [Report delivery overview](reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)
@@ -1780,7 +1785,7 @@ feature-set: Workfront
   * Asset and document review and approval {#document-reviews-and-approvals}
     * [Asset and document review and approval: article index](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
     * [Available functionality for asset and document review and approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
-    * [New document approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+    * [Unified Approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
     * [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
     * Set up and manage asset and document approvals {#manage-asset-review-and-approval}
       * [Set up and manage asset and document approvals: article index](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
@@ -1788,7 +1793,7 @@ feature-set: Workfront
       * [Add additional reviewers or approvers to an asset or document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Remove approvers or reviewers from an asset or document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [Create an Approval Template for assets and documents](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-      * [Use new document approvals and proofing together](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
+      * [Use Unified Approvals and proofing together](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
       * [Upload a new document version and request an approval](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
       * [Create a report dashboard for review and approvals](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
     * Review and approve assets and documents {#review-and-approve-documents}
@@ -1909,6 +1914,7 @@ feature-set: Workfront
       * [FAQ: proofing within Adobe Workfront - US to EMEA migration](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
       * [Document name changed after upload and contains an invalid character](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
       * [Proof a PowerPoint with an embedded video](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
+      * [Proof versions cannot be downloaded or previewed when an interactive proof is added as a new version](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
   * Tips, tricks, and troubleshooting for approvals {#ttt-approvals}
     * [Tips, tricks, and troubleshooting for approvals: article index](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
     * [View the number of proof and document decisions for all users](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
@@ -2028,6 +2034,7 @@ feature-set: Workfront
     * [Record types overview](planning/architecture/overview-of-record-types.md)
     * [Create record types](planning/architecture/create-record-types.md)
     * [Create Record Types by importing information from a CSV or Excel file](planning/architecture/import-file-to-create-record-types.md)
+    * [Create record types globally](planning/architecture/create-record-types-globally.md)
     * [Connect record types overview](planning/architecture/connect-record-types-overview.md)
     * [Connect record types](planning/architecture/connect-record-types.md)
     * [Edit record types](planning/architecture/edit-record-types.md)
@@ -2523,7 +2530,8 @@ feature-set: Workfront
     * [Code Samples](proofhq-api/general/code-samples.md)
     * [SOAP API FAQs](proofhq-api/general/soap-api-faqs.md)
 * [Hidden test document](hidden-test.md)
-* [First Quarter 2025 release overview - test](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/release-overview-test.md)
+* App Builder {#app-builder}
+  * [Create custom applications for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
 
 
 <!--
