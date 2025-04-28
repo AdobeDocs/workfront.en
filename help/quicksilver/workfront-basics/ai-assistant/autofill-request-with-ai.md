@@ -1,11 +1,12 @@
 ---
-title: 'Auto-fill a request using AI'
+title: Auto-fill a request using AI
 content-type: reference
 description: You can use AI to auto-fill request fields.
 author: Becky
 feature: Get Started with Workfront
 hide: yes
 hidefromtoc: yes
+exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
 ---
 # Auto-fill a request using AI
 
@@ -67,5 +68,4 @@ To use suggestions based on a pasted text prompt:
 
    Or
 
-   Select **Accept all** or **Reject all** at the top of the page to accept or reject all suggestions. 
-
+   Select **Accept all** or **Reject all** at the top of the page to accept or reject all suggestions.
