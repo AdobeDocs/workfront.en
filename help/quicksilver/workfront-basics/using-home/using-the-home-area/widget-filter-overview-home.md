@@ -233,6 +233,44 @@ You can use the following filters in the My Issues widget:
   </tr>
 </table>
 
+## My Requests
+
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">All</td> 
+      <td>Displays all submitted requests, regardless of status or who submitted them.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Open</td> 
+      <td> <p>Displays all submitted requests 
+      <ul>
+      <li>That are currently open, regardless of who submitted them. Only requests you have at least permissions to view display here if you did not submit them yourself.</li>
+      <li>Without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the Open subtab.</li> 
+      </ul>
+      <p><b>NOTE</b> 
+      Requests that are in any status that does not equate with Closed are considered open.</p> 
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">My Requests</td> 
+      <td>Displays requests you submitted regardless of their status. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">My Open Requests</td> 
+      <td> <p>Displays requests 
+      <ul>
+      <li>That you submitted and are still open. </li> 
+      <li>Without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the My Open Requests subtab.&nbsp;</li> 
+      </ul>
+      <p><b>NOTE</b> 
+      Requests that are not in a status that equates with Closed are considered open.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
 ## My Work
 
 You can use the following filters in the My Work widget:
