@@ -15,9 +15,9 @@ You can approve or reject these submissions before submitting the request.
 
 Auto-fill does not overwrite any fields that you have already filled in.
 
-## Suggest field values based on previous requests
+## Get suggestions when filling out form 
 
-Auto-fill can suggest field values based on previous requests. As you enter values into the request fields, Workfront compares those values with previous requests. If the entered value closely correlates with other field values in similar contexts in previous requests, Workfront suggests those values.
+Auto-fill can suggest field values while you are filling out the form. As you enter values into the request fields, Workfront compares those values with previous requests. If the entered value closely correlates with other field values in similar contexts in previous requests, Workfront suggests those values.
 
 For example, if a clinic always uses the same billing code, Workfront would suggest that billing code in the appropriate field when the clinic name is entered.
 
@@ -37,11 +37,13 @@ To use suggestions based on previous requests:
 
    Select **Accept all** or **Reject all** at the top of the page to accept or reject all suggestions. 
 
-## Suggest field values from a text prompt
+## Get suggestions from a text prompt
 
 Auto-fill can suggest field values based on text such as emails. You paste in a text block, and Workfront processed the text to suggest field values based on the text.
 
 For example, If the email includes "This is due on June 1," and the request form has a field for due date, Workfront would suggest June 1 for that field value.
+
+This type of suggestion also checks previous requests for similar contexts. For example if the prompt mentions that the request is for a certain client, Workfront can locate and enter the billing address for that client automatically, based on previous requests.
 
 You can paste in text to be applied to the entire form, or to a single section of the form.
 
@@ -54,7 +56,6 @@ To use suggestions based on a pasted text prompt:
 1. To apply the text prompt to the entire form, click **Auto-fill with AI** in the upper-right corner of the screen.
 
    Or
-
 
    To apply the text prompt for a single section, click the AI icon ![AI icon](assets/request-prompt-icon.png) next to the section name.
 
