@@ -16,7 +16,7 @@ This page lists interface updates we are making throughout Adobe Workfront to im
 
 For all other changes to Adobe Workfront, see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
-## Workfront navigation and search
+## Navigation and search
 
 ### Interface update for Advanced Search
 
@@ -319,3 +319,30 @@ We have added a new Edit Text Mode button and editing modal to the following are
 * Groupings
 
 +++
+
+## Users 
+
+### Updated document share page for external users
+
+**Preview release: April 10, 2024; Production release: Starting the week of April 17, 2024**
+
+We have updated the document share page for external users with a more modern design that is consistent with other areas of Workfront.
+
+External users can no longer access _My Settings_ from this page. 
+
+<!--
+
+### Updated external user registration page
+
+**Preview release: April 24, 2024; Production release: To be announced**
+
+We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+
+
+## Licenses
+
+### Updated license agreement page
+
+**Preview release: tbd; Production release: To be announced**
+
+We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.-->
