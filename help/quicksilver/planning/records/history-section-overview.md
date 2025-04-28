@@ -105,7 +105,7 @@ You must have the following access to perform the steps in this article:
    <p><b>NOTE</b></p>
    <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
 
---> 
+-->
 
 ## Locate the History section of a record
 

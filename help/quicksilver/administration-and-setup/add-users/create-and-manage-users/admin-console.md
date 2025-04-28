@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe administrator rights</td> 
-   <td> <p>You must be a Product Configuration Administrator of Adobe products for your organization</p> </td> 
+   <td> <p>You must be a Product Profile Administrator of Adobe products for your organization</p> </td> 
   </tr> 
  </tbody> 
 </table>

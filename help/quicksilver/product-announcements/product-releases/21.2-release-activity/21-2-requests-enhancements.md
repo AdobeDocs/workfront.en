@@ -44,7 +44,7 @@ As we continue to incorporate your feedback about creating requests in the new W
 
 For information about creating new requests, see [Create and submit Adobe Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.
+This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) learning path on Workfront One.
 
 ## Improvements to the requests workflow
 
@@ -58,7 +58,7 @@ As we continue to listen to and incorporate your feedback, we have added several
 * Sorting the Submitted requests list by one of the columns is now preserved when you navigate away from the page. For more information, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 * When creating a new request, the Submit and Cancel buttons are now located at the bottom of the New request form. For more information, see [Create and submit Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.
+This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) learning path on Workfront One.
 
 ## Open Summary Panel in the Submitted section of the Requests area
 
@@ -70,7 +70,7 @@ To make your experience consistent across all areas of Adobe Workfront, we have 
 
 For information about the submitted requests, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.
+This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) learning path on Workfront One.
 
 ## Bring back removed New Issue Fields on a New Request form
 
@@ -98,7 +98,7 @@ Ability to share a link to the request queue, topic group, or queue topic as you
 
 For information about submitting requests, see [Create and submit Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.
+This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) learning path on Workfront One.
 
 ## Share a link to a request queue when submitting a request
 
@@ -112,4 +112,4 @@ Before you submit a new request, you can copy a link to the request queue, topic
 
 For information about sharing a link to a request queue when submitting a request, see [Share a link to a request queue](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
-This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.
+This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) learning path on Workfront One.

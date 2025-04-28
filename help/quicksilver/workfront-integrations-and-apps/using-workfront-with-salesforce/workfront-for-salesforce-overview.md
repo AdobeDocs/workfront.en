@@ -10,7 +10,7 @@ exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
 ---
 # [!DNL Adobe Workfront for Salesforce] overview
 
-A [!UICONTROL Pro] [!DNL Workfront] Plan is required to use this feature. For more information about the various plans available, see [[!DNL Workfront] Plans.](https://www.workfront.com/plans)
+A [!UICONTROL Pro] [!DNL Workfront] Plan is required to use this feature. For more information about the various plans available, see [[!DNL Workfront] Plans.](https://business.adobe.com/products/workfront/pricing.html)
 
 You can install [!DNL Adobe Workfront for Salesforce] to allow your [!DNL Salesforce] users to submit [!DNL Workfront] requests and automatically create projects without ever leaving [!DNL Salesforce].
 

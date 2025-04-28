@@ -89,6 +89,14 @@ You must have the following access to perform the steps in this article:
 
 +++     
 
+<!--replace the layout template info in the table with this at release: 
+
+
+<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
+
+--> 
+
 ## Manage a timeline view {#manage-a-timeline-view}
 
 <!--insert screen shot of timeline view-->
@@ -297,7 +305,7 @@ Update the timeline view settings to indicate what and how information displays 
     >
     >* <span class="preview">The Truncate bar details setting is not available when displaying the timeline view in Compact mode, and it is not available in the Calendar view.</span>
     >
-    >* <span class="preview">If you break down the timeline view to display connected objects in the timeline, the Truncate bar details setting applies only to the main record type. It does not apply to the connected record bars.</span> 
+    >* <span class="preview">If you break down the timeline view to display connected objects, the Truncate bar details setting applies only to the main record type. It does not apply to the connected record bars.</span> 
 
 
 1. Click **Color** in the left panel, to customize the colors of the records and groupings in the timeline. 
