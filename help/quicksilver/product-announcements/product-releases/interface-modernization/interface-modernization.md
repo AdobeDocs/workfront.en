@@ -328,6 +328,8 @@ We have added a new Edit Text Mode button and editing modal to the following are
 
 We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
 
+<!--
+
 ### Updated document share page for external users
 
 **Preview release: April 24, 2024; Production release: To be announced**
@@ -336,7 +338,7 @@ We have updated the document share page for external users with a more modern de
 
 External users can no longer access _My Settings_ from this page. 
 
-<!--## Licenses
+## Licenses
 
 ### Updated license agreement page
 
