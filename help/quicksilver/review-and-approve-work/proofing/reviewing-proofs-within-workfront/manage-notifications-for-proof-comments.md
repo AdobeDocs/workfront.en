@@ -9,6 +9,8 @@ exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
 ---
 # Manage notifications for proof comments and decisions
 
+<!-- Audited: 4/2025 -->
+
 When you work on a proof, whether you are an Adobe Workfront user or an external collaborator, you can specify which email notifications you want to receive about comments and decisions made on the proof. For more information, see [Notifications for proof comments and decisions overview](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
 >[!NOTE]

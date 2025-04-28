@@ -346,8 +346,8 @@ For information on which API versions are currently supported, see [API versioni
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Second Quarter 2025 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+For information about the maintenance updates made during the Second Quarter 2025 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Training updates
 
-Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).

@@ -17,7 +17,7 @@ exl-id: 47092717-3895-40a3-9db1-0009638e2544
 
 ## How do I open a new [!DNL Workfront Proof] account?
 
-To open a new account, go to the [trial signup page](https://www.proofhq.com/html/free-trial.html) and open a trial account. A member of our team will then get in touch with you to help you get started with [!DNL Workfront Proof].
+To open a new account, go to the [trial signup page](https://business.adobe.com/products/workfront/proofing-approvals.html) and open a trial account. A member of our team will then get in touch with you to help you get started with [!DNL Workfront Proof].
 
 If you already know the system and want to sign up to a paid plan, please go to *[!UICONTROL Settings]* *>* *[!UICONTROL Billing]* and upgrade your account to one of our paid plans.
 

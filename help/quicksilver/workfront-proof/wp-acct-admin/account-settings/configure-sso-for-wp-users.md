@@ -88,7 +88,7 @@ Single Sign-On is a Select and Premium feature so Single Sign-On can only be ena
    Here you will have two methods (5) of configuration:
 
 1. **Inherited:** SSO with the configuration taken from your hub account.
-   If a user accesses [!DNL Workfront Proof] through the **default login page** ([https://www.proofhq.com/login](https://www.proofhq.com/login)) there will be **two levels of authorization**: First a user is asked to log in using [!DNL Workfront Proof] access data (email and password); then the user is transferred through an SSO window to the SSO login page.
+   If a user accesses [!DNL Workfront Proof] through the **default login page** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)) there will be **two levels of authorization**: First a user is asked to log in using [!DNL Workfront Proof] access data (email and password); then the user is transferred through an SSO window to the SSO login page.
    Therefore, with SSO service enabled, we recommend to log in through your own [!DNL Workfront Proof] sub-domain/domain.
 
    >[!NOTE]
@@ -137,7 +137,7 @@ If Manual SSO configuration has been chosen for a satellite account (1), you nee
    With your Single Sign-On enabled, your sub-domain login URL (e.g. yourcompany.proofhq.com/login) displays a transfer screen (2) that takes you directly to your SSO login page.
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
-1. If a user accesses [!DNL Workfront Proof] through the **default log in page** ([https://www.proofhq.com/login](https://www.proofhq.com/login)) there will be **two levels of authorization**. First a user is asked to log in using [!DNL Workfront Proof] access data (email and password). Then, the user is transferred through an SSO window (2) to the SSO login page.\
+1. If a user accesses [!DNL Workfront Proof] through the **default log in page** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)) there will be **two levels of authorization**. First a user is asked to log in using [!DNL Workfront Proof] access data (email and password). Then, the user is transferred through an SSO window (2) to the SSO login page.\
    Therefore, with SSO service enabled, we recommend to log in through your own [!DNL Workfront Proof] sub-domain/domain.
 
 1. At this time, when Single Sign-On is enabled on your Workfront Proof account, you will not be able to log in to the iPhone app with those credentials.

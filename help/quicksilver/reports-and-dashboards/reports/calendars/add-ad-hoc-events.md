@@ -9,8 +9,6 @@ exl-id: 4145119e-ef2c-4f0d-89e7-86669ca5b127
 ---
 # Add ad hoc events to a calendar report
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span> 
-
 You can add ad hoc events to a calendar. An ad hoc event simply serves as a reminder in your calendar and is not associated with a project, task, or issue.
 
 ## Access requirements
@@ -50,28 +48,8 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Add ad hoc events to a calendar report in Production
 
-1. In the calendar, go to the date to which you want to add an ad-hoc event, then click the [!UICONTROL starting] date for your event.
-1. Enter the event name and, if desired, select a color for the event.
-1. (Conditional) If your ad-hoc event takes place over several days, select **[!UICONTROL This will span multiple days]**, then select the ending date from the pop-up calendar.
-
-   ![Ad hoc calendar event](assets/calendar-report---span-multiple-days-350x266.png)
-
-1. Click **[!UICONTROL Save]**.
-1. (Optional) To modify an ad-hoc event:
-
-   1. Click the event on the calendar to open the details page for the event.
-   1. Click the edit icon (pencil), edit the event, then click **[!UICONTROL Save]**.
-
-1. (Optional) To delete an ad-hoc event:
-
-   1. Click the event on the calendar to open the details page for the event.
-   1. Click the trash can icon, then click **[!UICONTROL Yes, Delete it]**.
-
-<div class="preview">
-
-## Add ad hoc events to a calendar report in Preview
+## Add ad hoc events to a calendar report
 
 1. Go to the Calendar you want to add an ad-hoc event to. 
 1. Click **Add** at the top of the calendar. 
@@ -79,5 +57,4 @@ For more detail about the information in this table, see [Access requirements in
 1. Choose a color for the event.
 1. Choose if the event should span multiple days.
 1. Enter or choose a date using the Calendar icon. 
-
-</div>
+   ![add ad-hoc event](assets/add-ad-hoc.png)

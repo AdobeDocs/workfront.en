@@ -15,7 +15,7 @@ exl-id: eb1f6883-6209-4a55-b181-67af4b496ca0
 >
 >This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-An [!UICONTROL Enterprise] [!DNL Workfront] Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans](https://www.workfront.com/plans).
+An [!UICONTROL Enterprise] [!DNL Workfront] Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans](https://business.adobe.com/products/workfront/pricing.html).
 
 Single Sign-On (SSO) allows your users to log into [!DNL Workfront Proof] using your organization's existing username and password.
 

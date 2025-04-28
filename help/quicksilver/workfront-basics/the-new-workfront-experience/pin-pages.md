@@ -8,6 +8,8 @@ exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
 ---
 # Pin pages to customize your workspace
 
+<!-- Audited: 4/2025 -->
+
 You can pin your most important work in [!DNL Adobe Workfront] for increased visibility, better organization, and quicker access. Pinned pages are always accessible from the top of any page in Workfront.
 
 You might be assigned to a layout template that has pages already pinned (as described in [Customize pinned pages using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)). These predefined pins cannot be renamed or removed. Any pages you pin display to the right of the predefined pins.
@@ -47,6 +49,8 @@ For more detail about the information in this table, see [Access requirements in
 1. Navigate to the page you want to pin. This can be any work item, such as a project, task, request queue, etc.
 
 1. In the upper-left corner of the page, click **[!UICONTROL Pin current page]**. The pinned page is now accessible from the top of any page in [!DNL Workfront].
+
+   ![Pin current page](assets/pin-current-page-button.png)
 
 ## Access a pinned page
 

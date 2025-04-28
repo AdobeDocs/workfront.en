@@ -37,6 +37,6 @@ The toolbars on the following lists and reports now have a modern look and feel,
 
 >[!NOTE]
 >
->This change was updated in Production on May 23, 2022. See the [Maintenance Update on May 26, 2022 for more information](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022). 
+>This change was updated in Production on May 23, 2022. See the [Maintenance Update on May 26, 2022 for more information](https://experienceleague.adobe.com/en/docs/workfront/using/home). 
 
 We have updated the breadcrumb separators in all areas where breadcrumbs are available. Now, the objects in the breadcrumbs are separated by pipes (|). Prior to this update, they were separated by forward slashes (/).

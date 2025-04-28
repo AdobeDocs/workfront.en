@@ -68,7 +68,7 @@ The [!DNL Workfront for AEM Assets connector] allows your organization to do the
 
 Before you can install the [!DNL Workfront] connector for [!UICONTROL AEM Assets], ensure the following prerequisites are met:
 
-* [!UICONTROL AEM Assets] is installed and configured, version 6.5 or later. For information about installing [!UICONTROL AEM Assets], see the [[!DNL Adobe Experience Manager] documentation](https://experienceleague.adobe.com/docs/experience-manager.html).
+* [!UICONTROL AEM Assets] is installed and configured, version 6.5 or later. For information about installing [!UICONTROL AEM Assets], see the [[!DNL Adobe Experience Manager] documentation](https://experienceleague.adobe.com/en/docs/experience-manager).
 * (Conditional) If your firewall rules don't allow traffic as expected, add your cluster's IP address and/or domain to your allowlist. For more information, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Install the [!DNL Workfront for AEM Assets] connector package {#install-the-workfront-for-aem-assets-connector-package}
@@ -122,7 +122,7 @@ Before you begin, you must enable permissions for workfront-service:
 1. On the right side of the screen, select **[!UICONTROL Add ACE]** to create new entries.
 1. In the &#x200B;**[!UICONTROL Add New Entry]**&#x200B; window, select the checkbox icon in the **[!UICONTROL Path]**&#x200B; field and choose the folder: */conf*
 1. In the **Privileges** field, enter: *jcr:read*
-1. In the top-right corner, select **[!UICONTROL Add]**&#x200B;.
+1. In the top-right corner, select **Add**.
 1. (Optional) Repeat the steps above to create more entries.
 
 ### Integrate AEM with [!DNL Workfront] {#integrate-aem-with-workfront}

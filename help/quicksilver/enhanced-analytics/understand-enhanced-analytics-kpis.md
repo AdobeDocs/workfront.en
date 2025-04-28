@@ -16,7 +16,7 @@ exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
 
 
 A Business plan or higher is required to use this feature.  
-For more information about the various plans available, see [Adobe Workfront Plans](https://www.workfront.com/plans).
+For more information about the various plans available, see [Adobe Workfront Plans](https://business.adobe.com/products/workfront/pricing.html).
 
 At the top of the screen in the Enhanced analytics area, 4 key performance indicators (KPIs) display. These metrics allow you to quickly understand how long projects are taking, how big the projects are, and how many projects are being completed within a specific time frame. These numbers are not limited to the 50-project maximum that displays for the visualizations on this page. Instead, this data is based on all projects that apply to any set filters, and these numbers adjust if you change the selected date range or any of the filters.
 
