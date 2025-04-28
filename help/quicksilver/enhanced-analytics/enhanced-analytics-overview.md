@@ -28,7 +28,7 @@ Enhanced analytics can help you identify:
 
 ![Analytics](assets/nwe-full-screen-analytics-350x222.png)
 
-To see use cases or learn more about managing current work and planning for future work with Enhanced analytics, see [Enhanced analytics Learning Paths](https://one.workfront.com/s/enhanced-analytics-program).
+To see use cases or learn more about managing current work and planning for future work with Enhanced analytics, see [Enhanced analytics Learning Paths](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Prerequisites
 
@@ -36,11 +36,11 @@ To access the Enhanced analytics area, you must:
 
 * Have a Business or Enterprise plan.
 
-  For more information, see [Workfront plans](https://www.workfront.com/plans).
+  For more information, see [Workfront plans](https://business.adobe.com/products/workfront/pricing.html).
 
 * Have your Workfront administrator add Enhanced analytics to your layout template.
 
-  For more information, see [Enhanced Analytics: Adding analytics to layout templates](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
+  For more information, see [Enhanced Analytics: Adding analytics to layout templates](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 To see information for projects and tasks, you must:
 

@@ -261,7 +261,7 @@ For information about the maintenance updates made during the 2020.1 release, se
 
 Starting on May 20, 2020, Workfront will begin to make functionality available in the Preview environment on a weekly basis. Prior to this change, functionality was typically released to the Preview environment every two weeks.
 
-For more information, see [Change in Workfront preview release cadence FAQ](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+For more information, see [Change in Workfront preview release cadence FAQ](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### Adding additional domains to the allowlist required for accessing Workfront {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 
@@ -276,7 +276,7 @@ For more information, see the [Configure your firewall's allowlist](../../../adm
 
 With Workfront One, you'll discover the most important content, resources, and news from Workfront —all in one place, with one login. We've unified the Experience, Community, and Training sites making it easier to find what you're looking for.
 
-[Learn more about Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Learn more about Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### 2020.1 Release Webinar {#2020-1-release-webinar}
 

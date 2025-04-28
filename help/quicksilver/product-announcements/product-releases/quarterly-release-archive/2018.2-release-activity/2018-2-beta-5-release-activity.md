@@ -149,7 +149,7 @@ Prior to this improvement, the neighboring column to the right of the resized co
 
 For information about resizing the reordering columns in lists, see [Modify column width and order](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-To participate in our beta testing program for the current list improvements, see [New Lists Study.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&tab=digestviewer&ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) (Login required)
+To participate in our beta testing program for the current list improvements, see [New Lists Study.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (Login required)
 
 ## Icon Support for the New Project Lists {#icon-support-for-the-new-project-lists}
 

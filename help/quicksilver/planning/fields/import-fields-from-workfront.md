@@ -91,6 +91,14 @@ You must have the following access to perform the steps in this article:
 
 +++   
 
+<!--replace the layout template info in the table with this at release: 
+
+
+<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
+
+-->
+
 ## Considerations about importing fields from Workfront
 
 * You can import native or custom Workfront fields to a record type in Workfront Planning. 

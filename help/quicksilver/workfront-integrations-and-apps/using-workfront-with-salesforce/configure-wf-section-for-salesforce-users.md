@@ -9,7 +9,7 @@ exl-id: 81481813-74db-4408-8c85-c3b5b844f932
 ---
 # Configure the [!DNL Adobe Workfront] section for [!DNL Salesforce] users
 
-A [!UICONTROL Pro] [!DNL Workfront] Plan is required to use this feature. For more information about the various plans available, see [[!DNL Workfront] Plans.](https://www.workfront.com/plans)
+A [!UICONTROL Pro] [!DNL Workfront] Plan is required to use this feature. For more information about the various plans available, see [[!DNL Workfront] Plans.](https://business.adobe.com/products/workfront/pricing.html)
 
 After you install [!DNL Adobe Workfront] for [!DNL Salesforce] as a [!DNL Workfront] administrator, you can make it available to your users by adding it in a new section to their [!UICONTROL Opportunity] and [!UICONTROL Account]
  page layouts in [!UICONTROL Salesforce]. 
