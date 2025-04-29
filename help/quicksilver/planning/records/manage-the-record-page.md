@@ -275,13 +275,23 @@ In the Production environment, the information from the connected records or obj
 
 Consider the following when adding a Connection view to a record's page: 
 
-* You can add a Connection view page to a record's page after you connected record or object types to the record type.
+* You can add a Connection view page to a record's page after you connected record or object types to the record type from the table view of a record type.
 
 * You cannot add a Connection view page to a record's preview area.
 
-* Connection view pages display one connected record type page or connected object type from another application in a table view.
+* Connection view pages display the connected objects or records from one object or record type in a table view.
 
-* After you add a Connection view page to a record's page, the page tab is visible from the record's preview area. You must go to the full page to see the table view for the connected record. <!--this might have changed? check and take disclaimer out--> 
+* After you add a Connection view page to a record's page, the page tab is visible from the record's preview area, but it is blank. You must go to the full page to see the table view for the connected record. <!--this might have changed? check and take disclaimer out--> 
+
+* You can add Connection view pages for the following connected record or object types:
+
+   * Workfront Planning record types
+   * Workfront projects, programs, portfolios, groups, or companies. You can view the connected Workfront objects even when you do not have permissions to access them in Workfront. 
+
+   >[!NOTE]
+   >
+   >   You cannot add a Connection view page for connected AEM Assets records.
+
 
 To add a Connection view page:
 
@@ -325,6 +335,8 @@ To add a Connection view page:
       * Delete. Delete is the only option available when you select more than one record. 
 
       For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+
+   * Inline edit any of the records in the table on the Connection view page. Workfront objects display in a read-only table view and you cannot edit them. 
 
    </div>-->
 
