@@ -107,6 +107,7 @@ You must have the following access to perform the steps in this article:
 
 * For general information about sharing objects in Workfront Planning, also see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
 * You can share workspaces with users, teams, roles, groups, or companies inside your organization.
+* In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. 
 * You cannot share workspaces with users outside of your organization. 
 * When you share a workspace, all record types, records, and fields associated with the workspaces are also shared.
 * When you share a workspace, views are not shared. You must share views separately.

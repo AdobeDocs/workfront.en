@@ -154,6 +154,12 @@ You can share views you created or views you have Manage permissions to with use
 1. (Optional) In the **Who has access** area, select from the following options: 
 
    * **Only invited people can access**: You must specify users, groups, team, company, or job role that you want to share the view with. This is the default option.
+
+      >[!NOTE]
+      >
+      >   In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console.
+
+
    * **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. 
 
 1. In the **Grant access to this view** field, start typing the name of a user, a group, team, company, or job role then click it when it displays in the list.  

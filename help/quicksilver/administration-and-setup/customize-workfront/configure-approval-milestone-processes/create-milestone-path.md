@@ -130,7 +130,7 @@ For more information on how you can associate a milestone path with a project an
    The milestone is deleted and cannot be recovered. Any project information associated with the milestone and any task information associated with the milestone paths is also deleted. 
 
 
-## View milestone path details in a report
+## View milestone path details in a project report
 
 You can view the details of a milestone path in a project report. 
 
