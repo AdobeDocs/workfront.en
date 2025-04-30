@@ -31,7 +31,7 @@ You can now edit records in the Connected records page of a record. With this up
 
 Prior to this enhancement, the table of the Connection view page was read-only for record connections.  
 
-For information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).
+For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Planning area visible by default in the Main Menu for Standard-license  users 
 
