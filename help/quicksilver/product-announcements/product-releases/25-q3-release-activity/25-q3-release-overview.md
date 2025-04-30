@@ -61,6 +61,29 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> 
     
+### Reporting enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">User wildcards no longer return results with a null value when filtering </a><p></p>
+            <p>We have updated the user wildcard behavior to exclude null value when filtering a report. This change helps the filter produce more accurate results, rather than returning results that do not have a user configured correctly (a null result). </p>
+        </td>
+        <td>April 30, 2025</td>
+        <td>May 15, 2025</td>
+        <td>July 17, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+    
 ### Update and notification enhancements
 
 <table style="table-layout:auto">
