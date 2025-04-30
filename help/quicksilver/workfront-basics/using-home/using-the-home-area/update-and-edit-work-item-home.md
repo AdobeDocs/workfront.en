@@ -126,7 +126,7 @@ You can provide updates on any work item in the [!UICONTROL My Work] widget:
 
 1. Click **Reply**.
 
-   ![REply to comment](assets/reply-to-comment-in-mentions-widget.png)
+   ![Reply to comment](assets/reply-to-comment-in-mentions-widget.png)
 
 1. Begin typing your comment.
 1. (Optional) In the **Tag people** box, start typing the name of a user or a team that you would like to include in this comment, then select it when it displays in the list.

@@ -110,12 +110,16 @@ You must have the following access to access Workfront Planning:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning option  in the following areas:</p>
+   <td> <div class="preview">
+<p>Standard users and System Administrators have the Planning areas enabled by default.</p>
+<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
    <ul><li>Main Menu</li>
    <li>Left panel of projects, portfolios, and programs</li>
-   <li>Landing page</li>
-   <li>Pins</li></ul>
-   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p> 
+   </ul>
+   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
+   </div>
+   <p><b>NOTE</b></p>
+   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
 </td>
   </tr>
  </tbody>
@@ -124,20 +128,9 @@ You must have the following access to access Workfront Planning:
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
 
 
-<!--replace the layout template info in the table with this at release: 
 
-<div class="preview">
-<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
-   <ul><li>Main Menu</li>
-   <li>Left panel of projects, portfolios, and programs</li>
-   <li>Landing page</li>
-   <li>Pins</li></ul>
-   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
-   <p><b>NOTE</b></p>
-   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
 
--->
+
 
 ## Share the Planning area using a layout template
 
@@ -150,7 +143,16 @@ After your organization has purchased an additional Workfront Planning license, 
 * Left panel for projects, portfolios, and programs
 * Pins
 
-To add Workfront Planning areas to your Workfront instance: 
+<div class="preview">
+
+Standard users and System Administrators have the Planning areas enabled by default in the following areas:
+
+* Main Menu
+* Left panel of projects, portfolios, or programs
+
+</div>
+
+To add <span class="preview"> or remove </span> Workfront Planning areas from users of your Workfront instance: 
 
 1. Log in to **Workfront** as a Workfront administrator.  
 
