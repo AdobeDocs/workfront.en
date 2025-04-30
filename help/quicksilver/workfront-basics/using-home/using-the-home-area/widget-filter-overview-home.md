@@ -14,6 +14,7 @@ You can use filters on the following widgets to find and organize work:
 * [My Projects](#my-projects)
 * [My Tasks](#my-tasks)
 * [My Issues](#my-issues)
+* [My Requests](#my-requests)
 * [My Work](#my-work)
 * [My Approvals](#my-approvals)
 
