@@ -301,6 +301,15 @@ You can reference a collection of objects in the filter of a report, to filter f
 
 For example, you can filter for task or issue information in a project report by using a reference to the attributes of tasks or issues on the project in the filter statement.
 
+>[!NOTE]
+>
+>When applied to fields that contain multiple values (such as a collection of notes within a project), the filter determines inclusion as follows:
+>
+>* If all items in a collection contain the specified value, the entire record is excluded from the results.
+>* If at least one item in the collection does not contain the specified value, the record remains in the results.
+
+
+
 To add a reference to a collection in a report filter:
 
 1. Click the **Main** menu ![Main Menu icon](assets/main-menu-icon.png), then click **Reports**.
