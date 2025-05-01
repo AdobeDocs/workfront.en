@@ -235,10 +235,9 @@ This article describes how you can update projects, tasks, or issues. Updating m
 1. Click  **Updates** in the left panel. 
    The **Comments** tab is selected by default.
 
-1. <div class="preview">Start entering a comment in the **New comment** box.
+1. <span class="preview">Start entering a comment in the **New comment** box.</span>
 
-   ![New comment box](assets/comment-box-all-tabs.png)
-   </div>
+   <span class="preview">![New comment box](assets/comment-box-all-tabs.png)</span>
    
    >[!TIP]
    >

@@ -53,7 +53,7 @@ You must have the following:
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
    <p>Any</p> 
-  <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+  <p>For more information, see <a href="././administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Product</p></td>
