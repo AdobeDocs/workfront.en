@@ -147,6 +147,14 @@ We have updated the Add Sharepoint dialog box in Setup > Documents > Sharepoint 
 
 This update includes visual changes to the area. No functionality has changed.
 
+### Interface update for Add custom integration dialog box
+
+**Preview release: January 16, 2025; Starting the week of January 30, 2025**
+
+We have updated the Add custom integration dialog box in Setup > Documents > Custom Integration with a more modern design that is consistent with other areas of Workfront.
+
+This update includes visual changes to the area. No functionality has changed.
+
 ### Interface update for the Approvals area in the Setup
 
 **Preview release: January 16, 2025; Production release: Starting the week of January 30, 2025**

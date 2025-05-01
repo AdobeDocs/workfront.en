@@ -9,15 +9,12 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 ---
 # Update work
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 4/2025 -->
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>  (*****for all customers or in Production for customers who enabled fast releases-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
--->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -82,8 +79,8 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> 
+   <p>New: Contributor or higher for issues and documents: Light or higher for all other objects</p>
    <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p>
-   <p>New: Contributor or higher for issues and documents: Light or higher for all other objects</p> 
    </td> 
   </tr> 
   <tr> 
@@ -238,9 +235,9 @@ This article describes how you can update projects, tasks, or issues. Updating m
 1. Click  **Updates** in the left panel. 
    The **Comments** tab is selected by default.
 
-1. Start entering a comment in the **New comment** box.
+1. <span class="preview">Start entering a comment in the **New comment** box.</span>
 
-   ![New comment box](assets/comment-box-all-tabs.png)
+   <span class="preview">![New comment box](assets/comment-box-all-tabs.png)</span>
    
    >[!TIP]
    >
@@ -250,7 +247,7 @@ This article describes how you can update projects, tasks, or issues. Updating m
       * CTRL + Z (⌘+z for Mac) to undo a change 
       * CTRL + Y (⌘+y for Mac) to redo a change
 
-1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
+1. <span class="preview">(Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, or select it when it displays in the list. </span>
 1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article. 
 
       >[!TIP]
@@ -260,10 +257,10 @@ This article describes how you can update projects, tasks, or issues. Updating m
       >The indicator displays only after the comment was submitted on the item, and not when the comment is still composed. 
       >
       >The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
-      >![](assets/real-time-new-red-indicator-unified-commenting.png)
+      >![Real-time new red indicator](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. Click **Submit** to add the update to the Workfront object. 
-1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**.
+1. (Optional) To edit a comment, click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**.
 
    >[!IMPORTANT]
    >
@@ -275,7 +272,7 @@ This article describes how you can update projects, tasks, or issues. Updating m
       >
       >Comments from the current year do not display the year in the date stamp. Hovering over a timestamp displays the full date, including the year.
 
-   ![](assets/edited-tag-on-comment-unified-commenting.png)
+   ![Edited indicator on comment](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
@@ -287,14 +284,14 @@ This article describes how you can update projects, tasks, or issues. Updating m
 
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section while you were adding your comments, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
 
-   ![](assets/blue-new-comments-banner-with-view-button.png)
+   ![Blue new comments banner with button](assets/blue-new-comments-banner-with-view-button.png)
 
    Additional comments display at the bottom of the screen.
    
-1. (Optional) Click the **Like** icon![](assets/like-icon.png). The icon updates with the number of likes.
+1. (Optional) Click the **Like** icon![Like icon](assets/like-icon.png). The icon updates with the number of likes.
 1. (Conditional and optional) If you included additional people in your comment, click the number of members included in the update to display a list of entities that the comment you entered is shared with. 
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+   ![Members icons expanded](assets/members-icons-expanded-unshimmed.png)
 
    >[!TIP]
    >
@@ -322,16 +319,16 @@ You can enhance your comments by using Rich Text, or adding various items to it,
 1. Go to the **Updates** area of a Workfront object, open the **Comments** tab and start typing a comment. 
 1. (Optional) To add Rich Text formatting to your comment, use any attributes on the **Rich Text** toolbar as you type. 
 
-   ![](assets/rich-text-toolbar.png)
+   ![Rich text toolbar](assets/rich-text-toolbar.png)
 
    | **Attribute** |**Toolbar button** |**Mac shortcut keys** |**Windows shortcut keys** |
    |---|---|---|---|
-   | Bold | ![](assets/mceclip10.png)|⌘+b |Ctrl+B |
-   | Italics | ![mceclip9.png](assets/mceclip9.png)|⌘+i |Ctrl+I |
-   | Underline | ![mceclip8.png](assets/mceclip8.png)|⌘+u |Ctrl+U |
-   | Hyperlink | ![mceclip7.png](assets/mceclip7.png)| <br>To open the Add links box: ⌘+K</br> <br>To paste a link over the selected text: ⌘+V</br>  | <br>To open the Add links box: Ctrl+K</br> <br>To paste a link over the selected text: Ctrl+V</br> |
-   | Bulleted List | ![mceclip6.png](assets/mceclip6.png)|⌘+Shift+8 |Ctrl+Shift+8 |
-   | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |Ctrl+Shift+7 |
+   | Bold | ![Bold icon](assets/mceclip10.png)|⌘+b |Ctrl+B |
+   | Italics | ![Italics icon](assets/mceclip9.png)|⌘+i |Ctrl+I |
+   | Underline | ![Underline icon](assets/mceclip8.png)|⌘+u |Ctrl+U |
+   | Hyperlink | ![Hyperlink icon](assets/mceclip7.png)| <br>To open the Add links box: ⌘+K</br> <br>To paste a link over the selected text: ⌘+V</br>  | <br>To open the Add links box: Ctrl+K</br> <br>To paste a link over the selected text: Ctrl+V</br> |
+   | Bulleted List | ![Bulleted list icon](assets/mceclip6.png)|⌘+Shift+8 |Ctrl+Shift+8 |
+   | Numbered List | ![Numbered list icon](assets/mceclip5.png)|⌘+Shift+7 |Ctrl+Shift+7 |
    
    <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
    
@@ -355,7 +352,7 @@ You can enhance your comments by using Rich Text, or adding various items to it,
 
       <!--![](assets/block-quote-marked-350x144.png)-->
 
-1. (Optional) Click the **emoji** icon ![](assets/emoji-icon.png) to add emojis to your update. 
+1. (Optional) Click the **emoji** icon ![Emoji icon](assets/emoji-icon.png) to add emojis to your update. 
 
    >[!NOTE]
    >
@@ -369,7 +366,7 @@ You can enhance your comments by using Rich Text, or adding various items to it,
 1. (Optional) To add a URL link to additional information sources:
 
    1. Click in your update where you want to insert a link.
-   1. On the **Rich Text** toolbar, click the **Hyperlink** icon ![](assets/link-icon.png).  
+   1. On the **Rich Text** toolbar, click the **Hyperlink** icon ![Hyperlink icon](assets/link-icon.png).  
 
    1. In the **Create Link** box, under **URL**, type or paste the URL of the source to which you want to link.
    
@@ -391,7 +388,7 @@ You can enhance your comments by using Rich Text, or adding various items to it,
 
    * Save the image on our computer, then drag and drop it in the New comment area.
    * Copy a screenshot from your computer, then paste it in the comment.
-   * Click the **Add image** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer. 
+   * Click the **Add image** icon ![Add image mountain with plus sign icon](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer. 
 
    
    >[!IMPORTANT]
@@ -412,8 +409,8 @@ You can enhance your comments by using Rich Text, or adding various items to it,
 
 1. (Optional) To view an image in the existing update do one of the following:
 
-   * Click the **Preview** icon ![](assets/previewimageicon-31x31.png) on the image thumbnail to open the full-size image in a new browser tab.
-   * Click the **Download** icon ![](assets/downloadimageicon.png) on the image thumbnail to download the image.
+   * Click the **Preview** icon ![Preview icon](assets/previewimageicon-31x31.png) on the image thumbnail to open the full-size image in a new browser tab.
+   * Click the **Download** icon ![Download icon](assets/downloadimageicon.png) on the image thumbnail to download the image.
   
 1. Click **Submit** to add your comment. 
 
@@ -454,11 +451,26 @@ You can copy a link to the comment, or copy the content of the comment to use it
 
 You can copy information from an existing comment by doing one of the following:
 
+* [Quote reply](#quote-reply)
 * [Copy link](#copy-link)
 * [Copy body text](#copy-body-text)
-* [Quote reply](#quote-reply)
 
-![](assets/copy-comment-ways-from-more-menu-on-comment.png)
+
+![Copy comment various ways](assets/copy-comment-ways-from-more-menu-on-comment.png)
+
+#### Quote reply
+
+The Quote reply option copies the original comment to a new reply as a block quote. 
+
+1. Go to the comment or reply you want to copy.
+1. Click the **More** menu, then click **Quote reply**.
+
+   A new comment box opens and the quoted reply is included in the new comment and marked as a block quote.
+
+   ![Block quote highlighted mid-comment before submitting](assets/block-quote-highlighted-mid-comment-before-submit.png)
+
+
+1. Continue adding your update and click **Submit** to add the comment.
 
 #### Copy link to a comment
 
@@ -483,19 +495,7 @@ The Copy body text option copies the text from a specific comment to the clipboa
 1. Go to the comment or reply you want to copy.
 1. Click the **More** menu, then click **Copy body text**.
 
-#### Quote reply
 
-The Quote reply option copies the original comment to a new reply as a block quote. 
-
-1. Go to the comment or reply you want to copy.
-1. Click the **More** menu, then click **Quote reply**.
-
-   A new comment box opens and the quoted reply is included in the new comment and marked as a block quote.
-
-   ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
-
-
-1. Continue adding your update and click **Submit** to add the comment.
 
 <!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section - hide them all, all the way up to "Delete an update"-->
 
@@ -568,7 +568,7 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 1. Go to the comment or reply you want to delete.
 1. Click the **More** menu next to the comment or reply you wish to delete, then click **Delete**. 
 
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
+   ![Update stream comment More menu](assets/update-stream-comment-menu-marked-350x152.png)
 
 1. In the message that appears, click **Delete**. 
 
@@ -578,7 +578,7 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 
    When the comment you delete has replies associated with it, there is an indication that the comment was removed with the name of the user who removed it.
    
-   ![](assets/removed-comment-indicator-new-experience.png) 
+   ![Removed comment indicator](assets/removed-comment-indicator-new-experience.png) 
 
    Deleted comments are removed immediately from Workfront. A user using the Updates section sees a comment being deleted by another user in real time.
 
@@ -589,11 +589,11 @@ The Updates section for a Workfront object displays two types of information:
 
 * **User updates:** User updates are comments that you and other users in your system enter. The user updates display in the Comments and the All tabs of the Updates section. 
 
-  ![](assets/user-update-cl-350x277.png)
+  ![User updates](assets/user-update-cl-350x277.png)
 
 * **System updates:** System updates record removing tasks or issues, adding or deleting document versions, attaching or removing an approval request, as well as any edits or changes made to the object. System updates display in the System Activity and the All tabs of the Updates section. 
 
-  ![](assets/system-updates-cl-350x277.png)
+  ![System updates](assets/system-updates-cl-350x277.png)
 
    Workfront administrators can determine what is tracked in system updates, as explained in [System-tracked updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). You can also filter out system updates or activities so that you see only user updates for all objects.
 

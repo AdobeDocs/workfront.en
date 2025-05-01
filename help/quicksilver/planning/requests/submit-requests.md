@@ -34,7 +34,7 @@ For information about how a workspace manager can create a request form and asso
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article: 
 
@@ -95,8 +95,14 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>To access the Planning area in Workfront, you must be assigned a layout template that includes the Planning area in the Main Menu. </p>
-   <p> However, accessing the Planning area is not required to submit requests to Workfront Planning. </p>  
+   <td> <p>To access the Planning area in Workfront, you must be have the following layout template configuration: </p>
+<ul>
+<li><p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes  Planning.</p></li>
+<li><div class="preview">
+<p> In the Preview environment, users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+   
+<p> However, accessing the Planning area is not required to submit requests to Workfront Planning. </p>  
 </td>
   </tr>
  </tbody>
@@ -106,20 +112,6 @@ You must have the following access to perform the steps in this article:
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
-
-<div class="preview">
-<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
-   <ul><li>Main Menu</li>
-   <li>Left panel of projects, portfolios, and programs</li>
-   <li>Landing page</li>
-   <li>Pins</li></ul>
-   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
-   <p><b>NOTE</b></p>
-   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
-
--->
 
 ## Prerequisites
 

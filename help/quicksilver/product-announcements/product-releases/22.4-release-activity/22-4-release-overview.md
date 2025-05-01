@@ -655,7 +655,6 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         <p>Workfront Campaigns enables you to organize projects from different portfolios and programs in a new work container.
 Campaigns were released to Preview beta with the 22.3 release, in July 2022.</p>
 <p>This new container will evolve in future releases to connect work objects that are currently managed in separate silos.</p>
-
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>

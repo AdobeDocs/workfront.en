@@ -12,6 +12,33 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the Third Quarter 2025 release, see [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
+## Look and feel update for the More menu options for comments
+
+>[!NOTE]
+>
+>Preview release: April 17, 2025; Production release for all customers: April 17, 2025
+
+We have updated the look and feel for the options available in the More menu of a comment in the Updates section for all objects.  
+
+This update includes the following changes: 
+
+* Rearranged the actions so that similar functions are grouped together.  
+* Inserted dividers to clearly separate each group.  
+* Highlighted the Delete action by displaying it in red. 
+
+For information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+
+## Look and feel updates to a Milestone Path report
+
+>[!NOTE]
+>
+>Preview release: April 30, 2025; Production release for all customers: April 30, 2025
+
+We have updated the look and feel of the Milestone Path report to match the design of other areas of Workfront.
+
+For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
 ## Look-and-feel-updates to recently restored items
 
 >[!NOTE]

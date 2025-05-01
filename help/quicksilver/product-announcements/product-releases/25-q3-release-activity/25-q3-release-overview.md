@@ -35,6 +35,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront enhancements
     
 * [Document management enhancements](#document-management-enhancements)
+* [Reporting enhancements](#reporting-enhancements)
+* [Update and notification enhancements](#update-and-notification-enhancements)
 * [Other enhancements](#other-enhancements)
     
 ### Document management enhancements
@@ -56,6 +58,52 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>April 10, 2025</td>
         <td>April 17, 2025</td>
         <td>April 17, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+    
+### Reporting enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">User wildcards no longer return results with a null value when filtering </a><p></p>
+            <p>We have updated the user wildcard behavior to exclude null value when filtering a report. This change helps the filter produce more accurate results, rather than returning results that do not have a user configured correctly (a null result). </p>
+        </td>
+        <td>April 30, 2025</td>
+        <td>May 15, 2025</td>
+        <td>July 17, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+    
+### Update and notification enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}">Modified experience when adding people to comments</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>To achieve improved performance, we have introduced a modified experience when adding people to comments. Now, the "Tag people or teams" link remains persistent in the Comment box, after you start adding users or teams to the comment. </p>
+        </td>
+        <td>April 30, 2025</td>
+        <td>(Phased rollout): May 8- May 15, 2025</td>
+        <td>(Phased rollout): May 8- May 15, 2025</td>
     </tr>     
   </tbody>
 </table> 
@@ -173,3 +221,5 @@ New row for table
 
 
 -->
+
+
