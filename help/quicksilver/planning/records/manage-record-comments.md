@@ -24,7 +24,7 @@ The right panel of a record displays the following sections:
 
 ## Access requirements
 
-+++ Expand to view access requirements.. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -83,7 +83,13 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+   <td> <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
+   <div class="preview">
+<p> In the Preview environment, users with a Light or Contributor license must be assigned a layout template that includes Planning.</p>
+   
+   <p>Standard users and System Administrators have Planning enabled by default.</p></div>
+
+   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p> </td> 
   </tr> 
 </tbody> 
 </table> 
@@ -92,20 +98,7 @@ You must have the following access to perform the steps in this article:
 
 +++  
 
-<!--replace the layout template info in the table with this at release: 
 
-<div class="preview">
-<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
-   <ul><li>Main Menu</li>
-   <li>Left panel of projects, portfolios, and programs</li>
-   <li>Landing page</li>
-   <li>Pins</li></ul>
-   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
-   <p><b>NOTE</b></p>
-   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
-
---> 
 
 ## Considerations about commenting on a record
 
@@ -198,7 +191,7 @@ You must have the following access to perform the steps in this article:
       >Comments from the current year do not display the year in the date stamp. Hovering over a timestamp displays the full date, including the year.
 1. (Optional and conditional) To search for an existing comment, start typing a keyword in the search box in the upper-right corner of the **Comments** area.     
    ![Search box for comments](assets/search-box-for-comments-area.png)
-1. (Optional) Click **Reply** or start typing a comment in the **Add reply ...** area, to reply to an existing comment, then follow steps 4-8 above. (**************accurate??***********)
+1. (Optional) Click **Reply** or start typing a comment in the **Add reply ..** area, to reply to an existing comment, then follow steps 4-8 above. (**************accurate??***********)
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Comments section while you were adding your comments, click **View** inside the **new comments banner** at the bottom of the screen  to display these comments.
    ![New comments banner on record](assets/new-comments-banner-on-record.png)
 

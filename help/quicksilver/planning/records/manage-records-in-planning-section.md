@@ -25,7 +25,7 @@ You can display Workfront Planning records in Workfront in the following areas o
 
 ## Access requirements
 
-+++ Expand to view access requirements.. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article: 
 
@@ -96,7 +96,8 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>To view the Planning area or the Planning section for a Workfront object, all users, including Workfront administrators, must be assigned a layout template that includes the Planning area in the Main Menu and the Planning area for projects, portfolios, and programs. </p> For more information, see <a href="/help/quicksilver/planning/access/access-overview.md">Adobe Planning access overview</a>. </p>  </p>  
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -106,13 +107,6 @@ You must have the following access to perform the steps in this article:
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Manage records in the Planning section
 
