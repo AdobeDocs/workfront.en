@@ -4,6 +4,7 @@ description: Third Quarter 2025 Project enhancements
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 6e53dca8-285a-471b-a646-1773722554f3
 ---
 # Third Quarter 2025 Reporting enhancements
 
@@ -30,4 +31,3 @@ This change applies to the following wildcard filters:
 * `$$USER.roleID`
 * `$$USER.roleIDs`
 * `$$USER.companyID`
-
