@@ -16,6 +16,54 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Inline editing in the Connected records page of a record
+
+>[!NOTE]
+>
+>* Preview: April 30, 2025
+>* Production fast release: May 15, 2025 
+>* Production for all customers:  July 17, 2025
+
+You can now edit records in the Connected records page of a record. With this update, we have introduced the following:   
+
+* The name of the page has been changed from "Connection view" to "Connected records page".  
+* Connected records displayed in this page are inline editable in the table view. Connected Workfront objects continue to display in a read-only table.  
+
+Prior to this enhancement, the table of the Connection view page was read-only for record connections.  
+
+For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+## Planning area visible by default in the Main Menu for Standard-license  users 
+
+>[!NOTE]
+>
+>* Preview: April 30, 2025
+>* Production fast release: May 15, 2025 
+>* Production for all customers:  July 17, 2025
+
+Standard and System Administrator users can now find the Planning area in the Main Menu by default, without being assigned to a layout template that includes it. All other users must have a layout template that includes the Planning area assigned to them in order to access it.   
+
+Prior to this enhancement, users with all license levels had to be assigned to layout template modified to include the Planning area in the Main Menu in order to access this area.   
+ 
+>[!NOTE]
+>
+>This change will be visible for all new and existing users with a System Administrator and Standard license. 
+>Existing users assigned to a layout template will continue to see everything according to the settings defined in the layout template.  
+
+For information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/access/access-overview.md).
+
+## Row-level color formatting in the table view 
+
+>[!NOTE]
+>
+>* Preview: April 30, 2025
+>* Production fast release: May 15, 2025 
+>* Production for all customers:  July 17, 2025
+
+For better visibility of the important information of your records, we have introduced row-level color formatting for the table view. You can now choose a color for each row after you define conditions for each choice.  This is a new capability that did not exist before this update. 
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
 ## New setting to truncate long record names in the Standard timeline view 
 
 >[!NOTE]
