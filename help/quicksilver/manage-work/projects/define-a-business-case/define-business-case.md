@@ -12,7 +12,7 @@ exl-id: ca5679ba-db5c-4430-9469-0eaaa94fb9ec
 
 This section contains the following articles:
 
-* [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) 
+* [Business Case Areas Overview](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) 
 * [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md) 
 * [Approve a Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md) 
 * [Overview of Business Case financial fields](../../../manage-work/projects/define-a-business-case/business-case-finances.md) 
