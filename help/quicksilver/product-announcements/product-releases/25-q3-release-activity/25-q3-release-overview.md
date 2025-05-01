@@ -35,7 +35,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront enhancements
     
 * [Document management enhancements](#document-management-enhancements)
-* [Update and notification enhancements]
+* [Reporting enhancements](#reporting-enhancements)
+* [Update and notification enhancements](#update-and-notification-enhancements)
 * [Other enhancements](#other-enhancements)
     
 ### Document management enhancements
