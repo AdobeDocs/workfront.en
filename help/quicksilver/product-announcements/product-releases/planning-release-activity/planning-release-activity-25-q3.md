@@ -97,3 +97,5 @@ We have introduced the following updates:
 * You can disable the inherited permissions on the record type to make it read-only for all people in the workspace. After that,  you can add individual people, teams, groups, companies or roles and grant them Contribute permission to the record type.  
 
 For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md).
+
+
