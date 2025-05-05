@@ -6,6 +6,7 @@ description: Adobe Workfront released API version 20 on April 6, 2022. API versi
 author: Becky
 feature: Workfront API
 role: Developer
+exl-id: 2cf9d708-ce62-4434-8352-31dd8440ecb9
 ---
 # What's new in API version 20
 
@@ -1631,6 +1632,3 @@ A Work object is a common interface that both Task and OpTask inherit, and share
     </tr>
   </tbody>
 </table>
-
-
-
