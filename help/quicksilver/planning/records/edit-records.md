@@ -28,7 +28,7 @@ For information about creating records, see [Create records](/help/quicksilver/p
 
 ## Access requirements
 
-+++ Expand to view access requirements..
++++ Expand to view access requirements.
 
 You must have the following access to perform the steps in this article:  
 
@@ -82,12 +82,13 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>  <p>Contribute or higher permissions to a workspace <!--<span class="preview">and record type</span>--> </a> </p>  
+   <td>  <p>Contribute or higher permissions to a workspace <span class="preview">and record type</span> </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p></td> 
   </tr> 
 </tbody> 
 </table> 
@@ -96,62 +97,6 @@ You must have the following access to perform the steps in this article:
 
 +++   
 
-<!--Old:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## Considerations about editing records
 
@@ -236,15 +181,13 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
 
         ![Dragable lower-right corner for copy paste in table view](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
     
-    <div class="preview">
-    
+  
     * Copy one or multiple cells from an external source (for example, an Excel file), then paste them in one of the the following fields types:
 
         * Workfront Planning connection fields.  
         * People fields. Only fields with one value are supported. 
 
         You cannot copy information from an external source and paste it in any other field types, including Workfront or AEM Assets connection fields.
-    </div> 
 
     >[!NOTE]
     >
@@ -289,11 +232,7 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
     
     From the table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. The record's preview opens in the view.
 
-    <div class="preview">
-
     ![Details box](assets/details-box.png) 
-
-    </div>
 
 1. (Optional) Click the **More** menu to the right of the record's title, then click **Rename**. This updates the field that displays as the record's title.
 
@@ -314,17 +253,13 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
 
     Workfront automatically saves your changes.
 
-1. <span class="preview"> (Optional) Click the **real-time indicator** ![Real-time indicator icon](assets/real-time-indicator-icon.png) in the upper-right corner of the record's preview box, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. (Optional) Click the **real-time indicator** ![Real-time indicator icon](assets/real-time-indicator-icon.png) in the upper-right corner of the record's preview box, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
 
     The names and avatars of all users accessing the record at the same time display in this area.  
 
-    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
+    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. 
     
-    <div class="preview">
-
     ![REal-time indicator expanded record preview box](assets/real-time-indicator-expanded-record-preview-box.png)
-
-    </div>
 
 1. (Optional) Click the **Export** menu ![Export icon in record details page](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).
 
@@ -382,17 +317,13 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
 
     Workfront automatically saves your changes.
 
-1. <span class="preview"> (Optional) Click the **real-time indicator** ![Real-time indicator icon](assets/real-time-indicator-icon.png) in the upper-right corner of the record's page, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. (Optional) Click the **real-time indicator** ![Real-time indicator icon](assets/real-time-indicator-icon.png) in the upper-right corner of the record's page, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
 
     The names and avatars of all users accessing the record at the same time display in this area.  
 
-    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
+    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted.
     
-    <div class="preview">
-
     ![Real-time indicator expanded record preview box](assets/real-time-indicator-expanded-record-preview-box.png)
-
-    </div>
 
 1. (Optional) Click the **Export** menu ![Export icon in record details page](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).
     

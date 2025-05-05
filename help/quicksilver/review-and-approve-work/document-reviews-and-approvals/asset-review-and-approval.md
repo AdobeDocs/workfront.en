@@ -25,8 +25,8 @@ Key features available for legacy document approvals:
 
 * Add users as approvers
 * Review and comment in the proofing viewer
-* Make decisions in the proofing viewer 
 * Create approval reports with legacy reporting
+* Access approval requests in the My Approvals widget in the Home area
 
 For more information, see [Legacy document approvals](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
 
@@ -44,7 +44,7 @@ Key features available for Unified Approvals:
 
 * Create and use templates 
 
-* Review and comment in the proofing viewer 
+* Review, comment, and make decisions in the proofing viewer 
     For more information about using the proofing viewer, see [Use Unified Approvals and proofing together](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
 
 * View multiple key performance indicators for your approvals in Workfront Home widgets
@@ -52,9 +52,9 @@ Key features available for Unified Approvals:
 * Use Canvas Dashboards, currently in beta, to view reporting details about Unified Approvals
     For more information on reporting, see [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
-* Make decisions in the proofing viewer [!BADGE Coming soon]{type=Informative}
-
 * Create multiple stage approvals [!BADGE Coming soon]{type=Informative}
+
+* Access review and approval requests in the My Approvals widget in the Home area
 
 
 ## Proof approvals 
@@ -78,6 +78,8 @@ Features available for proofing:
 * Create multiple stage approvals
 
 * Use basic or automated workflows
+
+* Access approval requests in the My Approvals widget in the Home area
 
 <!--
 ## Upcoming deprecations

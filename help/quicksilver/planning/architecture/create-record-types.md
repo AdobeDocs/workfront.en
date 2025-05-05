@@ -12,9 +12,9 @@ exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 
 # Create record types
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -24,7 +24,7 @@ For more information about record types, see [Record types overview](/help/quick
 
 ## Access requirements
 
-+++ Expand to view access requirements..  
++++ Expand to view access requirements.  
 
 You must have the following access to perform the steps in this article:  
 
@@ -83,7 +83,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> </td> 
   </tr> 
 </tbody> 
 </table> 
@@ -140,20 +141,30 @@ For information about what record types are included with each template, see [Li
 
     From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
 1. (Optional) Click **Add section** to add a new section to the workspace.
-1. Click **Add record type**, then **New**. 
+1. Click **Add record type**, then **Add manually**. 
 
     The Add record type box opens.
     <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
     ![Add record type box with appearance options](assets/add-record-type-box-with-appearance-options.png)
 
-1. Update the following information:
+1. Update the following information on the **Appearance** tab:
 
     * Replace "Untitled record type" with the name of your future record type. <!--did they bring back the field label here and did they rename it to "Name"-->
     * **Description**: Add more information about the record type.  
     * Select a color and shape for the icon associated with the record type. Do the following: 
         * Select a color to identify your new record type. This is the color of the record type icon. Gray is selected by default.
         * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default. 
+
+1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Connectivity scope** section: <!--the info here is duplicated in the Edit record types article-->
+
+    * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
+    * Choose from which workspaces the record type can be accessed. Choose from the following options:
+
+        * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
+        * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type. 
+
+    ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png)
 
 1. Click **Create**.
 

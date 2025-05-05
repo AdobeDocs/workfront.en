@@ -26,7 +26,7 @@ You can submit a Workfront Planning request from the following areas:
 * From a direct link to the request form that was shared. 
 
    This article describes how you can submit a request to add new records to a record type from the Requests area of Workfront, or from a shared link.
-* <span class="preview">From the record type page, when you add or request a new record. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).</span>  
+* From the record type page, when you add or request a new record. For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
 
 Workfront users and external users can submit requests to Planning record types and create records. <!--double check on the external users-->
 
@@ -34,7 +34,7 @@ For information about how a workspace manager can create a request form and asso
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article: 
 
@@ -90,13 +90,19 @@ You must have the following access to perform the steps in this article:
 <tr>
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
-   <p>View or higher permissions to a workspace <!--<span class="preview">and record type</span>-->, if you are a Workfront user</p> 
+   <p>View or higher permissions to a workspace <span class="preview">and record type</span>, if you are a Workfront user</p> 
   </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>To access the Planning area in Workfront, you must be assigned a layout template that includes the Planning area in the Main Menu. </p>
-   <p> However, accessing the Planning area is not required to submit requests to Workfront Planning. </p>  
+   <td> <p>To access the Planning area in Workfront, you must be have the following layout template configuration: </p>
+<ul>
+<li><p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes  Planning.</p></li>
+<li><div class="preview">
+<p> In the Preview environment, users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+   
+<p> However, accessing the Planning area is not required to submit requests to Workfront Planning. </p>  
 </td>
   </tr>
  </tbody>
@@ -105,6 +111,7 @@ You must have the following access to perform the steps in this article:
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
 
 +++
+
 
 ## Prerequisites
 
@@ -122,7 +129,7 @@ The following must be in place before you can submit a request to a Workfront Pl
 
    * Internally, the form must be shared with users who have View or higher permissions to the workspace. 
 
-      Workfront users can either access the form from a link <span class="preview">or find the request form in the Requests area of Workfront.</span> 
+      Workfront users can either access the form from a link or find the request form in the Requests area of Workfront. 
 
    * If you don't have a Workfront account, a link to the form has been shared with external people. 
    
@@ -145,13 +152,7 @@ The following must be in place before you can submit a request to a Workfront Pl
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
 
-<div class="preview">
-
 ## Submit a request to Workfront Planning in the Requests area of Workfront
-
->[!NOTE]
->
->After the monthly releases to Production, the features described in this section are also available in the Production environment for customers who enabled fast releases.
 
 {{step1-to-requests}}
 
@@ -202,6 +203,8 @@ The following must be in place before you can submit a request to a Workfront Pl
       >
       >All users who have access to at least one workspace can view the Planning tab in the Requests area. You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. 
 
+   * The request is visible only to the owner, approver, and the people who have at least View permissions to the workspace.
+
    * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
    * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
 
@@ -232,8 +235,6 @@ The following must be in place before you can submit a request to a Workfront Pl
 1. (Optional) Click the name of the **Record type**. 
 
    The record type page opens in Workfront Planning. 
-
-</div>
 
 ## Submit a request to Workfront Planning from a shared link to a request form
 
@@ -270,11 +271,11 @@ The following must be in place before you can submit a request to a Workfront Pl
       >
       >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
 
-1. <span class="preview">(optional) Click **View your request** to open the request in Workfront.</span>
+1. (Optional) Click **View your request** to open the request in Workfront.
 
-      Or
+      <!--Or-->
 
-      <span class="preview">Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request. </span>
+      <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
 
 1. (Optional) Click **Main menu** > **Requests** > the **Planning** tab to view your request, then click the name of the request. 
 

@@ -41,7 +41,7 @@ We continue to make improvements to the way you use Workfront Goals based on the
 >
 >**Production availability:**&nbsp;With the 20.4 release
 
-This feature is now included in the [Workfront Goals learning path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) on Workfront One.
+This feature is now included in the [Workfront Goals learning path](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) on Workfront One.
 
 ## Access Controls for Workfront Goals
 
@@ -55,7 +55,7 @@ For information about granting access to Workfront Goals, see [Grant access to A
 >
 >**Production availability:**&nbsp;With the 20.4 release
 
-This feature is now included in the [Workfront Goals learning path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) on Workfront One.
+This feature is now included in the [Workfront Goals learning path](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) on Workfront One.
 
 ## Workfront Goals usability improvements
 
@@ -76,4 +76,4 @@ For information, see the following articles:
 >
 >**Production availability:**&nbsp;With the 20.4 release
 
-This feature is now included in the [Workfront Goals learning path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) on Workfront One.
+This feature is now included in the [Workfront Goals learning path](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) on Workfront One.

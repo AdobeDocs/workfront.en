@@ -25,7 +25,7 @@ Some modifiers are built-in and you can choose them from a drop-down menu inside
 
 For more information about understanding text mode, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-For a list of built-in time frame modifiers, see the article [Filter reports by time frames](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
+For a list of built-in time frame modifiers, see the article [Filter reports by timeframes](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
 
 You can use the following condition modifiers in filters and conditional formatting statements:
 
@@ -69,7 +69,12 @@ You can use the following condition modifiers in filters and conditional formatt
   <tr valign="top"> 
    <td> <p><strong>Does Not Contain</strong> </p> </td> 
    <td> <p><strong>cinotcontains</strong> </p> </td> 
-   <td> <p>This is the <i>case insensitive</i> version of <strong>notcontains</strong>.</p><p>This modifier filters for items that are missing the value specified.</p> <p>For example, <code>does not contain inf</code> captures anything without <code>Inf</code> or <code>inf</code> in the name.</p> <p>Note: <span>If the field you are filtering for has multiple options, this filters out the results that contain both the choice you specify, as well as the choice you specify and any additional choices.</span> </p> </td> 
+   <td> <p>This is the <i>case insensitive</i> version of <strong>notcontains</strong>.</p><p>This modifier filters for items that are missing the value specified.</p> <p>For example, <code>does not contain inf</code> captures anything without <code>Inf</code> or <code>inf</code> in the name.</p> <p>Note: When applied to fields that contain multiple values (such as a collection of notes within a project), the filter determines exclusion as follows:
+<ul>
+    <li>If all items in a collection contain the specified text, the entire record is excluded from the results.</li>
+    <li>If at least one item in the collection does not contain the specified text, the record remains in the results.</li>
+</ul>
+ </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td>&nbsp;</td> 

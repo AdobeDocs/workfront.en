@@ -12,9 +12,9 @@ exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -24,7 +24,7 @@ You can also change the entities you share a request form with, if you want to k
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article: 
 
@@ -83,7 +83,7 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
    <ul>
-   <li><p>Manage permissions to a workspace <!--<span class="preview">and record type</span>--> </p></li>
+   <li><p>Manage permissions to a workspace <span class="preview">and record type</span> </p></li>
     <li><p>System Administrators can manage workspaces they did not create. </p></li>
     </ul>
    <p>For information about sharing permissions for Workfront Planning objects, see  
@@ -92,7 +92,8 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p>  
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p>  
 </td>
   </tr>
  </tbody>
@@ -118,8 +119,17 @@ To change the sharing of a request form:
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
 
-1. Click the **More** menu ![Mroe menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Update request form**.
-1. Click **Share** in the upper-right corner of the screen, then update the sharing choices. For more information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). 
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms**.
+
+   All request forms associated with the record type display in a table view. 
+1. Hover over the name of a request form, then click the **More** menu ![More menu](assets/more-menu.png) to the right of its name, then click **Share**. 
+1. Update the sharing choices by selecting one of the following: 
+
+   * Anyone with view or higher access to the workspace
+   * Anyone with contribute or higher access to the workspace
+   * Anyone with the link
+
+   For more information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). 
 1. (Optional) Click **Copy link**, if you changed the sharing of the request form and you want to share it to the new group of people with a new link. 
 
 ## Unpublish a request form for a record type
@@ -136,19 +146,25 @@ When a request form becomes irrelevant and you don't want anyone to access it an
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
 
-1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Update request form**.
-1. Click **Unpublish** in the upper-right corner.
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms**.
 
-    ![Unpublish button highlighted](assets/unpublish-button-highlighted.png)
+   All request forms associated with the record type display in a table view. 
+1. Hover over the name of a request form, then click the **More** menu ![More menu](assets/more-menu.png) to the right of its name, then click **Unpublish**
 
-    A confirmation displays at the bottom of the screen notifying you that the form was unpublished. 
+Or
 
-    The **Unpublish** button changes to **Publish**. 
+Click the name of the request form to open it, then click **Unpublish** in the upper-right corner of the request form.
 
-1. Click **Save**. 
+   ![Unpublish button highlighted](assets/unpublish-button-highlighted.png)
 
-    The form cannot be accessed from a link <!--or from the request queue in the Requests area of Workfront--> any longer. 
+   A confirmation displays at the bottom of the screen notifying you that the form was unpublished. 
+
+   The **Unpublish** link or button changes to **Publish**. 
+
+1. (Conditional) Click **Save**, if you unpublished the form after opening it. 
+
+   Users can no longer access the request form from a link or from the request queue in the Requests area of Workfront. 
     
-    Any records previously added using the request form remain on the record type page. 
+   Any records previously added using the request form remain on the record type page. 
 
-    Any requests previously added remain in the Requests area of Workfront, on the Planning tab.
+   Any requests previously added remain in the Requests area of Workfront, on the Planning tab.

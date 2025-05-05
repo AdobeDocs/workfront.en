@@ -29,7 +29,7 @@ After project managers plan the work on projects by creating tasks and after res
 
 This article describes the general purpose for the Workload Balancer and some of the best practices for how you can set up your projects and resources to successfully use it.
 
-To review video tutorials of the Workload Balancer, go to the [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) page. In the left menu, select **Manage resources** > **Workload Balancer** and choose a tutorial.
+To review video tutorials of the Workload Balancer, go to the [Workfront Tutorials](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) page. In the left menu, select **Manage resources** > **Workload Balancer** and choose a tutorial.
 
 ## Locate the Workload Balancer
 

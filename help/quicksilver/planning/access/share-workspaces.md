@@ -27,7 +27,7 @@ This article describes how you can share a view with others. For information abo
 
 ## Access requirements
 
-+++ Expand to view access requirements.. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -86,7 +86,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p></td> 
   </tr> 
 </tbody> 
 </table> 
@@ -98,19 +99,17 @@ You must have the following access to perform the steps in this article:
 ## Considerations about sharing workspaces
 
 * For general information about sharing objects in Workfront Planning, also see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
-* You can share workspaces with users, <span class="preview"> teams, roles, groups, or companies </span> inside your organization.
+* You can share workspaces with users, teams, roles, groups, or companies inside your organization.
+* In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. 
 * You cannot share workspaces with users outside of your organization. 
 * When you share a workspace, all record types, records, and fields associated with the workspaces are also shared.
 * When you share a workspace, views are not shared. You must share views separately.
 
-<!--
 <div class="preview">
  
 * Workspace permissions display as Inherited permissions on record types. 
 
 </div>
-
--->
 
 ## Share permissions to a workspace
 
@@ -127,7 +126,7 @@ To share a workspace with others:
 
     ![Share button on workspace top right](assets/share-button-on-workspace-top-right.png)
 
-1. In the **Grant access to this workspace** field, start typing the name of a user, group, <span class="preview">team, company, or job role</span> then click it when it displays in the list. 
+1. In the **Grant access to this workspace** field, start typing the name of a user, group, team, company, or job role then click it when it displays in the list. 
 
    ![Sharing UI with groups](assets/sharing-ui-with-groups.png)
 

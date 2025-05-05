@@ -10,6 +10,8 @@ exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
+<!--remove the Prod and Preview references when we release to Prod-->
+
 # Overview of sharing permissions in Adobe Workfront Planning 
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -63,14 +65,9 @@ Internally, you can share a workspace or a view with the following Workfront ent
 
 * Users
 * Groups
-
-<div class="preview">
-
 * Teams
 * Companies
 * Job roles
-
-</div>
 
 <span class="preview"> When you share workspaces and record types with others, the permission level from the record type is automatically inherited to the records and fields associated with them. </span>
 
@@ -125,7 +122,7 @@ The following are the levels of permissions for workspaces:
 
 ### Record Type permissions
 
-<!--In the Production environment,--> Record Type permissions are <!--always--> inherited when you grant permissions to the workspace.
+In the Production environment, Record Type permissions are always inherited when you grant permissions to the workspace.
 
 The following are the levels of permissions for record types: 
 
@@ -137,29 +134,35 @@ The following are the levels of permissions for record types:
 | Edit   | ✓      |            |       |
 | View   | ✓      | ✓          | ✓     |
 
-<!--
-
 <div class="preview">
 
 In the Preview environment, you can remove the record type's inherited permissions received from the workspace. 
 
-You can give users different permissions on the record type than they have on the workspace. However, you can never grant higher permissions for the record type than users have on the workspace. 
+You can give users lower permissions on the record type than they have on the workspace. 
+
+However, you can not do the following:
+
+* Grant higher permissions for the record type than users have on the workspace.
+* Give workspace managers lower permissions on a record type.
+* Remove View permissions to the record type or the workspace by removing users from the record type permissions.  
 
 The following scenarios exist: 
 
 |   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, Remove permissions           | 
-| Contribute |     Contribute |  Contribute, View, Remove permissions        |
-| View   |  View     |      View, Remove permissions        |     
+| Manage |   Manage    |   Manage, Remove permissions*           | 
+| Contribute |     Contribute |  Contribute, View, Remove permissions*        |
+| View   |  View     |      View, Remove permissions*        |     
+
+>[!NOTE]
+>
+>*When you remove permissions from a record type, users still retain View permissions to the workspace and all the record types, unless you remover their permissions from the workspace. 
 
 </div>
 
--->
-
 ### Record permissions
 
-Record permissions are inherited from <!--<span class="preview">the record type</span>, when you grant permissions to -->the workspace<!-- and <span class="preview">the record type</span>-->.
+Record permissions are inherited from <span class="preview">the record type</span>, when you grant permissions to the workspace and <span class="preview">the record type</span>. 
 
 The following are the levels of permissions for records: 
 
@@ -173,7 +176,7 @@ The following are the levels of permissions for records:
 
 ### Field permissions
 
-Field permissions are inherited from <!--<span class="preview">the record type</span>, when you grant permissions to -->the workspace <!--and <span class="preview">the record type</span>-->.
+Field permissions are inherited from <span class="preview">the record type</span>, when you grant permissions to the workspace and <span class="preview">the record type</span>.
 
 The following permissions refer to the fields themselves and not to the values associated with each field. To edit field values you must have permissions to edit records. 
 

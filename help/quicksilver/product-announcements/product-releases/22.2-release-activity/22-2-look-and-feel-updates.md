@@ -49,7 +49,7 @@ The toolbars on the following lists and reports now have a modern look and feel,
 
 >[!NOTE]
 >
->The toolbar for these same reports within dashboards was also updated in Production with the weekly [Maintenance Update](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) on March 3, 2022.
+>The toolbar for these same reports within dashboards was also updated in Production with the weekly [Maintenance Update](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) on March 3, 2022.
 
 * Project reports
 * Task reports
