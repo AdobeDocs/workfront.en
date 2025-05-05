@@ -9,7 +9,7 @@ role: Developer
 ---
 # What's new in API version 20
 
-Adobe Workfront released API version 20 on April 8, 2024. API version 20 features the following changes from version 19.
+Adobe Workfront released API version 20 on May 4, 2025. API version 20 features the following changes from version 19.
 
 ## Added resources
 
