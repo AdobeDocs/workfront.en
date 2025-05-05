@@ -161,11 +161,11 @@ There are no updates for the following at this point in the release:
 * Goals
 
 
-### API version 19
+### API version 20
 
-For API version 19, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
+Workfront API version 20 was release on May 4, 2024. For API version 20, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
 
-For information on what's new and updated, see [What's new in API version 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
+For information on what's new and updated, see [What's new in API version 20](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
 For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
