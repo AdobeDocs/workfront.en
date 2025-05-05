@@ -1,12 +1,12 @@
 ---
 title: Configure Adobe Workfront Planning Automations
-description: You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning. The created objects and records are automatically connected to existing Planning records. This article describes how you can manage automations, including how to edit, disable, or delete them. 
+description: You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning. The created objects and records are automatically connected to existing Planning records. This article describes how you can manage automations, including how to edit, disable, or delete them.
 feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
+exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
 ---
-
 # Configure Adobe Workfront Planning automations
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
@@ -255,4 +255,4 @@ You must configure an automation for a record type in Workfront Planning before 
       To make it available again, click the **More** menu ![More menu](assets/more-menu.png) again, then click **Activate**.
    1. Click **Delete** to delete the automation. A deleted automation cannot be recovered. 
    
-      Records that have been created using a deleted automation remain connected to the record originally selected. 
+      Records that have been created using a deleted automation remain connected to the record originally selected.
