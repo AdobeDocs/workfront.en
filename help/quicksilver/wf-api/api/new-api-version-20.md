@@ -1181,7 +1181,7 @@ A QueueDef object represents a Queue, which is a project that has been published
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
               </li>-->
             </ul>
-<!-->            <p>Modified the following possible values:</p>
+<!--            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
