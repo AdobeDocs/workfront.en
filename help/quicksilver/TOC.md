@@ -1220,7 +1220,7 @@ feature-set: Workfront
       * [Overview of attaching a template to a project](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
     * Define a Business Case {#define-business-case}
       * [Define a Business Case: article index](manage-work/projects/define-a-business-case/define-business-case.md)
-      * [Overview of the Areas of the Business Case](manage-work/projects/define-a-business-case/areas-of-business-case.md)
+      * [Business Case Areas Overview](manage-work/projects/define-a-business-case/areas-of-business-case.md)
       * [Create a Business Case for a project](manage-work/projects/define-a-business-case/create-business-case.md)
       * [Approve a Business Case](manage-work/projects/define-a-business-case/approve-business-case.md)
       * [Overview of Business Case financial fields](manage-work/projects/define-a-business-case/business-case-finances.md)
