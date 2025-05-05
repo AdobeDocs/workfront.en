@@ -9,9 +9,13 @@ exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
 ---
 # Search for and share [!DNL Adobe Workfront] items in [!DNL Microsoft Teams]
 
+<!--
+
 >[!NOTE]
 >
 >As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 You can search for [!DNL Workfront] items in any [!DNL Adobe Workfront] channel in [!DNL Microsoft Teams] and share these items with members of your teams. 
 

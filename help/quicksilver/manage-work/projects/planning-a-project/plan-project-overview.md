@@ -10,6 +10,8 @@ exl-id: 67fddb92-4b8a-4628-9b50-a10a806e49d1
 ---
 # Plan a project: article index
 
+<!-- Audited: 4/2025 -->
+
 For information about project information, the Project Team, and how to plan a project, see the following articles:
 
 * [Plan a project overview](../../../manage-work/projects/planning-a-project/plan-project.md) 

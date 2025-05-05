@@ -3,7 +3,7 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Share an issue
 description: Your Adobe Workfront administrator grants users access to view or edit issues when they assign access levels. For more information about granting access to issues, see Grant access to issues.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
 ---
@@ -15,6 +15,43 @@ Along with the access level that users are granted, you can also grant them perm
 
 Permissions are specific to one item in Workfront and define what actions one can take on that item.
 
+
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
+
+You must have the following to share objects:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard</p> 
+   Or
+   <p>Current: Work or higher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View access or higher to the objects you want to share</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions or higher to the objects you want to share</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
 ## Considerations about sharing issues
 
 In addition to the considerations below, also see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
@@ -23,20 +60,13 @@ In addition to the considerations below, also see [Overview of sharing permissio
 >
 >A Workfront administrator can add or remove permissions to any items in the system, for all users, without being the owner of those items.
 
-* The creator of an issue has Manage permissions to it, by default.
+* The creator of an issue has Manage permissions for it by default.
 * You can share issues individually, or you can share several of them at a time. Sharing issues is identical to sharing other items in Workfront. For more information about sharing items in Workfront, see [Share an object](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md). 
 * You can grant the following permissions to an issue:&nbsp;
 
    * View
-
-     ![view_on_issue.png](assets/view-on-issue-221x216.png)
-
-   * Manage
-
-     ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
-
    * Contribute  
-     ![contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
+   * Manage
 
 * When you share an issue, all the documents attached to the issue inherit the same permissions.
 
@@ -46,7 +76,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 ## Ways to share an issue
 
-* Manually, which is similar to sharing any other object in Workfront.&nbsp;For more information about how to share objects in Workfront, see [Share an object](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md). 
+* Manually, which is similar to sharing any other object in Workfront. 
 * Automatically, by doing one of the following:
 
    * Specify the permissions on any of the parent objects of the issue: project, program, or portfolio. Issues inherit the permissions from their parent objects. For information about viewing inherited permissions on objects, see [View inherited permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md). 
@@ -56,7 +86,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
      >[!TIP]
      >
-     >If you don't specify what issue permissions you want users to have when they are assigned to the issues on the project, they receive the same permissions they have on the project, by default.
+     >If you don't specify what issue permissions you want users to have when they are assigned to the issues on the project, they receive the same permissions they have on the project by default.
 
    * Specify the permissions users receive on issues they submit in a request queue when creating a request queue. For information, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -125,6 +155,73 @@ In addition to the considerations below, also see [Overview of sharing permissio
 </ol>
 </div>
 -->
+
+## Share an issue
+
+1. Navigate to the issue you want to share.
+
+1. To the right of the issue name, click **Share**. The **Share [Issue Name]** dialog box opens.
+
+    ![Share issue button](assets/share-issue-button.png)
+
+1. In the **Grant issue access to** field, begin typing the name of the user, team, role, group, or company you want to share the issue with, then click the name when it appears in the drop-down list.
+
+   >[!TIP]
+   >
+   >You can only share an issue with active users, teams, roles, or companies.
+
+
+1. (Optional) Select the **Who has access** drop-down and select the issue's access level:
+
+   * **Only invited people can access:** Only users who are invited to the issue can access it (Default).
+   * **Everyone in the system can view**: All users in the system can view the issue without an invitation.
+
+1. Click the drop-down to the right of the user's name and select their permission level for this issue:
+
+   * **View**: User can review and share the issue. 
+   * **Contribute**: User can make updates, log information, make minor edits, and share the issue (also includes all View permissions).
+   * **Manage**: User has full access to the issue without administrative rights, which are granted at the access level (also includes all View and Contribute permissions).
+
+1. (Optional) Click the advanced options icon next to the permission level you've granted to configure specific permissions on the issue.
+
+    ![Configured advanced permission options](assets/advanced-permission-options.png)
+
+1. (Optional) To quickly share the issue using a link, click **Copy link** and then forward it to the recipient.
+
+1. Click **Save**.
+
+## Share issues in bulk 
+
+1. Navigate to the project that contains the issues you want to share. 
+
+1. In the **Issues** tab on the project page, select the box to the left of each issue you want to share, then click the **Share** icon ![Share icon](assets/share-icon.png) at the top of the page. The share modal opens.
+
+    ![Bulk share issues](assets/bulk-share-issues.png)
+
+1. In the **Grant issue access to** field, begin typing the name of the user, team, role, group, or company you want to share the issues with, then click the name when it appears in the drop-down list.
+
+   >[!TIP]
+   >
+   >You can only share issues with active users, teams, roles, or companies.
+
+
+1. (Optional) Select the **Who has access** drop-down and select the issues' access level:
+
+   * **Only invited people can access:** Only users who are invited to the issues can access them (Default).
+   * **Everyone in the system can view**: All users in the system can view the issues without an invitation.
+
+
+1. Click the drop-down to the right of the user's name and select their permission level for the issues:
+
+   * **View**: User can review and share the issues. 
+   * **Contribute**: User can make updates, log information, make minor edits, and share the issues (also includes all View permissions).
+   * **Manage**: User has full access to the issues without administrative rights, which are granted at the access level (also includes all View and Contribute permissions).
+
+1. (Optional) Click the advanced options icon next to the permission level you've granted to configure specific permissions on the issues.
+
+    ![Configured advanced permission options](assets/advanced-permission-options.png)
+
+1. Click **Save**.
 
 ## Issue permissions
 

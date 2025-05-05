@@ -66,7 +66,7 @@ To help you better visualize and manage your daily work with calendars, custom d
 
 Previously, you could manage your calendar only with projected, planned when actual dates were not available.
 
-For more information, see [Use custom date fields in a calendar report](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (or if you are using Workfront Classic, see [Use custom date fields in a calendar report](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=en_US)).
+For more information, see [Use custom date fields in a calendar report](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (or if you are using Workfront Classic, see [Use custom date fields in a calendar report](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 ## Email changes
 
@@ -76,7 +76,7 @@ Previously, System administrators could add an custom email address in the Email
 
 **Inbound email POP reply changes:** System Administrators will no longer have the ability to configure a custom POP email server for incoming email replies to notifications.
 
-For more information, see [Email spoofing and POP reply email changes](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
+For more information, see [Email spoofing and POP reply email changes](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 ## DomainKeys Identified Mail (DKIM) now included on outgoing Workfront emails
 

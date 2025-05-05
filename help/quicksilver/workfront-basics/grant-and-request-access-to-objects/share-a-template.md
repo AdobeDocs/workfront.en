@@ -34,12 +34,7 @@ Permissions are specific to one item in Workfront and define what actions one ca
      You can grant the following permissions to a template:
 
       * View
-
-        ![](assets/view-on-template-262x221.png)
-
       * Manage
-
-        ![](assets/manage-on-template-225x280.png)
 
    * The future projects which are created using the template. You can give the same levels of permissions to projects created from a template as you would an individual project.&nbsp;
 

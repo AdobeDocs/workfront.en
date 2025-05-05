@@ -9,8 +9,6 @@ exl-id: 494d040c-bd1d-4356-824f-a75890803617
 ---
 # Edit an existing calendar report
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span> 
-
 You can modify an existing calendar by adding or deleting a link to a project. You can also modify calendar groupings associated with a calendar report.
 
 >[!NOTE]
@@ -54,45 +52,12 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Edit an existing calendar report in Production
+
+## Edit an existing calendar report 
 
 {{step1-to-calendars}}
 
-1. (Optional) To change the name of the calendar report, click the [!UICONTROL calendar name] field, then make the desired changes. We recommend using only UTF-8 characters to avoid compatibility issues.
-
-   ![Change report name](assets/titlechange-250x230.png)
-
-   If you have shared the calendar report with other users or teams, the modified calendar name is automatically updated in their calendar view.
-
-1. (Optional) To add a project to the calendar report:
-
-   1. Click **[!UICONTROL Add to Calendar].**
-   1. In the **[!UICONTROL Project name]** field, begin typing the name of a project from which you want to add calendar events, then click the name when it displays in the drop-down list.
-
-      ![Select the project name](assets/calendar-project-name.png)
-Items from the project and its associated tasks and issues are added to the calendar report.
-
-1. (Optional) To add a calendar grouping or to modify an existing calendar grouping:
-
-   1. Hover over the project name, click the drop-down arrow next to the project name, then click **[!UICONTROL Edit]**.
-
-      ![Edit calendar grouping](assets/editcalendergroup-350x126.png)
-
-   1. Choose how you want to group your items:
-
-      * [Use [!UICONTROL Planned Dates] in a calendar report](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-      * [Use [!UICONTROL Projected Dates] in a calendar report](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
-      * [Use custom date fields in a calendar report](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
-
-
-<div class="preview">
-
-## Edit an existing calendar report in Preview
-
-{{step1-to-calendars}}
-
-1. (Optional) To change the name of the calendar report, click the **More** menu and select **Edit**. 
-   ![more menu](assets/new-more-menu-calendar.png)
+1. (Optional) To change the name of the calendar report, click the **Rename** next to the calendar drop-down menu.
    If you have shared the calendar report with other users or teams, the modified calendar name is automatically updated in their calendar view.
 
 1. (Optional) To add a project to the calendar report:
@@ -104,7 +69,7 @@ Items from the project and its associated tasks and issues are added to the cale
 
 1. (Optional) To add a calendar grouping or to modify an existing calendar grouping:
    1. Click the **More** menu next to the project name, then click **Edit**. 
-   ![edit project in calendar](assets/edit-project-in-calendar.png)e
+   ![edit project in calendar](assets/edit-project-in-calendar.png)
 
    1. Choose how you want to group your items:
 
@@ -112,5 +77,3 @@ Items from the project and its associated tasks and issues are added to the cale
       * [Use [!UICONTROL Projected Dates] in a calendar report](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [Use custom date fields in a calendar report](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
 
-
-      </div>

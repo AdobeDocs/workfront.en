@@ -21,7 +21,7 @@ For information about record views and how to manage them, see [Manage record vi
 
 ## Access requirements
 
-+++ Expand to view access requirements.. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -80,7 +80,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p></td> 
   </tr> 
 </tbody> 
 </table> 
@@ -88,66 +89,6 @@ You must have the following access to perform the steps in this article:
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
-
-
-<!--
-OLD:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## Edit records using the table view
 
@@ -163,9 +104,11 @@ When creating a table view, all records of the selected type display in a table.
 
 To manage a table view: 
 
-1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. <span class="preview">Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). </span>
 
-    ![Table view example](assets/table-view-example.png)
+    <span class="preview">![Table view example](assets/table-view-example.png)
+    
+    </span>
 
 1. (Optional) Click **Row height**, then select from the following options to modify the height of the table rows: 
     * Short
@@ -176,14 +119,17 @@ To manage a table view:
     * [Columns (or fields)](#add-columns-or-fields)
     * [Rows (or records)](#add-rows-or-records)
     * [Filters](#add-filters) 
-    * [Grouping](#add-groupings)
     * [Sort](#add-a-sort) 
-    * [Enable the real-time presence indicator](#enable-the-real-time-presence-indicator)
+    * [Grouping](#add-groupings)
+    * <span class="preview">[Row colors](#add-row-colors)</span>
+    * [Real-time presence indicator](#enable-the-real-time-presence-indicator)
 
 
 ### Add columns (or fields) {#add-columns}
 
-The column headers of a table view display fields associated with the records in the view. The same fields displayed in the table view also display in the Details section of a record. For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+The column headers of a table view display fields associated with the records in the view. Fields displayed in the table view also display in the Details section of a record. 
+
+For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -398,68 +344,15 @@ To add a filter to a table view:
     * **AND**: All specified conditions must be met. 
     * **OR**: Any of the specified conditions must be met. This is the default option.
 
-    <div class="preview">
-
     1. (Optional) Add additional **AND** or **OR** operators between multiple condition groupings.
 
         ![Multi-tiered filters in views](assets/multi-tiered-filters-in-views.png)
-
-    </div>
 
     The list of records is filtered automatically.  <!--at this time, you can't name and save the filter - but will this change?!-->
     <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Optional) Click the **x** icon to remove a filter condition.
 1. (Optional) Click **Filters** to close the filters box. <!--right now you cannot "clear all" for filters, but this might come later-->
-
-### Add groupings {#add-groupings}
-
-<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
-
-You can group records by similar information when applying  a grouping to a view.
-
-Adding groupings in the table view is similar to adding groupings to the timeline view. 
-
-Consider the following:
-
-* You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type.
-* You can apply 3 levels of grouping in a view. The records are grouped in the order of groupings that you select. 
-<!--* You can apply up to 4 levels of grouping when using the API. --checking on this one for now-->
-* The groupings are unique to the view that you select. Two table views of the same record type can have different groupings applied to them. Two users looking at the same table view see the same grouping that is currently applied. 
-* You cannot name the groupings you build for a table view.
-* Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
-* You can edit records listed under a grouping. 
-* You can group by connected record fields or lookup fields. 
-* When you group by lookup fields with multiple values (that have not been summarized by an aggregator), records are grouped by each unique combination of field values.  
-* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a grouping for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the grouping you are creating for the Activity record type. 
-<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
-<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
-
-To add a grouping:
-
-1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Grouping** in the upper-right corner of the table view.
-
-    ![Grouping UI table view with linked fields](assets/grouping-ui-table-view-with-linked-fields.png)
-
-1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list.
-
-    The grouping is applied automatically to the table and records display under the grouping separation line.
-    
-1. (Optional) Click **Add condition** and repeat the above steps to add up to 3 groupings. 
-
-    The number of fields selected for the grouping displays next to the Grouping icon. 
-
-    ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
-
-1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
-
-    Or
-
-    Click **Clear all** to remove all fields.  
-
-1. Click outside the **Group records by** box to close it. 
-1. (Optional) Click **+ New record** at the end of any grouping to add new records, then refresh your page to add the new record to the appropriate grouping. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Add a sort {#sort-information} 
 
@@ -522,6 +415,56 @@ To sort <!--ungrouped (add this when sorting for groupings will be available--> 
     The information displayed in the table is sorted according to your selected criteria. 
     
     The fields selected for the sort display a sorting icon followed by a number that indicates the order in which the sorting is applied. 
+
+### Add groupings {#add-groupings}
+
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
+
+You can group records by similar information when applying  a grouping to a view.
+
+Adding groupings in the table view is similar to adding groupings to the timeline view. 
+
+Consider the following:
+
+* You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type.
+* You can apply 3 levels of grouping in a view. The records are grouped in the order of groupings that you select. 
+<!--* You can apply up to 4 levels of grouping when using the API. --checking on this one for now-->
+* The groupings are unique to the view that you select. Two table views of the same record type can have different groupings applied to them. Two users looking at the same table view see the same grouping that is currently applied. 
+* You cannot name the groupings you build for a table view.
+* Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
+* You can edit records listed under a grouping. 
+* You can group by connected record fields or lookup fields. 
+* When you group by lookup fields with multiple values (that have not been summarized by an aggregator), records are grouped by each unique combination of field values.  
+* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a grouping for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the grouping you are creating for the Activity record type. 
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
+
+To add a grouping:
+
+1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. Click **Grouping** in the upper-right corner of the table view.
+
+    ![Grouping UI table view with linked fields](assets/grouping-ui-table-view-with-linked-fields.png)
+
+1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list.
+
+    The grouping is applied automatically to the table and records display under the grouping separation line.
+    
+1. (Optional) Click **Add condition** and repeat the above steps to add up to 3 groupings. 
+
+    The number of fields selected for the grouping displays next to the Grouping icon. 
+
+    ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
+
+1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
+
+    Or
+
+    Click **Clear all** to remove all fields.  
+
+1. Click outside the **Group records by** box to close it. 
+1. (Optional) Click **+ New record** at the end of any grouping to add new records, then refresh your page to add the new record to the appropriate grouping. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+
     
 <!-- this is not available yet: 
 
@@ -532,6 +475,42 @@ To sort grouped records:
 
 -->
 
+<div class="preview">
+
+### Add row colors
+
+1. (Optional) Click **Row colors** to define conditions and choose configure diferent colors for table rows.
+
+1. Click **Add color**, then **Select a field** whose value you want to determine the color of a row. 
+
+    For example, to display campaigns with a status of Active in green, select **Status**, then choose a modifier and a value for the field. 
+
+    ![Row colors box with Active status selected and default color choice](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+
+1. Click the drop-down menu for the color picker in the upper-left corner of the condition you selected, to pick the color for the condition, then click outside the color picker box to close it. 
+
+    ![Drop-down color picker menu in Row colors box highlighted](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+
+1. (Optional) Click **Add condition** to add more fields and values to the first set of conditions 
+
+    Or
+
+    Click **Add color** to add a new set of conditions and identify a new color. 
+    
+    For example, you can display campaigns in a Planning status in yellow by defining a new set of conditions. 
+
+    ![Row colors box with Active and Planning status cusrom colors](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+
+1. (Optional) Turn on the **Apply to the entire row** setting in the upper-right corner of the Row colors box. The entire row where the condition is met automatically displays in the selected color. 
+
+    >[!TIP]
+    >
+    >If the Apply to the entire row setting is turned off, only the left side of the Primary field displays a narrow color indicator with the selected color. The setting is turned off by default.
+
+1. Click outside the **Row colors** box to close it. The colors are applied automatically.
+
+</div>
+
 ### Enable the real-time presence indicator
 
 The avatars of other users who are editing record information at the same time as you display in the upper-right corner of all record views, by default.
@@ -539,3 +518,4 @@ The avatars of other users who are editing record information at the same time a
 When you display the table view, you can also view which field another user is editing at the time you are viewing the record. 
 
 For more information, see the "Enable the real-time presence indicator" section in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+

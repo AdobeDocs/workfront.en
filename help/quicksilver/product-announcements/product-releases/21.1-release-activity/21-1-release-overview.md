@@ -331,7 +331,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-For information about what's new and updated, see [What's new in API version 12](https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm).
+For information about what's new and updated, see [What's new in API version 12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
 
 For more information about API versions, see [API versioning and support schedule](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -392,10 +392,10 @@ The Workfront 21.1 Release Webinar will be presented February 3, at 11:00 am EDT
 
 Starting on May 20, 2020, Workfront began to make functionality available in the Preview environment on a weekly basis. Prior to this change, functionality was typically released to the Preview environment every two weeks.
 
-For more information, see [Change in Workfront preview release cadence FAQ](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+For more information, see [Change in Workfront preview release cadence FAQ](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### Workfront One {#workfront-one}
 
 With Workfront One, you'll discover the most important content, resources, and news from Workfront —all in one place, with one login. We've unified the Experience, Community, and Training sites making it easier to find what you're looking for.
 
-[Learn more about Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Learn more about Workfront One](https://business.adobe.com/products/workfront.html).

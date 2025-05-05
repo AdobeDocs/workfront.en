@@ -47,7 +47,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Enhancements to custom forms logic</a></p>
+            Enhancements to custom forms logic</a></p><p>[!BADGE In production ]{type=Informative}</p>
             <p>The custom forms logic builder has an updated interface to provide you with more room for creating logic rules. This new design can more easily accommodate additional logic types that may be added in the future.</p><p>In addition to the current display and skip logic options, validation logic is also available.</p>
         </td>
         <td>
@@ -91,11 +91,11 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
         <td>
             <p><b>Available on these dates:</b></p>
             <ul>
-                <li>Preview release: March 27, 2025</li>
-                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
+                <li>Preview release: April 9, 2025</li>
+                <li>Production release for a limited set of customers: With the 25.4 release (April 2025)</li>
             </ul>
         </td>
-    </tr>    -->                      
+    </tr>   -->                     
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -137,7 +137,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Enhancements to proofs in the mobile app (iOS only)</a>[!BADGE In production ]{type=Informative}</p>
+            Enhancements to proofs in the mobile app (iOS only)</a><p>[!BADGE In production ]{type=Informative}</p></p>
             <p>Several enhancements are available for proof functionality in the Adobe Workfront mobile app:
             <ul>
             <li>You can now open a proof file from your mobile email application, from a link that was shared with you. Previously, links from emails were not supported and you had to access proofs from the Workfront mobile app.</li>
@@ -169,7 +169,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Add a comment to projects when editing them in the Edit project box</a>[!BADGE In production for Fast Release]{type=Positive}</p>
+            Add a comment to projects when editing them in the Edit project box</a><p>[!BADGE In production ]{type=Informative}</p>
             <p>You can now add a comment to a project as you edit it in the Edit Project box. You can also add a comment to multiple projects at one time when editing them in bulk. Prior to this update, this functionality did not exist when editing projects.</p>
         </td>
         <td>
@@ -193,7 +193,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Document approval and decision data now available in Data Connect</a>[!BADGE In production ]{type=Informative}</p>
+            Document approval and decision data now available in Data Connect</a><p>[!BADGE In production ]{type=Informative}</p>
             <p>You can now access data for document approvals and decisions in Data Connect. This data set bridges document approvals from Workfront proofing capabilities and Frame.io approvals that are happening on Workfront documents. You will now be able to illustrate cycle time, number of cycles, and timeline impacts for late approvals through your BI visualizations.</p>
         </td>
         <td>
@@ -206,7 +206,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
     </tr>                          
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Updates to the Workfront Calendar</a></p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Updates to the Workfront Calendar</a></p><p>[!BADGE In production ]{type=Informative}</p>
             <p>We have updated the look and feel of the Workfront Calendar to a modern design that is consistent with other areas of Workfront. There are small functionality differences from the current Workfront Calendar including:
             <ul>
             <li>How you add ad-hoc items to the calendar</li>
@@ -219,7 +219,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: February 27, 2025</li>
-                <li>Production release for all customers: With the 25.4 release (April 10, 2025)</li>
+                <li>This feature will release to Production in a three-phased rollout: Starting with the 25.4 release (April 10, 2025) and completing April 17, 2024</li>
             </ul>
         </td>
     </tr>                          
@@ -249,9 +249,7 @@ Monthly and quarterly releases are planned to be available on Thursday of the se
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Represent Adobe Admin Console user changes as "System" in the Workfront update feed</a></p>
-            [!BADGE In production for Fast Release ]{type=Positive}
-            <p>Now, when the administrator of the Adobe Admin Console makes a change to the user information of a Workfront user, Workfront records this change in the System activity tab of the user's Updates area as belonging to the "System". This refers to the Adobe Admin Console administrator.</p>
+            Represent Adobe Admin Console user changes as "System" in the Workfront update feed</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Now, when the administrator of the Adobe Admin Console makes a change to the user information of a Workfront user, Workfront records this change in the System activity tab of the user's Updates area as belonging to the "System". This refers to the Adobe Admin Console administrator.</p>
         </td>
         <td>
             <p><b>Available on these dates:</b></p>
@@ -348,8 +346,8 @@ For information on which API versions are currently supported, see [API versioni
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Second Quarter 2025 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+For information about the maintenance updates made during the Second Quarter 2025 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Training updates
 
-Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).

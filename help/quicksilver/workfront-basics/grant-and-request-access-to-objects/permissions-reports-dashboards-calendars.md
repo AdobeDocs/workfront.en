@@ -48,12 +48,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 * You can grant the following permissions to reports, dashboards, and calendars:
 
    * View
-
-     ![](assets/screen-shot-2014-01-22-at-10.19.55-am.png)
-
    * Manage
-
-     ![](assets/screen-shot-2014-01-22-at-10.20.13-am.png)
 
 * When you share a dashboard, users have View permissions by default to all the reports, calendars, and external pages on the dashboard.
 * Users with a Request license cannot view a system-wide report. A report must be shared with the Requestors individually if they need to view it.
