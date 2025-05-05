@@ -1,17 +1,17 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Export data
-description: You can export Adobe Workfront data from various lists, reports, dashboards, and searches.
+title: Export Data
+description: You can export Adobe Workfront data from lists, reports, dashboards, and searches.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
 ---
 # Export data
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 5/2025 -->
 
-You can export Adobe Workfront data from various lists, reports, dashboards, and searches.
+You can export Adobe Workfront data from lists, reports, dashboards, and searches.
 
 Some of the reasons to export data are:
 
@@ -91,14 +91,14 @@ For more information on creating reports, see [Create a custom report](/help/qui
 
 Information can be exported in the following formats:
 
-* PDF (Letter Landscape or Portrait, Legal, Ledger, and A4)
-* Excel (.xls)
+* PDF (Landscape or Portrait)
+* Excel
 * Excel (.xlsx)
 * Tab Delimited
 
 >[!NOTE]
 >
->Dashboards can either be printed or exported only to a .pdf file.
+>Dashboards can either be printed or exported only to a PDF file.
 
 ### Export limits {#export-limits}
 
@@ -109,10 +109,10 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 There are several limitations around the way reports display in Workfront as well as the way they export through a manual export, a delivered report, or through the API.
 
 * **50,000 cells:** The maximum number of cells allowed in a report export for Excel files. 
-* **50,000 rows:** The number of rows of data allowed in a report export for .pdf and Tab Delimited files.
+* **50,000 rows:** The number of rows of data allowed in a report export for PDF and Tab Delimited files.
 
-  * For Excel .xls files, this limit is **65,000 rows**.  
-  * For Excel .xlsx files, this limit is **100,000 rows**.  
+  * For Excel files, this limit is **65,000 rows**.  
+  * For Excel(.xlsx) files, this limit is **100,000 rows**.  
   * These limits exclude the column headings, as well as rows for groupings in the report. For instance, if you have 6 groupings in a report, and 50,000 rows of data, the exported file will have 50,000 rows.
 
   >[!IMPORTANT]
@@ -147,7 +147,7 @@ There are several limitations around the way reports display in Workfront as wel
     For more information about exporting utilization information for a project, see [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
 
 * **10MB file size:** File size limit for any exported report scheduled for delivery. If an exported file attached to an email is larger than 5MB, a link where the file can be downloaded is emailed instead of the attached exported report.
-* **65,530 hyperlinks:** This is a limit imposed by Excel on documents that contain more than 65,530 hyperlinks. These documents cannot be opened when they are exported manually, or sent in a delivered report. Note that an Excel document may have just 200 rows of data, but if there are more than 65,530 links inside the document, the document does not open. This limit exists on Excel files only, not on the other supported formats.&nbsp;
+* **65,530 hyperlinks:** This is a limit imposed by Excel on documents that contain more than 65,530 hyperlinks. These documents cannot be opened when they are exported manually, or sent in a delivered report. Note that an Excel document may have just 200 rows of data, but if there are more than 65,530 links inside the document, the document does not open. This limit exists on Excel files only, not on the other supported formats.
 * **256 columns**: This is a limit imposed by Excel on documents that contain more than 256 columns. These documents cannot be exported manually, or sent in a delivered report. This limit exists on Excel files only, not on the other supported formats.
 
   >[!IMPORTANT]
@@ -169,7 +169,7 @@ If you have concerns or issues regarding your limit, please contact Workfront Te
 ### Export data from a report or list {#export-data-from-a-report-or-list}
 
 1. Go to the report or list you want to export.
-1. Select the items you want to export. (Selecting individual items exports only the items you select.)
+1. Select the items you want to export. Selecting individual items exports only the items you select.
 
    For example, in a project, select the tasks you want to export.
 
@@ -191,30 +191,24 @@ If you have concerns or issues regarding your limit, please contact Workfront Te
 
    Click the **Export** icon ![Export icon](assets/export-icon-nwe.png), then select a format.
 
-   The options available to you for PDF export depend on the locale settings in your Workfront user settings:
+   The options available to you for PDF export depend on the Email Locale settings in your Workfront user settings:
 
-   * North America - letter (default), legal, ledger, A4
+   * North America - Letter - Landscape, Letter - Portrait, Other Sizes
 
-     <!--   
-     <img src="assets/north-america.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
-
-   * All locations outside of North America - A3, A4 (default), letter, legal, ledger
-
-     <!--   
-     <img src="assets/everywhere-else.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
+   * All locations outside of North America - A4 - Landscape, A4 - Portrait, Other Sizes
 
 1. (Conditional) Depending on the operating system you use, you might have the option of opening or saving the file. Either open the file with the associated application or save it to your hard drive.
-1. Continue with [Use the exported document](#use-the-exported-document).
+1. To understand how information displays in the exported file,continue reading the section [Use the exported document](#use-the-exported-document) in this article.
 
 ### Export data from a dashboard {#export-data-from-a-dashboard}
 
-You can print the information from a dashboard, or you can export it as a .pdf file.
+You can print the information from a dashboard, or you can export it as a PDF file.
 
 For more information about exporting data from a dashboard, see [Export a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 ## Use the exported document {#use-the-exported-document}
+
+The following sections describe how information displays in an exported file: 
 
 * [File names](#file-names) 
 * [Titles](#titles) 
@@ -302,11 +296,11 @@ Depending on the type of document you export, timestamps are displayed in variou
 
 ### Formatting {#formatting}
 
-When you export a project to .pdf, any subtasks are displayed as indented to their parent tasks. Exported lists do not collapse any parent tasks.
+When you export a project to PDF, any subtasks are displayed as indented to their parent tasks. Exported lists do not collapse any parent tasks.
 
 You always receive the default tab of a report when a report is sent or scheduled for a delivery, unless the report has a special view.
 
-If your report has special formatting in the web application, the report should be delivered with the special formatting when the Details and the Matrix tabs are delivered, for .pdf and Excel files only.
+If your report has special formatting in the web application, the report should be delivered with the special formatting when the Details and the Matrix tabs are delivered, for PDF and Excel files only.
 
 >[!NOTE]
 >
@@ -316,11 +310,11 @@ For more information on how to customize formatting in a report, see [Use condit
 
 ### Links {#links}
 
-Links can point to any object in Workfront that supports linking. When you export a list in Workfront to .pdf, any supported links that exist in the original document remain live in the exported document.
+Links can point to any object in Workfront that supports linking. When you export a list in Workfront to PDF, any supported links that exist in the original document remain live in the exported document.
 
 >[!TIP]
 >
->If the line `valueformat=HTML` appears in text mode for a custom field column and the link values do not display in an exported .pdf file, you need to enter additional lines of code to your column in text mode.
+>If the line `valueformat=HTML` appears in text mode for a custom field column and the link values do not display in an exported PDF file, you need to enter additional lines of code to your column in text mode.
 >
 >For example, if you have a custom field called Open Q1 Projects that contains links, you would add the following code: 
 >
@@ -337,7 +331,7 @@ When you export to an Excel format, only links to objects within Workfront are i
 >
 >If your organization has been onboarded to Adobe Experience Cloud, branding is not available.
 
-If your Workfront administrator has added customized branding to your Workfront instance for the Global Navigation Bar, the exported .pdf files also include your personalized logo.
+If your Workfront administrator has added customized branding to your Workfront instance for the Global Navigation Bar, the exported PDF files also include your personalized logo.
 
 Data that is exported in any other formats cannot be personalized with your logo.
 

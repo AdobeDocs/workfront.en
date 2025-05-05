@@ -2083,6 +2083,7 @@ feature-set: Workfront
     * [Manage record connections from Workfront objects](planning/records/manage-records-in-planning-section.md)
     * [Export a record's details](planning/records/export-the-record-page.md)
     * [Create Workfront objects from Workfront Planning as you connect them to records](planning/records/create-workfront-objects-from-workfront-planning.md)
+    * [Configure Adobe Workfront Planning automations](planning/records/configure-automations-to-create-records.md)
     * [Create objects using Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
   * Adobe Workfront Planning requests {#adobe-workfront-planning-requests}
     * [Adobe Workfront Planning requests: article index](planning/requests/requests-article-index.md)
