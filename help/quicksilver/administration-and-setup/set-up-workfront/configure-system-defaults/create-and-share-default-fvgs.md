@@ -60,7 +60,7 @@ For more detail about the information in this table, see [Access requirements in
 
    * Click **[!UICONTROL Interface]** > **[!UICONTROL Filters]**.
    
-   * Click **[!UICONTROL Interface] >** **[!UICONTROL Views]**.
+   * Click **[!UICONTROL Interface]** > **[!UICONTROL Views]**.
    
    * Click **[!UICONTROL Interface]** > **[!UICONTROL Groupings]**.
 

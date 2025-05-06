@@ -2,14 +2,16 @@
 content-type: overview;reference
 product-area: requests
 navigation-topic: projects-navigation-topic
-title: Requests
+title: "Requests: article index"
 description: Learn information about creating requests and request queues in the following sections. 
 author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: f7c12f06-868e-45da-816b-4eb94e06c783
 ---
-# Requests
+# Requests: article index
+
+<!-- Audited: 5/2025 -->
 
 This section contains the following subsections:
 
