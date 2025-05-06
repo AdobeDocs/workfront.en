@@ -2260,7 +2260,13 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Task]</td> 
-   <td> <p>An activity that must be performed as a step toward achieving a final goal (completing the Project).</p> <p>For more information, see <a href="../../../manage-work/tasks/task-information/tasks-overview.md" class="MCXref xref">Tasks overview</a>.</p> </td> 
+   <td> <p>An activity that must be performed as a step toward achieving a final goal (completing the Project).</p> 
+   
+   <p>Tasks are smaller units of work that ultimately complete a project, which represents a larger unit of work.</p>
+   <p>Tasks can never exist independently. They are always part of a project. </p>
+   <p>For more information about tasks, see <a href="../../../manage-work/tasks/task-information/tasks-overview.md" class="MCXref xref">Tasks overview</a>.</p> 
+   <p>For information about creating tasks, see <a href="/help/quicksilver/manage-work/tasks/create-tasks/create-tasks-in-project.md">Create tasks in a project</a>
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Task Attribute]</td> 
