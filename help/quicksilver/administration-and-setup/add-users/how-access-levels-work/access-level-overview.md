@@ -109,7 +109,7 @@ Attached to the Light license, this access level is designed for users who:
 * View all items and updates tied to work
 * Approve projects, tasks, and issues
 * View dashboards and reports
-* Track time and approve timesheets
+* Track time on tasks and issues and approve timesheets
 * Create and manage issues
 
 Users with the Light access level:
