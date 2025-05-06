@@ -2,14 +2,16 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: Task information
+title: "Task information: article index"
 description: Tasks are work items that contribute to the completion of a project in Adobe Workfront. Learn about task information in the following articles.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
 ---
-# Task information
+# Task information: article index
+
+<!-- Audited: 5/2025 -->
 
 This section contains the following articles:
 

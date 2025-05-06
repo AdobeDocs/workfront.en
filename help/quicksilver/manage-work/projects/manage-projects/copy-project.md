@@ -14,7 +14,11 @@ exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
 -->
 
-You can copy a project rather than create one from scratch. You can copy only one project at a time. You cannot copy projects in bulk.
+<!-- Audited: 5/2025 -->
+
+You can copy a project from an existing one rather than create one from scratch, which helps save you time. 
+
+Please note that you can't copy projects in bulk.
 
 >[!IMPORTANT]
 >
@@ -38,7 +42,7 @@ You can copy a project rather than create one from scratch. You can copy only on
 >* Scorecard
 >* Task Default information (Task Default Approval Process, Task Default Custom Forms)
 >
-> The dates of the original tasks on the projects copy to the new project. You must change the Start or Completion date of the project (depending on its Schedule Mode) to update the dates on the tasks. Task constrains might prevent you from changing the dates on the project.  
+> The dates of the original project's tasks will copy to the new project. You must change the Start or Completion date of the project (depending on its Schedule Mode) to update the task dates. Task constrains might prevent you from changing the dates on the project.  
 
 ## Access requirements
 
@@ -71,34 +75,40 @@ You can copy a project rather than create one from scratch. You can copy only on
  </tbody> 
 </table>
 -->
-You must have the following:
+
++++ Expand to view access requirements for the functionality in this article.
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
+   <td> <p>Adobe Workfront plan</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> <p><b>NOTE</b>
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td> <p>New: Standard </p> 
+   <p>Or</p>
+   <p>Current: Plan </p>
    
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>View permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td>Access level configurations </td> 
+   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>View permissions or higher to the project</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+ +++
 
 ## Copy a single project
 
@@ -106,27 +116,21 @@ Copying a project also copies some information from the original project to the 
 
 To copy a project:
 
-1. Go to the project that you want to copy and click&nbsp;the **More** icon ![More menu](assets/qs-more-menu.png) to the right of the project name
+{{step1-to-projects}}
 
-   ![More dropdown](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+1. Select the project that you want to copy from the project list, then click&nbsp;the **More** icon ![More menu](assets/more-icon.png) to the right of the project name.
 
    Or
 
-   Go to a project list or report and select a project, then click the **More** icon ![More menu](assets/qs-more-menu.png) at the top of the list.
+   Go to a project list or report and select a project, then click the **More** icon ![More menu](assets/more-icon.png) at the top of the list.
 
-   ![More menu expanded](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+1. In the **More** drop-down menu, click **Copy**. The **Copy of [Project Name]** dialog box appears.
 
-1. Click **Copy**.
+1. (Optional) Update the **Project Name**. By default, the new name is **Copy of [Original project name]**.
 
-1. Update the name of the new project.
+   ![Copy project box](assets/copy-of-project-box.png)
 
-   By default, the new name is **Copy of `<Original project name>`.**
-
-   ![Copy project box](assets/copy-project-box-nwe-350x276.png)
-
-1. Select the **Status** for the new project.
-
-   By default, the **Status** matches that of the original project.
+1. Select a **Status**. By default, the original project's status is selected.
 
 1. (Optional) Deselect the items that you don't want to copy to the new project. The following table describes what happens when you deselect the items:
       
@@ -137,17 +141,17 @@ To copy a project:
     <tbody> 
      <tr> 
       <td role="rowheader">Select all</td> 
-      <td> <p>Selects all options and clears all the fields and objects listed from the new project.</p> <p><b>TIP</b>
+      <td> <p>Selects all options and clears all the fields and objects listed from the new project. </p> 
       
-    Deselecting <strong>Select all</strong> deselects all items. </p> </td> 
+      <p> Deselecting this option deselects all items. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Assignments</td> 
-      <td>Removes all the project and task assignments</td> 
+      <td>Removes all the project and task assignments.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Progress</td> 
-      <td>Removes the progress on all the tasks and they display as New. </td> 
+      <td>Removes the progress on all the tasks, displaying them as New. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Custom Data</td> 
@@ -156,17 +160,16 @@ To copy a project:
         <li>Tasks</li> 
         <li>Expenses</li> 
         <li> Documents</li> 
-       </ul> <p><b>NOTE</b>
-      
-      The custom forms remain attached to the tasks, expenses, documents, and the project, but the information in the custom fields of the forms is not copied to the new project. </p> </td> 
+       </ul> 
+      <p>The custom forms remain attached to the tasks, expenses, documents, and project, but the information in the form's custom fields isn't copied to the new project. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Documents</td> 
-      <td> <p>Removes everything in the documents tab, including document versions, linked documents, and folders.</p> <p>By default, document proofs and approvals cannot be copied to another project. </p> </td> 
+      <td> <p>Removes everything in the Documents tab, including document versions, linked documents, and folders.</p> <p>By default, document proofs and approvals cannot be copied to another project. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">All Predecessors</td> 
-      <td> <p>Removes all predecessor relationships between the tasks on the project. </p> <p><b>TIP</b>
+      <td> <p>Removes all predecessor relationships between the tasks on the project. </p> <p>
       
       Cross-project predecessors never transfer to the new project, regardless of whether this is selected or not. </p> </td> 
      </tr>
@@ -174,19 +177,17 @@ To copy a project:
   <tr> 
       <td role="rowheader">Budgeted hours</td> 
       <td> <p>Removes the hours budgeted in the Resource Planning area of the project's Business Case from the copied project.</p> 
-    
-   <b>NOTE</b>
-    
-   Hours budgeted using the Scenario Planner are never copied to the new project because the new project is not linked to an initiative in the Scenario Planner. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget resources in the Business Case using the Scenario Planner</a>
+    <p>
+   Hours budgeted using the Scenario Planner are never copied to the new project because the new project is not linked to an initiative in the Scenario Planner. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget resources in the Business Case using the Scenario Planner</a></p>
    </tr></td>
     <tr> 
       <td role="rowheader">Financial Information</td> 
       <td> <p>Removes the information in the following areas: </p> 
        <ul> 
-        <li>Finance sub-tab of the project</li> 
+        <li>Finance subtab of the project</li> 
         <li> Planned Benefit in the Business Case</li> 
         <li>Financial information from all tasks<br></li> 
-       </ul> <p>For more information about the project Finance sub-tab, see <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Manage information in the project Finance area</a>.</p> </td> 
+       </ul> <p>For more information about the project Finance subtab, see <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Manage information in the project Finance area</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Approval Process</td> 
@@ -207,8 +208,4 @@ To copy a project:
     </tbody> 
    </table>
 
-1. Click **Copy** to create a copy of the project.
-
-   This creates a new project which is similar to the project you copied.
-
-   You can start making changes to the new copied project, like review task assignments or adjust timelines.
+1. Click **Copy project**. The copied project is created. 
