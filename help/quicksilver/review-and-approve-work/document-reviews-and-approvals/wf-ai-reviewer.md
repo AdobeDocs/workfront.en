@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Workfront AI Reviewer
+title: Get started with the Workfront AI Reviewer
 description: Workfront AI Reviewer
 author: Courtney
 feature: Work Management, Digital Content and Documents
@@ -10,7 +10,9 @@ hide: yes
 hidefromtoc: yes
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 ---
-# Workfront AI Reviewer
+# Get started with the Workfront AI Reviewer
+
+must be on Unified Approvals
 
 ## Supported file types {#supported-file-types-ai-reviewer}
 
@@ -19,4 +21,40 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 >title="Unsupported file type"
 >abstract="This AI reviewer doesn't support the selected file type. Upload a supported file type, or remove the AI reviewer to submit the request."
 
-This links from the UI
+
+Supported file types 
+
+* PNG (.png)
+* JPEG (.jpeg, .jpg)
+* WEBP (.webp)
+* Non-animated GIF (.gif)
+
+## Set up brand guidelines
+
+## Set up AI Reviewer
+
+Assign access level 
+
+Choose brand 
+
+Choose brand category 
+
+## Add AI reviewer to an approval workflow
+
+### Template 
+
+### Adhoc 
+
+Add AI reviewer to a review 
+
+Must be on Unified approvals 
+
+Can follow AI reviewer status in doc summary panel 
+
+Gives score  
+
+Highlights guidelines that need attention 
+
+Add new version and AI reviewer again 
+
+Can add approval templates – can add AI reviewer 
