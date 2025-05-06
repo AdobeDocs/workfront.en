@@ -23,6 +23,7 @@ The following articles describe how you can create and manage records and their 
 * [Create records](/help/quicksilver/planning/records/create-records.md)
 * [Create records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)
 * [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+* [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md)
 * [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [Edit records](/help/quicksilver/planning/records/edit-records.md)
 * [Delete records](/help/quicksilver/planning/records/delete-records.md)

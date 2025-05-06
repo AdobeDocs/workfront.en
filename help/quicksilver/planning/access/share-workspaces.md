@@ -27,7 +27,7 @@ This article describes how you can share a view with others. For information abo
 
 ## Access requirements
 
-+++ Expand to view access requirements.. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -86,7 +86,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p></td> 
   </tr> 
 </tbody> 
 </table> 
@@ -95,18 +96,11 @@ You must have the following access to perform the steps in this article:
 
 +++
 
- <!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
-
 ## Considerations about sharing workspaces
 
 * For general information about sharing objects in Workfront Planning, also see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
 * You can share workspaces with users, teams, roles, groups, or companies inside your organization.
+* In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. 
 * You cannot share workspaces with users outside of your organization. 
 * When you share a workspace, all record types, records, and fields associated with the workspaces are also shared.
 * When you share a workspace, views are not shared. You must share views separately.
