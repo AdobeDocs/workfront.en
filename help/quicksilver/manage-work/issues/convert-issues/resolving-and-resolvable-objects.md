@@ -10,19 +10,21 @@ exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
 ---
 # Overview of Resolving and Resolvable Objects
 
+<!-- Audited: 5/2025 -->
+
 A Resolvable Object is an issue whose resolution is tied to a Resolving Object. A Resolving Object is a project, task, or another issue.
 
 When you convert an issue to a task or a project, the issue becomes the Resolvable Object of the task or the project.   
 
 You can also manually link an issue to a Resolving Object, which can be a task, project, or issue. For information, see [Manually tie the resolution of an issue to other issues, tasks, or projects](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md).   
 
-The original issue becomes the Resolvable Object of the task, project, or issue, in this scenario.
+In this scenario, the original issue becomes the Resolvable Object of the task, project, or issue.
 
 ## Set up Adobe Workfront to handle Resolvable Objects {#set-up-adobe-workfront-to-handle-resolvable-objects}
 
 As a Workfront administrator or group administrator, you can decide how you want to handle the Resolvable Objects in your system or for your group.
 
-You can select to keep the Resolvable Object as you are converting it to a task or a project, or to delete it once the task or project are created. You can select to allow these settings to be changed in the process of converting issues, which will allow the user converting the issues to select whether to keep or to delete the issue as they are converting it.
+You can select to keep the Resolvable Object as you are converting it to a task or a project, or to delete it once the task or project is created. You can select to allow these settings to be changed in the process of converting issues, which will allow the user converting the issues to select whether to keep or to delete the issue as they are converting it.
 
 >[!NOTE]
 >
@@ -72,10 +74,10 @@ Depending on the way the Workfront or group administrator configured the system 
 
 The following scenarios exist:
 
-* If the Workfront or group administrator has the **Keep the original issue and tie its resolution to the task** and the **Keep the original issue and tie its resolution to the project** selected and the **Allow these settings to be changed during conversion** unselected, you will not be able to change these settings as you are converting issues to tasks or projects.  
+* If the Workfront or group administrator has the Keep the original issue and tie its resolution to the task and the Keep the original issue and tie its resolution to the project selected and the Allow these settings to be changed during conversion unselected, you will not be able to change these settings as you are converting issues to tasks or projects.  
   ![Project preferences issues area](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
-* If the Workfront or group administrator has the **Keep the original issue and tie its resolution to the task** and the **Keep the original issue and tie its resolution to the project** either selected or unselected and the **Allow these settings to be changed during conversion** selected, you will be able to change these settings as you are converting issues to tasks or projects.  
+* If the Workfront or group administrator has the Keep the original issue and tie its resolution to the task and the Keep the original issue and tie its resolution to the project either selected or unselected and the Allow these settings to be changed during conversion selected, you will be able to change these settings as you are converting issues to tasks or projects.  
   ![Option to keep issue](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 For more information about converting issues to tasks and projects, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
@@ -127,9 +129,9 @@ When a project's custom status equates to a default status that does not trigger
 
 #### Synchronize the Default Status of the Resolving Object with the Default Status of the Resolvable Object {#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object}
 
-Regardless of whether the "Automatically update Resolvable Issue status when the status of the Resolving Object changes" option is selected, every time the default status changes on the Resolving Objects (projects or tasks), the status of the Resolvable Object (issues) changes, accordingly. Only default statuses are already mapped to trigger such a change.
+Regardless of whether the Automatically update Resolvable Issue status when the status of the Resolving Object changes option is selected, every time the default status changes on the Resolving Objects (projects or tasks), the status of the Resolvable Object (issues) changes accordingly. Only default statuses are already mapped to trigger such a change.
 
-The following default statuses for tasks trigger the following changes in the default statuses for issues, when the issue is set as the resolving object of a task:
+The following default task statuses trigger the following changes in the default issue statuses when the issue is set as the task's resolving object:
 
 | **TASK STATUS** |**ISSUE STATUS** |
 |---|---|
@@ -137,7 +139,7 @@ The following default statuses for tasks trigger the following changes in the de
 | In Progress |In Progress |
 | Complete |Closed |
 
-The following default statuses for projects trigger the following changes in the default statuses for issues, when the issue is set as a Resolvable Object of a project. Some project statuses do not trigger changes to the status of the issues. The issues remain in the status they were before the project was turned into one of these statuses:
+The following default project statuses trigger the following changes in the default issue statuses when the issue is set as a Resolvable Object of a project. Some project statuses do not trigger changes to the issue statuses. The issues remain in the status they were before the project was turned into one of these statuses:
 
 | **PROJECT STATUS** |**ISSUE STATUS** |
 |---|---|
@@ -153,55 +155,60 @@ The following default statuses for projects trigger the following changes in the
 
 >[!NOTE]
 >
->After the status of the issue becomes Closed (as a result of closing the task or the project), regardless of what status the task or project changes to after closing them, the issue remains Closed.
+>After the issue status becomes Closed (as a result of closing the task or the project), regardless of what the task or project status changes to after closing them, the issue remains Closed.
 
 #### Synchronize the Custom Status of the Resolving Object with the Custom Status of the Resolvable Object {#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object}
 
-When you change the status of the task or project to a custom status, the status of the issue changes to a custom issue status only if the following two conditions are met:
+When you change the status of the task or project to a custom status, the issue status changes to a custom issue status only if the following 2 conditions are met:
 
-* The "Automatically update Resolvable Issue status when the status of the Resolving Object changes" option is selected. For more information about how to enable this setting, see [Set up Adobe Workfront to handle Resolvable Objects](#set-up-adobe-workfront-to-handle-resolvable-objects).
+* The Automatically update Resolvable Issue status when the status of the Resolving Object changes option is selected. For more information, see [Set up Adobe Workfront to handle Resolvable Objects](#set-up-adobe-workfront-to-handle-resolvable-objects).
 
-* The custom status of the project or task has the same three letter code as the custom status of the issue.
+* The custom status of the project or task has the same three-letter code as the issue custom status.
 
-You can create custom statuses with the same key for both issues and projects or tasks. When the project or task (as a Resolving Object) are changed to the custom status, the change also reflects on the status of the issue. The status key must be the same for the issue and project or task statuses.
+You can create custom statuses with the same key for both issues and projects or tasks. When the project or task (as a Resolving Object) are changed to the custom status, the change also reflects on the issue status. The status key must be the same for the issue and project or task statuses.
 
-For example, create a project custom status named "Launched" with the three letter code "LCD" which equates with "Current". Also, create an issue custom status named "Project Launched", also with the letter code "LCD" which equates with "In Progress". When you mark the project as "Launched", the issue will automatically change the status to "Project Launched". If the "
-Automatically update Resolvable Issue status when the status of the Resolving Object changes" setting were not enabled, the issue status would change to "In Progress" instead (the default status).
+For example, imagine you create a project custom status named Launched with the three-letter code LCD, which equates with Current. Next, you create an issue custom status named Project Launched, also with the letter code LCD, which equates with In Progress. When you mark the project as Launched, the issue will automatically change the status to Project Launched. If the Automatically update Resolvable Issue status when the status of the Resolving Object changes setting was not enabled, the issue status would change to In Progress instead.
 
 For more information about creating a custom status, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## Synchronize the percent complete of a Resolving Object with that of the Resolvable Object
 
-If an issue is resolved by a task or a project, the percent complete of the issue updates on the resolvable issue when any of the following things occur:&nbsp;
+If an issue is resolved by a task or a project, the issue's percent complete updates on the resolvable issue when any of the following things occur:
 
 * When someone saves a change on the task or project. 
-* The timeline of the project is recalculated.
+* When the timeline of the project is recalculated.
 
-If and issue is resolved by another issue, the percent complete updates when either of the issues update.
+If an issue is resolved by another issue, the percent complete updates when either of the issues update.
 
 ## Locate the Resolvable Object on a task or a project
 
+>[!NOTE]
+>
+>To perform the steps in this section, you must have at least View access to tasks and projects and View permissions to the task or project that contains the resolvable object you want to view.
+
 Locating the resolving object is identical for tasks and projects.
 
-1. Navigate to a project or a task which you created by converting an issue to the project or the task.
-1. Click the **Project Details** or the **Task Details** icon and click to expand it.
-1. Click **Overview**.  
-1. At the bottom of the tab, locate to **This Resolves** field: the issue which is the Resolvable Object of the project or the task is listed in this field.
+1. Navigate to a project or a task you created by converting an issue.
+1. On the left side of the page, select the **Task Details** or **Project Details** tab.
+1. At the bottom of the **Overview** section, locate the **This Resolves** field where the Resolvable Object of the task or project is displayed.
+
+    ![This Resolves field](assets/this-resolves-field.png)
 
    >[!NOTE]
    >
-   >Issues cannot be converted to other issues, but they can manually be associated with a Resolving Issue. A project, task, or issue can have multiple issues as Resolvable Objects. When the project, task, or issue resolves, the Resolvable Object (issue) also resolves. The Resolvable Issue remains closed even if the project, task, or issue that resolved it re-opens.
+   >Issues cannot be converted to other issues, but they can be manually associated with a Resolving Issue. A project, task, or issue can have multiple issues as Resolvable Objects. When the project, task, or issue resolves, the Resolvable Object (issue) also resolves. The Resolvable Issue remains closed even if the project, task, or issue that resolved it re-opens.
 
 ## Identify an issue with a Resolving Object in a list
 
 In a list of issues, you can identify issues that are labeled as resolving objects via status icons by locating this icon in the **Status Icons** or **Flags** columns:
 
-![Resolving object](assets/ro1.png)
+  ![Resolving object](assets/resolving-icon.png)
 
 ## View Resolvable and Resolving Object information in a report
 
-You can display information about the Resolvable or Resolving Objects in the view or report for projects, tasks, or issues.  
-The following table shows what fields you can display and in which views you can display them:
+You can display information about the Resolvable or Resolving Objects in the view or report for projects, tasks, or issues. 
+
+The following table shows what fields you can display, and in which views you can display them:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -218,43 +225,43 @@ The following table shows what fields you can display and in which views you can
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Has Resolvables</strong>: Displays a <strong>True</strong> value if the project or task has Resolvable Issues associated with them, and a <strong>False</strong> value if they do not.</td> 
+   <td><strong>Has Resolvables</strong>: Displays a True value if the project or task has Resolvable Issues associated with them, and a False value if they do not.</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Original Issue Name, Original Issue Entry Date, Originator Name</strong>: Displays the name and entry date of the original issue, as well as the name of the user who created the issue in a text-mode customized view.<br>For more information about building a text mode custom view for a project or task report or list to display information about the original issue, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">View: display original issue information on task or project lists</a>.<br></td> 
+   <td><strong>Original Issue Name, Original Issue Entry Date, Originator Name</strong>: Displays the name and entry date of the original issue, as well as the name of the user who created the issue in a text-mode customized view.<br>For more information, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">View: display original issue information on task or project lists</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Resolvables:</strong> Displays a list of all Resolvable Objects in a text mode custom view for a project or task report or list.</p> <p>For more information about building this view, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">View: Resolvable Objects in a task or project report</a></p> </td> 
+   <td> <p><strong>Resolvables:</strong> Displays a list of all Resolvable Objects in a text mode custom view for a project or task report or list.</p> <p>For more information, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">View: Resolvable Objects in a task or project report</a></p> </td> 
    <td> </td> 
    <td>✓</td> 
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Converted Issue Originator</strong>: Displays information about the user who originally logged the issue which was later converted to the task. </td> 
+   <td><strong>Converted Issue Originator</strong>: Displays information about the user who originally logged the issue that was later converted to the task. </td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Resolve Project</strong>: Displays information about the Resolving Project which was either converted from the original issue, or manually designated as the Resolving Object of an issue.</td> 
+   <td><strong>Resolve Project</strong>: Displays information about the Resolving Project that was either converted from the original issue or manually designated as the Resolving Object of an issue.</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Resolve Task</strong>: Displays information about the Resolving Task which was either converted from the original issue, or manually designated as the Resolving Object of an issue.</td> 
+   <td><strong>Resolve Task</strong>: Displays information about the Resolving Task that was either converted from the original issue or manually designated as the Resolving Object of an issue.</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Resolve Issue</strong>: Displays information about the Resolving Issue which was manually designated as the Resolving Object of an issue.</td> 
+   <td><strong>Resolve Issue</strong>: Displays information about the Resolving Issue that was manually designated as the Resolving Object of an issue.</td> 
    <td> ✓</td> 
    <td> </td> 
    <td> </td> 
