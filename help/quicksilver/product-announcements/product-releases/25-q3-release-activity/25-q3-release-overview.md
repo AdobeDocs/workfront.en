@@ -50,6 +50,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+      <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assets in a linked Google folder must be added individually to appear in Workfront</a>
+            <p>Google is <a href="https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps">enhancing security controls</a>
+            for third-party applications accessing Google Drive, requiring applications to adopt a per-user consent model. As a result, individual assets must be linked one at a time to be visible in Workfront. See <a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md">Configure document integrations</a>
+             for more information. </p>
+        </td>
+        <td>TBD</td>
+        <td>TBD</td>
+        <td>TBD</td>
+    </tr>  
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New document approval decision buttons available in proofing viewer</a><p>[!BADGE Off schedule]{type=Neutral}</p>
