@@ -12,20 +12,20 @@ exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
 
 # Manage record connections from Workfront objects 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
 You can display Workfront Planning records in Workfront in the following areas of the objects connected to them: 
 
 * The Planning section of a Workfront object: Displays all record types connected to an object and their respective connected records. 
-* A Planning connection custom field: Displays one record type, its respective connected records, <span class="preview">and up to 7 lookup fields of the connected records.</span>
+* A Planning connection custom field: Displays one record type, its respective connected records, and up to 7 lookup fields of the connected records.
 
 ## Access requirements
 
-+++ Expand to view access requirements.. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article: 
 
@@ -88,15 +88,16 @@ You must have the following access to perform the steps in this article:
    <p>In Workfront, View or higher permissions to a project, portfolio, or program</a> </p> 
    <p>In Workfront Planning:
    <ul><li>
-   View permissions to a workspace <!--<span class="preview">and record type</span>--> to view any connected records </li>
+   View permissions to a workspace <span class="preview">and record type</span> to view any connected records </li>
    or
-   <li> Contribute or higher permissions to a workspace <!--<span class="preview">and record type</span>-->  to connect or disconnect records</a></li></ul> </p>  
+   <li> Contribute or higher permissions to a workspace <span class="preview">and record type</span>  to connect or disconnect records</a></li></ul> </p>  
    <p>System Administrators have permissions to all Workfront Planning workspaces, including the ones they did not create</p> 
   </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>To view the Planning area or the Planning section for a Workfront object, all users, including Workfront administrators, must be assigned a layout template that includes the Planning area in the Main Menu and the Planning area for projects, portfolios, and programs. </p> For more information, see <a href="/help/quicksilver/planning/access/access-overview.md">Adobe Planning access overview</a>. </p>  </p>  
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -105,6 +106,7 @@ You must have the following access to perform the steps in this article:
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
+
 
 ## Manage records in the Planning section
 
@@ -205,7 +207,7 @@ Consider the following when you view Workfront Planning records from a Planning 
 * A Planning connection field displays in the following ways on a Workfront object's custom form, after Planning records are connected to the Workfront object:
 
    * If only the primary field of the connected record is selected, the Planning connection field displays as a field with multiple values, if the connection allows for multiple records to be linked. For information, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-   * <span class="preview">If your Workfront or group administrator added additional lookup fields from the connected record on the custom form, the Planning connection field displays as a table. Up to 7 fields can be selected for the Planning connection field. The table view is read-only.  </span>
+   * If your Workfront or group administrator added additional lookup fields from the connected record on the custom form, the Planning connection field displays as a table. Up to 7 fields can be selected for the Planning connection field. The table view is read-only.
 
 * You can associate only one record type with one Planning connection field. There is no limit to how many Planning connection fields you have on a form. 
 * You must have the correct access and permissions to the object, the record, and Workfront Planning to attach a custom form with a Planning connection custom field to a Workfront object. 
@@ -255,11 +257,16 @@ Consider the following when you view Workfront Planning records from a Planning 
    * The records are immediately connected to the Workfront object and they display in the Planning connection field as well as the Planning section of the Workfront object. 
    * The Workfront object is added to the Workfront Planning record's connected field. 
    * The values for the Workfront lookup fields connected to the Planning record are populated in Workfront Planning. 
-   * <span class="preview">If your Workfront or group administrator added record lookup fields when they created the custom form, the record's lookup fields populate automatically in a table view. The table view in the Planning connection field is read-only</span>
+   * If your Workfront or group administrator added record lookup fields when they created the custom form, the record's lookup fields populate automatically in a table view. The table view in the Planning connection field is read-only. 
    
       ![Planning connection field with table on project Details custom form](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
-1. (Optional) Click the name of a record <span class="preview">or hover the name of the record in the table, then click the **Open record** icon ![Open record icon on Planning connection custom form](assets/open-record-icon-on-planning-connection-custom-form.png)</span> in the Planning connection field to open it in Workfront Planning. 
+      >[!NOTE]
+      >
+      >The table view displays only when lookup fields have been added to the Planning connections field on the custom form. 
+
+
+1. (Optional) Click the name of a record or hover the name of the record in the table, then click the **Open record** icon ![Open record icon on Planning connection custom form](assets/open-record-icon-on-planning-connection-custom-form.png) in the Planning connection field to open it in Workfront Planning. 
    The Workfront Planning record details preview box opens. 
 1. Review or edit information about the record, or click the **Open in a new tab** icon ![Open record in new tab](assets/open-details-in-a-new-tab-icon.png) to open the record details page. 
 

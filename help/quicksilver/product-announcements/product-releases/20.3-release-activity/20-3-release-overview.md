@@ -112,7 +112,7 @@ The 2020.3 release contains the following enhancements for all users:
 >
 >Your organization must have the following to use the functionality described in this article: 
 >
->* A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
+>* A Pro or higher [Adobe Workfront plan](https://business.adobe.com/products/workfront/pricing.html). 
 >* An Adobe Workfront Goals license in addition to a Workfront license.
 >
 >  Contact your Workfront account manager to learn about a Workfront Goals license. 
@@ -148,7 +148,7 @@ The 2020.3 release contains the following enhancements for all users:
 > <col> 
 > <tbody> 
 >  <tr> 
->   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">Workfront plan</a>*</p> </td> 
+>   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront plan</a>*</p> </td> 
 >   <td>Business or higher</td> 
 >  </tr> 
 >  <tr> 
@@ -429,7 +429,7 @@ For information about the maintenance updates made during the 20.3 release, see 
 
 Starting on May 20, 2020, Workfront began to make functionality available in the Preview environment on a weekly basis. Prior to this change, functionality was typically released to the Preview environment every two weeks.
 
-For more information, see [Change in Workfront preview release cadence FAQ](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+For more information, see [Change in Workfront preview release cadence FAQ](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### Allowlist of additional domains required for accessing Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -444,11 +444,11 @@ For more information, see [Configure your firewall's allowlist](../../../adminis
 
 With Workfront One, you'll discover the most important content, resources, and news from Workfront —all in one place, with one login. We've unified the Experience, Community, and Training sites making it easier to find what you're looking for.
 
-[Learn more about Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Learn more about Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### 20.3 Release Webinar {#20-3-release-webinar}
 
-View the 20.3 Product Release Webinar [here](https://one.workfront.com/s/managed-content-event/20-3-product-release-webinar-20Y0z000000bmRJEAY).
+View the 20.3 Product Release Webinar [here](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

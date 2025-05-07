@@ -9,7 +9,6 @@ exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
 ---
 # Share a calendar report
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span> 
 
 You can share a calendar with other users and you can make it available publicly, allowing someone without an [!DNL Adobe Workfront] license to view it.
 
@@ -59,10 +58,8 @@ Calendars that have been shared with you display with an asterisk (&#42;) next t
 To share a calendar inside of [!DNL Workfront]:
 
 1. Go to the calendar you want to share.
-1. <span class="preview">In Preview, click the **More** menu next to the calendar name, then click **Sharing**.
-![calendar more menu](assets/more-menu-calendar.png)</span>
-1. Click **[!UICONTROL Calendar Actions]**, then click **[!UICONTROL Sharing]**.
-
+1. Click the **More** menu next to the calendar name, then click **Sharing**.
+![calendar more menu](assets/more-menu-calendar.png)
 1. In the **[!UICONTROL Give Calendar access to]** field, begin typing the name of the user, team, role, group, or company that you want to share the calendar, then click the name when it displays in the drop-down list.\
    To learn about setting permissions, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
@@ -70,14 +67,12 @@ To share a calendar inside of [!DNL Workfront]:
 1. Specify the permissions for each user, team, role, group, or company that you added in Step 3 by clicking the drop-down menu, then select the permission level that you want to grant:
 
    * **[!UICONTROL View]:** Users can review and share the calendar.
-
-      ![Share calendar with View access](assets/calendar-share-view-permissions-350x249.png)
-    <!--![Share calendar with view access](assets/view-calendar.png)-->
+   
+      ![Share calendar with view access](assets/view-calendar.png)
 
    * **[!UICONTROL Manage]:** Users have full access to the calendar, minus administrative rights, which are granted at the access level, plus all View permissions.
 
-      ![Share calendar with Manage access](assets/calendar-share-manage-permissions-350x241.png)
-      <!--![Share calendar with manage access](assets/manage-calendar.png)-->
+      ![Share calendar with manage access](assets/manage-calendar.png)
 
       >[!NOTE]
       >
@@ -98,12 +93,9 @@ You can make a calendar public and share a link with people who do not have a [!
 
 1. Go to the calendar you want to share.
 1. Click **[!UICONTROL Calendar Actions]**, then click **[!UICONTROL Sharing]**.
-1. <span class="preview">In Preview, click the **More** menu next to the calendar name.
-![calendar more menu](assets/more-menu-calendar.png)</span>
-
-1. Click the gear icon, then click **[!UICONTROL Make this public to external users]**.
-1. Click **[!UICONTROL Copy link]**.
-1. <span class="preview">In Preview, click **Copy public link**.</span>
+1. Click the **More** menu next to the calendar name.
+![calendar more menu](assets/more-menu-calendar.png)
+lick **Copy public link**.
 1. Click **[!UICONTROL Save]**.
 
 ## Share a calendar with a private link
@@ -111,10 +103,8 @@ You can make a calendar public and share a link with people who do not have a [!
 You can share a private calendar link with [!DNL Workfront] users. Users are required to log in to view the calendar when they use the link.
 
 1. Go to the calendar you want to share.
-1. <span class="preview">In Preview, click the **More** menu next to the calendar name, then click **[!UICONTROL Get Sharable Link]**.
-![calendar more menu](assets/more-menu-calendar.png)</span>
-1. Click **[!UICONTROL Calendar Actions]**, then click **[!UICONTROL Get Sharable Link]**.
-1. Click **[!UICONTROL Copy Link]**.
+1. Click the **More** menu next to the calendar name, then click **[!UICONTROL Get Sharable Link]**.
+![calendar more menu](assets/more-menu-calendar.png)
 
    >[!NOTE]
    >

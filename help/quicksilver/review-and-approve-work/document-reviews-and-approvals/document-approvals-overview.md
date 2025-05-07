@@ -19,7 +19,6 @@ Unified Approvals is a wholistic redesign of the existing approvals process that
 
 **Differences from Proofing**
 
-* Document approval decision buttons are not available in the proofing viewer. Decisions can be made in the document Summary, Workfront Home widgets, or on the Document Details page. 
 * Document approval participants display in the document Summary, not the proofing workflow tab.
 * Unified Approvals are not supported in the current reporting tool. 
 
@@ -62,12 +61,12 @@ For users looking to review or approve documents for which they have received a 
     The iterative nature of document development often leads to multiple versions of the same document. Unified Approvals accommodates this reality by providing unique approval chains for each version of a document. This allows users to upload a new version and add new approvers or reviewers as needed, ensuring that feedback and approval are specific to the document version and eliminating potential confusion.
 
 * **Audit trails**\
-    With  Unified Approvals, an audit trail of all approval activities is maintained in the activity stream, providing a valuable resource for future reference and compliance.
+    With Unified Approvals, an audit trail of all approval activities is maintained in the activity stream, providing a valuable resource for future reference and compliance.
 
 ## Release plan
 
 We are making Unified Approvals available to users over the course of several releases. In addition to adding new features, we will also expand the number of accounts for which Unified Approvals are available with each release.
 
-If you would like to have Unified Approvals enabled in you production environment, please reach out to your Customer Success or Strategic Account Manager.
+If you would like to have Unified Approvals enabled in your production environment, please reach out to your Customer Success or Strategic Account Manager.
 
 

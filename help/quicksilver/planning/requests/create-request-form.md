@@ -13,16 +13,14 @@ exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
 
-You can create a request form and associate it with a record type in Adobe Workfront Planning. You can then share a link to it with other internal or external users. 
-
-Users with a link to the form can update the field values on it, and add new records by submitting it. 
+You can create a request form and associate it with a record type in Adobe Workfront Planning. You can then share the form with others and they can submit requests to create records. 
 
 This article describes how a workspace manager can create a request form associated with a record type. 
 
@@ -30,7 +28,7 @@ For information about submitting a request to a record type to create a record, 
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article: 
 
@@ -89,7 +87,7 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
    <ul>
-   <li><p>Manage permissions to a workspace <!--<span class="preview">and record type</span>--> </p></li>
+   <li><p>Manage permissions to a workspace <span class="preview">and record type</span> </p></li>
     <li><p>System Administrators can manage workspaces they did not create. </p></li>
     </ul>
    <p>For information about sharing permissions for Workfront Planning objects, see  
@@ -98,7 +96,8 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p>  
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p>  
 </td>
   </tr>
  </tbody>
@@ -107,6 +106,7 @@ You must have the following access to perform the steps in this article:
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
 
 +++
+
 
 ## Field and value display limitations in request forms
 
@@ -120,7 +120,7 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    
       * Created by and Last modified by
       * Created date and Last modified date
-      * Formula. <!--Formula fields are supported in the Preview environment.-->
+      * Formula
       * Workfront objects' lookup fields
       * Workfront Planning connected records' lookup fields
 
@@ -251,12 +251,7 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    >     * People
    >
 
-1. (Conditional) If you selected **Anyone with the link** in the previous step, select the **Link expiration date** from the available calendar. <!--take out this tip when we release to production as in multiple forms this is no longer happening-->
-
-   >[!TIP]
-   >
-   >There is an indication that the link is publicly shared when this is the case.
-   >![Publicly shared link to form on record type menu](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+1. (Conditional) If you selected **Anyone with the link** in the previous step, select the **Link expiration date** from the available calendar. 
 
    People will receive an error after the link expires and you must update the link date and generate a new link to share before people can access the form again. 
 
@@ -293,18 +288,10 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
 1. Click the left-pointing arrow to the left of **Request forms** in the header to close the request forms table.  
 
    The record type page opens. 
-1. (Optional and conditional) To edit an existing form: 
+1. (Optional and conditional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
+   
+   1. Click **Update request form** to make any changes to the request form, then click a request form to open and edit it.
+   1. Click **Copy link to request form**  to share the link to the form with others. 
  
-   1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then click **Manage request forms**. </span>
+1. (Optional) Go to the **Requests** area in Workfront and find the shared form to submit a request. For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
 
-      This opens the Request forms table view. 
-
-   1. Click a request form to open and edit it.
-   1. (Optional) Go to the **Requests** area in Workfront and find the shared form to submit a request. For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
-
-<!--   * From the Production environment:
-   
-      1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
-   
-      1. Click **Update request form** to make any changes to the request form.
-      1. Click **Copy link to request form**  to share the link to the form with others.-->

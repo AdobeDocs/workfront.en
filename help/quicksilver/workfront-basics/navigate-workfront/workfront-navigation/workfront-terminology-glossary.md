@@ -1095,6 +1095,10 @@ The designated full time equivalency for users. A full-time user should have 100
    <td> <p>The ID is an alphanumeric indicator associated with every object in [!DNL Workfront]. It uniquely identifies each object in the [!DNL Workfront] database. You can view the ID of any object in a report or a list for each object. </p> <p><b>TIP</b></p>   <p>You can also view the ID in the URL of the object's page. For example, the ID of a project might look something like the number outlined in the following URL, when you access the [!UICONTROL Project Details] page:</p> <p><code>https://&lt;your domain>.my.workfront.com/project/<b>5e29c8010027d8eb334762d4fff3ffca</b>/overview</code> </p> </p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+   <td>[!UICONTROL IMS]</td> 
+   <td>Identity Management System. Adobe IMS requires that you log in to Workfront through Adobe rather than using your Workfront username and password.</td> 
+  </tr> 
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Individual Goals]</td> 
    <td>Individual goals which contribute to the metrics of the team goals, but not related to personal or career development.</td> 
   </tr> 
@@ -2256,7 +2260,13 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Task]</td> 
-   <td> <p>An activity that must be performed as a step toward achieving a final goal (completing the Project).</p> <p>For more information, see <a href="../../../manage-work/tasks/task-information/tasks-overview.md" class="MCXref xref">Tasks overview</a>.</p> </td> 
+   <td> <p>An activity that must be performed as a step toward achieving a final goal (completing the Project).</p> 
+   
+   <p>Tasks are smaller units of work that ultimately complete a project, which represents a larger unit of work.</p>
+   <p>Tasks can never exist independently. They are always part of a project. </p>
+   <p>For more information about tasks, see <a href="../../../manage-work/tasks/task-information/tasks-overview.md" class="MCXref xref">Tasks overview</a>.</p> 
+   <p>For information about creating tasks, see <a href="/help/quicksilver/manage-work/tasks/create-tasks/create-tasks-in-project.md">Create tasks in a project</a>
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Task Attribute]</td> 

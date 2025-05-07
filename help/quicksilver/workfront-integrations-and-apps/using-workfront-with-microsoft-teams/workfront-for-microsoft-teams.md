@@ -13,9 +13,13 @@ exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
 
 <!-- Audited: 12/2023 -->
 
+<!--
+
 >[!NOTE]
 >
 >As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 As a team owner In [!DNL Microsoft Teams], you can install the [!DNL Adobe Workfront for Microsoft Teams] app for your team.
 

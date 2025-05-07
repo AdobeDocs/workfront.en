@@ -12,6 +12,24 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the Second Quarter 2025 release, see [Second Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
+## Updated reports with new styling
+
+>[!NOTE]
+>
+>Preview and Production for all customers: April 9, 2025
+
+We have updated the look and feel of multiple reports, to match the design of other areas of Workfront.
+
+This update includes visual changes to the lists and toolbars of the following reports. No functionality has changed.
+
+* Parameter
+* Parameter Group
+* Custom Forms
+* Time Off
+
+For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+
 ## Look-and-feel update to the Google Drive document integration dialog 
 
 >[!NOTE]

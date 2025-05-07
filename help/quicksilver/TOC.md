@@ -13,6 +13,12 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2025 Q3 Release {#release-25-q3}
+      * [2025 Q3 Release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
+      * [Document management enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
+      * [Reporting enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md)
+      * [Update and notification enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md)
+      * [Look-and-feel updates during the 2025 Q3 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md)
     * 2025 Q2 Release {#release-25-q2}
       * [2025 Q2 Release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
       * [2025 Q2 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
@@ -190,6 +196,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Planning release activity{#planning-release-activity}
       * [Adobe Workfront Planning release activity](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+      * [Third Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
       * [Second Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
       * [First Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
       * [Fourth Quarter 2024 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
@@ -857,6 +864,7 @@ feature-set: Workfront
     * [Revise calculated field formulas with AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
     * [Use AI Assistant to work with projects, tasks, and issues](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
     * [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
+    * [Auto-fill a request using AI](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
   * Update work items and view updates {#update-work-items-view-updates}
     * [Update work items and view updates: article index](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Updates section overview](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -897,13 +905,13 @@ feature-set: Workfront
     * [Notifications: Miscellaneous information](workfront-basics/using-notifications/notifications-misc-information.md)
     * [Notifications: Requests I have made](workfront-basics/using-notifications/notifications-requests-i-have-made.md)
   * Grant and request permissions to objects {#grant-request-object-permissions}
-    * [Grant and request permissions to objects](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
+    * [Grant and request permissions to objects: article index](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
     * [Overview of sharing permissions on objects](workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
     * [Grant access to objects in the Home area](workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
     * [Request access to objects](workfront-basics/grant-and-request-access-to-objects/request-access.md)
     * [View inherited permissions on objects](workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
     * [Share an object](workfront-basics/grant-and-request-access-to-objects/share-an-object.md)
-    * [Share a project in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+    * [Share a project](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
     * [Share a task](workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
     * [Share an issue](workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
     * [Share a template](workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
@@ -1212,7 +1220,7 @@ feature-set: Workfront
       * [Overview of attaching a template to a project](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
     * Define a Business Case {#define-business-case}
       * [Define a Business Case: article index](manage-work/projects/define-a-business-case/define-business-case.md)
-      * [Overview of the Areas of the Business Case](manage-work/projects/define-a-business-case/areas-of-business-case.md)
+      * [Business Case Areas Overview](manage-work/projects/define-a-business-case/areas-of-business-case.md)
       * [Create a Business Case for a project](manage-work/projects/define-a-business-case/create-business-case.md)
       * [Approve a Business Case](manage-work/projects/define-a-business-case/approve-business-case.md)
       * [Overview of Business Case financial fields](manage-work/projects/define-a-business-case/business-case-finances.md)
@@ -1262,7 +1270,7 @@ feature-set: Workfront
   * Tasks {#tasks}
     * [Tasks: article index](manage-work/tasks/tasks-overview.md)
     * Task information {#task-information}
-      * [Task information](manage-work/tasks/task-information/task-information.md)
+      * [Task information: article index](manage-work/tasks/task-information/task-information.md)
       * [Tasks overview](manage-work/tasks/task-information/tasks-overview.md)
       * [View Actual Hours](manage-work/tasks/task-information/actual-hours.md)
       * [Task Tracking Mode overview](manage-work/tasks/task-information/task-tracking-mode.md)
@@ -1425,7 +1433,7 @@ feature-set: Workfront
       * [Optimize projects in the Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
       * [Calculate the Risk to Net Value in a portfolio](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
   * Requests {#requests}
-    * [Requests](manage-work/requests/requests-overview.md)
+    * [Requests: article index](manage-work/requests/requests-overview.md)
     * Create and manage Request Queues {#create-and-manage-request-queues}
       * [Create and manage Request Queues](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
       * [Create a Request Queue](manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
@@ -1909,6 +1917,7 @@ feature-set: Workfront
       * [FAQ: proofing within Adobe Workfront - US to EMEA migration](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
       * [Document name changed after upload and contains an invalid character](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
       * [Proof a PowerPoint with an embedded video](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
+      * [Proof versions cannot be downloaded or previewed when an interactive proof is added as a new version](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
   * Tips, tricks, and troubleshooting for approvals {#ttt-approvals}
     * [Tips, tricks, and troubleshooting for approvals: article index](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
     * [View the number of proof and document decisions for all users](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
@@ -2028,6 +2037,7 @@ feature-set: Workfront
     * [Record types overview](planning/architecture/overview-of-record-types.md)
     * [Create record types](planning/architecture/create-record-types.md)
     * [Create Record Types by importing information from a CSV or Excel file](planning/architecture/import-file-to-create-record-types.md)
+    * [Create record types globally](planning/architecture/create-record-types-globally.md)
     * [Connect record types overview](planning/architecture/connect-record-types-overview.md)
     * [Connect record types](planning/architecture/connect-record-types.md)
     * [Edit record types](planning/architecture/edit-record-types.md)
@@ -2073,6 +2083,7 @@ feature-set: Workfront
     * [Manage record connections from Workfront objects](planning/records/manage-records-in-planning-section.md)
     * [Export a record's details](planning/records/export-the-record-page.md)
     * [Create Workfront objects from Workfront Planning as you connect them to records](planning/records/create-workfront-objects-from-workfront-planning.md)
+    * [Configure Adobe Workfront Planning automations](planning/records/configure-automations-to-create-records.md)
     * [Create objects using Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
   * Adobe Workfront Planning requests {#adobe-workfront-planning-requests}
     * [Adobe Workfront Planning requests: article index](planning/requests/requests-article-index.md)
@@ -2445,6 +2456,7 @@ feature-set: Workfront
     * [Configure and use your organization's custom OAuth 2 applications using JWT flow](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](wf-api/api/oauth-app-pkce-flow.md)    
     * [Deprecation of API-Internal](wf-api/api/deprecation-api-internal.md)
+    * [What's new in API version 20](wf-api/api/new-api-version-20.md) 
     * [What's new in API version 19](wf-api/api/new-api-version-19.md) 
     * [What's new in API version 18](wf-api/api/new-api-version-18.md)
     * [What's new in API version 17](wf-api/api/new-api-version-17.md)
@@ -2523,7 +2535,8 @@ feature-set: Workfront
     * [Code Samples](proofhq-api/general/code-samples.md)
     * [SOAP API FAQs](proofhq-api/general/soap-api-faqs.md)
 * [Hidden test document](hidden-test.md)
-* [First Quarter 2025 release overview - test](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/release-overview-test.md)
+* App Builder {#app-builder}
+  * [Create custom applications for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
 
 
 <!--

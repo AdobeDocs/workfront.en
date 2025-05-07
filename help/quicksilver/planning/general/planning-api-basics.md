@@ -284,7 +284,7 @@ For example, the request
                         "id": "Rc665728ff95730b58bc757b13",
                         "value": null
                     },
-....
+..
 ```
 
 returns a response similar to the following: 

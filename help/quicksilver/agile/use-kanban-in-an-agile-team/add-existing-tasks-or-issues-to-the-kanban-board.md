@@ -59,7 +59,9 @@ To add a task or issue to a [!UICONTROL Kanban] board from a project:
    >[!NOTE]
    >
    >If multiple teams are assigned to the task or issue, the work item can only display on one team's [!DNL kanban] board.
+
 1. Click **Add**.
+
 
 ## Add existing tasks or issues from a report
 
@@ -75,7 +77,9 @@ To add a task or issue to a [!UICONTROL Kanban] board from a report:
    >[!NOTE]
    >
    >If multiple teams are assigned to the task or issue, the work item can only display on one team's [!DNL kanban] board.
+   
 1. Click **Add**.
+
 
 
 ## Add existing tasks or issues from a dashboard
@@ -84,7 +88,7 @@ To add a task or issue to a [!UICONTROL Kanban] board from a dashboard:
 
 {{step1-to-dashboards}}
 
-1. Select the dashbaord that contains the work item you want to add to the Kanban board.
+1. Select the dashboard that contains the work item you want to add to the Kanban board.
 1. Select one or more work items to add.
 1. Click the **[!UICONTROL More]** icon ![More icon](assets/more-icon.png), then select **Add to Kanban Board**. The [!UICONTROL **Add To**] dialog box opens.
 1. In the **Kanban Board** field, type the name of the Kanban team, then select it from the drop-down.
@@ -92,4 +96,5 @@ To add a task or issue to a [!UICONTROL Kanban] board from a dashboard:
    >[!NOTE]
    >
    >If multiple teams are assigned to the task or issue, the work item can only display on one team's [!DNL kanban] board.
+   
 1. Click **Add**.
