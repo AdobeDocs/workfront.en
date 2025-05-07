@@ -76,7 +76,7 @@ You must have the following access to perform the steps in this article:
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings</p> </td> 
+   <p>View permissions to a view to temporarily change the view settings or duplicate it <!--<span class="preview">or to export the view</span>--></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
@@ -503,9 +503,11 @@ To sort grouped records:
 
 1. (Optional) Turn on the **Apply to the entire row** setting in the upper-right corner of the Row colors box. The entire row where the condition is met automatically displays in the selected color. 
 
-    >[!TIP]
+    >[!NOTE]
     >
-    >If the Apply to the entire row setting is turned off, only the left side of the Primary field displays a narrow color indicator with the selected color. The setting is turned off by default.
+    >* If the Apply to the entire row setting is turned off, only the left side of the Primary field displays a narrow color indicator with the selected color. The setting is turned off by default.
+    >
+    >* You cannot apply row colors to an entire row when you have at least one grouping selected in the table view. 
 
 1. Click outside the **Row colors** box to close it. The colors are applied automatically.
 
@@ -519,3 +521,49 @@ When you display the table view, you can also view which field another user is e
 
 For more information, see the "Enable the real-time presence indicator" section in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
+<div class="preview">
+
+## Export the table view
+
+You can export information in the table view to a CSV or an Excel file. 
+
+Consider the following when exporting the table view:
+
+* The information exported to an Excel file preserves the filters, groupings, and sorts applied to the table view in Workfront Planning. Groupings are not visible in the CSV file.
+
+* Thumbnails and custom row colors are not supported in exported files.  
+
+* Only fields made visible in the Workfront interface are exported. Hidden fields are not exported.
+
+To export information from the table view or a record type:
+
+1. Go to a record type page and click a table view tab. 
+1. Hover over the table view tab's name, then click the **More** menu ![More menu](assets/more-menu.png).
+1. Click **Export**, then select one of the following formats:
+
+    * Excel
+    * CSV
+
+    >[!IMPORTANT]
+    >
+    >You cannot export information from the table view when you display a different view on the screen. You must display the table view that you want to export in order to access the Export option in the More menu. 
+
+    The file is downloaded to your computer. 
+
+1. (Optional) Go to the downloads folder on your computer and find the downloaded file. 
+
+    The name of the exported file follows the following format: 
+
+    `Name of the view - name of the record type`
+
+    For example, a table view for the Campaigns record type generates a file named `Table view - Campaigns`.
+
+    The file displays the following information: 
+    
+    * The column headers are highlighted in black, in the Excel file
+    * All the fields visible in the Workfront interface, sorted and filtered by the same criteria
+    * Groupings are preserved in the Excel file
+
+    You can now share the exported files with others, or attach them to any communication. 
+    
+ </div>   
