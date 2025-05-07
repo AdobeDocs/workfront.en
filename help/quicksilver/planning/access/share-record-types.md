@@ -69,7 +69,7 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
 <p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
-<p>Your organization must be onboarded to the Adobe Unified Experience for users to be able to request and grant permissions to a view from a permission request. </p>
+<p>Users must be added to the Adobe Admin Console in order to gain permissions to Workfront Planning views.</p>
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -193,7 +193,7 @@ You can adjust permissions to individual record types of a workspace if you have
 
 ## Remove permissions to a record type
 
-You can remove users' permissions from a record type. However, they will retain at least view access to the workspace which gives them permissions to at least view the record type. You must remove their access from the workspace if you want them to have no permissions to the record types in the workspace. 
+You can remove users' permissions from a record type. However, they will retain at least View permissions to the workspace which also gives them at least View permissions to the record type. You must remove their access from the workspace if you want them to have no permissions to the record types in the workspace. 
 
 {{step1-to-planning}}
 
