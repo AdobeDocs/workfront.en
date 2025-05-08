@@ -16,6 +16,25 @@ This page lists interface updates we are making throughout Adobe Workfront to im
 
 For all other changes to Adobe Workfront, see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
+## Navigation and search
+
+### Interface update for Advanced Search
+
+**Preview release: April 17; Production release: To be announced**
+
+We have updated the Advanced Search area with the following changes:
+
+* Added a new Full Search tab. On this tab, you can search by type, entered by, entry date, category, and last updated by.
+* The filter on the  Advance Search tab is slightly different. Now, the filter is not prepopulated. You must toggle it on and build the filter from scratch. The filter does not remain if the page is refreshed. 
+
+For more information, see [Search [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
+
+### Interface update for granting support access to your Workfront account
+
+**Preview release: April 24; Production release: To be announced**
+
+We have updated the page you use to grant support access to your Workfront account with a more modern design that is consistent with other areas of Workfront. 
+
 ## Administration and Setup
 
 +++Expand to view Administration and Setup interface updates
@@ -125,6 +144,14 @@ To view this page, go to Setup > Email > Notifications > Reminder Notifications.
 **Preview release: January 16, 2025; Starting the week of January 30, 2025**
 
 We have updated the Add Sharepoint dialog box in Setup > Documents > Sharepoint Integration with a more modern design that is consistent with other areas of Workfront.
+
+This update includes visual changes to the area. No functionality has changed.
+
+### Interface update for Add custom integration dialog box
+
+**Preview release: January 16, 2025; Starting the week of January 30, 2025**
+
+We have updated the Add custom integration dialog box in Setup > Documents > Custom Integration with a more modern design that is consistent with other areas of Workfront.
 
 This update includes visual changes to the area. No functionality has changed.
 
@@ -301,5 +328,29 @@ We have added a new Edit Text Mode button and editing modal to the following are
 
 +++
 
+## Users 
+
+### Updated document share page for external users
+
+**Preview release: April 10, 2024; Production release: Starting the week of April 17, 2024**
+
+We have updated the document share page for external users with a more modern design that is consistent with other areas of Workfront.
+
+External users can no longer access _My Settings_ from this page. 
+
+<!--
+
+### Updated external user registration page
+
+**Preview release: April 24, 2024; Production release: To be announced**
+
+We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
 
 
+## Licenses
+
+### Updated license agreement page
+
+**Preview release: tbd; Production release: To be announced**
+
+We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.-->

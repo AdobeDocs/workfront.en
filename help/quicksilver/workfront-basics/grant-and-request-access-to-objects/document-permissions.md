@@ -117,19 +117,52 @@ In addition to the considerations below, also see [Overview of sharing permissio
 1. Click the drop-down to the right of the user's name and select their permission level for this document:
 
    * **View**: User can review and share the document. 
-   * **Manage**: User has full access to the program without administrative rights, which are granted at the access level (also includes all View permissions).
+   * **Manage**: User has full access to the document without administrative rights, which are granted at the access level (also includes all View permissions).
 
-1. (Optional) Click the advanced options icon next to the permission level you've granted to configure specific permissions on the program.
+1. (Optional) Click the advanced options icon next to the permission level you've granted to configure specific permissions on the document.
 
     ![Configured advanced permission options](assets/advanced-options-icon.png)
 
-1. (Optional) To turn off inherited permissions for the document's children objects, click **Turn off** in-line with **Inherited permissions**. 
+1. (Optional) To turn off inherited permissions for the document's children objects, click **Turn off** inline with **Inherited permissions**. 
 
 1. (Conditional) To copy the public link that allows you to share the document with external users, click **Copy public link**.
 
    >[!CAUTION]
    >
    >We recommend you use caution when sharing a document containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization.
+
+1. Click **Save**.
+
+## Share documents in bulk
+
+{{step1-to-documents}}
+
+1. In the **All Documents** tab on the **Documents** page, hold down **Command** (Mac) or **Ctrl** (Windows) on your keyboard, then click on each document you want to share. 
+
+1. At the top of the page, click the **Share** icon ![Share icon](assets/share-icon.png). The share modal opens.
+
+      ![Share icon](assets/share-documents-in-bulk.png)
+
+1. In the **Grant document access to** field, begin typing the name of the user, team, role, group, or company you want to share the documents with, then click the name when it appears in the drop-down list.
+
+   >[!TIP]
+   >
+   >You can only share documents with active users, teams, roles, or companies.
+
+
+1. (Optional) Select the **Who has access** drop-down and select the documents' access level:
+
+   * **Only invited people can access:** Only users who are invited to the documents can access it (Default).
+   * **Everyone in the system can view**: All users in the system can view the documents without an invitation.
+
+1. Click the drop-down to the right of the user's name and select their permission level for the documents:
+
+   * **View**: User can review and share the documents. 
+   * **Manage**: User has full access to the documents without administrative rights, which are granted at the access level (also includes all View permissions).
+
+1. (Optional) Click the advanced options icon next to the permission level you've granted to configure specific permissions on the documents.
+
+    ![Configured advanced permission options](assets/advanced-options-icon.png)
 
 1. Click **Save**.
 

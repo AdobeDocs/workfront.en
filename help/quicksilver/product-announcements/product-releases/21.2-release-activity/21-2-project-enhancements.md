@@ -23,7 +23,7 @@ As part of the redesign of the New and Edit Task boxes, we have added the abilit
 
 For more information, see [Create recurring tasks](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-This feature is now included in the [Planner Fundamentals for the new Workfront experience, Part 2: Plan a Project](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) learning path on Workfront One.
+This feature is now included in the [Planner Fundamentals for the new Workfront experience, Part 2: Plan a Project](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
 ## New buttons available in Projects header
 
@@ -33,7 +33,7 @@ This feature is now included in the [Planner Fundamentals for the new Workfront 
 
 To allow you to quickly filter the list of projects on the Projects page, there are two new buttons in the header that allow you to quickly apply the Projects I'm On or Projects I Own filter.
 
-This feature is now included in the [Planner Fundamentals for the new Workfront experience, Part 1: Create a Project](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) learning path on Workfront One.
+This feature is now included in the [Planner Fundamentals for the new Workfront experience, Part 1: Create a Project](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
 ## Move or delete a story or issue from the Scrum board
 
@@ -127,9 +127,9 @@ Users can now see text formatting such as bold, bullet lists, and hyperlinks in 
 
 Previously in Workfront Classic, text formatting was visible only in Project, Task, and Hour lists.
 
-For information about formatting text in a custom field, see [Create a custom form](https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
+For information about formatting text in a custom field, see [Create a custom form](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
-For information about displaying information in lists, see [Get started with lists](https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&_LANG=en).
+For information about displaying information in lists, see [Get started with lists](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 ## New Edit Task box
 

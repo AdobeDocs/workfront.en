@@ -32,7 +32,7 @@ You must have the following access to complete the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront plan</a>*</td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 

@@ -34,12 +34,12 @@ To learn more about [!DNL Workfront], you can:
  <tbody> 
   <tr> 
    <td><strong>Check out [!DNL Workfront] on [!DNL Adobe Experience League]</strong> </td> 
-   <td> <p>You can use the search bar at the top of <a href="https://experienceleague.adobe.com/docs/workfront.html">https://experienceleague.adobe.com/docs/workfront.html</a> to help you find a specific article, a discussion, or training. Think of it as your search engine for all things [!DNL Workfront].</p> <p>Here you can also find resources such as</p> 
+   <td> <p>You can use the search bar at the top of <a href="https://experienceleague.adobe.com/en/docs/workfront">https://experienceleague.adobe.com/en/docs/workfront</a> to help you find a specific article, a discussion, or training. Think of it as your search engine for all things [!DNL Workfront].</p> <p>Here you can also find resources such as</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/home.html">Documentation</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html">Tutorials</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en">Product Releases</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics.html">API documentation</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/home">Documentation</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home">Tutorials</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases">Releases</a> </p></li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics">API documentation</a> </p> </li> 
      <li> <p>And more!</p> </li> 
     </ul> </td> 
   </tr> 
@@ -57,7 +57,7 @@ To learn more about [!DNL Workfront], you can:
   </tr> 
   <tr> 
    <td><strong>See what's new in any of the</strong>[!DNL Workfront]<strong>products</strong></td> 
-   <td>Visit <a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html" target="_blank">Product releases</a> for the latest information about what's new.</td> 
+   <td>Visit <a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases">Product releases</a> for the latest information about what's new.</td> 
   </tr> 
   <tr> 
    <td><strong>Learn on-demand and dive deep with [!DNL Workfront] Training</strong> </td> 
@@ -79,7 +79,7 @@ The following resources can help you determine how you can use [!DNL Workfront]:
    <td>This is your starting source for webinars, ebooks, whitepapers, videos, and reports.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories?Products=Adobe%2520Workfront">Case studies</a> </td> 
+   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">Case studies </a></td> 
    <td>Read through a growing collection of 60+ case studies, highlighting customer challenges and [!DNL Workfront] solutions and benefits.</td> 
   </tr> 
   <tr> 
@@ -101,7 +101,7 @@ These 3 steps can help you as a [!DNL Workfront] administrator stay on top of ea
    <td><strong>Step 1: Learn what's coming</strong> </td> 
    <td> <p>These resources keep you informed on what updates are releasing to Workfront:</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en" target="_blank">Product Announcements</a>: Looking for updates of Workfront's product roadmap? The Product Announcements page is where you can find release updates and roadmap presentations.</p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases">Product Announcements</a>: Looking for updates of Workfront's product roadmap? The Product Announcements page is where you can find release updates and roadmap presentations.</p> </li> 
      <li> <p><strong>Announcement Center</strong>: Review your notifications and receive important updates from our [!DNL Workfront] Product team regarding information for all customers. Visit the <a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">[!UICONTROL "Notifications"]</a> section in [!DNL Workfront], in your top navigation.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -110,7 +110,7 @@ These 3 steps can help you as a [!DNL Workfront] administrator stay on top of ea
    <td> 
     <ul> 
      <li> <p>Test the latest updates in your [!DNL Workfront] <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234">Sandbox</a>.</p> </li> 
-     <li> <p>Determine how those updates impact the way your people work. Our <a href="https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en">Knowledge Base</a> and <a href="https://experienceleague.adobe.com/events/?lang=en">events</a> can help! Our Product Managers often cite the direct end user or business problem solved by the functionality, helping you shortcut the change impact.</p> </li> 
+     <li> <p>Determine how those updates impact the way your people work. Our <a href="https://experienceleague.adobe.com/en/docs/workfront/using/home">Knowledge Base</a> and <a href="https://experienceleague.adobe.com/en/events"> Events</a> can help! Our Product Managers often cite the direct end user or business problem solved by the functionality, helping you shortcut the change impact.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -136,7 +136,7 @@ The following resources can help you learn more about the [!DNL Workfront] API a
 
 | [[!DNL Adobe Workfront] integrations](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | You can integrate [!DNL Workfront] with third-party applications. Integrations can extend the utility of [!DNL Workfront] and tailor it to the needs of your organization. This Knowledge Base article covers your integration options and points you in the next direction. |
 |---|---|
-| [[!DNL Workfront] built-in integrations](https://www.workfront.com/integrations) | Workfront's free built-in integrations allow you and your team to smoothly transition into the Workfront platform while maintaining the same workflows and processes. |
+| [[!DNL Workfront] built-in integrations](https://business.adobe.com/products/workfront/integrations.html) | Workfront's free built-in integrations allow you and your team to smoothly transition into the Workfront platform while maintaining the same workflows and processes. |
 | [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | Connects [!DNL Workfront] to 100+ applications, making it easy to automate your business critical processes without code. |
 
 {style="table-layout:auto"}
@@ -147,7 +147,7 @@ Subscribe to [status.adobe.com](https://status.adobe.com/) to stay informed on m
 
 To learn more about the [!DNL Workfront] Status site, see [The [!DNL Adobe Workfront] Status site](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
 
-To learn what has been fixed in a weekly Maintenance Update, see [Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+To learn what has been fixed in a weekly Maintenance Update, see [Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 <!-- the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
 

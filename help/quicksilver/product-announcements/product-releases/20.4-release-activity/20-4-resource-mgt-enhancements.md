@@ -26,7 +26,7 @@ The following improvements are now available with this new feature:
 
 For information about Work Effort, see [Work Effort overview](../../../manage-work/tasks/task-information/work-effort.md).
 
-This feature is now included in the [Planner Fundamentals, Part 2 learning path](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-20Y0z000000bm79EAA) on Workfront One.
+This feature is now included in the [Planner Fundamentals, Part 2 learning path](https://experienceleague.adobe.com/en/docs/workfront/using/home) on Workfront One.
 
 ## Project status-based colors for work items in the Workload Balancer
 

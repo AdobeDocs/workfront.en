@@ -24,7 +24,7 @@ The right panel of a record displays the following sections:
 
 ## Access requirements
 
-+++ Expand to view access requirements.. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -67,7 +67,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td> <p>Standard</p>
+   <td> <p>Contributor or higher license</p>
    <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
@@ -83,7 +83,15 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+   <td> 
+   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
+   <div class="preview">
+<p> In the Preview environment, users with a Light or Contributor license must be assigned a layout template that includes Planning.</p>
+   
+   <p>Standard users and System Administrators have Planning enabled by default.</p></div>
+
+   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
+    </td> 
   </tr> 
 </tbody> 
 </table> 

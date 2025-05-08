@@ -22,7 +22,7 @@ For more information about creating records, see [Create records](/help/quicksil
 
 ## Access requirements
 
-+++ Expand to view access requirements.. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -84,7 +84,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu </p> </td> 
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> </td> 
   </tr> 
 </tbody> 
 </table> 
@@ -92,6 +93,7 @@ You must have the following access to perform the steps in this article:
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).   
 
 +++ 
+
 
 ## Considerations about importing records using an Excel or CSV file
 
@@ -104,7 +106,12 @@ You must have the following access to perform the steps in this article:
 * The file should not be larger than 5MB.
 * Empty sheets are not supported.
 * Fields of the following types are not supported and cannot be mapped to fields on the import sheet:
-    * Connections and lookup fields of connected records <!--or connected Workfront objects-->
+
+    * <!--In the Production environment,--> Connection fields to Planning records or Workfront and AEM Assets objects
+
+        <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+
+    * Lookup fields from connected Planning records or Workfront and AEM Assets objects
     * Formula fields
     * Created date, Created by
     * Last modified date, Last modified by

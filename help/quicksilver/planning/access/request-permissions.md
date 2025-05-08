@@ -9,6 +9,10 @@ exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 ---
 # Request permissions to a view or a workspace
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 >[!IMPORTANT]
 >
 >The functionality described in this article is available only when your organization has been onboarded to the Adobe Unified Experience. 
@@ -30,7 +34,7 @@ For information about granting permissions to views and workspaces, see the foll
 
 ## Access requirements
 
-+++ Expand to view access requirements.. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -93,7 +97,16 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+   <td> 
+   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
+   <div class="preview">
+<p> In the Preview environment, users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
+   <ul><li>Main Menu</li>
+   <li>Left panel of projects, portfolios, and programs</li>
+   </ul>
+   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
+   </td> 
   </tr> 
 </tbody> 
 </table> 
@@ -101,6 +114,7 @@ You must have the following access to perform the steps in this article:
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
  +++
+
 
 ## Request permissions to a view or workspace
 

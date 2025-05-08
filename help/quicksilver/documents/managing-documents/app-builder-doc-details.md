@@ -52,7 +52,7 @@ You must have the following:
 Organizations need to work with their account managers to purchase AppBuilder. The exact process for this is not understood because we didn't need to do this for the POC.
 
 If you want to test AppBuilder integration, you can request a free trial for you IMS org here: 
-[https://developer.adobe.com/app-builder/trial/#](https://developer.adobe.com/app-builder/trial/#)
+[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/overview/getting_access/#)
 
 I am under the impression that even though it is a free 30-day trial, they won't actually deactivate the trial after that time.
 

@@ -19,7 +19,7 @@ Data security is paramount for [!DNL Workfront Proof]. We invest significant res
 
 As a result, we provide unsurpassed levels of security and privacy for our clients.
 
-Please see the  [Security overview](https://www.workfront.com/workfront-security) page for more details.
+Please see the  [Security overview](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html) page for more details.
 
 ## Requiring Electronic Signatures
 

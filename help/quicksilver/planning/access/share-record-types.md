@@ -69,7 +69,7 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
 <p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
-<p>Your organization must be onboarded to the Adobe Unified Experience for users to be able to request and grant permissions to a view from a permission request. </p>
+<p>Users must be added to the Adobe Admin Console in order to gain permissions to Workfront Planning views.</p>
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -92,7 +92,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p> </td> 
   </tr> 
 </tbody> 
 </table> 
@@ -171,6 +172,7 @@ You can adjust permissions to individual record types of a workspace if you have
 
    >[!IMPORTANT]
    >
+   >* In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. 
    >* You can never give users greater permissions on a record type than they have on a workspace.
    >* You cannot give users a lesser permission than Manage to a record type, if they have Manage permissions to the workspace. 
    >* You can give users a lesser permission to the record type if they have Contribute permissions to the workspace. 
@@ -191,7 +193,7 @@ You can adjust permissions to individual record types of a workspace if you have
 
 ## Remove permissions to a record type
 
-You can remove users' permissions from a record type. However, they will retain at least view access to the workspace which gives them permissions to at least view the record type. You must remove their access from the workspace if you want them to have no permissions to the record types in the workspace. 
+You can remove users' permissions from a record type. However, they will retain at least View permissions to the workspace which also gives them at least View permissions to the record type. You must remove their access from the workspace if you want them to have no permissions to the record types in the workspace. 
 
 {{step1-to-planning}}
 
