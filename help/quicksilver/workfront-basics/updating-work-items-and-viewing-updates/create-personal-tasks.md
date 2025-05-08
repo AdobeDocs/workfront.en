@@ -13,13 +13,16 @@ exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
 
 Personal tasks are ad hoc work requests that you send to a user or send to or add for yourself. 
 
-Adobe Workfront saves ad hoc work requests and to do items as personal tasks. 
+Adobe Workfront saves ad hoc work requests and to do items as personal tasks on a user's personal project that is Wprfront automatically creates for each user. 
 
-By default, all users in Workfront have a personal project called "< User's full name>'s Tasks". For example, "John Smith's Tasks". 
- 
-The personal project of each user does not display in searches and it is hidden. All personal tasks are stored in this project. 
+The following are characteristics of a user's personal project: 
 
-You can move personal tasks to a project, if needed.
+* All users in Workfront have a personal project called "< User's full name>'s Tasks". For example, "John Smith's Tasks". 
+* The personal project of each user does not display in searches and it is hidden. 
+* A personal project cannot be deleted, even if users have been deactivated.
+* The Status of a personal project is always Current. Personal projects cannot be completed or canceled. 
+* All personal tasks are stored in a user's personal project.
+* You can move personal tasks to another project, if needed.
 
 You can create personal tasks in the following ways:
 

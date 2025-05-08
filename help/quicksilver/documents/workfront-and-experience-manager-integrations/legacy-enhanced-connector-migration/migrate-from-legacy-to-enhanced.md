@@ -24,9 +24,9 @@ For customers on Adobe Experience Manager Assets as a Cloud Service, the migrati
 >
 >A certified partner or Adobe Consulting Services are required for implementation of the enhanced connector. 
 >
-> For partners wishing to certify on the enhanced connector please review the following article: [Workfront for Experience Manager enhanced connector Expert Series](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html?lang=en).
+> For partners wishing to certify on the enhanced connector please review the following article: [Workfront for Experience Manager enhanced connector Expert Series](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-To implement the enhanced connector, see [Configure Workfront for Experience Manager enhanced connector](https://experienceleague.adobe.com/docs/experience-manager-65/assets/integrations/workfront-connector-configure.html?lang=en).
+To implement the enhanced connector, see [Configure Workfront for Experience Manager enhanced connector](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
 
 
 ## Move existing assets

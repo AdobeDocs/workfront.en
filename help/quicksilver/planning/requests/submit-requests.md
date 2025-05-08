@@ -34,7 +34,7 @@ For information about how a workspace manager can create a request form and asso
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article: 
 
@@ -95,8 +95,14 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>To access the Planning area in Workfront, you must be assigned a layout template that includes the Planning area in the Main Menu. </p>
-   <p> However, accessing the Planning area is not required to submit requests to Workfront Planning. </p>  
+   <td> <p>To access the Planning area in Workfront, you must be have the following layout template configuration: </p>
+<ul>
+<li><p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes  Planning.</p></li>
+<li><div class="preview">
+<p> In the Preview environment, users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+   
+<p> However, accessing the Planning area is not required to submit requests to Workfront Planning. </p>  
 </td>
   </tr>
  </tbody>
@@ -105,6 +111,7 @@ You must have the following access to perform the steps in this article:
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
 
 +++
+
 
 ## Prerequisites
 

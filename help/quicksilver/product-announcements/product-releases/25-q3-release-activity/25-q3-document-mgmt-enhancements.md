@@ -16,6 +16,25 @@ For a list of all changes available at this point in the Third Quarter 2025 rele
 >
 >The features listed on this page are part of a phased release and are only available for specific customers.
 
+## Assets in a linked Google folder must be added individually to appear in Workfront
+
+>[!NOTE]
+>
+>* Preview release: May 31, 2025; Production release for all customers: May 31, 2025
+
+Google is [enhancing security controls](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) for third-party applications accessing Google Drive, requiring applications to adopt a per-user consent model. As a result, individual assets must be linked one at a time to be visible in Workfront. See [Configure document integrations](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md) for more information. 
+
+Key capabilities that remain unchanged: 
+
+* Search and filter for assets and folders from within the Google Drive modal
+* Link assets to Workfront objects from Google Drive
+* Upload assets to Google Drive through the "Send To" dropdown on the documents page
+* View and access folder structure in a user's My Drive area
+* Link a new version of an asset from Google Drive to an existing document in Workfront
+* Link folders to Workfront objects from Google Drive
+* Upload assets to Google Drive by dragging and dropping documents into a linked folder
+* Create a new Google Drive document from within Workfront
+
 
 ## New document approval decision buttons available in proofing viewer
 

@@ -49,9 +49,9 @@ Custom statuses can be used now in both single-use and system-wide approval proc
 * Create a single-use approval process for an object (project, task, or issue) and base it on statuses that are associated with the group working on that object. This includes any custom statuses associated with the group.
 * Create a global approval process and make it available only for the group or for everyone in the system.
 
-For users with administrative access to approval processes, information about configuring approval processes is available in [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (or if you are using Adobe Workfront Classic, see [Creating Approval Processes](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+For users with administrative access to approval processes, information about configuring approval processes is available in [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (or if you are using Adobe Workfront Classic, see [Creating Approval Processes](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-For users, information about associating approval processes with work items is available in [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (or if you are using Adobe Workfront Classic, see [Associating a New or Existing Approval Process with Work](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+For users, information about associating approval processes with work items is available in [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (or if you are using Adobe Workfront Classic, see [Associating a New or Existing Approval Process with Work](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Available in these environments:**
 

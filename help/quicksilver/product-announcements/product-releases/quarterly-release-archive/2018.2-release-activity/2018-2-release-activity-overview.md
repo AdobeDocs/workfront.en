@@ -209,7 +209,7 @@ When you install the new Workfront for Outlook on any of your environments, your
 
 Use the following resources to learn more about Workfront for Outlook and get started:
 
-* [Website and video](https://www.workfront.com/integrations/outlook)&nbsp;
+* [Website and video](https://business.adobe.com/products/workfront/integrations.html)&nbsp;
 * [Using Workfront with Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)&nbsp;(help article)
 
 ### Removing Old API Versions {#removing-old-api-versions}

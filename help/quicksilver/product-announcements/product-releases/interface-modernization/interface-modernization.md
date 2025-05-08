@@ -16,11 +16,11 @@ This page lists interface updates we are making throughout Adobe Workfront to im
 
 For all other changes to Adobe Workfront, see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
-## Workfront navigation and search
+## Navigation and search
 
 ### Interface update for Advanced Search
 
-**Preview release: April 17; Production release: To be announced**
+**Preview release: April 17; Production release: Starting the week of April 24**
 
 We have updated the Advanced Search area with the following changes:
 
@@ -41,7 +41,7 @@ We have updated the page you use to grant support access to your Workfront accou
 
 ### Interface update for the Announcement Center
 
-**Preview release: February 27, 2025; To be announced**
+**Preview release: February 27, 2025; Starting the week of March 6, 2025**
 
 We have updated the Announcement Center with a more modern design that is consistent with other areas of Workfront. 
 
@@ -65,7 +65,7 @@ To view the settings, go to Setup > Teams.
 
 ### Interface update for approval process settings in Setup
 
-**Preview release: February 6, 2025; Production release: To be announced**
+**Preview release: February 6, 2025; Production release: Starting the week of February 13, 2025**
 
 We have updated the Approval settings dialog box with a more modern design that is consistent with other areas of Workfront.
 
@@ -147,6 +147,14 @@ We have updated the Add Sharepoint dialog box in Setup > Documents > Sharepoint 
 
 This update includes visual changes to the area. No functionality has changed.
 
+### Interface update for Add custom integration dialog box
+
+**Preview release: January 16, 2025; Starting the week of January 30, 2025**
+
+We have updated the Add custom integration dialog box in Setup > Documents > Custom Integration with a more modern design that is consistent with other areas of Workfront.
+
+This update includes visual changes to the area. No functionality has changed.
+
 ### Interface update for the Approvals area in the Setup
 
 **Preview release: January 16, 2025; Production release: Starting the week of January 30, 2025**
@@ -163,7 +171,7 @@ This update includes visual changes to the area. No functionality has changed.
 
 ### Interface updates for team requests
 
-**Preview release: March 6, 2025; Production release: To be announced**
+**Preview release: March 6, 2025; Production release: March 13, 2025**
 
 We have updated the Team Requests page with a more modern design that is consistent with other areas of Workfront.
 
@@ -329,3 +337,27 @@ We have added a new Edit Text Mode button and editing modal to the following are
 * Groupings
 
 +++
+
+## Users 
+
+### Updated document share page for external users
+
+**Preview release: April 10, 2024; Production release: Starting the week of April 17, 2024**
+
+We have updated the document share page for external users with a more modern design that is consistent with other areas of Workfront.
+
+External users can no longer access _My Settings_ from this page. 
+
+### Updated external user registration page
+
+**Preview release: April 24, 2024; Production release: Starting the week of May 8, 2024**
+
+We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+
+## Licenses
+
+### Updated license agreement page
+
+**Preview release: April 24, 2024; Production release: Starting the week of May 8, 2024**
+
+We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.

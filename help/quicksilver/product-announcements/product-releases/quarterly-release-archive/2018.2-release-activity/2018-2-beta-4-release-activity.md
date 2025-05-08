@@ -139,7 +139,7 @@ We had temporarily disabled exporting the data from the Resource Planner when di
 
 For more information about exporting the Resource Planner data to Excel, see the “Export Option” section in [Resource Planner navigation overview](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-To participate in our current beta program for the Resource Planner, see [Resource Planner Performance Beta.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&tab=digestviewer&ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)
+To participate in our current beta program for the Resource Planner, see [Resource Planner Performance Beta.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
 
 ## System Setting: Session Information in External Pages {#system-setting-session-information-in-external-pages}
 

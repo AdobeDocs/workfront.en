@@ -27,7 +27,7 @@ You may receive in-app or email notification when the following actions occur in
 
 ## Access requirements
 
-+++ Expand to view access requirements.. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article:  
 
