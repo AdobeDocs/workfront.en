@@ -20,7 +20,7 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ### Interface update for Advanced Search
 
-**Preview release: April 17; Production release: To be announced**
+**Preview release: April 17; Production release: Starting the week of April 24**
 
 We have updated the Advanced Search area with the following changes:
 
@@ -338,19 +338,16 @@ We have updated the document share page for external users with a more modern de
 
 External users can no longer access _My Settings_ from this page. 
 
-<!--
-
 ### Updated external user registration page
 
-**Preview release: April 24, 2024; Production release: To be announced**
+**Preview release: April 24, 2024; Production release: Starting the week of May 8, 2024**
 
 We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
-
 
 ## Licenses
 
 ### Updated license agreement page
 
-**Preview release: tbd; Production release: To be announced**
+**Preview release: April 24, 2024; Production release: Starting the week of May 8, 2024**
 
-We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.-->
+We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.
