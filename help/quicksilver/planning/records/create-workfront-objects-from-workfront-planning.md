@@ -1,5 +1,5 @@
 ---
-title: Create Workfront Objects from Workfront Planning
+title: Create Workfront objects from Workfront Planning as you connect them to records
 description: You can create Workfront objects types as you connect them from other records in Workfront Planning.
 feature: Workfront Planning
 role: User, Admin

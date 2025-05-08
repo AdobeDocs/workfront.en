@@ -3,6 +3,7 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Left navigation in [!DNL Adobe Workfront]
 description: The left navigation panel in [!DNL Workfront] makes it easy to navigate through the system.
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
 ---
@@ -248,12 +249,6 @@ To learn what sections are available for specific areas, see [[!UICONTROL Defaul
    You must have permissions to edit the object before you can edit the information.
 
    ![Left panel sections](assets/NWE-left-navigation-panel.png)
-
-1. (Optional) Click **[!UICONTROL Show More]** at the bottom of the left panel to display more sections.
-
-   >[!NOTE]
-   >
-   >This option is not available if all sections display in the left panel by default.
 
 1. (Optional) To add a dashboard quick link, click **[!UICONTROL Add Dashboard]** at the bottom of the left panel, then do the following:
 

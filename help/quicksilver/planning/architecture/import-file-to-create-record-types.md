@@ -102,7 +102,12 @@ You must have the following access to perform the steps in this article:
 * The file should not be larger than 5MB.
 * Empty sheets are not supported. 
 * Fields of the following types are not supported and cannot be mapped to fields on the import sheet:
-    * Connections and lookup fields of connected records <!--or connected Workfront objects-->
+    
+    * <!--In the Production environment,--> Connection fields to Planning records or Workfront and AEM Assets objects
+
+        <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+
+    * Lookup fields from connected Planning records or Workfront and AEM Assets objects
     * Formula fields
     * Created date, Created by
     * Last modified date, Last modified by
