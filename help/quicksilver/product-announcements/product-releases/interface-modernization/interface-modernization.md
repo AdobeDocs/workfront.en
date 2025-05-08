@@ -271,11 +271,21 @@ To view this change, go to a Documents > Click the more menu next to the Smart F
 
 ## Reports and Dashboards
 
-+++Expand to view Reports and Dashboards interface updates
+### Updated Access Level report with new styling
+
+**Preview release: TBD; Production release: Starting the week of February 6, 2025**
+
+We have updated the Access Level report with a more modern design that is consistent with other areas of Workfront.
+
+This update includes visual changes to the report. No functionality has changed.
+
+To create an Team report, go to Reports > New Report > Access Level.
+
++++Expand to view more Reports and Dashboards interface updates
 
 ### Updated Team report with new styling
 
-**Preview release: January 30, 2025; Starting the week of February 6, 2025**
+**Preview release: January 30, 2025; Production release: Starting the week of February 6, 2025**
 
 We have updated the Team report with a more modern design that is consistent with other areas of Workfront.
 
