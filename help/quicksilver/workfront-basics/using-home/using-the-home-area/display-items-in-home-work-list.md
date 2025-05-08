@@ -54,6 +54,40 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
+## Requirements for work items to display in the worklist
+
+There are built-in requirements for which work items display in certain widget work list. Work items must meet these requirements in order to appear in the following widget's worklists. 
+
+### My tasks widget
+
+Tasks must meet the following requirements to appear in the My Tasks widget:
+
+* The task status does not equate with Complete.
+* The logged in user must be assigned to the task.
+* The task status is not equal to Done.
+* The project the task belongs to must be in a status that equates with Current. 
+
+
+### My issues widget
+
+Issues must meet the following requirements to appear in the My Issues widget:
+
+* The logged in user must be assigned to the issue.
+* The issue status does not equate with Complete.
+* There is not a unresolved object attached to the issue.
+* The issue status is not equal to Done.
+* The project the issue belongs to must be in a status that equates with Current. 
+
+### My teams widget
+
+Team requests must meet the following requirements to appear in the My Teams widget:
+
+* The logged in user belongs to the team the work item is assigned to.
+* The work item status does not equate with Complete.
+* The work item does not have an unresolved approval process attached. 
+* The work item is not a recurring task.
+* The project the work item belongs to must be in a status that equates with Current. 
+
 ## Filter your work
 
 You can filter items in a widget's [!UICONTROL Worklist] to see only specific types of items. For example, you can filter the My Work [!UICONTROL Worklist] to display only issues or requests.
@@ -64,7 +98,7 @@ You can filter items in a widget's [!UICONTROL Worklist] to see only specific ty
 
 To filter your work:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add any of the following widgets:
 
    | Widget         | Description                                                                                      |
@@ -77,12 +111,12 @@ To filter your work:
    | My Requests  | Displays all requests that you have submitted                                                                 |
    | My Approvals | Displays all of your pending, assigned, delegated, and submitted approvals    |
 
-1. Click the **Filter** icon ![](assets/filter-nwepng.png) in the right-top corner of the widget worklist. 
+1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png) in the right-top corner of the widget worklist. 
 1. Choose a **Suggested** filter or a filter that you have created. 
    For detailed information on suggested filters, see [Home widget filters overview](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 1. (Optional) Toggle **Stack filters** on to select multiple filter options. 
 
-   ![](assets/my-task-filter-open.png)
+   ![My Task filter open](assets/my-task-filter-open.png)
 
 
 ## Group your work
@@ -91,7 +125,7 @@ You can group the widget [!UICONTROL worklist] to keep your work items organized
 
 To group your worklist:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add any of the following widgets:
 
    | Widget         | Description                                                                                      |
@@ -104,16 +138,16 @@ To group your worklist:
    | My Requests  | Displays all requests that you have submitted                                                                 |
    | My Approvals | Displays all of your pending, assigned, delegated, and submitted approvals    |
 
-1. Click the **Group** icon ![](assets/group-icon.png) in the right-top corner of the widget worklist. 
+1. Click the **Group** icon ![Group icon](assets/group-icon.png) in the right-top corner of the widget worklist. 
 1. Choose a **Suggested** grouping or a grouping that you have created. 
-   ![](assets/grouping-expanded.png)
+   ![Grouping expanded](assets/grouping-expanded.png)
 
 
 ## Customize worklist columns
 
 You can choose which columns appear in the widget worklist:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add any of the following widgets:
 
    | Widget         | Description                                                                                      |
@@ -126,10 +160,10 @@ You can choose which columns appear in the widget worklist:
    | My Requests  | Displays all requests that you have submitted                                                                 |
    | My Approvals | Displays all of your pending, assigned, delegated, and submitted approvals    |
 
-1. Click the **Column** icon ![](assets/column-icon.png) in the right-top corner of the widget worklist. 
+1. Click the **Column** icon ![Column icon](assets/column-icon.png) in the right-top corner of the widget worklist. 
 1. Toggle the columns on or off depending on your preferences. 
-1. (Optional) Click the **Drag** icon ![](assets/drag-icon.png) to reorder the columns. 
-   ![](assets/columns-expanded.png)
+1. (Optional) Click the **Drag** icon ![Drag icon](assets/drag-icon.png) to reorder the columns. 
+   ![Columns expanded](assets/columns-expanded.png)
 
 
 ## View late items
@@ -142,7 +176,5 @@ You can choose which columns appear in the widget worklist:
 * **Timesheets**: [!UICONTROL Submitted date]
 * **Approvals**: [!UICONTROL Submitted date]
 * **Proof approvals**: [!UICONTROL Proof deadline]
-
-
 
 

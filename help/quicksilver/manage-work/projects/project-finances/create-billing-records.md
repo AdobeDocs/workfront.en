@@ -235,7 +235,7 @@ After creating a billing record and including hours, expenses and revenues in th
 
    Or
 
-   Click the **Edit icon** ![](assets/edit-icon.png) in the upper-right corner, then edit information in any available fields.
+   Click the **Edit icon** ![Edit icon](assets/edit-icon.png) in the upper-right corner, then edit information in any available fields.
 
    Update the following:
 

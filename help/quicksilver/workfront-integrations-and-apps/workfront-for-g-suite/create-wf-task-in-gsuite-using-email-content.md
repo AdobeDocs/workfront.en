@@ -50,7 +50,7 @@ Before you can create a [!DNL Workfront] task in [!DNL Google Workspace], you mu
 
 ## Create a [!DNL Adobe Workfront] task in [!DNL Google Workspace] using email content
 
-1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
 1. With the email message open in [!DNL Google Workspace], click an option in [!DNL Workfront for Google Workspace] to convert the email to a new [!DNL Workfront] task.
 
 1. Select a **[!UICONTROL Create new]** option to indicate whether the task is going to be part of a project or a personal task that is independent of a project.

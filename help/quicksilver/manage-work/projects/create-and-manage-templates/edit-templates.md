@@ -65,7 +65,7 @@ Editing a template differs depending on what environment you choose.
 
 1. Go to the template you want to edit.
 1. (Conditional) To edit limited information about the template,  click **Template Details** in the left panel, then go to the areas listed in the left panel to edit information for each area. 
-1. To edit information in the Details section, click the **Edit** icon ![](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
+1. To edit information in the Details section, click the **Edit** icon ![Edit icon](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
 
    * Overview
    * Custom Forms
@@ -78,7 +78,7 @@ Editing a template differs depending on what environment you choose.
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-1. (Conditional) To edit all information about the template, click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
 
    The **Edit Template** box opens. The sections in this box contain the same fields available in  the Template Details section .
 
@@ -99,7 +99,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Overview**.
 
-   ![](assets/edit-template-overview-with-tasks-and-issues-350x210.png)
+   ![Edit template overview](assets/edit-template-overview-with-tasks-and-issues-350x210.png)
 
 1. Update the following fields:
 
@@ -198,7 +198,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Finance**.
 
-   ![](assets/edit-template-finance-with-tasks-and-issues-350x259.png)
+   ![Edit template finance](assets/edit-template-finance-with-tasks-and-issues-350x259.png)
 
 1. Update the following fields:
 
@@ -244,7 +244,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Portfolio**.
 
-   ![](assets/edit-template-portfolio-with-tasks-and-issues-350x228.png)
+   ![Edit template portfolio](assets/edit-template-portfolio-with-tasks-and-issues-350x228.png)
 
 1. Update the following fields:
 
@@ -277,7 +277,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Settings**.
 
-   ![](assets/edit-template-settings-with-tasks-and-issues-350x336.png)
+   ![Edit template settings](assets/edit-template-settings-with-tasks-and-issues-350x336.png)
 
 1. Update the following fields: 
 
@@ -405,7 +405,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Access**.
 
-   ![](assets/edit-template-access-with-tasks-and-issues-350x241.png)
+   ![Edit template access](assets/edit-template-access-with-tasks-and-issues-350x241.png)
 
    The Access you specify for your template will become the Access of users associated with the project when the template is used to create a project.
 
@@ -482,7 +482,7 @@ For information about how these settings affect creating new tasks, see [Create 
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Tasks**.
 
-   ![](assets/edit-template-with-tasks-and-issue-sections-350x144.png)
+   ![Edit template tasks](assets/edit-template-with-tasks-and-issue-sections-350x144.png)
 
 1. In the **Task Default Approval Process** box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see [Creating Approval Processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. You can associate up to ten custom forms with a task.
@@ -510,7 +510,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Issues**.
 
-   ![](assets/edit-template-box-with-issues-nwe-350x171.png)
+   ![Edit template issues](assets/edit-template-box-with-issues-nwe-350x171.png)
 
 1. (Optional) Deselect the **Allow users to add issues inline** option. It is enabled by default.
 
@@ -559,7 +559,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    1. Go to the template you want to edit.
    1. (Conditional) To edit limited information about the template,  click **Template Details** in the left panel, then go to the areas listed in the left panel to edit information for each area. 
-   1. To edit information in the Details section, click the **Edit** icon ![](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
+   1. To edit information in the Details section, click the **Edit** icon ![Edit icon](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
 
       * Overview
       * Custom Forms
@@ -572,7 +572,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
       >
       >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-   1. (Conditional) To edit all information about the template, click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+   1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
 
       The **Edit Template** box opens. The sections in this box contain the same fields available in  the Template Details section .
 
@@ -586,6 +586,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
       * [Tasks Settings](#task-settings) 
       * [Issue Settings](#issue-settings) 
       * [Access](#access-preview) 
+      * [Linked folders](#linked-folders-conditional-availability) (conditional availability)
    
 
 ### Template Name{#template-name}
@@ -605,7 +606,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    1. Begin editing your template as described above.
    1. In the **Edit Template** box, click **Overview**.
 
-      ![](assets/edit-template-box-overview-section.png)
+      ![Edit template box](assets/edit-template-box-overview-section.png)
 
    1. Update the following fields:
 
@@ -703,7 +704,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    1. Begin editing your template as described above.
    1. In the **Edit Template** box, click **Finance**.
 
-      ![](assets/edit-template-box-finance-section.png)
+      ![Edit template box finance](assets/edit-template-box-finance-section.png)
 
    1. Update the following fields:
 
@@ -759,7 +760,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    1. Begin editing your template as described above.
    1. In the **Edit Template** box, click **Custom Forms**.
 
-      ![](assets/edit-template-box-custom-forms-section.png)
+      ![Edit template box custom forms](assets/edit-template-box-custom-forms-section.png)
 
       The names of the custom forms that are already attached to the template display in the left panel.
 
@@ -786,7 +787,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    1. Begin editing your template as described above.
    1. In the **Edit Template** box, click **Project Settings**.
 
-      ![](assets/edit-template-box-project-settings-section.png)
+      ![Edit template box settings](assets/edit-template-box-project-settings-section.png)
 
    1. Update the following fields: 
 
@@ -918,7 +919,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    1. Begin editing your template as described above.
    1. In the **Edit Template** box, click **Task Settings**.
 
-      ![](assets/edit-template-box-tax-settings-section.png)
+      ![Edit template box task settings](assets/edit-template-box-tax-settings-section.png)
 
    1. In the **Task Default Approval Process** box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see [Creating Approval Processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
    1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. For more information about building custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). You can associate up to ten custom forms with a task.
@@ -946,7 +947,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    1. Begin editing your template as described above.
    1. In the **Edit Template** box, click **Issue Settings**.
 
-      ![](assets/edit-template-box-issue-settings-section.png)
+      ![Edit template box issue settings](assets/edit-template-box-issue-settings-section.png)
 
    1. (Optional) Deselect the **Allow users to add issues inline** option. It is enabled by default.
 
@@ -973,7 +974,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    1. Begin editing your template as described above.
    1. In the **Edit Template** box, click **Access**.
 
-      ![](assets/edit-template-box-access-section.png)
+      ![Edit template box access](assets/edit-template-box-access-section.png)
 
       The Access you specify for your template will become the Access of users associated with the project when the template is used to create a project.
 
@@ -1025,13 +1026,30 @@ By editing issue settings, you can prevent users from adding issues inline in th
       Now, when you use this template to create a project all these settings will transfer to the new project.
 
 
+### Linked folders (conditional availability) {#linked-folders}
+
+Linked folder functionality automatically creates folders in Adobe Experience Manager Assets, and connects these folders to Workfront. 
+
+This section appears only if all of the following apply:
+
+* Your organization has been migrated to the Adobe Admin Console
+* Your organization has enabled and configured an integration with Adobe Experience Manager
+* The template has enabled and configured linked folders.
+
+For instructions on editing Linked folders, see [Edit workflow values in a project](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) in the article [Use workflows in the Experience Manager Assets integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
+
+<!--I don't think this note is valid anymore - this note was on Edit project when this section was in that article, by mistake: 
+>[!NOTE]
+>
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.-->
+
 ## Edit templates in bulk
 
 You can edit templates in bulk and update all their information at the same time.
 
 To edit templates in bulk:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront. 
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront. 
 
 1. Click **Templates**. 
 1. Select several templates in the list.
@@ -1039,7 +1057,7 @@ To edit templates in bulk:
 
    The **Edit Templates** dialog box opens.
 
-   ![](assets/edit-templates-in-bulk-box-nwe-350x327.png)
+   ![Edit templates](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. Click the sections on the left to edit all selected templates.
 
@@ -1082,9 +1100,16 @@ Adding the following items to a template is identical to adding them to a projec
 
   For more information about adding expenses, see [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
+* Queue Details
+
+   For information about adding Queue Details to a project or a template, see [Create a Request Queue](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
 * Topic Groups and Queue Topics
 
-  For more information about adding Topic Groups and Queue Topics to a project or template, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  For information about adding Topic Groups and Queue Topics to a project or template, see the following articles:
+  
+   * [Create Topic Groups](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+   * [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 You can add the following items to the tasks in the template:
 
@@ -1106,12 +1131,12 @@ Deactivated templates do not affect existing projects that were created using th
 
 To deactivate a template: 
 
-1. Go to an active template, then click the **More** ![](assets/qs-more-icon-on-an-object.png) menu next to the template name, then click **Deactivate**. 
+1. Go to an active template, then click the **More** ![More icon](assets/qs-more-icon-on-an-object.png) menu next to the template name, then click **Deactivate**. 
 
-   ![](assets/deactivate-template-link-in-more-menu.png)
+   ![Deactivate template](assets/deactivate-template-link-in-more-menu.png)
 
    The template is no longer active and users can no longer find it to create projects from it.
-1. (Optional) To activate the template, click the **More** ![](assets/qs-more-icon-on-an-object.png) menu next to the template name, then click **Activate**. 
+1. (Optional) To activate the template, click the **More** ![More icon](assets/qs-more-icon-on-an-object.png) menu next to the template name, then click **Activate**. 
 
    The template is now active and can be attached to projects or used to create projects. 
    

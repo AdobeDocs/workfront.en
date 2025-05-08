@@ -49,38 +49,35 @@ For more detail about the information in this table, see [Access requirements in
 1. Go to the iteration or Kanban board that contains the story that you want to move to the backlog.
 1. Click the iteration heading at the top of the page.
 1. On the **[!UICONTROL Stories]** tab, select the stories that you want to move.
-1. Click **[!UICONTROL More]**&nbsp;> **[!UICONTROL Move to]**.
-
-   The **[!UICONTROL Move Story]** dialog box is displayed.
+1. Click **[!UICONTROL More]**&nbsp;> **[!UICONTROL Move to]**. The **[!UICONTROL Move To]** dialog box displays.
 
    ![Move Story dialog](assets/iteration-story-move.png)
 
-1. Select **team_name's Backlog**.
-   In the above example, the team name is **Marketing**.
+1. Select **team_name's Backlog**. In the above example, the team name is **Marketing**.
 
-1. Click **[!UICONTROL Move Story]**.
+1. Click **[!UICONTROL Move]**.
 
 ## Move a story to a different iteration
 
-You can move a story to a different iteration for your Scrum team.
+You can move a story to a different iteration for your Scrum team if you are a system administrator or a member of the team the iteration is associated with.
 
 >[!NOTE]
 >
->The **[!UICONTROL Move to]** option is not available for parent stories on an iteration. You can only move subtasks to another iteration.
+> The **[!UICONTROL Move to]** option is not available for parent stories on an iteration. You can only move subtasks to another iteration.
+
 
 1. Go to the iteration that contains the story that you want to move.
 1. Click the iteration heading at the top of the page.
 1. On the **[!UICONTROL Stories]** tab, select the stories that you want to move.
-1. Click **[!UICONTROL More]** > **[!UICONTROL Move to]**.
-
-   The **[!UICONTROL Move Story]** dialog box is displayed.
+1. Click **[!UICONTROL More]** > **[!UICONTROL Move to]**. The **[!UICONTROL Move To]** dialog box displays.
 
    ![Move Story dialog](assets/iteration-story-move.png)
 
-1. Select **[!UICONTROL Another Iteration]**, then in the drop-down menu, select the iteration where you want to move the story.
+1. Select **[!UICONTROL Another Iteration]**.
+1. In the drop-down menu that appears, select the iteration you want to move the story to.
 
    >[!NOTE]
    >
    >The work item [!UICONTROL Planned Start Date] and [!UICONTROL Planned Completion Date] are affected by a setting on the [!UICONTROL Edit Team] page. For information, see the section [[!UICONTROL Configure] how dates are applied when adding work items to an iteration](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) in the article [Configure Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-1. Click **[!UICONTROL Move Story]**.
+1. Click **[!UICONTROL Move]**.

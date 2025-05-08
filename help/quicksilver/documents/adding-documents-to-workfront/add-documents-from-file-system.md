@@ -65,7 +65,7 @@ To add a document:
 1. Go to the project, task, or issue where you want to add a new document.
 1. Click the **Documents** tab, then click the **Add New** drop-down menu.
 
-   ![](assets/add-new-doc.png)
+   ![Add new document](assets/add-new-doc.png)
 
 1. Depending on the type of document you want to add, do any of the following: 
 
@@ -117,7 +117,7 @@ Document scanning is enabled for your organization only upon request.
 
 If document scanning is enabled, files under 25 MB are scanned when they are uploaded. Files over 25 MB are not scanned.
 
-If Workfront detects a corrupted document, Workfront discontinues the upload process and a message appears indicating that the file is corrupt. You also receive an email notification when Workfront detects potentially malicious content and the file is slated for removal.
+If Workfront detects a corrupted document, a message appears indicating that the file is corrupt. You also receive an email notification when Workfront detects potentially malicious content and the file is slated for removal.
 
 Corrupted files are removed within 24 hours of detection unless you remove it manually. If you delete a corrupted file, Workfront tracks this action as an update. If you allow Workfront to remove it, then no updates are recorded.
 

@@ -81,7 +81,7 @@ To access the Planner section in the Resourcing area:
 
    The Planner displays by default.  For information about budgeting resources in the Resource Planner, see the article [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-   ![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+   ![Resource planner as default](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
 1. Click **Resource Pools** in the left panel.
    For information about creating resource pools, see [Create resource pools](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
@@ -99,6 +99,6 @@ When using the Resource Planner for one project, the allocation numbers for your
    >
    >You can only add a resource pool in the Resource Budgeting area of the Business Case when the project has no resource pools associated with it. When the project already has a Resource Pool, the users in the pool and their job roles display in the Resource Budgeting area by default.
 
-   ![](assets/resource-budgeting-area-on-project-350x70.png)
+   ![Resource budgeting](assets/resource-budgeting-area-on-project-350x70.png)
 
    For information about budgeting resources for one project, see the article [Budget resources in the Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).

@@ -10,7 +10,7 @@ exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 
 # Manage the record page layout
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -34,7 +34,7 @@ For information, see the following articles:
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article: 
 
@@ -93,13 +93,14 @@ You must have the following access to perform the steps in this article:
 <tr>
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
-   <p>Manage permissions to a workspace</a> </p>  
+   <p>Contribute or higher permissions to a workspace <span class="preview">and record type</span> </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> 
   </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu and the Planning area for projects, portfolios, and programs. </p> For more information, see <a href="/help/quicksilver/planning/access/access-overview.md">Adobe Planning access overview</a>. </p>  </p>  
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p>  
 </td>
   </tr>
  </tbody>
@@ -108,6 +109,7 @@ You must have the following access to perform the steps in this article:
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
 
 +++
+
 
 ## Considerations about editing record pages
 
@@ -151,25 +153,25 @@ To add a section to a record preview or page:
 
     Or 
     
-    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) in the first column. 
+    From the table table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. 
     
     The record's preview opens in the view.
 
-    ![](assets/details-box.png)  
+    ![Details box](assets/details-box.png)  
 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record preview  to open the record's page in a new tab. 
+1. (Optional) Click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record preview  to open the record's page in a new tab. 
 
     The record page opens. The Details tab opens by default.
 
-    ![](assets/details-page.png)
+    ![Details page](assets/details-page.png)
 
-1. In the **Details** tab of the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![](assets/add-section-icon.png) to add a section. 
+1. In the **Details** tab of the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![Add section icon](assets/add-section-icon.png) to add a section. 
 1. Click inside the section's name and replace **Untitled section** with a name, then click Enter. The fields displayed under the section are automatically part of the new section. 
 1. Start dragging and dropping fields to the new section, as described in the section [Rearrange fields in the record preview or details page](#rearrange-fields-in-the-record-preview-or-details-page) in this article. 
 
-1. (Optional) Hover over the name of a section and click the **More** menu ![](assets/more-menu.png). 
+1. (Optional) Hover over the name of a section and click the **More** menu ![More menu](assets/more-menu.png). 
 
-   ![](assets/more-menu-options-for-section-on-record-page.png)
+   ![More menu options for section on record page](assets/more-menu-options-for-section-on-record-page.png)
 1. (Optional) Do one of the following to edit the section: 
 
    * Click **Rename** to rename the section
@@ -190,19 +192,19 @@ To add a section to a record preview or page:
 1. Click the downward-pointing arrow to the left of a section name to collapse it, or the right-pointing arrow  to expand it. 
    All sections are expanded by default. 
 
-1. (Optional) Click the **grab** icon ![](assets/grab-icon.png) to the left of a section name, then drag and drop it in a desired spot. 
+1. (Optional) Click the **grab** icon ![Grab icon](assets/grab-icon.png) to the left of a section name, then drag and drop it in a desired spot. 
 
     The new position of the section updates in both the preview and the page of all records of the same type for all users viewing the records. 
 
     All changes to sections and field order are saved automatically. 
 
-1. (Optional) Click the **Export** menu ![](assets/export-icon-in-record-details-page.png) to export the Details tab to a Word or a PDF file. For more information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md). 
+1. (Optional) Click the **Export** menu ![Export icon in record details page](assets/export-icon-in-record-details-page.png) to export the Details tab to a Word or a PDF file. For more information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md). 
 
 1. (Optional) Click the **Connections** tab next to the **Details** tab. You might have to click **More** before clicking the **Connections** tab.
 
    All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
 
-      ![](assets/connections-tab-on-record-in-workfront-planning.png)
+      ![Connections tab on record in Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
 
 1. (Optional) Select the **Show all records** setting in the upper-right corner of the Connections tab. All connected record types display, including the ones that don't have any connected records yet. BY default, the toggle is deselected and record types with no connected records are hidden. 
 
@@ -230,63 +232,140 @@ To add a section to a record preview or page:
 
     Or 
     
-    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) in the first column. 
+    From the table table view, click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) in the first column. 
     
     The record's preview opens in the view.
 
-    ![](assets/details-box.png) 
+    ![Details box](assets/details-box.png) 
 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
+1. (Optional) Click the **Open in new tab** icon ![Open details box in a new tab icon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 
     The **Details** tab of the record opens by default. 
 
-    ![](assets/details-page.png)
+   ![Details page](assets/details-page.png)
 
-1. In the record **Details** tab, click the **grab** icon ![](assets/grab-icon.png) to the left of a field name, then drag and drop it in a desired spot. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. In the record **Details** tab, click the **grab** icon ![Grab icon](assets/grab-icon.png) to the left of a field name, then drag and drop it in a desired spot. 
 
-    The new position of the field is updated in both the preview and the page of all records of the same type for all users viewing the records. 
+   >[!TIP]
+   >
+   >You can drag and drop fields to another section. 
+   >You must have at least one field in a section.
+   >
 
-    All changes to the layout of the record preview or page save automatically. 
+   The new position of the field is updated in both the preview and the page of all records of the same type for all users viewing the records. 
 
-<span class="preview">
+   All changes to the layout of the record preview or page save automatically. 
 
-## Add a Connection view page to a record's page
+## Add a <span class="preview">Connected records page</span> to a record
 
-Consider the following when adding a Connection view to a record's page: 
+You can view information from connected records or objects by adding a tab for a <span class="preview">Connected records page</span> to a record.  
 
-* You can add a Connection view page to a record's page.
+In the Production environment, the information from the connected records or objects displays in a read-only table view. 
 
-* You cannot add a Connection view page to a record's preview area.
+<span class="preview">In the Preview environment, the information from the connected records can be edited in the table view. The information from the objects connected from another application is not editable in the table view.</span>
 
-* Connection view pages display one connected record page in the table view. The table view is read-only. 
+Consider the following when adding a <span class="preview">Connected records page</span> to a record: 
 
-* You can add one Connection view page per each connected record type.  <!--edit this when we can remove fields from this page-->
+* You can add a <span class="preview">Connected records page</span> to a record after you connected record or object types to the record type from the table view of a record type.
 
-* After you add a Connection view page to a record's page, the page is visible from the record's preview area. 
+* You cannot add a <span class="preview">Connected records page</span> to a record's preview area.
 
-To add a Connection view page:
+* <span class="preview">Connected records pages</span> display only the connected objects or records from one object or record type in a table view. The page does not display all records of that type in the table view. 
 
-1. From a record page view, click the name of a record to open it, then click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.
-1. Click **Add page** > **Connection view**. 
+* After you add a <span class="preview">Connected records page</span> to a record, the page tab is visible from the record's preview area, but it is blank. You must go to the full page to see the table view for the connected record. <!--this might have changed? check and take disclaimer out--> 
 
-   ![](assets/add-connection-view-page-modal.png)
-1. Add the **Page name**, click **Connection view**, then click **Create**.
+* You can add <span class="preview">Connected records pages</span> for the following connected record or object types:
+
+   * Workfront Planning record types
+   * Workfront projects, programs, portfolios, groups, or companies. You can view the connected Workfront objects even when you do not have permissions to access them in Workfront. 
+
+   >[!NOTE]
+   >
+   >   You cannot add a <span class="preview">Connected records page</span> for connected AEM Assets records.
+
+
+To add a <span class="preview">Connected records page</span>:
+
+1. From a record page view, click the name of a record to open it, then click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.
+1. Click **Add page**.  
+
+   <div class="preview">
+   
+   The **Create page** box opens.
+
+   ![Add Connected records page modal](assets/add-connection-view-page-modal.png) 
+   
+   </div>
+
+1. Add the **Page name**, click **<span class="preview">Connected records page</span>**, then click **Create**.
 
    A new tab is added to the record's page.
-1. Search or click the name of a connected record or object type in the list. 
-   The table view of the record type you selected displays and the connected records display in the table view. 
-   The table view is read-only. 
+1. Search for or click the name of a connected record or object type in the list. 
+   The table view of the record type you selected displays in the new page, and the connected records display in the table view. 
+   All fields of the connected record display in the table view of the connected record's tab. 
+   
+   The first five fields from the connected record table display by default. No lookup fields display by default.
 
-   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
-1. (Optional) Double-click the name of the tab
+   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
+
+   ![Audience connected table view under campaign details](assets/audience-connected-table-view-under-campaign-details-page.png)
+
+1. (Optional) In the table view of the connected records, do any of the following:
+
+   * Click the name of a record. This opens the record's page in a new tab. 
+   
+      <span class="preview">In the Preview environment, this opens the record's preview page. Click the **Open in a new tab** icon ![Open in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner to open the connected record's page.</span>
+
+   * Click **Connect** to connect more records, then click outside the connection box to close it. The new records are automatically added to the table. 
+   * <span class="preview">Edit any information from the connected records inside the table view. </span>
+
+   <div class="preview">
+
+   * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options: 
+      * View 
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Insert record above or below
+      * Delete 
+   * Select one of the records, then click one of the following options in the blue bar at the bottom of the screen: 
+      * View
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Delete. Delete is the only option available when you select more than one record. 
+
+      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+
+   * Inline edit any of the records in the table on the Connected records page. Workfront objects display in a read-only table view and you cannot edit them. 
+
+   </div>
+
+
+1. (Optional) Double-click the name of the <span class="preview">Connected records page</span> tab
 
    Or
 
-   Hover over the name of the tab, then click **More** ![](assets/more-menu.png), then click **Rename** to rename to new Connected view tab.
-1. (Optional) Use any view elements in the toolbar to manage the table view. For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
-1. (Optional)  Hover over the name of the tab, then click **More** ![](assets/more-menu.png), then click **Delete** to remove to new Connected view tab.
+   Hover over the name of the tab, then click **More** ![More menu](assets/more-menu.png), then click **Rename** to rename to new Connected view tab.
+1. (Optional) Use any of the following view elements in the toolbar to manage the table view:
 
-</span>
+   * Filters
+   * Sort
+   * Grouping
+   * Fields, to display, hide, or rearrange fields
+
+   For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+
+   >[!NOTE]
+   >
+   >   You cannot create, edit, or delete fields in the table view of a connected record's tab.
+   >
+
+1. Click **Connect** to add or remove records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md)
+1. (Optional)  Hover over the name of the <span class="preview">Connected records page</span> tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.
+
+
+
 
 <!--
 ## Add a Brief page to a record's page

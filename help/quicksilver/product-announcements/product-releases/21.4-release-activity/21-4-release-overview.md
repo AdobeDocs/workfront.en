@@ -407,7 +407,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
 
 ## Workfront Fusion enhancements
 
-New features in Workfront Fusion are available in Production at a cadence outside of the 21.4 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+New features in Workfront Fusion are available in Production at a cadence outside of the 21.4 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Workfront Scenario Planner enhancements
 
@@ -459,7 +459,7 @@ The Workfront 21.4 Release Webinar was presented on September 23, 2021. You can 
 
 ## Training updates
 
-Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://one.workfront.com/s/training-release-updates).
+Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Functionality no longer supported
 

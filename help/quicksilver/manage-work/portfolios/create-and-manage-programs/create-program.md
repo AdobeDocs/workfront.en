@@ -11,6 +11,10 @@ exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 
 <!-- Audited: 1/2024 -->
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
 A program represents a collection of projects that share a common strategy, objective, or goal that transcends project boundaries. 
 Programs are a subdivision of portfolios and they cannot exist outside of a portfolio. Programs typically share the same resources as other programs within the same portfolio. 
 
@@ -63,6 +67,15 @@ You can create a program in Workfront using one of the following methods:
    As a Workfront administrator, you can import programs using a kick-start.
 
    For information about importing data using kick-starts in Workfront, see [Import data into Adobe Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+
+* Add programs as you connect them from a record type in Workfront Planning. 
+
+   You must have an additional Workfront Planning package.
+
+   For information about access to Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md).
+
+   For information about creating portfolios by adding them to records, see the section "Create records as you connect them" in the article [Create records](/help/quicksilver/planning/records/create-records.md).
 
 ## Create a program
 
@@ -140,7 +153,7 @@ You can specify the following information:
    For information about adding projects to programs, see [Add a project to a program](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
 1. Click **[!UICONTROL Save Changes]**.
-1. (Optional) Click the **[!UICONTROL More menu]** ![](assets/more-icon.png) next to the program name and click **[!UICONTROL Deactivate Program]**.
+1. (Optional) Click the **[!UICONTROL More menu]** ![More menu](assets/more-icon.png) next to the program name and click **[!UICONTROL Deactivate Program]**.
 
    When you deactivate a program, the program no longer displays in a list of program when users try to add it to a project. You can still access the program from the [!UICONTROL Programs] area.
 

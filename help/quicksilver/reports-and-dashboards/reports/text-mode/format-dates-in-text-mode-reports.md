@@ -9,6 +9,8 @@ exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
 ---
 # Format dates in text mode reports
 
+<!-- Audited: 1/2025 -->
+
 Dates can be configured to display in a variety of formats in reports and lists in Adobe Workfront. To establish a date format, you must modify the `valueformat` line of the text mode code in the column.
 
 `valueformat= [new date format]` For example, if you wanted the Projected Completion Date to be displayed as MM/DD/YY the code would look like:
@@ -27,13 +29,7 @@ valuefield=plannedCompletionDate
 
 For more information about applying conditional formatting in Workfront reports and lists using text mode, see [Use conditional formatting in Text Mode](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-You can format dates using the following 
-
-```
-valueformat
-```
-
-&nbsp;text mode values:
+You can format dates using the following `valueformat` text mode values:
 
 | **Format** |Example&nbsp; |***valueformat=*** |
 |---|---|---|

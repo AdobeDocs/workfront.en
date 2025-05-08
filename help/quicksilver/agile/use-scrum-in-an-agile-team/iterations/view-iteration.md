@@ -48,7 +48,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. In the left panel, select **[!UICONTROL Iterations]** to choose a specific iteration, or select **[!UICONTROL Current Iteration]**.
 
-   ![Iteration list](assets/view-iteration-NWE.png)
+   ![Iteration list](assets/view-iteration-list.png)
 
    >[!NOTE]
    >
@@ -58,4 +58,4 @@ For more detail about the information in this table, see [Access requirements in
 1. (Optional) Click the name of the specific iteration that you want to view.
    The iteration stories display.
 
-   ![[!UICONTROL Stories in iteration]](assets/iteration-stories-list-NWE.png)
+   ![[!UICONTROL Stories in iteration]](assets/iteration-stories-list.png)

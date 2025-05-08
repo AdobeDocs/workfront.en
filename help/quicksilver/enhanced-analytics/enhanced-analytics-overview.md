@@ -10,6 +10,11 @@ exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
 ---
 # Enhanced analytics overview
 
+>[!IMPORTANT]
+>
+>Enhanced Analytics will be removed from Workfront the week of May 26th. Workfront Data Connect is a new, alternative solution and can be used to replicate any Enhanced Analytics visualizations you currently use. <br>See the [Enhanced Analytics deprecation](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) guide for more information.
+
+
 Enhanced analytics is a powerful tool in Adobe Workfront with prebuilt visualizations that allows you to look at project data and identify trends with planning and completion. This insight into your projects helps you manage your current work and enables you to plan more accurately for future work.
 
 Enhanced analytics can help you identify:
@@ -21,9 +26,9 @@ Enhanced analytics can help you identify:
 * How often users complete specific actions during a project
 * The progress of projects, as well as the individual tasks within a project
 
-![](assets/nwe-full-screen-analytics-350x222.png)
+![Analytics](assets/nwe-full-screen-analytics-350x222.png)
 
-To see use cases or learn more about managing current work and planning for future work with Enhanced analytics, see [Enhanced analytics Learning Paths](https://one.workfront.com/s/enhanced-analytics-program).
+To see use cases or learn more about managing current work and planning for future work with Enhanced analytics, see [Enhanced analytics Learning Paths](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Prerequisites
 
@@ -31,11 +36,11 @@ To access the Enhanced analytics area, you must:
 
 * Have a Business or Enterprise plan.
 
-  For more information, see [Workfront plans](https://www.workfront.com/plans).
+  For more information, see [Workfront plans](https://business.adobe.com/products/workfront/pricing.html).
 
 * Have your Workfront administrator add Enhanced analytics to your layout template.
 
-  For more information, see [Enhanced Analytics: Adding analytics to layout templates](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
+  For more information, see [Enhanced Analytics: Adding analytics to layout templates](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 To see information for projects and tasks, you must:
 

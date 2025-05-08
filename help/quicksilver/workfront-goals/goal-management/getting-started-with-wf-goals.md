@@ -1,12 +1,13 @@
 ---
-title: Get started with Adobe Workfront Goals
+title: Get Started with Adobe Workfront Goals
 description: Workfront Goals helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. 
 author: Alina
-draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
 ---
 # Get started with Adobe Workfront Goals
+
+<!--Audited for P&P only: 4/2025-->
 
 >[!IMPORTANT]
 >

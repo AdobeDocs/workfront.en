@@ -11,15 +11,13 @@ exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 ---
 # Organize and preview a form
 
-{{preview-fast-release-general}}
-
 You can organize a custom form with the form designer, and preview it to verify that it is set up correctly.
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -154,9 +152,8 @@ In a custom form with a section break configured with the Limited Edit permissio
 
 1. (Optional) To position a custom field or widget above or below another one, drag it above or below until a horizontal blue line appears between the items.
 
-1. To move a custom field to another section on the form, you can drag and drop it into place, <span class="preview">or click the **Move to** icon on the field and select the section to move it to.</span>
+1. To move a custom field to another section on the form, you can drag and drop it into place, or click the **Move to** icon on the field and select the section to move it to.
    
-   <span class="preview">Sample image in the Preview environment:</span>
    ![Move field to a section](assets/move-field-to-section.png)
 
 1. To save your changes, click **Apply** 

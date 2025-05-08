@@ -3,7 +3,7 @@ product-area: requests
 navigation-topic: create-requests
 title: Create and Submit Requests
 description: Planned work is represented in Adobe Workfront by projects and tasks. However, you might work in an environment where unplanned work—in the form of random requests—can come in at any time. Workfront provides a workflow to accommodate this type of environment through the use of Request Queues.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 ---
@@ -19,16 +19,28 @@ exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 </div>
 -->
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
 Planned work is represented in Adobe Workfront by projects and tasks. However, you might work in an environment where unplanned work, in the form of requests, can come in at any time. Workfront provides a workflow to accommodate this type of environment through the use of Request Queues. 
 
 After you create a request in a Request Queue, you can either assign it to be completed or you can convert it to a task or a project.   
 For more information about converting issues to a task or project, see the article [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-You can create a request in the following ways:
+You can create a Workfront request in the following ways:
 
 * From scratch as described in this article. 
 * From drafts. For information, see [Create requests from drafts](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 * From an existing request, by copying and submitting a copy. For information, see [Copy and submit requests](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
+
+You can create a Workfront Planning request from scratch, to create records in Workfront Planning in the following ways: 
+
+* From a link to a Workfront Planning request form.
+
+* From a Workfront Planning request form in the Requests area of Workfront. 
+
+  Your organization must purchase a Workfront Planning package. For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
 
 ## Access requirements
 
@@ -106,14 +118,35 @@ To create a request in the Workfront web app:
 
 {{step1-to-requests}}
 
+1. (Optional and conditional) Select the **Switch to new experience** setting in the upper-right of the screen, if the following things apply to your organization and your Workfront instance: 
+
+    * Your organization has purchased a Workfront package
+    * Your organization has been onboarded to the Adobe Unified Experience. 
+    * Your administrator has granted you access to Workfront Planning
+    * You have at least view permissions to a Workfront Planning workspace
+
+    For more information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
+
 1. Click **New Request** in the upper-right corner of the page.
 
    >[!TIP]
    >
-   >* You can access the New Request option from any section in the Requests area.
-   >* The New Request option is dimmed when you do not have access to create issues. 
+   >* You can access the New request option from any section in the Requests area.
+   >* The New request option is dimmed when you do not have access to create issues. 
 
-1. (Conditional) Click inside the **Request Type** field and do one of the following:
+    The **New request** box opens.
+
+1. (Conditional) If you switched to the new experience that includes Workfront Planning, the **New request** box displays the following:</span>
+
+    * The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. 
+    * 50 additional Workfront request queues and Planning request forms display in alphabetical order in the **All request forms** section. You can search for a request queue that does not display by default. 
+
+    ![New request box with unified workflow for planning requests](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
+
+    Click one of the Workfront request queue cards, or search for one, then click it when it displays in the list. 
+1. (Conditional) If you switched to the new experience that includes Workfront Planning, select your topic groups and queue topics and continue updating the form.
+
+    Otherwise, click inside the **Request Type** field and do one of the following:
 
    * From the **Recent Paths** section, select a path you used recently to open a request queue. A path includes the request queue, the topic groups, and the queue topic that you submitted to recently. The last three paths display by default.
 
@@ -294,6 +327,8 @@ To create a request in the Workfront web app:
 
    When you submit the request, the draft automatically deletes and cannot be restored.
 
+   Submitted requests are listed in the **Submitted** section of the Requests area. If you are using the new experience that includes Workfront Planning, the Workfront submitted requests display in the **Workfront** tab of the Requests area. 
+
    For information about addressing incoming requests, see the article [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
    For information about locating submitted or drafted requests, also see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
@@ -338,6 +373,17 @@ You can submit requests using any applications that have been integrated with Wo
 
 * You can submit requests from Salesforce if you have installed the Workfront app for Salesforce.  
   For information about submitting requests from Salesforce using our Workfront app for Salesforce, see the article [Submit Adobe Workfront requests from Salesforce objects](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
+
+## Create requests using a Workfront Planning request form
+
+You can add a Workfront Planning request using a Planning request form. Adding Workfront Planning requests might create Planning records, if the request form is approved or if it does not require approval. 
+
+Your organization must purchase a Workfront Planning package to be able to submit Planning requests. 
+
+For information, see the following articles: 
+
+* [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). 
+* [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
 
 ## Locate submitted requests
 

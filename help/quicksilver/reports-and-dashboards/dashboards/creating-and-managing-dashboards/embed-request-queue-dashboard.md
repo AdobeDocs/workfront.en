@@ -94,7 +94,7 @@ Users can change the request type or choose another topic if they need to. The n
 
    This copies the link to the request queue or the queue topic as you display it on the screen. Users can update the Request Type or any of the topic groups and queue topics available.
 
-   ![](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
+   ![Request queue with share path](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
 ### Obtain a link to a request queue and ability to change the request type {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
@@ -115,7 +115,7 @@ When you share a link to a request type, the request type is selected for the us
 
    Users can select any topic group or queue topic they need, or they can choose another request type.
 
-   ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+   ![Request queue URL](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
 ### Obtain a link to a request queue with no ability to change the request type {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
@@ -144,7 +144,7 @@ When you share a link to a preselected request type, the request type is selecte
 
    Users can select any topic group or queue topic they need for the selected request type. Users cannot select another request type.
 
-   ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![Request queue code](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## Embed a request queue in a dashboard
 
@@ -158,7 +158,7 @@ You can embed a link to the requests queue or to a queue topic nested under a re
 
 1. Click **Add External Page**.
 
-   ![](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![External page](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. In the **Add External Page** box, edit the following fields:
 

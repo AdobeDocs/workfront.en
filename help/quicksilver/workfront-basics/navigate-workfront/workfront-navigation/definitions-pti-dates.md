@@ -41,9 +41,9 @@ For more information, see [Overview of the project [!UICONTROL Actual Start Date
 >
 >The [!UICONTROL Must Start On] task or the Fixed Dates constraints affect the [!UICONTROL Planned Start Date] of a task, not the [!UICONTROL Actual Start Date]. This updates the [!UICONTROL Planned Start Date] to a date you specify. The [!UICONTROL Actual Start Date] is updated independently of the [!UICONTROL Planned Start Date], as described above.
 
-![](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
+![Actual start date on edit task](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
 
-![](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
+![Actual start date on task](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
 
 ## [!UICONTROL Actual Completion Date]
 
@@ -62,7 +62,7 @@ The [!UICONTROL Actual Completion Date] of a project coincides with the date whe
 
 For more information, see [Overview of the project [!UICONTROL Actual Completion Date]](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
-![](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
+![Actual completion date in Details](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
 
 ## Approval Path Completion Date 
 
@@ -146,7 +146,7 @@ The [!UICONTROL Entry Date] is the date when a project, task, or issue was creat
 
 The [!UICONTROL Entry Date] does not influence the timeline of projects, tasks, or issues, but it is important for tracking and reporting purposes. [!DNL Workfront] automatically generates the [!UICONTROL Entry Date] when the object is created and you cannot manually edit it.
 
-![](assets/entry-date-in-task-details-highlighted-nwe.png)
+![Entry date in task details](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## Estimated Due Date 
 
@@ -178,7 +178,7 @@ This is a manual estimation and it does not take into account any actual progres
 
 The Fixed End Date of a project is visible in the project's Business Case section as well as in project lists and reports. 
 
-![](assets/fixed-end-date-business-case-highlight.png)
+![Fixed end date](assets/fixed-end-date-business-case-highlight.png)
 
 ## Fixed Start Date
 
@@ -188,7 +188,7 @@ This is a manual estimation and it does not take into account any actual progres
 
 The Fixed Start Date of a project is visible in the project's Business Case section as well as in project lists and reports. 
 
-![](assets/fixed-start-date-business-case-highlight.png)
+![Fixed start date](assets/fixed-start-date-business-case-highlight.png)
 
 ## Handoff Date 
 
@@ -246,9 +246,9 @@ For more information, see the following articles:
 * [Set the project [!UICONTROL Planned Completion Date]](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [Overview of the issue [!UICONTROL Planned Completion Date]](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
-![](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
+![Planned competion date in header](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
 
-![](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
+![Planned completion date in task list](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
 
 
 ## Planned Date Alignment
@@ -271,9 +271,9 @@ Depending on the [!UICONTROL Task Constraint], you might not be able to edit the
 
 For more information, see [Overview of the project [!UICONTROL Planned Start Date]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
+![Planned start date on edit task](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
-![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
+![Plannes start date in task list](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
 ## [!UICONTROL Projected Completion Date]
 
@@ -283,7 +283,7 @@ If everything goes smoothly and as planned, the [!UICONTROL Projected Completion
 
 For more information, see [Overview of the [!UICONTROL Projected Completion Date] for projects, tasks, and issues](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
-![](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
+![Projected completion date](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
 
 ## [!UICONTROL Projected Start Date]
 
@@ -299,7 +299,7 @@ For a task, a [!UICONTROL Projected Start Date] may also differ from its [!UICON
 
 For more information, see [Overview of the project [!UICONTROL Projected Start Date]](../../../manage-work/projects/planning-a-project/project-projected-start-date.md).
 
-![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
+![Projected start date](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
 <!--## Rejection Date-->
 

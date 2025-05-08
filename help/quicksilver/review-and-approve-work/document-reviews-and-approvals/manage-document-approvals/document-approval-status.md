@@ -11,7 +11,7 @@ exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
 
 You can view the document's status directly in the document list:
 
-![](assets/status-in-doc-list.png)
+![Status in document list](assets/status-in-doc-list.png)
 
 
 The following statuses are available:

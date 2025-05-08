@@ -13,7 +13,7 @@ exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
 
 <!-- do you need to add that only workspace owners can view the Submitted/ Planning tab?? - asking team in slack-->
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -41,7 +41,7 @@ Submitted requests display in the Planning tab of the Submitted section in the R
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article: 
 
@@ -99,7 +99,7 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
    <ul>
-   <li><p>Manage permissions to a workspace</p></li>
+   <li><p>Manage permissions to a workspace <span class="preview">and record type</span> </p></li>
     <li><p>System Administrators can manage workspaces they did not create. </p></li>
     </ul>
    <p>For information about sharing permissions for Workfront Planning objects, see  
@@ -108,7 +108,8 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p>  
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> 
 </td>
   </tr>
  </tbody>
@@ -117,6 +118,7 @@ You must have the following access to perform the steps in this article:
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
 
 +++
+
 
 ## Approve a request to create a record
 
@@ -135,21 +137,21 @@ To approve a request:
 
 1. Do one of the following: 
 
-    * If you have access to Workfront Planning and can view at least one workspace, click **Main Menu** ![](assets/dots-menu.png) in the upper-right corner of the screen, or the **Main Menu** ![](assets/lines-menu.png) in the upper-left corner, if available, then click **Requests** > **Submitted** > **Planning**, and click the request with the status of **Pending review** or **In review**.
+    * If you have access to Workfront Planning and can view at least one workspace, click **Main Menu** ![Dots main menu](assets/dots-menu.png) in the upper-right corner of the screen, or the **Main Menu** ![Lines main menu](assets/lines-menu.png) in the upper-left corner, if available, then click **Requests** > **Submitted** > **Planning**, and click the request with the status of **Pending review** or **In review**.
 
       >[!TIP]
       >
       >If you don't have access to Workfront Planning, or if you don't have access to view any workspaces, you can only access a request to approve it using your email or in-app notifications. 
    
-    * Click the **Notifications** area icon ![](assets/notifications-area-icon-unified-shell.png) in the upper-right corner of the screen and click the notification about a request pending your approval to open the request.
+    * Click the **Notifications** area icon ![Notifications area icon in Unified Shell](assets/notifications-area-icon-unified-shell.png) in the upper-right corner of the screen and click the notification about a request pending your approval to open the request.
     * Go to the email notification in your email that notifies you about a request pending your approval, then click **Open request** to open the request. <!--add the name of the button here, from the email-->
 
     The request page opens in read-only mode.
 
-    ![](assets/read-only-reqeust-page-in-review-status.png) 
+    ![Read-only request page in review status](assets/read-only-reqeust-page-in-review-status.png) 
 
-1. (Optional) Click the **Approvals** icon ![](assets/approvals-icon.png) in the upper-right corner of the request to view the approvers.
-1. Click **Review and approve**, then choose one of the following: <!--did they fix the button and removed the &??-->
+1. (Optional) Click the **Approvals** icon ![Approvals icon](assets/approvals-icon.png) in the upper-right corner of the request to view the approvers.
+1. Click **Review and approve**, then choose one of the following: 
 
     * **Approve**: This approves the request. A record is immediately created for the record type associated with the request form after all approvers approve the request.
     * **Reject**: This rejects the request, even when you are the only approver that rejects it. No record is created for the record type associated with the request form. 

@@ -54,7 +54,7 @@ You must have the following access to perform the steps in this article:
    ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)
 
 1. (Optional) Click&nbsp;**Measurement markup color**&nbsp;to expand the color options, then click a color and **Opacity** that is easy to see on your proof.  
-   ![](assets/selection-color-350x330.png)
+   ![Selection color](assets/selection-color-350x330.png)
 
    The default measurement tool color is red.
 
@@ -73,7 +73,7 @@ You must have the following access to perform the steps in this article:
 1. Drag the corners or edges of the measurement window to resize it.
 1. (Optional) If you need the measurement area to be an exact size, type **Selection size** values.
 1. (Optional) If you need to measure a certain percentage within an area, check the calculate percentage box. A new box appears allowing you to adjust it  
-   ![](assets/calculate-percentage-350x230.png)
+   ![Calculate percentage](assets/calculate-percentage-350x230.png)
 
 1. Click the **Measure an area** icon at the top of the proofing viewer to dismiss the tool when you are finished.
 

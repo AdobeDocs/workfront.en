@@ -26,7 +26,7 @@ For information, see [Create record types](/help/quicksilver/planning/architectu
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -80,12 +80,13 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Manage permissions to a workspace </p>  
+   <td>   <p>Contribute or higher permissions to a workspace <span class="preview">and record type</span>  </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> </td> 
   </tr> 
 </tbody> 
 </table> 
@@ -93,7 +94,6 @@ You must have the following access to perform the steps in this article:
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
-
 
 ## Considerations about record page cover images
 
@@ -130,45 +130,46 @@ You can personalize a record by adding a cover image at the top of the record pr
 
     Or 
     
-    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) in the first column. 
+    From the table table view, click the **Open details** icon ![Open details icon](assets/open-details-icon-in-table-name-field.png) in the first column. 
     
     The record's preview opens in the view.
 
-    ![](assets/details-box.png) 
+    ![Details preview box](assets/details-box.png) 
 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
+    
+1. (Optional) Click the **Open in new tab** icon ![Open in new tab icon](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 
     The record page opens. 
 
-    ![](assets/details-page.png)
+    ![Details page](assets/details-page.png)
 
-1. In the record preview or page, click **Add cover** in the Production environment, <span class="preview">or hover over the space above the record name, then click **Add cover** in the Preview environment</span>. 
+1. In the record preview or details page, hover over the space above the record name, then click **Add cover**.
     
     Or
     
-    Hover over an existing cover image, click the **More** menu ![](assets/more-menu.png) , then click **Upload**. <!--check the casing here; I logged a bug for this-->
+    Hover over an existing cover image, click the **More** menu ![More menu](assets/more-menu.png) , then click **Upload**. <!--check the casing here; I logged a bug for this-->
     The **Record cover** box opens in the **Upload** tab. 
 
-    ![](assets/record-cover-box-for-upload.png)
+    ![Record cover box for upload](assets/record-cover-box-for-upload.png)
 
 1. Click **Browse images** and browse for a picture on your computer to select and add it. 
 
-1. (Optional) To remove the image before it is saved, click the **Upload new image** icon ![](assets/upload-new-image-icon.png) , and upload a new image.
+1. (Optional) To remove the image before it is saved, click the **Upload new image** icon ![Upload new image icon](assets/upload-new-image-icon.png) , and upload a new image.
 
 1. (Optional) Click the **Gallery** tab, then click an image in the gallery of images. The gallery of images cannot be modified.
 
-    ![](assets/record-cover-box-for-gallery.png)
+    ![Record cover box for gallery](assets/record-cover-box-for-gallery.png)
 
 1. Click **Use image**.
 
-    The image is uploaded at the top of the record preview or page and changes are saved automatically. 
+    The image is uploaded at the top of the record preview or details page and changes are saved automatically. 
 
-    ![](assets/record-page-with-cover-image.png)
+    ![Record page with cover image](assets/record-page-with-cover-image.png)
 
-1. (Optional) Hover over the image, then click the **More** menu ![](assets/more-menu.png) in the lower-right corner of the cover image, then do one of the following: 
+1. (Optional) Hover over the image, then click the **More** menu ![More menu](assets/more-menu.png) in the lower-right corner of the cover image, then do one of the following: 
 
     * Click **Upload** if you want to replace the cover image and repeat Step 6 to upload and save a new image.
-    * Click **Reposition**, and use the **Reposition** tool ![](assets/reposition-tool-icon.png) to center the cover image, then click **Save** when done. 
+    * Click **Reposition**, and use the **Reposition** tool ![Reposition tool icon](assets/reposition-tool-icon.png) to center the cover image, then click **Save** when done. 
     * Click **Remove** to remove the cover image. 
 
     Workfront automatically saves your changes.

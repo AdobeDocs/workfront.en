@@ -68,7 +68,7 @@ You can configure the following integrations for managing documents:
 
 * [!DNL Workfront Proof]
 
-   Linking proofs from [!DNL Workfront Proof] allows you to make proofs that were originally created within [!DNL Workfront Proof] available within [!DNL Workfront]. For the current plans, a [!UICONTROL Pro] [!DNL Workfront] Plan or higher is required to use this feature. For the new plans, this feature is available with all plans. For more information about the various plans available, see [Workfront Plans](https://www.workfront.com/plans).
+   Linking proofs from [!DNL Workfront Proof] allows you to make proofs that were originally created within [!DNL Workfront Proof] available within [!DNL Workfront]. For the current plans, a [!UICONTROL Pro] [!DNL Workfront] Plan or higher is required to use this feature. For the new plans, this feature is available with all plans. For more information about the various plans available, see [Workfront Plans](https://business.adobe.com/products/workfront/pricing.html).
 
 * [!DNL Microsoft SharePoint]
 
@@ -91,7 +91,7 @@ You can configure the following integrations for managing documents:
 
 * Other document providers (through custom document integrations).
 
-   For the current plans, a [!UICONTROL Pro] [!DNL Workfront] Plan or higher is required to use this feature. For the new plans, this feature is available with all plans. For more information about the various plans available, see [Workfront Plans](https://www.workfront.com/plans).
+   For the current plans, a [!UICONTROL Pro] [!DNL Workfront] Plan or higher is required to use this feature. For the new plans, this feature is available with all plans. For more information about the various plans available, see [Workfront Plans](https://business.adobe.com/products/workfront/pricing.html).
 
 In addition, you can enhance your [!DNL Workfront] document experience with a third-party DAM integrations. Administrators must enable these features in order for users to link the service to their [!DNL Workfront] account.
 
@@ -240,3 +240,16 @@ To configure [!DNL Workfront] to send metadata to [!DNL Workfront DAM]:
 1. Click **[!UICONTROL Delete]**.
 
    The fields are removed from metadata mapping and the information contained in them is not transferred to [!DNL Workfront DAM] with the uploaded documents.
+
+
+## Limitations
+
+### Google Drive integration
+
+* When a linked folder is added to Workfront, the files in the folder are no longer automatically added. 
+   * You can add the Google folder to Workfront without the files, then add the individual files to Workfront. The files are automatically added to the Google folder in Workfront.
+   Or
+   * You can create a Document folder in Workfront, then select all of the files in the Google folder and add them to the Workfront folder. 
+   
+   
+* The Google Drive document integration supports adding files from the My Drive area of your Google Drive. You cannot add folders or images from a Shared Drive. Learn more about [Google Shared Drives](https://support.google.com/a/users/answer/7212025?hl=en).

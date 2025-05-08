@@ -12,8 +12,6 @@ exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
 ---
 # Kick-Starts scenario: Import multiple-option custom fields into Workfront
 
-{{highlighted-preview}}
-
 You can import custom fields with multiple options in Adobe Workfront using the Kick-Start functionality. 
 
 Examples of custom fields with multiple options are:
@@ -76,7 +74,7 @@ Exporting your existing data first allows you to scan it and see how your new da
 
 If you have a good understanding of the Workfront database objects and structure, you can continue with the section below.  
 
-To export existing data from Workfront: 
+To export existing data from Workfront:
 
 {{step-1-to-setup}}
 
@@ -84,11 +82,7 @@ To export existing data from Workfront:
 
 1. Select **Custom Data** in the **What to include** section.
    
-   <span class="preview">Sample image in the Preview environment:</span>
    ![Select Custom Data](assets/kickstarts-select-existing-data.png)
-
-   Sample image in the Production environment:
-   ![Select Custom Data](assets/existing-custom-data-box-checked-kick-starts.png)
 
 1. Choose **.xlsx file** in the **Download format** section.
   
@@ -124,11 +118,7 @@ After scanning the information about existing custom fields in your system, you 
  
 1. In the **Download a blank Kick-Start spreadsheet** area, select the **Custom Data** check box and click **Download**.
 
-   <span class="preview">Sample image in the Preview environment:</span>
    ![Select Custom Data](assets/kickstarts-select-existing-data.png)
-   
-   Sample image in the Production environment:
-   ![Select Custom Data](assets/blank-custom-data-option-checked-kick-starts.png)
 
    A blank kick-start file downloads to your computer.
 
@@ -158,7 +148,7 @@ To populate the Excel spreadsheet with information for the new custom fields:
     >
     >For information about the names of the objects in the Workfront database, see the [API Explorer](../../../wf-api/general/api-explorer.md).
     >
-    >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+    >![Sheets included in data export](assets/sheets-included-in-custom-data-export-kick-start-file.png)
     
 
 1. Ensure the following information is formatted correctly:
@@ -210,7 +200,7 @@ To populate the Excel spreadsheet with information for the new custom fields:
     
     For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-    ![](assets/parameter-sheet-filled-out-kick-starts.png)
+    ![Parameter sheet filled out](assets/parameter-sheet-filled-out-kick-starts.png)
 
 1. Select the **`POPT Parameter Options`** sheet and add information about the options of each custom field in the following required columns:
 
@@ -232,7 +222,7 @@ To populate the Excel spreadsheet with information for the new custom fields:
     * The **`setLabel`** and the `**setValue`** columns usually contain the same information and they should reflect the names desired in the Workfront UI. The value of an option is the name that displays in reports, for example, whereas the label displays in the custom forms when attached to an object. For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).  
     * **`setIsHidden`** = enter `TRUE` if you want any of the options to be hidden.  
 
-    ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
+    ![Parameter sheet filled out](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 
 1. (Optional) If you want to also create a custom form where you can later add the new fields, select the  **`CTGY Category`** sheet and update the following required columns for the custom form information: 
@@ -243,7 +233,7 @@ To populate the Excel spreadsheet with information for the new custom fields:
 
     To find out the `ID` of a Group, you can either build a Group report and add the `ID` field in the View, or navigate to a group and find the URL for the group. The Group ID will be in the URL of the group's page. For example, if the URL of the group is `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`, the Group ID is `575b000800467a6f66e747932c807464`. 
 
-    * **`setCatObjCode` **= this is the object code for the object type that you want the form to be created for. Enter a code from the following options:  
+    * **`setCatObjCode`**= this is the object code for the object type that you want the form to be created for. Enter a code from the following options:  
         * **`CMPY`** for Company 
         * **`TASK`** for Task 
         * **`PROJ`** for Project 
@@ -263,7 +253,7 @@ To populate the Excel spreadsheet with information for the new custom fields:
 
     * **`setName`** = this is the name of the custom form as you would like it to appear in the Workfront interface.   
 
-        ![](assets/category-sheet-filled-out-kick-starts.png)
+        ![Category sheet filled out](assets/category-sheet-filled-out-kick-starts.png)
 
 1. Save the spreadsheet as an .xls or .xlsx file on your computer. Your Excel spreadsheet is filled out and is now ready for importing into Workfront.  
 
@@ -281,11 +271,11 @@ After performing the steps described in the previous sections, continue with the
 1. Browse for the Excel spreadsheet you prepared, on your computer and select it when you find it. When Workfront recognizes the file, the Upload button turns blue.
 1. Click **Upload.** 
 
-    ![](assets/kick-start-file-selected-and-upload-blue-button.png)
+    ![File selected and upload button](assets/kick-start-file-selected-and-upload-blue-button.png)
 
 1. A notification that the import was successful displays. Depending on how much information you are importing, this step might take a few seconds to a minute.
 
-    ![](assets/kick-start-successful.png)
+    ![Kick-start successful](assets/kick-start-successful.png)
 
     The new custom fields and forms are now in your Workfront system. You can find them in the Custom Forms area of Setup.
 
@@ -298,7 +288,7 @@ After performing the steps described in the previous sections, continue with the
 
 1. (Conditional) If the import was not successful, you receive an error message with what the problem is. Try to identify the field, the sheet, and the row number in which the problem was encountered and correct the information in the Excel file, then try importing the file one more time.
 
-    ![](assets/kick-start-error.png)
+    ![Kick-start error](assets/kick-start-error.png)
 
 1. (Conditional) Depending on what the problem is, as stated in the error message, some information might already be imported. You must do one of the following before you can import the sheet again: 
 

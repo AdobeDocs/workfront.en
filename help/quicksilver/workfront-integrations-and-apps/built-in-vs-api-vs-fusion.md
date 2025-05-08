@@ -89,6 +89,6 @@ Advantages to [!DNL Workfront Fusion] may include the following:
 >
 >The following [!DNL Workfront] module in [!DNL Workfront Fusion] is set up to add a comment to the selected project. After the module is executed, the comment is visible in the update stream of the project in Workfront.
 >
->![](assets/fusion-example-comment-350x416.png)
+>![Example: Adding a comment in Fusion](assets/fusion-example-comment-350x416.png)
 
-For more information about [!DNL Workfront Fusion], see [[!DNL Adobe Workfront Fusion]](../workfront-fusion/workfront-fusion-2.md).
+For more information about [!DNL Workfront Fusion], see [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).

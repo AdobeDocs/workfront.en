@@ -49,7 +49,7 @@ You must have the following access to perform the steps in this article:
 1. Go to the project for which you want to update the Condition Type. 
 1. Do one of the following:
 
-   * Click the **More** menu ![](assets/qs-more-menu.png) to the right of the project name, then click **Edit**.  
+   * Click the **More** menu ![More menu](assets/qs-more-menu.png) to the right of the project name, then click **Edit**.  
    * Click **Project Details** in the left panel.
 
    ![](assets/update-condition-type-nwe-350x108.png)

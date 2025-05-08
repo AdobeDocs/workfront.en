@@ -2,9 +2,9 @@
 content-type: overview;how-to-procedural
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Overview of modifying task assignments
+title: Overview of Modifying Task Assignments
 description: You can assign tasks to or unassign tasks from users, teams, or job roles. You can assign multiple resources at the same time, or just one resource. You can assign one task at a time, or multiple tasks in bulk.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
 ---

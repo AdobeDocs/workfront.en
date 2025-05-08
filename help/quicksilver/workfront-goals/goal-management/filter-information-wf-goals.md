@@ -1,7 +1,7 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Filter information in Adobe Workfront Goals
+title: Filter Information in Adobe Workfront Goals
 description: You can view goals that you or anyone else added in Adobe Workfront Goals. For information about creating goals, see Create goals in Adobe Workfront Goals. When viewing goals, you can filter information in Workfront Goals to view only goals that are important to you.
 author: Alina
 feature: Workfront Goals
@@ -9,11 +9,15 @@ exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
 ---
 # Filter information in Adobe Workfront Goals
 
+<!--Audited for P&P only: 4/2025-->
+
 You can view goals that you or anyone else added in Adobe Workfront Goals. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md). When viewing goals, you can filter information in Workfront Goals to view only goals that are important to you.
 
 ## Access requirements
 
-You must have the following access to perform the actions described in this article:
++++ Expand to view access requirements for the functionality in this article. 
+
+You must have the following:
 
 <table style="table-layout:auto">
 <col>
@@ -25,12 +29,12 @@ You must have the following access to perform the actions described in this arti
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> 
    <p>For the new plan and license structure:
-  <ul><li>An Ultimate plan </li> </ul>
-  
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
 <p>For the current plan and license structure: 
 <ul><li> A Pro or higher </li>
   <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront license*</td>
@@ -42,12 +46,9 @@ You must have the following access to perform the actions described in this arti
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> New product requirement, one of the following: </p>
-<ul>
-<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
-<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
- <p>Or</p>
- <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+   <p> New product requirement: Workfront</p>
+  <p>Or</p>
+   <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Access level</td>
@@ -71,6 +72,8 @@ You must have the following access to perform the actions described in this arti
 </table>
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Overview of filters in Workfront Goals
 
@@ -122,7 +125,7 @@ You can create a filter from scratch or edit one of the built-in filters.
 
 1. Click **Filter** in the upper-right corner of the list.
 
-   ![](assets/filter-icon-and-label.png)
+   ![Filter icon](assets/filter-icon-and-label.png)
 
    By default, Workfront applies the **All** filter which displays all goals in your system.
 
@@ -166,7 +169,7 @@ You can create a filter from scratch or edit one of the built-in filters.
       </tbody> 
      </table>
 
-   * Hover over the name of a filter, then click the **Edit** icon ![](assets/edit-icon.png) next to its name to customize it and add specific names of users, teams, groups, or the name of your organization, then select it when they appear on the list.
+   * Hover over the name of a filter, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) next to its name to customize it and add specific names of users, teams, groups, or the name of your organization, then select it when they appear on the list.
 
    * Click **New Filter** to create a new filter, then select from the following options to customize the new filter:
 
@@ -243,11 +246,11 @@ You can create a filter from scratch or edit one of the built-in filters.
 
 1. (Optional and conditional) When viewing goals in the Goal Alignment section,  click **Show them** if you want to view the filtered out goals.  
 
-   ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
+   ![Show them link on filtered items](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
    The filter name is outlined in yellow to indicate that it is being ignored. 
 
-   ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
+   ![Filter yellow outline](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
 1. (Optional and conditional) Click **Reapply filter** to apply the filter and omit the items you displayed in the previous step.

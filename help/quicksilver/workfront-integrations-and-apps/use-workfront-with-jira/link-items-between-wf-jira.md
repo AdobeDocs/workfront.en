@@ -22,7 +22,7 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
    <td> <p>[!UICONTROL Pro] or higher</p> </td> 
   </tr> 
   <tr> 
@@ -79,7 +79,7 @@ To automatically link a [!DNL Workfront] task to a [!DNL Jira] issue:
 
    For more information about access to tasks, see [Grant access to tasks](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
-1. Go to a project and select **[!UICONTROL Tasks]** ![](assets/tasks-icon-in-left-panel-14x14.png) in the left panel.
+1. Go to a project and select **[!UICONTROL Tasks]** ![Tasks icon](assets/tasks-icon-in-left-panel-14x14.png) in the left panel.
 
 1. Click **[!UICONTROL New Task]**
 

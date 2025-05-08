@@ -11,9 +11,9 @@ exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
 
 # Import fields from Adobe Workfront
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  
 
 
 {{planning-important-intro}}
@@ -23,7 +23,7 @@ You can import copies of existing Workfront fields. Importing fields from Workfr
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -77,12 +77,13 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Manage permissions to a workspace</a> </p>  
+   <td>   <p>Manage permissions to a workspace <span class="preview">and record type</span> </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> </td> 
   </tr> 
 </tbody> 
 </table> 
@@ -90,6 +91,7 @@ You must have the following access to perform the steps in this article:
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
+
 
 ## Considerations about importing fields from Workfront
 
@@ -110,11 +112,11 @@ You must have the following access to perform the steps in this article:
     * Assignment
     * Hour
     * Billing Record
-    <!--Available only to Preview, but might not come to Prod:* Rate card-->
+    <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
     * Expense
     * Iteration
-    <!--* Non-labor resource-->
-    <!--* Non-labour resource category-->
+    <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
+    <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
 * Workfront fields might not preserve their field type, after they are imported in Workfront Planning. 
 
     The table below shows Workfront field types and their corresponding Workfront Planning field type.
@@ -163,11 +165,11 @@ You must have the following access to perform the steps in this article:
     Hover over the header of any column, click the downward-pointing arrow after the field name, then click **Insert left** or **Insert right** to add the new field.
 1. Click **Add existing** in the lower-right corner of the **New field** tab. <!--check UI - did they change this??-->
 
-    ![](assets/add-existing-fields-from-workfront-modal.png)
+    ![Add existing fields from Workfront modal](assets/add-existing-fields-from-workfront-modal.png)
 
 1. Start typing the name of an existing Workfront field in the search area, then click **+** when it displays in the list. 
 1. (Optional) Type another field, then click **+** when it displays in the list. 
-1. (Optional) Click the **Filters** icon ![](assets/filters-in-import-fields-icon.png), then update one or both of the following fields: 
+1. (Optional) Click the **Filters** icon ![Filters in import fields icon](assets/filters-in-import-fields-icon.png), then update one or both of the following fields: 
 
     * Object type: Select a Workfront object type whose fields you want to import. 
     * Custom form: Select one or several custom forms from Workfront. You may select a custom form without selecting an object type first. 

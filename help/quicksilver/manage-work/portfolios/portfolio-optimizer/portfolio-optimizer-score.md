@@ -8,7 +8,9 @@ author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
 ---
-# Overview of the [!UICONTROL Portfolio Optimizer] Score
+# Overview of the [!UICONTROL Portfolio Optimizer] score
+
+<!--Audited: 01/2025-->
 
 You can find the [!UICONTROL Portfolio Optimizer] score in the [!UICONTROL Portfolio Optimizer]. It displays in the **[!UICONTROL Score]** column for every project. This represents a score for every project in the portfolio.
 
@@ -20,12 +22,13 @@ For information about how [!DNL Adobe Workfront] uses the project Score and othe
 
 There is a difference between the alignment score and the portfolio optimizer score of a project.
 
-The alignment score of a project is calculated based on the points obtained after completing the scorecard. This score is then used to determine the portfolio alignment score. The alignment score is displayed as a percentage.\
+The alignment score of a project is calculated based on the points obtained after completing the scorecard. This score is then used to determine the portfolio alignment score. The alignment score is displayed as a percentage.
+
 The alignment score of a project displays in the **[!UICONTROL Alignment]** column of the [!UICONTROL Portfolio Optimizer] or in the [!UICONTROL Alignment] field of the [!UICONTROL Business Case Summary].
 
-![](assets/business-case-summary-aligned-field-highlighted.png)
+![Business case summary](assets/business-case-summary-aligned-field-highlighted.png)
 
-![](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
+![Project alignment score](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
 
 For more information about generating the alignment score of a project, see the article [Apply a scorecard to a project and generate an Alignment Score](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
@@ -35,7 +38,7 @@ The [!UICONTROL portfolio optimizer] score is a ranking automatically calculated
 >
 >A project can be scored in the [!UICONTROL Portfolio Optimizer] only if its Business Case has been completed. For more information about completing a Business Case, see the article [[!UICONTROL Create a Business Case] for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-![](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
+![Project score](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
 
 The score for each project is calculated based on the importance of the following categories:
 
@@ -62,7 +65,13 @@ To find out the ranking of a project, do the following:
 
 The algorithm for calculating the scores takes in to consideration the values outlined in the Business Cases of the projects and the weights they carry. It gives every project in the optimizer a score and normalizes that score so there is always a project with a score of 100. This gives a high score to the best project.
 
-**Example:** For example, if you make [!UICONTROL higher alignment] the only factor to consider, the project with the highest alignment gets the score of 100.
+>[!BEGINSHADEBOX]
+
+**EXAMPLE**
+
+For example, if you make [!UICONTROL higher alignment] the only factor to consider, the project with the highest alignment gets the score of 100.
+
+>[!ENDSHADEBOX]
 
 The following are criteria that you can score a project by:
 
@@ -72,7 +81,7 @@ The following are criteria that you can score a project by:
 * [!UICONTROL Risk to Benefit]
 * [!UICONTROL ROI]
 
-![](assets/optimizer-sliding-value-options-350x77.png)
+![Sliding value options](assets/optimizer-sliding-value-options-350x77.png)
 
 For information about how to optimize projects in the portfolio, see [Optimize projects in the [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 

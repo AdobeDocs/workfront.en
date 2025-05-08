@@ -35,7 +35,7 @@ A new Canvas Dashboards option on the left panel of the existing dashboards land
 
 1. Click on the **Customize what users see** dropdown menu, then click **Dashboards**.
 
-1. In the **Left panel** list that appears below, click the ![](assets/delete-secondary-nav-item.png) icon next to **Canvas Dashboards**. The icon will change to ![](assets/add-secondary-nav-item.png) to show that it is now visible in the Dashboards left panel.
+1. In the **Left panel** list that appears below, click the ![Delete secondary nav item](assets/delete-secondary-nav-item.png) icon next to **Canvas Dashboards**. The icon will change to ![Add secondary nav item](assets/add-secondary-nav-item.png) to show that it is now visible in the Dashboards left panel.
 
 1. Click **Save** at the bottom of the screen.
 
@@ -43,7 +43,7 @@ A new Canvas Dashboards option on the left panel of the existing dashboards land
 
 1. Make sure you have enabled the Canvas Dashboards option in your Layout Template. See **Adding Canvas Dashboards to the Dashboards menu** above for instructions.
 
-1. Click the Main Menu icon ![](assets/main-menu-icon.png), then click **Dashboards**.
+1. Click the Main Menu icon ![Main Menu icon](assets/main-menu-icon.png), then click **Dashboards**.
 
 1. In the left panel, click **Canvas Dashboards**.
 

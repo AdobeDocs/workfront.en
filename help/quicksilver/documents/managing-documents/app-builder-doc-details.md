@@ -35,7 +35,7 @@ You must have the following:
 
 1. In the Users section, click **Developers** > **Add developers**.
 
-    ![](assets/manage-users-admin-console.png)
+    ![Manage developers in Admin Console](assets/manage-users-admin-console.png)
 
     >[!NOTE]
     >
@@ -45,14 +45,14 @@ You must have the following:
 
 1. Add necessary products to the developer profile, and click **Save**. 
 
-![](assets/add-developer.png)
+![Add developer](assets/add-developer.png)
 
 ## Get access to AppBuilder
 
 Organizations need to work with their account managers to purchase AppBuilder. The exact process for this is not understood because we didn't need to do this for the POC.
 
 If you want to test AppBuilder integration, you can request a free trial for you IMS org here: 
-[https://developer.adobe.com/app-builder/trial/#](https://developer.adobe.com/app-builder/trial/#)
+[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/overview/getting_access/#)
 
 I am under the impression that even though it is a free 30-day trial, they won't actually deactivate the trial after that time.
 
@@ -66,7 +66,7 @@ If AppBuilder is configured properly, you should see "Create project from templa
     >
     >If you do not see this option, then you are misconfigured in the admin console and do not have access to the app builder catalog. This option only shows when you have access to AppBuilder.
 
-    ![](assets/create-from-template.png)
+    ![Create project from template](assets/create-from-template.png)
 
 1. Select **App Builder**. 
 
@@ -96,20 +96,20 @@ Adobe provides an open source CLI that can be used to help create the App Builde
 
 1. Configuration Selection
     1. Proceed to select your Organization and Project from the provided options.      
-        ![](assets/select-org.png)
-        ![](assets/select-project.png)
+        ![Select org](assets/select-org.png)
+        ![Select project](assets/select-project.png)
 
 1. Template Selection and Setup
     1. Browse all available templates, and choose the **@adobe/aem-cf-editor-ui-ext-tpl** template for your project.
-         ![](assets/search-template.png)
-        ![](assets/select-template.png)
+         ![Search template](assets/search-template.png)
+        ![Select template](assets/select-template.png)
 
 1. Define Your Extension
     1. Name your extension.
     1. Provide a descriptive summary of your extension's functionality.
     1. Select an initial version number to start with.
     1. Confirm completion by selecting **I'm done**.
-![](assets/define-extension.png)
+![Define extension](assets/define-extension.png)
 
 1. Navigate to Your Project Folder
     1. Access the src folder
@@ -321,12 +321,12 @@ In order to have a guest application loaded within Workfront, the application ne
 1. Find the project that you used to create the AppBuilder application.
 
 1. Select the Production Workspace.
-    ![](assets/find-application.png)
+    ![Select production workspace](assets/find-application.png)
 
 1. Submit the application for Private review (you will get warnings that we aren't publishing to the app exchange marketplace, which is fine).
 
 1. Fill out the form (title, description, icon, and note to reviewer).
-    ![](assets/submission-details.png)
+    ![Fill out form for private review](assets/submission-details.png)
 
 >[!IMPORTANT]
 >
@@ -339,7 +339,7 @@ In order to have a guest application loaded within Workfront, the application ne
 1. Click **Manage** > **Experience Cloud Applications**. You should see the submitted apps with options to approve/reject. 
 Once approved, the published application extensions should automatically load in your Workfront environment. 
 
-    ![](assets/approve-submission.png)
+    ![Approved submission](assets/approve-submission.png)
 
 ## Additional Help
 

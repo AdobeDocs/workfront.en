@@ -12,9 +12,9 @@ exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
 ---
 # Configure task and issue preferences for a group
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 If groups in your organization need to configure a task or issue preference independently from the way it is configured at the system level, an Adobe Workfront administrator can unlock the preference. Then, as a group administrator, you can configure the preference for your group and it will affect all tasks or issues associated with your group.
 
@@ -76,20 +76,20 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![Groups icon](assets/groups-icon.png).
 
 1. Click the name of the group for which you want to configure unlocked task and issue preferences.
 1. On the page that displays for the group, in the left panel, click **Task & Issue Preferences**.
 1. On the page that appears, continue with one of the 5 sections listed below these steps to configure settings for the areas New Task Defaults, Issues, Deletion, Actual Dates, and Access, then click **Save**.
 
-   If you hover over the lock icon ![](assets/lock-toggle-button-dimmed.png) for a preference that you need to configure and a tool tip displays to tell you that is locked, you can ask your Workfront administrator to unlock it for all groups in the organization.
+   If you hover over the lock icon ![Lock icon](assets/lock-toggle-button-dimmed.png) for a preference that you need to configure and a tool tip displays to tell you that is locked, you can ask your Workfront administrator to unlock it for all groups in the organization.
 
    When it is unlocked, you and other group administrators can configure it separately for your own groups. Also, you can lock it for your group and any subgroups below your group.
 
    * [New Task Defaults](#new-task-defaults) 
    * [Issues](#issues) 
    * [Deletion](#deletion) 
-   * <span class="preview">[Move](#move)</span>
+   * [Move](#move)
    * [Actual Dates](#actual-dates)
    * [Delegation](#delegation)
    * [Access](#access)
@@ -178,8 +178,6 @@ For more detail about the information in this table, see [Access requirements in
    </table>
 
 
-<div class="preview">
-
 ### Move
 
 <table style="table-layout:auto"> 
@@ -197,8 +195,6 @@ For more detail about the information in this table, see [Access requirements in
      </tr> 
     </tbody> 
    </table>
-
-</div>
 
 ### Actual Dates {#actual-dates}
 

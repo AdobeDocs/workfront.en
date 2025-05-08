@@ -1,17 +1,17 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Filter reports by time frames
-description: You can filter a report by the time frame of a date that exists on an object. For example, you can filter an hour report for a particular time frame of when the hours were entered.
-author: Nolan
+title: Filter reports by timeframes
+description: You can filter a report by the timeframe of a date that exists on an object. For example, you can filter an hour report for a particular timeframe of when the hours were entered.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
 ---
-# Filter reports by time frames
+# Filter reports by timeframes
 
-<!-- Audited: 11/2024 -->
+<!-- Audited: 4/2025 -->
 
-You can filter a report by the time frame of a date that exists on an object. For example, you can filter an hour report for a particular time frame of when the hours were entered.
+You can filter a report by the timeframe of a date that exists on an object. For example, you can filter an hour report for a particular timeframe of when the hours were entered.
 
 ## Access requirements
 
@@ -24,25 +24,20 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
       <td> 
-      <p>New:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Current:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+      <p>New: Standard</p>
+       <p> Or</p>
+      <p>Current: Plan</p>
    </td>
  
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Reports, Dashboards, Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p></td> 
   </tr> 
   <tr> 
@@ -52,28 +47,30 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more details about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
 ## Prerequisites
 
-The report must be created before you filter its results.
+The report must be created before you can filter its results.
 
 For more information on creating reports, see [Create a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
-## Filter a report by the time frame of a date {#filter-a-report-by-the-time-frame-of-a-date}
+## Filter a report by the timeframe of a date {#filter-a-report-by-the-timeframe-of-a-date}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click&nbsp;**Reporting**. 
+{{step1-to-reports}}
 
-1. Click **New Report**, then select the type of report you want.  
-   For example, select **Hour Report**.
+1. In the top-left corner, click **New Report**, then select the type of report you want to create. 
 
-1. Select the **Filters** tab.
-1. Click **Add a Filter Rule**, then select **Hour Entry Date**.  
-   ![](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
+1. On the **New Report** page, select the **Filters** tab.
 
-1. In the following drop-down menu, select any of the following options:
+1. Click **Add a Filter Rule**, then **Select a field**.
+
+1. In the **Select a field** dialog box, select **Hour**, then **Entry Date**. 
+   ![Filtering hour report by timeframe](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
+
+1. In the drop-down that appears, select one of the following options:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -82,54 +79,58 @@ For more information on creating reports, see [Create a report](../../../reports
      <tr> 
       <td role="rowheader">Equal (Case Sensitive)</td> 
       <td>After selecting this modifier, specify the date when the hours were entered.</td> 
-     </tr> 
+     </tr>
+
      <tr> 
       <td role="rowheader">Not Equal (Case Sensitive)</td> 
-      <td>After selecting this modifier, specify the date when the hours were entered, to exclude this date from your report. The report shows hours logged in all dates, expect for the date you specified.</td> 
+      <td>After selecting this modifier, specify the date when the hours were entered to exclude this date from your report. The report shows hours logged in all dates, expect for the date you specified.</td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Null</td> 
-      <td>Select this modifier&nbsp;to display only hours where the Entry Date is missing.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Not Null</td> 
-      <td>Select this modifier&nbsp;to display only hours where the Entry Date has a value.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Between</td> 
-      <td>After selecting this modifier, specify a date range when the hours were entered. The report shows hours entered between the specified dates.</td> 
-     </tr> 
+
      <tr> 
       <td role="rowheader">Less Than</td> 
-      <td>After selecting this modifier, specify a&nbsp;date before which the hours were entered. The report shows hours entered before the specified date, and not including the specified date.</td> 
+      <td>After selecting this modifier, specify a&nbsp;date before which the hours were entered. The report shows hours entered before the specified date, not including the specified date.</td> 
      </tr> 
+
      <tr> 
       <td role="rowheader">Less Than Equal</td> 
       <td>After selecting this modifier, specify a&nbsp;date before which the hours were entered. The report shows hours entered before the specified date, including the specified date.</td> 
      </tr> 
+
      <tr> 
       <td role="rowheader">Greater Than</td> 
-      <td>After selecting this modifier, specify a&nbsp;date after&nbsp;which the hours were entered. The report shows hours entered after&nbsp;the specified date, and not including the specified date.</td> 
+      <td>After selecting this modifier, specify a&nbsp;date after&nbsp;which the hours were entered. The report shows hours entered after&nbsp;the specified date, not including the specified date.</td> 
      </tr> 
-     <tr> 
+
+      <tr> 
       <td role="rowheader">Greater Than Equal</td> 
-      <td> <p>After selecting this modifier, specify a&nbsp;date after&nbsp;which the hours were entered. The report shows hours entered after&nbsp;the specified date, including the specified date.</p> <p>Select any of the built-in time frame modifiers, as described in <a href="#built-in-time-frame-modifiers" class="MCXref xref">Built-in time frame modifiers</a>.</p> </td> 
+      <td> After selecting this modifier, specify a&nbsp;date after&nbsp;which the hours were entered. The report shows hours entered after&nbsp;the specified date, including the specified date. </td> 
      </tr> 
+
+     <tr> 
+      <td role="rowheader">Between</td> 
+      <td>After selecting this modifier, specify a date range when the hours were entered. The report shows hours entered between the specified dates.</td> 
+     </tr> 
+
+     <tr> 
+      <td role="rowheader">Null</td> 
+      <td>Select this modifier&nbsp;to display only hours where the Entry Date is missing.</td> 
+     </tr> 
+
+     <tr> 
+      <td role="rowheader">Not Null</td> 
+      <td>Select this modifier&nbsp;to display only hours where the Entry Date has a value.</td> 
+     </tr>  
+
     </tbody> 
    </table>
 
-1. These modifiers are available for any date field in a filter or a prompt in any report.  
 1. Click **Save + Close**.
 
-## Built-in time frame modifiers {#built-in-time-frame-modifiers}
+## Built-in timeframe modifiers {#built-in-timeframe-modifiers}
 
-Adobe Workfront has built-in time frame modifiers that you can use without defining a specific date.&nbsp;
+Adobe Workfront has built-in timeframe modifiers that you can use without defining a specific date. These modifiers are available for any date field in a filter or a prompt in any report.
 
-These modifiers are available for any date field in a filter or a prompt in any report.&nbsp;
-
-For more information about how to&nbsp;filter a report by a time frame associated with a date, see&nbsp; [Filter a report by the time frame of a date](#filter-a-report-by-the-time-frame-of-a-date).
-
-For example, if you are building an hour report and would like to display hours entered in a specific time frame, you can choose from the following built-in time frame filter options:
+For example, if you are building an hour report and would like to display hours entered in a specific timeframe, you can choose from the following built-in timeframe filter options:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -191,7 +192,7 @@ For example, if you are building an hour report and would like to display hours 
   </tr> 
   <tr> 
    <td role="rowheader">Last Year</td> 
-   <td> <p>Displays hours where the Entry Date is a date in&nbsp;the last&nbsp;year, where the last&nbsp;year starts&nbsp;on January 1 and ends on December 31 of the year preceding the current year.</p> <p>Note:  There is no built-in time period for fiscal year. You&nbsp;can create a&nbsp;report and filter the information by date using a custom modifier for the date range of the fiscal year, as it is defined in your organization. If you&nbsp;want to choose a time frame for a fiscal year on the spot, then you should use a prompt instead of a filter.&nbsp;</p> </td> 
+   <td> <p>Displays hours where the Entry Date is a date in&nbsp;the last&nbsp;year, where the last&nbsp;year starts&nbsp;on January 1 and ends on December 31 of the year preceding the current year.</p> <p>Note:  There is no built-in time period for fiscal year. You&nbsp;can create a&nbsp;report and filter the information by date using a custom modifier for the date range of the fiscal year, as it is defined in your organization. If you&nbsp;want to choose a timeframe for a fiscal year on the spot, then you should use a prompt instead of a filter.&nbsp;</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -33,7 +33,7 @@ You can link documents and folders to Adobe Workfront from the following sources
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>You can make proofs that were originally created within Workfront Proof available within Workfront. For the current licenses, a Pro Workfront Plan or higher is required to use this feature. For the new licenses, all plans include this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans">Workfront Plans</a>.</td> 
+   <td>You can make proofs that were originally created within Workfront Proof available within Workfront. For the current licenses, a Pro Workfront Plan or higher is required to use this feature. For the new licenses, all plans include this feature. For more information about the various plans available, see <a href="https://business.adobe.com/products/workfront/pricing.html">Workfront Plans</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -45,7 +45,7 @@ You can link documents and folders to Adobe Workfront from the following sources
   </tr> 
   <tr> 
    <td role="rowheader">Other document providers (through custom document integrations)</td> 
-   <td> <p class="workfront_plans">For the current licenses, a Pro Workfront Plan or higher is required to use this feature. For the new licenses, all plans include this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans">Workfront Plans</a>.</p> </td>
+   <td> <p class="workfront_plans">For the current licenses, a Pro Workfront Plan or higher is required to use this feature. For the new licenses, all plans include this feature. For more information about the various plans available, see <a href="https://business.adobe.com/products/workfront/pricing.html">Workfront Plans</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -242,7 +242,7 @@ Users without Workfront access can see the document in the external application 
 1. Select a document that is uploaded in Workfront.
 1. Click **More** >**Send to**, then select the cloud provider that you want to store the linked document.
 
-   You can also use the More menu ![](assets/more-icon.png) on the Document Details page to do this.  
+   You can also use the More menu ![More menu](assets/more-icon.png) on the Document Details page to do this.  
 
 1. Select the folder in the provider's application where you want to store the document.
 
@@ -272,7 +272,7 @@ When synchronizing folder content from an external document application, Workfro
 
 ### Link one or more external folders {#link-one-or-more-external-folders}
 
-1. Go to the area in Workfront where you want the folder, then click  **Documents** ![](assets/document-icon.png) in the left panel .
+1. Go to the area in Workfront where you want the folder, then click  **Documents** ![Documents icon](assets/document-icon.png) in the left panel .
 
 1. Click **Add New**, then click the external document provider from which you want to link a folder to Workfront.
 1. (Conditional) If you have not yet authorized the external service, specify your login credentials for the external provider, then click **Sign in**.
@@ -295,9 +295,9 @@ When synchronizing folder content from an external document application, Workfro
 
    In Workfront, the cloud provider's logo displays next to the folder, indicating that it is linked to the external cloud provider.
 
-1. (Optional) To rename the folder so that the folder name in Workfront is different from the folder name in the external document application, select the folder in the **Folders** section, click the  More menu ![](assets/more-icon.png)  that displays next to the folder name, then click **Rename**.
+1. (Optional) To rename the folder so that the folder name in Workfront is different from the folder name in the external document application, select the folder in the **Folders** section, click the  More menu ![More menu](assets/more-icon.png)  that displays next to the folder name, then click **Rename**.
 
-   ![](assets/documents-folderlink-rename-nwe-350x154.png)
+   ![Rename folder](assets/documents-folderlink-rename-nwe-350x154.png)
 
 This does not rename the folder in the external application.
 
@@ -311,7 +311,7 @@ You can create a new folder inside an existing linked folder. You can also drag 
 
    To drag an existing folder into an existing linked folder, go to the Documents area where you want the subfolder, then drag it into the linked folder.
 
-   ![](assets/documents-link-folder-move-nwe-350x113.png)
+   ![Drag into linked folder](assets/documents-link-folder-move-nwe-350x113.png)
 
    >[!NOTE]
    >

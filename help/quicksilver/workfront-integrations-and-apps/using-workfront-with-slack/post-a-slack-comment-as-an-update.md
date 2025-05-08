@@ -22,7 +22,7 @@ You must have the following:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
    <td> <p>[!UICONTROL Pro] or higher</p> </td> 
   </tr> 
  </tbody> 
@@ -58,4 +58,4 @@ Before you can post a [!DNL Slack] comment as an update, you must
 
    When a comment originated in [!DNL Slack], the comment displays the message "[!UICONTROL Posted from [!DNL Slack]]" in [!DNL Workfront].
 
-   ![](assets/slack-update-posted-from-slack-350x112.png)
+   ![Update posted from Slack](assets/slack-update-posted-from-slack-350x112.png)

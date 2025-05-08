@@ -57,10 +57,10 @@ This article describes how to use the filters in the [!UICONTROL Home] area to v
 
 To view a work item in the My Work widget:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add the **My Work** widget.
 
-1. Click the **Filter** icon ![](assets/filter-nwepng.png) in the top-left corner of the widget worklist. 
+1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png) in the top-left corner of the widget worklist. 
 
 1. Click either or both of the following options for tasks:
 
@@ -83,12 +83,12 @@ You can access a request assigned to your team directly from the Team Requests w
 
 To access a team request:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add the **Team Requests** widget. 
 
    The widget displays team requests under team groupings. The **[!UICONTROL Team Requests]** widget displays and shows all requests assigned to any team you are on. For more information about working with team requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-   ![](assets/team-request-widget.png)
+   ![Team request widget](assets/team-request-widget.png)
 
 ## Work on a work item in the My Work widget
 
@@ -96,13 +96,13 @@ When you click the [!UICONTROL Work On It] button, you are indicating to the use
 
 To work on a work item:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add the **My Work** widget.
 
 1. In the **[!UICONTROL worklist]** area of the widget, select the request you want to work on, then click **[!UICONTROL Work On It]**.
 1. Hover over the work item, then click the **Summary** icon to view information about the work item.
 
-   ![](assets/open-summary-new-home.png)
+   ![Open Summary](assets/open-summary-new-home.png)
 
 
 ## Remove a work item
@@ -111,20 +111,20 @@ If you decide that you should not be working on the work item, you can remove it
 
 To remove a work item: 
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add the **My Work** widget.
 
 1. In the widget worklist, hover over the work item, then click the **Summary** icon to view information about the work item.
-    ![](assets/open-summary-new-home.png)
+    ![Open Summary](assets/open-summary-new-home.png)
 1. in the **Assignments** section, remove your name. 
-   ![](assets/remove-assignment.png)
+   ![Remove assignment](assets/remove-assignment.png)
 
 
 
 <!--
 ## Reassign a request
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the request you want to reassign.
 
 1. Click on the **[!UICONTROL Assignments]** widget and remove yourself from the request, then type the name of the user you want to reassign the request to.
@@ -142,7 +142,7 @@ To remove a work item:
 
 You can reply to a request to further clarify the request or to propose a new date.
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the request you want to reply to.
 1. Locate the individual who assigned the request to you.
 

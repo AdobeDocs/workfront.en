@@ -9,11 +9,12 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 ---
-# Create a custom form
+# Create a custom form 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 You can design a custom form with the form designer in Adobe Workfront. You can attach custom forms to different Workfront objects to capture data about those objects.
 
@@ -21,7 +22,7 @@ You can design a custom form with the form designer in Adobe Workfront. You can 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,10 +59,10 @@ For more detail about the information in this table, see [Access requirements in
 1. Click **New Custom Form.**
 1. Select which object types you'd like to attach the custom form to, then click **Continue**.
 
-   ![](assets/choose-object-type.jpg)
+   ![Choose object type](assets/choose-object-type.jpg)
 
 1. In the **Title is required** area, type the custom form title.
-1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the **Add** icon ![](assets/add-objects-icon.png) after **Object Types**, then select the type you want in the menu that displays. You can repeat this to add as many object types as you want. 
+1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the **Add** icon ![Add objects icon](assets/add-objects-icon.png) after **Object Types**, then select the type you want in the menu that displays. You can repeat this to add as many object types as you want. 
    
    You can also click the X on an object type to delete it from the form. 
 
@@ -83,7 +84,7 @@ For more detail about the information in this table, see [Access requirements in
     * [Add images, PDFs, and videos](#add-images-pdfs-and-videos)
     * [Add Workfront native fields](#add-workfront-native-fields)
     * [Add Adobe XD files](#add-adobe-xd-files)
-    * <span class="preview">[Add Planning connection fields](#add-planning-connection-fields)</span>
+    * [Add Planning connection fields](#add-planning-connection-fields)
 
 ## Add new or existing fields to your custom form
 
@@ -177,7 +178,7 @@ To add a text field:
     * Text with formatting
     * Descriptive text
 
-    ![](assets/drag-field-to-section.png)
+    ![Drag field to section](assets/drag-field-to-section.png)
 
 1. On the right side of the screen, configure the options that are available for the type of custom field you are adding:
 
@@ -462,7 +463,7 @@ To add typeahead and date fields:
     * Typeahead
     * Date
 
-    ![](assets/drag-field-to-section.png)
+    ![Drag field to section](assets/drag-field-to-section.png)
 
 1. On the right side of the screen, configure the options that are available for the type of custom field you are adding:
 
@@ -661,7 +662,7 @@ To add an external lookup:
 >The following items are technical limitations of the call to the external API:
 >
 >* Maximum number of options: 2000 (only the first 2000 unique options from the returned JSON are displayed)
->* Timeout: 3 seconds
+>* Timeout: 30 seconds
 >* Number of retries: 3
 >* Wait duration between retries: 500ms
 >* Expected response statuses: 2xx
@@ -696,7 +697,7 @@ The Workfront Mobile app -->
    * PDF
    * Video
 
-   ![](assets/drag-field-to-section.png)
+   ![Drag field to section](assets/drag-field-to-section.png)
 
 1. Type or edit any of the following properties for the widget:
 
@@ -841,8 +842,8 @@ This table lists the available native fields for specific Workfront objects in a
       <td><p>(Required) Select a Workfront native field.<p><p>Only native fields for the form's objects are available. For example, if the Object Types list at the top of the form designer shows Project, you will be able to select native fields for projects but not fields that are specific to tasks.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Add Filter</span></td>
-      <td><span class="preview"><p>Add a filter for the reference field to limit the list of items users can choose from when they are using the field. </p> <p>For example, you could limit a field so that user names can be selected only if they meet the following criteria:</p> 
+      <td role="rowheader">Add Filter</td>
+      <td><p>Add a filter for the reference field to limit the list of items users can choose from when they are using the field. </p> <p>For example, you could limit a field so that user names can be selected only if they meet the following criteria:</p> 
        <ul>
         <li>They belong to a group or groups that you specify</li> 
         <li>They are associated with a role or job title you specify</li> 
@@ -854,7 +855,7 @@ This table lists the available native fields for specific Workfront objects in a
         <li>The filter option is only available when you reference a native typeahead field, such as Portfolio, Company, or Owner.</li>
         <li>If you are editing an existing custom form, adding a filter to a native field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
         <li>This filter is not available on mobile devices. If you use the filter for a native field, the field will appear on users' mobile devices unaffected by the filter.</li> 
-        </ul></p></span></td> 
+        </ul></p></td> 
       <td>
      </tr>
      <tr> 
@@ -931,8 +932,6 @@ This table lists the available native fields for specific Workfront objects in a
 
     Click **Save and Close**.
 
-<div class="preview">
-
 ### Add Planning connection fields
 
 >[!IMPORTANT]
@@ -1002,7 +1001,13 @@ To add a Planning connection field:
       <td role="rowheader">Connection field</td> 
       <td><p>(Required) Select the connection field between the selected Planning record type that you want to display on the Workfront objects and the Workfront object type. </p> <p> <b>NOTE</b></p><p>You can have multiple connection fields between the same object and record types, but you can select only one field.</p>  </td> 
      </tr>
-    </tbody> 
+
+<tr> 
+      <td role="rowheader">Record type fields</td> 
+      <td><p>(Optional) Select up to 7 lookup fields from the connected record type to display in the custom form. The primary field is selected by default and cannot be edited. </p> <p> The connected record's fields that you select display in a table view on the custom form. When the form is attached to a Workfront object, the table view is read-only. </p>  
+    <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+      </tbody> 
    </table>
 
 1. (Optional) Repeat the previous steps to add any other fields. 
@@ -1026,8 +1031,9 @@ To add a Planning connection field:
 
     For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
 
-</div>
-
 ## Organize and preview a form with the form designer
 
  For information on how to organize a custom form with section breaks and see a preview of the form, see [Organize and preview a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+
+
+

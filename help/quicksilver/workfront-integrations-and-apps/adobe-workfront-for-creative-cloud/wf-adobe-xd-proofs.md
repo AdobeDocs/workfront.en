@@ -58,10 +58,10 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/menu-350x440.png)
+   ![Menu icon](assets/menu-350x440.png)
 
 1. Go to the work item where you want to upload a static proof.
-1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar. 
+1. Click the **[!UICONTROL Document]** icon ![Document icon](assets/documents.png) in the navigation bar. 
 
 1. Click **[!UICONTROL New File]** near the bottom of the plugin.
 1. Select the artboards you wish to upload.
@@ -102,7 +102,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![Proof approvals in XD](assets/proof-approvals-xd-350x396.png)
 
 1. Choose the export format from the **[!UICONTROL Asset Type]** drop-down menu.
 
@@ -111,7 +111,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Name the PDF. 
 
-   ![](assets/pdf-options.png)
+   ![PDF options](assets/pdf-options.png)
 
 1. Click **[!UICONTROL Upload]**.  
    The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
@@ -143,10 +143,10 @@ You can create an interactive proof for your artboards with the [!DNL Workfront 
 
 1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/menu-350x440.png)
+   ![Menu icon](assets/menu-350x440.png)
 
 1. Go to the work item where you want to upload an interactive proof.
-1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar. 
+1. Click the **[!UICONTROL Document]** icon ![Document icon](assets/documents.png) in the navigation bar. 
 
 1. Click **[!UICONTROL New File]** near the bottom of the plugin.
 1. Enable **[!UICONTROL Create a Proof]**.
@@ -178,10 +178,10 @@ You can create an interactive proof for your artboards with the [!DNL Workfront 
 
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![Proof approvals in XD](assets/proof-approvals-xd-350x396.png)
 
 1. In the **[!UICONTROL Asset Type]** drop-down menu, choose the link you just created under the **Shared links** tab. For more information, see [Create an interactive link for your artboard](#create-an-interactive-link-for-your-artboard).  
-   ![](assets/shared-links-xd-350x870.png)
+   ![Shared links in XDS](assets/shared-links-xd-350x870.png)
 
 1. Click **[!UICONTROL Upload]**.
 
@@ -197,10 +197,10 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
 
 1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/menu-350x440.png)
+   ![Menu icon](assets/menu-350x440.png)
 
 1. Go to the work item you need to upload a document to.
-1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png)in the navigation bar. 
+1. Click the **[!UICONTROL Document]** icon ![Document icon](assets/documents.png)in the navigation bar. 
 
 1. Click **[!UICONTROL New Version]** near the bottom of the plugin.
 1. Enable **[!UICONTROL Create a Proof]**.
@@ -237,17 +237,17 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
 
 1. Choose the export format from the **[!UICONTROL Asset Type]** drop-down menu.
 
-   ![](assets/create-a-proof-xd-350x202.png)
+   ![Create a proof in XD](assets/create-a-proof-xd-350x202.png)
 
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
-   ![](assets/proof-approvals-xd-350x396.png) 
+   ![Proof approvals in XD](assets/proof-approvals-xd-350x396.png) 
 
 1. (Optional) If you select PDF as the asset type and have more than one artboard selected, choose if you want to export your artboards as **[!UICONTROL Single PDF file]s** or **M[!UICONTROL ultiple PDF files]**.
 
 1. (Optional) Name the PDF. 
 
-   ![](assets/pdf-options.png)
+   PDF options
 
 1. Click **[!UICONTROL Upload]**.  
    The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.

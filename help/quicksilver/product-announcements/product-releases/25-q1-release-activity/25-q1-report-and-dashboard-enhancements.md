@@ -12,6 +12,31 @@ This page describes all report and dashboard enhancements made with the First Qu
 
 For a list of all changes available at this point in the First Quarter 2025 release cycle, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## New entities available in Data Connect
+
+>[!NOTE]
+>
+>Preview release: January 15, 2025; Production release for all customers: January 15, 2025
+
+We have added support for the following entities in Data Connect:
+
+* Project Team User
+* Project Team User Role
+* Reportable Budgeted Hours
+* Report View Statistic Count
+* Resource Manager
+* Rich Text Note
+
+We have also added support for the following agency-specific entities:
+
+* Business Profile
+* Business Rule
+* Location
+* Non-Labor Resource Category
+* User Location
+
+For more information, see [Workfront Data Connect data dictionary](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md).
+
 ## Limit of 25 reports, external pages, or calendars in dashboards
 
 >[!NOTE]

@@ -12,13 +12,13 @@ exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 
 In the Documents area, you can organize, manage, and view metadata for documents uploaded to Adobe Workfront. You can also see the proof decision.
 
-![](assets/documents-area-v2-350x199.png)
+![Documents area](assets/documents-area-v2-350x199.png)
 
 There are two types of Documents areas. Features and functionality are the same for both:
 
-* **Documents area in a program, portfolio, project, task, or issue:** Lists all documents that you have access to for a particular project, task, or issue. To access this area, click **Documents** ![](assets/document-icon-12x14.png) in the left panel while viewing a project, task, or issue.
+* **Documents area in a program, portfolio, project, task, or issue:** Lists all documents that you have access to for a particular project, task, or issue. To access this area, click **Documents** ![Documents icon](assets/document-icon-12x14.png) in the left panel while viewing a project, task, or issue.
 
-* **Global Documents area:** Lists all documents that you have access to&nbsp;in Workfront. To access this area, click **Documents** ![](assets/document-icon.png) in the Main Menu ![](assets/main-menu-icon.png).
+* **Global Documents area:** Lists all documents that you have access to&nbsp;in Workfront. To access this area, click **Documents** ![Documents icon](assets/document-icon.png) in the Main Menu ![Main Menu icon](assets/main-menu-icon.png).
 
 For information about uploading documents to Workfront, see [Add documents to Adobe Workfront from your file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
@@ -38,7 +38,7 @@ If proofing is set up for the document, the Details section includes information
 
 You can click the Details heading to go to the full Document Details area when you need all of the information about a document.
 
-![](assets/documents-area-v2-350x199.png)
+![Documents area](assets/documents-area-v2-350x199.png)
 
 For information about the Summary, see [Summary for documents overview](../../documents/managing-documents/summary-for-documents.md).
 
@@ -46,7 +46,7 @@ For information about the Summary, see [Summary for documents overview](../../do
 
 Once a proof decision is made, it appears in the Document list.
 
-![](assets/proof-decision---doc-list-350x168.png)
+![Proof decision in document list](assets/proof-decision---doc-list-350x168.png)
 
 ## Folders
 

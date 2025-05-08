@@ -67,7 +67,7 @@ For information about editing a system status and creating custom statuses, see 
 
    The project statuses available in Workfront are listed on this tab.
 
-   ![](assets/project-status.png)
+   ![Project status](assets/project-status.png)
 
    For details about each of the built-in system project statuses, see [Overview of system project statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
 

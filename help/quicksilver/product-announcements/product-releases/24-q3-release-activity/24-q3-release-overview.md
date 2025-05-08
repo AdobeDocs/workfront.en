@@ -290,7 +290,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                                 <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
                             </li>
                         </ul>
-                    <p><i>This feature will be removed from Preview on December 19, 2024 and from fast release Production with 25.1 (January 2025).</i></p>
+                    <p><i>This feature has been removed from Preview and fast release Production.</i></p>
                     </td>
                  </tr>
                  <tr>
@@ -308,7 +308,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                                 <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
                             </li>
                         </ul>
-                    <p><i>This feature will be removed from Preview on December 19, 2024 and from fast release Production with 25.1 (January 2025).</i></p>
+                    <p><i>This feature has been removed from Preview and fast release Production.</i></p>
                     </td>
                  </tr>
            </tbody>
@@ -493,7 +493,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
 
 ### Workfront Fusion enhancements
 
-New features in Workfront Fusion are available in Production at a cadence outside of the Third Quarter 2024 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+New features in Workfront Fusion are available in Production at a cadence outside of the Third Quarter 2024 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Workfront Scenario Planner enhancements
 
@@ -517,8 +517,8 @@ For information on API versions, see [API versioning and support schedule](/help
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2024 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+For information about the maintenance updates made during the Third Quarter 2024 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Training updates
 
-Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).

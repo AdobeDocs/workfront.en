@@ -93,7 +93,7 @@ For more information about approving project requests by building a project repo
 
    * Change the status of the project to any other status in the **[!UICONTROL Status]** drop-down menu.
 
-      ![](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
+      ![Change project status from dropdown](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
    &nbsp;
 
 &nbsp;

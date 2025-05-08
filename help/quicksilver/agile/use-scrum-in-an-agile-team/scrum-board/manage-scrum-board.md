@@ -11,6 +11,8 @@ exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
 
 You can move a story or issue from the [!UICONTROL Scrum] board to another iteration or to the backlog, or delete it from the [!UICONTROL Scrum] board. When you delete a story or issue, it is moved to the Recycle Bin for 30 days and can be recovered only by the system administrator.
 
+To remove a task or issue from the iteration without deleting it or sending it to the backlog, go to the project and remove the agile team from the assignment column. This removes the task or issue from the Scrum board, but it remains on the project.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.

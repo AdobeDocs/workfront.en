@@ -49,7 +49,7 @@ You can display or filter by users, job roles, or teams associated with the foll
 
 You can display all users associated with in the project in the view of a project list or report. This includes all users listed in the People section of the project. You can also view the roles they are associated with when assigned to tasks or issues on the project in a project report.
 
-![](assets/project-with-user-and-role-information-report-350x100.png)
+![Project with user and role information](assets/project-with-user-and-role-information-report-350x100.png)
 
 For information about building a project report to display all users and their roles on the project, see [View: list of project users with job roles](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
@@ -59,7 +59,7 @@ You cannot filter for users or job roles associated with projects in a project f
 
 You can display all users, roles, or teams assigned to a task in the view of a task list or report by adding the Assignments field to the view.
 
-![](assets/assignments-field-task-view-350x124.png)
+![Assignment field](assets/assignments-field-task-view-350x124.png)
 
 You can filter by the users, job roles, or teams assigned to tasks by referencing the following fields in a task filter:
 
@@ -67,7 +67,7 @@ You can filter by the users, job roles, or teams assigned to tasks by referencin
 * Assignment Roles
 * Team
 
-![](assets/assignment-users-roles-task-filter-350x334.png)
+![Assignment users and roles in task filter](assets/assignment-users-roles-task-filter-350x334.png)
 
 ## Display all users, job roles, or teams assigned to an issue
 

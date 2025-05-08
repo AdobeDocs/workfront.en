@@ -352,7 +352,7 @@ For more information, see [Configure your firewall's allowlist](../../../adminis
 
 With Workfront One, you'll discover the most important content, resources, and news from Workfront —all in one place, with one login. We've unified the Experience, Community, and Training sites making it easier to find what you're looking for.
 
-[Learn more about Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Learn more about Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### 2020.1 Release Webinar {#2020-1-release-webinar}
 

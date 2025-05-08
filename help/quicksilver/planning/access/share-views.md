@@ -10,6 +10,10 @@ exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 
 # Share views
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
 You can share a view with others to ensure collaboration when working with records in Adobe Workfront Planning. 
@@ -25,7 +29,7 @@ You can share a view with others to ensure collaboration when working with recor
 
 You can share a view with the following entities: 
 
-* Internally, with Workfront users and groups
+* Internally, with Workfront users, groups, teams, companies, and job roles
 * Publicly, with users outside Workfront
 
 <!--
@@ -33,7 +37,7 @@ This article describes how you can share a view with others. For information abo
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -73,6 +77,7 @@ You must have the following access to perform the steps in this article:
    <td> 
 <p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
 <p>Your organization must be onboarded to the Adobe Unified Experience for users to be able to request and grant permissions to a view from a permission request. </p>
+<p>Users must be added to the Adobe Admin Console in order to gain permissions to Workfront Planning views.</p>
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -95,75 +100,19 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p></td> 
   </tr> 
 </tbody> 
 </table> 
 
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a view</p>  
-   <p>Only users with Manage permissions to a workspace can share a view publicly.</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
-
 +++
 
 ## Considerations when sharing views
 
+* For general information about sharing objects in Workfront Planning, also see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
 * You can give View or Manage permissions to a view to internal Workfront users. 
 
 * Users with Manage permissions can modify the view settings, share, duplicate, or delete it. 
@@ -176,7 +125,7 @@ You must have the following access to perform the steps in this article:
 
 ## Share permissions to a view internally
 
-You can share views you created or views you have Manage permissions to with users or groups in Workfront. 
+You can share views you created or views you have Manage permissions to with users, groups, teams, companies, and job roles in Workfront Planning. 
 
 >[!NOTE]
 >
@@ -190,20 +139,26 @@ You can share views you created or views you have Manage permissions to with use
 
    This opens the record type page.
 
-1. From the view tab, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. From the view tab, hover over the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. 
 
-   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+   ![More menu for views expanded with share option](assets/more-menu-for-views-expanded-with-share-option.png)
 
    The **Internal sharing** tab should be selected by default.
 
 1. (Optional) In the **Who has access** area, select from the following options: 
 
-   * **Only invited people can access**: You must specify users or groups that you want to share the view with. This is the default option.
+   * **Only invited people can access**: You must specify users, groups, team, company, or job role that you want to share the view with. This is the default option.
+
+      >[!NOTE]
+      >
+      >   In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console.
+
+
    * **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. 
 
-1. In the **Grant view access to** field, start typing the name of a user or a group, then click it when it displays in the list.  
+1. In the **Grant access to this view** field, start typing the name of a user, a group, team, company, or job role then click it when it displays in the list.  
 
-    ![](assets/sharing-a-view-ui-with-groups.png)
+   ![Sharing a view with groups](assets/sharing-a-view-ui-with-groups.png)
 
 1. Select one of the following permission levels from the drop-down menu: 
     * View
@@ -216,7 +171,7 @@ You can share views you created or views you have Manage permissions to with use
 1. Click **Copy link** to copy a link to the view to your clipboard. 
 1. Click **Save**.
 
-   The view updates with a people icon ![](assets/view-shared-with-others-people-icon.png) to indicate that the view is now shared with other users. 
+   The view updates with a people icon ![View shared with others icon](assets/view-shared-with-others-people-icon.png) to indicate that the view is now shared with other users. 
 
    >[!TIP]
    >
@@ -241,25 +196,25 @@ To share a view publicly in Workfront Planning:
 
    This opens the record type page.
 
-1. From the view tab, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. From the view tab, hover over the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. 
 
-   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+   ![More menu for views expanded with share option](assets/more-menu-for-views-expanded-with-share-option.png)
 
 1. Click **Public sharing**.
 
-   ![](assets/public-sharing-tab-for-views.png)
+   ![Public sharing tab for views](assets/public-sharing-tab-for-views.png)
 
 1. Enable the **Create public link** setting.
 
    A link becomes available. This is a public link. When shared, anyone with the link, including people from outside your organization can access the record type page, and view records and fields on the page. 
 
-1. Click the **Copy link** icon ![](assets/copy-link-view.png) to copy the link to your clipboard. 
+1. Click the **Copy link** icon ![Copy link view](assets/copy-link-view.png) to copy the link to your clipboard. 
 
 1. Manually enter a date, or use the calendar in the **Link expiration date** field to select an expiration date for the public link. The record page view will not be accessible after the selected date. 
 
 1. Click **Save**.
 
-   The view updates with a global icon ![](assets/public-shared-view-icon-highlighted.png) to indicate that the view is shared publicly.  
+   The view updates with a global icon ![Public shared view icon highlighted](assets/public-shared-view-icon-highlighted.png) to indicate that the view is shared publicly.  
 
    >[!TIP]
    >
@@ -275,16 +230,16 @@ Users who access a link to a view to which they do not have permissions can requ
 1. (Conditional) If you are are the manager of a view, you might receive a request from another user to access the view in the following areas:
    
    * An in-app notification
-      ![](assets/in-app-notification-for-access-request-for-view.png)
+      ![In-app notification for access request for view](assets/in-app-notification-for-access-request-for-view.png)
    * An email notification
-      ![](assets/in-app-notification-for-access-request-for-view.png)
+      ![In-app notification for access request for view](assets/in-app-notification-for-access-request-for-view.png)
 1. (Conditional) From the notification area in Workfront, click the in-app notification
    Or
    From the email notification, click **View all notifications**, then click the notification in the list.
 
    The **Pending access requests** box displays. 
 
-      ![](assets/notifications-list-approval-box.png)
+      ![Notifications list approval box](assets/notifications-list-approval-box.png)
 1. (Optional) For the user whose permissions you want to approve, select one of the following options from the drop-down menu to the right of the user's name: 
    * **View**
    * **Manage**
@@ -298,11 +253,11 @@ Users who access a link to a view to which they do not have permissions can requ
 {{step1-to-planning}}
 
 1. Open the workspace whose view you want to stop sharing, then click a record type card. This opens the record type page.
-1. Hover over the tab name of the view you want to remove sharing from and click the **More** menu ![](assets/more-menu.png), then click **Share**.
+1. Hover over the tab name of the view you want to remove sharing from and click the **More** menu ![More menu](assets/more-menu.png), then click **Share**.
 1. To remove the internal sharing of a view, do the following: 
 
    1. Ensure the **Internal sharing** tab is selected.
-   1. Find the user or group what you want to remove, expand the permissions drop-down menu to the right of the user's or group's name, then click **Remove**.
+   1. Find the user, group, team, company, or job role  what you want to remove, expand the permissions drop-down menu to the right of the name of the entity you are sharing the view with, then click **Remove**.
 
 1. To remove the public sharing of a view, do the following: 
 

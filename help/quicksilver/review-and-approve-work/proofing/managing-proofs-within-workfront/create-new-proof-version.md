@@ -9,20 +9,22 @@ exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
 ---
 # Create a new version of a proof
 
-Managing feedback across multiple versions or revisions of a piece of work can be a huge challenge. Workfront simplifies this process by letting you create and compare multiple versions of a proof.
+<!-- Audited: 4/2025 -->
 
-Consider the following information when you are creating a new version of a proof:
+Managing feedback across multiple versions or revisions of a piece of work can be a challenge. Adobe Workfront simplifies this process by letting you create and compare multiple versions of a proof.
 
-* You can give a user permission to see one version but not another. Conversely, if you share a later version with a user, that user cannot see earlier versions unless you go back and explicitly grant the user access to those previous versions. 
-* To create a new version of a proof you must have Edit rights on the proof.
+Consider the following information when creating a new version of a proof:
 
-  See [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) and [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) to get more information on who has edit rights on a proof.
+* You can give a user permission to see one version but not another. Conversely, if you share a later version with a user, that user can't see earlier versions unless you go back and grant them access to those previous versions. 
+* You must have Edit rights on the proof to create a new version.
+
+  For more information, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) and [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
   For information about sharing proof versions, see&nbsp; [Share a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
 >[!IMPORTANT]
 >
->If a proof is created within Adobe Workfront, any new versions created for that proof must also be created within Workfront. You cannot create a new version of a proof within Workfront Proof if that proof was created within Workfront.
+>If a proof is created in Adobe Workfront, any new versions for that proof must also be created in Workfront. You can't create a new version of a proof within Workfront Proof if that proof was created in Workfront.
 
 ## Access requirements
 
@@ -35,60 +37,38 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Current: Pro or Higher</p> <p>or</p> <p>Legacy: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Current: Standard</p> 
+   <p>Or</p>
+   <p>Legacy: Work or Plan (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof Permission Profile </td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Documents</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Create a new version of a proof in Workfront
+## Create a new proof version in Workfront
 
-There are several ways to upload a new proof version in Workfront. Default proof settings may or may not carry over from the previous version depending on the method you choose:
+There are several ways to upload a new proof version in Workfront. Default proof settings may or may not carry over from the previous version depending on the method you select:
 
-* **Automatically generate proofs when uploading documents**: Default proof settings do not carry over. If you have this setting enabled in your user profile, default proof settings do not carry over when you drag and drop a new version.
-* **Create proof > Simple**: Default proof settings do not carry over. If you choose Simple when creating a new proof version, default proof settings do not carry over from the previous version.
-* **Add new > Version > Proof**: Default proof settings carry over from the previous version.
-* **Create proof > Advanced**: Default proof settings carry over from the previous version.
-
-  <table>
-  <tbody>
-  <tr>
-  <td>Automatically generate proofs when uploading documents</td>
-  <td>Default proof settings do not carry over. If you have this setting enabled in your user profile, default proof settings do not carry over when you drag and drop a new version.</td>
-  </tr>
-  <tr>
-  <td>Create proof &gt; Simple</td>
-  <td>Default proof settings do not carry over. If you choose Simple when creating a new proof version, default proof settings do not carry over from the previous version.</td>
-  </tr>
-  <tr>
-  <td>Add new &gt; Version &gt; Proof</td>
-  <td>Default proof settings carry over from the previous version.</td>
-  </tr>
-  <tr>
-  <td>Create proof &gt; Advanced</td>
-  <td>Default proof settings carry over from the previous version.</td>
-  </tr>
-  </tbody>
-  </table>
-
-
-
+* **Automatically generate proofs when uploading documents**: If you have this setting enabled in your user profile, default proof settings don't carry over when you drag and drop a new version.
+* **Create proof > Simple**: If you select this option, default proof settings don't carry over from the previous version.
+* **Add new > Version > Proof**: If you select this option, default proof settings carry over from the previous version.
+* **Create proof > Advanced**: If you select this option, default proof settings carry over from the previous version.
 
 To create a new version of a proof:
 
@@ -99,9 +79,9 @@ To create a new version of a proof:
 
    Select the row where the proof is listed, click **Add new** > **Version**, then click the option you want to use to add the new version of the proof.
 
-   ![](assets/add-new-version-350x185.png)
+   ![Add new version](assets/add-new-proof-version.png)
 
-## Create a new version of a proof from the proofing viewer (Workfront Proof only)
+## Create a new proof version from the proofing viewer (Workfront Proof only)
 
 If you are using the standalone Workfront Proof, you can create a new version of a proof containing a single file or web capture.&nbsp;
 
@@ -112,63 +92,66 @@ If you are using the standalone Workfront Proof, you can create a new version of
 To create a new version of a proof in Workfront Proof:
 
 1. Open the proof.
-1. Click the **Version** drop-down menu in the upper-left corner, then click **+ New version** in the box that appears.
+1. In the upper-left corner, click the **Version** drop-down menu, then click **+ New version** in the box that appears. The new proof version page opens.
 
-   On the **New proof version of** page that appears, you can see all the reviewers from the previous version, including their roles and email notification settings. You can easily edit the roles and notifications of existing reviewers or remove existing reviewers from the new version on this page.
+      ![Add new version](assets/new-version-button.png)
 
-1. Under **Add files**, upload a file as a new version of the proof by dragging and dropping from your computer or by clicking **browse** and selecting the file you want. You can type a&nbsp;**Proof name**&nbsp;for the version or leave this box blank to&nbsp;use the same filename with a version number added on the end.
+1. In the **Add files** section, upload a file as the new proof version by dragging and dropping it from your computer or by clicking **browse** and selecting a file. 
 
    Or
 
-   Capture a web page as a new version of the proof by typing a URL.
+   Capture a web page as a new version of the proof by entering in a URL.
 
    >[!NOTE]
    >
    >Drag and drop is available only with browsers that fully support HTML5. This excludes Internet Explorer 7 through 9 and Safari.
 
-1. Under **Workflow**, make any of the following changes to specify the reviewers for this version of the proof.
+1. (Optional) Select the proof title and enter a new **Proof name** for the version.
 
-   Reviewers from the previous version are replaced by the reviewers you add.
+1. In the **Workflow** section, make any of the following changes to add reviewers for this proof version (this will replace the previous version's reviewers):
 
-   * Change the **Owner** of the version to another user in your account.  
-     For information about owner permissions, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+   * (Optional) Change the **Owner** of the version to another user in your account.  
+
+     For information, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
    
-   * Using the **Type contact name or email address to add a recipient box**, add reviewers to the version. You can specify a **Proof role** and an **Email alerts** type for each recipient.
+   * (Optional) Using the **Type contact name or email address to add a recipient** box, add reviewers to the version. You can then select a **Proof role** and **Email alerts** type for each recipient.
 
-     For information about adding groups to the proof, see&nbsp; [Add Groups to a Proof](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md).&nbsp;For information about roles, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+     For information, see [Add Groups to a Proof](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md) and [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
      >[!NOTE]
      >
-     >If the creator or owner of&nbsp;&nbsp;the proof has [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) disabled by default (in their personal settings), they won't receive any Proof made or New proof emails even if the Notify people by email box is checked on the New proof page. For information about email notifications, see [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).&nbsp;See also [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) and [New proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+     >If the proof creator or owner has the Proof Made email disabled by default in their personal settings, they won't receive any Proof Made or New proof emails even if the **Notify recipients about this proof** box is checked on the New proof page. For information, see [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md), [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md), and [New proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
-   * Set a proof deadline for the version.  
-   * Hover over a reviewer's name to see any decisions he or she made on a previous version.
+   * (Optional) Set a proof deadline.  
 
-1. Under **Email notification**, do any of the following:
+   * (Optional and Conditional) Select a new primary decision maker in the **Transfer primary decision rights to** drop-down.
 
-   * Specify whether you want to notify the reviewers of the new version.  
-     Your selection will be logged in the Activity section of the Proof details page. For more information, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   * (Optional) Select the **Require only one decision for this stage** box to remove the option to set a user as the new primary decision maker.
+
+1. In the **Email notification** section, select any of the following settings:
+
+   * (Optional) **Notify recipients about this proof**: Select this option to notify the reviewers of the new version. Your selection will be logged in the **Activity** section of the **Proof details** page. For more information, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
    
-   * Add a custom subject and message.
+   * (Conditional and Optional) **Add custom subject and message**: Select this option to add a custom subject line and message to the email notification.
 
-1. In the **Organization** section, do any of the following:&nbsp;
+1. In the **Organization** section, select any of the following settings:
 
    * Apply one or more tags to the proof. For more information, see [Create and Manage Tags in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).  
-     Note that tags are inherited from the previous version of the proof, as well. If you add a new tag&nbsp;to the new version, previous versions are also tagged.
    
-   * Add the version to a folder. See [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) for more information. The folder&nbsp;will be copied from the previous version of the proof. If you select a different folder, the whole proof (all versions) will be moved.
+   * Add the version to a folder. The folder&nbsp;will be copied from the previous version of the proof. If you select a different folder, the whole proof—which includes all versions—will be moved. For more information, see [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
    
-   * Billing administrators and Administrators can make the folder field mandatory across the whole account on the Settings tab. See for more information.
+   * Billing administrators and Administrators can make the folder field mandatory across the whole account in the **Settings** tab. 
 
-1. Under Proof settings, make any of the changes below:
+1. In the **Proof settings** section, select any of the following settings:
 
-   * Require login on the proof
-   * Require electronic signatures on the proof (Enterprise plan only)
-   * Lock the proof when all decisions are made
-   * Allow or block download of original file
-   * Public sharing of the proof,&nbsp;including public sharing settings
-   * Subscription to the proof  
-     The selections made in this section will be shown in the Proof details page (where some fields can be edited). For more information, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   * Require a user to log in to view the proof.
+   * Require electronic signatures on the proof (Enterprise plan only).
+   * Lock the proof when all decisions are made. 
+   * Allow downloading of the original file.
+   * Allow public sharing of the proof.
+   * Allow subscribing to the proof.
+
+     The selections made in this section will be shown in the **Proof details** page (where some fields can be edited). For more information, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Create a new version of a proof from the proofing viewer</h2>
@@ -228,12 +211,12 @@ If there was a custom subject/message included in the previous version of the pr
   >
   >This is not impacted by any default custom subject/message saved in your personal settings.
 
-If you have a default subject and message saved in your personal settings, this will impact on what message is shown by default on the New version page:
+If you have a default subject and message saved in your personal settings, this will determine what message is shown by default on the New version page:
 
-* If you chose to notify your reviewers by email for the previous version of the proof using the standard email (for example, no custom subject/message), your default custom subject/message (your personal settings) will be shown on the New version page. You can then edit the custom subject and message or unselect the Notify people by email box (meaning no email will be sent to your reviewers to notify them that they have a new version to review).
-* If you chose not to notify your reviewers by email for the previous version of the proof (for example, no standard or custom email), the New version page will not include any message by default. To notify your reviewers of the new version, click the Send a Message link, which will show your default custom subject/message (per your personal settings). You can then edit the custom subject and message if needed.
+* If you notified your reviewers about the previous proof version using the standard email (for example, no custom subject/message), your default custom subject/message (your personal settings) will be shown on the New version page. You can then edit the custom subject and message or unselect the Notify people by email box, meaning no email will be sent to your reviewers to notify them that they have a new version to review.
+* If you didn't notify your reviewers about the previous proof version (e.g. no standard or custom email), the New version page will not include a message by default. To notify your reviewers of the new version, click the Send a Message link, which will show your default custom subject/message (per your personal settings). You can then edit the custom subject and message as needed.
 
 If you do not have a default subject and message saved in your personal settings, the following will show on the New version page:
 
-* If you chose to notify your reviewers by email for the previous version of the proof using the standard email (for example, no custom subject/message), the Notify people by email option will be selected by default on the New version page. To add a custom message click the link.
-* If you chose not to notify your reviewers by email for the previous version of the proof (for example, no standard or custom email), the New version page will not include any message by default. To notify your reviewers of the new version, click the Send a Message link. You can then add a custom subject and message by clicking the Add Custom Message link.
+* If you notified your reviewers about the previous proof version using the standard email (e.g. no custom subject/message), the Notify people by email option will be selected by default on the New version page. To add a custom message, click the link.
+* If you didn't notify your reviewers about the previous proof version (e.g. no standard or custom email), the New version page will not include any message by default. To notify your reviewers of the new version, click the Send a Message link. You can then add a custom subject and message by clicking the Add Custom Message link.

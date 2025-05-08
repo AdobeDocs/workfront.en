@@ -73,7 +73,7 @@ To export a Kick-Start template:
 {{step-1-to-setup}}
 
 <!--
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  -->
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).  -->
 
 1. Click **System** > **Import Data (Kick-Starts)**.
 
@@ -356,6 +356,10 @@ Each row of the sheet corresponds to a unique object.
 
      **Example:** Type A|D under the DE:Departments column to populate department A and department D in your custom form.
 
+     >[!NOTE]
+     >
+     >Only use the delimiter "|" to separate custom field values. You cannot use it in any of the other spreadsheet columns, including **setCategoryID**.
+
 ### Include dates  {#include-dates}
 
 Workfront can process most date formats. However, you must ensure that the date column in the spreadsheet is formatted as a date. The import will fail if the column is formatted as general, a number, or text.
@@ -472,7 +476,7 @@ The Kick-Start import supports the following file types:
 
 To import the template spreadsheet data into Workfront:
 
-<!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
+<!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
 
 {{step-1-to-setup}}
 

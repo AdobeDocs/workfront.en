@@ -21,7 +21,9 @@ You can reset your [!DNL Adobe Workfront] password. As an important security mea
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
+
+You must have the following:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,29 +32,40 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Contributor or higher</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Request or higher</p></li>
+         </ul>
+   </td>
   </tr> 
  </tbody> 
 </table>
 
-To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Reset your password in [!DNL Adobe Workfront]
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click your user name next to your profile picture.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click your user name next to your profile picture.
 
    ![Open the main menu and select your user name.](assets/main-menu-options-350x481.png)
 
-1. Click the **[!UICONTROL More menu]** ![](assets/more-icon.png), then click **[!UICONTROL Edit]**.
+1. Click the **[!UICONTROL More menu]** ![More icon](assets/more-icon.png), then click **[!UICONTROL Edit]**.
 
 1. In the **[!UICONTROL Edit Person]** box that displays, under **[!UICONTROL Personal Info]**, click **[!UICONTROL Reset Password]**.
 
-   ![](assets/edit-person-box-350x196.jpg)
+   ![Edit person](assets/edit-person-box-350x196.jpg)
 
    If your organization has integrated [!DNL Workfront] with an SSO solution, you may be routed to reset your passwords through your SSO system when you click **[!UICONTROL Reset Password]**. This resets your SSO password which affects logging in to all your other applications inside your organization.
 
@@ -60,9 +73,10 @@ To find out what plan or license type you have, contact your [!DNL Workfront] ad
 
    Your password must be at least 8 characters and contain two of the following types of characters:
 
-   * Letters
+   * Uppercase letters
+   * Lowercase letters
    * Numbers
-   * Special characters (i.e. ! @ # $ % etc.)
+   * Special characters (such as ! @ # $ %)
 
    Password rules might be more strict than this, depending on configuration settings set by your [!DNL Workfront] administrator.
 

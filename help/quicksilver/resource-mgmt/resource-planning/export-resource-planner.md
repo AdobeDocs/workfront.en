@@ -68,7 +68,7 @@ For more detail about the information in this table, see [Access requirements in
 
    The Export Options dialog box displays.
 
-   ![](assets/rp-export-options-box-350x421.png)
+   ![Export options](assets/rp-export-options-box-350x421.png)
 
 1. Specify the following information:  
    **Start Date**: The start date of your export. The exported file contains allocation and availability information starting with the first day of the week which contains the day you specify here.   

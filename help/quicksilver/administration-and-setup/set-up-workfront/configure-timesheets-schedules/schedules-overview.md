@@ -15,9 +15,9 @@ exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
 
 <!-- Audited: 1/2024 -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->  
 
 You can define your work week using schedules and associate a schedule with a user or a project. This allows [!DNL Adobe Workfront] to calculate timelines and user availability. For instructions, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
@@ -60,16 +60,12 @@ If a task is assigned to a user who is associated with a schedule, and resides o
 The order in which the schedules are used by the system when more than one exists is:
 
 
-* When one user is assigned to a task, the following scenarios exist, depending on what environment you use: 
+* When one user is assigned to a task, [!DNL Workfront] uses either one of the following schedules, as defined in the [!UICONTROL Project Preferences] area of [!UICONTROL Setup]:
 
-   * In the Production environment, [!DNL Workfront] uses the user's schedule for calculating the timeline of the task. This also includes the personal time of the user. The schedule of the project is ignored.
+   * The schedule of the user who is assigned to the task 
+   * The schedule associated with the project.
 
       For more information about personal time, see [Configure personal time off](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-
-   * <span class="preview">In the Preview environment, [!DNL Workfront] uses either one of the following schedules, as defined in the [!UICONTROL Project Preferences] area of [!UICONTROL Setup]:</span>
-
-      * <span class="preview">The schedule of the user who is assigned to the task </span>
-      * <span class="preview">The schedule associated with the project.</span>
 
 * When multiple users are assigned to a task, and the users have different schedules during the time frame of the task, [!DNL Workfront] uses either one of the following schedules, as defined in the [!UICONTROL Project Preferences] area of [!UICONTROL Setup]:
 
@@ -81,7 +77,7 @@ The order in which the schedules are used by the system when more than one exist
 * If the user assigned to the task has no schedule, or the task is assigned only to a job role, a team, or is unassigned, [!DNL Workfront] uses the project schedule for the timeline calculations.
 * If the user assigned to the task has no schedule, or the task is assigned only to a job role, a team, or is unassigned, and the project has no schedule, then [!DNL Workfront] uses the schedule in the system designated as the Default Schedule for timeline calculations.
 
-   ![](assets/default-schedule.png)
+   ![Default schedule](assets/default-schedule.png)
 
 ## Collaboration in [!DNL Workfront] across time zones
 

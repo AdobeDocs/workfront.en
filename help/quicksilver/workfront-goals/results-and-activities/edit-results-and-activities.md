@@ -115,9 +115,9 @@ Editing results differs depending on which environment you use.
 
 1. Go to the goal for which you want to edit a result and click the goal name to open the **Goal Details** panel.
 1. Click **Results**.
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result you want to edit.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result you want to edit.
 
-   ![](assets/results-gear-icon-options-350x85.png)
+   ![Results gear icon](assets/results-gear-icon-options-350x85.png)
 
 1. Click **Edit** to edit the following information:
 
@@ -133,14 +133,14 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png), then **Goals**. 
+1. Click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), then **Goals**. 
 1. From the Goal List, click the name of a goal to open the goal page.
 1. Click **Progress indicators** in the left panel.
-1. Select a result in the Progress indicators list and click the **Edit** icon ![](assets/edit-icon.png).
+1. Select a result in the Progress indicators list and click the **Edit** icon ![Edit icon](assets/edit-icon.png).
    
    The Edit Result box opens. 
 
-   ![](assets/edit-result-box-unshimmed.png)
+   ![Edit Result box](assets/edit-result-box-unshimmed.png)
 
 1. Edit the following information:
     * **Result name**: The name of the result. Use a descriptive name that illustrates what result you need to obtain in order to complete the goal. 
@@ -164,9 +164,9 @@ Editing activities differs depending on which environment you use.
 
 1. Go to the goal for which you want to edit an activity and click the goal name to open the **Goal Details** panel.
 1. Click **Activities**.
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the activity you want to edit .
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the activity you want to edit .
 
-   ![](assets/activities-gear-icon-options-350x84.png)
+   ![Activities gear icon](assets/activities-gear-icon-options-350x84.png)
 
 1. Click **Edit** to edit the following information:
 
@@ -178,14 +178,14 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png), then **Goals**. 
+1. Click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png), then **Goals**. 
 1. From the Goal List, click the name of a goal to open the goal page.
 1. Click **Progress indicators** in the left panel.
-1. Select an activity in the Progress indicators list and click the **Edit** icon ![](assets/edit-icon.png).
+1. Select an activity in the Progress indicators list and click the **Edit** icon ![Edit icon](assets/edit-icon.png).
 
    The Edit Activity box opens.
 
-   ![](assets/edit-activity-box-unshimmed.png)
+   ![Edit Activity box](assets/edit-activity-box-unshimmed.png)
 
 1. Edit the following information:
    * **Activity name**: The name of the activity. Use a descriptive name that illustrates what activity you should perform to indicate that the goal completes. 

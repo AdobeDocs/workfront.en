@@ -32,7 +32,7 @@ You must have the following access to complete the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront plan</a>*</td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
@@ -79,7 +79,7 @@ To send a document:
    >
    >The Workfront administrator can choose any name for this integration, so it may not specifically mention Assets or Assets Essentials.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Send to](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Choose where you want the asset to go, then click **Select Folder**.
 1. When you find your desired destination, click **Save**.
@@ -101,7 +101,7 @@ To send the most recent version:
    >
    >The Workfront administrator can choose any name for this integration, so it might not specifically mention Assets or Assets Essentials.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Send to](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Click **Save**. The new version saves in the same location as the previous version.
 

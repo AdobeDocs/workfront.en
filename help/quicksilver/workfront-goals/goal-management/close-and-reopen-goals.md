@@ -1,13 +1,15 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Close and reopen goals in Adobe Workfront Goals
+title: Close and Reopen Goals in Adobe Workfront Goals
 description: You can close a goal when you want to indicate that you have completed it or that you are no longer working on it because it became obsolete. 
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
 ---
 # Close and reopen goals in Adobe Workfront Goals
+
+<!--Audited for P&P only: 4/2025-->
 
 You can close a goal when you want to indicate the following:
 
@@ -17,6 +19,8 @@ You can close a goal when you want to indicate the following:
 You can reopen goals that have been closed when they become relevant again. 
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following:
 
@@ -48,12 +52,9 @@ You must have the following:
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> New product requirement, one of the following: </p>
-<ul>
-<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
-<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
+  <p> New product requirement: Workfront</p>
  <p>Or</p>
- <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+  <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <td role="rowheader">Access level</td>
  <td> <p>Edit access to Goals</p> </td>
@@ -76,6 +77,8 @@ You must have the following:
 </table>
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Considerations when closing or reopening goals
 
@@ -105,7 +108,7 @@ Closing goals differs depending on what environment you use.
 
 ### Close goals in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -122,7 +125,7 @@ Closing goals differs depending on what environment you use.
 
 1. (Optional and recommended) Click the **Updates** tab and add an update in the **Comment here** field about the reason you are closing the goal, then click **Post**. 
 
-1. Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Close** > **Close Goal**.
+1. Click the **More icon** ![More icon](assets/more-icon.png) to the right of the goal name, then click **Close** > **Close Goal**.
 
    This closes the goal and saves the current progress on the goal and its results and activities.
 
@@ -131,13 +134,13 @@ Closing goals differs depending on what environment you use.
    >If the goal has contributing goals that are still active, the progress of the goal continues to update based on the progress of the aligned goals.
    >
    >
-   >![](assets/closing-goals-with-active-aligned-goals-warning-350x71.png)   >
+   >![Closing goals with active aligned goals](assets/closing-goals-with-active-aligned-goals-warning-350x71.png)   >
    >
 
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner. 
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner. 
 
    The Goal List opens. 
 
@@ -151,17 +154,17 @@ Closing goals differs depending on what environment you use.
 
    The goal page opens. 
    
-      ![](assets/goal-page-unshimmed.png)
-1. Click the **More** menu ![](assets/more-icon.png) to the right of the goal name, then click **Close**.  
+      ![Goal page](assets/goal-page-unshimmed.png)
+1. Click the **More** menu ![More icon](assets/more-icon.png) to the right of the goal name, then click **Close**.  
 
    The goal closes and you receive a confirmation in the upper-right corner of the screen. 
 
-   ![](assets/goal-close-confirmation-with-add-closing-notes-link.png)
+   ![Goal close confirmation](assets/goal-close-confirmation-with-add-closing-notes-link.png)
 
 1. (Optional) In the confirmation box, click **Add closing notes** to add comments about this goal and why you need to close it. 
 1. Add closing notes, then click **Add notes**.
 
-   ![](assets/add-closing-notes-box-unshimmed.png)
+   ![Add closing notes box](assets/add-closing-notes-box-unshimmed.png)
 
    The comments display in the Goal details section of the goal's page, in the Closing notes area. 
 
@@ -179,7 +182,7 @@ Reopening goals differs depending on what environment you use.
 
 ### Reopen goals in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -195,7 +198,7 @@ Reopening goals differs depending on what environment you use.
 
    This opens the Goal Details panel on the right. 
 
-1. Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Reopen** > **Reopen**.
+1. Click the **More icon** ![More icon](assets/more-icon.png) to the right of the goal name, then click **Reopen** > **Reopen**.
 
    This reopens the goal and places it in a status of Active. The progress of the goal is recalculated starting with the current date. 
 
@@ -203,7 +206,7 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png)> **Goals** in the upper-right corner. 
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png)> **Goals** in the upper-right corner. 
 
    The Goal List opens.
 
@@ -216,7 +219,7 @@ Reopening goals differs depending on what environment you use.
 1. Click the name of a closed goal. 
    
    The goal page opens.
-1. Click the **More** menu ![](assets/more-icon.png) to the right of the goal name, then **Reopen** > **Reopen**. 
+1. Click the **More** menu ![More icon](assets/more-icon.png) to the right of the goal name, then **Reopen** > **Reopen**. 
 
    The following things occur: 
    * The goal is now open and it has a status of Active. 

@@ -18,7 +18,7 @@ For a list of all changes available at this point in the Fourth Quarter 2024 rel
 >
 >Production release for all customers: With the 24.10 release (October 17, 2024)
 >
->_Only available for organizations on one of the new Adobe Workfront plans. Data Connect is included in the Ultimate plan or can be purchased as an add-on to the Prime and Select plans._
+>_Only available for organizations on one of the new Adobe Workfront plans. Data Connect is included in the Ultimate plan, and will be made available for purchase as an add-on to the Prime and Select plans in the first half of 2025._
 
 Workfront Data Connect will become available for customers on one of the new Workfront plans. Data Connect allows organizations to access their data as a secure and scalable data lake, which can be analyzed and visualized using business intelligence tools or stored externally. Additionally, organizations can use Data Connect to view data analytics that were previously unavailable, such as time-based trend analysis, variable mapping, and analysis of external system data in combination with Workfront data.
 

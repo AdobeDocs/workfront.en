@@ -155,21 +155,21 @@ The following is a list of objects and their corresponding icons in Workfront.
 
 | **Object** | **Icon** | **Customizable object name** |
 |---|---|---|
-| [!UICONTROL Company] | ![](assets/company-icon-nwe.png)  , ![](assets/nwe-company-icon-54x54.png) |  |
-| [!UICONTROL Dashboard] | ![](assets/dashboard-icon-nwe.png)  , ![](assets/nwe-dashboards-icon.png) |  |
-| [!UICONTROL Goal] | ![](assets/nwe-goal-icon.png) | ✔ |
-| [!UICONTROL Group] | ![](assets/groups-icon-nwe.png)  , ![](assets/nwe-group-icon.png) |  |
-| [!UICONTROL Issue] | ![](assets/issue-icon-nwe.png)  , ![](assets/nwe-issues-icon.png) | ✔ |
-| [!UICONTROL Job Role] | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png) |  |
-| [!UICONTROL Plan] | ![](assets/plan-icon.png), ![](assets/nwe-plan-icon-60x57.png) |  |
-| [!UICONTROL Portfolio] | ![](assets/portfolio-icon-nwe.png)  , ![](assets/nwe-portfolios-icon.png) | ✔ |
-| [!UICONTROL Program] | ![](assets/program-icon-nwe.png)  , ![](assets/nwe-programs-icon.png) | ✔ |
-| [!UICONTROL Project] | ![](assets/project-icon-nwe.png)  , ![](assets/nwe-projects-icon.png) | ✔ |
-| [!UICONTROL Report] | ![](assets/report-icon-nwe.png) , ![](assets/nwe-reports-icon.png) |  |
-| [!UICONTROL Task] | ![](assets/task-icon-new.png)  , ![](assets/nwe-tasks-icon.png) | ✔ |
-| [!UICONTROL Team] | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png) , ![](assets/nwe-teams-icon.png) |  |
-| [!UICONTROL Template] | ![](assets/template-icon-nwe.png)  , ![](assets/nwe-templates-icon.png) |  |
-| [!UICONTROL User] | ![](assets/users-icon-gray.png) , ![](assets/user-icon-blue.png) , ![](assets/user-icon-initials.png) , ![](assets/user-avatar.png) , ![](assets/user-main-menu-area.png) |  |
+| [!UICONTROL Company] | ![Company icon](assets/company-icon-nwe.png)  , ![Company icon blue](assets/nwe-company-icon-54x54.png) |  |
+| [!UICONTROL Dashboard] | ![Dashboard icon](assets/dashboard-icon-nwe.png)  , ![Dashboards icon blue](assets/nwe-dashboards-icon.png) |  |
+| [!UICONTROL Goal] | ![Goal icon](assets/nwe-goal-icon.png) | ✔ |
+| [!UICONTROL Group] | ![Groups icon](assets/groups-icon-nwe.png)  , ![Group icon](assets/nwe-group-icon.png) |  |
+| [!UICONTROL Issue] | ![Issue icon](assets/issue-icon-nwe.png)  , ![Issue icon pink](assets/nwe-issues-icon.png) | ✔ |
+| [!UICONTROL Job Role] | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![Job role icon](assets/job-role-nwe-no-color.png), ![Job role icon color](assets/job-role-icon-nwe-color.png) |  |
+| [!UICONTROL Plan] | ![Plan icon](assets/plan-icon.png), ![Plan icon blue](assets/nwe-plan-icon-60x57.png) |  |
+| [!UICONTROL Portfolio] | ![Portfolio](assets/portfolio-icon-nwe.png)  , ![Portfolio icon blue](assets/nwe-portfolios-icon.png) | ✔ |
+| [!UICONTROL Program] | ![Program icon](assets/program-icon-nwe.png)  , ![Program icon orange](assets/nwe-programs-icon.png) | ✔ |
+| [!UICONTROL Project] | ![Project icon](assets/project-icon-nwe.png)  , ![Project icon purple](assets/nwe-projects-icon.png) | ✔ |
+| [!UICONTROL Report] | ![Report icon](assets/report-icon-nwe.png) , ![Report icon green](assets/nwe-reports-icon.png) |  |
+| [!UICONTROL Task] | ![Task icon](assets/task-icon-new.png)  , ![Task icon green](assets/nwe-tasks-icon.png) | ✔ |
+| [!UICONTROL Team] | ![Team icon](assets/team-icon-nwe.png), ![Team icon round](assets/team-icon-nwe-color.png) , ![Teams icon](assets/nwe-teams-icon.png) |  |
+| [!UICONTROL Template] | ![Template icon](assets/template-icon-nwe.png)  , ![Template icon green](assets/nwe-templates-icon.png) |  |
+| [!UICONTROL User] | ![User icon gray](assets/users-icon-gray.png) , ![User icon blue](assets/user-icon-blue.png) , ![User icon with initials](assets/user-icon-initials.png) , ![Avatar](assets/user-avatar.png) , ![User icon main menu](assets/user-main-menu-area.png) |  |
  
 ## Reference Numbers of objects
 
@@ -277,7 +277,7 @@ You can report on the following objects when using the report builder in the [!D
 * [!UICONTROL Iteration]
 * [!UICONTROL Job Role]
 * [!UICONTROL Journal Entry]
-  * You can report on tracked system updates in the [!UICONTROL Updates] area of objects like tasks, projects, issues, etc. For more information, see [Report on the [!UICONTROL Updates] area](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+  * You can report on tracked system updates in the [!UICONTROL Updates] area of objects like tasks, projects, issues, etc. For more information, see [Report on the Updates area with a Journal Entry report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 * [!UICONTROL Layout Template]
 * [!UICONTROL Milestone]

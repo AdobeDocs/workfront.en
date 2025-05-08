@@ -11,7 +11,7 @@ exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
 ---
 # Customize pinned pages using a layout template
 
-In a layout template, you can pin the pages that you want users to always have available at the top of Adobe Workfront. These can be either pages accessed via the Main Menu ![](assets/main-menu-icon.png) or the Main Menu ![](assets/lines-main-menu.png) when available, or dashboards.
+In a layout template, you can pin the pages that you want users to always have available at the top of Adobe Workfront. These can be either pages accessed via the Main Menu ![Main menu icon](assets/main-menu-icon.png) or the Main Menu ![Main menu icon](assets/main-menu-icon.png) when available, or dashboards.
 
 Any pins that your users have added on their own are displayed to the right of the pins you add in the layout template.
 
@@ -27,7 +27,7 @@ After configuring a layout template, you must assign it to users for changes you
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
+You must have the following: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,10 +38,17 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td><p>New: Standard</p>
-  <p> Current: Plan</p>
-   </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -51,7 +58,7 @@ To perform them for a group, you must be a manager of that group.</p> </td>
  </tbody> 
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -85,23 +92,28 @@ To perform them for a group, you must be a manager of that group.</p> </td>
       * Blueprints
       * Planning
 
-   >[!IMPORTANT]
-   >
-   >To view the Scenarios, Goals, and Planning areas requires additional licenses. 
-   >
-   >* For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
-   >
-   >* For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
-   >
-   >* For information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
+      >[!IMPORTANT]
+      >
+      >To view the Goals, Scenarios, and Planning areas requires additional licenses. 
+      >
+      >* For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
+      >
+      >* For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+      >
+      >* For information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
 
-   * Click **Add a Dashboard**, then type a descriptive **Custom section title** and add the dashboard.
+   * Click **Add a Dashboard**
+      * Type a descriptive name in the <!--**Quick link name**-->**Custom name** field
+      * Select a dashboard in the **Add a dashboard** field <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->
+      * Click **Add**.
 
 1. Repeat the previous step to pin any other pages.
 
-1. (Optional) To rename a pin, hover over the pin, click the arrow next to the pin name, and select **Rename pin**. Type the new pin name, and click the check mark icon or press Enter.
+1. (Optional) To move a pin, hover over the pin and click the More menu icon ![More icon](assets/more-icon.png) next to the pin name, then click **Move left** or **Move right** to shift the pin in the chosen direction or click **Move to front** to shift the pin to the leftmost position.
 
-   A small pop-up window appears for several seconds after you click the check mark or press Enter, allowing you to undo the pin name change before it is saved.
+1. (Optional) To rename a pin, hover over the pin and click the More menu icon ![More icon](assets/more-icon.png) next to the pin name, then click **Rename pin**. Enter a new name, then click **Save**.
+
+1. (Optional) To delete a pin, hover over the pin and click the More menu icon ![More icon](assets/more-icon.png) next to the pin name, then click **Remove pin**.
 
 1. Continue customizing the layout template.
 

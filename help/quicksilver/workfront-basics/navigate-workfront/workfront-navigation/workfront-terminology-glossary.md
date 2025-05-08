@@ -294,6 +294,16 @@ The following table is a list of commonly used terms in Adobe Workfront:
      --> 
     </ul> </td> 
   </tr> 
+
+  <tr> 
+   <td>[!UICONTROL Breakdown]</td> 
+   <td> <p>In Workfront Planning, you can display connected records in a record's timeline view by using the Breakdown feature. </p>
+   <p>Breaking down records by their connections allows you to view the timelines of other connected records and understand how they might affect the performance and deadlines of your records. </p>
+   <p>Connected records display nested under their respective record. </p>
+   <p>For information, see <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">Manage the timeline view</a>. </p>
+   </td> 
+    </tr> 
+   
   <tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that [!DNL Workfront] has removed. This field cannot be updated. </p>
@@ -1085,6 +1095,10 @@ The designated full time equivalency for users. A full-time user should have 100
    <td> <p>The ID is an alphanumeric indicator associated with every object in [!DNL Workfront]. It uniquely identifies each object in the [!DNL Workfront] database. You can view the ID of any object in a report or a list for each object. </p> <p><b>TIP</b></p>   <p>You can also view the ID in the URL of the object's page. For example, the ID of a project might look something like the number outlined in the following URL, when you access the [!UICONTROL Project Details] page:</p> <p><code>https://&lt;your domain>.my.workfront.com/project/<b>5e29c8010027d8eb334762d4fff3ffca</b>/overview</code> </p> </p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+   <td>[!UICONTROL IMS]</td> 
+   <td>Identity Management System. Adobe IMS requires that you log in to Workfront through Adobe rather than using your Workfront username and password.</td> 
+  </tr> 
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Individual Goals]</td> 
    <td>Individual goals which contribute to the metrics of the team goals, but not related to personal or career development.</td> 
   </tr> 
@@ -1162,7 +1176,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>[!UICONTROL Journal Entry]</p> </td> 
-   <td> <p>A reportable object that tells you information about system updates for tracked fields that appear in the [!UICONTROL Updates] area of projects, tasks, issues, and other objects.</p> <p>To learn more, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">Report on the [!UICONTROL Updates] area</a>.</p> </td> 
+   <td> <p>A reportable object that tells you information about system updates for tracked fields that appear in the [!UICONTROL Updates] area of projects, tasks, issues, and other objects.</p> <p>To learn more, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">Report on the Updates area with a Journal Entry report</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Kanban Flag]</td> 
@@ -2038,7 +2052,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (in [!DNL Workfront Fusion]) </td> 
-   <td> <p>A scenario is comprised of a series of steps (modules) that indicate how data should be transferred and transformed between apps/ services.</p> <p>For information about scenarios in [!DNL Workfront Fusion], see <a href="../../../workfront-fusion/scenarios/scenario-overview.md" class="MCXref xref">[!DNL Adobe Workfront Fusion] scenario overview</a>.</p> </td> 
+   <td> <p>A scenario is comprised of a series of steps (modules) that indicate how data should be transferred and transformed between apps/ services.</p> <p>For information about scenarios in [!DNL Workfront Fusion], see <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenario overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (in the [!DNL Workfront Scenario Planner]) </td> 
@@ -2246,7 +2260,13 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Task]</td> 
-   <td> <p>An activity that must be performed as a step toward achieving a final goal (completing the Project).</p> <p>For more information, see <a href="../../../manage-work/tasks/task-information/tasks-overview.md" class="MCXref xref">Tasks overview</a>.</p> </td> 
+   <td> <p>An activity that must be performed as a step toward achieving a final goal (completing the Project).</p> 
+   
+   <p>Tasks are smaller units of work that ultimately complete a project, which represents a larger unit of work.</p>
+   <p>Tasks can never exist independently. They are always part of a project. </p>
+   <p>For more information about tasks, see <a href="../../../manage-work/tasks/task-information/tasks-overview.md" class="MCXref xref">Tasks overview</a>.</p> 
+   <p>For information about creating tasks, see <a href="/help/quicksilver/manage-work/tasks/create-tasks/create-tasks-in-project.md">Create tasks in a project</a>
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Task Attribute]</td> 

@@ -39,6 +39,8 @@ The user's commands and the AI's execution of those commands work together to en
 
 * You can use commands to undo your actions. For example, you can type "Undo last change" to revert your change. 
 
+* <span class="preview"> When creating, updating, or deleting an object through AI Assistant, AI Assistant displays the intended actions and asks for confirmation. You can then confirm or cancel the actions. </span>
+
 ## Functionality currently available for the AI Assistant
 
 Currently, the AI Assistant is available in the Planning area of Workfront for the following pages:
@@ -53,7 +55,7 @@ You can use the AI Assistant to perform the following actions, at this time:
 * Create records. An ID with a link to the new record displays after the record is created. You can specify the fields you want to update during the creation process, like dates or description. 
 * Create records based on a document that you upload. Workfront supports the following document formats for the AI Assistant:
 
-    .pptx, .pdf, .docx, .xlsx, .ppt, .doc, .txt, and most image formats
+    PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT, and most image formats
 * Update fields for the records you see on the screen
 * Delete records
 * Restore records that you just deleted
@@ -64,11 +66,11 @@ You can use the AI Assistant to perform the following actions, at this time:
 You can locate the AI Assistant in the following areas of Workfront Planning:
 
 * The main navigation bar, in the upper-right corner of the screen.
-* <span class="preview">Inside the details area of a record, after you opened the record in the preview or after you opened the record's page.</span> 
+* Inside the details area of a record, after you opened the record in the preview or after you opened the record's page.
 
 ## Access the AI Assistant in the Planning area
 
-1. Log in to Workfront, then click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right corner of the screen, or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available.
+1. Log in to Workfront, then click the **Main Menu** icon ![Dots main menu](assets/dots-main-menu.png) in the upper-right corner of the screen, or the **Main Menu** icon ![Lines main menu](assets/lines-main-menu.png) in the upper-left corner, if available.
 
 . Click **Planning**. The Planning area opens. 
 
@@ -78,13 +80,13 @@ You can locate the AI Assistant in the following areas of Workfront Planning:
 
 1. (Optional) Click a **record** to open the record's **Details** page.
 
-1. Click the **AI Assistant icon** in the upper-right corner of the screen in the global navigation bar <span class="preview"> or in the upper-right corner of the record's preview or page.</span>
+1. Click the **AI Assistant icon** in the upper-right corner of the screen in the global navigation bar or in the upper-right corner of the record's preview or page.
 
-    ![](assets/ai-assistant-icon-highlighted.png)
+    ![AI Assistant icon](assets/ai-assistant-icon-highlighted.png)
 
 1. In the space provided, start typing commands for the AI Assistant, then click Enter when you are done. 
 
-    ![](assets/ai-assistant-panel-with-empty-command-box.png)
+    ![AI Assistant panel with empty command box](assets/ai-assistant-panel-with-empty-command-box.png)
 
     For example, you may type one of the following:
 

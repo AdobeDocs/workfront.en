@@ -11,6 +11,8 @@ exl-id: 5457f516-c213-4b82-b033-bc8db943a217
 
 You can log time for work items in Adobe Workfront to indicate the number of hours you spend working on them. The time you log displays in your timesheet.
 
+Priorities displays work items assigned to you. You cannot see work items assigned to your team.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
@@ -54,15 +56,14 @@ You can log time directly from the worklist:
 {{step1-to-priorities}}
 
 1. Hover over the name, then click **Log time**.
-![](assets/log-time.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![Update, log time, and upload](assets/update-log-upload.png)
 1. In the **Hour Type** drop-down menu, select the appropriate hour type. Hour types are available depending on what has been defined at the system, project, and user levels, as described in Define hour types and availability.
 
 1. (Conditional) If your Workfront or group administrator has enabled the Assign job roles to hour entries manually setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. If you do not have a Primary Role assigned, No Job role displays.
 
 1. Enter the time you want to log, then click **Log time**.
 
-    ![](assets/log-time-dialog.png)
+    ![Log time](assets/log-time-dialog.png)
 
 ## Log time in a work item
 
@@ -77,4 +78,4 @@ You can log time in an individual work item:
 
 1. Enter the time you want to log, then click **Log time**.
 
-    ![](assets/log-time-dialog.png)
+    ![Log time](assets/log-time-dialog.png)

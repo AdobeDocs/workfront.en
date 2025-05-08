@@ -8,10 +8,6 @@ exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
 ---
 # AI Assistant overview
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available in the Preview environment for all customers, and in the Production environment for customers that have enabled monthly releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  
-
 Workfront's AI Assistant helps you accomplish your work by offering in-app information and suggestions in a natural-language conversation. AI Assistant can give you a smoother work experience by
 
 * Summarizing work items or documents
@@ -65,6 +61,8 @@ To enable AI Assistant for your organization, **all** of the following must appl
 
    For more information about AI Assistant in Workfront Planning, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
+* AI Assistant is currently only available in English.
+
 
 ## Functionality available in AI Assistant
 
@@ -78,13 +76,9 @@ AI Assistant currently offers the following functionality:
 
    For more information, see [Get help from AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
-<div class="preview">
-
 * Locating specific items in Workfront.
 
    For more information, see [Use AI Assistant to work with projects, tasks, and issues](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
-
-</div>
 
 * Generating or refining formulas for calculated custom fields.
 
@@ -94,12 +88,10 @@ AI Assistant currently offers the following functionality:
 
    For more information, see [Generate or revise calculated field formulas with AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md).
 
-<div class="preview">
 * Summarizing updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days in Priorities.
 
 For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
-</div>
 
 ## Object types available for AI Assistant
 
@@ -117,7 +109,7 @@ AI assistant can query data associated with the following object types if the us
 
 ## Access AI Assistant
 
-1. At the top of any Workfront page, click the AI Assistant icon ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. At the top of any Workfront page, click the AI Assistant icon ![AI Assistant icon](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Type your question or prompt into the panel at the right of the screen.
 
    If you cannot type into this panel, your organization does not have a signed Adobe Gen AI agreement on file.
@@ -135,9 +127,36 @@ If a user attempts to use AI Assistant when the Adobe Gen AI agreement has not b
 
 To request the Adobe Gen AI agreement:
 
-1. As a Workfront Administrator, click the AI Assistant icon ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. As a Workfront Administrator, click the AI Assistant icon ![AI Assistant icon](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Begin typing in the AI Assistant panel.
 1. When the Adobe Gen AI agreement message appears, click **Review agreement**.
 1. Enter the name and email address of the individual at your organization who will sign the Adobe Gen AI agreement.
 
    The agreement will be sent to this individual for signing. After it is signed and returned, AI Assistant is enabled for your organization.
+
+## Tips for creating prompts in AI Assistant
+
+Use the following keywords in your prompts to provide context and aid in locating the correct information. Keywords are not case-sensitive.
+
+When entering your prompt, include the phrase `using (keyword)`.
+
+| Keyword | Effect |
+|---|---|
+|`workfront` | Interacts with Workfront. |
+|`planning ` | Interacts with Workfront Planning. |
+|`help`| Returns information from Experience League documentation. |
+|`formula`| Checks and returns formulas for use in Planning, Setup, or custom forms. |
+| `health`| Checks project health with Project Health Advisor. |
+|`summarize`| Summarizes items, such as when uploading a file or summarizing a project. | 
+
+>[!NOTE]
+>
+> Not all keywords are available in all areas. 
+>
+>* The `formula` keyword is available only in Planning, Setup, and the Custom form builder.
+>* The `planning` keyword is available only from Workfront Planning.
+
+
+
+
+

@@ -12,22 +12,9 @@ exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
->[!IMPORTANT]
->
-><span class="preview">This article lists the features that were released during the early phase for Workfront Planning, in 2024, prior to the general availability release on August 28, 2024.</span>
->
->The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
->
->You must purchase a Workfront Planning plan, in addition to a Workfront plan to be able to access and use Workfront Planning capabilities. 
->
->For a complete list of requirements to access Workfront Planning, see [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
->For an overview of Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
->
+This article lists the features that were released during the early phase for Workfront Planning, in 2024, prior to the general availability release on August 28, 2024.
 
-For more information about Workfront Planning releases, also see the following articles: 
-
-* [Adobe Workfront Planning release activity for 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md) for features released during the beta release, during 2023.
-* [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) for features currently released to Workfront Planning, after it was made general available on August 28, 2024. 
+For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Workfront Planning release timeline
 
@@ -722,7 +709,7 @@ The following actions are available from the Planning section in Workfront:
 
 * Open the details preview box or page to view more information about the connected records
 
-For information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).  
+For information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).  
 
 ## Week of May 13, 2024
 

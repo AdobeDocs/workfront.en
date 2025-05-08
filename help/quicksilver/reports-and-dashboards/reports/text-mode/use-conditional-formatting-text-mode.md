@@ -9,11 +9,7 @@ exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
 ---
 # Use conditional formatting in Text Mode
 
-<!--Audited: 01/2024-->
-
-<!--
-(NOTE: Alina: this article might need to be split in its sections. Tony asked that numbers and dates should be in separate articles (??))
--->
+<!--Audited: 01/2025-->
 
 The standard interface builder provides a great range of flexibility when creating reporting elements to meet the needs in your organization.
 
@@ -24,7 +20,7 @@ For more information about applying conditional formatting to a view, see [Use c
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
+You must have the following:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,13 +32,19 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Standard </p> 
-   <p>Or</p>
-   <p>Current: Plan</p> 
-   </td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to Reports, Dashboards, Calendars to edit views in a report</p> </td> 
   </tr> 
   <tr> 
@@ -52,10 +54,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
-
 
 ## Conditional formatting in Text Mode
 
@@ -116,126 +117,11 @@ Dates can be configured to display in various formats.
 
 For more information, see [Format dates in text mode reports](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is drafted and replaced by the article linked above)</p>
-<p>To establish a date format, you must modify the <code>valueformat</code> line of the text mode code in the column.</p>
-<pre>valueformat= [new date format]</pre>
-<p>For example, if you wanted the Projected Completion Date to be displayed as MM/DD/YY the code would look like:</p>
-<pre>valueformat=atDate<br>valuefield=projectedCompletionDate </pre>
-<p>If you wanted to show the Planned Completion Date as <em>Mth, DD, Year</em>, the code would look like:</p>
-<pre>valueformat=mediumAtdate<br>valuefield=plannedCompletionDate</pre>
-<p>You can format dates using the following <code>valueformat</code> text mode values:</p>
-<table style="table-layout:auto">
-<col>
-<col>
-<col>
-<thead>
-<tr>
-<th scope="col"><strong>Format</strong> </th>
-<th scope="col">Example </th>
-<th scope="col"><em><strong>valueformat=</strong></em> </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>MM/DD/YY</td>
-<td>10/11/18</td>
-<td><pre>atDate</pre> </td>
-</tr>
-<tr>
-<td>MM/DD/YY Time</td>
-<td>10/11/18 12:00pm</td>
-<td><pre>longAtDate</pre> </td>
-</tr>
-<tr>
-<td>MM/DD/YY</td>
-<td>10/11/18</td>
-<td><pre>shortAtDate</pre> </td>
-</tr>
-<tr>
-<td>Mth, DD, YR</td>
-<td>Oct, 11, 2018</td>
-<td><pre>mediumAtDate</pre> </td>
-</tr>
-<tr>
-<td>DW, Mth, Day, YR</td>
-<td>Mon, Oct, 11, 2018</td>
-<td><pre>partialAtDate</pre> </td>
-</tr>
-<tr>
-<td>DW, Mth, Day, YR Time</td>
-<td>Mon, Oct, 11, 2018 12:00 pm</td>
-<td><pre>fullAtDate</pre> </td>
-</tr>
-</tbody>
-</table>
-</div>
--->
-
 #### Format numbers {#format-numbers}
 
 You can format numeric values to display information that best suits your reporting needs.
 
 For more information, see [Format numbers, currency and percentage values in text mode reports](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>To modify the format of a numeric value, you must edit the <strong>valueformat</strong> line of your column.</p> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is drafted and replaced by the article linked above) </p>
-<p>For example, if you wanted to display the Budget column as $1000, the value format line would look like:</p>
-<pre>valueformat=currencyStringCurrencyRounded<br>valuefield=budget</pre>
-<p>You can format numbers using the following values for the <code>valueformat</code> line of your column:</p>
-<table border="2" cellspacing="15" cellpadding="1">
-<col>
-<col>
-<thead>
-<tr>
-<th scope="col"><strong>Example</strong> </th>
-<th scope="col"><em><code>valueformat=</code></em> </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1234</td>
-<td><pre>doubleAsString</pre> or <pre>int</pre></td>
-</tr>
-<tr>
-<td>1,234</td>
-<td><pre>doubleAsInt</pre> </td>
-</tr>
-<tr>
-<td>$1,234</td>
-<td><pre>currencyStringCurrencyRounded</pre> </td>
-</tr>
-<tr>
-<td>1234.56</td>
-<td><pre>doubleAsDouble</pre> </td>
-</tr>
-<tr>
-<td>$1,234.56</td>
-<td><pre>currencyStringCurrency</pre> </td>
-</tr>
-<tr>
-<td>12%</td>
-<td><pre>doubleAsPercentRounded</pre> </td>
-</tr>
-<tr>
-<td>12.34%</td>
-<td><pre>doubleAsPercent</pre> </td>
-</tr>
-<tr>
-<td>(1,234.56)</td>
-<td><pre>doubleAsFinancial</pre> </td>
-</tr>
-<tr>
-<td>(1,234)</td>
-<td><pre>doubleAsFiancialRounded</pre> </td>
-</tr>
-</tbody>
-</table>
-</div>
--->
 
 ### Column rules {#column-rules}
 
@@ -268,7 +154,6 @@ styledef.case.0.comparison.icon=false
 styledef.case.0.comparison.truetext= 
 styledef.case.0.comparison.trueproperty.0.name= [format option]
 styledef.case.0.comparison.trueproperty.0.value= [format style]
-
 ```
 
 >[!NOTE]
@@ -291,7 +176,6 @@ styledef.case.0.comparison.icon=false
 styledef.case.0.comparison.truetext=
 styledef.case.0.comparison.trueproperty.0.name=textcolor
 styledef.case.0.comparison.trueproperty.0.value=03a219
-
 ```
 
 >[!NOTE]
@@ -299,9 +183,10 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* While this statement could be applied to a Company Name column, it could also be applied to any other column on the report. Green text would only be displayed if the project had a Company associated with it. Remember the `[field name]`, `[value]`, and `[qualifier]` drive whether or not the conditioning ultimately displays on the column.
 >* When working with qualifiers, we recommended using `cicontains` rather than `equal`. By default, `equal` looks for ID numbers. Using the `cicontains` qualifier, you can access items by their name.
 
-![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
+![Text mode example](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png)
+
+![Text mode example results](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
 
 Whether Text Color, Alignment, Font Style, or Background Color are applied to a text mode, the same statement (shown above) is used.
 
@@ -374,7 +259,6 @@ styledef.case.0.comparison.trueproperty.0.name=textcolor
 styledef.case.0.comparison.trueproperty.0.value=03a219
 styledef.case.0.comparison.trueproperty.1.name=fontstyle
 styledef.case.0.comparison.trueproperty.1.value=bold
-
 ```
 
 >[!NOTE]
@@ -402,21 +286,19 @@ styledef.case.0.comparison.operator=ne
 styledef.case.0.comparison.operatortype=date&
 styledef.case.0.comparison.icon=false
 styledef.case.0.comparison.truetext=not today
-
 ```
 
 >[!NOTE]
 >
 >The lines that start with `case.0.` use case comparisons to identifying the use of text. The lines that start with `styledef.case.0.` are early conditional formatting statements where we identify the use of text through the `truetext` expression. Make sure to set `truetext` to a value, rather than leaving it blank.
 
-![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png)
+![Apply text example](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png)
+![Apply text results](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
 
 #### Apply row formats {#apply-row-formats}
 
 If you would like to apply a condition to the entire row, use the following code with your column code:
-
 
 ```
 styledef.case.0.comparison.icon=false
@@ -440,9 +322,7 @@ row.0.styledef.case.0.comparison.righttext= [field value]
 row.0.styledef.case.0.comparison.trueproperty.0.name= [format option]
 row.0.styledef.case.0.comparison.trueproperty.0.value= [format style]
 row.0.styledef.case.0.comparison.truetext=
-
 ```
-
 
 #### Apply images {#apply-images}
 
@@ -456,11 +336,9 @@ image.case.0.comparison.operator= [qualifier]
 image.case.0.comparison.operatortype= [data type]
 image.case.0.comparison.icon=true
 image.case.0.comparison.truetext=
-
 ```
 
 For example, on a project report, you want to build a column where you would show a frown face for every Planned Completion Date that does not equal to today's date. Use the following text mode code to add the icon to your column:
-
 
 ```
 image.case.0.comparison.leftmethod=plannedCompletionDate
@@ -470,37 +348,36 @@ image.case.0.comparison.operator=ne
 image.case.0.comparison.operatortype=date
 image.case.0.comparison.icon=true
 image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif
-
 ```
 
 >[!NOTE]
 >
 >Notice that the statement uses the `icon=true` expression. This statement is also different from other conditional formatting statements in that it does not use the `style.def` format, but rather a unique image format.
 
-![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png)
+![Icon text mode](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png)
+![Icon text mode results](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
 
 To use the images available, apply the following code and values:
 
 | **Icon** |**Line: image.case.0.comparison.truetext=** |
 |---|---|
-| Frown Face ![](assets/face-sad.png)|=`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
-| Happy Face ![](assets/face-happy.png)|=`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
-| Blue Flag  ![](assets/flag-blue-large.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
-| Green Flag  ![](assets/flag-green-large.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
-| Red Flag  ![](assets/flag-red-style2.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
-| Yellow Flag  ![](assets/flag-yellow-style2.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
-| Black Circle  ![](assets/dot-black.png)|=`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
-| Blue Circle ![](assets/dot-blue.png)|=`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
-| Grey Circle ![](assets/dot-gray.png)|=`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
-| Green Circle ![](assets/dot-green.png)|=`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
-| Orange Circle ![](assets/dot-orange.png)|=`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
-| Pink Circle ![](assets/dot-pink.png)|=`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
-| Purple Circle ![](assets/dot-purple.png)|=`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
-| Red Circle ![](assets/dot-red.png)|=`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
-| White Circle ![](assets/dot-white.png)|=`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
-| Yellow Circle ![](assets/dot-yellow.png)|=`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
+| Frown Face ![Frown face](assets/face-sad.png)|=`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
+| Happy Face ![Happy face](assets/face-happy.png)|=`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
+| Blue Flag  ![Blue flag](assets/flag-blue-large.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
+| Green Flag  ![Green flag](assets/flag-green-large.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
+| Red Flag  ![Red flag](assets/flag-red-style2.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
+| Yellow Flag  ![Yellow flag](assets/flag-yellow-style2.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
+| Black Circle  ![Black circle](assets/dot-black.png)|=`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
+| Blue Circle ![Blue circle](assets/dot-blue.png)|=`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
+| Grey Circle ![Grey circle](assets/dot-gray.png)|=`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
+| Green Circle ![Green circle](assets/dot-green.png)|=`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
+| Orange Circle ![Orange circle](assets/dot-orange.png)|=`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
+| Pink Circle ![Pink circle](assets/dot-pink.png)|=`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
+| Purple Circle ![Purple circle](assets/dot-purple.png)|=`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
+| Red Circle ![Red circle](assets/dot-red.png)|=`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
+| White Circle ![White circle](assets/dot-white.png)|=`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
+| Yellow Circle ![Yellow circle](assets/dot-yellow.png)|=`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
 {style="table-layout:auto"}
 
@@ -532,7 +409,6 @@ Consider the following when adding aggregators to a column in Text Mode:
 ```
   valuefield=workRequired
   valueformat=compound
-
 ```  
   
   When you want to aggregate the values of all the lines in the grouping of the view, we can add the following code to add the aggregator values: 

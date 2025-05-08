@@ -36,6 +36,11 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>accessorIDs</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>actualWorkPerDayStartDate</td> 
   </tr> 
   <tr> 
@@ -61,12 +66,22 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td> categoryID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td> classifierID </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
    <td> customerID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> financeLastUpdateDate </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -86,9 +101,23 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td> lastUpdateDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> lastUpdatedByID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td> objCode </td> 
   </tr> 
   <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objectCategories </td> 
+  </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 

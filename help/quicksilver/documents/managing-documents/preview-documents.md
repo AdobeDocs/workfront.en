@@ -48,8 +48,20 @@ You must have the following:
 
 ## Preview a document
 
+You can preview a document in Workfront. 
+
 1. In a document list, hover over the row containing the document , then click **Document Details**.
 1. On the page that appears, click the document's thumbnail image.
 
    * If you have not prepared the document for review, it displays in a new browser tab.
    * If you have prepared the document for review, the proofing viewer opens to display it.
+
+The following file formats are unable to display in the preview window:
+
+* .mp4
+* .gif
+* .jpeg
+* .png
+* .tiff
+* .plain
+* .pdf

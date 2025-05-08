@@ -13,11 +13,11 @@ We are making two changes to the way Adobe Workfront sends and receives email wi
 
 ## Outbound Email from Workfront
 
-In an effort to increase successful delivery of emails, we will be eliminating spoofing of emails, which is often tagged as spam (see Email spoofing). All email from Workfront will be sent from notifications@my.workfront.com, including both automated alerts and user to user communication. An example email from Joan Harris will look like this in the from area of your email:
+In an effort to increase successful delivery of emails, we will be eliminating spoofing of emails, which is often tagged as spam (see Email spoofing). All email from Workfront will be sent from `notifications@my.workfront.com`, including both automated alerts and user to user communication. An example email from Joan Harris will look like this in the from area of your email:
 
-![](assets/noreply.png)
+![Example email](assets/noreply.png)
 
-*We highly recommend that you reach out to your IT team* to ensure that email from notifications@my.workfront.com is not going to be blocked for incoming email to your system. You can also reference [Configure your firewall's allowlist](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) for details about which IP addresses our traffic and email come from.
+*We highly recommend that you reach out to your IT team* to ensure that email from `notifications@my.workfront.com` is not going to be blocked for incoming email to your system. You can also reference [Configure your firewall's allowlist](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) for details about which IP addresses our traffic and email come from.
 
 ## Inbound Email Replies to Notifications (POP Reply)
 
@@ -25,4 +25,4 @@ Certain email notifications allow users to reply via email and have the reply be
 
 There will be no change to emails coming directly from the Workfront Proof system. You will continue to receive those emails as you have in the past.
 
-If you have any other questions or concerns, please contact the [Workfront Support Team](https://one.workfront.com/s/support?language=en_US).
+If you have any other questions or concerns, please contact the [Workfront Support Team](https://experienceleague.adobe.com/?support-tab=home#support).

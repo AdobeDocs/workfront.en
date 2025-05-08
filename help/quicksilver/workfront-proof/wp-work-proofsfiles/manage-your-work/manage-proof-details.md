@@ -27,10 +27,10 @@ To find out how to manage Automated Workflow proofs, see [Manage a proof configu
 ## Opening the Proof Details Page from the proofing viewer
 
 1. if the left toolbar is not showing, click the **[!UICONTROL Menu]** icon, located in the upper-left corner.\
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![Proofing viewer menu](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. Mouse over the left toolbar, then click **[!UICONTROL Proof details]**.\
-   ![](assets/proof-details-in-proofing-viewer-350x215.png)
+   ![Proofing viewer details](assets/proof-details-in-proofing-viewer-350x215.png)
 
    >[!NOTE]
    >

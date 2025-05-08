@@ -15,7 +15,7 @@ The [!UICONTROL My Work] section of the [!UICONTROL Home] area displays your tas
 >
 >[!UICONTROL My Work] in the mobile app is separate from [!UICONTROL My Work] on the desktop version of [!UICONTROL Adobe Workfront].
 
-![](assets/home-myworksection-338x379.png)
+![My Work](assets/home-myworksection-338x379.png)
 
 ## Customize the [!UICONTROL My Work] section
 
@@ -30,4 +30,4 @@ You can choose which menu items to display in [!UICONTROL My Work] and change th
    >
    >The [!UICONTROL Tasks and Issues] menu item is always displayed and you can't hide it.
 
-   ![](assets/mobile-settings-338x366.png)
+   ![Mobile settings](assets/mobile-settings-338x366.png)

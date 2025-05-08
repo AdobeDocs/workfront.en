@@ -9,11 +9,7 @@ exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
 ---
 # Edit a filter using text mode
 
-<!-- Audited: 01/2024 -->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)</p>
--->
+<!-- Audited: 1/2025 -->
 
 You can edit a filter in a list or report using text mode to access fields that are not available in the standard interface and create more complex filters.
 
@@ -23,7 +19,7 @@ For more text-mode examples when creating a filter, also see the section [Sample
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
+You must have the following:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,9 +31,16 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-    <p>or</p>
-    <p>Current: Plan</p> </td> 
+   <td> 
+      <p>New:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Current:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -50,7 +53,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -78,12 +81,20 @@ For information about creating a report, see [Create a custom report](../../../r
 
 1. Do one of the following:
 
-   1. To access the filter from a report, go to the report, then click&nbsp;**Report Actions** > **Edit** > **Filters** tab.
-   1. To access the filter from a list, go to the list and from the **Filter** menu, hover over the filter that you want to modify and click the **Edit** icon ![](assets/edit-icon.png).
+   To access the filter from a list, go to the list and click the **Filter** icon, then hover over the filter in the side **Filters** side panel that you want to modify and click the **Edit** icon ![Edit icon](assets/edit-icon.png). Either the **Filters** side panel displays your selected filter or the legacy filter builder opens.
 
-      The filter builder opens.
+   OR
 
-1. Click **Add a Filter Rule** to start adding the conditions of your filter, then click **Text mode** or **Switch to Text Mode** on the right side of the builder.
+   To access the filter from a report, go to the report, then click **Report Actions** > **Edit** > **Filters** tab.
+
+1. Do one of the following:
+
+   If you are using the **Filters** side panel on a list, click **Text mode**.
+
+   OR
+
+   If you are using the legacy filter builder or in a report, click **Add a Filter Rule** to start adding the conditions of your filter. Then, click **Switch to Text Mode** then **Edit Text Mode** on the right side of the builder.
+
 1. Add filter statements using text mode. Each filter statement may contain the following lines and additional information:
 
    <table style="table-layout:auto"> 
@@ -169,7 +180,7 @@ For information about creating a report, see [Create a custom report](../../../r
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. Click **Exit text mode** or **Done** to save your text mode changes and continue editing the report or the filter.
+1. Click **Apply** or **Done** to save your text mode changes and continue editing the report or the filter.
 1. Click **Save + Close** to save your report or **Save Filter** to save the filter in the list.
 
 

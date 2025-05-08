@@ -10,9 +10,9 @@ recommendations: noDisplay, noCatalog
 
 # Records: article index
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -21,9 +21,13 @@ After you create record types in Adobe Workfront Planning, you can create indivi
 The following articles describe how you can create and manage records and their information in Adobe Workfront Planning:
 
 * [Create records](/help/quicksilver/planning/records/create-records.md)
+* [Create records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)
+* [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+* [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md)
+* [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [Edit records](/help/quicksilver/planning/records/edit-records.md)
 * [Delete records](/help/quicksilver/planning/records/delete-records.md)
-* <span class="preview">[Restore deleted records](/help/quicksilver/planning/records/restore-deleted-records.md)</span>
+* [Restore deleted records](/help/quicksilver/planning/records/restore-deleted-records.md)
 * [Share records](/help/quicksilver/planning/records/share-records.md)
 * [Connected records overview](/help/quicksilver/planning/records/connected-records-overview.md)
 * [Connect records](/help/quicksilver/planning/records/connect-records.md)

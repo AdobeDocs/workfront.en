@@ -60,8 +60,8 @@ For more detail about the information in this table, see [Access requirements in
 
    Items are sorted by the Restore Date by default.
 
-1. Click the **Projects**, **Tasks**, **Issues**, or **Documents** tab, depending on the type of item that was restored.
+1. Click the **Projects**, **Tasks**, **Issues**, **Documents**, or **Templates** tab, depending on the type of item that was restored.
 
 1. Click the linked name of the item that you want to view.
 
-   The project, task, issue, or document is displayed.
+   The project, task, issue, document, or template is displayed.

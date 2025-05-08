@@ -21,7 +21,7 @@ To more easily share the status and progress of a project, you can now export th
 
 For more information, see [Overview of project metrics](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-This feature is now included in the [Planner Fundamentals for the new Workfront experience, Part 3: Manage a Project](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) learning path on Workfront One.
+This feature is now included in the [Planner Fundamentals for the new Workfront experience, Part 3: Manage a Project](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
 ## Update issue percent complete when the project or task converted from the issue update
 
@@ -35,9 +35,9 @@ To allow you to manage your Submitted Requests in an easier, more consistent way
 
 For information about how to locate submitted requests, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.
+This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) learning path on Workfront One.
 
-This feature is now included in the [Requests in the new Workfront experience](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E) learning path on Workfront One.
+This feature is now included in the [Requests in the new Workfront experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) learning path on Workfront One.
 
 ## Fields removed from the New Request page
 

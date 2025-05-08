@@ -9,7 +9,7 @@ exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
 ---
 # 22.2 Release overview
 
-This page provides information about functionality that is included in the 22.2 release. All features listed are available in the new Adobe Workfront experience. Some features are also available in Adobe Workfront Classic; however, [Workfront Classic will be discontinued in March 2022](https://one.workfront.com/s/new-workfront-experience), followed shortly by the end-of-life date for Workfront Classic in July 2022.
+This page provides information about functionality that is included in the 22.2 release. All features listed are available in the new Adobe Workfront experience. Some features are also available in Adobe Workfront Classic; however, [Workfront Classic will be discontinued in March 2022](https://experienceleague.adobe.com/en/docs/workfront/using/home), followed shortly by the end-of-life date for Workfront Classic in July 2022.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -109,7 +109,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">New default access level configurations</a> </p> <p>To better suit the needs of most administrators who create access levels, we've changed the default configuration for several of the “Fine-tune your settings” options that display when you click the gear icon on an Edit button.</p> <p>The options, previously enabled by default, are now disabled. If this doesn't suit the needs of your organization, you can enable them when you are setting up a new access level, or any time later.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">New default access level configurations</a> </p> <p>To better suit the needs of most administrators who create access levels, we've changed the default configuration for several of the "Fine-tune your settings" options that display when you click the gear icon on an Edit button.</p> <p>The options, previously enabled by default, are now disabled. If this doesn't suit the needs of your organization, you can enable them when you are setting up a new access level, or any time later.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: January 27, 2022<br></p> </li> 
@@ -117,7 +117,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Available in these environments:</strong> </p> 
     <ul> 
      <li> <p>The new Adobe Workfront experience </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic will be discontinued in March 2022</a>, followed shortly by the end-of-life date for Workfront Classic in July 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic will be discontinued in March 2022</a>, followed shortly by the end-of-life date for Workfront Classic in July 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -285,7 +285,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Available in these environments:</strong> </p> 
     <ul> 
      <li> <p>The new Adobe Workfront experience </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic will be discontinued in March 2022</a>, followed shortly by the end-of-life date for Workfront Classic in July 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic will be discontinued in March 2022</a>, followed shortly by the end-of-life date for Workfront Classic in July 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -297,7 +297,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Available in these environments:</strong> </p> 
     <ul> 
      <li> <p>The new Adobe Workfront experience </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic will be discontinued in March 2022</a>, followed shortly by the end-of-life date for Workfront Classic in July 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic will be discontinued in March 2022</a>, followed shortly by the end-of-life date for Workfront Classic in July 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -351,7 +351,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>Available in these environments:</strong> </p> 
     <ul> 
      <li> <p>The new Adobe Workfront experience </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic will be discontinued in March 2022</a>, followed shortly by the end-of-life date for Workfront Classic in July 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic will be discontinued in March 2022</a>, followed shortly by the end-of-life date for Workfront Classic in July 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -578,7 +578,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ## Workfront Fusion enhancements
 
-New features in Workfront Fusion are available in Production at a cadence outside of the 22.2 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+New features in Workfront Fusion are available in Production at a cadence outside of the 22.2 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Workfront Scenario Planner enhancements
 
@@ -614,7 +614,7 @@ For information on API versions, see [API versioning and support schedule](../..
 
 ## Workfront Maintenance Updates
 
-For information about the maintenance updates made during the 22.2 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+For information about the maintenance updates made during the 22.2 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ## 22.2 Release Webinar
 
@@ -647,7 +647,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## Training updates
 
-Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://one.workfront.com/s/training-release-updates).
+Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Functionality no longer supported
 

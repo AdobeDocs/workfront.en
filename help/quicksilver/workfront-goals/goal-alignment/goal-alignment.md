@@ -2,14 +2,16 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Review the following articles to understand how to align goals in Workfront Goals.
-description: Learn about aligning goals in Adobe Workfront in the following articles. 
+title: "Goal Alignment in Adobe Workfront Goals: Article Index"
+description: Ensuring that all the goals in your enterprise from any level are aligned to each other and to the overall strategy is an important step in your organization's success. Learn about aligning goals in Adobe Workfront in the following articles. 
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
 ---
-# Goal alignment in Adobe Workfront Goals
+# Goal alignment in Adobe Workfront Goals: article index
+
+<!--Audited P&P only: 4/2025-->
 
 >[!NOTE]
 >
@@ -18,11 +20,6 @@ exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
 >* For the new plan and license structure:    
 >    
 >   * An Ultimate plan     
->        
->     Or    
->        
->   * An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. 
->       For more information, see [Adobe Workfront pricing and packaging](https://www.workfront.com/plans).   
 >      
 >* For the current plan and license structure:     
 >    

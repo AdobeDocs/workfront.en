@@ -55,7 +55,7 @@ For more detail about the information in this table, see [Access requirements in
 {{step-1-to-setup}}
 
 1. Click **Teams** in the left panel.
-1. Select a team, then click **Edit** ![](assets/edit-icon.png).
+1. Select a team, then click **Edit** ![Edit icon](assets/edit-icon.png).
 
 1. Make any of the following changes:
 

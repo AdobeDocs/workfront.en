@@ -13,10 +13,10 @@ With the 20.3 release (targeted for August 2020), Adobe Workfront is moving to a
 
 This feature is accessed by logging in as a System Administrator and navigating to Setup > Email > Setup. Here is a screenshot highlighting the feature:
 
-![](assets/email-server-settings-350x226.png)
+![Email server settings](assets/email-server-settings-350x226.png)
 
 The setting highlighted in this screenshot will automatically transition to use the Workfront Mail Server option with the 20.3 release.
 
 If you have configured a custom SMTP mail server, **we highly recommend that you reach out to your IT team** to ensure that email from notifications@my.workfront.com is not going to be blocked for incoming email to your system. You can also reference Configuring your firewall for details about which IP addresses our traffic and email come from.
 
-If you have any other questions or concerns please contact the [Workfront Support Team](https://one.workfront.com/s/support?language=en_US).
+If you have any other questions or concerns please contact the [Workfront Support Team](https://experienceleague.adobe.com/?support-tab=home#support).

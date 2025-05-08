@@ -90,7 +90,7 @@ For more information, see [Configure system-wide project preferences](/help/quic
 
 ## Deactivate a group from the Groups page
 
-Recently, we added the ability to deactivate and reactivate groups. To make that action quicker and easier, we have added it to a group's page. Now, after you click a group's name to go to its page, you can select the More menu ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) next to the group's name, then select Deactivate or Reactivate.
+Recently, we added the ability to deactivate and reactivate groups. To make that action quicker and easier, we have added it to a group's page. Now, after you click a group's name to go to its page, you can select the More menu ![Main menu icon](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) next to the group's name, then select Deactivate or Reactivate.
 
 Previously, you could deactivate or reactivate a group only by using the Is active check box on its Details page.
 

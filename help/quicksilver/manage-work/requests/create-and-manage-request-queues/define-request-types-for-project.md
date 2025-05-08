@@ -3,7 +3,7 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Define Request Types for a Project
 description: You can organize the kind of issues or requests that are logged in Adobe Workfront by Request Types.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
 ---
@@ -15,7 +15,7 @@ This organization is useful for reporting reasons and for helping users understa
 
 ## Access requirements
 
-+++
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 

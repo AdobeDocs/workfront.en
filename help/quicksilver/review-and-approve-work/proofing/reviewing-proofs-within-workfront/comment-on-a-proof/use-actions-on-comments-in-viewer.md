@@ -61,7 +61,7 @@ To apply an action to an existing comment in the proofing viewer:
 
    * Click the flag icon in the lower-right corner of the comment,&nbsp;then click the action you want in the drop-down menu.
 
-     ![](assets/actions-flag-icon-350x198.png)
+     ![Actions flag icon](assets/actions-flag-icon-350x198.png)
 
    * Click the **More** icon (three horizontal dots on the comment),&nbsp;then click the action you want in the lower section of the drop-down menu that appears.
 

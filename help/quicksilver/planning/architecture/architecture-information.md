@@ -25,6 +25,7 @@ The articles in the following sections describe how you can configure the Adobe 
 * [List of workspace templates](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [Record types overview](/help/quicksilver/planning/architecture/overview-of-record-types.md)
 * [Create record types](/help/quicksilver/planning/architecture/create-record-types.md)
+* [Create Record Types by importing information from a CSV or Excel file](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)
 * [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md)
 * [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 * [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
@@ -32,4 +33,6 @@ The articles in the following sections describe how you can configure the Adobe 
 * [Delete workspaces](/help/quicksilver/planning/architecture/delete-workspaces.md)
 * [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md)
+
+<!--* [Create record types globally](/help/quicksilver/planning/architecture/create-record-types-globally.md)-->
 

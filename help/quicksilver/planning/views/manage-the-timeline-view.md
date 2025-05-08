@@ -9,6 +9,10 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 ---
 # Manage the timeline view
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 {{planning-important-intro}}
 
 You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning. 
@@ -17,7 +21,7 @@ For information about record views, see [Manage record views](/help/quicksilver/
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -72,11 +76,12 @@ You must have the following access to perform the steps in this article:
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings</p> </td> 
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> </td> 
   </tr> 
 </tbody> 
 </table> 
@@ -84,65 +89,6 @@ You must have the following access to perform the steps in this article:
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++     
-
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
-
 
 ## Manage a timeline view {#manage-a-timeline-view}
 
@@ -170,7 +116,7 @@ To manage a timeline view:
 1. Go to the record type page for which you want to view the timeline. 
 1. Create a timeline view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
-    ![](assets/timeline-view-example.png)
+    ![Timeline view example](assets/timeline-view-example.png)
 
     The records associated with the record type you selected display as bars in a timeline and are sorted in chronological order of their Start Date, by default. 
 
@@ -199,9 +145,9 @@ To manage a timeline view:
 
 1. Do the following to quickly find records that match a keyword:
 
-    1. Click the **Search** icon ![](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the record with the correct match is highlighted.
+    1. Click the **Search** icon ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the record with the correct match is highlighted.
 
-        ![](assets/search-box-and-results-timeline-view.png)
+        ![Search box and results timeline view](assets/search-box-and-results-timeline-view.png)
 
         You can use any word or special character that is visible on the screen.
 
@@ -275,7 +221,7 @@ To add a grouping in the timeline view:
 1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 1. Click **Grouping** in the upper-right corner of the timeline view.
 
-    ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
+    ![Grouping UI timeline view with linked fields](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list. 
 
@@ -289,7 +235,7 @@ To add a grouping in the timeline view:
 
     <!-- update screen shot with view redesign-->
 
-    ![](assets/grouping-applied-in-timeline-view.png)
+    ![Grouping applies in timeline view](assets/grouping-applied-in-timeline-view.png)
 
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
@@ -320,7 +266,7 @@ Update the timeline view settings to indicate what and how information displays 
     >
     >Records that have no values for the Start or the End dates or have a Start date later than the End date do not display in the timeline view.
 
-1. Click **Bar style** in the left panel, to indicate what fields you want to display on the record bars. 
+1. Click **Bar style** in the left panel, to indicate what information you want to display on the record bars. 
 
     The primary field (or title) of the record, as defined in the record's table view, is selected by default. <!--adjust this when the primary field is released??-->
 
@@ -330,22 +276,34 @@ Update the timeline view settings to indicate what and how information displays 
     >
     >    You must first add thumbnails in the table view before you can display them in the timeline view. For more information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md). 
 
-1. Click **Add field** to add up to 4 fields to the record bars.
-1. Click inside the **Search fields** box, and click the field you want to add. 
+1. Click **Add field**, then click inside the **Search fields** box, and click the field you want to add. 
 
     >[!TIP]
     >
     >   * You must create the fields before you can add them to the record bars. 
     > 
     >   * You must have at least one field selected. **Name** is selected by default.
+    >
+    >   * You can add up to 5 fields. 
 
     A preview of what the bars will look like on the timeline displays on the right.
 
-    ![](assets/record-details-panel-timeline-settings-with-preview.png)
+    ![Record details panel timeline settings with preview](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. <span class="preview">(Optional and conditional) If you display the timeline in the Standard mode, enable the **Truncate bar details** setting. When enabled, the information on the record bars is truncated, and only displays fully when you hover over the bars. This setting is disabled by default, and the information is fully displayed on the bars. </span>
+
+    ![Truncate setting enabled on timeline settings box highlighted](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
+
+    >[!TIP]
+    >
+    >* <span class="preview">The Truncate bar details setting is not available when displaying the timeline view in Compact mode, and it is not available in the Calendar view.</span>
+    >
+    >* <span class="preview">If you break down the timeline view to display connected objects, the Truncate bar details setting applies only to the main record type. It does not apply to the connected record bars.</span> 
+
 
 1. Click **Color** in the left panel, to customize the colors of the records and groupings in the timeline. 
 
-    ![](assets/color-tab-timeline-view.png)
+    ![Color tab timeline view](assets/color-tab-timeline-view.png)
 
 1. (Conditional and optional) If you added a grouping to the timeline view, select from the following options to set a color for the grouping in the **Set grouping color** section:
 
@@ -376,7 +334,7 @@ Update the timeline view settings to indicate what and how information displays 
 
 1. (Conditional) If you selected **Field values** for the record colors, select a field from the **Match the record color to** drop-down menu. 
 
-    ![](assets/field-selector-drop-down-menu-timeline-view.png)
+    ![Field selector drop-down menu in timeline view](assets/field-selector-drop-down-menu-timeline-view.png)
 
     Only fields with color-coded options display in the drop-down menu.
     
@@ -388,7 +346,7 @@ Update the timeline view settings to indicate what and how information displays 
 
     The records display in the timeline view with the specifications that you selected.
 
-### Use the Breakdown feature to display connected records in the timeline view
+### Break down connected records in the timeline view
 
 You can display connected records in a record's timeline view by using the Breakdown feature. Breaking down records by their connections allows you to view the timelines of other connected records and understand how they might affect the performance and deadlines of your records. 
 
@@ -412,13 +370,13 @@ You can display connected records in a record's timeline view by using the Break
 * The Start and End dates of the record types you want to display in the timeline view must by in chronological order. For example, if a record has a Start date of January 31 and an End date of January 1, it does not display in the timeline view. For more information, see the section [Manage a timeline view](#manage-a-timeline-view) in this article. 
 * There is a limit of 5 record types that you can include in a record's breakdown. 
 
-#### Break down connected records in the timeline view
+#### Break down connected records
 
 1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 1. (Conditional) If you are viewing the timeline view in the Standard mode, click **Breakdown**.
 1. Expand the **Select a linked record type** box and select a connected record type. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-    ![](assets/breakdown-picker-and-button-on-timeline.png)
+    ![Breakdown picker and button on timeline view](assets/breakdown-picker-and-button-on-timeline.png)
 
     >[!TIP]
     >
@@ -433,7 +391,7 @@ You can display connected records in a record's timeline view by using the Break
     A right-pointing arrow displays on the selected record's bar in the timeline, if they they are connected with other records. 
 1. Click the right-pointing arrow to expand a record type and display is connections. 
 
-    ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)    
+    ![Campaigns broken down by programs in the timeline view](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)    
 
 1. (Optional) Repeat the steps above to add more connected records. 
 

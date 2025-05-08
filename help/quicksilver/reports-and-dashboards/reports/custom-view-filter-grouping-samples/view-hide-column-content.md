@@ -19,7 +19,6 @@ You might want to hide information in the column of a view. You can do this by m
 >* You can use hidden columns to sort by a certain object that you do not want to display in the view.  
 >  For example, you can sort by Task Number in a task view and hide the Task Number information from the view. In this case, the object referenced in the column helps sorting the view, but the information of that object does not display in the view.
 >* When you hide a column, note that the information in the column is hidden, but the column still exists in the view.
->
 
 ## Access requirements
 
@@ -37,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New:<ul><li>Contributor to modify a view</li><li>Standard to modify a report</li></ul></p><p>Or</p>Current:<ul><li>Request to modify a view</li><li>Plan to modify a report</li></ul></p> </td> 
+   <td> <p>New:<ul><li>Contributor to modify a view</li><li>Standard to modify a report</li></ul></p><p>Current:<ul><li>Request to modify a view</li><li>Plan to modify a report</li></ul></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -61,7 +60,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click **Add Column** and start typing "Task Number" in the **Show in this column** field then select it when it displays in the list.
 
-1. Click **Switch to Text Mode**, then **Edit Text**.
+1. Click **Switch to Text Mode**, then **Edit Text Mode**.
 1. Remove the text you find in the **Edit Text Mode** box, and replace it with the following code:
 
     ```
@@ -74,13 +73,12 @@ For more detail about the information in this table, see [Access requirements in
     value=
     valueformat=int
     width=0
-    
     ```
 
    The important changes in this code which make the column hidden are:
 
-    * `displayname=`: This line must be  blank. 
-    * `valuefield=`: This has been replaced by `value`, and must be blank.
+    * `displayname=`: This line must be blank. 
+    * `valuefield=`: This line must be replaced by `value=`, which must be blank.
     * `width=`: Depending on the field, this must have a value of **0** or **1**.
 
 1. Click **Done**, then **Save View**.

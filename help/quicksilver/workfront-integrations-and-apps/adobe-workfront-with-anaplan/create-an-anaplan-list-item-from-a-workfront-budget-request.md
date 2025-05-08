@@ -44,7 +44,7 @@ You must have the following access to use the functionality in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-&#42;&#42;For information on[!DNL  Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;For information on[!DNL  Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)
 
 ## Triggering Event
 
@@ -54,7 +54,7 @@ This scenario is scheduled to execute every 15 minutes.
 
 You must have the following in [!DNL Workfront] to use this scenario:
 
-* A user profile in [!DNL Workfront] named *[!UICONTROL *[!DNL Anaplan] Integration]**, that has system administrator rights.
+* A user profile in [!DNL Workfront] named **[!DNL Anaplan] Integration**, that has system administrator rights.
 
    For information on creating a user in [!DNL Workfront], see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 

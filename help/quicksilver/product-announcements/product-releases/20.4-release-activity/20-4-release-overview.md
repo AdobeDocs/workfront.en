@@ -292,7 +292,7 @@ Most new features coming to Workfront Goals release with the 20.4 release. For i
 
 ## Workfront Fusion enhancements
 
-New features in Workfront Fusion are available in Production at a cadence outside of the 20.4 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+New features in Workfront Fusion are available in Production at a cadence outside of the 20.4 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 ## API&nbsp;enhancements
 
@@ -304,7 +304,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-For information about what's new and updated, see [What's new in API version 12](https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm).
+For information about what's new and updated, see [What's new in API version 12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
 
 For more information about API versions, see [API versioning and support schedule](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -342,7 +342,7 @@ The Workfront 20.4 Release Webinar will be presented Wednesday, October 28, 2020
 
 Starting on May 20, 2020, Workfront began to make functionality available in the Preview environment on a weekly basis. Prior to this change, functionality was typically released to the Preview environment every two weeks.
 
-For more information, see [Change in Workfront preview release cadence FAQ](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+For more information, see [Change in Workfront preview release cadence FAQ](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### Allowlist of additional domains required for accessing Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -357,4 +357,4 @@ For more information, see [Configure your firewall's allowlist](../../../adminis
 
 With Workfront One, you'll discover the most important content, resources, and news from Workfront —all in one place, with one login. We've unified the Experience, Community, and Training sites making it easier to find what you're looking for.
 
-[Learn more about Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Learn more about Workfront One](https://business.adobe.com/products/workfront.html).

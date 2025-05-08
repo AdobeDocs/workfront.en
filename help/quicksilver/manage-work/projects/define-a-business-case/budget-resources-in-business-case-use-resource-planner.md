@@ -8,6 +8,8 @@ exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
 ---
 # Budget resources in the Business Case using the Resource Planner
 
+<!--Audited: 01/2025-->
+
 As part of resource planning, you can use the project-level Resource Planner to budget the job roles necessary for completing the work in a project when you build the business case.
 
 For more information about creating a business case, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
@@ -20,37 +22,47 @@ You can also budget resources in the business case using the Adobe Workfront Sce
 
 ## Access requirements
 
-You must have the following:
+You must have the following to perform the steps in this article:
+
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Prime or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-   <td> <p>Review or higher</p> <p>Important: You must have a Plan license to modify resource budgeting information. </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Light or higher</p>
+   <p>Current: Review or higher</p> 
+   
+   <p><b>IMPORTANT:</b></p> 
+   <p>New: You must have a Standard license to modify resource budgeting information. </p> 
+   <p>Current: You must have a Plan license to modify resource budgeting information. </p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to the following: </p> 
     <ul> 
      <li> <p>Projects</p> </li> 
      <li> <p>Resource Management</p> </li> 
      <li> <p>Financial Data</p> </li> 
-    </ul> <p>For information about the access needed to budget resources, also see <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Access needed to budget resources in&nbsp;Adobe Workfront</a>.</p> <p>Note: If you still don't have access, ask your Adobe Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions on the project</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 
@@ -90,11 +102,11 @@ To apply Resource Pools and budget project resources in the Business Case for a 
 
    * Select Resource Planner in the **Choose which hours to use to calculate the Budgeted Labor Cost of the project** field, then click&nbsp;**Choose > Edit Resource Budgeting**.
 
-     ![](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     ![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)
 
    * If the Scenario Planner was selected for budgeting resources for the project, click **Change** > **Edit Resource Budgeting**.
 
-     ![](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     ![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
 
    This uses the Budgeted Hours of the project to calculate the Budgeted Labor Cost for the project.
 

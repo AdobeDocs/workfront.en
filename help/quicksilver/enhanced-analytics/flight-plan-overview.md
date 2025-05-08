@@ -10,9 +10,14 @@ exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
 ---
 # View the Flight plan visualization in Enhanced analytics
 
+>[!IMPORTANT]
+>
+>Enhanced Analytics will be removed from Workfront the week of May 26th. Workfront Data Connect is a new, alternative solution and can be used to replicate any Enhanced Analytics visualizations you currently use. <br>See the [Enhanced Analytics deprecation](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) guide for more information.
+
+
 The Flight plan visualization shows how many projects (within the applied filter criteria) were in flight, what condition changes happened throughout the life of these projects, and how closely these projects adhered to their planned completion deadlines.
 
-![](assets/flight-plan-350x132.png)
+![Flight plan](assets/flight-plan-350x132.png)
 
 ## Access requirements
 
@@ -23,7 +28,7 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront plan</a>*</td> 
    <td> <p>Business or higher</p> </td> 
   </tr> 
   <tr> 
@@ -61,11 +66,11 @@ The Flight plan visualization shows the following project details:
 
 * **Planned duration**: The horizontal blue line represents the planned length of the project, with the triangles at either end of the line indicating the start date and end date.
 
-  ![](assets/planned-duration-line-350x37.png)
+  ![Planned duration](assets/planned-duration-line-350x37.png)
 
 * **Actual duration**: The thick, colored line below the planned duration represents the actual length of the project. The color of the line changes depending on the condition of the project at that particular time in the life of the project.
 
-  ![](assets/actual-duration-line.png)
+  ![Actual duration](assets/actual-duration-line.png)
 
 * **Actual condition**: The thick, colored line also shows the condition of a project at different moments in time. The color of the line changes depending on the condition of the project:
 
@@ -73,7 +78,7 @@ The Flight plan visualization shows the following project details:
    * **Orange**: At Risk
    * **Red**: In&nbsp;Trouble
 
-  ![](assets/actual-condition-color.png)
+  ![Actual condition](assets/actual-condition-color.png)
 
 By hovering over a project row in the Flight Plan visualization, you can see information about the project's planned timeframe, the current project condition, and—if applicable—the custom condition. To get a more in-depth view of what may have affected the duration or condition, you can look at the other visualizations in the Enhanced analytics area.
 
@@ -89,10 +94,10 @@ For information on how to get the best data for this visualization, see [Enhance
 
 ## View the Flight plan visualization
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon-16x12.png), then select **Analytics**.
 1. (Optional) To use a different date range, select new start and end dates from the date range filter.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Select date range](assets/filters-select-date-range-350x344.png)
 
    For information on using the date range filter, see [Apply filters in Enhanced analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -106,7 +111,7 @@ For information on how to get the best data for this visualization, see [Enhance
 
    All other visualizations update to the same date range and a timeframe filter is created.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Timeframe filter](assets/timeframe-filter-350x220.png)
 
 1. (Optional) To change how the projects are sorted, click the **Sort by** menu in the upper-right corner of the Flight plan visualization, then select a new sorting option:
 
@@ -121,7 +126,7 @@ For information on how to get the best data for this visualization, see [Enhance
 
    All other visualizations on the page update to match your page selection.
 
-   ![](assets/pagination-350x118.png)
+   ![Pagination](assets/pagination-350x118.png)
 
 1. Hover over the project bar graph to see the blue date line, as well as the following details:
 
@@ -129,9 +134,9 @@ For information on how to get the best data for this visualization, see [Enhance
    * Current condition
    * Custom condition (if applicable)
 
-   ![](assets/project-bar-graph-350x143.png)
+   ![Project bar graph](assets/project-bar-graph-350x143.png)
 
-1. (Optional) To export the visualization data, click the **Export** icon ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
+1. (Optional) To export the visualization data, click the **Export** icon ![Export icon](assets/export.png) in the top-right corner of the visualization, then select the export format:
 
    * **Chart (PNG)** 
    * **Data Table (XSLX)**

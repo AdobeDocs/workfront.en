@@ -66,7 +66,7 @@ The page headers of areas in the new Workfront experience—such as Enhanced ana
 
 To learn more about the new object headers in the new Workfront experience, see [New object headers](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
-![](assets/product-announcement-object-header-350x179.png)
+![Object header](assets/product-announcement-object-header-350x179.png)
 
 ## Updates to object status search responses
 

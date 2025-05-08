@@ -12,7 +12,7 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -36,7 +36,7 @@ For an example of connecting record types and records, see [Example of connectin
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -100,72 +100,15 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu </p> </td> 
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p></td> 
   </tr> 
 </tbody> 
 </table> 
 
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).   
 
-<!-- OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> 
-   <p> Adobe Workfront Planning</p>
-   <p>To connect Adobe Workfront Planning record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p> 
-   <p>Current: Plan</p>
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
-
 +++
-
 
 ## Connect record types
 
@@ -181,13 +124,13 @@ You must have the following access to perform the steps in this article:
 1. Click the card of a record type to open the record type page. 
 1. Click the **+** icon in the upper-right corner of the table view, then click the **New connection** tab.
 
-    ![](assets/new-connection-tab-with-workfront-aem-options.png)
+    ![New connection tab with Workfront AEM options](assets/new-connection-tab-with-workfront-aem-options.png)
 
 1. In the **Record type** field, search for a record type, or select one of the following: 
 
     * Another record type from the current workspace
 
-        ![](assets/many-to-many-connection-picker.png)
+        ![Many to many connection picker](assets/many-to-many-connection-picker.png)
 
         >[!TIP]
         >
@@ -195,22 +138,24 @@ You must have the following access to perform the steps in this article:
         >If you don't have other record types in the selected workspace, the workspace section does not display. 
         
 
-    * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
-
-        ![](assets/new-connection-allow-multiple-records-box.png)
-
+    * A record type from another workspace that was configured to connect from other workspaces. 
+    
         >[!TIP]
         >
-        >If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
+        >The **Connect from other workspaces** setting must be enabled for a record type in the **Advanced settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
+        > ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
 
+        For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
+
+        ![New connection to allow multiple records box](assets/new-connection-allow-multiple-records-box.png)
 
     * A **Project, Portfolio, Program, Company**, or **Group** from the **Workfront Object Types** section.
 
-        ![](assets/workfront-project-connection-selection.png)
+        ![Workfront project connection selection](assets/workfront-project-connection-selection.png)
 
     * **Experience Manager Assets** from the **Adobe Applications** section. 
 
-        ![](assets/aem-assets-connection-selection.png)
+        ![AEM Assets connection selection](assets/aem-assets-connection-selection.png)
 
 1. Update the following information: 
 
@@ -225,7 +170,7 @@ You must have the following access to perform the steps in this article:
      
         This option is available only when connecting records from two different workspaces or a record and an Adobe Experience Manager asset object. 
 
-        ![](assets/new-connection-allow-multiple-records-box.png)
+        ![New connection to allow multiple records box](assets/new-connection-allow-multiple-records-box.png)
      
      * **Connection type**: Select one of the following options to indicate how many records they can connect to and from:
 
@@ -236,13 +181,13 @@ You must have the following access to perform the steps in this article:
      
         This option is available only when connecting records from the same workspace or a record and a Workfront object type.        
 
-        ![](assets/many-to-many-connection-picker.png)
+        ![Many to many connection picker](assets/many-to-many-connection-picker.png)
                 
         For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
         >[!NOTE]
         >
-        ><span class="preview"> If you select One to many or One to one for the Connection type and you later want to connect a record or an object that is already connected elsewhere, you will receive a warning that connecting it again will remove it from the original connection. You can allow the removal or select another record.</span>
+        > If you select One to many or One to one for the Connection type and you later want to connect a record or an object that is already connected elsewhere, you will receive a warning that connecting it again will remove it from the original connection. You can allow the removal or select another record.
 
      * **Select lookup fields**: Select this option to add fields from the selected record type. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are linking from. This is selected by default. 
 
@@ -265,7 +210,7 @@ You must have the following access to perform the steps in this article:
 
     >[!NOTE]
     >
-    >Your Workfront administrator can map Workfront Planning fields to Experience Manager Assets fields through the Metadata mapping in Workfront. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en). 
+    >Your Workfront administrator can map Workfront Planning fields to Experience Manager Assets fields through the Metadata mapping in Workfront. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). 
 
 1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, select one of the following options in the **Record appearance** area:
 
@@ -295,7 +240,7 @@ You must have the following access to perform the steps in this article:
   
     Click the **-** icon to remove fields from the **Selected fields** area
 
-    ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
+    ![Add lookup fields for another record type box](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
     The values for the connected fields populate automatically after you link records or objects. 
 
@@ -320,7 +265,7 @@ You must have the following access to perform the steps in this article:
     >
     >    You must select an aggregator value when adding lookup date fields, if you want the fields to be available to add as Start and End Dates for the timeline and calendar views. For example, you can select the MAX or the MIN aggregator for a lookup date field. 
 
-    ![](assets/aggregator-drop-down-for-number-linked-field.png)  
+    ![Aggregator drop down for linked number field](assets/aggregator-drop-down-for-number-linked-field.png)  
 
     >[!NOTE]
     >
@@ -350,7 +295,7 @@ You must have the following access to perform the steps in this article:
     >* **UNIQUE**: $100,000 
     >
 
-1. (Optional) Use the **search** icon ![](assets/search-icon.png) to search for a field.
+1. (Optional) Use the **search** icon ![Search icon](assets/search-icon.png) to search for a field.
 
 1. Click **Add fields** to save your changes.
 
@@ -377,7 +322,7 @@ You must have the following access to perform the steps in this article:
     * **Edit field**: Update the **Name** and the **Description** information of the field. 
     * **Edit lookup fields**: Add or remove any of the linked record's fields. 
 
-    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
+    ![Edit field and lookup fields drop-down menu in table column](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
     To add or remove lookup fields, follow the directions in steps 16-17 above. <!--ensure these step numbers stay accurate--> 
 

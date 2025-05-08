@@ -1,9 +1,9 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Create advanced assignments
+title: Create Advanced Assignments
 description: You can manage task or issue assignments by using Advanced Assignments.
-author: Alina
+author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
@@ -12,13 +12,7 @@ exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 
 <!-- Audited: 07/2024-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
-
-You can manage task or issue assignments by using Advanced Assignments.
+You can manage task or issue assignments using Advanced Assignments.
 
 You can adjust the following assignment information when making advanced assignments:
 
@@ -34,7 +28,7 @@ You can adjust the following assignment information when making advanced assignm
 
 ## Areas of Adobe Workfront where you can make advanced assignments
 
-This article describes how to access Advance Assignments in the task or issue's header.
+This article describes how to access Advanced Assignments in the task or issue's header.
 
 In addition, you can make advanced assignments in the following areas of Workfront:
 
@@ -45,7 +39,9 @@ In addition, you can make advanced assignments in the following areas of Workfro
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,7 +52,7 @@ In addition, you can make advanced assignments in the following areas of Workfro
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>New: Standard</p>
     <p>Current: Work or higher</p> </td> 
   </tr> 
@@ -71,7 +67,7 @@ In addition, you can make advanced assignments in the following areas of Workfro
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,26 +79,25 @@ In addition, you can make advanced assignments in the following areas of Workfro
    >[!TIP]
    >
    >You can make advanced assignments directly on the task or issue list if there are two or more people assigned. Click inside the **Assignments** field on the same line as the task or issue, then click the **People icon** to open the Advanced Assignments window. Skip to step 5 to continue creating advanced assignments.  
-   >![](assets/nwe-advanced-assignments-350x55.png)
-   >
+   >![Click the People icon](assets/nwe-advanced-assignments-350x55.png)
 
 1. Click **Assign to** in the **Assignments** field in the header of the task or issue
 
    Or
 
-   Click the name of the assignments if the task or issue is already assigned. 
+   Click one of the assigned names if the task or issue is already assigned.
 
 1. Click **Advanced**.
 
-   <span class="preview">![Click Advanced](assets/assignments-box-in-task-header.png)</span>
+   ![Click Advanced](assets/assignments-box-in-task-header.png)
 
-1. In the **Search people, role and teams** field, start typing the name of a user, role, or team then click the name when it appears in the drop-down list.
+1. In the **Search people, role and teams** field, start typing the name of a user, role, or team, then click the name when it appears in the drop-down list.
 
    >[!NOTE]
    >
    >If the user's name contains a special character, you must include the special character in the search field.
 
-1. (Optional) Continue adding assignees in the **Search people, role or teams** box to add multiple resources to the task or issue.
+1. (Optional) Continue adding assignees in the **Search people, role and teams** box to add multiple resources to the task or issue.
 
    >[!TIP]
    >
@@ -114,11 +109,10 @@ In addition, you can make advanced assignments in the following areas of Workfro
    >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
    >
    >
-   >* If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
+   >* If a user, job role, or team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
    >   
    >   * Reassign the work item to active resources. 
-   >   * Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
-   >
+   >   * Associate the users in a deactivated team with an active team and reassign the work item to the active team.
    
    <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
     * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
@@ -133,11 +127,7 @@ In addition, you can make advanced assignments in the following areas of Workfro
      >
      >Depending on how your Workfront administrator or group administrator set up your project preferences, Workfront might use the schedule of the task owner to calculate the timeline of the task when you have multiple users assigned to the task. For information about multiple task assignees, see the "Assign multiple users to a task" section in the article [Assign tasks](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
-   * **Allocations** : When the Duration Type of a task is Simple, specify the number of hours each user or job role should be assigned to the task. The sum of all assigned hours for each user is equal to the number in the **Planned Hours** field at the bottom of the  Allocations  column. In all other cases, specify the percentage of time (or allocation)&nbsp;that you want the assignee to spend solving the task or issue.
-
-     <!--   
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
-     -->
+   * **Allocations**: When the Duration Type of a task is Simple, specify the number of hours each user or job role should be assigned to the task. The sum of all assigned hours for each user is equal to the number in the **Planned Hours** field at the bottom of the  Allocations  column. In all other cases, specify the percentage of time (or allocation)&nbsp;that you want the assignee to spend solving the task or issue.
 
      >[!TIP]
      >   
@@ -145,7 +135,7 @@ In addition, you can make advanced assignments in the following areas of Workfro
      >   * You cannot manually modify assignment allocations on issues. 
      >   * You cannot manually modify allocations for teams assigned to tasks.
 
-   * **Assignee's Role:** Select the role the user should use when fulfilling this assignment.  The Primary Role of the user displays by default. Click in the Assignee's Role box to select another role.  When you assign the task or the issue to a role first, and then add a user who can fulfill that role as a second assignment, the list of suggested users is filtered for the users who can fulfill the roles already assigned to the task and issue.
+   * **Assignee's Role:** Select the role the user should use when fulfilling this assignment.  The Primary Role of the user displays by default. Click in the **Assignee's Role** box to select another role. When you assign the task or the issue to a role first, and then add a user who can fulfill that role as a second assignment, the list of suggested users is filtered for the users who can fulfill the roles already assigned to the task and issue.
 
      ![Assignee's Role](assets/advanced-assignments-select-role.png)
 
@@ -164,6 +154,5 @@ In addition, you can make advanced assignments in the following areas of Workfro
      For more information, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). When bulk editing assignment information, a similar dialogue box appears to assign users, hours, allocation, and task owner.
    
    * **Planned Hours**: When the Duration Type is Calculated Assignment or Simple, update the number of Planned Hours. The allocation percentages or the hours for each resource are distributed evenly as a result. Workfront calculates the Planned Hours when the Duration Type is Calculated Work or Effort Driven. For more information, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-
 
 1. Click **Save**.

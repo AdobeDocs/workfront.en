@@ -65,14 +65,14 @@ For information about viewing a list of all proofs in a specific state, such as 
 
 1. On the **[!UICONTROL Dashboard]**, click the **[!UICONTROL Expand]** arrow next to the proof you want to view or change the state of.
 
-   ![](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
+   ![Expand](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
 
    The **[!UICONTROL Workflow process]** section appears.
 
-   ![](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
+   ![Workflow process](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
 
 1. View the **[!UICONTROL State]** in the **[!UICONTROL Workflow process]**.
 
 1. (Optional) To change the state, mouse over the current **[!UICONTROL State]** and click the drop-down menu, then select a new state.
 
-   ![](assets/screen-shot-2018-05-02-at-11.35.30-am.png)
+   ![New state](assets/screen-shot-2018-05-02-at-11.35.30-am.png)

@@ -72,7 +72,7 @@ The task Planned Hours are distributed equally between all the days within the D
 
 >[!CAUTION]
 >
->The Workload Balancer displays only up to 1000 Planned Hours per work item per user, and up to 1000 days of an item's duration. The allocations in the Workload Balancer display as zero after the 1000 hour or 1000 day limit is reached. We recommend dividing tasks in smaller subtasks to accommodate a larger number of Planned Hours or for Durations of more than 1000 days.
+>The Workload Balancer only displays <!--up to 1000 Planned Hours per work item per user, and--> up to 1000 days of an item's duration. The allocations in the Workload Balancer display as zero after the 1000 day limit is reached. We recommend dividing tasks in smaller subtasks <!--to accommodate a larger number of Planned Hours or--> for durations of more than 1000 days.
 
 Consider the following when locating daily, weekly or monthly allocations for tasks or issues in the Workload Balancer:
 
@@ -185,11 +185,11 @@ As part of assigning work to users, you can modify user allocations in the Workl
    >
    >You can modify user allocations only for tasks and issues. You cannot modify user allocations for projects.
 
-1. (Optional) Click the **Show allocations** icon ![](assets/show-allocations-icon-small.png) to display allocations for all work items.
+1. (Optional) Click the **Show allocations** icon ![Show allocations icon](assets/show-allocations-icon-small.png) to display allocations for all work items.
 
    The name of the tasks and of the projects is replaced with the allocation of the user for the task or the project. 
 
-1. (Optional) Click the **Settings** icon ![](assets/gear-icon-settings.png) and select any of the following options:
+1. (Optional) Click the **Settings** icon ![Settings icon](assets/gear-icon-settings.png) and select any of the following options:
 
    1. **Include hours from issues**. This allows you to manage issue allocations in addition to task allocations. 
    1. **Show completed work**. This displays items that have been completed and are scheduled during the timeline you manage allocations for. 
@@ -206,7 +206,7 @@ As part of assigning work to users, you can modify user allocations in the Workl
       >
       >The Workfront administrator decides which schedule to use across your system for calculating user's capacity in the Resource Managament area of Setup. For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-1. Click the **More** menu ![](assets/qs-more-menu.png) for a work item, then click **Edit allocations**.
+1. Click the **More** menu ![More menu](assets/qs-more-menu.png) for a work item, then click **Edit allocations**.
 
    ![More menu for work item](assets/more-menu-on-task-wb-nwe.png)
 
@@ -216,11 +216,11 @@ As part of assigning work to users, you can modify user allocations in the Workl
    
    The allocation boxes become editable. 
 
-1. Click inside the box of each daily, weekly, or monthly allocation to manually update the amount of hours or the percentage value for which you want the user to be allocated each day, week, or month, then click the **Save** icon ![](assets/checkmark-icon.png).
+1. Click inside the box of each daily, weekly, or monthly allocation to manually update the amount of hours or the percentage value for which you want the user to be allocated each day, week, or month, then click the **Save** icon ![Save icon](assets/checkmark-icon.png).
 
    >[!TIP]
    >
-   >Click the **Cancel** icon ![](assets/cancel-allocations-wb.png) to remove the allocations you adjusted.
+   >Click the **Cancel** icon ![Cancel icon](assets/cancel-allocations-wb.png) to remove the allocations you adjusted.
 
    ![Save or cancel adjusted allocations](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 

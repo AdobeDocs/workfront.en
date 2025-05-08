@@ -21,7 +21,7 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a> </td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront plan</a> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
@@ -39,17 +39,17 @@ You must have the following:
 
 ## Configure whether proofs are automatically generated for a single user
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![Users](assets/users-icon-in-main-menu.png). 
 1. Select a user with proofing access, then click **Edit**.
 1. In the **Preferences** section, enable or disable the **Automatically generate proofs when uploading documents** checkbox.
 
-   ![](assets/autogenerate-proofs-350x216.png)
+   ![Autogenerate proofs](assets/autogenerate-proofs-350x216.png)
 
 1. Click **Save Changes**.
 
 ## Configure whether proofs are automatically generated for multiple users
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![Users icon](assets/users-icon-in-main-menu.png). 
 1. Select users with proofing access, then click **Edit**.
 
    >[!IMPORTANT]
@@ -58,7 +58,7 @@ You must have the following:
 
 1. In the **Preferences** section, enable **Automatically generate proofs when uploading documents** checkbox, then select **Yes** or **No**.
 
-   ![](assets/autogenerate-proofs-bulk-350x285.png)
+   ![Bulk autogenerate proofs](assets/autogenerate-proofs-bulk-350x285.png)
 
 1. Click **Save Changes**.
 

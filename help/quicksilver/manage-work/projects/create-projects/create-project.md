@@ -9,11 +9,13 @@ exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 ---
 # Create a project
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:this is linked from the UI from the Projects global nav section in classic. Do not change/ remove)</p>
--->
+<!--remove Preview and Production references-->
 
 <!-- Audited: 12/2023 -->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Projects represent a large amount of work that needs to be done in Adobe Workfront.
 
@@ -115,13 +117,13 @@ You can create a project in Workfront using one of the following methods:
   
   For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). For information about creating projects from publishing initiatives, see  [Update or create projects by publishing initiatives in the Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
 
-* Add projects as you connect them from a record type in Workfront Planning. You can create only projects without templates from Workfront Planning. 
+* Add projects as you connect them from a record type in Workfront Planning. In the Production environment, you can create only projects without templates from Workfront Planning. <span class="preview">You can create projects using a template in the Preview environment.</span>
 
   You must have a new Workfront license and an additional Workfront Planning license for Workfront Planning. 
 
   For information about access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
 
-  For information about creating projects by adding them to records, see the section "Create records as you connect them" in the article [Create records](/help/quicksilver/planning/records/create-records.md).  
+  For information about creating projects by adding them to records, see the section "Create projects when connecting them with records from Workfront Planning" in the article [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 ## Prerequisites
 
@@ -196,7 +198,7 @@ Consider the following:
 
    For more information about adding tasks to a project, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Edit the project details by clicking the **More** menu and then **Edit** ![](assets/qs-edit-icon.png) next to the name of the project.
+1. Edit the project details by clicking the **More** menu and then **Edit** ![Edit icon](assets/qs-edit-icon.png) next to the name of the project.
 
    The **Edit Project** dialog box opens.
 

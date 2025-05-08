@@ -63,12 +63,12 @@ You can convert an issue to a blank project.
 1. Go to a project and click **[!UICONTROL Issues]** in the left panel. 
 1. In the list of issues that displays, do one of the following:
 
-   * To convert an issue to a blank project, click the name of the issue, click the **[!UICONTROL More]** menu ![](assets/more-icon.png) to the right of the issue name, then click **[!UICONTROL Convert to a blank project]**.
+   * To convert an issue to a blank project, click the name of the issue, click the **[!UICONTROL More]** menu ![More menu](assets/more-icon.png) to the right of the issue name, then click **[!UICONTROL Convert to a blank project]**.
 
         
      Or   
       
-     Select the issue in the list of issue, click the **[!UICONTROL More]** menu ![](assets/more-icon.png) at the top of the list, then click **[!UICONTROL Convert to a blank project]**. 
+     Select the issue in the list of issue, click the **[!UICONTROL More]** menu ![More menu](assets/more-icon.png) at the top of the list, then click **[!UICONTROL Convert to a blank project]**. 
 
       >[!IMPORTANT]
       >
@@ -116,7 +116,7 @@ You can convert an issue to a blank project.
    * Review the custom forms attached to the issue. They will transfer to the new project, if they are also project custom forms.
    * Add more custom forms
    * Ensure all required fields have valid information. 
-   * Rearrange the custom forms by dragging them ![](assets/drag-object-icon.png) where you want them. 
+   * Rearrange the custom forms by dragging them ![Drag icon](assets/drag-object-icon.png) where you want them. 
    * Click the **x** icon to the right of any form that you do not want to transfer to the project. This removes the form from the project. 
    * If necessary, transfer custom form information from the issue to the project.
 
@@ -147,7 +147,7 @@ You can convert an issue to a blank project.
 You can convert an issue to a project using a template.
 
 1. Go to a project and click **[!UICONTROL Issues]** in the left panel. 
-1. In the list of issues that displays, click the name of the issue, click the **[!UICONTROL More]** menu ![](assets/more-icon.png) to the right of the issue name, then click **Convert to project from Template** and start typing the name of a template in the **Search Template** box, then click the name of the template when it displays in the list. Continue with Step 3.       
+1. In the list of issues that displays, click the name of the issue, click the **[!UICONTROL More]** menu ![More menu](assets/more-icon.png) to the right of the issue name, then click **Convert to project from Template** and start typing the name of a template in the **Search Template** box, then click the name of the template when it displays in the list. Continue with Step 3.       
       
    >[!TIP]
    >
@@ -155,7 +155,7 @@ You can convert an issue to a project using a template.
 
      The New Project from Template box displays. 
 
-     ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
+     ![New project from template](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
 
      >[!TIP]
      >
@@ -174,7 +174,7 @@ You can convert an issue to a project using a template.
    * The number of all tasks in the template
    * The names of the template custom forms
 
-1. (Optional) Mouse over the name of a template and click the **Favorites** icon ![](assets/favorites-icon-small.png) to mark it as a favorite for future use.
+1. (Optional) Mouse over the name of a template and click the **Favorites** icon ![Favorites](assets/favorites-icon-small.png) to mark it as a favorite for future use.
 
    >[!TIP]
    >
@@ -184,7 +184,7 @@ You can convert an issue to a project using a template.
 
    The [!UICONTROL Convert to Project] box opens.
 
-   ![](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+   ![Convert to project](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
 1. If a field is already populated in the template, the field is pre-populated in the [!UICONTROL Convert to project] box. You can edit the pre-populated values to better match your project. For more information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -224,7 +224,7 @@ You can convert an issue to a project using a template.
       * Review the custom forms attached to the template. They will transfer to the new project.
       * Review the custom forms attached to the issue. They will transfer to the project if they are also project forms. 
       * Ensure all required fields have valid information. 
-      * Rearrange the custom forms by dragging them ![](assets/drag-object-icon.png) where you want them. 
+      * Rearrange the custom forms by dragging them ![Drag icon](assets/drag-object-icon.png) where you want them. 
       * Click the **x** icon to the right of any form that you do not want to transfer to the project. 
       * If necessary, transfer custom form information from the issue to the project.
 

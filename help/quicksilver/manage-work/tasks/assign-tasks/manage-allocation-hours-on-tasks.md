@@ -1,17 +1,25 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Manage user and role allocation hours on tasks
+title: Manage User and Role Allocation Hours on Tasks
 description: When assigning users or roles to a task, they are allocated to work a certain number of hours to complete the task. You can manually modify the amount of hours that each user or job role is allocated when they are assigned to a task, when the task Duration Type is Simple.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
 ---
 # Manage user and role allocation hours on tasks
 
+Allocation hours represent the total amount of time an assigned resource is planned to work on a task. The hours represent the time that a user is allocated on one given day or weekday, week, or month throughout the duration of the task.
+
+>[!NOTE]
+>
+>When assigning users to work, their availability according to their schedules affects the Planned and Projected Dates of tasks and issues. For information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -22,12 +30,12 @@ exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>New: Standard </p>
    <p>Current: Work or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Tasks</p> </td> 
   </tr> 
   <tr> 
@@ -37,7 +45,7 @@ exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

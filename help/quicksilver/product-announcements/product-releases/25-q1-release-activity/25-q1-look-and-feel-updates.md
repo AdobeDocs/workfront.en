@@ -12,6 +12,18 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the First Quarter 2025 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+
+## Look-and-feel updates for editing hour entries from an hours list or report
+
+>[!NOTE]
+>
+>Preview release: January 9, 2025; Production release for all customers: With the 25.1 release (January 16, 2025)
+
+We have updated the look and feel of the Edit hour box, when editing hours from an hours list or report to match the design of other areas of Workfront. 
+
+For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+
 ## Updated experience on the Cloud Providers page in the Setup area
 
 >[!NOTE]

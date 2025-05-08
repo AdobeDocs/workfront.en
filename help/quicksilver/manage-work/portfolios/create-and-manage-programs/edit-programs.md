@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
    >
    >If you want to edit all information about the program, go to step 4.   
 
-   ![](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
+   ![Progran details with custom form section](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
 
    >[!NOTE]
    >
@@ -75,10 +75,10 @@ You must have the following access to perform the steps in this article:
    To edit information in the [!UICONTROL Details] section, do the following:
 
    1. (Optional) Click the **[!UICONTROL Collapse All]** icon in the upper-right corner to collapse all areas.
-   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit.
+   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![Right pointing arrow](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit.
    1. For information about the fields visible in the [!UICONTROL Program Details] section, continue with editing the program in the [!UICONTROL Edit Program] box as described below.
    1. (Optional) If there are no custom forms attached to the program, start typing the name of a form in the **[!UICONTROL Add custom form]** field, select it when it displays in the list, then click&nbsp;**[!UICONTROL Save Changes]**.
-   1. (Optional) Click the **[!UICONTROL Export]** icon ![](assets/export.png) to export the [!UICONTROL Overview] and custom forms information to a PDF file, then click **[!UICONTROL Export]**. Select from the following:
+   1. (Optional) Click the **[!UICONTROL Export]** icon ![Export icon](assets/export.png) to export the [!UICONTROL Overview] and custom forms information to a PDF file, then click **[!UICONTROL Export]**. Select from the following:
 
       * Select all (displays only when there is at least one custom form attached)
       * [!UICONTROL Overview]
@@ -86,19 +86,19 @@ You must have the following access to perform the steps in this article:
 
       The PDF file downloads to your computer.
 
-      ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![Export portfolio details](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       For more information, see [Export custom forms and object details](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 
 1. To edit all information about one or more programs do one of the following:
 
-   * Click the **[!UICONTROL More]** menu ![](assets/more-icon.png) next to the program name, then&#x200B;**[!UICONTROL Edit].**
-   * Go to a list of programs and select one or more program that you want to edit, then click the **[!UICONTROL Edit]** icon ![](assets/edit-icon.png) at the top of the list.
+   * Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon.png) next to the program name, then&#x200B;**[!UICONTROL Edit].**
+   * Go to a list of programs and select one or more program that you want to edit, then click the **[!UICONTROL Edit]** icon ![Edit icon](assets/edit-icon.png) at the top of the list.
 
    The **[!UICONTROL Edit Program]** dialog box displays.
 
-   ![](assets/edit-program-box-nwe-350x236.png)
+   ![Edit program box](assets/edit-program-box-nwe-350x236.png)
 
    All program fields are available in the [!UICONTROL Edit Program] box and are grouped by the areas listed in the left panel.
 
@@ -171,7 +171,7 @@ You must have the following access to perform the steps in this article:
 1. Begin editing a program as described above.
 1. Click&nbsp;**[!UICONTROL Comment]**.
 
-   ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
+   ![Comment box in edit program box](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
 1. Add a comment in the **[!UICONTROL Post an update to the program]** field.
 1. (Optional) Click the **[!UICONTROL People]** icon to add a user or a team to the comment.

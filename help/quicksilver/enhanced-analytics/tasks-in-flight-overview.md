@@ -10,9 +10,14 @@ exl-id: cc738450-362a-49e8-836f-611fa82057b5
 ---
 # View the Tasks in flight visualization in Enhanced analytics
 
+>[!IMPORTANT]
+>
+>Enhanced Analytics will be removed from Workfront the week of May 26th. Workfront Data Connect is a new, alternative solution and can be used to replicate any Enhanced Analytics visualizations you currently use. <br>See the [Enhanced Analytics deprecation](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) guide for more information.
+
+
 The Tasks in flight visualization shows how many tasks (within the applied filter criteria) are in progress for a project, the percentage of work completed for each task, and how on schedule the tasks are.
 
-![](assets/tasks-in-flight-possible-replacement-350x104.png)
+![Tasks in flight](assets/tasks-in-flight-possible-replacement-350x104.png)
 
 ## Access requirements
 
@@ -23,7 +28,7 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront plan</a>*</td> 
    <td> <p>Business or higher</p> </td> 
   </tr> 
   <tr> 
@@ -53,15 +58,15 @@ The Tasks in flight plan visualization shows the following task details:
 
 * **Planned task duration**: The length of a task bar indicates the planned duration, which is based on the task's start date and completion date.
 
-  ![](assets/tasks-in-flight-duration-350x80.png)
+  ![Tasks in flight duration](assets/tasks-in-flight-duration-350x80.png)
 
 * **Work effort completed**: The dark blue color within a task bar indicates the amount of work completed for a task. This completion percentage displays to the right of the task bar.
 
-  ![](assets/tasks-in-flight-dark-blue-350x35.png)
+  ![Tasks in flight dark blue](assets/tasks-in-flight-dark-blue-350x35.png)
 
 * **Work effort remaining**: The light blue color within a task bar indicates the amount of work that needs to be completed for a task.
 
-  ![](assets/tasks-in-flight-light-blue-350x35.png)
+  ![Tasks in flight light blue](assets/tasks-in-flight-light-blue-350x35.png)
 
 This information can help you determine:
 
@@ -74,10 +79,10 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
 ## View the Tasks in flight visualization
 
-1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
+1. Click the Main Menu icon ![Main menu icon](assets/main-menu-icon-16x12.png), then select **Analytics**.
 1. (Optional) To use a different date range, select new start and end dates from the date range filter.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Select date range](assets/filters-select-date-range-350x344.png)
 
    For information on using the date range filter, see [Apply filters in Enhanced analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -107,7 +112,7 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
    All other visualizations update to the same date range and a timeframe filter is created.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Timeframe filter](assets/timeframe-filter-350x220.png)
 
 1. (Optional) To change how the tasks are sorted, click the **Sort by** menu, then select a new sorting option:
 
@@ -119,13 +124,13 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
 1. Review the progress of tasks in the selected project, then hover over a specific task to see the number of planned hours, the planned due date, and the completion percentage.
 
-   ![](assets/tasks-in-flight-task-details-350x242.png)
+   ![Tasks in flight details](assets/tasks-in-flight-task-details-350x242.png)
 
 1. Click a task to open the task Details on the right side of the screen, where you can see more information about the task, view or enter updates, or make changes to the task.
 
-   ![](assets/task-details-qs-350x675.png)
+   ![Task details](assets/task-details-qs-350x675.png)
 
-1. (Optional) To export the visualization data, click the **Export icon** ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
+1. (Optional) To export the visualization data, click the **Export icon** ![Export icon](assets/export.png) in the top-right corner of the visualization, then select the export format:
 
    * **Chart (PNG)** 
    * **Data Table (XSLX)**

@@ -33,17 +33,20 @@ You can reactivate a user at any time.
 
 >[!IMPORTANT]
 >
->We recommend that you deactivate users who have left the organization rather than deleting them. If a user is deleted, all history in Workfront associated with that user is lost. This includes their work assignments, their association with notes, hours, documents, and all other objects they have once created.
+>* We recommend that you deactivate users who have left the organization rather than deleting them. If a user is deleted, all history in Workfront associated with that user is lost. This includes their work assignments, their association with notes, hours, documents, and all other objects they have once created.
 >
->Deactivating a user in Workfront removes the user's licenses to both Workfront and digital proofing. Additionally, the user can no longer be assigned work. When a user is deactivated, that user's Workfront license and proofing license become available to be used by another user. All other information in the deactivated user's profile remains unchanged.
+>   Deactivating a user in Workfront removes the user's licenses to both Workfront and digital proofing. Additionally, the user can no longer be assigned work. When a user is deactivated, that user's Workfront license and proofing license become available to be used by another user. All other information in the deactivated user's profile remains unchanged.
 >
->For more information about the impact of deleting and that of deactivating users, see [Delete users](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>   For more information about the impact of deleting and that of deactivating users, see [Delete users](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>
+>* Deactivating a user in Workfront does not remove the user from the Workfront Product Profile in the Adobe Admin Console.
+
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -92,7 +95,7 @@ To deactivate a user:
 
 {{step-1-to-users}}
 
-1. Select a user, click the **More** icon ![](assets/more-icon.png), then click **Deactivate**.
+1. Select a user, click the **More** icon ![More icon](assets/more-icon.png), then click **Deactivate**.
 
 1. Click **Deactivate** in the box that appears.
 
@@ -112,7 +115,7 @@ To schedule a user for deactivation:
 
    (Optional) Select multiple users to schedule them for deactivation in bulk.
 
-1. Click the Edit icon ![](assets/edit-icon.png).
+1. Click the Edit icon ![Edit icon](assets/edit-icon.png).
 1. In the Edit User box that displays, click **Resource Planning** to go to that area.
 1. Enable the **Schedule Deactivation** option.  
 
@@ -133,7 +136,7 @@ We recommend that you build a report for users that you have scheduled for deact
 
 {{step-1-to-users}}
 
-1. Select a user, click the More icon ![](assets/more-icon.png), then click **Activate**.
+1. Select a user, click the More icon ![More icon](assets/more-icon.png), then click **Activate**.
 
 1. Assign a new **Access level**in the drop-down menu, then click **Reactivate**.
 <!--

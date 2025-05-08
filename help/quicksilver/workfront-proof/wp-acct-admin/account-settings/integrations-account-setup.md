@@ -18,5 +18,3 @@ exl-id: 6210f20e-073a-45c8-9b71-212a124648e8
 As a [!DNL Workfront Proof] administrator, you can configure [!DNL Workfront Proof] to integrate with [!DNL Basecamp], [!DNL Basecamp Classic], [!DNL NetSuite], and [!DNL Workfront].
 
 After you establish the general connections for integration, each user can set up their own personal connections via the [!UICONTROL Integrations] tab available on the Personal Settings page.
-
-See the [Integrations articles](https://support.workfront.com/hc/en-us/categories/115000588707-Integrations) for details and instructions.

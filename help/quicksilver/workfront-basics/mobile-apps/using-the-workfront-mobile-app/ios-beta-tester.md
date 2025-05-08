@@ -52,7 +52,7 @@ You must have the [!DNL Workfront] app and the [!DNL TestFlight] app installed o
 
 You can also scan the QR Code below to sign up for the beta and download the app:
 
-![](assets/ios-qr-code-350x397.png)
+![iOS QR code](assets/ios-qr-code-350x397.png)
 
 ## Let us know how we're doing
 

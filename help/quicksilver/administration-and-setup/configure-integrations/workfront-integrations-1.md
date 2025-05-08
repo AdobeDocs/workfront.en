@@ -92,7 +92,7 @@ We understand that the available built-in (native) integrations might not meet a
      <li>After Effects </li>
      </ul>
      <li><p>Download/install from <a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>For information and instructions, see <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Install the  [!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Applications</a></p> 
+     <p>For information and instructions, see <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Install the  [!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Applications</a></p> 
      </td>  <td>&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> 
@@ -223,7 +223,7 @@ We understand that the available built-in (native) integrations might not meet a
      <li>Search for [!DNL Workfront] projects, tasks, and issues </li> 
      <li>Create [!DNL Workfront] personal tasks </li> 
      <li>Submit [!DNL Workfront] requests </li> 
-    </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: article index</a>.</p> </td> 
+    </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: article index</a>.</p><p><b>NOTE</b>: As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported once the Classic Teams desktop app is no longer available. </p></td> 
    <td> 
     <ul> 
      <li>Each team in your organization must install the integration if more than one team wants to use it</li> 
@@ -299,7 +299,7 @@ We understand that the available built-in (native) integrations might not meet a
 
   [!DNL Adobe Workfront Fusion] links actions within and between apps and services to create a scenario that transfers and transforms your data automatically. It has dedicated connectors to many apps, but can connect to any applications with a public API.
 
-  For more information, see [[!DNL Adobe Workfront Fusion] overview](../../workfront-fusion/get-started/workfront-fusion-overview.md).
+  For more information, see [[!DNL Adobe Workfront Fusion] overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (Requires [!DNL Workfront Fusion])
@@ -309,8 +309,6 @@ The integration between Workfront and Experience Manager Assets or Assets Essent
   For more information, see [Adobe Workfront for Experience Manager Assets integrations overview](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 
 ## Partner integrations
-
-[!DNL Workfront] has many partner integrations  enrich your [!DNL Workfront] experience.
 
 Workfront has many partner integrations that enrich your Workfront experience. Examples of existing partner offerings include integrations with Claravine, RWS Group, and more. 
 

@@ -96,7 +96,7 @@ Consider the following when copying initiatives:
 1. Click the name of a plan to open it, then locate the initiatives you want to copy.
 1. Select the box to the left of the initiative or initiatives that you want to copy, then click **[!UICONTROL Copy]** from the menu that appears at the bottom of the plan.
 
-   ![](assets/bottom-manage-initiative-menu-350x45.png)
+   ![Copy initiative](assets/bottom-manage-initiative-menu-350x45.png)
 
    [!DNL Workfront] copies the initiatives immediately and places them underneath the last selected initiative.
 

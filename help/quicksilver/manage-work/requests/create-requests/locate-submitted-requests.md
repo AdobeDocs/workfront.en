@@ -3,7 +3,7 @@ product-area: requests
 navigation-topic: create-requests
 title: Locate Submitted Requests
 description: Learn about the areas of Adobe Workfront where you can locate requests that you or someone else submitted or requests that you never submitted and were saved as drafts. 
-author: Lisa
+author: Alina
 feature: Requests
 topic: Collaboration
 role: User
@@ -15,12 +15,19 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 
 You can locate the following types of requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
 
-* **Submitted section**: All requests that you or someone else submitted and you have access to at least View. 
-* **Draft section** : All requests that you started but you never finished and you never submitted. For more information about draft requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* The **Workfront** tab of the Requests area in Workfront: Locate requests submitted to Workfront request queues in the following sections: 
+   * **Submitted section**: All requests that you or someone else submitted and you have access to at least View. 
+   * **Draft section** : All requests that you started but you never finished and you never submitted. For more information about draft requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-  >[!TIP]
-  >
-  >You can only view your own draft requests.
+   >[!TIP]
+   >
+   >You can only view your own draft requests.
+
+* The **Planning** tab of the Requests area in Workfront: Locate requests submitted to Workfront Planning request forms. Your organization must purchase a Workfront Planning package. For information, see the following articles:
+
+   * [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+   * [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
+
 
 ## Access requirements
 
@@ -64,6 +71,7 @@ To locate requests that you or other users have submitted:
 
 {{step1-to-requests}}
 
+1. (Conditional) If your organization purchased a Workfront Planning package, click the **Workfront** tab to view Workfront requests. 
 1. Click **Submitted** in the left panel to view all submitted requests.
 
    You can view up to 2000 requests and they may display on multiple pages.
@@ -185,6 +193,12 @@ To locate requests that you or other users have submitted:
    -->
 
 1. Click **Drafts** to view all drafted requests. Workfront saves an unlimited number of drafts for each request queue in this folder. When you enter a new request for a queue topic that already has a draft, you will be prompted to use an existing draft. For more information, see [Create requests from drafts](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
+
+1. (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
+
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+
+   For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
 
 &nbsp;
 

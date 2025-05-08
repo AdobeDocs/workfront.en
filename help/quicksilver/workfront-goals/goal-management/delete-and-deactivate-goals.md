@@ -1,7 +1,7 @@
 ---
 product-previous: workfront-goals
 navigation-topic: old-workfront-goals-articles
-title: Delete and deactivate goals in Adobe Workfront Goals
+title: Delete and Deactivate Goals in Adobe Workfront Goals
 description: When you start working on a goal and it becomes irrelevant in your organization, we recommend deactivating it, instead of deleting it. Deactivating a goal keeps its historical information and gives you a chance to reactivate it at a later time. There are times, however, when deleting a goal might make sense, to keep your goal list accurate.
 author: Alina
 feature: Workfront Goals
@@ -9,9 +9,13 @@ exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
 ---
 # Delete and deactivate goals in Adobe Workfront Goals
 
+<!--Audited for P&P only: 4/2025-->
+
 When you start working on a goal and it becomes irrelevant in your organization, we recommend deactivating it, instead of deleting it. Deactivating a goal keeps its historical information and gives you a chance to reactivate it at a later time. There are times, however, when deleting a goal might make sense, to keep your goal list accurate.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following:
 
@@ -30,27 +34,25 @@ You must have the following:
 <p>For the current plan and license structure: 
 <ul><li> A Pro or higher </li>
   <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
+ <tr>
  <tr>
  <td role="rowheader">Adobe Workfront license*</td>
  <td>
  <p>New license: Contributor or higher</p>
  Or
- <p>Current license: Request or higher</p> </td>
+ <p>Current license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> New product requirement, one of the following: </p>
-<ul>
-<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
-<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
+  <p> New product requirement: Workfront</p>
  <p>Or</p>
- <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+  <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
- <td role="rowheader"><p>Access level</p></td>
+ <td role="rowheader">Access level</td>
  <td> <p>Edit access to Goals</p> </td>
  </tr>
  <tr data-mc-conditions="">
@@ -62,7 +64,7 @@ You must have the following:
   <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
   </div> </td>
  </tr>
- <tr>
+<tr>
    <td role="rowheader"><p>Layout template</p></td>
    <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
 </td>
@@ -70,7 +72,9 @@ You must have the following:
 </tbody>
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Deactivate goals
 
@@ -116,16 +120,16 @@ Deactivating goals differs depending on which environment you use.
    >
    >You can open goals from any sections of Workfront Goals.
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Deactivate**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Deactivate**.
 
-   ![](assets/deactivate-goal-highlighted.png)
+   ![Deactivate goal](assets/deactivate-goal-highlighted.png)
 
    The goal status changes to Inactive. 
 
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
 
    The goal list displays.
 
@@ -140,9 +144,9 @@ Deactivating goals differs depending on which environment you use.
 
    The goal page opens.
 
-   ![](assets/goal-page-unshimmed.png)
+   ![Goal page](assets/goal-page-unshimmed.png)
 
-1. Click the **More** menu ![](assets/more-icon.png) to the right of the goal name, then click **Deactivate**. 
+1. Click the **More** menu ![More icon](assets/more-icon.png) to the right of the goal name, then click **Deactivate**. 
 
 1. The goal is deactivated and its status becomes Inactive. 
 
@@ -173,23 +177,23 @@ Deleting  goals differs depending on which environment you use.
 
    The Goal Details panel opens on the right. 
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Delete**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Delete**.
 
-   ![](assets/delete-goal-highlighted.png)
+   ![Delete goal](assets/delete-goal-highlighted.png)
 
 1. Click **Yes, delete**.
 
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. Click the Main Menu icon ![](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
+1. Click the Main Menu icon ![Main Menu icon](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
 
    The goal list displays. 
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. Click the name of a goal. This opens the goal page. 
-1. Click the **More** menu ![](assets/more-icon.png) to the right of the goal name, then click **Delete Goal**, then **Delete**. 
+1. Click the **More** menu ![More icon](assets/more-icon.png) to the right of the goal name, then click **Delete Goal**, then **Delete**. 
 
    The goal and its activities and results are also deleted and cannot be recovered. Projects that were associated with the goal or children goals are not deleted. 
 

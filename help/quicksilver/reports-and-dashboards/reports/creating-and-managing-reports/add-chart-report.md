@@ -82,7 +82,7 @@ You must have the following access to perform the steps in this article:
    >[!TIP]
    >
    >* You can only add a chart to a report when the report results are grouped. 
-   >* Text-mode groupings are not supported in charts. For more information about text-mode groupings, see [Edit text mode in a grouping](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md). 
+   >* Text-mode groupings are not supported in charts. For more information about text-mode groupings, see [Edit a grouping using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md). 
    >* If you add a single grouping that represents one metric, all charts except a pie chart display each result in the grouping as the same color. 
 
    For more information about creating groupings, see [Create groupings in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md). 
@@ -271,11 +271,11 @@ To add a **Bubble** chart to your report:
 
    For example, if you selected **Project Name** in a task report, you can add **Task Status** as the **Bubble Color** field.  
 
-   ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)   
+   ![Task status as bubble color](assets/bubbles-field-correct-can-select-bubbles-color-example.png)   
 
    However, if you selected **Task Status** for the **Bubbles** field, you cannot select a **Bubble Color** field. Also, you cannot select **Project Name** for the **Bubble Color** field, even when you select **Project Name** for the **Bubbles** field. 
 
-   ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
+   ![Cannot select bubble color](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
    
 1. Click **Save + Close** to save the changes to the interface builder.
 
@@ -298,7 +298,7 @@ To customize chart colors:
 
 1. Click **Custom Colors** when this field is available.  
    The Custom Colors dialog box displays.  
-   ![](assets/unshimmed-custom-colors-in-charts.png)
+   ![Custom colors in charts](assets/unshimmed-custom-colors-in-charts.png)
 
    >[!NOTE]
    >

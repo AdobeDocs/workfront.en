@@ -11,8 +11,6 @@ exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 ---
 # Create and edit business rules
 
-{{preview-fast-release-general}}
-
 A business rule allows you to apply validation to Workfront objects and prevent users from creating, editing, or deleting an object when certain conditions are met. Business rules help to improve data quality and operational efficiency by preventing actions that could compromise data integrity.
 
 A single business rule can be assigned to only one object. For example, if you create a business rule for not editing projects under certain conditions, you can't apply the same rule to tasks. You would have to create a separate business rule with the same conditions for tasks.
@@ -31,7 +29,7 @@ Business rules apply to creating, editing, and deleting objects through the API 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -71,7 +69,10 @@ For information about date-based wildcards, see [Use date-based wildcards to gen
 An API wildcard is also available in business rules. Use `$$ISAPI` to trigger the rule only in the API. Use `!$$ISAPI` to enforce the rule only in the user interface and allow users to bypass the rule through the API.
 
 * For example, this rule prohibits users from editing completed projects through the API. If the wildcard was not used, the rule would block the action in both the user interface and the API.
-  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
+
+  ```
+  IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")
+  ```
 
 The `$$BEFORE_STATE` and `$$AFTER_STATE` wildcards are used in expressions to access the object's field values before and after any edits.
 
@@ -81,8 +82,17 @@ The `$$BEFORE_STATE` and `$$AFTER_STATE` wildcards are used in expressions to ac
 
 Some simple business rule scenarios are:
 
-* Users cannot add new expenses during the last week of February. This formula could be stated as: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* Users cannot edit the project name of a project in Complete status. This formula could be stated as: `IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
+* Users cannot add new expenses during the last week of February. This formula could be stated as:
+
+  ```
+  IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")
+  ```
+
+* Users cannot edit the project name of a project in Complete status. This formula could be stated as:
+
+  ```
+  IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")
+  ```
 
 A scenario with nested IF statements is:
 
@@ -106,9 +116,31 @@ IF(
 1. Click **New business rule**.
 1. Select the object type to assign the business rule to, then click **Continue**.
 
-   ![Select an object](assets/object-for-business-rule2.png)
+   ![Select an object](assets/object-for-business-rule3.png)
 
-1. Type the **Name** for the business rule.
+   You can apply business rules to the following objects:
+
+   * Project
+   * Task
+   * Issue / Request
+   * Portfolio
+   * Document
+   * Program
+   * Expense
+   * User
+   * Company
+   * Iteration
+   * Billing Record
+   * Group
+   * Risk
+   * Assignment
+   * Job Role
+   * Resource Pool
+   * Time Off
+   * Hour
+   * Template
+
+1. Type the **Name** for the business rule on the rule builder dialog.
 1. In the **Is Active** field, select whether the rule should be active when you save it.
 
    If you select **No**, the rule is saved as inactive, and you can activate it later.
@@ -131,9 +163,9 @@ IF(
    * Because the object and the action are already defined, you do not include them in the formula.
    * The custom error message is displayed to the user when they trigger the business rule. It should provide clear instructions on what went wrong and how to correct the issue.
 
-     <span class="preview">You can include a static URL in the error message, to link to documentation or other helpful pages to guide the user on how to modify their action within the constraint of the rule.</span>
+     You can include a static URL in the error message, to link to documentation or other helpful pages to guide the user on how to modify their action within the constraint of the rule.
 
-     <span class="preview">In this example, "Learn more" will link to the URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` The URL must be in parentheses, but link text in brackets is not required. You can display the full URL and it will be a clickable link.</span>
+     In this example, "Learn more" will link to the URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` The URL must be in parentheses, but link text in brackets is not required. You can display the full URL and it will be a clickable link.
 
    ![Add business rule dialog](assets/add-business-rule-dialog-no-ai-button.png)
 

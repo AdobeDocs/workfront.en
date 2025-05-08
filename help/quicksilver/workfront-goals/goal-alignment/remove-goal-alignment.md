@@ -1,13 +1,15 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Remove goal alignment in Adobe Workfront Goals
+title: Remove Goal Alignment in Adobe Workfront Goals
 description: You can remove the alignment between two goals if it no longer makes sense for them to be connected.
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
 ---
 # Remove goal alignment in Adobe Workfront Goals
+
+<!--Audited P&P only: 4/2025-->
 
 You can remove the alignment between two goals if it no longer makes sense for them to be connected.
 
@@ -18,6 +20,8 @@ For information about aligning goals, see the following articles:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following:
 
 <table style="table-layout:auto">
@@ -27,11 +31,15 @@ You must have the following:
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Adobe Workfront plan</td>
- <td>
- <p>Any</p>
- 
- </td>
+ <td role="rowheader">Adobe Workfront plan*</td>
+ <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront license*</td>
@@ -43,12 +51,9 @@ You must have the following:
  <tr>
  <td role="rowheader">Product*</td>
  <td>
- <p> New product requirement, one of the following: </p>
-<ul>
-<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
-<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
- <p>Or</p>
- <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+   <p> New product requirement: Workfront</p>
+   Or
+   <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Access level</td>
@@ -70,6 +75,8 @@ You must have the following:
 </table>
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 
@@ -95,9 +102,9 @@ Removing goal alignment differs depending on which environment you use.
 
 1. Go to a child goal aligned to a parent goal. 
 1. Click the goal name to open the **Goal Details** panel. 
-1. Click the **gear icon** ![](assets/gear-icon-settings.png) next to the parent goal, then click **Remove alignment**.
+1. Click the **gear icon** ![Gear icon](assets/gear-icon-settings.png) next to the parent goal, then click **Remove alignment**.
 
-   ![](assets/edit-remove-alignment-350x88.png)
+   ![Reove alignment](assets/edit-remove-alignment-350x88.png)
 
    The goal becomes a standalone goal and its progress no longer influences the progress of the original parent goal. 
 
@@ -111,9 +118,9 @@ Removing goal alignment differs depending on which environment you use.
 1. Access the **Goals** area in Workfront and click the name of a goal to open the goal's page. 
 1. From the goal's page of a parent goal, click **Progress Indicators** in the left panel.
 
-   ![](assets/remove-goal-alignment-from-list-unshimmed.png)
+   ![REmove goal alignment](assets/remove-goal-alignment-from-list-unshimmed.png)
    
-1. In the **Type: Goal** grouping, select a goal, then click the **Disconnect** icon ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) at the top of the list.
+1. In the **Type: Goal** grouping, select a goal, then click the **Disconnect** icon ![Disconnect icon](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) at the top of the list.
 
    The Disconnect box displays. 
 

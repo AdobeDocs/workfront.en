@@ -12,7 +12,7 @@ exl-id: 77342724-0182-4134-903b-4428d54cdceb
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -42,7 +42,7 @@ This article describes the following information about record views:
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -97,11 +97,12 @@ You must have the following access to perform the steps in this article:
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings</p> </td> 
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p></td> 
   </tr> 
 </tbody> 
 </table> 
@@ -109,65 +110,6 @@ You must have the following access to perform the steps in this article:
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
-
-<!--old: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
-
 
 ## Considerations when working with record views
 
@@ -219,7 +161,7 @@ The following table shows the similarities and differences between the table, ti
 | Open the record's page from the view                    |  ✓         | ✓              |    |
 | Display records by year and quarter                    |           | ✓              |    |
 | Display records by month                    |           | ✓              |  ✓  |
-| <span class="preview">Display records by week</span>                    |           |               |  ✓  |
+| Display records by week                    |           |               |  ✓  |
 
 
 ## Create or edit views {#create-or-edit-views}
@@ -246,7 +188,7 @@ The following table shows the similarities and differences between the table, ti
 
     A new tab is created with the selected view. 
 
-    Depending on the width of your screen, additional views might display in the **More** menu ![](assets/more-menu.png).   
+    Depending on the width of your screen, additional views might display in the **More** menu ![More menu](assets/more-menu.png).   
 
 
 >[!TIP]
@@ -258,7 +200,7 @@ The following table shows the similarities and differences between the table, ti
 >Otherwise, the Timeline and the Calendar options are dimmed.
 >
 
-![](assets/view-types-drop-down-from-record-type-list.png)
+![View types drop-down from record type list](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Conditional) Click **Next**, when creating a timeline or calendar view.
     
@@ -279,10 +221,10 @@ The following table shows the similarities and differences between the table, ti
 1. Click **Create**.
 
     The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. 
-1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to display all views for the selected record type. 
+1. (Optional) Click the **More** menu ![More caret down icon views](assets/more-caret-down-icon-views.png) next to the last view to display all views for the selected record type. 
 
     Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views.
-1. (Optional) To rename a view after it is created, click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) > **Rename** to update the view name
+1. (Optional) To rename a view after it is created, click the view drop-down menu, then click the **More** menu ![More menu](assets/more-menu.png) > **Rename** to update the view name
 
     Or
 
@@ -309,7 +251,7 @@ The following table shows the similarities and differences between the table, ti
 
     By default, all the records of the selected type display in the table view. 
 
-1. Hover over one the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) to the left of the view name, then click **Delete**. 
+1. Hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**. 
 First, you might need to click **More** to the left of the last tab to find the view you want to delete.
 
 1. Click **Delete** to confirm. <!--ensure there is not another saving step here?!-->
@@ -339,9 +281,9 @@ The sharing permissions of the original view do not transfer to the duplicated v
     The record type page opens. 
     By default, all the records of the type selected display in the table view. 
 
-1. Hover over the tab of the view you want to duplicate, and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Duplicate**. 
+1. Hover over the tab of the view you want to duplicate, and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Duplicate**. 
 
-    ![](assets/view-more-menu-with-duplicate-option.png)
+    ![View more menu with duplicate option](assets/view-more-menu-with-duplicate-option.png)
 
     
     The view is duplicated and the new view's name follows the following pattern: `Original view's name (Copy)`. The new view tab displays at the end of all view tabs. 
@@ -356,13 +298,13 @@ When you display the table view, you can also view which field another user is e
 1. (Conditional) If there are other users editing the records of the selected type at the same time, their avatars display in the upper-right corner of the view. 
 1. Click the drop-down menu next to the avatars, the select the **Show collaborators** toggle. The toggle is selected by default. 
 
-    ![](assets/show-collaborators-toggle-selected.png)
+    ![Show collaborators toggle selected](assets/show-collaborators-toggle-selected.png)
 
 1. (Conditional) Open a table view, and the field which another person is actively editing is highlighted in the color corresponding to the outline of their avatar in the table view. 
 
     If the highlight color of the avatar is gray, the user stopped actively editing the record more than 30 seconds ago. 
 
-    ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+    ![Real-time indicator table field and avatar connection](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
     >[!TIP]
     >

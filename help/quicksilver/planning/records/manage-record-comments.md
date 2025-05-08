@@ -9,9 +9,11 @@ exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 ---
 # Manage record comments
 
-{{planning-important-intro}}
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Workfront Planning records" should be there-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+{{planning-important-intro}}
 
 You can collaborate on Adobe Workfront Planning records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record and recorded by the system in this area.
 
@@ -22,7 +24,7 @@ The right panel of a record displays the following sections:
 
 ## Access requirements
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -65,7 +67,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td><p> Contributor, Light, or Standard</p>
+   <td><p> Contributor or higher license</p>
    <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
@@ -76,19 +78,27 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>View or higher permissions to a workspace</a> </p>  
+   <td>   <p>View or higher permissions to a workspace <span class="preview">and record type</span> </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+   <td> <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
+   <div class="preview">
+<p> In the Preview environment, users with a Light or Contributor license must be assigned a layout template that includes Planning.</p>
+   
+   <p>Standard users and System Administrators have Planning enabled by default.</p></div>
+
+   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p> </td> 
   </tr> 
 </tbody> 
 </table> 
 
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++  
+
+
 
 ## Considerations about commenting on a record
 
@@ -133,26 +143,34 @@ You must have the following access to perform the steps in this article:
 
     The record's **Details** page opens. The Comments area opens by default in the right panel. 
 
-1. (Conditional) If the right panel does not open by default, click the **Show Comments** ![](assets/show-comments-icon.png) icon in the upper-right corner to open the Comments section. 
+1. (Conditional) If the right panel does not open by default, click the **Show Comments** ![Show comments icon](assets/show-comments-icon.png) icon in the upper-right corner to open the Comments section. 
 
 1. Start entering a comment in the **New comment** box. 
    
-   ![](assets/empty-comment-box-on-record.png)
+   ![Empty comment box on record](assets/empty-comment-box-on-record.png)
 
    >[!TIP]
    >
-   >Navigating away from the Comments section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.
+   >Navigating away from the Comments section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. <!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
 
 1. (Optional) To undo or redo a change, use the following shortcut keys:
       * CTRL + Z (⌘+z for Mac) to undo a change 
       * CTRL + Y (⌘+y for Mac) to redo a change 
 1. (Optional and conditional) If your Workfront instance is part of the Adobe Unified Experience, add **@** followed by the name of a user to tag someone in the update. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article.
 
-1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, links, or images to your update, to enhance your content. 
+1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, or links to your update, to enhance your content. 
+
+   >[!TIP]
+   >
+   >You cannot add images to a record comment.
+
 
 1. Continue adding comments to the record. 
 
    For more information about updating objects, including Workfront Planning records, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+1. (Optional) Click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner of the comment, then click **Delete** to delete the comment. 
+1. (Optional) Click the **Hide Comments** icon ![Hide comments icon](assets/hide-comments-icon.png) to close the right panel. 
 
 <!--
       >[!TIP]
@@ -161,45 +179,31 @@ You must have the following access to perform the steps in this article:
       >
       >The indicator displays only after the comment was submitted on the item, and not when the comment is still composed. 
       >
-      >![](assets/new-line-indicator-comments.png)
-
+      >![New line indicator in comments](assets/new-line-indicator-comments.png)
 1. Click **Submit** to add the update to the record. 
-1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**.
-
+1. (Optional) To edit a comment, click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**.
    >[!IMPORTANT]
    >
    >You can edit your comment only within 15 minutes from submitting it.  
-
 1. Edit the information in the comment, add or remove images or remove any of the tagged users. An "edited" indicator is added to the left of the comment.
-   
       >[!TIP]
       >
       >Comments from the current year do not display the year in the date stamp. Hovering over a timestamp displays the full date, including the year.
-
 1. (Optional and conditional) To search for an existing comment, start typing a keyword in the search box in the upper-right corner of the **Comments** area.     
-
-   ![](assets/search-box-for-comments-area.png)
-     
-1. (Optional) Click **Reply** or start typing a comment in the **Add reply ...** area, to reply to an existing comment, then follow steps 4-8 above. (**************accurate??***********)
-
+   ![Search box for comments](assets/search-box-for-comments-area.png)
+1. (Optional) Click **Reply** or start typing a comment in the **Add reply ..** area, to reply to an existing comment, then follow steps 4-8 above. (**************accurate??***********)
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Comments section while you were adding your comments, click **View** inside the **new comments banner** at the bottom of the screen  to display these comments.
-
-    ![](assets/new-comments-banner-on-record.png)
+   ![New comments banner on record](assets/new-comments-banner-on-record.png)
 
     Additional comments display at the bottom of the screen.
-  
 1. (Optional) Click the **Like** icon to like an update or acknowledge that you read it. The icon updates with the number of likes.
 1. (Conditional and optional) If you included additional people in your comment, click the avatars of the users included in the update to display a list of users that the comment is shared with. 
-1. (Optional) Click the **More** icon ![](assets/more-menu.png) in the upper-right corner of the comment and click one of the following options, to copy a information from a comment: 
-
+1. (Optional) Click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner of the comment and click one of the following options, to copy a information from a comment: 
     * **Copy link**: This copies a link to the comment to your clipboard.
     * **Copy body text**: This copies the text of the comment to your clipboard.
     * **Quote reply**: This copies the content of your comment into a new reply. Images are not included in the copied reply. 
 
     For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). -->
-
-1. (Optional) Click the **More** icon ![](assets/more-menu.png) in the upper-right corner of the comment, then click **Delete** to delete the comment. 
-1. (Optional) Click the **Hide Comments** icon ![](assets/hide-comments-icon.png) to close the right panel. 
 
 ## History section overview
 

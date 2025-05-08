@@ -18,7 +18,7 @@ The Document Details page lets you view, communicate about, and manage the prope
 
 1. Hover over the document, then click **Document Details**.
 
-   ![](assets/document-details-350x179.png)
+   ![Document details](assets/document-details-350x179.png)
 
 ## Perform basic actions for documents and proofs
 
@@ -31,7 +31,7 @@ You can perform the following actions for both documents and proofsfrom the Docu
 * Edit the document description
 * Check in or check out a document
 
-In addition, you can use the More icon ![](assets/more-icon.png) next to the document name to perform the following actions:
+In addition, you can use the More icon ![More menu](assets/more-icon.png) next to the document name to perform the following actions:
 
 * Share
 * Move

@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
 
 ## Approve a document from Home
 
-1. Click the **Home** icon ![](../assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **Home** icon ![Home icon](../assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
    >[!NOTE]
    >
@@ -60,7 +60,7 @@ You must have the following access to perform the steps in this article:
    >
    >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article.
    >
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](../assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![Main menu icon](../assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
 
 1. Click **Filters** at the top left of the page and ensure that **Approvals** is checked.
   
@@ -97,7 +97,7 @@ You must have the following access to perform the steps in this article:
    If the currently selected version of the document has a pending approval for you, the approval decision buttons are displayed in the top-right corner of the page; if other versions of the document have pending approvals for you, the version dropdown menu displays a red dot.
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Click one of the following two approval options in the top-right corner of the page:
@@ -110,21 +110,19 @@ You must have the following access to perform the steps in this article:
    
    * **Needs work** indicates that the document version is not approved and requires significant changes.  
 
-## Approve a document from the Document Summary pane
+## Approve a document from the Document Summary panel
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 
-1. Click on the document that needs your approval and the Document Summary pane will open.
+1. Click on the document that needs your approval and the Document Summary panel will open.
 
 1. Select the version of the document you would like review in the version dropdown. The latest version will be selected by default.
 
-   If the currently selected version of the document has a pending approval for you, the approval decision buttons are displayed in the top-right corner of the Document Summary pane; if other versions of the document have pending approvals for you, the version dropdown menu displays a red dot.
-
-   <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
-   -->   
-
-1. Click one of the following two approval options in the top-right corner of the Document Summary pane:
+   If the currently selected version of the document has a pending approval for you, the approval decision buttons are displayed in the top-right corner of the Document Summary panel; if other versions of the document have pending approvals for you, the version dropdown menu displays a red dot.
+<!--
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+ -->
+1. Click one of the following two approval options in the top-right corner of the Document Summary panel:
    
    * The **Approve** dropdown contains two options:
       
@@ -133,3 +131,24 @@ You must have the following access to perform the steps in this article:
       * **Approve with changes** indicates that some small changes are still required on the document, but approval is given on the condition that those changes are made. If you select this option, a window will appear that contains a text box named **Next steps** where you can specify what changes are needed for the document to be approved. You may either enter that information and click **Add message**, or you may click **Skip** to send the approval decision without additional information.
    
    * **Needs work** indicates that the document version is not approved and requires significant changes.
+
+   
+## Approve a document from the proof viewer
+   
+   To review and approve a document:
+   
+   1. Go to your review email notification, and click to **Go to review**.
+   
+   1. Once you're in Workfront, click **Go to proof**. 
+   
+   1. Review the content, and add any comments or markup. For more information about how to use the proofing viewer, see [Review proofs within Adobe Workfront: article index](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+   
+   1. Choose one of the following decisions:
+   
+       * **Approve**: The document does not need changes and is ready for use.
+       * **Approve with changes**: The document needs changes and is ready for use once they are made. Additional approval is not required. 
+       * **Needs work**: The document needs changes and is not ready for use. Once the specified changes are made, the document must be uploaded as a new version and go through another round of approvals. For more information on uploading a new version, see [ Create a new version as needed](#create-a-new-version-as-needed) in this article.
+   
+   Once you make a decision, the document owner is notified via email.
+   
+ 

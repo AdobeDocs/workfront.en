@@ -57,6 +57,6 @@ You must have the following access to perform the steps in this article:
    >
    >Depending on your Workfront plan, you may have to enable the **User can generate proofs** checkbox in order for the **Proof Permission Profile** menu to appear.
 
-   ![](assets/proof-permission-profile-350x203.png)
+   ![Proof permissions profile](assets/proof-permission-profile-350x203.png)
 
 1. Click **Save Changes**.

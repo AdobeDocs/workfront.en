@@ -14,7 +14,7 @@ exl-id: bb489920-6b17-4689-b432-b0c28bcb5d10
 
 You can add this column to a task view to display the name of the parent tasks in all capital letters.
 
-![](assets/column-task-with-all-caps-parent-350x112.png)
+![Column with parent task in all caps](assets/column-task-with-all-caps-parent-350x112.png)
 
 ## Access requirements
 
@@ -61,7 +61,7 @@ You must have the following access to perform the steps in this article:
 To build this column in a task view:
 
 1. Go to a list of tasks.
-1. From the **View** drop-down menu, select a view, then click the **Edit** icon ![](assets/edit-icon.png).
+1. From the **View** drop-down menu, select a view, then click the **Edit** icon ![Edit icon](assets/edit-icon.png).
    Or  
    From the **View** drop-down menu, select **New View**.
 

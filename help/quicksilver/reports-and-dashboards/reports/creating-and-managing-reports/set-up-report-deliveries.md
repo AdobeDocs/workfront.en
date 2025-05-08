@@ -37,11 +37,11 @@ Consider the following when scheduling reports for delivery:
 
 There are several size limits that affect how reports display in Workfront and how they export through a manual export, a delivered report, or through the API:
 
-* **5MB file size:** File size limit for any exported report scheduled for delivery. If an exported file attached to an email is larger than 5MB, a link where the file can be downloaded is emailed instead of the attached exported report. 
+* **10MB file size:** File size limit for any exported report scheduled for delivery. If an exported file attached to an email is larger than 5MB, a link where the file can be downloaded is emailed instead of the attached exported report. 
 
   >[!NOTE]
   >
-  >Excel .xlsx files larger than 5MB do not generate an email. You can manually export the report to this format. For information about exporting reports, see [Export data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >Excel .xlsx files larger than 10MB do not generate an email. You can manually export the report to this format. For information about exporting reports, see [Export data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * **50,000 rows:** The number of rows of data allowed in a report export for .pdf and Tab Delimited files.
 
@@ -183,7 +183,7 @@ You can see whether a report has been configured to be delivered by creating the
 
 * **A Filter** for the Report object: Create a filter on a list of reports or in a report on reports with the following statement: *Scheduled Report ID Is Not Blank*.  
   This will display only reports that have been scheduled in your list or report.  
-  ![](assets/qs-scheduled-report-filter-350x101.png)  
+  ![Scheduled report filter](assets/qs-scheduled-report-filter-350x101.png)  
   For more information about creating reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). For information on creating a report on reports, see [Create a report on reporting activities](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--

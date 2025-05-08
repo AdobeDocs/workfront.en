@@ -69,7 +69,7 @@ You must have the following to follow the steps in this article:
 
    * Select the **Switch to Projected Dates** option to view Projected rather than Planned Dates. By default, Planned Dates display.  
 
-   * Click the **Settings** icon ![](assets/settings-icon.png) in the upper-right corner of the Gantt chart and select what information you want to view in the Gantt chart. Once selected, this information is included in the exported Gantt PDF file. 
+   * Click the **Settings** icon ![Settings icon](assets/settings-icon.png) in the upper-right corner of the Gantt chart and select what information you want to view in the Gantt chart. Once selected, this information is included in the exported Gantt PDF file. 
    
       Select from the following options: 
 
@@ -103,7 +103,7 @@ You must have the following to follow the steps in this article:
 
    For example, if you are viewing the [!UICONTROL Gantt chart] for a project that contains 50 tasks, but you want to display only 10 tasks on the exported [!UICONTROL Gantt chart], select the 10 tasks that you want to display.
 
-1. Click the printer icon ![](assets/printer-icon.png) in the upper-right corner of the Gantt chart.
+1. Click the printer icon ![Printer icon](assets/printer-icon.png) in the upper-right corner of the Gantt chart.
    The **[!UICONTROL Export to PDF]** dialog box displays.
 
    ![exported_gantt_UI.png](assets/exported-gantt-ui-350x225.png)

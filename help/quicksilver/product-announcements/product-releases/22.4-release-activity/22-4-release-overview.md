@@ -655,7 +655,6 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         <p>Workfront Campaigns enables you to organize projects from different portfolios and programs in a new work container.
 Campaigns were released to Preview beta with the 22.3 release, in July 2022.</p>
 <p>This new container will evolve in future releases to connect work objects that are currently managed in separate silos.</p>
-
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -704,7 +703,7 @@ With this upgrade, the Desktop Proofing Viewer will support Chrome version 98 fo
 
 ### Workfront Fusion enhancements
 
-New features in Workfront Fusion are available in Production at a cadence outside of the 22.4 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+New features in Workfront Fusion are available in Production at a cadence outside of the 22.4 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### WorkfrontScenario Planner enhancements
 
@@ -728,7 +727,7 @@ For information on API versions, see [API versioning and support schedule](/help
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the 22.3 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+For information about the maintenance updates made during the 22.3 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### 22.4 Release Webinar
 
@@ -736,7 +735,7 @@ The 22.4 release webinar will be held on Thursday, September 22, 2022 at 9:00 AM
 
 ### Training updates
 
-Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://one.workfront.com/s/training-release-updates).
+Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ### Functionality being removed with the 22.4 release
 

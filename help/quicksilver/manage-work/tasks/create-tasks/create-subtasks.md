@@ -1,17 +1,17 @@
 ---
 product-area: projects
 navigation-topic: create-tasks
-title: Create subtasks
-description: In Workfront, tasks can have parent-child relationships. Child tasks are called subtasks. You can create subtasks on the tasks list by making a main task a subtask. You can also make a subtask a main task.
+title: Create Subtasks
+description: In Adobe Workfront, tasks can have parent-child relationships. Child tasks are called subtasks. You can create subtasks on the tasks list by making a main task a subtask. You can also make a subtask a main task.
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
 ---
 # Create subtasks
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 01/2025 -->
 
-In Workfront, tasks can have parent-child relationships. Child tasks are called subtasks. You can create subtasks on the tasks list by making a main task a subtask. You can also make a subtask a main task.
+In Adobe Workfront, tasks can have parent-child relationships. Child tasks are called subtasks. You can create subtasks on the tasks list by making a main task a subtask. You can also make a subtask a main task.
 
 ## Access requirements
 
@@ -56,7 +56,7 @@ You can create subtasks from the task list or the task subtask section.
 
 1. Go to the project where you want to create subtasks.
 1. Click the **Tasks** section in the left panel.
-1. (Conditional) If the task that you want to make the child task is not already located directly beneath the task that you want make the parent, drag it to the appropriate location in the task list.
+1. (Conditional) If the task that you want to make the child task is not already located directly beneath the task that you want make the parent, drag ad drop it to the appropriate location in the task list.
 1. Select the task that you want to make a subtask and do one of the following:
 
    * Click the **Indent** icon ![](assets/indent-icon-nwe-33x29.png) to make the selected task a subtask to the task directly above it.
@@ -64,7 +64,7 @@ You can create subtasks from the task list or the task subtask section.
 
      >[!TIP]
      >
-     >The keyboard shortcuts do not work when you are editing tasks in inline edit. In this case, use the Indent icon ![](assets/cs1.png) to create subtasks.
+     >The keyboard shortcuts do not work when you are editing tasks in inline edit. In this case, use the Indent icon ![](assets/indent-icon-nwe-33x29.png) to create subtasks.
 
    * Drag and drop the task over the task you want to designate as the parent task.
 
@@ -74,15 +74,19 @@ You can create subtasks from the task list or the task subtask section.
 
 ### Create subtasks from the task Subtasks section {#create-subtasks-from-the-task-subtasks-section}
 
+>[!NOTE]
+>
+>Your Workfront or group administrator might remove the Subtasks section in your environment using a layout template.
+
 1. Go to the project where you want to create subtasks.
 1. Click the **Tasks** section in the left panel.
 1. Click the name of the task where you want to create a subtask.
-1. Click the **Subtasks** section in the left panel.
+1. Click the **Subtasks** section in the left panel, if present. 
 1. Click **New Task.**
 
    Follow the steps in the following article to continue creating the subtask: [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Click **Save Task.**
+1. Click **Create task.**
 
 ## Make a subtask a main task
 

@@ -9,9 +9,13 @@ exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
 ---
 # Manage [!DNL Adobe Workfront] notifications in [!DNL Microsoft Teams]
 
+<!--
+
 >[!NOTE]
 >
->The Adobe Workfront for Microsoft Teams integration is currently supported only for the classic Microsoft Teams experience.
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 You can receive notifications from [!DNL Adobe Workfront] about items you need to approve, assignments you've been given, or comments and changes to items you're associated with.
 
@@ -74,7 +78,7 @@ To manage the [!DNL Workfront] notifications that you can receive in [!DNL Micro
 1. Click [!DNL Workfront] in the list that appears.
 1. Select the **[!UICONTROL Settings]** tab.
 
-   ![](assets/ms-teams-settings-tab-350x552.png)
+   ![MS Teams settings tab](assets/ms-teams-settings-tab-350x552.png)
 
 1. Disable any of the notifications that you do not want to receive. You can enable or disable groups of notifications, such as information or approval notifications, or you can manage notifications individually.
 

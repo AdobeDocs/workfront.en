@@ -10,9 +10,9 @@ exl-id: 809605a0-8c24-4873-b98f-504a158be022
 
 # Use the [!UICONTROL My Updates] area
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 You can use the [!UICONTROL My Updates] area to quickly review the approvals waiting for your decision or the conversations you have been included in.
@@ -70,17 +70,13 @@ You must have the following before you begin:
 
 1. Click **[!UICONTROL My Updates]** in the **[!UICONTROL Main Menu]**.
 
-   ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+   ![My Updates in Main Menu](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
    The [!UICONTROL My Updates] area opens.
 
    The approvals and requests for access that are assigned to you are listed in the first half of the page, under **My Updates**.
 
-   <div class="preview">
-
-   ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
-   
-   </div>
+   ![My Updates mentions for reviewers](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. (Optional) Scroll to the bottom of the [!UICONTROL **My Updates**] area and click the right-pointing arrow to display more approvals that display on additional pages.
 
@@ -88,9 +84,9 @@ You must have the following before you begin:
    >
    >The first five approvals or requests for access display by default. The remaining approvals display on additional pages. You can display a maximum of 2000 approvals in the [!UICONTROL My Updates] area.
 
-   ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
+   ![Pagination for My Updates](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. (Optional) Expand the **[!UICONTROL Filter]** drop-down menu ![](assets/filter-nwepng.png) in the upper-right corner of the **[!UICONTROL My Updates]** section and select from the following:
+1. (Optional) Expand the **[!UICONTROL Filter]** drop-down menu ![Filter icon](assets/filter-nwepng.png) in the upper-right corner of the **[!UICONTROL My Updates]** section and select from the following:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -115,13 +111,13 @@ You must have the following before you begin:
 
 1. To approve or reject an item or suggest changes to a document before approving do the following:
 
-   1. (Optional) Click the **drop-down** icon ![](assets/down-arrow-blue.png) next to your approval decision (**[!UICONTROL Approve]**, **[!UICONTROL Changes]**,**[!UICONTROL Reject]**) and add a comment, then click **[!UICONTROL Add]**.
+   1. (Optional) Click the **drop-down** icon ![Dropdown icon](assets/down-arrow-blue.png) next to your approval decision (**[!UICONTROL Approve]**, **[!UICONTROL Changes]**,**[!UICONTROL Reject]**) and add a comment, then click **[!UICONTROL Add]**.
 
       Or
 
       Click **[!UICONTROL Skip]** if you do not want to enter a comment.
 
-      ![](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
+      ![Approval decision buttons with comment box](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
 
       >[!NOTE]
       >
@@ -134,7 +130,7 @@ You must have the following before you begin:
       >If you do not want to add a comment to your decision, you can click the **[!UICONTROL Approve]**, **[!UICONTROL Reject]**, or **[!UICONTROL Changes]** button and the approval decision is granted immediately.
       >
       >
-      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)      
+      >![Approval decision buttons](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)      
       >
       >For more information about approving work, see [Approving work](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
@@ -144,7 +140,7 @@ You must have the following before you begin:
 
    Expand the **[!UICONTROL Change access]** drop-down menu to modify the access requested before you grant it.
 
-   ![](assets/grant-access-button-in-my-updates-nwe-350x224.png)
+   ![Change access button](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
 1. (Optional) Click **[!UICONTROL Ignore]** to clear the access request from your approval list without granting it.
 1. Click **[!UICONTROL Delegate my approvals]** to delegate the approvals submitted to you if you are unavailable to make approval decisions for some time. For more information about delegating approvals, see [Delegate approval request](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
@@ -162,12 +158,8 @@ You must have the following before you begin:
 
       For more information about replying to updates, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
       
-      <span class="preview">When you are done adding the reply, click **[!UICONTROL Submit]**.</span>
+      When you are done adding the reply, click **[!UICONTROL Submit]**.
 
-      <div class="preview">
-      
-      ![](assets/reply-in-the-my-updates-area.png)
-      
-      </div>
+      ![Reply in the My Updates area](assets/reply-in-the-my-updates-area.png)
 
 1. (Optional) Click **[!UICONTROL Pin current page]** to pin the [!UICONTROL My Updates] area to your top navigation.

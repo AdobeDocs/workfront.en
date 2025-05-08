@@ -73,7 +73,7 @@ To view tasks in a project from a list of projects:
 
    A list of projects displays.
 
-1. Click the **[!UICONTROL Gantt chart]** icon ![](assets/gantt-icon-nwe.png) in the upper-right corner of the screen.
+1. Click the **[!UICONTROL Gantt chart]** icon ![Gantt icon](assets/gantt-icon-nwe.png) in the upper-right corner of the screen.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
@@ -107,7 +107,7 @@ You can adjust the time period shown on the [!UICONTROL Gantt Chart] to display 
 
 1. In the  [!UICONTROL Gantt Chart], click the time frame drop-down menu.
 
-   ![](assets/timeline-options.png)
+   ![Timeline options](assets/timeline-options.png)
 
 1. Select a time frame from the following available options:
 

@@ -8,7 +8,12 @@ author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
 ---
-# Resource Planner overview
+# Resource Planner overview {#resource-planner-overview}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-planner"
+>title="Resource Planner"
+>abstract="You can use the Resource Planner to estimate and budget the allocation of your resources to the projects they are assigned to, and forecast their availability for future work."
 
 <!-- Audited: 12/2023 -->
 
@@ -85,7 +90,7 @@ To successfully use the Resource Planner for budgeting your resources, you must 
 >If any of the following prerequisites are missing, you might find that some of the information about the allocation or the availability of the resources is missing or has a zero value.   
 >For more information understanding why fields are missing data or have zero values, hover over the fields.
 
-![](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
+![No users with this role](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
 
 >[!NOTE]
 >
@@ -181,7 +186,7 @@ Ensure the following task and issue setup exists before starting budgeting resou
 
 You must understand how your instance of Workfront calculates user availability according to the Resource Management Preferences in your system. Workfront can calculate user availability using the user's schedule as defined in their User Profile page, or the Default Schedule of your system.
 
-![](assets/resource-management-preferences-section-in-setup-350x89.png)
+![Management preferences](assets/resource-management-preferences-section-in-setup-350x89.png)
 
 Your Workfront administrator configures your Resource Management Preferences.
 

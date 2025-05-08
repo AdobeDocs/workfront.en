@@ -46,7 +46,7 @@ Before you can update a [!DNL Workfront] item using email content from [!DNL Goo
 
 ## Update a [!DNL Workfront] item using email content from [!DNL Google Workspace]
 
-1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the Workfront icon ![](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the Workfront icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
 1. With the email message open in [!DNL Google Workspace], click **[!UICONTROL Post as a new update]** in the [!DNL Google Workspace] panel.
 1. Under **[!UICONTROL Type]**, click the drop-down arrow, then click the type of object where you want to add the update.
 1. Click the **[!UICONTROL Search for]** option, start typing the name of the object where you want to add the update, then select the item when it appears in the list below.

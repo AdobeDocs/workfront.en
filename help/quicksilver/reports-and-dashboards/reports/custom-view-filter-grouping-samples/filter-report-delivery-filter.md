@@ -59,8 +59,16 @@ You must have the following access to perform the steps in this article:
 To apply this filter:
 
 1. Go to a list of reports.
+
 1. From the **Filter** drop-down menu, select **New Filter**.
 
 1. Click**Switch to Text Mode**.
-1. In the **Set Filter Rules for your Report** area, copy and paste the following code: `scheduledReportID=0<br>scheduledReportID_Mod=notnull`
+
+1. In the **Set Filter Rules for your Report** area, copy and paste the following code:
+
+    ```
+    scheduledReportID=0
+    scheduledReportID_Mod=notnull
+    ```
+
 1. Click **Save Filter**.

@@ -119,7 +119,7 @@ As you prepare to communicate release information to your users, consider the mo
 * Internal newsletters 
 * Email
 * Announcement Center messages (forwarded from [!DNL Workfront] or created by you)
-* Announcements on collaboration tools, such as [!DNL Slack] or [!DNL Microsoft Teams]
+* Announcements on collaboration tools, such as [!DNL Slack]
 * Internal webinars or training
 
 You can choose the balance between [!DNL Workfront] resources (such as documentation, release notes, and training) with information that is more tailored to the needs and workflows of your organization. Showing users how new features can improve their work or save time and energy will help your users embrace the changes, but you can save time by using the demos or documentation already available through [!DNL Workfront].

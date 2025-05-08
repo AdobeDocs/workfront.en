@@ -2,13 +2,15 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Goal alignment overview in Adobe Workfront Goals
+title: Goal Alignment Overview in Adobe Workfront Goals
 description: Goal alignment ensures that everyone in your organization is on the same page about what must be achieved by aligning their goals to each other and to the organizational goals of teams, groups, and the company.
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
 ---
 # Goal alignment overview in Adobe Workfront Goals
+
+<!--Audited P&P only: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -30,7 +32,7 @@ exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
 
 Goal alignment is an important part of goal management. You can ensure everyone in your organization is on the same page about what must be achieved to drive strategy forward by aligning their goals to each other and to the organizational goals of teams, groups, and the company.
 
-After the top level company, team, or grup goals are established and reviewed, direct reports and team members must then create more focused goals that cascade from the top level. The scope of these goals should be more narrow and should take into consideration the individual who is designated as responsible for the goal and their scope of influence. The goal should answer the question of what they and their team must achieve to fulfill the parent goal to which it is aligned.
+After the top level company, team, or group goals are established and reviewed, direct reports and team members must then create more focused goals that cascade from the top level. The scope of these goals should be more narrow and should take into consideration the individual who is designated as responsible for the goal and their scope of influence. The goal should answer the question of what they and their team must achieve to fulfill the parent goal to which it is aligned.
 
 For more information about best practices when aligning goals, see [Get started with Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 

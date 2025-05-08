@@ -6,7 +6,11 @@ feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
 ---
-# Manage system administrators in the Adobe Admin Console
+# Manage users in the Adobe Admin Console
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -18,7 +22,12 @@ As an Adobe administrator, you can create Adobe Workfront system administrators 
 
 >[!NOTE]
 >
->We recommend adding non-system administrator users directly in Workfront. It is possible to add users in the Adobe Admin Console, but adding them in Workfront allows you to set their access level while creating them, which can save you time.
+>* **Workfront Administrators must be configured in the Adobe Admin Console.** For information and instructions, see [Create system administrators in Workfront with the Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console) in this article.
+>* **If your organization uses Single Sign-on (SSO)**, we recommend creating users and assigning them to Workfront in the Adobe Admin Console. Creating these users in Workfront is possible, but there may be issues transferring that information to the Adobe Admin Console, based on how your organization's Admin Console is configured. 
+>   After creating the user in the Adobe Admin Console, you can configure the user's information in Workfront, such as assigning roles, groups, teams, and access levels.
+>* **If your organization does not use Single Sign-on (SSO)**, you can add non-system administrator users directly in Workfront. It is possible to add users in the Adobe Admin Console, but adding them in Workfront allows you to set their access level while creating them, which can save you time.
+
+When making changes to users' profiles from the Admin Console, an update is added to the System activity tab of the user in Workfront. The update shows as made by the "System". This refers to the Adobe Admin Console administrator and not to the Workfront main Administrator.
 
 ## Access requirements
 
@@ -38,7 +47,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe administrator rights</td> 
-   <td> <p>You must be a Product Configuration Administrator of Adobe products for your organization</p> </td> 
+   <td> <p>You must be a Product Profile Administrator of Adobe products for your organization</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,17 +95,19 @@ Before using the Admin Console for Workfront, you should receive an email inviti
   >
   >Do not make any changes to the Product Profile itself.
 
+* Adobe Admin Console administrators can set up automatic assignment rules to automate the process of assigning Adobe products to users in their organization. Your organization must be migrated to the Adobe Unified Experience to use this functionality. For more information and instructions, see [Manage automatic assignment rules](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) in the Adobe documentation.
+
 ## Access the user and admin area for your Production instance of Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
 1. From the [Adobe Admin Console page](https://adminconsole.adobe.com/), select the **Products** tab in the top navigation bar, and then select **Workfront**.
 
-   <!--![](assets/admin-product-1.png)-->
+   <!--![Admin Console product](assets/admin-product-1.png)-->
 
 1. In the list that displays, select the link at the top.
 
    This is your Production instance where your users work.
 
-   <!--![](assets/instances-1.png)-->
+   <!--![Admin Console instances](assets/instances-1.png)-->
 
    >[!TIP]
    >
@@ -107,7 +118,7 @@ Before using the Admin Console for Workfront, you should receive an email inviti
 
 1. In the list that displays, with the **Product Profiles** tab selected, click the name of the Workfront Product Profile link.
 
-   ![](assets/prod-profile-1.png)
+   ![Product profiles](assets/prod-profile-1.png)
 
    This list includes all users that are already assigned to your Production instance of Workfront.
 
@@ -133,7 +144,7 @@ You must add a user to your Production instance of Workfront before you can make
 1. Select **Add Admin**.
 1. In the **Add product profile administrators** box, enter the email addresses or names of the administrators you want to add, then select **Save**.
 
-   ![](assets/add-admin-1.png)
+   ![Add an admin](assets/add-admin-1.png)
 
    The system administrators are created in Workfront.
 
@@ -193,7 +204,7 @@ To approve a user:
 
 {{step-1-to-users}}
 
-1. Select the user, then click the **More** icon ![](assets/more-icon.png).
+1. Select the user, then click the **More** icon ![More icon](assets/more-icon.png).
 
 1. To approve the user, click **Approve**, then click **Submit**. 
 
@@ -206,10 +217,18 @@ To approve a user:
    Rejected users are automatically deleted from Workfront.
 
 
+## Edit existing users in the Adobe Admin Console
 
+You can edit the following user details in the Adobe Admin Console:
 
+* User groups and products associated with the user
+* Administrative rights
+* Country
 
+For information on editing a single user in the Adobe Admin Console, see [Edit user details](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#edit-user-details) in the article Manage users individually in the Adobe documentation.
 
+For information on bulk editing users in the Adobe Admin Console, see 
+[Edit user details](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details) in the article Manage multiple users in the Adobe documentation.
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>

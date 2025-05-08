@@ -25,9 +25,17 @@ As an [!DNL Adobe Workfront] customer, you can contact the [!DNL Workfront] Cust
 
 You can contact [!DNL Workfront Customer Support] 7 days a week, 24 hours a day, through the following numbers:
 
+* US: 866-329-5273
+* EMEA: +44 800 169 0454
+* Australia: +61 180 035 8683
+
+<!--Old numbers - before 2/10/2025:
+
 * US: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
 * Australia: +61 1800 849259
+
+-->
 
 ## Web
 

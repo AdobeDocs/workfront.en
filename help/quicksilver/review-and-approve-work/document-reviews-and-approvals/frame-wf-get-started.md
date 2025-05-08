@@ -48,7 +48,7 @@ When a user is marked as a Frame.io user in Workfront and is added to a project:
 
 For more information, see [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
-![](assets/Frame-enabled-user.png)
+![Frame enabled user](assets/Frame-enabled-user.png)
 
 
 ### Create a project connected with Frame.io
@@ -108,7 +108,7 @@ Reviewers and approvers can be added to a single-use approval workflow or a reus
     For more information, see [Create an Approval Template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 
     
-![](assets/assign-template.png)
+![Assign template](assets/assign-template.png)
 
 
 #### Access the Frame.io viewer
@@ -117,7 +117,7 @@ Users can access the Frame.io viewer in the following ways:
 
 * Workfront email notifications
 * The My approval widget in the new Workfront Home area
-    ![](assets/awaiting-my-approval.png)
+    ![Awaiting my approval](assets/awaiting-my-approval.png)
 
 >[!NOTE]
 >
@@ -139,7 +139,7 @@ Reviewers can mark their review complete inside of the Frame.io viewer, but this
 
 For more information about decisions in Workfront, see [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md). 
 
-![](assets/frame-viewer-and-decision.png)
+![Frame viewer and decision](assets/frame-viewer-and-decision.png)
 
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
@@ -152,4 +152,4 @@ Reviewer/approver needs to go through email to get to frame vier
 Project coordinators can monitor progress on all in-flight approvals in the Workfront Home area with the following widget:
 
 * **All approvals**: Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals.
-    ![](assets/all-approvals.png)
+    ![All approvals](assets/all-approvals.png)

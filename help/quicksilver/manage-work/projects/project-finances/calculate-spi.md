@@ -92,6 +92,6 @@ For example, if you have a project with 1 task and the task has 10 planned hours
    
    1. Click **Task Details** in the left panel, then view the **Finance** area.
 
-      ![](assets/spi-on-project-nwe.png)
+      ![SPI on project](assets/spi-on-project-nwe.png)
 
 1. Find the **CPI/ SPI/ CSI** field.

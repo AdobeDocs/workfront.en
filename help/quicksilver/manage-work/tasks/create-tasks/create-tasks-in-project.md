@@ -95,7 +95,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. (Conditional)&nbsp;If you clicked **New Task** do the following:
 
-   1. Specify any of the fields on the limited list of fields inside the **New Task** box, then click&nbsp;**Create Task** if you want to quickly create a task.
+   1. Specify any of the fields on the limited list of fields inside the **New Task** box, then click **Create Task** if you want to quickly create a task.
 
       Or
 

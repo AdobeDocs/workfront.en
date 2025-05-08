@@ -1,5 +1,5 @@
 ---
-title: Add Display Logic and Skip Logic to a Form
+title: Add Logic Rules to Custom Forms and Fields
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -9,9 +9,11 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
 ---
-# Add display logic and skip logic to a form
+# Add logic rules to custom forms and fields
 
-You can decide which sections of a custom form should be displayed or skipped based on the choices that a user makes when filling it out.
+Logic rules allow you to further customize the fields on your form.
+
+For example, you can display or skip fields or sections in a custom form based on the choices that a user makes when filling it out.
 
 >[!NOTE]
 >
@@ -21,7 +23,7 @@ You can decide which sections of a custom form should be displayed or skipped ba
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +53,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Display and skip logic icons
 
-Custom forms display icons to indicate which logic is applied to certain fields. Icons on a field in the form designer indicate that logic is applied to the field.
+Custom forms display icons to indicate when display or skip logic is applied to certain fields. Icons on a field in the form designer indicate that logic is applied to the field.
 
    | Icon | Location on field in form designer | Definition |
    |--- |--- |--- |
@@ -90,31 +92,92 @@ For information about custom fields and widgets in custom forms, see [Create a c
 
 Display logic defines which custom fields appear on the form when the user selects a specific value in a multiple choice field. The logic is added to the target field, which is only displayed when the value is selected.
 
+<!--
+>[!NOTE]
+>
+><span class="preview">This procedure describes the basic mode for display logic. Advanced display logic is also available. For more information, see [Add advanced display logic to a custom form](#add-advanced-display-logic-to-a-custom-form), in this article.</span>
+-->
+
 {{step-1-to-setup}}
 
 1. Click **Custom Forms**.
 1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
 1. Add fields to the form as needed. At least one multiple choice field (radio button, dropdown, or check box) must be positioned prior to the target field that will display.
-1. Select the target field and click **Add Logic** on the lower left of the screen.
-1. Select the **Display Logic** tab.
-1. Click **Add Display Rule** on the logic builder.
+1. Select the target field and click **Add Logic**.
+1. Select the **Display** tab on the logic builder.
+1. Click **Add Display Rule**.
 
-   ![Display logic builder](assets/custom-form-logic-builder-display-blank.png)
+   ![Display logic builder](assets/simple-display-logic1-val-only-in-menu.png)
 
-1. Follow the steps below in the builder to create the logic statement.
+1. Follow the steps below to create the logic statement in the builder.
 
    1. The first option is to choose the defining field. This is the field with the selection value that displays the target. It must be a multiple choice field.
    1. The second option is to choose the selection value. Only the values already defined for that field are available.
    1. The third option is **Selected** or **Not Selected**. Choosing **Selected** means that when the value is selected, the target field is displayed. Choosing **Not Selected** means that when any other value is selected in the defining field, the target field is displayed.
    1. To add an **And** rule to the logic statement, click **Add Rule** directly underneath the rule you just created. Follow the same prompts to build the rule. All of the And rules must be met for the target field to be displayed.
 
-      ![Display logic builder](assets/custom-form-logic-builder-display1.png)
+      ![Display logic builder](assets/simple-display-logic2.png)
 
    1. To add an **Or** rule to the logic statement, click **Add Rule** near the bottom of the logic builder. Then, click **Add Rule** inside the Or area and follow the same prompts to build the rule. When one Or rule is met, the target field is displayed.
 
-1. Click **Save** when you are finished building the logic statement.
+1. Click **Apply** when you are finished building the logic statement.
 
    The display logic icons are added to the target field and the defining field in the form designer.
+
+<!--
+<div class="preview">
+
+## Add advanced display logic to a custom form
+
+The advanced display logic for custom form fields allows you to build complex logic using formulas. You can apply this logic to the following field types: drop-down, radio button, checkbox, typeahead, single line text, paragraph text, date field, text with formatting, and calculated fields.
+
+### Examples
+
+You can use advanced display logic to control the visibility of custom form sections based on user roles and the visibility of a field based on another field's status.
+
+No logic is applied to the default section on the form, so it is always visible to all users.
+
+Using the following condition, the Resources Required section is only displayed when a user with the job role of Resource Manager views the form.
+
+```IF($$USER.{roleID}="123abc", true)```
+
+Note that ```123abc``` represents the role ID of the Resource Manager.
+
+![Form section displayed for role](assets/advanced-display-on-form1.png)
+
+The same condition with a different role ID is applied to the Project Financial KPIs section to define that  only the Financial Advisor role can view the section.
+
+Using the following condition, the Sold KPI field only becomes visible when the project is complete. This logic is applied directly to the field instead of to a form section. There is no need to specify which role can view the field, because that is already defined in the section that the field is in.
+
+```IF({status}="CPL", true)```
+
+![Field is visible on complete project](assets/advanced-display-on-form2.png)
+
+### Define advanced display logic
+
+{{step-1-to-setup}}
+
+1. Click **Custom Forms**.
+1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
+1. Add fields to the form as needed.
+1. Select the field to apply logic to, and click **Add Logic**.
+1. Select the **Display** tab on the logic builder.
+1. Turn on **Advanced mode**.
+   
+   This option might be turned on automatically, for fields that do not support the simple mode of display logic.
+
+   ![Advanced mode for display logic](assets/advanced-display-logic-blank-editor.png)
+
+1. Build the display condition in the editor.
+
+   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Click **Apply**.
+   
+   The logic is applied to the field and the display logic icon is added in the form designer.
+
+</div>
+-->
 
 ## Add skip logic to a custom form
 
@@ -126,24 +189,130 @@ Skip logic defines custom form fields that are skipped when the user selects a s
 1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
 1. Add fields to the form as needed. The defining field for skip logic must be a multiple choice field (radio button, dropdown, or check box).
 1. Select the defining field and click **Add Logic** on the lower left of the screen.
-1. Select the **Skip Logic** tab.
-1. Click **Add Skip Rule** on the logic builder.
+1. Select the **Skip** tab on the logic builder.
+1. Click **Add Skip Rule**.
 
-   ![Skip logic builder](assets/custom-form-logic-builder-skip-blank.png)
+   ![Skip logic builder](assets/skip-logic1-val-only-in-menu.png)
 
-1. Follow the steps below in the builder to create the logic statement.
+1. Follow the steps below to create the logic statement in the builder.
 
    1. The defining field is shown on the builder. It is the field you selected to apply the skip logic to.
    1. The first option is to choose the selection value. Only the values already defined for the field are available.
    1. The second option is **Selected** or **Not Selected**. Choosing **Selected** means that when the value is selected, the target field is displayed and the fields in between are skipped. Choosing **Not Selected** means that when any other value is selected in the defining field, the target field is displayed and the fields in between are skipped.
    1. The third option is the target field, or where to skip to. Select a field name or **End of form**. You might need to click the word "empty" first before selecting an option.
 
-      ![Skip logic builder](assets/custom-form-logic-builder-skip1.png)
+      ![Skip logic builder](assets/skip-logic2.png)
 
    1. To add an **Or** rule to the logic statement, click **Add Rule** near the bottom of the logic builder. Then, select the options following the same prompts to build the rule. When one **Or** rule is met, the target field is displayed.
 
-1. Click **Save** when you are finished building the logic statement.
+1. Click **Apply** when you are finished building the logic statement.
 
    The skip logic icons are added to the target field and the defining field in the form designer.
 
+## Add validation logic to a custom form
 
+Validation logic is built using formulas, and you can make the logic as simple or as complex as you need. The validation can be based on the values of other fields or the status of objects, and you can provide an error message for when the validation fails.
+
+If the field with the logic applied meets the defined validation conditions when a user fills out the custom form, the field is highlighted and the error message is displayed.
+
+You can apply validation logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, date, checkbox group, and radio buttons.
+
+### Examples
+
+Using the following condition, the Budget field displays a message underneath the field when the user enters a value that triggers the message. For example, if the entered value is negative, the first message is displayed. If the user tries to change the project status to Current before entering a budget value, the second message is displayed.
+
+```
+IF({DE:Budget Field} < 0,
+     "Budget cannot be negative",
+     IF({DE:Budget Field} == 0 && {status} == "CUR", "Budget must be specified before moving to Current status")
+)
+```
+
+Another simple example is that a phone number field must contain a certain number of digits to be valid.
+
+An additional example for validation based on other fields is a field for meeting room size (small, medium, or large) and a separate field for the number of meeting attendees. The number of people for each room size is written in the validation formula. If the number of attendees the user enters is too many for the chosen meeting room, the error message is displayed.
+
+### Define validation logic
+
+{{step-1-to-setup}}
+
+1. Click **Custom Forms**.
+1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
+1. Add fields to the form as needed.
+1. Select the field to apply logic to, and click **Add Logic**.
+1. Select the **Validation** tab on the logic builder.
+
+   ![Validation logic builder](assets/validation-logic-blank-editor-val-only-in-menu.png)
+
+1. Build the validation condition in the editor, including the error message to display when the validation is not met.
+
+   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Click **Apply**.
+   
+   The logic is applied to the field in the form designer.
+
+<!--
+<div class="preview">
+
+## Add formatting logic to a custom form
+
+Formatting logic highlights a field value when it meets the defined conditions. The applied formatting will work on multiple fields at once.
+
+You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
+
+Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+
+### Example
+
+Using the following condition, the Budget field appears red when the user enters a value of 1000 or more. The field appears yellow when the user enters a value of 500 or more.
+
+To add a hover-over definition of the formatting, use the Instructions field in the custom form. For example, a message on the Budget field could say "Please enter a budget within a reasonable range. Values over 500 are a warning notice, and above 1000 is considered too high."
+
+```
+IF(
+     {DE:Budget Field} >=1000,
+     FORMAT($$NEGATIVE),
+     IF({DE:Budget Field} >= 500, FORMAT($$NOTICE))
+)
+```
+
+### Define formatting logic
+
+{{step-1-to-setup}}
+
+1. Click **Custom Forms**.
+1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
+1. Add fields to the form as needed.
+1. Select the field to apply logic to, and click **Add Logic**.
+1. Select the **Formatting** tab on the logic builder.
+
+   ![Formatting logic builder](assets/formatting-logic-blank-editor.png)
+
+1. Build the formatting condition in the editor.
+
+   You can add up to five formatting rules per field.
+
+   The field highlighting color options are:
+
+   * `$$POSITIVE (green)`
+   * `$$INFORMATIVE (blue)`
+   * `$$NEGATIVE (red)`
+   * `$$NOTICE (orange)`
+   
+   The text formatting options are:
+   
+   * `$$BOLD`
+   * `$$ITALIC`
+   * `$$UNDERLINE`
+
+   Only one color option may be used per function, along with up to three additional text formatting options. If no color option is specified, the system's default color is applied.
+
+   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Click **Apply**.
+   
+   The logic is applied to the field in the form designer.
+
+</div>
+-->
