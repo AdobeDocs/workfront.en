@@ -72,7 +72,7 @@ The following conditions are required to configure a project to allow users to a
 >We recommend that the project that you set up to receive requests through emails should not have more than one queue topic. If the submitted requests are intended for different resources or projects you should route or move them manually, after they have been submitted. 
 
 1. Go to the project that you want to enable to receive issues via email.
-1. Click **Queue Details** in the left panel. You might need to click **Show More** first.
+1. Click **Queue Details** in the left panel.
 1. In the **Queue Type** area, select **Publish as Help Request Queue**.
 
 1. Scroll down to the **Email Queue Settings** area, then select **Enable Request intake via email**.
