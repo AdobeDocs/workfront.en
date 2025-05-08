@@ -117,8 +117,6 @@ To associate an existing global approval process with a project, task, issue, te
 1. Go to the work item where you want to associate an approval process.
 1. Click **Approvals** in the left panel.
 
-   You might need to click **Show More**, then click **Approvals**.
-
    ![Approvals section on task](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. ![Use existing or create single use approvals](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
@@ -187,8 +185,6 @@ To create a single-use approval process:
 1. Go to the project, task, issue, template, or template task where you want to associate an approval process. 
 1. Click **Approvals** in the left panel.
 
-   You might need to click **Show More** > **Approvals**.
-
    ![Approvals section on task](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Click **Create single-use**.
@@ -225,8 +221,6 @@ To remove or delete an approval process from a work item:
 
 1. Go to the project, task, issue, template, or template task where you want to remove an approval process that you previously added. 
 1. Click **Approvals** in the left panel.
-
-   You might need to click **Show More** > **Approvals**.
 
    ![Approvals section on task](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
