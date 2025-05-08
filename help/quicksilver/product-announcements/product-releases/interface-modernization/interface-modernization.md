@@ -41,7 +41,7 @@ We have updated the page you use to grant support access to your Workfront accou
 
 ### Interface update for the Announcement Center
 
-**Preview release: February 27, 2025; To be announced**
+**Preview release: February 27, 2025; Starting the week of March 6, 2025**
 
 We have updated the Announcement Center with a more modern design that is consistent with other areas of Workfront. 
 
@@ -65,7 +65,7 @@ To view the settings, go to Setup > Teams.
 
 ### Interface update for approval process settings in Setup
 
-**Preview release: February 6, 2025; Production release: To be announced**
+**Preview release: February 6, 2025; Production release: Starting the week of February 13, 2025**
 
 We have updated the Approval settings dialog box with a more modern design that is consistent with other areas of Workfront.
 
@@ -171,7 +171,7 @@ This update includes visual changes to the area. No functionality has changed.
 
 ### Interface updates for team requests
 
-**Preview release: March 6, 2025; Production release: To be announced**
+**Preview release: March 6, 2025; Production release: March 13, 2025**
 
 We have updated the Team Requests page with a more modern design that is consistent with other areas of Workfront.
 
