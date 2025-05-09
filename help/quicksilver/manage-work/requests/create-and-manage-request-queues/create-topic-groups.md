@@ -74,7 +74,7 @@ To create a Topic Group:
 1. Go to the project that you published as a Help Request Queue.  
    For more information about publishing a project as a Help Request Queue, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Click **Topic Groups** in the left panel. You might need to click **Show More**, then **Topic Groups**. 
+1. Click **Topic Groups** in the left panel. 
 1. Click **New Topic Group**.
 
    ![](assets/new-topic-group-box-nwe-350x306.png)

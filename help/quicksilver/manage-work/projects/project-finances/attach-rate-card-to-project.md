@@ -63,7 +63,7 @@ For more detail about the information in this table, see [Access requirements in
 ## Attach a rate card to a project
 
 1. Go to the project.
-1. Click **Billing Rates** in the left panel. You might have to first click **Show More**.
+1. Click **Billing Rates** in the left panel.
 1. Click **Add Billing Rate > Attach a Rate Card**.
    
    The Attach a rate card page opens. For more information, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).

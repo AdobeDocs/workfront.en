@@ -23,32 +23,39 @@ If there are any groups above your group, their administrators can also do these
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td >Workfront plan</a>*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td>Adobe Workfront license</a>*</td> 
-   <td> <p>Plan </p> <p>You must be a group administrator of the group or a Workfront administrator. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront license</td>
+   <td><p>New: Standard</p>
+       <p>Or</p>
+       <p>Current: Plan</p></td>
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td>You must be a group administrator of the group or a system administrator.</td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Object permissions</td>
    <td> 
     <ul> 
      <li> <p>The project must be associated with the group or any of its subgroups. </p> <p>For information about assigning a group to a project, see <a href="../../../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref">Manage information in the project Overview area</a>.</p> </li> 
-     <li> <p>Also, you must have permissions to edit the project, either because you created it or it was shared with you.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </li> 
-    </ul> <p><b>NOTE</b>: When you create a project from a group's page, the system assigns the project to that group. This is different from creating a project in other Workfront areas, where the system assigns the project to the Home Group of the user who creates it (the Project Owner).</p> </td> 
+     <li> <p>Also, you must have permissions to edit the project, either because you created it or it was shared with you.</p></li> 
+    </ul>
+    <p><b>NOTE</b>: When you create a project from a group's page, the system assigns the project to that group. This is different from creating a project in other Workfront areas, where the system assigns the project to the Home Group of the user who creates it (the Project Owner).</p> </td>
+  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

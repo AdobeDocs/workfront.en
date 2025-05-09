@@ -11,7 +11,7 @@ exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
 
 When you provide access to a request queue, you determine who in your organization can view the request queue in the Requests area of Adobe Workfront.
 
-You can provide different users access to a Request Queue, depending on whether they are part of the project team, project group, or project company. You can also provide access to everyone in the system to a request queue.&nbsp;
+You can provide different users access to a Request Queue, depending on whether they are part of the project team, project group, or project company. You can also provide access to everyone in the system to a request queue. 
 
 This is useful in organizations that invite external stakeholders into Workfront and wish to limit the access of users to specific areas — in this case a request queue open just to the users associated with the company or group of the project limits visibility to external stakeholders. Giving access to anyone makes the request visible to both internal and external stakeholders.
 
@@ -66,14 +66,14 @@ Before the request queue is available for users in the Requests area, you must c
    >
    >Only projects with a status of Current are visible in the Requests area.
 
-1. Click&nbsp;**Queue Details** in the left panel. You might need to click&nbsp;**Show More**, then **Queue Details**. 
-1. Select **Publish as Help Request Queue**&nbsp;to designate the project as a Request Queue.
+1. Click **Queue Details** in the left panel. 
+1. Select **Publish as Help Request Queue** to designate the project as a Request Queue.
 1. Select from the following options:
 
    * **Anyone**: Any user can view and add requests to the request queue.
-   * **People with view access to this project**:&nbsp;Users that have View permissions to the project can view and add requests to the request queue.&nbsp;
-   * **People in this project's company**:&nbsp;Users associated with the project's Company&nbsp;can view and add requests. The Company associated with the project is listed in parentheses next to this option.&nbsp;
-   * **People in this project's group**:Users associated with the project's Group can view and add requests. The Group&nbsp;associated with the project is listed in parentheses next to this option.
+   * **People with view access to this project**: Users that have View permissions to the project can view and add requests to the request queue. 
+   * **People in this project's company**: Users associated with the project's Company can view and add requests. The Company associated with the project is listed in parentheses next to this option. 
+   * **People in this project's group**:Users associated with the project's Group can view and add requests. The Group associated with the project is listed in parentheses next to this option.
 
      Group queues are useful when several departments share a Workfront account to achieve unique organizational goals. Each department may have its own queues that members of other groups should not be able to see.
 
