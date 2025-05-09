@@ -152,7 +152,7 @@ You can choose to look at task assignments for a project in the following catego
 You can interact with the charts in the Metrics area to look at different aspects of a chart or look more closely at the tasks and issues within a chart.
 
 1. Go to the project you want to see metrics for.
-1. In the left panel, click **Show More** to display more sections, then click **Metrics**.  
+1. In the left panel, click **Metrics**.  
    The charts in the Metrics area display information for tasks by default.  
    ![](assets/metrics-section-350x298.png)
 

@@ -61,7 +61,9 @@ Consider the following when adding projects to portfolios:
 
    >[!TIP]
    >
-   >You cannot add project when you view the list of projects in the [!UICONTROL Milestone] view.
+   >You cannot add a project when you view the list of projects in the [!UICONTROL Milestone] view.
+
+   ![Add existing project](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
    Select from the following options:
 
@@ -94,9 +96,13 @@ Consider the following when adding projects to portfolios:
 
    ![New project dropdown](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Conditional) If you selected to add an existing project, start typing the name of a project in the **[!UICONTROL Add Projects]** box, then click them when they appear in the list. You may add several projects at a time.
+1. (Conditional) If you selected to add an existing project, start typing the name of a project in the **[!UICONTROL Add Projects to this Portfolio]** field, then click them when they appear in the list. 
 
-   ![Add existing project](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
+   You can add more than one project.
+
+1. (Optional) Click the **X** icon to the right of the project name to remove it from the list, if you decide not to add it to the portfolio.
+
+   <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
 
 1. Click **[!UICONTROL Add Projects]**.
 

@@ -110,10 +110,6 @@ To create a baseline:
 1. Go to a project. 
 1. In the left panel, click **Baselines**.
 
-   Or
-
-   Click **Show More**, then click **Baselines**.
-
    ![Baselines section on project](assets/baselines-section-on-project-with-header.png)
 
 1. Click **New Baseline.**

@@ -25,38 +25,42 @@ The questions and answers chosen for a scorecard must be quantifiable in order t
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
+You must have the following access:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Current: [!UICONTROL Business] or higher</p> 
-   Or
-   <p>New: [!UICONTROL Prime] or higher</p>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>New: [!UICONTROL Prime] or higher</p>
+   <p>Current: [!UICONTROL Business] or higher</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td><p>Current: [!UICONTROL Plan]</p>
-   Or
-   <p>New: [!UICONTROL Standard]</p>
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td><p>New: [!UICONTROL Standard]</p>
+   <p>Current: [!UICONTROL Plan]</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Create a scorecard
 
+You can create a scorecard from scratch, or you can copy an existing one. 
+
+To create a scorecard from scratch: 
+
 {{step-1-to-setup}}
 
-1. Click **[!UICONTROL Scorecards]**, then click **[!UICONTROL New Scorecard]** to launch the scorecard builder and create a scorecard.
+1. Click **[!UICONTROL Scorecards]**, then click **[!UICONTROL New Scorecard]**. This opens the **New Scorecard** box.
+
+   <!--add screen shot at unshim-->
 
 1. Specify a **[!UICONTROL Scorecard Name]** and a **[!UICONTROL Description]**.
 
@@ -98,6 +102,25 @@ For more detail about the information in this table, see [Access requirements in
 
    These creates the scorecard and project managers can now attach it to their project business case. 
 
+## Copy an existing scorecard
+
+You can create a scorecard by copying and editing an existing one. 
+
+{{step-1-to-setup}}
+
+1. Click **[!UICONTROL Scorecards]** in the left panel. 
+1. Select a scorecard in the list, then click the **Copy** icon ![Copy scorecard icon](assets/copy-scorecard-icon.png) at the top of the scorecard list. 
+   The **Copy Scorecard** box opens.
+
+   <!--add screen shot at unshim-->
+1. Specify the following information:
+
+   * **Scorecard**: Type the name of the scorecard.  By default, the name is automatically updated according to the following format: 
+
+      `Original scorecard name (Copy)`
+   * **Description**: Type additional information about the scorecard. 
+1. Click **Save**.
+
 ## Apply a scorecard to a project
 
 A user with [!UICONTROL manage] permissions to a project can apply a scorecard to a project, after the scorecard has been created by the [!DNL Workfront] administrator.
@@ -105,3 +128,5 @@ A user with [!UICONTROL manage] permissions to a project can apply a scorecard t
 A scorecard is added to a project as part of creating a business case for the project. For more information about adding a scorecard to a project, see [Apply a scorecard to a project and generate an Alignment Score](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
 For more information about project permissions, see [Share a project in [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+
+

@@ -92,7 +92,7 @@ If you set up a project to require approval on the hours logged, the project man
 To approve or reject hours on a project:
 
 1. Go to the project.
-1. Click the **Hours** area in the left panel. This might be located under the **Show More** area.   
+1. Click the **Hours** area in the left panel.  
 
 1. The hours logged for issues, tasks, and the project display and should have a status of **Submitted**.  
    Click the box to the left of the hour entries to select the hours you want to approve.
