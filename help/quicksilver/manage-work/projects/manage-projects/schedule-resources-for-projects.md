@@ -2,16 +2,20 @@
 product-area: projects;resource-management
 navigation-topic: manage-projects
 title: Schedule resources for a project
-description: You can schedule resources for a single project to indicate what work each resource is assigned to as well as how much time they should spend completing their work. You can schedule resources for a project and allocate hours to each resource using the Scheduling tool or the Workload Balancer at the project level.
-author: Alina
+description: You can schedule resources for a single project to indicate what work each resource is assigned to as well as how much time they should spend completing their work. You can schedule resources for a project and allocate hours to each resource using the Workload Balancer at the project level.
+author: Alina, Lisa
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
 ---
 # Schedule resources for a project
 
-You can schedule resources for a single project to indicate what work each resource is assigned to as well as how much time they should spend completing their work. You can schedule resources for a project and allocate hours to each resource using the Scheduling tool or the Workload Balancer at the project level.
+<!--Audited: 5/2025-->
+
+You can schedule resources for a single project to indicate what work each resource is assigned to as well as how much time they should spend completing their work. You can schedule resources for a project and allocate hours to each resource using the Workload Balancer at the project level.
 
 ## Access requirements
+
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article:
 
@@ -44,26 +48,20 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Schedule resources for a project
 
-To access the Scheduling tool in a project:
+You can use the Workload Balancer to schedule resources for a project. 
 
 1. Go to the project for which you want to schedule resources.
-1. Click the **Scheduling** or Workload Balancer section in the left panel. The Scheduling or Workload Balancer section might be located under **Show More**.
-
-   For information about scheduling resources using the Scheduling tool in a project, see the "Modify user assignments and allocations" section in the article "Get started with Resource Scheduling".
-
-1. (Conditional and recommended) If you clicked Scheduling, click **Switch to Workload Balancer** to schedule resources using the Workload Balancer.
-
-   >[!TIP]
-   >
-   >If you have selected Workload Balancer before, the name of the section changes to Workload Balancer.
+1. Click **Workload Balancer** in the left panel. 
 
    For information about scheduling resources using the Workload Balancer, see the following articles:
 
    * [Overview of assigning work in the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md) 
    * [Manage user allocations in the Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
-&nbsp;
+
