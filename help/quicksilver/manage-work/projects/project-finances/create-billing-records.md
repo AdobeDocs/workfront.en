@@ -67,9 +67,6 @@ Consider the following when planning to use billing records:
 
 1. Navigate to a project.
 1. Click **Billing Records** in the left panel.
-
-   This section might be located under **Show More**.
-
 1. With **Billing Record Details** selected in the left panel, click **New Billing Record**.
 1. In the **New Billing Record** box that displays, specify the following information:
 
@@ -152,17 +149,13 @@ You can add hours to a billing record when the following conditions are met:
 * If **Require time to be approved for this project** is checked under Project Settings, then the Project Owner must approve the hours logged.  
   For more information about requiring approval on project hours, see the article [Require time to be approved for a project](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).
 
-#### Add Hours to a billing record {#add-hours-to-a-billing-record}
+#### Add hours to a billing record {#add-hours-to-a-billing-record}
 
 To add billable hours to a billing record:
 
 1. Go to the project with the billing records.
 1. Click **Billing Records** in the left panel.
-
-   This section might be located under **Show More**.
-
 1. Click the **Description** of a billing record to open the **Billing Record Details** tab.
-
 1. Click **Billable Hours** in the left panel.
 1. If there are hours that could be included in a billing record, click **Add Hours**.  
    The **Add Billable Hours** box opens.
@@ -184,11 +177,7 @@ To add billable expenses to a billing record:
 
 1. Go to the project with the billing records.
 1. Click **Billing Records** in the left panel.
-
-   You might have to click **Show More**, then **Billing Records**. 
-
 1. Click the **Description** of a billing record to open the **Billing Record Details** tab.
-
 1. Click **Billable Expenses** in the left panel. 
 1. (Conditional) If you have added expenses to your tasks or the project and have marked them as Billable, click **Add Expenses**.
 
@@ -209,11 +198,7 @@ To add fixed revenues to a billing record:
 
 1. Go to the project with the billing records.
 1. Click **Billing Records** in the left panel.
-
-   You might have to click **Show More**, then **Billing Records**.
-
 1. Click the **Description** of a billing record to open the **Billing Record Details** tab.
-
 1. Select the **Fixed Revenues** tab.
 1. If you have added fixed revenues to your tasks, click **Add Fixed Revenues**.
 

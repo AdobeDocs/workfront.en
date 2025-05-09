@@ -447,7 +447,7 @@ To track the progress or cost of one or more projects with a Utilization report:
 
    * To view utilization information for a single project:
 
-      1. Go to a project for which you want to view utilization information, then click **Show More> Utilization**. 
+      1. Go to a project for which you want to view utilization information, then click **Utilization** in the left panel.
       1. Utilization information is displayed automatically when viewing an individual project, and applying a filter is not required.   
          If you want to filter the Utilization report, you can apply a filter, then click **Run**.  
          For information about how to filter the Utilization report, see [Filter utilization information](#filter-utilization-information) in this article.   
