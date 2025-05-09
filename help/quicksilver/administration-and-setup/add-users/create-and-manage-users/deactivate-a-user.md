@@ -9,7 +9,12 @@ feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
 ---
-# Deactivate or reactivate a user
+# Deactivate or reactivate a user {#deactivate-or-reactivate-a-user}
+
+>[!CONTEXTUALHELP]
+>id="wf_users_deactivate_user"
+>title="Deactivate a user"
+>abstract="Deactivating a user removes them from Workfront and Frame.io."
 
 <!--Audited 2/2024-->
 
@@ -175,3 +180,4 @@ When you schedule a user for deactivation, they no longer appear in the Resource
 The Resource Planner takes into account all the job roles of the users and Planned Completion Dates of the tasks and calculates resources accordingly.
 
 For more information about the Resource Planner, see [Resource Planner overview](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+
