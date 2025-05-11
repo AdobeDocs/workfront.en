@@ -403,7 +403,7 @@ feature-set: Workfront
   * Set up Workfront {#set-up-wf}
     * [Set up](administration-and-setup/set-up-workfront/set-up-workfront.md)
     * Configure system defaults {#configure-system-defaults}
-      * [Configure defaults](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
+      * [Configure system defaults: article index](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
       * [Configure project preferences](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
       * [Configure task and issue preferences](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
       * [Lock project preferences for groups](administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
@@ -1456,7 +1456,7 @@ feature-set: Workfront
     * [Delegate tasks and issues overview](manage-work/delegate-work/delegate-work-overview.md)
     * [Delegate tasks and issues](manage-work/delegate-work/how-to-delegate-work.md)
 * Teams and groups {#teams-groups}
-  * [Teams and groups](people-teams-and-groups/people-teams-and-groups.md)
+  * [Teams and groups: article index](people-teams-and-groups/people-teams-and-groups.md)
   * Create and manage teams {#create-manage-teams}
     * [Create and manage teams](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
     * [Teams overview](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
