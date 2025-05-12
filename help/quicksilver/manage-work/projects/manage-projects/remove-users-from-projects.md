@@ -67,7 +67,7 @@ To remove users from the Project Team:
 
 1. Go to the project where you want to remove the users.
 
-1. Click **People** in the left panel, then select the users you want to remove. You might need to click **Show More**, then **People**.   
+1. Click **People** in the left panel, then select the users you want to remove. 
 
 1. Click the **Remove** icon  ![Remove item](assets/remove-icon---x-in-circle.png) at the top of the list of users.
 

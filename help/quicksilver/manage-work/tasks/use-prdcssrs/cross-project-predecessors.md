@@ -66,7 +66,7 @@ You must have the following access to perform the steps in this article:
 ## Create a cross-project predecessor
 
 1. Go to the task that will be your successor (dependent task). 
-1. Click **Predecessors** in the left panel. You might have to click **Show More**, and then **Predecessors**. 
+1. Click **Predecessors** in the left panel.
 
    >[!TIP]
    >

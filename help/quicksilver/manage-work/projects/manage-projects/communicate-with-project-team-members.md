@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
 ## Send an email to a Project Team member {#send-an-email-to-a-project-team-member}
 
 1. Go to a project whose members of the project team you want to send an email to. 
-1. Click **People** in the left panel. You might need to click **Show More** first.
+1. Click **People** in the left panel. 
 
    To update all members of the project team, click **Update All** in the upper-left corner of the list of project team members.
 
@@ -85,7 +85,7 @@ You can send project updates to team members and to other users that might not b
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: drafted. No longer valid)</p>
 <ol>
 <li value="1"> <p>Go to a project whose members of the project team you want to send an email to. </p> </li>
-<li value="2"> Click <strong>Show More</strong>, then <strong>People</strong> in the left panel.</li>
+<li value="2"> Click <strong>People</strong> in the left panel.</li>
 <li value="3"> <p>To update all members of the project team, click <strong>Update All</strong> in the upper-left corner of the list of project team members.</p> <p>Or</p> <p>To update certain members of the project team, select one or several users in the list, then click <strong>Update</strong>. </p> </li>
 <li value="4">Type your update in the <strong>Post an update to this project</strong> field.</li>
 <li value="5"> <p>(Optional) To make the update private, click the <strong>Lock</strong> icon.</p> <p>Users outside the company cannot view a private&nbsp;update.</p> </li>
