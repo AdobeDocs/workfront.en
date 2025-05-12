@@ -7,6 +7,7 @@ description: This article provides examples of expressions used to build advance
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
+exl-id: caf889d6-08a3-4186-9d9c-3cea3a0e4548
 ---
 # Examples of advanced logic in custom forms
 
