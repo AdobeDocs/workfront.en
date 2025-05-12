@@ -118,12 +118,14 @@ If a user who is not the project owner tries to type in the field, they see a me
 
 ### Typeahead allows or rejects values based on other field values
 
-In this example, a typeahead field dynamically allows or rejects values based on the value entered in another field on the form. The option to override the validation is also included in the formula.
+In this example, a typeahead field dynamically allows or rejects values based on the value entered in another field on the form.
 
 Validation expression:
 
 ```
-IF({DE:DV - Override}!="Disable Validation"&&{DE:DV - Text - Budget}>"10000"&&{DE:DV - TA User - by Budget}.{role}!="Director","Requires Director Approver")
+IF({DE:DV - Text - Budget}>"10000",
+   IF({DE:DV - TA User - by Budget}.{role}!="Director","Requires Director Approver")
+)
 ```
 
 If the value in the budget field is more than $10,000, then only users with a Director role can be selected from the typeahead, even if there is no role filter enabled on the typeahead configuration.
