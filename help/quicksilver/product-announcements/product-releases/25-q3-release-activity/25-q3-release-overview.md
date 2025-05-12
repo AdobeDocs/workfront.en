@@ -50,6 +50,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+      <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assets in a linked Google folder must be added individually to appear in Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Google is <a href="https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps">enhancing security controls</a>
+            for third-party applications accessing Google Drive, requiring applications to adopt a per-user consent model. As a result, individual assets must be linked one at a time to be visible in Workfront. See <a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md">Configure document integrations</a>
+             for more information. </p>
+        </td>
+        <td>May 31, 2025</td>
+        <td>May 31, 2025</td>
+        <td>May 31, 2025</td>
+    </tr>  
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New document approval decision buttons available in proofing viewer</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -151,15 +162,19 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Release notes for other areas
 
-* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
-* [Adobe Workfront Planning Third Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md).
+### Workfront Fusion enhancements
+
+New features in Workfront Fusion are available in Production at a cadence outside of the standard release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+
+### Workfront Planning enhancements
+
+New features in Workfront Planning are available in Production. For more information about the latest features, see [Adobe Workfront Planning Third Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md).
 
 There are no updates for the following at this point in the release:
 
 * Scenario Planner
 * Proof
 * Goals
-
 
 ### API version 20
 

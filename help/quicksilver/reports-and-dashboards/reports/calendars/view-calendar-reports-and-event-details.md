@@ -84,9 +84,9 @@ For more detail about the information in this table, see [Access requirements in
 
 1. (Optional) If you are viewing the calendar in the [!UICONTROL Month] or [!UICONTROL Week] views, you can change your calendar view with the following options:
 
-   * To include or exclude weekends:
+<!--   * To include or exclude weekends:
 
-      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.
+      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
    * To quickly change the displayed dates:
 

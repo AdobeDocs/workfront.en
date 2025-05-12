@@ -128,10 +128,6 @@ You must have the following access to access Workfront Planning:
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
 
 
-
-
-
-
 ## Share the Planning area using a layout template
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning program.--> 

@@ -116,7 +116,7 @@ For more information on teams in Workfront, see [Teams overview](/help/quicksilv
 {{step1-to-projects}}
 
 1. Click the name of a project to open the project page.
-1. Click **Workload Balancer** in the left panel. You might have to click **Show More**, then **Workload Balancer**.
+1. Click **Workload Balancer** in the left panel.
 
    The Workload Balancer for the project displays.
 

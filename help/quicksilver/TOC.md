@@ -1270,7 +1270,7 @@ feature-set: Workfront
   * Tasks {#tasks}
     * [Tasks: article index](manage-work/tasks/tasks-overview.md)
     * Task information {#task-information}
-      * [Task information](manage-work/tasks/task-information/task-information.md)
+      * [Task information: article index](manage-work/tasks/task-information/task-information.md)
       * [Tasks overview](manage-work/tasks/task-information/tasks-overview.md)
       * [View Actual Hours](manage-work/tasks/task-information/actual-hours.md)
       * [Task Tracking Mode overview](manage-work/tasks/task-information/task-tracking-mode.md)
@@ -1433,7 +1433,7 @@ feature-set: Workfront
       * [Optimize projects in the Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
       * [Calculate the Risk to Net Value in a portfolio](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
   * Requests {#requests}
-    * [Requests](manage-work/requests/requests-overview.md)
+    * [Requests: article index](manage-work/requests/requests-overview.md)
     * Create and manage Request Queues {#create-and-manage-request-queues}
       * [Create and manage Request Queues](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
       * [Create a Request Queue](manage-work/requests/create-and-manage-request-queues/create-request-queue.md)

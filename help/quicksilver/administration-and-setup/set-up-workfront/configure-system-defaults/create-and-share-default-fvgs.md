@@ -60,6 +60,7 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}
 
+
 1. Click **[!UICONTROL Interface]**, then click one of the following: **[!UICONTROL Filters]**, **[!UICONTROL Views]**, or **[!UICONTROL Groupings]**.
 
 1. If you're creating a filter, view, or grouping, click **[!UICONTROL Add Filter]**, **[!UICONTROL Add View]**, or **[!UICONTROL Add Grouping]**, then select the object type you want to associate the new filter, view, or grouping with.

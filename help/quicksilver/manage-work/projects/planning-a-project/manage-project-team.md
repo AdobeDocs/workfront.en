@@ -115,7 +115,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. Go to the project you want to add users to. 
 
-1. Click **People** in the left panel. You might need to click **Show More** first.
+1. Click **People** in the left panel. 
 
 1. Click **Add users**. 
 
