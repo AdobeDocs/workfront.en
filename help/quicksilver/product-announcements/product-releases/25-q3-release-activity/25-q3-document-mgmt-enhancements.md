@@ -12,9 +12,14 @@ This page describes all document management enhancements made with the Third Qua
 
 For a list of all changes available at this point in the Third Quarter 2025 release cycle, see [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
->[!IMPORTANT]
->
->The features listed on this page are part of a phased release and are only available for specific customers.
+## Desktop Proofing Viewer Update
+
+The Desktop Proofing Viewer has been updated to version 2.1.48.
+
+This update is an issue fix to keep the Desktop Viewer compatible with Mac operating systems. Electron was downgraded to 34.4.0 and Chromium was downgraded to 132. 
+
+This update is for both Mac and Windows. 
+
 
 ## Assets in a linked Google folder must be added individually to appear in Workfront
 
@@ -37,6 +42,10 @@ Key capabilities that remain unchanged:
 
 
 ## New document approval decision buttons available in proofing viewer
+
+>[!IMPORTANT]
+>
+>This feature is part of a phased release and are only available for specific customers.
 
 >[!NOTE]
 >

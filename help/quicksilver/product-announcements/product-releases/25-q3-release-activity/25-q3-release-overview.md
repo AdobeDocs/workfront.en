@@ -50,6 +50,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer Update</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>This update is an issue fix to keep the Desktop Viewer compatible with Mac operating systems. Electron was downgraded to 34.4.0 and Chromium was downgraded to 132.</p>
+        </td>
+        <td>May 7, 2025</td>
+        <td>May 7, 2025</td>
+        <td>May 7, 2025</td>
+    </tr> 
       <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assets in a linked Google folder must be added individually to appear in Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
