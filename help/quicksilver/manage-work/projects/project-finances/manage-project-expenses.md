@@ -52,14 +52,13 @@ For more detail about the information in this table, see [Access requirements in
 ## Add Expenses
 
 1. Go to the project where you want to enter expenses.  
-   If you want to add expenses to a task, navigate to a task instead.&nbsp;
-1. Click **Show More**, then click **Expenses**.
-1. Click **Add an Expense** .
+   If you want to add expenses to a task, navigate to a task instead.
+1. Click **Expenses** in the left panel.
+1. Click **Add an Expense**.
    The **Add an Expense** dialog box is displayed.
 1. Update the following:
 
-   * **Description:** Description of the expense.  
-
+   * **Description:** Description of the expense.
    * **Expense Type:** (Required) Select the category that best describes the expense.
    * **Task:** Begin typing the name of the task that this expense is associated with, then click it when it appears in the drop-down list.
    * **Planned Amount:** The planned budgeted amount for the expense.  
@@ -80,8 +79,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Delete Expenses
 
-1. Go to the&nbsp;project where you want to delete expenses.
-1. Click**Show More**, then click **Expenses**.
+1. Go to the project where you want to delete expenses.
+1. Click **Expenses** in the left panel.
 1. Select the expenses that you want to delete, then click **Delete** ![Delete](assets/delete.png).
-
 1. Click **Yes, Delete It** to confirm deletion.

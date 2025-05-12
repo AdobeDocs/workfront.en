@@ -82,7 +82,7 @@ For information, see [Manage the timeline view](/help/quicksilver/planning/views
 >[!NOTE]
 >
 >* Preview: April 17, 2025
->* Production fast release: May 15, 2025
+>* Production fast release: June 12, 2025
 >* Production for all customers: July 17, 2025
 
 To better control who can view or manage records in each record type and ensure that only authorized people can manage each record type's information based on their roles and responsibilities, we have introduced permissions at the record type level. 
