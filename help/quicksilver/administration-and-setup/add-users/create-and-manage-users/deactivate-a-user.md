@@ -3,13 +3,18 @@ title: Deactivate or Reactivate a User
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: As a Workfront administrator, you can deactivate or reactivate a user.
+description: Workfront administrators can deactivate or reactivate a user.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
 ---
-# Deactivate or reactivate a user
+# Deactivate or reactivate a user {#deactivate-or-reactivate-a-user}
+
+>[!CONTEXTUALHELP]
+>id="wf_users_deactivate_user"
+>title="Deactivate a user"
+>abstract="Deactivating a user removes them from Workfront and Frame.io. Deactivated users can be reactivated later."
 
 <!--Audited 5/2025-->
 
@@ -175,3 +180,4 @@ When you schedule a user for deactivation, they no longer appear in the Resource
 The Resource Planner takes into account all the job roles of the users and Planned Completion Dates of the tasks and calculates resources accordingly.
 
 For more information about the Resource Planner, see [Resource Planner overview](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+
