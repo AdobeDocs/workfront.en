@@ -3,7 +3,7 @@ title: Deactivate or Reactivate a User
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: As a Workfront administrator, you can deactivate or reactivate a user.
+description: Workfront administrators can deactivate or reactivate a user.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -14,7 +14,7 @@ exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
 >[!CONTEXTUALHELP]
 >id="wf_users_deactivate_user"
 >title="Deactivate a user"
->abstract="Deactivating a user removes them from Workfront and Frame.io."
+>abstract="Deactivating a user removes them from Workfront and Frame.io. Deactivated users can be reactivated later."
 
 <!--Audited 5/2025-->
 
