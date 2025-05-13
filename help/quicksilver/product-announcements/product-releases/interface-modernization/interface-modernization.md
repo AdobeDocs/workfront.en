@@ -31,7 +31,7 @@ For more information, see [Search [!DNL Adobe Workfront]](/help/quicksilver/work
 
 ### Interface update for granting support access to your Workfront account
 
-**Preview release: April 24; Production release: To be announced**
+**Preview release: April 24; Production release: Starting the week of May 1, 2024**
 
 We have updated the page you use to grant support access to your Workfront account with a more modern design that is consistent with other areas of Workfront. 
 
@@ -339,6 +339,22 @@ We have added a new Edit Text Mode button and editing modal to the following are
 +++
 
 ## Users 
+
+## Updated look for the login page
+
+**Preview release: May 12, 2024; Production release: To be announced**
+
+We have updated the login page with a more modern design that is consistent with other areas of Workfront. 
+
+## Updated look for reset password page
+
+**Preview release: May 12, 2024; Production release: To be announced**
+
+We have updated the reset password screen with a more modern design that is consistent with other areas of Workfront. This update includes updates to the following pages:
+
+* Password almost expired 
+* Expired password
+* Temporary password
 
 ### Updated document share page for external users
 
