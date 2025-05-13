@@ -26,12 +26,13 @@ We have updated the Advanced Search area with the following changes:
 
 * Added a new Full Search tab. On this tab, you can search by type, entered by, entry date, category, and last updated by.
 * The filter on the  Advance Search tab is slightly different. Now, the filter is not prepopulated. You must toggle it on and build the filter from scratch. The filter does not remain if the page is refreshed. 
+* The Advanced Search is now full screen. You must navigate away from the page rather than closing the dialog.
 
 For more information, see [Search [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ### Interface update for granting support access to your Workfront account
 
-**Preview release: April 24; Production release: To be announced**
+**Preview release: April 24; Production release: Starting the week of May 1, 2024**
 
 We have updated the page you use to grant support access to your Workfront account with a more modern design that is consistent with other areas of Workfront. 
 
@@ -231,7 +232,13 @@ To view this change, go to Teams > choose a team > Backlog, then click **New sto
 
 ## Documents 
 
-+++Expand to view Documents interface updates
+### Share a document with an external email address
+
+**Preview release: May 15, 2025; Production release: To be announced**
+
+We have updated the share dialog box to allow users to share documents with external users using an email address. This funtionality was temporarily unavailable due to the interface modernization work.
+
++++Expand to view more Documents interface updates
 
 ### Interface updates when requesting a document
 
@@ -339,6 +346,22 @@ We have added a new Edit Text Mode button and editing modal to the following are
 +++
 
 ## Users 
+
+### Updated look for the login page
+
+**Preview release: May 15, 2024; Production release: To be announced**
+
+We have updated the login page with a more modern design that is consistent with other areas of Workfront. 
+
+### Updated look for reset password page
+
+**Preview release: May 15, 2024; Production release: To be announced**
+
+We have updated the reset password screen with a more modern design that is consistent with other areas of Workfront. This update includes updates to the following pages:
+
+* Password almost expired 
+* Expired password
+* Temporary password
 
 ### Updated document share page for external users
 
