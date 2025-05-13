@@ -169,6 +169,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * 
 -->
 
+## Interface modernization
+
+We are updating the interface throughout Adobe Workfront to improve the user experience and unify it with other Adobe applications. These changes are released outside the standard release schedule. For a list of these changes, see [Interface Modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
 ## Release notes for other areas
 
 ### Workfront Fusion enhancements

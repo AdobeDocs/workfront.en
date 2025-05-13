@@ -12,6 +12,12 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the Third Quarter 2025 release, see [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
+
+
+# Interface modernization
+
+We are updating the interface throughout Adobe Workfront to improve the user experience and unify it with other Adobe applications. These changes are released outside the standard release schedule. For a list of these changes, see [Interface Modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
 ## Look and feel update for the More menu options for comments
 
 >[!NOTE]
