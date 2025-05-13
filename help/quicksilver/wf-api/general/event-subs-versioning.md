@@ -26,7 +26,6 @@ For information on the endpoints used for upgrading or downgrading event subscri
 >The following releases will affect event subscription versioning:
 >
 >* **25.2 Release** (April 10, 2025): All new subscriptions created after the 25.2 release are created as Version 2.
->* **25.3 Release** (July 17, 2025): Subscriptions can no longer be downgraded to Version 1 after the 25.3 release.
 >* **January 15, 2026**: All remaining Version 1 subscriptions are migrated to Version 2.
 
 ## Changes between Version 1 and Version 2
