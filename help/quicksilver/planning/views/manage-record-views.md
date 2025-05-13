@@ -35,7 +35,7 @@ This article describes the following information about record views:
 
 * [Create and edit a view](#create-or-edit-record-views) 
 * [Delete a view](#delete-views)
-* [Duplicate a view](#duplicate-views)
+* [Duplicate a view](#duplicate-a-view)
 * [Enable the real-time presence indicators in a view](#enable-the-real-time-presence-indicator-in-a-view)
 <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 

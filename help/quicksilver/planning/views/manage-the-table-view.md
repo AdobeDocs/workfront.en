@@ -521,7 +521,7 @@ When you display the table view, you can also view which field another user is e
 
 For more information, see the "Enable the real-time presence indicator" section in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
-<div class="preview">
+<!--<div class="preview">
 
 ## Export the table view
 
@@ -567,3 +567,5 @@ To export information from the table view or a record type:
     You can now share the exported files with others, or attach them to any communication. 
     
  </div>   
+
+ -->

@@ -165,7 +165,7 @@ To manage a timeline view:
 
 1. (Optional) Click **Breakdown** to display connected records on the timeline. 
 
-    For information, see the section [Use the Breakdown feature to display connected records in the timeline view](#break-down-connected-records-in-the-timeline-view)
+    For information, see the section [Use the Breakdown feature to display connected records in the timeline view](#break-down-connected-records-in-the-timeline-view) in this article. 
 
 ### Add filters
 
@@ -260,15 +260,22 @@ Update the timeline view settings to indicate what and how information displays 
 
 1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 1. Click **Settings**. 
-1. Click **Date and time** in the left panel, then select a **Start date** and an **End date** to display on the timeline. You can choose the default Start and End dates, or you can choose any date field available. The bars representing the records start on the date that you indicate for the Start date and end on the date corresponding with the End date. 
+1. Click **Date and time** in the left panel, then select a **Start date** and an **End date** to display on the timeline. You can choose the default Start and End dates, or you can choose any date field available. 
+
+    The bars representing the records start on the date that you indicate for the Start date and end on the date corresponding with the End date. 
 
     >[!NOTE]
     >
-    >Records that have no values for the Start or the End dates or have a Start date later than the End date do not display in the timeline view.
+    >* Records that have no values for the Start or the End dates or have a Start date later than the End date do not display in the timeline view.
+    >
+    >* If you display additional records using the Breakdown option, the Start and End dates are those of the main record. You cannot choose Start and End dates for the connected records in this area. 
 
-1. Click **Bar style** in the left panel, to indicate what information you want to display on the record bars. 
+1. Click **Bar style** in the left panel, to indicate what information you want to display on the record bars.
 
-    The primary field (or title) of the record, as defined in the record's table view, is selected by default. <!--adjust this when the primary field is released??-->
+    <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+
+    The primary field (or title) of the record, as defined in the record's table view, is selected by default.
+    <!--adjust this when the primary field is released??-->
 
 1. (Optional and conditional) If you added thumbnails to records, select the Thumbnail option to display the image associated with records in their record bar. 
 
@@ -300,10 +307,13 @@ Update the timeline view settings to indicate what and how information displays 
     >
     >* <span class="preview">If you break down the timeline view to display connected objects, the Truncate bar details setting applies only to the main record type. It does not apply to the connected record bars.</span> 
 
+    <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. Click **Color** in the left panel, to customize the colors of the records and groupings in the timeline. 
 
     ![Color tab timeline view](assets/color-tab-timeline-view.png)
+
+    <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
 
 1. (Conditional and optional) If you added a grouping to the timeline view, select from the following options to set a color for the grouping in the **Set grouping color** section:
 
@@ -342,9 +352,13 @@ Update the timeline view settings to indicate what and how information displays 
 
     If you do not have a field with color-coded options for the selected record type, this option is dimmed.
 
+    <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+
 1. Click **Save**.
 
     The records display in the timeline view with the specifications that you selected.
+
+
 
 ### Break down connected records in the timeline view
 
@@ -352,7 +366,8 @@ You can display connected records in a record's timeline view by using the Break
 
 #### Considerations when using the Breakdown feature
 
-* You can display connected records or objects under the records of the selected record type in the timeline view. 
+* You can display connected records or objects under the records of the selected record type in the timeline view.
+* You can display connected records in the timeline view only when viewing the records in Standard mode. You cannot use the Breakdown option in the Compact mode of the timeline view.  
 * You can display the following in the timeline view, using the Breakdown feature:
     * Workfront Planning records connected to the selected record type. 
     * Workfront object types or Experience Manager assets connected to the selected record type.
