@@ -50,6 +50,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer Update</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>This update is an issue fix to keep the Desktop Viewer compatible with Mac operating systems. Electron was downgraded to 34.4.0 and Chromium was downgraded to 132.</p>
+        </td>
+        <td>May 7, 2025</td>
+        <td>May 7, 2025</td>
+        <td>May 7, 2025</td>
+    </tr> 
       <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assets in a linked Google folder must be added individually to appear in Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -168,7 +177,7 @@ New features in Workfront Fusion are available in Production at a cadence outsid
 
 ### Workfront Planning enhancements
 
-New features in Workfront Planning are available in Production. For more information about the latest features, see [Adobe Workfront Planning Third Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md).
+New features in Workfront Planning are available in Production. For more information about the latest features, see [Adobe Workfront Planning Third Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md).
 
 There are no updates for the following at this point in the release:
 
