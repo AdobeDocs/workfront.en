@@ -26,6 +26,7 @@ We have updated the Advanced Search area with the following changes:
 
 * Added a new Full Search tab. On this tab, you can search by type, entered by, entry date, category, and last updated by.
 * The filter on the  Advance Search tab is slightly different. Now, the filter is not prepopulated. You must toggle it on and build the filter from scratch. The filter does not remain if the page is refreshed. 
+* The Advanced Search is now full screen. You must navigate away from the page rather than closing the dialog.
 
 For more information, see [Search [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
 
