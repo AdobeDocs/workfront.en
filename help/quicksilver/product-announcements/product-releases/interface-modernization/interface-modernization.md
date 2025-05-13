@@ -38,7 +38,7 @@ We have updated the page you use to grant support access to your Workfront accou
 
 ## Administration and Setup
 
-+++Expand to view Administration and Setup interface updates
++++Expand to view Administration and Setup interface updates made in Q2
 
 ### Interface update for the Announcement Center
 
@@ -168,7 +168,7 @@ This update includes visual changes to the area. No functionality has changed.
 
 ## Agile
 
-+++Expand to view Agile interface updates
++++Expand to view Agile interface updates made in Q2
 
 ### Interface updates for team requests
 
@@ -238,7 +238,7 @@ To view this change, go to Teams > choose a team > Backlog, then click **New sto
 
 We have updated the share dialog box to allow users to share documents with external users using an email address. This funtionality was temporarily unavailable due to the interface modernization work.
 
-+++Expand to view more Documents interface updates
++++Expand to view Documents interface updates made in Q2
 
 ### Interface updates when requesting a document
 
@@ -278,17 +278,17 @@ To view this change, go to a Documents > Click the more menu next to the Smart F
 
 ## Reports and Dashboards
 
++++Expand to view Reports and Dashboards interface updates made in Q2
+
 ### Updated Access Level report with new styling
 
-**Preview release: TBD; Production release: Starting the week of February 6, 2025**
+**Preview release: January 30, 2024; Production release: Starting the week of February 6, 2025**
 
 We have updated the Access Level report with a more modern design that is consistent with other areas of Workfront.
 
 This update includes visual changes to the report. No functionality has changed.
 
 To create an Team report, go to Reports > New Report > Access Level.
-
-+++Expand to view more Reports and Dashboards interface updates
 
 ### Updated Team report with new styling
 
