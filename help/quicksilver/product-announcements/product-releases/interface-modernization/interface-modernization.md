@@ -232,7 +232,13 @@ To view this change, go to Teams > choose a team > Backlog, then click **New sto
 
 ## Documents 
 
-+++Expand to view Documents interface updates
+### Share a document with an external email address
+
+**Preview release: May 15, 2025; Production release: To be announced**
+
+We have updated the share dialog box to allow users to share documents with external users using an email address. This funtionality was temporarily unavailable due to the interface modernization work.
+
++++Expand to view more Documents interface updates
 
 ### Interface updates when requesting a document
 
@@ -341,15 +347,15 @@ We have added a new Edit Text Mode button and editing modal to the following are
 
 ## Users 
 
-## Updated look for the login page
+### Updated look for the login page
 
-**Preview release: May 12, 2024; Production release: To be announced**
+**Preview release: May 15, 2024; Production release: To be announced**
 
 We have updated the login page with a more modern design that is consistent with other areas of Workfront. 
 
-## Updated look for reset password page
+### Updated look for reset password page
 
-**Preview release: May 12, 2024; Production release: To be announced**
+**Preview release: May 15, 2024; Production release: To be announced**
 
 We have updated the reset password screen with a more modern design that is consistent with other areas of Workfront. This update includes updates to the following pages:
 
