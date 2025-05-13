@@ -280,7 +280,7 @@ To view this change, go to a Documents > Click the more menu next to the Smart F
 
 ### Updated Access Level report with new styling
 
-**Preview release: TBD; Production release: Starting the week of February 6, 2025**
+**Preview release: January 30, 2024; Production release: Starting the week of February 6, 2025**
 
 We have updated the Access Level report with a more modern design that is consistent with other areas of Workfront.
 
