@@ -97,7 +97,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">My approvals widget now automatically sorts by deadline </a><p></p>
-            <p>We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent tasks appear at the top of the list. </p>
+            <p>We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list. </p>
         </td>
         <td>May 15, 2025</td>
         <td>May 15, 2025</td>

@@ -13,7 +13,7 @@ For a list of all changes available at this point in the Third Quarter 2025 rele
 
 ## My approvals widget now automatically sorts by deadline
 
-We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent tasks appear at the top of the list.
+We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list.
 
 Previously, the widget sorted by entry date, which made it challenging to determine priority.
 
