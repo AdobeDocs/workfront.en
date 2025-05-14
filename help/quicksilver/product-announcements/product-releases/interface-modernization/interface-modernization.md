@@ -90,6 +90,11 @@ We have updated the license agreement page with a more modern design that is con
 
 ## Interface updates made in Q2
 
+
+### Administration and Setup
+
++++Expand to view Administration and Setup interface updates made in Q2
+
 ### Interface updates to the Resource Management area in Setup
 
 **Preview release: April 17, 2025; Starting the week of April 17, 2025**
@@ -97,10 +102,6 @@ We have updated the license agreement page with a more modern design that is con
 We have updated the look and feel of the Resource Management preferences in the Setup area, to match the design of other areas of Workfront.
 
 For information, see [Configure Resource Management preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
-
-### Administration and Setup
-
-+++Expand to view Administration and Setup interface updates made in Q2
 
 ## Interface updates to a Milestone Path list in Setup
 
