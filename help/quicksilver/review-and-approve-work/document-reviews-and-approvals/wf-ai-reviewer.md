@@ -14,6 +14,12 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 
 must be on Unified Approvals
 
+## Access needed
+
+Set up:
+
+Add and use: 
+
 ## Supported file types {#supported-file-types-ai-reviewer}
 
 >[!CONTEXTUALHELP]
@@ -21,8 +27,7 @@ must be on Unified Approvals
 >title="Unsupported file type"
 >abstract="This AI reviewer doesn't support the selected file type. Upload a supported file type, or remove the AI reviewer to submit the request."
 
-
-Supported file types 
+The AI Reviewer is able to review the following file types:
 
 * PNG (.png)
 * JPEG (.jpeg, .jpg)
@@ -30,6 +35,10 @@ Supported file types
 * Non-animated GIF (.gif)
 
 ## Set up brand guidelines
+
+Where?
+
+[New article]
 
 ## Set up AI Reviewer
 
@@ -39,9 +48,15 @@ Choose brand
 
 Choose brand category 
 
+[new article]
+
 ## Add AI reviewer to an approval workflow
 
 ### Template 
+
+add an ai reviewer to a tempalte.
+
+[Create an Approval Template for assets and documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 
 ### Adhoc 
 
@@ -58,3 +73,5 @@ Highlights guidelines that need attention
 Add new version and AI reviewer again 
 
 Can add approval templates – can add AI reviewer 
+
+[Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
