@@ -241,6 +241,7 @@ feature-set: Workfront
       * [Workfront Proof release activity: Week of November 29, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
     * Interface modernization {#interface-modernization}
       * [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
+      * [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/hidden-interface-modernization.md)
     * Quarterly release archive {#quarterly-release}
       * [Quarterly release archive](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
       * 20.4 release {#release-20-4}
