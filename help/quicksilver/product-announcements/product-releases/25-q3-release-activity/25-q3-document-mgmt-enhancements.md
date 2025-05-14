@@ -1,6 +1,6 @@
 ---
-title: Third Quarter 2025 Project enhancements
-description: Third Quarter 2025 Project enhancements
+title: Third Quarter 2025 Document management enhancements
+description: Third Quarter 2025 Document management enhancements
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
