@@ -18,6 +18,50 @@ For a list of all changes available with the Third Quarter 2025 release, see [Th
 
 We are updating the interface throughout Adobe Workfront to improve the user experience and unify it with other Adobe applications. These changes are released outside the standard release schedule. For a list of these changes, see [Interface Modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
+## Look-and-feel-updates to a group's recently restored items
+
+>[!NOTE]
+>
+>Preview release: May 15, 2025; Production release for all customers: May 15, 2025
+
+We have updated the look and feel of the recently restored items for groups, to match the design of other areas of Workfront. No functionality has changed for recently restored group projects, tasks, requests, documents, or templates.
+
+To view this change, go to Setup > Groups > Select name of group > Recently Restored.
+
+For information, see [View and manage a group's recently restored items](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+
+## Look-and-feel-updates to the Diagnostics page in Setup
+
+>[!NOTE]
+>
+>Preview release: May 15, 2025; Production release for all customers: May 15, 2025
+
+We have updated the look and feel of the Diagnostics page in the Setup area, to match the design of other areas of Workfront.
+
+To view this change, go to Setup > System > Diagnostics.
+
+For information, see [Use Diagnostics to trigger automated processes](/help/quicksilver/administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+
+## Look-and-feel changes for the Copy Template box
+
+>[!NOTE]
+>
+>Preview release: May 15, 2025; Production release for all customers: May 15, 2025
+
+We have updated the look and feel of the Copy Template box to match the design of other areas of Workfront. 
+
+For information, see [Copy a project template](help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
+
+## Look and feel updates when adding a billing rate to a template
+
+>[!NOTE]
+>
+>Preview release: May 15, 2025; Production release for all customers: May 15, 2025
+
+We have updated the interface when adding a billing rate to a template, to match other areas of the application.  
+
+No functionality changes have been introduced with this update.
+
 ## Look and feel update for the More menu options for comments
 
 >[!NOTE]
