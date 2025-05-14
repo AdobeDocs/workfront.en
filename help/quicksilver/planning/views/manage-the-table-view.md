@@ -1,6 +1,6 @@
 ---
 title: Manage the Table View
-description: You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront Planning. This article describes how you can create a table view and edit or delete an existing one.
+description: You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront Planning. This article describes how you can create or edit a table view edit and how to enable real-time presence indicators for the view or how to export it to a CSV or Excel file. 
 feature: Workfront Planning
 role: User
 author: Alina
@@ -18,6 +18,12 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront Planning. 
 
 For information about record views and how to manage them, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
+
+This article describes the following information:
+
+* [Create or edit columns and rows in a table view](#manage-a-table-view)
+* [Enable real-time presence indicators for the table view](#enable-the-real-time-presence-indicator)
+<!--* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>-->
 
 ## Access requirements
 
@@ -519,7 +525,21 @@ The avatars of other users who are editing record information at the same time a
 
 When you display the table view, you can also view which field another user is editing at the time you are viewing the record. 
 
-For more information, see the "Enable the real-time presence indicator" section in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. Go to a record type page and open any view.
+1. (Conditional) If there are other users editing the records of the selected type at the same time, their avatars display in the upper-right corner of the view. 
+1. Click the drop-down menu next to the avatars, the select the **Show collaborators** toggle. The toggle is selected by default. 
+
+    ![Show collaborators toggle selected](assets/show-collaborators-toggle-selected.png)
+
+1. (Conditional) Open a table view, and the field which another person is actively editing is highlighted in the color corresponding to the outline of their avatar in the table view. 
+
+    If the highlight color of the avatar is gray, the user stopped actively editing the record more than 30 seconds ago. 
+
+    ![Real-time indicator table field and avatar connection](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+    >[!TIP]
+    >
+    >You can select the **Show collaborators** toggle from any view. The field currently edited by others is outlined only in the table view. 
 
 <!--<div class="preview">
 
