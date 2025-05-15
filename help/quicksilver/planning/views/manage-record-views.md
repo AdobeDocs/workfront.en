@@ -162,6 +162,7 @@ The following table shows the similarities and differences between the table, ti
 | Display records by year and quarter                    |           | ✓              |    |
 | Display records by month                    |           | ✓              |  ✓  |
 | Display records by week                    |           |               |  ✓  |
+|<span class="preview">Export information from a view</span>                   | <span class="preview">✓</span>          |               |    |
 
 
 ## Create or edit views {#create-or-edit-views}
