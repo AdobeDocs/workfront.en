@@ -12,6 +12,12 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 ---
 # Get started with the Workfront AI Reviewer
 
+Increase content velocity and optimize brand compliance with AI Reviewers. Get started with the Workfront AI Reviewer.
+
+Automatically increase brand compliance with AI Reviewers.
+
+Check brand guideline adherence in seconds with the AI Reviewer. 
+
 must be on Unified Approvals
 
 ## Access needed
@@ -37,6 +43,12 @@ The AI Reviewer is able to review the following file types:
 ## Set up brand guidelines
 
 Where?
+
+https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/overview
+
+https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines
+
+
 
 [New article]
 
