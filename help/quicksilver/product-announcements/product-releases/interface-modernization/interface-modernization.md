@@ -547,11 +547,13 @@ We have added a new Edit Text Mode button and editing modal to the following are
 
 +++
 
-### Updates and comments
+### Updates and Comments
 
-### Look and feel update for the More menu options for comments
++++Expand to view Updates and Comments interface updates made in Q2
 
-**Preview release: April 17, 2024; Production release: Starting the week of April 17, 2024**
+### Interface update for the More menu options for comments
+
+**Preview release: April 17, 2024; Production release: April 17, 2024**
 
 We have updated the look and feel for the options available in the More menu of a comment in the Updates section for all objects.  
 
