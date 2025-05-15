@@ -92,8 +92,6 @@ You must have the following access to perform the steps in this article:
 
 ## Manage a timeline view {#manage-a-timeline-view}
 
-<!--insert screen shot of timeline view-->
-
 When creating a timeline view, all records of the selected record type display in a chronological timeline.
 
 Consider the following: 
@@ -272,7 +270,7 @@ Update the timeline view settings to indicate what and how information displays 
 
 1. Click **Bar style** in the left panel, to indicate what information you want to display on the record bars.
 
-    <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+    <span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>
 
     The primary field (or title) of the record, as defined in the record's table view, is selected by default.
     <!--adjust this when the primary field is released??-->
@@ -303,17 +301,14 @@ Update the timeline view settings to indicate what and how information displays 
 
     >[!TIP]
     >
-    >* <span class="preview">The Truncate bar details setting is not available when displaying the timeline view in Compact mode, and it is not available in the Calendar view.</span>
+    ><span class="preview">The Truncate bar details setting is not available when displaying the timeline view in Compact mode, and it is not available in the Calendar view.</span>
     >
-    >* <span class="preview">If you break down the timeline view to display connected objects, the Truncate bar details setting applies only to the main record type. It does not apply to the connected record bars.</span> 
-
-    <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. Click **Color** in the left panel, to customize the colors of the records and groupings in the timeline. 
 
     ![Color tab timeline view](assets/color-tab-timeline-view.png)
 
-    <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+    <span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>
 
 1. (Conditional and optional) If you added a grouping to the timeline view, select from the following options to set a color for the grouping in the **Set grouping color** section:
 
@@ -352,7 +347,7 @@ Update the timeline view settings to indicate what and how information displays 
 
     If you do not have a field with color-coded options for the selected record type, this option is dimmed.
 
-    <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+    1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>
 
 1. Click **Save**.
 
@@ -404,9 +399,18 @@ You can display connected records in a record's timeline view by using the Break
     >    The Start and End dates must be sequential. If the End date is before the Start date, no records will display in the timeline. 
 
     A right-pointing arrow displays on the selected record's bar in the timeline, if they they are connected with other records. 
-1. Click the right-pointing arrow to expand a record type and display is connections. 
+1. Click the right-pointing arrow to expand a record type and display its connections. 
 
     ![Campaigns broken down by programs in the timeline view](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)    
+
+    >[!IMPORTANT]
+    >
+    >    When you display multiple connected records in the breakdown, they are not in hierarchical order. 
+    >
+    >For example, if you are viewing the campaigns' timeline and you add Products and then Programs to the breakdown, Programs are not necessarily connected to the Products first. 
+    >
+    >Both Products and Programs must be connected to the campaigns to display as choices for the breakdown option, and you can add them to the breakdown in any order.
+
 
 1. (Optional) Repeat the steps above to add more connected records. 
 
