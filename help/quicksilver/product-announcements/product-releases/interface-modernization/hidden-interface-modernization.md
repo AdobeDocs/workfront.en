@@ -6,6 +6,7 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
+exl-id: c0bf438f-f496-420a-b3b6-b958c8a70d3f
 ---
 # Interface modernization
 
