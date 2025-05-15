@@ -1,12 +1,12 @@
 ---
 title: Duplicate Record Views
-description: If you want to keep multiple versions of a view and make slight changes between the versions, you can duplicate a view in Adobe Workfront Planning. This article describes how you can duplicate a view. 
+description: If you want to keep multiple versions of a view and make slight changes between the versions, you can duplicate a view in Adobe Workfront Planning. This article describes how you can duplicate a view.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
+exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
 ---
-
 # Duplicate record views
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -108,9 +108,9 @@ You must have the following access to perform the steps in this article:
     The record type page opens. 
     By default, all the records of the type selected display in the table view. 
 
-1. Hover over the tab of the view you want to duplicate, and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Duplicate**. 
+1. <span class="preview">Hover over the tab of the view you want to duplicate, and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Duplicate**. </span>
 
-    ![View more menu on a record view](assets/view-more-menu-with-duplicate-option.png)
+    <span class="preview">![View more menu on a record view](assets/view-more-menu-with-duplicate-option.png)</span>
 
     
-    The view is duplicated and the new view's name follows the following pattern: `Original view's name (Copy)`. The new view tab displays at the end of all view tabs. 
+    The view is duplicated and the new view's name follows the following pattern: `Original view's name (Copy)`. The new view tab displays at the end of all view tabs.
