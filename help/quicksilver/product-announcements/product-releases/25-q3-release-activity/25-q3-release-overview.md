@@ -82,7 +82,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>     
   </tbody>
 </table> 
-    
+
+<!--
+
 ### Home enhancements
 
 <table style="table-layout:auto">
@@ -105,6 +107,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>     
   </tbody>
 </table> 
+
+-->
     
 ### Reporting enhancements
 

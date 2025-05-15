@@ -1,9 +1,11 @@
 ---
 title: Third Quarter 2025 Home enhancements
 description: Third Quarter 2025 Home enhancements
-author: Nolan
+author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+hide: yes
+hidefromtoc: yes
 ---
 # Third Quarter 2025 Home enhancements
 
