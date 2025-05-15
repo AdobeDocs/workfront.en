@@ -6,6 +6,7 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
+exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
 ---
 # Third Quarter 2025 Home enhancements
 
@@ -18,4 +19,3 @@ For a list of all changes available at this point in the Third Quarter 2025 rele
 We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list.
 
 Previously, the widget sorted by entry date, which made it challenging to determine priority.
-
