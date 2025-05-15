@@ -1094,7 +1094,7 @@ Adding the following items to a template is identical to adding them to a projec
 
 * Billing Rates
 
-  For more information about overriding billing rates for a project, see [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Adding billing rates for a template is similar to adding billing rates to a project. For more information, see [Override Job Role Billing Rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 * Expenses
 
