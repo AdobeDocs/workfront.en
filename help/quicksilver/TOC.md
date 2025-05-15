@@ -242,6 +242,7 @@ feature-set: Workfront
       * [Workfront Proof release activity: Week of November 29, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
     * Interface modernization {#interface-modernization}
       * [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
+      * [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/hidden-interface-modernization.md)
     * Quarterly release archive {#quarterly-release}
       * [Quarterly release archive](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
       * 20.4 release {#release-20-4}
@@ -2100,6 +2101,8 @@ feature-set: Workfront
     * [Manage the table view](planning/views/manage-the-table-view.md)
     * [Manage the timeline view](planning/views/manage-the-timeline-view.md)
     * [Manage the calendar view](planning/views/manage-the-calendar-view.md)
+    * [Delete record views](planning/views/delete-record-views.md)
+    * [Duplicate record views](planning/views/duplicate-record-views.md)
   * Adobe Workfront Planning notifications {#adobe-workfront-planning-notifications}
     * [Adobe Workfront Planning notifications: Article index](planning/notifications/notifications-information.md)
     * [Manage Adobe Workfront Planning notification preferences](planning/notifications/manage-notification-preferences.md)
