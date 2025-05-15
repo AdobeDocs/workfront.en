@@ -67,7 +67,7 @@ Prior to this enhancement, connection fields could not be populated when you imp
 
 For information, see the following articles:  
 
-* [Create records by importing information from a CSV or Excel file](help/quicksilver/planning/records/import-file-to-create-records.md).  
+* [Create records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md).  
 
 * [Create record types by importing information from a CSV or Excel file](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
