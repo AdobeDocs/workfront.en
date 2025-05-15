@@ -549,7 +549,9 @@ We have added a new Edit Text Mode button and editing modal to the following are
 
 +++
 
-### Updates and comments
+### Updates and Comments
+
++++Expand to view Updates and Comments interface updates made in Q2
 
 ### Look and feel update for the More menu options for comments
 
@@ -564,3 +566,5 @@ This update includes the following changes:
 * Highlighted the Delete action by displaying it in red. 
 
 For information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
++++
