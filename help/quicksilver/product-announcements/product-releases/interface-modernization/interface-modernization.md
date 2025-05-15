@@ -17,6 +17,37 @@ This page lists interface updates we are making throughout Adobe Workfront to im
 For all other changes to Adobe Workfront, see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 
+## Admin and Setup
+
+### Interface updates to a group's recently restored items
+
+**Preview release: May 15, 2025; Production release: May 15, 2025**
+
+We have updated the look and feel of the recently restored items for groups, to match the design of other areas of Workfront. No functionality has changed for recently restored group projects, tasks, requests, documents, or templates.
+
+To view this change, go to Setup > Groups > Select name of group > Recently Restored.
+
+For information, see [View and manage a group's recently restored items](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+
+
+### Interface updates to the Diagnostics page in Setup
+
+**Preview release: May 15, 2025; Production release: May 15, 2025**
+
+We have updated the look and feel of the Diagnostics page in the Setup area, to match the design of other areas of Workfront.
+
+To view this change, go to Setup > System > Diagnostics.
+
+For information, see [Use Diagnostics to trigger automated processes](/help/quicksilver/administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+
+### Interface updates when adding a billing rate to a template
+
+**Preview release: May 15, 2025; Production release: May 15, 2025**
+
+We have updated the interface when adding a billing rate to a template, to match other areas of the application.  
+
+No functionality changes have been introduced with this update.
+
 ## Documents 
 
 ### Share a document with an external email address
