@@ -76,8 +76,28 @@ For more information, see [Search [!DNL Adobe Workfront]](/help/quicksilver/work
 
 We have updated the page you use to grant support access to your Workfront account with a more modern design that is consistent with other areas of Workfront. 
 
+## Reports and Dashboard
+
+### URLs with /tile or /qstile no longer supported in Workfront Dashboards
+
+**Preview release: May 13; Production release: To be announced**
+
+If you have an external page on a Dashboard with a Workfront URL that contains `/tile` or `/qstile`, that page will no longer load.
+
+Adding `/tile` or `/qstile` to a Workfront URL allowed the browser to load unsupported classic experience pages that were deprecated in July of 2022.
+
+We recommend replacing the URL to go to a supported page, or removing the external page from your Dashboard.
+
 
 ## Users 
+
+### Interface update to the new user registration page
+
+**Preview release: May 15, 2024; Production release: To be announced**
+
+We have updated the new user registration page with a more modern design that is consistent with other areas of Workfront.
+
+Users no longer have the option to upload a photo on this page. However, they can upload a photo in their user profile once they log in to Workfront.
 
 ### Updated look for the login page
 
@@ -116,7 +136,6 @@ We have updated the external user registration page with a more modern design th
 **Preview release: April 24, 2024; Production release: Starting the week of May 8, 2024**
 
 We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.
-
 
 
 ## Interface updates made in Q2
