@@ -196,9 +196,9 @@ To share a view publicly in Workfront Planning:
 
    This opens the record type page.
 
-1. From the view tab, hover over the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. <span class="preview">From the view tab, hover over the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. </span>
 
-   ![More menu for views expanded with share option](assets/more-menu-for-views-expanded-with-share-option.png)
+   <span class="preview">![More menu for views expanded with share option](assets/more-menu-for-views-expanded-with-share-option.png)</span>
 
 1. Click **Public sharing**.
 
