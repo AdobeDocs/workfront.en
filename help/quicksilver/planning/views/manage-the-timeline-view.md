@@ -270,7 +270,7 @@ Update the timeline view settings to indicate what and how information displays 
 
 1. Click **Bar style** in the left panel, to indicate what information you want to display on the record bars.
 
-    <span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>
+    You can define the bar style of  the main record <span class="preview">as well as for the connected records</span>, when using the Breakdown option in the Standard view. 
 
     The primary field (or title) of the record, as defined in the record's table view, is selected by default.
     <!--adjust this when the primary field is released??-->
@@ -308,7 +308,7 @@ Update the timeline view settings to indicate what and how information displays 
 
     ![Color tab timeline view](assets/color-tab-timeline-view.png)
 
-    <span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>
+    You can define the color of  the main record <span class="preview">as well as for the connected records</span>, when using the Breakdown option in the Standard view. 
 
 1. (Conditional and optional) If you added a grouping to the timeline view, select from the following options to set a color for the grouping in the **Set grouping color** section:
 
