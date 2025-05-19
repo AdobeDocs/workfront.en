@@ -232,6 +232,8 @@ Another simple example is that a phone number field must contain a certain numbe
 
 An additional example for validation based on other fields is a field for meeting room size (small, medium, or large) and a separate field for the number of meeting attendees. The number of people for each room size is written in the validation formula. If the number of attendees the user enters is too many for the chosen meeting room, the error message is displayed.
 
+For additional examples of validation logic, see [Examples of advanced logic in custom forms](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md).
+
 ### Define validation logic
 
 {{step-1-to-setup}}

@@ -16,6 +16,61 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Update the timeline view settings to define the look and feel of the connected records' bars when using the Breakdown option 
+
+>[!NOTE]
+>
+>* Preview: May 15, 2025
+>* Production fast release: June 12, 2025 
+>* Production for all customers:  July 17, 2025
+
+You can now format the look and feel of the record bars in the timeline view for the records in the breakdown. You can update the following settings for the bars of these records: 
+
+* Bar style  
+* Color 
+
+Prior to this enhancement, you could only format the bars of the main records as they display in the timeline view, and you could not format the bars of the connected records.  
+ 
+For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).  
+
+## Export the table view to a CSV or Excel file 
+
+>[!NOTE]
+>
+>* Preview: May 15, 2025
+>* Production fast release: June 12, 2025 
+>* Production for all customers:  July 17, 2025
+
+We have added a new capability to Workfront Planning where you can export information visible in the table view to a CSV or an Excel file.  
+
+Consider the following when exporting information from the table view:  
+
+* The information exported takes into account the filters, groupings, and sorts applied to the table view in Workfront Planning.
+* Thumbnails and custom row colors are not supported in the exported file.  
+* Only fields made visible in the Workfront interface are exported. Hidden fields are not exported.  
+
+For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+
+## Workfront Planning connected fields are now supported when importing records using a CSV or Excel file
+
+>[!NOTE]
+>
+>* Preview: May 15, 2025
+>* Production fast release: June 12, 2025 
+>* Production for all customers:  July 17, 2025
+
+You can now populate the values of connected fields when you add records to a record type using a CSV or Excel file.  Only connected Planning record fields are supported. Fields displaying connections to other applications are not supported. 
+
+This change is supported when importing a CSV and Excel file to create both a record type and records for an existing record type. 
+
+Prior to this enhancement, connection fields could not be populated when you imported records.  
+
+For information, see the following articles:  
+
+* [Create records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md).  
+
+* [Create record types by importing information from a CSV or Excel file](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
+
 ## Inline editing in the Connected records page of a record
 
 >[!NOTE]
@@ -82,7 +137,7 @@ For information, see [Manage the timeline view](/help/quicksilver/planning/views
 >[!NOTE]
 >
 >* Preview: April 17, 2025
->* Production fast release: May 15, 2025
+>* Production fast release: June 12, 2025
 >* Production for all customers: July 17, 2025
 
 To better control who can view or manage records in each record type and ensure that only authorized people can manage each record type's information based on their roles and responsibilities, we have introduced permissions at the record type level. 

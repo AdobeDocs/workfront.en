@@ -30,7 +30,7 @@ You must have the following access.
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td><p>New: Standard</p> 
-   <p>Current:Plan </p> </td> 
+   <p>Current: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -75,9 +75,14 @@ The following items are never copied from an existing template to a new one:
 1. Click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) to the right of the template name in the header, then click **Copy**.
 
    The **Copy Template** box opens.
+
+   <!--![Copy template box](assets/copy-template-box.png)-->
+
 1. Specify a name for the template in the **New Template Name** field.
 
    By default, the new name is `Copy of Original template name`.
 
-1. Select whether you want to **Retain user assignments on tasks and template**: select this option to carry all task and template assignments from the original template to the new template.
+1. Select the **Retain user assignments on tasks and template** option, if you want to carry all task and template assignments from the original template to the new template. Template task assignments, and the Template Owner and Sponsor are transferred to the copied template. 
 1. Click **Save** to create a copy of the template.
+
+   The new template displays in the template list in the Template area of Workfront. 

@@ -205,7 +205,14 @@ Use the sharing feature to give appropriate permissions to employees to views an
 
     >[!NOTE]
     >
-    >Right now, we don't have specific permissions for record types or records, so this means that all records in any of the record types are visible if you grant someone **View** access to the workspace.   
+    >Right now, we don't have specific permissions for record types or records, so this means that all records in any of the record types are visible if you grant someone **View** access to the workspace.  
+
+<!--
+#### How should I manage permissions to record types?
+
+* ✅ Remember that users with Manage permissions to workspaces cannot have their permissions lowered for the record type. They will also inherit Manage permissions to the record type. You cannot give a user Manage permissions on the workspace but Contribute or View permissions on the record type. 
+* ✅ If you want users to have a lower permission level (for example, View permissions) for the record type than they have for the workspace, we recommend giving them Contribute permissions to the workspace. You can then, give them View permissions to the record type. 
+-->
 
 #### How should I manage permissions to views? 
 

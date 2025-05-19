@@ -102,10 +102,12 @@ You must have the following access to perform the steps in this article:
 * The file should not be larger than 5MB.
 * Empty sheets are not supported. 
 * Fields of the following types are not supported and cannot be mapped to fields on the import sheet:
-    
-    * <!--In the Production environment,--> Connection fields to Planning records or Workfront and AEM Assets objects
 
-        <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+    * Connection fields, depending on the environment you use:
+    
+        * In the Production environment, connection fields to Planning records or Workfront and AEM Assets objects cannot be mapped
+
+        * <span class="preview">In the Preview environment, you can map and import connection fields to Planning records. You cannot map fields to Workfront and AEM Assets.</span>
 
     * Lookup fields from connected Planning records or Workfront and AEM Assets objects
     * Formula fields
@@ -123,8 +125,8 @@ To import record types using an Excel or CSV file:
 
     From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
 1. Click **Add record type**. 
-1. Click **From file**.
-1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 
+1. Click **Upload from file**.
+1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one, then select it. 
 1. Click **Preview and edit**.
     
     The **Preview and edit** box displays with the following information: 
@@ -147,11 +149,21 @@ To import record types using an Excel or CSV file:
 
     Sheets you deselected display with a gray background. 
 
-1. (Optional) Click the downward-pointing arrow to the right of the column header to do one of the following:
+1. (Optional) Click the downward-pointing arrow to the right of a column header to do one of the following, <span class="preview">in the **Field** tab</span>:
+
+    <span class="preview">![Field tab on the record type mapping import box](assets/field-tab-on-record-type-import-mapping-box.png)</span>
 
     * Rename one of the fields
     * Change the **Field type**
     * Update the field **Description**
+
+1. <span class="preview">(Optional) Click the **Connection** tab to map the information in the column to a connected field from other record types.</span>
+
+    <span class="preview">![Connection tab on the record type import mapping box](assets/connection-tab-on-record-type-import-mapping-box.png)</span>
+
+    >[!TIP]
+    >
+    ><span class="preview">You can only map to fields from Workfront Planning connected records. You cannot map to fields from Workfront or AEM Assets connections. For more information, see the section [Considerations about importing record types using an Excel or CSV file](#considerations-about-importing-record-types-using-an-excel-or-csv-file) in this article.</span>
 
 1. (Conditional) After updating information about the field, click **Save**.
 
