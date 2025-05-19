@@ -16,6 +16,7 @@ feature-set: Workfront
     * 2025 Q3 Release {#release-25-q3}
       * [2025 Q3 Release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
       * [Document management enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
+      * [Home enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-home-enhancements.md)
       * [Reporting enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md)
       * [Update and notification enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md)
       * [Look-and-feel updates during the 2025 Q3 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md)
@@ -562,6 +563,7 @@ feature-set: Workfront
         * [Create a form from a copy](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
         * [Add calculated fields to a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
         * [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
+        * [Examples of advanced logic in custom forms](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md)
         * [Examples of the External lookup field in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
         * [Organize and preview a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
       * Manage custom forms {#manage-custom-forms}
@@ -2098,6 +2100,8 @@ feature-set: Workfront
     * [Manage the table view](planning/views/manage-the-table-view.md)
     * [Manage the timeline view](planning/views/manage-the-timeline-view.md)
     * [Manage the calendar view](planning/views/manage-the-calendar-view.md)
+    * [Delete record views](planning/views/delete-record-views.md)
+    * [Duplicate record views](planning/views/duplicate-record-views.md)
   * Adobe Workfront Planning notifications {#adobe-workfront-planning-notifications}
     * [Adobe Workfront Planning notifications: Article index](planning/notifications/notifications-information.md)
     * [Manage Adobe Workfront Planning notification preferences](planning/notifications/manage-notification-preferences.md)

@@ -17,6 +17,38 @@ This article provides examples of using the External lookup field to call the sa
 
 For more information about adding an External lookup field to a custom form and additional definitions of the external lookup components, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront plan </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard</p>
+   <p>or</p>
+   <p>Current: Plan</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations</td> 
+   <td>Administrative access to custom forms </td> 
+  </tr>  
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 ## Set up an External lookup field for the same instance of Workfront
 
 You can use the External lookup to bring data from your Workfront instance into the custom form.

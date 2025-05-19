@@ -231,7 +231,7 @@ This table shows the functionality available to licenses in the legacy and new l
    <td></td> 
    <td></td>
    <td>✓</td> 
-   <td></td> 
+   <td>✓</td> 
    <td></td> 
   </tr> 
   <tr> 

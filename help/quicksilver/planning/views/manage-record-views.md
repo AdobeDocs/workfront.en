@@ -1,6 +1,6 @@
 ---
 title: Manage Record Views
-description: You can display records in a table, timeline, or calendar view when using Adobe Workfront Planning. This article describes how you can create a view and edit or delete an existing one.
+description: You can display records in a table, timeline, or calendar view when using Adobe Workfront Planning. This article describes how you can create a view and edit an existing one.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -34,10 +34,14 @@ After selecting a record type in Adobe Workfront Planning area, you can display 
 This article describes the following information about record views:
 
 * [Create and edit a view](#create-or-edit-record-views) 
-* [Delete a view](#delete-views)
-* [Duplicate a view](#duplicate-views)
 * [Enable the real-time presence indicators in a view](#enable-the-real-time-presence-indicator-in-a-view)
 <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
+For more information about managing Workfront Planning record views, also see the following articles:
+
+* [Delete record views](/help/quicksilver/planning/views/delete-record-views.md)
+* [Duplicate record views](/help/quicksilver/planning/views/duplicate-record-views.md)
+* [Share views](/help/quicksilver/planning/access/share-views.md)
 
 
 ## Access requirements
@@ -117,21 +121,17 @@ You must have the following access to perform the steps in this article:
 * Views that you create are visible only to you and users who you share the views with. 
 * When you modify or delete a view, it is modified and deleted for all users who have permissions to the view. 
 * Each user can create a maximum of 100 views. You can display more than 100 views for a record type, but one user can create only 100 views. 
-* You can share views you create with others. For information, see [Share views](/help/quicksilver/planning/access/share-views.md). 
-* The following elements are unique to each record view:
+* Although some view elements can be applied to multiple views for the same record, they are unique to each record view:
 
     * Filter
-    * Grouping
-    * Sort
-    * Bar appearance (for the timeline view)
-    
-    <!-- some of these are not available in all of the views - edit above-->
+    * Grouping (for the table and the timeline views)
+    * Bar appearance (for the timeline and calendar views)
 
-    For example, when creating a filter in a table view, the filter results are visible only in the view selected and not in all the views associated with the record type. 
+    For example, when creating a filter in a table view, the filter results are visible only in the view selected (the table view) and not in all the views associated with the record type. 
 
-    >[!NOTE]
+    >[!TIP]
     >
-    > Some view elements might not be available to all views.
+    >Some view elements are not be available to all views.
     
 
 ## Similarities and differences between record views
@@ -154,7 +154,7 @@ The following table shows the similarities and differences between the table, ti
 | Display records on a calendar                               |           |              |        ✓|
 | Group records                                      |      ✓     | ✓             |
 | Sort records                                       | ✓          |              |
-| Color-code records                     |           | ✓              |          ✓     |
+| <span class="preview">Color-code records</span>                     | <span class="preview">✓</span>          | ✓              |          ✓     |
 | Color-code groupings                     |           | ✓              |
 | Search for specific records                     |  ✓         | ✓              |
 | Share the view with others                     |  ✓         | ✓              |       ✓     |
@@ -162,6 +162,7 @@ The following table shows the similarities and differences between the table, ti
 | Display records by year and quarter                    |           | ✓              |    |
 | Display records by month                    |           | ✓              |  ✓  |
 | Display records by week                    |           |               |  ✓  |
+|<span class="preview">Export information from a view</span>                   | <span class="preview">✓</span>          |               |    |
 
 
 ## Create or edit views {#create-or-edit-views}
@@ -236,76 +237,18 @@ The following table shows the similarities and differences between the table, ti
     * [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md)
     * [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md)
 
-
-## Delete views
-
-{{step1-to-planning}}
-
-1. Click the card of a workspace. 
-
-    The workspace opens and the record types display as cards. 
- 
-1. Click a record type card. 
-
-    The record type page opens.  
-
-    By default, all the records of the selected type display in the table view. 
-
-1. Hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**. 
-First, you might need to click **More** to the left of the last tab to find the view you want to delete.
-
-1. Click **Delete** to confirm. <!--ensure there is not another saving step here?!-->
-    
-    The view is deleted for all users who can access the records area and it cannot be recovered. 
-
-<!--## Add a view as a favorite - this is not possible yet-->
-
-<!--not possible yet - August 30, 2023: -->
-
-## Duplicate a view
-
-If you want to keep multiple versions of a view and make slight changes between the versions, you can duplicate a view. 
-
-Duplicating a view creates identical copies of an existing view. 
-
-The sharing permissions of the original view do not transfer to the duplicated view. 
-
-{{step1-to-planning}} 
-
-1. Click the card of a workspace. 
-
-    The workspace opens and the record types display as cards. 
- 
-1. Click a record type card. 
-
-    The record type page opens. 
-    By default, all the records of the type selected display in the table view. 
-
-1. Hover over the tab of the view you want to duplicate, and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Duplicate**. 
-
-    ![View more menu with duplicate option](assets/view-more-menu-with-duplicate-option.png)
-
-    
-    The view is duplicated and the new view's name follows the following pattern: `Original view's name (Copy)`. The new view tab displays at the end of all view tabs. 
-
 ## Enable the real-time presence indicator in a view
+
+You can see if other users are editing records at the same time as you by following the real-time presence indicators in the view. 
 
 The avatars of other users who are editing record information at the same time as you display in the upper-right corner of all record views, by default.
 
 When you display the table view, you can also view which field another user is editing at the time you are viewing the record. 
 
-1. Go to a record type page and open any view.
-1. (Conditional) If there are other users editing the records of the selected type at the same time, their avatars display in the upper-right corner of the view. 
-1. Click the drop-down menu next to the avatars, the select the **Show collaborators** toggle. The toggle is selected by default. 
+For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-    ![Show collaborators toggle selected](assets/show-collaborators-toggle-selected.png)
 
-1. (Conditional) Open a table view, and the field which another person is actively editing is highlighted in the color corresponding to the outline of their avatar in the table view. 
 
-    If the highlight color of the avatar is gray, the user stopped actively editing the record more than 30 seconds ago. 
+<!--## Add a view as a favorite - this is not possible yet-->
 
-    ![Real-time indicator table field and avatar connection](assets/real-time-indicator-table-field-and-avatar-connection.png)
-
-    >[!TIP]
-    >
-    >You can select the **Show collaborators** toggle from any view. The field currently edited by others is outlined only in the table view. 
+<!--not possible yet - August 30, 2023: -->

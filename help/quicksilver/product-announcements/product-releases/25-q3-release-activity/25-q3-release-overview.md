@@ -35,6 +35,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront enhancements
     
 * [Document management enhancements](#document-management-enhancements)
+* [Home enhancements](#home-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
 * [Update and notification enhancements](#update-and-notification-enhancements)
 * [Other enhancements](#other-enhancements)
@@ -50,6 +51,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer Update</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>This update is an issue fix to keep the Desktop Viewer compatible with Mac operating systems. Electron was downgraded to 34.4.0 and Chromium was downgraded to 132.</p>
+        </td>
+        <td>May 7, 2025</td>
+        <td>May 7, 2025</td>
+        <td>May 7, 2025</td>
+    </tr> 
       <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assets in a linked Google folder must be added individually to appear in Workfront</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -72,6 +82,33 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>     
   </tbody>
 </table> 
+
+<!--
+
+### Home enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">My approvals widget now automatically sorts by deadline </a><p></p>
+            <p>We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list. </p>
+        </td>
+        <td>May 15, 2025</td>
+        <td>May 15, 2025</td>
+        <td>July 17, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
+-->
     
 ### Reporting enhancements
 
@@ -159,6 +196,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * 
 -->
+
+## Interface modernization
+
+We are updating the interface throughout Adobe Workfront to improve the user experience and unify it with other Adobe applications. These changes are released outside the standard release schedule. For a list of these changes, see [Interface Modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 ## Release notes for other areas
 

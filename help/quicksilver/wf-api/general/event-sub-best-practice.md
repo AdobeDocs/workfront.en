@@ -36,15 +36,13 @@ Make sure your subscription endpoint conforms to the Standard Event Subscription
 
 In order to receive event subscriptions payloads through your firewall, you must add the IP addresses to the allowlist by global region. To learn more, see [Event Subscription API](../../wf-api/general/event-subs-api.md).
 
-## Have the right access level and an API key
+## Have the right access level and authentication
 
 To create, query, or delete an Event Subscription, your Workfront user needs:
 
 * An access level of **System Administrator** 
   To learn more, see [Grant a user full administrative access](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) or [Grant users administrative access to certain areas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-* An API key
+* A `sessionID`  header is required to use the Event Subscriptions API
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more, see .</p>
-  -->
+   For more information, see [Authentication](api-basics.md#authentication) in [API Basics](api-basics.md).
