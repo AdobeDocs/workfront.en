@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: View and Manage a Group's Recently Restored Items
-description: When you are viewing a group that you manage in the Groups area, you can view, vilter, group, and restore its recently restored work items, documents, and templates.
+description: When you are viewing a group that you manage in the Groups area, you can view, filter, group, and restore its recently restored work items, documents, and templates.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -73,19 +73,8 @@ For more detail about the information in this table, see [Access requirements in
 
    Each tab lists items of the corresponding object type that belong to the current group or its subgroups and that were restored within the past 30 days.
 
-1. Complete any of the following actions:
+1. (Optional) To export the entire list of objects on the tab, click the **Export** icon. ![Export icon](assets/export-icon.png).
+1. (Optional) Change the display of information in the list using a filter, view, or grouping.
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"> <p>Export the entire list of objects on the tab</p> </td> 
-      <td> <p>Click <strong>Export</strong>.</p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"> <p>Change the display of information in the list</p> </td> 
-      <td> <p>In the upper-right corner above the list, use <strong>Filter</strong> to define what is displayed based on criteria you provide. Use <strong>View</strong> to define which fields are displayed as columns. Use <strong>Grouping</strong> to group the items into categories.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   For more information, see [Reporting elements overview](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
+
