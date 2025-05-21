@@ -11,6 +11,8 @@ exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
 ---
 # List of available blueprints
 
+<!-- Audited: 5/2025 -->
+
 The following [!DNL Adobe Workfront] blueprints are available for system administrators to install. For more information about blueprints, see [Blueprints overview](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
 
 **[!UICONTROL Add New Employee IT Checklist]**
@@ -44,7 +46,7 @@ The [!UICONTROL Digital Asset Revision] package contains a single template to or
 This blueprint contains a template the [!DNL Workfront] professional services organization has used for years during implementation engagements with corporate IT teams to manage the various activities that must take place when an employee transfers to new a role. This template reduces the security risks that exist when an employee transfer is completed without IT oversight. It also eliminates wasted hours of unproductive time when systems access is not granted to fulfill the duties of the employee's new role.
 
 **[!UICONTROL End-of-Month Operational Close]**
-This blueprint contains a template the [!DNL Workfront] professional services organization has used for years during implementation engagements with Finance teams to organize the end of month closing of the books. The template provides a checklist of common activities that must be completed each month to accurately report on and promote the health of the business.
+This blueprint contains a template the [!DNL Workfront] professional services organization has used for years during implementation engagements with Finance teams to organize the end-of-month closing of the books. The template provides a checklist of common activities that must be completed each month to accurately report on and promote the health of the business.
 
 **[!UICONTROL Finance Organization Setup]**
 This blueprint contains the configuration of organizational structures to expand to a Finance department.
@@ -71,10 +73,13 @@ This blueprint contains the configuration of organizational structures to expand
 This blueprint contains a template the [!DNL Workfront professional services] organization has used for years during implementation engagements with Human Resources teams to help new employees track their onboarding activities.
 
 **[!UICONTROL New Hire Readiness]**
-This blueprint contains a template the [!DNL Workfront] professional services organization has used for years during implementation engagements with Human Resources teams to prompt HR specialists and hiring managers to complete essential activities to make a new employee's first day remarkable.
+This blueprint contains a template the [!DNL Workfront] professional services organization has used for years during implementation engagements with Human Resources teams to prompt HR specialists and hiring managers to complete essential activities to for an employee's first day.
 
 **Offboarding | Departing User Dashboard**
 This blueprint contains a single dashboard with 13 reports to help you find, reassign, or otherwise manage the objects and assignments associated with a user departing Workfront. You could also use these reports for a user moving into a new role or group to reassign their work.
+
+**Partner Enablement: GenStudio Foundation Package**
+ The Partner Enablement: GenStudio Foundation Package is designed to facilitate the seamless promotion of the GenStudio foundation environment. It includes all the necessary components for running the bootcamp effectively. 
 
 **People Manager Dashboard**
  This blueprint contains a single dashboard with 12 reports to give people managers visibility into their direct reports' work.
@@ -89,20 +94,19 @@ The [!UICONTROL Print Asset Production] package contains a template that organiz
 The [!UICONTROL Print Asset Production] package contains a template that organizes the work for a standard print production process. This package is intended as an entry point for managing print asset creation in Workfront. Use this package to create a foundation for print content creation, then customize it to meet the needs of other creative processes for printed materials.
 
 **[!UICONTROL Print: Direct Mail Asset Production]**
-This [!UICONTROL Print: Direct Mail Asset Production] blueprint organizes the work for a print collateral production process. This blueprint is intended as an entry point for managing print collateral, specifically direct mail, in Workfront.
+The [!UICONTROL Print: Direct Mail Asset Production] blueprint organizes the work for a print collateral production process. This blueprint is intended as an entry point for managing print collateral, specifically direct mail, in Workfront.
 
 **[!UICONTROL Print: Direct Mail Content Creation and Campaign Execution]**
-This [!UICONTROL Print: Direct Mail Content Creation and Execution] blueprint organizes the work for a print collateral production process. This blueprint is intended as an entry point for managing print collateral, specifically direct mail, in Workfront. This template is unique because it also contains tasks to print the asset and execute the direct mail campaign independent of other campaign activities.
+The [!UICONTROL Print: Direct Mail Content Creation and Execution] blueprint organizes the work for a print collateral production process. This blueprint is intended as an entry point for managing print collateral, specifically direct mail, in Workfront. This template is unique because it also contains tasks to print the asset and execute the direct mail campaign independent of other campaign activities.
 
 **[!UICONTROL Professional Services Organization Setup]**
 This blueprint contains the configuration of organizational structures to expand to a Professional Services use case.
 
 **[!UICONTROL Recruiting Process Tracking]**
-This blueprint defines a checklist for internal recruiting resources to use to help business stakeholders track the progress of headcount requests. It is designed to support a managed maturity level.
+This blueprint defines a checklist for internal recruiting resources to use to help business stakeholders track the progress of headcount requests. It's designed to support a managed maturity level.
 
 **Resource Management Preparation**
-
-Use this Project Template and User Report to ensure you have the correct settings and information necessary to generate accurate Resource Management data.
+Use this blueprint to ensure you have the correct settings and information necessary to generate accurate Resource Management data.
 
 **[!UICONTROL Risk Control Self Assessment: Key Risk Mitigation Planning]**
 [!UICONTROL Risk Control Self Assessment] (RSCA) defines a process to identify risks and measure the controls you have in place to mitigate those risks. This template formalizes the process for you to evaluate new risks, to ensure appropriate controls are put in place, and to make sure you know how to measure and document the control's effectiveness.
@@ -114,10 +118,10 @@ Use this Project Template and User Report to ensure you have the correct setting
 The [!UICONTROL Social Asset Production] package contains a template that organizes the work to create a social artifact. The template provides a lean process for original social asset creation for a team that relies on standard operating procedures to define how to do the work and uses the project only to prioritize work and track progress.
 
 **[!UICONTROL Social Asset Production] (Managed)**
-The [!UICONTROL Social Asset Production] package contains a template that organizes the work to create a social artifact. This package is intended as an entry point for managing social asset creation in Workfront. Use this package to create a foundation for all social content creation processes by customizing it to meet the needs of other creative processes for social content.
+The [!UICONTROL Social Asset Production] package contains a template that organizes the work to create a social artifact. It's intended as an entry point for managing social asset creation in Workfront. Use this package to create a foundation for all social content creation processes by customizing it to meet the needs of other creative processes for social content.
 
 **[!UICONTROL Software Implementations/App Development]**
-This blueprint contains a template the [!DNL Workfront] professional services organization has used for years during implementation engagements with IT teams organize the work to install third-party solutions or to create internal utilities and applications.
+This blueprint contains a template the [!DNL Workfront] professional services organization has used for years during implementation engagements with IT teams to organize the work when installing third-party solutions or to create internal utilities and applications.
 
 **[!UICONTROL System Administrator Maintenance Dashboard]**
 This blueprint contains a single dashboard to assist system administrators in maintaining and cleaning up the system periodically from miscellaneous clutter that might build up over time.
@@ -136,7 +140,7 @@ This blueprint contains a single dashboard with 7 reports to help you realize th
 
 **Value Realization | Review and Approve Dashboard**
 
-This blueprint contains a single dashboard with 7 reports to help you realize the Value of Workfront. These reports help you translate the values of Reviewing & Approving work into measurable benefits that you can track over time to drive better outcomes.
+This blueprint contains a single dashboard with 7 reports to help you realize the value of Workfront. These reports help you translate the values of Reviewing & Approving work into measurable benefits that you can track over time to drive better outcomes.
 
 **[!UICONTROL Video Asset Production] (Integrated)**
 
@@ -147,7 +151,11 @@ The [!UICONTROL Video Asset Production] package contains a template that organiz
 
 **[!UICONTROL [!DNL Workfront] Communication and Launch Template]**
 
-This blueprint contains a single template that organizes the work that a [!DNL Workfront] customer will need to do in order to have a stellar rollout of the [!DNL Workfront] application.
+This blueprint contains a single template that organizes the work that a [!DNL Workfront] customer will need to do for their [!DNL Workfront] application rollout.
+
+**Workfront Training for New Users**
+
+This blueprint contains 3 project templates to use as a training checklist when enabling users in Workfront.  
 
 **[!DNL Workfront Usage Dashboard]**
 This blueprint contains a single dashboard with 11 reports to assist system administrators and governance teams understand whether their configuration is being used as expected.

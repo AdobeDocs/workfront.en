@@ -2497,7 +2497,7 @@ feature-set: Workfront
     * [Outbound message format for event subscriptions](wf-api/api/message-format-event-subs.md)
     * [FAQs - Event Subscriptions](wf-api/general/event-subs-faq.md)
   * Document Webhooks API {#document-webhooks-api}
-    * [Document Webhooks API articles](wf-api/doc-wbhks-api/document-webhooks-api.md)
+    * [Document Webhooks API: article index](wf-api/doc-wbhks-api/document-webhooks-api.md)
     * [Webhooks Overview](wf-api/doc-wbhks-api/webhooks-overview.md)
     * [Register a Webhook Integration](wf-api/doc-wbhks-api/register-webhook-integration.md)
     * [Authentication for Document Webhooks](wf-api/doc-wbhks-api/auth-for-docu-webhook.md)
@@ -2509,7 +2509,7 @@ feature-set: Workfront
     * [Get a thumbnail for a document](wf-api/doc-wbhks-api/get-thmbnl-doc.md)
     * [File upload via Document Webhooks](wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
     * [Create a Folder with Document Webhooks](wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
-    * [Delete a document or folder (Not yet implemented)](wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
+    * [Delete a document or folder (not yet implemented)](wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
     * [Get information about the service (not yet implemented)](wf-api/doc-wbhks-api/get-service-info-webhook.md)
     * [Rename a document or folder (not yet implemented)](wf-api/doc-wbhks-api/rename-docu-or-folder.md)
     * [Perform a custom action (not yet implemented)](wf-api/doc-wbhks-api/perform-custom-action.md)
