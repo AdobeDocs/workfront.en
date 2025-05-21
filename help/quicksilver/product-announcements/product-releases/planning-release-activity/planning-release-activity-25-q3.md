@@ -16,6 +16,18 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## New experience when breaking down records in Compact mode in the timeline view 
+
+>[!NOTE]
+>
+>* Preview: May 22, 2025
+>* Production fast release: June 12, 2025 
+>* Production for all customers:  July 17, 2025
+
+We have changed the experience when breaking down records in the timeline view and you have the Compact view applied. Now, when you define your breakdown objects while you display the timeline in the Compact mode,  you are prompted to switch the view to Standard after you finish configuring the breakdown conditions. Prior to this enhancement, defining the breakdown conditions was not possible when displaying the timeline view in Compact mode. 
+
+For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
 ## Update the timeline view settings to define the look and feel of the connected records' bars when using the Breakdown option 
 
 >[!NOTE]
