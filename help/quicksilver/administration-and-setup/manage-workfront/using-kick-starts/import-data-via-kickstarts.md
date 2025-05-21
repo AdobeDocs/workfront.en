@@ -98,7 +98,7 @@ To export a Kick-Start template:
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>Dashboard</p> <p>All dashboards in the system are available to export. You can select up to 100 specific dashboards in a single export.</p> </td> 
+      <td scope="col"> <p>Dashboard</p> <p>All publicly shared dashboards in the system are available to export. Dashboards not shared system-wide cannot be exported. You can select up to 100 specific dashboards in a single export.</p> </td> 
       <td scope="col">Exports as ZIP file</td> 
       <td scope="col"> <p>Parameter</p> <p>Descriptive Text</p><p>Parameter Option</p> <p>Parameter Group</p> <p>Category Parameter</p> <p>Category</p> <p>Report</p> <p>Portal Tab Section</p> <p>Dashboard</p> <p>Preferences</p> </td> 
      </tr> 
