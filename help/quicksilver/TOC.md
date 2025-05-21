@@ -2140,7 +2140,7 @@ feature-set: Workfront
     * Workfront Extension for Illustrator and InDesign {#workfront-for-illustrator-indesign}
       * [Use the Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
   * Adobe Workfront for Jira {#workfront-for-jira}
-    * [Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
+    * [Adobe Workfront for Jira: article index](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
     * [Install Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
     * [Configure Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
     * [Link items between Adobe Workfront and Jira](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
@@ -2163,7 +2163,7 @@ feature-set: Workfront
     * [Create an Adobe Workfront issue in Google Workspace using email content](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
     * [Update an Adobe Workfront item from G Suite using email content](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
   * Adobe Workfront for Outlook {#workfront-for-outlook}
-    * [Adobe Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
+    * [Adobe Workfront for Outlook: article index](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
     * [Set up Adobe Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
     * [Permissions levels for Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md) 
     * [Reply to a comment from Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)

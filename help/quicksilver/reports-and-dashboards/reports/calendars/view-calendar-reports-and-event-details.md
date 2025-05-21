@@ -76,31 +76,26 @@ For more detail about the information in this table, see [Access requirements in
    * **[!UICONTROL Week]**: Displays one week of the calendar
    * **[!UICONTROL Gantt]**: Displays a continuous view of the calendar
       
-      You can see more events in a [!UICONTROL Gantt] view by scrolling down or sideways. A loading symbol appears as data is populated for the view.
+      You can see more events in a **Gantt** view by scrolling down or sideways. A loading symbol appears as data is populated for the view.
 
    >[!NOTE]
    >
-   >In the [!UICONTROL Month] and [!UICONTROL Week] views, events that are current or future (including events that span multiple days, as long as they contain today or a future day) have shading that corresponds to the color in the project or calendar grouping. Past events have lighter shading to indicate that they are no longer current, but you can still select and view those events.
+   >In the **Month** and **Week** views, events that are current or future (including events that span multiple days, as long as they contain today or a future day) have shading that corresponds to the color in the project or calendar grouping. Past events have lighter shading to indicate that they are no longer current, but you can still select and view those events.
 
-1. (Optional) If you are viewing the calendar in the [!UICONTROL Month] or [!UICONTROL Week] views, you can change your calendar view with the following options:
+1. (Optional) If you are viewing the calendar in the **Month** or **Week** views, you can change your calendar view with the following options:
 
-<!--   * To include or exclude weekends:
-
+      <!--   * To include or exclude weekends:
       1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-   * To quickly change the displayed dates:
+      * To quickly change the displayed dates:
 
-      1. On the **[!UICONTROL Calendar]** toolbar, click the left arrow of the date indicator to move back in the calendar or the right arrow to move forward.
+         1. On the **[!UICONTROL Calendar]** toolbar, click the left arrow of the date indicator to move back in the calendar or the right arrow to move forward.
 
-         ![Click arrow to change date](assets/click-arrows-to-change-dates-calendar-report.png)\
-         The displayed dates are adjusted by an interval based your current calendar view. For example, if you are viewing the calendar in the [!UICONTROL Week] view, the calendar displays either one week forward or one week back, depending on the arrow you select.
+            ![Click arrow to change date](assets/click-arrows-to-change-dates-calendar-report.png)
+            
+            The displayed dates are adjusted by an interval based your current calendar view. For example, if you are viewing the calendar in the **Week** view, the calendar displays either one week forward or one week back, depending on the arrow you select.
 
-      1. (Optional) To return to the current day, click [!UICONTROL **Today**].
-
-
-1. (Optional) To view a calendar in full-screen, click the full-screen arrows on the right-hand side of the **[!UICONTROL Calendar]** toolbar.
-   ![Click arrow to change date](assets/click-arrows-to-change-dates-calendar-report.png)\
-   Press Esc to return to the normal view of the calendar.
+         1. (Optional) To return to the current day, click [!UICONTROL **Today**].
 
 1. (Optional) To hide the events for a project or calendar grouping linked to the calendar, clear the project or calendar grouping in the project list.
    ![Hide events](assets/hide-events-for-project-or-cal-grouping.png)
