@@ -1,5 +1,5 @@
 ---
-title: Interface updates
+title: Interface modernization
 description: This page lists interface updates we are making throughout Adobe Workfront to improve the user experience and unify it with other Adobe applications.
 author: Courtney
 feature: Product Announcements
