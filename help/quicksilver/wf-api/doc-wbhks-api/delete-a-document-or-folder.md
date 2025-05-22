@@ -10,7 +10,7 @@ role: Developer
 exl-id: b56ec13a-1ee1-4bef-b39b-e625d00e4952
 ---
 
-# Delete a document or folder (Not yet implemented)
+# Delete a document or folder (not yet implemented)
 
 Deletes a document or folder with the given ID in the external system. Deleting a folder also deletes the folder contents.
 

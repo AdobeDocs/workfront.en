@@ -21,7 +21,7 @@ Blueprints provides basic building blocks to help you create a work management s
 
 For more information, see [Blueprints overview](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-This feature is now included in the [Project templates in the new Workfront experience](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) learning path on Workfront One.
+This feature is now included in the [Project templates in the new Workfront experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
 ## New for group administrators: Create and manage statuses for a group at any level
 

@@ -67,6 +67,8 @@ You can override the billing rate of a job role on a project in the following wa
 * Several times, by selecting several new rates for specific date ranges.   
   A different rate can be used during each specified date range.
 
+* You can add new billing rates to a project template and those become project billing rates when you create the project from that template. For information about editing templates, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md). 
+
 >[!TIP]
 >
 >You cannot override user billing rates for a project.
@@ -74,7 +76,7 @@ You can override the billing rate of a job role on a project in the following wa
 To override a billing rate for a project:
 
 1. Go to the project you want to override billing rates for.
-1. Click **Billing Rates** in the left panel. You might have to first click **Show More**. 
+1. Click **Billing Rates** in the left panel.
 1. Click **Add Billing Rate** > **New Billing Rate**.
 
    The New Billing Rate box opens. 

@@ -25,4 +25,4 @@ Certain email notifications allow users to reply via email and have the reply be
 
 There will be no change to emails coming directly from the Workfront Proof system. You will continue to receive those emails as you have in the past.
 
-If you have any other questions or concerns, please contact the [Workfront Support Team](https://one.workfront.com/s/support?language=en_US).
+If you have any other questions or concerns, please contact the [Workfront Support Team](https://experienceleague.adobe.com/?support-tab=home#support).

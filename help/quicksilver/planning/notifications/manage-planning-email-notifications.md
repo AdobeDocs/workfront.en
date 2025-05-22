@@ -29,7 +29,7 @@ You can receive email notifications from Workfront Planning when the following s
 
 ## Access requirements
 
-+++ Expand to view access requirements.. 
++++ Expand to view access requirements. 
 
 <table style="table-layout:auto"> 
 <col> 

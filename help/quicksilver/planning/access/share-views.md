@@ -10,9 +10,9 @@ exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 
 # Share views
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -37,7 +37,7 @@ This article describes how you can share a view with others. For information abo
 
 ## Access requirements
 
-+++ Expand to view access requirements.. 
++++ Expand to view access requirements. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -77,6 +77,7 @@ You must have the following access to perform the steps in this article:
    <td> 
 <p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
 <p>Your organization must be onboarded to the Adobe Unified Experience for users to be able to request and grant permissions to a view from a permission request. </p>
+<p>Users must be added to the Adobe Admin Console in order to gain permissions to Workfront Planning views.</p>
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -99,7 +100,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p></td> 
   </tr> 
 </tbody> 
 </table> 
@@ -107,14 +109,6 @@ You must have the following access to perform the steps in this article:
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
- <!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Considerations when sharing views
 
@@ -145,15 +139,21 @@ You can share views you created or views you have Manage permissions to with use
 
    This opens the record type page.
 
-1. From the view tab, hover over the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. <span class="preview">From the view tab, hover over the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. </span>
 
-   ![More menu for views expanded with share option](assets/more-menu-for-views-expanded-with-share-option.png)
+   <span class="preview">![More menu for a view](assets/more-menu-for-views-expanded-with-share-option.png) </span>
 
    The **Internal sharing** tab should be selected by default.
 
 1. (Optional) In the **Who has access** area, select from the following options: 
 
    * **Only invited people can access**: You must specify users, groups, team, company, or job role that you want to share the view with. This is the default option.
+
+      >[!NOTE]
+      >
+      >   In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console.
+
+
    * **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. 
 
 1. In the **Grant access to this view** field, start typing the name of a user, a group, team, company, or job role then click it when it displays in the list.  
@@ -196,9 +196,9 @@ To share a view publicly in Workfront Planning:
 
    This opens the record type page.
 
-1. From the view tab, hover over the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. <span class="preview">From the view tab, hover over the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. </span>
 
-   ![More menu for views expanded with share option](assets/more-menu-for-views-expanded-with-share-option.png)
+   <span class="preview">![More menu for views expanded with share option](assets/more-menu-for-views-expanded-with-share-option.png)</span>
 
 1. Click **Public sharing**.
 

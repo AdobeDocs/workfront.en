@@ -10,7 +10,7 @@ exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
 ---
 # Log time
 
-<!--Audited: 12/2023-->
+<!--Audited: 5/2025-->
 
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
@@ -21,7 +21,7 @@ For more information about the type of hours you can log in Workfront, see [Mana
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article.
++++ Expand to view access requirements.
 
 You must have the following access to perform the steps in this article and log Project Specific hours:
 
@@ -36,9 +36,9 @@ You must have the following access to perform the steps in this article and log 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>New:</p>
-   <ul><li><p> Light or higher to log hours on a task, issue, or General Hours on a timesheet</p>
-   <li><p>Standard to log hours on projects</p></li></ul>
-   <p>
+   <ul><li> Light or higher to log hours on a task, issue, or General Hours on a timesheet</li>
+   <li>Standard to log hours on projects</li></ul>
+   
    <p>Current: 
    <ul><li>Review or higher to log General Hours in a timesheet</li>
    <li>Work or higher to log hours on a project, task, or issue</li></ul> </td> 

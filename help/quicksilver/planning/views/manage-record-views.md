@@ -1,6 +1,6 @@
 ---
 title: Manage Record Views
-description: You can display records in a table, timeline, or calendar view when using Adobe Workfront Planning. This article describes how you can create a view and edit or delete an existing one.
+description: You can display records in a table, timeline, or calendar view when using Adobe Workfront Planning. This article describes how you can create a view and edit an existing one.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -10,9 +10,9 @@ exl-id: 77342724-0182-4134-903b-4428d54cdceb
 
 # Manage record views
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -34,15 +34,19 @@ After selecting a record type in Adobe Workfront Planning area, you can display 
 This article describes the following information about record views:
 
 * [Create and edit a view](#create-or-edit-record-views) 
-* [Delete a view](#delete-views)
-* [Duplicate a view](#duplicate-views)
 * [Enable the real-time presence indicators in a view](#enable-the-real-time-presence-indicator-in-a-view)
 <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
+For more information about managing Workfront Planning record views, also see the following articles:
+
+* [Delete record views](/help/quicksilver/planning/views/delete-record-views.md)
+* [Duplicate record views](/help/quicksilver/planning/views/duplicate-record-views.md)
+* [Share views](/help/quicksilver/planning/access/share-views.md)
 
 
 ## Access requirements
 
-+++ Expand to view access requirements.. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -97,11 +101,12 @@ You must have the following access to perform the steps in this article:
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings</p> </td> 
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p></td> 
   </tr> 
 </tbody> 
 </table> 
@@ -110,36 +115,23 @@ You must have the following access to perform the steps in this article:
 
 +++   
 
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
---> 
-
-
 ## Considerations when working with record views
 
 * Views in Workfront Planning are record type-specific. You cannot apply the same view to two different record types. 
 * Views that you create are visible only to you and users who you share the views with. 
 * When you modify or delete a view, it is modified and deleted for all users who have permissions to the view. 
 * Each user can create a maximum of 100 views. You can display more than 100 views for a record type, but one user can create only 100 views. 
-* You can share views you create with others. For information, see [Share views](/help/quicksilver/planning/access/share-views.md). 
-* The following elements are unique to each record view:
+* Although some view elements can be applied to multiple views for the same record, they are unique to each record view:
 
     * Filter
-    * Grouping
-    * Sort
-    * Bar appearance (for the timeline view)
-    
-    <!-- some of these are not available in all of the views - edit above-->
+    * Grouping (for the table and the timeline views)
+    * Bar appearance (for the timeline and calendar views)
 
-    For example, when creating a filter in a table view, the filter results are visible only in the view selected and not in all the views associated with the record type. 
+    For example, when creating a filter in a table view, the filter results are visible only in the view selected (the table view) and not in all the views associated with the record type. 
 
-    >[!NOTE]
+    >[!TIP]
     >
-    > Some view elements might not be available to all views.
+    >Some view elements are not be available to all views.
     
 
 ## Similarities and differences between record views
@@ -162,7 +154,7 @@ The following table shows the similarities and differences between the table, ti
 | Display records on a calendar                               |           |              |        ✓|
 | Group records                                      |      ✓     | ✓             |
 | Sort records                                       | ✓          |              |
-| Color-code records                     |           | ✓              |          ✓     |
+| <span class="preview">Color-code records</span>                     | <span class="preview">✓</span>          | ✓              |          ✓     |
 | Color-code groupings                     |           | ✓              |
 | Search for specific records                     |  ✓         | ✓              |
 | Share the view with others                     |  ✓         | ✓              |       ✓     |
@@ -170,6 +162,7 @@ The following table shows the similarities and differences between the table, ti
 | Display records by year and quarter                    |           | ✓              |    |
 | Display records by month                    |           | ✓              |  ✓  |
 | Display records by week                    |           |               |  ✓  |
+|<span class="preview">Export information from a view</span>                   | <span class="preview">✓</span>          |               |    |
 
 
 ## Create or edit views {#create-or-edit-views}
@@ -222,9 +215,13 @@ The following table shows the similarities and differences between the table, ti
 
 1. (Conditional) Select the **Start** and **End dates** for the records that will display in the timeline or calendar view.
     
-    >[!TIP]
+    >[!NOTE]
     >
-    >    You can select from record date fields, or lookup date fields from connected record or object types. You must use aggregators for date fields (MAX or MIN) when you select lookup fields as Start and End dates for the timeline and calendar views. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
+    >    You can select from record date fields, or lookup date fields from connected record or object types. 
+    >
+    >You must use aggregators for date fields (MAX or MIN) when you select lookup fields when connecting record types. Only adding the aggregators allows you to use the connections' dates as Start and End dates for the timeline and calendar views. 
+    >
+    >For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
 1. Click **Create**.
 
@@ -244,76 +241,18 @@ The following table shows the similarities and differences between the table, ti
     * [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md)
     * [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md)
 
-
-## Delete views
-
-{{step1-to-planning}}
-
-1. Click the card of a workspace. 
-
-    The workspace opens and the record types display as cards. 
- 
-1. Click a record type card. 
-
-    The record type page opens.  
-
-    By default, all the records of the selected type display in the table view. 
-
-1. Hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**. 
-First, you might need to click **More** to the left of the last tab to find the view you want to delete.
-
-1. Click **Delete** to confirm. <!--ensure there is not another saving step here?!-->
-    
-    The view is deleted for all users who can access the records area and it cannot be recovered. 
-
-<!--## Add a view as a favorite - this is not possible yet-->
-
-<!--not possible yet - August 30, 2023: -->
-
-## Duplicate a view
-
-If you want to keep multiple versions of a view and make slight changes between the versions, you can duplicate a view. 
-
-Duplicating a view creates identical copies of an existing view. 
-
-The sharing permissions of the original view do not transfer to the duplicated view. 
-
-{{step1-to-planning}} 
-
-1. Click the card of a workspace. 
-
-    The workspace opens and the record types display as cards. 
- 
-1. Click a record type card. 
-
-    The record type page opens. 
-    By default, all the records of the type selected display in the table view. 
-
-1. Hover over the tab of the view you want to duplicate, and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Duplicate**. 
-
-    ![View more menu with duplicate option](assets/view-more-menu-with-duplicate-option.png)
-
-    
-    The view is duplicated and the new view's name follows the following pattern: `Original view's name (Copy)`. The new view tab displays at the end of all view tabs. 
-
 ## Enable the real-time presence indicator in a view
+
+You can see if other users are editing records at the same time as you by following the real-time presence indicators in the view. 
 
 The avatars of other users who are editing record information at the same time as you display in the upper-right corner of all record views, by default.
 
 When you display the table view, you can also view which field another user is editing at the time you are viewing the record. 
 
-1. Go to a record type page and open any view.
-1. (Conditional) If there are other users editing the records of the selected type at the same time, their avatars display in the upper-right corner of the view. 
-1. Click the drop-down menu next to the avatars, the select the **Show collaborators** toggle. The toggle is selected by default. 
+For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-    ![Show collaborators toggle selected](assets/show-collaborators-toggle-selected.png)
 
-1. (Conditional) Open a table view, and the field which another person is actively editing is highlighted in the color corresponding to the outline of their avatar in the table view. 
 
-    If the highlight color of the avatar is gray, the user stopped actively editing the record more than 30 seconds ago. 
+<!--## Add a view as a favorite - this is not possible yet-->
 
-    ![Real-time indicator table field and avatar connection](assets/real-time-indicator-table-field-and-avatar-connection.png)
-
-    >[!TIP]
-    >
-    >You can select the **Show collaborators** toggle from any view. The field currently edited by others is outlined only in the table view. 
+<!--not possible yet - August 30, 2023: -->

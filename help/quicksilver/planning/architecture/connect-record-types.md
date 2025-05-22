@@ -10,9 +10,9 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 
 # Connect record types
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->   
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -36,7 +36,7 @@ For an example of connecting record types and records, see [Example of connectin
 
 ## Access requirements
 
-+++ Expand to view access requirements.. 
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article:  
 
@@ -100,7 +100,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu </p> </td> 
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p></td> 
   </tr> 
 </tbody> 
 </table> 
@@ -108,14 +109,6 @@ You must have the following access to perform the steps in this article:
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).   
 
 +++
-
- <!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Connect record types
 
@@ -217,7 +210,7 @@ You must have the following access to perform the steps in this article:
 
     >[!NOTE]
     >
-    >Your Workfront administrator can map Workfront Planning fields to Experience Manager Assets fields through the Metadata mapping in Workfront. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en). 
+    >Your Workfront administrator can map Workfront Planning fields to Experience Manager Assets fields through the Metadata mapping in Workfront. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). 
 
 1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, select one of the following options in the **Record appearance** area:
 

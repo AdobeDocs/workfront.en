@@ -9,9 +9,9 @@ exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 ---
 # Create record types by importing information from a CSV or Excel file
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -19,7 +19,7 @@ Record types are the object types of Adobe Workfront Planning. In Workfront Plan
 
 ## Access requirements
 
-+++ Expand to view access requirements..  
++++ Expand to view access requirements.  
 
 You must have the following access to perform the steps in this article:  
 
@@ -78,7 +78,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> </td> 
   </tr> 
 </tbody> 
 </table> 
@@ -87,13 +88,6 @@ You must have the following access to perform the steps in this article:
 
 +++   
 
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Considerations about importing record types using an Excel or CSV file
 
@@ -108,7 +102,14 @@ You must have the following access to perform the steps in this article:
 * The file should not be larger than 5MB.
 * Empty sheets are not supported. 
 * Fields of the following types are not supported and cannot be mapped to fields on the import sheet:
-    * Connections and lookup fields of connected records <!--or connected Workfront objects-->
+
+    * Connection fields, depending on the environment you use:
+    
+        * In the Production environment, connection fields to Planning records or Workfront and AEM Assets objects cannot be mapped
+
+        * <span class="preview">In the Preview environment, you can map and import connection fields to Planning records. You cannot map fields to Workfront and AEM Assets.</span>
+
+    * Lookup fields from connected Planning records or Workfront and AEM Assets objects
     * Formula fields
     * Created date, Created by
     * Last modified date, Last modified by
@@ -124,8 +125,8 @@ To import record types using an Excel or CSV file:
 
     From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
 1. Click **Add record type**. 
-1. Click **From file**.
-1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 
+1. Click **Upload from file**.
+1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one, then select it. 
 1. Click **Preview and edit**.
     
     The **Preview and edit** box displays with the following information: 
@@ -148,11 +149,21 @@ To import record types using an Excel or CSV file:
 
     Sheets you deselected display with a gray background. 
 
-1. (Optional) Click the downward-pointing arrow to the right of the column header to do one of the following:
+1. (Optional) Click the downward-pointing arrow to the right of a column header to do one of the following, <span class="preview">in the **Field** tab</span>:
+
+    <span class="preview">![Field tab on the record type mapping import box](assets/field-tab-on-record-type-import-mapping-box.png)</span>
 
     * Rename one of the fields
     * Change the **Field type**
     * Update the field **Description**
+
+1. <span class="preview">(Optional) Click the **Connection** tab to map the information in the column to a connected field from other record types.</span>
+
+    <span class="preview">![Connection tab on the record type import mapping box](assets/connection-tab-on-record-type-import-mapping-box.png)</span>
+
+    >[!TIP]
+    >
+    ><span class="preview">You can only map to fields from Workfront Planning connected records. You cannot map to fields from Workfront or AEM Assets connections. For more information, see the section [Considerations about importing record types using an Excel or CSV file](#considerations-about-importing-record-types-using-an-excel-or-csv-file) in this article.</span>
 
 1. (Conditional) After updating information about the field, click **Save**.
 

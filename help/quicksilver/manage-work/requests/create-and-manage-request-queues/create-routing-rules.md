@@ -55,7 +55,7 @@ Once created, you cannot move routing rules from one project to another.
 ## Create a Routing Rule
 
 1. Go to the project in which you want to add routing rules for your requests. 
-1. Click **Routing Rules** in the left panel. You might need to click **Show More**, then **Routing Rules**.
+1. Click **Routing Rules** in the left panel. 
 1. Click **New Routing Rule** to add the new rule. The **New Routing Rule** box opens.
 
     ![New Routing Rule box](assets/new-routing-rule-box.png)

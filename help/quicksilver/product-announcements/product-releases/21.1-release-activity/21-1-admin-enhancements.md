@@ -25,7 +25,7 @@ For information about the Plan access level, see [Grant access to projects](../.
 
 For information about copying a project, see [Copy a project](../../../manage-work/projects/manage-projects/copy-project.md).
 
-This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) learning path on Workfront One.
+This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
 ## In a Custom Form on an object, select all items in a multi-select drop-down field
 
@@ -57,7 +57,7 @@ Adobe Workfront administrators can now give Group Administrators more autonomy b
 
 For more information, see [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 2: Project Setup](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) learning path on Workfront One.
+This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 2: Project Setup](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
 ## Configure access level settings for portfolios and programs separately
 
@@ -69,7 +69,7 @@ For information about configuring an access level, see [Create or modify custom 
 
 For information about access settings that you can configure for programs and portfolios, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) learning path on Workfront One.
+This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
 ## Select all checkboxes in a series when editing information in a Custom Form
 
@@ -102,7 +102,7 @@ Previously, only a top-level group could have Group Administrators, and those ad
 
 For more information, see the section [Group administrators for subgroups](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) in the article [Subgroups overview](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
-This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) learning path on Workfront One.
+This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
 ## Configure event notifications for groups
 
@@ -119,9 +119,9 @@ For more information, see the following articles:
 * [Unlock or lock configuration of event notifications for all groups](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) 
 * [View and configure event notifications for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
-This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) learning path on Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
-This feature is now included in the [Email and In-App Notifications in the new Workfront experience](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) learning path on Workfront One.
+This feature is now included in the [Email and In-App Notifications in the new Workfront experience](https://experienceleague.adobe.com/en/docs/workfront/using/home://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) learning path on Workfront One.-->
 
 ## Work with group projects and approval processes in the Groups area
 

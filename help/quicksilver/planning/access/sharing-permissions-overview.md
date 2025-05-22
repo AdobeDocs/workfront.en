@@ -38,7 +38,6 @@ You can manually share the following objects in Workfront Planning:
 
     For more information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
 
-<!--
 <div class="preview">
 
 * Record types
@@ -50,7 +49,7 @@ You can manually share the following objects in Workfront Planning:
     For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
 
 </div>
--->
+
 
 * Views
 
@@ -61,7 +60,7 @@ You can manually share the following objects in Workfront Planning:
 
     For more information, see [Share views](/help/quicksilver/planning/access/share-views.md).
    
-Internally, you can share a workspace or a view with the following Workfront entities:
+Internally, you can share a workspace, a view, <span class="preview">or a record type </span> with the following Workfront entities:
 
 * Users
 * Groups
@@ -70,6 +69,11 @@ Internally, you can share a workspace or a view with the following Workfront ent
 * Job roles
 
 <span class="preview"> When you share workspaces and record types with others, the permission level from the record type is automatically inherited to the records and fields associated with them. </span>
+
+>[!IMPORTANT]
+>
+>If your organization's instance of Workfront has been onboarded to the Adobe Unified Experience, the users you want to share Planning objects with must be added to the Adobe Admin Console. You cannot share Planning objects with Workfront users who have not been added to the Adobe Admin Console. 
+
 
 ## Considerations about sharing objects in Adobe Workfront Planning
 

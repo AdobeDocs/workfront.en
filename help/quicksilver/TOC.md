@@ -16,6 +16,9 @@ feature-set: Workfront
     * 2025 Q3 Release {#release-25-q3}
       * [2025 Q3 Release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
       * [Document management enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
+      * [Home enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-home-enhancements.md)
+      * [Reporting enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md)
+      * [Update and notification enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md)
       * [Look-and-feel updates during the 2025 Q3 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md)
     * 2025 Q2 Release {#release-25-q2}
       * [2025 Q2 Release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
@@ -401,7 +404,7 @@ feature-set: Workfront
   * Set up Workfront {#set-up-wf}
     * [Set up](administration-and-setup/set-up-workfront/set-up-workfront.md)
     * Configure system defaults {#configure-system-defaults}
-      * [Configure defaults](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
+      * [Configure system defaults: article index](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
       * [Configure project preferences](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
       * [Configure task and issue preferences](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
       * [Lock project preferences for groups](administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
@@ -560,6 +563,7 @@ feature-set: Workfront
         * [Create a form from a copy](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
         * [Add calculated fields to a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
         * [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
+        * [Examples of advanced logic in custom forms](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md)
         * [Examples of the External lookup field in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
         * [Organize and preview a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
       * Manage custom forms {#manage-custom-forms}
@@ -862,6 +866,7 @@ feature-set: Workfront
     * [Revise calculated field formulas with AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
     * [Use AI Assistant to work with projects, tasks, and issues](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
     * [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
+    * [Auto-fill a request using AI](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
   * Update work items and view updates {#update-work-items-view-updates}
     * [Update work items and view updates: article index](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Updates section overview](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -1217,7 +1222,7 @@ feature-set: Workfront
       * [Overview of attaching a template to a project](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
     * Define a Business Case {#define-business-case}
       * [Define a Business Case: article index](manage-work/projects/define-a-business-case/define-business-case.md)
-      * [Overview of the Areas of the Business Case](manage-work/projects/define-a-business-case/areas-of-business-case.md)
+      * [Business Case Areas Overview](manage-work/projects/define-a-business-case/areas-of-business-case.md)
       * [Create a Business Case for a project](manage-work/projects/define-a-business-case/create-business-case.md)
       * [Approve a Business Case](manage-work/projects/define-a-business-case/approve-business-case.md)
       * [Overview of Business Case financial fields](manage-work/projects/define-a-business-case/business-case-finances.md)
@@ -1267,7 +1272,7 @@ feature-set: Workfront
   * Tasks {#tasks}
     * [Tasks: article index](manage-work/tasks/tasks-overview.md)
     * Task information {#task-information}
-      * [Task information](manage-work/tasks/task-information/task-information.md)
+      * [Task information: article index](manage-work/tasks/task-information/task-information.md)
       * [Tasks overview](manage-work/tasks/task-information/tasks-overview.md)
       * [View Actual Hours](manage-work/tasks/task-information/actual-hours.md)
       * [Task Tracking Mode overview](manage-work/tasks/task-information/task-tracking-mode.md)
@@ -1430,7 +1435,7 @@ feature-set: Workfront
       * [Optimize projects in the Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
       * [Calculate the Risk to Net Value in a portfolio](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
   * Requests {#requests}
-    * [Requests](manage-work/requests/requests-overview.md)
+    * [Requests: article index](manage-work/requests/requests-overview.md)
     * Create and manage Request Queues {#create-and-manage-request-queues}
       * [Create and manage Request Queues](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
       * [Create a Request Queue](manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
@@ -1453,7 +1458,7 @@ feature-set: Workfront
     * [Delegate tasks and issues overview](manage-work/delegate-work/delegate-work-overview.md)
     * [Delegate tasks and issues](manage-work/delegate-work/how-to-delegate-work.md)
 * Teams and groups {#teams-groups}
-  * [Teams and groups](people-teams-and-groups/people-teams-and-groups.md)
+  * [Teams and groups: article index](people-teams-and-groups/people-teams-and-groups.md)
   * Create and manage teams {#create-manage-teams}
     * [Create and manage teams](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
     * [Teams overview](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
@@ -2080,6 +2085,7 @@ feature-set: Workfront
     * [Manage record connections from Workfront objects](planning/records/manage-records-in-planning-section.md)
     * [Export a record's details](planning/records/export-the-record-page.md)
     * [Create Workfront objects from Workfront Planning as you connect them to records](planning/records/create-workfront-objects-from-workfront-planning.md)
+    * [Configure Adobe Workfront Planning automations](planning/records/configure-automations-to-create-records.md)
     * [Create objects using Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
   * Adobe Workfront Planning requests {#adobe-workfront-planning-requests}
     * [Adobe Workfront Planning requests: article index](planning/requests/requests-article-index.md)
@@ -2094,6 +2100,8 @@ feature-set: Workfront
     * [Manage the table view](planning/views/manage-the-table-view.md)
     * [Manage the timeline view](planning/views/manage-the-timeline-view.md)
     * [Manage the calendar view](planning/views/manage-the-calendar-view.md)
+    * [Delete record views](planning/views/delete-record-views.md)
+    * [Duplicate record views](planning/views/duplicate-record-views.md)
   * Adobe Workfront Planning notifications {#adobe-workfront-planning-notifications}
     * [Adobe Workfront Planning notifications: Article index](planning/notifications/notifications-information.md)
     * [Manage Adobe Workfront Planning notification preferences](planning/notifications/manage-notification-preferences.md)
@@ -2132,7 +2140,7 @@ feature-set: Workfront
     * Workfront Extension for Illustrator and InDesign {#workfront-for-illustrator-indesign}
       * [Use the Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
   * Adobe Workfront for Jira {#workfront-for-jira}
-    * [Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
+    * [Adobe Workfront for Jira: article index](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
     * [Install Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
     * [Configure Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
     * [Link items between Adobe Workfront and Jira](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
@@ -2155,7 +2163,7 @@ feature-set: Workfront
     * [Create an Adobe Workfront issue in Google Workspace using email content](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
     * [Update an Adobe Workfront item from G Suite using email content](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
   * Adobe Workfront for Outlook {#workfront-for-outlook}
-    * [Adobe Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
+    * [Adobe Workfront for Outlook: article index](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
     * [Set up Adobe Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
     * [Permissions levels for Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md) 
     * [Reply to a comment from Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
@@ -2452,6 +2460,7 @@ feature-set: Workfront
     * [Configure and use your organization's custom OAuth 2 applications using JWT flow](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](wf-api/api/oauth-app-pkce-flow.md)    
     * [Deprecation of API-Internal](wf-api/api/deprecation-api-internal.md)
+    * [What's new in API version 20](wf-api/api/new-api-version-20.md) 
     * [What's new in API version 19](wf-api/api/new-api-version-19.md) 
     * [What's new in API version 18](wf-api/api/new-api-version-18.md)
     * [What's new in API version 17](wf-api/api/new-api-version-17.md)
@@ -2488,7 +2497,7 @@ feature-set: Workfront
     * [Outbound message format for event subscriptions](wf-api/api/message-format-event-subs.md)
     * [FAQs - Event Subscriptions](wf-api/general/event-subs-faq.md)
   * Document Webhooks API {#document-webhooks-api}
-    * [Document Webhooks API articles](wf-api/doc-wbhks-api/document-webhooks-api.md)
+    * [Document Webhooks API: article index](wf-api/doc-wbhks-api/document-webhooks-api.md)
     * [Webhooks Overview](wf-api/doc-wbhks-api/webhooks-overview.md)
     * [Register a Webhook Integration](wf-api/doc-wbhks-api/register-webhook-integration.md)
     * [Authentication for Document Webhooks](wf-api/doc-wbhks-api/auth-for-docu-webhook.md)
@@ -2500,7 +2509,7 @@ feature-set: Workfront
     * [Get a thumbnail for a document](wf-api/doc-wbhks-api/get-thmbnl-doc.md)
     * [File upload via Document Webhooks](wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
     * [Create a Folder with Document Webhooks](wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
-    * [Delete a document or folder (Not yet implemented)](wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
+    * [Delete a document or folder (not yet implemented)](wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
     * [Get information about the service (not yet implemented)](wf-api/doc-wbhks-api/get-service-info-webhook.md)
     * [Rename a document or folder (not yet implemented)](wf-api/doc-wbhks-api/rename-docu-or-folder.md)
     * [Perform a custom action (not yet implemented)](wf-api/doc-wbhks-api/perform-custom-action.md)

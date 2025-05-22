@@ -106,7 +106,7 @@ To edit the Project Planning Priority:
 >
 >Your company must have a Business or higher Workfront plan to prioritize projects in the Portfolio Optimizer. 
 >
->For more information on the Workfront plans, see [Our Plans](https://www.workfront.com/plans). 
+>For more information on the Workfront plans, see [Our Plans](https://business.adobe.com/products/workfront/pricing.html). 
 >
 >For information about prioritizing projects in the Portfolio Optimizer, see [Prioritize projects in the Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 

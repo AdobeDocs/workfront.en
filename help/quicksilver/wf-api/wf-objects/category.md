@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: workfront-objects
-title: When APIModel INTERNAL does not support field projectid (OpTask)Category
-description: When APIModel INTERNAL does not support field projectid (OpTask)
+title: Category
+description: A table of fields available for the Category object, with their descriptions and value types.
 author: Becky
 feature: Workfront API
 role: Developer
@@ -10,6 +10,8 @@ exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
 ---
 
 # Category
+
+<!-- Audited: 5/2025 -->
 
 Fieldsclass: "java.lang.IllegalArgumentException",  
 message: "APIModel INTERNAL does not support field projectid (OpTask)"
@@ -84,7 +86,7 @@ message: "APIModel INTERNAL does not support field projectid (OpTask)"
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;extRefID&quot;}"><strong>extRefID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;External Reference ID&quot;}">External Reference ID</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">User Editable Field inteded to be used a link to an external object</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">User Editable Field intended to be used a link to an external object</td> 
    <td>&nbsp;</td> 
    <td> <p><span class="dtEdit">Editable</span> </p> </td> 
   </tr> 
@@ -133,23 +135,23 @@ message: "APIModel INTERNAL does not support field projectid (OpTask)"
 
 ## References
 
-| Name |Label |Type |Type Object Code |URL |
-|---|---|---|---|---|
-| Customer |customer |Customer |CUST | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467)  |
-| Entered By |enteredBy |User |USER | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467)  |
-| Group |group |Group |GROUP | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467)  |
-| Last Updated By |lastUpdatedBy |User |USER | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467)  |
+| Name |Label |Type |Type Object Code |
+|---|---|---|---|
+| Customer |customer |Customer |CUST | 
+| Entered By |enteredBy |User |USER | 
+| Group |group |Group |GROUP |  
+| Last Updated By |lastUpdatedBy |User |USER |
 
 
 ## Collections
 
-| Name |Label |Type |Type Object Code |URL |
-|---|---|---|---|---|
-| Access Rules |accessRules |Access Rule |ACSRUL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467)  |
-| Category Access Rules |categoryAccessRules |Category Access Rules |CATACR | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467)  |
-| Category Cascade Rules |categoryCascadeRules |Catagory Cascade Rules |CTCSRL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467)  |
-| Category Parameters |categoryParameters |Category Parameters |CTGYPA | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467)  |
-| Other Groups |otherGroups |Group |GROUP | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467)  |
+| Name |Label |Type |Type Object Code |
+|---|---|---|---|
+| Access Rules |accessRules |Access Rule |ACSRUL |
+| Category Access Rules |categoryAccessRules |Category Access Rules |CATACR |
+| Category Cascade Rules |categoryCascadeRules |Catagory Cascade Rules |CTCSRL |
+| Category Parameters |categoryParameters |Category Parameters |CTGYPA |
+| Other Groups |otherGroups |Group |GROUP |
 
 
 ## Actions

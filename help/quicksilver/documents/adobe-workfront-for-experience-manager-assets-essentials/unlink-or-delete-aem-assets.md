@@ -24,8 +24,8 @@ When you delete a linked document or folder in Workfront, it is unlinked from Ex
 
 When you delete a linked document or folder from the external application, the document or folder remains in the Workfront system until you also delete it from Workfront.
 
-* To delete an asset from Adobe Experience Manager as a Cloud Service, see [Delete assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en#delete-assets) in the Adobe Experience Manager as a Cloud Service documentation.
-* To delete an asset from Adobe Experience Manager Assets Essentials, see [Delete assets or folders](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html?lang=en#delete-assets) in the Adobe Experience Manager Assets Essentials documentation.
+* To delete an asset from Adobe Experience Manager as a Cloud Service, see [Delete assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) in the Adobe Experience Manager as a Cloud Service documentation.
+* To delete an asset from Adobe Experience Manager Assets Essentials, see [Delete assets or folders](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) in the Adobe Experience Manager Assets Essentials documentation.
 
 
 

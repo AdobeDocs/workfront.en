@@ -12,6 +12,8 @@ exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 
 In the Documents area, you can organize, manage, and view metadata for documents uploaded to Adobe Workfront. You can also see the proof decision.
 
+Documents added to individual tasks and issues are all available in the Project > Documents area. 
+
 ![Documents area](assets/documents-area-v2-350x199.png)
 
 There are two types of Documents areas. Features and functionality are the same for both:

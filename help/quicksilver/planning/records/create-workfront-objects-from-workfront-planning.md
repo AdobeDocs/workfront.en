@@ -1,5 +1,5 @@
 ---
-title: Create Workfront Objects from Workfront Planning
+title: Create Workfront objects from Workfront Planning as you connect them to records
 description: You can create Workfront objects types as you connect them from other records in Workfront Planning.
 feature: Workfront Planning
 role: User, Admin
@@ -102,7 +102,7 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
    <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
-   <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect the records to them. </p>  
+   <p>Edit access with access to Create objects in Workfront for the object types that you want to create (projects, portfolios, programs). </p>  
 </td> 
   </tr> 
 <tr> 
@@ -114,7 +114,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu </p> </td> 
+   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> </td> 
   </tr> 
 </tbody> 
 </table> 
@@ -122,14 +123,6 @@ You must have the following access to perform the steps in this article:
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).   
 
 +++
-
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## Prerequisites for creating Workfront objects when connecting them with records from Workfront Planning
 

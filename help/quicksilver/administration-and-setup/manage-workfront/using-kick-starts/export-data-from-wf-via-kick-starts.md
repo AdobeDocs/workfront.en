@@ -162,6 +162,10 @@ The following limitations exist when exporting data via kick-starts (data is exp
     </tbody> 
    </table>
 
+   >[!NOTE]
+   >
+   >If the **Dashboard** option is not available, it means that you don't have any dashboards in your system that are shared system-wide. You cannot export private dashboards.
+
 1. Click **More Options** to see the full list of objects.
 
    All of the objects listed here can be used to also import data into Workfront.
@@ -324,7 +328,7 @@ The following limitations exist when exporting data via kick-starts (data is exp
 
    The exported kick-start file is downloaded to your computer either as an Excel file, or a . zip file containing multiple Excel and properties files. Each Excel file is a collection of sheets, where each sheet represents a field associated with the object you selected. There is a **Properties** sheet associated with every export.
 
-   The **Dashboard** and **Report** options allow you to select specific dashboards and reports to include in the download. You can export only Dashboards, which are shared system-wide.
+   The **Dashboard** and **Report** options allow you to select specific dashboards and reports to include in the download. For dashboards, you can only export dashboards that are shared system-wide.
 
    You cannot export matrix reports. For more information about matrix reports, see [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 

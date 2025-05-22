@@ -153,7 +153,7 @@ You can share a project in the following ways:
    * **Only invited people can access:** Only users who are invited to the project can access it (Default).
    * **Everyone in the system can view**: All users in the system can view the project without an invitation.
 
-1. (Optional) To automatically appy the project access settings you selected to all new projects, click the **Gear** icon ![Select the gear icon](assets/gear-icon.png), then check the box inline with **Set as my project access template**.
+1. (Optional) To automatically apply the project access settings you selected to all new projects, click the **Gear** icon ![Select the gear icon](assets/gear-icon.png), then check the box inline with **Set as my project access template**.
 
    >[!NOTE]
    >

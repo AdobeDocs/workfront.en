@@ -38,7 +38,7 @@ Proof Permission Profiles are different from proof roles. For more information a
 
 The following table displays the permissions available with each Proof Permission Profile.
 
-<table>
+<table style="table-layout:auto">
   <tr>
    <td colspan="1" ><strong></strong>
    </td>

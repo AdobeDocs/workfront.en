@@ -3,8 +3,9 @@ title: Create custom applications for Workfront with Adobe App Builder
 description: Workfront UI Extensions, powered by Adobe App Builder, allow customers and partners to create customized user experiences.
 author: Courtney
 feature: Digital Content and Documents
----
+exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
 
+---
 # Create custom applications for Workfront with Adobe App Builder
 
 Workfront UI Extensions, powered by Adobe App Builder, allow customers and partners to create customized user experiences. These tools enhance efficiency, deliver seamless, connected experiences, and significantly improve user satisfaction, and help enterprises realize their unique vision.

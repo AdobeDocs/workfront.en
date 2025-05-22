@@ -9,7 +9,11 @@ exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 ---
 # Add projects to a portfolio
 
-<!--Audited: 7/2024-->
+<!--Audited: 5/2025-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
 
 We recommend that you add projects to portfolios when you initiate them. However, you can add them to a portfolio at any time during their lifetime.
 
@@ -34,7 +38,7 @@ Consider the following when adding projects to portfolios:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td><p>New: Standard</p> 
-   <p>Current:[!UICONTROL Plan] </p> </td> 
+   <p>Current: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level</td> 
@@ -61,7 +65,7 @@ Consider the following when adding projects to portfolios:
 
    >[!TIP]
    >
-   >You cannot add project when you view the list of projects in the [!UICONTROL Milestone] view.
+   >You cannot add a project when you view the list of projects in the [!UICONTROL Milestone] view.
 
    Select from the following options:
 
@@ -94,10 +98,18 @@ Consider the following when adding projects to portfolios:
 
    ![New project dropdown](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Conditional) If you selected to add an existing project, start typing the name of a project in the **[!UICONTROL Add Projects]** box, then click them when they appear in the list. You may add several projects at a time.
+1. (Conditional) If you selected to add an existing project, the <span class="preview">**Add Projects** box opens.</span> <!--check this after UI changes-->
 
-   ![Add existing project](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
+   <span class="preview">![Add existing project](assets/add-existing-projects-to-portfolios-box.png)</span> <!--check this after UI changes-->
 
-1. Click **[!UICONTROL Add Projects]**.
+1. Start typing the name of a project in the **[!UICONTROL Add Projects to this Portfolio]** field, then click them when they appear in the list.  <!--check this after UI changes-->
+
+   You can add more than one project.
+
+1. (Optional) Click the **X** icon to the right of the project name to remove it from the list, if you decide not to add it to the portfolio.
+
+   <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
+
+1. Click **[!UICONTROL Add Projects]**. <!--check this after UI changes-->
 
    The project or projects you selected are now associated with the portfolio. 
