@@ -86,9 +86,17 @@ We have updated the page you use to grant support access to your Workfront accou
 
 ## Projects
 
-### Look-and-feel changes for the Copy Template box
+## Look and feel updates to the New and Edit risk boxes for a project or a template 
 
 **Preview release: May 22, 2025; Production release: May 29, 2025**
+
+We have updated the look and feel of the New risk and Edit risk boxes when adding risks or editing them on a project or a template in the Risks section. The design of the boxes now matches other areas of Workfront.
+
+For information, see [Create and edit risks in projects](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create-and-edit-risks-on-projects).
+
+### Look-and-feel changes for the Copy Template box
+
+**Preview release: May 22, 2025; Production release: May 22, 2025**
 
 We have updated the look and feel of the Copy Template box to match the design of other areas of Workfront. 
 
@@ -111,7 +119,7 @@ For information, see the following articles:
 * [Add a project to a program](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) 
 
 
-## Reports and Dashboard
+## Reports and Dashboards
 
 ### URLs with /tile or /qstile no longer supported in Workfront Dashboards
 
