@@ -41,7 +41,9 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
-   <td>Any</td> 
+   <td><p>Any</p>
+   
+   <p>Adding custom applications to the Main Menu is only available for organizations licensed for Adobe App Builder.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
@@ -114,6 +116,12 @@ You must have the following access to perform the steps in this article:
      >[!NOTE]
      >
      >Planning requires an additional license. For information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md)
+     * Custom Application
+
+      >[!NOTE]
+      >
+      > Custom applications must be created separately before they become available as Main Menu options. For more information, see [Create a custom application for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md). 
+
 
 1. Do any of the following:
 
