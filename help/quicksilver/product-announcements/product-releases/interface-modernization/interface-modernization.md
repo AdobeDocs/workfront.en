@@ -19,6 +19,14 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+### New look and feel of the New and Copy Scorecard boxes   
+
+**Preview release:  May 22, 2025 ; Production release: May 29, 2025**   
+
+We have updated the look and feel of the New and Copy Scorecard boxes to match the design in other areas of the application. You can view the updated design when creating or copying a scorecard in the Setup area of Workfront.  
+
+For information, see [Create a scorecard](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+
 ### Interface updates to a group's recently restored items
 
 **Preview release: May 15, 2025; Production release: May 15, 2025**
@@ -76,7 +84,42 @@ For more information, see [Search [!DNL Adobe Workfront]](/help/quicksilver/work
 
 We have updated the page you use to grant support access to your Workfront account with a more modern design that is consistent with other areas of Workfront. 
 
-## Reports and Dashboard
+## Projects
+
+## Look and feel updates to the New and Edit risk boxes for a project or a template 
+
+**Preview release: May 22, 2025; Production release: May 29, 2025**
+
+We have updated the look and feel of the New risk and Edit risk boxes when adding risks or editing them on a project or a template in the Risks section. The design of the boxes now matches other areas of Workfront.
+
+For information, see [Create and edit risks in projects](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create-and-edit-risks-on-projects).
+
+### Look-and-feel changes for the Copy Template box
+
+**Preview release: May 22, 2025; Production release: May 22, 2025**
+
+We have updated the look and feel of the Copy Template box to match the design of other areas of Workfront. 
+
+For information, see [Copy a project template](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
+
+### Look and feel updates when adding objects to programs and portfolios 
+
+**Preview release: May 22, 2025; Production release: May 29, 2025**
+
+We have updated the interface for the Add boxes when doing the following: 
+
+* Adding projects to programs
+* Adding projects to portfolios
+* Adding programs to portfolios
+
+For information, see the following articles: 
+
+* [Add an existing program to a portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [Add projects to a portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [Add a project to a program](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) 
+
+
+## Reports and Dashboards
 
 ### URLs with /tile or /qstile no longer supported in Workfront Dashboards
 
@@ -145,7 +188,15 @@ We have updated the license agreement page with a more modern design that is con
 
 +++Expand to view Administration and Setup interface updates made in Q2
 
-### Interface updates to the Resource Management area in Setup
+### Interface updates to recently restored items
+
+**Preview release: April 23, 2025; Production release: April 23, 2025**
+
+We have updated the look and feel of the recently restored items in the Setup area, to match the design of other areas of Workfront. No functionality has changed for recently restored projects, tasks, requests, documents, or templates.
+
+To view this change, go to Setup > Recycle Bin > Recently Restored.
+
+For information, see [View restored items](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).### Interface updates to the Resource Management area in Setup
 
 **Preview release: April 17, 2025; Starting the week of April 17, 2025**
 
@@ -153,7 +204,7 @@ We have updated the look and feel of the Resource Management preferences in the 
 
 For information, see [Configure Resource Management preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-## Interface updates to a Milestone Path list in Setup
+### Interface updates to a Milestone Path list in Setup
 
 **Preview release: March 6, 2025; Starting the week of April 10, 2025**
 
@@ -161,7 +212,7 @@ We have updated the look and feel of the Milestone Path list in the Setup area, 
 
 For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
-## Interface update to the Edit Risk Type box in Setup
+### Interface update to the Edit Risk Type box in Setup
 
 **Preview release: March 27, 2025; Starting the week of April 10, 2025**
 
@@ -477,16 +528,6 @@ This update includes visual changes to the lists and toolbars of the reports for
 
 For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-### Interface updates to recently restored items
-
-**Preview release: April 23, 2025; Production release: April 23, 2025**
-
-We have updated the look and feel of the recently restored items in the Setup area, to match the design of other areas of Workfront. No functionality has changed for recently restored projects, tasks, requests, documents, or templates.
-
-To view this change, go to Setup > Recycle Bin > Recently Restored.
-
-For information, see [View restored items](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
-
 ### Interface updates for the Delete company box in a Company report
 
 **Preview release: April 17, 2025; Production release: April 17, 2025**
@@ -614,3 +655,8 @@ This update includes the following changes:
 * Highlighted the Delete action by displaying it in red. 
 
 For information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+
+
+
+
