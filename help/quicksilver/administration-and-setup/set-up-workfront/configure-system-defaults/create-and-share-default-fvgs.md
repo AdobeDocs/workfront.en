@@ -91,7 +91,7 @@ If you want to hide filters, views, or groupings from specific users, we recomme
 >[!NOTE]
 >
 >* If a user is actively using a filter, view, or grouping and then an administrator disables it, the user still has access until they choose a new filter, view, or grouping. After they choose a new one, they will no longer be able to revert to the hidden one.
->* If all filters, views, and groupings are restricted through the layout template or disabled system-wide, the user will see the default options, as the system must display something.
+>* If all filters, views, and groupings are restricted through the Layout Template or disabled system-wide, the user will see the default options, as the system must display something.
 
 To show or hide filters, views, or groupings:
 
@@ -107,7 +107,7 @@ To show or hide filters, views, or groupings:
    >
    >If you want to keep the filter, view, or grouping available for most users but hide it from others, you can use the Layout Template. For more information, see [Customize Filters, Views, and Groupings using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Conditional) Select the filter, view, or grouping that you want to hide from users, then click **[!UICONTROL Disable system-wide]**. The filter, view, or grouping is now hidden from both the layout template and users across the system.
+1. (Conditional) Select the filter, view, or grouping that you want to hide from users, then click **[!UICONTROL Disable system-wide]**. The filter, view, or grouping is now hidden from both the Layout Template and users across the system.
 
 
 ## Share custom filters, views, or groupings with specific users
