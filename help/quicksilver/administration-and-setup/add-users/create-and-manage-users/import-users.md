@@ -101,3 +101,11 @@ For more detail about the information in this table, see [Access requirements in
 1. Click **Import**.
 
    You receive a confirmation message at the top of the screen that the user was successfully imported.
+
+>[!NOTE]
+>
+>The users are created in a Deactivated and Pending Approval status. 
+> 
+>If a user does not move out of Deactivated and Pending Approval status within a few minutes, and a screen refresh does not remove the Pending Approval badge, you can add the batch of users to the Adobe Admin Console directly.
+>
+>For instructions, see [Manage multiple users | Bulk CSV upload](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) in the Adobe documentation.
