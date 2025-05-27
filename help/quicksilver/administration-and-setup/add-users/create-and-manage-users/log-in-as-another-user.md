@@ -11,7 +11,7 @@ exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
 ---
 # Log in as another user
 
-<!--Audited: April, 2024-->
+<!--Audited: 5/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
@@ -19,9 +19,7 @@ exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
 
-As the Adobe Workfront administrator, sometimes you might need to access Workfront on behalf of another user.
-
-Or, as a group administrator, you might need to access Workfront on behalf of a user who is a member of a group you manage.
+As the Adobe Workfront administrator, sometimes you might need to access Workfront on behalf of another user. Or, as a group administrator, you might need to access Workfront on behalf of a user who is a member of a group you manage.
 
 For example, if a task can't progress until a user on vacation performs a certain action, you can log in as that user and perform the action instead.
 
@@ -38,7 +36,7 @@ Some users, such as executives, need to be able to control which administrators 
 >
 >Since a document integration may connect to private personal files, administrators can't access document integrations while logged in as another user.
 >
->For more information on document integrations, see [Configure document integrations](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
+>For more information on document integrations, see [Configure document integrations](../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ## Access requirements
 
@@ -62,8 +60,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>With the System Administrator access level, you can log in as anyone.</p> <p>With a Standard or Planner access level, you can log in as a user with a lower license level if the <b>Users</b> setting in the access level is configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>NOTE</b>: Of these two options, if <b>User Admin (Group Users)</b> is enabled, you must be a group administrator of a group where the user is a member.</p></td>
+   <td> <p>With the System Administrator access level, you can log in as anyone.</p> <p>With a Standard or Planner access level, you can log in as a user with a lower license level if the Users setting in the access level is configured to Edit access, with Create and at least one of the two User Admin options enabled under Fine-tune your settings <img src="assets/gear-icon-in-access-levels.png">. </p> 
+   <p>NOTE: Of these two options, if User Admin (Group Users) is enabled, you must be a group administrator of a group where the user is a member.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +72,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Log in and perform actions as another user
 
-1. Log in to Workfront as a Workfront administrator or a group administrator.
+1. Log in to Workfront as a Workfront administrator or group administrator.
 
    >[!NOTE]
    >
@@ -88,17 +86,16 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}
 
-1. In the left panel, click **Log in As**.  
+1. In the left panel, click **Log In As**.  
 
-1. In the **Users** box on the **Log In As** tab, begin typing the name of the user, then click the name when it appears in the drop-down list.
+1. In the **Start typing name...** box on the **Log In As** tab, begin typing the name of the user, then click the name when it appears in the drop-down list.
 
-   The user must have an access level defined in Workfront. You cannot log in to the Workfront system as a user who does not have rights to log in.
 
    >[!NOTE]
-   >
-   >Group administrators can log in only as the users who are members of the groups they manage. They cannot log in as a Workfront administrator.
+   >* The user you select must have an access level defined in Workfront. You cannot log in to the Workfront system as a user who does not have rights to log in.
+   >* Group administrators can log in only as the users who are members of the groups they manage. They cannot log in as a Workfront administrator.
 
-1. Click **Log in.**
+1. Click **Log In**. You're logged in as another user and a notification displays at the top of the screen indicating this.
 
    <!--
    <p> Might come in a future story:</p>
@@ -125,15 +122,15 @@ For more detail about the information in this table, see [Access requirements in
    </div>
    -->
 
-   When you are logged in as another user, a notification displays at the top of the screen to indicate this.
+   
 
-1. After you have performed the necessary actions as the user, click **Log Out.**
+1. After you have performed the necessary actions as the user, click **Logout** at the top of the screen.
 
 ## Tracking and auditing activity while an administrator is logged in as another user
 
 Workfront provides mechanisms for tracking and auditing activity that takes place while the administrator is logged in as another user.
 
-When you log in as another user, the last login date is modified for that user to the date when the system or group administrator logs in as that user.
+When you log in as another user, the last login date for that user is modified to the date when the system or group administrator logs in as that user.
 
 * [View indicators on items](#view-indicators-on-items) 
 * [View audit information](#view-audit-information)
@@ -147,14 +144,17 @@ For example, if you comment on an item while logged in as another user, a statem
 ### View audit information {#view-audit-information}
 
 1. Log in to Workfront as a Workfront administrator or group administrator.
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
+{{step1-to-setup}}
+   <!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
 
-1. Click **Log in As,** then click the **Access Log** tab.
+1. In the left panel, click **Log In As**, then click the **Access Log** tab. 
 
-   Any time a system or group administrator logs in to Workfront as another user, the event is logged in the audit trail. In addition, any auditable actions that take place while the administrator is logged in as another user are logged in the audit trail.
+   >[!NOTE]
+   >
+   >Any time a system or group administrator logs in to Workfront as another user, the event is logged in the audit trail. In addition, any auditable actions that take place while the administrator is logged in as another user are logged in the audit trail.
 
-1. (Optional) You can filter the results that are displayed in the audit trail in the following ways:
+1. (Optional) You can filter the results that display in the audit trail in the following ways:
 
    * By user who has logged in
    * By user who has been logged in as
-   * By date
+   * By date and time

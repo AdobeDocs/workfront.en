@@ -13,7 +13,7 @@ exl-id: 92b02c31-7e77-4b27-9b17-d7803df2ba2d
 ---
 # User management: article index
 
-<!-- Audited: 12/2023 -->
+ <!-- Audited: 5/2025 -->
 
 You can create and manage users in Workfront. 
 

@@ -10,6 +10,8 @@ exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
 ---
 # Calculate Cost Performance Index (CPI)
 
+ <!-- Audited: 5/2025 -->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
@@ -190,8 +192,6 @@ You can display the CPI of a project or a task in a project or task list or repo
 1. Go to the project or task where you want to view the CPI.
 1. Expand **Project Details** or **Task Details** in the left panel, depending on whether you are viewing CPI for a project or task.
 
-1. Click **Finance**.
-
-   The CPI displays in the **CPI/ SPI/ CSI** field.
+1. Click **Finance**. The CPI displays in the **CPI/ SPI/ CSI** field.
 
    ![CPI on project](assets/cpi-on-project-nwe.png)

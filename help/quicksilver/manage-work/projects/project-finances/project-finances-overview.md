@@ -11,6 +11,8 @@ exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
 ---
 # Project finances: article index
 
+ <!-- Audited: 5/2025 -->
+
 For information about areas where you can find project financial information and about how to manage project finances, see the following articles:
 
 ## General project finances
