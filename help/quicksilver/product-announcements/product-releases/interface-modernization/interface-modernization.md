@@ -102,7 +102,7 @@ We have updated the page you use to grant support access to your Workfront accou
 
 ## Projects
 
-## Look and feel updates for the Delete Issue box 
+### Look and feel updates for the Delete Issue box 
 
 **Preview release: May 29, 2025; Production release: June 5, 2025**
 
