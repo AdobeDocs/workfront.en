@@ -83,8 +83,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> 
 
-<!--
-
 ### Home enhancements
 
 <table style="table-layout:auto">
@@ -101,14 +99,12 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">My approvals widget now automatically sorts by deadline </a><p></p>
             <p>We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list. </p>
         </td>
-        <td>May 15, 2025</td>
-        <td>May 15, 2025</td>
+        <td>May 29, 2025</td>
+        <td>June 12, 2025</td>
         <td>July 17, 2025</td>
     </tr>     
   </tbody>
 </table> 
-
--->
 
 ### Project enhancements
 
@@ -121,6 +117,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Change in the way Actual Hours are stored in the database for API calls</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>This update introduces a change in the way the Actual Hours for projects, tasks, and issues are stored in the database. Starting with this update, the Actual Hours will be using a valuefield of <code>actualWorkRequiredDouble</code> (with a value in hours).</p>
+        </td>
+        <td>May 27, 2025</td>
+        <td>May 27, 2025</td>
+        <td>May 27, 2025</td>
+    </tr>     
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Update in using the Percent Complete slider in a task or issue header</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>We have updated the way the percent complete slider works for tasks and issues. When you slide the Percent Complete blue bubble in a task or issue's header, the Percent Complete of the task or the issue will now update in five point increments. Prior to this update, sliding the blue Percent Complete bubble updated the tasks or issues in one point increments.</p>
+        </td>
+        <td>May 27, 2025</td>
+        <td>May 27, 2025</td>
+        <td>May 27, 2025</td>
+    </tr>     
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More transparency when using AI Assistant on projects, tasks, and issues</a><p>[!BADGE Off schedule]{type=Neutral}</p>

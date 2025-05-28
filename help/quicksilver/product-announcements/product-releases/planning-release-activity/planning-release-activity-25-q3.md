@@ -16,6 +16,30 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Filters, columns and additional fields added to the Planning tab in the Requests area 
+
+>[!NOTE]
+>
+>* Preview: May 29, 2025
+>* Production fast release: June 12, 2025 
+>* Production for all customers:  July 17, 2025
+
+We have added the following functionality to a list of requests in the Planning tab of the Requests area: 
+
+* Entered by column to indicate the person who added a request
+* Filters to limit the number of requests you view on the Planning tab. You can filter the list by the following items:
+
+    * the Workspace the request form originated from
+    * the record type associated with the request form
+    * the Entry Date of the request
+    * the name of the request form 
+    * the Status of the requests
+    * the name of the person who entered the request. 
+
+* Columns icon to view or hide fields (or columns) in the Planning requests list. 
+
+For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+
 ## New experience when breaking down records in Compact mode in the timeline view 
 
 >[!NOTE]
