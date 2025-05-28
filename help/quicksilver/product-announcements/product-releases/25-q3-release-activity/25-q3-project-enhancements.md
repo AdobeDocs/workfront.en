@@ -8,7 +8,7 @@ hide: yes
 hidefromtoc: yes
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
 ---
-# Project enhancements during the Third Quarter 2025 release timeframe
+# Third Quarter 2025 Project enhancements
 
 This page describes Project enhancements made with the Third Quarter 2025 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
 
