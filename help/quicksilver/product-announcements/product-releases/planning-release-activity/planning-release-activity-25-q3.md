@@ -36,7 +36,7 @@ We have added the following functionality to a list of requests in the Planning 
     * the Status of the requests
     * the name of the person who entered the request. 
 
-* Columns icon to view or hide fields (or columns) in the Planning requests list. 
+* Columns control to view or hide fields (or columns) in the Planning requests list. 
 
 For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
 
