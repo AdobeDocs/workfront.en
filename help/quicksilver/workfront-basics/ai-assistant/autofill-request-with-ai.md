@@ -104,5 +104,17 @@ The following file types are supported:
 
 ### Supported file size
 
-You can upload a document to be applied to the entire form, or to a single section of the form.
+Each file can be up to 100 MB in size
+
+### Number of files
+
+You can upload up to 50 pages, slides, or sheets.
+
+>[!IMPORTANT]
+>
+>Documents are converted to a series of images, each of which is considered a separate file.
+
+
+
+You can upload a document to be applied to the entire form, or to a single section of the form. 
 
