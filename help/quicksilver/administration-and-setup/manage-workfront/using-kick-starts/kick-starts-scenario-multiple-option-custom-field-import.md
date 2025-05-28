@@ -266,16 +266,11 @@ After performing the steps described in the previous sections, continue with the
 
 1. Click **System > Import Data (Kick-Starts)**.
 
-1. Click **Choose File** under the section **Upload data with Kick-Start spreadsheet**. 
+1. Click **Choose file** under the section **Upload data with Kick-Start spreadsheet**. 
 
-1. Browse for the Excel spreadsheet you prepared, on your computer and select it when you find it. When Workfront recognizes the file, the Upload button turns blue.
-1. Click **Upload.** 
+1. Browse for the Excel spreadsheet you prepared, on your computer and select it when you find it.
 
-    ![File selected and upload button](assets/kick-start-file-selected-and-upload-blue-button.png)
-
-1. A notification that the import was successful displays. Depending on how much information you are importing, this step might take a few seconds to a minute.
-
-    ![Kick-start successful](assets/kick-start-successful.png)
+   The file uploads automatically, and a notification that the import was successful displays. Depending on how much information you are importing, this step might take a few seconds to a minute.
 
     The new custom fields and forms are now in your Workfront system. You can find them in the Custom Forms area of Setup.
 
@@ -283,12 +278,9 @@ After performing the steps described in the previous sections, continue with the
     >
     >The new forms and the fields you imported are not yet connected. The form is imported with no custom fields. You must manually add the fields to the new custom form or to another existing custom form.   
 
-    
     For information about adding fields to custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Conditional) If the import was not successful, you receive an error message with what the problem is. Try to identify the field, the sheet, and the row number in which the problem was encountered and correct the information in the Excel file, then try importing the file one more time.
-
-    ![Kick-start error](assets/kick-start-error.png)
+1. (Conditional) If the import was not successful, you receive an error message stating what the problem is. Try to identify the field, the sheet, and the row number in which the problem was encountered and correct the information in the Excel file. Then, try importing the file one more time.
 
 1. (Conditional) Depending on what the problem is, as stated in the error message, some information might already be imported. You must do one of the following before you can import the sheet again: 
 

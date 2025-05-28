@@ -482,12 +482,13 @@ To import the template spreadsheet data into Workfront:
 
 1. Click **System** > **Import Data (Kick-Starts)**.
 
-1. In the **Upload data with Kick-Start spreadsheet** section, click **Choose File**, then browse to and select the populated spreadsheet.
+1. In the **Upload data with Kick-Start spreadsheet** section, click **Choose file**, then browse to and select the populated spreadsheet.
 
-1. Click **Upload.**
+   The file uploads automatically, and a notification that the import was successful displays.
 
    If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and Workfront cannot upload the file.
 
    Try importing your data in smaller batches of objects.
 
-1. (Conditional) If you are using Workfront Fusion, you can now turn on your FLOs or scenarios.
+1. (Conditional) If the import was not successful, you receive an error message stating what the problem is. Try to identify the field, the sheet, and the row number in which the problem was encountered and correct the information in the Excel file. Then, try importing the file one more time.
+1. (Conditional) If you are using Workfront Fusion, you can now turn on your FLOs or scenarios when the import is complete.
