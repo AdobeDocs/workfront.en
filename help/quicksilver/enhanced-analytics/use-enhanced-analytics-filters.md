@@ -11,7 +11,7 @@ exl-id: 25854c04-d914-4302-a36b-e8134637efe1
 
 >[!IMPORTANT]
 >
->Enhanced Analytics was removed from Workfront on May 26th. Workfront Data Connect is a new, alternative solution and can be used to replicate any Enhanced Analytics visualizations you currently use. <br>See the [Enhanced Analytics deprecation](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) guide for more information.
+>Enhanced Analytics was removed from Workfront on May 27th. Workfront Data Connect is a new, alternative solution and can be used to replicate any Enhanced Analytics visualizations you currently use. <br>See the [Enhanced Analytics deprecation](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) guide for more information.
 
 
 <!-- Audited: 12/2023 -->
