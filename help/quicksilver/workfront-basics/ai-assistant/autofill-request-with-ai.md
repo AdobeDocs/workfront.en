@@ -102,19 +102,30 @@ The following file types are supported:
    * TIFF
    * GIF
 
-### Supported file size
+#### Supported file size
 
 Each file can be up to 100 MB in size
 
-### Number of files
+#### Number of files
 
-You can upload up to 50 pages, slides, or sheets.
+You can upload up to 50 files (pages, slides, or sheets).
 
 >[!IMPORTANT]
 >
->Documents are converted to a series of images, each of which is considered a separate file.
+>Documents are converted to a series of images, each of which is considered a separate file. 
+>
+>For example, you can upload one PowerPoint with 50 slides, or 5 Word documents that each have 10 pages.
 
+#### Other best practices
 
+Consider the following when uploading a document for request auto-fill:
+
+* Auto-fill is currently optimized for the Latin alphabet.
+* We recommend using an 8 point or larger text size.
+* Auto-fill may have difficulty with images in the document, such as rotated or distorted images, graphs, and counting or using spatial reasons on objects in images.
+* As always, we recommend checking results for accuracy before submitting the request.
+
+### Upload a document to auto-fill a request
 
 You can upload a document to be applied to the entire form, or to a single section of the form. 
 
