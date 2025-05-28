@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: In a layout template, you can pin the pages that you want users to always have available at the top of Adobe Workfront. These can be either pages accessed via the Main Menu or dashboards.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
@@ -71,7 +71,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    * Select from the following areas: 
 
-      * Analytics
       * Calendars
       * Dashboards
       * Documents
