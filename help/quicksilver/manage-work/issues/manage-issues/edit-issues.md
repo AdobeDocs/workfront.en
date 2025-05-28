@@ -386,6 +386,8 @@ The following fields are included in the issue header, by default:
 
 * Issue name
 * Percent complete
+
+   For information, see [View and update Percent Complete for tasks](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 * Assignments
 * Planned Completion Date and time 
 * Status
