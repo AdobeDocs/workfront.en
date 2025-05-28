@@ -144,7 +144,7 @@ For example, if you comment on an item while logged in as another user, a statem
 ### View audit information {#view-audit-information}
 
 1. Log in to Workfront as a Workfront administrator or group administrator.
-{{step1-to-setup}}
+{{step-1-to-setup}}
    <!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
 
 1. In the left panel, click **Log In As**, then click the **Access Log** tab. 
