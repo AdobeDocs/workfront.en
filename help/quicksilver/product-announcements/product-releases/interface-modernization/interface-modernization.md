@@ -19,6 +19,14 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+### Interface update for the Access Log tab in Setup
+
+**Preview release: May 21, 2025; Production release: May 29, 2025**
+
+We have updated the Access Log tab with a more modern design that is consistent with other areas of Workfront.
+
+To view this change, go to Setup > Log in as > Choose Access log at the top of the screen. 
+
 ### New look and feel of the New and Copy Scorecard boxes   
 
 **Preview release:  May 22, 2025 ; Production release: May 29, 2025**   
@@ -60,7 +68,7 @@ No functionality changes have been introduced with this update.
 
 ### Share a document with an external email address
 
-**Preview release: May 15, 2025; Production release: To be announced**
+**Preview release: May 15, 2025; Production release: May 21, 2025**
 
 We have updated the share dialog box to allow users to share documents with external users using an email address. This funtionality was temporarily unavailable due to the interface modernization work.
 
