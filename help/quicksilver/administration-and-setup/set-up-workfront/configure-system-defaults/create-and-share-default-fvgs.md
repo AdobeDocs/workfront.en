@@ -82,15 +82,18 @@ For more detail about the information in this table, see [Access requirements in
 You can make the filter, view, or grouping available to users in your system. For more information about sharing filters, views or groupings with other users, see the section [Make filters, views, or groupings available to users](#make-filters-views-or-groupings-available-to-users) in this article.
 
 
-## Show or hide filters, views, or groupings available from the Layout Template
+## Make filters, views, or groupings available to all users {#make-filters-views-or-groupings-available-to-users}
 
-You can choose to show or hide filters, views, or groupings from the Layout Template. Visible filters are available for all users system wide. You can use a Layout Template to hide visible filters for specific users or groups.
+You can choose to show or hide filters, views, or groupings in the system. Visible filters are available for all users system wide. This setting acts like an on/off switch for the entire system, including the Layout Template.
+
+If you want to hide filters, views, or groupings from specific users, we recommend using a Layout Template rather than turning them off system-wide. 
 
 >[!NOTE]
 >
->If a user is actively using a filter, view, or grouping and then an administrator disables it, the user still has access until they choose a new filter, view, or grouping. After they choose a new one, they will no longer be able to revert to the hidden one.
+>* If a user is actively using a filter, view, or grouping and then an administrator disables it, the user still has access until they choose a new filter, view, or grouping. After they choose a new one, they will no longer be able to revert to the hidden one.
+>* If all filters, views, and groupings are restricted through the Layout Template or disabled system-wide, the user will see the default options, as the system must display something.
 
-To show or hide filters, views, or groupings available from the Layout Template:
+To show or hide filters, views, or groupings:
 
 {{step-1-to-setup}}
 
@@ -104,23 +107,29 @@ To show or hide filters, views, or groupings available from the Layout Template:
    >
    >If you want to keep the filter, view, or grouping available for most users but hide it from others, you can use the Layout Template. For more information, see [Customize Filters, Views, and Groupings using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Conditional) Select the filter, view, or grouping that you want to hide from users, then click **[!UICONTROL Disable system-wide]**. The filter, view, or grouping is now hidden from the layout template and users across the system.
+1. (Conditional) Select the filter, view, or grouping that you want to hide from users, then click **[!UICONTROL Disable system-wide]**. The filter, view, or grouping is now hidden from both the Layout Template and users across the system.
 
 
-## Make filters, views, or groupings available to all users {#make-filters-views-or-groupings-available-to-users}
+## Share custom filters, views, or groupings with specific users
 
-These steps explain how to make filters, views, and groupings available from the [!UICONTROL Share] dialog in the [!UICONTROL Interface] area in [!UICONTROL Setup]. This setting acts like an on/off switch for the entire system, including the Layout Template.
+These steps explain how to share custom filters, views, and groupings with specific users using the share dialog in the [!UICONTROL Interface] area in [!UICONTROL Setup]. You can grant view or manage access to filters, views, and groupings that you or others create. You cannot share system defaults with users. 
+
 
 {{step-1-to-setup}}
 
 1. Click **[!UICONTROL Interface]**, then click one of the following: **[!UICONTROL Filters]**, **[!UICONTROL Views]**, or **[!UICONTROL Groupings]**.
 
-1. Select the filter, view, or grouping that you want to make available to users, then click the **[!UICONTROL Share]** icon ![Share icon](assets/share-icon.png).
+1. Select the filter, view, or grouping that you want to share, then click the **[!UICONTROL Share]** icon ![Share icon](assets/share-icon.png).
 1. Begin typing the name of specific users, teams, roles, groups, or companies to share the filter, view, or grouping with, then click the name when it appears in the drop-down list.
 
    For more information about sharing, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Click **[!UICONTROL Save]**. Users that you specified can now see the filter, view, or grouping when viewing the object type that you associated it with.
+1. Choose **View** or **Manage** next to the name of the user, team, role, group, or company. To fine-tune permissions, click the slider icon and adjust the permissions. 
+
+   ![fine-tune permissions](assets/fine-tune-permissions.png)
+
+1. Click **[!UICONTROL Save]**. Users that you specified can now interact the filter, view, or grouping when viewing the object type that you associated it with.
+
 
 ## Delete filters, views, and groupings
 

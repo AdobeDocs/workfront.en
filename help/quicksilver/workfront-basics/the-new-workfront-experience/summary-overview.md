@@ -161,7 +161,9 @@ You must have the following access to perform the steps in this article:
 
 ## [!UICONTROL Percent Complete]
 
-Use the progress bar at the top of the [!UICONTROL Summary] to update the percent complete for the task or issue that you've selected. Enter a number or drag the bar to the correct percentage.
+Use the progress blue bubble at the top of the [!UICONTROL Summary] to update the percent complete for the task or issue that you've selected. Enter a number or drag the bubble to the correct percentage. 
+
+When you drag and drop the bubble in the Summary panel, the Percent Complete updates in one point increments. You cannot enter a decimal number. 
 
 ![Percent complete in Summary panel](assets/summary-overview-percent-complete.png)
 
