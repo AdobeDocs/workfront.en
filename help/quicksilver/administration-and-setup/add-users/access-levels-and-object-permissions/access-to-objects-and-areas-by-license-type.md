@@ -12,14 +12,20 @@ exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
 ---
 # Access to objects and areas by license type
 
+<!-- Audited: 5/2025 -->
+
 The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
 
-* **View**: The user can review and share items.
-* **Edit**: The user can create, edit, delete, and share items.
+* View: The user can review and share items.
+* Edit: The user can create, edit, delete, and share items.
 
   >[!NOTE]
   >
-  >When another user shares an object, the sharer can specify permissions that limit their ability to edit it. For more information, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >When another user shares an object, the sharer can specify permissions that limit their ability to edit it. For more information on the new license types, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+
+  >[!NOTE]
+  >
+  >This article contains information on object access for the legacy license types. For  information on the new license types, see [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) and [New licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 | &nbsp; |Plan |Work |Review |Request |External |
 |---|---|---|---|---|---|
@@ -43,7 +49,7 @@ The table below tells you the highest level of access (Edit or View) that each o
 
 >[!NOTE]
 >
->Users with a Review license or a Request license has limited sharing capabilities. For more information, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Users with a Review license or a Request license have limited sharing capabilities. For more information, see [Licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >External users cannot search for items in Workfront. They can view documents and calendars that are specifically shared with them. They can also see the users that share items with them.
 

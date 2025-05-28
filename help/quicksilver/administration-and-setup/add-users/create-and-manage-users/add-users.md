@@ -132,7 +132,16 @@ Before you add a user, gather the information about the user listed below and de
 
    >[!NOTE]
    >
-   >If you are a group administrator adding a user to an organization that has been onboarded to the Adobe Admin Console, the options for this step are **Submit user for Admin Approval** and **Submit for Approval & Start Another**. The user is created in a Deactivated and Pending Approval status. A Workfront administrator must approve the user, which activates the user in Workfront and adds them to the Adobe Admin Console.
+   >* If you are a group administrator adding a user to an organization that has been onboarded to the Adobe Admin Console, the options for this step are **Submit user for Admin Approval** and **Submit for Approval & Start Another**. The user is created in a Deactivated and Pending Approval status. 
+   > 
+   >* If the user does not move out of Deactivated and Pending Approval status within a few minutes, and a screen refresh does not remove the Pending Approval badge, you can approve the user manually.
+   >
+   >   1. Go to Setup > Users.
+   >   1. Select the user or users in the Users list.
+   >   1. Click the three-dot menu in the list header.
+   >   1. Select **Approve**.
+   >   1. After a few minutes, refresh the page.
+
 
 ## Copy a user to create a new one
 
