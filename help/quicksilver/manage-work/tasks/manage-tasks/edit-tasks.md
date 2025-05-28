@@ -616,12 +616,14 @@ The following fields are included in the task header, by default:
 
 * Task name
 * Percent complete
+
+   For information, see [View and update Percent Complete for tasks](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 * Assignments
 * Planned Completion Date 
 
   >[!CAUTION]
   >
-  >Some Task Constraints and other dependencies might prevent you from editing this field. For information about Task Constraints, see [Task Constraint overview](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  >Some Task Constraints and other dependencies might prevent you from editing the Planned Completion Date of a task. For information about Task Constraints, see [Task Constraint overview](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Status
 * Make approval decisions if you are set as the approver in a current approval process
