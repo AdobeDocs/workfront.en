@@ -10,9 +10,9 @@ exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
 ---
 # Auto-fill a request using AI
 
-AI can help you auto-fill request fields. It can suggest field values based on previous requests, or parse them from text such as emails. 
+AI can help you auto-fill request fields. It can suggest field values based on previous requests, or parse them from text such as emails ar uploaded documents. 
 
-You can approve or reject these submissions before submitting the request.
+You can approve or reject these suggestions before submitting the request.
 
 Auto-fill does not overwrite any fields that you have already filled in.
 
@@ -40,7 +40,7 @@ To use suggestions based on previous requests:
 
 ## Get suggestions from a text prompt
 
-Auto-fill can suggest field values based on text such as emails. You paste in a text block, and Workfront processed the text to suggest field values based on the text.
+Auto-fill can suggest field values based on text such as emails. You paste in a text block, and Workfront processes the text to suggest field values based on the text.
 
 For example, If the email includes "This is due on June 1," and the request form has a field for due date, Workfront would suggest June 1 for that field value.
 
@@ -69,3 +69,40 @@ To use suggestions based on a pasted text prompt:
    Or
 
    Select **Accept all** or **Reject all** at the top of the page to accept or reject all suggestions.
+   
+## Get suggestions based on a document you upload
+
+Auto-fill can suggest field values based on a document you upload. 
+
+This type of suggestion also checks previous requests for similar contexts. For example if the prompt mentions that the request is for a certain client, Workfront can locate and enter the billing address for that client automatically, based on previous requests.
+
+### Document upload guardrails
+
+#### Supported file types
+
+The following file types are supported:
+
+   * PDF
+   * DOC
+   * DOCX
+   * PPT
+   * PPTX
+   * XLS
+   * XLSX
+   * ODT
+   * ODS
+   * ODP
+   * RTF
+   * TXT
+   * CSV
+   * PNG
+   * JPG
+   * JPEG
+   * BMP
+   * TIFF
+   * GIF
+
+### Supported file size
+
+You can upload a document to be applied to the entire form, or to a single section of the form.
+
