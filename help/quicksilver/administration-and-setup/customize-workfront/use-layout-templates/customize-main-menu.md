@@ -13,9 +13,7 @@ exl-id: d4f02102-0378-472f-9ebb-753502ec048b
 
 <!--Audited: 01/2024-->
 
-As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the options users see when they open the Main Menu in Workfront. 
-
-![Main Menu options](assets/main-menu-with-blueprints-no-branding.png)
+As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the options users see when they open the Main Menu in Workfront.
 
 >[!NOTE]
 >
