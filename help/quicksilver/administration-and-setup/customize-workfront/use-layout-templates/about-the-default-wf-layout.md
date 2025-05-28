@@ -5,7 +5,7 @@ content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: The default layout is the arrangement of the Main Menu , the left panel, and the views, groupings, and filters before an Adobe Workfront administrator makes any changes using a layout template.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
@@ -186,16 +186,6 @@ The following table shows the default Main Menu items and what left panel items 
     <td class="tg-0lax">✔</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Analytics</td>
-    <td class="tg-0lax">Work<br>People</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
-    <td class="tg-0lax">✔</td>
     <td class="tg-0lax"></td>
     <td class="tg-0lax"></td>
   </tr>
@@ -402,15 +392,6 @@ The following table shows the default Main Menu items and what left panel items 
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky">✔</td>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Analytics</td>
-    <td class="tg-0pky">Work<br>People</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
-    <td class="tg-0pky">✔</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
   </tr>
