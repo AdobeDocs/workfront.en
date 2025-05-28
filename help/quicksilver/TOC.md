@@ -16,6 +16,8 @@ feature-set: Workfront
     * 2025 Q3 Release {#release-25-q3}
       * [2025 Q3 Release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
       * [Document management enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
+      * [Home enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-home-enhancements.md)
+      * [Project enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md)
       * [Reporting enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md)
       * [Update and notification enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md)
       * [Look-and-feel updates during the 2025 Q3 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md)
@@ -2139,7 +2141,7 @@ feature-set: Workfront
     * Workfront Extension for Illustrator and InDesign {#workfront-for-illustrator-indesign}
       * [Use the Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
   * Adobe Workfront for Jira {#workfront-for-jira}
-    * [Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
+    * [Adobe Workfront for Jira: article index](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
     * [Install Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
     * [Configure Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
     * [Link items between Adobe Workfront and Jira](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
@@ -2162,7 +2164,7 @@ feature-set: Workfront
     * [Create an Adobe Workfront issue in Google Workspace using email content](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
     * [Update an Adobe Workfront item from G Suite using email content](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
   * Adobe Workfront for Outlook {#workfront-for-outlook}
-    * [Adobe Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
+    * [Adobe Workfront for Outlook: article index](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
     * [Set up Adobe Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
     * [Permissions levels for Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md) 
     * [Reply to a comment from Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
@@ -2496,7 +2498,7 @@ feature-set: Workfront
     * [Outbound message format for event subscriptions](wf-api/api/message-format-event-subs.md)
     * [FAQs - Event Subscriptions](wf-api/general/event-subs-faq.md)
   * Document Webhooks API {#document-webhooks-api}
-    * [Document Webhooks API articles](wf-api/doc-wbhks-api/document-webhooks-api.md)
+    * [Document Webhooks API: article index](wf-api/doc-wbhks-api/document-webhooks-api.md)
     * [Webhooks Overview](wf-api/doc-wbhks-api/webhooks-overview.md)
     * [Register a Webhook Integration](wf-api/doc-wbhks-api/register-webhook-integration.md)
     * [Authentication for Document Webhooks](wf-api/doc-wbhks-api/auth-for-docu-webhook.md)
@@ -2508,7 +2510,7 @@ feature-set: Workfront
     * [Get a thumbnail for a document](wf-api/doc-wbhks-api/get-thmbnl-doc.md)
     * [File upload via Document Webhooks](wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
     * [Create a Folder with Document Webhooks](wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
-    * [Delete a document or folder (Not yet implemented)](wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
+    * [Delete a document or folder (not yet implemented)](wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
     * [Get information about the service (not yet implemented)](wf-api/doc-wbhks-api/get-service-info-webhook.md)
     * [Rename a document or folder (not yet implemented)](wf-api/doc-wbhks-api/rename-docu-or-folder.md)
     * [Perform a custom action (not yet implemented)](wf-api/doc-wbhks-api/perform-custom-action.md)

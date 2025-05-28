@@ -303,3 +303,13 @@ The following tables display the users to import and several user attributes for
 1. Import the Excel File.
 
    Follow the directions provided in [Import data into Adobe Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+
+
+>[!NOTE]
+>
+>Users imported to Workfront are created in a Deactivated and Pending Approval status. 
+> 
+>If your organization has been migrated to the Adobe Admin Console, and a user does not move out of Deactivated and Pending Approval status within a few minutes, you can add the batch of users to the Adobe Admin Console directly.
+>
+>For instructions, see [Manage multiple users | Bulk CSV upload](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) in the Adobe documentation.

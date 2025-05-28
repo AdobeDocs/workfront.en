@@ -4,22 +4,33 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Create a Scorecard
 description: A scorecard measures how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects an organization's mission, values, and strategic goals.Portfolio managers usually define the scorecard questions and answers to ensure they are meaningful and valuable during project prioritization and selection. An [!DNL Adobe Workfront] administrator builds the scorecards based on the recommendations from portfolio managers.
-author: Lisa
+author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
 ---
 # Create a scorecard
 
-<!--Audited: 01/2024-->
+<!--Audited: 05/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+
 A scorecard measures how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects an organization's mission, values, and strategic goals.
 
-Portfolio managers usually define the scorecard questions and answers to ensure they are meaningful and valuable during project prioritization and selection. An [!DNL Adobe Workfront] administrator builds the scorecards based on the recommendations from portfolio managers.
+As a portfolio manager, you can define the scorecard questions and answers to ensure they are meaningful and valuable during project prioritization and selection.
+
+As a [!DNL Adobe Workfront] administrator, you can create scorecards based on the recommendations from portfolio managers.
 
 The questions and answers chosen for a scorecard must be quantifiable in order to provide an alignment value to compare different projects.
+
+You can create a scorecard in the following way:
+
+* From scratch
+* By copying an existing one
 
 ## Access requirements
 
@@ -50,17 +61,15 @@ You must have the following access:
 
 +++
 
-## Create a scorecard
-
-You can create a scorecard from scratch, or you can copy an existing one. 
-
-To create a scorecard from scratch: 
+## Create a scorecard from scratch
 
 {{step-1-to-setup}}
 
-1. Click **[!UICONTROL Scorecards]**, then click **[!UICONTROL New Scorecard]**. This opens the **New Scorecard** box.
+1. Click **[!UICONTROL Scorecards]**, then click **[!UICONTROL New Scorecard]**. 
 
-   <!--add screen shot at unshim-->
+   <span class="preview">The **New scorecard** box opens.</span>
+
+   <span class="preview">![New scorecard box](assets/new-scorecard-350x173.png)</span>
 
 1. Specify a **[!UICONTROL Scorecard Name]** and a **[!UICONTROL Description]**.
 
@@ -98,9 +107,9 @@ To create a scorecard from scratch:
    >
    >You can reorder the questions in your scorecard by dragging and dropping the questions in the correct order.
 
-1. Click **[!UICONTROL Save]** when you are finished entering all information.
+1. Click **[!UICONTROL Save]**.
 
-   These creates the scorecard and project managers can now attach it to their project business case. 
+   This creates the scorecard and project managers can now attach it to their project business case. 
 
 ## Copy an existing scorecard
 
@@ -110,16 +119,20 @@ You can create a scorecard by copying and editing an existing one.
 
 1. Click **[!UICONTROL Scorecards]** in the left panel. 
 1. Select a scorecard in the list, then click the **Copy** icon ![Copy scorecard icon](assets/copy-scorecard-icon.png) at the top of the scorecard list. 
-   The **Copy Scorecard** box opens.
+   
+   <span class="preview">The **Copy Scorecard** box opens.</span>
 
-   <!--add screen shot at unshim-->
+   <span class="preview">![Copy scorecard box](assets/copy-scorecard-box.png)</span>
+
 1. Specify the following information:
 
-   * **Scorecard**: Type the name of the scorecard.  By default, the name is automatically updated according to the following format: 
+   * **Scorecard**: Update the name of the scorecard.  By default, the name is automatically updated according to the following format: 
 
       `Original scorecard name (Copy)`
    * **Description**: Type additional information about the scorecard. 
 1. Click **Save**.
+
+   This creates a new scorecard with the same information as the original one. Project managers can now attach it to their project business case.
 
 ## Apply a scorecard to a project
 

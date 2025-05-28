@@ -23,7 +23,7 @@ This article describes the following information:
 
 * [Create or edit columns and rows in a table view](#manage-a-table-view)
 * [Enable real-time presence indicators for the table view](#enable-the-real-time-presence-indicator)
-<!--* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>-->
+* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>
 
 ## Access requirements
 
@@ -82,7 +82,7 @@ You must have the following access to perform the steps in this article:
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings or duplicate it <!--<span class="preview">or to export the view</span>--></p> </td> 
+   <p>View permissions to a view to temporarily change the view settings, duplicate, <span class="preview">or to export it</span></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
@@ -103,8 +103,6 @@ You can edit record information only in the table view.
 For more information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 
 ## Manage a table view {#manage-a-table-view}
-
-<!--insert screen shot of table view-->
 
 When creating a table view, all records of the selected type display in a table. Each row is a unique record and each column is a record field. All fields and all records display by default. 
 
@@ -541,7 +539,7 @@ When you display the table view, you can also view which field another user is e
     >
     >You can select the **Show collaborators** toggle from any view. The field currently edited by others is outlined only in the table view. 
 
-<!--<div class="preview">
+<div class="preview">
 
 ## Export the table view
 
@@ -559,6 +557,8 @@ To export information from the table view or a record type:
 
 1. Go to a record type page and click a table view tab. 
 1. Hover over the table view tab's name, then click the **More** menu ![More menu](assets/more-menu.png).
+
+    ![More menu on a view](assets/view-more-menu-with-duplicate-option.png)
 1. Click **Export**, then select one of the following formats:
 
     * Excel
@@ -588,4 +588,3 @@ To export information from the table view or a record type:
     
  </div>   
 
- -->

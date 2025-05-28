@@ -9,6 +9,8 @@ exl-id: 98779b67-b975-4501-8426-63e255b1d7df
 ---
 # Overview of assigning work in the Workload Balancer
 
+<!-- Audited: 5/2025 -->
+
 As a resource manager, you can use the Adobe Workfront Workload Balancer to view work items that have not yet been assigned to users as well as assign these items to them.
 
 For general information about the Workload Balancer, see [Workload Balancer overview](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
@@ -22,9 +24,9 @@ For information about assigning work items in other areas of Workfront, see the 
 
 ## User availability in the Workload Balancer
 
-You can assign work in the Workload Balancer to match the users' available time. To ensure that you assign the right amount of work and not overallocate the user, the total of the Planned Hours of the work items assigned to the user must match the user daily or weekly allocations.
+You can assign work in the Workload Balancer to match the users' available time. To ensure that you assign the right amount of work and not overallocate the user, the Planned Hours total of the work items assigned to the user must match the user daily or weekly allocations.
 
-You must understand how Workfront calculates the available time for a user.
+It's important to understand how Workfront calculates the available time for a user.
 
 Workfront uses the following information to calculate the capacity of the user in the Workload Balancer:
 
@@ -37,7 +39,7 @@ Workfront uses the following information to calculate the capacity of the user i
 
   For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-  For information about schedules, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+  For information about schedules, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * The user's time off. This indicates which days the user is planning to take off.
 
@@ -74,8 +76,8 @@ You can assign work to users using the Workload Balancer in the Resourcing area,
 
 There are two areas in the Workload Balancer where you can view work items:
 
-* **Unassigned Work**: displays items that are not assigned to users.
-* **Assigned Work**: displays items that are assigned to users.
+* **Unassigned Work**: Displays items that are not assigned to users.
+* **Assigned Work**: Displays items that are assigned to users.
 
 The following table describes which items display in each area based on their assignments:
 

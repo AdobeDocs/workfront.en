@@ -35,7 +35,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> 
    <p>New: Standard<p>
    <p>Or</p>
@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>View or higher access to Tasks,&nbsp;Projects, or Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Tasks,&nbsp;Projects, or Issues</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
  +++
 
@@ -77,13 +77,6 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 ## Find Actual Hours
 
 Finding the value for Actual Hours for an item is identical for tasks, projects, and issues.
-
-You can find the Actual Hours information on tasks in the following locations:
-
-* [Actual Hours in the Details section](#actual-hours-in-the-details-section) 
-* [Actual Hours in the Hours section](#actual-hours-in-the-hours-section) 
-* [Actual Hours in reports](#actual-hours-in-reports) 
-* [Actual Hours in Resource Management tools](#actual-hours-in-resource-management-tools)
 
 ### Actual Hours in the Details section {#actual-hours-in-the-details-section}
 
@@ -133,6 +126,26 @@ If you want to see the progress of the work your users are doing on their assign
 * The Resource Planner.
 
   For information, see [View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
+
+
+### Actual Hours in the Workfront <!--database and the--> API <!--, and custom data-->
+
+<!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
+
+Most Workfront fields that store hours are saved in the Workfront database in minutes. For example, the name of the Planned Hours field of a task is `workRequired` in the Workfront database and it is stored in minutes. 
+
+You must account for the conversion from minutes to hours when accessing these fields in API calls or in calculated custom fields or columns. 
+
+Depending on how you are accessing Actual Hours, they can be stored in the following fields and units in the database: 
+
+* In the API: The `valuefield` for Actual Hours is `actualWorkRequiredDouble` which is stored in hours.
+* In the Workfront interface (calculated custom field and columns): The `valuefield` for Actual Hours is `actualWorkRequired` which is stored in minutes.
+
+<!--Change the above with this when we fix this for the Workfront UI: 
+
+You must use the following valuefield name for Actual Hours in API calls or calculated custom fields or columns in Workfront: `actualWorkRequiredDouble`. -->
+
+For information about using Actual Hours in calculated columns or fields, see [Report FAQs](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md). 
 
 ## Log time
 

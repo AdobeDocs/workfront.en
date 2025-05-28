@@ -1,5 +1,5 @@
 ---
-title: Interface updates
+title: Interface modernization
 description: This page lists interface updates we are making throughout Adobe Workfront to improve the user experience and unify it with other Adobe applications.
 author: Courtney
 feature: Product Announcements
@@ -15,6 +15,62 @@ This page lists interface updates we are making throughout Adobe Workfront to im
 >In most cases, each update is first released to the Preview environment, then incrementally enabled in the Production environment for a growing subset of customers beginning on the listed Production release date.
 
 For all other changes to Adobe Workfront, see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+
+
+## Admin and Setup
+
+### Interface update for the Access Log tab in Setup
+
+**Preview release: May 21, 2025; Production release: May 29, 2025**
+
+We have updated the Access Log tab with a more modern design that is consistent with other areas of Workfront.
+
+To view this change, go to Setup > Log in as > Choose Access log at the top of the screen. 
+
+### New look and feel of the New and Copy Scorecard boxes   
+
+**Preview release:  May 22, 2025 ; Production release: May 29, 2025**   
+
+We have updated the look and feel of the New and Copy Scorecard boxes to match the design in other areas of the application. You can view the updated design when creating or copying a scorecard in the Setup area of Workfront.  
+
+For information, see [Create a scorecard](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+
+### Interface updates to a group's recently restored items
+
+**Preview release: May 15, 2025; Production release: May 15, 2025**
+
+We have updated the look and feel of the recently restored items for groups, to match the design of other areas of Workfront. No functionality has changed for recently restored group projects, tasks, requests, documents, or templates.
+
+To view this change, go to Setup > Groups > Select name of group > Recently Restored.
+
+For information, see [View and manage a group's recently restored items](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+
+
+### Interface updates to the Diagnostics page in Setup
+
+**Preview release: May 15, 2025; Production release: May 15, 2025**
+
+We have updated the look and feel of the Diagnostics page in the Setup area, to match the design of other areas of Workfront.
+
+To view this change, go to Setup > System > Diagnostics.
+
+For information, see [Use Diagnostics to trigger automated processes](/help/quicksilver/administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+
+### Interface updates when adding a billing rate to a template
+
+**Preview release: May 15, 2025; Production release: May 15, 2025**
+
+We have updated the interface when adding a billing rate to a template, to match other areas of the application.  
+
+No functionality changes have been introduced with this update.
+
+## Documents 
+
+### Share a document with an external email address
+
+**Preview release: May 15, 2025; Production release: May 21, 2025**
+
+We have updated the share dialog box to allow users to share documents with external users using an email address. This funtionality was temporarily unavailable due to the interface modernization work.
 
 ## Navigation and search
 
@@ -36,9 +92,167 @@ For more information, see [Search [!DNL Adobe Workfront]](/help/quicksilver/work
 
 We have updated the page you use to grant support access to your Workfront account with a more modern design that is consistent with other areas of Workfront. 
 
-## Administration and Setup
+## Projects
+
+## Look and feel updates to the New and Edit risk boxes for a project or a template 
+
+**Preview release: May 22, 2025; Production release: May 29, 2025**
+
+We have updated the look and feel of the New risk and Edit risk boxes when adding risks or editing them on a project or a template in the Risks section. The design of the boxes now matches other areas of Workfront.
+
+For information, see [Create and edit risks in projects](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create-and-edit-risks-on-projects).
+
+### Look-and-feel changes for the Copy Template box
+
+**Preview release: May 22, 2025; Production release: May 22, 2025**
+
+We have updated the look and feel of the Copy Template box to match the design of other areas of Workfront. 
+
+For information, see [Copy a project template](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
+
+### Look and feel updates when adding objects to programs and portfolios 
+
+**Preview release: May 22, 2025; Production release: May 29, 2025**
+
+We have updated the interface for the Add boxes when doing the following: 
+
+* Adding projects to programs
+* Adding projects to portfolios
+* Adding programs to portfolios
+
+For information, see the following articles: 
+
+* [Add an existing program to a portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [Add projects to a portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [Add a project to a program](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) 
+
+
+## Reports and Dashboards
+
+### URLs with /tile or /qstile no longer supported in Workfront Dashboards
+
+**Preview release: May 13; Production release: To be announced**
+
+If you have an external page on a Dashboard with a Workfront URL that contains `/tile` or `/qstile`, that page will no longer load.
+
+Adding `/tile` or `/qstile` to a Workfront URL allowed the browser to load unsupported classic experience pages that were deprecated in July of 2022.
+
+We recommend replacing the URL to go to a supported page, or removing the external page from your Dashboard.
+
+
+## Users 
+
+### Interface update to the new user registration page
+
+**Preview release: May 12, 2024; Production release: May 19, 2025**
+
+We have updated the new user registration page with a more modern design that is consistent with other areas of Workfront.
+
+Users no longer have the option to upload a photo on this page. However, they can upload a photo in their user profile once they log in to Workfront.
+
+### Updated look for the login page
+
+**Preview release: May 12, 2024; Production release: May 19, 2025**
+
+We have updated the login page with a more modern design that is consistent with other areas of Workfront.
+
+With this change, the login page no longer supports custom branding.
+
+### Updated look for reset password page
+
+**Preview release: May 12, 2024; Production release: May 19, 2025**
+
+We have updated the reset password screen with a more modern design that is consistent with other areas of Workfront. This update includes updates to the following pages:
+
+* Password almost expired 
+* Expired password
+* Temporary password
+
+### Updated document share page for external users
+
+**Preview release: April 10, 2024; Production release: Starting the week of April 17, 2024**
+
+We have updated the document share page for external users with a more modern design that is consistent with other areas of Workfront.
+
+External users can no longer access _My Settings_ from this page. 
+
+### Updated external user registration page
+
+**Preview release: April 24, 2024; Production release: Starting the week of May 8, 2024**
+
+We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+
+## Licenses
+
+### Updated license agreement page
+
+**Preview release: April 24, 2024; Production release: Starting the week of May 8, 2024**
+
+We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.
+
+
+## Interface updates made in Q2
+
+
+### Administration and Setup
 
 +++Expand to view Administration and Setup interface updates made in Q2
+
+### Interface updates to recently restored items
+
+**Preview release: April 23, 2025; Production release: April 23, 2025**
+
+We have updated the look and feel of the recently restored items in the Setup area, to match the design of other areas of Workfront. No functionality has changed for recently restored projects, tasks, requests, documents, or templates.
+
+To view this change, go to Setup > Recycle Bin > Recently Restored.
+
+For information, see [View restored items](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).### Interface updates to the Resource Management area in Setup
+
+**Preview release: April 17, 2025; Starting the week of April 17, 2025**
+
+We have updated the look and feel of the Resource Management preferences in the Setup area, to match the design of other areas of Workfront.
+
+For information, see [Configure Resource Management preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+### Interface updates to a Milestone Path list in Setup
+
+**Preview release: March 6, 2025; Starting the week of April 10, 2025**
+
+We have updated the look and feel of the Milestone Path list in the Setup area, to match the design of other areas of Workfront.  
+
+For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
+### Interface update to the Edit Risk Type box in Setup
+
+**Preview release: March 27, 2025; Starting the week of April 10, 2025**
+
+We have updated the look and feel of the Edit Risk Type box when you update an existing Risk Type in the Setup area of Workfront. The new design now matches other areas of Workfront.  
+
+For information, see [Edit and create risk types](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+### Interface update to the New Risk Type box in Setup
+
+**Preview release: March 27, 2025; Starting the week of April 10, 2025**
+
+We have updated the look and feel of the New Risk Type box when you add a new Risk Type in the Setup area of Workfront. The new design now matches other areas of Workfront.
+
+For information, see [Edit and create risk types](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+### Interface update in the Expense Types dialogs in Setup
+
+**Preview release: March 27, 2025; Starting the week of April 10, 2025**
+
+We have updated the look and feel of the dialogs for adding and editing Expense Types in the Setup area, to match the design of other areas of Workfront.
+
+For information, see [Create custom expense types](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
+
+### Updated experience in the Access Levels area in Setup
+
+**Preview release: March 27, 2025; Starting the week of April 10, 2025**
+
+To enhance performance, we've made some visual updates to the Access Levels area in Setup.
+
+A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
 
 ### Interface update for the Announcement Center
 
@@ -166,7 +380,7 @@ This update includes visual changes to the area. No functionality has changed.
 
 +++
 
-## Agile
+### Agile
 
 +++Expand to view Agile interface updates made in Q2
 
@@ -230,13 +444,7 @@ To view this change, go to Teams > choose a team > Backlog, then click **New sto
 
 +++
 
-## Documents 
-
-### Share a document with an external email address
-
-**Preview release: May 15, 2025; Production release: To be announced**
-
-We have updated the share dialog box to allow users to share documents with external users using an email address. This funtionality was temporarily unavailable due to the interface modernization work.
+### Documents
 
 +++Expand to view Documents interface updates made in Q2
 
@@ -276,13 +484,108 @@ To view this change, go to a Documents > Click the more menu next to the Smart F
 
 +++
 
-## Reports and Dashboards
+### Projects
+
++++Expand to view Projects interface updates made in Q2
+
+### Look and feel updates to the Queue Details area of a project
+
+**Preview release: March 27, 2025; Starting the week of April 10, 2025**
+
+We have updated the look and feel of the Queue Details area on a project, to match the design of other areas of Workfront.
+
+With this update, the look and feel of the Queue Details area of a template has not changed.
+
+For information, see [Create a Request Queue](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+### Updated view of a project milestone path in a project view
+
+**Preview release: March 13, 2025; Starting the week of April 10, 2025**
+
+When accessing the milestone path from a project list or a report, the milestone details page now has a new look and feel. You must add the Milestone Path Name field to the view of the list or report to be able to access the milestone path's details page. 
+
+With this update we have also added information about the colors and color codes of each milestone.  
+
+For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
++++
+
+
+### Reports and Dashboards
 
 +++Expand to view Reports and Dashboards interface updates made in Q2
 
+### Look and feel updates to a Milestone Path report
+
+**Preview release: April 30, 2025; Production release: April 30, 2025**
+
+We have updated the look and feel of the Milestone Path report to match the design of other areas of Workfront.
+
+For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+### Updated reports with new styling 
+
+**Preview release: April 23, 2025; Production release: April 23, 2025**
+
+We have updated the look and feel of multiple reports, to match the design of other areas of Workfront. No functionality has changed. 
+
+This update includes visual changes to the lists and toolbars of the reports for the following object types: 
+
+* Template Tasks 
+* Topic Groups 
+* Scorecards 
+* Schedules 
+
+For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+### Interface updates for the Delete company box in a Company report
+
+**Preview release: April 17, 2025; Production release: April 17, 2025**
+
+We have updated the look and feel of the Delete company box when you delete a company from a Company report. The new design now matches other areas of Workfront.
+
+With this update, the looks and feel of the Delete company box on the Companies page in the Setup area has not changed.
+
+### Updated reports with new styling
+
+**Preview release: April 17, 2025; Production release: April 17, 2025**
+
+We have updated the look and feel of multiple reports, to match the design of other areas of Workfront.
+
+This update includes visual changes to the lists and toolbars of the following reports. No functionality has changed.
+
+* Company
+* Expense Type
+* Group
+* Hour Type
+* Journal Entry
+* Non-Labor Resource (available only to specific customers)
+* Non-Labor Resource Category (available only to specific customers)
+* Queue Topic
+* Risk Type
+* Timesheet Profile
+* User Delegation
+
+For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+### Updated reports with new styling
+
+**Preview release: April 9, 2025; Production release: April 9, 2025**
+
+We have updated the look and feel of multiple reports, to match the design of other areas of Workfront.
+
+This update includes visual changes to the lists and toolbars of the following reports. No functionality has changed.
+
+* Parameter
+* Parameter Group
+* Custom Forms
+* Time Off
+
+For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
 ### Updated Access Level report with new styling
 
-**Preview release: January 30, 2024; Production release: Starting the week of February 6, 2025**
+**Preview release: January 30, 2025; Production release: Starting the week of February 6, 2025**
 
 We have updated the Access Level report with a more modern design that is consistent with other areas of Workfront.
 
@@ -345,42 +648,25 @@ We have added a new Edit Text Mode button and editing modal to the following are
 
 +++
 
-## Users 
+### Updates and Comments
 
-### Updated look for the login page
++++Expand to view Updates and Comments interface updates made in Q2
 
-**Preview release: May 15, 2024; Production release: To be announced**
+### Interface update for the More menu options for comments
 
-We have updated the login page with a more modern design that is consistent with other areas of Workfront. 
+**Preview release: April 17, 2024; Production release: April 17, 2024**
 
-### Updated look for reset password page
+We have updated the look and feel for the options available in the More menu of a comment in the Updates section for all objects.  
 
-**Preview release: May 15, 2024; Production release: To be announced**
+This update includes the following changes: 
 
-We have updated the reset password screen with a more modern design that is consistent with other areas of Workfront. This update includes updates to the following pages:
+* Rearranged the actions so that similar functions are grouped together.  
+* Inserted dividers to clearly separate each group.  
+* Highlighted the Delete action by displaying it in red. 
 
-* Password almost expired 
-* Expired password
-* Temporary password
+For information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-### Updated document share page for external users
 
-**Preview release: April 10, 2024; Production release: Starting the week of April 17, 2024**
 
-We have updated the document share page for external users with a more modern design that is consistent with other areas of Workfront.
 
-External users can no longer access _My Settings_ from this page. 
 
-### Updated external user registration page
-
-**Preview release: April 24, 2024; Production release: Starting the week of May 8, 2024**
-
-We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
-
-## Licenses
-
-### Updated license agreement page
-
-**Preview release: April 24, 2024; Production release: Starting the week of May 8, 2024**
-
-We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.

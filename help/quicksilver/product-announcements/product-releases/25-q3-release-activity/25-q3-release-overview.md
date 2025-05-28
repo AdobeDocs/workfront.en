@@ -35,6 +35,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront enhancements
     
 * [Document management enhancements](#document-management-enhancements)
+* [Home enhancements](#home-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
 * [Update and notification enhancements](#update-and-notification-enhancements)
 * [Other enhancements](#other-enhancements)
@@ -81,6 +82,58 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>     
   </tbody>
 </table> 
+
+<!--
+
+### Home enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">My approvals widget now automatically sorts by deadline </a><p></p>
+            <p>We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list. </p>
+        </td>
+        <td>May 15, 2025</td>
+        <td>May 15, 2025</td>
+        <td>July 17, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
+-->
+
+### Project enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More transparency when using AI Assistant on projects, tasks, and issues</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>To make it more clear how AI Assistant is locating answers to questions about Workfront projects, tasks, and issues, we've added this information to the question response. Now, AI Assistant includes its search information in the output. You can use this information as a way to check that AI Assistant correctly identified the question you were asking and to understand the context of the answer.</p>
+        </td>
+        <td>May 19, 2025</td>
+        <td>May 19, 2025</td>
+        <td>May 19, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
+
     
 ### Reporting enhancements
 
@@ -134,6 +187,32 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More transparency when using AI Assistant</a></p>
+                        <p>To make it more clear how AI Assistant is locating answers to questions about Workfront projects, tasks, and issues, we've added this information to the question response. Now, AI Assistant includes its search information in the output. You can use this information as a way to check that AI Assistant correctly identified the question you were asking and to understand the context of the answer. </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;Throughout the Third Quarter 2025 release timeframe<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <p><span class="bold">Feature</span>

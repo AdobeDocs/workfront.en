@@ -41,7 +41,8 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td><p>Any</p>
+   <p>Adding custom applications to the Main Menu is only available for organizations licensed for Adobe App Builder.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -83,27 +84,27 @@ To perform them for a group, you must be a manager of that group.</p> </td>
      <tr> 
       <td>[!UICONTROL Project]</td> 
       <td>The name of a project</td> 
-      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [!UICONTROL Hours], [!UICONTROL Workload Balancer], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*</td> 
+      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [!UICONTROL Hours], [!UICONTROL Workload Balancer], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL Custom application]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Task]</td> 
       <td>The name of a task</td> 
-      <td> [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Task Details], [!UICONTROL Subtask], [!UICONTROL Issues], [!UICONTROL Hours], [!UICONTROL Approvals], [!UICONTROL Expenses], [!UICONTROL Predecessors]</td> 
+      <td> [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Task Details], [!UICONTROL Subtask], [!UICONTROL Issues], [!UICONTROL Hours], [!UICONTROL Approvals], [!UICONTROL Expenses], [!UICONTROL Predecessors], [!UICONTROL Custom application]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Issue]</td> 
       <td>The name of an issue</td> 
-      <td> [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issue Details], [!UICONTROL Hours], [!UICONTROL Approvals]</td> 
+      <td> [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issue Details], [!UICONTROL Hours], [!UICONTROL Approvals], [!UICONTROL Custom application]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Portfolio]</td> 
       <td>The name of a portfolio</td> 
-      <td>[!UICONTROL Projects], [!UICONTROL Programs], [!UICONTROL Portfolio Details], [!UICONTROL Portfolio] [!UICONTROL Optimization], [!UICONTROL Documents], [!UICONTROL Updates], [!UICONTROL Planning]*</td> 
+      <td>[!UICONTROL Projects], [!UICONTROL Programs], [!UICONTROL Portfolio Details], [!UICONTROL Portfolio] [!UICONTROL Optimization], [!UICONTROL Documents], [!UICONTROL Updates], [!UICONTROL Planning]*, [!UICONTROL Custom application]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Program]</td> 
       <td>The name of a program</td> 
-      <td>[!UICONTROL Projects], [!UICONTROL Program Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Planning]*</td> 
+      <td>[!UICONTROL Projects], [!UICONTROL Program Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Planning]*, [!UICONTROL Custom application]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Template]</td> 
@@ -194,6 +195,8 @@ To perform them for a group, you must be a manager of that group.</p> </td>
    </table>
 
    *Your company must purchase an additional license for Workfront Planning to be able to add this area to the left panel of projects, portfolios, and programs. For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md)
+
+   **Custom applications must be created separately before they become available as Main Menu options. For more information, see [Create a custom application for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
 
 1. In the **[!UICONTROL Left panel]** list, do any of the following to determine what users will see in the left panel for the [!DNL Workfront] area or object type you have selected:

@@ -162,6 +162,7 @@ The following table shows the similarities and differences between the table, ti
 | Display records by year and quarter                    |           | ✓              |    |
 | Display records by month                    |           | ✓              |  ✓  |
 | Display records by week                    |           |               |  ✓  |
+|<span class="preview">Export information from a view</span>                   | <span class="preview">✓</span>          |               |    |
 
 
 ## Create or edit views {#create-or-edit-views}
@@ -214,9 +215,13 @@ The following table shows the similarities and differences between the table, ti
 
 1. (Conditional) Select the **Start** and **End dates** for the records that will display in the timeline or calendar view.
     
-    >[!TIP]
+    >[!NOTE]
     >
-    >    You can select from record date fields, or lookup date fields from connected record or object types. You must use aggregators for date fields (MAX or MIN) when you select lookup fields as Start and End dates for the timeline and calendar views. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
+    >    You can select from record date fields, or lookup date fields from connected record or object types. 
+    >
+    >You must use aggregators for date fields (MAX or MIN) when you select lookup fields when connecting record types. Only adding the aggregators allows you to use the connections' dates as Start and End dates for the timeline and calendar views. 
+    >
+    >For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
 1. Click **Create**.
 

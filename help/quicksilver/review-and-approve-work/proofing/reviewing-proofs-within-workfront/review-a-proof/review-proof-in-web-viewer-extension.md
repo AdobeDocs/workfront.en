@@ -9,7 +9,7 @@ exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
 ---
 # Review interactive content with the Adobe Workfront review tool
 
-<span class="preview">The Adobe Workfront Review tool will be available on November 7, 2024. This extension is currently in beta.</span>
+<span class="preview">The Adobe Workfront Review tool was made available on November 7, 2024. This extension is currently in beta.</span>
 
 The Adobe Workfront review tool is a web-based browser extension that allows you to proof interactive content in a ZIP file or with a URL. The Adobe Workfront review tool is available in the following browsers:
 
@@ -18,10 +18,9 @@ The Adobe Workfront review tool is a web-based browser extension that allows you
 * Edge
 * Safari
 
-We recommend using the Desktop Proofing Viewer if the content you need to review is on a website that
-
-* Requires SSO authentication
-* Prevents opening their site in iFrames, such as Figma
+>[!IMPORTANT]
+>
+>This extension is required to review content in GenStudio for Performance Marketing and Creative Cloud Express. Assets will automatically open in the web viewer. You do not need to update any account settings.
 
 
 ## Install the extension
@@ -31,12 +30,6 @@ We recommend using the Desktop Proofing Viewer if the content you need to review
 * You must remove the Legacy Web Viewer extension to use the Adobe Workfront Review tool.
 
 ### Install the extension
-
-<!--This extension is required to review conent in GS and Ex.
-
-You must install the extension to reiew content in GenS and Express.
-
-To review content in GS, Express, or Wou must install the extension if you are using GenStuido or Creative cloud express-->
 
 Reviewers and approvers must install the Adobe Workfront review tool. in one of the following browsers:
 
@@ -50,6 +43,15 @@ Reviewers and approvers must install the Adobe Workfront review tool. in one of 
 For interactive proofs to open in the Adobe Workfront review tool automatically, a Workfront Administrator must update Proofing settings in workfront as described in the sections below.
 
 ## Update Workfront proofing defaults
+
+To use the Workfront review tool as your default viewer for interactive content, you must update proofing defaults in Workfront. 
+
+>[!NOTE]
+>
+>We recommend using the Desktop Proofing Viewer if the content you need to review is on a website that
+>
+>* Requires SSO authentication
+>* Prevents opening their site in iFrames, such as Figma
 
 ### Make the Adobe Workfront review tool the default viewer for URL and ZIP proofs
 
@@ -78,6 +80,4 @@ To use the web review tool for ZIP proofs only, a Workfront Administrator must a
 >[!NOTE]
 >
 >This change applies to all ZIP proofs in your Workfront instance. We recommend testing the new experience in your Preview environment before enabling it in Production. You can easily switch back to the Desktop Viewer by changing the **Desktop Proofing Viewer for Interactive proofing** account setting back to **Enabled for all interactive proofs**.
-
-
 

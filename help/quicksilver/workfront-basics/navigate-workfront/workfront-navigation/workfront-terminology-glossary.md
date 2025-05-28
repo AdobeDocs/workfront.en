@@ -61,7 +61,9 @@ The following table is a list of commonly used terms in Adobe Workfront:
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project</code> </p> </li> 
-    </ul> </td> 
+    </ul> 
+    <p>For more information, see <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Actual Hours</a>.</p>
+    </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Labor Cost]</td> 

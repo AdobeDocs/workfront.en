@@ -3,7 +3,7 @@ filename: document-webhooks-api
 content-type: api
 product-area: documents
 navigation-topic: workfront-api
-title: Document Webhooks API overview
+title: "Document Webhooks API: article index"
 description: Document Webhooks API topics
 author: Becky
 feature: Workfront API
@@ -11,7 +11,9 @@ role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: e946c988-6a97-4ef1-a381-4b3bd10ced99
 ---
-# Document Webhooks API overview
+# Document Webhooks API: article index
+
+<!-- Audited: 5/2025 -->
 
 This section contains the following articles:
 
@@ -26,7 +28,7 @@ This section contains the following articles:
 * [Get a thumbnail for a document](../../wf-api/doc-wbhks-api/get-thmbnl-doc.md) 
 * [File upload via Document Webhooks](../../wf-api/doc-wbhks-api/file-upload-docu-webhook.md) 
 * [Create a Folder with Document Webhooks](../../wf-api/doc-wbhks-api/create-folder-docu-webhook.md) 
-* [Delete a document or folder (Not yet implemented)](../../wf-api/doc-wbhks-api/delete-a-document-or-folder.md) 
+* [Delete a document or folder (not yet implemented)](../../wf-api/doc-wbhks-api/delete-a-document-or-folder.md) 
 * [Get information about the service (not yet implemented)](../../wf-api/doc-wbhks-api/get-service-info-webhook.md) 
 * [Rename a document or folder (not yet implemented)](../../wf-api/doc-wbhks-api/rename-docu-or-folder.md) 
 * [Perform a custom action (not yet implemented)](../../wf-api/doc-wbhks-api/perform-custom-action.md) 

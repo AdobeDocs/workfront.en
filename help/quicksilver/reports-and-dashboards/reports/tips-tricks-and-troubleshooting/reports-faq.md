@@ -10,6 +10,8 @@ exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
 ---
 # Reports FAQs
 
+<!--Audited: 05/2025-->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is the ONE anchor article for all FAQs about Reporting. Add a new FAQ in the TOC at the top first, then add the answer as a section at the bottom.)</p>
 -->
@@ -17,6 +19,8 @@ exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
 The following are frequently asked questions about reports.
 
 ## Access requirements
+
++++ Expand to view access requirements. 
 
 You must have the following access to perform the steps in this article:
 
@@ -27,39 +31,61 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td><p>New: Standard</p> 
+   <p>Current: Work or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Why does my custom calculation for an hour difference not show the correct result in a column?
 
-On a project report I have a calculation that subtracts Actual Hours (2) from Planned Hours (4). The result I am getting is 120 when it should be 2.  
+<!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
+
+On a project report I have a calculation that subtracts Actual Hours from Planned Hours  The result I am getting is incorrect. 
+
+<!--this changed with this issue in May 2025; Actual Hours changed from actualWorkRequired to actualWorkRequiredDouble: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/68108e860000120e90a79cb82e5811c2/updates : On a project report I have a calculation that subtracts Actual Hours (2) from Planned Hours (4). The result I am getting is 120 when it should be 2.  -->
+
+
 My calculation is:
-<pre>valueexpression=SUB(workRequired,actualWorkRequired)</pre>
+
+`valueexpression=SUB(workRequired,actualWorkRequired)`
 
 ### Answer
 
-Fields using hours in Workfront are stored in minutes. When using the field in a calculation the result will be in minutes. To obtain the result in hours, you must divide the result of the calculation by 60.
+Most fields using hours in Workfront are stored in minutes. When using these fields in a calculation the result will most often be in minutes. To obtain the result in hours, you must divide the result of the calculation or the field you are referencing by 60.
+
+<!--For example, Planned Hours are stored in minutes, while Actual Hours are stored in hours. As a result, you must convert Planned Hours from minutes to hours. -->
 
 The correct calculation is:  
 
-<pre>valueexpression=SUB(workRequired,actualWorkRequired)/60</pre>
+`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+
+>[!NOTE]
+>
+>If you are referring to Actual Hours in API calls, use `actualWorkRequiredDouble` for the valuefield. Actual Hours in the API are stored in hours. Planned Hours are stored in minutes. 
+>
+>The correct calculation in an API call is: 
+>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+
+<!--when the actualWorkRequiredDouble is released to custom data in Workfront and not just the API, update the calculation above to this: `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`; and take the note out -->
 
 ## Why is the value of each of my chart elements in a report not displayed on the chart?
 
@@ -169,7 +195,7 @@ If you have permissions to view or manage a report, you can also make a copy of 
 
 ### Answer
 
-Sometimes, the owner of the report is also the user specified in the **Run this report with the Access Rights of:** field on the report. If the **Run this report with the Access Rights of:** user is deactivated, the report no longer displays for users who have the report shared with them.&nbsp;When this happens, you can make the report accessible again by leaving the **Run this Report with the Access Rights of:** blank or entering an active user in the field.
+Sometimes, the owner of the report is also the user specified in the **Run this report with the Access Rights of:** field on the report. If the **Run this report with the Access Rights of:** user is deactivated, the report no longer displays for users who have the report shared with them. When this happens, you can make the report accessible again by leaving the **Run this Report with the Access Rights of:** blank or entering an active user in the field.
 
 To learn more about the **Run this Report with the Access Rights of:** field, see [Run and deliver a report with the access rights of another user](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). For information on identifying all reports owned by deactivated users, see [Create a report on reporting activities](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
