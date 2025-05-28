@@ -1086,7 +1086,7 @@ Adding the following items to a template is identical to adding them to a projec
 * Documents
 * Risks
 
-  For more information about creating risks, see the [Create and edit risks on projects](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create)  section in the article [Create and edit risks on projects](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+  For more information about creating risks, see [Create and edit risks on projects](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
 * Approval processes
 

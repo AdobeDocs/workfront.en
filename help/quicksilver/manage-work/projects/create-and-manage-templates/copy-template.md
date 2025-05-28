@@ -68,7 +68,6 @@ The following items are never copied from an existing template to a new one:
 
 ## Copy a template
 
-
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. Go to the template that you want to copy.
@@ -76,11 +75,11 @@ The following items are never copied from an existing template to a new one:
 
    The **Copy Template** box opens.
 
-   <!--![Copy template box](assets/copy-template-box.png)-->
+   ![Copy template box](assets/copy-template-box.png)
 
 1. Specify a name for the template in the **New Template Name** field.
 
-   By default, the new name is `Copy of Original template name`.
+   By default, Workfront sets the new name following this format: `Copy of Original template name`.
 
 1. Select the **Retain user assignments on tasks and template** option, if you want to carry all task and template assignments from the original template to the new template. Template task assignments, and the Template Owner and Sponsor are transferred to the copied template. 
 1. Click **Save** to create a copy of the template.

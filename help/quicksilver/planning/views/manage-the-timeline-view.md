@@ -133,13 +133,8 @@ To manage a timeline view:
         * Year
         * Quarter
         * Month
-1. Click **Switch to Standard** view to display records in separate lines <!--check to see if they updated the name of the setting here-->
-
-    Or
-
-    Click **Switch to Compact view** to display the records whose dates don't intersect on the same line. <!--check to see if they updated the name of the setting here-->
-    
-    Records display in the Compact view by default. 
+1. (Optional) Click **Switch to Compact view** to display the records whose dates don't intersect on the same line. <!--check to see if they updated the name of the setting here--> 
+1. (Conditional) If you changed your mode to **Compact**, click **Switch to Standard** view to display records in separate lines. <span class="preview">The **Standard** option is the default.</span>  <!--check to see if they updated the name of the setting here--> 
 
 1. Do the following to quickly find records that match a keyword:
 
@@ -347,7 +342,7 @@ Update the timeline view settings to indicate what and how information displays 
 
     If you do not have a field with color-coded options for the selected record type, this option is dimmed.
 
-    1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>
+1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>
 
 1. Click **Save**.
 
@@ -383,7 +378,7 @@ You can display connected records in a record's timeline view by using the Break
 #### Break down connected records
 
 1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. (Conditional) If you are viewing the timeline view in the Standard mode, click **Breakdown**.
+1. From the **Standard** or <span class="preview">**Compact** modes, click **Breakdown**</span> in the upper-right corner of the timeline view.
 1. Expand the **Select a linked record type** box and select a connected record type. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
     ![Breakdown picker and button on timeline view](assets/breakdown-picker-and-button-on-timeline.png)
@@ -411,7 +406,15 @@ You can display connected records in a record's timeline view by using the Break
     >
     >Both Products and Programs must be connected to the campaigns to display as choices for the breakdown option, and you can add them to the breakdown in any order.
 
+1. <span class="preview">(Conditional) If you are viewing the timeline in the Compact mode, click **Switch view**. The breakdown is not visible in **Compact** mode.</span>  
 
+    >[!TIP]
+    >
+    ><span class="preview">Select **Don't show this again** in the **Switch to the Standard view?** box, before switching the view. </span>
+    >
+    ><span class="preview">This preference is remembered only for the current browser. If you change browsers or computers, you will have to select this preference again.</span>
+    >
+    >You cannot revert to the Compact mode after you switched the view to Standard and you display connected records in the view. 
 1. (Optional) Repeat the steps above to add more connected records. 
 
     

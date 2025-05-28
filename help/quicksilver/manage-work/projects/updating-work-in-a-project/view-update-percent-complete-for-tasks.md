@@ -2,20 +2,22 @@
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: View and Update Percent Complete for Tasks
-description: You can update the percent complete of a task to indicate the progress that you have made on the task towards completing it.
+description: You can update the percent complete of a task to indicate the progress that you have made on the task towards completing it. Updating the percent complete for issues is similar to updating it for a task. This article describes how to update the percent complete of a task.
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
 ---
 # View and update Percent Complete for tasks
 
-<!--Audited:01/2024-->
+<!--Audited: 05/2025-->
 
 You can update the percent complete of a task to indicate the progress that you have made on the task towards completing it. 
 
+Updating the percent complete for issues is similar to updating it for a task. This article describes how to update the percent complete of a task. 
+
 ## Access Requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
++++ Expand to view access requirements. 
 
 You must have the following access to manually update tasks: 
 
@@ -53,23 +55,20 @@ You must have the following access to manually update tasks:
 
 You can update the percent complete for a task in any of the following areas:
 
-* **In a task list**: You can update the percent complete of a task when the Percent Complete column is displayed.  
+* **In a task list**: You can update the percent complete of a task when the Percent Complete column displays. 
+
   For more information about inline editing, see [Inline edit items in a list in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
-* **In the Milestone view**: You can update the percent complete of a task when using the Milestone view on a project list or a project report. For more information, see [Use the Milestone view](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+* **In the Milestone view**: You can update the percent complete of a task when using the Milestone view on a project list or a project report. 
 
-<!--only in legacy commenting: 
-* **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
-
-  >[!IMPORTANT]
+  >[!TIP]
   >
-  >This option displays only after you enable the Show Percent Complete option.  
-  >To enable the percent complete update bar for tasks, do the following:   
-  >
-  >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
-  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
+  >  You cannot update the percent complete of issues in the Milestone view. 
 
-* **In the task header**: You can update the percent complete of a task in the task header. For information, see [Edit tasks](../../tasks/manage-tasks/edit-tasks.md).
+
+  For more information, see [Use the Milestone view](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+
+* **In the task header**: You can update the percent complete of a task in the task header. 
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
@@ -89,39 +88,42 @@ You can update the percent complete for a task in any of the following areas:
 
 ## Considerations about updating the percent complete of a task
 
-* When you mark a task as 100% complete, the task Status updates to Complete. 
-* The following scenarios exist for parent tasks: 
+* When you mark a task as 100% complete, the task Status updates to Complete. An issue's status updates to Closed.
+* Completing a task also updates the percent complete of the parent and of the project. 
+* The following scenarios exist for parent tasks and projects: 
   * You cannot update the percent complete of a parent task to 100% when the Summary Completion Mode of the project is set to Automatic and the subtasks are not completed.
-  * You can update the percent complete of a parent task to 100% when the Summary Completion Mode of the project is set to Manual and the subtasks are completed or incomplete. 
+  * You can update the percent complete of a parent task or of a project to 100% when the Summary Completion Mode of the project is set to Manual and the subtasks are completed or incomplete. 
 
   For more information, see [Edit projects](../manage-projects/edit-projects.md).
 
 ## Update the percent complete of a task
 
-1. Go to any of the following areas in Workfront:
+1. Go to any of the areas where you want to update the percent complete of a task. 
 
-    * A task list
-    * A list of projects and apply the Milestone view
-    * A task, by accessing the task page
+    For information, see the section [Areas where you can update the percent complete of a task](#areas-where-you-can-update-the-percent-complete-of-a-task) in this article. 
+    
 1. Locate the **Percent Complete** field for the task whose percent complete you want to update. 
 
     >[!TIP]
     >
-    >  The Percent Complete field always displays at the top of the Summary panel.
-
+    >The Percent Complete field always displays at the top of the Summary panel.
 
 1. Click inside the **Percent Complete** field and type a number between 0 and 100
     
     Or
 
-    Click and drag the **Percent Complete** bar to the necessary number to indicate how much of the task you completed, when available.
+    Click and drag the **Percent Complete** blue bubble to the necessary number to indicate how much of the task you completed, when available.
 
     >[!NOTE]
     >
-    >When you indicate that 100% of the task is completed, the status of the task is also updated to Complete.
+    >    * You cannot enter a decimal number when you click inside the Percent Complete bubble.
+    >    * When you drag and drop the blue bubble in the Summary panel, the Percent Complete updates in one point increments.
+    >
+    >    * When you drag and drop the blue bubble in the task header, the Percent Complete updates in 5 point increments.
 
+1. Press Enter on your keyboard to save the percent complete. 
 
-1. Press Enter in your keyboard to save the percent complete. 
+    The Percent Complete of the project or any parent tasks might also automatically update. 
 
-  The Percent Complete of the project is also automatically updated. 
+    The status of the task or of the issue also updates. 
 
