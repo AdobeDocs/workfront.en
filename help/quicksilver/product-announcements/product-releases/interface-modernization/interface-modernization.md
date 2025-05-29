@@ -19,6 +19,22 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+### Interface updates for the Import Data (Kick-Starts) page
+
+**Preview release: May 29, 2025; Production release: June 5, 2025**
+
+We have updated the Import Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront. Also, the Kick-Start import process was streamlined so that the selected file is uploaded immediately. You no longer have to click a separate **Upload** button to complete the import after choosing the file.
+
+For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+### Interface update for the Access Log tab in Setup
+
+**Preview release: May 21, 2025; Production release: May 29, 2025**
+
+We have updated the Access Log tab with a more modern design that is consistent with other areas of Workfront.
+
+To view this change, go to Setup > Log in as > Choose Access log at the top of the screen. 
+
 ### New look and feel of the New and Copy Scorecard boxes   
 
 **Preview release:  May 22, 2025 ; Production release: May 29, 2025**   
@@ -60,7 +76,7 @@ No functionality changes have been introduced with this update.
 
 ### Share a document with an external email address
 
-**Preview release: May 15, 2025; Production release: To be announced**
+**Preview release: May 15, 2025; Production release: May 21, 2025**
 
 We have updated the share dialog box to allow users to share documents with external users using an email address. This funtionality was temporarily unavailable due to the interface modernization work.
 
@@ -85,6 +101,14 @@ For more information, see [Search [!DNL Adobe Workfront]](/help/quicksilver/work
 We have updated the page you use to grant support access to your Workfront account with a more modern design that is consistent with other areas of Workfront. 
 
 ## Projects
+
+### Look and feel updates for the Delete Issue box 
+
+**Preview release: May 29, 2025; Production release: June 5, 2025**
+
+We have updated the look and feel of the Delete issue box when deleting one or several issues. The Delete issue box now matches other areas of Workfront. 
+
+For information, see [Delete issues](/help/quicksilver/manage-work/issues/manage-issues/delete-issues.md).
 
 ## Look and feel updates to the New and Edit risk boxes for a project or a template 
 
@@ -134,9 +158,20 @@ We recommend replacing the URL to go to a supported page, or removing the extern
 
 ## Users 
 
+<!--
+### Interface updates to the organizational chart
+
+**Preview release: May 29, 2025; Production release: June 5, 2025**
+
+We have updated the look and feel of the organizational chart associated with a Workfront user, to match the design of other areas of Workfront.
+
+To view this change, go to a Workfront user profile and click **Org Chart** in the left panel. (This feature is available through the Workfront user profile, not the Adobe user profile.)
+
+For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).-->
+
 ### Interface update to the new user registration page
 
-**Preview release: May 15, 2024; Production release: To be announced**
+**Preview release: May 12, 2024; Production release: May 19, 2025**
 
 We have updated the new user registration page with a more modern design that is consistent with other areas of Workfront.
 
@@ -144,13 +179,15 @@ Users no longer have the option to upload a photo on this page. However, they ca
 
 ### Updated look for the login page
 
-**Preview release: May 15, 2024; Production release: To be announced**
+**Preview release: May 12, 2024; Production release: May 19, 2025**
 
-We have updated the login page with a more modern design that is consistent with other areas of Workfront. 
+We have updated the login page with a more modern design that is consistent with other areas of Workfront.
+
+With this change, the login page no longer supports custom branding.
 
 ### Updated look for reset password page
 
-**Preview release: May 15, 2024; Production release: To be announced**
+**Preview release: May 12, 2024; Production release: May 19, 2025**
 
 We have updated the reset password screen with a more modern design that is consistent with other areas of Workfront. This update includes updates to the following pages:
 
