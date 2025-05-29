@@ -128,17 +128,22 @@ If you want to see the progress of the work your users are doing on their assign
   For information, see [View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
 
 
-### Actual Hours in the Workfront database, the API, and custom data
+### Actual Hours in the Workfront <!--database and the--> API <!--, and custom data-->
 
 <!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
 
 Most Workfront fields that store hours are saved in the Workfront database in minutes. For example, the name of the Planned Hours field of a task is `workRequired` in the Workfront database and it is stored in minutes. 
 
-You must account for the conversion from minutes to hours when accessing these fields in API calls or in calculated custom fields or columns.  
+You must account for the conversion from minutes to hours when accessing these fields in API calls or in calculated custom fields or columns. 
 
-However, Actual Hours is stored in the Workfront database in Hours. 
+Depending on how you are accessing Actual Hours, they can be stored in the following fields and units in the database: 
 
-You must use the following valuefield name for Actual Hours in API calls or calculated custom fields or columns in Workfront: `actualWorkRequiredDouble`. 
+* In the API: The `valuefield` for Actual Hours is `actualWorkRequiredDouble` which is stored in hours.
+* In the Workfront interface (calculated custom field and columns): The `valuefield` for Actual Hours is `actualWorkRequired` which is stored in minutes.
+
+<!--Change the above with this when we fix this for the Workfront UI: 
+
+You must use the following valuefield name for Actual Hours in API calls or calculated custom fields or columns in Workfront: `actualWorkRequiredDouble`. -->
 
 For information about using Actual Hours in calculated columns or fields, see [Report FAQs](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md). 
 
