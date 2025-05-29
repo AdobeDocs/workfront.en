@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Filters overview
 description: You can use filters in Adobe Workfront to reduce the amount of information you display on the screen in lists, reports, or other areas.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
 ---
@@ -84,10 +84,6 @@ You can use either built-in filters or build custom filters in the following are
 * Workload Balancer
 
   For information, see [Filter information in the Workload Balancer](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
-
-* Analytics area
-
-  For information, see [Apply filters in Enhanced analytics](../../../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 * Blueprints area
 

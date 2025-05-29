@@ -216,42 +216,47 @@ The following must be in place before you can submit a request to a Workfront Pl
 
 1. (Optional) Click **View your request** in the confirmation message, to open the request, or click the **X** icon to close the confirmation.
 
-1. (Optional) Click the **Planning** tab in the **Requests** area to view your request, then click the name of the request. 
-
-   The request details page opens. 
-
-   ![Request details page](assets/request-details-page.png)
-
-      <!--replace the step directly above with this when we release filters and columns: 
-      1. (Optional) Click the **Planning** tab in the **Requests** area to view your requests. 
+1. (Optional) Click the **Planning** tab in the **Requests** area to view your requests. 
          All the requests you have access to view that were submitted to a Planning request form display in a list. 
-      1. (Optional) Do any of the following:
-         <div class="preview">
-         * Click **Filters** and start adding conditions for what requests you want to view in the Planning tab. 
-                     ![Editing filters in the Planning requests tab](assets/filters-editing-box-in-requests-planning-tab.png)
-            You can filter by any of the following fields:  
-            * **Workspace**: The workspace the request form is associated with.
-            * **Record type**: The record type the request form is associated with.
-            * **Entry date**: The date when the request was submitted.
-            * **Request form**: The name of the request form used to submit the request.
-            * **Status**: The status of the request.
-            * **Entered by**: The name of the user who added the request. If the request was added with someone outside of Workfront, the **Entered by** field shows `N/A`.
-            You can have multiple filters joined by either And or Or.  
-            The request list is filtered automatically, as you add the filter conditions. 
-         * Click **Columns** and hide, show, or rearrange the columns in the request list. 
-            >[!TIP]
-            >
-            >You cannot add any more columns. 
-            >
-            >You cannot display the **Subject** field.
-                     ![](assets/columns-editing-box-in-requests-planning-tab.png)
+1. (Optional) Do any of the following:
 
-      1. Click the name of a request in the list. 
-   The request details page opens. 
-   ![Request details page](assets/request-details-page.png)             
-      </div>
-      -->
+   <div class="preview">
 
+   * Click **Filters** and start adding conditions for what requests you want to view in the Planning tab. 
+
+      ![Editing filters in the Planning requests tab](assets/filters-editing-box-in-requests-planning-tab.png)
+
+      You can filter by the following fields:  
+
+      * **Workspace**: The workspace the request form is associated with.
+      * **Record type**: The record type the request form is associated with.
+      * **Entry date**: The date when the request was submitted.
+      * **Request form**: The name of the request form used to submit the request.
+      * **Status**: The status of the request.
+      * **Entered by**: The name of the user who added the request. If the request was added with someone outside of Workfront, the **Entered by** field shows `N/A`.
+
+         You can have multiple filters joined by either **And** or **Or**.
+         The request list is filtered automatically, as you add the filter conditions. 
+ 
+   * Click **Columns** and hide, show, or rearrange the columns in the request list. 
+ 
+      >[!TIP]
+      >
+      >You cannot add any more columns. 
+      >
+      >You cannot display the **Subject** field.
+ 
+      ![](assets/columns-editing-box-in-requests-planning-tab.png)
+
+
+1. Click the name of a request in the list. 
+
+      The request details page opens. 
+   
+      ![Request details page](assets/request-details-page.png)             
+      
+   </div>
+      
 
 1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
 

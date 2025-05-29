@@ -28,5 +28,4 @@ You can focus on different projects or narrow the amount of projects you're look
 
 In addition to the insights you can gain, you can also complete actions on tasks--such as updating the status, asking for an update, assigning the task to someone, etc.--directly from the Enhanced analytics area.
 
-For more information, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
 

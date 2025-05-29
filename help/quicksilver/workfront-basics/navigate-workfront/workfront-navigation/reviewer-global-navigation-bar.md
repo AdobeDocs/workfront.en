@@ -25,8 +25,6 @@ The following areas are included in the default layout of a [!UICONTROL Reviewer
 
 * **[!UICONTROL Requests]**: You can submit and review requests you or other users from your company have submitted in this area.
 * **[!UICONTROL Documents]**: You can upload documents, or review documents shared with you here.
-* **[!UICONTROL Analytics]**: Look at project data and identify trends with planning and completion. This area displays insight into projects you have access to view. For more information, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
-
 * **[!UICONTROL Blueprints]**: Review existing blueprints in your system and request one to be installed, if the [!DNL Workfront] administrator configured the request queue for blueprints. For more information, see [Blueprints overview](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 

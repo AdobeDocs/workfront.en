@@ -15,9 +15,9 @@ exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 A scorecard measures how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects an organization's mission, values, and strategic goals.
 
@@ -67,9 +67,9 @@ You must have the following access:
 
 1. Click **[!UICONTROL Scorecards]**, then click **[!UICONTROL New Scorecard]**. 
 
-   <span class="preview">The **New scorecard** box opens.</span>
+   The **New scorecard** box opens.
 
-   <span class="preview">![New scorecard box](assets/new-scorecard-350x173.png)</span>
+   ![New scorecard box](assets/new-scorecard-350x173.png)
 
 1. Specify a **[!UICONTROL Scorecard Name]** and a **[!UICONTROL Description]**.
 
@@ -120,9 +120,9 @@ You can create a scorecard by copying and editing an existing one.
 1. Click **[!UICONTROL Scorecards]** in the left panel. 
 1. Select a scorecard in the list, then click the **Copy** icon ![Copy scorecard icon](assets/copy-scorecard-icon.png) at the top of the scorecard list. 
    
-   <span class="preview">The **Copy Scorecard** box opens.</span>
+   The **Copy Scorecard** box opens.
 
-   <span class="preview">![Copy scorecard box](assets/copy-scorecard-box.png)</span>
+   ![Copy scorecard box](assets/copy-scorecard-box.png)
 
 1. Specify the following information:
 

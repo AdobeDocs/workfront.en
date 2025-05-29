@@ -167,7 +167,6 @@ You can choose from the following user-based variables:
      <ul> 
       <li> <p>Resource Planner</p> </li> 
       <li> <p>Workload Balancer</p> </li> 
-      <li> <p>Analytics</p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 

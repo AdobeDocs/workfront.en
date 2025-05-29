@@ -11,9 +11,9 @@ exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
 
 <!--Audited: 05/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>    
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>    
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). -->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).</span>
 
 You can delete issues or requests in Adobe Workfront if you have the correct access and permissions to do so.
 
@@ -110,7 +110,7 @@ Depending on how your Workfront or group administrator configures the Project, T
     A list of issues associated with the selected project displays to the right. 
 1. Select one or multiple issues in the list, then click the **Delete** icon ![Delete icon](assets/delete.png) at the top of the list. 
 
-1. If the deletion is allowed, click **Yes, Delete it**.  <!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. If the deletion is allowed, click **<span class="preview">Delete</span>**.
 
    Your Workfront administrator might not allow the deletion of issues where hours are logged.  
    For more information about the access and permissions needed to delete an issue, see the section [Considerations for deleting issues](#considerations-for-deleting-issues) in this article.
@@ -130,7 +130,7 @@ Depending on how your Workfront or group administrator configures the Project, T
    ![Issue More menu](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Click **Delete Issue**. 
-1. If the deletion is allowed, click **Yes, Delete it**.  <!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. If the deletion is allowed, click **<span class="preview">Delete</span>**.
    
    Your Workfront administrator might not allow the deletion of issues where hours are logged.  
    For more information about the access and permissions needed to delete an issue, see the section [Considerations for deleting issues](#considerations-for-deleting-issues) in this article.

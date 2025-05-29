@@ -26,7 +26,7 @@ You must have the following access to perform the steps in this article:
    <td>Any </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td>
    <p>New: Standard</p>
    <p>or</p>
@@ -49,7 +49,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Considerations about calculating finances in Adobe Workfront
 
-Finances are calculated in Enhanced analytics in the following ways:
+Finances are calculated for projects in the following ways:
 
 * You can manually recalculate costs and revenues on a project, by using the Recalculate Finance option on a project. 
 * In addition, some actions trigger an automatic recalculation.

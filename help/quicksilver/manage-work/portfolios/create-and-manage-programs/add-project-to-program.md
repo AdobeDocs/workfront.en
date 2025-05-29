@@ -11,9 +11,9 @@ exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
 
 <!--Audited: 5/2025-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 You can organize your projects by adding them to programs within portfolios. You can have multiple projects inside of one program, but you can associate only one program with a project.
 
@@ -98,16 +98,16 @@ For information about creating programs, see [Create a program](../../../manage-
     </tbody> 
    </table>
 
-1. (Conditional) If you selected **[!UICONTROL Existing Project]**, the <span class="preview">**Add Projects** box</span> opens. <!--check at unshimming-->
+1. (Conditional) If you selected **[!UICONTROL Existing Project]**, the **Add Projects** box opens. <!--check at unshimming-->
 
-   <span class="preview">![Add existing projects to program box](assets/add-projects-to-programs-box.png)</span><!--check at unshimming-->
+   ![Add existing projects to program box](assets/add-projects-to-programs-box.png)<!--check at unshimming-->
 
 1. Do the following:
 
    1. In the **[!UICONTROL Add Projects]** box, type the name of a project in the **Add Projects to this Program** field, then select it when it displays in the list. <!--check casing on links and buttons-->
    
       You can add more than one project.
-   1. (Optional) Click the <span class="preview">**Delete** icon ![Delete icon](assets/delete-icon.png)</span> next to the name of a project if you decide not to add it to the program.
+   1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the program.
    
    1. Click **[!UICONTROL Add Projects]**. <!--check at unshimming-->
    

@@ -22,5 +22,3 @@ To allow you to view the information you want to see without having to apply res
 * Each chart now has a Sort by menu that allows you to sort alphabetically, by the Planned Start Date, or by the Planned Completion Date.
 
 Previously, the Enhanced analytics area limited the amount of projects that you could look at to 50.
-
-This feature is now included in the [Enhanced Analytics, Part 1 learning path](https://experienceleague.adobe.com/en/docs/workfront/using/home) on Workfront One.
