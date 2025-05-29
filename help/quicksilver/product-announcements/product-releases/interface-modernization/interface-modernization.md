@@ -172,7 +172,7 @@ For information, see [View the organizational chart](/help/quicksilver/people-te
 
 ### Interface update to the new user registration page
 
-**Preview release: May 15, 2024; Production release: To be announced**
+**Preview release: May 12, 2024; Production release: May 19, 2025**
 
 We have updated the new user registration page with a more modern design that is consistent with other areas of Workfront.
 
@@ -180,13 +180,15 @@ Users no longer have the option to upload a photo on this page. However, they ca
 
 ### Updated look for the login page
 
-**Preview release: May 15, 2024; Production release: To be announced**
+**Preview release: May 12, 2024; Production release: May 19, 2025**
 
-We have updated the login page with a more modern design that is consistent with other areas of Workfront. 
+We have updated the login page with a more modern design that is consistent with other areas of Workfront.
+
+With this change, the login page no longer supports custom branding.
 
 ### Updated look for reset password page
 
-**Preview release: May 15, 2024; Production release: To be announced**
+**Preview release: May 12, 2024; Production release: May 19, 2025**
 
 We have updated the reset password screen with a more modern design that is consistent with other areas of Workfront. This update includes updates to the following pages:
 
