@@ -3,6 +3,7 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: "Adobe Workfront basics: article index"
 description: Review these areas to get an understanding of the basics of Adobe Workfront and learn how to perform basic functions, like use the Home or Priorities area, manage your account profile, use the AI Assistant, or understand what the browser requirement and supported languages are. Refer to the Workfront Glossary to learn common terminology in Workfront. 
+short-description: Understand the basics of Adobe Workfront and learn how to perform basic functions.
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
