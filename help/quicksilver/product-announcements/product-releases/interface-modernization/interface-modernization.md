@@ -159,7 +159,7 @@ We recommend replacing the URL to go to a supported page, or removing the extern
 
 ## Users 
 
-<!-->
+<!--
 ### Interface updates to the organizational chart
 
 **Preview release: May 29, 2025; Production release: June 5, 2025**
