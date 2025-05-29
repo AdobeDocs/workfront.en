@@ -33,10 +33,11 @@ You must have the following:
 
 * An IMS-enabled Workfront account  
 * A dev machine with node v18 and npm
+* App Builder License
 
 ## Access Adobe App Builder  
 
-To create UI extensions, you must have access to the Adobe App Builder in the Adobe Developer Console.  
+To create UI extensions, you must have access to Adobe App Builder in the Adobe Developer Console.  
 
 Additional instructions are available on the [Adobe Developer site](https://developer.adobe.com/uix/docs/guides/get-access/).
 
@@ -64,8 +65,6 @@ Additional instructions are available on the [Adobe Developer site](https://deve
 ### Get access to App Builder  
 
 Organizations must work with their account managers to purchase App Builder.  
-
-To test AppBuilder integration, you can request a free trial for your IMS organization here: https://developer.adobe.com/app-builder/trial/#  
 
 If AppBuilder is configured properly, you should see Create project from template as part of creating a new project.
 
@@ -127,7 +126,7 @@ Additional instructions are available on GitHub and the Adobe Developer site:
 
 1. Confirm completion by selecting I'm done. The code generation from the template is in process.
     ![generation in process](assets/6-generation-in-process.png)
-1. Wait until you see a message that the app initialization is finished. Then you can open the project in an IDE (VSCode is recommended) and access the src folder.  
+1. Wait until you see a message that the app initialization is finished. Then you can open the project in an IDE (Visual Studio Code is recommended) and access the src folder.  
 
     For more information on the folders and files in your project, see the [Adobe developer site](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application).
 

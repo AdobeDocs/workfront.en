@@ -10,6 +10,8 @@ exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
 ---
 # Get started with Resource Planning
 
+<!--Audited: 5/2025-->
+
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(**** THIS WILL BE LINKED TO THE PRODUCT UI IN THE PLANNER AREA***DO NOT DELETE OR CHANGE URL FOR THIS ARTICLE****) </p>
@@ -17,7 +19,7 @@ exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
 </div>
 -->
 
-You can use the Adobe Workfront Resource Management tools to forecast the allocation of your resources so that you know with accuracy whether your projects are delivered on time and on budget. For an overview of Resource Management in Workfront, see [Get started with Resource Management](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+You can use the Adobe Workfront Resource Management tools to forecast the allocation of your resources so you know with accuracy whether your projects are delivered on time and on budget. For an overview of Resource Management in Workfront, see [Get started with Resource Management](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
 You can use resource planning tools to manage your job roles, their availability, and general allocation to projects based on this availability.
 
@@ -29,7 +31,7 @@ For more information about scheduling resources in Workfront using the Workload 
 
 To budget time for your resources for the projects you plan to assign them to, you can use the following tools:
 
-* For budgeting allocations for and prioritize multiple projects at the system-level: use the system-level Resource Planner.
+* For budgeting allocations for and prioritize multiple projects at the system-level, use the system-level Resource Planner.
 
   You can access the Resource Planner by going to the  Planner section  in the  Resourcing area.
 

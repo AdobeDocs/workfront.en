@@ -23,7 +23,6 @@ For a list of all changes available with the 21.1 release, see [21.1 release ove
 
 In the default Layout Template, the Analytics area is now enabled by default, which means users assigned to this Layout Template now see the Analytics area in the Global Navigation Bar in Adobe Workfront Classic and the Main Menu in the new Adobe Workfront experience.
 
-To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Enhanced analytics available for all clusters
 
@@ -31,7 +30,6 @@ Enhanced analytics is available for all Workfront clusters, including customers 
 
 Previously, Enhanced analytics was not available with Google Cloud Platform, preventing customers on Cluster 6 from accessing the Analytics area. Now, Business and Enterprise customers on Cluster 6 can access the Analytics area.
 
-To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## People page now available for all clusters
 
@@ -43,4 +41,4 @@ The People page is now available on Workfront Classic for Cluster 4. This page i
 
 This page was previously available with the 20.3 release in both Workfront Classic and the new Workfront experience for all other clusters.
 
-To learn more about the charts available in the People page, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
+
