@@ -796,6 +796,7 @@ feature-set: Workfront
   * [Glossary of Adobe Workfront terminology](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
   * [Adobe Workfront browser requirements](workfront-basics/workfront-browser-requirements.md)
   * [Supported languages in Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
+  * [HIPAA Readiness for Workfront](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
   * Navigate Adobe Workfront {#navigate}
     * [Navigate Adobe Workfront: article index](workfront-basics/navigate-workfront/navigate-workfront.md)
     * Adobe Workfront Search {#search}
