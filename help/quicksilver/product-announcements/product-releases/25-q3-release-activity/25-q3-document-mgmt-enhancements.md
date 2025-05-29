@@ -25,7 +25,7 @@ This update is for both Mac and Windows.
 
 >[!NOTE]
 >
->* Preview release: May 31, 2025; Production release for all customers: May 31, 2025
+>* Preview release: June 2, 2025; Production release for all customers: June 2, 2025
 
 Google is [enhancing security controls](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) for third-party applications accessing Google Drive, requiring applications to adopt a per-user consent model. As a result, individual assets must be linked one at a time to be visible in Workfront. See [Configure document integrations](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md) for more information. 
 
