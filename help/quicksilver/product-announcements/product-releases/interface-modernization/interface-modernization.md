@@ -19,13 +19,14 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+<!--
 ### Interface updates for the Import Data (Kick-Starts) page
 
 **Preview release: May 29, 2025; Production release: June 5, 2025**
 
 We have updated the Import Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront. Also, the import process was streamlined so that the selected file is uploaded immediately. You no longer have to click a separate **Upload** button to complete the import after choosing the file.
 
-For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).-->
 
 ### Interface update for the Access Log tab in Setup
 
@@ -158,6 +159,7 @@ We recommend replacing the URL to go to a supported page, or removing the extern
 
 ## Users 
 
+<!-->
 ### Interface updates to the organizational chart
 
 **Preview release: May 29, 2025; Production release: June 5, 2025**
@@ -166,7 +168,7 @@ We have updated the look and feel of the organizational chart associated with a 
 
 To view this change, go to a Workfront user profile and click **Org Chart** in the left panel. (This feature is available through the Workfront user profile, not the Adobe user profile.)
 
-For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).-->
 
 ### Interface update to the new user registration page
 
