@@ -12,6 +12,8 @@ exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
 ---
 # Import data into Workfront using a Kick-Start template
 
+{{highlighted-preview}}
+
 <!--Audited: 12/2023-->
 
 Kick-Starts are specially formatted Excel workbooks that you can populate with data you want to import into Workfront. Adobe Workfront provides a Kick-Start template you can use to do this, as explained in [Kick-Starts data importer](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
@@ -484,11 +486,17 @@ To import the template spreadsheet data into Workfront:
 
 1. In the **Upload data with Kick-Start spreadsheet** section, click **Choose file**, then browse to and select the populated spreadsheet.
 
-   The file uploads automatically, and a notification that the import was successful displays.
+   <div class="preview">
+   
+   In the Preview environment, the file uploads automatically, and a notification that the import was successful displays.
 
-   If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and Workfront cannot upload the file.
+   If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and Workfront cannot upload the file. Try importing your data in smaller batches of objects.
 
-   Try importing your data in smaller batches of objects.
+   </div>
+
+1. (In the Production environment only) Click **Upload**.
+
+   If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and Workfront cannot upload the file. Try importing your data in smaller batches of objects.
 
 1. (Conditional) If the import was not successful, you receive an error message stating what the problem is. Try to identify the field, the sheet, and the row number in which the problem was encountered and correct the information in the Excel file. Then, try importing the file one more time.
 1. (Conditional) If you are using Workfront Fusion, you can now turn on your FLOs or scenarios when the import is complete.

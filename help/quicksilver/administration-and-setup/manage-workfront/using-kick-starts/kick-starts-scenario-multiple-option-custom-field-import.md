@@ -12,6 +12,8 @@ exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
 ---
 # Kick-Starts scenario: Import multiple-option custom fields into Workfront
 
+{{highlighted-preview}}
+
 You can import custom fields with multiple options in Adobe Workfront using the Kick-Start functionality. 
 
 Examples of custom fields with multiple options are:
@@ -116,9 +118,9 @@ After scanning the information about existing custom fields in your system, you 
 
 1. Click **Import Data (Kick-Starts)**.
  
-1. In the **Download a blank Kick-Start spreadsheet** area, select the **Custom Data** check box and click **Download**.
+1. In the **Download a blank Kick-Start spreadsheet** area, select the **Custom Data** check box, and click **Download**.
 
-   ![Select Custom Data](assets/kickstarts-select-existing-data.png)
+   ![Select Custom Data](assets/kickstarts-blank-spreadsheet-options.png)
 
    A blank kick-start file downloads to your computer.
 
@@ -128,7 +130,7 @@ After scanning the information about existing custom fields in your system, you 
 
 ## Populate the Excel Kick-Starts spreadsheet
 
-Before populating the Excel spreadsheet, download the kick-start template as described in the above section.  
+Before populating the Excel spreadsheet, download the kick-start template as described in the above section.
 
 >[!IMPORTANT]
 >
@@ -257,7 +259,6 @@ To populate the Excel spreadsheet with information for the new custom fields:
 
 1. Save the spreadsheet as an .xls or .xlsx file on your computer. Your Excel spreadsheet is filled out and is now ready for importing into Workfront.  
 
-
 ## Upload the Excel spreadsheet to Workfront 
 
 After performing the steps described in the previous sections, continue with the following to upload the new fields and forms into Workfront:  
@@ -266,19 +267,35 @@ After performing the steps described in the previous sections, continue with the
 
 1. Click **System > Import Data (Kick-Starts)**.
 
-1. Click **Choose file** under the section **Upload data with Kick-Start spreadsheet**. 
+1. Click **Choose file** under the section **Upload data with Kick-Start spreadsheet**.
 
 1. Browse for the Excel spreadsheet you prepared, on your computer and select it when you find it.
 
+   <div class="preview">
+
    The file uploads automatically, and a notification that the import was successful displays. Depending on how much information you are importing, this step might take a few seconds to a minute.
 
-    The new custom fields and forms are now in your Workfront system. You can find them in the Custom Forms area of Setup.
+   The new custom fields and forms are now in your Workfront system. You can find them in the Custom Forms area of Setup.
 
-    >[!NOTE]
-    >
-    >The new forms and the fields you imported are not yet connected. The form is imported with no custom fields. You must manually add the fields to the new custom form or to another existing custom form.   
+   >[!NOTE]
+   >
+   >The new forms and the fields you imported are not yet connected. The form is imported with no custom fields. You must manually add the fields to the new custom form or to another existing custom form.   
 
-    For information about adding fields to custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   For information about adding fields to custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+   </div>
+
+1. (In the Production environment only) Click **Upload**.
+
+   A notification that the import was successful displays. Depending on how much information you are importing, this step might take a few seconds to a minute.
+
+   The new custom fields and forms are now in your Workfront system. You can find them in the Custom Forms area of Setup.
+
+   >[!NOTE]
+   >
+   >The new forms and the fields you imported are not yet connected. The form is imported with no custom fields. You must manually add the fields to the new custom form or to another existing custom form.   
+
+   For information about adding fields to custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Conditional) If the import was not successful, you receive an error message stating what the problem is. Try to identify the field, the sheet, and the row number in which the problem was encountered and correct the information in the Excel file. Then, try importing the file one more time.
 
