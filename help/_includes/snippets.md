@@ -156,7 +156,7 @@ To set up linked folders:
 
 ## Step 1 - Getting to Priorities - {#step1-to-priorities}
 
-1. Click the **[!UICONTROL Main Menu]** icon **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner of Adobe Workfront, or (if available), click the ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Priorities]**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Priorities]**.
 
 <!-- Integrations -->
 
