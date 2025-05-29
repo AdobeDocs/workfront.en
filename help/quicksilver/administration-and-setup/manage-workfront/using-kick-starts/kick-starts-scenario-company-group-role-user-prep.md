@@ -50,25 +50,11 @@ For more detail about the information in this table, see [Access requirements in
 
 The following table displays the companies, groups, and roles to import:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th><strong>Companies</strong> </th> 
-   <th><strong>Groups</strong> </th> 
-   <th><strong>Roles</strong> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td valign="top"> <p>Acme, Co</p> <p>Workfront, Inc.</p> <p><em>Your Company</em> </p> <p>XYZ, Inc.</p> </td> 
-   <td valign="top"> <p valign="top" rowspan="7">Finance</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">Marketing </p> <p valign="top" rowspan="7">Sales</p> </td> 
-   <td valign="top"> <p valign="top">Business Analyst</p> <p valign="top">Controller Creative</p> <p valign="top">Designer</p> <p valign="top">Resource Manager</p> <p valign="top">Scrum Master</p> <p valign="top">Technical Writer</p> <p valign="top">Web Developer</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Companies | Groups | Roles |
+|---|---|---|
+| Acme, Co <p>Workfront, Inc. <p>_Your Company_ <p>XYZ, Inc. | Finance <p>IT <p>Marketing <p>Sales | Business Analyst <p>Controller Creative <p>Designer <p>Resource Manager <p>Scrum Master <p>Technical Writer <p>Web Developer |
+
+{style="table-layout:auto"}
 
 Role names must be unique. Existing job roles cannot be imported.
 
@@ -76,8 +62,9 @@ The following tables display the users to import and several user attributes for
 
 ### User 1
 
-| **First Name** |Chris |
+| Attribute |Value |
 |---|---|
+| **First Name** |Chris |
 | **Last Name** |Manning |
 | **Username/Email** |mailto:cmanning@foo.com  |
 | **Password** |updateMe |
@@ -90,8 +77,9 @@ The following tables display the users to import and several user attributes for
 
 ### User 2
 
-| **First Name** |Jennifer |
+| Attribute |Value |
 |---|---|
+| **First Name** |Jennifer |
 | **Last Name** |Campbell |
 | **Username/Email** |jcampbell@foo.com |
 | **Password** |updateMe |
@@ -104,8 +92,9 @@ The following tables display the users to import and several user attributes for
 
 ### User 3
 
-| **First Name** |Jill |
+| Attribute |Value |
 |---|---|
+| **First Name** |Jill |
 | **Last Name** |Sullivan |
 | **Username/Email** |jsullivan@foo.com |
 | **Password** |updateMe |
@@ -118,8 +107,9 @@ The following tables display the users to import and several user attributes for
 
 ### User 4
 
-| **First Name** |Marc |
+| Attribute |Value |
 |---|---|
+| **First Name** |Marc |
 | **Last Name** |Lewis |
 | **Username/Email** |mlewis@foo.com |
 | **Password** |updateMe |
@@ -132,8 +122,9 @@ The following tables display the users to import and several user attributes for
 
 ### User 5
 
-| **First Name** |Pam |
+| Attribute |Value |
 |---|---|
+| **First Name** |Pam |
 | **Last Name** |Reynolds |
 | **Username/Email** |preynolds@foo.com |
 | **Password** |updateMe |
@@ -146,8 +137,9 @@ The following tables display the users to import and several user attributes for
 
 ### User 6
 
-| **First Name** |Ray |
+| Attribute |Value |
 |---|---|
+| **First Name** |Ray |
 | **Last Name** |Andrews |
 | **Username/Email** |randrews@foo.com |
 | **Password** |updateMe |
@@ -178,9 +170,9 @@ The following tables display the users to import and several user attributes for
 
 1. Go to the **CMPY Company** sheet.
 
-   It should be empty unless companies are already in the system. ![Company sheet](assets/cmpysheet-350x16.png)
-
-   ![Company ID](assets/companyid--1--350x78.png)
+   It should be empty unless companies are already in the system.
+   
+   ![Company sheet](assets/cmpysheet-350x16.png) ![Company ID](assets/companyid--1--350x78.png)
 
 1. Enter **TRUE** in the **isNew** column.
 
@@ -290,23 +282,18 @@ The following tables display the users to import and several user attributes for
 
    Repeat this step for each user and group assignment.
 
-   ![Company ID](assets/companyid--1--350x78.png)
-
-   ![Paste company ID](assets/pastecompanyid-350x84.png)
+   ![Company ID](assets/companyid--1--350x78.png) ![Paste company ID](assets/pastecompanyid-350x84.png)
 
 1. Enter the user's Job Role details.
 
    According to the scenario, Chris Manning will have the Business Analyst role. On the **ROLE Role** sheet, locate the ID for the Business Analyst role, copy it, and on the **USER User** sheet paste it in the **setRoleID** column on the user's row. ​Repeat this step for each user and group assignment.
 
-   ![Copy role ID](assets/copyroleid-350x149.png)
-
-   ![Paste role ID](assets/pasteroleid-350x95.png)
+   ![Copy role ID](assets/copyroleid-350x149.png) ![Paste role ID](assets/pasteroleid-350x95.png)
 
 1. Fill in other user details, as needed, then save the file.
 1. Import the Excel File.
 
    Follow the directions provided in [Import data into Adobe Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
-
 
 >[!NOTE]
 >
