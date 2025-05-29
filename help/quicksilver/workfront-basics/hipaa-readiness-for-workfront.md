@@ -11,7 +11,7 @@ hidefromtoc: yes
 
 # HIPAA Readiness for Workfront
 
-A Workfront customer who is, as defined in HIPAA, a **Business Associate** and/or the **Covered Entity** on whose behalf the Business Associate provides Adobe Workfront should use the following guidelines to configure Workfront for HIPAA-ready use:
+A Workfront customer who is, as defined in HIPAA, a Business Associate and/or the Covered Entity on whose behalf the Business Associate provides Adobe Workfront should use the following guidelines to configure Workfront for HIPAA-ready use:
 
 
 ## Password requirements
