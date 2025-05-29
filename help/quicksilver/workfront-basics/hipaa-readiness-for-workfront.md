@@ -11,10 +11,10 @@ hidefromtoc: yes
 
 # HIPAA Readiness for Workfront
 
-A Workfront customer who is, as defined in HIPAA, a **Business Associate** and/or the **Covered Entity** on whose behalf the Business Associate provides Adobe Workfront should use the following guidelines to configure Workfront for HIPAA-ready use:
+A Workfront customer who is, as defined in HIPAA, a Business Associate and/or the Covered Entity on whose behalf the Business Associate provides Adobe Workfront should use the following guidelines to configure Workfront for HIPAA-ready use:
 
 
-## Password Requirements
+## Password requirements
 
 | **Security Setting** | **What Is It?** | **Requirement** |
 |----------------------|------------------|------------------|
@@ -24,21 +24,21 @@ A Workfront customer who is, as defined in HIPAA, a **Business Associate** and/o
 | Password History | How many past passwords should be remembered and disallowed? | Not less than 5 |
 
 
-## Login Requirements
+## Login requirements
 
 | **Security Setting** | **What Is It?** | **Requirement** |
 |----------------------|------------------|------------------|
 | Maximum Login Failures | How many failed login attempts cause the user to be locked out? | Not more than 5 attempts within a 5-minute period; retry allowed after 30 minutes |
-| Maximum SSO Verification Failures | How many failed SSO verification attempts cause lockout? | Not more than 5 (applies only to customers using SSO) |
+| Maximum SSO Verification Failures | How many failed SSO verification attempts cause a lockout? | Not more than 5 (applies only to customers using SSO) |
 
 
-## Session Requirements
+## Session requirements
 
 | **Security Setting** | **What Is It?** | **Requirement** |
 |----------------------|------------------|------------------|
-| Session Timeout | How many minutes of inactivity cause logout? | Not more than 15 minutes |
+| Session Timeout | How many minutes of inactivity cause a logout? | Not more than 15 minutes |
 
-## Customer Responsibilities
+## Customer responsibilities
 
 Ensure all that all employees, representatives, and/or agents are aware of and understand the terms in the licensing and/or service agreement(s) signed between the parties, as applicable, relevant to the use of data with Workfront.
 
@@ -51,7 +51,7 @@ In particular, the following responsibilities and obligations should be review
 * Any sensitive data, including, but not limited to ePHI, is uploaded at the customer's own risk.  The customer is at all times responsible for all customer data. 
 
 
-## Data Protection & Compliance
+## Data protection and compliance
 
 >[!IMPORTANT]
 >
