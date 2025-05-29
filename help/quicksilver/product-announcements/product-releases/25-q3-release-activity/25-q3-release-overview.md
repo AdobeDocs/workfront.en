@@ -36,6 +36,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     
 * [Document management enhancements](#document-management-enhancements)
 * [Home enhancements](#home-enhancements)
+* [Project enhancements](#project-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
 * [Update and notification enhancements](#update-and-notification-enhancements)
 * [Other enhancements](#other-enhancements)
