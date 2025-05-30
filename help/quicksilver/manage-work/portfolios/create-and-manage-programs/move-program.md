@@ -11,9 +11,9 @@ exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
 
 <!--Audited: 5/2025-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 You can add existing programs to a portfolio. Because programs cannot exist in two different portfolios, adding an existing program permanently moves it from one portfolio to another. 
 
@@ -56,9 +56,9 @@ You must have the following access to perform the steps in this article:
 1. Click **[!UICONTROL New Program]**.
 1. Click **[!UICONTROL Existing Program]**.
 
-   <span class="preview">The **Add Programs** box opens.</span> <!--check screen shot - I logged changes for this casing-->
+   The **Add Programs** box opens. <!--check screen shot - I logged changes for this casing-->
 
-   <span class="preview">![Add program box](assets/add-programs-box.png)</span>
+   ![Add program box](assets/add-programs-box.png)
 
    >[!IMPORTANT]
    >
@@ -68,7 +68,7 @@ You must have the following access to perform the steps in this article:
 
    You can add more than one program.
 
-1. (Optional) Click the <span class="preview">**Delete** icon ![Delete icon](assets/delete-icon.png)</span> next to the name of a program if you decide not to add it to the portfolio.
+1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a program if you decide not to add it to the portfolio.
 
 1. Click **[!UICONTROL Add Programs]**. <!--check this button in the UI after they implemented the changes??-->
 

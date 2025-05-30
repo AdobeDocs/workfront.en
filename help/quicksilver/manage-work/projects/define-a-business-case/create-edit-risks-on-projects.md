@@ -11,9 +11,9 @@ exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
 
 <!--Audited: 01/2025-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Risks are possible events or factors that prevent a project from finishing on time or within budget. You can record risks as part of creating the Business Case of a project or by using the Risks tab. 
 
@@ -111,9 +111,9 @@ You can create and edit risks in the Risks section of a project or a template. C
 
    Click **New Risk**. 
    
-   <span class="preview">The **New risk** box opens.</span>
+   The **New risk** box opens.
 
-   <span class="preview">![New risk box](assets/new-risk-box.png)</span>
+   ![New risk box](assets/new-risk-box.png)
 
 1. (Conditional) If you are adding a risk in the **New risk** box, enter the following information:
 
@@ -169,7 +169,7 @@ To edit risks:
    * **Actual Cost**: Indicate the actual cost of the risk if the risk occurred.
    * **Mitigation Plan**: Update the description of the plan to mitigate the risk.
 
-1. <span class="preview">Click **Save**.</span>
+1. Click **Save**.
 1. (Optional) Edit the **Status** for a risk, in the **Status** drop-down menu, when applying the **Standard** view for the list of risks.
 
    >[!NOTE]
