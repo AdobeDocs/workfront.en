@@ -9,6 +9,16 @@ exl-id: 4a911760-e3fe-4e77-b7aa-b08f9ea59d6a
 ---
 # Troubleshooting: outlookIdentityToken error when using Workfront for Outlook
 
+>[!NOTE]
+>
+>Microsoft is in the process of disabling support for legacy Exchange Online tokens, which are used by this integration. A new Microsoft Office 365 integration will be available in September 2025, which will not use legacy Exchange Online tokens. 
+>
+>In the meantime, we highly recommend renewing your legacy Exchange Online token:
+>
+>* Before June 30, 2025: Your Microsoft administrator can renew your legacy Exchange Online token.
+>* After June 30, 2025, you must contact Microsoft Support to renew your legacy Exchange Online token. 
+
+
 When using Workfront for Outlook, you may see the following error:
 
 ```

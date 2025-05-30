@@ -13,6 +13,16 @@ exl-id: c374416e-9680-4725-ab2d-256dff6f03b1
 
 <!-- Audited: 5/2025 -->
 
+>[!NOTE]
+>
+>Microsoft is in the process of disabling support for legacy Exchange Online tokens, which are used by this integration. A new Microsoft Office 365 integration will be available in September 2025, which will not use legacy Exchange Online tokens. 
+>
+>In the meantime, we highly recommend renewing your legacy Exchange Online token:
+>
+>* Before June 30, 2025: Your Microsoft administrator can renew your legacy Exchange Online token.
+>* After June 30, 2025, you must contact Microsoft Support to renew your legacy Exchange Online token. 
+
+
 This section contains the following articles:
 
 * [Set up [!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)

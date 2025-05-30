@@ -9,6 +9,16 @@ exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
 ---
 # Add an [!DNL Outlook] email to a project as a task or an issue
 
+>[!NOTE]
+>
+>Microsoft is in the process of disabling support for legacy Exchange Online tokens, which are used by this integration. A new Microsoft Office 365 integration will be available in September 2025, which will not use legacy Exchange Online tokens. 
+>
+>In the meantime, we highly recommend renewing your legacy Exchange Online token:
+>
+>* Before June 30, 2025: Your Microsoft administrator can renew your legacy Exchange Online token.
+>* After June 30, 2025, you must contact Microsoft Support to renew your legacy Exchange Online token. 
+
+
 You can convert emails to [!DNL Adobe Workfront] tasks or issues. After an email is converted, the task or issue appears on the project that is selected as you are converting it. 
 
 ## Access requirements

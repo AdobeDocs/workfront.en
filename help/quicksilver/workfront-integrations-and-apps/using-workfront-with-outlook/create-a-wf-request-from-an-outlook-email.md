@@ -9,6 +9,16 @@ exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
 ---
 # Create an [!DNL Adobe Workfront] request from an [!UICONTROL Outlook] email
 
+>[!NOTE]
+>
+>Microsoft is in the process of disabling support for legacy Exchange Online tokens, which are used by this integration. A new Microsoft Office 365 integration will be available in September 2025, which will not use legacy Exchange Online tokens. 
+>
+>In the meantime, we highly recommend renewing your legacy Exchange Online token:
+>
+>* Before June 30, 2025: Your Microsoft administrator can renew your legacy Exchange Online token.
+>* After June 30, 2025, you must contact Microsoft Support to renew your legacy Exchange Online token. 
+
+
 You can create a [!DNL Adobe Workfront] request from an email in Outlook.
 
 When you create a [!DNL Workfront] request based on an email, the content of the email (including the subject and body) are included in the request by default.

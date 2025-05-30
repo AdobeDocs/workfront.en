@@ -9,6 +9,16 @@ exl-id: 704da044-21ed-4ca1-be6f-0e0aa832e069
 ---
 # Permissions levels for [!DNL Workfront for Outlook]
 
+>[!NOTE]
+>
+>Microsoft is in the process of disabling support for legacy Exchange Online tokens, which are used by this integration. A new Microsoft Office 365 integration will be available in September 2025, which will not use legacy Exchange Online tokens. 
+>
+>In the meantime, we highly recommend renewing your legacy Exchange Online token:
+>
+>* Before June 30, 2025: Your Microsoft administrator can renew your legacy Exchange Online token.
+>* After June 30, 2025, you must contact Microsoft Support to renew your legacy Exchange Online token. 
+
+
 [!DNL Workfront for Outlook] requires the highest of the four levels of permissions allowed in [!DNL Outlook] add-ins.
 
 For details regarding permissions in [!DNL Outlook] add-ins, see [Privacy, permissions and security for [!DNL Outlook] add-ins](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security) in the [!DNL Microsoft] documentation.

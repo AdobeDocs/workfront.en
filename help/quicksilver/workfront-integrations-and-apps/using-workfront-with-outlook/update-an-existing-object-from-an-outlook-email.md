@@ -11,6 +11,16 @@ exl-id: 297eb1c4-ee9f-4bb3-a412-18f23c74b0eb
 
 You can update an existing project, task, or issue with information from an [!DNL Outlook] email.
 
+>[!NOTE]
+>
+>Microsoft is in the process of disabling support for legacy Exchange Online tokens, which are used by this integration. A new Microsoft Office 365 integration will be available in September 2025, which will not use legacy Exchange Online tokens. 
+>
+>In the meantime, we highly recommend renewing your legacy Exchange Online token:
+>
+>* Before June 30, 2025: Your Microsoft administrator can renew your legacy Exchange Online token.
+>* After June 30, 2025, you must contact Microsoft Support to renew your legacy Exchange Online token. 
+
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
