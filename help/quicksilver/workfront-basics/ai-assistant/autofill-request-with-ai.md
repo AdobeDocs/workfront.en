@@ -86,25 +86,25 @@ This type of suggestion also checks previous requests for similar contexts. For 
 
 The following file types are supported:
 
-   * BMP
-   * CSV
-   * DOC
-   * DOCX
-   * GIF
-   * JPEG
-   * JPG
-   * ODP
-   * ODS
-   * ODT
-   * PDF
-   * PNG
-   * PPT
-   * PPTX
-   * RTF
-   * TIFF
-   * TXT
-   * XLS
-   * XLSX
+* BMP
+* CSV
+* DOC
+* DOCX
+* GIF
+* JPEG
+* JPG
+* ODP
+* ODS
+* ODT
+* PDF
+* PNG
+* PPT
+* PPTX
+* RTF
+* TIFF
+* TXT
+* XLS
+* XLSX
 
 #### Supported file size
 
