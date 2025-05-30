@@ -54,7 +54,7 @@ To use suggestions based on a pasted text prompt:
 
    For instructions, see [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-1. To apply the text prompt to the entire form, click **Auto-fill with AI** in the upper-right corner of the screen.
+1. To apply the text prompt to the entire form, click the AI icon ![AI icon](assets/request-prompt-icon.png) under the form name.
 
    Or
 
@@ -82,25 +82,25 @@ This type of suggestion also checks previous requests for similar contexts. For 
 
 The following file types are supported:
 
-   * PDF
+   * BMP
+   * CSV
    * DOC
    * DOCX
+   * GIF
+   * JPEG
+   * JPG
+   * ODP
+   * ODS
+   * ODT
+   * PDF
+   * PNG
    * PPT
    * PPTX
+   * RTF
+   * TIFF
+   * TXT
    * XLS
    * XLSX
-   * ODT
-   * ODS
-   * ODP
-   * RTF
-   * TXT
-   * CSV
-   * PNG
-   * JPG
-   * JPEG
-   * BMP
-   * TIFF
-   * GIF
 
 #### Supported file size
 
@@ -129,3 +129,26 @@ Consider the following when uploading a document for request auto-fill:
 
 You can upload a document to be applied to the entire form, or to a single section of the form. 
 
+1. Begin creating a request.
+
+   For instructions, see [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+1. To apply the document to the entire form, click the AI icon ![AI icon](assets/request-prompt-icon.png) under the form name.
+
+   Or
+
+   To apply the document for a single section, click the AI icon ![AI icon](assets/request-prompt-icon.png) next to the section name.
+
+1. Click **Upload files**, then select the file from your file manager.
+
+   Or
+   
+   Drag the document from your file manager to the **Upload files to auto-fill request form** box.
+1. Click **Fill the form** of **Fill the section**.
+
+   Workfront generates suggestions for the form.
+1. For each field suggestion, select **Accept** or **Reject** below that field.
+
+   Or
+
+   Select **Accept all** or **Reject all** at the top of the page to accept or reject all suggestions.
