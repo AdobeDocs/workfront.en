@@ -156,3 +156,4 @@ You can upload a document to be applied to the entire form, or to a single secti
    Or
 
    Select **Accept all** or **Reject all** at the top of the page to accept or reject all suggestions.
+
