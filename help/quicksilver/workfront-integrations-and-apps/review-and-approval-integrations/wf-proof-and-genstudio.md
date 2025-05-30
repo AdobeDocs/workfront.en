@@ -2,7 +2,7 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title:  Get started with the Workfront proofing and GenStuido
+title:  Get started with the proofing and GenStudio for Performance Marketing integration
 description:  
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
@@ -10,7 +10,7 @@ recommendations: noDisplay, noCatalog
 
 ---
 
-# Get started with the proofing integration with GenStudio for Performance Marketing 
+# Get started with the proofing and GenStudio for Performance Marketing integration
 
 We are excited to introduce a new integration between Proofing and GenStudio for Performance Marketing. With this integration, you can 
 
@@ -58,6 +58,8 @@ Workfront and GenStudio for Performance Marketing must be deployed to the same I
 ## Set up in Workfront
 
 ## Use Workfront approval templates to define approval workflows
+
+
 
 ## Review GenStudio draft content in the proofing viewer
 
