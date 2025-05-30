@@ -11,6 +11,8 @@ exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
 >[!NOTE]
 >
 >This functionality is currenty part of a closed beta. To  have this functionality enabled, please contact sargism@adobe.com.
+>
+>To qualify for the closed beta, your organization must meet the requirements to use the Workfront AI Assistant. For details, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 AI can help you auto-fill request fields. It can suggest field values based on previous requests, or parse them from text such as emails ar uploaded documents. 
 
