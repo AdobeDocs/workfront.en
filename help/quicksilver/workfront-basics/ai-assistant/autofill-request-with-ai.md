@@ -4,11 +4,13 @@ content-type: reference
 description: You can use AI to auto-fill request fields.
 author: Becky
 feature: Get Started with Workfront
-hide: yes
-hidefromtoc: yes
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
 ---
 # Auto-fill a request using AI
+
+>[!NOTE]
+>
+>This functionality is currenty part of a closed beta. To  have this functionality enabled, please contact sargism@adobe.com.
 
 AI can help you auto-fill request fields. It can suggest field values based on previous requests, or parse them from text such as emails ar uploaded documents. 
 
