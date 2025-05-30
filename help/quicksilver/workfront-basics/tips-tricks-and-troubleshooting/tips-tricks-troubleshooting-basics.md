@@ -1,16 +1,16 @@
 ---
 title: 'Tips, Tricks, and Troubleshooting for [!DNL Adobe Workfront]: Article Index'
-description: Learn troubleshooting tips or find out answers to some frequently asked questions but reviewing the articles in this section. 
-author: Nolan
+description: Learn troubleshooting tips and find answers to frequently asked questions by reviewing the articles in this section. 
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
 ---
 # Tips, Tricks, and Troubleshooting for [!DNL Adobe Workfront]: article index
 
-<!--Audited: 12/2024-->
+<!--Audited: 5/2025-->
 
-Learn troubleshooting tips or find out answers to some frequently asked questions but reviewing the following articles:
+Learn troubleshooting tips and answers to frequently asked questions by reviewing the following articles:
 
 * [Your quick guide to finding help in [!DNL Adobe Workfront]](../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
 * [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
