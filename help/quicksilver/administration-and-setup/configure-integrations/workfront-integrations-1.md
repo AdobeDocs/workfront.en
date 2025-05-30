@@ -78,6 +78,21 @@ We understand that the available built-in (native) integrations might not meet a
   </tr> 
  </thead> 
  <tbody> 
+ <tr> 
+   <td role="rowheader"> <p>GenStudio for Performance Marketing </p> </td> 
+   <td> 
+    <ul> 
+     <li>Integrate the proofing experience with Genstudio for Performance Marketing. With this integration, you can 
+     <ul>
+     <li>Use Workfront approval templates to define approval workflows. </li>
+     <li>Review GenStudio draft content in the proofing viewer. </li>
+     <li>See review decisions in GenStudio for final approval and publishing. </li>
+     </ul>
+   </ul>
+     <p>For more information, see <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Get started with the proofing and GenStudio for Performance Marketing integration</a>.</p> 
+     </td>  <td><ul><li>You must have licenses for both Workfront and GenStudio for Performance Marketing.</li><li>Your Workfront instance must be on the Adobe Unified Experience.</li><li>Workfront and GenStudio for Performance Marketing must be deployed to the same IMS Org.</li></ul></td> 
+   <td>The integration can be toggled on in the Workfront Setup area once all the requirements are met. For more information, see <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Get started with the proofing and GenStudio for Performance Marketing integration</a>. </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
    <td> 
