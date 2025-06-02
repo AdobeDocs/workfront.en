@@ -9,12 +9,14 @@ exl-id: b0386786-7f90-4d1c-bd3a-1cd545430de1
 ---
 # Comment on a proof
 
+<!-- Audited: 5/2025 -->
+
 Comments enable you&nbsp;to provide feedback on content and collaborate with other users in the proofing viewer.
 
-When tagging users in comments on a proof, the users you are able to tag might differ depending on various factors, such as individual user permissions and your membership in the organization:
+When tagging users in comments on a proof, the users you're able to tag might differ depending on various factors, such as individual user permissions and your membership in the organization:
 
-* If you are the proof creator, owner, or have specific permissions enabled, you can tag users outside of the proof workflow and share the proof with them.
-* If you were added to the proof as an outside user and you are a member of another environment with a different proof account, you can tag only those users from your original environment. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
+* If you are the proof creator or owner, or have specific permissions enabled, you can tag users outside of the proof workflow and share the proof with them.
+* If you were added to the proof as an outside user and you're a member of another environment with a different proof account, you can tag only those users from your original environment. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## Access requirements
 
@@ -56,14 +58,14 @@ You must have the following access to perform the steps in this article:
 ## Comment on a proof
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
-1. Find the proof you need, then click **Open proof**.
+1. Hover over the proof you need, then click **Open proof**.
 
 1. At the top of the proofing viewer, click **Add comment**.
-1. (Conditional) If this is a video proof, play the video proof, then click**Add comment** at the point in the video where you want the comment using the playheads
+1. (Conditional) If this is a video proof, play the video proof, then click **Add comment** at the point in the video where you want the comment using the playheads.
 
    >[!TIP]
    >
-   >1. For ease of use, pause the video, click in the time line where you want the comment.
+   >1. For ease of use, pause the video, click in the timeline where you want the comment.
    >1. For better precision, you can click the values above the playheads and type new values.  
    >1. To comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.
    >1. To comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.
@@ -78,37 +80,37 @@ You must have the following access to perform the steps in this article:
      <tr> 
       <td role="rowheader"><strong>Draw a freehand line</strong> </td> 
       <td> <img src="assets/freehand-line.png"> </td> 
-      <td>Lets you add a freehand line on the selected area.</td> 
+      <td>Add a freehand line on the selected area.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Draw a line</strong> </td> 
       <td> <img src="assets/line.png"> </td> 
-      <td>Lets you draw a line on the selected area.</td> 
+      <td>Draw a line on the selected area.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Draw an arrow</strong> </td> 
       <td> <img src="assets/arrow.png"> </td> 
-      <td>Lets you add an arrow to an area you select.</td> 
+      <td>Add an arrow to an area you select.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Highlight an area</strong> </td> 
       <td> <img src="assets/highlight.png"> </td> 
-      <td>Highlights the area you select.</td> 
+      <td>Highlight an area you select.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Draw a rectangle</strong> </td> 
       <td> <img src="assets/rectangle.png"> </td> 
-      <td>Lets you draw a rectangle around an area.</td> 
+      <td>Draw a rectangle around an area.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Polyline</strong> </td> 
       <td> <img src="assets/polyline.png"> </td> 
-      <td> <p>Draws a connected sequence of line segments that you can leave open or close as a shape. You can move or delete any of the points you add. </p> <p>This tool is useful for working with technical and architectural images.</p> </td> 
+      <td> <p>Draw a connected sequence of line segments that you can leave open or close as a shape. You can move or delete any of the points you add. </p> <p>This tool is useful for working with technical and architectural images.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Change markup color, thickness, or opacity</strong> </td> 
       <td> <img src="assets/change-color.png"> </td> 
-      <td>Lets you change the color, thickness and opacity of the markup tools.</td> 
+      <td>Change the color, thickness and opacity of the markup tools.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Text</strong> </td> 
@@ -118,12 +120,17 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
-1. In static proofs, you can mark multiple areas on multiple pages for one comment. For example, if you want to make the same comment on multiple pages, select an area on one page, then go to the next page where you want to make the same comment and select an area there. (This applies only to the regular annotation markup tools, not the text markup tools.)
+1. (Optional and Conditional) In static proofs, you can mark multiple areas on multiple pages for one comment. For example, if you want to make the same comment on multiple pages, select an area on one page, then go to the next page where you want to make the same comment and select an area there. 
+
+   >[!NOTE]
+   >
+   >This applies only to the regular annotation markup tools, not the text markup tools.
+   
 1. Type your comment in the **Add comment** box on the right.
 1. (Optional) To tag another user in your comment and add them to the proof's workflow, type @ in the comment box, then type the user's name or email address and select the user in the menu that appears.&nbsp;For more information, see [Tag users to share a proof](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md).
 1. (Optional) To attach&nbsp;a file to a comment, do either of the following:
 
-   * Click the paper clip icon in the lower-right corner of the comment, then find and select the file you want to upload.
+   * Click the paper clip icon in the upper-right corner of the comment, then find and select the file you want to upload.
    * Drag a file from a&nbsp;location on your computer and drop it into the comment area.
 
 1. Click **Post**.

@@ -2,15 +2,17 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Agile Planning Tools Overview
-description: As you create a board using ad hoc and connected cards, you might want to take advantage of additional agile planning tools on boards.
+title: "Agile planning tools overview: article index"
+description: As you create a board using ad hoc and connected cards, you can take advantage of additional agile planning tools on boards.
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
 ---
-# Agile planning tools overview
+# Agile planning tools overview: article index
 
-As you create a board using ad hoc and connected cards, you might want to take advantage of additional agile planning tools.
+<!-- Audited: 5/2025 -->
+
+As you create a board using ad hoc and connected cards, you can take advantage of additional agile planning tools.
 
 Tools useful for Kanban include:
 

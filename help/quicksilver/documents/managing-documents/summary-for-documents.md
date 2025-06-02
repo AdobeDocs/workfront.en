@@ -104,7 +104,7 @@ Proof approvals must be added in the Proof Workflow. For more information on app
 
 ## Versions
 
-Use the Versions section to view the number of versions created for a specific document. Click the **More** icon ![More icon](assets/more-icon.png) to do the following:
+Use the Versions section to view the number of versions created for a specific document. Click the More icon ![More icon](assets/more-icon.png) to do the following:
 
 * Open a proof.
 * Download a proof or document.
