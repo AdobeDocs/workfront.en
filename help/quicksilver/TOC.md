@@ -2116,6 +2116,7 @@ feature-set: Workfront
   * Review and approval integrations {#review-approval-integrations}
     * [Review and approval integrations: article index](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/review-approval-integrations-toc.md)
     * [Get started with the proofing and GenStudio for Performance Marketing integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
+    * [Get started with the proofing and Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
   * Adobe Workfront for Creative Cloud {#workfront-for-creative-cloud}
     * [Adobe Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
     * Install the Adobe Workfront plugin for Creative Cloud Applications {#install-wf-cc}
