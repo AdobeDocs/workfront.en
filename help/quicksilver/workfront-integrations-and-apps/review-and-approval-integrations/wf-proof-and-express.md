@@ -22,10 +22,6 @@ We are excited to introduce a new integration between Proofing and Creative Clou
 
 * See review decisions in Creative Cloud Express for final approval and publishing
 
-
-
-
-
 ## Access requirements
 
 Workfront 
@@ -56,12 +52,9 @@ Full license
 
 Workfront and Creative Cloud Express must be deployed to the same IMS Org.
 
-
 ## Set up in Workfront
 
 ## Use Workfront approval templates to define approval workflows
-
-
 
 ## Review Creative Cloud Express draft content in the proofing viewer
 

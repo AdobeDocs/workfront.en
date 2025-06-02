@@ -21,9 +21,6 @@ We are excited to introduce a new integration between Proofing and GenStudio for
 * See review decisions in GenStudio for final approval and publishing
 
 
-
-
-
 ## Access requirements
 
 Workfront 
@@ -37,8 +34,6 @@ Project creation
 PeM 
 
 Full license 
-
-
 
 ## Prerequisites
 
@@ -58,8 +53,6 @@ Workfront and GenStudio for Performance Marketing must be deployed to the same I
 ## Set up in Workfront
 
 ## Use Workfront approval templates to define approval workflows
-
-
 
 ## Review GenStudio draft content in the proofing viewer
 
