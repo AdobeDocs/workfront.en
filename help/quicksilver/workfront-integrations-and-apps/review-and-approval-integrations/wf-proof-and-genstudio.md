@@ -23,27 +23,54 @@ We are excited to introduce a new integration between Proofing and GenStudio for
 
 ## Access requirements
 
-Workfront 
++++ Expand to view access requirements for the functionality in this article.
 
-Standard license 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> 
+   <p>Any</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <p>Current: Standard </p> 
+   <p>Legacy: Plan </p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td> 
+   <p> You must have GenStudio for Performance Marketing, and you must be added to the product as a user in the Admin Console. </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage or higher permissions on the project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
-With proofing 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Project creation 
+ +++
 
-PeM 
-
-Full license 
 
 ## Prerequisites
 
 * Workfront and GenStudio for Performance Marketing must be deployed to the same IMS Org.
 
-* A user can ONLY be active and enabled in one Workfront instance within the IMS org in order for the integration to work 
+* A user can be active and enabled in only one Workfront instance within the IMS org in order for the integration to work.
 
-* Workfront instance needs to be enabled on the unified shell 
+* Workfront instance needs to be enabled on the Adobe Unified Experience.
 
-* Workfront Setup section is toggled to connect to proof (see below) 
+* Workfront Setup section is toggled to connect to proof. 
 
 ## Integration requirements 
 
@@ -51,6 +78,10 @@ Workfront and GenStudio for Performance Marketing must be deployed to the same I
 
 
 ## Set up in Workfront
+
+1. Go to Main Menu > Setup
+1. Review and Approval > Adobe GenStudio
+1. Enable **Use proof approvals**. 
 
 ## Use Workfront approval templates to define approval workflows
 
