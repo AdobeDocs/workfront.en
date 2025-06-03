@@ -1408,7 +1408,7 @@ feature-set: Workfront
   * Portfolio Management {#portfolio-management}
     * [Portfolio Management](manage-work/portfolios/portfolio-management-overview.md)
     * Portfolio overview in Adobe Workfront {#portfolio-overview-in-adobe-workfront}
-      * [Portfolios](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
+      * [Portfolios: article index](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
       * [Navigate within a portfolio](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
       * [Portfolio Management overview](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
       * [Portfolio overview in Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
@@ -1421,8 +1421,8 @@ feature-set: Workfront
       * [Remove a project from a portfolio](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
       * [Review Requested Projects](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
     * Create and manage programs {#create-and-manage-programs}
-      * [Programs overview in [!DNL Adobe Workfront]](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
-      * [Create and manage programs](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
+      * [Programs overview](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
+      * [Create and manage programs: article index](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
       * [Create a program](manage-work/portfolios/create-and-manage-programs/create-program.md)
       * [Edit programs](manage-work/portfolios/create-and-manage-programs/edit-programs.md)
       * [Add an existing program to a portfolio](manage-work/portfolios/create-and-manage-programs/move-program.md)

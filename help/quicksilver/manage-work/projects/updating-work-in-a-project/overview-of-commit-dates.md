@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Commit Date overview
-description: The Commit Date is the date by which an user assigned to task or an issue commits to complete the task or the issue. This is different than the Planned Completion Date, as it is a more realistic estimate of the completion date given by the user who is directly in charge of the work. 
+description: The Commit Date is the date a user assigned to task or an issue commits to complete the task or the issue. This is different than the Planned Completion Date as it's a more realistic estimate of the completion date given by the user who is directly in charge of the work. 
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
 ---
 # Commit Date overview
 
-<!--Audited: 07/2024-->
+<!--Audited: 05/2025-->
 
 <!-- <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
@@ -18,9 +18,7 @@ exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
 
 <span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
-The Commit Date is the date by which a user assigned to task or an issue commits to complete the task or the issue. 
-
-This is different than the Planned Completion Date of a task or issue, as it is a more realistic estimate of the completion date given only by the user in charge of the work. 
+The Commit Date is the date a user assigned to task or an issue commits to complete the task or the issue. This differs from the Planned Completion Date of a task or issue as it's a more realistic estimate of the completion date given only by the user in charge of the work. 
 
 For information about the Planned Completion Date, see [Overview of the task Planned Completion Date](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
@@ -29,34 +27,32 @@ For information about the Planned Completion Date, see [Overview of the task Pla
 Consider the following when working with commit dates:
 
 * Only tasks and issues have a Commit Date.
-* Commit dates are not automatically set by Adobe Workfront.  
-  When you create a task or issue, there is no commit date assigned to the task or issue.
+* Commit dates are not automatically set by Adobe Workfront. When you create a task or issue, there is no commit date assigned to it.
 * If you are assigned to a task or issue, you can set the Commit Date by doing one of the following:
 
-   * Let Workfront set the Commit Date to match the existing Planned Completion Date of the task or issue by clicking Work On It, Start Issue, or Start Task on the task or issue. For information about replacing the Work On It button with a Start button, see  [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
-   * Manually set the Commit Date yourself according to when you believe the task or issue might be completed. This is your estimation and commitment, as the assignee, to the Project Manager that you will have the task or issue completed by a particular date.
-    For information, see [Update Commit Dates on tasks and issues](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md). 
+   * Let Workfront set the Commit Date to match the existing Planned Completion Date of the task or issue by clicking Work On It, Start Issue, or Start Task on the task or issue. For information, see  [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+   * Manually set the Commit Date yourself according to when you believe the task or issue will be completed. This is your estimation and commitment, as the assignee, to the Project Manager that you will have the task or issue completed by a particular date. For information, see [Update Commit Dates on tasks and issues](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md). 
 
 >[!NOTE]
 >
->You must be the Task Owner of a task to change the Commit Date. The following users cannot change the Commit Date of a task:
+>You must be the Task Owner of a task to change the Commit Date. The following users can't change the Commit Date of a task:
 >
 >* Project Owner
 >* Project Sponsor
 >* Resource Manager
 >* System Administrator
 >* Any other assignee on the task
->* Any other user with permissions to the task.
+>* Any other user with permissions to the task
 >
 >For more information about the Task Owner, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Locate the Commit Date of tasks and issues
 
-You can find the Commit Date ot tasks and issues in the following areas of Workfront:
+You can find the Commit Date of tasks and issues in the following areas of Workfront:
 
 * The Details page
-* The Summary panel, after a Workfront or group administrator adds it to your layout template. For information, see [Customize the Summary panel using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). 
-* The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). 
+* The Summary panel after a Workfront or group administrator adds it to your layout template. For information, see [Customize the Summary panel using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). 
+* The header of a task or issue after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). 
 
 ## Notifications and updates triggered by changing the Commit Date {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -64,31 +60,31 @@ When a task or issue assignee manually changes a Commit Date to a date that is d
 
 >[!NOTE]
 >
->Changes made to the Commit Date do not automatically change the planned dates, and changes made to the planned dates do not automatically change the Commit Date. 
+>Changes made to the Commit Date do not automatically change the planned dates, and changes made to the planned dates don't automatically change the Commit Date. 
 
 Manually setting the Commit Date for a task or issue triggers the following changes:
 
-* The Commit Date change populates in the System Activity and the All tabs of the Update section of the task or the issue.
+* The Commit Date change populates in the System Activity and the All tabs of the Update section of the task or issue.
         
-  ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
+  ![Commit date change notification](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
         
-  The change of the Commit Date displays in the Updates area of the task or issue when the Workfront administrator enables this update in the Updates Feeds area in Setup. For information, see [System-tracked updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  The Commit Date change displays in the Updates area of the task or issue when the Workfront administrator enables this update in the Updates Feeds area in Setup. For information, see [System-tracked updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-  If a Project Owner does not want to accept the change, we recommend that they comment back to the user proposing a new date using the Comments tab in the Updates section, to ask them to change the Commit Date back to the original Planned Date, or select a new date. 
+  If a Project Owner doesn't want to accept the change, we recommend that they comment back to the user proposing a new date using the Comments tab in the Updates section, ask them to change the Commit Date back to the original Planned Date, or select a new date. 
   
-  If a Project Owner accepts the change, they can manually adjust the Planned Completion Date to match the Commit Date offered by the user assigned to the item by editing the task or the issue. 
+  If a Project Owner accepts the change, they can manually adjust the Planned Completion Date to match the Commit Date offered by the user assigned to the item by editing the task or issue. 
   
   You must have access to manage the task or the issue to edit them. 
 
   >[!TIP]
   >
-  >You can ask your system or group administrator to add the Commit Date field to your Summary panel, or header to make it easier to update. 
+  >You can ask your system or group administrator to add the Commit Date field to your Summary panel or header to make it easier to update. 
   >
   >For more information, see the following articles:
   >
   >* [Summary overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
   >* [Customize the Summary panel using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-  >* [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+  >* [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
 
 <!--this is no longer possible: 
 >[!NOTE]
@@ -101,15 +97,15 @@ Manually setting the Commit Date for a task or issue triggers the following chan
 -->
 
 
-* The Projected Completion Date of the task or issue is set to the same date because the task now has a more accurate indication of when it is likely to be completed.
+* The Projected Completion Date of the task or issue is set to the same date because the task now has a more accurate indication of when it's likely to be completed.
 
-  For more information about the Projected Completion Date, see [Overview of the Projected Completion Date for projects, tasks, and issues](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+  For more information, see [Overview of the Projected Completion Date for projects, tasks, and issues](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-* The Project Owner is notified in the Notifications area that a task or issue commit date changed. 
+* The Project Owner is notified in the Notifications area that a task or issue Commit Date has changed. 
 
-  ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
+  ![Commit date change notification](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip below is actually wrong and the updates feeds should not control this setting, but at this time it does, according to this issue in Hub: https://hub.workfront.com/issue/61e1aa5e0002a186fdd0a73a10db0fc3/updates?email-source=comm</p>
@@ -119,7 +115,7 @@ Manually setting the Commit Date for a task or issue triggers the following chan
   >
   >The notification that the Commit Date has changed is sent to the Project Owner only when the Workfront administrator enables displaying the Commit Date in the Updates Feeds area in Setup. For information, see [System-tracked updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-For information about the additional functionality that is available when updating a work item, see  [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+For information about the additional functionality that's available when updating a work item, see  [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
 For information about updating Commit Dates for tasks and issues, see [Update Commit Dates on tasks and issues](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
