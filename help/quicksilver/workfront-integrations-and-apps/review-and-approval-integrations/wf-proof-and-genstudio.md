@@ -77,14 +77,27 @@ For more detail about the information in this table, see [Access requirements in
 Workfront and GenStudio for Performance Marketing must be deployed to the same IMS Org.
 
 
-## Set up in Workfront
+## Enable the integration in Workfront
 
-1. Go to Main Menu > Setup
-1. Review and Approval > Adobe GenStudio
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+1. In the left panel, click **Review and Approval** > **Adobe GenStudio**.
 1. Enable **Use proof approvals**. 
+![enable proofing for GenStudio](assets/enable-proofing-gs.png)
 
 ## Use Workfront approval templates to define approval workflows
 
+You can use approval templates to automate review and approval workflows in GenStudio. 
+
+For more information, see []().
+
 ## Review GenStudio draft content in the proofing viewer
 
+You can review GenStudio draft content in the proofing viewer. 
+
+For more information about review and approval in GenStudio, see []().
+
 ## See review decisions in GenStudio for final approval and publishing
+
+Once the asset has gone through the review and approval process, you can view the review decision directly in GenStudio.
+
+For more information, see []().
