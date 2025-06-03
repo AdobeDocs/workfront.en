@@ -83,7 +83,7 @@ You can add fields you want [!DNL Workfront] to track for a particular type of o
 >
 >You can track up to 300 built-in and custom fields in the update feeds. If you are tracking the maximum number of fields and want to track additional fields that are not displayed in the [!UICONTROL All Fields] subtab, you must first remove some of the tracked fields in order to track new fields. For more information about removing fields from the update fields, see [Remove fields you don't want tracked](#remove-fields-you-don-t-want-tracked).
 
-{{step1-to-setup}}
+{{step-1-to-setup}}
 
 1. In the panel on the left, click **[!UICONTROL Interface]**, then **[!UICONTROL Update Feeds]**.
 
@@ -103,7 +103,7 @@ You can add fields you want [!DNL Workfront] to track for a particular type of o
 
 You can remove fields you don't want the system to track for a particular type of object throughout the [!DNL Workfront] interface.
 
-{{step1-to-setup}}
+{{step-1-to-setup}}
 
 1. Click **[!UICONTROL Interface]**, then **[!UICONTROL Update Feeds]**.
 
@@ -188,7 +188,7 @@ For example, you can have [!DNL Workfront] record an update every time a user ch
 
 To configure which actions you want [!DNL Workfront] to track:
 
-{{step1-to-setup}}
+{{step-1-to-setup}}
 
 1. Click **[!UICONTROL Interface]**, then **[!UICONTROL Update Feeds]**.
 
