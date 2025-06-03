@@ -18,8 +18,6 @@ For more information about scorecards and how you can create one, see [Create a 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -27,16 +25,16 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
    <td>
-   <p>New: Prime or higher</p>
+   <p>Current: Prime or higher</p>
    <p>or</p>
-   <p>Current: Business or higher</p> </td>
+   <p>Legacy: Business or higher</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td>
-   <p>New: Standard</p>
+   <p>Current: Standard</p>
    <p>or</p>
-   <p>Current: Plan</p></td>  
+   <p>Legacy: Plan</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

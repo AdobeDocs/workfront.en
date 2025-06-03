@@ -14,19 +14,22 @@ You can use the Business Case to request a project and define the purpose, the b
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
+ <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Prime or higher </p> </td> 
+   <td> 
+   <p>Current: Prime or higher</p> 
+   <p>Legacy: Pro or higher</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan or higher</p> </td> 
+   <td> 
+   <p>Current: Standard </p> 
+   <p>Legacy: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

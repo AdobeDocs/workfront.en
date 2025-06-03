@@ -37,8 +37,6 @@ Consider the following when creating Business Case goals for your projects:
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -47,14 +45,14 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Prime or higher</p> </td> 
+   <td> <p>Current: Prime or higher</p>
+   <p>Legacy: Pro or higher</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td>
    <td> 
-   <p>New: Standard</p> 
-   <p>Or</p>
-   <p>Current: Plan </p> 
+   <p>Current: Standard</p> 
+   <p>Legacy: Plan </p> 
    </td> 
   </tr> 
   <tr> 
