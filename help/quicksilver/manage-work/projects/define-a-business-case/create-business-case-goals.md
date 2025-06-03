@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td> <p>Prime or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td>
