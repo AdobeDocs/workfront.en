@@ -2,17 +2,17 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: create and manage programs
-title: Programs Overview in [!DNL Adobe Workfront]
+title: Programs Overview
 description: A Program is a collection of projects that have unifying characteristics. Those projects usually compete for the same resources, budget, or time slot. Programs are a sub-group of portfolios. You can associate projects with programs before they are added to a portfolio.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
 ---
-# Programs overview in [!DNL Adobe Workfront]
+# Programs overview
 
 <!-- Audited: 09/2024 -->
 
-In Adobe Workfront, a program is a collection of projects that have unifying characteristics. For example, they might compete for the same budget, resources, or time frame. Programs are a sub-group of portfolios. 
+In Adobe Workfront, a program is a collection of projects that have unifying characteristics. For example, they might compete for the same budget, resources, or timeframe. Programs are a sub-group of portfolios. 
 
 This article contains general information about programs in Workfront.
 
@@ -27,12 +27,12 @@ You must have the following access to create and manage portfolios:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>New: Any</p>
    <p>Current: [!UICONTROL Business] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td> <p>New: [!UICONTROL Standard]</p>
    <p>Current: [!UICONTROL Plan] </p> </td> 
   </tr> 
@@ -51,7 +51,7 @@ You must have the following access to create and manage portfolios:
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Considerations about working with programs

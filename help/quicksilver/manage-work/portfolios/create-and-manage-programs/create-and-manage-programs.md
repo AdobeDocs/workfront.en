@@ -2,17 +2,18 @@
 content-type: reference
 product-area: programs
 navigation-topic: portfolios-navigation-topic
-title: Create and Manage Programs
-description: Programs represent a collection of projects that share a common strategy, objective, or goal that transcends project boundaries. Programs are a subdivision of portfolios, and they cannot exist outside of a portfolio.
+title: "Create and Manage Programs: article index"
+description: Programs are a collection of projects that contribute to a common strategy, objective, or goal. Programs are a subdivision of portfolios, and they can't exist outside of a portfolio.
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
 ---
-# Create and manage programs
+# Create and manage programs: article index
 
-Programs represent a collection of projects that share a common strategy, objective, or goal that transcends project boundaries. 
-Programs are a subdivision of portfolios, and they cannot exist outside of a portfolio.
+Programs are a collection of projects that contribute to a common strategy, objective, or goal.
+
+Programs are a subdivision of portfolios, and they can't exist outside of a portfolio.
 
 This section contains the following articles:
 

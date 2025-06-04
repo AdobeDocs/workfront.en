@@ -22,8 +22,6 @@ You can also budget resources in the business case using the Adobe Workfront Sce
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
-
 +++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
@@ -32,12 +30,14 @@ You must have the following to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Prime or higher</p> </td> 
+   <td> <p>Current: Prime or higher</p>
+   <p>Legacy: Pro or higher</p> 
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Light or higher</p>
-   <p>Current: Review or higher</p> 
+   <td> <p>Current: Light or higher</p>
+   <p>Legacy: Review or higher</p> 
    
    <p><b>IMPORTANT:</b></p> 
    <p>New: You must have a Standard license to modify resource budgeting information. </p> 
@@ -60,7 +60,7 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

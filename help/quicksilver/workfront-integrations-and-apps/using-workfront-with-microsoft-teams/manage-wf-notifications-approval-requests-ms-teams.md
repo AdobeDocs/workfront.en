@@ -9,13 +9,11 @@ exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
 ---
 # Manage [!DNL Adobe Workfront] notifications in [!DNL Microsoft Teams]
 
-<!--
-
->[!NOTE]
+>[!IMPORTANT]
 >
->As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
-
--->
+>As Microsoft transitions to the New Teams client, the Classic Teams client will no longer be available after July 1, 2025. In preparation, we are developing a new version of the Microsoft Teams integration that will be fully compatible with the New Teams client and available before July 1 to ensure a smooth transition.
+>
+>Instructions on how to download and install the integration in the New Teams client will appear here after the integration is available.
 
 You can receive notifications from [!DNL Adobe Workfront] about items you need to approve, assignments you've been given, or comments and changes to items you're associated with.
 

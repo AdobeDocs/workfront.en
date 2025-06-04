@@ -9,13 +9,11 @@ exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
 ---
 # Create [!DNL Adobe Workfront] tasks from [!DNL Microsoft Teams]
 
-<!--
-
->[!NOTE]
+>[!IMPORTANT]
 >
->As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
-
--->
+>As Microsoft transitions to the New Teams client, the Classic Teams client will no longer be available after July 1, 2025. In preparation, we are developing a new version of the Microsoft Teams integration that will be fully compatible with the New Teams client and available before July 1 to ensure a smooth transition.
+>
+>Instructions on how to download and install the integration in the New Teams client will appear here after the integration is available.
 
 ## Access requirements
 

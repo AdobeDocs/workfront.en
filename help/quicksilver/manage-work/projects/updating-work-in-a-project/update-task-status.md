@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Update Task Status
-description: You can update a task's status to inform others about where the task is (and the overall project) and how it is progressing.
+description: You can update a task's status to inform others about where the task is (and the overall project) and how it's progressing.
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
@@ -11,7 +11,7 @@ exl-id: e1efc676-e110-486e-91dc-f521421575e8
 
 <!--Audited: 10/2024-->
 
-You can update a task's status to inform others about where the task is (and the overall project) and how it is progressing.
+You can update a task's status to inform others about where the task is (and the overall project) and how it's progressing.
 
 The default statuses are New, In Progress, and Complete. Your Adobe Workfront administrator can add custom statuses for your organization. For more information, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
@@ -20,8 +20,6 @@ You can manually update task statuses or you can let Workfront automatically upd
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article. 
-
-You must have the following access to manually update tasks: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +30,7 @@ You must have the following access to manually update tasks:
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>New: Standard</p> 
    Or
    <p>Current: Work or higher</p>
@@ -49,7 +47,7 @@ You must have the following access to manually update tasks:
  </tbody> 
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,30 +55,30 @@ You must have the following access to manually update tasks:
 
 * When you mark a task as Complete, the percent complete of the task updates to 100%. 
 * The following scenarios exist for parent tasks: 
-  * You cannot update the Status of a parent task to Complete when the Summary Completion Mode of the project is set to Automatic and the subtasks are not completed.
+  * You can't update the Status of a parent task to Complete when the Summary Completion Mode of the project is set to Automatic and the subtasks aren't completed.
   * You can update the Status of a parent task to Complete when the Summary Completion Mode of the project is set to Manual and the subtasks are completed or incomplete. 
 
   For more information, see [Edit projects](../manage-projects/edit-projects.md).
 
 ## Manually update task status
 
-You can update the task status in the following areas of Workfront:
+You can update the task status in the following areas:
 
 * The task header on the task page.
-* The Edit task box, when editing a task.
+* The Edit task box when editing a task.
 * The Task Details section on the task page. 
-* In a task list or report, when the Status field is visible in the view. 
+* In a task list or report when the Status field is visible in the view. 
 * In the Summary panel of the task. 
 
 To manually update the task status in the task header: 
 
-1. Go to an task for which you want to update the status.
-1. Click the **Status** field in the task header and select a new status. 
-1. To provide a visual indication of task completion, drag or double-click the bubble under **Percent Complete** in the header of the task
+1. Go to a task you want to update the status for.
+1. In the task header, click the **Status** field and select a new status. 
+1. To provide a visual indication of task completion, drag the bubble under **Percent Complete** in the header of the task.
 
    Or
 
-   Click inside the bubble in the header of the task to enter a percentage.
+   Double-click inside the **Percent Complete** bubble to manually enter a new percentage.
 
    ![](assets/percent-complete-status-widgets-task-header.png)
 
@@ -88,10 +86,10 @@ To manually update the task status in the task header:
 
    * To add a note about the update, go to the **Updates** section and click **New comment**, then type a note.
 
-     ![](assets/add-update-to-task.png)
+     ![Adding an update to a task](assets/add-update-to-task.png)
 
    * To notify certain users about the update, type their names in the **Tag people or teams** field that appears when you type a comment. For more information, see [Tag others on updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * To update the Commit Date of the task, click **Task Details**, then edit the **Commit Date** field. For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).   
+   * To update the task's commit date, click **Task Details**, then edit the **Commit Date** field. For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).   
 
 
    >[!IMPORTANT]
@@ -144,7 +142,7 @@ Workfront automatically updates the existing status of a task to a different sta
   <tr data-mc-conditions=""> 
    <td><span>Click the Start Task button to accept working on a task assigned to you</span> </td> 
    <td><span>New</span> </td> 
-   <td> <p>Any status associated with the Start Task button in your Home Team settings.</p> <p>For information about replacing the Work On It button with a Start Task button, see <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a></span>.</p> <p>Tip: <span>Clicking</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">the Undo button</span>after clicking Start Task reverts the status to New. </p> </td> 
+   <td> <p>Any status associated with the Start Task button in your Home Team settings.</p> <p>For information about replacing the Work On It button with a Start Task button, see <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a></span>.</p> <p>Tip: <span>Clicking</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">the Undo button</span> after clicking Start Task reverts the status to New. </p> </td> 
   </tr> 
  </tbody> 
 </table>
