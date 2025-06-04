@@ -796,6 +796,7 @@ feature-set: Workfront
   * [Glossary of Adobe Workfront terminology](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
   * [Adobe Workfront browser requirements](workfront-basics/workfront-browser-requirements.md)
   * [Supported languages in Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
+  * [HIPAA Readiness for Workfront](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
   * Navigate Adobe Workfront {#navigate}
     * [Navigate Adobe Workfront: article index](workfront-basics/navigate-workfront/navigate-workfront.md)
     * Adobe Workfront Search {#search}
@@ -1006,7 +1007,7 @@ feature-set: Workfront
     * [Add tags](agile/get-started-with-boards/add-tags.md)
     * [Boards email notifications and preferences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
   * Use agile planning tools in boards {#agile-planning-boards}
-    * [Agile planning tools overview](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
+    * [Agile planning tools overview: article index](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
     * [Manage the work in progress (WIP) limit on a board](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
     * [Add an intake column to a board](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
     * [Use groups on a board](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
@@ -1407,7 +1408,7 @@ feature-set: Workfront
   * Portfolio Management {#portfolio-management}
     * [Portfolio Management](manage-work/portfolios/portfolio-management-overview.md)
     * Portfolio overview in Adobe Workfront {#portfolio-overview-in-adobe-workfront}
-      * [Portfolios](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
+      * [Portfolios: article index](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
       * [Navigate within a portfolio](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
       * [Portfolio Management overview](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
       * [Portfolio overview in Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
@@ -1420,8 +1421,8 @@ feature-set: Workfront
       * [Remove a project from a portfolio](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
       * [Review Requested Projects](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
     * Create and manage programs {#create-and-manage-programs}
-      * [Programs overview in [!DNL Adobe Workfront]](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
-      * [Create and manage programs](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
+      * [Programs overview](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
+      * [Create and manage programs: article index](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
       * [Create a program](manage-work/portfolios/create-and-manage-programs/create-program.md)
       * [Edit programs](manage-work/portfolios/create-and-manage-programs/edit-programs.md)
       * [Add an existing program to a portfolio](manage-work/portfolios/create-and-manage-programs/move-program.md)
