@@ -9,8 +9,8 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
+exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
 ---
-
 # Get started with the proofing and GenStudio for Performance Marketing integration
 
 With the integration between Proofing and GenStudio for Performance Marketing, you can 

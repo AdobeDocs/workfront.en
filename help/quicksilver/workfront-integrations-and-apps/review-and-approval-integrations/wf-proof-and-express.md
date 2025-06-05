@@ -9,8 +9,8 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
+exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
 ---
-
 # Get started with the proofing and Creative Cloud Express
 
 
