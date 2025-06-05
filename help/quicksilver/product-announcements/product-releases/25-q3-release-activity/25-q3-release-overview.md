@@ -212,16 +212,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
-                    </td>
-                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Third Quarter 2025 release timeframe</a></p>
@@ -266,6 +256,14 @@ There are no updates for the following at this point in the release:
 * Scenario Planner
 * Proof
 * Goals
+
+## Announcements
+
+### New version of Workfront for Microsoft Teams
+
+As Microsoft transitions to the New Teams client, the Classic Teams client will no longer be available after July 1, 2025. In preparation, we are developing a new version of the Microsoft Teams integration that will be fully compatible with the New Teams client and available before July 1 to ensure a smooth transition.
+
+Instructions on how to download and install the integration in the New Teams client will become available after the integration is released.
 
 ### API version 20
 
