@@ -110,10 +110,10 @@ With the proofing viewer, you can
 * Mark-up draft to show what needs to change 
 * Make a decision
 
-For more information about review and approval in GenStudio, see [Workfront Proof integration with GenStudio for Performance Marketing]().
+For more information about review and approval in GenStudio, see <!--[Workfront Proof integration with GenStudio for Performance Marketing]().-->
 
 ## View review decisions in GenStudio for final approval and publishing
 
 Once the asset has gone through the review and approval process, you can view the review decision and publish the content directly from GenStudio.
 
-For more information, see [link to GS docs]().
+For more information, see <!--[link to GS docs]().-->
