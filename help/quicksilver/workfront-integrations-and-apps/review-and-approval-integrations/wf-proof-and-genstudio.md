@@ -13,13 +13,13 @@ hidefromtoc: yes
 
 # Get started with the proofing and GenStudio for Performance Marketing integration
 
-We are excited to introduce a new integration between Proofing and GenStudio for Performance Marketing. With this integration, you can 
+With the integration between Proofing and GenStudio for Performance Marketing, you can 
 
-* Use Workfront approval templates to define approval workflows
+* Use Workfront proof templates to define review and approval workflows
 
-* Review GenStudio draft content in the proofing viewer
+* Review and approve GenStudio draft content in the proofing viewer
 
-* See review decisions in GenStudio for final approval and publishing
+* View review decisions in GenStudio for final approval and publishing
 
 
 ## Access requirements
@@ -51,10 +51,6 @@ We are excited to introduce a new integration between Proofing and GenStudio for
    <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Projects</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage or higher permissions on the project</p> </td> 
-  </tr> 
  </tbody> 
 </table>
 
@@ -63,19 +59,15 @@ For more detail about the information in this table, see [Access requirements in
  +++
 
 
-## Prerequisites
+## Integration requirements 
 
 * Workfront and GenStudio for Performance Marketing must be deployed to the same IMS Org.
 
-* A user can be active and enabled in only one Workfront instance within the IMS org in order for the integration to work.
+* Users can belong to only one Workfront instance within the IMS org.
 
-* Workfront instance needs to be enabled on the Adobe Unified Experience.
+* The Workfront instance must be enabled on the Adobe Unified Experience.
 
-* Workfront Setup section is toggled to connect to proof. 
-
-## Integration requirements 
-
-Workfront and GenStudio for Performance Marketing must be deployed to the same IMS Org.
+* The integration must be enabled in the Workfront Setup area.
 
 
 ## Enable the integration in Workfront
@@ -108,14 +100,20 @@ For more information, about automated workflows and templates see
 * [Automated Workflow overview](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
 * [Create and manage Automated Workflow templates](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
 
-## Review GenStudio draft content in the proofing viewer
+## Review and approve GenStudio draft content in the proofing viewer
 
-You can review GenStudio draft content in the proofing viewer. 
+You can review and approve GenStudio draft content directly in GenStudio in the proofing viewer. 
 
-For more information about review and approval in GenStudio, see [link to GS docs]().
+With the proofing viewer, you can 
 
-## See review decisions in GenStudio for final approval and publishing
+* Leave comments
+* Mark-up draft to show what needs to change 
+* Make a decision
 
-Once the asset has gone through the review and approval process, you can view the review decision directly in GenStudio.
+For more information about review and approval in GenStudio, see [Workfront Proof integration with GenStudio for Performance Marketing]().
+
+## View review decisions in GenStudio for final approval and publishing
+
+Once the asset has gone through the review and approval process, you can view the review decision and publish the content directly from GenStudio.
 
 For more information, see [link to GS docs]().
