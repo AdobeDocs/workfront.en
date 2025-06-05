@@ -85,20 +85,37 @@ Workfront and GenStudio for Performance Marketing must be deployed to the same I
 1. Enable **Use proof approvals**. 
 ![enable proofing for GenStudio](assets/enable-proofing-gs.png)
 
-## Use Workfront approval templates to define approval workflows
+## Use Workfront proof templates to define approval workflows
 
-You can use approval templates to automate review and approval workflows in GenStudio. 
+If your organization's content review process is often repeated or is reviewed by the same people, you can use proof templates to automate review and approval workflows. 
 
-For more information, see []().
+You can create simple, single-stage templates for just one or two reviewers, or you can create automated, multi-stage templates for complex reviews with many stages and dependencies.
+
+When a user initiates a review in GenStudio, they simply choose the template they need. Users can easily change any proof workflow template, adding or removing reviewers and stages, at any time. 
+
+With proof workflow templates, you can 
+
+* Add specific users and assign each a designated proof role
+* Set a deadline
+* Choose when a stage activates 
+* Lock stages after they complete
+* Require only one decision
+* Specify a primary decision maker
+* and more
+
+For more information, about automated workflows and templates see 
+
+* [Automated Workflow overview](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
+* [Create and manage Automated Workflow templates](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
 
 ## Review GenStudio draft content in the proofing viewer
 
 You can review GenStudio draft content in the proofing viewer. 
 
-For more information about review and approval in GenStudio, see []().
+For more information about review and approval in GenStudio, see [link to GS docs]().
 
 ## See review decisions in GenStudio for final approval and publishing
 
 Once the asset has gone through the review and approval process, you can view the review decision directly in GenStudio.
 
-For more information, see []().
+For more information, see [link to GS docs]().
