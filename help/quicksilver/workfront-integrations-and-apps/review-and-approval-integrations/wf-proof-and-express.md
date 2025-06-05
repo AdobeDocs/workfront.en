@@ -3,7 +3,7 @@ content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
 title: Get started with the proofing and Creative Cloud Express
-description:  
+description: Get started with the proofing and Creative Cloud Express
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
