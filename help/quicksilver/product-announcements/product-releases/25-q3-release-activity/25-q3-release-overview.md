@@ -212,16 +212,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
-                    </td>
-                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Third Quarter 2025 release timeframe</a></p>
