@@ -7,6 +7,8 @@ description: 'Review and approval integrations: article index'
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: yes
+hidefromtoc: yes
 ---
 
 # Review and approval integrations: article index

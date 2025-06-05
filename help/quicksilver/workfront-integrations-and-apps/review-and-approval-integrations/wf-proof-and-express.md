@@ -24,17 +24,43 @@ We are excited to introduce a new integration between Proofing and Creative Clou
 
 ## Access requirements
 
-Workfront 
++++ Expand to view access requirements for the functionality in this article.
 
-Standard license 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> 
+   <p>Any</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <p>Current: Standard </p> 
+   <p>Legacy: Plan </p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td> 
+   <p> You must have Creative Cloud Express, and you must be added to the product as a user in the Admin Console. </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage or higher permissions on the project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
-With proofing 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Project creation 
-
-PeM 
-
-Full license 
+ +++ 
 
 
 

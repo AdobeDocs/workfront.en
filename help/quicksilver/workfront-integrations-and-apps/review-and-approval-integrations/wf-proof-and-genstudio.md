@@ -7,7 +7,8 @@ description:
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-
+hide: yes
+hidefromtoc: yes
 ---
 
 # Get started with the proofing and GenStudio for Performance Marketing integration
