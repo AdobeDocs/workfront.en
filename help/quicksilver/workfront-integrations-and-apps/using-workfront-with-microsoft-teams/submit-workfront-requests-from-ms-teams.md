@@ -13,7 +13,7 @@ exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
 >
 >As Microsoft transitions to the New Teams client, the Classic Teams client will no longer be available after July 1, 2025. In preparation, we are developing a new version of the Microsoft Teams integration that will be fully compatible with the New Teams client and available before July 1 to ensure a smooth transition.
 >
->Instructions on how to download and install the integration in the New Teams client will appear here after the integration is available.
+>Instructions on how to download and install the integration in the New Teams client will become available after the integration is released.
 
 After your team owner installs [!DNL Adobe Workfront for Microsoft Teams], you can submit [!DNL Workfront] requests from your [!DNL Microsoft Teams] account. To do so, you must have a Workfront account with access to submit requests. For information about installing [!DNL Workfront for Microsoft Teams], see [Installing [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 

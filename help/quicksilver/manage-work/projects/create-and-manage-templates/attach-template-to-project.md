@@ -2,36 +2,41 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Attach a template to a project
-description: You can attach a template to a project either during the initial creation phase of the project or after it has been created.
+description: You can attach a template to a project either during the initial creation phase of the project or after it's been created.
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 ---
 # Attach a template to a project
 
-You can attach a template to a project either during the initial creation phase of the project or after it has been created.
+<!-- Audited: 5/2025 -->
+
+You can attach a template to a project either during the initial creation phase of the project or after it's been created.
 
 For more information about creating a project using a template, see [Create a project using a template](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
 ## Access requirements
 
-You must have the following to perform the steps described in this article:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard</p>
+   <p>Or</p>
+   <p>Current: Plan</p>
+    </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects </p> <p>For information about project access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>.</p> <p>View access to&nbsp;Templates</p> <p>For information about template permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Share a template</a>. </p> <p>For information about template access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Grant access to templates</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects </p> <p>For information about project access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>.</p> <p>View access to&nbsp;Templates</p> <p>For information about template permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Share a template</a>. </p> <p>For information about template access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Grant access to templates</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create and modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -40,7 +45,9 @@ You must have the following to perform the steps described in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+ +++
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -69,24 +76,26 @@ You must have the following to perform the steps described in this article:
 
 ## Attach a template to an existing project {#attach-a-template-to-an-existing-project}
 
-You can attach a template to a project in Workfront from the project page or from a project list or report.
+You can attach a template to a project from the project page or from a project list or report.
 
-1. Go to the project where you want to attach a template and click the **More** icon ![More icon](assets/qs-more-icon-on-an-object.png) to the right of the project name
+{{step1-to-projects}}
 
-   ![More dropdown](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+1. On the **Projects** page, select the project you want to attach a template to.
+
+1. Click the **More** icon ![More icon](assets/qs-more-icon-on-an-object.png) to the right of the project name.
+
+   ![More drop-down](assets/more-dropdown.png)
 
    Or
 
-   Go to a project list or report and select a project then click the **More** icon ![More icon](assets/qs-more-icon-on-an-object.png) at the top of the list.
+   Go to a project list or report and select a project, then click the **More** icon ![More icon](assets/qs-more-icon-on-an-object.png) at the top of the list.
 
-   ![More menu expanded](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![More menu expanded](assets/more-menu-expanded.png)
 
    
-1. Click **Attach Template**.
+1. Click **Attach Template**. The **Attach Template** box displays.
 
-   The Attach Template box displays.
-
-1. Begin typing the name of the template that you want to attach in the **Search Templates** field, then click it when it displays.in the list
+1. Begin typing the name of the template that you want to attach in the **Search Templates** field, then click it when it displays in the list.
 
    Or
 
@@ -96,22 +105,18 @@ You can attach a template to a project in Workfront from the project page or fro
 
    * Duration
    * Owner
-   * The number of top-level tasks (includes a list of the first three top-level tasks)
+   * The number of top-level tasks (includes a list of the first 3 top-level tasks)
    * Total number of tasks 
    * Names of attached custom forms
 
    ![Attach template box](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. (Optional) Click the **Favorites** icon ![Favorites icon](assets/favorites-icon-small.png) to the left of the template name to mark it as a favorite. This moves the template in the Favorites list.
+1. (Optional) Click the **Favorites** icon ![Favorites icon](assets/favorites-icon-small.png) to the right of the template name to mark it as a favorite and move it to the **Favorites** list.
 
-   ![Favorites icon on template list](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+1. (Optional)&nbsp;Click the **Favorites** icon ![Favorites icon](assets/favorites-icon-selected.png) again to remove it from the **Favorites** list. 
+1. Click **Customize and attach**. The **Attach Template** side panel opens.
 
-1. (Optional)&nbsp;Click the **Favorites** icon ![Favorites icon](assets/favorites-icon-selected.png) again to remove it from the Favorites list. 
-1. Click **Customize and attach**.
-
-   ![Attach template](assets/attach-template-large-box-nwe-350x262.png)
-
-1. Update information in the following sections before attaching the template (or, click **Attach Template** at any time):
+1. (Optional) Update information in the following sections:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -126,18 +131,18 @@ You can attach a template to a project in Workfront from the project page or fro
      </tr> 
      <tr> 
       <td role="rowheader">Select the project task you want as the predecessor for the tasks in this template.</td> 
-      <td> <p>Click the field to display a list of project tasks. Select which project task you want finished before the template tasks can start. Alternatively, you can skip this step and set up relationships within the project after the template is attached. </p> <p> Select the <strong>Dependency Type</strong>, <strong>Lag</strong> information, and whether you want the predecessor to be <strong>Enforced</strong> or not. </p> </td> 
+      <td> <p>Click the field to display a list of project tasks, then select which task must finish before the template tasks can start. Alternatively, you can skip this step and set up relationships within the project after the template is attached. </p> <p> Select the <strong>Dependency Type</strong>, <strong>Lag Time</strong> information, and if you want the predecessor to be enforced by checking the <strong>Enforce Predecessor</strong> checkbox. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Select the project task that you want as the parent of the tasks in this template.</td> 
-      <td> Select which project task you want to designate as the parent task for all of the template tasks. If you do not make a selection, all of the template tasks appear at the end of your current project tasks. You can skip this step and move tasks around in the project after the template is attached.</td> 
+      <td> Select which project task you want to designate as the parent task for all of the template tasks. If you don't make a selection, all the template tasks appear at the end of your current project tasks. You can skip this step and move tasks around in the project after the template is attached.</td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">Options section</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-options-section-nwe-350x78.png" style="width: 350;height: 78;"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">The selected items below are transferred to the project. Deselect the ones you want to exclude.</td> 
-      <td> <p>Deselect the check-boxes beside any information you want to clear from the template before attaching it to the project. This information is not transferred from the template to the project. For more information on each field, see <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Overview of attaching a template to a project</a>. </p> <p>Important: If you check the <strong>Queue Properties &amp; Issues Setup</strong> box, the Queue Details of the template overwrite those of the project. In this case, the Routing Rules, Queue Topics, and Topic Groups of the template are added to those of the project. <br>If the project is set up as a request queue and the template you attach to the project is not set up as a request queue, the queue information of the project is removed if you leave the <strong>Queue Properties and Issues Setup</strong> box checked. <br>If you deselect the <strong>Queue Properties and Issue Setup</strong> box, all the Queue Setup settings of the project are preserved and no Queue Setup settings from the template are attached. </p> </td> 
+      <td> <p>Deselect the checkboxes for any information you want to exclude from the template before attaching it to the project. For more information on each field, see <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Overview of attaching a template to a project</a>. </p> <p>Important: If you check the <strong>Queue Properties &amp; Issues Setup</strong> box, the Queue Details of the template overwrite those of the project. In this case, the Routing Rules, Queue Topics, and Topic Groups of the template are added to those of the project. <br>If the project is set up as a request queue and the template you attach to the project isn't set up as a request queue, the project's queue information is removed if you leave the <strong>Queue Properties and Issues Setup</strong> box checked. <br>If you deselect the <strong>Queue Properties and Issue Setup</strong> box, all of the project's Queue Setup settings are preserved and no Queue Setup settings from the template are attached. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">Custom Forms section</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-custom-forms-section-nwe-350x274.png" style="width: 350;height: 274;"> </p> </td> 
@@ -154,7 +159,7 @@ You can attach a template to a project in Workfront from the project page or fro
    >[!TIP]
    >
    >* This step is mandatory when the custom forms on the template contain required fields that are empty. 
-   >* If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template. 
+   >* If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You can't edit them while attaching the template. 
 
 1. Click **Attach Template.**
 1. Click&nbsp;**Cancel attachment** to stop attaching the template.
@@ -165,28 +170,32 @@ You can attach a template to a project in Workfront from the project page or fro
 
    After attaching the template, you can edit the project and adjust any tasks, information, or settings as needed.
 
-1. (Optional) Click&nbsp;**Project Details**, then **Overview** to view the name of the template you attached in the **Project relationships** area.
+1. (Optional) In the left panel, click&nbsp;**Project Details**, then **Overview** to view the name of the template you attached in the **Project relationships** area.
 
    >[!TIP]
    >
-   >If you attach more than one template to the project, only the template you attached first displays in this field. For information, see the [Attach multiple templates to an existing project and view template information](#attach-multiple-templates-to-an-existing-project-and-view-template-information) section in this article.
+   >If you attach more than one template to the project, only the template you attached first will display in this field. For information, see the [Attach multiple templates to an existing project and view template information](#attach-multiple-templates-to-an-existing-project-and-view-template-information) section in this article.
 
 1. (Optional)&nbsp;Remove template information from the project where you attached the template. For information, see [Remove template information from a project](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md).
 
 ## Attach multiple templates to an existing project and view template information {#attach-multiple-templates-to-an-existing-project-and-view-template-information}
 
-You can attach multiple templates (one at a time) to the same project, following the steps described in the section [Attach a template to an existing project](#attach-a-template-to-an-existing-project) in this article. This adds the tasks and other information from each template to the project.
+You can attach multiple templates (one at a time) to the same project following the steps described in the section [Attach a template to an existing project](#attach-a-template-to-an-existing-project) in this article. This adds the tasks and other information from each template to the project.
 
 >[!TIP]
 >
->When you attach several templates to a project, only the one you attached first displays in the Project Details area.
+>When you attach several templates to a project, only the template you attached first will display in the Project Details area.
 
-To understand what template is applied to a project:
+To view which template is applied to a project:
 
-1. Navigate to a project which has a template attached.
+{{step1-to-projects}}
+
+1. On the **Projects** page, select the project that has an attached template.
+
 1. Click **Project Details** in the left panel.
-1. Find the name of the template attached to the project in the **Template** field at the bottom of the **Overview** section under **Project relationships** .
 
-   ![Template info on project](assets/nwe-template-info-on-project-350x356.png)
+1. Locate the name of the template attached to the project in the **Template** field at the bottom of the **Overview** section under **Project relationships**.
+
+   ![Template information on a project](assets/nwe-template-info-on-project-350x356.png)
 
 

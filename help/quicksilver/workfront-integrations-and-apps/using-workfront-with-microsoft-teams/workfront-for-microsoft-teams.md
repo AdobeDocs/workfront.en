@@ -15,7 +15,7 @@ exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
 >
 >As Microsoft transitions to the New Teams client, the Classic Teams client will no longer be available after July 1, 2025. In preparation, we are developing a new version of the Microsoft Teams integration that will be fully compatible with the New Teams client and available before July 1 to ensure a smooth transition.
 >
->Instructions on how to download and install the integration in the New Teams client will appear here after the integration is available.
+>Instructions on how to download and install the integration in the New Teams client will become available after the integration is released.
 
 As a team owner In [!DNL Microsoft Teams], you can install the [!DNL Adobe Workfront for Microsoft Teams] app for your team.
 
