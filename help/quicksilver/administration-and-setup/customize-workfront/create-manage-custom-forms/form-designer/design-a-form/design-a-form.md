@@ -11,6 +11,7 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 ---
 # Create a custom form 
 
+<!-- Audited: 6/2025 -->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -54,31 +55,31 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}
 
-1. Click **Custom Forms** in the left panel.
+1. In the left panel, click **Custom Forms**, then select **Forms**.
 
 1. Click **New Custom Form.**
 1. Select which object types you'd like to attach the custom form to, then click **Continue**.
 
    ![Choose object type](assets/choose-object-type.jpg)
 
-1. In the **Title is required** area, type the custom form title.
-1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the **Add** icon ![Add objects icon](assets/add-objects-icon.png) after **Object Types**, then select the type you want in the menu that displays. You can repeat this to add as many object types as you want. 
+1. In the **Add a form name** area, type the custom form title.
+1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the **Add** icon ![Add objects icon](assets/add-objects-icon.png) next to **Object Types**, then select the type you want in the menu that displays. You can repeat this to add as many object types as you want. 
    
-   You can also click the X on an object type to delete it from the form. 
+    Once you have more than one object added to the form, you can click the X on an object type to delete it from the form. 
 
    >[!CAUTION]
    >
-   >Deleting a custom form also deletes all custom data on the objects associated with the form. The deleted data cannot be recovered. Consider deactivating a custom form instead—when deactivate a custom form you no longer use, you retain all of the associated historical data.
+   >Deleting a custom form also deletes all custom data on the objects associated with the form. The deleted data can't be recovered. Alternatively, you can deactivate a custom form you no longer use, which will retain all of the associated historical data.
    >
    >For more information, see [Add or delete object types from an existing custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md) and [Deactivate or reactivate a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md).
 
 
-1. Next, you can start adding fields to your custom form. See the following sections:
+1. Next, you can start adding fields to your custom form. For more information, see the following sections:
     * [Reuse an existing field or widget already used in another custom form](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
     * [Notes on field names and labels](#notes-on-field-names-and-labels)
     * [Add text fields](#add-text-fields)
     * [Add calculated fields](#add-calculated-fields)
-    * [Add radio buttons, checkbox groups, and dropdowns](#add-radio-buttons-checkboxes-and-dropdowns)
+    * [Add radio buttons, checkbox groups, and drop-downs](#add-radio-buttons-checkbox-groups-and-drop-downs)
     * [Add typeahead and date fields](#add-typeahead-and-date-fields)
     * [Add external lookup fields](#add-external-lookup-fields)
     * [Add images, PDFs, and videos](#add-images-pdfs-and-videos)
@@ -90,14 +91,13 @@ For more detail about the information in this table, see [Access requirements in
 
 You can use new or existing fields when designing your custom form.
 
-Custom forms are limited to 500 fields. A counter on the bottom left displays how many fields are used on the form, and it is always visible as you scroll within the form designer.
+Custom forms are limited to 500 fields. A counter on the bottom left displays how many fields are used on the form, and it's always visible as you scroll within the form designer.
 
 ### Reuse an existing field or widget already used in another custom form
 
-1. On the top-left side of the screen, click **Field library**.
+1. In the upper-left side of the screen, click **Field library**.
 
-1. Drag the field or widget here you want it in the custom form.
-1. (Optional) Repeat the previous step to add any other fields or widgets.
+1. Drag and drop the desired field or widget onto the canvas. Repeat this step to add any other fields or widgets.
 
    >[!NOTE]
    >
@@ -108,30 +108,30 @@ Custom forms are limited to 500 fields. A counter on the bottom left displays ho
 
 1. To save your changes, click **Apply** and move on to another section to continue building your form.
 
-    or
+    Or
 
     Click **Save and Close**. 
 
 ### Notes on field names and labels {#notes-on-field-names-and-labels}
 
-The **label** is available for most fields. It is a descriptive label that appears above the field or widget on the custom form. You can change the label at any time.
+The label is available for most fields. It's a descriptive label that appears above the field or widget on the custom form. You can change the label at any time.
 
 >[!NOTE]
 >
->Avoid using special characters in this label. They don't display correctly in reports.
+>Avoid using special characters in this label as they don't display correctly in reports.
 
-A **name** is required for every field. This name is how the system identifies the custom field when you add it to various areas throughout Workfront, such as reports, Home, and API interactions. When you are configuring the field or widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.
+A name is required for every field. This name is how the system identifies the custom field when you add it to various areas throughout Workfront, such as reports, Home, and API interactions. When you are configuring the field or widget for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.
 
 Each custom field name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form.
 
 >[!NOTE]
 >
->Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.
+>Though it's possible to do so, we recommend that you don't change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.
 >For example, if you add the custom field to a report and later change its name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.
 >
->We recommend that you do not type a name that is already used for built-in Workfront fields.
+>We recommend that you don't type a name that is already used for built-in Workfront fields.
 >
->We recommend that you do not use the period/dot character in the custom field name, to prevent errors when using the field in different areas of Workfront.
+>We recommend that you don't use the period/dot character in the custom field name to prevent errors when using the field in different areas of Workfront.
 
 The following special characters are not supported in custom field labels and names.
 
@@ -151,7 +151,7 @@ The following special characters are not supported in custom field labels and na
 
  You can add several different text fields to a custom form. 
 
-+++ **Expand to see descriptions of available text fields**
++++ Expand to see descriptions of available text fields.
 
 * **Single line text field**: Allows users to type a single line of text in the field.
 * **Paragraph field**: Allows users to type multiple lines of text in the field.
@@ -171,7 +171,7 @@ The following special characters are not supported in custom field labels and na
 
 To add a text field: 
 
-1. On the left side of the screen, find one of the following text fields and drag it to a section on the canvas:
+1. In the **New field** tab on the left side of the screen, find one of the following text fields and drag it to a section on the canvas:
 
     * Single line text
     * Paragraph
@@ -190,7 +190,7 @@ To add a text field:
     </tr>
     <tr>
     <td>Size</td>
-    <td><p>Change the size of the text fields on the form.<p>
+    <td><p>(Optional) Change the size of the text fields on the form.<p>
    </td>
     <td><ul>
     <li>Single line text</li>
@@ -201,8 +201,8 @@ To add a text field:
     </tr>
     <tr>
     <td>Label</td>
-    <td><p>(Required)Type a descriptive label to display above the field. You can change the label at any time.<p>
-    <p>IMPORTANT: Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p></td>
+    <td><p>(Required) Type a descriptive label to display above the field. You can change the label at any time.<p>
+    <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p></td>
     <td><ul>
     <li>Single line text</li>
     <li>Paragraph</li>
@@ -211,7 +211,7 @@ To add a text field:
     </tr>
     <tr>
      <td>Name</td>
-    <td><p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p>
+    <td><p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p>
     <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p>
     </td>
     <td><ul>
@@ -223,7 +223,7 @@ To add a text field:
     </tr>
     <tr>
     <td>Instructions</td>
-    <td>Type any additional information about the field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.
+    <td>Type any additional information about the field. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -234,9 +234,9 @@ To add a text field:
     </tr>
     <tr>
     <td>Format</td>
-    <td><p>Select the type of data that will be captured in the custom field.</p> <p><b>NOTE</b>:   
+    <td><p>Select the type of data that will be captured in the custom field.</p> <p><b>Note</b>:   
     <ul> 
-    <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.</li> 
+    <li>This field can't be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.</li> 
     <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li>
     <li>The character limit for Number fields is 16. You can also use a Text field to enter numbers and avoid the limit.</li>
      </ul></p></td> </td>
@@ -261,12 +261,17 @@ To add a text field:
     <tr> 
       <td role="rowheader">Make a required field</td>
       <td><p>Select this option if you want the field to be required in order for the user to complete the custom form.</p></td>
+    <td><ul>
+    <li>Single line text</li>
+    <li>Paragraph</li>
+    <li>Text with formatting</li>
+    </ul></td> 
     </tr> 
    </table>
 
 1. (Optional) Repeat the previous step to add any other fields or widgets. 
 
-    or
+    Or
 
     To copy a field, hover over a field, and click the copy icon.
 
@@ -274,7 +279,7 @@ To add a text field:
 
 1. To save your changes, click **Apply** and move on to another section to continue building your form.
 
-    or
+    Or
 
     Click **Save and Close**. 
 
@@ -284,26 +289,26 @@ To add a text field:
 
 To add a calculated field, see [Add calculated fields with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-### Add radio buttons, checkbox groups, and dropdowns
+### Add radio buttons, checkbox groups, and drop-downs
 
- You can add radio buttons, checkbox groups, dropdowns, and multi-select dropdowns to a custom form.
+ You can add radio buttons, checkbox groups, drop-downs, and multi-select drop-downs to a custom form.
 
-+++ **Expand to see descriptions of available fields**
++++ Expand to see descriptions of available fields.
 
 * **Radio buttons**: Requires users to select only one choice.
 * **Checkbox group**: Allows users to select multiple choices.
-* **Single-select dropdown**: Provides a list of dropdown choices.
-* **Multi-select dropdown**: Allows users to select multiple choices from a dropdown list.
+* **Single-select dropdown**: Provides a list of drop-down choices.
+* **Multi-select dropdown**: Allows users to select multiple choices from a drop-down list.
 
 +++
 
 >[!NOTE]
 >
->Fields that allow multiple selections, such as the Checkbox Group and Multi-Select Dropdown, are difficult to chart and group in reports. To allow easier charting and grouping in reports, you can create separate fields for each choice (for example, a single-line text field).
+>Fields that allow multiple selections, such as the Checkbox Group and Multi-Select Dropdown, are difficult to chart and group in reports. To allow easier charting and grouping in reports, you can create separate fields for each choice (e.g. a single-line text field).
 
-To add radio buttons, checkbox groups, and dropdowns:
+To add radio buttons, checkbox groups, and drop-downs:
 
-1. On the left side of the screen, find one of the following fields and drag it to a section on the canvas.
+1. In the **New field** tab on the left side of the screen, find one of the following fields and drag it to a section on the canvas:
 
     * Radio buttons
     * Checkbox group
@@ -323,7 +328,7 @@ To add radio buttons, checkbox groups, and dropdowns:
     </tr>
     <tr> 
      <td role="rowheader">Label</td> 
-     <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: </p> <p>Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
+     <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      <td><ul>
     <li>Radio buttons</li>
     <li>Checkbox group</li>
@@ -333,7 +338,7 @@ To add radio buttons, checkbox groups, and dropdowns:
      </tr> 
      <tr> 
     <td role="rowheader">Name</td> 
-     <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> 
+     <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p> 
     <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
      <td><ul>
     <li>Radio buttons</li>
@@ -344,7 +349,7 @@ To add radio buttons, checkbox groups, and dropdowns:
     </tr> 
     <tr> 
     <td role="rowheader">Instructions</td> 
-    <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p> 
+    <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</p> 
     <p>  <img src="assets/instructions-form-designer.png"> </p>
     </td> 
     <td><ul>
@@ -356,9 +361,9 @@ To add radio buttons, checkbox groups, and dropdowns:
     </tr> 
     <tr> 
     <td role="rowheader">Format</td> 
-    <td> <p>Select the type of data that will be captured in the custom field.</p> <p><b>NOTE</b>:   
+    <td> <p>Select the type of data that will be captured in the custom field.</p> <p><b>Note</b>:   
      <ul> 
-    <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.<br></li> 
+    <li>This field can't be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.<br></li> 
     <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li>
     <li>The character limit for Number fields is 16. You can also use a Text field to enter numbers and avoid the limit.</li>
      </ul></p></td> 
@@ -371,7 +376,7 @@ To add radio buttons, checkbox groups, and dropdowns:
     </tr> 
     <tr> 
      <td role="rowheader">Display Type</td> 
-    <td>Switch between radio buttons, checkbox group, single-select dropdown, or multi-select dropdown for the field.</td> 
+    <td>Switch between radio buttons, checkbox group, single-select drop-down, or multi-select drop-down for the field.</td> 
     <td><ul>
     <li>Radio buttons</li>
     <li>Checkbox group</li>
@@ -379,7 +384,30 @@ To add radio buttons, checkbox groups, and dropdowns:
     <li>Multi-select dropdown</li>
     </ul></td>
     </tr> 
-     <tr> 
+    <td role="rowheader">Choices </td> 
+    <td> 
+    <p>Select any of the following options:</p> 
+    <ul> 
+    <li><strong>Show Values</strong>: Shows the values of each choice in the field. The label of each choice shows by default.</li>
+   <li><strong>Sort Choices A-Z</strong>: Sorts the choices you add alphabetically in the field.</li>
+    </ul>
+     <p>For each choice you add for the user, click the gear icon <img src="assets/gear-icon-settings.png">, then select one of the following options:</p> 
+    <ul> 
+    <li><strong>Select by Default</strong>: Select the choice by default in the field.</li> 
+    <li> <p><strong>Hide Choice</strong>: Hide the choice in the field. Hidden choices remain accessible in reports.</p> </li> 
+    <li> <p><strong>Remove Choice</strong>: Remove the choice from the field.</p> <p><b>Warning</b>:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
+    </ul>   
+    <p><b>Note:</b> There is no limit for how many choices you can select. </p>    
+    </td> 
+    <td><ul>
+    <li>Radio buttons</li>
+    <li>Checkbox group</li>
+    <li>Single-select dropdown</li>
+    <li>Multi-select dropdown</li>
+    </ul>
+    </td>
+     </tr> 
+          <tr> 
     <td role="rowheader">Make a required field</td> 
     <td>Select this option if you want the field to be required in order for the user to complete the custom form. </td> 
     <td><ul>
@@ -390,49 +418,20 @@ To add radio buttons, checkbox groups, and dropdowns:
     </ul></td>
      </tr> 
     <tr> 
-    <td role="rowheader">Choices </td> 
-    <td> 
-    <ol> 
-    <li> <p>Click <b>Options</b>, then enable any of the following:</p> 
-    <ul> 
-    <li><strong>Show Values</strong>: Shows the values of each choice in the field. The label of each choice shows by default.</li> 
-     <li><strong>Sort Choices A-Z</strong>: Sorts the choices you add alphabetically in the field.</li> 
-    </ul> 
-    </li> 
-    <li> <p>For each choice you add for the user, click the gear icon <img src="assets/gear-icon-settings.png">, then select one of the following options:</p> 
-    <ul> 
-    <li><strong>Select by Default</strong>: Select the choice by default in the field.</li> 
-    <li> <p><strong>Hide Choice</strong>: Hide the choice in the field. Hidden choices remain accessible in reports.</p> </li> 
-    <li> <p><strong>Remove Choice</strong>: Remove the choice from the field.</p> <p><b>WARNING</b>:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
-    </ul> 
-     </li> 
-    </ol> 
-    
-    <p><b>NOTE:</b></p>
-    <p>There is no limit for how many choices you can select. </p>    
-    </td> 
-    <td><ul>
-    <li>Radio buttons</li>
-    <li>Checkbox group</li>
-    <li>Single-select dropdown</li>
-    <li>Multi-select dropdown</li>
-    </ul>
-    </td>
-     </tr> 
     </tbody> 
     </table>
 
 1. (Optional) Repeat the previous step to add any other fields or widgets. 
 
-    or
+    Or
 
     To copy a field, hover over a field, and click the copy icon.
     
-    ![copy icon](assets/copy-field.png)
+    ![Copy icon](assets/copy-field.png)
 
 1. To save your changes, click **Apply** and move on to another section to continue building your form.
 
-    or
+    Or
 
     Click **Save and Close**.
 
@@ -440,7 +439,7 @@ To add radio buttons, checkbox groups, and dropdowns:
 
  You can add typeahead and date fields to a custom form.
 
-+++ **Expand to see descriptions of available fields**
++++ Expand to see descriptions of available fields.
 
 * **Typeahead**: Allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing. This field type supports the following objects:
     * User
@@ -458,7 +457,7 @@ To add radio buttons, checkbox groups, and dropdowns:
 
 To add typeahead and date fields:
 
-1. On the left side of the screen, find one of the following fields and drag it to a section on the canvas.
+1. In the **New field** tab on the left side of the screen, find one of the following fields and drag it to a section on the canvas.
 
     * Typeahead
     * Date
@@ -476,7 +475,7 @@ To add typeahead and date fields:
     </tr>
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
+      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
        <td><ul>
     <li>Typeahead</li>
     <li>Date</li>
@@ -484,7 +483,7 @@ To add typeahead and date fields:
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> 
+      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p> 
       <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
     <td><ul>
     <li>Typeahead</li>
@@ -493,7 +492,7 @@ To add typeahead and date fields:
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
-      <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p> 
+      <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</p> 
       <p> <img src="assets/instructions-form-designer.png"> </p>
       </td> 
          <td><ul>
@@ -510,9 +509,9 @@ To add typeahead and date fields:
      </tr> 
      <tr> 
       <td role="rowheader">Referenced Object Type</td> 
-      <td> <p>Select the object type that you want to associate with the field.</p> <p>Once you have clicked Apply or Save+Close, you cannot change the object type for the field.</p> <p><b>NOTE</b>:   
+      <td> <p>Select the object type that you want to associate with the field.</p> <p>Once you have clicked <b>Apply</b> or <b>Save and Close</b>, you can't change the object type for the field.</p> <p><b>Note</b>:   
         <ul> 
-         <li>If your Workfront administrator customized the name for Portfolios, Programs, or Projects in the Workfront user interface, the default Workfront name for the object appears in this dropdown list, not the customized name. See your Workfront administrator if you need help with this.<br></li> 
+         <li>If your Workfront administrator customized the name for Portfolios, Programs, or Projects in the Workfront user interface, the default Workfront name for the object appears in this drop-down list, not the customized name. See your Workfront administrator if you need help with this.<br></li> 
          <li>The following object types are supported in the iOS and Android Workfront Mobile Apps: User, Company, Group, Job Role, Portfolio, Program, Project, and Template.</li> 
         </ul> </p> </td> 
          <td><ul>
@@ -521,13 +520,13 @@ To add typeahead and date fields:
      </tr>
      <tr>
       <td role="rowheader">Add Filter</td>
-      <td><p>Add a filter for an object type to limit the objects users can choose when they are using the field. </p> <p>For example, you could limit a field so that user names can be selected only if they meet the following criteria:</p> 
+      <td><p>Add a filter for an object type to limit the objects users can choose when they are using the field. </p> <p>For example, you could limit a field so that usernames can be selected only if they meet the following criteria:</p> 
        <ul> 
-        <li>They belong to a group or groups that you specify</li> 
-        <li>They are associated with a role or job title you specify</li> 
-        <li>They belong to the same group as the person using the field</li> 
+        <li>They belong to a group or groups that you specify.</li> 
+        <li>They are associated with a role or job title you specify.</li> 
+        <li>They belong to the same group as the person using the field.</li> 
        </ul> <p>You must define the filter for the object type you selected using Text Mode syntax. For information about creating a filter using Text Mode, see <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Edit a filter using text mode</a>.</p>
-       <p><b>NOTE</b>:
+       <p><b>Note</b>:
        <ul> 
         <li>If you are editing an existing custom form, adding a filter to a Typeahead field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
         <li>This filter is not available on mobile devices. If you use the filter for a Typeahead field, the field will appear on users' mobile devices unaffected by the filter.</li> 
@@ -551,7 +550,7 @@ To add typeahead and date fields:
 
 1. (Optional) Repeat the previous step to add any other fields or widgets. 
 
-    or
+    Or
 
     To copy a field, hover over a field, and click the copy icon.
 
@@ -559,13 +558,13 @@ To add typeahead and date fields:
 
 1. To save your changes, click **Apply** and move on to another section to continue building your form.
 
-    or
+    Or
 
     Click **Save and Close**.
 
 ### Add external lookup fields
 
-An external lookup field calls an external API and returns values as options in a dropdown field. Users who work with the object the custom form is attached to can select one or more of these options from the dropdown. The external lookup field is also available in lists and reports.
+An external lookup field calls an external API and returns values as options in a drop-down field. Users who work with the object the custom form is attached to can select one or more of these options from the drop-down. The external lookup field is also available in lists and reports.
 
 For examples of using the External lookup field to call the same instance of Workfront or a public API, see [Examples of the External lookup field in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
@@ -576,7 +575,7 @@ For examples of using the External lookup field to call the same instance of Wor
 
 To add an external lookup:
 
-1. On the left side of the screen, find **External lookup** and drag it to a section on the canvas.
+1. In the **New field** tab on the left side of the screen, find **External lookup** and drag it to a section on the canvas.
 1. On the right side of the screen, configure the options for the custom field:
 
    <table style="table-layout:auto"> 
@@ -585,20 +584,20 @@ To add an external lookup:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
+      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p>
+      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the option to change the label that your users see without having to change the name that the system sees.</p>
       <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instructions</td> 
-      <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p> </td> 
+      <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Format</td>
       <td><p>Select the type of data that will be captured in the custom field.</p>
-      <p><strong>NOTE:</strong></p>
+      <p><strong>Note:</strong></p>
       <ul><li>You can change the format type after the form is saved, with one limitation: All existing values on objects must be able to be converted to the new type. (For example, if the format type is Text, and an object is storing the value "abc," you cannot convert the field and will get an error that the system cannot convert "abc" to number/currency.) If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.</li>
       <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li>
       <li>The character limit for Number fields is 16. You can also use a Text field to enter numbers and avoid the limit.</li>
@@ -606,16 +605,16 @@ To add an external lookup:
      </tr> 
      <tr> 
       <td role="rowheader">Base API URL</td> 
-      <td><p>Type or paste the URL for the API.</p><p>The API URL must return a JSON content of the options that you would like to show in the dropdown. You can use the JSON Path field to select the specific values from the returned JSON to be dropdown options.</p><p>When entering the API URL, you can optionally pass the following values in the URL:</p>
+      <td><p>Type or paste the URL for the API.</p><p>The API URL must return a JSON content of the options that you would like to show in the drop-down. You can use the JSON Path field to select the specific values from the returned JSON to be drop-down options.</p><p>When entering the API URL, you can optionally pass the following values in the URL:</p>
       <ul>
-      <li>$$HOST - This represents the current Workfront host and can be used to make /search API calls to the Workfront API. When this wildcard is used, the authentication is handled and users don't need to send authentication headers. (For example, users can search tasks using the base URL <code>$$HOST/attask/api/task/search</code> and it will allow searching tasks and selecting values from a returned list of tasks.)</li>
-      <li><p>$$QUERY - This represents the search text that the end user types in the field and allows you to implement query filtering for your end users. (The user will search for the value in the dropdown.)</p>
+      <li>$$HOST - This represents the current Workfront host and can be used to make/search API calls to the Workfront API. When this wildcard is used, the authentication is handled and users don't need to send authentication headers. (For example, users can search tasks using the base URL <code>$$HOST/attask/api/task/search</code> and it will allow searching tasks and selecting values from a returned list of tasks.)</li>
+      <li><p>$$QUERY - This represents the search text that the end user types in the field and allows you to implement query filtering for your end users. (The user will search for the value in the drop-down.)</p>
       <p>If the API you are referencing allows it, you can also include modifiers in your search query to identify how the search should work. For example, you can use the following as the Base API URL to allow people to search for any Workfront projects that contain specific text: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Learn more about the Workfront search modifiers in <a href="/help/quicksilver/wf-api/general/api-basics.md">API Basics</a>.</p>
-      <p><strong>NOTE:</strong> If you are not using $$QUERY and the user types text in the search box, it will narrow down the choices you already have. However, if you use $$QUERY and the user types anything, a new network call to your API is performed. Therefore, if you have more than 2000 values in your API, and the API supports querying, you can utilize $$QUERY to not only search from the existing 2000 values, but from the original API with the narrowed down options.</p></li>
-      <li><p>{fieldName} - Where fieldName is any custom or native field in Workfront. This way you can implement cascading dropdown option filters, when you pass the value of an already selected field to the External lookup field to filter down options. (For example, the Region field already exists on the form and you are narrowing a list of countries from the API to those that are in a specific region.)</p>
+      <p><strong>Note:</strong> If you are not using $$QUERY and the user types text in the search box, it will narrow down the choices you already have. However, if you use $$QUERY and the user types anything, a new network call to your API is performed. Therefore, if you have more than 2000 values in your API, and the API supports querying, you can utilize $$QUERY to not only search from the existing 2000 values, but from the original API with the narrowed down options.</p></li>
+      <li><p>{fieldName} - Where fieldName is any custom or native field in Workfront. This way you can implement cascading drop-down option filters, when you pass the value of an already selected field to the External lookup field to filter down options. (For example, the Region field already exists on the form and you are narrowing a list of countries from the API to those that are in a specific region.)</p>
       <p>For an external lookup field that has a dependency on other fields (using the {fieldName} syntax), the options returned from the API are limited to those that match any strings or values entered in the other fields. (This functionality is not supported in lists and reports.)</p></li>
       <li>{referenceObject}.{fieldName} – Where the field is part of an object. This syntax is similar to custom expressions. (For example, portfolioID={project}.{portfolioID})</li></ul>
-      <p><strong>NOTE:</strong> Review the documentation for the API you are working with for the specific queries you can define.</p></td>
+      <p><strong>Tip:</strong> Review the documentation for the API you are working with for the specific queries you can define.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">HTTP Method</td> 
@@ -623,7 +622,7 @@ To add an external lookup:
      </tr>
      <tr> 
       <td role="rowheader">JSON Path</td>
-      <td><p>Type or paste the JSON path for the API.</p> <p>This option allows extracting data from the JSON returned by the API URL. It serves as a way to select which values from inside the JSON will appear in the dropdown options.</p><p>For example, if your API URL returns JSON in this format:</br>
+      <td><p>Type or paste the JSON path for the API.</p> <p>This option allows extracting data from the JSON returned by the API URL. It serves as a way to select which values from inside the JSON will appear in the drop-down options.</p><p>For example, if your API URL returns JSON in the following format, then you can use "$.data[*].name" to select USA and Canada as drop-down options:</br>
       <pre>
       {
        data: {
@@ -633,15 +632,15 @@ To add an external lookup:
       }
       </pre>
       </p>
-      <p>then you can use "$.data[*].name" to select USA and Canada as dropdown options.</p> <p>For more information about the JSON Path and ensuring you write the correct JSON Path, refer to <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+     <p>For more information about the JSON Path and ensuring you write the correct JSON Path, refer to <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Headers</td>
-      <td><p>Click <strong>Add Header</strong>, and type or paste the key-value pair required for authentication with the API.</p><p><strong>NOTE:</strong> The Header fields are not a secure place to store credentials, and you should be careful of what you enter and save.</p></td>
+      <td><p>Click <strong>Add Header</strong>, then type or paste the key-value pair required for authentication with the API.</p><p><strong>Note:</strong> The Header fields are not a secure place to store credentials, and you should be careful of what you enter and save.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader">Multi-Select Dropdown</td>
-      <td><p>Select this option to allow the user to select more than one value in the dropdown.</p></td>
+      <td role="rowheader">Multi-select dropdown</td>
+      <td><p>Select this option to allow the user to select more than one value in the drop-down.</p></td>
      </tr>
      </tr>
      <tr> 
@@ -653,7 +652,7 @@ To add an external lookup:
 
 1. To save your changes, click **Apply** and move on to another section to continue building your form.
 
-    or
+    Or
 
     Click **Save and Close**.
 
@@ -669,10 +668,10 @@ To add an external lookup:
 
 ### Add images, PDFs, and videos
 
- You can add an images, PDFs, and videos to a custom form. Users who work with the object the custom form is attached to can see the image, PDF, or video only in the following areas:
+ You can add images, PDFs, and videos to a custom form. Users who work with the object the custom form is attached to can see the image, PDF, or video only in the following areas:
 
-* The object's Details area (for example, for a project, the Project Details area)
-* The Edit box for the object, if it has the new Adobe Workfront experience look and feel (for example, the Edit Project and Edit Task boxes)
+* The object's Details area (for example, for a project, the Project Details area).
+* The Edit box for the object, if it has the new Adobe Workfront experience look and feel (for example, the Edit Project and Edit Task boxes).
 
 <!-- Do we need to tell them where they can't see it if we tell them where they can see it?
 Currently, users cannot see the widget in the following areas:​
@@ -681,7 +680,7 @@ Home and Summary
 The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
 The Workfront Mobile app -->
 
- +++ **Expand to see descriptions of available fields**
+ +++ Expand to see descriptions of available fields.
 
 * **Image**: Allows users to add image files.
 * **PDF**: Allows users to add PDFs
@@ -691,7 +690,7 @@ The Workfront Mobile app -->
 
  To add images, PDFs, or videos:
 
-1. On the left side of the screen, find one of the following fields and drag it to a section on the canvas.
+1. In the **New field** tab on the left side of the screen, find one of the following fields and drag it to a section on the canvas.
 
    * Image
    * PDF
@@ -705,13 +704,17 @@ The Workfront Mobile app -->
     <col> 
     <col> 
     <tbody> 
+         <tr> 
+      <td role="rowheader">Size</td> 
+      <td>(Optional) Change the display size of the widget as needed.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the widget. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
+      <td> <p>(Required) Type a descriptive label to display above the widget. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Required) This name is how the system identifies the widget. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
+      <td> <p>(Required) This name is how the system identifies the widget. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p> <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -727,18 +730,14 @@ The Workfront Mobile app -->
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
-      <td> <p>Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Size</td> 
-      <td>Change the display size of the widget as needed.</td> 
+      <td> <p>Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. (Optional) Repeat the previous step to add any other fields or widgets. 
 
-    or
+    Or
 
     To copy a field, hover over a field, and click the copy icon.
 
@@ -746,7 +745,7 @@ The Workfront Mobile app -->
 
 1. To save your changes, click **Apply** and move on to another section to continue building your form.
 
-    or
+    Or
 
     Click **Save and Close**. 
 
@@ -762,7 +761,7 @@ The Workfront Mobile app -->
 1. In the custom form where you are adding the video widget, paste the copied address in the **URL** box.
 1. To save your changes, click **Apply** and move on to another section to continue building your form.
 
-    or
+    Or
 
     Click **Save and Close**.
 
@@ -770,7 +769,7 @@ The Workfront Mobile app -->
 
 You can add Workfront native fields to your custom forms. When the custom form is attached to an object, the field is populated from the object data. For example, the Description field on a custom form attached to a project will pull in the project description. (The field may show "N/A" if no data is available.)
 
-+++ **Expand to see the list of supported native fields**
++++ Expand to see the list of supported native fields.
 
 This table lists the available native fields for specific Workfront objects in a custom form.
 
@@ -817,25 +816,29 @@ This table lists the available native fields for specific Workfront objects in a
 
 +++
 
-1. On the left side of the screen, find **Native field reference** and drag it to a section on the canvas.
+1. In the **New field** tab on the left side of the screen, find **Native field reference** and drag it to a section on the canvas.
 1. On the right side of the screen, configure the options for the custom field:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+         <tr> 
+      <td role="rowheader">Size</td> 
+      <td>(Optional) Change the display size of the field as needed.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
+      <td> <p>(Required) Type a descriptive label to display above the field. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name</td>
-      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p>
+      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p>
       <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
-      <td> <p>Type any additional information about the field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</td> 
+      <td> <p>Type any additional information about the field. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Reference Field</td> 
@@ -843,18 +846,18 @@ This table lists the available native fields for specific Workfront objects in a
      </tr>
      <tr>
       <td role="rowheader">Add Filter</td>
-      <td><p>Add a filter for the reference field to limit the list of items users can choose from when they are using the field. </p> <p>For example, you could limit a field so that user names can be selected only if they meet the following criteria:</p> 
+      <td><p>Add a filter for the reference field to limit the list of items users can choose from when they are using the field. </p> <p>For example, you could limit a field so that usernames can be selected only if they meet the following criteria:</p> 
        <ul>
-        <li>They belong to a group or groups that you specify</li> 
-        <li>They are associated with a role or job title you specify</li> 
-        <li>They belong to the same group as the person using the field</li> 
+        <li>They belong to a group or groups that you specify.</li> 
+        <li>They are associated with a role or job title you specify.</li> 
+        <li>They belong to the same group as the person using the field.</li> 
        </ul>
-       <p>You must define the filter for the reference field you selected using Text Mode syntax. For information about creating a filter using Text Mode, see <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Edit a filter using text mode</a>.</p>
-       <p><b>NOTE</b>:
+       <p>You must define the filter for the reference field you selected using Text Mode syntax. For information, see <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Edit a filter using text mode</a>.</p>
+       <p><b>Note</b>:
        <ul> 
         <li>The filter option is only available when you reference a native typeahead field, such as Portfolio, Company, or Owner.</li>
-        <li>If you are editing an existing custom form, adding a filter to a native field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
-        <li>This filter is not available on mobile devices. If you use the filter for a native field, the field will appear on users' mobile devices unaffected by the filter.</li> 
+        <li>If you are editing an existing custom form, adding a filter to a native field doesn't remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
+        <li>This filter isn't available on mobile devices. If you use the filter for a native field, the field will appear on users' mobile devices unaffected by the filter.</li> 
         </ul></p></td> 
       <td>
      </tr>
@@ -862,16 +865,12 @@ This table lists the available native fields for specific Workfront objects in a
       <td role="rowheader">Make a required field</td>
       <td><p>Select this option if you want the field to be required in order for the user to complete the custom form.</p></td>
      </tr> 
-     <tr> 
-      <td role="rowheader">Size</td> 
-      <td>(Optional) Change the display size of the field as needed.</td> 
-     </tr> 
     </tbody> 
    </table>
 
 1. To save your changes, click **Apply** and move on to another section to continue building your form.
 
-    or
+    Or
 
     Click **Save and Close**.
 
@@ -884,43 +883,43 @@ This table lists the available native fields for specific Workfront objects in a
 
  To add an Adobe XD file:
 
-1. On the left side of the screen, find **Adobe XD** and drag it to a section on the canvas. 
+1. In the **New field** tab on the left side of the screen, find **Adobe XD** and drag it to a section on the canvas. 
 1. Type or edit any of the following properties for the widget:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+         <tr> 
+      <td role="rowheader">Size</td> 
+      <td>(Optional) Change the display size of the widget as needed.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the widget. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
+      <td> <p>(Required) Type a descriptive label to display above the widget. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Required) This name is how the system identifies the widget. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p>
+      <td> <p>(Required) This name is how the system identifies the widget. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p>
     <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Required) Type or paste a valid XD prototype link.</p> 
-      <p>Note: The Link Access setting on the Share tab in Adobe XD must be set to Anyone with the link. Otherwise, users will not be able to view the prototype. 
+      <p><b>Note</b>: The Link Access setting on the Share tab in Adobe XD must be set to Anyone with the link. Otherwise, users will not be able to view the prototype. 
    </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
-      <td> <p>Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.
+      <td> <p>Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.
     <img src="assets/instructions-form-designer.png"></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Size</td> 
-      <td>(Optional) Change the display size of the widget as needed.</td> 
      </tr> 
     </tbody> 
    </table>
 
 1. (Optional) Repeat the previous step to add any other fields or widgets. 
 
-    or
+    Or
 
     To copy a field, hover over a field, and click the copy icon.
 
@@ -928,7 +927,7 @@ This table lists the available native fields for specific Workfront objects in a
 
 1. To save your changes, click **Apply** and move on to another section to continue building your form.
 
-    or
+    Or
 
     Click **Save and Close**.
 
@@ -958,26 +957,30 @@ You can add the Planning connection field to all objects' custom forms. However,
 
 To add a Planning connection field:
 
-1. On the left side of the screen, find **Planning connection** and drag it to a section on the canvas. 
+1. In the **New field** tab on the left side of the screen, find **Planning connection** and drag it to a section on the canvas. 
 1. On the right side of the screen, configure the options for the custom field:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+    <tr> 
+      <td role="rowheader">Size</td> 
+      <td>(Optional) Change the display size of the widget as needed.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the field. You can change the label at any time.</p> <p><b>IMPORTANT</b>:</p> <p>Avoid using special characters in this label.</p> 
-      <p>We recommend that you choose a label by which you can easily identify where the Planning record is coming from. Add information like the name of the workspace or the name of the record type. </p>   </td> 
+      <td> <p>(Required) Type a descriptive label to display above the field. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label.</p> 
+      <p>We recommend you choose a label that helps you easily identify where the Planning record is coming from. Add information like the name of the workspace or the name of the record type. </p>   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name</td>
-      <td> <p>(Required) The name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p></td> 
+      <td> <p>(Required) The name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
-      <td> <p>(Recommended) Type any additional information about the field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p>
-      <p>Here, you can add explicit information about the record and the objects you are connecting. </p>
+      <td> <p>(Recommended) Type any additional information about the field. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</p>
+      <p>Here, you can add detailed information about the record and the objects you are connecting. </p>
       </td> 
      </tr> 
      <tr> 
@@ -986,7 +989,7 @@ To add a Planning connection field:
       You may select from the following object types:
       <ul><li> Project</li>
       <li> Portfolio</li><li> Program</li><li> Company</li><li> Group</li></ul>
-       <p>Only Workfront object types for the form's object types are available.</p> <p> For example, if the Object Types list at the top of the form designer shows Project, you can only select Project in this field, and you cannot select Portfolios, although portfolios can also be connected to record types.</p>
+       <p>Only Workfront object types for the form's object types are available.</p> <p> For example, if the Object Types list at the top of the form designer shows Project, you can only select Project in this field and not Portfolios, although portfolios can also be connected to record types.</p>
       </td>
      </tr>
      <tr> 
@@ -994,12 +997,12 @@ To add a Planning connection field:
       <td> <p>(Required) Select the Planning workspace where the records you want to display in Workfront come from.</p> <p> Only workspaces that are connected to the object types you selected in the Object type field display. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Record Type</td> 
+      <td role="rowheader">Record type</td> 
       <td><p>(Required) Select the Workfront Planning record type that has a connection with the Workfront object type.</p><p>Only record types that have connections to the object type you selected in the Object type field display. </p></td> 
      </tr>
      <tr> 
       <td role="rowheader">Connection field</td> 
-      <td><p>(Required) Select the connection field between the selected Planning record type that you want to display on the Workfront objects and the Workfront object type. </p> <p> <b>NOTE</b></p><p>You can have multiple connection fields between the same object and record types, but you can select only one field.</p>  </td> 
+      <td><p>(Required) Select the connection field between the selected Planning record type that you want to display on the Workfront objects and the Workfront object type. </p> <p> <b>Note</b>: You can have multiple connection fields between the same object and record types, but you can select only one field.</p>  </td> 
      </tr>
 
 <tr> 
@@ -1012,7 +1015,7 @@ To add a Planning connection field:
 
 1. (Optional) Repeat the previous steps to add any other fields. 
 
-    or
+    Or
 
     To copy a field, hover over a field, and click the copy icon.
 
@@ -1020,7 +1023,7 @@ To add a Planning connection field:
 
 1. To save your changes, click **Apply** and move on to another section to continue building your form.
 
-    or
+    Or
 
     Click **Save and Close**.
 
