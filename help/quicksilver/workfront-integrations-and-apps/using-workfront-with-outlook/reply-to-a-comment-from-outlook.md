@@ -19,7 +19,6 @@ exl-id: 36239da6-b5f2-423c-9e81-af78bc31bf26
 
 When you receive a [!DNL Adobe Workfront] email notification in your [!DNL Outlook] inbox, you can quickly post a comment to [!DNL Workfront] simply by replying to the notification within Outlook.
 
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article:

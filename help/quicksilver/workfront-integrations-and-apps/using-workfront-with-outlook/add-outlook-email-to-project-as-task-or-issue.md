@@ -17,7 +17,6 @@ exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
 >
 >As part of this change, Microsoft has made the decision to change the way tokens are re-enabled. After **June 30, 2025**, admins will no longer be able to re-enable tokens themselves—only Microsoft Support can grant exceptions. **On October 1, 2025, legacy tokens will be turned off for all tenants. Exceptions will not be granted.**  
 
-
 You can convert emails to [!DNL Adobe Workfront] tasks or issues. After an email is converted, the task or issue appears on the project that is selected as you are converting it. 
 
 ## Access requirements
