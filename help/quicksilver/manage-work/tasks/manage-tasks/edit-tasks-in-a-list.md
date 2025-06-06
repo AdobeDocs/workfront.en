@@ -118,7 +118,7 @@ Consider the following when saving your task list changes automatically:
 
 To edit tasks in a list and save changes automatically:
 
-{{step-1-to-projects}}
+{{step1-to-projects}}
 
 1. On the **Projects** page, select a project.
 1. In the left panel, click the **Tasks** section.
@@ -227,7 +227,7 @@ Consider the following when updating tasks in a list after selecting the Manual 
 
 To edit tasks in a list when selecting the Manual save Standard option:
 
-{{step-1-to-projects}}
+{{step1-to-projects}}
 
 1. On the **Projects** page, select a project.
 
@@ -315,7 +315,7 @@ Consider the following when using the Manual save Timeline Planning option in a 
 To edit tasks in a list when using the Manual save Timeline Planning option:
 
 
-{{step-1-to-projects}}
+{{step1-to-projects}}
 
 1. On the **Projects** page, select a project.
 
@@ -407,7 +407,7 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
 
 ## Edit a task in a list using the Summary
 
-{{step-1-to-projects}}
+{{step1-to-projects}}
 
 1. On the **Projects** page, select a project.
 
@@ -448,7 +448,7 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
 
 You can edit multiple tasks all at once. Ensure you have manage permissions to the tasks to be able to edit them.
 
-{{step-1-to-projects}}
+{{step1-to-projects}}
 
 1. On the **Projects** page, select a project.
 1. In the left panel, click the **Tasks** section.
