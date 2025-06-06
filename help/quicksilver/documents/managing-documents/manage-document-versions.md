@@ -9,6 +9,8 @@ exl-id: 477153e4-847b-46ec-8107-72a7399c3767
 ---
 # Manage document versions
 
+<!-- Audited: 5/2025 -->
+
 You can manage multiple versions of a document in Workfront.
 
 ## Access requirements
@@ -22,15 +24,21 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront licenses*</td> 
-   <td> <p>Request or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront licenses</td> 
+   <td> 
+   <p>New: Contributor or higher<p>
+   <p>Or</p>
+   <p>Current: Request or higher </p>
+   
+   
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>View access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -40,7 +48,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -52,27 +60,47 @@ You must have the following:
 
 ## View a list of all versions of a document
 
-1. In the Summary, scroll to the view the **All Versions** section. Here you can view all of the versions of the document.
+{{step1-to-documents}}
+
+1. On the **Documents** page, select a document in the list. 
+
+1. In the upper-right corner of the page, click the **Open Summary** icon ![Open Summary icon](assets/qs-summary-in-new-toolbar-small.png). The **Document Summary** side panel opens.
+
+1. Scroll down to the **Versions** section to view all the document versions.
 
 ## View and manage details for a previous document version
 
-1. Near the top of the Document Details page, click the drop-down menu next to the name, then click the name of the version you want to view and manage.
+{{step1-to-documents}}
 
-   ![Version dropdown in document details](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+1. Hover over the document, then click **Document Details**.
 
-   Along with viewing the version's Details, you can make changes to the version, such as its name, metadata, and proofing settings (if it's a document proof).
+1. Near the top of the **Document Details** page, click the drop-down menu next to the name, then click the name of the version you want to view and manage.
+
+   ![Version drop-down on the Document Details page](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+
+   Along with viewing the version's details, you can make changes to the version, such as its name, metadata, and proofing settings (if it's a document proof).
 
 ## Download a single document version
 
-1. In the Summary, under **Versions**, click the click the More menu ![More menu](assets/more-icon.png) to the right of the version, then click **Download** in the drop-down list that appears.
+{{step1-to-documents}}
+
+1. On the **Documents** page, select a document in the list. 
+
+1. In the upper-right corner of the page, click the **Open Summary** icon ![Open Summary icon](assets/qs-summary-in-new-toolbar-small.png). The **Document Summary** side panel opens.
+
+1. In the **Versions** section, click the click the **More** menu ![More menu](assets/more-icon.png) to the right of the version, then click **Download** in the drop-down list that appears.
 
    ![Download a single document](assets/more-versions-350x143.png)
 
 ## Download all versions of a document
 
-1. Click **Document Details**, then select **All Versions** in the left panel.
+{{step1-to-documents}}
 
-1. Click **Download All** at the top of the list.
+1. On the **Documents** page, select a document in the list. 
+
+1. In the upper-right corner of the page, click the **Open Summary** icon ![Open Summary icon](assets/qs-summary-in-new-toolbar-small.png). The **Document Summary** side panel opens.
+
+1. Scroll down to the **Versions** section and then click **Download All**.
 
 ## Delete a document version
 
@@ -84,7 +112,7 @@ If you upload a version of a document by mistake, or a version is no longer need
 
 Keep the following in mind when you consider deleting a document version:
 
-* Only one version can be deleted at a time. If a version is deleted, this action appears in the **Updates** on the document . 
+* Only one version can be deleted at a time. If a version is deleted, this action appears in the Updates section on the document. 
 * If you upload a new version after deleting a version, the new version receives the next sequential number. For example, if there are 3 versions of a document and you delete version 3, the next document uploaded will be version 4.
 * System updates and comments made on a version are retained in Workfront after the version is deleted.
 
@@ -94,9 +122,18 @@ Keep the following in mind when you consider deleting a document version:
 
 To delete a document version:
 
-1. Go to the project, task, or issue that contains the document, then select **Documents**.Find the document you need.
-1. In the **Version** area in the Summary, click the version, then click **Delete** in the drop-down list that appears. The **Delete** option is visible only if there are at least two versions.
+{{step1-to-documents}}
 
-   If the document is linked to an outside source, that link is deleted and the document is no longer accessible through Workfront.
+1. On the **Documents** page, select the document from the list. 
 
-   ![delete document version](assets/more-versions-350x143.png)
+1. In the upper-right corner of the page, click the **Open Summary** icon ![Open Summary icon](assets/qs-summary-in-new-toolbar-small.png). The **Document Summary** side panel opens.
+
+1. Scroll down to the **Versions** section to view all the document versions.
+1. In the **Versions** section, click the click the **More** menu ![More menu](assets/more-icon.png) to the right of the version, then click **Delete** in the drop-down list that appears.
+
+   >[!NOTE]
+   >
+   >* The **Delete** option is visible only if there are at least 2 versions.
+   >* If the document is linked to an outside source, that link is deleted and the document is no longer accessible through Workfront.
+
+   ![Delete the document version](assets/more-versions-350x143.png)

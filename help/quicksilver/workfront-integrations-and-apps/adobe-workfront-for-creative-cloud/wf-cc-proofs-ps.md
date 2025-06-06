@@ -2,14 +2,20 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Upload proofs from Adobe Photoshop
-description: You can upload your art boards as proofs directly to Adobe Workfront for a thorough review and approval.
+description: You can upload photo document presets as proofs directly to [!DNL Adobe Workfront] for a thorough review and approval.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
 ---
 # Upload proofs from [!DNL Photoshop]
 
-You can upload your art boards as proofs directly to [!DNL Adobe Workfront] for a thorough review and approval.
+You can upload certain Photoshop document preset types as proofs directly to [!DNL Adobe Workfront] for a thorough review and approval.
+
+>[!IMPORTANT]
+>
+>The file must be a Photo Document Preset as described in [Templates and Presets in Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html).
+
+
 
 ## Access requirements
 
