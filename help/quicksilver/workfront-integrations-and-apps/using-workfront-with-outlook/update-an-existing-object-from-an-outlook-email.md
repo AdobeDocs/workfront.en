@@ -9,16 +9,15 @@ exl-id: 297eb1c4-ee9f-4bb3-a412-18f23c74b0eb
 ---
 # Update an existing object from an [!DNL Outlook] email
 
-You can update an existing project, task, or issue with information from an [!DNL Outlook] email.
+>[!IMPORTANT]
+>
+>[Microsoft is in the process of disabling support for legacy Exchange online tokens](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), which are currently used by the Workfront Outlook add-in for authentication. This change by Microsoft has already started affecting customers and will continue to roll out in phases through October 2025.
+>
+>* **After Microsoft fully disables these tokens, the Workfront for Microsoft Outlook integration will no longer function.** 
+>
+>As part of this change, Microsoft has made the decision to change the way tokens are re-enabled. After **June 30, 2025**, admins will no longer be able to re-enable tokens themselves—only Microsoft Support can grant exceptions. **On October 1, 2025, legacy tokens will be turned off for all tenants. Exceptions will not be granted.**  
 
->[!NOTE]
->
->Microsoft is in the process of disabling support for legacy Exchange Online tokens, which are used by this integration. A new Microsoft Office 365 integration will be available in September 2025, which will not use legacy Exchange Online tokens. 
->
->In the meantime, we highly recommend renewing your legacy Exchange Online token:
->
->* Before June 30, 2025: Your Microsoft administrator can renew your legacy Exchange Online token.
->* After June 30, 2025, you must contact Microsoft Support to renew your legacy Exchange Online token. 
+You can update an existing project, task, or issue with information from an [!DNL Outlook] email.
 
 
 ## Access requirements
