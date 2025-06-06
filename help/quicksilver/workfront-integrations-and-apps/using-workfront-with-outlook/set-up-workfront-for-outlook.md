@@ -19,7 +19,6 @@ exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
 >
 >As part of this change, Microsoft has made the decision to change the way tokens are re-enabled. After **June 30, 2025**, admins will no longer be able to re-enable tokens themselves—only Microsoft Support can grant exceptions. **On October 1, 2025, legacy tokens will be turned off for all tenants. Exceptions will not be granted.**  
 
-
 The [!DNL Adobe Workfront] [!DNL Outlook] add-in lets you perform the following key [!DNL Workfront] tasks directly from Outlook:
 
 * Update an existing project, task, or issue with information from an email. For more information, see [Update an existing object from an [!DNL Outlook] email](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md).

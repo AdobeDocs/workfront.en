@@ -19,7 +19,6 @@ exl-id: 297eb1c4-ee9f-4bb3-a412-18f23c74b0eb
 
 You can update an existing project, task, or issue with information from an [!DNL Outlook] email.
 
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
