@@ -11,6 +11,15 @@ exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
 
 <!-- Audited: 12/2023 -->
 
+>[!IMPORTANT]
+>
+>[Microsoft is in the process of disabling support for legacy Exchange online tokens](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), which are currently used by the Workfront Outlook add-in for authentication. This change by Microsoft has already started affecting customers and will continue to roll out in phases through October 2025.
+>
+>* **After Microsoft fully disables these tokens, the Workfront for Microsoft Outlook integration will no longer function.** 
+>
+>As part of this change, Microsoft has made the decision to change the way tokens are re-enabled. After **June 30, 2025**, admins will no longer be able to re-enable tokens themselves—only Microsoft Support can grant exceptions. **On October 1, 2025, legacy tokens will be turned off for all tenants. Exceptions will not be granted.**  
+
+
 The [!DNL Adobe Workfront] [!DNL Outlook] add-in lets you perform the following key [!DNL Workfront] tasks directly from Outlook:
 
 * Update an existing project, task, or issue with information from an email. For more information, see [Update an existing object from an [!DNL Outlook] email](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md).
