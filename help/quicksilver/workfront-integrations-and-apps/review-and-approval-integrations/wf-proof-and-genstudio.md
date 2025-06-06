@@ -7,8 +7,6 @@ description: Get started with the proofing and GenStudio for Performance Marketi
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: yes
-hidefromtoc: yes
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
 ---
 # Get started with the proofing and GenStudio for Performance Marketing integration
@@ -81,24 +79,20 @@ For more detail about the information in this table, see [Access requirements in
 
 If your organization's content review process is often repeated or is reviewed by the same people, you can use proof templates to automate review and approval workflows. 
 
+### Create a proof template in Workfront
+
 You can create simple, single-stage templates for just one or two reviewers, or you can create automated, multi-stage templates for complex reviews with many stages and dependencies.
 
-When a user initiates a review in GenStudio, they simply choose the template they need. Users can easily change any proof workflow template, adding or removing reviewers and stages, at any time. 
-
-With proof workflow templates, you can 
-
-* Add specific users and assign each a designated proof role
-* Set a deadline
-* Choose when a stage activates 
-* Lock stages after they complete
-* Require only one decision
-* Specify a primary decision maker
-* and more
-
-For more information, about automated workflows and templates see 
+For more information about creating automated workflows and templates in Workfront see 
 
 * [Automated Workflow overview](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
 * [Create and manage Automated Workflow templates](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
+
+### Choose or modify the template in GenStudio
+
+When a user initiates a review in GenStudio, they simply choose the template they need. Users can easily change any proof workflow template, adding or removing reviewers and stages, at any time. 
+
+<!--For more information about using and modifying proof templates in GenStuido, see -->
 
 ## Review and approve GenStudio draft content in the proofing viewer
 
@@ -110,10 +104,15 @@ With the proofing viewer, you can
 * Mark-up draft to show what needs to change 
 * Make a decision
 
-For more information about review and approval in GenStudio, see <!--[Workfront Proof integration with GenStudio for Performance Marketing]().-->
+<!--For more information about review and approval in GenStudio, see [Workfront Proof integration with GenStudio for Performance Marketing]().-->
+
+>[!IMPORTANT]
+>
+>Users must install the [Review interactive content with the Adobe Workfront review tool](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) before they can start reviewing drafts in GenStudio.
+
 
 ## View review decisions in GenStudio for final approval and publishing
 
 Once the asset has gone through the review and approval process, you can view the review decision and publish the content directly from GenStudio.
 
-For more information, see <!--[link to GS docs]().-->
+<!--[For more information, see link to GS docs]().-->
