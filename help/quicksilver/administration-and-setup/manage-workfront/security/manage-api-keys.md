@@ -107,7 +107,7 @@ You can generate and manage API Keys for users in roles other than Workfront adm
 
 1. In the address bar of a browser, enter the following API call:
 
-   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=**username**&password=**password**&method=PUT
+   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=**username**&password=**password**&method=PUT
 
    Replace `<domain>` with your Workfront domain name, and username and password with the user's Workfront credentials.
 
@@ -133,9 +133,9 @@ You can configure API Keys to expire for all users in your system. When the API 
 
    By default, API Keys expire each month.
 
-1. To configure API Keys to expire at the time the users' passwords expire, select **Remove API key when a user's password expire**.
+1. To configure API Keys to expire at the time the users' passwords expire, enable **Remove API key when a user's password expire**.
 
-   By default, this option is not selected.
+   By default, this option is not enabled.
 
    For information about how to configure user passwords to expire, see [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md). 
 
@@ -163,11 +163,11 @@ If you are concerned about a particular security breach regarding your Workfront
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Third-party applications can communicate with Workfront through the API. To increase the security of your Workfront site, you can configure Workfront to restrict API login requests by uploading an X.509 certificate to Workfront. Once enabled, all login requests through the API must include a client certificate in addition to username and password.
-
 >[!NOTE]
 >
 >This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+
+Third-party applications can communicate with Workfront through the API. To increase the security of your Workfront site, you can configure Workfront to restrict API login requests by uploading an X.509 certificate to Workfront. Once enabled, all login requests through the API must include a client certificate in addition to username and password.
 
 * [Obtain the X.509 certificate](#obtain-the-x-509-certificate) 
 * [Upload the certificate to Workfront](#upload-the-certificate-to-workfront) 
@@ -175,7 +175,7 @@ Third-party applications can communicate with Workfront through the API. To incr
 
 ### Obtain the X.509 certificate {#obtain-the-x-509-certificate}
 
-Obtain a valid X.509 certificate from a trusted Certificate Authority (such as Verisign), and place it in a temporary location on your workstation. 
+Obtain a valid X.509 certificate from a trusted Certificate Authority (such as Verisign), and save it to a temporary location on your workstation. 
 
 ### Upload the certificate to Workfront {#upload-the-certificate-to-workfront}
 
