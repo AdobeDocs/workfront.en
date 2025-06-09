@@ -233,7 +233,9 @@ We have updated the look and feel of the recently restored items in the Setup ar
 
 To view this change, go to Setup > Recycle Bin > Recently Restored.
 
-For information, see [View restored items](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).### Interface updates to the Resource Management area in Setup
+For information, see [View restored items](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+
+### Interface updates to the Resource Management area in Setup
 
 **Preview release: April 17, 2025; Starting the week of April 17, 2025**
 
