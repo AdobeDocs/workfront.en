@@ -185,7 +185,8 @@ After you have obtained the X.509 certificate from your Certificate Authority, y
 
 1. Expand **System**, then click **Customer Info**.
 
-1. In the **API Key Settings** area, select **Enable X.509 Certificate**.
+1. In the **API Key Settings** area, select **Require X.509 Certificate for API logins**.
+1. Click **Change Certificate**.
 1. On your workstation, browse to and select the X.509 certificate that you previously downloaded.
 1. (Optional) Click **View Details** next to the certificate name to view the following details about the certificate:
 
