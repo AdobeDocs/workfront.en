@@ -74,22 +74,21 @@ For more detail about the information in this table, see [Access requirements in
   >
   >The Adobe Express and Workfront Proof integration will be available to users over the course of several releases, starting with accounts that have Workfront and Adobe Express associated with the same Organization ID in the Adobe Admin Console, followed by customers with users working across IMS orgs. If you would like to have the integration enabled, please reach out to your Customer Success or Strategic Account Manager. 
 
-
-## Integration requirements 
-
-Workfront and Creative Cloud Express must be deployed to the same IMS Org.
-
 ## Set up approval workflows in Workfront
 
-To enable users to configure an approval workflow on a Express template, approval templates must be available and shared with them. Create and manage Automated Workflow templates. 
+A Workfront user with a Standard 
 
-Target Persona: Sally, the Workfront system administrator, who is responsible for building approval workflows 
+To enable users to configure an approval workflow on a Express template, approval templates must be available and shared with them. 
 
-Licence Requirements 
+For more information, see [Create and manage Automated Workflow templates](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md). 
 
-Workfront Standard license 
 
-Administrator Proof Profile Permission 
+
+**Licence Requirements** 
+
+* Workfront license: Standard
+
+* Proof Profile Permission: Administrator
 
 ## Configure approval workflows on Express templates
 
