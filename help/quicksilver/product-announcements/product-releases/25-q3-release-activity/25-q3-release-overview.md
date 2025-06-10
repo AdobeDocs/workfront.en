@@ -24,7 +24,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>25.5 (May 2025)</li><li>26.6 (june 2025)</li><li>25.7 (July 2025)</li></ul>| <ul><li>25.7 (July 2025)</li></ul>|
+>|<ul><li>25.5 (May 2025)</li><li>25.6 (June 2025)</li><li>25.7 (July 2025)</li></ul>| <ul><li>25.7 (July 2025)</li></ul>|
 >
 >Note that for the final release of each quarter (25.7 this quarter), users on the fast release schedule will receive the release one day early.
 >
