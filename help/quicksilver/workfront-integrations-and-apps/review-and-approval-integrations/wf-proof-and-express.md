@@ -17,7 +17,7 @@ Use Workfront Proof with Adobe Express to
 
 * Streamline collaboration between creative, legal, and compliance teams to reduce time-to-publish while maintaining oversight  
 
-* Conduct for deep reviews using drawing markups, annotations, and commenting with the Workfront Proof viewer 
+* Conduct for deep reviews using drawing markups, annotations, and commenting with the Workfront proofing viewer 
 
 * Meet enterprise compliance standards with electronic signatures and full audit logs 
 
@@ -100,7 +100,7 @@ Learn how to get approval on designs.
 
 ## Review and approve remixed Express file 
 
-Stakeholders can provide feedback relevant to their area of expertise—-such as copy, legal, or brand—-by using markup tools and comments in the Workfront proof viewer.
+Stakeholders can provide feedback relevant to their area of expertise—-such as copy, legal, or brand—-by using markup tools and comments in the Workfront proofing viewer.
 
 They are also are responsible for making final decisions to approve the content for [final?] sign-off. 
 
