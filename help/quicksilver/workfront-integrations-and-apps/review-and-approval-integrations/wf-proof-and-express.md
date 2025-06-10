@@ -17,19 +17,14 @@ Use Workfront Proof with Adobe Express to
 
 * Streamline collaboration between creative, legal, and compliance teams to reduce time-to-publish while maintaining oversight  
 
-* Enterprises can require approval on any remixed files from an Express branded template  
+* Conduct for deep reviews using drawing markups, annotations, and commenting with the Workfront Proof viewer 
 
-* Enterprises can map an Express template to a multi-stage review & approval workflow using advanced proof templates  
+* Meet enterprise compliance standards with electronic signatures and full audit logs 
 
-* Files cannot be published without formal approval, ensuring compliance  
 
-* Requester must submit remixed files for approval, which will initiate the pre-configured approval workflow  
+* Require approval on any remixed files from an Express branded template  
 
-* Requester can see status of review in Express and monitor the progress in real time  
-
-* Approvers can use the Workfront Proof viewer for deep reviews using drawing markups, annotations and commenting  
-
-* Enterprise grade compliance through electronic signatures and full audit logs 
+* Map an Express template to a multi-stage review and approval workflow using advanced proof templates
 
 ## Access requirements
 
@@ -68,63 +63,49 @@ For more detail about the information in this table, see [Access requirements in
 
 * Workfront and Adobe Express must be deployed to the same IMS Org.
 
+* The Workfront instance must be enabled on the Adobe Unified Experience.
+
 * The integration must be enabled for your accounts by the Adobe Product Team.
 
   >[!IMPORTANT]
   >
   >The Adobe Express and Workfront Proof integration will be available to users over the course of several releases, starting with accounts that have Workfront and Adobe Express associated with the same Organization ID in the Adobe Admin Console, followed by customers with users working across IMS orgs. If you would like to have the integration enabled, please reach out to your Customer Success or Strategic Account Manager. 
 
+* Users must install the [Review interactive content with the Adobe Workfront review tool](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) before they can start reviewing drafts in Adobe Express.
+
+
 ## Set up approval workflows in Workfront
 
-A Workfront user with a Standard 
+Before users can add an approval workflow on an Express template, you must create an approval workflow in Workfront.
 
-To enable users to configure an approval workflow on a Express template, approval templates must be available and shared with them. 
+For more information, see [Create and manage Automated Workflow templates](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md).
 
-For more information, see [Create and manage Automated Workflow templates](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md). 
+## Add an approval workflow to an Express templates
 
+After an approval workflow template is created in Workfront, designers with an Express Enterprise premium license can assign it to an Express template directly within Adobe Express. 
 
-
-**Licence Requirements** 
-
-* Workfront license: Standard
-
-* Proof Profile Permission: Administrator
-
-## Configure approval workflows on Express templates
-
-With approval templates set up and shared, your designers can now assign them to Express templates directly within Adobe Express. When a Express template is remixed, an approval will be required before publishing -automatically triggering the pre-configured approval workflow. Learn more about how to add review and approval workflows to shareable templates.   
-
+ When a Express template is remixed, an approval will be required before publishing--automatically triggering the pre-configured approval workflow. 
  
-Example workflow
-Target Persona: Desi, our designer who is responsible for creating Express templates for Mo to reuse  
-
-Licence Requirements 
-
-Express Enterprise premium license 
-
-Workfront Standard license 
-
+ Learn more about how to add review and approval workflows to shareable templates. <!--need link to help article-->
  
 
 ## Remix Express templates and send for review and approval 
 
-Express users can remix Express templates to fit their needs. Before publishing, they must request approval from the designated approvers. Throughout the content production and sign-off process, users can monitor and manage collaboration activities with the goal of achieving final approval. Learn how to get approval on designs.   
- 
+Adobe Express users can remix Express templates to fit their needs. Before publishing, they must request approval from the designated approvers.
 
-Target Persona: Mo, our modern marketer, who remixes Express templates and sends them for review and approval using the pre-configured approval workflow.   
+Throughout the content production and sign-off process, users can monitor and manage collaboration activities with the goal of achieving final approval.
 
-Licence Requirements 
-
-Express Enterprise premium license 
-
-Workfront Standard license 
+Learn how to get approval on designs.   
+<!--need link to help article-->
 
 ## Review and approve remixed Express file 
 
-Stakeholders provide feedback relevant to their area of expertise—such as copy, legal, or brand—by using markup tools and comments, and are responsible for making final decisions to approve the content for sign-off. Learn more about how to review and approve designs in Workfront.  
+Stakeholders can provide feedback relevant to their area of expertise—-such as copy, legal, or brand—-by using markup tools and comments in the Workfront proof viewer.
 
-Target Persona: Rayna, our Stakeholder, who is responsible for providing review & approval feedback and making decisions. 
+They are also are responsible for making final decisions to approve the content for [final?] sign-off. 
 
-Licence Requirements 
+Learn more about how to review and approve designs in Workfront.  
 
-Workfront Collaborator license 
+
+Workfront Collaborator license - trying to figure out how to work this in--
+
