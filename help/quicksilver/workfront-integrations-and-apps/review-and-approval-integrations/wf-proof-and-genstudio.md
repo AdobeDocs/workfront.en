@@ -2,22 +2,22 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Get started with the proofing and GenStudio for Performance Marketing integration
-description: Get started with the proofing and GenStudio for Performance Marketing integration
+title: Get started with the GenStudio for Performance Marketing and Workfront Proof integration
+description: Get started with the GenStudio for Performance Marketing and Workfront Proof integration
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
 ---
-# Get started with the proofing and GenStudio for Performance Marketing integration
+# Get started with the GenStudio for Performance Marketing and Workfront Proof integration
 
-With the integration between Proofing and GenStudio for Performance Marketing, you can 
+With the integration between GenStudio for Performance Marketing and Workfront Proof, you can 
 
 * Use Workfront proof templates to define review and approval workflows
 
-* Review and approve GenStudio draft content in the proofing viewer
+* Review and approve GenStudio for Performance Marketing draft content in the Workfong proofing viewer
 
-* View review decisions in GenStudio for final approval and publishing
+* View review decisions in GenStudio for Performance Marketing for final approval and publishing
 
 
 ## Access requirements
@@ -70,10 +70,12 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Enable the integration in Workfront
 
+You must be a system administrator to enable this integration. 
+
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
 1. In the left panel, click **Review and Approval** > **Adobe GenStudio**.
 1. Enable **Use proof approvals**. 
-![enable proofing for GenStudio](assets/enable-proofing-gs.png)
+![enable proofing for GenStudio setting](assets/enable-proofing-gs.png)
 
 ## Use Workfront proof templates to define approval workflows
 
@@ -88,15 +90,15 @@ For more information about creating automated workflows and templates in Workfro
 * [Automated Workflow overview](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
 * [Create and manage Automated Workflow templates](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
 
-### Choose or modify the template in GenStudio
+### Choose or modify the template in GenStudio for Performance Marketing
 
-When a user initiates a review in GenStudio, they simply choose the template they need. Users can easily change any proof workflow template, adding or removing reviewers and stages, at any time. 
+When a user initiates a review in GenStudio for Performance Marketing, they simply choose the template they need. Users can easily change any proof workflow template, adding or removing reviewers and stages, at any time. 
 
 <!--For more information about using and modifying proof templates in GenStuido, see -->
 
-## Review and approve GenStudio draft content in the proofing viewer
+## Review and approve GenStudio for Performance Marketing draft content in the Workfront proofing viewer
 
-You can review and approve GenStudio draft content directly in GenStudio in the proofing viewer. 
+You can review and approve draft content directly in GenStudio for Performance Marketing in the Workfront proofing viewer. 
 
 With the proofing viewer, you can 
 
@@ -104,15 +106,15 @@ With the proofing viewer, you can
 * Mark-up draft to show what needs to change 
 * Make a decision
 
-<!--For more information about review and approval in GenStudio, see [Workfront Proof integration with GenStudio for Performance Marketing]().-->
+<!--For more information about review and approval in GenStudio for Performance Marketing, see [Workfront Proof integration with GenStudio for Performance Marketing]().-->
 
 >[!IMPORTANT]
 >
->Users must install the [Review interactive content with the Adobe Workfront review tool](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) before they can start reviewing drafts in GenStudio.
+>Users must install the [Review interactive content with the Adobe Workfront review tool](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) before they can start reviewing drafts in GenStudio for Performance Marketing.
 
 
-## View review decisions in GenStudio for final approval and publishing
+## View review decisions in GenStudio for Performance Marketing for final approval and publishing
 
-Once the asset has gone through the review and approval process, you can view the review decision and publish the content directly from GenStudio.
+Once the asset has gone through the review and approval process, you can view the review decision and publish the content directly from GenStudio for Performance Marketing.
 
 <!--[For more information, see link to GS docs]().-->
