@@ -17,7 +17,7 @@ This page lists interface updates we are making throughout Adobe Workfront to im
 For all other changes to Adobe Workfront, see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 
-## Admin and Setup
+## Administration and Setup
 
 ### Interface updates for the Customer Info page
 
