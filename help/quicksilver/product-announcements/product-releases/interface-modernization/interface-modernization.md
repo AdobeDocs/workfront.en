@@ -19,6 +19,16 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+### Interface updates for the Customer Info page
+
+**Preview release: June 12, 2025; Production release: June 19, 2025**
+
+We have updated the Customer Info page with a more modern design that is consistent with other areas of Workfront.
+
+To view this change, go to Setup > System > Customer Info.
+
+For information, see [Configure basic information for your system](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+
 ### Interface updates for the Import Data (Kick-Starts) page
 
 **Preview release: May 29, 2025; Production release: June 5, 2025**
@@ -102,6 +112,22 @@ We have updated the page you use to grant support access to your Workfront accou
 
 ## Projects
 
+### Interface updates for the Associated projects section of a project (available for specific customers only)
+
+**Preview release: June 12, 2025; Production release: June 19, 2025**
+
+We have updated the Associated projects section of a project with a more modern design that is consistent with other areas of Workfront.
+
+Specific customers can view this change by going to a project's Associated projects section in the left panel.
+
+### New look and feel for the "Save as template" box 
+
+**Preview release: June 12, 2025; Production release: June 19, 2025**
+
+We have updated the look and feel of the "Save as template" box that displays when saving a project as a template. The new design includes a streamlined interface, where all the sections display in one cohesive form which you can navigate by using links in the left panel. The new design matches other areas and other objects in the application.  
+
+For information, see [Save a project as a template](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md).
+
 ### Look and feel updates for the Delete Issue box 
 
 **Preview release: May 29, 2025; Production release: June 5, 2025**
@@ -144,6 +170,21 @@ For information, see the following articles:
 
 
 ## Reports and Dashboards
+
+### Updated reports with new styling
+
+**Preview release: June 12, 2025; Production release: June 19, 2025**
+
+We have updated the look and feel of multiple reports, to match the design of other areas of Workfront. No functionality has changed.
+
+This update includes visual changes to the lists and toolbars of the reports for the following object types:
+
+* Risks
+* Baselines
+* Rates
+* Layout Templates
+
+For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### URLs with /tile or /qstile no longer supported in Workfront Dashboards
 
