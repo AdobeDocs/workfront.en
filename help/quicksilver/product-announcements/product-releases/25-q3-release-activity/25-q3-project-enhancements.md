@@ -18,9 +18,9 @@ For a list of all changes available at this point in the Third Quarter 2025 rele
 
 >[!NOTE]
 >
->* Preview: May 27, 2025
->* Production fast release: May 27, 2025 
->* Production for all customers:  May 27, 2025
+>* Preview: With the next API version, scheduled for later in 2025
+>* Production fast release: With the next API version, scheduled for later in 2025 
+>* Production for all customers:  With the next API version, scheduled for later in 2025
 
 This update introduces a change in the way the Actual Hours for projects, tasks, and issues are stored in the database. Starting with this update, the Actual Hours will be using a valuefield of `actualWorkRequiredDouble` (with a value in hours).
 
