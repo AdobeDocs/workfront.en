@@ -122,24 +122,40 @@ To manage a timeline view:
     >
     >    The sorting of the records in the timeline is not visible in the Compact view.
 
-1. <span class="preview"> (Conditional) If your administrator has enabled custom quarters, but some gaps or overlaps have been detected, you might receive a notification that custom quarters can now be setup and they might need editing.</span>
+1. <span class="preview"> (Conditional) If your administrator has enabled custom quarters, and Workfront detects problems with the way the custom quarters are configured, you might receive a warning when opening the timeline view. </span>
+
+    <div class="preview">
+
+    The following scenarios exist: 
+
+    * If gaps or overlaps have been detected between the dates of the quarters, you might receive a notification that custom quarters can now be setup and they might need editing.
+
+        ![Custom quarters notification missing or gaps between quarters](assets/custom-quarter-notification-missing-or-gaps.png)
+
+        >[!TIP]
+        >
+        >This message should display only immediately after your organization purchases Planning and custom quarters were already enabled before the purchase. Overlaps and gaps between the quarters are not allowed after enabling Workfront Planning for your organization. 
+    
+    * If quarters have been partially set up, with some months within the same year missing, you might receive a notification when you scroll to display the missing quarters that the rest of the year needs to be setup with the missing quarters. 
 
     ![Missing custom quarters original message on timeline view](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
-    The message displays once per each customer. 
-
-1. <span class="preview">(Conditional and optional) Scroll on the timeline to the left or right. If your Workfront administrator did not enable custom quarters, you might be prompted to enable them. Either click **Go to Setup** to define them for your organization if you are a Workfront administrator, or ask an administrator to set them up. </span>
-
-1. <span class="preview">(Conditional) If you are a Workfront administrator, click **Go to Setup** to set up your quarters. If not, click **Cancel** and ask your Workfront administrator to set up the custom quarters.</span>
+    These warning messages display once per each user. 
 
     >[!NOTE]
     >
-    ><span class="preview">Without custom quarter properly saved, the timeline view displays the classic quarters.</span>
+    >Without custom quarter properly saved, the timeline view displays the classic quarters.
+    >After setting up custom quarters in the Setup area, the timeline view displays the custom quarters instead of the classic quarters.
+    >For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
-    <span class="preview">After setting up custom quarters in the Setup area, the timeline view displays the custom quarters instead of the classic quarters.</span>
+    </div>  
 
-    For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).  
+1. <span class="preview">(Conditional) If you are a Workfront administrator, click **Go to Setup** to set up your quarters. If not, click **OK** and ask your Workfront administrator to set up the custom quarters.</span>
 
+    >[!TIP]
+    >
+    ><span class="preview">The Go to Setup button displays only for the Workfront administrator.</span>
+    
 1. (Optional and conditional) When the record name is truncated, hover over a record bar to display the full name of the record and additional information. 
 
 1. Do one of the following to navigate through the timeline:
@@ -287,7 +303,9 @@ Update the timeline view settings to indicate what and how information displays 
 
     ![Use custom quarters warning inside timeline view settings](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
 
-
+    >[!TIP]
+    >
+    ><span class="preview">The Go to Setup button displays only for the Workfront administrator.</span>
 
 1. Click **Bar style** in the left panel, to indicate what information you want to display on the record bars.
 
