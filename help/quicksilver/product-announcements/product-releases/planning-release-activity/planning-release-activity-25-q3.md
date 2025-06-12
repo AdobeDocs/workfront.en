@@ -16,6 +16,62 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Custom quarters availability for the Workfront Planning timeline view 
+
+>[!NOTE]
+>
+>* Preview: June 12, 2025
+>* Production fast release: July 17, 2025 
+>* Production for all customers:  July 17, 2025
+
+With this update, when you configure custom quarters in the Project Preferences area of Setup, the custom quarters are available for the Timeline view in Workfront Planning.  
+
+Prior to this update, the custom quarters were only available for Workfront's reporting capabilities.  
+
+With this improvement, customers who have purchased Workfront Planning will view an updated experience for defining custom quarters. This update includes the following improvements:  
+
+Gaps and overlaps between the quarters are no longer accepted.  
+
+You can set up to 100 custom quarters. Prior to this update you could set up only 8 custom quarters 
+
+There are no changes in the custom quarter experience for customers who have not purchased Workfront Planning.  
+
+For more information, see [Enable custom quarters for projects](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md). 
+
+## Calculate all dependent formulas at the same time 
+
+>[!NOTE]
+>
+>* Preview: June 12, 2025
+>* Production fast release: June 12, 2025 
+>* Production for all customers:  June 12, 2025
+
+We have introduced an improvement that updates all formula fields dependent upon each other at the same time after a referenced field is updated manually. Formula fields that are 2, 3, or 4 fields away from the field whose value is manually changed and that reference each other will now automatically update at the same time.  
+
+Prior to this improvement, only the directly dependent formula fields were updated when the value of a references field was manually updated.  
+
+For information, see [Formula fields overview](/help/quicksilver/planning/fields/formula-fields.md).
+
+## New expressions added to formula fields 
+
+>[!NOTE]
+>
+>* Preview: June 6, 2025
+>* Production fast release: June 6, 2025 
+>* Production for all customers:  June 6, 2025
+
+We have added the following expressions to formula fields: 
+ 
+* ARRAYCONTAINS  
+
+* SORTASCARRAY  
+
+* SORTDESCARRAY  
+
+Prior to this enhancement, these expressions were supported only in Workfront calculated custom fields.  
+
+For information, see [Formula fields overview](/help/quicksilver/planning/fields/formula-fields.md).
+
 ## Filters, columns and additional fields added to the Planning tab in the Requests area 
 
 >[!NOTE]
@@ -178,7 +234,7 @@ For information, see [Manage the timeline view](/help/quicksilver/planning/views
 >[!NOTE]
 >
 >* Preview: April 17, 2025
->* Production fast release: June 12, 2025
+>* Production fast release: July 17, 2025
 >* Production for all customers: July 17, 2025
 
 To better control who can view or manage records in each record type and ensure that only authorized people can manage each record type's information based on their roles and responsibilities, we have introduced permissions at the record type level. 
