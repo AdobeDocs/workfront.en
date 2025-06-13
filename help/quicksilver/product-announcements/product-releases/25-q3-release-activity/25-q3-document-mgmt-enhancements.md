@@ -1,16 +1,36 @@
 ---
-title: Third Quarter 2025 Document management enhancements
-description: Third Quarter 2025 Document management enhancements
+title: Third Quarter 2025 Proofing and document management enhancements
+description: Third Quarter 2025 Proofing and document management enhancements
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
 ---
-# Third Quarter 2025 Document management enhancements
+# Third Quarter 2025 Proofing and document management enhancements
 
 This page describes all document management enhancements made with the Third Quarter 2025 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
 
 For a list of all changes available at this point in the Third Quarter 2025 release cycle, see [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## New Proofing and GenStudio for Performance Marketing integration
+
+>[!NOTE]
+>
+>* Production release for all customers: June 12, 2025
+
+We are excited to introduce a new integration between Proofing and GenStudio for Performance Marketing. With this integration, you can 
+
+* Use Workfront approval templates to define approval workflows
+
+* Review draft content in the Workfront proofing viewer
+
+* See review decisions for final approval and publishing in GenStudio for Performance Marketing
+
+### Integration requirements 
+
+Workfront and GenStudio for Performance Marketing must be deployed to the same IMS Org.
+
+For more information, see [Get started with the GenStudio for Performance Marketing and Workfront Proof integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md).
 
 ## Desktop Proofing Viewer Update
 

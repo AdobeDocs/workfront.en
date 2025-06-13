@@ -39,9 +39,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Project enhancements](#project-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
 * [Update and notification enhancements](#update-and-notification-enhancements)
+* [Integration enhancements]
 * [Other enhancements](#other-enhancements)
     
-### Document management enhancements
+### Proofing and document management enhancements
 
 <table style="table-layout:auto">
   <tbody>
@@ -52,6 +53,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New Proofing and GenStudio for Performance Marketing integration</a>
+            <p>We are excited to introduce a new integration between Proofing and GenStudio for Performance Marketing. With this integration, you can 
+            <ul>
+            <li>Use Workfront approval templates to define approval workflows
+            </li>
+             <li>Review GenStudio draft content in the proofing viewer
+            </li>
+             <li>See review decisions for final approval and publishing in GenStudio 
+            </li>
+            </ul>
+            </p>
+        </td>
+        <td>June 12, 2025</td>
+        <td>June 12, 2025</td>
+        <td>June 12, 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer Update</a><p>[!BADGE Off schedule]{type=Neutral}</p>
