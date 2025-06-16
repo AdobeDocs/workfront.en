@@ -20,6 +20,7 @@ This section contains the following subsections:
 * [Glossary of Adobe Workfront terminology](../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md) 
 * [Adobe Workfront browser requirements](../workfront-basics/workfront-browser-requirements.md) 
 * [Supported languages in Adobe Workfront](../workfront-basics/supported-languages-in-workfront.md) 
+* [HIPAA Readiness for Workfront](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
 * [Navigate Adobe Workfront: article index](../workfront-basics/navigate-workfront/navigate-workfront.md) 
 * [Priorities: article index](/help/quicksilver/workfront-basics/priorities/priorities-toc.md)
 * [Home](../workfront-basics/using-home/home.md) 

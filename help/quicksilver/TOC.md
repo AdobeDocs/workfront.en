@@ -15,7 +15,7 @@ feature-set: Workfront
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 2025 Q3 Release {#release-25-q3}
       * [2025 Q3 Release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
-      * [Document management enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
+      * [Proofing and document management enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
       * [Home enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-home-enhancements.md)
       * [Project enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md)
       * [Reporting enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md)
@@ -417,7 +417,7 @@ feature-set: Workfront
       * [Create expense types](administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
       * [Create a scorecard](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
       * [Project timeline recalculations](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-      * [Custom quarters for projects](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+      * [Enable custom quarters](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [Enable or disable fast releases for your organization](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
       * [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [Configure locations](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
@@ -2113,6 +2113,10 @@ feature-set: Workfront
   * [Adobe Workfront integrations](workfront-integrations-and-apps/workfront-integrations.md)
   * [Adobe Workfront built-in integrations overview](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
   * [Adobe Workfront integration methods](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
+  * Review and approval integrations {#review-approval-integrations}
+    * [Review and approval integrations: article index](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/review-approval-integrations-toc.md)
+    * [Get started with the proofing and GenStudio for Performance Marketing integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
+    * [Get started with the proofing and Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
   * Adobe Workfront for Creative Cloud {#workfront-for-creative-cloud}
     * [Adobe Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
     * Install the Adobe Workfront plugin for Creative Cloud Applications {#install-wf-cc}
