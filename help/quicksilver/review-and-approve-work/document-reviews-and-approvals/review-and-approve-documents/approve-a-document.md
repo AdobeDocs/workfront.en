@@ -68,7 +68,8 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >Approvals assigned to Job Roles or Groups aren't listed in Home. Approvals assigned to Teams display in the Team Request grouping in the Work List.
+   >* Approvals assigned to Job Roles or Groups aren't listed in Home.
+   >* Approvals assigned to Teams display in each individual team member's My Approvals widget in Home. 
 
 1. Click on the document approval in the list for which you want to make an approval decision. Information regarding the approval will appear on the right side of the page.
 

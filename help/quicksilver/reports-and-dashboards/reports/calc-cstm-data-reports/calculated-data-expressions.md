@@ -385,6 +385,16 @@ You can create a calculated custom field that displays a text-formatted value us
    <p><code>ARRAY(string1, "delimiter")</code></p> 
    </td> 
   </tr>
+
+<tr> 
+   <td><strong>ARRAYCONTAINS</strong> </td> 
+   <td> <p>Searches for a specific value in a list or array. If the value is found, the function returns True, otherwise it returns False. </p> 
+   <p>The expression is formatted as follows:</p>
+   <p><code>ARRAY(value 1, value 2)</code></p> 
+   </td> 
+  </tr>
+
+
   <tr> 
    <td><strong>ARRAYLENGTH</strong> </td> 
    <td> <p>Returns the number of elements in the array and is formatted as follows:</p>

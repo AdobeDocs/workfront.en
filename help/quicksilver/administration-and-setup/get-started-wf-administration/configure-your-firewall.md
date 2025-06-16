@@ -417,6 +417,7 @@ If your organization uses outbound network filtering, add the following domains 
 * fonts.gstatic.com
 * dpm.demdex.net
 * storage.googleapis.com 
+* snippet.maze.co
 * *.aptrinsic.com 
 * *.static.workfront.com 
 

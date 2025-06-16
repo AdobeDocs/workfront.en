@@ -74,9 +74,14 @@ To access the Customer Info page:
 
      For information about adding the IP addresses to your allowlist for where your users can access Workfront, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
    
+   * **Email Allowlist**
+
+     For information about adding emails to your allowlist, see [Configure your email allowlist](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+
+   <!--
    * **License**
 
-     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).-->
 
 ## Configure Basic Info {#configure-basic-info}
 
@@ -119,7 +124,7 @@ To configure your Basic Info section in your Customer Info area:
        </ul> <p>Users can modify the time zone for their Workfront instance under their profile. When users modify their time zone, the date and time in their emails from Workfront match their profile preferences. For more information about modifying user profile preferences, see <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configure My Settings</a>. It is selected as the default time zone when you create a new schedule. For more information about creating schedules, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.</p> <p>For information about using schedules to help users collaborate in Workfront across time zones, see <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Working across time zones</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Locale</td> 
+      <td role="rowheader">Default Email Locale</td> 
       <td>Controls the language, date, and number format used in outgoing email messages. The locale selected here is the default when new users are created. Users can modify their locale, in their user profile. When users modify their locale, the language, date and number format in their emails from Workfront match their profile preferences. For more information about modifying your profile preferences, see <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configure My Settings</a>.</td> 
      </tr> 
      <tr> 
@@ -129,11 +134,7 @@ To configure your Basic Info section in your Customer Info area:
         <li>Documents you link to Workfront from any other third-party service provider (SharePoint, Google Drive, Webdam, Box, Dropbox, any other Document Asset Management provider).</li> 
         <li>Your Workfront data (projects, tasks, issues, users, and so forth).</li> 
        </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Product Version</td> 
-      <td>This is the type of Workfront instance that is assigned to you. The product version for most Workfront customers is <strong>Enterprise</strong>.</td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 

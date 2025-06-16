@@ -24,7 +24,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>25.5 (May 2025)</li><li>26.6 (june 2025)</li><li>25.7 (July 2025)</li></ul>| <ul><li>25.7 (July 2025)</li></ul>|
+>|<ul><li>25.5 (May 2025)</li><li>25.6 (June 2025)</li><li>25.7 (July 2025)</li></ul>| <ul><li>25.7 (July 2025)</li></ul>|
 >
 >Note that for the final release of each quarter (25.7 this quarter), users on the fast release schedule will receive the release one day early.
 >
@@ -39,9 +39,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Project enhancements](#project-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
 * [Update and notification enhancements](#update-and-notification-enhancements)
+* [Integration enhancements]
 * [Other enhancements](#other-enhancements)
     
-### Document management enhancements
+### Proofing and document management enhancements
 
 <table style="table-layout:auto">
   <tbody>
@@ -52,6 +53,34 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer Update</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>The Desktop Proofing Viewer has been updated to version 2.1.50.
+This update includes internal tooling updates and does not impact end-user functionality. </p>
+        </td>
+        <td>June 13, 2025</td>
+        <td>June 13, 2025</td>
+        <td>June 13, 2025</td>
+    </tr> 
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New Proofing and GenStudio for Performance Marketing integration</a>
+            <p>We are excited to introduce a new integration between Proofing and GenStudio for Performance Marketing. With this integration, you can 
+            <ul>
+            <li>Use Workfront approval templates to define approval workflows
+            </li>
+             <li>Review GenStudio draft content in the proofing viewer
+            </li>
+             <li>See review decisions for final approval and publishing in GenStudio 
+            </li>
+            </ul>
+            </p>
+        </td>
+        <td>June 12, 2025</td>
+        <td>June 12, 2025</td>
+        <td>June 12, 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer Update</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -123,9 +152,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Change in the way Actual Hours are stored in the database for API calls</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>This update introduces a change in the way the Actual Hours for projects, tasks, and issues are stored in the database. Starting with this update, the Actual Hours will be using a valuefield of <code>actualWorkRequiredDouble</code> (with a value in hours).</p>
         </td>
-        <td>May 27, 2025</td>
-        <td>May 27, 2025</td>
-        <td>May 27, 2025</td>
+        <td>With the next API version, scheduled for later in 2025</td>
+        <td>With the next API version, scheduled for later in 2025</td>
+        <td>With the next API version, scheduled for later in 2025</td>
     </tr>     
     <tr>
         <td>
@@ -212,16 +241,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
-                    </td>
-                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Third Quarter 2025 release timeframe</a></p>
@@ -267,9 +286,25 @@ There are no updates for the following at this point in the release:
 * Proof
 * Goals
 
+## Announcements
+
+### New version of Workfront for Microsoft Teams
+
+As Microsoft transitions to the New Teams client, the Classic Teams client will no longer be available after July 1, 2025. In preparation, we are developing a new version of the Microsoft Teams integration that will be fully compatible with the New Teams client and available before July 1 to ensure a smooth transition.
+
+Instructions on how to download and install the integration in the New Teams client will become available after the integration is released.
+
+### Workfront for Microsoft Outlook
+
+[Microsoft is in the process of disabling support for legacy Exchange online tokens](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), which are currently used by the Workfront Outlook add-in for authentication. This change by Microsoft has already started affecting customers and will continue to roll out in phases through October 2025.
+
+* **After Microsoft fully disables these tokens, the Workfront for Microsoft Outlook integration will no longer function.** 
+
+As part of this change, Microsoft has made the decision to change the way tokens are re-enabled. After **June 30, 2025**, admins will no longer be able to re-enable tokens themselves—only Microsoft Support can grant exceptions. **On October 1, 2025, legacy tokens will be turned off for all tenants. Exceptions will not be granted.**  
+
 ### API version 20
 
-Workfront API version 20 was release on May 4, 2024. For API version 20, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
+Workfront API version 20 was released on May 4, 2024. For API version 20, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
 
 For information on what's new and updated, see [What's new in API version 20](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
@@ -327,3 +362,4 @@ New row for table
 
 
 -->
+

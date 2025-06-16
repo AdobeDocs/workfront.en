@@ -180,7 +180,7 @@ For example, if you are building an hour report and would like to display hours 
   </tr> 
   <tr> 
    <td role="rowheader">Last Quarter</td> 
-   <td> <p>Displays hours where the Entry Date is a date in the quarter preceding&nbsp;the current quarter, where quarters are defined above.</p> <p>Note:  If your Workfront administrator has enabled and defined custom quarters for your system, the built-in filters for quarters are replaced with your custom quarter information. For more information about enabling custom quarters, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Enable custom quarters for projects</a>.</p> </td> 
+   <td> <p>Displays hours where the Entry Date is a date in the quarter preceding&nbsp;the current quarter, where quarters are defined above.</p> <p>Note:  If your Workfront administrator has enabled and defined custom quarters for your system, the built-in filters for quarters are replaced with your custom quarter information. For more information about enabling custom quarters, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Enable custom quarters</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">This Year</td> 

@@ -78,16 +78,10 @@ For more detail about the information in this table, see [Access requirements in
 1. Select the **Board** section. New fields appear. 
 1. Turn on **Dynamically intake items to board**. The blank intake column appears on the left side of the board.
 
-   ![Intake column simple filter options](assets/intake-column-simple-filters.png)
+   ![Intake column simple filter options](assets/board-section.png)
 
 1. (Optional) Search for and select [!DNL Workfront] [!UICONTROL **Projects**].
 1. (Optional) Search for and select user or team [!UICONTROL **Assignments**].
-1. Select [!UICONTROL **Include completed work**] to display tasks and issues with a Complete status in the intake column.
-
-   >[!NOTE]
-   >
-   >If this option is not selected, when cards in other statuses are marked complete, they won't display on the board.
-
 1. Click **Apply**. The objects appear in the board intake column as connected cards.
 
    ![Intake column](assets/intake-column-added3.png)

@@ -57,7 +57,7 @@ You must have the following access to perform the steps in this article:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -122,17 +122,51 @@ To manage a timeline view:
     >
     >    The sorting of the records in the timeline is not visible in the Compact view.
 
+1. <span class="preview"> (Conditional) If your administrator has enabled custom quarters, and Workfront detects problems with the way the custom quarters are configured, you might receive a warning when opening the timeline view. </span>
+
+    <div class="preview">
+
+    The following scenarios exist: 
+
+    * If gaps or overlaps have been detected between the dates of the quarters, you might receive a notification that custom quarters can now be setup and they might need editing.
+
+        ![Custom quarters notification missing or gaps between quarters](assets/custom-quarter-notification-missing-or-gaps.png)
+
+        >[!TIP]
+        >
+        >This message should display only immediately after your organization purchases Planning and custom quarters were already enabled before the purchase. Overlaps and gaps between the quarters are not allowed after enabling Workfront Planning for your organization. 
+    
+    * If quarters have been partially set up, with some months within the same year missing, you might receive a notification when you scroll to display the missing quarters that the rest of the year needs to be setup with the missing quarters. 
+
+    ![Missing custom quarters original message on timeline view](assets/missing-custom-quarters-original-message-on-timeline-view.png)
+
+    These warning messages display once per each user. 
+
+    >[!NOTE]
+    >
+    >Without custom quarter properly saved, the timeline view displays the classic quarters.
+    >After setting up custom quarters in the Setup area, the timeline view displays the custom quarters instead of the classic quarters.
+    >For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+    </div>  
+
+1. <span class="preview">(Conditional) If you are a Workfront administrator, click **Go to Setup** to set up your quarters. If not, click **OK** and ask your Workfront administrator to set up the custom quarters.</span>
+
+    >[!TIP]
+    >
+    ><span class="preview">The Go to Setup button displays only for the Workfront administrator.</span>
+    
 1. (Optional and conditional) When the record name is truncated, hover over a record bar to display the full name of the record and additional information. 
 
 1. Do one of the following to navigate through the timeline:
 
     * Click the left and right icons or use the horizontal scroll to move backwards and forwards in the timeline. Refreshing the page preserves the selected time frame. 
     * Click **Today** to center the timeline to today's date. 
-    * Select one of the following options from the time frame drop-down menu to update the time increments: 
+    * Select one of the following options from the time frame drop-down menu to update the time increments and update the view: 
 
-        * Year
-        * Quarter
-        * Month
+        * **Year**: Displays quarters and months with year indication. 
+        * **Quarter**: Displays months and weeks with quarter indication. 
+        * **Month**: Displays weeks and days. 
 1. (Optional) Click **Switch to Compact view** to display the records whose dates don't intersect on the same line. <!--check to see if they updated the name of the setting here--> 
 1. (Conditional) If you changed your mode to **Compact**, click **Switch to Standard** view to display records in separate lines. <span class="preview">The **Standard** option is the default.</span>  <!--check to see if they updated the name of the setting here--> 
 
@@ -262,6 +296,16 @@ Update the timeline view settings to indicate what and how information displays 
     >* Records that have no values for the Start or the End dates or have a Start date later than the End date do not display in the timeline view.
     >
     >* If you display additional records using the Breakdown option, the Start and End dates are those of the main record. You cannot choose Start and End dates for the connected records in this area. 
+
+1. <span class="preview">(Conditional and optional) If your are a Workfront administrator, click **Go to Setup** in the **Use custom quarters** box to go to the Setup area and set up custom quarters. After setting up custom quarters, you can display them in the timeline view instead of the classic quarters. If you are not a Workfront administrator, you can request that the custom quarters are enabled for your organization from an administrator. </span>
+
+    For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md). 
+
+    ![Use custom quarters warning inside timeline view settings](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
+
+    >[!TIP]
+    >
+    ><span class="preview">The Go to Setup button displays only for the Workfront administrator.</span>
 
 1. Click **Bar style** in the left panel, to indicate what information you want to display on the record bars.
 

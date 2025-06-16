@@ -11,6 +11,15 @@ exl-id: be523b27-191f-46ca-9a87-d512f9a15a1e
 ---
 # Enable [!DNL Adobe Workfront for Outlook]
 
+>[!IMPORTANT]
+>
+>[Microsoft is in the process of disabling support for legacy Exchange online tokens](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), which are currently used by the Workfront Outlook add-in for authentication. This change by Microsoft has already started affecting customers and will continue to roll out in phases through October 2025.
+>
+>* **After Microsoft fully disables these tokens, the Workfront for Microsoft Outlook integration will no longer function.** 
+>
+>As part of this change, Microsoft has made the decision to change the way tokens are re-enabled. After **June 30, 2025**, admins will no longer be able to re-enable tokens themselves—only Microsoft Support can grant exceptions. **On October 1, 2025, legacy tokens will be turned off for all tenants. Exceptions will not be granted.**  
+
+
 Before users can begin using [!DNL Adobe Workfront for Outlook], you first need to enable it for your system.
 
 For information about how to use [!DNL Workfront for Outlook] after it has been enabled, see [[!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md).

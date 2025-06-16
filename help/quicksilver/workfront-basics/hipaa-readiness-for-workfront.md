@@ -5,13 +5,11 @@ title: HIPAA Readiness for Workfront
 description: A Workfront customer who is, as defined in HIPAA, a Business Associate and/or the Covered Entity on whose behalf the Business Associate provides Adobe Workfront should use the following guidelines to configure Workfront for HIPAA-ready use.
 feature: Get Started with Workfront
 author: Courtney
-hide: yes
-hidefromtoc: yes
 exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
 ---
 # HIPAA Readiness for Workfront
 
-A Workfront customer who is, as defined in HIPAA, a Business Associate and/or the Covered Entity on whose behalf the Business Associate provides Adobe Workfront should use the following guidelines to configure Workfront for HIPAA-ready use:
+A Workfront customer who is, as defined in HIPAA, a Business Associate and/or the Covered Entity on whose behalf the Business Associate provides Adobe Workfront should use the following guidelines to configure Workfront for HIPAA-Ready use:
 
 
 ## Password requirements
@@ -60,5 +58,5 @@ In particular, the following responsibilities and obligations should be review
 * For any Workfront database where ePHI might be accessible, ensure **Encryption at Rest (EAR)** is enabled.
     * Contact your Account Executive (AE) to verify EAR is included in your Workfront purchase.
     * Configure systems/databases accessible via Workfront to meet compliance obligations.
-* Ensure ePHI is not transferred, linked, or shared with other Adobe solutions.
+* Ensure ePHI is not transferred, linked, or shared with other non-HIPAA-Ready Adobe solutions.
 * Ensure patient photographs processed via Workfront are stored securely and not publicly accessible.

@@ -97,6 +97,10 @@ Before using the Admin Console for Workfront, you should receive an email inviti
 
 * Adobe Admin Console administrators can set up automatic assignment rules to automate the process of assigning Adobe products to users in their organization. Your organization must be migrated to the Adobe Unified Experience to use this functionality. For more information and instructions, see [Manage automatic assignment rules](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) in the Adobe documentation.
 
+   >[!NOTE]
+   >
+   >If you are selecting a trusted organization when configuring automatic assignments, the organization can be found in the Users in selected directories or domains area. Click the dropdown arrow next to the **Select directory** field and select the organizations. Trusted organization are marked with a Trusted badge.
+
 ## Access the user and admin area for your Production instance of Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
 1. From the [Adobe Admin Console page](https://adminconsole.adobe.com/), select the **Products** tab in the top navigation bar, and then select **Workfront**.

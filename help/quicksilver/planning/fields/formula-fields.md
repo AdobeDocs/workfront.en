@@ -61,7 +61,7 @@ You must have the following access to perform the steps in this article:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -112,6 +112,7 @@ You must have the following access to perform the steps in this article:
    * Date
 
    For more information, see the "Formula" section in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md).
+* You can reference formula fields in new formulas. Once the value is updated in a field referenced in a formula field, all subsequent fields referencing that field or formula fields that contain that field will update automatically.
 
 ## Supported formulas
 
@@ -121,12 +122,13 @@ Adobe Workfront Planning formula fields support most of the expressions from the
 >
 >The following Workfront expressions are not supported for Workfront Planning formula fields: 
 >
->* SORTASCARRAY
->* SORTDESCARRAY
+><!--* SORTASCARRAY-->
+><!--* SORTDESCARRAY-->
 >* ADDHOUR
 >* SWITCH
 >* FORMAT
 
+<!--remove the ones commented out when we go live to Preview and Prod, if they truly are added to Planning-->
 
 For a complete list of Workfront expressions, see [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
