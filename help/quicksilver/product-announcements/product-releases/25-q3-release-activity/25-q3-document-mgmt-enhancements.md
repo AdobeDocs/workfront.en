@@ -12,6 +12,14 @@ This page describes all document management enhancements made with the Third Qua
 
 For a list of all changes available at this point in the Third Quarter 2025 release cycle, see [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
+## Desktop Proofing Viewer Update
+
+The Desktop Proofing Viewer has been updated to version 2.1.50.
+
+This update includes internal tooling updates and does not impact end-user functionality. 
+
+This update is for both Mac and Windows. 
+
 ## New Proofing and GenStudio for Performance Marketing integration
 
 >[!NOTE]
