@@ -96,7 +96,7 @@ To add or edit a company:
 
    Or
 
-   If you are editing an existing company, select the company, then click **[!UICONTROL Edit]** at the top of the company list.
+   If you are editing an existing company, select the company, then click the **[!UICONTROL Edit]** icon ![Edit icon](assets/edit-icon.png) at the top of the company list.
 
 1. Update the following information:
 
