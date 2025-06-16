@@ -703,6 +703,33 @@ This filter allows messages to come through if the change that occurred contains
 }
 ```
 
+#### containsOnly
+
+This filter allows messages to come through only when the full set of selected values exactly matches the fieldValue in the filter, regardless of order. There must be no extra or missing values.
+
+Note: This is used for array-type (multi-select) fields. This example subscription below allows messages to come through only when the `groups` field contains exactly "Choice 3" and "Choice 4", with no additional or missing values, and regardless of order.
+
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": [
+                "Choice 3",
+                "Choice 4"
+            ],
+            "state": "newState",
+            "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
 #### change
 
 This filter allows messages to come through only if the specified field (`fieldName`) has a different value in oldstate and newstate. Updating other fields besides the one specified (`fieldName`) will not return that change. 
