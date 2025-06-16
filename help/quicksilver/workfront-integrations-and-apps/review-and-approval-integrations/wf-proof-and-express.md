@@ -63,8 +63,6 @@ For more detail about the information in this table, see [Access requirements in
 
 * Workfront and Adobe Express must be deployed to the same IMS Org.
 
-* The Workfront instance must be enabled on the Adobe Unified Experience.
-
 * The integration must be enabled for your accounts by the Adobe Product Team.
 
   >[!IMPORTANT]
@@ -76,7 +74,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Set up approval workflows in Workfront
 
-Before users can add an approval workflow on an Express template, you must create an approval workflow in Workfront.
+Before users can add an approval workflow on an Express template, a Proof administrator must create an approval workflow in Workfront.
 
 For more information, see [Create and manage Automated Workflow templates](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md).
 
@@ -93,7 +91,12 @@ After an approval workflow template is created in Workfront, designers with an E
 
 Adobe Express users can remix Express templates to fit their needs. Before publishing, they must request approval from the designated approvers.
 
-Throughout the content production and sign-off process, users can monitor and manage collaboration activities with the goal of achieving final approval.
+Throughout the content production and review and approval process, users can 
+
+* See who has opened the file
+* View the decision status of all participants
+* Read comments 
+* and more
 
 Learn how to get approval on designs.   
 <!--need link to help article-->
@@ -102,7 +105,7 @@ Learn how to get approval on designs.
 
 Stakeholders can provide feedback relevant to their area of expertise—-such as copy, legal, or brand—-by using markup tools and comments in the Workfront proofing viewer.
 
-They are also are responsible for making final decisions to approve the content for [final?] sign-off. 
+They are also are responsible for making final decisions to approve the content so it can be published.
 
 Learn more about how to review and approve designs in Workfront.  
 
