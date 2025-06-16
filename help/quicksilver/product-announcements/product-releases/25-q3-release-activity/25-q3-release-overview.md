@@ -55,6 +55,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer Update</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>The Desktop Proofing Viewer has been updated to version 2.1.50.
+This update includes internal tooling updates and does not impact end-user functionality. </p>
+        </td>
+        <td>June 13, 2025</td>
+        <td>June 13, 2025</td>
+        <td>June 13, 2025</td>
+    </tr> 
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New Proofing and GenStudio for Performance Marketing integration</a>
             <p>We are excited to introduce a new integration between Proofing and GenStudio for Performance Marketing. With this integration, you can 
             <ul>
