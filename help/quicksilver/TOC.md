@@ -1724,9 +1724,9 @@ feature-set: Workfront
       * [Tableau Desktop cannot establish a connection](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
       * [Power BI tool cannot connect with provided password](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
 * Manage resources {#manage-resources}
-  * [Manage resources](resource-mgmt/manage-resources.md)
+  * [Manage resources: article index](resource-mgmt/manage-resources.md)
   * Resource Management {#resource-management}
-    * [Resource Management](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
+    * [Resource Management: article index](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
     * [Get started with Resource Management](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
   * Resource Planning in Adobe Workfront {#resource-planning-in-adobe-workfront}
     * [Resource Planning: article index](resource-mgmt/resource-planning/resource-planning-overview.md)
@@ -1756,7 +1756,7 @@ feature-set: Workfront
     * [Report on Resource Planner Budgeted Hours](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
     * [Resource Planner display limitations](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
   * Resource Utilization {#resource-utilization}
-    * [Resource Utilization](resource-mgmt/resource-utilization/resource-utilization.md)
+    * [Resource Utilization: article index](resource-mgmt/resource-utilization/resource-utilization.md)
     * [View resource utilization information](resource-mgmt/resource-utilization/view-utilization-information.md)
   * The Workload Balancer {#the-workload-balancer}
     * [The Workload Balancer: article index](resource-mgmt/workload-balancer/workload-balancer.md)
