@@ -24,7 +24,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>25.5 (May 2025)</li><li>26.6 (june 2025)</li><li>25.7 (July 2025)</li></ul>| <ul><li>25.7 (July 2025)</li></ul>|
+>|<ul><li>25.5 (May 2025)</li><li>25.6 (June 2025)</li><li>25.7 (July 2025)</li></ul>| <ul><li>25.7 (July 2025)</li></ul>|
 >
 >Note that for the final release of each quarter (25.7 this quarter), users on the fast release schedule will receive the release one day early.
 >
@@ -39,9 +39,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Project enhancements](#project-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
 * [Update and notification enhancements](#update-and-notification-enhancements)
+* [Integration enhancements]
 * [Other enhancements](#other-enhancements)
     
-### Document management enhancements
+### Proofing and document management enhancements
 
 <table style="table-layout:auto">
   <tbody>
@@ -52,6 +53,34 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer Update</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>The Desktop Proofing Viewer has been updated to version 2.1.50.
+This update includes internal tooling updates and does not impact end-user functionality. </p>
+        </td>
+        <td>June 13, 2025</td>
+        <td>June 13, 2025</td>
+        <td>June 13, 2025</td>
+    </tr> 
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New Proofing and GenStudio for Performance Marketing integration</a>
+            <p>We are excited to introduce a new integration between Proofing and GenStudio for Performance Marketing. With this integration, you can 
+            <ul>
+            <li>Use Workfront approval templates to define approval workflows
+            </li>
+             <li>Review GenStudio draft content in the proofing viewer
+            </li>
+             <li>See review decisions for final approval and publishing in GenStudio 
+            </li>
+            </ul>
+            </p>
+        </td>
+        <td>June 12, 2025</td>
+        <td>June 12, 2025</td>
+        <td>June 12, 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer Update</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -123,9 +152,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Change in the way Actual Hours are stored in the database for API calls</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>This update introduces a change in the way the Actual Hours for projects, tasks, and issues are stored in the database. Starting with this update, the Actual Hours will be using a valuefield of <code>actualWorkRequiredDouble</code> (with a value in hours).</p>
         </td>
-        <td>May 27, 2025</td>
-        <td>May 27, 2025</td>
-        <td>May 27, 2025</td>
+        <td>With the next API version, scheduled for later in 2025</td>
+        <td>With the next API version, scheduled for later in 2025</td>
+        <td>With the next API version, scheduled for later in 2025</td>
     </tr>     
     <tr>
         <td>
