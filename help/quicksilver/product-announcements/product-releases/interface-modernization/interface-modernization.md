@@ -37,7 +37,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 
 ### Interface updates for creating, copying, and editing schedules
 
-**Preview release: June 19, 2025; Production release: June 26, 2025** 
+**Preview release: June 18, 2025; Production release: June 26, 2025** 
 
 We have updated the dialog box for when you create, edit, or copy a schedule with a more modern design that is consistent with other areas of Workfront. 
 
