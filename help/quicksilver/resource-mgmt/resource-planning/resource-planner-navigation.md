@@ -87,9 +87,9 @@ In order to display accurate information in the Resource Planner, you must meet 
 
 To change the view in the Resource Planner, select one of the following views in the View by drop-down menu:
 
-   * [View by Project](#view-by-project)
-   * [View by Role](#view-by-role)
-   * [View by User](#view-by-user)
+* [View by Project](#view-by-project)
+* [View by Role](#view-by-role)
+* [View by User](#view-by-user)
 
 ### View by Project {#view-by-project}
 
