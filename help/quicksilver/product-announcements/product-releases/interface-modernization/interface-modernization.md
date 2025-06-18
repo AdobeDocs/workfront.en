@@ -37,6 +37,8 @@ For information, see [Configure system updates](/help/quicksilver/administration
 
 ### Interface updates for creating, copying, and editing schedules
 
+**Preview release: June 19, 2025; Production release: June 26, 2025** 
+
 We have updated the dialog box for when you create, edit, or copy a schedule with a more modern design that is consistent with other areas of Workfront. 
 
 There are a few small functionality changes with this update: 
@@ -197,7 +199,7 @@ We have updated the look and feel of the Delete issue box when deleting one or s
 
 For information, see [Delete issues](/help/quicksilver/manage-work/issues/manage-issues/delete-issues.md).
 
-## Look and feel updates to the New and Edit risk boxes for a project or a template 
+### Look and feel updates to the New and Edit risk boxes for a project or a template 
 
 **Preview release: May 22, 2025; Production release: May 29, 2025**
 
