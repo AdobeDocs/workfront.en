@@ -271,12 +271,14 @@ The following are the main Workfront Planning objects and concepts:
     * A record type and a Workfront project, program, portfolio, company, or group object type. 
     * A record type and an Adobe Experience Manager asset or folder. 
 
-        You must have an Adobe Experience Manager license to link record types with Experience Manager objects.
+        You must have an Adobe Experience Manager license to connect record types with Experience Manager objects.
 
         ![New connection tab with Workfront AEM options](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
     After you establish a connection between the record types, you can connect individual records or objects of those types to one another. The connection between the records displays as a connected record field, or a connection.
+
+    Connecting record types is helpful when you have several types of work objects affecting one another. For example, you might work with campaigns and each campaign might cater to multiple brands. To indicate this relationship, you can connect campaigns to brands. Additionally, the work for each campaign might be planned out in multiple projects in Workfront. To indicate this, you can connect the campaigns to the relevant projects. Connecting record types, and subsequently connecting individual records achieves this relationship in Workfront Planning. 
 
 * **Lookup fields** (or linked fields): After you establish the connection between two record types and you connect individual records together, you can reference the fields from the connected records from the record you are connecting from.
 
@@ -293,7 +295,7 @@ The following are the main Workfront Planning objects and concepts:
     >* Last modified by
     >* Workfront typeahead fields (including fields like Project Owner, or Project Sponsor)
 
-    For information about linking record types, records, and creating linked fields, see the following articles:
+    For information about connecting record types, records, and creating linked fields, see the following articles:
 
     * [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
     * [Connect records](/help/quicksilver/planning/records/connect-records.md)

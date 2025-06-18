@@ -254,6 +254,10 @@ For additional examples of validation logic, see [Examples of advanced logic in 
    
    The logic is applied to the field in the form designer.
 
+   >[!NOTE]
+   >
+   >Validation logic is not supported in the form designer preview mode.
+
 <!--
 <div class="preview">
 
