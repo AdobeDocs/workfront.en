@@ -125,7 +125,7 @@ This update includes internal tooling updates and does not impact end-user funct
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated commenting experience in the Mentions widget on the My Updates area</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated commenting experience in the Mentions section on the My Updates area</a><p></p>
             <p>We are updating the commenting experience in the Mentions section in the My Updates area. Now, the same experience in the Updates area of most Workfront objects is also available in the Mentions section of My Updates.</p>
         </td>
         <td>December 19, 2024</td>

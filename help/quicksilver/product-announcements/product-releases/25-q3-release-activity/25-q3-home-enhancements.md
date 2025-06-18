@@ -12,7 +12,7 @@ This page describes all Home enhancements made with the Third Quarter 2025 relea
 
 For a list of all changes available at this point in the Third Quarter 2025 release cycle, see [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
-## Updated commenting experience in the Mentions widget on the My Updates area  
+## Updated commenting experience in the Mentions section on the My Updates area  
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ For a list of all changes available at this point in the Third Quarter 2025 rele
 
 We are updating the commenting experience in the Mentions section in the My Updates area. Now, the same experience in the Updates area of most Workfront objects is also available in the Mentions section of My Updates.   
 
-Prior to this enhancement, the legacy commenting experience was available in these areas.   
+Prior to this enhancement, the legacy commenting experience was available in this area.   
 
 For information, see [Use the My Updates area](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md).
 

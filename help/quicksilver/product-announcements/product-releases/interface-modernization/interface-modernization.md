@@ -19,15 +19,15 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Administration and Setup
 
-### Look and feel updates for the Update Feeds section of Setup (title) 
+### Look and feel updates for the Update Feeds section of Setup 
 
 **Preview release: June 19, 2025; Production release: June 26, 2025** 
 
 We have updated the look and feel of all the tabs and subtabs in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, all the tabs in the Update Feeds section match other areas of Workfront. 
 
-For information, see the articles in the article [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md).
+For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.
 
-### Look and feel updates for the Add fields box in the Update Feeds section of Setup (title) 
+### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
 
 **Preview release: June 19, 2025; Production release: June 26, 2025** 
 
@@ -165,7 +165,7 @@ We have updated the page you use to grant support access to your Workfront accou
 
 ## Projects
 
-### New look and feel for logging time on a project, task, or issue in the Hours tab (title)  
+### New look and feel for logging time on a project, task, or issue in the Hours tab   
 
 **Preview release: June 19, 2025; Production release: June 26, 2025** 
 
