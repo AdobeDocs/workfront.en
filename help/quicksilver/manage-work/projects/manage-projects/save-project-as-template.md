@@ -15,6 +15,7 @@ exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Keep this the way it is in the Managing Projects area because the functionality in the UI is "Save as template" at the project level, so users see that in the UI; there is another article that this links to which is more in depth (step-by-step). This functionality needs to stay in both projects AND templates areas.)</p>
 -->
 
+<!--
 <div class="preview">
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
@@ -22,6 +23,7 @@ The highlighted information on this page refers to functionality not yet general
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
 </div>
+-->
 
 If you decide that a project is going to occur again sometime in the future, you can create a template from that existing project. Then, you can use the template again, to create future projects that might contain similar information or might share the same timeline or assignments with the existing project.
 
@@ -61,9 +63,11 @@ If you decide that a project is going to occur again sometime in the future, you
 
 ## Save a project as a template
 
+<!--
 Saving a project as a template differs in the Production and the Preview environments. 
 
 ### Save a project as a template in the Production environment
+
 
 1. Go to the project that you want to save as a template. 
 1. Click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png), then **Save as Template**. 
@@ -119,6 +123,8 @@ Saving a project as a template differs in the Production and the Preview environ
 
 ### Save a project as a template in the Preview environment
 
+-->
+
 1. Go to the project that you want to save as a template. 
 1. Click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png), then **Save as Template**. 
 1. In the **Save as Template** section, specify the following information for the template:
@@ -159,7 +165,7 @@ Saving a project as a template differs in the Production and the Preview environ
 
 1. Update information in the attached custom forms, if needed. The information will transfer to the template. 
 
-1. Click **Options** in the left panel section, then select the checkbox beside any information you want to transfer to the template. Deselected items are not transferred to the template. All options are deselected, by default. 
+1. Click **Options** in the left panel, then select the checkbox beside any information you want to transfer to the template. Deselected items are not transferred to the template. All options are deselected, by default. 
 
    ![Options area in the save as template box](assets/options-area-in-save-as-template-box.png)
 
@@ -167,8 +173,7 @@ Saving a project as a template differs in the Production and the Preview environ
 
    ![Exclude area in the save as template box](assets/exclude-area-save-as-template-box.png)
 
-1. Click **Finish and Save Template.**
+1. Click **Finish and Save Template** in the upper-right corner of the screen. 
 
    Your template now appears in the list of available templates and can either be attached to an existing project or used to create a new one.
 
-</span>

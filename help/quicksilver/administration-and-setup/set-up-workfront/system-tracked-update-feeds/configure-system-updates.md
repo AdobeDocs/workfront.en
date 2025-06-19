@@ -13,13 +13,13 @@ exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
 
 <!-- Audited: 6/2025 -->
 
-<div class="preview">
+<!--<div class="preview">
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div>
+</div> -->
 
 [!DNL Adobe Workfront] generates automatic system updates in an object's [!UICONTROL Updates] area to record the following events:
 
@@ -90,6 +90,39 @@ You can add fields you want [!DNL Workfront] to track for a particular type of o
 {{step-1-to-setup}}
 
 1. In the panel on the left, click **[!UICONTROL Interface]**, then **[!UICONTROL Update Feeds]**.
+1. (Optional) In the **Tracked Fields** tab, click one of the following subtabs, depending on which types of fields you want to track in the update feed:
+
+   * **Built-in Fields**: Displays a list of built-in fields.
+   * **Custom Fields**: Displays a list of custom fields. You must create the custom fields before they are available in the list. 
+   * **All Fields**: Displays a list of both built-in and custom fields. 
+
+1. Click **[!UICONTROL Add Fields]**, then select the object that you want to be tracked from the drop-down. 
+
+   Manually selecting fields is not available for all the objects that have an Updates area.
+
+   Select from fields for the following objects:
+
+      * Project
+      * Task
+      * Issue
+      * Portfolio
+      * Program
+      * User
+
+   The **Add Fields**  box opens, for each object selected.
+1. In the **Add Fields** box, start typing either a built-in (standard) field or a custom field for the object, then select it when it appears in the list.
+
+   >[!NOTE]
+   >
+   >If [!DNL Workfront] is already tracking the field, you can't add it a second time from the list.
+
+1. After adding all the fields you want [!DNL Workfront] to track,  click **[!UICONTROL Add Fields]**.
+   The built-in fields that you added show under the **[!UICONTROL Built-in Fields]** subtab, and the custom fields show under the **[!UICONTROL Custom Fields]** subtab.
+   The **[!UICONTROL All Fields]** subtab shows both the built-in and the custom fields that [!DNL Workfront] tracks.
+
+<!-- replace the above when releasing to Preview: 
+
+1. In the panel on the left, click **[!UICONTROL Interface]**, then **[!UICONTROL Update Feeds]**.
 1. (Optional) In the <span class="preview">**Tracked fields** tab</span>, click one of the following subtabs, depending on which types of fields you want to track in the update feed:
 
    * <span class="preview">**Built-in fields**</span>: Displays a list of built-in fields.
@@ -120,6 +153,8 @@ You can add fields you want [!DNL Workfront] to track for a particular type of o
    The built-in fields that you added show under the **[!UICONTROL Built-in fields]** subtab, and the custom fields show under the **[!UICONTROL Custom fields]** subtab.
    The **[!UICONTROL All fields]** subtab shows both the built-in and the custom fields that [!DNL Workfront] tracks.</span>
 
+-->
+
 ### Remove fields you don't want tracked {#remove-fields-you-don-t-want-tracked}
 
 You can remove fields you don't want the system to track for a particular type of object throughout the [!DNL Workfront] interface.
@@ -128,9 +163,18 @@ You can remove fields you don't want the system to track for a particular type o
 
 1. Click **[!UICONTROL Interface]**, then **[!UICONTROL Update Feeds]**.
 
+1. On the **[!UICONTROL Tracked Fields]** tab, select the **[!UICONTROL All fields]** subtab. Both the built-in and custom fields that are currently being tracked display.
+
+1. Select the field you want to stop tracking, then click the **[!UICONTROL Remove]**.
+
+
+<!--replace above at Preview release with this:
+
 1. On the <span class="preview">**[!UICONTROL Tracked fields]** tab</span>, select the **[!UICONTROL All fields]** subtab. Both the built-in and custom fields that are currently being tracked display.
 
 1. Select the field you want to stop tracking, then click the <span class="preview">**[!UICONTROL Remove]** icon ![Remove icon](assets/remove-icon.png).</span>
+
+-->
 
 1. In the **[!UICONTROL Remove Field]** box that appears, click **[!UICONTROL Yes, Remove It]** to confirm.
 
