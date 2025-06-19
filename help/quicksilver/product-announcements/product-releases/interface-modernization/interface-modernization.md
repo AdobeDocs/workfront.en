@@ -54,7 +54,7 @@ For information, see [Create a schedule](/help/quicksilver/administration-and-se
 
 ### Update to the Access Levels dialog 
 
-**Preview release: June 19, 2025; Production release: To be announced**
+**Preview release: June 19, 2025; Production release: June 19, 2025**
 
 We have updated the Access Levels dialog box with a more modern design that is consistent with other areas of Workfront.
 
