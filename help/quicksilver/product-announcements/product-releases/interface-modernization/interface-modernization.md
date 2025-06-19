@@ -254,14 +254,14 @@ For information, see [Create a custom report](/help/quicksilver/reports-and-dash
 
 ### Updated reports with new styling
 
-**Preview release: June 12, 2025; Production release: To be announced**
+**Preview release: June 12, 2025; Production release: June 19. 2025**
 
 We have updated the look and feel of multiple reports, to match the design of other areas of Workfront. No functionality has changed.
 
 This update includes visual changes to the lists and toolbars of the reports for the following object types:
 
 * Risks
-* Baselines (Released to production June 19. 2025)
+* Baselines
 * Rates
 * Layout Templates
 
