@@ -19,6 +19,7 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Administration and Setup
 
+<!--
 ### Look and feel updates for the Update Feeds section of Setup 
 
 **Preview release: June 19, 2025; Production release: June 26, 2025** 
@@ -26,7 +27,9 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 We have updated the look and feel of all the tabs and subtabs in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, all the tabs in the Update Feeds section match other areas of Workfront. 
 
 For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.
+-->
 
+<!--
 ### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
 
 **Preview release: June 19, 2025; Production release: June 26, 2025** 
@@ -34,6 +37,7 @@ For information, see the articles in the [System-tracked update feeds](/help/qui
 We have updated the look and feel of the Add fields box in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, when you add fields in any subtab of the Tracked Fields tab, the Add fields box has a new look and feel, and some of the interface elements have been updated.  
 
 For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+-->
 
 ### Interface updates for creating, copying, and editing schedules
 
@@ -62,6 +66,7 @@ The button to fine-tune access has moved to the right of the Edit button.
 
 To view this change, go to Setup > Access Levels > New Access Level.
 
+<!--
 ### Interface updates for the Companies page
 
 **Preview release: June 19, 2025; Production release: June 26, 2025**
@@ -73,10 +78,11 @@ This update includes visual changes to the list of companies. No functionality h
 To view the change, go to Setup > Companies.
 
 For information, see [Create and edit companies](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+-->
 
 ### Interface updates for the Customer Info page
 
-**Preview release: June 12, 2025; Production release: June 19, 2025**
+**Preview release: June 12, 2025; Production release: To be announced**
 
 We have updated the Customer Info page with a more modern design that is consistent with other areas of Workfront.
 
@@ -167,6 +173,7 @@ We have updated the page you use to grant support access to your Workfront accou
 
 ## Projects
 
+<!--
 ### New look and feel for logging time on a project, task, or issue in the Hours tab   
 
 **Preview release: June 19, 2025; Production release: June 26, 2025** 
@@ -174,10 +181,11 @@ We have updated the page you use to grant support access to your Workfront accou
 We have updated the look and feel of the Log time box when logging time for a project, task, or issue in the Hours tab, to match the design of other areas of Workfront.  
 
 For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+-->
 
 ### Interface updates for the Associated projects section of a project (available for specific customers only)
 
-**Preview release: June 12, 2025; Production release: June 19, 2025**
+**Preview release: June 12, 2025; Production release: To be announced**
 
 We have updated the Associated projects section of a project with a more modern design that is consistent with other areas of Workfront.
 
@@ -185,7 +193,7 @@ Specific customers can view this change by going to a project's Associated proje
 
 ### New look and feel for the "Save as template" box 
 
-**Preview release: June 12, 2025; Production release: June 19, 2025**
+**Preview release: June 12, 2025; Production release: To be announced**
 
 We have updated the look and feel of the "Save as template" box that displays when saving a project as a template. The new design includes a streamlined interface, where all the sections display in one cohesive form which you can navigate by using links in the left panel. The new design matches other areas and other objects in the application.  
 
@@ -234,6 +242,7 @@ For information, see the following articles:
 
 ## Reports and Dashboards
 
+<!--
 ### Interface updates for the Expense report
 
 Preview release: June 19, 2025; Production release: June 26, 2025
@@ -241,17 +250,18 @@ Preview release: June 19, 2025; Production release: June 26, 2025
 We have updated the look and feel of the Expense report to match the design of other areas of Workfront.
 
 For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+-->
 
 ### Updated reports with new styling
 
-**Preview release: June 12, 2025; Production release: June 19, 2025**
+**Preview release: June 12, 2025; Production release: To be announced**
 
 We have updated the look and feel of multiple reports, to match the design of other areas of Workfront. No functionality has changed.
 
 This update includes visual changes to the lists and toolbars of the reports for the following object types:
 
 * Risks
-* Baselines
+* Baselines (Released to production June 19. 2025)
 * Rates
 * Layout Templates
 
@@ -270,6 +280,7 @@ We recommend replacing the URL to go to a supported page, or removing the extern
 
 ## Users 
 
+<!--
 ### Interface updates to the organizational chart
 
 **Preview release: June 19, 2025; Production release for all customers: June 26, 2025**
@@ -279,6 +290,7 @@ We have updated the look and feel of the organizational chart associated with a 
 To view this change, go to a Workfront user profile and click **Org Chart** in the left panel. (This feature is available through the Workfront user profile, not the Adobe user profile.)
 
 For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+-->
 
 ### Interface update to the new user registration page
 
