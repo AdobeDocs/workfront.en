@@ -242,7 +242,6 @@ For information, see the following articles:
 
 ## Reports and Dashboards
 
-<!--
 ### Interface updates for the Expense report
 
 Preview release: June 19, 2025; Production release: June 26, 2025
@@ -250,7 +249,6 @@ Preview release: June 19, 2025; Production release: June 26, 2025
 We have updated the look and feel of the Expense report to match the design of other areas of Workfront.
 
 For information, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
--->
 
 ### Updated reports with new styling
 
