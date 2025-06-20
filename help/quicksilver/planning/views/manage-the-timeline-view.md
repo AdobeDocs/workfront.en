@@ -23,9 +23,7 @@ For information about record views, see [Manage record views](/help/quicksilver/
 
 +++ Expand to view access requirements. 
 
-You must have the following access to perform the steps in this article:  
-
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -140,7 +138,7 @@ To manage a timeline view:
 
     ![Missing custom quarters original message on timeline view](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
-    These warning messages display once per each user. 
+    The warning messages about the custom quarters display once per each user. 
 
     >[!NOTE]
     >
@@ -156,12 +154,12 @@ To manage a timeline view:
     >
     ><span class="preview">The Go to Setup button displays only for the Workfront administrator.</span>
     
-1. (Optional and conditional) When the record name is truncated, hover over a record bar to display the full name of the record and additional information. 
+1. (Optional and conditional) When the record name is truncated, hover over a record bar to display the full name of the record and additional information. For information about setting up record bar truncation in the timeline, see the section [Edit the timeline view settings](#edit-the-timeline-view-settings) in this article.
 
 1. Do one of the following to navigate through the timeline:
 
-    * Click the left and right icons or use the horizontal scroll to move backwards and forwards in the timeline. Refreshing the page preserves the selected time frame. 
-    * Click **Today** to center the timeline to today's date. 
+    * Click the left and right icons in the upper-left corner or use the horizontal scroll to move backwards and forwards in the timeline. Refreshing the page preserves the selected time frame. 
+    * Click **Today** in the upper-right corner to center the timeline to today's date. 
     * Select one of the following options from the time frame drop-down menu to update the time increments and update the view: 
 
         * **Year**: Displays quarters and months with year indication. 
@@ -212,12 +210,105 @@ Consider the following when working with filters in the timeline view:
 
 * Removing filters removes them from anyone accessing the same record type as you and who displays the same view as you do. 
 
-* Adding filters in the timeline view is identical to adding filters in the table view. 
-
-    For more information, see the "Add filters" section in the article [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
-
 * You can filter by connected record fields or lookup fields. 
 * You can filter by lookup fields that display multiple values. 
+
+To add a filter to a timeline view: 
+
+1. Create a timeline view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. Select a timeline view, then click **Filters** in the upper-right corner of the table.    
+1. Click **Add condition** and add the following information: 
+
+    * **Select a field** that you want to filter by <!-- the tip below might change-->
+
+    * **Select an option** (or a filter modifier) to define what kind of condition the field must meet
+
+        The table below displays the available modifiers for each type of field.
+
+        <table>
+        <thead>
+        <tr>
+            <th><b>Field type</b></th>
+            <th><b>Modifiers</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Single-line, Paragraph, Formula </td>
+            <td><p>Contains</p>
+            <p>Does not contain</p>
+            <p>Is</p>
+            <p>Is not</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr><td>Single-select</td>
+            <td><p>Is</p>
+            <p>Is not</p>
+            <p>Is any of</p>
+            <p>Is none of</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr>
+            <td>Multi-select, People</td>
+            <td><p>Has any of</p>
+            <p>Has all of</p>
+            <p>Is exactly</p>
+            <p>Has none of</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr>
+            <td>Number, Percentage, Currency</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p> < </p>
+            <p>></p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td><p>Is</p>
+            <p>Is not</p>
+            <p>Is after</p>
+            <p>Is before</p>
+            <p>Is between</p><p>Is not between</p>
+            <p>Is empty</p><p>Is not empty</p></td>
+        </tr>
+
+        <tr>
+            <td>Checkbox</td>
+            <td><p>Is</p>
+        </tr>
+        </tbody>
+        </table> 
+
+    * Select a value for the field selected. 
+
+     ![Filter UI table view](assets/filter-ui-table-view.png)
+
+    There is no limit to how many filtering conditions you can add.
+
+1. (Optional) Click **Add condition** to add another filtering option and repeat the above steps. The number of filters applied displays to the left of the **Filters** icon. 
+1. Click the following operators to the left to indicate how the filter conditions are joined and should be applied:
+
+    * **AND**: All specified conditions must be met. 
+    * **OR**: Any of the specified conditions must be met. 
+        This is the default option. 
+
+    1. (Optional) Add additional filter groupings and join them by **AND** or **OR** operators. 
+
+        ![Multi-tiered filters in views](assets/multi-tiered-filters-in-views.png)
+
+    The list of records is filtered automatically based on your filter criteria.  <!--at this time, you can't name and save the filter - but will this change?!-->
+    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
+
+1. (Optional) Click the **x** icon to remove a filter condition.
+1. (Optional) Click **Filters** or anywhere else on the page to close the filters box. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
 ### Add grouping
@@ -225,8 +316,6 @@ Consider the following when working with filters in the timeline view:
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 You can group records by similar information when applying  a grouping to a view.
-
-Adding groupings in the timeline view is similar to adding groupings to the table view. 
 
 Consider the following when working with groupings in the timeline view:
 
@@ -314,7 +403,7 @@ Update the timeline view settings to indicate what and how information displays 
     The primary field (or title) of the record, as defined in the record's table view, is selected by default.
     <!--adjust this when the primary field is released??-->
 
-1. (Optional and conditional) If you added thumbnails to records, select the Thumbnail option to display the image associated with records in their record bar. 
+1. (Optional and conditional) If you added thumbnails to records, select the **Thumbnail** option to display the image associated with records in their record bar. 
 
     >[!NOTE]
     >
@@ -334,13 +423,13 @@ Update the timeline view settings to indicate what and how information displays 
 
     ![Record details panel timeline settings with preview](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview">(Optional and conditional) If you display the timeline in the Standard mode, enable the **Truncate bar details** setting. When enabled, the information on the record bars is truncated, and only displays fully when you hover over the bars. This setting is disabled by default, and the information is fully displayed on the bars. </span>
+1. <span class="preview">(Optional and conditional) If you display the timeline in the Standard mode, select the **Truncate bar details** setting. When selected, the information on the record bars is truncated, and it only displays fully when you hover over the bars. This setting is deselected by default, and the  record information is fully displayed on the bars. </span>
 
     ![Truncate setting enabled on timeline settings box highlighted](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
     >[!TIP]
     >
-    ><span class="preview">The Truncate bar details setting is not available when displaying the timeline view in Compact mode, and it is not available in the Calendar view.</span>
+    ><span class="preview">The Truncate bar details setting is not available when displaying the timeline view in Compact mode.</span>
     >
 
 1. Click **Color** in the left panel, to customize the colors of the records and groupings in the timeline. 
@@ -386,13 +475,11 @@ Update the timeline view settings to indicate what and how information displays 
 
     If you do not have a field with color-coded options for the selected record type, this option is dimmed.
 
-1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>
+1. <span class="preview">(Optional) If you are using the **Breakdown** option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>
 
 1. Click **Save**.
 
     The records display in the timeline view with the specifications that you selected.
-
-
 
 ### Break down connected records in the timeline view
 
