@@ -707,7 +707,9 @@ This filter allows messages to come through if the change that occurred contains
 
 This filter allows messages to come through only when the full set of selected values exactly matches the fieldValue in the filter, regardless of order. There must be no extra or missing values.
 
-Note: This is used for array-type (multi-select) fields. This example subscription below allows messages to come through only when the `groups` field contains exactly "Choice 3" and "Choice 4", with no additional or missing values, and regardless of order.
+>[!NOTE]
+>
+>This is used for array-type (multi-select) fields. This example subscription below allows messages to come through only when the `groups` field contains exactly "Choice 3" and "Choice 4", with no additional or missing values, and regardless of order. If a string or an integer is specified in `fieldValue` rather than an array, the subscription allows messages to come through only when the `groups` field contains exactly one option and that option exactly matches the string or integer specified in `fieldValue`"
 
 
 ```
@@ -725,6 +727,31 @@ Note: This is used for array-type (multi-select) fields. This example subscripti
             ],
             "state": "newState",
             "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
+#### notContains
+
+This filter allows messages to come through only when the specified field (`fieldName`) does not contain the specified value (`fieldValue`) .
+
+>[!NOTE]
+>
+>This is used for array-type (multi-select) or string fields. If the field is a string, we will check if the specified value is not contained in the string (for example, "New" is not in the string "Project - Updated"). If the field is an array and the specified field value is a string or integer, we will check if the array does not contain the specified value (for example, "Choice 1" not in ["Choice 2", "Choice 3"]). The example subscription below allows messages to come through only when the `groups` fields does not contain the string "Group 2".
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": "Group 2",
+            "state": "newState",
+            "comparison": "notContains"
         }
     ]
 }
