@@ -8,7 +8,7 @@ exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
 ---
 # Apply a scorecard to a project and generate an Alignment Score
 
-<!-- Audited: 02/2024 -->
+<!-- Audited: 06/2025 -->
 
 You can use a scorecard to measure how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects the mission, values, and strategic goals of an organization.
 
@@ -23,14 +23,14 @@ For more information about scorecards and how you can create one, see [Create a 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td>
    <p>Current: Prime or higher</p>
    <p>or</p>
    <p>Legacy: Business or higher</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td>
    <p>Current: Standard</p>
    <p>or</p>
@@ -47,7 +47,7 @@ For more information about scorecards and how you can create one, see [Create a 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
