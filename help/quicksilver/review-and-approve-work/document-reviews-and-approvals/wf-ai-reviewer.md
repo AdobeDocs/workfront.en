@@ -42,7 +42,7 @@ The AI Reviewer is able to review the following file types:
 
 ## Set up brand guidelines
 
-Where?
+You can set up brand guidelines in GenStuido
 
 https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/overview
 
@@ -63,6 +63,8 @@ Choose brand category
 [new article]
 
 ## Add AI reviewer to an approval workflow
+
+You can add an AI reviewer to an existing approval workflow template or to an adhoc approval request. 
 
 ### Template 
 
