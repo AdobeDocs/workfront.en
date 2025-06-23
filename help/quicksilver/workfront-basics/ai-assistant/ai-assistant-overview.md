@@ -132,7 +132,7 @@ To request the Adobe Gen AI agreement:
 1. When the Adobe Gen AI agreement message appears, click **Review agreement**.
 1. Enter the name and email address of the individual at your organization who will sign the Adobe Gen AI agreement.
 
-   The agreement will be sent to this individual for signing. After it is signed and returned, AI Assistant is enabled for your organization.
+   The agreement will be sent to this individual for signing. After it is signed and returned, the agreement is reviewed by Adobe, and then AI Assistant is enabled for your organization.
 
 ## Tips for creating prompts in AI Assistant
 
