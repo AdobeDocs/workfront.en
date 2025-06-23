@@ -390,7 +390,7 @@ You can create a calculated custom field that displays a text-formatted value us
    <td><strong>ARRAYCONTAINS</strong> </td> 
    <td> <p>Searches for a specific value in a list or array. If the value is found, the function returns True, otherwise it returns False. </p> 
    <p>The expression is formatted as follows:</p>
-   <p><code>ARRAY(value 1, value 2)</code></p> 
+   <p><code>ARRAYCONTAINS(array, value)</code></p> 
    </td> 
   </tr>
 
