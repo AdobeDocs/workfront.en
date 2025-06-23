@@ -100,7 +100,7 @@ Consider the following:
     
     * Record dates
     * Record system-generated fields: Created date, Last modified date
-    * Lookup dates from connected record or object types.
+    * Lookup dates from connected record or object types (only when you added an aggregator for them when you connected the record or object types)
 * Depending on the dates associates with the records, some records might not display in the timeline view in the following scenarios:
 
     * When the Start and End dates have no values
