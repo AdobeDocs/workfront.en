@@ -36,4 +36,7 @@ For information, see [Use the My Updates area](/help/quicksilver/workfront-basic
 
 We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list.
 
+Currently, only Proof Approvals can be sorted by deadline in the My Approvals widget.
+
 Previously, the widget sorted by entry date, which made it challenging to determine priority.
+
