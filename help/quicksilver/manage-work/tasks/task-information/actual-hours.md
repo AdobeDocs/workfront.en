@@ -138,7 +138,7 @@ You must account for the conversion from minutes to hours when accessing these f
 
 Depending on how you are accessing Actual Hours, they can be stored in the following fields and units in the database: 
 
-* In the API: The `valuefield` for Actual Hours is `actualWorkRequiredDouble` which is stored in hours.
+* In the API: With the following version of the Workfront API scheduled to release later in 2025, the `valuefield` for Actual Hours is `actualWorkRequiredDouble` which is stored in hours. The current version stored Actual Hours as `actualWorkRequired` which is stored in minutes. 
 * In the Workfront interface (calculated custom field and columns): The `valuefield` for Actual Hours is `actualWorkRequired` which is stored in minutes.
 
 <!--Change the above with this when we fix this for the Workfront UI: 

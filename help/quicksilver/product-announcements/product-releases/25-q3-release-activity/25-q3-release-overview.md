@@ -24,7 +24,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>25.5 (May 2025)</li><li>26.6 (june 2025)</li><li>25.7 (July 2025)</li></ul>| <ul><li>25.7 (July 2025)</li></ul>|
+>|<ul><li>25.5 (May 2025)</li><li>25.6 (June 2025)</li><li>25.7 (July 2025)</li></ul>| <ul><li>25.7 (July 2025)</li></ul>|
 >
 >Note that for the final release of each quarter (25.7 this quarter), users on the fast release schedule will receive the release one day early.
 >
@@ -41,7 +41,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Update and notification enhancements](#update-and-notification-enhancements)
 * [Other enhancements](#other-enhancements)
     
-### Document management enhancements
+### Proofing and document management enhancements
 
 <table style="table-layout:auto">
   <tbody>
@@ -52,6 +52,33 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer Update</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>The Desktop Proofing Viewer has been updated to version 2.1.50. This update includes internal tooling updates and does not impact end-user functionality.</p>
+        </td>
+        <td>June 13, 2025</td>
+        <td>June 13, 2025</td>
+        <td>June 13, 2025</td>
+    </tr> 
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New Proofing and GenStudio for Performance Marketing integration</a>
+            <p>We are excited to introduce a new integration between Proofing and GenStudio for Performance Marketing. With this integration, you can 
+            <ul>
+            <li>Use Workfront approval templates to define approval workflows
+            </li>
+             <li>Review GenStudio draft content in the proofing viewer
+            </li>
+             <li>See review decisions for final approval and publishing in GenStudio 
+            </li>
+            </ul>
+            </p>
+        </td>
+        <td>June 12, 2025</td>
+        <td>June 12, 2025</td>
+        <td>June 12, 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer Update</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -97,8 +124,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated commenting experience in the Mentions section on the My Updates area</a><p></p>
+            <p>We are updating the commenting experience in the Mentions section in the My Updates area. Now, the same experience in the Updates area of most Workfront objects is also available in the Mentions section of My Updates.</p>
+        </td>
+        <td>December 19, 2024</td>
+        <td>June 19, 2025</td>
+        <td>June 19, 2025</td>
+    </tr>     
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">My approvals widget now automatically sorts by deadline </a><p></p>
-            <p>We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list. </p>
+            <p>We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list. </p><p><b>Note:</b> Currently, only Proof Approvals can be sorted by deadline in the My Approvals widget.</p>
         </td>
         <td>May 29, 2025</td>
         <td>June 12, 2025</td>
@@ -123,9 +159,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Change in the way Actual Hours are stored in the database for API calls</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>This update introduces a change in the way the Actual Hours for projects, tasks, and issues are stored in the database. Starting with this update, the Actual Hours will be using a valuefield of <code>actualWorkRequiredDouble</code> (with a value in hours).</p>
         </td>
-        <td>May 27, 2025</td>
-        <td>May 27, 2025</td>
-        <td>May 27, 2025</td>
+        <td>With the next API version, scheduled for later in 2025</td>
+        <td>With the next API version, scheduled for later in 2025</td>
+        <td>With the next API version, scheduled for later in 2025</td>
     </tr>     
     <tr>
         <td>
@@ -261,9 +297,9 @@ There are no updates for the following at this point in the release:
 
 ### New version of Workfront for Microsoft Teams
 
-As Microsoft transitions to the New Teams client, the Classic Teams client will no longer be available after July 1, 2025. In preparation, we are developing a new version of the Microsoft Teams integration that will be fully compatible with the New Teams client and available before July 1 to ensure a smooth transition.
+As [Microsoft transitions to the New Teams client](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), the Classic Teams client will no longer be available after July 1, 2025. To continue using Microsoft Teams and integrated apps like Workfront, customers must transition to the New Teams client before this date. 
 
-Instructions on how to download and install the integration in the New Teams client will become available after the integration is released.
+The updated Workfront integration is now available and fully compatible with the New Teams experience. In most cases, Workfront will appear automatically once users have transitioned. If it does not, the integration can be manually installed from the Microsoft Teams App Store. To install or verify the Workfront integration in the New Teams client, see [Install [!DNL Adobe Workfront] for Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 ### Workfront for Microsoft Outlook
 

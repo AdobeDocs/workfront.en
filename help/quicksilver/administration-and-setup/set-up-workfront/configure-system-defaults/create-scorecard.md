@@ -36,15 +36,13 @@ You can create a scorecard in the following way:
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>New: [!UICONTROL Prime] or higher</p>
+   <td> <p>New: Ultimate</p>
    <p>Current: [!UICONTROL Business] or higher</p> 
    </td> 
   </tr> 
@@ -54,10 +52,15 @@ You must have the following access:
    <p>Current: [!UICONTROL Plan]</p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader"><p>Access level</p></td> 
+   <td><p>System Administrator</p>
+   </td> 
+  </tr>
  </tbody> 
 </table>
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

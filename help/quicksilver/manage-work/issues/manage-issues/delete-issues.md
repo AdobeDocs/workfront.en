@@ -126,10 +126,12 @@ Depending on how your Workfront or group administrator configures the Project, T
    ![Issue More menu](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Click **Delete Issue**. 
-1. If the deletion is allowed, click **Delete**.
+1. Click **Delete** to.
    
-   Your Workfront administrator might not allow the deletion of issues where hours are logged.  
-   For more information about the access and permissions needed to delete an issue, see the section [Considerations for deleting issues](#considerations-for-deleting-issues) in this article.
+    >[!NOTE]
+    >
+    >  Your Workfront administrator might not allow the deletion of issues where hours are logged.  
+    >  For more information about the access and permissions needed to delete an issue, see the section [Considerations for deleting issues](#considerations-for-deleting-issues) in this article.
 
 ## Restore deleted issues
 
