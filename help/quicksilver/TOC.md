@@ -1693,17 +1693,6 @@ feature-set: Workfront
       * [Share a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
       * [Remove an External Page from a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
       * [Canvas Dashboards overview](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-  * Enhanced analytics {#enhanced-analytics}
-    * [Enhanced analytics](enhanced-analytics/enhanced-analytics.md)
-    * [Enhanced analytics overview](enhanced-analytics/enhanced-analytics-overview.md)
-    * [Apply filters in Enhanced analytics](enhanced-analytics/use-enhanced-analytics-filters.md)
-    * [Understand Enhanced analytics KPIs](enhanced-analytics/understand-enhanced-analytics-kpis.md)
-    * [View the Flight plan visualization in Enhanced analytics](enhanced-analytics/flight-plan-overview.md)
-    * [View the Burndown visualization in Enhanced analytics](enhanced-analytics/burndown-overview.md)
-    * [View the Tasks in flight visualization in Enhanced analytics](enhanced-analytics/tasks-in-flight-overview.md)
-    * [View the Project activity visualization in Enhanced analytics](enhanced-analytics/project-activity-overview.md)
-    * [View the Project treemap visualization in Enhanced analytics](enhanced-analytics/project-treemap-overview.md)
-    * [View the Activity by team visualization in Enhanced analytics](enhanced-analytics/activity-by-team-overview.md)
   * Workfront Data Connect {#data-lake}
     * [Workfront Data Connect overview](reports-and-dashboards/data-lake/data-lake-overview.md)
     * [Create a reader account or connection for Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
