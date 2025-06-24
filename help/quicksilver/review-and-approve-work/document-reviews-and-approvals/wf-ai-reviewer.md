@@ -20,7 +20,7 @@ Check brand guideline adherence in seconds with the AI Reviewer.
 
 must be on Unified Approvals
 
-## Access needed
+## Access requirements
 
 Set up:
 
@@ -42,15 +42,13 @@ The AI Reviewer is able to review the following file types:
 
 ## Set up brand guidelines
 
-You can set up brand guidelines in GenStuido
+The Workfront AI Reviewer uses the Brand guildelines in Genstudio for Performance Marketing when it reviews your content. 
 
-https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/overview
+To learn more about brand guildelines, see
 
-https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines
+* [GenStudio for Performance Marketing Brands](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [Add guidelines](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
-
-
-[New article]
 
 ## Set up AI Reviewer
 
@@ -60,7 +58,7 @@ Choose brand
 
 Choose brand category 
 
-[new article]
+[Set up AI Reviewers](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
 
 ## Add AI reviewer to an approval workflow
 
