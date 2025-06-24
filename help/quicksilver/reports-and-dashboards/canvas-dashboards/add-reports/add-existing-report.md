@@ -5,6 +5,8 @@ title: Add an existing report to a Canvas Dashboard
 description: Reports created through the Adobe Workfront Reports tool can be added to a Canvas Dashboard.
 author: Nolan
 feature: Reports and Dashboards
+hidefromtoc: yes
+hide: yes
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
 ---
 # Add an existing report to a Canvas Dashboard
@@ -46,6 +48,4 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Add an existing report to a Canvas Dashboard
 
->[!IMPORTANT]
->
->This article is not yet finished. Please refer to the general instructions for adding a report to a Canvas Dashboard in the article [Add, remove, or arrange reports in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+

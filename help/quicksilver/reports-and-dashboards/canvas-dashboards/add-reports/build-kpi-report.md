@@ -1,13 +1,15 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Build a KPI report in a Canvas Dashboard
+title: Build a KPI report
 description: A KPI report that prominently displays a single aggregated KPI can be added to a Canvas Dashboard.
-author: Nolan
+author: Courtney and Jenny
 feature: Reports and Dashboards
+hidefromtoc: yes
+hide: yes
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
 ---
-# Build a KPI report in a Canvas Dashboard
+# Build a KPI report
 
 >[!IMPORTANT]
 >
