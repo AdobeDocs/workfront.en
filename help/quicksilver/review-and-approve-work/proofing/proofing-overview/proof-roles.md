@@ -16,10 +16,6 @@ Proof roles allow you to grant permissions on individual proofs. Proof roles are
 
 Proof roles are granted to users for an individual proof at the time the user is invited to review the proof. If you have a Workfront Pro+ plan, you can grant proofing roles to users with a Work or Plan license. If you have a Workfront Premium Legacy plan, you can grant proofing roles to users with a designated proofing license. For more information, see [Access to proofing functionality in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 
->[!NOTE]
->
->Users on new Workfront plans can grant author or moderator roles to any users in the system. Users on legacy plans can grant author or moderator roles to any user with a proof license in the system.
-
 The proof role defines what actions a reviewer can take in relation to that specific proof.
 
 **Example:** If you are assigned the Reviewer role, you are being asked to review the proof by adding markups and comments, but you do not have the option to approve or deny the proof.
@@ -125,7 +121,7 @@ Certain proof roles give a reviewer edit rights on the proof (even if their acco
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Author</strong> </p> </td> 
+   <td> <p><strong>Author*</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -141,7 +137,7 @@ Certain proof roles give a reviewer edit rights on the proof (even if their acco
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Moderator</strong> </p> </td> 
+   <td> <p><strong>Moderator*</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p><strong>✓</strong> </p> </td> 
@@ -158,3 +154,7 @@ Certain proof roles give a reviewer edit rights on the proof (even if their acco
   </tr> 
  </tbody> 
 </table>
+
+<p>* Users on new Workfront plans can grant author or moderator roles to any users in the system, but only users with a Standard license can use all of the capabilities associated with those roles. 
+
+Users on legacy plans can grant author or moderator roles to any user with a proof license in the system.</p>
