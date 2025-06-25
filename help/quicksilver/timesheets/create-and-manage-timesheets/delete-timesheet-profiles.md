@@ -2,20 +2,24 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Delete timesheet profiles
-description: You can delete a timesheet profile.
+description: You can delete a timesheet profile that might no longer be relevant.
 author: Alina
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
 ---
 # Delete timesheet profiles
 
-You can delete a timesheet profile.
+<!--Audited:6/2025-->
+
+Creating and assigning timesheet profiles to users ensures consistency in the way Adobe Workfront creates their timesheets.
+
+You can delete a timesheet profile that might not be releavant anymore.
 
 For information about timesheet profiles, see [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -26,17 +30,21 @@ You must have the following to perform the steps in this article:
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard</p>
+   Or
+   <p>Current: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must have administrative access to Timesheets. </p> <p>For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Grant users administrative access to certain areas</a>.</p>  <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must have administrative access to Timesheets. </p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Delete timesheet profiles
 
@@ -49,5 +57,5 @@ You must have the following to perform the steps in this article:
    If you deleting a timesheet profile for a group, click **Groups**, then click the group's name.
 
 1. Click **Timesheet Profiles**.
-1. Select at least one timesheet profile that you want to delete, then click **More > Delete**.
-1. On the message box that displays, click **Yes, Delete I**t.
+1. Select at least one timesheet profile that you want to delete, then click **More** > **Delete**.
+1. On the message box that displays, click **Delete** to confirm.
