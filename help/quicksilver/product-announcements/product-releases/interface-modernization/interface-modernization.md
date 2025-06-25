@@ -17,8 +17,6 @@ This page lists interface updates we are making throughout Adobe Workfront to im
 For all other changes to Adobe Workfront, see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 
-## Administration and Setup
-
 
 ### Look and feel updates for the Update Feeds section of Setup 
 
@@ -64,6 +62,16 @@ This update includes visual changes to the list of companies. No functionality h
 To view the change, go to Setup > Companies.
 
 For information, see [Create and edit companies](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+
+## Administration and Setup
+
+### Update to the Access Levels list in Setup
+
+**Preview release: June 19, 2025; Production release: June 23, 2025**
+
+We have updated the Access Levels list in Setup with a more modern design that is consistent with other areas of Workfront.
+
+To view this change, go to Setup > Access Levels.
 
 
 ### Interface updates for creating, copying, and editing schedules
