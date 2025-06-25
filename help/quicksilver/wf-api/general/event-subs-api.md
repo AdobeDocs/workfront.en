@@ -45,6 +45,9 @@ The following topics support the Event Subscription API:
 
 The following Workfront objects are supported by event subscriptions.
 
+* Approval
+* Approval Stage
+* Approval Stage Participant
 * Assignment
 * Company
 * Dashboard
@@ -99,6 +102,18 @@ The subscription resource contains the following fields.
        </tr> 
       </thead> 
       <tbody> 
+       <tr> 
+        <td scope="col">Approval</td> 
+        <td scope="col"><p>APPROVAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Approval Stage</td> 
+        <td scope="col"><p>ARVSTP</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Approval Stage Participant</td> 
+        <td scope="col"><p></p></td> 
+       </tr> 
        <tr> 
         <td scope="col">Assignment</td> 
         <td scope="col"><p>ASSGN</p></td> 
