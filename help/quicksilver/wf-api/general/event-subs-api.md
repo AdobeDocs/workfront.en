@@ -104,15 +104,15 @@ The subscription resource contains the following fields.
       <tbody> 
        <tr> 
         <td scope="col">Approval</td> 
-        <td scope="col"><p>APPROVAL</p></td> 
+        <td scope="col"><p>approval</p></td> 
        </tr> 
        <tr> 
         <td scope="col">Approval Stage</td> 
-        <td scope="col"><p>ARVSTP</p></td> 
+        <td scope="col"><p>approval_stage</p></td> 
        </tr> 
        <tr> 
         <td scope="col">Approval Stage Participant</td> 
-        <td scope="col"><p></p></td> 
+        <td scope="col"><p>approval_stage_participant</p></td> 
        </tr> 
        <tr> 
         <td scope="col">Assignment</td> 

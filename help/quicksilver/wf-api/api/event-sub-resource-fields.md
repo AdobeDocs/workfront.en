@@ -34,7 +34,7 @@ The following table lists the fields available for event subscription resources:
  <tbody> 
   <tr> 
    <td>Approval<p>(Event Subs v2)</p></td> 
-   <td>APPROVAL</td> 
+   <td>approval</td> 
    <td>createdAt</td> 
   </tr> 
   <tr> 
@@ -82,7 +82,7 @@ The following table lists the fields available for event subscription resources:
   </tr> 
   <tr> 
    <td>Approval Stage<p>(Event Subs v2)</p></td> 
-   <td>ARVSTP</td> 
+   <td>approval_stage</td> 
    <td>approvalID</td> 
   </tr> 
   <tr> 
@@ -145,7 +145,7 @@ The following table lists the fields available for event subscription resources:
   </tr> 
   <tr> 
    <td>Approval Stage Participant<p>(Event Subs v2)</p></td> 
-   <td></td> 
+   <td>approval_stage_participant</td> 
    <td>createdAt</td> 
   </tr> 
   <tr> 
