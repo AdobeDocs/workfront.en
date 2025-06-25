@@ -261,7 +261,7 @@ You must have the following access to perform the steps in this article:
 
     * Records are grouped by each unique combination of field values 
 
-    * The timeline view is built based on the first date value
+    * The timeline view is built based on the first date value of the connected record type, when it displays in the view
 
     >[!IMPORTANT]
     >
