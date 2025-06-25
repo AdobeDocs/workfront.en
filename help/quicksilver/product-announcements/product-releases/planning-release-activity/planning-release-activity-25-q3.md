@@ -16,6 +16,39 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## Expand and collapse all groupings in the table view
+
+>[!NOTE]
+>
+>* Preview: June 26, 2025 
+>* Production for everyone: July 17, 2025 
+
+You can now collapse and expand the groupings in a table view using the following areas: 
+
+* The Grouping box, accessible from the toolbar of the table view 
+
+* A grouping's header, by right-clicking it 
+
+You can collapse or expand either one grouping or all groupings at the same time. 
+
+Prior to this enhancement, you could only collapse or expand one grouping at a time, from each grouping header. 
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## New aggregating functionality for formula fields
+
+>[!NOTE]
+>
+>* Preview: June 26, 2025
+>* Production for everyone: July 17, 2025 
+
+Now, when you connect record types and bring in a formula field as a lookup, you can apply the aggregate functions (SUM, AVERAGE, MIN, MAX, etc) depending on the formula field's format. For example, if the formula field is numeric, you can use functions like SUM or AVG; if the formula field is formatted as text, aggregate functions like SUM will not apply.  
+
+Previously, when connecting record types and bringing in lookup fields from the connected records, you could apply aggregate functions only to regular fields, but not to formula fields. 
+
+For information, see [Formula field overview](/help/quicksilver/planning/fields/formula-fields.md). 
+
 ## Custom quarters availability for the Workfront Planning timeline view 
 
 >[!NOTE]
