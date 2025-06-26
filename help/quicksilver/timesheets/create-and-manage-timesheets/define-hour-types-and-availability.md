@@ -15,8 +15,8 @@ An Hour Type is a label that allows you to categorize time entry. Depending on y
 
 There are 2 sets of hour types in Adobe Workfront:
 
-* **General hours**: Hours that are not associated with a project, such as sick time or administration. You can only log general hours on the timesheet.
-* **Project-specific hours**: Hours logged on projects, tasks, and issues. You can log project-specific hours from any location where you can log time.
+* **General Hours**: Hours that are not associated with a project, such as sick time or administration. You can only log general hours on the timesheet.
+* **Project Specific Hours**: Hours logged on projects, tasks, and issues. You can log project-specific hours from any location where you can log time.
 
 When logging time in Workfront, the project-specific hour types that are available depend on configuration options set at the system, project, and user levels. (The following default project-specific hour types are always available: Project Time, Task Time, and Issue Time.)
 
@@ -39,7 +39,7 @@ After the appropriate hour types have been configured, you can log time from mul
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>New: Standard</p> 
    <p>Current: Plan</p>
    </td> 
@@ -55,7 +55,7 @@ After the appropriate hour types have been configured, you can log time from mul
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
