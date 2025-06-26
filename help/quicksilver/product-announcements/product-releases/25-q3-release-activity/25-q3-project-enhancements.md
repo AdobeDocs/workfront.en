@@ -14,13 +14,13 @@ This page describes Project enhancements made with the Third Quarter 2025 releas
 
 For a list of all changes available at this point in the Third Quarter 2025 release cycle, see [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
-## Existent Actual Hours field replaced with Legacy Actual Hours and new Actual Hours field created 
+## Existing Actual Hours field replaced with Legacy Actual Hours and new Actual Hours field created 
 
 >[!NOTE]
 >
 > Preview and Production: June 24, 2025 
 
-The existent field of Actual Hours has been renamed to Legacy Actual Hours. This field stores the time logged for projects, tasks, and issues in minutes. The field is stored in the Workfront database as actualWorkRequired. 
+The existing field of Actual Hours has been renamed to Legacy Actual Hours. This field stores the time logged for projects, tasks, and issues in minutes. The field is stored in the Workfront database as actualWorkRequired. 
 
 We added a new Actual Hours field that stores the time logged for projects, tasks, and issues in hours, with decimal precision. The field is stored in the Workfront database as actualWorkRequiredDouble.   
 
