@@ -161,7 +161,7 @@ To deactivate an hour type:
 
 1. <span class="preview">Click **More**, then **Deactivate**.</span>
 
-   <span class="preview">![Activate and deactivate hour type links](assets/activate%20-and-deactivate-hour-type-links.png)</span>
+   <span class="preview">![Activate and deactivate hour type links](assets/activate-and-deactivate-hour-type-links.png)</span>
 
    <span class="preview">The hour type is deactivated and users can no longer find it when logging hours.</span> 
 
