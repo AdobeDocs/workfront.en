@@ -207,6 +207,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+      <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">nhanced Report Delivery Security </a><p></p>
+            <p>We've enhanced scheduled report delivery to ensure Workfront notifications are only sent to email domains approved in the allowlist.</p>
+            <p></p>
+        </td>
+        <td>June 26, 2025</td>
+        <td>(Phased rollout): June 26 - July 9, 2025</td>
+        <td>(Phased rollout): June 26 - July 9, 2025</td>
+    </tr>   
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">User wildcards no longer return results with a null value when filtering </a><p></p>
