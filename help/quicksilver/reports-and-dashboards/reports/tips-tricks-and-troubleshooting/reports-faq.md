@@ -58,7 +58,7 @@ You must have the following access to perform the steps in this article:
 
 <!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
 
-On a project report I have a calculation that subtracts Legacy Actual Hours from Planned Hours.
+On a project report I have a calculation that subtracts  Actual Hours from Planned Hours.
 
 The result I am getting is incorrect. 
 
@@ -72,17 +72,19 @@ My calculation is:
 
 Most fields using hours in Workfront are stored in minutes. When using these fields in a calculation the result will most often be in minutes. To obtain the result in hours, you must divide the result of the calculation or the field you are referencing by 60.
 
-The correct calculation is:  
+Planned Hours are stored in minutes. 
 
-`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+Depending on which Actual Hours field you want to use for your calculation, the correct formulas are: 
 
->[!NOTE]
->
->If you are using Actual Hours in your calculation, use `actualWorkRequiredDouble` for the valuefield. Actual Hours are stored in hours. Planned Hours are stored in minutes. 
->
->The correct calculation for Actual Hours is: 
->`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+* For Legacy Actual Hours which are stored in minutes: 
 
+  `valueexpression=SUB(workRequired,actualWorkRequired)/60`
+
+* For Actual Hours which are stored in hours: 
+ 
+  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+For more information, see [View Actual Hours](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md). 
 
 ## Why is the value of each of my chart elements in a report not displayed on the chart?
 
