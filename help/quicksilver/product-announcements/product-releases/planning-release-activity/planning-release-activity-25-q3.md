@@ -41,7 +41,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >* Preview: June 26, 2025
->* Production for everyone: July 17, 2025 
+>* Production for everyone: June 26, 2025
 
 Now, when you connect record types and bring in a formula field as a lookup, you can apply the aggregate functions (SUM, AVERAGE, MIN, MAX, etc) depending on the formula field's format. For example, if the formula field is numeric, you can use functions like SUM or AVG; if the formula field is formatted as text, aggregate functions like SUM will not apply.  
 
