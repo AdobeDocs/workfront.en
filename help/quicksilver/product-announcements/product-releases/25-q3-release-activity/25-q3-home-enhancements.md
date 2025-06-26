@@ -12,6 +12,12 @@ This page describes all Home enhancements made with the Third Quarter 2025 relea
 
 For a list of all changes available at this point in the Third Quarter 2025 release cycle, see [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
+<!--## All Approvals widget renamed to Document approval metrics
+
+We've renamed the All Approvals widget to Document Approval Metrics to more accurately reflect the information it displays. The Document Approval Metrics widget provides high-level insights into document approvals for the projects you own.
+
+This widget does not contain any information about proof approvals. -->
+
 ## Updated commenting experience in the Mentions section on the My Updates area  
 
 >[!NOTE]
