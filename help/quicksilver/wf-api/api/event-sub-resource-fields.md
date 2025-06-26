@@ -1865,6 +1865,11 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>financeLastUpdateDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>groupID</td> 
   </tr> 
   <tr> 
@@ -1876,6 +1881,11 @@ The following table lists the fields available for event subscription resources:
    <td> </td> 
    <td> </td> 
    <td>issueWorkflowAutomationID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastCalcDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
