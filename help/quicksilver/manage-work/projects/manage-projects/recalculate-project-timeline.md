@@ -32,10 +32,10 @@ Automatic timeline recalculation happens without special access for any of the u
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New license: Standard </p> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p> 
    Or
-   <p>Current license: Plan </p>
+   <p>Current: Plan </p>
    </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Automatic timeline recalculation happens without special access for any of the u
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,7 +59,7 @@ By default, project timelines are automatically recalculated daily when the proj
 
 >[!NOTE]
 >
->If the timeline of a project is longer than 15 years, the automatic recalculation is disabled for that project. You can only select an Update Type of Manual for a project longer than 15 years. If you change the dates on the project to less than 15 years, you must manually recalculate your timeline one time before it is calculated automatically.
+>If the timeline of a project is longer than 15 years, the automatic recalculation is disabled for that project and you can only select a Manual update type. If you change the dates on the project to less than 15 years, you must manually recalculate your timeline one time before it is calculated automatically.
 
 * [Automatic recalculation of project timelines](#automatic-recalculation-of-project-timelines) 
 * [Actions that trigger an automatic recalculation of project timelines](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
@@ -67,23 +67,22 @@ By default, project timelines are automatically recalculated daily when the proj
 
 >[!IMPORTANT]
 >
->For the Preview and Custom Refresh Sandbox environments, the nightly recalculation is disabled, and the project timelines are not recalculated automatically. You must manually recalculate the project timeline for the Preview and the Custom Refresh Sandbox environments. 
+>For the Preview and Custom Refresh Sandbox environments, the nightly recalculation is disabled and the project timelines aren't recalculated automatically. You must manually recalculate the project timeline for the Preview and the Custom Refresh Sandbox environments. 
 
 ### Automatic recalculation of project timelines {#automatic-recalculation-of-project-timelines}
 
-Adobe Workfront recalculates timelines daily only for projects where all of the following conditions are met:
+Workfront recalculates timelines daily only for projects where all of the following conditions are met:
 
-* Have a status of Current
-* Update Type of the project is set to Automatic or Automatic and On Change
+* Have a Current status.
+* Project update type is set to Automatic or Automatic and On Change.
 
-  For information about the type of project Update Type, see [Project Update Type overview](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
+  For information, see [Project Update Type overview](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
-* Have a Last Update Date within the past three months  
-  Workfront administrator can change this default functionality, as described in [Configure timeline recalculations for projects](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+* Have a Last Update Date within the past 3 months. A Workfront administrator can change this default functionality. For more information, see [Configure timeline recalculations for projects](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-* Last calculation date of the project timeline is not within the current calendar day. This means that the last calculation date of the project timeline is before 00:00 of the current day.
+* Last calculation date of the project timeline isn't within the current calendar day. This means that the last calculation date of the project timeline is before 00:00 of the current day.
 
-You can configure how frequently the timeline for your project is updated. When the project timeline is updated, it is recalculated based on changes made to the project. 
+You can configure how frequently the timeline for your project is updated. When the project timeline is updated, it's recalculated based on changes made to the project. 
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -143,9 +142,7 @@ As a project owner, you can manually recalculate the timelines for individual pr
 
 You can recalculate the timeline of a project in Workfront from the project page or from a project list or report.
 
-1. Go to the project for which you want to recalculate the timeline and click the **More** icon ![More menu](assets/qs-more-menu.png) to the left of the project name
-
-   ![More dropdown](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+1. Go to the project you want to recalculate the timeline for and click the **More** icon ![More menu](assets/qs-more-menu.png) to the left of the project name.
 
    Or
 
@@ -155,11 +152,9 @@ You can recalculate the timeline of a project in Workfront from the project page
 
    >[!TIP]
    >
-   >Depending on the complexity of your projects, we recommend not to select a large number of projects when recalculating their timelines in bulk to ensure optimum performance. Some things that could make a project too complex might be multiple dependencies or assignments, or a large number of custom fields.
+   >Depending on the complexity of your projects, we recommend not selecting a large number of projects when recalculating their timelines in bulk to ensure optimum performance. Some things that could make a project too complex might be multiple dependencies or assignments, or a large number of custom fields.
 
-1. Click&nbsp;**Recalculate Timeline**.
-
-   After the timeline is recalculated, you see a message indicating that the recalculation was successful.
+1. Click&nbsp;**Recalculate Timeline**. The timeline recalculates and a success message displays on the screen.
 
    >[!TIP]
    >
@@ -171,7 +166,7 @@ You can manually recalculate the timelines of several projects by editing them i
 
 >[!TIP]
 >
->Depending on the complexity of your projects, we recommend not to select a large number of projects when editing them in bulk to ensure optimum performance. Some things that could make a project too complex might be multiple dependencies or assignments or a large number of custom fields.
+>Depending on the complexity of your projects, we recommend not selecting a large number of projects when editing them in bulk to ensure optimum performance. Some things that could make a project too complex might be multiple dependencies or assignments, or a large number of custom fields.
 
 1. Go to a list of projects.
 1. Select several projects in the list, then click **Edit**.
@@ -183,7 +178,7 @@ You can manually recalculate the timelines of several projects by editing them i
 
 Workfront administrators can run the Recalculate Timeline diagnostic to immediately recalculate all timelines in the Workfront system. This allows all Project Managers to see the influence of external changes immediately on both planned and projected dates.
 
-For more information about recalculating timelines for the entire Workfront site, see the section "Recalculate timelines for the entire Workfront instance" in [Configure timeline recalculations for projects](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+For more information about recalculating timelines for the entire Workfront site, see the section Recalculate timelines for the entire Workfront instance in [Configure timeline recalculations for projects](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

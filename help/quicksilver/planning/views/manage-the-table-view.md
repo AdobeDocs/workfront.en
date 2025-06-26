@@ -452,9 +452,7 @@ To add a grouping:
 
     The number of fields selected for the grouping displays next to the Grouping icon. 
 
-    <!--replace screen shot for Expand all-->
-
-    ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
+    <span class="preview">![Grouping applied in table view](assets/grouping-applied-in-table-view.png)</span>
 
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
@@ -464,8 +462,6 @@ To add a grouping:
 
 1. Click outside the **Group records by** box to close it. 
 1. (Optional) Click **+ New record** at the end of any grouping to add new records, then refresh your page to add the new record to the appropriate grouping. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
-
-<!--
 
 1. <span class="preview">To expand or collapse groupings, do one of the following:</span>
 
@@ -484,7 +480,6 @@ To add a grouping:
         * **Collapse subgroups**
 
         Depending on the number of groupings you apply to the view, some options might not be available.</div>
--->
    
 <!-- this is not available yet: 
 
