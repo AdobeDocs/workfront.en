@@ -16,15 +16,15 @@ This page lists interface updates we are making throughout Adobe Workfront to im
 
 For all other changes to Adobe Workfront, see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
+## Admin and Setup
 
-
-### Look and feel updates for the Update Feeds section of Setup 
+<!--### Look and feel updates for the Update Feeds section of Setup 
 
 **Preview: June 26, 2025; Production for everyone: July 10, 2025**  
 
 We have updated the look and feel of all the tabs and subtabs in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, all the tabs in the Update Feeds section match other areas of Workfront. 
 
-For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.
+For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.-->
 
 
 ### New look and feel of the lists in the Timesheets & Hours section in the Setup area
@@ -42,13 +42,13 @@ These lists now match other areas of Workfront.
  For information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 
-### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
+<!--### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
 
 **Preview release: June 26, 2025; Production release: July 10, 2025** 
 
 We have updated the look and feel of the Add fields box in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, when you add fields in any subtab of the Tracked Fields tab, the Add fields box has a new look and feel, and some of the interface elements have been updated.  
 
-For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).-->
 
 
 ### Interface updates for the Companies page
@@ -63,7 +63,6 @@ To view the change, go to Setup > Companies.
 
 For information, see [Create and edit companies](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-## Administration and Setup
 
 ### Update to the Access Levels list in Setup
 
@@ -104,7 +103,7 @@ To view this change, go to Setup > Access Levels > New Access Level.
 
 ### Interface updates for the Customer Info page
 
-**Preview release: June 12, 2025; Production release: To be announced**
+**Preview release: June 12, 2025; Production release: June 19, 2025**
 
 We have updated the Customer Info page with a more modern design that is consistent with other areas of Workfront.
 
