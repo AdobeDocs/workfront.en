@@ -141,7 +141,7 @@ If you want to see the progress of the work your users are doing on their assign
   For information, see [View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
 
 
-### Actual Hours in the Workfront <!--database and the--> API <!--, and custom data-->
+### Actual Hours in the Workfront  API
 
 <!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
 
@@ -149,15 +149,13 @@ Most Workfront fields that store hours are saved in the Workfront database in mi
 
 You must account for the conversion from minutes to hours when accessing these fields in API calls or in calculated custom fields or columns. 
 
-Depending on how you are accessing Actual Hours, they can be stored in the following fields and units in the database: 
+The Actual Hours logged for projects, tasks, or issues are currently stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`.
 
-* In the API: With the following version of the Workfront API scheduled to release later in 2025, the `valuefield` for Actual Hours is `actualWorkRequiredDouble` which is stored in hours. The current version stored Actual Hours as `actualWorkRequired` which is stored in minutes. 
-<!--we might need to add that the Legacy Hours are also available here???-->
-* In the Workfront interface: For information, see the [Actual Hours vs Legacy Actual Hours](#actual-hours-vs-legacy-actual-hours)
+With the following version of the Workfront API scheduled to release later in 2025, depending on how you are accessing Actual Hours, they can be stored in the following fields and units in the database: 
 
-<!--Change the above with this when we fix this for the Workfront UI: 
+* **Actual Hours**: Hours logged for project, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
 
-You must use the following valuefield name for Actual Hours in API calls or calculated custom fields or columns in Workfront: `actualWorkRequiredDouble`. -->
+* **Legacy Actual Hours**: Hours logged for projects, tasks, or issues any time, including before May 2021. They are stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`.
 
 For information about using Actual Hours in calculated columns or fields, see [Report FAQs](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md). 
 

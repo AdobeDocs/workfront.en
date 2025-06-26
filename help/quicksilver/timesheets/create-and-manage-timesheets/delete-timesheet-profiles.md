@@ -58,4 +58,9 @@ For information about timesheet profiles, see [Create, edit, and assign timeshee
 
 1. Click **Timesheet Profiles**.
 1. Select at least one timesheet profile that you want to delete, then click **More** > **Delete**.
-1. On the message box that displays, click **Delete** to confirm.
+1. (Conditional) If the timesheet profile is already assigned to users, the **Replacement Timesheet Profile** box displays. Do the following:
+   1. Select another timesheet profile from the drop-down list. The timesheet profile you are deleting will be replaced by the timesheet profile you replace it with for all assigned users. Timesheets will generate according to the newly assigned profile in the following timesheet generation cycle. 
+   1. Click **Delete it** to confirm the deletion. 
+1. (Conditional) If the timesheet profile is not assigned to users, the **Delete Timesheet** box displays.
+
+   Click **Delete** to confirm the deletion.
