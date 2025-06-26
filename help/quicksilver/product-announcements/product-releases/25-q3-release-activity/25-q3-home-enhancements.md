@@ -14,7 +14,7 @@ For a list of all changes available at this point in the Third Quarter 2025 rele
 
 <!--## All Approvals widget renamed to Document approval metrics
 
-We've renamed the All Approvals widget to Document approval metrics to more accurately summarize the information shown in the widget. The Document approval metric widget displays high-level information about document approvals on projects you own.
+We've renamed the All Approvals widget to Document Approval Metrics to more accurately reflect the information it displays. The Document Approval Metrics widget provides high-level insights into document approvals for the projects you own.
 
 This widget does not contain any information about proof approvals. -->
 
