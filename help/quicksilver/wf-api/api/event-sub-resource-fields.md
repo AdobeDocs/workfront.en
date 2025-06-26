@@ -16,6 +16,10 @@ Note that data is filterable using nested filtering. For more information, see [
 
 The following table lists the fields available for event subscription resources:
 
+>[!NOTE]
+>
+>Some objects are available only in Event Subscriptions version 2. These objects are noted in the table.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -28,6 +32,200 @@ The following table lists the fields available for event subscription resources:
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td>Approval<p>(Event Subs v2)</p></td> 
+   <td>approval</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>status</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td>Approval Stage<p>(Event Subs v2)</p></td> 
+   <td>approval_stage</td> 
+   <td>approvalID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> name </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>status</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td>Approval Stage Participant<p>(Event Subs v2)</p></td> 
+   <td>approval_stage_participant</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decision </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decisionDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decisionUserID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> participantID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> participantMetadata </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> participantRole </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> participantType </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> realUserID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> requesterID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> stageID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>status</td> 
+  </tr> 
   <tr> 
    <td>Assignment</td> 
    <td>ASSGN</td> 
@@ -800,7 +998,7 @@ The following table lists the fields available for event subscription resources:
    <td>topReferenceObjID</td> 
   </tr> 
   <tr> 
-   <td>Field</td> 
+   <td>Field<p>(Event Subs v2)</p></td> 
    <td>FIELD</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1870,7 +2068,7 @@ The following table lists the fields available for event subscription resources:
    <td><span>requesterID</span> </td> 
   </tr> 
   <tr> 
-   <td>Record</td> 
+   <td>Record<p><p>(Event Subs v2)</p></td> 
    <td>RECORD</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1915,7 +2113,7 @@ The following table lists the fields available for event subscription resources:
    <td>updatedAt</td> 
   </tr> 
   <tr> 
-   <td>Record Type </td> 
+   <td>Record Type<p><p>(Event Subs v2)</p> </td> 
    <td>RECORD_TYPE </td> 
    <td>color</td> 
   </tr> 
@@ -2770,7 +2968,7 @@ The following table lists the fields available for event subscription resources:
    <td>workHoursPerDay </td> 
   </tr> 
   <tr> 
-   <td>Workspace</td> 
+   <td>Workspace<p><p>(Event Subs v2)</p></td> 
    <td>WORKSPACE</td> 
    <td>color</td> 
   </tr> 
