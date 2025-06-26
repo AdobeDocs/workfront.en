@@ -193,14 +193,9 @@ You must have the following access to perform the steps in this article:
 
      * **Select lookup fields**: Select this option to add fields from the selected record type. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are linking from. This is selected by default. 
 
-        >[!TIP]
-        >
-        > You cannot add the following field types as lookup fields:
-        >
-        >    * People
-        >    * Created by
-        >    * Last modified by
-        >    * Workfront typeahead fields (including fields like Project Owner, or Project Sponsor)
+    >[!TIP]
+    >
+    >You cannot add Workfront typeahead fields (including fields like Project Owner, or Project Sponsor) as lookup fields.
 
 1. (Conditional and optional) If you selected to connect a Workfront object, select a **Custom form** from the **Link only objects that match these criteria** section. Only objects that have the selected custom forms attached can be linked to the selected record type. You can select more than one form.  
 
@@ -249,11 +244,19 @@ You must have the following access to perform the steps in this article:
     >[!IMPORTANT]
     >
     >    Everyone with View or higher permissions to the workspace can view the information in the linked fields, regardless of their permissions or access level in the application of the linked object types.
-    
-    
+
 1. (Optional) Click **Skip** to skip adding fields from the linked record or object type. The name or Primary field of the linked record is the only visible field in the table view of the record type you connect from. 
 
-1. (Optional and conditional) If you select to link a number, currency, percentage, or date-type field, also select an aggregator value to summarize multiple values. The values for the linked fields display either separated by commas or as a summarized value according to the aggregator you choose, when users select more than one linked record in the linked record field. 
+1. Choose an aggregator for the lookup fields you add. 
+
+    >[!NOTE]
+    >
+    >You cannot add aggregators for the following field types:
+    >
+    >    * Paragraph
+    >    * Checkbox
+
+    The values for the linked fields display either separated by commas or as a summarized value according to the aggregator you choose, when users select more than one linked record in the linked record field. 
 
     If the lookup field contains multiple values that are not summarized, consider the following when using the field in sorting or grouping in a view:  
 
@@ -265,7 +268,7 @@ You must have the following access to perform the steps in this article:
 
     >[!IMPORTANT]
     >
-    >    You must select an aggregator value when adding lookup date fields, if you want the fields to be available to add as Start and End Dates for the timeline and calendar views. For example, you can select the MAX or the MIN aggregator for a lookup date field. 
+    > You must select an aggregator value when adding lookup date fields, if you want the fields to be available to add as Start and End Dates for the timeline and calendar views. For example, you can select the MAX or the MIN aggregator for a lookup date field. 
 
     ![Aggregator drop down for linked number field](assets/aggregator-drop-down-for-number-linked-field.png)  
 

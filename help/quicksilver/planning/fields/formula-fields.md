@@ -9,8 +9,6 @@ exl-id: 5027d611-916e-492d-9a44-841bdde11c94
 ---
 # Formula fields overview
 
-<!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
-
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
@@ -98,6 +96,7 @@ You must have the following access to perform the steps in this article:
 
 * Formula fields reference fields that belong to the same record type. 
 * You can reference fields from other record types only when you connect another record type to the one you're creating a formula field for. 
+* <span class-"preview">Referencing connected record types or their lookup fields in a formula depends on your permissions to the connected record types. If you have no permissions to view the record type, you cannot reference their fields in a formula. </span>
 * You cannot change the Field type of a Formula field after you save it. 
 * You can update the calculation of a formula field after you save it, and the results of the calculation update automatically for all the records of the same type. 
 * You must add the fields you reference in formulas as they display in the Workfront Planning interface. 
