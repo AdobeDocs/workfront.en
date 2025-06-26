@@ -27,7 +27,7 @@ We have updated the look and feel of all the tabs and subtabs in the Update Feed
 For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.-->
 
 
-### New look and feel of the lists in the Timesheets & Hours section in the Setup area
+<!--### New look and feel of the lists in the Timesheets & Hours section in the Setup area
 
 **Preview: June 26, 2025; Production for everyone: July 10, 2025**   
 
@@ -39,7 +39,7 @@ We have updated the look and feel of the following lists in the Timesheets & Hou
 
 These lists now match other areas of Workfront.  
 
- For information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+ For information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).-->
 
 
 <!--### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
