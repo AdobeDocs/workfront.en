@@ -614,7 +614,8 @@ This page provides information about functionality that is included in the First
             <p><b>Available on these dates:</b></p>
             <ul>
                 <li>Preview release: December 19, 2024</li>
-                <li>Production release for all customers: To be announced</li>
+                <li>Production release for all customers for Home: To be announced</li>
+                <li>Production release for all customers for My Updates: June 19, 2025</li>
             </ul>
         </td>
     </tr>
