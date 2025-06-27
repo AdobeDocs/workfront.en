@@ -1,6 +1,6 @@
 ---
 title: Manage the Table View
-description: You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront Planning. This article describes how you can create a table view and edit or delete an existing one.
+description: You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront Planning. This article describes how you can create or edit a table view edit and how to enable real-time presence indicators for the view or how to export it to a CSV or Excel file. 
 feature: Workfront Planning
 role: User
 author: Alina
@@ -19,11 +19,15 @@ You can display records and their fields in a table view, when accessing the rec
 
 For information about record views and how to manage them, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
 
+This article describes the following information:
+
+* [Create or edit columns and rows in a table view](#manage-a-table-view)
+* [Enable real-time presence indicators for the table view](#enable-the-real-time-presence-indicator)
+* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>
+
 ## Access requirements
 
 +++ Expand to view access requirements. 
-
-You must have the following access to perform the steps in this article:  
 
  <table style="table-layout:auto"> 
 <col> 
@@ -57,7 +61,7 @@ You must have the following access to perform the steps in this article:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -76,7 +80,7 @@ You must have the following access to perform the steps in this article:
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings</p> </td> 
+   <p>View permissions to a view to temporarily change the view settings, duplicate, <span class="preview">or to export it</span></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
@@ -97,8 +101,6 @@ You can edit record information only in the table view.
 For more information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 
 ## Manage a table view {#manage-a-table-view}
-
-<!--insert screen shot of table view-->
 
 When creating a table view, all records of the selected type display in a table. Each row is a unique record and each column is a record field. All fields and all records display by default. 
 
@@ -249,8 +251,6 @@ Consider the following when working with filters in the table view:
 * You cannot name the filters you build and apply to a table view.
 
 * Removing filters removes them from anyone accessing the same record type as you and uses the same view as you use.
-
-* Adding filters to the table view is identical to adding filters to the timeline view. 
 
 * You can filter by connected record fields or lookup fields. 
 
@@ -422,8 +422,6 @@ To sort <!--ungrouped (add this when sorting for groupings will be available--> 
 
 You can group records by similar information when applying  a grouping to a view.
 
-Adding groupings in the table view is similar to adding groupings to the timeline view. 
-
 Consider the following:
 
 * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type.
@@ -454,7 +452,7 @@ To add a grouping:
 
     The number of fields selected for the grouping displays next to the Grouping icon. 
 
-    ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
+    <span class="preview">![Grouping applied in table view](assets/grouping-applied-in-table-view.png)</span>
 
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
@@ -465,7 +463,24 @@ To add a grouping:
 1. Click outside the **Group records by** box to close it. 
 1. (Optional) Click **+ New record** at the end of any grouping to add new records, then refresh your page to add the new record to the appropriate grouping. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-    
+1. <span class="preview">To expand or collapse groupings, do one of the following:</span>
+
+    <div class="preview">
+
+    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+
+        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+
+    1. Right-click any of the grouping headers in the table view, then click one of the following options:
+        * **Expand group**
+        * **Collapse group**
+        * **Expand all**
+        * **Collapse all**
+        * **Expand subgroups**
+        * **Collapse subgroups**
+
+        Depending on the number of groupings you apply to the view, some options might not be available.</div>
+   
 <!-- this is not available yet: 
 
 To sort grouped records: 
@@ -503,9 +518,11 @@ To sort grouped records:
 
 1. (Optional) Turn on the **Apply to the entire row** setting in the upper-right corner of the Row colors box. The entire row where the condition is met automatically displays in the selected color. 
 
-    >[!TIP]
+    >[!NOTE]
     >
-    >If the Apply to the entire row setting is turned off, only the left side of the Primary field displays a narrow color indicator with the selected color. The setting is turned off by default.
+    >* If the Apply to the entire row setting is turned off, only the left side of the Primary field displays a narrow color indicator with the selected color. The setting is turned off by default.
+    >
+    >* You cannot apply row colors to an entire row when you have at least one grouping selected in the table view. 
 
 1. Click outside the **Row colors** box to close it. The colors are applied automatically.
 
@@ -517,5 +534,68 @@ The avatars of other users who are editing record information at the same time a
 
 When you display the table view, you can also view which field another user is editing at the time you are viewing the record. 
 
-For more information, see the "Enable the real-time presence indicator" section in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. Go to a record type page and open any view.
+1. (Conditional) If there are other users editing the records of the selected type at the same time, their avatars display in the upper-right corner of the view. 
+1. Click the drop-down menu next to the avatars, the select the **Show collaborators** toggle. The toggle is selected by default. 
+
+    ![Show collaborators toggle selected](assets/show-collaborators-toggle-selected.png)
+
+1. (Conditional) Open a table view, and the field which another person is actively editing is highlighted in the color corresponding to the outline of their avatar in the table view. 
+
+    If the highlight color of the avatar is gray, the user stopped actively editing the record more than 30 seconds ago. 
+
+    ![Real-time indicator table field and avatar connection](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+    >[!TIP]
+    >
+    >You can select the **Show collaborators** toggle from any view. The field currently edited by others is outlined only in the table view. 
+
+<div class="preview">
+
+## Export the table view
+
+You can export information in the table view to a CSV or an Excel file. 
+
+Consider the following when exporting the table view:
+
+* The information exported to an Excel file preserves the filters, groupings, and sorts applied to the table view in Workfront Planning. Groupings are not visible in the CSV file.
+
+* Thumbnails and custom row colors are not supported in exported files.  
+
+* Only fields made visible in the Workfront interface are exported. Hidden fields are not exported.
+
+To export information from the table view or a record type:
+
+1. Go to a record type page and click a table view tab. 
+1. Hover over the table view tab's name, then click the **More** menu ![More menu](assets/more-menu.png).
+
+    ![More menu on a view](assets/view-more-menu-with-duplicate-option.png)
+1. Click **Export**, then select one of the following formats:
+
+    * Excel
+    * CSV
+
+    >[!IMPORTANT]
+    >
+    >You cannot export information from the table view when you display a different view on the screen. You must display the table view that you want to export in order to access the Export option in the More menu. 
+
+    The file is downloaded to your computer. 
+
+1. (Optional) Go to the downloads folder on your computer and find the downloaded file. 
+
+    The name of the exported file follows the following format: 
+
+    `Name of the view - name of the record type`
+
+    For example, a table view for the Campaigns record type generates a file named `Table view - Campaigns`.
+
+    The file displays the following information: 
+    
+    * The column headers are highlighted in black, in the Excel file
+    * All the fields visible in the Workfront interface, sorted and filtered by the same criteria
+    * Groupings are preserved in the Excel file
+
+    You can now share the exported files with others, or attach them to any communication. 
+    
+ </div>   
 

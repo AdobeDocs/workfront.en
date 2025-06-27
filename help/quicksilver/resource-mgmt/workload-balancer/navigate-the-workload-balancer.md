@@ -416,7 +416,7 @@ Navigating the Workload Balancer of a team is similar to how you navigate the Wo
 {{step1-to-projects}}
 
 1. Click the name of a project to open the project page.
-1. Click **Workload Balancer** in the left panel. You might have to click **Show More**, then **Workload Balancer**.
+1. Click **Workload Balancer** in the left panel.
 
     ![Workload Balancer of a project](assets/nwe-balancer-project-350x152.png)
 

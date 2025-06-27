@@ -69,7 +69,7 @@ To find the predecessors of a task do one of the following:
 * Go to the project you are working on and do the following:
 
    1. Find the task for which you want to find the predecessors and click the task.
-   1. Click **Predecessors** in the left panel. You might need to click **Show More**, then **Predecessors**. 
+   1. Click **Predecessors** in the left panel. 
    1. The name of the project that the predecessor is on shows in the **Project** column.
 
       The number in the **#** column shows the predecessor task number. For example "6" means the sixth task in the project.

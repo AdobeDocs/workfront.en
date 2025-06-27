@@ -123,7 +123,7 @@ You can gain visibility into where a task or issue that you are working on curre
 To see the current state of where a task or issue is in the approval process:
 
 1. Go to the project, task, or issue that the approval is associated with.
-1. In the left panel, click **Approvals**. You might need to first click **Show More**.
+1. In the left panel, click **Approvals**.
 
    The Approvals tab displays&nbsp;the full information about all past approval paths and stages. You can see exactly who made a decision on the approval or whether the approval is set for a team, job role, or user.
 

@@ -8,7 +8,7 @@ exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
 ---
 # Budget resources in the Business Case using the Resource Planner
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 As part of resource planning, you can use the project-level Resource Planner to budget the job roles necessary for completing the work in a project when you build the business case.
 
@@ -22,8 +22,6 @@ You can also budget resources in the business case using the Adobe Workfront Sce
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
-
 +++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
@@ -31,21 +29,23 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Prime or higher</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> <p>Current: Prime or higher</p>
+   <p>Legacy: Pro or higher</p> 
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Light or higher</p>
-   <p>Current: Review or higher</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> <p>Current: Light or higher</p>
+   <p>Legacy: Review or higher</p> 
    
    <p><b>IMPORTANT:</b></p> 
-   <p>New: You must have a Standard license to modify resource budgeting information. </p> 
-   <p>Current: You must have a Plan license to modify resource budgeting information. </p>
+   <p>Current: You must have a Standard license to modify resource budgeting information. </p> 
+   <p>Legacy: You must have a Plan license to modify resource budgeting information. </p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td role="rowheader"><p>Access level configurations</p></td> 
    <td> <p>Edit access to the following: </p> 
     <ul> 
      <li> <p>Projects</p> </li> 
@@ -54,7 +54,7 @@ You must have the following to perform the steps in this article:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
    <td> <p>Manage permissions on the project</p> </td> 
   </tr> 
  </tbody> 

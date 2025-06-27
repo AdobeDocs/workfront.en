@@ -4,13 +4,15 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Add an Intake Column to a Board
 description: You can optionally add an intake column to your board that automatically pulls in tasks and issues as connected cards when they are added in Workfront, based on filters that you define.
-author: Lisa
+author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
 ---
 # Add an intake column to a board
 
-You can optionally add an intake column to your board that automatically pulls in tasks and issues as connected cards when they are added in [!DNL Workfront], based on filters that you define. The intake column can serve as a backlog column for a Kanban team, an intake location for a support team to see issues as they are added to a request queue, or any other purpose you need.
+<!-- Audited: 5/2025 -->
+
+You can optionally add an intake column to your board that automatically pulls in tasks and issues as connected cards when they are added in [!DNL Workfront] based on filters that you define. The intake column can serve as a backlog column for a Kanban team, an intake location for a support team to see issues as they are added to a request queue, or any other purpose you need.
 
 Only one intake column is permitted on a board, and it always appears as the left-most column.
 
@@ -36,15 +38,13 @@ Issues:
 >
 >It is recommended to refresh the board frequently if multiple users are working on the board at the same time. Refreshing the page helps to keep the visual changes on the board up to date and prevents issues such as duplicate cards being moved onto the board from the intake column.
 >
->To synchronize with Workfront and bring new tasks and issues onto the board or intake column, click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) next to the board name and select **[!UICONTROL Sync connected items]**.
+>To synchronize with Workfront and bring new tasks and issues onto the board or intake column, click the More menu ![[!UICONTROL More menu]](assets/more-menu.png) next to the board name and select Sync connected items.
 
 For more information on columns, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). For information on connected cards, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,26 +73,16 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step1-to-boards}}
 
-1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
-1. Click **[!UICONTROL Configure]** on the right of the board to open the Configure panel.
-1. Expand **[!UICONTROL Board]**.
-1. Turn on **[!UICONTROL Dynamically intake items to board]**.
+1. On the dashboard, select a board. 
+1. Click **Configure** on the right of the board to open the **Configure** panel.
+1. Select the **Board** section. New fields appear. 
+1. Turn on **Dynamically intake items to board**. The blank intake column appears on the left side of the board.
 
-   ![Intake column simple filter options](assets/intake-column-simple-filters.png)
-
-   The intake column is added on the left of the board. It remains blank until you apply filters to it.
+   ![Intake column simple filter options](assets/board-section.png)
 
 1. (Optional) Search for and select [!DNL Workfront] [!UICONTROL **Projects**].
 1. (Optional) Search for and select user or team [!UICONTROL **Assignments**].
-1. Select [!UICONTROL **Include completed work**] to display tasks and issues with a Complete status in the intake column.
-
-   >[!NOTE]
-   >
-   >If this option is not selected, when cards in other statuses are marked complete, they will "fall off" the board and no longer be displayed.
-
-1. Click [!UICONTROL **Apply**].
-
-   All objects appear in the board intake column as connected cards.
+1. Click **Apply**. The objects appear in the board intake column as connected cards.
 
    ![Intake column](assets/intake-column-added3.png)
 
@@ -100,51 +90,44 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step1-to-boards}}
 
-1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
-1. Click **[!UICONTROL Configure]** on the right of the board to open the Configure panel.
-1. Expand **[!UICONTROL Board]**.
-1. Turn on **[!UICONTROL Dynamically intake items to board]**.
-
-   The intake column is added on the left of the board. It remains blank until you apply filters to it.
+1. On the dashboard, select a board. 
+1. Click **Configure** on the right of the board to open the **Configure** panel.
+1. Select the **Board** section. New fields appear. 
+1. Turn on **Dynamically intake items to board**. The blank intake column appears on the left side of the board.
 
 1. Click [!UICONTROL **Use advanced filters**].
-1. Click **[!UICONTROL Add filter sources]** and select **[!UICONTROL Tasks]** or **[!UICONTROL Issues]**.
 
-   ![Intake column advanced filter options](assets/intake-column-advanced-filters1.png)
+1. Click **[!UICONTROL Add filter sources]**, then select **[!UICONTROL Tasks]** or **[!UICONTROL Issues]**.
+
+   ![Intake column advanced filter options](assets/add-filter-sources-options.png)
 
    >[!NOTE]
    >
    >You can filter the intake column to include both tasks and issues, but you must set up the filters separately for each object type.
    >
-   >Also, saved filters and system default filters are available for you to select.
+   >Additionally, saved filters and system default filters are available for you to select.
 
-1. On the filter panel, click **[!UICONTROL New filter]** to get started.
+1. On the filter panel, click **[!UICONTROL New filter]**.
 
-   ![Click New filter](assets/intake-filter-dialog5.png)
-
-1. Build your filter and click **[!UICONTROL Save as new]**.
+1. Build your filter, then click **[!UICONTROL Save as new]**.
 
    ![Filter builder](assets/intake-filter-dialog6.png)
 
-   This example shows a filter for tasks from a specific project that are in the status of [!UICONTROL New] or [!UICONTROL In Progress].
+   The example above shows a filter for tasks from a specific project that are in the status of [!UICONTROL New] or [!UICONTROL In Progress].
 
    >[!NOTE]
    >
    >It is recommended to not use the "Me" (logged in user) wildcard on a board filter, because it is not guaranteed to always display tasks or issues for the logged in user. After the board is set up with the correct tasks and issues, you can filter the board to show items for a specific assignee. For more information, see [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-   For more details about building a filter, see the section "Create or edit a filter in the standard builder" in the article [Create or edit filters in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   For more details about building a filter, see the section Create or edit a filter in the standard builder in the article [Create or edit filters in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-1. Name the filter and click **[!UICONTROL Save]**.
+1. Name the filter, then click **[!UICONTROL Save]**. The filter appears in your list of saved filters and is automatically applied to the intake column.
 
-   ![Type a name for the filter](assets/intake-filter-dialog7.png)
+   ![Entering a new filter name](assets/save-as-modal.png)
 
-   Giving the filter a unique name allows you to search for it later.
+1. Click the X at the top of the filter panel to close it.
 
-1. The filter appears in your list of saved filters, and it is automatically applied to the intake column. Click the X at the top of the filter panel to close it.
-
-   ![Saved filter](assets/intake-filter-dialog8.png)
-
-1. (Optional) To share the filter with others, hover over the saved filter, click the **[!UICONTROL More]** menu ![More menu icon](assets/more-icon-spectrum.png), and select **[!UICONTROL Share]**. Choose the users or teams to share with in the Filter sharing box. For more information, see [Share a filter, view, or grouping](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+1. (Optional) To share the filter with others, hover over the saved filter, click the **[!UICONTROL More]** menu ![More menu icon](assets/more-menu.png), and select **[!UICONTROL Share]**. Choose the users or teams to share with in the **Filter sharing** box. For more information, see [Share a filter, view, or grouping](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 1. (Optional) To include both tasks and issues on the intake column, click **[!UICONTROL Filter sources]** and select the other object to create another filter.
 1. When you are finished adding filters, review the intake column to verify that the correct tasks and issues appear.
 
@@ -167,6 +150,6 @@ The icons on the top right of the intake column show you how many cards are curr
 
    Or
 
-   Click the **[!UICONTROL More]** menu ![More menu icon](assets/more-icon-spectrum.png) on the card, and select **[!UICONTROL Move]**. Then, on the **[!UICONTROL Move Item]** box, choose another column and select **[!UICONTROL Move]**.
+   Click the **[!UICONTROL More]** menu ![More menu icon](assets/more-menu.png) on the card, and select **[!UICONTROL Move]**. Then, on the **Move [ITEM]** box, choose another column and select **[!UICONTROL Move]**.
 
-1. (Optional) To delete the intake column, click the **[!UICONTROL More]** menu ![More menu icon](assets/more-icon-spectrum.png) and select **[!UICONTROL Delete]**.
+1. (Optional) To delete the intake column, click the **[!UICONTROL More]** menu ![More menu icon](assets/more-menu.png) and select **[!UICONTROL Delete]**.

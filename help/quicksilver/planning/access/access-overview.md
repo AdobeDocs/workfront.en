@@ -75,7 +75,7 @@ You must have the following access to access Workfront Planning:
 <tr>
    <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p>
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p>
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
    </td>
 
@@ -126,10 +126,6 @@ You must have the following access to access Workfront Planning:
 </table>
 
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
-
-
-
-
 
 
 ## Share the Planning area using a layout template

@@ -3,7 +3,7 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: View Actual Hours
-description: The hours you log on your work items in Adobe Workfront are considered Actual Hours.
+description: The hours you log on your work items in Adobe Workfront are considered Actual Hours. Actual Hours represent the actual time that it took you to complete a task, issue, or a project.
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
@@ -35,7 +35,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> 
    <p>New: Standard<p>
    <p>Or</p>
@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>View or higher access to Tasks,&nbsp;Projects, or Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Tasks,&nbsp;Projects, or Issues</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -52,9 +52,27 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
  +++
+
+## Actual Hours vs Legacy Actual Hours
+
+Depending on what area of Workfront you access the actual hours from, they could refer to one of the following logged hours:
+
+* In project, tasks, and issue reports and lists: 
+
+  * **Actual Hours**: Hours logged for project, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
+  * **Legacy Actual Hours**: Hours logged for projects, tasks, or issues any time, including before May 2021. They are stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`. 
+  
+    >[!IMPORTANT]
+    >
+    >The Actual Cost of the project uses Legacy Actual Hours to calculate. 
+
+
+* In the project, task, or issue Details area:
+
+  * **Actual Hours**: Hours logged for projects, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
 
 ## Actual Hours on tasks and issues vs. Actual Hours on projects
 
@@ -77,13 +95,6 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 ## Find Actual Hours
 
 Finding the value for Actual Hours for an item is identical for tasks, projects, and issues.
-
-You can find the Actual Hours information on tasks in the following locations:
-
-* [Actual Hours in the Details section](#actual-hours-in-the-details-section) 
-* [Actual Hours in the Hours section](#actual-hours-in-the-hours-section) 
-* [Actual Hours in reports](#actual-hours-in-reports) 
-* [Actual Hours in Resource Management tools](#actual-hours-in-resource-management-tools)
 
 ### Actual Hours in the Details section {#actual-hours-in-the-details-section}
 
@@ -133,6 +144,28 @@ If you want to see the progress of the work your users are doing on their assign
 * The Resource Planner.
 
   For information, see [View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
+
+
+### Actual Hours in the Workfront  API
+
+<!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
+
+Most Workfront fields that store hours are saved in the Workfront database in minutes. For example, the name of the Planned Hours field of a task is `workRequired` in the Workfront database and it is stored in minutes. 
+
+You must account for the conversion from minutes to hours when accessing these fields in API calls or in calculated custom fields or columns. 
+
+The Actual Hours logged for projects, tasks, or issues are currently stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`.
+
+With the following version of the Workfront API scheduled to release later in 2025, Actual Hours are stored in the following fields and units in the database: 
+
+* **Actual Hours**: Hours logged for project, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
+* **Legacy Actual Hours**: Hours logged for projects, tasks, or issues any time, including before May 2021. They are stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`.
+
+  >[!IMPORTANT]
+  >
+  >The Actual Cost of the project uses Legacy Actual Hours to calculate. 
+
+  For information about using Actual Hours in calculated columns or fields, see [Report FAQs](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md). 
 
 ## Log time
 

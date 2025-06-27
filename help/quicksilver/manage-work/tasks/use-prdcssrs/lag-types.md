@@ -136,7 +136,7 @@ You can indicate lag types on tasks when you define their predecessor relationsh
 ### Indicate Lag Types in the Predecessors section of a task {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. Go to a task for which you want to define the predecessor and the Lag Type. 
-1. Click **Predecessors** in the left panel. You might have to click **Show More**, and then **Predecessors**. 
+1. Click **Predecessors** in the left panel. 
 1. Click **Add Predecessor**.
 1. (Optional) If you want to add a cross-project predecessor, replace the **Parent Project** name with another project.
 1. Start typing the name of the predecessor task, then select it when it appears in the list. 

@@ -13,9 +13,7 @@ exl-id: d4f02102-0378-472f-9ebb-753502ec048b
 
 <!--Audited: 01/2024-->
 
-As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the options users see when they open the Main Menu in Workfront. 
-
-![Main Menu options](assets/main-menu-with-blueprints-no-branding.png)
+As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the options users see when they open the Main Menu in Workfront.
 
 >[!NOTE]
 >
@@ -41,7 +39,9 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
-   <td>Any</td> 
+   <td><p>Any</p>
+   
+   <p>Adding custom applications to the Main Menu is only available for organizations licensed for Adobe App Builder.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
@@ -98,7 +98,6 @@ You must have the following access to perform the steps in this article:
    * Timesheets
    * Documents
    * Templates
-   * Analytics
    * Proofing
    * Goals
 
@@ -114,6 +113,12 @@ You must have the following access to perform the steps in this article:
      >[!NOTE]
      >
      >Planning requires an additional license. For information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md)
+     * Custom Application
+
+      >[!NOTE]
+      >
+      > Custom applications must be created separately before they become available as Main Menu options. For more information, see [Create a custom application for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md). 
+
 
 1. Do any of the following:
 

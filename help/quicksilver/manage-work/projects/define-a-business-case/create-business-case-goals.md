@@ -8,7 +8,7 @@ exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
 ---
 # Create Business Case goals
 
-<!-- Audited: 4/2025 -->
+<!-- Audited: 6/2025 -->
 
 As part of creating a Business Case, you can create a set of goals to define the objectives of a project. These goals are used to communicate the purpose of completing a project to the Portfolio Manager or the Project Sponsor.
 
@@ -37,8 +37,6 @@ Consider the following when creating Business Case goals for your projects:
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -46,29 +44,29 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> <p>Current: Prime or higher</p>
+   <p>Legacy: Pro or higher</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td> 
-   <p>New: Standard</p> 
-   <p>Or</p>
-   <p>Current: Plan </p> 
+   <p>Current: Standard</p> 
+   <p>Legacy: Plan </p> 
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to&nbsp;Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td> <p>Manage permissions or higher to the project</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
  +++
 

@@ -11,6 +11,16 @@ exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
 ---
 # Configure system updates
 
+<!-- Audited: 6/2025 -->
+
+<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div> 
+
 [!DNL Adobe Workfront] generates automatic system updates in an object's [!UICONTROL Updates] area to record the following events:
 
 * Changes users make in an object field
@@ -32,8 +42,6 @@ For example, you could have [!DNL Workfront] track all changes users make to the
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -43,7 +51,7 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td><p>New: [!UICONTROL Standard]</p>
    Or
    <p>Current: [!UICONTROL Plan]</p>
@@ -56,7 +64,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,14 +74,10 @@ You can determine what information [!DNL Workfront] tracks when users change inf
 
 >[!NOTE]
 >
->* [!DNL Workfront] cannot track and record updates about calculated custom fields.
->* You can customize the system update for projects, tasks, issues, portfolios, programs, and users. You cannot customize the system update for templates, documents or timesheets, but [!DNL Workfront] does record system updates for these objects.
+>* [!DNL Workfront] can't track and record updates about calculated custom fields.
+>* You can customize the system update for projects, tasks, issues, portfolios, programs, and users. You can't customize the system update for templates, documents or timesheets, but [!DNL Workfront] does record system updates for these objects.
 >
 
-
-
-* [Add fields you want [!DNL Workfront] to track](#add-fields-you-want-workfront-to-track)
-* [Remove fields that you don't want tracked](#remove-fields-that-you-don-t-want-tracked)
 
 ### Add fields you want [!DNL Workfront] to track {#add-fields-you-want-workfront-to-track}
 
@@ -81,49 +85,75 @@ You can add fields you want [!DNL Workfront] to track for a particular type of o
 
 >[!NOTE]
 >
->You can track up to 300 built-in and custom fields in the update feeds. If you are tracking the maximum number of fields and want to track additional fields that are not displayed in the [!UICONTROL All Fields] Sub-tab, you must first remove some of the tracked fields in order to track new fields. For more information about removing fields from the update fields, see see [Remove fields that you don't want tracked](#remove-fields-that-you-don-t-want-tracked).
+>You can track up to 300 built-in and custom fields in the update feeds. If you are tracking the maximum number of fields and want to track additional fields that are not displayed in the [!UICONTROL All Fields] subtab, you must first remove some of the tracked fields in order to track new fields. For more information about removing fields from the update fields, see [Remove fields you don't want tracked](#remove-fields-you-don-t-want-tracked).
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![Gear settings icon](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. In the panel on the left, click **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
+1. In the panel on the left, click **[!UICONTROL Interface]**, then **[!UICONTROL Update Feeds]**.
+1. (Optional) In the <span class="preview">**Tracked fields** tab</span>, click one of the following subtabs, depending on which types of fields you want to track in the update feed:
 
-1. &#x200B;Click **[!UICONTROL Add Fields]**, then click the object that you want to be tracked.
+   * <span class="preview">**Built-in fields**</span>: Displays a list of built-in fields.
+   * <span class="preview">**Custom fields**</span>: Displays a list of custom fields. You must create the custom fields before they are available in the list. 
+   * <span class="preview">**All fields**</span>: Displays a list of both built-in and custom fields. 
 
-1. In the&#x200B; **[!UICONTROL Update Feeds]** box that appears, start typing either a built-in (standard) field or a custom field for the object, then click to select it when it appears in the list.
+1. Click <span class="preview">**[!UICONTROL Add fields]**,</span> then select the object that you want to be tracked from the drop-down. 
 
-   If [!DNL Workfront] is already tracking the field, you cannot add it a second time from the list.
+   Manually selecting fields is not available for all the objects that have an Updates area.
 
-1. After adding all the fields you want [!DNL Workfront] to track, click **[!UICONTROL Add Fields]**.
+   Select from fields for the following objects:
 
-   The built-in fields that you added show under the **[!UICONTROL Built-in Fields]** sub-tab.
+      * Project
+      * Task
+      * Issue
+      * Portfolio
+      * Program
+      * User
 
-   The custom fields you added show under the **[!UICONTROL Custom Fields]** sub-tab.
+   The <span class="preview">**Add fields** </span> box opens, for each object selected.
+1. In the <span class="preview">**Add fields** </span> box, start typing either a built-in (standard) field or a custom field for the object, then select it when it appears in the list.
 
-   The **[!UICONTROL All Fields]** sub-tab shows both the built-in and the custom fields that are being tracked.
+   >[!NOTE]
+   >
+   >If [!DNL Workfront] is already tracking the field, you can't add it a second time from the list.
 
-### Remove fields that you don't want tracked {#remove-fields-that-you-don-t-want-tracked}
+1. After adding all the fields you want [!DNL Workfront] to track, <span class="preview"> click **[!UICONTROL Add]**.
+   The built-in fields that you added show under the **[!UICONTROL Built-in fields]** subtab, and the custom fields show under the **[!UICONTROL Custom fields]** subtab.
+   The **[!UICONTROL All fields]** subtab shows both the built-in and the custom fields that [!DNL Workfront] tracks.</span>
 
-You can remove fields you do not want the system to track for a particular type of object throughout the [!DNL Workfront] interface.
+### Remove fields you don't want tracked {#remove-fields-you-don-t-want-tracked}
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![Gear settings icon](assets/gear-icon-settings.png).
+You can remove fields you don't want the system to track for a particular type of object throughout the [!DNL Workfront] interface.
 
-1. Click **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
+{{step-1-to-setup}}
 
-1. On the **[!UICONTROL Tracked Fields]** tab, select the **[!UICONTROL All Fields]** sub-tab.
+1. Click **[!UICONTROL Interface]**, then **[!UICONTROL Update Feeds]**.
 
-   This shows both the built-in and the custom fields that are currently being tracked.
+1. On the **[!UICONTROL Tracked Fields]** tab, select the **[!UICONTROL All fields]** subtab. Both the built-in and custom fields that are currently being tracked display.
 
-1. Select the field you want to stop tracking, then click **[!UICONTROL Remove]**.
+1. Select the field you want to stop tracking, then click the **[!UICONTROL Remove]**.
+
+
+<!--replace above at Preview release with this:
+
+1. On the <span class="preview">**[!UICONTROL Tracked fields]** tab</span>, select the **[!UICONTROL All fields]** subtab. Both the built-in and custom fields that are currently being tracked display.
+
+1. Select the field you want to stop tracking, then click the <span class="preview">**[!UICONTROL Remove]** icon ![Remove icon](assets/remove-icon.png).</span>
+
+-->
 
 1. In the **[!UICONTROL Remove Field]** box that appears, click **[!UICONTROL Yes, Remove It]** to confirm.
 
-Any updates about the previously-tracked fields are preserved in the [!UICONTROL Updates] area where they were recorded.
+   Any updates about the previously-tracked fields are preserved in the [!UICONTROL Updates] area where they were recorded.
 
 ## Determine which actions [!DNL Workfront] tracks for an object type
 
-You can have [!DNL Workfront] track the following actions that users can perform on objects throughout the [!DNL Workfront] interface.
+You can have [!DNL Workfront] track actions that users perform on objects in the [!DNL Workfront] interface.
 
-For example, you can have [!DNL Workfront] record an update every time a user changes an assignment to a task or issue. The change then appears as a system update in the [!UICONTROL Updates] area for the task or issue.
+For example, you can have [!DNL Workfront] record an update every time a user changes an assignment to a task or issue. 
+
+The change then appears as a system update in the [!UICONTROL Updates] area for the task or issue.
+
+The following table describes the actions you can track on objects in [!DNL Workfront]: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -192,13 +222,13 @@ For example, you can have [!DNL Workfront] record an update every time a user ch
 
 To configure which actions you want [!DNL Workfront] to track:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![Gear settings icon](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Click **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
+1. Click **[!UICONTROL Interface]**, then **[!UICONTROL Update Feeds]**.
 
 1. Click the **[!UICONTROL Actions]** tab.
 
-1. Select an action to enable it, or deselect an action to disable it.
+1. Select an action's checkbox to enable it, or deselect it to disable it.
 1. Click **[!UICONTROL Save]**.
 
-When you disable an action, any previously-recorded update about that action is preserved in the [!UICONTROL Updates] area where it was recorded.
+   When you disable an action, any previously-recorded update about that action is preserved in the [!UICONTROL Updates] area where it was recorded. [!DNL Workfront] stops recording any new updates for the disabled action.

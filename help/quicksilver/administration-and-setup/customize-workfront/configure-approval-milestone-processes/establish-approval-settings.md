@@ -64,7 +64,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Approver not required to be on the project team (for approval processes that include a role)</td> 
-      <td> <p>Select this if an approver is not required to be on the project team when an approval process includes a role. When assigning the approval decision to a job role, only the users who have a role associated with them on the project will see the approval. If you enable this setting, any user with that job role receives the approval request whether they are on the project team or not. For information about editing a user's project role, see <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Manage the Project Team</a>. </p> 
+      <td> <p>Select this if an approver is not required to be on the project team when an approval process includes a role. Any user with that job role receives the approval request whether they are on the project team or not, though they are not automatically granted access to the project. For information about editing a user's project role, see <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Manage the Project Team</a>. </p> 
       <p><b>TIP</b>: When you assign an approval to a role and the option <b>Approver not required to be on the project team (for approval processes that include a role)</b> is disabled, but there are no roles in the project team that match the role on the approval, the approval is reassigned to the Project Owner. </p> </td> 
      </tr> 
      <tr> 

@@ -98,7 +98,7 @@ To export a Kick-Start template:
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>Dashboard</p> <p>All dashboards in the system are available to export. You can select up to 100 specific dashboards in a single export.</p> </td> 
+      <td scope="col"> <p>Dashboard</p> <p>All publicly shared dashboards in the system are available to export. Dashboards not shared system-wide cannot be exported. You can select up to 100 specific dashboards in a single export.</p> </td> 
       <td scope="col">Exports as ZIP file</td> 
       <td scope="col"> <p>Parameter</p> <p>Descriptive Text</p><p>Parameter Option</p> <p>Parameter Group</p> <p>Category Parameter</p> <p>Category</p> <p>Report</p> <p>Portal Tab Section</p> <p>Dashboard</p> <p>Preferences</p> </td> 
      </tr> 
@@ -482,12 +482,11 @@ To import the template spreadsheet data into Workfront:
 
 1. Click **System** > **Import Data (Kick-Starts)**.
 
-1. In the **Upload data with Kick-Start spreadsheet** section, click **Choose File**, then browse to and select the populated spreadsheet.
+1. In the **Upload data with Kick-Start spreadsheet** section, click **Choose file**, then browse to and select the populated spreadsheet.
+   
+   The file uploads automatically, and a notification that the import was successful displays.
 
-1. Click **Upload.**
+   If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and Workfront cannot upload the file. Try importing your data in smaller batches of objects.
 
-   If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and Workfront cannot upload the file.
-
-   Try importing your data in smaller batches of objects.
-
-1. (Conditional) If you are using Workfront Fusion, you can now turn on your FLOs or scenarios.
+1. (Conditional) If the import was not successful, you receive an error message stating what the problem is. Try to identify the field, the sheet, and the row number in which the problem was encountered and correct the information in the Excel file. Then, try importing the file one more time.
+1. (Conditional) If you are using Workfront Fusion, you can now turn on your FLOs or scenarios when the import is complete.

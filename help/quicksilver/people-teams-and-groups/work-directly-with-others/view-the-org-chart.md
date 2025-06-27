@@ -43,5 +43,5 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step1-click-profile-pic}}
 
-1. In the left panel, click **[!UICONTROL Org Chart]**.  
-   ![Organization chart](assets/org-chart.png)
+1. In the left panel, click **[!UICONTROL Org Chart]**.
+   ![Organization chart](assets/org-chart-2025.png)

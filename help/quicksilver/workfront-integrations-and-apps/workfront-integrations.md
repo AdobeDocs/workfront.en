@@ -16,7 +16,6 @@ This section contains the following articles:
 * [[!DNL Adobe Workfront] integration methods](../workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
 * [[!DNL Adobe Workfront for Creative Cloud]](../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
 * [[!DNL Workfront] and [!DNL Experience Manager Assets] Integrations](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
-
 * [[!DNL Adobe Workfront for Jira]](../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
 * [[!DNL Adobe Workfront for Google Workspace]](../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
 * [[!DNL Adobe Workfront for Outlook]](../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)

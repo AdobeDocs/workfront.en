@@ -58,7 +58,7 @@ You must have the following access to perform the steps in this article:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -106,7 +106,14 @@ You must have the following access to perform the steps in this article:
 * The file should not be larger than 5MB.
 * Empty sheets are not supported.
 * Fields of the following types are not supported and cannot be mapped to fields on the import sheet:
-    * Connections and lookup fields of connected records <!--or connected Workfront objects-->
+
+    * Connection fields, depending on the environment you use:
+    
+        * In the Production environment, connection fields to Planning records or Workfront and AEM Assets objects cannot be mapped
+
+        * <span class="preview">In the Preview environment, you can map and import connection fields to Planning records. You cannot map fields to Workfront and AEM Assets.</span>
+
+    * Lookup fields from connected Planning records or Workfront and AEM Assets objects
     * Formula fields
     * Created date, Created by
     * Last modified date, Last modified by
@@ -137,6 +144,11 @@ You must have the following access to perform the steps in this article:
     ![Map Planning fields to columns when importing records](assets/map-planning-fields-to-columns-when-importing-records.png)
  
     Each row represents a new record. Only the first 10 records display in the Preview and edit box. 
+
+    >[!TIP]
+    >
+    >Not all field types are supported. For more information, see the section [Considerations about importing records using an Excel or CSV file](#considerations-about-importing-records-using-an-excel-or-csv-file) in this article.
+
 
 1. (Optional and conditional) If you have Manage permissions to the workspace, select the **Create missing options** in the lower-left corner of the screen. When enabled, the missing choices of single- and multi-select fields are added. 
 

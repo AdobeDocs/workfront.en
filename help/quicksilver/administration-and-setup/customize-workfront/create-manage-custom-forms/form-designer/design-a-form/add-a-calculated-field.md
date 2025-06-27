@@ -11,6 +11,8 @@ exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
 ---
 # Add calculated fields to a form
 
+<!-- Audited: 5/2025 -->
+
 You can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object.
 
 A calculated custom field can contain:
@@ -71,7 +73,7 @@ For more detail about the information in this table, see [Access requirements in
 
 You can use the same calculated custom field on custom forms that belong to different objects. For example, you can use the Profit calculated field that you created for the project custom form on a task custom form.
 
-When using an existing calculated custom field, the calculation does not transfer to the new form. You must add the calculation again, on the same field, on the new custom form.
+When using an existing calculated custom field, the calculation doesn't transfer to the new form. You must add the calculation again on the same field on the new custom form.
 
 You can also have a different calculation for the same field, on the new form. Keeping the same name for the calculated custom field ensures cohesiveness and consistency in your naming convention.
 
@@ -87,15 +89,15 @@ To reuse an existing calculated custom field:
 
 {{step-1-to-setup}}
 
-1. Click **Custom Forms** in the left panel.
+1. In the left panel, click **Custom Forms**, then **Forms**.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Click **New Custom Form.**
-1. Select which object types you'd like to attach the custom form to, then click **Continue**.
+1. Click **New Custom Form**.
 
+1. In the **New Custom Form** dialog, select which object types you'd like to attach the custom form to, then click **Continue**.
 1. On the top-left side of the screen, click **Field library**.
 
    ![Field library](assets/field-library.png)
@@ -121,18 +123,19 @@ To reuse an existing calculated custom field:
 
 >[!IMPORTANT]
 >
->Before you create a new calculated custom field, identify the existing fields that you want to include so that you are sure that the data necessary for the calculation is present in Workfront.
+>Before you create a new calculated custom field, identify the existing fields you want to include so that you are sure the data necessary for the calculation is present in Workfront.
 
 {{step-1-to-setup}}
 
-1. Click **Custom Forms** in the left panel.
+1. In the left panel, click **Custom Forms**, then **Forms**.
+
+1. Click **New custom form**.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Click **New Custom Form.**
-1. Select which object types you'd like to attach the custom form to, then click **Continue**.
+1. In the **New Custom Form** dialog, select which object types you'd like to attach the custom form to, then click **Continue**.
 
 1. On the left side of the screen, find **Calculated** and drag it to a section on the canvas.
 
@@ -160,9 +163,9 @@ To reuse an existing calculated custom field:
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
-      <td> <p>The format in which you want the results of the field to be stored and displayed.</p> <p>If the field will be used in mathematical calculations, always use a <strong>Number</strong> or a <strong>Currency</strong> format. When you select Number or Currency, the system automatically truncates numbers that start with 0.</p> 
-      <p><b>IMPORTANT</b>: Before you choose a format, consider the correct format for the new field. The format field cannot be edited after the custom form is saved. And selecting the wrong format could impact future calculations and aggregate values in report and list groupings.</p>
-      <p><strong>NOTE:</strong> Calculated fields with a Currency format should not include quotation marks. (For example, use 800.00 and not "800.00.") Using quotation marks can cause unexpected consequences due to nuances with language formatting for currency types.</p></td>
+      <td> <p>The format in which you want the results of the field to be stored and displayed.</p> <p>If the field will be used in mathematical calculations, always use a <strong>Number</strong> or a <strong>Currency</strong> format. When you select <strong>Number</strong> or <strong>Currency</strong>, the system automatically truncates numbers that start with 0.</p> 
+      <p><b>IMPORTANT</b>: Before you choose a format, consider the correct format for the new field. The format field can't be edited after the custom form is saved. And selecting the wrong format could impact future calculations and aggregate values in report and list groupings.</p>
+      <p><strong>NOTE</strong>: Calculated fields with a <strong>Currency</strong> format should not include quotation marks. (For example, use 800.00 and not "800.00.") Using quotation marks can cause unexpected consequences due to nuances with language formatting for currency types.</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -277,7 +280,7 @@ To reuse an existing calculated custom field:
 
    1. Click in the large text box, then click **Expressions** and **Fields** that are available to add them to your calculation.
 
-      Expand an object name under **Fields** to see all of the fields available for that object. The list is limited to 200 items. If you know the field name you can search for it.
+      Expand an object name under **Fields** to see all of the fields available for that object. The list is limited to 200 items. If you know the field name, you can search for it.
 
       You can also start typing an expression or field in the large text box, then select it when it displays. Each item displays with an "F" for field or an "E" for expression.
 
@@ -289,7 +292,7 @@ To reuse an existing calculated custom field:
       >
       >You can do any of the following to get help with your calculation:
       > 
-      >* Hover over an expression in your calculation to see a description, an example showing how it can be used, and a "Learn More" link to more information in the article [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* Hover over an expression in your calculation to see a description, an example showing how it can be used, and a **Learn More** link to more information in the article [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![Expression help text](assets/hover-expression-help-text.jpg)
       >* Use the color coding to identify the components you have added. Expressions display in blue and fields display in green.
       >  ![Colors for field expressions](assets/colors-fields-expressions.jpg)
@@ -311,7 +314,7 @@ To reuse an existing calculated custom field:
     <tbody> 
      <tr> 
       <td role="rowheader">Add Logic</td> 
-      <td>You can add Display Logic to determine whether the calculated field displays, based on at least one choice that a user makes in a preceding multiple choice field (Dropdown, Checkboxes, or Radio Buttons) when filling out the form. <!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>This is available only when at least one checkbox, radio button, or a dropdown field precedes the calculated custom field on the form. </p> <p>Skip Logic is unavailable for calculated custom fields.</p> </td> 
+      <td>You can add Display Logic to determine whether the calculated field displays, based on at least one choice that a user makes in a preceding multiple-choice field (Dropdown, Checkboxes, or Radio Buttons) when filling out the form. <!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>This is available only when at least one checkbox, radio button, or a dropdown field precedes the calculated custom field on the form. </p> <p>Skip Logic is unavailable for calculated custom fields.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Update previous calculations</td> 

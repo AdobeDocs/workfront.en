@@ -26,8 +26,7 @@ For information on the endpoints used for upgrading or downgrading event subscri
 >The following releases will affect event subscription versioning:
 >
 >* **25.2 Release** (April 10, 2025): All new subscriptions created after the 25.2 release are created as Version 2.
->* **25.3 Release** (July 17, 2025): Subscriptions can no longer be downgraded to Version 1 after the 25.3 release.
->* **September 1, 2025**: All remaining Version 1 subscriptions are migrated to Version 2.
+>* **January 15, 2026**: All remaining Version 1 subscriptions are migrated to Version 2.
 
 ## Changes between Version 1 and Version 2
 
@@ -251,3 +250,5 @@ The following changes have been made for event subscriptions Version 2:
 Workfront Fusion uses event subscriptions to watch for changes in Workfront to trigger scenarios. You can update the event susbcription version that Fusion uses directly in a scenario, using the Workfront > Update Events Payload Version module.
 
 For instructions on using this module, see [Workfront modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) In the Workfront Fusion documentation.
+
+For resources on preserving your Workfront Fusion scenarios during the event subscription upgrade,  including a webinar recording, see [Preserving Your Fusion Scenarios During the Event Subscriptions V2 Upgrade](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182).

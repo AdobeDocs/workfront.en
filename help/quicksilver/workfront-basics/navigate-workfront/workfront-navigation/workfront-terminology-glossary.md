@@ -57,11 +57,14 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Actual Hours]</td> 
-   <td> <p>In a project, task, or issue report, [!UICONTROL Actual Hours] are the sum of all hours logged on the project, task, or issue.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If from the [!UICONTROL Updates] tab for Task 1, you click 'Log Time' and enter 25 hours, the Actual Hours of Task 1 = 25 hours. </p> <p>[!DNL Workfront] calculates [!UICONTROL Actual Hours] for parent tasks or projects using the following formulas:</p> 
+   <td> <p>In a project, task, or issue report, [!UICONTROL Actual Hours] are the sum of all hours logged on the project, task, or issue after May 2021.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If from the [!UICONTROL Updates] tab for Task 1, you click 'Log Time' and enter 25 hours, the Actual Hours of Task 1 = 25 hours. </p> <p>[!DNL Workfront] calculates [!UICONTROL Actual Hours] for parent tasks or projects using the following formulas:</p> 
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
-     <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project</code> </p> </li> 
-    </ul> </td> 
+     <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
+    </ul> 
+   <p>See also <strong>Legacy Actual Hours</strong>.
+    <p>For more information, see <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">View Actual Hours</a>.</p>
+    </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Labor Cost]</td> 
@@ -1269,8 +1272,14 @@ The designated full time equivalency for users. A full-time user should have 100
    <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
     --> </td> 
   </tr> 
-  
-  <tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Legacy Actual Hours]</td> 
+   <td> <p>In a project, task, or issue report, [!UICONTROL Legacy Actual Hours] are the sum of all hours logged on the project, task, or issue any time, including before May 2021.</p>  
+   <p>Legacy Actual Hours display as Actual Hours in a project, task, or issue Details area. </p>
+   <p>See also <strong>Actual Hours</strong>.
+    <p>For more information, see <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">View Actual Hours</a>.</p>
+    </td> 
+  </tr>  <tr> 
    <td>[!UICONTROL License Type]</td> 
    <td>The type of license allocated to an [!UICONTROL Access Level]. It is either [!UICONTROL Full User], [!UICONTROL Limited User], or [!UICONTROL Requester].</td> 
   </tr> 

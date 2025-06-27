@@ -15,7 +15,9 @@ feature-set: Workfront
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 2025 Q3 Release {#release-25-q3}
       * [2025 Q3 Release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
-      * [Document management enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
+      * [Proofing and document management enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
+      * [Project enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md)
+      * [Home enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-home-enhancements.md)
       * [Reporting enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md)
       * [Update and notification enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md)
       * [Look-and-feel updates during the 2025 Q3 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md)
@@ -403,7 +405,7 @@ feature-set: Workfront
   * Set up Workfront {#set-up-wf}
     * [Set up](administration-and-setup/set-up-workfront/set-up-workfront.md)
     * Configure system defaults {#configure-system-defaults}
-      * [Configure defaults](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
+      * [Configure system defaults: article index](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
       * [Configure project preferences](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
       * [Configure task and issue preferences](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
       * [Lock project preferences for groups](administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
@@ -415,7 +417,7 @@ feature-set: Workfront
       * [Create expense types](administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
       * [Create a scorecard](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
       * [Project timeline recalculations](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-      * [Custom quarters for projects](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+      * [Enable custom quarters](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [Enable or disable fast releases for your organization](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
       * [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [Configure locations](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
@@ -438,8 +440,8 @@ feature-set: Workfront
       * [Deactivate job roles](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
       * [Override job role billing rates](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
     * System-tracked update feeds {#system-tracked-updates}
-      * [System-tracked updates](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
-      * [System-tracked updates](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
+      * [System-tracked updates feeds: article index](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
+      * [System-tracked updates overview](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
       * [Configure system updates](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
       * [Configure preferences for user updates](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)
     * Adobe Workfront testing environments {#testing-environments}
@@ -562,6 +564,7 @@ feature-set: Workfront
         * [Create a form from a copy](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
         * [Add calculated fields to a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
         * [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
+        * [Examples of advanced logic in custom forms](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md)
         * [Examples of the External lookup field in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
         * [Organize and preview a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
       * Manage custom forms {#manage-custom-forms}
@@ -793,6 +796,7 @@ feature-set: Workfront
   * [Glossary of Adobe Workfront terminology](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
   * [Adobe Workfront browser requirements](workfront-basics/workfront-browser-requirements.md)
   * [Supported languages in Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
+  * [HIPAA Readiness for Workfront](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
   * Navigate Adobe Workfront {#navigate}
     * [Navigate Adobe Workfront: article index](workfront-basics/navigate-workfront/navigate-workfront.md)
     * Adobe Workfront Search {#search}
@@ -1003,7 +1007,7 @@ feature-set: Workfront
     * [Add tags](agile/get-started-with-boards/add-tags.md)
     * [Boards email notifications and preferences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
   * Use agile planning tools in boards {#agile-planning-boards}
-    * [Agile planning tools overview](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
+    * [Agile planning tools overview: article index](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
     * [Manage the work in progress (WIP) limit on a board](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
     * [Add an intake column to a board](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
     * [Use groups on a board](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
@@ -1403,7 +1407,7 @@ feature-set: Workfront
   * Portfolio Management {#portfolio-management}
     * [Portfolio Management](manage-work/portfolios/portfolio-management-overview.md)
     * Portfolio overview in Adobe Workfront {#portfolio-overview-in-adobe-workfront}
-      * [Portfolios](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
+      * [Portfolios: article index](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
       * [Navigate within a portfolio](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
       * [Portfolio Management overview](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
       * [Portfolio overview in Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
@@ -1416,8 +1420,8 @@ feature-set: Workfront
       * [Remove a project from a portfolio](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
       * [Review Requested Projects](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
     * Create and manage programs {#create-and-manage-programs}
-      * [Programs overview in [!DNL Adobe Workfront]](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
-      * [Create and manage programs](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
+      * [Programs overview](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
+      * [Create and manage programs: article index](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
       * [Create a program](manage-work/portfolios/create-and-manage-programs/create-program.md)
       * [Edit programs](manage-work/portfolios/create-and-manage-programs/edit-programs.md)
       * [Add an existing program to a portfolio](manage-work/portfolios/create-and-manage-programs/move-program.md)
@@ -1455,7 +1459,7 @@ feature-set: Workfront
     * [Delegate tasks and issues overview](manage-work/delegate-work/delegate-work-overview.md)
     * [Delegate tasks and issues](manage-work/delegate-work/how-to-delegate-work.md)
 * Teams and groups {#teams-groups}
-  * [Teams and groups](people-teams-and-groups/people-teams-and-groups.md)
+  * [Teams and groups: article index](people-teams-and-groups/people-teams-and-groups.md)
   * Create and manage teams {#create-manage-teams}
     * [Create and manage teams](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
     * [Teams overview](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
@@ -1490,9 +1494,12 @@ feature-set: Workfront
       * [Get started with Canvas Dashboards](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
       * [Add, remove, or arrange reports in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
       * [Share a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-    * Canvas Dashboard report types {#report-types}
-      * [Canvas Dashboard report types overview](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
-      * [Add an existing report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+    * Add reports {#add-reports}
+      * [Canvas Dashboard report types overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/report-types-overview.md)
+      * [Build a KPI report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+      * [Build a chart report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
+      * [Build a table report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+      * [Add an existing report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
   * Reports {#reports}
     * [Reports](reports-and-dashboards/reports/reports-overview.md)
     * Reporting basics {#report-basics}
@@ -1688,17 +1695,6 @@ feature-set: Workfront
       * [Share a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
       * [Remove an External Page from a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
       * [Canvas Dashboards overview](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-  * Enhanced analytics {#enhanced-analytics}
-    * [Enhanced analytics](enhanced-analytics/enhanced-analytics.md)
-    * [Enhanced analytics overview](enhanced-analytics/enhanced-analytics-overview.md)
-    * [Apply filters in Enhanced analytics](enhanced-analytics/use-enhanced-analytics-filters.md)
-    * [Understand Enhanced analytics KPIs](enhanced-analytics/understand-enhanced-analytics-kpis.md)
-    * [View the Flight plan visualization in Enhanced analytics](enhanced-analytics/flight-plan-overview.md)
-    * [View the Burndown visualization in Enhanced analytics](enhanced-analytics/burndown-overview.md)
-    * [View the Tasks in flight visualization in Enhanced analytics](enhanced-analytics/tasks-in-flight-overview.md)
-    * [View the Project activity visualization in Enhanced analytics](enhanced-analytics/project-activity-overview.md)
-    * [View the Project treemap visualization in Enhanced analytics](enhanced-analytics/project-treemap-overview.md)
-    * [View the Activity by team visualization in Enhanced analytics](enhanced-analytics/activity-by-team-overview.md)
   * Workfront Data Connect {#data-lake}
     * [Workfront Data Connect overview](reports-and-dashboards/data-lake/data-lake-overview.md)
     * [Create a reader account or connection for Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
@@ -1719,9 +1715,9 @@ feature-set: Workfront
       * [Tableau Desktop cannot establish a connection](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
       * [Power BI tool cannot connect with provided password](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
 * Manage resources {#manage-resources}
-  * [Manage resources](resource-mgmt/manage-resources.md)
+  * [Manage resources: article index](resource-mgmt/manage-resources.md)
   * Resource Management {#resource-management}
-    * [Resource Management](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
+    * [Resource Management: article index](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
     * [Get started with Resource Management](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
   * Resource Planning in Adobe Workfront {#resource-planning-in-adobe-workfront}
     * [Resource Planning: article index](resource-mgmt/resource-planning/resource-planning-overview.md)
@@ -1751,7 +1747,7 @@ feature-set: Workfront
     * [Report on Resource Planner Budgeted Hours](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
     * [Resource Planner display limitations](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
   * Resource Utilization {#resource-utilization}
-    * [Resource Utilization](resource-mgmt/resource-utilization/resource-utilization.md)
+    * [Resource Utilization: article index](resource-mgmt/resource-utilization/resource-utilization.md)
     * [View resource utilization information](resource-mgmt/resource-utilization/view-utilization-information.md)
   * The Workload Balancer {#the-workload-balancer}
     * [The Workload Balancer: article index](resource-mgmt/workload-balancer/workload-balancer.md)
@@ -2100,6 +2096,8 @@ feature-set: Workfront
     * [Manage the table view](planning/views/manage-the-table-view.md)
     * [Manage the timeline view](planning/views/manage-the-timeline-view.md)
     * [Manage the calendar view](planning/views/manage-the-calendar-view.md)
+    * [Delete record views](planning/views/delete-record-views.md)
+    * [Duplicate record views](planning/views/duplicate-record-views.md)
   * Adobe Workfront Planning notifications {#adobe-workfront-planning-notifications}
     * [Adobe Workfront Planning notifications: Article index](planning/notifications/notifications-information.md)
     * [Manage Adobe Workfront Planning notification preferences](planning/notifications/manage-notification-preferences.md)
@@ -2109,6 +2107,10 @@ feature-set: Workfront
   * [Adobe Workfront integrations](workfront-integrations-and-apps/workfront-integrations.md)
   * [Adobe Workfront built-in integrations overview](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
   * [Adobe Workfront integration methods](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
+  * Review and approval integrations {#review-approval-integrations}
+    * [Review and approval integrations: article index](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/review-approval-integrations-toc.md)
+    * [Get started with the proofing and GenStudio for Performance Marketing integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
+    * [Get started with the proofing and Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
   * Adobe Workfront for Creative Cloud {#workfront-for-creative-cloud}
     * [Adobe Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
     * Install the Adobe Workfront plugin for Creative Cloud Applications {#install-wf-cc}
@@ -2138,7 +2140,7 @@ feature-set: Workfront
     * Workfront Extension for Illustrator and InDesign {#workfront-for-illustrator-indesign}
       * [Use the Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
   * Adobe Workfront for Jira {#workfront-for-jira}
-    * [Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
+    * [Adobe Workfront for Jira: article index](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
     * [Install Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
     * [Configure Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
     * [Link items between Adobe Workfront and Jira](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
@@ -2161,7 +2163,7 @@ feature-set: Workfront
     * [Create an Adobe Workfront issue in Google Workspace using email content](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
     * [Update an Adobe Workfront item from G Suite using email content](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
   * Adobe Workfront for Outlook {#workfront-for-outlook}
-    * [Adobe Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
+    * [Adobe Workfront for Outlook: article index](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
     * [Set up Adobe Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
     * [Permissions levels for Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md) 
     * [Reply to a comment from Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
@@ -2495,7 +2497,7 @@ feature-set: Workfront
     * [Outbound message format for event subscriptions](wf-api/api/message-format-event-subs.md)
     * [FAQs - Event Subscriptions](wf-api/general/event-subs-faq.md)
   * Document Webhooks API {#document-webhooks-api}
-    * [Document Webhooks API articles](wf-api/doc-wbhks-api/document-webhooks-api.md)
+    * [Document Webhooks API: article index](wf-api/doc-wbhks-api/document-webhooks-api.md)
     * [Webhooks Overview](wf-api/doc-wbhks-api/webhooks-overview.md)
     * [Register a Webhook Integration](wf-api/doc-wbhks-api/register-webhook-integration.md)
     * [Authentication for Document Webhooks](wf-api/doc-wbhks-api/auth-for-docu-webhook.md)
@@ -2507,7 +2509,7 @@ feature-set: Workfront
     * [Get a thumbnail for a document](wf-api/doc-wbhks-api/get-thmbnl-doc.md)
     * [File upload via Document Webhooks](wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
     * [Create a Folder with Document Webhooks](wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
-    * [Delete a document or folder (Not yet implemented)](wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
+    * [Delete a document or folder (not yet implemented)](wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
     * [Get information about the service (not yet implemented)](wf-api/doc-wbhks-api/get-service-info-webhook.md)
     * [Rename a document or folder (not yet implemented)](wf-api/doc-wbhks-api/rename-docu-or-folder.md)
     * [Perform a custom action (not yet implemented)](wf-api/doc-wbhks-api/perform-custom-action.md)

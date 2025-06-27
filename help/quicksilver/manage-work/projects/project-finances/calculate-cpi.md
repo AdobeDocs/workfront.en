@@ -10,6 +10,8 @@ exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
 ---
 # Calculate Cost Performance Index (CPI)
 
+<!-- Audited: 5/2025 -->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
@@ -56,9 +58,6 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Overview of the Cost Performance Index (CPI)
 
-* [The CPI value](#the-cpi-value) 
-* [How CPI is calculated](#how-cpi-is-calculated)
-
 ### The CPI value {#the-cpi-value}
 
 Project managers understand that a CPI value of 1 means the project is exactly on budget. Values greater than 1 indicate a project is under budget (fewer hours or expenses have been recorded than originally planned), and values less than 1 mean a project is over budget (more hours or expenses have been recorded than originally planned). The further from 1, the greater deviation from the plan.
@@ -101,7 +100,7 @@ CPI = 1
   Total Budgeted Cost Work Performed = the sum of the Total Budgeted Cost Work Performed field for all direct child tasks.
 
 * **For a project:** 
-  Total Budgeted Cost Work Performed = the sum of the Total Budgeted Cost Work Performed field for all top level tasks (parents and standalone tasks).
+  Total Budgeted Cost Work Performed = the sum of the Total Budgeted Cost Work Performed field for all top-level tasks (parents and standalone tasks).
 
 For information about the total Budgeted Cost Work Performed (BCWP), see [Calculate Budgeted Cost Work Performed (BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
 
@@ -178,20 +177,18 @@ The Total Budgeted Cost Work Performed is calculated for the following:
 * **For a project:**
 
   ```
-  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top level tasks)
+  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top-level tasks)
   ```
 
   
 
 ## Locate CPI in a project or task
 
-You can display the CPI of a project or a task in a project or task list or report. In addition, you can view it at the project or task level.
+You can display the CPI of a project or task in a project or task list or report. In addition, you can view it at the project or task level.
 
 1. Go to the project or task where you want to view the CPI.
 1. Expand **Project Details** or **Task Details** in the left panel, depending on whether you are viewing CPI for a project or task.
 
-1. Click **Finance**.
-
-   The CPI displays in the **CPI/ SPI/ CSI** field.
+1. Click **Finance**. The CPI displays in the **CPI/ SPI/ CSI** field.
 
    ![CPI on project](assets/cpi-on-project-nwe.png)

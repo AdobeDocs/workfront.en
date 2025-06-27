@@ -80,8 +80,6 @@ The options that are available in the [!UICONTROL Main Menu] are dependent on:
 
 * **License type**: To learn the default configurations for different license types, see [Understand the navigation for a Review-license user](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand the navigation for a [!UICONTROL Work]-license user](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
-![Main menu options](assets/main-menu-options-350x481.png)
-
 Each icon takes you to a different area of Workfront. 
 
 To learn more about each area, see:
@@ -114,7 +112,6 @@ To learn more about each area, see:
      <li>[!UICONTROL Timesheets]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">Timesheets: article index</a></li> 
      <li>[!UICONTROL Documents]: <a href="../../documents/documents-overview.md" class="MCXref xref">Documents</a></li> 
      <li>[!UICONTROL Templates]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">Create and manage project templates: article index</a></li> 
-     <li>[!UICONTROL Analytics]: <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">Enhanced analytics overview</a></li> 
      <li>[!UICONTROL Goals]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] overview</a></li> 
      <li>[!UICONTROL Scenarios]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a></li> 
      <li>[!UICONTROL Proofing]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Proof: article index</a></li> 

@@ -32,6 +32,7 @@ We have updated the look and feel of the Workfront Calendar to a modern design t
 * How you create and rename the calendar
 * The calendar actions have moved to a More menu next to the calendar name
 * A new side panel for viewing calendar information
+* You can no longer hide weekends
 * And more
 
 For more information, see the [Calendars](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md) articles.

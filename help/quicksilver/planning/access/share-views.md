@@ -75,8 +75,9 @@ You must have the following access to perform the steps in this article:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
 <p>Your organization must be onboarded to the Adobe Unified Experience for users to be able to request and grant permissions to a view from a permission request. </p>
+<p>Users must be added to the Adobe Admin Console in order to gain permissions to Workfront Planning views.</p>
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -138,9 +139,9 @@ You can share views you created or views you have Manage permissions to with use
 
    This opens the record type page.
 
-1. From the view tab, hover over the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. <span class="preview">From the view tab, hover over the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. </span>
 
-   ![More menu for views expanded with share option](assets/more-menu-for-views-expanded-with-share-option.png)
+   <span class="preview">![More menu for a view](assets/more-menu-for-views-expanded-with-share-option.png) </span>
 
    The **Internal sharing** tab should be selected by default.
 
@@ -195,9 +196,9 @@ To share a view publicly in Workfront Planning:
 
    This opens the record type page.
 
-1. From the view tab, hover over the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. <span class="preview">From the view tab, hover over the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. </span>
 
-   ![More menu for views expanded with share option](assets/more-menu-for-views-expanded-with-share-option.png)
+   <span class="preview">![More menu for views expanded with share option](assets/more-menu-for-views-expanded-with-share-option.png)</span>
 
 1. Click **Public sharing**.
 

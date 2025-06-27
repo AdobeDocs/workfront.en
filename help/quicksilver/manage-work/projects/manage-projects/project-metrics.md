@@ -1,7 +1,7 @@
 ---
 content-type: overview;how-to-procedural
 product-area: projects
-keywords: analytics,metrics,project,enhanced,tasks,assignee,complete,status,overdue,upcoming
+keywords: analytics,metrics,project,tasks,assignee,complete,status,overdue,upcoming
 navigation-topic: manage-projects
 title: Overview of project metrics
 description: Project metrics give you a visualization of what is happening in a project, allowing you quickly assess the needs and status of a project. Find out how to interpret the Metrics area in the left panel of a project.
@@ -15,32 +15,35 @@ Project metrics give you a general view in chart format about how a project is p
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront plan*</td> 
+   <td role="rowheader">Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront license*</td> 
-   <td> <p>Review or higher </p> </td> 
+   <td> <p>New: Light or higher </p>
+   <p>Current: Review or higher </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>View access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>View access to Projects</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to a project</p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View permissions to a project</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 
@@ -66,10 +69,11 @@ You can also drill in to each chart to look more closely at tasks or issues in a
 
 To learn more about looking at these tasks or issues, see [View Metrics details](#view-metrics-details).
 
+<!--this was deprecated: 
 >[!TIP]
 >
 >To see metrics at a higher level for a group of projects within a program, portfolio, etc., navigate to the Enhanced analytics area.  
->To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
+>To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).-->
 
 ## Project KPIs
 
@@ -152,7 +156,7 @@ You can choose to look at task assignments for a project in the following catego
 You can interact with the charts in the Metrics area to look at different aspects of a chart or look more closely at the tasks and issues within a chart.
 
 1. Go to the project you want to see metrics for.
-1. In the left panel, click **Show More** to display more sections, then click **Metrics**.  
+1. In the left panel, click **Metrics**.  
    The charts in the Metrics area display information for tasks by default.  
    ![](assets/metrics-section-350x298.png)
 

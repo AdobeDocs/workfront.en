@@ -74,10 +74,10 @@ To create a Topic Group:
 1. Go to the project that you published as a Help Request Queue.  
    For more information about publishing a project as a Help Request Queue, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Click **Topic Groups** in the left panel. You might need to click **Show More**, then **Topic Groups**. 
+1. Click **Topic Groups** in the left panel. 
 1. Click **New Topic Group**.
 
-   ![](assets/new-topic-group-box-nwe-350x306.png)
+   <!--   ![](assets/new-topic-group-box-nwe-350x306.png) -->
 
 1. Specify the following information:
 
@@ -88,3 +88,4 @@ To create a Topic Group:
 1. Click **Save**.  
    This creates a new Topic Group in your Request Queue. You can now select additional categories from the first drop-down menu under a Request Queue.  
    For more information about submitting requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
+1. To edit an existing Topic Group, select the Topic Group from the Topic Groups list, then edit the details in the window that opens. Click **Save** to save the changes.
