@@ -71,7 +71,11 @@ You can track several types of costs for tasks and projects in Workfront. Overal
     </tr> 
     <tr> 
      <td>Actual Labor Costs</td> 
-     <td> <p>They are calculated using the following formula:</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> </td> 
+     <td> <p>They are calculated using the following formula:</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> 
+     <p><strong>NOTE</strong>
+     <p>Workfront calculates the Actual Labor Cost using the Legacy Actual Hours. For more information, see <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">View Actual Hours</a>. </p>
+     
+    </td> 
     </tr> 
    </tbody> 
   </table>
