@@ -63,11 +63,16 @@ Depending on what area of Workfront you access the actual hours from, they could
 * In project, tasks, and issue reports and lists: 
 
   * **Actual Hours**: Hours logged for project, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
-  * **Legacy Actual Hours**: Hours logged for projects, tasks, or issues any time, including before May 2021. They are stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`. <!--check below and see if you need to add this to the API section - asked on the tech doc task -->
+  * **Legacy Actual Hours**: Hours logged for projects, tasks, or issues any time, including before May 2021. They are stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`. 
+  
+    >[!IMPORTANT]
+    >
+    >The Actual Cost of the project uses Legacy Actual Hours to calculate. 
+
 
 * In the project, task, or issue Details area:
 
-  * **Actual Hours**: Hours logged for projects, tasks, or issues before May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
+  * **Actual Hours**: Hours logged for projects, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
 
 ## Actual Hours on tasks and issues vs. Actual Hours on projects
 
@@ -154,9 +159,13 @@ The Actual Hours logged for projects, tasks, or issues are currently stored in t
 With the following version of the Workfront API scheduled to release later in 2025, Actual Hours are stored in the following fields and units in the database: 
 
 * **Actual Hours**: Hours logged for project, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
-  * **Legacy Actual Hours**: Hours logged for projects, tasks, or issues any time, including before May 2021. They are stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`.
+* **Legacy Actual Hours**: Hours logged for projects, tasks, or issues any time, including before May 2021. They are stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`.
 
-For information about using Actual Hours in calculated columns or fields, see [Report FAQs](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md). 
+  >[!IMPORTANT]
+  >
+  >The Actual Cost of the project uses Legacy Actual Hours to calculate. 
+
+  For information about using Actual Hours in calculated columns or fields, see [Report FAQs](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md). 
 
 ## Log time
 
