@@ -12,11 +12,11 @@ hidefromtoc: yes
 
 # Set up AI Reviewers
 
-Once you have at least one brand set up in GenStudio for Peformance Marketing, you can create multiple AI Reviewers, which you can then assign to approval templates and ad-hoc approval workflows. 
+Once you have at least one brand set up in GenStudio for Performance Marketing, you can create multiple AI Reviewers, which you can then assign to approval templates and ad-hoc approval workflows. 
 
 >[!NOTE]
 >
->The AI Reviewer does not produce an approval or rejection. It only provides a score and recommendations to align the asset with the specified brand requiremets. 
+>The AI Reviewer does not produce an approval or rejection. It only provides a score and recommendations to align the asset with the specified brand requirements. 
 
 ## Access requirements
 
@@ -51,7 +51,7 @@ For more detail about the information in this table, see [Access requirements in
 
 Before you begin, you must set up brand guidelines in GenStuido for Performance Marketing.
 
-To learn more about brand guildelines, see
+To learn more about brand guidelines, see
 
 * [GenStudio for Performance Marketing Brands](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
 * [Add guidelines](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
@@ -67,7 +67,7 @@ To learn more about brand guildelines, see
 1. Select a **Category**.
 1. Click **Create**.
 
-    Once the AI Reviewer is created, users can add the AI reviwer to approval templates or individual approvals. 
+    Once the AI Reviewer is created, users can add the AI Reviewer to approval templates or individual approvals. 
 
     For more information, see
 
