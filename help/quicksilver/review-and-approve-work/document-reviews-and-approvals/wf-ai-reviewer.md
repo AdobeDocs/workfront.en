@@ -12,13 +12,23 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 ---
 # Get started with the Workfront AI Reviewer
 
-Increase content velocity and optimize brand compliance with AI Reviewers. You must be on Unified Approvals to use this functionality. 
+Increase content velocity and optimize brand compliance with AI Reviewers. You can add AI reviewers to approval templates or ad-hoc approvals in Workfront. 
 
-## Access requirements
+
+<!--## Access requirements
 
 Set up:
 
-Add and use: 
+Add and use: -->
+
+
+## Prerequisites 
+
+* Your organization must have migrated to Adobe IMS (Identity Management System)
+* Your Workfront instance must have Unified Approvals enabled 
+* Adobe must have a signed Adobe Gen AI agreement on file
+    For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+
 
 ## Supported file types {#supported-file-types-ai-reviewer}
 
@@ -36,7 +46,7 @@ The AI Reviewer is able to review the following file types:
 
 ## Set up brand guidelines
 
-The Workfront AI Reviewer uses the Brand guildelines in Genstudio for Performance Marketing when it reviews your content. 
+The Workfront AI Reviewer uses the brand guildelines set up in Genstudio for Performance Marketing when reviewing your content. 
 
 To learn more about brand guildelines, see
 
@@ -44,40 +54,48 @@ To learn more about brand guildelines, see
 * [Add guidelines](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 
-## Set up AI Reviewer
+## Set up AI Reviewers
 
-Assign access level 
+Once you have at least one brand set up in GenStudio for Peformance Marketing, you can create multiple AI Reviewers, which you can then assign to approval templates and ad-hoc approval workflows. 
 
-Choose brand 
+For more information, see [Set up AI Reviewers](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md).
 
-Choose brand category 
+## Add AI reviewers to approval workflows
 
-[Set up AI Reviewers](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
+You can add AI reviewers to a existing approval workflow templates or to an individual review and approval request. 
 
-## Add AI reviewer to an approval workflow
+### Approval Templates
 
-You can add an AI reviewer to an existing approval workflow template or to an adhoc approval request. 
+If you often add the same people to approval requests, you can createa an approval template in the Workfront Setup area.  
 
-### Template 
+Now, you can add AI reviewers to approval templates to automaticlly check for brand compliance when a template is used to create a request. 
 
-add an ai reviewer to a tempalte.
+Once created, Approval Templates can be applied to assets in the Documents area of a project, task, or issue.
 
-[Create an Approval Template for assets and documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+For more information, see [Create an Approval Template for assets and documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 
-### Adhoc 
+![template list showing AI reviewwers](assets/ai-review-templates.png)
 
-Add AI reviewer to a review 
+### Individual review and approval request 
 
-Must be on Unified approvals 
+If you create individual review and approval requests, you can add AI Reviewers as you create the request. For more information, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 
-Can follow AI reviewer status in doc summary panel 
 
-Gives score  
+![AI reviewer added to individual approval request](assets/ad-ai-reviewer-to-request.png)
 
-Highlights guidelines that need attention 
+## View AI Reviewer score and feedback 
 
-Add new version and AI reviewer again 
+Seconds after you submit the approval request, you can view the score and feedback from the AI Reviewer in the Document Summary panel. 
 
-Can add approval templates – can add AI reviewer 
+You'll also receive an email notifying you that a review has been completed on the asset. You can click **Go to review** and see the score and feedback in Workfront. 
 
-[Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+The AI Reviewer does not produce an approval or rejection. It only provides a score and recommendations to align the asset with the specified brand requiremets. 
+
+if you need to update the image because it does not pass the brand check, you can upload as a new version. 
+
+For more information on viewing scores and feedback, see [View AI Reviewer score and feedbak](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md).
+
+
+![AI reviewer feedback](assets/ai-reviewer-feedback.png)
+
+

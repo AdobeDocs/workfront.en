@@ -12,6 +12,15 @@ hidefromtoc: yes
 
 # Set up AI Reviewers
 
+Once you have at least one brand set up in GenStudio for Peformance Marketing, you can create multiple AI Reviewers, which you can then assign to approval templates and ad-hoc approval workflows. 
+
+>[!NOTE]
+>
+>The AI Reviewer does not produce an approval or rejection. It only provides a score and recommendations to align the asset with the specified brand requiremets. 
+
+<!--## Access requirements
+
+Standard license--> 
 
 ## Prerequisite 
 
@@ -22,16 +31,21 @@ To learn more about brand guildelines, see
 * [GenStudio for Performance Marketing Brands](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
 * [Add guidelines](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
-## Add the reviewer
+## Add an AI reviewer
 
-1. Click Add new.
-1. Name the reviewr
-1. Select a brand.
-1. Select a category.
-1. Click Create.
+{{step-1-to-setup}}
 
-Add the AI reviwer to a approval template or adhoc approval. 
+1. In the left panel, go to **Review and Approval** > **AI Reviewers**.
+1. Click **Add new**.
+1. Name the reviewer.
+1. Select a **Brand**.
+1. Select a **Category**.
+1. Click **Create**.
 
-where do they see the results of the ai review? 
-Can they be added with other participants?
-Do they make a "decision"?
+    Once the AI Reviewer is created, users can add the AI reviwer to approval templates or individual approvals. 
+
+    For more information, see
+
+    * [Create an Approval Template for assets and documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+    * [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+
