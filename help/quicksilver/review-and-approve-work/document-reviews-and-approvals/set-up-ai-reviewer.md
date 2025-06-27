@@ -18,11 +18,36 @@ Once you have at least one brand set up in GenStudio for Peformance Marketing, y
 >
 >The AI Reviewer does not produce an approval or rejection. It only provides a score and recommendations to align the asset with the specified brand requiremets. 
 
-<!--## Access requirements
+## Access requirements
 
-Standard license--> 
++++ Expand to view access requirements for the functionality in this article.
 
-## Prerequisite 
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Standard</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a system administrator</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+## Prerequisites
 
 Before you begin, you must set up brand guidelines in GenStuido for Performance Marketing.
 
