@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Set up AI Reviewers
-description: Set up AI Reviewers
+title: Create AI Reviewers
+description: Once you have at least one brand set up in GenStudio Foundations, you can create multiple AI Reviewers, which you can then assign to approval templates and individual review and approval requests. 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -10,19 +10,17 @@ hide: yes
 hidefromtoc: yes
 ---
 
-# Set up AI Reviewers
+# Create AI Reviewers
 
-Once you have at least one brand set up in GenStudio for Performance Marketing, you can create multiple AI Reviewers, which you can then assign to approval templates and ad-hoc approval workflows. 
+Once you have at least one brand set up in GenStudio Foundations, you can create multiple AI Reviewers, which you can then assign to approval templates and individual review and approval requests. 
 
 >[!NOTE]
 >
->The AI Reviewer does not produce an approval or rejection. It only provides a score and recommendations to align the asset with the specified brand requirements. 
+>The AI Reviewer is not designed to be a decision-maker in the review and approval workflow. It only provides a score and recommendations to align the asset with the specified brand requirements. 
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a system administrator</p></td> 
+   <td> <p>You must be a system administrator.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +47,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-Before you begin, you must set up brand guidelines in GenStuido for Performance Marketing.
+Before you begin, you must set up brand guidelines in GenStuido Foundations.
 
 To learn more about brand guidelines, see
 
