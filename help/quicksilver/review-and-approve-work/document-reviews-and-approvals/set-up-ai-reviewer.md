@@ -1,0 +1,74 @@
+---
+product-area: documents
+navigation-topic: approvals
+title: Create AI Reviewers
+description: Once you have at least one brand set up in GenStudio Foundations, you can create multiple AI Reviewers, which you can then assign to approval templates and individual review and approval requests. 
+author: Courtney
+feature: Work Management, Digital Content and Documents
+recommendations: noDisplay, noCatalog
+hide: yes
+hidefromtoc: yes
+---
+
+# Create AI Reviewers
+
+Once you have at least one brand set up in GenStudio Foundations, you can create multiple AI Reviewers, which you can then assign to approval templates and individual review and approval requests. 
+
+>[!NOTE]
+>
+>The AI Reviewer is not designed to be a decision-maker in the review and approval workflow. It only provides a score and recommendations to align the asset with the specified brand requirements. 
+
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Standard</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a system administrator.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+## Prerequisites
+
+Before you begin, you must set up brand guidelines in GenStuido Foundations.
+
+To learn more about brand guidelines, see
+
+* [GenStudio for Performance Marketing Brands](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [Add guidelines](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+
+## Add an AI reviewer
+
+{{step-1-to-setup}}
+
+1. In the left panel, go to **Review and Approval** > **AI Reviewers**.
+1. Click **Add new**.
+1. Name the reviewer.
+1. Select a **Brand**.
+1. Select a **Category**.
+1. Click **Create**.
+
+    Once the AI Reviewer is created, users can add the AI Reviewer to approval templates or individual approvals. 
+
+    For more information, see
+
+    * [Create an Approval Template for assets and documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+    * [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+
