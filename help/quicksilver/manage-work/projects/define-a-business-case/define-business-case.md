@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: create-and-manage-projects
-title: "Define a Business Case: article index"
+title: "Define a Business Case: Article Index"
 description: You can formally and efficiently request a project by creating a Business Case. The following articles describe the information you need to have to define the Business Case of a project. 
 author: Alina
 feature: Work Management

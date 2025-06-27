@@ -14,13 +14,42 @@ This page describes Project enhancements made with the Third Quarter 2025 releas
 
 For a list of all changes available at this point in the Third Quarter 2025 release cycle, see [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
+## Existing Actual Hours field replaced with Legacy Actual Hours and new Actual Hours field created 
+
+>[!NOTE]
+>
+> Preview and Production: June 24, 2025 
+
+The existing field of Actual Hours has been renamed to Legacy Actual Hours. This field stores the time logged for projects, tasks, and issues in minutes. The field is stored in the Workfront database as actualWorkRequired.
+
+We added a new Actual Hours field that stores the time logged for projects, tasks, and issues in hours, with decimal precision. The field is stored in the Workfront database as actualWorkRequiredDouble.
+
+Both the Actual Hours and the Legacy Actual Hours fields are visible in project, task  and issues views and reports.
+
+The Actual Hours field visible in the project, tasks, and issues Details section represents the new Actual Hours.
+
+
+
+>[!IMPORTANT]
+>
+>Depending on when the hours were logged, there might be a discrepancy between Actual Hours and Legacy Actual Hours for a project, task, or issue.<br>
+>The following scenarios exist:
+>
+>* The Actual Hours that represent hours logged for projects, tasks and issues since May 2021 have been moved from the Legacy Actual Hours field to the new Actual Hours field.
+>* The Actual Hours that represent hours logged for projects, tasks and issues before May 2021 are only accounted for in the Legacy Actual Hours field.
+><br>You might need to update your reports to reflect the new field and its values.
+
+
+For information, see [View Actual Hours](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
+
+
 ## Change in the way Actual Hours are stored in the database for API calls
 
 >[!NOTE]
 >
->* Preview: May 27, 2025
->* Production fast release: May 27, 2025 
->* Production for all customers:  May 27, 2025
+>* Preview: With the next API version, scheduled for later in 2025
+>* Production fast release: With the next API version, scheduled for later in 2025 
+>* Production for all customers:  With the next API version, scheduled for later in 2025
 
 This update introduces a change in the way the Actual Hours for projects, tasks, and issues are stored in the database. Starting with this update, the Actual Hours will be using a valuefield of `actualWorkRequiredDouble` (with a value in hours).
 

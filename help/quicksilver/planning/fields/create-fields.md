@@ -76,7 +76,7 @@ You must have the following access to perform the steps in this article:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -455,6 +455,9 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
     >[!NOTE]
     >
     >* You cannot add Multi-select type fields in a formula.
+    >
+    >
+    >* You must spell the name of the fields that you include in the formulas as you see them in Workfront Planning. Workfront text-mode syntax and wildcards are not supported in Workfront Planning formulas. 
     >
     >* You can reference a field that is up to 4 fields (and objects) away from the current record type. For example, if you are creating a formula field for an Activity record type (1), and the Activity is connected to the Campaign record type (2) which is connected to a Workfront Project (3), you can reference the project's Budget field (4) in the formula you are creating for the Activity record type. 
     >

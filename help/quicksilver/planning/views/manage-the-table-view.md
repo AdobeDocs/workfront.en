@@ -29,8 +29,6 @@ This article describes the following information:
 
 +++ Expand to view access requirements. 
 
-You must have the following access to perform the steps in this article:  
-
  <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -63,7 +61,7 @@ You must have the following access to perform the steps in this article:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -254,8 +252,6 @@ Consider the following when working with filters in the table view:
 
 * Removing filters removes them from anyone accessing the same record type as you and uses the same view as you use.
 
-* Adding filters to the table view is identical to adding filters to the timeline view. 
-
 * You can filter by connected record fields or lookup fields. 
 
 * You can filter by lookup fields that display multiple values. 
@@ -426,8 +422,6 @@ To sort <!--ungrouped (add this when sorting for groupings will be available--> 
 
 You can group records by similar information when applying  a grouping to a view.
 
-Adding groupings in the table view is similar to adding groupings to the timeline view. 
-
 Consider the following:
 
 * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type.
@@ -458,7 +452,7 @@ To add a grouping:
 
     The number of fields selected for the grouping displays next to the Grouping icon. 
 
-    ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
+    <span class="preview">![Grouping applied in table view](assets/grouping-applied-in-table-view.png)</span>
 
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
@@ -469,7 +463,24 @@ To add a grouping:
 1. Click outside the **Group records by** box to close it. 
 1. (Optional) Click **+ New record** at the end of any grouping to add new records, then refresh your page to add the new record to the appropriate grouping. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-    
+1. <span class="preview">To expand or collapse groupings, do one of the following:</span>
+
+    <div class="preview">
+
+    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+
+        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+
+    1. Right-click any of the grouping headers in the table view, then click one of the following options:
+        * **Expand group**
+        * **Collapse group**
+        * **Expand all**
+        * **Collapse all**
+        * **Expand subgroups**
+        * **Collapse subgroups**
+
+        Depending on the number of groupings you apply to the view, some options might not be available.</div>
+   
 <!-- this is not available yet: 
 
 To sort grouped records: 

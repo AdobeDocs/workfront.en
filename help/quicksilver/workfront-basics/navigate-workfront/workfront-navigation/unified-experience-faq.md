@@ -61,7 +61,7 @@ Existing customers will be contacted to schedule migrations. The migration team 
 
 ### How are you handling [!DNL Adobe Admin Console] for companies that already have this enabled for federated IDs differently than [!DNL Workfront] SSO is set up?
 
-[!DNL Adobe Admin Console] has the option to include [!DNL Workfront], replacing SSO with IMS. All user provisioning happens in the [!DNL Admin Console], and users will see the [!DNL Adobe] login screen to get to [!DNL Experience Cloud] where they will see [!DNL Workfront] as an option (if they are granted access to it).
+[!DNL Adobe Admin Console] has the option to include [!DNL Workfront], replacing SSO with Adobe's Identity Management System (IMS). All user provisioning happens in the [!DNL Admin Console], and users will see the [!DNL Adobe] login screen to get to [!DNL Experience Cloud] where they will see [!DNL Workfront] as an option (if they are granted access to it).
 
 ### How does this impact customers that already have the AEM admin panel for [!DNL Adobe Assets] – but the SSO is configured differently than [!DNL Workfront?]
 
@@ -71,7 +71,7 @@ Once [!DNL Workfront] is added as an [!DNL Admin Console] application, you shoul
 
 SSO is set up in the [!DNL Admin Console] and inherited by the [!DNL Workfront] application.
 
-### Is SSO with our internal [!DNL Active Directory] still going to be an option with IMS?
+### Is SSO with our internal [!DNL Active Directory] still going to be an option with Adobe's Identity Management System (IMS)?
 
 IMS is a replacement for SSO and functions mostly the same. All user permissions are granted and provisioned in [!DNL Adobe Admin Console], and the user will see the [!DNL Adobe] login screen where they can choose "[!UICONTROL Personal Account]" or "[!UICONTROL Company Account]" to log in (if you have [!DNL Active Directory], most will log in with a company account).
 
@@ -97,7 +97,7 @@ The entire [!DNL Workfront] customer account will be migrated. It cannot be done
 
 ### Will all [!DNL Workfront] users have to log in via [!DNL Experience Cloud]? Or just administrators?
 
-Yes, all users will log in via [!DNL Experience Cloud]. The IMS login will replace SSO. It's a very similar experience, just a different login screen.
+Yes, all users will log in via [!DNL Experience Cloud]. The Adobe Identity Management System (IMS) login will replace SSO. It's a very similar experience, just a different login screen.
 
 ### Will users have to link their [!DNL Adobe] accounts to their [!DNL Workfront] accounts if they already have both?
 
