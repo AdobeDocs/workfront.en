@@ -1495,9 +1495,12 @@ feature-set: Workfront
       * [Get started with Canvas Dashboards](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
       * [Add, remove, or arrange reports in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
       * [Share a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-    * Canvas Dashboard report types {#report-types}
-      * [Canvas Dashboard report types overview](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
-      * [Add an existing report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+    * Add reports {#add-reports}
+      * [Canvas Dashboard report types overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/report-types-overview.md)
+      * [Build a KPI report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+      * [Build a chart report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
+      * [Build a table report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+      * [Add an existing report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
   * Reports {#reports}
     * [Reports](reports-and-dashboards/reports/reports-overview.md)
     * Reporting basics {#report-basics}
