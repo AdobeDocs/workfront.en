@@ -1,15 +1,15 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: View AI Reviewer score and feedback 
+title: View AI Reviewer score and feedback
 description: Seconds after you submit the approval request, you can view the score and feedback from the AI Reviewer in the Document Summary panel.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
+exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
 ---
-
 # View AI Reviewer score and feedback 
 
 Seconds after you submit the review and approval request, you can view the score and feedback from the AI Reviewer in the Document Summary panel. 

@@ -2,14 +2,14 @@
 product-area: documents
 navigation-topic: approvals
 title: Create AI Reviewers
-description: Once you have at least one brand set up in GenStudio Foundations, you can create multiple AI Reviewers, which you can then assign to approval templates and individual review and approval requests. 
+description: Once you have at least one brand set up in GenStudio Foundations, you can create multiple AI Reviewers, which you can then assign to approval templates and individual review and approval requests.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
+exl-id: 4673049e-119e-4315-95f0-f10d8b286856
 ---
-
 # Create AI Reviewers
 
 Once you have at least one brand set up in GenStudio Foundations, you can create multiple AI Reviewers, which you can then assign to approval templates and individual review and approval requests. 
@@ -71,4 +71,3 @@ To learn more about brand guidelines, see
 
     * [Create an Approval Template for assets and documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
     * [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-
