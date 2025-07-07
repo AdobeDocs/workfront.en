@@ -25,12 +25,11 @@ Sandbox 2
 
 Client TLS allows you to verify that the event subscription message you receive actually came from Adobe Workfront. To enable this functionality, your server must be configured to request and validate Workfront's x509 certificate. 
 
-<!--
+
 >[!NOTE]
 >
->* Workfront currently supports TLS version 1.2 by default.
->* Organizations can request that TLS version 1.3 be enabled for their Workfront instance.
--->
+>Event subscriptions use TLS version 1.3 if the server that the event subscription is sending events to supports version 1.3. If the connecting server does not support version 1.3, the event subscription uses TLS version 1.2.
+
 
 
 ## Verify Workfront's client certificate
