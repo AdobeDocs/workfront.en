@@ -71,7 +71,7 @@ Users can add AI Reviewers to approval templates to automatically check for bran
 
 Once created, approval templates can be applied to assets in the Documents area of a project, task, or issue.
 
-For more information, see [Create an Approval Template for assets and documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+For more information, see [Create an Approval Template for assets and documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ![template list showing AI reviewwers](assets/ai-review-templates.png)
 
@@ -79,7 +79,7 @@ For more information, see [Create an Approval Template for assets and documents]
 
 When users create individual review and approval requests, they can add an AI Reviewer in with other participants or they can create a single request with only the AI Reviewer to check for brand compliance. 
 
-For more information, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+For more information, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 
 ![AI reviewer added to individual approval request](assets/ad-ai-reviewer-to-request.png)
