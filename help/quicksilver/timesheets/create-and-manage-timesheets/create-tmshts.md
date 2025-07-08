@@ -9,9 +9,13 @@ exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
 ---
 # Create a single-use timesheet
 
+<!--Audited: 6/2025-->
+
 You can manually create a single-use timesheet if you want a timesheet that is not recurring. When the end date of the timesheet is reached and you need more timesheets are needed, you must create new ones.
 
 For information about creating a timesheet profile that generates recurring timesheets for your users without any further intervention from you (recommended), see [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+
+For information about manually generating timesheets for all users in the system that are associated with a timesheet profile, see [Manually generate timesheets](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md). 
 
 >[!NOTE]
 >
@@ -44,8 +48,8 @@ You must have the following to perform the steps in this article:
    <p>Current: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must have administrative access to Timesheets. </p> <p>For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>You must have administrative access to Timesheets. </p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,11 +60,11 @@ You must have the following to perform the steps in this article:
 
 ## Create a single-use timesheet
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Click **Timesheets**. The **All** filter is selected by default. This displays all timesheets you have access to view.
+   The **All** filter is selected by default. This displays all timesheets you have access to view.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+   ![Timesheets list with one timesheet selected](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Optional) Do one of the following to update the filter in the list of timesheets:
 
@@ -72,9 +76,9 @@ You must have the following to perform the steps in this article:
 
      This applies the My Timesheet Approvals or the My Timesheet filters to the list of timesheets.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![My timesheets filter buttons on the Timesheets list page](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Click the Filter icon ![](assets/filter-nwepng.png) to apply a different filter, or create a new one. For information about creating or updating filters, see [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png) to apply a different filter, or create a new one. For information about creating or updating filters, see [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -83,9 +87,9 @@ You must have the following to perform the steps in this article:
    >   * [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
    
 
-1. (Optional) Click the **Search** icon ![](assets/search-icon.png) to type a keyword and search for a specific timesheet. For example, you can search for a timesheet time frame of owner name. 
+1. (Optional) Click the **Search** icon ![Search icon](assets/search-icon.png) to type a keyword and search for a specific timesheet. For example, you can search for a timesheet time frame of owner name. 
 
-1. (Optional) Click the **View** ![](assets/view-icon.png) or **Grouping** ![](assets/grouping.png) icons to apply a different view or grouping or to create a new one.
+1. (Optional) Click the **View** ![View icon](assets/view-icon.png) or **Grouping** ![Grouping icon](assets/grouping.png) icons to apply a different view or grouping or to create a new one.
 
    For information about creating filters, views, or groupings, see the following articles:
 

@@ -8,6 +8,8 @@ exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
 ---
 # Budget resources in the Business Case using the Scenario Planner
 
+<!--Audited: 06/2025-->
+
 As part of resource planning, you can use the Adobe Workfront Scenario Planner to budget the job roles necessary for completing the work in a project when you build the business case.
 
 For more information about creating a business case, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
@@ -23,11 +25,11 @@ You can also budget resources in the business case using the Resource Planner. F
 
 >[!NOTE]
 >
->We recommend that you make the decision whether to use the&nbsp;Resource Planner or the&nbsp;Scenario Planner when you begin working on a project. Frequently switching between the two during the life of the project may create inconsistencies in the way you budget your resources for the project.
+>We recommend that you make the decision whether to use the Resource Planner or the Scenario Planner when you begin working on a project. Frequently switching between the two during the life of the project may create inconsistencies in the way you budget your resources for the project.
 
 ## Access requirements
 
-You must have the following:
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,34 +38,39 @@ You must have the following:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Business or higher</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td><p>Current: Ultimate</p> 
+   <p>Legacy: Business or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Review or higher</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p>Current: Light or higher 
+   <p>Legacy: Review or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Scenario Planner</a>. </p> </td> 
+   <td role="rowheader"><p>Product</p></td> 
+   <td><p>The Scenario Planner is included in the current Ultimate Workfront plan.</p> 
+   <p>For legacy Workfront plans, you must purchase a license for the Adobe Workfront Scenario Planner, in addition to the Workfront license, to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader"><p>Access level configurations</p></td> 
    <td> <p>Edit access to the following: </p> 
     <ul> 
      <li> <p>Projects</p> </li> 
      <li> <p>Financial Data</p> </li> 
      <li> <p>Scenario Planner </p> </li> 
-    </ul> <p>For information about the access needed to budget resources, also see <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Access needed to budget resources in&nbsp;Adobe Workfront</a>.</p> <p>Note: If you still don't have access, ask your Adobe Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> <p>For information about the access needed to budget resources, also see <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Access needed to budget resources in Adobe Workfront</a>.</p> <p>Note: If you still don't have access, ask your Adobe Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
    <td> <p>Manage permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 

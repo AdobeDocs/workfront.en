@@ -44,7 +44,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of [!DNL Workfront], then click **[!UICONTROL Users]** ![Users icon](assets/users-icon-in-main-menu.png).
 
-   ![Main menu options](assets/main-menu-options-350x481.png)
+
 
 1. Select the **[!UICONTROL User]** that requires a password reset.
    ![Select the user](assets/100520classicnweselectuser-350x105.png)

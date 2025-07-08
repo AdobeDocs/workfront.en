@@ -68,10 +68,8 @@ You must have the following before you begin:
 
 ## Access the [!UICONTROL My Updates] area
 
-1. Click **[!UICONTROL My Updates]** in the **[!UICONTROL Main Menu]**.
-
-   ![My Updates in Main Menu](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
-
+{{step1-to-my-updates}}
+   
    The [!UICONTROL My Updates] area opens.
 
    The approvals and requests for access that are assigned to you are listed in the first half of the page, under **My Updates**.

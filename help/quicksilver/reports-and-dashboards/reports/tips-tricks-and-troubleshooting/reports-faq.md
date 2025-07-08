@@ -58,10 +58,11 @@ You must have the following access to perform the steps in this article:
 
 <!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
 
-On a project report I have a calculation that subtracts Actual Hours from Planned Hours  The result I am getting is incorrect. 
+On a project report I have a calculation that subtracts  Actual Hours from Planned Hours.
+
+The result I am getting is incorrect. 
 
 <!--this changed with this issue in May 2025; Actual Hours changed from actualWorkRequired to actualWorkRequiredDouble: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/68108e860000120e90a79cb82e5811c2/updates : On a project report I have a calculation that subtracts Actual Hours (2) from Planned Hours (4). The result I am getting is 120 when it should be 2.  -->
-
 
 My calculation is:
 
@@ -71,21 +72,19 @@ My calculation is:
 
 Most fields using hours in Workfront are stored in minutes. When using these fields in a calculation the result will most often be in minutes. To obtain the result in hours, you must divide the result of the calculation or the field you are referencing by 60.
 
-<!--For example, Planned Hours are stored in minutes, while Actual Hours are stored in hours. As a result, you must convert Planned Hours from minutes to hours. -->
+Planned Hours are stored in minutes. 
 
-The correct calculation is:  
+Depending on which Actual Hours field you want to use for your calculation, the correct formulas are: 
 
-`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+* For Legacy Actual Hours which are stored in minutes: 
 
->[!NOTE]
->
->If you are referring to Actual Hours in API calls, use `actualWorkRequiredDouble` for the valuefield. Actual Hours in the API are stored in hours. Planned Hours are stored in minutes. 
->
->The correct calculation in an API call is: 
->`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+  `valueexpression=SUB(workRequired,actualWorkRequired)/60`
 
+* For Actual Hours which are stored in hours: 
+ 
+  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
-<!--when the actualWorkRequiredDouble is released to custom data in Workfront and not just the API, update the calculation above to this: `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`; and take the note out -->
+For more information, see [View Actual Hours](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md). 
 
 ## Why is the value of each of my chart elements in a report not displayed on the chart?
 

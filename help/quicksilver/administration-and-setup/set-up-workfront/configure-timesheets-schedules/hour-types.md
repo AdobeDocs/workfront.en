@@ -14,16 +14,22 @@ exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
 
 <!--Audited: 05/2025-->
 
-<!--Audited: 07/2024-->
-
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
+<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div>
+
 Hour types are labels you use to define your hour entries. You can associate hour types with your hour entries. 
 
-There are two sets of hour types:
+There are two categories of hour types:
 
-* Project Specific Hour Types: This is time logged on projects, tasks, and issues. Project-specific hour types can be associated with hour entries anywhere in [!DNL Adobe Workfront] where you can log time for projects, tasks, and issues.
+* **Project Specific Hour Types**: This is time logged on projects, tasks, and issues. Project-specific hour types can be associated with hour entries anywhere in [!DNL Adobe Workfront] where you can log time for projects, tasks, and issues.
 
    When logging time in [!DNL Workfront], the project-specific hour types that are available depend on configuration options set at the system, project, and user levels.
 
@@ -39,15 +45,13 @@ There are two sets of hour types:
    >
    >If you enable any project-specific hour types in your [!DNL Workfront] system, at least one project-specific hour type must be enabled on each project in your system. You cannot enable a project-specific hour type at the system level and have no project-specific hour types available at the project level.
 
-* General Hour Types: General hours cannot be associated with a project, task, or issue, and are logged directly into a timesheet. 
+* **General Hour Types**: General hours cannot be associated with a project, task, or issue, and are logged directly into a timesheet. 
 
 For information about logging hours and associating them with hour types, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,19 +62,19 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>New: Standard</p>
    <p>Or</p>
    <p>Current: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td role="rowheader">Access level</td> 
    <td>System Administrator</td>
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,15 +93,19 @@ The hour types that come with [!DNL Workfront] are:
 
 ## Create hour types
 
-As a [!DNL Workfront] administrator, you can create new hour types for your organization on both system and project levels. Afterward, users can define which hour types are available for specific projects and users. For more information, see the [Define hour types and availability](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+As a [!DNL Workfront] administrator, you can create hour types for your organization at the system- and project-level. 
 
-To create new hour types:
+After you define hour types at the system-level, users can define which hour types are available for specific projects or for specific users. 
+
+For more information, see the [Define hour types and availability](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+
+To create hour types:
 
 {{step-1-to-setup}}
 
 1. In the left panel, click **Timesheet & Hours**, then click **Hour Types**.
 
-1. In the **Hour Types** section, click **+ New Hour Type**.
+1. In the **Hour Types** section, click **New Hour Type**.
 1. In the  **New Hour Types** dialog box, specify the following information:
 
    <table style="table-layout:auto"> 
@@ -129,9 +137,18 @@ To create new hour types:
 
 1. Click **[!UICONTROL Create Hour Type].**
 
+   The hour type is added to your Workfront system and it is activated by default. 
+
 ## Deactivate hour types
 
 You can deactivate hour types if you no longer want users to associate their hours with them. Deactivating hour types hides them from anywhere in [!DNL Workfront] where hour types are visible.
+
+>[!NOTE]
+>
+>* Built-in hour types cannot be deactivated.
+>* When you deactivate a project-specific Hour Type, all the time logged for that type automatically defaults to a built-in project-specific hour type. For example, time logged for a project defaults to the Project Time hour type; time logged for a task defaults to the Task Time hour type. 
+>
+
 
 To deactivate an hour type:
 
@@ -141,6 +158,12 @@ To deactivate an hour type:
 
 1. Select the hour type you want to deactivate.
 
-1. Click **[!UICONTROL Deactivate]**.
-   
-   ![Deactivate button](assets/deactivate-button.png)
+
+1. <span class="preview">Click **More**, then **Deactivate**.</span>
+
+   <span class="preview">![Activate and deactivate hour type links](assets/activate-and-deactivate-hour-type-links.png)</span>
+
+   <span class="preview">The hour type is deactivated and users can no longer find it when logging hours.</span> 
+
+1. <span class="preview">(Optional) To reactivate an hour type, select it in the **Hour Types** list, then click **More** > **Activate**. </span>
+

@@ -456,6 +456,9 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
     >
     >* You cannot add Multi-select type fields in a formula.
     >
+    >
+    >* You must spell the name of the fields that you include in the formulas as you see them in Workfront Planning. Workfront text-mode syntax and wildcards are not supported in Workfront Planning formulas. 
+    >
     >* You can reference a field that is up to 4 fields (and objects) away from the current record type. For example, if you are creating a formula field for an Activity record type (1), and the Activity is connected to the Campaign record type (2) which is connected to a Workfront Project (3), you can reference the project's Budget field (4) in the formula you are creating for the Activity record type. 
     >
     >![Formula example project budget four fields removed ](assets/formula-example-project-budget-four-fields-removed.png)

@@ -94,6 +94,8 @@ Some simple business rule scenarios are:
   IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")
   ```
 
+The system permits one business rule per object per trigger. For example, one edit trigger rule is allowed for issues. However, you can include multiple rules in a formula with nested IF statements.
+
 A scenario with nested IF statements is:
 
 Users cannot edit completed projects and cannot edit projects with a Planned Completion Date in March. This formula could be stated as:

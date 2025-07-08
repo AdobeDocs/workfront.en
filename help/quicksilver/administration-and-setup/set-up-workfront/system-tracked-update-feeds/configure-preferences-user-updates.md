@@ -4,12 +4,14 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Configure Preferences for User Updates
 description: You can configure preferences that access to certain features when users add comments in an object's [!UICONTROL Updates] area.
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
 ---
 # Configure preferences for user updates
+
+<!--Audited: 06/2025-->
 
 You can configure preferences that give users access to certain features when they are adding comments in an object's [!UICONTROL Updates] area.
 
@@ -28,7 +30,7 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td><p>New: [!UICONTROL Standard]</p>
    Or
    <p>Current: [!UICONTROL Plan]</p>
@@ -41,7 +43,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

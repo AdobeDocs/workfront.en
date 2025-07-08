@@ -23,12 +23,15 @@ You can build "IF" statements for the following Workfront elements:
 * Views
 * Groupings
 * Calculated custom fields
+* Business rules
 
 For more information about building "IF" statements, see ["IF" statements overview](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
 The examples in this guide illustrate the use of condition operators in calculated custom fields. You can also use them in calculated custom columns or groupings as well, when following the correct syntax for calculated custom fields in reports.
 
 For information about the difference in syntax between the calculated custom fields and calculated custom data in reports, see [Calculated custom fields vs. calculated columns](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
+
+For information about business rules, see [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 Refer to the API Explorer to find the fields you want to reference in your calculated custom expressions. For information about the API Explorer, see [API Explorer](../../../wf-api/general/api-explorer.md).
 

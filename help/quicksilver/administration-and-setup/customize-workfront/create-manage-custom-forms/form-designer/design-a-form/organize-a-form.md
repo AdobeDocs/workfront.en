@@ -168,3 +168,8 @@ In a custom form with a section break configured with the Limited Edit permissio
 
 1. Click **Preview** in the top-right corner to see how the form will look when being used, then click **End Preview** to return to editing the form.
 
+   >[!NOTE]
+   >
+   >Advanced logic is not supported in the form designer preview mode.
+
+

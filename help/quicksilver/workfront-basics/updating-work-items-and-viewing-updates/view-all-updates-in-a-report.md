@@ -2,12 +2,14 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: View all updates in a Note report
-description: View all updates in a Note report
-author: Lisa and Alina
+description: To see all the updates that any of the users have entered for an object, you can create a Note report that displays all the updates.
+author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
 ---
 # View all updates in a Note report
+
+<!-- Audited: 6/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is a report and it is in the Getting Started/ Updates section because I think it makes more sense to be in this area, where people want to view updates. - added this to this section from Reporting on 7/3/2018 ) </p>
@@ -30,16 +32,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>New: Standard </p>
    <p>Current: Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to:</p> 
     <ul> 
      <li> <p>Create Reports, Dashboards, and Calendars</p> </li> 
@@ -47,14 +49,14 @@ You must have the following access to perform the steps in this article:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>View</p> <p><b>NOTE</b></p>
-   <p>If you do not have View permission or higher to an object, information for that object does not display in the report.</p>  </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View</p>
+    <p>Note: If you do not have View permission or higher to an object, information for that object doesn't display in the report.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Create a Note report
 
@@ -62,17 +64,15 @@ Creating a report for Notes for any object is identical, regardless of the objec
 
 For example, to create a Note report for all the notes on a project:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{step1-to-reports}}
 
-1. Click&nbsp;**Reports**.
-1. Click **New Report**, then choose&nbsp;**Note**.
+1. In the upper-left corner of the page, click **New Report**, then select&nbsp;**Note**.
 
-1. (Optional) Click **Views**, then **Add Column** to add the **Name** of the **Project** in the view of the report.&nbsp;
+1. (Optional) Click **(Columns) View**, then **Add Column** to add the **Name** of the **Project** in the view of the report.&nbsp;
 
-1. (Optional) Click **Groupings**, then **Add Grouping** to group by the **Project Name**, if you are reporting on multiple projects at the same time.  
-   This ensures that the notes are grouped by their respective projects, making the report easier to read.&nbsp;
+1. (Optional) If you are reporting on multiple projects at the same time, click **Groupings**, then **Add Grouping** to group by the **Name** of the **Project**. This ensures that the notes are grouped by their respective projects, making the report easier to read.&nbsp;
 
-1. (Optional) Click **Filters,** then **Add a Filter Rule**.
+1. (Optional) Click **Filters**, then **Add a Filter Rule**.
 1. Add a filter for **Note** > **Note Text** > **Is Not Blank**.
 
    ![](assets/note-note-text-not-blank-filter.png)
@@ -83,5 +83,4 @@ For example, to create a Note report for all the notes on a project:
 
 
 1. (Optional) Add another filter for **Project** > **Name** > **Equals to** and add one or several project names for which you want to view notes. 
-1. Click **Save + Close**.  
-   All the updates entered on the project by all users with permissions to at least View the project are displayed in the report.
+1. Click **Save + Close**. All the updates entered on the project by all users with permissions to View the project are displayed in the report.
