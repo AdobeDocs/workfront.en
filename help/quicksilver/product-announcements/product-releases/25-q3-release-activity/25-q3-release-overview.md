@@ -166,13 +166,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Updates to experience when making a request</a>
-            <p>The new requesting experience includes the following improvements:</p>
+            <p>The new requesting experience includes the following improvements:
               <ul>
                 <li>The available request forms and paths appear in a list, instead of on cards. The most recent appear in a section near the top.</li>
                 <li>All request forms, including Workfront and Workfront Planning request forms, appear in the list. Previously, only the first 50 appeared.</li>
                 <li>Request paths and Request forms are listed in separate sections, both in the Recent area and in the larger list below.</li>
                 <li>When you search for a request queue, the list filters to display only forms and paths that include the search term. The search term is highlighted in each displayed request form or path.</li>
               </ul>
+            </p>
         </td>
         <td>July 9, 2025</td>
         <td>TBD</td>
