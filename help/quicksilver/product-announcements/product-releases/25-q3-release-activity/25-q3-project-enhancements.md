@@ -14,6 +14,23 @@ This page describes Project enhancements made with the Third Quarter 2025 releas
 
 For a list of all changes available at this point in the Third Quarter 2025 release cycle, see [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
+## ## Updates to experience when making a request
+
+>[!NOTE]
+>
+>* Preview: July 9, 2025
+>* Production fast release: TBD
+>* Production for all customers: TBD
+
+We've updated the experience when making a request in the new requesting experience. 
+
+* The available request forms and paths appear in a list, instead of on cards. The most recent appear in a section near the top.
+* All request forms, including Workfront and Workfront Planning request forms, appear in the list. Previously, only the first 50 appeared.
+* Request paths and Request forms are listed in separate sections, both in the Recent area and in the larger list below.
+* When you search for a request queue, the list filters to display only forms and paths that include the search term. The search term is highlighted in each displayed request form or path.
+
+For information on making a request, see [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
 ## Existing Actual Hours field replaced with Legacy Actual Hours and new Actual Hours field created 
 
 >[!NOTE]
