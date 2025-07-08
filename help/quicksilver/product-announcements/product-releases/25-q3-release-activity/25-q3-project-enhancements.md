@@ -107,3 +107,5 @@ To make it more clear how AI Assistant is locating answers to questions about Wo
 Previously, this information was not available in the AI Assistant's response. 
 
 For information about using AI Assistant to get information about Workfront items, see [Use AI Assistant to work with projects, tasks, and issues](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
+
+
