@@ -60,7 +60,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Select the existing group or subgroup where you want to add a new subgroup.
 1. Click **New Subgroup**.
-1. In the **New Subgroup** box that appears, type a **Group Name** for the subgroup.
+1. In the **New Subgroup** box that appears, type a **Group name** for the subgroup.
 1. (Optional) Enter any of the following information:
 
    * **Description**: Type a description for the subgroup. You can type up to 512 characters.

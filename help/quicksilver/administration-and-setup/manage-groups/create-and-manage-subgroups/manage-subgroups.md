@@ -77,7 +77,7 @@ For more detail about the information in this table, see [Access requirements in
 1. In the left menu, click **Subgroups**.
 1. To create the a new subgroup one level down from the group you are viewing, click **Add subgroup**.
 
-   Or, if you want to create the new subgroup beneath another subgroup in the list, select that subgroup, then click Add subgroup.
+   Or, if you want to create the new subgroup beneath another subgroup in the list, select that subgroup, then click **Add subgroup**.
    
    For information about the options you can use to configure the subgroup, see [Create a subgroup](help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
    
@@ -109,7 +109,7 @@ A group hierarchy cannot exceed 15 levels, but a single level can have an unlimi
    You can make sure you are selecting the right group by hovering over it and clicking the information icon ![information icon](assets/info-icon.png) that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.
 
 1. Select the name of the subgroup you want to move when you locate it in the list.
-1. Repeat Steps 7-8 for any other subgroups you want to move to the destination group
+1. Repeat Steps 7-8 for any other subgroups you want to move to the destination group.
 1. Click **Save**.
 
 ## Edit a subgroup
@@ -155,9 +155,22 @@ To copy a subgroup:
 1. Select a subgroup, then click the **Copy** icon ![Copy icon](assets/copy-icon.png) to create a new top-level group based on the selected group.
 1. Configure the new group's settings.
 
-   For help with these settings, see the table the section [Create a top-level group by copying an existing group or subgroup](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create-a-top-level-group-by-copying-an-existing-group-or-subgroup) in the article [Create a group](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+   For help with these settings, see [Create a top-level group by copying an existing group or subgroup](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create-a-top-level-group-by-copying-an-existing-group-or-subgroup) in the article [Create a group](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 1. Click **Create group**.
+
+## Export a subgroup
+
+{{step-1-to-setup}}
+
+1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png).
+
+   In the list that displays, you can see the groups you manage, along with any subgroups they have. Adobe Workfront administrators can see all groups.
+
+1. Click the name of the group that contains the subgroup you want to export.
+1. In the left menu, click **Subgroups**.
+1. Select the subgroup or subgroups you want to export.
+1. Click the **Export** icon ![Export icon](assets/export.png), then select the file format you want.
 
 ## Remove a subgroup from its parent group and make it a top-level group
 
@@ -171,8 +184,8 @@ You can make a subgroup a top-level group by removing it from its parent group.
 {{step-1-to-setup}}
 
 1. In the left panel, click **Groups** ![Groups](assets/groups-icon.png).
-1. Select the parent group of the group you want to make a top-level group, then click the **Edit** icon ![Edit icon](assets/edit-icon.png).
-1. In the **Edit Group** box that appears, under **Group members and Group administrators**, start typing the name of the subgroup that you want to make a top-level group, then click the X to the right of its name it when it appears.
+1. Select the parent group of the subgroup you want to make a top-level group, then click the **Edit** icon ![Edit icon](assets/edit-icon.png).
+1. In the **Edit group** box that appears, start typing the name of the subgroup that you want to make a top-level group in the **Search** field (under **Group members and Group administrators**), then click the X to the right of its name it when it appears.
 1. Click **Save**.
 
 ## Delete a subgroup
