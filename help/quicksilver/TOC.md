@@ -16,8 +16,8 @@ feature-set: Workfront
     * 2025 Q3 Release {#release-25-q3}
       * [2025 Q3 Release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
       * [Proofing and document management enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
-      * [Home enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-home-enhancements.md)
       * [Project enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md)
+      * [Home enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-home-enhancements.md)
       * [Reporting enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md)
       * [Update and notification enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md)
       * [Look-and-feel updates during the 2025 Q3 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md)
@@ -440,8 +440,8 @@ feature-set: Workfront
       * [Deactivate job roles](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
       * [Override job role billing rates](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
     * System-tracked update feeds {#system-tracked-updates}
-      * [System-tracked updates](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
-      * [System-tracked updates](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
+      * [System-tracked updates feeds: article index](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
+      * [System-tracked updates overview](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
       * [Configure system updates](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
       * [Configure preferences for user updates](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)
     * Adobe Workfront testing environments {#testing-environments}
@@ -1089,7 +1089,6 @@ feature-set: Workfront
     * [The Documents area](documents/managing-documents/documents-area.md)
     * [Document Details overview](documents/managing-documents/document-details-overview.md)
     * [Summary for documents overview](documents/managing-documents/summary-for-documents.md)
-    * [Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * [Preview documents](documents/managing-documents/preview-documents.md)
     * [Document approvals and proofing](documents/managing-documents/document-approvals-and-proofing.md)
     * [Add an update to a document](documents/managing-documents/add-update-documents.md)
@@ -1495,9 +1494,12 @@ feature-set: Workfront
       * [Get started with Canvas Dashboards](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
       * [Add, remove, or arrange reports in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
       * [Share a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-    * Canvas Dashboard report types {#report-types}
-      * [Canvas Dashboard report types overview](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
-      * [Add an existing report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+    * Add reports {#add-reports}
+      * [Canvas Dashboard report types overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/report-types-overview.md)
+      * [Build a KPI report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+      * [Build a chart report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
+      * [Build a table report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+      * [Add an existing report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
   * Reports {#reports}
     * [Reports](reports-and-dashboards/reports/reports-overview.md)
     * Reporting basics {#report-basics}
@@ -1693,17 +1695,6 @@ feature-set: Workfront
       * [Share a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
       * [Remove an External Page from a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
       * [Canvas Dashboards overview](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-  * Enhanced analytics {#enhanced-analytics}
-    * [Enhanced analytics](enhanced-analytics/enhanced-analytics.md)
-    * [Enhanced analytics overview](enhanced-analytics/enhanced-analytics-overview.md)
-    * [Apply filters in Enhanced analytics](enhanced-analytics/use-enhanced-analytics-filters.md)
-    * [Understand Enhanced analytics KPIs](enhanced-analytics/understand-enhanced-analytics-kpis.md)
-    * [View the Flight plan visualization in Enhanced analytics](enhanced-analytics/flight-plan-overview.md)
-    * [View the Burndown visualization in Enhanced analytics](enhanced-analytics/burndown-overview.md)
-    * [View the Tasks in flight visualization in Enhanced analytics](enhanced-analytics/tasks-in-flight-overview.md)
-    * [View the Project activity visualization in Enhanced analytics](enhanced-analytics/project-activity-overview.md)
-    * [View the Project treemap visualization in Enhanced analytics](enhanced-analytics/project-treemap-overview.md)
-    * [View the Activity by team visualization in Enhanced analytics](enhanced-analytics/activity-by-team-overview.md)
   * Workfront Data Connect {#data-lake}
     * [Workfront Data Connect overview](reports-and-dashboards/data-lake/data-lake-overview.md)
     * [Create a reader account or connection for Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
@@ -1724,9 +1715,9 @@ feature-set: Workfront
       * [Tableau Desktop cannot establish a connection](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
       * [Power BI tool cannot connect with provided password](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
 * Manage resources {#manage-resources}
-  * [Manage resources](resource-mgmt/manage-resources.md)
+  * [Manage resources: article index](resource-mgmt/manage-resources.md)
   * Resource Management {#resource-management}
-    * [Resource Management](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
+    * [Resource Management: article index](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
     * [Get started with Resource Management](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
   * Resource Planning in Adobe Workfront {#resource-planning-in-adobe-workfront}
     * [Resource Planning: article index](resource-mgmt/resource-planning/resource-planning-overview.md)
@@ -1756,7 +1747,7 @@ feature-set: Workfront
     * [Report on Resource Planner Budgeted Hours](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
     * [Resource Planner display limitations](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
   * Resource Utilization {#resource-utilization}
-    * [Resource Utilization](resource-mgmt/resource-utilization/resource-utilization.md)
+    * [Resource Utilization: article index](resource-mgmt/resource-utilization/resource-utilization.md)
     * [View resource utilization information](resource-mgmt/resource-utilization/view-utilization-information.md)
   * The Workload Balancer {#the-workload-balancer}
     * [The Workload Balancer: article index](resource-mgmt/workload-balancer/workload-balancer.md)
@@ -1794,8 +1785,10 @@ feature-set: Workfront
     * [Available functionality for asset and document review and approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
     * [Unified Approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
     * [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+    * [Get Started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * Set up and manage asset and document approvals {#manage-asset-review-and-approval}
       * [Set up and manage asset and document approvals: article index](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+      * [Create AI Reviewers](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
       * [Create a document review or approval request](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
       * [Add additional reviewers or approvers to an asset or document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Remove approvers or reviewers from an asset or document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
@@ -1805,6 +1798,7 @@ feature-set: Workfront
       * [Create a report dashboard for review and approvals](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
     * Review and approve assets and documents {#review-and-approve-documents}
       * [Review and approve documents: article index](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+      * [View AI Reviewer score and feedback ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
       * [Review a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
       * [Approve a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
   * Proofing {#proofing}
