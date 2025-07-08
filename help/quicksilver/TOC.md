@@ -2451,7 +2451,7 @@ feature-set: Workfront
     * [Update integrations that use default API versioning](wf-api/api/update-default-api-versioning.md)
     * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
     * [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)
-    * [Event subscription certificates](wf-api/api/event-sub-certs.md)
+    * [Configure Client TLS for Event Subscription](wf-api/api/event-sub-certs.md)
     * [Specify an API Version in your integrations](wf-api/api/specify-api-version-integrations.md)
     * [Core API changes: Status search responses](wf-api/api/api-changes-search.md)
     * [API versioning and support schedule](wf-api/api/api-version-support-schedule.md)
