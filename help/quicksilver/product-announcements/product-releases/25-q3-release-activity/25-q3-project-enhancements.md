@@ -14,7 +14,7 @@ This page describes Project enhancements made with the Third Quarter 2025 releas
 
 For a list of all changes available at this point in the Third Quarter 2025 release cycle, see [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
-## ## Updates to experience when making a request
+## Updates to experience when making a request
 
 >[!NOTE]
 >
