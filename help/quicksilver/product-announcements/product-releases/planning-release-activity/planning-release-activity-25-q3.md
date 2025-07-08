@@ -37,7 +37,7 @@ For more information, see the following articles:
 >[!NOTE]
 >
 >* Preview: July 9, 2025 
->* Production for everyone: TBD 
+>* Production for everyone: October 16, 20025 
 
 To make the approval process more flexible, we've added the ability to add teams as approvers on Planning request forms. Now, you can enter and select team names when setting approvers. Any of the team members can make a decision, which counts as the approval decision for the entire team.
 
