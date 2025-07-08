@@ -12,6 +12,10 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the Third Quarter 2025 release, see [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
+<!--
+## New look-and-feel for Announcement Center messages
+
+Announcement Center messages now match the style of Workfront email notifications. -->
 
 ## Interface modernization
 
