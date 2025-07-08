@@ -209,7 +209,7 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
 
 1. (Optional) Click **Preview** to view how the form will display for other users when they will use it to submit a new record.
 
-1. (Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
+1. (Optional) Click the **Configuration** tab, then add at least one user <span class="preview">or team</span>to the **Approvers** field to approve new requests for this record form. 
 
    ![Configuration tab](assets/configuration-tab.png)
 
@@ -219,6 +219,7 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    * You can add one or several approvers to a request form. 
    * If at least one approver rejects the request, the request is rejected and the record is not created. 
    * All approvers must make a decision before a request is either approved or rejected.
+   * <span class="preview">If a team is set as an approver, only one decision is required from the team.</span>
 
       For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
 
