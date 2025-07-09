@@ -22,7 +22,7 @@ Unified Approvals is a wholistic redesign of the existing approvals process that
 * Document approval participants display in the document Summary, not the proofing workflow tab.
 * Unified Approvals are not supported in the current reporting tool. 
 
-    You can join the new Canvas Dashboards beta to [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md), or you can use the All Approvals widget available in new Home and Canvas Dashboards provides the following details about Unified Approvals:
+    You can join the new Canvas Dashboards beta to [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md), or you can use the Document approval metrics widget available in new Home and Canvas Dashboards provides the following details about Unified Approvals:
 
     * Approvals by decision
     * Average approval time

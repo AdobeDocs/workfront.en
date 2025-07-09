@@ -20,21 +20,23 @@ For a list of all changes available at this point in the Third Quarter 2025 rele
 >
 > Preview and Production: June 24, 2025 
 
-The existing field of Actual Hours has been renamed to Legacy Actual Hours. This field stores the time logged for projects, tasks, and issues in minutes. The field is stored in the Workfront database as actualWorkRequired. 
+We added a new Actual Hours field that stores the time logged for projects, tasks, and issues in hours, with decimal precision. The field is stored in the Workfront database as `actualWorkRequiredDouble`. 
 
-We added a new Actual Hours field that stores the time logged for projects, tasks, and issues in hours, with decimal precision. The field is stored in the Workfront database as actualWorkRequiredDouble.   
+The existing field of Actual Hours has been renamed to Legacy Actual Hours. The field stores the time logged for projects, tasks, and issues in minutes and is stored in the Workfront database as `actualWorkRequired`.  
 
-Both the Actual Hours and the Legacy Actual Hours fields are visible in project, task  and issues views and reports. 
+Both the Actual Hours and the Legacy Actual Hours fields are visible in project, task  and issues views and reports.
 
-The Actual Hours field visible in the project, tasks, and issues Details section represents the Legacy Actual Hours. 
-
+The Actual Hours field visible in the project, tasks, and issues Details section represents the new Actual Hours.
 
 >[!IMPORTANT]
 >
->Hours logged before May 2021 are stored in the Legacy Actual Hours field.  
->The value for the Actual Hours field for projects, tasks, and issues where the hours were logged before May 2021 is zero. 
->Hours logged after May 2021 are stored in both the Actual Hours field and the Legacy Actual Hours field.
-> You might need to update your reports to reflect the new fields. 
+>Depending on when the hours were logged, there might be a discrepancy between Actual Hours and Legacy Actual Hours for a project, task, or issue.<br>
+>The following scenarios exist:
+>
+>* Actual Hours represent hours logged for projects, tasks and issues since May 2021.
+>* Legacy Actual Hours represent hours logged for projects, tasks and issues for the life of the project, task, or issue. This includes hours logged before May 2021 until the current time. 
+><br>You might need to update your reports to reflect the new field and its values.
+><br>Workfront uses Legacy Actual Hours to calculate Actual Labor Costs.
 
 For information, see [View Actual Hours](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
