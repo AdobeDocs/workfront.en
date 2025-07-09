@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the options users see when they open the Main Menu in Workfront.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
@@ -112,13 +112,13 @@ You must have the following access to perform the steps in this article:
 
      >[!NOTE]
      >
-     >Planning requires an additional license. For information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md)
-     * Custom Application
+     >Planning requires an additional license. For information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+   
+   * Custom Application
 
       >[!NOTE]
       >
       > Custom applications must be created separately before they become available as Main Menu options. For more information, see [Create a custom application for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md). 
-
 
 1. Do any of the following:
 
@@ -138,6 +138,6 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >You can click Save at any time to save your progress, then continue to modify the template later.
+   >You can click **Save** at any time to save your progress, then continue to modify the template later.
 
 For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
