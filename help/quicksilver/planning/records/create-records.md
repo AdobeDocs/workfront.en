@@ -127,7 +127,11 @@ For information about editing record information, see [Edit records](/help/quick
 
 1. (Conditional) From the table view, do one of the following: 
 
-    * Click **New record** in the last row of the table 
+    * Click **New record** in the last row of the table, or after the last record in a grouping
+
+        >[!TIP]
+        >
+        ><span class="preview">When you add a new record after the last record in a grouping or subgrouping, Workfront automatically populates the fields included in the groupings.You can manually edit these fields, if needed, and the records might be removed from the grouping. </span> 
 
     * Click **Shift + Enter** on your keyboard from any column or row of the table. This adds an empty row under the record you start from. 
     * Hover over a record's primary field, click the **More** menu ![More menu](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. 

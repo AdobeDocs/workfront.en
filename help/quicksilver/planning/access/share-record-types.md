@@ -145,6 +145,7 @@ You can adjust permissions to individual record types of a workspace if you have
    This opens the record type page.
 
 1. From the tab of any view, click **Share** in the upper-right corner of the record type. 
+1. <span class="preview">Click **Share the record type**.</span>
 
    The **Share** box opens.
 

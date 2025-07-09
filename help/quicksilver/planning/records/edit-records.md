@@ -134,6 +134,10 @@ When you edit records from the table view, there is an indication which field is
 
 For more information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
+<span class="preview">When you add a new record after the last record in a grouping or subgrouping, Workfront automatically updates the fields included in the groupings for the new records. You can manually edit these fields, if needed, and the records might be removed from the grouping. </span> 
+
+For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
+
 {{step1-to-planning}}
 
 1. Click the workspace whose records you want to edit
