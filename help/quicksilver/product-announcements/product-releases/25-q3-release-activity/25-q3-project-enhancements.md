@@ -19,8 +19,8 @@ For a list of all changes available at this point in the Third Quarter 2025 rele
 >[!NOTE]
 >
 >* Preview: July 9, 2025
->* Production fast release: TBD
->* Production for all customers: TBD
+>* Production fast release: July 17, 2025
+>* Production for all customers: July 17, 2025
 
 We've updated the experience when making a request in the new requesting experience. 
 

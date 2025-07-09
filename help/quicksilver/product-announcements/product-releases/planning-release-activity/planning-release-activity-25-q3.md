@@ -32,7 +32,7 @@ For more information, see the following articles:
 * [Share record types](/help/quicksilver/planning/access/share-record-types.md)
 
 
-## Add teams as approvers on Planning request forms
+<!--## Add teams as approvers on Planning request forms
 
 >[!NOTE]
 >
@@ -43,14 +43,14 @@ To make the approval process more flexible, we've added the ability to add teams
 
 Previously, only individual users could be assigned as approvers. 
 
-For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
 
 ## Updated experience when sharing a request form
 
 >[!NOTE]
 >
 >* Preview: July 9, 2025 
->* Production for everyone: TBD 
+>* Production for everyone: July 17, 2025 
 
 To make the experience when sharing a request form in Workfront Planning more secure and simple, we've made the following changes:
 
