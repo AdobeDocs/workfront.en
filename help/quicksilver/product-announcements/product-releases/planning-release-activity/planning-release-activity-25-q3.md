@@ -16,6 +16,63 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+<!--## Auto-populate fields based on applied groupings
+
+Preview: July 10, 2025 
+Production fast release: August 14, 2025 
+Production for everyone: October 16, 2025 
+
+Now, when you have  groupings applied to a table view, adding a record to the table will auto-populate the fields associated with the groupings you add the record to.  
+
+If you have multiple groupings applied, the system auto-populates the fields associated with all groupings only when you add the record at the end of the list inside the last grouping criteria.  
+
+Prior to this enhancement, you had to manually update the fields associated with groupings.  
+
+For information, see [Create records](/help/quicksilver/planning/records/create-records.md).-->
+
+## Common sharing button for views and record types
+
+>[!NOTE]
+>
+>* Preview: July 9, 2025 
+>* Production for everyone: July 17, 2025 
+
+You can now share a view as well as a record type from the same button on the record type's page. Prior to this enhancement, you could only share the record type from the Share button on the record type page and a view from the view's tab.  
+
+For more information, see the following articles: 
+
+* [Share views](/help/quicksilver/planning/access/share-views.md)  
+
+* [Share record types](/help/quicksilver/planning/access/share-record-types.md)
+
+
+<!--## Add teams as approvers on Planning request forms
+
+>[!NOTE]
+>
+>* Preview: July 9, 2025 
+>* Production for everyone: October 16, 20025 
+
+To make the approval process more flexible, we've added the ability to add teams as approvers on Planning request forms. Now, you can enter and select team names when setting approvers. Any of the team members can make a decision, which counts as the approval decision for the entire team.
+
+Previously, only individual users could be assigned as approvers. 
+
+For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
+
+## Updated experience when sharing a request form
+
+>[!NOTE]
+>
+>* Preview: July 9, 2025 
+>* Production for everyone: July 17, 2025 
+
+To make the experience when sharing a request form in Workfront Planning more secure and simple, we've made the following changes:
+
+* We've removed inherited permissions. Now, the request form is shared only with those you select.
+* We've removed manage and contribute options for users that you share the request form with. Now, added users can only submit the form.
+* The public sharing tab now displays the link and expiration date field only after the Create public link option has been enabled.
+
+For more information, see [Create and manage a request form in Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Expand and collapse all groupings in the table view
 
