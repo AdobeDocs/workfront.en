@@ -12,6 +12,16 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the Third Quarter 2025 release, see [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
+<!--## New look-and-feel for Announcement Center messages
+
+>[!NOTE]
+>
+>* Preview: July 10, 2025
+>* Production fast release: July 17, 2025
+>* Production for all customers:  July 17, 2025
+
+Announcement Center messages now match the style of Workfront email notifications.-->
+
 ## Interface modernization
 
 We are updating the interface throughout Adobe Workfront to improve the user experience and unify it with other Adobe applications. These changes are released outside the standard release schedule. For a list of these changes, see [Interface Modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
