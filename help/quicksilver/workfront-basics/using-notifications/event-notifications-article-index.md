@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 
 ---
 
-## Event notifications: article index
+# Event notifications: article index
 
 * [Notifications: Action needed](../../workfront-basics/using-notifications/notifications-action-needed.md)
 * [Notifications: Approval information](../../workfront-basics/using-notifications/notifications-approval-information.md)
