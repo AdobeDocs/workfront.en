@@ -16,7 +16,7 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-<!--## Auto-populate fields based on applied groupings
+## Auto-populate fields based on applied groupings
 
 Preview: July 10, 2025 
 Production fast release: August 14, 2025 
@@ -28,9 +28,9 @@ If you have multiple groupings applied, the system auto-populates the fields ass
 
 Prior to this enhancement, you had to manually update the fields associated with groupings.  
 
-For information, see [Create records](/help/quicksilver/planning/records/create-records.md).-->
+For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
 
-<!--## Common sharing button for views and record types
+## Common sharing button for views and record types
 
 >[!NOTE]
 >
@@ -44,7 +44,6 @@ For more information, see the following articles:
 * [Share views](/help/quicksilver/planning/access/share-views.md)  
 
 * [Share record types](/help/quicksilver/planning/access/share-record-types.md)
--->
 
 <!--## Add teams as approvers on Planning request forms
 
