@@ -115,8 +115,8 @@ To add a widget:
     * **My approvals**\
         Displays all of your pending assigned or delegated approvals, a button to delegate approvals, and buttons to make approval decisions directly within the widget.
 
-    * **All approvals**\
-            Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals. <span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span>
+    * **Document approval metrics**\
+            Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals. You must have Unified Approvals enabled to use this widget.
 
     * **Mentions**\
         Displays recent comment threads from across Workfront, similar to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.
