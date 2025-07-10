@@ -165,6 +165,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Updates to experience when making a request</a>
+            <p>The new requesting experience includes the following improvements:
+              <ul>
+                <li>The available request forms and paths appear in a list, instead of on cards. The most recent appear in a section near the top.</li>
+                <li>All request forms, including Workfront and Workfront Planning request forms, appear in the list. Previously, only the first 50 appeared.</li>
+                <li>Request paths and Request forms are listed in separate sections, both in the Recent area and in the larger list below.</li>
+                <li>When you search for a request queue, the list filters to display only forms and paths that include the search term. The search term is highlighted in each displayed request form or path.</li>
+              </ul>
+            </p>
+        </td>
+        <td>July 9, 2025</td>
+        <td>TBD</td>
+        <td>TBD</td>
+    </tr> 
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Existing Actual Hours field replaced with Legacy Actual Hours and new Actual Hours field created</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>The existing field of Actual Hours has been renamed to Legacy Actual Hours. This field stores the time logged for projects, tasks, and issues in minutes. The field is stored in the Workfront database as <code>actualWorkRequired</code>. </p>
             <p>We added a new Actual Hours field that stores the time logged for projects, tasks, and issues in hours, with decimal precision. The field is stored in the Workfront database as <code>actualWorkRequiredDouble</code>.</p>
