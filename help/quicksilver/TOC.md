@@ -897,6 +897,7 @@ feature-set: Workfront
     * [Enable delivery of emails from the Preview Sandbox environment](workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)
     * [Event notifications](workfront-basics/using-notifications/event-notifications.md)
     * [Attach a reminder notification to an object](workfront-basics/using-notifications/attach-reminder-notification-object.md)
+    * [Event notification: article index](/help/quicksilver/workfront-basics/using-notifications/event-notifications-article-index.md)
     * [Notifications: Action needed](workfront-basics/using-notifications/notifications-action-needed.md)
     * [Notifications: Approval information](workfront-basics/using-notifications/notifications-approval-information.md)
     * [Notifications: Communication](workfront-basics/using-notifications/notifications-communication.md)
