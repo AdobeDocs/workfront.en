@@ -116,7 +116,7 @@ To add a widget:
         Displays all of your pending assigned or delegated approvals, a button to delegate approvals, and buttons to make approval decisions directly within the widget.
 
     * **Document approval metrics**\
-            Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals. You must have Unified Approvals enabled to use this widget.
+            Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals. You must have [Unified Approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) enabled to use this widget.
 
     * **Mentions**\
         Displays recent comment threads from across Workfront, similar to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.
