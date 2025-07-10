@@ -79,7 +79,7 @@ For more detail about the information in this table, see [Access requirements in
 
    Or, if you want to create the new subgroup beneath another subgroup in the list, select that subgroup, then click **Add subgroup**.
    
-   For information about the options you can use to configure the subgroup, see [Create a subgroup](help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
+   For information about the options you can use to configure the subgroup, see [Create a subgroup](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
    
    A group hierarchy cannot exceed 15 levels, but a single level can have an unlimited number of parallel groups.
 
