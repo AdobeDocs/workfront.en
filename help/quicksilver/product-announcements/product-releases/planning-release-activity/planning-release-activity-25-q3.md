@@ -30,7 +30,7 @@ Prior to this enhancement, you had to manually update the fields associated with
 
 For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
 
-## Common sharing button for views and record types
+<!--## Common sharing button for views and record types
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ For more information, see the following articles:
 * [Share views](/help/quicksilver/planning/access/share-views.md)  
 
 * [Share record types](/help/quicksilver/planning/access/share-record-types.md)
-
+-->
 
 <!--## Add teams as approvers on Planning request forms
 
