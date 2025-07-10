@@ -567,13 +567,20 @@ Consider the following when exporting the table view:
 To export information from the table view or a record type:
 
 1. Go to a record type page and click a table view tab. 
-1. Hover over the table view tab's name, then click the **More** menu ![More menu](assets/more-menu.png).
+1. Do one of the following:
+
+    * Hover over the table view tab's name, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Export**.
 
     ![More menu on a view](assets/view-more-menu-with-duplicate-option.png)
-1. Click **Export**, then select one of the following formats:
 
-    * Excel
-    * CSV
+    * Click **Share** > **Export the current view**. This option is available only when you display the table view. 
+
+    ![Share button with record type and view sharing options](assets/share-button-with-record-type-and-view-sharing-options.png)
+
+1. Select one of the following formats:
+
+    * **Excel**
+    * **CSV**
 
     >[!IMPORTANT]
     >
