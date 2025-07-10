@@ -151,7 +151,7 @@ You can share views you created or views you have Manage permissions to with use
 
       <span class="preview">![Share button with record type and view sharing options](assets/share-button-with-record-type-and-view-sharing-options.png)</span>   
 
-   The **Internal sharing** tab should be selected by default.
+   The **Share view** box opens and the **Internal sharing** tab should be selected by default.
 
 1. (Optional) In the **Who has access** area, select from the following options: 
 
@@ -210,6 +210,8 @@ To share a view publicly in Workfront Planning:
    ![More menu for views expanded with share option](assets/more-menu-for-views-expanded-with-share-option.png)
    * <span class="preview">Click **Share** > **Share the current view**</span>
 
+   The **Share view** box opens.
+
 1. Click **Public sharing**.
 
    ![Public sharing tab for views](assets/public-sharing-tab-for-views.png)
@@ -254,8 +256,8 @@ This section describes how you share a view internally.
 
 1. From a view's tab, do one of the following: 
 
-   * Hover over the tab of the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share** > **Copy link**. 
-   * <span class="preview">Click **Share** > **Copy the view link**</span>
+   * Hover over the tab of the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share** > **Copy link** in the **Share view** box. 
+   * <span class="preview">Click **Share** > **Copy the view link**</span> > **Copy link** in the **Share view** box.
 
    A link to the view is copied to your clipboard and you receive a confirmation at the bottom of the screen. 
 
@@ -291,7 +293,13 @@ Users who access a link to a view to which they do not have permissions can requ
 {{step1-to-planning}}
 
 1. Open the workspace whose view you want to stop sharing, then click a record type card. This opens the record type page.
-1. Hover over the tab name of the view you want to remove sharing from and click the **More** menu ![More menu](assets/more-menu.png), then click **Share**.
+1. From the view tab, <span class="preview"> do one of the following:</span>
+
+   * Hover over the tab name of the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. 
+
+   * <span class="preview">Click **Share** > **Share the current view**</span>
+
+   The **Share view** box opens.
 1. To remove the internal sharing of a view, do the following: 
 
    1. Ensure the **Internal sharing** tab is selected.

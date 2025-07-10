@@ -201,6 +201,7 @@ You can remove users' permissions from a record type. However, they will retain 
 1. Open the workspace whose record types you want to stop sharing, then click a record type card. This opens the record type page.
 
 1. From the tab of any view, click **Share** in the upper-right corner of the record type. 
+1. <span class="preview">Click **Share the record type**.</span>
 
    The **Share** box opens.
 1. Find the user, group, team, company, or job role that whose permissions you want to remove, expand the permissions drop-down menu to the right of their name, then click **Remove**. <!--check the screen shot below - the UI text for View might not be accurate-->

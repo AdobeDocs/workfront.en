@@ -573,7 +573,7 @@ To export information from the table view or a record type:
 
     ![More menu on a view](assets/view-more-menu-with-duplicate-option.png)
 
-    * * Click **Share** > **Export the current view**. This option is available only when you display the table view in the screen. 
+    * Click **Share** > **Export the current view**. This option is available only when you display the table view. 
 
     ![Share button with record type and view sharing options](assets/share-button-with-record-type-and-view-sharing-options.png)
 
