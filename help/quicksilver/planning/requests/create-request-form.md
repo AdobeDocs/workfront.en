@@ -235,7 +235,7 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
 
       ![Share box for request form](assets/share-box-for-request-form.png)
 
-1. Select from the following options to indicate which types of users can access this form: 
+1. (Conditional) In the production environment, select from the following options to indicate which types of users can access this form: 
 
       * Anyone with view or higher access to the workspace
       * Anyone with contribute or higher access to the workspace
@@ -251,7 +251,7 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    >     * People
    >
 
-1. (Conditional) If you selected **Anyone with the link** in the previous step, select the **Link expiration date** from the available calendar. 
+1. (Conditional) In the production environment, if you selected **Anyone with the link** in the previous step, select the **Link expiration date** from the available calendar. 
 
    People will receive an error after the link expires and you must update the link date and generate a new link to share before people can access the form again. 
 
@@ -261,13 +261,14 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    >
    >After the sharing date expires, the request form is no longer available in the Requests area of Workfront, and the links shared with other users are no longer accessible.   
 
-
-1. (Optional) Click **Save and copy link** to save the sharing details for the form. If the form was previously saved, click **Copy link**.
+1. (Optional and conditional) In the production environment, click **Save and copy link** to save the sharing details for the form. If the form was previously saved, click **Copy link**.
 
    The form sharing options are saved and the link is copied to your clipboard. You can now share it with others.
 
    For information about creating records using a link to a request form, see [Submit Adobe Workfront Planning requests](/help/quicksilver/planning/requests/submit-requests.md). 
    
+1. <span class="preview">(Conditional) In the preview environment, to share with users, select the Internal sharing tab, search for the user's name, then select it when it appears in the list.</span>
+1. <span class="preview">(Conditional) In the preview environment, to create a public link, select the Public sharing tab, then toggle on the Create public link option. You can then copy the link here, or set a link expiration date.</span>
 1. Click **Save** in the lower-right corner of the **Form** tab to save the form.  
 
 1. Click the left-pointing arrow to the left of the form's name in the header to close the form. 

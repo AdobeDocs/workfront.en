@@ -17,13 +17,14 @@ exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
-<div class="preview">
+<!--<div class="preview">
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
 </div>
+-->
 
 Hour types are labels you use to define your hour entries. You can associate hour types with your hour entries. 
 
@@ -159,11 +160,11 @@ To deactivate an hour type:
 1. Select the hour type you want to deactivate.
 
 
-1. <span class="preview">Click **More**, then **Deactivate**.</span>
+1. Click **More**, then **Deactivate**.
 
-   <span class="preview">![Activate and deactivate hour type links](assets/activate-and-deactivate-hour-type-links.png)</span>
+   ![Activate and deactivate hour type links](assets/activate-and-deactivate-hour-type-links.png)
 
-   <span class="preview">The hour type is deactivated and users can no longer find it when logging hours.</span> 
+   The hour type is deactivated and users can no longer find it when logging hours.
 
-1. <span class="preview">(Optional) To reactivate an hour type, select it in the **Hour Types** list, then click **More** > **Activate**. </span>
+1. (Optional) To reactivate an hour type, select it in the **Hour Types** list, then click **More** > **Activate**. 
 

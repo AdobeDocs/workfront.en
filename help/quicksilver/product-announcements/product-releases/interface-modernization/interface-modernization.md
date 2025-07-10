@@ -18,6 +18,16 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+### Interface updates to subgroup dialogs
+
+**Preview release: July 10, 2025; Production release: July 17, 2025**
+
+We have updated the dialog boxes for adding a subgroup, editing a subgroup, and copying a subgroup, to match other areas of the application.
+
+To view these changes, go to Setup > Groups > select a group > Subgroups. (The dialogs for adding, editing, and copying a subgroup from the main list of groups have already been updated.)
+
+For information, see [Create a subgroup](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) and [Manage a subgroup](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+
 ### Look and feel updates for the Update Feeds section of Setup 
 
 **Preview: June 27, 2025; Production for everyone: July 10, 2025**  

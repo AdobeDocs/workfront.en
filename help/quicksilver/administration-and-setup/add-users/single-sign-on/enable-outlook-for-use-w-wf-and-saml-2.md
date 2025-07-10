@@ -11,6 +11,14 @@ exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
 ---
 # Enable Outlook for use with Workfront and SAML 2.0
 
+>[!IMPORTANT]
+>
+>[Microsoft is in the process of disabling support for legacy Exchange online tokens](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), which are currently used by the Workfront Outlook add-in for authentication. This change by Microsoft has already started affecting customers and will continue to roll out in phases through October 2025.
+>
+>* **After Microsoft fully disables these tokens, the Workfront for Microsoft Outlook integration will no longer function.** 
+>
+>As part of this change, Microsoft has made the decision to change the way tokens are re-enabled. After **June 30, 2025**, admins will no longer be able to re-enable tokens themselves—only Microsoft Support can grant exceptions. **On October 1, 2025, legacy tokens will be turned off for all tenants. Exceptions will not be granted.**  
+
 If you enable SAML 2.0 authentication and you want your users to be able to log in to Workfront from Microsoft Outlook using their SAML 2.0 credentials, you must enable SAML 2.0 to authenticate in Office add-ins.
 
 >[!NOTE]

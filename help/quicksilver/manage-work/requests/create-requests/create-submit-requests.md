@@ -19,9 +19,9 @@ exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 </div>
 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Planned work is represented in Adobe Workfront by projects and tasks. However, you might work in an environment where unplanned work, in the form of requests, can come in at any time. Workfront provides a workflow to accommodate this type of environment through the use of Request Queues. 
 
@@ -136,7 +136,7 @@ To create a request in the Workfront web app:
 
     The **New request** box opens.
 
-1. (Conditional) If you switched to the new experience that includes Workfront Planning, the **New request** box displays the following:</span>
+1. (Conditional) If you switched to the new experience that includes Workfront Planning, and are in the production environment, the **New request** box displays the following:</span>
 
     * The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. 
     * 50 additional Workfront request queues and Planning request forms display in alphabetical order in the **All request forms** section. You can search for a request queue that does not display by default. 
@@ -144,6 +144,13 @@ To create a request in the Workfront web app:
     ![New request box with unified workflow for planning requests](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
     Click one of the Workfront request queue cards, or search for one, then click it when it displays in the list. 
+1. <span class="preview">(Conditional) If you switched to the new experience that includes Workfront Planning, and are in the preview environment, the **New request** box displays the following:</span>
+
+    <ul><span class="preview"><li>The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. </li></span>
+    <span class="preview"><li>All additional Workfront and Planning request forms <b>All request forms</b> section. You can search for a request forms that does not display by default. </li></span>
+    <span class="preview"><li>All additional Workfront and Planning request queue paths display in the <b>All request paths</b> section. You can search for a request queue that does not display by default.</li></span></ul>
+    <span class="preview">Click one of the Workfront request queue paths or forms, or search for one, then click it when it displays in the list. </span>
+
 1. (Conditional) If you switched to the new experience that includes Workfront Planning, select your topic groups and queue topics and continue updating the form.
 
     Otherwise, click inside the **Request Type** field and do one of the following:
@@ -215,7 +222,7 @@ To create a request in the Workfront web app:
    >When you hover over a Topic Group or a Queue Topic the Description field displays to the right. This contains additional information about the topic group or queue topic. 
    >
    >
-   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)   >
+   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)   
    >
 
    You can have up to 10 tiers of Topic Groups built into your Request Queue.   
@@ -317,7 +324,7 @@ To create a request in the Workfront web app:
 
 1. Do one of the following:
 
-   * Click **Submit** if you are ready to submit the request. The request is saved in the  Submitted section  . Depending on the Routing Rule of the Request Queue, this request might be routed to a different project than the one designated as a Request Queue. For information about routing rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * Click **Submit** if you are ready to submit the request. The request is saved in the  Submitted section. Depending on the Routing Rule of the Request Queue, this request might be routed to a different project than the one designated as a Request Queue. For information about routing rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
      Or
 
