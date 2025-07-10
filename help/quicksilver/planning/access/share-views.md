@@ -112,7 +112,7 @@ You must have the following access to perform the steps in this article:
    * Internally, with Workfront users, groups, teams, companies, and job roles
    * Publicly, with users outside Workfront
    * By copying and then sharing a link to a view
-   * By exporting it to an Excel or a CSV file. You can export only the table view to a file. For information, see [Manage the table view](//help/quicksilver/planning/views/manage-the-table-view.md). 
+   * By exporting it to an Excel or a CSV file. You can export only the table view to a file. For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
 * For general information about sharing objects in Workfront Planning, also see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
 * You can give View or Manage permissions to a view to internal Workfront users. 
