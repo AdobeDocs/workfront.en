@@ -5,9 +5,8 @@ title: 'Event notifications: article index'
 description: Learn about Workfront event notifications.
 author: Courtney
 feature: Get Started with Workfront
-
+exl-id: 2b3cd4a7-9657-4aa9-821e-27a89685126f
 ---
-
 # Event notifications: article index
 
 * [Notifications: Action needed](../../workfront-basics/using-notifications/notifications-action-needed.md)
