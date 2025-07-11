@@ -180,6 +180,8 @@ You can share views you created or views you have Manage permissions to with use
 
    The view updates with a people icon ![View shared with others icon](assets/view-shared-with-others-people-icon.png) to indicate that the view is now shared with other users. 
 
+   The users you shared the view with receive both an in-app and email notification about having permissions to it.
+
    >[!TIP]
    >
    >Views without a people or a global icon are views you created and are not shared with others. Unshared views are only visible to you. 
