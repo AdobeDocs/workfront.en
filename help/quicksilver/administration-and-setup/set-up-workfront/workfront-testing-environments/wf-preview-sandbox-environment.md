@@ -171,14 +171,17 @@ As a Workfront administrator, you can configure when Workfront automatically rec
 
 For information, see [Configure timeline recalculations for projects](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md). 
 
-For the Preview environment, the nightly recalculation is disabled, and the project timelines are not recalculated automatically. You must manually recalculate the project timeline for the Preview environment. For information, see [Recalculate project timelines](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md). 
+For the Preview environment, the nightly recalculation is disabled, and the project timelines are not recalculated automatically. You must manually recalculate the project timeline for the Preview environment. For information, see [Recalculate project timelines](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
 
 ## Preview environment performance and availability
 
-[!DNL Workfront] Preview environments are not intended for performance or load testing. Rather, use these environments to validate feature functionality with your organization's existing workflows.
+* [!DNL Workfront] Preview environments are not intended for performance or load testing. Rather, use these environments to validate feature functionality with your organization's existing workflows.
 
-[!DNL Workfront] Preview environments are intended to be always available.
+* Workflows involving documents should focus on process not on load testing. Large files aren't supported in Sandbox environments.
 
-Any outage to a [!DNL Workfront] Preview environment during regular business hours will be a first priority immediately after any Production issues are resolved if any exist.
+* [!DNL Workfront] Preview environments are intended to be always available.
 
-Any outage to a [!DNL Workfront] Preview environment on weekends (Saturdays and Sundays) will be addressed so that the environment is running for business hours on Monday.
+* Any outage to a [!DNL Workfront] Preview environment during regular business hours will be a first priority immediately after any Production issues are resolved if any exist.
+
+* Any outage to a [!DNL Workfront] Preview environment on weekends (Saturdays and Sundays) will be addressed so that the environment is running for business hours on Monday.
