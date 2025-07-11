@@ -1,6 +1,6 @@
 ---
 title: Manage Adobe Workfront Planning In-app Notifications
-description: When someone tags you in a record comment, you receive an email notification for that tag.
+description: When someone tags you or your teams in a record comment, you receive an email notification for that tag.
 feature: Workfront Planning
 role: User, Admin
 author: Alina

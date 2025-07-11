@@ -221,6 +221,11 @@ You can connect records from Workfront Planning in the following areas of a Plan
       >* We use "linked fields" and "lookup fields" interchangeably. 
       >
       >* When you choose to connect multiple records when you connected the record types, the field values from the multiple objects are either displayed separated by commas or are aggregated according to the aggregator you chose when connecting the record types.
+      >* You cannot add Workfront typeahead fields (including fields like Project Owner, or Project Sponsor) as lookup fields.
+      >
+      >* Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
+      >
+      >   For example, if a project's Planned Start Date displays as 3:00 PM in Workfront, it will display as 15:00 in Workfront Planning in an imported lookup field.
     
 1. (Optional) Close the record type page and go to the workspace you selected. 
 1. Click the card for the record type that you linked to. 
