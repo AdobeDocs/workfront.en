@@ -115,7 +115,7 @@ For more information about Workfront Planning notifications, also see the follow
    ![Adobe Experience Cloud notifications panel for Workfront Planning](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. The following notifications are available for Workfront:
 
-   * **Mentions**: You receive a notification when someone tags you in a comment in Workfront Planning
+   * **Mentions**: You receive a notification when someone tags you or your team in a comment in Workfront Planning
    * **Requests**: You receive a notification when someone done one of the following:
    
       * Requests or grants you permission to a Workfront Planning object

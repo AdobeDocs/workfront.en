@@ -114,10 +114,8 @@ You must have the following access to perform the steps in this article:
    
    For example, comments added to projects in Workfront do not display on the same project linked to a campaign in Workfront Planning, and comments added to the project Workfront Planning record don't display in Workfront. 
 
-* You can tag users to bring their attention to an update. Tagged users do not receive an in-app notification or an email about your update. <!--this might change??-->
+* You can tag users or teams to bring their attention to an update. Both individually Tagged users and users from the tagged teams receive an in-app notification and an email about your update. 
 
-* You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
-   
    >[!NOTE]
    >
    >   Only users from customers who have onboarded with the Adobe Unified Experience receive both an in-app notification and an email notification. To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
@@ -156,7 +154,7 @@ You must have the following access to perform the steps in this article:
 1. (Optional) To undo or redo a change, use the following shortcut keys:
       * CTRL + Z (⌘+z for Mac) to undo a change 
       * CTRL + Y (⌘+y for Mac) to redo a change 
-1. (Optional and conditional) If your Workfront instance is part of the Adobe Unified Experience, add **@** followed by the name of a user to tag someone in the update. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article.
+1. (Optional and conditional) If your Workfront instance is part of the Adobe Unified Experience, add **@** followed by the name of a user or of a team to tag them in the update. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article.
 
 1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, or links to your update, to enhance your content. 
 

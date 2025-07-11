@@ -14,7 +14,7 @@ exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
 
 You can receive in-app notifications from Workfront Planning when the following scenarios exist:
 
-* Someone tags you in a record comment
+* Someone tags you or your teams in a record comment
    
    For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
 * Someone asks for your permission to access a view or a workspace
@@ -154,7 +154,7 @@ OLD:
 
 ## Manage in-app notifications when someone tags you in a comment
 
-1. (Conditional) After someone tags you in a comment on a record, go to the in-app **Notifications** icon ![Experience cloud notifications icon](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud. 
+1. (Conditional) After someone tags you or your teams in a comment on a record, go to the in-app **Notifications** icon ![Experience cloud notifications icon](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud. 
 
     ![In-app notification example](assets/in-app-notification-example.png)
 
