@@ -234,7 +234,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
       <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">nhanced Report Delivery Security </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhanced Report Delivery Security </a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>We've enhanced scheduled report delivery to ensure Workfront notifications are only sent to email domains approved in the allowlist.</p>
             <p></p>
         </td>
