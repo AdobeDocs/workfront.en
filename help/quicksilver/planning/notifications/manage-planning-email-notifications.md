@@ -18,7 +18,7 @@ exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
 
 You can receive email notifications from Workfront Planning when the following scenarios exist:
 
-* Someone tags you in a record comment
+* Someone tags you or your teams in a record comment
    
    For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
 * Someone asks for your permission to access a view or a workspace
@@ -155,7 +155,7 @@ OLD:
 
 ## Manage email notifications when someone tags you in a comment
 
-1. (Conditional and optional) After someone tags you in a comment on a record, go to the email notification that informs you of the tag and of the comment. The sender of the email is Adobe Experience Cloud. 
+1. (Conditional and optional) After someone tags you or your team in a comment on a record, go to the email notification that informs you of the tag and of the comment. The sender of the email is Adobe Experience Cloud. 
 
     ![Email notifications example](assets/email-notification-example.png)
 

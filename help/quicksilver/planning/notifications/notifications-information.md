@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 9c2f5b14-77c5-42fd-83ad-acbe7da801bd
 ---
 
-# Adobe Workfront Planning notifications: Article index
+# Adobe Workfront Planning notifications: article index
 
 <!--add this to major TOC and Planning article index-->
 
