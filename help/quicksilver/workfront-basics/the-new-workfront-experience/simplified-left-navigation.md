@@ -259,6 +259,14 @@ To learn what sections are available for specific areas, see [[!UICONTROL Defaul
       >
       >You must build the dashboard before it appears in the list.
 
+1. (Optional) To remove a dashboard quick link, hover over the dashboard in the left navigation, then click the **Remove** icon ![Remove icon](assets/remove-dashboard-from-left.png) when it appears.
+
+   1. Type a name for the dashboard in the **[!UICONTROL Quick link name]** field.
+   1. Start typing the name of an existing dashboard in the **[!UICONTROL Choose a Dashboard]** field, then click the dashboard when it displays in the list.
+
+      >[!TIP]
+      >
+      >You must build the dashboard before it appears in the list.
    1. Click **[!UICONTROL Add]**.
 
       The dashboard link appears at the bottom of the left panel.
