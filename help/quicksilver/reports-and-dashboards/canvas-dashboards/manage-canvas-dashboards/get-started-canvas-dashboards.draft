@@ -1,14 +1,13 @@
 ---
 product-area: Canvas Dashboards
-navigation-topic: canvas-dashboards
-title: Canvas Dashboards overview
-description: Learn about Canvas Dashboards
+navigation-topic: manage-canvas-dashboards
+title: Get started with Canvas Dashboards
+description: Canvas Dashboards allow you to easily visualize your Adobe Workfront data by adding report types onto a canvas that offers many flexible layout options, including resizing, dragging and dropping, and more.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
-exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
+exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
 ---
-# Canvas Dashboards overview
+# Get started with Canvas Dashboards
 
 >[!IMPORTANT]
 >
@@ -18,6 +17,7 @@ Canvas Dashboards allow you to easily visualize your Adobe Workfront data by add
 
 With Canvas Dashboards, you can report on newly added Workfront features, including document approval decisions and Workfront planning. 
 
+![Canvas Dashboards overview](assets/canvas-dashboards-overview.png)
 
 ## Prerequisites
 
@@ -69,5 +69,3 @@ Below is a list of the report types currently supported in the beta, as well as 
 * Sending dashboard summaries 
 * Copying reports 
 * Copying dashboards 
-
-
