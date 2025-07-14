@@ -129,6 +129,17 @@ You must have the following access to perform the steps in this article:
       * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
       * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.
 
+   <!--replace last point with this when we release dynamic record types:
+      1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
+         * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
+               You can designate specific users who can add this record type to other workspaces. 
+         * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
+               You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
+         For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  
+         ******** replace screen shot below **********
+         ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
+      -->
+
 1. Click **Save**.
 
       The record type card on the workspace displays a connectivity icon ![Connect from other workspaces icon](assets/connect-from-other-workspaces-icon.png) in the upper-right corner to indicate that the record is now accessible from other workspaces. 
