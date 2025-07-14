@@ -15,4 +15,3 @@ This section contains the following articles:
 * [Build a KPI report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
 * [Build a chart report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
 * [Build a table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
-* [Add a pending approvals report to a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-pending-approvals-report.md)
