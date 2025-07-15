@@ -76,9 +76,19 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 
 To make the experience when sharing a request form in Workfront Planning more secure and simple, we've made the following changes:
 
-* We've removed inherited permissions. Now, the request form is shared only with those you select.
+* We've separated the Share form dialog into internal sharing (selecting who to share with) and public sharing (creating a share link).
+* You can now share request forms with the following:
+
+   * Users
+   * Teams
+   * Groups
+   * Companies
+   * Job roles
+   
+   Previously, you could only share based on workspace access or by sharing a link.
+* We've removed inherited permissions for request forms. Now, the request form is shared only with those you select.
 * We've removed manage and contribute options for users that you share the request form with. Now, added users can only submit the form.
-* The public sharing tab now displays the link and expiration date field only after the Create public link option has been enabled.
+* The public sharing tab now displays the link and expiration date field after the Create public link option has been enabled.
 
 For more information, see [Create and manage a request form in Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
