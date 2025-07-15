@@ -56,7 +56,7 @@ To perform them for a group, you must be a manager of that group.</p> </td>
 1. In the left panel, click **Interface** > **Layout Templates**.
 
 1. Click the name of the layout template you want to modify.
-1. Click **Copy**.
+1. Click the **Copy** icon ![Copy icon](assets/copy-icon.png).
 
    All settings except for the name, description, and user assignments in the existing layout template are copied to the new template.
 
