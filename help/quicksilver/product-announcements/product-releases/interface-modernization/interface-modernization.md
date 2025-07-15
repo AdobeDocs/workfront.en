@@ -219,7 +219,7 @@ We have updated the look and feel of the Log time box when logging time for a pr
 For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 -->
 
-### Look-and-feel changes of the New Topic Group box of a project
+### Look-and-feel changes of the New Topic Group and Edit Topic Group boxes of a project
 
 **Preview release: June 26, 2025; Production release: July 10, 2025**
 
