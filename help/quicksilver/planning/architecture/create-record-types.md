@@ -104,6 +104,8 @@ You must have the following access to perform the steps in this article:
 
         * When you import them using a CSV or Excel file. 
 
+            For more information, see [Create Record Types by importing information from a CSV or Excel file](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
+
         >[!TIP]
         >
         >When you import a record type from a CSV or Excel file, you can also import records and fields. 
@@ -113,6 +115,11 @@ You must have the following access to perform the steps in this article:
         * From scratch.
 
             This article describes how you create record types from scratch.    
+
+        <!--
+        * <span class="preview">By importing then from another workspace or adding cross-workspace record types</span>
+            <span class="preview">For information, see [Add cross-workspace record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md). </span>-->
+
 
 * You can move record types within a section and from one section of a workspace to another. You cannot move record types from one workspace to another workspace. 
 
@@ -165,6 +172,18 @@ For information about what record types are included with each template, see [Li
         * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type. 
 
     ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png)
+
+    <!--replace last point with this when we release dynamic record types; the preview tags might need to be edited, too:
+    <div class="preview">
+    1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
+        * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
+            You can designate specific users who can add this record type to other workspaces. 
+        * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
+            You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
+        For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  </div>
+        ******** replace screen shot below **********
+        ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
+    -->
 
 1. Click **Create**.
 
@@ -222,4 +241,16 @@ You can import the following when importing information from a CSV or Excel file
 
 For more information, see [Create Record Types by importing information from a CSV or Excel file](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md). 
 
+<!--
 
+<div class="preview">
+
+## Create record types by importing them from another workspace 
+
+You can add record types to a workspace by importing them from another workspace. You can only add record types that have been configured as cross-workspace record types. 
+
+For information, see [Add cross-workspace record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
+
+</div>
+
+--> 
