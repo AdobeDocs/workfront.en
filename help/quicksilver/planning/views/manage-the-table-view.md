@@ -1,6 +1,6 @@
 ---
 title: Manage the Table View
-description: You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront Planning. This article describes how you can create or edit a table view edit and how to enable real-time presence indicators for the view or how to export it to a CSV or Excel file. 
+description: You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront Planning. This article describes how you can create or edit a table view edit and how to enable real-time presence indicators for the view. 
 feature: Workfront Planning
 role: User
 author: Alina
@@ -23,7 +23,8 @@ This article describes the following information:
 
 * [Create or edit columns and rows in a table view](#manage-a-table-view)
 * [Enable real-time presence indicators for the table view](#enable-the-real-time-presence-indicator)
-* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>
+
+For information about exporting the table view to an Excel or CSV file, see [Export records from the table view](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
 ## Access requirements
 
@@ -552,57 +553,5 @@ When you display the table view, you can also view which field another user is e
 
 <div class="preview">
 
-## Export the table view
 
-You can export information in the table view to a CSV or an Excel file. 
-
-Consider the following when exporting the table view:
-
-* The information exported to an Excel file preserves the filters, groupings, and sorts applied to the table view in Workfront Planning. Groupings are not visible in the CSV file.
-
-* Thumbnails and custom row colors are not supported in exported files.  
-
-* Only fields made visible in the Workfront interface are exported. Hidden fields are not exported.
-
-To export information from the table view or a record type:
-
-1. Go to a record type page and click a table view tab. 
-1. Do one of the following:
-
-    * Hover over the table view tab's name, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Export**.
-
-    ![More menu on a view](assets/view-more-menu-with-duplicate-option.png)
-
-    * Click **Share** > **Export the current view**. This option is available only when you display the table view. 
-
-    ![Share button with record type and view sharing options](assets/share-button-with-record-type-and-view-sharing-options.png)
-
-1. Select one of the following formats:
-
-    * **Excel**
-    * **CSV**
-
-    >[!IMPORTANT]
-    >
-    >You cannot export information from the table view when you display a different view on the screen. You must display the table view that you want to export in order to access the Export option in the More menu. 
-
-    The file is downloaded to your computer. 
-
-1. (Optional) Go to the downloads folder on your computer and find the downloaded file. 
-
-    The name of the exported file follows the following format: 
-
-    `Name of the view - name of the record type`
-
-    For example, a table view for the Campaigns record type generates a file named `Table view - Campaigns`.
-
-    The file displays the following information: 
-    
-    * The column headers are highlighted in black, in the Excel file
-    * All the fields visible in the Workfront interface, sorted and filtered by the same criteria
-    * Groupings are preserved in the Excel file
-
-    You can now share the exported files with others, or attach them to any communication. 
-    
- </div>   
 
