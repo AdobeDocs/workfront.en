@@ -141,6 +141,8 @@ To share a workspace with others:
 1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the workspace. 
 1. Click **Save**.
 
+   The users you shared the workspace with receive both an in-app and email notification about having permissions to it.
+
 ## Grant permissions to a workspace from a permission request
 
 Users who access a link to a workspace to which they do not have permissions can request permissions to the workspace. All users with Manage permissions to the workspace receive the permission request and can grant or deny the permissions. 

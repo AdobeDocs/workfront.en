@@ -189,6 +189,10 @@ You can adjust permissions to individual record types of a workspace if you have
 1. Click **Save**.
 
    The record type is now shared with other users. 
+   The users you shared the record type with receive both an in-app and email notification about having given permissions to the following entities:
+
+   * The record type
+   * The workspace, if they had not had permissions to the workspace before the record type was shared with them. 
 
 1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the record type page and display it in the selected view. They must have permissions to the record type to be able to view it. 
 

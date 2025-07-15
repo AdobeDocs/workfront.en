@@ -19,6 +19,8 @@ exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 
 When an action occurs on a Adobe Workfront object that is supported by event subscriptions, you can configure Workfront to send a response to your desired endpoint. This means that third-party applications can receive updates from Workfront interactions via the Workfront API soon after they occur. In general, you can expect to receive webhook notifications in less than 5 seconds from the data change being logged. On average, customers receive webhook notifications in less than 1 second from the data change being logged.  
 
+Because event subscriptions send data to another service, they are manage through commands instead of through the Workfront application.
+
 In order to receive event subscriptions payloads through your firewall, you must add the following IP addresses to your allowlist:
 
 **For customers in Europe:**

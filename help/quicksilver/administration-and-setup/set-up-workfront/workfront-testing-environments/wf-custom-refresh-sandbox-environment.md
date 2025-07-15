@@ -204,9 +204,12 @@ For information, see [Configure timeline recalculations for projects](/help/quic
 
 For the Custom Refresh Sandbox environment, the nightly recalculation is disabled, and the project timelines are not recalculated automatically. You must manually recalculate the project timeline for the Custom Refresh Sandbox environment. For information, see [Recalculate project timelines](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
+
 ## Intended use and availability
 
 * [!DNL Workfront] Custom Refresh Sandbox environments are not intended for performance or load testing. Rather, use these environments to validate feature functionality with your organization's existing workflows.
+
+* Workflows involving documents should focus on process not on load testing. Large files aren't supported in Sandbox environments.
 
 * [!DNL Workfront] Custom Refresh Sandbox environments are intended to be always available. Any outage to a Workfront Custom Refresh Sandbox environment during regular business hours will be a first priority immediately after any Production issues are resolved if any exist. Any outage to a Workfront Custom Refresh Sandbox environment on weekends (Saturdays and Sundays) will be addressed so that the environment is running for business hours on Monday.
 

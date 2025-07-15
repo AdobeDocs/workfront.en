@@ -5,7 +5,7 @@ content-type: reference
 product-area: system-administration;templates
 navigation-topic: customize-workfront
 description: As a Workfront administrator or a group administrator, you can create and modify layout templates to customize the elements of the Workfront interface for your users.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog

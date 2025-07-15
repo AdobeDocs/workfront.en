@@ -16,6 +16,15 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Add notifications for team users when the team is added to a record comment
+
+Preview: July 10, 2025
+Production for everyone: July 10, 2025
+
+Now, when you add a team to a record comment in Workfront Planning, all members of the team receive both an in-app and an email notification about the comment. Prior to this enhancement, only users added to comments individually were notified .  
+
+For information, see Manage record comments [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md).  
+
 ## Auto-populate fields based on applied groupings
 
 Preview: July 10, 2025 

@@ -91,6 +91,13 @@ Consider the following about connecting record types:
     
         Linked fields are preceded by an icon that identifies the field type. For example, linked (or lookup) fields are preceded by icons that indicate that a field is a number, a paragraph, or a date. 
 
+        >[!TIP]
+        >
+        >Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
+        >
+        >For example, if a project's Planned Start Date displays as 3:00 PM in Workfront, it will display as 15:00 in Workfront Planning in an imported lookup field. 
+
+
 ## Connection types
 
 After you establish a connection between two record types or between a record and an object type from another application, you can add records in the connected record fields. 
