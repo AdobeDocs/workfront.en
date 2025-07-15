@@ -18,6 +18,14 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+### Interface updates to Portfilios tab in a group
+
+**Preview: July 10, 2025; Production for everyone: July 17, 2025**  
+
+We have updated the Portfolio page in the left panel in a group to match other areas of the application.
+
+To view these changes, go to Setup > Groups > select a group > Portiolios. 
+
 ### Interface updates to subgroup dialogs
 
 **Preview release: July 10, 2025; Production release: July 17, 2025**
@@ -211,7 +219,7 @@ We have updated the look and feel of the Log time box when logging time for a pr
 For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 -->
 
-### Look-and-feel changes of the New Topic Group box of a project
+### Look-and-feel changes of the New Topic Group and Edit Topic Group boxes of a project
 
 **Preview release: June 26, 2025; Production release: July 10, 2025**
 

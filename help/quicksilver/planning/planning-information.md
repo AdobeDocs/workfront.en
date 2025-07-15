@@ -103,5 +103,5 @@ The following sections contain articles that describe in detail the features cur
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
 
-* **Workfront Planning reporting capabilities**: You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). 
+* **Workfront Planning reporting capabilities**: You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
