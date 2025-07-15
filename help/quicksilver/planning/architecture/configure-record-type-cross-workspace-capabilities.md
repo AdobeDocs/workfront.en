@@ -26,7 +26,7 @@ recommendations: noDisplay, noCatalog
 
 You can designate a record type to either be added to another workspace or be connected from another workspace, in Adobe Workfront Planning. 
 
-You must first define the cross-workspace capabilities of a record type before workspace managers can either connected it from or import it into other workspaces.
+You must first define the cross-workspace capabilities of a record type before workspace managers can either connect it from or import it into other workspaces.
 
 You define the cross-workspace capabilities of a record type when you create or edit a record type. 
 
@@ -101,10 +101,11 @@ You must have the following access to perform the steps in this article:
 
 +++   
 
-
 ## Configure adding a record type to other workspaces
 
-You can configure a record type to be added to other workspaces after it has been created in an existing workspace. 
+As a workspace manager, you can configure a record type to be added to other workspaces when you create or edit a record type. 
+
+When you configure adding a record type to other workspaces, a workspace manager can import the record type and all its information to one of the workspaces they manage.
 
 To configure adding a record type to another workspace when you edit the record type:  
 
@@ -115,9 +116,10 @@ To configure adding a record type to another workspace when you edit the record 
    The workspace page opens and the record types display. 
 1. Do one of the following:
 
-   * Hover over the card of a record type and click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the record type card, then click **Edit**
+   * Hover over the card of a record type and click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the record type card
       Or
-   * Click a record type card to open the record type page, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Edit**. 
+   * Click a record type card to open the record type page, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name.
+1. Click **Edit**.
 
    ![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)
 
@@ -132,7 +134,7 @@ To configure adding a record type to another workspace when you edit the record 
 
    You can add individual users, or groups, teams, job roles, or companies whose users you want to add this record type to the workspaces they manage. 
    
-   You can edit the names of the users with access, after you save the record type. 
+   You can edit this field, after you save the record type. 
 1. (Optional) Remove your name from the **Select who can add this record type to workspaces they manage** field.
 
 1. Click **Save**.
