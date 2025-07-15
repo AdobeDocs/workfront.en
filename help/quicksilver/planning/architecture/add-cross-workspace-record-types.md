@@ -1,10 +1,10 @@
 ---
 title: Add Cross-workspace Record Types
-description: Record types are the object types of Adobe Workfront Planning. In Workfront Planning, you can import an existing record type from another workspace. 
+description: Record types are the object types of Adobe Workfront Planning. In Workfront Planning, you can import an existing record type from another workspace.
 hidefromtoc: yes
 hide: yes
+exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 ---
-
 <!-- add these to the metadata, when making this public: 
 
 feature: Workfront Planning
