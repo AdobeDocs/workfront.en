@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: You can use a Layout Template to configure what users see when they click a task or issue in the Summary. Each configuration you make using the steps below affects the the Summary panel. These customizations don't apply to the Document Summary panel.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
