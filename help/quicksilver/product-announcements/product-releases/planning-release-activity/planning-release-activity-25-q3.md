@@ -16,6 +16,19 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Updated Advanced settings when creating and editing record types
+
+Preview and Production: July 10, 2025
+
+We have updated the Advanced settings tab when creating or editing a record type. 
+
+The following changes were introduced as part of this update: 
+
+* The "Connectivity scope" area has been renamed to "Cross-workspace capabilities"
+* The "Connect from other workspaces" setting has been renamed to "Allow connecting to this record type in other workspaces"
+
+For more information, see [Create record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+
 ## Add notifications for team users when the team is added to a record comment
 
 Preview: July 10, 2025
