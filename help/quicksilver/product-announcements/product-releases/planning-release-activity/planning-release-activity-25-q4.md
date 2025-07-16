@@ -19,8 +19,8 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 ## New fields to display record approval information
 
 Preview: July 17, 2025 
-Prod for fast release: August 14, 2025 
-Prod for all: October 16, 2025 
+Production for fast release: August 14, 2025 
+Production for all: October 16, 2025 
 
 We are introducing the following fields to capture approval information for records created by submitting a request with an approval: 
 
