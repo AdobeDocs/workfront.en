@@ -18,6 +18,18 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+### Interface updates for the Layout Templates page
+
+Preview release: July 17, 2025; Production release: July 24, 2025
+
+We have updated the Layout Templates page with a more modern design that is consistent with other areas of Workfront.
+
+This update includes visual changes to the list of layout templates. No functionality has changed.
+
+To view the change, go to Setup > Interface > Layout Templates.
+
+For information, see [Create and manage layout templates](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
 ### Interface updates to Portfilios tab in a group
 
 **Preview: July 10, 2025; Production for everyone: July 17, 2025**  
