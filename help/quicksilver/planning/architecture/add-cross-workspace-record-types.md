@@ -1,9 +1,9 @@
 ---
-title: Create Record Types Globally
-description: You can designate a record type to be global and use it in multiple workspaces, in Adobe Workfront Planning. You must first define a global record type in a workspace, and then you can import it in other workspaces.
+title: Add Cross-workspace Record Types
+description: Record types are the object types of Adobe Workfront Planning. In Workfront Planning, you can import an existing record type from another workspace.
 hidefromtoc: yes
 hide: yes
-exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
+exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 ---
 <!-- add these to the metadata, when making this public: 
 
@@ -11,22 +11,21 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-
 -->
 
-<!--*******************THIS TITLE MIGHT NEED TO CHANGE WHEN WE HAVE THE FINAL NAME FOR THE "GLOBAL" RECORD TYPE - NOT SURE IF WE ARE GOING TO USE "GLOBAL" OR "DYNAMIC", OR ???? ***************; also update TOC file, the miniTOC,  etc when this is finalized-->
-
-<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
-
-# Create record types globally
+# Add cross-workspace record types
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-You can designate a record type to be global and use it in multiple workspaces, in Adobe Workfront Planning. You must first define a global record type in a workspace, and then you can import it in other workspaces.
+As a workspace manager, you can import or add an existing record type to a another workspace. 
 
-For information about creating record types in Workfront Planning, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
+You must first define the cross-workspace capabilities of a record type before workspace managers can import it into other workspaces.
+
+You define the cross-workspace capabilities of a record type when you create or edit a record type. 
+
+For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). 
 
 ## Access requirements
 
@@ -86,12 +85,7 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table> 
 
@@ -99,10 +93,14 @@ You must have the following access to perform the steps in this article:
 
 +++   
 
-## Create a global record type
+## Considerations when adding existing record types from another workspace
 
-1. Start creating a record type manually, as described in the article [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+* When there are no record types configured to be added to another workspace, the option to import them from another workspace does not display, when creating a record type. <!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
+* After adding the record type from another workspace, the following information is also added from the existing record type:
 
+   * Fields
+   * Records
+   * Record connections
 
 ## Create a record type from an existing global record type
 

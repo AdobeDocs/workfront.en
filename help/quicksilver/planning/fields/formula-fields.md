@@ -9,9 +9,9 @@ exl-id: 5027d611-916e-492d-9a44-841bdde11c94
 ---
 # Formula fields overview
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -25,9 +25,7 @@ For information, see the "Formula" section in the article [Create fields](/help/
 
 +++ Expand to view access requirements. 
 
-You must have the following access to perform the steps in this article:  
-
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -77,14 +75,10 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Manage permissions to a workspace <span class="preview">and record type</span>  </a> </p>  
+   <td>   <p>Manage permissions to a workspace and record type </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> </td> 
-  </tr> 
+ 
 </tbody> 
 </table> 
 
@@ -96,7 +90,7 @@ You must have the following access to perform the steps in this article:
 
 * Formula fields reference fields that belong to the same record type. 
 * You can reference fields from other record types only when you connect another record type to the one you're creating a formula field for. 
-* <span class-"preview">Referencing connected record types or their lookup fields in a formula depends on your permissions to the connected record types. If you have no permissions to view the record type, you cannot reference their fields in a formula. </span>
+* Referencing connected record types or their lookup fields in a formula depends on your permissions to the connected record types. If you have no permissions to view the record type, you cannot reference their fields in a formula. 
 * You cannot change the Field type of a Formula field after you save it. 
 * You can update the calculation of a formula field after you save it, and the results of the calculation update automatically for all the records of the same type. 
 * You must add the fields you reference in formulas as they display in the Workfront Planning interface. 
