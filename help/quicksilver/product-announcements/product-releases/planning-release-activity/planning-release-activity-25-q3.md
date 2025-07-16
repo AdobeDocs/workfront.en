@@ -27,7 +27,7 @@ The following changes were introduced as part of this update:
 * The "Connectivity scope" area has been renamed to "Cross-workspace capabilities"
 * The "Connect from other workspaces" setting has been renamed to "Allow connecting to this record type in other workspaces"
 
-For more information, see [Create record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Add notifications for team users when the team is added to a record comment
 

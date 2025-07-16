@@ -20,7 +20,7 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ### Interface updates for the Layout Templates page
 
-Preview release: July 17, 2025; Production release: July 24, 2025
+**Preview release: July 17, 2025; Production release: July 24, 2025**
 
 We have updated the Layout Templates page with a more modern design that is consistent with other areas of Workfront.
 
