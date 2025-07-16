@@ -118,8 +118,8 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
 
    * You cannot add fields of the following types to a request form:
    
-      * Created by and Last modified by
-      * Created date and Last modified date
+      * Created by and Last modified by <!--Created by, Last modified by, <span class="preview">Approved by</span>-->
+      * Created date and Last modified date <!--Created date, Last modified date, <span class="preview">Approved date</span>-->
       * Formula
       * Workfront objects' lookup fields
       * Workfront Planning connected records' lookup fields
