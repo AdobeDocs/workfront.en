@@ -9,9 +9,9 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 ---
 # Manage the table view
 
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -81,12 +81,7 @@ For information about exporting the table view to an Excel or CSV file, see [Exp
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings, duplicate, <span class="preview">or to export it</span></p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p></td> 
+   <p>View permissions to a view to temporarily change the view settings, duplicate, or to export it</p> </td> 
   </tr> 
 </tbody> 
 </table> 
@@ -107,11 +102,9 @@ When creating a table view, all records of the selected type display in a table.
 
 To manage a table view: 
 
-1. <span class="preview">Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). </span>
+1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
-    <span class="preview">![Table view example](assets/table-view-example.png)
-    
-    </span>
+    ![Table view example](assets/table-view-example.png)
 
 1. (Optional) Click **Row height**, then select from the following options to modify the height of the table rows: 
     * Short
@@ -124,7 +117,7 @@ To manage a table view:
     * [Filters](#add-filters) 
     * [Sort](#add-a-sort) 
     * [Grouping](#add-groupings)
-    * <span class="preview">[Row colors](#add-row-colors)</span>
+    * [Row colors](#add-row-colors)
     * [Real-time presence indicator](#enable-the-real-time-presence-indicator)
 
 
@@ -453,7 +446,7 @@ To add a grouping:
 
     The number of fields selected for the grouping displays next to the Grouping icon. 
 
-    <span class="preview">![Grouping applied in table view](assets/grouping-applied-in-table-view.png)</span>
+    ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
 
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
@@ -464,9 +457,7 @@ To add a grouping:
 1. Click outside the **Group records by** box to close it. 
 1. (Optional) Click **+ New record** at the end of any grouping to add new records, then refresh your page to add the new record to the appropriate grouping. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-1. <span class="preview">To expand or collapse groupings, do one of the following:</span>
-
-    <div class="preview">
+1. To expand or collapse groupings, do one of the following:
 
     1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
 
@@ -480,7 +471,7 @@ To add a grouping:
         * **Expand subgroups**
         * **Collapse subgroups**
 
-        Depending on the number of groupings you apply to the view, some options might not be available.</div>
+        Depending on the number of groupings you apply to the view, some options might not be available.
    
 <!-- this is not available yet: 
 
@@ -490,8 +481,6 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
-
-<div class="preview">
 
 ### Add row colors
 
@@ -527,8 +516,6 @@ To sort grouped records:
 
 1. Click outside the **Row colors** box to close it. The colors are applied automatically.
 
-</div>
-
 ### Enable the real-time presence indicator
 
 The avatars of other users who are editing record information at the same time as you display in the upper-right corner of all record views, by default.
@@ -551,7 +538,7 @@ When you display the table view, you can also view which field another user is e
     >
     >You can select the **Show collaborators** toggle from any view. The field currently edited by others is outlined only in the table view. 
 
-<div class="preview">
+
 
 
 
