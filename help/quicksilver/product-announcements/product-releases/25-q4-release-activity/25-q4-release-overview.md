@@ -30,8 +30,50 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
 
+## Adobe Workfront enhancements
 
+* [Other enhancements](#other-enhancements)
 
+### Other enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Third Quarter 2025 release timeframe</a></p>
+                        <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Third Quarter 2025 release timeframe. </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;Throughout the Third Quarter 2025 release timeframe<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>   
+
+<!--
+### Functionality soon to be removed from Workfront
+
+* 
+-->
 
 ## Interface modernization
 
