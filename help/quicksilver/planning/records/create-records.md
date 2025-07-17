@@ -10,9 +10,9 @@ exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 
 # Create records
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -36,9 +36,7 @@ For information about managing records in the table or timeline views, see the f
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
-
-You must have the following access to perform the steps in this article:  
++++ Expand to view access requirements.  
 
  <table style="table-layout:auto"> 
 <col> 
@@ -91,16 +89,13 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td> <p>Contribute or higher permissions to the workspace <span class="preview">and record type</span> where you want to add records. </p>
-   <p>View or higher permissions to the workspace <span class="preview">and record type</span> to create records using the Request record button on the record page</p>
+   <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records. </p>
+   <p>View or higher permissions to the workspace and record type to create records using the Request record button on the record page</p>
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
    <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
    </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu </p> </td> 
-  </tr> 
+
 </tbody> 
 </table> 
 
@@ -127,7 +122,11 @@ For information about editing record information, see [Edit records](/help/quick
 
 1. (Conditional) From the table view, do one of the following: 
 
-    * Click **New record** in the last row of the table 
+    * Click **New record** in the last row of the table, or after the last record in a grouping
+
+        >[!TIP]
+        >
+        >When you add a new record after the last record in a grouping or subgrouping, Workfront automatically populates the fields included in the groupings. You can manually edit these fields, if needed, and the records might be removed from the grouping.  
 
     * Click **Shift + Enter** on your keyboard from any column or row of the table. This adds an empty row under the record you start from. 
     * Hover over a record's primary field, click the **More** menu ![More menu](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. 
@@ -177,10 +176,10 @@ For information about editing record information, see [Edit records](/help/quick
 
 ## Create records using the New record or Request record button from any record type view
 
-Users with View permissions to the workspace <!--<span class="preview">and record type</span>--> can create records only using the Request record button on the record type page.
+Users with View permissions to the workspace and record type can create records only using the Request record button on the record type page.
 
-Users with Contribute and Manage permissions to the workspace <!--<span class="preview">and record type</span>--> can create records using the New record button on the record type page. 
-<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+Users with Contribute and Manage permissions to the workspace and record type can create records using the New record button on the record type page. 
+
 
 >[!IMPORTANT]
 >
@@ -197,13 +196,13 @@ Users with Contribute and Manage permissions to the workspace <!--<span class="p
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
     All the records of the selected type display in the view. 
 
-1. (Conditional) From any view, click of the following in the upper-right corner of your screen, depending on the workspace <!--<span class="preview">and record type</span>--> permissions:
+1. (Conditional) From any view, click of the following in the upper-right corner of your screen, depending on the workspace and record type permissions:
 
-    * Click **New record**, if you have Contribute or higher permissions on the workspace <!--<span class="preview">and record type</span>--> 
+    * Click **New record**, if you have Contribute or higher permissions on the workspace and record type
 
         Or
 
-    * Click **Request record**, if you have View permissions on the workspace <!--<span class="preview">and record type</span>-->. 
+    * Click **Request record**, if you have View permissions on the workspace and record type. 
 
 1. (Conditional) If you clicked **New record**, do the following:
 

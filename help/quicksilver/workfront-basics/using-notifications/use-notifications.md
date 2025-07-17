@@ -27,7 +27,7 @@ This section contains the following articles:
    <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-basics/using-notifications/opt-out-of-email-notifications.md" class="MCXref xref" xrefformat="{para}">Opt out of email notifications</a> </li>
   -->
-
+* [Event notification: article index](/help/quicksilver/workfront-basics/using-notifications/event-notifications-article-index.md)
 * [Notifications: Action needed](../../workfront-basics/using-notifications/notifications-action-needed.md)
 * [Notifications: Approval information](../../workfront-basics/using-notifications/notifications-approval-information.md)
 * [Notifications: Communication](../../workfront-basics/using-notifications/notifications-communication.md)

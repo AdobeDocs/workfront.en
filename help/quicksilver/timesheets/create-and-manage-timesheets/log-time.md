@@ -15,6 +15,17 @@ exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
+<!--
+<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div>
+
+-->
+
 You can log time for work items in Adobe Workfront to indicate the number of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
 
 For more information about the type of hours you can log in Workfront, see [Manage hour types](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
@@ -22,8 +33,6 @@ For more information about the type of hours you can log in Workfront, see [Mana
 ## Access requirements
 
 +++ Expand to view access requirements.
-
-You must have the following access to perform the steps in this article and log Project Specific hours:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -338,11 +347,25 @@ Additionally, to log time for an item in the My Work widget:
 1. (Optional) Select a task, issue, or request in a list, then click **Work On It**.
 1. Hover over the task or issue you want to log time for, then click the **Log Time** icon ![](assets/log-time-icon-in-new-home.png) to the right of the task information.
 
-   ![](assets/log-time-ui-for-task-from-new-home.png)
+   The **Log time** box displays.
+
+   ![Log time box for a task in Home](assets/log-time-ui-for-task-from-new-home.png)
+
+1. Specify the following information:
+
+   * **Hour Type**: Select an Hour Type from the drop-down menu, if it is different from the one displayed by default.
+
+     Depending on what hour types are configured in your system, the options here might vary. For more information about configuring hour types, see [Define hour types and availability](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+
+   * **Job Role**: (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a **Job Role** from the drop-down menu. The Role specified when you are assigned to the object displays by default. If you are not assigned a Role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+   * In the weekly calendar, enter the number of hours for the project, task, or issue. 
 
 1. Click **Log time**.
 
    The logged time displays in the object's Hours section, and in your timesheet. 
+
+   The **Total Hours** field in the Log time box displays all hours logged for the project, task, or issue by all users. 
 
 <!--#### Log time on a work item from the legacy Home area
 
@@ -389,7 +412,7 @@ To log time in the Updates section of a project, task, or issue:
    >   
    >   There is an indication in the upper-right corner of the Enter Days box of how many hours are included in a day. 
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   ![Log time  ox for a task in the Updates area](assets/log-time-box-in-updates-stream.png)
 
 1. Specify the following information:
 
@@ -399,11 +422,13 @@ To log time in the Updates section of a project, task, or issue:
 
    * **Job Role**: (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a **Job Role** from the drop-down menu. The Role specified when you are assigned to the object displays by default. If you are not assigned a Role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-   * **Hours**: Enter the number of hours for the project, task, or issue.
+   * In the weekly calendar, enter the number of hours for the project, task, or issue.
 
 1. Click **Log time**.
 
-   The logged time displays in the object's Hours section, nad in your timesheet. 
+   The logged time displays in the object's Hours section, and in your timesheet. 
+
+   The **Total Hours** field in the Log time box displays all hours logged for the project, task, or issue by all users. 
 
 #### Hours section{#hours-section}
 
@@ -423,7 +448,13 @@ To log time in the Hours section of a project, task, or issue:
 1. In the left panel, click **Hours**.
 1. Click **Log Time**.
 
-   The Log Hours dialog box displays.
+   The **Log Time** box displays.
+
+   <!--<div class="preview">
+  
+   ![Log time in the Hours section of a task](assets/log-time-box-in-hours-section-on-task.png)
+
+   </div>-->
 
 1. Specify the following information:
 
@@ -432,14 +463,19 @@ To log time in the Hours section of a project, task, or issue:
    
    * **Hour Type**: Select an Hour Type from the drop-down menu, if it is different from the one displayed by default.
 
-     Depending on what hour types are configured in your system, the options here might vary. For more information about configuring hour types, see [Define hour types and availability](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     Depending on what hour types are configured in your system, the options here might vary. 
+     
+     For more information about configuring hour types, see [Define hour types and availability](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Job Role**: (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a **Job Role** from the drop-down menu. The Role specified when you are assigned to the object displays by default. If you are not assigned a Role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * **Hours**: Enter the number of hours for the project, task, or issue. <!--<span class="preview">In the weekly calendar, enter the number of hours for the project, task, or issue.</span>-->
+   * **Note**: Add a note to explain what the hours are for. This is saved as an **Hour Note** or an **Hour Description**. 
 
-     ![](assets/log-time-box-in-hours-section-on-task.png)
-   * **Hours**: Enter the number of hours for the project, task, or issue.
+1. Click **Log time**.
 
-1. Click **Log Time**.
+   The logged time displays in the object's Hours section, and in your timesheet. 
+
+   The **Total Hours** field in the Log time box displays all hours logged for the project, task, or issue by all users. 
 
 ### Summary panel
 

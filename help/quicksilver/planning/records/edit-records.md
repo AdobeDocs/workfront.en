@@ -10,9 +10,9 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 
 # Edit records
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -30,9 +30,7 @@ For information about creating records, see [Create records](/help/quicksilver/p
 
 +++ Expand to view access requirements.
 
-You must have the following access to perform the steps in this article:  
-
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -82,14 +80,10 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>  <p>Contribute or higher permissions to a workspace <span class="preview">and record type</span> </a> </p>  
+   <td>  <p>Contribute or higher permissions to a workspace and record type </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p></td> 
-  </tr> 
+
 </tbody> 
 </table> 
 
@@ -133,6 +127,10 @@ You can edit a record from the following areas:
 When you edit records from the table view, there is an indication which field is being edited by other users at the time you are viewing the record. 
 
 For more information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+
+When you add a new record after the last record in a grouping or subgrouping, Workfront automatically updates the fields included in the groupings for the new records. You can manually edit these fields, if needed, and the records might be removed from the grouping. 
+
+For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
 
 {{step1-to-planning}}
 

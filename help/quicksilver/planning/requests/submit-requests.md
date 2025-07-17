@@ -3,7 +3,7 @@ title: Submit Adobe Workfront Planning requests
 description: After someone shares a link to a request form with you from a record type page in Adobe Workfront Planning, you can add a request to create records for the record type associated with the request form.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 ---
@@ -35,8 +35,6 @@ For information about how a workspace manager can create a request form and asso
 ## Access requirements
 
 +++ Expand to view access requirements. 
-
-You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto">
  <col>
@@ -90,20 +88,8 @@ You must have the following access to perform the steps in this article:
 <tr>
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
-   <p>View or higher permissions to a workspace <span class="preview">and record type</span>, if you are a Workfront user</p> 
+   <p>View or higher permissions to a workspace and record type, if you are a Workfront user</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>To access the Planning area in Workfront, you must be have the following layout template configuration: </p>
-<ul>
-<li><p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes  Planning.</p></li>
-<li><div class="preview">
-<p> In the Preview environment, users with a Light or Contributor license must be assigned a layout template that includes Planning.
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
-   
-<p> However, accessing the Planning area is not required to submit requests to Workfront Planning. </p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -220,8 +206,6 @@ The following must be in place before you can submit a request to a Workfront Pl
          All the requests you have access to view that were submitted to a Planning request form display in a list. 
 1. (Optional) Do any of the following:
 
-   <div class="preview">
-
    * Click **Filters** and start adding conditions for what requests you want to view in the Planning tab. 
 
       ![Editing filters in the Planning requests tab](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -233,7 +217,7 @@ The following must be in place before you can submit a request to a Workfront Pl
       * **Entry date**: The date when the request was submitted.
       * **Request form**: The name of the request form used to submit the request.
       * **Status**: The status of the request.
-      * **Entered by**: The name of the user who added the request. If the request was added with someone outside of Workfront, the **Entered by** field shows `N/A`.
+      * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
 
          You can have multiple filters joined by either **And** or **Or**.
          The request list is filtered automatically, as you add the filter conditions. 
@@ -254,8 +238,6 @@ The following must be in place before you can submit a request to a Workfront Pl
       The request details page opens. 
    
       ![Request details page](assets/request-details-page.png)             
-      
-   </div>
       
 
 1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
@@ -299,13 +281,15 @@ The following must be in place before you can submit a request to a Workfront Pl
       >[!IMPORTANT]
       >
       >All users who have access to at least one workspace can view the Planning tab in the Requests area. You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. <!--ensure this is correct; asking team in slack-->
-
+   
    * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
    * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
 
       >[!NOTE]
       >
       >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
+   
+   * <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>
 
 1. (Optional) Click **View your request** to open the request in Workfront.
 

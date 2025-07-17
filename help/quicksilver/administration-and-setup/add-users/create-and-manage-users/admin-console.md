@@ -172,7 +172,7 @@ You must add a user to your Production instance of Workfront before you can make
 1. With the **Users** tab selected above the list, select **Add User**.
 1. In the **Add users to this product profile** box, enter the email address or name of a user you want to add, then select **Save**.
 
-   The user is created in Workfront with the Requestor access level.
+   The user is created in Workfront with the Requestor or Contributor access level, depending on your organization's Workfront package.
 
    >[!IMPORTANT]
    >

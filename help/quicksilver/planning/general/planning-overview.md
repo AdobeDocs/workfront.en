@@ -13,9 +13,9 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 >[!IMPORTANT]
 >
@@ -160,14 +160,13 @@ The following features are currently available in Workfront Planning:
 
 After your organization purchases a Workfront Planning package, as a Workfront administrator, you must ensure the following are in place before users can access Workfront Planning:
 
-* Depending on what environment you use, assign the following users a layout template that includes Planning in the Main Menu:
+* Assign the following users a layout template that includes Planning in the Main Menu:
 
-    * In the Production environment, assign the template to all users of all license types, including System Administrators. 
-
-    * <span class="preview">In the Preview environment, assign the template to Light and Contribute users. Standard users and System Administrators have Planning enabled by default. </span>
+    * Assign the layout template to Light and Contribute users. 
+    
+        Standard users and System Administrators have Planning enabled by default.
     
     For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) and [Assign users to a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md). 
-
 
 * Assign users a Workfront license and Workfront Planning permissions that would allow them to either view or create objects in Workfront Planning. For more information about granting access to and enabling others to use Workfront Planning, see [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 
@@ -271,12 +270,14 @@ The following are the main Workfront Planning objects and concepts:
     * A record type and a Workfront project, program, portfolio, company, or group object type. 
     * A record type and an Adobe Experience Manager asset or folder. 
 
-        You must have an Adobe Experience Manager license to link record types with Experience Manager objects.
+        You must have an Adobe Experience Manager license to connect record types with Experience Manager objects.
 
         ![New connection tab with Workfront AEM options](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
     After you establish a connection between the record types, you can connect individual records or objects of those types to one another. The connection between the records displays as a connected record field, or a connection.
+
+    Connecting record types is helpful when you have several types of work objects affecting one another. For example, you might work with campaigns and each campaign might cater to multiple brands. To indicate this relationship, you can connect campaigns to brands. Additionally, the work for each campaign might be planned out in multiple projects in Workfront. To indicate this, you can connect the campaigns to the relevant projects. Connecting record types, and subsequently connecting individual records achieves this relationship in Workfront Planning. 
 
 * **Lookup fields** (or linked fields): After you establish the connection between two record types and you connect individual records together, you can reference the fields from the connected records from the record you are connecting from.
 
@@ -293,7 +294,7 @@ The following are the main Workfront Planning objects and concepts:
     >* Last modified by
     >* Workfront typeahead fields (including fields like Project Owner, or Project Sponsor)
 
-    For information about linking record types, records, and creating linked fields, see the following articles:
+    For information about connecting record types, records, and creating linked fields, see the following articles:
 
     * [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
     * [Connect records](/help/quicksilver/planning/records/connect-records.md)
@@ -392,5 +393,5 @@ For an up-to-date list of released features, see [Adobe Workfront Planning relea
 
 * [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md): The goal for the Adobe Workfront Planning API is to simplify building integrations with Planning by introducing a REST-ful architecture that operates over HTTP.
 
-* **Workfront Planning reporting capabilities**: You can now view Workfront Planning information in a report in Workfront using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+* **Workfront Planning reporting capabilities**: You can now view Workfront Planning information in a report in Workfront using the Workfront Canvas Dashboard. For information, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 

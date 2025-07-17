@@ -9,7 +9,7 @@ exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
 ---
 # Create and edit risks on projects
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -38,27 +38,30 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td> 
-   <p>Any</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> <p>Current plans:</p>
+   <ul><li>Any plan, to add risks in the Risks area of the project</p></li>
+   <li><p>Prime or higher, to add risks in the project's Business Case</p></li></ul>
+   <p>Legacy plans: Any plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Standard </p>
-   <p>Current: Plan </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> <p>Current: Standard </p>
+   <p>Legacy: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td role="rowheader"><p>Access level configurations</p></td> 
    <td> <p>Edit access to Projects and Financial  Data</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
    <td> <p> Manage permissions that include Manage Finance on the project for which you want to create or edit risks </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

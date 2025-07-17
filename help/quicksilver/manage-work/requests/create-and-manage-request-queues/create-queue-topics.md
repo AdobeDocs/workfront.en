@@ -149,10 +149,8 @@ For more detail about the information in this table, see [Access requirements in
      <tr> 
       <td role="rowheader"><strong>Request Types</strong> </td> 
       <td> <p>Choose what kind of requests this queue topic stores. The visible options are set on the <strong>Queue Details</strong> tab of the project. This is a required field. </p> 
-      
-      <p><b>NOTE</b>:
-
-      Types display as a selection in the Requests area only if the Request Type is selected in both the Queue Details and the Queue Topic pages. For information about setting up the Queue Details area of a project, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. </p> <p>Select from the following types:</p> 
+       <p><b>NOTE</b>:</p>
+      <p>Types display as a selection in the Requests area only if the Request Type is selected in both the Queue Details and the Queue Topic pages. For information about setting up the Queue Details area of a project, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. </p> <p>Select from the following types:</p> 
        <ul> 
         <li>Bug Report</li> 
         <li>Change Order</li> 

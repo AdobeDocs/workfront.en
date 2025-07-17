@@ -10,9 +10,9 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 
 # Connect record types
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -21,6 +21,8 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
 
 You can connect record types to one another or you can connect record types with object types from other applications. 
+
+Connecting record types is helpful when you have several types of work objects affecting one another. For example, you might work with campaigns and each campaign might cater to multiple brands. To indicate this relationship, you can connect campaigns to brands. Additionally, the work for each campaign might be planned out in multiple projects in Workfront. To indicate this, you can connect the campaigns to the relevant projects. Connecting record types, and subsequently connecting individual records achieves this relationship in Workfront Planning. 
 
 This article describes how you can connect two Workfront Planning record types, or a Workfront Planning record type with an object from another application. 
 
@@ -38,9 +40,7 @@ For an example of connecting record types and records, see [Example of connectin
 
 +++ Expand to view access requirements. 
 
-You must have the following access to perform the steps in this article:  
-
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -98,11 +98,7 @@ You must have the following access to perform the steps in this article:
    <td>   <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p></td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p></td> 
-  </tr> 
+ 
 </tbody> 
 </table> 
 
@@ -142,7 +138,7 @@ You must have the following access to perform the steps in this article:
     
         >[!TIP]
         >
-        >The **Connect from other workspaces** setting must be enabled for a record type in the **Advanced settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
+        >The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the **Advanced settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
         > ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
 
         For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
@@ -191,14 +187,13 @@ You must have the following access to perform the steps in this article:
 
      * **Select lookup fields**: Select this option to add fields from the selected record type. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are linking from. This is selected by default. 
 
-        >[!TIP]
-        >
-        > You cannot add the following field types as lookup fields:
-        >
-        >    * People
-        >    * Created by
-        >    * Last modified by
-        >    * Workfront typeahead fields (including fields like Project Owner, or Project Sponsor)
+    >[!TIP]
+    >
+    >* You cannot add Workfront typeahead fields (including fields like Project Owner, or Project Sponsor) as lookup fields.
+    >
+    >* Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
+    >
+    >   For example, if a project's Planned Start Date displays as 3:00 PM in Workfront, it will display as 15:00 in Workfront Planning in an imported lookup field. 
 
 1. (Conditional and optional) If you selected to connect a Workfront object, select a **Custom form** from the **Link only objects that match these criteria** section. Only objects that have the selected custom forms attached can be linked to the selected record type. You can select more than one form.  
 
@@ -247,11 +242,19 @@ You must have the following access to perform the steps in this article:
     >[!IMPORTANT]
     >
     >    Everyone with View or higher permissions to the workspace can view the information in the linked fields, regardless of their permissions or access level in the application of the linked object types.
-    
-    
+
 1. (Optional) Click **Skip** to skip adding fields from the linked record or object type. The name or Primary field of the linked record is the only visible field in the table view of the record type you connect from. 
 
-1. (Optional and conditional) If you select to link a number, currency, percentage, or date-type field, also select an aggregator value to summarize multiple values. The values for the linked fields display either separated by commas or as a summarized value according to the aggregator you choose, when users select more than one linked record in the linked record field. 
+1. Choose an aggregator for the lookup fields you add. 
+
+    >[!NOTE]
+    >
+    >You cannot add aggregators for the following field types:
+    >
+    >    * Paragraph
+    >    * Checkbox
+
+    The values for the linked fields display either separated by commas or as a summarized value according to the aggregator you choose, when users select more than one linked record in the linked record field. 
 
     If the lookup field contains multiple values that are not summarized, consider the following when using the field in sorting or grouping in a view:  
 
@@ -259,11 +262,11 @@ You must have the following access to perform the steps in this article:
 
     * Records are grouped by each unique combination of field values 
 
-    * The timeline view is built based on the first date value
+    * The timeline view is built based on the first date value of the connected record type, when it displays in the view
 
     >[!IMPORTANT]
     >
-    >    You must select an aggregator value when adding lookup date fields, if you want the fields to be available to add as Start and End Dates for the timeline and calendar views. For example, you can select the MAX or the MIN aggregator for a lookup date field. 
+    > You must select an aggregator value when adding lookup date fields, if you want the fields to be available to add as Start and End Dates for the timeline and calendar views. For example, you can select the MAX or the MIN aggregator for a lookup date field. 
 
     ![Aggregator drop down for linked number field](assets/aggregator-drop-down-for-number-linked-field.png)  
 

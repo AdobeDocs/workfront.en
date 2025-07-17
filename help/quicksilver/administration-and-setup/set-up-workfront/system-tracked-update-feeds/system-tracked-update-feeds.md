@@ -3,23 +3,16 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
-title: System-Tracked Updates
+title: System-Tracked Updates Overview
 description: Adobe Workfront captures the activity taking place on certain objects by logging status information in the object's [!UICONTROL Updates] area.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
 ---
-# System-tracked updates
+# System-tracked updates overview
 
-<!-- Audited: April, 2024-->
-
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
+<!-- Audited: 06/2025-->
 
 [!DNL Adobe Workfront] captures the activity taking place on certain objects by logging status information in the object's [!UICONTROL Updates] section. 
 
@@ -69,7 +62,7 @@ System-tracked updates are not available for all the objects that have the Updat
    * [!UICONTROL Iteration] 
    * [!UICONTROL Goal]
 
-      You must have an additional license to have access to the [!UICONTROL Goals] area. For information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+      Not all Workfront packages include Workfront Goals. For information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
    * [!UICONTROL Card] on a board
 
       For more information on updates on cards, see [Use connected cards on boards](../../../agile/get-started-with-boards/connected-cards.md). 

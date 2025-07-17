@@ -9,15 +9,13 @@ exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
 ---
 # Define Request Types for a project
 
-You can organize the kind of issues or requests that are logged in Adobe Workfront by Request Types.
+<!-- Audited: 6/2025 -->
 
-This organization is useful for reporting reasons and for helping users understand what kind of unexpected work might occur during the lifetime of a project.
+You can organize the kind of issues or requests that are logged in Adobe Workfront by Request Types. This is useful for reporting reasons and helping users understand what kind of unexpected work might occur during the lifetime of a project.
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +29,6 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Adobe Workfront license</td> 
    <td>
     <p>New: Standard</p>
-    <p>or</p>
     <p>Current: Plan</p></td>  
   </tr> 
   <tr> 
@@ -53,13 +50,13 @@ For more detail about the information in this table, see [Access requirements in
 
 Before you begin, you must do the following: 
 
-* Have or create a project
+* Have or create a project.
 
   For information about creating projects, see [Create a project](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Considerations about Request Types
 
-* You can specify the type of issues or requests that can be logged on a project when you configure the **Queue Details** area for the project.
+* You can specify the type of issues or requests that can be logged on a project when you configure the Queue Details area for the project.
 * You don't have to enable the project to be a request queue to be able to define Request Types for a project. Any issues logged for a project can be labeled with a different Request Type. 
 * If you add Queue Topics to your project, you must define Request Types on each queue topic to display it when adding a new issue or request. For more information, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
@@ -67,25 +64,17 @@ Before you begin, you must do the following:
 
 {{step1-to-projects}}
 
-1. Click the name of the project to open it.
+1. On the **Projects** page, select a project.
 1. In the left panel, click **Queue Details**. 
-1. In the **Queue Properties** section, select the **Request Types** you want for the project.
-
-   >[!NOTE]
-   >
-   >You must have at least one request type selected. You can select multiple request types.
-
-   Select from the following types:
-
+1. In the **Queue Properties** section, select the **Request Types** you want for the project:
    * Bug Report
    * Change Order
    * Issue
    * Request
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >Your Workfront administrator might have renamed some of these options. For information, see [Configure request types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
+   >* You must have at least one request type selected. You can select multiple types.
+   >* Your Workfront administrator might have renamed some of these options. For information, see [Configure request types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
 
-1. Click **Save**.
-
-   The request types you specified will be available to select when you enter a new issue on a task or a project, or when you submit a new request to the project, if the project is enabled as a request queue.
+1. Click **Save**. The request types you specified will be available to select when you enter a new issue on a task or a project, or when you submit a new request to the project (if the project is enabled as a request queue).
