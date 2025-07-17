@@ -33,7 +33,31 @@ Note: The integration must be enabled for your accounts by the Adobe Product Tea
 For more information, see [Get started with the Adobe Express and Workfront Proof integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
 -->
 
+## Unified Approvals Phased Rollout
+
+>[!NOTE]
+>
+>Production release for customers: Phased rollout starting July 17,2025
+
+
+We are enabling Unified Approvals, previously known as New Document Approvals, in a phased rollout. This functionality will be enabled automatically in your Workfront instance over the next six months. 
+
+Unified Approvals replaces Legacy document approvals and provides the following functionality directly on a document:
+
+* Designate an entire Workfront team as either reviewers or approvers
+* Set a deadline for the review or approval
+* Create and resuse approval templates
+* Utilize new versions
+* View multiple key performance indicators for your approvals in Workfront Home widgets
+* Use Canvas Dashboards to view reporting details about Unified Approvals
+
+For more information see [Unified Approvals Overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+
 ## Desktop Proofing Viewer Update
+
+>[!NOTE]
+>
+>* Production release for all customers: June 16, 2025
 
 The Desktop Proofing Viewer has been updated to version 2.1.50.
 

@@ -18,7 +18,11 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 
 ## Updated Advanced settings when creating and editing record types
 
-Preview and Production: July 10, 2025
+>[!NOTE]
+>
+>Preview: July 10, 2025
+>Production for everyone: July 10, 2025
+
 
 We have updated the Advanced settings tab when creating or editing a record type. 
 
@@ -31,8 +35,10 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
 ## Add notifications for team users when the team is added to a record comment
 
-Preview: July 10, 2025
-Production for everyone: July 10, 2025
+>[!NOTE]
+>
+>Preview: July 10, 2025
+>Production for everyone: July 10, 2025
 
 Now, when you add a team to a record comment in Workfront Planning, all members of the team receive both an in-app and an email notification about the comment. Prior to this enhancement, only users added to comments individually were notified .  
 
@@ -40,9 +46,12 @@ For information, see Manage record comments [Manage record comments](/help/quick
 
 ## Auto-populate fields based on applied groupings
 
-Preview: July 10, 2025 
-Production fast release: August 14, 2025 
-Production for everyone: October 16, 2025 
+>[!NOTE]
+>
+>Preview: July 10, 2025 
+>Production fast release: August 14, 2025 
+>Production for everyone: October 16, 2025 
+
 
 Now, when you have  groupings applied to a table view, adding a record to the table will auto-populate the fields associated with the groupings you add the record to.  
 
@@ -56,8 +65,8 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 
 >[!NOTE]
 >
->* Preview: July 9, 2025 
->* Production for everyone: July 17, 2025 
+>Preview: July 9, 2025 
+>Production for everyone: July 17, 2025 
 
 You can now share a view as well as a record type from the same button on the record type's page. Prior to this enhancement, you could only share the record type from the Share button on the record type page and a view from the view's tab.  
 

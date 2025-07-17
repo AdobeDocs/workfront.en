@@ -52,33 +52,26 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
-        <tr>
+    <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Express and Workfront Proof integration</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>We are excited to announce a new integration between Adobe Express and Workfront Proof.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Unified Approvals Phased Rollout</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>We are enabling Unified Approvals, previously known as New Document Approvals, in a phased rollout. This functionality will be enabled automatically in your Workfront instance over the next six months.</p>
+            <p>Unified Approvals replaces Legacy document approvals and provides the new functionality. 
+</p>
         </td>
-        <td>June 13, 2025</td>
-        <td>June 13, 2025</td>
-        <td>June 13, 2025</td>
+        <td>Phased rollout starting July 17,2025</td>
+        <td>Phased rollout starting July 17,2025</td>
+        <td>Phased rollout starting July 17,2025</td>
     </tr> 
-    <!--<tr>
+    <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer Update</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>The Desktop Proofing Viewer has been updated to version 2.1.50. This update includes internal tooling updates and does not impact end-user functionality.
-            <ul>
-            <li>Streamline collaboration between creative, legal, and compliance teams to reduce time-to-publish while maintaining oversight</li>
-            <li>Conduct deep reviews using drawing markups, annotations, and commenting with the Workfront proofing viewer</li>
-            <li>Meet enterprise compliance standards with electronic signatures and full audit logs</li>
-            <li>Require approval on any remixed files from an Express branded template</li>
-            <li>Map an Express template to a multi-stage review and approval workflow using advanced proof templates</li>
-            </ul>
-            <p>Note: The integration must be enabled for your accounts by the Adobe Product Team.</p>
-            </p>
         </td>
-        <td>July 17, 2025</td>
-        <td>July 17, 2025</td>
-        <td>July 17, 2025</td>
-    </tr> -->
+        <td>June 16, 2025</td>
+        <td>June 16, 2025</td>
+        <td>June 16, 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New Proofing and GenStudio for Performance Marketing integration</a>
