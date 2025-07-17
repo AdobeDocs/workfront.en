@@ -20,6 +20,13 @@ You can call the planning API from an External lookup field in a Workfront custo
 
 For more information on External lookup fields, see [Examples of the External lookup field in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
+>[!NOTE]
+>
+>Users must be added to the Adobe Admin Console to be accessible in API calls. Workfront-only users cannot be accessed using the Adobe Planning API. 
+>
+>For information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
+
+
 ## Workfront Planning API URL 
 
 <!--For more details and examples of each operation, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).-->

@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 ---
 # Adobe Workfront Planning: article index
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -45,12 +45,7 @@ The following sections contain articles that describe in detail the features cur
     * Planning sharing permissions
     * Share views
     * Share workspaces (records and fields)
-    
-    <div class="preview">
-
-    * Share record types
-
-    </div>
+    * Share record types (records and fields)    
 
 * [Architecture: article index](/help/quicksilver/planning/architecture/architecture-information.md) contains the following information:
 
@@ -104,6 +99,8 @@ The following sections contain articles that describe in detail the features cur
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
     -->
+
+* [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md): You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. 
 
 * **Workfront Planning reporting capabilities**: You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
