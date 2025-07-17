@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-
+exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
 ---
 # Fourth Quarter 2025 release activity for Adobe Workfront Planning
 
@@ -56,4 +56,3 @@ To make the approval process more flexible, we've added the ability to add teams
 Previously, only individual users could be assigned as approvers. 
 
 For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
-
