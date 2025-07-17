@@ -23,9 +23,7 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
 
 +++ Expand to view access requirements. 
 
-You must have the following access to perform the steps in this article:  
-
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 

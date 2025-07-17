@@ -10,9 +10,9 @@ exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
 
 # Adobe Workfront Planning access information: article index
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -26,10 +26,6 @@ The following articles contain information about what access your users need to 
 * [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md)
 * [Share views](/help/quicksilver/planning/access/share-views.md)
 * [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
-<div class="preview">
-
 * [Share record types](/help/quicksilver/planning/access/share-record-types.md)
-
-</div>
 
 

@@ -30,9 +30,7 @@ For information about creating records, see [Create records](/help/quicksilver/p
 
 +++ Expand to view access requirements.
 
-You must have the following access to perform the steps in this article:  
-
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 

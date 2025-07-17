@@ -1,7 +1,7 @@
 ---
 title: Adobe Workfront Planning AI Assistant Overview
 description: You can use the AI assistant to generate, update, or remove records based on the current page context and record structure. The user's commands and the AI's execution of those commands work together to ensure that changes made by the AI are accurately reflected in your environment.
-author: Alina
+author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
