@@ -9,6 +9,16 @@ exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
 ---
 # Create, edit, and assign timesheet profiles
 
+<!--Audited: 06/2025-->
+
+<!--<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div> -->
+
 You can create, edit, and assign timesheet profiles that generate recurring timesheets for your users without any further intervention from you. This saves you time and ensures that the following are consistent between users:
 
 * Timesheet time frame 
@@ -32,20 +42,20 @@ You must have the following to perform the steps in this article:
    <td> <p>Any</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>New: Standard </p>
  <p>or</p> 
 <p>Current: Plan </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>You must have administrative access to Timesheets. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,18 +70,18 @@ For more detail about the information in this table, see [Access requirements in
 
 >[!IMPORTANT]
 >
->To enable timesheet profile changes in current timesheets, you have to delete the existing timesheets and then generate new ones. For instructions, see [Delete timesheets in Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) and [Manually generate timesheets](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+>To enable timesheet profile changes in current timesheets, you have to delete the existing timesheets before making the changes to the timesheet profiles, and then generate new timesheets. For instructions, see [Delete timesheets in Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) and [Manually generate timesheets](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 {{step-1-to-setup}}
 
-1. If you are creating or editing a timesheet profile for use throughout the system, click **Timesheet & Hours**.
+1. If you create or edit a timesheet profile for use throughout the system, click **Timesheet & Hours**.
 
    Or
 
-   If you creating or editing a timesheet profile for a group, click **Groups**, then click the group's name.
+   If you create or edit a timesheet profile for a group, click **Groups**, then click the group's name.
 
 1. Click **Timesheet Profiles**.
-1. To create a new timesheet profile, click **New Profile**.
+1. To create a timesheet profile, click **New Profile**.
 
    Or
 
@@ -80,12 +90,25 @@ For more detail about the information in this table, see [Access requirements in
    The new or existing timesheet profile displays.
 
 
-1. On the **Set Details** tab, type a **Name** and **Description** for the timesheet profile and supply the following information:
+1. Click the **Set Details** tab, then update the following information: 
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Name</strong> </td> 
+      <td> <p> Add a name for the timesheet profile. It could be the name of a team or a group whose people share the same timeframe for their timesheets. </p> </td> 
+     </tr> 
+
+     <tr> 
+      <td role="rowheader"><strong>Description</strong> </td> 
+      <td> <p> Add more information about the timesheet profile.     
+      </p> </td> 
+     </tr>
+
+
+
      <tr> 
       <td role="rowheader"><strong>Group with Administration Access</strong> </td> 
       <td> <p> 
@@ -142,6 +165,12 @@ For more detail about the information in this table, see [Access requirements in
       <td><p>This setting refers only to General Hour Types, and not to project-specific hour types. </p>
       <p>By default, users see all general hours on a timesheet. However, if your organization wants only specific general hours to be shown for a particular set of users, you can select the general hours that they need to see in their timesheets by selecting them in their timesheet profile in this field. If you want to disable all general hours, deselect all hour types to generate the timesheet without a section for general hours.</p></td> 
      </tr> 
+
+     <tr> 
+      <td role="rowheader"><strong>Reminder notifications</strong> </td> 
+      <td> <p> Add a reminder notification. Workfront will send reminders to users to ask them to complete or approve their timesheets. You must create reminder notifications before you can associate them with a timesheet profile.  </p> </td> 
+     </tr>
+
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span style="font-weight: bold;">Overtime</span> </td> 
       <td>You can choose to hide the Overtime box in timesheets. This option is disabled by default.</td> 

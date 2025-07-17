@@ -16,6 +16,136 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Updated Advanced settings when creating and editing record types
+
+>[!NOTE]
+>
+>Preview: July 10, 2025
+>Production for everyone: July 10, 2025
+
+
+We have updated the Advanced settings tab when creating or editing a record type. 
+
+The following changes were introduced as part of this update: 
+
+* The "Connectivity scope" area has been renamed to "Cross-workspace capabilities"
+* The "Connect from other workspaces" setting has been renamed to "Allow connecting to this record type in other workspaces"
+
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+
+## Add notifications for team users when the team is added to a record comment
+
+>[!NOTE]
+>
+>Preview: July 10, 2025
+>Production for everyone: July 10, 2025
+
+Now, when you add a team to a record comment in Workfront Planning, all members of the team receive both an in-app and an email notification about the comment. Prior to this enhancement, only users added to comments individually were notified .  
+
+For information, see Manage record comments [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md).  
+
+## Auto-populate fields based on applied groupings
+
+>[!NOTE]
+>
+>Preview: July 10, 2025 
+>Production fast release: August 14, 2025 
+>Production for everyone: October 16, 2025 
+
+
+Now, when you have  groupings applied to a table view, adding a record to the table will auto-populate the fields associated with the groupings you add the record to.  
+
+If you have multiple groupings applied, the system auto-populates the fields associated with all groupings only when you add the record at the end of the list inside the last grouping criteria.  
+
+Prior to this enhancement, you had to manually update the fields associated with groupings.  
+
+For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+## Common sharing button for views and record types
+
+>[!NOTE]
+>
+>Preview: July 9, 2025 
+>Production for everyone: July 17, 2025 
+
+You can now share a view as well as a record type from the same button on the record type's page. Prior to this enhancement, you could only share the record type from the Share button on the record type page and a view from the view's tab.  
+
+For more information, see the following articles: 
+
+* [Share views](/help/quicksilver/planning/access/share-views.md)  
+
+* [Share record types](/help/quicksilver/planning/access/share-record-types.md)
+
+<!--## Add teams as approvers on Planning request forms
+
+>[!NOTE]
+>
+>* Preview: July 9, 2025 
+>* Production for everyone: October 16, 20025 
+
+To make the approval process more flexible, we've added the ability to add teams as approvers on Planning request forms. Now, you can enter and select team names when setting approvers. Any of the team members can make a decision, which counts as the approval decision for the entire team.
+
+Previously, only individual users could be assigned as approvers. 
+
+For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
+
+## Updated experience when sharing a request form
+
+>[!NOTE]
+>
+>* Preview: July 9, 2025 
+>* Production for everyone: July 17, 2025 
+
+To make the experience when sharing a request form in Workfront Planning more secure and simple, we've made the following changes:
+
+* We've separated the Share form dialog into internal sharing (selecting who to share with) and public sharing (creating a share link).
+* You can now share request forms with the following:
+
+   * Users
+   * Teams
+   * Groups
+   * Companies
+   * Job roles
+   
+   Previously, you could only share based on workspace access or by sharing a link.
+* We've removed inherited permissions for request forms. Now, the request form is shared only with those you select.
+* We've removed manage and contribute options for users that you share the request form with. Now, added users can only submit the form.
+* The public sharing tab now displays the link and expiration date field after the Create public link option has been enabled.
+
+For more information, see [Create and manage a request form in Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+
+## Expand and collapse all groupings in the table view
+
+>[!NOTE]
+>
+>* Preview: June 26, 2025 
+>* Production for everyone: July 17, 2025 
+
+You can now collapse and expand the groupings in a table view using the following areas: 
+
+* The Grouping box, accessible from the toolbar of the table view 
+
+* A grouping's header, by right-clicking it 
+
+You can collapse or expand either one grouping or all groupings at the same time. 
+
+Prior to this enhancement, you could only collapse or expand one grouping at a time, from each grouping header. 
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## New aggregating functionality for formula fields
+
+>[!NOTE]
+>
+>* Preview: June 26, 2025
+>* Production for everyone: June 26, 2025
+
+Now, when you connect record types and bring in a formula field as a lookup, you can apply the aggregate functions (SUM, AVERAGE, MIN, MAX, etc) depending on the formula field's format. For example, if the formula field is numeric, you can use functions like SUM or AVG; if the formula field is formatted as text, aggregate functions like SUM will not apply.  
+
+Previously, when connecting record types and bringing in lookup fields from the connected records, you could apply aggregate functions only to regular fields, but not to formula fields. 
+
+For information, see [Formula field overview](/help/quicksilver/planning/fields/formula-fields.md). 
+
 ## Custom quarters availability for the Workfront Planning timeline view 
 
 >[!NOTE]

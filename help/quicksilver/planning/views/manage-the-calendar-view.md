@@ -9,9 +9,9 @@ exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
 ---
 # Manage the calendar view
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -22,8 +22,6 @@ For information about Adobe Workfront Planning views and how to manage them, see
 ## Access requirements
 
 +++ Expand to view access requirements. 
-
-You must have the following access to perform the steps in this article:  
 
  <table style="table-layout:auto"> 
 <col> 
@@ -62,9 +60,9 @@ You must have the following access to perform the steps in this article:
    </td> 
    </tr> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td><p> Standard </p>
+    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
    <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
@@ -78,11 +76,13 @@ You must have the following access to perform the steps in this article:
    <td>   <p>Manage permissions to a view</p>  
    <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> </td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+
 </tbody> 
 </table> 
 
@@ -112,16 +112,15 @@ To manage a calendar view:
 
     ![Calendar view example](assets/calendar-view-example.png)
 
-    The records associated with the record type you selected display as bars in a calendar. The color of the bars matches the color of the record icon. 
+    The records associated with the record type you selected display as bars in a calendar. The color of the bars matches the color of the record icon, by default. 
 
 1. Do one of the following to navigate through the calendar:
 
-    * Click the left and right icons or use the horizontal scroll to move backwards and forwards in the calendar. 
-    * Click **Today** to center the calendar to today's date. 
+    * Click the left and right icons in the upper-left corner of the calendar or use the horizontal scroll to move backwards and forwards in the calendar. 
+    * Click **Today** in the upper-right corner to center the calendar to today's date. 
     * Select one of the following options from the time frame drown-down menu to update the time increments: 
 
         * **Month**: Records display in a monthly calendar.
-
 
         * **Week**: Records display in the following areas:
 
@@ -153,16 +152,168 @@ Consider the following when working with filters in the calendar view:
 
 * Removing filters removes them from anyone accessing the same record type as you and who displays the same view as you do. 
 
-* Adding filters in the calendar view is identical to adding filters in the table view. 
-
-   For more information, see the "Add filters" section in the article [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
-
 * You can filter by connected record fields or lookup fields. 
 
 * You can filter by lookup fields that display multiple values.
 
+To add a filter to a calendar view: 
+
+1. Create a calendar view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. Select a calendar view, then click **Filters** in the upper-right corner of the table.    
+1. Click **Add condition** and add the following information: 
+
+    * **Select a field** that you want to filter by <!-- the tip below might change-->
+
+    * **Select an option** (or a filter modifier) to define what kind of condition the field must meet
+
+        The table below displays the available modifiers for each type of field.
+
+        <table>
+        <thead>
+        <tr>
+            <th><b>Field type</b></th>
+            <th><b>Modifiers</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Single-line, Paragraph, Formula </td>
+            <td><p>Contains</p>
+            <p>Does not contain</p>
+            <p>Is</p>
+            <p>Is not</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr><td>Single-select</td>
+            <td><p>Is</p>
+            <p>Is not</p>
+            <p>Is any of</p>
+            <p>Is none of</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr>
+            <td>Multi-select, People</td>
+            <td><p>Has any of</p>
+            <p>Has all of</p>
+            <p>Is exactly</p>
+            <p>Has none of</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr>
+            <td>Number, Percentage, Currency</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p> < </p>
+            <p>></p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td><p>Is</p>
+            <p>Is not</p>
+            <p>Is after</p>
+            <p>Is before</p>
+            <p>Is between</p><p>Is not between</p>
+            <p>Is empty</p><p>Is not empty</p></td>
+        </tr>
+
+        <tr>
+            <td>Checkbox</td>
+            <td><p>Is</p>
+        </tr>
+        </tbody>
+        </table> 
+
+    * Select a value for the field selected. 
+
+     ![Filter UI table view](assets/filter-ui-table-view.png)
+
+    There is no limit to how many filtering conditions you can add.
+
+1. (Optional) Click **Add condition** to add another filtering option and repeat the above steps. The number of filters applied displays to the left of the Filters icon. 
+1. Click the following operators to indicate how the filter conditions are joined and should be applied:
+
+    * **AND**: All specified conditions must be met. 
+    * **OR**: Any of the specified conditions must be met. This is the default option.
+
+    1. (Optional) Add additional **AND** or **OR** operators between multiple condition groupings.
+
+        ![Multi-tiered filters in views](assets/multi-tiered-filters-in-views.png)
+
+    The list of records is filtered automatically.  <!--at this time, you can't name and save the filter - but will this change?!-->
+    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
+
+1. (Optional) Click the **x** icon to remove a filter condition.
+1. (Optional) Click **Filters** to close the filters box. <!--right now you cannot "clear all" for filters, but this might come later-->
+
 ### Edit the calendar view settings
 
-Editing the calendar view settings is similar to editing the settings of a timeline view.
+Update the calendar view settings to indicate what and how information displays in the view. 
 
-For more information, see the "Edit the timeline view settings" section in the article [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
+1. Create a calendar view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. Click **Settings**. 
+1. Click **Date and time** in the left panel, then select a **Start date** and an **End date** to display on the calendar. You can choose the default Start and End dates, or you can choose any date field available. 
+
+    The bars representing the records start on the date that you indicate for the Start date and end on the date corresponding with the End date. 
+
+    >[!NOTE]
+    >
+    >* Records that have no values for the Start or the End dates or have a Start date later than the End date do not display in the calendar view.
+    >
+    >* If you display additional records using the Breakdown option, the Start and End dates are those of the main record. You cannot choose Start and End dates for the connected records in this area. 
+
+1. Click **Bar style** in the left panel, to indicate what information you want to display on the record bars.
+
+    The primary field (or title) of the record, as defined in the record's table view, is selected by default.
+    <!--adjust this when the primary field is released??-->
+
+1. (Optional and conditional) If you added thumbnails to records, select the **Thumbnail** option to display the image associated with records in their record bar. 
+
+    >[!NOTE]
+    >
+    >    You must first add thumbnails in the table view before you can display them in the calendar view. For more information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md). 
+
+1. Click **Add field**, then click inside the **Search fields** box, and click the field you want to add. 
+
+    >[!TIP]
+    >
+    >   * You must create the fields before you can add them to the record bars. 
+    > 
+    >   * You must have at least one field selected. **Name** is selected by default.
+    >
+    >   * You can add up to 5 fields. 
+
+    A preview of what the bars will look like on the calendar displays on the right.
+
+    ![Bar style section in calendar view settings](assets/bar-style-section-in-calendar-view-settings-with-preview.png)
+
+1. Click **Color** in the left panel, to customize the colors of the records on the calendar. 
+
+    ![Color panel on calendar view settings](assets/color-panel-on-calendar-view-settings.png)
+
+1. In the **Set record color to** section, select from the following options to set a color for the records: 
+
+    * **Record type**: The color of the record bars in the calendar matches the color of the record type you selected. This is the default option. 
+    * **Field values**: The color of the records matches the color of a field that you specify. 
+    * **None**: Records displays in a white bar. 
+
+1. (Conditional) If you selected **Field values** for the record colors, select a field from the **Match the record color to** drop-down menu. 
+
+    ![Field selector drop-down menu for calendar view](assets/field-selector-drop-down-menu-calendar-view.png)
+
+    Only fields with color-coded options display in the drop-down menu.
+    
+    For example, multi-select or single-select fields can have color-coded options.  
+
+    If you do not have a field with color-coded options for the selected record type, this option is dimmed.
+
+
+1. Click **Save**.
+
+    The records display in the calendar view with the specifications that you selected.

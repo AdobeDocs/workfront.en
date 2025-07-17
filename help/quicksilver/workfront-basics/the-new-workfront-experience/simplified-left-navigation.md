@@ -259,9 +259,7 @@ To learn what sections are available for specific areas, see [[!UICONTROL Defaul
       >
       >You must build the dashboard before it appears in the list.
 
-   1. Click **[!UICONTROL Add]**.
-
-      The dashboard link appears at the bottom of the left panel.
+1. (Optional) To remove a dashboard quick link, hover over the dashboard in the left navigation, then click the **Remove** icon ![Remove icon](assets/remove-dashboard-from-left.png) when it appears.
 
 1. (Optional) To change the order of a section in the left panel, click the **[!UICONTROL Drag]** icon ![](assets/drag-icon.png) to the right of a section and drag it up or down.
 

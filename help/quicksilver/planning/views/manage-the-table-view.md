@@ -1,6 +1,6 @@
 ---
 title: Manage the Table View
-description: You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront Planning. This article describes how you can create or edit a table view edit and how to enable real-time presence indicators for the view or how to export it to a CSV or Excel file. 
+description: You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront Planning. This article describes how you can create or edit a table view edit and how to enable real-time presence indicators for the view. 
 feature: Workfront Planning
 role: User
 author: Alina
@@ -9,9 +9,9 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 ---
 # Manage the table view
 
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -23,13 +23,12 @@ This article describes the following information:
 
 * [Create or edit columns and rows in a table view](#manage-a-table-view)
 * [Enable real-time presence indicators for the table view](#enable-the-real-time-presence-indicator)
-* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>
+
+For information about exporting the table view to an Excel or CSV file, see [Export records from the table view](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
 ## Access requirements
 
 +++ Expand to view access requirements. 
-
-You must have the following access to perform the steps in this article:  
 
  <table style="table-layout:auto"> 
 <col> 
@@ -68,9 +67,9 @@ You must have the following access to perform the steps in this article:
    </td> 
    </tr> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td><p> Standard </p>
+    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
    <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
@@ -82,13 +81,14 @@ You must have the following access to perform the steps in this article:
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings, duplicate, <span class="preview">or to export it</span></p> </td> 
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p></td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table> 
 
@@ -108,11 +108,9 @@ When creating a table view, all records of the selected type display in a table.
 
 To manage a table view: 
 
-1. <span class="preview">Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). </span>
+1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
-    <span class="preview">![Table view example](assets/table-view-example.png)
-    
-    </span>
+    ![Table view example](assets/table-view-example.png)
 
 1. (Optional) Click **Row height**, then select from the following options to modify the height of the table rows: 
     * Short
@@ -125,7 +123,7 @@ To manage a table view:
     * [Filters](#add-filters) 
     * [Sort](#add-a-sort) 
     * [Grouping](#add-groupings)
-    * <span class="preview">[Row colors](#add-row-colors)</span>
+    * [Row colors](#add-row-colors)
     * [Real-time presence indicator](#enable-the-real-time-presence-indicator)
 
 
@@ -253,8 +251,6 @@ Consider the following when working with filters in the table view:
 * You cannot name the filters you build and apply to a table view.
 
 * Removing filters removes them from anyone accessing the same record type as you and uses the same view as you use.
-
-* Adding filters to the table view is identical to adding filters to the timeline view. 
 
 * You can filter by connected record fields or lookup fields. 
 
@@ -426,8 +422,6 @@ To sort <!--ungrouped (add this when sorting for groupings will be available--> 
 
 You can group records by similar information when applying  a grouping to a view.
 
-Adding groupings in the table view is similar to adding groupings to the timeline view. 
-
 Consider the following:
 
 * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type.
@@ -469,7 +463,22 @@ To add a grouping:
 1. Click outside the **Group records by** box to close it. 
 1. (Optional) Click **+ New record** at the end of any grouping to add new records, then refresh your page to add the new record to the appropriate grouping. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-    
+1. To expand or collapse groupings, do one of the following:
+
+    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+
+        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+
+    1. Right-click any of the grouping headers in the table view, then click one of the following options:
+        * **Expand group**
+        * **Collapse group**
+        * **Expand all**
+        * **Collapse all**
+        * **Expand subgroups**
+        * **Collapse subgroups**
+
+        Depending on the number of groupings you apply to the view, some options might not be available.
+   
 <!-- this is not available yet: 
 
 To sort grouped records: 
@@ -478,8 +487,6 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
-
-<div class="preview">
 
 ### Add row colors
 
@@ -515,8 +522,6 @@ To sort grouped records:
 
 1. Click outside the **Row colors** box to close it. The colors are applied automatically.
 
-</div>
-
 ### Enable the real-time presence indicator
 
 The avatars of other users who are editing record information at the same time as you display in the upper-right corner of all record views, by default.
@@ -539,52 +544,7 @@ When you display the table view, you can also view which field another user is e
     >
     >You can select the **Show collaborators** toggle from any view. The field currently edited by others is outlined only in the table view. 
 
-<div class="preview">
 
-## Export the table view
 
-You can export information in the table view to a CSV or an Excel file. 
 
-Consider the following when exporting the table view:
-
-* The information exported to an Excel file preserves the filters, groupings, and sorts applied to the table view in Workfront Planning. Groupings are not visible in the CSV file.
-
-* Thumbnails and custom row colors are not supported in exported files.  
-
-* Only fields made visible in the Workfront interface are exported. Hidden fields are not exported.
-
-To export information from the table view or a record type:
-
-1. Go to a record type page and click a table view tab. 
-1. Hover over the table view tab's name, then click the **More** menu ![More menu](assets/more-menu.png).
-
-    ![More menu on a view](assets/view-more-menu-with-duplicate-option.png)
-1. Click **Export**, then select one of the following formats:
-
-    * Excel
-    * CSV
-
-    >[!IMPORTANT]
-    >
-    >You cannot export information from the table view when you display a different view on the screen. You must display the table view that you want to export in order to access the Export option in the More menu. 
-
-    The file is downloaded to your computer. 
-
-1. (Optional) Go to the downloads folder on your computer and find the downloaded file. 
-
-    The name of the exported file follows the following format: 
-
-    `Name of the view - name of the record type`
-
-    For example, a table view for the Campaigns record type generates a file named `Table view - Campaigns`.
-
-    The file displays the following information: 
-    
-    * The column headers are highlighted in black, in the Excel file
-    * All the fields visible in the Workfront interface, sorted and filtered by the same criteria
-    * Groupings are preserved in the Excel file
-
-    You can now share the exported files with others, or attach them to any communication. 
-    
- </div>   
 

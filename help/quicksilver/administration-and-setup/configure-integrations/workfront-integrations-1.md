@@ -189,7 +189,7 @@ We understand that the available built-in (native) integrations might not meet a
      <li>Non-[!DNL Jira] administrators must request and be granted access from the [!DNL Jira] administrator</li> 
     </ul> </td> 
   </tr> 
-  <tr> 
+  <!--<tr> 
    <td>[!DNL Microsoft] Calendars ([!DNL Office 365] / [!DNL Outlook Live])</td> 
    <td> 
     <ul> 
@@ -198,7 +198,7 @@ We understand that the available built-in (native) integrations might not meet a
     </ul> <p><b>NOTE</b>: The [!UICONTROL Outlook] calendar configuration is completely separate from the [!DNL Outlook] Add-in ([!DNL Outlook] Integration or [!DNL Workfront for Outlook]). There's no installation required to configure the calendar.</p></td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr> 
+  </tr> -->
   <tr> 
    <td> <p>[!DNL Microsoft OneDrive]</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -208,7 +208,7 @@ We understand that the available built-in (native) integrations might not meet a
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> 
-  <tr> 
+  <!--<tr> 
    <td> <p>[!DNL Microsoft Outlook]</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
@@ -227,7 +227,7 @@ We understand that the available built-in (native) integrations might not meet a
    <td> 
     <ul> 
      <li>[!DNL Workfront] administrator </li> 
-    </ul> </td> 
+    </ul> </td>--> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Microsoft Teams]</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
