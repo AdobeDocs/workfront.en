@@ -10,9 +10,9 @@ exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
 
 # Adobe Workfront Planning AI Assistant overview
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 
 {{planning-important-intro}}
@@ -39,7 +39,7 @@ The user's commands and the AI's execution of those commands work together to en
 
 * You can use commands to undo your actions. For example, you can type "Undo last change" to revert your change. 
 
-* <span class="preview"> When creating, updating, or deleting an object through AI Assistant, AI Assistant displays the intended actions and asks for confirmation. You can then confirm or cancel the actions. </span>
+* When creating, updating, or deleting an object through AI Assistant, AI Assistant displays the intended actions and asks for confirmation. You can then confirm or cancel the actions. 
 
 ## Functionality currently available for the AI Assistant
 

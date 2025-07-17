@@ -54,12 +54,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer Update</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>The Desktop Proofing Viewer has been updated to version 2.1.50. This update includes internal tooling updates and does not impact end-user functionality.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Unified Approvals Phased Rollout</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>We are enabling Unified Approvals, previously known as New Document Approvals, in a phased rollout. This functionality will be enabled automatically in your Workfront instance over the next six months.</p>
+            <p>Unified Approvals replaces Legacy document approvals and provides the new functionality. 
+</p>
         </td>
-        <td>June 13, 2025</td>
-        <td>June 13, 2025</td>
-        <td>June 13, 2025</td>
+        <td>Phased rollout starting July 17,2025</td>
+        <td>Phased rollout starting July 17,2025</td>
+        <td>Phased rollout starting July 17,2025</td>
+    </tr> 
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer Update</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>The Desktop Proofing Viewer has been updated to version 2.1.50. This update includes internal tooling updates and does not impact end-user functionality.
+        </td>
+        <td>June 16, 2025</td>
+        <td>June 16, 2025</td>
+        <td>June 16, 2025</td>
     </tr> 
     <tr>
         <td>
