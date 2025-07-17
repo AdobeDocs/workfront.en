@@ -16,9 +16,9 @@ exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 
 # Create fields
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>--> 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -160,6 +160,8 @@ You must have the following access to perform the steps in this article:
     * [Created date](#created-date)
     * [Last modified by](#last-modified-by)
     * [Last modified date](#last-modified-date)
+    * <span class="preview">[Approved date](#approved-date)</span>
+    * <span class="preview">[Approved by](#approved-by)</span>
     <!--* [Object](#object-field-type)-->
     
     >[!IMPORTANT]
@@ -616,8 +618,6 @@ You can use the Last modified date field type to add the date when a record was 
 
     The new Last modified date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record was last modified.   
 
-<!--
-
 <div class="preview">
 
 ### Approved date
@@ -682,8 +682,6 @@ You can use the Approved by field type to add the user who last approved the req
     The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
 
 </div>
--->
-
 
 <!--
 
