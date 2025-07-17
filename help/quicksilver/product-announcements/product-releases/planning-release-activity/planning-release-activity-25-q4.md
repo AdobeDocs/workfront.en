@@ -18,9 +18,12 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 
 ## New fields to display record approval information
 
-Preview: July 17, 2025 
-Production for fast release: August 14, 2025 
-Production for all: October 16, 2025 
+>[!NOTE]
+>
+>Preview: July 17, 2025 
+>Production for fast release: August 14, 2025 
+>Production for all: October 16, 2025 
+
 
 We are introducing the following fields to capture approval information for records created by submitting a request with an approval: 
 
@@ -32,9 +35,12 @@ For information, see [Create fields](/help/quicksilver/planning/fields/create-fi
 
 ## Auto-populate fields based on applied groupings
 
-Preview: July 10, 2025 
-Production fast release: August 14, 2025 
-Production for everyone: October 16, 2025 
+>[!NOTE]
+>
+>Preview: July 10, 2025 
+>Production fast release: August 14, 2025 
+>Production for everyone: October 16, 2025 
+
 
 Now, when you have  groupings applied to a table view, adding a record to the table will auto-populate the fields associated with the groupings you add the record to.  
 
