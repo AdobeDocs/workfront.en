@@ -29,15 +29,17 @@ We recommend that you also see the following articles:
 * [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
 * [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
 
-## Considerations about approving requests and request statuses
+## Considerations about approving requests 
 
-Submitted requests display in the Planning tab of the Submitted section in the Requests area of Workfront  with one of the following request statuses: 
+* Submitted requests display in the Planning tab of the Submitted section in the Requests area of Workfront  with one of the following request statuses: 
 
-* **Pending review**: This status is shown when none of the approvers has opened the request object.
-* **In review**: The **Pending review** status changes to **In review** when at least one approver opens the request object. The status of the request remains **In review** until all approvers have approved the request.
-* **Approved**: When an approver approves the request object, their individual status becomes **Approved**, but the overall request object status remains **In review** until all approvers have made their decisions. When all approvers approve a request, the request status becomes **Approved**.
-* **Completed**: If all approvers approve the request object, its status changes to **Completed**, or if the request did not need an approval.
-* **Rejected**: If any approver rejects the request object, the status becomes **Rejected**. No record is created and a new request must be submitted to create the record. 
+   * **Pending review**: This status is shown when none of the approvers has opened the request object.
+   * **In review**: The **Pending review** status changes to **In review** when at least one approver opens the request object. The status of the request remains **In review** until all approvers have approved the request.
+   * **Approved**: When an approver approves the request object, their individual status becomes **Approved**, but the overall request object status remains **In review** until all approvers have made their decisions. When all approvers approve a request, the request status becomes **Approved**.
+   * **Completed**: If all approvers approve the request object, its status changes to **Completed**, or if the request did not need an approval.
+   * **Rejected**: If any approver rejects the request object, the status becomes **Rejected**. No record is created and a new request must be submitted to create the record. 
+
+<!--* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>-->
 
 ## Access requirements
 

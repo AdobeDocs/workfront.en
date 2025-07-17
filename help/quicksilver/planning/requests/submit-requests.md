@@ -233,7 +233,7 @@ The following must be in place before you can submit a request to a Workfront Pl
       * **Entry date**: The date when the request was submitted.
       * **Request form**: The name of the request form used to submit the request.
       * **Status**: The status of the request.
-      * **Entered by**: The name of the user who added the request. If the request was added with someone outside of Workfront, the **Entered by** field shows `N/A`.
+      * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
 
          You can have multiple filters joined by either **And** or **Or**.
          The request list is filtered automatically, as you add the filter conditions. 
@@ -299,13 +299,15 @@ The following must be in place before you can submit a request to a Workfront Pl
       >[!IMPORTANT]
       >
       >All users who have access to at least one workspace can view the Planning tab in the Requests area. You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. <!--ensure this is correct; asking team in slack-->
-
+   
    * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
    * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
 
       >[!NOTE]
       >
       >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
+   
+   <!--* <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
 
 1. (Optional) Click **View your request** to open the request in Workfront.
 
