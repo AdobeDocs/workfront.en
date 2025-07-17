@@ -198,9 +198,9 @@ To locate requests that you or other users have submitted:
 
 1. (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
 
-   <span class="preview">Use **Filters** and **Columns** to update the information in the Planning request list. </span>
+   Use **Filters** and **Columns** to update the information in the Planning request list. 
 
-   <span class="preview">![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)</span>
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
 

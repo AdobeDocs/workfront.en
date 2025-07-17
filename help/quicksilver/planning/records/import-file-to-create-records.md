@@ -10,9 +10,9 @@ exl-id: 940945df-391c-4672-9d9d-180d5028509b
 
 # Create records by importing information from a CSV or Excel file
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -23,8 +23,6 @@ For more information about creating records, see [Create records](/help/quicksil
 ## Access requirements
 
 +++ Expand to view access requirements. 
-
-You must have the following access to perform the steps in this article:  
 
  <table style="table-layout:auto"> 
 <col> 
@@ -77,15 +75,10 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td> <p>Contribute or higher permissions to the workspace <span class="preview">and record type</span> where you want to add records. </p>  
+   <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records. </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
    <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
    </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> </td> 
   </tr> 
 </tbody> 
 </table> 
@@ -107,16 +100,12 @@ You must have the following access to perform the steps in this article:
 * Empty sheets are not supported.
 * Fields of the following types are not supported and cannot be mapped to fields on the import sheet:
 
-    * Connection fields, depending on the environment you use:
-    
-        * In the Production environment, connection fields to Planning records or Workfront and AEM Assets objects cannot be mapped
-
-        * <span class="preview">In the Preview environment, you can map and import connection fields to Planning records. You cannot map fields to Workfront and AEM Assets.</span>
-
+    * Connection fields to Workfront and AEM Assets object types. You can map only connection fields to Planning record types.
     * Lookup fields from connected Planning records or Workfront and AEM Assets objects
     * Formula fields
     * Created date, Created by
     * Last modified date, Last modified by
+    <!--* <span class="preview">Approved date, Approved by</span>-->
     * People
     * If a multi- or single-select field is imported and it has more choices than a similar field in Planning, the additional options are created during the import. Only users with Manage permissions to the workspace can import new choices. 
 
