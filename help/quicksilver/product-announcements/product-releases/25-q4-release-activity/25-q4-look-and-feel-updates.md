@@ -10,7 +10,7 @@ recommendations: noDisplay, noCatalog
 
 This page describes minor updates to the look and feel of various areas of the Adobe Workfront application that were made within the Fourth Quarter 2025 release timeframe.
 
-For a list of all changes available with the Fourth Quarter 2025 release, see [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+For a list of all changes available with the Fourth Quarter 2025 release, see [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
 
 ## Interface modernization

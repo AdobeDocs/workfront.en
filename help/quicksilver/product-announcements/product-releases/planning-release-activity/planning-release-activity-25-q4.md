@@ -24,9 +24,9 @@ Production for all: October 16, 2025
 
 We are introducing the following fields to capture approval information for records created by submitting a request with an approval: 
 
-* *Approved by 
+* Approved by 
 
-* *Approval date 
+* Approval date 
 
 For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 

@@ -16,7 +16,7 @@ This article contains a list of release activity articles about the Adobe Workfr
 
 For information about the current Workfront Planning release activity, see the following article: 
 
-* [Third Quarter 2025 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
+* [Fourth Quarter 2025 release activity for Adobe Workfront Planning](help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
 
 >[!ENDSHADEBOX]
 
