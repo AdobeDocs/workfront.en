@@ -264,6 +264,10 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
 
 1. (Optional) Click the drop-down menu after an entity's name, then click **Remove** to remove them from the list and stop sharing the form with them. 
 
+   >[!NOTE]
+   >
+   >In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. You cannot add Workfront-only users. For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md). 
+
 1. In the **Who can submit requests through this form** section, select from the following options to indicate which types of users can access this form: 
 
       * Only invited people can access 

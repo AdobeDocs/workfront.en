@@ -122,6 +122,11 @@ To share a workspace with others:
 
    ![Sharing UI with groups](assets/sharing-ui-with-groups.png)
 
+   >[!NOTE]
+   >
+   >   In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. You cannot add Workfront-only users. For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md). 
+
+
 1. Select one of the following permission levels from the drop-down menu: 
     * View
     * Contribute

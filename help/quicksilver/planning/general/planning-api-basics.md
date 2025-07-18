@@ -22,10 +22,9 @@ For more information on External lookup fields, see [Examples of the External lo
 
 >[!NOTE]
 >
->Users must be added to the Adobe Admin Console to be accessible in API calls. Workfront-only users cannot be accessed using the Adobe Planning API. 
+>When using the Planning API, all user-related information will be returned using the Adobe Identity Management System (IMS) user ID, and not the Workfront user ID.
 >
->For information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
-
+>For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md). 
 
 ## Workfront Planning API URL 
 
