@@ -2,7 +2,7 @@
 content-type: release-notes
 title: 'Adobe Workfront Planning Release Activity: Article Index'
 description: This is the release activity for the Adobe Workfront Planning product.
-author: Alina
+author: Alina, Courtney
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
@@ -24,7 +24,6 @@ For information about the current Workfront Planning release activity, see the f
 
 For information about features released prior to the Production release on April 10, 2025, see the following articles: 
 
-* [Fourth Quarter 2025 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
 * [Third Quarter 2025 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
 * [Second Quarter 2025 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
 * [First Quarter 2025 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
