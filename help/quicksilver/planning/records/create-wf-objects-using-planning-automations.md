@@ -9,11 +9,9 @@ exl-id: c669217a-40e2-471f-951d-93157a34f1ee
 ---
 # Create objects using Adobe Workfront Planning record automations
 
-<!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 
 <!--you might need to add something about notifications and emails?!-->
-<!--add a new section to this article to mention a new way to create objects: help/quicksilver/planning/records/create-records.md-->
-<!-- add a new section to this article to mention a new way to create WF objects from Planning: help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md-->
+
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 

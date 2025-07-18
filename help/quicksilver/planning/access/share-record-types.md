@@ -169,7 +169,7 @@ You can adjust permissions to individual record types of a workspace if you have
 
    >[!IMPORTANT]
    >
-   >* In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. 
+   >* In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. You cannot add Workfront-only users. For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).  
    >* You can never give users greater permissions on a record type than they have on a workspace.
    >* You cannot give users a lesser permission than Manage to a record type, if they have Manage permissions to the workspace. 
    >* You can give users a lesser permission to the record type if they have Contribute permissions to the workspace. 
