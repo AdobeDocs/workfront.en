@@ -12,6 +12,21 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the Fourth Quarter 2025 release, see [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## New look-and-feel updates for the Team Request widget list
+
+>[!NOTE]
+>
+>* Preview: July 21, 2025
+>* Production fast release: July 21, 2025
+>* Production for all customers:  July 21, 2025
+
+We have updated the look and feel of the list in the Team Request widget.  Following are a few small functionality changes:
+
+* Project name and From cells are no longer linked
+* The Assign icon is now + Assign
+
+This change is the result of an issue fix related to the assign users button.
+
 
 ## Interface modernization
 
