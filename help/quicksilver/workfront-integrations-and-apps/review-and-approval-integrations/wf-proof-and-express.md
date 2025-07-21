@@ -72,7 +72,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Set up approval workflows in Workfront
 
-Before users can add an approval workflow on an Express template, a Proof administrator must create an approval workflow in Workfront.
+Before users can add an approval workflow on an Express template, a Proof administrator with a Standard license must create an approval workflow in Workfront.
 
 For more information, see [Create and manage Automated Workflow templates](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md).
 
@@ -82,7 +82,9 @@ After an approval workflow template is created in Workfront, designers with an E
 
  When a Express template is remixed, an approval will be required before publishing--automatically triggering the pre-configured approval workflow. 
  
- Learn more about how to add review and approval workflows to shareable templates. <!--need link to help article-->
+Users must have a Standard Workfront license to request approval from Adobe Express.
+
+Learn how to [get approval on designs](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).   
  
 
 ## Remix Express templates and send for review and approval 
@@ -105,8 +107,4 @@ Stakeholders can provide feedback relevant to their area of expertise—-such as
 
 They are also are responsible for making final decisions to approve the content so it can be published.
 
-Learn more about how to review and approve designs in Workfront.  
-
-
-Workfront Collaborator license - trying to figure out how to work this in--
-
+Users must have at least Collaborator Workfront license to review and make a decision.
