@@ -98,8 +98,8 @@ Throughout the content production and review and approval process, users can
 * Read comments 
 * and more
 
-Learn how to get approval on designs.   
-<!--need link to help article-->
+<!--Learn how to get approval on designs.   
+need link to help article-->
 
 ## Review and approve remixed Express file 
 

@@ -78,6 +78,21 @@ We understand that the available built-in (native) integrations might not meet a
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Express</p> </td> 
+   <td> 
+    <ul> 
+     <li>Integrate the proofing experience with Adobe Express. With this integration, you can 
+     <ul>
+     <li>Use Workfront approval templates to define approval workflows. </li>
+     <li>Review Adobe Express draft content in the proofing viewer. </li>
+     <li>See review decisions in Adobe Express for final approval and publishing. </li>
+     </ul>
+   </ul>
+     <p>For more information, see <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md" class="MCXref xref">Get started Adobe Express and Workfront Proof integration</a>.</p> 
+     </td>  <td><ul><li>You must have licenses for both Workfront and Adobe Express.</li><li>Workfront and Adobe Express must be deployed to the same IMS Org.</li></ul></td> 
+   <td>The integration must be enabled for your accounts by the Adobe Product Team. For more information, see <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md" class="MCXref xref">Get started Adobe Express and Workfront Proof integration</a>.</td> 
+  </tr>
  <tr> 
    <td role="rowheader"> <p>GenStudio for Performance Marketing </p> </td> 
    <td> 
