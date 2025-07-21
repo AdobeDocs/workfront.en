@@ -9,6 +9,8 @@ exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
 ---
 # Navigate the Workload Balancer
 
+{{preview-fast-release-general}}
+
 <!--Audited: 12/2024-->
 
 Use the Workload Balancer in Adobe Workfront to assign work to users based on their availability. This article describes how you can use settings and options to navigate the Workload Balancer and display the information that is relevant to you. Additional articles listed here describe how you can use the Workload Balancer to manage your resources and their allocation to work. 
@@ -74,8 +76,9 @@ Consider the following when viewing the Workload Balancer:
     >* Work items assigned to a job role or a team, and also assigned to a user, display in both the Unassigned Work area and under the assigned user's name in the Assigned Work area.
     >* Work items assigned to a user and a job role, where the job role is selected as the primary assignee of the item, display in the Unassigned Work area.
     >* Work items assigned to more than one user display under all of the assigned users' names in the Assigned Work area.
+    >* <span class="preview">Role assignments are displayed under work items in the Unassigned Work area when the Show Role Assignments setting is enabled. For information, see the section [Customize the view](#customize-the-view) in this article.</span>
 
-    For more information, see "Assignment areas in the Workload Balancer" in [Overview of assigning work in the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+    For more information, see [Assignment areas in the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md#assignment-areas-in-the-workload-balancer) in [Overview of assigning work in the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 * When a project has no tasks during a period of time, the bar at the project level is blank for that time.
 
@@ -132,6 +135,8 @@ To navigate the Workload Balancer for multiple projects:
         The Unassigned Work area does not display any work items by default. We recommend using filters to display relevant information for you in this area.  
         
             For information about using filters, see [Filter information in the Workload Balancer](../workload-balancer/filter-information-workload-balancer.md).
+        
+        * <span class="preview">Role assignments under work items display only when you enable the Show Role Assignments setting. For information, see the section [Customize the view](#customize-the-view) in this article.</span>
         
         * Projects display only when you enable the Group by Project setting. For information, see the section [Customize the view](#customize-the-view) in this article.
 
@@ -232,7 +237,11 @@ To navigate the Workload Balancer for multiple projects:
 1. Click the **Settings** icon ![Settings icon](assets/settings-gear-icon.png).
 
     The Settings panel displays on the right.
+    
+    <span class="preview">Sample image in the Preview environment:</span>
+    ![Workload Balancer Settings panel](assets/workload-balancer-settings.png)
 
+    Sample image in the Production environment:
     ![Settings panel](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
     Select from the options listed below to update the information you view in the Workload Balancer, then click the **X icon** in the upper-right of the Settings box to close it.
@@ -254,6 +263,8 @@ To navigate the Workload Balancer for multiple projects:
     
         A green checkmark icon displays in the upper-right corner of a task or issue bar when they are completed. The same icon displays for a project when the tasks or issues for the selected time frame of the project are completed.
     * **Show remaining time**: When this is enabled, Workfront displays the difference between the daily time for which the user is available to work based on their schedules and the hours for which they are allocated in the Assigned Work area for the users. This is disabled by default and allocated time displays by default.
+    * <span class="preview">**Show Role Assignments**: When this is enabled, role assignments display in the Unassigned Work area under their assigned work items. This is enabled by default.</span>
+
     * In the **Select color theme** section, select the color that you want for the project and task bars.
             
         >[!TIP]
@@ -298,25 +309,30 @@ To navigate the Workload Balancer for multiple projects:
     >* You must enable the Group by Project setting to display daily Planned Hours for projects.
     >* When you view the Workload Balancer by week, the hours displayed are the weekly Planned Hours.
 
-
 1. (Optional) Hover over the allocated time in the user line to understand the capacity and allocation of the user. The capacity is the availability of the user according to their schedule.
 
     ![Allocated time details](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. (Optional) Click the **Hide allocations icon** ![Show allocations icon](assets/show-allocations-icon-small.png) to display the name of the tasks and issues  in the bars of the work items.
-1. Click the **More menu** icon ![More icon](assets/more-icon.png) to the right of a task or issue name, then click one of the options below.
+1. Click the **More menu** icon ![More icon](assets/more-icon.png) to the right of a task, issue, <span class="preview">or role</span> name, then click one of the options below.
 
     ![More menu](assets/more-menu-right-of-task-350x104.png)
 
-    * **Assign this to**, then start typing the name of a user, role, or team you want to assign the work item to in the **Search people, role, or teams** field. 
+    * **Assign this to**, then start typing the name of a user, role, or team you want to assign the work item to in the **Search people, role, or teams** field.
 
+        Click **Advanced** to access the Advanced Assignments screen for the work item. For more information, see [Create advanced assignments](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+        
         You can also use the following shortcuts to assign tasks or issues:
 
         * In Windows: CTRL+click the task or issue bar.
         * In Mac: CMD+click the task or issue bar.
  
         For more information about assigning work items to users in the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../workload-balancer/assign-work-in-workload-balancer.md).
-        
+
+        >[!NOTE]
+        >
+        ><span class="preview">Role assignments are only displayed under work items in the Unassigned Work area when the Show Role Assignments setting is enabled. For information, see the section [Customize the view](#customize-the-view) in this article. Role assignments only have the **Assign this to** option in the **More menu**.</span>
+
         >[!TIP]
         >
         >If your Workfront or group administrator enabled delegations in your environment, use the Assignments tab to assign users to the task or issue. For information about delegating work, see [Delegate tasks and issues](../../manage-work/delegate-work/how-to-delegate-work.md).
@@ -385,12 +401,11 @@ You can view more information about the tasks and the issues in the Workload Bal
 
 1. Access the Workload Balancer in the Resourcing area, as described in the section [Access the Workload Balancer for multiple projects in the Resourcing area](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in this article.
 
-1. Click the **Full screen** icon ![Full screen icon](assets/full-screen.png) to display the Workload Balancer in full screen. 
+1. Click the **Full screen** icon ![Full screen icon](assets/full-screen.png) to display the Workload Balancer in full screen.
 
-    The Workload Balancer occupies the entire screen. Browser windows and tabs are excluded from the view. 
+    The Workload Balancer occupies the entire screen. Browser windows and tabs are excluded from the view.
  
-1. Click the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen.png) to return to the default screen and view the Workload Balancer inside the browser tab. 
-
+1. Click the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen.png) to return to the default screen and view the Workload Balancer inside the browser tab.
 
 ## Navigate the Workload Balancer of a team
 
@@ -406,7 +421,7 @@ Navigating the Workload Balancer of a team is similar to how you navigate the Wo
 
     The Workload Balancer of a team displays the following information, by default:
 
-    * In the **Unassigned Work** area: Work items assigned to the team or to the team and job roles and that are not assigned to users. 
+    * In the **Unassigned Work** area: Work items assigned to the team or to the team and job roles and that are not assigned to users. <span class="preview">Role assignments are displayed under work items in the Unassigned Work area when the Show Role Assignments setting is enabled.</span>
     * In the **Assigned Work** area: Work items assigned to users display under the users' names.
 
 1. Continue navigating the Workload Balancer of a team as described in the [Navigate the Workload Balancer for multiple projects in the Resourcing area](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) section of this article.
@@ -422,8 +437,8 @@ Navigating the Workload Balancer of a team is similar to how you navigate the Wo
 
     The Workload Balancer for the project displays the following information, by default: 
     
-    * In the **Unassigned Work** area: Work items on the project that are assigned to roles or teams and are not assigned to users. 
-    * In the **Assigned Work** area: Work items on the project that are assigned to at least one user. 
+    * In the **Unassigned Work** area: Work items on the project that are assigned to roles or teams and are not assigned to users. <span class="preview">Role assignments are displayed under work items in the Unassigned Work area when the Show Role Assignments setting is enabled.</span>
+    * In the **Assigned Work** area: Work items on the project that are assigned to at least one user.
     
     We recommend using filters to only show users that are important to you.  
     
