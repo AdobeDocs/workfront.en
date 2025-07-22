@@ -12,6 +12,29 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the Fourth Quarter 2025 release, see [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## Updated look and feel of the request queue management areas of a template
+
+
+>[!NOTE]
+>
+>* Preview: July 24, 2025
+>* Production fast release: July 31, 2025
+>* Production for all customers:  July 31, 2025
+
+We have updated the look and feel  of the following lists on templates:
+
+* Queue Topics 
+* Topic Groups
+* Routing Rules
+
+A small functionality change has been applied to the lists. To edit or delete an item in one of these lists, select the item and click the appropriate icon.
+
+For for more information, see 
+
+* [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* [Create Topic Groups](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+* [Create Routing Rules](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+
 ## New look-and-feel updates for the Team Request widget list
 
 >[!NOTE]
