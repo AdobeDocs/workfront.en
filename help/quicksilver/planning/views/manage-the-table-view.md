@@ -117,6 +117,10 @@ To manage a table view:
     * Medium
     * Tall 
 
+    <!--
+    1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+    -->
+
 1. Update the following view elements as described in the subsections below:
     * [Columns (or fields)](#add-columns-or-fields)
     * [Rows (or records)](#add-rows-or-records)
