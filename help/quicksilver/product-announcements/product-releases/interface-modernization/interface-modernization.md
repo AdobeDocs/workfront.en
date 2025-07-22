@@ -16,25 +16,6 @@ This page lists interface updates we are making throughout Adobe Workfront to im
 
 For all other changes to Adobe Workfront, see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
-## Admin and Setup 
-
-### Interface updates to the Audit Logs page in Setup
-
-**Preview release: July 24, 2025; Production release: To be announced**
-
-We have updated the Audit Logs page in Setup to match other areas of the application.
-
-The export button has moved to the right side of the page.
-
-To view this change, go to Setup > Change Tracking > Audit Logs.
-
-### Interface updates to the Update users for SSO page in Setup
-
-**Preview release: July 24, 2025; Production release: To be announced**
-
-We have updated the Update users for SSO page with a more modern design that is consistent with other areas of Workfront.
-
-To view this change, go to Setup > System > Update Users For SSO.
 
 
 ## Interface updates made in Q3
