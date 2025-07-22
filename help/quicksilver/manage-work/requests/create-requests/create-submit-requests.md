@@ -142,9 +142,16 @@ To create a request in the Workfront web app:
     <li>All additional Workfront and Planning request forms <b>All request forms</b> section. You can search for a request forms that does not display by default. </li>
     <li>All additional Workfront and Planning request queue paths display in the <b>All request paths</b> section. You can search for a request queue that does not display by default.</li></ul>
    Click one of the Workfront request queue paths or forms, or search for one, then click it when it displays in the list. 
-1. <span class="preview">(Conditional) If you switched to the new experience that includes Workfront Planning, and are in the preview environment, the **New request** box displays the following:</span>
+1. <span class="preview">(Conditional) If you switched to the new experience that includes Workfront Planning, select one of the Workfront request queue paths or forms, or click the search bar. </span>
 
-    <span class="preview">Select one of the Workfront request queue paths or forms, or search for one, then click it when it displays in the list. </span>
+   <span class="preview">When you click the search bar, a dropdown appears showing the most recently used queues and forms first. Select one from the list, or begin typing and select the queue or list when it appears.</span>
+   
+   >[!NOTE]
+   >
+   ><span class="preview">Consider the following regarding the new requesting experience currently available in Preview:</span>
+   >* <span class="preview">The list includes both Workfront request queues and Workfront Planning request forms.</span>
+   >* <span class="preview">You can filter the list by object type.</span>
+   >* <span class="preview">To display only Workfront Request queues, filter for `Issue` object types.</span>
 
 1. (Conditional) If you switched to the new experience that includes Workfront Planning, select your topic groups and queue topics and continue updating the form.
 
