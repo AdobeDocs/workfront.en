@@ -154,6 +154,8 @@ The following must be in place before you can submit a request to a Workfront Pl
    >* You have access to view at least one workspace. 
    >
 
+<!--This section will be for production only. Add a section for preview.-->
+
 1. Click **New request**. 
 
    ![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
@@ -169,6 +171,8 @@ The following must be in place before you can submit a request to a Workfront Pl
    * Start typing the name of a Planning request form in the search box, then click the card when it displays in the list. 
 
    The request form opens.
+
+<!-- Put preview section here-->
 
 1. Update the fields available in the request form. Fields with a red asterisk are required. 
 1. Click **Submit**.
