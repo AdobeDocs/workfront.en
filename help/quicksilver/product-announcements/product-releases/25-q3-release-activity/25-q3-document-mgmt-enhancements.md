@@ -46,7 +46,7 @@ Unified Approvals replaces Legacy document approvals and provides the following 
 
 * Designate an entire Workfront team as either reviewers or approvers
 * Set a deadline for the review or approval
-* Create and resuse approval templates
+* Create and reuse approval templates
 * Utilize new versions
 * View multiple key performance indicators for your approvals in Workfront Home widgets
 * Use Canvas Dashboards to view reporting details about Unified Approvals
@@ -114,7 +114,7 @@ Key capabilities that remain unchanged:
 * Create a new Google Drive document from within Workfront
 
 
-## New document approval decision buttons available in proofing viewer
+## New document approval decision buttons available in the proofing viewer
 
 >[!IMPORTANT]
 >
@@ -128,6 +128,6 @@ The new document approval decision buttons now appear in the proofing viewer. No
 
 Previously, you had to exit the proofing viewer to make a decision.
 
-Approvals created before this release will not display the buttons in proofing viewer.
+Approvals created before this release will not display the buttons in the proofing viewer.
 
 For more information, see [Use new document approvals and proofing together](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
