@@ -16,7 +16,25 @@ This page lists interface updates we are making throughout Adobe Workfront to im
 
 For all other changes to Adobe Workfront, see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
+## Admin and Setup
 
+## Interface updates to the Audit Logs page in Setup
+
+**Preview release: July 22, 2025; Production release: To be annoounced**
+
+We have updated the Audit Logs page in Setup to match other areas of the application.
+
+The export button has moved to the right side of the page. 
+
+To view this change, go to Setup > Change Tracking > Audit Logs.
+
+<!--## Interface updates to the Update users for SSO page in Setup
+
+**Preview release: July 22, 2025; Production release: To be annoounced**
+
+We have updated the Update users for SSO page with a more modern design that is consistent with other areas of Workfront.
+
+To view this change, go to Setup > System > Update Users For SSO-->
 
 ## Interface updates made in Q3
 
@@ -151,6 +169,16 @@ For information, see [Configure basic information for your system](/help/quicksi
 We have updated the Import Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront. Also, the Kick-Start import process was streamlined so that the selected file is uploaded immediately. You no longer have to click a separate **Upload** button to complete the import after choosing the file.
 
 For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+## Interface updates to the Expense Types list
+
+**Preview release: May 22, 2025; Production release for all customers: May 29, 2025**
+
+We have updated the look and feel of the Expense Types list in the Setup area, to match the design of other areas of Workfront.
+
+A small functionality change has been applied to the Expense Types list. To edit or delete an expense type, select it in the list and click the appropriate icon. Note that you can't edit or delete the default expense types.
+
+For information, see [Create custom expense types](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
 
 ### Interface update for the Access Log tab in Setup
 

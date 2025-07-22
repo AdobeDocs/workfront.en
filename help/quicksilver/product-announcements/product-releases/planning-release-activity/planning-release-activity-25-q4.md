@@ -22,6 +22,20 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 >
 >Preview: July 22, 2025 
 >Production for fast release: August 14, 2025 
+>Production for all: October 16, 2025 <!--check with becky-->
+
+To make the approval process more flexible, we've added the ability to add teams as approvers on Planning request forms. Now, you can enter and select team names when setting approvers. Any of the team members can make a decision, which counts as the approval decision for the entire team.
+
+Previously, only individual users could be assigned as approvers. 
+
+For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
+## Add teams as approvers on Planning request forms
+
+>[!NOTE]
+>
+>Preview: July 22, 2025 
+>Production for fast release: August 14, 2025 
 >Production for all: October 16, 2025 
 
 To make the approval process more flexible, we've added the ability to add teams as approvers on Planning request forms. Now, you can enter and select team names when setting approvers. Any of the team members can make a decision, which counts as the approval decision for the entire team.

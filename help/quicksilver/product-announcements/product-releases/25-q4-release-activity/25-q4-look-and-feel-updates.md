@@ -20,6 +20,7 @@ For a list of all changes available with the Fourth Quarter 2025 release, see [F
 >* Preview: July 24, 2025
 >* Production fast release: July 31, 2025
 >* Production for all customers:  July 31, 2025
+>[!BADGE Off schedule]{type=Neutral}
 
 We have updated the look and feel  of the following lists on templates:
 
@@ -34,6 +35,22 @@ For for more information, see
 * [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 * [Create Topic Groups](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [Create Routing Rules](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+
+
+## Look-and-feel changes when editing a Routing Rule for a template 
+
+>[!NOTE]
+>
+>* Preview: July 24, 2025
+>* Production fast release: August 14, 2025
+>* Production for all customers:  August 14, 2025 <!--check with becky-->
+>[!BADGE Off schedule]{type=Neutral}
+
+We have updated the look and feel of a Routing Rule, when editing it on a template. The Routing Rule editing page now matches the design of other areas of Workfront.
+
+A small functionality change has been applied to the Routing Rules list. To edit Routing Rule, select the Routing Rule from the list and click the Edit icon.
+
+For information, see [Create Routing Rules](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 ## New look-and-feel updates for the Team Request widget list
 
