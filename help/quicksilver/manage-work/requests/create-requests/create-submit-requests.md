@@ -19,9 +19,9 @@ exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 </div>
 -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Planned work is represented in Adobe Workfront by projects and tasks. However, you might work in an environment where unplanned work, in the form of requests, can come in at any time. Workfront provides a workflow to accommodate this type of environment through the use of Request Queues. 
 
@@ -144,12 +144,12 @@ To create a request in the Workfront web app:
     ![New request box with unified workflow for planning requests](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
     Click one of the Workfront request queue cards, or search for one, then click it when it displays in the list. 
-1. <span class="preview">(Conditional) If you switched to the new experience that includes Workfront Planning, and are in the preview environment, the **New request** box displays the following:</span>
+1. (Conditional) If you switched to the new experience that includes Workfront Planning, and are in the preview environment, the **New request** box displays the following:
 
-    <ul><span class="preview"><li>The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. </li></span>
-    <span class="preview"><li>All additional Workfront and Planning request forms <b>All request forms</b> section. You can search for a request forms that does not display by default. </li></span>
-    <span class="preview"><li>All additional Workfront and Planning request queue paths display in the <b>All request paths</b> section. You can search for a request queue that does not display by default.</li></span></ul>
-    <span class="preview">Click one of the Workfront request queue paths or forms, or search for one, then click it when it displays in the list. </span>
+    <ul><li>The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. </li>
+    <li>All additional Workfront and Planning request forms <b>All request forms</b> section. You can search for a request forms that does not display by default. </li>
+    <li>All additional Workfront and Planning request queue paths display in the <b>All request paths</b> section. You can search for a request queue that does not display by default.</li></ul>
+   Click one of the Workfront request queue paths or forms, or search for one, then click it when it displays in the list. 
 
 1. (Conditional) If you switched to the new experience that includes Workfront Planning, select your topic groups and queue topics and continue updating the form.
 

@@ -39,9 +39,7 @@ For information, see one of the following articles:
 
 +++ Expand to view access requirements.  
 
-You must have the following access to perform the steps in this article:  
-
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -111,7 +109,7 @@ To configure adding a record type to another workspace when you edit the record 
 
 {{step1-to-planning}}
 
-1. Click the workspace whose record types you want to edit, 
+1. Click the workspace whose record types you want to edit. 
 
    The workspace page opens and the record types display. 
 1. Do one of the following:
@@ -128,11 +126,11 @@ To configure adding a record type to another workspace when you edit the record 
 
    ![Edit record type Advanced settings with Add to other workspaces enables](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
 
-1. In the **Select who can add this record type to workspaces they manage** field, add users that you want to add this record type to workspaces they manage. 
+1. In the **Select who can add this record type to workspaces they manage** field, add users that you want to allow to add this record type to workspaces they manage. 
 
    Your name is automatically added in the field. 
 
-   You can add individual users, or groups, teams, job roles, or companies whose users you want to add this record type to the workspaces they manage. 
+   You can add individual users, or groups, teams, job roles, or companies whose users you want to allow to add this record type to the workspaces they manage. 
    
    You can edit this field, after you save the record type. 
 1. (Optional) Remove your name from the **Select who can add this record type to workspaces they manage** field.
@@ -142,6 +140,11 @@ To configure adding a record type to another workspace when you edit the record 
    The following things occur:
 
       * The record type and its fields are now available to be added to another workspace by the people you designated. 
+
+      >[!NOTE]
+      >
+      >You can edit the record type and its fields only from the original workspace. 
+         
       * The record type card displays a global icon ![Global record type icon](assets/global-icon.png) to indicate that the record type is available to be added to any  workspace whose manager you designated in your configuration. 
       * A system-generated **Workspace** field is added to the record type. 
       
@@ -149,9 +152,9 @@ To configure adding a record type to another workspace when you edit the record 
          
          This field is read-only and cannot be deleted.
 
-## Configure connecting to a record type in other workspaces
+## Configure connecting to a record type from other workspaces
 
-You can configure a record type to connect to from other workspaces when you create or edit the record type. 
+You can configure a record type to be connected to from from other workspaces when you create or edit the record type. 
 
 To configure a record type to connect to from other workspaces when you edit the record type:  
 
@@ -169,7 +172,7 @@ To configure a record type to connect to from other workspaces when you edit the
    ![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)
 
 1. In the **Edit record type** box, select the **Advanced settings** tab.
-1. Enable the **Allow connecting to this record type from other workspaces** setting. <!-- check the setting name, this is the suggested UI text to be edited by Lilit and team-->
+1. Enable the **Allow connecting to this record type in other workspaces** setting. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
    ![Edit record type Advanced settings tab with connect from other workspaces enabled](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
@@ -185,6 +188,11 @@ To configure a record type to connect to from other workspaces when you edit the
 
       * The record type and its fields are now available to connect from the workspaces you designated. 
       * The record type card displays a cross-workspace connection icon ![Cross-workspace connection icon](assets/connect-from-other-workspaces-icon.png) to indicate that the record type is available to be connected from any workspace you designated in your configuration.
+
+   The record type becomes available to connect from the designated workspaces. 
+
+
+
 
 
 
