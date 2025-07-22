@@ -65,6 +65,8 @@ You can manage what information users can view and edit for other users using a 
    
    1. Disable **View Contact info**, then click the X to close the **Fine-tune your settings** box.
 
+      ![fine tune user settings](assets/fine-tune-users.png)
+
 1. To modify the ability of users with a Plan license access to edit other users, click the gear icon ![](assets/gear-icon-settings.png) on the **Edit** button to the right of **Users**, then select the abilities you want to grant:
 
    <table style="table-layout:auto"> 
@@ -74,11 +76,8 @@ You can manage what information users can view and edit for other users using a 
      <tr> 
       <td role="rowheader"><strong>Create</strong> </td> 
       <td> <p>Allows users to create users.<br>This option is enabled by default.</p> 
-      <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure this change is being made before undrafting these 2 notes. On 3/29, the req doc says that this depends on investigation results.</p>
-       
-       <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.</p>
-       -->  </td> 
+     <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.</p>
+        </td>  
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Delete</strong> </td> 

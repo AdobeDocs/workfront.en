@@ -13,6 +13,9 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2025 Q4 Release {#release-25-q4}
+      * [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
+      * [Look-and-feel updates during the 2025 Q4 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
     * 2025 Q3 Release {#release-25-q3}
       * [2025 Q3 Release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
       * [Proofing and document management enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
@@ -198,6 +201,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Planning release activity{#planning-release-activity}
       * [Adobe Workfront Planning release activity](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+      [Fourth Quarter 2025 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
       * [Third Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
       * [Second Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
       * [First Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
@@ -897,6 +901,7 @@ feature-set: Workfront
     * [Enable delivery of emails from the Preview Sandbox environment](workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)
     * [Event notifications](workfront-basics/using-notifications/event-notifications.md)
     * [Attach a reminder notification to an object](workfront-basics/using-notifications/attach-reminder-notification-object.md)
+    * [Event notification: article index](/help/quicksilver/workfront-basics/using-notifications/event-notifications-article-index.md)
     * [Notifications: Action needed](workfront-basics/using-notifications/notifications-action-needed.md)
     * [Notifications: Approval information](workfront-basics/using-notifications/notifications-approval-information.md)
     * [Notifications: Communication](workfront-basics/using-notifications/notifications-communication.md)
@@ -1489,17 +1494,16 @@ feature-set: Workfront
   * [Reports and Dashboards: article index](reports-and-dashboards/reports-and-dashboards-overview.md)
   * Canvas Dashboards {#canvas-dashboards}
     * [Canvas Dashboards](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
-    * Manage Canvas Dashboards {#manage-canvas-dashboards}
-      * [Manage Canvas Dashboards](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
-      * [Get started with Canvas Dashboards](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
-      * [Add, remove, or arrange reports in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
-      * [Share a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
     * Add reports {#add-reports}
+      * [Add reports: article index](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-reports-toc.md)
       * [Canvas Dashboard report types overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/report-types-overview.md)
       * [Build a KPI report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
       * [Build a chart report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
       * [Build a table report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
       * [Add an existing report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+    * Manage Canvas Dashboards {#manage-canvas-dashboards}
+      * [Manage Canvas Dashboards](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+      * [Share a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
   * Reports {#reports}
     * [Reports](reports-and-dashboards/reports/reports-overview.md)
     * Reporting basics {#report-basics}
@@ -2035,7 +2039,8 @@ feature-set: Workfront
     * [Record types overview](planning/architecture/overview-of-record-types.md)
     * [Create record types](planning/architecture/create-record-types.md)
     * [Create Record Types by importing information from a CSV or Excel file](planning/architecture/import-file-to-create-record-types.md)
-    * [Create record types globally](planning/architecture/create-record-types-globally.md)
+    * [Configure cross-workspace capabilities for record types](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+    * [Add cross-workspace record types](planning/architecture/add-cross-workspace-record-types.md)
     * [Connect record types overview](planning/architecture/connect-record-types-overview.md)
     * [Connect record types](planning/architecture/connect-record-types.md)
     * [Edit record types](planning/architecture/edit-record-types.md)
@@ -2080,6 +2085,7 @@ feature-set: Workfront
     * [Manage the record page layout](planning/records/manage-the-record-page.md)
     * [Manage record connections from Workfront objects](planning/records/manage-records-in-planning-section.md)
     * [Export a record's details](planning/records/export-the-record-page.md)
+    * [Export records from the table view](planning/records/export-records-from-the-table-view.md)
     * [Create Workfront objects from Workfront Planning as you connect them to records](planning/records/create-workfront-objects-from-workfront-planning.md)
     * [Configure Adobe Workfront Planning automations](planning/records/configure-automations-to-create-records.md)
     * [Create objects using Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
@@ -2099,7 +2105,7 @@ feature-set: Workfront
     * [Delete record views](planning/views/delete-record-views.md)
     * [Duplicate record views](planning/views/duplicate-record-views.md)
   * Adobe Workfront Planning notifications {#adobe-workfront-planning-notifications}
-    * [Adobe Workfront Planning notifications: Article index](planning/notifications/notifications-information.md)
+    * [Adobe Workfront Planning notifications: article index](planning/notifications/notifications-information.md)
     * [Manage Adobe Workfront Planning notification preferences](planning/notifications/manage-notification-preferences.md)
     * [Manage Adobe Workfront Planning email notifications](planning/notifications/manage-planning-email-notifications.md)
     * [Manage Adobe Workfront Planning in-app notifications](planning/notifications/manage-planning-in-app-notifications.md)

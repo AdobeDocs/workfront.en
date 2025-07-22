@@ -737,6 +737,10 @@ The Workfront Mobile app -->
     </tbody> 
    </table>
 
+   >[!NOTE]
+   >For PDFs, it is recommended to use Large for the widget display size.
+   >A browser's PDF viewer affects the display for users, and they might need to adjust their window size and browser zoom percentage if the PDF display is not optimal.
+
 1. (Optional) Repeat the previous step to add any other fields or widgets. 
 
     Or

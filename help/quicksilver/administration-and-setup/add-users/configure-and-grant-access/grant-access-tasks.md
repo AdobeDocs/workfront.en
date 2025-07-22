@@ -47,6 +47,8 @@ You must have the following access to perform the steps in this article:
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** or **Edit** button to the right of Tasks, then select the abilities you want to grant under **Fine-tune your settings**.
 
+   ![fine tune task settings](assets/fine-tune-tasks.png)
+
    >[!NOTE]
    >
    >When you configure an access level setting for a certain type of object, that configuration doesn't affect the users' access to objects with a lower rank. For example, you can restrict users from deleting tasks in their access level, but this does not restrict them from deleting issues, which are lower-ranking than tasks.For more information about the hierarchy of objects, see the section [Interdependency and hierarchy of objects](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in the article [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).

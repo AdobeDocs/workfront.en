@@ -18,7 +18,7 @@ exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
 
 You may receive in-app or email notification when the following actions occur in Workfront Planning: 
 
-* Someone adds you to a comment on the record page
+* Someone adds you or your teams to a comment on the record page
 * Someone asks for permission to access a view or a workspace
 * Someone grants you permission to access a view or a workspace <!--I could not test this but Isk confirmed-->
 * You submit a Workfront Planning request.
@@ -29,9 +29,7 @@ You may receive in-app or email notification when the following actions occur in
 
 +++ Expand to view access requirements. 
 
-You must have the following access to perform the steps in this article:  
-
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -85,10 +83,14 @@ You must have the following access to perform the steps in this article:
    <td>   <p>View or higher permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+  
+</td>
+  </tr>
+
 </tbody> 
 </table> 
 
@@ -115,7 +117,7 @@ For more information about Workfront Planning notifications, also see the follow
    ![Adobe Experience Cloud notifications panel for Workfront Planning](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. The following notifications are available for Workfront:
 
-   * **Mentions**: You receive a notification when someone tags you in a comment in Workfront Planning
+   * **Mentions**: You receive a notification when someone tags you or your team in a comment in Workfront Planning
    * **Requests**: You receive a notification when someone done one of the following:
    
       * Requests or grants you permission to a Workfront Planning object

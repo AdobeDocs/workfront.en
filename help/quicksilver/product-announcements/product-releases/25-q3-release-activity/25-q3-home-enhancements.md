@@ -14,9 +14,17 @@ For a list of all changes available at this point in the Third Quarter 2025 rele
 
 ## All Approvals widget renamed to Document approval metrics
 
-We've renamed the All Approvals widget to Document Approval Metrics to more accurately reflect the information it displays. The Document Approval Metrics widget provides high-level insights into document approvals for the projects you own.
+>[!NOTE]
+>
+>* Preview: June 30, 2025
+>* Production fast release: June 30, 2025 
+>* Production for all customers:  June 30, 2025
 
-This widget does not contain any information about proof approvals. 
+We've renamed the All Approvals widget to Document Approval Metrics to more accurately reflect the information it displays. The Document Approval Metrics widget provides high-level insights into document approvals for the projects you own. You must have [Unified Approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) enabled to use this widget.
+
+This widget does not contain any information about proof approvals.
+
+For more information, see [Get started with Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Updated commenting experience in the Mentions section on the My Updates area  
 

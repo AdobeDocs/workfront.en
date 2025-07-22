@@ -12,9 +12,9 @@ exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 
 # Share record types
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -90,11 +90,7 @@ You must have the following access to perform the steps in this article:
    <td>  <p>Manage permissions to a record type</p>  
    <p>Only users with Manage permissions to a workspace can share Manage permissions to a record type</p></td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p> </td> 
-  </tr> 
+ 
 </tbody> 
 </table> 
 
@@ -145,6 +141,7 @@ You can adjust permissions to individual record types of a workspace if you have
    This opens the record type page.
 
 1. From the tab of any view, click **Share** in the upper-right corner of the record type. 
+1. Click **Share the record type**.
 
    The **Share** box opens.
 
@@ -172,7 +169,7 @@ You can adjust permissions to individual record types of a workspace if you have
 
    >[!IMPORTANT]
    >
-   >* In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. 
+   >* In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. You cannot add Workfront-only users. For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).  
    >* You can never give users greater permissions on a record type than they have on a workspace.
    >* You cannot give users a lesser permission than Manage to a record type, if they have Manage permissions to the workspace. 
    >* You can give users a lesser permission to the record type if they have Contribute permissions to the workspace. 
@@ -188,6 +185,10 @@ You can adjust permissions to individual record types of a workspace if you have
 1. Click **Save**.
 
    The record type is now shared with other users. 
+   The users you shared the record type with receive both an in-app and email notification about having given permissions to the following entities:
+
+   * The record type
+   * The workspace, if they had not had permissions to the workspace before the record type was shared with them. 
 
 1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the record type page and display it in the selected view. They must have permissions to the record type to be able to view it. 
 
@@ -200,6 +201,7 @@ You can remove users' permissions from a record type. However, they will retain 
 1. Open the workspace whose record types you want to stop sharing, then click a record type card. This opens the record type page.
 
 1. From the tab of any view, click **Share** in the upper-right corner of the record type. 
+1. Click **Share the record type**.
 
    The **Share** box opens.
 1. Find the user, group, team, company, or job role that whose permissions you want to remove, expand the permissions drop-down menu to the right of their name, then click **Remove**. <!--check the screen shot below - the UI text for View might not be accurate-->

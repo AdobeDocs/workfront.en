@@ -9,7 +9,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
 ---
-# Grant administrative access for a layout template
+# Delete Classic layout templates
 
 Layout templates from the Classic Workfront experience are not longer available in the Workfront interface, but may still affect Workfront data. This can cause inconsistencies in fields affected by layout templates (such as Shared with) on reports or dashboards.
 

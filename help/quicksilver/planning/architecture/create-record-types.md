@@ -12,9 +12,9 @@ exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 
 # Create record types
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -24,9 +24,7 @@ For more information about record types, see [Record types overview](/help/quick
 
 ## Access requirements
 
-+++ Expand to view access requirements.  
-
-You must have the following access to perform the steps in this article:  
++++ Expand to view access requirements.   
 
  <table style="table-layout:auto"> 
 <col> 
@@ -81,11 +79,6 @@ You must have the following access to perform the steps in this article:
    <td>   <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> </td> 
-  </tr> 
 </tbody> 
 </table> 
 
@@ -104,6 +97,8 @@ You must have the following access to perform the steps in this article:
 
         * When you import them using a CSV or Excel file. 
 
+            For more information, see [Create Record Types by importing information from a CSV or Excel file](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
+
         >[!TIP]
         >
         >When you import a record type from a CSV or Excel file, you can also import records and fields. 
@@ -113,6 +108,11 @@ You must have the following access to perform the steps in this article:
         * From scratch.
 
             This article describes how you create record types from scratch.    
+
+        <!--
+        * <span class="preview">By importing them from another workspace or adding cross-workspace record types</span>
+            <span class="preview">For information, see [Add cross-workspace record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md). </span>-->
+
 
 * You can move record types within a section and from one section of a workspace to another. You cannot move record types from one workspace to another workspace. 
 
@@ -156,22 +156,45 @@ For information about what record types are included with each template, see [Li
         * Select a color to identify your new record type. This is the color of the record type icon. Gray is selected by default.
         * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default. 
 
-1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Connectivity scope** section: <!--the info here is duplicated in the Edit record types article-->
 
-    * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
-    * Choose from which workspaces the record type can be accessed. Choose from the following options:
+    <!--old setting:
+    1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Connectivity scope** section: 
+        * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
+        * Choose from which workspaces the record type can be accessed. Choose from the following options:
+            * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
+            * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type. 
+    -->
 
-        * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
-        * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type. 
-
+1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: <!--the info here is duplicated in the Edit record types article-->
+    * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
+    You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
+    For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).    
+    
+    
     ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png)
 
-1. Click **Create**.
+    <!--replace last point with this when we release dynamic record types; the preview tags might need to be edited, too:
+        <div class="preview">
+        1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
+            * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
+                You can designate specific users who can add this record type to other workspaces. 
+            * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
+                You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
+            For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  </div>
+            ******** replace screen shot below **********
+            ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
+        -->
+
+1. Click **Save**.
 
     The record type card is added to the section and the workspace you selected. 
     The Description of the record type displays on the card. 
 
     ![Record type card with description](assets/record-type-card-with-description.png)
+
+    If you selected to connect this record from other workspaces, the **connect from other spaces** icon ![Connect from other spaces icon](assets/connect-from-other-workspaces-icon.png) displays on the record card. 
+
+    <!--<span class="preview">If you configured the cross-workspace capabilities for the record, the **connect from other spaces** icon ![Connect record type from other spaces icon](assets/connect-from-other-workspaces-icon.png) and the **add to other workspaces** icon ![Add record type to other workspaces](assets/global-icon.png) also display on the card. </span>-->
 
 1. (Optional) Hover over the record type card, click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner, then click **Edit** to modify information about the record type. 
 1. (Optional) Click the record type card to open the record type page. 
@@ -222,4 +245,16 @@ You can import the following when importing information from a CSV or Excel file
 
 For more information, see [Create Record Types by importing information from a CSV or Excel file](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md). 
 
+<!--
 
+<div class="preview">
+
+## Create record types by importing them from another workspace 
+
+You can add record types to a workspace by importing them from another workspace. You can only add record types that have been configured as cross-workspace record types. 
+
+For information, see [Add cross-workspace record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
+
+</div>
+
+--> 

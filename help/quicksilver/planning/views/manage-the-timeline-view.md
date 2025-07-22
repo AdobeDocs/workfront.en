@@ -9,9 +9,9 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 ---
 # Manage the timeline view
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -60,9 +60,9 @@ For information about record views, see [Manage record views](/help/quicksilver/
    </td> 
    </tr> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td><p> Standard </p>
+    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
    <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
@@ -76,11 +76,12 @@ For information about record views, see [Manage record views](/help/quicksilver/
    <td>   <p>Manage permissions to a view</p>  
    <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> </td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table> 
 
@@ -120,9 +121,7 @@ To manage a timeline view:
     >
     >    The sorting of the records in the timeline is not visible in the Compact view.
 
-1. <span class="preview"> (Conditional) If your administrator has enabled custom quarters, and Workfront detects problems with the way the custom quarters are configured, you might receive a warning when opening the timeline view. </span>
-
-    <div class="preview">
+1. (Conditional) If your administrator has enabled custom quarters, and Workfront detects problems with the way the custom quarters are configured, you might receive a warning when opening the timeline view. 
 
     The following scenarios exist: 
 
@@ -146,13 +145,11 @@ To manage a timeline view:
     >After setting up custom quarters in the Setup area, the timeline view displays the custom quarters instead of the classic quarters.
     >For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
-    </div>  
-
-1. <span class="preview">(Conditional) If you are a Workfront administrator, click **Go to Setup** to set up your quarters. If not, click **OK** and ask your Workfront administrator to set up the custom quarters.</span>
+1. (Conditional) If you are a Workfront administrator, click **Go to Setup** to set up your quarters. If not, click **OK** and ask your Workfront administrator to set up the custom quarters.
 
     >[!TIP]
     >
-    ><span class="preview">The Go to Setup button displays only for the Workfront administrator.</span>
+    >The Go to Setup button displays only for the Workfront administrator.
     
 1. (Optional and conditional) When the record name is truncated, hover over a record bar to display the full name of the record and additional information. For information about setting up record bar truncation in the timeline, see the section [Edit the timeline view settings](#edit-the-timeline-view-settings) in this article.
 
@@ -166,7 +163,7 @@ To manage a timeline view:
         * **Quarter**: Displays months and weeks with quarter indication. 
         * **Month**: Displays weeks and days. 
 1. (Optional) Click **Switch to Compact view** to display the records whose dates don't intersect on the same line. <!--check to see if they updated the name of the setting here--> 
-1. (Conditional) If you changed your mode to **Compact**, click **Switch to Standard** view to display records in separate lines. <span class="preview">The **Standard** option is the default.</span>  <!--check to see if they updated the name of the setting here--> 
+1. (Conditional) If you changed your mode to **Compact**, click **Switch to Standard** view to display records in separate lines. The **Standard** option is the default.  <!--check to see if they updated the name of the setting here--> 
 
 1. Do the following to quickly find records that match a keyword:
 
@@ -386,7 +383,7 @@ Update the timeline view settings to indicate what and how information displays 
     >
     >* If you display additional records using the Breakdown option, the Start and End dates are those of the main record. You cannot choose Start and End dates for the connected records in this area. 
 
-1. <span class="preview">(Conditional and optional) If your are a Workfront administrator, click **Go to Setup** in the **Use custom quarters** box to go to the Setup area and set up custom quarters. After setting up custom quarters, you can display them in the timeline view instead of the classic quarters. If you are not a Workfront administrator, you can request that the custom quarters are enabled for your organization from an administrator. </span>
+1. (Conditional and optional) If your are a Workfront administrator, click **Go to Setup** in the **Use custom quarters** box to go to the Setup area and set up custom quarters. After setting up custom quarters, you can display them in the timeline view instead of the classic quarters. If you are not a Workfront administrator, you can request that the custom quarters are enabled for your organization from an administrator. 
 
     For information, see [Enable custom quarters](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md). 
 
@@ -394,11 +391,11 @@ Update the timeline view settings to indicate what and how information displays 
 
     >[!TIP]
     >
-    ><span class="preview">The Go to Setup button displays only for the Workfront administrator.</span>
+    >The Go to Setup button displays only for the Workfront administrator.
 
 1. Click **Bar style** in the left panel, to indicate what information you want to display on the record bars.
 
-    You can define the bar style of  the main record <span class="preview">as well as for the connected records</span>, when using the Breakdown option in the Standard view. 
+    You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. 
 
     The primary field (or title) of the record, as defined in the record's table view, is selected by default.
     <!--adjust this when the primary field is released??-->
@@ -423,20 +420,20 @@ Update the timeline view settings to indicate what and how information displays 
 
     ![Record details panel timeline settings with preview](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview">(Optional and conditional) If you display the timeline in the Standard mode, select the **Truncate bar details** setting. When selected, the information on the record bars is truncated, and it only displays fully when you hover over the bars. This setting is deselected by default, and the  record information is fully displayed on the bars. </span>
+1. (Optional and conditional) If you display the timeline in the Standard mode, select the **Truncate bar details** setting. When selected, the information on the record bars is truncated, and it only displays fully when you hover over the bars. This setting is deselected by default, and the  record information is fully displayed on the bars. 
 
     ![Truncate setting enabled on timeline settings box highlighted](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
     >[!TIP]
     >
-    ><span class="preview">The Truncate bar details setting is not available when displaying the timeline view in Compact mode.</span>
+    >The Truncate bar details setting is not available when displaying the timeline view in Compact mode.
     >
 
 1. Click **Color** in the left panel, to customize the colors of the records and groupings in the timeline. 
 
     ![Color tab timeline view](assets/color-tab-timeline-view.png)
 
-    You can define the color of  the main record <span class="preview">as well as for the connected records</span>, when using the Breakdown option in the Standard view. 
+    You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. 
 
 1. (Conditional and optional) If you added a grouping to the timeline view, select from the following options to set a color for the grouping in the **Set grouping color** section:
 
@@ -475,7 +472,7 @@ Update the timeline view settings to indicate what and how information displays 
 
     If you do not have a field with color-coded options for the selected record type, this option is dimmed.
 
-1. <span class="preview">(Optional) If you are using the **Breakdown** option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>
+1. (Optional) If you are using the **Breakdown** option, repeat the steps starting with step 4 for each connected record displayed in the timeline. 
 
 1. Click **Save**.
 
@@ -509,7 +506,7 @@ You can display connected records in a record's timeline view by using the Break
 #### Break down connected records
 
 1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. From the **Standard** or <span class="preview">**Compact** modes, click **Breakdown**</span> in the upper-right corner of the timeline view.
+1. From the **Standard** or **Compact** modes, click **Breakdown** in the upper-right corner of the timeline view.
 1. Expand the **Select a linked record type** box and select a connected record type. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
     ![Breakdown picker and button on timeline view](assets/breakdown-picker-and-button-on-timeline.png)
@@ -537,13 +534,13 @@ You can display connected records in a record's timeline view by using the Break
     >
     >Both Products and Programs must be connected to the campaigns to display as choices for the breakdown option, and you can add them to the breakdown in any order.
 
-1. <span class="preview">(Conditional) If you are viewing the timeline in the Compact mode, click **Switch view**. The breakdown is not visible in **Compact** mode.</span>  
+1. (Conditional) If you are viewing the timeline in the Compact mode, click **Switch view**. The breakdown is not visible in **Compact** mode. 
 
     >[!TIP]
     >
-    ><span class="preview">Select **Don't show this again** in the **Switch to the Standard view?** box, before switching the view. </span>
+    >Select **Don't show this again** in the **Switch to the Standard view?** box, before switching the view. 
     >
-    ><span class="preview">This preference is remembered only for the current browser. If you change browsers or computers, you will have to select this preference again.</span>
+    >This preference is remembered only for the current browser. If you change browsers or computers, you will have to select this preference again.
     >
     >You cannot revert to the Compact mode after you switched the view to Standard and you display connected records in the view. 
 1. (Optional) Repeat the steps above to add more connected records. 
