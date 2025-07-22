@@ -18,7 +18,6 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
-
 ### Interface updates for the Layout Templates page
 
 **Preview release: July 17, 2025; Production release: July 24, 2025**
@@ -242,7 +241,7 @@ The new experience is available when creating or editing Topic Groups in project
 
 ### Interface updates for the Associated projects section of a project (available for specific customers only)
 
-**Preview release: June 12, 2025; Production release: To be announced**
+**Preview release: June 12, 2025; Production release: June 19, 2025**
 
 We have updated the Associated projects section of a project with a more modern design that is consistent with other areas of Workfront.
 
@@ -250,7 +249,7 @@ Specific customers can view this change by going to a project's Associated proje
 
 ### New look and feel for the "Save as template" box 
 
-**Preview release: June 12, 2025; Production release: To be announced**
+**Preview release: June 12, 2025; Production release: June 19, 2025**
 
 We have updated the look and feel of the "Save as template" box that displays when saving a project as a template. The new design includes a streamlined interface, where all the sections display in one cohesive form which you can navigate by using links in the left panel. The new design matches other areas and other objects in the application.  
 
