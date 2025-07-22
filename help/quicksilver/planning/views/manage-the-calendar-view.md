@@ -127,7 +127,9 @@ To manage a calendar view:
             * Records that span over multiple days display at the top of the calendar.
             * Records that last a day or less, display in the lower half of the calendar view. If you selected to display the hour of he Start and End Dates, the record displays at the appropriate time within the day that it occurs.
          
-
+    <!--
+    1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+    -->
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)
     * [Settings](#edit-the-calendar-view-settings)
