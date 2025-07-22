@@ -1,19 +1,20 @@
 ---
 product-area: Canvas Dashboards
-navigation-topic: manage-canvas-dashboards
-title: Share a Canvas Dashboard
-description: You can share a Canvas Dashboard with other Adobe Workfront users so that they can view or edit it.
-author: Nolan
+navigation-topic: report-types
+title: Arrange reports in a dashboard
+description: You can arrange how reports display in a Canvas dashbaord after they've been added to one. 
+author:  Courtney and Jenny 
 feature: Reports and Dashboards
-exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
+hidefromtoc: yes
+hide: yes
 ---
-# Share a Canvas Dashboard
+# Arrange reports in a dashboard
 
 >[!IMPORTANT]
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-You can share a Canvas dashboard with other Adobe Workfront users so they can view or edit it.
+Once a report is added to a dashboard, they display as a report box in the dashboard so you can quickly visualize its data at a glance. Once multiple reports have been added, it's recommended to rearrange the size and order of each box to display the dashboard data more efficiently.
 
 +++ Expand to view access requirements. 
 
@@ -48,25 +49,22 @@ You can share a Canvas dashboard with other Adobe Workfront users so they can vi
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
-## Share a Canvas Dashboard
+## Prerequisites
 
+You must add reports to a dashboard before they can be rearranged. 
+
+## Arrange reports in a dashboard
 
 {{step1-to-dashboards}}
 
 1. In the left panel, click **Canvas Dashboards**. 
 
-1. On the **Canvas Dashboards** page, select the dashboard you want to share. 
+1. On the **Canvas Dashboards** page, select **Edit layout** in the upper-right corner. The report boxes become editable. 
 
-1. In the upper-right corner of the page, click the **Share** button. The **Dashboard Sharing** dialog box appears.
+1. Click and drag a report box to a new position on the page. 
 
-1. In the **Give access to** field, begin typing the name of a specific user, team, role, group, or company you want to share the Canvas Dashboard with, then select it when it appears in the drop-down list. 
+1. (Optional) To adjust the length and width of a report box, click and hold the **Resize** ![Resize icon](assets/resize-icon.png) icon in the lower-right corner of the box, then adjust the size as needed.
 
-1. (Optional) To edit an entity's access to the dashboard, click **View** next to their name, then select **Manage** in the drop-down list that appears. 
+1. Repeat steps 4-5 for each box you want to rearrange.
 
-    >[!NOTE]
-    >
-    >Some entities can't have their access level changed (e.g. administrators).
-
-1. Repeat steps 5-6 for each entity you want to share the dashboard with.
-
-1. Click the **Share** button.
+1. Click **Save** in the upper-right corner. 

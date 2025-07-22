@@ -1,19 +1,20 @@
 ---
 product-area: Canvas Dashboards
-navigation-topic: manage-canvas-dashboards
-title: Share a Canvas Dashboard
-description: You can share a Canvas Dashboard with other Adobe Workfront users so that they can view or edit it.
-author: Nolan
+navigation-topic: report-types
+title: Edit report filters
+description: You can edit report filters after they've been applied to a Canvas dashboard.
+author:  Courtney and Jenny 
 feature: Reports and Dashboards
-exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
+hidefromtoc: yes
+hide: yes
 ---
-# Share a Canvas Dashboard
+# Edit report filters
 
 >[!IMPORTANT]
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-You can share a Canvas dashboard with other Adobe Workfront users so they can view or edit it.
+You can edit report filters once you've applied them to a Canvas dashboard to update the data that displays as a project progresses. 
 
 +++ Expand to view access requirements. 
 
@@ -48,25 +49,26 @@ You can share a Canvas dashboard with other Adobe Workfront users so they can vi
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
-## Share a Canvas Dashboard
+## Prerequisites
 
+You must add a filter to a report before it can be edited. 
+
+## Edit a report filter
 
 {{step1-to-dashboards}}
 
 1. In the left panel, click **Canvas Dashboards**. 
 
-1. On the **Canvas Dashboards** page, select the dashboard you want to share. 
+1. On the **Canvas Dashboards** page, click the **More** ![More icon](assets/more-icon.png) icon in the upper-right corner of the report that contains the filter you want to edit, then select **Edit**. 
 
-1. In the upper-right corner of the page, click the **Share** button. The **Dashboard Sharing** dialog box appears.
+    ![Edit a report](assets/edit-report-box.png)
 
-1. In the **Give access to** field, begin typing the name of a specific user, team, role, group, or company you want to share the Canvas Dashboard with, then select it when it appears in the drop-down list. 
+1. On the left side of the **Configure** dialog box, select the **Filters** panel.
 
-1. (Optional) To edit an entity's access to the dashboard, click **View** next to their name, then select **Manage** in the drop-down list that appears. 
+1. Click **Edit filter**.
 
-    >[!NOTE]
-    >
-    >Some entities can't have their access level changed (e.g. administrators).
+1. Select the field or the modifier that you want to edit, then adjust the current selections as needed.  
 
-1. Repeat steps 5-6 for each entity you want to share the dashboard with.
+1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR.
 
-1. Click the **Share** button.
+1. Click **Save**.
