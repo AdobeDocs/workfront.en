@@ -1,6 +1,6 @@
 ---
 content-type: release-notes
-title: Forth Quarter 2025 release activity for Adobe Workfront Planning
+title: Fourth Quarter 2025 release activity for Adobe Workfront Planning
 description: This is the release activity for the Adobe Workfront Planning product for the Fourth Quarter 2025.
 author: Alina
 feature: Product Announcements
