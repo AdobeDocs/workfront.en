@@ -20,7 +20,7 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 
 >[!NOTE]
 >
->Preview: July 21, 2025 
+>Preview: July 22, 2025 
 >Production for fast release: August 14, 2025 
 >Production for all: October 16, 2025 
 
