@@ -28,7 +28,7 @@ For information, see [Manage Hour Types](/help/quicksilver/administration-and-se
 
 ## Interface updates to the Audit Logs page in Setup
 
-**Preview release: July 22, 2025; Production release: To be annoounced**
+**Preview release: July 22, 2025; Production release: To be announced**
 
 We have updated the Audit Logs page in Setup to match other areas of the application.
 
@@ -92,13 +92,13 @@ To view the change, go to Setup > Interface > Layout Templates.
 
 For information, see [Create and manage layout templates](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-### Interface updates to Portfilios tab in a group
+### Interface updates to Portfolios tab in a group
 
 **Preview: July 10, 2025; Production for everyone: July 17, 2025**  
 
 We have updated the Portfolio page in the left panel in a group to match other areas of the application.
 
-To view these changes, go to Setup > Groups > select a group > Portiolios. 
+To view these changes, go to Setup > Groups > select a group > Portfolios. 
 
 ### Interface updates to subgroup dialogs
 
@@ -273,7 +273,7 @@ No functionality changes have been introduced with this update.
 
 **Preview release: May 15, 2025; Production release: May 21, 2025**
 
-We have updated the share dialog box to allow users to share documents with external users using an email address. This funtionality was temporarily unavailable due to the interface modernization work.
+We have updated the share dialog box to allow users to share documents with external users using an email address. This functionality was temporarily unavailable due to the interface modernization work.
 
 +++
 
@@ -564,9 +564,9 @@ A small functionality change has been applied to the Access Levels list. To copy
 
 We have updated the Announcement Center with a more modern design that is consistent with other areas of Workfront. 
 
-To view this change, go to the Notifications icon in the upper-right corner, then choose All Annoucements. 
+To view this change, go to the Notifications icon in the upper-right corner, then choose All Announcement. 
 
-### Interface update for customizing Event Notfification subjects
+### Interface update for customizing Event Notification subjects
 
 **Preview release: February 13, 2025; Starting the week of February 13, 2025**
 
@@ -624,11 +624,11 @@ This update includes visual changes to the area. No functionality has changed.
 
 We have updated the Email Templates page with a more modern design that is consistent with other areas of Workfront.
 
-Instead of clicking directly on the template name to edit the template, you must select the checkbox, then click Edit icon in the toolbar. 
+Instead of clicking directly on the template name to edit the template, you must select the checkbox, then click the Edit icon in the toolbar. 
 
 To view this page, go to Setup > Email > Notifications > Email Templates.
 
-### Interface update for the email Invitations page in Setup
+### Interface update for the Email Invitations page in Setup
 
 **Preview release: January 23, 2025; Production release: Starting the week of January 30,2025**
 
@@ -782,7 +782,7 @@ To view this change, go to a document > Click Document Details > Approvals.
 
 **Preview release: January 27, 2025; Production release: Starting the week of February 3, 2025**
 
-We have udpated the Smart Folders edit dialog box with a more modern design that is consistent with other areas of Workfront. 
+We have updated the Smart Folders edit dialog box with a more modern design that is consistent with other areas of Workfront. 
 
 To view this change, go to a Documents > Click the more menu next to the Smart Filter name > Click Edit. 
 
@@ -895,7 +895,7 @@ We have updated the Access Level report with a more modern design that is consis
 
 This update includes visual changes to the report. No functionality has changed.
 
-To create an Team report, go to Reports > New Report > Access Level.
+To create a Team report, go to Reports > New Report > Access Level.
 
 ### Updated Team report with new styling
 
@@ -905,7 +905,7 @@ We have updated the Team report with a more modern design that is consistent wit
 
 This update includes visual changes to the report. No functionality has changed.
 
-To create an Team report, go to Reports > New Report > Team.
+To create a Team report, go to Reports > New Report > Team.
 
 
 ### Updated email reports with new styling
