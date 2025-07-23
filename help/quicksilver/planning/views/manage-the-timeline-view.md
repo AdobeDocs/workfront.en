@@ -108,6 +108,14 @@ Consider the following:
     * When the Start or the End dates have no value
     * When the Start date is after the End date 
 
+<!--
+<div class="preview">
+
+* You can create and edit records in the timeline view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+</div>
+-->
+
 To manage a timeline view: 
 
 1. Go to the record type page for which you want to view the timeline. 
@@ -178,6 +186,10 @@ To manage a timeline view:
     1. Press Enter on your keyboard to go to the next found field.
     1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table.
     1. Click the **x** icon in the search box to clear the search keyword.
+
+    <!--
+    1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+-->
 
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)
