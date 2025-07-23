@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** or **Edit** button to the right of Filters, then select the abilities you want to grant under **Fine-tune your settings**.
 
-   ![](assets/gear-icon-filters-dashboards-groupings.jpg)
+   ![](assets/gear-icon-filters-dashboards-groupings.png)
 
    By default, users with a Plan, Work, Reviewer, or Request license have full View and Edit abilities. Users with an External User license do not access to filters, views, and groupings.
 

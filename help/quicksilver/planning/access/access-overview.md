@@ -12,9 +12,9 @@ exl-id: 99fac041-a235-4991-b826-d19944164bc9
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -98,8 +98,8 @@ You must have the following access to access Workfront Planning:
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
    <ul>
-   <li><p>View or higher permissions to workspaces, <span class="preview">record types</span> and views that you did not create to access them and their objects.</p></li>
-   <li><p>Contribute or higher permissions to workspaces <span class="preview">and record types</span> that you did not create to edit them and create, edit, or delete record types and records.</p></li>
+   <li><p>View or higher permissions to workspaces, record types and views that you did not create to access them and their objects.</p></li>
+   <li><p>Contribute or higher permissions to workspaces and record types that you did not create to edit them and create, edit, or delete record types and records.</p></li>
    <li><p>Contribute or higher permissions to views that you did not create, to edit, delete, and share them</p>
    </li>
     <li><p>System Administrators can manage workspaces they did not create. </p></li>
@@ -110,16 +110,14 @@ You must have the following access to access Workfront Planning:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <div class="preview">
+   <td> 
 <p>Standard users and System Administrators have the Planning areas enabled by default.</p>
 <p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
    <ul><li>Main Menu</li>
    <li>Left panel of projects, portfolios, and programs</li>
    </ul>
    <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
-   </div>
-   <p><b>NOTE</b></p>
-   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
+   
 </td>
   </tr>
  </tbody>
@@ -139,16 +137,12 @@ After your organization has purchased an additional Workfront Planning license, 
 * Left panel for projects, portfolios, and programs
 * Pins
 
-<div class="preview">
-
 Standard users and System Administrators have the Planning areas enabled by default in the following areas:
 
 * Main Menu
 * Left panel of projects, portfolios, or programs
 
-</div>
-
-To add <span class="preview"> or remove </span> Workfront Planning areas from users of your Workfront instance: 
+To add or remove Workfront Planning areas from users of your Workfront instance: 
 
 1. Log in to **Workfront** as a Workfront administrator.  
 

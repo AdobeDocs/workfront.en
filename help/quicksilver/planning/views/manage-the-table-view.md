@@ -67,9 +67,9 @@ For information about exporting the table view to an Excel or CSV file, see [Exp
    </td> 
    </tr> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td><p> Standard </p>
+    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
    <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
@@ -81,8 +81,14 @@ For information about exporting the table view to an Excel or CSV file, see [Exp
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings, duplicate, or to export it</p> </td> 
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
   </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table> 
 
@@ -110,6 +116,10 @@ To manage a table view:
     * Short
     * Medium
     * Tall 
+
+    <!--
+    1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+    -->
 
 1. Update the following view elements as described in the subsections below:
     * [Columns (or fields)](#add-columns-or-fields)

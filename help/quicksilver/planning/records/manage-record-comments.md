@@ -9,9 +9,9 @@ exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 ---
 # Manage record comments
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -26,9 +26,7 @@ The right panel of a record displays the following sections:
 
 +++ Expand to view access requirements. 
 
-You must have the following access to perform the steps in this article:  
-
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -78,19 +76,16 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>View or higher permissions to a workspace <span class="preview">and record type</span> </a> </p>  
+   <td>   <p>View or higher permissions to a workspace and record type</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
-   <div class="preview">
-<p> In the Preview environment, users with a Light or Contributor license must be assigned a layout template that includes Planning.</p>
-   
-   <p>Standard users and System Administrators have Planning enabled by default.</p></div>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
 
-   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p> </td> 
-  </tr> 
+</td>
+  </tr>
 </tbody> 
 </table> 
 

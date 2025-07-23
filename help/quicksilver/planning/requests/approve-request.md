@@ -3,7 +3,7 @@ title: Approve a Request in Adobe Workfront Planning
 description: When a user submits a request to a request form associated with an approval in Adobe Workfront Planning, approvers receive a notification and an email about the pending approval. They must approve the request before Workfront Planning creates an object.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
 ---
@@ -39,13 +39,11 @@ We recommend that you also see the following articles:
    * **Completed**: If all approvers approve the request object, its status changes to **Completed**, or if the request did not need an approval.
    * **Rejected**: If any approver rejects the request object, the status becomes **Rejected**. No record is created and a new request must be submitted to create the record. 
 
-<!--* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>-->
+* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>
 
 ## Access requirements
 
 +++ Expand to view access requirements. 
-
-You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto">
  <col>
@@ -101,18 +99,12 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
    <ul>
-   <li><p>Manage permissions to a workspace <span class="preview">and record type</span> </p></li>
+   <li><p>Manage permissions to a workspace and record type </p></li>
     <li><p>System Administrators can manage workspaces they did not create. </p></li>
     </ul>
    <p>For information about sharing permissions for Workfront Planning objects, see  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Overview of sharing permissions in Adobe Workfront Planning</a> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> 
-</td>
   </tr>
  </tbody>
 </table>

@@ -3,7 +3,7 @@ title: Add an Approval to a Request Form in Adobe Workfront Planning
 description: You can add an approval process to an Adobe Workfront Planning request form, to initiate an approval for every submitted request, before it creates a record.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
 ---
@@ -30,8 +30,6 @@ For information about submitting a request to a record type to create a record, 
 ## Access requirements
 
 +++ Expand to view access requirements. 
-
-You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto">
  <col>
@@ -87,19 +85,14 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
    <ul>
-   <li><p>Manage permissions to a workspace <span class="preview">and record type</span></p></li>
+   <li><p>Manage permissions to a workspace and record type</p></li>
     <li><p>System Administrators can manage workspaces they did not create. </p></li>
     </ul>
    <p>For information about sharing permissions for Workfront Planning objects, see  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Overview of sharing permissions in Adobe Workfront Planning</a> 
   </td>
   </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p>
-</td>
-  </tr>
+
  </tbody>
 </table>
 
@@ -110,7 +103,7 @@ You must have the following access to perform the steps in this article:
 ## Considerations about adding approvals to a request form
 
 * You can add one or multiple approvers to a request form. You can add only users as approvers. 
-<!--* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>-->
+* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>
 * When you add multiple approvers to a request form, all approvers must accept the request before a record is created in Workfront Planning. 
 * If all approvers approve the request, a record is created for the record type associated with the request form. 
 * If at least one approver rejects the request, and all others approve it, a request is created for the Requests area in Workfront, but no record is created for the record type associated with the request form. 
@@ -124,11 +117,11 @@ You must have the following access to perform the steps in this article:
     The **Configuration** area displays.
 
     ![Configuration tab](assets/configuration-tab.png)
-1. In the **Approvers** field, click the drop-down icon and select one or several names in the list
+1. In the **Approvers** field, click the drop-down icon and select one or several users <span class="preview">or teams</span> in the list
 
     Or
 
-    Start typing the name of an approver, then select it when it displays in the list. 
+    Start typing the name of a user <span class="preview">or team</span> that you want to set as an approver, then select it when it displays in the list. 
 
     <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -142,6 +135,8 @@ You must have the following access to perform the steps in this article:
       >* If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Planning tab of the Submitted section in the Requests area of Workfront.
       >
       >* All approvers must make a decision before a request is either approved or rejected.
+      >
+      >* <span class="preview">If a team is set as an approver, only one decision is required from the team.</span>
 
 
 1. (Optional) Click **Publish** if you have never shared the request form before

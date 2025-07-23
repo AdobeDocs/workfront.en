@@ -12,9 +12,9 @@ exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 
 # Create record types
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -24,9 +24,7 @@ For more information about record types, see [Record types overview](/help/quick
 
 ## Access requirements
 
-+++ Expand to view access requirements.  
-
-You must have the following access to perform the steps in this article:  
++++ Expand to view access requirements.   
 
  <table style="table-layout:auto"> 
 <col> 
@@ -81,11 +79,6 @@ You must have the following access to perform the steps in this article:
    <td>   <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> </td> 
-  </tr> 
 </tbody> 
 </table> 
 
@@ -117,7 +110,7 @@ You must have the following access to perform the steps in this article:
             This article describes how you create record types from scratch.    
 
         <!--
-        * <span class="preview">By importing then from another workspace or adding cross-workspace record types</span>
+        * <span class="preview">By importing them from another workspace or adding cross-workspace record types</span>
             <span class="preview">For information, see [Add cross-workspace record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md). </span>-->
 
 

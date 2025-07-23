@@ -136,9 +136,21 @@ You can adjust permissions to individual record types of a workspace if you have
 
 {{step1-to-planning}}
 
-1. Open the workspace whose record types you want to share, then click a record type card. 
+1. Open the workspace whose record types you want to share. 
 
-   This opens the record type page.
+<!--when we release Share on the record type card, replace the next 3 steps with this: 
+
+1. Do one of the following: 
+
+   * <span class="preview">From the record type card, click the **More** menu > **Share**.</span>
+   * Click a record type card to open the record type's page, then click **Share** > **Share the record type** from any record type view.
+
+   The **Share** box opens.
+-->
+
+1. Click a record type card. 
+
+   The record type page opens.
 
 1. From the tab of any view, click **Share** in the upper-right corner of the record type. 
 1. Click **Share the record type**.
@@ -154,7 +166,6 @@ You can adjust permissions to individual record types of a workspace if you have
    >[!TIP]
    >
    >You cannot remove individual entities from the Inherited permissions list.
- 
 
 1. (Optional and conditional) If you want to share the record type with specific entities and give them a different access to the record type than they already have for the workspace, do the following:
 
@@ -169,7 +180,7 @@ You can adjust permissions to individual record types of a workspace if you have
 
    >[!IMPORTANT]
    >
-   >* In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. 
+   >* In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. You cannot add Workfront-only users. For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).  
    >* You can never give users greater permissions on a record type than they have on a workspace.
    >* You cannot give users a lesser permission than Manage to a record type, if they have Manage permissions to the workspace. 
    >* You can give users a lesser permission to the record type if they have Contribute permissions to the workspace. 
