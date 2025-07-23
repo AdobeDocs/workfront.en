@@ -16,6 +16,48 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Create records in the timeline view
+
+>[!NOTE]
+>
+>Preview: July 24, 2025
+>Production fast release: August 14, 2025
+>Production for everyone: October 16, 2025
+
+You can now create records in the timeline view of a record type by double-clicking anywhere on the timeline.
+
+You can select the date range of your record or open the record's page to edit all its details.
+
+Prior to this enhancement, you could only add new records using the New record button or inline in the table view.
+
+For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+## Add Share option in the More menu of a record type card 
+
+>[!NOTE]
+>
+>Preview: July 24, 2025
+>Production fast release: August 14, 2025
+>Production for everyone: October 16, 2025
+
+You can now share a record type from the More menu of the record type card on the workspace page. Prior to this enhancement, the Share option was available only inside the record type page.
+
+For information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md).
+
+## Display all Workfront Planning views in full-screen mode
+
+>[!NOTE]
+>
+>Preview: July 24, 2025
+>Production fast release: August 14, 2025
+>Production for everyone: October 16, 2025
+
+You can now display all Workfront Planning views (table, timeline, and calendar) in full-screen mode. The view functionality is preserved and you can change the view while in full-screen, as well.
+
+Prior to this enhancement, this functionality did not exist.
+
+For information, see [Manage record views](/help/quicksilver/using/adobe-workfront-planning/adobe-workfront-planning-views/manage-record-views.md).
+
 ## Add teams as approvers on Planning request forms
 
 >[!NOTE]

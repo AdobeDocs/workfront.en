@@ -18,6 +18,14 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+## Interface changes for the New and Edit Hour Type boxes
+
+**Preview release: July 24, 2025; Production release: July 31, 2025**
+
+We have updated the look and feel of the New and Edit Hour Type boxes when adding or editing hour types to the Hour Types area of Setup. The Hour Types area displays under the Timesheet & Hours area of Setup. The New and Edit Hour Type boxes now match other areas of Workfront. 
+
+For information, see [Manage Hour Types](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+
 ## Interface updates to the Audit Logs page in Setup
 
 **Preview release: July 22, 2025; Production release: To be annoounced**
@@ -35,6 +43,36 @@ To view this change, go to Setup > Change Tracking > Audit Logs.
 We have updated the Update users for SSO page with a more modern design that is consistent with other areas of Workfront.
 
 To view this change, go to Setup > System > Update Users For SSO-->
+
+## Templates
+
+## Interface changes when editing a Routing Rule for a template 
+
+**Preview release: July 24, 2025; Production release: August 14, 2025**
+
+We have updated the look and feel of a Routing Rule, when editing it on a template. The Routing Rule editing page now matches the design of other areas of Workfront.
+
+A small functionality change has been applied to the Routing Rules list. To edit Routing Rule, select the Routing Rule from the list and click the Edit icon.
+
+For information, see [Create Routing Rules](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+
+## Interface changes to the request queue management areas of a template
+
+**Preview release: July 24, 2025; Production release: July 31, 2025**
+
+We have updated the look and feel  of the following lists on templates:
+
+* Queue Topics 
+* Topic Groups
+* Routing Rules
+
+A small functionality change has been applied to the lists. To edit or delete an item in one of these lists, select the item and click the appropriate icon.
+
+For for more information, see 
+
+* [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* [Create Topic Groups](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+* [Create Routing Rules](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 ## Interface updates made in Q3
 

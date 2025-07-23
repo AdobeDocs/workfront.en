@@ -4,6 +4,9 @@ description: Fourth Quarter 2025 Resource Management enhancements
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+hide: yes
+hidefromtoc: yes
+recommendations: noDisplay, noCatalog
 ---
 # Fourth Quarter 2025 Resource Management enhancements
 
@@ -17,7 +20,7 @@ For a list of all changes available at this point in the Fourth Quarter 2025 rel
 >
 >* Preview: July 24, 2025
 >* Production fast release: August 14, 2025
->* Production for all customers: <!--check with lisa-->
+>* Production for all customers: October 16, 2025
 
 Resource managers can now review job role assignments in the Workload Balancer. The assignments are displayed in the Unassigned Work area, under the tasks or issues the roles are assigned to. Only work items assigned to users are displayed in the Assigned Work area.
 
