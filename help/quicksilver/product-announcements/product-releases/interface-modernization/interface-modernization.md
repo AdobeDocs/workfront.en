@@ -18,6 +18,14 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+## Interface updates for the Timesheet Profiles list in a group
+
+**Preview release: July 24, 2025; Production release: To be announced**
+
+We have updated the look and feel of the Timesheet Profiles list in the left panel in a group to match other areas of the application.
+
+To view these changes, go to Setup > Groups > select a group > Timesheet Profiles. 
+
 ## Interface changes for the New and Edit Hour Type boxes
 
 **Preview release: July 24, 2025; Production release: July 31, 2025**
