@@ -850,6 +850,7 @@ feature-set: Workfront
     * [Manage your work in the Priorities calendar](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
   * Home {#home}
     * [Home](workfront-basics/using-home/home.md)
+    * [Move from Legacy Home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
     * Use the Home area {#use-home-area}
       * [Use the Home area: article index](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
