@@ -58,7 +58,7 @@ For information, see [Manage project expenses](/help/quicksilver/manage-work/pro
 
 ## Interface changes when editing a Routing Rule for a template 
 
-**Preview release: July 24, 2025; Production release: August 14, 2025**
+**Preview release: July 24, 2025; Production release: July 31, 2025**
 
 We have updated the look and feel of a Routing Rule, when editing it on a template. The Routing Rule editing page now matches the design of other areas of Workfront.
 
