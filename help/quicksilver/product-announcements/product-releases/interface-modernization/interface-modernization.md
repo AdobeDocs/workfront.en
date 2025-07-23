@@ -44,6 +44,16 @@ We have updated the Update users for SSO page with a more modern design that is 
 
 To view this change, go to Setup > System > Update Users For SSO-->
 
+## Projects
+
+## Interface update for the Add an Expense box of a project or template
+
+**Preview release: July 24, 2025; Production release: July 31, 2025**
+
+We have updated the dialog box for adding a new expense to a project, to match other areas of the application. The updated dialog box is available when adding expenses in projects or templates.
+
+For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+
 ## Templates
 
 ## Interface changes when editing a Routing Rule for a template 
@@ -208,7 +218,7 @@ We have updated the Import Data (Kick-Starts) page in the Setup area with a more
 
 For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-## Interface updates to the Expense Types list
+### Interface updates to the Expense Types list
 
 **Preview release: May 22, 2025; Production release for all customers: May 29, 2025**
 
