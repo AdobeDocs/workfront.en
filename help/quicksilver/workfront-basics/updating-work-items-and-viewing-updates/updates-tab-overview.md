@@ -293,24 +293,33 @@ The following table shows the objects whose comments also display on their highe
 
 There are some limitations in the Updates section of a team and when entering updates on behalf of other users. 
 
-### Limitations for users and teams
+### Considerations for users and teams
 
 Consider the following when viewing updates for users and teams: 
 
 * You cannot add new comments in the Updates section of a team. 
-
-* The Updates section for teams is populated by updates entered on the following objects:
-
-  * Users
-  * Stories
-  * Timesheets
-  * Iterations
 
 * You can add a reply to an update you view on a team. The reply displays in the team's Updates section as well as the Updates section of the object it belongs to.
 
 * On the Updates section for users and teams, you can view the updates that have been entered in the past 90 days.
 
   If you want to see all the updates made on a user or a team, beyond the 90-day limit, you can build a report for notes. The report should not have a time filter that displays all updates made for users or teams. For more information, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+* The Updates section for teams is populated by comments added to the following objects:
+
+  * Users
+  * Stories
+  * Timesheets
+  * Iterations
+
+* The System updates tab of the Updates area for users is populated by updates to other objects. The following are updates that display in the System updates tab of user's profile, when these fields are tracked in the Updates Feeds area of Setup:
+
+  * Document addition, removal, and other document updates
+  * Hour addition, removal, addition on behalf of, and other hour entry updates
+  * Notes, updates to custom fields
+  * User profile updates (updates to the user's avatar, Mobile number, Talk to me about field, Title)
+  * User addition, removal, change in Access level, changes in built-in user fields
+  * Financial information from tasks and projects. 
 
 ### Limitations when entering comments on behalf of another user
 
