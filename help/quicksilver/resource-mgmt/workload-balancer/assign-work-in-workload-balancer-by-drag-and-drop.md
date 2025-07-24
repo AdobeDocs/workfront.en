@@ -66,7 +66,7 @@ You can assign an item from the Unassigned Work area to a user, or you can reass
 
    You can assign work to users using the Workload Balancer in the Resourcing area, at the project, or at the team level. For more information about where the Workload Balancer is located in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Optional) Go to the **Unassigned Work** area and apply a filter to view tasks, issues, <span class="preview">and role assignments</spam> that are not assigned to users
+1. (Optional) Go to the **Unassigned Work** area and apply a filter to view tasks, issues, <span class="preview">and role assignments</span> that are not assigned to users
 
    Or
 
