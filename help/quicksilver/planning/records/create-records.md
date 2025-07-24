@@ -10,9 +10,9 @@ exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 
 # Create records
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -20,18 +20,21 @@ In Adobe Workfront Planning, a record is an instance of a record type.
 
 You can create records by doing one of the following:
 
-* [Create records using the New record or Request record button from any record type view](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
-* [Create records by adding them inline from the record type table view](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* [Use the New record or Request record button from any record type view](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [Add them inline from the record type table view](#create-records-by-adding-them-inline-from-the-record-type-table-view)
 
-<!--
-* [Create records by adding them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)-->
+<div class="preview">
+
+* [Add them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)
+
+</div>
 
 * [Copy and paste a list of records from an external list](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicate records from a table view](#create-records-by-duplicating-them)
-* [Create records as you connect them from other records](#create-records-as-you-connect-them)
-* [Create records by submitting a request form to a record type](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [Create records by importing information from a CSV or Excel file](#create-records-by-importing-records-from-a-csv-or-excel-file)
-* [Create records by using automations](#create-records-by-using-automations)
+* [Connect them from other records](#create-records-as-you-connect-them)
+* [Submit a request form to a record type](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [Import information from a CSV or Excel file](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Use automations](#create-records-by-using-automations)
 
 For information about managing records in the table or timeline views, see the following articles:
 
@@ -264,7 +267,7 @@ For information about editing record information, see [Edit records](/help/quick
     * CTRL + Z (⌘ + Z for Mac) to undo a change 
     * CTRL + Shift + Z (⌘ + Shift + Z for Mac) to redo a change
 
-<!--<div class="preview">
+<div class="preview">
 
 ## Create records by adding them in the record type timeline view
 
@@ -289,7 +292,7 @@ For information about creating a timeline view, see [Manage the timeline view](/
     >You can create a timeline view only if there are at least two date fields associated with the record type.
 1. Double-click anywhere in the timeline. 
 
-    A new record box opens. 
+    A new record box opens. <!--might need a new screen shot for Production - might add a title etc-->
 
     ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
 1. Update the following information:
@@ -321,7 +324,7 @@ For information about creating a timeline view, see [Manage the timeline view](/
     >
     >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
 
-</div>-->
+</div>
 
 ## Create records by copying and pasting them from an external list
 
