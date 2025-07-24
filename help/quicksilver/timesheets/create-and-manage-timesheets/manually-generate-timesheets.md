@@ -15,7 +15,7 @@ For instructions on deleting timesheets, see [Delete timesheets in Adobe Workfro
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
++++ Expand to view access requirements.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,16 +36,18 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerations about manually generated timesheets
 
 When you manually generate timesheets:
 
-* They are generated according to the timesheet profiles that are associated with your users. Users who do not have timesheet profiles associated with them do not receive timesheets.&nbsp;
+* They are generated according to the timesheet profiles that are associated with your users. Users who do not have timesheet profiles associated with them do not receive timesheets.
 * Only the current timesheet and the one to follow are generated. Workfront does not generate two timesheets for the same period. If you already have a timesheet for the current timeframe, another one will not generate when you are using the manual process to generate timesheets.
 
-## Manually generate timesheets from the Timesheets &&nbsp;Hours area
+## Manually generate timesheets from the Timesheets & Hours area
 
 You can manually generate system-level or group-level timesheets from the Timesheets & Hours area in Setup.
 
@@ -58,7 +60,7 @@ You can manually generate system-level or group-level timesheets from the Timesh
    If you are generating timesheets used by a specific group, click **Groups**, then click the group's name.
 
 1. Click **Timesheet Profiles**.
-1. Click the **More** icon ![More icon](assets/more-icon.png) , then **Generate timesheets**.
+1. At the top of the timesheet profile list, click the **More** icon ![More icon](assets/more-icon.png) for system-level timesheet profiles, or **More**, for group timesheet profiles, then click **Generate timesheets**. 
 
    New timesheets are created for up to two periods of time for users associated with timesheet profiles.
 
@@ -70,5 +72,5 @@ You can manually generate system-level timesheets from the Diagnostics area in S
 
 1. Expand **System**, then click **Diagnostics**.
 
-1. Click **Conduct Diagnostics**.&nbsp;
+1. Click **Conduct Diagnostics**.
 1. Click **Generate Timesheets**.
