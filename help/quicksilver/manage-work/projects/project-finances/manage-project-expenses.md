@@ -52,8 +52,8 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Go to the project or task you want to enter expenses for.
 1. Click **Expenses** in the left panel.
-1. Click **Add an Expense**. The **Add an Expense** dialog box displays.
-1. Update the following:
+1. Click **Add an Expense**. The **Add an Expense** dialog box appears.
+1. Enter the following information:
 
    * **Description:** Enter a description of the expense.
    * **Expense Type:** (Required) Select the category that best describes the expense.
@@ -62,23 +62,23 @@ For more detail about the information in this table, see [Access requirements in
    
    * **Actual Amount:** Enter the amount that the expense actual cost. This affects the Actual Cost of the project.
    
-   * **Planned Date:** Enter the expected date for the expense to occur. You&nbsp;can type the&nbsp;date in the field using the *mm/dd/yy* format, or you can click&nbsp;the **Calendar** icon&nbsp; ![Calendar icon](assets/calendar-icon.png)&nbsp;and select the date dynamically.
+   * **Planned Date:** Enter the expected date for the expense to occur. You can type the date in the field using the *mm/dd/yy* format, or you can click the **Calendar** icon ![Calendar icon](assets/calendar-icon.png) and select the date dynamically.
    
    * **Date Paid:** Enter or select the date the expense was paid.
-   * **Billable:** Select this option&nbsp;if you want to&nbsp;bill this expense. Categorizing an expense as billable is important when creating billing records.
-   * **Reimbursable:** Select this option&nbsp;if the expense needs to be reimbursed. You can then mark the expense as reimbursed after the expense has been reimbursed.
+   * **Billable:** Select this option if you want to bill this expense. Categorizing an expense as billable is important when creating billing records.
+   * **Reimbursable:** Select this option if the expense needs to be reimbursed. You can then mark the expense as reimbursed after the expense has been reimbursed.
 
-1. Select a **Custom Form** and specify any additional information required. 
+1. Select a **Custom Form** and specify any additional information required.
 
     >[!NOTE]
     >
     >You must create a custom form before you can associate it with an expense. Only active custom forms display in the list. For information about creating custom forms, see the article [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Click **Save Changes**.
+1. Click **Save**.
 
 ## Delete Expenses
 
 1. Go to the project you want to delete an expense for.
 1. Click **Expenses** in the left panel.
 1. Select the expense that you want to delete, then click the **Delete** icon ![Delete](assets/delete.png).
-1. In the **Delete Expense** dialog, click **Yes, Delete It**. 
+1. In the **Delete Expense** dialog, click **Yes, Delete It**.
