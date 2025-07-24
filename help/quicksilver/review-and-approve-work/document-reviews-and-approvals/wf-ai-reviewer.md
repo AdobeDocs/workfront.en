@@ -12,7 +12,7 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 ---
 # Get started with the Workfront AI Reviewer
 
-With the Workfront AI Reviewer, you can increase content velocity and optimize brand compliance in the review and approval workflow. You can add AI Reviewers to approval templates or invdividual review and approval requests in Workfront. 
+With the Workfront AI Reviewer, you can increase content velocity and optimize brand compliance in the review and approval workflow. You can add AI Reviewers to approval templates or individual review and approval requests in Workfront. 
 
 ## Access requirements
 
@@ -65,7 +65,7 @@ Users can add AI Reviewers to an existing approval templates or to individual re
 
 ### Approval templates
 
-If your organization often add the same people to review and approval requests, Standard license users can create approval templates in the Workfront Setup area.
+If your organization often adds the same people to review and approval requests, Standard license users can create approval templates in the Workfront Setup area.
 
 Users can add AI Reviewers to approval templates to automatically check for brand compliance when a template is used to create a request. 
 
@@ -92,7 +92,7 @@ Approval owners also receive an email notifying them that a review has been comp
 
 The AI Reviewer is not designed to be a decision-maker in the review and approval workflow. It only provides a score and recommendations to align the asset with the specified brand requirements. 
 
-If the image does long meet brand guildelines, the creative can upload a new version and the approval owner can create a second review and approval request with the AI Reviewer, allowing you to switch between versions and compare feedback.
+If the image does long meet brand guidelines, the creative can upload a new version and the approval owner can create a second review and approval request with the AI Reviewer, allowing you to switch between versions and compare feedback.
 
 For more information on viewing scores and feedback, see [View AI Reviewer score and feedback](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md).
 
