@@ -164,6 +164,7 @@ The following table shows the similarities and differences between the table, ti
 | Display records by week                    |           |               |  ✓  |
 |Export information from a view                   | ✓         |               |    |
 
+<!--Add to the table: <span class="preview">Display in full screen</span>-->
 
 ## Create or edit views {#create-or-edit-views}
 
@@ -234,7 +235,9 @@ The following table shows the similarities and differences between the table, ti
     Or
 
     Double-click the view name and start typing the new name.  <!--ensure there is not another saving step here?!-->
-
+<!--
+1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open any view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+-->
 1. (Optional) To manage a specific type of view, see the following articles: 
 
     * [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md)
