@@ -73,6 +73,7 @@ Depending on what area of Workfront you access the actual hours from, they could
 * In the project, task, or issue Details area:
 
   * **Actual Hours**: Hours logged for projects, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
+  * **Actual Hours**: When they are accessed using a Native field reference custom field in a project, task, or issue custom form. 
 
 ## Actual Hours on tasks and issues vs. Actual Hours on projects
 
@@ -105,34 +106,40 @@ To locate Actual Hours in Task Details:
 1. Go to a task you want to review the Actual Hours for. 
 1. In the left panel, click **Task Details**. The **Overview** section displays.
 1. Locate the **Actual Hours** value in the **Working time** section. This is the total of hours logged on this task.
+1. (Optional and conditional) If the Actual Hours native field reference was added to a project, task, or issue custom form, go to the custom form and locate the Actual Hours in the custom field. This is the total of hours logged for the object. 
 
 ### Actual Hours in the Hours section {#actual-hours-in-the-hours-section}
 
 Finding Actual Hours in the Hours section is identical for projects, tasks, and issues.
 
-To locate Actual Hours in Hours section:
+To locate Actual Hours in the Hours section of a task:
 
 1. Go to a task you want to review the Actual Hours for. 
 
 1. In the left panel, click **Hours**. A list of hour entries logged on the task displays, with the **Hours** column showing the total number of Actual Hours for the task.
 
 1. Ensure that the **Standard** view and the **Project** grouping are applied to this list.
+1. The Actual Hours for the task displays in the grouping line for the **Actual Hours** column. 
 
-### Actual Hours in reports {#actual-hours-in-reports}
+### Actual Hours and Legacy Actual Hours in reports
 
-When building tasks, issues, or projects reports, you can show the Actual Hours value for each task, issue, or project in the report.
+When building tasks, issues, or projects reports, you can show the Actual Hours and the Legacy Actual Hour values for each task, issue, or project in the report.
 
-To show Actual Hours in a task report:
+For information about the difference between Actual Hours and Legacy Actual Hours see the section [Actual Hours vs Legacy Actual Hours](#actual-hours-vs-legacy-actual-hours) in this article. 
+
+To show Actual Hours and Legacy Actual Hours in a task report:
 
 {{step1-to-reports}}
 
 1. On the **Reports** page, click **New Report**, then choose **Task** as your object.
 1. In the bottom-right corner of the page, click **Add Column**.
-1. In the **Show in this column** drop-down field that appears, start typing **Actual Hours**, then select the field when it appears in the list.
+1. In the **Show in this column** drop-down field, start typing **Actual Hours**, then select the field when it appears in the list.
+1. Repeat the step above to add the **Legacy Actual Hours** field to the report.
 
 1. In the bottom-left corner of the page, click **Save + Close** to save the report.
 
 1. In the **Name this Report to Save It** dialog box, enter a new report name, then click **Apply**.
+1. Repeat the same steps for a project or issue report. 
 
 ### Actual Hours in Resource Management tools {#actual-hours-in-resource-management-tools}
 

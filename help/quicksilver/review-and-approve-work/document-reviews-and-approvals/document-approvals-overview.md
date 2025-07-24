@@ -13,7 +13,7 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 >
 >The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
-Unified Approvals is a wholistic redesign of the existing approvals process that is currently in development for Adobe Workfront. Currently available in limited release, it is designed to be a practical and effective solution for businesses requiring comprehensive stakeholder engagement and version-specific document approvals. Its thoughtful design and purposeful new features facilitate collaboration, role clarity, and version control in the approval process, enhancing efficiency and accountability.
+Unified Approvals, previously referred to as New Document Approvals, is a wholistic redesign of the existing approvals process that is currently in development for Adobe Workfront. Currently available in limited release, it is designed to be a practical and effective solution for businesses requiring comprehensive stakeholder engagement and version-specific document approvals. Its thoughtful design and purposeful new features facilitate collaboration, role clarity, and version control in the approval process, enhancing efficiency and accountability.
 
 ## Key differences from Proofing and legacy document approvals
 
@@ -37,7 +37,7 @@ With Unified Approvals, you can
 * Designate an entire Workfront team as either reviewers or approvers
 * Set a deadline for the review or approval
 * Create and resuse approval templates
-* Utilize new versions for 
+* Utilize new versions 
 * View multiple key performance indicators for your approvals in Workfront Home widgets
 * Use Canvas Dashboards to view reporting details about Unified Approvals
 

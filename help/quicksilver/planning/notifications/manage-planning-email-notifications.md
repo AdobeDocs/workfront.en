@@ -1,6 +1,6 @@
 ---
 title: Manage Adobe Workfront Planning Email Notifications
-description: When someone tags you in a record comment in Adobe Workfront Planning, you receive an email notification for that tag.
+description: When someone tags you or your teams in a record comment in Adobe Workfront Planning, you receive an email notification for that tag.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -18,7 +18,7 @@ exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
 
 You can receive email notifications from Workfront Planning when the following scenarios exist:
 
-* Someone tags you in a record comment
+* Someone tags you or your teams in a record comment
    
    For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
 * Someone asks for your permission to access a view or a workspace
@@ -85,10 +85,14 @@ You can receive email notifications from Workfront Planning when the following s
    <td>   <p>View or higher permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+  
+</td>
+  </tr>
+
 </tbody> 
 </table> 
 
@@ -155,7 +159,7 @@ OLD:
 
 ## Manage email notifications when someone tags you in a comment
 
-1. (Conditional and optional) After someone tags you in a comment on a record, go to the email notification that informs you of the tag and of the comment. The sender of the email is Adobe Experience Cloud. 
+1. (Conditional and optional) After someone tags you or your team in a comment on a record, go to the email notification that informs you of the tag and of the comment. The sender of the email is Adobe Experience Cloud. 
 
     ![Email notifications example](assets/email-notification-example.png)
 

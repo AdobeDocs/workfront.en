@@ -1,6 +1,6 @@
 ---
 title: Manage Adobe Workfront Planning In-app Notifications
-description: When someone tags you in a record comment, you receive an email notification for that tag.
+description: When someone tags you or your teams in a record comment, you receive an email notification for that tag.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -14,7 +14,7 @@ exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
 
 You can receive in-app notifications from Workfront Planning when the following scenarios exist:
 
-* Someone tags you in a record comment
+* Someone tags you or your teams in a record comment
    
    For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
 * Someone asks for your permission to access a view or a workspace
@@ -24,9 +24,7 @@ You can receive in-app notifications from Workfront Planning when the following 
 
 +++ Expand to view access requirements. 
 
-You must have the following access to perform the steps in this article:  
-
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -80,10 +78,12 @@ You must have the following access to perform the steps in this article:
    <td>   <p>View or higher permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table> 
 
@@ -154,7 +154,7 @@ OLD:
 
 ## Manage in-app notifications when someone tags you in a comment
 
-1. (Conditional) After someone tags you in a comment on a record, go to the in-app **Notifications** icon ![Experience cloud notifications icon](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud. 
+1. (Conditional) After someone tags you or your teams in a comment on a record, go to the in-app **Notifications** icon ![Experience cloud notifications icon](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud. 
 
     ![In-app notification example](assets/in-app-notification-example.png)
 

@@ -21,9 +21,7 @@ Record types are the object types of Adobe Workfront Planning. In Workfront Plan
 
 +++ Expand to view access requirements.  
 
-You must have the following access to perform the steps in this article:  
-
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -76,11 +74,7 @@ You must have the following access to perform the steps in this article:
    <td>   <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> </td> 
-  </tr> 
+ 
 </tbody> 
 </table> 
 
@@ -103,16 +97,12 @@ You must have the following access to perform the steps in this article:
 * Empty sheets are not supported. 
 * Fields of the following types are not supported and cannot be mapped to fields on the import sheet:
 
-    * Connection fields, depending on the environment you use:
-    
-        * In the Production environment, connection fields to Planning records or Workfront and AEM Assets objects cannot be mapped
-
-        * <span class="preview">In the Preview environment, you can map and import connection fields to Planning records. You cannot map fields to Workfront and AEM Assets.</span>
-
+    * Connection fields to Workfront and AEM Assets object types.
     * Lookup fields from connected Planning records or Workfront and AEM Assets objects
     * Formula fields
     * Created date, Created by
     * Last modified date, Last modified by
+    * <span class="preview">Approved date, Approved by</span>
     * People
 
 To import record types using an Excel or CSV file: 
@@ -149,21 +139,21 @@ To import record types using an Excel or CSV file:
 
     Sheets you deselected display with a gray background. 
 
-1. (Optional) Click the downward-pointing arrow to the right of a column header to do one of the following, <span class="preview">in the **Field** tab</span>:
+1. (Optional) Click the downward-pointing arrow to the right of a column header to do one of the following, in the **Field** tab:
 
-    <span class="preview">![Field tab on the record type mapping import box](assets/field-tab-on-record-type-import-mapping-box.png)</span>
+    ![Field tab on the record type mapping import box](assets/field-tab-on-record-type-import-mapping-box.png)
 
     * Rename one of the fields
     * Change the **Field type**
     * Update the field **Description**
 
-1. <span class="preview">(Optional) Click the **Connection** tab to map the information in the column to a connected field from other record types.</span>
+1. (Optional) Click the **Connection** tab to map the information in the column to a connected field from other record types.
 
-    <span class="preview">![Connection tab on the record type import mapping box](assets/connection-tab-on-record-type-import-mapping-box.png)</span>
+    ![Connection tab on the record type import mapping box](assets/connection-tab-on-record-type-import-mapping-box.png)
 
     >[!TIP]
     >
-    ><span class="preview">You can only map to fields from Workfront Planning connected records. You cannot map to fields from Workfront or AEM Assets connections. For more information, see the section [Considerations about importing record types using an Excel or CSV file](#considerations-about-importing-record-types-using-an-excel-or-csv-file) in this article.</span>
+    >You can only map to fields from Workfront Planning connected records. You cannot map to fields from Workfront or AEM Assets connections. For more information, see the section [Considerations about importing record types using an Excel or CSV file](#considerations-about-importing-record-types-using-an-excel-or-csv-file) in this article.
 
 1. (Conditional) After updating information about the field, click **Save**.
 

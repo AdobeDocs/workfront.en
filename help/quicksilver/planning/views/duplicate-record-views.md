@@ -9,9 +9,9 @@ exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
 ---
 # Duplicate record views
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -28,9 +28,7 @@ Duplicating views is identical for all types of views in Workfront Planning.
 
 +++ Expand to view access requirements. 
 
-You must have the following access to perform the steps in this article:  
-
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -81,12 +79,7 @@ You must have the following access to perform the steps in this article:
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p></td> 
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it.</p> </td> 
   </tr> 
 </tbody> 
 </table> 
@@ -108,9 +101,9 @@ You must have the following access to perform the steps in this article:
     The record type page opens. 
     By default, all the records of the type selected display in the table view. 
 
-1. <span class="preview">Hover over the tab of the view you want to duplicate, and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Duplicate**. </span>
+1. Hover over the tab of the view you want to duplicate, and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Duplicate**. 
 
-    <span class="preview">![View more menu on a record view](assets/view-more-menu-with-duplicate-option.png)</span>
+    ![View more menu on a record view](assets/view-more-menu-with-duplicate-option.png)
 
     
     The view is duplicated and the new view's name follows the following pattern: `Original view's name (Copy)`. The new view tab displays at the end of all view tabs.

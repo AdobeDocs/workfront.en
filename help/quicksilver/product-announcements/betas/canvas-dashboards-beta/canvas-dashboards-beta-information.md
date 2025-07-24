@@ -10,14 +10,49 @@ exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
 ---
 # Canvas Dashboards beta information
 
-Canvas Dashboards is a feature currently in development that allow you to easily visualize your Adobe Workfront data by adding various report types onto a customizable canvas. Please note that while we are grateful for your participation during our beta testing phase, parts of the feature may not be complete or work as intended. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](#provide-feedback) section below.
-
-For basic information about using Canvas Dashboards, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-For a list of all Canvas Dashboards documentation, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
-
 >[!NOTE]
 >
 >Canvas Dashboards is currently in a closed beta testing phase, and is therefore subject to frequent changes. 
+
+Canvas Dashboards is a feature currently in development that allows you to easily visualize your Adobe Workfront data by adding various report types onto a customizable canvas.  
+ 
+Please note that while we are grateful for your participation during our beta testing phase, parts of the feature may not be complete or work as intended. Please submit any feedback regarding your experience by following the instructions in the in the [Provide feedback](#provide-feedback) section below.
+
+## Access requirements
+
++++ Expand to view access requirements. 
+
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan</p></td> 
+   <td> 
+<p>Any </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td> 
+<p>Current: Plan </p> 
+<p>New: Standard</p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configurations</p></td> 
+   <td><p>Edit access to Reports, Dashboards, and Calendars</p>
+  </td> 
+  </tr>  
+</tbody> 
+</table> 
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
++++
+
 
 ## Enroll in the beta
 
@@ -43,29 +78,3 @@ Feedback is appreciated as we develop this tool over the course of the beta. Ple
 
 1. Click **Submit**.
 
-## Planned features
-
-Below is a list of the report types currently supported in the beta, as well as a list of other features that we plan to add to Canvas Dashboards over the course of the beta and beyond.
-
-### Supported report types
-
-* Existing reports (reports created using the current reporting tool)
-* Chart reports
-* KPI reports
-* Table reports
-* Pending approvals reports
-
-### Features in development
-
-* Date- and user-based wildcards for filters
-* Workfront Planning reports
-* Additional Workfront object types
-* Boards reports
-* Other usability enhancements
-* Worksheets
-* Embedded web content
-
-### Future roadmap features
-
-* Dashboard-level prompts
-* Currency support
