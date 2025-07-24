@@ -6,7 +6,7 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: yes
 hidefromtoc: yes
-recommendations: noDisplay, noCatalog
+
 ---
 # Fourth Quarter 2025 Resource Management enhancements
 
