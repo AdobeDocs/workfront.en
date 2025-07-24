@@ -32,12 +32,12 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront enhancements
 
-* [Resource Management enhancements](#resource-management-enhancements)
+<!--* [Resource Management enhancements](#resource-management-enhancements)-->
 * [Other enhancements](#other-enhancements)
 
 
 
-### Resource Management enhancements
+<!--### Resource Management enhancements
 
 <table style="table-layout:auto">
   <tbody>
@@ -52,7 +52,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>October 16, 2025</td>
     </tr>     
   </tbody>
-</table> 
+</table> -->
 
 ### Other enhancements
 
