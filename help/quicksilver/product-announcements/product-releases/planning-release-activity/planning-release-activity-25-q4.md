@@ -56,7 +56,7 @@ You can now display all Workfront Planning views (table, timeline, and calendar)
 
 Prior to this enhancement, this functionality did not exist.
 
-For information, see [Manage record views](/help/quicksilver/using/adobe-workfront-planning/adobe-workfront-planning-views/manage-record-views.md).
+For information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Add teams as approvers on Planning request forms
 
