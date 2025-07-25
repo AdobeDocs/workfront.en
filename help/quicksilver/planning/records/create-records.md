@@ -10,9 +10,9 @@ exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 
 # Create records
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -20,14 +20,21 @@ In Adobe Workfront Planning, a record is an instance of a record type.
 
 You can create records by doing one of the following:
 
-* [Create records by adding them inline from the record type table view](#create-records-by-adding-them-inline-from-the-record-type-table-view)
-* [Create records using the New record or Request record button from any record type view](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [Use the New record or Request record button from any record type view](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [Add them inline from the record type table view](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+
+<div class="preview">
+
+* [Add them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)
+
+</div>
+
 * [Copy and paste a list of records from an external list](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicate records from a table view](#create-records-by-duplicating-them)
-* [Create records as you connect them from other records](#create-records-as-you-connect-them)
-* [Create records by submitting a request form to a record type](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [Create records by importing information from a CSV or Excel file](#create-records-by-importing-records-from-a-csv-or-excel-file)
-* [Create records by using automations](#create-records-by-using-automations)
+* [Connect them from other records](#create-records-as-you-connect-them)
+* [Submit a request form to a record type](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [Import information from a CSV or Excel file](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Use automations](#create-records-by-using-automations)
 
 For information about managing records in the table or timeline views, see the following articles:
 
@@ -102,77 +109,6 @@ For information about managing records in the table or timeline views, see the f
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).   
 
 +++
-
-## Create records by adding them inline from the record type table view
-
-You can create records in the table view of a record type page, as you add them inline. 
-
-For information about editing record information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
-
-{{step1-to-planning}}
-  
-1. Click the workspace where you want to add records.
-
-    The workspace opens and the record types display as cards.
-
-1. Click a record type card. For information about creating a record type, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
-
-    The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
-    Records of the selected type display in the view. 
-
-1. (Conditional) From the table view, do one of the following: 
-
-    * Click **New record** in the last row of the table, or after the last record in a grouping
-
-        >[!TIP]
-        >
-        >When you add a new record after the last record in a grouping or subgrouping, Workfront automatically populates the fields included in the groupings. You can manually edit these fields, if needed, and the records might be removed from the grouping.  
-
-    * Click **Shift + Enter** on your keyboard from any column or row of the table. This adds an empty row under the record you start from. 
-    * Hover over a record's primary field, click the **More** menu ![More menu](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. 
-
-    ![Adding a new campaign in table row](assets/adding-a-new-campaign-in-table-row.png)
-
-    Workfront automatically uploads a thumbnail to each new record. You can later  modify these images. For information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).    
-
-    A new record is added in the table. 
-
-1. Click the new record's primary field 
-
-    Or
-    
-    Click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) to the left of the record name. 
-    
-    The preview box opens in the table.  
-
-1. Start typing information about the new record in the fields you see in the preview box. 
-
-    >[!NOTE]
-    >
-    >  * There are no mandatory fields for records. However, we recommend that you add information for the primary field of a record, as it is helpful to identify records when linking records to one another. For more information about primary fields, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md) and [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
-    >
-    >  * Fields that refer to other record types or calculated fields are read-only fields. 
-
-1. (Conditional) When adding records in the table, before opening the record's preview box, continue adding information on each row, then click **Enter** on your keyboard to save your changes.
-
-    Or 
-    
-    Click the new record's name or the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) to the left of the record name to open the preview box and edit the record's information in the details area. 
-
-    >[!TIP]
-    >
-    >You can access the **Open details** icon only from the name field of the record when the Name field is a primary field. 
-
-1. (Optional) From the record's preview box, click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner to open the record's page in a new tab. Continue editing the record on the record page. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-
-    Workfront automatically saves your changes. 
-
-1. (Optional) Close the preview box or click the back arrow to the left of the record name, if you opened the record's page. 
-
-1. (Optional) From the table view, use the following keyboard shortcuts to undo or redo adding new records or their information, when adding them in the table view: 
-
-    * CTRL + Z (⌘ + Z for Mac) to undo a change 
-    * CTRL + Shift + Z (⌘ + Shift + Z for Mac) to redo a change
 
 ## Create records using the New record or Request record button from any record type view
 
@@ -259,6 +195,136 @@ You can import records from other applications by linking them to existing recor
       For example, if you connect a Planning record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Planning records you're linking from. 
    
 -->
+
+## Create records by adding them inline from the record type table view
+
+You can create records in the table view of a record type page, as you add them inline. 
+
+For information about editing record information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+
+{{step1-to-planning}}
+  
+1. Click the workspace where you want to add records.
+
+    The workspace opens and the record types display as cards.
+
+1. Click a record type card. For information about creating a record type, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
+
+    The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
+    Records of the selected type display in the view. 
+
+1. (Conditional) From the table view, do one of the following: 
+
+    * Click **New record** in the last row of the table, or after the last record in a grouping
+
+        >[!TIP]
+        >
+        >When you add a new record after the last record in a grouping or subgrouping, Workfront automatically populates the fields included in the groupings. You can manually edit these fields, if needed, and the records might be removed from the grouping.  
+
+    * Click **Shift + Enter** on your keyboard from any column or row of the table. This adds an empty row under the record you start from. 
+    * Hover over a record's primary field, click the **More** menu ![More menu](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. 
+
+    ![Adding a new campaign in table row](assets/adding-a-new-campaign-in-table-row.png)
+
+    Workfront automatically uploads a thumbnail to each new record. You can later  modify these images. For information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).    
+
+    A new record is added in the table. 
+
+1. Click the new record's primary field 
+
+    Or
+    
+    Click the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) to the left of the record name. 
+    
+    The preview box opens in the table.  
+
+1. Start typing information about the new record in the fields you see in the preview box. 
+
+    >[!NOTE]
+    >
+    >  * There are no mandatory fields for records. However, we recommend that you add information for the primary field of a record, as it is helpful to identify records when linking records to one another. For more information about primary fields, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md) and [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
+    >
+    >  * Fields that refer to other record types or calculated fields are read-only fields. 
+
+1. (Conditional) When adding records in the table, before opening the record's preview box, continue adding information on each row, then click **Enter** on your keyboard to save your changes.
+
+    Or 
+    
+    Click the new record's name or the **Open details** icon ![Open details icon in table name field](assets/open-details-icon-in-table-name-field.png) to the left of the record name to open the preview box and edit the record's information in the details area. 
+
+    >[!TIP]
+    >
+    >You can access the **Open details** icon only from the name field of the record when the Name field is a primary field. 
+
+1. (Optional) From the record's preview box, click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner to open the record's page in a new tab. Continue editing the record on the record page. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+    Workfront automatically saves your changes. 
+
+1. (Optional) Close the preview box or click the back arrow to the left of the record name, if you opened the record's page. 
+
+1. (Optional) From the table view, use the following keyboard shortcuts to undo or redo adding new records or their information, when adding them in the table view: 
+
+    * CTRL + Z (⌘ + Z for Mac) to undo a change 
+    * CTRL + Shift + Z (⌘ + Shift + Z for Mac) to redo a change
+
+<div class="preview">
+
+## Create records by adding them in the record type timeline view
+
+You can create records in the timeline view of a record type page, by double-clicking in the timeline. 
+
+For information about creating a timeline view, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+{{step1-to-planning}}
+  
+1. Click the workspace where you want to add records.
+
+    The workspace opens and the record types display as cards.
+
+1. Click a record type card. 
+
+    The record type page opens in the view that you last accessed. 
+
+1. Click to open a timeline view, or create a timeline view, first. 
+
+    >[!NOTE]
+    >
+    >You can create a timeline view only if there are at least two date fields associated with the record type.
+1. Double-click anywhere in the timeline. 
+
+    A new record box opens. <!--might need a new screen shot for Production - might add a title etc-->
+
+    ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
+1. Update the following information:
+
+    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. The name will not be visible in the record bar if left empty. 
+    * **Record date fields**: Update the dates of the record. 
+        
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+
+        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+
+        * By **Year**: The record start and end dates span a month.
+        * By **Quarter**: The record start and end dates span a week. 
+        * By **Month**: The record start and end dates span three days.
+
+1. (Optional) Click one of the following icons: 
+
+    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
+    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
+    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+
+    The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
+
+1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
+
+    >[!TIP]
+    >
+    >By default, Workfront associates the record with a thumbnail and a cover image.
+    >
+    >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
+
+</div>
 
 ## Create records by copying and pasting them from an external list
 

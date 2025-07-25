@@ -59,7 +59,7 @@ To collaborate more efficiently with others that might not have a Workfront acco
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td> <p>Standard</p>
+   <td> <p>Light or higher</p>
    <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 

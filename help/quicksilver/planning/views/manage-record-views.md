@@ -10,9 +10,9 @@ exl-id: 77342724-0182-4134-903b-4428d54cdceb
 
 # Manage record views
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -163,7 +163,7 @@ The following table shows the similarities and differences between the table, ti
 | Display records by month                    |           | ✓              |  ✓  |
 | Display records by week                    |           |               |  ✓  |
 |Export information from a view                   | ✓         |               |    |
-
+|<span class="preview">Display in full screen</span>                  | ✓         |   ✓            | ✓   |
 
 ## Create or edit views {#create-or-edit-views}
 
@@ -234,6 +234,8 @@ The following table shows the similarities and differences between the table, ti
     Or
 
     Double-click the view name and start typing the new name.  <!--ensure there is not another saving step here?!-->
+
+1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open any view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
 
 1. (Optional) To manage a specific type of view, see the following articles: 
 
