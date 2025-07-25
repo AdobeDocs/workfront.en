@@ -11,6 +11,10 @@ feature: Get Started with Workfront
 
 The My Requests widget displays requests that have been submitted to your organization. You can filter the requests, search for specific requests, or adjust column order and visibility. You can also create a new request from the My Requests widget.
 
+>[!NOTE]
+>
+>When the My Requests widget loads, it displays up to 50 requests. To display more requests, scroll down the list.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
@@ -50,11 +54,50 @@ You must have the following access to perform the steps in this article:
 
 +++
 
-Create a request
+## Create a request
 
-Filter requests
+You can create a request directly from the My Requests widget.
 
-Search requests
+For instructions, see [Create a request](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) in the article Create work items and projects from the Home area.
+
+## Filter requests
+
+The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR.
+
+To confiugre the filter in the My Requests widget:
+
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**. 
+1. In the My Requests widget, click **Filter**.
+1. In the leftmost field, select what you want to filter by. Available options are:
+
+   * Workspace
+   * Object type
+   * Entry date
+   * Request form
+   * Status
+   * Entered by
+
+1. In the next field, select the operator that you want to use for this filter condition. Available operators depend on the chosen field.
+1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
+1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
+1. (Optional and conditional) If you have multiple conditions, switch the And or Or value by clicking **And** or **Or** to the left of the condition.
+
+The filter is saved automatically.
+
+>[!TIP]
+>
+>If your organization has purchased Workfront Planning, the My Requests widget will include both Workfront and Workfront Planning requests.
+> 
+>* To filter for only Workfront requests, set the filter to **Object type** > **Has any of** > **Issues**.
+>* To filter for only Workfront Planning requests, et the filter to **Object type** > **Has none of** > **Issues**.
+
+## Search requests
+
+To search for specific requests in the My Requests widget:
+
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**. 
 
 Adjust columns on widget
 
