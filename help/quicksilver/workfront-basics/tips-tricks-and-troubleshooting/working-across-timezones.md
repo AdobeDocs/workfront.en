@@ -52,25 +52,44 @@ The time zone for your organization's [!DNL Workfront] instance is usually set f
 
 ### Your user profile {#your-user-profile}
 
-The time zone in your user profile should be configured for the location where you work. This determines the following:
+The Time Zone field in your user's profile controls the time shown in your outgoing email messages.
+
+The time zone also affects what displays in a PTO calendar report.
+
+For information configuring your time zone in your user profile, see [Configure My Settings](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+
+For information about how a [!DNL Workfront] administrator (or someone with [!UICONTROL Edit] access to users) can configure the time zone in a user profile, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+### Your browser's time zone
+
+The time zone in your browser should be configured for the location where you work. This determines the following:
 
 <!--
 * The time shown in your outgoing [!DNL Workfront] email messages
 [NOTE FROM LISA: Saeid that dates/times shown in emails are more complicated than how it is described in the article so we decided to comment out this line.]
 -->
-* Times for an object you work on, such as start and end times
+* Times for an object you work on, such as start and end times.
 
-   If users in multiple time zones are assigned to an object, [!DNL Workfront] converts the object times for everyone involved, using the time zone configured in each user profile.
+   If users in multiple time zones are assigned to an object, [!DNL Workfront] converts the object times for everyone involved, using the time zone configured in each user's browser'.
 
-   **Example:** In the Eastern Standard Time (EST) zone where you work, you set a task to start at 4:00 PM and assign it to users working in the Pacific Standard Time (PST) zone. For those users, the start time displays as 1:00 PM. If it were to display it as 4:00 PM, they would start working on it three hours late.
+   >[!BEGINSHADEBOX]
 
-   If the object creator doesn't note the difference between the assignees' time zones and make the necessary adjustments when setting object times, or the assignees don't note that difference, it can be hard to get the timing right while everyone collaborates on the object.
+   **EXAMPLE**
+   In the Eastern Standard Time (EST) zone where you work, you set a task to start at 4:00 PM and assign it to users working in the Pacific Standard Time (PST) zone. For those users, the start time displays as 1:00 PM. If it were to display it as 4:00 PM, they would start working on it three hours late.
+   
+   >[!ENDSHADEBOX]
 
-   **Example:** You configure a one-day task to start at 9:00 AM EST, forgetting that some users on the task work in the PST zone. For them, the start time 6:00 AM. Because they won't start working on it until 9:00 their time (noon your time), the task begins and finishes three hours late.
+   If the object creator doesn't know the difference between the assignees' time zones and doesn't make the necessary adjustments when setting object times, or the assignees don't know that difference, it can be hard to get the timing right while everyone collaborates on the object.
 
-For information configuring your time zone in your user profile, see [Configure My Settings](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+   >[!BEGINSHADEBOX]
 
-For information about how a [!DNL Workfront] administrator (or someone with [!UICONTROL Edit] access to users) can configure the time zone in a user profile, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   **EXAMPLE**
+
+   You configure a one-day task to start at 9:00 AM EST, forgetting that some users on the task work in the PST zone. For them, the start time 6:00 AM. Because they won't start working on it until 9:00 their time (noon your time), the task begins and finishes three hours late.
+
+   >[!ENDSHADEBOX]
+
+The time zone configuration differs between browsers. For more information, refer to each browser's documentation or help information. 
 
 ## How you can make it easier for users to work across time zones
 
