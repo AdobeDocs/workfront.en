@@ -9,6 +9,10 @@ feature: Get Started with Workfront
 
 # Use the My Requests widget
 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+
 The My Requests widget displays requests that have been submitted to your organization. You can filter the requests, search for specific requests, or adjust column order and visibility. You can also create a new request from the My Requests widget.
 
 >[!NOTE]
@@ -64,7 +68,7 @@ For instructions, see [Create a request](/help/quicksilver/workfront-basics/usin
 
 The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR.
 
-To confiugre the filter in the My Requests widget:
+To configure the filter in the My Requests widget:
 
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**. 
