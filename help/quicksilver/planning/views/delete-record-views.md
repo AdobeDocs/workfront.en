@@ -75,7 +75,7 @@ The view is deleted for all users who have permissions to access it. Deleted vie
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+   </td> 
   </tr> 
 </tbody> 
 </table> 
