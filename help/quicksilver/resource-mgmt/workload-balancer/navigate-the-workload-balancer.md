@@ -9,6 +9,8 @@ exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
 ---
 # Navigate the Workload Balancer
 
+{{preview-fast-release-general}}
+
 <!--Audited: 12/2024-->
 
 Use the Workload Balancer in Adobe Workfront to assign work to users based on their availability. This article describes how you can use settings and options to navigate the Workload Balancer and display the information that is relevant to you. Additional articles listed here describe how you can use the Workload Balancer to manage your resources and their allocation to work. 
@@ -457,12 +459,35 @@ Navigating the Workload Balancer of a team is similar to how you navigate the Wo
     
     For more information, see [Overview of reconciling resource allocations between projects and initiatives](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
     
-    
     >[!NOTE]
     >
     >You cannot view initiative job role information if your organization has not purchased a license for the Workfront Scenario Planner. In this case, you can only view the planned hours associated with job roles on the project. For more information, see [Access needed to use the Scenario Planner](../../scenario-planner/access-needed-to-use-sp.md).
 
 1. Continue navigating the Workload Balancer of a project as described in the [Navigate the Workload Balancer for multiple projects](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) section of this article.
+
+<div class="preview">
+
+### Navigate the Workload Balancer of a user
+
+1. Access the user profile.
+
+   For your own profile: {{step1-click-profile-pic}}
+
+   For another user's profile: Click the linked name of the user as it appears anywhere in the Workfront interface. User names are displayed in many areas, such as in a comment made by the user.
+
+1. Click **Workload Balancer** in the left panel.
+
+   The Workload Balancer for the user displays.
+
+   ![Workload Balancer for a user](assets/workload-balancer-user.png)
+
+   The Workload Balancer of a user displays the following by information, by default:
+
+     * **Assigned Work**: The tasks and issues assigned to the specific user.
+
+1. Continue navigating the Workload Balancer of a user as described in the [Navigate the Workload Balancer for multiple projects](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) section of this article.
+
+</div>
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 
