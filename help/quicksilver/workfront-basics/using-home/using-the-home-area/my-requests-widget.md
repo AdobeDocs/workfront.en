@@ -23,7 +23,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Product]</strong></td> 
-   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests </td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
