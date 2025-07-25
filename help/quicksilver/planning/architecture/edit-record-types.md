@@ -10,10 +10,9 @@ exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 
 # Edit record types
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 {{planning-important-intro}}
 
@@ -96,9 +95,9 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
 
    * Hover over the card of a record type and click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the record type card, then click **Edit**
       Or
-   * Click a record type card to open the record type page, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Edit**. 
+   * <span class="preview">Click a record type card to open the record type page, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Edit**. </span>
 
-   ![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)
+   <span class="preview">![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)</span>
 
 1. In the **Edit record type** box, the **Appearance** tab opens by default. 
 
