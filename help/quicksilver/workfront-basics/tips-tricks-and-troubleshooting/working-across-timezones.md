@@ -72,22 +72,14 @@ The time zone in your browser should be configured for the location where you wo
 
    If users in multiple time zones are assigned to an object, [!DNL Workfront] converts the object times for everyone involved, using the time zone configured in each user's browser'.
 
-   >[!BEGINSHADEBOX]
-
    **EXAMPLE**
    In the Eastern Standard Time (EST) zone where you work, you set a task to start at 4:00 PM and assign it to users working in the Pacific Standard Time (PST) zone. For those users, the start time displays as 1:00 PM. If it were to display it as 4:00 PM, they would start working on it three hours late.
    
-   >[!ENDSHADEBOX]
-
    If the object creator doesn't know the difference between the assignees' time zones and doesn't make the necessary adjustments when setting object times, or the assignees don't know that difference, it can be hard to get the timing right while everyone collaborates on the object.
-
-   >[!BEGINSHADEBOX]
 
    **EXAMPLE**
 
    You configure a one-day task to start at 9:00 AM EST, forgetting that some users on the task work in the PST zone. For them, the start time 6:00 AM. Because they won't start working on it until 9:00 their time (noon your time), the task begins and finishes three hours late.
-
-   >[!ENDSHADEBOX]
 
 The time zone configuration differs between browsers. For more information, refer to each browser's documentation or help information. 
 
