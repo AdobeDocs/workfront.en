@@ -351,7 +351,7 @@ Specific customers can view this change by going to a project's Associated proje
 
 ### New look and feel for the "Save as template" box 
 
-**Preview release: June 12, 2025; Production release: To be announced**
+**Preview release: June 12, 2025; Production release: June 19, 2025
 
 We have updated the look and feel of the "Save as template" box that displays when saving a project as a template. The new design includes a streamlined interface, where all the sections display in one cohesive form which you can navigate by using links in the left panel. The new design matches other areas and other objects in the application.  
 
