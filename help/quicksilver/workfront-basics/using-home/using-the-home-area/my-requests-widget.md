@@ -92,16 +92,41 @@ The filter is saved automatically.
 >* To filter for only Workfront requests, set the filter to **Object type** > **Has any of** > **Issues**.
 >* To filter for only Workfront Planning requests, et the filter to **Object type** > **Has none of** > **Issues**.
 
+## Adjust columns
+
+You can choose which of the available columns appear on the My Requests widget, and set their order.
+
+Available columns include:
+
+* Subject
+* Created object
+* Object type
+* Status
+* Request form
+* Entry date
+* Entered by
+
+To adjust the columns on the My Requests widget:
+
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**. 
+1. In the My Requests widget, click **Columns**.
+1. (Optional)To reorder columns, click the drag handle ![drag handle](assets/drag-handle.png) of the column you want to move and drag it to the desired locations. The column at the top of the list appears in the My Requests widget as the leftmost column.
+1. (Optional) Use the toggle to control whether a column is displayed in the My Requests widget.
+
+Column preferences are saved automatically.
+
 ## Search requests
 
 To search for specific requests in the My Requests widget:
 
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**. 
+1. In the search bar near the upper-right of the My Requests widget, enter the term that you want to search for.
 
-Adjust columns on widget
+   Requests that contain the term are highlighted in orange.
 
-
+1. (Optional) To jump to the highlighted requests, click the up or down arrows in the search bar.
 
 
 
