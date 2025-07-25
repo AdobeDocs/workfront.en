@@ -24,7 +24,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>25.9 (September 2025)</li><li>25.10 (October 2025)</li><li>25.11 (November 2025)</li></ul>| <ul><li>25.10 (October 2025)</li></ul>|
+>|<ul><li>25.8 (August 2025)</li><li>25.9 (September 2025)</li><li>25.10 (October 2025)</li><li>25.11 (November 2025)</li></ul>| <ul><li>25.10 (October 2025)</li></ul>|
 >
 >Note that for the final release of each quarter (25.10 this quarter), users on the fast release schedule will receive the release one day early.
 >
