@@ -316,7 +316,7 @@ Consider the following when viewing updates for users and teams:
 
   * Document addition, removal, and other document updates
   * Hour addition, removal, addition on behalf of, and other hour entry updates
-  * Notes, updates to custom fields
+  * Updates to custom fields
   * User profile updates (updates to the user's avatar, Mobile number, Talk to me about field, Title)
   * User addition, removal, change in Access level, changes in built-in user fields
   * Financial information from tasks and projects. 
