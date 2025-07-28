@@ -131,6 +131,17 @@ The updated Workfront integration is now available and fully compatible with the
 
 As part of this change, Microsoft has made the decision to change the way tokens are re-enabled. After **June 30, 2025**, admins will no longer be able to re-enable tokens themselves—only Microsoft Support can grant exceptions. **On October 1, 2025, legacy tokens will be turned off for all tenants. Exceptions will not be granted.**  
 
+### Other Workfront integration transitions
+
+To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the following integrations will not be available after **February 28, 2026**: 
+
+* Workfront for G Suite 
+* Workfront for Jira 
+* Workfront for Salesforce. 
+
+We recommend using Workfront Automation and Integration for your organization's integration needs with Google Workspace. 
+For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+
 ### API version 20
 
 Workfront API version 20 was released on May 4, 2024. For API version 20, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.

@@ -251,7 +251,7 @@ For more information about configuring job roles, see [Create and manage job rol
 The system generates a Login Attempt audit log entry when a user does one of the following actions:
 
 * Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
-* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack and Workfront for Salesforce)
+* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack)
 * Logs in or logs out of the Workfront API
 
 Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.
