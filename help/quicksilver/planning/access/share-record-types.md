@@ -12,9 +12,9 @@ exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 
 # Share record types
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -136,12 +136,12 @@ You can adjust permissions to individual record types of a workspace if you have
 
 {{step1-to-planning}}
 
-1. Open the workspace whose record types you want to share, then click a record type card. 
+1. Open the workspace whose record types you want to share. 
 
-   This opens the record type page.
+1. Do one of the following: 
 
-1. From the tab of any view, click **Share** in the upper-right corner of the record type. 
-1. Click **Share the record type**.
+   * <span class="preview">From the record type card, click the **More** menu > **Share**.</span>
+   * Click a record type card to open the record type's page, then click **Share** > **Share the record type** from any record type view.
 
    The **Share** box opens.
 
@@ -154,7 +154,6 @@ You can adjust permissions to individual record types of a workspace if you have
    >[!TIP]
    >
    >You cannot remove individual entities from the Inherited permissions list.
- 
 
 1. (Optional and conditional) If you want to share the record type with specific entities and give them a different access to the record type than they already have for the workspace, do the following:
 

@@ -24,7 +24,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>25.9 (September 2025)</li><li>25.10 (October 2025)</li><li>25.11 (November 2025)</li></ul>| <ul><li>25.10 (October 2025)</li></ul>|
+>|<ul><li>25.8 (August 2025)</li><li>25.9 (September 2025)</li><li>25.10 (October 2025)</li></ul>| <ul><li>25.10 (October 2025)</li></ul>|
 >
 >Note that for the final release of each quarter (25.10 this quarter), users on the fast release schedule will receive the release one day early.
 >
@@ -32,7 +32,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront enhancements
 
+<!--* [Resource Management enhancements](#resource-management-enhancements)-->
 * [Other enhancements](#other-enhancements)
+
+
+
+<!--### Resource Management enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Role assignments display in the Workload Balancer </a><p></p>
+            <p>Resource managers can now review job role assignments in the Workload Balancer. The assignments are displayed in the Unassigned Work area, under the tasks or issues the roles are assigned to. Only work items assigned to users are displayed in the Assigned Work area. </p>
+            <p>A new Workload Balancer setting, Show Role Assignments, determines whether role assignments are displayed. The setting is enabled by default.</p>
+        </td>
+        <td>July 24, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> -->
 
 ### Other enhancements
 
