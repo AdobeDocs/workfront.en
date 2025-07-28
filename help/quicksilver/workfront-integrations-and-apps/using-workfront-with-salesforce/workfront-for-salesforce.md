@@ -13,7 +13,7 @@ exl-id: 5089fd81-c094-487b-8ffa-e4d2ba2e4ae6
 >
 >To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Salesforce integration will not be available after **February 28, 2026**. 
 >
->We recommend using Workfront Automation and Integration for your organization's integration needs with Google Workspace. 
+>We recommend using Workfront Automation and Integration for your organization's integration needs with Salesforce. 
 >
 >For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
