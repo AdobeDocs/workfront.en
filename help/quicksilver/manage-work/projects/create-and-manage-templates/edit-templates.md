@@ -103,8 +103,9 @@ You can edit one template at a time, or you can edit templates in bulk.
       * [Tasks Settings](#task-settings) 
       * [Issue Settings](#issue-settings) 
       * [Access](#access-preview) 
-      * [Linked folders](#linked-folders-conditional-availability) 
-      * [Comment](#comment)   
+      * [Comment](#comment)
+      <!--* [Linked folders](#linked-folders-conditional-availability) -->
+         
 
 ### Template Name{#template-name}
 
@@ -557,6 +558,12 @@ You can edit one template at a time, or you can edit templates in bulk.
 
       Now, when you use this template to create a project all these settings will transfer to the new project.
 
+<!--I don't think this note is valid anymore - this note was on Edit project when the section below was in that article, by mistake: 
+>[!NOTE]
+>
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.-->
+
+<!-- This section is here by mistake - it should be maybe in layout templates?? 
 
 ### Linked folders (conditional availability) {#linked-folders}
 
@@ -570,10 +577,7 @@ This section appears only if all of the following apply:
 
 For instructions on editing Linked folders, see [Edit workflow values in a project](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) in the article [Use workflows in the Experience Manager Assets integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
 
-<!--I don't think this note is valid anymore - this note was on Edit project when this section was in that article, by mistake: 
->[!NOTE]
->
->Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.-->
+-->
 
 # Comment 
 

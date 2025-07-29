@@ -140,7 +140,11 @@ You must consider the following before making changes to a field's configuration
 
     ![Arrow menu after name of field in table header highlighted](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
     
-1. Update information about the field and click **Save**. <!--insert screen shot when finalized-->
+1. Update information about the field and click **Save**. 
+   
+   For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
+
+   <!--insert screen shot when finalized-->
 
     >[!TIP]
     >

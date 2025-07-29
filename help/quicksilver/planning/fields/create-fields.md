@@ -476,6 +476,8 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
   
 1. Click the selected expression to reveal the definition and view its formatting. 
 
+    <!--update screen shot for Maximize button-->
+
    ![Description of formula expression](assets/description-of-formula-expression.png)
 
    For more information about what expressions are supported, see [Formula fields overview](/help/quicksilver/planning/fields/formula-fields.md).
@@ -499,6 +501,12 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
     >
     >![Formula example project budget four fields removed ](assets/formula-example-project-budget-four-fields-removed.png)
     >
+
+    <!--
+    1. <span class="preview">(Optional) Click **Maximize** to open the Formula box in a larger area. </span>
+           <span class="preview">The Formula box opens in a larger window. </span>
+    1. <span class="preview">(Optional and conditional) If you opened the Formula box in a larger area,click **Minimize** to return to the original formula field box.</span> 
+    -->
 
 1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
 
