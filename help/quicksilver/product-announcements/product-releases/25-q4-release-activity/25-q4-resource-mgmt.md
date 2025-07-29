@@ -4,8 +4,6 @@ description: Fourth Quarter 2025 Resource Management enhancements
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: yes
-hidefromtoc: yes
 exl-id: c8c03cb5-0468-4c2b-b69e-70e4c1354514
 ---
 # Fourth Quarter 2025 Resource Management enhancements
