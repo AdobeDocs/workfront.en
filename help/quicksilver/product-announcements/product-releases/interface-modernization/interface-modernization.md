@@ -54,6 +54,26 @@ To view this change, go to Setup > System > Update Users For SSO
 
 ## Projects
 
+## Updated experience when editing a Queue Topic in a project or template
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+
+A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+
+For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+## Interface updates for Billing Records
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of the Billable Hours, Billable Expenses, and Fixed Revenues pages of billing records to match other areas of the application. The dialog boxes for adding new billable hours, billable expenses, and fixed revenues have also been updated.
+
+To view these changes, go to a project > Billing Records > select a billing record > Billable Hours, Billable Expenses, or Fixed Revenues > add new billable hours, billable expenses, or fixed revenues.
+
+For information, see [Create billing records](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
+
 ## Interface updates for the Import MS Project file box 
 
 **Preview release: July 24, 2025; Production release: To be announced**
