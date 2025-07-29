@@ -154,9 +154,9 @@ The following must be in place before you can submit a request to a Workfront Pl
    >* You have access to view at least one workspace. 
    >
 
-<!--This section will be for production only. Add a section for preview.-->
+<!--Production-->   
 
-1. Click **New request**. 
+1. In the Production environment, click **New request**. 
 
    ![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
 
@@ -165,7 +165,7 @@ The following must be in place before you can submit a request to a Workfront Pl
    * The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. 
    * 50 additional Workfront request queues and Planning request forms display in alphabetical order in the **All request forms** section. You can search for a request queue that does not display by default. 
 
-1. Do one of the following:
+1. In The Production environment, do one of the following:
 
    * Click the card for one of the Planning request forms in the Recent or All request forms sections
    * Start typing the name of a Planning request form in the search box, then click the card when it displays in the list. 
@@ -173,6 +173,7 @@ The following must be in place before you can submit a request to a Workfront Pl
    The request form opens.
 
 <!-- Put preview section here-->
+1. <span class="preview">In the Preview environment, select a request form or queue from the Recently accessed request forms area, or begin typing the form or queue name in the list, then select it when it appears.
 
 1. Update the fields available in the request form. Fields with a red asterisk are required. 
 1. Click **Submit**.
