@@ -24,9 +24,10 @@ You can submit a Workfront Planning request from the following areas:
 
 * From the Requests area of Workfront. 
 * From a direct link to the request form that was shared. 
-
-   This article describes how you can submit a request to add new records to a record type from the Requests area of Workfront, or from a shared link.
 * From the record type page, when you add or request a new record. For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
+
+This article describes how you can submit a request to add new records to a record type from the Requests area of Workfront, or from a shared link.
+
 
 Workfront users and external users can submit requests to Planning record types and create records. <!--double check on the external users-->
 
