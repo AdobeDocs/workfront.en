@@ -367,7 +367,7 @@ As part of this change, Microsoft has made the decision to change the way tokens
 
 ### API version 20
 
-Workfront API version 20 was released on May 4, 2024. For API version 20, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
+Workfront API version 20 was released on May 4, 2025. For API version 20, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
 
 For information on what's new and updated, see [What's new in API version 20](/help/quicksilver/wf-api/api/new-api-version-19.md).
 

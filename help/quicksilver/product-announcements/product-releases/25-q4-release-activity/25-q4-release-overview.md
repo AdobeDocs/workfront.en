@@ -24,7 +24,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>25.9 (September 2025)</li><li>25.10 (October 2025)</li><li>25.11 (November 2025)</li></ul>| <ul><li>25.10 (October 2025)</li></ul>|
+>|<ul><li>25.8 (August 2025)</li><li>25.9 (September 2025)</li><li>25.10 (October 2025)</li></ul>| <ul><li>25.10 (October 2025)</li></ul>|
 >
 >Note that for the final release of each quarter (25.10 this quarter), users on the fast release schedule will receive the release one day early.
 >
@@ -32,7 +32,51 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront enhancements
 
+* [Document and proofing enhancements](#document-and-proofing-enhancements)
+<!--* [Resource Management enhancements](#resource-management-enhancements)-->
 * [Other enhancements](#other-enhancements)
+
+### Document and proofing enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">New proofing integration for Adobe Express</a><p></p>
+            <p>We are excited to announce a new integration between Adobe Express and Workfront Proof.</p>
+            <ul>
+            <li>Streamline collaboration between creative, legal, and compliance teams to reduce time-to-publish while maintaining oversight</li>
+            <li>Conduct deep reviews using drawing markups, annotations, and commenting with the Workfront proofing viewer</li>
+            <li>Meet enterprise compliance standards with electronic signatures and full audit logs</li>
+            <li>Require approval on any remixed files from an Express branded template</li>
+            <li>Map an Express template to a multi-stage review and approval workflow using advanced proof templates</li>
+            </ul>
+        </td>
+        <td>July 28, 2025</td>
+        <td>July 28, 2025</td>
+        <td>July 28, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
+
+
+<!--### Resource Management enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Role assignments display in the Workload Balancer </a><p></p>
+            <p>Resource managers can now review job role assignments in the Workload Balancer. The assignments are displayed in the Unassigned Work area, under the tasks or issues the roles are assigned to. Only work items assigned to users are displayed in the Assigned Work area. </p>
+            <p>A new Workload Balancer setting, Show Role Assignments, determines whether role assignments are displayed. The setting is enabled by default.</p>
+        </td>
+        <td>July 24, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> -->
 
 ### Other enhancements
 
@@ -111,9 +155,20 @@ The updated Workfront integration is now available and fully compatible with the
 
 As part of this change, Microsoft has made the decision to change the way tokens are re-enabled. After **June 30, 2025**, admins will no longer be able to re-enable tokens themselves—only Microsoft Support can grant exceptions. **On October 1, 2025, legacy tokens will be turned off for all tenants. Exceptions will not be granted.**  
 
+### Other Workfront integration transitions
+
+To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the following integrations will not be available after **February 28, 2026**: 
+
+* Workfront for G Suite 
+* Workfront for Jira 
+* Workfront for Salesforce. 
+
+We recommend using Workfront Automation and Integration for your organization's integration needs with Google Workspace. 
+For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+
 ### API version 20
 
-Workfront API version 20 was released on May 4, 2024. For API version 20, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
+Workfront API version 20 was released on May 4, 2025. For API version 20, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
 
 For information on what's new and updated, see [What's new in API version 20](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
