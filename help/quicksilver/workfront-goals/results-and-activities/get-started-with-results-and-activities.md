@@ -62,10 +62,6 @@ Consider the following when working with results:
 * They answer the question, "How will I know when my goal is complete?" 
 * They are metric indicators. You can select from the following options to indicate a progress for your result: 
 
-  <!--
-  this might change (jira, Salesforce, etc))
-  -->
-
    * Currency
    * Number
    * Percentage

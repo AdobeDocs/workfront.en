@@ -60,7 +60,7 @@ You can export records and their information from the table view to an Excel or 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td><p> Standard </p>
+   <td><p> Light or higher </p>
    <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
@@ -71,8 +71,8 @@ You can export records and their information from the table view to an Excel or 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings, duplicate, or to export it.</p> </td> 
+   <td>   <p>View or higher permissions to a view</p>  
+   </td> 
   </tr> 
 </tbody> 
 </table> 
