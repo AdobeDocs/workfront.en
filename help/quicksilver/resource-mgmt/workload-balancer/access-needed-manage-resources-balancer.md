@@ -78,7 +78,7 @@ You must have the following access to view the Workload Balancer:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<span class="preview">All users have access to view the Workload Balancer on their own profiles. This is not restricted by license or access level. If you have access to the Resourcing area in Adobe Workfront (according to the table above), you can also view the Workload Balancer on all user profiles. Note that the Workload Balancer on a user profile is read-only and assignments and allocations cannot be changed.</span>
+<span class="preview">All users have access to view the Workload Balancer on their own profiles. This is not restricted by license or access level. Note that the Workload Balancer on a user profile is read-only, and assignments and allocations cannot be changed.</span>
 
 ## Access needed to manage assignments in the Workload Balancer
 

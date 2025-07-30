@@ -469,11 +469,9 @@ Navigating the Workload Balancer of a team is similar to how you navigate the Wo
 
 ### Navigate the Workload Balancer of a user
 
-1. Access the user profile.
+You can access the Workload Balancer on your own user profile.
 
-   For your own profile: {{step1-click-profile-pic}}
-
-   For another user's profile: Click the linked name of the user as it appears anywhere in the Workfront interface. User names are displayed in many areas, such as in a comment made by the user.
+1. {{step1-click-profile-pic}}
 
 1. Click **Workload Balancer** in the left panel.
 
@@ -484,6 +482,10 @@ Navigating the Workload Balancer of a team is similar to how you navigate the Wo
    The Workload Balancer of a user displays the following by information, by default:
 
      * **Assigned Work**: The tasks and issues assigned to the specific user.
+
+   >[!NOTE]
+   >
+   >The Workload Balancer on a user profile is read-only, and assignments and allocations cannot be changed.
 
 1. Continue navigating the Workload Balancer of a user as described in the [Navigate the Workload Balancer for multiple projects](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) section of this article.
 

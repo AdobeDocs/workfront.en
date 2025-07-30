@@ -138,17 +138,11 @@ For more information on teams in Workfront, see [Teams overview](/help/quicksilv
 
 ### Access the Workload Balancer for a user
 
-All users have access to view the Workload Balancer on their own profiles. If you have access to the Resourcing area in Adobe Workfront, you can also view the Workload Balancer on all user profiles. For more information, see [Access needed to manage resources in the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
-
-Workload Balancer data for a user is read-only. You can't assign work, unassign work, or adjust allocations at the user level.
+All users have access to view the Workload Balancer on their own profiles. Workload Balancer data for a user is read-only. You can't assign work, unassign work, or adjust allocations at the user level.
 
 All of the display settings are available for the Workload Balancer for a user. For more information, see [Navigate the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Access the user profile.
-
-   For your own profile: {{step1-click-profile-pic}}
-
-   For another user's profile: Click the linked name of the user as it appears anywhere in the Workfront interface. User names are displayed in many areas, such as in a comment made by the user.
+1. {{step1-click-profile-pic}}
 
 1. Click **Workload Balancer** in the left panel.
 
