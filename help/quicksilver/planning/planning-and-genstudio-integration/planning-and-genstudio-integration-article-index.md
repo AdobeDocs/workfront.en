@@ -1,10 +1,10 @@
 ---
-title: "Adobe Workfront Planning and Adobe GenStudio for Performance Marketing Integration: Article Index"
-description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products. The articles in this list describe the functionality available for this integration. 
+title: 'Adobe Workfront Planning and Adobe GenStudio for Performance Marketing Integration: Article Index'
+description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products. The articles in this list describe the functionality available for this integration.
 hide: yes
 hidefromtoc: yes
+exl-id: 2fb8fcb4-eb82-4ac5-8b09-8577fecb9bc4
 ---
-
 <!--
 Better metadata when published:
 
