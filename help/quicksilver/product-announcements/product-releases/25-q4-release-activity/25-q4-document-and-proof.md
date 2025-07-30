@@ -4,6 +4,7 @@ description: Fourth Quarter 2025 Document and Proofing enhancements
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: f4615994-8a56-482c-b033-62e719be152e
 ---
 # Fourth Quarter 2025 Document and Proofing enhancements
 
