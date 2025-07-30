@@ -58,7 +58,7 @@ To create a better user experience when making requests in Workfront and Workfro
 * Search for and select Workfront request queues and Workfront Planning forms in a consolidated experience.
 * Hide and reorder columns in the submitted requests list.
 
-This updates also features changes to the look and feel of the page.
+This update also features changes to the look and feel of the page.
 
 Previously, Workfront and Workfront Planning requests were on separate tabs, and filters were not customizable.
 

@@ -135,7 +135,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>All users can now view their own demand and capacity data in the Workload Balancer from their profile, regardless of their access level. When you access your Workfront user profile, the Workload Balancer appears in the left navigation panel.</p>
             <p>Workload Balancer data for a user is read-only. You can't assign work, unassign work, or adjust allocations at the user level.</p>
         </td>
-        <td>July 24, 2025</td>
+        <td>July 31, 2025</td>
         <td>August 14, 2025</td>
         <td>October 16, 2025</td>
     </tr> 
@@ -145,7 +145,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Resource managers can now review job role assignments in the Workload Balancer. The assignments are displayed in the Unassigned Work area, under the tasks or issues the roles are assigned to. Only work items assigned to users are displayed in the Assigned Work area. </p>
             <p>A new Workload Balancer setting, Show Role Assignments, determines whether role assignments are displayed. The setting is enabled by default.</p>
         </td>
-        <td>July 24, 2025</td>
+        <td>July 31, 2025</td>
         <td>August 14, 2025</td>
         <td>October 16, 2025</td>
     </tr>     
