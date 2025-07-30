@@ -20,7 +20,7 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Interface updates for the Timesheet Profiles list in a group
 
-**Preview release: July 24, 2025; Production release: To be announced**
+**Preview release: July 24, 2025; Production release: July 28, 2025**
 
 We have updated the look and feel of the Timesheet Profiles list in the left panel in a group to match other areas of the application.
 
@@ -44,15 +44,23 @@ The export button has moved to the right side of the page.
 
 To view this change, go to Setup > Change Tracking > Audit Logs.
 
-<!--## Interface updates to the Update users for SSO page in Setup
+## Interface updates to the Update users for SSO page in Setup
 
-**Preview release: July 22, 2025; Production release: To be annoounced**
+**Preview release: July 22, 2025; Production release: July 28, 2025**
 
 We have updated the Update users for SSO page with a more modern design that is consistent with other areas of Workfront.
 
-To view this change, go to Setup > System > Update Users For SSO-->
+To view this change, go to Setup > System > Update Users For SSO
 
 ## Projects
+
+## Interface updates for the Import MS Project file box 
+
+**Preview release: July 24, 2025; Production release: To be announced**
+
+We have updated the look and feel of the Import MS Project File box when importing a project from MS Project to match the design of other areas of Workfront.
+
+To view this change, go to Projects > New project > Import MS Project. 
 
 ## Interface update for the Add an Expense box of a project or template
 
@@ -351,7 +359,7 @@ Specific customers can view this change by going to a project's Associated proje
 
 ### New look and feel for the "Save as template" box 
 
-**Preview release: June 12, 2025; Production release: To be announced**
+**Preview release: June 12, 2025; Production release: June 19, 2025**
 
 We have updated the look and feel of the "Save as template" box that displays when saving a project as a template. The new design includes a streamlined interface, where all the sections display in one cohesive form which you can navigate by using links in the left panel. The new design matches other areas and other objects in the application.  
 
@@ -509,7 +517,6 @@ We have updated the license agreement page with a more modern design that is con
 
 +++
 
--->
 
 ## Interface updates made in Q2
 
