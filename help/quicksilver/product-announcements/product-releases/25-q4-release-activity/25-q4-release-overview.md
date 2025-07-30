@@ -32,9 +32,30 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront enhancements
 
+* [Administrator enhancements](#administrator-enhancements)
 * [Document and proofing enhancements](#document-and-proofing-enhancements)
+* [Home enhancements](#home-enhancements)
+* [Requests enhancements](#requests-enhancements)
 * [Resource Management enhancements](#resource-management-enhancements)
 * [Other enhancements](#other-enhancements)
+
+### Administrator enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Add multiple value options from an external API to a custom form</a><p></p>
+            <p>A new field type, Multi-select external lookup, is now available on the custom form designer. When you have data stored on an external system, this field type allows you to load options from an external API and filter based on other field values in the custom form. This is the same as a single-select external lookup.</p>
+            <p>When the form is added to an object, the values returned from the API appear in a dropdown field and the user can select multiple values.</p>
+        </td>
+        <td>July 31, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
 
 ### Document and proofing enhancements
 
@@ -59,10 +80,65 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> 
 
+### Home enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">Updates to the My Requests widget in Home</a><p></p>
+            <p>To create a more seamless experience between Workfront and Workfront Planning, we've redesigned the My Requests widget in Home. The new widget features the following changes:
+            <ul>
+                <li>Improved layout and organization of request information</li>
+                <li>Enhanced filtering and sorting options</li>
+                <li>Integration with Workfront Planning for better visibility into resource allocation</li>
+            </ul>
+            </p>
+        </td>
+        <td>July 31, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
+### Requests enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
+            <p>To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. Now you can:
+            <ul>
+                <li>View Workfront and Workfront Planning requests in a single list.</li>
+                <li>Filter submitted requests based on criteria you specify.</li>
+                <li>Search for and select Workfront request queues and Workfront Planning forms in a consolidated experience.</li>
+                <li>Hide and reorder columns in the submitted requests list.</li>
+            </ul>
+            </p>
+        </td>
+        <td>July 31, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
 ### Resource Management enhancements
 
 <table style="table-layout:auto">
   <tbody>
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Workload Balancer is now available on your user profile</a><p></p>
+            <p>All users can now view their own demand and capacity data in the Workload Balancer from their profile, regardless of their access level. When you access your Workfront user profile, the Workload Balancer appears in the left navigation panel.</p>
+            <p>Workload Balancer data for a user is read-only. You can't assign work, unassign work, or adjust allocations at the user level.</p>
+        </td>
+        <td>July 24, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Role assignments display in the Workload Balancer </a><p></p>

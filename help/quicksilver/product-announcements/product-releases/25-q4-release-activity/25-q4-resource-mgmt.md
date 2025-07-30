@@ -12,11 +12,25 @@ This page describes Resource Management enhancements made with the Fourth Quarte
 
 For a list of all changes available at this point in the Fourth Quarter 2025 release cycle, see [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## Workload Balancer is now available on your user profile
+
+>[!NOTE]
+>
+>* Preview: July 31, 2025
+>* Production fast release: August 14, 2025
+>* Production for all customers: October 16, 2025
+
+All users can now view their own demand and capacity data in the Workload Balancer from their profile, regardless of their access level. When you access your Workfront user profile, the Workload Balancer appears in the left navigation panel.
+
+Workload Balancer data for a user is read-only. You can't assign work, unassign work, or adjust allocations at the user level.
+
+For information, see [Locate the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/locate-workload-balancer.md).
+
 ## Role assignments display in the Workload Balancer
 
 >[!NOTE]
 >
->* Preview: July 24, 2025
+>* Preview: July 31, 2025
 >* Production fast release: August 14, 2025
 >* Production for all customers: October 16, 2025
 
