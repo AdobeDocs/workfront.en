@@ -579,7 +579,7 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 
 -->
 
-# Comment 
+### Comment 
 
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Comment**.

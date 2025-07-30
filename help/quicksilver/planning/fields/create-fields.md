@@ -32,7 +32,7 @@ You can create fields in the following ways in Workfront Planning:
 * [From scratch](#create-fields-from-scratch)
 * [By connecting record types](#create-fields-from-scratch)
 * [By creating a record type](#create-fields-by-creating-a-record-type)
-* [By creating a workspace from a template](#create-fields-by-creating[-a-workspace-from-a-template)
+* [By creating a workspace from a template](#create-fields-by-creating-a-workspace-from-a-template)
 * [By importing record types using an Excel or CSV file](#create-fields-when-importing-record-types-from-a-csv-or-excel-file)
 * [By importing copies of existing Workfront fields](#create-fields-by-importing-them-from-workfront)
 
