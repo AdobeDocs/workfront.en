@@ -213,6 +213,18 @@ There are no updates for the following at this point in the release:
 * Proof
 * Goals
 
+## Desktop proofing viewer updates
+
+### Version 2.1.52 
+
+**Production release for all customers: July 31, 2025**
+
+The Desktop Proofing Viewer has been updated to version 2.1.52, which addresses bug fixes.
+
+The 2.1.51 update included internal tooling updates and did not impact end-user functionality.
+
+This update is for both Mac and Windows. 
+
 ## Announcements
 
 ### New version of Workfront for Microsoft Teams
