@@ -164,6 +164,5 @@ You can upload a document to be applied to the entire form, or to a single secti
 If you are not getting the expected suggestions, it may be due to one of the following:
 
 * You must have at least one month of request data in the system before it can suggest field values from previous requests.
-* An item of request data must have been in the system for more than 24 hours before it can be suggested in another request.
 * You may not have followed the document upload guardrails when uploading a document to pull suggestions from. For more information, see [Document upload guardrails](#document-upload-guardrails) in this article.
 
