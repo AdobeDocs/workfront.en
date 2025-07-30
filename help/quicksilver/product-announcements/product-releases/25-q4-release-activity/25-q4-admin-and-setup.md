@@ -16,7 +16,7 @@ For a list of all changes available at this point in the Fourth Quarter 2025 rel
 
 >[!NOTE]
 >
->* Preview: July 24, 2025
+>* Preview: July 31, 2025
 >* Production fast release: August 14, 2025
 >* Production for all customers: October 16, 2025
 

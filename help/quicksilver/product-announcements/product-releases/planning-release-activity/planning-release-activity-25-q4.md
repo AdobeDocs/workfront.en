@@ -17,7 +17,7 @@ This article describes the features that are releasing for Workfront Planning du
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 
-## Adding Maximize and Minimize buttons to the formula field creation window (title)
+## Adding Maximize and Minimize buttons to the formula field creation window
 
 >[!NOTE]
 >
