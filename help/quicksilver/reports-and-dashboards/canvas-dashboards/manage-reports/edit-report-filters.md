@@ -43,6 +43,11 @@ You can edit report filters once you've applied them to a Canvas dashboard to up
    <td><p>Edit access to Reports, Dashboards, and Calendars</p>
   </td> 
   </tr>  
+        <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td><p>Manage permissions for the dashboard</p>
+  </td> 
+  </tr>
 </tbody> 
 </table> 
 
@@ -68,6 +73,8 @@ You must add a filter to a report before it can be edited.
 1. Click **Edit filter**.
 
 1. Select the field or the modifier that you want to edit, then adjust the current selections as needed.  
+
+   ![Add condition](assets/add-condition.png)
 
 1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR.
 

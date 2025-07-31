@@ -5,8 +5,6 @@ title: Change the name or description of a dashboard
 description: You can edit the name or description of a Canvas dashboard after it's been created.
 author:  Courtney and Jenny 
 feature: Reports and Dashboards
-hidefromtoc: yes
-hide: yes
 ---
 # Change the name or description of a dashboard
 
@@ -15,6 +13,9 @@ hide: yes
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
 You can edit the name or description of a Canvas dashboard after it's been created. 
+
+Any changes you make to a dashboard will impact all users who have access to it. 
+ 
 
 +++ Expand to view access requirements. 
 
@@ -43,6 +44,11 @@ You can edit the name or description of a Canvas dashboard after it's been creat
    <td><p>Edit access to Reports, Dashboards, and Calendars</p>
   </td> 
   </tr>  
+    <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td><p>Manage permissions for the dashboard</p>
+  </td> 
+  </tr>
 </tbody> 
 </table> 
 
@@ -62,10 +68,13 @@ For more information, see [Create a Canvas dashboard](/help/quicksilver/reports-
 
 1. In the left panel, click **Canvas Dashboards**. 
 
-1. On the **Canvas Dashboards** page, select the **More** ![More icon](assets/more-icon.png) icon in the upper-right corner of the dashboard you want to update, then select **Edit**.
+1. Click into the dashboard you want to rename or update the description for. 
 
-1. In the **Details** ![Details icon](assets/details-icon.png) section of the **Configure chart** box, enter a new **Name**.
+1. Click the **Details** ![Details icon](assets/details-icon.png) icon to the right of the dashboard name at the top of the screen. 
 
-1. Enter a new **Description**.
+1. Enter a new **Name**. 
 
-1. Click **Save** in the upper-right corner of the dialog box.
+1. Enter a new **Description**. 
+
+1. Click **Save**.
+

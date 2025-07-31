@@ -45,6 +45,12 @@ Removing a report from a dashboard is permanent. If you need to re-add a report 
    <td><p>Edit access to Reports, Dashboards, and Calendars</p>
   </td> 
   </tr>  
+    </tr>  
+        <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td><p>Manage permissions for the dashboard</p>
+  </td> 
+  </tr>
 </tbody> 
 </table> 
 

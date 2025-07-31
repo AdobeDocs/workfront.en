@@ -5,8 +5,6 @@ title: Delete a dashboard
 description: You can arrange how reports display in a Canvas dashbaord after they've been added to one. 
 author:  Courtney and Jenny 
 feature: Reports and Dashboards
-hidefromtoc: yes
-hide: yes
 ---
 # Delete a dashboard
 
@@ -44,6 +42,12 @@ Once you no longer have a need for a Canvas dashboard, you can remove it from Ad
    <td><p>Edit access to Reports, Dashboards, and Calendars</p>
   </td> 
   </tr>  
+    </tr>  
+        <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td><p>Manage permissions for the dashboard</p>
+  </td> 
+  </tr>
 </tbody> 
 </table> 
 

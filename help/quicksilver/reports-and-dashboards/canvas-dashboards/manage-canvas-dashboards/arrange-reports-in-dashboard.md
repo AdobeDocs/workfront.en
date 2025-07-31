@@ -5,8 +5,6 @@ title: Arrange reports in a dashboard
 description: You can arrange how reports display in a Canvas dashbaord after they've been added to one. 
 author:  Courtney and Jenny 
 feature: Reports and Dashboards
-hidefromtoc: yes
-hide: yes
 ---
 # Arrange reports in a dashboard
 
@@ -14,7 +12,7 @@ hide: yes
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Once a report is added to a dashboard, they display as a report box in the dashboard so you can quickly visualize its data at a glance. Once multiple reports have been added, it's recommended to rearrange the size and order of each box to display the dashboard data more efficiently.
+Once a report is added to a dashboard, they display as a report widget in the dashboard so you can quickly visualize its data at a glance. Once multiple reports have been added, it's recommended to rearrange the size and order of each widget to display the dashboard data more efficiently.
 
 +++ Expand to view access requirements. 
 
@@ -43,6 +41,11 @@ Once a report is added to a dashboard, they display as a report box in the dashb
    <td><p>Edit access to Reports, Dashboards, and Calendars</p>
   </td> 
   </tr>  
+        <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td><p>Manage permissions for the dashboard</p>
+  </td> 
+  </tr>
 </tbody> 
 </table> 
 
@@ -59,12 +62,14 @@ You must add reports to a dashboard before they can be rearranged.
 
 1. In the left panel, click **Canvas Dashboards**. 
 
-1. On the **Canvas Dashboards** page, select **Edit layout** in the upper-right corner. The report boxes become editable. 
+1. On the **Canvas Dashboards** page, select **Edit layout** in the upper-right corner. The report widgets become editable. 
 
-1. Click and drag a report box to a new position on the page. 
+1. Click and drag a report widget to a new position on the page. 
 
-1. (Optional) To adjust the length and width of a report box, click and hold the **Resize** ![Resize icon](assets/resize-icon.png) icon in the lower-right corner of the box, then adjust the size as needed.
+   ![Move report widget](assets/moving-report-widget.png)
 
-1. Repeat steps 4-5 for each box you want to rearrange.
+1. (Optional) To adjust the length and width of a report widget, click and hold the **Resize** ![Resize icon](assets/resize-icon.png) icon in the lower-right corner of the widget, then adjust the size as needed.
+
+1. Repeat steps 4-5 for each widget you want to rearrange.
 
 1. Click **Save** in the upper-right corner. 

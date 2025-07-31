@@ -5,8 +5,6 @@ title: Edit a report
 description: You can edit a Canvas dashboard report after it's been created. 
 author:  Courtney and Jenny 
 feature: Reports and Dashboards
-hidefromtoc: yes
-hide: yes
 ---
 # Edit a report
 
@@ -46,6 +44,11 @@ Any changes made to a report will impact all users who have access to the dashbo
    <td><p>Edit access to Reports, Dashboards, and Calendars</p>
   </td> 
   </tr>  
+        <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td><p>Manage permissions for the dashboard</p>
+  </td> 
+  </tr>
 </tbody> 
 </table> 
 
@@ -100,3 +103,17 @@ For more information, see [Create a Canvas dashboard](/help/quicksilver/reports-
     For more information on these sections, see [Build a table report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
 
 1. Click **Save** to update the report. 
+
+## Edit an existing report
+
+When you edit an existing report, the report data you select will override the data that is currently displayed in the widget. If you want to add an additional existing report instead of replacing one, it's recommended to create a separate report widget.
+
+For more information, see [Add an existing report to a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+
+{{step1-to-dashboards}}
+
+1. In the left panel, click **Canvas Dashboards**. 
+
+1. On the **Canvas Dashboards** page, click the **More** ![More icon](assets/more-icon.png) icon in the upper-right corner of the report you want to edit, then select **Edit**. 
+
+1. In the **Report Selection** box, click **Add** in-line with the report you want to replace the existing report widget's data with.

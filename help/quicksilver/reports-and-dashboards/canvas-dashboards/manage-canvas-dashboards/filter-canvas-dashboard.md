@@ -42,7 +42,13 @@ You can apply a filter to the dashboard that contains prompts __________
    <td role="rowheader"><p>Access level configurations</p></td> 
    <td><p>Edit access to Reports, Dashboards, and Calendars</p>
   </td> 
-  </tr>  
+  </tr> 
+    </tr>  
+        <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td><p>Manage permissions for the dashboard</p>
+  </td> 
+  </tr> 
 </tbody> 
 </table> 
 
