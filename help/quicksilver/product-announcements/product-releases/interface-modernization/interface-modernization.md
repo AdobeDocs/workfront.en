@@ -78,15 +78,15 @@ We have updated the look and feel of the Send update to user box when accessing 
 
 For information, see [Manage the project team](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
-<!--## Updated experience when editing a Queue Topic in a project or template
+## Updated experience when editing a Queue Topic in a project or template
 
-**Preview release: July 31, 2025; Production release: August 7, 2025**
+**Preview release: July 31, 2025; Production release: July 31, 2025**
 
 We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
 
 A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
 
-For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 ## Interface updates for Billing Records
 
