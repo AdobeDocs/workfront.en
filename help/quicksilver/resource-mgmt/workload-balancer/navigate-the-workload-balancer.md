@@ -472,12 +472,37 @@ Navigating the Workload Balancer of a team is similar to how you navigate the Wo
     
     For more information, see [Overview of reconciling resource allocations between projects and initiatives](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
     
-    
     >[!NOTE]
     >
     >You cannot view initiative job role information if your organization has not purchased a license for the Workfront Scenario Planner. In this case, you can only view the planned hours associated with job roles on the project. For more information, see [Access needed to use the Scenario Planner](../../scenario-planner/access-needed-to-use-sp.md).
 
 1. Continue navigating the Workload Balancer of a project as described in the [Navigate the Workload Balancer for multiple projects](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) section of this article.
+
+<div class="preview">
+
+### Navigate the Workload Balancer of a user
+
+You can access the Workload Balancer on your own user profile.
+
+{{step1-click-profile-pic}}
+
+1. Click **Workload Balancer** in the left panel.
+
+   The Workload Balancer for the user displays.
+
+   ![Workload Balancer for a user](assets/workload-balancer-user.png)
+
+   The Workload Balancer of a user displays the following by information, by default:
+
+     * **Assigned Work**: The tasks and issues assigned to the specific user.
+
+   >[!NOTE]
+   >
+   >The Workload Balancer on a user profile is read-only, and assignments and allocations cannot be changed.
+
+1. Continue navigating the Workload Balancer of a user as described in the [Navigate the Workload Balancer for multiple projects](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) section of this article.
+
+</div>
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 
