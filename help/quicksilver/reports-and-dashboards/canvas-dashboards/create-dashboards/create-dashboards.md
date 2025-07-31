@@ -1,12 +1,12 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Create a Canvas dashboard 
+title: Create a Canvas Dashboard 
 description: With Canvas Dashboards, you can create and add reports to a customizable dashboard to quickly visualize your account data. 
 author: Courtney and Jenny 
 feature: Reports and Dashboards
 ---
-# Create a Canvas dashboard
+# Create a Canvas Dashboard
 
 >[!IMPORTANT]
 >
@@ -49,7 +49,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Create a dashboard
 
-Canvas dashboards offers a wide variety of options and configurations that you can use when building a dashboard. In this section, we will walk you through the general process of creating a dashboard.  
+Canvas Dashboards offer a wide variety of options and configurations that you can use when building a dashboard. In this section, we will walk you through the general process of creating a dashboard.  
 
 {{step1-to-dashboards}}
 

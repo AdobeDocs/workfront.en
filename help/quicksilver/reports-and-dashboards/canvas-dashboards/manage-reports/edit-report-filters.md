@@ -1,20 +1,20 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Edit report filters
-description: You can edit report filters after they've been applied to a Canvas dashboard.
+title: Edit report filters in a Canvas Dashboard
+description: You can edit report filters after they've been applied to a Canvas Dashboard.
 author:  Courtney and Jenny 
 feature: Reports and Dashboards
 hidefromtoc: yes
 hide: yes
 ---
-# Edit report filters
+# Edit report filters in a Canvas Dashboard
 
 >[!IMPORTANT]
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-You can edit report filters once you've applied them to a Canvas dashboard to update the data that displays as a project progresses. 
+You can edit report filters once you've applied them to a Canvas Dashboard to update the data that displays as a project progresses. 
 
 +++ Expand to view access requirements. 
 

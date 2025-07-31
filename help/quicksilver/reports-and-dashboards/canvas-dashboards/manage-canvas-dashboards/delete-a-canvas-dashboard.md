@@ -1,18 +1,18 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Delete a dashboard
+title: Delete a Canvas Dashboard
 description: You can arrange how reports display in a Canvas dashbaord after they've been added to one. 
 author:  Courtney and Jenny 
 feature: Reports and Dashboards
 ---
-# Delete a dashboard
+# Delete a Canvas Dashboard
 
 >[!IMPORTANT]
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Once you no longer have a need for a Canvas dashboard, you can remove it from Adobe Workfront.
+Once you no longer have a need for a Canvas Dashboard, you can remove it from Adobe Workfront.
 
 
 +++ Expand to view access requirements. 
@@ -58,7 +58,7 @@ For more detail about the information in this table, see [Access requirements in
 
 You must create a dashboard before it can be deleted. 
 
-For more information, see [Create a Canvas dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
+For more information, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
 ## Delete a dashboard
 

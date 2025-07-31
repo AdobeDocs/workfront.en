@@ -1,14 +1,14 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Filter a dashboard
-description: You can apply a filter to a Canvas dashboard after it's been created. 
+title: Filter a Canvas Dashboard
+description: You can apply a filter to a Canvas Dashboard after it's been created. 
 author:  Courtney and Jenny 
 feature: Reports and Dashboards
 hidefromtoc: yes
 hide: yes
 ---
-# Filter a dashboard
+# Filter a Canvas Dashboard
 
 >[!IMPORTANT]
 >
@@ -59,7 +59,7 @@ For more detail about the information in this table, see [Access requirements in
 
 You must create a dashboard before it can be filtered. 
 
-For more information, see [Create a Canvas dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
+For more information, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
 ## Filter a dashboard
 
