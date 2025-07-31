@@ -258,11 +258,11 @@ Consider the following when adding a Connected records page to a record:
 
 * You can add a Connected records page to a record after you connected record or object types to the record type from the table view of a record type.
 
-* You cannot add a Connected records page to a record's preview area.
+* You cannot add a Connected records page to a record's preview area. <!--take this out when we release connected record pages to the record preview area-->
 
 * Connected records pages display only the connected objects or records from one object or record type in a table view. The page does not display all records of that type in the table view. 
 
-* After you add a Connected records page to a record, the page tab is visible from the record's preview area, but it is blank. You must go to the full page to see the table view for the connected record. <!--this might have changed? check and take disclaimer out--> 
+* After you add a Connected records page to a record, the page tab is visible from the record's preview area, but it is blank. You must go to the full page to see the table view for the connected record. <!--this will change with the release of connected pages to the preview area-- check and take disclaimer out--> 
 
 * You can add Connected records pages for the following connected record or object types:
 
@@ -273,13 +273,21 @@ Consider the following when adding a Connected records page to a record:
    >
    >   You cannot add a Connected records page for connected AEM Assets records.
 
-
 To add a Connected records page:
+
+<!--replace the first 2 steps with these steps when we release connected record page to the record preview area, if this goes both to Preview and Prod: 
+
+1. Click the name of the record to open it. 
+1. Click **Add page** from one of the following areas: 
+
+   * The record's preview window
+   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
+
+-->
 
 1. From a record page view, click the name of a record to open it, then click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.
 1. Click **Add page**.  
 
-   
    The **Create page** box opens.
 
    ![Add Connected records page modal](assets/add-connection-view-page-modal.png) 
