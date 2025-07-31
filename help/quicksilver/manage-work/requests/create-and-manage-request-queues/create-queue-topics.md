@@ -177,5 +177,5 @@ To edit an existing Queue Topic:
 1. Go to the project or template that contains the Queue Topic you want to edit. 
 1. Click **Queue Topics** in the left panel. 
 1. In the Production environment, select the Queue Topic that you want to edit. On the Details page that opens, click **Edit Queue Topic**.
-1. <span class="preview">In the Preview environment, select the Queue Topic that you want to edit, then click the Edit icon ![Edit icon](assets/edit-icon.png).</span>
+<!--1. <span class="preview">In the Preview environment, select the Queue Topic that you want to edit, then click the Edit icon ![Edit icon](assets/edit-icon.png).</span>-->
 
