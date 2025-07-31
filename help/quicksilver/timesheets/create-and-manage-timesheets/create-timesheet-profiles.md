@@ -31,8 +31,6 @@ For more information about creating a timesheet manually, see [Create a single-u
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -188,9 +186,17 @@ You must have the following to perform the steps in this article:
    >* When you add a group, only the group name appears on the Assign People tab, not the list of group members. If you want to see the group members listed here, click Save Changes, then click the name of the timesheet profile you just created.
    >* When you finish these steps, the timesheet profile generates timesheets only for the assigned users or group members who don't have existing timesheets for the current period.
 
-1. Click **Save Changes**.
+1. Click **Save**.
 
-   The first time the timesheet profile generates timesheets, 2 timesheets are created for each user. After that, each time it generates new timesheets, onhe timesheet is created per user.
+1. At the top of the timesheet profile list, click the **More** icon ![More icon](assets/more-icon.png) for system-level timesheet profiles, or **More**, for group timesheet profiles, then click **Generate timesheets**. 
+
+   A confirmation displays at the bottom of the screen that timesheets have been successfully generated. New timesheets are generated based on the new profiles you created. 
+
+   For more information, see [Manually generate timesheets](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md). 
+
+   The first time the timesheet profile generates timesheets, 2 timesheets are created for each user, for both the timeframe that includes the current time as well as for the following timeframe. 
+   
+      After that, each time it generates new timesheets, one timesheet is created per user.
 
    <!--the content in the table above will need to match the content in the Create timesheets article-->
 

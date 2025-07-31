@@ -36,8 +36,6 @@ For information, see the following articles:
 
 +++ Expand to view access requirements. 
 
-You must have the following access to perform the steps in this article: 
-
 <table style="table-layout:auto">
  <col>
  </col>
@@ -93,15 +91,9 @@ You must have the following access to perform the steps in this article:
 <tr>
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
-   <p>Contribute or higher permissions to a workspace <span class="preview">and record type</span> </a> </p>  
+   <p>Contribute or higher permissions to a workspace and record type </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -256,48 +248,49 @@ To add a section to a record preview or page:
 
    All changes to the layout of the record preview or page save automatically. 
 
-## Add a <span class="preview">Connected records page</span> to a record
+## Add a Connected records page to a record
 
-You can view information from connected records or objects by adding a tab for a <span class="preview">Connected records page</span> to a record.  
+You can view information from connected records or objects by adding a tab for a Connected records page to a record.  
 
-In the Production environment, the information from the connected records or objects displays in a read-only table view. 
+The information from the connected records can be edited in the table view. The information from the objects connected from another application is not editable in the table view.
 
-<span class="preview">In the Preview environment, the information from the connected records can be edited in the table view. The information from the objects connected from another application is not editable in the table view.</span>
+Consider the following when adding a Connected records page to a record: 
 
-Consider the following when adding a <span class="preview">Connected records page</span> to a record: 
+* You can add a Connected records page to a record after you connected record or object types to the record type from the table view of a record type.
 
-* You can add a <span class="preview">Connected records page</span> to a record after you connected record or object types to the record type from the table view of a record type.
+* In the Production environment, you cannot add a Connected records page to a record's preview area.
 
-* You cannot add a <span class="preview">Connected records page</span> to a record's preview area.
+   <span class="preview">You can add a Connected records page to a record's preview area in the Preview environment.</span>
 
-* <span class="preview">Connected records pages</span> display only the connected objects or records from one object or record type in a table view. The page does not display all records of that type in the table view. 
+* Connected records pages display only the connected objects or records from one object or record type in a table view. The page does not display all records of that type in the table view. 
 
-* After you add a <span class="preview">Connected records page</span> to a record, the page tab is visible from the record's preview area, but it is blank. You must go to the full page to see the table view for the connected record. <!--this might have changed? check and take disclaimer out--> 
+* Depending on what environment you use, you might notice the following:
 
-* You can add <span class="preview">Connected records pages</span> for the following connected record or object types:
+   * In the Production environment, after you add a Connected records page to a record, the page tab is visible from the record's preview area, but it is empty. You must go to the full page to see the table view for the connected record. 
+   * <span class="preview">In the Preview environment, the Connected records page is visible from both the record's preview area and from the separate browser tab.</span>
+
+* You can add Connected records pages for the following connected record or object types:
 
    * Workfront Planning record types
    * Workfront projects, programs, portfolios, groups, or companies. You can view the connected Workfront objects even when you do not have permissions to access them in Workfront. 
 
    >[!NOTE]
    >
-   >   You cannot add a <span class="preview">Connected records page</span> for connected AEM Assets records.
+   >   You cannot add a Connected records page for connected AEM Assets records.
 
+To add a Connected records page:
 
-To add a <span class="preview">Connected records page</span>:
+1. Click the name of the record to open it. 
+1. Click **Add page** from one of the following areas: 
 
-1. From a record page view, click the name of a record to open it, then click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.
-1. Click **Add page**.  
+   * <span class="preview">The record's preview window</span>
+   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
 
-   <div class="preview">
-   
    The **Create page** box opens.
 
    ![Add Connected records page modal](assets/add-connection-view-page-modal.png) 
-   
-   </div>
 
-1. Add the **Page name**, click **<span class="preview">Connected records page</span>**, then click **Create**.
+1. Add the **Page name**, click **Connected records page**, then click **Create**.
 
    A new tab is added to the record's page.
 1. Search for or click the name of a connected record or object type in the list. 
@@ -306,20 +299,16 @@ To add a <span class="preview">Connected records page</span>:
    
    The first five fields from the connected record table display by default. No lookup fields display by default.
 
-   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
-
    ![Audience connected table view under campaign details](assets/audience-connected-table-view-under-campaign-details-page.png)
 
 1. (Optional) In the table view of the connected records, do any of the following:
 
    * Click the name of a record. This opens the record's page in a new tab. 
    
-      <span class="preview">In the Preview environment, this opens the record's preview page. Click the **Open in a new tab** icon ![Open in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner to open the connected record's page.</span>
+      This opens the record's preview page. Click the **Open in a new tab** icon ![Open in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner to open the connected record's page.
 
    * Click **Connect** to connect more records, then click outside the connection box to close it. The new records are automatically added to the table. 
-   * <span class="preview">Edit any information from the connected records inside the table view. </span>
-
-   <div class="preview">
+   * Edit any information from the connected records inside the table view. 
 
    * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options: 
       * View 
@@ -339,10 +328,7 @@ To add a <span class="preview">Connected records page</span>:
 
    * Inline edit any of the records in the table on the Connected records page. Workfront objects display in a read-only table view and you cannot edit them. 
 
-   </div>
-
-
-1. (Optional) Double-click the name of the <span class="preview">Connected records page</span> tab
+1. (Optional) Double-click the name of the Connected records page tab
 
    Or
 
@@ -362,7 +348,7 @@ To add a <span class="preview">Connected records page</span>:
    >
 
 1. Click **Connect** to add or remove records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md)
-1. (Optional)  Hover over the name of the <span class="preview">Connected records page</span> tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.
+1. (Optional)  Hover over the name of the Connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.
 
 
 

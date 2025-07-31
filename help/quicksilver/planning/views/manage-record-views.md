@@ -48,9 +48,7 @@ For more information about managing Workfront Planning record views, also see th
 
 +++ Expand to view access requirements. 
 
-You must have the following access to perform the steps in this article:  
-
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -89,7 +87,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td><p> Standard </p>
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
    <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
@@ -103,11 +102,12 @@ You must have the following access to perform the steps in this article:
    <td>   <p>Manage permissions to a view</p>  
    <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p></td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table> 
 
@@ -154,7 +154,7 @@ The following table shows the similarities and differences between the table, ti
 | Display records on a calendar                               |           |              |        ✓|
 | Group records                                      |      ✓     | ✓             |
 | Sort records                                       | ✓          |              |
-| <span class="preview">Color-code records</span>                     | <span class="preview">✓</span>          | ✓              |          ✓     |
+| Color-code records                    | ✓         | ✓              |          ✓     |
 | Color-code groupings                     |           | ✓              |
 | Search for specific records                     |  ✓         | ✓              |
 | Share the view with others                     |  ✓         | ✓              |       ✓     |
@@ -162,8 +162,8 @@ The following table shows the similarities and differences between the table, ti
 | Display records by year and quarter                    |           | ✓              |    |
 | Display records by month                    |           | ✓              |  ✓  |
 | Display records by week                    |           |               |  ✓  |
-|<span class="preview">Export information from a view</span>                   | <span class="preview">✓</span>          |               |    |
-
+|Export information from a view                   | ✓         |               |    |
+|<span class="preview">Display in full screen</span>                  | ✓         |   ✓            | ✓   |
 
 ## Create or edit views {#create-or-edit-views}
 
@@ -234,6 +234,8 @@ The following table shows the similarities and differences between the table, ti
     Or
 
     Double-click the view name and start typing the new name.  <!--ensure there is not another saving step here?!-->
+
+1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open any view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
 
 1. (Optional) To manage a specific type of view, see the following articles: 
 

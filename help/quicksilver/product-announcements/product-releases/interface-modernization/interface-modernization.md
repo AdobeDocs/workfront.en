@@ -18,13 +18,157 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
-### Interface updates to Portfilios tab in a group
+## Interface updates for the Timesheet Profiles list in a group
+
+**Preview release: July 24, 2025; Production release: July 28, 2025**
+
+We have updated the look and feel of the Timesheet Profiles list in the left panel in a group to match other areas of the application.
+
+To view these changes, go to Setup > Groups > select a group > Timesheet Profiles. 
+
+## Interface changes for the New and Edit Hour Type boxes
+
+**Preview release: July 24, 2025; Production release: July 31, 2025**
+
+We have updated the look and feel of the New and Edit Hour Type boxes when adding or editing hour types to the Hour Types area of Setup. The Hour Types area displays under the Timesheet & Hours area of Setup. The New and Edit Hour Type boxes now match other areas of Workfront. 
+
+For information, see [Manage Hour Types](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+
+## Interface updates to the Audit Logs page in Setup
+
+**Preview release: July 22, 2025; Production release: To be announced**
+
+We have updated the Audit Logs page in Setup to match other areas of the application.
+
+The export button has moved to the right side of the page. 
+
+To view this change, go to Setup > Change Tracking > Audit Logs.
+
+## Interface updates to the Update users for SSO page in Setup
+
+**Preview release: July 22, 2025; Production release: July 28, 2025**
+
+We have updated the Update users for SSO page with a more modern design that is consistent with other areas of Workfront.
+
+To view this change, go to Setup > System > Update Users For SSO
+
+## Projects
+
+## New look and feel of the Queue Details section on a template
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of the Queue Details section of a template. The look and feel of the Queue Details section now matches other areas of Workfront. 
+
+For information, see [Create a Request Queue](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+<!--## Interface updates when bulk editing templates
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.
+
+For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
+
+## Interface updates for the Send update to user box on a template 
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of the Send update to user box when accessing it from the People tab on a template. The Send update to user box now matches other areas of Workfront when you send an update to one or multiple users.  
+
+For information, see [Manage the project team](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
+
+<!--## Updated experience when editing a Queue Topic in a project or template
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+
+A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+
+For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+
+## Interface updates for Billing Records
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of the Billable Hours, Billable Expenses, and Fixed Revenues pages of billing records to match other areas of the application. The dialog boxes for adding new billable hours, billable expenses, and fixed revenues have also been updated.
+
+To view these changes, go to a project > Billing Records > select a billing record > Billable Hours, Billable Expenses, or Fixed Revenues > add new billable hours, billable expenses, or fixed revenues.
+
+For information, see [Create billing records](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
+
+## Interface updates for the Import MS Project file box 
+
+**Preview release: July 24, 2025; Production release: To be announced**
+
+We have updated the look and feel of the Import MS Project File box when importing a project from MS Project to match the design of other areas of Workfront.
+
+To view this change, go to Projects > New project > Import MS Project. 
+
+## Interface update for the Add an Expense box of a project or template
+
+**Preview release: July 24, 2025; Production release: July 31, 2025**
+
+We have updated the dialog box for adding a new expense to a project, to match other areas of the application. The updated dialog box is available when adding expenses in projects or templates.
+
+For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+
+## Templates
+
+## Interface changes when editing a Routing Rule for a template 
+
+**Preview release: July 24, 2025; Production release: July 31, 2025**
+
+We have updated the look and feel of a Routing Rule, when editing it on a template. The Routing Rule editing page now matches the design of other areas of Workfront.
+
+To edit Routing Rule, select the Routing Rule from the list and click the Edit icon.
+
+For information, see [Create Routing Rules](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+
+## Interface changes to the request queue management areas of a template
+
+**Preview release: July 24, 2025; Production release: July 31, 2025**
+
+We have updated the look and feel  of the following lists on templates:
+
+* Queue Topics 
+* Topic Groups
+* Routing Rules
+
+To edit or delete an item in one of these lists, select the item and click the appropriate icon.
+
+For for more information, see 
+
+* [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* [Create Topic Groups](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+* [Create Routing Rules](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+
+## Interface updates made in Q3
+
+### Admin and Setup
+
++++Expand to view Admin and Setup interface updates made in Q3
+
+### Interface updates for the Layout Templates page
+
+**Preview release: July 17, 2025; Production release: July 24, 2025**
+
+We have updated the Layout Templates page with a more modern design that is consistent with other areas of Workfront.
+
+This update includes visual changes to the list of layout templates. No functionality has changed.
+
+To view the change, go to Setup > Interface > Layout Templates.
+
+For information, see [Create and manage layout templates](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+### Interface updates to Portfolios tab in a group
 
 **Preview: July 10, 2025; Production for everyone: July 17, 2025**  
 
 We have updated the Portfolio page in the left panel in a group to match other areas of the application.
 
-To view these changes, go to Setup > Groups > select a group > Portiolios. 
+To view these changes, go to Setup > Groups > select a group > Portfolios. 
 
 ### Interface updates to subgroup dialogs
 
@@ -134,6 +278,16 @@ We have updated the Import Data (Kick-Starts) page in the Setup area with a more
 
 For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
+### Interface updates to the Expense Types list
+
+**Preview release: May 22, 2025; Production release for all customers: May 29, 2025**
+
+We have updated the look and feel of the Expense Types list in the Setup area, to match the design of other areas of Workfront.
+
+A small functionality change has been applied to the Expense Types list. To edit or delete an expense type, select it in the list and click the appropriate icon. Note that you can't edit or delete the default expense types.
+
+For information, see [Create custom expense types](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
+
 ### Interface update for the Access Log tab in Setup
 
 **Preview release: May 21, 2025; Production release: May 29, 2025**
@@ -179,15 +333,23 @@ We have updated the interface when adding a billing rate to a template, to match
 
 No functionality changes have been introduced with this update.
 
-## Documents 
++++
+
+### Documents 
+
++++Expand to view Documents interface updates made in Q3
 
 ### Share a document with an external email address
 
 **Preview release: May 15, 2025; Production release: May 21, 2025**
 
-We have updated the share dialog box to allow users to share documents with external users using an email address. This funtionality was temporarily unavailable due to the interface modernization work.
+We have updated the share dialog box to allow users to share documents with external users using an email address. This functionality was temporarily unavailable due to the interface modernization work.
 
-## Navigation and search
++++
+
+### Navigation and search
+
++++Expand to view Navigation and search interface updates made in Q3
 
 ### Interface update for Advanced Search
 
@@ -207,7 +369,11 @@ For more information, see [Search [!DNL Adobe Workfront]](/help/quicksilver/work
 
 We have updated the page you use to grant support access to your Workfront account with a more modern design that is consistent with other areas of Workfront. 
 
-## Projects
++++
+
+### Projects
+
++++Expand to view Projects interface updates made in Q3
 
 <!--
 ### New look and feel for logging time on a project, task, or issue in the Hours tab   
@@ -216,8 +382,8 @@ We have updated the page you use to grant support access to your Workfront accou
 
 We have updated the look and feel of the Log time box when logging time for a project, task, or issue in the Hours tab, to match the design of other areas of Workfront.  
 
-For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
--->
+For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).-->
+
 
 ### Look-and-feel changes of the New Topic Group and Edit Topic Group boxes of a project
 
@@ -237,7 +403,7 @@ Specific customers can view this change by going to a project's Associated proje
 
 ### New look and feel for the "Save as template" box 
 
-**Preview release: June 12, 2025; Production release: To be announced**
+**Preview release: June 12, 2025; Production release: June 19, 2025**
 
 We have updated the look and feel of the "Save as template" box that displays when saving a project as a template. The new design includes a streamlined interface, where all the sections display in one cohesive form which you can navigate by using links in the left panel. The new design matches other areas and other objects in the application.  
 
@@ -271,6 +437,11 @@ For information, see [Copy a project template](/help/quicksilver/manage-work/pro
 
 **Preview release: May 22, 2025; Production release: May 29, 2025**
 
+>[!NOTE]
+>
+>Temporarily removed from Preview and Production
+
+
 We have updated the interface for the Add boxes when doing the following: 
 
 * Adding projects to programs
@@ -283,8 +454,12 @@ For information, see the following articles:
 * [Add projects to a portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
 * [Add a project to a program](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) 
 
++++
 
-## Reports and Dashboards
+
+### Reports and Dashboards
+
++++Expand to view Reports and Dashboards interface updates made in Q3
 
 ### Interface updates for the Expense report
 
@@ -319,9 +494,12 @@ Adding `/tile` or `/qstile` to a Workfront URL allowed the browser to load unsup
 
 We recommend replacing the URL to go to a supported page, or removing the external page from your Dashboard.
 
++++
+
 
 ## Users 
 
++++Expand to view Users interface updates made in Q3
 
 ### Interface updates to the organizational chart
 
@@ -374,13 +552,19 @@ External users can no longer access _My Settings_ from this page.
 
 We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
 
-## Licenses
++++
+
+### Licenses
+
++++Expand to view Users interface updates made in Q3
 
 ### Updated license agreement page
 
 **Preview release: April 24, 2024; Production release: Starting the week of May 8, 2024**
 
 We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.
+
++++
 
 
 ## Interface updates made in Q2
@@ -454,9 +638,9 @@ A small functionality change has been applied to the Access Levels list. To copy
 
 We have updated the Announcement Center with a more modern design that is consistent with other areas of Workfront. 
 
-To view this change, go to the Notifications icon in the upper-right corner, then choose All Annoucements. 
+To view this change, go to the Notifications icon in the upper-right corner, then choose All Announcement. 
 
-### Interface update for customizing Event Notfification subjects
+### Interface update for customizing Event Notification subjects
 
 **Preview release: February 13, 2025; Starting the week of February 13, 2025**
 
@@ -514,11 +698,11 @@ This update includes visual changes to the area. No functionality has changed.
 
 We have updated the Email Templates page with a more modern design that is consistent with other areas of Workfront.
 
-Instead of clicking directly on the template name to edit the template, you must select the checkbox, then click Edit icon in the toolbar. 
+Instead of clicking directly on the template name to edit the template, you must select the checkbox, then click the Edit icon in the toolbar. 
 
 To view this page, go to Setup > Email > Notifications > Email Templates.
 
-### Interface update for the email Invitations page in Setup
+### Interface update for the Email Invitations page in Setup
 
 **Preview release: January 23, 2025; Production release: Starting the week of January 30,2025**
 
@@ -672,7 +856,7 @@ To view this change, go to a document > Click Document Details > Approvals.
 
 **Preview release: January 27, 2025; Production release: Starting the week of February 3, 2025**
 
-We have udpated the Smart Folders edit dialog box with a more modern design that is consistent with other areas of Workfront. 
+We have updated the Smart Folders edit dialog box with a more modern design that is consistent with other areas of Workfront. 
 
 To view this change, go to a Documents > Click the more menu next to the Smart Filter name > Click Edit. 
 
@@ -785,7 +969,7 @@ We have updated the Access Level report with a more modern design that is consis
 
 This update includes visual changes to the report. No functionality has changed.
 
-To create an Team report, go to Reports > New Report > Access Level.
+To create a Team report, go to Reports > New Report > Access Level.
 
 ### Updated Team report with new styling
 
@@ -795,7 +979,7 @@ We have updated the Team report with a more modern design that is consistent wit
 
 This update includes visual changes to the report. No functionality has changed.
 
-To create an Team report, go to Reports > New Report > Team.
+To create a Team report, go to Reports > New Report > Team.
 
 
 ### Updated email reports with new styling

@@ -62,7 +62,7 @@ There are many configuration options available for building a KPI report. In thi
 
 1. In the left panel, click **Canvas Dashboards**. 
 
-1. Click **New Dashboard** in the top-right corner.  
+1. Click **New Dashboard** in the upper-right corner.  
 
 1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**.  
 
@@ -72,7 +72,7 @@ There are many configuration options available for building a KPI report. In thi
 
 1. On the left side, select **KPI**.
 
-1. In the top-right corner, click **Create report**.  
+1. In the upper-right corner, click **Create report**.  
 
 1. Follow the steps below to configure the **Details** section: 
 
@@ -80,8 +80,8 @@ There are many configuration options available for building a KPI report. In thi
     1. Enter a report **Description**. 
     
         >[!NOTE]
-        > 
-        > The description will be used as a caption below the KPI value. If you don't enter a description, a caption will be generated for you based on the aggregator and aggregation type you select in the following steps.  
+        >
+        >The description will be used as a caption below the KPI value. If you don't enter a description, a caption will be generated for you based on the aggregator and aggregation type you select in the following steps.  
 
 1. Follow the steps below to configure the **Build KPI** section: 
 

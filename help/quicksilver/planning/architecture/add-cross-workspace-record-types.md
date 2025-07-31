@@ -1,10 +1,10 @@
 ---
 title: Add Cross-workspace Record Types
-description: Record types are the object types of Adobe Workfront Planning. In Workfront Planning, you can import an existing record type from another workspace. 
+description: Record types are the object types of Adobe Workfront Planning. In Workfront Planning, you can import an existing record type from another workspace.
 hidefromtoc: yes
 hide: yes
+exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 ---
-
 <!-- add these to the metadata, when making this public: 
 
 feature: Workfront Planning
@@ -31,9 +31,7 @@ For information, see [Configure cross-workspace capabilities for record types](/
 
 +++ Expand to view access requirements.  
 
-You must have the following access to perform the steps in this article:  
-
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -102,6 +100,32 @@ You must have the following access to perform the steps in this article:
    * Records
    * Record connections
 
-## Create a record type from an existing global record type
+* You can edit the record type, including its fields, only in its original workspace. You cannot edit it from the workspaces where it was added. 
 
-1. Start creating a record type, as described in the article [Create record types](/help/quicksilver/planning/architecture/create-record-types.md), then click **Use global record type**. <!--check this - the option might have been renamed in the UI-->
+## Create a record type from an existing record type
+
+1. Start creating a record type, as described in the article [Create record types](/help/quicksilver/planning/architecture/create-record-types.md), then click **Add existing**. <!--check this - the option might have been renamed in the UI-->
+
+   ![Modal to add record type with option to import from another workspace](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+
+1. Click **Continue**.
+1. In the **Choose record type** box, click the card for the record type that you want to add from an existing workspace, then click **Add**.
+
+   The record type is added to the workspace you selected and the following things occur:
+
+   * The **cross-workspace record type** icon ![Cross-workspace connection icon](assets/global-icon.png) is added to the card of the imported record type.
+   * The read-only **Workspace** field is added to the imported record type. The field displays what workspace each record was created in. 
+   
+      >[!NOTE]
+      >
+      >* You cannot edit the imported record type or its fields. You can edit the record type and its fields from the original workspace.
+
+1. (Optional) Click on the **More** menu ![More menu](assets/more-menu.png) in the imported record type's card, or to the right of the record type's name on its page, then click **Delete**.
+1. (Conditional) Type **delete** in the field provided, then click **Permanently delete**.
+
+   This removes the imported record type from the selected workspace. The original record type and its fields remain in their original workspace.
+   
+   <!--**************************ASK LILIT ON THIS ONE, NOT SURE IF THIS IS TRUE: Any records added in the current workspace are saved in the original workspace.**********-->
+   
+
+

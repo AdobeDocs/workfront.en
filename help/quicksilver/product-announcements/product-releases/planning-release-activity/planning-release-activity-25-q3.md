@@ -16,10 +16,31 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Updated Advanced settings when creating and editing record types
+
+>[!NOTE]
+>
+>Preview: July 10, 2025
+>Production for everyone: July 10, 2025
+>[!BADGE Off schedule]{type=Neutral}
+
+
+We have updated the Advanced settings tab when creating or editing a record type. 
+
+The following changes were introduced as part of this update: 
+
+* The "Connectivity scope" area has been renamed to "Cross-workspace capabilities"
+* The "Connect from other workspaces" setting has been renamed to "Allow connecting to this record type in other workspaces"
+
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+
 ## Add notifications for team users when the team is added to a record comment
 
-Preview: July 10, 2025
-Production for everyone: July 10, 2025
+>[!NOTE]
+>
+>Preview: July 10, 2025
+>Production for everyone: July 10, 2025
+>[!BADGE Off schedule]{type=Neutral}
 
 Now, when you add a team to a record comment in Workfront Planning, all members of the team receive both an in-app and an email notification about the comment. Prior to this enhancement, only users added to comments individually were notified .  
 
@@ -27,9 +48,12 @@ For information, see Manage record comments [Manage record comments](/help/quick
 
 ## Auto-populate fields based on applied groupings
 
-Preview: July 10, 2025 
-Production fast release: August 14, 2025 
-Production for everyone: October 16, 2025 
+>[!NOTE]
+>
+>Preview: July 10, 2025 
+>Production fast release: August 14, 2025 
+>Production for everyone: October 16, 2025 
+
 
 Now, when you have  groupings applied to a table view, adding a record to the table will auto-populate the fields associated with the groupings you add the record to.  
 
@@ -43,8 +67,8 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 
 >[!NOTE]
 >
->* Preview: July 9, 2025 
->* Production for everyone: July 17, 2025 
+>Preview: July 9, 2025 
+>Production for everyone: July 17, 2025 
 
 You can now share a view as well as a record type from the same button on the record type's page. Prior to this enhancement, you could only share the record type from the Share button on the record type page and a view from the view's tab.  
 
@@ -117,6 +141,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >
 >* Preview: June 26, 2025
 >* Production for everyone: June 26, 2025
+>[!BADGE Off schedule]{type=Neutral}
 
 Now, when you connect record types and bring in a formula field as a lookup, you can apply the aggregate functions (SUM, AVERAGE, MIN, MAX, etc) depending on the formula field's format. For example, if the formula field is numeric, you can use functions like SUM or AVG; if the formula field is formatted as text, aggregate functions like SUM will not apply.  
 
@@ -151,8 +176,8 @@ For more information, see [Enable custom quarters for projects](/help/quicksilve
 >[!NOTE]
 >
 >* Preview: June 12, 2025
->* Production fast release: June 12, 2025 
->* Production for all customers:  June 12, 2025
+>* Production for everyone:  June 12, 2025
+>[!BADGE Off schedule]{type=Neutral}
 
 We have introduced an improvement that updates all formula fields dependent upon each other at the same time after a referenced field is updated manually. Formula fields that are 2, 3, or 4 fields away from the field whose value is manually changed and that reference each other will now automatically update at the same time.  
 
@@ -165,8 +190,8 @@ For information, see [Formula fields overview](/help/quicksilver/planning/fields
 >[!NOTE]
 >
 >* Preview: June 6, 2025
->* Production fast release: June 6, 2025 
 >* Production for all customers:  June 6, 2025
+>[!BADGE Off schedule]{type=Neutral}
 
 We have added the following expressions to formula fields: 
  
@@ -210,7 +235,7 @@ For information, see [Submit Adobe Workfront Planning requests to create records
 >
 >* Preview: May 22, 2025
 >* Production fast release: June 12, 2025 
->* Production for all customers:  July 17, 2025
+>* Production for everyone:  July 17, 2025
 
 We have changed the experience when breaking down records in the timeline view and you have the Compact view applied. 
 With the new update, when you define your breakdown objects while you display the timeline in the Compact mode,  you are prompted to switch the view to Standard after you finish configuring the breakdown conditions. 
@@ -227,7 +252,7 @@ For information, see [Manage the timeline view](/help/quicksilver/planning/views
 >
 >* Preview: May 15, 2025
 >* Production fast release: June 12, 2025 
->* Production for all customers:  July 17, 2025
+>* Production for everyone:  July 17, 2025
 
 You can now format the look and feel of the record bars in the timeline view for the records in the breakdown. You can update the following settings for the bars of these records: 
 
@@ -244,7 +269,7 @@ For information, see [Manage the timeline view](/help/quicksilver/planning/view
 >
 >* Preview: May 15, 2025
 >* Production fast release: June 12, 2025 
->* Production for all customers:  July 17, 2025
+>* Production for everyone:  July 17, 2025
 
 We have added a new capability to Workfront Planning where you can export information visible in the table view to a CSV or an Excel file.  
 
@@ -262,7 +287,7 @@ For more information, see [Manage the table view](/help/quicksilver/planning/vie
 >
 >* Preview: May 15, 2025
 >* Production fast release: June 12, 2025 
->* Production for all customers:  July 17, 2025
+>* Production for everyone:  July 17, 2025
 
 You can now populate the values of connected fields when you add records to a record type using a CSV or Excel file.  Only connected Planning record fields are supported. Fields displaying connections to other applications are not supported. 
 
@@ -282,7 +307,7 @@ For information, see the following articles:
 >
 >* Preview: April 30, 2025
 >* Production fast release: May 15, 2025 
->* Production for all customers:  July 17, 2025
+>* Production for everyone:  July 17, 2025
 
 You can now edit records in the Connected records page of a record. With this update, we have introduced the following:   
 
@@ -299,7 +324,7 @@ For information, see [Manage the record page layout](/help/quicksilver/planning/
 >
 >* Preview: April 30, 2025
 >* Production fast release: May 15, 2025 
->* Production for all customers:  July 17, 2025
+>* Production for everyone:  July 17, 2025
 
 Standard and System Administrator users can now find the Planning area in the Main Menu by default, without being assigned to a layout template that includes it. All other users must have a layout template that includes the Planning area assigned to them in order to access it.   
 
@@ -318,7 +343,7 @@ For information, see [Adobe Workfront Planning overview](/help/quicksilver/plann
 >
 >* Preview: April 30, 2025
 >* Production fast release: May 15, 2025 
->* Production for all customers:  July 17, 2025
+>* Production for everyone:  July 17, 2025
 
 For better visibility of the important information of your records, we have introduced row-level color formatting for the table view. You can now choose a color for each row after you define conditions for each choice.  This is a new capability that did not exist before this update. 
 
@@ -330,7 +355,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >
 >* Preview: April 23, 2025
 >* Production fast release: May 15, 2025 
->* Production for all customers:  July 17, 2025
+>* Production for everyone:  July 17, 2025
 
 You can now enable a setting in the Bar style tab of the Settings box of a timeline view to truncate longer record names, when displaying them in the Standard view. The setting is disabled by default and can be enabled only when you display the timeline view in the Standard mode. As this setting is disabled, information on the record bars displays expanded, by default. Prior to this enhancement, information on the record bars was truncated by default.   
 
@@ -338,12 +363,11 @@ For information, see [Manage the timeline view](/help/quicksilver/planning/views
 
 ## Sharing permissions for record types
  
-
 >[!NOTE]
 >
 >* Preview: April 17, 2025
 >* Production fast release: July 17, 2025
->* Production for all customers: July 17, 2025
+>* Production for everyone: July 17, 2025
 
 To better control who can view or manage records in each record type and ensure that only authorized people can manage each record type's information based on their roles and responsibilities, we have introduced permissions at the record type level. 
 

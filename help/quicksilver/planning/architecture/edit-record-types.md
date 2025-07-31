@@ -22,9 +22,7 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
 
 +++ Expand to view access requirements. 
 
-You must have the following access to perform the steps in this article:  
-
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -74,15 +72,11 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Manage permissions to a workspace <span class="preview">and record type</span> </p>  
+   <td>   <p>Manage permissions to a workspace and record type </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
    <p>Only system administrators can enable record types to connect from other workspaces</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> </td> 
-  </tr> 
+
 </tbody> 
 </table> 
 
@@ -101,9 +95,9 @@ You must have the following access to perform the steps in this article:
 
    * Hover over the card of a record type and click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the record type card, then click **Edit**
       Or
-   * Click a record type card to open the record type page, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Edit**. 
+   * <span class="preview">Click a record type card to open the record type page, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Edit**. </span>
 
-   ![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)
+   <span class="preview">![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)</span>
 
 1. In the **Edit record type** box, the **Appearance** tab opens by default. 
 
@@ -117,17 +111,22 @@ You must have the following access to perform the steps in this article:
         * Select a color to identify the record type. This is the color of the record type icon. 
         * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default. 
 
-1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box. <!--the info here is duplicated in the Create record types article-->
+   <!--old info: 
+   1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box. 
+      ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
+   1. (Conditional) Update the following information in the **Advanced settings** tab: 
+      * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
+      * Choose from which workspaces the record type can be accessed. Choose from the following options:
+         * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
+         * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.-->
 
-   ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
 
-1. (Conditional) Update the following information in the **Advanced settings** tab: 
+1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: <!--the info here is duplicated in the Create record types article-->
+    * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
+    You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
+    For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). 
 
-   * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
-   * Choose from which workspaces the record type can be accessed. Choose from the following options:
-
-      * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
-      * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.
+    ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
 
    <!--replace last point with this when we release dynamic record types:
       1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***

@@ -16,7 +16,6 @@ exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
 You can share a Canvas dashboard with other Adobe Workfront users so they can view or edit it.
 
 +++ Expand to view access requirements. 
-
  <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -63,6 +62,7 @@ For more detail about the information in this table, see [Access requirements in
 * By default, when you share a dashboard, users inherit View permissions to all the reports objects on the dashboard unless the permission is updated before sharing. 
 
 * If you have View permissions on a dashboard, you can still share the dashboard but you can't assign a permission higher than View to the recipients.
+
 
 ## Share a Canvas Dashboard
 

@@ -1,12 +1,12 @@
 ---
 title: Export Records from the Table View
-description: You can export records and their infromationfrom the table view to a CSV or Excel file. 
+description: You can export records and their infromationfrom the table view to a CSV or Excel file.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: d8ac4d94-28b5-41d6-acb8-259696897c8a
 ---
-
 # Export records from the table view
 
 <!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -60,7 +60,7 @@ You can export records and their information from the table view to an Excel or 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td><p> Standard </p>
+   <td><p> Light or higher </p>
    <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
@@ -71,8 +71,8 @@ You can export records and their information from the table view to an Excel or 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings, duplicate, or to export it.</p> </td> 
+   <td>   <p>View or higher permissions to a view</p>  
+   </td> 
   </tr> 
 </tbody> 
 </table> 
@@ -131,4 +131,4 @@ To export information from the table view or a record type:
 
     You can now share the exported files with others, or attach them to any communication. 
     
- </div>   
+ </div>

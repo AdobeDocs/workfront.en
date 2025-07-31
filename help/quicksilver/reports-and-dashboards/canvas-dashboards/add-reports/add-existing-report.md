@@ -54,6 +54,8 @@ For more detail about the information in this table, see [Access requirements in
 
 1. In the left panel, click **Canvas Dashboards**. 
 
+1. Click **New Dashboard** in the upper-right corner.
+
 1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**.  
 
 1. Click **Create**. 

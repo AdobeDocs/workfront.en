@@ -10,9 +10,9 @@ exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 
 # Share views
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -35,8 +35,6 @@ This article describes how you can share a view with others. For information abo
 +++ Expand to view access requirements. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
-
-You must have the following access to perform the steps in this article:  
 
  <table style="table-layout:auto"> 
 <col> 
@@ -93,11 +91,7 @@ You must have the following access to perform the steps in this article:
    <td>  <p>Manage permissions to a view</p>  
    <p>Only users with Manage permissions to a workspace can share a view publicly.</p></td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p></td> 
-  </tr> 
+
 </tbody> 
 </table> 
 
@@ -141,15 +135,15 @@ You can share views you created or views you have Manage permissions to with use
 
    This opens the record type page.
 
-1. From the view tab, <span class="preview">do one of the following:</span>
+1. From the view tab, do one of the following:
 
    * Hover over the tab name of the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. 
 
       ![More menu for a view](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   * <span class="preview">Click **Share** > **Share the current view**</span>
+   * Click **Share** > **Share the current view**
 
-      <span class="preview">![Share button with record type and view sharing options](assets/share-button-with-record-type-and-view-sharing-options.png)</span>   
+      ![Share button with record type and view sharing options](assets/share-button-with-record-type-and-view-sharing-options.png) 
 
    The **Share view** box opens and the **Internal sharing** tab should be selected by default.
 
@@ -157,9 +151,9 @@ You can share views you created or views you have Manage permissions to with use
 
    * **Only invited people can access**: You must specify users, groups, team, company, or job role that you want to share the view with. This is the default option.
 
-      >[!NOTE]
-      >
-      >   In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console.
+   >[!NOTE]
+   >
+   >In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. You cannot add Workfront-only users. For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md). 
 
 
    * **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. 
@@ -210,7 +204,7 @@ To share a view publicly in Workfront Planning:
    * Hover over the tab name of the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. 
 
    ![More menu for views expanded with share option](assets/more-menu-for-views-expanded-with-share-option.png)
-   * <span class="preview">Click **Share** > **Share the current view**</span>
+   * Click **Share** > **Share the current view**
 
    The **Share view** box opens.
 
@@ -259,7 +253,7 @@ This section describes how you share a view internally.
 1. From a view's tab, do one of the following: 
 
    * Hover over the tab of the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share** > **Copy link** in the **Share view** box. 
-   * <span class="preview">Click **Share** > **Copy the view link**</span> > **Copy link** in the **Share view** box.
+   * Click **Share** > **Copy the view link** > **Copy link** in the **Share view** box.
 
    A link to the view is copied to your clipboard and you receive a confirmation at the bottom of the screen. 
 
@@ -295,11 +289,11 @@ Users who access a link to a view to which they do not have permissions can requ
 {{step1-to-planning}}
 
 1. Open the workspace whose view you want to stop sharing, then click a record type card. This opens the record type page.
-1. From the view tab, <span class="preview"> do one of the following:</span>
+1. From the view tab, do one of the following:
 
    * Hover over the tab name of the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. 
 
-   * <span class="preview">Click **Share** > **Share the current view**</span>
+   * Click **Share** > **Share the current view**
 
    The **Share view** box opens.
 1. To remove the internal sharing of a view, do the following: 

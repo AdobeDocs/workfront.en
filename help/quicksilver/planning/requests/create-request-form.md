@@ -3,7 +3,7 @@ title: Create and Manage a Request Form in Adobe Workfront Planning
 description: After selecting a record type in Adobe Workfront Planning area, you can create a request form and associate it with that record type. You can then share a link to it with other internal or external users. Users with a link to the form can fill out the field values on it, and by submitting it, they can add a new record for the record type associated with it.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 ---
@@ -29,8 +29,6 @@ For information about submitting a request to a record type to create a record, 
 ## Access requirements
 
 +++ Expand to view access requirements. 
-
-You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto">
  <col>
@@ -87,18 +85,12 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
    <ul>
-   <li><p>Manage permissions to a workspace <span class="preview">and record type</span> </p></li>
+   <li><p>Manage permissions to a workspace and record type</p></li>
     <li><p>System Administrators can manage workspaces they did not create. </p></li>
     </ul>
    <p>For information about sharing permissions for Workfront Planning objects, see  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Overview of sharing permissions in Adobe Workfront Planning</a> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -118,9 +110,8 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
 
    * You cannot add fields of the following types to a request form:
    
-      * Created by and Last modified by
-      * Created date and Last modified date
-      * Formula
+      * Created by, Last modified by, <span class="preview">Approved by</span>
+      * Created date, Last modified date, <span class="preview">Approved date</span>
       * Workfront objects' lookup fields
       * Workfront Planning connected records' lookup fields
 
@@ -209,7 +200,7 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
 
 1. (Optional) Click **Preview** to view how the form will display for other users when they will use it to submit a new record.
 
-1. (Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
+1. (Optional) Click the **Configuration** tab, then add at least one user <span class="preview">or team</span>to the **Approvers** field to approve new requests for this record form. 
 
    ![Configuration tab](assets/configuration-tab.png)
 
@@ -219,10 +210,12 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    * You can add one or several approvers to a request form. 
    * If at least one approver rejects the request, the request is rejected and the record is not created. 
    * All approvers must make a decision before a request is either approved or rejected.
+   * <span class="preview">If a team is set as an approver, only one decision is required from the team.</span>
 
       For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
 
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the form's name in the header, then click **Edit** to update the name of the form.
+
 1. Click **Publish** to publish the form and obtain a unique link for it. 
 
    The following things occur:
@@ -230,47 +223,11 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    * The **Publish** button is removed.
    * The **Unpublish** button is added to the form. Clicking it will prevent the form from being accessible. 
    * A **Share** button is added to the form.
+   * The form becomes available in the Requests area of the Main menu in Workfront.
 
 1. Click **Share** to share the form with others. 
 
-      ![Share box for request form](assets/share-box-for-request-form.png)
-
-1. (Conditional) In the production environment, select from the following options to indicate which types of users can access this form: 
-
-      * Anyone with view or higher access to the workspace
-      * Anyone with contribute or higher access to the workspace
-      * Anyone with the link
-
-   >[!WARNING]
-   >
-   >* When you select **Anyone with the link**, anyone can access the form and submit a new record, even people outside your organization that don't have a Workfront account. 
-   >
-   >* A form that contains the following field types cannot be shared publicly:
-   >
-   >     * Workfront or AEM Assets Connections
-   >     * People
-   >
-
-1. (Conditional) In the production environment, if you selected **Anyone with the link** in the previous step, select the **Link expiration date** from the available calendar. 
-
-   People will receive an error after the link expires and you must update the link date and generate a new link to share before people can access the form again. 
-
-   You can select future dates within 180 days from the current date.  
-
-   >[!TIP]
-   >
-   >After the sharing date expires, the request form is no longer available in the Requests area of Workfront, and the links shared with other users are no longer accessible.   
-
-1. (Optional and conditional) In the production environment, click **Save and copy link** to save the sharing details for the form. If the form was previously saved, click **Copy link**.
-
-   The form sharing options are saved and the link is copied to your clipboard. You can now share it with others.
-
-   For information about creating records using a link to a request form, see [Submit Adobe Workfront Planning requests](/help/quicksilver/planning/requests/submit-requests.md). 
-   
-1. <span class="preview">(Conditional) In the preview environment, to share with users, select the Internal sharing tab, search for the user's name, then select it when it appears in the list.</span>
-1. <span class="preview">(Conditional) In the preview environment, to create a public link, select the Public sharing tab, then toggle on the Create public link option. You can then copy the link here, or set a link expiration date.</span>
-1. Click **Save** in the lower-right corner of the **Form** tab to save the form.  
-
+   For information about sharing a request form, see the [Share a request form](#share-a-request-form) section in this article
 1. Click the left-pointing arrow to the left of the form's name in the header to close the form. 
 
    The **Request forms** table view opens and the the form is added to it.
@@ -285,7 +242,6 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
 
    ![More menu on request form from request forms list](assets/more-menu-on-request-form-from-request-forms-list.png)
 
-
 1. Click the left-pointing arrow to the left of **Request forms** in the header to close the request forms table.  
 
    The record type page opens. 
@@ -296,3 +252,58 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
  
 1. (Optional) Go to the **Requests** area in Workfront and find the shared form to submit a request. For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
 
+## Share a request form
+
+1. Create a request form as described in the [Create a request form for a record type](#create-a-request-form-for-a-record-type) section in this article. 
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the request form's name on the record type's page.
+1. Click **Share** to share the form with others. 
+
+1. To share the form internally, select the **Internal sharing** tab, search for the name of a user, team, job role, group, or company in the **Grant access to submit this form** field, then select it when it appears in the list. The **Submit** permission is selected by default for each entity. 
+
+   ![Share box for request form](assets/share-box-for-request-form.png)
+
+1. (Optional) Click the drop-down menu after an entity's name, then click **Remove** to remove them from the list and stop sharing the form with them. 
+
+   >[!NOTE]
+   >
+   >In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. You cannot add Workfront-only users. For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md). 
+
+1. In the **Who can submit requests through this form** section, select from the following options to indicate which types of users can access this form: 
+
+      * Only invited people can access 
+      * Anyone with view or higher access to the workspace
+      * Anyone with contribute or higher access to the workspace
+1. (Optional) Click **Copy link** to share the link to the form with people who have access to do so. The link is copied to your clipboard.
+1. To share the form publicly, select the **Public sharing** tab, then enable the **Create public link** setting.
+
+   ![Public sharing for request form](assets/share-request-form-publicly-tab.png)
+
+   >[!WARNING]
+   >
+   >* When you enable the **Create public link** setting, anyone can access the form and submit a new record, even people outside your organization that don't have a Workfront account. 
+   >
+   >* A form that contains the following field types cannot be shared publicly:
+   >
+   >     * Workfront or AEM Assets Connections
+   >     * People
+   >
+
+1. Choose a **Link expiration date**.
+
+   You can select future dates within 180 days from the current date.  
+
+   >[!TIP]
+   >
+   >After the sharing date expires, the request form is no longer available in the Requests area of Workfront, and the links shared with other users are no longer accessible. 
+
+   People will receive an error after the link expires and you must update the link date and generate a new link to share before people can access the form again.
+   
+
+1. (Optional and conditional) Click **Save** to save the sharing details for the form. 
+1. (Conditional) If the form was previously saved, click **Copy link**.
+
+   The form sharing options are saved and the link is copied to your clipboard. You can now share it with others.
+
+   For information about creating records using a link to a request form, see [Submit Adobe Workfront Planning requests](/help/quicksilver/planning/requests/submit-requests.md). 
+   
+1. Click **Save** in the lower-right corner of the **Form** tab to save the form.  
