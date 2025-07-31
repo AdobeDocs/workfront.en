@@ -177,7 +177,7 @@ Most customizations that you have already applied to the Workload Balancer are p
 
 1. Create a custom section as described in [Create custom tabs or sections](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) to place the dashboard on the custom tab.
 
-   When accessing the Workload Balancer from the custom section, you can view it as if you were accessing it directly from one of its original areas listed in Step 1. 
+   When accessing the Workload Balancer from the custom section, you can view it as if you were accessing it directly from one of its original areas listed in Step 1.
 
    <!--
       (NOTE: ensure this stays correct)
