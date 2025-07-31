@@ -3,7 +3,7 @@ product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: Adobe Unified Experience for [!DNL Workfront]
 description: Accessing [!DNL Workfront] through Adobe Experience Cloud gives you a seamless, unified experience for managing all of your Adobe applications.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
 ---
@@ -51,6 +51,14 @@ You must have the following access to perform the steps in this article:
 Your organization's instance of [!DNL Workfront] must be onboarded to the [!DNL Adobe Business Platform] or the [!DNL Adobe Admin Console].
 
 If you have questions about onboarding to the [!DNL Adobe Admin Console], see the [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
+
+## Adobe Identity Management System (IMS)
+
+As part of the move to the Adobe Unified Experience, your organization now uses Adobe's Identity Management System to authenticate users. This means that you log in to Workfront through Adobe, instead of directly in to Workfront. Adobe IMS also requires that Workfront administrators handle user management in the Adobe Admin Console, instead of in Workfront.
+
+For information on logging in to Workfront in the Adobe Unified Experience, see [Log in to Adobe Experience Cloud](#log-in-to-adobe-experience-cloud) in this article.
+
+For information on user management in the Adobe Admin Console, see the article [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 ## Log in to [!DNL Adobe Experience Cloud]
 

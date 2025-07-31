@@ -62,7 +62,7 @@ There are many configuration options available for building a table report. In t
 
 1. In the left panel, click **Canvas Dashboards**. 
 
-1. Click **New Dashboard** in the top-right corner.  
+1. Click **New Dashboard** in the upper-right corner.  
 
 1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**.  
 
@@ -72,7 +72,7 @@ There are many configuration options available for building a table report. In t
 
 1. On the left side, select **Table**. 
 
-1. In the top-right corner, click **Create report**. 
+1. In the upper-right corner, click **Create report**. 
 
 1. (Optional) Follow the steps below to configure the **Details** section: 
     

@@ -11,17 +11,9 @@ exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 
 <!--Audited: 12/2023-->
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
-<p>(NOTE: If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
-<p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
-</div>
--->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Planned work is represented in Adobe Workfront by projects and tasks. However, you might work in an environment where unplanned work, in the form of requests, can come in at any time. Workfront provides a workflow to accommodate this type of environment through the use of Request Queues. 
 
@@ -144,12 +136,12 @@ To create a request in the Workfront web app:
     ![New request box with unified workflow for planning requests](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
     Click one of the Workfront request queue cards, or search for one, then click it when it displays in the list. 
-1. <span class="preview">(Conditional) If you switched to the new experience that includes Workfront Planning, and are in the preview environment, the **New request** box displays the following:</span>
+1. (Conditional) If you switched to the new experience that includes Workfront Planning, and are in the preview environment, the **New request** box displays the following:
 
-    <ul><span class="preview"><li>The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. </li></span>
-    <span class="preview"><li>All additional Workfront and Planning request forms <b>All request forms</b> section. You can search for a request forms that does not display by default. </li></span>
-    <span class="preview"><li>All additional Workfront and Planning request queue paths display in the <b>All request paths</b> section. You can search for a request queue that does not display by default.</li></span></ul>
-    <span class="preview">Click one of the Workfront request queue paths or forms, or search for one, then click it when it displays in the list. </span>
+    <ul><li>The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. </li>
+    <li>All additional Workfront and Planning request forms <b>All request forms</b> section. You can search for a request forms that does not display by default. </li>
+    <li>All additional Workfront and Planning request queue paths display in the <b>All request paths</b> section. You can search for a request queue that does not display by default.</li></ul>
+   Click one of the Workfront request queue paths or forms, or search for one, then click it when it displays in the list. 
 
 1. (Conditional) If you switched to the new experience that includes Workfront Planning, select your topic groups and queue topics and continue updating the form.
 
@@ -377,9 +369,6 @@ You can submit requests using any applications that have been integrated with Wo
 
 * You can build a custom integration between Workfront and another application that allows you to submit requests to Workfront from the other application.  
   For more information about custom Workfront integrations, see the article [Adobe Workfront integrations](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
-
-* You can submit requests from Salesforce if you have installed the Workfront app for Salesforce.  
-  For information about submitting requests from Salesforce using our Workfront app for Salesforce, see the article [Submit Adobe Workfront requests from Salesforce objects](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
 
 ## Create requests using a Workfront Planning request form
 

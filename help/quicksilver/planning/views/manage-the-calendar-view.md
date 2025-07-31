@@ -23,8 +23,6 @@ For information about Adobe Workfront Planning views and how to manage them, see
 
 +++ Expand to view access requirements. 
 
-You must have the following access to perform the steps in this article:  
-
  <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -62,9 +60,9 @@ You must have the following access to perform the steps in this article:
    </td> 
    </tr> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td><p> Standard </p>
+    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
    <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
@@ -78,11 +76,13 @@ You must have the following access to perform the steps in this article:
    <td>   <p>Manage permissions to a view</p>  
    <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> </td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+
 </tbody> 
 </table> 
 
@@ -127,7 +127,8 @@ To manage a calendar view:
             * Records that span over multiple days display at the top of the calendar.
             * Records that last a day or less, display in the lower half of the calendar view. If you selected to display the hour of he Start and End Dates, the record displays at the appropriate time within the day that it occurs.
          
-
+1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+    
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)
     * [Settings](#edit-the-calendar-view-settings)

@@ -9,9 +9,9 @@ exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 ---
 # Share workspaces
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -85,11 +85,7 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>  <p>Manage permissions to a workspace</p>  </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p></td> 
-  </tr> 
+
 </tbody> 
 </table> 
 
@@ -105,12 +101,7 @@ You must have the following access to perform the steps in this article:
 * You cannot share workspaces with users outside of your organization. 
 * When you share a workspace, all record types, records, and fields associated with the workspaces are also shared.
 * When you share a workspace, views are not shared. You must share views separately.
-
-<div class="preview">
- 
 * Workspace permissions display as Inherited permissions on record types. 
-
-</div>
 
 ## Share permissions to a workspace
 
@@ -130,6 +121,11 @@ To share a workspace with others:
 1. In the **Grant access to this workspace** field, start typing the name of a user, group, team, company, or job role then click it when it displays in the list. 
 
    ![Sharing UI with groups](assets/sharing-ui-with-groups.png)
+
+   >[!NOTE]
+   >
+   >   In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. You cannot add Workfront-only users. For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md). 
+
 
 1. Select one of the following permission levels from the drop-down menu: 
     * View

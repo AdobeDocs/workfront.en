@@ -10,6 +10,20 @@ exl-id: abb8ffa1-1da6-46dd-a929-18b17014839a
 ---
 # Privacy and permissions in Workfront for Google Workspace
 
+>[!IMPORTANT]
+>
+>To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the following Workfront for Google Workspace functionality will not be available after **February 28, 2026**: 
+>
+>* Accessing Google Workspace functionality from within Workfront 
+>
+>* Viewing and managing Workfront tasks from Gmail or the Google Calendar site panel 
+>
+>We recommend using Workfront Automation and Integration for your organization's integration needs with Google Workspace. 
+>
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Google Workspace, see [Gmail modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) and [Google Calendar modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules). 
+
 Because customer privacy is important, Adobe Workfront does not store or collect any identifying customer data that results from third-party authorization of a Google plug-in app. Workfront for Google Workspace's use and transfer of information received from Google APIs to any other app will adhere with the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
 
 We require the following permissions so the Workfront for Google Workspace plug-in can deliver its maximum value:

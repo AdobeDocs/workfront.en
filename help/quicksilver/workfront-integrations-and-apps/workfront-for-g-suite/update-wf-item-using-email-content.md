@@ -10,9 +10,19 @@ exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
 ---
 # Update an [!DNL Adobe Workfront] item from [!DNL Google Workspace] using email content
 
->[!NOTE]
+>[!IMPORTANT]
 >
->The most recent version of the Adobe Workfront plugin for Google was released on June 26, 2023. 
+>To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the following Workfront for Google Workspace functionality will not be available after **February 28, 2026**: 
+>
+>* Accessing Google Workspace functionality from within Workfront 
+>
+>* Viewing and managing Workfront tasks from Gmail or the Google Calendar site panel 
+>
+>We recommend using Workfront Automation and Integration for your organization's integration needs with Google Workspace. 
+>
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Google Workspace, see [Gmail modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) and [Google Calendar modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules). 
 
 You can update an existing project, task, or issue with information from a non-[!DNL Adobe Workfront] email.
 

@@ -1,6 +1,6 @@
 ---
 product-area: workfront-integrations
-keywords: adobe,box,dropbox,gsuite,google,jira,microsoft,salesforce,sharepoint,slack,webdam,zoom
+keywords: adobe,box,dropbox,microsoft,sharepoint,slack,webdam,zoom
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront built-in integrations overview
 description: You can integrate [!DNL Adobe Workfront] with third-party applications. These integrations can extend the utility of [!DNL Workfront] and tailor it to the needs of your organization. For example, if you are a creative worker in the marketing industry, you can use the Adobe Creative Cloud add-in to export assets directly from Photoshop to Workfront.
@@ -66,27 +66,10 @@ The following built-in integrations are currently available in Workfront.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>G Suite</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Add a Google Workspace email to a project or task </li> 
-     <li>View and manage [!DNL Workfront] notifications in Gmail</li> 
-     <li>Submit requests via Gmail </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td role="rowheader"> <p>Google Drive</p> <p> <img src="assets/google-drive-logo.png"> </p> </td> 
    <td> 
     <ul> 
      <li>Link documents and folders to [!DNL Workfront]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Jira</p> <p> <img src="assets/jiralogo.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Create new tickets in [!DNL Jira] based on tasks and issues in [!DNL Workfront]</li> 
-     <li>Sync updates and statuses of linked tasks between [!DNL Workfront] and [!DNL Jira] </li> 
     </ul> </td> 
   </tr> 
   <!--<tr> 
@@ -122,21 +105,6 @@ The following built-in integrations are currently available in Workfront.
      <li>Search for [!DNL Workfront] projects, tasks, and issues </li> 
      <li>Create [!DNL Workfront] personal tasks </li> 
      <li>Submit [!DNL Workfront] requests </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Salesforce</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Create new [!DNL Workfront] requests from [!DNL Salesforce] </li> 
-     <li>Create [!DNL Workfront] projects from [!DNL Salesforce]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Sharepoint</p> <p> <img src="assets/sharepoint.png"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Link documents and folders to [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
   <tr> 

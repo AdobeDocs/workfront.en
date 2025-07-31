@@ -66,39 +66,21 @@ The default expense types in [!DNL Workfront] that cannot be deleted or edited i
 
 1. Click **[!UICONTROL Expense Types]**.
 1. Click **[!UICONTROL New expense type]**.
-1. In the **[!UICONTROL New Expense Type]** dialog box, specify the following information:
+1. In the **[!UICONTROL New Expense Type]** dialog box, enter the following information:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Name]</td> 
-      <td>Specify a name for the expense.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Description]</td> 
-      <td>Specify a description for the expense.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Calculated Unit]</td> 
-      <td> <p>Select the unit of measurement for your expense type from the drop-down list.</p> <p>The following unit of measurements are available:</p> 
-       <ul> 
-        <li>Mile</li> 
-        <li>Kilometer</li> 
-        <li>Kilogram</li> 
-        <li>Dollar</li> 
-        <li>Dollar</li> 
-        <li>Day</li> 
-        <li>Other - Selecting this option prompts you to name your unit of measurement and define the unit of measurement as something familiar to your organization.</li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Rate</td> 
-      <td> <p>Specify the price per unit. This is a currency formatted field and it represents the cost of each unit established in the <strong>[!UICONTROL Calculated Unit]</strong> field. </p> <p>The rate can contain a numerical value with up to 4 numbers after the decimal. For example, 1.0375</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **Name** - A name for the expense.
+   * **Description** - A description of the expense.
+   * **Calculated Unit** - Select the unit of measurement for your expense type from the drop-down list. The following units of measurement are available:
+      
+      * Mile
+      * Kilometer
+      * Kilogram
+      * Dollar
+      * Hour
+      * Day
+      * Other - Selecting this option prompts you to name your unit of measurement and define the unit of measurement as something familiar to your organization.
+
+   * **Rate** - The price per unit. This is a currency formatted field and it represents the cost of each unit established in the **Calculated Unit** field. The rate can contain a numerical value with up to 4 numbers after the decimal. For example, 1.0375.
 
 1. Click **[!UICONTROL Save]**.
    
@@ -109,7 +91,7 @@ The default expense types in [!DNL Workfront] that cannot be deleted or edited i
 {{step-1-to-setup}}
 
 1. Click **[!UICONTROL Expense Types]**.
-1. Select the expense type that you want to modify, then click **[!UICONTROL Edit]**.
+1. Select the expense type that you want to modify, then click the **[!UICONTROL Edit]** icon ![Edit icon](assets/edit-icon.png).
 
    The **[!UICONTROL Edit Expense Type]** dialog box appears.
 

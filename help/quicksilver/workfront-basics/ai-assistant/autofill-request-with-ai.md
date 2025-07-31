@@ -10,7 +10,7 @@ exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
 
 >[!NOTE]
 >
->This functionality is currenty part of a closed beta. To  have this functionality enabled, please contact sargism@adobe.com.
+>This functionality is currenty part of a closed beta. To  have this functionality enabled, please contact `sargism@adobe.com`.
 >
 >To qualify for the closed beta, your organization must meet the requirements to use the Workfront AI Assistant. For details, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
@@ -19,6 +19,8 @@ AI can help you auto-fill request fields. It can suggest field values based on p
 You can approve or reject these suggestions before submitting the request.
 
 Auto-fill does not overwrite any fields that you have already filled in.
+
+Users do not receive suggestions of data that they do not otherwise have access to.
 
 ## Get suggestions when filling out form 
 
@@ -156,4 +158,11 @@ You can upload a document to be applied to the entire form, or to a single secti
    Or
 
    Select **Accept all** or **Reject all** at the top of the page to accept or reject all suggestions.
+
+## Troubleshooting
+
+If you are not getting the expected suggestions, it may be due to one of the following:
+
+* You must have at least one month of request data in the system before it can suggest field values from previous requests.
+* You may not have followed the document upload guardrails when uploading a document to pull suggestions from. For more information, see [Document upload guardrails](#document-upload-guardrails) in this article.
 

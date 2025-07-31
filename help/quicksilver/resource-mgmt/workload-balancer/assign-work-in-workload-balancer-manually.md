@@ -10,6 +10,8 @@ exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
 ---
 # Assign work manually using the Workload Balancer
 
+{{preview-fast-release-general}}
+
 You can manually assign work items to users using the Adobe Workfront Workload Balancer.
 
 For general information about assigning work to users using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
@@ -65,13 +67,17 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
    You can assign work to users using the Workload Balancer in the Resourcing area, at the project, or at the team level. For more information about where the Workload Balancer is located in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Optional) Go to the **Unassigned Work** area and apply a filter to view tasks or issues
+1. (Optional) Go to the **Unassigned Work** area and apply a filter to view tasks, issues, <span class="preview">or role assignments</span>.
 
    Or
 
    Go to the **Assigned Work** area and expand the name of a user to view the work items assigned to them, if you want to reassign their items.
 
-1. Click the **More menu** ![More menu](assets/qs-more-menu.png) to the left of a work item name, then click **Assign this to**.
+   >[!NOTE]
+   >
+   ><span class="preview">Role assignments are displayed under work items in the Unassigned Work area when the Show Role Assignments setting is enabled. For more information, see [Customize the view](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) in [Navigate the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
+
+1. Click the **More menu** ![More menu](assets/qs-more-menu.png) to the left of a work item name <span class="preview">or role assignment</span>, then click **Assign this to**.
 
    ![Assign this to](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 

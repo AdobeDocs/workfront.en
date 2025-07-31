@@ -9,9 +9,9 @@ exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
 ---
 # Delete record views
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -24,9 +24,7 @@ The view is deleted for all users who have permissions to access it. Deleted vie
 
 +++ Expand to view access requirements. 
 
-You must have the following access to perform the steps in this article:  
-
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -77,12 +75,7 @@ You must have the following access to perform the steps in this article:
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p></td> 
+   </td> 
   </tr> 
 </tbody> 
 </table> 
@@ -105,9 +98,9 @@ You must have the following access to perform the steps in this article:
 
     By default, all the records of the selected type display in the table view. 
 
-1. <span class="preview">Hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**.</span> 
+1. Hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**.
 
-    <span class="preview">![View more menu on a record view](assets/view-more-menu-with-duplicate-option.png)</span>
+    ![View more menu on a record view](assets/view-more-menu-with-duplicate-option.png)
 
    >[!TIP]
    >

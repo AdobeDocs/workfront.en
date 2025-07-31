@@ -14,9 +14,9 @@ exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -54,9 +54,7 @@ For information about connecting Planning records with Workfront objects, see [C
 
 +++ Expand to view access requirements. 
 
-You must have the following access to perform the steps in this article:  
-
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -107,15 +105,10 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td> <p>Manage permissions to the workspace <span class="preview">and record type</span> where you want to add records. </p>  
+   <td> <p>Manage permissions to the workspace and record type where you want to add records. </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
    <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
    </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p> </td> 
   </tr> 
 </tbody> 
 </table> 

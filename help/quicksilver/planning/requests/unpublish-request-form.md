@@ -3,7 +3,7 @@ title: Unpublish a Request Form in Adobe Workfront Planning
 description: You can unpublish a request form if it is no longer needed or relevant. By unpublishing, you remove everyone's permissions to access the form.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
 ---

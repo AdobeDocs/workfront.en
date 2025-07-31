@@ -13,6 +13,11 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2025 Q4 Release {#release-25-q4}
+      * [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
+      * [Fourth Quarter 2025 Document and Proofing enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md)
+      * [Fourth Quarter 2025 Resource Management enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
+      * [Look-and-feel updates during the 2025 Q4 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
     * 2025 Q3 Release {#release-25-q3}
       * [2025 Q3 Release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
       * [Proofing and document management enhancements](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
@@ -198,6 +203,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Planning release activity{#planning-release-activity}
       * [Adobe Workfront Planning release activity](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+      [Fourth Quarter 2025 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
       * [Third Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
       * [Second Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
       * [First Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
@@ -846,6 +852,7 @@ feature-set: Workfront
     * [Manage your work in the Priorities calendar](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
   * Home {#home}
     * [Home](workfront-basics/using-home/home.md)
+    * [Move from Legacy Home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
     * Use the Home area {#use-home-area}
       * [Use the Home area: article index](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
@@ -2035,7 +2042,8 @@ feature-set: Workfront
     * [Record types overview](planning/architecture/overview-of-record-types.md)
     * [Create record types](planning/architecture/create-record-types.md)
     * [Create Record Types by importing information from a CSV or Excel file](planning/architecture/import-file-to-create-record-types.md)
-    * [Create record types globally](planning/architecture/create-record-types-globally.md)
+    * [Configure cross-workspace capabilities for record types](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+    * [Add cross-workspace record types](planning/architecture/add-cross-workspace-record-types.md)
     * [Connect record types overview](planning/architecture/connect-record-types-overview.md)
     * [Connect record types](planning/architecture/connect-record-types.md)
     * [Edit record types](planning/architecture/edit-record-types.md)
@@ -2080,6 +2088,7 @@ feature-set: Workfront
     * [Manage the record page layout](planning/records/manage-the-record-page.md)
     * [Manage record connections from Workfront objects](planning/records/manage-records-in-planning-section.md)
     * [Export a record's details](planning/records/export-the-record-page.md)
+    * [Export records from the table view](planning/records/export-records-from-the-table-view.md)
     * [Create Workfront objects from Workfront Planning as you connect them to records](planning/records/create-workfront-objects-from-workfront-planning.md)
     * [Configure Adobe Workfront Planning automations](planning/records/configure-automations-to-create-records.md)
     * [Create objects using Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
@@ -2103,6 +2112,11 @@ feature-set: Workfront
     * [Manage Adobe Workfront Planning notification preferences](planning/notifications/manage-notification-preferences.md)
     * [Manage Adobe Workfront Planning email notifications](planning/notifications/manage-planning-email-notifications.md)
     * [Manage Adobe Workfront Planning in-app notifications](planning/notifications/manage-planning-in-app-notifications.md)
+  * Adobe Workfront Planning and Gen Studio for Performance Marketing Integration {#planning-and-genstudio-integration}
+    * [Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration: article index](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)  
+    * [Get started with the Workfront Planning and GenStudio for Performance Marketing integration](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
+    * [Manage the GenStudio workspace in Adobe Workfront Planning](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
+    * [Promote a Workfront Planning workspace to GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
 * Adobe Workfront Integrations {#adobe-workfront-integrations}
   * [Adobe Workfront integrations](workfront-integrations-and-apps/workfront-integrations.md)
   * [Adobe Workfront built-in integrations overview](workfront-integrations-and-apps/built-in-integrations-non-admin.md)

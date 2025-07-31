@@ -37,7 +37,7 @@ With Unified Approvals, you can
 * Designate an entire Workfront team as either reviewers or approvers
 * Set a deadline for the review or approval
 * Create and resuse approval templates
-* Utilize new versions for 
+* Utilize new versions 
 * View multiple key performance indicators for your approvals in Workfront Home widgets
 * Use Canvas Dashboards to view reporting details about Unified Approvals
 

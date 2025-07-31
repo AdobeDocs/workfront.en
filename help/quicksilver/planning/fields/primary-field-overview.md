@@ -10,9 +10,9 @@ exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
 
 # Primary field overview
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -47,4 +47,4 @@ For information about how to designate a field as the primary field, see [Manage
 * Changing the primary field in your table view affects the view for all other users who choose it.
 * Changing the primary field in a table view affects all the table views of the record type. 
 * The value listed in the primary field is always hyperlinked to the record's page.
-* If you have Contribute or higher permissions to a workspace <span class="preview">and record type</span>, you can edit the value of primary fields, except for formula fields. Formulas are calculations that update automatically.
+* If you have Contribute or higher permissions to a workspace and record type, you can edit the value of primary fields, except for formula fields. Formulas are calculations that update automatically.

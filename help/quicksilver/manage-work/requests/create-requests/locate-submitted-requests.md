@@ -11,9 +11,9 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 ---
 # Locate submitted requests
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 You can locate the following types of requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
 
@@ -198,9 +198,9 @@ To locate requests that you or other users have submitted:
 
 1. (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
 
-   <span class="preview">Use **Filters** and **Columns** to update the information in the Planning request list. </span>
+   Use **Filters** and **Columns** to update the information in the Planning request list. 
 
-   <span class="preview">![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)</span>
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
 

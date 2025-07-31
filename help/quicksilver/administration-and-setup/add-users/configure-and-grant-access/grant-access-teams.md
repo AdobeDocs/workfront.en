@@ -42,6 +42,8 @@ You must have the following access to perform the steps in this article:
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** or **Edit** button to the right of Teams, then select the abilities you want to grant under **Fine-tune your settings**.
 
+      ![fine tune teams](assets/fine-tune-teams.png)
+
    * **View**: If you are configuring how users with any license can view teams, change any of the following options:
 
       <table style="table-layout:auto">
@@ -97,6 +99,8 @@ You must have the following access to perform the steps in this article:
         </tr>
        </tbody>
       </table>
+
+
 
 1. Click the X to close the **Fine-tune your settings** box.
 1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) and [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).

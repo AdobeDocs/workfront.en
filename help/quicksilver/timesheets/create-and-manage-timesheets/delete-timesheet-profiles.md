@@ -19,7 +19,7 @@ For information about timesheet profiles, see [Create, edit, and assign timeshee
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
++++ Expand to view access requirements. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,17 +50,19 @@ For information about timesheet profiles, see [Create, edit, and assign timeshee
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. If you are deleting a timesheet profile that is in use throughout the system, click **Timesheet & Hours**.
+1. If you are deleting a system-level timesheet profile, click **Timesheet & Hours**.
 
    Or
 
-   If you deleting a timesheet profile for a group, click **Groups**, then click the group's name.
+   If you deleting a timesheet profile for a group, click **Groups** > click the group's name, then click **Timesheet Profiles**.
+1. Select at least one timesheet profile that you want to delete, then click the **More** icon ![](assets/more-icon.png) > **Delete** for the system-wide timesheet profile
 
-1. Click **Timesheet Profiles**.
-1. Select at least one timesheet profile that you want to delete, then click **More** > **Delete**.
+   Or
+
+   Click **More** > **Delete** for the group-level timesheet profile.
 1. (Conditional) If the timesheet profile is already assigned to users, the **Replacement Timesheet Profile** box displays. Do the following:
    1. Select another timesheet profile from the drop-down list. The timesheet profile you are deleting will be replaced by the timesheet profile you replace it with for all assigned users. Timesheets will generate according to the newly assigned profile in the following timesheet generation cycle. 
-   1. Click **Delete it** to confirm the deletion. 
+   1. Click **Delete It** to confirm the deletion. 
 1. (Conditional) If the timesheet profile is not assigned to users, the **Delete Timesheet** box displays.
 
    Click **Delete** to confirm the deletion.

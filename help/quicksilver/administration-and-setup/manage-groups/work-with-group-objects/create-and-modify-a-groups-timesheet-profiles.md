@@ -21,9 +21,7 @@ If there are any groups above the group you manage, their administrators can als
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements.
 
 <table style="table-layout:auto"> 
  <col> 

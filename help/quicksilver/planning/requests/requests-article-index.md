@@ -3,7 +3,7 @@ title: 'Adobe Workfront Planning Requests: Article Index'
 description: You can create a request form for each record type, share it with users and they can add new records by completing and submitting the form.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 91d9a1b1-c677-4aea-997e-f787eb109be1
 ---

@@ -62,7 +62,7 @@ There are many configuration options available for building a chart report. In t
 
 1. In the left panel, click **Canvas Dashboards**. 
 
-1. Click **New Dashboard** in the top-right corner.  
+1. Click **New Dashboard** in the upper-right corner.  
 
 1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**.  
 
@@ -134,12 +134,11 @@ There are many configuration options available for building a chart report. In t
 
 In this section, we will go over the steps to create a column chart that displays overdue tasks by project owner.
 
-
 {{step1-to-dashboards}}
 
 1. In the left panel, click **Canvas Dashboards**. 
 
-1. Click **New Dashboard** in the top-right corner.  
+1. Click **New Dashboard** in the upper-right corner.  
 
 1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**.  
 

@@ -10,9 +10,9 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 
 # Edit records
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -30,9 +30,7 @@ For information about creating records, see [Create records](/help/quicksilver/p
 
 +++ Expand to view access requirements.
 
-You must have the following access to perform the steps in this article:  
-
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -82,14 +80,10 @@ You must have the following access to perform the steps in this article:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>  <p>Contribute or higher permissions to a workspace <span class="preview">and record type</span> </a> </p>  
+   <td>  <p>Contribute or higher permissions to a workspace and record type </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Layout template</p></td> 
-   <td> <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes Planning.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have Planning enabled by default.</span></p></td> 
-  </tr> 
+
 </tbody> 
 </table> 
 
@@ -123,10 +117,10 @@ You must have the following access to perform the steps in this article:
 
 You can edit a record from the following areas:
 
-* [From the table view of a record type](#edit-a-record-inline-in-the-table-view-of-a-record-type)
-* [From the record's preview in a view](#edit-a-record-from-the-records-preview-in-a-view)
-* [From the record's page](#edit-a-record-from-the-records-page)
-* [From a Workfront object in the Planning section](#edit-a-record-from-a-workfront-object-in-the-planning-section)
+* [The table view of a record type](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [The record's preview in a view](#edit-a-record-from-the-records-preview-in-a-view)
+* [The record's page](#edit-a-record-from-the-records-page)
+* [A Workfront object in the Planning section](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### Edit a record inline in the table view of a record type
 
@@ -134,7 +128,7 @@ When you edit records from the table view, there is an indication which field is
 
 For more information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
-<span class="preview">When you add a new record after the last record in a grouping or subgrouping, Workfront automatically updates the fields included in the groupings for the new records. You can manually edit these fields, if needed, and the records might be removed from the grouping. </span> 
+When you add a new record after the last record in a grouping or subgrouping, Workfront automatically updates the fields included in the groupings for the new records. You can manually edit these fields, if needed, and the records might be removed from the grouping. 
 
 For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
 
@@ -337,3 +331,40 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 After you connect records with Workfront objects, you can edit Workfront Planning records in Workfront from the object's Planning section. 
 
 For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md). 
+
+
+<!--
+
+<div class="preview">
+
+## Add new choices to an existing select field when editing records in the table view
+
+You can add new choices to an existing single- or multi-select field when editing records in the table view. 
+
+>[!IMPORTANT]
+>
+>The functionality described in this section is available only in the table view. It is not available in any other areas where single- or multi-select fields display.
+
+
+**EXAMPLE**
+
+You might have a single-select field called Status that has the choices New and Closed, and you want to add a choice for an In progress status. You can add the choice by doing one of the following things:
+
+* Editing the field. For information, see [Edit fields](/help/quicksilver/planning/fields/edit-fields.md)
+* Adding a new option while editing the record in the table view, as described below. 
+
+
+To add a new choice to an existing select field when editing a record: 
+
+1. Go to a record type page and open the table view. 
+1. Add the single- or multi-select field that you would like to add a choice to in the table view as a new column. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+1. Start editing the field inline by double-clicking the cell for the field. 
+1. Type the name of the choice you want to add, then click **Add choice**.
+
+    ![Add choice in single-select field in table view](assets/add-choice-in-table-view-for-single-select-field.png)
+
+    The new choice is added immediately to the single-select field. 
+
+</div>
+
+-->

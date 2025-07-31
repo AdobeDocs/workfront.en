@@ -10,15 +10,15 @@ exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 
 # License type overview when using Adobe Workfront Planning
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
 Your Adobe Workfront license type works in conjunction with your Adobe Workfront Planning permissions to give the following access: 
 
-* View, contribute, or manage workspaces <span class="preview">or record types</span>
+* View, contribute, or manage workspaces or record types
 * View or manage views.
 
 For information about permissions to objects in Workfront Planning, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
@@ -33,8 +33,6 @@ Granting a user permissions to a workspace also grants them permissions to recor
 
 You must grant users separate permissions to views, in addition to the ones they have for workspaces, to be able to access and manage views. 
 
-<div class="preview">
-
 Consider the following when working with record type permissions: 
 
 * Users automatically inherit record type permissions from workspaces. 
@@ -42,12 +40,9 @@ Consider the following when working with record type permissions:
 * Users cannot have greater permissions to a record type than they have for the workspace the record type belongs to.
 * Removing users' permissions to a record type does not remove their View access to all record types in the workspace, as this does not remove their permissions to the workspace.
 
-</div>
-
-
 | Adobe Workfront license type*                                   | Highest permissions allowed in Adobe Workfront Planning                                                                                                                                             |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Standard                     | <p>Users can manage workspaces <span class="preview">, record types, </span> and views. They can create, edit, or delete workspaces, record types, records, fields, and views.</p> <br> <p>System administrators have Manage permissions to all workspaces, including the ones they did not create.</p>                                                                                                                     |
+|Standard                     | <p>Users can manage workspaces, record types, and views. They can create, edit, or delete workspaces, record types, records, fields, and views.</p> <br> <p>System administrators have Manage permissions to all workspaces, including the ones they did not create.</p>                                                                                                                     |
 | Light or Contributor  | <p>Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces.</p> <br> <p>Users can view the views shared with them, but they cannot create their own. </p><br> <p>Users cannot create, edit, or delete workspaces, record types, records, or fields.</p>|
 
 *Workfront Planning is not available for legacy Workfront licenses. 
@@ -56,9 +51,9 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 ### License types and permissions to workspaces and record types
 
-Only users with a Standard license can have Contribute or Manage permissions to workspaces <span class="preview">and record types</span>. The Contribute and Manage permissions to workspaces <span class="preview">and record types</span> also transfer to records and fields. 
+Only users with a Standard license can have Contribute or Manage permissions to workspaces and record types. The Contribute and Manage permissions to workspaces and record types also transfer to records and fields. 
 
-Users with all other license types can have View permissions to workspaces <span class="preview"> and record types </span> shared with them, as well as to their records and fields. 
+Users with all other license types can have View permissions to workspaces and record types  shared with them, as well as to their records and fields. 
 
 System administrators can view all workspaces in the system, including the ones they did not create. 
 

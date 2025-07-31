@@ -11,9 +11,15 @@ exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
 
 <!-- Audited: 1/2024 -->
 
->[!NOTE]
+>[!IMPORTANT]
 >
->To install the app before it becomes available in the [!DNL Salesforce AppExchange], see [Installing [!DNL Workfront for Salesforce] before It Becomes Available in the [!DNL AppExchange] Marketplace](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace).
+>To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Salesforce integration will not be available after **February 28, 2026**. 
+>
+>We recommend using Workfront Automation and Integration for your organization's integration needs with Salesforce. 
+>
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Salesforce, see [Salesforce modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules). 
 
 As a [!DNL Salesforce] and [!DNL Adobe Workfront] administrator, you can install [!DNL Workfront for Salesforce] to allow your [!DNL Salesforce] users to submit [!DNL Workfront] requests and automatically create projects without ever leaving Salesforce.
 

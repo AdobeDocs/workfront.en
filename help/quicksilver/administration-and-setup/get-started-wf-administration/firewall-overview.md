@@ -69,11 +69,8 @@ Provide your network administrator with the following information:
    <td role="rowheader">Adobe Workfront integrations</td> 
    <td>Inform your network administrator if you use any of the following:
     <ul>
-     <li><p>Workfront for Jira</p></li>
-     <li><p>Workfront for Google Workspace</p></li>
      <li><p>Workfront for Microsoft Teams</p></li>
      <li><p>Workfront for Outlook</p></li>
-     <li><p>Workfront for Salesforce</p></li>
     </ul></td> 
   </tr> 
   <tr> 

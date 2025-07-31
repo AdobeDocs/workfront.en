@@ -40,7 +40,7 @@ To get started with built-in (native) integrations, follow the following workflo
 
 1. **Identify your technology administrator**
 
-   Identify your organization's technology administrator for the application you want to integrate with [!DNL Workfront]. For example, if you choose to integrate with [!DNL Jira], you must connect with your company's [!DNL Jira] administrator and involve them in any configuration needs within their platform. You should also involve this administrator in any conversation with [!DNL Workfront] Customer Support.
+   Identify your organization's technology administrator for the application you want to integrate with [!DNL Workfront]. For example, if you choose to integrate with [!DNL Slack], you must connect with your company's [!DNL Slack] administrator and involve them in any configuration needs within their platform. You should also involve this administrator in any conversation with [!DNL Workfront] Customer Support.
 
    To get your administrator started, you'll need to provide them with the specific instructions for that integration. For links to these instructions, see [Integrations available at no additional cost](#integrations-available-at-no-additional-cost).
 
@@ -78,6 +78,21 @@ We understand that the available built-in (native) integrations might not meet a
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Express</p> </td> 
+   <td> 
+    <ul> 
+     <li>Integrate the proofing experience with Adobe Express. With this integration, you can 
+     <ul>
+     <li>Use Workfront approval templates to define approval workflows. </li>
+     <li>Review Adobe Express draft content in the proofing viewer. </li>
+     <li>See review decisions in Adobe Express for final approval and publishing. </li>
+     </ul>
+   </ul>
+     <p>For more information, see <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md" class="MCXref xref">Get started Adobe Express and Workfront Proof integration</a>.</p> 
+     </td>  <td><ul><li>You must have licenses for both Workfront and Adobe Express.</li><li>Workfront and Adobe Express must be deployed to the same IMS Org.</li></ul></td> 
+   <td>The integration must be enabled for your accounts by the Adobe Product Team. For more information, see <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md" class="MCXref xref">Get started Adobe Express and Workfront Proof integration</a>.</td> 
+  </tr>
  <tr> 
    <td role="rowheader"> <p>GenStudio for Performance Marketing </p> </td> 
    <td> 
@@ -142,27 +157,6 @@ We understand that the available built-in (native) integrations might not meet a
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Google Workspace]</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Add a [!DNL Google Workspace] email to a project or task </li> 
-     <li>View and manage [!DNL Workfront] notifications in [!DNL Gmail]</li> 
-     <li>Submit requests via [!DNL Gmail] </li> 
-    </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref">[!DNL Adobe Workfront for Google Workspace]</a>.</p> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Google Workspace] users must have a [!DNL Workfront] license </li> 
-     <li>[!DNL Workfront] view and work sharing permissions must be set per access level </li> 
-     <li> User must have a POP enabled email account </li> 
-     <li>[!DNL Workfront] request settings must include POP settings </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Google Workspace] administrator</li> 
-     <li>[!DNL Workfront] administrator </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td> <p>[!DNL Google Drive]</p> <p> <img src="assets/google-drive-logo.png"> </p> </td> 
    <td> 
     <ul> 
@@ -170,24 +164,6 @@ We understand that the available built-in (native) integrations might not meet a
     </ul> <p>For more information, see <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Configure document integrations</a>.</p> </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td> <p>[!DNL Jira]</p> <p> <img src="assets/jiralogo.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Create new tickets in [!DNL Jira] based on tasks and issues in [!DNL Workfront]</li> 
-     <li>Sync updates and statuses of linked tasks between Workfront and [!DNL Jira] </li> 
-     <li>Works on both [!DNL Jira Server] and [!DNL Jira Cloud] </li> 
-    </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a>.</p> </td> 
-   <td> 
-    <ul> 
-     <li><p>New Workfront plan: [!UICONTROL Select] [!DNL Workfront] plan or higher</p><p>Current Workfront plan: [!UICONTROL Pro] [!DNL Workfront] plan or higher</p> </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li> Installation only by a [!DNL Jira] administrator</li> 
-     <li>Non-[!DNL Jira] administrators must request and be granted access from the [!DNL Jira] administrator</li> 
-    </ul> </td> 
   </tr> 
   <!--<tr> 
    <td>[!DNL Microsoft] Calendars ([!DNL Office 365] / [!DNL Outlook Live])</td> 
@@ -246,23 +222,6 @@ We understand that the available built-in (native) integrations might not meet a
    <td> 
     <ul> 
      <li>Team owner</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>[!DNL Salesforce]</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Create new [!DNL Workfront] requests from [!DNL Salesforce] </li> 
-     <li>Create [!DNL Workfront] projects from [!DNL Salesforce]</li> 
-    </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a>.</p> </td> 
-   <td> 
-    <ul> 
-     <li><p>New Workfront plan: [!UICONTROL Select] [!DNL Workfront] plan or higher</p><p>Current Workfront plan: [!UICONTROL Pro] [!DNL Workfront] plan or higher</p> </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Salesforce] administrator</li> 
-     <li>[!DNL Workfront] administrator</li> 
     </ul> </td> 
   </tr> 
   <tr> 

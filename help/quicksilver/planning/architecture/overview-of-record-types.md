@@ -12,9 +12,17 @@ exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
 
 {{planning-important-intro}}
 
-Unlike Workfront where the object types are predefined, in Adobe Workfront Planning, you can create your own object types. For example, in Workfront the object types of Program, Portfolio, Project, Task, or Issue are already created. 
+Unlike Workfront where the object types are predefined, in Adobe Workfront Planning, you can create your own object types. 
 
-Workfront Planning object types are called "record types" and they exist only when users create them. Record types are the building blocks of a Workfront Planning workspace. For information about workspaces, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). 
+For example, in Workfront the object types of Program, Portfolio, Project, Task, or Issue are already created. 
+
+Workfront Planning object types are called "record types" and they exist only when users create them. 
+
+Record types are the building blocks of a Workfront Planning workspace and you must create all of them to be able to associate them with workflow and other information. 
+
+Record types are organized in workspaces. 
+
+For information about workspaces, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). 
     
 ## Record type overview
     
@@ -25,7 +33,9 @@ For information about creating record types, see [Create record types](/help/qui
 * When you create a workspace from a template, record types are created in the following workspace sections: 
 
     * **Operational Record Types**: Record types that represent strategic plans, initiatives, or planned work. For example, Campaign, Activity, Tactic, Opportunity are operational record types. 
-    * **Taxonomies**: Record types that capture attributes about an operational record type. For example, Region, Address, Audience are taxonomies. 
+    * **Taxonomies**: Record types that capture attributes about an operational record type. For example, Region, Address, Audience are taxonomies.
+    
+    You can rename or delete these sections, or create more. 
 
 * When you create a record type in a workspace that you created from scratch, you can place the record type in any section you create in the workspace. 
 * When you create a record type, only you and those you give permissions to access the workspace can view the record type. 
