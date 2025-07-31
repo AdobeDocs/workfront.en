@@ -6,7 +6,7 @@ feature: Product Announcements
 hide: yes
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
-
+exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
 ---
 # Fourth Quarter 2025 Home enhancements
 
