@@ -484,7 +484,7 @@ Navigating the Workload Balancer of a team is similar to how you navigate the Wo
 
 You can access the Workload Balancer on your own user profile.
 
-1. {{step1-click-profile-pic}}
+{{step1-click-profile-pic}}
 
 1. Click **Workload Balancer** in the left panel.
 

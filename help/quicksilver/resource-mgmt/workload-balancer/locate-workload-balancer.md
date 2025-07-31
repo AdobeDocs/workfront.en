@@ -142,7 +142,7 @@ All users have access to view the Workload Balancer on their own profiles. Workl
 
 All of the display settings are available for the Workload Balancer for a user. For more information, see [Navigate the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. {{step1-click-profile-pic}}
+{{step1-click-profile-pic}}
 
 1. Click **Workload Balancer** in the left panel.
 
