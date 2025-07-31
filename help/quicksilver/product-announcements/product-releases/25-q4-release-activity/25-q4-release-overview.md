@@ -34,8 +34,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [Administrator enhancements](#administrator-enhancements)
 * [Document and proofing enhancements](#document-and-proofing-enhancements)
-* [Home enhancements](#home-enhancements)
-* [Requests enhancements](#requests-enhancements)
+<!--* [Home enhancements](#home-enhancements)
+* [Requests enhancements](#requests-enhancements)-->
 * [Resource Management enhancements](#resource-management-enhancements)
 * [Other enhancements](#other-enhancements)
 
@@ -80,7 +80,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> 
 
-### Home enhancements
+<!--### Home enhancements
 
 <table style="table-layout:auto">
   <tbody>
@@ -123,7 +123,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>October 16, 2025</td>
     </tr>     
   </tbody>
-</table> 
+</table> -->
 
 ### Resource Management enhancements
 

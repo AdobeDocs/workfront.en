@@ -3,6 +3,8 @@ title: Fourth Quarter 2025 Home enhancements
 description: Fourth Quarter 2025 Home enhancements
 author: Courtney
 feature: Product Announcements
+hide: yes
+hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 
 ---

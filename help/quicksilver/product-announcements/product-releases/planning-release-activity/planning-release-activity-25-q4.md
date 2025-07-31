@@ -33,9 +33,9 @@ For information, see [Create fields](/help/quicksilver/planning/fields/create-fi
 
 >[!NOTE]
 >
->Preview: July 31, 2025
->Production for all customers: July 31, 2025
->[!BADGE Off schedule]{type=Neutral}
+>* Preview: July 31, 2025
+>* Production fast release: August 14, 2025
+>* Production for all customers: October 16, 2025
 
 We have now made the experience in the connected records page in the preview box match that of the page in the full page of a record's Details area.
 
@@ -43,7 +43,7 @@ Prior to this enhancement, viewing connected records in a connected records page
 
 For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 
-## Updates to Requesting experience 
+<!--## Updates to Requesting experience 
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Previously, Workfront and Workfront Planning requests were on separate tabs, and
 For more information on creating requests see:
 
 * For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md) -->
 
 ## Create records in the timeline view
 

@@ -3,6 +3,8 @@ title: Fourth Quarter 2025 Requests enhancements
 description: Fourth Quarter 2025 Requests enhancements
 author: Courtney
 feature: Product Announcements
+hide: yes
+hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 ---
 # Fourth Quarter 2025 Requests enhancements
