@@ -3,7 +3,7 @@ content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Project Team overview
-description: Users that are associated with a project in some capacity make up the project team. Users listed under the People area of a project are the users who make up the project team.
+description: Users that are associated with a project in some capacity make up the project team. Users listed under the People area of a project or a template are the users who make up the project team.
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
@@ -14,6 +14,8 @@ exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
 
 A project team consists of users that are associated with a project in some capacity. Users listed under the People area of a project make up the project team. For example, users who are assigned to work on the project or the project owner are part of the project team. 
 
+Users associated with work on a project template or are the template owner or sponsor are part of the future project team after the project is created using the template. 
+
 ## Project Team members
 
 You can assign users to a project team either manually or automatically. For more information, see the section Add users to a Project Team in the article [Manage the Project Team](../../../manage-work/projects/planning-a-project/manage-project-team.md).
@@ -22,7 +24,13 @@ When you add users to the Project Team manually, they receive View permissions t
 
 ## Notifications to Project Team members
 
-Depending on what email notifications your Adobe Workfront administrator enables, users on a project team are notified of various actions on a project. For more information about enabling email notifications, see [Configure event notifications for everyone in the system](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Depending on what email notifications your Adobe Workfront administrator enables, users on a project team are notified of various actions on a project. 
+
+For more information, also see the following articles:
+
+* [Event notification types](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+
+* [Configure event notifications for everyone in the system](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
 
 >[!NOTE]
 >
