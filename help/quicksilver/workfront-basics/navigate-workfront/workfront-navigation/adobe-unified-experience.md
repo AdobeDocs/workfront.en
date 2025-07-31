@@ -3,7 +3,7 @@ product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: Adobe Unified Experience for [!DNL Workfront]
 description: Accessing [!DNL Workfront] through Adobe Experience Cloud gives you a seamless, unified experience for managing all of your Adobe applications.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
 ---
