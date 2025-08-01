@@ -5,6 +5,7 @@ title: 'Create Canvas Dashboards: article index'
 description: View the articles in this section.
 author: Courtney and Jenny
 feature: Reports and Dashboards
+exl-id: 6f2db600-9ffa-4e27-88e3-17e8ab072f7d
 ---
 # Create Canvas Dashboards: article index
 

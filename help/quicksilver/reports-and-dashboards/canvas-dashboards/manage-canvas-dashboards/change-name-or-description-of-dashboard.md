@@ -3,8 +3,9 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Change the name or description of a Canvas Dashboard
 description: You can edit the name or description of a Canvas Dashboard after it's been created.
-author:  Courtney and Jenny 
+author: Courtney and Jenny
 feature: Reports and Dashboards
+exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
 ---
 # Change the name or description of a Canvas Dashboard
 
@@ -77,4 +78,3 @@ For more information, see [Create a Canvas Dashboard](/help/quicksilver/reports-
 1. Enter a new **Description**. 
 
 1. Click **Save**.
-
