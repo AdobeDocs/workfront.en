@@ -1,12 +1,12 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 'Create dashboards: article index'
+title: 'Create Canvas Dashboards: article index'
 description: View the articles in this section.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 ---
-# Create dashboards: article index
+# Create Canvas Dashboards: article index
 
 >[!IMPORTANT]
 >
@@ -15,4 +15,4 @@ feature: Reports and Dashboards
 
 This section contains the following article:
 
-* [Create a Canvas dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
+* [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)

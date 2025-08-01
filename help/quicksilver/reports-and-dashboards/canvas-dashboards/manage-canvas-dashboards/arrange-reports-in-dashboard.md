@@ -1,18 +1,18 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Arrange reports in a dashboard
+title: Arrange reports in a Canvas Dashboard
 description: You can arrange how reports display in a Canvas dashbaord after they've been added to one. 
 author:  Courtney and Jenny 
 feature: Reports and Dashboards
 ---
-# Arrange reports in a dashboard
+# Arrange reports in a Canvas Dashboard
 
 >[!IMPORTANT]
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Once a report is added to a dashboard, they display as a report widget in the dashboard so you can quickly visualize its data at a glance. Once multiple reports have been added, it's recommended to rearrange the size and order of each widget to display the dashboard data more efficiently.
+Once a report is added to a Canvas Dashboard, they display as a report widget in the dashboard so you can quickly visualize its data at a glance. Once multiple reports have been added, it's recommended to rearrange the size and order of each widget to display the dashboard data more efficiently.
 
 +++ Expand to view access requirements. 
 

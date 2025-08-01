@@ -1,18 +1,18 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Change the name or description of a dashboard
-description: You can edit the name or description of a Canvas dashboard after it's been created.
+title: Change the name or description of a Canvas Dashboard
+description: You can edit the name or description of a Canvas Dashboard after it's been created.
 author:  Courtney and Jenny 
 feature: Reports and Dashboards
 ---
-# Change the name or description of a dashboard
+# Change the name or description of a Canvas Dashboard
 
 >[!IMPORTANT]
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-You can edit the name or description of a Canvas dashboard after it's been created. 
+You can edit the name or description of a Canvas Dashboard after it's been created. 
 
 Any changes you make to a dashboard will impact all users who have access to it. 
  
@@ -59,7 +59,7 @@ For more detail about the information in this table, see [Access requirements in
 
 You must create a dashboard before you can change its name or description. 
 
-For more information, see [Create a Canvas dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
+For more information, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
 
 ## Change a dashboard's name and description

@@ -1,18 +1,18 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Edit a report
+title: Edit a report in a Canvas Dashboard
 description: You can edit a Canvas dashboard report after it's been created. 
 author:  Courtney and Jenny 
 feature: Reports and Dashboards
 ---
-# Edit a report
+# Edit a report in a Canvas Dashboard
 
 >[!IMPORTANT]
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-After you add reports to a dashboard, you can edit the report's information to change the data that displays in the dashboard.
+After you add reports to a Canvas Dashboard, you can edit the report's information to change the data that displays in the dashboard.
 
 Any changes made to a report will impact all users who have access to the dashboard that contains it.
 
