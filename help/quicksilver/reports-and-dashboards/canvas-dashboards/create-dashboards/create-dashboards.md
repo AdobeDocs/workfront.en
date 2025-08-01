@@ -1,10 +1,11 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Create a Canvas Dashboard 
-description: With Canvas Dashboards, you can create and add reports to a customizable dashboard to quickly visualize your account data. 
-author: Courtney and Jenny 
+title: Create a Canvas Dashboard
+description: With Canvas Dashboards, you can create and add reports to a customizable dashboard to quickly visualize your account data.
+author: Courtney and Jenny
 feature: Reports and Dashboards
+exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
 ---
 # Create a Canvas Dashboard
 
@@ -76,4 +77,4 @@ For more, see [Build a chart report](/help/quicksilver/reports-and-dashboards/ca
 * **Table**: This report displays your data in a table format. 
 For more, see [Build a table report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
 
-For more information on adding an existing report to a dashboard, see [Add an existing report to a dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md). 
+For more information on adding an existing report to a dashboard, see [Add an existing report to a dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md).

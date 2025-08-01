@@ -2,9 +2,10 @@
 product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Delete a Canvas Dashboard
-description: You can arrange how reports display in a Canvas dashbaord after they've been added to one. 
-author:  Courtney and Jenny 
+description: You can arrange how reports display in a Canvas dashbaord after they've been added to one.
+author: Courtney and Jenny
 feature: Reports and Dashboards
+exl-id: 075df18c-08b8-467d-a0e4-60cd3abd5807
 ---
 # Delete a Canvas Dashboard
 

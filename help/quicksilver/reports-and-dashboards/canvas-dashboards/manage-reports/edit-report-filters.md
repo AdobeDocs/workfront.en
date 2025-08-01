@@ -3,10 +3,11 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Edit report filters in a Canvas Dashboard
 description: You can edit report filters after they've been applied to a Canvas Dashboard.
-author:  Courtney and Jenny 
+author: Courtney and Jenny
 feature: Reports and Dashboards
 hidefromtoc: yes
 hide: yes
+exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
 ---
 # Edit report filters in a Canvas Dashboard
 

@@ -6,6 +6,7 @@ description: View the articles in this section.
 author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
+exl-id: 2ed58b15-098a-4937-86e6-2a8444389c00
 ---
 # Manage reports: article index
 

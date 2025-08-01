@@ -2,9 +2,10 @@
 product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Arrange reports in a Canvas Dashboard
-description: You can arrange how reports display in a Canvas dashbaord after they've been added to one. 
-author:  Courtney and Jenny 
+description: You can arrange how reports display in a Canvas dashbaord after they've been added to one.
+author: Courtney and Jenny
 feature: Reports and Dashboards
+exl-id: 60f68ebd-6b98-476d-84b6-a6a2dce90d93
 ---
 # Arrange reports in a Canvas Dashboard
 
@@ -72,4 +73,4 @@ You must add reports to a dashboard before they can be rearranged.
 
 1. Repeat steps 4-5 for each widget you want to rearrange.
 
-1. Click **Save** in the upper-right corner. 
+1. Click **Save** in the upper-right corner.
