@@ -121,7 +121,7 @@ Before you begin, you must do the following:
 
    * If you just published information from the Scenario Planner, select Scenario Planner in the **Choose which hours to use to calculate the Budgeted Labor Cost of the project** field in the Resource Budgeting area, then click **Choose**.
 
-     ![Business case in Resource Planner with Choose button](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     <!--![Business case in Resource Planner with Choose button](assets/business-case-sp-selected-with-choose-button-350x121.png)-->
 
    * If the Resource Planner was previously selected for budgeting resources for the project, click **Change** > **Scenario Planner** > **Choose**.
 

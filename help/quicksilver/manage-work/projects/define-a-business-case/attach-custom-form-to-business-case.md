@@ -74,9 +74,9 @@ To attach a custom form:
 
 1. In the&nbsp;**Custom Form** section, select the custom form you want to attach from the drop-down menu.
 
-   ![Custom forms dropdown](assets/custom-forms-drop-down-menu.png)
+   <!--![Custom forms dropdown](assets/custom-forms-drop-down-menu.png)-->
 
 1. (Optional) Select&nbsp;**Edit Custom Form**.  
-   ![Edit custom form](assets/acf1-350x122.png)
+   <!--![Edit custom form](assets/acf1-350x122.png)-->
 
 1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** .
