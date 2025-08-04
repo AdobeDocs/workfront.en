@@ -25,7 +25,7 @@ For more information, see [Overview of task predecessors](../../../manage-work/t
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article.
++++ Expand to view access requirements.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ For more information, see [Overview of task predecessors](../../../manage-work/t
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Standard </p><p>Current: Plan </p> </td> 
+   <td> <p>Standard </p><p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
