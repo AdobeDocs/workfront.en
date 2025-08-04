@@ -54,6 +54,16 @@ To view this change, go to Setup > System > Update Users For SSO
 
 ## Projects
 
+## Interface updates for a project Business Case
+
+**Preview release: August 4, 2025; Production release: To be announced**
+
+We have updated the look and feel of the project's Business Case to match other areas of the application.  
+
+To view this change, go to Projects > Select a project > Business Case.
+
+For more information, see [Create a business case for a project](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md).
+
 ## New look and feel of the Queue Details section on a template
 
 **Preview release: July 31, 2025; Production release: August 7, 2025**
