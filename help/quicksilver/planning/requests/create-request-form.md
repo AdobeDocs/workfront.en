@@ -307,3 +307,9 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    For information about creating records using a link to a request form, see [Submit Adobe Workfront Planning requests](/help/quicksilver/planning/requests/submit-requests.md). 
    
 1. Click **Save** in the lower-right corner of the **Form** tab to save the form.  
+
+## View and edit existing request forms
+
+You can view and edit, see a preview for, or publish and unpublish existing request forms.
+
+1. 
