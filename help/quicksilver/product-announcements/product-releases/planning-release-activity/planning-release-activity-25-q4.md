@@ -27,11 +27,11 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 
 We have added new expressions with the following usage to formula fields in Workfront Planning and to calculated custom fields in Workfront:
 
-* REMOVEACCENTS(text): Removes diacritical marks from all accented characters in the input string.
+* **REMOVEACCENTS(text)**: Removes diacritical marks from all accented characters in the input string.
 
-* REPLACEPATTERN (string, pattern, replacement string): Replaces the matches of the given pattern with the replacement string.
+* **REPLACEPATTERN (string, pattern, replacement string)**: Replaces the matches of the given pattern with the replacement string.
 
-* PASCALCASE(text) Converts the input string to PascalCase by capitalizing the first letter of each word and removing all spaces.
+* **PASCALCASE(text)**: Converts the input string to PascalCase by capitalizing the first letter of each word and removing all spaces.
 
 ## Adding Maximize and Minimize buttons to the formula field creation window
 
