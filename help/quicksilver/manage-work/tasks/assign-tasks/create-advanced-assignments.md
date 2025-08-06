@@ -10,6 +10,8 @@ exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 ---
 # Create advanced assignments
 
+{{preview-fast-release-general}}
+
 <!-- Audited: 07/2024-->
 
 You can manage task or issue assignments using Advanced Assignments.
@@ -78,7 +80,10 @@ For more detail about the information in this table, see [Access requirements in
 
    >[!TIP]
    >
-   >You can make advanced assignments directly on the task or issue list if there are two or more people assigned. Click inside the **Assignments** field on the same line as the task or issue, then click the **People icon** to open the Advanced Assignments window. Skip to step 5 to continue creating advanced assignments.  
+   >You can make advanced assignments directly on the task or issue list. Click inside the **Assignments** field on the same line as the task or issue, then click <span class="preview">**Advanced**</span> or the **People icon** to open the Advanced Assignments window. Skip to step 5 to continue creating advanced assignments.
+   ><span class="preview">Sample image in the Preview environment:</span>
+   >![Click Advanced or the People icon](assets/access-aa-from-lists.png)
+   >Sample image in the Production environment:
    >![Click the People icon](assets/nwe-advanced-assignments-350x55.png)
 
 1. Click **Assign to** in the **Assignments** field in the header of the task or issue

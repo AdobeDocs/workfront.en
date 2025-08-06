@@ -10,6 +10,8 @@ exl-id: e2dce29e-7370-4580-8326-99c4437998bf
 ---
 # Assign issues
 
+{{preview-fast-release-general}}
+
 <!--Audited: 07/2024-->
 
 You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see [Overview of modifying issue assignments](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
@@ -164,6 +166,10 @@ To assign issues in a list:
 
    * Click inside the **Assignments** field and start typing the name of an active user, job role, or active team that you want to assign to the issue, then click it when it displays in the list.
 
+     <span class="preview">Sample image in the Preview environment:</span>
+     ![Assignments field](assets/assignments-field-0825.png)
+
+     Sample image in the Production environment:
      ![Assignments field](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
@@ -175,7 +181,7 @@ To assign issues in a list:
    >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md). 
 
 
-1. (Conditional) When visible in the Assignments field, click the **People icon** ![People icon](assets/teams.png) in the upper-right corner of the assignments box to open the Advanced Assignments box and create advanced assignments. For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Conditional) In the Assignments field, click <span class="preview">**Advanced**</span> or the **People icon** ![People icon](assets/teams.png) in the upper-right corner of the assignments box to open the Advanced Assignments box and create advanced assignments. For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >
