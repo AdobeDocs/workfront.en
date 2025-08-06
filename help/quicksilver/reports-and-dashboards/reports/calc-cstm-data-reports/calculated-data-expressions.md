@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Overview of calculated data expressions
 description: You can use data expressions to define calculated custom data fields in Adobe Workfront. Calculated expressions connect existing Workfront fields in statements that generate a new field.
-author: Nolan
+author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
 ---
@@ -597,3 +597,35 @@ You can create a calculated custom field that displays a text-formatted value us
   </tr> 
  </tbody> 
 </table>
+
+<!--Add these to the last table in alph. order:
+
+<tr> 
+   <td><strong>REMOVEACCENTS</strong> </td> 
+   <td> <p>Removes diacritical marks from all accented characters in the input string. </p> 
+   <p>The expression is formatted as follows:</p>
+   <p><code>REMOVEACCENTS(text)</code></p> 
+   <p>For example, "Héllo wörld with àccénts" becomes "Hello world with accents". </p>
+   </td> 
+  </tr>
+
+<tr> 
+   <td><strong>REPLACEPATTERN</strong> </td> 
+   <td> <p>Replaces the matches of the given pattern with the replacement string. </p> 
+   <p>The expression is formatted as follows:</p>
+   <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
+   <p>For example, REPLACEPATTERN("foo123bar", "\d+", "_") becomes "foo_bar" 
+   </td> 
+  </tr>
+
+
+  <tr> 
+   <td><strong>PASCALCASE</strong> </td> 
+   <td> <p>Converts the input string to PascalCase by capitalizing the first letter of each word and removing all spaces. </p>
+   <p>The expression is formatted as follows:</p>
+   <p><code>PASCALCASE(text) </code></p>
+   <p>For example, "hello world" becomes "HelloWorld"</p> 
+   </td> 
+  </tr>
+  
+-->
