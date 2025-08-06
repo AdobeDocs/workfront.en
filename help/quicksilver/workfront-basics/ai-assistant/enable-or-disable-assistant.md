@@ -52,7 +52,7 @@ To enable AI Assistant for a given access level:
 1. Select the desired access level, then click the **Edit** ![Edit icon](assets/edit-icon.png) icon above the list. 
 1. In the **Set additional restrictions...** area of the **Edit Access Level** box, uncheck the **Disable the Workfront AI Assistant** checkbox.
 1. Click **Save**.
-1. Repeat steps 3-6 for each access level you want to enable AI Assistant for.
+1. Repeat steps 3-5 for each access level you want to enable AI Assistant for.
 
 >[!NOTE]
 >
