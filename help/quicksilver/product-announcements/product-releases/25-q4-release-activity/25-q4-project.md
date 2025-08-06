@@ -30,6 +30,8 @@ We have added new expressions with the following usage to formula fields in Work
 
 * **PASCALCASE(text)**: Converts the input string to PascalCase by capitalizing the first letter of each word and removing all spaces.
 
+For more information, see [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
 ## Additional way to access Advanced Assignments from lists
 
 >[!NOTE]

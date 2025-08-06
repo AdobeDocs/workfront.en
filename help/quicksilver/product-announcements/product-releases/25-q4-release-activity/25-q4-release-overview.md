@@ -34,8 +34,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [Administrator enhancements](#administrator-enhancements)
 * [Document and proofing enhancements](#document-and-proofing-enhancements)
-<!--* [Home enhancements](#home-enhancements)
-* [Requests enhancements](#requests-enhancements)-->
+<!--* [Home enhancements](#home-enhancements)-->
+* [Project enhancements](#project-enhancements)
+<!--* [Requests enhancements](#requests-enhancements)-->
 * [Resource Management enhancements](#resource-management-enhancements)
 * [Other enhancements](#other-enhancements)
 
@@ -146,7 +147,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Additional way to access Advanced Assignments from lists</a><p></p>
-            <p>An <b>Advanced</b> button is now available for assignments in lists, making it faster for you to access the Advanced Assignments page. The **People** icon to get to Advanced Assignments is also available on assignments in lists.</p>
+            <p>An <b>Advanced</b> button is now available for assignments in lists, making it faster for you to access the Advanced Assignments page. The <b>People</b> icon to get to Advanced Assignments is also available on assignments in lists.</p>
         </td>
         <td>August 7, 2025</td>
         <td>September 11, 2025</td>

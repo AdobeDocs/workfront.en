@@ -54,7 +54,7 @@ To view this change, go to Setup > System > Update Users For SSO
 
 ## Projects
 
-### New look and feel for logging time on a project, task, or issue in the Hours tab 
+### Interface updates for logging time on a project, task, or issue in the Hours tab 
 
 **Preview release: August 7, 2025; Production release: August 14, 2025**
 
@@ -134,7 +134,7 @@ For information, see [Manage project expenses](/help/quicksilver/manage-work/pro
 
 ## Templates
 
-### Look-and-feel changes for the Predecessors list on a template
+### Interface updates for the Predecessors list on a template
 
 **Preview release: August 7, 2025; Production release: August 14, 2025**
 
