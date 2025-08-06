@@ -17,6 +17,22 @@ This article describes the features that are releasing for Workfront Planning du
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 
+## New expressions added to formula fields in Planning  
+
+>[!NOTE]
+>
+>Preview: August 7, 2025
+>Production for all customers:August, 2025
+>[!BADGE Off schedule]{type=Neutral}
+
+We have added new expressions with the following usage to formula fields in Workfront Planning and to calculated custom fields in Workfront:
+
+* REMOVEACCENTS(text): Removes diacritical marks from all accented characters in the input string.
+
+* REPLACEPATTERN (string, pattern, replacement string): Replaces the matches of the given pattern with the replacement string.
+
+* PASCALCASE(text) Converts the input string to PascalCase by capitalizing the first letter of each word and removing all spaces.
+
 ## Adding Maximize and Minimize buttons to the formula field creation window
 
 >[!NOTE]

@@ -125,6 +125,31 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> -->
 
+### Project enhacements
+
+<table style="table-layout:auto">
+  <tbody>
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Workload Balancer is now available on your user profile</a><p></p>
+            <p>An <b>Advanced</b> button is now available for assignments in lists, making it faster for you to access the Advanced Assignments page. The **People** icon to get to Advanced Assignments is also available on assignments in lists.</p>
+        </td>
+        <td>July 31, 2025</td>
+        <td>September 11, 2025</td>
+        <td>October 16, 2025</td>
+    </tr> 
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Role assignments display in the Workload Balancer </a><p></p>
+            <p>Resource managers can now review job role assignments in the Workload Balancer. The assignments are displayed in the Unassigned Work area, under the tasks or issues the roles are assigned to. Only work items assigned to users are displayed in the Assigned Work area. </p>
+            <p>A new Workload Balancer setting, Show Role Assignments, determines whether role assignments are displayed. The setting is enabled by default.</p>
+        </td>
+        <td>July 31, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+
 ### Resource Management enhancements
 
 <table style="table-layout:auto">
