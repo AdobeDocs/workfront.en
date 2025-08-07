@@ -174,12 +174,11 @@ To assign issues in a list:
 
    >[!TIP]
    >
-   >When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. 
+   >When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names.
    >
    >Users must be associated with at least one job role to view it as you add them.
    >
-   >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md). 
-
+   >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 1. (Conditional) In the Assignments field, click <span class="preview">**Advanced**</span> or the **People icon** ![People icon](assets/teams.png) in the upper-right corner of the assignments box to open the Advanced Assignments box and create advanced assignments. For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 

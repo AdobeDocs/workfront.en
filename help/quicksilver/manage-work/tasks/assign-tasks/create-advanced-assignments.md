@@ -94,7 +94,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click **Advanced**.
 
-   ![Click Advanced](assets/assignments-box-in-task-header.png)
+   ![Click Advanced](assets/assignments-from-task-header-0825.png)
 
 1. In the **Search people, role and teams** field, start typing the name of a user, role, or team, then click the name when it appears in the drop-down list.
 
