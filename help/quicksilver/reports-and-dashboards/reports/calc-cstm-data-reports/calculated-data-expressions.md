@@ -408,22 +408,7 @@ You can create a calculated custom field that displays a text-formatted value us
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
   </tr>
-  <tr> 
-   <td><strong>SORTASCARRAY</strong> </td> 
-   <td> <p>Orders the array elements in ascending order and converts them to the type of the first element.</p>
-   <p>The expression is formatted as follows:</p>
-   <p><code>SORTASCARRAY(array)</code></p>
-   <p>For example, ["-12.6", -13.0] becomes ["-12.6", "-13"].</p>
-   <p>Note: This expression is not supported in Workfront Planning.</p></td> 
-  </tr>
-  <tr> 
-   <td><strong>SORTDESCARRAY</strong> </td> 
-   <td> <p>Orders the array elements in descending order and converts them to the type of the first element.</p>
-   <p>The expression is formatted as follows:</p>
-   <p><code>SORTDESCARRAY(array)</code></p>
-   <p>For example, ["-12.6", -13.0] becomes ["-13", "-12.6"].</p>
-   <p>Note: This expression is not supported in Workfront Planning.</p></td> 
-  </tr>
+  
   <tr>   
    <td><strong>CASE</strong> </td> 
    <td> <p>Is used with other expressions to choose a value from a list, based on an index number. </p>
@@ -537,10 +522,35 @@ You can create a calculated custom field that displays a text-formatted value us
    <p><code>LOWER(string)</code></p></td> 
   </tr> 
   <tr> 
+   <td><strong>PASCAL</strong> </td> 
+   <td> <p>Converts the input string to PascalCase by capitalizing the first letter of each word and removing all spaces. </p>
+   <p>The expression is formatted as follows:</p>
+   <p><code>PASCAL(string) </code></p>
+   <p>For example, "hello world" becomes "HelloWorld"</p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>REMOVEACCENTS</strong> </td> 
+   <td> <p>Removes diacritical marks from all accented characters in the input string. </p> 
+   <p>The expression is formatted as follows:</p>
+   <p><code>REMOVEACCENTS(string)</code></p> 
+   <p>For example, "Héllo wörld with àccénts" becomes "Hello world with accents". </p>
+   </td> 
+  </tr>
+  <tr> 
    <td><strong>REPLACE</strong> </td> 
    <td> <p>Replaces all occurences of string2 with string3 in string1.</p> <p>The expression is formatted as follows:</p>
    
    <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
+  </tr>
+
+  <tr> 
+   <td><strong>REPLACEPATTERN</strong> </td> 
+   <td> <p>Replaces the matches of the given pattern with the replacement string. </p> 
+   <p>The expression is formatted as follows:</p>
+   <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
+   <p>For example, REPLACEPATTERN("foo123bar", "\d+", "_") generates the string "foo_bar". 
+   </td> 
   </tr> 
   <tr> 
    <td><strong>RIGHT</strong> </td> 
@@ -554,6 +564,22 @@ You can create a calculated custom field that displays a text-formatted value us
    
    <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>SORTASCARRAY</strong> </td> 
+   <td> <p>Orders the array elements in ascending order and converts them to the type of the first element.</p>
+   <p>The expression is formatted as follows:</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>For example, ["-12.6", -13.0] becomes ["-12.6", "-13"].</p>
+   <p>Note: This expression is not supported in Workfront Planning.</p></td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTDESCARRAY</strong> </td> 
+   <td> <p>Orders the array elements in descending order and converts them to the type of the first element.</p>
+   <p>The expression is formatted as follows:</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>For example, ["-12.6", -13.0] becomes ["-13", "-12.6"].</p>
+   <p>Note: This expression is not supported in Workfront Planning.</p></td> 
+  </tr>
   <tr> 
    <td><strong>STRING</strong> </td> 
    <td> <p>Converts a number to a string and is formatted as follows:</p>
@@ -598,34 +624,3 @@ You can create a calculated custom field that displays a text-formatted value us
  </tbody> 
 </table>
 
-<!--Add these to the last table in alph. order:
-
-<tr> 
-   <td><strong>REMOVEACCENTS</strong> </td> 
-   <td> <p>Removes diacritical marks from all accented characters in the input string. </p> 
-   <p>The expression is formatted as follows:</p>
-   <p><code>REMOVEACCENTS(text)</code></p> 
-   <p>For example, "Héllo wörld with àccénts" becomes "Hello world with accents". </p>
-   </td> 
-  </tr>
-
-<tr> 
-   <td><strong>REPLACEPATTERN</strong> </td> 
-   <td> <p>Replaces the matches of the given pattern with the replacement string. </p> 
-   <p>The expression is formatted as follows:</p>
-   <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
-   <p>For example, REPLACEPATTERN("foo123bar", "\d+", "_") becomes "foo_bar" 
-   </td> 
-  </tr>
-
-
-  <tr> 
-   <td><strong>PASCALCASE</strong> </td> 
-   <td> <p>Converts the input string to PascalCase by capitalizing the first letter of each word and removing all spaces. </p>
-   <p>The expression is formatted as follows:</p>
-   <p><code>PASCALCASE(text) </code></p>
-   <p>For example, "hello world" becomes "HelloWorld"</p> 
-   </td> 
-  </tr>
-  
--->
