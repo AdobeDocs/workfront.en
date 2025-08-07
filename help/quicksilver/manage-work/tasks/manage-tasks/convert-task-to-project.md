@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
 * All sub-tasks, issues and notes roll up to the new project.
 * Documents, document versions, and proofs are moved to the new project.
 * Status and percent complete of all sub-tasks and issues are preserved.
-* Shared users of the task become shared users on the project.
+* Task assignees and the user converting the task to the project become shared users on the project.
 * The project start date is set to the start date of the task.
 * The following table lists project information and whether it transfers from the template or from the task: 
 

@@ -15,7 +15,10 @@ feature-set: Workfront
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 2025 Q4 Release {#release-25-q4}
       * [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
+      * [Fourth Quarter 2025 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md)
       * [Fourth Quarter 2025 Document and Proofing enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md)
+      * [Fourth Quarter 2025 Home enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md)
+      * [Fourth Quarter 2025 Requests enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
       * [Fourth Quarter 2025 Resource Management enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
       * [Look-and-feel updates during the 2025 Q4 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
     * 2025 Q3 Release {#release-25-q3}
@@ -1496,17 +1499,28 @@ feature-set: Workfront
 * Reporting {#reporting}
   * [Reports and Dashboards: article index](reports-and-dashboards/reports-and-dashboards-overview.md)
   * Canvas Dashboards {#canvas-dashboards}
-    * [Canvas Dashboards](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+    * [Canvas Dashboards overview](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+    * Create dashboards {#create-dashboards}
+      * [Create Canvas Dashboards: article index](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards-article-index.md)
+      * [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
     * Add reports {#add-reports}
       * [Add reports: article index](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-reports-toc.md)
-      * [Canvas Dashboard report types overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/report-types-overview.md)
-      * [Build a KPI report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
-      * [Build a chart report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
-      * [Build a table report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
       * [Add an existing report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+      * [Build a KPI report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+      * [Build a chart report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
+      * [Build a table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
     * Manage Canvas Dashboards {#manage-canvas-dashboards}
-      * [Manage Canvas Dashboards](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+      * [Manage Canvas Dashboards: article index](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
       * [Share a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+      * [Arrange reports in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+      * [Change the name or description of a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+      * [Delete a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+    * Manage reports {#manage-reports}
+      * [Manage reports: article index](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
+      * [Edit a report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
+      * [Edit report filters in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+      * [Delete a report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
+
   * Reports {#reports}
     * [Reports](reports-and-dashboards/reports/reports-overview.md)
     * Reporting basics {#report-basics}

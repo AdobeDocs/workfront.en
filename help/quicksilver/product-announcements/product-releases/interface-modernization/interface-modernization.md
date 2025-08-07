@@ -54,6 +54,60 @@ To view this change, go to Setup > System > Update Users For SSO
 
 ## Projects
 
+## Interface updates for a project Business Case
+
+**Preview release: August 4, 2025; Production release: To be announced**
+
+We have updated the look and feel of the project's Business Case to match other areas of the application.  
+
+To view this change, go to Projects > Select a project > Business Case.
+
+For more information, see [Create a business case for a project](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md).
+
+## New look and feel of the Queue Details section on a template
+
+**Preview release: July 31, 2025; Production release: August 14, 2025**
+
+We have updated the look and feel of the Queue Details section of a template. The look and feel of the Queue Details section now matches other areas of Workfront. 
+
+For information, see [Create a Request Queue](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+<!--## Interface updates when bulk editing templates
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.
+
+For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
+
+## Interface updates for the Send update to user box on a template 
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of the Send update to user box when accessing it from the People tab on a template. The Send update to user box now matches other areas of Workfront when you send an update to one or multiple users.  
+
+For information, see [Manage the project team](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
+
+## Updated experience when editing a Queue Topic in a project or template
+
+**Preview release: July 31, 2025; Production release: July 31, 2025**
+
+We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+
+A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+
+For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+## Interface updates for Billing Records
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of the Billable Hours, Billable Expenses, and Fixed Revenues pages of billing records to match other areas of the application. The dialog boxes for adding new billable hours, billable expenses, and fixed revenues have also been updated.
+
+To view these changes, go to a project > Billing Records > select a billing record > Billable Hours, Billable Expenses, or Fixed Revenues > add new billable hours, billable expenses, or fixed revenues.
+
+For information, see [Create billing records](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
+
 ## Interface updates for the Import MS Project file box 
 
 **Preview release: July 24, 2025; Production release: To be announced**
@@ -78,7 +132,7 @@ For information, see [Manage project expenses](/help/quicksilver/manage-work/pro
 
 We have updated the look and feel of a Routing Rule, when editing it on a template. The Routing Rule editing page now matches the design of other areas of Workfront.
 
-A small functionality change has been applied to the Routing Rules list. To edit Routing Rule, select the Routing Rule from the list and click the Edit icon.
+To edit Routing Rule, select the Routing Rule from the list and click the Edit icon.
 
 For information, see [Create Routing Rules](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
@@ -92,7 +146,7 @@ We have updated the look and feel  of the following lists on templates:
 * Topic Groups
 * Routing Rules
 
-A small functionality change has been applied to the lists. To edit or delete an item in one of these lists, select the item and click the appropriate icon.
+To edit or delete an item in one of these lists, select the item and click the appropriate icon.
 
 For for more information, see 
 
@@ -392,6 +446,11 @@ For information, see [Copy a project template](/help/quicksilver/manage-work/pro
 ### Look and feel updates when adding objects to programs and portfolios 
 
 **Preview release: May 22, 2025; Production release: May 29, 2025**
+
+>[!NOTE]
+>
+>Temporarily removed from Preview and Production
+
 
 We have updated the interface for the Add boxes when doing the following: 
 

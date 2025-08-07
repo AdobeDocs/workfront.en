@@ -44,11 +44,12 @@ For more information about the type of hours you can log in Workfront, see [Mana
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New:</p>
+   <td> 
    <ul><li> Light or higher to log hours on a task, issue, or General Hours on a timesheet</li>
    <li>Standard to log hours on projects</li></ul>
+
+   <p>Or: </p>
    
-   <p>Current: 
    <ul><li>Review or higher to log General Hours in a timesheet</li>
    <li>Work or higher to log hours on a project, task, or issue</li></ul> </td> 
   </tr> 
