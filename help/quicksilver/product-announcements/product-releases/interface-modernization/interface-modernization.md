@@ -18,6 +18,18 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+## Interface updates for the Conditions area in Setup
+
+**Preview release: August 7, 2025; Production release: August 18, 2025**
+
+We have updated the Conditions page with a more modern design that is consistent with other areas of Workfront.
+
+A visible enhancement in the interface is that an **Edit** button now appears next to conditions you can edit, and you no longer have to hover over a condition to find the Edit icon.
+
+To view these changes, go to Setup > Project Preferences > Conditions.
+
+For more information, see [Create or edit a custom condition](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+
 ### Interface updates for the Timesheet Profiles list in a group
 
 **Preview release: July 24, 2025; Production release: July 28, 2025**
