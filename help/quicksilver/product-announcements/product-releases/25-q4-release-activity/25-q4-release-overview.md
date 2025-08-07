@@ -34,8 +34,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [Administrator enhancements](#administrator-enhancements)
 * [Document and proofing enhancements](#document-and-proofing-enhancements)
-<!--* [Home enhancements](#home-enhancements)
-* [Requests enhancements](#requests-enhancements)-->
+<!--* [Home enhancements](#home-enhancements)-->
+* [Project enhancements](#project-enhancements)
+<!--* [Requests enhancements](#requests-enhancements)-->
 * [Resource Management enhancements](#resource-management-enhancements)
 * [Other enhancements](#other-enhancements)
 
@@ -124,6 +125,36 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>     
   </tbody>
 </table> -->
+
+### Project enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">New expressions added to formula fields in Planning and calculated custom fields in Workfront</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+            <p>We have added new expressions with the following usage to formula fields in Workfront Planning and to calculated custom fields in Workfront:</p>
+            <ul>
+            <li>REMOVEACCENTS(string): Removes diacritical marks from all accented characters in the input string.</li>
+            <li>REPLACEPATTERN(string, pattern, replacement string): Replaces the matches of the given pattern with the replacement string.</li>
+            <li>PASCAL(string): Converts the input string to PascalCase by capitalizing the first letter of each word and removing all spaces.</li>
+            </ul>
+        </td>
+        <td>August 7, 2025</td>
+        <td>August 7, 2025</td>
+        <td>August 7, 2025</td>
+    </tr> 
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Additional way to access Advanced Assignments from lists</a><p></p>
+            <p>An <b>Advanced</b> button is now available for assignments in lists, making it faster for you to access the Advanced Assignments page. The <b>People</b> icon to get to Advanced Assignments is also available on assignments in lists.</p>
+        </td>
+        <td>August 7, 2025</td>
+        <td>September 11, 2025</td>
+        <td>October 16, 2025</td>
+    </tr> 
+  </tbody>
+  </table>
 
 ### Resource Management enhancements
 
