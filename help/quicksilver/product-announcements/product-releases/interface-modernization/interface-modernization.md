@@ -100,13 +100,24 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-### Interface updates for the Send update to user box on a template 
+### Interface updates for the Send update to user box on several objects
 
-**Preview release: July 31, 2025; Production release: TBD, 2025**
+**Preview release: July 31, 2025; Production release: August 7, 2025**
 
-We have updated the look and feel of the Send update to user box when accessing it from the People tab on a template. The Send update to user box now matches other areas of Workfront when you send an update to one or multiple users.  
+We have updated the look and feel of the Send update to user box when accessing it from the following areas:
 
-For information, see [Manage the project team](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
+* The People section on a template
+* The People section on a project
+* A user list on a company
+* The user list in the Users area
+
+The Send update to user box now matches other areas of Workfront when you send an update to one or multiple users. 
+
+For information, see the following articles: 
+
+* [Send direct messages to other users](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
+* [Manage the project team](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
+* [Manage company memberships](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
 ### Updated experience when editing a Queue Topic in a project or template
 
