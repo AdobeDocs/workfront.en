@@ -66,7 +66,7 @@ For more information, see [Create a business case for a project](/help/quicksilv
 
 ## New look and feel of the Queue Details section on a template
 
-**Preview release: July 31, 2025; Production release: August 7, 2025**
+**Preview release: July 31, 2025; Production release: August 14, 2025**
 
 We have updated the look and feel of the Queue Details section of a template. The look and feel of the Queue Details section now matches other areas of Workfront. 
 
