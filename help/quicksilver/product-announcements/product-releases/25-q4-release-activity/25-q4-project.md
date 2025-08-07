@@ -6,6 +6,7 @@ feature: Product Announcements
 hide: yes
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
+exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
 ---
 # Fourth Quarter 2025 Project enhancements
 
@@ -42,4 +43,3 @@ An **Advanced** button is now available for assignments in lists, making it fast
 This change applies to both task and issue assignments.
 
 For more information, see [Create advanced assignments](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
-
