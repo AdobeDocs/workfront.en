@@ -90,7 +90,7 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 ### Interface updates for the Send update to user box on a template 
 
-**Preview release: July 31, 2025; Production release: August 7, 2025**
+**Preview release: July 31, 2025; Production release: TBD, 2025**
 
 We have updated the look and feel of the Send update to user box when accessing it from the People tab on a template. The Send update to user box now matches other areas of Workfront when you send an update to one or multiple users.  
 
@@ -190,7 +190,7 @@ For information, see [Import users](/help/quicksilver/administration-and-setup/a
 
 ### Interface updates for the Layout Templates page
 
-**Preview release: July 17, 2025; Production release: July 24, 2025**
+**Preview release: July 17, 2025; Production release: TBD**
 
 We have updated the Layout Templates page with a more modern design that is consistent with other areas of Workfront.
 

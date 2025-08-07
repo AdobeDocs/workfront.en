@@ -24,11 +24,9 @@ For a list of all changes available at this point in the Fourth Quarter 2025 rel
 
 We have added new expressions with the following usage to formula fields in Workfront Planning and to calculated custom fields in Workfront:
 
-* **REMOVEACCENTS(text)**: Removes diacritical marks from all accented characters in the input string.
-
-* **REPLACEPATTERN (string, pattern, replacement string)**: Replaces the matches of the given pattern with the replacement string.
-
-* **PASCALCASE(text)**: Converts the input string to PascalCase by capitalizing the first letter of each word and removing all spaces.
+* **REMOVEACCENTS(string)**: Removes diacritical marks from all accented characters in the input string.
+* **REPLACEPATTERN (string, pattern, replacement string)**: Replaces the matches of the given pattern with the replacement string. 
+* **PASCAL(string)**: Converts the input string to PascalCase by capitalizing the first letter of each word and removing all spaces.
 
 For more information, see [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
