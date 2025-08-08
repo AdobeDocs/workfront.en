@@ -118,11 +118,11 @@ For more detail about the information in this table, see [Access requirements in
 
      ![Change condition when editing project](assets/change-condition-edit-project-0825.png)
 
-<!-- 
+   <!-- 
    * When a user is changing the condition for a task or issue on the Updates tab:
 
      ![Change condition when updating comment](assets/change-condition-update-comment.png)
--->
+   -->
 
    * When a user is changing the condition for a task or issue in a list view:
 
