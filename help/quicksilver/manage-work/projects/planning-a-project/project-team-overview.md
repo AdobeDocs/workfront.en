@@ -12,9 +12,14 @@ exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
 
  <!-- Audited: 6/2025 -->
 
-A project team consists of users that are associated with a project in some capacity. Users listed under the People area of a project make up the project team. For example, users who are assigned to work on the project or the project owner are part of the project team. 
+A project team consists of users that are associated with a project in some capacity. Users listed in the People section of a project make up the project team. For example, users who are assigned to work on the project or the project owner are part of the project team. 
 
-Users associated with work on a project template or are the template owner or sponsor are part of the future project team after the project is created using the template. 
+The following users on a project template are part of the future project team after the project is created using the template: 
+
+* Users assigned to work (tasks and issues) on the template.
+* The template owner or sponsor. 
+
+Users that part of the future project team on a template display in the People section of the template.  
 
 ## Project Team members
 
