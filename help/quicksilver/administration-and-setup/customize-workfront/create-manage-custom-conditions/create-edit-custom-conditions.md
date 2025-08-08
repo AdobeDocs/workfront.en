@@ -11,6 +11,8 @@ exl-id: 5c950862-4358-4aab-997b-223972662150
 ---
 # Create or edit a custom condition
 
+{{highlighted-preview}}
+
 As an Adobe Workfront administrator, you can create or edit a custom condition for projects, tasks, and issues to match the needs of your organization.
 
 ## Access requirements
@@ -59,6 +61,9 @@ For more detail about the information in this table, see [Access requirements in
    Or
 
    To edit an existing condition, click <span class="preview">**Edit** next to the condition name</span>, or hover over the condition you want to edit, then click the **Edit** icon that appears to the far right.
+
+   <span class="preview">Sample image in the Preview environment:</span>
+   ![Edit custom condition](assets/custom-conditions-0825.png)
 
    Sample image in the Production environment:
    ![Custom condition](assets/custom-condition-edit-nwe.jpg)
@@ -113,9 +118,11 @@ For more detail about the information in this table, see [Access requirements in
 
      ![Change condition when editing project](assets/change-condition-edit-project-0825.png)
 
+<!-- 
    * When a user is changing the condition for a task or issue on the Updates tab:
 
      ![Change condition when updating comment](assets/change-condition-update-comment.png)
+-->
 
    * When a user is changing the condition for a task or issue in a list view:
 
