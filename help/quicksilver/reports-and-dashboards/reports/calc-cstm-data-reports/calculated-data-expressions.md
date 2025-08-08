@@ -368,7 +368,7 @@ You can create a calculated custom field that that uses some of the following ma
 
 You can create a calculated custom field that displays a text-formatted value using the following expressions:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto:fixed"> 
  <col> 
  <col> 
  <thead> 
@@ -549,7 +549,7 @@ You can create a calculated custom field that displays a text-formatted value us
    <td> <p>Replaces the matches of the given pattern with the replacement string. </p> 
    <p>The expression is formatted as follows:</p>
    <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
-   <p>For example, REPLACEPATTERN("foo123bar", "\d+", "_") generates the string "foo_bar". 
+   <p>For example, REPLACEPATTERN("foo123bar", "\d+", "_") generates the string "foo_bar".
    </td> 
   </tr> 
   <tr> 

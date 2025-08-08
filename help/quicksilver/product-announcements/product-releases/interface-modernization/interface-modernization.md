@@ -66,11 +66,11 @@ To view this change, go to Setup > System > Update Users For SSO
 
 ## Projects
 
-### Interface updates for logging time on a project, task, or issue in the Hours tab 
+### Interface updates for logging time on a project, task, or issue in the Hours section 
 
 **Preview release: August 7, 2025; Production release: August 14, 2025**
 
-We have updated the look and feel of the Log time box when logging time for a project, task, or issue in the Hours tab, to match the design of other areas of Workfront.  
+We have updated the look and feel of the Log time box when logging time for a project, task, or issue in the Hours section, to match the design of other areas of Workfront.  
 
 For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
@@ -106,9 +106,9 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 We have updated the look and feel of the Send update to user box when accessing it from the following areas:
 
-* The People section on a template
-* The People section on a project
-* A user list on a company
+* The People section of a template
+* The People section of a project
+* The Company Members section of a company
 * The user list in the Users area
 
 The Send update to user box now matches other areas of Workfront when you send an update to one or multiple users. 
