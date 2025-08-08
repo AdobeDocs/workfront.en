@@ -24,7 +24,7 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 We have updated the Conditions page with a more modern design that is consistent with other areas of Workfront.
 
-A visible enhancement in the interface is that an **Edit** button now appears next to conditions you can edit, and you no longer have to hover over a condition to find the Edit icon.
+A visible enhancement in the interface is that the **Edit** and **Delete** buttons now appear next to conditions you can edit, and you no longer have to hover over a condition to find the Edit and Delete icons.
 
 To view these changes, go to Setup > Project Preferences > Conditions.
 
