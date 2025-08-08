@@ -29,7 +29,7 @@ For more information about predecessor relationships, see [Overview of task pred
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article.
++++ Expand to view access requirements.
 
 You must have the following access to perform the steps in this article:
 
@@ -43,9 +43,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Standard </p> 
-   Or
-   <p>Current: Plan </p>
+   <td> <p>Standard </p> 
+  
+   <p>Plan </p>
    </td> 
   </tr> 
   <tr> 
@@ -64,6 +64,11 @@ You must have the following access to perform the steps in this article:
 +++
 
 ## Create a cross-project predecessor
+
+>[!TIP]
+>
+>Although creating template tasks predecessors is similat to creating project task predecessors, you cannot create cross-template predecessors for template tasks.
+
 
 1. Go to the task that will be your successor (dependent task). 
 1. Click **Predecessors** in the left panel.

@@ -11,6 +11,8 @@ exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
 ---
 # Delete a custom condition
 
+{{highlighted-preview}}
+
 You can delete a custom condition if it is no longer needed.
 
 ## Access requirements
@@ -50,25 +52,20 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}
 
-1. Click **Project Preferences** > **Conditions**. 
-
-   <!--
-   <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure it's this way also in QS</span>
-   -->
+1. Click **Project Preferences** > **Conditions**.
 
 1. Select the tab of the object type (**Project**, **Task**, or **Issue**) where the condition that you want to delete is located.
 
-1. Hover over the condition you want to delete, then click the **Delete** icon ![Delete](assets/delete.png) that appears on the far right.
-1. In the confirmation message that appears, click **Delete Condition**.  
+1. Click <span class="preview">**Delete** next to the condition name</span> you want to delete, or hover over the condition and click the **Delete** icon ![Delete](assets/delete.png) that appears on the far right.
 
-1. In the **Delete Condition** box that appears, select a new condition in the drop-down list for all projects that were using the condition that you are deleting.
+1. In the **Delete condition** box that appears, select a new condition in the drop-down list for all projects, tasks, or issues that were using the condition you are deleting.
 
    Custom conditions are available in the drop-down list only if they equate with the same built-in condition as the one you are deleting. For example, if you are deleting a condition that equates with At Risk, only custom conditions that also equate with At Risk are available to select.
 
-1. Click **Delete Condition**.
+1. Click **Delete condition**.
 
 >[!NOTE]
 >
 >You cannot delete the built-in conditions, which are On Target, At Risk, and In Trouble. However, you can change their names and colors.
-
-For information about custom conditions, see [Custom conditions](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+>
+>For information about editing custom conditions, see [Create or edit a custom condition](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
