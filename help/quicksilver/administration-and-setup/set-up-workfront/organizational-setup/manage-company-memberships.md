@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: organization-setup
 title: Manage Company Memberships
 description: In the [!UICONTROL Companies] area in Setup, you can add and remove a company's members. You can also edit their user profiles, remind them to register in [!DNL Workfront], deactivate them in [!DNL Workfront], and remove them from the [!DNL Workfront] system.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
@@ -67,7 +67,8 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click **[!UICONTROL Companies]**.
 1. Click the name of the company.
-1. With the **[!UICONTROL Company Members]** section selected in the left panel, do any of the following:
+1. Click **[!UICONTROL Company Members]** in the left panel.
+1. Do any of the following:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -119,9 +120,10 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader">Send a comment to users and to their [!UICONTROL Updates] areas</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Select at least one user, then click the [!UICONTROL Comment] icon <img src="assets/comment-icon.png"> in the toolbar.</p> </li> 
+        <li value="1"> <p>Select at least one user, then click <b>Send Update to User</b> in the toolbar.</p> </li> 
         <li value="2"> <p>Type the comment you want to send to the users and to the [!UICONTROL Updates] area of their user profiles.</p> </li> 
-       </ol> </td> 
+       </ol>
+       <p>For more information, see <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Send direct messages to other users</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Export the list of company members</td> 

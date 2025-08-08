@@ -76,7 +76,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ### Interface updates for a project Business Case
 
-**Preview release: August 4, 2025; Production release: Aufust 18**
+**Preview release: August 4, 2025; Production release: August 18**
 
 We have updated the look and feel of the project's Business Case to match other areas of the application.  
 
