@@ -15,7 +15,6 @@ exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
-<!--
 <div class="preview">
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
@@ -23,8 +22,6 @@ The highlighted information on this page refers to functionality not yet general
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
 </div>
-
--->
 
 You can log time for work items in Adobe Workfront to indicate the number of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
 
@@ -449,13 +446,13 @@ To log time in the Hours section of a project, task, or issue:
 1. In the left panel, click **Hours**.
 1. Click **Log Time**.
 
-   The **Log Time** box displays.
+   <span class="preview">The **Log time** box displays.</span>
 
-   <!--<div class="preview">
+   <div class="preview">
   
    ![Log time in the Hours section of a task](assets/log-time-box-in-hours-section-on-task.png)
 
-   </div>-->
+   </div>
 
 1. Specify the following information:
 
@@ -469,7 +466,7 @@ To log time in the Hours section of a project, task, or issue:
      For more information about configuring hour types, see [Define hour types and availability](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Job Role**: (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a **Job Role** from the drop-down menu. The Role specified when you are assigned to the object displays by default. If you are not assigned a Role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-   * **Hours**: Enter the number of hours for the project, task, or issue. <!--<span class="preview">In the weekly calendar, enter the number of hours for the project, task, or issue.</span>-->
+   * **Hours** or <span class="preview">the weekly calendar</span>: Enter the number of hours for the project, task, or issue. <span class="preview">In the weekly calendar, enter the number of hours for the project, task, or issue.</span> The weekly calendar displays in the **Hours** area of the **Log Time** box in the Production environment. 
    * **Note**: Add a note to explain what the hours are for. This is saved as an **Hour Note** or an **Hour Description**. 
 
 1. Click **Log time**.

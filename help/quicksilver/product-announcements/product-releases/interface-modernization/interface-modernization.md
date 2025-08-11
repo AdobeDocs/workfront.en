@@ -18,7 +18,19 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
-## Interface updates for the Timesheet Profiles list in a group
+### Interface updates for the Conditions area in Setup
+
+**Preview release: August 7, 2025; Production release: August 18, 2025**
+
+We have updated the Conditions page with a more modern design that is consistent with other areas of Workfront.
+
+A visible enhancement in the interface is that the **Edit** and **Delete** buttons now appear next to conditions you can edit, and you no longer have to hover over a condition to find the Edit and Delete icons.
+
+To view these changes, go to Setup > Project Preferences > Conditions.
+
+For more information, see [Create or edit a custom condition](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+
+### Interface updates for the Timesheet Profiles list in a group
 
 **Preview release: July 24, 2025; Production release: July 28, 2025**
 
@@ -26,7 +38,7 @@ We have updated the look and feel of the Timesheet Profiles list in the left pan
 
 To view these changes, go to Setup > Groups > select a group > Timesheet Profiles. 
 
-## Interface changes for the New and Edit Hour Type boxes
+### Interface changes for the New and Edit Hour Type boxes
 
 **Preview release: July 24, 2025; Production release: July 31, 2025**
 
@@ -34,7 +46,7 @@ We have updated the look and feel of the New and Edit Hour Type boxes when addin
 
 For information, see [Manage Hour Types](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
-## Interface updates to the Audit Logs page in Setup
+### Interface updates to the Audit Logs page in Setup
 
 **Preview release: July 22, 2025; Production release: To be announced**
 
@@ -44,7 +56,7 @@ The export button has moved to the right side of the page.
 
 To view this change, go to Setup > Change Tracking > Audit Logs.
 
-## Interface updates to the Update users for SSO page in Setup
+### Interface updates to the Update users for SSO page in Setup
 
 **Preview release: July 22, 2025; Production release: July 28, 2025**
 
@@ -54,9 +66,17 @@ To view this change, go to Setup > System > Update Users For SSO
 
 ## Projects
 
-## Interface updates for a project Business Case
+### Interface updates for logging time on a project, task, or issue in the Hours section 
 
-**Preview release: August 4, 2025; Production release: To be announced**
+**Preview release: August 7, 2025; Production release: August 14, 2025**
+
+We have updated the look and feel of the Log time box when logging time for a project, task, or issue in the Hours section, to match the design of other areas of Workfront.  
+
+For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+### Interface updates for a project Business Case
+
+**Preview release: August 4, 2025; Production release: August 18**
 
 We have updated the look and feel of the project's Business Case to match other areas of the application.  
 
@@ -64,7 +84,7 @@ To view this change, go to Projects > Select a project > Business Case.
 
 For more information, see [Create a business case for a project](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md).
 
-## New look and feel of the Queue Details section on a template
+### New look and feel of the Queue Details section on a template
 
 **Preview release: July 31, 2025; Production release: August 14, 2025**
 
@@ -72,7 +92,7 @@ We have updated the look and feel of the Queue Details section of a template. Th
 
 For information, see [Create a Request Queue](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-<!--## Interface updates when bulk editing templates
+<!--### Interface updates when bulk editing templates
 
 **Preview release: July 31, 2025; Production release: August 7, 2025**
 
@@ -80,15 +100,26 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-## Interface updates for the Send update to user box on a template 
+### Interface updates for the Send update to user box on several objects
 
 **Preview release: July 31, 2025; Production release: August 7, 2025**
 
-We have updated the look and feel of the Send update to user box when accessing it from the People tab on a template. The Send update to user box now matches other areas of Workfront when you send an update to one or multiple users.  
+We have updated the look and feel of the Send update to user box when accessing it from the following areas:
 
-For information, see [Manage the project team](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
+* The People section of a template
+* The People section of a project
+* The Company Members section of a company
+* The user list in the Users area
 
-## Updated experience when editing a Queue Topic in a project or template
+The Send update to user box now matches other areas of Workfront when you send an update to one or multiple users. 
+
+For information, see the following articles: 
+
+* [Send direct messages to other users](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
+* [Manage the project team](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
+* [Manage company memberships](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
+
+### Updated experience when editing a Queue Topic in a project or template
 
 **Preview release: July 31, 2025; Production release: July 31, 2025**
 
@@ -98,7 +129,7 @@ A small functionality change has been applied to the Routing Rules list. To edit
 
 For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-## Interface updates for Billing Records
+### Interface updates for Billing Records
 
 **Preview release: July 31, 2025; Production release: August 7, 2025**
 
@@ -108,7 +139,7 @@ To view these changes, go to a project > Billing Records > select a billing reco
 
 For information, see [Create billing records](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
 
-## Interface updates for the Import MS Project file box 
+### Interface updates for the Import MS Project file box 
 
 **Preview release: July 24, 2025; Production release: To be announced**
 
@@ -116,7 +147,7 @@ We have updated the look and feel of the Import MS Project File box when importi
 
 To view this change, go to Projects > New project > Import MS Project. 
 
-## Interface update for the Add an Expense box of a project or template
+### Interface update for the Add an Expense box of a project or template
 
 **Preview release: July 24, 2025; Production release: July 31, 2025**
 
@@ -126,7 +157,15 @@ For information, see [Manage project expenses](/help/quicksilver/manage-work/pro
 
 ## Templates
 
-## Interface changes when editing a Routing Rule for a template 
+### Interface updates for the Predecessors list on a template
+
+**Preview release: August 7, 2025; Production release: August 14, 2025**
+
+We have updated the look and feel of the Predecessors lists on a template to match the design of other areas of Workfront.
+
+Adding predecessors for a template task is similar to adding predecessors to a project task. For information, see [Create a predecessor relationship using the Predecessors area](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+
+### Interface changes when editing a Routing Rule for a template 
 
 **Preview release: July 24, 2025; Production release: July 31, 2025**
 
@@ -136,7 +175,7 @@ To edit Routing Rule, select the Routing Rule from the list and click the Edit i
 
 For information, see [Create Routing Rules](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
-## Interface changes to the request queue management areas of a template
+### Interface changes to the request queue management areas of a template
 
 **Preview release: July 24, 2025; Production release: July 31, 2025**
 
@@ -154,6 +193,18 @@ For for more information, see
 * [Create Topic Groups](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [Create Routing Rules](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
+## Users
+
+### Interface updates to the Import users dialog
+
+**Preview release: August 7, 2025; Production release for all customers: August 14, 2025**
+
+We have updated the dialog box for importing new users via a spreadsheet file, to match other areas of the application.
+
+To view this change, go to Users > New User > Import Users.
+
+For information, see [Import users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/import-users.md).
+
 ## Interface updates made in Q3
 
 ### Admin and Setup
@@ -162,7 +213,7 @@ For for more information, see
 
 ### Interface updates for the Layout Templates page
 
-**Preview release: July 17, 2025; Production release: July 24, 2025**
+**Preview release: July 17, 2025; Production release: TBD**
 
 We have updated the Layout Templates page with a more modern design that is consistent with other areas of Workfront.
 
