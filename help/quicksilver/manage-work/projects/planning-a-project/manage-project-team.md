@@ -12,13 +12,15 @@ exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
 
 <!--take preview and production references out at production - August 7-->
 
-<div class="preview"> 
+<!--<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> 
+</div>
+
+-->
 
 The Project Team consists of users who are associated with the project. For more information, see [Project Team overview](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md). 
 
@@ -51,8 +53,8 @@ You can manage the users in the project and template's teams by adding them (onl
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Standard </p>
-    <p>Current: Plan </p>
+   <td> <p>Standard </p>
+    <p>Plan </p>
     </td> 
   </tr> 
   <tr> 
@@ -191,9 +193,14 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Select one or multiple users in the list, then click **Send Update to User**.
 
-   ![Send update to user on a project](assets/send-update-to-user-on-project-box.png)
+   <!--update screen shot when they fix the bug - the text above the box needs to match the OLD box, below-->
 
-   The **Send Update to User** box opens.
+   ![Send update to user box on the project](assets/send-update-to-user-on-project-box-2025.png)
+
+   <!--Old UI for projects but the text above the comment box is right and matches the functionality):
+   ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)-->
+
+   The **Send update to user** box opens.
 
 1. Do one of the following:
 
@@ -240,27 +247,14 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    ![Send update to user box on template](assets/send-update-to-user-on-template-box.png)
 
-   The **Send Update to User** box opens.
+   The **Send update to user** box opens.
 
 1. Do the following:
-
-   * In the Production environment: 
-
-      * Add an update for the selected users.
-      * Click the people icon to tag additional users to receive the same update. 
-      * Click the lock icon to make the update private to the users in your company. 
-      * Click **Send**. 
-
-   * <span class="preview">In the Preview environment: </span>
-
-    <div class="preview">
 
       * Add an update for the selected users.
       * Click **Tag people** to tag additional users to receive the same update. 
       * Select the **Private to my company** option to to make the update private to the users in your company. 
       * Click **Send**. 
-   
-   </div>
 
    The update is added to the **Updates** section of each tagged user's profile. 
 
