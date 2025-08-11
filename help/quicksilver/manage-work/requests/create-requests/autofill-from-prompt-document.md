@@ -4,6 +4,7 @@ content-type: reference
 description: You can use AI to auto-fill request fields by entering a prompt or supplying a document.
 author: Becky
 feature: Get Started with Workfront
+exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 ---
 # Auto-fill a request using prompts or documents
 
@@ -246,4 +247,3 @@ If you are not getting the expected suggestions, it may be due to one of the fol
 
 * You must have at least one month of request data in the system before it can suggest field values from previous requests.
 * You may not have followed the document upload guardrails when uploading a document to pull suggestions from. For more information, see [Document upload guardrails](#document-upload-guardrails) in this article.
-
