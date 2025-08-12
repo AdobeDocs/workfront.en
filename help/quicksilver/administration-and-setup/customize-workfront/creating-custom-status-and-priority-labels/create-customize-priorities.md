@@ -120,10 +120,12 @@ In addition to the default priorities provided in Workfront, you can add your ow
 
      <div class="preview">
 
-     The default priority is indicated with an icon ![Default priority icon](assets/default-icon.png). Complete one of these options to choose a new default:
+     The default priority is indicated with an icon ![Default priority icon](assets/default-icon.png). To choose a new default, do one of the following:
 
        * Select the check box next to the priority name and select **Make Default** in the action bar at the bottom of the screen.
        * Hover over the priority name and click the **More** menu that appears. Then, select **Make Default**.
+
+         The new default priority is indicated with the icon.
 
      </div>
 
