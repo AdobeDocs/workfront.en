@@ -57,6 +57,8 @@ You must have the following access to perform the steps in this article:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Prerequisites
 
 To auto-fill requests using a prompt or document, **all** of the following must apply:
@@ -67,6 +69,9 @@ To auto-fill requests using a prompt or document, **all** of the following must 
 * Adobe must have a signed Adobe Gen AI agreement on file
 
    For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in the article AI Assistant overview.
+* AI Assistant must be enabled in your organization's system settings. This is managed by your Workfront administrator.
+
+   For more information on enabling AI Assistant in system settings, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 ## Get suggestions from a text prompt
 
