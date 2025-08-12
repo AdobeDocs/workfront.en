@@ -18,7 +18,7 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
-## Interface updates for the Conditions area in Setup
+### Interface updates for the Conditions area in Setup
 
 **Preview release: August 7, 2025; Production release: August 18, 2025**
 
