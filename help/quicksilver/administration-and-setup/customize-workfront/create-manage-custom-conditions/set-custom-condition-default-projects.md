@@ -13,7 +13,7 @@ exl-id: dba052ed-83a2-44d2-b025-d970783c4151
 
 If the Condition Type of a project is set to Progress Status instead of Manual, Adobe Workfront automatically displays one of three built-in default conditions on the project (On Target, At Risk, or In Trouble) as it progresses, as explained in [Overview of Project Condition and Condition Type](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
-![Condition in project header](assets/condition-in-project-header-nwe.png)
+![Condition in project header and details](assets/condition-of-project-0825.png)
 
 You can set your custom conditions as default conditions instead of using these three built-in default conditions. For example, you could change the On Target default condition to display as Tracking Well in all projects.
 
@@ -56,14 +56,12 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click **Project Preferences** > **Conditions**.  
 
-1. Click the **Project** tab. 
-1. Click **Set Default Conditions**.
-1. In the drop-down menu next to the default condition you want to change, click the custom condition you want to use instead. 
+1. Click the **Projects** tab. 
+1. Click **Set default conditions**.
+1. In the drop-down menu for the default condition you want to change, click the custom condition you want to use instead. 
 1. Repeat the previous step for any other default condition you want to change.
 1. Click **Save**.
 
 For information about setting a custom condition as a default condition for tasks and issues, see [Set a custom condition as the default for tasks and issues](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
 
-For information about setting up a project so that users can update it's condition manually, see [Update Condition for tasks and issues](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
-
-For information about custom conditions, see [Custom conditions](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+For information about setting up a project so that users can update its condition manually, see [Update Condition for tasks and issues](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).

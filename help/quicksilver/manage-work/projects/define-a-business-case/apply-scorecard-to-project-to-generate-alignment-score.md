@@ -85,7 +85,7 @@ To apply a scorecard to a project:
 
 1. Select a scorecard from the drop-down menu.
 
-   ![New scorecard](assets/new-scorecard.png)
+   <!--![New scorecard](assets/new-scorecard.png)-->
 
 1. Enter an answer for all the questions in the scorecard.
 
@@ -158,7 +158,7 @@ You can view the alignment score of a project at the project level if you have C
 
    The Alignment Score is located in the Business Case Summary, in the **Aligned** value.
 
-   ![Alignment score on a project](assets/alignment-score-on-a-project.png)
+   <!--![Alignment score on a project](assets/alignment-score-on-a-project.png)-->
 
 ### View the Alignment Scores of the project and of the portfolio in the Portfolio Optimizer
 
@@ -169,7 +169,7 @@ For more information about the information displayed in the Portfolio Optimizer,
 * [Locate the Alignment Score of the project in the Portfolio Optimizer](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer) 
 * [Locate the Alignment Score of the portfolio in the Portfolio Optimizer](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  ![Alignment score in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)
+  <!--![Alignment score in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)-->
 
 #### Locate the Alignment Score of the project in the Portfolio Optimizer {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 

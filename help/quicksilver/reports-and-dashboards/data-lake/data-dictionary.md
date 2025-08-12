@@ -4,7 +4,7 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Workfront Data Connect data dictionary
 description: This page contains information about the structure and content of the data in Workfront Data Connect.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
 ---
@@ -48,7 +48,7 @@ Objects in Workfront (and, therefore, in your Data Connect data lake) are define
 
 There are a number of date objects that provide information about when specific events occur. 
 
-* `DL_LOAD_TIMESTAMP`: This date is used for internal reference, and reflects when the data was loaded into the Current, Event, or Daily History table. This date should not be used for data analysis, and planned to be removed during the beta phase of Workfront data lake.
+* `DL_LOAD_TIMESTAMP`: This date is updated after a successful data refresh is completed and includes the timestamp of when the refresh job that supplied the latest version of a record began. 
 * `CALENDAR_DATE`: This date is present only in the Daily History table. This table provides a record of what the data looked like at 11:59 UTC for each date specified in `CALENDAR_DATE`.
 * `BEGIN_EFFECTIVE_TIMESTAMP`: This date is present in both Event and Daily History tables, and records exactly when a record changed _to_ the value it has in the current row.
 * `END_EFFECTIVE_TIMESTAMP`: This date is present in both Event and Daily History tables, and records exactly when a record changed _from_ the value in the current row to a value in a different row. To allow for between queries on `BEGIN_EFFECTIVE_TIMESTAMP` and `END_EFFECTIVE_TIMESTAMP` this is value is never null, even if there is no new value. In the event a record is still valid (i.e., the value has not changed), `END_EFFECTIVE_TIMESTAMP` will have a value of 2300-01-01.
