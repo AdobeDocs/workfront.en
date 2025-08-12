@@ -45,11 +45,7 @@ The AI Reviewer can review the following file types:
 
 ## Set up brand guidelines
 
-The Workfront AI Reviewer uses the brand guidelines set up in Genstudio Foundations when reviewing your content. 
-
-To learn more about brand guidelines, see
-
-* [GenStudio for Performance Marketing Brands](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+The Workfront AI Reviewer uses the brand guidelines set up in Genstudio for Performance Marketing when reviewing your content. For more information, see [Get started with Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Create AI Reviewers
