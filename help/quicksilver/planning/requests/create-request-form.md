@@ -312,4 +312,19 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
 
 You can view and edit, see a preview for, or publish and unpublish existing request forms.
 
-1. 
+You can locate the unified request forms list from Workfront or from Workfront Planning, which will both take you to the same list.
+
+### Locate the unified request forms from Workfront
+
+
+
+### Locate the unified request forms from Workfront Planning
+
+### Manage request forms from 
+
+Edit
+publish / unpublish
+share
+copy likn
+delete
+
