@@ -117,10 +117,12 @@ As a Workfront administrator, you can create and edit issue severities to suit t
 
      <div class="preview">
 
-     The default severity is indicated with an icon ![Default severity icon](assets/default-icon.png). Complete one of these options to choose a new default:
+     The default severity is indicated with an icon ![Default severity icon](assets/default-icon.png). To choose a new default, do one of the following:
 
        * Select the check box next to the severity name and select **Make Default** in the action bar at the bottom of the screen.
        * Hover over the severity name and click the **More** menu that appears. Then, select **Make Default**.
+
+         The new default severity is indicated with the icon.
 
      </div>
 
