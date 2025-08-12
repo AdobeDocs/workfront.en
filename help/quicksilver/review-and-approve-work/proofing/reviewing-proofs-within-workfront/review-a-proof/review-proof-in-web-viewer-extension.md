@@ -21,10 +21,6 @@ The Adobe Workfront review tool is a web-based browser extension that allows you
 * Edge
 * Safari
 
-This extension is required to review content in GenStudio for Performance Marketing and Creative Cloud Express. Assets will automatically open in the web viewer. You do not need to update any account settings.
-
-
-
 ## Install the extension
 
 ### Prerequisites
@@ -43,6 +39,11 @@ Reviewers and approvers must install the Adobe Workfront review tool. in one of 
 
 
 For interactive proofs to open in the Adobe Workfront review tool automatically, a Workfront Administrator must update Proofing settings in workfront as described in the sections below.
+
+## Use the Adobe Workfront review tool in GenStudio for Performance Marketing and Creative Cloud Express
+
+This extension is required to review content in GenStudio for Performance Marketing and Creative Cloud Express. Assets will automatically open in the web viewer. You do not need to update any account settings.
+
 
 ## Update Workfront proofing defaults
 
