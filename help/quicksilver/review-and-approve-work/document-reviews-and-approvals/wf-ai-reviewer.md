@@ -50,8 +50,6 @@ The Workfront AI Reviewer uses the brand guidelines set up in Genstudio Foundati
 To learn more about brand guidelines, see
 
 * [GenStudio for Performance Marketing Brands](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Set up brands](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/set-up-brands)
-* [Add guidelines](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 
 ## Create AI Reviewers
