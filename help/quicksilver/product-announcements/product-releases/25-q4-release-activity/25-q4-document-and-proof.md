@@ -12,6 +12,18 @@ This page describes Document and Proofing enhancements made with the Fourth Quar
 
 For a list of all changes available at this point in the Fourth Quarter 2025 release cycle, see [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## New Workfront AI Reviewer
+
+>[!NOTE]
+>
+>This feature is currently in beta.
+
+The new Workfront AI Reviewer helps ensure image brand compliance by automatically reviewing content against your brand guidelines. It provides a score and actionable feedback to streamline the approval process. 
+
+You can add the AI Reviewer to approval templates or individual review and approval requests, enabling faster content production while maintaining brand standards.
+
+For more information, see [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+
 ## New proofing integration for Adobe Express
 
 We are excited to announce a new integration between Adobe Express and Workfront Proof.
