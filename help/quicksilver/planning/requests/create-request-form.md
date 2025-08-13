@@ -308,6 +308,8 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    
 1. Click **Save** in the lower-right corner of the **Form** tab to save the form.  
 
+ 
+
 ## View and edit existing request forms
 
 You can view and edit, see a preview for, or publish and unpublish existing request forms.
@@ -316,7 +318,9 @@ You can locate the unified request forms list from Workfront or from Workfront P
 
 ### Locate the unified request forms from Workfront
 
-
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Requests**
+1. Ensure that the Use new experience toggle is enabled.
+1. In the upper-right corner of the Requests page, click **Request forms**.
 
 ### Locate the unified request forms from Workfront Planning
 
