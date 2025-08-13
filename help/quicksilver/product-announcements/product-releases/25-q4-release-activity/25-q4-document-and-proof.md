@@ -18,7 +18,7 @@ For a list of all changes available at this point in the Fourth Quarter 2025 rel
 >
 >Available for all customers August 14, 2025
 
-The new Workfront AI Reviewer helps ensure image brand compliance by automatically reviewing content against your brand guidelines. It provides a score and actionable feedback to streamline the approval process. 
+The new Workfront AI Reviewer helps ensure image brand compliance by automatically reviewing content against your brand guidelines, starting with image guidelines. It provides a score and actionable feedback to streamline the approval process. 
 
 You can add the AI Reviewer to approval templates or individual review and approval requests, enabling faster content production while maintaining brand standards.
 
