@@ -121,9 +121,10 @@ For more detail about the information in this table, see [Access requirements in
       <td> 
        <ol> 
         <li value="1"> <p>Select at least one user, then click <b>Send Update to User</b> in the toolbar.</p> </li> 
-        <li value="2"> <p>Type the comment you want to send to the users and to the [!UICONTROL Updates] area of their user profiles.</p> </li> 
+        <li value="2"> <p>Type the comment you want to send to the users and to the [!UICONTROL Updates] area of their user profiles.</p>
+         <p>For more information, see <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Send direct messages to other users</a>.</p></li> 
        </ol>
-       <p>For more information, see <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Send direct messages to other users</a>.</p></td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Export the list of company members</td> 
