@@ -16,7 +16,7 @@ For a list of all changes available at this point in the Fourth Quarter 2025 rel
 
 >[!NOTE]
 >
->This feature is currently in beta.
+>Available for all customers August 14, 2025
 
 The new Workfront AI Reviewer helps ensure image brand compliance by automatically reviewing content against your brand guidelines. It provides a score and actionable feedback to streamline the approval process. 
 
@@ -24,7 +24,15 @@ You can add the AI Reviewer to approval templates or individual review and appro
 
 For more information, see [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
+This feature is currently in beta.
+
+
 ## New proofing integration for Adobe Express
+
+>[!NOTE]
+>
+>Available for all customers July 28, 2025
+
 
 We are excited to announce a new integration between Adobe Express and Workfront Proof.
 
