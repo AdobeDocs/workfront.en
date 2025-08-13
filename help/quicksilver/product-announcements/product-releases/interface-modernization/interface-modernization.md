@@ -18,7 +18,7 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
-## Interface updates to recently deleted items
+### Interface updates to recently deleted items
 
 **Preview release: August 14, 2025; Production release: August 21, 2025**
 
@@ -129,15 +129,14 @@ For information, see the following articles:
 * [Manage the project team](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
 * [Manage company memberships](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
-### Updated experience when editing a Queue Topic in a project or template
+### Updated experience when editing a Topic Group in a project or template
 
 **Preview release: July 31, 2025; Production release: July 31, 2025**
 
-We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+We have updated the look and feel of a Topic Group when editing it on a template. The Topic Group editing page now matches the design of other areas of Workfront.
+A small functionality change has been applied to the Topic Group. To edit a Topic Group, select the Topic Group from the list and click the Edit icon. You are no longer directed to the Topic Group details page before you can edit.
 
-A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
-
-For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+For more information, see [Create Topic Groups](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 ### Interface updates for Billing Records
 
