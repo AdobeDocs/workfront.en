@@ -45,14 +45,14 @@ The AI Reviewer can review the following file types:
 * WEBP (.webp)
 * Non-animated GIF (.gif)
 
-## Set up image brand guidelines
+## Set up brand guidelines
 
-The Workfront AI Reviewer uses the brand guidelines set up in Genstudio for Performance Marketing when reviewing your content. For more information, see [Get started with Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
+The Workfront AI Reviewer uses the brand guidelines set up in Genstudio for Performance Marketing when reviewing your content. Currently, you can only set up brand guidelines for images. For more information, see [Get started with Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Create AI Reviewers
 
-Once there is at least one image brand set up in GenStudio Foundations, Workfront administrators can begin creating AI Reviewers in the Setup area. Those AI Reviewers can then be assigned to approval templates and individual review and approval requests.
+Once there is at least one brand set up in GenStudio Foundations, Workfront administrators can begin creating AI Reviewers in the Setup area. Those AI Reviewers can then be assigned to approval templates and individual review and approval requests. Right now, AI reviewers can only review against image brand guidelines.
 
 For more information, see [Create AI Reviewers](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md).
 
