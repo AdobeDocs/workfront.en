@@ -18,6 +18,16 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+## Interface updates to recently deleted items
+
+**Preview release: August 14, 2025; Production release: August 21, 2025**
+
+We have updated the look and feel of the recently deleted items in the Setup area, to match the design of other areas of Workfront. No functionality has changed for recently deleted projects, tasks, requests, documents, or templates.
+
+To view this change, go to Setup > Recycle Bin > Recently Deleted.
+
+For information, see [Restore deleted items](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+
 ### Interface updates for the Conditions area in Setup
 
 **Preview release: August 7, 2025; Production release: August 18, 2025**
@@ -76,7 +86,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ### Interface updates for a project Business Case
 
-**Preview release: August 4, 2025; Production release: August 18**
+**Preview release: August 4, 2025; Production release: August 13, 2025**
 
 We have updated the look and feel of the project's Business Case to match other areas of the application.  
 
