@@ -29,10 +29,8 @@ You must have the following access to perform the steps in this article and log 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: </p>
-   <p>Light or higher to log hours on a task or issue</p>
-   <p>Current: 
-   <p>Work or higher to log hours on a task or issue</p> </td> 
+   <td> <p>New: Light or higher to log hours on a task or issue</p>
+   <p>Current: Work or higher to log hours on a task or issue</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -55,7 +53,8 @@ You can log time directly from the worklist:
 
 {{step1-to-priorities}}
 
-1. Hover over the name, then click **Log time**.
+1. Hover over the name, then click the **More** ![More icon](assets/more-icon.png) icon. 
+1. Select **Log time**.
 ![Update, log time, and upload](assets/update-log-upload.png)
 1. In the **Hour Type** drop-down menu, select the appropriate hour type. Hour types are available depending on what has been defined at the system, project, and user levels, as described in Define hour types and availability.
 
@@ -71,7 +70,7 @@ You can log time in an individual work item:
 
 {{step1-to-priorities}}
 
-1. Click on a work item name to open the Overview page.
+1. Click on a work item name to open the **Overview** page.
 1. In the **Quick actions** section, click **Log time**. 
 1. In the **Hour Type** drop-down menu, select the appropriate hour type. Hour types are available depending on what has been defined at the system, project, and user levels, as described in Define hour types and availability.
 1. (Conditional) If your Workfront or group administrator has enabled the Assign job roles to hour entries manually setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. If you do not have a Primary Role assigned, No Job role displays.
