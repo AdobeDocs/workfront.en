@@ -17,9 +17,7 @@ We recommend deactivating a portfolio that no longer needs to be associated with
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,8 +29,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: [!UICONTROL Standard] </p>
-   <p>Current: [!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -62,6 +60,7 @@ Consider the following when deciding whether to delete or deactivate portfolios:
 * Deleting a portfolio does not delete the projects associated with it.
 * You cannot recover deleted portfolios.
 * Deactivating a portfolio ensures that the name of the portfolio and its programs can no longer be assigned to projects when creating a project.
+* Deactivating a portfolio that is already attached to a project does not remove it from the project. If you remove a deactivated portfolio from a project you must reactivate it before you can reattach it to the project.
 
 ## Deactivate a portfolio
 
@@ -76,11 +75,17 @@ When you deactivate a portfolio, you can still access it from the [!UICONTROL Po
 1. Click **[!UICONTROL Portfolios]** .
 1. Click the name of the portfolio.
 1. Click the **More** menu ![More menu](assets/more-icon.png) to the right of the portfolio name, then click **[!UICONTROL Deactivate Portfolio]**.
+   The portfolio is immediately deactivated. 
+1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png) to the right of the portfolio name, then click **[!UICONTROL Activate Portfolio]** to reactivate it. 
 
 ## Delete a portfolio
 
-{{step1-click-main-menu}}
+{{step1-to-portfolios}}
 
-1. Click **[!UICONTROL Portfolios]** .
-1. Select the portfolio, then click **[!UICONTROL Delete]**&#x200B;the [!UICONTROL Delete] icon ![Delete icon](assets/delete.png).
+1. Do one of the following:
+
+   * Select the portfolio in the list, then click the **[!UICONTROL Delete]** icon ![Delete icon](assets/delete.png).
+   * Click the portfolio to open it, then click the **More** menu ![More menu](assets/more-icon.png) to the right of the portfolio name, then **Delete Portfolio**. 
 1. Click **[!UICONTROL Yes, Delete It]** to confirm.
+
+   The portfolio is deleted and cannot be recovered. 
