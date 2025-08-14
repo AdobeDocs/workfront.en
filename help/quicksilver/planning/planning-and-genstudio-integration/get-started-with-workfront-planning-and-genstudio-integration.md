@@ -5,7 +5,9 @@ hide: yes
 hidefromtoc: yes
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
 ---
-# Get started with the Workfront Planning and GenStudio for Performance Marketing integration
+# Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration
+
+<!--update the text in the title everywhere this article is linked from - it changed a few times-->
 
 <!--Better metadata, at publishing:
 ---
