@@ -222,7 +222,7 @@ For information, see [Import users](/help/quicksilver/administration-and-setup/a
 
 ### Interface updates for the Layout Templates page
 
-**Preview release: July 17, 2025; Production release: TBD**
+**Preview release: July 17, 2025; Production release: August 14, 2025**
 
 We have updated the Layout Templates page with a more modern design that is consistent with other areas of Workfront.
 
