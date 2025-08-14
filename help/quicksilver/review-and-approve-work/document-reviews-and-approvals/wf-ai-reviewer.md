@@ -97,3 +97,6 @@ For more information on viewing scores and feedback, see [View AI Reviewer score
 ![AI reviewer feedback](assets/ai-reviewer-feedback.png)
 
 
+## Video Walkthrough
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470847/)
