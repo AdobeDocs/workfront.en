@@ -18,6 +18,16 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+### Interface updates for the Send update to user box on groups
+
+**Preview release: August 14, 2025; Production release: August 14, 2025**
+
+We have updated the look and feel of the Send update to user box when accessing it from the list of group members and the list of subgroup members.
+
+The Send update to user box now matches other areas of Workfront when you send an update to one or multiple users.
+
+For information, see [View and manage a group's memberships](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) and [View and manage subgroup members](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+
 ### Interface updates to recently deleted items
 
 **Preview release: August 14, 2025; Production release: August 21, 2025**
@@ -79,6 +89,10 @@ To view this change, go to Setup > System > Update Users For SSO
 ### Interface updates for logging time on a project, task, or issue in the Hours section 
 
 **Preview release: August 7, 2025; Production release: August 14, 2025**
+
+>[!NOTE]
+>
+>Temporarily removed from Preview and Production
 
 We have updated the look and feel of the Log time box when logging time for a project, task, or issue in the Hours section, to match the design of other areas of Workfront.  
 

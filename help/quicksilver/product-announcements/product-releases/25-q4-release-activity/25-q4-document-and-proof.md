@@ -26,6 +26,7 @@ For more information, see [Get started with the Workfront AI Reviewer](/help/qui
 
 This feature is currently in beta.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3470847/)
 
 ## New proofing integration for Adobe Express
 
