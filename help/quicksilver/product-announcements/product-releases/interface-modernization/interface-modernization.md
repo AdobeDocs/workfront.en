@@ -18,6 +18,16 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+### Interface updates to recently deleted items
+
+**Preview release: August 14, 2025; Production release: August 21, 2025**
+
+We have updated the look and feel of the recently deleted items in the Setup area, to match the design of other areas of Workfront. No functionality has changed for recently deleted projects, tasks, requests, documents, or templates.
+
+To view this change, go to Setup > Recycle Bin > Recently Deleted.
+
+For information, see [Restore deleted items](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+
 ### Interface updates for the Conditions area in Setup
 
 **Preview release: August 7, 2025; Production release: August 18, 2025**
@@ -76,7 +86,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ### Interface updates for a project Business Case
 
-**Preview release: August 4, 2025; Production release: August 18**
+**Preview release: August 4, 2025; Production release: August 13, 2025**
 
 We have updated the look and feel of the project's Business Case to match other areas of the application.  
 
@@ -119,15 +129,14 @@ For information, see the following articles:
 * [Manage the project team](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
 * [Manage company memberships](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
-### Updated experience when editing a Queue Topic in a project or template
+### Updated experience when editing a Topic Group in a project or template
 
 **Preview release: July 31, 2025; Production release: July 31, 2025**
 
-We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+We have updated the look and feel of a Topic Group when editing it on a template. The Topic Group editing page now matches the design of other areas of Workfront.
+A small functionality change has been applied to the Topic Group. To edit a Topic Group, select the Topic Group from the list and click the Edit icon. You are no longer directed to the Topic Group details page before you can edit.
 
-A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
-
-For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+For more information, see [Create Topic Groups](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 ### Interface updates for Billing Records
 
@@ -213,7 +222,7 @@ For information, see [Import users](/help/quicksilver/administration-and-setup/a
 
 ### Interface updates for the Layout Templates page
 
-**Preview release: July 17, 2025; Production release: TBD**
+**Preview release: July 17, 2025; Production release: August 14, 2025**
 
 We have updated the Layout Templates page with a more modern design that is consistent with other areas of Workfront.
 

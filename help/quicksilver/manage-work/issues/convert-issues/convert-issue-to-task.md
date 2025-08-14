@@ -42,6 +42,10 @@ You must have the following access to perform the steps in this article:
 
 *To find out what plan, license type, or access you have, contact your Workfront administrator.
 
+## Considerations
+
+* There is a 5-minute processing limit when converting an issue to a task. If the issue has a large number of documents attached to it and fails to convert, you might need to remove some of the documents and try again.
+
 ## Convert an issue to a task
 
 1. Go to a project and click [!UICONTROL **Issues** ] in the left panel.  
