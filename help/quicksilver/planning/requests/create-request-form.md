@@ -348,28 +348,3 @@ You can create a request form from the record type associated with the form, or 
    For information about creating records using a link to a request form, see [Submit Adobe Workfront Planning requests](/help/quicksilver/planning/requests/submit-requests.md). 
    
 1. Click **Save** in the lower-right corner of the **Form** tab to save the form.  
-
- 
-
-## View and edit existing request forms
-
-You can view and edit, see a preview for, or publish and unpublish existing request forms.
-
-You can locate the unified request forms list from Workfront or from Workfront Planning, which will both take you to the same list.
-
-### Locate the unified request forms from Workfront
-
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Requests**
-1. Ensure that the Use new experience toggle is enabled.
-1. In the upper-right corner of the Requests page, click **Request forms**.
-
-### Locate the unified request forms from Workfront Planning
-
-### Manage request forms from 
-
-Edit
-publish / unpublish
-share
-copy likn
-delete
-
