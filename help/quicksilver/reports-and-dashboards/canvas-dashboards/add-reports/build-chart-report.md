@@ -1,13 +1,13 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Build a chart report
+title: Build a chart report in a Canvas Dashboard
 description: A chart report that visualizes your data as a bar, column, line, or pie chart can be added to a Canvas Dashboard.
 author: Courtney and Jenny 
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
 ---
-# Build a chart report
+# Build a chart report in a Canvas Dashboard
 
 >[!IMPORTANT]
 >

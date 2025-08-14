@@ -9,6 +9,10 @@ exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
 ---
 # Add an existing report to a Canvas Dashboard
 
+>[!IMPORTANT]
+>
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+
 Reports created through the Adobe Workfront Reports tool can be added to a Canvas Dashboard. For more information on creating reports, see [Get started with reports](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md). 
 
 +++ Expand to view access requirements. 

@@ -21,7 +21,7 @@ Automatic timeline recalculation happens without special access for any of the u
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
++++ Expand to view access requirements. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,9 +33,8 @@ Automatic timeline recalculation happens without special access for any of the u
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Standard </p> 
-   Or
-   <p>Current: Plan </p>
+   <td> <p>Standard </p> 
+    <p>Plan </p>
    </td> 
   </tr> 
   <tr> 
@@ -57,17 +56,21 @@ For more detail about the information in this table, see [Access requirements in
 
 By default, project timelines are automatically recalculated daily when the project scope changes or every night. The Workfront administrator determines whether to automatically calculate timelines every night or with every scope change by managing the Timelines settings in the Project Preferences area of Setup. For more information, see [Configure timeline recalculations for projects](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
->[!NOTE]
+>[!IMPORTANT]
 >
->If the timeline of a project is longer than 15 years, the automatic recalculation is disabled for that project and you can only select a Manual update type. If you change the dates on the project to less than 15 years, you must manually recalculate your timeline one time before it is calculated automatically.
+>* If the timeline of a project is longer than 15 years, the automatic recalculation is disabled for that project and you can only select a Manual update type. If you change the dates on the project to less than 15 years, you must manually recalculate your timeline one time before it is calculated automatically.
+>* For the Preview and Custom Refresh Sandbox environments, the nightly recalculation is disabled and the project timelines aren't recalculated automatically. You must manually recalculate the project timeline for the Preview and the Custom Refresh Sandbox environments. 
+>* If a project is complex, the automatic timeline recalculation might not occur. 
+> An example of a complex project might be a project with multiple dependencies, large number of tasks, several cross-project predecessors, or multiple task indentations. 
+> Workfront places a warning to the right of the project name on the project page to advise users that the project timeline must be recalculated manually. Only users with Manage permissions to the project can manually recalculate the timeline. 
+>
+>   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>
 
 * [Automatic recalculation of project timelines](#automatic-recalculation-of-project-timelines) 
 * [Actions that trigger an automatic recalculation of project timelines](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
 
 
->[!IMPORTANT]
->
->For the Preview and Custom Refresh Sandbox environments, the nightly recalculation is disabled and the project timelines aren't recalculated automatically. You must manually recalculate the project timeline for the Preview and the Custom Refresh Sandbox environments. 
 
 ### Automatic recalculation of project timelines {#automatic-recalculation-of-project-timelines}
 
