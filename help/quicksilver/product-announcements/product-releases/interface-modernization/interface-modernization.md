@@ -18,6 +18,26 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+### Interface updates for the Send update to user box on groups
+
+**Preview release: August 14, 2025; Production release: August 14, 2025**
+
+We have updated the look and feel of the Send update to user box when accessing it from the list of group members and the list of subgroup members.
+
+The Send update to user box now matches other areas of Workfront when you send an update to one or multiple users.
+
+For information, see [View and manage a group's memberships](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) and [View and manage subgroup members](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+
+### Interface updates to recently deleted items
+
+**Preview release: August 14, 2025; Production release: August 21, 2025**
+
+We have updated the look and feel of the recently deleted items in the Setup area, to match the design of other areas of Workfront. No functionality has changed for recently deleted projects, tasks, requests, documents, or templates.
+
+To view this change, go to Setup > Recycle Bin > Recently Deleted.
+
+For information, see [Restore deleted items](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+
 ### Interface updates for the Conditions area in Setup
 
 **Preview release: August 7, 2025; Production release: August 18, 2025**
@@ -70,13 +90,17 @@ To view this change, go to Setup > System > Update Users For SSO
 
 **Preview release: August 7, 2025; Production release: August 14, 2025**
 
+>[!NOTE]
+>
+>Temporarily removed from Preview and Production
+
 We have updated the look and feel of the Log time box when logging time for a project, task, or issue in the Hours section, to match the design of other areas of Workfront.  
 
 For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
 ### Interface updates for a project Business Case
 
-**Preview release: August 4, 2025; Production release: August 18**
+**Preview release: August 4, 2025; Production release: August 13, 2025**
 
 We have updated the look and feel of the project's Business Case to match other areas of the application.  
 
@@ -119,15 +143,14 @@ For information, see the following articles:
 * [Manage the project team](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
 * [Manage company memberships](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
-### Updated experience when editing a Queue Topic in a project or template
+### Updated experience when editing a Topic Group in a project or template
 
 **Preview release: July 31, 2025; Production release: July 31, 2025**
 
-We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+We have updated the look and feel of a Topic Group when editing it on a template. The Topic Group editing page now matches the design of other areas of Workfront.
+A small functionality change has been applied to the Topic Group. To edit a Topic Group, select the Topic Group from the list and click the Edit icon. You are no longer directed to the Topic Group details page before you can edit.
 
-A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
-
-For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+For more information, see [Create Topic Groups](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 ### Interface updates for Billing Records
 
@@ -213,7 +236,7 @@ For information, see [Import users](/help/quicksilver/administration-and-setup/a
 
 ### Interface updates for the Layout Templates page
 
-**Preview release: July 17, 2025; Production release: TBD**
+**Preview release: July 17, 2025; Production release: August 14, 2025**
 
 We have updated the Layout Templates page with a more modern design that is consistent with other areas of Workfront.
 

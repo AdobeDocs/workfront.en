@@ -21,9 +21,9 @@ recommendations: noDisplay, noCatalog
 
 As a workspace manager, you can import or add an existing record type to a another workspace. 
 
-You must first define the cross-workspace capabilities of a record type before workspace managers can import it into other workspaces.
+You must first designate a record type as a centralized before workspace managers can import it into other workspaces.
 
-You define the cross-workspace capabilities of a record type when you create or edit a record type. 
+You can designate a record type as centralized when you create or edit it, as you are defining its cross-workspace settings. 
 
 For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). 
 
@@ -91,7 +91,9 @@ For information, see [Configure cross-workspace capabilities for record types](/
 
 +++   
 
-## Considerations when adding existing record types from another workspace
+## Overview of centralized record types
+
+Considerations when adding existing record types from another workspace
 
 * When there are no record types configured to be added to another workspace, the option to import them from another workspace does not display, when creating a record type. <!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
 * After adding the record type from another workspace, the following information is also added from the existing record type:
