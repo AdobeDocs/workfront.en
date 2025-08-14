@@ -58,8 +58,7 @@ You can filter tasks and issues assigned to you.
 {{step1-to-priorities}}
 
 1. Click **Filters** in the top left of the worklist.
-1. Click **Standard filters**. 
-1. Select one or many filters to narrow down your work items.
+1. In the **Standard filters** section, select one or more filters to narrow down your work items.
   ![Filter](assets/filter-new.png)
 
 +++Expand to see detailed information about available filters
@@ -110,12 +109,12 @@ You can filter tasks and issues assigned to you.
     <td>Displays work by Planned Completion Date</td>
     </tr>
     <tr>
-    <td>Status</td>
-    <td>Displays tasks or issues in new, in progress, and complete statuses</td>
+    <td>My Focus</td>
+    <td>Displays tasks or issues that have assigned focus levels. Focus levels are assigned and managed by the individual user.</td>
     </tr>
     <tr>
-    <td>My Focus</td>
-    <td>Displays tasks or issues in that have assigned focus levels. Focus levels are assigned and managed by the individual user.</td>
+    <td>Status</td>
+    <td>Displays tasks or issues in new, in progress, and complete statuses.</td>
     </tr>
   </tbody>
 </table>
@@ -130,7 +129,7 @@ Use natural language to quickly filter work.
 
 >[!NOTE]
 >
->This feature is only available for customers on the Unified Adobe Experience using the AI Assistant. For more information about the AI Assistant, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>This feature is only available for customers on the Unified Adobe Experience using AI Assistant. For more information about AI Assistant, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 {{step1-to-priorities}}
 
@@ -140,18 +139,16 @@ Use natural language to quickly filter work.
 
     You can type things like:
 
-    * Show me late tasks
-    * Show my top priorities
-    * Show work due today
-
-</div>
+    * *Show me late tasks*
+    * *Show my top priorities*
+    * *Show work due today*
 
 ## Group your work
 
 {{step1-to-priorities}}
 
 1. Click **Groups** in the top left of the worklist.
-1. Select a group to organize your work list
+1. Select a group to organize your worklist.
   ![Groups](assets/groups-new.png)
 
   +++Expand to see detailed information about available groups
@@ -159,9 +156,9 @@ Use natural language to quickly filter work.
 | Group     | Description |
 |-----------|-------------|
 | Project   |   This groups items by project.          |
-| My Focus  |   This groups items based on the focus level you assign.          |
-| Week due  |   This groups items based on the week they are due. Due dates are determined by the Planned Completion Date.           |
-| Status    |   This groups items by the following statuses: New, In progress, Complete. <br>Note: You can't use custom statuses in Priorities at this time.          |
+| Due date  |   This groups items based on when they are due. Due dates are determined by the Planned Completion Date.           |
+| My Focus  |   This groups items based on the focus level you assign.           |
+| Status    |   This groups items by the following statuses: New, In progress, Complete. <br><b>Note</b>: You can't use custom statuses in Priorities at this time.          |
 
 +++
 
@@ -170,14 +167,14 @@ Use natural language to quickly filter work.
 You can drag and drop individual work items between categories when grouping by My Priority or Status.
 
 1. Group your work by **Status** or **My Priority**.
-2. Hover over the work item to find the move icon and drag it to the desired category.
+2. Hover over the work item to click the **Drag** icon and move it to the desired category.
 ![drag icon](assets/drag-and-drop.png)
 
 ## Sort your work
 
 ### Sort in groups
 
-To sort your work within a group, open **Group** and click **Sort ascending** or **Sort descending**.
+To sort your work within a group, open **Group** and select if you want to sort in ascending or descending order.
 
 ![Sort in groups](assets/sort-in-groups.png)
 

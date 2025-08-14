@@ -21,8 +21,6 @@ Priorities displays work items assigned to you. You cannot see work items assign
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -51,35 +49,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-## Customize the Priorities worklist columns in Production
-
-### Enable or disable columns 
-
-{{step1-to-priorities}}
-
-1. Click **Columns** on the right side of the screen.
-    ![Columns](assets/columns.png)
-1. Use the toggles to enable or disable columns in the worklist. 
-
-### Reorder the columns
-
-{{step1-to-priorities}}
-
-1. Click **Columns** on the right side of the screen.
-1. Click the **Drag** icon and move the column to your desired location. Moving columns updates in the worklist automatically.
-    ![Reorder columns](assets/reorder-columns.png)
-
-### Reset Column widths
-
-{{step1-to-priorities}}
-
-1. Click **Columns** on the right side of the screen.
-1. Click the **More** icon ![More icon](assets/more-icon.png), and choose **Reset column widths**.
- ![Columns](assets/columns.png)
 
 ## Customize the Priorities worklist columns
 
