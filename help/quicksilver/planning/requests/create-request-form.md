@@ -131,7 +131,7 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
 
 ## Begin creating a request form
 
-You can create a request form from the record type associated with the form, or from the Requests area of Workfront
+You can create a request form from the record type associated with the form, <span class="preview">or from the Requests area of Workfront.</span>
 
 ### Create a request form from a record type
 
@@ -160,6 +160,8 @@ You can create a request form from the record type associated with the form, or 
    The request form for the selected record type opens in the Form tab.
 1. Continue to [Configure the form](#configure-the-form).
 
+<div class="preview">
+
 ### Create a request form from the Requests area of Workfront
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Requests**.
@@ -180,14 +182,14 @@ You can create a request form from the record type associated with the form, or 
    The request form for the selected record type opens in the Form tab.
 1. Continue to [Configure the form](#configure-the-form).
 
-
+</div>
 
 ## Configure the form
 
 1. Begin creating or editing a request form, as described in one of the following sections:
 
    * [Create a request form from a record type](#create-a-request-form-from-a-record-type)
-   * [Create a request form from the Requests area of Workfront](#create-a-request-form-from-the-requests-area-of-workfront)
+   * <span class="preview">[Create a request form from the Requests area of Workfront](#create-a-request-form-from-the-requests-area-of-workfront)</span>
    
     The request form for the selected record type opens in the Form tab. 
 
