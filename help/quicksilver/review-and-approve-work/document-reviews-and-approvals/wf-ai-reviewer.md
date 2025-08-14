@@ -6,13 +6,15 @@ description: Workfront AI Reviewer
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: yes
-hidefromtoc: yes
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 ---
 # Get started with the Workfront AI Reviewer
 
-With the Workfront AI Reviewer, you can increase content velocity and optimize brand compliance in the review and approval workflow. You can add AI Reviewers to approval templates or invdividual review and approval requests in Workfront. 
+>[!NOTE]
+>
+>This feature is currently in beta. 
+
+With the Workfront AI Reviewer, you can increase content velocity and optimize brand compliance in the review and approval workflow. You can add AI Reviewers to approval templates or individual review and approval requests in Workfront. 
 
 ## Access requirements
 
@@ -45,17 +47,12 @@ The AI Reviewer can review the following file types:
 
 ## Set up brand guidelines
 
-The Workfront AI Reviewer uses the brand guidelines set up in Genstudio Foundations when reviewing your content. 
-
-To learn more about brand guidelines, see
-
-* [GenStudio for Performance Marketing Brands](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Add guidelines](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+The Workfront AI Reviewer uses the brand guidelines set up in Genstudio for Performance Marketing when reviewing your content. Currently, you can only set up brand guidelines for images. For more information, see [Get started with Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Create AI Reviewers
 
-Once there is at least one brand set up in GenStudio Foundations, Workfront administrators can begin creating AI Reviewers in the Setup area. Those AI Reviewers can then be assigned to approval templates and individual review and approval requests.
+Once there is at least one brand set up in GenStudio Foundations, Workfront administrators can begin creating AI Reviewers in the Setup area. Those AI Reviewers can then be assigned to approval templates and individual review and approval requests. Right now, AI reviewers can only review against image brand guidelines.
 
 For more information, see [Create AI Reviewers](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md).
 
@@ -65,13 +62,13 @@ Users can add AI Reviewers to an existing approval templates or to individual re
 
 ### Approval templates
 
-If your organization often add the same people to review and approval requests, Standard license users can create approval templates in the Workfront Setup area.
+If your organization often adds the same people to review and approval requests, Standard license users can create approval templates in the Workfront Setup area.
 
 Users can add AI Reviewers to approval templates to automatically check for brand compliance when a template is used to create a request. 
 
 Once created, approval templates can be applied to assets in the Documents area of a project, task, or issue.
 
-For more information, see [Create an Approval Template for assets and documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+For more information, see [Create an Approval Template for assets and documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ![template list showing AI reviewwers](assets/ai-review-templates.png)
 
@@ -79,7 +76,7 @@ For more information, see [Create an Approval Template for assets and documents]
 
 When users create individual review and approval requests, they can add an AI Reviewer in with other participants or they can create a single request with only the AI Reviewer to check for brand compliance. 
 
-For more information, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+For more information, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 
 ![AI reviewer added to individual approval request](assets/ad-ai-reviewer-to-request.png)
@@ -92,7 +89,7 @@ Approval owners also receive an email notifying them that a review has been comp
 
 The AI Reviewer is not designed to be a decision-maker in the review and approval workflow. It only provides a score and recommendations to align the asset with the specified brand requirements. 
 
-If the image does long meet brand guildelines, the creative can upload a new version and the approval owner can create a second review and approval request with the AI Reviewer, allowing you to switch between versions and compare feedback.
+If the image does long meet brand guidelines, the creative can upload a new version and the approval owner can create a second review and approval request with the AI Reviewer, allowing you to switch between versions and compare feedback.
 
 For more information on viewing scores and feedback, see [View AI Reviewer score and feedback](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md).
 
