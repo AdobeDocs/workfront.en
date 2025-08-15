@@ -840,7 +840,6 @@ feature-set: Workfront
     * [Overview of the Project, Task, and Issue dates in Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
   * Priorities {#priorities}
     * [Priorities: article index](workfront-basics/priorities/priorities-toc.md)
-    * [Priorities: Upcoming releases](workfront-basics/priorities/priorities-upcoming-releases.md)
     * [Get started with Priorities](workfront-basics/priorities/get-started-with-priorities.md)
     * [View project and work item details in Priorities](workfront-basics/priorities/view-task-project-details.md)
     * [Filter and group your work in Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
