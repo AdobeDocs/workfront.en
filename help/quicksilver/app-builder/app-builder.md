@@ -269,3 +269,166 @@ Additional instructions are available on the Adobe developer site, using an exam
 ## Publish applications and approve the submission  
 
 To publish the application and approve it, follow the instructions on the [Adobe developer site](https://developer.adobe.com/uix/docs/guides/publication/).
+
+
+
+
+
+## Embed an app using a Workfront custom form 
+
+The forms widget extension point is a UI extension capability in Adobe Workfront that allows you to create custom widgets that can be embedded within Workfront custom forms. Unlike other extension points that add navigation items or menu options, widgets provide a way to display custom content in dedicated panels within custom form fields.  
+
+Widgets are modular UI components that can be added to Workfront custom forms as form fields. They provide a way to surface custom functionality, data visualizations, or external content directly within custom form interfaces, allowing users to interact with custom logic while filling out forms. 
+
+### Configure a widget extension 
+
+Like UI extension points for the main menu and secondary navigation, the "widgets" extension point is configured within the `ExtensionRegistration` component's methods object usually in the `ExtensionRegistration.js` field. This means that using the forms widget only requires adding a "widget" item in `extesionregistration` with a valid route in your app.js: 
+
+```
+javascript 
+
+
+Apply to ExtensionReg... 
+
+widgets: { 
+
+  getItems() { 
+
+    return [ 
+
+      { 
+
+        id: "test2", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget with dimensions", 
+
+        dimensions: { 
+
+          height: 450, 
+
+          width: 300, 
+
+          maxHeight: 600, 
+
+          maxWidth: 400, 
+
+        }, 
+
+      }, 
+
+      { 
+
+        id: "test", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget without dimensions", 
+
+      }, 
+
+    ]; 
+
+  }, 
+
+}, 
+```
+
+### Widget Configuration Properties 
+
+#### Required Properties 
+
+* id (string): Unique identifier for the widget. Must be unique across all widgets in your extension. 
+
+* url (string): The URL path to the widget's content. This should point to a route in your extension that renders the widget component. 
+
+* label (string): Display name for the widget that appears in the custom form field selection interface. 
+
+#### Optional Properties 
+
+* dimensions (object): Specifies the widget's display dimensions. All properties are optional, and these are only dimensions possible: 
+
+* height (number): Height of the widget in pixels 
+
+* width (number): Width of the widget in pixels 
+
+* maxHeight (number): Maximum height of the widget in pixels 
+
+* maxWidth (number): Maximum width of the widget in pixels 
+
+#### Dimension Properties 
+
+The dimensions object allows you to control the size and layout constraints of your widget: 
+
+* height and width: Set the initial/preferred size of the widget 
+
+* maxHeight and maxWidth: Set upper limits to prevent the widget from becoming too large 
+
+* Responsive Behavior: Widgets can be responsive within these constraints 
+
+* Form Integration: Dimensions help ensure the widget fits well within form field layouts 
+
+#### Example Dimension Configurations 
+
+```
+// Fixed size widget 
+
+dimensions: { 
+
+  height: 300, 
+
+  width: 250, 
+
+} 
+
+// Flexible height with width constraint 
+
+dimensions: { 
+
+  width: 300, 
+
+  maxHeight: 500, 
+
+} 
+
+// Height constraint only 
+
+dimensions: { 
+
+  height: 400, 
+
+  maxWidth: 350, 
+
+} 
+
+// No dimensions - uses default sizing 
+
+{} 
+```
+
+#### Context Data 
+
+Widgets have access to the same shared context as other extension points, including: 
+
+* auth: Authentication information including IMS token 
+
+* objCode: Object type code (TASK, PROJECT, ISSUE, etc.) 
+
+* objID: Object identifier 
+
+* hostname: Workfront instance hostname 
+
+* protocol: Connection protocol 
+
+* user: Current user information 
+
+* isLoginAs: Whether the user is logged in as another user 
+
+* isInBulkEditing: if the form is currently in bulk editing mode. If so, the context will include multiple values for Object ID.  
+
+### Add a Widget to a Workfront Custom Form 
+
+An app can be embedded on a Workfront custom form using the "UI Extensions" field type. Once you've added the field, select a forms widget, the list of widgets is based on active apps in your IMS org or locally active application when `extensionoverride=TRUE`. 
+
+![UI Extensions field in a custom form](assets/ui-extensions-field.png)
