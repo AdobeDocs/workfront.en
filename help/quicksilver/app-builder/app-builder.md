@@ -214,73 +214,13 @@ To allow custom applications in the Workfront left panel navigation:
 
 1. Save your work.
 
-### Configure App.js  
-
-1. Go to App.js.  
-
-1. The template will a route for a main menu option. A route defines the mapping between URL paths and the components rendered for those paths. To add a route, use the following code snippet, be sure to replace the exact path and element with yours.
-
-    ```
-        <Route 
-
-                exact path="custom-application" 
-
-                element={<Customapplication />} 
-
-            /> 
-    ``` 
-
-    ![code example](assets/9-app-file-step-1-from-sam.png)
-1. Save your work.  
-
-For more information on developing and running the application, see the [Adobe developer site](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#6developing-the-application).
-
-## Shared Context 
-
-Shared context is used to share data from Workfront to a UI Extension. The data available through shared context includes user data and the application context.  
- 
-
-### User 
-
-Workfront's UI Extensions share user data. The user object available through shared context includes a Workfront user ID and the user's email address.  
-
-`user = (conn?.sharedContext?.get("user")); // {ID: '1', email: 'test@aaa.com'} userID = user.ID userEmail = user.email `
-
-### Application context 
-
-When adding a custom application using a Secondary Navigation extension point it's common for the custom application to use context data like a project ID or document ID. For these data, the shared context includes an object code and object ID.
-
-Here is an example for getting the application context for documents: 
-
-`context = conn?.sharedContext; // Using the connection created above, grab the document details from the host tunnel. // conn?.host?.document?.getDocumentDetails().then(setDocDetails); `
-
-## Test the app in Workfront  
-
-While developing your App Builder application for Workfront, you might need to test your app within Workfront without publishing it.  
-
-Within your App Builder app, you can initiate `aio app run` for local development. This will provide you with a URL, typically something like `https://localhost:9080`. Alternatively, you can execute `aio app deploy` to obtain a static Adobe domain. Make sure to note these URLs for future use.  
-
-Next, navigate to the specific page you want to develop against in your browser. Open the developer tools and access the Local Storage for either workfront.com or workfront.adobe.com. Here, you must add an entry. Use `extensionOverride` as the key and the previously noted app builder URL as the value.  
-
-If the configuration was completed correctly, when you reload the layout template page in Workfront, you will see the buttons from your App Builder application. Add the app buttons to the Main Menu and left panel for an object and verify that they appear correctly in those areas.  
-
-Additional instructions are available on the Adobe developer site, using an example from AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/ 
-
-## Publish applications and approve the submission  
-
-To publish the application and approve it, follow the instructions on the [Adobe developer site](https://developer.adobe.com/uix/docs/guides/publication/).
-
-
-
-
-
-## Embed an app using a Workfront custom form 
+### Embed an app using a Workfront custom form 
 
 The forms widget extension point is a UI extension capability in Adobe Workfront that allows you to create custom widgets that can be embedded within Workfront custom forms. Unlike other extension points that add navigation items or menu options, widgets provide a way to display custom content in dedicated panels within custom form fields.  
 
 Widgets are modular UI components that can be added to Workfront custom forms as form fields. They provide a way to surface custom functionality, data visualizations, or external content directly within custom form interfaces, allowing users to interact with custom logic while filling out forms. 
 
-### Configure a widget extension 
+#### Configure a widget extension 
 
 Like UI extension points for the main menu and secondary navigation, the "widgets" extension point is configured within the `ExtensionRegistration` component's methods object usually in the `ExtensionRegistration.js` field. This means that using the forms widget only requires adding a "widget" item in `extesionregistration` with a valid route in your app.js: 
 
@@ -335,9 +275,9 @@ widgets: {
 }, 
 ```
 
-### Widget Configuration Properties 
+#### Widget Configuration Properties 
 
-#### Required Properties 
+**Required Properties**
 
 * id (string): Unique identifier for the widget. Must be unique across all widgets in your extension. 
 
@@ -345,7 +285,7 @@ widgets: {
 
 * label (string): Display name for the widget that appears in the custom form field selection interface. 
 
-#### Optional Properties 
+**Optional Properties**
 
 * dimensions (object): Specifies the widget's display dimensions. All properties are optional, and these are only dimensions possible: 
 
@@ -357,7 +297,7 @@ widgets: {
 
 * maxWidth (number): Maximum width of the widget in pixels 
 
-#### Dimension Properties 
+**Dimension Properties**
 
 The dimensions object allows you to control the size and layout constraints of your widget: 
 
@@ -427,8 +367,64 @@ Widgets have access to the same shared context as other extension points, incl
 
 * isInBulkEditing: if the form is currently in bulk editing mode. If so, the context will include multiple values for Object ID.  
 
-### Add a Widget to a Workfront Custom Form 
+#### Add a Widget to a Workfront Custom Form 
 
 An app can be embedded on a Workfront custom form using the "UI Extensions" field type. Once you've added the field, select a forms widget, the list of widgets is based on active apps in your IMS org or locally active application when `extensionoverride=TRUE`. 
 
 ![UI Extensions field in a custom form](assets/ui-extensions-field.png)
+
+### Configure App.js  
+
+1. Go to App.js.  
+
+1. The template will a route for a main menu option. A route defines the mapping between URL paths and the components rendered for those paths. To add a route, use the following code snippet, be sure to replace the exact path and element with yours.
+
+    ```
+        <Route 
+
+                exact path="custom-application" 
+
+                element={<Customapplication />} 
+
+            /> 
+    ``` 
+
+    ![code example](assets/9-app-file-step-1-from-sam.png)
+1. Save your work.  
+
+For more information on developing and running the application, see the [Adobe developer site](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#6developing-the-application).
+
+## Shared Context 
+
+Shared context is used to share data from Workfront to a UI Extension. The data available through shared context includes user data and the application context.  
+ 
+
+### User 
+
+Workfront's UI Extensions share user data. The user object available through shared context includes a Workfront user ID and the user's email address.  
+
+`user = (conn?.sharedContext?.get("user")); // {ID: '1', email: 'test@aaa.com'} userID = user.ID userEmail = user.email `
+
+### Application context 
+
+When adding a custom application using a Secondary Navigation extension point it's common for the custom application to use context data like a project ID or document ID. For these data, the shared context includes an object code and object ID.
+
+Here is an example for getting the application context for documents: 
+
+`context = conn?.sharedContext; // Using the connection created above, grab the document details from the host tunnel. // conn?.host?.document?.getDocumentDetails().then(setDocDetails); `
+
+## Test the app in Workfront  
+
+While developing your App Builder application for Workfront, you might need to test your app within Workfront without publishing it.  
+
+Within your App Builder app, you can initiate `aio app run` for local development. This will provide you with a URL, typically something like `https://localhost:9080`. Alternatively, you can execute `aio app deploy` to obtain a static Adobe domain. Make sure to note these URLs for future use.  
+
+Next, navigate to the specific page you want to develop against in your browser. Open the developer tools and access the Local Storage for either workfront.com or workfront.adobe.com. Here, you must add an entry. Use `extensionOverride` as the key and the previously noted app builder URL as the value.  
+
+If the configuration was completed correctly, when you reload the layout template page in Workfront, you will see the buttons from your App Builder application. Add the app buttons to the Main Menu and left panel for an object and verify that they appear correctly in those areas.  
+
+Additional instructions are available on the Adobe developer site, using an example from AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/ 
+
+## Publish applications and approve the submission  
+
+To publish the application and approve it, follow the instructions on the [Adobe developer site](https://developer.adobe.com/uix/docs/guides/publication/).
