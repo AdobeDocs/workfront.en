@@ -6,6 +6,8 @@ hide: yes
 hidefromtoc: yes
 ---
 
+# Examples of access requirements tables - internal article
+
 ## Access requirements for most of System Admin articles
 
 <!--Audited: 08/2025-->
