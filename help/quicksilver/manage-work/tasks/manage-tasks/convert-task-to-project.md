@@ -46,6 +46,7 @@ You must have the following access to perform the steps in this article:
 * The original task is deleted.
 * All sub-tasks, issues and notes roll up to the new project.
 * Documents, document versions, and proofs are moved to the new project.
+* There is a 5-minute processing limit when converting a task to a project. If the task has a large number of documents attached to it and fails to convert, you might need to remove some of the documents and try again.
 * Status and percent complete of all sub-tasks and issues are preserved.
 * Task assignees and the user converting the task to the project become shared users on the project.
 * The project start date is set to the start date of the task.
