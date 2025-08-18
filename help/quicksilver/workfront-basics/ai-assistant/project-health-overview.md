@@ -4,8 +4,6 @@ content-type: reference
 description: The Project Health feature utilizes the power of AI Assistant to instantly give you an assessment of how your projects are performing.
 author: Jenny
 feature: Get Started with Workfront
-hide: yes
-hidefromtoc: yes
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 ---
 # Project Health overview
@@ -201,7 +199,7 @@ If you're generating an assessment for a program, you can do so from the program
 >
 >A Project Health assessment can't be generated for a project until the project has started. You can configure which event triggers a project to begin in project settings.  
 
-For more information, see the following section in this article: [Manage project health configurations](#manage-project-health-configurations.).
+For more information, see the following section in this article: [Manage project health configurations](#manage-project-health-configurations).
 
 1. Navigate to the project or program you want to generate a Project Health assessment for. 
 
