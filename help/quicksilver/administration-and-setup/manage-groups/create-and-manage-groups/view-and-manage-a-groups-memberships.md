@@ -90,7 +90,7 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader">Edit a user's profile information</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Select one or more user name, then click <strong>Edit</strong> <img src="assets/edit-icon.png">.</li> 
+        <li value="1">Select one or more user names, then click <strong>Edit</strong> <img src="assets/edit-icon.png">.</li> 
         <li value="2"> <p>Change the user's profile information.</p> <p>For information about the changes you can make, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </li> 
        </ol> </td> 
      </tr> 
@@ -98,7 +98,7 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader">Export user membership data</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Select one or more user name, then click <strong>Export</strong> <img src="assets/export.png">.</li> 
+        <li value="1">Select one or more user names, then click <strong>Export</strong> <img src="assets/export.png">.</li> 
         <li value="2"> <p>Export the data as a PDF, Excel, or tab delimited file.</p> <p>For more information about exporting data, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Export data</a>.</p> </li> 
        </ol> </td> 
      </tr> 
@@ -110,8 +110,9 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader">Send a comment to group members</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Select one or more user name, then click <strong>Update</strong> <img src="assets/comment-icon.png">.</li> 
-        <li value="2">Type the comment.</li> 
+        <li value="1">Select at least one group member, then click <strong>Send Update to User</strong> in the toolbar.</li> 
+        <li value="2"><p>Type the comment you want to send to the users and to the Updates area of their user profiles.</p>
+        <p>For more information, see <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Send direct messages to other users</a>.</p></li> 
        </ol> </td> 
      </tr> 
      <tr> 
