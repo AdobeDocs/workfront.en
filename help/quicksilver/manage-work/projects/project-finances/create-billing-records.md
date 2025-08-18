@@ -70,7 +70,7 @@ Consider the following when planning to use billing records:
 1. On the **Projects** page, select a project.
 1. Click **Billing Records** in the left panel.
 1. Click **New Billing Record**.
-1. In the **New Billing Record** box that displays, specify the following information:
+1. In the **New billing record** box that displays, enter the following information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -81,20 +81,20 @@ Consider the following when planning to use billing records:
       <td>(Required) Enter a description for the billing record.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Billing Status</td> 
+      <td role="rowheader">Billing status</td> 
       <td> <p>Select <strong>Not Billed</strong> if this record hasn't been billed yet.</p> <p>Select <strong>Billed</strong> if the billing record has been billed.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Billing Date</td> 
+      <td role="rowheader">Billing date</td> 
       <td>Select the date that this billing record was billed by clicking the calendar icon.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">PO Number</td> 
-      <td>Enter the PO Number associated with this billing record.</td> 
+      <td role="rowheader">PO number</td> 
+      <td>Enter the PO number associated with this billing record.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Invoice ID</td> 
-      <td>Enter the Invoice associated with this billing record.</td> 
+      <td>Enter the invoice associated with this billing record.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Additional Amount</td> 
@@ -118,7 +118,7 @@ You can include hours that have been logged on tasks, issues, or the project in 
 If the user who logs the hours or their primary job role is associated with a Billing per Hour Rate, the revenue from these hours is added to the billing record.
 
 * [What hours can be added to a billing record](#what-hours-can-be-added-to-a-billing-record) 
-* [Add Hours to a billing record](#add-hours-to-a-billing-record)
+* [Add hours to a billing record](#add-hours-to-a-billing-record)
 
 #### What hours can be added to a billing record {#what-hours-can-be-added-to-a-billing-record}
 
