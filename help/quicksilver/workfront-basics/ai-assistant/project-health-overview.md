@@ -134,7 +134,7 @@ A project health configuration contains specific criteria that determines how yo
 >
 >You must be a System Administrator to manage Project Health configurations.  
 
-{{step1-to-setup}}
+{{step-1-to-setup}}
 
 1. Click **Project Preferences** in the left panel, then select **Project Health** in the drop-down that appears.  
 
