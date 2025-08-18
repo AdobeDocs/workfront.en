@@ -67,18 +67,18 @@ For more detail about the information in this table, see [Access requirements in
      <tr> 
       <td role="rowheader">Add a user to the group</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Click <strong>Add Members</strong> <img src="assets/add-icon-plus-in-circle.png">, start typing the user's name, then select it when it appears.</li> 
-        <li value="2"> <p>Repeat this for any other users you want to add.</p> <p>You can click the X to the right of a name if you decide not to add that user.</p> </li> 
-        <li value="3">Click <strong>Done</strong> when you are finished.</li> 
+       <ol> 
+        <li>Click <strong>Add Members</strong> <img src="assets/add-icon-plus-in-circle.png">, start typing the user's name, then select it when it appears.</li>
+        <li> <p>Repeat this for any other users you want to add.</p> <p>You can click the X to the right of a name if you decide not to add that user.</p> </li>
+        <li>Click <strong>Done</strong> when you are finished.</li>
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Remove a user from the group</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Select one or more user name, then click <strong>Remove member</strong><img src="assets/remove-icon---x-in-circle.png">.</li> 
-        <li value="2"> <p>Click <strong>Remove</strong> in the warning message that displays.</p> <p>You can find a user you want to remove from the list by clicking <strong>Search people and groups in the list</strong>, typing their name in the box, then clicking the name when it appears.</p> <p><b>NOTE</b>:  
+       <ol> 
+        <li>Select one or more user name, then click <strong>Remove member</strong><img src="assets/remove-icon---x-in-circle.png">.</li> 
+        <li> <p>Click <strong>Remove</strong> in the warning message that displays.</p> <p>You can find a user you want to remove from the list by clicking <strong>Search people and groups in the list</strong>, typing their name in the box, then clicking the name when it appears.</p> <p><b>NOTE</b>:  
           <ul> 
            <li>If this group is the Home Group for a user you want to remove, you must first assign another Home Group in the user's profile. For more information, see <a href="../../../administration-and-setup/manage-groups/groups-overview/home-groups.md" class="MCXref xref">Home Groups overview</a> and <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</li> 
            <li>If the group has only one group administrator and you need to remove him or her from the group, you need to assign another group administrator to the group first.</li> 
@@ -89,17 +89,17 @@ For more detail about the information in this table, see [Access requirements in
      <tr> 
       <td role="rowheader">Edit a user's profile information</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Select one or more user names, then click <strong>Edit</strong> <img src="assets/edit-icon.png">.</li> 
-        <li value="2"> <p>Change the user's profile information.</p> <p>For information about the changes you can make, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </li> 
+       <ol> 
+        <li>Select one or more user names, then click <strong>Edit</strong> <img src="assets/edit-icon.png">.</li> 
+        <li> <p>Change the user's profile information.</p> <p>For information about the changes you can make, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Export user membership data</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Select one or more user names, then click <strong>Export</strong> <img src="assets/export.png">.</li> 
-        <li value="2"> <p>Export the data as a PDF, Excel, or tab delimited file.</p> <p>For more information about exporting data, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Export data</a>.</p> </li> 
+       <ol> 
+        <li>Select one or more user names, then click <strong>Export</strong> <img src="assets/export.png">.</li> 
+        <li> <p>Export the data as a PDF, Excel, or tab delimited file.</p> <p>For more information about exporting data, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Export data</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -109,9 +109,9 @@ For more detail about the information in this table, see [Access requirements in
      <tr> 
       <td role="rowheader">Send a comment to group members</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Select at least one group member, then click <strong>Send Update to User</strong> in the toolbar.</li> 
-        <li value="2"><p>Type the comment you want to send to the users and to the Updates area of their user profiles.</p>
+       <ol> 
+        <li>Select at least one group member, then click <strong>Send Update to User</strong> in the toolbar.</li> 
+        <li><p>Type the comment you want to send to the users and to the Updates area of their user profiles.</p>
         <p>For more information, see <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Send direct messages to other users</a>.</p></li> 
        </ol> </td> 
      </tr> 
