@@ -6,6 +6,7 @@ author: Jenny
 feature: Get Started with Workfront
 hide: yes
 hidefromtoc: yes
+exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 ---
 # Project Health overview
 
@@ -306,4 +307,4 @@ There are many configuration options available for building a Project Health tab
     1. In the left panel, click the **Group Settings** icon. 
     1. Click the **Add grouping** button and then select the field you want to create as a grouping. The grouping column appears in the preview section on the right. 
 
-1. Click **Save** to create the report. 
+1. Click **Save** to create the report.
