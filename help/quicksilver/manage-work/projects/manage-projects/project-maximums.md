@@ -49,6 +49,10 @@ The following objects associated with projects have the following limits:
    <td role="rowheader"><p>Timeline calculations</p></td> 
    <td>Workfront does not perform automatic timeline calculations for projects that haven't been updated in 6 months and will not resume until an update is made.<p>For projects that haven't been updated in 3 months, Workfront performs timeline calculations weekly instead of nightly.</p><p>For information about calculating project timeline, see <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalculate project timelines</a>. </p></td> 
   </tr> 
+    <tr> 
+   <td role="rowheader"><p>Convert objects </p></td> 
+   <td>Workfront has a 5-minute processing limit when converting objects. If the object has a large number of documents attached to it, it may fail to convert within the 5-minute limit. You might need to remove some of the documents and try again.</td> 
+  </tr> 
  </tbody> 
 </table>
 

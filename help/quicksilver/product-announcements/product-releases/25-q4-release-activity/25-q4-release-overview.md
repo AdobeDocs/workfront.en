@@ -62,6 +62,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">New Workfront AI Reviewer</a><p></p>
+            <p>Note: This feature is currently in beta.</p>
+            <p>The new Workfront AI Reviewer helps ensure image brand compliance by automatically reviewing content against your brand guidelines, starting with image guidelines. It provides a score and actionable feedback to streamline the approval process. </p>
+            <p>You can add the AI Reviewer to approval templates or individual review and approval requests, enabling faster content production while maintaining brand standards.</p>
+        </td>
+        <td>August 14, 2025</td>
+        <td>August 14, 2025</td>
+        <td>August 14, 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">New proofing integration for Adobe Express</a><p></p>

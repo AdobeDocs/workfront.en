@@ -18,9 +18,15 @@ recommendations: noDisplay, noCatalog
 ---
 -->
 
-The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products and your instance of Workfront is integrated with your company's instance of GenStudio. You can view the GenStudio workspace from Planning and update information in both systems.
+<!--MUST update the access requirements below - not complete!!!!!!!!!-->
+
+The Adobe GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products and your instance of Workfront is integrated with your company's instance of GenStudio. 
+
+You can view the GenStudio workspace from Planning and update information in both systems.
 
 For information about using GenStudio for Performance Marketing, see [Adobe GenStudio for Performance Marketing User Guide](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home). 
+
+For general information about the GenStudio to Workfront Planning integration, see [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md). 
 
 ## Access requirements
 
@@ -38,25 +44,23 @@ For information about using GenStudio for Performance Marketing, see [Adobe GenS
    <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li>
-   <p><li> Adobe GenStudio for Performance Marketing<p></li>
+   <li><p> Adobe GenStudio for Performance Marketing</p></li>
    </ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any of the following Workfront plans:</p> 
-<ul><li>Select</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning is not available for legacy Workfront plans</p> 
-   </td> 
+<p>Any Workflow package</p>  
+<p>Any Planning package</p>
+   </td> </tr>
+
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning package</p></td> 
+   <td role="rowheader"><p>Adobe GenStudio package</p></td> 
    <td> 
-<p>Any </p> 
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
-   </td> 
+<p>???</p>  
+
+   </td> </tr>
+ 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
@@ -66,27 +70,48 @@ For information about using GenStudio for Performance Marketing, see [Adobe GenS
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td><p> Standard</p>
-   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p> System administrator</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe GenStudio license</p></td> 
+   <td><p> ???</p>
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
+   <p>Configuration for GenStudio: ???</p> 
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Contribute or higher permissions to a workspace and record type  </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
+   <td>  
+   <p>In Workfront Planning: </p>
+   <ul>
+   <li><p>Contribute or higher permissions to a workspace and record type  </p> </li> 
+   <li><p>System Administrators have permissions to all workspaces, including the ones they did not create</p></li>
+   </ul>
+   <p>In Adobe GenStudio for Performance Marketing: <p>
+   <ul>
+   <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
+   <li><p> Create permissions in Adobe GenStudio for Performance Marketing to create items</p></li></ul>
+   </td> 
   </tr> 
 </tbody> 
-</table> 
+</table>  
 
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
+ *For more information about Adobe GenStudio for Performance Marketing, see [Adobe GenStudio for Performance Marketing User Guide](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 +++   
+
+## Considerations for managing a GenStudio workspace in Workfront Planning
+
+* Your organization must purchase Adobe GenStudio for Performance Marketing before you can view a GenStudio workspace in Workfront Planning.
+
+* Workfront users must have access to GenStudio to be able to see the GenStudio workspace in Workfront Planning. 
+
 
 ## Manage the GenStudio workspace in Workfront Planning
 
@@ -95,7 +120,7 @@ For information about using GenStudio for Performance Marketing, see [Adobe GenS
 >Before managing the GenStudio workspace, see the article [Get started with the Workfront Planning and GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md). 
 
 
-1. Log in to Workfront as a system administrator. 
+1. Log in to Workfront as a user who also has access to GenStudio. 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Planning]**.
 
    The Workfront Planning landing page opens. 

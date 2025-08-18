@@ -66,7 +66,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click the **New User** drop-down arrow, then click **Import Users**.
 
-1. In the **Import Users** box that displays, download the sample file, then update the sample file to include your own user's personal information.
+1. In the **Import users** box that displays, download the sample file, then update the sample file to include your own user's personal information.
 
    Each row includes the following fields:
 
@@ -91,20 +91,24 @@ For more detail about the information in this table, see [Access requirements in
      ![importing-new-users.png](assets/importing-new-users.png)
 
 1. Save the file to a location on your workstation.
-1. Click **Choose File** in the **Import Users** box.
+1. Click **Choose file** in the **Import users** box.
 
-1. Navigate to and select the file that you saved.  
+1. Navigate to and select the file that you saved.
+
+<!--
 1. (Optional) Select the **Send an invite email to this user** option to send an email invitation to the user, notifying them that a Workfront account has been created and prompting them to set their password.
 
    Deselect this option if you want to set the password for the user.
 
+-->  
+
 1. Click **Import**.
 
-   You receive a confirmation message at the top of the screen that the user was successfully imported.
+   You receive a confirmation message at the top of the screen that the users were successfully imported.
 
 >[!NOTE]
 >
->The users are created in a Deactivated and Pending Approval status. 
+>The users are created in a Deactivated and Pending Approval status.
 > 
 >If a user does not move out of Deactivated and Pending Approval status within a few minutes, and a screen refresh does not remove the Pending Approval badge, you can add the batch of users to the Adobe Admin Console directly.
 >
