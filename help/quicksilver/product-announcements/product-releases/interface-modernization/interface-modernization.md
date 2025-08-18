@@ -18,6 +18,24 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+### Interface updates for the Review and Approval notifications page in Setup
+
+**Preview release: August 18, 2025; Production release: August 18, 2025**
+
+We have updated the Review and Approval notifications page with a more modern design that is consistent with other areas of Workfront.
+
+To view these changes, go to Setup > Email > Review and Approval.
+
+### Interface updates for the Add and Edit Billing Records dialogs
+
+**Preview release: August 14, 2025; Production release: August 18, 2025**
+
+We have updated the dialog boxes for adding and editing billing records with a more modern design that is consistent with other areas of Workfront.
+
+To view these changes, go to Projects > Select a project > Billing Records > add a billing record or edit a billing record
+
+For information, see [Create billing records](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
+
 ### Interface updates for the Send update to user box on groups
 
 **Preview release: August 14, 2025; Production release: August 14, 2025**
@@ -37,6 +55,7 @@ We have updated the look and feel of the recently deleted items in the Setup are
 To view this change, go to Setup > Recycle Bin > Recently Deleted.
 
 For information, see [Restore deleted items](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+
 
 ### Interface updates for the Conditions area in Setup
 
@@ -78,7 +97,7 @@ To view this change, go to Setup > Change Tracking > Audit Logs.
 
 ### Interface updates to the Update users for SSO page in Setup
 
-**Preview release: July 22, 2025; Production release: July 28, 2025**
+**Preview release: July 22, 2025; Production release: August 18, 2025**
 
 We have updated the Update users for SSO page with a more modern design that is consistent with other areas of Workfront.
 
