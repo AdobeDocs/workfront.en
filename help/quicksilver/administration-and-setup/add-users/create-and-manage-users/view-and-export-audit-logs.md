@@ -71,7 +71,7 @@ For more detail about the information in this table, see [Access requirements in
    >
    >The options in the Action Type drop-down menu vary depending on the audit log selected.
 
-   ![Audit logs](assets/audit-logs.jpg)
+   ![Audit logs](assets/audit-logs.png)
 
 1. Click **Apply**.
 1. (Optional) Click **Clear Filters** to reset changes made to the filters.
@@ -80,7 +80,7 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step-1-to-setup}}  
 
-1. In the left panel, click **System > Audit Logs**.  
+1. In the left panel, click **System > Change Tracking > Audit Logs**.  
 
 1. In the **Log Type** drop-down menu, select an audit log.
 
