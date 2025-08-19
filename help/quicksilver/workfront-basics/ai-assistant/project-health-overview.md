@@ -201,7 +201,7 @@ If you're generating an assessment for a program, you can do so from the program
 >
 >A Project Health assessment can't be generated for a project until the project has started. You can configure which event triggers a project to begin in project settings.  
 
-For more information, see the following section in this article: [Manage project health configurations](#manage-project-health-configurations.).
+For more information, see the following section in this article: [Manage project health configurations](#manage-project-health-configurations).
 
 1. Navigate to the project or program you want to generate a Project Health assessment for. 
 
