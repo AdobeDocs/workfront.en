@@ -4,8 +4,6 @@ content-type: reference
 description: The Project Health feature utilizes the power of AI Assistant to instantly give you an assessment of how your projects are performing.
 author: Jenny
 feature: Get Started with Workfront
-hide: yes
-hidefromtoc: yes
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 ---
 # Project Health overview
