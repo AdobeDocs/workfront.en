@@ -9,19 +9,17 @@ exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
 ---
 # Review interactive content with the Adobe Workfront review tool
 
-<span class="preview">The Adobe Workfront Review tool was made available on November 7, 2024. This extension is currently in beta.</span>
 
-The Adobe Workfront review tool is a web-based browser extension that allows you to proof interactive content in a ZIP file or with a URL. The Adobe Workfront review tool is available in the following browsers:
+>[!IMPORTANT]
+>
+> We recommend using the desktop proofing viewer for interactive content that is hosted on a website that requires SSO authentication or prevents opening their site in iFrames, such as Figma.
+
+The Adobe Workfront review tool is a web-based browser extension that allows you to markup interactive content in a ZIP file or with a URL. The Adobe Workfront review tool is available in the following browsers:
 
 * Firefox
 * Chrome
 * Edge
 * Safari
-
->[!IMPORTANT]
->
->This extension is required to review content in GenStudio for Performance Marketing and Creative Cloud Express. Assets will automatically open in the web viewer. You do not need to update any account settings.
-
 
 ## Install the extension
 
@@ -42,11 +40,16 @@ Reviewers and approvers must install the Adobe Workfront review tool. in one of 
 
 For interactive proofs to open in the Adobe Workfront review tool automatically, a Workfront Administrator must update Proofing settings in workfront as described in the sections below.
 
+## Use the Adobe Workfront review tool in GenStudio for Performance Marketing and Creative Cloud Express
+
+This extension is required to review content in GenStudio for Performance Marketing and Creative Cloud Express. Assets will automatically open in the web viewer. You do not need to update any account settings.
+
+
 ## Update Workfront proofing defaults
 
 To use the Workfront review tool as your default viewer for interactive content, you must update proofing defaults in Workfront. 
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >We recommend using the Desktop Proofing Viewer if the content you need to review is on a website that
 >

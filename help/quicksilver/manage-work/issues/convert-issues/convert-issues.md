@@ -45,7 +45,7 @@ For information about converting issues to projects, see [Convert an issue to a 
    * Versions
    * Proofs are included only when the option **Keep the original issue and tie its resolution to this task** is unselected.
    * Document approvals are not included when you convert an issue that has documents and document links attached.
-
+* There is a 5-minute processing limit when converting an issue. If the issue has a large number of documents attached to it and fails to convert, you might need to remove some of the documents and try again.
 * If you decided to keep the issue in the conversion and it has documents attached, the document and its versions are copied to the project or the task. The proofs and the document approvals are not copied to the project or the task.  
 * If you decided to not keep the issue in the conversion, and it has documents attached, the document, its versions, and the proofs transfer to the project or the task. The document approvals will not transfer to the project or the task.  
 * If you have documents and folders linked to the original issue from third party services, like Google Drive, regardless of whether you are keeping the issue or not during the conversion, those links will be copied to the new object.
