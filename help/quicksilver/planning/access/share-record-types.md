@@ -12,9 +12,9 @@ exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 
 # Share record types
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -138,22 +138,10 @@ You can adjust permissions to individual record types of a workspace if you have
 
 1. Open the workspace whose record types you want to share. 
 
-<!--when we release Share on the record type card, replace the next 3 steps with this: 
-
 1. Do one of the following: 
 
    * <span class="preview">From the record type card, click the **More** menu > **Share**.</span>
    * Click a record type card to open the record type's page, then click **Share** > **Share the record type** from any record type view.
-
-   The **Share** box opens.
--->
-
-1. Click a record type card. 
-
-   The record type page opens.
-
-1. From the tab of any view, click **Share** in the upper-right corner of the record type. 
-1. Click **Share the record type**.
 
    The **Share** box opens.
 

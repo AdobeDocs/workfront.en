@@ -56,6 +56,10 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
+## Considerations
+
+* There is a 5-minute processing limit when converting an issue to a project. If the issue has a large number of documents attached to it and fails to convert, you might need to remove some of the documents and try again.
+
 ## Convert an issue to a project
 
 You can convert an issue to a blank project. 

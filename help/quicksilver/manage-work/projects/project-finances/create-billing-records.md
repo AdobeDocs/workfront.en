@@ -70,7 +70,7 @@ Consider the following when planning to use billing records:
 1. On the **Projects** page, select a project.
 1. Click **Billing Records** in the left panel.
 1. Click **New Billing Record**.
-1. In the **New Billing Record** box that displays, specify the following information:
+1. In the **New billing record** box that displays, enter the following information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -81,20 +81,20 @@ Consider the following when planning to use billing records:
       <td>(Required) Enter a description for the billing record.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Billing Status</td> 
+      <td role="rowheader">Billing status</td> 
       <td> <p>Select <strong>Not Billed</strong> if this record hasn't been billed yet.</p> <p>Select <strong>Billed</strong> if the billing record has been billed.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Billing Date</td> 
+      <td role="rowheader">Billing date</td> 
       <td>Select the date that this billing record was billed by clicking the calendar icon.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">PO Number</td> 
-      <td>Enter the PO Number associated with this billing record.</td> 
+      <td role="rowheader">PO number</td> 
+      <td>Enter the PO number associated with this billing record.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Invoice ID</td> 
-      <td>Enter the Invoice associated with this billing record.</td> 
+      <td>Enter the invoice associated with this billing record.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Additional Amount</td> 
@@ -109,16 +109,16 @@ Consider the following when planning to use billing records:
 
 1. Click **Save.** The billing record is created. 
 
-## Include Billable Hours, Expenses and Fixed Revenues in a billing record
+## Include billable hours, expenses and fixed revenues in a billing record
 
-### Include Billable Hours in a billing record {#include-billable-hours-in-a-billing-record}
+### Include billable hours in a billing record {#include-billable-hours-in-a-billing-record}
 
 You can include hours that have been logged on tasks, issues, or the project in your billing records.
 
-If the user who logs the hours or their Primary Job Role is associated with a Billing per Hour Rate, the revenue from these hours is added to the billing record.
+If the user who logs the hours or their primary job role is associated with a Billing per Hour Rate, the revenue from these hours is added to the billing record.
 
 * [What hours can be added to a billing record](#what-hours-can-be-added-to-a-billing-record) 
-* [Add Hours to a billing record](#add-hours-to-a-billing-record)
+* [Add hours to a billing record](#add-hours-to-a-billing-record)
 
 #### What hours can be added to a billing record {#what-hours-can-be-added-to-a-billing-record}
 
@@ -129,19 +129,19 @@ You can add hours to a billing record when the following conditions are met:
 
   For more information, see the article [Manage hour types](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
-* All hours logged for issues or the project can be added to a billing record if the user who logs the time has a Billing per Hour rate associated with them or their Primary Job Role. 
+* All hours logged for issues or the project can be added to a billing record if the user who logs the time has a Billing per Hour rate associated with them or their primary job role. 
 * If the hours are logged on a task, the task must have the following Revenue Type:
 
    * The Revenue Type can't be set to Not Billable.
    * If the Revenue Type is set to User Hourly, the user who logs the time must have a Billing per Hour rate set in their profile. 
-   * If the Revenue Type is set to Role Hourly, the Primary Role of the user who logs the time must have a Billing per Hour rate.
+   * If the Revenue Type is set to Role Hourly, the primary role of the user who logs the time must have a Billing per Hour rate.
 
      >[!NOTE]
      >
      >You can override billing rates for job roles at the project level.  
-     >For more information, see the section Overriding Job Role Billing Rates at the Project Level in the article [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+     >For more information, see the section "Overriding job role billing rates at the project level" in the article [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-* If the Require time to be approved for this project option is checked under Project Settings, then the Project Owner must approve the hours logged.  
+* If the Require time to be approved for this project option is selected under Project Settings, then the Project Owner must approve the logged hours.  
   For more information, see [Require time to be approved for a project](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).
 
 #### Add hours to a billing record {#add-hours-to-a-billing-record}
@@ -152,19 +152,19 @@ You can add hours to a billing record when the following conditions are met:
 1. Click **Billing Records** in the left panel.
 1. Click the billing record **Description** to open the **Billing Record Details** tab.
 1. Click **Billable Hours** in the left panel.
-1. If there are hours that could be included in a billing record, click **Add Hours**. The **Add Billable Hours** box opens.
+1. If there are hours that could be included in a billing record, click **Add hours**. The **Add billable hours** box opens.
 
    >[!NOTE]
    >
-   >If there are no hours logged or if the hours logged don't meet the conditions required to be added to a billing record, the **Add Hours** button will not display. For more information, see the following section in this article: [What hours can be added to a billing record](#what-hours-can-be-added-to-a-billing-record).
+   >If there are no hours logged or if the hours logged don't meet the conditions required to be added to a billing record, the **Add hours** button will not display. For more information, see the following section in this article: [What hours can be added to a billing record](#what-hours-can-be-added-to-a-billing-record).
 
-1. Select the hour entries you want to include in the billing record, then click **Add Hours**. The Actual Cost of the hours is added as the **Billable Hours** amount to the **Billing Record Total**. 
+1. Select the hour entries you want to include in the billing record, then click **Add hours**. The Actual Cost of the hours is added as the **Billable Hours** amount to the **Billing Record Total**. 
 
 1. (Optional) Click **Billing Records Details** to review the **Billable Hours** and **Billing Record Total** amounts, and the billing record total in the billing record header.
 
-### Include Billable Expenses in a billing record {#include-billable-expenses-in-a-billing-record}
+### Include billable expenses in a billing record {#include-billable-expenses-in-a-billing-record}
 
-If you are adding Billable Expenses to the billing record, ensure the expenses on the tasks and the project are marked as Billable. Expenses that are not marked as Billable are not available to add in a billing record. For more information about adding expenses, see the article [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+If you are adding billable expenses to the billing record, ensure the expenses on the tasks and the project are marked as Billable. Expenses that are not marked as Billable are not available to add in a billing record. For more information about adding expenses, see the article [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 To add billable expenses to a billing record:
 
@@ -174,19 +174,19 @@ To add billable expenses to a billing record:
 1. Click **Billing Records** in the left panel.
 1. Click the billing record **Description** to open the **Billing Record Details** tab.
 1. Click **Billable Expenses** in the left panel. 
-1. (Conditional) If you've added expenses to your tasks or the project and marked them as Billable, click **Add Expenses**.
+1. (Conditional) If you've added expenses to your tasks or the project and marked them as Billable, click **Add expenses**.
 
    >[!NOTE]
    >
-   >If you have expenses but they're not marked as Billable, the **Add Expenses** button does not display. Only billable expenses with an Actual Amount greater than zero are eligible to be included in a billing record.
+   >If you have expenses but they're not marked as Billable, the **Add expenses** button does not display. Only billable expenses with an Actual Amount greater than zero are eligible to be included in a billing record.
 
-1. Select the billable expenses that are available to be added to the billing record, then click **Add Expenses**.  The Actual Amount of the expenses is added as the **Billable Expenses** amount to the **Billing Record Total**.
+1. Select the billable expenses that are available to be added to the billing record, then click **Add expenses**.  The Actual Amount of the expenses is added as the **Billable Expenses** amount to the **Billing Record Total**.
 
 1. (Optional) Click **Billing Records Details** to review the **Billable Expenses** and **Billing Record Total** amounts, and the billing record total in the billing record header.
 
-### Include Fixed Revenues in a billing record {#include-fixed-revenues-in-a-billing-record}
+### Include fixed revenues in a billing record {#include-fixed-revenues-in-a-billing-record}
 
-You can add Fixed Revenues to your billing records if you have tasks that have Fixed Revenue available. No other type of task or project revenue is available to be added in a billing record. For more information about revenue types, see the Overview of Billing and Revenue section in the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+You can add fixed revenues to your billing records if you have tasks that have fixed revenue available. No other type of task or project revenue is available to be added in a billing record. For more information about revenue types, see the "Overview of Billing and Revenue section" in the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 {{step1-to-projects}}
 
@@ -194,13 +194,13 @@ You can add Fixed Revenues to your billing records if you have tasks that have F
 1. Click **Billing Records** in the left panel.
 1. Click the billing record's **Description** to open the **Billing Record Details** tab.
 1. Select the **Fixed Revenues** tab.
-1. If you have added fixed revenues to your tasks, click **Add Fixed Revenues**.
+1. If you have added fixed revenues to your tasks, click **Add fixed revenues**.
 
    >[!NOTE]
    >
-   >If you have revenue amounts on tasks but they aren't marked as Fixed, the **Add Fixed Revenue** button will not display.
+   >If you have revenue amounts on tasks but they aren't marked as Fixed, the **Add fixed revenue** button will not display.
 
-1. Select the tasks whose fixed revenues you want to include in the billing record, then click **Add Tasks**.  The **Fixed Revenue** amount of the tasks is added as the **Billable Revenues** amount to the **Billing Record Total**.
+1. Select the tasks whose fixed revenues you want to include in the billing record, then click **Add tasks**.  The **Fixed Revenue** amount of the tasks is added as the **Billable Revenues** amount to the **Billing Record Total**.
 
 1. (Optional) Click **Billing Records Details** to review the **Billable Revenues** and **Billing Record Total** amounts, and the billing record total in the billing record header.
 
@@ -232,11 +232,11 @@ After creating a billing record and adding hours, expenses, and revenues to it, 
 
    The following fields are not available for editing:
 
-   * **Billable Hours:** The total of the Actual Revenue of the hours included in the billing record. For more information, see the following section in this article: [Include Billable Hours in a billing record](#include-billable-hours-in-a-billing-record).
+   * **Billable Hours:** The total of the Actual Revenue of the hours included in the billing record. For more information, see the following section in this article: [Include billable hours in a billing record](#include-billable-hours-in-a-billing-record).
    
-   * **Billable Expenses**: The total of the Actual Amount of the billable expenses included in the billing record. For more information, see the following section in this article: [Include Billable Expenses in a billing record](#include-billable-expenses-in-a-billing-record).
+   * **Billable Expenses**: The total of the Actual Amount of the billable expenses included in the billing record. For more information, see the following section in this article: [Include billable expenses in a billing record](#include-billable-expenses-in-a-billing-record).
    
-   * **Billable Revenues**: The total of the Fixed Revenue of the tasks included in the billing record. For more information, see the following section in this article: [Include Fixed Revenues in a billing record](#include-fixed-revenues-in-a-billing-record).
+   * **Billable Revenues**: The total of the Fixed Revenue of the tasks included in the billing record. For more information, see the following section in this article: [Include fixed revenues in a billing record](#include-fixed-revenues-in-a-billing-record).
    
    * **Billing Record Total**: The total of all billable amounts. This is calculated by the following formula:
 

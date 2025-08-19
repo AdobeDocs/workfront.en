@@ -23,8 +23,7 @@ The highlighted information on this page refers to functionality not yet general
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div>
--->
+</div>-->
 
 Hour types are labels you use to define your hour entries. You can associate hour types with your hour entries. 
 
@@ -64,9 +63,8 @@ For information about logging hours and associating them with hour types, see [L
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Standard</p>
-   <p>Or</p>
-   <p>Current: Plan</p></td> 
+   <td> <p>Standard or Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level</td> 
@@ -126,7 +124,7 @@ To create hour types:
       <td> <p>Select whether the hour type is a general or project-specific hour type in the <strong>Scope</strong> drop-down menu.</p> <p>General hour types are visible only in timesheets and can't be associated with projects, tasks, or issues.</p> <p><b>IMPORTANT</b></p><p> If you have a custom Hour Type that is [!UICONTROL Project Specific] and you change it to [!UICONTROL General], all the existing Task, Issues and Project hours are set to their system default types.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
+      <td role="rowheader">[!UICONTROL Count as Revenue]</td> 
       <td><p>Select this option if you want the hour entry associated with this hour type to affect your revenue calculations.</p>
       <p>Sick Time and Vacation Time can't be counted as revenue.</p>
       <p><b>NOTE</b></p>
@@ -136,14 +134,9 @@ To create hour types:
     </tbody> 
    </table>
 
-   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
-
-1. Click **[!UICONTROL Create Hour Type].**
-
-   <!--Click  **[!UICONTROL Create Hour Type]** <span class="preview"> or **Save**</span>. -->
+1. Click  **Save**. 
 
    The hour type is added to your Workfront system and it is activated by default. 
-
 
 ## Edit hour types
 
@@ -178,7 +171,7 @@ As a [!DNL Workfront] administrator, you can edit hour types for your organizati
       <td> <p>Select whether the hour type is a general or project-specific hour type in the <strong>Scope</strong> drop-down menu.</p> <p>General hour types are visible only in timesheets and can't be associated with projects, tasks, or issues.</p> <p><b>IMPORTANT</b></p> <p>If you have a custom Hour Type that is [!UICONTROL Project Specific] and you change it to [!UICONTROL General], all the existing Task, Issues and Project hours are set to their system default types.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
+      <td role="rowheader">[!UICONTROL Count as Revenue]</td> 
       <td><p>Select this option if you want the hour entry associated with this hour type to affect your revenue calculations.</p>
       <p>Sick Time and Vacation Time can't be counted as revenue.</p>
       <p><b>NOTE</b></p>
@@ -188,11 +181,8 @@ As a [!DNL Workfront] administrator, you can edit hour types for your organizati
     </tbody> 
    </table>
 
-   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
-
-1. Click **[!UICONTROL Save Changes].**
-
-   <!--Click  **[!UICONTROL Save Changes]** <span class="preview"> or **Save**</span>. -->
+ 
+1. Click **Save**. 
 
    Your changes are saved and the hour type is edited. 
 
