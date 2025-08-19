@@ -22,8 +22,8 @@ These partners use UI Extensions to embed their apps directly into the Workfront
 ## Prerequisites and permissions
 
 **App Builder Provisioning**
-* Customers must have App Builder provisioned in their Adobe Admin Console. This is a prerequisite for installing apps from Exchange.
 
+* Customers must have App Builder provisioned in their Adobe Admin Console. This is a prerequisite for installing apps from Exchange.
 
 **Enterprise Org Admins or Developers**
 
@@ -35,8 +35,18 @@ These partners use UI Extensions to embed their apps directly into the Workfront
 
 * May initiate acquisition but will be prompted to log in and may encounter restrictions if the app requires admin consent or licensing 
 
+## Aquire and install apps from Adobe Exchange
 
+Adobe customers can browse, search, and install apps directly from the Adobe Exchange Marketplace to use with Workfront.  
 
-## Finding and installing apps from Adobe Exchange
+Apps built with Adobe App Builder are listed as "App Builder Applications" on Adobe Exchange. Listings include documentation, screenshots, and usage instructions to help customers understand the app's value. 
 
-## 
+To view apps for Workfront, navigate to Adobe Exchange and search for Workfront-compatible apps. Or, to filter listings for Workfront App Builder apps, click on Experience Cloud in the left-hand panel, Under Product, select Workfront, and under App Type, choose App Builder. 
+
+### Acquire apps
+
+At the top right of each app, there is a button for acquiring an app. Apps may require purchase from Adobe Exchange or allow installation but require licensing from the app developer. 
+
+## Install apps
+
+Once an app is acquired, it can be installed directly into Workfront. Administrators can manage installed apps through the Workfront interface, ensuring they are properly configured and accessible to users.
