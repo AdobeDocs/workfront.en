@@ -13,7 +13,7 @@ You can delete a template tasks if it is no longer needed. Project tasks created
 
 >[!NOTE]
 >
->Deleted template tasks cannot be recovered.
+>Deleted template tasks cannot be recovered. You can recover a template which also recovers all the tasks on the template. If you delete template tasks (and not the template), you can never recover them. 
 
 
 ## Access requirements
@@ -47,7 +47,6 @@ You can delete a template tasks if it is no longer needed. Project tasks created
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
-
 
 ## Delete a template task
 
