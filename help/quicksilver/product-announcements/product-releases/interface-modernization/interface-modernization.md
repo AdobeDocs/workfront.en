@@ -87,7 +87,7 @@ For information, see [Manage Hour Types](/help/quicksilver/administration-and-se
 
 ### Interface updates to the Audit Logs page in Setup
 
-**Preview release: July 22, 2025; Production release: To be announced**
+**Preview release: July 22, 2025; Production release: July 28, 2025**
 
 We have updated the Audit Logs page in Setup to match other areas of the application.
 
