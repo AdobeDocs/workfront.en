@@ -60,11 +60,9 @@ You can manually generate system-level or group-level timesheets from the Timesh
    If you are generating timesheets used by a specific group, click **Groups**, then click the group's name.
 
 1. Click **Timesheet Profiles**.
-<<<<<<< HEAD
 1. Click the more icon ![more icon](assets/more-icon.png), then **Generate Timesheets**.
-=======
+
 1. At the top of the timesheet profile list, click the **More** icon ![More icon](assets/more-icon.png) for system-level timesheet profiles, or **More**, for group timesheet profiles, then click **Generate timesheets**. 
->>>>>>> main
 
    New timesheets are created for up to two periods of time for users associated with timesheet profiles.
 
