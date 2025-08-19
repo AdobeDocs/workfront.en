@@ -207,10 +207,7 @@ Expand to view access requirements for the functionality in this article.
 <tr> 
    <td role="rowheader"><p>Adobe Workfront Packages</p></td> 
    <td> 
-<p>Any Adobe Workfront package or Adobe Workfront Workflow package</p> (***this is too much****)
-
-And
-<p>Any Adobe Workfront Planning package</p> 
+<p>Any Adobe Workfront Workflow package and any Adobe Workfront Planning package</p> 
    </td> </tr>
 <td role="rowheader"><p>Adobe Workfront platform (****do we want to call this out, or just make it part of the article linked at the bottom???*****)</p></td> 
    <td> 
@@ -256,12 +253,7 @@ Expand to view access requirements for the functionality in this article.
  <col> 
  <tbody> 
   
-  <tr> 
-   <td> <p>Products</p> </td> 
-   <td> <p>Adobe Workfront</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>[!DNL Adobe Workfront] Package</p> </td> 
+  <td> <p>[!DNL Adobe Workfront] Package</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
