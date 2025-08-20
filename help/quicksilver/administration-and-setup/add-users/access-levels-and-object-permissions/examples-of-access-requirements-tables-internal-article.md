@@ -29,7 +29,7 @@ Expand to view access requirements for the functionality in this article.
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Light or higher</p>
    <p>Work or higher</p></td> 
   </tr> 
@@ -44,7 +44,7 @@ Expand to view access requirements for the functionality in this article.
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Access requirements 
 
@@ -181,9 +181,6 @@ Package: workflow select, workflow prime, workflow ultimate
 2025 planning packages
 Licenses: contributor, light, standard
 Package: planning select, planning prime, planning ultimate
-
-
-
 
 
 ## Access requirements for most of Workfront Planning
