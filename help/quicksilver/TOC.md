@@ -1457,6 +1457,7 @@ feature-set: Workfront
       * [Create Topic Groups](manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
       * [Create Queue Topics](manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
       * [Create Routing Rules](manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+      * [Create a project intake form](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-project-intake-form.md)
       * [Define Request Types for a project](manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
     * Create requests {#create-requests}
       * [Create requests](manage-work/requests/create-requests/create-requests.md)

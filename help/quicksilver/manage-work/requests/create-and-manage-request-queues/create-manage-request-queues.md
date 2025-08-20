@@ -21,6 +21,7 @@ This section contains the following articles:
 * [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md) 
 * [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) 
 * [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+* [Create a project intake form](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-project-intake-form.md)
 
   <!--
   <li><a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref" xrefformat="{para}">Overview of the Queue Details tab in a project</a> </li>
