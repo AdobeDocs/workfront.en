@@ -105,6 +105,32 @@ To view this change, go to Setup > System > Update Users For SSO
 
 ## Projects
 
+### Interface updates to the New Queue Topic box of projects and templates
+
+**Preview release: August 21, 2025; Production release: August 28, 2025**
+
+We have updated the look and feel of the New Queue Topic box when you add a new queue topic to a project or template, to match the design of other areas of Workfront.
+
+For information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+### Interface updates when editing a Queue Topic on a project or template
+
+**Preview release: August 21, 2025; Production release: August 28, 2025**
+
+We have updated the experience when editing a Queue Topic on projects and templates, to match other areas of Workfront.
+
+A small functionality change was introduced with this update. Now, when click a Queue Topic, you are taken directly to the Queue Topic's edit page, instead of a page for the Queue Topic Details.
+
+For information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+### Interface update for the Edit Expense box of a project
+
+**Preview release: August 21, 2025; Production release: August 28, 2025**
+
+We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+
+For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+
 ### Interface updates for logging time on a project, task, or issue in the Hours section 
 
 **Preview release: August 7, 2025; Production release: August 14, 2025**
@@ -198,6 +224,14 @@ We have updated the dialog box for adding a new expense to a project, to match o
 For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
 
 ## Templates
+
+### Interface updates for the People list on a template
+
+**Preview release: August 21, 2025; Production release: August 28, 2025**
+
+We have updated the look and feel of the People list on a template to match the design of other areas of Workfront.
+
+Working with people on a template is similar to working with people on a project. For information, see [Manage the Project Team](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
 ### Interface updates for the Predecessors list on a template
 
@@ -542,7 +576,7 @@ For information, see [Copy a project template](/help/quicksilver/manage-work/pro
 
 >[!NOTE]
 >
->Temporarily removed from Preview and Production
+>This was temporarily removed from both Preview and Production and added back on August 21, 2025.
 
 
 We have updated the interface for the Add boxes when doing the following: 
