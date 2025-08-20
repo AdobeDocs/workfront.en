@@ -16,6 +16,12 @@ For a list of all changes available at this point in the Fourth Quarter 2025 rel
 
 ## Create project intake forms in Workfront
 
+>[!NOTE]
+>
+>* Preview: August 21, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
 To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.
 
 Previously, requests were entered into Workfront as issues, which had to be converted to projects.
