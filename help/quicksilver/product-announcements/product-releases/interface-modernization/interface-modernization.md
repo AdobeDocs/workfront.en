@@ -105,6 +105,27 @@ To view this change, go to Setup > System > Update Users For SSO
 
 ## Projects
 
+### Look and feel updates when adding objects to programs and portfolios 
+
+**Preview release: May 22, 2025; Production release: May 29, 2025**
+
+>[!NOTE]
+>
+>This was temporarily removed from both Preview and Production and added back on August 21, 2025.
+
+
+We have updated the interface for the Add boxes when doing the following: 
+
+* Adding projects to programs
+* Adding projects to portfolios
+* Adding programs to portfolios
+
+For information, see the following articles: 
+
+* [Add an existing program to a portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [Add projects to a portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [Add a project to a program](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) 
+
 ### Interface updates to the New Queue Topic box of projects and templates
 
 **Preview release: August 21, 2025; Production release: August 28, 2025**
@@ -130,6 +151,7 @@ For information, see [Create Queue Topics](/help/quicksilver/manage-work/request
 We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
 
 For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+
 
 ### Interface updates for logging time on a project, task, or issue in the Hours section 
 
@@ -570,26 +592,6 @@ We have updated the look and feel of the Copy Template box to match the design o
 
 For information, see [Copy a project template](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
 
-### Look and feel updates when adding objects to programs and portfolios 
-
-**Preview release: May 22, 2025; Production release: May 29, 2025**
-
->[!NOTE]
->
->This was temporarily removed from both Preview and Production and added back on August 21, 2025.
-
-
-We have updated the interface for the Add boxes when doing the following: 
-
-* Adding projects to programs
-* Adding projects to portfolios
-* Adding programs to portfolios
-
-For information, see the following articles: 
-
-* [Add an existing program to a portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
-* [Add projects to a portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
-* [Add a project to a program](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) 
 
 +++
 
