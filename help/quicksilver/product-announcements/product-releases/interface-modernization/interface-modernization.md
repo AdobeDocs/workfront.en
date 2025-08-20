@@ -105,7 +105,7 @@ To view this change, go to Setup > System > Update Users For SSO
 
 ## Projects
 
-### Look and feel updates when adding objects to programs and portfolios 
+### Interface updates when adding objects to programs and portfolios 
 
 **Preview release: May 22, 2025; Production release: May 29, 2025**
 
