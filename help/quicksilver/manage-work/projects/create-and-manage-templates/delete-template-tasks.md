@@ -3,9 +3,10 @@ product-area: templates
 keywords: task,defaults,automate,creation
 navigation-topic: templates-navigation-topic
 title: Delete a Template Task
-description: You can delete a template tasks if it is no longer needed. Deleted template tasks cannot be recovered. Project tasks created from the template task are not deleted or modified. 
+description: You can delete a template tasks if it is no longer needed. Deleted template tasks cannot be recovered. Project tasks created from the template task are not deleted or modified.
 author: Alina
 feature: Work Management
+exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
 ---
 # Delete a template task
 
@@ -69,8 +70,4 @@ You can delete one or several template tasks, in bulk.
 >
 >You can click the Predecessors or Subtasks sections in the left panel of a template task to delete a predecessor or a subtask. 
 >
->Repeat the steps above to delete template task  predecessors or subtasks. 
-
-
-
-
+>Repeat the steps above to delete template task  predecessors or subtasks.
