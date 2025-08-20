@@ -7,7 +7,7 @@ author: Becky
 feature: Work Management, Requests
 role: User, Admin
 ---
-# Create Project Intake Forms
+# Create project intake forms
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
