@@ -1493,7 +1493,7 @@ AI Assistant {#ai-assistant}
     * [View the organizational chart](people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)
   * Work with groups and teams {#work-with-groups-teams}
     * [Work with groups and teams](people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
-    * [Groups vs. teams in Adobe Workfront](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
+    * [Groups vs. teams in Workfront](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
   * Work with team requests {#work-with-team-requests}
     * [Work with team requests](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
     * [Team requests overview](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)

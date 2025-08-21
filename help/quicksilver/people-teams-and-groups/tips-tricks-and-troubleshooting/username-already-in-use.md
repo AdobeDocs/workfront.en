@@ -15,6 +15,8 @@ exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
 +++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto">
+ <col> 
+ <col>
  <tbody> 
   <tr> 
    <td>Adobe Workfront package</td> 
