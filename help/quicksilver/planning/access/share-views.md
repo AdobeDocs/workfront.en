@@ -253,7 +253,7 @@ This section describes how you share a view internally.
 1. From a view's tab, do one of the following: 
 
    * Hover over the tab of the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share** > **Copy link** in the **Share view** box. 
-   * Click **Share** > **Copy the view link** > **Copy link** in the **Share view** box.
+   * Click **Share** > **Copy the view link** from the record type page.
 
    A link to the view is copied to your clipboard and you receive a confirmation at the bottom of the screen. 
 
