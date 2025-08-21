@@ -2572,6 +2572,7 @@ feature-set: Workfront
 * [Hidden test document](hidden-test.md)
 * App Builder {#app-builder}
   * [Create custom applications for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
+  * [Acquire and install apps from Adobe Exchange](/help/quicksilver/app-builder/install-apps-on-exchange.md)
 
 
 <!--
