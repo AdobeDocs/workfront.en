@@ -14,6 +14,7 @@ This page describes Project enhancements made with the Fourth Quarter 2025 relea
 
 For a list of all changes available at this point in the Fourth Quarter 2025 release cycle, see [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+<!-->
 ## Create project intake forms in Workfront
 
 >[!NOTE]
@@ -27,6 +28,8 @@ To make it easier to create requested projects without converting from issues, w
 Previously, requests were entered into Workfront as issues, which had to be converted to projects.
 
 For information and instructions about project intake forms, see [Create project intake forms](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-project-intake-form.md).
+
+-->
 
 ## New expressions added to calculated custom fields in Workfront 
 

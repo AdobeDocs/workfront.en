@@ -18,6 +18,7 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+<!--
 ### Interface updates when editing a Scorecard
 
 **Preview release: August 21, 2025; Production release: August 21, 2025**
@@ -25,6 +26,8 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
 
 A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+
+-->
 
 ### Interface updates for the Review and Approval notifications page in Setup
 
@@ -152,14 +155,14 @@ A small functionality change was introduced with this update. Now, when click a 
 
 For information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-### Interface update for the Edit Expense box of a project
+<!--### Interface update for the Edit Expense box of a project
 
 **Preview release: August 21, 2025; Production release: August 28, 2025**
 
 We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
 
 For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
-
+-->
 
 ### Interface updates for logging time on a project, task, or issue in the Hours section 
 
