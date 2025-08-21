@@ -37,7 +37,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 # Configure cross-workspace capabilities for record types
 
-<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
+<!--this is linked to the UI in the info icon when you enable a record to be either centralized or connectable-->
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -121,7 +121,9 @@ For information, see one of the following articles:
 
 +++   
 
-## Configure adding a record type to other workspaces
+## Configure centralized record types
+
+<!--this is a UI term; don't change the title of this section-->
 
 As a workspace manager, you can configure a record type to be added to other workspaces when you create or edit a record type. 
 
@@ -174,7 +176,9 @@ To configure adding a record type to another workspace when you edit the record 
          
          This field is read-only and cannot be deleted.
 
-## Configure connecting to a record type from other workspaces
+## Configure connectable record types
+
+<!--this is a UI term; don't change the title of this section-->
 
 You can configure a record type to be connected to from from other workspaces when you create or edit the record type. 
 

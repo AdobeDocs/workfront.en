@@ -2067,7 +2067,7 @@ AI Assistant {#ai-assistant}
     * [Create record types](planning/architecture/create-record-types.md)
     * [Create Record Types by importing information from a CSV or Excel file](planning/architecture/import-file-to-create-record-types.md)
     * [Configure cross-workspace capabilities for record types](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
-    * [Add cross-workspace record types](planning/architecture/add-cross-workspace-record-types.md)
+    * [Add existing record types](planning/architecture/add-cross-workspace-record-types.md)
     * [Connect record types overview](planning/architecture/connect-record-types-overview.md)
     * [Connect record types](planning/architecture/connect-record-types.md)
     * [Edit record types](planning/architecture/edit-record-types.md)
