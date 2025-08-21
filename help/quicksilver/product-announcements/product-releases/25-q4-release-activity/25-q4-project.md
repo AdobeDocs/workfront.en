@@ -14,7 +14,7 @@ This page describes Project enhancements made with the Fourth Quarter 2025 relea
 
 For a list of all changes available at this point in the Fourth Quarter 2025 release cycle, see [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
-<!-->
+<!--
 ## Create project intake forms in Workfront
 
 >[!NOTE]
