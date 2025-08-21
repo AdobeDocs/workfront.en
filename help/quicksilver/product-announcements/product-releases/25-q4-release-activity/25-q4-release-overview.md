@@ -32,14 +32,61 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront enhancements
 
+* [Administrator enhancements](#administrator-enhancements)
 * [Document and proofing enhancements](#document-and-proofing-enhancements)
-<!--* [Resource Management enhancements](#resource-management-enhancements)-->
+<!--* [Home enhancements](#home-enhancements)-->
+* [Project enhancements](#project-enhancements)
+<!--* [Requests enhancements](#requests-enhancements)-->
+* [Resource Management enhancements](#resource-management-enhancements)
 * [Other enhancements](#other-enhancements)
+
+### Administrator enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Add multiple value options from an external API to a custom form</a><p></p>
+            <p>A new field type, Multi-select external lookup, is now available on the custom form designer. When you have data stored on an external system, this field type allows you to load options from an external API and filter based on other field values in the custom form. This is the same as a single-select external lookup.</p>
+            <p>When the form is added to an object, the values returned from the API appear in a dropdown field and the user can select multiple values.</p>
+        </td>
+        <td>July 31, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
 
 ### Document and proofing enhancements
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">New Workfront AI Reviewer</a><p></p>
+            <p>Note: This feature is currently in beta.</p>
+            <p>The new Workfront AI Reviewer helps ensure image brand compliance by automatically reviewing content against your brand guidelines, starting with image guidelines. It provides a score and actionable feedback to streamline the approval process. </p>
+            <p>You can add the AI Reviewer to approval templates or individual review and approval requests, enabling faster content production while maintaining brand standards.</p>
+        </td>
+        <td>August 14, 2025</td>
+        <td>August 14, 2025</td>
+        <td>August 14, 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">New proofing integration for Adobe Express</a><p></p>
@@ -59,24 +106,135 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> 
 
-
-
-<!--### Resource Management enhancements
+<!--### Home enhancements
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">Updates to the My Requests widget in Home</a><p></p>
+            <p>To create a more seamless experience between Workfront and Workfront Planning, we've redesigned the My Requests widget in Home. The new widget features the following changes:
+            <ul>
+                <li>Improved layout and organization of request information</li>
+                <li>Enhanced filtering and sorting options</li>
+                <li>Integration with Workfront Planning for better visibility into resource allocation</li>
+            </ul>
+            </p>
+        </td>
+        <td>July 31, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
+### Requests enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
+            <p>To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. Now you can:
+            <ul>
+                <li>View Workfront and Workfront Planning requests in a single list.</li>
+                <li>Filter submitted requests based on criteria you specify.</li>
+                <li>Search for and select Workfront request queues and Workfront Planning forms in a consolidated experience.</li>
+                <li>Hide and reorder columns in the submitted requests list.</li>
+            </ul>
+            </p>
+        </td>
+        <td>July 31, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> -->
+
+### Project enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">New expressions added to formula fields in Planning and calculated custom fields in Workfront</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+            <p>We have added new expressions with the following usage to formula fields in Workfront Planning and to calculated custom fields in Workfront:</p>
+            <ul>
+            <li>REMOVEACCENTS(string): Removes diacritical marks from all accented characters in the input string.</li>
+            <li>REPLACEPATTERN(string, pattern, replacement string): Replaces the matches of the given pattern with the replacement string.</li>
+            <li>PASCAL(string): Converts the input string to PascalCase by capitalizing the first letter of each word and removing all spaces.</li>
+            </ul>
+        </td>
+        <td>August 7, 2025</td>
+        <td>August 7, 2025</td>
+        <td>August 7, 2025</td>
+    </tr> 
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Additional way to access Advanced Assignments from lists</a><p></p>
+            <p>An <b>Advanced</b> button is now available for assignments in lists, making it faster for you to access the Advanced Assignments page. The <b>People</b> icon to get to Advanced Assignments is also available on assignments in lists.</p>
+        </td>
+        <td>August 7, 2025</td>
+        <td>September 11, 2025</td>
+        <td>October 16, 2025</td>
+    </tr> 
+  </tbody>
+  </table>
+
+### Resource Management enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Workload Balancer is now available on your user profile</a><p></p>
+            <p>All users can now view their own demand and capacity data in the Workload Balancer from their profile, regardless of their access level. When you access your Workfront user profile, the Workload Balancer appears in the left navigation panel.</p>
+            <p>Workload Balancer data for a user is read-only. You can't assign work, unassign work, or adjust allocations at the user level.</p>
+        </td>
+        <td>July 31, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Role assignments display in the Workload Balancer </a><p></p>
             <p>Resource managers can now review job role assignments in the Workload Balancer. The assignments are displayed in the Unassigned Work area, under the tasks or issues the roles are assigned to. Only work items assigned to users are displayed in the Assigned Work area. </p>
             <p>A new Workload Balancer setting, Show Role Assignments, determines whether role assignments are displayed. The setting is enabled by default.</p>
         </td>
-        <td>July 24, 2025</td>
+        <td>July 31, 2025</td>
         <td>August 14, 2025</td>
         <td>October 16, 2025</td>
     </tr>     
   </tbody>
-</table> -->
+</table> 
 
 ### Other enhancements
 
@@ -138,6 +296,18 @@ There are no updates for the following at this point in the release:
 * Scenario Planner
 * Proof
 * Goals
+
+## Desktop proofing viewer updates
+
+### Version 2.1.52 
+
+**Production release for all customers: July 31, 2025**
+
+The Desktop Proofing Viewer has been updated to version 2.1.52, which addresses bug fixes.
+
+The 2.1.51 update included internal tooling updates and did not impact end-user functionality.
+
+This update is for both Mac and Windows. 
 
 ## Announcements
 

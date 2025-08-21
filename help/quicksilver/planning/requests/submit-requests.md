@@ -156,7 +156,7 @@ The following must be in place before you can submit a request to a Workfront Pl
 
 1. Click **New request**. 
 
-   ![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
+   <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
    The **New request** box opens with the following information: 
 
@@ -165,7 +165,7 @@ The following must be in place before you can submit a request to a Workfront Pl
 
 1. Do one of the following:
 
-   * Click the card for one of the Planning request forms in the Recent or All request forms sections
+   * Select the Planning request forms in the Recent or All request forms sections
    * Start typing the name of a Planning request form in the search box, then click the card when it displays in the list. 
 
    The request form opens.

@@ -177,5 +177,16 @@ To edit an existing Queue Topic:
 1. Go to the project or template that contains the Queue Topic you want to edit. 
 1. Click **Queue Topics** in the left panel. 
 1. In the Production environment, select the Queue Topic that you want to edit. On the Details page that opens, click **Edit Queue Topic**.
-1. <span class="preview">In the Preview environment, select the Queue Topic that you want to edit, then click the Edit icon ![Edit icon](assets/edit-icon.png).</span>
+1. <span class="preview">In the Preview environment, click the queue topic that you want to edit. 
+
+For information about available edit options, see [Create a Queue Topic](#create-a-queue-topic) in this article.
+
+## Delete a Queue Topic
+
+You can delete one or more queue topics at the same time.
+
+1. Go to the project or template that contains the Queue Topic you want to Delete. 
+1. Click **Queue Topics** in the left panel. 
+1. Click the box next to the name of each Queue Topic that you want to delete. A checkmark appears in the box.
+1. Click the **Delete** icon ![Delete icon](assets/delete-icon.png) at the top of the page. 
 

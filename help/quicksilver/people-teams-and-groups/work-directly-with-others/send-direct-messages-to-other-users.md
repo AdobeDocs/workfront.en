@@ -77,11 +77,11 @@ This option is only available if you have a Standard, Plan, or Work license.
 {{step-1-to-users}}
 
 1. Select the user or users you want to send a message to, and click [!UICONTROL **Send Update to User**].
-1. Type your message in the [!UICONTROL Send update to user] window.
+1. Type your message in the [!UICONTROL Send update to user] window. Use the text formatting options as needed. For more information, see [Use Rich Text in a Workfront comment](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md#use-rich-text-in-a-workfront-comment) in the article [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   ![Message user on the Send update to user window](assets/send-message-to-user-dialog-from-user-list.png)
+   ![Message user on the Send update to user window](assets/send-update-to-user-072825.png)
 
-1. (Optional) Search for any additional users you want to tag on the message. You do not need to tag the users you already selected in the user list.
+1. (Optional) Click **Tag people** to tag any additional users on the message. For more information, see [Tag others on updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Optional) Select **[!UICONTROL Private to my company]** to make this message visible only to other users in your company.
 1. Click [!UICONTROL **Send**].
-   The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on each user's profile page.
+   The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on each tagged user's profile page.

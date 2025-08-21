@@ -18,7 +18,8 @@ The following table lists the fields available for event subscription resources:
 
 >[!NOTE]
 >
->Some objects are available only in Event Subscriptions version 2. These objects are noted in the table.
+>* Some objects are available only in Event Subscriptions version 2. These objects are noted in the table.
+>* The fields listed on this page will always be present in the delivered event, even if the value of that field is null.
 
 <table style="table-layout:auto"> 
  <col> 

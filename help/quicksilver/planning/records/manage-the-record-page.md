@@ -10,9 +10,9 @@ exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 
 # Manage the record page layout
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -258,11 +258,16 @@ Consider the following when adding a Connected records page to a record:
 
 * You can add a Connected records page to a record after you connected record or object types to the record type from the table view of a record type.
 
-* You cannot add a Connected records page to a record's preview area.
+* In the Production environment, you cannot add a Connected records page to a record's preview area.
+
+   <span class="preview">You can add a Connected records page to a record's preview area in the Preview environment.</span>
 
 * Connected records pages display only the connected objects or records from one object or record type in a table view. The page does not display all records of that type in the table view. 
 
-* After you add a Connected records page to a record, the page tab is visible from the record's preview area, but it is blank. You must go to the full page to see the table view for the connected record. <!--this might have changed? check and take disclaimer out--> 
+* Depending on what environment you use, you might notice the following:
+
+   * In the Production environment, after you add a Connected records page to a record, the page tab is visible from the record's preview area, but it is empty. You must go to the full page to see the table view for the connected record. 
+   * <span class="preview">In the Preview environment, the Connected records page is visible from both the record's preview area and from the separate browser tab.</span>
 
 * You can add Connected records pages for the following connected record or object types:
 
@@ -273,13 +278,14 @@ Consider the following when adding a Connected records page to a record:
    >
    >   You cannot add a Connected records page for connected AEM Assets records.
 
-
 To add a Connected records page:
 
-1. From a record page view, click the name of a record to open it, then click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.
-1. Click **Add page**.  
+1. Click the name of the record to open it. 
+1. Click **Add page** from one of the following areas: 
 
-   
+   * <span class="preview">The record's preview window</span>
+   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
+
    The **Create page** box opens.
 
    ![Add Connected records page modal](assets/add-connection-view-page-modal.png) 
@@ -292,8 +298,6 @@ To add a Connected records page:
    All fields of the connected record display in the table view of the connected record's tab. 
    
    The first five fields from the connected record table display by default. No lookup fields display by default.
-
-   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    ![Audience connected table view under campaign details](assets/audience-connected-table-view-under-campaign-details-page.png)
 
