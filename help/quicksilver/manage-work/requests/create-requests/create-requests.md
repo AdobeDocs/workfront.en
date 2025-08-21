@@ -32,3 +32,5 @@ For more information about how to create, submit, or email requests in to Workfr
 * [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md) 
 * [Share a link to a request queue](../../../manage-work/requests/create-requests/share-link-to-request-queue.md) 
 * [Delete a request draft](../../../manage-work/requests/create-requests/delete-request-draft.md)
+* [Auto-fill a request from previous data](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
+* [Auto-fill a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)

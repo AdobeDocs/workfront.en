@@ -31,6 +31,7 @@ The following table lists all the [!DNL Workfront] areas and objects that contai
 | [!UICONTROL Issue] | &nbsp;✓ | &nbsp;✓ |
 | [!UICONTROL User] | &nbsp;✓ | &nbsp;✓ |
 | [!UICONTROL Document] | &nbsp;✓ | &nbsp;✓ |
+| [!UICONTROL Resourcing] area | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
@@ -45,19 +46,19 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>[!UICONTROL Review] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td role="rowheader">Access level configurations*</td> 
    <td>[!UICONTROL Reviewer] or higher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td role="rowheader">Object permissions</td> 
    <td>View access to the object type</td> 
   </tr> 
  </tbody> 

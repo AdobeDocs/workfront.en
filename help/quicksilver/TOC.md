@@ -18,6 +18,7 @@ feature-set: Workfront
       * [Fourth Quarter 2025 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md)
       * [Fourth Quarter 2025 Document and Proofing enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md)
       * [Fourth Quarter 2025 Home enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md)
+      * [Fourth Quarter 2025 Project enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
       * [Fourth Quarter 2025 Requests enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
       * [Fourth Quarter 2025 Resource Management enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
       * [Look-and-feel updates during the 2025 Q4 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
@@ -839,7 +840,6 @@ feature-set: Workfront
     * [Overview of the Project, Task, and Issue dates in Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
   * Priorities {#priorities}
     * [Priorities: article index](workfront-basics/priorities/priorities-toc.md)
-    * [Priorities: Upcoming releases](workfront-basics/priorities/priorities-upcoming-releases.md)
     * [Get started with Priorities](workfront-basics/priorities/get-started-with-priorities.md)
     * [View project and work item details in Priorities](workfront-basics/priorities/view-task-project-details.md)
     * [Filter and group your work in Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
@@ -870,7 +870,8 @@ feature-set: Workfront
       * [Log time on a work item from the Home area](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
       * [Mark an item as Done in the Home area](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
       * [Use the My Updates area](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
-  * AI Assistant {#ai-assistant}
+      * [Use the My Requests widget](workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
+AI Assistant {#ai-assistant}
     * [AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
     * [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
     * [Summarize using AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
@@ -879,6 +880,7 @@ feature-set: Workfront
     * [Use AI Assistant to work with projects, tasks, and issues](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
     * [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
     * [Auto-fill a request using AI](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
+    * [Project Health overview](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)
   * Update work items and view updates {#update-work-items-view-updates}
     * [Update work items and view updates: article index](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Updates section overview](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -1226,6 +1228,7 @@ feature-set: Workfront
       * [Copy and move template tasks](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
       * [Edit project templates](manage-work/projects/create-and-manage-templates/edit-templates.md)
       * [Edit a template task](manage-work/projects/create-and-manage-templates/edit-template-task.md)
+      * [Delete a template task](manage-work/projects/create-and-manage-templates/delete-template-tasks.md)
       * [Create template from project](manage-work/projects/create-and-manage-templates/create-template-from-project.md)
       * [Share project templates](manage-work/projects/create-and-manage-templates/share-project-template.md)
       * [Delete project templates](manage-work/projects/create-and-manage-templates/delete-templates.md)
@@ -1465,6 +1468,8 @@ feature-set: Workfront
       * [Share a link to a request queue](manage-work/requests/create-requests/share-link-to-request-queue.md)
       * [Delete a request draft](manage-work/requests/create-requests/delete-request-draft.md)
       * [Copy and submit requests](manage-work/requests/create-requests/copy-and-submit-requests.md)
+      * [Auto-fill a request from previous data](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
+      * [Auto-fill a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
   * Delegate work {#delegate-work}
     * [Delegate work](manage-work/delegate-work/delegate-work.md)
     * [Delegate tasks and issues overview](manage-work/delegate-work/delegate-work-overview.md)
