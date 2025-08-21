@@ -5,8 +5,8 @@ title: Use the My Requests widget
 description: You can submit requests in the My Requests widget. You can also customize the widget with filters and columns.
 author: Becky
 feature: Get Started with Workfront
+exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 ---
-
 # Use the My Requests widget
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -131,8 +131,3 @@ To search for specific requests in the My Requests widget:
    Requests that contain the term are highlighted in orange.
 
 1. (Optional) To jump to the highlighted requests, click the up or down arrows in the search bar.
-
-
-
-
-
