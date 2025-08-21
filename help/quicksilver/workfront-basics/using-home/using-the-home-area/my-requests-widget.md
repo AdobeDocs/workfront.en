@@ -13,11 +13,16 @@ exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
+>[!IMPORTANT]
+>
+>This article describes the new My Requests widget. You must have the new requesting experience enabled to see the new widget.
+>You can enable the new requesting experience in your Requests area.
+
 The My Requests widget displays requests that have been submitted to your organization. You can filter the requests, search for specific requests, or adjust column order and visibility. You can also create a new request from the My Requests widget.
 
 >[!NOTE]
 >
->When the My Requests widget loads, it displays up to 50 requests. To display more requests, scroll down the list.
+>* When the My Requests widget loads, it displays up to 50 requests. To display more requests, scroll down the list.
 
 ## Access requirements
 

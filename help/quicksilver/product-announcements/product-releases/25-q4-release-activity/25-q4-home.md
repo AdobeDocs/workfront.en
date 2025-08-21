@@ -26,4 +26,6 @@ To create a more seamless experience between Workfront and Workfront Planning, w
 * The filter is now more customizable. Now, you can filter by specific field values using And and Or rules.
 * You can hide or rearrange columns in the widget.
 
+You must have the new requesting experience enabled to see the new widget. You can enable the new requesting experience in your Requests area.
+
 For more information on the new My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
