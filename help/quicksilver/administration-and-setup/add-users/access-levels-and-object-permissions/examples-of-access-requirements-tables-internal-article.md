@@ -1,31 +1,25 @@
 ---
-title: Hidden test
-description: hidden test
+title: "Examples of access requirements tables - internal article"
+description: This is an internal article for our team to keep an inventory of the tables we use for Access Requirements. This should not publish. 
+author: Alina 
 hide: yes
 hidefromtoc: yes
-exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
 ---
-# Hidden test
 
-Hidden file used for testing publish times in larger repo.
-
-Contact Bob if there are issues.
-
-
->[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
-
-
+# Examples of access requirements tables - internal article
 
 ## Checklist
 
 1. Change plan to package.
-1. Remove current and legacy from the licenses row
-1. Remove any asterisks 
+1. Remove current and legacy from the licenses row. Make sure they are wrapped in <p> tags. 
+1. Remove any DNL or UI control tags. 
+1. Remove any bolding. 
+1. Remove any asterisks.
 1. Remove any intro sentences after "Expand to view access requirements for the functionality in this article."
 
 ## Access requirements (This is an example when package stays the same and we update the licenses row)
 
-Expand to view access requirements for the functionality in this article. 
+Expand to view access requirements for the functionality in this article
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +31,7 @@ Expand to view access requirements for the functionality in this article.
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Light or higher</p>
    <p>Work or higher</p></td> 
   </tr> 
@@ -52,11 +46,11 @@ Expand to view access requirements for the functionality in this article.
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Access requirements 
 
-Expand to view access requirements for the functionality in this article. 
+Expand to view access requirements for the functionality in this article
 
 <table style="table-layout:auto"> 
  <col> 
@@ -84,9 +78,9 @@ Expand to view access requirements for the functionality in this article.
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-## Access requirements 
+## Access requirements (only available for net new customers)
 
-Expand to view access requirements for the functionality in this article. 
+Expand to view access requirements for the functionality in this article
 
 <table style="table-layout:auto"> 
  <col> 
@@ -117,7 +111,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Access requirements (This is an example where the new feature only exists in the 2023/2025 packages)
 
-Expand to view access requirements for the functionality in this article. 
+Expand to view access requirements for the functionality in this article
 
 <table>
   <tr>
@@ -145,7 +139,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Access requirements (This is an example where you are required to have other products)
 
-Expand to view access requirements for the functionality in this article. 
+Expand to view access requirements for the functionality in this article
 
 <table>
   <tr>
@@ -153,6 +147,12 @@ Expand to view access requirements for the functionality in this article.
    </td>
    <td> <p>Prime or Ultimate</p>
     <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Adobe Workfront licenses
+   </td>
+   <td>Standard
    </td>
   </tr>
   <tr>
@@ -189,9 +189,6 @@ Package: workflow select, workflow prime, workflow ultimate
 2025 planning packages
 Licenses: contributor, light, standard
 Package: planning select, planning prime, planning ultimate
-
-
-
 
 
 ## Access requirements for most of Workfront Planning
