@@ -7,6 +7,7 @@ description: 'Review and approval integrations: article index'
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+exl-id: b5fed2b5-aa58-4cf1-b7d8-2573216b79f5
 ---
 # Review and approval native integrations: article index
 
