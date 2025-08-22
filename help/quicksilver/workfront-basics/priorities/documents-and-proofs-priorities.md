@@ -30,12 +30,8 @@ Priorities displays work items assigned to you. You cannot see work items assign
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-      <p><strong>Upload documents</strong></p>
-   <p>Contributor</p>
-   <p>Request</p>
-      <p><strong>Create proofs</strong></p>
-        <p>Standard</p>
-     <p>Work or Plan</p>
+   <p>Contributor or higher to upload documents; Standard to create proofs</p>
+   <p>Request or higher to upload documents; Work or higher to create proofs</p>
    </td> 
   </tr> 
   <tr> 

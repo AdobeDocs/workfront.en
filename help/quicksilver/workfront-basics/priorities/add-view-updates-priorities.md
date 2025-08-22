@@ -15,7 +15,7 @@ Priorities displays work items assigned to you. You cannot see work items assign
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
