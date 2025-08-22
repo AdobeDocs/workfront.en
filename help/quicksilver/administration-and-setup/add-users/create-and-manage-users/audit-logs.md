@@ -345,7 +345,7 @@ For more information about task and issue preferences, see [Configure system-wid
 ### User {#user}
 
 <!--DELETE THIS SECTION MARCH 2026-->
-<!-->
+<!--
 The system generates a User audit log entry when a user does one of the following actions:
 
 * Creates a user

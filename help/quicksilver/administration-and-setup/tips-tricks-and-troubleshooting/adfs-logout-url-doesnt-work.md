@@ -22,7 +22,8 @@ exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
 
 <!--DELETE ME MARCH 2026-->
 
-<!-->
+<!--
+
 ## Problem
 
 When using the ADFS logout URL (https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0), you receive a message page with the error: "There was a problem accessing the site. Try to browse to the site again."

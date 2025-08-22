@@ -19,7 +19,7 @@ The Workfront administrator enables the integration between Workfront and Frame.
 ## Access requirements
 
 <!--DELETE THIS SECTION MARCH 2026-->
-<!-->
+<!--
 >[!IMPORTANT]
 >
 >This functionality is available only to organization that have been onboarded to the [!DNL Adobe Admin Console].-->
