@@ -11,10 +11,12 @@ exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
 
 <!-- Audited: 1/2024 -->
 
-
+<!--DELETE THIS SECTION MARCH 2026-->
+<!--
 >[!IMPORTANT]
 >
 >This functionality is available only to organizations that have been onboarded to the [!DNL Adobe Admin Console].
+-->
 
 You can connect your work with your content in [!DNL Experience Manager Assets]​:
 

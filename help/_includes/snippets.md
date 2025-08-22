@@ -85,9 +85,9 @@ You can make sure you are associating the right group with the team by hovering 
 
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
->If your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
 
 ## Step 1 - Getting to Users {#step-1-to-users}
 
