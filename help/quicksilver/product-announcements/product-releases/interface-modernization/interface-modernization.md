@@ -18,6 +18,17 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+<!--
+### Interface updates when editing a Scorecard
+
+**Preview release: August 21, 2025; Production release: August 21, 2025**
+
+We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
+
+A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+
+-->
+
 ### Interface updates for the Review and Approval notifications page in Setup
 
 **Preview release: August 18, 2025; Production release: August 18, 2025**
@@ -104,6 +115,54 @@ We have updated the Update users for SSO page with a more modern design that is 
 To view this change, go to Setup > System > Update Users For SSO
 
 ## Projects
+
+### Interface updates when adding objects to programs and portfolios 
+
+**Preview release: May 22, 2025; Production release: May 29, 2025**
+
+>[!NOTE]
+>
+>This was temporarily removed from both Preview and Production and added back on August 21, 2025.
+
+
+We have updated the interface for the Add boxes when doing the following: 
+
+* Adding projects to programs
+* Adding projects to portfolios
+* Adding programs to portfolios
+
+For information, see the following articles: 
+
+* [Add an existing program to a portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [Add projects to a portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [Add a project to a program](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) 
+
+### Interface updates to the New Queue Topic box of projects and templates
+
+**Preview release: August 21, 2025; Production release: August 28, 2025**
+
+We have updated the look and feel of the New Queue Topic box when you add a new queue topic to a project or template, to match the design of other areas of Workfront.
+
+For information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+### Interface updates when editing a Queue Topic on a project or template
+
+**Preview release: August 21, 2025; Production release: August 28, 2025**
+
+We have updated the experience when editing a Queue Topic on projects and templates, to match other areas of Workfront.
+
+A small functionality change was introduced with this update. Now, when click a Queue Topic, you are taken directly to the Queue Topic's edit page, instead of a page for the Queue Topic Details.
+
+For information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+<!--### Interface update for the Edit Expense box of a project
+
+**Preview release: August 21, 2025; Production release: August 28, 2025**
+
+We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+
+For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+-->
 
 ### Interface updates for logging time on a project, task, or issue in the Hours section 
 
@@ -198,6 +257,14 @@ We have updated the dialog box for adding a new expense to a project, to match o
 For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
 
 ## Templates
+
+### Interface updates for the People list on a template
+
+**Preview release: August 21, 2025; Production release: August 28, 2025**
+
+We have updated the look and feel of the People list on a template to match the design of other areas of Workfront.
+
+Working with people on a template is similar to working with people on a project. For information, see [Manage the Project Team](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
 ### Interface updates for the Predecessors list on a template
 
@@ -536,26 +603,6 @@ We have updated the look and feel of the Copy Template box to match the design o
 
 For information, see [Copy a project template](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
 
-### Look and feel updates when adding objects to programs and portfolios 
-
-**Preview release: May 22, 2025; Production release: May 29, 2025**
-
->[!NOTE]
->
->Temporarily removed from Preview and Production
-
-
-We have updated the interface for the Add boxes when doing the following: 
-
-* Adding projects to programs
-* Adding projects to portfolios
-* Adding programs to portfolios
-
-For information, see the following articles: 
-
-* [Add an existing program to a portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
-* [Add projects to a portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
-* [Add a project to a program](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) 
 
 +++
 

@@ -1,5 +1,5 @@
 ---
-title: Add Cross-workspace Record Types
+title: Add Existing Record Types
 description: Record types are the object types of Adobe Workfront Planning. In Workfront Planning, you can import an existing record type from another workspace.
 hidefromtoc: yes
 hide: yes
@@ -13,7 +13,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 -->
 
-# Add cross-workspace record types
+# Add existing record types
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -29,7 +29,7 @@ For information, see [Configure cross-workspace capabilities for record types](/
 
 ## Access requirements
 
-+++ Expand to view access requirements.  
++++ Expand to view the access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -103,6 +103,7 @@ Considerations when adding existing record types from another workspace
    * Record connections
 
 * You can edit the record type, including its fields, only in its original workspace. You cannot edit it from the workspaces where it was added. 
+* Records added from all workspaces will be visible to all users accessing them from all workspaces, even if they are created in a workspace where they have no permissions. 
 
 ## Create a record type from an existing record type
 

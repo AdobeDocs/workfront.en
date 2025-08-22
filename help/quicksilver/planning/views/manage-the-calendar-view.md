@@ -105,6 +105,14 @@ Consider the following:
     * When the Start or the End dates have no value, the record displays as a one-day event
     * When the Start date is after the End date, the record does not display on the calendar.
 
+<!--
+<div class="preview">
+
+* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+</div>
+-->
+
 To manage a calendar view: 
 
 1. Go to the record type page for which you want to view the calendar. 
