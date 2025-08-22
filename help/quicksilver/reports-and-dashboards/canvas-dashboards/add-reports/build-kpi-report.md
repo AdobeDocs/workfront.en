@@ -117,4 +117,56 @@ There are many configuration options available for building a KPI report. In thi
 
 1. Click **Save** to create the report and add it to the dashboard. 
 
+## Build a KPI report example
+
+In this section, we will go over the steps to create a KPI report that displays pending document approvals. 
+
+For more information on KPI report examples, see [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+
+{{step1-to-dashboards}}
+
+1. In the left panel, click **Canvas Dashboards**. 
+
+1. Click **New Dashboard** in the upper-right corner.  
+
+1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**.  
+
+1. Click **Create**. 
+
+1. In the **Add report** box, select **Create report**.  
+
+1. On the left side, select **KPI**.
+
+1. In the upper-right corner, click **Create report**.  
+
+1. Follow the steps below to configure the **Details** section: 
+
+    1. Type *Pending* in the **Name** field. 
+    1. Type *Pending approvals* in the **Description** field. This displays as a caption below the KPI value. 
+
+1. Follow the steps below to configure the **Build KPI** section: 
+
+    1. In the left panel, click the **Build KPI** ![Build KPI icon](assets/build-kpi-icon.png).
+
+    1. Click **Select field**.  
+
+    1. Locate and select the **Document approval** folder.
+
+    1. Select **Status**.
+
+    1. In the **Aggregation type** drop-down, select **Count**. 
+
+1. Follow the steps below to configure the **Filter** section: 
+
+    1. In the left panel, click the **Filter** ![Filter icon](assets/filter-icon.png) icon. 
+
+    1. Select **Edit filter**. 
+
+    1. Click **Add condition**. 
+
+    1. Click into the empty condition filter, click **Pick a Field**, then choose **Status**.
+    1. Leave the operator as **Equal**, then type _pending review_ in the textbox.
+    ![Pending kpi filter example](assets/pending-kpi-filter.png)
+1. Click **Save** in the top-right corner of the screen.
+
 
