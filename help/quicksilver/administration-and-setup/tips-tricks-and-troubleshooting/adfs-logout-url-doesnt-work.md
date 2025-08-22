@@ -16,9 +16,13 @@ exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
 
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that are not yet onboarded to the [!UICONTROL Adobe Admin Console].
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
->If your organization has been onboarded to the [!UICONTROL Adobe Admin Console], see [Platform-based administration differences ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+
+<!--DELETE ME MARCH 2026-->
+
+<!--
 
 ## Problem
 
@@ -67,3 +71,4 @@ For more detail about the information in this table, see [Access requirements in
 1. **[!UICONTROL Endpoint Type]** = SAML Logout, Binding = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
 
    You can set a response URL if you want it to redirect to another page. But we recommend the ADFS site because it warns that you are logged off, but you should still close your browser.
+-->

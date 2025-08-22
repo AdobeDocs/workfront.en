@@ -15,7 +15,9 @@ exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
 
 {{important-admin-console-onboard}}
 
-When single sign-on (SSO) is enabled in your Adobe Workfront instance, your users can log into Workfront with their SSO credentials.
+<!--REMOVE ME MARCH 2026-->
+
+<!--When single sign-on (SSO) is enabled in your Adobe Workfront instance, your users can log into Workfront with their SSO credentials.
 
 If you have an existing system that is already populated with users associated with SSO credentials, you can import the users' IDs into Workfront by importing a comma-separated values (CSV) file into Workfront.
 
@@ -141,4 +143,4 @@ For instructions on building a user report containing SSO Username information, 
 
    ![Users with SSO field](assets/users-with-sso-field-updated.png)
 
-   For instructions on updating your users for SSO, see [Update your users for SSO](#update-your-users-for-sso).
+   For instructions on updating your users for SSO, see [Update your users for SSO](#update-your-users-for-sso).-->

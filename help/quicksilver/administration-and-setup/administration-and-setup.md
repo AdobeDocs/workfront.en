@@ -17,10 +17,6 @@ exl-id: f80bb267-be96-41d4-98c5-398bde66499e
 Administrators have the ability to control and customize the user experience in Workfront. Use the links below to get started: 
 
 * [Get started with Adobe Workfront administration](../administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md" class="MCXref xref" xrefformat="{para}">Workfront administration in the Adobe Admin Console</a> </li>
-  -->
-
 * [Set up Adobe Workfront](../administration-and-setup/set-up-workfront/set-up-workfront.md) 
 * [User management](../administration-and-setup/add-users/add-users.md) 
 * [Customize Adobe Workfront](../administration-and-setup/customize-workfront/customize-workfront.md) 

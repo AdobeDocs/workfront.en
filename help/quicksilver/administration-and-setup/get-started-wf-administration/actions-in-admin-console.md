@@ -11,6 +11,14 @@ exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
 ---
 # Platform-based administration differences (Adobe Workfront/Adobe Business Platform)
 
+<!--DELETE ME MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+>
+>This article will be removed in the near future.
+
 As an Adobe Workfront administrator, your administration responsibilities and procedures may differ based on whether your organization has been onboarded to the Adobe Business Platform. This article lists the procedures that are handled differently, and links to instructions for both Workfront and the Adobe Admin Console.
 
 If your organization has been onboarded to the Adobe Business Platform, your users use the Adobe Business Platform to access Adobe Workfront. This means that:

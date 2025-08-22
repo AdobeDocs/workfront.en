@@ -150,6 +150,16 @@ For more information about Single Sign-On, see [Overview of single sign-on in Ad
 
 >[!IMPORTANT]
 >
+>The procedure described in this section has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
+>
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+
+<!--DELETE THIS SECTION MARCH 2026-->  
+
+<!--
+
+>[!IMPORTANT]
+>
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the [!DNL Adobe Admin Console]. If your organization has been onboarded to the [!DNL Adobe Admin Console], no action is necessary.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the [!DNL Adobe Admin Console], see [Platform-based administration differences ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
@@ -161,7 +171,7 @@ When your Preview Sandbox refreshes (every weekend), the SSO information is not 
 
 The steps for configuring single sign-on in the Preview Sandbox are similar to those for configuring it in the Production environment.
 
-For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).-->
 
 ## Automatic recalculation of project timelines 
 
