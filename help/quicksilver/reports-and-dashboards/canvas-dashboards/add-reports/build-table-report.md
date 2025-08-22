@@ -105,3 +105,82 @@ There are many configuration options available for building a table report. In t
     1. Click the **Add grouping** button and then select the field you want to create as a grouping. The grouping column appears in the preview section on the right. 
 
 1. Click **Save** to create the report and add it to the dashboard. 
+
+## Build a table report example
+
+In this section, we will go over the steps to create a table report that displays pending document approvals. 
+
+For more information on table report examples, see [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+
+{{step1-to-dashboards}}
+
+1. In the left panel, click **Canvas Dashboards**. 
+
+1. Click **New Dashboard** in the upper-right corner.  
+
+1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**.  
+
+1. Click **Create**. 
+
+1. In the **Add report** box, select **Create report**.  
+
+1. On the left side, select **Table**. 
+
+1. In the upper-right corner, click **Create report**. 
+
+1. Follow the steps below to configure the **Details** section: 
+
+    1. Type _Pending approvals_ in the **Name** field. 
+    1. Type a description in the **Description** field. This text displays as a tooltip next to the chart name. 
+
+1. Follow the steps below to configure the **Build table** section: 
+
+    1. In the left panel, click the **Table columns** ![Table columns icon](assets/drilldown-column.png) icon.
+    1. Click **Add column**.
+    1. Scroll down and select **Document Approvals** > **Status**.
+    1. Add the following columns:
+
+    <table>
+    <tr>
+    <td><strong>Project name</strong></td>
+    <td>Document Version > Document > Project > Name</td>
+    </tr>
+    <tr>
+    <td><strong>Document name</strong></td>
+    <td>Document Version > Document > type <em>Name</em> in the search box.</td>
+    </tr>
+    <tr>
+    <td><strong>Document version</strong></td>
+    <td>Document Version > Document > Version</td>
+    </tr>
+    <tr>
+    <td><strong>Deadline</strong></td>
+    <td>Document Approval > Approval Stage > Deadline</td>
+    </tr>
+    <tr>
+    <td><strong>Requested by</strong></td>
+    <td>Document Approval > Approval Stage > Approval Stage Participants* > Requester > type <em>Name</em> in the search box.</td>
+    </tr>
+    <tr>
+    <td><strong>Requested date</strong></td>
+    <td>Document Approval > Approval Stage > Approval Stage Participants* > Created at</td>
+    </tr>
+    <tr>
+    <td><strong>Approver</strong></td>
+    <td>Document Approval > Approval Stage > Approval Stage Participants* > Participant User > type <em>Name</em> in the search box.</td>
+    </tr>
+    </table>
+
+
+    *Approval Stage Participants is truncated to _Approval Stage Pa.._
+    
+
+1. Follow the steps below to configure the **Filter** section: 
+    1. In the left panel, click the **Filter** ![filter tab icon](assets/filter-tab.png) icon.
+    1. Click **Edit Filter**, then **Add condition**.
+    1. Click into the empty condition filter, then click **Pick a Field**.
+    1. Select **Status**.
+    1. Change the operator to **Equal**, then type _pending approval_ in the textbox.
+        ![pending approval table filter example](assets/pending-approval-table-filter.png) 
+    1. (Optional) Add additional filters as described in the **Optional filters** section below.
+1. Click **Save** in the top-right corner of the screen.
