@@ -19,7 +19,7 @@ hidefromtoc: yes
 
 ## Access requirements (This is an example when package stays the same and we update the licenses row)
 
-Expand to view access requirements for the functionality in this article
+Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,7 +50,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Access requirements 
 
-Expand to view access requirements for the functionality in this article
+Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,7 +80,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Access requirements (only available for net new customers)
 
-Expand to view access requirements for the functionality in this article
+Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -111,7 +111,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Access requirements (This is an example where the new feature only exists in the 2023/2025 packages)
 
-Expand to view access requirements for the functionality in this article
+Expand to view access requirements for the functionality in this article.
 
 <table>
   <tr>
@@ -139,7 +139,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Access requirements (This is an example where you are required to have other products)
 
-Expand to view access requirements for the functionality in this article
+Expand to view access requirements for the functionality in this article.
 
 <table>
   <tr>
