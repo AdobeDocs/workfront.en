@@ -90,17 +90,9 @@ For information, see [Create and edit companies](../../administration-and-setup/
 
 A user must be active in order to appear in any type-ahead fields of all other objects when making assignments or sharing them.
 
-You can deactivate users from the user page, or as you are editing a user.
+You must deactivate users through the [!UICONTROL Adobe Admin Console].
 
-For information about deactivating users, see [Deactivate or reactivate a user](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
-
->[!IMPORTANT]
->
->If your organization has been onboarded to the [!DNL Adobe Business Platform], you must deactivate users through the [!UICONTROL Adobe Admin Console].
->
->For instructions on deactivating a user in the [!UICONTROL Adobe Admin Console], see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your [!UICONTROL Adobe Admin Console] Administrator.
->
->For a list of procedures that differ based on whether your organization has been onboarded to the [!DNL Adobe Business Platform], see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+For instructions on deactivating a user in the [!UICONTROL Adobe Admin Console], see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your [!UICONTROL Adobe Admin Console] Administrator.
 
 ## Teams
 
