@@ -17,28 +17,25 @@ Priorities displays work items assigned to you. You cannot see work items assign
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> 
-   <p>New: Any </p>
-   <p>Current: Pro or Higher</p>
+   <p>Any</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> 
       <p><strong>Upload documents</strong></p>
-   <p>New: Contributor</p>
-   <p>Current: Request</p>
+   <p>Contributor</p>
+   <p>Request</p>
       <p><strong>Create proofs</strong></p>
-        <p>New: Standard</p>
-     <p>Current: Work or Plan</p>
+        <p>Standard</p>
+     <p>Work or Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -46,7 +43,7 @@ You must have the following access to perform the steps in this article:
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Documents</p> </td> 
   </tr> 
  </tbody> 
