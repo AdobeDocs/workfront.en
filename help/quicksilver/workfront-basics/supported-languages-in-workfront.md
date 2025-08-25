@@ -155,7 +155,7 @@ To change the default Workfront Email Locale:
 
 ### Change the User Email Locale {#change-the-user-locale}
 
-<!-->
+<!--
 
 
 When changing your User Email Locale, you modify the language, date, and number format used in your outgoing messages. These settings override the system settings selected in the Customer Info area of Setup.-->
