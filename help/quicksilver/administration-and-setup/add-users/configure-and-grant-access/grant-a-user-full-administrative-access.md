@@ -10,17 +10,15 @@ exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
 
 <!--Audited: 12/2024-->
 
-<!--DELETE ME MARCH 2026-->
-
 >[!IMPORTANT]
 >
->The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
->
->All Workfront organizations have now been onboarded to the Adobe Admin Console.
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
 >For instructions on granting full administrator access in the Adobe Admin Console, see [Manage users in the Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-<!--As an Adobe Workfront administrator, you can create another Workfront administrator by assigning them the System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves.
+As an Adobe Workfront administrator, you can create another Workfront administrator by assigning them the System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves.
 
 >[!NOTE]
 >
@@ -419,4 +417,3 @@ Users with a Plan license who can edit functionality in one area have full acces
   </tr> 
  </tbody> 
 </table>
--->

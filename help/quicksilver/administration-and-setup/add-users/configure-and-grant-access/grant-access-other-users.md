@@ -73,9 +73,8 @@ You can manage what information users can view and edit for other users using a 
     <col> 
     <col> 
     <tbody> 
-    <!--DELETE THIS SECTION MARCH 2026-->
-     <!-- <tr> 
-     <td role="rowheader"><strong>Create</strong> </td> 
+     <tr> 
+      <td role="rowheader"><strong>Create</strong> </td> 
       <td> <p>Allows users to create users.<br>This option is enabled by default.</p> 
      <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.</p>
         </td>  
@@ -83,7 +82,7 @@ You can manage what information users can view and edit for other users using a 
      <tr> 
       <td role="rowheader"><strong>Delete</strong> </td> 
       <td> <p> Allows users to delete the users they have created themselves.<br>This option is enabled by default.</p> <p><b>NOTE</b>: This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.</p> </td> 
-     </tr> -->
+     </tr> 
      <tr> 
       <td role="rowheader"><strong>User Admin (All Users)</strong> </td> 
       <td> <p>Allows users to do the following for any user in Workfront:</p> 
