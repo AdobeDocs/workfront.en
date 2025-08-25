@@ -13,9 +13,7 @@ exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
 
 {{important-admin-console-onboard}}
 
-<!--REMOVE ME MARCH 2026-->
-
-<!--As an Adobe Workfront administrator, you can configure password policy options to customize the authentication experience to your Workfront system.
+As an Adobe Workfront administrator, you can configure password policy options to customize the authentication experience to your Workfront system.
 
 We recommend that you configure authentication preferences during the Workfront implementation and only occasionally revisit them afterward.
 
@@ -117,4 +115,3 @@ To configure enhanced authentication preferences:
    {style="table-layout:auto"}
 
 1. Click **Save**.
--->

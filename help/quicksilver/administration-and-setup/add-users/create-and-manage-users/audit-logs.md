@@ -246,9 +246,6 @@ The system generates a Job Roles audit log entry when a user does one of the fol
 
 For more information about configuring job roles, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-<!--DELETE THIS SECTION MARCH 2026-->
-
-<!--
 ### Login Attempt {#login-attempt}
 
 The system generates a Login Attempt audit log entry when a user does one of the following actions:
@@ -262,8 +259,6 @@ Login Attempt Logs do not record when a Workfront administrator uses the Log In 
 >[!NOTE]
 >
 >This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
-
--->
 
 ### Priority {#priority}
 
@@ -344,11 +339,15 @@ For more information about task and issue preferences, see [Configure system-wid
 
 ### User {#user}
 
-<!--DELETE THIS SECTION MARCH 2026-->
-<!--
 The system generates a User audit log entry when a user does one of the following actions:
 
 * Creates a user
+
+  <!--
+  DRAFTED IN FLARE:
+  Gevorg checking with Jonah on whether this note should be here:
+  
+  -->
 
   >[!NOTE]
   >
@@ -357,4 +356,4 @@ The system generates a User audit log entry when a user does one of the followin
 * Deletes a user
 * Changes a user's access level, company, team, or group
 * Activates a user
-* Deactivates a user-->
+* Deactivates a user
