@@ -63,7 +63,7 @@ For more detail about the information in this table, see [Access requirements in
 
 To auto-fill requests using a prompt or document, **all** of the following must apply:
 
-* Your organization must use Adobe IMS (Identity Management System)
+* Your organization must have migrated to Adobe IMS (Identity Management System)
 * The Adobe Unified Experience must be enabled
 * Your organization must have a Select, Prime, or Ultimate Workfront plan
 * Adobe must have a signed Adobe Gen AI agreement on file

@@ -18,15 +18,13 @@ The following are frequently asked questioned about environment promotion:
 
 ### Answer
 
-Cross-domain environment promotion is not currently supported. You must promote between environments in the same domain.-->
+Cross-domain environment promotion is not currently supported. You must promote between environments in the same domain.
 
-<!--DELETE THIS SECTION MARCH 2026-->
-
-<!--## Is the Adobe Business Platform / IMS a prerequisite for environment promotion?
+## Is the Adobe Business Platform / IMS a prerequisite for environment promotion?
 
 ### Answer
 
-No. Environment Promotion is available for both IMS-enabled and non-IMS Workfront instances.-->
+No. Environment Promotion is available for both IMS-enabled and non-IMS Workfront instances.
 
 ## How can we find out if our Workfront instance is on a Prime or Ultimate license?
 
