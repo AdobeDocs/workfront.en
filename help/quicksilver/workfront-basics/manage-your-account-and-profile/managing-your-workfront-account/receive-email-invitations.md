@@ -36,7 +36,6 @@ To find out what plan or license type you have, contact your [!DNL Workfront] ad
 
 When a [!DNL Workfront] administrator creates a new user, the new user may receive an invitation email based on several factors:
 
-* Whether the user's organization has been onboarded to the [!DNL Adobe Admin Console]
 * Whether the user was added in [!DNL Workfront] or the [!DNL Admin Console]
 * Whether the user has access to other [!DNL Adobe] products or is a new [!DNL Adobe] user
 * Whether the administrator chose to send the user an email invitation (only applies to organizations not yet on the [!DNL Admin Console])
