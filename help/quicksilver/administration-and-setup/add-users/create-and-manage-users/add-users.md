@@ -15,11 +15,13 @@ exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
 
 >[!IMPORTANT]
 >
->* **You must create system administrators through the Adobe Admin Console.**
+>* **If your organization has been onboarded to the Adobe Admin Console, you must create system administrators through the Adobe Admin Console.**
 >
 >   For instructions on creating system administrators in the Adobe Admin Console, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
->   Group administrators can use this procedure to create users and submit the user for admin approval. 
+>   Group administrators in organizations that have been onboarded to the Adobe Admin Console can use this procedure to create users and submit the user for admin approval. 
+>
+>   For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 >* **If your organization uses Single Sign-on (SSO)**, we recommend creating users and assigning them to Workfront in the Adobe Admin Console. Creating these users in Workfront is possible, but there may be issues transferring that information to the Adobe Admin Console, based on how your organization's Admin Console is configured.
 >   After creating the user in the Adobe Admin Console, you can configure the user's information in Workfront, such as assigning roles, groups, teams, and access levels.
@@ -30,6 +32,10 @@ exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
 You can add users in Adobe Workfront by creating individual users from scratch or by copying existing users.
 
 For information about how to import multiple users simultaneously, see [Import users](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+
+<!--
+Replace this intro with something like the following when we switch to Admin Console:
+As an Adobe administrator, you can add users in Adobe Workfront by adding them to your Workfront product profile in the Adobe Admin Console. For instructions, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a>.
 -->
 
 ## Access requirements
@@ -126,7 +132,7 @@ Before you add a user, gather the information about the user listed below and de
 
    >[!NOTE]
    >
-   >* If you are a group administrator adding a user, the options for this step are **Submit user for Admin Approval** and **Submit for Approval & Start Another**. The user is created in a Deactivated and Pending Approval status. 
+   >* If you are a group administrator adding a user to an organization that has been onboarded to the Adobe Admin Console, the options for this step are **Submit user for Admin Approval** and **Submit for Approval & Start Another**. The user is created in a Deactivated and Pending Approval status. 
    > 
    >* If the user does not move out of Deactivated and Pending Approval status within a few minutes, and a screen refresh does not remove the Pending Approval badge, you can approve the user manually.
    >

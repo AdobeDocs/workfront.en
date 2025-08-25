@@ -11,21 +11,17 @@ exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
 ---
 # Delete users
 
-<!--DELETE ME MARCH 2026-->
+>[!IMPORTANT]
+>
+>The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Business Platform. If you have been onboarded to the Adobe Business Platform, you must delete users in the Adobe Admin Console.
+>
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
+When a user leaves your organization, you can remove that user from Adobe Workfront.
 
 >[!IMPORTANT]
 >
->The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
->
->All Workfront organizations have now been onboarded to the Adobe Admin Console.
->
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
-
-<!--When a user leaves your organization, you can remove that user from Adobe Workfront.
-
->[!IMPORTANT]
->
->Deleting a user from the system also deletes information associated with the user that you might want to retain. We recommend deactivating users instead of deleting them. For more information, see [Deactivate or reactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).-->
+>Deleting a user from the system also deletes information associated with the user that you might want to retain. We recommend deactivating users instead of deleting them. For more information, see [Deactivate or reactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 <!--
 >* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
@@ -37,7 +33,7 @@ exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
 >
 -->
 
-<!--## Access requirements
+## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
 
@@ -139,4 +135,4 @@ You can permanently delete users one at a time, or you can permanently delete mu
 
    After receiving the confirmation in Workfront that the users were deleted, you might continue to see them in the system until the deletion process is complete in the background.
 
-   At a later time, if you discover that one or more users were not successfully deleted, try to delete them one at a time.-->
+   At a later time, if you discover that one or more users were not successfully deleted, try to delete them one at a time.
