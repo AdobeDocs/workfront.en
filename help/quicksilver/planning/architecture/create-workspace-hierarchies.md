@@ -1,10 +1,10 @@
 ---
 title: Create Workspace Hierarchies
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
-hide: yes 
-hidefromtoc: yes 
+description: You can create multiple workspace hierarchies between the record types in a workspace.
+hide: yes
+hidefromtoc: yes
+exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
 ---
-
 <!--update the metadata with real information when making this available in TOC and in the left nav:
 
 ---
@@ -58,4 +58,4 @@ You can create multiple workspace hierarchies between the record types in a work
 
  For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++
