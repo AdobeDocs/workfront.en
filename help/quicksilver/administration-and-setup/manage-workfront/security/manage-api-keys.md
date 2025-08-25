@@ -86,17 +86,9 @@ You can generate, reset, or remove the API Key for your administrator user accou
 
    To remove the API Key: In the **API Key Settings** section, click **Remove**, then **Remove**. 
 
-## Generate an API Key for Non-Admin Users-->
+## Generate an API Key for Non-Admin Users
 
-<!--DELETE THIS SECTION MARCH 2026-->
-
->[!IMPORTANT]
->
->The procedure described In this section has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
->
->All Workfront organizations have now been onboarded to the Adobe Admin Console.
-
-<!--You can generate and manage API Keys for users in roles other than Workfront administrator.
+You can generate and manage API Keys for users in roles other than Workfront administrator.
 
 >[!NOTE]
 >
@@ -126,7 +118,7 @@ You can generate, reset, or remove the API Key for your administrator user accou
    1. Expand **System**, then click **Single Sign-on (SSO)**.
    
    1. Select your SSO method in the **Type** drop down menu.
-   1. Check the checkbox requiring SSO authentication.-->
+   1. Check the checkbox requiring SSO authentication.
 
 ## Configure when API keys expire
 
