@@ -60,7 +60,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Create a predecessor for a task
 
-Creating a predecessor for a project task using the Predecessors area is similar to creating predecessors for a template tasks on a template. 
+Creating a predecessor for a project task using the Predecessors area is similar to creating predecessors for a template task on a template. 
 
 To create a predecessor task for a project task: 
 
