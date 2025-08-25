@@ -19,8 +19,8 @@ exl-id: 4b481215-36a1-4945-828a-1598502529d8
 >Because all Workfront organizations have now been onboarded to the Adobe Admin Console, this article will be removed in the near future.
 
 <!--DELETE ME MARCH 2026-->
-
-<!--[!IMPORTANT]
+<!--
+>[!IMPORTANT]
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, no action is necessary.
 >
