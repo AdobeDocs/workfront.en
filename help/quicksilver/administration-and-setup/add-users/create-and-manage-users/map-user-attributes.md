@@ -57,7 +57,9 @@ Keep the following in mind when mapping attributes:
 
 ## Map user attributes for your organization
 
-The procedure for mapping attributes differs depending on whether your organization is on the Adobe unified experience.
+<!--DELETE THIS SECTION MARCH 2026-->
+
+<!--The procedure for mapping attributes differs depending on whether your organization is on the Adobe unified experience.
 
 To determine whether your organization is on the Adobe unified experience, examine the URL that you use to access Workfront.
 
@@ -124,7 +126,7 @@ To determine whether your organization is on the Adobe unified experience, exami
 1. (Optional) To map more user attributes, click **Add Mapping** and repeat steps 6-7.
 1. Click **Save**.
 
-### Map user attributes in the Adobe unified experience
+### Map user attributes in the Adobe unified experience-->
 
 1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-left.png) in the upper-left corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
 

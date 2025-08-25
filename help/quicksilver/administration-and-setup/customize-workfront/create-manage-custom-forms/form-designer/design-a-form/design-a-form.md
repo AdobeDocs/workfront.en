@@ -949,7 +949,7 @@ This table lists the available native fields for specific Workfront objects in a
 >
 >* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
 >* An additional package for Workfront Planning. 
->* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
+><!--* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.-->
 >
 > For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 > 

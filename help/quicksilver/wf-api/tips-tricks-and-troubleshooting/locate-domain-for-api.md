@@ -10,9 +10,9 @@ exl-id: 8f5b78c9-b84f-4f56-b7cc-ba686fac2da1
 ---
 # Domain format for Adobe Workfront API calls
 
-When you make an API call to the Workfront API, you use your organization's domain in the call. The format for this domain URL differs based on whether your organization has been onboarded to the Adobe Unified Shell.
+When you make an API call to the Workfront API, you use your organization's domain in the call. 
 
-To know whether your organization is on the Adobe Unified Shell, examine the URL that displays when you are viewing a Workfront page.
+The URL that you create for the API call depends on the URL that you use to connect to Workfront.
 
 | Workfront URL begins with: | URL for API calls: |
 |---|---|

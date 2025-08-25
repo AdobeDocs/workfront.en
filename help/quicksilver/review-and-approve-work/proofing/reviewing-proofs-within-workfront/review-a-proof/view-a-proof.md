@@ -13,7 +13,7 @@ You can use the proofing viewer to view and markup files in Workfront.
 
 >[!NOTE]
 >
->If your Workfront instance is on the Unified Experience, the proofing viewer opens in a new tab.
+>The proofing viewer opens in a new tab.
 
 
 ## Access requirements

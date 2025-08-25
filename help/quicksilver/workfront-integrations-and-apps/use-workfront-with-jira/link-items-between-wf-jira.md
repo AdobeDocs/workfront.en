@@ -158,9 +158,7 @@ To manually link [!DNL Jira] issues to [!DNL Workfront] items:
 
    >[!IMPORTANT]
    >
-   >If your organization has been onboarded to the Adobe Unified Experience, you must use the **Reference Number** for linking Workfront items to Jira. (The URL option is available, but it will return an error if you use it.) For information about the Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-   >
-   >For organizations not on the Adobe Unified Experience, it's not recommended to use the URL option because URLs can change.
+   >You must use the **Reference Number** for linking Workfront items to Jira. (The URL option is available, but it will return an error if you use it.) For information about the Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
    >[!NOTE]
    >

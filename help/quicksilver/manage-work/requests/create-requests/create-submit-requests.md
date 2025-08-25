@@ -113,7 +113,6 @@ To create a request in the Workfront web app:
 1. (Optional and conditional) Select the **Switch to new experience** setting in the upper-right of the screen, if the following things apply to your organization and your Workfront instance: 
 
     * Your organization has purchased a Workfront package
-    * Your organization has been onboarded to the Adobe Unified Experience. 
     * Your administrator has granted you access to Workfront Planning
     * You have at least view permissions to a Workfront Planning workspace
 

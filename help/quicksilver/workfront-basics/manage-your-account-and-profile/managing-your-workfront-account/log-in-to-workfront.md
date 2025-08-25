@@ -11,6 +11,16 @@ exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 
 <!--Audited: 2024-->
 
+>[!IMPORTANT]
+>
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
+>
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+
+<!--DELETE ME MARCH 2026-->
+
+<!--
+
 {{important-not-on-aec}}
 
 You need the following information to log in to [!DNL Adobe Workfront]:
@@ -108,7 +118,7 @@ To log in to [!DNL Workfront] using your SSO username and password:
 
    >[!TIP]
    >
-   >This is typically your company name. If you are unsure, contact your [!DNL Workfront] administrator.
+   >This is typically your company name. If you are unsure, contact your [!DNL Workfront] administrator.-->
 
 <!--1. Specify the [!DNL Workfront] URL for your company or the link to your SAML authentication portal.
 
@@ -127,7 +137,7 @@ To log in to [!DNL Workfront] using your SSO username and password:
 1. Specify the **[!UICONTROL Username]** of your [!DNL Workfront] account or SAML user.
 1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.-->
 
-1. (Conditional) If you are logging in for the first time, a page requesting permission for the [!DNL Workfront] mobile app to access your account will display. Click **Allow access** to continue.
+<!--1. (Conditional) If you are logging in for the first time, a page requesting permission for the [!DNL Workfront] mobile app to access your account will display. Click **Allow access** to continue.
 
 1. You are redirected to a webpage that allows you to log in identically to the desktop site. This process varies depending on your organization's Workfront configuration, see [Log in to [!DNL Workfront] without SSO](#log-in-to-workfront-without-sso) or [Log in to [!DNL Workfront] with SSO](#log-in-to-workfront-with-sso) above for more information. 
 
@@ -153,4 +163,4 @@ To log in to [!DNL Workfront] using your SSO username and password:
 
 1. You are now signed in. Tap **[!UICONTROL Okay, got it]** or **[!UICONTROL GETTING STARTED]** to navigate through the tutorials displayed.
 
-   These tutorials display only the first time you access the app. They display again only when you uninstall and reinstall the [!DNL Workfront] mobile app, or if you log in as another user. After closing out the tutorials, the area that displays is the one that you selected to show
+   These tutorials display only the first time you access the app. They display again only when you uninstall and reinstall the [!DNL Workfront] mobile app, or if you log in as another user. After closing out the tutorials, the area that displays is the one that you selected to show-->

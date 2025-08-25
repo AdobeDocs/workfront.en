@@ -13,6 +13,20 @@ exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
 
 >[!IMPORTANT]
 >
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
+>
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+
+Your date preference is controlled by your language preference set in Adobe Unified Shell. The default language setting, and therefore the default date setting, is `en-US`. 
+
+For more information, see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md/#access-your-profile-and-preferences). 
+
+<!--DELETE THIS SECTION MARCH 2026-->
+
+<!--
+
+>[!IMPORTANT]
+>
 > The information in this article applies only to organizations that have not yet been onboarded to the Adobe Unified Experience. 
 > If your organization has been onboarded to the Adobe Unified Experience, your date preference is controlled by your language preference set in Adobe Unified Shell. The default language setting, and therefore the default date setting, is `en-US`. 
 > For more information, see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md/#access-your-profile-and-preferences). 
@@ -49,7 +63,7 @@ You can change date formats in Workfront in the following ways, depending on wha
 
    ![](assets/email-locale-for-user-profile-highlighted.png)
 
-   For more information, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). 
+   For more information, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). -->
 
 <!--drafted because we should not document steps for a third-party application
 

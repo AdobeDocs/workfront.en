@@ -93,7 +93,7 @@ For more information about Workfront Fusion, see [Adobe Workfront Fusion overvie
 
 You can change the language in which you view Workfront and the language of the outgoing emails by modifying the following settings:
 
-* The language on your browser (for users not on the Adobe Admin Console)
+<!--* DELETE THIS SECTION MARCH 2026 The language on your browser (for users not on the Adobe Admin Console)-->
 * The primary and secondary language of your AEM profile (for users on the Adobe Admin console)
 * The Customer Info and User Email Locale settings in your Workfront account.
 
@@ -110,6 +110,10 @@ To determine whether your organization has been migrated to the Adobe Admin Cons
 * [Change the Adobe Experience Cloud language](#change-the-adobe-experience-cloud-language)
 * [Change the Workfront and User Email Locales](#change-the-workfront-and-user-locales)
 
+<!--DELETE THIS SECTION MARCH 2026-->
+
+<!--
+
 ### Change the browser language {#change-the-browser-language}
 
 If your organization has not been migrated to the Adobe Admin Console, when you change the browser language, your Workfront interface displays in that language.   
@@ -117,7 +121,7 @@ For more information about what languages are supported by Workfront, see [Suppo
 
 The browser language must be changed on an individual user basis.
 
-See the "Help" menu for your browser for specific information about how to change the language of your browser.
+See the "Help" menu for your browser for specific information about how to change the language of your browser.-->
 
 ### Change the Adobe Experience Cloud language
 
@@ -151,13 +155,16 @@ To change the default Workfront Email Locale:
 
 ### Change the User Email Locale {#change-the-user-locale}
 
-When changing your User Email Locale, you modify the language, date, and number format used in your outgoing messages. These settings override the system settings selected in the Customer Info area of Setup.
+<!-->
+
+
+When changing your User Email Locale, you modify the language, date, and number format used in your outgoing messages. These settings override the system settings selected in the Customer Info area of Setup.-->
 
 >[!NOTE]
 >
->When your organization is on the Adobe Unified Experience, language preferences are stored in your Adobe profile and the email locale is not used. See [Change the Adobe Experience Cloud language](#change-the-adobe-experience-cloud-language) in this article.
+>Language preferences are stored in your Adobe profile, and the email locale is not used. See [Change the Adobe Experience Cloud language](#change-the-adobe-experience-cloud-language) in this article.
 
-To change your User Email Locale:
+<!--To change your User Email Locale:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user profile picture.
 
@@ -165,4 +172,4 @@ To change your User Email Locale:
 
 1. In the **Preferences** section, click the **Email Locale** drop-down list to select the language that you want Workfront emails to display in.
 
-1. Click **Save Changes**.
+1. Click **Save Changes**.-->

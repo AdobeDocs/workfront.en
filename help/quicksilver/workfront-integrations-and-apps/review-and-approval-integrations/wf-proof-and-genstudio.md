@@ -65,9 +65,10 @@ For more detail about the information in this table, see [Access requirements in
 
 * Users can belong to only one Workfront instance within the IMS org.
 
-* The Workfront instance must be enabled on the Adobe Unified Experience.
-
 * The integration must be enabled in the Workfront Setup area.
+
+<!--DELETE THIS SECTION MARCH 2026* The Workfront instance must be enabled on the Adobe Unified Experience.-->
+
 
 
 ## Enable the integration in Workfront

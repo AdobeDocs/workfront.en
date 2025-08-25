@@ -64,7 +64,7 @@ For more detail about the information in this table, see [Access requirements in
 
 >[!NOTE]
 >
->If you are on the Adobe Unified Experience, you can access your Workfront profile by clicking the Adobe account menu (your profile picture) in the top navigation area, then choosing Workfront Profile.
+>You can access your Workfront profile by clicking the Adobe account menu (your profile picture) in the top navigation area, then choosing Workfront Profile.
 >
 >![workfront profile](assets/aue-profile.png)
 

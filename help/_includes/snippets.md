@@ -46,9 +46,9 @@
 
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
-> If your organization has been onboarded to [!DNL Adobe Experience Cloud], see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
 
 ## Step 1 - Click Main Menu only {#step1-click-main-menu}
 
