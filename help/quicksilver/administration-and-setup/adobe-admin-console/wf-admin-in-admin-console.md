@@ -14,6 +14,10 @@ exl-id: e168ba61-8e12-4f42-961a-465b62bc4775
 ---
 # Workfront administration in the Adobe Admin Console
 
+>[!IMPORTANT]
+>
+>All Workfront organizations have now been migrated to the Adobe Admin Console. This section of articles will be removed in the near future.
+
 This section contains the following articles:
 
 * [Prepare to onboard your organization to the Adobe Admin Console](../../administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
