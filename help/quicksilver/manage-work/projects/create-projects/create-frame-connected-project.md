@@ -24,10 +24,6 @@ When a Workfront project is connected with Frame.io, you can
 
 +++ Expand to view access requirements for the functionality in this article. 
 
->[!IMPORTANT]
->
->This functionality is available only to organizations that have been onboarded to the [!DNL Adobe Admin Console].
-
 You must have the following:
 
 <table style="table-layout:auto"> 

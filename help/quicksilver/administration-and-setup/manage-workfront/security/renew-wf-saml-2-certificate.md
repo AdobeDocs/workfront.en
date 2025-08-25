@@ -14,6 +14,14 @@ exl-id: 4b481215-36a1-4945-828a-1598502529d8
 
 >[!IMPORTANT]
 >
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. This procedure is not necessary for organizations on the Adobe Admin Console.
+>
+>Because all Workfront organizations have now been onboarded to the Adobe Admin Console, this article will be removed in the near future.
+
+<!--DELETE ME MARCH 2026-->
+
+>[!IMPORTANT]
+>
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, no action is necessary.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).

@@ -9,6 +9,12 @@ exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
 ---
 # [!DNL Adobe Unified Experience] FAQ
 
+>[!IMPORTANT]
+>
+>Because all Workfront organizations have now been migrated to the Adobe Admin Console, this article will be removed in the near future.
+
+<!--DELETE ME MARCH 2026-->
+
 The [!DNL Adobe Unified Experience] for [!DNL Workfront] allows you to manage all of your [!DNL Adobe] applications in one place with a single login. The [!DNL Adobe] navigation area is integrated seamlessly with [!DNL Workfront]. A few features are different, and you might have some questions as your [!DNL Workfront] instance is migrated to the unified experience.
 
 For information about how to log in to the [!DNL Adobe Unified Experience], see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
