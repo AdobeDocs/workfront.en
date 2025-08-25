@@ -17,10 +17,11 @@ exl-id: 94603393-bdea-4673-9256-08da14f6916e
 
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to [!DNL Adobe Experience Cloud].
 >
-> If your organization has been onboarded to [!DNL Adobe Experience Cloud], branding is not available.
+> All Workfront organizations have now been onboarded to the [!DNL Adobe Experience Cloud], and branding is not available.
 
+<!--
 As a Workfront administrator, you can brand Workfront with logos in the following places:
 
 * Login screen
@@ -42,10 +43,6 @@ You can also change the background image and color of the login screen:
 >[!NOTE]
 >
 >* Changing the login background image and color is not available if your organization's Workfront instance uses a custom SSO portal. See your network or IT administrator if you need more information.
-><!--
->or is enabled with Adobe IMS  >
->  >
->-->
 >
 >* A Workfront administrator or group administrator can also brand Workfront for certain groups and users using a layout template. Branding in a layout template overrides the system-level branding explained in this article. For instructions on branding in a layout template, see [Brand Adobe Workfront using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
 
@@ -133,11 +130,9 @@ For more detail about the information in this table, see [Access requirements in
    >[!NOTE]
    >
    >This is not available if your organization's Workfront instance uses a custom SSO portal.
-   ><!--   >
-   >or is enabled with Adobe IMS   >
-   >   >
-   >-->   
    >
    >See your network or IT administrator if you need more information.
 
 1. Click **Save**.
+
+-->
