@@ -37,36 +37,31 @@ For information about creating resource pools, see [Create resource pools](../..
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td><p>New: Any</p>
-       <p>or</p>
-       <p>Current: Pro or higher</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-       <p>or</p>
-       <p>Current: Plan</p></td>
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td> <p>Edit access to Resource Management that includes access to Manage Resource Pools</p> <p>Edit access to Projects, Templates, and Users</p></td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Object permissions</td> 
+  <tr> 
+   <td>Object permissions</td> 
    <td>Manage permissions for the projects, templates, and users that you want to associate the Resource Pools with</td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
