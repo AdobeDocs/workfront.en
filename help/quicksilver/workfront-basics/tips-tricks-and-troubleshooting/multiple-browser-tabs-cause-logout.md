@@ -8,10 +8,6 @@ exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
 ---
 # Multiple browser tabs cause Workfront to log out
 
->[!IMPORTANT]
->
->This issue is present only for organizations that have been onboarded to Adobe IMS.
-
 ## Problem
 
 When a user has multiple browser tabs open, and clicks into a tab that has been inactive for some time, the tab session has expired. The user cannot see the page they had open, and instead sees the following message:

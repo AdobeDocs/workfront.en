@@ -20,7 +20,7 @@ exl-id: 4b481215-36a1-4945-828a-1598502529d8
 
 <!--DELETE ME MARCH 2026-->
 
->[!IMPORTANT]
+<!--[!IMPORTANT]
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, no action is necessary.
 >
@@ -32,7 +32,7 @@ The Adobe Workfront servers utilize the SAML 2.0 protocol for authentication and
 
 You must take action to update the metadata in your identity provider with the information from the renewed certificate before the specified date. Mismatched certificates can keep your users from logging in to Workfront after November 22, 2022.
  
--->
+
 
 >[!NOTE]
 >
@@ -114,3 +114,5 @@ To review the warning message and acknowledge the update of the SAML 2.0 metadat
    You should see a message confirming that the connection was successful.
 
 For more information, or for assistance with the manual configuration of metadata, please contact our Support Team, as explained in [Contact Customer Support](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+
+-->

@@ -184,7 +184,13 @@ To schedule a refresh of your Customer Refresh Sandbox:
 
 ## Configure Single Sign-On in the Custom Refresh Sandbox
 
-If you want to configure your Custom Refresh Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Custom Refresh Sandbox is independent from your SSO configuration in the Production environment.\
+>[!IMPORTANT]
+>
+>The procedure described in this section has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
+>
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+
+<!--If you want to configure your Custom Refresh Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Custom Refresh Sandbox is independent from your SSO configuration in the Production environment.\
 When you refresh your Custom Refresh Sandbox, the SSO information is not copied from your Production environment to overwrite the Custom Refresh Sandbox configuration.
 
 The steps for configuring single sign-on in the Custom Refresh Sandbox are similar to those for configuring it in the Production environment.\
@@ -193,6 +199,7 @@ For more information about configuring [!DNL Workfront] with SSO, see [Overview 
 >[!NOTE]
 >
 >This is not available if your organization's [!DNL Workfront] instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+-->
 
 ## Automatic recalculation of project timelines 
 
