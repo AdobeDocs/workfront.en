@@ -113,7 +113,10 @@ To add a widget:
         Displays all pending requests for teams that you are on sorted by team, as well as buttons to directly assign a request to a user or to work on it yourself.
 
     * **My approvals**\
-        Displays all of your pending assigned or delegated approvals, a button to delegate approvals, and buttons to make approval decisions directly within the widget.
+        Displays all of your pending assigned or delegated approvals, a button to delegate approvals, and buttons to make approval decisions directly within the widget. Approvals are ordered as follows:
+        * Overdue deadlines
+        * Upcoming deadlines
+        * Items with no deadline
 
     * **Document approval metrics**\
             Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals. You must have [Unified Approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) enabled to use this widget.
