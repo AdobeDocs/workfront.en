@@ -33,14 +33,6 @@ For information about the standard lists, see [Get started with lists in Adobe W
    <p>Contributor or higher</p>
    <p>Request or higher</p></td>
   </tr>
-  <tr> 
-   <td>Access level configurations</td> 
-   <td>Edit access to Filters, Views, Groupings</td>
-  </tr> 
-  <tr> 
-   <td>Object permissions</td> 
-   <td>View or higher permissions to a filter, view, or grouping with access to share</td>
-  </tr>
  </tbody> 
 </table>
 
@@ -59,7 +51,7 @@ Below are some types of Workfront object lists that use the enhanced list format
 | Workfront list | Location of object list |
 |--- |--- |
 | Priorities | <ul><li>Home &gt; select the Priorities icon in the left menu</li><li>Main Menu &gt; Priorities</li></ul> |
-| List of requests | <ul><li>Requests</li><li>My Requests widget on Home</li></ul> |
+| List of requests | <ul><li>Requests (new experience only)</li><li>My Requests widget on Home</li></ul> |
 | List of exchange rates | <ul><li>Setup &gt; Project Preferences &gt; Exchange Rates</li></ul> |
 
 ## Add and edit items in an enhanced list
