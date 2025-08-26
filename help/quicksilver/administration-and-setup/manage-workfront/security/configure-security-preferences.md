@@ -105,7 +105,7 @@ For more detail about the information in this table, see [Access requirements in
         <li>Calendar</li>
        </ul><p>This option is enabled by default.</p> <p><b>Important</b>: The External User access level is unavailable in your Workfront instance if this option is disabled. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Built-in access levels</a>.</p> </td> 
      </tr> 
-     <tr> 
+     <!--<tr> 
       <td role="rowheader">Require external users to register with a password</td> 
       <td> <p>Requires external users to register before they are able to view items in Workfront. By default, this option is disabled. When you enable this option, people without a Workfront account who are included in certain updates by their email address, will be prompted to create an account before they can view the item they are included on. This creates an External User account for them.</p> <p>This option is disabled by default.</p> </td> 
      </tr> 
@@ -116,18 +116,26 @@ For more detail about the information in this table, see [Access requirements in
      <tr> 
       <td role="rowheader">Automatically log mobile users out after </td> 
       <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
-     </tr> 
+     </tr> -->
      <tr> 
       <td role="rowheader">Custom Help URL</td> 
       <td>Lets you define an internal custom help site for the Main Menu help icon to go to. For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">Configure a custom help URL</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Users in the system will default to seeing the New Home experience </td> 
-      <td>Lets you specify whether users will see the New Home experience by default. When enabled, users will see the New Home experience by default, but can still opt to enable or disable New Home on an individual basis. When disabled, users will not see the banner that allows them to switch to New Home—however, they can still navigate to their New Home page by manually entering <code>/home/workspaces</code> at the end of their instance URL. This setting is enabled by default.</td> 
-     </tr>
-     <tr> 
       <td role="rowheader">Enable the Priorities worklist </td> 
       <td>Lets you choose to enable or disable the Priorities worklist experience for your users. Users will still see the Priorities icons in Workfront, but they will not have access to the functionality. For more information about Priorities, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Get started with Priorities</a>.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Enable AI </td> 
+      <td>Lets you choose to enable AI, including AI Assistant. <p><b>Note</b>: Your organization must meet specific requirements to enable AI. For more information about AI, including the requirements, see <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI Assistant overview</a>.</p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Form Auto-complete </td> 
+      <td>Lets you choose to enable the ability to auto-complete request forms based on previous request data. For more information about Form Auto-Complete, see <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Auto-fill a request from previous data</a>.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Opt in to AI Betas </td> 
+      <td>Lets you choose to enable AI features that are currently in Beta. If you enable this option, you can then select which AI Beta features to enable. For more information about each AI Beta feature, click the information icon next to that feature.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Test Environments</td> 
