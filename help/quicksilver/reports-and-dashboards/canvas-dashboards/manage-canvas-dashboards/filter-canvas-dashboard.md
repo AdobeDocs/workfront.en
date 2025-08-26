@@ -2,9 +2,10 @@
 product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Filter a Canvas Dashboard
-description: You can apply a filter to a Canvas Dashboard after it's been created. 
-author:  Courtney and Jenny 
+description: You can apply a filter to a Canvas Dashboard after it's been created.
+author: Courtney and Jenny
 feature: Reports and Dashboards
+exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
 ---
 # Filter a Canvas Dashboard
 
@@ -160,4 +161,4 @@ All users with access to a dashboard can apply a dashboard prompt to a Canvas Da
 1. In the **Show records where...** section, choose a condition for one or all the prompts displayed. The prompt is applied and a **Dashboard filters applied** tag appears in the corner of the report widget.
 ![Select condition](assets/prompts-list.png)
 
-1. Click the **Close** icon ![Close icon](assets/close-icon.png) in the upper-right corner to hide the panel. 
+1. Click the **Close** icon ![Close icon](assets/close-icon.png) in the upper-right corner to hide the panel.
