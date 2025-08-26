@@ -102,6 +102,10 @@ Some enhanced lists allow you to hide and display columns, and reorder the colum
    >
    >A field might be always displayed or fixed in the first position, and you cannot change its column.
 
+   An indicator appears on the **Columns** button when columns are hidden. The indicator does not appear when you reorder columns.
+
+   ![Indicator for hidden columns](assets/glist-columns-hidden-indicator.png)
+
 ## Filter and group items in an enhanced list
 
 Filters help you reduce the amount of information you display in the list. Groupings separate the objects on the list in areas based on specific criteria.
@@ -121,6 +125,10 @@ Filters help you reduce the amount of information you display in the list. Group
 1. Click **Add condition** to add another condition to the filter as an OR statement.
 1. When the filter is applied, you can open the **Filter** options again to change the filter options or clear all of the filters.
 
+   An indicator appears on the **Filter** button when a filter is applied to the list.
+
+   ![Filter applied indicator](assets/glist-filter-applied-indicator.png)
+
 ### Use groupings
 
 1. Click **Group** above the list.
@@ -131,6 +139,10 @@ Filters help you reduce the amount of information you display in the list. Group
 1. When the grouping is applied, you can open the Group options again to collapse or expand all of the groupings at once, change the grouping to group by a different field, or clear all of the groupings.
 
    ![Grouping in enhanced lists](assets/glist-group-by-due-date-priorities.png)
+
+   An indicator appears on the **Group** button when a grouping is applied to the list.
+
+   ![Grouping applied indicator](assets/glist-grouping-applied-indicator.png)
 
 ## Sort and search in an enhanced list
 
