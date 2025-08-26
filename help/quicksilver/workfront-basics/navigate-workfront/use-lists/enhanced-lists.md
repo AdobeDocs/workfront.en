@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 ---
 # Use enhanced lists
 
-Enhanced lists are available on some screens in Adobe Workfront. These lists use a table format for displaying the list items, and they have a different look and feel than the standard lists. 
+Enhanced lists are available in some areas of Adobe Workfront. These lists use a table format for displaying the list items, and they have a different look and feel than the standard lists. 
 
 For information about the standard lists, see [Get started with lists in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
