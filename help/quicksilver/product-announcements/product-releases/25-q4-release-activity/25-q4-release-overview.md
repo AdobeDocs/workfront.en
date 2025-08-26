@@ -76,6 +76,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Unified Approvals Phased Rollout</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>We are enabling Unified Approvals, previously known as New Document Approvals, in a phased rollout. This functionality will be enabled automatically in your Workfront instance over the next six months.</p>
+            <p>Unified Approvals replaces Legacy document approvals and provides the new functionality. 
+</p>
+        </td>
+        <td>Phased rollout starting July 17,2025</td>
+        <td>Phased rollout starting July 17,2025</td>
+        <td>Phased rollout starting July 17,2025</td>
+    </tr> 
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">New Workfront AI Reviewer</a><p></p>
