@@ -299,6 +299,6 @@ The following tables display the users to import and several user attributes for
 >
 >Users imported to Workfront are created in a Deactivated and Pending Approval status. 
 > 
->If a user does not move out of Deactivated and Pending Approval status within a few minutes, you can add the batch of users to the Adobe Admin Console directly.
+>If your organization has been migrated to the Adobe Admin Console, and a user does not move out of Deactivated and Pending Approval status within a few minutes, you can add the batch of users to the Adobe Admin Console directly.
 >
 >For instructions, see [Manage multiple users | Bulk CSV upload](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) in the Adobe documentation.

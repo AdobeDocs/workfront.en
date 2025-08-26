@@ -19,7 +19,7 @@ You can view all audit logs in the system, or those that meet certain filtering 
 
 Audit logs list user-changes triggered in the system during the past 90 days.
 
-For information about all the audit log types and what generates them, see [Audit logs](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+For information about all the audit log types and what generates them, see [Audit logs overview](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 ## Access requirements
 
@@ -68,7 +68,7 @@ For more detail about the information in this table, see [Access requirements in
 
    **All Log Types** is selected by default.
 
-   For a list of all the audit log types you can view and the information they include, see [Audit logs](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+   For a list of all the audit log types you can view and the information they include, see [Audit logs overview](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 1. (Optional) Set any of the available filters for the following fields:
 
