@@ -18,6 +18,16 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+### Interface updates for the layout templates list in a group
+
+**Preview release: August 28, 2025; Production release: September 4, 2025**
+
+We have updated the look and feel of the layout templates list in the left panel in a group to match other areas of the application.
+
+To view these changes, go to Setup > Groups > select a group > Layout Templates.
+
+For more information, see [Create and modify a group's layout templates](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
 <!--
 ### Interface updates when editing a Scorecard
 
@@ -155,14 +165,14 @@ A small functionality change was introduced with this update. Now, when click a 
 
 For information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-<!--### Interface update for the Edit Expense box of a project
+### Interface update for the Edit Expense box of a project
 
-**Preview release: August 21, 2025; Production release: August 28, 2025**
+**Preview release: August 28, 2025; Production release: September 4, 2025**
 
 We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
 
 For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
--->
+
 
 ### Interface updates for logging time on a project, task, or issue in the Hours section 
 
