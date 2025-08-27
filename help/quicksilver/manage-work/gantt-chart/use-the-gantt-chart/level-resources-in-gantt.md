@@ -2,12 +2,16 @@
 product-area: resource-management
 navigation-topic: use-the-gantt-chart
 title: Level Resources in the  [!UICONTROL Gantt Chart]
-description: Information about how to level resources in the Gantt Chart. 
+description: If the same resource is assigned to two different tasks, you can use resource leveling to adjust the timeline of the tasks so they will not occur at the same time. This article provides information about how to level resources in the Gantt Chart. 
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
 ---
 # Level Resources in the [!UICONTROL Gantt Chart]
+
+<!--Audited: 08/2025-->
+
+You can use resource leveling to adjust the timeline of the tasks so they will not occur at the same time, in case the same resources are assigned to multiple tasks at the same time.  
 
 Leveling your resources on a project has two purposes:
 
@@ -16,7 +20,37 @@ Leveling your resources on a project has two purposes:
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Workfront] license</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects</p></td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] access to the project</p>
+</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,9 +75,7 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
    <td> <p>[!UICONTROL Manage] access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+</table> -->
 
 ## Overview of Resource Leveling
 
@@ -92,7 +124,7 @@ You can use the Task List [!UICONTROL Gantt Chart] to level your resources.
    >
    >Your resources might be overallocated if they are assigned to multiple tasks which occur during the same time frame.
 
-1. (Optional and conditional) If you have disabled the Autosave option, click the **[!UICONTROL Undo]** or&#x200B;**[!UICONTROL Redo]** icons if you want to cancel or duplicate any of the changes.
+1. (Optional and conditional) If you have disabled the Autosave option, click the **[!UICONTROL Undo]** or  **[!UICONTROL Redo]** icons if you want to cancel or duplicate any of the changes.
 
    >[!TIP]
    >

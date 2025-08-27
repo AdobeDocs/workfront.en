@@ -1,5 +1,5 @@
 ---
-title: Approval Processes and Milestone Paths
+title: "Approval Processes and Milestone Paths: Article Index"
 user-type: administrator
 content-type: reference
 product-area: system-administration;projects
@@ -11,7 +11,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 5719f8ce-0b30-42a1-9b88-1466630401f2
 ---
-# Approval processes and milestone paths
+# Approval processes and milestone paths: article index
+
+<!--Audited: 08/2025-->
 
 This section contains the following articles:
 

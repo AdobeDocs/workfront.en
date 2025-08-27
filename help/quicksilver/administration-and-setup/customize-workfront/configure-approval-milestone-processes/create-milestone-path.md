@@ -11,7 +11,7 @@ exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
 ---
 # Create a milestone path
 
-<!--Audited: 07/2024-->
+<!--Audited: 08/2025-->
 
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -27,7 +27,34 @@ As an Adobe Workfront administrator, you can create milestone paths which can th
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td><p>System Administrator</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,9 +73,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-+++
+</table> -->
 
 ## Milestones and milestone paths
 
