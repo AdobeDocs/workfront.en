@@ -4,6 +4,7 @@ title: Use Enhanced Lists
 description: Enhanced lists use a table format for displaying the list items, and they have a different look and feel than the standard lists
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 ---
 # Use enhanced lists
 
