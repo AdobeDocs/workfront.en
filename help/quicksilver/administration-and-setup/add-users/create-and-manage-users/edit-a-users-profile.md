@@ -160,9 +160,9 @@ For more information, see [Configure event notifications for everyone in the sys
 
 * **Access Level**: Select the access level to assign to this user.
 
-  When you assign an access level to a user, you can assign a level equal to or lower than your own access level.
-
-  For example, if your access level is Standard, you cannot assign the Administrator access level. However, you cannot assign an access level that by default is lower than your own access level if the Workfront administrator has enabled non-default permissions on the access level that are not also enabled in your own access level.
+  When you assign an access level to a user, you can assign a level equal to or lower than your own access level. (For example, if your access level is Standard, you cannot assign the Administrator access level.)
+  
+  However, you cannot assign an access level that by default is lower than your own access level if the Workfront administrator has enabled non-default permissions on the access level that are not also enabled in your own access level.
 
   For example, if you have a Standard license with no access to delete tasks, you cannot assign someone a Light license with access to delete tasks, although the Light license is lower than the Standard license. For more information, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -176,7 +176,7 @@ For more information, see [Configure event notifications for everyone in the sys
   >
   >For information on decision limits, see [Limited document and proof decision for non-paid users overview](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
-* **Layout Template**: Choose a layout template for the user. this layout template takes precedence over any layout template assigned to the user's Home Group, Home Team or Primary Role. For more information about the assignment priority of layout templates, see [Create and manage layout templates](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+* **Layout Template**: Choose a layout template for the user. this layout template takes precedence over any layout template assigned to the user's Home Group, Home Team, or Primary Role. For more information about the assignment priority of layout templates, see [Create and manage layout templates](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
   The following list describes how the list of templates you have available in this field depends on your access:
 
@@ -233,7 +233,7 @@ For more information, see [Configure event notifications for everyone in the sys
 
 * **Schedule Deactivation** / <span class="preview">**Set deactivation date**</span>: Check this box / <span class="preview">click this button</span> if you want to schedule this user to be deactivated on a certain date and at a certain time.
 * **Scheduled Deactivation Date** / <span class="preview">**Deactivation Date**</span>: The date and time on which the user becomes deactivated. For information about scheduling users for deactivation, see [Schedule users for deactivation](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) in [Deactivate or reactivate a user](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
-* **Primary Role**: This is the primary job role that the user can fulfill in Workfront. Every task and issue that the user is assigned to is also assigned to this job role. Job roles are essential in resource management. You can update this field only if you have a Plan license with administrative user access, or if you are a Workfront administrator. For more information about setting up users with administrative user access, see [Grant access to users](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+* **Primary Role**: This is the primary job role that the user can fulfill in Workfront. Every task and issue that the user is assigned to is also assigned to this job role. Job roles are essential in resource management. You can update this field only if you have a Standard or Plan license with administrative user access, or if you are a Workfront administrator. For more information about setting up users with administrative user access, see [Grant access to users](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   Only active job roles display in the list.
 
@@ -276,6 +276,10 @@ For more information, see [Configure event notifications for everyone in the sys
   >
   >We recommend that the schedule you associate with the user matches the user's time zone.
 
+  >[!IMPORTANT]
+  >
+  >Workfront uses the schedule of a user only when the **Calculate Resource Availability Using** setting is set to **The User's Schedule**. For information about how this setting affects which schedule is used for Resource Management, see [Configure Resource Management preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
 * **Timesheet Profile**: Associate a Timesheet Profile with the user to ensure that timesheets generate automatically for the user.
 
   The list of profiles you have available in this field depends on your access:
@@ -295,7 +299,7 @@ For more information, see [Configure event notifications for everyone in the sys
 
   The field's default is 1.
 
-  Schedule exceptions, time off might, and the value of Work Time may affect the availability of the user.
+  Schedule exceptions, time off, and the value of Work Time may affect the availability of the user.
 
   Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area.
 
