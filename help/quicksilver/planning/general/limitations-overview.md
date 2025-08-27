@@ -41,6 +41,11 @@ The following table shows the limits for how many objects you can create in Work
 | Number of rows you can import in a CSV or Excel file to create record types | 25,000 |
 | Number of columns you can import in a CSV or Excel file to create record types | 500 |
 
+<!--
+| <span class="preview">Number of formula fields for one record type</span> | <span class="preview">20</span> |
+| <span class="preview">Number of characters in a formula field expression</span> | <span class="preview">50,000</span> |
+-->
+
 *We recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.
 
 For information about Workfront Planning pricing and packaging, contact your account manager.
