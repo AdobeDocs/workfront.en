@@ -7,7 +7,9 @@ feature: Get Started with Workfront
 ---
 # Use enhanced lists
 
-Enhanced lists are available in some areas of Adobe Workfront. These lists use a table format for displaying the list items, and they have a different look and feel than the standard lists. 
+{{preview-fast-release-general}}
+
+Enhanced lists are available in some areas of Adobe Workfront. These lists use a table format for displaying the list items, and they have a different look and feel than the standard lists.
 
 For information about the standard lists, see [Get started with lists in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
@@ -94,7 +96,7 @@ Some enhanced lists allow you to hide and display columns, and reorder the colum
    >
    >A field might be always displayed or fixed in the first position, and you cannot change its column.
 
-   An indicator appears on the **Columns** button when columns are hidden. The indicator does not appear when you reorder columns.
+   <span class="preview">An indicator appears on the **Columns** button when columns are hidden. The indicator does not appear when you reorder columns.</span>
 
    ![Indicator for hidden columns](assets/glist-columns-hidden-indicator.png)
 
@@ -117,7 +119,7 @@ Filters help you reduce the amount of information you display in the list. Group
 1. Click **Add condition** to add another condition to the filter as an OR statement.
 1. When the filter is applied, you can open the **Filter** options again to change the filter options or clear all of the filters.
 
-   An indicator appears on the **Filter** button when a filter is applied to the list.
+   <span class="preview">An indicator appears on the **Filter** button when a filter is applied to the list.</span>
 
    ![Filter applied indicator](assets/glist-filter-applied-indicator.png)
 
@@ -132,7 +134,7 @@ Filters help you reduce the amount of information you display in the list. Group
 
    ![Grouping in enhanced lists](assets/glist-group-by-due-date-priorities.png)
 
-   An indicator appears on the **Group** button when a grouping is applied to the list.
+   <span class="preview">An indicator appears on the **Group** button when a grouping is applied to the list.</span>
 
    ![Grouping applied indicator](assets/glist-grouping-applied-indicator.png)
 
