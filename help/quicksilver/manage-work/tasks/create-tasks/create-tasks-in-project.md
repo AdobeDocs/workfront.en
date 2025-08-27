@@ -42,7 +42,7 @@ You can also create tasks in the following ways:
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article.
++++ Expand to view access requirements.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,9 +54,9 @@ You can also create tasks in the following ways:
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Adobe Workfront license</p> </td> 
-   <td><p>Current: Work or higher</p> 
-   Or
-   <p>New: Standard</p> </td> 
+   <td><p>Standard</p> 
+   <p>Work or higher</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -64,7 +64,7 @@ You can also create tasks in the following ways:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects. </a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,6 +74,10 @@ For more detail about the information in this table, see [Access requirements in
 +++
 
 ## Create tasks in a project
+
+Creating tasks in a project is similar to creating tasks on a template. You can follow the steps described below when adding template tasks to a template. 
+
+To create tasks on a project: 
 
 1. Go to the project where you want to create a task.
 1. Click **Tasks** in the left panel. 
@@ -93,7 +97,7 @@ For more detail about the information in this table, see [Access requirements in
 
    ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
-1. (Conditional)&nbsp;If you clicked **New Task** do the following:
+1. (Conditional) If you clicked **New Task** do the following:
 
    1. Specify any of the fields on the limited list of fields inside the **New Task** box, then click **Create Task** if you want to quickly create a task.
 
@@ -107,8 +111,7 @@ For more detail about the information in this table, see [Access requirements in
 
       ![](assets/create-task-larger-box-nwe-350x244.png)
 
-      &nbsp;
-
+   
       >[!NOTE]
       >
       >Depending on how your Workfront administrator sets up our Layout Template, the fields in the Create Task box might display different fields in your environment. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
@@ -156,13 +159,15 @@ For more detail about the information in this table, see [Access requirements in
 
          This makes the new task a child or subtask of the previous task.
 
-         For more information about children tasks, see [Create subtasks](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md). 
+         For more information about children tasks, see the section "Create subtasks from the task Subtasks section" in the article [Create subtasks](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md). 
       
       1. (Conditional) If you disabled the **Autosave** option after pressing **Add More Tasks**, you may do the following:
 
          * Click **Undo** at any time to reverse your last change, or **Cancel** to reverse all the changes you made to the task list. 
          * If you previously clicked **Undo**, click **Redo** to re-apply the last change you canceled.
          * Click **Save** to save your changes to the task list.
+   1. (Optional) In a task list, click the **Predecessor** section to add predecessors to the task. For more information, see [Create a predecessor relationship using the Predecessors area](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md). 
+   1. (Optional) In a task list, click the **Subtasks** section to add children tasks. For more information, see [Create subtasks](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md). 
 
 ## Create tasks by moving a personal task to a project
 

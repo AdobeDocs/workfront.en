@@ -71,7 +71,9 @@ The following Workfront objects are supported by event subscriptions.
 * User
 * Workspace
 
-For a list of fields supported by event subscription objects, see [Event subscription resource fields](../../wf-api/api/event-sub-resource-fields.md).
+>[!NOTE]
+>
+>For a list of fields supported by event subscription objects, see [Event subscription resource fields](../../wf-api/api/event-sub-resource-fields.md).
 
 ## Event subscription authentication
 

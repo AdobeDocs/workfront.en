@@ -46,6 +46,10 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><strong>Object permissions</strong></td> 
    <td> <p>[!UICONTROL Edit] access or higher on tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Product]</strong></td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -124,11 +128,11 @@ You can add an issue to an existing project directly from the Home area:
 You can create a request directly from the Home area:
 
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. (Conditional) Add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**. 
+1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**. 
 1. Go to the **My Requests** widget, then click **New**. 
-   ![Create new request](assets/create-new-request.png)
+   ![Create new request](assets/create-new-request-new.png)
 
-1. In the **New request** dialog, begin typing the name of the request queue. 
+1. In the **New request** dialog, begin typing the name of the Workfront request queue or Workfront Planning request form into the search bar, then select it when it appears. 
 1. Fill out the relevant fields.
 1. Click **Submit**.
 

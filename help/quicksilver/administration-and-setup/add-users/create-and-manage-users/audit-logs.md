@@ -1,5 +1,5 @@
 ---
-title: Audit Logs
+title: Audit Logs Overview
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -9,7 +9,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 ---
-# Audit logs
+# Audit logs overview
 
 <!--Audited: 01/2024-->
 
@@ -67,14 +67,14 @@ The following fields are recorded in every audit log entry:
 * [Custom Section](#custom-section) 
 * [Exchange Rate](#exchange-rate) 
 * [Group](#group) 
-* [Job Roles](#job-roles) 
-* [Login Attempt](#login-attempt) 
+* [Job Role](#job-role) 
 * [Priority](#priority) 
 * [Project Preference](#project-preference) 
 * [Severity](#severity) 
 * [Status](#status) 
 * [Tasks & Issues Preferences](#tasks-issues-preferences) 
 * [User](#user)
+<!--* [Login Attempt](#login-attempt) -->
 
 ### Access Level {#access-level}
 
@@ -230,7 +230,7 @@ The system generates a Group audit log entry when a user does one of the followi
    * Adds or removes users
    * Adds or removes subgroups
 
-### Job Roles {#job-roles}
+### s {#job-role}
 
 The system generates a Job Roles audit log entry when a user does one of the following actions:
 
@@ -251,7 +251,7 @@ For more information about configuring job roles, see [Create and manage job rol
 The system generates a Login Attempt audit log entry when a user does one of the following actions:
 
 * Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
-* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack and Workfront for Salesforce)
+* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack)
 * Logs in or logs out of the Workfront API
 
 Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.

@@ -68,7 +68,7 @@ You must have the following access to perform the steps in this article:
     * View and add comments on the project
     * Log time
     * Add a file
-    * <span class="preview">Go directly to the project</span>
+    * Go directly to the project
 
     ![project details](assets/project-details-new.png)
 
@@ -95,7 +95,7 @@ You must have the following access to perform the steps in this article:
 
 1. In the worklist, hover over the work name, then click **Summary** icon ![open summary icon](assets/summary-icon.png).
 
-1. Issue is selected by default. Here you can
+1. Issue is selected by default. Here you can:
     * View and edit project and issue details and description
     * View and add comments on the project
     * View and add documents
@@ -110,7 +110,7 @@ You must have the following access to perform the steps in this article:
 
 You can view real-time updates on the Details page of a task or issue. You can also see if others are viewing the page at the same time as you with real-time presence indicators.
 
-## View work item details
+### View work item details
 
 {{step1-to-priorities}}
 

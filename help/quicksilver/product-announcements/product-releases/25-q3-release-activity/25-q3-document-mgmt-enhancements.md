@@ -12,26 +12,6 @@ This page describes all document management enhancements made with the Third Qua
 
 For a list of all changes available at this point in the Third Quarter 2025 release cycle, see [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
-<!--## Adobe Express and Workfront Proof integration
-
-We are excited to announce a new integration between Adobe Express and Workfront Proof.
-
-With this integration, you can 
-
-* Streamline collaboration between creative, legal, and compliance teams to reduce time-to-publish while maintaining oversight  
-
-* Conduct for deep reviews using drawing markups, annotations, and commenting with the Workfront proofing viewer 
-
-* Meet enterprise compliance standards with electronic signatures and full audit logs 
-
-* Require approval on any remixed files from an Express branded template  
-
-* Map an Express template to a multi-stage review and approval workflow using advanced proof templates
-
-Note: The integration must be enabled for your accounts by the Adobe Product Team.
-
-For more information, see [Get started with the Adobe Express and Workfront Proof integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
--->
 
 ## Unified Approvals Phased Rollout
 
@@ -46,7 +26,7 @@ Unified Approvals replaces Legacy document approvals and provides the following 
 
 * Designate an entire Workfront team as either reviewers or approvers
 * Set a deadline for the review or approval
-* Create and resuse approval templates
+* Create and reuse approval templates
 * Utilize new versions
 * View multiple key performance indicators for your approvals in Workfront Home widgets
 * Use Canvas Dashboards to view reporting details about Unified Approvals
@@ -114,7 +94,7 @@ Key capabilities that remain unchanged:
 * Create a new Google Drive document from within Workfront
 
 
-## New document approval decision buttons available in proofing viewer
+## New document approval decision buttons available in the proofing viewer
 
 >[!IMPORTANT]
 >
@@ -128,6 +108,6 @@ The new document approval decision buttons now appear in the proofing viewer. No
 
 Previously, you had to exit the proofing viewer to make a decision.
 
-Approvals created before this release will not display the buttons in proofing viewer.
+Approvals created before this release will not display the buttons in the proofing viewer.
 
 For more information, see [Use new document approvals and proofing together](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).

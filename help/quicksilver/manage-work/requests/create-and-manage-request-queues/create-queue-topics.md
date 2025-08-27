@@ -12,11 +12,15 @@ exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
 
 <!-- Audited: 12/2023 -->
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 Queue Topics work in conjunction with Routing Rules to automatically assign incoming work to a user, job role, team, or to place it on a project. Queue Topics define the conditions that need to exist for the Routing Rule to be implemented.
 
 There is no limit to the number of Queue Topics that can be assigned to a Topic Group or to a project. Queue Topics are a reportable object type.
 
-Once created, you cannot move queue topics from one project to another.
+You can create Queue Topics for individual projects, or for project templates.
+
+Once created, you cannot move queue topics from one project or template to another.
 
 ## Access requirements
 
@@ -91,7 +95,7 @@ For more detail about the information in this table, see [Access requirements in
    * [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md) 
    * [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
-1. Go to the project you chose to enable as a Help Request Queue and where you want to create a new queue topic.  
+1. Go to the project or template you chose to enable as a Help Request Queue and where you want to create a new queue topic.  
    For more information on how to designate a project as a Help Request Queue, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    You can organize related Queue Topics under a Topic Group. This will provide the requestor a series of drop-down menus when making a request.
@@ -165,3 +169,24 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click **Save**.   
    The Queue Topic is now available to use and is visible in the Requests area of Workfront, after a Request Queue and a Topic Group are selected.
+
+## Edit a Queue Topic
+
+To edit an existing Queue Topic:
+
+1. Go to the project or template that contains the Queue Topic you want to edit. 
+1. Click **Queue Topics** in the left panel. 
+1. In the Production environment, select the Queue Topic that you want to edit. On the Details page that opens, click **Edit Queue Topic**.
+1. <span class="preview">In the Preview environment, click the queue topic that you want to edit. 
+
+For information about available edit options, see [Create a Queue Topic](#create-a-queue-topic) in this article.
+
+## Delete a Queue Topic
+
+You can delete one or more queue topics at the same time.
+
+1. Go to the project or template that contains the Queue Topic you want to Delete. 
+1. Click **Queue Topics** in the left panel. 
+1. Click the box next to the name of each Queue Topic that you want to delete. A checkmark appears in the box.
+1. Click the **Delete** icon ![Delete icon](assets/delete-icon.png) at the top of the page. 
+

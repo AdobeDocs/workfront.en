@@ -385,9 +385,6 @@ You can submit requests using any applications that have been integrated with Wo
 * You can build a custom integration between Workfront and another application that allows you to submit requests to Workfront from the other application.  
   For more information about custom Workfront integrations, see the article [Adobe Workfront integrations](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
 
-* You can submit requests from Salesforce if you have installed the Workfront app for Salesforce.  
-  For information about submitting requests from Salesforce using our Workfront app for Salesforce, see the article [Submit Adobe Workfront requests from Salesforce objects](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
-
 ## Create requests using a Workfront Planning request form
 
 You can add a Workfront Planning request using a Planning request form. Adding Workfront Planning requests might create Planning records, if the request form is approved or if it does not require approval. 

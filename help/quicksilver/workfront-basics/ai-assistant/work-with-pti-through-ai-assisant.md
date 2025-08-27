@@ -13,7 +13,7 @@ AI Assistant can help you locate projects, tasks, and issues in Workfront.
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -22,13 +22,11 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
    <td><p>New: Any</p>
-       <p>or</p>
        <p>Current: Not available</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td><p>New: Standard</p>
-       <p>or</p>
        <p>Current: Not available</p></td>
   </tr> 
  </tbody> 
@@ -36,20 +34,23 @@ You must have the following access to perform the steps in this article:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-
+ +++
 
 ## Locate work items
 
 1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
-1. Enter a prompt such as 
+1. Enter a prompt such as: 
 
-   * Find my tasks due this week
-   * What issues are in project "Spring Campaign" 
-   * Find projects in Current status
+   * *Find my tasks due this week*
+   * *What issues are in project "Spring Campaign"* 
+   * *Find projects in Current status*
 
-   AI Assistant may take a few moments to locate the information, depending on how large or complex the prompt is and how many records it needs to search.
-1. View the response in the AI Assistant panel.
-1. (Optional) To go to the work item, click the link in the AI Assistant panel.
+   >[!NOTE]
+   >
+   > The AI Assistant may take a few moments to locate the information depending on how large or complex the prompt is and how many records it needs to search.
+1. View the response in the **AI Assistant** panel.
+1. (Optional) To go to the work item, click the link in the **AI Assistant** panel.
+
 
 <!--
 

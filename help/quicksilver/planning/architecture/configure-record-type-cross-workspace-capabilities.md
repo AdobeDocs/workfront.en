@@ -16,15 +16,37 @@ recommendations: noDisplay, noCatalog
 
 <!--*******************THIS TITLE MIGHT NEED TO CHANGE WHEN WE HAVE THE FINAL NAME FOR THE "GLOBAL" RECORD TYPE - NOT SURE IF WE ARE GOING TO USE "GLOBAL" OR "DYNAMIC", OR ???? ***************; also update TOC file, the miniTOC,  etc when this is finalized-->
 
-<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
+
+
+<!--this article is linked to the UI - do not delete or change the URL-->
+<!--add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this imported record type - this info is in the UI - this is what she sent in figma:
+
+Hey, Alina, Lusine. As this page contains not only the "global record types" but also cross-workspace connectivity setting, we shouldn't have this message that's highlighting only the global rt features. I think we should have explanation for each setting both in enabled and disabled states. 
+
+So we'd have the "Allow adding this record type to other workspaces" setting in enabled or disabled state, and display an explanation text below it explaining the capability, as well as a link to help articles for more context. I'd like to include the following key points in the message:  
+
+Once enabled, this record type can be added in other workspaces by designated people 
+
+Members of those workspaces can create and manage records in scope of their workspace 
+
+Any records added by other workspace members will be rolled up to this workspace with view access so members of the current workspace can create views for cross-workspace records.  
+
+Then for the second setting for cross-workspace connections, we'll need a similar explanation text would highlight that the other workspaces can create connections and gain view access to the records in this record type, but will not see the record type in their workspace. (not sure what she means by this last bit, asking in figma also)
+
+-->
 
 # Configure cross-workspace capabilities for record types
+
+<!--this is linked to the UI in the info icon when you enable a record to be either centralized or connectable-->
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-You can designate a record type to either be added to another workspace or be connected from another workspace, in Adobe Workfront Planning. 
+The following are cross-workspace capabilities of record types:
+
+* You can designate a record type as centralized. Users can add centralized record types to other workspaces they can manage. 
+* You can designate a record type as a connectable. Users can connect to this record type from other workspaces. 
 
 You must first define the cross-workspace capabilities of a record type before workspace managers can either connect it from or import it into other workspaces.
 
@@ -99,7 +121,9 @@ For information, see one of the following articles:
 
 +++   
 
-## Configure adding a record type to other workspaces
+## Configure centralized record types
+
+<!--this is a UI term; don't change the title of this section-->
 
 As a workspace manager, you can configure a record type to be added to other workspaces when you create or edit a record type. 
 
@@ -152,7 +176,9 @@ To configure adding a record type to another workspace when you edit the record 
          
          This field is read-only and cannot be deleted.
 
-## Configure connecting to a record type from other workspaces
+## Configure connectable record types
+
+<!--this is a UI term; don't change the title of this section-->
 
 You can configure a record type to be connected to from from other workspaces when you create or edit the record type. 
 

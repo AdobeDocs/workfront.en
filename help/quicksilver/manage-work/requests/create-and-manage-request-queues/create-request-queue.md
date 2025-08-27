@@ -42,6 +42,8 @@ This article describes how you can configure a project as a request queue where 
 
 For information about how to submit a new request to a request queue, see [Copy and submit requests](../create-requests/copy-and-submit-requests.md). 
 
+For information on how to configure a request form in Workfront Planning, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.

@@ -154,7 +154,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">My approvals widget now automatically sorts by deadline </a><p></p>
-            <p>We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list. </p><p><b>Note:</b> Currently, only Proof Approvals can be sorted by deadline in the My Approvals widget.</p>
+            <p>We have updated the My Approvals widget in home to sort by deadline (ascending) by default. This allows the most urgent approvals to appear at the top of the list. Approvals are ordered as follows:</p>
+            <ul>
+                <li>Overdue deadlines</li>
+                <li>Upcoming deadlines</li>
+                <li>Items with no deadline</li>
+            </ul>
+            <p><b>Note:</b> Currently, only Proof Approvals can be sorted by deadline in the My Approvals widget.</p>
         </td>
         <td>May 29, 2025</td>
         <td>June 12, 2025</td>
@@ -367,7 +373,7 @@ As part of this change, Microsoft has made the decision to change the way tokens
 
 ### API version 20
 
-Workfront API version 20 was released on May 4, 2024. For API version 20, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
+Workfront API version 20 was released on May 4, 2025. For API version 20, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
 
 For information on what's new and updated, see [What's new in API version 20](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
