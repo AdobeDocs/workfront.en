@@ -126,16 +126,16 @@ For more detail about the information in this table, see [Access requirements in
       <td>Lets you choose to enable or disable the Priorities worklist experience for your users. Users will still see the Priorities icons in Workfront, but they will not have access to the functionality. For more information about Priorities, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Get started with Priorities</a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader">Enable AI </td> 
-      <td>Lets you choose to enable AI, including AI Assistant. <p><b>Note</b>: Your organization must meet specific requirements to enable AI. For more information about AI, including the requirements, see <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI Assistant overview</a>.</p></td> 
+      <td role="rowheader"><span class="preview">Enable AI</span> </td> 
+      <td><span class="preview">Lets you choose to enable AI, including AI Assistant. <p><b>Note</b>: Your organization must meet specific requirements to enable AI. For more information about AI, including the requirements, see <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI Assistant overview</a>.</p></span></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Form Auto-complete </td> 
-      <td>Lets you choose to enable the ability to auto-complete request forms based on previous request data. For more information about Form Auto-Complete, see <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Auto-fill a request from previous data</a>.</td> 
+      <td role="rowheader"><span class="preview">Form Auto-complete </span></td> 
+      <td><span class="preview">Lets you choose to enable the ability to auto-complete request forms based on previous request data. For more information about Form Auto-Complete, see <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Auto-fill a request from previous data</a>.</span></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Opt in to AI Betas </td> 
-      <td>Lets you choose to enable AI features that are currently in Beta. If you enable this option, you can then select which AI Beta features to enable. For more information about each AI Beta feature, click the information icon next to that feature.</td> 
+      <td role="rowheader"><span class="preview">Opt in to AI Betas </span></td> 
+      <td><span class="preview">Lets you choose to enable AI features that are currently in Beta. If you enable this option, you can then select which AI Beta features to enable. For more information about each AI Beta feature, click the information icon next to that feature.</span></td> 
      </tr>
      <tr> 
       <td role="rowheader">Test Environments</td> 
