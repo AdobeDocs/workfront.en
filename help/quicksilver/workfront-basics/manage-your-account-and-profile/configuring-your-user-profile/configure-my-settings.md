@@ -9,8 +9,6 @@ exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
 ---
 # Configure My Settings
 
-{{highlighted-preview}}
-
 <!-- Audited: 01/2024 -->
 
 <!--
@@ -242,7 +240,7 @@ You can change any of the following in this sub-section:
    <td> Update your email address. This is a required field. Keep in mind that your email address is also your username for [!DNL Workfront].</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Reset password]</strong> / <span class="preview"><strong>Change password</strong></span></td> 
+   <td role="rowheader"><strong>[!UICONTROL Change password]</strong></td> 
    <td>Reset your password in this section. For more information about resetting your password, see <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Reset your password</a>.</td> 
   </tr> 
   <tr> 
@@ -450,8 +448,8 @@ Use any of the following in this section:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Schedule Deactivation]</strong> / <span class="preview"><strong>Set deactivation date</strong></span></td> 
-   <td><p>Check this box / <span class="preview">click this button</span> if you want to schedule that your account should be deactivated after a period of time. In the <strong>[!UICONTROL Scheduled Deactivation Date]</strong> that appears, specify the date after which your account becomes deactivated. For information about deactivating users, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Schedule users for deactivation</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate or reactivate a user</a>. </p><p>You can edit the deactivation fields of your account if you have a [!UICONTROL Standard] or [!UICONTROL Plan] license or you are the [!DNL Workfront] administrator. </p></td> 
+   <td role="rowheader"><strong>[!UICONTROL Set deactivation date]</strong></td>
+   <td><p>Click this button if you want to schedule that your account should be deactivated after a period of time. In the <strong>[!UICONTROL Scheduled Deactivation Date]</strong> that appears, specify the date after which your account becomes deactivated. For information about deactivating users, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Schedule users for deactivation</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate or reactivate a user</a>. </p><p>You can edit the deactivation fields of your account if you have a [!UICONTROL Standard] or [!UICONTROL Plan] license or you are the [!DNL Workfront] administrator. </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Primary Role]</strong></td> 
