@@ -41,26 +41,21 @@ You can create a scorecard in the following way:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>New: Ultimate</p>
-   <p>Current: [!UICONTROL Business] or higher</p> 
-   </td> 
+   <td role="rowheader">Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td><p>New: [!UICONTROL Standard]</p>
-   <p>Current: [!UICONTROL Plan]</p>
-   </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
   </tr> 
-   <tr> 
-   <td role="rowheader"><p>Access level</p></td> 
-   <td><p>System Administrator</p>
-   </td> 
-  </tr>
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td>You must be a Workfront administrator. </td> 
+  </tr> 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
