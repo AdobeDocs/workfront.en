@@ -3,7 +3,7 @@ product-area: projects
 navigation-topic: manage-issues
 title: Modify user assignments for multiple issues in a list
 description: Modify user assignments for multiple issues in a list
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
 ---
@@ -34,26 +34,26 @@ For general information about assigning issues, see [Overview of modifying issue
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any </p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront licenses*</td> 
-   <td> <p>New: Standard </p>
-   <p>Current: Request or higher</p> </td> 
+   <td>Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+   <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks to assign one issue</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td>Object permissions</td> 
    <td> <p>Manage permissions to the issue</p> <p>Contribute permissions or higher to the project or task where the issue is located, when assigning multiple issues.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
