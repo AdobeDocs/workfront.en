@@ -21,7 +21,7 @@ For a list of all changes available at this point in the Fourth Quarter 2025 rel
 
 We have updated the look and feel of the Workfront user profile to a modern design that is consistent with other areas of Workfront. These updates apply to both an administrator editing a single profile or bulk editing multiple profiles, or a user editing their own profile.
 
-There are small functionality differences from the current user profile, including:
+There are some small functionality differences from the current user profile, including:
 
 * Some check boxes (such as marking the user as active) have changed to toggles or buttons.
 * The "Send work I assign to myself to my Working On tab" option under Preferences was removed because it refers to a deprecated feature.

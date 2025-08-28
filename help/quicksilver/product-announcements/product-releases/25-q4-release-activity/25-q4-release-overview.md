@@ -53,9 +53,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updates to the Workfront user profile</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updates to the Workfront user profile</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>We have updated the look and feel of the Workfront user profile to a modern design that is consistent with other areas of Workfront. These updates apply to both an administrator editing a single profile or bulk editing multiple profiles, or a user editing their own profile.</p>
-            <p>There are small functionality differences from the current user profile, including:</p>
+            <p>There are some small functionality differences from the current user profile, including:</p>
             <ul>
                 <li>Some check boxes (such as marking the user as active) have changed to toggles or buttons.</li>
                 <li>The "Send work I assign to myself to my Working On tab" option under Preferences was removed because it refers to a deprecated feature.</li>
@@ -67,7 +67,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Add multiple value options from an external API to a custom form</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Add multiple value options from an external API to a custom form</a><p></p>
             <p>A new field type, Multi-select external lookup, is now available on the custom form designer. When you have data stored on an external system, this field type allows you to load options from an external API and filter based on other field values in the custom form. This is the same as a single-select external lookup.</p>
             <p>When the form is added to an object, the values returned from the API appear in a dropdown field and the user can select multiple values.</p>
         </td>
