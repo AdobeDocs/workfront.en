@@ -825,6 +825,7 @@ feature-set: Workfront
       * [Export a list](workfront-basics/navigate-workfront/use-lists/export-lists.md)
       * [Inline edit items in a list in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
       * [Modify how a list displays](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
+      * [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)
     * [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
     * [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
     * [Top navigation bar overview](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)

@@ -9,9 +9,18 @@ exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
 ---
 # Edit portfolios
 
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div>-->
+
 You can edit information on portfolios that you have created, or that other users have created if they shared them with you.
 
-You can edit a [!UICONTROL portfolio] in the portfolio page or you can edit portfolios in a list.
+You can edit a portfolio in the portfolio page or you can edit portfolios in a list.
 
 ## Access requirements
 
@@ -50,56 +59,52 @@ You can edit a [!UICONTROL portfolio] in the portfolio page or you can edit port
 
 {{step1-to-portfolios}}
 
-1. Click the name of a portfolio to open it.
-1. (Optional) To edit limited information about the portfolio, click **[!UICONTROL Portfolio Details]** in the left panel.
+1. (Optional) To edit limited information about the portfolio, do the following:
 
-   ![Portfolio details tab](assets/portfolio-details-tab-nwe-350x163.png)
+   1. Click the name of a portfolio to open it, then click **[!UICONTROL Portfolio Details]** in the left panel.
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the note below will also be true for Edit Portfolio box)</p>
-   -->
+      ![Portfolio details tab](assets/portfolio-details-tab-nwe-350x163.png)
 
-   >[!NOTE]
-   >
-   >Depending on how your [!DNL Workfront] administrator or Group administrator modified your Layout Template, the fields in the [!UICONTROL Portfolio Details] area might be rearranged or not display. For information, see [Customize the [!UICONTROL Details] view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+      <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the note below will also be true for Edit Portfolio box)</p>
+      -->
 
-   To edit information in the [!UICONTROL Details] section, do the following:
+      >[!NOTE]
+      >
+      >Depending on how your [!DNL Workfront] administrator or Group administrator modified your Layout Template, the fields in the [!UICONTROL Portfolio Details] area might be rearranged or not display. For information, see [Customize the [!UICONTROL Details] view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   1. (Optional) Click the **[!UICONTROL Collapse All]** icon in the upper-right corner to collapse all areas.
-   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![Right pointing arrow](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit.
-   1. For information about the fields visible in the [!UICONTROL Portfolio Details] section, continue with editing the portfolio in the [!UICONTROL Edit Portfolio] box as described below.
-   1. (Optional) If there are no custom forms attached to the portfolio, start typing the name of a form in the **[!UICONTROL Add custom form]** field, select it when it displays in the list, then click **[!UICONTROL Save Changes]**.
+      To edit information in the [!UICONTROL **Details**] section, do the following:
+
+   1. (Optional) Click the **[!UICONTROL Collapse all]** icon ![Collapse all icon](assets/collapse-all-icon.png) in the upper-right corner to collapse all areas.
+   1. (Optional and conditional) When an area is collapsed, click the **Expand** icon ![Expand icon](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
+   
+      >[!TIP]
+      >
+      >You can click the **Expand all** icon  ![Expand icon](assets/right-pointing-arrow.png) in the upper-right corner of the Details section, when all areas are collapsed.
+   
+      For information about the fields visible in the [!UICONTROL **Portfolio Details**] section, continue with editing the portfolio in the [!UICONTROL **Edit Portfolio**] box as described below.
+   1. (Optional) If there are no custom forms attached to the portfolio, start typing the name of a form in the **[!UICONTROL Add custom form]** field in the upper-right corner of the **Details** page, then select it when it displays in the list. 
+   1. Add information to the fields in the [!UICONTROL **Overview**] and [!UICONTROL **Custom Forms**] areas, then click [!UICONTROL **Save Changes**].
    1. (Optional) Click the **[!UICONTROL Export]** icon ![Export icon](assets/export.png) to export the [!UICONTROL Overview] and custom forms information to a PDF file, then click **[!UICONTROL Export]**. Select from the following:
+
 
       * Select all (displays only when there is at least one custom form attached)
       * Overview
       * The name of one or multiple custom forms
 
-      The PDF file downloads to your computer.
+         The PDF file downloads to your computer.
 
-      ![Export portfolio details](assets/export-portfolio-details-box-with-export-button-350x368.png)
+         ![Export portfolio details](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
-      For more information, see [Export custom forms and object details](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+         For more information, see [Export custom forms and object details](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 
-1. To edit all information about one or more portfolios do one of the following:
+1. (Optional) To edit all information about one or more portfolios, select one or more portfolios that you want to edit in a list of portfolios, then click the **[!UICONTROL Edit]** icon ![Edit icon](assets/edit-icon.png) at the top of the list.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might have to be split in two sections if the single edit and the bulk edit won't come at the same time for portfolios)</p>
    -->
-
-   * Click the **[!UICONTROL More]** menu next to the portfolio name, then **[!UICONTROL Edit].**
-
-      <!--   
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will change in NWE with a new Edit Portfolio UI)</p>   
-     -->
-
-   * Go to a list of portfolios and select one or more portfolio that you want to edit, then click the **[!UICONTROL Edit]** icon ![Edit icon](assets/edit-icon.png) at the top of the list.
-
-      <!--   
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to split into another section when they release the new [!UICONTROL Edit Portfolio] UI)</p>   
-     -->
-   The **[!UICONTROL Edit Portfolio]** dialog box displays.
+   The **[!UICONTROL Edit Portfolio]** dialog box displays. <!--update screen shot at preview release-->
 
    ![Edit portfolio box](assets/edit-portfolio-box-classic-350x224.png)
 
@@ -108,7 +113,7 @@ You can edit a [!UICONTROL portfolio] in the portfolio page or you can edit port
 1. Consider specifying information in any of the following sections:
 
    * [[!UICONTROL Overview]](#overview)
-   * [Custom Forms](#Custom%C2%A0F)
+   * [Custom Forms](#custom-forms)
    * [Comment](#comment)
 
 ### [!UICONTROL Overview] {#overview}
@@ -132,27 +137,28 @@ You can edit a [!UICONTROL portfolio] in the portfolio page or you can edit port
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Name]</td> 
-      <td> <p>Update the name of the portfolio. </p> <p>Tip: This is not available when you selected more than one portfolio. </p> </td> 
+      <td role="rowheader">[!UICONTROL **Name**]</td> 
+      <td> <p>Update the name of the portfolio. </p> <p><b>TIP</b></p> 
+      <p>The **Name** field is not available when you select more than one portfolio. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Description]</td> 
+      <td role="rowheader">[!UICONTROL **Description**]</td> 
       <td> <p>Type a description for the Portfolio to indicate what is unique about it. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
+      <td role="rowheader">[!UICONTROL **Portfolio Manager**]</td> 
       <td> <p>Start typing the name of a user that you want to indicate as the portfolio manager, then select it when it appears in the list. This is the same as the [!UICONTROL Portfolio Owner]. This is the person who can oversee the work defined in the projects of the portfolio and can approve the Business Case.</p> <p>Important: When you designate someone as the Portfolio Manager, they automatically gain [!UICONTROL Manage] permissions to the portfolio, the programs and the projects in the portfolio. </p> <p>Tip: You can quickly update the portfolio manager in the portfolio header. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Group]</td> 
+      <td role="rowheader">[!UICONTROL **Group**]</td> 
       <td> <p>Add the name of a single group if the group is associated with the portfolio or has responsibility for completing it. </p> <p>Tip:  <p>When accessing the [!UICONTROL Group] field from the [!UICONTROL Portfolio Details] page, do the following: </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the [!UICONTROL information] icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>This option is not available in the [!UICONTROL Edit Portfolio] box. </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[!UICONTROL Alignment Scorecard]</p> </td> 
+      <td role="rowheader"> <p role="rowheader">[!UICONTROL **Alignment Scorecard**]</p> </td> 
       <td> <p>Select the alignment scorecard that you want to use from the drop-down list. A scorecard is used to measure how well a project aligns with the established criteria of a Portfolio often reflecting an organization's mission, values, and strategic goals. For more information, see <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Apply a scorecard to a project and generate an Alignment Score</a> and <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Create a scorecard</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Is Active]</td> 
+      <td role="rowheader">[!UICONTROL **Is Active**]</td> 
       <td> <p> Select this checkbox if you want the portfolio to be active. Other users can find active portfolios and attach them to projects when creating or editing projects. Inactive portfolios cannot be attached to projects. This is enabled by default.</p> </td> 
      </tr> 
     </tbody> 
@@ -160,10 +166,15 @@ You can edit a [!UICONTROL portfolio] in the portfolio page or you can edit port
 
 1. Click **[!UICONTROL Save Changes]** or continue editing the following sections.
 
+   <!--Replace the last point with this at preview release: Click **[!UICONTROL Save Changes]** <span class="preview">or [!UICONTROL **Save**]</span> and continue editing the following sections.-->
+
 ### Custom Forms
 
 1. Begin editing the portfolio as described above.
 1. Click the **[!UICONTROL Add Forms]** drop-down menu to select a custom forms and add it to the portfolio.
+
+   <!--Or 
+   <span class="preview">Start typing the name of a form in the [!UICONTROL **Add custom form**] field.</span>-->
 
    You must create portfolio custom forms before they are available to add.
 
@@ -173,10 +184,12 @@ You can edit a [!UICONTROL portfolio] in the portfolio page or you can edit port
 
 1. Update any fields in the custom forms, then click **[!UICONTROL Save Changes]** or continue with the following section.
 
+   <!--Replace the last point with this at preview release: Click **[!UICONTROL Save Changes]** <span class="preview">or [!UICONTROL **Save**]</span> and continue editing the following sections.-->
+
 ### Comment {#comment}
 
 1. Begin editing a portfolio as described above.
-1. Click **[!UICONTROL Comment]**.
+1. Click **[!UICONTROL Comment]**. <!--replace screen shot at preview-->
 
    ![Edit portfolio comment box](assets/comment-box-edit-portfolio-classic-350x227.png)
 
@@ -184,3 +197,5 @@ You can edit a [!UICONTROL portfolio] in the portfolio page or you can edit port
 1. (Optional) Click the **[!UICONTROL People]** icon to add a user or a team to the comment.
 1. (Optional) Click the **[!UICONTROL Lock]** icon to lock the comment and make it private to only users in your company.
 1. Click **[!UICONTROL Save Changes]**.
+
+   <!--Replace the last point with this at preview release: Click **[!UICONTROL Save Changes]** <span class="preview">or [!UICONTROL **Save**]</span>.-->
