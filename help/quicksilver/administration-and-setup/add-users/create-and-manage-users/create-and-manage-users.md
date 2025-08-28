@@ -29,7 +29,7 @@ This section contains the following articles:
 * [Map user attributes and auto-provision new users](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md) 
 * [Deactivate or reactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) 
 * [Delete users](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md) 
-* [Audit logs](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md) 
+* [Audit logs overview](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md) 
 * [View and export audit logs](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md) 
 * [View user login information](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md) 
 * [Manage users in the Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)

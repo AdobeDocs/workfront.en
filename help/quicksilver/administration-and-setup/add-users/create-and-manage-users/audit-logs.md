@@ -1,5 +1,5 @@
 ---
-title: Audit Logs
+title: Audit Logs Overview
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -9,7 +9,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 ---
-# Audit logs
+# Audit logs overview
 
 <!--Audited: 01/2024-->
 
@@ -67,14 +67,14 @@ The following fields are recorded in every audit log entry:
 * [Custom Section](#custom-section) 
 * [Exchange Rate](#exchange-rate) 
 * [Group](#group) 
-* [Job Roles](#job-roles) 
-* [Login Attempt](#login-attempt) 
+* [Job Role](#job-role) 
 * [Priority](#priority) 
 * [Project Preference](#project-preference) 
 * [Severity](#severity) 
 * [Status](#status) 
 * [Tasks & Issues Preferences](#tasks-issues-preferences) 
 * [User](#user)
+<!--* [Login Attempt](#login-attempt) -->
 
 ### Access Level {#access-level}
 
@@ -230,7 +230,7 @@ The system generates a Group audit log entry when a user does one of the followi
    * Adds or removes users
    * Adds or removes subgroups
 
-### Job Roles {#job-roles}
+### s {#job-role}
 
 The system generates a Job Roles audit log entry when a user does one of the following actions:
 

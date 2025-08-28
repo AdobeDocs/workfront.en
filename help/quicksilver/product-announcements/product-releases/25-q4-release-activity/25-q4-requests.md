@@ -3,8 +3,6 @@ title: Fourth Quarter 2025 Requests enhancements
 description: Fourth Quarter 2025 Requests enhancements
 author: Courtney
 feature: Product Announcements
-hide: yes
-hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
 ---
@@ -18,8 +16,8 @@ For a list of all changes available at this point in the Fourth Quarter 2025 rel
 
 >[!NOTE]
 >
->* Preview: July 31, 2025
->* Production fast release: August 14, 2025
+>* Preview: August 21, 2025
+>* Production fast release: September 11, 2025
 >* Production for all customers: October 16, 2025
 
 To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. Now you can:
