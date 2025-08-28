@@ -28,16 +28,16 @@ To view these changes, go to Setup > Groups > select a group > Layout Templates.
 
 For more information, see [Create and modify a group's layout templates](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-<!--
+
 ### Interface updates when editing a Scorecard
 
-**Preview release: August 21, 2025; Production release: August 21, 2025**
+**Preview release: August 28, 2025; Production release: August 28, 2025**
 
 We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
 
 A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
 
--->
+
 
 ### Interface updates for the Review and Approval notifications page in Setup
 
