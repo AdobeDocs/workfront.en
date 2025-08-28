@@ -15,10 +15,11 @@ exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
 
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to [!DNL Adobe Experience Cloud].
 >
-> If your organization has been onboarded to [!DNL Adobe Experience Cloud], branding is not available.
+> All Workfront organizations have now been onboarded to the [!DNL Adobe Experience Cloud], and branding is not available.
 
+<!--
 You can use a layout template to customize the logos in the top navigation area and on the Main Menu for certain groups, teams, job roles, and users. This is especially useful for groups in a large organization that have their own branding.
 
 For information about layout templates for groups, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
@@ -26,9 +27,6 @@ For information about layout templates for groups, see [Create and modify a grou
 >[!NOTE]
 >
 >A Workfront administrator can make the same branding customizations for the entire organization at the system level, as explained in [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). But branding in a layout template overrides system-level branding.
-><!--
->Maybe add a section about deleting these 2 settings to revert to default branding?
->-->
 
 ## Access requirements
 
@@ -96,3 +94,4 @@ To perform them for a group, you must be a manager of that group.</p> </td>
 1. Click **Save**.
 
 For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+-->
