@@ -49,7 +49,7 @@ Your users can use severities to define how serious an issue is. You can customi
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++ 
 
 ## Built-in issue severities
 
