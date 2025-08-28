@@ -16,6 +16,38 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## New limits for formula fields
+
+>[!NOTE]
+>
+>* Preview: August 28, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+We have placed the following limits on formula fields:
+
+* There is a limit of 20 formula fields per record type
+* There is a limit of 50,000 characters for a formula expression
+
+For more information, see [Formula field overview](/help/quicksilver/planning/fields/formula-fields.md).
+
+## Show error when formula values cannot be resolved
+
+>[!NOTE]
+>
+>* Preview: August 28, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+To indicate that there is a problem resolving a formula field, the field will now display as "#ERROR!" in one of the following cases:
+
+* When a field used in a formula is deleted.
+
+* When a field used in an aggregated lookup field displays as #ERROR!.
+
+* When a formula value cannot be displayed in the selected format.
+
+For information, see [Formula fields overview](help/quicksilver/planning/fields/formula-fields.md).
 
 ## New expressions added to formula fields in Planning  
 

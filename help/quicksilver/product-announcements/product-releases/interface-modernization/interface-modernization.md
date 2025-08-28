@@ -124,7 +124,30 @@ We have updated the Update users for SSO page with a more modern design that is 
 
 To view this change, go to Setup > System > Update Users For SSO
 
+## Portfolios
+
+### Interface updates for editing portfolios
+
+**Preview release: August 28, 2025; Production release: September 4, 2025**
+
+We have introduced interface updates when editing portfolios in the Edit Portfolio box. The Edit portfolio and Edit portfolios boxes now have a newer design that match other areas of Workfront.
+
+>[!NOTE]
+>
+>The Recalculate Expressions setting has been removed when bulk-editing portfolios. You can still recalculate custom expressions in bulk, when selecting multiple portfolios in a list and clicking the Recalculate Expressions option in the More menu of the toolbar.
+
+
+For information, see [Edit portfolios](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
+
 ## Projects
+
+### Interface changes for the Convert a task to a project without a template
+
+**Preview release: August 28, 2025; Production release: September 4, 2025**
+
+We have introduced interface updates to the Convert to Project box when converting a task to a project without a template. The box now matches the design of other areas of Workfront.
+
+For information, see [Convert a task to a project](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
 
 ### Interface updates when adding objects to programs and portfolios 
 

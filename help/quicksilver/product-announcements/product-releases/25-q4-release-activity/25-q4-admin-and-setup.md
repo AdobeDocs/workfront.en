@@ -12,7 +12,7 @@ This page describes Administrator enhancements made with the Fourth Quarter 2025
 
 For a list of all changes available at this point in the Fourth Quarter 2025 release cycle, see [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
-## Updated look and feel of the Workfront user profile
+## Updates to the Workfront user profile
 
 >[!NOTE]
 >
