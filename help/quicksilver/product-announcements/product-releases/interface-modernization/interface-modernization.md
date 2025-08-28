@@ -18,16 +18,26 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
-<!--
+### Interface updates for the layout templates list in a group
+
+**Preview release: August 28, 2025; Production release: September 4, 2025**
+
+We have updated the look and feel of the layout templates list in the left panel in a group to match other areas of the application.
+
+To view these changes, go to Setup > Groups > select a group > Layout Templates.
+
+For more information, see [Create and modify a group's layout templates](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+
 ### Interface updates when editing a Scorecard
 
-**Preview release: August 21, 2025; Production release: August 21, 2025**
+**Preview release: August 28, 2025; Production release: August 28, 2025**
 
 We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
 
 A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
 
--->
+
 
 ### Interface updates for the Review and Approval notifications page in Setup
 
@@ -114,7 +124,30 @@ We have updated the Update users for SSO page with a more modern design that is 
 
 To view this change, go to Setup > System > Update Users For SSO
 
+## Portfolios
+
+### Interface updates for editing portfolios
+
+**Preview release: August 28, 2025; Production release: September 4, 2025**
+
+We have introduced interface updates when editing portfolios in the Edit Portfolio box. The Edit portfolio and Edit portfolios boxes now have a newer design that match other areas of Workfront.
+
+>[!NOTE]
+>
+>The Recalculate Expressions setting has been removed when bulk-editing portfolios. You can still recalculate custom expressions in bulk, when selecting multiple portfolios in a list and clicking the Recalculate Expressions option in the More menu of the toolbar.
+
+
+For information, see [Edit portfolios](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
+
 ## Projects
+
+### Interface changes for the Convert a task to a project without a template
+
+**Preview release: August 28, 2025; Production release: September 4, 2025**
+
+We have introduced interface updates to the Convert to Project box when converting a task to a project without a template. The box now matches the design of other areas of Workfront.
+
+For information, see [Convert a task to a project](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
 
 ### Interface updates when adding objects to programs and portfolios 
 
@@ -155,14 +188,14 @@ A small functionality change was introduced with this update. Now, when click a 
 
 For information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-<!--### Interface update for the Edit Expense box of a project
+### Interface update for the Edit Expense box of a project
 
-**Preview release: August 21, 2025; Production release: August 28, 2025**
+**Preview release: August 28, 2025; Production release: September 4, 2025**
 
 We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
 
 For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
--->
+
 
 ### Interface updates for logging time on a project, task, or issue in the Hours section 
 

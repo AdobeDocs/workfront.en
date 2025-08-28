@@ -21,6 +21,7 @@ feature-set: Workfront
       * [Fourth Quarter 2025 Project enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
       * [Fourth Quarter 2025 Requests enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
       * [Fourth Quarter 2025 Resource Management enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
+      * [Fourth Quarter 2025 Other enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
       * [Look-and-feel updates during the 2025 Q4 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
     * 2025 Q3 Release {#release-25-q3}
       * [2025 Q3 Release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
@@ -824,6 +825,7 @@ feature-set: Workfront
       * [Export a list](workfront-basics/navigate-workfront/use-lists/export-lists.md)
       * [Inline edit items in a list in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
       * [Modify how a list displays](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
+      * [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)
     * [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
     * [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
     * [Top navigation bar overview](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
@@ -1518,14 +1520,15 @@ feature-set: Workfront
       * [Manage Canvas Dashboards: article index](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
       * [Share a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
       * [Arrange reports in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+      * [Filter a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
       * [Change the name or description of a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
       * [Delete a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+      * [Add a Canvas Dashboard to a layout template](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
     * Manage reports {#manage-reports}
       * [Manage reports: article index](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
       * [Edit a report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
       * [Edit report filters in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
       * [Delete a report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
-
   * Reports {#reports}
     * [Reports](reports-and-dashboards/reports/reports-overview.md)
     * Reporting basics {#report-basics}
