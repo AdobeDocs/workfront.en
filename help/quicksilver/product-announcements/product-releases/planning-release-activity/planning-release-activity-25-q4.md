@@ -47,7 +47,7 @@ To indicate that there is a problem resolving a formula field, the field will no
 
 * When a formula value cannot be displayed in the selected format.
 
-For information, see [Formula fields overview](help/quicksilver/planning/fields/formula-fields.md).
+For information, see [Formula fields overview](/help/quicksilver/planning/fields/formula-fields.md).
 
 ## New expressions added to formula fields in Planning  
 

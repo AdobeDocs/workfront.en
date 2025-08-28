@@ -25,4 +25,4 @@ With our advanced lists layout, you can use filters and groupings to display you
 * My Requests widget
 * Priorities 
 
-For more information, see [Use enhanced lists](/http://help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
