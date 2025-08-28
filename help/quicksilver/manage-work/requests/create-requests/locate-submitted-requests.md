@@ -60,6 +60,10 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Object permissions</td> 
    <td><p>View permissions or higher on the requests</p></td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
+  </tr> 
  </tbody> 
 </table>
 
