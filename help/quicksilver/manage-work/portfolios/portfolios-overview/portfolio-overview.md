@@ -2,13 +2,13 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: portfolios-overview
-title: Portfolio overview in [!DNL Adobe Workfront]
+title: Understand Portfolio Methodology
 description: A Portfolio is a collection of projects that have unifying characteristics. Those projects usually compete for the same resources, budget, or time slot. You can divide Portfolios into Programs and associate the projects with the Programs before they are added to a Portfolio.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
 ---
-# Portfolio overview in [!DNL Adobe Workfront]
+# Understand portfolio methodology
 
 <!-- Audited: 1/2024 -->
 
@@ -28,7 +28,42 @@ This article contains general information about portfolios in Workfront.
 
 <!--leave the table uncollapsed as this article is about access-->
 
-You must have the following access to create and manage portfolios:
++++ Expand to view access requirements for the functionality in this article. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] packages</td> 
+   <td> <p>Prime or higher</p>
+   <p>Business or higher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>After you create a portfolio, you have Manage permissions to it, by default</p> 
+   <p>Manage permissions to edit a portfolio or add projects to it</p>
+   <p>View permissions to a portfolio to view it in Workfront</p>
+    </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,12 +91,9 @@ You must have the following access to create and manage portfolios:
     </td> 
   </tr> 
  </tbody> 
-</table>
+</table>-->
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-
-## [!DNL Adobe Workfront] portfolio methodology
+## Understand the [!DNL Adobe Workfront] portfolio methodology
 
 In [!DNL Workfront], you can add projects to portfolios to create and organize your portfolios.
 

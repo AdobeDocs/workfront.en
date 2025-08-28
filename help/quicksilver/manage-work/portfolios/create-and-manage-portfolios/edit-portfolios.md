@@ -30,6 +30,37 @@ You can edit a portfolio in the portfolio page or you can edit portfolios in a l
  <col> 
  <tbody> 
   <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Any</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe [!DNL Workfront] licenses</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>[!UICONTROL Edit] access to [!UICONTROL Portfolios]</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to a portfolio</p>
+   <p>[!UICONTROL Manage] permissions to the projects in the portfolio to add or remove them from the portfolio</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p></td> 
   </tr> 
@@ -50,9 +81,7 @@ You can edit a portfolio in the portfolio page or you can edit portfolios in a l
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++ 
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## Edit portfolios
 

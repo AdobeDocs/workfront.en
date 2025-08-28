@@ -1,7 +1,7 @@
 ---
 product-area: portfolios
 navigation-topic: portfolios-overview
-title: Navigate within a portfolio
+title: Navigate Within a Portfolio
 description: Navigate within a portfolio
 author: Alina
 feature: Work Management, Strategic Planning
@@ -9,20 +9,50 @@ exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 ---
 # Navigate within a portfolio
 
+<!--Audited: 08/2025-->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article will need to be further revised and maybe merged into Understanding Portfolios?! (other?!).)</p>
 -->
 
 In [!DNL Adobe Workfront], a portfolio represents a collection of projects that compete for the same resources, budget, schedule, and priority. The primary purpose of the portfolio is to assist executives and project managers in selecting to work on projects that provide the most benefit to an organization.
 
-For more information about portfolios, see [Portfolio overview in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+For more information about portfolios, see [Understand portfolio methodology](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Access requirements
 
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following access to perform the steps in this article:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>[!UICONTROL Standard] </p>
+   <p>[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to [!UICONTROL Projects] and [!UICONTROL Portfolios]</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>View or higher permissions to the projects</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,9 +78,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## Navigate within a portfolio
 
@@ -107,7 +135,10 @@ You must have the following access to perform the steps in this article:
 
    >[!IMPORTANT]
    >
-   >Your company must have a [!UICONTROL Business] or higher [!DNL Workfront] plan to have access to the [!UICONTROL Portfolio Optimizer].
+   >Your company must have the following packages to have access to the [!UICONTROL Portfolio Optimizer]:
+   >
+   >[!UICONTROL Prime] or higher [!DNL Workfront]  
+   >[!UICONTROL Business] or higher [!DNL Workfront] 
 
    For information about using the Portfolio Optimizer, see the [Manage projects in the Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) section. 
 

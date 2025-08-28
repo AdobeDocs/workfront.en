@@ -1426,9 +1426,9 @@ feature-set: Workfront
       * [Portfolios: article index](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
       * [Navigate within a portfolio](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
       * [Portfolio Management overview](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-      * [Portfolio overview in Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+      * [Understand portfolio methodology](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
     * Create and manage portfolios {#create-and-manage-portfolios}
-      * [Create and manage portfolios](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
+      * [Create and manage portfolios: article index](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
       * [Create a portfolio](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
       * [Delete and deactivate portfolios](manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
       * [Edit portfolios](manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
