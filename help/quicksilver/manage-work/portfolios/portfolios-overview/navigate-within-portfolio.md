@@ -140,7 +140,7 @@ For more information about portfolios, see [Understand portfolio methodology](..
    >[!UICONTROL Prime] or higher [!DNL Workfront]  
    >[!UICONTROL Business] or higher [!DNL Workfront] 
 
-   For information about using the Portfolio Optimizer, see the [Manage projects in the Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) section. 
+   For information about using the Portfolio Optimizer, see the [Manage projects in the Portfolio Optimizer: article index](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) section. 
 
 1. (Optional) Click **Documents** in the left panel to attach documents to the portfolio.
 1. (Optional)  Click **[!UICONTROL Updates]** in the left panel to add comments to the update stream of the portfolio. For information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 

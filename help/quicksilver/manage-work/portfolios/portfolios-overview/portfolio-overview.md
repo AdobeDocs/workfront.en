@@ -36,8 +36,8 @@ This article contains general information about portfolios in Workfront.
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] packages</td> 
-   <td> <p>Prime or higher</p>
-   <p>Business or higher</p>
+   <td> <p>Workfront Prime or higher</p>
+   <p>Workflow Prime or higher</p>
    </td> 
   </tr> 
   <tr> 

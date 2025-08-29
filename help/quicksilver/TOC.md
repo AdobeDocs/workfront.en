@@ -1444,7 +1444,7 @@ feature-set: Workfront
       * [Add a project to a program](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
       * [Remove a project from a program](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
     * Manage projects in the Portfolio Optimizer {#manage-projects-in-portfolio-optimizer}
-      * [Manage projects in the Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
+      * [Manage projects in the Portfolio Optimizer: article index](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
       * [Portfolio Optimizer overview](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
       * [Locate the Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
       * [Overview of the Portfolio Optimizer Score](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
