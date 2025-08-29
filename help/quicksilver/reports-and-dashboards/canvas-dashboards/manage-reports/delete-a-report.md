@@ -22,7 +22,7 @@ Once a Canvas Dashboard is created and you've added reports to it, you can delet
 
 Deleting a report is permanent. If you need to re-add a report after it's been deleted, you will need to recreate the report.  
  
- ## Access Requirements
+## Access Requirements
 
 +++ Expand to view access requirements. 
 
