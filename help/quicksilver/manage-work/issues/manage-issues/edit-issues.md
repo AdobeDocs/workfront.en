@@ -158,9 +158,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
       <td role="rowheader">Description</td> 
       <td> <p>Add additional information about the issue.</p> </td> 
      </tr> 
-     <tr> 
-      <td colspan="2" role="rowheader">Basic information section</td> 
-     </tr> 
+      
      <tr> 
       <td role="rowheader">Status</td> 
       <td> <p>Select the status of the issue. For more information about issue statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Access the list of system issue statuses</a>. </p> </td> 
@@ -187,6 +185,22 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
         <li> <p style="font-weight: bold;">Fatal error</p> </li> 
        </ul> <p>Depending on the Project Preferences selected by your Workfront administrator, the names of severities might be different for you. For more information about editing severities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">Create or customize issue severities</a>.</p> </td> 
      </tr> 
+
+   <tr> 
+   <td role="rowheader">Issue condition</td> 
+   <td> <p>The Condition of an issue is a flag placed on it to indicate how it's going.</p> 
+   <p>You can set the Condition of a task or an issue either automatically or manually.</p>
+   <p>You must be assigned to the issue to change its condition.</p>
+   <p>Select from the following options:</p> 
+      <ul> 
+   <li> <p style="font-weight: bold;">Going Smoothly</p> </li> 
+   <li> <p style="font-weight: bold;">Some Concerns</p> </li> 
+   <li> <p style="font-weight: bold;">Major Roadblocks</p> </li> 
+   </ul> </td> 
+     </tr> 
+
+
+
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>Type a web link that relates to the information about the issue.</p> </td> 
