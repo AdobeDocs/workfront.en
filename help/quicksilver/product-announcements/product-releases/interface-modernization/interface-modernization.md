@@ -174,6 +174,10 @@ For information, see the following articles:
 
 **Preview release: August 21, 2025; Production release: August 28, 2025**
 
+>[!NOTE]
+>
+>This feature has temporarily been removed from the Production environment.
+
 We have updated the look and feel of the New Queue Topic box when you add a new queue topic to a project or template, to match the design of other areas of Workfront.
 
 For information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -181,6 +185,10 @@ For information, see [Create Queue Topics](/help/quicksilver/manage-work/request
 ### Interface updates when editing a Queue Topic on a project or template
 
 **Preview release: August 21, 2025; Production release: August 28, 2025**
+
+>[!NOTE]
+>
+>This feature has temporarily been removed from the Production environment.
 
 We have updated the experience when editing a Queue Topic on projects and templates, to match other areas of Workfront.
 
