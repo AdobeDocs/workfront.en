@@ -12,6 +12,38 @@ This page describes Administrator enhancements made with the Fourth Quarter 2025
 
 For a list of all changes available at this point in the Fourth Quarter 2025 release cycle, see [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## Enable AI Beta features for your organization
+
+>[!NOTE]
+>
+>* Preview: August 28, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+To make it easier for you to see and influence upcoming AI features, we've made it possible for you to enable the Betas for those features for your organization. Now, you can choose to enable one or more of the currently available AI Beta features from your System Preferences.
+
+Previously, Beta features could not be enabled by system administrators.
+
+For more information on setting system preferences, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+For prerequisites to enabling AI features, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+
+## Updates to the Workfront user profile
+
+>[!NOTE]
+>
+>* Preview: August 28, 2025
+>* Production for all customers: September 4, 2025
+
+We have updated the look and feel of the Workfront user profile to a modern design that is consistent with other areas of Workfront. These updates apply to both an administrator editing a single profile or bulk editing multiple profiles, or a user editing their own profile.
+
+There are some small functionality differences from the current user profile, including:
+
+* Some check boxes (such as marking the user as active) have changed to toggles or buttons.
+* The "Send work I assign to myself to my Working On tab" option under Preferences was removed because it refers to a deprecated feature.
+
+For more information, see [Edit a user's profile](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
 ## Add multiple value options from an external API to a custom form
 
 >[!NOTE]

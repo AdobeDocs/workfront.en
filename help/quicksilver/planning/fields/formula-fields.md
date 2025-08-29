@@ -9,9 +9,9 @@ exl-id: 5027d611-916e-492d-9a44-841bdde11c94
 ---
 # Formula fields overview
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -108,8 +108,6 @@ For information, see the "Formula" section in the article [Create fields](/help/
 * You can reference formula fields in new formulas. Once the value is updated in a field referenced in a formula field, all subsequent fields referencing that field or formula fields that contain that field will update automatically.
 
 
-<!--
-
 <div class="preview">
 
 ## Limitations of formula fields
@@ -131,8 +129,6 @@ For information, see the "Formula" section in the article [Create fields](/help/
  
  </div>
  
- -->
-
 ## Supported formulas
 
 Adobe Workfront Planning formula fields support most of the expressions from the Workfront calculated fields. 
