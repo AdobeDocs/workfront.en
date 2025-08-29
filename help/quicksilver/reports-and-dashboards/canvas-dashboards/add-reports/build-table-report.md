@@ -11,11 +11,18 @@ exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
 
 >[!IMPORTANT]
 >
->The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
+>Please note that this beta is not available on the following cloud providers:
+>
+>* Bring Your Own Key for Amazon Web Services
+>* Azure
+>* Google Cloud Platform 
 
 You can add a table report to a Canvas Dashboard in order to visualize your data in a table format.  
 
 ![Table report example](assets/table-example-main.png)
+
+## Access Requirements
 
 +++ Expand to view access requirements. 
 
@@ -54,6 +61,7 @@ For more detail about the information in this table, see [Access requirements in
 
 You must create a dashboard before you can build a table report. 
 
+
 ## Build a table report in a Canvas Dashboard
 
 There are many configuration options available for building a table report. In this section, we'll walk you through the general process of creating one.
@@ -85,6 +93,8 @@ There are many configuration options available for building a table report. In t
     1. In the left panel, click the **Table columns** ![Build table icon](assets/drilldown-column.png) icon. 
 
     1. Click **Add column** and then select the field you want to display as a column in the table. The column appears in the preview section on the right.  
+
+  
 
     1. Repeat the above step for each column you want to add. 
 
@@ -184,3 +194,35 @@ For more information on table report examples, see [Create a report dashboard fo
         ![pending approval table filter example](assets/pending-approval-table-filter.png) 
     1. (Optional) Add additional filters as described in the **Optional filters** section below.
 1. Click **Save** in the top-right corner of the screen.
+
+## Considerations when building a table report
+
+### Utilizing the field selector
+
+The **Sections** drop-down in the **Build table** section is designed to narrow down the choices in a field selector to make an object easier to find when building a table report. To start, you would select a base entity object.
+
+* **All Sections**: All object types in Workfront Workflow and Workfront Planning.
+* **Workfront Objects**: Native Workfront Workflow objects.
+* **Planning Record Types**: Custom record types defined in Workfront Planning.
+
+![Sections drop-down](assets/sections-dropdown.png)
+
+Once the base entity object has been selected, the **Sections** drop-down then updates with applicable field type options to choose from.
+
+* **All Sections**: Native fields, custom fields, and related objects.
+* **All Fields**: Both native and custom fields (excludes relationships).
+* **Custom Fields**: Customer-defined fields either on a custom form or Planning record.
+* **Workfront Fields**: Native fields only.
+* **Relationships**: Connected records.
+
+![Reportable objects selection](assets/reportable-objects-selection.png)
+
+### Referencing children objects
+
+Available relationships for additional columns, filter options, and grouping attributes are generally limited to objects higher in the Workfront object hierarchy or otherwise have a single selection on the report's base entity object. There are some exceptions to this, which include the following:
+
+* Project > Tasks
+* Document Approval > Document Approval Stages
+* Document Approval Stages > Document Approval Stage Participants 
+
+When utilizing any of the parent-to-child relationships listed above, you will see a row in the table for each child record connected to the parent object.  
