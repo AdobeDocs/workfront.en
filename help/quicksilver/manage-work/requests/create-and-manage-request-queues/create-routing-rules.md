@@ -28,14 +28,13 @@ Once created, you cannot move routing rules from one project to another.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront packages</p></td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New license: Standard </p> 
-   Or
-   <p>Current license: Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -48,7 +47,7 @@ Once created, you cannot move routing rules from one project to another.
  </tbody> 
 </table>
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
