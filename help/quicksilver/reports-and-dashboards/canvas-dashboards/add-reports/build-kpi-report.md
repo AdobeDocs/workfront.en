@@ -11,11 +11,18 @@ exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
 
 >[!IMPORTANT]
 >
->The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
+>Please note that this beta is not available on the following cloud providers:
+>
+>* Bring Your Own Key for Amazon Web Services
+>* Azure
+>* Google Cloud Platform 
 
 You can build and add a KPI report to a Canvas Dashboard that visually represents your key performance indicator data as a number, which you can then use to see how your projects and teams are performing.   
 
 ![KPI report example](assets/kpi-example-main.png)
+
+## Access Requirements
 
 +++ Expand to view access requirements. 
 
@@ -101,6 +108,8 @@ There are many configuration options available for building a KPI report. In thi
 
     1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR. 
 
+        For more information on filters, see [Edit report filters in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+
 1. Follow the steps below to configure the **Drilldown Column Settings** section: 
 
     1. In the left panel, click the **Drilldown Columns** ![Drilldown columns icon](assets/drilldown-column.png) icon. The fields from your chart automatically appear as columns in the preview section on the right.  
@@ -168,5 +177,37 @@ For more information on KPI report examples, see [Create a report dashboard for 
     1. Leave the operator as **Equal**, then type _pending review_ in the textbox.
     ![Pending kpi filter example](assets/pending-kpi-filter.png)
 1. Click **Save** in the top-right corner of the screen.
+
+## Considerations when building a KPI report
+
+### Utilizing the field selector
+
+The **Sections** drop-down in the **Build KPI** section is designed to narrow down the choices in a field selector to make an object easier to find when building a table report. To start, you would select a base entity object.
+
+* **All Sections**: All object types in Workfront Workflow and Workfront Planning.
+* **Workfront Objects**: Native Workfront Workflow objects.
+* **Planning Record Types**: Custom record types defined in Workfront Planning.
+
+![Sections drop-down](assets/sections-dropdown.png)
+
+Once the base entity object has been selected, the **Sections** drop-down then updates with applicable field type options to choose from.
+
+* **All Sections**: Native fields, custom fields, and related objects.
+* **All Fields**: Both native and custom fields (excludes relationships).
+* **Custom Fields**: Customer-defined fields either on a custom form or Planning record.
+* **Workfront Fields**: Native fields only.
+* **Relationships**: Connected records.
+
+![Reportable objects selection](assets/reportable-objects-selection.png)
+
+### Referencing children objects
+
+Available relationships for additional columns, filter options, and grouping attributes are generally limited to objects higher in the Workfront object hierarchy or otherwise have a single selection on the report's base entity object. There are some exceptions to this, which include the following:
+
+* Project > Tasks
+* Document Approval > Document Approval Stages
+* Document Approval Stages > Document Approval Stage Participants 
+
+When utilizing any of the parent-to-child relationships listed above, you will see a row in the table for each child record connected to the parent object.  
 
 

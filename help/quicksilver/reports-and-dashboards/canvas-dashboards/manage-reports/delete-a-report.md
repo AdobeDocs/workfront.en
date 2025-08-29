@@ -11,12 +11,18 @@ exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
 
 >[!IMPORTANT]
 >
->The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
+>Please note that this beta is not available on the following cloud providers:
+>
+>* Bring Your Own Key for Amazon Web Services
+>* Azure
+>* Google Cloud Platform 
 
 Once a Canvas Dashboard is created and you've added reports to it, you can delete older reports that are no longer applicable for that specific dashboard. 
 
 Deleting a report is permanent. If you need to re-add a report after it's been deleted, you will need to recreate the report.  
  
+ ## Access Requirements
 
 +++ Expand to view access requirements. 
 
