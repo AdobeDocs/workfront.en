@@ -19,7 +19,7 @@ exl-id: 60f68ebd-6b98-476d-84b6-a6a2dce90d93
 >* Google Cloud Platform 
 
 
-Once a report is added to a Canvas Dashboard, they display as a report widget in the dashboard so you can quickly visualize its data at a glance. Once multiple reports have been added, you can set the size of each widget to best fit the contents of the report within the dashboard, and then adjust the position of each widget to display the data more effectively. 
+Once a report is added to a Canvas Dashboard, they display as a report widget in the dashboard so you can quickly visualize its data at a glance. Once multiple reports have been added, you can set the size of each widget to best fit the contents of the report within the dashboard and then adjust the position of each widget to display the data more effectively. 
 
 ## Access Requirements
 
