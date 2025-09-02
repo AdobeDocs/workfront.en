@@ -83,7 +83,7 @@ Feedback is appreciated as we develop this tool over the course of the beta. Ple
 
 1. On the **Canvas Dashboards Beta Feedback** page enter a **Feedback subject** and **Feedback description**. 
 
-1. (Optional) In the **Other details** section, select the type of activity that's related to your feebdack in the **Reporting actvitiy**  drop-down.
+1. (Optional) In the **Other details** section, select the type of activity that's related to your feedback in the **Reporting activity**  drop-down.
 
 1. (Optional) Select the object type you're leaving feedback for in the **Report object type** drop-down.
 
