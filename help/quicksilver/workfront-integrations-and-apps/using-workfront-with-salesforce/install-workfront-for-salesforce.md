@@ -43,7 +43,7 @@ For a general understanding about what you can expect by installing [!DNL Workfr
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Standard</p>
-   <p>Planr</p> </td> 
+   <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>

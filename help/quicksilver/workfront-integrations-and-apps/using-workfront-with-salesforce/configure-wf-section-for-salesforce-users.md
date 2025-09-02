@@ -45,7 +45,7 @@ For users to have [!DNL Workfront] available in both the [!DNL Classic] and [!DN
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Standard</p>
-   <p>Planr</p> </td> 
+   <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>

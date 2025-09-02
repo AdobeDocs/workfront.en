@@ -36,7 +36,7 @@ After installing [!DNL Adobe Workfront for Salesforce], you can submit [!DNL Wor
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Standard</p>
-   <p>Planr</p> </td> 
+   <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>

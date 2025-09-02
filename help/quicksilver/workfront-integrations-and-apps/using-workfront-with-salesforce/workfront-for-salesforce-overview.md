@@ -49,14 +49,12 @@ For more information about configuring the [!DNL Workfront] section in [!DNL Sal
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Standard</p>
-   <p>Planr</p> </td> 
+   <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
 
 +++
 
