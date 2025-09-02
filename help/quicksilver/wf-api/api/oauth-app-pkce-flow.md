@@ -16,25 +16,25 @@ PKCE is a secure authorization flow that works well with dynamically refreshing 
 
 A PKCE flow has the following steps. The steps in this section are presented for information only. To perform these procedures, see other sections in this article.
 
-1.  The client creates the `code_challenge` by transforming the `code_verifier` using `S256` encryption.
+1. The client creates the `code_challenge` by transforming the `code_verifier` using `S256` encryption.
     
-1.  The client directs the browser to the OAuth2 sign-in page, along with the generated `code_challenge`. You must register your app (Client) so that OAuth2 can accept the authorization request. After registration, your app can redirect the browser to OAuth2.
+1. The client directs the browser to the OAuth2 sign-in page, along with the generated `code_challenge`. You must register your app (Client) so that OAuth2 can accept the authorization request. After registration, your app can redirect the browser to OAuth2.
     
-1.  The OAuth2 Authorization Server redirects the authentication prompt to the User.
+1. The OAuth2 Authorization Server redirects the authentication prompt to the User.
     
-1.  The User authenticates using one of the configured login options, and may see a consent page listing the permissions OAuth2 will give to the application.
+1. The User authenticates using one of the configured login options, and may see a consent page listing the permissions OAuth2 will give to the application.
     
-1.  OAuth2 redirects back to your application with an `authorization code`.
+1. OAuth2 redirects back to your application with an `authorization code`.
     
-1.  Your application sends this code, along with the `code_verifier`, to OAuth2.
+1. Your application sends this code, along with the `code_verifier`, to OAuth2.
     
-1.  OAuth2 Authorization Server transforms the `code_verifier` using the `code_challenge_method` from the initial authorization request, and checks the result against the `code_challenge`. If the value of both strings match, then the server has verified that the requests came from the same client and will issue an `access token`.
+1. OAuth2 Authorization Server transforms the `code_verifier` using the `code_challenge_method` from the initial authorization request, and checks the result against the `code_challenge`. If the value of both strings match, then the server has verified that the requests came from the same client and will issue an `access token`.
     
-1.  OAuth2 returns the `access token`, and optionally a `refresh token`.
+1. OAuth2 returns the `access token`, and optionally a `refresh token`.
     
-1.  Your application can now use these tokens to call the resource server such as an API on behalf of the user.
+1. Your application can now use these tokens to call the resource server such as an API on behalf of the user.
     
-1.  The resource server validates the token before responding to the request.
+1. The resource server validates the token before responding to the request.
     
 
 ## Configure your application
@@ -107,17 +107,17 @@ If you are using the default Custom Authorization Server, then your request URL
 
 Note the parameters that are being passed:
 
-*   `client_id` matches the Client ID of the OAuth2 application that you created in the when configuring the application.
+* `client_id` matches the Client ID of the OAuth2 application that you created in the when configuring the application.
     
     For instructions, see Create an OAuth2 single-page web application using PKCE in Create OAuth2 applications for Workfront integrations.
     
-*   `response_type` is `code`, because the application uses the Authorization Code grant type.
+* `response_type` is `code`, because the application uses the Authorization Code grant type.
     
-*   `redirect_uri` is the callback location that the user agent is directed to along with the `code`. This must match one of the redirect URls that you specified when you created your OAuth2 application.
+* `redirect_uri` is the callback location that the user agent is directed to along with the `code`. This must match one of the redirect URls that you specified when you created your OAuth2 application.
     
-*   `code_challenge_method` is the hash method used to generate the challenge, which is always `S256` for Workfront Oauth2 applications that use PKCE.
+* `code_challenge_method` is the hash method used to generate the challenge, which is always `S256` for Workfront Oauth2 applications that use PKCE.
     
-*   `code_challenge` is the code challenge used for PKCE.
+* `code_challenge` is the code challenge used for PKCE.
     
 
 ## Exchange the code for tokens
@@ -142,15 +142,15 @@ To exchange the authorization code for an access token, pass it to your Authori
 
 Note the parameters that are being passed:
 
-*   `grant_type` is `authorization_code`, because the app uses the the Authorization Code grant type.
+* `grant_type` is `authorization_code`, because the app uses the the Authorization Code grant type.
     
-*   `redirect_uri` must match the URI that was used to get the authorization code.
+* `redirect_uri` must match the URI that was used to get the authorization code.
     
-*   `code` is the authorization code that you received from the /authorize endpoint.
+* `code` is the authorization code that you received from the /authorize endpoint.
     
-*   `code_verifier` is the PKCE code verifier that your app generated in [Create the Proof Key for Code Exchange](#Create).
+* `code_verifier` is the PKCE code verifier that your app generated in [Create the Proof Key for Code Exchange](#Create).
     
-*   `client_id` identifies your client and must match the value preregistered in OAuth2.
+* `client_id` identifies your client and must match the value preregistered in OAuth2.
     
 
 If the code is still valid, and the code verifier matches, your application receives an access token.
