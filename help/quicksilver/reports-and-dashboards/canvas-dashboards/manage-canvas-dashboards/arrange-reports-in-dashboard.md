@@ -11,9 +11,17 @@ exl-id: 60f68ebd-6b98-476d-84b6-a6a2dce90d93
 
 >[!IMPORTANT]
 >
->The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
+>Please note that this beta is not available on the following cloud providers:
+>
+>* Bring Your Own Key for Amazon Web Services
+>* Azure
+>* Google Cloud Platform 
 
-Once a report is added to a Canvas Dashboard, they display as a report widget in the dashboard so you can quickly visualize its data at a glance. Once multiple reports have been added, it's recommended to rearrange the size and order of each widget to display the dashboard data more efficiently.
+
+Once a report is added to a Canvas Dashboard, they display as a report widget in the dashboard so you can quickly visualize its data at a glance. Once multiple reports have been added, you can set the size of each widget to best fit the contents of the report within the dashboard and then adjust the position of each widget to display the data more effectively. 
+
+## Access Requirements
 
 +++ Expand to view access requirements. 
 
