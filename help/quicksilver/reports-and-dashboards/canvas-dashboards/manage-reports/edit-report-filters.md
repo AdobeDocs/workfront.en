@@ -151,15 +151,15 @@ For example, the wildcard `$$TODAYb+2w` refers to "2 weeks from the beginning of
 
 * When filtering on the user `name` attribute, you will view the **Me (Logged in user)** option.
 
-       ![User name attribute](assets/user-name-attribute.png)
+    ![User name attribute](assets/user-name-attribute.png)
 
 * When filtering on a group `name` attribute, you will view the **My home group (Logged in user group)** and **My other groups (Logged in user groups)** options to use in a filter condition.
 
-      ![Group name attribute](assets/group-name-attribute.png)
+  ![Group name attribute](assets/group-name-attribute.png)
 
 * When filtering on a team `name` attribute, you will view the **My default team (Logged in user team)** and **My other teams (Logged in user teams)** options to choose from in the filter condition.
 
-       ![Team name attribute](assets/team-name-attribute.png)
+    ![Team name attribute](assets/team-name-attribute.png)
 
 
 ### Referencing children objects
