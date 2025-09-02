@@ -52,7 +52,7 @@ You must have the following:
 Organizations need to work with their account managers to purchase AppBuilder. The exact process for this is not understood because we didn't need to do this for the POC.
 
 If you want to test AppBuilder integration, you can request a free trial for you IMS org here: 
-[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/overview/getting_access/#)
+[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/set-up#access-and-credentials)
 
 I am under the impression that even though it is a free 30-day trial, they won't actually deactivate the trial after that time.
 
@@ -83,7 +83,7 @@ If AppBuilder is configured properly, you should see "Create project from templa
 
 ## Adobe IO (aio) CLI
 
-Adobe provides an open source CLI that can be used to help create the App Builder applications. Documentation can be found here: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) as well as Adobe App Builder Instructions [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
+Adobe provides an open source CLI that can be used to help create the App Builder applications. Documentation can be found here: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) as well as Adobe App Builder Instructions [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app).
 
 1. Installation
     1. To install the tool, (make sure you are on node v18 first) run: `npm install -g @adobe/aio-cli `.
@@ -347,7 +347,7 @@ Adobe has great documentation on how to get started building apps for AppBuilder
 
 Here are some helpful links:
 
-* [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli)
+* [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#bootstrap-the-new-app-using-the-cli)
 
 * [https://developer.adobe.com/uix/docs/guides/publication/](https://developer.adobe.com/uix/docs/guides/publication/)
 
