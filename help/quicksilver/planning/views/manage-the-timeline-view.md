@@ -114,6 +114,12 @@ Consider the following:
 
 </div>
 
+<!--move this bullet under the same div as above OR add a span or another div tag?? ??
+
+* You can resize the records' bars in the timeline view. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+-->
+
 To manage a timeline view: 
 
 1. Go to the record type page for which you want to view the timeline. 
