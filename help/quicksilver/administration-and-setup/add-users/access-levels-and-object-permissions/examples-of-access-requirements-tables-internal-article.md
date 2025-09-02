@@ -229,7 +229,7 @@ And
 
  For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
- ## Access requirements for centralized record types in Workfront Planning
+## Access requirements for centralized record types in Workfront Planning
 
 Expand to view access requirements for the functionality in this article. 
 
