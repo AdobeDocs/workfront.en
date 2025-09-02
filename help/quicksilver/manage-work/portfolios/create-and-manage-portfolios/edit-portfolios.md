@@ -9,14 +9,13 @@ exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
 ---
 # Edit portfolios
 
-<!--
 <div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>-->
+</div>
 
 You can edit information on portfolios that you have created, or that other users have created if they shared them with you.
 
@@ -104,9 +103,9 @@ You can edit a portfolio in the portfolio page or you can edit portfolios in a l
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might have to be split in two sections if the single edit and the bulk edit won't come at the same time for portfolios)</p>
    -->
-   The **[!UICONTROL Edit Portfolio]** dialog box displays. <!--update screen shot at preview release-->
+   <span class="preview">The **[!UICONTROL Edit Portfolio]** box displays.</span> 
 
-   ![Edit portfolio box](assets/edit-portfolio-box-classic-350x224.png)
+   <span class="preview">![Edit portfolio box](assets/edit-portfolio-box-classic-350x224.png)</span>
 
    All portfolio fields are available in the [!UICONTROL Edit Portfolio] box and are grouped by the areas listed in the left panel.
 
@@ -164,17 +163,15 @@ You can edit a portfolio in the portfolio page or you can edit portfolios in a l
     </tbody> 
    </table>
 
-1. Click **[!UICONTROL Save Changes]** or continue editing the following sections.
-
-   <!--Replace the last point with this at preview release: Click **[!UICONTROL Save Changes]** <span class="preview">or [!UICONTROL **Save**]</span> and continue editing the following sections.-->
+1. Click **[!UICONTROL Save Changes]** <span class="preview">or [!UICONTROL **Save**]</span> and continue editing the following sections.
 
 ### Custom Forms
 
 1. Begin editing the portfolio as described above.
 1. Click the **[!UICONTROL Add Forms]** drop-down menu to select a custom forms and add it to the portfolio.
 
-   <!--Or 
-   <span class="preview">Start typing the name of a form in the [!UICONTROL **Add custom form**] field.</span>-->
+   Or 
+   <span class="preview">Start typing the name of a form in the [!UICONTROL **Add custom form**] field.</span>
 
    You must create portfolio custom forms before they are available to add.
 
@@ -182,20 +179,16 @@ You can edit a portfolio in the portfolio page or you can edit portfolios in a l
    >
    >Depending on how your [!DNL Workfront] administrator set the permissions for the sections in your custom form, not everyone can view or edit the same fields on a given custom form. The permissions to edit fields within a section of a custom form depend on the permissions you have on the portfolio itself. For information about setting permissions on sections of a custom form, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Update any fields in the custom forms, then click **[!UICONTROL Save Changes]** or continue with the following section.
-
-   <!--Replace the last point with this at preview release: Click **[!UICONTROL Save Changes]** <span class="preview">or [!UICONTROL **Save**]</span> and continue editing the following sections.-->
+1. Click **[!UICONTROL Save Changes]** <span class="preview">or [!UICONTROL **Save**]</span> and continue editing the following sections.
 
 ### Comment {#comment}
 
 1. Begin editing a portfolio as described above.
-1. Click **[!UICONTROL Comment]**. <!--replace screen shot at preview-->
+1. Click **[!UICONTROL Comment]**. 
 
-   ![Edit portfolio comment box](assets/comment-box-edit-portfolio-classic-350x227.png)
+   <span class="preview">![Edit portfolio comment box](assets/comment-box-edit-portfolio-classic-350x227.png)</span>
 
-1. Add a comment in the **[!UICONTROL Post an update to the portfolio]** field.
+1. <span class="preview">Add a comment in the **[!UICONTROL Add an update to the portfolio]** field.</span>
 1. (Optional) Click the **[!UICONTROL People]** icon to add a user or a team to the comment.
 1. (Optional) Click the **[!UICONTROL Lock]** icon to lock the comment and make it private to only users in your company.
-1. Click **[!UICONTROL Save Changes]**.
-
-   <!--Replace the last point with this at preview release: Click **[!UICONTROL Save Changes]** <span class="preview">or [!UICONTROL **Save**]</span>.-->
+1. Click **[!UICONTROL Save Changes]** <span class="preview">or [!UICONTROL **Save**]</span>.

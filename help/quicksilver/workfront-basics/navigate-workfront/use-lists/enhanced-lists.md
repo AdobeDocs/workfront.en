@@ -10,7 +10,7 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 
 {{preview-fast-release-general}}
 
-Enhanced lists are available in some areas of Adobe Workfront. These lists use a table format for displaying the list items, and they have a different look and feel than the standard lists.
+Enhanced lists are available in some areas of Adobe Workfront. These lists use a table format for displaying the list items, and they have a different look and feel than the standard lists. The management of views is also enhanced, including filtering, grouping, managing columns, and searching.
 
 For information about the standard lists, see [Get started with lists in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
@@ -62,7 +62,22 @@ Below are some types of Workfront object lists that use the enhanced list format
 Depending on the configuration of the enhanced list, there could be two ways to add an item to the list:
 
 * Click a button above the list. This option opens a dialog where you enter information and save it.
-* Click **New row** at the bottom of the list. This option adds a new row to the table, and you enter information in each cell. If a cell is limited to a specific data set (such as a currency name), you may be prompted to choose from a list or search for the name.
+* Click **New row** at the bottom of the list. This option adds a new row to the table, and you enter information in each cell.
+
+   Enhanced lists support these field types:
+
+   * Text
+   * Number
+   * Currency
+   * Date
+   * Date and time
+   * Single/multi select dropdowns
+   * Typeahead
+   * Paragraph
+   * Assignee (one or multiple)
+   * Color picker
+
+   When you edit a cell, each field type has its own editing options.
 
 To edit an item in the list, double-click in the cell you want to edit and type the information. Some cells may be read-only.
 
@@ -72,13 +87,19 @@ To edit an item in the list, double-click in the cell you want to edit and type 
 
 When you select the check box next to an item in the enhanced list, the action bar appears at the bottom of the screen and shows actions you can take on the item. Some actions might be specific to that list and do not appear on any other lists.
 
-Click a button on the action bar to take that action, such as viewing the list item, deleting the item, or making it the default item.
+>[!NOTE]
+>
+>Various enhanced lists might allow selecting a single item, bulk editing (selecting more than one item), or no item selection.
+
+Click a button on the action bar to take that action, such as viewing the list item, deleting the item, or editing the item.
 
 If no actions are available for the selected item, the action bar states "No available actions."
 
 ![Action bar example](assets/glist-action-bar-exchange-rates.png)
 
-The **More** menu is the three-dot menu that appears next to a list item when you hover over it. Click the menu to see additional actions for the item. Some actions might be specific to that list and do not appear on any other lists.
+The **More** menu is the three-dot menu that appears next to a primary field on a list item when you hover over it. (The primary field is the left-most column in the table.)
+
+Click the menu to see additional actions for the item. Some actions might be specific to that list and do not appear on any other lists.
 
 ![More menu example](assets/glist-more-menu-exchange-rates.png)
 
@@ -95,7 +116,9 @@ Some enhanced lists allow you to hide and display columns, and reorder the colum
 
    >[!NOTE]
    >
-   >A field might be always displayed or fixed in the first position, and you cannot change its column.
+   >The primary field is the left-most column in the table. It is fixed in the first position, and you cannot change its column. If the number of columns is large, then the primary field is frozen to the left, and when you scroll horizontally you will always see it.
+   >
+   >The icon next to a field name shows the field type, such as text or date field.
 
    <span class="preview">An indicator appears on the **Columns** button when columns are hidden. The indicator does not appear when you reorder columns.</span>
 
@@ -145,7 +168,7 @@ To sort individual columns, go to the column and click the down arrow. An icon n
 
 >[!NOTE]
 >
->If the list has a default item, that item will always be first in the list, regardless of how the list is sorted.
+>Some columns might not be sortable.
 
 ![Sort by a column](assets/glist-sort-by-column.png)
 

@@ -329,7 +329,7 @@ For information about creating a timeline view, see [Manage the timeline view](/
     * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
 
     The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
-
+<!--1. (Optional) Hover over the record's bar in the timeline and drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record.-->
 1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
 
     >[!TIP]
@@ -381,9 +381,9 @@ For information about creating a calendar view, see [Manage the calendar view](/
 
     * **Record date fields**: Update the dates of the record. 
         
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the calendar view was created.
 
-        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+        By default, date values are preselected depending on how you display the calendar view. The following scenarios exist:
 
         * By **Month**: The record start and end dates span one day.
         * By **Week**: The record start and end dates span two days.
