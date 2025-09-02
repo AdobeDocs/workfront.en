@@ -21,7 +21,7 @@ To know whether your organization is on the Adobe Unified Shell, examine the URL
 
 ## Access requirements 
 
-Expand to view access requirements for the functionality in this article.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,6 +44,8 @@ Expand to view access requirements for the functionality in this article.
 </table>
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 
 To locate your domain: 
