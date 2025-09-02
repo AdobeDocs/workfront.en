@@ -98,7 +98,6 @@ You must have the following access to perform the steps in this article:
    * Timesheets
    * Documents
    * Templates
-   * Proofing
    * Goals
 
      >[!NOTE]

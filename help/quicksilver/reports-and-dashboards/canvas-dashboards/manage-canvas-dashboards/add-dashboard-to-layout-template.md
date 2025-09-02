@@ -11,11 +11,18 @@ exl-id: 91ebcec5-99a4-4096-8d4e-b4ea31755d75
 
 >[!IMPORTANT]
 >
->The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
+>Please note that this beta is not available on the following cloud providers:
+>
+>* Bring Your Own Key for Amazon Web Services
+>* Azure
+>* Google Cloud Platform 
 
 You can add a Canvas Dashboard to a layout template so it replaces the Home landing page, appears in an object's left panel, or is pinned to the top bar throughout Adobe Workfront. 
 
 ![Left panel](assets/left-panel.png)
+
+## Access Requirements
 
 +++ Expand to view access requirements. 
 
