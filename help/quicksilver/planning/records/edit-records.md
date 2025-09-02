@@ -101,8 +101,8 @@ For information about creating records, see [Create records](/help/quicksilver/p
     * The record's details page
     * Inline, in a table view. 
 <!--* You can edit a record's dates from the following areas:
-    * All areas listed above
-    * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
+        * All areas listed above
+        * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
         For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
 
 * When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users.

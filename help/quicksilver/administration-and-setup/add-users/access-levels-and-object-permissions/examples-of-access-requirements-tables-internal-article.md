@@ -202,36 +202,24 @@ Expand to view access requirements for the functionality in this article.
 </col> 
 <tbody> 
 <tr> 
-<td> 
-   <p> Products</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront packages</p></td> 
    <td> 
-   <p> Adobe Workfront</p>
-   </td> 
-  </tr>  
-
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront Packages</p></td> 
-   <td> 
-<p>Any Adobe Workfront Workflow package and any Adobe Workfront Planning package</p> 
+<ul><li><p>Any Workfront package</p></li>
+And
+<li><p>Any Planning package</p></li></ul>
+Or
+<ul><li><p>Any Workflow package</p></li>
+And
+<li><p>Any Planning package</p></li></ul>
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront platform (****do we want to call this out, or just make it part of the article linked at the bottom???*****)</p></td> 
-   <td> 
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
-<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
-   </td> 
-   </tr> 
+
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p> Standard</p> 
+   <td><p>Standard</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
@@ -241,7 +229,40 @@ Expand to view access requirements for the functionality in this article.
 
  For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
- 
+## Access requirements for centralized record types in Workfront Planning
+
+Expand to view access requirements for the functionality in this article. 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront packages</p></td> 
+   <td> 
+
+<ul><li><p>Any Workfront or Workflow package</p></li>
+And
+<li><p>A Prime or Ultimate Planning package</p></li></ul>
+   </td> </tr>
+
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table> 
+
+ For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Access requirements for most of Scenario Planner
@@ -250,6 +271,42 @@ Expand to view access requirements for the functionality in this article.
 >
 >If your company has bought the Adobe Scenario Planner in the past, it has been grandfathered in. The Scenario Planner is not available for purchase anymore.
 
+Expand to view access requirements for the functionality in this article. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  
+  <td> <p>Adobe Workfront Package</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td> <p>Light or higher</p> 
+   Or
+   <p>Review or higher</p> </td> 
+  </tr> 
+  
+   <td><p>Access level configurations</p> </td> 
+   <td> <p>Edit access to the Scenario Planner</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>Manage permissions to a plan</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
+## Access requirements for most of Workfront Goals
+
+>[!NOTE]
+>
+>If your company has bought the Adobe Workfront Goals in the past, it has been grandfathered in. Adobe Workfront Goals is not available for purchase anymore.
 
 Expand to view access requirements for the functionality in this article. 
 
@@ -258,24 +315,24 @@ Expand to view access requirements for the functionality in this article.
  <col> 
  <tbody> 
   
-  <td> <p>[!DNL Adobe Workfront] Package</p> </td> 
+  <td> <p>Adobe Workfront Package</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
-   <td> <p>Light or higher</p> 
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td> <p>Contributor or higher</p> 
    Or
-   <p>[!UICONTROL Review] or higher</p> </td> 
+   <p>Requestor or higher</p> </td> 
   </tr> 
   
    <td><p>Access level configurations</p> </td> 
-   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> </td> 
+   <td> <p>Edit access to Goals</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Object permissions </p> </td> 
-   <td> <p>[!UICONTROL Manage] permissions to a plan</p>  </td> 
+   <td> <p>Manage permissions to a goal</p>  </td> 
   </tr> 
  </tbody> 
 </table>
