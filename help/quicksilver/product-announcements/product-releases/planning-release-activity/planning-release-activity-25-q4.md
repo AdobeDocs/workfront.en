@@ -16,6 +16,23 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+
+## New combined Status column in unified Request list 
+
+>[!NOTE]
+>
+>* Preview: August 28, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+To simplify the unified request experience, the Status column now displalys both Request Status and Approval Status, whichever applies to a given request.
+
+For more information on creating requests see:
+
+* For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
+
 ## New limits for formula fields
 
 >[!NOTE]

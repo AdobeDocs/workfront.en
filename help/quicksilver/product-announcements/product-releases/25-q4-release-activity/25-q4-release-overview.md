@@ -24,7 +24,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>25.8 (August 2025)</li><li>25.9 (September 2025)</li><li>25.10 (October 2025)</li></ul>| <ul><li>25.10 (October 2025)</li></ul>|
+>|<ul><li>25.8 (August 14, 2025)</li><li>25.9 (September 11, 2025)</li><li>25.10 (October 16, 2025)</li></ul>| <ul><li>25.10 (October 16, 2025)</li></ul>|
 >
 >Note that for the final release of each quarter (25.10 this quarter), users on the fast release schedule will receive the release one day early.
 >
@@ -36,8 +36,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Document and proofing enhancements](#document-and-proofing-enhancements)
 * [Home enhancements](#home-enhancements)
 * [Project enhancements](#project-enhancements)
-* [Requests enhancements](#requests-enhancements)
 * [Resource Management enhancements](#resource-management-enhancements)
+* [Requests enhancements](#requests-enhancements)
 * [Other enhancements](#other-enhancements)
 
 ### Administrator enhancements
@@ -51,11 +51,20 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Enable AI Beta features for your organization</a><p></p>
+            <p>To make it easier for you to see and influence upcoming AI features, we've made it possible for you to enable the Betas for those features for your organization. Now, you can choose to enable one or more of the currently available AI Beta features from your System Preferences.</p>
+        </td>
+        <td>August 28, 2025</td>
+        <td>September 11, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updates to the Workfront user profile</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updates to the Workfront user profile</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>We have updated the look and feel of the Workfront user profile to a modern design that is consistent with other areas of Workfront. These updates apply to both an administrator editing a single profile or bulk editing multiple profiles, or a user editing their own profile.</p>
-            <p>There are small functionality differences from the current user profile, including:</p>
+            <p>There are some small functionality differences from the current user profile, including:</p>
             <ul>
                 <li>Some check boxes (such as marking the user as active) have changed to toggles or buttons.</li>
                 <li>The "Send work I assign to myself to my Working On tab" option under Preferences was removed because it refers to a deprecated feature.</li>
@@ -67,7 +76,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Add multiple value options from an external API to a custom form</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Add multiple value options from an external API to a custom form</a><p></p>
             <p>A new field type, Multi-select external lookup, is now available on the custom form designer. When you have data stored on an external system, this field type allows you to load options from an external API and filter based on other field values in the custom form. This is the same as a single-select external lookup.</p>
             <p>When the form is added to an object, the values returned from the API appear in a dropdown field and the user can select multiple values.</p>
         </td>
@@ -160,36 +169,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> 
 
-### Requests enhancements
-
-<table style="table-layout:auto">
-  <tbody>
-   <tr>
-        <td><strong>Feature</strong>
-        </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
-    </tr>
-    <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
-            <p>To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. Now you can:
-            <ul>
-                <li>View Workfront and Workfront Planning requests in a single list.</li>
-                <li>Filter submitted requests based on criteria you specify.</li>
-                <li>Search for and select Workfront request queues and Workfront Planning forms in a consolidated experience.</li>
-                <li>Hide and reorder columns in the submitted requests list.</li>
-            </ul>
-            </p>
-        </td>
-        <td>August 21, 2025</td>
-        <td>September 11, 2025</td>
-        <td>October 16, 2025</td>
-    </tr>     
-  </tbody>
-</table> 
-
 ### Project enhancements
 
 <table style="table-layout:auto">
@@ -265,6 +244,45 @@ The <add release> release webinar will be held on <date>. You can [register for 
         </td>
         <td>July 31, 2025</td>
         <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
+### Requests enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">New combined Status column in unified Request list</a><p></p>
+            <p>TTo simplify the unified request experience, the Status column now displalys both Request Status and Approval Status, whichever applies to a given request.</p>
+        </td>
+        <td>August 28, 2025</td>
+        <td>September 11, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
+            <p>To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. Now you can:
+            <ul>
+                <li>View Workfront and Workfront Planning requests in a single list.</li>
+                <li>Filter submitted requests based on criteria you specify.</li>
+                <li>Search for and select Workfront request queues and Workfront Planning forms in a consolidated experience.</li>
+                <li>Hide and reorder columns in the submitted requests list.</li>
+            </ul>
+            </p>
+        </td>
+        <td>August 21, 2025</td>
+        <td>September 11, 2025</td>
         <td>October 16, 2025</td>
     </tr>     
   </tbody>
