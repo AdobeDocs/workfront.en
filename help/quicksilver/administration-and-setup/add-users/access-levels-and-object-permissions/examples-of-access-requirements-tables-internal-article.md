@@ -243,9 +243,13 @@ Expand to view access requirements for the functionality in this article.
    <td role="rowheader"><p>Adobe Workfront packages</p></td> 
    <td> 
 
-<ul><li><p>Any Workfront or Workflow package</p></li>
-And
-<li><p>A Prime or Ultimate Planning package</p></li></ul>
+  <ul><li><p>Any Workfront package</p></li>
+  And
+  <li><p>Planning Plus package</p></li></ul>
+  Or:
+  <ul><li><p>Any Workflow package</p> </li>
+  And
+  <li><p>Planning Prime or Ultimate package</p></li></ul>
    </td> </tr>
 
   </tr> 
