@@ -128,7 +128,7 @@ Additional instructions are available on GitHub and the Adobe Developer site:
     ![generation in process](assets/6-generation-in-process.png)
 1. Wait until you see a message that the app initialization is finished. Then you can open the project in an IDE (Visual Studio Code is recommended) and access the src folder.  
 
-    For more information on the folders and files in your project, see the [Adobe Developer site](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application).
+For more information on the folders and files in your project, see the [Adobe Developer site](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application).
 
 ## Build the extensions in VSCode  
 
