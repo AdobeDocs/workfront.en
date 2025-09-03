@@ -343,7 +343,7 @@ Expand to view access requirements for the functionality in this article.
 
 For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-## Access requirements example for Resource Management
+## Access requirements for Resource Management (example of multiple possible licenses; all RM packages are now Any)
 
 Expand to view access requirements for the functionality in this article.
 
@@ -388,4 +388,29 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 For more detail about the information in this table, see [Access requirements in documentation](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
 For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+
+## Advanced Enterprise Controls
+
+An article about group administrators mentions the package that the customer must be on for group administrators to have certain capabilities in Workfront.
+
+[Link to current article](/help/quicksilver/administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
+
+### Updated text for the third footnote under the table
+
+&#42;&#42;&#42; These packages include the Advanced Enterprise Controls features listed below:
+
+* Workflow Prime and higher
+* Workfront Prime and higher
+
+See the [Adobe Workfront pricing and packaging page](https://business.adobe.com/products/workfront/pricing.html) for more information about packages.
+
+Advanced Enterprise Controls:
+
+* Configure project, task, and issue preferences at the group level
+* Configure timesheet and hour preferences at the group level
+* Configure event notification emails at the group level
+* Create and manage group-specific approval processes
+* Allocate license limits and view their utilization by Home group
+* Assign group administrators on subgroups
+* Allow group administrators to create subgroups
 
