@@ -339,3 +339,33 @@ Expand to view access requirements for the functionality in this article.
 
 For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
+## Access requirements example for Resource Management
+
+Expand to view access requirements for the functionality in this article.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td>
+  </tr> 
+  <tr> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Light or higher for one project; Standard for multiple projects</p>
+       <p>Review or higher for one project; Plan for multiple projects</p></td>
+  </tr> 
+  <tr> 
+   <td>Access level configurations</td> 
+   <td> <p>View access or higher to Resource Management</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Object permissions</td> 
+   <td> <p>View permissions to projects and users </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
