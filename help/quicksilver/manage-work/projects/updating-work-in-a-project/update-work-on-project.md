@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "Update work on a project: article index"
+title: "Update work on a project: Article Index"
 description: To update the status and the progress of a project you must update the status and progress on its tasks. That eventually rolls up to show the progress on the project.
 author: Alina
 feature: Work Management

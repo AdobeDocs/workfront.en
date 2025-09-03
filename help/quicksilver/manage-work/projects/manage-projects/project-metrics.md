@@ -3,19 +3,49 @@ content-type: overview;how-to-procedural
 product-area: projects
 keywords: analytics,metrics,project,tasks,assignee,complete,status,overdue,upcoming
 navigation-topic: manage-projects
-title: Overview of project metrics
+title: Understand Project Metrics
 description: Project metrics give you a visualization of what is happening in a project, allowing you quickly assess the needs and status of a project. Find out how to interpret the Metrics area in the left panel of a project.
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
 ---
-# Overview of project metrics
+# Understand project metrics
 
 Project metrics give you a general view in chart format about how a project is performing.
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Light or higher</p>
+   <p>Review or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View access to Projects</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to a project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,11 +69,7 @@ Project metrics give you a general view in chart format about how a project is p
    <td> <p>View permissions to a project</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Prerequisites
 

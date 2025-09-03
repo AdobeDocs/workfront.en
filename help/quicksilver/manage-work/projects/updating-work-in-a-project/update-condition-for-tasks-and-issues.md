@@ -32,6 +32,43 @@ The Condition values that we refer to in this article are available in Workfront
  <col> 
  <tbody> 
   <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <ul><li><p>Standard for tasks</p></li>
+   <li><p>Contributor or higher for issues</p></li></ul>
+  <p>Or</p>
+   <ul><li><p>Work or higher for tasks</p></li>
+   <li><p>Request or higher for issues</p></li></ul>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View or higher access to projects</p> <p>Edit access to tasks and issues </p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions on tasks and issues to view their Condition</p>
+   <p>Contribute permissions on tasks and issues to update the Condition</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -57,11 +94,7 @@ The Condition values that we refer to in this article are available in Workfront
   </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Prerequisites
 
