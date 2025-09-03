@@ -16,6 +16,8 @@ exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
 >title="Deactivate a user"
 >abstract="Deactivating a user removes them from Workfront and Frame.io. Deactivated users can be reactivated later."
 
+{{highlighted-preview}}
+
 <!--Audited 5/2025-->
 
 <!--
@@ -82,7 +84,7 @@ For more detail about the information in this table, see [Access requirements in
 
 Before you deactivate a Workfront administrator or Standard or Plan license user, you must associate their objects and activities with another user. 
 
-For more information, see [About deactivating Workfront administrators and Plan license users](#about-deactivating-workfront-administrators-and-plan-license-users) in this article.
+For more information, see [About deactivating Workfront administrators and Standard or Plan license users](#about-deactivating-workfront-administrators-and-plan-license-users) in this article.
 
 ## Deactivate a user
 
@@ -121,9 +123,9 @@ To schedule a user for deactivation:
 
 1. Click the **Edit** icon ![Edit icon](assets/edit-icon.png).
 1. In the left panel of the **Edit User** box, click **Resource Planning**.
-1. Select the **Schedule Deactivation** checkbox.  
+1. Select the **Schedule Deactivation** checkbox, <span class="preview"> or click **Set deactivation date**</span>.
 
-1. Select the date and the time for the **Scheduled Deactivation Date**.
+1. Select the date and the time for the **Scheduled Deactivation Date** / <span class="preview">**Deactivation Date**</span>.
 
    >[!NOTE]
    >
@@ -131,7 +133,7 @@ To schedule a user for deactivation:
    >* If you select a time for the current day that has passed, Workfront will schedule the deactivation for the following day at 12:00 AM. 
    >* The time selected matches the computer timezone of the user who is scheduling the deactivation.
 
-1. Click **Save Changes**.
+1. Click **Save Changes** <span class="preview">or **Save**</span>.
 
 The user is deactivated on the selected day sometime after the selected time. If you selected multiple users to deactivate in bulk, all selected users are deactivated on the selected day sometime after the selected time.
 

@@ -23,5 +23,6 @@ Review these articles to learn how to use the Home area in Adobe Workfront.
 * [Update or edit a work item in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
 * [Create work items and projects from the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 * [Create and manage personal to-do item](/help/quicksilver/workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
+* [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
 * [Log time on a work item from the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 * [Mark an item as [!UICONTROL Done] in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)

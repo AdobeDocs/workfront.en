@@ -20,7 +20,7 @@ exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 
 {{planning-important-intro}}
 
-You can create a request form and associate it with a record type in Adobe Workfront Planning. You can then share the form with others and they can submit requests to create records. 
+You can create a request form and associate it with a record type in Adobe Workfront Planning. You can then share the form with others and they can submit requests to create records of that type. 
 
 This article describes how a workspace manager can create a request form associated with a record type. 
 
@@ -129,7 +129,11 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
    * The values of Paragraph fields display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
 
-## Create a request form for a record type
+## Begin creating a request form
+
+You can create a request form from the record type associated with the form, <span class="preview">or from the Requests area of Workfront.</span>
+
+### Create a request form from a record type
 
 {{step1-to-planning}}
   
@@ -143,12 +147,51 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
 
 1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Create request form** or **Manage request forms**, if you already have a form and you want to create additional ones.
 1. (Conditional) If you want to add another form, click **New request form**.
-1. Update the name of the request form. By default, the name of the form is **Untitled form**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?--> 
+
+   The Create request form box opens.
+
+1. In the Create request form box, update the name of the request form. By default, the name of the form is **Untitled form**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?--> 
 1. (Optional) Add a **Description** for the request form. 
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Click **Create**. The request form for the selected record type opens in the Form tab. 
+1. Click **Create**. 
+
+   The request form for the selected record type opens in the Form tab.
+1. Continue to [Configure the form](#configure-the-form).
+
+<div class="preview">
+
+### Create a request form from the Requests area of Workfront
+
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Requests**.
+1. In the upper-right corner of the screen, click **Request forms**.
+1. (Conditional) If you are editing an existing request form, select it from the list, then continue to [Configure the form](#confgure-the-form).
+1. If you are creating a new request form, in the upper-right corner of the screen, click **New request form**.
+
+   The Create request form box opens
+
+1. In the Create request form box, update the name of the request form. By default, the name of the form is **Untitled form**. 
+1. In the Object types field, select the record type that the request form will be associated with. Record types are grouped into the workspace that they exist within.
+1. (Optional) Add a **Description** for the request form. 
+
+   <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
+
+1. Click **Create**. 
+
+   The request form for the selected record type opens in the Form tab.
+1. Continue to [Configure the form](#configure-the-form).
+
+</div>
+
+## Configure the form
+
+1. Begin creating or editing a request form, as described in one of the following sections:
+
+   * [Create a request form from a record type](#create-a-request-form-from-a-record-type)
+   * <span class="preview">[Create a request form from the Requests area of Workfront](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+   
+    The request form for the selected record type opens in the Form tab. 
 
    ![Campaigns request form edit mode](assets/campaigns-request-form-edit-mode.png)
 

@@ -149,4 +149,14 @@ You can create a workspace and add record types to it to organize your objects i
 
    For more information about editing and deleting record types in a workspace, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
+1. (Optional) Click the back arrow to the left of the new workspace to open the Planning main page. A new workspace card is created for the new workspace in the **Workspaces I'm on** tab. 
+
+   The name of the user who created the workspace is saved on the workspace card as the Owner. 
+
+   >[!NOTE]
+   >
+   >For users that are currently being transitioned to the Adobe Identity Management System (IMS), workspaces created by Workfront-only users who are not IMS users display as created by the **System**. 
+   >
+   >For information about IMS, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
 

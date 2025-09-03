@@ -46,7 +46,7 @@ You can edit template task or you can edit template tasks in bulk.
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions </td> 
-   <td> <p>Manage permissions for a template. </p> <p>Contribute or higher permissions for the template task.</p> </td> 
+   <td> <p>Manage permissions for a template. </p> <p>You cannot share a template task. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -28,7 +28,7 @@ In the Audit Logs area, you can now track and troubleshoot changes in more areas
 * Changes a project preference or creates or deletes a custom quarter
 * Changes a task and issue preference
 
-For more information, see [Audit logs](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+For more information, see [Audit logs overview](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 This feature is now included in the [Admin Fundamentals for the new Workfront experience, Part 2: Project Setup](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
