@@ -130,7 +130,7 @@ Additional instructions are available on GitHub and the Adobe Developer site:
 
     For more information on the folders and files in your project, see the [Adobe developer site](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
 
-For more information on the folders and files in your project, see the [Adobe Developer site](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application).
+For more information on the folders and files in your project, see the [Adobe Developer site](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
 
 ## Build the extensions in VSCode  
 
