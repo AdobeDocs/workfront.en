@@ -100,6 +100,18 @@ For information about creating records, see [Create records](/help/quicksilver/p
     * The record's preview in a record view
     * The record's details page
     * Inline, in a table view. 
+<!--* You can edit a record's dates from the following areas:
+        * All areas listed above
+        * <span class="preview">In a timeline view, by resizing the record bars</span>
+         * <span class="preview">In a calendar monthly view, by resizing the record bars</span>
+        For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
+
+<!-- when drag and drop is available replace the last 2 points with this:
+
+* <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record bars in a new position</span>
+* <span class="preview">In a calendar view, by resizing the record bars when viewing it by month, or by dragging and dropping the record bars in a new position</span>
+    For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+-->
 
 * When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users.
 
@@ -117,10 +129,16 @@ For information about creating records, see [Create records](/help/quicksilver/p
 
 You can edit a record from the following areas:
 
-* [The table view of a record type](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [The table view](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [The timeline view](#edit-a-record-in-the-timeline-view-of-a-record-type)
+* [The calendar view](#edit-a-record-in-the-calendar-view-of-a-record-type)
 * [The record's preview in a view](#edit-a-record-from-the-records-preview-in-a-view)
 * [The record's page](#edit-a-record-from-the-records-page)
 * [A Workfront object in the Planning section](#edit-a-record-from-a-workfront-object-in-the-planning-section)
+
+To edit the records' dates, do the following:
+
+* [Resize the records' bars in the timeline and calendar view]
 
 ### Edit a record inline in the table view of a record type
 
@@ -211,6 +229,39 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     >    You can use the keyboard shortcuts multiple times in a row to undo multiple changes.
 
 1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+
+
+### Edit a record in the timeline view of a record type
+
+<!--add another step about drag and drop here when that is available-->
+
+1. Open the record type page in a timeline view. For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+<!--
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+
+-->
+
+1. Click the bar of a record to open its details area and edit all fields. 
+
+    For information, see the [Edit a record from the record's preview in a view](#edit-a-record-from-the-records-preview-in-a-view) section in this article. 
+
+### Edit a record in the calendar view of a record type
+
+<!--add another step about drag and drop here when that is available-->
+
+1. Open the record type page in a calendar view. For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+<!--
+1. (Conditional) Select **Month** in the upper-right dropdown menu.
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+-->
+
+1. Click the bar of a record to open its details area and edit all fields. 
+
+    For information, see the [Edit a record from the record's preview in a view](#edit-a-record-from-the-records-preview-in-a-view) section in this article. 
 
 ### Edit a record from the record's preview in a view
 

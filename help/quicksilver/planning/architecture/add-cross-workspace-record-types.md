@@ -39,47 +39,27 @@ For information, see [Configure cross-workspace capabilities for record types](/
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Products</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package*</p></td> 
    <td> 
-<p>Any of the following Workfront plans:</p> 
-<ul><li>Select</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning is not available for legacy Workfront plans</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
-   <td> 
-<p>Any </p> 
+<ul><li><p>Any Workfront package</p></li>
+And
+<li><p>Planning Plus package</p></li></ul>
+Or:
+<ul><li><p>Any Workflow package</p> </li>
+And
+<li><p>Planning Prime or Ultimate package</p></li></ul>
 <p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
-   <td> 
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
-<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
    </td> 
-   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td><p> Standard</p>
-   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
@@ -99,8 +79,9 @@ Considerations when adding existing record types from another workspace
 * After adding the record type from another workspace, the following information is also added from the existing record type:
 
    * Fields
-   * Records
    * Record connections
+
+* You can view records added from other workspaces, only when you have permissions to those workspaces. 
 
 * You can edit the record type, including its fields, only in its original workspace. You cannot edit it from the workspaces where it was added. 
 * Records added from all workspaces will be visible to all users accessing them from all workspaces, even if they are created in a workspace where they have no permissions. 
