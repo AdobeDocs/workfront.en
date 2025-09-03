@@ -38,7 +38,7 @@ For more information on request forms, see [Create and manage a request form in 
 >* Production fast release: October 15, 2025
 >* Production all: October 16, 2025
 
-In the calendar view of a record type page, you can now click and hold a record's left or right margins to modify its duration.
+In the calendar view of a record type page, you can now click, drag and drop a record's left or right margins to modify its duration.
 
 Moving a record's margins also modifies its start and end dates immediately.
 
@@ -72,13 +72,16 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 >* Production fast release: October 15, 2025
 >* Production for all customers: October 16, 2025
 
-In the timeline view of a record type page, you can now click and hold a record's left or right margins to modify its duration.
+In the timeline view of a record type page, you can now click, drag and drop a record's left or right margins to modify its duration.
 
 Moving a record's margins also modifies its start and end dates immediately.
 
 An outline appears to guide you to the new location before the event is resized.
 
-Resizing records in the timeline view is available when displaying the view yearly, quarterly, or monthly.
+>[!NOTE]
+>
+>Resizing records in the timeline view is available when displaying the view yearly, quarterly, or monthly.
+
 
 For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 
