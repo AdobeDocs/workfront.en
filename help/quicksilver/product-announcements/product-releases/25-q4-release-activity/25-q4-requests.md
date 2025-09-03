@@ -3,8 +3,6 @@ title: Fourth Quarter 2025 Requests enhancements
 description: Fourth Quarter 2025 Requests enhancements
 author: Courtney
 feature: Product Announcements
-hide: yes
-hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
 ---
@@ -14,12 +12,27 @@ This page describes Requests enhancements made with the Fourth Quarter 2025 rele
 
 For a list of all changes available at this point in the Fourth Quarter 2025 release cycle, see [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## New combined Status column in unified Request list 
+
+>[!NOTE]
+>
+>* Preview: August 28, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+To simplify the unified request experience, the Status column now displalys both Request Status and Approval Status, whichever applies to a given request.
+
+For more information on creating requests see:
+
+* For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
+
 ## Updates to Requesting experience 
 
 >[!NOTE]
 >
->* Preview: July 31, 2025
->* Production fast release: August 14, 2025
+>* Preview: August 21, 2025
+>* Production fast release: September 11, 2025
 >* Production for all customers: October 16, 2025
 
 To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. Now you can:

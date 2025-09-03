@@ -44,7 +44,9 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Cost]</td> 
-   <td> <p>For tasks and issues, this is the cost associated with the actual hours logged in relation to the Cost per hour rate of the resource assigned to the task or issue. For projects, this is a total of all [!UICONTROL Actual Costs] from tasks and issues on the project. For information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
+   <td> <p>For tasks and issues, this is the cost associated with the actual hours logged in relation to the Cost per hour rate of the resource assigned to the task or issue. For projects, this is a total of all [!UICONTROL Actual Costs] from tasks and issues on the project. For information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> 
+   
+  <p>[!UICONTROL Actual Cost] calculations takes into account [!UICONTROL Legacy Actual Hours]. For information, see "[!UICONTROL Actual Hours]" or "[!UICONTROL Legacy Actual Hours]" in this table. </p>   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Expense Cost]</td> 
@@ -62,7 +64,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
     </ul> 
-   <p>See also <strong>Legacy Actual Hours</strong>.
+   <p>See also <strong>[!UICONTROL Legacy Actual Hours]</strong>.
     <p>For more information, see <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">View Actual Hours</a>.</p>
     </td> 
   </tr> 

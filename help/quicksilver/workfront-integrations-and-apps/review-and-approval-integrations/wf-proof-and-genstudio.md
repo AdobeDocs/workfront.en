@@ -61,9 +61,9 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Integration requirements 
 
-* Workfront and GenStudio for Performance Marketing must be deployed to the same IMS Org.
+* Workfront and GenStudio for Performance Marketing must be deployed to the same Identity Management system (IMS) organization.
 
-* Users can belong to only one Workfront instance within the IMS org.
+* Users can belong to only one Workfront instance within the IMS organization.
 
 * The Workfront instance must be enabled on the Adobe Unified Experience.
 
