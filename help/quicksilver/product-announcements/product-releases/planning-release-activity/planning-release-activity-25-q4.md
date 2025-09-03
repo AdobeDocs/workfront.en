@@ -16,7 +16,97 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Resize records in the calendar monthly view
 
+>[!NOTE]
+>
+>* Preview: September 4, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025
+
+In the calendar view of a record type page, you can now click and hold a record's left or right margins to modify its duration.
+
+Moving a record's margins also modifies its start and end dates immediately.
+
+An outline appears to guide you to the new location before the event is resized.
+
+Resizing records in the calendar view is available only when displaying the view by month.
+
+For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+## Create records in the calendar view
+
+>[!NOTE]
+>
+>* Preview: September 4, 2025
+>* Production fast release: October 15, 2025
+>* Production for all customers: October 16, 2025
+
+You can now create records in the calendar view of a record type by double-clicking anywhere on the calendar.
+
+You can select the date range of your record or open the record's page to edit all its details.
+
+Prior to this enhancement, to add a record from the calendar view, you could only add new records by using the New record button.
+
+For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+## Resize records in the timeline view
+
+>[!NOTE]
+>
+>* Preview: September 4, 2025
+>* Production fast release: October 15, 2025
+>* Production for all customers: October 16, 2025
+
+In the timeline view of a record type page, you can now click and hold a record's left or right margins to modify its duration.
+
+Moving a record's margins also modifies its start and end dates immediately.
+
+An outline appears to guide you to the new location before the event is resized.
+
+Resizing records in the timeline view is available when displaying the view yearly, quarterly, or monthly.
+
+For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+## Control how many records display in the Calendar view
+
+>[!NOTE]
+>
+>* Preview: September 4, 2025
+>* Production fast release: October 15, 2025
+>* Production for all customers: October 16, 2025
+
+We have added the Row height setting in the Calendar view toolbar of a record page. You can now choose how many records display in a calendar cell by selecting one of the following options for the row height of the view:  
+
+* Short 
+* Standard 
+* Medium 
+* Tall 
+* Fit to content 
+
+The setting is available only when the calendar view displays by month. The setting is not available when the calendar displays by week.  
+
+For more information, including limits for each option, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).  
+
+
+## Add new choice to select-type fields in the table view
+
+>[!NOTE]
+>
+>* Preview: September 4, 2025
+>* Production fast release: October 15, 2025
+>* Production for all customers: October 16, 2025
+
+You can now add a new choice to a single- or multi-select field as you update the field value in the table view. For example, when the single-select field of Status has three choices and you want to have a fourth choice, you can add it as you edit the Status field of a record in the table view.
+
+Prior to this enhancement, you could add new choices only by editing the field.
+
+>[!NOTE]
+>
+>This functionality is available only when you update field values in the table view.
+
+
+For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 
 ## New combined Status column in unified Request list 
 
