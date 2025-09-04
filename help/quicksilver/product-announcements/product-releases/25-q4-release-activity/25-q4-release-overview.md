@@ -33,6 +33,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront enhancements
 
 * [Administrator enhancements](#administrator-enhancements)
+* [Dashboards]
 * [Document and proofing enhancements](#document-and-proofing-enhancements)
 * [Home enhancements](#home-enhancements)
 * [Project enhancements](#project-enhancements)
@@ -87,6 +88,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> 
 
+### Dashboards
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-dashboards.md" class="MCXref xref" xrefformat="{para}">New Canvas Dashboards open beta</a>
+            <p>The new Canvas Dashboards feature helps you easily visualize your Adobe Workfront data by adding report types onto a canvas that offers many flexible layout options, including resizing, dragging and dropping, and more.</p>
+        </td>
+        <td>August 26, 2025</td>
+        <td>August 26, 2025</td>
+        <td>August 26, 2025</td>
+    </tr> 
+</table> 
 
 ### Document and proofing enhancements
 
