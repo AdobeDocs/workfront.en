@@ -120,7 +120,11 @@ For more detail about the information in this table, see [Access requirements in
 
    * When a user is changing the condition for a task or issue in a list view:
 
-     ![Change condition in list](assets/change-conditions-list-dropdown-only.png)
+     ![Change condition in list](assets/change-conditions-list-dropdown-0925.png)
+
+     >[!NOTE]
+     >
+     >In the default Condition view, the **Condition Update** field is a type of field that can't be edited inline. When you add the **Condition** field to a view, it is editable. For information about inline editing, see [Inline edit items in a list in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 1. Click **Save**.
 
