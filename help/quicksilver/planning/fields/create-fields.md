@@ -258,13 +258,10 @@ Paragraph fields capture additional alphanumeric information about a record, sim
 
 You can use a multi-select field to capture additional information in any format by selecting more than one option from a drop-down menu. 
 
-<!--
 >[!NOTE]
 >
-><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's multi-select field value inline, in the table view. For more information, see the "Add new choices to an existing select field when
-editing records in the table view" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's multi-select field value inline, in the table view. For more information, see the "Edit information on single- or multi-select fields" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
 >
--->
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Multi-select** field type.
 
@@ -295,13 +292,11 @@ editing records in the table view" section in the article [Edit records](/help/q
 
 Single-select fields capture additional information in any format by selecting one option from a drop-down menu. 
 
-<!--
 >[!NOTE]
 >
-><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's single-select field value inline, in the table view. For more information, see the "Add new choices to an existing select field when
-editing records in the table view" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's single-select field value inline, in the table view. For more information, see the "Edit information on single- or multi-select fields" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
 >
--->
+
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Single-select** field type.
 

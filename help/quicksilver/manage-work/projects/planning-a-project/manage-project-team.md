@@ -101,8 +101,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
--->
+
 
 ## Add users to a Project Team
 

@@ -105,19 +105,12 @@ Consider the following:
     * When the Start or the End dates have no value, the record displays as a one-day event
     * When the Start date is after the End date, the record does not display on the calendar.
 
-<!--
 <div class="preview">
 
 * You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
-
-</div>
--->
-
-<!--move this bullet under the same div as above OR add a span or another div tag?? ??
-
 * You can resize the records' bars in the calendar monthly view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 
--->
+</div>
 
 To manage a calendar view: 
 
@@ -145,7 +138,7 @@ To manage a calendar view:
     
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)
-    <!--<span class="preview">[Row height](#modify-row-height)</span>-->
+    * <span class="preview">[Row height](#modify-row-height)</span>
     * [Settings](#edit-the-calendar-view-settings)
     
     <!--* [Grouping](#add-grouping)-->
@@ -269,7 +262,6 @@ To add a filter to a calendar view:
 1. (Optional) Click the **x** icon to remove a filter condition.
 1. (Optional) Click **Filters** to close the filters box. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!--
 <span class="preview">
 
 ### Modify row height
@@ -287,62 +279,55 @@ The number of records displayed in the calendar varies depending on how many fie
 1. (Conditional) Display the calendar view by month, then click **Row height** in the calendar's toolbar.    
 1. Choose from the following options: 
 
-<table>
-<thead>
-<tr>
-    <th><b>Row height option</b></th>
-    <th><b>Number of records</b></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td>Short</td>
-    <td><p>Contains:</p>
+    <table>
+    <thead>
+    <tr>
+        <th><b>Row height option</b></th>
+        <th><b>Default maximum number of records</b></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Short</td>
+        <td><p>Contains:</p>
 
-<ul><li>2 records displaying 1 field</li>
-<li>1 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr><td>Standard</td>
-    <td><p>Contains:</p>
+    <ul><li>2 records displaying 1 field</li>
+    <li>1 record displaying more than 1 field</li></ul>
+        </td>
+    </tr>
+    <tr><td>Standard</td>
+        <td><p>Contains:</p>
 
-<ul><li>4 records displaying 1 field</li>
-<li>2 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Medium</td>
-    <td><p>Contains:</p>
+    <ul><li>4 records displaying 1 field</li>
+    <li>2 record displaying more than 1 field</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Medium</td>
+        <td><p>Contains:</p>
 
-<ul><li>8 records displaying 1 field</li>
-<li>4 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Tall</td>
-    <td><p>Contains:</p>
+    <ul><li>8 records displaying 1 field</li>
+    <li>4 record displaying more than 1 field</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Tall</td>
+        <td><p>Contains:</p>
 
-<ul><li>12 records displaying 1 field</li>
-<li>6 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Fit to content</td>
-    <td><p>All records are visible, up to 500 records</p></td>
-</tr>
-</tbody>
-</table> 
+    <ul><li>12 records displaying 1 field</li>
+    <li>6 record displaying more than 1 field</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Fit to content</td>
+        <td><p>All records are visible, up to 500 records</p></td>
+    </tr>
+    </tbody>
+    </table> 
 
-1. (Optional) Click **Show more** if there are records that are not visible in the calendar. 
-
-    >[!TIP]
-    >
-    >The **Show more** option displays when you choose Fit to content and there are are more than 500 records in one time frame.
-
+1. (Optional) Click **more** if there are records that are not visible in the calendar. 
 
 </span>
-
--->
 
 ### Edit the calendar view settings
 
