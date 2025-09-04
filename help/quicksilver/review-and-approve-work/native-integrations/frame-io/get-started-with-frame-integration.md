@@ -18,17 +18,18 @@ For more information about Frame.io, see [Getting Started with Frame.io](https:/
 
 ## Work initiation and planning in Workfront
 
-Project coordinators can create projects and plan work in Workfront. 
+Project coordinators can create projects and plan work in Workfront. These projects utilize Adobe Enterprise Storage, which allows assets to be stored and managed within the Adobe ecosystem.
 
-If your organization has a Frame.io Enterprise license, you can use projects and see assets in both frame and wf. 
+If your organization has a Frame.io Enterprise license, projects created in Workfront are also visible in Frame.io, allowing users to interact and upload assets in either product. 
 
-plan the project
-assign tasks
-upload assets
+For information about Adobe Enterprise Storage or projects in Frame.io, see
+
+* [Adobe Enterprise Storage](link)
+* [Frame.io Projects](link)
 
 ## Review and approve assets
 
-Once a creative sends a finished asset to Workfront from Frame.io, the project coordinator can initiate the formal review and approval process in Workfront. 
+Once an asset is finished, the project coordinator can initiate the formal review and approval process in Workfront.
 
 After the approval workflow is created, reviewers and approvers can use the Frame.io viewer to add comments and mark up the asset. They can also make the approval decision in the Frame.io viewer.
 
@@ -51,10 +52,10 @@ Reviewers and approvers can be added to a single-use approval workflow or a reus
 
     Once a template is created, it can be applied to an asset to begin the formal review and approval process in Workfront.
 
-    For more information, see [Create an Approval Template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+    For more information, see [Create an Approval Template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
     
-![Assign template](assets/assign-template.png)
+    ![Assign template](assets/assign-template.png)
 
 #### Access the Frame.io viewer
 
@@ -71,7 +72,7 @@ Users can access the Frame.io viewer in the following ways:
 
 #### Add comments and mark up assets
 
-Comments and asset markup is visible in the Frame.io viewer. For more information on using the Frame.io viewer, see [Frame.io viewer link](link).<!--get link from Jared-->
+Comments and asset markup is visible in the Frame.io viewer. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 
 #### Make a decision
 
@@ -87,14 +88,10 @@ For more information about decisions in Workfront, see [Document decision status
 ![Frame viewer and decision](assets/decision-fio.png)
 
 
-<!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
-
-Reviewer/approver needs to go through email to get to frame vier
--->
-
 ### Track review and approval metrics
 
-Project coordinators can monitor progress on all in-flight approvals in the Workfront Home area with the following widget:
+Project coordinators can monitor progress on all in-flight approvals in the Workfront Home area or with customized reports in Canvas Dashboards:
 
-* **All approvals**: Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals.
+* **Custom dashboard**: Create a report dashboard in the Canvas Dashboards area to display both high-level and detailed information about reviews and approvals with Unified Approvals functionality. For information on how to get started, see [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+* **Document approval metrics Home widget**: Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals.
     ![All approvals](assets/all-approvals.png)
