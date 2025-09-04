@@ -23,7 +23,7 @@ You can change the order in which conditions display in projects, tasks and issu
 
   >[!NOTE]
   >
-  >In the default Condition view, the **Condition Update** field is a type of field that can't be edited inline. When you add the **Condition** field to a view, it is editable. For information about inline editing, see [Inline edit items in a list in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
+  >In the default Condition view, the **Condition** field is a type of field that can't be edited inline. When you add the **Condition** field separately to a view, it is editable. For information about inline editing, see [Inline edit items in a list in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 ## Access requirements
 

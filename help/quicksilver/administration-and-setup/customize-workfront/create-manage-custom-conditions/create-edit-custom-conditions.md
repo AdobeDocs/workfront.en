@@ -112,22 +112,23 @@ For more detail about the information in this table, see [Access requirements in
 
      ![Change condition when editing project](assets/change-condition-edit-project-0825.png)
 
-   <!-- 
-   * When a user is changing the condition for a task or issue on the Updates tab:
-
-     ![Change condition when updating comment](assets/change-condition-update-comment.png)
-   -->
-
    * When a user is changing the condition for a task or issue in a list view:
 
      ![Change condition in list](assets/change-conditions-list-dropdown-0925.png)
 
      >[!NOTE]
      >
-     >In the default Condition view, the **Condition Update** field is a type of field that can't be edited inline. When you add the **Condition** field to a view, it is editable. For information about inline editing, see [Inline edit items in a list in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
+     >In the default Condition view, the **Condition** field is a type of field that can't be edited inline. When you add the **Condition** field separately to a view, it is editable. For information about inline editing, see [Inline edit items in a list in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 1. Click **Save**.
 
 You can set your custom condition as a default condition for projects or for tasks and issues. For more information, see [Set a custom condition as the default for projects](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md) and [Set a custom condition as the default for tasks and issues](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
 
 For more information about custom conditions, see [Custom conditions](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+
+
+   <!-- THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
+   * When a user is changing the condition for a task or issue on the Updates tab:
+
+     ![Change condition when updating comment](assets/change-condition-update-comment.png)
+   -->
