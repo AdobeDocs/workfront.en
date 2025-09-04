@@ -33,7 +33,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront enhancements
 
 * [Administrator enhancements](#administrator-enhancements)
-* [Dashboards](#dashboards)
+* [Dashboards enhancements](#dashboards)
 * [Document and proofing enhancements](#document-and-proofing-enhancements)
 * [Home enhancements](#home-enhancements)
 * [Project enhancements](#project-enhancements)
@@ -88,7 +88,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> 
 
-### Dashboards
+### Dashboards enhancements
 
 <table style="table-layout:auto">
   <tbody>
