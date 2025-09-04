@@ -62,14 +62,18 @@ For more detail about the information in this table, see [Access requirements in
 
 In order to utilize Project Health, your organization must have AI Assistant enabled.  
 
-To enable AI Assistant for your organization, all of the following must apply: 
+To enable AI Assistant and Project Health for your organization, all of the following must apply: 
 
 * Your organization must have migrated to Adobe IMS (Identity Management System). 
+* Your organization must have a Select, Prime, or Ultimate Workfront plan
 * The Adobe Unified Experience must be enabled. 
 * Adobe must have a signed Adobe Gen AI agreement on file.
 * The Workfront administrator must enable AI Assistant for users in your organization. AI Assistant is enabled through access levels. 
+* Both the Enable AI and Project Health options must be selected in the AI preferences section at Setup > Preferences.
 
-For more information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+    ![AI Preferences section](assets/ai-preferences.png)
+
+For more information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) and [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## AI Assistant prompts list 
 
