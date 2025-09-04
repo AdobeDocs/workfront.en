@@ -211,7 +211,7 @@ For information, see [Manage project expenses](/help/quicksilver/manage-work/pro
 
 >[!NOTE]
 >
->Temporarily removed from Preview and Production
+>Available in Preview and will be available in Production in a phased roll-out starting on September 4, 2025.
 
 We have updated the look and feel of the Log time box when logging time for a project, task, or issue in the Hours section, to match the design of other areas of Workfront.  
 
