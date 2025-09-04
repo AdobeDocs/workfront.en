@@ -336,6 +336,9 @@ You can change any of the following in this sub-section:
    <td><p>Specify your preferred language here. This controls the language, date, and number format used in outgoing email messages.</p>
    <p><strong>NOTE:</strong> When your organization is on the Adobe Unified Experience, language preferences are stored in your Adobe profile and the email locale is not used. For more information, see <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Change the Adobe Experience Cloud language</a> in the article <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Supported languages in Adobe Workfront</a>.</p></td> 
   </tr>
+  <tr><td><strong>[!UICONTROL Send work I assign to myself to my Working On tab]</strong> </td>
+  <td>Select this option if you want the status of work you assign to yourself to automatically be set to In Progress instead of New.</td>
+  </tr>
   <tr> 
    <td role="rowheader"><strong>(Conditional) Automatically generate proofs when uploading documents</strong></td> 
    <td>Select this field to start generating a proof immediately after the document is loaded into [!DNL Workfront]. This field is disabled by default and can be updated only by a Workfront administrator.<br>This field is available only if your company has purchased the Workfront Proof component for Workfront and if you are enabled as a proof user. For more information about Workfront Proof, see <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Manage proofs within Adobe Workfront</a>.

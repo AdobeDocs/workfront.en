@@ -142,7 +142,7 @@ For more detail about the information in this table, see [Access requirements in
   >
   >This option is available only in the Preview and Sandbox environments. Email notifications are enabled in the Production environment by default.
 
-<!--* **Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **Send work I assign to myself to my Working On tab**: When this option is selected, work that the user self-assigns is automatically set to In Progress status instead of New. <!--This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **Automatically generate proofs when uploading documents**: Check this option if you want the documents that the user uploads to immediately generate a proof.
 
