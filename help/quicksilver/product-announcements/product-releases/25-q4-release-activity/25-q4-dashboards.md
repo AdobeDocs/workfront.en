@@ -23,3 +23,5 @@ For a list of all changes available at this point in the Fourth Quarter 2025 rel
 The new Canvas Dashboards feature helps you easily visualize your Adobe Workfront data by adding report types onto a canvas that offers many flexible layout options, including resizing, dragging and dropping, and more.
 With Canvas Dashboards, you can report on newly added Workfront features, including document approval decisions and Workfront planning.
 For more, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+
+We recommend enrolling in the Canvas Dashboards open beta in your Production environment to explore the new features and provide feedback.
