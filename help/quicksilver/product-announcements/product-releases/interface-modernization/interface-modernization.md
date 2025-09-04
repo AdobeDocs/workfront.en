@@ -18,6 +18,13 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+### Interface updates for the New and Copy Scorecard boxes  
+
+**Preview release: September 4, 2025; Production release: September 11, 2025**
+
+ We have updated the look and feel of the New and Copy Scorecard boxes to match the design in other areas of the application. You can view the updated design when creating or copying a scorecard in the Setup area of Workfront.  
+For information, see [Create a scorecard](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+
 ### Interface updates for the layout templates list in a group
 
 **Preview release: August 28, 2025; Production release: September 4, 2025**
