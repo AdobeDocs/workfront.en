@@ -329,7 +329,9 @@ For information about creating a timeline view, see [Manage the timeline view](/
     * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
 
     The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
-<!--1. (Optional) Hover over the record's bar in the timeline and drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record.-->
+    <!--1. (Optional) Hover over one of the record bar's margins in the timeline, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
+    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+
 1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
 
     >[!TIP]
@@ -367,7 +369,7 @@ For information about creating a calendar view, see [Manage the calendar view](/
     >You can create a calendar view only if there are at least two date fields associated with the record type.
 1. Double-click anywhere on the calendar. 
 
-    A new record box opens. (********might need a new screen shot for Production - might add a title etc*********)
+    A new record box opens. (********might need a new screen shot for Production - might add a title etc*********ALSO CHECK IF THE SAME ONE NEEDS REPLACING FOR TIMELINE?????)
 
     ![New record box on calendar with unnamed record bar](assets/new-record-small-box-on-calendar.png)
 
@@ -395,7 +397,9 @@ For information about creating a calendar view, see [Manage the calendar view](/
     * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
 
     The record is added to the calendar as well as to the table and timeline views immediately, unless you clicked the **Delete** icon. 
+1. (Optional and conditional) Choose **Month** from the upper-corner dropdown menu, hover over one of the record bar's margins in the calendar, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
 
+    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 1. (Optional) Click the record bar in the calendar to open the record's details window and update its information, delete it, or add comments. 
 
     >[!TIP]
@@ -404,9 +408,10 @@ For information about creating a calendar view, see [Manage the calendar view](/
     >
     >The thumbnail displays in the calendar view only when it is enabled in the Settings of the view. 
 
-</div>
+    (*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)
 
--->
+    </div> -->
+
 
 ## Create records by copying and pasting them from an external list
 
