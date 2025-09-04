@@ -133,7 +133,6 @@ The following file types are supported:
 <li>DOCX</li>
 <li>GIF</li>
 <li>JPEG</li>
-<li>JPEG</li>
 </ul>
 </td>
 <td>
