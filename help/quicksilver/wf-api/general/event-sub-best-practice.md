@@ -24,6 +24,10 @@ Make sure that all required request body fields are provided to the API. For inf
 
 Do not include extra body fields in the request, as this will result in the failure of the API to create a subscription.
 
+## Avoid overloading event subscriptions
+
+The event subscriptions service is designed to provide reliable delivery of events for all users. To ensure this, safeguards have been put into place to prevent excessive event production from a single user that could cause potential service quality issues for all users. As a result, a user that is producing too many events at a high rate within a short timeframe may experience sandboxing and event delivery delays.
+
 ## Complete testing within the grace period
 
 Try to get all subscription testing done within the 100-message grace period. To learn more about this grace period, see [FAQs - Event Subscriptions](../../wf-api/general/event-subs-faq.md).
