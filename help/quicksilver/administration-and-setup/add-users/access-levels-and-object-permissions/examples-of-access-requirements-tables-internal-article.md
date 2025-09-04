@@ -190,6 +190,33 @@ Package: workflow select, workflow prime, workflow ultimate
 Licenses: contributor, light, standard
 Package: planning select, planning prime, planning ultimate
 
+## Access requirements for Portfolio Optimizer
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Workfront Prime or higher</p> 
+   <p>Workflow Prime or higher</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Portfolios and Projects</p>  </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the portfolio</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 
 ## Access requirements for most of Workfront Planning
 

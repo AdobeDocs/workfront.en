@@ -10,9 +10,9 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 
 # Edit records
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -236,12 +236,10 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 <!--add another step about drag and drop here when that is available-->
 
 1. Open the record type page in a timeline view. For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-<!--
+
 1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
 
     <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
-
--->
 
 1. Click the bar of a record to open its details area and edit all fields. 
 
@@ -252,12 +250,10 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 <!--add another step about drag and drop here when that is available-->
 
 1. Open the record type page in a calendar view. For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-<!--
 1. (Conditional) Select **Month** in the upper-right dropdown menu.
-1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margins to another date. This automatically updates either the start or end date of the record.</span>  
 
     <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
--->
 
 1. Click the bar of a record to open its details area and edit all fields. 
 
@@ -383,19 +379,17 @@ After you connect records with Workfront objects, you can edit Workfront Plannin
 
 For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md). 
 
-
-<!--
-
 <div class="preview">
 
-## Add new choices to an existing select field when editing records in the table view
+## Edit information on single- or multi-select fields
 
-You can add new choices to an existing single- or multi-select field when editing records in the table view. 
+<!--some of this information is also available in Edit fields article - update both when necessary-->
+
+When editing information in a single-or multi-select field, you can add new choices to the field, without having to edit the field. 
 
 >[!IMPORTANT]
 >
 >The functionality described in this section is available only in the table view. It is not available in any other areas where single- or multi-select fields display.
-
 
 **EXAMPLE**
 
@@ -403,7 +397,6 @@ You might have a single-select field called Status that has the choices New and 
 
 * Editing the field. For information, see [Edit fields](/help/quicksilver/planning/fields/edit-fields.md)
 * Adding a new option while editing the record in the table view, as described below. 
-
 
 To add a new choice to an existing select field when editing a record: 
 
@@ -417,5 +410,3 @@ To add a new choice to an existing select field when editing a record:
     The new choice is added immediately to the single-select field. 
 
 </div>
-
--->
