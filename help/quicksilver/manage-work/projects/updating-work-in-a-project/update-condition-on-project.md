@@ -55,9 +55,9 @@ You must have the following access to perform the steps in this article:
 
 ## Automatically set the Condition
 
-Automatically setting the Condition of a project is determined by the Condition&nbsp;Type of the project.&nbsp;The Condition&nbsp;Type must be set to Progress Status for Workfront to automatically set the Condition of the Project.
+Automatically setting the Condition of a project is determined by the Condition Type of the project. The Condition Type must be set to Progress Status for Workfront to automatically set the Condition of the Project.
 
-Your Workfront or Group administrator determines the default of the Condition Type field for new projects in your system when setting project preferences in the Setup area.&nbsp;For more information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Your Workfront or Group administrator determines the default of the Condition Type field for new projects in your system when setting project preferences in the Setup area. For more information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 When you create a project, the Condition of the project is automatically set to match the Progress Status of the project at that time. The Progress Status of the project is based on the progress of the tasks on the project.
 
@@ -67,12 +67,12 @@ For information about project conditions and how they are calculated based on Pr
 
 If you set your project's Condition Type to Manual instead of Progress Status, you can manually update the Condition of a project.
 
-1. Go to the project for which you want to update the Condition. 
-1. Click the **Project Details** section in the left panel. 
+1. Go to the project for which you want to update the Condition.
+1. Click the **Project Details** section in the left panel.
 
 1. Ensure that the **Condition Type** field is set to **Manual**. 
 
-   ![](assets/project-details-overview-edit-enabled-with-condition-shot-nwe-350x251.png)
+   ![](assets/project-details-overview-select-condition.png)
 
 1. In the **Condition** field, select from the following options the one that matches your understanding of whether the work associated with it is going smoothly or whether there are any delays:
 

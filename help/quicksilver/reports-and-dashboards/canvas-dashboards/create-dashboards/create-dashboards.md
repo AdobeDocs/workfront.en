@@ -11,9 +11,16 @@ exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
 
 >[!IMPORTANT]
 >
->The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
+>Please note that this beta is not available on the following cloud providers:
+>
+>* Bring Your Own Key for Amazon Web Services
+>* Azure
+>* Google Cloud Platform 
 
 With Canvas Dashboards, you can create and add reports to a customizable dashboard to quickly visualize your account data. 
+
+## Access Requirements
 
 +++ Expand to view access requirements. 
 
@@ -47,6 +54,10 @@ With Canvas Dashboards, you can create and add reports to a customizable dashboa
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
+
+## Prerequisites
+
+ Canvas Dashboards must be enabled on the layout template configuration of the Dashboards page left navigation items.
 
 ## Create a dashboard
 

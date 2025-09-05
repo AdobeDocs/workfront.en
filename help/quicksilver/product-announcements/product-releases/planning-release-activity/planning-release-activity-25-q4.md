@@ -16,6 +16,162 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+<!--## Unified request form list now available
+
+>[!NOTE]
+>
+>* Preview: September 4, 2025
+>* Production fast release: September 11, 2025
+>* Production all: October 16, 2025
+
+To make it easier to find the request form you're looking for in Workfront Planning, we've created a unified list for request forms. Now, all request forms that you have access to can be found in a single list, regardless of the object they were created for. Clicking on a form in this list brings you to the request form's page, where you can edit, preview, or publish and unpublish the form.
+
+Previously, request forms were located only on the object for which they were created.
+
+For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## Resize records in the calendar monthly view
+
+>[!NOTE]
+>
+>* Preview: September 4, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025
+
+In the calendar view of a record type page, you can now click, drag and drop a record's left or right margins to modify its duration.
+
+Moving a record's margins also modifies its start and end dates immediately.
+
+An outline appears to guide you to the new location before the event is resized.
+
+Resizing records in the calendar view is available only when displaying the view by month.
+
+For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+## Create records in the calendar view
+
+>[!NOTE]
+>
+>* Preview: September 4, 2025
+>* Production fast release: October 15, 2025
+>* Production for all customers: October 16, 2025
+
+You can now create records in the calendar view of a record type by double-clicking anywhere on the calendar.
+
+You can select the date range of your record or open the record's page to edit all its details.
+
+Prior to this enhancement, to add a record from the calendar view, you could only add new records by using the New record button.
+
+For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+## Resize records in the timeline view
+
+>[!NOTE]
+>
+>* Preview: September 4, 2025
+>* Production fast release: October 15, 2025
+>* Production for all customers: October 16, 2025
+
+In the timeline view of a record type page, you can now click, drag and drop a record's left or right margins to modify its duration.
+
+Moving a record's margins also modifies its start and end dates immediately.
+
+An outline appears to guide you to the new location before the event is resized.
+
+>[!NOTE]
+>
+>Resizing records in the timeline view is available when displaying the view yearly, quarterly, or monthly.
+
+
+For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+## Control how many records display in the Calendar view
+
+>[!NOTE]
+>
+>* Preview: September 4, 2025
+>* Production fast release: October 15, 2025
+>* Production for all customers: October 16, 2025
+
+We have added the Row height setting in the Calendar view toolbar of a record page. You can now choose how many records display in a calendar cell by selecting one of the following options for the row height of the view:  
+
+* Short 
+* Standard 
+* Medium 
+* Tall 
+* Fit to content 
+
+The setting is available only when the calendar view displays by month. The setting is not available when the calendar displays by week.  
+
+For more information, including limits for each option, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).  
+
+
+## Add new choice to select-type fields in the table view
+
+>[!NOTE]
+>
+>* Preview: September 4, 2025
+>* Production fast release: October 15, 2025
+>* Production for all customers: October 16, 2025
+
+You can now add a new choice to a single- or multi-select field as you update the field value in the table view. For example, when the single-select field of Status has three choices and you want to have a fourth choice, you can add it as you edit the Status field of a record in the table view.
+
+Prior to this enhancement, you could add new choices only by editing the field.
+
+>[!NOTE]
+>
+>This functionality is available only when you update field values in the table view.
+
+
+For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+## New combined Status column in unified Request list 
+
+>[!NOTE]
+>
+>* Preview: August 28, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+To simplify the unified request experience, the Status column now displalys both Request Status and Approval Status, whichever applies to a given request.
+
+For more information on creating requests see:
+
+* For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
+
+## New limits for formula fields
+
+>[!NOTE]
+>
+>* Preview: August 28, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+We have placed the following limits on formula fields:
+
+* There is a limit of 20 formula fields per record type
+* There is a limit of 50,000 characters for a formula expression
+
+For more information, see [Formula field overview](/help/quicksilver/planning/fields/formula-fields.md).
+
+## Show error when formula values cannot be resolved
+
+>[!NOTE]
+>
+>* Preview: August 28, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+To indicate that there is a problem resolving a formula field, the field will now display as "#ERROR!" in one of the following cases:
+
+* When a field used in a formula is deleted.
+
+* When a field used in an aggregated lookup field displays as #ERROR!.
+
+* When a formula value cannot be displayed in the selected format.
+
+For information, see [Formula fields overview](/help/quicksilver/planning/fields/formula-fields.md).
 
 ## New expressions added to formula fields in Planning  
 

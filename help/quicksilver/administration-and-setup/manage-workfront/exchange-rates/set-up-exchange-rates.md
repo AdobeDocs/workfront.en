@@ -84,6 +84,10 @@ For more detail about the information in this table, see [Access requirements in
 
      The new default currency is updated with the icon.
 
+     >[!NOTE]
+     >
+     >The default currency always appears first in the list, regardless of how the list is sorted.
+
 1. (Optional) To delete a currency, select the check box next to the currency name and select **Delete** in the action bar at the bottom of the screen. You cannot delete the default currency.
 
 ## Enable users to modify the default currency for a project

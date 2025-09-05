@@ -124,14 +124,12 @@ To customize Home using a layout template:
       <p> You can:</p>
       <ul>
       <li><p>Select and order the Filters, Columns, or Groups available to users by checking the box next to the options in the list. Unchecked options will not appear for users.</p></li>
-      <li> <p>Drag and drop options in the list to set an order.</p></li>
       <p>
 
       >[!IMPORTANT]
       >
       >* The Filter, Columns, and Group options are linked to the list customization options in the Layout Template. Changes made here will apply to those settings as well.
       >* Users must have at least Create access to Views in order for administrator column configuration to properly apply to their Home pages.
-
       </p>
       <li><p>Set a default Filter or Group for the widget, by hovering over an option and clicking <b>Set as default</b>. The current default displays a blue <b>Default</b> badge to its right.</p></li>
       <li><p>Add an existing Filter, Column, or Group to the list of available options by clicking the plus sign button at the bottom of each list to add an option to that list. Note that only existing Filters, Fields (for Columns), or Groups can be added in this way.</p></li>
