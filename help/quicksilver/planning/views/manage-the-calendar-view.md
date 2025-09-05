@@ -105,6 +105,13 @@ Consider the following:
     * When the Start or the End dates have no value, the record displays as a one-day event
     * When the Start date is after the End date, the record does not display on the calendar.
 
+<div class="preview">
+
+* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+* You can resize the records' bars in the calendar monthly view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+</div>
+
 To manage a calendar view: 
 
 1. Go to the record type page for which you want to view the calendar. 
@@ -131,7 +138,9 @@ To manage a calendar view:
     
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)
+    * <span class="preview">[Row height](#modify-row-height)</span>
     * [Settings](#edit-the-calendar-view-settings)
+    
     <!--* [Grouping](#add-grouping)-->
     <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
 
@@ -160,7 +169,7 @@ Consider the following when working with filters in the calendar view:
 To add a filter to a calendar view: 
 
 1. Create a calendar view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Select a calendar view, then click **Filters** in the upper-right corner of the table.    
+1. Select a calendar view, then click **Filters** in calendar's toolbar.    
 1. Click **Add condition** and add the following information: 
 
     * **Select a field** that you want to filter by <!-- the tip below might change-->
@@ -252,6 +261,73 @@ To add a filter to a calendar view:
 
 1. (Optional) Click the **x** icon to remove a filter condition.
 1. (Optional) Click **Filters** to close the filters box. <!--right now you cannot "clear all" for filters, but this might come later-->
+
+<span class="preview">
+
+### Modify row height
+
+You can modify the row height of a calendar cell to increase or decrease the number of record bars you display in each cell. 
+
+The number of records displayed in the calendar varies depending on how many fields you display on the records' bars. 
+
+>[!TIP]
+>
+>This setting is available only when viewing the calendar by month. 
+
+
+1. Create a calendar view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. (Conditional) Display the calendar view by month, then click **Row height** in the calendar's toolbar.    
+1. Choose from the following options: 
+
+    <table>
+    <thead>
+    <tr>
+        <th><b>Row height option</b></th>
+        <th><b>Default maximum number of records</b></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Short</td>
+        <td><p>Contains:</p>
+
+    <ul><li>2 records displaying 1 field</li>
+    <li>1 record displaying more than 1 field</li></ul>
+        </td>
+    </tr>
+    <tr><td>Standard</td>
+        <td><p>Contains:</p>
+
+    <ul><li>4 records displaying 1 field</li>
+    <li>2 record displaying more than 1 field</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Medium</td>
+        <td><p>Contains:</p>
+
+    <ul><li>8 records displaying 1 field</li>
+    <li>4 record displaying more than 1 field</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Tall</td>
+        <td><p>Contains:</p>
+
+    <ul><li>12 records displaying 1 field</li>
+    <li>6 record displaying more than 1 field</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Fit to content</td>
+        <td><p>All records are visible, up to 500 records</p></td>
+    </tr>
+    </tbody>
+    </table> 
+
+1. (Optional) Click **more** if there are records that are not visible in the calendar. 
+
+</span>
 
 ### Edit the calendar view settings
 

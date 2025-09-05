@@ -9,11 +9,19 @@ exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 ---
 # Convert a task to a project
 
+<!--<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div>-->
+
 When a task in a project requires a larger amount of effort to complete than you originally planned, you can convert it to a project.
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +46,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerations for converting tasks to projects
 
@@ -160,7 +170,7 @@ You must have the following access to perform the steps in this article:
 1. Click the **More** icon ![](assets/more-icon.png), then **Convert to Project**. 
 1. Choose either the following options:
 
-   * **New Project** 
+   * **New Project**, to create a project without using a template
    * A template in the **Select From Templates** section
 
      ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
@@ -168,15 +178,15 @@ You must have the following access to perform the steps in this article:
 1. Click **Continue** on the notification that appears.
 1. In the **Convert to Project** box, specify the following:
 
-   * **Name**: Name your project. The default name is the name of the task.
-   * (Optional) **Description**: Describe the purpose for this project.
-   * (Optional and conditional) If you have selected to create a project from a template, update the available fields in the **Convert to Project** dialog box.
+   * **Name**: Name your project. The default name is the name of the task. This is a required field. 
+   * **Description**: Describe the purpose for this project.
+   * (Conditional) If you have selected to create a project from a template, update the available fields in the **Convert to Project** box.
 
      For more information about editing fields on projects, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
-     >To update fields in the Finance section in the Convert to Project box you must have Edit access to Financial&nbsp;Data in your access level.&nbsp;If you have View access to Financial Data in your access level all financial information from the template transfers to the new project and you cannot edit it while you convert the issue. For information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Share a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     >To update fields in the Finance section in the Convert to Project box you must have Edit access to Financial Data in your access level. If you have View access to Financial Data in your access level all financial information from the template transfers to the new project and you cannot edit it while you convert the issue. For information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Share a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
    * (Optional) Add **Custom Forms** to the new project.
 
@@ -185,6 +195,6 @@ You must have the following access to perform the steps in this article:
      >If a multi-object custom form attached to the task is configured for use with both tasks and projects, all information saved in the form is retained when you make the conversion.
      >
      >
-     >If you are using a template for the conversion and a custom form attached to the template contains a custom field also found in a custom form attached to the task, the field value from the task is used for the new project. However, if the custom field is blank on the task, the value from the template is used.
+     >If you are using a template for the conversion and a custom form attached to the template contains a custom field also found in a custom form attached to the task, the field value from the task is used for the new project. However, if the custom field is empty on the task, the value from the template is used.
 
-1. Click **Save Changes**.
+1. Click  **Convert to Project**.

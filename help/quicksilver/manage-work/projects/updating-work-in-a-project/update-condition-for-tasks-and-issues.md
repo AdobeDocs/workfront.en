@@ -128,8 +128,9 @@ You can manually update the Condition of tasks and issues in various areas of Wo
      * Some Concerns
      * Major Roadblocks
 
-     ![](assets/condition-in-task-header.png)
-1. Click Enter to save the Condition. 
+     ![](assets/condition-in-task-header-0925.png)
+
+<!--1. Click Enter to save the Condition.-->
 
 ### Update the Condition of a task or issue in the task or issue Details section
 
@@ -145,14 +146,17 @@ You can manually update the Condition of tasks and issues in various areas of Wo
 
 1. Update the **Condition** of the issue or task inline, by double-clicking the existing condition and selecting a new value from the drop-down menu. 
 
-     ![](assets/condition-drop-down-values-in-task-list.png)
+     ![](assets/condition-values-in-task-list-0925.png)
 
      >[!NOTE]
      >
      >Conditions can be customized for your environment, so you may find more than three options for Condition in your environment. The names of the Conditions might be different than the ones listed above. For information about customizing Conditions in Workfront, see [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
+1. Press **Enter** on your keyboard, or click outside the Condition field to save the new task or issue Condition.
 
-1. Press **Enter** on your keyboard, or click outside the Condition field to save the new task or issue Condition. 
+     >[!NOTE]
+     >
+     >In the default Condition view, the **Condition** field is a type of field that can't be edited inline. When you add the **Condition** field separately to a view, it is editable. For information about inline editing, see [Inline edit items in a list in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 <!--   
 <li><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md">Views overview in Adobe Workfront</a>.</p></li>   

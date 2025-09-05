@@ -13,9 +13,9 @@ exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Projects represent a large amount of work that needs to be done in Adobe Workfront.
 
@@ -110,16 +110,11 @@ You can create a project in Workfront using one of the following methods:
 
 * Publish an initiative from a scenario in the Adobe Workfront Scenario Planner. 
 
-  The Scenario Planner requires one of the following:
-
-    * An additional license for the current Workfront license structure. 
-    * An Ultimate license for the new Workfront License structure. 
+  For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). 
   
-  For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). For information about creating projects from publishing initiatives, see  [Update or create projects by publishing initiatives in the Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
+  For information about creating projects from publishing initiatives, see  [Update or create projects by publishing initiatives in the Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
 
-* Add projects as you connect them from a record type in Workfront Planning. In the Production environment, you can create only projects without templates from Workfront Planning. <span class="preview">You can create projects using a template in the Preview environment.</span>
-
-  You must have a new Workfront license and an additional Workfront Planning license for Workfront Planning. 
+* Add projects as you connect them from a record type in Workfront Planning. 
 
   For information about access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
 

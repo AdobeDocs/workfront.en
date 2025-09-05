@@ -15,6 +15,8 @@ exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
 >
 >Content in this article was replaced with content from the Get started with new Home article. New Home will now be referred to as Home. 
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span> 
+
 The new Home experience in Adobe Workfront aims to improve the current Home experience while providing a more flexible way for you to focus on the right work.
 
 The new Home is a powerful new feature for managing your work. You can customize this flexible space to highlight the work that is most important to you and streamline your task, issue, request, and approval management.
@@ -48,6 +50,9 @@ Below are the 11 widgets currently available to choose from, as well as a summar
 
 * **My requests**\
     Displays all requests you have submitted, a filter to only display open requests, and a button that opens the summary panel for a request.
+
+    <span class="preview">In the Preview environment, this widget displays all requests you have submitted, a filter to display only requests that meet criteria you specify, and a button that allows you to rearrange the columns in the widget.</span>
+
 
 * **Team requests**\
     Displays all pending requests for teams that you are on sorted by team, as well as buttons to directly assign a request to a user or to work on it yourself.
