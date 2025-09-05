@@ -12,12 +12,35 @@ You can now install partner-built apps for Workfront directly from Adobe Exchang
 
 Adobe Exchange is the central marketplace for third-party applications, extensions, and integrations across Adobe Experience Cloud—including Adobe Workfront. For Workfront customers, it's the go-to destination to discover and install apps that enhance functionality, streamline workflows, and integrate with external systems. 
 
-
 ## Adobe partner apps
 
-At the heart of this innovation is the Workfront Partner Network, a growing ecosystem of technology partners—independent software vendors (ISVs) who build scalable, secure, and extensible apps using Adobe App Builder and Workfront UI Extensions. 
+The Workfront Partner Network is a growing ecosystem of technology partners—independent software vendors (ISVs) who build scalable, secure, and extensible apps using Adobe App Builder and Workfront UI Extensions. 
 
-These partners use UI Extensions to embed their apps directly into the Workfront interface. Once installed from Adobe Exchange, Workfront administrators can add these apps to layout templates, making them visible and actionable within the Workfront experience. This seamless integration allows users to interact with partner-built tools—such as reporting utilities, automation widgets, or data connectors—without leaving Workfront. 
+Workfront partners leverage Workfront UI Extensions, a powerful framework that allows apps to be embedded directly into the Workfront interface. Once installed from Adobe Exchange, Workfront administrators can add these apps to layout templates, making them visible and accessible to users within their daily workflows. This seamless integration ensures that users can interact with partner-built tools—such as dashboards, approval flows, or campaign trackers—without leaving the Workfront environment. 
+
+### AtApp 
+
+#### Real-time results, right inside Adobe Workfront 
+
+We partner with Adobe Workfront customers to turn everyday bottlenecks into repeatable solutions with predictable outcomes. Our growing library of solutions helps you drive accuracy, speed, and accountability using live data from right where people work. You can help leaders see what is happening now and plan what should happen next. Explore the AtAppStore Adobe Exchange apps currently available and ready to install, then choose the ones that match your current priorities, then scale as your needs grow. 
+
+* [Excel Updater](https://exchange.adobe.com/apps/ec/abtt1rq7o9/atapp-excel-updater): Excel Updater solution affords you a cost-effective path to integrate data into Workfront without having to learn the API, write code, or set up a server, and is ideal for both one time and recurring data loads. 
+
+* [Recalc Helper](https://exchange.adobe.com/apps/ec/abv755903t/atapp-recalc-helper): Recalc Helper solution provides you a quick way to easily recalculate the custom form calculated expressions, project timelines, or project finances for all items matching a selected filter, right from within Workfront. 
+
+* UberTimesheet: UberTimesheet solution can improve and expand your users' adoption of Workfront by making it simple and convenient for everyone to track time from their browser, tablet, or smart phone, after the fact. 
+
+### Workfocus 
+
+Workfocus delivers advanced automation and integration solutions for Workfront. Their apps focus on: 
+
+* Streamlining timelines 
+
+* Automating Fusion workflows 
+
+* Enabling cross-instance collaboration 
+
+Workfocus apps are designed to operate natively within Workfront, leveraging UI Extensions to provide users with powerful tools that enhance productivity and reduce manual effort. 
 
 ## Prerequisites and permissions
 
@@ -56,12 +79,13 @@ To acquire an app
 1. Click the name of the app.
 1. Click the button located in the top-right corner of the app listing. 
 1. Click **Yes, continue** and then accept the end-user license agreement.
+    ![confirm license agreement](assets/2-aquire-application.png)
 
 ### Actions for System Administrators 
 
 When a user acquires an app from Adobe Exchange, they may see the following message: _Your system administrator must approve your acquisition before you can install and use your application._ 
 
-This means the app requires admin-level approval before installation can proceed. System admins can find the request from the following areas:
+This means that the app requires admin-level approval before installation can proceed. System admins can find the request from the following areas:
 
 **Notifications** 
 
@@ -75,6 +99,8 @@ Once a system administrator has access to the requests, they can review and appr
 
 Once approved, the app becomes available for installation. 
 
+![review and approve apps](assets/3-manage.png)
+
 ## Install apps
 
 Once an app is acquired, it can be installed directly into Workfront. Administrators can manage installed apps through the Workfront interface, ensuring they are properly configured and accessible to users.
@@ -82,48 +108,20 @@ Once an app is acquired, it can be installed directly into Workfront. Administra
 1. Find the app you want to install and open the Actions menu on the right side of the screen. 
 1. Click View app details. 
 1. Select an environment on the left side of the screen or add a new one. 
-1. Click **Deploy**. 
-1. 
+1. Click **Deploy**.
+    ![deploy app](assets/10-env-details-2.png)
+1. Assign Installation or Usage Rights (if required).
 
-
-4. Assign Installation or Usage Rights (if required) 
-
-If your organization controls app access via product profiles or user groups, assign the app to the appropriate profile or group so users can proceed with installation and use. 
-
-5. Install and Configure 
-
-Admins can then: 
-
-Click "Begin Installation" or "Manage" if the app has already been acquired 
-
-Follow app-specific instructions provided in the Exchange listing 
-
-In developer console? 
-
-## Contacting App support 
-
-Extensions installed from Adobe Exchange are supported by the app owners. From manage apps, you can click **Get support** to get help with any issues.
+    If your organization controls app access via product profiles or user groups, assign the app to the appropriate profile or group so users can proceed with installation and use. 
 
 ## Add to Layout Template 
 
-1. In Workfront, go **to Setup** > **Layout Templates**. 
+Once deployed, the partner app will be available in the Workfront layout template. You can add the app to primary or secondary navigation to use in Workfront. 
 
-1. Select the layout template you want to modify.
+To add the app to the layout template, open the layout template and go to the Main Menu or secondary menu area. Add the app using the Add icon.
 
-1. Click **Edit** and choose the section you need.
+![add app to the layout template](assets/add-to-lt.png)
 
-1. Use the **Add Extension** option to insert the app into the desired location. 
+## Contact App support
 
-1. Choose the installed extension from the list, and configure its visibility settings. 
-
-1. Click **Save** to apply changes to the layout template.
-
-1. Confirm that the extension appears in the Workfront interface for users assigned to that layout. 
-
-1. Verify Access. 
-
-1. Ensure that users have the necessary permissions via product profiles or user groups (as configured in the Admin Console). 
-
-1. Test the extension to confirm it loads and functions as expected within the Workfront environment. 
-
- 
+Extensions installed from Adobe Exchange are supported by the app owners. From manage apps, you can click **Get support** to get help with any issues.
