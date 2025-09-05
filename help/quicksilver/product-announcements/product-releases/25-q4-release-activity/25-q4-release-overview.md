@@ -26,7 +26,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >|----|----|
 >|<ul><li>25.8 (August 14, 2025)</li><li>25.9 (September 11, 2025)</li><li>25.10 (October 16, 2025)</li></ul>| <ul><li>25.10 (October 16, 2025)</li></ul>|
 >
->Note that for the final release of each quarter (25.10 this quarter), users on the fast release schedule will receive the release one day early.
+>Note that for the final release of each quarter (25.10 this quarter), users on the fast release schedule will receive the release one day early (October 15, 2025).
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
 
