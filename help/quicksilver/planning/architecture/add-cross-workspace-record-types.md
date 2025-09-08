@@ -27,6 +27,8 @@ You can designate a record type as centralized when you create or edit it, as yo
 
 For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). 
 
+Before adding records to a workspace from a cenralized record type, see the article [Centralized record types overview](/help/quicksilver/planning/architecture/centralized-record-types-overview.md). 
+
 ## Access requirements
 
 +++ Expand to view the access requirements for the functionality in this article.
@@ -42,7 +44,7 @@ For information, see [Configure cross-workspace capabilities for record types](/
 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront package*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <ul><li><p>Any Workfront package</p></li>
 And
@@ -67,24 +69,9 @@ And
 </tbody> 
 </table> 
 
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
-
-## Overview of centralized record types
-
-Considerations when adding existing record types from another workspace
-
-* When there are no record types configured to be added to another workspace, the option to import them from another workspace does not display, when creating a record type. <!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
-* After adding the record type from another workspace, the following information is also added from the existing record type:
-
-   * Fields
-   * Record connections
-
-* You can view records added from other workspaces, only when you have permissions to those workspaces. 
-
-* You can edit the record type, including its fields, only in its original workspace. You cannot edit it from the workspaces where it was added. 
-* Records added from all workspaces will be visible to all users accessing them from all workspaces, even if they are created in a workspace where they have no permissions. 
 
 ## Create a record type from an existing record type
 
@@ -95,21 +82,41 @@ Considerations when adding existing record types from another workspace
 1. Click **Continue**.
 1. In the **Choose record type** box, click the card for the record type that you want to add from an existing workspace, then click **Add**.
 
-   The record type is added to the workspace you selected and the following things occur:
+   The record type is added to the workspace you selected. 
+   
+   >[!TIP]
+   >
+   >When there are no record types configured to be added to another workspace, the option to import them from another workspace does not display, when creating a record type.
+   
+   The following things occur:
 
-   * The **cross-workspace record type** icon ![Cross-workspace connection icon](assets/global-icon.png) is added to the card of the imported record type.
-   * The read-only **Workspace** field is added to the imported record type. The field displays what workspace each record was created in. 
+   * The following information is also added from the existing centralized record type:
+
+      * All original fields
+      * All record connections
+   * You can view records added from other workspaces, only when you have at least View permissions to those workspaces. 
+   * The **centralized record type** icon ![Centralized record type icon](assets/global-icon.png) is added to the card of the imported record type.
+   * The read-only **Workspace** field is added to the imported record type table view. The field displays what workspace each record was created in. 
    
       >[!NOTE]
       >
-      >* You cannot edit the imported record type or its fields. You can edit the record type and its fields from the original workspace.
+      >* You cannot edit the imported record type's appearance, advanced settings, or original fields. You can edit the record type and all its original fields and settings only from the original workspace.
+
+1. (Optional) Click, then drag and drop the newly added record type to any section within the workspace. 
+
+1. (Optional) Click on the **More** menu ![More menu](assets/more-menu.png) in the imported record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace. 
 
 1. (Optional) Click on the **More** menu ![More menu](assets/more-menu.png) in the imported record type's card, or to the right of the record type's name on its page, then click **Delete**.
 1. (Conditional) Type **delete** in the field provided, then click **Permanently delete**.
 
-   This removes the imported record type from the selected workspace. The original record type and its fields remain in their original workspace.
-   
-   <!--**************************ASK LILIT ON THIS ONE, NOT SURE IF THIS IS TRUE: Any records added in the current workspace are saved in the original workspace.**********-->
+   The following things occur: 
+
+   * The record type created from a centralized record type is removed from the selected workspace. 
+   * The original record type and its fields remain in their original workspace. 
+   * All other record types imported from the same centralized record remain in their workspaces.
+   * The records added to the record type from the current workspace are deleted. All other records added from additional workspaces where the centralized record type was added are preserved. 
+
+
    
 
 

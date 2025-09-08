@@ -26,13 +26,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >|----|----|
 >|<ul><li>25.8 (August 14, 2025)</li><li>25.9 (September 11, 2025)</li><li>25.10 (October 16, 2025)</li></ul>| <ul><li>25.10 (October 16, 2025)</li></ul>|
 >
->Note that for the final release of each quarter (25.10 this quarter), users on the fast release schedule will receive the release one day early.
+>Note that for the final release of each quarter (25.10 this quarter), users on the fast release schedule will receive the release one day early (October 15, 2025).
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
 
 ## Adobe Workfront enhancements
 
 * [Administrator enhancements](#administrator-enhancements)
+* [Dashboards enhancements](#dashboards)
 * [Document and proofing enhancements](#document-and-proofing-enhancements)
 * [Home enhancements](#home-enhancements)
 * [Project enhancements](#project-enhancements)
@@ -87,6 +88,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> 
 
+### Dashboards enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-dashboards.md" class="MCXref xref" xrefformat="{para}">New Canvas Dashboards open beta</a>
+            <p>The new Canvas Dashboards feature helps you easily visualize your Adobe Workfront data by adding report types onto a canvas that offers many flexible layout options, including resizing, dragging and dropping, and more.</p>
+        </td>
+        <td>August 26, 2025</td>
+        <td>August 26, 2025</td>
+        <td>August 26, 2025</td>
+    </tr> 
+</table> 
 
 ### Document and proofing enhancements
 
@@ -304,9 +326,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Updates to enhanced lists</a><p></p>
-            <p>With our advanced lists layout, you can use filters and groupings to display your work and keep it better organized. There is now a blue dot indicator that appears above a widget to let you know when filter or grouping has been applied to a list in the following areas:</p>
+            <p>With our advanced lists layout, you can use filters and groupings to display your work and keep it better organized. There is now a blue dot indicator that appears above a widget to let you know when a filter or grouping has been applied to a list in the following areas:</p>
             <ul>
-                <li>Exchange rates in Setup</li>
                 <li>My Requests widget</li>
                 <li>Priorities</li>
             </ul>

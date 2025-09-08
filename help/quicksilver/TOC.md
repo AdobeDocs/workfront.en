@@ -16,6 +16,7 @@ feature-set: Workfront
     * 2025 Q4 Release {#release-25-q4}
       * [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
       * [Fourth Quarter 2025 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md)
+      * [Fourth Quarter 2025 Dashboards enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-dashboards.md)
       * [Fourth Quarter 2025 Document and Proofing enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md)
       * [Fourth Quarter 2025 Home enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md)
       * [Fourth Quarter 2025 Project enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
@@ -2580,7 +2581,10 @@ feature-set: Workfront
     * [SOAP API FAQs](proofhq-api/general/soap-api-faqs.md)
 * [Hidden test document](hidden-test.md)
 * App Builder {#app-builder}
+  * [App Builder: article index](/help/quicksilver/app-builder/app-builder-toc.md)
+  * [Acquire and install apps from Adobe Exchange](/help/quicksilver/app-builder/install-apps-on-exchange.md)
   * [Create custom applications for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
+  
 
 
 <!--
