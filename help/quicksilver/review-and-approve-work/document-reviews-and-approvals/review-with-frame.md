@@ -73,7 +73,7 @@ To make a decision on a document:
 
 1. Go to your review email notification, and click to **Go to review**.
 1. In Frame.io, use the commenting tools to leave feedback or ask questions.
-    Comments and asset markup is visible only in the Frame.io viewer. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+    Comments and asset markup are visible only in the Frame.io viewer. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Once you're satisfied with the document, you can choose one of the following decisions in the Frame.io viewer:
 
     * **Approve**: The asset does not need changes and is ready for use.
