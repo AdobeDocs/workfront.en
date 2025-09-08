@@ -110,6 +110,46 @@ To use suggestions based on a pasted text prompt:
    >[!NOTE]
    >
    >Any unreviewed suggestions will be automatically accepted when you submit the request.
+
+### Text prompt examples
+
+These examples show prompts for various ways that the AI can reference other projects.
+
+* Referencing a past customer campaign
+
+   ```
+   Create a similar campaign request as we did for (Client Company)'s Q2 launch, but this time for their Automotive division. Keep the same deliverable set and audience profile.
+   ```
+
+* Building on an existing project
+
+   ```
+   Use the same setup we had in the (Client Company) project kickoff last spring. I want to run a digital ad campaign targeting the same executive audience, but with updated dates for this quarter.
+   ```
+
+* Reusing a style from a past deliverable
+
+   ```
+   Prepare a request similar to the (Client Company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
+   ```
+
+* Expanding on an older campaign type
+
+   ```
+   Take the (Client Company) webinar series campaign from Q1 as a reference. I want the same registration workflow and assets, but this time the topic is 'AI in Financial Planning' and the audience is young professionals.
+   ```
+
+* Repeating a request for a different product
+
+   ```
+   Set up a campaign request just like the (Client Company) rebranding project we handled, but replace with (New Client Company) as the client. Keep all deliverables aligned to corporate branding.
+   ```
+
+* Narrative style with implicit references
+
+   ```
+   We're planning a campaign similar to the holiday social ads we ran last year. Budget should be about 50k, goal is lead generation, and deliverables should include Instagram and TikTok assets.
+   ```
    
 ## Get suggestions based on a document you upload
 
