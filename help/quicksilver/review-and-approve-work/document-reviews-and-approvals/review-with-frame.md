@@ -55,6 +55,13 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 As a reviewer, you can add comments and mark up to assets. Once finished, you can mark your review complete in Workfront. Marking the review as complete is not required for the asset to move forward in the approval process.
 
 1. Go to your review email notification, and click to **Go to review**.
+or
+Go the Workfront Home page, find the My Approvals widget, then click **Open review**.
+
+    >[!NOTE]
+    > 
+    >You may have to add the My Approvals widget to your Home page. For more information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+
 1. In Frame.io, use the commenting tools to leave feedback or ask questions.
     Comments and asset markup is visible only in the Frame.io viewer. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Once you're satisfied with the document, navigate back to the Document Details page in Workfront and mark your review as complete.
@@ -72,6 +79,14 @@ If any one approver chooses "needs work", the status of the document immediately
 To make a decision on a document:
 
 1. Go to your review email notification, and click to **Go to review**.
+or
+Go the Workfront Home page, find the My Approvals widget, then click **Open review**.
+
+    >[!NOTE]
+    > 
+    >You may have to add the My Approvals widget to your Home page. For more information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+
+
 1. In Frame.io, use the commenting tools to leave feedback or ask questions.
     Comments and asset markup are visible only in the Frame.io viewer. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Once you're satisfied with the document, you can choose one of the following decisions in the Frame.io viewer:

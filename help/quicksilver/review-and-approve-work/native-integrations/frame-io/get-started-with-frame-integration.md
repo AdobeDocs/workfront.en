@@ -57,6 +57,12 @@ Reviewers and approvers can be added to a single-use approval workflow or a reus
     
     ![Assign template](assets/assign-template.png)
 
+### Review and approve assets in the Frame.io viewer
+
+Once the review and approval workflow is initiated in Workfront, reviewers and approvers can access the Frame.io viewer to add comments, mark up the asset, and make a decision. 
+
+For more information, see [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
+
 #### Access the Frame.io viewer
 
 Users can access the Frame.io viewer in the following ways:
