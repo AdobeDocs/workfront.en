@@ -444,3 +444,37 @@ Advanced Enterprise Controls:
 * Assign group administrators on subgroups
 * Allow group administrators to create subgroups
 
+## Access requirements for Proofing
+
+## Access requirements
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td>  <p>Standard</p>
+   <p>Work or Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Proof Permission Profile </td> 
+   <td>Manager or higher</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Proof role</td> 
+   <td>Reviewer, Reviewer &amp; Approver, Moderator, Author</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Documents</p> <p>For information on requesting additional access, see <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
