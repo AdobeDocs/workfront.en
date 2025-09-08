@@ -14,6 +14,9 @@ recommendations: noDisplay, noCatalog
 \
 
 
+## Supported file types
+
+https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io
 
 ## Projects
 
