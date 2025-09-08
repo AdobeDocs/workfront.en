@@ -117,39 +117,52 @@ These examples show prompts for various ways that the AI can reference other pro
 
 * Referencing a past customer campaign
 
-   ```
+   >[!BEGINSHADEBOX]
+
    Create a similar campaign request as we did for (Client Company)'s Q2 launch, but this time for their Automotive division. Keep the same deliverable set and audience profile.
-   ```
+
+   >[!ENDSHADEBOX]
 
 * Building on an existing project
 
-   ```
+   >[!BEGINSHADEBOX]
+
    Use the same setup we had in the (Client Company) project kickoff last spring. I want to run a digital ad campaign targeting the same executive audience, but with updated dates for this quarter.
-   ```
+
+   >[!ENDSHADEBOX]
 
 * Reusing a style from a past deliverable
 
-   ```
-   Prepare a request similar to the (Client Company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
-   ```
+   >[!BEGINSHADEBOX]
 
+   Prepare a request similar to the (Client Company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
+
+   >[!ENDSHADEBOX]
+   
 * Expanding on an older campaign type
 
-   ```
+   >[!BEGINSHADEBOX]
+
    Take the (Client Company) webinar series campaign from Q1 as a reference. I want the same registration workflow and assets, but this time the topic is 'AI in Financial Planning' and the audience is young professionals.
-   ```
+
+   >[!ENDSHADEBOX]
 
 * Repeating a request for a different product
 
-   ```
+   >[!BEGINSHADEBOX]
+
    Set up a campaign request just like the (Client Company) rebranding project we handled, but replace with (New Client Company) as the client. Keep all deliverables aligned to corporate branding.
-   ```
+
+   >[!ENDSHADEBOX]
 
 * Narrative style with implicit references
 
-   ```
+   >[!BEGINSHADEBOX]
+ 
    We're planning a campaign similar to the holiday social ads we ran last year. Budget should be about 50k, goal is lead generation, and deliverables should include Instagram and TikTok assets.
-   ```
+
+   >[!ENDSHADEBOX]
+
    
 ## Get suggestions based on a document you upload
 
