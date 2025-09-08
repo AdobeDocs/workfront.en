@@ -74,15 +74,15 @@ To build a report for projects which are pending approval of their Business Case
 
 1. Select the **View** tab of the report, then click **Add Column**.
 
-1. Start typing "Status" in the **Show in this column** field, and select this field when it appears in the list.
+1. Start typing *Status* in the **Show in this column** field, and select this field when it appears in the list.
 
     This column will display the status of the projects.
 
 1. Select the **Filters** tab of the report, then click **Add a Filter Rule**.
 
-1. Start typing "Status" in the **Only show me Projects in which the ...** field, and select it when it appears in the list.
+1. Start typing *Status* in the **Only show me Projects in which the ...** field, and select it when it appears in the list.
 1. Select **Equal** for the filter modifier.
-1. Start typing "Requested" in the available field. 
+1. Start typing *Requested* in the available field. 
 
    This ensures that the report includes only projects which are in the Requested status.
 
@@ -118,9 +118,9 @@ To build a report for projects which are pending approval of their Business Case
 
 1. Click the name of a project in the report to open it.
 1. Click **Business Case** in the left panel. 
-1. Click **Approve** or **Reject** in the Business Case Summary area to approve or reject the Business Case.
+1. Click **Approve** or **Reject** in the Business Case Summary area to approve or reject the Business Case. 
 
-   <!--![Business case](assets/business-case-summary-with-rp-information--1-.png)-->
+  <!-- ![Business case](assets/business-case-summary-with-rp-information--1-.png) -->
 
    The project status is changed to **Approved** if the Business Case is approved.
 

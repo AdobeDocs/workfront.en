@@ -85,7 +85,7 @@ To apply a scorecard to a project:
 
 1. Select a scorecard from the drop-down menu.
 
-   <!--![New scorecard](assets/new-scorecard.png)-->
+   ![New scorecard](assets/scorecard-section.png)
 
 1. Enter an answer for all the questions in the scorecard.
 
@@ -154,31 +154,27 @@ You can view the alignment score of a project at the project level if you have C
 
 1. Go to the project whose Alignment Score you want to view.  
 1. Click **Business Case** in the left panel.
-1. Go to the **Business Case Summary** on the right side of your screen.
+1. Go to the **Business Case Summary** on the right side of your screen. The Alignment Score is located in the Business Case Summary, in the **Aligned** value.
 
-   The Alignment Score is located in the Business Case Summary, in the **Aligned** value.
-
-   <!--![Alignment score on a project](assets/alignment-score-on-a-project.png)-->
+   ![Alignment score on a project](assets/aligned-section.png)
 
 ### View the Alignment Scores of the project and of the portfolio in the Portfolio Optimizer
 
-You can view the alignment score of a project or of a portfolio in the Portfolio Optimizer, if you have Manage access to the portfolio.
+You can view the alignment score of a project or of a portfolio in the Portfolio Optimizer if you have Manage access to the portfolio.
 
 For more information about the information displayed in the Portfolio Optimizer, see [Portfolio Optimizer overview](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 * [Locate the Alignment Score of the project in the Portfolio Optimizer](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer) 
 * [Locate the Alignment Score of the portfolio in the Portfolio Optimizer](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  <!--![Alignment score in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)-->
+  ![Alignment score in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)
 
 #### Locate the Alignment Score of the project in the Portfolio Optimizer {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. Click the name of a portfolio.
-1. Click **Portfolio Optimization** in the left panel.
-
-   The Portfolio Optimizer displays. 
+1. Click **Portfolio Optimization** in the left panel. The Portfolio Optimizer displays. 
 
    The alignment score of a project is displayed as a percentage in the **Alignment** column of the Portfolio Optimizer.
 
