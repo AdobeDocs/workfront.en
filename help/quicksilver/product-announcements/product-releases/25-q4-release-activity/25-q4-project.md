@@ -3,8 +3,6 @@ title: Fourth Quarter 2025 Project enhancements
 description: Fourth Quarter 2025 Project enhancements
 author: Courtney
 feature: Product Announcements
-hide: yes
-hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
 ---
