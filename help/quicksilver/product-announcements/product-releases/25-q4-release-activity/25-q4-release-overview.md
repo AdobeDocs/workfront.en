@@ -326,9 +326,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Updates to enhanced lists</a><p></p>
-            <p>With our advanced lists layout, you can use filters and groupings to display your work and keep it better organized. There is now a blue dot indicator that appears above a widget to let you know when filter or grouping has been applied to a list in the following areas:</p>
+            <p>With our advanced lists layout, you can use filters and groupings to display your work and keep it better organized. There is now a blue dot indicator that appears above a widget to let you know when a filter or grouping has been applied to a list in the following areas:</p>
             <ul>
-                <li>Exchange rates in Setup</li>
                 <li>My Requests widget</li>
                 <li>Priorities</li>
             </ul>
