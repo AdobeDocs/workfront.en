@@ -1,15 +1,15 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Available functionality for asset and document review and approval 
+title: Available functionality for unified document approvals 
 description: Overview of the systems available for review and approval in Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
 ---
-# Available functionality for asset and document review and approval 
+# Available functionality for unified document approvals
 
-There are currently 3 different systems available in Workfront for Asset and Document review and approvals:
+There are currently 3 different systems available in Workfront for unified document approvals:
 
 * [Legacy document approvals](#legacy-document-approvals)
 

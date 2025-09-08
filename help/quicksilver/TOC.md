@@ -1809,14 +1809,14 @@ feature-set: Workfront
     * [Delegate approval request](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
     * [Associate a new or existing approval process with work](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
     * [Recall submitted approvals](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-  * Asset and document review and approval {#document-reviews-and-approvals}
-    * [Asset and document review and approval: article index](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-    * [Available functionality for asset and document review and approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+  * Unified approvals {#document-reviews-and-approvals}
+    * [Unified document approvals: article index](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+    * [Available functionality for unified approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
     * [Unified Approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
     * [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
     * [Get Started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * Set up and manage asset and document approvals {#manage-asset-review-and-approval}
-      * [Set up and manage asset and document approvals: article index](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+      * [Set up and manage unified approvals: article index](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
       * [Create AI Reviewers](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
       * [Create a document review or approval request](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
       * [Add additional reviewers or approvers to an asset or document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)

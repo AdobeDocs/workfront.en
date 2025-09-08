@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Unified document approvals overview
+title: Unified approvals overview
 description: You can add additional approvers or reviewers to a document that already has pending approvals.
 author: Courtney
 feature: Work Management, Digital Content and Documents
@@ -43,7 +43,7 @@ With Unified Approvals, you can
 
 ## Using Unified Approvals
 
-For users looking to create or manage document approvals, see the articles listed in [Set up and manage asset and document approvals: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+For users looking to create or manage document approvals, see the articles listed in [Set up and manage unified approvals: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
 For users looking to review or approve documents for which they have received a request, see the articles listed in [Approve and review documents: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
