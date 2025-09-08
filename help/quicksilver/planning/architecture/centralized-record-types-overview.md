@@ -14,120 +14,109 @@ recommendations: noDisplay, noCatalog
 
 # Centralized record types overview
 
-
 Centralized record types can be added to multiple workspaces from a central or primary workspace in Adobe Workfront Planning. 
 
 ## Overview of centralized record types
 
-When implementing Workfront Planning for a multi-team organization with common workflows, you might need to  define a cohesive structure and metadata for key record types (like Campaigns or Deliverables) that can be added to each team's workspaces to capture and manage their work. 
+When implementing Workfront Planning for a multi-team organization with common workflows, you might need to define a cohesive structure and metadata for key record types (like Campaigns or Deliverables) that can be added to each team's workspaces to capture and manage their work. 
 
-Also, you might need each team's work to roll up to a central, more global level. 
+Also, you might need each team's work to roll up to a central level. 
 
-In this workflow, you can ensure that teams capture their work consistently while unlocking cross-team visibility, without the need to add everyone in the organization to one workspace. 
+In such a workflow, you can ensure that teams capture their work consistently while unlocking cross-team visibility, without the need to add everything to one workspace, or everyone in the organization to every workspace. You can use centralized record types to achieve this. 
 
 To use centralized record types, do the following: 
 
-1. Configure a record type to be centralized. 
+1. Configure a record type to be centralized in a specific workspace. 
 
-    For information,, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). 
-1. Add an existing record type from a centralized one. 
+    A workspace manager can select users with a Standard license, teams, groups, roles, or companies to add a chosen record type to a workspaces they manage.
+
+    The original record type will exist in its original workspace but will be made visible from all other workspaces. 
+
+    For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). 
+1. Add an existing record type from an existing one that has been configured as a centralized one to a team's workspace. 
+
+    The record type will exist in the following workspaces: 
+
+    * Its original workspace where it was designated as a centralized record type.
+    * The team's workspace. 
 
     For information, see [Add existing record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
 
+    The following sections describe considerations about centralized record types in either their original workspaces or after they are added to a team's workspaces.     
 
+## Considerations about the centralized record types in their original workspace
 
+The record type configured to be centralized has the following properties:
 
-· A new setting "Allow adding the record type in other workspaces" is available in Advanced Settings for record types.
+* All its information can only be edited in the original workspace. 
 
-· If enabled, the workspace manager can select users with Standard license, teams, groups, roles, or companies who can add the record type in the workspaces they manage.
+* You can perform the following actions on the centralized record type from a centralized record type's original workspace:
 
-· The workspace manager who is editing the setting will be automatically added to the selected users list by default
+    * Edit it 
+        
+        Editing a centralized record type includes editing its appearance, cross-workspace capabilities, and all the fields created in the original workspace.
+    * Create request forms
+    * Manage request forms
 
-o The workspace manager can remove his own name after adding at least 1 other entity
+* You can only delete a centralized record type only if  it has not been added to a team workspace. After it is added to a team's workspace, trying to delete it from the original workspace will generate an error.
 
-o There needs to be at least 1 user/team/... selected to save the setting
+    This is done so that the centralized record type can remain in the workspaces where it's already been added. 
+* The records that you add to a centralized record type are visible only to users who have View permissions to its original workspace. 
+* The records that you add from the team's workspace roll up and display in the original workspace. All members of the original workspace gain View permissions to it.
 
-o Once the record type is added in at least 1 other workspace, all selected users can be removed
+* The connected record types of a centralized record type will become available for connection from the workspaces where this record type is added. 
 
-§ This is done so that it's possible to prevent adding the global record type in new workspaces but keep it in workspaces that are already using it.
+* Fields created for a centralized record type from the original workspace are visible from all workspaces where the record type is added. 
 
-· In phase 1, all records from the connected record types are automatically shared with any workspace where the record type has been added.
+## Considerations about centralized record types after adding them to a team's workspace
 
-· Once the record type is enabled as cross-workspace, a system-generated "Workspace" field is added to the record type
+* Team workspace contributors gain Contribute permission to the centralized record type in the team workspace. They can add and manage records in it.
 
-o It shows the workspace from where each record has been created.
+* Team workspace viewers gain View permission to the centralized record type in the team workspace. They cannot add and manage records it in. 
 
-o This field is read-only and cannot be deleted.
+* Team workspace managers can perform the following actions on the record type added from a centralized record type in a team's workspace:
 
-o It can be hidden from view fields.
+    * Add new fields
 
-o The workspace field can be used for filtering, grouping, and sorting, as well as in any view settings, like other fields.
+        Fields added to a centralized record from a team workspace are visible only from the team's workspace. 
+    * Share it
+    * Delete it. 
 
+        Deleting the record type from a team's workspace only removes it from the team's workspace. The records added to it from the team's workspace are also deleted. This does not delete the record type from its original workspace or from any other team workspaces where it has been added. 
+        
+        This is done so that it's possible to keep the already added centralized record type in workspaces that are already using it.
 
-Cross-Workspace Record Types in Local Workspaces
+* You cannot perform the following actions on the record type added from a centralized record type in a team's workspace:
 
-· When trying to add a new record type to their workspace, local workspace managers see an option to select from the list of global record types that are available for them
+    * Edit it
 
-· When they select one of the global record types, it's immediately added to the workspace
+        You cannot edit its appearance, cross-workspace capabilities, or the fields imported from the original workspace.
+    * Create request forms
+    * Manage request forms
 
-· It's possible to move the global record type into any section and position within the local workspace
+* Records added in a team's workspaces are visible from the following workspaces, if you have View or higher permissions to these workspaces: 
 
+    * The team's workspace where they are added. 
+    * The centralized record type's original workspace.
+    * All other workspaces where the centralized workspace is added.
 
-Permissions to the global record type in local workspaces
+* The following scenarios exist for records created in teams' workspaces: 
 
-Within local workspaces the members gain following access to the global record type:
+    * If you have Manage permissions on the original workspace, and no permissions on the teams' workspaces, you can view records added from the team's workspaces in the original workspace, but you cannot manage them from the original workspace. 
+    * If you have Manage permissions on the team's workspace, you can manage the records in the centralized record type's original workspace or from the workspace where they were added. 
+    
+        You can view the records in additional team workspaces where the centralized record type is added only if you have View permissions to those workspaces. 
 
-· In Phase 1, local workspace managers gain Contribute permission. This means:
+## Access to connections
 
-o Local workspace managers can:
+Record types connected to the centralized record type in the original workspace become visible for team workspaces where the centralized record type is added. 
 
-§ Add the global record type
+## API behavior
 
-§ Add/edit/delete any records in the global record type, regardless of which workspace the record was added from.
+When adding records to a centralized record type from a team workspace using the Workfront Planning API, the system checks if the user has access to create records in the original workspace of the centralized record type. 
 
-§ Delete the global record type from their local workspace
+The following cases exist: 
 
-o Local workspace managers cannot:
+* If the user has access, the record is created in the centralized record types's original workspace. 
 
-§ Add, edit, delete fields
-
-§ Update the record type appearance and label
-
-§ See advanced settings for the record type
-
-§ Manage automations
-
-§ Manage request forms
-
-§ Adjust the record type sharing for their workspace's scope
-
-§ Disable the global record type setting in advanced settings.
-
-· Local workspace contributors gain Contribute permission to the global record type and can add and manage records in it
-
-· Local workspace viewers gain View permission to the global record type
-
-· As soon as a record is added to the global record type from any of the local workspaces, the Workspace field shows that workspace name
-
-o For now it's not possible to edit and change the workspace field
-
-· Records added to local workspaces are all rolled up and displayed in the primary workspace, and all members of the primary workspace gain view access to it.
-
-· Records added in local workspaces are not displayed in other local workspaces using the same global record type and their members don't get access to the records.
-
-
-
-Access to Connections:
-
-· MVP scope
-
-o The record types connected to the global record type will become visible for local workspaces where the global record type is added so that they can use the connection fields to tag
-
-
-API behavior
-
-If the user tries to create records in a global record type via API without providing the workspace ID, the system checks if the user has access to create records in the primary workspace (where global record type is created)
-
-· If yes, the record is created in the primary workspace
-
-· If no, the user gets a validation error that he does not have access to the primary workspace and needs to provide the workspace ID where he has access to create.
+* If the user doesn't have access, the user gets an error that they don't have access to the centralized record type's original workspace and they need to provide the workspace ID where they have access to create records.

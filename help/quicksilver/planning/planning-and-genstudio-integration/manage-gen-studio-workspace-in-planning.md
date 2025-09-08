@@ -82,9 +82,10 @@ For general information about the GenStudio to Workfront Planning integration, s
    <td>  
    <p>In Workfront Planning: </p>
    <ul>
-   <li><p>Manage permissions to the GenStudio workspace to change the architecture of the workspace, the record types, and fields</p></li>
-   <li><p>Contribute permissions to the GenStudio workspace to add, update, or delete records in the GenStudio record space</p> </li> 
+   <li><p>Manage permissions to the GenStudio workspace to add new fields or record types to the GenStudio workspace</p></li>
+   <li><p>Contribute permissions to the GenStudio workspace to add, update, or delete records in the GenStudio workspace</p> </li>  
    </ul>
+   <p>No users can remove GenStudio for Performance Marketing record types or fields from the GenStudio workspace in Workfront Planning</p>
    <p>In Adobe GenStudio for Performance Marketing: <p>
    <ul>
    <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
@@ -100,80 +101,9 @@ For more information about Adobe GenStudio for Performance Marketing, see [Adobe
 
 +++   
 
-<!--Old/ original table:
-
-<table style="table-layout:auto"> 
-<col> 
-</col> 
-<col> 
-</col> 
-<tbody> 
-    <tr> 
-    <td role="rowheader"><p>Adobe Workfront package</p></td> 
-   <td> 
-<p>Any Adobe Workfront Workflow package</p>
-<p>Any Adobe Workfront Planning package</p>  
-
-   </td> </tr>
-<tr> 
-   <td role="rowheader"><p>Adobe GenStudio package</p></td> 
-   <td> 
-<p>??? DOES GEN STUDIO HAVE A PACKAGE THAT SUPPORTS THIS???</p>  
-
-   </td> </tr>
- 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
-   <td> 
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
-<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p> Standard</p>
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe GenStudio license</p></td> 
-   <td><p> ??? DOES GEN STUDIO REQUIRE A SPECIFIC LICENSE THAT SUPPORTS THIS???</p>
-  </td> 
-  </tr> 
-  <tr> 
-<td> 
-   <p> Additional products</p> </td> 
-   <td> 
-   <p> Adobe GenStudio for Performance Marketing</p></td> 
-  </tr>   
-  <tr> 
-   <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
-   <p>Configuration for GenStudio: ???WHAT IS THE ACCESS LEVEL NEED FOR GENS???</p> 
-</td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Object permissions*</p></td> 
-   <td>  
-   <p>In Workfront Planning: </p>
-   <ul>
-   <li><p>Contribute or higher permissions to a workspace and record type  </p> </li> 
-   <li><p>System Administrators have permissions to all workspaces, including the ones they did not create</p></li>
-   </ul>
-   <p>In Adobe GenStudio for Performance Marketing: <p>
-   <ul>
-   <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
-   <li><p> Create permissions in Adobe GenStudio for Performance Marketing to create items</p></li></ul>
-   </td> 
-  </tr> 
-</tbody> 
-</table> -->
-
 ## Considerations for managing a GenStudio workspace in Workfront Planning
 
 * Your organization must purchase Adobe GenStudio for Performance Marketing before you can view a GenStudio workspace in Workfront Planning.
-
-* Workfront users must have access to GenStudio to be able to see the GenStudio workspace in Workfront Planning. 
 
 * Depending on how many Workfront instances your organization has, you automatically have the following permissions to the GenStudio workspace in Planning:  
 
@@ -188,18 +118,18 @@ For more information about Adobe GenStudio for Performance Marketing, see [Adobe
       <tr> 
       <td role="rowheader"><p>One instance of Workfront</p></td> 
       <td> 
-   <p>There is one GenStudio workspace in Workfront Planning</p>
-   <p>All users with access to GenStudio and Workfront Planning have Manage permisisons on the GenStudio workspace</p> 
+   <p>The GenStudio workspace is visible in your instance of Workfront Planning</p>
+   <p>Workfront administrators have Manage permissions to the GenStudio workspace in Planning</p>
+   <p>All other users have Contribute access to the GenStudio workspace in Planning</p>
    </td> </tr>
       <tr> 
    <td> 
       <p> Multiple instances of Workfront</p> </td> 
       <td> 
-      <p>There is one GenStudio workspace in each Workfront Planning instance</p>
-   <p>All users with access to GenStudio and Workfront Planning have Contribute permisisons on the GenStudio workspace of each instance</p> </td> 
+      <p>The GenStudio workspace is visible from all Workfront instances</p>
+   <p>All users with access to GenStudio for Performance Marketing and Workfront Planning have Contribute permissions on the GenStudio in Planning</p> </td> 
    </tr>
-   
-   </tbody> 
+      </tbody> 
    </table> 
 
 * Updating the workspace configuration, record types, views, and fields for a GenStudio workspace is identical with updating a Workfront Planning workspace with its elements. 
@@ -271,7 +201,7 @@ CAN YOU DO THIS??
 
 1. Go to the GenStudio workspace in Workfront Planning and open a record type page, as described in the section [Manage the GenStudio workspace from Workfront Planning](#manage-the-genstudio-workspace-from-workfront-planning) in this article.
 
-1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click one of the following:
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of a record type name, then click one of the following:
 
    * **Edit**
 
@@ -285,7 +215,7 @@ CAN YOU DO THIS??
 
       For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-1. To manage the view and the record type, do the following: 
+1. To share a view or the record type, do the following: 
 
    * Click **Share** in the upper-right corner of the record type page, then click one of the following:
       * **Share the record type**
@@ -322,6 +252,10 @@ CAN YOU DO THIS??
       For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
 
       Records are visible from both Workfront and GenStudio.
+
+      >[!NOTE]
+      >
+      >You cannot add records for the Activations record type.
 
 1. To edit records, do one of the following: 
 
