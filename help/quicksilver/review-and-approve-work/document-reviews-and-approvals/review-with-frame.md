@@ -10,7 +10,11 @@ recommendations: noDisplay, noCatalog
 
 # Review and approve with the Frame.io viewer
 
-You can review and approve documents directly in the Frame.io viewer, which provides a seamless experience for stakeholders.
+You can review and approve documents in Workfront using the Frame.io viewer.
+
+Reviewing Workfront documents with the Frame.io viewer allows you to leave comments or mark up specific sections of a document, image, or video to collaborate efficiently with your team and ensure that feedback is clear and actionable.
+
+For more information on the Frame.io integration with Workfront, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
 
 ## Access requirements
 
@@ -75,11 +79,13 @@ To make a decision on a document:
     * **Approve**: The asset does not need changes and is ready for use.
     * **Needs work**: The asset needs changes and is not ready for use. Once the specified changes are made, the asset must be uploaded as a new version and go through another round of approvals.
 
+    Once you make a decision, the document owner is notified via email.
+
     For more information about decisions in Workfront, see [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md). 
 
     ![Frame viewer and decision](assets/make-decision-frame.png)
 
-Once you make a decision, the document owner is notified via email.
+
 
 <!--is document owner the correct term?-->
 
