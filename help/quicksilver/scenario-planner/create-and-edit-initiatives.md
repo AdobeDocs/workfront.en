@@ -1,7 +1,7 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Create and edit initiatives in the Scenario Planner
+title: Create and Edit Initiatives in the Scenario Planner
 description: When using the Adobe Workfront Scenario Planner, you can create initiatives in a plan that you created or that was shared with you. By creating initiatives you can show how smaller organizational units contribute to the completion of the plan. For example, if your organization has a plan for the next three years to expand into a new market, you can create initiatives within this plan for each department to estimate each department's need for people and budget to accomplish this plan.
 author: Alina
 feature: Workfront Scenario Planner
@@ -16,6 +16,42 @@ When using the [!UICONTROL Adobe Workfront Scenario Planner], you can create ini
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] package</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>NOTE</b></p>
+<p>Speak with your Workfront representative if you have a different Workfront package.</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license</p> </td> 
+   <td> <p>[!UICONTROL Light] or higher</p> 
+   <p>[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+    <tr> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information about access to the Scenario Planner, see [Access needed to use the [!DNL Scenario Planner]]( ../scenario-planner/access-needed-to-use-sp.md).
+
+For information about Workfront access requirements, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,11 +87,7 @@ When using the [!UICONTROL Adobe Workfront Scenario Planner], you can create ini
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Prerequisites
 

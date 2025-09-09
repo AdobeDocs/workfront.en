@@ -23,6 +23,42 @@ When you are planning your company's long-term strategy, there is a lot of infor
  <col> 
  <tbody> 
   <tr> 
+   <td> <p>[!DNL Adobe Workfront] package</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>NOTE</b></p>
+<p>Speak with your Workfront representative if you have a different Workfront package.</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license</p> </td> 
+   <td> <p>[!UICONTROL Light] or higher</p> 
+   <p>[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+    <tr> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information about access to the Scenario Planner, see [Access needed to use the [!DNL Scenario Planner]]( ../scenario-planner/access-needed-to-use-sp.md).
+
+For information about Workfront access requirements, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>New: Ultimate </p></li>
@@ -52,12 +88,7 @@ When you are planning your company's long-term strategy, there is a lot of infor
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-
-*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Create scenarios 
 
