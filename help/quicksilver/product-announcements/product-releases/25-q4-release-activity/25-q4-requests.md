@@ -20,7 +20,7 @@ For a list of all changes available at this point in the Fourth Quarter 2025 rel
 >* Production fast release: September 11, 2025
 >* Production for all customers: October 16, 2025
 
-To simplify the unified request experience, the Status column now displalys both Request Status and Approval Status, whichever applies to a given request.
+To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.
 
 For more information on creating requests see:
 

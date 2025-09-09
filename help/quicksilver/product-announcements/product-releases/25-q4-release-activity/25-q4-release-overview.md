@@ -285,7 +285,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">New combined Status column in unified Request list</a><p></p>
-            <p>TTo simplify the unified request experience, the Status column now displalys both Request Status and Approval Status, whichever applies to a given request.</p>
+            <p>To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.</p>
         </td>
         <td>August 28, 2025</td>
         <td>September 11, 2025</td>
