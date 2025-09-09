@@ -12,7 +12,7 @@ exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
 ---
 # Get started with the Frame.io integration
 
- The Workfront and Frame.io integration takes the best of what each product has to offer and combines them to create an experience that allows everyone involved in content creation to work in their tools of choice. Creatives can work in Frame.io and Adobe Creative Cloud applications, while project coordinators can manage work and formal review and approval processes in Workfront. <!--needs work -->
+The Workfront and Frame.io integration keeps creatives, marketers, and stakeholders aligned with a seamless workflow. Access real-time updates, avoid duplicate work, and ensure assets are approved before launch.
 
 For more information about Frame.io, see [Getting Started with Frame.io](https://support.frame.io/en/collections/49298-getting-started).
 
