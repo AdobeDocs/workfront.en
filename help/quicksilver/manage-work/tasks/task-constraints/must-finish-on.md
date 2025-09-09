@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Task Constraint overview: Must Finish On'
+title: 'Task Constraint Overview: Must Finish On'
 description: You can use the Must Finish On (MFO) Task Constraint to schedule a task to end on a specific date.
 author: Alina
 feature: Work Management

@@ -1366,7 +1366,7 @@ feature-set: Workfront
       * [Update the Planned Hours and Duration of a task with a Simple Duration Type](manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
       * [Duration Types in Adobe Workfront and Microsoft Project](manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
     * Use task predecessors {#use-task-predecessors}
-      * [Use task predecessors](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
+      * [Use task predecessors: article index](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
       * [Overview of task predecessors](manage-work/tasks/use-prdcssrs/predecessors-overview.md)
       * [Create a predecessor relationship on the task list](manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
       * [Create a predecessor relationship using the Predecessors area](manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)

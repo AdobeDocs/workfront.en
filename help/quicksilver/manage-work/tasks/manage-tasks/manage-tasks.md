@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: Manage tasks
+title: Manage Tasks
 description: Learn information about managing tasks in the following articles.
 author: Alina
 feature: Work Management

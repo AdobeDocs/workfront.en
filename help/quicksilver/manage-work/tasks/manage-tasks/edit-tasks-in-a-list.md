@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Edit tasks in a list
+title: Edit Tasks in a List
 description: You can edit task information in a list of tasks by editing the fields displayed in the list. 
 author: Alina
 feature: Work Management
@@ -17,6 +17,36 @@ You can edit task information in a list of tasks by editing the fields displayed
 
 +++ Expand to view access requirements for the functionality in this article.
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard<p>
+   <p>Work or higher</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute or higher permissions to the task and the project</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -40,11 +70,7 @@ You can edit task information in a list of tasks by editing the fields displayed
    <td> <p>Contribute or higher permissions to the task and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++ 
+</table>-->
 
 ## Considerations about editing tasks in a list {#considerations-about-editing-tasks-in-a-list}
 
