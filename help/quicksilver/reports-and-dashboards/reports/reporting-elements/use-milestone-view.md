@@ -11,6 +11,16 @@ exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
 
 <!-- Audited: 11/2024 -->
 
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
+
 You can apply the Milestone view to a project list or report. You can use the Milestone view to view all milestones that are associated with tasks within the projects you are viewing.
 
 Before you can use the milestone view, the following elements must exist:
@@ -89,6 +99,8 @@ The Milestone view is available on project lists and project reports. This view 
 
 For information about how to switch to the Milestone view, see the section [Switch to the Milestone view](#switch-to-the-milestone-view) in this article.
 
+<!--add new screen shot-->
+
 ![Project with milestone view](assets/project-with-milestone-view-with-complete.png)
 
 ### Milestone view sections
@@ -121,7 +133,7 @@ When viewing a project list or project report in the Milestone view, the followi
   You can disable the completion percentage from being displayed, as described in the section [Configure what information displays in the Milestone view](#configure-what-information-displays-in-the-milestone-view) in this article.  
   You can adjust the completion percentage directly from the Milestone view, as described in the section [Adjust Percent Complete for tasks in the Milestone view](#adjust-percent-complete-for-tasks-in-the-milestone-view) in this article.
 
-* **Task status icons:** A status icon is displayed next to each project and task in the Milestone view.
+* **Task status icons:** A status icon is displayed next to each project and task in the Milestone view. <!--get new screen shots or hide them - could not display all in devtest-->
 
    * On Time  
      ![On time icon](assets/gantt-ontime.png)
@@ -159,6 +171,8 @@ When viewing a project list or project report in the Milestone view, the followi
       * **Green shading for the Project Completion column**: The background of the Project Completion column is green when the Progress Status of the project is **On Time**.
 
    * No color shading is assigned to the Start and Completion columns when the tasks have a Progress Status of At Risk or Behind. 
+
+   <!--add new screen shot-->
    
    ![Milestone view with shading](assets/milestone-view-with-shading.png)
 
@@ -181,7 +195,7 @@ To configure whether project status icons and completion percentage of projects 
 {{step1-to-projects}}
 
 1. Click the **View** drop-down menu, then click **Milestone**.  
-   If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  
+   <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
 1. Click **Options** in the upper-right corner of the Milestone view.  
    ![milestone_view_options.png](assets/milestone-view-options-350x141.png)
