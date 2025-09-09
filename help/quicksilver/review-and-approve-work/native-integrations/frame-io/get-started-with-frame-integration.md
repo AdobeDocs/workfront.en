@@ -24,8 +24,7 @@ If your organization has a Frame.io Enterprise license, projects created in Work
 
 For information about Adobe Enterprise Storage or projects in Frame.io, see
 
-
-* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
+* [Workspace Overview: Projects](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
 * [Adobe Enterprise Storage overview](link)
 
 
@@ -34,6 +33,11 @@ For information about Adobe Enterprise Storage or projects in Frame.io, see
 Once an asset is finished, the project coordinator can initiate the formal review and approval process in Workfront.
 
 After the approval workflow is created, reviewers and approvers can use the Frame.io viewer to add comments and mark up the asset. They can also make the approval decision in the Frame.io viewer.
+
+For more information about setting up projects, see 
+
+* [Create a project](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
+* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
 
 ### Initiate formal reviews and approvals in Workfront
 
