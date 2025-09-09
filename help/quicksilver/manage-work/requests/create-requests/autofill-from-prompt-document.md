@@ -119,7 +119,7 @@ These examples show prompts for various ways that the AI can reference other pro
 
 >[!BEGINSHADEBOX]
 
-Create a similar campaign request as we did for (Client Company)'s Q2 launch, but this time for their Automotive division. Keep the same deliverable set and audience profile.
+Create a similar campaign request as we did for (client company)'s Q2 launch, but this time for their Automotive division. Keep the same deliverable set and audience profile.
 
 >[!ENDSHADEBOX]
 
@@ -127,7 +127,7 @@ Create a similar campaign request as we did for (Client Company)'s Q2 launch, bu
 
 >[!BEGINSHADEBOX]
 
-Use the same setup we had in the (Client Company) project kickoff last spring. I want to run a digital ad campaign targeting the same executive audience, but with updated dates for this quarter.
+Use the same setup we had in the (project name) project kickoff last spring. I want to run a digital ad campaign targeting the same executive audience, but with updated dates for this quarter.
 
 >[!ENDSHADEBOX]
 
@@ -135,7 +135,7 @@ Use the same setup we had in the (Client Company) project kickoff last spring. I
 
 >[!BEGINSHADEBOX]
 
-Prepare a request similar to the (Client Company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
+Prepare a request similar to the (client company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
 
 >[!ENDSHADEBOX]
    
@@ -143,7 +143,7 @@ Prepare a request similar to the (Client Company) summer promotion campaign we r
 
 >[!BEGINSHADEBOX]
 
-Take the (Client Company) webinar series campaign from Q1 as a reference. I want the same registration workflow and assets, but this time the topic is 'AI in Financial Planning' and the audience is young professionals.
+Take the (campaign name) webinar series campaign from Q1 as a reference. I want the same registration workflow and assets, but this time the topic is 'AI in Financial Planning' and the audience is young professionals.
 
 >[!ENDSHADEBOX]
 
@@ -151,7 +151,7 @@ Take the (Client Company) webinar series campaign from Q1 as a reference. I want
 
 >[!BEGINSHADEBOX]
 
-Set up a campaign request just like the (Client Company) rebranding project we handled, but replace with (New Client Company) as the client. Keep all deliverables aligned to corporate branding.
+Set up a campaign request just like the (client company) rebranding project we handled, but replace with (new client company) as the client. Keep all deliverables aligned to corporate branding.
 
 >[!ENDSHADEBOX]
 
