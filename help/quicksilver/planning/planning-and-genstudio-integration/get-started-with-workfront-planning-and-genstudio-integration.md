@@ -140,15 +140,18 @@ Depending on how many Workfront instances your organization has, you automatical
     <td role="rowheader"><p>One instance of Workfront</p></td> 
    <td> 
 <p>The GenStudio workspace is visible in your instance of Workfront Planning</p>
-<p>Workfront administrators have Manage permissions to the GenStudio workspace in Planning</p>
-<p>All other users have Contribute access to the GenStudio workspace in Planning</p>
+<p>All users, including Workfront administrators have Contribute access to the GenStudio workspace in Planning by default</p>
+<p>Workfront administrators can modify and grant Manage permissions on the GenStudio workspace to anyone</p>
 </td> </tr>
    <tr> 
 <td> 
    <p> Multiple instances of Workfront</p> </td> 
    <td> 
    <p>The GenStudio workspace is visible from all Workfront instances</p>
-<p>All users with access to GenStudio for Performance Marketing and Workfront Planning have Contribute permissions on the GenStudio in Planning</p> </td> 
+<p>All users with access to GenStudio for Performance Marketing and Workfront Planning have Contribute permissions on the GenStudio in Planning by default</p> 
+<p>Workfront administrators cannot grant Manage permissions to the GenStudio workspace to anyone</p>
+
+</td> 
   </tr>
    </tbody> 
 </table> 
@@ -193,6 +196,8 @@ The sections below describe the following:
     * Edit GenStudio record types information (their appearance, advanced settings). 
     * Share GenStudio record types with others.  
     * Create record types. These record types remain only in Workfront Planning. They do not display in GenStudio. 
+    * Enable records from the GenStudio workspace to connect from other workspaces.
+    * Enable records from the GenStudio workspace to be added to other workspaces. 
 * When you have Contribute permissions to the GenStudio workspace in Planning, you cannot modify the GenStudio record types from Planning. 
 
 ### Records in the GenStudio workspace
