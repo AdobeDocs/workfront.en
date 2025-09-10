@@ -258,6 +258,7 @@ A project will only be included in the combined Project Health assessment if the
 
 1. After reviewing the projects' health details, click the **Close** icon ![Close icon](assets/close-icon.png) in the upper-right corner of AI Assistant to close it. 
 
+<!--
 
 ## Build a Project Health table report in a Canvas Dashboard
 
@@ -312,3 +313,5 @@ There are many configuration options available for building a Project Health tab
     1. Click the **Add grouping** button and then select the field you want to create as a grouping. The grouping column appears in the preview section on the right. 
 
 1. Click **Save** to create the report.
+
+-->
