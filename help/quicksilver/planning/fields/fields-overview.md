@@ -88,3 +88,5 @@ You can add new fields in Adobe Workfront Planning that reflect your organizatio
 * Field names can have up to 250 characters.
 
 * When deleting a record type or workspace, all fields associated with them and the fields' values are also deleted and cannot be recovered. <!-- this might change with a possible recycle bin solution?!-->
+* When you delete fields that are part of a formula expression, the formula field changes. 
+* When you change a formula expression and that formula field is referenced in other formula fields, the additional formulas are also affected. 
