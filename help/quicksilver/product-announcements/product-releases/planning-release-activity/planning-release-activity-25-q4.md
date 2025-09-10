@@ -30,6 +30,50 @@ Previously, request forms were located only on the object for which they were cr
 
 For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
 
+## New information box displayed when changing or deleting a fields
+
+>[!NOTE]
+>
+>* Preview: September 11, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025
+
+When you update a formula field or a field that could impact it, an alert notifies you of the impact of your change. The alert displays in the following cases:
+
+* When you update a formula field (excluding name and description changes) when that field has dependent formula or lookup fields. The alert lists those dependent fields and asks you whether you want to continue.
+
+* When you delete a field that is used in a formula expression or as a lookup field. The alert lists the dependent formula and lookup fields and asks you whether you want to continue with the deletion.
+
+For information, see [Formula fields overview](/help/quicksilver/planning/fields/formula-fields.md).
+
+## Integration between Adobe Workfront Planning and Adobe GenStudio for Performance Marketing
+
+>[!NOTE]
+>
+>Preview: September 11, 2025
+>Production for all customers: September 11, 2025
+>[!BADGE Off schedule]{type=Neutral}
+
+If your organization uses both Adobe Workfront Planning and Adobe GenStudio for Performance Marketing, you might want to define marketing concepts like Campaigns, Products, and Personas in more detail than what GenStudio supports by default.
+
+With the new native integration between GenStudio for Performance Marketing and Workfront Planning you can now manage the Campaigns, Products, Personas, Activations, Channels, and Regions used in GenStudio for Performance Marketing in Workfront Planning. The integration also enables you to configure GenStudio for Performance Marketing to reference existing record types from Workfront Planning, creating a more connected and consistent marketing workflow.
+
+The GenStudio for Performance Marketing workspace is now available in Adobe Workfront Planning when your company has purchased both products.
+
+With the integration between Workfront Planning and GenStudio for Performance Marketing, you can:
+
+* View the GenStudio workspace in Workfront Planning.
+
+* Modify your campaigns in GenStudio for Performance Marketing and have real-time updates of the same information in Workfront Planning.
+
+* Modify your campaigns in Workfront Planning and have real-time updates of the same information in GenStudio for Performance Marketing.
+
+* Avoid duplicate data entry.
+
+* Maintain alignment across planning and activation efforts.
+
+For information, see [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
 ## Resize records in the calendar monthly view
 
 >[!NOTE]
