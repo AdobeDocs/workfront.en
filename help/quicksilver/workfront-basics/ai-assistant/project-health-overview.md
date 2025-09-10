@@ -109,24 +109,53 @@ Below is a list of prompts you can use to ask AI Assessment to generate a Projec
 
 ## Project and program conditions list 
 
-Below are the available conditions AI Assistant will assign your project or program when generating a Project Health assessment.
+Below are the available conditions AI Assistant will assign your project or program when generating a Project Health assessment. 
 
    <table>
     <tr>
         <td><b>Project Condition</b></td>
         <td><b>Project Progress Status</b></td>
+        <td><b>Project Condition Factors</b></td>
     </tr>
     <tr>
         <td>On Target</td>
-        <td>When the project's Progress Status is On Time, the project condition is On Target.</td>
+        <td>This analysis is assigned when the average risk level for the following factors falls within the healthy threshold.
+        </td>
+        <td> 
+        <ul><li>Scope creep</li>
+        <li>Missing fields</li>
+        <li>Schedule changes</li>
+        <li>Underestimated work</li>
+        <li>Project progress</li>
+        <li>Overdue tasks</li>
+        <li>Budget</li>
+        </ul></td>
     </tr>
     <tr>
         <td>At Risk</td>
-        <td>When the project's Progress Status is Behind or At Risk, the project condition is At Risk.</td>
+        <td>This analysis is assigned when the average risk level for the following factors falls just below the healthy threshold.</td>
+        <td>
+        <ul><li>Scope creep</li>
+        <li>Missing fields</li>
+        <li>Schedule changes</li>
+        <li>Underestimated work</li>
+        <li>Project progress</li>
+        <li>Overdue tasks</li>
+        <li>Budget</li>
+        </ul></td>
     </tr>
     <tr>
         <td>In Trouble</td>
-        <td>When the project's Progress Status is Late, the project condition is At Risk.</td>
+        <td>This analysis is assigned when the average risk level for the following factors falls below the healthy threshold.</td>
+        <td>
+        <ul><li>Scope creep</li>
+        <li>Missing fields</li>
+        <li>Schedule changes</li>
+        <li>Underestimated work</li>
+        <li>Project progress</li>
+        <li>Overdue tasks</li>
+        <li>Budget</li>
+        </ul></td>
     </tr>
     </tr>
    </table>
@@ -236,7 +265,7 @@ For more information, see the following section in this article: [Manage project
   
 1. After reviewing the project health details, click the **Close** icon ![Close icon](assets/close-icon.png) in the upper-right corner of AI Assistant.  
 
-## Generate a Project Health assessment for multiple projects
+ ## Generate a Project Health assessment for multiple projects
 
 You can generate a combined Project Health assessment for all the projects you currently have View access (or higher) for. 
 
@@ -259,7 +288,7 @@ A project will only be included in the combined Project Health assessment if the
 1. After reviewing the projects' health details, click the **Close** icon ![Close icon](assets/close-icon.png) in the upper-right corner of AI Assistant to close it. 
 
 
-## Build a Project Health table report in a Canvas Dashboard
+<!-- ## Build a Project Health table report in a Canvas Dashboard
 
 >[!IMPORTANT]
 >
@@ -311,4 +340,4 @@ There are many configuration options available for building a Project Health tab
     1. In the left panel, click the **Group Settings** icon. 
     1. Click the **Add grouping** button and then select the field you want to create as a grouping. The grouping column appears in the preview section on the right. 
 
-1. Click **Save** to create the report.
+1. Click **Save** to create the report.—>
