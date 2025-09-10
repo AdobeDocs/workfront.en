@@ -291,7 +291,9 @@ A project will only be included in the combined Project Health assessment if the
 
 -->
 
-<!-- ## Build a Project Health table report in a Canvas Dashboard
+<!-- 
+
+## Build a Project Health table report in a Canvas Dashboard
 
 >[!IMPORTANT]
 >
