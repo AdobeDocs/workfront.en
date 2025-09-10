@@ -36,7 +36,7 @@ When you are planning your company's long-term strategy, there is a lot of infor
    <p>[!UICONTROL Review] or higher</p> </td> 
   </tr> 
     <tr> 
-   <td>Access level </td> 
+   <td>Access level configurations</td> 
    <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 

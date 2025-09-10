@@ -35,7 +35,7 @@ When using the [!UICONTROL Adobe Workfront Scenario Planner], you can create ini
    <p>[!UICONTROL Review] or higher</p> </td> 
   </tr> 
     <tr> 
-   <td>Access level </td> 
+   <td>Access level configurations</td> 
    <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 

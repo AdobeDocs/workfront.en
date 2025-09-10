@@ -1985,7 +1985,7 @@ feature-set: Workfront
     * [Track Hour Records with the Adobe Workfront API](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
     * [Unable to Log Time for Future Dates](timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)
 * Adobe Workfront Scenario Planner {#scenario-planner}
-  * [Adobe Workfront Scenario Planner](scenario-planner/scenario-planning.md)
+  * [[!DNL Adobe Workfront Scenario Planner]: article index](scenario-planner/scenario-planning.md)
   * [Get started with the Scenario Planner](scenario-planner/get-started-with-scenario-planning.md)
   * [The Scenario Planner overview](scenario-planner/scenario-planner-overview.md)
   * [Access needed to use the Scenario Planner](scenario-planner/access-needed-to-use-sp.md)

@@ -35,7 +35,7 @@ You can create initiatives by copying existing ones. You can copy initiatives on
    <p>[!UICONTROL Review] or higher</p> </td> 
   </tr> 
     <tr> 
-   <td>Access level </td> 
+   <td>Access level configurations</td> 
    <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
