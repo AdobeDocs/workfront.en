@@ -265,7 +265,7 @@ For more information, see the following section in this article: [Manage project
   
 1. After reviewing the project health details, click the **Close** icon ![Close icon](assets/close-icon.png) in the upper-right corner of AI Assistant.  
 
- ## Generate a Project Health assessment for multiple projects
+## Generate a Project Health assessment for multiple projects
 
 You can generate a combined Project Health assessment for all the projects you currently have View access (or higher) for. 
 
@@ -289,7 +289,7 @@ A project will only be included in the combined Project Health assessment if the
 
 <!--
 
-## Build a Project Health table report in a Canvas Dashboard
+Build a Project Health table report in a Canvas Dashboard
 
 >[!IMPORTANT]
 >
