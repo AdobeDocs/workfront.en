@@ -54,6 +54,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New Boards Admin View</a><p></p>
+            <p>The Boards Admin View contains a list of every Board in your account that System Administrators can use to get a quick snapshot of the overall Boards details, including when they were last updated, how many cards each one has, and more.</p>
+        </td>
+        <td>September 11, 2025</td>
+        <td>October 15, 2025</td>
+        <td>October 16, 2025</td>
+    </tr> 
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Enable AI Beta features for your organization</a><p></p>
             <p>To make it easier for you to see and influence upcoming AI features, we've made it possible for you to enable the Betas for those features for your organization. Now, you can choose to enable one or more of the currently available AI Beta features from your System Preferences.</p>
         </td>
@@ -212,6 +221,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>September 11, 2025</td>
         <td>October 16, 2025</td>
     </tr> -->
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">New Project Health beta</a>
+            <p>The new Project Health feature utilizes the power of AI Assistant to instantly give you an assessment of how your projects are performing and what areas need your attention.</p>
+            <p>AI Assistant can generate a Project Health assessment for a project, a program, and multiple projects.</p>
+        </td>
+        <td>September 11, 2025</td>
+        <td>September 11, 2025</td>
+        <td>September 11, 2025</td>
+    </tr> 
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">New expressions added to formula fields in Planning and calculated custom fields in Workfront</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
