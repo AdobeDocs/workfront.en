@@ -256,7 +256,9 @@ For more information, see the following section in this article: [Manage project
     ![Project health assessment](assets/health-assessment.png)
 
     If you're generating an assessment for a portfolio, multiple badges will be listed showing the condition of each project in the program. For more information on the badge labels, see the following section in this article: [Project and program conditions list](#project-and-program-conditions-list). 
+
 <!--
+
 1. (Optional) Click one of the assessment points to expand its details. 
 
 1. (Optional) In the expanded details mode, click the task link to open the task details. 
