@@ -54,23 +54,18 @@ For information, see [Formula fields overview](/help/quicksilver/planning/fields
 >Production for all customers: September 11, 2025
 >[!BADGE Off schedule]{type=Neutral}
 
-If your organization uses both Adobe Workfront Planning and Adobe GenStudio for Performance Marketing, you might want to define marketing concepts like Campaigns, Products, and Personas in more detail than what GenStudio supports by default.
+If your organization uses both Adobe Workfront Planning and Adobe GenStudio for Performance Marketing, you might want to define marketing concepts like Campaigns, Products, and Personas in more detail than what GenStudio supports by default.  
+  
+With the new native integration between GenStudio for Performance Marketing and Workfront Planning you can now manage the Campaigns, Products, Personas, Activations, Channels, and Regions used in GenStudio for Performance Marketing in Workfront Planning. The integration also enables you to configure GenStudio for Performance Marketing to reference existing record types from Workfront Planning, creating a more connected and consistent marketing workflow. 
 
-With the new native integration between GenStudio for Performance Marketing and Workfront Planning you can now manage the Campaigns, Products, Personas, Activations, Channels, and Regions used in GenStudio for Performance Marketing in Workfront Planning. The integration also enables you to configure GenStudio for Performance Marketing to reference existing record types from Workfront Planning, creating a more connected and consistent marketing workflow.
+The GenStudio for Performance Marketing workspace is now available in Adobe Workfront Planning when your company has purchased both products. 
+With the integration between Workfront Planning and GenStudio for Performance Marketing, you can:  
 
-The GenStudio for Performance Marketing workspace is now available in Adobe Workfront Planning when your company has purchased both products.
-
-With the integration between Workfront Planning and GenStudio for Performance Marketing, you can:
-
-* View the GenStudio workspace in Workfront Planning.
-
-* Modify your campaigns in GenStudio for Performance Marketing and have real-time updates of the same information in Workfront Planning.
-
-* Modify your campaigns in Workfront Planning and have real-time updates of the same information in GenStudio for Performance Marketing.
-
-* Avoid duplicate data entry.
-
-* Maintain alignment across planning and activation efforts.
+* View the GenStudio workspace in Workfront Planning.  
+* Modify your campaigns, products, personas, and activations in GenStudio for Performance Marketing and have real-time updates of the same information in Workfront Planning. 
+* Modify your campaigns, products, personas, and activations in Workfront Planning and have real-time 
+* Avoid duplicate data entry. 
+* Maintain alignment across planning and activation efforts. 
 
 For information, see [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
 
