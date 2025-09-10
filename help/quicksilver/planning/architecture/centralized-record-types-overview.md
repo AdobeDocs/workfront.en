@@ -90,7 +90,7 @@ The record type configured to be centralized has the following properties:
 
     * Edit it
 
-        You cannot edit its appearance, cross-workspace capabilities, or the fields imported from the original workspace.
+        You cannot edit its appearance, cross-workspace capabilities, or the fields added from the original workspace.
     * Create request forms
     * Manage request forms
 
