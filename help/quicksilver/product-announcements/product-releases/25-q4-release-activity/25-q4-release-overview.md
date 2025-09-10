@@ -183,6 +183,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 <li>Integration with Workfront Planning for better visibility into resource allocation</li>
             </ul>
             </p>
+            <p>The new My Requests widget displays only those requests that were created in the new requesting experience.</p>
         </td>
         <td>August 21, 2025</td>
         <td>September 11, 2025</td>
