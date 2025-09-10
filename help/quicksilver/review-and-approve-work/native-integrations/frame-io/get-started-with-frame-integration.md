@@ -50,7 +50,7 @@ Project coordinators can create one-time review and approvals or resuable approv
 
 Reviewers and approvers can be added to a single-use approval workflow or a reusable approval template:
 
-* **Single-use approvals**: In the project or task where the asset resides, the project coordinator can assign reviewers and approvers and set a completion deadline. Reviewers and approvers are reminded by email 72 and then 24 hours before the deadline as well as on the deadline itself.
+* **Single-use approvals**: In the project or task where the asset resides, the project coordinator can assign reviewers and approvers and set a completion deadline. Reviewers and approvers are reminded by email 72 hours before the deadline, 24 hours before the deadline, and then on the deadline itself.
 
     For more information, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
@@ -67,7 +67,7 @@ Reviewers and approvers can be added to a single-use approval workflow or a reus
 
 Once the review and approval workflow is initiated in Workfront, reviewers and approvers can access the Frame.io viewer to add comments, mark up the asset, and make a decision. 
 
-For more information, see [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
+For more information, see [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).
 
 #### Access the Frame.io viewer
 
@@ -93,7 +93,7 @@ Once all review activity is complete, approvers must make one of the following d
 * **Approve**: The asset does not need changes and is ready for use.
 * **Needs work**: The asset needs changes and is not ready for use. Once the specified changes are made, the asset must be uploaded as a new version and go through another round of approvals. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
-Reviewers can mark their review complete inside of the Workfront, but this is not required for the asset to move forward in the approval process. 
+Reviewers can mark their review complete inside of Workfront, but this is not required for the asset to move forward in the approval process. 
 
 For more information about decisions in Workfront, see [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md). 
 
