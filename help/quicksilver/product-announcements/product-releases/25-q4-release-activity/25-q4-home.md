@@ -28,4 +28,8 @@ To create a more seamless experience between Workfront and Workfront Planning, w
 
 You must have the new requesting experience enabled to see the new widget. You can enable the new requesting experience in your Requests area.
 
+The new My Requests widget displays only those requests that were created in the new requesting experience.
+
 For more information on the new My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+For the release note regarding the new requesting experience, see [Updates to requesting experience](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md#updates-to-requesting-experience).
