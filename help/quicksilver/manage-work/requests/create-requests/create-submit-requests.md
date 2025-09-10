@@ -157,6 +157,7 @@ To create a request in the Workfront web app:
    >* <span class="preview">The list includes both Workfront request queues and Workfront Planning request forms.</span>
    >* <span class="preview">You can filter the list by object type.</span>
    >* <span class="preview">To display only Workfront Request queues, filter for `Issue` object types.</span>
+   >* <span class="preview">In the new requesting experience, drafts are found in the same list as submitted requests.</span>
 
 1. (Conditional) If you switched to the new experience that includes Workfront Planning, select your topic groups and queue topics and continue updating the form.
 
