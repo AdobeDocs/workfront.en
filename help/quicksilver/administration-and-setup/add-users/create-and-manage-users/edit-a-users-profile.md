@@ -100,7 +100,6 @@ For more detail about the information in this table, see [Access requirements in
   
   You cannot reset the password of a Workfront administrator.
 
-<!--
 * **&lt;SSO Configuration&gt; Username**: If your Workfront administrator enabled an SSO integration with Workfront, the SSO Username displays in this field. The type of SSO configuration enabled for your Workfront instance is visible in this field.
 * **OnlyAllow &lt;SSO Configuration&gt; Authentication**: If your Workfront administrator enabled an SSO integration with Workfront and has updated all users for SSO, this field is selected by default. The type of SSO configuration enabled for your Workfront instance is visible in this field.
   
@@ -115,7 +114,6 @@ For more detail about the information in this table, see [Access requirements in
   >If you are a group administrator, you can edit the &lt;SSO Configuration&gt; fields only for users in the groups where you are designated as such. Also, the User Admin (Group Users) permission must be enabled in your access level.
   >
   >If you are a group administrator and you have the User Admin (All Users) permission enabled in your access level, you can edit the &lt;SSO Configuration&gt; fields for all users.
--->  
 
 * **Profile photo**: Click **Upload new** to load the user's profile picture. You can upload a JPG, GIF, or PNG file. The file size limit is 4 MB.
 
@@ -146,7 +144,7 @@ For more detail about the information in this table, see [Access requirements in
 
 <!--* **Automatically set the task status to In Progress when tasks are self-assigned**: When this option is selected, work that the user self-assigns is automatically set to In Progress status instead of New.-->
 
-<!--**Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **Send work I assign to myself to my Working On tab**: When this option is selected, work that the user self-assigns is automatically set to In Progress status instead of New. <!--This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **Automatically generate proofs when uploading documents**: Check this option if you want the documents that the user uploads to immediately generate a proof.
 
