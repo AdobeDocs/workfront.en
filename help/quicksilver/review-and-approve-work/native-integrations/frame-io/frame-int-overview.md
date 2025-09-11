@@ -91,6 +91,8 @@ Document access is also managed at the project level. If a user has access to a 
 
 Because this integration is built using ESM, there are some limitations to the document experience in Workfront:
 
+Changes to the original workfront docuemnts experience
+
 Temporary limitations:
 
 * You cannot favorite documents
@@ -100,6 +102,7 @@ Temporary limitations:
 * You cannot upload documents to comments or updates in Workfront
 * You cannot upload documents to tasks or issues in Workfront
 
+External users? 
 
 Permanent limitations:
 
