@@ -241,6 +241,8 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 
     <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
+<!--1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
+
 1. Click the bar of a record to open its details area and edit all fields. 
 
     For information, see the [Edit a record from the record's preview in a view](#edit-a-record-from-the-records-preview-in-a-view) section in this article. 
