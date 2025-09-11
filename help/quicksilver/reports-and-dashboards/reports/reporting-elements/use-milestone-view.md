@@ -100,7 +100,7 @@ The Milestone view is available on project lists and project reports. You can qu
 
 For information about how to switch to the Milestone view, see the section [Switch to the Milestone view](#switch-to-the-milestone-view) in this article.
 
-<!--add new screen shot for preview or prod release-->
+<!--add new screen shot for preview or production release-->
 
 ![Project with milestone view](assets/project-with-milestone-view-with-complete.png)
 
@@ -139,7 +139,7 @@ When viewing a project list or project report in the Milestone view, the followi
 
   You can adjust the completion percentage directly from the Milestone view, as described in the section [Adjust Percent Complete for tasks in the Milestone view](#adjust-percent-complete-for-tasks-in-the-milestone-view) in this article.
 
-* **Task progress status icons:** A status icon is displayed next to each project and task in the Milestone view. <!--get new screen shots or hide them for preview or prod - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+* **Task progress status icons:** A status icon is displayed next to each project and task in the Milestone view. <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
 
    <!--A progress status icon in the shape of a colored circle displays next to each project and task in the Milestone view. The possible statuses and circle colors are: 
    * On Time - green
@@ -194,7 +194,7 @@ When viewing a project list or project report in the Milestone view, the followi
 
    * No color shading is assigned to the Start and Completion columns when the tasks have a Progress Status of At Risk or Behind. 
 
-   <!--add new screen shot for preview or prod release-->
+   <!--add new screen shot for preview or production release-->
    
    ![Milestone view with shading](assets/milestone-view-with-shading.png)
 
@@ -238,7 +238,7 @@ To configure whether project status icons and completion percentage of projects 
 
    <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
 
-   <!--at Prod release, replace this screen shot and adjust the Production/ Preview text above-->
+   <!--at Production release, replace this screen shot and adjust the Production/ Preview text above-->
 
    ![milestone_view_options.png](assets/milestone-view-options-350x141.png)
 
