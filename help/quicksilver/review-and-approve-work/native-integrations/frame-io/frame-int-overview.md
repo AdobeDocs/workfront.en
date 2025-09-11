@@ -28,93 +28,84 @@ For more details, see [Adobe Enterprise Storage overview]. <!--coming soon?-->
 
 ## Unified review and approval 
 
+The Workfront and Frame.io integration uses Workfront's unified approval functionality to manage reviews and approvals. With unified approvals, you can:
 
-### Unified approval management in Workfront
+* Create and manage reviews and approvals directly from Workfront
+* Track the status of reviews and approvals in real time
+* Centralize feedback and approvals in one place
+* Ensure that all stakeholders have access to the latest versions of assets
+* Utilize AI Reviewers to automate brand compliance reviews
+* and more
 
-details about unified approvals 
-
+For more information, see [Unified document approvals: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
 
 
 ### Use the Frame.io viewer
 
-The integration supports a unified review and approval workflow with the Frame.io viewer. The Frame.io viewer provides
+The integration also connects with the Frame.io viewer. The Frame.io viewer provides
 
 * Markup and commenting tools
-* Version history and audit trails
+* Version history and comparison
+* Time-stamped comments for video reviews
 * Mobile access for on-the-go reviews and approvals
 
 For more information, see [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
 
-Documents experience
+#### Supported file types in the Frame.io viewer
 
-Documents must have unique names within the same project due to ESM hierarchy rules.
-Auto-renaming is applied to prevent naming conflicts.
+The Frame.io viewer supports all common video, image, audio, PDF, and MS&reg; Office types. For a detailed list of supported files, see [Types on Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
 
-Document access is managed at the project level.
+#### Access and licensing for the Frame.io viewer
 
+The Frame.io viewer is available to all Workfront users with a paid license. No additional Frame.io license is required to use the Frame.io viewer for reviews and approvals with this integration. 
 
-The Frame.io viewer supports all common video, image, audio, PDF, and MS Office types. For a detailed list of supported files, see [Types on Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
+If your organization wants to take advantage of additional Frame.io functionality, such as uploading assets directly to projects in Frame.io, you can purchase a Frame.io enterprise license. <!--link to Frame.io enterprise license info or who to contacT?-->
 
-Video, image, audio, PDF, and Microsoft Office file types
-→ https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io
-
-
+Workfront proofing functionality is not available with this integration.
 
 ## Powerful project management in Workfront
 
-### naming
+With the Workfront and Frame.io integration, project coordinators can leverage Workfront's powerful project management capabilities to plan, track, and manage work.
 
-Naming conventions are specific and can't be duplicated
-ESM requires unique names for peer objects with the same parent in  the hierarchy tree.
-Documents can't have the same name if they belong to the same project
-Solution: Auto renames the object or document
+For more information about managing projects in Workfront, see [Projects: article index](/help/quicksilver/manage-work/projects/projects-toc.md).
 
-### Document management 
+### Enforced structure and naming conventions
 
-Naming conventions are specific and can't be duplicated
-ESM requires unique names for peer objects with the same parent in  the hierarchy tree.
-Documents can't have the same name if they belong to the same project
-Solution: Auto renames the object or document
+Because this integration is built using ESM, there are some enforced structure and naming conventions to be aware of when managing projects and documents.
 
-Document sharing
-Share doc access at the project level
-
-can't drag full folders
-
-### Additional functionality available with Frame.io enterprise licenses
-
-The Frame.io enterprise license includes additional functionality for organizations, such as:
-
-* Accessing Frame.io from the Workfront interface
-* Projects created in Workfront are also visible in Frame.io
-* Assets uploaded in Frame.io are visible in Workfront
-
-
-
-
-
-
-
-Maybe this needs to be a list in a separate doc when existing customers move over?
-
-## Limitations/Considerations 
-
-### Projects
-
-stuff here 
-
-### Documents 
-
+* Object names must be unique and can't be duplicated
+* ESM requires unique names for peer objects with the same parent in the hierarchy tree
 * Documents can't have the same name if they belong to the same project
-* Documents can't be added to tasks or issues
-* Documents access is handled at the project level
-* no external doc providers
-* No favorite docs
-* No requesting docs
-* No sending to AEM
-* No access to proofing
-* No multi-stage approvals
-* no uploading docs to comments or updates 
+
+With these limitations in mind, Workfront automatically renames objects or documents as needed to prevent conflicts.
+
+### Document management in Workfront
+
+Documents are managed at the project level with this integration and can't be uploaded to tasks or issues at this time. 
+
+Document access is also managed at the project level. If a user has access to a project, they can access all documents associated with that project.
+
+<!--Documents can't be dragged as full folders.-->
+
+### Document experience limitations
+
+Because this integration is built using ESM, there are some limitations to the document experience in Workfront:
+
+Temporary limitations:
+
+* You cannot favorite documents
+* You cannot request documents
+* You cannot send documents to AEM
+* You cannot use multi-stage approvals -- only single-stage approvals are supported
+* You cannot upload documents to comments or updates in Workfront
+* You cannot upload documents to tasks or issues in Workfront
+
+
+Permanent limitations:
+
+* You cannot use external document providers
+* You cannot access proofing
+* You cannot use the document viewer in Workfront 
 
 
 
@@ -124,12 +115,7 @@ stuff here
 
 
 
-
-
-
-
-
-
+<!--
 ESM Article: 
 
 Key Features:
@@ -150,3 +136,5 @@ ESM enables creative review and approval workflows by serving as the source of t
 
 Scalable Storage & Quota Management:
 ESM offers scalable storage options and unified quota tracking across Adobe products.
+
+-->
