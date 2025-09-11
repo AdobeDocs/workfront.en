@@ -1021,6 +1021,7 @@ feature-set: Workfront
     * [Delete or archive a card from a board](agile/get-started-with-boards/delete-board-items.md)
     * [Filter and search in a board](agile/get-started-with-boards/filter-search-in-board.md)
     * [Add tags](agile/get-started-with-boards/add-tags.md)
+    * [Manage the Boards Admin View](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md)
     * [Boards email notifications and preferences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
   * Use agile planning tools in boards {#agile-planning-boards}
     * [Agile planning tools overview: article index](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
