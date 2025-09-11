@@ -15,7 +15,7 @@ The Workfront and Frame.io integration allows project coordinators to manage pro
 
 ## Built on Adobe Enterprise Storage Management
 
-At the core of this integration is Adobe Enterprise Storage Management (ESM)—a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products, including Workfront and Frame.io.
+At the core of this integration is Adobe Enterprise Storage Management (ESM)—-a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products, including Workfront and Frame.io.
 
 Key benefits of Adobe Enterprise Storage Management include:
 
