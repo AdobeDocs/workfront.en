@@ -5,8 +5,6 @@ description: The Project Health feature utilizes the power of AI Assistant to in
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-hide: yes
-hidefromtoc: yes
 ---
 # Project Health overview
 
