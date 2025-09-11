@@ -25,8 +25,7 @@ If your organization has a Frame.io Enterprise license, projects created in Work
 For information about Adobe Enterprise Storage or projects in Frame.io, see
 
 * [Workspace Overview: Projects](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
-* [Adobe Enterprise Storage overview](link)
-
+* [Adobe Enterprise Storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md)
 
 ## Review and approve assets
 
