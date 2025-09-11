@@ -1,5 +1,5 @@
 ---
-title: Add Existing Record Types
+title: Add Existing Record Types from Another Workspace
 description: Record types are the object types of Adobe Workfront Planning. In Workfront Planning, you can add an existing record type created in another workspace.
 hidefromtoc: yes
 hide: yes
@@ -13,7 +13,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 -->
 
-# Add existing record types
+# Add existing record types from another workspace
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -27,7 +27,7 @@ You can designate a record type as centralized when you create or edit it, as yo
 
 For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). 
 
-Before adding records to a workspace from a cenralized record type, see the article [Centralized record types overview](/help/quicksilver/planning/architecture/centralized-record-types-overview.md). 
+Before adding records to a workspace from a cenralized record type, see the article [Cross-workspace record types overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
 
 ## Access requirements
 
@@ -104,7 +104,7 @@ For more information about Workfront access requirements, see [Access requiremen
 
 1. (Optional) Click, then drag and drop the newly added record type to any section within the workspace. 
 
-1. (Optional) Click on the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace. 
+<!--This will be released later with another epic: 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.-->
 
 1. (Optional) Click on the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Delete**.
 1. (Conditional) Type **delete** in the field provided, then click **Permanently delete**.
@@ -113,7 +113,7 @@ For more information about Workfront access requirements, see [Access requiremen
 
    * The record type created from a centralized record type is removed from the selected workspace. 
    * The original record type and its fields remain in their original workspace. 
-   * All other record types added from the same centralized record type remain in their workspaces.
+   * The record type remains in all other workspaces where it's been added.
    * The records added to the record type from the current workspace are deleted. All other records added from additional workspaces where the centralized record type was added are preserved. 
 
 

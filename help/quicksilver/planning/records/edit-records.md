@@ -91,7 +91,6 @@ For information about creating records, see [Create records](/help/quicksilver/p
 
 +++   
 
-
 ## Considerations about editing records
 
 * You can edit records that you created or records created by others, if you were given permissions to the workspace. 
@@ -100,18 +99,7 @@ For information about creating records, see [Create records](/help/quicksilver/p
     * The record's preview in a record view
     * The record's details page
     * Inline, in a table view. 
-<!--* You can edit a record's dates from the following areas:
-        * All areas listed above
-        * <span class="preview">In a timeline view, by resizing the record bars</span>
-         * <span class="preview">In a calendar monthly view, by resizing the record bars</span>
-        For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
-
-<!-- when drag and drop is available replace the last 2 points with this:
-
-* <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record bars in a new position</span>
-* <span class="preview">In a calendar view, by resizing the record bars when viewing it by month, or by dragging and dropping the record bars in a new position</span>
-    For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
--->
+    * <span class="preview"> The calendar and timeline view, when resizing <!--or dragging and dropping--> the records. This updates the records' dates.</span>
 
 * When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users.
 
@@ -252,10 +240,17 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 <!--add another step about drag and drop here when that is available-->
 
 1. Open the record type page in a calendar view. For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-1. (Conditional) Select **Month** in the upper-right dropdown menu.
-1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margins to another date. This automatically updates either the start or end date of the record.</span>  
+1. <span class="preview">(Conditional) Hover over the ends of a record's bar in the calendar monthly view, then click, drag and drop its margins to another date. This automatically updates either the start or end date of the record.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above-->
 
     <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+
+    <!--At preview release, add one of the following depending on which one is releasing: 
+    Scenario one: only drag and drop in the weekly view is releasing:
+    1. <span class="preview">Click a record bar in the calendar weekly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
+    Scenario two: only drag and drop in the monthly view is releasing:
+    1. <span class="preview">Click a record bar in the calendar monthly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
+    Scenario 3: both the weekly and monthly drag and drop are releasing at the same time:
+    1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>--> 
 
 1. Click the bar of a record to open its details area and edit all fields. 
 

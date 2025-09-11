@@ -53,7 +53,9 @@ You must have the following access to access Workfront Planning:
 <li>Prime</li>
 <li>Ultimate</li></ul>
 <p>Workfront Planning is not available for legacy Workfront packages</p>
-<ul><li><p>Any Planning package</p></li></ul>
+<p>Any of the following Planning package:</p>
+<ul><li><p>Workfront Planning</p></li>
+<li><p>Workfront Planning Plus</p></li></ul>
 <p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p>
    </td>
 <tr>
