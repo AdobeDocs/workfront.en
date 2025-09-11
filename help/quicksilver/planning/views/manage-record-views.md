@@ -265,5 +265,3 @@ For more information, see [Manage the table view](/help/quicksilver/planning/vie
 
 
 <!--## Add a view as a favorite - this is not possible yet-->
-
-<!--not possible yet - August 30, 2023: -->

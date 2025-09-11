@@ -112,7 +112,7 @@ A workspace manager can add a centralized record type to a workspace they manage
 
 Users can add records to a centralized record type from any workspace they have Contribute permissions and where the centralized record type is added, including its original workspace. They can view records from workspace they have only View permissions to.
 
-For more information, see [Centralized record types overview](/help/quicksilver/planning/architecture/centralized-record-types-overview.md)
+For more information, see [Cross-workspace record types overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
 To configure adding a record type as a centralized record type: 
 
@@ -173,7 +173,7 @@ To configure adding a record type as a centralized record type:
          This field is read-only and cannot be deleted.
 1. (Optional) Go to another workspace and create a record type by using an existing record type. Select the record type you enabled in the steps above. 
 
-   For information, see [Add existing record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md). 
+   For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). 
 
 ## Configure connectable record types
 
