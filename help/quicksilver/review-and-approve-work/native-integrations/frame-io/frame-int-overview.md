@@ -51,6 +51,10 @@ The integration also connects with the Frame.io viewer. The Frame.io viewer prov
 
 For more information, see [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
 
+#### Video review limitations
+
+need to confirm these
+
 #### Supported file types in the Frame.io viewer
 
 The Frame.io viewer supports all common video, image, audio, PDF, and MS&reg; Office types. For a detailed list of supported files, see [Types on Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
