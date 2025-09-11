@@ -19,7 +19,7 @@ recommendations: noDisplay, noCatalog
 
 
 <!--this article is linked to the UI - do not delete or change the URL-->
-<!--add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this imported record type - this info is in the UI - this is what she sent in figma:
+<!--add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type - this info is in the UI - this is what she sent in figma:
 
 Hey, Alina, Lusine. As this page contains not only the "global record types" but also cross-workspace connectivity setting, we shouldn't have this message that's highlighting only the global rt features. I think we should have explanation for each setting both in enabled and disabled states. 
 
@@ -48,7 +48,7 @@ The following are cross-workspace capabilities of record types:
 * You can designate a record type as centralized. Users can add centralized record types to other workspaces they can manage. 
 * You can designate a record type as a connectable. Users can connect to this record type from other workspaces. 
 
-You must first define the cross-workspace capabilities of a record type before workspace managers can either connect it from or import it into other workspaces.
+You must first define the cross-workspace capabilities of a record type before workspace managers can either connect it from or add it into other workspaces.
 
 You define the cross-workspace capabilities of a record type when you create or edit a record type. 
 

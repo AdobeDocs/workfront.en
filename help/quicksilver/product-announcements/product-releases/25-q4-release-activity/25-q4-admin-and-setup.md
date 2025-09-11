@@ -42,6 +42,11 @@ For prerequisites to enabling AI features, see [Prerequisites to AI Assistant](/
 
 ## Updates to the Workfront user profile
 
+>[!IMPORTANT]
+>
+>This update has been temporarily removed from Preview and Production.
+
+
 >[!NOTE]
 >
 >* Preview: August 28, 2025
