@@ -53,7 +53,7 @@ For more information, see [Get started with the Frame.io integration](/help/quic
 
 #### Video review limitations
 
-need to confirm these
+<!--need to confirm these-->
 
 #### Supported file types in the Frame.io viewer
 
@@ -93,31 +93,27 @@ Document access is also managed at the project level. If a user has access to a 
 
 ### Document experience limitations
 
-Because this integration is built using ESM, there are some limitations to the document experience in Workfront:
+Because this integration is built using ESM, there are some limitations to the original document experience in Workfront:
 
-Changes to the original workfront docuemnts experience
+#### Limitations
 
-Temporary limitations:
+The following capabilities will not be included in this integration:
 
-* You cannot favorite documents
-* You cannot request documents
-* You cannot send documents to AEM
-* You cannot use multi-stage approvals -- only single-stage approvals are supported
-* You cannot upload documents to comments or updates in Workfront
-* You cannot upload documents to tasks or issues in Workfront
-
-External users? 
-
-Permanent limitations:
-
-* You cannot use external document providers
-* You cannot access proofing
-* You cannot use the document viewer in Workfront 
+* External document providers
+* Access to proofing
+* Document viewer in Workfront
 
 
+#### Temporary limitations
 
+For now, the following capabilities are not available:
 
-
+* Favorite documents
+* Request documents
+* Send documents to Adobe Experience Manager Assets
+* Multi-stage approvals
+* Upload documents to comments or updates in Workfront
+* Upload documents to tasks or issues in Workfront
 
 
 
