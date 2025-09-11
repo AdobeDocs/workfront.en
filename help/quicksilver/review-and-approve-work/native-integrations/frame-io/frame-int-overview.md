@@ -24,7 +24,7 @@ Key benefits of Adobe Enterprise Storage Management include:
 * End-to-end asset visibility across Workfront, Frame.io, and Creative Cloud apps <!--coming soon?-->
 * Scalable storage and quota management for enterprise needs
 
-For more details, see [Adobe Enterprise Storage overview]. <!--coming soon?-->
+For more details, see [Adobe Enterprise Storage Management overview](help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Unified review and approval 
 
