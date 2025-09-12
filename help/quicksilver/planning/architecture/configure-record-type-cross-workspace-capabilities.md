@@ -77,11 +77,11 @@ For information, see one of the following articles:
 <ul><li><p>Any Workfront package</p></li>
 And
 <li><p>Planning Plus package</p></li></ul>
-Or:
+<!--Or:
 <ul><li><p>Any Workflow package</p> </li>
 And
-<li><p>Planning Prime or Ultimate package</p></li></ul>
-<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+<li><p>Planning Prime or Ultimate package</p></li></ul>-->
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
    </td> 
 
   <tr> 
