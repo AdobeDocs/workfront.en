@@ -240,7 +240,7 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 <!--add another step about drag and drop here when that is available-->
 
 1. Open the record type page in a calendar view. For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-1. <span class="preview">(Conditional) Hover over the ends of a record's bar in the calendar monthly view, then click, drag and drop its margins to another date. This automatically updates either the start or end date of the record.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above-->
+1. <span class="preview">(Conditional) Hover over the ends of a record's bar in the calendar monthly view, then click, drag and drop its margins to another date. This automatically updates either the start or end date of the record.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release-->
 
     <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
