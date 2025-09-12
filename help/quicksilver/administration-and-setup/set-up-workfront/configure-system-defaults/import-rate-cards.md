@@ -92,7 +92,7 @@ Create and list all of rate cards on this tab. Each row represents one rate card
    >[!NOTE]
    >
    >* At minimum, you must enter the Name for each rate card.
-   >* Each rate card is automatically given a sequence number base on its row position. For example, the first rate card you define (in row 2) is sequence 1, the next is 2, and so on. These sequence numbers are used in the RATE_RTCRD tab to attach rates.
+   >* Each rate card is automatically given a sequence number based on its row position. For example, the first rate card you define (in row 2) is sequence 1, the next is 2, and so on. These sequence numbers are used in the RATE_RTCRD tab to attach rates.
 
 ### Fill out the RATE_RTCRD (Rates Setup) tab
 
