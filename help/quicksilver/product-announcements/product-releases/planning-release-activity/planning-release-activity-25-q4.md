@@ -30,7 +30,7 @@ Previously, request forms were located only on the object for which they were cr
 
 For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
 
-## New information box displayed when changing or deleting a fields
+## New information box displays when changing or deleting a field
 
 >[!NOTE]
 >
@@ -172,7 +172,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 >* Production fast release: September 11, 2025
 >* Production for all customers: October 16, 2025
 
-To simplify the unified request experience, the Status column now displalys both Request Status and Approval Status, whichever applies to a given request.
+To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.
 
 For more information on creating requests see:
 
@@ -217,7 +217,7 @@ For information, see [Formula fields overview](/help/quicksilver/planning/fields
 >[!NOTE]
 >
 >Preview: August 7, 2025
->Production for all customers:August, 2025
+>Production for all customers: August, 2025
 >[!BADGE Off schedule]{type=Neutral}
 
 We have added new expressions with the following usage to formula fields in Workfront Planning and to calculated custom fields in Workfront:
