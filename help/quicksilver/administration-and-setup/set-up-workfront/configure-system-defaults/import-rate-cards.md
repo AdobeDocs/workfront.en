@@ -1,6 +1,6 @@
 ---
 title: "Import rate cards from a template"
-description: You can use a template file to build your rate cards in Excel and import them into Workfront.
+description: You can use a template file to build your rate cards in Excel and import them into Adobe Workfront.
 author: Lisa
 hide: yes
 hidefromtoc: yes
@@ -8,15 +8,15 @@ hidefromtoc: yes
 
 # Import rate cards from a template
 
-You can use a template file to build your rate cards in Excel and import them into Workfront, instead of adding all of the job roles and rates manually.
+You can use a template file to build your rate cards in Excel and import them into Adobe Workfront, instead of adding all of the job roles and rates manually.
 
 ## Important rules for working with the template file
 
 * Enter either the Job Role OR the Non-Labor Resource Category, but not both.
 * The Rate Card Sequence on the RATE_RTCRD tab must match the order of cards on the RTCRD tab (1 for first, 2 for second, etc.).
 * The Start Date and End Date must follow the allowed formats.
-* Rate Cards can be imported without rates and updated later. 
-* Custom attributes (Agency, Cost Center, etc.) may vary – check with your system administrator for the exact requirements.
+* Rate cards can be imported without rates and updated later. 
+* Custom attributes (Agency, Cost Center, etc.) may vary. Check with your system administrator for the exact requirements.
 * Rows deleted in the template will not delete existing records in the system.
 
 ## Access requirements
@@ -76,7 +76,7 @@ Create and list all of rate cards on this tab. Each row represents one rate card
 
    * **Name** (required): The name of the rate card, such as "Global Billing 2025."
 
-     This name is the main identifier for the rate each. Each rate card must have a unique name.
+     This name is the main identifier for the rate card. Each rate card must have a unique name.
 
    * **Description** (optional): A free-form text description of the rate card. Use this to describe purpose, scope, or validity, for example, "Applies to North American projects."
    * **Company** (optional): This can be either the company name or the company ID. The import will recognize both.
@@ -89,10 +89,10 @@ Create and list all of rate cards on this tab. Each row represents one rate card
 
    * **Custom fields** (optional): You can add additional columns with custom field names if your environment has specific requirements.
 
-     >[!NOTE]
-     >
-     >* At minimum, you must enter the Name for each rate card.
-     >* Each rate card is automatically given a sequence number base on its row position. For example, the first rate card you define (in row 2) is sequence 1, the next is 2, and so on. These sequence numbers are used in the RATE_RTCRD tab to attach rates.
+   >[!NOTE]
+   >
+   >* At minimum, you must enter the Name for each rate card.
+   >* Each rate card is automatically given a sequence number base on its row position. For example, the first rate card you define (in row 2) is sequence 1, the next is 2, and so on. These sequence numbers are used in the RATE_RTCRD tab to attach rates.
 
 ### Fill out the RATE_RTCRD (Rates Setup) tab
 
@@ -172,7 +172,7 @@ Following these steps will prevent unnecessary issues and ensure a smooth and ac
 
 1. If the file contains issues, an error message appears. Click **See issues** to view the issues on a separate screen.
 
-   You must correct the issues in the Excel file and import it again.
+   You must correct the issues in the Excel file and import it again before the rate cards will exist in Workfront.
 
 
 
