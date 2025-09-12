@@ -1,12 +1,12 @@
 ---
-title: Auto-complete a request from previous data
+title: Auto-complete a request with data from previous requests
 content-type: reference
 description: You can use AI to auto-complete request fields using data from previous requests.
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
 ---
-# Auto-filcompletel a request from previous data
+# Auto-complete a request with data from previous requests
 
 >[!NOTE]
 >
