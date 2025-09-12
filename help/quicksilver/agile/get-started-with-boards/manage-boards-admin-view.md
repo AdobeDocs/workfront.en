@@ -31,9 +31,14 @@ From this area, you can perform the following actions:
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront  license</td> 
-   <td> <p>Contributor or higher </p>
-        <p> Request or higher </p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+        <p> Plan </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>System Administrator </p>
+        </td> 
   </tr> 
  </tbody> 
 </table>
