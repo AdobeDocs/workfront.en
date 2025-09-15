@@ -92,6 +92,7 @@ The following statuses are available:
                                 <p>At least one approver has made a decision of "Approved with changes"</p>
                                 <p>Other approvers may have given decisions of "Approved"
                             </li>
+                            <p>Note: This option is not available if you are using the Frame.io integration for review and approval.</p>
                         </ul>
                     </td>
                 </tr>
@@ -100,9 +101,9 @@ The following statuses are available:
                     </td>
                     <td>
                         <ul>
-                            <li>
+                           <!--<li>
                                 <p>All approvals and reviews are complete</p>
-                            </li>
+                            </li>-->
                             <li>
                                 <p>All approvers may have given decisions of "Approved"
                             </li>
