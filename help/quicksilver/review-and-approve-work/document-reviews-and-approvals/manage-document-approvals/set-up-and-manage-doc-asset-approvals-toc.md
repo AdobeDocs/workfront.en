@@ -2,14 +2,14 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: 'Set up and manage asset and document approvals: article index'
-description: This section contains articles about managing asset and document approvals in Workfront.
+title: 'Set up and manage unified approvals: article index'
+description: This section contains articles about managing unified approvals in Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
 ---
-# Set up and manage asset and document approvals: article index
+# Set up and manage unified approvals: article index
 
 This section contains the following articles:
 

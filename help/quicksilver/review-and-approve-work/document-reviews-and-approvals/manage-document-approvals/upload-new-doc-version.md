@@ -17,12 +17,9 @@ When a new version is added to a document with outstanding approvals, the approv
 
 If the newest document version is deleted, the previous versions remain locked. If you need to edit a pervious version, you must manually unlock it. 
 
-
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
-
-You must have the following:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,17 +28,16 @@ You must have the following:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses*</td> 
-   <td> <p>Current: Request or higher</p>
-   or
-   <p>New: Contributor or higher</p> </td> 
+   <td> <p>Request or higher</p>
+   <p>Contributor or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -51,7 +47,7 @@ You must have the following:
  </tbody> 
 </table>
 
-To find out what plan, license type, or access you have, contact your Workfront administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,26 +57,36 @@ To find out what plan, license type, or access you have, contact your Workfront 
 >
 >Drag-and-drop does not work with Internet Explorer.
 
-1. Go to the Documents area where the document is uploaded.
-1. From your desktop or a separate browser tab, drag the new version of the document on top of the existing version in Workfront.
 
-   As you drag the new version, you can hover over a Workfront documents folder to open it. You can then scroll up and down by dragging the files to the top or bottom of the screen.
+If you need another round of review and approval on a document, you can create a new document version in Workfront.
 
-1. Drop the new version on top of the existing file on the **Documents** tab.
+You can add the previous participants, new participants, or a mix of both. You can view information about previous versions and participants on the Document Details page. 
 
-1. Once the document is uploaded, click on it and open the document Summary panel.
+To add a new version:
 
-1. Scroll down to the **Approvals** section in the Document Summary pane, then click **Add**.
+1. Navigate to the document in Workfront.
+1. Drag and drop the new file on top of the previous document. This automatically creates a new version. 
 
-  ![Add approvers in document summary](assets/doc-summary-add-approvers.png)
+1. Once the document finishes uploading, select the document, then click **Document Details**.
+    ![Open the document details page](assets/open-doc-details.png)
+
+
+1. In the left panel, click **Approvals**, then click **Add**.
+
+1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.
+
+
+1. To add an existing approval template, click the Template button and begin typing in a template name.
+
+   >[!TIP]
+   >
+   >   Users with a Standard license can create resuable Approval Templates from the Setup area. For more information, see [Create an Approval Template for assets and documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
 
 1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
+ 
+1. Once you've added all reviewers and approvers, click **Submit Request**. Participants are notified via email.
+ 
+    ![submit new version for approval](assets/add-previous-participants.png)
 
-1. To quickly add reviewers and approvers from the previous version, click the add button next to their names listed below.
-<!--need screenshot when working-->
 
-1. (Optional) change role from approver/reviewer.
-
-1. To add new approvers and reviewers, click **Reviewer** or **Approver** and begin typing the user or team.
-
-   ![Add approver and deadline](assets/add-approver-and-deadline.png)
