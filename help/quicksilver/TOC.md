@@ -1795,7 +1795,6 @@ feature-set: Workfront
     * [Update work items in the Workload Balancer using the Summary](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * Review and approve work {#review-and-approve-work}
   * [Review and approve work](review-and-approve-work/review-and-approve-work.md)
-  * [Alpha Program – Document Approvals](review-and-approve-work/Documents/doc-approvals-alpha.md)
   * [Limited document and proof decision for non-paid users overview](review-and-approve-work/proof-doc-decision-limits.md)
   * Work approvals {#work-approvals}
     * [Work approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -1830,7 +1829,7 @@ feature-set: Workfront
       * [View AI Reviewer score and feedback ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
       * [Review a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
       * [Approve a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
-      * [Review and approve a document in the Frame.io viewer](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-approve-in-frame-io-viewer.md)
+      * [Review and approve a document in the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
   * Proofing {#proofing}
     * [Proofing: article index](review-and-approve-work/proofing/proofing.md)
     * Proofing overview {#proofing-overview}

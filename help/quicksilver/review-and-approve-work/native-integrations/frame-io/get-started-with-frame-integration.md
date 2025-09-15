@@ -36,7 +36,7 @@ After the approval workflow is created, reviewers and approvers can use the Fram
 For more information about setting up projects, see 
 
 * [Create a project](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
+<!--* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)-->
 
 ### Initiate formal reviews and approvals in Workfront
 
@@ -66,7 +66,7 @@ Reviewers and approvers can be added to a single-use approval workflow or a reus
 
 Once the review and approval workflow is initiated in Workfront, reviewers and approvers can access the Frame.io viewer to add comments, mark up the asset, and make a decision. 
 
-For more information, see [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).
+<!--For more information, see [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).-->
 
 #### Access the Frame.io viewer
 
