@@ -5,6 +5,8 @@ title: Adobe Enterprise Storage Management overview
 description: Adobe Enterprise Storage Management overview
 author: Courtney
 feature: Work Management, Digital Content and Documents
+hide: yes
+hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 
 ---

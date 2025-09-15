@@ -5,6 +5,8 @@ title: Review and approve with the Frame.io viewer
 description: Learn how to review and approve documents using the Frame.io viewer.
 author: Courtney
 feature: Work Management, Digital Content and Documents
+hide: yes
+hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 ---
 

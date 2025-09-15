@@ -5,6 +5,8 @@ title: Frame.io integration overview
 description: Frame.io integration overview
 author: Courtney
 feature: Work Management, Digital Content and Documents
+hide: yes
+hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 
 ---
