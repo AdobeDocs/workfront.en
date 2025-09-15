@@ -196,5 +196,9 @@ Project intake forms do not support public sharing. Sharing options include:
    * **Copy link**: Click this to quickly copy the request form's link without opening the form.
    * **Delete**: Click this to delete the form. All requests and records added using the form are not deleted. The form cannot be recovered. 
 
+   >[!NOTE]
+   >
+   >You can identfy project intake forms in the table view because they display "Project" in the Object type column.
+
 1. Click the left-pointing arrow to the left of **Request forms** in the header to close the request forms table.  
 
