@@ -127,13 +127,13 @@ Workfront has the following limits:
 * PNM - Portable Bitmap Utilities
 * PPM - Portable Bitmap Utilities
 * PPT - PowerPoint Presentation
+* PPTX - PowerPoint Presentation 2007 
 
    >[!NOTE]
    >
    >There is a known issue with PowerPoint Presentation files failing to upload at this time. If you experience this issue, please convert the file to PDF and upload the PDF instead. For more information, see [Proofs: Cannot generate a proof from a PowerPoint file](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
 
-
-* PPTX - PowerPoint Presentation 2007 PS - PostScript File
+* PS - PostScript File
 * PSD - Photoshop
 * PSP - Paint Shop Pro
 * PTK - PTOCA
