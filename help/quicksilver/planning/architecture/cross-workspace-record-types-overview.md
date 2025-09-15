@@ -19,6 +19,13 @@ In Adobe Workfront Planning, you can enable cross-workspace capabilities for a r
 The following are cross-workspace capabilities of record types:
 
 * You can designate a record type as centralized. Users can add centralized record types to other workspaces they can manage. 
+
+    >[!IMPORTANT]
+    >
+    >You must have a Workfront Planning Plus package, in addition to a Workfront package to use centralized record types.
+    >
+    >For more information about what is included in each Workfront Planning package, contact your Workfront account manager.
+
 * You can designate a record type as connectable. Users can connect to this record type from other workspaces. 
 
 This article gives you an overview of cross-workspace record types. For information about defining a record type's cross-workspace capabilities, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). 
