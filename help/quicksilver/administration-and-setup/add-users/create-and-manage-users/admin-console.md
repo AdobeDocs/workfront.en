@@ -154,7 +154,8 @@ You must add a user to your Production instance of Workfront before you can make
 
    >[!IMPORTANT]
    >
-   >Do not make any changes to the Product Profile itself.
+   >* Do not make any changes to the Product Profile itself.
+   >* Ensure that you are on the page with the header "Add product profile administrators." Product administrators serve a different function than product profile administrators in the Adobe Admin Console, and are not discussed in this article. 
 
 
 ## Create users in Workfront with the Adobe Admin Console {#create-users-in-workfront-with-the-adobe-admin-console}
