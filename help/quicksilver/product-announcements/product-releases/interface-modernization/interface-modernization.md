@@ -18,6 +18,23 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+### Interface updates when adding or editing timesheet profile in the Setup area
+
+**Preview release: September 11, 2025; Production release: September 18, 2025**
+
+We have updated the look and feel of the Timesheet Profile page when editing or adding a system-wide timesheet profile.
+
+To view these changes, go to Setup > Timesheet & Hours > Timesheet Profiles and either add a new profile, or edit an existing one.
+
+For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+
+### Interface updates for the New and Copy Scorecard boxes  
+
+**Preview release: September 4, 2025; Production release: September 11, 2025**
+
+ We have updated the look and feel of the New and Copy Scorecard boxes to match the design in other areas of the application. You can view the updated design when creating or copying a scorecard in the Setup area of Workfront.  
+For information, see [Create a scorecard](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+
 ### Interface updates for the layout templates list in a group
 
 **Preview release: August 28, 2025; Production release: September 4, 2025**
@@ -141,6 +158,14 @@ For information, see [Edit portfolios](/help/quicksilver/manage-work/portfolios/
 
 ## Projects
 
+### Interface updates for a project list or report when applying the Milestone view
+
+**Preview release: September 11, 2025; Production release: September 18, 2025**
+
+We have updated the look and feel of a project list or report when you apply the Milestone view to them.
+
+The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+
 ### Interface changes for the Convert a task to a project without a template
 
 **Preview release: August 28, 2025; Production release: September 4, 2025**
@@ -211,7 +236,7 @@ For information, see [Manage project expenses](/help/quicksilver/manage-work/pro
 
 >[!NOTE]
 >
->Temporarily removed from Preview and Production
+>Available in Preview and will be available in Production in a phased roll-out starting on September 4, 2025.
 
 We have updated the look and feel of the Log time box when logging time for a project, task, or issue in the Hours section, to match the design of other areas of Workfront.  
 
@@ -344,6 +369,18 @@ For for more information, see
 * [Create Routing Rules](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 ## Users
+
+<!--
+### Interface updates for the New User dialog
+
+**Preview release: September 11, 2025; Production release: September 18, 2025**
+
+We have updated the look and feel of the New User dialog to match the design in other areas of the application.
+
+To view this change, go to Users > New User > New User.
+
+For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+-->
 
 ### Interface updates to the Import users dialog
 

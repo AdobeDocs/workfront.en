@@ -65,6 +65,7 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Get started with Workfront Administration</a></li>
     <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Get started with Workfront Fusion</li>
+    <li><a href="/help/quicksilver/app-builder/install-apps-on-exchange.md">Acquire and install apps from Adobe Exchange</a></li>
     </ul>
  </td>
     <td>
@@ -85,6 +86,7 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
         <li><a href="/help/quicksilver/wf-api/general/api-basics.md">API Basics</a></li>
         <li><a href="https://developer.adobe.com/workfront/api-explorer/">API Explorer</a></li>
         <li><a href="/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md">Workfront Integrations</a></li>
+        <li><a href="/help/quicksilver/app-builder/app-builder.md">Create custom applications for Workfront with Adobe App Builder</a></li>
         </ul></td>
   </tr>
 </table>
