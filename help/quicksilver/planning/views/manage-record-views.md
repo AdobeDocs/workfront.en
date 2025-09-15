@@ -164,6 +164,7 @@ The following table shows the similarities and differences between the table, ti
 | Display records by week                    |           |               |  ✓  |
 |Export information from a view                   | ✓         |               |    |
 |<span class="preview">Display in full screen</span>                  | ✓         |   ✓            | ✓   |
+|<span class="preview">Create records in the view</span>                  | ✓         |   ✓            | ✓   |
 
 ## Create or edit views {#create-or-edit-views}
 
@@ -181,6 +182,12 @@ The following table shows the similarities and differences between the table, ti
     By default, all the records of the selected type display in the table view. 
 
 1. Click **+ View** to add a new view. 
+
+    <!--at preview release, replace the step above with this one: 
+    1. Depending on which environment you use, do the following: 
+    * In the Production environment, click the **+View** tab. 
+    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
+    <!--1. <span class="preview">From the view dropdown menu, drag and drop views in order of your preference.</span>-->
 1. Select from the following types of views: 
 
     * Table
@@ -200,6 +207,8 @@ The following table shows the similarities and differences between the table, ti
 >
 >Otherwise, the Timeline and the Calendar options are dimmed.
 >
+
+<!-- replace screen shot at production??-->
 
 ![View types drop-down from record type list](assets/view-types-drop-down-from-record-type-list.png)
 
@@ -256,5 +265,3 @@ For more information, see [Manage the table view](/help/quicksilver/planning/vie
 
 
 <!--## Add a view as a favorite - this is not possible yet-->
-
-<!--not possible yet - August 30, 2023: -->

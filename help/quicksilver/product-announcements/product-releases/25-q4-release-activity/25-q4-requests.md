@@ -20,7 +20,7 @@ For a list of all changes available at this point in the Fourth Quarter 2025 rel
 >* Production fast release: September 11, 2025
 >* Production for all customers: October 16, 2025
 
-To simplify the unified request experience, the Status column now displalys both Request Status and Approval Status, whichever applies to a given request.
+To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.
 
 For more information on creating requests see:
 
@@ -42,7 +42,12 @@ To create a better user experience when making requests in Workfront and Workfro
 * Search for and select Workfront request queues and Workfront Planning forms in a consolidated experience.
 * Hide and reorder columns in the submitted requests list.
 
-This update also features changes to the look and feel of the page.
+This update also features changes to the look and feel of the page. 
+
+Be aware of the following when using the new Requesting experience:
+
+* You can currently find drafts only in the legacy requesting experience. In the new experience you can see drafts only when in a workflow queue if you have a draft in the same path.
+* The new experience currently shows only requests created in the past 1.5 months. To see older requests, you can temporarily disable the new experience and access the older requests through the old experience. 
 
 Previously, Workfront and Workfront Planning requests were on separate tabs, and filters were not customizable.
 

@@ -11,8 +11,6 @@ exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
 ---
 # Edit user profiles in bulk
 
-{{highlighted-preview}}
-
 <!--
 
 >[!IMPORTANT]
@@ -71,7 +69,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Select more than one user, then click the **Edit** icon ![Edit icon](assets/edit-icon.png).
 
-1. In the **Edit User** box, change the information in any of the sections, and click **Save Changes** <span class="preview">or **Save**</span> at any time.
+1. In the **Edit User** box, change the information in any of the sections, and click **Save** at any time.
 
 ### Preferences
 
@@ -95,7 +93,7 @@ For more information, see [Configure event notifications for everyone in the sys
 
 ### Access
 
-* **Is Active** / <span class="preview">**User is active**</span>: Enable this option to indicate that the users are active. Active users use a Workfront license. Disabling the field deactivates the users and prevents them from logging in to Workfront.
+* **User is active**: Enable this option to indicate that the users are active. Active users use a Workfront license. Disabling the field deactivates the users and prevents them from logging in to Workfront.
 
 * **Access Level**: Select the access level to assign to these users. All users you selected will have the same access level.
 
@@ -130,7 +128,7 @@ For more information, see [Configure event notifications for everyone in the sys
 * **Company**: The company of the users. Users can be associated only with one company. You must create a company before you can associate it with a user. Only active companies display in the list. For information about creating companies, see [Create and edit companies](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 * **Home Team**: Specify the home team for the users. Users can only have one home team.
 * **Other Teams**: Users can belong to multiple teams.
-* **Home Group** / <span class="preview">**Current Home Group**</span>: Select an appropriate group to assign the users. This gives the users the ability to access objects that are shared with the group. You can also share layout templates with the a Home Group.
+* **Current Home Group**: Select an appropriate group to assign the users. This gives the users the ability to access objects that are shared with the group. You can also share layout templates with the a Home Group.
 
   This is a required field. Every user must be associated with a home group. If you don't select one, your Home Group is assigned as the Home Group.
 
@@ -168,8 +166,8 @@ For more information, see [Configure event notifications for everyone in the sys
   >
   >Set the Work Time value to 1 to indicate that the user is available for project-related work their entire full-time equivalent.
 
-* **Schedule Deactivation** / <span class="preview">**Set deactivation date**</span>: Check this box / <span class="preview">click this button</span> if you want to schedule these users to be deactivated on a certain date and at a certain time.
-* **Scheduled Deactivation Date** / <span class="preview">**Deactivation Date**</span>: The date and time on which the users become deactivated. For information about scheduling users for deactivation, see [Schedule users for deactivation](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) in [Deactivate or reactivate a user](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Set deactivation date**: Click this button if you want to schedule these users to be deactivated on a certain date and at a certain time.
+* **Deactivation Date**: The date and time on which the users become deactivated. For information about scheduling users for deactivation, see [Schedule users for deactivation](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) in [Deactivate or reactivate a user](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Primary Role**: This is the primary job role that the users can fulfill in Workfront. Every task and issue that the users are assigned to is also assigned to this job role. Job roles are essential in resource management. You can update this field only if you have a Standard or Plan license with administrative user access, or if you are a Workfront administrator. For more information about setting up users with administrative user access, see [Grant access to users](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   Only active job roles display in the list.
