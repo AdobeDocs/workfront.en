@@ -54,7 +54,6 @@ You must have the following access to perform the steps in this article:
 1. Hover over the document, then click Document Details.
    ![Document details](assets/doc-details.png)
 
-
 1. Near the document name, select the version of the document you would like to create an approval for in the version dropdown. The latest version will be selected by default.
 
 1. Click **Approvals** in the left pane.
