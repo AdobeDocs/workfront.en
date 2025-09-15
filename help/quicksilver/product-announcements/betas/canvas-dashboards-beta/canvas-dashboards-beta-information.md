@@ -13,6 +13,7 @@ exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
 >[!IMPORTANT]
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](#provide-feedback) section below.<br>
+>If you have feedback regarding a possible bug or technical issue, please submit a ticket to Workfront Support. For more information, see [Contact Customer Support](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Please note that this beta is not available on the following cloud providers:
 >
 >* Bring Your Own Key for Amazon Web Services
@@ -49,7 +50,7 @@ For more information, see [Canvas Dashboards overview](/help/quicksilver/reports
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configurations</p></td> 
-   <td><p>Edit access to Reports, Dashboards, and Calendars</p>
+   <td><p>System Administrator access to enable Canvas Dashboards</p>
   </td> 
   </tr>  
 </tbody> 
@@ -67,9 +68,15 @@ For more detail about the information in this table, see [Access requirements in
     
     >[!NOTE]
     >
-    > The **Join the Canvas Dashboards beta** button will only be available if your organization has been invited to the beta.
+    > The **Join the Canvas Dashboards beta** button is only accessible for system administrators. All other users will see this button in a deactivated state. 
 
 1. Review the terms in the **Beta agreement** box, then click **Agree**. You are now enrolled in the beta. Please note that it may take a few minutes for your Workfront data to become fully accessible in Canvas Dashboards. 
+
+   >[!NOTE]
+   >
+   >Once the beta terms are accepted, the Canvas Dashboard capabilities are enabled for all users in the Workfront environment. Any user with View and Manage access to dashboards will be able to view and edit Canvas Dashboards per their access level.<br>
+   >Please note that visibility of the Canvas Dashboards landing page is controlled through the user's assigned Layout Template. For more, see [Create and manage layout templates](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
 
 ## Provide feedback
 

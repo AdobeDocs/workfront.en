@@ -400,6 +400,8 @@ Expand to view access requirements for the functionality in this article.
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
+## Access requirements for Adobe Workfront Automation and Integration
+
    <p>Connector-based (legacy): Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
@@ -413,6 +415,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 </table>
 
 For more detail about the information in this table, see [Access requirements in documentation](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+
 
 For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
@@ -441,3 +444,37 @@ Advanced Enterprise Controls:
 * Assign group administrators on subgroups
 * Allow group administrators to create subgroups
 
+## Access requirements for Proofing
+
+## Access requirements
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td>  <p>Standard</p>
+   <p>Work or Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Proof Permission Profile </td> 
+   <td>Manager or higher</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Proof role</td> 
+   <td>Reviewer, Reviewer &amp; Approver, Moderator, Author</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Documents</p> <p>For information on requesting additional access, see <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
