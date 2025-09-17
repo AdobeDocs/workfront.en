@@ -24,11 +24,11 @@ You can mark comments resolved after they been addressed. You can re-open a comm
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof Permission Profile </td> 
+   <td role="rowheader">Proof Permission Profile</td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
@@ -36,13 +36,13 @@ You can mark comments resolved after they been addressed. You can re-open a comm
    <td>Author or Moderator</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Documents</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
