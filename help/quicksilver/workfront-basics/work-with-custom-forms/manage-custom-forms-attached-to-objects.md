@@ -9,7 +9,7 @@ exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
 ---
 # Manage custom forms attached to objects
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>
 
 You can update the order in which the custom forms attached to one object display, remove them, or bulk-edit the way custom forms display on multiple objects.
 
@@ -75,6 +75,8 @@ You must have the following access to perform the actions described in this arti
 1. For projects, tasks, and issues custom forms, click the **X**&nbsp;icon to the right of a form to remove it from the object.
 
    For all other objects, click **Manage Forms**, then click the **X** icon to the right of a form to remove it from the object.
+
+1. <span class="preview">In the dialog that opens, click **Remove**.</span>
 
 1. Click **Save** .
 
