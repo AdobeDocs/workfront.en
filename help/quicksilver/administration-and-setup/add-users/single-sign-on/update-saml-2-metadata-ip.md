@@ -11,7 +11,11 @@ exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
 ---
 # Update SAML 2.0 metadata in your identity provider
 
-{{important-admin-console-onboard}}
+>[!IMPORTANT]
+>
+>The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
+>
+>To map user attributes in organizations that have been onboarded to the Adobe Admin Console, see [Map user attributes in the Adobe unified experience](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) in the article Map user attributes.
 
 The following sections describe how to update your Security Assertion Markup Language (SAML) 2.0 metadata when using Active Directory Federation Services (ADFS) as your identity provider.
 
