@@ -35,7 +35,11 @@ For more information on creating requests see:
 >* Production fast release: September 11, 2025
 >* Production for all customers: October 16, 2025
 
-To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. Now you can:
+To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. 
+
+To use the new requesting experience, in the Requests area, enable the Use new experience toggle in the upper-right corner of the screen. 
+
+In the new experience, you can:
 
 * View Workfront and Workfront Planning requests in a single list.
 * Filter submitted requests based on criteria you specify.

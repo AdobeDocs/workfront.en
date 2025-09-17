@@ -17,7 +17,13 @@ exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
 
 <!-- Audited: 12/2023 -->
 
-{{important-admin-console-onboard}}
+
+
+>[!IMPORTANT]
+>
+>The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
+>
+>To map user attributes in organizations that have been onboarded to the Adobe Admin Console, see [Map user attributes in the Adobe unified experience](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) in the article Map user attributes.
 
 As an Adobe Workfront administrator, you can configure the Workfront web and mobile applications to integrate with a Security Assertion Markup Language (SAML) 2.0 solution for single sign-on (SSO).
 
