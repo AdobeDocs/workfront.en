@@ -26,7 +26,7 @@ Key benefits of Adobe enterprise storage include:
 * End-to-end asset visibility across Workfront, Frame.io, and Creative Cloud apps <!--coming soon?-->
 * Scalable storage and quota management for enterprise needs
 
-For more details, see [Adobe enterprise storage overview](help/quicksilver/review-and-approve-work/esm-overview.md).
+For more details, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Unified review and approval 
 
@@ -77,7 +77,7 @@ Workfront proofing functionality is not available with this integration.
 
 With the Workfront and Frame.io integration, project coordinators can leverage Workfront's powerful project management capabilities to plan, track, and manage work.
 
-For more information about managing projects in Workfront, see [Projects: article index](/help/quicksilver/manage-work/projects/projects-toc.md).
+For more information about managing projects in Workfront, see [Projects: article index](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Enforced structure and naming conventions
 
