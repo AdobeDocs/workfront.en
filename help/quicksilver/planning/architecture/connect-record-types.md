@@ -10,9 +10,9 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 
 # Connect record types
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -165,51 +165,46 @@ For an example of connecting record types and records, see [Example of connectin
 1. (Conditional) When you connect record types from two different workspaces or a record and an Adobe Experience Manager asset object, select the **Allow multiple records**. By selecting it, you indicate that you allow users to add multiple records when the connected record type field displays on the original records. This is selected by default.  
     
     ![New connection to allow multiple records box](assets/new-connection-allow-multiple-records-box.png)
+    
+1. (Conditional) When you connect record types from the same workspace, or a Planning record type with a Workfront object type, do one of the following, depending on which environment you are using: 
 
-1. (Conditional) When you connect record types from the same workspace, or a Planning record type with a Workfront object type, select one of the following **Connection type** options to indicate how many records users can connect to and from:
+    * In the Production environment, select one of the following **Connection type** options to indicate how many records users can connect to and from:
 
-    * Many to many
-    * One to many
-    * Many to one
-    * One to one      
+        * Many to many
+        * One to many
+        * Many to one
+        * One to one      
 
-    ![Many to many connection picker](assets/many-to-many-connection-picker.png)
-            
-    For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+        ![Many to many connection picker](assets/many-to-many-connection-picker.png)
 
-    >[!NOTE]
-    >
-    > If you select One to many or One to one for the Connection type and you later want to connect a record or an object that is already connected elsewhere, you will receive a warning that connecting it again will remove it from the original connection. You can allow the removal or select another record.
+    <div class="preview">
 
+    * In the Preview environment, do the following: 
+        1. Select one of the following:
 
-    <!-- 
-        at the release to preview, replace the step above with this step; be careful with the numbering and ensure it keeps the correct step number in the preview window in MKD; there are spaces to be added between paragraphs too, when you make this live: 
-    1. (Conditional) When you connect record types from the same workspace, or a Planning record type with a Workfront object type, do one of the following, depending on which environment you are using: 
-        * In the Production environment, select one of the following **Connection type** options to indicate how many records users can connect to and from:
+            * **Multi-select**: Select this to allow one record from the current record type to connect with multiple records from the connection record type.
+            * **Single-select**: Select this to allow one record from the current record type to connect with one record from the connection record type.
+
+        2. Enable the **Create corresponding field on linked record type**. When enabled, a connection field is created on the record type you are connected to, in addition to the connection field added to the current record type. This is disabled by default.
+
+            >[!TIP]
+            >
+            >There is a limit of 500 connections for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit.
+
+        3. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
+
             * Many to many
             * One to many
             * Many to one
-            * One to one      
-            ![Many to many connection picker](assets/many-to-many-connection-picker.png)
-        <div class="preview">
-        * In the Preview environment, do the following: 
-            1. Select one of the following:
-                * **Multi-select**: Select this to allow one record from the current record type to connect with multiple records from the connection record type.
-                * **Single-select**: Select this to allow one record from the current record type to connect with one record from the connection record type.
-            2. Enable the **Create corresponding field on linked record type**. When enabled, a connection field is created on the record type you are connected to, in addition to the connection field added to the current record type. This is disabled by default.
-                    >[!TIP]
-                    >
-                    >There is a limit of 500 connections for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit. 
-            3. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
-                * Many to many
-                * One to many
-                * Many to one
-                * One to one  
-            </div>       
-             For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-                >[!NOTE]
-                >
-                >If you select One to many or One to one for the Connection type and you later want to connect a record or an object that is already connected elsewhere, you will receive a warning that connecting it again will remove it from the original connection. You can allow the removal or select another record.-->
+            * One to one  
+
+        </div>    
+
+        For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+        >[!NOTE]
+        >
+        >If you select One to many or One to one for the Connection type and you later want to connect a record or an object that is already connected elsewhere, you will receive a warning that connecting it again will remove it from the original connection. You can allow the removal or select another record.
 
 1. (Conditional and optional) When you select to connect a Workfront object, choose a **Custom form** from the **Link only objects that match these criteria** section. Only objects that have the selected custom forms attached can be linked to the selected record type. You can select more than one form.  
 
