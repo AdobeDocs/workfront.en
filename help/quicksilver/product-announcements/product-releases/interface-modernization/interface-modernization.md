@@ -164,7 +164,7 @@ For information, see [Edit portfolios](/help/quicksilver/manage-work/portfolios/
 
 We have updated the look and feel of the Edit Program box to match the design of other areas of Workfront.
 
-For information, see [Edit programs](/help/quicksilver/manage-work/portfolio-management/create-and-manage-programs/edit-programs.md).
+For information, see [Edit programs](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md).
 
 ## Projects 
 
