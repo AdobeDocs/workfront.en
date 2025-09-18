@@ -73,7 +73,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updates to the Workfront user profile</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p><i>This update has been temporarily removed from Preview and Production.</i></p>
             <p>We have updated the look and feel of the Workfront user profile to a modern design that is consistent with other areas of Workfront. These updates apply to both an administrator editing a single profile or bulk editing multiple profiles, or a user editing their own profile.</p>
             <p>There are some small functionality differences from the current user profile, including:</p>
             <ul>
@@ -82,8 +81,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </ul>
         </td>
         <td>August 28, 2025</td>
-        <td>September 4, 2025</td>
-        <td>September 4, 2025</td>
+        <td>Phased rollout starting September 18, 2025</td>
+        <td>Phased rollout starting September 18, 2025</td>
     </tr>  
     <tr>
         <td>
