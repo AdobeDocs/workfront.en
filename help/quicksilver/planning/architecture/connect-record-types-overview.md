@@ -9,9 +9,9 @@ exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
 ---
 # Connected record types overview
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   
 
 You can indicate that individual record types relate to one another or to objects from other applications by connecting them. 
 
@@ -69,12 +69,12 @@ Consider the following about connecting record types:
 
         For example, if you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is created on the Product record type.
 
-        <!--<div class="preview">
+        <div class="preview">
         
         For example, the following scenarios exist: 
         * When you enable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is created on the Product record type.
         * When you disable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is not created on the Product record type.
-        </div>-->
+        </div>
 
         For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
@@ -126,9 +126,7 @@ After you establish a connection between two record types or between a record an
 
 You can choose whether you want to connect one record to multiple records at a time, or one record at a time to each other. 
 
-Depending on how many records you can add to a connected record field <!--and the environment you use to create the connected fields-->, the following are the connection types you can choose from when connecting record types: 
-
-<!--replace the list of 4 connection types at the bottom of this commented-out section with this entire section, whenw e release to preview: 
+Depending on how many records you can add to a connected record field and the environment you use to create the connected fields, the following are the connection types you can choose from when connecting record types: 
 
 <div class="preview">
 
@@ -175,17 +173,18 @@ For example, if you create a single-select connection between campaigns and comp
 
 After you select this connection type, you cannot change the connection type after you save it to any of the following:
 
-    * One to many
-    * One to one
+* One to many
+* One to one
 
 </div>
 
--->
 
+<!--
 * [Many to many](#many-to-many-connection-type)
 * [One to many](#one-to-many-connection-type)
 * [Many to one](#many-to-one-connection-type)
 * [One to one](#many-to-one-connection-type)
+-->
 
 ### Many-to-many connection type
 
