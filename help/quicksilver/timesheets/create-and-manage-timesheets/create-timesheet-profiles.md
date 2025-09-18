@@ -11,16 +11,6 @@ exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
 
 <!--Audited: 06/2025-->
 
-<!--at the Prod release, remove the Production and Preview references from this article-->
-
-<div class="preview">
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>
-
 You can create, edit, and assign timesheet profiles that generate recurring timesheets for your users without any further intervention from you. This saves you time and ensures that the following are consistent between users:
 
 * Timesheet time frame 
@@ -176,9 +166,9 @@ For more information about creating a timesheet manually, see [Create a single-u
     </tbody> 
     </table>
 
-1. In the Production environment, or when creating group-level timesheet profiles, click the **Assign People** tab to associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+1. When creating group-level timesheet profiles, click the **Assign People** tab to associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-   <span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page and find the **Assign People** section.</span> <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
+   When creating timesheet profiles for the system, scroll towards the bottom of the page and find the **Assign People** section. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
    Begin typing the name of the user, group, or team, then click it when it appears in the drop-down list.
 
