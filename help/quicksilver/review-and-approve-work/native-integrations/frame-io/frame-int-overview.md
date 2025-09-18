@@ -15,18 +15,18 @@ recommendations: noDisplay, noCatalog
 
 The Workfront and Frame.io integration allows project coordinators to manage projects and plan work in Workfront while creatives, marketers, and stakeholders can review and approve assets in Frame.io.
 
-## Built on Adobe Enterprise Storage Management
+## Built on Adobe enterprise storage
 
-At the core of this integration is Adobe Enterprise Storage Management (ESM)—-a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products, including Workfront and Frame.io.
+At the core of this integration is Adobe enterprise storage—-a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products, including Workfront, Frame.io, and Creative Cloud.
 
-Key benefits of Adobe Enterprise Storage Management include:
+Key benefits of Adobe enterprise storage include:
 
 * Unified storage layer for creative and work management assets
 * Centralized permissions via Adobe IMS for secure access control
 * End-to-end asset visibility across Workfront, Frame.io, and Creative Cloud apps <!--coming soon?-->
 * Scalable storage and quota management for enterprise needs
 
-For more details, see [Adobe Enterprise Storage Management overview](help/quicksilver/review-and-approve-work/esm-overview.md).
+For more details, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Unified review and approval 
 
@@ -53,9 +53,13 @@ The integration also connects with the Frame.io viewer. The Frame.io viewer prov
 
 For more information, see [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
 
-#### Video review limitations
+#### Video review limits
 
-<!--need to confirm these-->
+There is an annual cap for video proof requests set at 10% of an organization's total paid Workfront user licenses (Standard and Light). This cap is applied at the organization level. 
+
+Workfront administrators will receive notifications when usage reaches 80% and 100% of the cap.
+
+This limit does not apply to Frame.io Enterprise customers.
 
 #### Supported file types in the Frame.io viewer
 
@@ -65,7 +69,7 @@ The Frame.io viewer supports all common video, image, audio, PDF, and MS&reg; Of
 
 The Frame.io viewer is available to all Workfront users with a paid license. No additional Frame.io license is required to use the Frame.io viewer for reviews and approvals with this integration. 
 
-If your organization wants to take advantage of additional Frame.io functionality, such as uploading assets directly to projects in Frame.io, you can purchase a Frame.io enterprise license. <!--link to Frame.io enterprise license info or who to contacT?-->
+If your organization wants to take advantage of additional Frame.io functionality, such as uploading assets directly to projects in Frame.io, you can purchase a Frame.io enterprise license. Contact your Adobe account representative to schedule a demo and explore the benefits of the full Frame.io solution.
 
 Workfront proofing functionality is not available with this integration.
 
@@ -73,7 +77,7 @@ Workfront proofing functionality is not available with this integration.
 
 With the Workfront and Frame.io integration, project coordinators can leverage Workfront's powerful project management capabilities to plan, track, and manage work.
 
-For more information about managing projects in Workfront, see [Projects: article index](/help/quicksilver/manage-work/projects/projects-toc.md).
+For more information about managing projects in Workfront, see [Projects: article index](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Enforced structure and naming conventions
 
@@ -101,21 +105,21 @@ Because this integration is built using ESM, there are some limitations to the o
 
 The following capabilities will not be included in this integration:
 
-* External document providers
+<!--* External document providers-->
 * Access to proofing
 * Document viewer in Workfront
+* Favorite documents
+* Request documents
 
 
-#### Temporary limitations
+<!--#### Temporary limitations
 
 For now, the following capabilities are not available:
 
-* Favorite documents
-* Request documents
 * Send documents to Adobe Experience Manager Assets
 * Multi-stage approvals
 * Upload documents to comments or updates in Workfront
-* Upload documents to tasks or issues in Workfront
+* Upload documents to tasks or issues in Workfront-->
 
 
 
