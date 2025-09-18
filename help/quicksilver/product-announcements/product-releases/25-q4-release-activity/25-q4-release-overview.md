@@ -81,8 +81,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </ul>
         </td>
         <td>August 28, 2025</td>
-        <td>Phased rollout starting September 18, 2025</td>
-        <td>Phased rollout starting September 18, 2025</td>
+        <td>Phased rollout starting September 25, 2025</td>
+        <td>Phased rollout starting September 25, 2025</td>
     </tr>  
     <tr>
         <td>
