@@ -156,7 +156,25 @@ We have introduced interface updates when editing portfolios in the Edit Portfol
 
 For information, see [Edit portfolios](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
 
-## Projects
+## Programs
+
+### Interface updates to the Edit Program box
+
+**Preview release: September 18, 2025; Production release: September 25, 2025**
+
+We have updated the look and feel of the Edit Program box to match the design of other areas of Workfront.
+
+For information, see [Edit programs](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md).
+
+## Projects 
+
+### Interface update when bulk editing templates
+
+**Preview release: September 18, 2025; Production release: September 25, 2025**
+
+We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.  
+
+For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ### Interface updates for a project list or report when applying the Milestone view
 
@@ -370,17 +388,16 @@ For for more information, see
 
 ## Users
 
-<!--
 ### Interface updates for the New User dialog
 
-**Preview release: September 11, 2025; Production release: September 18, 2025**
+**Preview release: September 18, 2025; Production release: September 18, 2025**
 
 We have updated the look and feel of the New User dialog to match the design in other areas of the application.
 
 To view this change, go to Users > New User > New User.
 
 For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
--->
+
 
 ### Interface updates to the Import users dialog
 
