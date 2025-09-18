@@ -17,7 +17,7 @@ For a list of all changes available at this point in the Fourth Quarter 2025 rel
 >[!NOTE]
 >
 >* Preview: August 28, 2025
->* Production for all customers: Phased rollout starting September 18, 2025
+>* Production for all customers: Phased rollout starting September 25, 2025
 
 We have updated the look and feel of the Workfront user profile to a modern design that is consistent with other areas of Workfront. These updates apply to both an administrator editing a single profile or bulk editing multiple profiles, or a user editing their own profile.
 
