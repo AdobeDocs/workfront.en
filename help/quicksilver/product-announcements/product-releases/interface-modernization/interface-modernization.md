@@ -388,17 +388,16 @@ For for more information, see
 
 ## Users
 
-<!--
 ### Interface updates for the New User dialog
 
-**Preview release: September 11, 2025; Production release: September 18, 2025**
+**Preview release: September 18, 2025; Production release: September 18, 2025**
 
 We have updated the look and feel of the New User dialog to match the design in other areas of the application.
 
 To view this change, go to Users > New User > New User.
 
 For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
--->
+
 
 ### Interface updates to the Import users dialog
 
