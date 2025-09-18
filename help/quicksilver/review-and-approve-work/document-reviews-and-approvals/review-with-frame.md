@@ -56,7 +56,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 As a reviewer, you can add comments to and mark up assets. Once finished, you can mark your review complete in Workfront. Marking the review as complete is not required for the asset to move forward in the approval process.
 
-1. Go to your review email notification, and click to **Go to review**.
+1. Go to your review email notification, and click **Go to review**.
 or
 Go the Workfront Home page, find the My Approvals widget, then click **Open review**.
 
@@ -76,11 +76,9 @@ As an approver, you can add comments and mark up to assets. You must make a deci
 
 The document does not move to an approved status until all assigned approvers choose "approved".
 
-If any one approver chooses "Needs work", the status of the document immediately changes to Needs work. The document needs to be revised and uploaded as a new version with a new approval workflow.
-
 To make a decision on a document:
 
-1. Go to your review email notification, and click to **Go to review**.
+1. Go to your review email notification, and click **Go to review**.
 or
 Go the Workfront Home page, find the My Approvals widget, then click **Open review**.
 

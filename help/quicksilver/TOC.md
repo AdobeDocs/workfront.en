@@ -1817,7 +1817,7 @@ feature-set: Workfront
     * [Unified Approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
     * [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
     * [Get Started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
-    * [Adobe Enterprise Storage Management overview](/help/quicksilver/review-and-approve-work/esm-overview.md)
+    * [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md)
     * Set up and manage asset and document approvals {#manage-asset-review-and-approval}
       * [Set up and manage unified approvals: article index](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
       * [Create AI Reviewers](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
@@ -1951,6 +1951,7 @@ feature-set: Workfront
       * [Proof versions cannot be downloaded or previewed when an interactive proof is added as a new version](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
   * Native integrations {#native-integrations}
     * [Review and approval native integrations: article index](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
+    * [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
     * [Get started with the proofing and GenStudio for Performance Marketing integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
     * [Get started with the proofing and Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
