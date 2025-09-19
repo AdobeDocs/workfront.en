@@ -11,7 +11,7 @@ recommendations: noDisplay, noCatalog
 
 In the Job History view, Workfront administrators can access detailed records of each data refresh job. These records provide valuable insight into the jobs that keep your data up to date and help you establish ideal timeframes on when to execute processes and refresh your business visualizations.
 
-![Job History view](assets/job-history-tab.png)
+![Job History view](assets/job-history-overview.png)
 
 The Job History view columns contain the following information: 
 
