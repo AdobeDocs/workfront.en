@@ -1,8 +1,9 @@
 ---
 title: Cross-workspace Record Types Overview
-description: Centralized record types can be added to multiple workspaces from a central or primary workspace in Adobe Workfront Planning. 
+description: Centralized record types can be added to multiple workspaces from a central or primary workspace in Adobe Workfront Planning.
 hidefromtoc: yes
 hide: yes
+exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
 ---
 <!-- add these to the metadata, when making this public: 
 
@@ -158,4 +159,4 @@ To use connectable record types, do the following:
 
     For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-    The following sections describe considerations about centralized record types and how they function in either their original or secondary workspaces. 
+    The following sections describe considerations about centralized record types and how they function in either their original or secondary workspaces.
