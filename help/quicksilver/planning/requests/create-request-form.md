@@ -129,11 +129,15 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
    * The values of Paragraph fields display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
 
-## Begin creating a request form
+## Create a request form
+
+To create a request form, you must begin creating the form, set up the form details, and finish by publishing and sharing the form.
+
+### Begin creating a request form
 
 You can create a request form from the record type associated with the form, <span class="preview">or from the Requests area of Workfront.</span>
 
-### Create a request form from a record type
+#### Create a request form from a record type
 
 {{step1-to-planning}}
   
@@ -162,7 +166,7 @@ You can create a request form from the record type associated with the form, <sp
 
 <div class="preview">
 
-### Create a request form from the Requests area of Workfront
+#### Create a request form from the Requests area of Workfront
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Requests**.
 1. In the upper-right corner of the screen, click **Request forms**.
@@ -180,11 +184,19 @@ You can create a request form from the record type associated with the form, <sp
 1. Click **Create**. 
 
    The request form for the selected record type opens in the Form tab.
-1. Continue to [Configure the form](#configure-the-form).
+1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
 
 </div>
 
-## Configure the form
+### Set up details for the request form
+
+Form details are divided into three tabs: Form, Configuration, and Automation. 
+
+* The Form tab allows you to add fields and content elements to the form
+* The Configuration tab allows you to set an approval process for the form, and to set request completion options.
+* The Automations tab allows you to automate what will occur based on features of the request made with the form.
+
+#### Set up Form details
 
 1. Begin creating or editing a request form, as described in one of the following sections:
 
@@ -243,6 +255,8 @@ You can create a request form from the record type associated with the form, <sp
 
 1. (Optional) Click **Preview** to view how the form will display for other users when they will use it to submit a new record.
 
+#### Set up Configuration details
+
 1. (Optional) Click the **Configuration** tab, then add at least one user <span class="preview">or team</span>to the **Approvers** field to approve new requests for this record form. 
 
    ![Configuration tab](assets/configuration-tab.png)
@@ -256,6 +270,12 @@ You can create a request form from the record type associated with the form, <sp
    * <span class="preview">If a team is set as an approver, only one decision is required from the team.</span>
 
       For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
+
+#### Set up Automations
+
+<!--fill in-->
+
+### Complete request form creation
 
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the form's name in the header, then click **Edit** to update the name of the form.
 
@@ -274,6 +294,10 @@ You can create a request form from the record type associated with the form, <sp
 1. Click the left-pointing arrow to the left of the form's name in the header to close the form. 
 
    The **Request forms** table view opens and the the form is added to it.
+
+## Manage existing request forms
+
+<!--locate request forms list-->
 
 1. (Optional) Hover over the name of a request form in the table view, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the form name, and click one of he following:
 
