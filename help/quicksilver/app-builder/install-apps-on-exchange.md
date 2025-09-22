@@ -3,9 +3,8 @@ title: Acquire and install apps from Adobe Exchange
 description: Workfront UI Extensions, powered by Adobe App Builder, allow customers and partners to create customized user experiences.
 author: Courtney
 feature: Digital Content and Documents
-
+exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
 ---
-
 # Acquire and install apps from Adobe Exchange
 
 You can now install partner-built apps for Workfront directly from Adobe Exchange. This capability connects customers to a growing ecosystem of Adobe partners who deliver purpose-built tools that improve productivity, streamline operations, and extend Workfront functionality. Through Adobe Exchange, customers can discover and install apps that integrate seamlessly into Workfront using UI Extensions. 

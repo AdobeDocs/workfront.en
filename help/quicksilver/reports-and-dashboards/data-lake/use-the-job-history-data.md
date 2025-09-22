@@ -1,17 +1,18 @@
 ---
 product-area: reports and dashboards
 navigation-topic: data-connect
-title: Use the Job History view in Data Connect 
-description: With Data Connect, Workfront administrators can access detailed records of each data refresh job in the Job History view. 
+title: Use the Job History view in Data Connect
+description: With Data Connect, Workfront administrators can access detailed records of each data refresh job in the Job History view.
 author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
+exl-id: d658c3df-5fa5-4756-ac42-71d9aed481df
 ---
 # Use the Job History view in Data Connect 
 
 In the Job History view, Workfront administrators can access detailed records of each data refresh job. These records provide valuable insight into the jobs that keep your data up to date and help you establish ideal timeframes on when to execute processes and refresh your business visualizations.
 
-![Job History view](assets/job-history-tab.png)
+![Job History view](assets/job-history-overview.png)
 
 The Job History view columns contain the following information: 
 
