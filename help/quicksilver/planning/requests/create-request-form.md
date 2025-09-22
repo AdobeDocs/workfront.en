@@ -190,18 +190,15 @@ You can create a request form from the record type associated with the form, <sp
 
 ### Set up details for the request form
 
-Form details are divided into three tabs: Form, Configuration, and Automation. 
+Form details are divided into tabs. 
 
-* The Form tab allows you to add fields and content elements to the form
-* The Configuration tab allows you to set an approval process for the form, and to set request completion options.
-* The Automations tab allows you to automate what will occur based on features of the request made with the form.
+* The **Form** tab allows you to add fields and content elements to the form
+* The **Configuration** tab allows you to set an approval process for the form, <span class="preview">and to set request completion options</span>.
+* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>
 
 #### Set up Form details
 
-1. Begin creating or editing a request form, as described in one of the following sections:
-
-   * [Create a request form from a record type](#create-a-request-form-from-a-record-type)
-   * <span class="preview">[Create a request form from the Requests area of Workfront](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
    
     The request form for the selected record type opens in the Form tab. 
 
@@ -253,9 +250,17 @@ Form details are divided into three tabs: Form, Configuration, and Automation.
 
    For more information about building a custom form, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
 
-1. (Optional) Click **Preview** to view how the form will display for other users when they will use it to submit a new record.
+1. (Optional) Click **Preview** to view how the form will display for other users when they will use it to submit a new record. 
+1. Continue to [Set up Configuration details](#set-up-configuration-details) if you want to configure more details for the form, or go to [Complete request form creation](#complete-request-form-creation).
 
 #### Set up Configuration details
+
+On the Configuration tab, you can set the approval process <span class="preview">and configure when a request created from this form will be marked as Completed</span>.
+
+1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
+   
+    The request form for the selected record type opens in the Form tab. 
+1. (Optional) Set up any form details, as described in [Set up Form details](#set-up-form-details).    
 
 1. (Optional) Click the **Configuration** tab, then add at least one user <span class="preview">or team</span>to the **Approvers** field to approve new requests for this record form. 
 
@@ -271,9 +276,17 @@ Form details are divided into three tabs: Form, Configuration, and Automation.
 
       For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
 
+1. <span class="preview">Select whether you want a request created from this form to be marked complete when the requested object is created, or when the requested object is completed.</span>
+1. <span class="preview">(Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and value that indicate when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.</span>
+1. Continue to [Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to [Complete request form creation](#complete-request-form-creation).
+ 
+<div class="preview">
+
 #### Set up Automations
 
 <!--fill in-->
+
+</div>
 
 ### Complete request form creation
 
