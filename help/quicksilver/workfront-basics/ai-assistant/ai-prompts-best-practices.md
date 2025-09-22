@@ -4,6 +4,7 @@ content-type: reference
 description: Learn about the best practices for using AI Assistant and view a list of prompt examples.
 author: Jenny
 feature: Get Started with Workfront
+exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
 ---
 # AI Assistant prompts best practices
 
