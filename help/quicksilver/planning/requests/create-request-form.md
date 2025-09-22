@@ -284,7 +284,22 @@ On the Configuration tab, you can set the approval process <span class="preview"
 
 #### Set up Automations
 
-<!--fill in-->
+You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. 
+
+For information on creating automations in other areas of Workfront Planning, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+1. On the automation's details page, update the following fields in the **Triggers** section: 
+
+   * **Trigger**: Select the action that will trigger the automation. Currently, the only available trigger for request form automation is `When request object status equals pending creation`.
+
+1. Update the following fields in the **Actions** section: <!--submitted bugs for these fields - see if they need changing here-->
+   * **Actions**: Select the action that you want Workfront to perform when triggering the automation. This is a required field. 
+   Currently, the only available Action for request form automation is `Create record`.
+
+     >[!TIP]
+     >
+     >After you saved the automation, you can no longer change the action selected in this field.
+
 
 </div>
 
