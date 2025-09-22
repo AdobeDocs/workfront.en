@@ -299,12 +299,14 @@ For information on creating automations in other areas of Workfront Planning, se
      >[!TIP]
      >
      >After you saved the automation, you can no longer change the action selected in this field.
+1. Continue to  [Complete request form creation](#complete-request-form-creation).
 
 
 </div>
 
 ### Complete request form creation
 
+1. Create and set up the form as described in [Begin creating a request form](#begin-creating-a-request-form) and [Set up details for the request form](#set-up-details-for-the-request-form).
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the form's name in the header, then click **Edit** to update the name of the form.
 
 1. Click **Publish** to publish the form and obtain a unique link for it. 
@@ -325,8 +327,19 @@ For information on creating automations in other areas of Workfront Planning, se
 
 ## Manage existing request forms
 
-<!--locate request forms list-->
 
+1. Click the workspace where you want to manage request forms.
+
+    The workspace opens and the record types display as cards.
+
+1. Click a record type card. For information about creating a record type, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
+
+    The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
+
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms**.
+
+   All request forms associated with the record type display in a table view. 
+   
 1. (Optional) Hover over the name of a request form in the table view, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the form name, and click one of he following:
 
    * **Edit form**: Click this to further edit information on the form.
