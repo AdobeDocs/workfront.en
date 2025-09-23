@@ -139,11 +139,11 @@ The user who uploads a document to Workfront has Manage permissions to it, by de
 
 1. Click **Save**.
 
-## Document Sharing with Enterprise Storage
+## Document Sharing with Adobe Enterprise Storage
 
-Workfront is transitioning to the Adobe Enterprise Storage Management (ESM) solution in order to provide greater connectivity with Adobe Creative Cloud products. Existing customers will be moved to the new model in phases. For more information about the benefits of ESM, visit [still need link].
+Workfront is transitioning to the Adobe Enterprise Storage solution in order to provide greater connectivity with Adobe Creative Cloud products. Existing customers will be moved to the new model in phases. For more information about the benefits of Adobe Enterprise Storage, visit [still need link].
 
-If your Workfront instance uses enterprise storage, you cannot share individual documents directly. Instead, you must grant access at the project level.
+If your Workfront instance uses Adobe Enterprise Storage, you cannot share individual documents directly. Instead, you must grant access at the project level.
 
 >[!IMPORTANT]
 >
