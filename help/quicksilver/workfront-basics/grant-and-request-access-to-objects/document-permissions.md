@@ -139,11 +139,11 @@ The user who uploads a document to Workfront has Manage permissions to it, by de
 
 1. Click **Save**.
 
-## Document Sharing with Adobe Enterprise Storage
+## Document Sharing with Adobe enterprise storage
 
-Workfront is transitioning to the Adobe Enterprise Storage solution in order to provide greater connectivity with Adobe Creative Cloud products. Existing customers will be moved to the new model in phases. For more information about the benefits of Adobe Enterprise Storage, visit [still need link].
+Workfront is transitioning to the Adobe enterprise storage solution in order to provide greater connectivity with Adobe Creative Cloud products. Existing customers will be moved to the new model in phases. For more information about the benefits of Adobe enterprise storage, visit [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-If your Workfront instance uses Adobe Enterprise Storage, you cannot share individual documents directly. Instead, you must grant access at the project level.
+If your Workfront instance uses Adobe enterprise storage, you cannot share individual documents directly. Instead, you must grant access at the project level.
 
 >[!IMPORTANT]
 >
