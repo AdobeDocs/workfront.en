@@ -35,12 +35,12 @@ You can add additional approvers to a document approval directly from the Home a
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher access to the object associated with the request access or approval </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View or higher access to the object associated with the request access or approval </p></td> 
   </tr> 
  </tbody> 
 </table>
 
-To find out what plan, license type, or access you have, contact your Workfront administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
