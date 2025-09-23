@@ -54,13 +54,13 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click the tab of the object type (**Project**, **Task**, or **Issue**) that you want to associate with the condition.
 
-1. To create a new condition, click **Add a New Condition**.
+1. To create a new condition, click **Add a new condition**.
 
    Or
 
-   To edit an existing condition, hover over the condition you want to edit, then click the **Edit** icon that appears to the far right.
+   To edit an existing condition, click **Edit** next to the condition name.
 
-   ![Custom condition](assets/custom-condition-edit-nwe.jpg)
+   ![Edit custom condition](assets/custom-conditions-0825.png)
 
 1. Configure your custom condition using the following options:
 
@@ -69,7 +69,7 @@ For more detail about the information in this table, see [Access requirements in
     <col> 
     <tbody> 
      <tr> 
-      <td>Condition Name</td> 
+      <td>Condition name</td> 
       <td>(Required) Type a descriptive name for the condition.</td> 
      </tr> 
      <tr> 
@@ -81,7 +81,7 @@ For more detail about the information in this table, see [Access requirements in
       <td>(Optional) Click the color icon, then choose the color you want for the condition when it displays in projects, task, or issues. You can also type a hex number.</td> 
      </tr> 
      <tr> 
-      <td>Equates With </td> 
+      <td>Equates with </td> 
       <td><p>(Required, for projects only) Click the option in the drop-down list that best describes the function of your new condition. For example, for a condition named Tracking Well, you would click On Target. This determines how your default conditions work. Every condition you create must equate with one of the options in the drop-down menu.</p>
       <p>For information about default conditions, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Set a custom condition as the default for projects</a> and <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md" class="MCXref xref">Set a custom condition as the default for tasks and issues</a>.</p>
       <p>This option cannot be modified after you finish creating the condition.</p></td> 
@@ -93,7 +93,7 @@ For more detail about the information in this table, see [Access requirements in
       <p>You cannot change the key for a condition after you save the condition. </p></td> 
      </tr> 
      <tr> 
-      <td>Hide Condition</td> 
+      <td>Hide condition</td> 
       <td><p>(Optional) This option is available for custom conditions that you no longer want people to use, but want to keep for historical reasons. </p>
       <p>If you hide a custom condition that has been used on work items, it continues to appear on those work items after you hide it. </p></td> 
      </tr> 
@@ -110,18 +110,25 @@ For more detail about the information in this table, see [Access requirements in
 
    * When a user is editing a project
 
-     ![Change condition when editing project](assets/change-condition-edit-project.png)
-
-   * When a user is changing the condition for a task or issue on the Updates tab:
-
-     ![Change condition when updating comment](assets/change-condition-update-comment.png)
+     ![Change condition when editing project](assets/change-condition-edit-project-0825.png)
 
    * When a user is changing the condition for a task or issue in a list view:
 
-     ![Change condition in list](assets/change-conditions-list-dropdown-only.png)
+     ![Change condition in list](assets/change-conditions-list-dropdown-0925.png)
+
+     >[!NOTE]
+     >
+     >In the default Condition view, the **Condition** field is a type of field that can't be edited inline. When you add the **Condition** field separately to a view, it is editable. For information about inline editing, see [Inline edit items in a list in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 1. Click **Save**.
 
 You can set your custom condition as a default condition for projects or for tasks and issues. For more information, see [Set a custom condition as the default for projects](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md) and [Set a custom condition as the default for tasks and issues](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
 
 For more information about custom conditions, see [Custom conditions](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+
+
+   <!-- THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
+   * When a user is changing the condition for a task or issue on the Updates tab:
+
+     ![Change condition when updating comment](assets/change-condition-update-comment.png)
+   -->

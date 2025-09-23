@@ -15,11 +15,15 @@ You can change the order in which conditions display in projects, tasks and issu
 
 * When a user is editing a project
 
-  ![Change condition when editing project](assets/change-condition-edit-project.png)
+  ![Change condition when editing project](assets/change-condition-edit-project-0825.png)
 
 * When a user is changing the condition for a task or issue
 
-  ![Change condition in list](assets/change-conditions-list-dropdown-only.png)
+  ![Change condition in list](assets/change-conditions-list-dropdown-0925.png)
+
+  >[!NOTE]
+  >
+  >In the default Condition view, the **Condition** field is a type of field that can't be edited inline. When you add the **Condition** field separately to a view, it is editable. For information about inline editing, see [Inline edit items in a list in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 ## Access requirements
 
@@ -60,10 +64,10 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click **Project Preferences** > **Conditions**.  
 
-1. Select the **Projects**,**Tasks**, or **Issues** tab.
+1. Select the **Projects**, **Tasks**, or **Issues** tab.
 
-1. Drag ![Move icon](assets/move-icon---dots.png) Conditions to change their order.
+1. Drag ![Move icon](assets/move-icon---dots.png) the conditions to change their order.
 
    The new order saves automatically.
 
-For more information about customizing Conditions, see [Custom conditions](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+For more information about customizing conditions, see [Custom conditions](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

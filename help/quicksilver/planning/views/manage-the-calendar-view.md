@@ -128,10 +128,31 @@ To manage a calendar view:
             * Records that last a day or less, display in the lower half of the calendar view. If you selected to display the hour of he Start and End Dates, the record displays at the appropriate time within the day that it occurs.
          
 1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+
+1. <span class="preview">To create records in the calendar view or edit their dates do one of the following:</span>
+
+    * <span class="preview">Double-click anywhere on the calendar to create a record. </span>
+    
+        <span class="preview">For information, see [Create records](/help/quicksilver/planning/records/create-records.md).</span>
+    
+    * <span class="preview">In the calendar monthly view, click on the end of a record bar, then drag and drop it in a new position. Resizing the records' bars updates their start and end dates immediately. </span> <!--when resizing in the calendar weekly view is released, modify the sentence above to take out 'monthly', since it will be available in both-->
+    
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+    
+    <!--ADD ONE OF THE FOLLOWING DEPENDING ON WHAT RELEASES: 
+    Scenario 1: drag and drop in the calendar weekly view: 
+    * <span class="preview">In the weekly calendar view, drag and drop records to update their position and dates in the timeline.</span>
+    Scenario 2: drag and drop in the calendar monthly view: 
+    * <span class="preview">In the monthly calendar view, drag and drop records to update their position and dates in the timeline.</span>
+    Scenario 3: drag and drop in the calendar view (both weekly and monthly are supported): 
+    * <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
     
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)
+    * <span class="preview">[Row height](#modify-row-height)</span>
     * [Settings](#edit-the-calendar-view-settings)
+    
     <!--* [Grouping](#add-grouping)-->
     <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
 
@@ -160,7 +181,7 @@ Consider the following when working with filters in the calendar view:
 To add a filter to a calendar view: 
 
 1. Create a calendar view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Select a calendar view, then click **Filters** in the upper-right corner of the table.    
+1. Select a calendar view, then click **Filters** in calendar's toolbar.    
 1. Click **Add condition** and add the following information: 
 
     * **Select a field** that you want to filter by <!-- the tip below might change-->
@@ -252,6 +273,73 @@ To add a filter to a calendar view:
 
 1. (Optional) Click the **x** icon to remove a filter condition.
 1. (Optional) Click **Filters** to close the filters box. <!--right now you cannot "clear all" for filters, but this might come later-->
+
+<span class="preview">
+
+### Modify row height
+
+You can modify the row height of a calendar cell to increase or decrease the number of record bars you display in each cell. 
+
+The number of records displayed in the calendar varies depending on how many fields you display on the records' bars. 
+
+>[!TIP]
+>
+>This setting is available only when viewing the calendar by month. 
+
+
+1. Create a calendar view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. (Conditional) Display the calendar view by month, then click **Row height** in the calendar's toolbar.    
+1. Choose from the following options: 
+
+    <table>
+    <thead>
+    <tr>
+        <th><b>Row height option</b></th>
+        <th><b>Default maximum number of records</b></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Short</td>
+        <td><p>Contains:</p>
+
+    <ul><li>2 records displaying 1 field</li>
+    <li>1 record displaying more than 1 field</li></ul>
+        </td>
+    </tr>
+    <tr><td>Standard</td>
+        <td><p>Contains:</p>
+
+    <ul><li>4 records displaying 1 field</li>
+    <li>2 record displaying more than 1 field</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Medium</td>
+        <td><p>Contains:</p>
+
+    <ul><li>8 records displaying 1 field</li>
+    <li>4 record displaying more than 1 field</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Tall</td>
+        <td><p>Contains:</p>
+
+    <ul><li>12 records displaying 1 field</li>
+    <li>6 record displaying more than 1 field</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Fit to content</td>
+        <td><p>All records are visible, up to 500 records</p></td>
+    </tr>
+    </tbody>
+    </table> 
+
+1. (Optional) Click **more** if there are records that are not visible in the calendar. 
+
+</span>
 
 ### Edit the calendar view settings
 

@@ -48,9 +48,10 @@ To find out what plan, license type, or access you have, contact your Workfront 
 
 {{step1-to-priorities}}
 
-1. Hover over the name, then click **Upload**.
+1. Hover over the name, then click the **More** ![More icon](assets/more-icon.png) icon. 
+1. Click **Upload**.
 ![Update, log time, and upload](assets/update-log-upload.png)
-1. (Optional) Select a folder.
+1. (Optional) In the **Upload Files** box, select a folder.
 1. Drag and drop your file or Cmd/Ctrl + V to paste from your clipboard
 or
 Click **Add files** to browse files or import files from a Document Cloud provider.
@@ -62,16 +63,14 @@ Click **Add files** to browse files or import files from a Document Cloud provid
     >
     >Additional files are uploaded as separate documents. 
 1. Click **Upload**. 
-![Upload file](assets/upload-file-module.png)
-
 
 ## Upload a file in a work item
 
 {{step1-to-priorities}}
 
-1. Click on a work item name to open the Overview page.
-1. In the **Quick actions** section, click **Upload**. 
-1. (Optional) Select a folder.
+1. Click on a work item name to open the **Overview** page.
+ 1. In the **Quick actions** section, click **Upload** and then select **Document**. 
+1. (Optional) In the **Upload Files** box, select a folder.
 1. Drag and drop your file or Cmd/Ctrl + V to paste from your clipboard
 or
 Click **Add files** to browse files or import files from a Document Cloud provider.
@@ -83,4 +82,3 @@ Click **Add files** to browse files or import files from a Document Cloud provid
     >
     >Additional files are uploaded as separate documents. 
 1. Click **Upload**. 
-![Upload file](assets/upload-file-module.png)

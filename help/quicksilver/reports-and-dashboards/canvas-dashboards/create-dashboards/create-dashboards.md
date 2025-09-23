@@ -1,18 +1,27 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Create a Canvas dashboard 
-description: With Canvas Dashboards, you can create and add reports to a customizable dashboard to quickly visualize your account data. 
-author: Courtney and Jenny 
+title: Create a Canvas Dashboard
+description: With Canvas Dashboards, you can create and add reports to a customizable dashboard to quickly visualize your account data.
+author: Courtney and Jenny
 feature: Reports and Dashboards
+exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
 ---
-# Create a Canvas dashboard
+# Create a Canvas Dashboard
 
 >[!IMPORTANT]
 >
->The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
+>If you have feedback regarding a possible bug or technical issue, please submit a ticket to Workfront Support. For more information, see [Contact Customer Support](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Please note that this beta is not available on the following cloud providers:
+>
+>* Bring Your Own Key for Amazon Web Services
+>* Azure
+>* Google Cloud Platform 
 
 With Canvas Dashboards, you can create and add reports to a customizable dashboard to quickly visualize your account data. 
+
+## Access Requirements
 
 +++ Expand to view access requirements. 
 
@@ -47,9 +56,13 @@ With Canvas Dashboards, you can create and add reports to a customizable dashboa
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
+## Prerequisites
+
+ Canvas Dashboards must be enabled on the layout template configuration of the Dashboards page left navigation items.
+
 ## Create a dashboard
 
-Canvas dashboards offers a wide variety of options and configurations that you can use when building a dashboard. In this section, we will walk you through the general process of creating a dashboard.  
+Canvas Dashboards offer a wide variety of options and configurations that you can use when building a dashboard. In this section, we will walk you through the general process of creating a dashboard.  
 
 {{step1-to-dashboards}}
 
@@ -76,4 +89,4 @@ For more, see [Build a chart report](/help/quicksilver/reports-and-dashboards/ca
 * **Table**: This report displays your data in a table format. 
 For more, see [Build a table report](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
 
-For more information on adding an existing report to a dashboard, see [Add an existing report to a dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md). 
+For more information on adding an existing report to a dashboard, see [Add an existing report to a dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md).

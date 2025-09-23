@@ -57,17 +57,17 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Reset your password in [!DNL Adobe Workfront]
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click your user name next to your profile picture.
+{{step1-click-profile-pic}}
 
    ![Open the main menu and select your user name.](assets/main-menu-options-350x481.png)
 
 1. Click the **[!UICONTROL More menu]** ![More icon](assets/more-icon.png), then click **[!UICONTROL Edit]**.
 
-1. In the **[!UICONTROL Edit Person]** box that displays, under **[!UICONTROL Personal Info]**, click **[!UICONTROL Reset Password]**.
+1. In the **[!UICONTROL Edit Person]** box that displays, under **[!UICONTROL Personal Info]**, click **[!UICONTROL Change password]**.
 
-   ![Edit person](assets/edit-person-box-350x196.jpg)
+   ![Click Change password](assets/edit-user-change-password.png)
 
-   If your organization has integrated [!DNL Workfront] with an SSO solution, you may be routed to reset your passwords through your SSO system when you click **[!UICONTROL Reset Password]**. This resets your SSO password which affects logging in to all your other applications inside your organization.
+   If your organization has integrated [!DNL Workfront] with an SSO solution, you may be routed to reset your passwords through your SSO system when you click **[!UICONTROL Change password]**. This resets your SSO password which affects logging in to all your other applications inside your organization.
 
 1. Type your old password, then type the new password you want twice.
 
@@ -80,4 +80,4 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    Password rules might be more strict than this, depending on configuration settings set by your [!DNL Workfront] administrator.
 
-1. Click **[!UICONTROL Save Changes]**.
+1. Click **[!UICONTROL Save]**.

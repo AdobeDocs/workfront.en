@@ -9,7 +9,19 @@ exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
 ---
 # Add an existing report to a Canvas Dashboard
 
+>[!IMPORTANT]
+>
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
+>If you have feedback regarding a possible bug or technical issue, please submit a ticket to Workfront Support. For more information, see [Contact Customer Support](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Please note that this beta is not available on the following cloud providers:
+>
+>* Bring Your Own Key for Amazon Web Services
+>* Azure
+>* Google Cloud Platform 
+
 Reports created through the Adobe Workfront Reports tool can be added to a Canvas Dashboard. For more information on creating reports, see [Get started with reports](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md). 
+
+## Access Requirements
 
 +++ Expand to view access requirements. 
 
@@ -46,6 +58,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Add an existing report to a Canvas Dashboard
 
+
 {{step1-to-dashboards}}
 
 1. In the left panel, click **Canvas Dashboards**. 
@@ -66,9 +79,15 @@ For more detail about the information in this table, see [Access requirements in
 
         >[!NOTE]
         >
-        > At this point in the beta stage, the **All Approvals** home widget is the only available widget. This list will expand as the beta stage progresses.  
+        > At this point in the beta stage, the **Document approvals metrics** home widget is the only available widget. This list will expand as the beta stage progresses.  
 
 1. (Optional) To view a report's details before adding it to the dashboard, click **View** in-line with the desired report.  
 
 1. Click **Add** in-line with the report you want to add. 
+
+   >[!NOTE]
+   >
+   > If you'd like to add an additional existing report to a dashboard after it's been created, click the **Add report** button in the upper-right corner of the dashboard details page and then repeat steps 6-9. 
+
+
 

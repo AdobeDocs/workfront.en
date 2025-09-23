@@ -56,7 +56,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click the **Tasks** or **Issues** tab. 
 
-1. Click **Set Default Conditions**. 
+1. Click **Set default conditions**. 
 1. In the drop-down menu, click the custom condition you want as the default condition for tasks (or issues). 
 1. Click **Save**.
 
@@ -64,8 +64,5 @@ For more detail about the information in this table, see [Access requirements in
 >
 >* A user who is assigned to a task or issue, or who has Manage permissions on it, can change its condition manually. For more information, see [Update Condition for tasks and issues](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
 >* The three default conditions for tasks and issues that come with Workfront are Going Smoothly, Some Concerns, and Major Roadblocks. You cannot hide or delete these conditions, but you can change their names and colors. Or you can create new ones to use instead, as described in [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
->
 
 For information about configuring a custom condition as a default condition for projects, see [Set a custom condition as the default for projects](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
-
-For information about custom conditions, see [Custom conditions](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

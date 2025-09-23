@@ -66,13 +66,18 @@ You can upload a document to a work item from the worklist or the work item Deta
 {{step1-to-priorities}}
 
 1. In the worklist, hover over the work name, then click **Summary** icon ![open summary icon](assets/summary-icon.png).
-1. Ensure you are on the Task or Issues tab in the panel. 
-1. Click the Document icon in the right side rail.
-1. Click the Upload file icon and choose the file.
-1. (Optional) Do any of the following:
-    1. Select a folder.
-    1. Make a comment
-    1. Add additional files.
+1. Ensure you are on the **Task** or **Issues** tab in the summary panel. 
+1. Click the **Upload File** icon ![Uoload file icon](assets/upload-file-icon.png).
+1. Drag and drop your file or Cmd/Ctrl + V to paste from your clipboard
+or
+Click **Add files** to browse files or import files from a Document Cloud provider.
+![Add files](assets/add-files.png)
+1. (Optional) Add a comment.
+1. (Optional) Add more files.
+
+    >[!NOTE]
+    >
+    >Additional files are uploaded as separate documents. 
 1. Click **Upload**.
 
 ### Work item details
@@ -80,12 +85,18 @@ You can upload a document to a work item from the worklist or the work item Deta
 {{step1-to-priorities}}
 
 1. In the worklist, click the work item name.
-1. Click the Document tab at the top of the screen.
-1. Click the **Upload document** > **Document**.
-1. (Optional) Do any of the following:
-    1. Select a folder.
-    1. Make a comment
-    1. Add additional files.
+1. Click the **Documents** tab at the top of the screen.
+1. Click **Upload document** in the upper-right corner, then select **Document**.
+1. Drag and drop your file or Cmd/Ctrl + V to paste from your clipboard
+or
+Click **Add files** to browse files or import files from a Document Cloud provider.
+![Add files](assets/add-files.png)
+1. (Optional) Add a comment.
+1. (Optional) Add more files.
+
+    >[!NOTE]
+    >
+    >Additional files are uploaded as separate documents. 
 1. Click **Upload**.
 
 
@@ -99,16 +110,17 @@ You can create a proof from a document from the worklist or the work item Detail
 {{step1-to-priorities}}
 
 1. In the worklist, hover over the work name, then click **Summary** icon ![open summary icon](assets/summary-icon.png).
-1. Ensure you are on the Task or Issues tab in the panel. 
-1. Click the **Document** icon in the right side rail.
-1. Click the **Upload file** icon, then choose the file.
+1. Ensure you are on the **Task** or **Issues** tab in the summary panel. 
+1. Click the **Documents** icon ![Documents icon](assets/show-document-icon.png) in the right side rail.
+1. Click the **Upload file** icon ![Upload file icon](assets/upload-file-icon.png), then choose the file.
 
     >[!NOTE]
     >
     >You must upload the document before you can create the proof.
 
 
-1. Once the file uploads, click **Create proof**.
+1. Once the file uploads, select the file in the **Documents** section.
+1. Click **Create Proof** in the upper-right corner of the file details box.
 1. Choose one of the following:  
 
    <table style="table-layout:auto"> 
@@ -116,11 +128,11 @@ You can create a proof from a document from the worklist or the work item Detail
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Simple Proof</td> 
+      <td role="rowheader"><b>Simple Proof</b></td> 
       <td>This option creates a proof with no workflow attached and applies the default proof settings. You can update the default proof settings or add a workflow after you've created the proof. For more information on proof settings, see <a href="/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Edit proof settings</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Advanced Proof</td> 
+      <td role="rowheader"><b>Advanced Proof</b></td> 
       <td> <p>This option allows you to configure a Basic or Advanced workflow and modify proof settings for the proof you create. For more information, see </p> 
        <ul> 
         <li><p><a href="/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Create an advanced proof with a Basic workflow</a> </p> </li> 
@@ -136,8 +148,8 @@ You can create a proof from a document from the worklist or the work item Detail
 {{step1-to-priorities}}
 
 1. In the worklist, click the work item name.
-1. Click the **Document** tab at the top of the screen.
-1. Click the **Upload document** > **Proof**.
+1. Click the **Documents** tab at the top of the screen.
+1. Click **Upload document** in the upper-right corner, then select **Proof**.
 1. Create a the proof as described in 
 [Create an advanced proof with a Basic workflow](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
 [Create an advanced proof with an Automated workflow](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)

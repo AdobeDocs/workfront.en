@@ -64,19 +64,19 @@ For information about attaching custom forms to objects, see [Add a custom form 
 
 ## Attach Custom Forms to the Business Case
 
-To add a custom from to a Business Case, your Workfront administrator needs to select this option in Setup. For more information about enabling custom forms in Setup, see the section [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) in the article [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+To add a custom from to a Business Case, your Workfront administrator needs to select this option in Setup. For more information about enabling custom forms in Setup, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 To attach a custom form:
 
-1. Go to the project you want to attach the form to, then click **Business Case** in the left panel.
+1. Go to the project you want to attach the form to, then click **Business Case** in the left panel. The Business Case displays.
 
-   The Business Case displays.
+1. In the&nbsp;**Custom Form** section, select the custom form you want to attach from the drop-down menu. The custom form appears in the **Added forms** section below. 
 
-1. In the&nbsp;**Custom Form** section, select the custom form you want to attach from the drop-down menu.
+1. (Optional) To expand the custom form details, click the arrow to the left of the custom form name.
 
-   ![Custom forms dropdown](assets/custom-forms-drop-down-menu.png)
+      ![Expand custom form details](assets/expand-custom-form-details.png)
 
-1. (Optional) Select&nbsp;**Edit Custom Form**.  
-   ![Edit custom form](assets/acf1-350x122.png)
+<!--1. (Optional) Select&nbsp;**Edit Custom Form**.  
+  ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** .
+1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** . -->

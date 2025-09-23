@@ -2,17 +2,19 @@
 product-area: documents
 navigation-topic: approvals
 title: Create AI Reviewers
-description: Once you have at least one brand set up in GenStudio Foundations, you can create multiple AI Reviewers, which you can then assign to approval templates and individual review and approval requests.
+description: Once you have at least one brand set up in GenStudio Foundation, you can create multiple AI Reviewers, which you can then assign to approval templates and individual review and approval requests.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: yes
-hidefromtoc: yes
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
 ---
 # Create AI Reviewers
 
-Once you have at least one brand set up in GenStudio Foundations, you can create multiple AI Reviewers, which you can then assign to approval templates and individual review and approval requests. 
+>[!NOTE]
+>
+>This feature is currently in beta. 
+
+Once you have at least one brand set up in GenStudio Foundation, you can create multiple AI Reviewers, which you can then assign to approval templates and individual review and approval requests. 
 
 >[!NOTE]
 >
@@ -47,12 +49,9 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-Before you begin, you must set up brand guidelines in GenStuido Foundations.
+Before you begin, you must set up image brand guidelines in GenStudio Foundation.
 
-To learn more about brand guidelines, see
-
-* [GenStudio for Performance Marketing Brands](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Add guidelines](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+To learn more about image brand guidelines, see [Get started with Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Add an AI reviewer
 

@@ -75,9 +75,10 @@ Consider the following when creating Business Case goals for your projects:
 {{step1-to-projects}}
 
 1. In the project list, select the project you want to define Business Case goals for.  
+
 1. In the left panel, click **Business Case**. The **Business Case** section displays.
 
-   ![Business case info](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
+   ![Business case info](assets/business-case-info.png)
 
 1. In the **Goals** section, click **Edit Goals**.
 
@@ -91,7 +92,7 @@ Consider the following when creating Business Case goals for your projects:
    * Low
    * Lowest
 
-     ![Importance](assets/g1-350x76.png)
+   ![Importance](assets/goals-section.png)
 
       >[!NOTE]
       >

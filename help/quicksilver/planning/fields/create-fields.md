@@ -29,12 +29,12 @@ You must create record types before you can create fields to associate with them
 
 You can create fields in the following ways in Workfront Planning:
 
-* From scratch
-* By connecting record types
-* By creating a record type
-* By creating a workspace from a template
-* By importing record types using an Excel or CSV file
-* By importing copies of existing Workfront fields
+* [From scratch](#create-fields-from-scratch)
+* [By connecting record types](#create-fields-from-scratch)
+* [By creating a record type](#create-fields-by-creating-a-record-type)
+* [By creating a workspace from a template](#create-fields-by-creating-a-workspace-from-a-template)
+* [By importing record types using an Excel or CSV file](#create-fields-when-importing-record-types-from-a-csv-or-excel-file)
+* [By importing copies of existing Workfront fields](#create-fields-by-importing-them-from-workfront)
 
 For more information about Workfront Planning fields, see [Field overview](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -103,6 +103,45 @@ You must have the following access to perform the steps in this article:
  *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
+
+## Create fields by connecting record types 
+
+You can create linked record fields when you add a new connection between two record types, or a record type and an object types from other applications. 
+        
+For information about connecting Workfront Planning record types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
+
+<!--## Create fields by importing record types using an Excel or CSV file
+
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
+
+## Create fields by creating a record type
+
+When you create a record type, several fields associated with the new record type are also created by default. For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
+
+## Create fields by creating a workspace from a template
+
+Adobe Workfront Planning creates fields for record types when you create a workspace from a template. 
+
+For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+
+
+## Create fields when importing record types from a CSV or Excel file
+
+You can import fields when you import record types using a CSV or Excel file. 
+
+For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+
+## Create fields by importing them from Workfront
+
+You can import copies of existing Workfront fields. 
+
+Importing fields from Workfront creates a copy of each field for a Workfront Planning record type. 
+
+After you copy the fields, the fields are independent from one another and they do not exchange information. 
+
+For information, see [Import fields from Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md). 
+
 
 ## Create fields from scratch {#create-fields-from-scratch} 
 
@@ -219,6 +258,11 @@ Paragraph fields capture additional alphanumeric information about a record, sim
 
 You can use a multi-select field to capture additional information in any format by selecting more than one option from a drop-down menu. 
 
+>[!NOTE]
+>
+><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's multi-select field value inline, in the table view. For more information, see the "Edit information on single- or multi-select fields" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+>
+
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Multi-select** field type.
 
     ![Multi-select field type](assets/multi-select-field-type.png)
@@ -247,6 +291,12 @@ You can use a multi-select field to capture additional information in any format
 ### Single-select {#single-select}
 
 Single-select fields capture additional information in any format by selecting one option from a drop-down menu. 
+
+>[!NOTE]
+>
+><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's single-select field value inline, in the table view. For more information, see the "Edit information on single- or multi-select fields" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+>
+
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Single-select** field type.
 
@@ -461,6 +511,11 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
     >![Formula example project budget four fields removed ](assets/formula-example-project-budget-four-fields-removed.png)
     >
 
+1. (Optional) Click **Maximize** to open the Formula box in a larger area. 
+
+    The Formula box opens in a larger window. 
+1. (Optional and conditional) If you opened the Formula box in a larger area, click **Minimize** to return to the original Formula field box. 
+    
 1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
 
     * **Text**: The result of the formula field displays as plain text. 
@@ -729,42 +784,6 @@ Create an Object field:
 
 -->
 
-## Create fields by connecting record types 
 
-You can create linked record fields when you add a new connection between two record types, or a record type and an object types from other applications. 
-        
-For information about connecting Workfront Planning record types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
-
-<!--## Create fields by importing record types using an Excel or CSV file
-
-For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
-
-## Create fields by creating a record type
-
-When you create a record type, several fields associated with the new record type are also created by default. For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
-
-## Create fields by creating a workspace from a template
-
-Adobe Workfront Planning creates fields for record types when you create a workspace from a template. 
-
-For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
-
-
-
-## Create fields when importing record types from a CSV or Excel file
-
-You can import fields when you import record types using a CSV or Excel file. 
-
-For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
-
-## Create fields by importing them from Workfront
-
-You can import copies of existing Workfront fields. 
-
-Importing fields from Workfront creates a copy of each field for a Workfront Planning record type. 
-
-After you copy the fields, the fields are independent from one another and they do not exchange information. 
-
-For information, see [Import fields from Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md). 
 
 
