@@ -53,7 +53,7 @@ For information about recommended prompts, see the following section in this art
 
 At this stage in AI Assistant's development, it's recommended to verify the information it provides when asking for information about Workfront processes. You can do so by clicking the article link provided in the Sources section in the prompt response.
 
- ![Sources section](assets/sources-section.png) 
+ ![Sources section](assets/sources-section.png)
 
  For more information on prompts for Workfront processes, see [Prompts to learn about Workfront actions](#prompts-to-learn-about-workfront-actions) in this article.
 
