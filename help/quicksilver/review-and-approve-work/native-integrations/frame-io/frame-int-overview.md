@@ -5,8 +5,6 @@ title: Frame.io integration overview
 description: Frame.io integration overview
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: yes
-hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
 ---
@@ -16,13 +14,13 @@ The Workfront and Frame.io integration allows project coordinators to manage pro
 
 ## Built on Adobe enterprise storage
 
-At the core of this integration is Adobe enterprise storage—-a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products, including Workfront, Frame.io, and Creative Cloud.
+At the core of this integration is Adobe enterprise storage—-a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products, including Workfront and Frame.io. <!--, and Creative Cloud.-->
 
 Key benefits of Adobe enterprise storage include:
 
 * Unified storage layer for creative and work management assets
 * Centralized permissions via Adobe IMS for secure access control
-* End-to-end asset visibility across Workfront, Frame.io, and Creative Cloud apps <!--coming soon?-->
+* End-to-end asset visibility across Workfront and Frame.io <!--, and Creative Cloud apps -->
 * Scalable storage and quota management for enterprise needs
 
 For more details, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
@@ -54,7 +52,7 @@ For more information, see [Get started with the Frame.io integration](/help/quic
 
 #### Video review limits
 
-There is an annual cap for video proof requests set at 10% of an organization's total paid Workfront user licenses (Standard and Light). This cap is applied at the organization level. 
+There is an annual cap for video proof requests set at 10% of an organization's total paid Workfront user licenses--Standard and Light. This cap is applied at the organization level. 
 
 Workfront administrators will receive notifications when usage reaches 80% and 100% of the cap.
 
@@ -94,11 +92,9 @@ Documents are managed at the project level with this integration and can't be up
 
 Document access is also managed at the project level. If a user has access to a project, they can access all documents associated with that project.
 
-<!--Documents can't be dragged as full folders.-->
-
 ### Document experience limitations
 
-Because this integration is built using ESM, there are some limitations to the original document experience in Workfront:
+Because this integration is built using Adobe enterprise storage, there are some limitations to the original document experience in Workfront:
 
 #### Limitations
 
@@ -111,11 +107,11 @@ The following capabilities will not be included in this integration:
 * Request documents
 
 
-<!--#### Temporary limitations
+#### Temporary limitations
 
 For now, the following capabilities are not available:
 
 * Send documents to Adobe Experience Manager Assets
 * Multi-stage approvals
 * Upload documents to comments or updates in Workfront
-* Upload documents to tasks or issues in Workfront-->
+* Upload documents to tasks or issues in Workfront

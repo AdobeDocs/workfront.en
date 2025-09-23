@@ -6,8 +6,6 @@ description: Get started with the Frame.io integration.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: yes
-hidefromtoc: yes
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
 ---
 # Get started with the Frame.io integration
@@ -36,7 +34,7 @@ After the approval workflow is created, reviewers and approvers can use the Fram
 For more information about setting up projects, see 
 
 * [Create a project](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-<!--* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)-->
+* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
 
 ### Initiate formal reviews and approvals in Workfront
 
