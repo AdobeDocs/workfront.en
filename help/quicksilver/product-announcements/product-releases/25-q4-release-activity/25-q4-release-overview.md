@@ -345,6 +345,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience now available for more Workfront organizations</a><p></p>
+            <p>To allow organizations access to the benefits of the Adobe Unified Experience, we're continuing to make it available to existing Workfront customers.</p><p><span style="color: #ff0000;">The Adobe Unified Experience is being made available in a phased rollout.</span> </p>
+        </td>
+        <td><p>September 11, 2025</p><p>Or</p><p>December 11, 2025</p></td>
+        <td><p>October 16, 2025</p><p>Or</p><p>January 15, 2026</p></td>
+        <td><p>October 16, 2025</p><p>Or</p><p>January 15, 2026</p></td>
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Updates to enhanced lists</a><p></p>
             <p>With our advanced lists layout, you can use filters and groupings to display your work and keep it better organized. There is now a blue dot indicator that appears above a widget to let you know when a filter or grouping has been applied to a list in the following areas:</p>
             <ul>
