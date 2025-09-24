@@ -68,7 +68,7 @@ Workfront has five built-in issue severities:
 * Bug with no workaround
 * Fatal error
 
-<p>You can edit the following for these severities:</p> 
+You can edit the following for these severities:
 
 * Name
 * Color
@@ -78,6 +78,7 @@ Workfront has five built-in issue severities:
 * Which severity is the default
      
      For more information about default severities, see [Create or edit an issue severity](#create-or-edit-an-issue-severity) in this article.
+
 * Description
 * Whether a severity is hidden in Workfront
      
@@ -95,7 +96,7 @@ As a Workfront administrator, you can create and edit issue severities to suit t
 
 1. In the left panel, click **Project Preferences** > **Severities**.
 
-1. If you are creating a new severity, click <span class="preview">**New row**</span> or **Add a New Severity**.
+1. If you are creating a new severity, click <span class="preview">**New row** at the bottom of the table</span>, or **Add a New Severity**.
 1. Configure the following options for the new severity or edit them for an existing one:
 
    * **Severity Name**: Type a name for the severity.
@@ -109,7 +110,7 @@ As a Workfront administrator, you can create and edit issue severities to suit t
 
      The color of the severity is used in chart reports when you group your results by Issue Severity. For information on chart reports, see [Add a chart to a report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
-   * **Default Severity**: Select the severity you want Workfront to select automatically all newly created issues.
+   * **Default Severity**: Select the severity you want Workfront to apply automatically to all newly created issues.
 
      **Cosmetic** is the default severity for issues in Workfront.
 
@@ -122,7 +123,7 @@ As a Workfront administrator, you can create and edit issue severities to suit t
        * Select the check box next to the severity name and select **Make Default** in the action bar at the bottom of the screen.
        * Hover over the severity name and click the **More** menu that appears. Then, select **Make Default**.
 
-         The new default severity is indicated with the icon.
+         The new default severity is labeled with the icon.
 
      </div>
 
