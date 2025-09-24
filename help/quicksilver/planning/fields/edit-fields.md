@@ -92,7 +92,7 @@ This article describes how you can edit the settings for Workfront Planning fiel
 You must consider the following before making changes to a field's configuration: 
 
 * You can edit field settings only from the record type table. 
-* You cannot edit a field on the record page or in any other view, outside of the table view. 
+* You cannot edit a field's settings on the record page or in any other view, outside of the table view. 
 * You cannot edit the Field type, after the field is saved.
 * You cannot deselect the Allow negative numbers setting that was previously selected, for a Number, Percentage, or Currency field if there are already negative values stored on the records it is attached to. 
 * You can edit the configuration of the following field elements, after you save the field:
@@ -109,7 +109,8 @@ You must consider the following before making changes to a field's configuration
     >
     >There is no notification to other users that the field configuration has changed.
     
-* You can edit existing lookup fields from connected records. 
+* You can edit existing lookup fields from connected records.
+* In addition to editing the field as described in the [Edit field settings](#edit-field-settings-1) section in this article, <span class="preview">you can edit a single- or multi-select field's choices when you edit a record in the table view, as you update the field values. For information, see the [Add new choices to an existing select field when editing records in the table view](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) section in this article.</span> 
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -157,3 +158,36 @@ You must consider the following before making changes to a field's configuration
 1. (Conditional) For connected record fields, click **Edit lookup fields** and add or remove any of the lookup fields from the connected record type.
 
     For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
+
+
+<div class="preview">
+
+## Add new choices to an existing select field when editing records in the table view
+
+<!--some of this information is also available in Edit records article - update both when necessary-->
+
+You can add new choices to an existing single- or multi-select field when editing records in the table view. 
+
+>[!IMPORTANT]
+>
+>The functionality described in this section is available only in the table view. It is not available in any other areas where single- or multi-select fields display.
+
+**EXAMPLE**
+
+You might have a single-select field called Status that has the choices New and Closed, and you want to add a choice for an In progress status. You can add the choice by doing one of the following things:
+
+* Editing the field. For information, see the section [Edit field settings](#edit-field-settings-1) in this article.
+* Adding a new option while editing the record in the table view, as described below. 
+
+To add a new choice to an existing select field when editing a record: 
+
+1. Go to a record type page and open the table view. 
+1. Add the single- or multi-select field that you would like to add a choice to in the table view as a new column. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+1. Start editing the field inline by double-clicking the cell for the field. 
+1. Type the name of the choice you want to add, then click **Add choice**.
+
+   ![Add choice in single-select field in table view](assets/add-choice-in-table-view-for-single-select-field.png)
+
+    The new choice is added immediately to the single-select field. 
+
+</div>

@@ -101,7 +101,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.-->
 
 ## Add users to a Project Team
 
@@ -180,14 +180,14 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    For more information see the "Role-based approvals" section in the article [Project Team overview](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
-1. Select one or several users in the list then click the **Remove** icon ![Remove icon](assets/remove-icon.png) to remove them from the team. 
+1. Select one or several users in the list, then click the **Remove** icon ![Remove icon](assets/remove-icon.png) to remove them from the team. 
  
 1. Click **Yes, Remove Selected Users** to confirm and remove the users.
 
    Users are removed and unassigned from incomplete work items.
 
    For more information, see the [Considerations for removing users from a project team](#considerations-for-removing-users-from-a-project-team) section in this article.
-1. (Optional) To send an update for this project to users, click Update All to send the update to everyone on the team
+1. (Optional) To send an update for this project to users, click **Update All** to send the update to everyone on the team
 
    Or 
 
@@ -229,7 +229,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. Click **People** in the left panel. 
 
-1. Select one or several users in the list then click  **Remove** to remove them from the team. 
+1. Select one or several users in the list, then click the **Remove** icon to remove them from the team. 
 
 1. Click **Yes, Remove Selected Users** to confirm and remove the users.
 
@@ -237,11 +237,11 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    For more information, see the [Considerations for removing users from a project team](#considerations-for-removing-users-from-a-project-team) section in this article.
 
-1. (Optional) To send an update to users, click Update All to send the update to all the users in the list 
+1. (Optional) To send an update to users, click **Update All** to send the update to all the users in the list 
 
    Or
    
-   Select one or multiple users in the list, then click **Update**.
+   Select one or multiple users in the list, then click **Send Update to User**.
 
    <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
@@ -260,11 +260,11 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Users might receive an email notification, if they are enabled for them, and they receive an in-app notification about the new update.
 
-1. (Optional) Click **Export** to export the list of users to a file 
+1. Click the **Export** icon ![Export icon](assets/export-icon.png) to export the list of users to a file 
    
    Or 
    
-   Select users, then click **Export** to export only specific users. 
+   Select users, then click the **Export** icon to export only specific users.
 
 ## Considerations for removing users from a Project Team
 

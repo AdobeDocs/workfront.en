@@ -48,9 +48,9 @@ You must have the following access to perform the steps in this article:
    
    * **System administrator configuring time logging for others:** Begin editing one or more user accounts, as described in [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. In the resulting dialog box, in the **Resource Planning** section, locate the **Log Time in** option.
+1. In the resulting dialog box, in the **Resource Planning** section, locate the **Log time in** option.
 
-   ![](assets/new-timesheet-log-hours-350x249.png)
+   ![Log time in options](assets/user-profile-log-time-options.png)
 
 1. (Conditional) If you are a system administrator editing multiple users simultaneously, select **Log Time in**.
 1. Select from the following options for logging time:   

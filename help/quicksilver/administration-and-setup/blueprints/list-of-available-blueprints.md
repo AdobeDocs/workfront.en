@@ -15,6 +15,8 @@ exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
 
 The following [!DNL Adobe Workfront] blueprints are available for system administrators to install. For more information about blueprints, see [Blueprints overview](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
 
+**[!BADGE New!]{type=Informative} Active User Analysis Reports** This blueprint contains a dashboard to help administrators validate user setup, identify misalignments, and ensure configurations support intended application use.​
+
 **[!UICONTROL Add New Employee IT Checklist]**
 This blueprint contains a template the [!DNL Workfront] professional services organization has used for years during implementation engagements with corporate IT teams to organize new employee onboarding activities. Using this template allows IT teams to operate efficiently, leading to a positive new employee experience and faster track to productivity.
 

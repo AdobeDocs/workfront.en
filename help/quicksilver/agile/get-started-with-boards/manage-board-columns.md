@@ -115,12 +115,6 @@ The policy for updating the status automatically works for both the card and the
 
 A card will remain in a column where it is placed if the card status does not match any status set in any existing column policies.
 
->[!NOTE]
->
->Dynamic boards always place cards in the column that matches their status, regardless of whether column policies are enabled or disabled. Cards will return to their assigned columns when you refresh the board.
-> 
->Also, for all board types, if you move a card from one column to another column with the same status, the card will return to the original column when you refresh the board.
-
 1. Access the board.
 1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the column, and select **[!UICONTROL Edit]**.
 

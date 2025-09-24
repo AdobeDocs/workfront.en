@@ -16,11 +16,13 @@ feature-set: Workfront
     * 2025 Q4 Release {#release-25-q4}
       * [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
       * [Fourth Quarter 2025 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md)
+      * [Fourth Quarter 2025 Dashboards enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-dashboards.md)
       * [Fourth Quarter 2025 Document and Proofing enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md)
       * [Fourth Quarter 2025 Home enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md)
       * [Fourth Quarter 2025 Project enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
       * [Fourth Quarter 2025 Requests enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
       * [Fourth Quarter 2025 Resource Management enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
+      * [Fourth Quarter 2025 Other enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
       * [Look-and-feel updates during the 2025 Q4 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
     * 2025 Q3 Release {#release-25-q3}
       * [2025 Q3 Release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
@@ -432,6 +434,7 @@ feature-set: Workfront
       * [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [Configure locations](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
       * [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
+      * [Import rate cards from a template](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/import-rate-cards.md)
     * Configure schedules and timesheet preferences {#configure-timesheets-schedules}
       * [Configure schedules and timesheet preferences](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
       * [Schedules overview](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
@@ -483,7 +486,7 @@ feature-set: Workfront
       * [Map user attributes](administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
       * [Deactivate a user](administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
       * [Delete users](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-      * [Audit logs](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+      * [Audit logs overview](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
       * [View and export audit logs](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
       * [View user login information](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [Manage users in the Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
@@ -824,6 +827,7 @@ feature-set: Workfront
       * [Export a list](workfront-basics/navigate-workfront/use-lists/export-lists.md)
       * [Inline edit items in a list in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
       * [Modify how a list displays](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
+      * [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)
     * [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
     * [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
     * [Top navigation bar overview](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
@@ -870,11 +874,13 @@ feature-set: Workfront
       * [Log time on a work item from the Home area](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
       * [Mark an item as Done in the Home area](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
       * [Use the My Updates area](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
+      * [Use the My Requests widget](workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
   * AI Assistant {#ai-assistant}
     * [AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
     * [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
     * [Summarize using AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
     * [Get help from AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
+    * [AI Assistant prompts best practices](/help/quicksilver/workfront-basics/ai-assistant/ai-prompts-best-practices.md)
     * [Revise calculated field formulas with AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
     * [Use AI Assistant to work with projects, tasks, and issues](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
     * [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
@@ -1017,6 +1023,7 @@ feature-set: Workfront
     * [Delete or archive a card from a board](agile/get-started-with-boards/delete-board-items.md)
     * [Filter and search in a board](agile/get-started-with-boards/filter-search-in-board.md)
     * [Add tags](agile/get-started-with-boards/add-tags.md)
+    * [Manage the Boards Admin View](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md)
     * [Boards email notifications and preferences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
   * Use agile planning tools in boards {#agile-planning-boards}
     * [Agile planning tools overview: article index](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
@@ -1227,6 +1234,7 @@ feature-set: Workfront
       * [Copy and move template tasks](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
       * [Edit project templates](manage-work/projects/create-and-manage-templates/edit-templates.md)
       * [Edit a template task](manage-work/projects/create-and-manage-templates/edit-template-task.md)
+      * [Delete a template task](manage-work/projects/create-and-manage-templates/delete-template-tasks.md)
       * [Create template from project](manage-work/projects/create-and-manage-templates/create-template-from-project.md)
       * [Share project templates](manage-work/projects/create-and-manage-templates/share-project-template.md)
       * [Delete project templates](manage-work/projects/create-and-manage-templates/delete-templates.md)
@@ -1516,14 +1524,15 @@ feature-set: Workfront
       * [Manage Canvas Dashboards: article index](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
       * [Share a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
       * [Arrange reports in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+      * [Filter a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
       * [Change the name or description of a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
       * [Delete a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+      * [Add a Canvas Dashboard to a layout template](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
     * Manage reports {#manage-reports}
       * [Manage reports: article index](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
       * [Edit a report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
       * [Edit report filters in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
       * [Delete a report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
-
   * Reports {#reports}
     * [Reports](reports-and-dashboards/reports/reports-overview.md)
     * Reporting basics {#report-basics}
@@ -1727,13 +1736,14 @@ feature-set: Workfront
     * [data dictionary test](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Workfront Data Connect query examples](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [View Workfront Data Connect usage metrics](reports-and-dashboards/data-lake/view-usage-metrics.md)
+    * [Use the Job History Data view in Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
     * Enhanced Analytics queries{#enhanced-analytics-queries}
       * [Enhanced Analytics queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
       * [KPI queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
       * [Flight plan queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
       * [Project activities queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
       * [Project treemap queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md) 
-      * [Activty by team queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
+      * [Activity by team queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
     * Tips, Tricks, and Troubleshooting for Data Connect{#troubleshooting-data-connect}
       * [Tips, Tricks, and Troubleshooting for Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
       * [Tableau Desktop cannot establish a connection](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
@@ -1790,7 +1800,6 @@ feature-set: Workfront
     * [Update work items in the Workload Balancer using the Summary](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * Review and approve work {#review-and-approve-work}
   * [Review and approve work](review-and-approve-work/review-and-approve-work.md)
-  * [Alpha Program – Document Approvals](review-and-approve-work/Documents/doc-approvals-alpha.md)
   * [Limited document and proof decision for non-paid users overview](review-and-approve-work/proof-doc-decision-limits.md)
   * Work approvals {#work-approvals}
     * [Work approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -1804,14 +1813,15 @@ feature-set: Workfront
     * [Delegate approval request](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
     * [Associate a new or existing approval process with work](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
     * [Recall submitted approvals](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-  * Asset and document review and approval {#document-reviews-and-approvals}
-    * [Asset and document review and approval: article index](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-    * [Available functionality for asset and document review and approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+  * Unified approvals {#document-reviews-and-approvals}
+    * [Unified document approvals: article index](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+    * [Available functionality for unified approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
     * [Unified Approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
     * [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
     * [Get Started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+    * [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md)
     * Set up and manage asset and document approvals {#manage-asset-review-and-approval}
-      * [Set up and manage asset and document approvals: article index](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+      * [Set up and manage unified approvals: article index](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
       * [Create AI Reviewers](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
       * [Create a document review or approval request](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
       * [Add additional reviewers or approvers to an asset or document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
@@ -1825,6 +1835,7 @@ feature-set: Workfront
       * [View AI Reviewer score and feedback ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
       * [Review a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
       * [Approve a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
+      * [Review and approve a document in the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
   * Proofing {#proofing}
     * [Proofing: article index](review-and-approve-work/proofing/proofing.md)
     * Proofing overview {#proofing-overview}
@@ -1940,6 +1951,12 @@ feature-set: Workfront
       * [Document name changed after upload and contains an invalid character](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
       * [Proof a PowerPoint with an embedded video](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
       * [Proof versions cannot be downloaded or previewed when an interactive proof is added as a new version](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
+  * Native integrations {#native-integrations}
+    * [Review and approval native integrations: article index](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
+    * [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
+    * [Get started with the proofing and GenStudio for Performance Marketing integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
+    * [Get started with the proofing and Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
+    * [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
   * Tips, tricks, and troubleshooting for approvals {#ttt-approvals}
     * [Tips, tricks, and troubleshooting for approvals: article index](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
     * [View the number of proof and document decisions for all users](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
@@ -2056,11 +2073,13 @@ feature-set: Workfront
     * [Architecture: article index](planning/architecture/architecture-information.md)
     * [Workspaces overview](planning/architecture/workspaces-overview.md)
     * [Create workspaces](planning/architecture/create-workspaces.md)
+    * [Create workspace hierarchies](planning/architecture/create-workspace-hierarchies.md)
     * [Record types overview](planning/architecture/overview-of-record-types.md)
     * [Create record types](planning/architecture/create-record-types.md)
     * [Create Record Types by importing information from a CSV or Excel file](planning/architecture/import-file-to-create-record-types.md)
+    * [Cross-workspace record types overview](planning/architecture/cross-workspace-record-types-overview.md)
     * [Configure cross-workspace capabilities for record types](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
-    * [Add cross-workspace record types](planning/architecture/add-cross-workspace-record-types.md)
+    * [Add existing record types from another workspace](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Connect record types overview](planning/architecture/connect-record-types-overview.md)
     * [Connect record types](planning/architecture/connect-record-types.md)
     * [Edit record types](planning/architecture/edit-record-types.md)
@@ -2139,9 +2158,6 @@ feature-set: Workfront
   * [Adobe Workfront built-in integrations overview](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
   * [Adobe Workfront integration methods](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
   * Review and approval integrations {#review-approval-integrations}
-    * [Review and approval integrations: article index](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/review-approval-integrations-toc.md)
-    * [Get started with the proofing and GenStudio for Performance Marketing integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
-    * [Get started with the proofing and Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
   * Adobe Workfront for Creative Cloud {#workfront-for-creative-cloud}
     * [Adobe Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
     * Install the Adobe Workfront plugin for Creative Cloud Applications {#install-wf-cc}
@@ -2571,7 +2587,10 @@ feature-set: Workfront
     * [SOAP API FAQs](proofhq-api/general/soap-api-faqs.md)
 * [Hidden test document](hidden-test.md)
 * App Builder {#app-builder}
+  * [App Builder: article index](/help/quicksilver/app-builder/app-builder-toc.md)
+  * [Acquire and install apps from Adobe Exchange](/help/quicksilver/app-builder/install-apps-on-exchange.md)
   * [Create custom applications for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
+  
 
 
 <!--
