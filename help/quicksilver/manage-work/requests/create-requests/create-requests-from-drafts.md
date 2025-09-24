@@ -9,6 +9,8 @@ exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
 ---
 # Create requests from drafts
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+
 In addition to using the available drafts that Workfront suggests to you when you enter a new request, you can also access a draft request from the Drafts section and finish submitting it from there.
 
 ## Access requirements
@@ -35,6 +37,10 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Issues</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,3 +101,9 @@ You must do the following before you can create a request from a draft:&nbsp;
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      When you submit the request, the draft is deleted and cannot be restored.
+     
+   >[!NOTE]
+   >
+   >* <span class="preview">In the new requesting experience, drafts are in the same list as submitted requests.</span>
+   ><span class="preview">For more information on creating requests in the new experience, see [Create requests and generate drafts in the Workfront web app](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) in the article Create and submit requests.</span>
+

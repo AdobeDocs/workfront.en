@@ -24,26 +24,66 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>25.8 (August 2025)</li><li>25.9 (September 2025)</li><li>25.10 (October 2025)</li></ul>| <ul><li>25.10 (October 2025)</li></ul>|
+>|<ul><li>25.8 (August 14, 2025)</li><li>25.9 (September 11, 2025)</li><li>25.10 (October 16, 2025)</li></ul>| <ul><li>25.10 (October 16, 2025)</li></ul>|
 >
->Note that for the final release of each quarter (25.10 this quarter), users on the fast release schedule will receive the release one day early.
+>Note that for the final release of each quarter (25.10 this quarter), users on the fast release schedule will receive the release one day early (October 15, 2025).
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
 
 ## Adobe Workfront enhancements
 
 * [Administrator enhancements](#administrator-enhancements)
+* [Dashboards enhancements](#dashboards)
 * [Document and proofing enhancements](#document-and-proofing-enhancements)
-<!--* [Home enhancements](#home-enhancements)-->
+* [Home enhancements](#home-enhancements)
 * [Project enhancements](#project-enhancements)
-<!--* [Requests enhancements](#requests-enhancements)-->
 * [Resource Management enhancements](#resource-management-enhancements)
+* [Requests enhancements](#requests-enhancements)
 * [Other enhancements](#other-enhancements)
 
 ### Administrator enhancements
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New Boards Admin View</a><p></p>
+            <p>The Boards Admin View contains a list of every Board in your account that System Administrators can use to get a quick snapshot of the overall Boards details, including when they were last updated, how many cards each one has, and more.</p>
+        </td>
+        <td>September 11, 2025</td>
+        <td>October 15, 2025</td>
+        <td>October 16, 2025</td>
+    </tr> 
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Enable AI Beta features for your organization</a><p></p>
+            <p>To make it easier for you to see and influence upcoming AI features, we've made it possible for you to enable the Betas for those features for your organization. Now, you can choose to enable one or more of the currently available AI Beta features from your System Preferences.</p>
+        </td>
+        <td>August 28, 2025</td>
+        <td>September 11, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updates to the Workfront user profile</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>We have updated the look and feel of the Workfront user profile to a modern design that is consistent with other areas of Workfront. These updates apply to both an administrator editing a single profile or bulk editing multiple profiles, or a user editing their own profile.</p>
+            <p>There are some small functionality differences from the current user profile, including:</p>
+            <ul>
+                <li>Some check boxes (such as marking the user as active) have changed to toggles or buttons.</li>
+                <li>The "Send work I assign to myself to my Working On tab" option under Preferences was removed because it refers to a deprecated feature.</li>
+            </ul>
+        </td>
+        <td>August 28, 2025</td>
+        <td>Phased rollout starting September 25, 2025</td>
+        <td>Phased rollout starting September 25, 2025</td>
+    </tr>  
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Add multiple value options from an external API to a custom form</a><p></p>
@@ -57,11 +97,50 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> 
 
+### Dashboards enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-dashboards.md" class="MCXref xref" xrefformat="{para}">New Canvas Dashboards open beta</a>
+            <p>The new Canvas Dashboards feature helps you easily visualize your Adobe Workfront data by adding report types onto a canvas that offers many flexible layout options, including resizing, dragging and dropping, and more.</p>
+        </td>
+        <td>August 26, 2025</td>
+        <td>August 26, 2025</td>
+        <td>August 26, 2025</td>
+    </tr> 
+</table> 
 
 ### Document and proofing enhancements
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Unified Approvals Phased Rollout</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>We are enabling Unified Approvals, previously known as New Document Approvals, in a phased rollout. This functionality will be enabled automatically in your Workfront instance over the next six months.</p>
+            <p>Unified Approvals replaces Legacy document approvals and provides the new functionality. 
+</p>
+        </td>
+        <td>Phased rollout starting July 17,2025</td>
+        <td>Phased rollout starting July 17,2025</td>
+        <td>Phased rollout starting July 17,2025</td>
+    </tr> 
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">New Workfront AI Reviewer</a><p></p>
@@ -92,10 +171,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> 
 
-<!--### Home enhancements
+### Home enhancements
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">Updates to the My Requests widget in Home</a><p></p>
@@ -106,41 +192,45 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 <li>Integration with Workfront Planning for better visibility into resource allocation</li>
             </ul>
             </p>
+            <p>The new My Requests widget displays only those requests that were created in the new requesting experience.</p>
         </td>
-        <td>July 31, 2025</td>
-        <td>August 14, 2025</td>
+        <td>August 21, 2025</td>
+        <td>September 11, 2025</td>
         <td>October 16, 2025</td>
     </tr>     
   </tbody>
 </table> 
 
-### Requests enhancements
-
-<table style="table-layout:auto">
-  <tbody>
-    <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
-            <p>To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. Now you can:
-            <ul>
-                <li>View Workfront and Workfront Planning requests in a single list.</li>
-                <li>Filter submitted requests based on criteria you specify.</li>
-                <li>Search for and select Workfront request queues and Workfront Planning forms in a consolidated experience.</li>
-                <li>Hide and reorder columns in the submitted requests list.</li>
-            </ul>
-            </p>
-        </td>
-        <td>July 31, 2025</td>
-        <td>August 14, 2025</td>
-        <td>October 16, 2025</td>
-    </tr>     
-  </tbody>
-</table> -->
-
 ### Project enhancements
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+      <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Create project intake forms in Workfront</a>
+            <p>To make it easier to create requested projects without converting from issues, we've created Project intake forms. You can configure these intake forms with specific fields, templates, and custom forms, and set approvers for project creation. Then, when a user uses this form, the project is configured to your specifications and sent for approval.</p>
+        </td>
+        <td>August 21, 2025</td>
+        <td>September 11, 2025</td>
+        <td>October 16, 2025</td>
+    </tr> -->
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">New Project Health beta</a>
+            <p>The new Project Health feature utilizes the power of AI Assistant to instantly give you an assessment of how your projects are performing and what areas need your attention.</p>
+            <p>AI Assistant can generate a Project Health assessment for a project, a program, and multiple projects.</p>
+        </td>
+        <td>September 11, 2025</td>
+        <td>September 11, 2025</td>
+        <td>September 11, 2025</td>
+    </tr> 
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">New expressions added to formula fields in Planning and calculated custom fields in Workfront</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
@@ -171,6 +261,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Workload Balancer is now available on your user profile</a><p></p>
@@ -194,34 +291,86 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> 
 
+### Requests enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">New combined Status column in unified Request list</a><p></p>
+            <p>To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.</p>
+        </td>
+        <td>August 28, 2025</td>
+        <td>September 11, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
+            <p>To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. Now you can:
+            <ul>
+                <li>View Workfront and Workfront Planning requests in a single list.</li>
+                <li>Filter submitted requests based on criteria you specify.</li>
+                <li>Search for and select Workfront request queues and Workfront Planning forms in a consolidated experience.</li>
+                <li>Hide and reorder columns in the submitted requests list.</li>
+            </ul>
+            </p>
+        </td>
+        <td>August 21, 2025</td>
+        <td>September 11, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
 ### Other enhancements
 
 <table>
             <col style="width: 50%;" />
-            <col style="width: 50%;" />
+            <col style="width: 25%;" />
             <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
-                    </td>
-                </tr>
+               <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience now available for more Workfront organizations</a><p></p>
+            <p>To allow organizations access to the benefits of the Adobe Unified Experience, we're continuing to make it available to existing Workfront customers.</p><p><span style="color: #ff0000;">The Adobe Unified Experience is being made available in a phased rollout.</span> </p>
+        </td>
+        <td><p>September 11, 2025</p><p>Or</p><p>December 11, 2025</p></td>
+        <td><p>October 16, 2025</p><p>Or</p><p>January 15, 2026</p></td>
+        <td><p>October 16, 2025</p><p>Or</p><p>January 15, 2026</p></td>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Updates to enhanced lists</a><p></p>
+            <p>With our advanced lists layout, you can use filters and groupings to display your work and keep it better organized. There is now a blue dot indicator that appears above a widget to let you know when a filter or grouping has been applied to a list in the following areas:</p>
+            <ul>
+                <li>My Requests widget</li>
+                <li>Priorities</li>
+            </ul>
+        </td>
+        <td>August 28, 2025</td>
+        <td>September 11, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Fourth Quarter 2025 release timeframe</a></p>
                         <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Fourth Quarter 2025 release timeframe. </p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release:&#160;Throughout the Fourth Quarter 2025 release timeframe<br /></p>
-                            </li>
-                            <li>
-                                <p>Production release: A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</p>
+                    <td><p>Throughout the Fourth Quarter 2025 release timeframe<br /></p>
+                    <td colspan="2"><p>Fast release: A minimum of 1 week after releasing to Preview (unless otherwise specified)</p>
                             </li>
                         </ul>
                     </td>

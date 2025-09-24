@@ -66,9 +66,8 @@ The Web Proofing Viewer within Workfront supports most languages that are suppor
 
 The following languages are not supported in the proofing tool:
 
-* Chinese - Simplified (zh-CN)
 * Chinese - Traditional (zh-TW)
-* Portuguese (pt-BR)
+* Korean (ko-KR)
 
 Your company must purchase a proofing license for you to access the Web Proofing Viewer.
 

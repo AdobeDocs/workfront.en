@@ -54,6 +54,3 @@ To enable AI Assistant for a given access level:
 1. Click **Save**.
 1. Repeat steps 3-5 for each access level you want to enable AI Assistant for.
 
->[!NOTE]
->
->As AI features are added to Workfront, some AI features will become foundational to how Workfront operates. The ability to disable all AI features will likely be deprecated in the near future.

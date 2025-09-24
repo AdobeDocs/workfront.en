@@ -80,18 +80,18 @@ To create or edit a risk in the Business Case:
 1. In the **Risks** section, click **Edit Risks**.
 1. Enter or edit the following information:
 
-   * **Description:** describe the risk.  
+   * **Description:** Describe the risk.  
    
-   * **Potential Cost**: indicate the estimated cost if the risk should occur.  
+   * **Potential Cost**: Enter the estimated cost if the risk should occur.  
    
-   * **Probability**: indicate the probability of the risk occurring as a percentage value.   
+   * **Probability**: Enter the probability of the risk occurring as a percentage value.   
    
-   * **Type:** indicate what category the risk falls under.
-   * **Mitigation Plan**: update the description of the plan to mitigate the risk.  
+   * **Type:** Select what category the risk falls under.
+   * **Mitigation Plan**: Update the description of the plan to mitigate the risk.  
    
-   * **Mitigation Cost**: indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.
+   * **Mitigation Cost**: Enter the cost of the mitigation plan that you must put in place to prevent the risk from occurring.
 
-   <!--![Risks](assets/crp1-350x117.png)-->
+   ![Risks](assets/edit-risk.png)
 
 1. (Optional) Click **Add Another Risk** to add additional risks.
 1. Click **Save**.
@@ -109,13 +109,11 @@ You can create and edit risks in the Risks section of a project or a template. C
 
    ![Risks section of task](assets/risks-section-on-project-2022.png)
 
-1. Click **Start Adding Risks** and create risks by in-line editing their information. **Description** is a required field
+1. Click **Start Adding Risks** and create risks by in-line editing their information. 
 
    Or
 
-   Click **New Risk**. 
-   
-   The **New risk** box opens.
+   Click **New Risk** to open the **New risk** box.
 
    ![New risk box](assets/new-risk-box.png)
 
@@ -143,9 +141,9 @@ You can create and edit risks in the Risks section of a project or a template. C
 
 ### Edit risks in the Risks area {#edit-risks-in-the-risks-area}
 
-You can edit risks during the life of a project, when changes occur in their probability, potential cost, or their status, for example.
+You can edit risks during the life of a project or when changes occur (e.g. a change in their probability, potential cost, or status).
 
-You can edit one risk at a time, or you can edit multiple risks in bulk.
+You can edit one risk at a time or edit multiple risks in bulk.
 
 To edit risks:
 
@@ -166,7 +164,7 @@ To edit risks:
    Consider editing the following fields:
 
    * **Description**: Edit the description of the risk.
-   * **Risk Type**: indicate what category the risk falls under. 
+   * **Risk Type**: Update what category the risk falls under. 
    * **Probability**: Indicate the probability of the risk occurring as a percentage value.
    * **Potential Cost**: Indicate the estimated cost if the risk should occur.
    * **Mitigation Cost**: Indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.

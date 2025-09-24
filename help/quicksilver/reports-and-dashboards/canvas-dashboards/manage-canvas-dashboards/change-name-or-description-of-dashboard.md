@@ -11,12 +11,20 @@ exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
 
 >[!IMPORTANT]
 >
->The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
+>If you have feedback regarding a possible bug or technical issue, please submit a ticket to Workfront Support. For more information, see [Contact Customer Support](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Please note that this beta is not available on the following cloud providers:
+>
+>* Bring Your Own Key for Amazon Web Services
+>* Azure
+>* Google Cloud Platform 
+
 
 You can edit the name or description of a Canvas Dashboard after it's been created. 
 
 Any changes you make to a dashboard will impact all users who have access to it. 
  
+## Access Requirements
 
 +++ Expand to view access requirements. 
 
@@ -65,6 +73,10 @@ For more information, see [Create a Canvas Dashboard](/help/quicksilver/reports-
 
 ## Change a dashboard's name and description
 
+>[!NOTE]
+>
+>Users that you have shared a Canvas Dashboard with will be able to see its name and description in the Canvas Dashboards inventory list and dashboard details section. 
+
 {{step1-to-dashboards}}
 
 1. In the left panel, click **Canvas Dashboards**. 
@@ -77,4 +89,7 @@ For more information, see [Create a Canvas Dashboard](/help/quicksilver/reports-
 
 1. Enter a new **Description**. 
 
-1. Click **Save**.
+1. Click **Save**. 
+
+
+
