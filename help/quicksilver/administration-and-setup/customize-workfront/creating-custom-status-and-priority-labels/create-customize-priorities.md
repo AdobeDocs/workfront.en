@@ -98,7 +98,7 @@ In addition to the default priorities provided in Workfront, you can add your ow
 1. In the left panel, click **Project Preferences** > **Priorities**.
 
 1. Click the tab for the object type you want to create a priority for (**Project**, **Task**, or **Issue**).
-1. Click <span class="preview">**New row**</span> or **Add a New Priority**.
+1. Click <span class="preview">**New row** at the bottom of the table</span>, or **Add a New Priority**.
 1. Configure the following options for the priority:
 
    * **Priority Name**: Type a name for the priority.
@@ -125,7 +125,7 @@ In addition to the default priorities provided in Workfront, you can add your ow
        * Select the check box next to the priority name and select **Make Default** in the action bar at the bottom of the screen.
        * Hover over the priority name and click the **More** menu that appears. Then, select **Make Default**.
 
-         The new default priority is indicated with the icon.
+         The new default priority is labeled with the icon.
 
      </div>
 
