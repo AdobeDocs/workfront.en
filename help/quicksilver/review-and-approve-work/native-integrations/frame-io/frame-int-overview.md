@@ -64,11 +64,11 @@ The Frame.io viewer supports all common video, image, audio, PDF, and MS&reg; Of
 
 #### Access and licensing for the Frame.io viewer
 
-The Frame.io viewer is available to all Workfront users with a paid license. No additional Frame.io license is required to use the Frame.io viewer for reviews and approvals with this integration. 
+The Frame.io viewer is the default viewer for all Workfront review and approval workflows. It is is automatically included for all Workfront users with a paid license. No additional Frame.io license is required to use the Frame.io viewer for reviews and approvals.
 
-If your organization wants to take advantage of additional Frame.io functionality, such as uploading assets directly to projects in Frame.io, you can purchase a Frame.io enterprise license. Contact your Adobe account representative to schedule a demo and explore the benefits of the full Frame.io solution.
+If your organization wants to take advantage of additional Frame.io functionality available with this integration, such as uploading assets directly to projects in Frame.io, you can purchase a Frame.io enterprise license. Contact your Adobe account representative to schedule a demo and explore the benefits of the full Frame.io solution.
 
-Workfront proofing functionality is not available with this integration.
+Workfront Proofing functionality is not available with this integration.
 
 ## Powerful project management in Workfront
 
@@ -85,6 +85,33 @@ Because this integration is built using ESM, there are some enforced structure a
 * Documents can't have the same name if they belong to the same project
 
 With these limitations in mind, Workfront automatically renames objects or documents as needed to prevent conflicts.
+
+### Sharing and permissions
+
+As part of the integration, user permissions are controlled in Workfront and flow down to Frame.io. This means you cannot invite a user to a project in Frame.io or modify user permissions in Frame.io. These actions need to be done via the Project Share modal in Workfront.
+
+The following table shows how Workfront permissions map to Frame.io permissions:
+
+<table>
+<tr>
+<th>Workfront user permission</th>
+<th>Frame.io user permission</th>
+</tr>
+<tr>
+<td>Manage</td>
+<td>Edit & Share</td>
+</tr>
+<tr>
+<td>Contribute</td>
+<td>Edit & Share</td>
+</tr>
+<tr>
+<td>View</td>
+<td>Comment Only</td>
+</tr>
+</table>
+
+
 
 ### Document management in Workfront
 
