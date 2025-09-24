@@ -12,6 +12,20 @@ This page describes Administrator enhancements made with the Fourth Quarter 2025
 
 For a list of all changes available at this point in the Fourth Quarter 2025 release cycle, see [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## Confirmation when removing a custom form from an object
+
+>[!NOTE]
+>
+>* Preview: September 25, 2025
+>* Production fast release: October 15, 2025
+>* Production for all customers: October 16, 2025
+
+To make sure you retain access to the data you need, we've added a confirmation dialog when removing a custom form from an object. Removing a custom form from an object permanently removes the data in that form from the object. Now, the dialog allows you to confirm that you understand that this data will be removed, ensuring that you do not remove data that you require. 
+
+Previously, the only warning of data removal was text near the remove option.
+
+For more information on removing a custom form, see [Remove a custom form from an object](help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object) in the article Manage custom forms attached to objects.
+
 ## Updates to the Workfront user profile
 
 >[!NOTE]
