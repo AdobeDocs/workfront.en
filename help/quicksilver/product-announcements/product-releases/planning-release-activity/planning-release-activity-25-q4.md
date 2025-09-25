@@ -42,6 +42,59 @@ Previously, request forms were located only on the object for which they were cr
 
 For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
 
+## Redesign of the Planning views toolbars and access points 
+
+>[!NOTE]
+>
+>* Preview: September 25, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025
+
+We have redesigned how you display, access, and manage views on  a record type page.  
+
+The following improvements are included in this update: 
+
+* The view tabs have been replaced by a dropdown menu in the upper-left corner of the record type page. The menu now displays a list of all the views.
+* You can reorder the views by dragging and dropping them in order of your preference. 
+* Most of the toolbar icons, except for the full-screen mode, have moved from the right side to the left side of the page.  
+* The Search box has been moved to the right side of the toolbar. 
+The functionality of each view has not changed.  
+
+For information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).  
+
+<!--## Enhancements to request forms in Workfront Planning
+
+>[!NOTE]
+>
+>* Preview: September 25, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025
+
+To make the request process simpler, we've made some enhancements to request forms. Now, when configuring a request form, you can configure the following:
+
+* Configure when requests created from the form will be automatically marked complete. You can set the request to be marked complete when the requested object is created, or when the requested object is complete based on criteria you specify.
+* Set up an automation that is triggered when a request is submitted from the form. Currently, you can automatically create records when the request is submitted. 
+
+For more information on creating a request form and configuring these options, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## Resize records in the calendar weekly view
+
+>[!NOTE]
+>
+>* Preview: September 25, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025
+
+In the weekly calendar view of a record type page, you can now click and hold a record's left or right margins to modify its duration.  
+
+Moving a record's margins also modifies its start and end dates immediately.  
+
+An outline displays to guide you to the new location before the event is resized. 
+
+This functionality already exists in the calendar monthly view. 
+
+For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
 ## New information box displays when changing or deleting a field
 
 >[!NOTE]
