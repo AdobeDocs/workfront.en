@@ -16,6 +16,18 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Inline edit Workfront connections in the record's Connected records page 
+
+>[!NOTE]
+>
+>Preview: September 25, 2025
+>Production fast release: October 15, 2025
+>Production all: October 16, 2025
+
+You can now inline edit Workfront connected objects in the Connected records page. You can also change the order of the connected objects, copy and paste rows and other functions  of a table view.  
+
+For information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).  
+
 <!--## Unified request form list now available
 
 >[!NOTE]
