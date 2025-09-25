@@ -24,7 +24,7 @@ To make sure you retain access to the data you need, we've added a confirmation 
 
 Previously, the only warning of data removal was text near the remove option.
 
-For more information on removing a custom form, see [Remove a custom form from an object](help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object) in the article Manage custom forms attached to objects.
+For more information on removing a custom form, see [Remove a custom form from an object](/help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object) in the article Manage custom forms attached to objects.
 
 ## Updates to the Workfront user profile
 
