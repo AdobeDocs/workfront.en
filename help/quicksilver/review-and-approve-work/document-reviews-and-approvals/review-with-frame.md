@@ -33,17 +33,17 @@ Reviewing Workfront documents with the Frame.io viewer allows you to leave comme
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td role="rowheader">Adobe Workfront licenses</td> 
    <td> <p>Request or higher</p>
    <p>Contributor or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Documents</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Edit access to the object associated with the document</p> <p>For information on requesting additional access, see <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
+   <td> <p>Edit access to the object associated with the document</p> </td> 
   </tr> 
  </tbody> 
 </table>
