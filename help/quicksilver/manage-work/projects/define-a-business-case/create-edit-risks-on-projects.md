@@ -3,7 +3,7 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Create and Edit Risks on Projects
 description: Risks are possible events or factors that prevent a project from finishing on time or within budget. You can record project risks as part of creating the Business Case of a project or by using the Risks tab. You can add risks to projects and templates. You cannot associate risks with tasks or issues.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
 ---
@@ -29,8 +29,6 @@ Risks can be associated with cost, but Actual Risk Cost does not impact the Actu
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
-
 +++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
@@ -38,17 +36,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
-   <td> <p>Current plans:</p>
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <ul><li>Any plan, to add risks in the Risks area of the project</p></li>
    <li><p>Prime or higher, to add risks in the project's Business Case</p></li></ul>
-   <p>Legacy plans: Any plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td> <p>Current: Standard </p>
-   <p>Legacy: Plan </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td> <p>Standard </p>
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configurations</p></td> 
@@ -61,7 +57,8 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
 
 +++
 
