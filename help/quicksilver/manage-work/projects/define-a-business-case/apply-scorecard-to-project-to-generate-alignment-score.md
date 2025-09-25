@@ -2,7 +2,7 @@
 navigation-topic: business-case-and-scorecards
 title: Apply a scorecard to a project and generate an Alignment Score
 description: You can use a scorecard to measure how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects the mission, values, and strategic goals of an organization.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
 ---
@@ -23,18 +23,15 @@ For more information about scorecards and how you can create one, see [Create a 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td>
-   <p>Current: Prime or higher</p>
-   <p>or</p>
-   <p>Legacy: Business or higher</p> </td>
+   <p>Prime or higher</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td>
-   <p>Current: Standard</p>
-   <p>or</p>
-   <p>Legacy: Plan</p></td>  
+   <p>Standard</p>
+   <p>Plan</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -47,7 +44,7 @@ For more information about scorecards and how you can create one, see [Create a 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -85,7 +82,7 @@ To apply a scorecard to a project:
 
 1. Select a scorecard from the drop-down menu.
 
-   <!--![New scorecard](assets/new-scorecard.png)-->
+   ![New scorecard](assets/scorecard-section.png)
 
 1. Enter an answer for all the questions in the scorecard.
 
@@ -154,31 +151,27 @@ You can view the alignment score of a project at the project level if you have C
 
 1. Go to the project whose Alignment Score you want to view.  
 1. Click **Business Case** in the left panel.
-1. Go to the **Business Case Summary** on the right side of your screen.
+1. Go to the **Business Case Summary** on the right side of your screen. The Alignment Score is located in the Business Case Summary, in the **Aligned** value.
 
-   The Alignment Score is located in the Business Case Summary, in the **Aligned** value.
-
-   <!--![Alignment score on a project](assets/alignment-score-on-a-project.png)-->
+   ![Alignment score on a project](assets/aligned-section.png)
 
 ### View the Alignment Scores of the project and of the portfolio in the Portfolio Optimizer
 
-You can view the alignment score of a project or of a portfolio in the Portfolio Optimizer, if you have Manage access to the portfolio.
+You can view the alignment score of a project or of a portfolio in the Portfolio Optimizer if you have Manage access to the portfolio.
 
 For more information about the information displayed in the Portfolio Optimizer, see [Portfolio Optimizer overview](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 * [Locate the Alignment Score of the project in the Portfolio Optimizer](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer) 
 * [Locate the Alignment Score of the portfolio in the Portfolio Optimizer](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  <!--![Alignment score in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)-->
+  ![Alignment score in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)
 
 #### Locate the Alignment Score of the project in the Portfolio Optimizer {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. Click the name of a portfolio.
-1. Click **Portfolio Optimization** in the left panel.
-
-   The Portfolio Optimizer displays. 
+1. Click **Portfolio Optimization** in the left panel. The Portfolio Optimizer displays. 
 
    The alignment score of a project is displayed as a percentage in the **Alignment** column of the Portfolio Optimizer.
 

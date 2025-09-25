@@ -89,7 +89,7 @@ You can assign an item from the Unassigned Work area to a user, or you can reass
    >* The Show all users option is available only in the Workload Balancer of a project. 
    >* Use filters to display only the  users that are important to you. For example, use a filter to display only users from your teams or groups.
 
-1. Click the bar of a work item <span class="preview">or role assignment</span> that indicates either the planned or the projected timeline and drag it over the name of a user in the **Assigned** area.
+1. Click the bar of a work item <span class="preview">or role assignment</span> that indicates either the planned or the projected timeline and drag it over the hours for a user in the **Assigned** area.
 
    The user you hover over to drop the work item to is highlighted.
 

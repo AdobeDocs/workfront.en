@@ -2,7 +2,7 @@
 navigation-topic: business-case-and-scorecards
 title: Budget resources in the Business Case using the Resource Planner
 description: As part of resource planning, you can use the project-level Resource Planner to budget the job roles necessary for completing the work in a project when you build the business case.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
 ---
@@ -29,19 +29,17 @@ You can also budget resources in the business case using the Adobe Workfront Sce
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
-   <td> <p>Current: Prime or higher</p>
-   <p>Legacy: Pro or higher</p> 
+   <td role="rowheader"><p>Adobe Workfront plan</p></td> 
+   <td> <p>Prime or higher</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td> <p>Current: Light or higher</p>
-   <p>Legacy: Review or higher</p> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td> <p>Light or higher</p>
+   <p>Review or higher</p> 
    
    <p><b>IMPORTANT:</b></p> 
-   <p>Current: You must have a Standard license to modify resource budgeting information. </p> 
-   <p>Legacy: You must have a Plan license to modify resource budgeting information. </p>
+   <p>You must have a Standard or Plan license to modify resource budgeting information. </p> 
    </td> 
   </tr> 
   <tr> 
@@ -60,7 +58,7 @@ You can also budget resources in the business case using the Adobe Workfront Sce
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -100,13 +98,13 @@ To apply Resource Pools and budget project resources in the Business Case for a 
 
 1. (Optional and conditional) If the project information has been published from an initiative on the Scenario Planner, do one of the following:
 
-   * Select Resource Planner in the **Choose which hours to use to calculate the Budgeted Labor Cost of the project** field, then click&nbsp;**Choose > Edit Resource Budgeting**.
+   * Select Resource Planner in the **Choose which hours to use to calculate the Budgeted Labor Cost of the project** field, then click&nbsp;**Choose** > **Edit Resource Budgeting**.
 
-     <!--![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
+    <!-- ![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
 
    * If the Scenario Planner was selected for budgeting resources for the project, click **Change** > **Edit Resource Budgeting**.
 
-     <!--![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
+     <!-- ![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
 
    This uses the Budgeted Hours of the project to calculate the Budgeted Labor Cost for the project.
 
@@ -150,9 +148,9 @@ To apply Resource Pools and budget project resources in the Business Case for a 
 
    &nbsp;
 
-1. Click **Today** to return to today's time frame.
-1. (Optional) Click **Week**, **Month** or **Quarter** to display information for the project in different time frames.
-1. (Optional) Click the **Hours** drop-down menu, and select **Hours**,**FTE**, or **Cost** to change how information displays in the Resource Planner. Hours display by default.
+1. Click **Today** to return to today's timeframe.
+1. (Optional) Click **Week**, **Month** or **Quarter** to display information for the project in different timeframes.
+1. (Optional) Click the **Hours** drop-down menu, and select **Hours**, **FTE**, or **Cost** to change how information displays in the Resource Planner. Hours display by default.
 
 1. (Optional) Click **Export** to export the Resource Planner to an Excel file.
 
@@ -166,7 +164,7 @@ To apply Resource Pools and budget project resources in the Business Case for a 
 
    * Manually estimate the amount of Hours, FTE, or Cost values for roles, users, or the project.
 
-     Or 
+     or 
    
    * Click the **Options** icon for the project or the job roles and select an option to automatically budget the hours for roles, users, or the project.
 
@@ -174,9 +172,9 @@ To apply Resource Pools and budget project resources in the Business Case for a 
 
    >[!NOTE]
    >
-   >You can budget hours, FTEs, or costs for your resources for any time frame displayed in the Resource Budgeting area, independent of the timeline of the project. For example, if you want to indicate that your resources might not be available during the timeline of the project (where they are associated with Planned Hours), but they might be available during another time, you can do so by budgeting them for time frames where the Planned Hours are zero, if that is when they become available to work.
+   >You can budget hours, FTEs, or costs for your resources for any timeframe displayed in the Resource Budgeting area, independent of the timeline of the project. For example, if you want to indicate that your resources might not be available during the timeline of the project (where they are associated with Planned Hours), but they might be available during another time, you can do so by budgeting them for timeframes where the Planned Hours are zero, if that is when they become available to work.
 
-1. (Optional) To understand whether you can move the budgeted Hours, FTEs, or Costs to another time frame, click the **Options** icon, then **Adjust Budgeting Dates**.
+1. (Optional) To understand whether you can move the budgeted Hours, FTEs, or Costs to another timeframe, click the **Options** icon, then **Adjust Budgeting Dates**.
 
    For more information about adjusting budgeted dates, see [Adjust budgeting dates in the Resource Planner](../../../resource-mgmt/resource-planning/adjust-budgeting-dates.md).
 

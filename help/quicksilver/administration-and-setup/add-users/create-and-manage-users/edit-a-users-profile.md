@@ -69,7 +69,7 @@ For more detail about the information in this table, see [Access requirements in
 
     The Edit User box displays.
 
-1. In the **Edit User** box, change the information in any of the sections, and click **Save Changes** <span class="preview">or **Save**</span> at any time.
+1. In the **Edit User** box, change the information in any of the sections, and click **Save** at any time.
 
 ### Personal Info
 
@@ -88,7 +88,7 @@ For more detail about the information in this table, see [Access requirements in
 
   If your organization has been migrated to the Adobe Admin Console, you cannot edit a user's email address in Workfront. The user's email address is set in the Adobe Admin Console.
 
-* **Reset Password** / <span class="preview">**Change password**</span>: Click this link to reset the user's password. You must enter your own password before you can reset another user's password.
+* **Change Password**: Click this button to reset the user's password. You must enter your own password before you can reset another user's password.
 
   To reset another user's password, you must be a Workfront administrator, or a group administrator.
 
@@ -115,7 +115,7 @@ For more detail about the information in this table, see [Access requirements in
   >
   >If you are a group administrator and you have the User Admin (All Users) permission enabled in your access level, you can edit the &lt;SSO Configuration&gt; fields for all users.
 
-* **Profile photo**: Click **Upload Photo** / <span class="preview">**Upload new**</span> to load the user's profile picture. You can upload a JPG, GIF, or PNG file. The file size limit is 4 MB.
+* **Profile photo**: Click **Upload new** to load the user's profile picture. You can upload a JPG, GIF, or PNG file. The file size limit is 4 MB.
 
   The profile picture becomes the user's avatar and it is visible throughout the Workfront system, wherever the user's name is displayed.
 
@@ -142,7 +142,9 @@ For more detail about the information in this table, see [Access requirements in
   >
   >This option is available only in the Preview and Sandbox environments. Email notifications are enabled in the Production environment by default.
 
-<!--* **Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
+<!--* **Automatically set the task status to In Progress when tasks are self-assigned**: When this option is selected, work that the user self-assigns is automatically set to In Progress status instead of New.-->
+
+* **Send work I assign to myself to my Working On tab**: When this option is selected, work that the user self-assigns is automatically set to In Progress status instead of New. <!--This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **Automatically generate proofs when uploading documents**: Check this option if you want the documents that the user uploads to immediately generate a proof.
 
@@ -156,7 +158,7 @@ For more information, see [Configure event notifications for everyone in the sys
 
 ### Access
 
-* **Is Active** / <span class="preview">**User is active**</span>: Enable this option to indicate that the user is active. Active users use a Workfront license. Disabling the field deactivates the user and prevents them from logging in to Workfront.
+* **User is active**: Enable this option to indicate that the user is active. Active users use a Workfront license. Disabling the field deactivates the user and prevents them from logging in to Workfront.
 
 * **Access Level**: Select the access level to assign to this user.
 
@@ -193,7 +195,7 @@ For more information, see [Configure event notifications for everyone in the sys
 * **Direct Reports**: If you specified a company for the user, you can also specify the direct reports of the user. A user can have multiple direct reports. This field does not display if the user is not associated with a company first.
 * **Home Team**: Specify the home team for the user. Users can only have one home team. The Home Team is important when assigning a layout template or when defining the Work On It button for the tasks and issues assigned to the user.
 * **Other Teams**: Users can belong to multiple teams. A user can view work items assigned to any of their teams in their Home area.
-* **Home Group** / <span class="preview">**Current Home Group**</span>: Select an appropriate group to assign the user. This gives the user the ability to access objects that are shared with the group. You can also share layout templates with the user's Home Group.
+* **Current Home Group**: Select an appropriate group to assign the user. This gives the user the ability to access objects that are shared with the group. You can also share layout templates with the user's Home Group.
 
   This is a required field. Every user must be associated with a home group. If you don't select one, your Home Group is assigned as the new user's Home Group.
 
@@ -231,8 +233,8 @@ For more information, see [Configure event notifications for everyone in the sys
   >
   >Set the Work Time value to 1 to indicate that the user is available for project-related work their entire full-time equivalent.
 
-* **Schedule Deactivation** / <span class="preview">**Set deactivation date**</span>: Check this box / <span class="preview">click this button</span> if you want to schedule this user to be deactivated on a certain date and at a certain time.
-* **Scheduled Deactivation Date** / <span class="preview">**Deactivation Date**</span>: The date and time on which the user becomes deactivated. For information about scheduling users for deactivation, see [Schedule users for deactivation](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) in [Deactivate or reactivate a user](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Set deactivation date**: Click this button if you want to schedule this user to be deactivated on a certain date and at a certain time.
+* **Deactivation Date**: The date and time on which the user becomes deactivated. For information about scheduling users for deactivation, see [Schedule users for deactivation](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) in [Deactivate or reactivate a user](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Primary Role**: This is the primary job role that the user can fulfill in Workfront. Every task and issue that the user is assigned to is also assigned to this job role. Job roles are essential in resource management. You can update this field only if you have a Standard or Plan license with administrative user access, or if you are a Workfront administrator. For more information about setting up users with administrative user access, see [Grant access to users](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   Only active job roles display in the list.
@@ -250,11 +252,7 @@ For more information, see [Configure event notifications for everyone in the sys
 
   If Other Roles have a 0% FTE Availability, they do not display in the Resource Planner, unless the users are assigned to tasks in these roles.
 
-  <span class="preview">In Preview:</span>
   ![User roles and FTE](assets/user-roles-fte-2025.png)
-
-  In Production:
-  ![User roles and FTE](assets/user-settings-roles-and-dte-boxes-rp-story.png)
 
   The sum of all **Percentages of FTE Availability** for all roles must equal 100%. Each Percentage of FTE Availability calculates the Available Hours for each role per user in the Resource Planner. The Available Hours for each role per user depends on the available time for the user.
 
@@ -321,12 +319,8 @@ For more information, see [Configure event notifications for everyone in the sys
   For date effective billing rates, click **Add Rate**. Enter the value of the billing rate for the time period, and assign a Start Date and End Date as needed. Billing Rate 1 will not have a start date and the last billing rate will not have an end date.
 
   Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add a second with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.
-
-  <span class="preview">In Preview:</span>
+  
   ![User cost and billing rates](assets/user-cost-billing-rates-2025.png)
-
-  In Production:
-  ![User cost and billing rates](assets/edit-user-cost-billing-rate-2.png)
 
 ### Custom Forms
 

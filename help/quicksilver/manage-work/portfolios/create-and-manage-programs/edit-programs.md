@@ -98,7 +98,7 @@ You must have the following access to perform the steps in this article:
 
    The **[!UICONTROL Edit Program]** dialog box displays.
 
-   ![Edit program box](assets/edit-program-box-nwe-350x236.png)
+   ![Edit program box](assets/edit-program-0925.png)
 
    All program fields are available in the [!UICONTROL Edit Program] box and are grouped by the areas listed in the left panel.
 
@@ -151,7 +151,7 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click **[!UICONTROL Save Changes]** or continue editing the following sections.
+1. Click **[!UICONTROL Save]**, or continue editing the following sections.
 
 ### [!UICONTROL Custom Forms]
 
@@ -164,17 +164,18 @@ You must have the following access to perform the steps in this article:
    >
    >Depending on how your [!DNL Workfront] administrator set the permissions for the sections in your custom form, not everyone can view or edit the same fields on a given custom form. The permissions to edit fields within a section of a custom form depend on the permissions you have on the program itself. For information about setting permissions on sections of a custom form, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Update any fields in the custom forms, then click **[!UICONTROL Save Changes]** or continue with the following section.
+1. Update any fields in the custom forms, then click **[!UICONTROL Save]**, or continue with the following section.
 
 ### [!UICONTROL Comment] {#comment}
 
 1. Begin editing a program as described above.
-1. Click&nbsp;**[!UICONTROL Comment]**.
+1. Click **[!UICONTROL Comment]**.
 
-   ![Comment box in edit program box](assets/comment-box-in-program-edit-box-classic-350x195.png)
+   ![Comment box in Edit Program box](assets/comment-box-on-edit-program.png)
 
-1. Add a comment in the **[!UICONTROL Post an update to the program]** field.
+1. Add a comment in the **[!UICONTROL Add an update to each program]** field.
 1. (Optional) Click the **[!UICONTROL People]** icon to add a user or a team to the comment.
-1. (Optional)&nbsp;Click the **[!UICONTROL Lock]** icon to lock the comment and make it private to only users in your company.
+1. (Optional) Select [!UICONTROL **Private to my company**] to lock the comment and make it private to only users in your company.
 
    After you save your changes, the comment you add displays in the program's [!UICONTROL Updates] tab and sends an email to the users included in it.
+

@@ -108,18 +108,6 @@ Consider the following:
     * When the Start or the End dates have no value
     * When the Start date is after the End date 
 
-<div class="preview">
-
-* You can create and edit records in the timeline view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
-
-</div>
-
-<!--move this bullet under the same div as above OR add a span or another div tag?? ??
-
-* You can resize the records' bars in the timeline view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-
--->
-
 To manage a timeline view: 
 
 1. Go to the record type page for which you want to view the timeline. 
@@ -193,15 +181,27 @@ To manage a timeline view:
 
     1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
 
+1. (Optional) Click **Breakdown** to display connected records on the timeline. 
+
+    For information, see the section [Use the Breakdown feature to display connected records in the timeline view](#break-down-connected-records-in-the-timeline-view) in this article. 
+1. <span class="preview">To create records in the timeline view or edit their dates do one of the following:</span>
+
+    * <span class="preview">Double-click anywhere on the timeline to create a record. </span>
+    
+        <span class="preview">For information, see [Create records](/help/quicksilver/planning/records/create-records.md).</span>
+    
+    * <span class="preview">Click on the end of a record bar, then drag and drop it in a new position. Resizing the records' bars updates their start and end dates immediately. </span>
+    
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+    
+    <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
+
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)
     * [Grouping](#add-grouping)
     * [Settings](#edit-the-timeline-view-settings)
     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
-
-1. (Optional) Click **Breakdown** to display connected records on the timeline. 
-
-    For information, see the section [Use the Breakdown feature to display connected records in the timeline view](#break-down-connected-records-in-the-timeline-view) in this article. 
 
 ### Add filters
 

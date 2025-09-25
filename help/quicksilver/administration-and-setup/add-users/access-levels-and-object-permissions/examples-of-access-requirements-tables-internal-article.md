@@ -190,6 +190,33 @@ Package: workflow select, workflow prime, workflow ultimate
 Licenses: contributor, light, standard
 Package: planning select, planning prime, planning ultimate
 
+## Access requirements for Portfolio Optimizer
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Workfront Prime or higher</p> 
+   <p>Workflow Prime or higher</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Portfolios and Projects</p>  </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the portfolio</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 
 ## Access requirements for most of Workfront Planning
 
@@ -343,7 +370,7 @@ Expand to view access requirements for the functionality in this article.
 
 For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-## Access requirements example for Resource Management
+## Access requirements for Resource Management (example of multiple possible licenses; all RM packages are now Any)
 
 Expand to view access requirements for the functionality in this article.
 
@@ -373,13 +400,56 @@ Expand to view access requirements for the functionality in this article.
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Access requirements example for Fusion
+## Access requirements for Adobe Workfront Automation and Integration
+
+   <p>Connector-based (legacy): Workfront Fusion for Work Automation and Integration </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>
+   <p>If your organization has a Select or Prime Workfront package that does not include Workfront Automation and Integration, your organization must purchase Adobe Workfront Fusion.</li></ul>
+   </td> 
+  </tr>
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in documentation](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+
+
+For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+
+## Advanced Enterprise Controls
+
+An article about group administrators mentions the package that the customer must be on for group administrators to have certain capabilities in Workfront.
+
+[Link to current article](/help/quicksilver/administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
+
+### Updated text for the third footnote under the table
+
+&#42;&#42;&#42; These packages include the Advanced Enterprise Controls features listed below:
+
+* Workflow Prime and higher
+* Workfront Prime and higher
+
+See the [Adobe Workfront pricing and packaging page](https://business.adobe.com/products/workfront/pricing.html) for more information about packages.
+
+Advanced Enterprise Controls:
+
+* Configure project, task, and issue preferences at the group level
+* Configure timesheet and hour preferences at the group level
+* Configure event notification emails at the group level
+* Create and manage group-specific approval processes
+* Allocate license limits and view their utilization by Home group
+* Assign group administrators on subgroups
+* Allow group administrators to create subgroups
+
+## Access requirements for Proofing
 
 ## Access requirements
 
-Expand to view access requirements for the functionality in this article.
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -410,3 +480,26 @@ Expand to view access requirements for the functionality in this article.
 For more detail about the information in this table, see [Access requirements in documentation](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
 For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td>  <p>Standard</p>
+   <p>Work or Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Proof Permission Profile </td> 
+   <td>Manager or higher</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Proof role</td> 
+   <td>Reviewer, Reviewer &amp; Approver, Moderator, Author</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Documents</p> <p>For information on requesting additional access, see <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.

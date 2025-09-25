@@ -18,8 +18,8 @@ Users do not receive suggestions of data that they do not otherwise have access 
 
 For instructions, see the following:
 
-* [Auto-fill a request from previous data](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
-* [Auto-fill a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+* [Auto-complete a request with data from previous requests](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
+* [Use AI Form Fill to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
 
    To use auto-filling from prompts or documents, your organization must meet the requirements to use the Workfront AI Assistant. For details, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
