@@ -18,7 +18,7 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
-### Interface updates when adding or editing group timesheet profiles
+<!--### Interface updates when adding or editing group timesheet profiles
 
 **Preview release: September 25, 2025; Production release: October 2, 2025**
 
@@ -26,7 +26,7 @@ We have updated the look and feel of the Timesheet Profile page when editing or 
 
 To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
 
-For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). -->
 
 ### Interface updates for the Severities area in Setup
 
@@ -424,13 +424,13 @@ For for more information, see
 
 ## Users
 
-### Interface updates for the User Details page
+<!--### Interface updates for the User Details page
 
 **Preview release: September 25, 2025; Production release: October 2, 2025**
 
 We have updated the look and feel of the User Details page to match other areas of the application.
 
-You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.
+You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.-->
 
 ### Interface updates for personal time off
 
