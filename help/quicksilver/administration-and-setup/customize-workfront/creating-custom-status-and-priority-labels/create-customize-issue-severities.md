@@ -11,8 +11,6 @@ exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
 ---
 # Create or customize issue severities
 
-{{highlighted-preview}}
-
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 
@@ -96,7 +94,7 @@ As a Workfront administrator, you can create and edit issue severities to suit t
 
 1. In the left panel, click **Project Preferences** > **Severities**.
 
-1. If you are creating a new severity, click <span class="preview">**New row** at the bottom of the table</span>, or **Add a New Severity**.
+1. If you are creating a new severity, click **New row** at the bottom of the table. <!--or **Add a New Severity**.-->
 1. Configure the following options for the new severity or edit them for an existing one:
 
    * **Severity Name**: Type a name for the severity.
@@ -116,8 +114,6 @@ As a Workfront administrator, you can create and edit issue severities to suit t
 
      You cannot make a hidden severity the default.
 
-     <div class="preview">
-
      The default severity is indicated with an icon ![Default severity icon](assets/default-icon.png). To choose a new default, do one of the following:
 
        * Select the check box next to the severity name and select **Make Default** in the action bar at the bottom of the screen.
@@ -125,10 +121,8 @@ As a Workfront administrator, you can create and edit issue severities to suit t
 
          The new default severity is labeled with the icon.
 
-     </div>
-
    * **Description**: Type a description for the severity to explain its function.
-   * <span class="preview">**Hide Choice**</span> or **Hide**: <span class="preview">Choose **Yes**</span> or select the check box to hide a severity that is no longer needed.
+   * **Hide Choice** or **Hide**: Select **Yes** to hide a severity that is no longer needed.
 
      A hidden severity does not display anywhere in Workfront, so users can't choose it for their issues.
 
