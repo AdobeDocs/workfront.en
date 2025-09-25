@@ -8,6 +8,8 @@ exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
 ---
 # Create and customize priorities
 
+{{highlighted-preview}}
+
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
@@ -54,11 +56,11 @@ As a Workfront administrator, you can make the following modifications to the de
 * Rename priorities.
 * Reorder the priorities.
 
-  For more information on how to reorder priorities, see [Create a priority for a project task, or issue](#create-a-priority-for-a-project-task-or-issue). 
+  For more information on how to reorder priorities, see [Create a priority for a project, task, or issue](#create-a-priority-for-a-project-task-or-issue). 
 
 * Change the default priority.
 
-  For more information on the functionality of changing the default priority, see [Create a priority for a project task, or issue](#create-a-priority-for-a-project-task-or-issue).
+  For more information on the functionality of changing the default priority, see [Create a priority for a project, task, or issue](#create-a-priority-for-a-project-task-or-issue).
 
 * Edit the description for the priorities. 
 * Set a color for each priority.
@@ -73,7 +75,7 @@ As a Workfront administrator, you can make the following modifications to the de
 
 * Hide priorities.
 
-  For more information on the functionality of hiding priorities, see [Create a priority for a project task, or issue](#create-a-priority-for-a-project-task-or-issue).
+  For more information on the functionality of hiding priorities, see [Create a priority for a project, task, or issue](#create-a-priority-for-a-project-task-or-issue).
 
   >[!NOTE]
   >
@@ -87,7 +89,7 @@ The priorities provided by default for each object type (project, task, and issu
 * High
 * Urgent
 
-## Create a priority for a project task, or issue {#create-a-priority-for-a-project-task-or-issue}
+## Create a priority for a project, task, or issue {#create-a-priority-for-a-project-task-or-issue}
 
 In addition to the default priorities provided in Workfront, you can add your own priorities to reflect the needs of your organization.
 
@@ -96,41 +98,49 @@ In addition to the default priorities provided in Workfront, you can add your ow
 1. In the left panel, click **Project Preferences** > **Priorities**.
 
 1. Click the tab for the object type you want to create a priority for (**Project**, **Task**, or **Issue**).
-1. Click **Add a New Priority**.
-1. Specify the following information for the new priority:
+1. Click <span class="preview">**New row** at the bottom of the table</span>, or **Add a New Priority**.
+1. Configure the following options for the priority:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Priority Name</td> 
-      <td>Type a name for your priority.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Importance</td> 
-      <td> <p>When adding a new priority, a number is assigned to it by default. Edit this number, if it does not match your needs.</p> <p>The <strong>Importance</strong> number for each priority must be unique for the object you selected.<br>The number of the priority reflects the importance of the project, task or issue: the highest number corresponds to the highest priority.</p> <p><b>NOTE</b>:  You cannot edit the Importance number, after you save the priority. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Color</td> 
-      <td> <p>Choose a color for your priority.</p> <p>The color of the priority is used in chart reports and Agile Team Settings. For more information on chart reports, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Add a chart to a report</a>.</p> <p>For more information on Agile Team Settings, see in .</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Default Priority</td> 
-      <td> <p>Decide whether this should be a default priority or not, by selecting the radio button.</p> <p>If a priority is designated as the <strong>Default Priority</strong>, it is automatically picked for all the projects, tasks, or issues in Workfront. <strong>Normal</strong> is the default priority for all objects in Workfront.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Description</td> 
-      <td>Add a description for your priority to explain its function.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Hide</td> 
-      <td> <p>Select this box if you want to hide the priority.</p><p>When you select the <b>Hide</b> option, the priority does not display anywhere in Workfront and users are not able to choose it for their projects, tasks, and issues.</p> 
-      <p><b>IMPORTANT</b>:  We recommend that you hide the priorities that you no longer want to use, rather than deleting them. By hiding them, you still keep all your historic data, of objects that have been completed with this priority, while preventing people from choosing this priority in the future. </p>
-      <p>Optionally, you can change the listing order of your priorities by dragging and dropping them in your desired order. This changes the order in which they display for projects, tasks, and issues. This does not change the <b>Importance</b> number. </p></td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **Priority Name**: Type a name for the priority.
+   * **Importance**: When adding a new priority, a number is assigned to it by default. Edit this number, if it does not match your needs.
+     
+     The Importance number for each priority must be unique. The number of the priority reflects the importance of the project, task or issue: the highest number corresponds to the highest priority.
+
+     You cannot edit this number after you save the priority.
+   
+   * **Color**: Choose a color for the priority.
+
+     The color of the priority is used in chart reports and Agile Team Settings. For information on chart reports, see [Add a chart to a report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md). For information on Agile Team Settings, see [Create an agile team](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+
+   * **Default Priority**: Select the priority you want Workfront to apply automatically to all newly created projects, tasks, or issues.
+
+     **Normal** is the default priority for all objects in Workfront.
+
+     You cannot make a hidden priority the default.
+
+     <div class="preview">
+
+     The default priority is indicated with an icon ![Default priority icon](assets/default-icon.png). To choose a new default, do one of the following:
+
+       * Select the check box next to the priority name and select **Make Default** in the action bar at the bottom of the screen.
+       * Hover over the priority name and click the **More** menu that appears. Then, select **Make Default**.
+
+         The new default priority is labeled with the icon.
+
+     </div>
+
+   * **Description**: Type a description for the priority to explain its function.
+   * <span class="preview">**Hide Choice**</span> or **Hide**: <span class="preview">Choose **Yes**</span> or select the check box to hide a priority that is no longer needed.
+
+     A hidden priority does not display anywhere in Workfront, so users can't choose it for their projects, tasks, or issues.
+
+     >[!IMPORTANT]
+     >
+     >Instead of deleting priorities that you no longer want to use, we suggest that you hide them. This way, you keep all your historic data on objects already completed with the priority, while preventing people from using the priority in the future.
+
+1. (Optional) Change the listing order of your priorities by dragging and dropping them in the order you want.
+
+   This changes the order in which they display for projects, tasks, or issues. It does not change the **Importance** number.
 
 1. Click **Save**.
 
