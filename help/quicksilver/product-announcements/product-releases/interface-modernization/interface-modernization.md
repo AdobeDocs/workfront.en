@@ -210,13 +210,13 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-### Interface updates for a project list or report when applying the Milestone view
+<!--### Interface updates for a project list or report when applying the Milestone view
 
 **Preview release: September 11, 2025; Production release: September 18, 2025**
 
 We have updated the look and feel of a project list or report when you apply the Milestone view to them.
 
-The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### Interface changes for the Convert a task to a project without a template
 
