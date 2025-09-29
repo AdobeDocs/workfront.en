@@ -64,7 +64,7 @@ Go the Workfront Home page, find the My Approvals widget, then click **Open revi
     >You may have to add the My Approvals widget to your Home page. For more information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 1. In Frame.io, use the commenting tools to leave feedback or ask questions.
-    Comments and asset markup is visible only in the Frame.io viewer. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+    Comments and asset markup is visible only in the Frame.io viewer. Comments do not display in Workfront. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Once you're satisfied with the document, navigate back to the Document Details page in Workfront and mark your review as complete.
 
    ![Mark review complete](assets/mark-review-complete.png)
