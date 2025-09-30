@@ -86,7 +86,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>There are some small functionality differences from the current user profile, including:</p>
             <ul>
                 <li>Some check boxes (such as marking the user as active) have changed to toggles or buttons.</li>
-                <li>The "Send work I assign to myself to my Working On tab" option under Preferences was removed because it refers to a deprecated feature.</li>
+                <li>The "Send work I assign to myself to my Working On tab" option under Preferences was renamed to "Automatically set the task status to In Progress when tasks are self-assigned" to reflect its purpose.</li>
             </ul>
         </td>
         <td>August 28, 2025</td>
