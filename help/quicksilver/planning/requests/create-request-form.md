@@ -276,6 +276,8 @@ On the Configuration tab, you can set the approval process <span class="preview"
 
       For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
 
+1. <span class="preview">(Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.</span>
+
 1. <span class="preview">Select whether you want a request created from this form to be marked complete when the requested object is created, or when the requested object is completed.</span>
 1. <span class="preview">(Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and value that indicate when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.</span>
 1. Continue to [Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to [Complete request form creation](#complete-request-form-creation).
