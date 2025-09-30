@@ -9,6 +9,8 @@ exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
 ---
 # Create, edit, and assign timesheet profiles
 
+{{highlighted-preview}}
+
 <!--Audited: 06/2025-->
 
 You can create, edit, and assign timesheet profiles that generate recurring timesheets for your users without any further intervention from you. This saves you time and ensures that the following are consistent between users:
@@ -79,8 +81,7 @@ For more information about creating a timesheet manually, see [Create a single-u
 
    The new or existing timesheet profile page displays.
 
-
-1. Click the **Set Details** tab, then update the following information: <!-- at the Production release, change the order of some of these rows, as they changed in the unshimmed UI-->
+1. Update the following information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -106,7 +107,7 @@ For more information about creating a timesheet manually, see [Create a single-u
      <ul> 
       <li> <p>If you are creating a timesheet profile for a group you administer, identify the group here.</p> <p>This does not assign the timesheet profile to the users in the group; it only allows the group's administrators to modify the timesheet profile. You will assign the profile to users in Step 6.</p>
 
-   <p><b>NOTE</b>: When users outside the group are attaching timesheet profiles to other user, they won't be able to see or attach this timesheet profile.</p> </li> 
+   <p><b>NOTE</b>: When users outside the group are attaching timesheet profiles to other users, they won't be able to see or attach this timesheet profile.</p> </li> 
       </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -149,6 +150,10 @@ For more information about creating a timesheet manually, see [Create a single-u
    <b>NOTE</b>: Once you submit a timesheet for approval, you can no longer edit the hours. To return a submitted timesheet to an editable state, recall the timesheet or have the approver reject the timesheet. For more information, see <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Submit a timesheet for approval</a> and<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approve a timesheet</a>.</p> </p> </td> 
      </tr> 
      <tr> 
+      <td role="rowheader"><strong>Overtime</strong> </td> 
+      <td>You can choose to hide the Overtime box in timesheets. This option is disabled by default.</td> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>Available Hour Types</strong> </td> 
       <td><p>This setting refers only to General Hour Types, and not to project-specific hour types. </p>
       <p>By default, users see all general hours on a timesheet. However, if your organization wants only specific general hours to be shown for a particular set of users, you can select the general hours that they need to see in their timesheets by selecting them in their timesheet profile in this field. If you want to disable all general hours, deselect all hour types to generate the timesheet without a section for general hours.</p></td> 
@@ -159,14 +164,9 @@ For more information about creating a timesheet manually, see [Create a single-u
       <td> <p> Add a reminder notification. Workfront will send reminders to users to ask them to complete or approve their timesheets. You must create reminder notifications before you can associate them with a timesheet profile.  </p> </td> 
      </tr>
 
-   <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">Overtime</span> </td> 
-      <td>You can choose to hide the Overtime box in timesheets. This option is disabled by default.</td> 
-     </tr> 
-    </tbody> 
-    </table>
+1. When creating group-level timesheet profiles in Production, click the **Assign People** tab to associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-1. When creating group-level timesheet profiles, click the **Assign People** tab to associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+   <span class="preview">When creating group-level timesheet profiles in Preview, scroll towards the bottom of the page and find the **Assign People** section.</span>
 
    When creating timesheet profiles for the system, scroll towards the bottom of the page and find the **Assign People** section. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
@@ -182,13 +182,13 @@ For more information about creating a timesheet manually, see [Create a single-u
 
 1. Click **Save**.
 
-1. At the top of the timesheet profile list, click the **More** icon ![More icon](assets/more-icon.png) for system-level timesheet profiles, or **More**, for group timesheet profiles, then click **Generate timesheets**. 
+1. At the top of the timesheet profile list, click the **More** icon ![More icon](assets/more-icon.png), then click **Generate timesheets**.
 
    A confirmation displays at the bottom of the screen that timesheets have been successfully generated. New timesheets are generated based on the new profiles you created. 
 
    For more information, see [Manually generate timesheets](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md). 
 
-   The first time the timesheet profile generates timesheets, 2 timesheets are created for each user, for both the timeframe that includes the current time as well as for the following timeframe. 
+   The first time the timesheet profile generates timesheets, two timesheets are created for each user, for both the timeframe that includes the current time as well as for the following timeframe. 
    
       After that, each time it generates new timesheets, one timesheet is created per user.
 
