@@ -37,7 +37,7 @@ We have updated the look and feel of the Workfront user profile to a modern desi
 There are some small functionality differences from the current user profile, including:
 
 * Some check boxes (such as marking the user as active) have changed to toggles or buttons.
-* The "Send work I assign to myself to my Working On tab" option under Preferences was removed because it refers to a deprecated feature.
+* The "Send work I assign to myself to my Working On tab" option under Preferences was renamed to "Automatically set the task status to In Progress when tasks are self-assigned" to reflect its purpose.
 
 For more information, see [Edit a user's profile](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
