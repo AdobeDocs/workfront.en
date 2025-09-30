@@ -33,19 +33,16 @@ You can link documents and folders to Adobe Workfront from the following sources
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>You can make proofs that were originally created within Workfront Proof available within Workfront. For the current licenses, a Pro Workfront Plan or higher is required to use this feature. For the new licenses, all plans include this feature. For more information about the various plans available, see <a href="https://business.adobe.com/products/workfront/pricing.html">Workfront Plans</a>.</td> 
+   <td>You can make proofs that were originally created within Workfront Proof available within Workfront.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
    <td>You can link documents to Workfront from Experience Manager Assets Essentials. For more information, see <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref"> Adobe Workfront for Experience Manager Assets Essentials</a>.</td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Workfront DAM </td> 
-   <td>This requires an additional purchase. </td> 
-  </tr> 
+ 
   <tr> 
    <td role="rowheader">Other document providers (through custom document integrations)</td> 
-   <td> <p class="workfront_plans">For the current licenses, a Pro Workfront Plan or higher is required to use this feature. For the new licenses, all plans include this feature. For more information about the various plans available, see <a href="https://business.adobe.com/products/workfront/pricing.html">Workfront Plans</a>.</p> </td>
+   <td> <p class="workfront_plans">These integrations can be configured in the Setup area.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -93,6 +90,13 @@ The following exceptions apply:
 
 * When provided by the document service, thumbnails and preview images might be stored on Workfront servers.
 * When you use proofing in Workfront, the document is copied and added to the proofing servers. 
+
+## File size limits
+
+Third-party cloud providers:
+
+* Single file: 5 GB or less
+* Multiple file: 1 GB or less (total of all files)
 
 ## Link a document from an external application to Workfront
 

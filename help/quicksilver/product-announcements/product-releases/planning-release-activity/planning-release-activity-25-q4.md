@@ -95,6 +95,30 @@ This functionality already exists in the calendar monthly view.
 
 For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 
+## New setting to prevent creating a two-way connection from a record type
+
+>[!NOTE]
+>
+>* Preview: September 18, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025 
+
+To prevent creating too many connection fields, and potentially impacting performance, we have introduced a new setting to allow workspace managers to optionally create corresponding connected fields on a connected record type. When enabled, connections count on both records which will increase the chance of reaching the 500 connection limit. To avoid that, we recommend keeping this setting off, especially when linking to taxonomical record types. 
+
+The following capabilities are part of this improvement:  
+
+* A new setting for "Create corresponding field on linked record type" has been added to the New connection tab.   
+
+* The Connection type area of the New connection tab has been redesigned.  
+
+* There is a limit of 500 connections for each record type. 
+
+* The new setting can be changed after a new connection has been created and saved.  
+
+  
+
+For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
+
 ## New information box displays when changing or deleting a field
 
 >[!NOTE]
