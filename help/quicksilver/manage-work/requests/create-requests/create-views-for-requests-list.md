@@ -108,7 +108,7 @@ You can edit existing views, including views you have just created.
     >
     >You cannot add any more columns.  
 
-[!IMPORTANT]
+>[!IMPORTANT]
 >
 > * Changes to views are saved automatically.
 > * Changes to views are visible to anyone that uses the view.
