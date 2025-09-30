@@ -16,9 +16,8 @@ For a list of all changes available at this point in the Fourth Quarter 2025 rel
 
 >[!NOTE]
 >
->* Preview: September 25, 2025
->* Production fast release: October 15, 2025
->* Production for all customers: October 16, 2025
+>* Preview: September 24, 2025
+>* Production for all customers: September 25, 2025
 
 To make sure you retain access to the data you need, we've added a confirmation dialog when removing a custom form from an object. Removing a custom form from an object permanently removes the data in that form from the object. Now, the dialog allows you to confirm that you understand that this data will be removed, ensuring that you do not remove data that you require. 
 
