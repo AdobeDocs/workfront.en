@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
    >
    >If you want to edit all information about the program, go to step 4.   
 
-   ![Progran details with custom form section](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
+   ![Program details with custom form section](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
 
    >[!NOTE]
    >
@@ -74,33 +74,33 @@ You must have the following access to perform the steps in this article:
 
    To edit information in the [!UICONTROL Details] section, do the following:
 
-   1. (Optional) Click the **[!UICONTROL Collapse All]** icon in the upper-right corner to collapse all areas.
-   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![Right pointing arrow](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit.
-   1. For information about the fields visible in the [!UICONTROL Program Details] section, continue with editing the program in the [!UICONTROL Edit Program] box as described below.
-   1. (Optional) If there are no custom forms attached to the program, start typing the name of a form in the **[!UICONTROL Add custom form]** field, select it when it displays in the list, then click&nbsp;**[!UICONTROL Save Changes]**.
-   1. (Optional) Click the **[!UICONTROL Export]** icon ![Export icon](assets/export.png) to export the [!UICONTROL Overview] and custom forms information to a PDF file, then click **[!UICONTROL Export]**. Select from the following:
+      1. (Optional) Click the **[!UICONTROL Collapse All]** icon in the upper-right corner to collapse all areas.
+      1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![Right pointing arrow](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit.
+      1. For information about the fields visible in the [!UICONTROL Program Details] section, continue with editing the program in the [!UICONTROL Edit Program] box as described below.
+      1. (Optional) If there are no custom forms attached to the program, start typing the name of a form in the **[!UICONTROL Add custom form]** field, select it when it displays in the list, then click&nbsp;**[!UICONTROL Save Changes]**.
+      1. (Optional) Click the **[!UICONTROL Export]** icon ![Export icon](assets/export.png) to export the [!UICONTROL Overview] and custom forms information to a PDF file, then click **[!UICONTROL Export]**. Select from the following:
 
-      * Select all (displays only when there is at least one custom form attached)
-      * [!UICONTROL Overview]
-      * The name of one or multiple custom forms
+         * Select all (displays only when there is at least one custom form attached)
+         * [!UICONTROL Overview]
+         * The name of one or multiple custom forms
 
-      The PDF file downloads to your computer.
+         The PDF file downloads to your computer.
 
-      ![Export portfolio details](assets/export-portfolio-details-box-with-export-button-350x368.png)
+         ![Export portfolio details](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
-      For more information, see [Export custom forms and object details](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+         For more information, see [Export custom forms and object details](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 
 1. To edit all information about one or more programs do one of the following:
 
-   * Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon.png) next to the program name, then&#x200B;**[!UICONTROL Edit].**
+   * Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon.png) next to the program name, then **[!UICONTROL Edit].**
    * Go to a list of programs and select one or more program that you want to edit, then click the **[!UICONTROL Edit]** icon ![Edit icon](assets/edit-icon.png) at the top of the list.
 
-   The **[!UICONTROL Edit Program]** dialog box displays.
+      The **[!UICONTROL Edit Program]** box displays.
 
-   ![Edit program box](assets/edit-program-0925.png)
+      ![Edit program box](assets/edit-program-0925.png)
 
-   All program fields are available in the [!UICONTROL Edit Program] box and are grouped by the areas listed in the left panel.
+      All program fields are available in the [!UICONTROL Edit Program] box and are grouped by the areas listed in the left panel.
 
 1. Consider specifying information in any of the following sections:
 
@@ -130,26 +130,29 @@ You must have the following access to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
-      <td> <p>Update the name of the program. </p> <p>Tip: This is not available when you selected more than one program. </p> </td> 
+      <td> <p>Update the name of the program. </p> <p><b>TIP</b></p><p>This is not available when you selected more than one program.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Description]</td> 
-      <td> <p>Type a description for the Portfolio to indicate what is unique about it. </p> </td> 
+      <td> <p>Type a description for the portfolio to indicate what is unique about it. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Program Manager]</td> 
-      <td> <p>Start typing the name of a user that you want to indicate as the program manager, then select it when it appears in the list. This is the person who can oversee the work defined in the projects of the program. </p> <p>Important: When you designate someone as the Program Manager, they automatically gain [!UICONTROL Manage] permissions to the program and the projects in the program. </p> <p>Tip: You can quickly update the program manager in the program header. </p> </td> 
+      <td> <p>Start typing the name of a user that you want to indicate as the program manager, then select it when it appears in the list. This is the person who can oversee the work defined in the projects of the program. </p> <p><b><p>IMPORTANT</b></p> <p>When you designate someone as the Program Manager, they automatically gain [!UICONTROL Manage] permissions to the program and the projects in the program. </p> <p><b>TIP</b></p> <p>You can quickly update the program manager in the program header. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
-      <td> <p>Add the name of a single group if the group is associated with the program or has responsibility for completing it. </p> <p>Tip:  <p>When accessing the [!UICONTROL Group] field from the [!UICONTROL Program Details] page, do the following: </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the [!UICONTROL information] icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>This option is not available in the [!UICONTROL Edit Program] box. </p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Is Active]</td> 
-      <td> <p> Select this checkbox if you want the program to be active. Other users can find active programs and attach them to projects or add them to portfolios. Inactive programs cannot be attached to projects or portfolios. This is enabled by default.</p> </td> 
+      <td> <p>Add the name of a single group if the group is associated with the program or has responsibility for completing it. </p> <p><b>TIP</b></p>  <p>When accessing the [!UICONTROL Group] field from the [!UICONTROL Program Details] page, do the following to make sure you are selecting the right group: </p> <p>Hover over the group name and click the [!UICONTROL information] icon <img src="assets/info-icon.png"> next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>This option is not available in the [!UICONTROL Edit Program] box. </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
+
+   <!--this was removed from the unshimmed version - asking on the epic:
+   <tr> 
+      <td role="rowheader">[!UICONTROL Is Active]</td> 
+      <td> <p> Select this checkbox if you want the program to be active. Other users can find active programs and attach them to projects or add them to portfolios. Inactive programs cannot be attached to projects or portfolios. This is enabled by default.</p> </td> 
+     </tr> -->
+
 
 1. Click **[!UICONTROL Save]**, or continue editing the following sections.
 
@@ -178,4 +181,5 @@ You must have the following access to perform the steps in this article:
 1. (Optional) Select [!UICONTROL **Private to my company**] to lock the comment and make it private to only users in your company.
 
    After you save your changes, the comment you add displays in the program's [!UICONTROL Updates] tab and sends an email to the users included in it.
+1. Click **[!UICONTROL Save]**
 
