@@ -54,12 +54,12 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Confirmation when removing a custom form from an object</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Confirmation when removing a custom form from an object</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>To make sure you retain access to the data you need, we've added a confirmation dialog when removing a custom form from an object. Removing a custom form from an object permanently removes the data in that form from the object. Now, the dialog allows you to confirm that you understand that this data will be removed, ensuring that you do not remove data that you require. </p>
         </td>
+        <td>September 24, 2025</td>
         <td>September 25, 2025</td>
-        <td>October 15, 2025</td>
-        <td>October 16, 2025</td>
+        <td>September 25, 2025</td>
     </tr> 
     <tr>
         <td>
