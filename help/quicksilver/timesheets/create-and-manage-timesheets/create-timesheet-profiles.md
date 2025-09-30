@@ -107,7 +107,7 @@ For more information about creating a timesheet manually, see [Create a single-u
      <ul> 
       <li> <p>If you are creating a timesheet profile for a group you administer, identify the group here.</p> <p>This does not assign the timesheet profile to the users in the group; it only allows the group's administrators to modify the timesheet profile. You will assign the profile to users in Step 6.</p>
 
-   <p><b>NOTE</b>: When users outside the group are attaching timesheet profiles to other user, they won't be able to see or attach this timesheet profile.</p> </li> 
+   <p><b>NOTE</b>: When users outside the group are attaching timesheet profiles to other users, they won't be able to see or attach this timesheet profile.</p> </li> 
       </ul> </p> </td> 
      </tr> 
      <tr> 
