@@ -10,9 +10,9 @@ exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 
 # Connect records 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -456,14 +456,16 @@ To connect records with Experience Manager assets:
 
     The preview page opens. 
 1. Click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) to open the record's page. 
-1. Click an existing Connected records page tab in the record's page. You must first create a Connected records page. For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md). 
+1. Click an existing Connected records page tab in the record's page. You must first create a Connected records page. 
 
     A connected record type page displays in the table view.
     
     All connected records of one type display in the table.  
-1. Click **Connect** to add or remove records.
+1. Click **Connect**, <span class="preview">**Connect records**, or **New row**</span> to add or remove records.
 
     ![Connect button highlighted in connected record details tab](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+
+    For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 1. (Optional) If you cannot find a connected record, click **+ Add** to create and connect them. 
 
 ## Connect records from Workfront objects
