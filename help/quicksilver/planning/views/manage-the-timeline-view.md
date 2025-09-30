@@ -9,6 +9,8 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 ---
 # Manage the timeline view
 
+<!--remove preview and production references at production-->
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
@@ -111,9 +113,9 @@ Consider the following:
 To manage a timeline view: 
 
 1. Go to the record type page for which you want to view the timeline. 
-1. Create a timeline view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. <span class="preview">Create a timeline view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). </span>
 
-    ![Timeline view example](assets/timeline-view-example.png)
+    <span class="preview">![Timeline view example](assets/timeline-view-example.png)</span>
 
     The records associated with the record type you selected display as bars in a timeline and are sorted in chronological order of their Start Date, by default. 
 
@@ -167,9 +169,9 @@ To manage a timeline view:
 
 1. Do the following to quickly find records that match a keyword:
 
-    1. Click the **Search** icon ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the record with the correct match is highlighted.
+    1. <span class="preview">Click the **Search** icon ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the record with the correct match is highlighted. </span>
 
-        ![Search box and results timeline view](assets/search-box-and-results-timeline-view.png)
+        <span class="preview">![Search box and results timeline view](assets/search-box-and-results-timeline-view.png)</span>
 
         You can use any word or special character that is visible on the screen.
 
@@ -347,23 +349,21 @@ Consider the following when working with groupings in the timeline view:
 To add a grouping in the timeline view:
 
 1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Grouping** in the upper-right corner of the timeline view.
+1. <span class="preview">Click **Grouping** in the upper-right corner of the timeline view.</span>
 
-    ![Grouping UI timeline view with linked fields](assets/grouping-ui-timeline-view-with-linked-fields.png)
+    <span class="preview">![Grouping UI timeline view with linked fields](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list. 
 
     The grouping is applied automatically to the timeline and records display inside the grouping box. 
-
-    <!-- add a step that you can rearrange the groupings here, when this will be possible-->
     
 1. (Optional) Repeat the above steps to add up to 3 groupings.
 
-    The number of fields selected for the grouping displays next to the Grouping icon.
+    <span class="preview">The number of fields selected for the grouping displays next to the Grouping icon.</span>
 
-    <!-- update screen shot with view redesign-->
+    <span class="preview">![Grouping applied in timeline view](assets/grouping-applied-in-timeline-view.png)</span>
 
-    ![Grouping applies in timeline view](assets/grouping-applied-in-timeline-view.png)
+1. In the **Group records by** box, drag and drop the groupings in the correct order.
 
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
@@ -524,7 +524,11 @@ You can display connected records in a record's timeline view by using the Break
 1. From the **Standard** or **Compact** modes, click **Breakdown** in the upper-right corner of the timeline view.
 1. Expand the **Select a linked record type** box and select a connected record type. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
+    <div class="preview">
+
     ![Breakdown picker and button on timeline view](assets/breakdown-picker-and-button-on-timeline.png)
+
+    </div>
 
     >[!TIP]
     >
@@ -537,7 +541,7 @@ You can display connected records in a record's timeline view by using the Break
     >    The Start and End dates must be sequential. If the End date is before the Start date, no records will display in the timeline. 
 
     A right-pointing arrow displays on the selected record's bar in the timeline, if they they are connected with other records. 
-1. Click the right-pointing arrow to expand a record type and display its connections. 
+1. Click the right-pointing arrow to expand a record type and display its connections. <!--update screen shot at production-->
 
     ![Campaigns broken down by programs in the timeline view](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)    
 
