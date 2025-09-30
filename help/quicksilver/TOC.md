@@ -1476,6 +1476,7 @@ feature-set: Workfront
       * [Copy and submit requests](manage-work/requests/create-requests/copy-and-submit-requests.md)
       * [Auto-fill a request from previous data](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
       * [Auto-fill a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+      * [Create views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
   * Delegate work {#delegate-work}
     * [Delegate work](manage-work/delegate-work/delegate-work.md)
     * [Delegate tasks and issues overview](manage-work/delegate-work/delegate-work-overview.md)
