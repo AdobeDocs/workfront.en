@@ -54,6 +54,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Confirmation when removing a custom form from an object</a><p></p>
+            <p>To make sure you retain access to the data you need, we've added a confirmation dialog when removing a custom form from an object. Removing a custom form from an object permanently removes the data in that form from the object. Now, the dialog allows you to confirm that you understand that this data will be removed, ensuring that you do not remove data that you require. </p>
+        </td>
+        <td>September 25, 2025</td>
+        <td>October 15, 2025</td>
+        <td>October 16, 2025</td>
+    </tr> 
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New Boards Admin View</a><p></p>
             <p>The Boards Admin View contains a list of every Board in your account that System Administrators can use to get a quick snapshot of the overall Boards details, including when they were last updated, how many cards each one has, and more.</p>
         </td>
@@ -73,7 +82,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updates to the Workfront user profile</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p><i>This update has been temporarily removed from Preview and Production.</i></p>
             <p>We have updated the look and feel of the Workfront user profile to a modern design that is consistent with other areas of Workfront. These updates apply to both an administrator editing a single profile or bulk editing multiple profiles, or a user editing their own profile.</p>
             <p>There are some small functionality differences from the current user profile, including:</p>
             <ul>
@@ -82,8 +90,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </ul>
         </td>
         <td>August 28, 2025</td>
-        <td>September 4, 2025</td>
-        <td>September 4, 2025</td>
+        <td>Phased rollout starting September 25, 2025</td>
+        <td>Phased rollout starting September 25, 2025</td>
     </tr>  
     <tr>
         <td>
@@ -344,6 +352,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience now available for more Workfront organizations</a><p></p>
+            <p>To allow organizations access to the benefits of the Adobe Unified Experience, we're continuing to make it available to existing Workfront customers.</p><p><span style="color: #ff0000;">The Adobe Unified Experience is being made available in a phased rollout.</span> </p>
+        </td>
+        <td><p>September 11, 2025</p><p>Or</p><p>December 11, 2025</p></td>
+        <td><p>October 16, 2025</p><p>Or</p><p>January 15, 2026</p></td>
+        <td><p>October 16, 2025</p><p>Or</p><p>January 15, 2026</p></td>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Updates to enhanced lists</a><p></p>

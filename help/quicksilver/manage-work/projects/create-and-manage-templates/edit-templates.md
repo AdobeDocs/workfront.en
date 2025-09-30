@@ -74,58 +74,57 @@ You can edit one template at a time, or you can edit templates in bulk.
 
 ## Edit a template {#edit-a-template}
 
-   1. Go to the template you want to edit.
-   1. (Conditional) To edit limited information about the template,  click **Template Details** in the left panel, then go to the areas listed in the left panel to edit information for each area. 
-   1. To edit information in the Details section, click the **Edit** icon ![Edit icon](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
+1. Go to the template you want to edit.
+1. (Conditional) To edit limited information about the template,  click **Template Details** in the left panel, then go to the areas listed in the left panel to edit information for each area. 
+1. To edit information in the Details section, click the **Edit** icon ![Edit icon](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
 
-      * Overview
-      * Custom Forms
+   * Overview
+   * Custom Forms
 
-      Names of customs forms display only if there are custom forms attached to the object.
+   Names of customs forms display only if there are custom forms attached to the object.
       
-      * Finance
+   * Finance
 
-      >[!TIP]
-      >
-      >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
+   >[!TIP]
+   >
+   >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-   1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
 
-      The **Edit Template** box opens. The sections in this box contain the fields available in  the Template Details section, as well as additional fields.
+   The **Edit Template** box opens. The sections in this box contain the fields available in  the Template Details section, as well as additional fields.
 
-   1. Consider editing information in any of the following sections:
+1. Consider editing information in any of the following sections:
 
-      * [Template Name](#template-name) 
-      * [Overview](#overview-preview) 
-      * [Finance](#finance-preview) 
-      * [Custom Forms](#custom-forms-preview) 
-      * [Template Settings](#template-settings) 
-      * [Tasks Settings](#task-settings) 
-      * [Issue Settings](#issue-settings) 
-      * [Access](#access-preview) 
-      * [Comment](#comment)
-      <!--* [Linked folders](#linked-folders-conditional-availability) -->
-         
+   * [Template Name](#template-name) 
+   * [Overview](#overview-preview) 
+   * [Finance](#finance-preview) 
+   * [Custom Forms](#custom-forms-preview) 
+   * [Template Settings](#template-settings) 
+   * [Tasks Settings](#task-settings) 
+   * [Issue Settings](#issue-settings) 
+   * [Access](#access-preview) 
+   * [Comment](#comment)
+   <!--* [Linked folders](#linked-folders-conditional-availability) -->         
 
 ### Template Name{#template-name}
 
-   1. Begin editing your template as described above.
-   1. In the **Edit Template** box, click **Template Name**.
-   1. Update or replace the name of the template.
-   1. (Optional) Continue editing the following sections, depending on the information you want to modify
+1. Begin editing your template as described above.
+1. In the **Edit Template** box, click **Template Name**.
+1. Update or replace the name of the template.
+1. (Optional) Continue editing the following sections, depending on the information you want to modify
 
-      Or
+   Or
 
-      Click **Save**.
+   Click **Save**.
 
 ### Overview {#overview-preview}
 
-   1. Begin editing your template as described above.
-   1. In the **Edit Template** box, click **Overview**.
+1. Begin editing your template as described above.
+1. In the **Edit Template** box, click **Overview**.
 
-      ![Edit template box Overview section](assets/edit-template-box-overview-section.png)
+   ![Edit template box Overview section](assets/edit-template-box-overview-section.png)
 
-   1. Update the following fields:
+1. Update the following fields:
 
       <table style="table-layout:auto"> 
        <col> 
@@ -217,103 +216,152 @@ You can edit one template at a time, or you can edit templates in bulk.
    </tr> 
 </table>
 
-   1. (Optional) Continue editing the following sections, depending on the information you want to modify.
+1. (Optional) Continue editing the following sections, depending on the information you want to modify.
 
-      Or
+   Or
 
-      Click **Save**.
+   Click **Save**.
 
 ### Finance {#finance-preview}
 
-   1. Begin editing your template as described above.
-   1. In the **Edit Template** box, click **Finance**.
+1. Begin editing your template as described above.
+1. In the **Edit Template** box, click **Finance**.
 
-      ![Edit template box Finance section](assets/edit-template-box-finance-section.png)
+   ![Edit template box Finance section](assets/edit-template-box-finance-section.png)
 
-   1. Update the following fields:
+1. Update the following fields:
 
       <table style="table-layout:auto"> 
        <col> 
        <col> 
-       <tbody>
-       <tr> 
-         <td role="rowheader"><strong> Currency</strong></td> 
-         <td><p>Specify the currency for the future project, if it is different than the default currency of your system. This field is not visible if you have only the default currency in the system.<br>For more information about currency, see <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p></td> 
-       </tr>
-       <tr> 
-       <td role="rowheader"><strong>Budget</strong></td> 
-       <td><p>Specify a Budget for the projects that are created from this template.</p></td> 
-       </tr>  
-       <tr> 
-         <td role="rowheader"><strong>Performance Index Method</strong></td> 
-         <td><p>Choose how Workfront will calculate Earned Value metrics of the future project. Choose from the following:
-         <ul>
-         <li>Hour-Based</li>
-         <li>Cost-Based</li>
-         </ul>
-
-         For more information about the Performance Index Method, see <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Set the Performance Index Method (PIM)</a>. </p></td> 
+       <tbody> 
+         <tr> 
+         <td role="rowheader"><strong>Description</strong></td> 
+         <td>Add additional information about the template.</td> 
        </tr> 
          <tr> 
-         <td role="rowheader"><strong>Planned Benefit</strong></td> 
-         <td><p>Specify the Planned Benefit of the projects that are created from this template. The Planned Benefit is used in the Business Case of the project and the Portfolio Optimizer. </p><p>For more information about the Planned Benefit of a project, see <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Overview of project Planned Benefit</a>. The Planned Benefit of a project is taken into account when the Net Value of a project is calculated. </p><p>For more information about using the Portfolio Optimizer, see <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Manage projects in the Portfolio Optimizer</a> </p></td> 
+         <td role="rowheader"><strong>Priority</strong></td> 
+         <td><p>This is just a visual flag for you which allows you to prioritize your future projects. Select from the following options:</p> 
+         <ul> 
+         <li><p><strong>None</strong></p></li> 
+         <li><p><strong>Low</strong></p></li> 
+         <li><p><strong>Normal</strong></p></li> 
+         <li><p><strong>High</strong></p></li> 
+         <li><p><strong>Urgent</strong></p></li> 
+         </ul><p><p>Depending on the Project Preferences selected by your Workfront administrator, the names of priorities might be different for you. For more information about editing priorities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Create and customize priorities</a>.</p></p></td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Fixed Cost</strong></td> 
-         <td><p>Specify the Fixed Cost for the projects that are created from this template. This is different than the Labor Cost which comes from the hours on the project and the Expense Cost which comes from the amount of expenses on the project. The Fixed Cost of a project is taken into account when calculating the Net Value of a project and it is part of the Budgeted Cost.</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>Fixed Revenue</strong></td> 
-       <td><p>Specify the Fixed Revenue for the projects that are created from this template.</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>Require time to be approved for this project</strong></td> 
-       <td><p>Select this option to require the Project Owner of the future project created from this template to approve time logged on the project. If you are using Billing Records and you select this option, only the approved hours on the project appear as available billable hours for the Billing Records. Approving time on the project is independent of approving timesheets. For more information about requiring time to be approved on a project, see <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Require time to be approved for a project</a>.</p></td> 
-       </tr> 
-       </tbody> 
-      </table>
+       <td role="rowheader"><strong>URL</strong></td> 
+         <td>Specify a web link that relates to information about this template.</td> 
+       </tr>
+   <tr> 
+      <td role="rowheader"><strong>Is Active</strong></td> 
+      <td><p>Turn this option on, if you want the template to be active. Other users can find this template and attach it to projects when creating projects. Turn the option off, if you want to deactivate templates that are no longer used. Deactivated templates cannot be attached to projects. This is enabled by default. </p><p><b>TIP</b></p>
+      
+   <p>You can deactivate a template from the template header as described in the "Activate or deactivate a template" section in this article.</p></td> 
+     </tr> 
 
-   1. (Optional) Continue editing the following sections, depending on the information you want to modify.
+<tr> 
+<td role="rowheader"><strong>Condition Type</strong></td> 
+   <td><p>Select between the following Condition Types:</p> 
+   <ul> 
+   <li><strong>Manual:</strong> The project owner sets the Condition of the project on the project manually. <strong></strong></li> 
+   <li><strong>Progress Status:</strong> Workfront automatically sets the Condition of the future project based on the Progress Status of tasks on the Critical Path. For more information about understanding Progress Status, see <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Task Progress Status overview</a>.</li> 
+   </ul>
+   </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Schedule Mode</strong></td> 
+   <td><p>Specify whether the project using this template is scheduled from the <strong>Start Date</strong>, or from the <strong>Completion Date</strong>. This selection determines the planned dates of the future tasks on the project using this template. </p><p>Select from the following: </p> 
+   <ul> 
+   <li><p><strong>Schedule From Start Date</strong>: The Start Date of the template is actually the Start Day. When you schedule a template from Start Date, Adobe Workfront calculates the Completion Day of the template based on the Duration of all the template tasks. The Start Day of the template becomes the Planned Start Date of the future project.</p></li> 
+   <li><p><strong>Schedule from Completion Date</strong>: The Completion Date of the template is actually the Completion Day. When you schedule a template from Completion Date, Workfront calculates the Start Day of the template based on the Duration of all the template tasks. The Completion Day of the template becomes the Planned Completion Date of the future project. </p></li> 
+   </ul><p>For more information about the Start and Completion Days of template tasks, see <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Overview of Start and Completion Days in a template</a>. </p><p>The Schedule From setting for templates is similar to that of projects. Your Workfront administrator selects the default Schedule From setting for the projects in your system. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p></td> 
+   </tr> 
 
-      Or
+   <tr> 
+   <td role="rowheader"><strong>Portfolio</strong></td> 
+   <td><p>Specify a Portfolio for the projects that are created from this template. You must create a Portfolio first, before it appears in the drop-down list. </p><p>Only active portfolios display in the list. For more information about creating portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio </a>.</p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Program</strong></td> 
+   <td><p>If you selected a Portfolio for the template, specify a <strong>Program</strong> for the future project. Some Portfolios might not have Programs. You must create a Program first, before it appears in this drop-down list. Only active programs display in the list.</p><p>For more information about creating programs, see <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Create a program</a>.</p></td> 
+   </tr>  
+   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td role="rowheader"><strong>Group</strong></td> 
+   <td><p>In the drop-down list, select the group that you want to be associated with projects created from the template. It can be a group of any level. </p><p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p><b>NOTES</b>
+   
+   <ul> 
+   <li><p>In the Projects area on a group's page, when someone creates a project using a template that doesn't have a group selected, the system associates the currently open group with the project.</p><p>This is different from other areas where the system associates a user's Home Group with the project when the user creates the project using a template that doesn't have a group selected.</p></li> 
+   <li><p>If a user selects a template that has a group selected while creating a project—or while converting a task or issue to a project—the user can choose a different group for the project.</p></li> 
+   <li>Though this field is available in templates only in the new Adobe Workfront experience, you can see it in lists and reports both there and in Adobe Workfront Classic. </li> 
+   </ul> </p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Company</strong></td> 
+   <td><p>Specify the Company that you want to associate with the template. Only active companies display in the list.</p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Template Owner</strong></td> 
+   <td><p>The user who is designated as the Template Owner must be a Workfront active user. </p><p>Consider the following about the user designated as the Template Owner: </p> 
+   <ul> 
+   <li>They are automatically given Manage permissions to the template. </li> 
+   <li>They are added to the project team and are automatically given Manage permissions to the project created from the template. </li> 
+   <li>They become the Project Owner, when the project is created from this template. </li> 
+   <li> If the user designated as the Template Owner has limited access to templates or projects from their access level, their Manage permissions on the template and on the projects will be limited. For example, if they have only View access for templates or projects in their access level, they will automatically receive View permissions on the template and the project when they are designated as the Template Owner.</li>
+   </ul></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Template Sponsor</strong></td> 
+   <td><p>The user specified in this field becomes the Project Sponsor, when the template is added to the project. This user is added to the project team and is automatically given view permissions to the project. The user who is designated as the Template Sponsor must be a Workfront active user. </p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>Resource Manager</strong></td> 
+   <td><p>The specified users are automatically given manage permissions to the future projects and can assign resources to the tasks and issues of the projects. You can specify more than one Resource Manager. </p></td> 
+   </tr> 
+</table>
 
-      Click **Save**.
+1. (Optional) Continue editing the following sections, depending on the information you want to modify.
+
+   Or
+
+   Click **Save**.
 
 ### Custom Forms {#custom-forms-preview}
 
-   1. Begin editing your template as described above.
-   1. In the **Edit Template** box, click **Custom Forms**.
+1. Begin editing your template as described above.
+1. In the **Edit Template** box, click **Custom Forms**.
 
-      ![Edit template box Custom Forms section](assets/edit-template-box-custom-forms-section.png)
+   ![Edit template box Custom Forms section](assets/edit-template-box-custom-forms-section.png)
 
-      The names of the custom forms that are already attached to the template display in the left panel.
+   The names of the custom forms that are already attached to the template display in the left panel.
 
-   1. Click inside the **Add custom form** field and select the custom form or forms that you want to associate with the template. You must build the custom forms before they are available to select in this field.
+1. Click inside the **Add custom form** field and select the custom form or forms that you want to associate with the template. You must build the custom forms before they are available to select in this field.
 
-      Only active custom forms display in the list. For more information about building custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Only active custom forms display in the list. For more information about building custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-      You can add up to ten custom forms to a template.
+   You can add up to ten custom forms to a template.
 
-      The forms will be added to the project that is created from this template.
+   The forms will be added to the project that is created from this template.
 
-   1. (Optional) Update information in any of the fields on the custom forms. The information will transfer to the projects that will be created from the template. 
+1. (Optional) Update information in any of the fields on the custom forms. The information will transfer to the projects that will be created from the template. 
 
-   1. (Optional) Click the **x** icon to the right of a custom form name, then click **Remove** to remove it from the template. 
+1. (Optional) Click the **x** icon to the right of a custom form name, then click **Remove** to remove it from the template. 
 
-   1. (Optional) Continue editing the following section, depending on the information you want to modify.
+1. (Optional) Continue editing the following section, depending on the information you want to modify.
 
-      Or
+   Or
 
-      Click **Save**.
+   Click **Save**.
 
 ### Template Settings {#template-settings}
 
-   1. Begin editing your template as described above.
-   1. In the **Edit Template** box, click **Project Settings**.
+1. Begin editing your template as described above.
+1. In the **Edit Template** box, click **Project Settings**.
 
-      ![Edit template box Template Settings section](assets/edit-template-box-project-settings-section.png)
+   ![Edit template box Template Settings section](assets/edit-template-box-project-settings-section.png)
 
-   1. Update the following fields: 
+1. Update the following fields: 
 
       <table style="table-layout:auto"> 
        <col> 
@@ -324,12 +372,12 @@ You can edit one template at a time, or you can edit templates in bulk.
        <td> <p>Select a Milestone Path for the template. Only active milestone paths display in the list.<br>For more information about Milestone Paths, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Create a milestone path</a>.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Completion Mode</strong> </td> 
-         <td> <p>Controls how the future project will be marked as Complete. <br>Select from the following options:</p> 
-         <ul> 
-         <li> <p><strong>Automatic</strong>: The project is marked Complete when all the tasks and issues are completed.</p> </li> 
-         <li> <p><strong>Manual</strong>: You have to manually select the Complete status for the project, when all the tasks and issues are completed. </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>Completion Mode</strong> </td> 
+       <td> <p>Controls how the future project will be marked as Complete. <br>Select from the following options:</p> 
+       <ul> 
+       <li> <p><strong>Automatic</strong>: The project is marked Complete when all the tasks and issues are completed.</p> </li> 
+       <li> <p><strong>Manual</strong>: You have to manually select the Complete status for the project, when all the tasks and issues are completed. </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Summary Completion Mode</strong> </td> 
@@ -340,66 +388,66 @@ You can edit one template at a time, or you can edit templates in bulk.
        </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Update Type</strong> </td> 
-         <td> <p>Controls when the changes you make to the timeline of the future project are saved on the project. </p> 
-         <b>EXAMPLE </b> 
-         <p>The following changes to the project trigger an update to the timeline of the project:</p> 
-         <ul> 
-         <li> <p>update the dates of tasks</p> </li> 
-         <li> <p>change predecessor relationships<br></p> </li> 
-         <li> <p>change parent-child relationships</p> </li> 
-         <li> <p>add or remove assignments in addition to changing the task constraint or duration type.</p> </li> 
-         </ul> 
-         </div> <p>Select from the following options:<br></p> 
-         <ul> 
-         <li> <p><strong>Automatic and On Change</strong> (Default setting): The future project timeline is updated each time a change occurs in the project or in another project that the timeline is dependent on (On Change). The project timeline is also updated each night (Automatic).<br>This is the recommended setting for this field because it ensures that the project timeline is always up to date.<br>When you perform an action on a task or project that triggers a timeline recalculation, all available dates are immediately displayed, allowing you to continue working. On projects with more than 100 tasks, dates that require longer recalculations display briefly as a question mark (between 1 and 5 seconds, or up to a minute for large projects). This indicates that the recalculation is not yet finished, and the dates are subject to change.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>Change Only</strong>: The project timeline is updated each time a change occurs in the project or in another project that the timeline is dependent on. You might want to select this option if changes rarely occur in the project or in other projects that the timeline is dependent on.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>Automatic Only</strong>: The project timeline is updated each night; it is not updated immediately after changes are made.<br>You might want to select this option if many changes occur each day in the project or in other projects that the timeline is dependent on. However, be aware that you chose this setting, as the project will not update at the same time that the changes are made.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>Manual Only</strong>: The project timeline is updated only when you select the option to Recalculate Timelines, as described in <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalculate project timelines</a>.<br></p> </li> 
-         </ul> <p>You might want to select this option if you are making many changes to the project at one time, and you want the timeline recalculation to occur after all of the changes have been made (rather than after each individual change).</p> </td> 
+       <td role="rowheader"><strong>Update Type</strong> </td> 
+       <td> <p>Controls when the changes you make to the timeline of the future project are saved on the project. </p> 
+       <b>EXAMPLE </b> 
+       <p>The following changes to the project trigger an update to the timeline of the project:</p> 
+       <ul> 
+       <li> <p>update the dates of tasks</p> </li> 
+       <li> <p>change predecessor relationships<br></p> </li> 
+       <li> <p>change parent-child relationships</p> </li> 
+       <li> <p>add or remove assignments in addition to changing the task constraint or duration type.</p> </li> 
+       </ul> 
+       </div> <p>Select from the following options:<br></p> 
+       <ul> 
+       <li> <p><strong>Automatic and On Change</strong> (Default setting): The future project timeline is updated each time a change occurs in the project or in another project that the timeline is dependent on (On Change). The project timeline is also updated each night (Automatic).<br>This is the recommended setting for this field because it ensures that the project timeline is always up to date.<br>When you perform an action on a task or project that triggers a timeline recalculation, all available dates are immediately displayed, allowing you to continue working. On projects with more than 100 tasks, dates that require longer recalculations display briefly as a question mark (between 1 and 5 seconds, or up to a minute for large projects). This indicates that the recalculation is not yet finished, and the dates are subject to change.<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>Change Only</strong>: The project timeline is updated each time a change occurs in the project or in another project that the timeline is dependent on. You might want to select this option if changes rarely occur in the project or in other projects that the timeline is dependent on.<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>Automatic Only</strong>: The project timeline is updated each night; it is not updated immediately after changes are made.<br>You might want to select this option if many changes occur each day in the project or in other projects that the timeline is dependent on. However, be aware that you chose this setting, as the project will not update at the same time that the changes are made.<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>Manual Only</strong>: The project timeline is updated only when you select the option to Recalculate Timelines, as described in <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalculate project timelines</a>.<br></p> </li> 
+       </ul> <p>You might want to select this option if you are making many changes to the project at one time, and you want the timeline recalculation to occur after all of the changes have been made (rather than after each individual change).</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Schedule</strong> </td> 
-         <td> <p>Select a schedule for your template. This will become the schedule of the project that is created from this template. This should be the same schedule assigned to most people that are working on the project. You must create a schedule before you can assign it to a template.<br>For more information about creating schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>. <br>If you have not created custom schedules in your system, the Default Schedule is selected. </p> </td> 
+       <td role="rowheader"><strong>Schedule</strong> </td> 
+       <td> <p>Select a schedule for your template. This will become the schedule of the project that is created from this template. This should be the same schedule assigned to most people that are working on the project. You must create a schedule before you can assign it to a template.<br>For more information about creating schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>. <br>If you have not created custom schedules in your system, the Default Schedule is selected. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>User Time Off</strong> </td> 
-         <td> <p>Determines whether the time off of the Primary Assignee of a task adjusts the task planned dates. When you attach the template to an existing project, and the template has a different setting for this field than the project, the setting on the project remains unchanged. The default option for this setting for a new template is the same as the system-level project preference. </p> <p>For information about the project preferences at the System level, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p> <p>For information about how this setting affects the task dates on a project, see <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.<br>Select from the following options:<br></p> 
-         <ul> 
-         <li> <p><strong>Consider user time off in task durations</strong>: When selecting this option, the planned dates of the tasks on the project created from this template adjust according to the time off of the Primary Assignee of the task, if the time off occurs during the duration of the task. </p> </li> 
-         <li> <p><strong>Ignore user time off in task durations</strong>: When selecting this option, the planned dates of the tasks on the project created from this template remain as originally planned, even if the Primary Assignee of the task has time off during the duration of the task. </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>User Time Off</strong> </td> 
+       <td> <p>Determines whether the time off of the Primary Assignee of a task adjusts the task planned dates. When you attach the template to an existing project, and the template has a different setting for this field than the project, the setting on the project remains unchanged. The default option for this setting for a new template is the same as the system-level project preference. </p> <p>For information about the project preferences at the System level, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p> <p>For information about how this setting affects the task dates on a project, see <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.<br>Select from the following options:<br></p> 
+       <ul> 
+       <li> <p><strong>Consider user time off in task durations</strong>: When selecting this option, the planned dates of the tasks on the project created from this template adjust according to the time off of the Primary Assignee of the task, if the time off occurs during the duration of the task. </p> </li> 
+       <li> <p><strong>Ignore user time off in task durations</strong>: When selecting this option, the planned dates of the tasks on the project created from this template remain as originally planned, even if the Primary Assignee of the task has time off during the duration of the task. </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Resource Leveling Mode</strong> </td> 
-         <td> <p>Select from the following options:<br></p> 
-         <ul> 
-         <li> <p><strong>Manual</strong>: you must manually level your resources on the project created from this template (this is the default setting)</p> </li> 
-         <li> <p><strong>Automatic:</strong> Workfront levels the resources on the future project. <br>For more information about Resource Leveling, see <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Level Resources in the Gantt Chart </a>. </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>Resource Leveling Mode</strong> </td> 
+       <td> <p>Select from the following options:<br></p> 
+       <ul> 
+       <li> <p><strong>Manual</strong>: you must manually level your resources on the project created from this template (this is the default setting)</p> </li> 
+       <li> <p><strong>Automatic:</strong> Workfront levels the resources on the future project. <br>For more information about Resource Leveling, see <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Level Resources in the Gantt Chart </a>. </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Risk</strong> </td> 
-         <td> <p>Define the level of risk of the projects created from this template. The risk is just an indicator of how risky a project can be. You can prioritize the execution of your projects based on the level of risk.<br>Consider selecting from the following levels of risk:<br></p> 
-         <ul> 
-         <li> <p><strong>Very Low</strong> </p> </li> 
-         <li> <p><strong>Low</strong> </p> </li> 
-         <li> <p><strong>Medium</strong> </p> </li> 
-         <li> <p><strong>High</strong> </p> </li> 
-         <li> <p><strong>Very High</strong> </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>Risk</strong> </td> 
+       <td> <p>Define the level of risk of the projects created from this template. The risk is just an indicator of how risky a project can be. You can prioritize the execution of your projects based on the level of risk.<br>Consider selecting from the following levels of risk:<br></p> 
+       <ul> 
+       <li> <p><strong>Very Low</strong> </p> </li> 
+       <li> <p><strong>Low</strong> </p> </li> 
+       <li> <p><strong>Medium</strong> </p> </li> 
+       <li> <p><strong>High</strong> </p> </li> 
+       <li> <p><strong>Very High</strong> </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>Resource Pools</strong> </td> 
-         <td> <p>Specify the resource pools associated with the template. Resource pools are collections of users that are needed at the same time for the completion of a project. For more information about resource pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>.</p> <p> <p><b>NOTE</b> 
+       <td role="rowheader"><strong>Resource Pools</strong> </td> 
+       <td> <p>Specify the resource pools associated with the template. Resource pools are collections of users that are needed at the same time for the completion of a project. For more information about resource pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>.</p> <p> <p><b>NOTE</b> 
          
-         When you edit templates in bulk, only the resource pools that are common to all the templates selected appear in this field. If the templates selected have no shared resource pools, this field will be empty. The resource pools you specify here will overwrite the templates' individual resource pools.</p> </p> </td> 
+       When you edit templates in bulk, only the resource pools that are common to all the templates selected appear in this field. If the templates selected have no shared resource pools, this field will be empty. The resource pools you specify here will overwrite the templates' individual resource pools.</p> </p> </td> 
        </tr>
 
       <tr> 
@@ -439,79 +487,79 @@ You can edit one template at a time, or you can edit templates in bulk.
        </tbody> 
       </table>
 
-   1. (Optional) Continue editing the following sections, depending on the information you want to modify.  
-      Or
-   1. Click **Save**.
+1. (Optional) Continue editing the following sections, depending on the information you want to modify.  
+   Or
+1. Click **Save**.
 
 ### Task Settings {#task-settings}
 
-   You can define the defaults that will be associated with all the new tasks when you add them to a project that is created from the template.
+You can define the defaults that will be associated with all the new tasks when you add them to a project that is created from the template.
 
-   For information about how these settings affect creating new tasks, see [Create tasks overview](../../../manage-work/tasks/create-tasks/create-tasks-overview.md).
+For information about how these settings affect creating new tasks, see [Create tasks overview](../../../manage-work/tasks/create-tasks/create-tasks-overview.md).
 
-   1. Begin editing your template as described above.
-   1. In the **Edit Template** box, click **Task Settings**.
+1. Begin editing your template as described above.
+1. In the **Edit Template** box, click **Task Settings**.
 
-      ![Edit template box Task Settings section](assets/edit-template-box-task-settings-section.png)
+   ![Edit template box Task Settings section](assets/edit-template-box-task-settings-section.png)
 
-   1. In the **Task Default Approval Process** box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see [Creating Approval Processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-   1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. For more information about building custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). You can associate up to ten custom forms with a task.
-   1. (Optional) Select **Use Work Effort to automatically calculate task Planned Hours** if you want to enable managing task effort by using Work Effort instead of Planned Hours in the project created from the template.
-   1. (Conditional and optional) If you selected Use Work Effort to automatically calculate task Planned Hours, click the drop-down menu to update the percentage for each level of Work Effort. The following percentage values are the defaults:
+1. In the **Task Default Approval Process** box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see [Creating Approval Processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. For more information about building custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). You can associate up to ten custom forms with a task.
+1. (Optional) Select **Use Work Effort to automatically calculate task Planned Hours** if you want to enable managing task effort by using Work Effort instead of Planned Hours in the project created from the template.
+1. (Conditional and optional) If you selected Use Work Effort to automatically calculate task Planned Hours, click the drop-down menu to update the percentage for each level of Work Effort. The following percentage values are the defaults:
    
-      | Work Effort level |Percentage value|
-      |---|---|
-      | Small |25% |
-      | Medium |50% |
-      | Large |75% |
+   | Work Effort level |Percentage value|
+   |---|---|
+   | Small |25% |
+   | Medium |50% |
+   | Large |75% |
 
-      For information about using Work Effort to manage the effort on tasks on projects, see [Work Effort overview](../../../manage-work/tasks/task-information/work-effort.md).
+   For information about using Work Effort to manage the effort on tasks on projects, see [Work Effort overview](../../../manage-work/tasks/task-information/work-effort.md).
 
-   1. (Optional) Continue editing the following section, depending on the information you want to modify.
+1. (Optional) Continue editing the following section, depending on the information you want to modify.
 
-      Or
+   Or
 
-      Click **Save**.
+   Click **Save**.
 
 ### Issue Settings {#issue-settings}
 
-   By editing issue settings, you can prevent users from adding issues inline in the future project created from the template.
+By editing issue settings, you can prevent users from adding issues inline in the future project created from the template.
 
-   1. Begin editing your template as described above.
-   1. In the **Edit Template** box, click **Issue Settings**.
+1. Begin editing your template as described above.
+1. In the **Edit Template** box, click **Issue Settings**.
 
-      ![Edit template box Issue Settings section](assets/edit-template-box-issue-settings-section.png)
+   ![Edit template box Issue Settings section](assets/edit-template-box-issue-settings-section.png)
 
-   1. (Optional) Deselect the **Allow users to add issues inline** option. It is enabled by default.
+1. (Optional) Deselect the **Allow users to add issues inline** option. It is enabled by default.
 
-      When disabling this option users cannot add issues inline to the project or the tasks in the Issues section, when the project is created from the template.
+   When disabling this option users cannot add issues inline to the project or the tasks in the Issues section, when the project is created from the template.
 
-      >[!TIP]
-      >
-      >Disable this option if you want to enforce users to complete the New Issue Fields or the custom forms associated with new issues.
+   >[!TIP]
+   >
+   >Disable this option if you want to enforce users to complete the New Issue Fields or the custom forms associated with new issues.
 
-      When disabling this option, users with permissions to add issues to the project created from the template can do so by using the New Issue button or a request queue associated with the project.
+   When disabling this option, users with permissions to add issues to the project created from the template can do so by using the New Issue button or a request queue associated with the project.
 
-      For more information about configuring issue settings on projects, see the [Issue Settings](../../../manage-work/projects/manage-projects/edit-projects.md#issue) section in the article [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+   For more information about configuring issue settings on projects, see the [Issue Settings](../../../manage-work/projects/manage-projects/edit-projects.md#issue) section in the article [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-      For information about creating issues on projects, see [Create issues](../../../manage-work/issues/manage-issues/create-issues.md). 
+   For information about creating issues on projects, see [Create issues](../../../manage-work/issues/manage-issues/create-issues.md). 
 
-   1. (Optional) Continue editing the following section, depending on the information you want to modify.
+1. (Optional) Continue editing the following section, depending on the information you want to modify.
 
-      Or
+   Or
 
-      Click **Save**.
+   Click **Save**.
 
 ### Access {#access-preview}
 
-   1. Begin editing your template as described above.
-   1. In the **Edit Template** box, click **Access**.
+1. Begin editing your template as described above.
+1. In the **Edit Template** box, click **Access**.
 
-      ![Edit template box Access section](assets/edit-template-box-access-section.png)
+   ![Edit template box Access section](assets/edit-template-box-access-section.png)
 
-      The Access you specify for your template will become the Access of users associated with the project when the template is used to create a project.
+   The Access you specify for your template will become the Access of users associated with the project when the template is used to create a project.
 
-      Specify the following **Access** information for the template:
+   Specify the following **Access** information for the template:
 
       <table style="table-layout:auto"> 
        <col> 
@@ -548,15 +596,15 @@ You can edit one template at a time, or you can edit templates in bulk.
        </tbody> 
       </table>
 
-   1. (Optional) Continue editing the following sections, depending on the information you want to modify.
+1. (Optional) Continue editing the following sections, depending on the information you want to modify.
 
-      Or
+   Or
 
-      Click **Save**.
+   Click **Save**.
 
-      Your changes will be submitted for this template.
+   Your changes will be submitted for this template.
 
-      Now, when you use this template to create a project all these settings will transfer to the new project.
+   Now, when you use this template to create a project all these settings will transfer to the new project.
 
 <!--I don't think this note is valid anymore - this note was on Edit project when the section below was in that article, by mistake: 
 >[!NOTE]
@@ -607,7 +655,7 @@ To edit templates in bulk:
 
    The **Edit Templates** dialog box opens.
 
-   ![Edit templates](assets/edit-templates-in-bulk-box-nwe-350x327.png)
+   ![Edit templates](assets/bulk-edit-templates-0925.png)
 
 1. Click the sections on the left to edit all selected templates.
 
@@ -625,7 +673,7 @@ To edit templates in bulk:
    * Issues
    * Comment
 
-1. Click **Save Changes**.
+1. Click **Save**.
 
    All changes you made are now visible on all the selected templates.
 

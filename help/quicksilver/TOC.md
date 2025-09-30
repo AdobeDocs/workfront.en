@@ -880,6 +880,7 @@ feature-set: Workfront
     * [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
     * [Summarize using AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
     * [Get help from AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
+    * [AI Assistant prompts best practices](/help/quicksilver/workfront-basics/ai-assistant/ai-prompts-best-practices.md)
     * [Revise calculated field formulas with AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
     * [Use AI Assistant to work with projects, tasks, and issues](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
     * [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
@@ -1735,13 +1736,14 @@ feature-set: Workfront
     * [data dictionary test](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Workfront Data Connect query examples](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [View Workfront Data Connect usage metrics](reports-and-dashboards/data-lake/view-usage-metrics.md)
+    * [Use the Job History Data view in Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
     * Enhanced Analytics queries{#enhanced-analytics-queries}
       * [Enhanced Analytics queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
       * [KPI queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
       * [Flight plan queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
       * [Project activities queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
       * [Project treemap queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md) 
-      * [Activty by team queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
+      * [Activity by team queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
     * Tips, Tricks, and Troubleshooting for Data Connect{#troubleshooting-data-connect}
       * [Tips, Tricks, and Troubleshooting for Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
       * [Tableau Desktop cannot establish a connection](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)

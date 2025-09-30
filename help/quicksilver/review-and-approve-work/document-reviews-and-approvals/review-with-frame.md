@@ -8,8 +8,8 @@ feature: Work Management, Digital Content and Documents
 hide: yes
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
+exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
 ---
-
 # Review and approve with the Frame.io viewer
 
 You can review and approve documents in Workfront using the Frame.io viewer.
@@ -103,4 +103,3 @@ Go the Workfront Home page, find the My Approvals widget, then click **Open revi
 
 
 <!--is document owner the correct term?-->
-

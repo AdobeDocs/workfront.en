@@ -16,6 +16,18 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Inline edit Workfront connections in the record's Connected records page 
+
+>[!NOTE]
+>
+>Preview: September 25, 2025
+>Production fast release: October 15, 2025
+>Production all: October 16, 2025
+
+You can now inline edit Workfront connected objects in the Connected records page. You can also change the order of the connected objects, copy and paste rows and other functions  of a table view.  
+
+For information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).  
+
 <!--## Unified request form list now available
 
 >[!NOTE]
@@ -29,6 +41,83 @@ To make it easier to find the request form you're looking for in Workfront Plann
 Previously, request forms were located only on the object for which they were created.
 
 For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## Redesign of the Planning views toolbars and access points 
+
+>[!NOTE]
+>
+>* Preview: September 25, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025
+
+We have redesigned how you display, access, and manage views on  a record type page.  
+
+The following improvements are included in this update: 
+
+* The view tabs have been replaced by a dropdown menu in the upper-left corner of the record type page. The menu now displays a list of all the views.
+* You can reorder the views by dragging and dropping them in order of your preference. 
+* Most of the toolbar icons, except for the full-screen mode, have moved from the right side to the left side of the page.  
+* The Search box has been moved to the right side of the toolbar. 
+The functionality of each view has not changed.  
+
+For information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).  
+
+<!--## Enhancements to request forms in Workfront Planning
+
+>[!NOTE]
+>
+>* Preview: September 25, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025
+
+To make the request process simpler, we've made some enhancements to request forms. Now, when configuring a request form, you can configure the following:
+
+* Configure when requests created from the form will be automatically marked complete. You can set the request to be marked complete when the requested object is created, or when the requested object is complete based on criteria you specify.
+* Set up an automation that is triggered when a request is submitted from the form. Currently, you can automatically create records when the request is submitted. 
+
+For more information on creating a request form and configuring these options, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## Resize records in the calendar weekly view
+
+>[!NOTE]
+>
+>* Preview: September 25, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025
+
+In the weekly calendar view of a record type page, you can now click and hold a record's left or right margins to modify its duration.  
+
+Moving a record's margins also modifies its start and end dates immediately.  
+
+An outline displays to guide you to the new location before the event is resized. 
+
+This functionality already exists in the calendar monthly view. 
+
+For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+## New setting to prevent creating a two-way connection from a record type
+
+>[!NOTE]
+>
+>* Preview: September 18, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025 
+
+To prevent creating too many connection fields, and potentially impacting performance, we have introduced a new setting to allow workspace managers to optionally create corresponding connected fields on a connected record type. When enabled, connections count on both records which will increase the chance of reaching the 500 connection limit. To avoid that, we recommend keeping this setting off, especially when linking to taxonomical record types. 
+
+The following capabilities are part of this improvement:  
+
+* A new setting for "Create corresponding field on linked record type" has been added to the New connection tab.   
+
+* The Connection type area of the New connection tab has been redesigned.  
+
+* There is a limit of 500 connections for each record type. 
+
+* The new setting can be changed after a new connection has been created and saved.  
+
+  
+
+For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
 ## New information box displays when changing or deleting a field
 

@@ -181,13 +181,12 @@ The following table shows the similarities and differences between the table, ti
 
     By default, all the records of the selected type display in the table view. 
 
-1. Click **+ View** to add a new view. 
+1. Depending on which environment you use, do the following: 
 
-    <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
     * In the Production environment, click the **+View** tab. 
-    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
-    <!--1. <span class="preview">From the view dropdown menu, drag and drop views in order of your preference.</span>-->
+    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>
+    
+1. <span class="preview">From the view dropdown menu, drag and drop views in order of your preference.</span>
 1. Select from the following types of views: 
 
     * Table

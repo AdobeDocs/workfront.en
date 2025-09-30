@@ -8,9 +8,8 @@ feature: Work Management, Digital Content and Documents
 hide: yes
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
-
+exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
 ---
-
 # Adobe enterprise storage overview
 
 Adobe enterprise storage is a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products. The Workfront and Frame.io integration is built on Adobe enterprise storage, enabling seamless collaboration and asset management between these platforms. it also alters the existing workfront document experience.

@@ -18,6 +18,40 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+<!--### Interface updates when adding or editing group timesheet profiles
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
+
+To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
+
+For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). -->
+
+### Interface updates for the Severities area in Setup
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the Severities page with a more modern design that is consistent with other areas of Workfront.
+
+A visible change in the interface is that to make a severity the default or to delete a severity, you must select the check box next to the severity name and choose an option from the action bar at the bottom of the screen.
+
+To view these changes, go to Setup > Project Preferences > Severities.
+
+For more information, see [Create or customize issue severities](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+
+### Interface updates for the Priorities area in Setup
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the Priorities page with a more modern design that is consistent with other areas of Workfront.
+
+A visible change in the interface is that to make a priority the default or to delete a priority, you must select the check box next to the priority name and choose an option from the action bar at the bottom of the screen.
+
+To view these changes, go to Setup > Project Preferences > Priorities.
+
+For more information, see [Create and customize priorities](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+
 ### Interface updates when adding or editing timesheet profile in the Setup area
 
 **Preview release: September 11, 2025; Production release: September 18, 2025**
@@ -156,15 +190,33 @@ We have introduced interface updates when editing portfolios in the Edit Portfol
 
 For information, see [Edit portfolios](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
 
-## Projects
+## Programs
 
-### Interface updates for a project list or report when applying the Milestone view
+### Interface updates to the Edit Program box
+
+**Preview release: September 18, 2025; Production release: September 25, 2025**
+
+We have updated the look and feel of the Edit Program box to match the design of other areas of Workfront.
+
+For information, see [Edit programs](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md).
+
+## Projects 
+
+### Interface update when bulk editing templates
+
+**Preview release: September 18, 2025; Production release: September 25, 2025**
+
+We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.  
+
+For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
+
+<!--### Interface updates for a project list or report when applying the Milestone view
 
 **Preview release: September 11, 2025; Production release: September 18, 2025**
 
 We have updated the look and feel of a project list or report when you apply the Milestone view to them.
 
-The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### Interface changes for the Convert a task to a project without a template
 
@@ -368,19 +420,38 @@ For for more information, see
 * [Create Topic Groups](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [Create Routing Rules](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
+
+
 ## Users
 
-<!--
+<!--### Interface updates for the User Details page
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the User Details page to match other areas of the application.
+
+You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.-->
+
+### Interface updates for personal time off
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the personal time off calendar, including the ability to delegate approvals, to match other areas of the application.
+
+To view these changes, go to your user profile and click **Time Off** in the left panel.
+
+For more information, see [Configure personal time off](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) and [Delegate approval request](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+
 ### Interface updates for the New User dialog
 
-**Preview release: September 11, 2025; Production release: September 18, 2025**
+**Preview release: September 18, 2025; Production release: September 18, 2025**
 
 We have updated the look and feel of the New User dialog to match the design in other areas of the application.
 
 To view this change, go to Users > New User > New User.
 
 For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
--->
+
 
 ### Interface updates to the Import users dialog
 
