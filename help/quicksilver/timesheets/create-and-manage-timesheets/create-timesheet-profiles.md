@@ -9,8 +9,6 @@ exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
 ---
 # Create, edit, and assign timesheet profiles
 
-{{highlighted-preview}}
-
 <!--Audited: 06/2025-->
 
 You can create, edit, and assign timesheet profiles that generate recurring timesheets for your users without any further intervention from you. This saves you time and ensures that the following are consistent between users:
@@ -164,11 +162,7 @@ For more information about creating a timesheet manually, see [Create a single-u
       <td> <p> Add a reminder notification. Workfront will send reminders to users to ask them to complete or approve their timesheets. You must create reminder notifications before you can associate them with a timesheet profile.  </p> </td> 
      </tr>
 
-1. When creating group-level timesheet profiles in Production, click the **Assign People** tab to associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
-
-   <span class="preview">When creating group-level timesheet profiles in Preview, scroll towards the bottom of the page and find the **Assign People** section.</span>
-
-   When creating timesheet profiles for the system, scroll towards the bottom of the page and find the **Assign People** section. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
+1. To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.
 
    Begin typing the name of the user, group, or team, then click it when it appears in the drop-down list.
 
