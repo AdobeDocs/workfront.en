@@ -128,17 +128,17 @@ Because this integration is built using Adobe enterprise storage, there are some
 The following capabilities will not be included in this integration:
 
 <!--* External document providers-->
-* Access to proofing
+* Access to Proofing in Workfront
 * Document viewer in Workfront
 * Favorite documents
 * Request documents
 
 
-#### Temporary limitations
+<!--#### Temporary limitations
 
 For now, the following capabilities are not available:
 
 * Send documents to Adobe Experience Manager Assets
 * Multi-stage approvals
 * Upload documents to comments or updates in Workfront
-* Upload documents to tasks or issues in Workfront
+* Upload documents to tasks or issues in Workfront-->

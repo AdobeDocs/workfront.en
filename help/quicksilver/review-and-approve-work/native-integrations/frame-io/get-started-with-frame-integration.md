@@ -64,7 +64,7 @@ Reviewers and approvers can be added to a single-use approval workflow or a reus
 
 Once the review and approval workflow is initiated in Workfront, reviewers and approvers can access the Frame.io viewer to add comments, mark up the asset, and make a decision. 
 
-<!--For more information, see [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).-->
+For more information, see [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).
 
 #### Access the Frame.io viewer
 
@@ -75,7 +75,7 @@ Users can access the Frame.io viewer in the following ways:
 
 >[!NOTE]
 >
->External Workfront users are notified via email and will be asked to create a Frame.io login to review and approve assets. <!--is this still accurate?-->
+>External Workfront users are notified via email and will be asked to create a Frame.io login to review and approve assets.
 
 ![open the frame viewer from Home](assets/open-fio-viewwer.png)
 

@@ -17,7 +17,7 @@ Reviewing Workfront documents with the Frame.io viewer allows you to leave comme
 For more information on the Frame.io integration with Workfront, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
 
 
-## Access requirements
+<!--## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
 
@@ -49,7 +49,7 @@ For more information on the Frame.io integration with Workfront, see [Frame.io i
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++ -->
 
 ## Review a document
 
