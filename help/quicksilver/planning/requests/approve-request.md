@@ -127,7 +127,12 @@ Approvers receive the following notifications about a request pending their appr
 >
 >Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience for users to be able to receive email and in-app notifications.
 
-To approve a request:
+You can approve requests to create records from the request itself, <span class="preview">or from the My Approvals widget in Home.</span>
+
+* [Approve a request from the request in Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
+* [Approve a request from the My Approvals widget in Home](#approve-a-request-from-the-my-approvals-widget-in-home)
+
+### Approve a request from the request in Workfront Planning
 
 1. Do one of the following: 
 
@@ -158,3 +163,31 @@ To approve a request:
     * **Rejected**: The request is rejected. 
 
     The request remains in the Planning tab of the Submitted section in the Requests area of Workfront.
+
+<div class="preview">
+
+### Approve a request from the My Approvals widget in Home
+
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Home]**.
+
+   Or
+
+   Click the [!UICONTROL Home] icon ![Home icon](/help/_includes/assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+
+1. Locate the object that you want to approve or reject.
+
+1. (Optional) Add a comment by clicking the drop-down arrow next to Approve or Reject, typing in the note, and clicking Add.
+
+1. Choose one of the following: 
+
+    * **Approve**: This approves the request. A record is immediately created for the record type associated with the request form after all approvers approve the request.
+    * **Reject**: This rejects the request, even when you are the only approver that rejects it. No record is created for the record type associated with the request form. 
+
+    The user who submitted the request receives an email and in an-app notifications when their request is approved or rejected. 
+
+    The status of the request changes to the following, depending on the approval decision: 
+    
+    * **Completed**: The request is approved.
+    * **Rejected**: The request is rejected. 
+
+</div>

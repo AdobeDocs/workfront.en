@@ -9,6 +9,8 @@ exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
 ---
 # View approvals
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 Approval processes provide the flexibility to create multistep approvals for projects, tasks, and issues. Adobe Workfront administrators define approval processes to provide consistency throughout the system.
 
 For information about creating approval processes, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
@@ -56,7 +58,7 @@ You can view or manage approvals from the following areas:
 
 * In the Home area
 
-   * All projects, tasks, issues, timesheets, documents, and access awaiting your approval are displayed in the My Approvals widget in the Home area.
+   * All projects, tasks, issues, timesheets, documents, access, and <span class="preview">Workfront Planning requests</span> awaiting your approval are displayed in the My Approvals widget in the Home area.
    * Approvals that you submitted yourself also display in the My Approvals widget in the Home area when you choose the Approvals I've submitted filter option. For more information, see the [Review work you submit for approval in the Home area](#review-work-you-submit-for-approval-in-the-home-area) section in this article.
    * Approvals are removed from the My Approvals widget in the Home area when the associated project, task, or issue is marked Resolved, On Hold, Closed, or Canceled.
 
