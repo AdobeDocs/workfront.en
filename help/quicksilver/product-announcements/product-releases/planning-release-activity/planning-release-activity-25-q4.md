@@ -16,6 +16,85 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Centralized record types
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+When implementing Workfront Planning for a multi-team organization with common workflows, you might need to define a cohesive structure and metadata for key record types (like Campaigns or Deliverables) that can be added to each team's workspaces to capture and manage their work.  
+
+ Also, you might need each team's work to roll up to a central level.  
+
+ In such a workflow, you can ensure that teams capture their work consistently while unlocking cross-team visibility, without the need to add everything to one workspace, or everyone in the organization to every workspace. You can use centralized record types to achieve this. 
+
+You can now enable record types to be centralized and use them across multiple workspaces. Users can use the same field structure and connections that are already configured in a central workspace.  
+
+For more information, see the following articles:  
+
+* [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) 
+
+* [Configure record type cross-workspace capabilities](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) 
+
+* [Add existing record types from another workspace](help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
+
+## New limit for connection fields for one record type
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+We have introduced a limit of 30 connection fields for each record type.  
+
+If your organization currently has more than 30 connection fields for one record type, the additional connections will be inherited going forward. However, you cannot add more connection fields. For new record types, the new limit of 30 connection fields will be enforced.  
+
+For more information, see [Connected Record Types overvie](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+## Drag and drop functionality in the timeline and calendar views
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+
+You can now drag and drop records in the timeline and calendar views. Dragging the records in another time frame automatically updates their Start and End dates. 
+
+For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+## Comment on requests in Workfront Planning
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+To make communication easier on requests made in Workfront Planning, we've added a Comments area to the Request Details page. This is useful, for example, if the person that the request is assigned to has questions for the person that made the request.
+
+Previously, commenting on requests was not available in Workfront Planning.
+
+For more information on making requests, including commenting, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+
+## Approve a Workfront Planning request in the My Approvals widget
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+To make it easier to approve Workfront Planning requests, we've added them to the My Approvals widget in Home. Now, you can approve or reject these requests directly from the widget, allowing you to manage these approvals without leaving Home.
+
+Previously, Workfront approvals could be managed only within Workfront Planning.
+
+For more information on approving requests, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
+
 ## Inline edit Workfront connections in the record's Connected records page 
 
 >[!NOTE]

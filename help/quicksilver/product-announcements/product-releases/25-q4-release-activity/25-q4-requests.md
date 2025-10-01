@@ -12,6 +12,20 @@ This page describes Requests enhancements made with the Fourth Quarter 2025 rele
 
 For a list of all changes available at this point in the Fourth Quarter 2025 release cycle, see [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## Create and save views in the Requests area
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+To make it easier to see the information you need, we've added the ability to create and save views in the Requests area. Now, you can save a view, including filters and column configurations, and switch between views. A Workfront administrator can add the new view to layout templates.
+
+Previously, filters and column configurations could not be saved.
+
+For information and instructions, see [Create views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
 ## New combined Status column in unified Request list 
 
 >[!NOTE]
