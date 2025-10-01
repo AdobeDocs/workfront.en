@@ -28,7 +28,7 @@ For information, see [Create a milestone path](/help/quicksilver/administration-
 
 ### Interface updates when adding or editing group timesheet profiles
 
-**Preview release: September 30, 2025; Production release: October 2, 2025**
+**Preview release: September 30, 2025; Production release: Starting the week of October 2, 2025**
 
 We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
 
