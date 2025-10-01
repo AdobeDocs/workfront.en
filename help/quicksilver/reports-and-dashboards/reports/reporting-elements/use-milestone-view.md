@@ -16,7 +16,7 @@ exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
 <!--
 <div class="preview"> 
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
@@ -199,22 +199,22 @@ When viewing a project list or project report in the Milestone view, the followi
    ![Milestone view with shading](assets/milestone-view-with-shading.png)
 
 * **Project name**: The project name is displayed with a link to the project.
-* **Project Condition icon**: An icon displays next to the project name, indicating the condition of the project.
-
-   <!--
-   <div class="preview">
-   A condition icon in the shape of a colored circle displays next to each project in the Milestone view. The possible project conditions and circle colors are: 
-   * On Target - green
-   * At Risk - yellow
-   * In Trouble - red
-   </div>
-   -->
+* **Project Condition icon**: <!--In the Production environment,-->An icon displays next to the project name, indicating the condition of the project.
 
    The Condition of the project might be one of the following:
 
    * On Target
    * At Risk
    * In Trouble
+
+      <!--
+      <div class="preview">
+      In the Preview environment, a condition icon in the shape of a colored circle displays next to each project in the Milestone view. The possible project conditions and circle colors are: 
+      * On Target - green
+      * At Risk - yellow
+      * In Trouble - red
+      </div>
+      -->
 
 ## Configure what information displays in the Milestone view {#configure-what-information-displays-in-the-milestone-view}
 
