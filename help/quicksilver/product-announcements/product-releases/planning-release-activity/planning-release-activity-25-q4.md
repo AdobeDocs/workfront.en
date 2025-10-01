@@ -16,7 +16,7 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Centralized record types
+<!--## Centralized record types
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ We have introduced a limit of 30 connection fields for each record type.
 
 If your organization currently has more than 30 connection fields for one record type, the additional connections will be inherited going forward. However, you cannot add more connection fields. For new record types, the new limit of 30 connection fields will be enforced.  
 
-For more information, see [Connected Record Types overvie](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+For more information, see [Connected Record Types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
 
 ## Drag and drop functionality in the timeline and calendar views
 
