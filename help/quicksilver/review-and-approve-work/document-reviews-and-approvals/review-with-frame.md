@@ -51,6 +51,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++ -->
 
+## Prerequisites
+
+* You must have the Workfront and Frame.io integration set up in your Workfront instance. For more information, see [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+
 ## Review a document
 
 As a reviewer, you can add comments to and mark up assets. Once finished, you can mark your review complete in Workfront. Marking the review as complete is not required for the asset to move forward in the approval process.
