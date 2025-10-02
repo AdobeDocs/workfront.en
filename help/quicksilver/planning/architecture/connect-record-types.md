@@ -189,7 +189,7 @@ For an example of connecting record types and records, see [Example of connectin
 
             >[!TIP]
             >
-            >There is a limit of 500 connections for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit.
+            >There is a limit of 500 fields for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit.
 
         3. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
 
@@ -340,7 +340,7 @@ For an example of connecting record types and records, see [Example of connectin
 
         >[!TIP]
         >
-        > A linked record field  is not created for objects from another application to the record type you are linking from in Workfront Planning. <!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a 500 connection field limit for every record type.</span>--> 
+        > A linked record field  is not created for objects from another application to the record type you are linking from in Workfront Planning. <!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a limit of 500 fields for every record type.</span>--> 
 
     <!--see the span preview text in the TIP above; it might not show up in green-->
 

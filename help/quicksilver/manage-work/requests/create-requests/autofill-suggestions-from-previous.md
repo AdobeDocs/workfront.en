@@ -8,13 +8,6 @@ exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
 ---
 # Auto-complete a request with data from previous requests
 
->[!NOTE]
->
->* This functionality will be available as an open beta on the following schedule:
->
->   * Monthly release: September 11, 2025
->   * Quarterly release: October 16, 2025
-
 AI can help you auto-complete request fields based on previous requests. You can approve or reject these suggestions before submitting the request. 
 
 Auto-complete does not overwrite any fields that you have already filled in.
