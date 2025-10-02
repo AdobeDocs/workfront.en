@@ -186,4 +186,4 @@ For the Preview environment, the nightly recalculation is disabled, and the proj
 
 * Any outage to a [!DNL Workfront] Preview environment on weekends (Saturdays and Sundays) will be addressed so that the environment is running for business hours on Monday.
 
-* Proofing is not available in the Preview environments.
+* Proofing is not available in the Preview environment.

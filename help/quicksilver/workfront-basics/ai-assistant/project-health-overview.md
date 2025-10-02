@@ -172,7 +172,7 @@ A project health configuration contains specific criteria that determines how yo
 
 1. In the upper-right corner of the page, select **New Configuration**. 
 
-1. (Optional) On the configurations details page, replace *Untitled Configuration* with a new a configuration **Name**. 
+1. (Optional) On the configurations details page, replace *Untitled Configuration* with a new configuration **Name**. 
 
 1. In the **What factors would you like to include in project health** section, deselect any factor you don't want included when determining your project health criteria: 
     * **Scope creep**: How much the project scope has expanded since it started. 

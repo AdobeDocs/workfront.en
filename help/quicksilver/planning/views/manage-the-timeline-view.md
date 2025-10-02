@@ -192,12 +192,10 @@ To manage a timeline view:
     
         <span class="preview">For information, see [Create records](/help/quicksilver/planning/records/create-records.md).</span>
     
-    * <span class="preview">Click on the end of a record bar, then drag and drop it in a new position. Resizing the records' bars updates their start and end dates immediately. </span>
+    * <span class="preview">Click on the left or right margin of a record bar, then drag and drop it in a new position. Resizing the records' bars updates their start or end dates immediately. </span>
     
+    * <span class="preview">Drag and drop records to update their position and dates in the timeline. Moving the records' bars updates their start and end dates immediately.</span>
         <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
-    
-    <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
-        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)
