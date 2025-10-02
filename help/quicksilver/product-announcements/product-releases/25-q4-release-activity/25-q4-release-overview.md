@@ -311,7 +311,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
-    <tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Create and save views in the Requests area</a><p></p>
+            <p>To make it easier to see the information you need, we've added the ability to create and save views in the Requests area. Now, you can save a view, including filters and column configurations, and switch between views. A Workfront administrator can add the new view to layout templates.</p>
+        </td>
+        <td>October 2, 2025</td>
+        <td>October 15, 2025</td>
+        <td>October 16, 2025</td>
+    </tr> 
+    <!--<tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">New combined Status column in unified Request list</a><p></p>
             <p>To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.</p>
@@ -319,7 +328,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>August 28, 2025</td>
         <td>September 11, 2025</td>
         <td>October 16, 2025</td>
-    </tr>     
+    </tr>  -->   
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
