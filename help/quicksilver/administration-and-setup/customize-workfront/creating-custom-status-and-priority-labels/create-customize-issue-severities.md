@@ -11,6 +11,8 @@ exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
 ---
 # Create or customize issue severities
 
+{{highlighted-preview}}
+
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 
