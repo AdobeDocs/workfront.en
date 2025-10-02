@@ -53,7 +53,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Prerequisites
 
-* You must have the Workfront and Frame.io integration set up in your Workfront instance. For more information, see [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+* You must have the Workfront and Frame.io integration set up in your Workfront instance. For more information, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements).
 
 ## Review a document
 
