@@ -243,10 +243,6 @@ You can change any of the following in this sub-section:
    <td role="rowheader"><strong>[!UICONTROL Change password]</strong></td> 
    <td>Reset your password in this section. For more information about resetting your password, see <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Reset your password</a>.</td> 
   </tr> 
- </tbody> 
-</table>
-
-<!--
   <tr> 
    <td role="rowheader"><strong>(Conditional) &lt;SSO Configuration> [!UICONTROL Username]</strong></td> 
    <td> If your [!DNL Workfront] administrator enabled an SSO integration with [!DNL Workfront], your SSO Username displays in this field. The type of SSO configuration enabled for your [!DNL Workfront] instance is visible in this field.</td> 
@@ -255,7 +251,8 @@ You can change any of the following in this sub-section:
    <td role="rowheader"><strong>(Conditional) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
    <td> <p> If your [!DNL Workfront] administrator enabled an SSO integration with [!DNL Workfront] and has updated users for SSO, this field is selected by default. The type of SSO configuration enabled for your [!DNL Workfront] instance is visible in this field.</p> <p>When this field is selected, you are required you to log into [!DNL Workfront] with your SSO credentials. Unchecking it will allow you to log in to [!DNL Workfront] with your [!DNL Workfront] credentials.</p> <p>For more information about configuring [!DNL Workfront] with an SSO solution, see <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Single sign-on in [!DNL Workfront]: article index</a>. For more information about updating users for SSO, see <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Update users for single sign-on</a>.</p> </td> 
   </tr>
--->
+ </tbody> 
+</table>
 
 #### [!UICONTROL Job info] 
 
@@ -339,6 +336,9 @@ You can change any of the following in this sub-section:
    <td><p>Specify your preferred language here. This controls the language, date, and number format used in outgoing email messages.</p>
    <p><strong>NOTE:</strong> When your organization is on the Adobe Unified Experience, language preferences are stored in your Adobe profile and the email locale is not used. For more information, see <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Change the Adobe Experience Cloud language</a> in the article <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Supported languages in Adobe Workfront</a>.</p></td> 
   </tr>
+  <tr><td><strong>[!UICONTROL Automatically set the task status to In Progress when tasks are self-assigned]</strong> </td>
+  <td>Select this option if you want the status of work you assign to yourself to automatically be set to In Progress instead of New.</td>
+  </tr>
   <tr> 
    <td role="rowheader"><strong>(Conditional) Automatically generate proofs when uploading documents</strong></td> 
    <td>Select this field to start generating a proof immediately after the document is loaded into [!DNL Workfront]. This field is disabled by default and can be updated only by a Workfront administrator.<br>This field is available only if your company has purchased the Workfront Proof component for Workfront and if you are enabled as a proof user. For more information about Workfront Proof, see <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Manage proofs within Adobe Workfront</a>.
@@ -346,14 +346,6 @@ You can change any of the following in this sub-section:
   </tr> 
  </tbody> 
 </table>
-
-<!--
-  <tr><td><strong>[!UICONTROL Send work I assign to myself to my Working On tab]</strong> </td>
-  <td>Select this option if you want the status of work you assign to yourself to automatically be set to In Progress instead of New.</td>
-
-  <strong>[!UICONTROLAutomatically set the task status to In Progress when tasks are self-assigned]</strong>: When this option is selected, work that you assign to yourself is automatically set to In Progress status instead of New.
-  </tr>
--->
 
 ### [!UICONTROL Notifications]
 

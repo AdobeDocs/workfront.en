@@ -1,12 +1,12 @@
 ---
-title: Auto-fill a request using prompts or documents
+title: Use AI Form Fill to fill in a request using prompts or documents
 content-type: reference
 description: You can use AI to auto-fill request fields by entering a prompt or supplying a document.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 ---
-# Auto-fill a request using prompts or documents
+# Use AI Form Fill to fill in a request using prompts or documents
 
 >[!NOTE]
 >
@@ -17,9 +17,9 @@ exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 >
 >* To use this functionality, your organization must meet the requirements to use the Workfront AI Assistant. For details, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
-AI can help you auto-fill request fields based on a prompt you enter. It can also fill fields based on text such as emails ar uploaded documents. You can approve or reject these suggestions before submitting the request.
+AI Form Fill can help you auto-fill request fields based on a prompt you enter. It can also fill fields based on text such as emails ar uploaded documents. You can approve or reject these suggestions before submitting the request.
 
-Auto-fill does not overwrite any fields that you have already filled in.
+AI Form Fill does not overwrite any fields that you have already filled in.
 
 Users do not receive suggestions of data that they do not otherwise have access to.
 
@@ -61,7 +61,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-To auto-fill requests using a prompt or document, **all** of the following must apply:
+To use AI Form Fill to fill requests using a prompt or document, **all** of the following must apply:
 
 * Your organization must have migrated to Adobe IMS (Identity Management System)
 * The Adobe Unified Experience must be enabled
@@ -75,11 +75,11 @@ To auto-fill requests using a prompt or document, **all** of the following must 
 
 ## Get suggestions from a text prompt
 
-Auto-fill can suggest field values based on text such as emails. You paste in a text block, and Workfront processes the text to suggest field values based on the text.
+AI Form Fill  can suggest field values based on text such as emails. You paste in a text block, and Workfront processes the text to suggest field values based on the text.
 
-For example, If the email includes "This is due on June 1," and the request form has a field for due date, Workfront would suggest June 1 for that field value.
+For example, If the email includes "This is due on June 1," and the request form has a field for due date, AI Form Fill  would suggest June 1 for that field value.
 
-This type of suggestion also checks previous requests for similar contexts. For example if the prompt mentions that the request is for a certain client, Workfront can locate and enter the billing address for that client automatically, based on previous requests.
+When filling in a form, Workfront also checks previous requests for similar contexts. For example if the prompt mentions that the request is for a certain client, Workfront can locate and enter the billing address for that client automatically, based on previous requests.
 
 You can paste in text to be applied to the entire form, or to a single section of the form.
 
@@ -119,7 +119,7 @@ These examples show prompts for various ways that the AI can reference other pro
 
 >[!BEGINSHADEBOX]
 
-Create a similar campaign request as we did for (Client Company)'s Q2 launch, but this time for their Automotive division. Keep the same deliverable set and audience profile.
+Create a similar campaign request as we did for (client company)'s Q2 launch, but this time for their Automotive division. Keep the same deliverable set and audience profile.
 
 >[!ENDSHADEBOX]
 
@@ -127,7 +127,7 @@ Create a similar campaign request as we did for (Client Company)'s Q2 launch, bu
 
 >[!BEGINSHADEBOX]
 
-Use the same setup we had in the (Client Company) project kickoff last spring. I want to run a digital ad campaign targeting the same executive audience, but with updated dates for this quarter.
+Use the same setup we had in the (project name) project kickoff last spring. I want to run a digital ad campaign targeting the same executive audience, but with updated dates for this quarter.
 
 >[!ENDSHADEBOX]
 
@@ -135,7 +135,7 @@ Use the same setup we had in the (Client Company) project kickoff last spring. I
 
 >[!BEGINSHADEBOX]
 
-Prepare a request similar to the (Client Company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
+Prepare a request similar to the (client company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
 
 >[!ENDSHADEBOX]
    
@@ -143,7 +143,7 @@ Prepare a request similar to the (Client Company) summer promotion campaign we r
 
 >[!BEGINSHADEBOX]
 
-Take the (Client Company) webinar series campaign from Q1 as a reference. I want the same registration workflow and assets, but this time the topic is 'AI in Financial Planning' and the audience is young professionals.
+Take the (campaign name) webinar series campaign from Q1 as a reference. I want the same registration workflow and assets, but this time the topic is 'AI in Financial Planning' and the audience is young professionals.
 
 >[!ENDSHADEBOX]
 
@@ -151,7 +151,7 @@ Take the (Client Company) webinar series campaign from Q1 as a reference. I want
 
 >[!BEGINSHADEBOX]
 
-Set up a campaign request just like the (Client Company) rebranding project we handled, but replace with (New Client Company) as the client. Keep all deliverables aligned to corporate branding.
+Set up a campaign request just like the (client company) rebranding project we handled, but replace with (new client company) as the client. Keep all deliverables aligned to corporate branding.
 
 >[!ENDSHADEBOX]
 
@@ -257,11 +257,11 @@ Workfront field types affect whether a given field can be auto-filled.
 
 #### Other best practices
 
-Consider the following when uploading a document for request auto-fill:
+Consider the following when uploading a document to AI Form Fill:
 
-* Auto-fill is currently optimized for the Latin alphabet.
+* AI Form Fill is currently optimized for the Latin alphabet.
 * We recommend using an 8 point or larger text size.
-* Auto-fill may have difficulty with images in the document, such as rotated or distorted images, graphs, and counting or using spatial reasons on objects in images.
+* AI Form Fill may have difficulty with images in the document, such as rotated or distorted images, graphs, and counting or using spatial reasons on objects in images.
 * As always, we recommend checking results for accuracy before submitting the request.
 
 ### Upload a document to auto-fill a request

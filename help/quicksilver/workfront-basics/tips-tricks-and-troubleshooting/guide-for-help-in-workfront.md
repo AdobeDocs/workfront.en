@@ -109,7 +109,7 @@ These 3 steps can help you as a [!DNL Workfront] administrator stay on top of ea
    <td><strong>Step 2: Prepare for updates</strong> </td> 
    <td> 
     <ul> 
-     <li> <p>Test the latest updates in your [!DNL Workfront] <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234">Sandbox</a>.</p> </li> 
+     <li> <p>Test the latest updates in your [!DNL Workfront] Preview Sandbox environment. For information on the Preview Sandbox environment, see <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234">The [!DNL Adobe Workfront] Preview Sandbox Environment</a>.</p> </li> 
      <li> <p>Determine how those updates impact the way your people work. Our <a href="https://experienceleague.adobe.com/en/docs/workfront/using/home">Knowledge Base</a> and <a href="https://experienceleague.adobe.com/en/events"> Events</a> can help! Our Product Managers often cite the direct end user or business problem solved by the functionality, helping you shortcut the change impact.</p> </li> 
     </ul> </td> 
   </tr> 

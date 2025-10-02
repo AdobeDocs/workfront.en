@@ -9,9 +9,9 @@ exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
 ---
 # Update issue Priority
 
-You can define a priority for an issue&nbsp; to indicate how important the issue is.
+You can define a priority for an issue to indicate how important the issue is.
 
-You must have Manage permissions to the issue to modify the Priority of the issue.&nbsp; [Update the Priority of an issue](#update-the-priority-of-an-issue).
+You must have Manage permissions to the issue to modify the Priority of the issue. [Update the Priority of an issue](#update-the-priority-of-an-issue).
 
 ## Access requirements
 
@@ -97,7 +97,7 @@ Refer to the following table to understand each&nbsp;default priority label and 
 
 1. Click the **Priority** field in the **Basic information** area.
 
-   ![Issue priority](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
+   ![Issue priority](assets/issue-priority-field.png)
 
 1. Select a value for the **Priority** field.
 

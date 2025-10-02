@@ -16,6 +16,113 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+<!--## Centralized record types
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+When implementing Workfront Planning for a multi-team organization with common workflows, you might need to define a cohesive structure and metadata for key record types (like Campaigns or Deliverables) that can be added to each team's workspaces to capture and manage their work.  
+
+ Also, you might need each team's work to roll up to a central level.  
+
+ In such a workflow, you can ensure that teams capture their work consistently while unlocking cross-team visibility, without the need to add everything to one workspace, or everyone in the organization to every workspace. You can use centralized record types to achieve this. 
+
+You can now enable record types to be centralized and use them across multiple workspaces. Users can use the same field structure and connections that are already configured in a central workspace.  
+
+For more information, see the following articles:  
+
+* [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) 
+
+* [Configure record type cross-workspace capabilities](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) 
+
+* [Add existing record types from another workspace](help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
+
+## New limit for connection fields for one record type
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+We have introduced a limit of 30 connection fields for each record type.  
+
+If your organization currently has more than 30 connection fields for one record type, the additional connections will be inherited going forward. However, you cannot add more connection fields. For new record types, the new limit of 30 connection fields will be enforced.  
+
+For more information, see [Connected Record Types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
+
+## Enhancements to request forms in Workfront Planning
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+To make the request process simpler, we've made some enhancements to request forms. Now, when configuring a request form, you can configure the following:
+
+* Enable an option to allow only one decision when a request has multiple approvers.
+* Configure when requests created from the form will be automatically marked complete. You can set the request to be marked complete when the requested object is created, or when the requested object is complete based on criteria you specify.
+* Set up an automation that is triggered when a request is submitted from the form. Currently, you can automatically create records when the request is submitted. 
+
+For more information on creating a request form and configuring these options, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Drag and drop functionality in the timeline and calendar views
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+
+You can now drag and drop records in the timeline and calendar views. Dragging the records in another time frame automatically updates their Start and End dates. 
+
+For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+## Comment on requests in Workfront Planning
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+To make communication easier on requests made in Workfront Planning, we've added a Comments area to the Request Details page. This is useful, for example, if the person that the request is assigned to has questions for the person that made the request.
+
+Previously, commenting on requests was not available in Workfront Planning.
+
+For more information on making requests, including commenting, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+
+<!--## Approve a Workfront Planning request in the My Approvals widget
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+To make it easier to approve Workfront Planning requests, we've added them to the My Approvals widget in Home. Now, you can approve or reject these requests directly from the widget, allowing you to manage these approvals without leaving Home.
+
+Previously, Workfront approvals could be managed only within Workfront Planning.
+
+For more information on approving requests, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).-->
+
+## Inline edit Workfront projects in the record's Connected records page
+
+>[!NOTE]
+>
+>Preview: September 25, 2025
+>Production fast release: October 15, 2025
+>Production all: October 16, 2025
+
+You can now inline edit Workfront connected projects in the Connected records page. You can also create projects without a template from the connected records page.
+
+For information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).  
+
 <!--## Unified request form list now available
 
 >[!NOTE]
@@ -29,6 +136,122 @@ To make it easier to find the request form you're looking for in Workfront Plann
 Previously, request forms were located only on the object for which they were created.
 
 For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## Redesign of the Planning views toolbars and access points 
+
+>[!NOTE]
+>
+>* Preview: September 25, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025
+
+We have redesigned how you display, access, and manage views on  a record type page.  
+
+The following improvements are included in this update: 
+
+* The view tabs have been replaced by a dropdown menu in the upper-left corner of the record type page. The menu now displays a list of all the views.
+* You can reorder the views by dragging and dropping them in order of your preference. 
+* Most of the toolbar icons, except for the full-screen mode, have moved from the right side to the left side of the page.  
+* The Search box has been moved to the right side of the toolbar. 
+The functionality of each view has not changed.  
+
+For information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).  
+
+<!--## Enhancements to request forms in Workfront Planning
+
+>[!NOTE]
+>
+>* Preview: September 25, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025
+
+To make the request process simpler, we've made some enhancements to request forms. Now, when configuring a request form, you can configure the following:
+
+* Configure when requests created from the form will be automatically marked complete. You can set the request to be marked complete when the requested object is created, or when the requested object is complete based on criteria you specify.
+* Set up an automation that is triggered when a request is submitted from the form. Currently, you can automatically create records when the request is submitted. 
+
+For more information on creating a request form and configuring these options, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## Resize records in the calendar weekly view
+
+>[!NOTE]
+>
+>* Preview: September 25, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025
+
+In the weekly calendar view of a record type page, you can now click and hold a record's left or right margins to modify its duration.  
+
+Moving a record's margins also modifies its start and end dates immediately.  
+
+An outline displays to guide you to the new location before the event is resized. 
+
+This functionality already exists in the calendar monthly view. 
+
+For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+## New setting to prevent creating a two-way connection from a record type
+
+>[!NOTE]
+>
+>* Preview: September 18, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025 
+
+To prevent creating too many connection fields, and potentially impacting performance, we have introduced a new setting to allow workspace managers to optionally create corresponding connected fields on a connected record type. When enabled, connections count on both records which will increase the chance of reaching the 500 connection limit. To avoid that, we recommend keeping this setting off, especially when linking to taxonomical record types. 
+
+The following capabilities are part of this improvement:  
+
+* A new setting for "Create corresponding field on linked record type" has been added to the New connection tab.   
+
+* The Connection type area of the New connection tab has been redesigned.  
+
+* There is a limit of 500 connections for each record type. 
+
+* The new setting can be changed after a new connection has been created and saved.  
+
+  
+
+For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
+
+## New information box displays when changing or deleting a field
+
+>[!NOTE]
+>
+>* Preview: September 11, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025
+
+When you update a formula field or a field that could impact it, an alert notifies you of the impact of your change. The alert displays in the following cases:
+
+* When you update a formula field (excluding name and description changes) when that field has dependent formula or lookup fields. The alert lists those dependent fields and asks you whether you want to continue.
+
+* When you delete a field that is used in a formula expression or as a lookup field. The alert lists the dependent formula and lookup fields and asks you whether you want to continue with the deletion.
+
+For information, see [Formula fields overview](/help/quicksilver/planning/fields/formula-fields.md).
+
+## Integration between Adobe Workfront Planning and Adobe GenStudio for Performance Marketing
+
+>[!NOTE]
+>
+>Preview: September 11, 2025
+>Production for all customers: September 11, 2025
+>[!BADGE Off schedule]{type=Neutral}
+
+If your organization uses both Adobe Workfront Planning and Adobe GenStudio for Performance Marketing, you might want to define marketing concepts like Campaigns, Products, and Personas in more detail than what GenStudio supports by default.  
+  
+With the new native integration between GenStudio for Performance Marketing and Workfront Planning you can now manage the Campaigns, Products, Personas, Activations, Channels, and Regions used in GenStudio for Performance Marketing in Workfront Planning. The integration also enables you to configure GenStudio for Performance Marketing to reference existing record types from Workfront Planning, creating a more connected and consistent marketing workflow. 
+
+The GenStudio for Performance Marketing workspace is now available in Adobe Workfront Planning when your company has purchased both products. 
+With the integration between Workfront Planning and GenStudio for Performance Marketing, you can:  
+
+* View the GenStudio workspace in Workfront Planning.  
+* Modify your campaigns, products, personas, and activations in GenStudio for Performance Marketing and have real-time updates of the same information in Workfront Planning. 
+* Modify your campaigns, products, personas, and activations in Workfront Planning and have real-time 
+* Avoid duplicate data entry. 
+* Maintain alignment across planning and activation efforts. 
+
+For information, see [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
 
 ## Resize records in the calendar monthly view
 
@@ -133,7 +356,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 >* Production fast release: September 11, 2025
 >* Production for all customers: October 16, 2025
 
-To simplify the unified request experience, the Status column now displalys both Request Status and Approval Status, whichever applies to a given request.
+To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.
 
 For more information on creating requests see:
 
@@ -178,7 +401,7 @@ For information, see [Formula fields overview](/help/quicksilver/planning/fields
 >[!NOTE]
 >
 >Preview: August 7, 2025
->Production for all customers:August, 2025
+>Production for all customers: August, 2025
 >[!BADGE Off schedule]{type=Neutral}
 
 We have added new expressions with the following usage to formula fields in Workfront Planning and to calculated custom fields in Workfront:

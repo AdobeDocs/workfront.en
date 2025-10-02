@@ -9,15 +9,9 @@ exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
 ---
 # Create, edit, and assign timesheet profiles
 
+{{highlighted-preview}}
+
 <!--Audited: 06/2025-->
-
-<!--<div class="preview">
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div> -->
 
 You can create, edit, and assign timesheet profiles that generate recurring timesheets for your users without any further intervention from you. This saves you time and ensures that the following are consistent between users:
 
@@ -58,7 +52,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Create or edit a timesheet profile
 
-<!--
+<!--Old info: 
 <div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p style="color: #ff1493;">Alina drafted an Important note under this heading because Tracy/WorkEx said this is not working as designed - the changes WILL take effect the minute to make them for existing timesheets - see this issue - https://hub.workfront.com/issue/5dba59f600c401cca536567c368aa299/overview</p>
 <p style="color: #ff1493;">Important: The changes you make to an existing timesheet profile are not automatically applied to timesheets that have already been generated. The changes you make to a timesheet prile are applied only to the timesheets that are&nbsp;generated after the timesheet profiles changes are made. To&nbsp;apply your&nbsp;changes to the timesheet profile for the timesheets that are already generated, you must delete the existing timesheets and manually generate&nbsp;them.For more information about deleting and manually generating timesheets, see&nbsp;Delete and manually generating Timesheets.</p>
@@ -84,10 +78,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    To edit an existing timesheet profile, select the timesheet profile you want to edit, then click **Edit**.
 
-   The new or existing timesheet profile displays.
+   The new or existing timesheet profile page displays.
 
-
-1. Click the **Set Details** tab, then update the following information: 
+1. Update the following information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -95,19 +88,17 @@ For information, see [Access requirements in Workfront documentation](/help/quic
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Name</strong> </td> 
-      <td> <p> Add a name for the timesheet profile. It could be the name of a team or a group whose people share the same timeframe for their timesheets. </p> </td> 
+      <td> <p> Add a name for the timesheet profile. It could be the name of a team or a group whose people share the same timeframe for their timesheets. </p> <p>This ia a required field.</p> </td> 
      </tr> 
 
-     <tr> 
+   <tr> 
       <td role="rowheader"><strong>Description</strong> </td> 
       <td> <p> Add more information about the timesheet profile.     
       </p> </td> 
      </tr>
 
-
-
-     <tr> 
-      <td role="rowheader"><strong>Group with Administration Access</strong> </td> 
+   <tr> 
+   <td role="rowheader"><strong>Group with Administration Access</strong> </td> 
       <td> <p> 
       <ul> 
       <li> <p>If you are creating a system-level timesheet profile, leave this field blank.</p> <p>Any user who can edit user accounts can attach a system-level timesheet to other users.</p> <p>Only a Workfront administrator can edit a system-level timesheet profile.</p> </li> 
@@ -115,7 +106,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      <ul> 
       <li> <p>If you are creating a timesheet profile for a group you administer, identify the group here.</p> <p>This does not assign the timesheet profile to the users in the group; it only allows the group's administrators to modify the timesheet profile. You will assign the profile to users in Step 6.</p>
 
-      <p><b>NOTE</b>: When users outside the group are attaching timesheet profiles to other user, they won't be able to see or attach this timesheet profile.</p> </li> 
+   <p><b>NOTE</b>: When users outside the group are attaching timesheet profiles to other users, they won't be able to see or attach this timesheet profile.</p> </li> 
       </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -124,8 +115,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <p>A weekly timesheet begins on the date it is generated. For example, if you create weekly timesheets every Thursday, the first day of the week on the timesheet is Thursday.</p>
     
       
-      <p><b>NOTE</b>: Workfront always creates two timesheets at a time: the first timesheet always includes the current date, and the second timesheet starts when the time frame of the first one ends.</p> </p> </td> 
-    </tr> 
+   <p><b>NOTE</b>: Workfront always creates two timesheets at a time: the first timesheet always includes the current date, and the second timesheet starts when the time frame of the first one ends.</p> </p> </td> 
+   </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Approvers</strong></p> </td> 
       <td> <p> <p>Approvers are users who approve the timesheet for the users associated with the timesheet. You can identify up to 7 users as approvers on a timesheet. Identifying multiple users is useful to ensure an approver is available when someone is out of the office. All approvers are notified when a user submits the timesheet for approval. Only one user is required to approve the timesheet in order for it to be approved.</p> <p>Only users with timesheet administrative rights can be set as approvers. For more information about timesheet administrative rights, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Use the drop-down menu&nbsp;to select&nbsp;the approver&nbsp;for the timesheet (if an approver is required). You can select from the following options:</p> 
@@ -139,11 +130,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td role="rowheader"><strong>Can edit time </strong> </td> 
       <td> <p> <p>Select this option to allow the approvers to edit hours on the timesheet. 
 
-      This option works together with the **Restrict timesheet editing to owners and admins** setting in the Setup > Timesheet & Hours > Preferences area. For more information, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configure timesheet and hour preferences</a>.
+   <p>This option works together with the **Restrict timesheet editing to owners and admins** setting in the Setup > Timesheet & Hours > Preferences area. For more information, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configure timesheet and hour preferences</a>.</p>
 
-      The following scenarios exist: 
+   <p>The following scenarios exist: </p>
 
-      <ul>
+   <ul>
       <li>When the <b>Restrict timesheet editing to owners and admins</b> option is enabled:</li>
       <ul><li>Approvers can only approve and reject timesheet, regardless of whether the <b>Can edit time</b> is enabled or not. </li>
       <li>Timesheet owners' managers can only view their direct reports' timesheets.</li></ul>
@@ -153,9 +144,13 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <li>Timesheet owners' managers can submit, recall, reopen, and edit their direct reports' timesheets.</li></ul>
       </ul>
 
-      <p>
+   <p>
 
-      <b>NOTE</b>: Once you submit a timesheet for approval, you can no longer edit the hours. To return a submitted timesheet to an editable state, recall the timesheet or have the approver reject the timesheet. For more information, see <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Submit a timesheet for approval</a> and<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approve a timesheet</a>.</p> </p> </td> 
+   <b>NOTE</b>: Once you submit a timesheet for approval, you can no longer edit the hours. To return a submitted timesheet to an editable state, recall the timesheet or have the approver reject the timesheet. For more information, see <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Submit a timesheet for approval</a> and<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approve a timesheet</a>.</p> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Overtime</strong> </td> 
+      <td>You can choose to hide the Overtime box in timesheets. This option is disabled by default.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Available Hour Types</strong> </td> 
@@ -163,19 +158,18 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <p>By default, users see all general hours on a timesheet. However, if your organization wants only specific general hours to be shown for a particular set of users, you can select the general hours that they need to see in their timesheets by selecting them in their timesheet profile in this field. If you want to disable all general hours, deselect all hour types to generate the timesheet without a section for general hours.</p></td> 
      </tr> 
 
-     <tr> 
+   <tr> 
       <td role="rowheader"><strong>Reminder notifications</strong> </td> 
       <td> <p> Add a reminder notification. Workfront will send reminders to users to ask them to complete or approve their timesheets. You must create reminder notifications before you can associate them with a timesheet profile.  </p> </td> 
      </tr>
 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">Overtime</span> </td> 
-      <td>You can choose to hide the Overtime box in timesheets. This option is disabled by default.</td> 
-     </tr> 
-    </tbody> 
-    </table>
+1. When creating group-level timesheet profiles in Production, click the **Assign People** tab to associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-1. Click the **Assign People** tab to associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams. Begin typing the name of the user, group, or team, then click it when it appears in the drop-down list.
+   <span class="preview">When creating group-level timesheet profiles in Preview, scroll towards the bottom of the page and find the **Assign People** section.</span>
+
+   When creating timesheet profiles for the system, scroll towards the bottom of the page and find the **Assign People** section. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
+
+   Begin typing the name of the user, group, or team, then click it when it appears in the drop-down list.
 
    If you are a group administrator, you can assign the timesheet profile to groups you administer, but not to teams. For more information, see [Limitations for a group administrator assigning a timesheet profile](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) in this article.
 
@@ -187,13 +181,13 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. Click **Save**.
 
-1. At the top of the timesheet profile list, click the **More** icon ![More icon](assets/more-icon.png) for system-level timesheet profiles, or **More**, for group timesheet profiles, then click **Generate timesheets**. 
+1. At the top of the timesheet profile list, click the **More** icon ![More icon](assets/more-icon.png), then click **Generate timesheets**.
 
    A confirmation displays at the bottom of the screen that timesheets have been successfully generated. New timesheets are generated based on the new profiles you created. 
 
    For more information, see [Manually generate timesheets](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md). 
 
-   The first time the timesheet profile generates timesheets, 2 timesheets are created for each user, for both the timeframe that includes the current time as well as for the following timeframe. 
+   The first time the timesheet profile generates timesheets, two timesheets are created for each user, for both the timeframe that includes the current time as well as for the following timeframe. 
    
       After that, each time it generates new timesheets, one timesheet is created per user.
 
@@ -222,4 +216,4 @@ You can have more than one timesheet profile for your organization if there are:
 * Unique approvers for different sets of users
 * Unique general hours requirements for different sets of users
 
-One user cannot be associated with more than one timesheet profile at a time.&nbsp;
+One user cannot be associated with more than one timesheet profile at a time.

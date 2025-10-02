@@ -12,6 +12,21 @@ This page describes Project enhancements made with the Fourth Quarter 2025 relea
 
 For a list of all changes available at this point in the Fourth Quarter 2025 release cycle, see [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## New Project Health beta
+
+>[!NOTE]
+>
+>* Preview: September 11, 2025
+>* Production for all customers: September 11, 2025
+
+The new Project Health feature utilizes the power of AI Assistant to instantly give you an assessment of how your projects are performing and what areas need your attention.
+
+AI Assistant can generate a Project Health assessment for a project, a program, and multiple projects.
+
+For more, see [Project Health overview](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+
+This feature is currently in beta.
+
 <!--
 ## Create project intake forms in Workfront
 
