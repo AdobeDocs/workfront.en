@@ -126,7 +126,8 @@ To delegate approvals to another user:
 
    >[!NOTE]
    >
-   >Workfront administrators can disable approval delegations from the setup area. If approval delegations are disabled, you will not see the Delegate approvals button. 
+   >Workfront administrators can disable approval delegations from the setup area. If approval delegations are disabled, you will not see the Delegate approvals button.
+   
 1. Specify the following information in the Delegate My Approvals section:
 
    * **Name**: Begin typing the name of the user who you want to delegate approvals to, then click the name when it appears in the drop-down menu.

@@ -18,6 +18,60 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+### New interface and functionality for the New and Edit Milestone Path boxes 
+
+**Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
+
+The New and Edit Milestone Path boxes now have a new interface. The milestone path list has a new look and feel and some functionality in this area might have changed.  
+
+For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
+### Interface updates when adding or editing group timesheet profiles
+
+**Preview release: September 30, 2025; Production release: Starting the week of October 2, 2025**
+
+We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
+
+To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
+
+For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+
+
+### Interface updates for the Status lists
+
+**Preview release: October 2, 2025; Production release: October 9, 2025**
+
+We have updated the look and feel of Status lists to match the design in other areas of the application.
+
+This update affects:
+
+* The Statuses area under Setup > Project Preferences
+* The Statuses are when viewing a group
+
+### Interface updates for the Severities area in Setup
+
+**Preview release: September 25, 2025; Production release: October 9, 2025**
+
+We have updated the Severities page with a more modern design that is consistent with other areas of Workfront.
+
+A visible change in the interface is that to make a severity the default or to delete a severity, you must select the check box next to the severity name and choose an option from the action bar at the bottom of the screen.
+
+To view these changes, go to Setup > Project Preferences > Severities.
+
+For more information, see [Create or customize issue severities](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+
+### Interface updates for the Priorities area in Setup
+
+**Preview release: September 25, 2025; Production release: October 9, 2025**
+
+We have updated the Priorities page with a more modern design that is consistent with other areas of Workfront.
+
+A visible change in the interface is that to make a priority the default or to delete a priority, you must select the check box next to the priority name and choose an option from the action bar at the bottom of the screen.
+
+To view these changes, go to Setup > Project Preferences > Priorities.
+
+For more information, see [Create and customize priorities](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+
 ### Interface updates when adding or editing timesheet profile in the Setup area
 
 **Preview release: September 11, 2025; Production release: September 18, 2025**
@@ -168,6 +222,38 @@ For information, see [Edit programs](/help/quicksilver/manage-work/portfolios/cr
 
 ## Projects 
 
+### Interface updates for Billing Rates
+
+**Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
+
+We have updated the look and feel of the Billing Rates page on a project to match other areas of the application. The dialog boxes for adding and editing billing rates have also been updated.
+
+To view this change, go to a project > Billing Rates.
+
+For information, see [Override Job Role Billing Rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+
+### Interface updates for a project list or report when applying the Milestone view
+
+**Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
+
+We have updated the look and feel of a project list or report when you apply the Milestone view to them.
+
+The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+
+<!--### Interface updates for the Edit Tasks box
+
+**Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
+
+ We have updated the look and feel of the Edit Tasks box when editing tasks in bulk. The Edit Tasks box now matches the design of a single-task Edit box.   
+
+The following changes are included in this update: 
+
+*There is a new experience for assigning resources to tasks, when editing a single task and when editing tasks in bulk.  
+
+*The Resource Scope field has been removed from the Edit task box.  
+
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+
 ### Interface update when bulk editing templates
 
 **Preview release: September 18, 2025; Production release: September 25, 2025**
@@ -175,14 +261,6 @@ For information, see [Edit programs](/help/quicksilver/manage-work/portfolios/cr
 We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.  
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
-
-### Interface updates for a project list or report when applying the Milestone view
-
-**Preview release: September 11, 2025; Production release: September 18, 2025**
-
-We have updated the look and feel of a project list or report when you apply the Milestone view to them.
-
-The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 ### Interface changes for the Convert a task to a project without a template
 
@@ -386,7 +464,26 @@ For for more information, see
 * [Create Topic Groups](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [Create Routing Rules](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
+
 ## Users
+
+### Interface updates for the User Details page
+
+**Preview release: October 2, 2025; Production release: October 9, 2025**
+
+We have updated the look and feel of the User Details page to match other areas of the application.
+
+You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.
+
+### Interface updates for personal time off
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the personal time off calendar, including the ability to delegate approvals, to match other areas of the application.
+
+To view these changes, go to your user profile and click **Time Off** in the left panel.
+
+For more information, see [Configure personal time off](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) and [Delegate approval request](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ### Interface updates for the New User dialog
 
@@ -731,7 +828,7 @@ For information, see [Create a custom report](/help/quicksilver/reports-and-dash
 
 ### URLs with /tile or /qstile no longer supported in Workfront Dashboards
 
-**Preview release: May 13; Production release: To be announced**
+**Preview release: May 13; Production release: Starting May 20, 2025**
 
 If you have an external page on a Dashboard with a Workfront URL that contains `/tile` or `/qstile`, that page will no longer load.
 

@@ -26,7 +26,12 @@ Connecting record types is helpful when you have several types of work objects a
 
 This article describes how you can connect two Workfront Planning record types, or a Workfront Planning record type with an object from another application. 
 
-After you establish the connection between records or object types, you can connect individual records to one another, and display fields from the linked record or object types on a Workfront Planning record. 
+After you establish the connection between records or object types, a connection field is added to a Planning record type. In the connection field, you can connect individual records to one another, and display fields from the linked record or object types on a Workfront Planning record. 
+
+<!--
+>[!CAUTION]
+>
+><span class="preview">One record type can have up to 30 connection fields.</span>-->
 
 For general information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -120,20 +125,19 @@ For an example of connecting record types and records, see [Example of connectin
 1. Click the card of a record type to open the record type page. 
 1. Click the **+** icon in the upper-right corner of the table view, then click the **New connection** tab.
 
-    ![New connection tab with Workfront AEM options](assets/new-connection-tab-with-workfront-aem-options.png)
+    ![New connection tab with Workfront AEM options](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-1. In the **Record type** field, search for a record type, or select one of the following: 
+1. Search for a record type, or select one of the following: 
 
-    * Another record type from the current workspace
+    * <span class="preview">A record type from the current workspace</span>
 
-        ![Many to many connection picker](assets/many-to-many-connection-picker.png)
+        <span class="preview">![Multi-select connection picker for same-workspace record type](assets/multi-select-connection-picker-record-type.png)</span>
 
         >[!TIP]
         >
         > 
         >If you don't have other record types in the selected workspace, the workspace section does not display. 
         
-
     * A record type from another workspace that was configured to connect from other workspaces. 
     
         >[!TIP]
@@ -143,13 +147,13 @@ For an example of connecting record types and records, see [Example of connectin
 
         For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
 
-        ![New connection to allow multiple records box](assets/new-connection-allow-multiple-records-box.png)
+        ![New connection to allow multiple records box](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-    * A **Project, Portfolio, Program, Company**, or **Group** from the **Workfront Object Types** section.
+    * <span class="preview">A **Project, Portfolio, Program, Company**, or **Group** from the **Workfront Object Types** section.</span>
 
-        ![Workfront project connection selection](assets/workfront-project-connection-selection.png)
+        <span class="preview">![Workfront project connection selection](assets/multi-select-connection-picker-project.png)</span>
 
-    * **Experience Manager Assets** from the **Adobe Applications** section. 
+    * **Experience Manager Assets** from the **Adobe Applications** section. <!--update screen shot??-->
 
         ![AEM Assets connection selection](assets/aem-assets-connection-selection.png)
 
@@ -164,7 +168,7 @@ For an example of connecting record types and records, see [Example of connectin
 1. Update the **Description** field by adding information about the connected record field. The description of a field displays when you hover over the field's column in a table. 
 1. (Conditional) When you connect record types from two different workspaces or a record and an Adobe Experience Manager asset object, select the **Allow multiple records**. By selecting it, you indicate that you allow users to add multiple records when the connected record type field displays on the original records. This is selected by default.  
     
-    ![New connection to allow multiple records box](assets/new-connection-allow-multiple-records-box.png)
+    ![New connection to record type from another workspace](assets/new-connection-allow-multiple-records-box.png)
     
 1. (Conditional) When you connect record types from the same workspace, or a Planning record type with a Workfront object type, do one of the following, depending on which environment you are using: 
 
@@ -189,7 +193,9 @@ For an example of connecting record types and records, see [Example of connectin
 
             >[!TIP]
             >
-            >There is a limit of 500 connections for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit.
+            >There is a limit of 500 fields for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit.
+
+            <!--<span class="preview">There is a limit of 30 connected fields for a record type.</span>-->
 
         3. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
 
@@ -340,7 +346,7 @@ For an example of connecting record types and records, see [Example of connectin
 
         >[!TIP]
         >
-        > A linked record field  is not created for objects from another application to the record type you are linking from in Workfront Planning. <!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a 500 connection field limit for every record type.</span>--> 
+        > A linked record field  is not created for objects from another application to the record type you are linking from in Workfront Planning. <!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a limit of 500 fields for every record type.</span>--> 
 
     <!--see the span preview text in the TIP above; it might not show up in green-->
 
