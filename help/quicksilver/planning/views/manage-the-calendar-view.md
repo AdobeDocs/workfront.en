@@ -110,9 +110,13 @@ To manage a calendar view:
 1. Go to the record type page for which you want to view the calendar. 
 1. Create a calendar view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
+    <div class="preview">
+
     ![Calendar view example](assets/calendar-view-example.png)
 
     The records associated with the record type you selected display as bars in a calendar. The color of the bars matches the color of the record icon, by default. 
+
+    </div>
 
 1. Do one of the following to navigate through the calendar:
 

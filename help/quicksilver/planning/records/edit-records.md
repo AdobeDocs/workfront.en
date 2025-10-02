@@ -229,7 +229,7 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 
     <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
-1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
+1. <span class="preview">Click and hold a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
 
 1. Click the bar of a record to open its details area and edit all fields. 
 
@@ -244,7 +244,7 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 
     <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
-1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
+1. <span class="preview">Click and hold a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
 
 1. Click the bar of a record to open its details area and edit all fields. 
 
@@ -372,11 +372,11 @@ For more information, see [Manage record connections from Workfront objects](/he
 
 <div class="preview">
 
-## Edit information on single- or multi-select fields
+## Edit single- or multi-select field settings when updating their values
 
 <!--some of this information is also available in Edit fields article - update both when necessary-->
 
-When editing information in a single-or multi-select field, you can add new choices to the field, without having to edit the field. 
+When you update information in a single-or multi-select field, you can add new choices to the field, without having to edit the field. 
 
 >[!IMPORTANT]
 >
