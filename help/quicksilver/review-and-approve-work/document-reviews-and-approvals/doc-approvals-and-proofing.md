@@ -92,8 +92,6 @@ To add a new version:
 
 The document does not move to an approved status until all assigned approvers choose "approved".
 
-If any one approver chooses "needs work", the status of the document immediately changes to Needs work. The document needs to be revised and uploaded as a new version with a new approval workflow. 
-
 To review and approve a document:
 
 1. Go to your review email notification, and click to **Go to review**.

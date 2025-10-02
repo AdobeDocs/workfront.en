@@ -11,9 +11,18 @@ exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
 
 >[!IMPORTANT]
 >
->The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
+>If you have feedback regarding a possible bug or technical issue, please submit a ticket to Workfront Support. For more information, see [Contact Customer Support](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Please note that this beta is not available on the following cloud providers:
+>
+>* Bring Your Own Key for Amazon Web Services
+>* Azure
+>* Google Cloud Platform 
+
 
 You can apply a filter to a Canvas Dashboard that contains prompts. A prompt works as a filter modifier that applies additional filtering criteria so you can narrow your results down even further. These prompts can be modified each time you apply the filter, allowing you to adjust the displayed results without needing to edit the main filter criteria of the dashboard or each individual report. 
+
+## Access Requirements
 
 +++ Expand to view access requirements. 
 

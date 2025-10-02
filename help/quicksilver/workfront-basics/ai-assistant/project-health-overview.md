@@ -5,8 +5,6 @@ description: The Project Health feature utilizes the power of AI Assistant to in
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-hide: yes
-hidefromtoc: yes
 ---
 # Project Health overview
 
@@ -62,14 +60,18 @@ For more detail about the information in this table, see [Access requirements in
 
 In order to utilize Project Health, your organization must have AI Assistant enabled.  
 
-To enable AI Assistant for your organization, all of the following must apply: 
+To enable AI Assistant and Project Health for your organization, all of the following must apply: 
 
 * Your organization must have migrated to Adobe IMS (Identity Management System). 
+* Your organization must have a Select, Prime, or Ultimate Workfront plan
 * The Adobe Unified Experience must be enabled. 
 * Adobe must have a signed Adobe Gen AI agreement on file.
 * The Workfront administrator must enable AI Assistant for users in your organization. AI Assistant is enabled through access levels. 
+* Both the Enable AI and Project Health options must be selected in the AI preferences section at Setup > Preferences.
 
-For more information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+    ![AI Preferences section](assets/ai-preferences.png)
+
+For more information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) and [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## AI Assistant prompts list 
 
@@ -105,24 +107,53 @@ Below is a list of prompts you can use to ask AI Assessment to generate a Projec
 
 ## Project and program conditions list 
 
-Below are the available conditions AI Assistant will assign your project or program when generating a Project Health assessment.
+Below are the available conditions AI Assistant will assign your project or program when generating a Project Health assessment. 
 
    <table>
     <tr>
         <td><b>Project Condition</b></td>
         <td><b>Project Progress Status</b></td>
+        <td><b>Project Condition Factors</b></td>
     </tr>
     <tr>
         <td>On Target</td>
-        <td>When the project's Progress Status is On Time, the project condition is On Target.</td>
+        <td>This analysis is assigned when the average risk level for the following factors falls within the healthy threshold.
+        </td>
+        <td> 
+        <ul><li>Scope creep</li>
+        <li>Missing fields</li>
+        <li>Schedule changes</li>
+        <li>Underestimated work</li>
+        <li>Project progress</li>
+        <li>Overdue tasks</li>
+        <li>Budget</li>
+        </ul></td>
     </tr>
     <tr>
         <td>At Risk</td>
-        <td>When the project's Progress Status is Behind or At Risk, the project condition is At Risk.</td>
+        <td>This analysis is assigned when the average risk level for the following factors falls just below the healthy threshold.</td>
+        <td>
+        <ul><li>Scope creep</li>
+        <li>Missing fields</li>
+        <li>Schedule changes</li>
+        <li>Underestimated work</li>
+        <li>Project progress</li>
+        <li>Overdue tasks</li>
+        <li>Budget</li>
+        </ul></td>
     </tr>
     <tr>
         <td>In Trouble</td>
-        <td>When the project's Progress Status is Late, the project condition is At Risk.</td>
+        <td>This analysis is assigned when the average risk level for the following factors falls below the healthy threshold.</td>
+        <td>
+        <ul><li>Scope creep</li>
+        <li>Missing fields</li>
+        <li>Schedule changes</li>
+        <li>Underestimated work</li>
+        <li>Project progress</li>
+        <li>Overdue tasks</li>
+        <li>Budget</li>
+        </ul></td>
     </tr>
     </tr>
    </table>
@@ -254,6 +285,7 @@ A project will only be included in the combined Project Health assessment if the
 
 1. After reviewing the projects' health details, click the **Close** icon ![Close icon](assets/close-icon.png) in the upper-right corner of AI Assistant to close it. 
 
+<!--
 
 ## Build a Project Health table report in a Canvas Dashboard
 
@@ -308,3 +340,5 @@ There are many configuration options available for building a Project Health tab
     1. Click the **Add grouping** button and then select the field you want to create as a grouping. The grouping column appears in the preview section on the right. 
 
 1. Click **Save** to create the report.
+
+-->

@@ -4,11 +4,13 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Configure personal time off
 description: It is important to indicate in Adobe Workfront when approved time off happens, because this affects your schedule and impacts the Planned Completion Dates of the tasks you are assigned to.
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
 ---
 # Configure personal time off
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -62,16 +64,19 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step1-click-profile-pic}}
 
->[!NOTE]
->
->If you are on the Adobe Unified Experience, you can access your Workfront profile by clicking the Adobe account menu (your profile picture) in the top navigation area, then choosing Workfront Profile.
->
->![workfront profile](assets/aue-profile.png)
-
+   >[!NOTE]
+   >
+   >If you are on the Adobe Unified Experience, you can access your Workfront profile by clicking the Adobe account menu (your profile picture) in the top navigation area, then choosing Workfront Profile.
+   >
+   >![workfront profile](assets/aue-profile.png)
 
 1. In the left panel, click **[!UICONTROL Time Off]**.
 1. Select the desired date for your personal time off.
 
+   <span class="preview">Sample image in the Preview environment:</span>
+   ![Personal time off calendar](assets/personal-time-off-calendar-0925.png)
+
+   Sample image in the Production environment:
    ![Personal time off calendar](assets/personal-time-off-calendar.png)
 
 1. Select **[!UICONTROL All day]**, if you are taking a full day off.

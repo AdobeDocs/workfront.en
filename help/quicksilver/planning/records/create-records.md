@@ -26,16 +26,9 @@ You can create records by doing one of the following:
 <div class="preview">
 
 * [Add them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)
-
-</div>
-
-<!--
-<div class="preview">
-
 * [Add them in the record type calendar view](#create-records-by-adding-them-in-the-record-type-calendar-view)
 
 </div>
--->
 
 * [Copy and paste a list of records from an external list](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicate records from a table view](#create-records-by-duplicating-them)
@@ -301,7 +294,7 @@ For information about creating a timeline view, see [Manage the timeline view](/
     >You can create a timeline view only if there are at least two date fields associated with the record type.
 1. Double-click anywhere in the timeline. 
 
-    A new record box opens. <!--might need a new screen shot for Production - might add a title etc-->
+    The **New record** box opens. <!--might need a new screen shot for Production - might add a title etc-->
 
     ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
 1. Update the following information:
@@ -329,6 +322,10 @@ For information about creating a timeline view, see [Manage the timeline view](/
     * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
 
     The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
+    
+1. (Optional) Hover over one of the record bar's margins in the timeline, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
+
+    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 
 1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
 
@@ -339,8 +336,6 @@ For information about creating a timeline view, see [Manage the timeline view](/
     >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
 
 </div>
-
-<!--
 
 <div class="preview">
 
@@ -367,7 +362,7 @@ For information about creating a calendar view, see [Manage the calendar view](/
     >You can create a calendar view only if there are at least two date fields associated with the record type.
 1. Double-click anywhere on the calendar. 
 
-    A new record box opens. (********might need a new screen shot for Production - might add a title etc*********)
+    The **New record** box opens. <!--(********might need a new screen shot for Production - might add a title etc*********ALSO CHECK IF THE SAME ONE NEEDS REPLACING FOR TIMELINE?????)-->
 
     ![New record box on calendar with unnamed record bar](assets/new-record-small-box-on-calendar.png)
 
@@ -381,9 +376,9 @@ For information about creating a calendar view, see [Manage the calendar view](/
 
     * **Record date fields**: Update the dates of the record. 
         
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the calendar view was created.
 
-        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+        By default, date values are preselected depending on how you display the calendar view. The following scenarios exist:
 
         * By **Month**: The record start and end dates span one day.
         * By **Week**: The record start and end dates span two days.
@@ -395,7 +390,9 @@ For information about creating a calendar view, see [Manage the calendar view](/
     * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
 
     The record is added to the calendar as well as to the table and timeline views immediately, unless you clicked the **Delete** icon. 
+1. (Optional and conditional) Choose **Month** from the upper-corner dropdown menu, hover over one of the record bar's margins in the calendar, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
 
+    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 1. (Optional) Click the record bar in the calendar to open the record's details window and update its information, delete it, or add comments. 
 
     >[!TIP]
@@ -404,9 +401,10 @@ For information about creating a calendar view, see [Manage the calendar view](/
     >
     >The thumbnail displays in the calendar view only when it is enabled in the Settings of the view. 
 
-</div>
+    <!--(*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)-->
 
--->
+    </div> 
+
 
 ## Create records by copying and pasting them from an external list
 

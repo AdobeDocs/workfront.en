@@ -106,6 +106,10 @@ The view is deleted for all users who have permissions to access it. Deleted vie
    >
    >You might need to click **More** to the right of the last tab to find the view you want to delete.
 
+   <!--at preview release, replace the step above with this one: 
+    1. Depending on which environment you use, do the following: 
+    * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**. 
+    * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Delete**.</span>-->
 
 1. Click **Delete** to confirm. <!--ensure there is not another saving step here?!-->
     

@@ -3,7 +3,7 @@ content-type: reference
 product-area: projects
 navigation-topic: financials
 title: Calculate Budgeted Cost
-description: Calculate Budgeted CostTracking Project Progress with a Utilization Report""
+description: Calculate Budgeted CostTracking Project Progress with a Utilization Report
 author: Lisa
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa

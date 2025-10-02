@@ -2,7 +2,7 @@
 navigation-topic: business-case-and-scorecards
 title: Attach a Custom Form to a Business Case
 description: Custom Forms are used to collect information that is not displayed in existing Adobe Workfront fields.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
 ---
@@ -23,15 +23,14 @@ For more information about creating Custom Forms, see the article [Create a cust
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
-   <td> <p>Current: Prime or higher</p>
-   <p>Legacy: Pro or higher</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> <p>Prime or higher</p>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront license/p></td> 
    <td> 
-   <p>Current: Standard </p> 
-   <p>Legacy: Plan </p> </td> 
+   <p>Standard </p> 
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -44,7 +43,7 @@ For more information about creating Custom Forms, see the article [Create a cust
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -64,19 +63,19 @@ For information about attaching custom forms to objects, see [Add a custom form 
 
 ## Attach Custom Forms to the Business Case
 
-To add a custom from to a Business Case, your Workfront administrator needs to select this option in Setup. For more information about enabling custom forms in Setup, see the section [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) in the article [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+To add a custom from to a Business Case, your Workfront administrator needs to select this option in Setup. For more information about enabling custom forms in Setup, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 To attach a custom form:
 
-1. Go to the project you want to attach the form to, then click **Business Case** in the left panel.
+1. Go to the project you want to attach the form to, then click **Business Case** in the left panel. The Business Case displays.
 
-   The Business Case displays.
+1. In the&nbsp;**Custom Form** section, select the custom form you want to attach from the drop-down menu. The custom form appears in the **Added forms** section below. 
 
-1. In the&nbsp;**Custom Form** section, select the custom form you want to attach from the drop-down menu.
+1. (Optional) To expand the custom form details, click the arrow to the left of the custom form name.
 
-   <!--![Custom forms dropdown](assets/custom-forms-drop-down-menu.png)-->
+      ![Expand custom form details](assets/expand-custom-form-details.png)
 
-1. (Optional) Select&nbsp;**Edit Custom Form**.  
-   <!--![Edit custom form](assets/acf1-350x122.png)-->
+<!--1. (Optional) Select&nbsp;**Edit Custom Form**.  
+  ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** .
+1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** . -->

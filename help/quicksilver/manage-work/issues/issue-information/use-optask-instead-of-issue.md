@@ -13,7 +13,7 @@ The name of an issue appears as `opTask` in the Adobe Workfront database. Althou
 
 For more information about how objects appear in the Workfront database, refer to the [API Explorer](https://developer.adobe.com/workfront/api-explorer/).
 
-## `opTask` filename
+## `opTask` field name
 
 Use the `opTask` field name when referencing issues in the following contexts:
 
@@ -28,7 +28,7 @@ Use the `opTask` field name when referencing issues in the following contexts:
 
   For more information about importing data in Workfront using a Kick-Start, see [Import data into Adobe Workfront using a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-## `issue` field ename 
+## `issue` field name 
 
 Use the `issue` field name to reference issues in the following contexts:
 
