@@ -141,15 +141,15 @@ To create a request in the Workfront web app:
 
     The **New request** box opens.
 
-1. (Conditional) If you switched to the new experience that includes Workfront Planning, and are in the production environment, the **New request** box displays the following:</span>
+1. (Conditional) If you switched to the new experience, and are in the production environment, the **New request** box displays the following:</span>
 
     <ul><li>The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. </li>
     <li>All additional Workfront and Planning request forms <b>All request forms</b> section. You can search for a request forms that does not display by default. </li>
     <li>All additional Workfront and Planning request queue paths display in the <b>All request paths</b> section. You can search for a request queue that does not display by default.</li></ul>
    Click one of the Workfront request queue paths or forms, or search for one, then click it when it displays in the list. 
-1. <span class="preview">(Conditional) If you switched to the new experience that includes Workfront Planning, select one of the Workfront request queue paths or forms, or click the search bar. </span>
+1. <span class="preview">(Conditional) If you switched to the new experience, select one of the Workfront request queue paths or forms, or click the search bar. </span>
 
-   <span class="preview">When you click the search bar, a dropdown appears showing the most recently used queues and forms first. Select one from the list, or begin typing and select the queue or list when it appears.</span>
+   <span class="preview">When you click the search bar, a dropdown appears showing the most recently used queues and forms first. Select one from the list, or begin typing and select the queue or form when it appears.</span>
    
    >[!NOTE]
    >
@@ -159,7 +159,7 @@ To create a request in the Workfront web app:
    >* <span class="preview">To display only Workfront Request queues, filter for `Issue` object types.</span>
    >* <span class="preview">In the new requesting experience, drafts are found in the same list as submitted requests.</span>
 
-1. (Conditional) If you switched to the new experience that includes Workfront Planning, select your topic groups and queue topics and continue updating the form.
+1. (Conditional) If you switched to the new experience, select your topic groups and queue topics and continue updating the form.
 
     Otherwise, click inside the **Request Type** field and do one of the following:
 
@@ -342,7 +342,7 @@ To create a request in the Workfront web app:
 
    When you submit the request, the draft automatically deletes and cannot be restored.
 
-   Submitted requests are listed in the **Submitted** section of the Requests area. If you are using the new experience that includes Workfront Planning, the Workfront submitted requests display in the **Workfront** tab of the Requests area. 
+   Submitted requests are listed in the **Submitted** section of the Requests area. If you are using the new experience, the Workfront submitted requests display in the **Workfront** tab of the Requests area. 
 
    For information about addressing incoming requests, see the article [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
