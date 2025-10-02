@@ -6,8 +6,6 @@ description: Get started with the Frame.io integration.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: yes
-hidefromtoc: yes
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
 ---
 # Get started with the Frame.io integration
@@ -36,7 +34,7 @@ After the approval workflow is created, reviewers and approvers can use the Fram
 For more information about setting up projects, see 
 
 * [Create a project](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-<!--* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)-->
+* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
 
 ### Initiate formal reviews and approvals in Workfront
 
@@ -66,7 +64,7 @@ Reviewers and approvers can be added to a single-use approval workflow or a reus
 
 Once the review and approval workflow is initiated in Workfront, reviewers and approvers can access the Frame.io viewer to add comments, mark up the asset, and make a decision. 
 
-<!--For more information, see [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).-->
+For more information, see [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).
 
 #### Access the Frame.io viewer
 
@@ -77,7 +75,7 @@ Users can access the Frame.io viewer in the following ways:
 
 >[!NOTE]
 >
->External Workfront users are notified via email and will be asked to create a Frame.io login to review and approve assets. <!--is this still accurate?-->
+>External Workfront users are notified via email and will be asked to create a Frame.io login to review and approve assets.
 
 ![open the frame viewer from Home](assets/open-fio-viewwer.png)
 
