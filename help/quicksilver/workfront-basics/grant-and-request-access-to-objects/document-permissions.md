@@ -18,7 +18,10 @@ Users can also share documents they've uploaded or have access to, giving others
 * The person who uploads a document automatically gets full control (Manage permissions).
 * To share an entire folder, see [Share a document folder](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-If your Workfront instance uses enterprise storage, you cannot share individual documents. Instead, you grand access at the project level. Keep in mind that sharing the project can grants access to sensitive project information like finanicals depeding on the level of permission chosen. 
+>[!NOTE]
+>
+>If your Workfront instance uses Adobe Enterprise Storage, you cannot share individual documents. Instead, you grand access at the project level. Keep in mind that sharing the project can grants access to sensitive project information like finanicals depeding on the level of permission chosen. 
+
 
 
 ## Access requirements
