@@ -1,8 +1,9 @@
 ---
 title: Cross-workspace Record Types Overview
-description: Centralized record types can be added to multiple workspaces from a central or primary workspace in Adobe Workfront Planning. 
+description: Centralized record types can be added to multiple workspaces from a central or primary workspace in Adobe Workfront Planning.
 hidefromtoc: yes
 hide: yes
+exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
 ---
 <!-- add these to the metadata, when making this public: 
 
@@ -18,7 +19,7 @@ In Adobe Workfront Planning, you can enable cross-workspace capabilities for a r
 
 The following are cross-workspace capabilities of record types:
 
-* You can designate a record type as centralized. Users can add centralized record types to other workspaces they can manage. 
+* You can designate a record type as centralized. Users can add centralized record types to other workspaces they manage. 
 
     >[!IMPORTANT]
     >
@@ -33,7 +34,7 @@ This article gives you an overview of cross-workspace record types. For informat
 
 ## Overview of centralized record types
 
-Centralized record types can be added to multiple workspaces from a central or primary workspace in Adobe Workfront Planning. 
+Centralized record types can be added to multiple workspaces from a central or primary workspace in Workfront Planning. 
 
 When implementing Workfront Planning for a multi-team organization with common workflows, you might need to define a cohesive structure and metadata for key record types (like Campaigns or Deliverables) that can be added to each team's workspaces to capture and manage their work. 
 
@@ -45,12 +46,12 @@ To use centralized record types, do the following:
 
 1. Configure a record type to be centralized in a specific workspace. 
 
-    A workspace manager can select users with a Standard license, teams, groups, roles, or companies to add a chosen record type to a workspaces they manage.
+    A workspace manager can give permissions to users with a Standard license, or teams, groups, roles, and companies to add a chosen record type to a workspaces they manage.
 
-    The original record type will exist in its original workspace but will be made visible from all other workspaces. 
+    The original record type will exist in its original workspace but will be made visible in other workspaces. 
 
     For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). 
-1. Add a record type from an existing one that has been configured as a centralized record type to a secondary workspace. 
+1. Add a record type to a secondary workspace from an existing one that has been configured as a centralized record type.
 
     The record type will exist in the following workspaces: 
 
@@ -65,7 +66,7 @@ To use centralized record types, do the following:
 
 The record type configured to be centralized has the following properties:
 
-* All its information can only be edited in the original workspace. 
+* All its information (appearance, original fields) can only be edited in the original workspace. 
 
 * You can perform the following actions on the centralized record type from a centralized record type's original workspace:
 
@@ -75,25 +76,25 @@ The record type configured to be centralized has the following properties:
     * Create request forms
     * Manage request forms
 
-* You can only delete a centralized record type only if it has not been added to a secondary workspace. After it is added to another workspace, trying to delete it from the original workspace will generate an error.
+* You can delete a centralized record type only if it has not been added to a secondary workspace. After it is added to another workspace, trying to delete it from the original workspace will generate an error.
 
     This is done so that the centralized record type can remain in the workspaces where it's already been added. 
 * The records that you add to a centralized record type are visible only to users who have View permissions to the workspace where they were added. 
-* The records that you add from a secondary workspace roll up and display in the original workspace. All members of the original workspace gain View permissions to it.
+* The records that you add from a secondary workspace roll up and display in the original workspace. All members of the original workspace gain View permissions to them.
 
 * The connected record types of a centralized record type will become available for connection from the workspaces where this record type is added. 
 
     For example, if you have a Campaign record type that has a connection with Regions record type, and you add the Campaign record type to a secondary workspace, Regions will become cross-workspace connectable for the secondary workspace. The secondary workspace members can now create campaigns and link them to regions.
 
-* Fields created for a centralized record type from the original workspace are visible from all workspaces where the record type is added. Fields from an original workspace are read-only in the secondary workspaces. 
+* Fields created for a centralized record type from the original workspace are visible from all workspaces where the record type is added. The field settings from an original workspace are read-only in the secondary workspaces. 
 
 ### Considerations about centralized record types after adding them to a secondary workspace
 
-* Secondary workspace contributors gain Contribute permission to the centralized record type in their team's workspace. They can add and manage records in it.
+* Secondary workspace contributors gain Contribute permission to the centralized record type in their team's workspace. They can add and manage records in it from the secondary workspace.
 
-* Secondary workspace viewers gain View permission to the centralized record type in their team's workspace. They cannot add and manage records it in. 
+* Secondary workspace viewers gain View permission to the centralized record type in their team's workspace. They cannot add and manage records in it.  
 
-* Secondary workspace managers can perform the following actions on the record type added from a centralized record type in a secondary workspace:
+* Secondary workspace managers can perform the following additional actions on the record type added from a centralized record type in a secondary workspace:
 
     * Delete it. 
 
@@ -104,26 +105,25 @@ The record type configured to be centralized has the following properties:
         Fields added to a centralized record from a secondary workspace are visible only from the secondary workspace. 
     * Share it-->
 
-* You cannot perform the following actions on the record type added from a centralized record type in a secondary workspace:
+* No user can perform the following actions on the record type added from a centralized record type in a secondary workspace:
 
     * Edit it
 
-        You cannot edit its appearance, cross-workspace capabilities, or the fields added from the original workspace.
+        You cannot edit its appearance, cross-workspace capabilities, or the fields added from the original workspace. 
     * Create and manage request forms
-    * Crate and manage request forms
+    * Crate and manage automations
 
-* Records added in a secondary workspaces are visible from the following workspaces, if you have View or higher permissions to these workspaces: 
+* Records added in a secondary workspaces are visible from the following workspaces, only if you have View or higher permissions to these workspaces: 
 
     * The secondary workspace where they are added. 
     * The centralized record type's original workspace.
     * All other workspaces where the centralized workspace is added.
 
-* The following scenarios exist for records created in teams' workspaces: 
+* The following scenarios exist for records created in secondary workspaces: 
 
     * If you have Manage permissions on the original workspace, and no permissions on a secondary workspaces, you can view records added from the secondary workspaces in the original workspace, but you cannot manage them from the original workspace. 
     * If you have Manage permissions on the secondary workspace, you can manage the records in the centralized record type's original workspace or from the workspace where they were added. 
-    
-        You can view the records in additional secondary workspaces where the centralized record type is added only if you have View permissions to those workspaces. 
+    * You can view the records in additional secondary workspaces where the centralized record type is added only if you have View permissions to those workspaces. 
 
 ### Access to the connections of a centralized record type
 
@@ -149,7 +149,7 @@ To use connectable record types, do the following:
 
 1. Configure a record type to be connectable in a specific workspace. 
 
-    A workspace manager can select select what workspaces a designated record type is available to connect to. 
+    A workspace manager can select select what workspaces a designated record type is available to connect to from other workspaces. 
 
     The original record type will exist in its original workspace and it will be added as a connected record type to another workspace. 
 
@@ -157,5 +157,3 @@ To use connectable record types, do the following:
 1. Connect to a record type designated as connectable from another workspace you manage. 
 
     For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
-
-    The following sections describe considerations about centralized record types and how they function in either their original or secondary workspaces. 

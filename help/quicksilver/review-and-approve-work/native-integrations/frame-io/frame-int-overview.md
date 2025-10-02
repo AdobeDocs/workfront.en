@@ -5,25 +5,22 @@ title: Frame.io integration overview
 description: Frame.io integration overview
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: yes
-hidefromtoc: yes
 recommendations: noDisplay, noCatalog
-
+exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
 ---
-
 # Frame.io integration overview
 
 The Workfront and Frame.io integration allows project coordinators to manage projects and plan work in Workfront while creatives, marketers, and stakeholders can review and approve assets in Frame.io.
 
 ## Built on Adobe enterprise storage
 
-At the core of this integration is Adobe enterprise storage—-a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products, including Workfront, Frame.io, and Creative Cloud.
+At the core of this integration is Adobe enterprise storage—-a cloud-based storage solution that serves as the central repository for assets across Adobe enterprise products, including Workfront and Frame.io. <!--, and Creative Cloud.-->
 
 Key benefits of Adobe enterprise storage include:
 
 * Unified storage layer for creative and work management assets
 * Centralized permissions via Adobe IMS for secure access control
-* End-to-end asset visibility across Workfront, Frame.io, and Creative Cloud apps <!--coming soon?-->
+* End-to-end asset visibility across Workfront and Frame.io <!--, and Creative Cloud apps -->
 * Scalable storage and quota management for enterprise needs
 
 For more details, see [Adobe enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
@@ -55,7 +52,7 @@ For more information, see [Get started with the Frame.io integration](/help/quic
 
 #### Video review limits
 
-There is an annual cap for video proof requests set at 10% of an organization's total paid Workfront user licenses (Standard and Light). This cap is applied at the organization level. 
+There is an annual cap for video proof requests set at 10% of an organization's total paid Workfront user licenses--Standard and Light. This cap is applied at the organization level. 
 
 Workfront administrators will receive notifications when usage reaches 80% and 100% of the cap.
 
@@ -67,11 +64,11 @@ The Frame.io viewer supports all common video, image, audio, PDF, and MS&reg; Of
 
 #### Access and licensing for the Frame.io viewer
 
-The Frame.io viewer is available to all Workfront users with a paid license. No additional Frame.io license is required to use the Frame.io viewer for reviews and approvals with this integration. 
+The Frame.io viewer is the default viewer for all Workfront review and approval workflows. It is is automatically included for all Workfront users with a paid license. No additional Frame.io license is required to use the Frame.io viewer for reviews and approvals.
 
-If your organization wants to take advantage of additional Frame.io functionality, such as uploading assets directly to projects in Frame.io, you can purchase a Frame.io enterprise license. Contact your Adobe account representative to schedule a demo and explore the benefits of the full Frame.io solution.
+If your organization wants to take advantage of additional Frame.io functionality available with this integration, such as uploading assets directly to projects in Frame.io, you can purchase a Frame.io enterprise license. Contact your Adobe account representative to schedule a demo and explore the benefits of the full Frame.io solution.
 
-Workfront proofing functionality is not available with this integration.
+Workfront Proofing functionality is not available with this integration.
 
 ## Powerful project management in Workfront
 
@@ -89,24 +86,49 @@ Because this integration is built using ESM, there are some enforced structure a
 
 With these limitations in mind, Workfront automatically renames objects or documents as needed to prevent conflicts.
 
+### Sharing and permissions
+
+As part of the integration, user permissions are controlled in Workfront and flow down to Frame.io. This means you cannot invite a user to a project in Frame.io or modify user permissions in Frame.io. These actions need to be done via the Project Share modal in Workfront.
+
+The following table shows how Workfront permissions map to Frame.io permissions:
+
+<table>
+<tr>
+<th>Workfront user permission</th>
+<th>Frame.io user permission</th>
+</tr>
+<tr>
+<td>Manage</td>
+<td>Edit & Share</td>
+</tr>
+<tr>
+<td>Contribute</td>
+<td>Edit & Share</td>
+</tr>
+<tr>
+<td>View</td>
+<td>Comment Only</td>
+</tr>
+</table>
+
+
+
 ### Document management in Workfront
 
 Documents are managed at the project level with this integration and can't be uploaded to tasks or issues at this time. 
 
 Document access is also managed at the project level. If a user has access to a project, they can access all documents associated with that project.
 
-<!--Documents can't be dragged as full folders.-->
-
 ### Document experience limitations
 
-Because this integration is built using ESM, there are some limitations to the original document experience in Workfront:
+Because this integration is built using Adobe enterprise storage, there are some limitations to the original document experience in Workfront:
 
 #### Limitations
 
 The following capabilities will not be included in this integration:
 
 <!--* External document providers-->
-* Access to proofing
+* Access to Proofing in Workfront
 * Document viewer in Workfront
 * Favorite documents
 * Request documents
@@ -120,6 +142,3 @@ For now, the following capabilities are not available:
 * Multi-stage approvals
 * Upload documents to comments or updates in Workfront
 * Upload documents to tasks or issues in Workfront-->
-
-
-

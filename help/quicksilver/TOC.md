@@ -880,6 +880,7 @@ feature-set: Workfront
     * [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
     * [Summarize using AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
     * [Get help from AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
+    * [AI Assistant prompts best practices](/help/quicksilver/workfront-basics/ai-assistant/ai-prompts-best-practices.md)
     * [Revise calculated field formulas with AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
     * [Use AI Assistant to work with projects, tasks, and issues](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
     * [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
@@ -1446,6 +1447,7 @@ feature-set: Workfront
       * [Add an existing program to a portfolio](manage-work/portfolios/create-and-manage-programs/move-program.md)
       * [Add a project to a program](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
       * [Remove a project from a program](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
+      * [Delete and deactivate programs](manage-work/portfolios/create-and-manage-programs/delete-and-deactivate-programs.md)
     * Manage projects in the Portfolio Optimizer {#manage-projects-in-portfolio-optimizer}
       * [Manage projects in the Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
       * [Portfolio Optimizer overview](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
@@ -1475,6 +1477,7 @@ feature-set: Workfront
       * [Copy and submit requests](manage-work/requests/create-requests/copy-and-submit-requests.md)
       * [Auto-fill a request from previous data](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
       * [Auto-fill a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+      * [Create views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
   * Delegate work {#delegate-work}
     * [Delegate work](manage-work/delegate-work/delegate-work.md)
     * [Delegate tasks and issues overview](manage-work/delegate-work/delegate-work-overview.md)

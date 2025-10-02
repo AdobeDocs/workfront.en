@@ -54,6 +54,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Confirmation when removing a custom form from an object</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>To make sure you retain access to the data you need, we've added a confirmation dialog when removing a custom form from an object. Removing a custom form from an object permanently removes the data in that form from the object. Now, the dialog allows you to confirm that you understand that this data will be removed, ensuring that you do not remove data that you require. </p>
+        </td>
+        <td>September 24, 2025</td>
+        <td>September 25, 2025</td>
+        <td>September 25, 2025</td>
+    </tr> 
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New Boards Admin View</a><p></p>
             <p>The Boards Admin View contains a list of every Board in your account that System Administrators can use to get a quick snapshot of the overall Boards details, including when they were last updated, how many cards each one has, and more.</p>
         </td>
@@ -77,7 +86,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>There are some small functionality differences from the current user profile, including:</p>
             <ul>
                 <li>Some check boxes (such as marking the user as active) have changed to toggles or buttons.</li>
-                <li>The "Send work I assign to myself to my Working On tab" option under Preferences was removed because it refers to a deprecated feature.</li>
+                <li>The "Send work I assign to myself to my Working On tab" option under Preferences was renamed to "Automatically set the task status to In Progress when tasks are self-assigned" to reflect its purpose.</li>
             </ul>
         </td>
         <td>August 28, 2025</td>
@@ -343,6 +352,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience now available for more Workfront organizations</a><p></p>
+            <p>To allow organizations access to the benefits of the Adobe Unified Experience, we're continuing to make it available to existing Workfront customers.</p><p><span style="color: #ff0000;">The Adobe Unified Experience is being made available in a phased rollout.</span> </p>
+        </td>
+        <td><p>September 11, 2025</p><p>Or</p><p>December 11, 2025</p></td>
+        <td><p>October 16, 2025</p><p>Or</p><p>January 15, 2026</p></td>
+        <td><p>October 16, 2025</p><p>Or</p><p>January 15, 2026</p></td>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Updates to enhanced lists</a><p></p>

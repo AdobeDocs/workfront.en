@@ -11,6 +11,8 @@ exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
 ---
 # Create or customize issue severities
 
+{{highlighted-preview}}
+
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 
@@ -66,7 +68,7 @@ Workfront has five built-in issue severities:
 * Bug with no workaround
 * Fatal error
 
-<p>You can edit the following for these severities:</p> 
+You can edit the following for these severities:
 
 * Name
 * Color
@@ -76,10 +78,11 @@ Workfront has five built-in issue severities:
 * Which severity is the default
      
      For more information about default severities, see [Create or edit an issue severity](#create-or-edit-an-issue-severity) in this article.
+
 * Description
 * Whether a severity is hidden in Workfront
      
-     For more information about hiding a severity, see [Create or edit an issue severity](#create-or-edit-an-issue-severity")
+     For more information about hiding a severity, see [Create or edit an issue severity](#create-or-edit-an-issue-severity) in this article.
 
 * Delete a severity
      
@@ -93,44 +96,45 @@ As a Workfront administrator, you can create and edit issue severities to suit t
 
 1. In the left panel, click **Project Preferences** > **Severities**.
 
-1. If you are creating a new severity, click **Add a New Severity**.
+1. If you are creating a new severity, click <span class="preview">**New row** at the bottom of the table</span>, or **Add a New Severity**.
 1. Configure the following options for the new severity or edit them for an existing one:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Severity Name</td> 
-      <td>Type a name for the severity</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Importance</td> 
-      <td>Increase or decrease the level of seriousness, originally assigned by Workfront, for the severity.
-      <p>The Importance number for each severity must be unique. The highest number corresponds to the highest level of severity.</p> <p>You cannot edit this number after you save the severity.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Color</td> 
-      <td> <p>Choose a color for the severity.</p> 
-      <p>The color of the severity is used in chart reports when you group your results by Issue Severity. For  information on chart reports, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Add a chart to a report</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Default Severity</td> 
-      <td>Select the severity you want Workfront to select automatically all newly created issues.</p>
-      <p>Cosmetic is the default severity for issues in Workfront.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Description</td> 
-      <td>Type a description for the severity to explain its function.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Hide</td> 
-      <td> Hide a severity that is no longer needed. 
-      <p>A hidden severity does not display anywhere in Workfront, so users can't choose it for their issues.</p> 
-      <p><b>IMPORTANT</b>: Instead of deleting severities that you no longer want to use, we suggest that you hide them. This way, you keep all your historic data on objects already completed with the severity, while preventing people from using the severity in the future.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **Severity Name**: Type a name for the severity.
+   * **Importance**: Increase or decrease the level of seriousness, originally assigned by Workfront, for the severity.
+     
+     The Importance number for each severity must be unique. The highest number corresponds to the highest level of severity.
+
+     You cannot edit this number after you save the severity.
+   
+   * **Color**: Choose a color for the severity.
+
+     The color of the severity is used in chart reports when you group your results by Issue Severity. For information on chart reports, see [Add a chart to a report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+
+   * **Default Severity**: Select the severity you want Workfront to apply automatically to all newly created issues.
+
+     **Cosmetic** is the default severity for issues in Workfront.
+
+     You cannot make a hidden severity the default.
+
+     <div class="preview">
+
+     The default severity is indicated with an icon ![Default severity icon](assets/default-icon.png). To choose a new default, do one of the following:
+
+       * Select the check box next to the severity name and select **Make Default** in the action bar at the bottom of the screen.
+       * Hover over the severity name and click the **More** menu that appears. Then, select **Make Default**.
+
+         The new default severity is labeled with the icon.
+
+     </div>
+
+   * **Description**: Type a description for the severity to explain its function.
+   * <span class="preview">**Hide Choice**</span> or **Hide**: <span class="preview">Choose **Yes**</span> or select the check box to hide a severity that is no longer needed.
+
+     A hidden severity does not display anywhere in Workfront, so users can't choose it for their issues.
+
+     >[!IMPORTANT]
+     >
+     >Instead of deleting severities that you no longer want to use, we suggest that you hide them. This way, you keep all your historic data on objects already completed with the severity, while preventing people from using the severity in the future.
 
 1. (Optional) Change the listing order of your severities by dragging and dropping them in the order you want.
 
