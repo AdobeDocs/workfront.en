@@ -646,8 +646,6 @@ Editing templates in bulk differs depending on which environment you are using.
 
 *****************and hide the first line below************ -->
 
-To edit templates in bulk:
-
 {{step1-to-templates}}
 
 1. Select several templates in the list.
@@ -665,12 +663,11 @@ To edit templates in bulk:
 
    * Overview
    * Finance
-   * Portfolio
-   * Settings
-   * Access
    * Custom Forms
-   * Tasks
-   * Issues
+   * Template Settings
+   * Task Settings
+   * Issue Settings
+   * Access
    * Comment
 
 1. Click **Save**.
