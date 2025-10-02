@@ -14,6 +14,9 @@ The Workfront and Frame.io integration allows project coordinators to manage pro
 
 ## Integration requirements
 
+You must have the Workfront and Frame.io integration enabled by Adobe Professional Services.
+
+<!--
 * Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
 
 * Users can belong to only one Workfront instance within the IMS organization.
@@ -21,7 +24,7 @@ The Workfront and Frame.io integration allows project coordinators to manage pro
 * The Workfront instance must be enabled on the Adobe Unified Experience.
 
 * The integration is configured by Adobe Professional Services. 
-
+-->
 
 ## Built on Adobe enterprise storage
 
