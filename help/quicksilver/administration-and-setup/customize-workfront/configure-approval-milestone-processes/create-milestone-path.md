@@ -111,7 +111,8 @@ For more information on how you can associate a milestone path with a project an
    </table>
 
 1. Click **Milestones** in the left panel. 
-1.In the Production environment, click **Add Milestone** to add milestones to the path. 
+
+1. In the Production environment, click **Add Milestone** to add milestones to the path. 
    <span class="preview">In the Preview environment, click **New row** to add milestones to the path.</span>
 1. Update the following information: 
 
