@@ -54,6 +54,22 @@ If your organization currently has more than 30 connection fields for one record
 
 For more information, see [Connected Record Types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
 
+## Enhancements to request forms in Workfront Planning
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+To make the request process simpler, we've made some enhancements to request forms. Now, when configuring a request form, you can configure the following:
+
+* Enable an option to allow only one decision when a request has multiple approvers.
+* Configure when requests created from the form will be automatically marked complete. You can set the request to be marked complete when the requested object is created, or when the requested object is complete based on criteria you specify.
+* Set up an automation that is triggered when a request is submitted from the form. Currently, you can automatically create records when the request is submitted. 
+
+For more information on creating a request form and configuring these options, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
 ## Drag and drop functionality in the timeline and calendar views
 
 >[!NOTE]
@@ -81,7 +97,7 @@ Previously, commenting on requests was not available in Workfront Planning.
 
 For more information on making requests, including commenting, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
 
-## Approve a Workfront Planning request in the My Approvals widget
+<!--## Approve a Workfront Planning request in the My Approvals widget
 
 >[!NOTE]
 >
@@ -93,9 +109,9 @@ To make it easier to approve Workfront Planning requests, we've added them to th
 
 Previously, Workfront approvals could be managed only within Workfront Planning.
 
-For more information on approving requests, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
+For more information on approving requests, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).-->
 
-## Inline edit Workfront connections in the record's Connected records page 
+## Inline edit Workfront projects in the record's Connected records page
 
 >[!NOTE]
 >
@@ -103,7 +119,7 @@ For more information on approving requests, see [Approve a request in Adobe Work
 >Production fast release: October 15, 2025
 >Production all: October 16, 2025
 
-You can now inline edit Workfront connected objects in the Connected records page. You can also change the order of the connected objects, copy and paste rows and other functions  of a table view.  
+You can now inline edit Workfront connected projects in the Connected records page. You can also create projects without a template from the connected records page.
 
 For information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).  
 

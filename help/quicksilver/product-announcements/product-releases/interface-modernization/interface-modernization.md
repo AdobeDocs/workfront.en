@@ -50,7 +50,7 @@ This update affects:
 
 ### Interface updates for the Severities area in Setup
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**Preview release: September 25, 2025; Production release: October 9, 2025**
 
 We have updated the Severities page with a more modern design that is consistent with other areas of Workfront.
 
@@ -62,7 +62,7 @@ For more information, see [Create or customize issue severities](/help/quicksilv
 
 ### Interface updates for the Priorities area in Setup
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**Preview release: September 25, 2025; Production release: October 9, 2025**
 
 We have updated the Priorities page with a more modern design that is consistent with other areas of Workfront.
 
@@ -222,6 +222,16 @@ For information, see [Edit programs](/help/quicksilver/manage-work/portfolios/cr
 
 ## Projects 
 
+### Interface updates for Billing Rates
+
+**Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
+
+We have updated the look and feel of the Billing Rates page on a project to match other areas of the application. The dialog boxes for adding and editing billing rates have also been updated.
+
+To view this change, go to a project > Billing Rates.
+
+For information, see [Override Job Role Billing Rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+
 ### Interface updates for a project list or report when applying the Milestone view
 
 **Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
@@ -230,7 +240,7 @@ We have updated the look and feel of a project list or report when you apply the
 
 The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-### Interface updates for the Edit Tasks box
+<!--### Interface updates for the Edit Tasks box
 
 **Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
 
@@ -242,7 +252,7 @@ The following changes are included in this update:
 
 *The Resource Scope field has been removed from the Edit task box.  
 
-For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
 
 ### Interface update when bulk editing templates
 
