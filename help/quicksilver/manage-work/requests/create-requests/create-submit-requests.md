@@ -149,7 +149,7 @@ To create a request in the Workfront web app:
    Click one of the Workfront request queue paths or forms, or search for one, then click it when it displays in the list. 
 1. <span class="preview">(Conditional) If you switched to the new experience, select one of the Workfront request queue paths or forms, or click the search bar. </span>
 
-   <span class="preview">When you click the search bar, a dropdown appears showing the most recently used queues and forms first. Select one from the list, or begin typing and select the queue or list when it appears.</span>
+   <span class="preview">When you click the search bar, a dropdown appears showing the most recently used queues and forms first. Select one from the list, or begin typing and select the queue or form when it appears.</span>
    
    >[!NOTE]
    >
