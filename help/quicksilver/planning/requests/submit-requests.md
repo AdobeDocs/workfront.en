@@ -243,9 +243,16 @@ The following must be in place before you can submit a request to a Workfront Pl
 
       The request details page opens. 
    
-      ![Request details page](assets/request-details-page.png)             
-      
+      ![Request details page](assets/request-details-page.png) 
 
+      <div class="preview">
+      In preview:
+   
+      ![Request page with comment](assets/new-request-page-with-comment.png)
+
+      </div>            
+      
+1. <span class="preview">(Optional) Enter a comment in the Comments area.
 1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
 
    The record's page opens in Workfront Planning. 
@@ -309,6 +316,14 @@ The following must be in place before you can submit a request to a Workfront Pl
 
    ![Request details page](assets/request-details-page.png)
 
+   <div class="preview">
+   In preview:
+   
+   ![Request page with comment](assets/new-request-page-with-comment.png)
+
+   </div>
+
+1. <span class="preview">(Optional) Enter a comment in the Comments area.
 1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
 
    The record's page opens in Workfront Planning. 

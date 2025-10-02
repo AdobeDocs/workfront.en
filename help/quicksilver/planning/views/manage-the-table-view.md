@@ -108,9 +108,9 @@ When creating a table view, all records of the selected type display in a table.
 
 To manage a table view: 
 
-1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+1. <span class="preview">Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).</span> 
 
-    ![Table view example](assets/table-view-example.png)
+    <span class="preview">![Table view example](assets/table-view-example.png)</span>
 
 1. (Optional) Click **Row height**, then select from the following options to modify the height of the table rows: 
     * Short
@@ -152,8 +152,12 @@ You can add up to 500 fields (or columns) in a table view.
     * Grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
 
     * Click **Fields** in the table's toolbar, then drag and drop the fields in the desired order, then click outside the **Fields visibility and order** box to close it.
+        
+        <div class="preview">
 
         ![Fields setting table view toolbar expanded](assets/fields-setting-table-view-toolbar-expanded.png)
+
+        </div>
 
 
         >[!TIP]
@@ -197,9 +201,9 @@ You can add up to 500 fields (or columns) in a table view.
 
 1. Do the following to quickly find records that match a keyword:
 
-    1. Click the **Search** icon ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
+    1. <span class="preview">In the **Search** box ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen.</span> The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
 
-        ![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-table-view.png)
+        <span class="preview">![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-table-view.png)</span>
 
         You can use any word or special character that is visible on the screen. 
     
@@ -453,9 +457,13 @@ To add a grouping:
     
 1. (Optional) Click **Add condition** and repeat the above steps to add up to 3 groupings. 
 
+    <div class="preview">
+
     The number of fields selected for the grouping displays next to the Grouping icon. 
 
     ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
+
+    </div>
 
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 

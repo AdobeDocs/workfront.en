@@ -1447,6 +1447,7 @@ feature-set: Workfront
       * [Add an existing program to a portfolio](manage-work/portfolios/create-and-manage-programs/move-program.md)
       * [Add a project to a program](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
       * [Remove a project from a program](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
+      * [Delete and deactivate programs](manage-work/portfolios/create-and-manage-programs/delete-and-deactivate-programs.md)
     * Manage projects in the Portfolio Optimizer {#manage-projects-in-portfolio-optimizer}
       * [Manage projects in the Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
       * [Portfolio Optimizer overview](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)

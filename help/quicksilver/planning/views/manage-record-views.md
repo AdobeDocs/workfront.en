@@ -10,6 +10,8 @@ exl-id: 77342724-0182-4134-903b-4428d54cdceb
 
 # Manage record views
 
+<!-- take preview and production references out at production-->
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
@@ -186,30 +188,32 @@ The following table shows the similarities and differences between the table, ti
     * In the Production environment, click the **+View** tab. 
     * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>
     
-1. <span class="preview">From the view dropdown menu, drag and drop views in order of your preference.</span>
 1. Select from the following types of views: 
 
     * Table
     * Timeline
     * Calendar
 
-    A new tab is created with the selected view. 
+    In the Production environment, a new tab is created with the selected view. 
 
     Depending on the width of your screen, additional views might display in the **More** menu ![More menu](assets/more-menu.png).   
 
+    >[!TIP]
+    >
+    >When you create a record type, the table view is also created by default. 
+    >
+    >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. 
+    >
+    >Otherwise, the Timeline and the Calendar options are dimmed.
+    >
 
->[!TIP]
->
->When you create a record type, the table view is also created by default. 
->
->To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. 
->
->Otherwise, the Timeline and the Calendar options are dimmed.
->
+    <span class="preview">In the Preview environment, choose a view type, then click **Create**. A new view is added to the drop-down menu. </span>    
 
-<!-- replace screen shot at production??-->
+    <span class="preview">![Create view box](assets/create-view-box.png)</span>    
 
-![View types drop-down from record type list](assets/view-types-drop-down-from-record-type-list.png)
+1. <span class="preview">From the view dropdown menu, drag and drop views in order of your preference.</span>
+
+    <span class="preview">![View types drop-down from record type list](assets/view-types-drop-down-from-record-type-list.png)</span>
 
 1. (Conditional) Click **Next**, when creating a timeline or calendar view.
     
