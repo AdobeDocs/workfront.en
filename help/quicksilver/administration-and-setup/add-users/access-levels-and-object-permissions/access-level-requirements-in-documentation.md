@@ -29,21 +29,21 @@ Some rows contain information labeled "New" and "Current." This is because Workf
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td> Adobe Workfront plans refer to the set of features that your organization has purchased. Most Workfront functionality is available in all plans, with a few exceptions, mostly related to strategic planning and enterprise controls. 
-   <ul><li>To find out what Adobe Workfront plan your organization uses, including whether your organization is under the new or current packaging model, contact your Workfront administrator.</li>
-   <li>For instructions on how a Workfront administrator can locate your organization's Workfront plan, see <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">View your organization's cluster and Workfront plan</a>.</li><li>For more information on the new Workfront plans, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>.</li></ul> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> Adobe Workfront packages refer to the set of features that your organization has purchased. Most Workfront functionality is available in all packages, with a few exceptions, mostly related to strategic planning and enterprise controls. <p>Packages that existed prior to 2023 are not listed.</p>
+   <ul><li>To find out what Adobe Workfront package your organization uses, including whether your organization is under the new or current packaging model, contact your Workfront administrator.</li>
+   <li>For instructions on how a Workfront administrator can locate your organization's Workfront package, see <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">View your organization's cluster and Workfront package</a>.</li><li>For more information on the Workfront packages, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> Adobe Workfront licenses refer to the set of Workfront features included with the license assigned to you. For example, one user might have a license that includes marking work items complete and logging time, while another user has a license that allows them only to approve assets or submit requests. <p> 
    <ul>
    <li>To find out which license you are assigned, contact your Workfront administrator.</li>
-   <li>Adobe Workfront is transitioning to a new pricing and packaging model. For information about licenses see:
+   <li>For information about licenses see:
    <ul>
-   <li>New: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">New licenses overview</a></li>
-   <li>Current: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Licenses overview</a></li></ul></li>
-   <li>If you have the correct access level and still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Create or modify custom access levels</a>.
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">New licenses overview</a></li>
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Licenses overview</a></li></ul></li>
+   <li>If you have the correct access level and still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Create or modify custom access levels</a>.
    </ul>
       </p> </td> 
   </tr> 
@@ -53,9 +53,7 @@ Some rows contain information labeled "New" and "Current." This is because Workf
    <p>Articles that describe procedures performed inside these additional products list the required product here.</p>
    <ul>
    <li>Adobe Experience Manager Assets or Assets Essentials </li>
-   <li>Workfront Fusion</li>
-   <li>Workfront Goals</li>
-   <li>Workfront Scenario Planner</li>
+   <li>Workfront Automation and Integrations</li>
    <li>Workfront Planning</li>
    </ul>
    <p>To find out if your organization has purchased one of these additional products, contact your Workfront administrator.</p></td> 
@@ -64,10 +62,10 @@ Some rows contain information labeled "New" and "Current." This is because Workf
    <td role="rowheader">Access level</td> 
    <td> Access levels are sets of permissions for actions you can perform in Workfront, set by your Workfront administrator. <p>Workfront has built-in access levels that correspond to Workfront licenses, but your Workfront administrator can create more access levels to more accurately reflect permission sets needed in your organization.</p>
    <ul>
-    <li>Adobe Workfront is transitioning to a new pricing and packaging model. For information about access levels for each model see:
+    <li>For information about access levels, see:
    <ul>
-   <li>New: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">New access levels overview</a></li>
-   <li>Current: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Access levels overview</a></li></ul></li>
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">New access levels overview</a></li>
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Access levels overview</a></li></ul></li>
     <li>To find out the details of your access level, contact your Workfront administrator</li>
     <li>If you are a Workfront administrator, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configure access to Adobe Workfront</a> to learn more about granting access to specific objects in the access level.</li>  
    <li>If you have the correct access level and still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</li>
@@ -87,8 +85,8 @@ Some rows contain information labeled "New" and "Current." This is because Workf
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license</td> 
    <td>Adobe Workfront Fusion has a separate licensing model than Workfront. 
-   <ul><li>Current: The current license model is based on the number of operations performed, and has no limitations on what actions an organization can perform. </li>
-   <li>Legacy: Legacy licenses are based on whether scenarios are able to connect to third-party applications, or whether the scenarios are used for Workfront automation only. </li>
+   <ul><li>The current license model is based on the number of operations performed, and has no limitations on what actions an organization can perform. </li>
+   <li>Legacy licenses are based on whether scenarios are able to connect to third-party applications, or whether the scenarios are used for Workfront automation only. </li>
    </ul>
    For information on Fusion licensing, see <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion licenses</a>.
    </td> 
