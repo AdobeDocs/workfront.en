@@ -73,7 +73,11 @@ For more detail about the information in this table, see [Access requirements in
 1. In the left panel, click **[!UICONTROL Time Off]**.
 1. Select the desired date for your personal time off.
 
+   <span class="preview">Sample image in the Preview environment:</span>
    ![Personal time off calendar](assets/personal-time-off-calendar-0925.png)
+
+   Sample image in the Production environment:
+   ![Personal time off calendar](assets/personal-time-off-calendar.png)
 
 1. Select **[!UICONTROL All day]**, if you are taking a full day off.
 

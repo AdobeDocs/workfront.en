@@ -11,6 +11,8 @@ exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
 
 <!--Audited: 06/2025-->
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>
+
 You can create, edit, and assign timesheet profiles that generate recurring timesheets for your users without any further intervention from you. This saves you time and ensures that the following are consistent between users:
 
 * Timesheet time frame 
@@ -145,7 +147,7 @@ For more information about creating a timesheet manually, see [Create a single-u
 
    <p>
 
-   <b>NOTE</b>: Once you submit a timesheet for approval, you can no longer edit the hours. To return a submitted timesheet to an editable state, recall the timesheet or have the approver reject the timesheet. For more information, see <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Submit a timesheet for approval</a> and<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approve a timesheet</a>.</p> </p> </td> 
+   <b>NOTE</b>: Once you submit a timesheet for approval, you can no longer edit the hours. To return a submitted timesheet to an editable state, recall the timesheet or have the approver reject the timesheet. For more information, see <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Submit a timesheet for approval</a> and <a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approve a timesheet</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Overtime</strong> </td> 
@@ -161,8 +163,16 @@ For more information about creating a timesheet manually, see [Create a single-u
       <td role="rowheader"><strong>Reminder notifications</strong> </td> 
       <td> <p> Add a reminder notification. Workfront will send reminders to users to ask them to complete or approve their timesheets. You must create reminder notifications before you can associate them with a timesheet profile.  </p> </td> 
      </tr>
+    </tbody> 
+   </table>
 
-1. To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.
+<!--1. To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
+
+1. When creating group-level timesheet profiles in Production, click the **Assign People** tab to associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams.
+
+   <span class="preview">When creating group-level timesheet profiles in Preview, scroll towards the bottom of the page and find the **Assign People** section.</span>
+   
+   When creating timesheet profiles for the system, scroll towards the bottom of the page and find the **Assign People** section.
 
    Begin typing the name of the user, group, or team, then click it when it appears in the drop-down list.
 
