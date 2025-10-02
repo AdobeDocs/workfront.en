@@ -118,12 +118,16 @@ In addition to the default priorities provided in Workfront, you can add your ow
 
      You cannot make a hidden priority the default.
 
+     <div class="preview">
+
      The default priority is indicated with an icon ![Default priority icon](assets/default-icon.png). To choose a new default, do one of the following:
 
        * Select the check box next to the priority name and select **Make Default** in the action bar at the bottom of the screen.
        * Hover over the priority name and click the **More** menu that appears. Then, select **Make Default**.
 
          The new default priority is labeled with the icon.
+
+     </div>
 
    * **Description**: Type a description for the priority to explain its function.
    * <span class="preview">**Hide Choice**</span> or **Hide**: <span class="preview">Select **Yes**</span> or select the check box to hide a priority that is no longer needed.
