@@ -46,6 +46,7 @@ If there are any groups above your group, their administrators can also do these
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
 ## View, work with, and create templates for your group from the Groups area
 
 {{step-1-to-setup}}
