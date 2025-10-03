@@ -23,32 +23,28 @@ The user you are sending the message to receives the following types of notifica
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+  <tr> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td>Adobe Workfront license</td> 
    <td>
-   <p>To send a message from the user's profile page, you must have:<br>
-   New: Light or higher<br>
-   or<br>
-   Current: Review or higher</p>
-   <p>To send a message from the User list, you must have:<br>
-   New: Standard<br>
-   or<br>
-   Current: Work or higher</p></td>
+   <p>To send a message from the user's profile page, you must have:</P>
+   <p>Light or higher</p>
+   <p>Review or higher</p>
+   <p>To send a message from the User list, you must have:</p>
+   <p>Standard</p>
+   <p>Work or higher</p></td>
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
