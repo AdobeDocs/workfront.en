@@ -444,7 +444,7 @@ feature-set: Workfront
       * [Create a schedule](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
     * Organizational setup {#organization-setup}
       * [Organizational setup](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
-      * [Manage companies](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
+      * [Create and edit companies](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
       * [Manage company memberships](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
       * [Deactivate or reactivate a company](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
       * [Job role](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
