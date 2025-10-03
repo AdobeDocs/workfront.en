@@ -635,6 +635,10 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
    ![Edit template box Comment section](assets/edit-template-box-comment-section.png)
 1. Add a comment about the update you are making, tag additional users, or select the **Private to my company** box to keep the update private to users in your company, then click **Save**.
 
+   >[!TIP]
+   >
+   >The **Private to my company** setting is only available only when your Workfront profile is associated with a company.
+
 ## Edit templates in bulk
 
 You can edit templates in bulk and update all their information at the same time.
