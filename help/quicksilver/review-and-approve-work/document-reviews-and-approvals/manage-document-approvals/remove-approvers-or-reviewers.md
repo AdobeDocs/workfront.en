@@ -32,7 +32,9 @@ You can remove individual approvers or reviewers from an asset or document after
    <td role="rowheader">Adobe Workfront license</td> 
    <td> 
    <p>Contributor or higher</p>
-   <p>Review or higher</p> </td> 
+   <p>Review or higher</p>
+   <p>If you are using the Frame.io integration, you must have a Standard license to create approval workflows.</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

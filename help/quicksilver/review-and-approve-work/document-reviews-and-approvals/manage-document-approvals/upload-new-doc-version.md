@@ -34,7 +34,9 @@ If the newest document version is deleted, the previous versions remain locked. 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses</td> 
    <td> <p>Request or higher</p>
-   <p>Contributor or higher</p> </td> 
+   <p>Contributor or higher</p>
+   <p>If you are using the Frame.io integration, you must have a Standard license to create approval workflows.</p>
+    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations</td> 

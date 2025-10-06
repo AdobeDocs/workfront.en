@@ -20,8 +20,6 @@ You can add additional approvers or reviewers to an asset or document that alrea
 +++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
@@ -31,7 +29,9 @@ You can add additional approvers or reviewers to an asset or document that alrea
    <td role="rowheader">Adobe Workfront license</td> 
    <td>
    <p>Contributor or higher</p>
-   <p>Review or higher</p> </td> 
+   <p>Review or higher</p> 
+   <p>If you are using the Frame.io integration, you must have a Standard license to create approval workflows.</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

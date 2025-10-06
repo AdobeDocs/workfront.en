@@ -31,7 +31,9 @@ You can request approval from other users or teams for a document in Adobe Workf
    <td role="rowheader">Adobe Workfront license</td>  
    <td>
    <p>Contributor or higher</p>
-   <p>Review or higher</p> </td> 
+   <p>Review or higher</p>
+   <p>If you are using the Frame.io integration, you must have a Standard license to create approval workflows.</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
