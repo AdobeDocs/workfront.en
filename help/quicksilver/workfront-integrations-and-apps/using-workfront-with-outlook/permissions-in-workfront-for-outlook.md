@@ -11,11 +11,9 @@ exl-id: 704da044-21ed-4ca1-be6f-0e0aa832e069
 
 >[!IMPORTANT]
 >
->[Microsoft is in the process of disabling support for legacy Exchange online tokens](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), which are currently used by the Workfront Outlook add-in for authentication. This change by Microsoft has already started affecting customers and will continue to roll out in phases through October 2025.
+>[Microsoft has disabled support for legacy Exchange online tokens](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), which were used by the Workfront Outlook add-in for authentication. This change by Microsoft rolled out in phases and is complete as of October 1, 2025.
 >
->* **After Microsoft fully disables these tokens, the Workfront for Microsoft Outlook integration will no longer function.** 
->
->As part of this change, Microsoft has made the decision to change the way tokens are re-enabled. After **June 30, 2025**, admins will no longer be able to re-enable tokens themselves—only Microsoft Support can grant exceptions. **On October 1, 2025, legacy tokens will be turned off for all tenants. Exceptions will not be granted.**  
+>**Because Microsoft has disabled these tokens, the Workfront for Microsoft Outlook integration no longer functions.** 
 
 [!DNL Workfront for Outlook] requires the highest of the four levels of permissions allowed in [!DNL Outlook] add-ins.
 
