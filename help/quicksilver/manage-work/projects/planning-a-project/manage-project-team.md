@@ -256,6 +256,10 @@ If users that don't fulfill any role on the project want to be notified about ce
       * Select the **Private to my company** option to to make the update private to the users in your company. 
       * Click **Send**. 
 
+         >[!TIP]
+         >
+         >The **Private to my company** setting is only available only when your Workfront profile is associated with a company.
+
    The update is added to the **Updates** section of each tagged user's profile. 
 
    Users might receive an email notification, if they are enabled for them, and they receive an in-app notification about the new update.

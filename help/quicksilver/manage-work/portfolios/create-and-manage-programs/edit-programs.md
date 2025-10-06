@@ -179,7 +179,12 @@ You must have the following access to perform the steps in this article:
 
 1. Add a comment in the **[!UICONTROL Add an update to each program]** field.
 1. (Optional) Click the **[!UICONTROL People]** icon to add a user or a team to the comment.
-1. (Optional) Select [!UICONTROL **Private to my company**] to lock the comment and make it private to only users in your company.
+1. (Optional) Select [!UICONTROL **Private to my company**] to lock the comment and make it private to only users in your company. 
+
+      >[!TIP]
+      >
+      >The **Private to my company** setting is only available only when your Workfront profile is associated with a company.
+
 
    After you save your changes, the comment you add displays in the program's [!UICONTROL Updates] tab and sends an email to the users included in it.
 1. Click **[!UICONTROL Save]**

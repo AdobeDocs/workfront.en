@@ -116,8 +116,7 @@ You can also remove users who are tagged by mistake when you edit or reply to a 
 
    >[!NOTE]
    >
-   >* This option displays only when the user is associated with a Company.
-   >* Tagged users outside the company could still receive an in-app notification or email, even though they will not see the private comments on the Updates tab. We recommend not to tag external users on an update if you do not want to share the information with them.
+   >Tagged users outside the company could still receive an in-app notification or email, even though they will not see the private comments on the Updates tab. We recommend not to tag external users on an update if you do not want to share the information with them.
       
 1. (Optional) To add multiple users and teams, repeat step 2. <!--insure this stays accurate-->
 
