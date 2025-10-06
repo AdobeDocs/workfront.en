@@ -627,9 +627,10 @@ You can define default custom forms to be automatically attached to tasks when t
    * Add users or teams to your update in the **Tag people** area or use @ to include them in your update. 
    * Select the **Private to my company** checkbox to keep the update private to people in your company. 
 
-      >[!TIP]
-      >
-      >The **Private to my company** setting is only available only when your Workfront profile is associated with a company.
+   >[!TIP]
+   >
+   >The **Private to my company** setting is only available only when your Workfront profile is associated with a company.
+
 1. Click **Save**.
 
 ## Edit a task in the task header (limited)

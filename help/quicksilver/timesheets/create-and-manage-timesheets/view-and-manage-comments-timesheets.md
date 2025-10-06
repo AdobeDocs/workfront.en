@@ -91,9 +91,10 @@ You can make general comments about the timesheet. Commenting on the overall tim
 1. (Optional) Add people or teams in the **Tag people or teams** field to include others in your update. For more information, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Optional) Select the **Private to my company** option if you want only people from your company to view the update.
 
-      >[!TIP]
-      >
-      >The **Private to my company** setting is only available only when your Workfront profile is associated with a company.
+   >[!TIP]
+   >
+   >The **Private to my company** setting is only available only when your Workfront profile is associated with a company.
+
 1. Type your comment, then click **Submit**.
 
    Your comment displays in the [!UICONTROL Updates] section of the timesheet, in the Comemnts tab.
