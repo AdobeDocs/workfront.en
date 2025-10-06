@@ -234,7 +234,7 @@ For information, see [Override Job Role Billing Rates at the project level](/hel
 
 ### Interface updates for a project list or report when applying the Milestone view
 
-**Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
+**Preview release: October 2, 2025; Production release: Starting the week of October 6, 2025**
 
 We have updated the look and feel of a project list or report when you apply the Milestone view to them.
 
