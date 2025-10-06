@@ -15,15 +15,3 @@ exl-id: 4a911760-e3fe-4e77-b7aa-b08f9ea59d6a
 >
 >**Because Microsoft has disabled these tokens, the Workfront for Microsoft Outlook integration no longer functions.** 
 
-When using Workfront for Outlook, you may see the following error:
-
-```
-Unexpected error
-Unable to get the outlookIdentityToken
-```
-
-To resolve this error, you must enable Microsoft 365 legacy tokens for for your organization. Because this must be done in Microsoft 365, Workfront cannot enable these tokens for your organization.
-
-For instructions on enabling Microsoft 365 legacy tokens, see [Turn legacy Exchange Online tokens on or off](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/turn-exchange-tokens-on-off) in the Microsoft documentation.
-
-For more information on legacy tokens, see [Can I turn Exchange Online legacy tokens back on?](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens#can-i-turn-exchange-online-legacy-tokens-back-on) in the Microsoft documentation.
