@@ -11,8 +11,6 @@ exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
 
 You can define a priority for an issue to indicate how important the issue is.
 
-You must have Manage permissions to the issue to modify the Priority of the issue.&nbsp; [Update the Priority of an issue](#update-the-priority-of-an-issue).
-
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
@@ -41,7 +39,7 @@ You must have Manage permissions to the issue to modify the Priority of the issu
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

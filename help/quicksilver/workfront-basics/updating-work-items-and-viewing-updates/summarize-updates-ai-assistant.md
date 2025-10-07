@@ -21,8 +21,37 @@ You can use the Summarize Contents button to generate a summary, or you can ente
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any Workflow package</p>
+      </td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p>
+   </td>
+  </tr> 
+
+<tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td><p>View or higher permissions to the objects whose updates you want to view</p>
+   </td>
+  </tr> 
+
+ </tbody> 
+</table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -40,23 +69,22 @@ You must have the following access to perform the steps in this article:
        <p>Current: Not available</p></td>
   </tr> 
  </tbody> 
-</table>
-
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+</table>-->
 
 ## Prerequisites
 
-* Your Workfront administrator must have enabled AI Assistant for your organization.
+* Your Workfront administrator must enable the AI Assistant for your organization.
 
     For more information, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in the article AI Assistant overview.
-* Your Workfront administrator must have enabled AI Assistant for your access level.
+* Your Workfront administrator must enable AI Assistant for your access level.
 
    For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).s
 
-## Summarize using Summarize Contents button
+## Summarize using Summarize comments button
 
-1. Navigate to the update stream that you want to summarize. 
-1. Click the **Summarize Contents** button.
+1. Go to the object whose updates you want to summarize. 
+1. Click **Updates** in the left panel.
+1. Click the **Summarize comments** button at the top of the **Updates** area.
 
    AI Assistant opens, with a prompt to summarize the last 7 days of comments on the update stream.
 
