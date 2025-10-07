@@ -95,7 +95,7 @@ After you build the dashboard or the external page, you can add them to the left
 
 For more information about adding a dashboard under an object, see the section [[!UICONTROL Add a dashboard] in the left panel of a Workfront object or area](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area) in this article.
 
-When you add a dashboard to the left panel of an object, the object acts as a filter for the dashboard. For example, if you add a task report on a dashboard and you add the dashboard to a project, the dashboard displays only tasks on the project you are viewing.
+When you add a dashboard to the left panel of an object, the object acts as a filter for the dashboard. For example, if you add a task report on a dashboard and you add the dashboard to a project, the dashboard displays only tasks from the project you are viewing.
 
 The following objects are filtered for the object under which they display, if that object is higher in hierarchy than them:
 
