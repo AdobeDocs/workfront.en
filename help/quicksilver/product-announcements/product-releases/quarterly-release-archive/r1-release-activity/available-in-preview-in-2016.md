@@ -61,7 +61,6 @@ For more information about configuring the layout template, see [Create and mana
 
 You can use Workfront from Outlook for Office 365, as described in the following sections:
 
-* [Set up Adobe Workfront for Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md) 
 * "Updating an Existing Item from an Email with Outlook 365"
 
 ## Reorder Columns in Any List with Drag-and-Drop

@@ -2213,16 +2213,6 @@ feature-set: Workfront
     * [Update an Adobe Workfront item from G Suite using email content](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
   * Adobe Workfront for Outlook {#workfront-for-outlook}
     * [Adobe Workfront for Outlook: article index](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
-    * [Set up Adobe Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-    * [Permissions levels for Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md) 
-    * [Reply to a comment from Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
-    * [Update an existing object from an Outlook email](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
-    * [Add an Outlook email to a project as a task or an issue](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
-    * [Create an Adobe Workfront request from an Outlook email](workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)
-    * [Add an Outlook email as a task to your work list](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
-    * [View additional information about Adobe Workfront for Outlook and log out](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
-    * [Enable Outlook for Office for use with Adobe Workfront and SAML 2.0](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
-    * [Troubleshooting: outlookIdentityToken error when using Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/troubleshooting-outlookidentitytoken-error.md)
   * Adobe Workfront for Microsoft Teams {#workfront-for-microsoft-teams}
     * [[!DNL Adobe Workfront for Microsoft Teams]: article index](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
     * [Adobe Workfronts for Microsoft Teams Overview](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
