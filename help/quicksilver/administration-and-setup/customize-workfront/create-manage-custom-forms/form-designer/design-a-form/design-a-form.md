@@ -11,8 +11,6 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 ---
 # Create a custom form
 
-{{highlighted-preview}}
-
 <!-- Audited: 6/2025 -->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -579,7 +577,7 @@ For examples of using the External lookup field to call the same instance of Wor
 
 To add an external lookup:
 
-1. In the **New field** tab on the left side of the screen, find **External lookup** or <span class="preview">**Multi-select external lookup**</span>, and drag it to a section on the canvas.
+1. In the **New field** tab on the left side of the screen, find **External lookup** or **Multi-select external lookup**, and drag it to a section on the canvas.
 1. On the right side of the screen, configure the options for the custom field:
 
    <table style="table-layout:auto"> 
@@ -643,8 +641,8 @@ To add an external lookup:
       <td><p>Click <strong>Add Header</strong>, then type or paste the key-value pair required for authentication with the API.</p><p><strong>Note:</strong> The Header fields are not a secure place to store credentials, and you should be careful of what you enter and save.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Multi-select dropdown</span></td>
-      <td><p><span class="preview">Select this option to allow the user to select more than one value in the drop-down.</span></p></td>
+      <td role="rowheader">Multi-select dropdown</td>
+      <td><p>Select this option to allow the user to select more than one value in the drop-down.</p></td>
      </tr>
      </tr>
      <tr> 
