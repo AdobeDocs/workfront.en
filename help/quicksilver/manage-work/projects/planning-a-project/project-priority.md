@@ -125,7 +125,7 @@ Consider the following when selecting a Priority for your projects:
    * High
    * Urgent
 
-   ![](assets/project-priority-picker-list-on-project-details-nwe-350x192.png)
+   ![Priority list on a project](assets/project-priority-picker-list.png)
 
 1. Click **Save Changes**.
 

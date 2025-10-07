@@ -111,7 +111,7 @@ For more information about record types, see [Record types overview](/help/quick
 
         <!--
         * <span class="preview">By importing them from another workspace or adding cross-workspace record types</span>
-            <span class="preview">For information, see [Add existing record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md). </span>-->
+            <span class="preview">For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>-->
 
 
 * You can move record types within a section and from one section of a workspace to another. You cannot move record types from one workspace to another workspace. 
@@ -253,7 +253,7 @@ For more information, see [Create Record Types by importing information from a C
 
 You can add record types to a workspace by importing them from another workspace. You can only add record types that have been configured as centralized record types. 
 
-For information, see [Add existing record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
+For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 </div>
 

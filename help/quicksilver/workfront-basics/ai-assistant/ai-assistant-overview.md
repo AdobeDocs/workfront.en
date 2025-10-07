@@ -1,12 +1,12 @@
 ---
-title: AI Assistant overview
+title: AI Assistant in Workfront
 content-type: reference
-description: AI Assistant overview
+description: Learn about AI Assistant in Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
 ---
-# AI Assistant overview
+# AI Assistant in Workfront
 
 Workfront's AI Assistant helps you accomplish your work by offering in-app information and suggestions in a natural-language conversation. AI Assistant can give you a smoother work experience by
 

@@ -25,3 +25,4 @@ This section contains the following articles:
 * [Add an existing program to a portfolio](../../../manage-work/portfolios/create-and-manage-programs/move-program.md) 
 * [Add a project to a program](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) 
 * [Remove a project from a program](../../../manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
+* [Delete and deactivate programs](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/delete-and-deactivate-programs.md)

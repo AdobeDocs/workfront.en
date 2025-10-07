@@ -16,23 +16,23 @@ This page contains information about the structure and content of the data in Wo
 >
 >The data in Data Connect refreshes every four hours, so recent changes may not be immediately reflected.
 
-## Table types
+## View types
 
-There are a number of table types you can utilize in Data Connect to view your Workfront data in a way that provides the most insight.
+There are a number of view types you can utilize in Data Connect to view your Workfront data in a way that provides the most insight.
 
-* **Current table**
+* **Current view**
 
-  The Current table reflects data similarly to how it exists in Workfront, every object and its current state. However, it can be navigated with much lower latency than within Workfront.
+  The Current view reflects data similarly to how it exists in Workfront, every object and its current state. However, it can be navigated with much lower latency than within Workfront.
 
-* **Event table**
+* **Event view**
 
-  The Event table tracks every change record in Workfront: that is, every time an object changes state, a record is created that shows when the change happened, who made the change, and what was changed. Therefore, this table is useful for point-in-time comparisons. This table only includes records from the past three years. 
+  The Event view tracks every change record in Workfront: that is, every time an object changes state, a record is created that shows when the change happened, who made the change, and what was changed. Therefore, this view is useful for point-in-time comparisons. This view only includes records from the past three years. 
 
-* **Daily History table**
+* **Daily History view**
 
-  The Daily History table offers an abbreviated version of the Event table, in that it shows the state of each object on a daily basis rather than when each individual event occurred. As such, this table is useful for trend analysis.
+  The Daily History view offers an abbreviated version of the Event view, in that it shows the state of each object on a daily basis rather than when each individual event occurred. As such, this view is useful for trend analysis.
 
-<!-- Custom table -->
+<!-- Custom view -->
 
 ## Entity relationship diagram
 
@@ -42,20 +42,25 @@ Objects in Workfront (and, therefore, in your Data Connect data lake) are define
 
 >[!IMPORTANT]
 >
->The entity relationship diagram is a work in progress—as such, it is for reference purposes only and is subject to change.
+>The entity relationship diagram is a work in progress. As such, it is for reference purposes only and is subject to change.
 
 ## Date types
 
 There are a number of date objects that provide information about when specific events occur. 
 
 * `DL_LOAD_TIMESTAMP`: This date is updated after a successful data refresh is completed and includes the timestamp of when the refresh job that supplied the latest version of a record began. 
-* `CALENDAR_DATE`: This date is present only in the Daily History table. This table provides a record of what the data looked like at 11:59 UTC for each date specified in `CALENDAR_DATE`.
-* `BEGIN_EFFECTIVE_TIMESTAMP`: This date is present in both Event and Daily History tables, and records exactly when a record changed _to_ the value it has in the current row.
-* `END_EFFECTIVE_TIMESTAMP`: This date is present in both Event and Daily History tables, and records exactly when a record changed _from_ the value in the current row to a value in a different row. To allow for between queries on `BEGIN_EFFECTIVE_TIMESTAMP` and `END_EFFECTIVE_TIMESTAMP` this is value is never null, even if there is no new value. In the event a record is still valid (i.e., the value has not changed), `END_EFFECTIVE_TIMESTAMP` will have a value of 2300-01-01.
+* `CALENDAR_DATE`: This date is present only in the Daily History view. The Daily History view provides a record of what the data looked like at 11:59 UTC for each date specified in `CALENDAR_DATE`.
+* `BEGIN_EFFECTIVE_TIMESTAMP`: This date is present in both Event and Daily History views, and represents the time that a record becomes the current value in the application.
+* `END_EFFECTIVE_TIMESTAMP`: This date is present in both Event and Daily History views, and records exactly when a record changed _from_ the value in the current row to a value in a different row. To allow for between queries on `BEGIN_EFFECTIVE_TIMESTAMP` and `END_EFFECTIVE_TIMESTAMP` this is value is never null, even if there is no new value. In the event a record is still valid (i.e., the value has not changed), `END_EFFECTIVE_TIMESTAMP` will have a value of 2300-01-01.
 
 ## Terminology table
 
-The following table correlates object names in Workfront (as well as their names in the interface and API) with their equivalent names in Data Connect.
+The following table correlates object names in Workfront (as well as their names in the interface and API) with their equivalent names in Data Connect, and includes reference fields for each object to other Workfront objects. 
+
+>[!NOTE]
+>
+>New fields may be added to the object views without advanced notice to support the evolving data needs of the Workfront application. We caution against using "SELECT" queries where the downstream data recipient isn't prepared to handle additional columns as they are added.<br>
+>If renaming or removing a column is required, we will provide advance notice of these changes.
 
 ### Access Level
 
@@ -547,6 +552,12 @@ The following table correlates object names in Workfront (as well as their names
              <td>FK</td>
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
+        </tr>
+      <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>OPTASKID</td>
@@ -3876,7 +3887,6 @@ Self</td>
         </tr>
         
         
-    </tbody>
 </table>
 
 ### Object Integration
@@ -3935,7 +3945,6 @@ Self</td>
              <td colspan="2">Not a relationship; used for internal application purposes</td>
         </tr>
         
-    </tbody>
 </table>
 
 ### Objects Category
@@ -5297,7 +5306,6 @@ Self</td>
              <td colspan="2">Not a relationship; used for internal application purposes</td>
         </tr>
         
-    </tbody>
 </table>
 
 ### Report Folder
@@ -5997,6 +6005,178 @@ Self</td>
              <td>-</td>
              <td colspan="2">Not a relationship; used for internal application purposes</td>
         </tr>
+    </tbody>
+</table>
+
+### Staffing Plan
+
+Limited customer availability
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront Entity Name</th>
+            <th>Interface References</th>
+            <th>API Reference</th>
+            <th>API Label</th>
+            <th>Data Lake Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Staffing Plan</td>
+            <td>Staffing Plan</td>
+            <td>STAFFP</td>
+            <td>Staffing Plan</td>
+            <td>STAFFING_PLAN_CURRENT<br>STAFFING_PLAN_DAILY_HISTORY<br>STAFFING_PLAN_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primary/Foreign Key</th>
+            <th>Type</th>
+            <th>Related Table</th>
+            <th>Related Field</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ATTACHEDRATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT </td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>        
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>        
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>       
+         <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID
+</td>
+        </tr>        
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID
+</td>
+        </tr>        
+        <tr>
+             <td>STAFFINGPLANID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Staffing Plan Resource
+
+Limited customer availability
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront Entity Name</th>
+            <th>Interface References</th>
+            <th>API Reference</th>
+            <th>API Label</th>
+            <th>Data Lake Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Staffing Plan Resource</td>
+            <td>Staffing Plan Resource</td>
+            <td>STAFFR</td>
+            <td>Staffing Plan Resource</td>
+            <td>STAFFING_PLAN_RESOURCE_CURRENT<br>STAFFING_PLAN_RESOURCE_DAILY_HISTORY<br>STAFFING_PLAN_RESOURCE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primary/Foreign Key</th>
+            <th>Type</th>
+            <th>Related Table</th>
+            <th>Related Field</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>        
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>        
+        <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>       
+         <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>        
     </tbody>
 </table>
 
@@ -6950,6 +7130,146 @@ Self</td>
     </tbody>
 </table>
 
+### Time-phased KPI Combined
+
+Limited customer availability
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront Entity Name</th>
+            <th>Interface References</th>
+            <th>API Reference</th>
+            <th>API Label</th>
+            <th>Data Lake Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Time-phased KPI Combined</td>
+            <td>Time-phased KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_COMBINED_CURRENT<br>TIMEPHASED_COMBINED_DAILY_HISTORY<br>TIMEPHASED_COMBINED_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primary/Foreign Key</th>
+            <th>Type</th>
+            <th>Related Table</th>
+            <th>Related Field</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+                <tr>
+             <td>EVENT_ID    </td>
+             <td>PK</td>
+             <td>This is a natural key for the time-phased KPI entry</td>
+             <td>-</td>
+        </tr>
+                        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+                        <tr>
+             <td>LOCATIONID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+                        <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>The METADATA table is not provided</td>
+             <td>-</td>
+        </tr>
+                        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+                        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+                        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+                        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+                        <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>Variable, based on OBJCODE</td>
+             <td>The primary key / ID of the object identified in the OBJCODE field
+</td>
+        </tr>
+                        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+                        <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>The SCHEMA table is not provided; the value from this table is provided in the SCHEMANAME column. The SCHEMANAME identifies the KPI (e.g., plannedHours, estimatedHours, and actualHours) that the record is connected to.</td>
+             <td>-</td>
+        </tr>
+                                <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+                                <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
+                                <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                                <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
 ### Time-phased KPI Currency
 
 Limited customer availability
@@ -7002,6 +7322,12 @@ Limited customer availability
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+                <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>The METADATA table is not provided</td>
+             <td>-</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7041,7 +7367,7 @@ Limited customer availability
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>To be added shortly</td>
+             <td>The SCHEMA table is not provided; the value from this table is provided in the SCHEMANAME column. The SCHEMANAME identifies the KPI (e.g., plannedRevenueRate, plannedCostRate, actualRevenue, etc.) that the record is connected to.</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -7049,6 +7375,18 @@ Limited customer availability
              <td>FK</td>
              <td>TASKS_CURRENT</td>
              <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+          <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7128,6 +7466,12 @@ Limited customer availability
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+                <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>The METADATA table is not provided</td>
+             <td>-</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7167,7 +7511,7 @@ Limited customer availability
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>To be added shortly</td>
+             <td>The SCHEMA table is not provided; the value from this table is provided in the SCHEMANAME column. The SCHEMANAME identifies the KPI (e.g., plannedHours, estimatedHours, and actualHours) that the record is connected to.</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -7175,6 +7519,18 @@ Limited customer availability
              <td>FK</td>
              <td>TASKS_CURRENT</td>
              <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID </td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+           <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7194,6 +7550,151 @@ Limited customer availability
              <td>-</td>
         </tr>
         <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Time-phased KPI Numbers
+
+Limited customer availability
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront Entity Name</th>
+            <th>Interface References</th>
+            <th>API Reference</th>
+            <th>API Label</th>
+            <th>Data Lake Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Time-phased KPI Numbers</td>
+            <td>Time-phased KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_NUMBERS_CURRENT<br>TIMEPHASED_NUMBERS_DAILY_HISTORY<br>TIMEPHASED_NUMBERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primary/Foreign Key</th>
+            <th>Type</th>
+            <th>Related Table</th>
+            <th>Related Field</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>EVENT_ID</td>
+             <td>PK</td>
+             <td>This is a natural key for the time-phased KPI entry</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LOCATIONID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>The METADATA table is not provided</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+                <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+                <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTID</td>
+        </tr>
+                <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>Variable, based on OBJCODE</td>
+             <td>The primary key / ID of the object identified in the OBJCODE field</td>
+        </tr>
+                <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+                <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>The SCHEMA table is not provided; the value from this table is provided in the SCHEMANAME column. The SCHEMANAME identifies the KPI (e.g., plannedHours, estimatedHours, and actualHours)  the record is connected to.</td>
+             <td>-</td>
+        </tr>
+                <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
+                <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>TIMEPHASEDNUMBERSID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+                <tr>
              <td>USERID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>

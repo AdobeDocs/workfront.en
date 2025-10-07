@@ -3,6 +3,7 @@ title: 'App Builder: article index'
 description: Learn about how to use App Builder and Adobe Exchange.
 author: Courtney
 feature: Digital Content and Documents
+exl-id: ec379838-3aca-4498-a61f-091e3ce891ae
 ---
 # App Builder: article index
 

@@ -9,9 +9,11 @@ exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
 ---
 # Duplicate record views
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--remove preview and production references-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -101,9 +103,11 @@ Duplicating views is identical for all types of views in Workfront Planning.
     The record type page opens. 
     By default, all the records of the type selected display in the table view. 
 
-1. Hover over the tab of the view you want to duplicate, and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Duplicate**. 
+1. Depending on which environment you use, do the following: 
 
-    ![View more menu on a record view](assets/view-more-menu-with-duplicate-option.png)
+   * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Duplicate**. 
+   * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Duplicate**.</span> 
 
-    
-    The view is duplicated and the new view's name follows the following pattern: `Original view's name (Copy)`. The new view tab displays at the end of all view tabs.
+      ![More menu on view with options](assets/more-menu-for-views-expanded-with-delete-option.png)
+       
+      The view is duplicated and the new view's name follows the following pattern: `Original view's name (Copy)`. The new view tab displays at the end of all view tabs.

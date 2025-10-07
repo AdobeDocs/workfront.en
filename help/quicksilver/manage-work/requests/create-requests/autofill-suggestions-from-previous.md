@@ -1,23 +1,16 @@
 ---
-title: Auto-fill a request from previous data
+title: Auto-complete a request with data from previous requests
 content-type: reference
-description: You can use AI to auto-fill request fields using data from previous requests.
+description: You can use AI to auto-complete request fields using data from previous requests.
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
 ---
-# Auto-fill a request from previous data
+# Auto-complete a request with data from previous requests
 
->[!NOTE]
->
->* This functionality will be available as an open beta on the following schedule:
->
->   * Monthly release: September 11, 2025
->   * Quarterly release: October 16, 2025
+AI can help you auto-complete request fields based on previous requests. You can approve or reject these suggestions before submitting the request. 
 
-AI can help you auto-fill request fields based on previous requests. You can approve or reject these suggestions before submitting the request. 
-
-Auto-fill does not overwrite any fields that you have already filled in.
+Auto-complete does not overwrite any fields that you have already filled in.
 
 Users do not receive suggestions of data that they do not otherwise have access to.
 
@@ -59,7 +52,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Get suggestions when filling out form 
 
-Auto-fill can suggest field values while you are filling out the form. As you enter values into the request fields, Workfront compares those values with previous requests. If the entered value closely correlates with other field values in similar contexts in previous requests, Workfront suggests those values.
+Auto-complete can suggest field values while you are filling out the form. As you enter values into the request fields, Workfront compares those values with previous requests. If the entered value closely correlates with other field values in similar contexts in previous requests, Workfront suggests those values.
 
 For example, if a clinic always uses the same billing code, Workfront would suggest that billing code in the appropriate field when the clinic name is entered.
 

@@ -30,7 +30,7 @@ You must create record types before you can create fields to associate with them
 You can create fields in the following ways in Workfront Planning:
 
 * [From scratch](#create-fields-from-scratch)
-* [By connecting record types](#create-fields-from-scratch)
+* [By connecting record types](#create-fields-by-connecting-record-types)
 * [By creating a record type](#create-fields-by-creating-a-record-type)
 * [By creating a workspace from a template](#create-fields-by-creating-a-workspace-from-a-template)
 * [By importing record types using an Excel or CSV file](#create-fields-when-importing-record-types-from-a-csv-or-excel-file)

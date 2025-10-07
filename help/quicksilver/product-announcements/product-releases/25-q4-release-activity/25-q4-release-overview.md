@@ -54,6 +54,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Confirmation when removing a custom form from an object</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>To make sure you retain access to the data you need, we've added a confirmation dialog when removing a custom form from an object. Removing a custom form from an object permanently removes the data in that form from the object. Now, the dialog allows you to confirm that you understand that this data will be removed, ensuring that you do not remove data that you require. </p>
+        </td>
+        <td>September 24, 2025</td>
+        <td>September 25, 2025</td>
+        <td>September 25, 2025</td>
+    </tr> 
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New Boards Admin View</a><p></p>
+            <p>The Boards Admin View contains a list of every Board in your account that System Administrators can use to get a quick snapshot of the overall Boards details, including when they were last updated, how many cards each one has, and more.</p>
+        </td>
+        <td>September 11, 2025</td>
+        <td>October 15, 2025</td>
+        <td>October 16, 2025</td>
+    </tr> 
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Enable AI Beta features for your organization</a><p></p>
             <p>To make it easier for you to see and influence upcoming AI features, we've made it possible for you to enable the Betas for those features for your organization. Now, you can choose to enable one or more of the currently available AI Beta features from your System Preferences.</p>
         </td>
@@ -68,12 +86,12 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>There are some small functionality differences from the current user profile, including:</p>
             <ul>
                 <li>Some check boxes (such as marking the user as active) have changed to toggles or buttons.</li>
-                <li>The "Send work I assign to myself to my Working On tab" option under Preferences was removed because it refers to a deprecated feature.</li>
+                <li>The "Send work I assign to myself to my Working On tab" option under Preferences was renamed to "Automatically set the task status to In Progress when tasks are self-assigned" to reflect its purpose.</li>
             </ul>
         </td>
         <td>August 28, 2025</td>
-        <td>September 4, 2025</td>
-        <td>September 4, 2025</td>
+        <td>Phased rollout starting September 25, 2025</td>
+        <td>Phased rollout starting September 25, 2025</td>
     </tr>  
     <tr>
         <td>
@@ -183,6 +201,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 <li>Integration with Workfront Planning for better visibility into resource allocation</li>
             </ul>
             </p>
+            <p>The new My Requests widget displays only those requests that were created in the new requesting experience.</p>
         </td>
         <td>August 21, 2025</td>
         <td>September 11, 2025</td>
@@ -211,6 +230,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>September 11, 2025</td>
         <td>October 16, 2025</td>
     </tr> -->
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">New Project Health beta</a>
+            <p>The new Project Health feature utilizes the power of AI Assistant to instantly give you an assessment of how your projects are performing and what areas need your attention.</p>
+            <p>AI Assistant can generate a Project Health assessment for a project, a program, and multiple projects.</p>
+        </td>
+        <td>September 11, 2025</td>
+        <td>September 11, 2025</td>
+        <td>September 11, 2025</td>
+    </tr> 
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">New expressions added to formula fields in Planning and calculated custom fields in Workfront</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
@@ -282,7 +311,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
-    <tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Create and save views in the Requests area</a><p></p>
+            <p>To make it easier to see the information you need, we've added the ability to create and save views in the Requests area. Now, you can save a view, including filters and column configurations, and switch between views. A Workfront administrator can add the new view to layout templates.</p>
+        </td>
+        <td>October 2, 2025</td>
+        <td>October 15, 2025</td>
+        <td>October 16, 2025</td>
+    </tr> 
+    <!--<tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">New combined Status column in unified Request list</a><p></p>
             <p>To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.</p>
@@ -290,7 +328,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>August 28, 2025</td>
         <td>September 11, 2025</td>
         <td>October 16, 2025</td>
-    </tr>     
+    </tr>  -->   
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
@@ -323,6 +361,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience now available for more Workfront organizations</a><p></p>
+            <p>To allow organizations access to the benefits of the Adobe Unified Experience, we're continuing to make it available to existing Workfront customers.</p><p><span style="color: #ff0000;">The Adobe Unified Experience is being made available in a phased rollout.</span> </p>
+        </td>
+        <td><p>September 11, 2025</p><p>Or</p><p>December 11, 2025</p></td>
+        <td><p>October 16, 2025</p><p>Or</p><p>January 15, 2026</p></td>
+        <td><p>October 16, 2025</p><p>Or</p><p>January 15, 2026</p></td>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Updates to enhanced lists</a><p></p>

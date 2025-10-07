@@ -21,6 +21,14 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+
 As an Adobe Workfront administrator, you can create milestone paths which can then be applied to any project in the system. The changes you make to milestone paths in this area affect the entire Workfront system.
 
 ## Access requirements
@@ -66,14 +74,20 @@ For more detail about the information in this table, see [Access requirements in
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td><p>Standard</p>
+   <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator.</p></td> 
   </tr> 
  </tbody> 
-</table> -->
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Milestones and milestone paths
 
@@ -91,7 +105,18 @@ For more information on how you can associate a milestone path with a project an
 
 1. Click **Processes** > **Milestone Paths**.
 1. Click **New Milestone Path.**
-1. Specify the following information in the **Basic Info** area:
+
+   <div class="preview">
+
+   The New Milestone Path box opens. 
+   
+   ![New milestone path box](assets/new-milestone-path-box.png)
+   
+   </div>
+
+1. Click **Basic Info** in the left panel. 
+
+   Update the following information: 
 
    <table style="table-layout:auto">
     <tr>
@@ -112,7 +137,11 @@ For more information on how you can associate a milestone path with a project an
     </tr>
    </table>
 
-1. Specify the following information in the **Milestones** area:
+1. Click **Milestones** in the left panel. 
+
+1. In the Production environment, click **Add Milestone** to add milestones to the path. 
+   <span class="preview">In the Preview environment, click **New row** to add milestones to the path.</span>
+1. Update the following information: 
 
    <table style="table-layout:auto"> 
     <col> 
@@ -133,15 +162,14 @@ For more information on how you can associate a milestone path with a project an
     </tbody> 
    </table>
 
-1. Click **Add Milestone** and continue to add milestones as needed until the path is completed.
-
+1. (Optional) Drag and drop each milestone to reorder them. 
 1. Click **Create Milestone Path** to save your changes.
 
    Your milestone path is ready to be associated with a project.
 
    For more information on how to associate milestone paths to projects and milestones to tasks, see [Associate milestones with tasks](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-
+1. (Optional) From the Milestone Paths list, select one milestone, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) to open the milestone path and edit its information. 
 1. (Optional) Click the **Export** icon ![Export icon](assets/export-icon.png), then select from the following formats to export the milestone path list to a file:
 
    * PDF
@@ -149,10 +177,12 @@ For more information on how you can associate a milestone path with a project an
    * Excel (xlsx)
    * Tab Delimited
 
-1. (Optional) Select a milestone in the milestone list, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) to edit milestone information.
-1. (Optional) Select a milestone in the milestone list, then click the **Delete** icon ![Delete icon](assets/delete-icon.png) to delete it. 
+1. (Optional) Select one or several milestones in the milestone list, then click the **Delete** icon ![Delete icon](assets/delete-icon.png) to delete it. 
 1. Click **Yes, Delete it**. 
-   The milestone is deleted and cannot be recovered. Any project information associated with the milestone and any task information associated with the milestone paths is also deleted. 
+
+   The milestone is deleted and cannot be recovered. The milestone path is removed from any project previously associated with it and all milestones are removed from the tasks associated with them. 
+   
+   Deleted milestones cannot be recovered.
 
 
 ## View milestone path details in a project report

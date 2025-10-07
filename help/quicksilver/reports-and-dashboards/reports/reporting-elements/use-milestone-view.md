@@ -13,15 +13,13 @@ exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
 
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
-<!--
 <div class="preview"> 
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
 </div> 
--->
 
 You can apply the Milestone view to a project list or report. You can use the Milestone view to view all milestones that are associated with tasks within the projects you are viewing.
 
@@ -89,8 +87,13 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Milestone view overview {#milestone-view-overview}
 
+<div class="preview">
+
 The Milestone view is available on project lists and project reports. You can quickly view all milestones that are associated with tasks within the projects you are viewing.
 
+![Project with milestone view](assets/project-with-milestone-view-with-complete.png)
+
+</div>
 
 >[!NOTE]
 >
@@ -100,9 +103,6 @@ The Milestone view is available on project lists and project reports. You can qu
 
 For information about how to switch to the Milestone view, see the section [Switch to the Milestone view](#switch-to-the-milestone-view) in this article.
 
-<!--add new screen shot-->
-
-![Project with milestone view](assets/project-with-milestone-view-with-complete.png)
 
 ### Milestone view sections
 
@@ -139,26 +139,34 @@ When viewing a project list or project report in the Milestone view, the followi
 
   You can adjust the completion percentage directly from the Milestone view, as described in the section [Adjust Percent Complete for tasks in the Milestone view](#adjust-percent-complete-for-tasks-in-the-milestone-view) in this article.
 
-* **Task progress status icons:** A status icon is displayed next to each project and task in the Milestone view. <!--get new screen shots or hide them - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+* **Task progress status icons:** Depending on what environment you use to view the milestone view, the following are icons that indicate the tasks's progres status: 
 
-   <!--A progress status icon in the shape of a colored circle displays next to each project and task in the Milestone view. The possible statuses and circle colors are: 
-   * On Time - green
-   * Behind - yellow
-   * At Risk - blue
-   * Late - red-->
+   * In the Production environment, the following status icons display next to each project and task in the Milestone view: 
 
+      * On Time  
+      ![On time icon](assets/gantt-ontime.png)
 
-   * On Time  
-     ![On time icon](assets/gantt-ontime.png)
+      * Behind  
+      ![Behind icon](assets/gantt-behind.png)
 
-   * Behind  
-     ![Behind icon](assets/gantt-behind.png)
+      * At Risk  
+      ![At risk icon](assets/gantt-atrisk.png)
 
-   * At Risk  
-     ![At risk icon](assets/gantt-atrisk.png)
+      * Late  
+      ![Late icon](assets/gantt-late.png)
 
-   * Late  
-     ![Late icon](assets/gantt-late.png)
+      <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+
+   <div class="preview">
+
+   * In the Preview environment, the following colored circles display next to each project and task in the Milestone view:  
+
+      * On Time - green
+      * Behind - yellow
+      * At Risk - blue
+      * Late - red
+   
+   </div>
 
   You can disable these status icons from being displayed, as described in the section [Configure what information displays in the Milestone view](#configure-what-information-displays-in-the-milestone-view) in this article. 
 
@@ -194,27 +202,29 @@ When viewing a project list or project report in the Milestone view, the followi
 
    * No color shading is assigned to the Start and Completion columns when the tasks have a Progress Status of At Risk or Behind. 
 
-   <!--add new screen shot-->
+   <!--add new screen shot for preview or production release; logged a bug as this is not happening in the new view - if at prod this is still missing, hide this screen shot-->
    
    ![Milestone view with shading](assets/milestone-view-with-shading.png)
 
 * **Project name**: The project name is displayed with a link to the project.
-* **Project Condition icon**: An icon displays next to the project name, indicating the condition of the project.
+* **Project Condition icon**: Depending on the environment you are accessing the Milestone view from the following indicators show the project Condition: 
 
-   <!--
+   * In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:
+
+      * On Target
+      * At Risk
+      * In Trouble
+
    <div class="preview">
-   A condition icon in the shape of a colored circle displays next to each project in the Milestone view. The possible project conditions and circle colors are: 
-   * On Target - green
-   * At Risk - yellow
-   * In Trouble - red
-   </div>
-   -->
 
-   The Condition of the project might be one of the following:
+   * In the Preview environment, a condition icon in the shape of a colored circle displays next to each project. The possible project conditions and circle colors are: 
 
-   * On Target
-   * At Risk
-   * In Trouble
+      * On Target - green
+      * At Risk - yellow
+      * In Trouble - red
+   
+      </div>
+   
 
 ## Configure what information displays in the Milestone view {#configure-what-information-displays-in-the-milestone-view}
 
@@ -231,16 +241,16 @@ To configure whether project status icons and completion percentage of projects 
 
 {{step1-to-projects}}
 
-1. Click the **View** drop-down menu, then click **Milestone**.  
-   <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
+1. Click the **View** drop-down menu, then click **Milestone**. 
 
-1. <!--In the Production environment,--> Click **Options** in the upper-right corner of the Milestone view.   
-
-   <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
-
-   <!--at Prod release, replace this screen shot and adjust the Production/ Preview text above-->
+1. In the Production environment, click **Options** in the upper-right corner of the Milestone view, then select from the options in the next step.   
 
    ![milestone_view_options.png](assets/milestone-view-options-350x141.png)
+
+   <div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>
+
+   <!--at Production release, replace this screen shot and adjust the Production/ Preview text above-->
+  
 
 1. Select from the following options:
 
@@ -271,6 +281,6 @@ To adjust the percent complete for a task in the Milestone view:
 
 1. (Conditional) If completion percentages are not current displaying in the Milestone view, enable viewing the Percent Complete of tasks and projects, as described in the section [Configure what information displays in the Milestone view](#configure-what-information-displays-in-the-milestone-view) in this article. 
 
-1. <!--In the Production environment,--> Click the completion percentage below a task, specify a new percentage, then press Enter.
+1. In the Production environment, click the completion percentage below a task, specify a new percentage, then press Enter.
 
-   <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->
+   <div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>

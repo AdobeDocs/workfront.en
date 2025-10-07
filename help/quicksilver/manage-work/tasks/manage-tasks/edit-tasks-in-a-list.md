@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Edit Tasks in a List
-description: You can edit task information in a list of tasks by editing the fields displayed in the list. 
+title: Edit tasks in a list
+description: You can edit task information in a list of tasks by editing the fields displayed in the list. You must define the Plan Mode in a list of tasks to indicate how you want your changes to be saved to Workfront. You can save your changes manually or automatically. 
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
@@ -104,15 +104,20 @@ Consider the following when editing tasks in a list:
      >
      >By default, Workfront automatically saves your changes to tasks in the Subtasks  section or in a task report.
 
-* You can control when Workfront saves the changes you make to the tasks in a list. Your changes can be saved automatically or you can manually save them.
+* You can control when Workfront saves the changes you make to the tasks in a list by defining the Plan Mode before you start editing the tasks. 
 
-  For information about configuring when Workfront saves changes you make to tasks in a list, see the [Select a save option when editing tasks in a list](#select-a-save-option-when-editing-tasks-in-a-list) section in this article.
+   You can decide between Workfront saving the changes you make in the following way: 
+   
+      * Automatically, after every change
+      * Manually, only after you click Save. 
+
+  For information about configuring when Workfront saves changes you make to tasks in a list, see the [Modify Plan Mode before editing tasks in a list](#modify-plan-mode-before-editing-tasks-in-a-list) section in this article.
 
 * Other users must refresh their pages before they can view the updates you make to a task. 
 
-## Select a save option when editing tasks in a list {#select-a-save-option-when-editing-tasks-in-a-list}
+## Modify Plan Mode before editing tasks in a list
 
-You can decide whether the changes you make to tasks in a list are saved automatically as they occur, or if you want to manually save each change.
+You can decide whether the changes you make to tasks in a list are saved automatically as they occur, or if you want to manually save each change. To do this, you must modify the Plan Mode in a list of task before editing the tasks. 
 
 >[!IMPORTANT]
 >
@@ -120,17 +125,17 @@ You can decide whether the changes you make to tasks in a list are saved automat
 
 When you save your changes in a list for a project that has either Automatic or Automatic and On Change selected as the Update Type, Workfront updates the project timeline, along with all in-project and cross-project dependencies. Timeline calculations can take a long time if the project is large or if there are a lot of dependencies. Some methods of editing a task list can be faster than others, depending on the method you select to save your changes.
 
-You can control when Workfront saves the changes you make to the tasks in a list. The following scenarios exist:&nbsp;
+You can control when Workfront saves the changes you make to the tasks in a list. The following scenarios exist: 
 
 * You can have Workfront automatically save the changes, after each update.
 
-  For information, see the section [Edit tasks in a list and automatically save changes](#edit-tasks-in-a-list-and-automatically-save-changes) in this article. 
+  For information, see the section [Set the Plan Mode to automatically save changes](#set-the-plan-mode-to-automatically-save-changes) in this article. 
 
 * You can have control over when you apply multiple changes at a time by manually using a Save button.
 
-  For information, see the section [Edit tasks in a list and manually save changes](#edit-tasks-in-a-list-and-manually-save-changes) in this article.
+  For information, see the section [Set the Plan Mode to manually save changes](#set-the-plan-mode-to-manually-save-changes) in this article.
 
-### Edit tasks in a list and automatically save changes {#edit-tasks-in-a-list-and-automatically-save-changes}
+### Set the Plan Mode to automatically save changes
 
 >[!TIP]
 >
@@ -149,7 +154,7 @@ To edit tasks in a list and save changes automatically:
 1. On the **Projects** page, select a project.
 1. In the left panel, click the **Tasks** section.
 
-1. Click the **Plan mode** icon ![Plan mode icon](assets/plan-mode-icon.png) at the top of the list and make sure the **Autosave** option is selected.
+1. Click the **Plan Mode** icon ![Plan Mode icon](assets/plan-mode-icon.png) at the top of the list and make sure the **Autosave** option is selected.
 
    ![Enable the autosave setting](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
@@ -212,7 +217,7 @@ To edit tasks in a list and save changes automatically:
     </tbody> 
    </table>
 
-### Edit tasks in a list and manually save changes {#edit-tasks-in-a-list-and-manually-save-changes}
+### Set the Plan Mode to manually save changes {#edit-tasks-in-a-list-and-manually-save-changes}
 
 You can manually save changes you make to tasks in a list. When you save changes this way, you have the flexibility to reverse them before saving.
 
@@ -259,7 +264,7 @@ To edit tasks in a list when selecting the Manual save Standard option:
 
 1. In the left panel, click the **Tasks** section.
 
-1. Click the **Plan mode** icon ![Plan mode icon](assets/plan-mode-icon.png) at the top of the list.
+1. Click the **Plan Mode** icon ![Plan Mode icon](assets/plan-mode-icon.png) at the top of the list.
 
 1. In the **Plan Mode** dialog, select **Manual save**, then click **Standard**.
 
@@ -347,7 +352,7 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
 
 1. In the left panel, click the **Tasks** section.
 
-1. Click the **Plan mode** icon ![Plan mode icon](assets/plan-mode-icon.png) at the top of the list.
+1. Click the **Plan Mode** icon ![Plan Mode icon](assets/plan-mode-icon.png) at the top of the list.
 
 1. In the **Plan Mode** dialog, select **Manual save**, then click **Timeline Planning**. 
 
@@ -479,7 +484,7 @@ You can edit multiple tasks all at once. Ensure you have manage permissions to t
 1. On the **Projects** page, select a project.
 1. In the left panel, click the **Tasks** section.
 
-1. Click the **Plan mode** icon ![Plan mode icon](assets/plan-mode-icon.png) at the top of the list and make sure the **Autosave** option is selected.
+1. Click the **Plan Mode** icon ![Plan Mode icon](assets/plan-mode-icon.png) at the top of the list and make sure the **Autosave** option is selected.
 
    ![Enable the autosave setting](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 

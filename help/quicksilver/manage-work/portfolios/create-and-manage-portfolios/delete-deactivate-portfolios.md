@@ -91,6 +91,18 @@ Consider the following when deciding whether to delete or deactivate portfolios:
 * Deactivating a portfolio ensures that the name of the portfolio and its programs can no longer be assigned to projects when creating a project.
 * Deactivating a portfolio that is already attached to a project does not remove it from the project. If you remove a deactivated portfolio from a project you must reactivate it before you can reattach it to the project.
 
+## Delete a portfolio
+
+{{step1-to-portfolios}}
+
+1. Do one of the following:
+
+   * Select the portfolio in the list, then click the **[!UICONTROL Delete]** icon ![Delete icon](assets/delete.png).
+   * Click the portfolio to open it, then click the **More** menu ![More menu](assets/more-icon.png) to the right of the portfolio name, then **Delete Portfolio**. 
+1. Click **[!UICONTROL Yes, Delete It]** to confirm.
+
+   The portfolio is deleted and cannot be recovered. 
+
 ## Deactivate a portfolio
 
 When you deactivate a portfolio, you can still access it from the [!UICONTROL Portfolios] area, but it no longer displays in the list of portfolios when users try to add it to a project.
@@ -107,14 +119,4 @@ When you deactivate a portfolio, you can still access it from the [!UICONTROL Po
    The portfolio is immediately deactivated. 
 1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png) to the right of the portfolio name, then click **[!UICONTROL Activate Portfolio]** to reactivate it. 
 
-## Delete a portfolio
 
-{{step1-to-portfolios}}
-
-1. Do one of the following:
-
-   * Select the portfolio in the list, then click the **[!UICONTROL Delete]** icon ![Delete icon](assets/delete.png).
-   * Click the portfolio to open it, then click the **More** menu ![More menu](assets/more-icon.png) to the right of the portfolio name, then **Delete Portfolio**. 
-1. Click **[!UICONTROL Yes, Delete It]** to confirm.
-
-   The portfolio is deleted and cannot be recovered. 

@@ -9,9 +9,9 @@ exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
 ---
 # Delete record views
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -98,14 +98,20 @@ The view is deleted for all users who have permissions to access it. Deleted vie
 
     By default, all the records of the selected type display in the table view. 
 
-1. Hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**.
 
-    ![View more menu on a record view](assets/view-more-menu-with-duplicate-option.png)
+1. From the view's tab, do one of the following: 
 
-   >[!TIP]
-   >
-   >You might need to click **More** to the right of the last tab to find the view you want to delete.
+   * Depending on which environment you are accessing the view from, do the following: 
+   
+      * In the Production environment, hover over the tab name of the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Delete**. 
 
+      >[!TIP]
+      >
+      >You might need to click **More** to the right of the last tab to find the view you want to delete.
+
+      * <span class="preview"> In the Preview environment, click the view's tab, hover over the view in the drop-down menu, click the **More** menu ![More menu](assets/more-menu.png), then click **Delete**.</span>
+
+      ![More menu with options](assets/more-menu-for-views-expanded-with-delete-option.png)
 
 1. Click **Delete** to confirm. <!--ensure there is not another saving step here?!-->
     

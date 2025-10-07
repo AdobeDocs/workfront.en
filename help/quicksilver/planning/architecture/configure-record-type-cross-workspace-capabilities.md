@@ -19,7 +19,7 @@ recommendations: noDisplay, noCatalog
 
 
 <!--this article is linked to the UI - do not delete or change the URL-->
-<!--add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this imported record type - this info is in the UI - this is what she sent in figma:
+<!--add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type - this info is in the UI - this is what she sent in figma:
 
 Hey, Alina, Lusine. As this page contains not only the "global record types" but also cross-workspace connectivity setting, we shouldn't have this message that's highlighting only the global rt features. I think we should have explanation for each setting both in enabled and disabled states. 
 
@@ -43,12 +43,14 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+You can configure record types to work across multiple workspaces. 
+
 The following are cross-workspace capabilities of record types:
 
 * You can designate a record type as centralized. Users can add centralized record types to other workspaces they can manage. 
 * You can designate a record type as a connectable. Users can connect to this record type from other workspaces. 
 
-You must first define the cross-workspace capabilities of a record type before workspace managers can either connect it from or import it into other workspaces.
+You must first define the cross-workspace capabilities of a record type before workspace managers can either connect it from or add it into other workspaces.
 
 You define the cross-workspace capabilities of a record type when you create or edit a record type. 
 
@@ -75,13 +77,15 @@ For information, see one of the following articles:
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <ul><li><p>Any Workfront package</p></li>
-And
-<li><p>Planning Plus package</p></li></ul>
-Or:
+<p>And</p>
+<li><p>Any Planning package to create connectable record types</p></li>
+<li><p>Planning Plus package to create centralized record types</p></li>
+</ul>
+<!--Or:
 <ul><li><p>Any Workflow package</p> </li>
 And
-<li><p>Planning Prime or Ultimate package</p></li></ul>
-<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+<li><p>Planning Prime or Ultimate package</p></li></ul>-->
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
    </td> 
 
   <tr> 
@@ -112,19 +116,18 @@ A workspace manager can add a centralized record type to a workspace they manage
 
 Users can add records to a centralized record type from any workspace they have Contribute permissions and where the centralized record type is added, including its original workspace. They can view records from workspace they have only View permissions to.
 
-For more information, see [Centralized record types overview](/help/quicksilver/planning/architecture/centralized-record-types-overview.md)
+For more information, see [Cross-workspace record types overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-To configure adding a record type as a centralized record type: 
+To configure a record type as centralized: 
 
 {{step1-to-planning}}
 
-1. Click the workspace whose record types you want to edit. 
+1. Click the workspace whose record types you want to configure as centralized. 
 
    The workspace page opens and the record types display. 
 1. Do one of the following:
 
    * Hover over the card of a record type and click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the record type card
-      Or
    * Click a record type card to open the record type page, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name.
 1. Click **Edit**.
 
@@ -134,7 +137,7 @@ To configure adding a record type as a centralized record type:
    >
    >If a record type has already been designated as a centralized record type and it's been added to other workspaces the Edit option is dimmed. 
 
-1. In the **Edit record type** box, select the **Advanced settings** tab.
+1. In the **Edit record type** box, click the **Advanced settings** tab.
 1. Enable the **Allow adding this record type to other workspaces** setting.
 
    ![Edit record type Advanced settings with Add to other workspaces enables](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
@@ -173,7 +176,7 @@ To configure adding a record type as a centralized record type:
          This field is read-only and cannot be deleted.
 1. (Optional) Go to another workspace and create a record type by using an existing record type. Select the record type you enabled in the steps above. 
 
-   For information, see [Add existing record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md). 
+   For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). 
 
 ## Configure connectable record types
 
@@ -191,12 +194,11 @@ To configure a record type to connect to from other workspaces when you edit the
 1. Do one of the following:
 
    * Hover over the card of a record type and click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the record type card, then click **Edit**
-      Or
    * Click a record type card to open the record type page, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Edit**. 
 
    ![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)
 
-1. In the **Edit record type** box, select the **Advanced settings** tab.
+1. In the **Edit record type** box, click the **Advanced settings** tab.
 1. Enable the **Allow connecting to this record type in other workspaces** setting. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
    ![Edit record type Advanced settings tab with connect from other workspaces enabled](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)

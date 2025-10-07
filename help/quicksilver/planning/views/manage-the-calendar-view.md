@@ -105,21 +105,18 @@ Consider the following:
     * When the Start or the End dates have no value, the record displays as a one-day event
     * When the Start date is after the End date, the record does not display on the calendar.
 
-<div class="preview">
-
-* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
-* You can resize the records' bars in the calendar monthly view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-
-</div>
-
 To manage a calendar view: 
 
 1. Go to the record type page for which you want to view the calendar. 
 1. Create a calendar view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
+    <div class="preview">
+
     ![Calendar view example](assets/calendar-view-example.png)
 
     The records associated with the record type you selected display as bars in a calendar. The color of the bars matches the color of the record icon, by default. 
+
+    </div>
 
 1. Do one of the following to navigate through the calendar:
 
@@ -135,6 +132,18 @@ To manage a calendar view:
             * Records that last a day or less, display in the lower half of the calendar view. If you selected to display the hour of he Start and End Dates, the record displays at the appropriate time within the day that it occurs.
          
 1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+
+1. <span class="preview">To create records in the calendar view or edit their dates do one of the following:</span>
+
+    * <span class="preview">Double-click anywhere on the calendar to create a record. </span>
+    
+        <span class="preview">For information, see [Create records](/help/quicksilver/planning/records/create-records.md).</span>
+    
+    * <span class="preview">Click on the left or right margin of a record bar, then drag and drop it in a new position. Resizing the records' bars updates their start or end dates immediately. </span> 
+    
+    * <span class="preview">Drag and drop the record bars to update their position and dates. Moving the records' bars updates their start and end dates immediately.</span>
+    
+      <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
     
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)

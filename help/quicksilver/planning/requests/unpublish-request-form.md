@@ -111,7 +111,7 @@ To change the sharing of a request form:
 
 {{step1-to-planning}}
   
-1. Click the workspace where you want to add records.
+1. Click the workspace where you want to share a form.
 
     The workspace opens and the record types display as cards.
 
