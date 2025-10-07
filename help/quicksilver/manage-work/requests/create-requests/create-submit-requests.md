@@ -364,12 +364,6 @@ The body text of the email is added as the request description.
 
 For information about how to enable a Request Queue to receive requests through email, see [Enable users to email an issue into a Request Queue project](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
-## Create requests using the Outlook client
-
-You can submit requests using the Outlook client. You can create a new request or you can convert an email into a request.
-
-For information about submitting requests using the Outlook client, see the article [Create an Adobe Workfront request from an Outlook email](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
-
 ## Create requests using the Workfront mobile app
 
 You can submit requests using the mobile app on your smartphone. You can create a new request and submit it to the Request Queues you have access to see in the web application. 
