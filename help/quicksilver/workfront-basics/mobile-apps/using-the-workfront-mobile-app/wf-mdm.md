@@ -26,6 +26,6 @@ For information on configuring [!DNL Workfront] for [!DNL MobileIron], see [Conf
 The Workfront mobile app is now available in the [!DNL Microsoft Intune] app store. Your Workfront administrator can assign the app to your device through Intune.
 
 * iOS
-* Android (Coming soon)
+* Android
 
 Your Workfront instance must be on Adobe Identity Management System (IMS).
