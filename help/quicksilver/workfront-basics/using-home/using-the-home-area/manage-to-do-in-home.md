@@ -21,8 +21,6 @@ You and other users can view your personal tasks in a personal task report. From
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
