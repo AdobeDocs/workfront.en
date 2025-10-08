@@ -94,7 +94,8 @@ Because this integration is built using Adobe Enterprise Storage, there are some
 * Object names must be unique and can't be duplicated
 * Adobe Enterprise Storage requires unique names for peer objects with the same parent in the hierarchy tree
 * Documents can't have the same name if they belong to the same project
-* Document names can't contain special characters, including: \ / : * ? " < > | # % { } $ ! @ + ` & = ^ ~ [ ] ; , .
+* Document names can't contain any of the following special characters: \ / : * ? " | < >
+* Docuemnt names are limited to 255 characters maximum
 
 With these limitations in mind, Workfront automatically renames objects or documents as needed to prevent conflicts.
 
