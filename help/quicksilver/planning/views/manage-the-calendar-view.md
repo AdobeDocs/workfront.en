@@ -110,9 +110,13 @@ To manage a calendar view:
 1. Go to the record type page for which you want to view the calendar. 
 1. Create a calendar view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
+    <div class="preview">
+
     ![Calendar view example](assets/calendar-view-example.png)
 
     The records associated with the record type you selected display as bars in a calendar. The color of the bars matches the color of the record icon, by default. 
+
+    </div>
 
 1. Do one of the following to navigate through the calendar:
 
@@ -135,18 +139,11 @@ To manage a calendar view:
     
         <span class="preview">For information, see [Create records](/help/quicksilver/planning/records/create-records.md).</span>
     
-    * <span class="preview">In the calendar monthly view, click on the end of a record bar, then drag and drop it in a new position. Resizing the records' bars updates their start and end dates immediately. </span> <!--when resizing in the calendar weekly view is released, modify the sentence above to take out 'monthly', since it will be available in both-->
+    * <span class="preview">Click on the left or right margin of a record bar, then drag and drop it in a new position. Resizing the records' bars updates their start or end dates immediately. </span> 
     
-        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+    * <span class="preview">Drag and drop the record bars to update their position and dates. Moving the records' bars updates their start and end dates immediately.</span>
     
-    <!--ADD ONE OF THE FOLLOWING DEPENDING ON WHAT RELEASES: 
-    Scenario 1: drag and drop in the calendar weekly view: 
-    * <span class="preview">In the weekly calendar view, drag and drop records to update their position and dates in the timeline.</span>
-    Scenario 2: drag and drop in the calendar monthly view: 
-    * <span class="preview">In the monthly calendar view, drag and drop records to update their position and dates in the timeline.</span>
-    Scenario 3: drag and drop in the calendar view (both weekly and monthly are supported): 
-    * <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
-        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
+      <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
     
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)

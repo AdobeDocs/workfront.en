@@ -326,7 +326,22 @@ To add a Connected records page:
 
       For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
-   * Inline edit any of the records in the table on the Connected records page. In the Production environment, all Workfront objects display in a read-only table view and you cannot edit them. <span class="preview">You can inline edit Workfront projects in the Preview environment.</span> 
+   * Inline edit any of the records in the table on the Connected records page. 
+   
+      In the Production environment, all Workfront objects display in a read-only table view and you cannot edit them. 
+      
+      <span class="preview">In the Preview environment, you can inline edit projects in the connected records page.</span>
+   
+1. <span class="preview">(Conditional) When viewing a list of connected projects, do any of the following:</span>
+
+     * <span class="preview">Click **Connect records** in the upper-right corner of the connected record page to connect existing projects.</span>
+     * <span class="preview">Inline edit project information in the table.</span> 
+     * <span class="preview">Click **New row** to create a project without a template. The new project is connected to the current record immediately.</span>
+
+         For more information, see [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+     * <span class="preview">Hover over a project and click the **More** menu [More menu](assets/more-menu.png), then click one of the following:</span>
+        * <span class="preview">**Delete** to delete the project. Deleting a project disconnects it from the record and moves it to the Workfront's Recycle Bin. </span>
+        * <span class="preview">**Disconnect** to disconnect the project from the record. Disconnecting a project removes it and all the values of its lookup fields from the current record. </span>
 
 1. (Optional) Double-click the name of the Connected records page tab
 
@@ -350,7 +365,7 @@ To add a Connected records page:
 1. (Conditional) To connect more records or objects, do one of the following: 
 
    * Click **Connect** at the bottom of the table, to add or remove records or any Workfront objects <span class="preview">except for projects.</span>
-   * <span class="preview">In the Preview environment, click **Connect records** in the upper-right corner of the connected records page, or **New row** at the bottom of the table to add or remove projects.</span>
+   * <span class="preview">In the Preview environment, click **Connect records** in the upper-right corner of the connected records page to connect existing projects or click **New row** at the bottom of the table to create projects and automatically connect them to the current record.</span>
    
    For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
 1. (Optional)  Hover over the name of the Connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.

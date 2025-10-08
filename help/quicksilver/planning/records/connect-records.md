@@ -461,11 +461,12 @@ To connect records with Experience Manager assets:
     A connected record type page displays in the table view.
     
     All connected records of one type display in the table.  
-1. Click **Connect**, <span class="preview">**Connect records**, or **New row**</span> to add or remove records.
+1. Click **Connect** or <span class="preview">**Connect records** in a list of projects</span> to add or remove existing records.
 
     ![Connect button highlighted in connected record details tab](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 
     For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. <span class="preview">Click **New row** in a list of projects to create a project. The new projects are automatically connected to the current record. </span>
 1. (Optional) If you cannot find a connected record, click **+ Add** to create and connect them. 
 
 ## Connect records from Workfront objects
