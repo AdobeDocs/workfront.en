@@ -14,17 +14,14 @@ The Workfront and Frame.io integration allows project coordinators to manage pro
 
 ## Integration requirements
 
-You must have the Workfront and Frame.io integration enabled by Adobe Professional Services.
-
-<!--
 * Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
 
 * Users can belong to only one Workfront instance within the IMS organization.
 
-* The Workfront instance must be enabled on the Adobe Unified Experience.
+* The Workfront instance must be enabled on the Adobe Unified Experience and Adobe enterprise storage.
 
-* The integration is configured by Adobe Professional Services. 
--->
+* The integration must be configured by Adobe Professional Services. 
+
 
 ## Built on Adobe enterprise storage
 
@@ -33,7 +30,7 @@ At the core of this integration is Adobe enterprise storage—-a cloud-based sto
 Key benefits of Adobe enterprise storage include:
 
 * Unified storage layer for creative and work management assets
-* Centralized permissions via Adobe IMS for secure access control
+* Centralized permissions via Adobe Identity Management system (IMS) for secure access control
 * End-to-end asset visibility across Workfront and Frame.io <!--, and Creative Cloud apps -->
 * Scalable storage and quota management for enterprise needs
 
@@ -74,7 +71,7 @@ This limit does not apply to Frame.io Enterprise customers.
 
 #### Supported file types in the Frame.io viewer
 
-The Frame.io viewer supports all common video, image, audio, PDF, and MS&reg; Office types. For a detailed list of supported files, see [Types on Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
+The Frame.io viewer supports all common video, image, audio, PDF, and MS&reg; Office types. For a detailed list of supported files, see [Supported File Types on Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
 
 #### Access and licensing for the Frame.io viewer
 
@@ -92,11 +89,12 @@ For more information about managing projects in Workfront, see [Projects: articl
 
 ### Enforced structure and naming conventions
 
-Because this integration is built using ESM, there are some enforced structure and naming conventions to be aware of when managing projects and documents.
+Because this integration is built using Adobe Enterprise Storage, there are some enforced structure and naming conventions to be aware of when managing projects and documents.
 
 * Object names must be unique and can't be duplicated
-* ESM requires unique names for peer objects with the same parent in the hierarchy tree
+* Adobe Enterprise Storage requires unique names for peer objects with the same parent in the hierarchy tree
 * Documents can't have the same name if they belong to the same project
+* Document names can't contain special characters, including: \ / : * ? " < > | # % { } $ ! @ + ` & = ^ ~ [ ] ; , .
 
 With these limitations in mind, Workfront automatically renames objects or documents as needed to prevent conflicts.
 
