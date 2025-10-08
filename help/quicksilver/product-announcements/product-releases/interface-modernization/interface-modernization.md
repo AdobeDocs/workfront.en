@@ -18,6 +18,14 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+### Interface updates to the Import users dialog on Companies
+
+**Preview release: October 9, 2025; Production release for all customers: October 16, 2025**
+
+We have updated the dialog box for importing new users on a company via a spreadsheet file, to match other areas of the application.
+
+To view this change, go to Setup > Companies > select a company > Company Members > Add member > Import users.
+
 ### New interface and functionality for the New and Edit Milestone Path boxes 
 
 **Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
