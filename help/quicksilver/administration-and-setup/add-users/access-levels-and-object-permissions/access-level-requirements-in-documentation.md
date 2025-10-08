@@ -49,13 +49,10 @@ Some rows contain information labeled "New" and "Current." This is because Workf
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Workfront offers some products that can be purchased in addition to Workfront.
-   <p>Articles that describe procedures performed inside these additional products list the required product here.</p>
-   <ul>
-   <li>Adobe Experience Manager Assets or Assets Essentials </li>
-   <li>Workfront Automation and Integrations</li>
-   <li>Workfront Planning</li>
-   </ul>
+   <td>Workfront offers a variety of products, and works closely with some other products on the Adobe Experience Cloud. Depending on the Workfront package that your organization purchased, you may or may not have access to these products.
+   <p>For example Workfront Fusion is included in the Workfront Automation and integration package and the Workfront Ultimate package, and is available for purchase for organizations on Workfront Select or Prime plans. Workfront Planning is another product that may or may not be available based on your Workfront package.</p>
+   <p>Because Workfront works closely with other Adobe products, some procedures in Workfront interact with those products directly. To follow those procedures, your organization must have purchased that product. For example, to use functionality that allows Workfront to interact with Adobe Exerience Manager Assets, your organization must have purchased Adobe Experience Manager Assets.</p>
+   <p>Articles that describe procedures performed with additional products list the required product in the Product line of this table.</p>
    <p>To find out if your organization has purchased one of these additional products, contact your Workfront administrator.</p></td> 
   </tr> 
   <tr> 
