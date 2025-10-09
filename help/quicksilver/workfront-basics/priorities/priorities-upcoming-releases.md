@@ -5,6 +5,8 @@ description: View information about upcoming Priorities releases
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
+hide: yes
+hidefromtoc: yes
 exl-id: 749f4da8-6ffb-4b23-bf3e-18f195df80c9
 ---
 # Priorities: upcoming releases
