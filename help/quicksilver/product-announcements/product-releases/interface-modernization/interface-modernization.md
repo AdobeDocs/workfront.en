@@ -58,7 +58,7 @@ This update affects:
 
 ### Interface updates for the Severities area in Setup
 
-**Preview release: September 25, 2025; Production release: October 9, 2025**
+**Preview release: September 25, 2025; Production release: To be announced**
 
 We have updated the Severities page with a more modern design that is consistent with other areas of Workfront.
 
@@ -70,7 +70,7 @@ For more information, see [Create or customize issue severities](/help/quicksilv
 
 ### Interface updates for the Priorities area in Setup
 
-**Preview release: September 25, 2025; Production release: October 9, 2025**
+**Preview release: September 25, 2025; Production release: To be announced**
 
 We have updated the Priorities page with a more modern design that is consistent with other areas of Workfront.
 
@@ -486,6 +486,11 @@ You can view the updated design by going to Users, selecting a user, and clickin
 ### Interface updates for personal time off
 
 **Preview release: September 25, 2025; Production release: October 2, 2025**
+
+>[!NOTE]
+>
+>This feature has been temporarily removed from the Preview and Production environments on October 9, 2025.
+
 
 We have updated the look and feel of the personal time off calendar, including the ability to delegate approvals, to match other areas of the application.
 
