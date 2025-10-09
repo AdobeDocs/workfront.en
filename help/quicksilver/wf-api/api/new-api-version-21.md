@@ -289,25 +289,200 @@ An Assignment object represents the connection between a work item and the user,
 
 A Category object is a custom form.
 
-### Customer
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>catObjCode</b>
+            </p>
+            <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>SPTMPL</code> (enum.categorytypeenum.staffingplantemplate)</p>
+              </li>
+              <li>
+                <p><code>TEAMOB</code> (Team)</p>
+              </li>
+            </ul>
+         </li>
+          <li>
+            <p><b>objTypes</b>
+            </p>
+            <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>SPTMPL</code> (enum.categorytypeenum.staffingplantemplate)</p>
+              </li>
+              <li>
+                <p><code>TEAMOB</code> (Team)</p>
+              </li>
+            </ul>
+          </li>
+           </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-### Document
+### Customer (CUST)
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><code>APDISAB</code> (Disable use of a Java applet for timeline calculations)
+            </p>
+            <p>Added</p>
+              </li>
+            </ul>
+         </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Document (DOCU)
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Actions</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>getTemporaryCloudURL</b>
+            </p>
+            <p>Added</p>
+              </li>
+            </ul>
+         </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### DocumentFolder
 
-<note>RESTORABLE flag added</note>
+The DocumentFolder object added the flag `RESTORABLE`.
 
 ### Hour (HOUR)
 
 An Hour object represents an hour logged by a user on a timesheet.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>getTerejectionCommentmporaryCloudURL</b>
+            </p>
+            <p>Added the validator <code>MAX_LENGTH</code></p>
+              </li>
+            </ul>
+         </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### OpTask (OPTASK)
 
 An OpTask object is commonly known as an Issue. An issue is a work item that usually indicates that there is a problem preventing the completion of a task or project. An Issue can also be a Help Desk request. Change Orders, Requests, and Bugs are also Issues.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>actualWorkRequiredDouble</b>
+            </p>
+            <p>Added</p>
+              </li>
+            </ul>
+         </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### Parameter (PARAM)
 
 A Parameter object is a custom field.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>dataType</b>
+            </p>
+            <p>Added the following possible value:</p>
+             <ul>
+              <li>
+                <p><code>RICHLX</code> (Lexical Rich Text)</p>
+              </li>
+            </ul>
+         </li>
+          <li>
+            <p><b>displayType</b>
+            </p>
+            <p>Added the following possible value:</p>
+             <ul>
+              <li>
+                <p><code>SNGLROLLUP</code> (Single Line Rollup)</p>
+              </li></ul>
+         <li>
+            <p><b>isActive</b>
+            </p>
+            <p>Added</p>
+           </li>
+           </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Default fields</td>
+      <td>
+        <ul>
+         <li>
+            <p><b>isActive</b>
+            </p>
+            <p>Added</p>
+           </li>
+           </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Portfolio (PORT)
 
