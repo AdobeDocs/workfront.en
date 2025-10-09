@@ -100,7 +100,7 @@ To override a billing rate for a project:
    * **End Date**: the date when the new billing rate override ends.
 
    <span class="preview">Sample image in the Preview environment:</span>
-   ![Billing rates with override dates](assets/billing-rates-093025.png)
+   ![Billing rates with override dates](assets/billing-rates-093025.png) 
 
    Sample image in the Production environment:
    ![Billing rates with override dates](assets/new-billing-rate-with-adjustment-dates-350x266.png)
