@@ -211,6 +211,7 @@ The following table shows the similarities and differences between the table, ti
 
     <span class="preview">![Create view box](assets/create-view-box.png)</span>    
 
+1. <span class="preview">To edit an existing view, type the name of a view in the **Search** field and press Enter on your keyboard.</span>
 1. <span class="preview">From the view dropdown menu, drag and drop views in order of your preference.</span>
 
     <span class="preview">![View types drop-down from record type list](assets/view-types-drop-down-from-record-type-list.png)</span>

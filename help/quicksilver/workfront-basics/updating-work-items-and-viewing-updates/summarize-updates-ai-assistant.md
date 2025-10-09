@@ -78,7 +78,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
     For more information, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in the article AI Assistant overview.
 * Your Workfront administrator must enable AI Assistant for your access level.
 
-   For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).s
+   For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 ## Summarize using Summarize comments button
 
