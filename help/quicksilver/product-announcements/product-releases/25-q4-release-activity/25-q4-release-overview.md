@@ -54,12 +54,12 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Confirmation when removing a custom form from an object</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Confirmation when removing a custom form from an object</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>To make sure you retain access to the data you need, we've added a confirmation dialog when removing a custom form from an object. Removing a custom form from an object permanently removes the data in that form from the object. Now, the dialog allows you to confirm that you understand that this data will be removed, ensuring that you do not remove data that you require. </p>
         </td>
+        <td>September 24, 2025</td>
         <td>September 25, 2025</td>
-        <td>October 15, 2025</td>
-        <td>October 16, 2025</td>
+        <td>September 25, 2025</td>
     </tr> 
     <tr>
         <td>
@@ -86,7 +86,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>There are some small functionality differences from the current user profile, including:</p>
             <ul>
                 <li>Some check boxes (such as marking the user as active) have changed to toggles or buttons.</li>
-                <li>The "Send work I assign to myself to my Working On tab" option under Preferences was removed because it refers to a deprecated feature.</li>
+                <li>The "Send work I assign to myself to my Working On tab" option under Preferences was renamed to "Automatically set the task status to In Progress when tasks are self-assigned" to reflect its purpose.</li>
             </ul>
         </td>
         <td>August 28, 2025</td>
@@ -311,7 +311,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
-    <tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Create and save views in the Requests area</a><p></p>
+            <p>To make it easier to see the information you need, we've added the ability to create and save views in the Requests area. Now, you can save a view, including filters and column configurations, and switch between views. A Workfront administrator can add the new view to layout templates.</p>
+        </td>
+        <td>October 2, 2025</td>
+        <td>October 15, 2025</td>
+        <td>October 16, 2025</td>
+    </tr> 
+    <!--<tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">New combined Status column in unified Request list</a><p></p>
             <p>To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.</p>
@@ -319,7 +328,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>August 28, 2025</td>
         <td>September 11, 2025</td>
         <td>October 16, 2025</td>
-    </tr>     
+    </tr>  -->   
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>

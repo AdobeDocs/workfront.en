@@ -124,10 +124,10 @@ You need the following access to view information in the Workload Balancer from 
 1. Do one of the following to share the link with others:
 
    * Paste it into an e-mail, chat message, or any other application and share that with other users. 
-   * Add it to a custom section as an external page, add the custom section to a user's profile, or to a Layout Template, then share the Layout Template with users, teams, job roles, or groups.
+   * Add it to a dashboard as an external page, add the dashboard to a user's profile, or to a layout template, then share the layout template with users, teams, job roles, or groups.
 
-     For information about creating an External Page, see [Embed an external web page in a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). For information about adding custom sections to a Layout Template, see [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     For information about creating an external page, see [Embed an external web page in a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). For information about adding dashboards to a layout template, see [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
      >[!IMPORTANT]
      >
-     >When you add the Workload Balancer to the custom section of an object, the information in the Workload Balancer is not filtered by the object. The Workload Balancer displays the information filtered by the originally applied filters.
+     >When you add the Workload Balancer as a dashboard to the left panel of an object, the information in the Workload Balancer is not filtered by the object. The Workload Balancer displays the information filtered by the originally applied filters.

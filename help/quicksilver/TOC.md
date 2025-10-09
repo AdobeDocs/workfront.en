@@ -836,7 +836,7 @@ feature-set: Workfront
     * [Breadcrumbs overview](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
     * [Object headers overview](workfront-basics/the-new-workfront-experience/new-object-headers.md)
     * [Pin pages to customize your workspace](workfront-basics/the-new-workfront-experience/pin-pages.md)
-    * [Create custom sections](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
+    * [Add a dashboard in the left panel of a Workfront object or area](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
     * [Access Adobe Workfront help](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
     * [[!DNL Adobe Workfront] objects overview](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
     * [Understand the navigation for a Work-license user](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
@@ -1447,6 +1447,7 @@ feature-set: Workfront
       * [Add an existing program to a portfolio](manage-work/portfolios/create-and-manage-programs/move-program.md)
       * [Add a project to a program](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
       * [Remove a project from a program](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
+      * [Delete and deactivate programs](manage-work/portfolios/create-and-manage-programs/delete-and-deactivate-programs.md)
     * Manage projects in the Portfolio Optimizer {#manage-projects-in-portfolio-optimizer}
       * [Manage projects in the Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
       * [Portfolio Optimizer overview](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
@@ -1476,6 +1477,7 @@ feature-set: Workfront
       * [Copy and submit requests](manage-work/requests/create-requests/copy-and-submit-requests.md)
       * [Auto-fill a request from previous data](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
       * [Auto-fill a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+      * [Create views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
   * Delegate work {#delegate-work}
     * [Delegate work](manage-work/delegate-work/delegate-work.md)
     * [Delegate tasks and issues overview](manage-work/delegate-work/delegate-work-overview.md)
@@ -2211,16 +2213,6 @@ feature-set: Workfront
     * [Update an Adobe Workfront item from G Suite using email content](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
   * Adobe Workfront for Outlook {#workfront-for-outlook}
     * [Adobe Workfront for Outlook: article index](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
-    * [Set up Adobe Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-    * [Permissions levels for Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md) 
-    * [Reply to a comment from Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
-    * [Update an existing object from an Outlook email](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
-    * [Add an Outlook email to a project as a task or an issue](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
-    * [Create an Adobe Workfront request from an Outlook email](workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)
-    * [Add an Outlook email as a task to your work list](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
-    * [View additional information about Adobe Workfront for Outlook and log out](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
-    * [Enable Outlook for Office for use with Adobe Workfront and SAML 2.0](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
-    * [Troubleshooting: outlookIdentityToken error when using Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/troubleshooting-outlookidentitytoken-error.md)
   * Adobe Workfront for Microsoft Teams {#workfront-for-microsoft-teams}
     * [[!DNL Adobe Workfront for Microsoft Teams]: article index](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
     * [Adobe Workfronts for Microsoft Teams Overview](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)

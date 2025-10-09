@@ -20,6 +20,16 @@ exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 </div>
 -->
 
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
+
 
 You can edit information on tasks that you have created, or that you have Contribute or Manage permissions to.
 
@@ -37,8 +47,8 @@ You can edit information on tasks that you have created, or that you have Contri
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Standard</p>
-   <p>Current: Work or higher</p> </td> 
+   <td> <p>Standard</p>
+   <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level</td> 
@@ -177,6 +187,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
    * [Custom Forms](#Custom%C2%A0F) 
    * [Finance](#finance) 
    * [Settings](#settings)
+   * [Comment](#comment)
 
    >[!NOTE]
    >
@@ -599,9 +610,28 @@ You can define default custom forms to be automatically attached to tasks when t
    </table>
     </li>
 
-1. Click **Save**.
+1. Click **Save** or continue with the following section.
 
 <!--notes from the table: <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>       -->
+
+### Comment
+
+1. Begin editing your task as described in the [Edit tasks](#Edit2) section in this article. 
+1. Click **Comment** in the left panel.
+
+   ![Comment section on edit task box](assets/comment-section-on-edit-task-box.png)
+
+1. Add an update in the space provided.
+1. (Optional) Add one of the following to your update:
+
+   * Add users or teams to your update in the **Tag people** area or use @ to include them in your update. 
+   * Select the **Private to my company** checkbox to keep the update private to people in your company. 
+
+   >[!TIP]
+   >
+   >The **Private to my company** setting is only available only when your Workfront profile is associated with a company.
+
+1. Click **Save**.
 
 ## Edit a task in the task header (limited)
 

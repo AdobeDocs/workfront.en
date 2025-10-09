@@ -5,8 +5,6 @@ title: Review and approve with the Frame.io viewer
 description: Learn how to review and approve documents using the Frame.io viewer.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: yes
-hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
 ---
@@ -16,9 +14,10 @@ You can review and approve documents in Workfront using the Frame.io viewer.
 
 Reviewing Workfront documents with the Frame.io viewer allows you to leave comments or mark up specific sections of a document, image, or video to collaborate efficiently with your team and ensure that feedback is clear and actionable.
 
-<!--For more information on the Frame.io integration with Workfront, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+For more information on the Frame.io integration with Workfront, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
 
-## Access requirements
+
+<!--## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
 
@@ -50,7 +49,11 @@ Reviewing Workfront documents with the Frame.io viewer allows you to leave comme
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++ -->
+
+## Prerequisites
+
+* You must have the Workfront and Frame.io integration set up in your Workfront instance. For more information, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements).
 
 ## Review a document
 
@@ -65,7 +68,7 @@ Go the Workfront Home page, find the My Approvals widget, then click **Open revi
     >You may have to add the My Approvals widget to your Home page. For more information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 1. In Frame.io, use the commenting tools to leave feedback or ask questions.
-    Comments and asset markup is visible only in the Frame.io viewer. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+    Comments and asset markup is visible only in the Frame.io viewer. Comments do not display in Workfront. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Once you're satisfied with the document, navigate back to the Document Details page in Workfront and mark your review as complete.
 
    ![Mark review complete](assets/mark-review-complete.png)
@@ -87,8 +90,7 @@ Go the Workfront Home page, find the My Approvals widget, then click **Open revi
     >You may have to add the My Approvals widget to your Home page. For more information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 
-1. In Frame.io, use the commenting tools to leave feedback or ask questions.
-    Comments and asset markup are visible only in the Frame.io viewer. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+1. In Frame.io, use the commenting tools to leave feedback or ask questions. Comments and asset markup are visible only in the Frame.io viewer. For more information on using the Frame.io viewer, see [Commenting on your media](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Once you're satisfied with the document, you can choose one of the following decisions in the Frame.io viewer:
 
     * **Approve**: The asset does not need changes and is ready for use.

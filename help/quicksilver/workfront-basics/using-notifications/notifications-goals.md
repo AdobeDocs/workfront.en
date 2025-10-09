@@ -19,37 +19,32 @@ You can enable your email notifications for events occurring in [!DNL Adobe Work
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
+   <td>
+   <p>Contributor or higher</p>
+    <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Product</strong></td> 
+   <td role="rowheader"><strong>Additional products</strong></td> 
    <td>[!DNL Workfront Goals] <p>For information about [!DNL Workfront Goals], see <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>[!UICONTROL View] access to [!DNL Goals] or higher</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>[Insert permissions needed]</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-   </tr>
-  --> 
+   <td> <p>[!UICONTROL View] access to [!DNL Goals] or higher</p></td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

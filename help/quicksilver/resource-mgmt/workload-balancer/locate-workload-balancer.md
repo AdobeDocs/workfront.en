@@ -17,7 +17,7 @@ You can use the Workload Balancer to schedule resources for work or review their
 You can access the Workload Balancer in the following ways:
 
 * From several areas predefined by Adobe Workfront
-* By adding it to a custom section
+* By adding it to the left panel as a dashboard
 
 This article describes the areas where you can access the Workload Balancer.
 
@@ -156,11 +156,11 @@ All of the display settings are available for the Workload Balancer for a user. 
 
 </div>
 
-## Add the Workload Balancer to a custom section
+## Add the Workload Balancer to the left panel as a dashboard
 
-You can add the Workload Balancer to any custom section.
+You can add the Workload Balancer as a dashboard to the left panel of objects that allow customization.
 
-Most customizations that you have already applied to the Workload Balancer are preserved when adding it to a custom section.
+Most customizations that you have already applied to the Workload Balancer are preserved when adding it to the left panel.
 
 1. Access the Workload Balancer by going to any of the following areas:
 
@@ -175,15 +175,15 @@ Most customizations that you have already applied to the Workload Balancer are p
       (NOTE: ensure this stays correct)
       -->
 
-1. Create a custom section as described in [Create custom tabs or sections](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) to place the dashboard on the custom tab.
+1. Add a dashboard to the left navigation panel of an object, as described in [Add a dashboard in the left panel of a Workfront object or area](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) to place the dashboard on the custom tab.
 
-   When accessing the Workload Balancer from the custom section, you can view it as if you were accessing it directly from one of its original areas listed in Step 1.
+   When accessing the Workload Balancer from the dashboard, you can view it as if you were accessing it directly from one of its original areas listed in Step 1.
 
    <!--
       (NOTE: ensure this stays correct)
      -->
 
-1. (Optional) Share the custom tab in a Layout Template as described in  [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) .
+1. (Optional) Share the dashboard in a Layout Template as described in  [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) .
 
 
 <!--
