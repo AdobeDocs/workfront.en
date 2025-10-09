@@ -75,7 +75,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Add issues                     | ✓        | ✓      | &nbsp;      | &nbsp;        |
 | Edit a task (excluding status) | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Change task status             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Add documents                  | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Add documents                  | ✓        | ✓      | ✓           | &nbsp;        |
 | Copy a task                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Move a task                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Log hours                      | ✓        | ✓      | &nbsp;      | &nbsp;        |
@@ -139,7 +139,7 @@ Only users with a Standard license can have full access to portfolios.
 | Add and remove projects  | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Approve projects         | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Portfolio optimization   | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Add documents            | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Add documents            | ✓        | ✓      | ✓          | &nbsp;        |
 | Add updates and comments | ✓        | ✓      | &nbsp;      | &nbsp;        |
 
 {style="table-layout:auto"}
@@ -163,7 +163,7 @@ Only users with a Standard license can have full access to programs.
 | Add and remove projects      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Approve projects             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Portfolio Optimization       | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Add documents                | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Add documents                | ✓        | ✓      | ✓           | &nbsp;        |
 | Add Add updates and comments | ✓        | ✓      | &nbsp;      | &nbsp;        |
 
 {style="table-layout:auto"}

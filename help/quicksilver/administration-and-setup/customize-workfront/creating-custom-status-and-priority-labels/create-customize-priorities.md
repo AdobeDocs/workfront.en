@@ -125,7 +125,7 @@ In addition to the default priorities provided in Workfront, you can add your ow
      </div>
 
    * **Description**: Type a description for the priority to explain its function.
-   * <span class="preview">**Hide Choice**</span> or **Hide**: <span class="preview">Choose **Yes**</span> or select the check box to hide a priority that is no longer needed.
+   * <span class="preview">**Hide Choice**</span> or **Hide**: <span class="preview">Select **Yes**</span> or select the check box to hide a priority that is no longer needed.
 
      A hidden priority does not display anywhere in Workfront, so users can't choose it for their projects, tasks, or issues.
 

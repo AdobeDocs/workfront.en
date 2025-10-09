@@ -63,6 +63,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. (Optional) Select **[!UICONTROL Private to my company]** to make this message visible only to other users in your company.  
 
+      >[!TIP]
+      >
+      >The [!UICONTROL **Private to my company**] setting is only available only when your Workfront profile is associated with a company.
+
 1. Click **[!UICONTROL Update].** 
    The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on the user's profile page.
 
@@ -79,5 +83,9 @@ This option is only available if you have a Standard, Plan, or Work license.
 
 1. (Optional) Click **Tag people** to tag any additional users on the message. For more information, see [Tag others on updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Optional) Select **[!UICONTROL Private to my company]** to make this message visible only to other users in your company.
+
+   >[!TIP]
+   >
+   >The [!UICONTROL **Private to my company**] setting is only available only when your Workfront profile is associated with a company.
 1. Click [!UICONTROL **Send**].
    The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on each tagged user's profile page.

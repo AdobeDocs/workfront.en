@@ -15,9 +15,9 @@ exl-id: b100ea35-e045-4021-b5be-2c9071b381da
 
 In a layout template, you can customize what users see in the left panel area throughout [!DNL Adobe Workfront].
 
-For example, you can determine which of the following items users see in the left panel when viewing a task:
+For example, you can determine which of the following items users see in the left panel when viewing a project:
 
-![Branding left panel](assets/left-panel-adobe-branding.png)
+![Left panel of a project](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
 >
@@ -139,7 +139,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      <tr> 
       <td>[!UICONTROL Dashboards]</td> 
       <td>The name of a dashboard</td> 
-      <td>[!UICONTROL My Dashboards], [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]<p><b>NOTE</b>: If you created custom tabs for the [!UICONTROL Reports] area using a layout template in [!DNL Adobe Workfront Classic], they display at the bottom of this list. For users, they display at the bottom of the left panel in the [!UICONTROL Dashboards] area.</p> </td> 
+      <td>[!UICONTROL My Dashboards], [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Scrum Team]</td> 
@@ -219,13 +219,15 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >* [Brand Adobe [!DNL Workfront] using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
-1. (Optional) If you want to add a left panel item that links to one of your organization's dashboards, click **[!UICONTROL Add custom section]**, type a **[!UICONTROL Custom section title]** for the item, then add the dashboard.
+1. (Optional) If you want to add a left panel item that links to one of your organization's dashboards, click **[!UICONTROL Add dashboard]**, type the **[!UICONTROL Quick link name]** for the item, then choose the dashboard.
 
-   Dashboard items appear at the bottom of the left panel. Users see the Custom section title you type next to the dashboard item when they hover over it in the left panel.
+   You must build the dashboard before it appears in the list.
+   
+   Dashboard items appear at the bottom of the left panel.
 
    >[!NOTE]
    >
-   >Users can add custom dashboard items to their own left panel. When you add custom dashboard items in a layout template, your items display in addition to the ones they add, without overwriting or resetting them. This is also true if you assign users to a new layout template with custom dashboard items. For information about how users can customize the left panel, see [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >Users can add custom dashboard items to their own left panel. When you add custom dashboard items in a layout template, your items display in addition to the ones they add, without overwriting or resetting them. This is also true if you assign users to a new layout template with custom dashboard items. For information about how users can customize the left panel, see [Add a dashboard in the left panel of a Workfront object or area](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
    >
    >For information about dashboards, see [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 

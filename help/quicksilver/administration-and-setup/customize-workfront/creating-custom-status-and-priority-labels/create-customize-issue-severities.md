@@ -112,7 +112,7 @@ As a Workfront administrator, you can create and edit issue severities to suit t
      You cannot make a hidden severity the default.
 
      <div class="preview">
-
+     
      The default severity is indicated with an icon ![Default severity icon](assets/default-icon.png). To choose a new default, do one of the following:
 
        * Select the check box next to the severity name and select **Make Default** in the action bar at the bottom of the screen.
@@ -123,7 +123,7 @@ As a Workfront administrator, you can create and edit issue severities to suit t
      </div>
 
    * **Description**: Type a description for the severity to explain its function.
-   * <span class="preview">**Hide Choice**</span> or **Hide**: <span class="preview">Choose **Yes**</span> or select the check box to hide a severity that is no longer needed.
+   * <span class="preview">**Hide Choice**</span> or **Hide**: <span class="preview">Select **Yes**</span> or select the check box to hide a severity that is no longer needed.
 
      A hidden severity does not display anywhere in Workfront, so users can't choose it for their issues.
 

@@ -18,6 +18,14 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+### Interface updates to the Import users dialog on Companies
+
+**Preview release: October 9, 2025; Production release for all customers: Starting the week of October 16, 2025**
+
+We have updated the dialog box for importing new users on a company via a spreadsheet file, to match other areas of the application.
+
+To view this change, go to Setup > Companies > select a company > Company Members > Add member > Import users.
+
 ### New interface and functionality for the New and Edit Milestone Path boxes 
 
 **Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
@@ -50,7 +58,7 @@ This update affects:
 
 ### Interface updates for the Severities area in Setup
 
-**Preview release: September 25, 2025; Production release: October 9, 2025**
+**Preview release: September 25, 2025; Production release: To be announced**
 
 We have updated the Severities page with a more modern design that is consistent with other areas of Workfront.
 
@@ -62,7 +70,7 @@ For more information, see [Create or customize issue severities](/help/quicksilv
 
 ### Interface updates for the Priorities area in Setup
 
-**Preview release: September 25, 2025; Production release: October 9, 2025**
+**Preview release: September 25, 2025; Production release: To be announced**
 
 We have updated the Priorities page with a more modern design that is consistent with other areas of Workfront.
 
@@ -234,7 +242,7 @@ For information, see [Override Job Role Billing Rates at the project level](/hel
 
 ### Interface updates for a project list or report when applying the Milestone view
 
-**Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
+**Preview release: October 2, 2025; Production release: Starting the week of October 6, 2025**
 
 We have updated the look and feel of a project list or report when you apply the Milestone view to them.
 
@@ -478,6 +486,11 @@ You can view the updated design by going to Users, selecting a user, and clickin
 ### Interface updates for personal time off
 
 **Preview release: September 25, 2025; Production release: October 2, 2025**
+
+>[!NOTE]
+>
+>This feature has been temporarily removed from the Preview and Production environments on October 9, 2025.
+
 
 We have updated the look and feel of the personal time off calendar, including the ability to delegate approvals, to match other areas of the application.
 
