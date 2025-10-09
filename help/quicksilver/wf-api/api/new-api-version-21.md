@@ -639,32 +639,270 @@ A Rate object represents a billing rate in Workfront.
 
 A ScheduledReport object represents a report that has been configured to be scheduled for delivery.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>format</b>
+            </p>
+            <p>Added the following possible values:</p>
+             <ul>
+              <li><p><code>AI</code></p></li>
+              <li><p><code>PSD</code></p></li>
+              <li><p><code>ASE</code></p></li>
+              <li><p><code>INDD</code></p></li>
+              <li><p><code>PUB</code></p></li>
+              <li><p><code>BMP</code></p></li>
+              <li><p><code>DNG</code></p></li>
+              <li><p><code>HEIC</code></p></li>
+              <li><p><code>HEIF</code></p></li>
+              <li><p><code>JP2</code></p></li>
+              <li><p><code>PJPEG</code></p></li>
+              <li><p><code>RAW</code></p></li>
+              <li><p><code>SVG</code></p></li>
+              <li><p><code>WEBP</code></p></li>
+              <li><p><code>EPS</code></p></li>
+              <li><p><code>MP4</code></p></li>
+              <li><p><code>FLV</code></p></li>
+              <li><p><code>M4V</code></p></li>
+              <li><p><code>MPEG</code></p></li>
+              <li><p><code>WMV</code></p></li>
+            </ul>
+         </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### ScoreCardQuestion (SCOREQ)
 
-A ScoreCardQuestion object represents a question that has been added to a Scorecard. These questions are usually determined by the Portfolio manager, and their answers allow the manager to understand how well a project aligns with the goals of the portfolio.
+A ScoreCardQuestion object represents a question that has been added to a Scorecard. These questions are usually determined by the Portfolio manager, and their answers allow the manager to understand how well a project aligns with the goals of the portfolio.<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>displayType</b>
+            </p>
+            <p>Added the following possible value:</p>
+             <ul>
+              <li>
+                <p><code>SNGLROLLUP</code> (Single Line Rollup)</p>
+              </li></ul>
+         </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### StaffingPlan
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>totalEstimatedCost</b>
+            </p>
+            <p>Added</p>
+              </li>
+         <li>
+            <p><b>totalEstimatedHours</b>
+            </p>
+            <p>Added</p>
+              </li>
+         <li>
+            <p><b>totalEstimatedRevenue</b>
+            </p>
+            <p>Added</p>
+              </li>
+            </ul>
+         </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### StaffingPlanResource
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>totalEstimatedCost</b>
+            </p>
+            <p>Added</p>
+              </li>
+         <li>
+            <p><b>totalEstimatedHours</b>
+            </p>
+            <p>Added</p>
+              </li>
+         <li>
+            <p><b>totalEstimatedRevenue</b>
+            </p>
+            <p>Added</p>
+              </li>
+            </ul>
+         </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Task (TASK)
 
 A Task object represents a work item that must be performed as a step toward achieving a final goal (completing a Project).
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>actualWorkRequiredDouble</b>
+            </p>
+            <p>Added</p>
+          </li>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Collection fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>teamAssignments</b>
+            </p>
+            <p>Added</p>
+          </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### Team
 
-<note>DATA_EXTENDIBLE flag added
+The Team object added the flags `DATA_EXTENDIBLE` and `SHARABLE`.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>categoryID</b>
+            </p>
+            <p>Added</p>
+          </li>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Reference fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>category</b>
+            </p>
+            <p>Added</p>
+          </li>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Collection fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>objectCategories</b>
+            </p>
+            <p>Added</p>
+          </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 ### TemplateAssignment
 
-<note>ATTRIBUTE_ATTACHABLE flag added</note>
+The TemplateAssignment object added the flag `ATTRIBUTE_ATTACHABLE`.
 
 ### Timesheet (TSHET)
 
 A Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>objCode</b>
+            </p>
+            <p>Removed</p>
+              </li>
+         </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### Work (WORK)
 
 A Work object is a common interface that both Task and OpTask inherit, and shares common code between the two.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>actualWorkRequiredDouble</b>
+            </p>
+            <p>Added</p>
+          </li>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Collection fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>teamAssignments</b>
+            </p>
+            <p>Added</p>
+          </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
