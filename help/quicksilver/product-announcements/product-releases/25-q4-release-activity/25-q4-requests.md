@@ -65,7 +65,7 @@ This update also features changes to the look and feel of the page.
 Be aware of the following when using the new Requesting experience:
 
 * You can currently find drafts only in the legacy requesting experience. In the new experience you can see drafts only when in a workflow queue if you have a draft in the same path.
-* The new experience currently shows only requests created in the past 1.5 months. To see older requests, you can temporarily disable the new experience and access the older requests through the old experience. 
+* The new experience currently shows only requests created after July 2025. To see older requests, you can temporarily disable the new experience and access the older requests through the old experience. 
 
 Previously, Workfront and Workfront Planning requests were on separate tabs, and filters were not customizable.
 
