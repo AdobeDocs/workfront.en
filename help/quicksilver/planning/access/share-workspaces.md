@@ -49,21 +49,11 @@ Or
    <td><p>Standard</p> 
   </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
+
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>  <p>Manage permissions to a workspace</p>  </td> 
   </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
-  
-</td>
-  </tr>
+
 </tbody> 
 </table> 
 

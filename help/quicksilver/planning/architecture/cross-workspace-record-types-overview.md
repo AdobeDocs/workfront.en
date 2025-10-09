@@ -127,7 +127,7 @@ The record type configured to be centralized has the following properties:
 
 ### Access to the connections of a centralized record type
 
-Record types connected to the centralized record type in the original workspace become visible from other workspaces where the centralized record type is added. 
+Record types connected to the centralized record type in the original workspace become visible and available to connect from other workspaces where the centralized record type is added. 
 
 ### API access of a centralized record type
 

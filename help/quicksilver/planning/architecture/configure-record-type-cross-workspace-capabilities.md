@@ -71,23 +71,24 @@ For information, see one of the following articles:
 <tbody> 
     <tr> 
 <tr> 
-
-  </tr>   
+</tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul><li><p>Any Workfront package</p></li>
-<p>And</p>
-<li><p>Any Planning package to create connectable record types</p></li>
-<li><p>Planning Plus package to create centralized record types</p></li>
-</ul>
-<!--Or:
-<ul><li><p>Any Workflow package</p> </li>
-And
-<li><p>Planning Prime or Ultimate package</p></li></ul>-->
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
-   </td> 
+<p>To configure connectable record types: </p>
+<ul> 
+<li><p>Any Workfront package and any Planning package</p></li>
+Or
+<li><p>Workflow and Planning Prime and Ultimate packages</li></ul>
 
+<p>To configure global record types:</p>
+
+<ul> 
+<li><p>Any Workfront package and a Planning Plus package</p></li>
+Or
+<li><p>Workflow and Planning Prime and Ultimate packages</li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Standard</p>
@@ -104,6 +105,46 @@ And
 For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul><li><p>Any Workfront package</p></li>
+<p>And</p>
+<li><p>Any Planning package to create connectable record types</p></li>
+<li><p>Planning Plus package to create centralized record types</p></li>
+</ul>
+***********Or:
+<ul><li><p>Any Workflow package</p> </li>
+And
+<li><p>Planning Prime or Ultimate package</p></li></ul>************
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
+   </td> 
+
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table> -- >
 
 ## Configure centralized record types
 
