@@ -488,20 +488,152 @@ A Parameter object is a custom field.
 
 A Portfolio object is a collection of projects that compete for the same resources, typically money or people to complete them.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>overrideCurrency</b>
+            </p>
+            <p>Added</p>
+              </li>
+            </ul>
+         </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### Program (PRGM)
 
 A Program object is a subset of projects within a portfolio, where similar projects can be grouped together.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>currency</b>
+            </p>
+            <p>Added</p>
+              </li>
+            </ul>
+         </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Project (PROJ)
 
 Projects are work items within Workfront, and are a main building block in the way Workfront helps people to do work. A Project object represents a group of tasks with a common, specific goal.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>actualWorkRequiredDouble</b>
+            </p>
+            <p>Added</p>
+              </li>
+            </ul>
+         </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### QueueDef (QUED)
 A QueueDef object represents a Queue, which is a project that has been published to the Help Desk area to allow users to submit issues to it.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>requestorCoreAction</b>
+            </p>
+            <p>Added the following possible value:</p>
+             <ul>
+              <li>
+                <p><code>EDIT_CONTACTINFO</code> (Edit Contact Info)</p>
+              </li>
+            </ul>
+         </li>
+          <li>
+            <p><b>requestorForbiddenActions</b>
+            </p>
+            <p>Added the following possible value:</p>
+             <ul>
+              <li>
+                <p><code>EDIT_CONTACTINFO</code> (Edit Contact Info)</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Actions</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>helpDeskProjects</b>
+            </p>
+            <p>Added</p>
+            </li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Rate (RATE)
 
 A Rate object represents a billing rate in Workfront.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>localBillingPerHour</b>
+            </p>
+            <p>Removed</p>
+              </li>
+          <li>
+            <p><b>localCostPerHour</b>
+            </p>
+            <p>Removed</p>
+              </li>
+         </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### ScheduledReport (SCHREP)
 
