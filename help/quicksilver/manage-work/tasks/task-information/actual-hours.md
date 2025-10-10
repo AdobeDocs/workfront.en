@@ -94,11 +94,14 @@ Depending on what area of Workfront you access the actual hours from, they could
     >
     >The Actual Cost of the project uses Legacy Actual Hours to calculate. 
 
+* In the project, task, or issue Details area, actual hours could display in the following fields:
 
-* In the project, task, or issue Details area:
+  * **Actual Hours**: In the Details tab, these are hours logged for projects, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
+  * **Actual Hours**: In a project, task, or issue custom form, when they are accessed using a Native field reference custom field that references the Actual Hours native field. These are hours logged for projects, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
 
-  * **Actual Hours**: Hours logged for projects, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
-  * **Actual Hours**: When they are accessed using a Native field reference custom field in a project, task, or issue custom form. 
+>[!NOTE]
+>
+>It is recommended to use the Actual Hours field whenever possible, because the Legacy Actual Hours field could display inaccurate hours due to the way that increments are rounded.
 
 ## Actual Hours on tasks and issues vs. Actual Hours on projects
 
