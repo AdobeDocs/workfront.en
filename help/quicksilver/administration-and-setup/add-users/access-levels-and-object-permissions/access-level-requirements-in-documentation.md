@@ -31,6 +31,13 @@ Some rows contain information labeled "New" and "Current." This is because Workf
   <tr> 
    <td role="rowheader">Adobe Workfront package</td> 
    <td> Adobe Workfront packages refer to the set of features that your organization has purchased. Most Workfront functionality is available in all packages, with a few exceptions, mostly related to strategic planning and enterprise controls. <p>Packages that existed prior to 2023 are not listed.</p>
+   <p>Workfront packages are divided into three areas. Each area offers different packages such as Select, Prime, and Ultimate.<p>
+   <ul>
+   <li><b>Workfront Workflow</b>: Includes functionality related to operations, such as task management, approvals, and timesheets.</li>
+   <li><b>Workfront Planning</b>: Includes functionality related to strategic planning.</li>
+   <li><b>Workfront Automation and Integration</b>: Includes functionality related to automating processes and integrating with other applications.</li>
+   </ul>
+  <p>Your organization may have purchased a Workfront package in one or more of these areas.
    <ul><li>To find out what Adobe Workfront package your organization uses, including whether your organization is under the new or current packaging model, contact your Workfront administrator.</li>
    <li>For instructions on how a Workfront administrator can locate your organization's Workfront package, see <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">View your organization's cluster and Workfront package</a>.</li><li>For more information on the Workfront packages, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>.</li></ul> </td> 
   </tr> 
@@ -49,7 +56,7 @@ Some rows contain information labeled "New" and "Current." This is because Workf
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <p>Because Workfront works closely with other Adobe products, some procedures in Workfront interact with those products directly. To follow those procedures, your organization must have purchased that product. For example, to use functionality that allows Workfront to interact with Adobe Exerience Manager Assets, your organization must have purchased Adobe Experience Manager Assets.</p>
+   <td><p>Because Workfront works closely with other Adobe products, some procedures in Workfront interact with those products directly. To follow those procedures, your organization must have purchased that product. For example, to use functionality that allows Workfront to interact with Adobe Exerience Manager Assets, your organization must have purchased Adobe Experience Manager Assets.</p>
    <p>Articles that describe procedures performed with additional products list the required product in the Product line of this table.</p>
    <p>To find out if your organization has purchased one of these additional products, contact your Workfront administrator.</p></td> 
   </tr> 
