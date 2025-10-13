@@ -191,11 +191,20 @@ To manage a timeline view:
     * <span class="preview">Double-click anywhere on the timeline to create a record. </span>
     
         <span class="preview">For information, see [Create records](/help/quicksilver/planning/records/create-records.md).</span>
+
+    <!--Andrea verifying>[!TIP]
+    >
+    ><span class="preview">Double-clicking to create records in the timeline is not possible inside of a grouping.</span>-->
     
     * <span class="preview">Click on the left or right margin of a record bar, then drag and drop it in a new position. Resizing the records' bars updates their start or end dates immediately. </span>
     
     * <span class="preview">Drag and drop records to update their position and dates in the timeline. Moving the records' bars updates their start and end dates immediately.</span>
         <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+
+    >[!TIP]
+    >
+    ><span class="preview"> Resizing and dragging and dropping records is not possible in the timeline for Workfront and AEM Assets object types displayed in the breakdown.</span>
+
 
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)

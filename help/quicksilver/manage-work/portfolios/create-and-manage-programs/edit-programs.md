@@ -11,7 +11,7 @@ exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
 
 You can edit information on programs that you have created, or that other users have created if they shared them with you.
 
-You can edit a program in the program page or you can edit programs in a list.
+You can edit a program in the program page or you can edit one or multiple programs in bulk in a list. 
 
 ## Access requirements
 
@@ -30,7 +30,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>New: [!UICONTROL Standard] </p><p>Or </p><p>Current: [!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level</td> 
@@ -178,8 +179,30 @@ You must have the following access to perform the steps in this article:
 
 1. Add a comment in the **[!UICONTROL Add an update to each program]** field.
 1. (Optional) Click the **[!UICONTROL People]** icon to add a user or a team to the comment.
-1. (Optional) Select [!UICONTROL **Private to my company**] to lock the comment and make it private to only users in your company.
+1. (Optional) Select [!UICONTROL **Private to my company**] to lock the comment and make it private to only users in your company. 
+
+      >[!TIP]
+      >
+      >The **Private to my company** setting is only available only when your Workfront profile is associated with a company.
+
 
    After you save your changes, the comment you add displays in the program's [!UICONTROL Updates] tab and sends an email to the users included in it.
 1. Click **[!UICONTROL Save]**
+
+
+## Edit programs in bulk
+
+When you edit programs in bulk, all the information you update applies to all the programs selected, overriding the original information of each program.
+
+1. Go to a list of programs and select several programs. 
+1. Click the **Edit** icon ![Edit icon](assets/edit-icon.png) at the top of the list. 
+
+   The **Edit Programs** box opens.
+1. Update information in the following sections:
+
+   * Overview
+   * Custom Forms
+   * Comment
+
+   For more information, see the section [Edit programs](#edit-programs-1) in this article, starting with Step 4. <!--ensure this stays accurate-->
 

@@ -70,80 +70,80 @@ The following table shows the release and support schedule for the Workfront API
    <td>14</td> 
    <td> <p>October 2021</p> <p>(with the 21.10 release)</p> </td> 
    <td> <p>October 2024</p> <p>(with the 24.10 release)</p> </td> 
-   <td>September 30, 2025</td> 
+   <td>September 30, 2025 (Extended for some organizations into October 2025)</td> 
   </tr> 
   <tr> 
    <td>13</td> 
    <td> <p>June 2021</p> <p>(with the 2021.2 release)</p> </td> 
    <td> <p>October 2024</p> <p>(with the 2024.10 release)</p> </td> 
-   <td>September 30, 2025</td> 
+   <td>September 30, 2025 (Extended for some organizations into October 2025)</td> 
   </tr> 
   <tr> 
    <td>12</td> 
    <td> <p>Second half of 2020</p> <p>(with the 2020.4 release)</p> </td> 
    <td> <p>October 2023</p> <p>(with the 2023.4 release)</p> </td> 
-   <td>September 30, 2025</td> 
+   <td>September 30, 2025 (Extended for some organizations into October 2025)</td> 
   </tr> 
   <tr> 
    <td>11</td> 
    <td> <p>First half of 2020</p> <p>(with the 2020.2 release)</p> </td> 
    <td> <p>April 2023</p> <p>(with the 2023.2 release)</p> </td> 
-   <td>September 30, 2025</td> 
+   <td>September 30, 2025 (Extended for some organizations into October 2025)</td> 
   </tr> 
   <tr> 
    <td>10</td> 
    <td> <p>November 2018</p> <p>(with the 2018.3 release)</p> </td> 
    <td> <p>November 2021</p> <p>(with the 2022.1 release)</p> </td> 
-   <td>September 30, 2025</td> 
+   <td>September 30, 2025 (Extended for some organizations into October 2025)</td> 
   </tr> 
   <tr> 
    <td>9</td> 
    <td> <p>March 2018</p> <p>(with the 2018.1 release)</p> </td> 
    <td> <p>March 2021</p> <p>(with the 2021.3 release)</p> </td> 
-   <td>September 30, 2025</td> 
+   <td>September 30, 2025 (Extended for some organizations into October 2025)</td> 
   </tr> 
   <tr> 
    <td>8</td> 
    <td>November 2017</td> 
    <td> <p>November 2020</p> <p>(with the 2021.1 release)</p> </td> 
-   <td>September 30, 2025</td> 
+   <td>September 30, 2025 (Extended for some organizations into October 2025)</td> 
   </tr> 
   <tr> 
    <td>7</td> 
    <td>April 2017</td> 
    <td> <p>April 2020</p> <p>(with the 2020.2 release)</p> </td> 
-   <td>September 30, 2025</td> 
+   <td>September 30, 2025 (Extended for some organizations into October 2025)</td> 
   </tr> 
   <tr> 
    <td>6</td> 
    <td>November 2015</td> 
    <td><strong>November 2019</strong> <p>(with the 2019.4 release)</p> 
-   <td>September 30, 2025</td> 
+   <td>September 30, 2025 (Extended for some organizations into October 2025)</td> 
    </td> 
   </tr> 
   <tr> 
    <td>5</td> 
    <td>April 2014</td> 
    <td> <p>April 2019</p> <p>(with the 2019.2 release)</p> </td> 
-   <td>September 30, 2025</td> 
+   <td>September 30, 2025 (Extended for some organizations into October 2025)</td> 
   </tr> 
   <tr> 
    <td>4</td> 
    <td>2012</td> 
    <td> <p>January 2019</p> <p>(with the 2019.1 release)</p> </td> 
-   <td>September 30, 2025</td> 
+   <td>September 30, 2025 (Extended for some organizations into October 2025)</td> 
   </tr> 
   <tr> 
    <td>3</td> 
    <td>2011</td> 
    <td> <p>November 2018</p> <p>(with the 2018.3 release)</p> </td> 
-   <td>September 30, 2025</td> 
+   <td>September 30, 2025 (Extended for some organizations into October 2025)</td> 
   </tr> 
   <tr> 
    <td>2</td> 
    <td>2009</td> 
    <td> <p>August 2018</p> <p>(with the 2018.2 release)</p> </td> 
-   <td>September 30, 2025</td> 
+   <td>September 30, 2025 (Extended for some organizations into October 2025)</td> 
   </tr> 
   <tr> 
    <td>1</td> 

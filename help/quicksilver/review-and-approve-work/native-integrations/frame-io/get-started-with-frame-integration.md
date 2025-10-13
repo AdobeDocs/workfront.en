@@ -14,6 +14,18 @@ The Workfront and Frame.io integration keeps creatives, marketers, and stakehold
 
 For more information about Frame.io, see [Getting Started with Frame.io](https://support.frame.io/en/collections/49298-getting-started).
 
+You must have the Workfront and Frame.io integration set up in your Workfront instance. For more information, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements).
+
+## Integration requirements
+
+* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+
+* Users can belong to only one Workfront instance within the IMS organization.
+
+* The Workfront instance must be enabled on the Adobe Unified Experience and Adobe enterprise storage.
+
+* The integration must be configured by Adobe Professional Services. 
+
 ## Work initiation and planning in Workfront
 
 Project coordinators can create projects and plan work in Workfront. Projects created in an instance with the Frame.io integration enabled utilize Adobe Enterprise Storage, which allows assets to be stored and managed within the Adobe ecosystem.

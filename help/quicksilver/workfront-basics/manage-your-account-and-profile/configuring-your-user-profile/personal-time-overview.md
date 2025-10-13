@@ -10,9 +10,9 @@ exl-id: e7710495-c418-47b1-8598-725580054fc5
 ---
 # Configure personal time off
 
-{{highlighted-preview}}
-
 <!-- Audited: 12/2023 -->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>
 
 [!DNL Adobe Workfront] is not designed to replicate or replace your existing systems for managing, accruing, and tracking personal time off.
 
