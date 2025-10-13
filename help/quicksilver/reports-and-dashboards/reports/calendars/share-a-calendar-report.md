@@ -16,8 +16,6 @@ You can share a calendar with other users and you can make it available publicly
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -25,22 +23,21 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td><p>New: Light</p>
-       <p>or</p>
-       <p>Current: Review</p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Light</p>
+       <p>Review</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>[!UICONTROL View] or higher access to [!UICONTROL Reports], [!UICONTROL Dashboards], and [!UICONTROL Calendars]</p></td> 
+   <td> <p> View or higher access to Reports, Dashboards, and Calendars</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td>[!UICONTROL View] or higher permissions to the calendar report, with access to share</td> 
+   <td>View or higher permissions to the calendar report, with access to share</td> 
   </tr> 
  </tbody> 
 </table>
