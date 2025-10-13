@@ -3,7 +3,7 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Define Request Types for a Project
 description: You can organize the kind of issues or requests that are logged in Adobe Workfront by Request Types.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
 ---
@@ -22,14 +22,14 @@ You can organize the kind of issues or requests that are logged in Adobe Workfro
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td>
-    <p>New: Standard</p>
-    <p>Current: Plan</p></td>  
+    <p>Standard</p>
+    <p>Plan</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -42,7 +42,7 @@ You can organize the kind of issues or requests that are logged in Adobe Workfro
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

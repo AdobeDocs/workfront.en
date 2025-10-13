@@ -2485,7 +2485,6 @@ feature-set: Workfront
   * API Notes {#api-notes}
     * [API Notes](wf-api/api/api.md)
     * [Uploading files via the API](wf-api/api/uploading-files-api.md)
-    * [Ending support for JSONP](wf-api/api/ending-support-jsonp.md)
     * [Get user available time](wf-api/api/api-user-available-time.md)
     * [Update integrations that use default API versioning](wf-api/api/update-default-api-versioning.md)
     * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)

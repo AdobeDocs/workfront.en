@@ -3,7 +3,7 @@ product-area: requests
 navigation-topic: create-requests
 title: Locate Submitted Requests
 description: Learn about the areas of Adobe Workfront where you can locate requests that you or someone else submitted or requests that you never submitted and were saved as drafts. 
-author: Alina
+author: Becky
 feature: Requests
 topic: Collaboration
 role: User
@@ -35,21 +35,18 @@ You can locate the following types of requests that you or someone else submitte
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Contributor or higher</p>
-   Or
-   <p>Current: Request or higher</p>
+   <td> <p>Contributor or higher</p>
+   <p>Request or higher</p>
     </td> 
   </tr> 
   <tr> 
@@ -67,7 +64,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
