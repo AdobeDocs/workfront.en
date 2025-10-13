@@ -3,7 +3,7 @@ product-area: requests
 navigation-topic: create-requests
 title: Locate Submitted Requests
 description: Learn about the areas of Adobe Workfront where you can locate requests that you or someone else submitted or requests that you never submitted and were saved as drafts. 
-author: Alina
+author: Becky
 feature: Requests
 topic: Collaboration
 role: User

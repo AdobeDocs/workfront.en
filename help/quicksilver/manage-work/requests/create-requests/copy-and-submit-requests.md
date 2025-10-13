@@ -1,7 +1,7 @@
 ---
 title: Copy and Submit Requests
 description: When you submit similar requests frequently you can copy an existing submitted request. In this case, you can copy an existing request, make minimal changes to it, and resubmit it as a new request.
-author: Alina
+author: Becky
 feature: Work Management
 role: User
 topic: Collaboration

@@ -3,7 +3,7 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Provide Access to Request Queues
 description: When you provide access to a request queue, you determine who in your organization can view the request queue in the Requests area of Adobe Workfront.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
 ---

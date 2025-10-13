@@ -3,7 +3,7 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Create a Request Queue
 description: You can set up a Request Queue where users can enter occasional requests that are not planned work on a project. For example, a help desk request queue can be set up to capture all user requests that come to an IT department.
-author: Alina
+author: Becky
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin

@@ -3,7 +3,7 @@ product-area: requests
 navigation-topic: create-requests
 title: Delete a Request Draft
 description: You can delete request drafts as you are creating them, by discarding them.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
 ---

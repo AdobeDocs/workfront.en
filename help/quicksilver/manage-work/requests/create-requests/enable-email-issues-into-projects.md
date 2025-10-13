@@ -3,7 +3,7 @@ product-area: requests
 navigation-topic: create-requests
 title: Enable Users to Email an Issue into a Request Queue Project
 description: You can configure a project to allow users to add issues to the project via email.
-author: Alina, Courtney
+author: Becky
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
 ---

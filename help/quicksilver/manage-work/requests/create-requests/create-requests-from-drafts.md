@@ -3,7 +3,7 @@ product-area: requests
 navigation-topic: create-requests
 title: Create Requests from Drafts
 description: In addition to using the available drafts that Workfront suggests to you when you enter a new request, you can also access a draft request from the Drafts section and finish submitting it from there.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
 ---
