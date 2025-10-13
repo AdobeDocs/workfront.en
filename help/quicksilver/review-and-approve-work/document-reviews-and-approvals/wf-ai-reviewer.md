@@ -30,6 +30,10 @@ Any user can add the AI Reviewer to a review and approval request.
 * Adobe must have a signed Adobe Gen AI agreement on file.
     For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
+## Join the beta
+
+To join the beta, go to **Setup** > **Review and Approval** > **AI Reviewers**, and click **Accept Terms**.
+
 
 ## Supported file types {#supported-file-types-ai-reviewer}
 
