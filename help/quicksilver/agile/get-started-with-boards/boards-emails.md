@@ -18,22 +18,19 @@ You will also receive an email when you are tagged in a comment on a connected c
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <p>New: [!UICONTROL Contributor] or higher</p> 
-   <p>or</p>
-   <p>Current: [!UICONTROL Request] or higher</p>
+   <p>Contributor or higher</p> 
+   <p>Request or higher</p>
    </td> 
   </tr> 
  </tbody> 

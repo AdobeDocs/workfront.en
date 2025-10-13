@@ -19,27 +19,24 @@ You can add any task or issue to a board or a workstream in [!DNL Adobe Workfron
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto">
  <col>
  <col>
  <tbody>
   <tr>
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td>
+   <td role="rowheader">Adobe Workfront package</td>
    <td> <p>Any</p> </td>
   </tr>
   <tr>
-   <td role="rowheader">[!DNL Adobe Workfront] license</td>
+   <td role="rowheader">Adobe Workfront license</td>
    <td>
-   <p>New: [!UICONTROL Standard]</p> 
-   <p>or</p>
-   <p>Current: [!UICONTROL Work] or higher</p>
+   <p>Standard</p> 
+   <p>Work or higher</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader">Object permissions</td>
-   <td>[!UICONTROL View] or higher permissions to the task or issue </td>
+   <td>View or higher permissions to the task or issue </td>
   </tr>
  </tbody>
 </table>
