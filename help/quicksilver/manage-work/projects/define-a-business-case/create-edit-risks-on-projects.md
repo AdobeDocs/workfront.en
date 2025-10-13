@@ -106,7 +106,7 @@ You can create and edit risks in the Risks section of a project or a template. C
 
    ![Risks section of task](assets/risks-section-on-project-2022.png)
 
-1. Click **Start Adding Risks** and create risks by in-line editing their information. 
+1. Click **Add More Risks** and create risks by in-line editing their information. 
 
    Or
 
@@ -122,15 +122,11 @@ You can create and edit risks in the Risks section of a project or a template. C
    
    * **Probability**: Indicate the probability of the risk occurring as a percentage value.
    * **Potential Cost**: Indicate the estimated cost if the risk should occur.
-   * **Mitigation Cost**: Indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.
    * **Actual Cost**: Indicate the actual cost of the risk if the risk occurred.
-   * **Mitigation Plan**: Update the description of the plan to mitigate the risk.
+   * **Mitigation Cost**: Indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.
+   * **Mitigation Plan**: Update the description of the plan to mitigate the risk.  
 
-1. (Conditional) Click **Enter** if you are creating the risk in-line.
-
-   Or
-
-   Click **Save** if you are editing the information in the **New risk** box.
+1. Click **Save**.
 
 1. (Optional) Select a different **Status** for the risk, in the **Status** drop-down menu, when applying the **Standard** view for the list of risks.
 
@@ -158,14 +154,14 @@ To edit risks:
 
 1. If you have clicked **Edit**, the **Edit risk** or **Edit risks** box opens.
 
-   Consider editing the following fields:
+   Update the following fields:
 
    * **Description**: Edit the description of the risk.
    * **Risk Type**: Update what category the risk falls under. 
    * **Probability**: Indicate the probability of the risk occurring as a percentage value.
    * **Potential Cost**: Indicate the estimated cost if the risk should occur.
-   * **Mitigation Cost**: Indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.
    * **Actual Cost**: Indicate the actual cost of the risk if the risk occurred.
+   * **Mitigation Cost**: Indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.
    * **Mitigation Plan**: Update the description of the plan to mitigate the risk.
 
 1. Click **Save**.

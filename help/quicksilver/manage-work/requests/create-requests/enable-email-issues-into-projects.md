@@ -110,6 +110,11 @@ When a Workfront user sends an email to Workfront, the following things happen:
 * The Subject line of the email becomes the Issue Name.
 * The body of the email becomes the Description of the Issue.
 * If there are any documents attached to the email, those documents are attached to the issue in Workfront.
+
+   >[!NOTE]
+   >
+   > MSG files are not supported and won't be attached to the issue in Workfront.
+   
 * The user who is sending the email becomes the Primary Contact of the new issue in Workfront.
 * The body text of the email cannot exceed 4,000 characters.
 * Email attachments cannot exceed 7 MB total.

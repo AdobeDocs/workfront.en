@@ -12,7 +12,21 @@ This page describes Requests enhancements made with the Fourth Quarter 2025 rele
 
 For a list of all changes available at this point in the Fourth Quarter 2025 release cycle, see [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
-## New combined Status column in unified Request list 
+## Create and save views in the Requests area
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+To make it easier to see the information you need, we've added the ability to create and save views in the Requests area. Now, you can save a view, including filters and column configurations, and switch between views. A Workfront administrator can add the new view to layout templates.
+
+Previously, filters and column configurations could not be saved.
+
+For information and instructions, see [Create views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+<!--## New combined Status column in unified Request list 
 
 >[!NOTE]
 >
@@ -25,7 +39,7 @@ To simplify the unified request experience, the Status column now displays both 
 For more information on creating requests see:
 
 * For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)-->
 
 ## Updates to Requesting experience 
 
@@ -51,7 +65,7 @@ This update also features changes to the look and feel of the page.
 Be aware of the following when using the new Requesting experience:
 
 * You can currently find drafts only in the legacy requesting experience. In the new experience you can see drafts only when in a workflow queue if you have a draft in the same path.
-* The new experience currently shows only requests created in the past 1.5 months. To see older requests, you can temporarily disable the new experience and access the older requests through the old experience. 
+* The new experience currently shows only requests created after July 2025. To see older requests, you can temporarily disable the new experience and access the older requests through the old experience. 
 
 Previously, Workfront and Workfront Planning requests were on separate tabs, and filters were not customizable.
 

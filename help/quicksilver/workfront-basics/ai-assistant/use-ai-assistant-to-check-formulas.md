@@ -8,7 +8,12 @@ exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
 ---
 # Generate or revise calculated field formulas with AI Assistant
 
-You can use AI Assistant to generate formulas based on a prompt you provide. You can also resolve errors in your invalid custom expressions in calculated fields.
+>[!IMPORTANT]
+>
+>The functionality to generate formulas using AI Assistant has been removed from Adobe Workfront. 
+
+
+<!-- You can use AI Assistant to generate formulas based on a prompt you provide. You can also resolve errors in your invalid custom expressions in calculated fields.
 
 
 ## Access requirements 
@@ -45,7 +50,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 <!--## Generate a calculated field expression-->
 
-## Revise a calculated field expression
+<!-- ## Revise a calculated field expression
 
 When you are creating the calculated field in the custom form builder, an error message appears under the field if the formula is invalid.
 
@@ -71,3 +76,4 @@ To revise an invalid calculated field expression:
 
 For more information on calculated fields in Workfront, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
+-->

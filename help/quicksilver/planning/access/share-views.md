@@ -10,9 +10,11 @@ exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 
 # Share views
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--take out preview and production references at production-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -135,9 +137,13 @@ You can share views you created or views you have Manage permissions to with use
 
    This opens the record type page.
 
-1. From the view tab, do one of the following:
+1. From the view's tab, do one of the following: 
 
-   * Hover over the tab name of the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. 
+   * Depending on which environment you are accessing the view from, do the following: 
+   
+      * In the Production environment, hover over the tab name of the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. 
+
+      * <span class="preview"> In the Preview environment, click the view's tab, hover over the view in the drop-down menu, click the **More** menu ![More menu](assets/more-menu.png), then click **Share**.</span>
 
       ![More menu for a view](assets/more-menu-for-views-expanded-with-share-option.png)
 

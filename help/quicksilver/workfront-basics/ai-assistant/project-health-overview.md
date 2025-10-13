@@ -67,7 +67,7 @@ To enable AI Assistant and Project Health for your organization, all of the foll
 * The Adobe Unified Experience must be enabled. 
 * Adobe must have a signed Adobe Gen AI agreement on file.
 * The Workfront administrator must enable AI Assistant for users in your organization. AI Assistant is enabled through access levels. 
-* Both the Enable AI and Project Health options must be selected in the AI preferences section at Setup > Preferences.
+* Both the Enable AI and Project Health options must be selected in the AI preferences section at Setup > System > Preferences.
 
     ![AI Preferences section](assets/ai-preferences.png)
 
@@ -172,7 +172,7 @@ A project health configuration contains specific criteria that determines how yo
 
 1. In the upper-right corner of the page, select **New Configuration**. 
 
-1. (Optional) On the configurations details page, replace *Untitled Configuration* with a new a configuration **Name**. 
+1. (Optional) On the configurations details page, replace *Untitled Configuration* with a new configuration **Name**. 
 
 1. In the **What factors would you like to include in project health** section, deselect any factor you don't want included when determining your project health criteria: 
     * **Scope creep**: How much the project scope has expanded since it started. 

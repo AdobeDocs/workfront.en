@@ -88,7 +88,7 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
 
 {{step1-to-planning}}
 
-1. Click the workspace whose record types you want to edit, 
+1. Click the workspace whose record types you want to edit. 
 
    The workspace page opens and the record types display. 
 1. Do one of the following:
@@ -121,7 +121,7 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
          * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.-->
 
 
-1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: <!--the info here is duplicated in the Create record types article-->
+1. (Optional and conditional) If you are a System Administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: <!--take this info out and replace it with a link to this article: help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md-->
     * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
     You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
     For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). 

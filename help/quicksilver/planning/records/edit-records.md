@@ -229,7 +229,7 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 
     <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
-<!--1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
+1. <span class="preview">Click and hold a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
 
 1. Click the bar of a record to open its details area and edit all fields. 
 
@@ -240,17 +240,11 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 <!--add another step about drag and drop here when that is available-->
 
 1. Open the record type page in a calendar view. For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-1. <span class="preview">(Conditional) Hover over the ends of a record's bar in the calendar monthly view, then click, drag and drop its margins to another date. This automatically updates either the start or end date of the record.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release-->
+1. <span class="preview">(Conditional) Hover over the ends of a record's bar in the calendar view, then click, drag and drop its margins to another date. This automatically updates either the start or end date of the record.</span>  
 
     <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
-    <!--At preview release, add one of the following depending on which one is releasing: 
-    Scenario one: only drag and drop in the weekly view is releasing:
-    1. <span class="preview">Click a record bar in the calendar weekly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
-    Scenario two: only drag and drop in the monthly view is releasing:
-    1. <span class="preview">Click a record bar in the calendar monthly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
-    Scenario 3: both the weekly and monthly drag and drop are releasing at the same time:
-    1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>--> 
+1. <span class="preview">Click and hold a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
 
 1. Click the bar of a record to open its details area and edit all fields. 
 
@@ -378,11 +372,11 @@ For more information, see [Manage record connections from Workfront objects](/he
 
 <div class="preview">
 
-## Edit information on single- or multi-select fields
+## Edit single- or multi-select field settings when updating their values
 
 <!--some of this information is also available in Edit fields article - update both when necessary-->
 
-When editing information in a single-or multi-select field, you can add new choices to the field, without having to edit the field. 
+When you update information in a single-or multi-select field, you can add new choices to the field, without having to edit the field. 
 
 >[!IMPORTANT]
 >

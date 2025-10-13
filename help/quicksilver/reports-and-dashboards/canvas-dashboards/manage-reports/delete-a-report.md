@@ -73,7 +73,8 @@ For more information, see [Create a Canvas dashboard](/help/quicksilver/reports-
 
 >[!WARNING]
 >
->Once a report is deleted, it cannot be recovered. 
+>Once a report is deleted, it cannot be recovered. <br>
+>If you added an existing classic report to a Canvas dashboard, deleting it from the dashboard will not delete the original report.
 
 {{step1-to-dashboards}}
 

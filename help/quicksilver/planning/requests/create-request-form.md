@@ -95,11 +95,15 @@ For information about submitting Workfront Planning requests, see [Submit Adobe 
    * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
    * The values of Paragraph fields display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
 
-## Begin creating a request form
+## Create a request form
+
+To create a request form, you must begin creating the form, set up the form details, and finish by publishing and sharing the form.
+
+### Begin creating a request form
 
 You can create a request form from the record type associated with the form, <span class="preview">or from the Requests area of Workfront.</span>
 
-### Create a request form from a record type
+#### Create a request form from a record type
 
 {{step1-to-planning}}
   
@@ -128,7 +132,7 @@ You can create a request form from the record type associated with the form, <sp
 
 <div class="preview">
 
-### Create a request form from the Requests area of Workfront
+#### Create a request form from the Requests area of Workfront
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Requests**.
 1. In the upper-right corner of the screen, click **Request forms**.
@@ -146,16 +150,21 @@ You can create a request form from the record type associated with the form, <sp
 1. Click **Create**. 
 
    The request form for the selected record type opens in the Form tab.
-1. Continue to [Configure the form](#configure-the-form).
+1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
 
 </div>
 
-## Configure the form
+### Set up details for the request form
 
-1. Begin creating or editing a request form, as described in one of the following sections:
+Form details are divided into tabs. 
 
-   * [Create a request form from a record type](#create-a-request-form-from-a-record-type)
-   * <span class="preview">[Create a request form from the Requests area of Workfront](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+* The **Form** tab allows you to add fields and content elements to the form
+* The **Configuration** tab allows you to set an approval process for the form, <span class="preview">and to set request completion options</span>.
+* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>
+
+#### Set up Form details
+
+1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
    
     The request form for the selected record type opens in the Form tab. 
 
@@ -207,7 +216,17 @@ You can create a request form from the record type associated with the form, <sp
 
    For more information about building a custom form, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
 
-1. (Optional) Click **Preview** to view how the form will display for other users when they will use it to submit a new record.
+1. (Optional) Click **Preview** to view how the form will display for other users when they will use it to submit a new record. 
+1. Continue to [Set up Configuration details](#set-up-configuration-details) if you want to configure more details for the form, or go to [Complete request form creation](#complete-request-form-creation).
+
+#### Set up Configuration details
+
+On the Configuration tab, you can set the approval process <span class="preview">and configure when a request created from this form will be marked as Completed</span>.
+
+1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
+   
+    The request form for the selected record type opens in the Form tab. 
+1. (Optional) Set up any form details, as described in [Set up Form details](#set-up-form-details).    
 
 1. (Optional) Click the **Configuration** tab, then add at least one user <span class="preview">or team</span>to the **Approvers** field to approve new requests for this record form. 
 
@@ -223,6 +242,39 @@ You can create a request form from the record type associated with the form, <sp
 
       For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
 
+1. <span class="preview">(Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.</span>
+
+1. <span class="preview">Select whether you want a request created from this form to be marked complete when the requested object is created, or when the requested object is completed.</span>
+1. <span class="preview">(Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and value that indicate when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.</span>
+1. Continue to [Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to [Complete request form creation](#complete-request-form-creation).
+ 
+<div class="preview">
+
+#### Set up Automations
+
+You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. 
+
+For information on creating automations in other areas of Workfront Planning, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+1. On the automation's details page, update the following fields in the **Triggers** section: 
+
+   * **Trigger**: Select the action that will trigger the automation. Currently, the only available trigger for request form automation is `When request object status equals pending creation`.
+
+1. Update the following fields in the **Actions** section: <!--submitted bugs for these fields - see if they need changing here-->
+   * **Actions**: Select the action that you want Workfront to perform when triggering the automation. This is a required field. 
+   Currently, the only available Action for request form automation is `Create record`.
+
+     >[!TIP]
+     >
+     >After you saved the automation, you can no longer change the action selected in this field.
+1. Continue to  [Complete request form creation](#complete-request-form-creation).
+
+
+</div>
+
+### Complete request form creation
+
+1. Create and set up the form as described in [Begin creating a request form](#begin-creating-a-request-form) and [Set up details for the request form](#set-up-details-for-the-request-form).
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the form's name in the header, then click **Edit** to update the name of the form.
 
 1. Click **Publish** to publish the form and obtain a unique link for it. 
@@ -241,6 +293,21 @@ You can create a request form from the record type associated with the form, <sp
 
    The **Request forms** table view opens and the the form is added to it.
 
+## Manage existing request forms
+
+
+1. Click the workspace where you want to manage request forms.
+
+    The workspace opens and the record types display as cards.
+
+1. Click a record type card. For information about creating a record type, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
+
+    The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
+
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the page header, then click **Manage request forms**.
+
+   All request forms associated with the record type display in a table view. 
+   
 1. (Optional) Hover over the name of a request form in the table view, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the form name, and click one of he following:
 
    * **Edit form**: Click this to further edit information on the form.
