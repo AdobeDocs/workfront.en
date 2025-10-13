@@ -13,6 +13,8 @@ exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
 
 <!-- Audited: 12/2023 -->
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+
 As an Adobe Workfront administrator, you can reset or remove the user preference settings for any user in the Workfront system.
 
 Individual users can also reset their own user preference settings.
@@ -97,6 +99,17 @@ When you reset user preferences, some preferences are reverted to the system def
  </tbody> 
 </table>
 
+<!-- Display this table and hide the HTML table above, when the unshim is released.
+| Preference | Status after the reset |
+| --- | --- |
+| Views | Reverted to the system default <p>Existing views are not deleted. You can select them again.</p> |
+| Filters | Reverted to the system default <p>Existing filters are not deleted. You can select them again.</p> |
+| Groupings | Reverted to the system default <p>Existing groupings are not deleted. You can select them again.</p> |
+| Recent items list | Cleared |
+| Favorites list | Unaffected |
+| User Preferences | Reverted to the system default <p>Email notifications revert to the system defaults. The default notifications are listed in [Event notifications available in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
+-->
+
 ## Reset user preferences
 
 {{step-1-to-setup}}
@@ -127,6 +140,7 @@ When you reset user preferences, some preferences are reverted to the system def
 1. Press **Enter**.
 1. To reset all user preferences, select **Reset**.
 
+<!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
    Or
 
    To reset only custom tabs, select **Reset Tabs**.
