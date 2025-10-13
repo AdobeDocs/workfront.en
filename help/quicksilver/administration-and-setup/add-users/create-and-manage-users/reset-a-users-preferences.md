@@ -140,7 +140,7 @@ When you reset user preferences, some preferences are reverted to the system def
 1. Press **Enter**.
 1. To reset all user preferences, select **Reset**.
 
-<!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
+   <!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
    Or
 
    To reset only custom tabs, select **Reset Tabs**.
