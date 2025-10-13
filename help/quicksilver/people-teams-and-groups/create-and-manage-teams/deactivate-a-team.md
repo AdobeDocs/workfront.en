@@ -34,33 +34,30 @@ You can deactivate teams you no longer use while retaining the associated histor
  </tbody> 
 </table>
 
-Deactivated teams don't appear when you search for a team, but will still display in [!UICONTROL Home Team] and Other Teams if the user was assigned to the team prior to deactivation.[!UICONTROL ]
+Deactivated teams don't appear when you search for a team, but will still display in [!UICONTROL Home Team] and Other Teams if the user was assigned to the team prior to deactivation.
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader"> <p>Adobe Workfront package</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td>
-   <p>New: Standard</p>
-   <p>or</p>
-   <p>Current: Plan</p></td>
-  </tr>
+   <p>Standard</p>
+   <p>Plan</p></td>
+  </tr> 
   <tr>
    <td>Access level configurations</td>
    <td><p>To deactivate a team, no configurations are required.</p>
-   <p>To delete a team, you must be a system administrator.</p></td>
+   <p>To delete a team, you must be a System administrator.</p></td>
   </tr>
  </tbody> 
 </table>
