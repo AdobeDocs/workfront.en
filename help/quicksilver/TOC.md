@@ -444,7 +444,7 @@ feature-set: Workfront
       * [Create a schedule](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
     * Organizational setup {#organization-setup}
       * [Organizational setup](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
-      * [Manage companies](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
+      * [Create and edit companies](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
       * [Manage company memberships](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
       * [Deactivate or reactivate a company](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
       * [Job role](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
@@ -1501,7 +1501,7 @@ feature-set: Workfront
     * [View the organizational chart](people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)
   * Work with groups and teams {#work-with-groups-teams}
     * [Work with groups and teams](people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
-    * [Groups vs. teams in Adobe Workfront](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
+    * [Groups vs. teams in Workfront](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
   * Work with team requests {#work-with-team-requests}
     * [Work with team requests](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
     * [Team requests overview](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
