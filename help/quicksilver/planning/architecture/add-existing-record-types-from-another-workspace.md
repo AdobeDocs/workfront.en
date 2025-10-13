@@ -23,13 +23,13 @@ As a workspace manager, you can add a record type that exists in another workspa
 
 This article describes how you can add a record type from an existing one and how you can delete it, if it's no longer needed. 
 
-A workspace manager must first designate a record type as a centralized before you can add it into workspaces you manage as an existing record type.
+A workspace manager must first designate a record type as a global before you can add it into workspaces you manage as an existing record type.
 
-You can designate a record type as centralized when you create or edit it, as you are defining its advanced settings. 
+You can designate a record type as global when you create or edit it, as you are defining its Cross-workspace settings. 
 
 For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). 
 
-Before adding records to a workspace from a centralized record type, see the article [Cross-workspace record types overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+Before adding records to a workspace from a global record type, see the article [Cross-workspace record types overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
 
 
 ## Access requirements
@@ -52,7 +52,7 @@ Before adding records to a workspace from a centralized record type, see the art
 <ul><li><p>Any Workfront package</p></li>
 <p>And</p>
 <li><p>Any Planning package to create connectable record types</p></li>
-<li><p>Planning Plus package to create centralized record types</p></li>
+<li><p>Planning Plus package to create global record types</p></li>
 </ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
@@ -95,39 +95,39 @@ For more information about Workfront access requirements, see [Access requiremen
    
    The following things occur:
 
-   * The following information is also added from the existing centralized record type:
+   * The following information is also added from the existing global record type:
 
       * All original fields
       * All record connections
-   * You can view records added from other workspaces that use the same centralized record type, only when you have at least View permissions to those workspaces. 
-   * The **centralized record type** icon ![Centralized record type icon](assets/global-icon.png) is added to the card of the new record type.
+   * You can view records added from other workspaces that use the same global record type, only when you have at least View permissions to those workspaces. 
+   * The **global record type** icon ![Global record type icon](assets/global-icon.png) is added to the card of the new record type.
    * The read-only **Workspace** field is added to the new record type table view. The field displays what workspace each record was created in. 
    
       >[!NOTE]
       >
-      >You cannot edit the new record type's appearance, advanced settings, or original fields. You can edit the record type and all its original fields and settings only from the original workspace.
+      >You cannot edit the new record type's appearance, additional settings, or original fields. You can edit the record type and all its original fields and settings only from the original workspace.
 
 1. (Optional) Click, then drag and drop the newly added record type to any section within the workspace. 
 
 <!--This will be released later with another epic: 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.-->
 
-## Delete a centralized record type from a secondary workspace
+## Delete a global record type from a secondary workspace
 
 You can delete a record type you added from another workspace if no longer needed. Deleting it will only remove it from the secondary workspace and it will delete the records added from that workspace. The original record type remains in its original workspace and well as in other workspaces where it's been added. 
 
-To delete a centralized record type from a secondary workspace: 
+To delete a global record type from a secondary workspace: 
 
-1. Go to the centralized record type in the secondary workspace. 
+1. Go to the global record type in the secondary workspace. 
 
 1. (Optional) Click on the **More** menu ![More menu](assets/more-menu.png) on the record type's card, or to the right of the record type's name on its page, then click **Delete**.
 1. (Conditional) Type **delete** in the field provided, then click **Permanently delete**.
 
    The following things occur: 
 
-   * The record type created from a centralized record type is removed from the selected workspace. 
+   * The record type created from a global record type is removed from the selected workspace. 
    * The original record type and its fields remain in their original workspace. 
    * The record type remains in all other workspaces where it's been added.
-   * The records added to the record type from the current workspace are deleted. All other records added from additional workspaces where the centralized record type was added are preserved. 
+   * The records added to the record type from the current workspace are deleted. All other records added from additional workspaces where the global record type was added are preserved. 
 
 
    

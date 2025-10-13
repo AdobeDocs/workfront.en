@@ -9,6 +9,8 @@ exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
 ---
 # View issues
 
+<!--Audited: 10/2025-->
+
 You can view issues that are associated with a project, task, or iteration.
 
 ## Access requirements
@@ -132,11 +134,14 @@ To access an issue and view information about it:
 
 ## View which projects and tasks have issues
 
-You can add icons in the view of a project or task report or list to show whether they have issues attached. Adding icons to the view of a report or list is similar for projects and tasks. 
+You can add icons in the view of a project or task report or list to show whether they have issues attached. 
+
+Adding icons to the view of a report or list is similar for projects and tasks. 
 
 To add icons that display whether a project has issues in a project report:
 
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{step1-click-main-menu}}
+
 1. Click **Reporting** > **New Report** > **Project Report**. 
 1. In the **Show in this column** field, start typing **Status Icons**, then select it when it appears in the list.
 
@@ -144,4 +149,4 @@ To add icons that display whether a project has issues in a project report:
 
    The issue icons display on the projects that have issues in the **Status Icons** column.
 
-   ![project_list_with_issue_icon.png](assets/project-list-with-issue-icon-350x132.png)
+   ![Project list with issue icon](assets/project-list-with-issue-icon-350x132.png)
