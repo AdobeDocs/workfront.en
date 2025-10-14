@@ -30,10 +30,6 @@ For more information about installing [!DNL Workfront for Salesforce], see [Inst
 
 For more information about configuring the [!DNL Workfront] section in [!DNL Salesforce] for all users, see [Configure the [!DNL Adobe Workfront] section for [!DNL Salesforce] users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
->[!NOTE]
->
->A [!UICONTROL Pro] [!DNL Workfront] Plan is required to use this feature. For more information about the various plans available, see [[!DNL Workfront] Plans.](https://business.adobe.com/products/workfront/pricing.html)
-
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
