@@ -1220,7 +1220,7 @@ feature-set: Workfront
       * [Schedule resources for a project](manage-work/projects/manage-projects/schedule-resources-for-projects.md)
       * [Communicate with Project Team members](manage-work/projects/manage-projects/communicate-with-project-team-members.md)
       * [Manage a project in the Agile View](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
-      * [Overview of project metrics](manage-work/projects/manage-projects/project-metrics.md)
+      * [Understand project metrics](manage-work/projects/manage-projects/project-metrics.md)
       * [Project limits overview](manage-work/projects/manage-projects/project-maximums.md)
       * [Summarize updates with AI Assistant](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
     * Create and manage project templates {#create-and-manage-project-templates}
@@ -1369,7 +1369,7 @@ feature-set: Workfront
       * [Update the Planned Hours and Duration of a task with a Simple Duration Type](manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
       * [Duration Types in Adobe Workfront and Microsoft Project](manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
     * Use task predecessors {#use-task-predecessors}
-      * [Use task predecessors](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
+      * [Use task predecessors: article index](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
       * [Overview of task predecessors](manage-work/tasks/use-prdcssrs/predecessors-overview.md)
       * [Create a predecessor relationship on the task list](manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
       * [Create a predecessor relationship using the Predecessors area](manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
@@ -1384,24 +1384,24 @@ feature-set: Workfront
       * [Tasks FAQs](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
       * [Projected Duration does not match Planned Duration](manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
   * Issues {#issues}
-    * [Issues](manage-work/issues/issues-overview.md)
+    * [Issues: article index](manage-work/issues/issues-overview.md)
     * Convert issues {#convert-issues}
-      * [Convert issues](manage-work/issues/convert-issues/convert-issues-overview.md)
+      * [Convert issues: article index](manage-work/issues/convert-issues/convert-issues-overview.md)
       * [Overview of converting issues in Adobe Workfront](manage-work/issues/convert-issues/convert-issues.md)
-      * [Convert an issue to a project in Adobe Workfront](manage-work/issues/convert-issues/convert-issue-to-project.md)
-      * [Convert an issue to a task in Adobe Workfront](manage-work/issues/convert-issues/convert-issue-to-task.md)
+      * [Convert an issue to a project](manage-work/issues/convert-issues/convert-issue-to-project.md)
+      * [Convert an issue to a task](manage-work/issues/convert-issues/convert-issue-to-task.md)
       * [Overview of Resolving and Resolvable Objects](manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)
       * [Unlink issues from their Resolving Objects](manage-work/issues/convert-issues/unlink-issues-from-resolvable-objects.md)
       * [Manually tie the resolution of an issue to other issues, tasks, or projects](manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)
     * Issue information {#issue-information}
-      * [Issue information](manage-work/issues/issue-information/issue-info-overview.md)
+      * [Issue information: article index](manage-work/issues/issue-information/issue-info-overview.md)
       * [Issue Duration overview](manage-work/issues/issue-information/issue-duration.md)
       * [Update issue Priority](manage-work/issues/issue-information/update-issue-priority.md)
       * [Update issue severity](manage-work/issues/issue-information/update-issue-severity.md)
       * [Overview of the issue Planned Completion Date](manage-work/issues/issue-information/issue-planned-completion-date.md)
       * [Use "opTask" and "issue" when referencing issues](manage-work/issues/issue-information/use-optask-instead-of-issue.md)
     * Manage issues {#manage-issues}
-      * [Manage issues](manage-work/issues/manage-issues/manage-issues-overview.md)
+      * [Manage issues: article index](manage-work/issues/manage-issues/manage-issues-overview.md)
       * [Create issues](manage-work/issues/manage-issues/create-issues.md)
       * [Assign issues](manage-work/issues/manage-issues/assign-issues.md)
       * [View issues](manage-work/issues/manage-issues/view-issues.md)
@@ -1430,9 +1430,9 @@ feature-set: Workfront
       * [Portfolios: article index](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
       * [Navigate within a portfolio](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
       * [Portfolio Management overview](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-      * [Portfolio overview in Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+      * [Understand portfolio methodology](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
     * Create and manage portfolios {#create-and-manage-portfolios}
-      * [Create and manage portfolios](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
+      * [Create and manage portfolios: article index](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
       * [Create a portfolio](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
       * [Delete and deactivate portfolios](manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
       * [Edit portfolios](manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
@@ -1449,7 +1449,7 @@ feature-set: Workfront
       * [Remove a project from a program](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
       * [Delete and deactivate programs](manage-work/portfolios/create-and-manage-programs/delete-and-deactivate-programs.md)
     * Manage projects in the Portfolio Optimizer {#manage-projects-in-portfolio-optimizer}
-      * [Manage projects in the Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
+      * [Manage projects in the Portfolio Optimizer: article index](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
       * [Portfolio Optimizer overview](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
       * [Locate the Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
       * [Overview of the Portfolio Optimizer Score](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
@@ -1993,7 +1993,7 @@ feature-set: Workfront
     * [Track Hour Records with the Adobe Workfront API](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
     * [Unable to Log Time for Future Dates](timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)
 * Adobe Workfront Scenario Planner {#scenario-planner}
-  * [Adobe Workfront Scenario Planner](scenario-planner/scenario-planning.md)
+  * [[!DNL Adobe Workfront Scenario Planner]: article index](scenario-planner/scenario-planning.md)
   * [Get started with the Scenario Planner](scenario-planner/get-started-with-scenario-planning.md)
   * [The Scenario Planner overview](scenario-planner/scenario-planner-overview.md)
   * [Access needed to use the Scenario Planner](scenario-planner/access-needed-to-use-sp.md)

@@ -26,7 +26,35 @@ You can review requested projects in the following areas of [!DNL Adobe Workfron
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following access to perform the steps in this article:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td><p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>[!UICONTROL Standard] </p> 
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL View] access or higher to Portfolios</p> <p>[!UICONTROL Edit] access to Projects</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] permissions or higher on the portfolio</p> <p>[!UICONTROL Manage] permissions on the projects to update their status</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,11 +77,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>[!UICONTROL View] permissions or higher on the portfolio</p> <p>[!UICONTROL Manage] permissions on the projects to update their status</p>  </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Review Requested Projects in a project report
 

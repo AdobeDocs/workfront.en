@@ -69,8 +69,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Add additional objects to the custom form on the issue or task you are converting, as explained in the section [First: Add additional objects to the custom form](#first-add-additonal-objects-to-the-custom-form) in this article.
 1. Convert the issue or task using the **Custom Forms** option in the box that displays to select the custom form you need. For instructions, see the following articles:
 
-   * [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
-   * [Convert an issue to a task in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
+   * [Convert an issue to a project](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
+   * [Convert an issue to a task](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [Convert a task to a project](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
 1. In the **Convert to (object type)** dialog box that displays, click the **Add Forms** drop-down menu and select the form you copied in the previous section.

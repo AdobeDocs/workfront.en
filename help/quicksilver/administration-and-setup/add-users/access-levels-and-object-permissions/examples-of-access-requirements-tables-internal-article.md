@@ -324,7 +324,7 @@ Expand to view access requirements for the functionality in this article.
    <td><p>Access level configurations</p> </td> 
    <td> <p>Edit access to the Scenario Planner</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>Object permissions </p> </td> 
    <td> <p>Manage permissions to a plan</p>  </td> 
   </tr> 
@@ -337,7 +337,7 @@ For information, see [Access requirements to Workfront documentation](/help/quic
 
 >[!NOTE]
 >
->If your company has bought the Adobe Workfront Goals in the past, it has been grandfathered in. Adobe Workfront Goals is not available for purchase anymore.
+>You can continue using Adobe Workfront Goals if your company has bought this package in the past. Adobe Workfront Goals is not available for purchase anymore.
 
 Expand to view access requirements for the functionality in this article. 
 

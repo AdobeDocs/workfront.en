@@ -15,8 +15,41 @@ You can view issues that are associated with a project, task, or iteration.
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <ul><li><p>Contributor or higher</p></li> <li><p>Light or higher license to view issues in the Issues section of a project.</p></li>
+
+   Or
+
+   <ul><li><p>Request or higher</p></li> <li><p>Review or higher license to view issues in the Issues section of a project.</p></li></ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View access to Issues</p> <p>View or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the issue</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -40,7 +73,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+-->
 
 ## View issues based on Status
 

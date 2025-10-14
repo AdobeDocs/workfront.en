@@ -28,9 +28,52 @@ For information about exporting the table view to an Excel or CSV file, see [Exp
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view the access requirements for the functionality in this article. 
 
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul> 
+<li><p>Any Workfront and any Planning package</p></li>
+Or
+<li><p>Any Workflow and any Planning packages</li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr> 
+</tbody> 
+</table> 
+
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -90,11 +133,7 @@ For information about exporting the table view to an Excel or CSV file, see [Exp
 </td>
   </tr>
 </tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
+</table> -->
 
 ## Edit records using the table view
 

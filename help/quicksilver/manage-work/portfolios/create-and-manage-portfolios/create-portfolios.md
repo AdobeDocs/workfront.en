@@ -1,7 +1,7 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: Create a portfolio
+title: Create a Portfolio
 description: A Portfolio is a collection of projects competing for the same resources, budget, and schedule. The projects in a Portfolio are similar enough that they would use the same Resource Pool and be measured against the same scorecard.
 author: Alina
 feature: Work Management, Strategic Planning
@@ -9,7 +9,7 @@ exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 ---
 # Create a portfolio
 
-<!--Audited: 7/2024-->
+<!--Audited: 08/2025-->
 
 A Portfolio is a collection of projects competing for the same resources, budget, and schedule. The projects in a Portfolio are similar enough that they would use the same Resource Pool and be measured against the same scorecard.
 
@@ -18,6 +18,36 @@ You can use Portfolios to group projects that belong to the same product lines, 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Any</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>After you create a portfolio, you have Manage permissions to it</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,9 +73,7 @@ You can use Portfolios to group projects that belong to the same product lines, 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## Ways to create portfolios
 

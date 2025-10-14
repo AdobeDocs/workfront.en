@@ -44,6 +44,41 @@ Before adding records to a workspace from a global record type, see the article 
 <tbody> 
     <tr> 
 <tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul><li><p>Any Workfront package and a Planning Plus package</p></li>
+Or
+<li><p>Workflow and Planning Prime and Ultimate packages</li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table> 
+
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
 
   </tr>   
 <tr> 
@@ -54,10 +89,10 @@ Before adding records to a workspace from a global record type, see the article 
 <li><p>Any Planning package to create connectable record types</p></li>
 <li><p>Planning Plus package to create global record types</p></li>
 </ul>
-<!--Or:
+********************************Or:
 <ul><li><p>Any Workflow package</p> </li>
 And
-<li><p>Planning Prime or Ultimate package</p></li></ul>-->
+<li><p>Planning Prime or Ultimate package</p></li></ul>******************************
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
    </td> 
 
@@ -68,15 +103,11 @@ And
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Manage permissions to a workspace</a> </p>  
+   <td>   <p>Manage permissions to a workspace</p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table> 
-
-For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
+</table>-->
 
 ## Create a record type from an existing record type
 

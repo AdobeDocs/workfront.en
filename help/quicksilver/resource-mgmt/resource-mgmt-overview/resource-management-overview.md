@@ -23,7 +23,7 @@ This section contains the following articles and subsections:
 * [Resource Planning: article index](/help/quicksilver/resource-mgmt/resource-planning/resource-planning-overview.md)
 * [The Workload Balancer: article index](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md)
 * [Resource utilization](/help/quicksilver/resource-mgmt/resource-utilization/resource-utilization.md)
-* [Adobe Workfront Scenario Planner](/help/quicksilver/scenario-planner/scenario-planning.md)
+* [[!DNL Adobe Workfront Scenario Planner]: article index](/help/quicksilver/scenario-planner/scenario-planning.md)
 
 
 

@@ -66,7 +66,7 @@ Before you can access your favorites and recent items from [!DNL Slack], you mus
 
    * **[!UICONTROL Planned Completion Date]**: For more information about the Planned Completion Date, see [Set the project Planned Completion Date](../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
-   * **[!UICONTROL Portfolio]** Name: For more information about portfolios, see [Portfolio overview in Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+   * **[!UICONTROL Portfolio]** Name: For more information about portfolios, see [Understand portfolio methodology](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
    * **[!UICONTROL Condition]**: For more information about Project Condition, see [Overview of Project Condition and Condition Type](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: setup
 navigation-topic: use-the-gantt-chart
-title: Configure how information displays on the [!UICONTROL Gantt] Chart
+title: Configure How Information Displays on the [!UICONTROL Gantt] Chart
 description: You can configure what information displays in both the Task List Gantt Chart and the Project List Gantt Chart.
 author: Alina
 feature: Work Management
@@ -18,8 +18,38 @@ You can configure what information displays in both the Task List Gantt Chart an
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to follow the steps in this article:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>[!UICONTROL Light] or higher<p>
+   <p>[!UICONTROL Review] or higher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project and tasks</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -45,11 +75,7 @@ You must have the following to follow the steps in this article:
    <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Understand Display Options
 
