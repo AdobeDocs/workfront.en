@@ -22,7 +22,8 @@ AI Assistant can generate a Project Health assessment for the following objects:
 
 For more information about AI Assistant, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-+++ Expand to view access requirements. 
++++ Expand to view access requirements for the functionality in this article.
+
  <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -30,9 +31,10 @@ For more information about AI Assistant, see [AI Assistant overview](/help/quick
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Select, Prime, or Ultimate </p> 
+<p>Select or higher </p> 
+<p>Workflow Select or higher</p>
    </td> 
 <tr> 
  <tr> 
@@ -44,9 +46,9 @@ For more information about AI Assistant, see [AI Assistant overview](/help/quick
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configurations</p></td> 
-   <td><p>Administrator to manage Project Health configurations </p>
-   <p>Edit to apply Project Health configurations </p>
-     <p>View to view Project Health configurations </p>
+   <td><p>You must be a System administrator to manage Project Health configurations </p>
+   <p>Edit access to projects to apply Project Health configurations </p>
+     <p>View access to projects to view Project Health configurations </p>
   </td> 
   </tr>  
     </tr>  
