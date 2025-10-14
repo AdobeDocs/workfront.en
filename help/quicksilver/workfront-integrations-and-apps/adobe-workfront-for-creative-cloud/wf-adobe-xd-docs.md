@@ -16,36 +16,36 @@ You can upload your artboards as documents for a quick review and approval or si
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <!-- <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <!-- <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Work or higher</p> </td> 
   </tr> 
   <tr> -->
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Additional products</td> 
    <td>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to [!UICONTROL Documents]</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to [!UICONTROL Documents]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>[!UICONTROL View] access or higher to the object where you want to upload a document.</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] access or higher to the object where you want to upload a document.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

@@ -33,7 +33,7 @@ Use Workfront Proof with Adobe Express to
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront packagae</td> 
    <td> 
    <p>Any</p> 
    </td> 
@@ -45,15 +45,14 @@ Use Workfront Proof with Adobe Express to
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Additional products</td> 
    <td> 
    <p> You must have Adobe Express, and you must be added to the product as a user in the Admin Console. </p> </td> 
   </tr>
-
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
  +++
 
