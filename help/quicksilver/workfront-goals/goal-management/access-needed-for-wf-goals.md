@@ -84,7 +84,7 @@ If your company has access to Workfront Goals from a previous purchase, your Wor
   * Request
 -->
 
-2. The following access level:
+1. The following access level:
 
     * View or higher access to Goals in your access level. 
   
