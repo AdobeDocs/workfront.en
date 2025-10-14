@@ -93,13 +93,14 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
    The workspace page opens and the record types display. 
 1. Do one of the following:
 
-   * Hover over the card of a record type and click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the record type card, then click **Edit**
+   * Hover over the card of a record type and click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the record type card, then click **Edit** 
+   <!--<span class="preview">or **Settings**</span>-->
       Or
-   * <span class="preview">Click a record type card to open the record type page, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Edit**. </span>
+   * <span class="preview">Click a record type card to open the record type page, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Edit**<!--<span class="preview">or **Settings**</span>. </span>-->
 
-   <span class="preview">![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)</span>
+   <!--<span class="preview">![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)</span>-->
 
-1. In the **Edit record type** box, the **Appearance** tab opens by default. 
+1. In the **Edit record type** box, the **Appearance** tab opens by default. <!--update screen shot below at preview-->
 
    ![Edit record type box appearance tab ](assets/edit-record-type-box-appearance-tab.png) 
 
@@ -109,39 +110,28 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
     * **Description**: Edit or add a description for the record type with more information about it. 
     * Edit the color and shape of the icon associated with the record type. Do the following: 
         * Select a color to identify the record type. This is the color of the record type icon. 
-        * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default. 
-
-   <!--old info: 
-   1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box. 
-      ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
-   1. (Conditional) Update the following information in the **Advanced settings** tab: 
-      * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
-      * Choose from which workspaces the record type can be accessed. Choose from the following options:
-         * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
-         * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.-->
+        * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default.
 
 
-1. (Optional and conditional) If you are a System Administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: <!--take this info out and replace it with a link to this article: help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md-->
+1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: <!--the info here is duplicated in the Create record types article-->
     * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
     You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
-    <!--at preview release: For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). -->
+    For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).    
+    
+    
+    ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png)
 
-    ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
-
-   <!--replace last point with this when we release dynamic record types:
-      1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
-         * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
-               You can designate specific users who can add this record type to other workspaces. 
-         * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
-               You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
-         For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  
-         ******** replace screen shot below **********
-         ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
-      -->
+    <!--replace last point with this when we release global record types; the preview tags might need to be edited, too:
+    1. <span class="preview">(Optional and conditional) If you are a system administrator, update the information in the **Cross-workspace settings** tab.</span>
+    <span class="preview">For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
+    ***********Add screenshot***********
+    -->
 
 1. Click **Save**.
 
       The record type card on the workspace displays a connectivity icon ![Connect from other workspaces icon](assets/connect-from-other-workspaces-icon.png) in the upper-right corner to indicate that the record is now accessible from other workspaces. 
+
+      <!--replace the blurb above after "Save" with this: <span class="preview">If you configured the cross-workspace capabilities for the record, the **connectable record type** icon ![Connectable record type icon](assets/connect-from-other-workspaces-icon.png) and the **global record type** icon ![Global record type icon](assets/global-icon.png) also display on the card. </span>-->
 
 1. (Optional) Click the record type card from the workspace area to open the record type's page, then rename the record type in the header.  
 

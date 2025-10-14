@@ -8,6 +8,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
 ---
 
+<!--keep the 30 connection limit in yellow till Jan 2026-->
+
 # Adobe Workfront Planning object limitations overview
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
@@ -43,6 +45,10 @@ The following table shows the limits for how many objects you can create in Work
 | <span class="preview">Number of formula fields for one record type</span> | <span class="preview">20</span> |
 | <span class="preview">Number of characters in a formula field expression</span> | <span class="preview">50,000</span> |
 
+
+<!-- Add this after the formula fields limit above:
+
+| <span class="preview">Number of connection fields for one record type</span> | <span class="preview">30</span> |-->
 
 *We recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.
 
