@@ -2081,6 +2081,7 @@ feature-set: Workfront
     * [Create Record Types by importing information from a CSV or Excel file](planning/architecture/import-file-to-create-record-types.md)
     * [Cross-workspace record types overview](planning/architecture/cross-workspace-record-types-overview.md)
     * [Configure cross-workspace capabilities for record types](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+    * [Configure the Settings area of a record type](planning/architecture/configure-record-type-settings.md)
     * [Add existing record types from another workspace](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Connect record types overview](planning/architecture/connect-record-types-overview.md)
     * [Connect record types](planning/architecture/connect-record-types.md)

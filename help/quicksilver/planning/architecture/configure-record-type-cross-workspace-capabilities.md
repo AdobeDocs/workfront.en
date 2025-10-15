@@ -68,15 +68,15 @@ For information, see one of the following articles:
 <p>To configure connectable record types: </p>
 <ul> 
 <li><p>Any Workfront package and any Planning package</p></li>
-Or
-<li><p>Workflow and Planning Prime and Ultimate packages</li></ul>
+<p>Or</p>
+<li><p>Workflow and Planning Prime and Ultimate packages</p></li></ul>
 
 <p>To configure global record types:</p>
 
 <ul> 
 <li><p>Any Workfront package and a Planning Plus package</p></li>
-Or
-<li><p>Workflow and Planning Prime and Ultimate packages</li></ul>
+<p>Or</p>
+<li><p>Workflow and Planning Prime and Ultimate packages</p></li></ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 
@@ -156,7 +156,7 @@ To configure a record type as global:
    The workspace page opens and the record types display. 
 1. Do one of the following:
 
-   * Hover over the card of a record type and click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the record type card
+   * Hover over the card of a record type and click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the record type card. <!--add new screen shot without Share for now-->
 
       ![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)
 
@@ -165,7 +165,7 @@ To configure a record type as global:
 
    >[!TIP]
    >
-   >When a record types is added to another workspace, it displays as a global record type in that workspace. In this case, the Edit and Settings options are dimmed. 
+   >When a record type is added to another workspace, it displays as a global record type in that workspace. In this case, the Edit and Settings options are dimmed. 
 
 1. (Conditional) If you clicked **Edit**, in the **Edit record type** box, click the **Cross-workspace settings** tab
 
@@ -214,7 +214,7 @@ To configure a record type as global:
 
    The record type added from a global record type in the secondary workspace also displays a **global record type** icon ![Global record type icon](assets/global-icon.png). 
 1. (Optional) Go back to the original workspace where you created the global record type and edit the record type by following steps 1-4 above <!--ensure this stays accurate-->
-1. (Optional) Review the list of workspaces where the global record has been added in the **Workspaces where this record type is used section**. 
+1. (Optional) Review the list of workspaces where the global record has been added in the **Workspaces where this record type is used section**. The workspace owner is also listed next to the workspace name. 
 
    ![Workspaces where this record type is used](assets/workspaces-where-this-record-type-is-used.png)
 
@@ -236,7 +236,7 @@ To configure a record type as connectable:
 
    * Hover over the card of a record type and click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the record type card
 
-      ![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)
+      ![More menu options from record type card](assets/more-menu-options-from-record-type-card.png) <!--add new screen shot without Share for now-->
 
    * Click a record type card to open the record type page, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name.
 1. Click **Edit** or **Settings**.

@@ -34,13 +34,8 @@ The user's commands and the AI's execution of those commands work together to en
 <tr> 
    <td role="rowheader"><p>Adobe Workfront packages</p></td> 
    <td> 
-<ul><li><p>Any Workfront package</p></li>
-And
-<li><p>Any Planning package</p></li></ul>
-Or
-<ul><li><p>Any Workflow package</p></li>
-And
-<li><p>Any Planning package</p></li></ul>
+<p>Any Workfront and Planning package</p>
+<p>Any Workflow and Planning package</p>
    </td> </tr>
 
   </tr> 

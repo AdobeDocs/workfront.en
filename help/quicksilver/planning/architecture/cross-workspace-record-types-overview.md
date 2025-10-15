@@ -73,18 +73,23 @@ The record type configured to be global has the following properties:
     * Edit it 
         
         Editing a global record type includes editing its appearance, cross-workspace capabilities, and all the fields created in the original workspace.
-    * Create request forms
-    * Manage request forms
+    * Create and manage request forms
+    * Create and manage automations
 
 * You can delete a global record type only if it has not been added to a secondary workspace. You must first remove it (by deleting it) from the secondary workspaces before you can delete it from the original workspace.
+
+    For more information, see [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md).
 * The records that you add to a global record type are visible only to users who have View permissions to the workspace where they were added. 
 * The records that you add from a secondary workspace roll up and display in the original workspace. All members of the original workspace gain View permissions to them.
-* If the original global record type is added to multiple secondary workspaces, you can view the records added to other workspaces only from the original workspace or from workspaces where you have at least permissions to View.
+* When the original global record type is added to multiple secondary workspaces the following scenarios exist: 
+
+    * Members of the original workspace automatically gain View permissions to all records added from any workspace, even if they are  not members of those workspaces.
+    * Secondary workspace members can view only records from workspaces where they are a member. 
 * The connected record types of a global record type will become available for connection from the workspaces where this record type is added. 
 
     For example, if you have a Campaign global record type that has a connection with a Regions record type, and you add the Campaign record type to a secondary workspace, Regions will become cross-workspace connectable from the secondary workspace. The secondary workspace members can now create campaigns and link them to regions.
 
-* Fields created for a global record type from the original workspace are visible from all workspaces where the record type is added. The field settings from an original workspace are read-only in the secondary workspaces. 
+* Fields created for a global record type from the original workspace are visible from all workspaces where the record type is added. You can edit field settings only from the original workspace. The settings of the fields created in the original workspace are read-only in the secondary workspaces for all members, regardless of their permissions on the secondary workspace. Secondary workspace managers cannot modify the field settings for fields configured in the original workspace. Only yhe workspace managers of the original workspace can modify field settings in the original workspace.  
 
 ### Considerations about global record types in a secondary workspace
 
@@ -97,6 +102,8 @@ The record type configured to be global has the following properties:
     * Delete it. 
 
         Deleting the record type from a secondary workspace only removes it from the secondary workspace. The records and fields added to it from the secondary workspace are also deleted. This does not delete the record type from its original workspace or from any other secondary workspaces where it has been added. 
+
+        For more information, see [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md).
         
     <!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
     * Add new fields
@@ -122,7 +129,7 @@ The record type configured to be global has the following properties:
 * The following scenarios exist for records created in secondary workspaces: 
 
     * If you have Manage permissions on the original workspace, and no permissions on a secondary workspaces, you can view records added from the secondary workspaces in the original workspace, but you cannot manage them from the original workspace. 
-    * If you have Manage permissions on the secondary workspace, you can manage the records in the global record type's original workspace or from the workspace where they were added. 
+    * If you have Manage permissions on the secondary workspace, you can manage the records from both the global record type's original workspace and from the secondary workspace where they were added. 
     * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces. 
 
 ### Access to the connections of a global record type
@@ -149,7 +156,7 @@ To use connectable record types, do the following:
 
 1. Configure a record type to be connectable in a specific workspace. 
 
-    A workspace manager can select select what workspaces a designated record type is available to connect to. 
+    A workspace manager can select what workspaces a designated record type is available to connect to. 
 
     The original record type will exist in its original workspace and it can be accessible to connect to from another workspace. 
 

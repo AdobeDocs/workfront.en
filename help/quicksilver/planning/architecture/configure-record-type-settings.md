@@ -1,5 +1,5 @@
 ---
-title: Configure Record Type Settings
+title: Configure the Settings Area of a Record Type
 description: You can edit record types after they have been saved in the Settings page. 
 hide: yes
 hidefromtoc: yes
@@ -16,7 +16,7 @@ recommendations: noDisplay, noCatalog
 
 -->
 
-# Configure Record Type Settings
+# Configure the Settings area of a record type
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -60,10 +60,8 @@ Depending on what capabilities you want to define for a record type, you can con
 <li><p>Any Planning package to create connectable record types</p></li>
 <li><p>Planning Plus package to create centralized record types</p></li>
 </ul>
-Or:
-<ul><li><p>Any Workflow package</p> </li>
-And
-<li><p>Planning Prime or Ultimate package</p></li></ul>
+<p>Or:</p>
+<ul><li><p>A Workflow and Planning Prime or Ultimate package</p> </li></ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
    </td> 
 

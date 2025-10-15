@@ -44,8 +44,12 @@ For information about record types, see [Record types overview](/help/quicksilve
    <td> 
 <ul> 
 <li><p>Any Workfront and any Planning package</p></li>
-Or
-<li><p>Any Workflow and any Planning packages</li></ul>
+<p>Or</p>
+<li><p>Any Workflow and any Planning package</p></li></ul>
+<!--<p>To delete global record types:</p>
+<ul><li><p>Any Workfront package and a Planning Plus package</p></li>
+<p>Or</p>
+<li><p>Workflow and Planning Prime and Ultimate packages</p></li></ul>-->
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 
@@ -139,19 +143,13 @@ Or
 * We recommend recreating the fields and the records associated with the record type that you want to delete on another record type before deleting them.
 
 <!--
-
 <div class="preview">
 
 * You cannot delete a global record type that has been added to other workspaces. 
-   
-   You must first delete it from the secondary workspaces where it's been added, before you can delete it from its original workspace. 
 
-   Deleting a global record type from their secondary workspaces only remove them, their records, and that workspace's fields from the secondary workspace. It does not delete the global record type from its original workspace.
+   For more information, see the section [Delete global record types](#delete-global-record-types) in this article. 
 
-   For information, see the section "Delete a global record type from a secondary workspace" in the article [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). 
-
-</div>
--->
+</div>-->
 
 ## Delete record types
 
@@ -171,13 +169,76 @@ Or
 
    ![Permanently delete record type confirmation](assets/permanently-delete-record-type-confirmation.png)
 
-   <!--[!TIP]
-   >
-   ><span class="preview">You cannot delete global record types added to other workspaces. First, delete the global record types form their secondary workspaces before deleting them from the original workspace.</span>-->
-
 
 1. Type **delete** in the confirmation box, then click **Permanently delete**. This is not case sensitive. 
    
    The selected record type, along with their fields, associated records, and views are deleted and cannot be recovered. 
 
+<!--
+
+<div class="preview">
+
+## Delete global record types
+
+The following scenarios exist when deleting global record types:
+
+* If a record type configured as global has not yet been added to another workspace, you can delete it from its original workspace. 
+
+* If a record type configured as a global record type has been added to at least one other workspace, you cannot delete it from its original workspace. You must first remove (by deleting) global record types from the secondary workspaces where they were added and then you can permanently delete the global record type from its original workspace. 
+
+### Delete a global record type from the original workspace
+
+You can delete a record type from its original workspace if it's no longer relevant. 
+
+1. Go to the global record type in its original workspace. 
+
+1. (Conditional) Do one of the following, depending on whether the global record type has been added to secondary workspaces: 
+
+   * If the record type was not added to a secondary workspace, click on the **More** menu ![More menu](assets/more-menu.png) on the record type's card, or to the right of the record type's name on its page, then click **Delete**. 
+   * If the record type was added to at least one other secondary workspace, first, go to the secondary workspace and delete the global record from that space. 
+
+      For information, see the section [Delete a global record type from a secondary workspace](#delete-a-global-record-type-from-a-secondary-workspace) in this article. 
    
+1. (Conditional) Continue deleting the record type, as described in the section [Delete record types](#delete-record-types-1) in this article.
+
+   The following things occur: 
+
+   * The global record type is removed from the original workspace and the record type, its records and fields cannot be recovered.
+   * All global record types from the secondary workspaces and their records are also removed.
+
+### Delete a global record type from a secondary workspace
+
+You can delete a record type you added from another workspace if no longer needed. 
+
+Consider the following:
+
+* Deleting a global record type from a secondary workspace will only remove it from the secondary workspace. The record type remains in the original workspace. 
+
+* When you delete a global record type from a secondary workspace, the following are also deleted:
+
+   * The records added from the secondary workspace.
+
+   ***************Not yet there, coming soon:* The fields added from the secondary workspace.*********
+
+* Global record types deleted from their secondary workspaces cannot be recovered. 
+
+* The original record type remains in its original workspace as well as in other workspaces where it's been added. 
+
+To delete a global record type from a secondary workspace: 
+
+1. Go to the global record type in its secondary workspace. 
+
+1. (Optional) Click on the **More** menu ![More menu](assets/more-menu.png) on the record type's card, or to the right of the record type's name on its page, then click **Delete**.
+1. (Conditional) Type **delete** in the field provided, then click **Permanently delete**.
+
+   ![Delete secondary global record type confirmation box](assets/delete-secondary-global-record-type.png)
+
+   The following things occur: 
+
+   * The record type created from a global record type is removed from the selected workspace. 
+   * The original record type with its fields remain in their original workspace. 
+   * The record type remains in all other workspaces where it's been added.
+   * The records *******and fields****** added to the record type from the current workspace are deleted. All other records added from additional workspaces where the global record type was added are preserved in their respective workspaces and in the original workspace. <!--Fields are preserved in the workspaces where they were added.
+   
+</div>   
+   --> 

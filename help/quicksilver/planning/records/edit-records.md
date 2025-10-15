@@ -12,9 +12,12 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 
 <!--keep the choice values information in yellow till Jan 2026-->
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -47,7 +50,7 @@ For information about creating records, see [Create records](/help/quicksilver/p
 <ul> 
 <li><p>Any Workfront and any Planning package</p></li>
 Or
-<li><p>Any Workflow and any Planning packages</li></ul>
+<li><p>Any Workflow and any Planning package</p></li></ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 
@@ -130,7 +133,7 @@ For more information about Workfront access requirements, see [Access requiremen
     * The record's preview in a record view
     * The record's details page
     * Inline, in a table view. 
-    * <span class="preview"> The calendar and timeline view, when resizing <!--or dragging and dropping--> the records. This updates the records' dates.</span>
+    * The calendar and timeline view, when resizing or dragging and dropping the records. This updates the records' dates.
 
 * When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users.
 
@@ -256,11 +259,11 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 
 1. Open the record type page in a timeline view. For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
-1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+1. Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record. 
 
-    <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+    ![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)
 
-1. <span class="preview">Click and hold a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
+1. Click and hold a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.
 
 1. Click the bar of a record to open its details area and edit all fields. 
 
@@ -271,11 +274,11 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 <!--add another step about drag and drop here when that is available-->
 
 1. Open the record type page in a calendar view. For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-1. <span class="preview">(Conditional) Hover over the ends of a record's bar in the calendar view, then click, drag and drop its margins to another date. This automatically updates either the start or end date of the record.</span>  
+1. (Conditional) Hover over the ends of a record's bar in the calendar view, then click, drag and drop its margins to another date. This automatically updates either the start or end date of the record. 
 
-    <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+    ![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
 
-1. <span class="preview">Click and hold a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
+1. Click and hold a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.
 
 1. Click the bar of a record to open its details area and edit all fields. 
 
@@ -401,8 +404,6 @@ After you connect records with Workfront objects, you can edit Workfront Plannin
 
 For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md). 
 
-<div class="preview">
-
 ## Edit single- or multi-select field settings when updating their values
 
 <!--some of this information is also available in Edit fields article - update both when necessary-->
@@ -433,4 +434,3 @@ To add a new choice to an existing select field when editing a record:
 
      <!--<span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>-->
 
-</div>
