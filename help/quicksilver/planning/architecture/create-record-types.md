@@ -10,6 +10,8 @@ exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 
 <!--this is linked to the UI in an empty workspace screen-->
 
+<!--keep the yellow for cross-workspace functionality till Jan 2026-->
+
 # Create record types
 
 <!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -150,7 +152,7 @@ For more information about Workfront access requirements, see [Access requiremen
             This article describes how you create record types from scratch.    
 
         <!--
-        * <span class="preview">By importing them from another workspace or adding cross-workspace record types</span>
+        * <span class="preview">By adding them from another workspace</span>
             <span class="preview">For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>-->
 
 
@@ -160,16 +162,16 @@ For more information about Workfront access requirements, see [Access requiremen
 
 You can create record types automatically when you create a workspace using a Workfront Planning template. Each template contains sample record types. 
 
+For information about creating workspaces, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+For information about what record types are included with each template, see [List of workspace templates](/help/quicksilver/planning/architecture/workspace-templates.md). 
+
 When you create a workspace from a template, the record types are grouped in the following sections:
 
 * Operational record types
 * Taxonomies
 
-You can manually add record types in both the Operational Record Types and Taxonomies sections. 
-
-For information about creating workspaces, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
-
-For information about what record types are included with each template, see [List of workspace templates](/help/quicksilver/planning/architecture/workspace-templates.md). 
+You can manually add record types in both the Operational Record Types and Taxonomies sections. For information, see the section [Create a record from scratch](#create-a-record-type-from-scratch) in this article. 
 
 ## Create a record type from scratch
 
@@ -183,8 +185,7 @@ For information about what record types are included with each template, see [Li
 1. (Optional) Click **Add section** to add a new section to the workspace.
 1. Click **Add record type**, then **Add manually**. 
 
-    The Add record type box opens.
-    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
+    The Add record type box opens. <!--update screen shot for preview-->
 
     ![Add record type box with appearance options](assets/add-record-type-box-with-appearance-options.png)
 
@@ -196,15 +197,6 @@ For information about what record types are included with each template, see [Li
         * Select a color to identify your new record type. This is the color of the record type icon. Gray is selected by default.
         * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default. 
 
-
-    <!--old setting:
-    1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Connectivity scope** section: 
-        * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
-        * Choose from which workspaces the record type can be accessed. Choose from the following options:
-            * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
-            * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type. 
-    -->
-
 1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: <!--the info here is duplicated in the Edit record types article-->
     * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
     You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
@@ -213,17 +205,11 @@ For information about what record types are included with each template, see [Li
     
     ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png)
 
-    <!--replace last point with this when we release dynamic record types; the preview tags might need to be edited, too:
-        <div class="preview">
-        1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
-            * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
-                You can designate specific users who can add this record type to other workspaces. 
-            * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
-                You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
-            For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  </div>
-            ******** replace screen shot below **********
-            ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
-        -->
+    <!--replace last point with this when we release global record types; the preview tags might need to be edited, too:
+    1. <span class="preview">(Optional and conditional) If you are a system administrator, update the information in the **Cross-workspace settings** tab.</span>
+    <span class="preview">For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
+    ***********Add screenshot***********
+    -->
 
 1. Click **Save**.
 
@@ -234,9 +220,17 @@ For information about what record types are included with each template, see [Li
 
     If you selected to connect this record from other workspaces, the **connect from other spaces** icon ![Connect from other spaces icon](assets/connect-from-other-workspaces-icon.png) displays on the record card. 
 
-    <!--<span class="preview">If you configured the cross-workspace capabilities for the record, the **connect from other spaces** icon ![Connect record type from other spaces icon](assets/connect-from-other-workspaces-icon.png) and the **add to other workspaces** icon ![Add record type to other workspaces](assets/global-icon.png) also display on the card. </span>-->
+    <!--<span class="preview">If you configured the cross-workspace capabilities for the record, the **connectable record type** icon ![Connectable record type icon](assets/connect-from-other-workspaces-icon.png) and the **global record type** icon ![Global record type icon](assets/global-icon.png) also display on the card. </span>-->
 
 1. (Optional) Hover over the record type card, click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner, then click **Edit** to modify information about the record type. 
+
+    <!--replace the last point with this at the preview release of global record types:
+    <span class="preview">(Optional) Hover over the record type card, click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner, then click **Edit** or **Settings** to modify information about the record type. </span>
+    >[!TIP]
+    >
+    ><span class="preview">You can access the **Edit** and **Settings** options from the **More** menu of a record type in the record type page.</span>
+    -->
+
 1. (Optional) Click the record type card to open the record type page. 
 
     ![Operational record type blank](assets/operational-record-type-blank.png)
@@ -289,9 +283,9 @@ For more information, see [Create Record Types by importing information from a C
 
 <div class="preview">
 
-## Create record types by importing them from another workspace 
+## Create record types by adding existing ones from another workspace 
 
-You can add record types to a workspace by importing them from another workspace. You can only add record types that have been configured as centralized record types. 
+You can add record types to a workspace by adding existing ones from another workspace. You can only add record types that have been configured as global record types. 
 
 For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 

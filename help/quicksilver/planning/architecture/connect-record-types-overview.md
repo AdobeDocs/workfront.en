@@ -7,6 +7,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
 ---
+
+<!--keep the 30 limit verbiage in yellow til Jan 2026-->
+
 # Connected record types overview
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -30,6 +33,8 @@ There are two steps to connections in Workfront Planning:
 1. Connect an individual record of one type with records of another type after the two record types are connected. For information about connecting records, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
 
 Consider the following about connecting record types: 
+
+<!--* <span class="preview">You can have up to 30 connected fields for one record type in Workfront Planning.</span>-->
 
 * You can connect the following entities in Adobe Workfront Planning:
 

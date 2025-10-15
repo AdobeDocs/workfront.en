@@ -8,6 +8,8 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 ---
 
+<!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
+
 # Connect record types
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -22,16 +24,20 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 You can connect record types to one another or you can connect record types with object types from other applications. 
 
-Connecting record types is helpful when you have several types of work objects affecting one another. For example, you might work with campaigns and each campaign might cater to multiple brands. To indicate this relationship, you can connect campaigns to brands. Additionally, the work for each campaign might be planned out in multiple projects in Workfront. To indicate this, you can connect the campaigns to the relevant projects. Connecting record types, and subsequently connecting individual records achieves this relationship in Workfront Planning. 
+Connecting record types is helpful when you have several types of work objects affecting one another. For example, you might work with campaigns and each campaign might cater to multiple brands. To indicate this relationship, you can connect campaigns to brands. This creates a connection field for Brands on the Campaign record. 
+
+Additionally, the work for each campaign might be planned out in multiple projects in Workfront. To indicate this, you can connect the campaigns to the relevant projects. This creates a connection field for Projects on the Campaign record. 
+
+After the connection fields are created, you can connect individual records between the two record or object types. 
+
+<!--
+>[!NOTE]
+>
+><span class="preview">You can have up to 30 connection fields for one record type.</span>-->
 
 This article describes how you can connect two Workfront Planning record types, or a Workfront Planning record type with an object from another application. 
 
 After you establish the connection between records or object types, a connection field is added to a Planning record type. In the connection field, you can connect individual records to one another, and display fields from the linked record or object types on a Workfront Planning record. 
-
-<!--
->[!CAUTION]
->
-><span class="preview">One record type can have up to 30 connection fields.</span>-->
 
 For general information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -40,6 +46,7 @@ For information about connecting records or records with objects from other appl
 For an example of connecting record types and records, see [Example of connecting record types and records](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md). 
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
+
 
 ## Access requirements
 
@@ -188,7 +195,14 @@ Or
         >If you don't have other record types in the selected workspace, the workspace section does not display. 
         
     * A record type from another workspace that was configured to connect from other workspaces. 
-    
+
+        <!--replace the tip below with this at the preview release for global RTs and replace screen shot in the tip:
+        >[!TIP]
+        >
+        >The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the <span class="preview">**Cross-workspace settings**</span> tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display. 
+        >
+        >For information, see [Configure cross-workspace capabilities for record type](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).-->
+
         >[!TIP]
         >
         >The **Allow connecting to this record type in other workspaces** setting must be enabled for a record type in the **Advanced settings** tab of the **Edit record type** box, for a record type to be accessible from other workspaces. If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
@@ -389,13 +403,13 @@ Or
 
         For example, if you linked a Campaign record type with a Program record type and name the Program linked record field "Program information," then selected to also display the Program's Budget field in the Campaign's table view, the linked field is automatically named `Budget (from Program information)` in the campaign's table view. 
 
-    * When you link record types to one another, a linked record field is also added on the record type you are linking to, <!--<span class="preview">only when you enable the Create corresponding field on linked record type setting.</span>--> The name of the linked record field on the linked record type is the name of the record type that you link from. 
+    * When you link record types to one another, a linked record field is also added on the record type you are linking to, <span class="preview">only when you enable the Create corresponding field on linked record type setting.</span> The name of the linked record field on the linked record type is the name of the record type that you link from. 
     
         For example, if you link the "Product" record type from the "Campaign" record type and you named the connected field of the Campaign "Linked Product", a "Campaign" linked record field is created for the Product record type. 
 
         >[!TIP]
         >
-        > A linked record field  is not created for objects from another application to the record type you are linking from in Workfront Planning. <!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a limit of 500 fields for every record type.</span>--> 
+        > A linked record field is not created for objects from another application in their respective applications. <span class="preview">We recommend not creating links on taxonomical record types, as there is a limit of 500 fields <!--<span class="preview">and a limit of 30 connected fields</span>--> for every record type.</span>
 
     <!--see the span preview text in the TIP above; it might not show up in green-->
 

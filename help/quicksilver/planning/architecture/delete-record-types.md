@@ -8,6 +8,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 ---
 
+<!--keep the global record type reference in yellow till January 2026-->
+
 # Delete record types
 
 <!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -136,6 +138,21 @@ Or
 * You cannot recover deleted record types or their information. 
 * We recommend recreating the fields and the records associated with the record type that you want to delete on another record type before deleting them.
 
+<!--
+
+<div class="preview">
+
+* You cannot delete a global record type that has been added to other workspaces. 
+   
+   You must first delete it from the secondary workspaces where it's been added, before you can delete it from its original workspace. 
+
+   Deleting a global record type from their secondary workspaces only remove them, their records, and that workspace's fields from the secondary workspace. It does not delete the global record type from its original workspace.
+
+   For information, see the section "Delete a global record type from a secondary workspace" in the article [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). 
+
+</div>
+-->
+
 ## Delete record types
 
 {{step1-to-planning}}
@@ -154,6 +171,13 @@ Or
 
    ![Permanently delete record type confirmation](assets/permanently-delete-record-type-confirmation.png)
 
+   <!--[!TIP]
+   >
+   ><span class="preview">You cannot delete global record types added to other workspaces. First, delete the global record types form their secondary workspaces before deleting them from the original workspace.</span>-->
+
+
 1. Type **delete** in the confirmation box, then click **Permanently delete**. This is not case sensitive. 
    
    The selected record type, along with their fields, associated records, and views are deleted and cannot be recovered. 
+
+   
