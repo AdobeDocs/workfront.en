@@ -1,13 +1,15 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: Use "opTask" and "issue" when referencing issues
+title: Use "opTask" and "issue" when Referencing Issues
 description: The name of an issue appears as opTask in the Adobe Workfront database. Although there are times when you need to use the issue field name to refer to issues, most of the time you must use the opTask field name instead of issue when referencing issues.
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
 ---
 # Use "opTask" and "issue" when referencing issues
+
+<!--Audited: 08/2025-->
 
 The name of an issue appears as `opTask` in the Adobe Workfront database. Although there are times when you need to use the `issue` field name to refer to issues, most of the time you must use the `opTask` field name instead of `issue` when referencing issues.
 

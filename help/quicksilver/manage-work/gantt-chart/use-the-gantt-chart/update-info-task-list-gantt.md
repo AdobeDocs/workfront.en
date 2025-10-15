@@ -1,17 +1,19 @@
 ---
 product-area: projects
 navigation-topic: use-the-gantt-chart
-title: Update information in the task list Gantt Chart
-description: The task list Gantt Chart shows details about tasks that are on a project or template.
+title: Update Information in the Task List Gantt Chart
+description: The Gantt Chart of an Adobe Workfront task list shows details about tasks that are on a project or a template.
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
 ---
 # Update information in the task list [!UICONTROL Gantt Chart]
 
-The task list [!UICONTROL Gantt Chart] shows details about tasks that are on a project or template.
+<!--Audited: 08/2025-->
 
-In a template, the task list [!UICONTROL Gantt Chart] reflects updates made in the template's task list at the task level. You cannot edit the [!UICONTROL Gantt chart] associated with a template.
+The [!UICONTROL Gantt Chart] of an Adobe Workfront task list shows details about tasks that are on a project or a template.
+
+In a template, the task list [!UICONTROL Gantt Chart] reflects updates made in the template's task list at the template task level. You cannot edit the [!UICONTROL Gantt chart] associated with a template.
 
 In a project, you can update task information directly in the task list [!UICONTROL Gantt Chart].
 
@@ -25,7 +27,37 @@ This article describes the following actions that you can perform directly in th
 
 ## Access requirements
 
-You must have the following to follow the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] access to the project and tasks</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,9 +80,7 @@ You must have the following to follow the steps in this article:
    <td> <p>[!UICONTROL Manage] access to the project and tasks </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+</table>-->
 
 ## Modify Task Duration
 

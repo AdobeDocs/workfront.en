@@ -27,16 +27,13 @@ You must have permissions to View an object before you can find it in a search. 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: Contributor or higher<p>
-   <p>Or</p>
-   <p>Current: Request or higher </p>
-   
-   
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Contributor or higher<p>
+   <p>Request or higher </p>
    </td> 
   </tr> 
   <tr> 

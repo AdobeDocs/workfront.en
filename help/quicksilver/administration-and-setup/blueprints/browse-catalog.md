@@ -14,31 +14,27 @@ Blueprints provide basic building blocks to help you create a work management sy
 
 Only the system administrator can install blueprints. For information, see [Install a blueprint](../../administration-and-setup/blueprints/blueprints-install.md).
 
-## Access requirements
+## Access requirements 
 
 +++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront Package</td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td>
-   <p>New: Contributor or higher</p>
-   <p>or</p>
-   <p>Current: Request or higher</p></td> 
-  </tr>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Contributor or higher</p><p>Requestor or higher</p>
+  </td> 
+  </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

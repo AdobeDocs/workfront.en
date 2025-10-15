@@ -21,37 +21,26 @@ You can reset your [!DNL Adobe Workfront] password. As an important security mea
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
-
-You must have the following:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
+   <td>Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
+   <td>Adobe Workfront license</td> 
    <td> 
-      <p>New:</p>
-         <ul>
-         <li><p>Contributor or higher</p></li>
-         </ul>
-      <p>Current:</p>
-         <ul>
-         <li><p>Request or higher</p></li>
-         </ul>
-   </td>
+   <p>Contributor or higher</p>
+   <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -48,7 +48,7 @@ This update includes:
 *   The default custom forms defined in the Tasks Settings area of the destination project added to the new task.
     
 
-For more information, see [Convert an issue to a task in Adobe Workfront](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
+For more information, see [Convert an issue to a task](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
 
 ## New experience when converting an issue to a project without a template
 

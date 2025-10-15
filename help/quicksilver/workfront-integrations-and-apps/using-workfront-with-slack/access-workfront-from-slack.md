@@ -13,6 +13,29 @@ Integrating [!DNL Adobe Workfront] with [!DNL Slack] allows you to access [!DNL 
 
 You or your [!DNL Slack] administrator must install the [!DNL Workfront] app in your [!DNL Slack] instance before you can use [!DNL Workfront] from [!DNL Slack]. For more information, see [Configure Adobe Workfront for Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Any</p>
+  </tr> 
+ </tbody> 
+</table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
 ## About slash commands {#about-slash-commands}
 
 When using [!DNL Slack], you type messages inside of a message field. When you start your message with a slash, it becomes a command and it behaves differently than a simple message. The command tells [!DNL Slack] to perform an action.

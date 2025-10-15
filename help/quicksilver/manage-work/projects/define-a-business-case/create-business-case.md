@@ -2,7 +2,7 @@
 navigation-topic: business-case-and-scorecards
 title: Create a Business Case for a project
 description: You can use the Business Case to request a project and define the purpose, the budget, and the potential benefit for the project. The Portfolio Manager or Project Sponsor uses the information from the Business Case to analyze and prioritize the project before they approve it.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
 ---
@@ -21,17 +21,16 @@ You can use the Business Case to request a project and define the purpose, the b
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan</p></td> 
    <td> 
-   <p>Current: Prime or higher</p> 
-   <p>Legacy: Pro or higher</p> 
+   <p>Prime or higher</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td> 
-   <p>Current: Standard </p> 
-   <p>Legacy: Plan </p> </td> 
+   <p>Standard </p> 
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configurations</p></td> 
@@ -44,7 +43,7 @@ You can use the Business Case to request a project and define the purpose, the b
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
  +++
 

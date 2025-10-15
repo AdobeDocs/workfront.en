@@ -13,7 +13,7 @@ exl-id: b43b8583-41cb-4a96-8e61-77208eaa219a
 ---
 # System-tracked updates feeds: article index
 
-<!--Audited: April, 2024-->
+<!--Audited: 04/2024-->
 
 Adobe Workfront automatically logs the activity taking place on certain objects in their [!UICONTROL Updates] section as a system update. A system update includes a brief note describing what kind of change happened to the object. [!DNL Workfront] administrators can define what type of changes the system should track in the [!UICONTROL Updates] section.
 

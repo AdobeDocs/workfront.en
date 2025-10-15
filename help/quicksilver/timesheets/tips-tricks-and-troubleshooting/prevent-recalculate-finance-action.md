@@ -4,7 +4,7 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: Prevent the Recalculate Finances action from affecting historic hours when rates change
 description: You need to update the hourly cost for a user or job role (due to a raise or another circumstance), but you do not want this change to affect hours that have previously been logged on projects or you want it to affect only a portion of historical hours.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 29d3124b-cf7a-4a47-95c4-cd5379489810
 ---

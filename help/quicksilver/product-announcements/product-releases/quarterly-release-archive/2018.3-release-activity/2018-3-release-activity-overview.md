@@ -132,7 +132,7 @@ For more information, see&nbsp; [TLS 1.2 to be required in Adobe Workfront](../.
 
 ### JSONP Support is Ending {#jsonp-support-is-ending}
 
-Because JSONP (Javascript with Padding) is an old standard with known security vulnerabilities, Workfront will no longer support JSONP as of November 2018. For more information, see [Ending support for JSONP](../../../../wf-api/api/ending-support-jsonp.md).
+Because JSONP (Javascript with Padding) is an old standard with known security vulnerabilities, Workfront will no longer support JSONP as of November 2018. 
 
 ### Flash Application Removal {#flash-application-removal}
 
