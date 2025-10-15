@@ -51,7 +51,7 @@ Below are the 11 widgets currently available to choose from, as well as a summar
 * **My requests**\
     Displays all requests you have submitted, a filter to only display open requests, and a button that opens the summary panel for a request.
 
-    <span class="preview">In the Preview environment, this widget displays all requests you have submitted, a filter to display only requests that meet criteria you specify, and a button that allows you to rearrange the columns in the widget.</span>
+    <span class="preview">In the Preview environment, this widget displays all requests you have submitted, a filter to display only requests that meet criteria you specify, and a button that allows you to rearrange the columns in the widget. If you have access to Workfront Planning, your Planning requests also appear here.</span>
 
 
 * **Team requests**\

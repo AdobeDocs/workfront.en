@@ -204,8 +204,7 @@ To learn more about the **Run this Report with the Access Rights of:** field, se
 
 When you delete a user, you can still access any reports that they created, however, any dashboards that included the report are deleted as well. This means that you can no longer access the following:
 
-* A dashboard that contains the report
-* A custom section that contains a dashboard of the report
+* A dashboard that contains the report, including dashboards in the left panel of an object
 
 To learn more about the implications of deleting a user, see [Delete users](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
