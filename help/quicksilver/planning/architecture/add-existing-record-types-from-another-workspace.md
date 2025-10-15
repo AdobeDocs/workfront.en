@@ -49,8 +49,8 @@ Before adding records to a workspace from a global record type, also see the art
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <ul><li><p>Any Workfront package and a Planning Plus package</p></li>
-Or
-<li><p>Workflow and Planning Prime and Ultimate packages</li></ul>
+<p>Or</p>
+<li><p>Workflow and Planning Prime and Ultimate packages</p></p></li></ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 

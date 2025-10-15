@@ -10,6 +10,8 @@ exl-id: 99fac041-a235-4991-b826-d19944164bc9
 
 # Adobe Workfront Planning access overview
 
+<!--leave the global record type reference in yellow till Jan 2026-->
+
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -36,7 +38,7 @@ This article describes the access and settings that you need in place to use the
 
 <!--*********ensure that the link ^^^^^^^^below^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************-->
 
-You must have the following access to access Workfront Planning: 
+You must have the following access to use Workfront Planning: 
 
 <table style="table-layout:auto">
  <col>
@@ -49,9 +51,13 @@ You must have the following access to access Workfront Planning:
    <td role="rowheader"><p>Adobe Workfront package</p></td>
    <td>
    <p>Any Workfront and Planning package</p>
-   Or
+   <p>Or</p>
    <p>Any Workflow and Planning package</p>
- </td>
+   <!--<p><b>NOTE</b></p>
+<p><span class="preview">For access to global record types:</span></p>
+<ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
+<p>Or</p>
+<li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>--> </td>
 <tr>
    <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>

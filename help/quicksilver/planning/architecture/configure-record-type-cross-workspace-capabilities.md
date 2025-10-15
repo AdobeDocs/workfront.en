@@ -68,15 +68,15 @@ For information, see one of the following articles:
 <p>To configure connectable record types: </p>
 <ul> 
 <li><p>Any Workfront package and any Planning package</p></li>
-Or
-<li><p>Workflow and Planning Prime and Ultimate packages</li></ul>
+<p>Or</p>
+<li><p>Workflow and Planning Prime and Ultimate packages</p></li></ul>
 
 <p>To configure global record types:</p>
 
 <ul> 
 <li><p>Any Workfront package and a Planning Plus package</p></li>
-Or
-<li><p>Workflow and Planning Prime and Ultimate packages</li></ul>
+<p>Or</p>
+<li><p>Workflow and Planning Prime and Ultimate packages</p></li></ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 

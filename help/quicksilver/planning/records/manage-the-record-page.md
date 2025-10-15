@@ -51,7 +51,7 @@ For information, see the following articles:
 <ul> 
 <li><p>Any Workfront and any Planning package</p></li>
 Or
-<li><p>Any Workflow and any Planning packages</li></ul>
+<li><p>Any Workflow and any Planning package</p></li></ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 
