@@ -28,21 +28,18 @@ Users can also share documents they've uploaded or have access to, giving others
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following to share objects:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Standard</p> 
-   Or
-   <p>Current: Work or higher</p>
+   <td> <p>Standard</p> 
+   <p>Work or higher</p>
    </td> 
   </tr> 
   <tr> 
@@ -56,7 +53,7 @@ You must have the following to share objects:
  </tbody> 
 </table>
 
-For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

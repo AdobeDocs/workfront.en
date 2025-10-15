@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Create issues
+title: Create Issues
 description: While working on a project, you might discover that unexpected events arise. You can log those unexpected events as issues for a particular project or of a task. Users with the appropriate access can view and monitor the status of issues as the project or the task progresses to completion, eliminating the need for lengthy email chains or status meetings. Unlike tasks, which are planned events, issues represent unplanned work items in Adobe Workfront.
 author: Alina
 feature: Work Management
@@ -11,7 +11,7 @@ exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
 ---
 # Create issues
 
-<!--Audited: 03/2025-->
+<!--Audited: 08/2025-->
 
 <!--
 
@@ -35,7 +35,38 @@ You can also add issues to projects as requests. For information, see [Create an
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <ul><li>Contributor or higher</li>
+   <li>Light or higher to edit issues in the Issues section of a task or project</li></ul>
+   Or
+   <ul><li>Request or higher</li> <li>Review or higher to edit issues in the Issues section of a task or a project</li></ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute or higher permissions with ability to Add Issues to the task or project where you create the issue</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -64,9 +95,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 <!--
 (NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>

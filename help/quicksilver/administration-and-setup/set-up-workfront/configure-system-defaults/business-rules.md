@@ -29,15 +29,16 @@ Business rules apply to creating, editing, and deleting objects through the API 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td>Adobe Workfront plan</td> 
-   <td>Ultimate</td> 
+  <tr>
+   <td>Adobe Workfront package
+   </td>
+   <td> <p>Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
   </tr> 
   <tr> 
    <td>Adobe Workfront license</td> 
@@ -50,7 +51,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

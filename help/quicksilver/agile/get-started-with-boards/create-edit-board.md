@@ -17,23 +17,21 @@ From the [!UICONTROL boards] dashboard, you can create a new board or edit an ex
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
-    <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: Contributor or higher </p>
- <p>or</p> 
-<p>Current: [!UICONTROL Request] or higher </p> 
-</td> 
-  </tr>
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <p>Contributor or higher</p> 
+   <p>Request or higher</p>
+   </td> 
+  </tr> 
  </tbody> 
 </table>
 

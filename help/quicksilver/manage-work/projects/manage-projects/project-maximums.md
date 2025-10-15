@@ -1,5 +1,5 @@
 ---
-title: Project limits overview
+title: Project Limits Overview
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects

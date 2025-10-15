@@ -3,7 +3,7 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Export a list of timesheets
 description: As a people manager or timesheet approver, you might need to download a list of timesheets to quickly view information about the timesheets of the people you are responsible for. You can do this by exporting a list of timesheets.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
 ---
@@ -17,33 +17,31 @@ As a people manager or timesheet approver, you might need to download a list of 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Light or higher </p>
-   <p>Current: Review or higher </p>
+   <td>Adobe Workfront license</td> 
+   <td> <p>Light or higher </p>
+   <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>View or higher access to tasks and issues </p> </td> 
+   <td>Access level configuration</td> 
+   <td> <p>View or higher access to Tasks and Issues</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the timesheet</p> </td> 
+   <td>Object permissions</td> 
+   <td> <p>View or higher permissions on tasks and issues</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

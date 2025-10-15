@@ -2,14 +2,14 @@
 content-type: reference
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Adobe Workfront Scenario Planner
+title: "Adobe Workfront Scenario Planner: Article Index"
 description: A list of articles that describe functionality about the Workfront Scenario Planner.
 author: Alina
 feature: Workfront Scenario Planner
 recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
 ---
-# [!DNL Adobe Workfront Scenario Planner]
+# [!DNL Adobe Workfront Scenario Planner]: article index
 
 This section contains the following articles:
 

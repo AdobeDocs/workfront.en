@@ -25,8 +25,6 @@ When you reorder columns on the [!DNL Kanban] board, any changes you make are sa
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,14 +32,13 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: [!UICONTROL Standard]</p> 
-   or
-   <p>Current: [!UICONTROL Work] or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p> 
+   <p>Work or higher</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -51,8 +48,6 @@ For more detail about the information in this table, see [Access requirements in
 +++
 
 ## Reorder stories on the [!UICONTROL Kanban] board
-
-To change the order or stories:
 
 {{step1-to-team}}
 

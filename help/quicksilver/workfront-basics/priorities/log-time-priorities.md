@@ -24,13 +24,13 @@ You must have the following access to perform the steps in this article and log 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Light or higher to log hours on a task or issue</p>
-   <p>Current: Work or higher to log hours on a task or issue</p> </td> 
+   <td> <p>Light or higher to log hours on a task or issue</p>
+   <p>Work or higher to log hours on a task or issue</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

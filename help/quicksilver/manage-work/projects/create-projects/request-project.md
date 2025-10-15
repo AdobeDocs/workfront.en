@@ -35,6 +35,41 @@ You can request a project when you add a new project in the following areas of A
  <col> 
  <tbody> 
   <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license</p> </td> 
+   <td> <p>Standard</p>
+   <p>Plan</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>Edit access to Projects</p>
+   <p>If you request a project from a portfolio or a program, you must have Edit access to Portfolios and Programs</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>When you create a project request you automatically receive Manage permissions to the project </p> 
+   <p>If you request a project from a portfolio or a program, you must have Manage permissions to the portfolio and the program.</p>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -54,11 +89,7 @@ You can request a project when you add a new project in the following areas of A
    <td> <p>When you create a project request you automatically receive Manage permissions to the project </p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Request a project
 

@@ -26,23 +26,21 @@ The following sections describe how the Projected Completion Date is determined 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <p>New: 
    <ul><li><p>Contributor or higher to view the Projected Completion Date in a report</p></li> <li><p>A Standard license to create a report</p></li> </ul>
-   
-   <p>Current: 
+   Or
    <ul><li><p>Review or higher to view the Projected Completion Date in a report</p></li> 
    <li><p>A Plan license to create a report</p> </li></ul>
       </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level</td> 
-   <td> <p>View or higher access to Projects</p> <p>You must have Edit access to Reports, Dashboards, Calendars to create a report</p> <p>You must have Edit access to Filters, Views, Groupings to create a report or modify a list view</p>  </td> 
+   <td> <p>View or higher access to Projects</p> <p>Edit access to Reports, Dashboards, Calendars to create a report</p> <p>Edit access to Filters, Views, Groupings to create a report or modify a list view</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -51,7 +49,7 @@ The following sections describe how the Projected Completion Date is determined 
  </tbody> 
 </table>
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

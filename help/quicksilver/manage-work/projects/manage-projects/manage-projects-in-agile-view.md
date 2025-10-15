@@ -1,9 +1,9 @@
 ---
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
-title: Manage a project in the Agile View
+title: Manage a Project in the Agile View
 description: You can leverage agile functionality for your project without the administrative challenges that typically accompany agile practices (such as managing a team backlog or creating iterations).
-author: Alina and Lisa
+author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
 ---
@@ -20,6 +20,42 @@ If you want to work in an agile environment that uses a team backlog and allows 
 +++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Light or higher</p>
+   <p>Review or higher</p> 
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to the following areas:</p> 
+    <ul> 
+     <li> <p>Projects</p> </li> 
+     <li> <p>Reports, Dashboards, Calendars</p> </li> 
+     <li> <p>Filters, Views, Groupings</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the project</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,11 +84,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>View permissions to the project</p>  </td> 
   </tr> 
  </tbody> 
-</table>
-
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 
 ## View a project in the Agile view

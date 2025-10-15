@@ -28,6 +28,42 @@ You can import projects from Microsoft Project into Adobe Workfront and manage a
  <col> 
  <tbody> 
   <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p> 
+    <p>Plan</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>Edit access to Projects</p> 
+   <p>If you add a project to a portfolio or a program, you must have Edit access to Portfolios and Programs.</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>When you create a project you automatically receive Manage permissions to the project</p>
+   <p>If you add a project to a portfolio or a program, you must have Manage permissions to the portfolio and the program.</p>
+   </td> 
+    </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--old permissions model: 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -45,39 +81,6 @@ You can import projects from Microsoft Project into Adobe Workfront and manage a
   <tr> 
    <td role="rowheader">Object permissions</td> 
    <td> <p>When you create a project you automatically receive Manage permissions to the project </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
-
-<!--old permissions model: 
-
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>When you create a project you automatically receive Manage permissions to the project </p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
