@@ -1,21 +1,16 @@
 ---
 title: Add Existing Record Types from Another Workspace
 description: Record types are the object types of Adobe Workfront Planning. In Workfront Planning, you can add an existing record type created in another workspace.
-hidefromtoc: yes
-hide: yes
-exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
----
-<!-- add these to the metadata, when making this public: 
-
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
+---
 
 # Add existing record types from another workspace
 
-{{planning-important-intro}}
+{{planning-important-intro}} 
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -50,7 +45,7 @@ Before adding records to a workspace from a global record type, also see the art
    <td> 
 <ul><li><p>Any Workfront package and a Planning Plus package</p></li>
 <p>Or</p>
-<li><p>Workflow and Planning Prime and Ultimate packages</p></p></li></ul>
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></p></li></ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 
@@ -114,6 +109,8 @@ And
 >[!NOTE]
 >
 >Ensure there is at least one record type designated to be global in at least one other workspace.
+>
+>For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). 
 
 1. Start creating a record type, as described in the article [Create record types](/help/quicksilver/planning/architecture/create-record-types.md), then click **Add existing**. <!--check this - the option might have been renamed in the UI-->
 
