@@ -10,9 +10,12 @@ exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 
 # Create records
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -22,14 +25,8 @@ You can create records by doing one of the following:
 
 * [Use the New record or Request record button from any record type view](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
 * [Add them inline from the record type table view](#create-records-by-adding-them-inline-from-the-record-type-table-view)
-
-<div class="preview">
-
 * [Add them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)
 * [Add them in the record type calendar view](#create-records-by-adding-them-in-the-record-type-calendar-view)
-
-</div>
-
 * [Copy and paste a list of records from an external list](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicate records from a table view](#create-records-by-duplicating-them)
 * [Connect them from other records](#create-records-as-you-connect-them)
@@ -44,9 +41,48 @@ For information about managing records in the table or timeline views, see the f
 
 ## Access requirements
 
-+++ Expand to view access requirements.  
++++ Expand to view the access requirements for the functionality in this article. 
 
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul> 
+<li><p>Any Workfront and any Planning package</p></li>
+Or
+<li><p>Any Workflow and any Planning package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records. </p>
+   <p>View or higher permissions to the workspace and record type to create records using the Request record button on the record page</p>
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
+   </td> 
+  </tr>  
+</tbody> 
+</table> 
+
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -105,11 +141,7 @@ For information about managing records in the table or timeline views, see the f
   </tr> 
 
 </tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).   
-
-+++
+</table> -->
 
 ## Create records using the New record or Request record button from any record type view
 
@@ -269,8 +301,6 @@ For information about editing record information, see [Edit records](/help/quick
     * CTRL + Shift + Z (⌘ + Shift + Z for Mac) to redo a change
 
 
-<div class="preview">
-
 ## Create records by adding them in the record type timeline view
 
 You can create records in the timeline view of a record type page, by double-clicking in the timeline. 
@@ -335,9 +365,7 @@ For information about creating a timeline view, see [Manage the timeline view](/
     >
     >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
 
-</div>
 
-<div class="preview">
 
 ## Create records by adding them in the record type calendar view
 
@@ -402,9 +430,6 @@ For information about creating a calendar view, see [Manage the calendar view](/
     >The thumbnail displays in the calendar view only when it is enabled in the Settings of the view. 
 
     <!--(*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)-->
-
-    </div> 
-
 
 ## Create records by copying and pasting them from an external list
 

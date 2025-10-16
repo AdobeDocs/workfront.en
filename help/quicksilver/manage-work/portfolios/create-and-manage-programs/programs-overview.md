@@ -10,11 +10,12 @@ exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
 ---
 # Programs overview
 
-<!-- Audited: 09/2024 -->
+<!-- Audited: 08/2025 -->
 
 In Adobe Workfront, a program is a collection of projects that have unifying characteristics. For example, they might compete for the same budget, resources, or timeframe. Programs are a sub-group of portfolios. 
 
 This article contains general information about programs in Workfront.
+
 
 ## Access needed to create programs
 
@@ -22,6 +23,38 @@ This article contains general information about programs in Workfront.
 
 You must have the following access to create and manage portfolios:
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Any</p>
+   <p>[!UICONTROL Business] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to [!UICONTROL Portfolios] and [!UICONTROL Programs]</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to edit a program or add projects to it</p>
+   <p>Manage permissions to the portfolio that the program belongs to </p>
+   <p>View permissions to a program to view it</p>
+   <p>After you create a program, you have Manage permissions to it, by default</p> 
+    </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -49,9 +82,7 @@ You must have the following access to create and manage portfolios:
     </td> 
   </tr> 
  </tbody> 
-</table>
-
-For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+</table>-->
 
 
 ## Considerations about working with programs

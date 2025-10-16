@@ -2,13 +2,13 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: work-with-groups-and-teams
-title: Groups vs. Teams in Adobe Workfront
-description: Groups and teams are collections of users in Adobe Workfront.
+title: Groups vs. Teams in Workfront
+description: Groups and teams are collections of users in Adobe Workfront. Learn about the differences and similarities between groups and teams.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
 ---
-# Groups vs. teams in [!DNL Adobe Workfront]
+# Groups vs. teams in Workfront
 
 <!-- Audited: 12/2023 -->
 
@@ -26,11 +26,11 @@ For example, you might have a Finance group that contains users in the Finance D
 
 For more information about creating and managing groups, see [Create a group](../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) and [Manage a group](../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
-## Use Teams to represent the working structure within a department
+## Use teams to represent the working structure within a department
 
-We recommend that you configure Teams to match the day-to-day working structure of your departmental teams.
+We recommend that you configure teams to match the day-to-day working structure of your departmental teams.
 
-For example, you might have a Payroll Team, an Accounts Payable, and an Accounts Receivable team. Typically, people in each of these teams work on projects, tasks, or issues that are similar for those teams.
+For example, you might have a Payroll team, an Accounts Payable team, and an Accounts Receivable team. Typically, people in each of these teams work on projects, tasks, or issues that are similar for those teams.
 
 For more information about creating and managing teams, see [Create and manage teams](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
 

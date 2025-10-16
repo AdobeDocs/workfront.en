@@ -25,41 +25,33 @@ Permissions are specific to one item in Workfront and define what actions one ca
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following to share objects:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-      <td> 
-      <p>New:</p>
-         <ul>
-         <li><p>Light or higher</p></li>
-         </ul>
-      <p>Current:</p>
-         <ul>
-         <li><p>Review or higher</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+      <p>Light</p>
+      <p>Review</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to&nbsp;Reports,&nbsp;Dashboards, Calendars</p></td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View access or higher to Reports, Dashboards, Calendars</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher the report</p></td> 
+   <td> <p>View permissions or higher to the report</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

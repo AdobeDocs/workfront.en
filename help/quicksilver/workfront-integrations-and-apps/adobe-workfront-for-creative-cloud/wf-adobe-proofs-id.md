@@ -15,22 +15,21 @@ You can upload your art boards as proofs directly to [!DNL Adobe Workfront] for 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Current plan: [!UICONTROL Pro] or Higher</p> <p>or</p> <p>Legacy plan: [!UICONTROL Premium]</p> <p>For more information about proofing access with the different plans, see .</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td>Any </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>Current plan: [!UICONTROL Work] or [!UICONTROL Proof]</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>Standard</p> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Additional products</td> 
    <td>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</td> 
   </tr> 
   <tr> 
@@ -44,7 +43,8 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or Proof Permission Profile you have, contact your [!DNL Workfront] or [!DNL Workfront Proof] administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
 
 +++
 

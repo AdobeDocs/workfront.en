@@ -35,43 +35,35 @@ The Milestone view is available when viewing a project list or a project report.
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
+   <td role="rowheader">Adobe Workfront license</strong></td> 
    <td> 
-      <p>New:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Current:</p>
-         <ul>
-         <li><p>Work or higher</p></li>
-         </ul>
+    <p>Standard</p>
+    <p>Work or higher</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View or higher access to&nbsp;Reports,&nbsp;Dashboards, Calendars</p></td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View or higher access to&nbsp;Reports,&nbsp;Dashboards, Calendars</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>View permissions to a project report to apply the Milestone view to a report</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+    <td> <p>View permissions to a project report to apply the Milestone view to a report</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

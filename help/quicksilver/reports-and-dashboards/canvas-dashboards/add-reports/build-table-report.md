@@ -25,7 +25,7 @@ You can add a table report to a Canvas Dashboard in order to visualize your data
 
 ## Access Requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view access requirements for the functionality in this article.
 
  <table style="table-layout:auto"> 
 <col> 
@@ -34,7 +34,7 @@ You can add a table report to a Canvas Dashboard in order to visualize your data
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <p>Any </p> 
    </td> 
@@ -42,8 +42,8 @@ You can add a table report to a Canvas Dashboard in order to visualize your data
  <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td> 
-<p>Current: Plan </p> 
-<p>New: Standard</p> 
+<p>Standard </p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 

@@ -8,13 +8,43 @@ exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
 ---
 # Export the [!UICONTROL Gantt Chart] to PDF
 
-<!--Audited: 5/2025-->
+<!--Audited: 08/2025-->
 
 You can export the [!UICONTROL Gantt chart] to a PDF. Afterward, you can print or attach it to an email to share it with other users. 
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] license</td> 
+   <td> <p>[!UICONTROL Light] or higher</p>
+   <p>[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project and tasks</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,9 +70,7 @@ You can export the [!UICONTROL Gantt chart] to a PDF. Afterward, you can print o
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+-->
 
 ## Export the [!UICONTROL Gantt chart]
 

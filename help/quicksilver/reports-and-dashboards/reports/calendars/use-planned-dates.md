@@ -23,8 +23,6 @@ A calendar report is a dynamic report that provides a visual representation of y
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,22 +30,21 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td><p>New: Standard</p>
-       <p>or</p>
-       <p>Current: Plan</p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>[!UICONTROL Edit] access to [!UICONTROL Reports], [!UICONTROL Dashboards], and [!UICONTROL Calendars]</p></td> 
+   <td> <p>Edit access to Reports, Dashboards, and Calendars</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td>[!UICONTROL Manage] access to the calendar report</td> 
+   <td>Manage access to the calendar report</td> 
   </tr> 
  </tbody> 
 </table>

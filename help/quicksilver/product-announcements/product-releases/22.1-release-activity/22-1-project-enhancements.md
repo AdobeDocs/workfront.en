@@ -97,7 +97,7 @@ You can now more easily access your list of favorites immediately after selectin
 
 The redesigned interface matches the experience when creating a project from a template which we have also updated recently.
 
-For more information, see [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+For more information, see [Convert an issue to a project](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Convert issues to projects using a template from lists, reports, and dashboards
 

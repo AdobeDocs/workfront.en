@@ -30,22 +30,19 @@ If the problem persists, contact the administrator of this site and provide the 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe [!DNL Workfront] package</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe [!DNL Workfront] license</td> 
-   <td> 
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan</p></td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -54,7 +51,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

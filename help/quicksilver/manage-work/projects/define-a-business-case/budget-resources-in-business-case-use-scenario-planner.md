@@ -2,7 +2,7 @@
 navigation-topic: business-case-and-scorecards
 title: Budget resources in the Business Case using the Scenario Planner
 description: As part of resource planning, you can use the Adobe Workfront Scenario Planner to budget the job roles necessary for completing the work in a project when you build the business case.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
 ---
@@ -38,14 +38,13 @@ You can also budget resources in the business case using the Resource Planner. F
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
-   <td><p>Current: Ultimate</p> 
-   <p>Legacy: Business or higher</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td><p>Prime or higher</p> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td><p>Current: Light or higher 
-   <p>Legacy: Review or higher</p> </td> 
+   <td><p>Light or higher 
+   <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Product</p></td> 

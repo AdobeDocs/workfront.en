@@ -21,22 +21,19 @@ You can replace the [!DNL Work On It] button with a [!UICONTROL Start] button fo
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront package</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td>
-   <p>New: Standard</p>
-   <p>or</p>
-   <p>Current: Plan</p></td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
  </tbody> 
 </table>
