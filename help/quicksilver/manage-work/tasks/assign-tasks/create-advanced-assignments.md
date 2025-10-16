@@ -2,15 +2,13 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Create Advanced Assignments
-description: You can manage task or issue assignments by using Advanced Assignments.
+description: You can manage task or issue assignments using Advanced Assignments.
 author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 ---
 # Create advanced assignments
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 07/2024-->
 
@@ -79,11 +77,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    >[!TIP]
    >
-   >You can make advanced assignments directly on the task or issue list. Click inside the **Assignments** field on the same line as the task or issue, then click <span class="preview">**Advanced**</span> or the **People icon** to open the Advanced Assignments window. Skip to step 5 to continue creating advanced assignments.
-   ><span class="preview">Sample image in the Preview environment:</span>
+   >You can make advanced assignments directly on the task or issue list. Click inside the **Assignments** field on the same line as the task or issue, then click **Advanced** at the bottom of the list, or the **People icon** in the upper-right corner of the assignments box, to open the Advanced Assignments window. Skip to step 5 to continue creating advanced assignments.
    >![Click Advanced or the People icon](assets/access-aa-from-lists.png)
-   >Sample image in the Production environment:
-   >![Click the People icon](assets/nwe-advanced-assignments-350x55.png)
 
 1. Click **Assign to** in the **Assignments** field in the header of the task or issue
 
