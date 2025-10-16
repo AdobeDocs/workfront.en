@@ -11,6 +11,8 @@ exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
 ---
 # Deactivate or reactivate a company
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+
 You can deactivate a company that you no longer use while retaining all of its associated historical data. If you deactivate a company already in use somewhere in the system, it continues to function just like it always has. It is not removed or blocked.
 
 ## Access requirements
@@ -36,7 +38,7 @@ You can deactivate a company that you no longer use while retaining all of its a
     <ul> 
      <li> <p>The [!UICONTROL System Administrator] access level, which allows you to edit any company in the system.</p> </li> 
      <li> <p>Administrative access to manage companies, which allows you to edit any company in the system.</p> </li> 
-    </ul> <p><b>NOTE</b>:  
+    </ul> <p><b>NOTE</b>:
      <ul> 
       <li> <p>You can also manage companies associated with any group where you are assigned as a group administrator.</p> </li> 
       <li> <p>To add and remove users from the [!DNL Workfront] system, you must have one of the following:</p> 
@@ -61,8 +63,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. In the left panel, click **[!UICONTROL Companies]** ![Companies icon](assets/companies-icon-left-panel.png).
 
 1. Select one or more companies to deactivate or reactivate.
-1. Click **[!UICONTROL Edit]**.
-1. For a single company, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.
+1. Click **[!UICONTROL Edit]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
+1. For a single company, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it. <!--ADD TO THE FRONT OF THIS SENTENCE In the Production environment, -->
 
    Or
 
