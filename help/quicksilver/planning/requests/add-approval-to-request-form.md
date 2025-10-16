@@ -84,11 +84,11 @@ For more information about Workfront access requirements, see [Access requiremen
     The **Configuration** area displays.
 
     ![Configuration tab](assets/configuration-tab.png)
-1. In the **Approvers** field, click the drop-down icon and select one or several users <span class="preview">or teams</span> in the list
+1. In the **Approvers** field, click the drop-down icon and select one or several users or teams in the list
 
     Or
 
-    Start typing the name of a user <span class="preview">or team</span> that you want to set as an approver, then select it when it displays in the list. 
+    Start typing the name of a user or team that you want to set as an approver, then select it when it displays in the list. 
 
     <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -103,7 +103,7 @@ For more information about Workfront access requirements, see [Access requiremen
       >
       >* All approvers must make a decision before a request is either approved or rejected.
       >
-      >* <span class="preview">If a team is set as an approver, only one decision is required from the team.</span>
+      >* If a team is set as an approver, only one decision is required from the team.
 
 
 1. (Optional) Click **Publish** if you have never shared the request form before

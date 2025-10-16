@@ -17,10 +17,6 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 <!--Audited: 05/2024-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
 {{important-admin-console-onboard}}
 
 As an Adobe Workfront administrator, you can configure preferences for your Workfront system, including:
@@ -122,16 +118,16 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td>Lets you choose to enable or disable the Priorities worklist experience for your users. Users will still see the Priorities icons in Workfront, but they will not have access to the functionality. For more information about Priorities, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Get started with Priorities</a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Enable AI</span> </td> 
-      <td><span class="preview">Lets you choose to enable AI, including AI Assistant. <p><b>Note</b>: Your organization must meet specific requirements to enable AI. For more information about AI, including the requirements, see <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI Assistant overview</a>.</p></span></td> 
+      <td role="rowheader">Enable AI </td> 
+      <td>Lets you choose to enable AI, including AI Assistant. <p><b>Note</b>: Your organization must meet specific requirements to enable AI. For more information about AI, including the requirements, see <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI Assistant overview</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Form Auto-complete </span></td> 
-      <td><span class="preview">Lets you choose to enable the ability to auto-complete request forms based on previous request data. For more information about Form Auto-Complete, see <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Auto-fill a request from previous data</a>.</span></td> 
+      <td role="rowheader">Form Auto-complete </td> 
+      <td>Lets you choose to enable the ability to auto-complete request forms based on previous request data. For more information about Form Auto-Complete, see <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Auto-fill a request from previous data</a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Opt in to AI Betas </span></td> 
-      <td><span class="preview">Lets you choose to enable AI features that are currently in Beta. If you enable this option, you can then select which AI Beta features to enable. For more information about each AI Beta feature, click the information icon next to that feature.</span></td> 
+      <td role="rowheader">Opt in to AI Betas </td> 
+      <td>>Lets you choose to enable AI features that are currently in Beta. If you enable this option, you can then select which AI Beta features to enable. For more information about each AI Beta feature, click the information icon next to that feature.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Test Environments</td> 

@@ -29,7 +29,7 @@ To make the request process simpler, we've made some enhancements to request for
 
 * Enable an option to allow only one decision when a request has multiple approvers.
 * Configure when requests created from the form will be automatically marked complete. You can set the request to be marked complete when the requested object is created, or when the requested object is complete based on criteria you specify.
-* Set up an automation that is triggered when a request is submitted from the form. Currently, you can automatically create records when the request is submitted. 
+<!--* Set up an automation that is triggered when a request is submitted from the form. Currently, you can automatically create records when the request is submitted. -->
 
 For more information on creating a request form and configuring these options, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
