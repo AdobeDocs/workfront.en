@@ -11,12 +11,11 @@ exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
 
 # Create Workfront objects from Workfront Planning as you connect them to records
 
-<!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -55,7 +54,7 @@ Consider the following when connecting and creating Workfront objects to Workfro
 
     * The table view of a record type
     * The Details area of a record in the connection field
-    * <span class="preview">The Connected record page of a record, in the Details area</span>
+    * The Connected record page of a record, in the Details area
 
 * You can create portfolios and programs from the following areas of Workfront Planning:
 
@@ -80,10 +79,7 @@ For information about connecting Planning records with Workfront objects, see [C
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Any Workfront and any Planning package</p></li>
-Or
-<li><p>Any Workflow and any Planning package</p></li></ul>
+<p>Any Workfront and any Planning package</p> <p>Any Workflow and any Planning package</p>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
 <tr> 
@@ -197,7 +193,7 @@ You must have the following before you can add new projects or portfolios by con
 You can create projects as you connect them with records in Workfront Planning in the following areas of Workfront Planning: 
 
 * The table view of a record type or the Details area of a record in the connection field
-* <span class="preview">The Connected record page of a record, in the Details area of a record </span>
+* The Connected record page of a record, in the Details area of a record
 
 ### Create projects from the Details area of a record or the table view of a record type
 
@@ -222,8 +218,6 @@ To create projects as you are connecting them from other records:
 
 1. (Optional) Click the name of the new project from Workfront Planning to open the project's page in Workfront and make additional updates to the project. 
 
-<div class="preview">
-
 ### Create projects from the Connected records page of a record
 
 1. Connect the Project object type with a Workfront Planning record type in the table view. 
@@ -244,8 +238,6 @@ To create projects as you are connecting them from other records:
 
     You can only add a blank project in this area. You cannot add a project using a template. 
 1. (Optional) Click the name of the project in the table view to open the project in Workfront and add more information. 
-
-</div>
  
 ## Create portfolios as you connect them with records from Workfront Planning
 

@@ -12,9 +12,9 @@ exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
 
 # Manage record connections from Workfront objects 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
@@ -39,10 +39,8 @@ You can display Workfront Planning records in Workfront in the following areas o
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Any Workfront and any Planning package</p></li>
-Or
-<li><p>Any Workflow and any Planning package</p></li></ul>
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 
@@ -166,7 +164,7 @@ Consider the following when you view Workfront Planning records from the Plannin
    * [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Connect records](/help/quicksilver/planning/records/connect-records.md)
 * You can view the Planning section from a Workfront object, even when there are no records associated with the Workfront object.  
-* <span class="preview">A record type only displays in the Planning area of a Workfront object only when you enable the Create corresponding field on the linked record type setting when creating the connection between two record types.</span>
+* A record type only displays in the Planning area of a Workfront object only when you enable the Create corresponding field on the linked record type setting when creating the connection between two record types.
 
    For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -256,7 +254,7 @@ Consider the following when you view Workfront Planning records from a Planning 
 
    For example, you might be able to attach a custom form with a Planning connection field to tasks, but you cannot connect Workfront Planning objects to tasks. 
 * You cannot edit a Planning connection field when editing Workfront objects in bulk. 
-* <span class="preview">A record type only displays in a Planning connection custom field of a Workfront object only when you enable the Create corresponding field on the linked record type setting when creating the connection between two record types.</span>
+* A record type only displays in a Planning connection custom field of a Workfront object only when you enable the Create corresponding field on the linked record type setting when creating the connection between two record types.
 
    For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
 

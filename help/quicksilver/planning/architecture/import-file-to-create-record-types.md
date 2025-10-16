@@ -9,9 +9,9 @@ exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 ---
 # Create record types by importing information from a CSV or Excel file
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -134,7 +134,7 @@ For more information about Workfront access requirements, see [Access requiremen
     * Formula fields
     * Created date, Created by
     * Last modified date, Last modified by
-    * <span class="preview">Approved date, Approved by</span>
+    * Approved date, Approved by
     * People
 
 To import record types using an Excel or CSV file: 

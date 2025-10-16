@@ -66,14 +66,12 @@ For an example of connecting record types and records, see [Example of connectin
 <p>To connect record types from the same workspace: </p>
 <ul> 
 <li><p>Any Workfront and any Planning package</p></li>
-<p>Or</p>
 <li><p>Any Workflow and any Planning package</li></ul>
 
 <p>To connect record types from different workspaces:</p>
 
 <ul> 
 <li><p>Any Workfront and any Planning package</p></li>
-<p>Or</p>
 <li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 

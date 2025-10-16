@@ -153,10 +153,10 @@ For example, if you create a multi-select connection between campaigns and proje
 
 After you select this connection type, you cannot change the connection type after you save it to any of the following types:
 
-    * Single-select
-    * One to many
-    * Many to one
-    * One to one
+* Single-select
+* One to many
+* Many to one
+* One to one
 
 ### Single-select connection type
 

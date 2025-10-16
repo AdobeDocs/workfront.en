@@ -70,7 +70,7 @@ For more information about Workfront access requirements, see [Access requiremen
 ## Considerations about adding approvals to a request form
 
 * You can add one or multiple approvers to a request form. You can add only users as approvers. 
-* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>
+* You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 * When you add multiple approvers to a request form, all approvers must accept the request before a record is created in Workfront Planning. 
 * If all approvers approve the request, a record is created for the record type associated with the request form. 
 * If at least one approver rejects the request, and all others approve it, a request is created for the Requests area in Workfront, but no record is created for the record type associated with the request form. 

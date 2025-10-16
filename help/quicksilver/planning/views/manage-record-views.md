@@ -10,7 +10,6 @@ exl-id: 77342724-0182-4134-903b-4428d54cdceb
 
 # Manage record views
 
-
 <!--
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -64,10 +63,8 @@ For more information about managing Workfront Planning record views, also see th
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Any Workfront and any Planning package</p></li>
-Or
-<li><p>Any Workflow and any Planning package</p></li></ul>
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 
