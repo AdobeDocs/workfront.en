@@ -12,9 +12,9 @@ exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 
 # Delete record types
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -46,10 +46,12 @@ For information about record types, see [Record types overview](/help/quicksilve
 <li><p>Any Workfront and any Planning package</p></li>
 <p>Or</p>
 <li><p>Any Workflow and any Planning package</p></li></ul>
-<!--<p>To delete global record types:</p>
+<div class="preview">
+<p>To delete global record types:</p>
 <ul><li><p>Any Workfront package and a Planning Plus package</p></li>
 <p>Or</p>
-<li><p>Workflow and Planning Prime and Ultimate packages</p></li></ul>-->
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
+</div>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 
@@ -65,7 +67,7 @@ For information about record types, see [Record types overview](/help/quicksilve
 </tbody> 
 </table>
 
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -142,14 +144,13 @@ For information about record types, see [Record types overview](/help/quicksilve
 * You cannot recover deleted record types or their information. 
 * We recommend recreating the fields and the records associated with the record type that you want to delete on another record type before deleting them.
 
-<!--
 <div class="preview">
 
 * You cannot delete a global record type that has been added to other workspaces. 
 
    For more information, see the section [Delete global record types](#delete-global-record-types) in this article. 
 
-</div>-->
+</div>
 
 ## Delete record types
 
@@ -173,8 +174,6 @@ For information about record types, see [Record types overview](/help/quicksilve
 1. Type **delete** in the confirmation box, then click **Permanently delete**. This is not case sensitive. 
    
    The selected record type, along with their fields, associated records, and views are deleted and cannot be recovered. 
-
-<!--
 
 <div class="preview">
 
@@ -218,7 +217,7 @@ Consider the following:
 
    * The records added from the secondary workspace.
 
-   ***************Not yet there, coming soon:* The fields added from the secondary workspace.*********
+   <!--Coming later: * The fields added from the secondary workspace.-->
 
 * Global record types deleted from their secondary workspaces cannot be recovered. 
 
@@ -238,7 +237,6 @@ To delete a global record type from a secondary workspace:
    * The record type created from a global record type is removed from the selected workspace. 
    * The original record type with its fields remain in their original workspace. 
    * The record type remains in all other workspaces where it's been added.
-   * The records *******and fields****** added to the record type from the current workspace are deleted. All other records added from additional workspaces where the global record type was added are preserved in their respective workspaces and in the original workspace. <!--Fields are preserved in the workspaces where they were added.
+   * The records <!--and fields--> added to the record type from the current workspace are deleted. All other records added from additional workspaces where the global record type was added are preserved in their respective workspaces and in the original workspace. <!--Fields are preserved in the workspaces where they were added.
    
 </div>   
-   --> 

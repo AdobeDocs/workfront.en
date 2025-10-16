@@ -14,9 +14,9 @@ exl-id: 99fac041-a235-4991-b826-d19944164bc9
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 >[!IMPORTANT]
 >
@@ -51,14 +51,20 @@ You must have the following access to use Workfront Planning:
    <td role="rowheader"><p>Adobe Workfront package</p></td>
    <td>
    <p>Any Workfront and Planning package</p>
-   <p>Or</p>
    <p>Any Workflow and Planning package</p>
-   <!--<p><b>NOTE</b></p>
-<p><span class="preview">For access to global record types:</span></p>
-<ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
-<p>Or</p>
-<li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>--> </td>
-<tr>
+
+   <p><b>NOTE</b></p>
+
+   <p>For access to connectable record types:</p>
+   <ul><li><p>Any Workfront package and a Planning package</p></li>
+   <li><p>Any Workflow and a Planning Prime and Ultimate package</p></li></ul>
+
+   <div class="preview">
+   <p>For access to global record types:</p>
+   <ul><li><p>Any Workfront package and a Planning Plus package</p></li>
+   <li><p>Any Workflow package and a Planning Prime and Ultimate package</p></li></ul> </td></tr>
+   </div>
+   <tr>
    <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>
    <p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p>

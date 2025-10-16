@@ -14,9 +14,9 @@ exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 
 # Create record types
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -40,20 +40,26 @@ For more information about record types, see [Record types overview](/help/quick
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>To enable connectable record types: </p>
+<p>Any Workfront and Planning package</p>
+<p>Any Workflow and Planning package</p>
+<p><b>NOTE</b></p>
+<p>To configure connectable record types: </p>
 <ul> 
 <li><p>Any Workfront package and any Planning package</p></li>
 <p>Or</p>
-<li><p>Workflow and Planning Prime and Ultimate packages</p></li></ul>
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
 
-<p>To enable global record types:</p>
+<div class="preview">
+<p>To configure global record types:</p>
 
 <ul> 
 <li><p>Any Workfront package and a Planning Plus package</p></li>
 <p>Or</p>
-<li><p>Workflow and Planning Prime and Ultimate packages</p></li></ul>
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
-   </td> 
+
+</div>
+   </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Standard</p>
@@ -197,19 +203,13 @@ You can manually add record types in both the Operational Record Types and Taxon
         * Select a color to identify your new record type. This is the color of the record type icon. Gray is selected by default.
         * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default. 
 
-1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: <!--the info here is duplicated in the Edit record types article-->
-    * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
-    You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
-    For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).    
-    
-    
-    ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png)
+1. (Optional and conditional) If you are a system administrator, click the **Advanced settings** <span class="preview">or **Cross-workspace settings**</span> tab and update information about the cross-workspace capabilities of the record type. 
 
-    <!--replace last point with this when we release global record types; the preview tags might need to be edited, too:
-    1. <span class="preview">(Optional and conditional) If you are a system administrator, update the information in the **Cross-workspace settings** tab.</span>
-    <span class="preview">For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
-    ***********Add screenshot***********
-    -->
+   For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production - Jan 2026-->
+
+   ![Edit record type box with advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
+
+    For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).    
 
 1. Click **Save**.
 
@@ -218,18 +218,13 @@ You can manually add record types in both the Operational Record Types and Taxon
 
     ![Record type card with description](assets/record-type-card-with-description.png)
 
-    If you selected to connect this record from other workspaces, the **connect from other spaces** icon ![Connect from other spaces icon](assets/connect-from-other-workspaces-icon.png) displays on the record card. 
+    If you selected to connect this record from other workspaces, the **Connectable record** icon ![Connect from other spaces icon](assets/connect-from-other-workspaces-icon.png) displays on the record card. 
 
-    <!--<span class="preview">If you configured the cross-workspace capabilities for the record, the **connectable record type** icon ![Connectable record type icon](assets/connect-from-other-workspaces-icon.png) and the **global record type** icon ![Global record type icon](assets/global-icon.png) also display on the card. </span>-->
+    <span class="preview">If you selected to allow adding this record to other workspaces, the **Global record** icon ![Global record type icon](assets/global-icon.png) displays on the record card. </span>
 
-1. (Optional) Hover over the record type card, click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner, then click **Edit** to modify information about the record type. 
+1. (Optional) Hover over the record type card, click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner, then click **Edit** or <span class="preview">**Settings**</span> to modify information about the record type. 
 
-    <!--replace the last point with this at the preview release of global record types:
-    <span class="preview">(Optional) Hover over the record type card, click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner, then click **Edit** or **Settings** to modify information about the record type. </span>
-    >[!TIP]
-    >
-    ><span class="preview">You can access the **Edit** and **Settings** options from the **More** menu of a record type in the record type page.</span>
-    -->
+    For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 1. (Optional) Click the record type card to open the record type page. 
 

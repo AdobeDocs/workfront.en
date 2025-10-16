@@ -1,19 +1,18 @@
 ---
 title: Cross-workspace Record Type Overview
-description: Global record types can be added to multiple workspaces from a central or primary workspace in Adobe Workfront Planning.
-hidefromtoc: yes
-hide: yes
-exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
----
-<!-- add these to the metadata, when making this public: 
-
+description: You can enable record types to be global or connectable. Global record types can be added to multiple workspaces from a central or primary workspace in Adobe Workfront Planning, whereas connectable record types can be connected to from other workspaces than their own.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
+---
 
 # Cross-workspace record type overview
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> 
 
 {{planning-important-intro}}
 
@@ -26,11 +25,13 @@ You can enable cross-workspace capabilities for a record type in Adobe Workfront
 
 The following are cross-workspace capabilities of record types:
 
-* **Global record types**: Users can add global record types to other workspaces they manage.
+* <span class="preview">**Global record types**: Users can add global record types to other workspaces they manage.</span>
 
 * **Connectable record types**: Users can connect to this record type from other workspaces. 
 
 This article gives you an overview of cross-workspace record types. For information about defining a record type's cross-workspace capabilities, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). 
+
+<div class="preview">
 
 ## Overview of global record types
 
@@ -112,11 +113,12 @@ The record type configured to be global has the following properties:
     * Add request forms to it
     * Add automations to it-->
 
-* No user can perform the following actions on the record type added from a global record type in a secondary workspace:
+* No user can perform the following actions on a global record type in a secondary workspace:
 
     * Edit it
 
         You cannot edit its appearance, cross-workspace capabilities, or the fields added from the original workspace. 
+    * Share it
     * Create and manage request forms
     * Create and manage automations
 
@@ -145,6 +147,8 @@ The following cases exist:
 * If the user has access, the record is created in the global record types's original workspace. 
 
 * If the user doesn't have access, the user gets an error that they don't have access to the global record type's original workspace and they need to provide the workspace ID where they have access to create records.
+
+</div>
 
 ## Overview of connectable record types
 
