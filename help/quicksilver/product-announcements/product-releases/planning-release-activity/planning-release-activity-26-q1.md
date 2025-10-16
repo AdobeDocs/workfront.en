@@ -41,7 +41,7 @@ For more information, see the following articles:
 
  * [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 
- ## New limit for connection fields for one record type
+## New limit for connection fields for one record type
 
 >[!NOTE]
 >
