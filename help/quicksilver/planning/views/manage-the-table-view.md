@@ -9,9 +9,11 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 ---
 # Manage the table view
 
+<!--
+
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 {{planning-important-intro}}
 
@@ -42,10 +44,8 @@ For information about exporting the table view to an Excel or CSV file, see [Exp
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Any Workfront and any Planning package</p></li>
-Or
-<li><p>Any Workflow and any Planning package</p></li></ul>
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 
@@ -147,16 +147,16 @@ When creating a table view, all records of the selected type display in a table.
 
 To manage a table view: 
 
-1. <span class="preview">Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).</span> 
+1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
 
-    <span class="preview">![Table view example](assets/table-view-example.png)</span>
+    ![Table view example](assets/table-view-example.png)
 
 1. (Optional) Click **Row height**, then select from the following options to modify the height of the table rows: 
     * Short
     * Medium
     * Tall 
 
-1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+1. (Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.
 
 1. Update the following view elements as described in the subsections below:
     * [Columns (or fields)](#add-columns-or-fields)
@@ -192,12 +192,7 @@ You can add up to 500 fields (or columns) in a table view.
 
     * Click **Fields** in the table's toolbar, then drag and drop the fields in the desired order, then click outside the **Fields visibility and order** box to close it.
         
-        <div class="preview">
-
         ![Fields setting table view toolbar expanded](assets/fields-setting-table-view-toolbar-expanded.png)
-
-        </div>
-
 
         >[!TIP]
         >
@@ -240,9 +235,9 @@ You can add up to 500 fields (or columns) in a table view.
 
 1. Do the following to quickly find records that match a keyword:
 
-    1. <span class="preview">In the **Search** box ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen.</span> The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
+    1. In the **Search** box ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
 
-        <span class="preview">![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-table-view.png)</span>
+        ![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-table-view.png)
 
         You can use any word or special character that is visible on the screen. 
     
@@ -496,13 +491,11 @@ To add a grouping:
     
 1. (Optional) Click **Add condition** and repeat the above steps to add up to 3 groupings. 
 
-    <div class="preview">
-
     The number of fields selected for the grouping displays next to the Grouping icon. 
 
     ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
 
-    </div>
+    
 
 1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 

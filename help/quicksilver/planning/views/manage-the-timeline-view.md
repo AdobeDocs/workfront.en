@@ -9,7 +9,6 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 ---
 # Manage the timeline view
 
-<!--remove preview and production references at production-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -40,10 +39,9 @@ For information about record views, see [Manage record views](/help/quicksilver/
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Any Workfront and any Planning package</p></li>
-Or
-<li><p>Any Workflow and any Planning package</p></li></ul>
+<p>Any Workfront and any Planning package</p>
+
+<p>Any Workflow and any Planning package</p>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 

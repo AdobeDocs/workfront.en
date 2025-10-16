@@ -10,6 +10,8 @@ exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 
 <!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
+<!--keep global record types in yellow till Jan 2026-->
+
 # Share record types
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   

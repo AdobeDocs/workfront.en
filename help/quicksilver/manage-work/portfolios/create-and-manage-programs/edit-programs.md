@@ -26,7 +26,7 @@ You can edit a program in the program page or you can edit one or multiple progr
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td> <p>[!UICONTROL Standard]</p>
    <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
@@ -41,7 +41,7 @@ You can edit a program in the program page or you can edit one or multiple progr
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
