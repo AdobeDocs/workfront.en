@@ -22,8 +22,6 @@ Each widget contains its own worklist. Worklists display all work items that are
 
  +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -31,13 +29,13 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
-   <td> <p>New:</p><ul><li>[!UICONTROL Contributor] for approvals only</li> <li>[!UICONTROL Standard] or higher for all other objects</li> <p>Or</p> 
-  </ul><p>Current:</p><ul><li>[!UICONTROL Review] for approvals only</li> <li>[!UICONTROL Work] or higher for all other objects</li> </td> 
+   <td><ul><li>[!UICONTROL Contributor] for approvals only</li> <li>[!UICONTROL Standard] or higher for all other objects</li> <p>Or</p> 
+  </ul><ul><li>[!UICONTROL Review] for approvals only</li> <li>[!UICONTROL Work] or higher for all other objects</li> </td> 
   </tr> </ul>
   <tr> 
    <td role="rowheader"><strong>Access level configurations</strong></td> 
@@ -50,7 +48,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

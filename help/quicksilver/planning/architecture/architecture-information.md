@@ -34,6 +34,8 @@ The articles in the following sections describe how you can configure the Adobe 
 * [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md)
 
+<!--*[Configure the Settings area of a record type](/help/quicksilver/planning/architecture/configure-record-type-settings.md)-->
+
 <!--* <span class="preview">[Configure cross-workspace capabilities for record types](help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)</span>
 
 * <span class="preview">[Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)</span>

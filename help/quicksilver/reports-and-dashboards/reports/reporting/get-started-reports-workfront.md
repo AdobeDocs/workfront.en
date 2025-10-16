@@ -82,7 +82,7 @@ For information about creating reports, see [Create a custom report](/help/quick
 
 ### Prerequisites for creating reports {#prerequisites-for-creating-reports}
 
-* You must have a Plan license (current licenses) or Standard license (new licenses) to create your own reports.
+* You must have a Standard or Plan license to create your own reports.
 
   For information about the Workfront license types, see [Licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) for the current licenses, and [New licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) for the new licenses.
 

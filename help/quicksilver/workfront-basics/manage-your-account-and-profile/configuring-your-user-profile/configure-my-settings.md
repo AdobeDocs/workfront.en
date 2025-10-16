@@ -386,13 +386,13 @@ You can change any of the following in this sub-section:
   --> 
   <tr> 
    <td role="rowheader"><strong>(Conditional) [!UICONTROL User can generate proofs (... out of ... proof licenses left)]</strong></td> 
-   <td>This field is available only if your company uses a legacy [!DNL Workfront] plan and has purchased the [!DNL Workfront Proof] component. When it is selected, you are enabled as a proofing user. It also displays the number of proof licenses used in your system out of the total number of proof licenses purchased. This field is visible and editable only to users who are also [!DNL Workfront] administrators. For more information about the plan options for proofing in [!DNL Workfront], see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Access to proofing functionality in [!DNL Workfront]</a>.</td>
+   <td>This field is available only if your company uses a legacy [!DNL Workfront] package and has purchased the [!DNL Workfront Proof] component. When it is selected, you are enabled as a proofing user. It also displays the number of proof licenses used in your system out of the total number of proof licenses purchased. This field is visible and editable only to users who are also [!DNL Workfront] administrators. For more information about the plan options for proofing in [!DNL Workfront], see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Access to proofing functionality in [!DNL Workfront]</a>.</td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Conditional) [!UICONTROL Permission Profile]</strong></td> 
    <td> <p>This field displays the level of access you have in [!DNL Workfront Proof]. It is available only if:</p> 
     <ul> 
-     <li>Your company uses a legacy [!DNL Workfront] plan and has purchased the [!DNL Workfront Proof] component, or you have a [!UICONTROL Standard], [!UICONTROL Work], or [!UICONTROL Plan] license on a newer [!DNL Workfront] plan.</li> 
+     <li>Your company uses a legacy [!DNL Workfront] package and has purchased the [!DNL Workfront Proof] component, or you have a [!UICONTROL Standard], [!UICONTROL Work], or [!UICONTROL Plan] license on a newer [!DNL Workfront] package.</li> 
      <li>You are enabled as a proof user.</li> 
     </ul> <p>[!DNL Workfront] administrators can edit the field for all users except themselves, so all users see the field as view-only on their own profiles. For more information about the permission profile, see <a href="../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md" class="MCXref xref">Proof Permission Profile overview</a>.</p> </td> 
   </tr> 

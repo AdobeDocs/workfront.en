@@ -1,13 +1,15 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: Overview of the issue Planned Completion Date
+title: Overview of the Issue Planned Completion Date
 description: The Planned Completion Date of an issue is the date by which the issue is expected to complete.
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
 ---
 # Overview of the issue Planned Completion Date
+
+<!--Audited: 08/2025-->
 
 The Planned Completion Date of an issue is the date by which the issue is expected to complete. 
 

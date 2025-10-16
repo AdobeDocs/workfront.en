@@ -329,6 +329,10 @@ For information, see [Create Queue Topics](/help/quicksilver/manage-work/request
 
 **Preview release: August 28, 2025; Production release: September 4, 2025**
 
+>[!NOTE]
+>
+>This feature has been temporarily removed from the Preview and Production environments on October 15, 2025.
+
 We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
 
 For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).

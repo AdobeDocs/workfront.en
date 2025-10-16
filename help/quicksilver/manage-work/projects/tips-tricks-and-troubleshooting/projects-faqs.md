@@ -1,8 +1,7 @@
 ---
 title: Projects FAQs
-description: Projects FAQs
+description: This article contains the most common frequently-asked questions about projects in Adobe Workfront.
 author: Alina
-draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
 ---

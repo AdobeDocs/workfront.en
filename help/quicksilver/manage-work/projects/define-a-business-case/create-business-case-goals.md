@@ -2,7 +2,7 @@
 navigation-topic: business-case-and-scorecards
 title: Create Business Case goals
 description: As part of creating a Business Case, you can create a set of goals to define the objectives of a project. Business Case goals are used to communicate to the Portfolio Manager or the Project Sponsor the purpose of completing a project.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
 ---
@@ -44,15 +44,14 @@ Consider the following when creating Business Case goals for your projects:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
-   <td> <p>Current: Prime or higher</p>
-   <p>Legacy: Pro or higher</p>  </td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> <p>Prime or higher</p>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
    <td> 
-   <p>Current: Standard</p> 
-   <p>Legacy: Plan </p> 
+   <p>Standard</p> 
+   <p>Plan </p> 
    </td> 
   </tr> 
   <tr> 
@@ -66,7 +65,7 @@ Consider the following when creating Business Case goals for your projects:
  </tbody> 
 </table>
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
  +++
 

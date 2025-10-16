@@ -118,7 +118,7 @@ To increase efficiency and eliminate the number of clicks, we have released an i
 
 Users remain on the list, report or a dashboard after converting an issue to a project instead of being redirected to the project's page. A success notification with the link to the project displays after the conversion is complete, to allow you to easily navigate to the project, if needed.
 
-For more information, see [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+For more information, see [Convert an issue to a project](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Allocation hours will no longer be removed when making changes to assignments
 

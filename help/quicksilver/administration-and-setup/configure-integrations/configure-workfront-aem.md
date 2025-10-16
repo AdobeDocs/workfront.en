@@ -11,41 +11,38 @@ exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
 ---
 # Configure [!DNL Workfront] with [!DNL Adobe Experience Manager] legacy connector
 
+<!-- Audited: 4/2025 -->
+
 As an [!DNL Adobe Workfront] administrator, you can integrate [!DNL Workfront] with [!UICONTROL Adobe Experience Manager (AEM) Assets] and provide your organization with a comprehensive content management solution for the creation, sharing, and maintenance of assets within your workflow.
 
-## Access requirements
-
-<!-- Audited: 4/2025 -->
+## Access requirements 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Any</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td><p>New: Standard</p>
-   <p>Or</p>
-   <p>Current: Plan</p>
- </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td>System Administrator </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront package
+   </td>
+   <td> <p>Prime or Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront licenses
+   </td>
+   <td><p>Standard</p>
+   <p>Plan</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Access level configurations
+   </td>
+   <td>You must be a [!DNL Workfront] administrator.
+   </td>
+  </tr>
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## [!DNL Workfront for AEM Assets]
 

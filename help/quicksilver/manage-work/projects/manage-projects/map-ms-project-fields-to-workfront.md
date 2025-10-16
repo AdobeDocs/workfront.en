@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: Map Microsoft Project fields to Adobe Workfront projects
+title: Map Microsoft Project Fields to Adobe Workfront Projects
 description: Projects in Adobe Workfront and Microsoft Project are mostly compatible. This article describes how the most common project fields from the two applications map to one another.
 author: Alina
 feature: Work Management

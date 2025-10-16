@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: "Task information: article index"
+title: "Task information: Article Index"
 description: Tasks are work items that contribute to the completion of a project in Adobe Workfront. Learn about task information in the following articles.
 author: Alina
 feature: Work Management
@@ -13,7 +13,7 @@ exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
 
 <!-- Audited: 5/2025 -->
 
-This section contains the following articles:
+Tasks are work items that contribute to the completion of a project in Adobe Workfront. Learn about task information in the following articles:
 
 * [Tasks overview](../../../manage-work/tasks/task-information/tasks-overview.md) 
 * [View Actual Hours](../../../manage-work/tasks/task-information/actual-hours.md) 

@@ -2,8 +2,8 @@
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects
-title: Manage information in the project Overview area
-description: Manage information in the project Overview area
+title: Manage Information in the Project Overview area
+description: You can view or edit the information of a project by accessing the Overview area of the Project Details section. There is a limited number of fields that you can view or edit in this area.
 author: Alina
 feature: Work Management, Projects
 role: User
@@ -19,7 +19,38 @@ You can view or edit the information of a project by accessing the Overview area
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for the functionality in this article. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license</p> </td> 
+   <td><p>Light or higher</p> 
+   <p>Review or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View access or higher to Projects</p>
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,9 +76,7 @@ You must have the following access to perform the steps in this article:
    <p>Manage access to the project to edit information about the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+</table>-->
 
 ## Access the Overview section
 
