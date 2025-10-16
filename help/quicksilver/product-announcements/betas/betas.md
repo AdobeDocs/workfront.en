@@ -28,6 +28,9 @@ The following features are currently available in beta:
 * The Workfront AI Reviewer
     For information, see [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
+* AI Form Fill
+    For information, see [Use AI Form Fill to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+
 
 <!--
 
