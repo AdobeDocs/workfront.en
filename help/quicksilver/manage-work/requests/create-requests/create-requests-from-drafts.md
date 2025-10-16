@@ -9,8 +9,6 @@ exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
 ---
 # Create requests from drafts
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-
 In addition to using the available drafts that Workfront suggests to you when you enter a new request, you can also access a draft request from the Drafts section and finish submitting it from there.
 
 ## Access requirements
@@ -101,6 +99,6 @@ You must do the following before you can create a request from a draft:&nbsp;
      
    >[!NOTE]
    >
-   >* <span class="preview">In the new requesting experience, drafts are in the same list as submitted requests.</span>
-   ><span class="preview">For more information on creating requests in the new experience, see [Create requests and generate drafts in the Workfront web app](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) in the article Create and submit requests.</span>
+   >In the new requesting experience, drafts are in the same list as submitted requests.
+   >For more information on creating requests in the new experience, see [Create requests and generate drafts in the Workfront web app](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) in the article Create and submit requests.
 
