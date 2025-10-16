@@ -12,8 +12,6 @@ exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 Queue Topics work in conjunction with Routing Rules to automatically assign incoming work to a user, job role, team, or to place it on a project. Queue Topics define the conditions that need to exist for the Routing Rule to be implemented.
 
 There is no limit to the number of Queue Topics that can be assigned to a Topic Group or to a project. Queue Topics are a reportable object type.
@@ -173,8 +171,7 @@ To edit an existing Queue Topic:
 
 1. Go to the project or template that contains the Queue Topic you want to edit. 
 1. Click **Queue Topics** in the left panel. 
-1. In the Production environment, select the Queue Topic that you want to edit. On the Details page that opens, click **Edit Queue Topic**.
-1. <span class="preview">In the Preview environment, click the queue topic that you want to edit. 
+1. Click the queue topic that you want to edit. 
 
 For information about available edit options, see [Create a Queue Topic](#create-a-queue-topic) in this article.
 
