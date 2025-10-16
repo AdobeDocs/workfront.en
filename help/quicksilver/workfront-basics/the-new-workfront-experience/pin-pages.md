@@ -18,8 +18,6 @@ You might be assigned to a layout template that has pages already pinned (as des
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -27,20 +25,19 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] package</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
-   <td> <p>New: Contributor</p> 
-   <p>Or</p>
-     <p>Current: Request</p>
+   <td> <p>Contributor</p> 
+     <p>Request</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
  +++
 

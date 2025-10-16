@@ -27,35 +27,32 @@ For more information about which job role is used to calculate revenue on the pr
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Adobe Workfront package</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td>Adobe Workfront license</td> 
    <td>
-   <p>New: Standard</p>
-   <p>or</p>
-   <p>Current: Plan</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td> <p>Edit access to Projects and Financial Data</p> <p>Administrative access for job roles</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td>Object permissions</td> 
    <td>Manage permissions to the project that includes Edit Financial Data </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

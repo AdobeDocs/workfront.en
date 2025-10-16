@@ -27,7 +27,7 @@ A workspace manager must first designate a record type as a global record type b
 
    For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). 
 
-This article describes how you can add a record type from an existing one and how you can delete it, if it's no longer needed. 
+This article describes how you can add a record type from an existing one.  
 
 Before adding records to a workspace from a global record type, also see the article [Cross-workspace record types overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
 
@@ -36,6 +36,41 @@ Before adding records to a workspace from a global record type, also see the art
 
 +++ Expand to view the access requirements for the functionality in this article.
 
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul><li><p>Any Workfront package and a Planning Plus package</p></li>
+<p>Or</p>
+<li><p>Workflow and Planning Prime and Ultimate packages</p></p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table> 
+
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -72,11 +107,7 @@ And
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table> 
-
-For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
+</table>-->
 
 ## Create a record type by adding an existing one from another workspace
 
@@ -111,6 +142,9 @@ For more information about Workfront access requirements, see [Access requiremen
       >You cannot edit the new record type's appearance, additional settings, or original fields. You can edit the record type and all its original fields and settings only from the original workspace.
 
 1. (Optional) Click, then drag and drop the newly added record type to any section within the workspace. 
+1. (Optional) Click the **More** menu on the new record type's card or to the right of the record type name on its page, then click **Delete**.
+
+   For more information, see the section "Delete global record types" in the article [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 <!--This will be released later with another epic: 
 1. In the table view, click the **+** icon in the upper-right corner to add new fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
@@ -119,34 +153,7 @@ For more information about Workfront access requirements, see [Access requiremen
 
 <!--checking with Lilit if we can add automations or request forms to secondary global RTs??--add step with links to those articles if/ when yes-->
 
-## Delete a global record type from a secondary workspace
 
-You can delete a record type you added from another workspace if no longer needed. Deleting it will only remove it from the secondary workspace. 
-
-When you delete a global record type from a secondary workspace, the following are also deleted:
-
-* The records added from the secondary workspace.
-* The fields added from the secondary workspace. 
-
-Global record types deleted from their secondary workspaces cannot be recovered. 
-
-The original record type remains in its original workspace as well as in other workspaces where it's been added. 
-
-To delete a global record type from a secondary workspace: 
-
-1. Go to the global record type in the secondary workspace. 
-
-1. (Optional) Click on the **More** menu ![More menu](assets/more-menu.png) on the record type's card, or to the right of the record type's name on its page, then click **Delete**.
-1. (Conditional) Type **delete** in the field provided, then click **Permanently delete**.
-
-   ![Delete secondary global record type confirmation box](assets/delete-secondary-global-record-type.png)
-
-   The following things occur: 
-
-   * The record type created from a global record type is removed from the selected workspace. 
-   * The original record type and its fields remain in their original workspace. 
-   * The record type remains in all other workspaces where it's been added.
-   * The records and fields added to the record type from the current workspace are deleted. All other records added from additional workspaces where the global record type was added are preserved. Fields are preserved in the workspaces where they were added.  
 
 
    

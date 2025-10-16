@@ -21,31 +21,30 @@ If there are any groups above the group you manage, their administrators can als
 
 ## Access requirements
 
-+++ Expand to view access requirements.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td>
-   <td><p>New: Standard</p>
-       <p>Or</p>
-       <p>Current: Plan</p></td>
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td><p>You must be a group administrator of the group or a system administrator.</p>
    <p>You must also have administrative access to timesheets.</p></td>
   </tr>
-  </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

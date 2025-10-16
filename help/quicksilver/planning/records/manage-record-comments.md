@@ -24,8 +24,51 @@ The right panel of a record displays the following sections:
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view the access requirements for the functionality in this article. 
 
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul> 
+<li><p>Any Workfront and any Planning package</p></li>
+Or
+<li><p>Any Workflow and any Planning package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Contributor or higher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>View or higher permissions to a workspace and record type</p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
+  </tr> 
+  </tr> 
+  <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>  
+</tbody> 
+</table> 
+
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++  
+
+<!--Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -87,11 +130,7 @@ The right panel of a record displays the following sections:
 </td>
   </tr>
 </tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++  
+</table> -->
 
 
 

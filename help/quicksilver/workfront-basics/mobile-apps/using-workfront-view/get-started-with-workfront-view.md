@@ -19,7 +19,11 @@ If you must complete work, you must use the [!DNL Workfront] mobile app which is
 
 The [!DNL Workfront View] app is supported only for [!DNL iPads].
 
-You must have the following access in [!DNL Workfront] to access information in [!DNL Workfront View] and perform the steps in this article:
+Users with [!UICONTROL Requestor] and [!UICONTROL External] licenses cannot access [!DNL Workfront] using the [!DNL Workfront View] mobile app.
+
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,19 +32,21 @@ You must have the following access in [!DNL Workfront] to access information in 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Review] or higher</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
+   <td> 
+   <p>Contributor or higher</p>
+   <p>Review or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Users with [!UICONTROL Requestor] and [!UICONTROL External] licenses cannot access [!DNL Workfront] using the [!DNL Workfront View] mobile app.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
++++
 
 ## Download the [!DNL Workfront View] app
 

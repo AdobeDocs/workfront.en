@@ -28,7 +28,37 @@ Consider the following when using the [!UICONTROL Portfolio Optimizer]:
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following access to perform the steps in this article:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Workfront Prime or higher</p>
+      <p>Workflow Prime or higher</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to [!UICONTROL Portfolios] and [!UICONTROL Projects]</p>  </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,11 +84,7 @@ You must have the following access to perform the steps in this article:
     </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Change the priority of the projects in the [!UICONTROL Portfolio Optimizer]
 

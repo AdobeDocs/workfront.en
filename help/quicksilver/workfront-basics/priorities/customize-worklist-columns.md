@@ -28,14 +28,14 @@ Priorities displays work items assigned to you. You cannot see work items assign
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
    <td> 
-   <p>Current: Reviewer or higher</p>
-   <p>New: Light or higher</p> 
+   <p>Reviewer or higher</p>
+   <p>Light or higher</p> 
    </td> 
   </tr> 
   <tr> 

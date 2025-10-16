@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Edit issues
+title: Edit Issues
 description: You can edit information on issues that you have created, or that other users have created if they shared the issues with you. This article describes how you can search for, find, and edit an issue, if you have the permissions to do so.
 author: Alina
 feature: Work Management
@@ -21,7 +21,44 @@ You can edit a single issue or you can edit issues in a list. For information ab
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following access to perform the steps in this article:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <ul><li>Contributor or higher</li>
+   <li>Light or higher to edit issues in the Issues section of a task or project</li></ul>
+   Or:
+   <ul><li>Request or higher</li> <li>Review or higher to edit issues in the Issues section of a task or a project</li></ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Issues</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute permissions to an issue to edit the following fields in the Details area: </p>
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   <li>Severity</li>
+   </ul>
+   <p>Manage permissions to an issue to edit all the fields in the Details area or in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,11 +91,7 @@ You must have the following access to perform the steps in this article:
    <p>Manage permissions to an issue to edit all the fields in the Details area or in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Limitations when editing issues
 

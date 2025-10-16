@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
-title: Projected Duration does not match Planned Duration
-description: "You receive the following error message: 'The Projected Duration of a Task/ Issue has gone to 0 and does not match the Planned Duration.'"
+title: Projected Duration Does not Match Planned Duration
+description: "This article describes troubleshooting in Adobe Workfront when you might receive the following message:'The Projected Duration of a Task/ Issue has gone to 0 and does not match the Planned Duration.'"
 author: Alina
 feature: Work Management
 exl-id: ef135d44-3138-457d-b54a-3f1102ce3116

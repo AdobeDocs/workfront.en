@@ -3,7 +3,7 @@ product-area: projects
 navigation-topic: manage-issues
 title: Assign issues
 description: You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see Modify issue assignments overview.
-author: Alina
+author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
@@ -43,31 +43,29 @@ Assigning issues and tasks is similar in Adobe Workfront. For general informatio
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Adobe Workfront package</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Contributor or higher</p>
-   <p>Current: Review or higher</p> </td> 
+   <td>Adobe Workfront license</td> 
+   <td> <p>Contributor or higher</p>
+   <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level</td> 
+   <td>Access level configurations</td> 
    <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks to assign one issue</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td>Object permissions</td> 
    <td> <p>Manage permissions to the issue</p> <p> View permissions or higher to the project or task where the issue is located, when assigning one issue</p><p>Contribute permissions or higher to the project or task where the issue is located, when assigning multiple issues.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

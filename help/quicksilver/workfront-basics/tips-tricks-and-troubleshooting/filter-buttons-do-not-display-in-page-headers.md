@@ -9,28 +9,34 @@ exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
 ---
 # Filter buttons do not display in page headers
 
-## Access requirements
+## Access requirements 
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] license</strong></td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Access level configurations</strong></td> 
-   <td> <p>[!UICONTROL System administrator]</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront package
+   </td>
+   <td> <p>Prime or Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront licenses
+   </td>
+   <td><p>Standard</p>
+   <p>Plan</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Access level configurations
+   </td>
+   <td>You must be a [!DNL Workfront] administrator.
+   </td>
+  </tr>
 </table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Problem
 

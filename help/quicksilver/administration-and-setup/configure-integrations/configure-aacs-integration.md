@@ -33,34 +33,35 @@ You can connect your work with your content in [!DNL Experience Manager Assets]â
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table>
   <tr>
-   <td>[!DNL Adobe Workfront] plan
+   <td>Adobe Workfront package
    </td>
-   <td>Any
+   <td> <p>Prime or Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Adobe Workfront licenses
+   </td>
+   <td>Standard
+   <p>Plan</p>
+   </td>
+  </tr>
+  </tr>
+    <tr>
+   <td>Adobe Experience Manager licenses
+   </td>
+   <td>Standard
    </td>
   </tr>
   <tr>
-   <td>[!DNL Adobe Workfront] license
-   </td>
-   <td><p>Current: [!UICONTROL Plan]</p>
-   <p>New: [!UICONTROL Standard]</p></td>
-  </tr>
-  <tr>
-   <td>[!DNL Experience Manager] license
-   </td>
-   <td>[!UICONTROL Standard]
-   </td>
-  </tr>
-  <tr>
-   <td>Product
+   <td>Additional products
    </td>
    <td>You must have [!DNL Experience Manager Assets as a Cloud Service], and you must be added to the product as a user.
    </td>
   </tr>
-  <tr>
+   <tr>
    <td>Access level configurations
    </td>
    <td>You must be a [!DNL Workfront] administrator.
@@ -68,7 +69,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

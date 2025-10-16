@@ -28,31 +28,38 @@ You can create multiple workspace hierarchies between the record types in a work
 
 <!--check the access to see if you oversimplified???-->
 
+<!--Update the TOC for this to publish-->
+
 +++ Expand to view access requirements to perform the steps in this article:  
 
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
 </col> 
 <tbody> 
-    
+    <tr> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront packages</p></td> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront Workflow package</p> 
-<p>Any Workfront Planning package</p> 
+<ul> 
+<li><p>Any Workfront and any Planning package</p></li>
+<p>Or</p>
+<li><p>Any Workflow and any Planning package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
-  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Standard</p>
-  </td> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td><p>You receive Manage permissions to the workspaces you create. </p> </td> 
-  </tr> 
+   <td>   <p>Manage permissions to a workspace</p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
 </tbody> 
 </table> 
 

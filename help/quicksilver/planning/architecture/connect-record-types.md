@@ -50,8 +50,61 @@ For an example of connecting record types and records, see [Example of connectin
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view the access requirements for the functionality in this article.
 
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>To connect record types from the same workspace: </p>
+<ul> 
+<li><p>Any Workfront and any Planning package</p></li>
+<p>Or</p>
+<li><p>Any Workflow and Planning package</li></ul>
+
+<p>To connect record types from different workspaces:</p>
+
+<ul> 
+<li><p>Any Workfront and any Planning package</p></li>
+<p>Or</p>
+<li><p>Workflow and Planning Prime and Ultimate packages</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+<tr> 
+<td> 
+   <p> Additional products</p> </td> 
+   <td> 
+   <p> In addition to Adobe Workfront, you must have an Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront to connect AEM assets with Planning record types.<p>
+    For information, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table> 
+
+ For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).   
+
++++
+
+
+<!--Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -107,16 +160,12 @@ For an example of connecting record types and records, see [Example of connectin
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Manage permissions to a workspace</a> </p>  
+   <td>   <p>Manage permissions to a workspace</p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p></td> 
   </tr> 
  
 </tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).   
-
-+++
+</table> -->
 
 ## Connect record types
 

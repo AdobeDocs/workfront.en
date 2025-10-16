@@ -21,30 +21,26 @@ As part of configuring your Adobe Workfront system, you can manage details about
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
-
-<table style="table-layout:auto"> <col> 
+<table style="table-layout:auto"> 
+ <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan</p></td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p></td> 
+   <td>You must be a Workfront administrator. </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

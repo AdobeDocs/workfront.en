@@ -38,24 +38,22 @@ Any changes you make to timesheets impact all timesheets that are created in the
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Any</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td><p>Current:[!UICONTROL Plan]</p>
-   Or
-   <p>New: Standard</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] license</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td>[!UICONTROL System Administrator]</td>
-</tr> 
+   <td>Access level configurations</td> 
+   <td>[!UICONTROL System Administrator]</td> 
+  </tr> 
  </tbody> 
 </table>
 
-For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

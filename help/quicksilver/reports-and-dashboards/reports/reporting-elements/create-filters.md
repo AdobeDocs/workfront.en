@@ -29,48 +29,35 @@ You can apply the following types of filters in Adobe Workfront:
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader">Adobe Workfront license</strong></td> 
    <td> 
-      <p>New:</p>
-         <ul>
-         <li><p>Contributor to modify a filter</p></li>
-         <li><p>Standard to modify a filter in a report</p></li>
-         </ul>
-      <p>Current:</p>
-         <ul>
-         <li><p>Request to modify a filter</p></li>
-         <li><p>Plan to modify a filter in a report</p></li>
-         </ul>
+    <p>Contributor or Request to modify a filter</p>
+    <p>Standard or Plan to modify a filter in a report</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <ul><li><p>Edit access to Filters, Views, and Groupings</p></li></ul>
-
-   To edit a filter in a report, you must have the following access level configuration, in addition to Edit access to Filters, Views, and Groupings:
-
-   <ul><li><p>Edit access to Reports, Dashboards, and Calendars</p></li></ul>   
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to Reports, Dashboards, Calendars</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Object permissions*</strong></td> 
-   <td> <p>Manage permissions to a filter</p></td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a filter</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

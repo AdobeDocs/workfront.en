@@ -33,8 +33,45 @@ For information about how you create records or objects using an existing automa
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view the access requirements for the functionality in this article. 
 
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul> 
+<li><p>Any Workfront and any Planning package</p></li>
+Or
+<li><p>Any Workflow and any Planning package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td> <p>Manage permissions to the workspace and to the record type where you want to create automations. </p>
+   <p>System Administrators have Manage permissions to all workspaces, including the ones they did not create</p>
+   </td> 
+  </tr>  
+</tbody> 
+</table> 
+
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -91,11 +128,7 @@ For information about how you create records or objects using an existing automa
    </td> 
   </tr> 
 </tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).   
-
-+++
+</table> -->
 
 ## Configure an automation in Workfront Planning
 

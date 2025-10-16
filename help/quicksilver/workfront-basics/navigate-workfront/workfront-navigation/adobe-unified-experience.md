@@ -24,25 +24,23 @@ If your organization is on the Adobe Unified Experience, the URL that you use to
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>New: [!UICONTROL Contributor] or higher</p> 
-   <p>Current: [!UICONTROL Request] or higher</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
+   <td> <p>Contributor or higher</p> 
+   <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

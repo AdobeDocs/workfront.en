@@ -9,28 +9,6 @@ exl-id: 41b81083-771e-46de-85a3-31ed52d29917
 
 [!DNL Workfront] offers a wide variety of content to help you find answers to questions you might have concerning functionality within the various products offered by [!DNL Workfront].
 
-## Access requirements
-
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
 ## Access the [!DNL Adobe Workfront] documentation on Experience League
 

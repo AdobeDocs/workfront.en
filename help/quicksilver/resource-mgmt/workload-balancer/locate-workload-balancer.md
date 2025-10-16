@@ -34,25 +34,21 @@ This article describes the areas where you can access the Workload Balancer.
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any </p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-       <p>or</p>
-       <p>Current: Plan, when using the Workload Balancer in the Resourcing area;</br>
-       Work, when using the Workload Balancer of a team or project</p>
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan, when using the Workload Balancer in the Resourcing area; Work, when using the Workload Balancer of a team or project</p>
        <p><span class="preview">Note: All users can access the Workload Balancer in their own user profiles, without any license requirements.</span></p></td>
   </tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td> <p>View or higher access to the following:</p> 
     <ul> 
      <li>Resource Management</li> 
@@ -62,13 +58,13 @@ You must have the following access to perform the steps in this article:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td>Object permissions</td> 
    <td>View permissions or higher to the projects, tasks, and issues</td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

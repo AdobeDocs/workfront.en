@@ -21,8 +21,6 @@ For information about sorting the cards in columns, see [Filter and search in a 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,14 +28,15 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: Contributor or higher </p>
-        <p>or</p> 
-        <p>Current: [!UICONTROL Request] or higher </p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <p>Contributor or higher</p> 
+   <p>Request or higher</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
