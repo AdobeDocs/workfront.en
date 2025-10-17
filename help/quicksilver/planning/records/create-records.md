@@ -324,7 +324,12 @@ For information about creating a timeline view, see [Manage the timeline view](/
     The **New record** box opens. <!--might need a new screen shot for Production - might add a title etc-->
 
     ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
+
+    >[!NOTE]
+    >
+    >You cannot create records in the timeline view when the record bars display in a named grouping.
 1. Update the following information:
+
 
     * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. 
 

@@ -284,7 +284,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 >
 >For a list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 > 
->For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>For general information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
 
 <!--Old - before Oct. 15, 2025:
 >[!IMPORTANT]
