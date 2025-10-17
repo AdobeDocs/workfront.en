@@ -244,7 +244,7 @@ To manage a timeline view:
 
     >[!TIP]
     >
-    >Resizing and dragging and dropping records is not possible in the timeline for Workfront and AEM Assets object types displayed in the breakdown.
+    >Resizing and dragging and dropping records is not possible in the timeline for Workfront and AEM Assets object types displayed in breakdowns.
 
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)

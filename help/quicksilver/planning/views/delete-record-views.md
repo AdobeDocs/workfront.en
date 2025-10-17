@@ -20,6 +20,8 @@ You can delete a record view you no longer use in Adobe Workfront Planning.
 
 The view is deleted for all users who have permissions to access it. Deleted views cannot be recovered.
 
+You cannot delete the original table view of a record type. 
+
 ## Access requirements
 
 +++ Expand to view the access requirements for the functionality in this article. 
