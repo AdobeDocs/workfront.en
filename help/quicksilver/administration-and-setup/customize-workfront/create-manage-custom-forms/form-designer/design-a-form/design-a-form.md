@@ -1036,9 +1036,13 @@ To add a Planning connection field:
 
     For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
 
+### Add UI Extensions
+
+An app can be embedded on a Workfront custom form using the UI Extensions field type. To create UI Extensions, you must have access to Adobe App Builder in the Adobe Developer Console. For information, see [Embed an app using a Workfront custom form](/help/quicksilver/app-builder/app-builder.md#embed-an-app-using-a-workfront-custom-form) in the article [Create custom applications for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
+
 ## Organize and preview a form with the form designer
 
- For information on how to organize a custom form with section breaks and see a preview of the form, see [Organize and preview a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+For information on how to organize a custom form with section breaks and see a preview of the form, see [Organize and preview a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 
 
