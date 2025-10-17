@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: Delete a Custom Status
 description: You can delete a custom system status if it is no longer useful to your organization.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 73c4eb87-94f6-47bf-b447-eb02a703f7ef

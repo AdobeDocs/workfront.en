@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: You can change the order in which conditions display when a user edits project or changes the condition for a task or issue.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c

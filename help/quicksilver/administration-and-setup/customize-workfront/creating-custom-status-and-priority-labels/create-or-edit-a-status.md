@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 description: As an Adobe Workfront administrator, you can create custom statuses for projects, tasks, and issues.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f

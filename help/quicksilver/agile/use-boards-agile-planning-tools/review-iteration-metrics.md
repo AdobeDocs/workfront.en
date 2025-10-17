@@ -4,7 +4,7 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: Review Iteration Metrics
 description: Metrics are available for each iteration in a workstream, on the iteration process board.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
 ---

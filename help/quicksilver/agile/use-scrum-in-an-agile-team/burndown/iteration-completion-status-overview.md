@@ -4,7 +4,7 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Iteration Completion Status Overview
 description: The completion information described in this article is displayed above the burndown chart.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
 ---

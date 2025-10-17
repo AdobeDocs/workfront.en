@@ -4,7 +4,7 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Deactivate or Reactivate a Group
 description: You can deactivate a group you manage that you no longer use.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971

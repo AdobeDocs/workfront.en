@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Edit User Profiles in Bulk
 description: As an Adobe Workfront administrator, you can edit user accounts in bulk.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c

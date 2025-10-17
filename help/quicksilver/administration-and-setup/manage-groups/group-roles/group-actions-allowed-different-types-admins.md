@@ -4,7 +4,7 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Actions Allowed for Group Administrators
 description: This table compares the administration activities available for an Adobe Workfront administrator managing the Workfront system, a group administrator managing a top-level group, and a group administrator managing a subgroup.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e

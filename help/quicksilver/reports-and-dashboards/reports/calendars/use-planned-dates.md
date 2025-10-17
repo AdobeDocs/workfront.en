@@ -3,7 +3,7 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Use Planned Dates in a Calendar Report
 description: A calendar report is a dynamic report that provides a visual representation of your work. You can use Planned Date fields in a calendar report for tasks, issues, and projects.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 27bf6f03-2f6b-4556-a715-75c4a21bfbbb
 ---

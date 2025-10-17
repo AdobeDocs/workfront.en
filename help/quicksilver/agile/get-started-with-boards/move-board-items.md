@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Manage Cards
 description: You can move a card to any column on the board, or copy a card.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 83dab74f-903f-41b4-97b4-142f13e654e0
 ---

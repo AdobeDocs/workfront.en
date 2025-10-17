@@ -4,7 +4,7 @@ content-type: reference
 navigation-topic: boards
 title: Use Groups on a Board
 description: You can group cards on a board by assignee or by tag. When you select an option to group by, the cards appear in a swimlane format.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
 ---

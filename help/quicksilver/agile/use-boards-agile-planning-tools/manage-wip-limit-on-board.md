@@ -4,7 +4,7 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Manage the Work in Progress (WIP) Limit on a Board
 description: You can configure a Work In Progress (WIP) limit for each column on a board.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 7901c6e7-75a4-41e4-b288-d527c4a6d031
 ---

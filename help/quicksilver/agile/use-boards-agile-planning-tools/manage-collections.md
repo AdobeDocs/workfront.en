@@ -4,7 +4,7 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: Manage Workstreams
 description: A workstream is a configurable group of boards  and cards for collaborating on work.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
 ---

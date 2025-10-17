@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Filter and Search in a Board
 description: You can filter a board to only display only certain cards.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
 ---

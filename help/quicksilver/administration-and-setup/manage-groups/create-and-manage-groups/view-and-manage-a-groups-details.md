@@ -1,7 +1,7 @@
 ---
 title: View and Manage a Group's Details
 description: You can view and edit the Group Details page for a group or subgroup that you manage.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48

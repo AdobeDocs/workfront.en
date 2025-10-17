@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Add Existing Tasks or Issues to a Workfront Board
 description: You can add any task or issue to a board in Adobe Workfront from a list or report view.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
 ---

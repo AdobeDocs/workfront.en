@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: Delete an iteration
 description: You can delete an iteration for your agile team if it is no longer needed.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
 ---

@@ -4,7 +4,7 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Use Custom Statuses as Default Statuses
 description: When a custom status is set as a default status, the new default status is used throughout the system in various ways. The ways in which it's used depends on whether it is set as a default system-level status, or a default group-level status.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
