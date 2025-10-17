@@ -254,6 +254,16 @@ To add a text field:
     <td> If you want to apply a hyperlink to the Descriptive Text you have typed, add it here. The Descriptive text displays as a link on objects where the form is attached.</td>
     <td><ul><li>Descriptive text</li></ul></td>
     </tr>
+    <tr>
+     <td>Active</td>
+     <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
+     <td><ul>
+     <li>Single line text</li>
+     <li>Paragraph</li>
+     <li>Text with formatting</li>
+     <li>Descriptive text</li>
+     </ul></td>
+     </tr>
     <tr> 
       <td role="rowheader">Make a required field</td>
       <td><p>Select this option if you want the field to be required in order for the user to complete the custom form.</p></td>
@@ -1036,9 +1046,13 @@ To add a Planning connection field:
 
     For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
 
+### Add UI Extensions
+
+An app can be embedded on a Workfront custom form using the UI Extensions field type. To create UI Extensions, you must have access to Adobe App Builder in the Adobe Developer Console. For information, see [Embed an app using a Workfront custom form](/help/quicksilver/app-builder/app-builder.md#embed-an-app-using-a-workfront-custom-form) in the article [Create custom applications for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
+
 ## Organize and preview a form with the form designer
 
- For information on how to organize a custom form with section breaks and see a preview of the form, see [Organize and preview a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+For information on how to organize a custom form with section breaks and see a preview of the form, see [Organize and preview a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 
 
