@@ -254,16 +254,6 @@ To add a text field:
     <td> If you want to apply a hyperlink to the Descriptive Text you have typed, add it here. The Descriptive text displays as a link on objects where the form is attached.</td>
     <td><ul><li>Descriptive text</li></ul></td>
     </tr>
-    <tr>
-     <td>Active</td>
-     <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
-     <td><ul>
-     <li>Single line text</li>
-     <li>Paragraph</li>
-     <li>Text with formatting</li>
-     <li>Descriptive text</li>
-     </ul></td>
-     </tr>
     <tr> 
       <td role="rowheader">Make a required field</td>
       <td><p>Select this option if you want the field to be required in order for the user to complete the custom form.</p></td>
