@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Create and Modify a Group's Project Templates
 description: When you are viewing a group that you manage in the Groups area, you can view and work with project templates associated with the group and any of its subgroups.
-author: Caroline
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9

@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: customize-fields-on-card
 title: Customize which Fields are Displayed on a Card
 description: You can customize which fields are displayed on a card by disabling a field so it is not displayed in the full card or condensed view, or hiding a field on the condensed card view.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
 ---

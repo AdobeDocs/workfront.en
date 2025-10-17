@@ -3,7 +3,7 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: "Use notifications: article index"
 description: Review these articles to learn how to use notifications in Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9

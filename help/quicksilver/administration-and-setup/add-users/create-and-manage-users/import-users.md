@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: You can import users to the Adobe Workfront site by synchronizing users from a network directory service (such as Active Directory or another LDAP directory), or you can import users using a spreadsheet import file.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651

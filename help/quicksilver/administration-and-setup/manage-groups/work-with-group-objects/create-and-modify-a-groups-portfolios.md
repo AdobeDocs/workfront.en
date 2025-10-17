@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Create and Modify a Group's Portfolios
 description: As a group administrator, when you are viewing a group that you manage in the Groups area, you can view and work with its portfolios.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080

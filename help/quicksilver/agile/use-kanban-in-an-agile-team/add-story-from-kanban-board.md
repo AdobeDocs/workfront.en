@@ -3,7 +3,7 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: Add Stories and Issues from the Kanban Board
 description: You can quickly create a new story or issue directly from the Kanban board.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 8f12b05c-d132-42ca-b617-bdd14e57acf2
 ---

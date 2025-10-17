@@ -5,7 +5,7 @@ keywords: manage,group,edit,
 navigation-topic: create-and-manage-groups
 title: Manage a Group
 description: As a group administrator, you can manage a group that you administer from the Groups area in Setup. If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505

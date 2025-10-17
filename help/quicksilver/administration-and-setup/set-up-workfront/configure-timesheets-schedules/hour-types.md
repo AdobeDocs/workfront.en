@@ -5,7 +5,7 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Manage Hour Types
 description: You can associate hour types with your hour entries. Hour types are labels you use to define your hour entries. Hour types can be for general time or for project-specific time.
-author: Alina, Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881

@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: View an Iteration
 description: You can view all iterations for a given team, or you can view an individual iteration. Iterations display data about the stories, issues, and documents that are contained in the iteration.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
 ---

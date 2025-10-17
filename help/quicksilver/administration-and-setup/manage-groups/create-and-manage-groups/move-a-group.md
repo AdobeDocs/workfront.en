@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-groups
 title: Move a Group
 description: You can move a group under another group that you manage.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f5227454-457d-40d3-865c-c2551471d83e

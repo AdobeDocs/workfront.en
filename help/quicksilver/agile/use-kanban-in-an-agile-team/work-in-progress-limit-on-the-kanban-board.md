@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: Manage the Work in Progress (WIP) Limit on the Kanban Board
 description: You can configure a Work In Progress (WIP) limit for each column on the Kanban board. The WIP limit is simply a visual warning and does not restrict your team from having more items in each status column than the limit you set.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
 ---

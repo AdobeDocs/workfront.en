@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Manage What Your Team Is Working on
 description: You can see a calendar view of tasks and issues that your team is currently working on. You can assign unassigned items, adjust current assignments, adjust current allocations, and more.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
 ---

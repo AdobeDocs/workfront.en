@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Attach a reminder notification to an object
 description: "You can associate reminder notifications with several different object types: Projects, Tasks, Issues, Timesheets, Templates, Template Tasks, and Recurring Timesheet Profiles."
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
 ---

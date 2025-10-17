@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Use a Custom Status as a Default Status for a Group
 description: As a group administrator, you can configure a custom status as a default status for a group or subgroup that you manage.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda

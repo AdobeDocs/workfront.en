@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Manage Checklist Items on Cards
 description: Using a checklist on a card allows you to break down work into smaller increments or add notes to the card. Checklist items are available on both ad hoc and connected cards.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
 ---

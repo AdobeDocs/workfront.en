@@ -3,7 +3,7 @@ product-previous: mobile
 navigation-topic: mobile-apps
 title: Adobe Workfront Boards for mobile
 description: In the [!DNL Workfront] mobile app, you can see all of the boards you created or have been added to in the desktop version of [!DNL Workfront].
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
 ---
@@ -77,7 +77,7 @@ For example, if you update the name of a connected card on a board in the mobile
 
 ## Work with ad hoc cards
 
-An ad hoc card is not connected to a Workfront task or issue. In the image below, the first card is an ad hoc card.
+An ad hoc card is not connected to a Workfront task or issue. In the image below, the first card is an ad hoc card. 
 
 ![Ad hoc card](assets/mobile-types-of-cards.png)
 

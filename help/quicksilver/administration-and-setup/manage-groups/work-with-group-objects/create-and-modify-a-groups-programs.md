@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Create, Modify, and View a Group's Programs
 description: When you are viewing a group that you manage in the Groups area, you can view and work with its programs.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51111523-8fb7-4379-995e-1834cac51872

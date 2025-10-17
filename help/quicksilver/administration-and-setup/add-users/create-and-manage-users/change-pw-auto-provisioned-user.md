@@ -5,7 +5,7 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Change the Password for an Auto-provisioned User
 description: We recommend that you change a new user's user name to their Workfront mail address, then allow them to change their password.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1

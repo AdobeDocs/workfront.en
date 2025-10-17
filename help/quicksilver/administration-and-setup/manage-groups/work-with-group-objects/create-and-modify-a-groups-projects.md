@@ -5,7 +5,7 @@ keywords: group,projects
 navigation-topic: work-with-a-groups-objects
 title: Create and Modify a Group's Projects
 description: When you are viewing a group that you manage in the Groups area, you can create, edit export, copy, and delete the group's projects.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13

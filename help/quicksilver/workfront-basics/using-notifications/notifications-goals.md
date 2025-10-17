@@ -3,7 +3,7 @@ content-type: reference
 navigation-topic: notifications
 title: 'Notifications: Goals'
 description: 'Notifications: Goals'
-author: Lisa
+author: Courtney, Alina
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
 ---

@@ -3,7 +3,7 @@ content-type: reference
 navigation-topic: home-navigation-topic
 title: 'Use the Home area: Article index'
 description: Review these articles to learn how to use the Home area in Adobe Workfront.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d

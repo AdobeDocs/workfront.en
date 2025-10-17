@@ -3,7 +3,7 @@ product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Configure Kanban
 description: You can configure the following options for Kanban agile teams during or after the team is created.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 ---

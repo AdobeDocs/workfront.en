@@ -3,7 +3,7 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Edit an Existing Calendar Report
 description: You can modify an existing calendar by adding or deleting a link to a project. You can also modify calendar groupings associated with a calendar report.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
 ---

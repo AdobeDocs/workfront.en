@@ -3,7 +3,7 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Add Existing Tasks or Issues to the Kanban Board
 description: You can add any task or issue to a Kanban board if you have Manage access to the project.
-author: Courtney
+author: Jenny
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
 ---

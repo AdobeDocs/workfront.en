@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
 title: Create an Agile Team
 description: Adobe Workfront enables agile teams to complete work in an incremental, organized way.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
 ---

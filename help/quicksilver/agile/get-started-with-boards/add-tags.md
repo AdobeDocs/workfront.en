@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Add Tags
 description: You can add tags to cards to visually show that they are similar. Then you can filter by those tags to display related cards.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
 ---

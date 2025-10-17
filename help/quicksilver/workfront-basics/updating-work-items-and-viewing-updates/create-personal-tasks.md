@@ -3,7 +3,7 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Create Personal Tasks
 description: Personal tasks are ad hoc work requests that you send to a user, to yourself, or to-do items that you create for yourself in your Home area. Workfront saves ad hoc work requests and to do items as personal tasks.
-author: Lisa
+author: Becky
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
 ---

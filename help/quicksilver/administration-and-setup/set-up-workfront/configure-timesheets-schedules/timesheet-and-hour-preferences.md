@@ -4,7 +4,7 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Configure Timesheet and Hour Preferences
 description: As an [!DNL Adobe Workfront] administrator, you can specify preferences for timesheets and hours in [!DNL Workfront] in order to define what items the timesheets can pre-populate with and what items users can log time to.
-author: Alina and Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
