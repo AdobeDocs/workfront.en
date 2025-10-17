@@ -196,6 +196,8 @@ With the following version of the Workfront API scheduled to release later in 20
 * **Actual Hours**: Hours logged for project, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
 * **Legacy Actual Hours**: Hours logged for projects, tasks, or issues any time, including before May 2021. They are stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`.
 
+For information about API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+
   >[!IMPORTANT]
   >
   >The Actual Cost of the project uses Legacy Actual Hours to calculate. 

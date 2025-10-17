@@ -46,13 +46,10 @@ For information about how a workspace manager can create a request form and asso
 <tr> 
    <td role="rowheader"><p>Adobe Workfront packages</p></td> 
    <td> 
-<ul><li><p>Any Workfront package</p></li>
-And
-<li><p>Any Planning package</p></li></ul>
+<p>Any Workfront package and any Planning package</p>
 Or
-<ul><li><p>Any Workflow package</p></li>
-And
-<li><p>Any Planning package</p></li></ul>
+<p>Any Workflow package and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative.</p>
    </td> </tr>
 
   </tr> 

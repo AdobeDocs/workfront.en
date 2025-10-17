@@ -168,7 +168,7 @@ After your organization purchases a Workfront Planning package, as a Workfront a
     
     For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) and [Assign users to a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md). 
 
-* Assign users a Workfront license and Workfront Planning permissions that would allow them to either view or create objects in Workfront Planning. For more information about granting access to and enabling others to use Workfront Planning, see [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+* Assign users a Workfront license and Workfront Planning permissions that would allow them to either view or create objects in Workfront Planning. For more information about granting access to and enabling others to use Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 
 ## Workfront Planning terminology
 
