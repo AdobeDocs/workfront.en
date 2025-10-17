@@ -3,7 +3,7 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Update or Edit a Work Item in the Home Area
 description: You can view and add updates to a work item within the [!UICONTROL Home] area in Adobe Workfront. You can also edit other data related to the work item if you have access to edit it.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
 ---

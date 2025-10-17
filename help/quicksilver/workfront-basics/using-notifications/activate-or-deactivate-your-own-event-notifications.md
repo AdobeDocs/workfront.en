@@ -4,7 +4,7 @@ navigation-topic: notifications
 keywords: modify,email,notification,settings
 title: Modify your own email notifications
 description: This article describes how you can manage your email notifications in your user profile.
-author: Lisa
+author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
 ---

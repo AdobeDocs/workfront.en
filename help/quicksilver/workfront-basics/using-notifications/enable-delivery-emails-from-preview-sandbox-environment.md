@@ -2,7 +2,7 @@
 navigation-topic: notifications
 title: Enable delivery of emails from the Preview Sandbox environment
 description: If you want to receive email notifications from the Preview Sandbox environment, you must enable this functionality in your user settings while you are logged into Preview.
-author: Lisa
+author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
 ---
