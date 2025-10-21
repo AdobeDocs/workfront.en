@@ -118,7 +118,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
          <ul>
          <li>Go to proof</li>
          </ul>
-         You make your decision in the proof viewer. For information about reviewing a proof, see <a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Review proofs within Adobe Workfront</a>.
+         You make your decision in the proof viewer. For information about reviewing a proof, see <a href="/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Review proofs within Adobe Workfront</a>.
       </td>
    </tr>
    </table>
