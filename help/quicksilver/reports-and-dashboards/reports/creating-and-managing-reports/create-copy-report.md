@@ -65,7 +65,7 @@ If you want to make a copy of a custom report, do the following:
 
    ![Copy report](assets/unshimmed-report-actions-copy.png)
 
-   A copy of the original report is created with the default name of _[Name of the original report] (Copy)_. For example, a copy of the report "Q4 Completed Tasks" would be named "Q4 Completed Tasks (Copy)".
+   A copy of the original report is created with the default name of _[Name of the original report]_ _(Copy)_. For example, a copy of the report "Q4 Completed Tasks" would be named "Q4 Completed Tasks (Copy)".
 
 1. (Optional) To rename the report, click **Report Actions** then **Edit**. Type a new name in the text box in the top left corner, then click **Save + Close** when finished.
 

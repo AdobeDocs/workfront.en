@@ -101,12 +101,12 @@ Deleting a user causes the following things to happen:
    * Tasks, issues, projects, portfolio
    * Dashboards
 
-  <!--
+<!--
      >[!NOTE]
      >
      >You also lose access to custom sections that contained dashboards associated to the deleted user.  
      >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
-     -->
+-->
 
    * Updates
    * Hours
