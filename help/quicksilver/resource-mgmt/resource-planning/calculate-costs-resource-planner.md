@@ -144,7 +144,7 @@ Although you cannot view task information in the Resource Planner, the Planned C
 
 The following scenarios exist when calculating the Planned Cost for users, roles, and the project:
 
-* When the **Cost Type** is **User Hourly **and there is **no assignment** on the task:
+* When the **Cost Type** is **User Hourly** and there is **no assignment** on the task:
 
    * **Role and user Planned Cost**:
 

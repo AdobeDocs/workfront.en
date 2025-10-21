@@ -26,9 +26,8 @@ For information about layout templates for groups, see [Create and modify a grou
 >[!NOTE]
 >
 >A Workfront administrator can make the same branding customizations for the entire organization at the system level, as explained in [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). But branding in a layout template overrides system-level branding.
-><!--
->Maybe add a section about deleting these 2 settings to revert to default branding?
->-->
+
+<!-- Maybe add a section about deleting these 2 settings to revert to default branding? -->
 
 ## Access requirements
 

@@ -99,7 +99,7 @@ To add the Status Icons field to a custom view that you build from scratch:
 
    * *Status Icons*
    * *Flags*
-   * *View Icons *(only in Document views).
+   * *View Icons* (only in Document views).
 
    The built-in icons are listed under any of these names.  
    A Template view contains both the **Status Icons** and the **Flags** fields. In this case, the two columns contain identical icons.   

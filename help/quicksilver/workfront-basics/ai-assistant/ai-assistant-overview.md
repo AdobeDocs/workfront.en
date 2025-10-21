@@ -143,10 +143,10 @@ When entering your prompt, include the phrase `using (keyword)`.
 | Keyword | Effect |
 |---|---|
 |`workfront` | Interacts with Workfront. |
-|`planning ` | Interacts with Workfront Planning. |
+|`planning` | Interacts with Workfront Planning. |
 |`help`| Returns information from Experience League documentation. |
 |`formula`| Checks and returns formulas for use in Planning, Setup, or custom forms. |
-| `health`| Checks project health with Project Health Advisor. |
+|`health`| Checks project health with Project Health Advisor. |
 |`summarize`| Summarizes items, such as when uploading a file or summarizing a project. | 
 
 >[!NOTE]

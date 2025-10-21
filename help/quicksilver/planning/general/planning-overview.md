@@ -384,6 +384,7 @@ For an up-to-date list of released features, see [Adobe Workfront Planning relea
 
 * [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md): An index of all articles that contain documentation about Workfront Planning, grouped by area of interest. 
 * [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): With the Workfront AI Assistant for Planning you can search for records, or create, update, and delete records by using commands and letting the assistant do the work for you. 
+
     <!--
     >[!NOTE]
     >

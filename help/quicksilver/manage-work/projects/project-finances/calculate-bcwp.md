@@ -77,7 +77,7 @@ You can configure whether the BCWP is calculated in hours or costs by configurin
    | Hour-Based |Workfront calculates the BCWP using the Planned Hours of the tasks. |
    | Cost-Based |Workfront calculates the BCWP using the Planned Cost of the tasks. |
 
-  1. Click **Save Changes**.
+1. Click **Save Changes**.
 
    The BCWP of the tasks on the project is calculated using hours or costs.
 

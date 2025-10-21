@@ -20,13 +20,9 @@ For information about manually generating timesheets for all users in the system
 >[!NOTE]
 >
 >* Single-use timesheets cannot be created for groups.
->  <!--
->  <span>Making sure with Lilit that this is correct</span>>
->  -->
 >* When creating a single-use timesheet, you cannot select specific general hour types to include in your timesheet. All general hour types that are activated in your system display in timesheets created manually. 
 >
->  If you want to select only certain general hour types to display in your timesheets, use a timesheet profile. For more information about timesheet profiles, see [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
->
+>If you want to select only certain general hour types to display in your timesheets, use a timesheet profile. For more information about timesheet profiles, see [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Access requirements
 
