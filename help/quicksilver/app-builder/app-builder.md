@@ -107,12 +107,16 @@ Additional instructions are available on GitHub and the Adobe Developer site:
 1. Launch your terminal and log in to AIO with the command: `aio login`. If you have issues logging into the correct IMS org, try `aio login -f` to force a login prompt. Use `aio where` to see which organization you are logged into the correct IMS org. for more details, use `aio config`.
 1. Begin setting up your app by running: `aio app init example-app` be sure to replace "example-app" with your app name. If you are not sure of app names, you can see a list of app names with the command `aio console project list`.
 1. Select your Organization and Project from the provided options.
+
     ![command result](assets/1-command-result.png)
     ![Select a project](assets/2-select-a-project.png)
 
 1. Browse all available templates and choose the **@adobe/workfront-ui-ext-tpl** for your project.
+
     ![Choose a template](assets/3-choose-template.png)
+
 1. Select and enter the project name you created in the Adobe Developer Console.
+
     ![select and enter project name](assets/4-select-and-enter-project-name.png)
 
 1. Answer the prompts for the application:  
@@ -125,7 +129,9 @@ Additional instructions are available on GitHub and the Adobe Developer site:
     ![select done](assets/5-select-done.png)
 
 1. Confirm completion by selecting I'm done. The code generation from the template is in process.
+
     ![generation in process](assets/6-generation-in-process.png)
+
 1. Wait until you see a message that the app initialization is finished. Then you can open the project in an IDE (Visual Studio Code is recommended) and access the src folder.  
 
     For more information on the folders and files in your project, see the [Adobe developer site](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
@@ -175,7 +181,9 @@ In the ExtensionRegistration function you should see the following code. This co
     ```
 
 1. Add the following code snippet:
+
     ![code snippet ](assets/7-extension-registration-step1-from-sam.png)
+
     This example shows a Main Menu Item. You must update the ID, label, icon, and URL to the correct names for your application. When adding multiple items make sure that the ID is unique.
 
 1. Save your work. 
@@ -188,31 +196,29 @@ To allow custom applications in the Workfront left panel navigation:
 1. In the ExtensionRegistration function, add the following code snippet:
 
     ```
-    secondaryNav: {  
-
+    secondaryNav: {
+    
     TASK: {  
-
+    
         getItems() {       return [         {           id: "TASK", 
-
+    
     label: "My TASK",           icon: metricsIcon,           url: "/myTask",  
-
+    
             },  
-
+    
         ];  
-
+    
         },  
-
+    
     },  
-
+    
     },  
-
     ```
 
-    ![extension registration](assets/8-extension-registration-file-step2.png)
+   ![extension registration](assets/8-extension-registration-file-step2.png)
 
-    * This example shows a left panel navigation item called My Task. You must update the ID, label, icon, and URL to the correct names for your application.  
-
-    * This example shows a left panel navigation item for the Project object type. You must create these items separately for each object where they are supported in Workfront. The following objects are available: project, task, issue, portfolio, and program.  
+   * This example shows a left panel navigation item called My Task. You must update the ID, label, icon, and URL to the correct names for your application.  
+   * This example shows a left panel navigation item for the Project object type. You must create these items separately for each object where they are supported in Workfront. The following objects are available: project, task, issue, portfolio, and program.  
 
 1. Save your work.
 
@@ -406,7 +412,7 @@ Shared context is used to share data from Workfront to a UI extension. The data 
 
 Workfront's UI Extensions share user data. The user object available through shared context includes a Workfront user ID and the user's email address.  
 
-`user = (conn?.sharedContext?.get("user")); // {ID: '1', email: 'test@aaa.com'} userID = user.ID userEmail = user.email `
+`user = (conn?.sharedContext?.get("user")); // {ID: '1', email: 'test@aaa.com'} userID = user.ID userEmail = user.email`
 
 ### Application context 
 
@@ -414,7 +420,7 @@ When adding a custom application using a Secondary Navigation extension point it
 
 Here is an example for getting the application context for documents: 
 
-`context = conn?.sharedContext; // Using the connection created above, grab the document details from the host tunnel. // conn?.host?.document?.getDocumentDetails().then(setDocDetails); `
+`context = conn?.sharedContext; // Using the connection created above, grab the document details from the host tunnel. // conn?.host?.document?.getDocumentDetails().then(setDocDetails);`
 
 ## Test the app in Workfront  
 

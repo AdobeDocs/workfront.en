@@ -182,7 +182,7 @@ To log in to [!DNL Workfront] from [!DNL Slack]:
 
       Logs you in to [!DNL Workfront] from [!DNL Slack]. 
 
-   * `/wf log out `
+   * `/wf log out`
 
       Logs you out of [!DNL Workfront] from [!DNL Slack]. You remain logged in to [!DNL Workfront] if you have a separate [!DNL Workfront] instance open in another browser tab on in another application. 
    * `/wf settings`

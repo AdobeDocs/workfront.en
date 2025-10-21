@@ -21,7 +21,7 @@ The following payment options are available:
 | **Monthly subscriptions** | **Annual subscriptions** |
 |---|---|
 | credit card | credit card |
-| bank transfer |
+| bank transfer ||
 
 {style="table-layout:auto"}
 
