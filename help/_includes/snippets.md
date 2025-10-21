@@ -163,6 +163,7 @@ To set up linked folders:
 ## Prerequisites {#cc-install-prereq}
 
 You must install the correct plugin for the Adobe Creative Cloud application you're using:
+
 * For Photoshop, see [Install Adobe Workfront for Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * For XD, see [Install Adobe Workfront for XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * For InDesign, Illustrator, Premiere Pro, and After Effects see [Install Adobe Workfront for design and video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -362,6 +363,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 ## Latest DPV Version {#latest-version}
 
 **Latest version**: 
+
 * Mac: 2.1.52 as of 7/31/2025
 * Windows: 2.1.52 of 7/31/2025
 
