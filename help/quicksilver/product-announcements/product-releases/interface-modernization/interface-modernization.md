@@ -42,6 +42,8 @@ For information, see [Create and edit risks on projects](/help/quicksilver/manag
 
 **Preview release: October 23, 2025; Production release for all customers: Starting the week of October 30, 2025**
 
+<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. -->
+
 We have updated the look and feel of the personal time off calendar, including the ability to delegate approvals, to match other areas of the application.
 
 To view these changes, go to your user profile and click **Time Off** in the left panel.
