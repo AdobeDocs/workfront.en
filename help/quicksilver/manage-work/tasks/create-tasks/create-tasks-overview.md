@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: create-tasks
-title: Create tasks overview
+title: Create Tasks Overview
 description: You can create tasks in a project only after you created the project.
 author: Alina
 feature: Work Management
@@ -80,7 +80,7 @@ When defining default information to be associated with tasks added to a project
 * When you copy tasks from one project to another and the destination project has different default settings for tasks, the copied tasks preserve the default settings from the original project, unless they are cleared in the copying process.
 * When you duplicate a task on the same project, the custom forms and approval process are transferred to the duplicate task.
 
-  For information about copying and duplicating tasks, see [ [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  For information about copying and duplicating tasks, see [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 * When you move the task to another project, the default task settings are saved on the tasks from the original project, regardless of the task default settings on the new project.
 

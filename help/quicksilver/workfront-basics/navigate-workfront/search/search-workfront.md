@@ -3,7 +3,7 @@ navigation-topic: search
 title: Search [!DNL Adobe Workfront]
 description: You can easily locate items in [!DNL Adobe Workfront] by searching for them when you can't remember their exact location.
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
 ---
 # Search [!DNL Adobe Workfront]
@@ -27,16 +27,13 @@ You must have permissions to View an object before you can find it in a search. 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: Contributor or higher<p>
-   <p>Or</p>
-   <p>Current: Request or higher </p>
-   
-   
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Contributor or higher<p>
+   <p>Request or higher </p>
    </td> 
   </tr> 
   <tr> 

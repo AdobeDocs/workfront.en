@@ -35,70 +35,39 @@ For information about how a workspace manager can create a request form and asso
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view access requirements for the functionality in this article. 
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Products</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront Planning<p></li></ul></td>
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront packages</p></td> 
+   <td> 
+<p>Any Workfront package and any Planning package</p>
+Or
+<p>Any Workflow package and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative.</p>
+   </td> </tr>
+
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>External, Contributor, Light, or Standard license</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>View or higher permissions to a workspace and record type, if you are a Workfront user</p>  </td> 
   </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
-   <td>
-<p>Any of the following Workfront plans:</p>
-<ul><li>Select</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning is not available for legacy Workfront plans</p>
-   </td>
-<tr>
-   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td>
-   <td>
-<p>Any </p>  
-<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </td>
-<tr>
-   <td role="rowheader"><p>Adobe Workfront platform</p></td>
-   <td>
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p>
-<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
-   </td>
+</tbody> 
+</table> 
 
-  </tr>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>External, Contributor, Light, or Standard license</p>
-   <p>Workfront Planning is not available for legacy Workfront licenses</p>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td>
-   <p>View or higher permissions to a workspace and record type, if you are a Workfront user</p> 
-  </td>
-  </tr>
- </tbody>
-</table>
-
-*For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Prerequisites
 
@@ -164,17 +133,9 @@ The following must be in place before you can submit a request to a Workfront Pl
    The **New request** box opens with the following information: 
 
    * The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. 
-   * 50 additional Workfront request queues and Planning request forms display in alphabetical order in the **All request forms** section. You can search for a request queue that does not display by default. 
+   * 50 additional Workfront request queues and Planning request forms display in alphabetical order in the **All request forms** section. You can search for a request queue that does not display by default.
 
-1. In The Production environment, do one of the following:
-
-   * Select the Planning request forms in the Recent or All request forms sections
-   * Start typing the name of a Planning request form in the search box, then click the card when it displays in the list. 
-
-   The request form opens.
-
-<!-- Put preview section here-->
-1. <span class="preview">In the Preview environment, select a request form or queue from the Recently accessed request forms area, or begin typing the form or queue name in the list, then select it when it appears.
+1. Select a request form or queue from the Recently accessed request forms area, or begin typing the form or queue name in the list, then select it when it appears.
 
 1. Update the fields available in the request form. Fields with a red asterisk are required. 
 1. Click **Submit**.
@@ -243,16 +204,9 @@ The following must be in place before you can submit a request to a Workfront Pl
 
       The request details page opens. 
    
-      ![Request details page](assets/request-details-page.png) 
-
-      <div class="preview">
-      In preview:
-   
       ![Request page with comment](assets/new-request-page-with-comment.png)
-
-      </div>            
-      
-1. <span class="preview">(Optional) Enter a comment in the Comments area.
+    
+1. (Optional) Enter a comment in the Comments area.
 1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
 
    The record's page opens in Workfront Planning. 
@@ -314,16 +268,11 @@ The following must be in place before you can submit a request to a Workfront Pl
 
    The request details page opens. 
 
-   ![Request details page](assets/request-details-page.png)
-
-   <div class="preview">
-   In preview:
-   
    ![Request page with comment](assets/new-request-page-with-comment.png)
 
-   </div>
+  
 
-1. <span class="preview">(Optional) Enter a comment in the Comments area.
+1. (Optional) Enter a comment in the Comments area.
 1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
 
    The record's page opens in Workfront Planning. 

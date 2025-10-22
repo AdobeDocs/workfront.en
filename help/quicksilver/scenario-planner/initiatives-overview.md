@@ -2,7 +2,7 @@
 content-type: overview
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Initiatives overview in the Scenario Planner
+title: Initiatives Overview in the Scenario Planner
 description: The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Scenario Planner overview.
 author: Alina
 feature: Workfront Scenario Planner
@@ -39,11 +39,6 @@ Consider the following when creating initiatives:
 * You can create multiple initiatives in a plan. With each initiative, you can outline a high-level strategy to accomplish the work in your department. 
 * You can prioritize initiatives within a plan, to ensure that the most important initiative receives the most budget and the most resources. 
 * When you create initiatives within a plan everyone that views that plan can also view all the initiatives within the plan.
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change when we add to the access levels granularity)</p>
-  -->
-
 * You can publish initiatives to create projects or to update the projects that are linked to them. For information about publishing initiatives, see [Update or create projects by publishing initiatives in the [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
 ## Financial information about initiatives

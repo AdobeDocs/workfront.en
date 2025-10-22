@@ -2,9 +2,9 @@
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
-title: Calculation example - Calculate EAC as a roll up from tasks
-description: PIM = Hour-Based
-author: Alina
+title: Calculation Example - Calculate EAC as a Roll up from Tasks
+description: This article gives an example of calculating the Estimate At Completio (EAC) of a project as a roll-up from all the tasks on the project in Adobe Workfront.
+author: Lisa
 feature: Work Management
 exl-id: 68b582c9-f72a-4000-9d28-f7dafa23541f
 ---

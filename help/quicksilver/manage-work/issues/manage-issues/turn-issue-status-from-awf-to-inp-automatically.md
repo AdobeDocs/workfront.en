@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Automatically update issue statuses from Awaiting Feedback to In Progress
+title: Automatically Update Issue Statuses from Awaiting Feedback to In Progress
 description: When the Primary Contact of an issue makes an update to the issue by either updating a field (including a custom field) or adding a comment, the issue status updates to In Progress automatically.
 author: Alina
 feature: Work Management

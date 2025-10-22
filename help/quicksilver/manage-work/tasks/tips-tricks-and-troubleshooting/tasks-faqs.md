@@ -3,7 +3,7 @@ content-type: faq
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
 title: Tasks FAQs
-description: By default, a task requester/ assigner does not receive email notifications for the changes on the tasks that they assign to other users. The amount of notifications on these tasks would be overwhelming for someone who assigns a large number of tasks routinely.
+description: This article provides a list of the most frequently-asked questions about tasks in Adobe Workfront. 
 author: Alina
 feature: Work Management
 exl-id: 6463efdd-02e0-42e1-8fe6-18a88f74db7b

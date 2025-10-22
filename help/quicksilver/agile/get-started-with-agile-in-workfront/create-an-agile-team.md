@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
 title: Create an Agile Team
 description: Adobe Workfront enables agile teams to complete work in an incremental, organized way.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
 ---
@@ -25,8 +25,6 @@ Any user in the organization can see the agile team and view all agile component
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,15 +32,14 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: Standard</p>
-   Current: 
-   <ul><li><p>[!UICONTROL Plan] to create a new agile team</p></li> 
-   <li><p>[!UICONTROL Work] or higher to convert a team to an agile team</p></li></ul> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+   <p>Plan to create a new agile team</p>
+  <p>Work or higher to convert a team to an agile team</p> </td> 
   </tr> 
  </tbody> 
 </table>

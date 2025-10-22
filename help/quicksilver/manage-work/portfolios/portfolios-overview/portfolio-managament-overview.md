@@ -15,7 +15,7 @@ exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
 
 Portfolio or Project Portfolio Management (PPM) is the process of prioritizing and managing a list of projects in order to achieve specific business objectives. 
 
-This article describes the general concepts for portfolio management. For general information about the management of portfolios in Adobe Workfront, see [Portfolio overview in Adobe Workfront](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md). 
+This article describes the general concepts for portfolio management. For general information about the management of portfolios in Adobe Workfront, see [Understand portfolio methodology](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md). 
 
 A portfolio is a collection of projects with common business goals. The result of an effective PPM methodology allows executives to:
 
@@ -57,7 +57,7 @@ For more information about creating a business case and a project request, see [
 
 After you submit the project request, the Portfolio Manager or an executive team reviews it, and decides whether to approve the project. If they approve the project, the project is selected for a company Project Portfolio.
 
-For more information about portfolios, see [Portfolio overview in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). For more information about approving a Business Case, see [Approve a Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+For more information about portfolios, see [Understand portfolio methodology](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). For more information about approving a Business Case, see [Approve a Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ### Portfolio Optimization {#portfolio-optimization}
 

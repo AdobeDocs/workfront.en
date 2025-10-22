@@ -10,8 +10,6 @@ exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 ---
 # Assign tasks
 
-{{preview-fast-release-general}}
-
 <!--Audited: 07/2024-->
 
 You can assign tasks to users, job roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
@@ -46,35 +44,33 @@ In addition to this article, we recommend that you read the following articles f
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Standard</p>
-   <p>Current: Work or higher</p>
+   <td>Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+   <p>Work or higher</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td> <p>Edit access to Projects and Tasks</p> <p>View or higher access to Users</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td>Contribute or higher permissions to the task</td> 
-  </tr> 
- </tbody> 
+   <td>Object permissions</td>
+   <td>Contribute or higher permissions to the task</td>
+  </tr>
+ </tbody>
 </table>
 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 +++
 
 ## Considerations for multiple assignments to job roles, teams, and users
@@ -202,7 +198,7 @@ To assign tasks in a list:
       <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. (Conditional) In the Assignments field, click <span class="preview">**Advanced**</span> or the **People icon** ![People icon](assets/teams.png) in the upper-right corner of the assignments box to open the **Advanced Assignments** box and create advanced assignments.
+1. (Conditional) In the Assignments field, click **Advanced** at the bottom of the list, or the **People icon** ![People icon](assets/teams.png) in the upper-right corner of the assignments box, to open the **Advanced Assignments** box and create advanced assignments.
 
    For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 

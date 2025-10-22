@@ -11,51 +11,48 @@ exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
 ---
 # Deactivate or reactivate a company
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+
 You can deactivate a company that you no longer use while retaining all of its associated historical data. If you deactivate a company already in use somewhere in the system, it continues to function just like it always has. It is not removed or blocked.
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto">
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Workfront] plan</p> </td> 
-   <td><p>Current: [!UICONTROL Team] or higher</p>
-   <p>Or</p>
-   <p>New: Any</p>
+   <td> <p>[!DNL Workfront] package</p> </td> 
+   <td><p>Any</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] license</p> </td> 
-   <td><p>Current: [!UICONTROL Plan]</p>
-   <p>Or</p>
-   <p>New: [!UICONTROL Standard]</p>
+   <td> <p>[!DNL Adobe Workfront] license</p> </td> 
+   <td><p>[!UICONTROL Plan]</p>
+   <p>[!UICONTROL Standard]</p>
    </td> 
   </tr>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Access level configurations</strong> </td> 
-   <td> <p>One of the following:</p> 
+  <tr> 
+   <td>Access level configurations</td> 
+  <td> <p>You must have one of the following:</p> 
     <ul> 
      <li> <p>The [!UICONTROL System Administrator] access level, which allows you to edit any company in the system.</p> </li> 
      <li> <p>Administrative access to manage companies, which allows you to edit any company in the system.</p> </li> 
-    </ul> <p><b>NOTE</b>:  
+    </ul> <p><b>NOTE</b>:
      <ul> 
       <li> <p>You can also manage companies associated with any group where you are assigned as a group administrator.</p> </li> 
-      <li> <p>In order to add to and remove users from the [!DNL Workfront] system, you must have one of the following:</p> 
+      <li> <p>To add and remove users from the [!DNL Workfront] system, you must have one of the following:</p> 
        <ul> 
-        <li> <p>The [!UICONTROL System Administrator] access level.</p> </li> 
-        <li> <p>In your access level, [!UICONTROL Edit] must be selected for the [!UICONTROL Users] setting. Also, for the [!UICONTROL Users] setting, under [!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png"> , the [!UICONTROL Create] option and at least one of the two [!UICONTROL User Admin] options must be enabled. </p> <p> <img src="assets/access-req-users.png"> </p> <p>If you are using the [!UICONTROL User Admin (Group Users)] option, you must be a group administrator of a group where the user is a member.</p> </li> 
+        <li> <p>The [!UICONTROL System Administrator] access level. </p> </li> 
+        <li> <p><b>[!UICONTROL Users]</b> setting in your access level configured to <b>[!UICONTROL Edit]</b> access, with <b>[!UICONTROL Create]</b> and at least one of the two <b>[!UICONTROL User Admin]</b> options enabled under <b>[!UICONTROL Fine-tune your settings]</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Of these two options, if <b>[!UICONTROL User Admin (Group Users)]</b> is enabled, you must be a group administrator of a group where the user is a member.</p> </li> 
        </ul>
        </li> 
-     </ul> </p> </td> 
+     </ul> </p> </td>
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,8 +63,8 @@ For more detail about the information in this table, see [Access requirements in
 1. In the left panel, click **[!UICONTROL Companies]** ![Companies icon](assets/companies-icon-left-panel.png).
 
 1. Select one or more companies to deactivate or reactivate.
-1. Click **[!UICONTROL Edit]**.
-1. For a single company, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.
+1. Click **[!UICONTROL Edit]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
+1. For a single company, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it. <!--ADD TO THE FRONT OF THIS SENTENCE In the Production environment, -->
 
    Or
 

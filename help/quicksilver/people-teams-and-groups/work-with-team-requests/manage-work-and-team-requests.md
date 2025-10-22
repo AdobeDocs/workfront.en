@@ -4,7 +4,7 @@ product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
 title: Manage Work and Team Requests
 description: A request represents a pending task or issue assignment. Work requests are made to individuals, and team requests are made to teams.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
 ---
@@ -20,27 +20,23 @@ A request represents a pending task or issue assignment. Work requests are made 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td>
    <p>To assign or work on a request:
-   <p>New: Light or higher</br>
-    or</br>
-   Current: Review or higher</p>
+   <p>Light or higher</p>
+  <p>Review or higher</p>
    <p>To reassign a request:
-   <p>New: Standard</br>
-    or</br>
-   Current: Work or higher</p></td>
+   <p>Standard</p>
+   <p>Work or higher</p></td>
   </tr> 
  </tbody> 
 </table>

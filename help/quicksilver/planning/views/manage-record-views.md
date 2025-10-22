@@ -10,12 +10,13 @@ exl-id: 77342724-0182-4134-903b-4428d54cdceb
 
 # Manage record views
 
-<!-- take preview and production references out at production-->
+<!--
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+-->
 
 {{planning-important-intro}}
 
@@ -48,8 +49,50 @@ For more information about managing Workfront Planning record views, also see th
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view the access requirements for the functionality in this article. 
 
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr> 
+</tbody> 
+</table> 
+
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+
+<!--Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -111,11 +154,7 @@ For more information about managing Workfront Planning record views, also see th
 </td>
   </tr>
 </tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
+</table>-->
 
 ## Considerations when working with record views
 
@@ -154,19 +193,19 @@ The following table shows the similarities and differences between the table, ti
 | Display records in a timeline        |            |      ✓        |             | 
 | Filter records            |     ✓     |✓             |    ✓       |
 | Display records on a calendar                               |           |              |        ✓|
-| Group records                                      |      ✓     | ✓             |
-| Sort records                                       | ✓          |              |
+| Group records                                      |      ✓     | ✓             ||
+| Sort records                                       | ✓          |              ||
 | Color-code records                    | ✓         | ✓              |          ✓     |
-| Color-code groupings                     |           | ✓              |
-| Search for specific records                     |  ✓         | ✓              |
+| Color-code groupings                     |           | ✓              ||
+| Search for specific records                     |  ✓         | ✓              ||
 | Share the view with others                     |  ✓         | ✓              |       ✓     |
 | Open the record's page from the view                    |  ✓         | ✓              |    |
 | Display records by year and quarter                    |           | ✓              |    |
 | Display records by month                    |           | ✓              |  ✓  |
 | Display records by week                    |           |               |  ✓  |
 |Export information from a view                   | ✓         |               |    |
-|<span class="preview">Display in full screen</span>                  | ✓         |   ✓            | ✓   |
-|<span class="preview">Create records in the view</span>                  | ✓         |   ✓            | ✓   |
+|Display in full screen                  | ✓         |   ✓            | ✓   |
+|Create records in the view                  | ✓         |   ✓            | ✓   |
 
 ## Create or edit views {#create-or-edit-views}
 
@@ -183,10 +222,7 @@ The following table shows the similarities and differences between the table, ti
 
     By default, all the records of the selected type display in the table view. 
 
-1. Depending on which environment you use, do the following: 
-
-    * In the Production environment, click the **+View** tab. 
-    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>
+1. Click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.
     
 1. Select from the following types of views: 
 
@@ -194,9 +230,7 @@ The following table shows the similarities and differences between the table, ti
     * Timeline
     * Calendar
 
-    In the Production environment, a new tab is created with the selected view. 
-
-    Depending on the width of your screen, additional views might display in the **More** menu ![More menu](assets/more-menu.png).   
+1. Choose a view type, then click **Create**. A new view is added to the drop-down menu.   
 
     >[!TIP]
     >
@@ -205,16 +239,14 @@ The following table shows the similarities and differences between the table, ti
     >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. 
     >
     >Otherwise, the Timeline and the Calendar options are dimmed.
-    >
+    >  
 
-    <span class="preview">In the Preview environment, choose a view type, then click **Create**. A new view is added to the drop-down menu. </span>    
+    ![Create view box](assets/create-view-box.png)   
 
-    <span class="preview">![Create view box](assets/create-view-box.png)</span>    
+1. (Optional) To edit an existing view, click the drop-down menu to the right of the current view's name, then type the name of a view in the **Search** field and press Enter on your keyboard.
+1. (Optional) From the view dropdown menu, drag and drop views in order of your preference.
 
-1. <span class="preview">To edit an existing view, type the name of a view in the **Search** field and press Enter on your keyboard.</span>
-1. <span class="preview">From the view dropdown menu, drag and drop views in order of your preference.</span>
-
-    <span class="preview">![View types drop-down from record type list](assets/view-types-drop-down-from-record-type-list.png)</span>
+    ![View types drop-down from record type list](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Conditional) Click **Next**, when creating a timeline or calendar view.
     
@@ -248,7 +280,7 @@ The following table shows the similarities and differences between the table, ti
 
     Double-click the view name and start typing the new name.  <!--ensure there is not another saving step here?!-->
 
-1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open any view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+1. (Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open any view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen. 
 
 1. (Optional) To manage a specific type of view, see the following articles: 
 

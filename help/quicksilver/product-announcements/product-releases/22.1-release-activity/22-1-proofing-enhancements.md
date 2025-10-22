@@ -25,11 +25,11 @@ For a list of all changes available with the 22.1 release, see [22.1 Release ove
 
 >[!NOTE]
 >
->Released to EMEA customers with integrated proofing created before July 6th, 2021 only. This functionality coming to Preview in a phased rollout beginning January 13 and ending January 17 for the following customers: >
+>Released to EMEA customers with integrated proofing created before July 6th, 2021 only. This functionality coming to Preview in a phased rollout beginning January 13 and ending January 17 for the following customers: 
+>
 >* EMEA customers with both integrated and standalone proofing
 >* EMEA customers with integrated proofing created after July 6th, 2021
 >* All U.S. customers
->
 
 To provide a more integrated experience between Workfront and Proof, we've made several improvements regarding proofing capabilities for Reviewers and Requestors:
 

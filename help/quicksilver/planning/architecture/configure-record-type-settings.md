@@ -1,22 +1,13 @@
 ---
-title: Configure Record Type Settings
-description: You can edit record types after they have been saved in the Settings page. 
-hide: yes
-hidefromtoc: yes
----
-
-<!--add better metadata at release:
-
-title: Configure Record Type Settings
-description: You can edit record types after they have been saved in the Settings page. 
+title: Configure the Settings Area of a Record Type
+description: In addition to editing a record type in the Edit record type box, you can also edit record types in the Settings page. 
 feature: Workfront Planning
 role: User, Admin
 author: Alina
-recommendations: noDisplay, noCatalog 
+recommendations: noDisplay, noCatalog
+---
 
--->
-
-# Configure Record Type Settings
+# Configure the Settings area of a record type
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -26,7 +17,7 @@ recommendations: noDisplay, noCatalog
 
 You can configure additional settings for a record type after they have been saved in Adobe Workfront Planning. 
 
-Depending on what capabilities you want to define for a record type, you can configure additional settings for it by doing one of the following:
+Depending on what capabilities you want to define for a record type, you can configure additional settings by doing one of the following:
 
 <!--the above will need to be reworded when we add automations and manage request forms to this area-->
 
@@ -40,7 +31,7 @@ Depending on what capabilities you want to define for a record type, you can con
 
 ## Access requirements
 
-+++ Expand to view the access requirements for the functionality in this article.
++++ Expand to view the access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -50,23 +41,27 @@ Depending on what capabilities you want to define for a record type, you can con
 <tbody> 
     <tr> 
 <tr> 
-
-  </tr>   
+</tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul><li><p>Any Workfront package</p></li>
-<p>And</p>
-<li><p>Any Planning package to create connectable record types</p></li>
-<li><p>Planning Plus package to create centralized record types</p></li>
-</ul>
-Or:
-<ul><li><p>Any Workflow package</p> </li>
-And
-<li><p>Planning Prime or Ultimate package</p></li></ul>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
-   </td> 
+<p>Any Workfront and Planning package</p>
+<p>Any Workfront and Planning package</p>
+<p><b>NOTE</b></p>
+<p>To configure connectable record types: </p>
+<ul> 
+<li><p>Any Workfront package and any Planning package</p></li>
+<p>Or</p>
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
 
+<p>To configure global record types:</p>
+
+<ul> 
+<li><p>Any Workfront package and a Planning Plus package</p></li>
+<p>Or</p>
+<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p>
+   </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Standard</p>
@@ -74,15 +69,15 @@ And
   </tr> 
   <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Manage permissions to a workspace</a> </p>  
+   <td>   <p>Manage permissions to a workspace</p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table> 
+</table>
 
 For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++    
 
 <!--Old:
 
@@ -160,12 +155,16 @@ You can define cross-workspace capabilities for a record type by configuring inf
 1. Do one of the following:
 
    * Hover over the card of a record type and click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the record type card, then click **Settings**
+
+      ![More menu options from record type card](assets/more-menu-options-from-record-type-card-with-settings-link.png)
+
       Or
+
    * Click a record type card to open the record type page, click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name, then click **Settings**.
 
-   <!--update screen shot at release-->
+   <!--update screen shot at prod??-->
 
-   ![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)
+   ![Cross-workspace settings on Settings page](assets/settings-page-cross-workspace-settings.png)
 
 1. The **Cross-workspace settings** section is selected by default.
 1. Turn on or off one of the following settings:
@@ -175,4 +174,4 @@ You can define cross-workspace capabilities for a record type by configuring inf
 
     The settings are turned off by default. 
 
-    For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+    For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)

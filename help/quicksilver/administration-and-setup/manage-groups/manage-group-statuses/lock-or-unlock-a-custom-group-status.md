@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Locked and Unlocked Group Statuses
 description: Locking a group's custom statuses is a way to ensure that people in the group and its subgroups are using the same processes in their flow of work. When a group status is locked, it's available to all users in the group and in lower groups.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d

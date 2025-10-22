@@ -3,14 +3,12 @@ product-area: projects
 navigation-topic: manage-issues
 title: Assign issues
 description: You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see Modify issue assignments overview.
-author: Alina
+author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
 ---
 # Assign issues
-
-{{preview-fast-release-general}}
 
 <!--Audited: 07/2024-->
 
@@ -45,31 +43,29 @@ Assigning issues and tasks is similar in Adobe Workfront. For general informatio
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Adobe Workfront package</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Contributor or higher</p>
-   <p>Current: Review or higher</p> </td> 
+   <td>Adobe Workfront license</td> 
+   <td> <p>Contributor or higher</p>
+   <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level</td> 
+   <td>Access level configurations</td> 
    <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks to assign one issue</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td>Object permissions</td> 
    <td> <p>Manage permissions to the issue</p> <p> View permissions or higher to the project or task where the issue is located, when assigning one issue</p><p>Contribute permissions or higher to the project or task where the issue is located, when assigning multiple issues.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -165,12 +161,8 @@ To assign issues in a list:
      ![Assigned to field](assets/assigned-to-field-task-list-nwe.png)
 
    * Click inside the **Assignments** field and start typing the name of an active user, job role, or active team that you want to assign to the issue, then click it when it displays in the list.
-
-     <span class="preview">Sample image in the Preview environment:</span>
+   
      ![Assignments field](assets/assignments-field-0825.png)
-
-     Sample image in the Production environment:
-     ![Assignments field](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >
@@ -180,7 +172,7 @@ To assign issues in a list:
    >
    >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-1. (Conditional) In the Assignments field, click <span class="preview">**Advanced**</span> or the **People icon** ![People icon](assets/teams.png) in the upper-right corner of the assignments box to open the Advanced Assignments box and create advanced assignments. For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Conditional) In the Assignments field, click **Advanced** at the bottom of the list, or the **People icon** ![People icon](assets/teams.png) in the upper-right corner of the assignments box, to open the Advanced Assignments box and create advanced assignments. For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >

@@ -16,43 +16,6 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-<!--## Centralized record types
-
->[!NOTE]
->
->Preview: October 2, 2025
->Production fast release: October 15, 2025
->Production for everyone:  October 16, 2025
-
-When implementing Workfront Planning for a multi-team organization with common workflows, you might need to define a cohesive structure and metadata for key record types (like Campaigns or Deliverables) that can be added to each team's workspaces to capture and manage their work.  
-
- Also, you might need each team's work to roll up to a central level.  
-
- In such a workflow, you can ensure that teams capture their work consistently while unlocking cross-team visibility, without the need to add everything to one workspace, or everyone in the organization to every workspace. You can use centralized record types to achieve this. 
-
-You can now enable record types to be centralized and use them across multiple workspaces. Users can use the same field structure and connections that are already configured in a central workspace.  
-
-For more information, see the following articles:  
-
-* [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) 
-
-* [Configure record type cross-workspace capabilities](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) 
-
-* [Add existing record types from another workspace](help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
-
-## New limit for connection fields for one record type
-
->[!NOTE]
->
->Preview: October 2, 2025
->Production fast release: October 15, 2025
->Production for everyone:  October 16, 2025
-
-We have introduced a limit of 30 connection fields for each record type.  
-
-If your organization currently has more than 30 connection fields for one record type, the additional connections will be inherited going forward. However, you cannot add more connection fields. For new record types, the new limit of 30 connection fields will be enforced.  
-
-For more information, see [Connected Record Types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
 
 ## Enhancements to request forms in Workfront Planning
 
@@ -66,7 +29,7 @@ To make the request process simpler, we've made some enhancements to request for
 
 * Enable an option to allow only one decision when a request has multiple approvers.
 * Configure when requests created from the form will be automatically marked complete. You can set the request to be marked complete when the requested object is created, or when the requested object is complete based on criteria you specify.
-* Set up an automation that is triggered when a request is submitted from the form. Currently, you can automatically create records when the request is submitted. 
+<!--* Set up an automation that is triggered when a request is submitted from the form. Currently, you can automatically create records when the request is submitted. -->
 
 For more information on creating a request form and configuring these options, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 

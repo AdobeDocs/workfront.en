@@ -15,32 +15,33 @@ You can use the proof approval report to view information about proofs in your e
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Workfront plan*</p> </td> 
+   <td role="rowheader"> <p>Workfront package</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront licenses overview*</p> </td> 
-   <td> <p>Plan</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront license</p> </td> 
+   <td> 
+   <p>Standard</p>
+   <p>Plan</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Access level*</strong> </td> 
+   <td role="rowheader"><strong>Access level configuration</strong> </td> 
    <td> <p>Edit access to:</p> 
     <ul> 
      <li> <p>Create Reports, Dashboards, and Calendars</p> </li> 
      <li> <p>Create Filters, Views, and Groupings</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
