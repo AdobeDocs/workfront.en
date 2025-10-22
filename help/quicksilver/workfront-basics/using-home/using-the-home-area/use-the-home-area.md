@@ -19,6 +19,7 @@ Review these articles to learn how to use the Home area in Adobe Workfront.
 * [Use the [!UICONTROL My Updates] area](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md)
 * [Display items in the [!UICONTROL Work List] in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [Home widget filters overview](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+* [Manage your approvals with the My Approvals widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md)
 * [Manage work and team requests in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
 * [Update or edit a work item in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
 * [Create work items and projects from the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)

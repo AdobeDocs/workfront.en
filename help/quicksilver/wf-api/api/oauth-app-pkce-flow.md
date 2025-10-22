@@ -41,7 +41,7 @@ A PKCE flow has the following steps. The steps in this section are presented for
 
 Before you can implement authorization, you need to register your app in OAuth2 by creating an app integration from Workfront.
 
-For instructions on creating the OAuth2 application, see [Create an OAuth2 single-page web application using PKCE ](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+For instructions on creating the OAuth2 application, see [Create an OAuth2 single-page web application using PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 >[!NOTE]
 >
@@ -107,17 +107,14 @@ If you are using the default Custom Authorization Server, then your request URL
 
 Note the parameters that are being passed:
 
-* `client_id` matches the Client ID of the OAuth2 application that you created in the when configuring the application.
+* `client_id` matches the Client ID of the OAuth2 application that you created in the when configuring the application.
     
-    For instructions, see Create an OAuth2 single-page web application using PKCE in Create OAuth2 applications for Workfront integrations.
+  For instructions, see Create an OAuth2 single-page web application using PKCE in Create OAuth2 applications for Workfront integrations.
     
-* `response_type` is `code`, because the application uses the Authorization Code grant type.
-    
-* `redirect_uri` is the callback location that the user agent is directed to along with the `code`. This must match one of the redirect URls that you specified when you created your OAuth2 application.
-    
-* `code_challenge_method` is the hash method used to generate the challenge, which is always `S256` for Workfront Oauth2 applications that use PKCE.
-    
-* `code_challenge` is the code challenge used for PKCE.
+* `response_type` is `code`, because the application uses the Authorization Code grant type.
+* `redirect_uri` is the callback location that the user agent is directed to along with the `code`. This must match one of the redirect URls that you specified when you created your OAuth2 application.
+* `code_challenge_method` is the hash method used to generate the challenge, which is always `S256` for Workfront Oauth2 applications that use PKCE.
+* `code_challenge` is the code challenge used for PKCE.
     
 
 ## Exchange the code for tokens

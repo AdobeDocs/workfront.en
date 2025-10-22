@@ -151,12 +151,15 @@ For more information about Workfront access requirements, see [Access requiremen
 {{step1-to-planning}}
 
    The workspace that you accessed last opens. 
+
 1. Click a record type card. 
 
     The record type page opens. 
+
 1. (Conditional) From the **View** drop-down menu in the upper-right corner of the table, select a table view. This should be the default view, unless you viewed the record type in the timeline view when you accessed it last. 
 
     The records associated with the selected record type display in the table view. 
+
 1. Right-click a record row
 
     Or 
