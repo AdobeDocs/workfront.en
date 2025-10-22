@@ -99,7 +99,7 @@ To add or edit a company:
 
 1. Update the following information in the **Basic Info** section:
 
-   * **Company Name**<!--<span class="preview">or **Name**</span>-->: Type a name for the company.
+   * **Company Name**<!--<span class="preview"> or **Name**</span>-->: Type a name for the company.
    * **Is Active**: When this option is enabled, users can find the company and attach it to projects that they create and edit. An inactive company cannot be attached to projects. This option is enabled by default.
    * **This is the Primary Company**<!--<span class="preview">or **Is Primary**</span>-->: Assigns the company as your organization's primary company. The primary company typically represents your Workfront account where most of your users work.
 
