@@ -18,6 +18,42 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+### Interface updates for the Add and Edit Companies dialogs
+
+**Preview release: October 23, 2025; Production release: Starting on October 30, 2025**
+
+We have updated the dialog boxes for adding and editing companies with a more modern design that is consistent with other areas of Workfront.
+
+For more information, see [Create and edit companies](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+
+## Projects
+
+### Interface updates for the New and Edit Risk box in a custom dashboard on a project
+
+**Preview release: October 16, 2025; Production release for all customers: Starting the week of October 23, 2025**
+
+We have updated the look and feel of the New and Edit Risks boxes when you create or update an existing risk . The new design now matches other areas of Workfront.  To access the new design, create a risk report and place it on a dashboard, then add the dashboard to a project and manage the risks from the dashboard. 
+
+For information, see [Create and edit risks on projects](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+
+## Users
+
+### Interface updates for personal time off
+
+**Preview release: October 23, 2025; Production release for all customers: Starting the week of October 30, 2025**
+
+We have updated the look and feel of the personal time off calendar, including the ability to delegate approvals, to match other areas of the application.
+
+To view these changes, go to your user profile and click **Time Off** in the left panel.
+
+For more information, see [Configure personal time off](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) and [Delegate approval request](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+
+## Interface updates made in Q4
+
+## Admin and Setup
+
++++Expand to view Admin and Setup interface updates made in Q4
+
 ### Interface updates to the Import users dialog on Companies
 
 **Preview release: October 9, 2025; Production release for all customers: Starting the week of October 16, 2025**
@@ -58,7 +94,7 @@ This update affects:
 
 ### Interface updates for the Severities area in Setup
 
-**Preview release: September 25, 2025; Production release: To be announced**
+**Preview release: September 25, 2025; Production release: Starting the week of October 23, 2025**
 
 We have updated the Severities page with a more modern design that is consistent with other areas of Workfront.
 
@@ -70,7 +106,7 @@ For more information, see [Create or customize issue severities](/help/quicksilv
 
 ### Interface updates for the Priorities area in Setup
 
-**Preview release: September 25, 2025; Production release: To be announced**
+**Preview release: September 25, 2025; Production release: Starting the week of October 23, 2025**
 
 We have updated the Priorities page with a more modern design that is consistent with other areas of Workfront.
 
@@ -203,7 +239,11 @@ We have updated the Update users for SSO page with a more modern design that is 
 
 To view this change, go to Setup > System > Update Users For SSO
 
++++
+
 ## Portfolios
+
++++Expand to view Portfolio interface updates made in Q4
 
 ### Interface updates for editing portfolios
 
@@ -218,7 +258,11 @@ We have introduced interface updates when editing portfolios in the Edit Portfol
 
 For information, see [Edit portfolios](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
 
++++
+
 ## Programs
+
++++Expand to view Program interface updates made in Q4
 
 ### Interface updates to the Edit Program box
 
@@ -228,7 +272,11 @@ We have updated the look and feel of the Edit Program box to match the design of
 
 For information, see [Edit programs](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md).
 
++++
+
 ## Projects 
+
++++Expand to view Project interface updates made in Q4
 
 ### Interface updates for Billing Rates
 
@@ -430,7 +478,11 @@ We have updated the dialog box for adding a new expense to a project, to match o
 
 For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
 
++++
+
 ## Templates
+
++++Expand to view Templates interface updates made in Q4
 
 ### Interface updates for the People list on a template
 
@@ -476,8 +528,12 @@ For for more information, see
 * [Create Topic Groups](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [Create Routing Rules](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
++++
+
 
 ## Users
+
++++Expand to view User interface updates made in Q4
 
 ### Interface updates for the User Details page
 
@@ -522,6 +578,8 @@ We have updated the dialog box for importing new users via a spreadsheet file, t
 To view this change, go to Users > New User > Import Users.
 
 For information, see [Import users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/import-users.md).
+
++++
 
 ## Interface updates made in Q3
 

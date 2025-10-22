@@ -98,6 +98,14 @@ This update is for both Mac and Windows.
 
 ## Announcements
 
+### API version 21
+
+Workfront API version 21 was released on October 23, 2025. For API version 21, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
+
+For information on what's new and updated, see [What's new in API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md).
+
+For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+
 ### New version of Workfront for Microsoft Teams
 
 As [Microsoft transitions to the New Teams client](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), the Classic Teams client will no longer be available after July 1, 2025. To continue using Microsoft Teams and integrated apps like Workfront, customers must transition to the New Teams client before this date. 
@@ -123,13 +131,6 @@ To deliver more stable and scalable integrations, we're shifting to a modern, fl
 We recommend using Workfront Automation and Integration for your organization's integration needs with Google Workspace. 
 For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 
-### API version 20
-
-Workfront API version 20 was released on May 4, 2025. For API version 20, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
-
-For information on what's new and updated, see [What's new in API version 20](/help/quicksilver/wf-api/api/new-api-version-19.md).
-
-For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront Maintenance Updates
 
