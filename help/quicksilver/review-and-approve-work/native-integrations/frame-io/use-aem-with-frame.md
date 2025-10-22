@@ -83,6 +83,7 @@ For more detail about the information in this table, see [Access requirements in
 Before you begin,
 
 * You must have [!DNL Workfront] and [!DNL Adobe Experience Manager Assets] associated with an Organization ID in the [!DNL Adobe Admin Console]. For more information see, [Platform-based administration differences ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+* Your Workfront instance must be using Adobe Enterprise Storage. 
 
 
 ## Set up the integration information
@@ -202,125 +203,13 @@ To map metadata for assets:
 ![metadata fields](assets/metadata-no-asset-toggle.png)
 1. Click [!UICONTROL Save] or move on to the [Set up Workflows](#set-up-workflows-optional) section in this article.
 
-<!--
-
-### Map metadata for folders
-
-When users create a linked folder on a project, the associated project, portfolio, and program data is mapped to folder metadata fields in [!DNL Experience Manager Assets].
-
->[!NOTE]
->
->This integration does not support custom metadata from [!DNL Adobe Experience Manager].
-
-To map metadata for folders: 
-
-1. Select **[!UICONTROL Folders]** above the metadata table.
-1. In the **[!UICONTROL [!DNL Workfront] field]** column, choose a built-in or custom Workfront field.
-
-    >[!NOTE]
-    >
-    >You can map a single Workfront field to multiple Experience Manager Assets fields. You can't map multiple [!DNL Workfront] fields to a single [!DNL Experience Manager Assets] field.
-
-1. In the **[!DNL Experience Manager Assets]** field, search through the pre-populated categories or enter at least two letters in the search field to access additional categories.
-1. Repeat steps 2 and 3 as needed.
-![folder metadata](assets/folder-metadata.png)
-1. Click **[!UICONTROL Save]** or move on to the [Project metadata sync](#project-metadata-sync) section in this article.
-
-
-### Object metadata sync
-
-An [!DNL Experience Manager] fields that is mapped to [!DNL Workfront] portfolio, program, project, task, issue, and document fields update automatically when the field is changed in [!DNL Workfront].
-
-When this option is enabled, any asset that has been pushed to Adobe Experience manager includes a card on the Document Details page that displays a real-time view of the document's Adobe Experience Manager metadata.
-
->[!IMPORTANT]
->
->Users must have write access in [!DNL Experience Manager] for assets living in the object in order for the metadata to sync when it's updated.
-
-1. Enable the **[!UICONTROL Sync object metadata]** field.
-1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.-->
-
-## Set up workflows (Optional)
-
-A workflow is a set of actions that connect Workfront to Adobe Experience Manager as a Cloud Service. As a Workfront administrator, you can configure workflows in Workfront, then assign them to Project Templates. 
-
-When a Project is created using a Project Template to which a workflow is assigned, the actions defined in the workflow are triggered. 
-
-Workflows are enabled and configured for the Adobe Experience Manager as a whole. These workflows can then be applied to project templates. They can be adjusted or customized at the template level, or at the project level when a project is created from that template.
-
-The followings workflows are available in the Adobe Experience Manager integration:
-
-* [Create Adobe Experience Manager linked folders](#create-adobe-experience-manager-linked-folders)
-* [Publish assets that are sent to Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
-
-### Create Adobe Experience Manager linked folders
-
-You can create up to 100 linked folders per folder tree.
-
-1. Toggle the **[!UICONTROL Create Linked folder]** on.
-1. Enter a name for the linked folder that you are creating. 
-1. (Conditional) Enable the **Default folder tree** option if you want this linked folder to be the default folder for projects created with templates that use this integration. You can select one or more default folders. 
-1. Choose a folder path to indicate where you want all linked folders associated with this integration.
-1. (Conditional) To add a folder tree (nested folders) to this integration, do the following:
-
-   1. Click the **Add folder** icon ![Add folder](assets/add-folder-aem.png).
-   1. In the **Name type** field, select how you want to name the folder:
-
-      * **Name**: Type in a name for the folder.
-      * **Object data**: Select the source for the folder name, such as Project name.
-
-      >[!NOTE]
-      >
-      >* Folder names must be fewer than 100 characters.
-      >* The following characters will be removed from folder names:
-      >
-      >   `/`, `:`, `[`, `]`, `|`, `*`
-
-   1. To add a nested folder to the folder tree, click the three-dot menu next to the folder you want to create a nested folder in and select **Add Folder**. Fill in the fields as described in Step the previous step.
-   1. To link a folder to Workfront, select the folder and click the **Make linked folder**   icon ![Link folder](assets/link-folder.png).
-   1. (Optional) To edit a folder, select the folder and click the **Edit Folder** icon ![Edit icon](assets/edit-icon.png).
-   1. (Optional) To delete a folder, select the folder and click the **Delete Folder** icon ![Delete folder](assets/delete-folder.png).
-1. (Conditional) To add another folder tree, click **+ Add folder tree** and follow the steps in Step 5.
-
-1. Click **[!UICONTROL Save]**, or move on to the [Publish assets that are sent to Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) section in this article.
-
->[!NOTE]
->
->* This integration will create no more than 100 folders, regardless of how many folder trees are created. For example, an integration with 4 folder trees can create up to 100 folders, not 400 folders.
->* The first folder in folder tree is automatically marked as linked to Workfront. If you do not want this folder linked, you can unlink it.
->* If no folder tree is provided, the root folder becomes the linked folder.
-
-
-### Publish assets that are sent to Adobe Experience Manager Assets
-
-1. Toggle on **[!UICONTROL Publish assets automatically]**.
-1. Check the box next to the location where you want to publish assets sent to Adobe Experience Manager assets. You may enable either or both options. 
-1. (Conditional) If you have enabled the Brand Portal option, Select the Brand Portal where you want to publish assets.
-1. Click **[!UICONTROL Save]** or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
-
-## Set up linked folders (Optional)
-
-You can allow users to create folders linked to [!DNL Experience Manager] while in a [!DNL Workfront] project. When a folder is linked, any asset added to the folder automatically shows up in both [!DNL Workfront] and [!DNL Experience Manager]. When an asset is added to the linked folder in [!DNL Workfront] for the first time, the asset's metadata is pushed to [!DNL Experience Manager Assets].
-
-In the steps below, you indicate where you want the linked folders created. Each integration can have only one location for all linked folders.
-
-To set up linked folders:
-
-1. Toggle the **[!UICONTROL Enable Linked folder]** on.
-1. Choose a folder path to indicate where you want all linked folders associated with this integration. 
-
-    >[!NOTE]
-    >
-    >Users need write access in [!DNL Adobe Experience Manager Assets] to the folder specified to create a linked folder.
-
-1. Click **[!UICONTROL Save]**.
 
 
 
 
 
 
-# Send a Document to Experience Manager Assets or Assets Essentials
+## Send a Document to Experience Manager Assets or Assets Essentials
 
 You can send documents from Workfront to Experience Manager Assets or Assets Essentials. Documents uploaded and sent from Workfront to Assets Essentials still count against your overall document storage. Assets linked from Assets Essentials don't count towards overall storage.
 
@@ -334,52 +223,49 @@ Metadata fields are first mapped when you send an asset from Workfront to Experi
 >
 >**Example** When you first send an asset attached to a task, the task metadata maps to Experience Manager Assets or Assets Essentials as well as any mapped metadata from parent objects such as a project, portfolio, and program.
 
-## Access requirements
+### Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to complete the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront plan</a>*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Legacy licenses overview</a>*</td> 
-   <td> <p>Request or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront licenses</td> 
+   <td> 
+   <p>Contributor or higher</p> 
+   <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
-   <td>You must have Experience Manager as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.
-</td> 
+   <td role="rowheader">Additional products</td> 
+   <td>You must have Experience Manager as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.</td> 
   </tr> 
+   <tr> 
+    <td role="rowheader">Experience Manager Permissions</td> 
+    <td>You must have write access to the folder.</td> 
+   </tr>
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Documents</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View access or higher on Documents</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View access or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Prerequisites
 
-Before you begin, 
-
-* Your Workfront Administrator must configure an Experience Manager integration. For more information, see [Configure the Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) or [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
-
-
-## Send a Document from Workfront
+### Send a Document from Workfront
 
 When a user sends a document from Workfront to Experience Manager Assets or Assets Essentials, mapped metadata transfers along the document. After the document is sent, changes made to the document's metadata in Workfront are not reflected in Assets or Assets Essentials. If a mapped field in Workfront is changed, you must send a new version of the document with the updated metadata to Assets or Assets Essentials. To set up or edit metadata, see [Configure the Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) or [Configure the Experience Manager Assets Essentials integration](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -397,7 +283,7 @@ To send a document:
 1. Choose where you want the asset to go, then click **Select Folder**.
 1. When you find your desired destination, click **Save**.
 
-## Send a new version
+### Send a new version
 
 You can add a new version to a document you have previously uploaded to Workfront. For more information, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md). After the latest version is uploaded, you can send it to Assets Essentials. If a mapped field in Workfront has changed, the new version updates the metadata in Assets Essentials when it sends.
 
@@ -417,21 +303,3 @@ To send the most recent version:
    ![Send to](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Click **Save**. The new version saves in the same location as the previous version.
-
-## Move a document to a linked folder in Experience Manager Assets
-
->[!NOTE]
->
->This functionality is only available for Experience Manager Assets as a Cloud Service. It is not available for Experience Manager Assets Essentials.
-
-You can move a document to a linked folder in Experience Manager Assets if both the document and the linked folder are in the same document list (such as the document area of a project). 
-
-1. Locate the document that you want to move.
-1. Drag and drop the document onto the linked Experience Manager Assets folder that you want to move it to.
-
-The document options are not available while the document is in the process of moving. After the document is moved to Experience Manager Assets, is no longer visible in the document list in Workfront.
-
->[!NOTE]
->
-> Any actions or edits you make on the document while it is moving will not appear on the document in Experience Manager Assets, and will therefore be lost.
-
