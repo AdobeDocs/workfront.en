@@ -251,7 +251,7 @@ For more information, see the following section in this article: [Manage project
     >If you're accessing AI Assistant from a different page in Workfront, you can type *What's the health of project [PROJECT NAME]?* or *What's the health of program [PROGRAM NAME]?* <br>
     >For a full list of the current prompts you can enter, see the following section in this article: [AI Assistant prompts list](#ai-assistant-prompts-list). 
 
-1. Hit the **Send** icon ![Send icon](assets/send-icon.png). The Project Health assessment generates and appears in the panel. A badge appears at the top of each Project Health assessment, which reflects the project's current condition.  
+1. Click the **Send** icon ![Send icon](assets/send-icon.png). The Project Health assessment generates and appears in the panel. A badge appears at the top of each Project Health assessment, which reflects the project's current condition.  
 
     ![Project health assessment](assets/health-assessment.png)
 
@@ -277,7 +277,7 @@ A project will only be included in the combined Project Health assessment if the
 
     For a full list of the current prompts you can enter, see the following section in this article: [AI Assistant prompts list](#ai-assistant-prompts-list). 
 
-1. Hit the **Send** icon ![Send icon](assets/send-icon.png). The Project Health assessment generates and appears in the panel. 
+1. Click the **Send** icon ![Send icon](assets/send-icon.png). The Project Health assessment generates and appears in the panel. 
 
     ![Multiple projects assessment](assets/multiple-projects-assessment.png)
 
