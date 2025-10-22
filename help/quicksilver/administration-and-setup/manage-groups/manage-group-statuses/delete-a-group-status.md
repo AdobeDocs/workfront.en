@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Delete a Group Status
 description: As a group administrator, you can delete a status for a group that you manage if it is not configured as a required or locked status on the system level, or for a higher group in the hierarchy.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3

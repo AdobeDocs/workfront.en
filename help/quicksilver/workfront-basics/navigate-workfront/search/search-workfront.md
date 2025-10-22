@@ -3,7 +3,7 @@ navigation-topic: search
 title: Search [!DNL Adobe Workfront]
 description: You can easily locate items in [!DNL Adobe Workfront] by searching for them when you can't remember their exact location.
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
 ---
 # Search [!DNL Adobe Workfront]

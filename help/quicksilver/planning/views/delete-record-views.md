@@ -9,9 +9,9 @@ exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
 ---
 # Delete record views
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -19,6 +19,8 @@ exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
 You can delete a record view you no longer use in Adobe Workfront Planning. 
 
 The view is deleted for all users who have permissions to access it. Deleted views cannot be recovered.
+
+You cannot delete the original table view of a record type. 
 
 ## Access requirements
 
@@ -36,11 +38,10 @@ The view is deleted for all users who have permissions to access it. Deleted vie
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Any Workfront and any Planning package</p></li>
-Or
-<li><p>Any Workflow and any Planning packages</li></ul>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   <p>Any Workfront and any Planning package</p>
+   
+   <p>Any Workflow and any Planning package</p>
+   <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
@@ -133,20 +134,10 @@ For more information about Workfront access requirements, see [Access requiremen
     By default, all the records of the selected type display in the table view. 
 
 
-1. From the view's tab, do one of the following: 
-
-   * Depending on which environment you are accessing the view from, do the following: 
-   
-      * In the Production environment, hover over the tab name of the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Delete**. 
-
-      >[!TIP]
-      >
-      >You might need to click **More** to the right of the last tab to find the view you want to delete.
-
-      * <span class="preview"> In the Preview environment, click the view's tab, hover over the view in the drop-down menu, click the **More** menu ![More menu](assets/more-menu.png), then click **Delete**.</span>
+1. From the view's tab, click the view's tab, hover over the view in the drop-down menu, click the **More** menu ![More menu](assets/more-menu.png), then click **Delete**.</span>
 
       ![More menu with options](assets/more-menu-for-views-expanded-with-delete-option.png)
 
-1. Click **Delete** to confirm. <!--ensure there is not another saving step here?!-->
+1. Click **Delete** to confirm. 
     
     The view is deleted for all users who can access the records area.

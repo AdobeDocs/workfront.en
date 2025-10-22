@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: As an Adobe Workfront administrator, you can create new users and manage the profiles of existing ones.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa

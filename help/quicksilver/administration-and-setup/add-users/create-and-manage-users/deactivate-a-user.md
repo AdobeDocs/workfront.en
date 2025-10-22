@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Workfront administrators can deactivate or reactivate a user.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc

@@ -19,9 +19,6 @@ exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 </div>
 -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Planned work is represented in Adobe Workfront by projects and tasks. However, you might work in an environment where unplanned work, in the form of requests, can come in at any time. Workfront provides a workflow to accommodate this type of environment through the use of Request Queues. 
 
@@ -138,23 +135,16 @@ To create a request in the Workfront web app:
 
     The **New request** box opens.
 
-1. (Conditional) If you switched to the new experience, and are in the production environment, the **New request** box displays the following:</span>
+1. (Conditional) If you switched to the new experience, , select one of the Workfront request queue paths or forms, or click the search bar. 
 
-    <ul><li>The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. </li>
-    <li>All additional Workfront and Planning request forms <b>All request forms</b> section. You can search for a request forms that does not display by default. </li>
-    <li>All additional Workfront and Planning request queue paths display in the <b>All request paths</b> section. You can search for a request queue that does not display by default.</li></ul>
-   Click one of the Workfront request queue paths or forms, or search for one, then click it when it displays in the list. 
-1. <span class="preview">(Conditional) If you switched to the new experience, select one of the Workfront request queue paths or forms, or click the search bar. </span>
-
-   <span class="preview">When you click the search bar, a dropdown appears showing the most recently used queues and forms first. Select one from the list, or begin typing and select the queue or form when it appears.</span>
+   When you click the search bar, a dropdown appears showing the most recently used queues and forms first. Select one from the list, or begin typing and select the queue or form when it appears.
    
    >[!NOTE]
    >
-   ><span class="preview">Consider the following regarding the new requesting experience currently available in Preview:</span>
-   >* <span class="preview">The list includes both Workfront request queues and Workfront Planning request forms.</span>
-   >* <span class="preview">You can filter the list by object type.</span>
-   >* <span class="preview">To display only Workfront Request queues, filter for `Issue` object types.</span>
-   >* <span class="preview">In the new requesting experience, drafts are found in the same list as submitted requests.</span>
+   >Consider the following regarding the new requesting experience:
+   >* The list includes both Workfront request queues and Workfront Planning request forms.
+   >* You can filter the list by object type.
+   >* In the new requesting experience, drafts are found in the same list as submitted requests.
 
 1. (Conditional) If you switched to the new experience, select your topic groups and queue topics and continue updating the form.
 

@@ -58,10 +58,10 @@ Users with the Proof Permission Profile or Proof role outlined in the [Access re
 
 >[!NOTE]
 >
->You can tag an external collaborator using their email address only if either of the following is true:>
+>You can tag an external collaborator using their email address only if either of the following is true:
+>
 >* A user in your organization's Workfront account has added the collaborator's email address to a proof previously.
 >* The collaborator has used the email address to subscribe to a proof in your organization's Workfront account previously.
->
 
 To tag someone and share a proof in a comment:
 

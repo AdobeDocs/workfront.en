@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Reorder Group Statuses
 description: As a group administrator, you can change the order of project, task, and issue statuses for a group you manage.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 0cdb4d10-7792-4140-8dec-ef805f668f90

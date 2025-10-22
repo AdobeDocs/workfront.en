@@ -46,13 +46,10 @@ For information about how a workspace manager can create a request form and asso
 <tr> 
    <td role="rowheader"><p>Adobe Workfront packages</p></td> 
    <td> 
-<ul><li><p>Any Workfront package</p></li>
-And
-<li><p>Any Planning package</p></li></ul>
+<p>Any Workfront package and any Planning package</p>
 Or
-<ul><li><p>Any Workflow package</p></li>
-And
-<li><p>Any Planning package</p></li></ul>
+<p>Any Workflow package and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative.</p>
    </td> </tr>
 
   </tr> 
@@ -136,17 +133,9 @@ The following must be in place before you can submit a request to a Workfront Pl
    The **New request** box opens with the following information: 
 
    * The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. 
-   * 50 additional Workfront request queues and Planning request forms display in alphabetical order in the **All request forms** section. You can search for a request queue that does not display by default. 
+   * 50 additional Workfront request queues and Planning request forms display in alphabetical order in the **All request forms** section. You can search for a request queue that does not display by default.
 
-1. In The Production environment, do one of the following:
-
-   * Select the Planning request forms in the Recent or All request forms sections
-   * Start typing the name of a Planning request form in the search box, then click the card when it displays in the list. 
-
-   The request form opens.
-
-<!-- Put preview section here-->
-1. <span class="preview">In the Preview environment, select a request form or queue from the Recently accessed request forms area, or begin typing the form or queue name in the list, then select it when it appears.
+1. Select a request form or queue from the Recently accessed request forms area, or begin typing the form or queue name in the list, then select it when it appears.
 
 1. Update the fields available in the request form. Fields with a red asterisk are required. 
 1. Click **Submit**.
@@ -215,16 +204,9 @@ The following must be in place before you can submit a request to a Workfront Pl
 
       The request details page opens. 
    
-      ![Request details page](assets/request-details-page.png) 
-
-      <div class="preview">
-      In preview:
-   
       ![Request page with comment](assets/new-request-page-with-comment.png)
-
-      </div>            
-      
-1. <span class="preview">(Optional) Enter a comment in the Comments area.
+    
+1. (Optional) Enter a comment in the Comments area.
 1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
 
    The record's page opens in Workfront Planning. 
@@ -286,16 +268,11 @@ The following must be in place before you can submit a request to a Workfront Pl
 
    The request details page opens. 
 
-   ![Request details page](assets/request-details-page.png)
-
-   <div class="preview">
-   In preview:
-   
    ![Request page with comment](assets/new-request-page-with-comment.png)
 
-   </div>
+  
 
-1. <span class="preview">(Optional) Enter a comment in the Comments area.
+1. (Optional) Enter a comment in the Comments area.
 1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
 
    The record's page opens in Workfront Planning. 

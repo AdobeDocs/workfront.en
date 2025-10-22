@@ -4,7 +4,7 @@ product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-groups
 title: Username Already in Use
 description: Read these tips when you get an error that the username is already taken.
-author: Lisa
+author: Becky
 feature: People Teams and Groups
 exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
 ---

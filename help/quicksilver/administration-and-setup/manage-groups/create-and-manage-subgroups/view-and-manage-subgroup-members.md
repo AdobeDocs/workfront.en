@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: View and Manage Subgroup Members
 description: When you are viewing a group that you manage, you can view and manage all of the users in the group's subgroups.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf

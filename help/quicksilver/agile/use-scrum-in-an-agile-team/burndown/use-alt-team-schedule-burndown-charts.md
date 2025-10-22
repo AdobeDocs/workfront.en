@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Use an Alternate Team Schedule for Burndown Charts
 description: Schedules that are defined in [!DNL Adobe Workfront] affect the burndown chart by excluding days off (weekends and holidays) from the burndown.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 72650c19-434d-463a-8924-49219604ff01
 ---

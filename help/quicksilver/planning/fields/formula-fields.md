@@ -9,9 +9,11 @@ exl-id: 5027d611-916e-492d-9a44-841bdde11c94
 ---
 # Formula fields overview
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -20,6 +22,8 @@ You can create custom fields in Adobe Workfront Planning by referring to existin
 Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated. 
 
 For information, see the "Formula" section in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+
+<!--do we need these for an overview article?
 
 ## Access requirements
 
@@ -37,10 +41,8 @@ For information, see the "Formula" section in the article [Create fields](/help/
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Any Workfront and any Planning package</p></li>
-Or
-<li><p>Any Workflow and any Planning packages</li></ul>
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 
@@ -59,6 +61,8 @@ Or
 For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
+
+-->
 
 <!--Old:
 
@@ -140,19 +144,11 @@ For more information about Workfront access requirements, see [Access requiremen
    For more information, see the "Formula" section in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 * You can reference formula fields in new formulas. Once the value is updated in a field referenced in a formula field, all subsequent fields referencing that field or formula fields that contain that field will update automatically.
 
-<div class="preview">
-
 * When you update a formula field or a field that could impact it, an alert notifies you of the impact of your change. The alert displays in the following cases:   
 
    * When you update a formula field (excluding name and description changes) when that field has dependent formula or lookup fields. The alert lists those dependent fields and asks you whether you want to continue. 
 
    * When you delete a field that is used in a formula expression or as a lookup field. The alert lists the dependent formula and lookup fields and asks you whether you want to continue with the deletion.
-
-</div>
-
-
-
-<div class="preview">
 
 ## Limitations of formula fields
 
@@ -170,8 +166,7 @@ For more information about Workfront access requirements, see [Access requiremen
    *  When a formula value cannot be displayed in the selected format. 
    
       For example, if I select Number for the Format of a formula field, and the fields used in the formula are text fields that display only non-numeric text values, the formula result will display as `#ERROR!`, because it cannot parse the text into a number.
- 
- </div>
+
  
 ## Supported formulas
 

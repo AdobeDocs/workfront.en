@@ -235,9 +235,10 @@ Editing activities differs depending on which environment you use.
    ![Edit Activity box](assets/edit-activity-box-unshimmed.png)
 
 1. Edit the following information:
+
    * **Activity name**: The name of the activity. Use a descriptive name that illustrates what activity you should perform to indicate that the goal completes. 
-    * **Activity owner:** The owner of the activity. The owner must be an active Workfront user.  
-For more information about activity fields, see [Add activities to goals](../results-and-activities/add-activities-to-goals.md). 
+   * **Activity owner:** The owner of the activity. The owner must be an active Workfront user.  
+
+   For more information about activity fields, see [Add activities to goals](../results-and-activities/add-activities-to-goals.md). 
+
 1. Click **Save**.
-
-

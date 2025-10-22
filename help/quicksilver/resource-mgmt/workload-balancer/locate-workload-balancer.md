@@ -10,8 +10,6 @@ exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
 ---
 # Locate the Workload Balancer
 
-{{preview-fast-release-general}}
-
 You can use the Workload Balancer to schedule resources for work or review their availability and current allocations.
 
 You can access the Workload Balancer in the following ways:
@@ -130,8 +128,6 @@ For more information on teams in Workfront, see [Teams overview](/help/quicksilv
      >
      >You can display all users in the system instead of only the ones on the project (in the Assigned Work area) by enabling the Show all users option. For information, see [Navigate the Workload Balancer](../workload-balancer/navigate-the-workload-balancer.md).
 
-<div class="preview">
-
 ### Access the Workload Balancer for a user
 
 All users have access to view the Workload Balancer on their own profiles. Workload Balancer data for a user is read-only. You can't assign work, unassign work, or adjust allocations at the user level.
@@ -149,8 +145,6 @@ All of the display settings are available for the Workload Balancer for a user. 
    The Workload Balancer of a user displays the following by information, by default:
 
      * **Assigned Work**: The tasks and issues assigned to the specific user.
-
-</div>
 
 ## Add the Workload Balancer to the left panel as a dashboard
 

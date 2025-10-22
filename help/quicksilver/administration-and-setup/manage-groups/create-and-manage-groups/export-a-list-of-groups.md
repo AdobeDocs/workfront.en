@@ -4,7 +4,7 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Export a List of Groups
 description: When you are viewing groups that you manage, you can export a list of those groups.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 66c1f049-c7b5-4d6b-9dc2-3c5f527764e9

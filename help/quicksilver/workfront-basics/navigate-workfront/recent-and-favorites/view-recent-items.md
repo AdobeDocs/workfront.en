@@ -4,7 +4,7 @@ navigation-topic: recent-and-favorites
 title: View recent items
 description: The [!UICONTROL Recents] menu is located on the top navigation bar. This menu shows recently viewed projects, reports, dashboards, tasks, issues, etc.
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
 ---
 # View recent items

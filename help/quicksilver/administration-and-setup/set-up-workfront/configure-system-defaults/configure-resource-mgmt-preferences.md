@@ -92,7 +92,8 @@ For information about planning and scheduling resources in [!DNL Workfront], see
       >`User Available Hours = [((40 - 0) * 0.5) - 1] * 0.5 = 9.5 hours`
       >
      
-      <!--This used to be the calculation before we implemented the Work Time field: 
+      <!--
+      This used to be the calculation before we implemented the Work Time field: 
     
       ```
       User Available Hours = ([!UICONTROL Default Schedule] Hours - Exceptions) * FTE - Time off hours
@@ -103,9 +104,8 @@ For information about planning and scheduling resources in [!DNL Workfront], see
       > For example, if the [!UICONTROL Default Schedule] is 40 hours a week and the [!UICONTROL FTE] in the profile of the user is 0.5, the user is available to work for 20 hours a week.
       >If the user has 1 hour of Time off one day, their Available Hours will be calculated as follows:
       >
-      >```
+      >
       >User Available Hours = [(40 - 0) * 0.5)] - 1 = 19 hours
-      >```
       -->
       
       

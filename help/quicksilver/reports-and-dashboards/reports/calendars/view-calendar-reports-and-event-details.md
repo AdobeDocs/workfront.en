@@ -3,7 +3,7 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: View Calendar Reports and Event Details
 description: You can view calendar reports and event details that you created or were shared with you in Adobe Workfront.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
 ---

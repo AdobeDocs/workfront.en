@@ -235,7 +235,7 @@ The [!UICONTROL AEM Externalizer] allows AEM to pass URLs in a format that can b
 
 ## Configure [!DNL Workfront] to integrate with [!DNL AEM assets] {#configure-workfront-to-integrate-with-aem-assets}
 
-After you install the [!UICONTROL Workfront for AEM Assets] Connector (as described in [Install the [!UICONTROL Workfront for AEM Assets] connector package](#install-the-workfront-for-aem-assets-connector-package)) and configure [!UICONTROL AEM Assets] (as described in [Configure[!UICONTROL  AEM Assets] to integrate with [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)), you need to configure [!DNL Workfront] to link documents between [!DNL Workfront] and [!DNL AEM Assets].
+After you install the [!UICONTROL Workfront for AEM Assets] Connector (as described in [Install the [!UICONTROL Workfront for AEM Assets] connector package](#install-the-workfront-for-aem-assets-connector-package)) and configure [!UICONTROL AEM Assets] (as described in [Configure [!UICONTROL AEM Assets] to integrate with [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)), you need to configure [!DNL Workfront] to link documents between [!DNL Workfront] and [!DNL AEM Assets].
 
 1. Log in to Workfront as an administrator.
 

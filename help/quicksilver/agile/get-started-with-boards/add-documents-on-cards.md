@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Add Documents on Cards
 description: You can add documents to connected cards on Adobe Workfront Boards.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
 ---

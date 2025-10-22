@@ -4,7 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filter: display incomplete cross-project successors'
 description: This task filter returns incomplete cross-project successors.
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: aea955b1-581a-4ce0-8634-863ba1083c05
 ---

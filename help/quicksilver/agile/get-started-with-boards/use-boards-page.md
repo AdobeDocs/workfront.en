@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Use the Boards Dashboard
 description: The [!UICONTROL boards] dashboard shows the list of boards that you have access to, including boards you have created and boards that you have been added to.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
 ---

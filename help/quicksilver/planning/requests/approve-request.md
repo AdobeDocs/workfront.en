@@ -13,9 +13,9 @@ exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
 
 <!-- do you need to add that only workspace owners can view the Submitted/ Planning tab?? - asking team in slack-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -39,7 +39,7 @@ We recommend that you also see the following articles:
    * **Completed**: If all approvers approve the request object, its status changes to **Completed**, or if the request did not need an approval.
    * **Rejected**: If any approver rejects the request object, the status becomes **Rejected**. No record is created and a new request must be submitted to create the record. 
 
-* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>
+* You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Access requirements
 
@@ -54,13 +54,10 @@ We recommend that you also see the following articles:
 <tr> 
    <td role="rowheader"><p>Adobe Workfront packages</p></td> 
    <td> 
-<ul><li><p>Any Workfront package</p></li>
-And
-<li><p>Any Planning package</p></li></ul>
+<p>Any Workfront package and any Planning package</p>
 Or
-<ul><li><p>Any Workflow package</p></li>
-And
-<li><p>Any Planning package</p></li></ul>
+<p>Any Workflow package and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative.</p>
    </td> </tr>
 
   </tr> 

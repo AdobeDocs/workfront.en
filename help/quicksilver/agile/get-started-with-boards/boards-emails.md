@@ -4,7 +4,7 @@ content-type: reference
 navigation-topic: boards
 title: Boards Email Notifications and Preferences
 description: Adobe Workfront Boards sends you an email when you are added to a board and when a card is assigned to you.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
 ---

@@ -10,6 +10,8 @@ exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 
 <!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
+<!--keep global record types in yellow till Jan 2026-->
+
 # Share record types
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -173,7 +175,18 @@ Or
 
    Workfront users, groups, teams, companies, and job roles
 * You cannot share record types externally, with users outside of Workfront.
-* To give a user that does not have workspace permissions higher than View permissions to a record type, you must first share the workspace with them with a higher permission than View. The higher permissions for the workspace will then apply to the record types.   
+* To give a user that does not have workspace permissions higher than View permissions to a record type, you must first share the workspace with them with a higher permission than View. The higher permissions for the workspace will then apply to the record types. 
+
+<div class="preview">
+
+* The following scenarios exist when sharing global record types:
+   
+   * You can share global record types from their original workspace.
+   * You cannot share global record types after they were added to a secondary workspace. 
+
+   For information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+
+</div>
 
 ## Share permissions to a record type
 
@@ -185,7 +198,7 @@ You can adjust permissions to individual record types of a workspace if you have
 
 1. Do one of the following: 
 
-   * <span class="preview">From the record type card, click the **More** menu > **Share**.</span>
+   * From the record type card, click the **More** menu > **Share**.
    * Click a record type card to open the record type's page, then click **Share** > **Share the record type** from any record type view.
 
    The **Share** box opens.

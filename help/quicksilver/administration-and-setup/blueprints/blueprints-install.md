@@ -5,7 +5,7 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Install a Blueprint
 description: You can install a blueprint in your Production environment or a Sandbox environment.
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a

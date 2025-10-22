@@ -165,8 +165,8 @@ The following table illustrates which issue fields are visible from the converte
 | Issue fields |Project or task field |Project list or report |Project Details area |Task list or report |Task Details area |
 |---|---|---|---|---|---|
 | [!UICONTROL Issue Name] |[!UICONTROL Converted Issue Name] |✔ |✔ |✔ |✔ |
-| [!UICONTROL Primary Contact] | [!UICONTROL Converted Issue Originator Name] |✔ | ✔  |✔ |
-| [!UICONTROL Entry Date] |[!UICONTROL Converted Issue Entry Date] |✔ ||✔ |
+| [!UICONTROL Primary Contact] | [!UICONTROL Converted Issue Originator Name] |✔ | ✔  |✔ ||
+| [!UICONTROL Entry Date] |[!UICONTROL Converted Issue Entry Date] |✔ ||✔ ||
 
 
 >[!CAUTION]

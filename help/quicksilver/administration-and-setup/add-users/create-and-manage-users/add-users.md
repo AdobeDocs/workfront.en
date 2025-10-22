@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Add Users
 description: As a Workfront administrator or a user with full administrative access, you can add users in Workfront.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3

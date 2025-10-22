@@ -28,6 +28,8 @@ You can create multiple workspace hierarchies between the record types in a work
 
 <!--check the access to see if you oversimplified???-->
 
+<!--Update the TOC for this to publish-->
+
 +++ Expand to view access requirements to perform the steps in this article:  
 
 <table style="table-layout:auto"> 
@@ -44,8 +46,8 @@ You can create multiple workspace hierarchies between the record types in a work
    <td> 
 <ul> 
 <li><p>Any Workfront and any Planning package</p></li>
-Or
-<li><p>Any Workflow and any Planning packages</li></ul>
+<p>Or</p>
+<li><p>Any Workflow and any Planning package</p></li></ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 

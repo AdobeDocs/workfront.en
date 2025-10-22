@@ -167,8 +167,9 @@ To create an issue on a task or a project:
    >[!TIP]
    >
    >The Request Types must be enabled in the Queue Details and as well as when creating the Queue Topic to display as a selection in the New Issue form. For information, see the following articles: 
+   >
    >* [Create a Request Queue](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [Create Queue Topics](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+   >* [Create Queue Topics](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
 1. Continue specifying the fields available in the **New issue** form. For more information about the fields available as you enter a new issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
 
