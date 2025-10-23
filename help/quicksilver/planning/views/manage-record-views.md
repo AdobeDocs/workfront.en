@@ -193,11 +193,11 @@ The following table shows the similarities and differences between the table, ti
 | Display records in a timeline        |            |      ✓        |             | 
 | Filter records            |     ✓     |✓             |    ✓       |
 | Display records on a calendar                               |           |              |        ✓|
-| Group records                                      |      ✓     | ✓             |
-| Sort records                                       | ✓          |              |
+| Group records                                      |      ✓     | ✓             ||
+| Sort records                                       | ✓          |              ||
 | Color-code records                    | ✓         | ✓              |          ✓     |
-| Color-code groupings                     |           | ✓              |
-| Search for specific records                     |  ✓         | ✓              |
+| Color-code groupings                     |           | ✓              ||
+| Search for specific records                     |  ✓         | ✓              ||
 | Share the view with others                     |  ✓         | ✓              |       ✓     |
 | Open the record's page from the view                    |  ✓         | ✓              |    |
 | Display records by year and quarter                    |           | ✓              |    |

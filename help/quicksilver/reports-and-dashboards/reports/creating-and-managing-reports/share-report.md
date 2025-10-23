@@ -59,8 +59,8 @@ For more detail about the information in this table, see [Access requirements in
 
 In addition to the considerations below, also see [Share reports, dashboards, and calendars](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
-* You can share reports that you create with other individuals, teams, groups, job roles, or companies. You can also share reports others created and which were shared with you. 
-* You can also share them with your entire organization or make them public. Making a report public generates a URL that can be shared with others.
+* You can share reports that you create with other individuals, teams, groups, job roles, or companies. You can also share reports others created and were shared with you. 
+* You can  share reports with your entire organization or make them public. Making a report public generates a URL that can be shared with others.
 * You can share an individual report, or you can share multiple reports from a list of reports.
 
 ## Ways to share reports
@@ -68,21 +68,21 @@ In addition to the considerations below, also see [Share reports, dashboards, an
 You can share reports in&nbsp;Workfront in the following way:
 
 * Manually, as described in the [Share a report](#share-a-report) section below. 
-* Automatically, by inheriting View permissions from a dashboard that contains the report which has been shared. For information about viewing inherited permissions on objects, see [View inherited permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+* Automatically by inheriting View permissions from a dashboard that contains the report which has been shared. For information about viewing inherited permissions on objects, see [View inherited permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
 ## Share a report {#share-a-report}
 
 Sharing one report or several reports from a list is identical.
 
-1. Go to a list of reports and select one or multiple reports, then click **Share**.
+1. Go to a list of reports and select one or multiple reports, then click the **Share** icon ![Share icon](assets/share-icon.png).
 
    Or
 
-   Click the name of one report, then click **Report Actions >****Sharing**.
+   Click the name of one report, then click **Report Actions** > **Sharing**. The **Share [REPORT NAME]** box opens.
 
-   ![](assets/unshimmed-report-actions-sharing.png)
+   ![Sharing option](assets/unshimmed-report-actions-sharing.png)
 
-1. In the box that displays, in the **Add people, teams, roles, groups, or companies ...** field start typing the name of the user, team, job role, group, or company whom you want to share the report with, then press **Enter** when the name displays.
+1. In the **Grant report access to** field, start typing the name of the user, team, job role, group, or company whom you want to share the report with, then select it when it displays.
 
 1. To adjust the level of access for a name you added, click the drop-down menu to the right of the name, then choose one of the options below.
 
@@ -91,12 +91,12 @@ Sharing one report or several reports from a list is identical.
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">View it</td> 
-      <td> <p>Allows your recipient access to see the report in the <strong>Reports</strong> area and run it.</p> <p>You can click <strong>Advanced Settings</strong> to specify whether you want the user or users to be able to <strong>Share</strong> it with anyone in the system.</p> </td> 
+      <td role="rowheader">View</td> 
+      <td> <p>Allows your recipient access to see the report in the <strong>Reports</strong> area and run it.</p> <p>You can click the <strong>Advanced Settings</strong> icon on the right to specify whether you want the user or users to be able to <strong>Share</strong> it with anyone in the system.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Manage it</td> 
-      <td> <p>Allows your recipient full edit access to the report.</p> <p>You can click <strong>Advanced Settings</strong> to specify whether you want the user or users to be able to <strong>Delete</strong> the report from the system and <strong>Share</strong> it with anyone in the system.</p> </td> 
+      <td role="rowheader">Manage</td> 
+      <td> <p>Allows your recipient full edit access to the report.</p> <p>You can click the <strong>Advanced Settings</strong> icon on the right to specify whether you want the user or users to be able to <strong>Delete</strong> the report from the system and <strong>Share</strong> it with anyone in the system.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -104,13 +104,13 @@ Sharing one report or several reports from a list is identical.
 1. (Optional) Repeat the 2 previous steps to add other names to the list and configure their options.
 1. (Optional) Click the **Only invited people can access** dropdown menu in the sharing box, then choose between the following options:
 
-   * **Only invited people can access** Select this option so that only users that have been granted access to the report can view it.
+   * **Only invited people can access**: Select this option so that only users that have been granted access to the report can view it.
 
-   * **Everyone in the system can view** Select this option so that everyone in Workfront with access to reports can view the report.
+   * **Everyone in the system can view**: Select this option so that everyone in Workfront with access to reports can view the report.
 
 1. (Optional) Click the **Gear** icon ![Gear icon settings](assets/gear-icon-settings-with-dn-arrow.jpg) in the upper-right corner of the sharing box, then optionally select the following option:
 
-   * **Make this public to external users** Select this option to generate a URL that can be shared with others. Anyone with the URL can access the report, without having an Adobe Workfront license.
+   * **Make this public to external users**: Select this option to generate a URL that can be shared with others. Anyone with the URL can access the report, without having an Adobe Workfront license.
 
      >[!CAUTION]
      >

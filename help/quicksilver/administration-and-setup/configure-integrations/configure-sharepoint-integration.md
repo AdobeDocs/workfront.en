@@ -5,7 +5,7 @@ product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
 description: You can integrate [!DNL Workfront] with [!DNL SharePoint] Online, providing users with the ability to navigate to, link, and add [!DNL SharePoint] documents within Workfront. The functionality provided is similar to that of other [!DNL Workfront] document integrations.
 author: Becky
-feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
+feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 ---

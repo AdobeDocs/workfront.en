@@ -51,7 +51,7 @@ For more information, see [Edit a user's profile](/help/quicksilver/administrati
 
 The Boards Admin View contains a list of every Board in your account that System Administrators can use to get a quick snapshot of the overall Boards details, including when they were last updated, how many cards each one has, and more.
 
-For more, see [Manage the Boards Admin View ](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md).
+For more, see [Manage the Boards Admin View](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md).
 
 ## Enable AI Beta features for your organization
 

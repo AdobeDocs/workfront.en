@@ -33,7 +33,10 @@ A JSON string indicating success or failure, as specified in the Error Handling 
 
 ### Example
 
-PUT https://www.example.com/api/delete­­­­­­­­­­­­­­­­­­­­­­­­­­­­­id=1234 ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
-* ­returns `status: "success"`
+```
+PUT https://www.example.com/api/deleteid=1234
+
+* returns `status: "success"`
 
 * returns `status: "failure", error: "File not found"`
+```
