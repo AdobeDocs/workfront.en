@@ -14,17 +14,17 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
 
 >[!TAB Latest release]
 
-* [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
-* [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
+* [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
+* [Adobe Workfront Planning First Quarter 2026 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
 * [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
-* [Adobe Workfront Planning Fourth Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
-* [Adobe Workfront Planning Third Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
 
 >[!TAB 2025 releases]
 
+* [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
 * [Third Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
 * [Second Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
 * [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
+* [Adobe Workfront Planning Fourth Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
 * [Adobe Workfront Planning Third Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
 * [Adobe Workfront Planning Second Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
 * [Adobe Workfront Planning First Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
