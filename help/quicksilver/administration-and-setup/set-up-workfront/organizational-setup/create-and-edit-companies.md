@@ -15,7 +15,7 @@ exl-id: bb597032-3395-4c9a-b622-5c920ba55131
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>
 
 A company is an organizational unit in [!DNL Adobe Workfront] that can represent your organization, a department within the organization, or a client you work with. You can add companies to [!DNL Workfront] and use them for financial planning, reporting purposes, to define permissions around objects, and to keep information confidential.
 
@@ -99,9 +99,9 @@ To add or edit a company:
 
 1. Update the following information in the **Basic Info** section:
 
-   * **Company Name**<!--<span class="preview"> or **Name**</span>-->: Type a name for the company.
+   * **Company Name**<span class="preview"> or **Name**</span>: Type a name for the company.
    * **Is Active**: When this option is enabled, users can find the company and attach it to projects that they create and edit. An inactive company cannot be attached to projects. This option is enabled by default.
-   * **This is the Primary Company**<!--<span class="preview">or **Is Primary**</span>-->: Assigns the company as your organization's primary company. The primary company typically represents your Workfront account where most of your users work.
+   * **This is the Primary Company**<span class="preview">or **Is Primary**</span>: Assigns the company as your organization's primary company. The primary company typically represents your Workfront account where most of your users work.
 
      You can have one company or no company designated as a primary company, but you cannot have multiple companies designated as primary companies. For more information, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -135,11 +135,11 @@ To add or edit a company:
 
    For information about creating custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Conditional) If you are creating a company, click **[!UICONTROL Create Company]**<!--<span class="preview">or **Save**</span>-->.
+1. (Conditional) If you are creating a company, click **[!UICONTROL Create Company]**<span class="preview">or **Save**.</span>
 
    Or
 
-   If you are editing an existing company, click **[!UICONTROL Save Changes]**<!--<span class="preview">or **Save**</span>-->.
+   If you are editing an existing company, click **[!UICONTROL Save Changes]**<span class="preview">or **Save**.</span>
 
 ## Manage company memberships
 

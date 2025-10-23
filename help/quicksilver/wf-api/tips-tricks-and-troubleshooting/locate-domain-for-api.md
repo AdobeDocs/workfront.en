@@ -16,7 +16,6 @@ To know whether your organization is on the Adobe Unified Shell, examine the URL
 
 | Workfront URL begins with: | URL for API calls: |
 |---|---|
-|`<yourdomain>.my.workfront.com`|`<yourdomain>.my.workfront.com`|
 |`experience.adobe.com`|`<yourdomain>.my.workfront.adobe.com`|
 
 ## Access requirements 
