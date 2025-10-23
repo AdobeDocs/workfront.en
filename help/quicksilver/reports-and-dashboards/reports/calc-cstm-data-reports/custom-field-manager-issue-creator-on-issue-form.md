@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: "Calculated custom field example: display the manager of an issue's creator on the issue custom form"
 description: Using a calculated custom field, you can display the name of the manager of an issue's creator on a custom form attached to the issue. Using the same statement, you can build similar calculated fields for projects, issues, and other objects.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
 ---
@@ -20,32 +20,36 @@ Using a calculated custom field, you can display the name of the manager of an i
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
+   <td> <p>Adobe Workfront package</p> </td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td>
+      <p>Standard</p>
+      <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Access level configurations*</td> 
-   <td> <p>Administrative access to Custom forms<br>For information about granting administrative access from the access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  <tr> 
+   <td><p>Access level configurations</p></td> 
+   <td> <p>Administrative access to Custom forms</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>Object permissions</p> </td> 
-   <td> <p>Contribute access to the object where the form is attached with access to Edit the Custom Form</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Contribute access to the object where the form is attached with access to Edit the Custom Form</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Display the manager of an issue's creator on the issue custom form
 

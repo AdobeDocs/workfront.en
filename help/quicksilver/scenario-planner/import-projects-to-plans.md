@@ -1,7 +1,7 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Import projects to plans in the Scenario Planner
+title: Import Projects to Plans in the Scenario Planner
 description: You can import existing projects into a plan. The imported projects are converted to initiatives and you can manage them within the plan as you would manage a new initiative. The original project remains linked to the new initiative.
 author: Alina
 feature: Workfront Scenario Planner
@@ -23,6 +23,41 @@ You can import existing projects into a plan. The imported projects are converte
 
 +++ Expand to view access requirements for the functionality in this article. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] package</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>NOTE</b></p>
+<p>Speak with your Workfront representative if you have a different Workfront package.</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] license</p> </td> 
+   <td> <p>[!UICONTROL Light] or higher</p> 
+   <p>[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+    <tr> 
+   <td>Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> <p>View or higher access to Projects.</p></td> 
+  </tr> 
+  <tr> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>View or higher permissions to projects.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information about access to the Scenario Planner, see [Access needed to use the [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+
+For information about Workfront access requirements, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,9 +95,7 @@ You can import existing projects into a plan. The imported projects are converte
  </tbody> 
 </table>
 
-*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## Considerations about importing projects into plans as new initiatives
 
@@ -141,15 +174,9 @@ When you import a project into a plan some project information is also imported 
 >The following occur:
 >
 >* Changes to the project never affect the initiative after you import the project into the plan.These changes include changes to the job role allocations. 
->
->  <!--
->  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change if projects will ever affect initiatives automatically) </p>>
->  -->
->
 >* Changes to the initiative affect the information in the [!DNL Scenario Planner] area on the project only when you publish the initiative to the corresponding project. Otherwise, they do not affect the [!UICONTROL Planned Hours] information for the tasks and issues of the project. 
 >
 >  For information about how publishing initiatives affects the linked projects, see  [Update or create projects by publishing initiatives in the Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md). 
->
 
 {{step1-to-scenario-planner}}
 

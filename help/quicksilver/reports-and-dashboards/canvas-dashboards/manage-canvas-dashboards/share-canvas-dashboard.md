@@ -23,7 +23,7 @@ You can share a Canvas dashboard with other Adobe Workfront users so they can vi
 
 ## Access Requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view access requirements for the functionality in this article.
  <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -31,7 +31,7 @@ You can share a Canvas dashboard with other Adobe Workfront users so they can vi
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <p>Any </p> 
    </td> 
@@ -39,8 +39,8 @@ You can share a Canvas dashboard with other Adobe Workfront users so they can vi
  <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td> 
-<p>Current: Plan </p> 
-<p>New: Standard</p> 
+<p>Standard </p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 

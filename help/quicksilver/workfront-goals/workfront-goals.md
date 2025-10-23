@@ -9,7 +9,17 @@ exl-id: 945a7d15-f10e-4829-aedb-e0de46cd6090
 ---
 # Adobe Workfront Goals: article index
 
-<!--Audited: 04/2025-->
+<!--Audited: 10/2025-->
+
+>[!NOTE]
+>
+>Your company might choose to continue using Adobe Workfront Goals if they bought this package in the past. You must speak with your account representative for details. 
+>
+>Adobe Workfront Goals is no longer available for purchase.
+>
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
 
 >[!IMPORTANT]
 >
@@ -26,7 +36,7 @@ exl-id: 945a7d15-f10e-4829-aedb-e0de46cd6090
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
 
 
 Adobe Workfront Goals helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. 

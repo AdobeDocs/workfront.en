@@ -2,7 +2,7 @@
 navigation-topic: notifications
 title: Subscribe to items in Adobe Workfront
 description: Adobe Workfront sends notifications about items you are assigned to or that you own. If you want to follow the communication on items that are not assigned to you but might impact your work, you can subscribe to them.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
 ---
@@ -28,7 +28,7 @@ For more information about working with subscriptions, see [About working with s
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,16 +37,18 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL Adobe Workfront] package</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
+   <td> 
+   <p>Contributor or higher</p>
+   <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>If your [!DNL Workfront] administrator has enabled <strong>[!UICONTROL View only updates in which they have been included in the conversation]</strong> in your access level, you cannot subscribe to items in [!DNL Workfront].</p> <p>Note: If you still don't have access, ask your [!UICONTROL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!UICONTROL Workfront] administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>If your [!DNL Workfront] administrator has enabled <strong>[!UICONTROL View only updates in which they have been included in the conversation]</strong> in your access level, you cannot subscribe to items in [!DNL Workfront].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object Permissions</strong></td> 
@@ -55,7 +57,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Subscribe to an item
 

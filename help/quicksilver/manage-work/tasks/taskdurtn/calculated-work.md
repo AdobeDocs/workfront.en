@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 'Duration Type overview: Calculated Work'
+title: 'Duration Type Overview: Calculated Work'
 description: Calculated Work is a Duration Type that you can set for a task in Adobe Workfront. For general information about Duration Types in Workfront, see Overview of Task Duration and Duration Type.
 author: Alina
 feature: Work Management
@@ -16,7 +16,7 @@ Calculated Work is a Duration Type that you can set for a task in Adobe Workfron
 
 Calculated Work determines the amount of effort (Planned Hours) needed for the task to be completed. We recommend that you use the Calculated Work Duration Type when the resources assigned to the task are allocated for the entire duration of the task.
 
-Your Workfront or a group administrator can set the default Duration&nbsp;Type of your system or group as Calculated Work.&nbsp;In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Your Workfront or a group administrator can set the default Duration Type of your system or group as Calculated Work. In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 As resources are added to a task, a project manager can expect to see the planned effort increase. To illustrate, a one-hour planning meeting with three resources represents three total hours of work required, and a one-hour planning meeting with ten resources represents ten hours of work required. This assumes that each resource is allocated to the task with 100% allocation.
 

@@ -65,6 +65,8 @@ For information, see [View Actual Hours](/help/quicksilver/manage-work/tasks/tas
 >* Preview: With the next API version, scheduled for later in 2025
 >* Production fast release: With the next API version, scheduled for later in 2025 
 >* Production for all customers:  With the next API version, scheduled for later in 2025
+>
+>For information about API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 This update introduces a change in the way the Actual Hours for projects, tasks, and issues are stored in the database. Starting with this update, the Actual Hours will be using a valuefield of `actualWorkRequiredDouble` (with a value in hours).
 

@@ -4,7 +4,7 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Scrum in an Agile Team
 description: Review these articles to learn more about using Scrum in an agile team.
-author: Lisa
+author: Jenny
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 25141131-0092-48a8-ae8b-f75fc3b6fb41

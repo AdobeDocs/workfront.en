@@ -13,9 +13,11 @@ exl-id: 058148db-1795-4d39-be87-271008ae3d47
 
 <!--take Preview and Production references at Production time-->
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -29,81 +31,46 @@ For information about submitting a request to a record type to create a record, 
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view access requirements for the functionality in this article. 
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Products</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront Planning<p></li></ul></td>
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront packages</p></td> 
+   <td> 
+<p>Any Workfront package and any Planning package</p>
+Or
+<p>Any Workflow package and any Planning package</p>
+
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative.</p>
+   </td> </tr>
+
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace and  record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
- <tr>
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
-   <td>
-<p>Any of the following Workfront plans:</p>
-<ul><li>Select</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>Workfront Planning is not available for legacy Workfront plans</p>
-   </td>
+</tbody> 
+</table> 
 
-<tr>
-   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td>
-   <td>
-<p>Any </p>  
-<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront platform</p></td>
-   <td>
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p>
-<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
-   </td>
-  </tr>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>Standard</p>
-   <p>Workfront Planning is not available for legacy Workfront licenses</p>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td>
-   <ul>
-   <li><p>Manage permissions to a workspace and record type</p></li>
-    <li><p>System Administrators can manage workspaces they did not create. </p></li>
-    </ul>
-   <p>For information about sharing permissions for Workfront Planning objects, see  
-   <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Overview of sharing permissions in Adobe Workfront Planning</a> 
-  </td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Considerations about adding approvals to a request form
 
 * You can add one or multiple approvers to a request form. You can add only users as approvers. 
-* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>
+* You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 * When you add multiple approvers to a request form, all approvers must accept the request before a record is created in Workfront Planning. 
 * If all approvers approve the request, a record is created for the record type associated with the request form. 
 * If at least one approver rejects the request, and all others approve it, a request is created for the Requests area in Workfront, but no record is created for the record type associated with the request form. 
@@ -117,11 +84,11 @@ For information about submitting a request to a record type to create a record, 
     The **Configuration** area displays.
 
     ![Configuration tab](assets/configuration-tab.png)
-1. In the **Approvers** field, click the drop-down icon and select one or several users <span class="preview">or teams</span> in the list
+1. In the **Approvers** field, click the drop-down icon and select one or several users or teams in the list
 
     Or
 
-    Start typing the name of a user <span class="preview">or team</span> that you want to set as an approver, then select it when it displays in the list. 
+    Start typing the name of a user or team that you want to set as an approver, then select it when it displays in the list. 
 
     <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -136,7 +103,7 @@ For information about submitting a request to a record type to create a record, 
       >
       >* All approvers must make a decision before a request is either approved or rejected.
       >
-      >* <span class="preview">If a team is set as an approver, only one decision is required from the team.</span>
+      >* If a team is set as an approver, only one decision is required from the team.
 
 
 1. (Optional) Click **Publish** if you have never shared the request form before

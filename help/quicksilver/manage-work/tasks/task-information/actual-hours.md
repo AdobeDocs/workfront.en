@@ -24,9 +24,38 @@ For more information about how to set up your system to allow users to log time 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <p>Standard<p>
+   <p>Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View or higher access to Tasks, Projects, or Issues</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions to a task, a project, or an issue</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+ <!--Old:
+ 
+ <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -50,11 +79,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>View or higher permissions to a task, a project, or an issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
- +++
+</table>-->
 
 ## Actual Hours vs Legacy Actual Hours
 
@@ -69,11 +94,14 @@ Depending on what area of Workfront you access the actual hours from, they could
     >
     >The Actual Cost of the project uses Legacy Actual Hours to calculate. 
 
+* In the project, task, or issue Details area, actual hours could display in the following fields:
 
-* In the project, task, or issue Details area:
+  * **Actual Hours**: In the Details tab, these are hours logged for projects, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
+  * **Actual Hours**: In a project, task, or issue custom form, when they are accessed using a Native field reference custom field that references the Actual Hours native field. These are hours logged for projects, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
 
-  * **Actual Hours**: Hours logged for projects, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
-  * **Actual Hours**: When they are accessed using a Native field reference custom field in a project, task, or issue custom form. 
+>[!NOTE]
+>
+>It is recommended to use the Actual Hours field whenever possible, because the Legacy Actual Hours field could display inaccurate hours due to the way that increments are rounded.
 
 ## Actual Hours on tasks and issues vs. Actual Hours on projects
 
@@ -167,6 +195,8 @@ With the following version of the Workfront API scheduled to release later in 20
 
 * **Actual Hours**: Hours logged for project, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
 * **Legacy Actual Hours**: Hours logged for projects, tasks, or issues any time, including before May 2021. They are stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`.
+
+For information about API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
   >[!IMPORTANT]
   >

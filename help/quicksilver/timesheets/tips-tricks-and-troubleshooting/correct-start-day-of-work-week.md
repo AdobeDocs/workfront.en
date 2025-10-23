@@ -4,7 +4,7 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: Correct the Start Day of the Work Week for Timesheets
 description: The start day of the week on my timesheet does not match my expected weekly start day. 
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
 ---

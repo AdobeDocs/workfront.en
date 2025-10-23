@@ -4,7 +4,7 @@ product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: Iterations
 description: The following articles describe how you can use iterations when working in a Scrum environment.
-author: Lisa
+author: Jenny
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b

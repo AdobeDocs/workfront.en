@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: Manage the Agile Backlog
 description: Tasks and issues can be assigned to an agile team and added to that team's backlog as stories, depending on the agile methodology the team is using.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
 ---
@@ -24,8 +24,6 @@ Tasks or issues can be assigned to the team (and subsequently added to the team 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -33,18 +31,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: [!UICONTROL Standard]</p> 
-   or
-   <p>Current: [!UICONTROL Work] or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p> 
+   <p>Work or higher</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td>[!UICONTROL Manage] access to the project the story is on </td> 
+   <td>Manage access to the project the story is on </td> 
   </tr> 
  </tbody> 
 </table>

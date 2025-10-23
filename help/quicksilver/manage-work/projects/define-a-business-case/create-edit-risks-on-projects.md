@@ -3,7 +3,7 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Create and Edit Risks on Projects
 description: Risks are possible events or factors that prevent a project from finishing on time or within budget. You can record project risks as part of creating the Business Case of a project or by using the Risks tab. You can add risks to projects and templates. You cannot associate risks with tasks or issues.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
 ---
@@ -29,8 +29,6 @@ Risks can be associated with cost, but Actual Risk Cost does not impact the Actu
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
-
 +++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
@@ -38,17 +36,15 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
-   <td> <p>Current plans:</p>
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <ul><li>Any plan, to add risks in the Risks area of the project</p></li>
    <li><p>Prime or higher, to add risks in the project's Business Case</p></li></ul>
-   <p>Legacy plans: Any plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td> <p>Current: Standard </p>
-   <p>Legacy: Plan </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td> <p>Standard </p>
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configurations</p></td> 
@@ -61,7 +57,8 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
 
 +++
 
@@ -77,7 +74,7 @@ To create or edit a risk in the Business Case:
 
 1. Go to the project for which you want to create risks. 
 1. Click **Business Case** in the left panel.
-1. In the **Risks** section, click **Edit Risks**.
+1. In the **Risks** section, click the **Edit** icon ![Edit icon](assets/edit-icon.png)
 1. Enter or edit the following information:
 
    * **Description:** Describe the risk.  
@@ -93,7 +90,7 @@ To create or edit a risk in the Business Case:
 
    ![Risks](assets/edit-risk.png)
 
-1. (Optional) Click **Add Another Risk** to add additional risks.
+1. (Optional) Click **Add Another Risk** to add more risks.
 1. Click **Save**.
 
 ## Create and edit risks in the Risks area
@@ -101,8 +98,6 @@ To create or edit a risk in the Business Case:
 In addition to creating and editing risks in the Business Case, you can do so using the **Risks** section of a project.
 
 You can create and edit risks in the Risks section of a project or a template. Creating risks for templates is identical to creating risks for projects. 
-
-### Create risks in the Risks area {#create-risks-in-the-risks-area}
 
 1. Go to the project you want to create risks for.
 1. Click **Risks** in the left panel.
@@ -143,19 +138,19 @@ You can edit one risk at a time or edit multiple risks in bulk.
 
 To edit risks:
 
-1. Navigate to a project for which you want to edit existing risks.
+1. Go to a project for which you want to edit existing risks.
 1. Click **Risks** in the left panel.
 1. Start in-line editing the fields for the risks you see in the list to edit one risk at a time.
 
    Or
 
-   Select one or several risks, then click **Edit** to edit multiple risks at the same time.
+   Select one or several risks, then click the **Edit** icon ![Edit icon](assets/edit-icon-on-white.png) to edit multiple risks at the same time.
 
    >[!NOTE]
    >
    >You are applying the same information to all the risks selected, when you edit multiple risks at the same time. The information associated with each risk prior to your changes is overwritten in a bulk edit.
 
-1. If you have clicked **Edit**, the **Edit risk** or **Edit risks** box opens.
+1. If you have clicked the **Edit** icon, the **Edit risk** or **Edit risks** box opens.
 
    Update the following fields:
 

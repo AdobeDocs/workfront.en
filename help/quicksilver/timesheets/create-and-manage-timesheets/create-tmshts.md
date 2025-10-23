@@ -3,7 +3,7 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Create a Single-use Timesheet
 description: You can manually create a single-use timesheet if you want a timesheet that is not recurring. When the end date of the timesheet is reached and you need more timesheets are needed, you must create new ones.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
 ---
@@ -20,41 +20,36 @@ For information about manually generating timesheets for all users in the system
 >[!NOTE]
 >
 >* Single-use timesheets cannot be created for groups.
->  <!--
->  <span>Making sure with Lilit that this is correct</span>>
->  -->
 >* When creating a single-use timesheet, you cannot select specific general hour types to include in your timesheet. All general hour types that are activated in your system display in timesheets created manually. 
 >
->  If you want to select only certain general hour types to display in your timesheets, use a timesheet profile. For more information about timesheet profiles, see [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
->
+>If you want to select only certain general hour types to display in your timesheets, use a timesheet profile. For more information about timesheet profiles, see [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
++++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Standard </p>
-   <p>Current: Plan </p> </td> 
+   <td>Adobe Workfront license</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level</td> 
-   <td> <p>You must have administrative access to Timesheets. </p>  </td> 
+   <td>Access level configurations</td> 
+   <td><p>Administrative access to Timesheets</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

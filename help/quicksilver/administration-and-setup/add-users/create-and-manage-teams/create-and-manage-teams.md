@@ -5,7 +5,7 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: add-users-to-workfront
 description: As an Adobe Workfront administrator, you can create a team from the Setup area.
-author: Lisa
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog

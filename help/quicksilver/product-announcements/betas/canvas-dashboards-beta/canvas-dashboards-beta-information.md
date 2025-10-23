@@ -26,7 +26,7 @@ For more information, see [Canvas Dashboards overview](/help/quicksilver/reports
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view access requirements for the functionality in this article. 
 
  <table style="table-layout:auto"> 
 <col> 
@@ -35,7 +35,7 @@ For more information, see [Canvas Dashboards overview](/help/quicksilver/reports
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <p>Any </p> 
    </td> 
@@ -43,8 +43,8 @@ For more information, see [Canvas Dashboards overview](/help/quicksilver/reports
  <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td> 
-<p>Current: Plan </p> 
-<p>New: Standard</p> 
+<p>Standard </p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 

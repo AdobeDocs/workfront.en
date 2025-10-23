@@ -16,15 +16,15 @@ For more information about Frame.io, see [Getting Started with Frame.io](https:/
 
 You must have the Workfront and Frame.io integration set up in your Workfront instance. For more information, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements).
 
-<!--## Integration requirements
+## Integration requirements
 
 * Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
 
 * Users can belong to only one Workfront instance within the IMS organization.
 
-* The Workfront instance must be enabled on the Adobe Unified Experience.
+* The Workfront instance must be enabled on the Adobe Unified Experience and Adobe enterprise storage.
 
-* The integration is configured by Adobe Professional Services. -->
+* The integration must be configured by Adobe Professional Services. 
 
 ## Work initiation and planning in Workfront
 

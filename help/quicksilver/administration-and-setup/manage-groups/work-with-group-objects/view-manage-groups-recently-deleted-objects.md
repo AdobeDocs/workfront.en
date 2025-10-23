@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: View and Manage a Group's Recently Deleted Items
 description: When you are viewing a group that you manage in the Groups area, you can view, filter, restore, and export its recently deleted work items, documents, and templates.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
@@ -25,34 +25,31 @@ For more information about deleted items, see [Manage deleted items](../../../ad
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td>
-   <td><p>New: Standard</p>
-       <p>Or</p>
-       <p>Current: Plan</p></td>
-  <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
+  <tr>
+   <td>Access level configurations</td> 
    <td>You must be a group administrator of the group or a system administrator.</td>
   </tr>
   <tr> 
-   <td role="rowheader">Object permissions</td>
+   <td>Object permissions</td>
    <td>The deleted items must be associated with the group or any of its subgroups.</td> 
-  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

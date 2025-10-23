@@ -2,14 +2,14 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Edit timesheet information
-description: As a user with administrative access to Timesheets, you can edit information on existing timesheets in Adobe Workfront . For example, you can edit the Owner, the Approvers, or the time frame of the timesheet.
-author: Alina
+description: As a user with administrative access to Timesheets, you can edit information on existing timesheets in Adobe Workfront. For example, you can edit the Owner, the Approvers, or the time frame of the timesheet.
+author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
 ---
 # Edit timesheet information
 
-As a user with administrative access to Timesheets, you can edit information on existing timesheets in Adobe Workfront . For example, you can edit the Owner, the Approvers, or the time frame of the timesheet.
+As a user with administrative access to Timesheets, you can edit information on existing timesheets in Adobe Workfront. For example, you can edit the Owner, the Approvers, or the time frame of the timesheet.
 
 You can edit information on a single timesheet, or you can edit multiple timesheets in bulk.
 
@@ -17,33 +17,34 @@ You can edit information on a single timesheet, or you can edit multiple timeshe
 >
 >If users are associated with Timesheet Profiles and the timesheets are automatically generated, the changes you make to existing timesheets do not reflect on timesheets that will be generated for future dates. All timesheets generated automatically have the settings established in the Timesheet Profiles. For more information, see [Create timesheet profiles](../create-and-manage-timesheets/create-timesheet-profiles.md)
 
-
 ## Access requirements
 
-You must have the following to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Adobe Workfront license</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must have administrative access to Timesheets. </p> <p>For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td>Access level configurations</td> 
+   <td><p>Administrative access to Timesheets</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Edit timesheets
 
@@ -106,7 +107,7 @@ You must have the following to perform the steps in this article:
       <td role="rowheader"><strong>End Date</strong> </td> 
       <td> This is the end date of the timesheet.</td> 
      </tr> 
- <tr> 
+     <tr> 
       <td role="rowheader"><strong>Status</strong> </td> 
       <td> This is the status of the timesheet.
       The following are possible timesheet status options: 
@@ -114,7 +115,7 @@ You must have the following to perform the steps in this article:
       <li><b>Submitted</b>: The timesheet is submitted for approval to the designated approvers.</li>
       <li><b>Rejected</b>: The timesheet was not approved by the approvers and is now available again for the user to edit the time entries.</li>
       <li><b>Closed</b>: The timesheet is either closed by the user or approved by the approver and as a result, it is now closed. You cannot add time to a closed timesheet.</li>
-   </td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Approvers</strong> </td> 

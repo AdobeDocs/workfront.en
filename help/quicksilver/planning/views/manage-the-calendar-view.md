@@ -9,9 +9,12 @@ exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
 ---
 # Manage the calendar view
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -21,8 +24,49 @@ For information about Adobe Workfront Planning views and how to manage them, see
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view the access requirements for the functionality in this article. 
 
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr> 
+</tbody> 
+</table> 
+
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
  <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -84,11 +128,7 @@ For information about Adobe Workfront Planning views and how to manage them, see
   </tr>
 
 </tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
+</table> -->
 
 ## Manage a calendar view {#manage-a-calendar-view}
 
@@ -110,13 +150,9 @@ To manage a calendar view:
 1. Go to the record type page for which you want to view the calendar. 
 1. Create a calendar view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
-    <div class="preview">
-
     ![Calendar view example](assets/calendar-view-example.png)
 
     The records associated with the record type you selected display as bars in a calendar. The color of the bars matches the color of the record icon, by default. 
-
-    </div>
 
 1. Do one of the following to navigate through the calendar:
 
@@ -131,23 +167,23 @@ To manage a calendar view:
             * Records that span over multiple days display at the top of the calendar.
             * Records that last a day or less, display in the lower half of the calendar view. If you selected to display the hour of he Start and End Dates, the record displays at the appropriate time within the day that it occurs.
          
-1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+1. (Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  
 
-1. <span class="preview">To create records in the calendar view or edit their dates do one of the following:</span>
+1. To create records in the calendar view or edit their dates do one of the following:
 
-    * <span class="preview">Double-click anywhere on the calendar to create a record. </span>
+    * Double-click anywhere on the calendar to create a record. 
     
-        <span class="preview">For information, see [Create records](/help/quicksilver/planning/records/create-records.md).</span>
+        For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
     
-    * <span class="preview">Click on the left or right margin of a record bar, then drag and drop it in a new position. Resizing the records' bars updates their start or end dates immediately. </span> 
+    * Click on the left or right margin of a record bar, then drag and drop it in a new position. Resizing the records' bars updates their start or end dates immediately. 
     
-    * <span class="preview">Drag and drop the record bars to update their position and dates. Moving the records' bars updates their start and end dates immediately.</span>
+    * Drag and drop the record bars to update their position and dates. Moving the records' bars updates their start and end dates immediately.
     
-      <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+      For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
     
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)
-    * <span class="preview">[Row height](#modify-row-height)</span>
+    * [Row height](#modify-row-height)
     * [Settings](#edit-the-calendar-view-settings)
     
     <!--* [Grouping](#add-grouping)-->
@@ -271,7 +307,6 @@ To add a filter to a calendar view:
 1. (Optional) Click the **x** icon to remove a filter condition.
 1. (Optional) Click **Filters** to close the filters box. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<span class="preview">
 
 ### Modify row height
 

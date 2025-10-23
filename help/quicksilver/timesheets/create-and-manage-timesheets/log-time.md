@@ -3,7 +3,7 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Log Time
 description: You can log time for work items in&nbsp;Adobe Workfront to indicate the number of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
-author: Alina
+author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
@@ -29,39 +29,39 @@ For more information about the type of hours you can log in Workfront, see [Mana
 
 ## Access requirements
 
-+++ Expand to view access requirements.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <ul><li> Light or higher to log hours on a task, issue, or General Hours on a timesheet</li>
-   <li>Standard to log hours on projects</li></ul>
+   <ul><li><p>Light or higher to log hours on a task, issue, or General Hours on a timesheet</p></li>
+   <li><p>Standard to log hours on projects</p></li></ul>
 
    <p>Or: </p>
    
-   <ul><li>Review or higher to log General Hours in a timesheet</li>
-   <li>Work or higher to log hours on a project, task, or issue</li></ul> </td> 
+   <ul><li><p>Review or higher to log General Hours in a timesheet</p></li>
+   <li><p>Work or higher to log hours on a project, task, or issue</p></li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to the type of work item you log time for </p> <p>For example, you need Edit access to Issues, to log time for issues</p> </td> 
+   <td>Access level configurations</td> 
+   <td> <p>Edit access to the type of work item you log time for </p> <p>For example, you need Edit access to Issues, to log time for issues</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions on the work item you log time for that includes permissions to Log Hours</p> </td> 
+   <td>Object permissions</td>
+   <td> <p>Contribute or higher permissions on the work item you log time for that includes permissions to Log Hours</p> </td>
   </tr> 
  </tbody> 
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

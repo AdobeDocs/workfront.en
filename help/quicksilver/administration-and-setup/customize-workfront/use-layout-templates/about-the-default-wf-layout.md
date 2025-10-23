@@ -12,7 +12,7 @@ exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
 ---
 # About the default Adobe Workfront layout
 
-The default layout is the arrangement of the Main Menu ![Main menu icon](assets/main-menu-icon.png) or the Main Menu ![Main menu icon](assets/main-menu-icon.png), if available, the left panel, and the views, groupings, and filters before an Adobe Workfront administrator makes any changes using a layout template.
+The default layout is the arrangement of the Main Menu ![Main menu icon](assets/main-menu-icon.png) or the Main Menu ![Main menu icon](assets/main-menu-icon-left-nav.png), if available, the left panel, and the views, groupings, and filters before an Adobe Workfront administrator makes any changes using a layout template.
 
 For information about how a Workfront administrator can modify a user's default layout by assigning the user a layout template, see [Assign users to a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
