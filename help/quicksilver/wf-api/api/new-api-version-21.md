@@ -557,6 +557,7 @@ Projects are work items within Workfront, and are a main building block in the w
 </table>
 
 ### QueueDef (QUED)
+
 A QueueDef object represents a Queue, which is a project that has been published to the Help Desk area to allow users to submit issues to it.
 
 <table>
