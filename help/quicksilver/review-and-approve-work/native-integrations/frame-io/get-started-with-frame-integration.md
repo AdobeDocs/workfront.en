@@ -116,3 +116,9 @@ Project coordinators can monitor progress on all in-flight approvals in the Work
 * **Custom dashboard**: Create a report dashboard in the Canvas Dashboards area to display both high-level and detailed information about reviews and approvals with Unified Approvals functionality. For information on how to get started, see [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 * **Document approval metrics Home widget**: Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals.
     ![All approvals](assets/all-approvals.png)
+
+## Send finished assets to Adobe Experience Manager
+
+You can use the [!DNL Experience Manager Assets]​​ to manage and store your digital assets that have gone through the review and approval cycle. This integration allows you to leverage the capabilities of Adobe Experience Manager, Frame.io, and Workfront to streamline your content management and collaboration processes.
+
+For more information, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
