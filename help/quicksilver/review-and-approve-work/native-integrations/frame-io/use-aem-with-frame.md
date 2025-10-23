@@ -49,8 +49,14 @@ You can connect your work with your content in [!DNL Experience Manager Assets]â
     <tr>
    <td>Adobe Workfront licenses
    </td>
-   <td>Standard
+   <td>
+  <p>To configure the integration:</p>
+   <p>Standard</p>
    <p>Plan</p>
+
+   <p>To send documents to Experience Manager Assets:</p>
+   <p>Contributor or higher</p>
+   <p>Request or higher</p>
    </td>
   </tr>
   </tr>
