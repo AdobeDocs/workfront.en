@@ -5,7 +5,7 @@ product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Manage Group Statuses
 description: As a group administrator, you can create custom statuses for a group that you manage. This helps to eliminate the need for dozens of company-wide custom statuses and allows more autonomy in your group hierarchies. You can also edit a system-level status for a group you manage if a Workfront administrator has unlocked the status.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog

@@ -9,6 +9,16 @@ exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
 ---
 # Manage user or role allocation percentage on tasks
 
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
+
 Allocation percentage represents the amount of time an assigned resource is planned to work on a task in a day. It is the percent of a work day (according to the user or project schedule) at which a resource is allocated throughout the duration of the task.
 
 >[!NOTE]
@@ -19,35 +29,42 @@ Allocation percentage represents the amount of time an assigned resource is plan
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Standard</p> 
-   <p>Current: Work or higher</p> </td> 
+   <td>Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+   <p>Work or higher</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to Tasks</p> </td> 
+   <td>Access level configurations</td> 
+   <td>Edit access to Tasks</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions to the task</p> <p>Edit permissions to update allocation percentage in the Edit Task box</p>  </td> 
-  </tr> 
- </tbody> 
+   <td>Object permissions</td>
+   <td><p>Contribute or higher permissions to the task</p>
+   <p>Edit permissions to update allocation percentage in the Edit Task box</p></td>
+  </tr>
+ </tbody>
 </table>
 
-For more detail about the information in this table, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--
+Change this sentence in the table:
+<p>Edit permissions to update allocation hours in the Edit Task box</p>
+To this:
+<p>Edit permissions to update allocation hours in the Edit Task box in the Production environment. <span class="preview">You can no longer manage allocation percentage in the Edit task box in the Preview environment.</span></p>
+-->
 
 ## Considerations about modifying percent allocations for tasks
 

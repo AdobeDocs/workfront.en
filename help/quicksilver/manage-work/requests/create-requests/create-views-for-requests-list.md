@@ -8,7 +8,6 @@ feature: Work Management
 ---
 # Create or edit views in the Requests area
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 If you are using the new requesting experience, you can create and save views for the Requests area. These views include filters and column arrangements. 
 

@@ -5,7 +5,7 @@ product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: "Groups: Article Index"
 description: Groups are similar to but distinct from teams and companies. The Workfront administrator grants groups the access to the Workfront areas where they need to work and communicate.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog

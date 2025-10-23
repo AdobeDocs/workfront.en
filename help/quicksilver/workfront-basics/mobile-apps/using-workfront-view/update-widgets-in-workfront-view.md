@@ -3,7 +3,7 @@ product-previous: mobile
 navigation-topic: use-workfront-view
 title: Update widgets in the Project Details view
 description: You can view additional information about the [!UICONTROL project] after you have accessed it from the project list by adding widgets to your [!UICONTROL Project Details] screen. Each user can customize their own widgets.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
 ---
@@ -13,7 +13,7 @@ You can view additional information about the [!UICONTROL project] after you hav
 
 ## Access requirements
 
-You must have the following access in [!DNL Workfront] to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -22,17 +22,21 @@ You must have the following access in [!DNL Workfront] to perform the steps in t
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Review] or higher</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
+   <td> 
+   <p>Contributor or higher</p>
+   <p>Review or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Update the widgets in the [!UICONTROL Project Details] view
 

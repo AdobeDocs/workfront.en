@@ -10,9 +10,13 @@ exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 
 # Connect records 
 
+<!--
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -52,7 +56,59 @@ You can connect the following:
 
 ## Access requirements
 
-+++ Expand to view access requirements.
++++ Expand to view the access requirements for the functionality in this article. 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+<tr> 
+<td> 
+   <p> Additional products</p> </td> 
+   <td> 
+    <p>In addition to Adobe Workfront, you must have an Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront, to connect AEM assets with Planning records.</p>
+    <p>For information, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p>
+   </td> 
+  </tr>   
+<tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <p>View or higher access for the object types whose objects you want to connect to in Workfront and AEM Assets. </p>  
+</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Contribute or higher permissions to a workspace and record type to connect records. </p>  
+   <p>View or higher permissions to a workspace and record type to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
+   <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
+  </tr>   
+</tbody> 
+</table> 
+
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -116,11 +172,7 @@ You can connect the following:
    <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
   </tr> 
 </tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).   
-
-+++
+</table> -->
 
 ## Considerations for connecting records
 
@@ -455,18 +507,23 @@ To connect records with Experience Manager assets:
 1. Click the name of a record. 
 
     The preview page opens. 
-1. Click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) to open the record's page. 
-1. Click an existing Connected records page tab in the record's page. You must first create a Connected records page. 
+1. (Optional) Click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) to open the record's page. 
+1. Click an existing **Connected records page** tab in the record's page. You must first create a **Connected records page**. 
 
     A connected record type page displays in the table view.
     
-    All connected records of one type display in the table.  
-1. Click **Connect** or <span class="preview">**Connect records** in a list of projects</span> to add or remove existing records.
+    All connected records of one type display in the table. 
+
+    >[!TIP]
+    >
+    >You must add connected records to the current record to view them in the connected records page.  
+
+1. Click **Connect** in a list of records or **Connect records** in a list of projects to add or remove existing records or projects.
 
     ![Connect button highlighted in connected record details tab](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 
     For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
-1. <span class="preview">Click **New row** in a list of projects to create a project. The new projects are automatically connected to the current record. </span>
+1. Click **New row** in a list of projects to create a project without a template. The new projects are automatically connected to the current record. 
 1. (Optional) If you cannot find a connected record, click **+ Add** to create and connect them. 
 
 ## Connect records from Workfront objects

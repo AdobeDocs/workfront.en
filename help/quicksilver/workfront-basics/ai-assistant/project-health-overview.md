@@ -22,7 +22,8 @@ AI Assistant can generate a Project Health assessment for the following objects:
 
 For more information about AI Assistant, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-+++ Expand to view access requirements. 
++++ Expand to view access requirements for the functionality in this article.
+
  <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -30,9 +31,10 @@ For more information about AI Assistant, see [AI Assistant overview](/help/quick
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Select, Prime, or Ultimate </p> 
+<p>Select or higher </p> 
+<p>Workflow Select or higher</p>
    </td> 
 <tr> 
  <tr> 
@@ -44,9 +46,9 @@ For more information about AI Assistant, see [AI Assistant overview](/help/quick
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configurations</p></td> 
-   <td><p>Administrator to manage Project Health configurations </p>
-   <p>Edit to apply Project Health configurations </p>
-     <p>View to view Project Health configurations </p>
+   <td><p>You must be a System administrator to manage Project Health configurations </p>
+   <p>Edit access to projects to apply Project Health configurations </p>
+     <p>View access to projects to view Project Health configurations </p>
   </td> 
   </tr>  
     </tr>  
@@ -67,7 +69,7 @@ To enable AI Assistant and Project Health for your organization, all of the foll
 * The Adobe Unified Experience must be enabled. 
 * Adobe must have a signed Adobe Gen AI agreement on file.
 * The Workfront administrator must enable AI Assistant for users in your organization. AI Assistant is enabled through access levels. 
-* Both the Enable AI and Project Health options must be selected in the AI preferences section at Setup > Preferences.
+* Both the Enable AI and Project Health options must be selected in the AI preferences section at Setup > System > Preferences.
 
     ![AI Preferences section](assets/ai-preferences.png)
 
@@ -249,7 +251,7 @@ For more information, see the following section in this article: [Manage project
     >If you're accessing AI Assistant from a different page in Workfront, you can type *What's the health of project [PROJECT NAME]?* or *What's the health of program [PROGRAM NAME]?* <br>
     >For a full list of the current prompts you can enter, see the following section in this article: [AI Assistant prompts list](#ai-assistant-prompts-list). 
 
-1. Hit the **Send** icon ![Send icon](assets/send-icon.png). The Project Health assessment generates and appears in the panel. A badge appears at the top of each Project Health assessment, which reflects the project's current condition.  
+1. Click the **Send** icon ![Send icon](assets/send-icon.png). The Project Health assessment generates and appears in the panel. A badge appears at the top of each Project Health assessment, which reflects the project's current condition.  
 
     ![Project health assessment](assets/health-assessment.png)
 
@@ -275,7 +277,7 @@ A project will only be included in the combined Project Health assessment if the
 
     For a full list of the current prompts you can enter, see the following section in this article: [AI Assistant prompts list](#ai-assistant-prompts-list). 
 
-1. Hit the **Send** icon ![Send icon](assets/send-icon.png). The Project Health assessment generates and appears in the panel. 
+1. Click the **Send** icon ![Send icon](assets/send-icon.png). The Project Health assessment generates and appears in the panel. 
 
     ![Multiple projects assessment](assets/multiple-projects-assessment.png)
 

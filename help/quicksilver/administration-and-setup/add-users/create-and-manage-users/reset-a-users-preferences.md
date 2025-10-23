@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: As an Adobe Workfront administrator, you can reset or remove the user preference settings for any user in the Workfront system. Individual users can also reset their own user preference settings.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
@@ -12,6 +12,8 @@ exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
 # Reset a user's preferences
 
 <!-- Audited: 12/2023 -->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>
 
 As an Adobe Workfront administrator, you can reset or remove the user preference settings for any user in the Workfront system.
 
@@ -21,30 +23,27 @@ Individual users can also reset their own user preference settings.
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-       <p>Or</p>
-       <p>Current: Plan</p></td>
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Access level configurations</td> 
+   <td>System Administrator</td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -52,6 +51,7 @@ For more detail about the information in this table, see [Access requirements in
 
 When you reset user preferences, some preferences are reverted to the system default, and others are cleared or removed:
 
+<!--
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -96,6 +96,22 @@ When you reset user preferences, some preferences are reverted to the system def
   </tr> 
  </tbody> 
 </table>
+-->
+
+<!--Display this table and hide the HTML table above, when the unshim is released.-->
+
+<div class="preview">
+
+| Preference | Status after the reset |
+| --- | --- |
+| Views | Reverted to the system default <p>Existing views are not deleted. You can select them again.</p> |
+| Filters | Reverted to the system default <p>Existing filters are not deleted. You can select them again.</p> |
+| Groupings | Reverted to the system default <p>Existing groupings are not deleted. You can select them again.</p> |
+| Recent items list | Cleared |
+| Favorites list | Unaffected |
+| User Preferences | Reverted to the system default <p>Email notifications revert to the system defaults. The default notifications are listed in [Event notifications available in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
+
+</div>
 
 ## Reset user preferences
 
@@ -125,8 +141,13 @@ When you reset user preferences, some preferences are reverted to the system def
      >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. Press **Enter**.
-1. To reset all user preferences, select **Reset**.
+
+<div class="preview">
+
+1. To reset all user preferences, click **Reset**.
 
    Or
 
-   To reset only custom tabs, select **Reset Tabs**.
+   To reset only custom tabs, click **Reset Left Navigation**.
+
+</div>

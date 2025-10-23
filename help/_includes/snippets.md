@@ -163,6 +163,7 @@ To set up linked folders:
 ## Prerequisites {#cc-install-prereq}
 
 You must install the correct plugin for the Adobe Creative Cloud application you're using:
+
 * For Photoshop, see [Install Adobe Workfront for Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * For XD, see [Install Adobe Workfront for XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * For InDesign, Illustrator, Premiere Pro, and After Effects see [Install Adobe Workfront for design and video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -282,15 +283,24 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 >
 >The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
 >
+>For a list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> 
+>For general information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+
+<!--Old - before Oct. 15, 2025:
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>
 >You must have the following to access Workfront Planning:
 >
 >* A new Workfront package and license. Workfront Planning is not available for legacy Workfront packages or licenses. 
 >* A Workfront Planning package. 
 >* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
 >
-> For a complete list of requirements to access Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
+> For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 > 
->For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).-->
 
 <!--OLD: 
 >[!IMPORTANT]
@@ -353,6 +363,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 ## Latest DPV Version {#latest-version}
 
 **Latest version**: 
+
 * Mac: 2.1.52 as of 7/31/2025
 * Windows: 2.1.52 of 7/31/2025
 

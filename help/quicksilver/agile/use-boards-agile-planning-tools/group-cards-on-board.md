@@ -4,7 +4,7 @@ content-type: reference
 navigation-topic: boards
 title: Use Groups on a Board
 description: You can group cards on a board by assignee or by tag. When you select an option to group by, the cards appear in a swimlane format.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
 ---
@@ -20,22 +20,19 @@ You can group cards on a board by assignee or by tag. When you select an option 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <p>New: [!UICONTROL Contributor] or higher</p> 
-   <p>or</p>
-   <p>Current: [!UICONTROL Request] or higher</p>
+   <p>Contributor or higher</p> 
+   <p>Request or higher</p>
    </td> 
   </tr> 
  </tbody> 

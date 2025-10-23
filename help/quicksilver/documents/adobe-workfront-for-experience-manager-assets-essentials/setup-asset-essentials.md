@@ -23,42 +23,42 @@ Connect your work with your content in Experience Manager Assets Essentials​:
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table>
   <tr>
-   <td>[!DNL Adobe Workfront] plan
+   <td><strong>Adobe Workfront package</strong>
    </td>
    <td>Any
    </td>
   </tr>
   <tr>
-   <td>[!DNL Adobe Workfront] license
+   <td><strong>Adobe Workfront licenses</strong>
    </td>
-   <td><p>Current: [!UICONTROL Plan]</p>
-   <p>New: [!UICONTROL Standard]</p></td>
-  </tr>
-  <tr>
-   <td>[!DNL Experience Manager] license
-   </td>
-   <td>[!UICONTROL Standard]
+   <td>
+   <p>Standard</p>
+   <p>Plan</p>
    </td>
   </tr>
   <tr>
-   <td>Product
+   <td><strong>Additional products</strong>
    </td>
-   <td>You must have Experience Manager Assets Essentials, and you must be added to the product as a user in the Admin Console.
+   <td>You must have Experience Manager Assets as a Cloud Service or Assets Essentials, and you must be added to the product as a user.
    </td>
   </tr>
   <tr>
-   <td>Access level configurations
+   <td><strong>Experience Manager permissions</strong>
    </td>
-   <td>You must be a [!DNL Workfront] administrator.
+   <td>You must have write access to the destination folder in the Experience Manger integration.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Access level configurations</strong>
+   </td>
+   <td>You must be a Workfront administrator to configure an Experience Manager integration. After it is configured, users with a Plan license can set up linked folders on individual projects.
    </td>
   </tr>
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

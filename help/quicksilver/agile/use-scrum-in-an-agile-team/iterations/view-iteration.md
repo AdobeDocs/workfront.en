@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: View an Iteration
 description: You can view all iterations for a given team, or you can view an individual iteration. Iterations display data about the stories, issues, and documents that are contained in the iteration.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
 ---
@@ -15,8 +15,6 @@ You can view all iterations for a given team, or you can view an individual iter
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -24,14 +22,13 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: [!UICONTROL Light] or higher</p> 
-   or
-   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Light or higher</p> 
+   <p>Review or higher</p> </td> 
   </tr>
  </tbody> 
 </table>

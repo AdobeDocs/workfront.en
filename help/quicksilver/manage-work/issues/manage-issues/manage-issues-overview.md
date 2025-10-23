@@ -2,14 +2,18 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: issues
-title: Manage issues
-description: The following articles contain information about managing issues.
+title: "Manage Issues: Article Index"
+description: While working on a project, you might discover that unexpected events arise. You can log those unexpected events as issues for a particular project or for a task. The following articles contain information about managing issues.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 12fa2d34-a7b4-47ba-825c-a00fb5f71efd
 ---
-# Manage issues
+# Manage issues: article index
+
+<!--Audited: 08/2025-->
+
+While working on a project, you might discover that unexpected events arise. You can log those unexpected events as issues for a particular project or for a task.
 
 This section contains the following articles:
 

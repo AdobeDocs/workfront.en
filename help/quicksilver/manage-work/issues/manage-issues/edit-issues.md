@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Edit issues
+title: Edit Issues
 description: You can edit information on issues that you have created, or that other users have created if they shared the issues with you. This article describes how you can search for, find, and edit an issue, if you have the permissions to do so.
 author: Alina
 feature: Work Management
@@ -11,7 +11,17 @@ exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
 ---
 # Edit issues
 
-<!--Audited: 03/2025-->
+<!--Audited: 03/2025--> 
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 You can edit information on issues that you have created, or that other users have created if they shared the issues with you.
 
@@ -21,7 +31,44 @@ You can edit a single issue or you can edit issues in a list. For information ab
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following access to perform the steps in this article:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <ul><li>Contributor or higher</li>
+   <li>Light or higher to edit issues in the Issues section of a task or project</li></ul>
+   Or:
+   <ul><li>Request or higher</li> <li>Review or higher to edit issues in the Issues section of a task or a project</li></ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Issues</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute permissions to an issue to edit the following fields in the Details area: </p>
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   <li>Severity</li>
+   </ul>
+   <p>Manage permissions to an issue to edit all the fields in the Details area or in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,11 +101,7 @@ You must have the following access to perform the steps in this article:
    <p>Manage permissions to an issue to edit all the fields in the Details area or in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Limitations when editing issues
 
@@ -199,8 +242,6 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
    </ul> </td> 
      </tr> 
 
-
-
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>Type a web link that relates to the information about the issue.</p> </td> 
@@ -223,7 +264,6 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
       <p>When adding a Primary Contact user, notice the avatar, the user's Primary Role, and their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</p>
       <p> You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Grant access to users</a>.</p>
-
       
       </td> 
      </tr> 
@@ -284,7 +324,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
    ![Issue assignments section](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
-1. Click **Search people, role and teams** and start typing the name of a user, role, or team that you want to assign to the task, then click it or press Enter when it displays on the list.
+1. Click **Search people, role and teams** and start typing the name of a user, role, or team that you want to assign to the issue, then click it or press Enter when it displays on the list.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
@@ -294,9 +334,9 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
    >
    >If the user's name contains a special character, you must include the special character in the search field.
 
+   You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
+
    >[!TIP]
-   >
-   >You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
    >
    >
    >If a user, job role, or team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
@@ -304,7 +344,10 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
    >* Reassign the work item to active resources. 
    >* Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
 
-1. (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. 
+   <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
+
+   1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
+
 1. Update the following fields: 
 
    <table style="table-layout:auto"> 
@@ -315,7 +358,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
     <tbody> 
      <tr> 
       <td role="rowheader">Planned Hours</td> 
-      <td> <p>This is the amount of actual time it would take the assignees of the issue to complete it. Type the number of Planned Hours for the issue.<br></p> <p>Note:  Changing the Planned Hours of the issue will not change the issue Planned Completion Date. </p> </td> 
+      <td> <p>This is the amount of actual time it would take the assignees of the issue to complete it. Type the number of Planned Hours for the issue.<br></p> <p><b>NOTE</b></p>  <p>Changing the Planned Hours of the issue will not change the issue Planned Completion Date. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Assignee's Role</td> 
@@ -325,6 +368,15 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
      </tr> 
     </tbody> 
    </table>
+
+   <!--
+   <div class="preview">
+   1. (Conditional) In the Preview environment, update the **Planned Hours** field
+      Or 
+      Click **Assign to me** to assign the issue to yourself. (********ADD DEFINITION OF PLANNED HOURS FROM THE TABLE AT PROD RELEASE*********)
+   </div> -->
+
+1. To remove assignments from all the issues, see [Assign issues](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md). 
 
 1. Click **Save** or continue editing the following sections.
 

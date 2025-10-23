@@ -11,7 +11,7 @@ exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
 ---
 # Create a milestone path
 
-<!--Audited: 07/2024-->
+<!--Audited: 08/2025-->
 
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -21,13 +21,13 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-<div class="preview"> 
+<!--<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> 
+</div> -->
 
 As an Adobe Workfront administrator, you can create milestone paths which can then be applied to any project in the system. The changes you make to milestone paths in this area affect the entire Workfront system.
 
@@ -35,7 +35,34 @@ As an Adobe Workfront administrator, you can create milestone paths which can th
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td><p>System Administrator</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,7 +87,7 @@ You must have the following access to perform the steps in this article:
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-+++
++++-->
 
 ## Milestones and milestone paths
 
@@ -79,13 +106,9 @@ For more information on how you can associate a milestone path with a project an
 1. Click **Processes** > **Milestone Paths**.
 1. Click **New Milestone Path.**
 
-   <div class="preview">
-
    The New Milestone Path box opens. 
    
    ![New milestone path box](assets/new-milestone-path-box.png)
-   
-   </div>
 
 1. Click **Basic Info** in the left panel. 
 
@@ -112,8 +135,7 @@ For more information on how you can associate a milestone path with a project an
 
 1. Click **Milestones** in the left panel. 
 
-1. In the Production environment, click **Add Milestone** to add milestones to the path. 
-   <span class="preview">In the Preview environment, click **New row** to add milestones to the path.</span>
+1. Click **New row** to add milestones to the path.
 1. Update the following information: 
 
    <table style="table-layout:auto"> 

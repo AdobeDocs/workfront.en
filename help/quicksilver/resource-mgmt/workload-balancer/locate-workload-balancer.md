@@ -10,8 +10,6 @@ exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
 ---
 # Locate the Workload Balancer
 
-{{preview-fast-release-general}}
-
 You can use the Workload Balancer to schedule resources for work or review their availability and current allocations.
 
 You can access the Workload Balancer in the following ways:
@@ -36,25 +34,21 @@ This article describes the areas where you can access the Workload Balancer.
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any </p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-       <p>or</p>
-       <p>Current: Plan, when using the Workload Balancer in the Resourcing area;</br>
-       Work, when using the Workload Balancer of a team or project</p>
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan, when using the Workload Balancer in the Resourcing area; Work, when using the Workload Balancer of a team or project</p>
        <p><span class="preview">Note: All users can access the Workload Balancer in their own user profiles, without any license requirements.</span></p></td>
   </tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td> <p>View or higher access to the following:</p> 
     <ul> 
      <li>Resource Management</li> 
@@ -64,13 +58,13 @@ You must have the following access to perform the steps in this article:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td>Object permissions</td> 
    <td>View permissions or higher to the projects, tasks, and issues</td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -134,8 +128,6 @@ For more information on teams in Workfront, see [Teams overview](/help/quicksilv
      >
      >You can display all users in the system instead of only the ones on the project (in the Assigned Work area) by enabling the Show all users option. For information, see [Navigate the Workload Balancer](../workload-balancer/navigate-the-workload-balancer.md).
 
-<div class="preview">
-
 ### Access the Workload Balancer for a user
 
 All users have access to view the Workload Balancer on their own profiles. Workload Balancer data for a user is read-only. You can't assign work, unassign work, or adjust allocations at the user level.
@@ -153,8 +145,6 @@ All of the display settings are available for the Workload Balancer for a user. 
    The Workload Balancer of a user displays the following by information, by default:
 
      * **Assigned Work**: The tasks and issues assigned to the specific user.
-
-</div>
 
 ## Add the Workload Balancer to the left panel as a dashboard
 

@@ -27,32 +27,34 @@ As an [!DNL Adobe Workfront] administrator, you can configure document integrati
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Any</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td><p>New: [!UICONTROL Standard]</p>
-       <p>or</p>
-       <p>Current: [!UICONTROL Plan]</p></td>
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a [!DNL Workfront] administrator.</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront package
+   </td>
+   <td> <p>Prime or Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Adobe Workfront licenses
+   </td>
+   <td>Standard
+   <p>Plan</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Access level configurations
+   </td>
+   <td>You must be a [!DNL Workfront] administrator.
+   </td>
+  </tr>
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
+
+
 
 ## Supported integrations
 
@@ -68,7 +70,7 @@ You can configure the following integrations for managing documents:
 
 * [!DNL Workfront Proof]
 
-   Linking proofs from [!DNL Workfront Proof] allows you to make proofs that were originally created within [!DNL Workfront Proof] available within [!DNL Workfront]. For the current plans, a [!UICONTROL Pro] [!DNL Workfront] Plan or higher is required to use this feature. For the new plans, this feature is available with all plans. For more information about the various plans available, see [Workfront Plans](https://business.adobe.com/products/workfront/pricing.html).
+   Linking proofs from [!DNL Workfront Proof] allows you to make proofs that were originally created within [!DNL Workfront Proof] available within [!DNL Workfront]. 
 
 * [!DNL Microsoft SharePoint]
 
@@ -90,8 +92,6 @@ You can configure the following integrations for managing documents:
    >You can proof and approve documents linked from an external cloud provider the same way you proof and approve documents uploaded directly to [!DNL Workfront].
 
 * Other document providers (through custom document integrations).
-
-   For the current plans, a [!UICONTROL Pro] [!DNL Workfront] Plan or higher is required to use this feature. For the new plans, this feature is available with all plans. For more information about the various plans available, see [Workfront Plans](https://business.adobe.com/products/workfront/pricing.html).
 
 In addition, you can enhance your [!DNL Workfront] document experience with a third-party DAM integrations. Administrators must enable these features in order for users to link the service to their [!DNL Workfront] account.
 

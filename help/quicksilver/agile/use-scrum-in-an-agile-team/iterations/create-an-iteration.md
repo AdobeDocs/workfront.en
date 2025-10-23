@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: Create an Iteration
 description: Iterations are a key component for Scrum agile teams in planning out work capacity. [!DNL Adobe Workfront] allows Scrum agile teams to manage their work by creating multiple iterations to accommodate team needs.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
 ---
@@ -15,8 +15,6 @@ Iterations are a key component for Scrum agile teams in planning out work capaci
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -24,14 +22,13 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: [!UICONTROL Light] or higher</p> 
-   or
-   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Light or higher</p> 
+   <p>Review or higher</p> </td> 
   </tr>
  </tbody> 
 </table>

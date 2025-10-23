@@ -11,7 +11,7 @@ exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 ---
 # Audit logs overview
 
-<!--Audited: 01/2024-->
+<!--Audited: 08/2025-->
 
 As an Adobe Workfront administrator, you can track user-changes triggered in the system during the past 90 days using the audit logs described below.
 

@@ -3,16 +3,24 @@ product-area: projects
 navigation-topic: manage-issues
 title: Assign issues
 description: You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see Modify issue assignments overview.
-author: Alina
+author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
 ---
 # Assign issues
 
-{{preview-fast-release-general}}
-
 <!--Audited: 07/2024-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see [Overview of modifying issue assignments](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -45,31 +53,29 @@ Assigning issues and tasks is similar in Adobe Workfront. For general informatio
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Adobe Workfront package</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Contributor or higher</p>
-   <p>Current: Review or higher</p> </td> 
+   <td>Adobe Workfront license</td> 
+   <td> <p>Contributor or higher</p>
+   <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level</td> 
+   <td>Access level configurations</td> 
    <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks to assign one issue</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td>Object permissions</td> 
    <td> <p>Manage permissions to the issue</p> <p> View permissions or higher to the project or task where the issue is located, when assigning one issue</p><p>Contribute permissions or higher to the project or task where the issue is located, when assigning multiple issues.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -165,12 +171,8 @@ To assign issues in a list:
      ![Assigned to field](assets/assigned-to-field-task-list-nwe.png)
 
    * Click inside the **Assignments** field and start typing the name of an active user, job role, or active team that you want to assign to the issue, then click it when it displays in the list.
-
-     <span class="preview">Sample image in the Preview environment:</span>
+   
      ![Assignments field](assets/assignments-field-0825.png)
-
-     Sample image in the Production environment:
-     ![Assignments field](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >
@@ -180,7 +182,7 @@ To assign issues in a list:
    >
    >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-1. (Conditional) In the Assignments field, click <span class="preview">**Advanced**</span> or the **People icon** ![People icon](assets/teams.png) in the upper-right corner of the assignments box to open the Advanced Assignments box and create advanced assignments. For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Conditional) In the Assignments field, click **Advanced** at the bottom of the list, or the **People icon** ![People icon](assets/teams.png) in the upper-right corner of the assignments box, to open the Advanced Assignments box and create advanced assignments. For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >
@@ -189,6 +191,11 @@ To assign issues in a list:
 1. After adding your assignees to the issue, press Enter or click anywhere on the page to save your changes.
 
 ## Assign issues in bulk
+
+<!--
+Assigning issues in bulk is different depending on what environment you choose to do this. 
+
+### Assign issues in bulk in the Production environment -->
 
 1. Go to a list of issues that you want to assign in bulk. 
 1. Select several issues in the list. 
@@ -203,12 +210,43 @@ To assign issues in a list:
    >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
    
 1. (Optional) Select the radio button in the **Issue Owner** column to indicate which resource is the primary assignee or the Owner of the issue, when you assign more than one resource to the issue. This is not available for teams. 
-1. (Optional) Select a role that the user should fulfill on the issue from the **Pick a role** drop-down menu in the **Assignee's Role** column when you assign users to issues. If you do not select a role, Workfront automatically selects the user's Primary&nbsp;Role. 
+1. (Optional) Select a role that the user should fulfill on the issue from the **Pick a role** drop-down menu in the **Assignee's Role** column when you assign users to issues. If you do not select a role, Workfront automatically selects the user's Primary Role. 
 
 1. (Optional) If you want to remove existing assignees from all issues do one of the following:
 
    1. Start typing the name of a user, role, or team you want to remove from the issue, then select it when it appears on the list and click **Remove Assignee** to add additional assignees to remove. 
-   1. Click&nbsp;**Remove All Existing Assignees** to remove all assignees from all selected issues.
+   1. Click **Remove All Existing Assignees** to remove all assignees from all selected issues.
 
-1. Click&nbsp;**Save Changes**.
+1. Click **Save Changes**.
 1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
+
+<!--
+<div class="preview">
+
+### Assign issues in bulk in the Preview environment
+
+1. Go to a list of issues that you want to assign in bulk. 
+1. Select several issues in the list. 
+1. Click the **Edit icon** ![Edit icon](assets/qs-edit-icon.png).
+
+   The **Edit Issues** dialog box opens.
+
+1. Click **Assignments** in the left panel, and in the **Assignments** area, start typing the name of a user, role, or team in the **Search people, roles, or teams** field, then click it when it displays in the list
+
+   Or
+
+   Click **Assign to me** to assign the issues to yourself.
+
+   >[!IMPORTANT]
+   >
+   >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
+   
+1. (Optional) If you want to remove existing assignees from all issues, click the **x** next to their name.
+
+1. (Optional) Update the Planned Hours field. For more information, see [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md). 
+
+1. Click **Save**.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
+
+</div>
+-->

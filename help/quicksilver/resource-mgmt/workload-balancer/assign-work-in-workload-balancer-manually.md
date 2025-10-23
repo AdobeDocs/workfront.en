@@ -10,8 +10,6 @@ exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
 ---
 # Assign work manually using the Workload Balancer
 
-{{preview-fast-release-general}}
-
 You can manually assign work items to users using the Adobe Workfront Workload Balancer.
 
 For general information about assigning work to users using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
@@ -20,25 +18,21 @@ For general information about assigning work to users using the Workload Balance
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-       <p>or</p>
-       <p>Current: Plan, when using the Workload Balancer in the Resourcing area;</br>
-       Work, when using the Workload Balancer of a team or project</p></td>
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan, when using the Workload Balancer in the Resourcing area; Work, when using the Workload Balancer of a team or project</p></td>
+  </tr>
+  <tr> 
+   <td>Access level configurations</td> 
    <td> <p>Edit access to the following:</p> 
     <ul> 
      <li>Resource Management</li> 
@@ -49,13 +43,13 @@ You must have the following access to perform the steps in this article:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td>Object permissions</td> 
    <td>Contribute permissions or higher to the projects, tasks, and issues that include Make Assignments</td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,7 +61,7 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
    You can assign work to users using the Workload Balancer in the Resourcing area, at the project, or at the team level. For more information about where the Workload Balancer is located in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Optional) Go to the **Unassigned Work** area and apply a filter to view tasks, issues, <span class="preview">or role assignments</span>.
+1. (Optional) Go to the **Unassigned Work** area and apply a filter to view tasks, issues, or role assignments.
 
    Or
 
@@ -75,15 +69,15 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
    >[!NOTE]
    >
-   ><span class="preview">Role assignments are displayed under work items in the Unassigned Work area when the Show Role Assignments setting is enabled. For more information, see [Customize the view](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) in [Navigate the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
+   >Role assignments are displayed under work items in the Unassigned Work area when the Show Role Assignments setting is enabled. For more information, see [Customize the view](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) in [Navigate the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Click the **More menu** ![More menu](assets/qs-more-menu.png) to the left of a work item name <span class="preview">or role assignment</span>, then click **Assign this to**.
+1. Click the **More menu** ![More menu](assets/qs-more-menu.png) to the left of a work item name or role assignment, then click **Assign this to**.
 
    ![Assign this to](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    >[!TIP]
    >
-   >You can also use the following shortcuts to assign tasks or issues: 
+   >You can also use the following shortcuts to assign tasks or issues:
    >
    >* In Windows: CTRL+click the task or issue bar. 
    >* In Mac: CMD+click the task or issue bar. 

@@ -25,26 +25,26 @@ You must have the following:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   <td>Adobe Workfront package
    </td>
-   <td> <p>New: Prime or Ultimate</p><p>Or</p><p>Current: Not available</p>
+   <td> <p>Prime or Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenses</strong>
+   <td><strong>Workfront licenses</strong>
    </td>
-   <td> <p>[!UICONTROL Standard]</p><p>Or</p><p>Current: Not available</p>
+   <td> <p>Standard</p>>
    </td>
   </tr>
    <tr>
    <td>Access level configurations
    </td>
-   <td>You must be a [!DNL Workfront] administrator.
+   <td><p>You must be a Workfront administrator.</p>
    </td>
   </tr>
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Prerequisites
 

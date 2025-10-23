@@ -10,12 +10,48 @@ exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
 ---
 # Edit information in custom form fields
 
+<!--Audited: 10/2025-->
+
 You can edit information on a custom form after the form is attached to an object. For information about adding custom forms to objects, see [Add a custom form to an object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Access requirements
 
-You must have the following:
++++ Expand to view access requirements for the functionality in this article.
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront package</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront license</p> </td> 
+   <td> <p>Contributor or higher</p> 
+   <p>Request or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to the object for which you want to edit the custom form</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Object permissions</p> </td> 
+   <td> 
+    <ul> 
+     <li> <p>Contribute or higher permissions on the object for which you want to edit the custom form</p> </li> 
+     <li><p>View permissions on the fields you want to edit.</p></li> 
+     <li><p>Edit permissions for the sections on the form where the fields you want to edit are located</p></li> 
+    </ul></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -42,9 +78,7 @@ You must have the following:
     </ul> <p>For information on requesting additional access for objects, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+</table>-->
 
 ## Prerequisites
 
@@ -103,6 +137,11 @@ Editing information on a custom form attached to an object is identical for all 
 
 ## Recalculate all calculated custom fields for an object  {#recalculate-all-calculated-custom-fields-for-an-object}
 
+>[!IMPORTANT]
+>
+>You must have a custom form with calculated fields attached to the object before you can follow the steps in this section.
+
+
 1. Go to the main page of the object whose custom fields you want to recalculate. 
 1. Click the **More** menu ![](assets/more-icon.png) to the right of the object's name, then click **Recalculate Expressions**.
 
@@ -114,7 +153,12 @@ Editing information on a custom form attached to an object is identical for all 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
 -->
 
-You can manually recalculate the custom fields of several objects by editing them in bulk from a list or report.
+Depending on what objects you want to recalculate the custom expressions for, you can do so in the following areas:
+
+* In a list of objects, from the More menu at the top of the list.
+* In the Edit box, when selecting and editing multiple objects in bulk. 
+
+To manually recalculate the custom fields of several objects by editing them in bulk from a list or report:
 
 1. Go to a list of objects that contain custom forms with calculated fields.
 1. Select the objects whose calculated custom fields you want to update.
@@ -124,15 +168,17 @@ You can manually recalculate the custom fields of several objects by editing the
 
    Workfront calculates all custom fields for all the selected objects.
 
->[!TIP]
+To recalculate custom expressions from a list of objects:
+
+1. Go to a project list or report and select one or several projects.
+1. Click the **More** menu ![](assets/more-icon.png), then click **Recalculate Custom Expressions**. 
+
+![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+
+Workfront immediately calculates all custom fields for all the selected projects.
+Not all lists of all objects have this capability.
+
+>[!NOTE]
 >
 >Depending on the complexity of your projects, we recommend not to select a large number of projects when recalculating calculated custom fields in bulk to ensure optimum performance. Some things that could make a project too complex might be multiple dependencies or assignments or a large number of custom fields.
->
->To recalculate custom expressions in bulk from a list of projects:
->
->1. Go to a project list or report and select one or several projects.
->1. Click the **More** menu ![](assets/more-icon.png), then click **Recalculate Custom Expressions**. 
->
->![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
->
->Workfront calculates all custom fields for all the selected projects.
+

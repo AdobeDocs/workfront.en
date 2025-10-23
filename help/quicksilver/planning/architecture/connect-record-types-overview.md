@@ -7,6 +7,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
 ---
+
+<!--keep the 30 limit verbiage in yellow til Jan 2026-->
+
 # Connected record types overview
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -30,6 +33,8 @@ There are two steps to connections in Workfront Planning:
 1. Connect an individual record of one type with records of another type after the two record types are connected. For information about connecting records, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
 
 Consider the following about connecting record types: 
+
+* <span class="preview">You can have up to 30 connected fields for one record type in Workfront Planning.</span>
 
 * You can connect the following entities in Adobe Workfront Planning:
 
@@ -65,17 +70,15 @@ Consider the following about connecting record types:
 
 * After you connect a record type with another record type or with an object type from another application, the following scenarios exist: 
     
-    * **When you connect two Planning record types**: A linked record field is created on the record type you're connecting from. A similar linked record field is created on the record type you are connecting to <!--<span class="preview">, only when you enable the Create corresponding field on linked record type setting on the New connection tab.</span>-->. 
+    * **When you connect two Planning record types**: A linked record field is created on the record type you're connecting from. A similar linked record field is created on the record type you are connecting to, only when you enable the Create corresponding field on linked record type setting on the New connection tab. 
 
         For example, if you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is created on the Product record type.
 
-        <div class="preview">
-        
         For example, the following scenarios exist: 
+
         * When you enable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is created on the Product record type.
         * When you disable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is not created on the Product record type.
-        </div>
-
+    
         For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
     * **When you connect a record type with an object type from another application**: 
@@ -126,27 +129,19 @@ After you establish a connection between two record types or between a record an
 
 You can choose whether you want to connect one record to multiple records at a time, or one record at a time to each other. 
 
-Depending on how many records you can add to a connected record field and the environment you use to create the connected fields, the following are the connection types you can choose from when connecting record types: 
+The following are the connection types you can choose from when connecting record types: 
 
-<div class="preview">
+* When the **Create corresponding field on linked record type** setting is disabled, you can choose from: 
 
-* In the Preview environment: 
+    * [Multi-select](#multi-select-connection-type)
+    * [Single-select](#single-select-connection-type)
 
-    * When the Create corresponding field on linked record type setting is disabled, you can choose from: 
-
-        * [Multi-select](#multi-select-connection-type)
-        * [Single-select](#single-select-connection-type)
-
-</div>
-
-* <span class="preview">In the Preview environment, when the Create corresponding field on linked record type setting is enabled,</span> or in the Production environment, you can choose from:
+* When the **Create corresponding field on linked record type** setting is enabled, you can choose from:
 
     * [Many to many](#many-to-many-connection-type)
     * [One to many](#one-to-many-connection-type)
     * [Many to one](#many-to-one-connection-type)
     * [One to one](#many-to-one-connection-type) 
-
-<div class="preview">
 
 ### Multi-select connection type
 
@@ -158,10 +153,10 @@ For example, if you create a multi-select connection between campaigns and proje
 
 After you select this connection type, you cannot change the connection type after you save it to any of the following types:
 
-    * Single-select
-    * One to many
-    * Many to one
-    * One to one
+* Single-select
+* One to many
+* Many to one
+* One to one
 
 ### Single-select connection type
 
