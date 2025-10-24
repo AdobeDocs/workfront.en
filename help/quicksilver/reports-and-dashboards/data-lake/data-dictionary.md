@@ -42,7 +42,8 @@ Objects in Workfront (and, therefore, in your Data Connect data lake) are define
 
 >[!IMPORTANT]
 >
->The entity relationship diagram is a work in progress. As such, it is for reference purposes only and is subject to change.
+>The provided entity relationship diagram (ERD) is purposely incomplete as a complete ERD would become unreadable due to the high number of relationships within the application.<br>
+>This diagram provides an example of how the relationships documented in Project table in the [Terminology table](#terminology-table) section below can be used to join data from Project data view to adjacent objects. It's expected that a complete ERD is not necessary once this pattern is understood for the Project object relationships
 
 ## Date types
 
