@@ -961,6 +961,7 @@ All filters inside a group support the following:
 The example above contains the following components:
 
 1. The Top-Level Filter (outside the group):
+
     * { "fieldName": "percentComplete", "fieldValue": "100", "comparison": "lt" }
     * This filter checks whether the percentComplete field of the updated task is less than 100.
 
