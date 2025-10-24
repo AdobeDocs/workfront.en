@@ -13,6 +13,8 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2026 Q1 Release {#release-26-q1}
+      * [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
     * 2025 Q4 Release {#release-25-q4}
       * [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
       * [Fourth Quarter 2025 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md)
@@ -2501,7 +2503,8 @@ feature-set: Workfront
     * [Configure and use your organization's custom OAuth 2 applications using JWT flow](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](wf-api/api/oauth-app-pkce-flow.md)    
     * [Deprecation of API-Internal](wf-api/api/deprecation-api-internal.md)
-    * [What's new in API version 20](wf-api/api/new-api-version-20.md) 
+    * [What's new in API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md) 
+    * [What's new in API version 20](/help/quicksilver/wf-api/api/new-api-version-20.md) 
     * [What's new in API version 19](wf-api/api/new-api-version-19.md) 
     * [What's new in API version 18](wf-api/api/new-api-version-18.md)
     * [What's new in API version 17](wf-api/api/new-api-version-17.md)
