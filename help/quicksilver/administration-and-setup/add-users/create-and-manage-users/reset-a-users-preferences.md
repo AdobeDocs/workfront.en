@@ -142,12 +142,8 @@ When you reset user preferences, some preferences are reverted to the system def
 
 1. Press **Enter**.
 
-<div class="preview">
+1. <span class="preview">To reset all user preferences, click **Reset**.</span>
 
-1. To reset all user preferences, click **Reset**.
+   <span class="preview">Or</span>
 
-   Or
-
-   To reset only custom tabs, click **Reset Left Navigation**.
-
-</div>
+   <span class="preview">To reset the user's left navigation to the original layout template configuration, click **Reset Left Navigation**.</span>
