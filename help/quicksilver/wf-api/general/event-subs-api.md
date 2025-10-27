@@ -912,7 +912,7 @@ Filter groups allow you to create nested logical (AND/OR) conditions within your
 Each filter group can have the following:
 
 * Its own connector (AND or OR).
-* Multiple filters, each following the same syntax and behavior as standalone filters.
+* Multiple filters, each following the same syntax and behavior as standalone filters. 
 
 >[!IMPORTANT]
 >
