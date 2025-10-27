@@ -18,7 +18,6 @@ You can use the [!DNL Experience Manager Assets]​​ to manage and store your 
 You can connect your work with your content in [!DNL Experience Manager Assets]​:
 
 * Push assets and metadata from [!DNL Adobe Workfront] to [!DNL Experience Manager Assets]​
-* Link assets from [!DNL Experience Manager Assets] to your projects and tasks in [!DNL Workfront​]
 * Facilitate versioning use cases
 * Track metadata for assets
 * Sync project metadata between [!DNL Workfront] and [!DNL Experience Manager Assets]
@@ -215,7 +214,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 ## Send a Document to Experience Manager Assets or Assets Essentials
 
-You can send documents from Workfront to Experience Manager Assets or Assets Essentials. Documents uploaded and sent from Workfront to Assets Essentials still count against your overall document storage. Assets linked from Assets Essentials don't count towards overall storage.
+You can send documents from Workfront to Experience Manager Assets or Assets Essentials. Documents uploaded and sent from Workfront to Assets Essentials still count against your overall document storage.
 
 Assets sent to Experience Manager through this integration have a size limit of **5 GB**.
 
@@ -225,7 +224,7 @@ Metadata fields are first mapped when you send an asset from Workfront to Experi
 
 >[!INFO]
 >
->**Example** When you first send an asset attached to a task, the task metadata maps to Experience Manager Assets or Assets Essentials as well as any mapped metadata from parent objects such as a project, portfolio, and program.
+>**Example** When you first send an asset attached to a project, the metadata maps to Experience Manager Assets or Assets Essentials as well as any mapped metadata from parent objects such as a  portfolio and program.
 
 
 
