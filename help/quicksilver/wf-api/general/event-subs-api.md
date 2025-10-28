@@ -962,12 +962,14 @@ The example above contains the following components:
 
 1. The Top-Level Filter (outside the group):
 
-    * { "fieldName": "percentComplete", "fieldValue": "100", "comparison": "lt" }
+    * `{ "fieldName": "percentComplete", "fieldValue": "100", "comparison": "lt" }`
     * This filter checks whether the percentComplete field of the updated task is less than 100.
 
 1. Filter Group (nested filters with OR):
-    * { "type": "group", "connector": "OR", "filters": [ { "fieldName": "status", "fieldValue": "CUR", "comparison": "eq" }, { "fieldName": "priority", "fieldValue": "1", "comparison": "eq" } ] }
+
+    * `{ "type": "group", "connector": "OR", "filters": [ { "fieldName": "status", "fieldValue": "CUR", "comparison": "eq" }, { "fieldName": "priority", "fieldValue": "1", "comparison": "eq" } ] }`
     * This group evaluates two internal filters: 
+
         * The first checks if the task status equals "CUR" (current).
         * The second checks if the priority equals "1" (high priority).
     * Because the connector is "OR", this group will pass if either condition is true.
@@ -981,7 +983,8 @@ The example above contains the following components:
 
 >[!NOTE]
 >
->There are limits in place to ensure consistent system performance when using filter groups, which include the following:<br>
+>There are limits in place to ensure consistent system performance when using filter groups, which include the following:
+>
 >* Each subscription supports up to 10 filter groups (with each group containing multiple filters).
 >* Each filter group can include up to 5 filters to prevent potential performance degradation during event processing.
 >* While having up to 10 filter groups (each with 5 filters) is supported, a large number of active subscriptions with complex filter logic may result in a delay during event evaluation. 
