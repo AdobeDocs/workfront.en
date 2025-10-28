@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 ---
-# What's new in API version 20
+# What's new in API version 21
 
 Adobe Workfront released API version 21 on October 23, 2025. API version 21 features the following changes from version 20.
 
