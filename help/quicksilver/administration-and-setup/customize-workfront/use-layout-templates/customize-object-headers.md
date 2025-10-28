@@ -11,6 +11,8 @@ exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
 ---
 # Customize object headers using a layout template
 
+{{preview-fast-release-general}}
+
 As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the fields users see in the object header when they open an object's page.
 
 >[!IMPORTANT]
@@ -89,14 +91,20 @@ If you already have five fields selected, you must remove a field before you can
     ![Add field to header](assets/add-field-to-header-in-lt-list.png)  
   
 
-1. (Optional) Drag and drop the fields added in a different order.       
+1. (Optional) Drag and drop the fields in a different order.       
     
-1. Continue customizing the layout template.
+1. <span class="preview">In the Preview environment: Continue customizing the layout template. You can click **Apply** at any time to save your progress.</span>
 
-    Or
+   <span class="preview">Or</span>
 
-    If you are finished customizing, click **Save**.
+   <span class="preview">If you are finished customizing, click **Save and Close**.</span>
 
-    >[!TIP]
-    >
-    >You can click Save at any time to save your progress, then continue to modify the template later.
+1. In the Production environment: Continue customizing the layout template.
+
+   Or
+
+   If you are finished customizing, click **Save**.
+
+   >[!TIP]
+   >
+   >You can click **Save** at any time to save your progress, then continue to modify the template later.
