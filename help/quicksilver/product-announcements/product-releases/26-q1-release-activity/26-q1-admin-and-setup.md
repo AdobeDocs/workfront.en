@@ -41,4 +41,4 @@ If you mark a field inactive:
 * It is excluded from reports, filters, views, or other places in Workfront where you can add a custom field
 * It is not available in the field library to add to other custom forms
 
-For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
