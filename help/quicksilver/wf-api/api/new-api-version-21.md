@@ -13,6 +13,36 @@ Adobe Workfront released API version 21 on October 23, 2025. API version 21 feat
 
 ## Added resources
 
+### OriginalRequest (ORGREQ)
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>entryDate</li>
+          <li>ID</li>
+          <li>requestID</li>
+          <li>requestName</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>ID</li>
+          <li>objCode</li>
+        </ul>
+      </td>
+ </tbody>
+</table>
+
+<!--
+
 ### StaffingPlanTemplate (SPTMPL)
 
 <table>
@@ -54,6 +84,8 @@ Adobe Workfront released API version 21 on October 23, 2025. API version 21 feat
     </tr>
  </tbody>
 </table>
+
+-->
 
 ## Removed resources
 
@@ -704,6 +736,8 @@ A ScoreCardQuestion object represents a question that has been added to a Scorec
  </tbody>
 </table>
 
+<!--
+
 ### StaffingPlan
 
 <table>
@@ -736,6 +770,10 @@ A ScoreCardQuestion object represents a question that has been added to a Scorec
   </tbody>
 </table>
 
+-->
+
+<!--
+
 ### StaffingPlanResource
 
 <table>
@@ -767,6 +805,8 @@ A ScoreCardQuestion object represents a question that has been added to a Scorec
     </tr>
   </tbody>
 </table>
+
+-->
 
 ### Task (TASK)
 
