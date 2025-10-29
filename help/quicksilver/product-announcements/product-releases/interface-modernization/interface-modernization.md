@@ -28,6 +28,26 @@ For more information, see [Create and edit companies](/help/quicksilver/administ
 
 ## Projects
 
+### New experience when bulk editing and single- or bulk-assigning issues
+
+**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
+
+We have updated the Edit Issues box when editing single issues or editing them in bulk.  
+
+The following changes are included in this update: 
+
+* The Recalculate Custom Expressions option has been removed when updating issues in bulk. The option has been added to the More menu in an issue list, after selecting multiple issues.  
+
+* There is a new experience for assigning resources to issues. This is now available both when editing one issue or editing several issues in bulk. The following fields have been removed from the Edit issues box: 
+
+* Allocations 
+    * Owner or Issue Owner 
+    * Assignee's Role 
+
+You can update the removed fields when making advanced assignments on issues. 
+
+For information, see [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
+
 ### Interface updates for the New and Edit Risk box in a custom dashboard on a project
 
 **Preview release: October 16, 2025; Production release for all customers: Starting the week of October 23, 2025**
