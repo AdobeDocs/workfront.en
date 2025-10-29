@@ -31,6 +31,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront enhancements
 
+### Administrator enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updates to button names when editing a layout template</p>
+            <p>To provide more consistency with other areas of Setup such as the custom form designer, the buttons you see when editing a layout template have changed to Apply, Save and Close, and Cancel. The new option, Apply, allows you to save your changes to the layout template and continue editing. Previously, the available options were Save and Cancel. </p>
+        </td>
+        <td>October 30, 2025</td>
+        <td>November 13, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>  
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Improved field management with Active flag on custom fields</p>
+            <p>When you have large numbers of custom fields in the system, management of those fields in custom forms and reports can be difficult. You can now mark custom fields inactive with the new **Active** flag. This flag is available when working with a field on a custom form or when adding or editing a field from the Fields list. </p>
+        </td>
+        <td>October 30, 2025</td>
+        <td>November 13, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>   
+  </tbody>
+</table> 
+
+
+
 ### Other enhancements
 
 <table>
@@ -55,14 +89,28 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                 <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}"> Selection limits on multi-select fields</p>
+              <p>Fields that allow multiple selections, such as check boxes and multi-select dropdowns, are now limited to 5000 selections when a user is filling out the form.</p>
+             </td>
+        <td>October 30, 2025</td>
+        <td>November 13, 2025</td>
+        <td>January 15, 2026</td>
+             </tr>   
             </tbody>
         </table>   
 
-<!--
+
 ### Functionality soon to be removed from Workfront
 
-* 
--->
+#### Deprecation of the override currency on job roles with the 25.11 release
+
+As part of the financial model simplification, we will be deprecating the override currency on job roles in Preview on October 30, and in Production for all customers with the 25.11 release. This change affects how currencies and rates are configured on job roles in the Setup area.
+
+* The **Override Currency** fields on a job role will no longer be available.
+* Each job role will have a single currency with its associated cost and billing rate.
+* All existing override currencies and their rate values will be migrated automatically to become the sole currency and rates for that job role.
 
 ## Interface modernization
 

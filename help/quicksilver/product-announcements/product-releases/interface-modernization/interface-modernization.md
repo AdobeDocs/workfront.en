@@ -28,6 +28,14 @@ For more information, see [Create and edit companies](/help/quicksilver/administ
 
 ## Projects
 
+### Interface update when converting a task to a project using a template
+
+**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
+
+We have updated the Convert to project box when converting a task to a project using a template. The design of the box now matches the Edit Project box.  
+
+For information, see [Convert a task to a project](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
+
 ### New experience when bulk editing and single- or bulk-assigning issues
 
 **Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
