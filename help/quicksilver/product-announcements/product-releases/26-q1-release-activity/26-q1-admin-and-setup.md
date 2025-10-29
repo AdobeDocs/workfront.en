@@ -13,6 +13,19 @@ This page describes Administrator enhancements made with the First Quarter 2026 
 For a list of all changes available at this point in the First Quarter 2026 release cycle, see [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
 
+## Updates to button names when editing a layout template
+
+>[!NOTE]
+>
+>Preview: October 30, 2025 
+>Production fast release: November 13, 2025 
+>Production for everyone:  January 15, 2026 
+
+To provide more consistency with other areas of Setup such as the custom form designer, the buttons you see when editing a layout template have changed to **Apply**, **Save and Close**, and **Cancel**. The new option, **Apply**, allows you to save your changes to the layout template and continue editing. Previously, the available options were **Save** and **Cancel**.
+
+For more information, see [Create and manage layout templates](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+
 ## Improved field management with Active flag on custom fields
 
 >[!NOTE]
