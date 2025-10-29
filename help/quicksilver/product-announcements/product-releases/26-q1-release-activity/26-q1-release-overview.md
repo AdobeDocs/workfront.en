@@ -31,6 +31,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront enhancements
 
+* [Administrator enhancements](#administrator-enhancements)
+* [Other enhancements](#other-enhancements)
+
 ### Administrator enhancements
 
 <table style="table-layout:auto">
@@ -63,7 +66,28 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> 
 
+### Documents and approvals enhancements
 
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager now available with the Frame.io integration </p>
+            <p>Now, you can use the Experience Manager Assets​ to manage and store your digital assets that have gone through the review and approval cycle. This integration allows you to leverage the capabilities of Adobe Experience Manager, Frame.io, and Workfront to streamline your content management and collaboration processes. </p>
+        </td>
+        <td>October 30, 2025</td>
+        <td>November 13, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>   
+  </tbody>
+</table> 
 
 ### Other enhancements
 
