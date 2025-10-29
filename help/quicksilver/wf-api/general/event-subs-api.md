@@ -905,6 +905,90 @@ The `filterConnector` field on the subscription payload allows you to choose how
 }
 ```
 
+### Using filter groups
+
+Filter groups allow you to create nested logical (AND/OR) conditions within your event subscription filters.
+
+Each filter group can have the following:
+
+* Its own connector (AND or OR).
+* Multiple filters, each following the same syntax and behavior as standalone filters. 
+
+>[!IMPORTANT]
+>
+>A group must have a minimum of 2 filters. 
+
+
+All filters inside a group support the following:
+
+* Comparison operators: eq, ne, gt, gte, lt, lte, contains, notContains, containsOnly, changed.
+* State options: newState, oldState.
+* Field targeting: any valid object field name.
+
+```
+{
+  "objCode": "TASK",
+  "eventType": "UPDATE",
+  "authToken": "token",
+  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+  "filters": [
+    {
+      "fieldName": "percentComplete",
+      "fieldValue": "100",
+      "comparison": "lt"
+    },
+    {
+      "type": "group",
+      "connector": "OR",
+      "filters": [
+        {
+          "fieldName": "status",
+          "fieldValue": "CUR",
+          "comparison": "eq"
+        },
+        {
+          "fieldName": "priority",
+          "fieldValue": "1",
+          "comparison": "eq"
+        }
+      ]
+    }
+  ],
+  "filterConnector": "AND"
+}
+```
+
+The example above contains the following components:
+
+1. The Top-Level Filter (outside the group):
+
+    * `{ "fieldName": "percentComplete", "fieldValue": "100", "comparison": "lt" }`
+    * This filter checks whether the percentComplete field of the updated task is less than 100.
+
+1. Filter Group (nested filters with OR):
+
+    * `{ "type": "group", "connector": "OR", "filters": [ { "fieldName": "status", "fieldValue": "CUR", "comparison": "eq" }, { "fieldName": "priority", "fieldValue": "1", "comparison": "eq" } ] }`
+    * This group evaluates two internal filters: 
+
+        * The first checks if the task status equals "CUR" (current).
+        * The second checks if the priority equals "1" (high priority).
+    * Because the connector is "OR", this group will pass if either condition is true.
+
+1. Top-Level Connector (filterConnector: AND):
+    * The outermost connector between the top-level filters is "AND". This means both the top-level filter and the group must pass for the event to match.
+
+1. The subscription triggers when the following conditions are met:
+    * The percentComplete is less than 100.
+    * Either the status is "CUR" or the priority equals "1".
+
+>[!NOTE]
+>
+>There are limits in place to ensure consistent system performance when using filter groups, which include the following:
+>
+>* Each subscription supports up to 10 filter groups (with each group containing multiple filters).
+>* Each filter group can include up to 5 filters to prevent potential performance degradation during event processing.
+>* While having up to 10 filter groups (each with 5 filters) is supported, a large number of active subscriptions with complex filter logic may result in a delay during event evaluation. 
+
 ## Deleting Event Subscriptions
 
 When deleting Workfront's HTTP use the DELETE method. The request syntax for deleting a single event subscription by subscription ID is as follows:
