@@ -185,6 +185,8 @@ You can add up to 500 fields (or columns) in a table view.
 1. Start adding fields (or columns), as described in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
 
     The columns you add are visible to all users who access the record type and are added as new fields on the record's page.
+
+1. (Optional) Click the **Fields** icon ![Fields icon](assets/fields-icon.png) in the toolbar, find the field in the list <!--or <span class="preview"> search for a field</span>,--> and unselect the toggle to the right of the field name to hide the field. 
    
 1. Do one of the following to reorder columns in the table:
 
@@ -305,6 +307,8 @@ To add a filter to a table view:
 1. Click **Add condition** and add the following information: 
 
     * **Select a field** that you want to filter by <!-- the tip below might change-->
+
+        <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
 
     * **Select an option** (or a filter modifier) to define what kind of condition the field must meet
 
@@ -536,6 +540,8 @@ To sort grouped records:
 1. (Optional) Click **Row colors** to define conditions and choose configure diferent colors for table rows.
 
 1. Click **Add color**, then **Select a field** whose value you want to determine the color of a row. 
+
+    <!--replace the text for this step above with this at preview release: Click **Add color**, then <span class="preview">search for a field or </span> click the drop-down menu to display a list of fields and select it from the list. This is the field whose value you want to determine the color of a row.-->
 
     For example, to display campaigns with a status of Active in green, select **Status**, then choose a modifier and a value for the field. 
 

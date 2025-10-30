@@ -11,6 +11,8 @@ exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
 ---
 # Customize pinned pages using a layout template
 
+{{preview-fast-release-general}}
+
 In a layout template, you can pin the pages that you want users to always have available at the top of Adobe Workfront. These can be either pages accessed via the Main Menu ![Main menu icon](assets/main-menu-icon.png) or the Main Menu ![Main menu icon](assets/main-menu-icon-left-nav.png) when available, or dashboards.
 
 Any pins that your users have added on their own are displayed to the right of the pins you add in the layout template.
@@ -105,7 +107,13 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. (Optional) To delete a pin, hover over the pin and click the More menu icon ![More icon](assets/more-icon.png) next to the pin name, then click **Remove pin**.
 
-1. Continue customizing the layout template.
+1. <span class="preview">In the Preview environment: Continue customizing the layout template. You can click **Apply** at any time to save your progress.</span>
+
+   <span class="preview">Or</span>
+
+   <span class="preview">If you are finished customizing, click **Save and Close**.</span>
+
+1. In the Production environment: Continue customizing the layout template.
 
    Or
 

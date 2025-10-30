@@ -12,6 +12,16 @@ exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 
 <!-- Audited: 07/2024-->
 
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
+
 You can manage task or issue assignments using Advanced Assignments.
 
 You can adjust the following assignment information when making advanced assignments:
@@ -34,6 +44,7 @@ In addition, you can make advanced assignments in the following areas of Workfro
 
 * In lists and reports when the Assignments field displays in the view.
 * In the Assignments section when editing a task. For more information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+<!--* In the Production environment, in the Assignments section when editing a task. <span class="preview">This has been removed from the Preview environment.</span> For more information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).-->
 * In the task or issue header, in the Assignments area.
 * In the Workload Balancer. For more information, see [Assign work manually using the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 

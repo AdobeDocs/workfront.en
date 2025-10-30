@@ -281,6 +281,8 @@ To add a filter to a timeline view:
 
     * **Select a field** that you want to filter by <!-- the tip below might change-->
 
+        <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
+
     * **Select an option** (or a filter modifier) to define what kind of condition the field must meet
 
         The table below displays the available modifiers for each type of field.

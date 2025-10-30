@@ -10,6 +10,8 @@ exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
 ---
 # Edit information in custom form fields
 
+{{preview-fast-release-general}}
+
 <!--Audited: 10/2025-->
 
 You can edit information on a custom form after the form is attached to an object. For information about adding custom forms to objects, see [Add a custom form to an object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
@@ -119,6 +121,10 @@ Editing information on a custom form attached to an object is identical for all 
    * You can format text fields (bold, italicize, or underline) only if the user who created the form set them up as a Text Field with Formatting field type. Single Line Text Fields and Paragraph Text Fields cannot be formatted.
    * You can update the time of the day in a Date field type only if the user who created the form has included it when creating the field.
 
+   >[!NOTE]
+   >
+   ><span class="preview">Fields that allow multiple selections may limit how many options you can choose. Check boxes and multi-select dropdowns are limited to 5000 selections.</span>
+
    For information about all of the field types, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Click **Save Changes**.
@@ -137,6 +143,11 @@ Editing information on a custom form attached to an object is identical for all 
 
 ## Recalculate all calculated custom fields for an object  {#recalculate-all-calculated-custom-fields-for-an-object}
 
+>[!IMPORTANT]
+>
+>You must have a custom form with calculated fields attached to the object before you can follow the steps in this section.
+
+
 1. Go to the main page of the object whose custom fields you want to recalculate. 
 1. Click the **More** menu ![](assets/more-icon.png) to the right of the object's name, then click **Recalculate Expressions**.
 
@@ -148,7 +159,12 @@ Editing information on a custom form attached to an object is identical for all 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
 -->
 
-You can manually recalculate the custom fields of several objects by editing them in bulk from a list or report.
+Depending on what objects you want to recalculate the custom expressions for, you can do so in the following areas:
+
+* In a list of objects, from the More menu at the top of the list.
+* In the Edit box, when selecting and editing multiple objects in bulk. 
+
+To manually recalculate the custom fields of several objects by editing them in bulk from a list or report:
 
 1. Go to a list of objects that contain custom forms with calculated fields.
 1. Select the objects whose calculated custom fields you want to update.
@@ -158,17 +174,17 @@ You can manually recalculate the custom fields of several objects by editing the
 
    Workfront calculates all custom fields for all the selected objects.
 
->[!TIP]
->
->You can also recalculate custom expressions from a list of objects. For example, to recalculate custom expressions in bulk from a list of projects:
->
->1. Go to a project list or report and select one or several projects.
->1. Click the **More** menu ![](assets/more-icon.png), then click **Recalculate Custom Expressions**. 
->
->![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
->
->Workfront calculates all custom fields for all the selected projects.
->Not all lists of all objects have this capability.
+To recalculate custom expressions from a list of objects:
+
+1. Go to a project list or report and select one or several projects.
+1. Click the **More** menu ![](assets/more-icon.png), then click **Recalculate Custom Expressions**. 
+
+![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+
+Workfront immediately calculates all custom fields for all the selected projects.
+Not all lists of all objects have this capability.
+
+>[!NOTE]
 >
 >Depending on the complexity of your projects, we recommend not to select a large number of projects when recalculating calculated custom fields in bulk to ensure optimum performance. Some things that could make a project too complex might be multiple dependencies or assignments or a large number of custom fields.
 
