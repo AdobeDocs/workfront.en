@@ -20,7 +20,7 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ### Interface updates for the Add and Edit Companies dialogs
 
-**Preview release: October 23, 2025; Production release: Starting on October 30, 2025**
+**Preview release: October 23, 2025; Production release: Starting the week of November 6, 2025**
 
 We have updated the dialog boxes for adding and editing companies with a more modern design that is consistent with other areas of Workfront.
 
