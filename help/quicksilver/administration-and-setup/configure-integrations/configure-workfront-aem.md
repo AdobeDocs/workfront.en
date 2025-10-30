@@ -44,6 +44,8 @@ As an [!DNL Adobe Workfront] administrator, you can integrate [!DNL Workfront] w
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
++++
+
 ## [!DNL Workfront for AEM Assets]
 
 The [!DNL Workfront for AEM Assets connector] allows your organization to do the following:

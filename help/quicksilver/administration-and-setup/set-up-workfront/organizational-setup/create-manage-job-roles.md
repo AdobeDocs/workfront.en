@@ -120,7 +120,7 @@ To create a job role:
 
    * **Override Currency Billing Rate**: This is the billing per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual revenue of tasks and issues associated with the job role.
 
-      Enter the rate in the Override Currency specified above. This also updates the Billing Rateate for this job role when using the Base Currency.
+      Enter the rate in the Override Currency specified above. This also updates the Billing Rate for this job role when using the Base Currency.
 
       For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 

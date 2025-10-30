@@ -10,7 +10,7 @@ exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 ---
 # Assign tasks
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2025-->
 
 <!--
 <div class="preview"> 
@@ -169,7 +169,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. Click **Save**.
 1. (Optional and conditional) Click the **X icon** next to the name of the assignment in the right panel of the task to remove an assignment, if you clicked **Advanced**.
 
-## Assign a task in a list
+## Assign a task in a list when inline editing it
 
 You can assign tasks in a list or a report when any of the assignments fields are visible in the list's view. This is a faster way to assign tasks. This article describes how to modify assignments for one task in a list. For information about modifying multiple assignments for multiple tasks in a list, see [Modify multiple user assignments in a task list](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
@@ -218,7 +218,7 @@ To assign tasks in a list:
 
 1. After adding your assignees to the task, press Enter or click anywhere on the page to save your changes if you selected Autosave. Otherwise, click **Save**.
 
-## Assign multiple tasks to a user
+## Assign multiple tasks to a user in bulk from a list
 
 <!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
 
