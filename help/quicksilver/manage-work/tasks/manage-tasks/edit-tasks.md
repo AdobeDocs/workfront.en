@@ -10,7 +10,7 @@ exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 ---
 # Edit tasks
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2025-->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -524,7 +524,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
          </tbody> 
          </table>
 
-      <!--
+      <!-- Indent this according to what you did above: 
       <div class="preview">
 
       1. In the Preview environment, start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list

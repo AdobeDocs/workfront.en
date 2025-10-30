@@ -60,7 +60,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 +++
 
 <!--
-Change this sentence in the table:
+Change this sentence in the table when unshimmming assignments on Edit task:
 <p>Edit permissions to update allocation hours in the Edit Task box</p>
 To this:
 <p>Edit permissions to update allocation hours in the Edit Task box in the Production environment. <span class="preview">You can no longer manage allocation percentage in the Edit task box in the Preview environment.</span></p>
