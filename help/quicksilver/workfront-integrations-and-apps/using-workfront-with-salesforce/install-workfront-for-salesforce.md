@@ -28,6 +28,10 @@ For a general understanding about what you can expect by installing [!DNL Workfr
 * [Prerequisites for Installing and Using [!DNL Workfront for Salesforce]](#prerequisites-for-installing-and-using-workfront-for-salesforce)
 * [Installing [!DNL Workfront for Salesforce]](#installing-workfrontfor-salesforce)
 
+>[!NOTE]
+>
+>The most recent version of this integration was released October 30, 2025.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
