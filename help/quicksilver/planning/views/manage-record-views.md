@@ -165,8 +165,13 @@ For more information about Workfront access requirements, see [Access requiremen
 * Although some view elements can be applied to multiple views for the same record, they are unique to each record view:
 
     * Filter
+    * Sort (for the table view)
+    * Row colors (for the table view)
+    * Fields (for the table view)
+    * Breakdown (for the timeline view)
     * Grouping (for the table and the timeline views)
     * Bar appearance (for the timeline and calendar views)
+    * Row height (for the table and the monthly calendar view)    
 
     For example, when creating a filter in a table view, the filter results are visible only in the view selected (the table view) and not in all the views associated with the record type. 
 
@@ -206,6 +211,7 @@ The following table shows the similarities and differences between the table, ti
 |Export information from a view                   | ✓         |               |    |
 |Display in full screen                  | ✓         |   ✓            | ✓   |
 |Create records in the view                  | ✓         |   ✓            | ✓   |
+|Break records down by their connections                  |          |   ✓            |    |
 
 ## Create or edit views {#create-or-edit-views}
 
