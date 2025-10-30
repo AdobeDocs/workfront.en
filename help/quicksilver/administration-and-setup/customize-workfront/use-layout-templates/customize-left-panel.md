@@ -11,6 +11,8 @@ exl-id: b100ea35-e045-4021-b5be-2c9071b381da
 ---
 # Customize the left panel using a layout template
 
+{{preview-fast-release-general}}
+
 <!--Audited: 10/2024-->
 
 In a layout template, you can customize what users see in the left panel area throughout [!DNL Adobe Workfront].
@@ -231,12 +233,18 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >
    >For information about dashboards, see [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-1. Continue customizing the layout template.
+1. <span class="preview">In the Preview environment: Continue customizing the layout template. You can click **Apply** at any time to save your progress.</span>
+
+   <span class="preview">Or</span>
+
+   <span class="preview">If you are finished customizing, click **Save and Close**.</span>
+
+1. In the Production environment: Continue customizing the layout template.
 
    Or
 
-   If you are finished customizing, click **[!UICONTROL Save]**.
+   If you are finished customizing, click **Save**.
 
    >[!TIP]
    >
-   >You can click [!UICONTROL **Save**] at any time to save your progress, which closes the layout template editor, then continue to modify the template later.
+   >You can click **Save** at any time to save your progress, then continue to modify the template later.

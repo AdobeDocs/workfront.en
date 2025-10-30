@@ -13,10 +13,7 @@ exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
 
 <!--Audited: 11/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
-
+{{preview-fast-release-general}}
 
 You can use a Layout Template to configure what users see in the Summary panel when they click a task or an issue. Each configuration you make using the steps below affects the the Summary panel. These customizations don't apply to the Document Summary panel.
 
@@ -165,10 +162,20 @@ For information, see [Access requirements in Workfront documentation](/help/quic
     </tbody> 
    </table>
 
-1. Continue customizing the layout template.
+1. <span class="preview">In the Preview environment: Continue customizing the layout template. You can click **Apply** at any time to save your progress.</span>
+
+   <span class="preview">Or</span>
+
+   <span class="preview">If you are finished customizing, click **Save and Close**.</span>
+
+1. In the Production environment: Continue customizing the layout template.
 
    Or
 
    If you are finished customizing, click **Save**.
+
+   >[!TIP]
+   >
+   >You can click **Save** at any time to save your progress, then continue to modify the template later.
 
 For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
