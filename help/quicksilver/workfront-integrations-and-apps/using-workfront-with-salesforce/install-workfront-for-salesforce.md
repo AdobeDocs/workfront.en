@@ -79,11 +79,11 @@ To install the app before it's available:
 
 1. In your Production environment, go to
 
-   [https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk)
+   [https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp)
 
    In your Sandbox environment, go to
 
-   [https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk)
+   [https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp)
 
    >[!NOTE]
    >
