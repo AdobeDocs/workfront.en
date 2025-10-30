@@ -9,6 +9,8 @@ role: Developer
 ---
 # What's new in API version 21
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 Adobe Workfront released API version 21 on October 23, 2025. API version 21 features the following changes from version 20.
 
 ## Added resources
@@ -667,6 +669,42 @@ A Rate object represents a billing rate in Workfront.
     </tr>
   </tbody>
 </table>
+
+### Role (ROLE)
+
+A Role object (job role) represents a functional capacity or a skill set a user might fill, such as Designer or Product Manager.
+
+<div class="preview">
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>Override Currency</b>
+            </p>
+            <p>Removed</p>
+              </li>
+          <li>
+            <p><b>Override Ccost Rate</b>
+            </p>
+            <p>Removed</p>
+              </li>
+          <li>
+            <p><b>Override Billing Rate</b>
+            </p>
+            <p>Removed</p>
+              </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 ### ScheduledReport (SCHREP)
 
