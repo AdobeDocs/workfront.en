@@ -11,6 +11,8 @@ exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
 ---
 # Assign users to a layout template
 
+{{preview-fast-release-general}}
+
 You can assign a layout template you have created to any user, job role, team, or group who needs to use it.
 
 For users that do not have a layout template assigned to them, the default layout is used. To learn about the default layout, see [About the default Adobe Workfront layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
@@ -72,7 +74,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    You can assign up to 100 users at a time. 
 
-1. Click **Done**, then click **Save** in the lower-left corner.
+1. Click **Done**, then click **Save** or <span class="preview">**Save and Close**</span> in the lower-left corner.
 
    This step completes the process of creating and assigning a layout template.
 
