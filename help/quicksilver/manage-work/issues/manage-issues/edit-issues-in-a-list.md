@@ -171,9 +171,23 @@ To edit issues in bulk:
 
    * Overview
    * Settings
+   * Custom Forms 
    * Assignments
    * Comment
 
+   <!--at release for unshim, replace the list above with this:
+
+   <div class="preview">
+
+   * Overview
+   * Assignments
+   * Custom Forms 
+   * Settings
+   * Comment
+
+   </div>
+   -->
+   
    For more information about editing an issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
 
    >[!NOTE]

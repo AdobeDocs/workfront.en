@@ -7,11 +7,43 @@ author: Becky
 feature: Workfront API
 role: Developer
 ---
-# What's new in API version 20
+# What's new in API version 21
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 Adobe Workfront released API version 21 on October 23, 2025. API version 21 features the following changes from version 20.
 
 ## Added resources
+
+### OriginalRequest (ORGREQ)
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>entryDate</li>
+          <li>ID</li>
+          <li>requestID</li>
+          <li>requestName</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>ID</li>
+          <li>objCode</li>
+        </ul>
+      </td>
+ </tbody>
+</table>
+
+<!--
 
 ### StaffingPlanTemplate (SPTMPL)
 
@@ -54,6 +86,8 @@ Adobe Workfront released API version 21 on October 23, 2025. API version 21 feat
     </tr>
  </tbody>
 </table>
+
+-->
 
 ## Removed resources
 
@@ -636,6 +670,42 @@ A Rate object represents a billing rate in Workfront.
   </tbody>
 </table>
 
+### Role (ROLE)
+
+A Role object (job role) represents a functional capacity or a skill set a user might fill, such as Designer or Product Manager.
+
+<div class="preview">
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>Override Currency</b>
+            </p>
+            <p>Removed</p>
+              </li>
+          <li>
+            <p><b>Override Ccost Rate</b>
+            </p>
+            <p>Removed</p>
+              </li>
+          <li>
+            <p><b>Override Billing Rate</b>
+            </p>
+            <p>Removed</p>
+              </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
 ### ScheduledReport (SCHREP)
 
 A ScheduledReport object represents a report that has been configured to be scheduled for delivery.
@@ -704,6 +774,8 @@ A ScoreCardQuestion object represents a question that has been added to a Scorec
  </tbody>
 </table>
 
+<!--
+
 ### StaffingPlan
 
 <table>
@@ -736,6 +808,10 @@ A ScoreCardQuestion object represents a question that has been added to a Scorec
   </tbody>
 </table>
 
+-->
+
+<!--
+
 ### StaffingPlanResource
 
 <table>
@@ -767,6 +843,8 @@ A ScoreCardQuestion object represents a question that has been added to a Scorec
     </tr>
   </tbody>
 </table>
+
+-->
 
 ### Task (TASK)
 
