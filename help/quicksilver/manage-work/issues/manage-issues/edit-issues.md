@@ -11,7 +11,7 @@ exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
 ---
 # Edit issues
 
-<!--Audited: 03/2025--> 
+<!--Audited: 10/2025--> 
 
 <!--
 <div class="preview"> 
@@ -327,7 +327,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 1. Click **Search people, role and teams** and start typing the name of a user, role, or team that you want to assign to the issue, then click it or press Enter when it displays on the list.
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
+   (NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)
    -->
 
    >[!NOTE]
@@ -345,7 +345,6 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
    >* Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
 
    <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
-
    1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
 
 1. Update the following fields: 
@@ -371,16 +370,21 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
    <!--
    <div class="preview">
-   1. (Conditional) In the Preview environment, update the **Planned Hours** field
-      Or 
-      Click **Assign to me** to assign the issue to yourself. (********ADD DEFINITION OF PLANNED HOURS FROM THE TABLE AT PROD RELEASE*********)
+   1. (Conditional) In the Preview environment, do one of the following:
+         * Click **Assign to me** to assign the issue to yourself
+      * Update the **Planned Hours** field.
+         The **Planned Hours** is the amount of hours it would take the assignees of the issue to complete it. 
+         >[!NOTE]
+         >
+         >Changing the Planned Hours of the issue will not change the issue Planned Completion Date. 
    </div> -->
+
 
 1. To remove assignments from all the issues, see [Assign issues](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md). 
 
 1. Click **Save** or continue editing the following sections.
 
-### Custom&nbsp;Forms
+### Custom Forms
 
 1. Begin editing an issue as described above.
 1. Click **Custom Forms**.
