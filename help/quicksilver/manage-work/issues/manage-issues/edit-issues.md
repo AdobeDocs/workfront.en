@@ -11,9 +11,8 @@ exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
 ---
 # Edit issues
 
-<!--Audited: 03/2025--> 
+<!--Audited: 10/2025--> 
 
-<!--
 <div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
@@ -21,7 +20,6 @@ The highlighted information on this page refers to functionality not yet general
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
 </div> 
--->
 
 You can edit information on issues that you have created, or that other users have created if they shared the issues with you.
 
@@ -327,7 +325,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 1. Click **Search people, role and teams** and start typing the name of a user, role, or team that you want to assign to the issue, then click it or press Enter when it displays on the list.
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
+   (NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)
    -->
 
    >[!NOTE]
@@ -344,43 +342,51 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
    >* Reassign the work item to active resources. 
    >* Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
 
-   <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
+1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
 
-   1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
-
-1. Update the following fields: 
-
-   <table style="table-layout:auto"> 
-    <col> 
-    </col> 
-    <col> 
-    </col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Planned Hours</td> 
-      <td> <p>This is the amount of actual time it would take the assignees of the issue to complete it. Type the number of Planned Hours for the issue.<br></p> <p><b>NOTE</b></p>  <p>Changing the Planned Hours of the issue will not change the issue Planned Completion Date. </p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader">Assignee's Role</td> 
-      <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this issue. </p> <p><b>TIP</b>
+   1. In the Production environment:
+   
+      1. Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue.
       
-      Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+      1. Update the following fields: 
 
-   <!--
-   <div class="preview">
-   1. (Conditional) In the Preview environment, update the **Planned Hours** field
-      Or 
-      Click **Assign to me** to assign the issue to yourself. (********ADD DEFINITION OF PLANNED HOURS FROM THE TABLE AT PROD RELEASE*********)
-   </div> -->
+         <table style="table-layout:auto"> 
+         <col> 
+         </col> 
+         <col> 
+         </col> 
+         <tbody> 
+         <tr> 
+            <td role="rowheader">Planned Hours</td> 
+            <td> <p>This is the amount of actual time it would take the assignees of the issue to complete it. Type the number of Planned Hours for the issue.<br></p> <p><b>NOTE</b></p>  <p>Changing the Planned Hours of the issue will not change the issue Planned Completion Date. </p> </td> 
+         </tr> 
+         <tr data-mc-conditions=""> 
+            <td role="rowheader">Assignee's Role</td> 
+            <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this issue. </p> <p><b>TIP</b>
+            
+            Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
+         </tr> 
+         </tbody> 
+         </table>
 
+
+   
+   1. <span class="preview">(Conditional) In the Preview environment, do one of the following:</span>
+   
+      * <span class="preview">Click **Assign to me** to assign the issue to yourself </span>
+      * <span class="preview">Update the **Planned Hours** field.</span>
+   
+         The **Planned Hours** is the amount of hours it would take the assignees of the issue to complete it. 
+   
+         >[!NOTE]
+         >
+         >Changing the Planned Hours of the issue will not change the issue Planned Completion Date. 
+   
 1. To remove assignments from all the issues, see [Assign issues](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md). 
 
 1. Click **Save** or continue editing the following sections.
 
-### Custom&nbsp;Forms
+### Custom Forms
 
 1. Begin editing an issue as described above.
 1. Click **Custom Forms**.

@@ -10,9 +10,8 @@ exl-id: e2dce29e-7370-4580-8326-99c4437998bf
 ---
 # Assign issues
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2024-->
 
-<!--
 <div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
@@ -20,7 +19,6 @@ The highlighted information on this page refers to functionality not yet general
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
 </div> 
--->
 
 You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see [Overview of modifying issue assignments](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -110,7 +108,7 @@ Consider the following when assigning multiple resources to a work item:
 </div>
 -->
 
-## Assign a single issue
+## Assign a single issue in the issue header
 
 1. Go to an issue that you want to assign.
 1. Click **Assign to** in the upper-right corner of the issue header, in the **Assignments** area
@@ -149,9 +147,9 @@ Consider the following when assigning multiple resources to a work item:
 1. Click **Save** to complete assigning the issue. 
 1. (Optional) Click the **X icon** next to the name of the assignments in the Assignments area on the header of the issue to remove an assignment.
 
-## Assign an issue in a list
+## Assign an issue by inline editing it in a list
 
-You can assign issues in a list or a report when any of the assignments fields are visible in the list's view. This is faster way to assign issues.
+You can assign issues in a list or a report when any of the assignments fields are visible in the list's view. This is a faster way to assign issues.
 
 Depending on which field is visible in the view you can assign the following entities to the issue: 
 
@@ -190,12 +188,17 @@ To assign issues in a list:
 
 1. After adding your assignees to the issue, press Enter or click anywhere on the page to save your changes.
 
+## Assign an issue in the Edit Issue box
+
+You can assign an issue when editing it in the Edit Issue box. 
+
+For information, see the "Assignments" section in the article  [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md). 
+
 ## Assign issues in bulk
 
-<!--
 Assigning issues in bulk is different depending on what environment you choose to do this. 
 
-### Assign issues in bulk in the Production environment -->
+### Assign issues in bulk in the Production environment 
 
 1. Go to a list of issues that you want to assign in bulk. 
 1. Select several issues in the list. 
@@ -220,7 +223,6 @@ Assigning issues in bulk is different depending on what environment you choose t
 1. Click **Save Changes**.
 1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
 
-<!--
 <div class="preview">
 
 ### Assign issues in bulk in the Preview environment
@@ -249,4 +251,4 @@ Assigning issues in bulk is different depending on what environment you choose t
 1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
 
 </div>
--->
+
