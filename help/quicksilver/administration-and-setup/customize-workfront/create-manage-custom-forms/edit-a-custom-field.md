@@ -11,9 +11,13 @@ exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
 ---
 # Add or edit a custom field, section break, or widget
 
+{{preview-fast-release-general}}
+
 You can add a new custom field or widget directly from the Fields area in Workfront, without opening a custom form to create the field.
 
 You can also edit the properties of a custom field, section break, or widget that is used in custom forms. These include the item's label, name, instructions, and so on.
+
+<span class="preview">Setting a custom field as Inactive excludes it from reports, filters, and views, and the field is no longer available in the custom forms field library. All new fields are set to Active by default. </span>
 
 If you remove a custom field from a custom form, it still exists on all other forms it was added to, and you can edit it on a form or in the Fields area. For information on deleting a field, see [Delete a custom field or widget from the system](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 
