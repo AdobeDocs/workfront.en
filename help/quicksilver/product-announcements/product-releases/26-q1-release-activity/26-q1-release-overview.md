@@ -32,6 +32,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront enhancements
 
 * [Administrator enhancements](#administrator-enhancements)
+* [Document and approvals enhancements](#documents-and-approvals-enhancements)
 * [Other enhancements](#other-enhancements)
 
 ### Administrator enhancements
@@ -79,12 +80,35 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager now available with the Frame.io integration </a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager now available with the Frame.io integration <p>[!BADGE Off schedule]{type=Neutral}</p> </a>
             <p>Now, you can use the Experience Manager Assets​ to manage and store your digital assets that have gone through the review and approval cycle. This integration allows you to leverage the capabilities of Adobe Experience Manager, Frame.io, and Workfront to streamline your content management and collaboration processes. </p>
         </td>
         <td>October 30, 2025</td>
-        <td>November 13, 2025</td>
-        <td>January 15, 2026</td>
+        <td>October 30, 2025</td>
+        <td>October 30, 2025</td>
+    </tr>   
+  </tbody>
+</table> 
+
+### Integration enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">New version of Salesforce integration now available </a>
+            <p>To stay up-to-date with recent changes to the Workfront API, we've created a new Salesforce integration. The new integration features the same functionality as the previous version, and was updated to avoid losing functionality deprecated in the API.</p>
+        </td>
+        <td>October 30, 2025</td>
+        <td>October 30, 2025</td>
+        <td>October 30, 2025</td>
     </tr>   
   </tbody>
 </table> 

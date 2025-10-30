@@ -36,7 +36,7 @@ We have updated the Convert to project box when converting a task to a project u
 
 For information, see [Convert a task to a project](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
 
-### New experience when bulk editing and single- or bulk-assigning tasks
+<!--### New experience when bulk editing and single- or bulk-assigning tasks
 
 **Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
 
@@ -54,7 +54,7 @@ You can still find the removed fields when making advanced assignments on tasks.
 
 You will have a chance to switch between the old and the new experience for editing tasks for a limited time.
 
-For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
 
 ### New experience when bulk editing and single- or bulk-assigning issues
 
