@@ -9,6 +9,8 @@ exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 ---
 # Use the My Requests widget
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 
 >[!IMPORTANT]
 >
@@ -81,6 +83,8 @@ To configure the filter in the My Requests widget:
    * Status
    * Entered by
 
+    <span class="preview">In the Preview environment, you can also filter by any custom fields that have been added as a column      to the view.</span>
+
 1. In the next field, select the operator that you want to use for this filter condition. Available operators depend on the chosen field.
 1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
 1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
@@ -95,7 +99,7 @@ The filter is saved automatically.
 >* To filter for only Workfront requests, set the filter to **Object type** > **Has any of** > **Issues**.
 >* To filter for only Workfront Planning requests, et the filter to **Object type** > **Has none of** > **Issues**.
 
-## Adjust columns
+## Adjust or add columns
 
 You can choose which of the available columns appear on the My Requests widget, and set their order.
 
@@ -116,6 +120,9 @@ To adjust the columns on the My Requests widget:
 1. In the My Requests widget, click **Columns**.
 1. (Optional)To reorder columns, click the drag handle ![drag handle](assets/drag-handle.png) of the column you want to move and drag it to the desired locations. The column at the top of the list appears in the My Requests widget as the leftmost column.
 1. (Optional) Use the toggle to control whether a column is displayed in the My Requests widget.
+1. <span class="preview">To add a custom field as a column, click the **Add column** icon ![Add column](assets/add-column.png) near the right of the screen, and click the plus icon next to the custom form field that you want to add as a column to the widget.</span>
+
+   <span class="preview">Custom fields on forms attached to the object in the list are available to add as columns.</span>
 
 Column preferences are saved automatically.
 

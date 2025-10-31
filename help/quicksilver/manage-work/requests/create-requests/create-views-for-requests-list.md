@@ -84,7 +84,7 @@ You can edit existing views, including views you have just created.
 
 1. (Optional) To rename a view, click the **Views** dropdown ![Views dropdown](assets/view-icon-requests.png) and click the three-dot menu next to the view, select **Rename**, then type in the new name for the view.
 1. Click the **Views** dropdown ![Views dropdown](assets/view-icon-requests.png) and select the view you want to edit.
-1. <span class="preview">To add a custom fields as a column, click the Add column icon near the right of the screen, and select the custom form field to add as a column to the view.</span>
+1. <span class="preview">To add a custom field as a column, click the **Add column** icon ![Add column](assets/add-column.png) near the right of the screen, and click the plus icon next to the custom form field that you want to add as a column to the view.</span>
 
    <span class="preview">Custom fields on forms attached to the object in the list are available to add as columns.</span>
 
