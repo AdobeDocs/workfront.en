@@ -9,7 +9,7 @@ exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
 ---
 # Import a project from Microsoft Project
 
-<!-- Audited: 4/2025 -->
+<!-- Audited: 10/2025 -->
 
 You can import projects from Microsoft Project into Adobe Workfront and manage all your projects in one application. Every time you import a project from Microsoft Project, a new project is created in Workfront.
 
@@ -97,14 +97,16 @@ You can create a project from the **Projects** area in the **Main Menu**, or fro
 1. Log in to Workfront. 
 1. Do one of the following:
 
-   * Click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, or click the **Main Menu** ![Main Menu lines](assets/lines-main-menu.png) in the upper-left corner, if available, click **Projects**, then expand **New Project**.  
+   * Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, or the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, if available, then click **Projects** and expand **New Project**. 
    * Go to a portfolio, then expand **New Project**. 
    * Go to a program, then expand **New Project**. 
    * If you are a group administrator, you can create a project in the **Projects** section of a group you manage. For more information, see [Create and modify a group's projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. Click **Import MS Project**. The **Import MS File** dialog box appears.
+1. Click **Import MS Project**.  
 
    ![New project dropdown](assets/import-ms-project-option.png)
+
+   The **Import MS File** box opens.
 
 1. Click **Select File**, then browse for the .xml file on your computer that you exported from Microsoft Project. 
 1. Import the selected file. Workfront begins the import process and creates a new project based on the file exported from Microsoft Project.

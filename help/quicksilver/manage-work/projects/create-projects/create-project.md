@@ -11,7 +11,7 @@ exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 
 <!--remove Preview and Production references-->
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 110/2025 -->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -163,7 +163,7 @@ Consider the following:
 
 1. Do one of the following:
 
-   * Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner. Click **Projects**, then expand **New Project**.
+   * Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, or the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, if available, then click **Projects** and expand **New Project**.
    * Go to a portfolio, then expand **New Project**.
    * Go to a program, then expand **New Project**.
    * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [Create and modify a group's projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
@@ -185,13 +185,21 @@ Consider the following:
 
    For more information about adding tasks to a project, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Edit the project details by clicking the **More** menu and then **Edit** ![Edit icon](assets/qs-edit-icon.png) next to the name of the project.
+1. Edit the project details by clicking the **More** menu to the right of the project name, in the header, then **Edit** ![Edit icon](assets/qs-edit-icon.png) next to the name of the project.
 
-   The **Edit Project** dialog box opens.
+   The **Edit Project** box opens.
+
+1. Add information about the project. 
 
    For more information about editing a project, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. (Optional) After configuring the project settings and adding the tasks, you can change the status of the project to **Current**.
+    >[!TIP]
+    >
+    >The Status of the project should be Planning, or another status that is not Current. This allows you to make changes to the project without generating notifications to the project participants. 
+
+1. Click **Save** to save your changes.
+
+1. (Optional) After configuring the project settings and adding the tasks, you can change the status of the project to **Current** in the project header.
 
    This indicates that the project is now ready to start and users assigned to the tasks can now start working on them.
 

@@ -83,20 +83,20 @@ For information about Tracking Mode on tasks, see [Task Tracking Mode overview](
 To set the tracking mode:
 
 1. Go to the task you want to set the tracking mode for.
-1. Click the **More** icon ![](assets/qs-more-icon-on-an-object.png)next to the name of the task, then click&nbsp;**Edit**.
+1. Click the **More** icon ![](assets/qs-more-icon-on-an-object.png)next to the name of the task, then click **Edit**.
 
    The Edit Task dialog box opens. 
 
-1. In the&nbsp;**Settings** section, use the&nbsp;**Tracking Mode** drop-down menu to select the Tracking Mode for the task.
+1. In the **Settings** section, use the **Tracking Mode** drop-down menu to select the Tracking Mode for the task.
 
    ![](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
 
 1. Select from the following options:
 
    * User Must Update (this is the default option)
-   * Assume On&nbsp;Time
+   * Assume On Time
    * Ignore Late Warnings
-   * Auto&nbsp;Complete
+   * Auto Complete
    * Predecessor
 
    For more information about the tracking mode options, see [Task Tracking Mode overview](../../../manage-work/tasks/task-information/task-tracking-mode.md)
