@@ -40,19 +40,23 @@ For information, see [Convert a task to a project](/help/quicksilver/manage-work
 
 **Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
 
-We have updated the Edit Tasks box when editing single tasks or editing them in bulk. The following changes are included in this update:
+We have updated the Edit Tasks box when editing single tasks or editing them in bulk.  
 
-* The Recalculate Custom Expressions option has been removed when updating tasks in bulk and has been added to the More menu in a task list, after selecting multiple tasks.
+The following changes are included in this update: 
 
-* There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box:
+* The Recalculate Custom Expressions option has been removed when updating tasks in bulk and has been added to the More menu in a task list, after selecting multiple tasks.  
 
-* Allocations
-* Owner or Task Owner
-* Assignee's Role
+* You can now update external lookup custom fields 
 
-You can still find the removed fields when making advanced assignments on tasks.
+* There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box: 
 
-You will have a chance to switch between the old and the new experience for editing tasks for a limited time.
+    * Allocations 
+    * Owner or Task Owner 
+    * Assignee's Role 
+
+You can still find the removed fields when making advanced assignments on tasks. 
+
+You will have a chance to switch between the old and the new experience for editing tasks for a limited time.  
 
 For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
 
