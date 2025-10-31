@@ -9,7 +9,7 @@ exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 ---
 # Create a project template
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2025 -->
 
 You can create and delete templates from the Templates area. When building a new template, you can enter the information for all of the tasks and for your future project settings. This information will then transfer to any project that you create from the template.
 
@@ -88,7 +88,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Create a template
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Templates**. 
+{{step1-to-templates}}
 
 1. Click **New Template**.
 
@@ -98,33 +98,69 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Specify a name for the new template in the template header, then press **Enter.**
 1. Click the **Template Tasks** section in the left panel. 
-1. Click **Start Adding Template Tasks**.
+1. Click **Start Adding Template Tasks** to add tasks inline
 
    Or
 
-   Click **New Template Task** to start adding tasks to your template.
+   Click **New Template Task** to start adding tasks to your template in the **New Template Task** box.
 
-   Adding template tasks to a template is identical to adding tasks to a project.
+   ![New Template Task box](assets/new-template-task-box.png)
 
-   For more information about adding tasks to a project, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+1. Update information in the following areas:
+
+   * Overview
+   * Finance
+   * Settings
+   * Assignments
+   * Custom Forms
+   * Attach Document
+
+      Updating information for a template task is similar to editing tasks on a project. For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
 
    >[!NOTE]
    >
    >You cannot add recurring tasks to a template.
 
-1. (Optional) Click the **Gantt chart** icon in the upper-right corner of the Task List to see a visual representation of the template's task list.
+1. Click one of the following:
+
+   * **Save Template Task** to save the current template task and closes the New Template Task box.
+   * **Save Template Task & Start Another** to save the current template task and open another New Template Task box to add another task.
+   * **Cancel** to close the box without saving the template task.
+1. (Optional) After adding the template tasks, in the Template Tasks section, click the **Gantt chart** icon in the upper-right corner of the Task List to see a visual representation of the template's task list.
 
    >[!TIP]
    >
    >You cannot edit tasks directly from this Gantt chart.
 
-1. To add information to your new template, click the **More** menu ![More icon](assets/more-icon.png), then click **Edit**.
+1. To add information to your new template, click the **More** menu ![More icon](assets/more-icon.png) to the left of the template name in the header, then click **Edit**.
 
    For information about editing a template, see [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-1. Click **Save Changes**.
-1. (Optional) If you want to add additional items to the template, see the section [Add additional items to a template](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template) in the article [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   >[!NOTE]
+   >
+   >   A project template's association with a group (or lack of a group) affects how project, task, and issue preferences determine certain settings in the template. 
+   >
+   >For more information, see the section "How preferences apply to templates and template tasks" in the article [Create and modify a group's project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
-## Template settings determined by group association
+1. Click **Save**.
+1. (Optional) Add the following items to the template
 
-A project template's association with a group (or lack of a group) affects how project, task, and issue preferences determine certain settings in the template. For more information, see the section [Create and modify a group's project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates) in the article [Create and modify a group's project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+   * Documents
+   * Risks
+   * Approval processes
+   * Billing Rates
+   * Expenses
+   * Queue Details
+   * Topic Groups and Queue Topics
+
+1. (Optional) Add the following items to the tasks in the template:
+
+   * Documents
+   * Expenses
+   * Approvals
+
+   For information, see the section "Add more items to a template" in the article [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+
+
+
+

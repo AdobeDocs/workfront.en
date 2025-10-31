@@ -120,7 +120,7 @@ You can edit one template at a time, or you can edit templates in bulk.
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/more-icon.png) next to the name of the template, then click **Edit**.
 
    The **Edit Template** box opens. The sections in this box contain the fields available in  the Template Details section, as well as additional fields.
 
@@ -814,12 +814,12 @@ Deactivated templates do not affect existing projects that were created using th
 
 To deactivate a template: 
 
-1. Go to an active template, then click the **More** ![More icon](assets/qs-more-icon-on-an-object.png) menu next to the template name, then click **Deactivate**. 
+1. Go to an active template, then click the **More** ![More icon](assets/more-icon.png) menu next to the template name, then click **Deactivate**. 
 
    ![Deactivate template](assets/deactivate-template-link-in-more-menu.png)
 
    The template is no longer active and users can no longer find it to create projects from it.
-1. (Optional) To activate the template, click the **More** ![More icon](assets/qs-more-icon-on-an-object.png) menu next to the template name, then click **Activate**. 
+1. (Optional) To activate the template, click the **More** ![More icon](assets/more-icon.png) menu next to the template name, then click **Activate**. 
 
    The template is now active and can be attached to projects or used to create projects. 
    
@@ -844,7 +844,7 @@ Editing a template differs depending on what environment you choose.
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/more-icon.png) next to the name of the template, then click **Edit**.
 
    The **Edit Template** box opens. The sections in this box contain the same fields available in  the Template Details section .
 

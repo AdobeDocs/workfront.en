@@ -87,7 +87,7 @@ To share a template:
 1. From the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png), click **Templates**.  
 
 1. Do one of the following:  
-   Click the name of a template to open it, then click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png), then **Template Sharing**.
+   Click the name of a template to open it, then click the **More** menu ![More icon](assets/more-icon.png), then **Template Sharing**.
 
    Or
 
@@ -122,7 +122,7 @@ With template Project Sharing, you can define who has permissions on the project
 To share future projects created from a template with users:
 
 1. Do one of the following:  
-   Click the name of a template to open it, then click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png), then **Template Sharing**.
+   Click the name of a template to open it, then click the **More** menu ![More icon](assets/more-icon.png), then **Template Sharing**.
 
    ![Share project from template](assets/project-sharing-on-template-nwe-2022-350x172.png)
 
