@@ -337,9 +337,6 @@ A Category object is a custom form.
             <p>Added the following possible values:</p>
              <ul>
               <li>
-                <p><code>SPTMPL</code> (enum.categorytypeenum.staffingplantemplate)</p>
-              </li>
-              <li>
                 <p><code>TEAMOB</code> (Team)</p>
               </li>
             </ul>
@@ -349,9 +346,6 @@ A Category object is a custom form.
             </p>
             <p>Added the following possible values:</p>
              <ul>
-              <li>
-                <p><code>SPTMPL</code> (enum.categorytypeenum.staffingplantemplate)</p>
-              </li>
               <li>
                 <p><code>TEAMOB</code> (Team)</p>
               </li>
