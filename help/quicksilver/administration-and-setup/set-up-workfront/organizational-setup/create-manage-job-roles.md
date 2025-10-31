@@ -74,11 +74,11 @@ To create a job role:
 
       For information about deactivating job roles, see [Deactivate job roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
 
-   * **Currency**: The default in the list is the Base Currency, as set in the Setup area by your Workfront administrator. You can change it to another available currency.
+   * **Currency**: The Base Currency is shown by default. The Workfront administrator adds the Base Currency in the Setup area. You can change the selection to another available currency, and you can change the currency on effective dated time ranges.
 
       >[!TIP]
       >
-      >Only currencies available in the Exchange Rates area in your system are available in this field. If you only have one currency set up, this field is does not appear.
+      >Only currencies available in the Exchange Rates area in your system are available in this field. If you only have one currency set up, only that currency is available.
 
       For information about setting up the Base Currency in Workfront, see [Set up exchange rates](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
