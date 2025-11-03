@@ -39,10 +39,7 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
 
 >[!TAB Betas]
 
-* [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-* [Project Health overview](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)
-* [Get started with the Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
-* [Use AI Form Fill to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+* [Beta programs](/help/quicksilver/product-announcements/betas/betas.md)
 
 >[!TAB Known Issues]
 
