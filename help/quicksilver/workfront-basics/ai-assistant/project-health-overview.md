@@ -75,6 +75,107 @@ To enable AI Assistant and Project Health for your organization, all of the foll
 
 For more information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) and [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
+## How Project Health is calculated 
+
+AI Assistant gives you a quick assessment of a project's overall condition by assigning it one of the available Project Health states:
+
+* On Target
+* At Risk 
+* In Trouble
+
+This state is calculated using the project and program components, such as project progress, underestimated work, and more. For a full list of the components that are used to measure Project Health, see the [Project and program states list](#project-and-program-states-list) section. 
+
+Each project component is assigned a numerical risk score that goes from (0-100), which is then averaged to create the overall Project Health state: 
+
+* On Target (75 or higher): Project performance is within expected thresholds. 
+* At Risk (50-74):  Emerging issues are detected that may impact project performance. 
+* In Trouble (49 or less): Project performance is below acceptable thresholds and requires immediate attention. 
+
+>[!NOTE]
+>
+>* AI Assistant currently evaluates only the selected project's data. 
+>* Cross-project or historical analysis is not yet included in the Project Health calculation. 
+
+### Examples of calculating Project Health for a project
+
+In the first example, 4 project components are evaluated and their individual risk scores are calculated as the following: 
+
+* 2 On Target (90 risk score) 
+* 1 At Risk (45 risk score) 
+* 1 In Trouble (20 risk score) 
+
+When you average out these scores, the result is 61. Using the Project Health state criteria listed above, this puts this project in the At Risk state. 
+ 
+In the next example, a schedule change of 1 day has occurred early in the project's timeline. In this scenario, AI Assistant evaluates both the timing and impact of the change relative to the project's overall duration: 
+
+* A 1-day schedule shift early in a 60-day project timeline is minor and typically scored as On Target. 
+* A 1-day schedule shift near a project's completion date is more disruptive and may be scored At Risk or In Trouble. 
+
+Since the change was minor and occurred early in the project timeline, this puts the project in the On Target state. 
+
+If multiple schedule changes occur within a project's timeline, these changes are scored and then averaged before they're applied toward the Project Health calculation. 
+
+## Understanding the difference between project conditions and Project Health 
+
+Project conditions and Project Health are similar concepts in Workfront and have the same default names to describe the project condition or state (On Target, At Risk, and In Trouble), but they serve different purposes.   
+ 
+Project conditions give a basic snapshot on how a project is currently performing based only on the planned, projected, and estimated dates. It can be set manually by the project owner or automatically by Workfront based on the project's tasks. Alternatively, Project Health is more comprehensive and assesses additional factors, giving you a higher-level understanding of how it's performing.
+
+For more on Project conditions, see [Custom conditions](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md). 
+
+## Project and program states list 
+
+The table below contains a breakdown of the available states AI Assistant will assign your project or program when generating a Project Health assessment. 
+
+   <table>
+    <tr>
+        <td><b>Project State</b></td>
+        <td><b>Definition</b></td>
+        <td><b>Factors</b></td>
+    </tr>
+    <tr>
+        <td>On Target</td>
+        <td>This is assigned when the average risk level for the following factors falls within the healthy threshold.
+        </td>
+        <td> 
+        <ul><li>Scope creep</li>
+        <li>Missing fields</li>
+        <li>Schedule changes</li>
+        <li>Underestimated work</li>
+        <li>Project progress</li>
+        <li>Overdue tasks</li>
+        <li>Budget</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>At Risk</td>
+        <td>This is assigned when the average risk level for the following factors falls just below the healthy threshold.</td>
+        <td>
+        <ul><li>Scope creep</li>
+        <li>Missing fields</li>
+        <li>Schedule changes</li>
+        <li>Underestimated work</li>
+        <li>Project progress</li>
+        <li>Overdue tasks</li>
+        <li>Budget</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>In Trouble</td>
+        <td>This is assigned when the average risk level for the following factors falls below the healthy threshold.</td>
+        <td>
+        <ul><li>Scope creep</li>
+        <li>Missing fields</li>
+        <li>Schedule changes</li>
+        <li>Underestimated work</li>
+        <li>Project progress</li>
+        <li>Overdue tasks</li>
+        <li>Budget</li>
+        </ul></td>
+    </tr>
+    </tr>
+   </table>
+
 ## AI Assistant prompts list 
 
 Below is a list of prompts you can use to ask AI Assessment to generate a Project Health assessment for a project, program, or all projects in your account.  
@@ -103,60 +204,6 @@ Below is a list of prompts you can use to ask AI Assessment to generate a Projec
        <tr>
         <td>Any page in Workfront </td>
         <td><em>What's the health of program [PROGRAM NAME]?</em></td>
-    </tr>
-   </table>
-
-
-## Project and program conditions list 
-
-Below are the available conditions AI Assistant will assign your project or program when generating a Project Health assessment. 
-
-   <table>
-    <tr>
-        <td><b>Project Condition</b></td>
-        <td><b>Project Progress Status</b></td>
-        <td><b>Project Condition Factors</b></td>
-    </tr>
-    <tr>
-        <td>On Target</td>
-        <td>This analysis is assigned when the average risk level for the following factors falls within the healthy threshold.
-        </td>
-        <td> 
-        <ul><li>Scope creep</li>
-        <li>Missing fields</li>
-        <li>Schedule changes</li>
-        <li>Underestimated work</li>
-        <li>Project progress</li>
-        <li>Overdue tasks</li>
-        <li>Budget</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td>At Risk</td>
-        <td>This analysis is assigned when the average risk level for the following factors falls just below the healthy threshold.</td>
-        <td>
-        <ul><li>Scope creep</li>
-        <li>Missing fields</li>
-        <li>Schedule changes</li>
-        <li>Underestimated work</li>
-        <li>Project progress</li>
-        <li>Overdue tasks</li>
-        <li>Budget</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td>In Trouble</td>
-        <td>This analysis is assigned when the average risk level for the following factors falls below the healthy threshold.</td>
-        <td>
-        <ul><li>Scope creep</li>
-        <li>Missing fields</li>
-        <li>Schedule changes</li>
-        <li>Underestimated work</li>
-        <li>Project progress</li>
-        <li>Overdue tasks</li>
-        <li>Budget</li>
-        </ul></td>
-    </tr>
     </tr>
    </table>
 
@@ -255,7 +302,7 @@ For more information, see the following section in this article: [Manage project
 
     ![Project health assessment](assets/health-assessment.png)
 
-    If you're generating an assessment for a portfolio, multiple badges will be listed showing the condition of each project in the program. For more information on the badge labels, see the following section in this article: [Project and program conditions list](#project-and-program-conditions-list). 
+    If you're generating an assessment for a portfolio, multiple badges will be listed showing the condition of each project in the program. For more information on the badge labels, see the following section in this article: [Project and program states list](#project-and-program-states-list). 
 
 1. (Optional) Click one of the assessment points to expand its details. 
 
