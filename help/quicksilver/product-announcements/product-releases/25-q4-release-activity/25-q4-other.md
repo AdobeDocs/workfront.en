@@ -16,9 +16,10 @@ For a list of all changes available at this point in the Fourth Quarter 2025 rel
 
 >[!NOTE]
 >
->* Preview: October 6, 2025
->* Production fast release: October 6, 2025
->* Production for all customers: October 6, 2025
+>* Preview: October 13, 2025
+>* Production fast release: October 13, 2025
+>* Production for all customers: October 13, 2025
+>[!BADGE Off schedule]{type=Neutral}
 
 The Summary tab of a report has been updated with the following enhancements: 
 
