@@ -12,6 +12,34 @@ This page describes enhancements made with the Fourth Quarter 2025 release to th
 
 For a list of all changes available at this point in the Fourth Quarter 2025 release cycle, see [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## Report Summary tab updates
+
+>[!NOTE]
+>
+>* Preview: October 13, 2025
+>* Production fast release: October 13, 2025
+>* Production for all customers: October 13, 2025
+>[!BADGE Off schedule]{type=Neutral}
+
+The Summary tab of a report has been updated with the following enhancements: 
+
+* The grouping field names prefixing for each row have been moved to the first column header.
+
+* The name column is now slash-delimited (separated by a forward slash) when multiple grouping levels are applied to a report.
+
+* The aggregation type prefix ("Sum: ", "Max: ", "Min: ", "Avg: ") has been removed from each aggregation.
+
+* The aggregation type for each column now displays as an appendix to the column header value.
+
+* Sub-groupings (2 or 3 groupings) display as indented levels in the first column. Top-level groupings still show up in bold.
+
+* You can now adjust the column widths. The columns will revert to the default width distribution when the page is refreshed.
+
+>[!NOTE]
+>
+>The first four changes also apply to Summary tab exports where applicable. Level indentations and bold font will not transfer to an exported, tab-delimited text file.
+
+
 ## Adobe Unified Experience now available for more Workfront organizations
 
 >[!NOTE]
