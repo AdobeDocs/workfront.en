@@ -85,9 +85,7 @@ For more information, see [Create a Canvas Dashboard](/help/quicksilver/reports-
 
 1. Click the **Details** ![Details icon](assets/details-icon.png) icon to the right of the dashboard name at the top of the screen. 
 
-1. Enter a new **Name**. 
-
-1. Enter a new **Description**. 
+1. Enter a new **Name** and **Description**. 
 
 1. Click **Save**. 
 
