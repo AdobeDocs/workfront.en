@@ -54,6 +54,7 @@ The following Workfront objects are supported by event subscriptions.
 * Company
 * Dashboard
 * Document
+* Document Version
 * Expense
 * Field
 * Hour
@@ -62,9 +63,16 @@ The following Workfront objects are supported by event subscriptions.
 * Portfolio
 * Program
 * Project
+* Proof Approval
 * Record
 * Record Type
 * Report
+* Staffing Plan
+* Staffing Plan Parameter Value
+* Staffing Plan Resource
+* Staffing Plan Resource Attribute Value
+* Staffing Plan Resource Attribute Value Set
+* Staffing Plan Resource Parameter Value
 * Task
 * Template
 * Timesheet
