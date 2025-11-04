@@ -11,11 +11,9 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 ---
 # Create a custom form
 
+{{preview-fast-release-general}}
+
 <!-- Audited: 6/2025 -->
-
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 You can design a custom form with the form designer in Adobe Workfront. You can attach custom forms to different Workfront objects to capture data about those objects.
 
@@ -254,6 +252,15 @@ To add a text field:
     <td> If you want to apply a hyperlink to the Descriptive Text you have typed, add it here. The Descriptive text displays as a link on objects where the form is attached.</td>
     <td><ul><li>Descriptive text</li></ul></td>
     </tr>
+    <tr>
+     <td><span class="preview">Active</span></td>
+     <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+     <td><ul><span class="preview">
+     <li>Single line text</li>
+     <li>Paragraph</li>
+     <li>Text with formatting</li>
+     <li>Descriptive text</li></span></ul></td>
+    </tr>
     <tr> 
       <td role="rowheader">Make a required field</td>
       <td><p>Select this option if you want the field to be required in order for the user to complete the custom form.</p></td>
@@ -402,8 +409,17 @@ To add radio buttons, checkbox groups, and drop-downs:
     <li>Multi-select dropdown</li>
     </ul>
     </td>
-     </tr> 
-          <tr> 
+     </tr>
+    <tr>
+     <td><span class="preview">Active</span></td>
+     <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+     <td><ul><span class="preview">
+     <li>Radio buttons</li>
+     <li>Checkbox group</li>
+     <li>Single-select dropdown</li>
+     <li>Multi-select dropdown</li></span></ul></td>
+    </tr>
+    <tr> 
     <td role="rowheader">Make a required field</td> 
     <td>Select this option if you want the field to be required in order for the user to complete the custom form. </td> 
     <td><ul>
@@ -535,6 +551,13 @@ To add typeahead and date fields:
        </ul>
       </td>
      </tr>
+     <tr>
+      <td><span class="preview">Active</span></td>
+      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+      <td><ul><span class="preview">
+      <li>Typeahead</li>
+      <li>Date</li></span></ul></td>
+     </tr>
      <tr> 
       <td role="rowheader">Make a required field</td> 
       <td>Select this option if you want the field to be required in order for the user to complete the custom form. </td> 
@@ -640,6 +663,9 @@ To add an external lookup:
       <td role="rowheader">Multi-select dropdown</td>
       <td><p>Select this option to allow the user to select more than one value in the drop-down.</p></td>
      </tr>
+     <tr>
+      <td><span class="preview">Active</span></td>
+      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
      </tr>
      <tr> 
       <td role="rowheader">Make a required field</td>
@@ -730,6 +756,10 @@ The Workfront Mobile app -->
       <td role="rowheader">Instructions</td> 
       <td> <p>Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">Active</span></td>
+      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -863,6 +893,10 @@ This table lists the available native fields for specific Workfront objects in a
         </ul></p></td> 
       <td>
      </tr>
+     <tr>
+      <td><span class="preview">Active</span></td>
+      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+     </tr>
      <tr> 
       <td role="rowheader">Make a required field</td>
       <td><p>Select this option if you want the field to be required in order for the user to complete the custom form.</p></td>
@@ -915,7 +949,11 @@ This table lists the available native fields for specific Workfront objects in a
       <td role="rowheader">Instructions</td> 
       <td> <p>Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.
     <img src="assets/instructions-form-designer.png"></p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td><span class="preview">Active</span></td>
+      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -1011,6 +1049,10 @@ To add a Planning connection field:
       <td role="rowheader">Record type fields</td> 
       <td><p>(Optional) Select up to 7 lookup fields from the connected record type to display in the custom form. The primary field is selected by default and cannot be edited. </p> <p> The connected record's fields that you select display in a table view on the custom form. When the form is attached to a Workfront object, the table view is read-only. </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+     <tr>
+      <td><span class="preview">Active</span></td>
+      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
      </tr>
       </tbody> 
    </table>

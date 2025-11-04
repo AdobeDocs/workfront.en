@@ -96,7 +96,7 @@ The following items are never copied from an existing template to a new one:
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. Go to the template that you want to copy.
-1. Click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) to the right of the template name in the header, then click **Copy**.
+1. Click the **More** menu ![More icon](assets/more-icon.png) to the right of the template name in the header, then click **Copy**.
 
    The **Copy Template** box opens.
 

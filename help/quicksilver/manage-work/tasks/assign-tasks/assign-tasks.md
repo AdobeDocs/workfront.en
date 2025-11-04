@@ -10,7 +10,17 @@ exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 ---
 # Assign tasks
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2025-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 You can assign tasks to users, job roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
 
@@ -159,7 +169,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. Click **Save**.
 1. (Optional and conditional) Click the **X icon** next to the name of the assignment in the right panel of the task to remove an assignment, if you clicked **Advanced**.
 
-## Assign a task in a list
+## Assign a task in a list when inline editing it
 
 You can assign tasks in a list or a report when any of the assignments fields are visible in the list's view. This is a faster way to assign tasks. This article describes how to modify assignments for one task in a list. For information about modifying multiple assignments for multiple tasks in a list, see [Modify multiple user assignments in a task list](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
@@ -208,7 +218,11 @@ To assign tasks in a list:
 
 1. After adding your assignees to the task, press Enter or click anywhere on the page to save your changes if you selected Autosave. Otherwise, click **Save**.
 
-## Assign multiple tasks to a user
+## Assign multiple tasks to a user in bulk from a list
+
+<!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
+
+### Assign multiple tasks to a user in the Production environment-->
 
 1. Go to a list of tasks that you want to assign in bulk. 
 1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
@@ -250,6 +264,55 @@ To assign tasks in a list:
 
 1. Click **Save Changes**.
 1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+
+<!--
+<div class="preview">
+
+### Assign multiple tasks to a user in the Preview environment
+
+1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
+1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
+
+   >[!IMPORTANT]
+   >
+   >You cannot edit tasks in bulk when saving tasks manually on a project.
+
+1. Select several tasks in the tasks list. 
+1. Click **Edit**.
+
+   The **Edit Tasks** dialog box opens.
+
+1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
+
+   Or 
+
+   Click **Assign to me** to assign it to yourself.
+
+   >[!IMPORTANT]
+   >
+   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks.
+
+1. Click inside the **Duration Type** field and choose a Duration Type. 
+
+   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Conditional) Depending on what **Duration Type** you selected, update the following fields: 
+
+   * Duration
+   * Planned Hours
+
+      For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
+
+1. (Optional) If you want to remove existing assignees from all tasks, click the **x** next to their name in the **Search people, roles, or teams** field.
+
+1. Click **Save**.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+
+
+</div>
+-->
+
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

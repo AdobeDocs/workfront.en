@@ -11,7 +11,7 @@ exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
 
 You can easily communicate with the members of your project team through Adobe Workfront.
 
-All the users associated with a project form the Project&nbsp;Team.&nbsp;For information about the Project Team, see [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+All the users associated with a project form the Project Team. For information about the Project Team, see [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Access requirements
 
@@ -65,7 +65,7 @@ For more information, see [Access requirements in Workfront documentation](/help
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to&nbsp;Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -83,33 +83,33 @@ For more information, see [Access requirements in Workfront documentation](/help
 
    Or
 
-   To update certain members of the project team, select one or several users in the list, then click **Send Update to User******.   
-   ![Commenting_1.png](assets/commenting-1-350x352.png)
+   To update certain members of the project team, select one or several users in the list, then click **Send Update to User**.   
 
-1. Type your update in the **Post an update to this project** field.
-1. (Optional) To make the update private, click the **Lock** icon.
+   ![Send update to user box on project](assets/send-update-to-user-box-on-project.png)
 
-   Users outside the company cannot view a private&nbsp;update.
+1. Type your update in the **Post an update to the project** area. 
+1. (Optional) To make the update private, select the **Private to my company** option.
 
-1. (Optional)&nbsp;Click the **People** icon to add more recipients that are not selected. 
-1. Click&nbsp;**Send**.
+   Users outside the company cannot view a private update.
 
-   The update and the names of the users included in it display in the Updates tab of the project.
+1. (Optional) Click **Tag people** to add more recipients that are not selected. 
+1. Click **Send**.
+
+   The update and the names of the users included display in the **Updates** section of the project.
 
 ## Send updates to Project Team members and others
 
-You can send project updates to team members and to other users that might not be part of the project team. All users must have an active Workfront account. The update is&nbsp;sent as a notification in Workfront.
+You can send project updates to team members and to other users that might not be part of the project team. All users must have an active Workfront account. The update is sent as a notification in Workfront.
 
 1. Go to a project from which you want to send updates to other users.
-1. (Optional and conditional) If the users you want to send updates to are not on the project team, add them to the project team.
+1. Click **People** in the left panel.
+1. (Optional and conditional) If the users you want to send updates to are not on the project team, click **Add users** to add them to the project team.
 
    For information about adding users to the project team, see [Manage the Project Team](../../../manage-work/projects/planning-a-project/manage-project-team.md). 
 
-1. Send an update to the members of the project team, as described in the
+1. Send an update to the members of the project team, as described in the section [Send an email to a Project Team member](#send-an-email-to-a-project-team-member) in this article.
 
-   [Send an email to a Project Team member](#send-an-email-to-a-project-team-member) section in this article.
-
-   The update and the names of the users included in it display in the Updates tab of the project.
+   The update and the names of the users included in it display in the **Updates** section of the project.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: drafted. No longer valid)</p>
@@ -118,8 +118,8 @@ You can send project updates to team members and to other users that might not b
 <li value="2"> Click <strong>People</strong> in the left panel.</li>
 <li value="3"> <p>To update all members of the project team, click <strong>Update All</strong> in the upper-left corner of the list of project team members.</p> <p>Or</p> <p>To update certain members of the project team, select one or several users in the list, then click <strong>Update</strong>. </p> </li>
 <li value="4">Type your update in the <strong>Post an update to this project</strong> field.</li>
-<li value="5"> <p>(Optional) To make the update private, click the <strong>Lock</strong> icon.</p> <p>Users outside the company cannot view a private&nbsp;update.</p> </li>
-<li value="6"> <p>(Optional) Add a user who is not&nbsp;part of the Project&nbsp;Team by typing their name in the people field, then selecting the user from the list when it displays. </p> </li>
+<li value="5"> <p>(Optional) To make the update private, click the <strong>Lock</strong> icon.</p> <p>Users outside the company cannot view a private update.</p> </li>
+<li value="6"> <p>(Optional) Add a user who is not part of the Project Team by typing their name in the people field, then selecting the user from the list when it displays. </p> </li>
 <li value="7"> <p>Click <strong>Send.</strong></p> <p>The update and the names of the users included in it display in the Updates tab of the project.</p> </li>
 </ol> </p>
 -->

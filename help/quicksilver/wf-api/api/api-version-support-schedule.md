@@ -18,6 +18,10 @@ For more information on identifying and using API versions, see [Specify an API 
 
 The following table shows the release and support schedule for the Workfront API. 
 
+>[!NOTE]
+>
+>The legacy Workfront connector uses Workfront API version 20, which is scheduled to be deprecated with the 28.4 release (April 2028). Modules in the legacy connector will continue to work until that time.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -31,6 +35,12 @@ The following table shows the release and support schedule for the Workfront API
   </tr> 
  </thead> 
  <tbody> 
+ <tr>
+   <td>21</td> 
+   <td> <p>October 23, 2025</p> </td> 
+   <td> <p>**during 2028</p> <p>(with the 28.10 release)</p> </td> 
+   <td></td> 
+  </tr> 
  <tr>
    <td>20</td> 
    <td> <p>May 4, 2025</p> </td> 

@@ -74,7 +74,7 @@ To create or edit a risk in the Business Case:
 
 1. Go to the project for which you want to create risks. 
 1. Click **Business Case** in the left panel.
-1. In the **Risks** section, click **Edit Risks**.
+1. In the **Risks** section, click the **Edit** icon ![Edit icon](assets/edit-icon.png)
 1. Enter or edit the following information:
 
    * **Description:** Describe the risk.  
@@ -90,7 +90,7 @@ To create or edit a risk in the Business Case:
 
    ![Risks](assets/edit-risk.png)
 
-1. (Optional) Click **Add Another Risk** to add additional risks.
+1. (Optional) Click **Add Another Risk** to add more risks.
 1. Click **Save**.
 
 ## Create and edit risks in the Risks area
@@ -98,8 +98,6 @@ To create or edit a risk in the Business Case:
 In addition to creating and editing risks in the Business Case, you can do so using the **Risks** section of a project.
 
 You can create and edit risks in the Risks section of a project or a template. Creating risks for templates is identical to creating risks for projects. 
-
-### Create risks in the Risks area {#create-risks-in-the-risks-area}
 
 1. Go to the project you want to create risks for.
 1. Click **Risks** in the left panel.
@@ -140,19 +138,19 @@ You can edit one risk at a time or edit multiple risks in bulk.
 
 To edit risks:
 
-1. Navigate to a project for which you want to edit existing risks.
+1. Go to a project for which you want to edit existing risks.
 1. Click **Risks** in the left panel.
 1. Start in-line editing the fields for the risks you see in the list to edit one risk at a time.
 
    Or
 
-   Select one or several risks, then click **Edit** to edit multiple risks at the same time.
+   Select one or several risks, then click the **Edit** icon ![Edit icon](assets/edit-icon-on-white.png) to edit multiple risks at the same time.
 
    >[!NOTE]
    >
    >You are applying the same information to all the risks selected, when you edit multiple risks at the same time. The information associated with each risk prior to your changes is overwritten in a bulk edit.
 
-1. If you have clicked **Edit**, the **Edit risk** or **Edit risks** box opens.
+1. If you have clicked the **Edit** icon, the **Edit risk** or **Edit risks** box opens.
 
    Update the following fields:
 

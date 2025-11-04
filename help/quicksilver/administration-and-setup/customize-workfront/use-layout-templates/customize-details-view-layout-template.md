@@ -11,7 +11,7 @@ exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
 ---
 # Customize the Details view using a layout template
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+{{preview-fast-release-general}}
 
 As an Adobe Workfront administrator, you can use a layout template to determine what information appears when a user clicks the Details icon ![Details icon](assets/project-details-icon.png) in the left panel while viewing a task, issue, document, program, or portfolio.
 
@@ -92,11 +92,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 ## Customize what users see in the Details view
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Click the down arrow ![Down arrow](assets/dropdown-arrow-12x12.png) under **Customize what users see**, then click **Project**, **Task**, **Issue**, **Program**, or **Portfolio.**
-<!--
-, or billing record
--->
-
+1. Click the down arrow ![Down arrow](assets/dropdown-arrow-12x12.png) under **Customize what users see**, then click **Project**, **Task**, **Issue**, **Program**, or **Portfolio.**<!--, or billing record-->
 1. In the **Details** section, do any of the following to customize what users see in the Details view:
 
    * Drag any section headers ![Move icon](assets/move-icon---dots.png) to change their order.
@@ -105,10 +101,20 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      If you hide all fields in one of these sections, the entire section is hidden.
 
      All of the fields are enabled by default. You can select or clear the **Select all** check box in an area to display or hide all of the fields in that area.
-
+  
+   <span class="preview">Sample image in the Preview environment:</span>
+   ![Details view in layout template](assets/layout-template-details-view-updated-save-buttons.png)
+   
+   Sample image in the Production environment:
    ![Details view in layout template](assets/layout-template-details-view.png)
 
-1. Continue customizing the layout template.
+1. <span class="preview">In the Preview environment: Continue customizing the layout template. You can click **Apply** at any time to save your progress.</span>
+
+   <span class="preview">Or</span>
+
+   <span class="preview">If you are finished customizing, click **Save and Close**.</span>
+
+1. In the Production environment: Continue customizing the layout template.
 
    Or
 
@@ -116,4 +122,4 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    >[!TIP]
    >
-   >You can click Save at any time to save your progress, then continue to modify the template later.
+   >You can click **Save** at any time to save your progress, then continue to modify the template later.

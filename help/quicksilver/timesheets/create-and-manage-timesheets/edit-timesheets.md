@@ -107,7 +107,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <td role="rowheader"><strong>End Date</strong> </td> 
       <td> This is the end date of the timesheet.</td> 
      </tr> 
- <tr> 
+     <tr> 
       <td role="rowheader"><strong>Status</strong> </td> 
       <td> This is the status of the timesheet.
       The following are possible timesheet status options: 
@@ -115,7 +115,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       <li><b>Submitted</b>: The timesheet is submitted for approval to the designated approvers.</li>
       <li><b>Rejected</b>: The timesheet was not approved by the approvers and is now available again for the user to edit the time entries.</li>
       <li><b>Closed</b>: The timesheet is either closed by the user or approved by the approver and as a result, it is now closed. You cannot add time to a closed timesheet.</li>
-   </td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Approvers</strong> </td> 

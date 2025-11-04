@@ -10,7 +10,15 @@ exl-id: e2dce29e-7370-4580-8326-99c4437998bf
 ---
 # Assign issues
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2024-->
+
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
 
 You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see [Overview of modifying issue assignments](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -100,7 +108,7 @@ Consider the following when assigning multiple resources to a work item:
 </div>
 -->
 
-## Assign a single issue
+## Assign a single issue in the issue header
 
 1. Go to an issue that you want to assign.
 1. Click **Assign to** in the upper-right corner of the issue header, in the **Assignments** area
@@ -139,9 +147,9 @@ Consider the following when assigning multiple resources to a work item:
 1. Click **Save** to complete assigning the issue. 
 1. (Optional) Click the **X icon** next to the name of the assignments in the Assignments area on the header of the issue to remove an assignment.
 
-## Assign an issue in a list
+## Assign an issue by inline editing it in a list
 
-You can assign issues in a list or a report when any of the assignments fields are visible in the list's view. This is faster way to assign issues.
+You can assign issues in a list or a report when any of the assignments fields are visible in the list's view. This is a faster way to assign issues.
 
 Depending on which field is visible in the view you can assign the following entities to the issue: 
 
@@ -180,7 +188,17 @@ To assign issues in a list:
 
 1. After adding your assignees to the issue, press Enter or click anywhere on the page to save your changes.
 
+## Assign an issue in the Edit Issue box
+
+You can assign an issue when editing it in the Edit Issue box. 
+
+For information, see the "Assignments" section in the article  [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md). 
+
 ## Assign issues in bulk
+
+Assigning issues in bulk is different depending on what environment you choose to do this. 
+
+### Assign issues in bulk in the Production environment 
 
 1. Go to a list of issues that you want to assign in bulk. 
 1. Select several issues in the list. 
@@ -195,12 +213,42 @@ To assign issues in a list:
    >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
    
 1. (Optional) Select the radio button in the **Issue Owner** column to indicate which resource is the primary assignee or the Owner of the issue, when you assign more than one resource to the issue. This is not available for teams. 
-1. (Optional) Select a role that the user should fulfill on the issue from the **Pick a role** drop-down menu in the **Assignee's Role** column when you assign users to issues. If you do not select a role, Workfront automatically selects the user's Primary&nbsp;Role. 
+1. (Optional) Select a role that the user should fulfill on the issue from the **Pick a role** drop-down menu in the **Assignee's Role** column when you assign users to issues. If you do not select a role, Workfront automatically selects the user's Primary Role. 
 
 1. (Optional) If you want to remove existing assignees from all issues do one of the following:
 
    1. Start typing the name of a user, role, or team you want to remove from the issue, then select it when it appears on the list and click **Remove Assignee** to add additional assignees to remove. 
-   1. Click&nbsp;**Remove All Existing Assignees** to remove all assignees from all selected issues.
+   1. Click **Remove All Existing Assignees** to remove all assignees from all selected issues.
 
-1. Click&nbsp;**Save Changes**.
+1. Click **Save Changes**.
 1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
+
+<div class="preview">
+
+### Assign issues in bulk in the Preview environment
+
+1. Go to a list of issues that you want to assign in bulk. 
+1. Select several issues in the list. 
+1. Click the **Edit icon** ![Edit icon](assets/qs-edit-icon.png).
+
+   The **Edit Issues** dialog box opens.
+
+1. Click **Assignments** in the left panel, and in the **Assignments** area, start typing the name of a user, role, or team in the **Search people, roles, or teams** field, then click it when it displays in the list
+
+   Or
+
+   Click **Assign to me** to assign the issues to yourself.
+
+   >[!IMPORTANT]
+   >
+   >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
+   
+1. (Optional) If you want to remove existing assignees from all issues, click the **x** next to their name.
+
+1. (Optional) Update the Planned Hours field. For more information, see [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md). 
+
+1. Click **Save**.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
+
+</div>
+

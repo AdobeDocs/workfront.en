@@ -11,6 +11,8 @@ exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
 ---
 # Add calculated fields to a form
 
+{{preview-fast-release-general}}
+
 <!-- Audited: 5/2025 -->
 
 You can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object.
@@ -163,6 +165,10 @@ To reuse an existing calculated custom field:
       <p><b>IMPORTANT</b>: Before you choose a format, consider the correct format for the new field. The format field can't be edited after the custom form is saved. And selecting the wrong format could impact future calculations and aggregate values in report and list groupings.</p>
       <p><strong>NOTE</strong>: Calculated fields with a <strong>Currency</strong> format should not include quotation marks. (For example, use 800.00 and not "800.00.") Using quotation marks can cause unexpected consequences due to nuances with language formatting for currency types.</p></td>
      </tr> 
+     <tr>
+      <td><span class="preview">Active</span></td>
+      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 

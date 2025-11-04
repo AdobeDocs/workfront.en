@@ -9,7 +9,7 @@ exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
 ---
 # Request a project
 
-<!--Audited: April 2024-->
+<!--Audited: 10/2025-->
 
 You can request for a project to be approved before you start working on it. 
 
@@ -108,10 +108,12 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    * Follow the same steps as for creating a project while defining a Business Case. (recommended)
 
-     For information about defining a Business Case and requesting a project, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+     For information, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
    * Create a project from scratch or using a template and change the status to **Requested**.
 
-     For information about creating a project, see [Create a project](../../../manage-work/projects/create-projects/create-project.md) or [Create a project using a template](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     For information, see [Create a project](../../../manage-work/projects/create-projects/create-project.md) or [Create a project using a template](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   The project you request has a status of **Requested** and it displays on the **Requested Projects** tab of a Portfolio, if you associated it with a Portfolio. A portfolio manager can now review it and either approve it or reject it, in which case the status of the project changes to either **Approved** or **Rejected**.
+   The project you request has a status of **Requested** and it displays on the **Requested Projects** tab of a Portfolio, if you associated it with a Portfolio. 
+   
+   A portfolio manager can now review it and either approve it or reject it, in which case the status of the project changes to either **Approved** or **Rejected**.

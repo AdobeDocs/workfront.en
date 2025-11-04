@@ -8,10 +8,6 @@ exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
 ---
 # Create and customize priorities
 
-{{highlighted-preview}}
-
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
-
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
@@ -95,7 +91,7 @@ In addition to the default priorities provided in Workfront, you can add your ow
 1. In the left panel, click **Project Preferences** > **Priorities**.
 
 1. Click the tab for the object type you want to create a priority for (**Project**, **Task**, or **Issue**).
-1. Click <span class="preview">**New row** at the bottom of the table</span>, or **Add a New Priority**.
+1. Click **New row** at the bottom of the table.
 1. Configure the following options for the priority:
 
    * **Priority Name**: Type a name for the priority.
@@ -115,8 +111,6 @@ In addition to the default priorities provided in Workfront, you can add your ow
 
      You cannot make a hidden priority the default.
 
-     <div class="preview">
-
      The default priority is indicated with an icon ![Default priority icon](assets/default-icon.png). To choose a new default, do one of the following:
 
        * Select the check box next to the priority name and select **Make Default** in the action bar at the bottom of the screen.
@@ -124,10 +118,8 @@ In addition to the default priorities provided in Workfront, you can add your ow
 
          The new default priority is labeled with the icon.
 
-     </div>
-
    * **Description**: Type a description for the priority to explain its function.
-   * <span class="preview">**Hide Choice**</span> or **Hide**: <span class="preview">Select **Yes**</span> or select the check box to hide a priority that is no longer needed.
+   * **Hide Choice**: Select **Yes** to hide a priority that is no longer needed.
 
      A hidden priority does not display anywhere in Workfront, so users can't choose it for their projects, tasks, or issues.
 

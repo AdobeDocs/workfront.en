@@ -11,6 +11,8 @@ exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
 ---
 # Grant administrative access for a layout template
 
+{{preview-fast-release-general}}
+
 As an Adobe Workfront administrator, you can grant administrative access for a layout template to the group administrators of a particular group so that they can edit the template. This does not assign the template to the users in the group.
 
 For information about assigning users to a layout template, see [Assign users to a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
@@ -63,4 +65,4 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >   
    >* If you don't grant administrative access to the group administrators in a particular group, all users who can edit user accounts have administrative access to the layout template. Some Workfront administrators purposefully choose not to grant administrative access for a layout template in order to make it a system-level layout template. 
 
-1. You can click **Save** at any time to save your progress, then continue to modify the template later.
+1. You can click <span class="preview">**Apply**</span> or **Save** at any time to save your progress, then continue to modify the template later.

@@ -13,6 +13,8 @@ exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
 
 <!--Audited: 09/2024-->
 
+{{preview-fast-release-general}}
+
 >[!IMPORTANT]
 >
 >The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
@@ -26,9 +28,8 @@ For information about layout templates for groups, see [Create and modify a grou
 >[!NOTE]
 >
 >A Workfront administrator can make the same branding customizations for the entire organization at the system level, as explained in [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). But branding in a layout template overrides system-level branding.
-><!--
->Maybe add a section about deleting these 2 settings to revert to default branding?
->-->
+
+<!-- Maybe add a section about deleting these 2 settings to revert to default branding? -->
 
 ## Access requirements
 
@@ -81,7 +82,13 @@ For information, see [Access requirements in Workfront documentation](/help/quic
     </tbody> 
    </table>
 
-1. Continue customizing the layout template.
+1. <span class="preview">In the Preview environment: Continue customizing the layout template. You can click **Apply** at any time to save your progress.</span>
+
+   <span class="preview">Or</span>
+
+   <span class="preview">If you are finished customizing, click **Save and Close**.</span>
+
+1. In the Production environment: Continue customizing the layout template.
 
    Or
 
@@ -89,8 +96,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    >[!TIP]
    >
-   >You can click Save at any time to save your progress, then continue to modify the template later.
-
-1. Click **Save**.
+   >You can click **Save** at any time to save your progress, then continue to modify the template later.
 
 For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

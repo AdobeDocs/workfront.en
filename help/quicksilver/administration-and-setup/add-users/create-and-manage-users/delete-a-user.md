@@ -101,7 +101,7 @@ Deleting a user causes the following things to happen:
    * Tasks, issues, projects, portfolio
    * Dashboards
 
-  <!--
+     <!--
      >[!NOTE]
      >
      >You also lose access to custom sections that contained dashboards associated to the deleted user.  
