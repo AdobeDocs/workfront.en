@@ -32,7 +32,7 @@ For more information, see [Create and edit companies](/help/quicksilver/administ
 
 **Preview release: November 6, 2025; Production release: Starting the week of November 13, 2025**
 
-We have updated the experience when working with template tasks 
+We have updated the experience when working with template tasks. 
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ The following changes are included in this update:
 
 * Allocations 
     * Owner or Task Owner 
-    * ssignee's Role 
+    * Assignee's Role 
 
 You can still find the removed fields when making advanced assignments on template tasks. 
 
@@ -58,7 +58,7 @@ For information, see [Edit template tasks](/help/quicksilver/manage-work/project
 
 ### Interface update when converting a task to a project using a template
 
-**Preview release: November 6, 2025; Production release: Starting the week of November 13, 2025**
+**Preview release: October 30, 2025; Production release: Starting the week of November 6, 2025**
 
 We have updated the Convert to project box when converting a task to a project using a template. The design of the box now matches the Edit Project box.  
 
@@ -66,9 +66,13 @@ For information, see [Convert a task to a project](/help/quicksilver/manage-work
 
 ### New experience when bulk editing and single- or bulk-assigning tasks
 
-**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
+**Preview release: November 6, 2025; Production release: Starting the week of November 13, 2025**
 
 We have updated the Edit Tasks box when editing single tasks or editing them in bulk.  
+
+>[!NOTE]
+>
+>You will have a chance to switch between the old and the new experience for editing tasks for a limited time.  
 
 The following changes are included in this update: 
 
@@ -83,8 +87,6 @@ The following changes are included in this update:
     * Assignee's Role 
 
 You can still find the removed fields when making advanced assignments on tasks. 
-
-You will have a chance to switch between the old and the new experience for editing tasks for a limited time.  
 
 For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
