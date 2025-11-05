@@ -56,13 +56,6 @@ You can still find the removed fields when making advanced assignments on templa
 
 For information, see [Edit template tasks](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md).
 
-### Interface update when converting a task to a project using a template
-
-**Preview release: October 30, 2025; Production release: Starting the week of November 6, 2025**
-
-We have updated the Convert to project box when converting a task to a project using a template. The design of the box now matches the Edit Project box.  
-
-For information, see [Convert a task to a project](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
 
 ### New experience when bulk editing and single- or bulk-assigning tasks
 
@@ -89,6 +82,14 @@ The following changes are included in this update:
 You can still find the removed fields when making advanced assignments on tasks. 
 
 For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+### Interface update when converting a task to a project using a template
+
+**Preview release: October 30, 2025; Production release: Starting the week of November 6, 2025**
+
+We have updated the Convert to project box when converting a task to a project using a template. The design of the box now matches the Edit Project box.  
+
+For information, see [Convert a task to a project](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
 
 ### New experience when bulk editing and single- or bulk-assigning issues
 
