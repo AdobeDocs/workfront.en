@@ -12,7 +12,7 @@ exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 
 <!--Audited: 10/2025-->
 
-<!--take out prod and preview references at release-->
+<!--take out prod and preview references at release, or new and old experience-->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

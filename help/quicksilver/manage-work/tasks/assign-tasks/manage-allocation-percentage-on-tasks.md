@@ -61,9 +61,9 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 <!--
 Change this sentence in the table when unshimmming assignments on Edit task:
-<p>Edit permissions to update allocation hours in the Edit Task box</p>
+<p>Edit permissions to update allocation percentage in the Edit Task box</p>
 To this:
-<p>Edit permissions to update allocation hours in the Edit Task box in the Production environment. <span class="preview">You can no longer manage allocation percentage in the Edit task box in the Preview environment.</span></p>
+<p>Edit permissions to update allocation percentage in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
 -->
 
 ## Considerations about modifying percent allocations for tasks
