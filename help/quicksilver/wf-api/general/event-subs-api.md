@@ -147,6 +147,10 @@ The subscription resource contains the following fields.
         <td scope="col">DOCU </td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>Document Version</p></td> 
+        <td scope="col">DOCV </td> 
+       </tr> 
+       <tr> 
         <td scope="col"><p>Expense</p></td> 
         <td scope="col">EXPNS</td> 
        </tr> 
@@ -179,6 +183,10 @@ The subscription resource contains the following fields.
         <td scope="col"><p>PROJ</p></td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>Proof Approval</p></td> 
+        <td scope="col"><p>PRFAPL</p></td> 
+       </tr> 
+       <tr> 
         <td scope="col"><p>Record</p></td> 
         <td scope="col"><p>RECORD</p></td> 
        </tr> 
@@ -189,6 +197,30 @@ The subscription resource contains the following fields.
        <tr> 
         <td scope="col"><p>Report</p></td> 
         <td scope="col"><p>PTLSEC</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Staffing Plan</p></td> 
+        <td scope="col"><p>STAFFP</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Staffing Plan Parameter Value</p></td> 
+        <td scope="col"><p>SPVAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Staffing Plan Resource</p></td> 
+        <td scope="col"><p>STAFFR</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Staffing Plan Resource Attribute Value</p></td> 
+        <td scope="col"><p>SPAVAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Staffing Plan Resource Attribute Value Set</p></td> 
+        <td scope="col"><p>SAVSET</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Staffing Plan Resource Parameter Value</p></td> 
+        <td scope="col"><p>SRPVAL</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Task</p></td> 
