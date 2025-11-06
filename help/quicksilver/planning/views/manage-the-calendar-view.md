@@ -9,12 +9,10 @@ exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
 ---
 # Manage the calendar view
 
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 {{planning-important-intro}}
 
@@ -217,9 +215,7 @@ To add a filter to a calendar view:
 1. Select a calendar view, then click **Filters** in calendar's toolbar.    
 1. Click **Add condition** and add the following information: 
 
-    * **Select a field** that you want to filter by <!-- the tip below might change-->
-
-        <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
+    * **Select a field** to <span class="preview">search for a field or </span> click the drop-down menu to display a list of fields and select it from the list
 
     * **Select an option** (or a filter modifier) to define what kind of condition the field must meet
 

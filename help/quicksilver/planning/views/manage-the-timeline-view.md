@@ -9,13 +9,10 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 ---
 # Manage the timeline view
 
-
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 {{planning-important-intro}}
 
@@ -279,9 +276,7 @@ To add a filter to a timeline view:
 1. Select a timeline view, then click **Filters** in the upper-right corner of the table.    
 1. Click **Add condition** and add the following information: 
 
-    * **Select a field** that you want to filter by <!-- the tip below might change-->
-
-        <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
+    * **Select a field** to <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list
 
     * **Select an option** (or a filter modifier) to define what kind of condition the field must meet
 
@@ -402,7 +397,7 @@ To add a grouping in the timeline view:
 
     ![Grouping UI timeline view with linked fields](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
-1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list. 
+1. Click one of the suggested fields, or click **Choose a different field**, and search for a different field, then click it when it displays in the list. 
 
     The grouping is applied automatically to the timeline and records display inside the grouping box. 
     
