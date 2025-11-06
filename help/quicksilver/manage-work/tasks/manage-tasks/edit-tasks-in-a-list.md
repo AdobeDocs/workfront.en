@@ -11,7 +11,6 @@ exl-id: 2af81907-3657-459e-b780-65983e224ca8
 
 <!-- Audited: 10/2025 -->
 
-<!--
 <div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
@@ -19,7 +18,6 @@ The highlighted information on this page refers to functionality not yet general
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
 </div> 
--->
 
 You can edit task information in a list of tasks by editing the fields displayed in the list. For information about other ways to edit tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -503,15 +501,19 @@ You can edit multiple tasks all at once. Ensure you have manage permissions to t
    >You can't edit tasks in bulk when saving tasks manually.
 
 1. Select more than one task in the tasks list. 
-   <!--1. <span class="preview">(Optional) Click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then **Recalculate Expressions** to update all information in calculated custom fields.</span> -->
-1. Click the **Edit** icon ![Edit icon](assets/qs-edit-icon.png). The **Edit Tasks** dialog box opens <!--<span class="preview">in the new experience</span>-->.
+1. <span class="preview">(Optional) Click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then **Recalculate Expressions** to update all information in calculated custom fields.</span>
+1. Click the **Edit** icon ![Edit icon](assets/qs-edit-icon.png). The **Edit Tasks** dialog box opens <span class="preview">in the new experience</span>.
 
    Editing the information on all tasks is identical to editing information on one task.
+
    For more information about editing a task, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
    
-      <!--<span class="preview">1. In the new experience, do the following:</span> (******keep the below indented******)
-      1. Specify the information you want to change for all the tasks you selected in any of the following areas: 
+1. <span class="preview">(Conditional) In the new experience, do the following:</span>
+      
+   1. Specify the information you want to change for all the tasks you selected in any of the following areas: 
+
       <div class="preview">
+
       * Overview
       * Assignments
       * Custom Forms
@@ -519,18 +521,9 @@ You can edit multiple tasks all at once. Ensure you have manage permissions to t
       * Settings
       * Settings
       * Comment
-      </div>-->
-      <!--<span class="preview">1. Click **Save**.</span>
-   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span>-->
-1. <!--<span class="preview">In the old experience,, do the following:</span> (**********indent the steps below*********)--> Specify the information you want to change for all the tasks you selected in any of the following areas:
 
-   * Overview
-   * Settings
-   * Assignments
-   * Custom Forms
-   * Comment
+      </div>
 
-      <!-- at release, move the below tip under the first set of bullet points, for the new experience-->
 
       >[!NOTE]
       >
@@ -540,7 +533,19 @@ You can edit multiple tasks all at once. Ensure you have manage permissions to t
       >* Only active custom forms display in the list. If the tasks selected do not have any common custom forms, no forms are listed in this section.
       >* You can edit only the fields on the forms that are attached to all tasks selected and which you have permissions to edit.  For information about bulk editing custom forms, see [Manage custom forms attached to objects](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
 
-  
-1. (Optional) In the **Custom Forms** section, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the custom forms attached to the tasks selected are up to date. 
-1. Click **Save Changes**. All changes you made are now visible on all the selected tasks.
+   1. <span class="preview">Click **Save**.</span>
+   1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span>
+
+1. <span class="preview">(Conditional) In the old experience, do the following:</span>
+
+   1. Specify the information you want to change for all the tasks you selected in any of the following areas:
+
+         * Overview
+         * Settings
+         * Assignments
+         * Custom Forms
+         * Comment
+ 
+   1. (Optional) In the **Custom Forms** section, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the custom forms attached to the tasks selected are up to date. 
+   1. Click **Save Changes**. All changes you made are now visible on all the selected tasks.
 

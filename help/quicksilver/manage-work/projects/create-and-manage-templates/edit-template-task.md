@@ -439,13 +439,13 @@ You can also add custom forms to the future tasks of a project when the project 
 
 After opening the **Edit Template Task** box in the new experience, consider specifying information in any of the following sections:
 
-   * [Template task name](#template-task-name)
-   * [Overview](#overview-1)
-   * [Assignments](#assignments-1)
-   * [Finance](#finance-1)
-   * [Custom Forms](#custom-forms-1)
-   * [Settings](#settings-1)
-   * [Comment](#comment-1)
+* [Template task name](#template-task-name)
+* [Overview](#overview-1)
+* [Assignments](#assignments-1)
+* [Finance](#finance-1)
+* [Custom Forms](#custom-forms-1)
+* [Settings](#settings-1)
+* [Comment](#comment-1)
 
 #### Template Task Name
 
@@ -570,35 +570,35 @@ After opening the **Edit Template Task** box in the new experience, consider spe
    Click **Assign to me** to assign the template task to yourself.
 1. Consider updating the following information: 
 
-<table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
+   <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
 
-<tr> 
-      <td role="rowheader"><strong>Duration Type</strong> </td> 
-      <td> <p>The future task created from this template will have this Duration Type. <br>The Duration Type identifies the relationship between the following:</p> 
-      <ul>
-      <li><p>Number of resources assigned to a task</p> </li>
-      <li><p>The total effort required to complete the task</p></li> 
-      <li><p>The total duration of the task </p></li></ul> <p>Using Duration Types, you can set consistent resource assignments based on the needs of the task. For more information about the Duration Type of a task, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> <p>Select from the following options:</p> 
-       <ul> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Calculated Assignment</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Calculated Work</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Effort Driven</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Simple</span> <br> </p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Duration</strong> </td> 
-      <td> <p>Specify the Duration of the future tasks, in minutes, hours, days, weeks, or months. The future task created from this template will have the Duration specified here.</p> <p>By default, Workfront measures Duration in days. This is the amount of time that you allow for the task to remain incomplete, before it must be completed. You cannot specify the Duration of a task when the <strong>Duration Type</strong> of the task is <strong>Simple</strong>, or when the <strong>Task Constraint</strong> is <strong>Fixed Dates</strong>.</p> <p><b>IMPORTANT</b></p> <p>Duration is typically the amount of time between the Planned Start and the Planned Completion Dates of a template task, and for this reason, it affects the timeline of the template. This determines the timeline of the future project created from the template. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Planned Hours</strong> </td> 
-      <td> <p>Specify the number of Planned Hours for the future task on the project created with this template. This is the amount of actual time it would take the assignees of the task to complete it. You can only specify the number of Planned Hours for a task when the <strong>Duration Type</strong> is set to <strong>Calculated Assignment</strong>. </p> </td> 
-     </tr> 
-  </tbody> 
-   </table>
+   <tr> 
+         <td role="rowheader"><strong>Duration Type</strong> </td> 
+         <td> <p>The future task created from this template will have this Duration Type. <br>The Duration Type identifies the relationship between the following:</p> 
+         <ul>
+         <li><p>Number of resources assigned to a task</p> </li>
+         <li><p>The total effort required to complete the task</p></li> 
+         <li><p>The total duration of the task </p></li></ul> <p>Using Duration Types, you can set consistent resource assignments based on the needs of the task. For more information about the Duration Type of a task, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> <p>Select from the following options:</p> 
+         <ul> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Calculated Assignment</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Calculated Work</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Effort Driven</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Simple</span> <br> </p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Duration</strong> </td> 
+         <td> <p>Specify the Duration of the future tasks, in minutes, hours, days, weeks, or months. The future task created from this template will have the Duration specified here.</p> <p>By default, Workfront measures Duration in days. This is the amount of time that you allow for the task to remain incomplete, before it must be completed. You cannot specify the Duration of a task when the <strong>Duration Type</strong> of the task is <strong>Simple</strong>, or when the <strong>Task Constraint</strong> is <strong>Fixed Dates</strong>.</p> <p><b>IMPORTANT</b></p> <p>Duration is typically the amount of time between the Planned Start and the Planned Completion Dates of a template task, and for this reason, it affects the timeline of the template. This determines the timeline of the future project created from the template. </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Planned Hours</strong> </td> 
+         <td> <p>Specify the number of Planned Hours for the future task on the project created with this template. This is the amount of actual time it would take the assignees of the task to complete it. You can only specify the number of Planned Hours for a task when the <strong>Duration Type</strong> is set to <strong>Calculated Assignment</strong>. </p> </td> 
+      </tr> 
+   </tbody> 
+      </table>
 
 1. (Optional) Continue editing the following sections, depending on the information you want to modify.
 
