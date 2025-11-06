@@ -14,7 +14,6 @@ exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 
 <!--take out production and preview references and new/ old experiences at release-->
 
-<!--
 <div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
@@ -22,7 +21,6 @@ The highlighted information on this page refers to functionality not yet general
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
 </div> 
--->
 
 After creating a template, you can edit the information of the template tasks. The information you update on a template task is associated with project tasks after you use the template to create a project or you attach the template to a project.
 
@@ -142,8 +140,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
    ![Edit template task](assets/edit-template-tasks-box-classic-350x356.png)
 
-   <!--1. (Conditional) In the Production environment, -->
-1. Consider specifying information in any of the following sections:
+1. (Conditional) In the Production environment, consider specifying information in any of the following sections:
 
    * [Overview](#overview)
    * [Finance](#finance)
@@ -152,17 +149,14 @@ You can edit a template task using the Edit Template Task or Template Task Detai
    * [Custom Forms](#custom-forms)
    * [Comment](#comment)
 
-<!--1. Continue editing the template task as described in the Edit a template task using the old experience section in this article (********add hashtag anchor here*******)-->
+1. Continue editing the template task as described in the [Edit a template task using the old experience](#edit-a-template-task-using-the-old-experience) section in this article.
 
-<!--1. <span class="preview">(Conditional) In the Preview environment, click **Try new experience** in the upper-right corner of the **Edit Template Task** box </span>, then continue editing the template task as described in the Edit a template task using the new experience section in this article (********add hashtag anchor here*******).</span>
-1. (Optional) Click **Switch back to old experience** at the bottom of the Edit Template Task box  
--->
+1. <span class="preview">(Conditional) In the Preview environment, the Edit Template Task box opens in the new experience. Continue editing the template task as described in the [Edit a template task using the new experience](#edit-a-template-task-using-the-new-experience) section in this article.</span>
+1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the **Edit Template Task** box to open the **Edit Template Task** box in the old experience. Continue editing the template task as described in the [Edit a template task using the old experience](#edit-a-template-task-using-the-old-experience) section in this article.</span>
 
+### Edit a template task using the old experience
 
-<!--### Edit a template task using the old experience
-(and make all the headers below "####")-->
-
-### Overview {#overview}
+#### Overview {#overview}
 
 1. Begin editing a template task as described above.
 1. Click **Overview**.
@@ -263,7 +257,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
    Click **Save Changes**.
 
-### Finance {#finance}
+#### Finance {#finance}
 
 1. Begin editing a template task as described above.
 1. Click **Finance**.
@@ -310,7 +304,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
    Click **Save Changes**.
 
-### Settings {#settings}
+#### Settings {#settings}
 
 1. Begin editing a template task as described above.
 1. Click **Settings**.
@@ -370,7 +364,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
    Click **Save Changes**.
 
-### Assignments {#assignments}
+#### Assignments {#assignments}
 
 1. Begin editing a template task as described above.
 1. Click **Assignments**.
@@ -394,7 +388,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
    Click **Save Changes**.
 
-### Custom Forms {#custom-forms}
+#### Custom Forms {#custom-forms}
 
 You can define custom forms to be automatically attached by default to tasks when the tasks are added to a project. For information about setting up the project to include default task custom forms, see the "Tasks" section in the article [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -427,7 +421,7 @@ You can also add custom forms to the future tasks of a project when the project 
 
    Click **Save Changes**.
 
-### Comment {#comment}
+#### Comment {#comment}
 
 1. Begin editing a template task as described above.
 1. Click **Comment**.
@@ -439,12 +433,11 @@ You can also add custom forms to the future tasks of a project when the project 
 
    When you or another user creates a project from this template, all settings you applied to template tasks become the settings for the project tasks.
 
-<!--
 <div class="preview"> 
 
 ### Edit a template task using the new experience
 
-Consider specifying information in any of the following sections:
+After opening the **Edit Template Task** box in the new experience, consider specifying information in any of the following sections:
 
    * [Template task name](#template-task-name)
    * [Overview](#overview-1)
@@ -455,6 +448,11 @@ Consider specifying information in any of the following sections:
    * [Comment](#comment-1)
 
 #### Template Task Name
+
+>[!TIP]
+>
+>The Template Task Name section is not available when editing template tasks in bulk.
+
 
 1. Begin editing a template task as described above.
 1. In the Edit Template Task box, click **Template Task Name** and add a name for the template task. 
@@ -655,8 +653,7 @@ Consider specifying information in any of the following sections:
 
    Click **Save**.
 
-
-#### Custom Forms {#custom-forms}
+#### Custom Forms {#custom-forms-1}
 
 You can define custom forms to be automatically attached by default to tasks when the tasks are added to a project. For information about setting up the project to include default task custom forms, see the "Tasks" section in the article [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -765,5 +762,3 @@ You can also add custom forms to the future tasks of a project when the project 
    When you or another user creates a project from this template, all settings you applied to template tasks become the settings for the project tasks.
 
 </div>
-
--->

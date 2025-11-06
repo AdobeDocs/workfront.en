@@ -14,13 +14,13 @@ exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
 
-<div class="preview"> 
+<!--<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> 
+</div> -->
 
 You can simultaneously modify user assignments to multiple issues. For information about editing issues or assigning them one at a time, also see the following articles:
 
@@ -101,64 +101,38 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    The **Edit Issues** displays. The number of items selected displays in the upper-left corner of the page.
 
-1. (Conditional) In the Production environment, do the following: 
-
-   1. Go to the **Assignments** section, then select **Assignee**.
-
-      ![Assignments area](assets/classic-assignmens-area-on-edit-box-350x119.png)
-
-   1. Do one of the following:
-
-      1. To add a new assignee:
-
-         1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected issues.
-
-         >[!TIP]
-         >
-         >You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
-         >
-         >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
-         >
-         >* Reassign the work item to active resources.
-         >* Associate the users in a deactivated team with an active team and reassign the work item to the active team.
- 
-         Information that is common across all issues selected displays. For example, if the same user is assigned to all issues, that user displays in the **Assignee**  column. If information is not common across the issues selected, no information displays.
-
-      1. To remove individual assignees:
-
-         1. Click the **X icon** next to the name of the assignee that you want to remove if the assignee displays in the Assignments list.
-
-            Or
-
-            If the assignee that you want to remove does not display in the Assignments section because the assignee is assigned to only some of the issues that you have selected, click **Remove Assignee** and start typing the name of the assignee that you want to remove, then click the name when it appears in the drop-down list.
-      
-         1. Click  **Remove Assignee** again to add another assignee to remove.
-
-      1. To remove all existing assignees:
-
-         1. Click **Remove All Existing Assignees**, then click **Yes, Delete All Assignees**.
-
-            This removes not only common assignees (assignees that are displayed in the edit  dialog box), but also all assignees on all the selected issues.
-
-         1. (Optional) Modify any of the following options for the assignees you selected to associate with the issues:
-
-            * **Issue Owner:**  Select the radio button to indicate which assignee is designated as the Issues Owner. If left unselected, Adobe Workfront designates the first assignee as the Issue Owner. This is not available for team assignments. 
-            * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Workfront automatically selects the Primary Role of the user.
-
-      1. Click **Save Changes**.
-
-1. <span class="preview">In the Preview environment, do the following:</span>
-
-   1. <span class="preview">Click **Assignments** in the left panel, then click the **x** icon next to the assignee you want to remove. </span>
+1. Click **Assignments** in the left panel, then click the **x** icon next to the assignee you want to remove.
 
       >[!TIP]
       >
-      ><span class="preview">Only assignees that are assigned to all the selected issues display in the **Assignments** area. </span>
+      >Only assignees that are assigned to all the selected issues display in the **Assignments** area.
 
       ![Assignments area in bulk-edit issues](assets/assignments-area-on-bulk-edit-issues.png)
 
-   1. <span class="preview">Start typing the name of a user, role, or team to add assignees to all the selected issues. </span>
+1. Start typing the name of a user, role, or team to add assignees to all the selected issues. 
 
+      >[!TIP]
+      >
+      >You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
+      >
+      >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
+      >
+      >* Reassign the work item to active resources.
+      >* Associate the users in a deactivated team with an active team and reassign the work item to the active team.
+
+     The added assignees are added to the existing ones. They do not replace the existing ones for each selected issue. 
+
+1. (Optional) Click **Assign to me** to assign all issues to yourself.
+1. Click **Save**. 
+
+
+   <!--Old functionality for assignments for issues - before November 2025:
+   1. (Conditional) In the Production environment, do the following: 
+   1. Go to the **Assignments** section, then select **Assignee**.
+      ![Assignments area](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   1. Do one of the following:
+      1. To add a new assignee:
+         1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected issues.
          >[!TIP]
          >
          >You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
@@ -167,10 +141,19 @@ For information, see [Access requirements in Workfront documentation](/help/quic
          >
          >* Reassign the work item to active resources.
          >* Associate the users in a deactivated team with an active team and reassign the work item to the active team.
-
-      <span class="preview">The added assignees are added to the existing ones. They do not replace the existing ones for each selected issue. </span>
-   1. <span class="preview">(Optional) Click **Assign to me** to assign all issues to yourself.</span>
-   1. <span class="preview">Click **Save**. </span>
+          Information that is common across all issues selected displays. For example, if the same user is assigned to all issues, that user displays in the **Assignee**  column. If information is not common across the issues selected, no information displays.
+      1. To remove individual assignees:
+         1. Click the **X icon** next to the name of the assignee that you want to remove if the assignee displays in the Assignments list.
+            Or
+            If the assignee that you want to remove does not display in the Assignments section because the assignee is assigned to only some of the issues that you have selected, click **Remove Assignee** and start typing the name of the assignee that you want to remove, then click the name when it appears in the drop-down list.
+         1. Click  **Remove Assignee** again to add another assignee to remove.
+      1. To remove all existing assignees:
+         1. Click **Remove All Existing Assignees**, then click **Yes, Delete All Assignees**.
+            This removes not only common assignees (assignees that are displayed in the edit  dialog box), but also all assignees on all the selected issues.
+         1. (Optional) Modify any of the following options for the assignees you selected to associate with the issues:
+          * **Issue Owner:**  Select the radio button to indicate which assignee is designated as the Issues Owner. If left unselected, Adobe Workfront designates the first assignee as the Issue Owner. This is not available for team assignments. 
+            * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Workfront automatically selects the Primary Role of the user.
+      1. Click **Save Changes**.-->
 
 
 
