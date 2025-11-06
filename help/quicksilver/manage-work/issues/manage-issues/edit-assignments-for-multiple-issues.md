@@ -14,6 +14,14 @@ exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
 
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+
 You can simultaneously modify user assignments to multiple issues. For information about editing issues or assigning them one at a time, also see the following articles:
 
 * [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md) 

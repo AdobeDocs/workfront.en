@@ -218,11 +218,7 @@ To assign tasks in a list:
 
 1. After adding your assignees to the task, press Enter or click anywhere on the page to save your changes if you selected Autosave. Otherwise, click **Save**.
 
-## Assign multiple tasks to a user in bulk from a list
-
-<!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
-
-### Assign multiple tasks to a user in the Production environment-->
+## Assign multiple tasks in bulk from a list
 
 1. Go to a list of tasks that you want to assign in bulk. 
 1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
@@ -234,7 +230,11 @@ To assign tasks in a list:
 1. Select several tasks in the tasks list. 
 1. Click **Edit**.
 
-   The **Edit Tasks** dialog box opens.
+   The **Edit Tasks** dialog box opens <!--<span class="preview">in the new experience</span>-->.
+
+   <!--1. Continue assigning the tasks <span class="preview">using the new experience</span>. <span class="preview">For more information, see the section Assign multiple tasks in bulk from a list in the new experience in this article.</span> (^^^^^^^^^^^^add anchor here at release^^^^^^^^^^^^) -->
+
+   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span> -->
 
 1. In the **Assignments** area, select the **Assignee** box, then start typing the name of a user, job role, or team that you want to assign to all the tasks.
 
@@ -268,7 +268,7 @@ To assign tasks in a list:
 <!--
 <div class="preview">
 
-### Assign multiple tasks to a user in the Preview environment
+### Assign multiple tasks in bulk from a list in the new experience
 
 1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
 1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.

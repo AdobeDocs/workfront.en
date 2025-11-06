@@ -10,7 +10,9 @@ exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 ---
 # Create advanced assignments
 
-<!-- Audited: 07/2024-->
+<!-- Audited: 11/2025-->
+
+<!--remove the bullet indicated when we get rid of the new/old experience of editing tasks-->
 
 <!--
 <div class="preview"> 
@@ -43,8 +45,7 @@ This article describes how to access Advanced Assignments in the task or issue's
 In addition, you can make advanced assignments in the following areas of Workfront:
 
 * In lists and reports when the Assignments field displays in the view.
-* In the Assignments section when editing a task. For more information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
-<!--* In the Production environment, in the Assignments section when editing a task. <span class="preview">This has been removed from the Preview environment.</span> For more information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).-->
+* In the Assignments section when editing a task. For more information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
 * In the task or issue header, in the Assignments area.
 * In the Workload Balancer. For more information, see [Assign work manually using the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 

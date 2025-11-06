@@ -10,11 +10,19 @@ exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
 ---
 # Modify multiple user assignments in a task list
 
-<!--Audited: 07/2024-->
+<!--Audited: 11/2025-->
 
 <!--
-<p>There is a similar article in Resource Scheduling and a similar one for Issues; when things change, you might need to update all 3</p>
+this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
+
+<!--<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 When managing task assignments, you can simultaneously modify them for multiple tasks at a time by using the bulk editing feature in a list of tasks.
 
@@ -111,14 +119,17 @@ When assigning users to work, their availability according to their schedules af
 
 1. Select the tasks for which you want to modify assignments, then click the **Edit** icon ![](assets/edit-icon.png).
 
-   The Edit Tasks page displays. The items that you edit display in the upper-left corner of the page.
+   The **Edit Tasks** box opens <!--<span class="preview">in the new experience</span>-->.
+
+   <!--1. <span class="preview">(Optional) Click **Switch to old experience** at the bottom of the **Edit Tasks** box.</span> 
+   <span class="preview">The **Edit Tasks** box opens in the old experience.</span>-->
 
 1. Go to the **Assignments** section.
-1. Do one of the following to add or remove assignees:
 
    >[!IMPORTANT]
    >
    >Removing assignees can affect the task hours and allocation percentages. For more information, see the section [How removing assignees affects task hours and allocation percentages](#how-removing-assignees-affects-task-hours-and-allocation-percentages) in this article.
+1. Do one of the following to add or remove assignees:
 
    * To add a new assignee:
 
@@ -174,3 +185,17 @@ When assigning users to work, their availability according to their schedules af
    * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Adobe Workfront automatically selects the Primary Role of the user.
 
 1. Click **Save Changes.**
+
+<!--
+1. <span class="preview"> (Optional) Click **Try new experience** in the upper-right corner of the **Edit Tasks** box. The Edit Tasks box opens in the new experience. Do one of the following:</span>
+
+   <div class="preview">
+
+   * To add assignees, start typing the name of an assignee in the **Search people, roles, or teams** field, then select them when they display in the list. 
+   * To remove assignees, click the **x** icon to the right of their name. Only assignees that are common to all tasks display in the list. 
+   * Click Assign to me to assign the selected tasks to yourself.
+
+   </div>
+1. <span class="preview">(Conditional) When using the new experience, click **Save**.</span>
+
+-->
