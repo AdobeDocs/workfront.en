@@ -28,33 +28,68 @@ For more information, see [Create and edit companies](/help/quicksilver/administ
 
 ## Projects
 
+### New experience when working with template tasks
+
+**Preview release: November 6, 2025; Production release: Starting the week of November 13, 2025**
+
+We have updated the experience when working with template tasks. 
+
+>[!NOTE]
+>
+>You will have a chance to switch between the old and the new experience of adding or editing template tasks for a limited time. 
+
+The following changes are included in this update: 
+
+* The template task list in the Subtasks section of a template task now matches most lists in Workfront 
+
+* The New and Edit Template Task boxes have a new look and feel 
+
+* You can now update external lookup custom fields when editing template tasks 
+
+* There is a new experience for assigning resources to template tasks. The new experience is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box: 
+
+* Allocations 
+    * Owner or Task Owner 
+    * Assignee's Role 
+
+You can still find the removed fields when making advanced assignments on template tasks. 
+
+For information, see [Edit template tasks](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md).
+
+
+### New experience when bulk editing and single- or bulk-assigning tasks
+
+**Preview release: November 6, 2025; Production release: Starting the week of November 13, 2025**
+
+We have updated the Edit Tasks box when editing single tasks or editing them in bulk.  
+
+>[!NOTE]
+>
+>You will have a chance to switch between the old and the new experience for editing tasks for a limited time.  
+
+The following changes are included in this update: 
+
+* The Recalculate Custom Expressions option has been removed when updating tasks in bulk and has been added to the More menu in a task list, after selecting multiple tasks.  
+
+* You can now update external lookup custom fields 
+
+* There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box: 
+
+    * Allocations 
+    * Owner or Task Owner 
+    * Assignee's Role 
+
+You can still find the removed fields when making advanced assignments on tasks. 
+
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
 ### Interface update when converting a task to a project using a template
 
-**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
+**Preview release: October 30, 2025; Production release: Starting the week of November 6, 2025**
 
 We have updated the Convert to project box when converting a task to a project using a template. The design of the box now matches the Edit Project box.  
 
 For information, see [Convert a task to a project](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
-
-<!--### New experience when bulk editing and single- or bulk-assigning tasks
-
-**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
-
-We have updated the Edit Tasks box when editing single tasks or editing them in bulk. The following changes are included in this update:
-
-* The Recalculate Custom Expressions option has been removed when updating tasks in bulk and has been added to the More menu in a task list, after selecting multiple tasks.
-
-* There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box:
-
-* Allocations
-* Owner or Task Owner
-* Assignee's Role
-
-You can still find the removed fields when making advanced assignments on tasks.
-
-You will have a chance to switch between the old and the new experience for editing tasks for a limited time.
-
-For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
 
 ### New experience when bulk editing and single- or bulk-assigning issues
 
@@ -66,11 +101,13 @@ The following changes are included in this update:
 
 * The Recalculate Custom Expressions option has been removed when updating issues in bulk. The option has been added to the More menu in an issue list, after selecting multiple issues.  
 
+* You can now update external lookup custom fields when editing issues.
+
 * There is a new experience for assigning resources to issues. This is now available both when editing one issue or editing several issues in bulk. The following fields have been removed from the Edit issues box: 
 
-* Allocations 
-* Owner or Issue Owner 
-* Assignee's Role 
+    * Allocations 
+    * Owner or Issue Owner 
+    * Assignee's Role 
 
 You can update the removed fields when making advanced assignments on issues. 
 
