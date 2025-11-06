@@ -11,6 +11,14 @@ exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 
 <!-- Audited: 10/2025 -->
 
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+
 You can create and delete templates from the Templates area. When building a new template, you can enter the information for all of the tasks and for your future project settings. This information will then transfer to any project that you create from the template.
 
 >[!NOTE]
@@ -106,7 +114,34 @@ For more detail about the information in this table, see [Access requirements in
 
    ![New Template Task box](assets/new-template-task-box.png)
 
-1. Update information in the following areas:
+   <span class="preview">The **Create Template Task** boxopens in the new experience.</span>
+
+1. <span class="preview">(Conditional) Using the new experience, update information in the following areas in the **Create Template Task** box:</span>
+
+   <div class="preview">
+
+   * Template Task Name
+   * Overview
+   * Assignments
+   * Finance
+   * Custom Forms
+   * Documents
+   * Settings 
+
+   </div>
+
+1. Click **Create template task**
+   
+   Or 
+   
+   <span class="preview">Click **Switch back to old experience** at the bottom of the **Create Template Task** box.</span>
+   <span class="preview">The **New Template Task** opens in the old experience.</span>
+
+      >[!TIP]
+      >
+      >In Production, the old experience opens by default.
+
+1. Update information in the following areas in the **New Template Task** box:
 
    * Overview
    * Finance
@@ -115,7 +150,7 @@ For more detail about the information in this table, see [Access requirements in
    * Custom Forms
    * Attach Document
 
-      Updating information for a template task is similar to editing tasks on a project. For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
+      Updating information for a template task is similar to editing tasks on a project. For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). <!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
 
    >[!NOTE]
    >
@@ -124,7 +159,7 @@ For more detail about the information in this table, see [Access requirements in
 1. Click one of the following:
 
    * **Save Template Task** to save the current template task and closes the New Template Task box.
-   * **Save Template Task & Start Another** to save the current template task and open another New Template Task box to add another task.
+   * **Save Template Task & Start Another** to save the current template task and open another **New Template Task** box to add another task.
    * **Cancel** to close the box without saving the template task.
 1. (Optional) After adding the template tasks, in the Template Tasks section, click the **Gantt chart** icon in the upper-right corner of the Task List to see a visual representation of the template's task list.
 

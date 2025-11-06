@@ -83,7 +83,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 {{step1-to-templates}}
 
-This opens a list of templates
+   This opens a list of templates
 
 1. Select the template that you want to delete by clicking the checkbox to the left of the template name, then click **Delete > Yes, Delete It** to confirm the deletion.
 
