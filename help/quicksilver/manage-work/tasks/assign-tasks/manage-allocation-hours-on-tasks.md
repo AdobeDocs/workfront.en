@@ -55,7 +55,7 @@ You can modify the allocation hours when you make advanced assignments on a task
   <tr> 
    <td>Object permissions</td>
    <td><p>Contribute or higher permissions to the task</p>
-   <p>Edit permissions to update allocation hours in the Edit Task box when editing tasks <span class="preview">using the old experience. You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.</td>
+   <p>Edit permissions to update allocation hours in the Edit Task box when editing tasks <span class="preview">using the old experience. You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a>.</p></td>
   </tr>
  </tbody>
 </table>
