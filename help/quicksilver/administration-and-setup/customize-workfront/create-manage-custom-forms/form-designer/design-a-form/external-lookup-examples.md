@@ -49,7 +49,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 You can use the External lookup to bring data from your Workfront instance into the custom form.
 
-When someone accesses the field in the custom form, they will only see in the list of options what they have permissions to see in Workfront. For example, if you are showing a list of projects, the user would only see projects that are shared with them.
+<!--When someone accesses the field in the custom form, they will only see in the list of options what they have permissions to see in Workfront. For example, if you are showing a list of projects, the user would only see projects that are shared with them.-->
 
 ### Use native Workfront field values in the External lookup
 
