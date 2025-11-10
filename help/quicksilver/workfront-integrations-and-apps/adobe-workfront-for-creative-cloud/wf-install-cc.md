@@ -120,7 +120,7 @@ You can install [!DNL Adobe Workfront for design and video] for yourself from th
    >
    >![Locate domain](assets/domain-350x50.png)   
    >
-   >* If your Workfront instance is integrated with Experience Cloud, ask your admin to provide you with the Workfront domain found under Product > Workfront in the Admin Console.
+   >* If your Workfront instance is integrated with Experience Cloud and the domain begins with `experience.adobe.com`, ask your admin to provide you with the Workfront domain found under Product > Workfront in the Admin Console.
 
 1. In the browser, enter your [!DNL Workfront] credentials, then click **[!UICONTROL Log in]**. If your company uses a single sign-on (SSO), you'll be directed to your SSO provider's page to log in.
 
