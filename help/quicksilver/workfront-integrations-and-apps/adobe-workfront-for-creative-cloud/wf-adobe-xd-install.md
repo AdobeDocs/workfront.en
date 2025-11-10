@@ -101,18 +101,17 @@ You can install the [!DNL Adobe Workfront for XD] plugin for yourself from the [
    >
    >* If your Workfront instance is integrated with Experience Cloud, ask your admin to provide you with the Workfront domain found under Product > Workfront in the Admin Console.
 
-1. In the browser, enter your [!DNL Workfront] credentials, then click **[!DNL Log in]**. If your company uses a single sign-on (SSO), you'll be directed to your SSO provider's page to log in.
+1. In the browser, enter your [!DNL Adobe] credentials, then click **[!DNL Log in]**. If your company uses a single sign-on (SSO), you'll be directed to your SSO provider's page to log in.
 
    >[!NOTE]
    >
    >You may not be prompted to enter your [!DNL Workfront] credentials if you logged in recently.
 
-   Follow the prompts to log in to [!DNL Workfront].
+1. Follow the prompts to log in to [!DNL Workfront].
 
    >[!NOTE]
    >
-   >* [!DNL Workfront] connects to [!DNL Adobe Creative Cloud] using OAuth 2.0, a secure standard used by most web-based integrations for the authentication and authorization of users.
-   >* When you are prompted to enter the [domain or host] of your [!DNL Workfront] account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.  
+   >* [!DNL Workfront] connects to [!DNL Adobe Creative Cloud] using OAuth 2.0, a secure standard used by most web-based integrations for the authentication and authorization of users. 
 
 1. Click **[!UICONTROL Allow Access]** to finish logging in, and go back to [!DNL Adobe XD] to see your work.
 

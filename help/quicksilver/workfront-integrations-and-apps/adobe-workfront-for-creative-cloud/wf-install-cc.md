@@ -126,14 +126,13 @@ You can install [!DNL Adobe Workfront for design and video] for yourself from th
 
    >[!NOTE]
    >
-   >You may not be prompted to enter your [!DNL Workfront] credentials if you logged in recently.
+   >You may not be prompted to enter your [!DNL Adobe] credentials if you logged in recently.
 
 1. Follow the prompts to log in to [!DNL Workfront].
 
    >[!NOTE]
    >
    >* [!DNL Workfront] connects to [!DNL Adobe Creative Cloud] using OAuth 2.0, a secure standard used by most web-based integrations for the authentication and authorization of users.
-   >* When you are prompted to enter the [domain or host] of your [!DNL Workfront] account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.  
 
 1. Click **[!UICONTROL Allow Access]** to finish logging in.
 1. Go back to [!DNL Adobe Photoshop] to see your work.
