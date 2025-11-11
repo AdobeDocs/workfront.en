@@ -2019,7 +2019,7 @@ feature-set: Workfront
   * [Update initiative priorities in the Scenario Planner](scenario-planner/prioritize-initiatives.md)
   * [Update or create projects by publishing initiatives in the Scenario Planner](scenario-planner/publish-scenarios-update-projects.md)
   * [Overview of reconciling resource allocations between projects and initiatives](scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
-  * [Request access to a plan in the Scenario Planner](scenario-planner/request-access-to-plan.md)
+  * [Request permissions to a plan in the Scenario Planner](scenario-planner/request-access-to-plan.md)
   * [Resolve initiative conflicts in the Scenario Planner](scenario-planner/resolve-conflicts-in-sp.md)
   * [Share a plan in the Scenario Planner](scenario-planner/share-a-plan.md)
   * [Show role allocation for projects and initiatives in the task list](scenario-planner/show-role-allocation-task-list-nwe.md)

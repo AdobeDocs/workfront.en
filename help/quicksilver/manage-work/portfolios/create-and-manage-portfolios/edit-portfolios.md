@@ -144,6 +144,12 @@ You can edit a portfolio in the portfolio page or you can edit portfolios in a l
    * [Custom Forms](#custom-forms)
    * [Comment](#comment)
 
+
+   >[!TIP]
+   >
+   >To recalculate custom fields for several portfolios at a time, select multiple portfolios in a list, and click the **More** menu ![More menu](assets/more-icon.png)  at the top of the list, then **Recalculate Expressions**.
+
+
 ### [!UICONTROL Overview] {#overview}
 
 1. Begin editing a portfolio as described above.
