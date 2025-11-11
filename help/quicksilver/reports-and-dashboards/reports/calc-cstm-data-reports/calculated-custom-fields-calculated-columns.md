@@ -81,8 +81,9 @@ For more information about the syntax you must use in a calculated custom column
 
 * On an object's main page, clicking the More icon ![More icon](assets/more-icon.png), then clicking **Recalculate Expressions**
 
-* Bulk editing multiple objects when **Recalculate Custom Expressions** is enabled
-* Editing a custom form when **Update previous calculations** is enabled for the calculated custom field
+* Bulk editing multiple objects when **Recalculate Custom Expressions** is enabled.
+* Bulk editing multiple objects when clicking **Recalculate Expressions** from the More menu in a list of objects.
+* Editing a custom form when **Update previous calculations** is enabled for the calculated custom field. 
 
 ## When to use calculated columns in a view
 

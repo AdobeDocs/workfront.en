@@ -112,7 +112,7 @@ For more information about access to the [!DNL Scenario Planner] for various lic
 * You cannot view plans that you did not create or that are not shared with you.
 * You can only share a plan with other users. You cannot share plans with groups, teams, or companies.
 * You must first save a plan before you can share it.
-* You can share a URL to a plan with another user. If the user does not have permissions to at least view the plan, they can request access to the plan from another user when they receive the URL. For information about requesting access to a plan, see [Request access to a plan in the [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md). 
+* You can share a URL to a plan with another user. If the user does not have permissions to at least view the plan, they can request access to the plan from another user when they receive the URL. For information about requesting access to a plan, see [Request permissions to a plan in the [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md). 
 * When sharing multiple plans that have already been shared with others, the users you share with do not replace but are added to the existing users on each plan you selected.
 
 ## Plan permission options
