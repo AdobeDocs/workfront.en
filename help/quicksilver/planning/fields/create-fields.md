@@ -404,7 +404,7 @@ You can use a date field to capture additional information in date and time form
         * **Long**: May 16, 2023
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
-        * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you safe the field. 
+     * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field. 
     
         Select from the following options:
         
@@ -671,7 +671,7 @@ You can use the Created date field type to add the date when the record was crea
         * **Long**: May 16, 2023
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
-     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. <!--submitted a UI text change for this - check the UI-->
+     * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field. 
     
         Select from the following options:
         
@@ -720,8 +720,7 @@ You can use the Last modified date field type to add the date when a record was 
         * **Long**: May 16, 2023
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
-     
-     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. <!--submitted a UI text change for this - check the UI-->
+     * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field. 
     
         Select from the following options:
         
@@ -758,7 +757,7 @@ You can use the Approved date field type to add the date when a request was appr
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
      
-     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. 
+     * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field.  
     
         Select from the following options:
         

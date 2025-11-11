@@ -3,7 +3,7 @@ title: Share financial permissions on an object
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: Your Adobe Workfront administrator can grant you access to view or edit financial data when assigning your access level. For more information, see Grant access to financial data.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 ---

@@ -711,6 +711,24 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td> <p>The monetary amount that you must spend when completing a project, task, or issue. </p> <p>You can track various types of costs for labor, expenses, risks that relate to the project.For information about tracking costs in [!DNL Workfront] see <a href="../../../manage-work/projects/project-finances/track-costs.md">Track costs</a>.</p> 
    </td> 
   </tr> 
+  
+  <tr> 
+   <td>[!UICONTROL Cost Performance Index (CPI)]</td> 
+   <td> <p>The [!UICONTROL Cost Performance Index (CPI)] describes the relationship at the project or task level between the planned cost and actual cost. Project Managers review this metric to identify tasks or projects currently tracking under or over cost at a given point. Cost can be measured in hours or dollars, depending on your [!UICONTROL Performance Index Method (PIM)].</p> 
+    <p> For information, see <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-cpi.md">Calculate Cost Performance Index(CPI)</a>.</p>  
+
+   </td> 
+  </tr> 
+
+<tr> 
+   <td>[!UICONTROL Cost Schedule Performance Index (CSI)]</td> 
+   <td> <p>The [!UICONTROL Cost Schedule Performance Index (CSI)] is an automatic calculation which combines the [!UICONTROL Cost Performance Index (CPI)] and [!UICONTROL Schedule Performance Index (SPI)] into one general metric that balances cost and schedule. By multiplying these values together, a single metric can account for a protracted schedule at a lower budget or vice versa. Project managers can use this to determine general project or task health when cost is sacrificed to drive schedule mid-project.</p> 
+    <p> For information, see <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-csi.md">Calculate Cost Schedule Performance Index</a>.</p>
+    </td> 
+  </tr> 
+
+
+  
   <tr> 
    <td>[!UICONTROL Cost Type]</td> 
    <td>For a task, the [!UICONTROL Cost Type] determines how the task will accrue costs. Some examples include [!UICONTROL Fixed Hourly], [!UICONTROL User Hourly], and [!UICONTROL User Hourly plus Fixed]. </td> 
@@ -889,6 +907,21 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>[!UICONTROL Enterprise Goals]</td> 
    <td>Cross-functional goals that contribute to the metrics of the company goals.</td> 
   </tr> 
+
+<tr> 
+   <td>[!UICONTROL Estimate at Completion]</td> 
+   <td><p>As a project performance metric, the Estimate at Completion (EAC) represents the projected total cost of your project or task when it completes.</p>
+   <p>As a project setting, it allows you to define how the EAC value should be calculated.</p>
+   <p>For information, see <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-eac.md">Calculate Estimate At Completion (EAC)</a>. </p>
+   </td> 
+  </tr> 
+
+<tr> 
+   <td>[!UICONTROL Estimated Due Date]</td> 
+   <td>In project, task, and issue reports, the Estimated Due Date is the date by which Workfront estimates that the item is due to complete.</td> 
+  </tr> 
+
+
   <tr> 
    <td>[!UICONTROL Event]</td> 
    <td>Any change in a project or task.</td> 
@@ -1551,7 +1584,14 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL Percent Complete]</td> 
    <td> <p>A project, task, or issue field that shows what percentage of the work associated with the task, project, or issue is completed.</p> <p>You can update this field manually for issues and working tasks. </p> <p>For projects and parent tasks, this field is a roll-up from all the working tasks and you cannot update it manually. </p> <p>For more information, see <a href="../../../manage-work/tasks/task-information/project-percent-complete.md" class="MCXref xref">Project [!UICONTROL Percent Complete] overview</a>.</p> </td> 
   </tr> 
-  <tr> 
+<tr> 
+   <td>[!UICONTROL Performance Index Method (PIM)]</td> 
+   <td> <p>The [!UICONTROL Performance Index Method (PIM)] for the project controls the method Adobe Workfront uses to calculate project performance metrics such as Cost Performance Index (CPI), Cost Schedule Performance Index (CSI), Schedule Performance Index (SPI), and Estimate At Completion (EAC).</p> 
+   <p>Workfront calculates these values using hours or cost.</p>
+   <p>For information, see <a href="/help/quicksilver/manage-work/projects/project-finances/set-pim.md">Set the Performance Index Method (PIM)</a>.</p>
+   </td> 
+  </tr>
+ <tr> 
    <td>[!UICONTROL Permission]</td> 
    <td> <p>Rights that are granted to a user on an object, typically given so they can complete work on the item or view the item. You can grant permissions to:</p> 
     <ul> 
@@ -1601,9 +1641,6 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL Planned Cost]</td> 
    <td> <p>A total of the [!UICONTROL Planned Labor Cost] and the [!UICONTROL Planned Expense Cost] of the project. This does not include the [!UICONTROL Planned Risk Cost] on the project.  </p> </td> 
   </tr> 
-
-
-
   <tr> 
    <td>[!UICONTROL Planned Date Alignment]</td> 
    <td> <p>This is an automatic indicator that Workfront assigns projects, tasks, and issues to show when an item will be completed in relation to its Planned Completion Date. </p>
@@ -2072,6 +2109,13 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL Schedule]</td> 
    <td>The weekly work schedule, including working times, combined with Days off (such as Holidays) and exception days (such as a Saturday work day). Yiu can associate schedules with projects and users.</td> 
+  </tr> 
+<tr> 
+   <td>[!UICONTROL Schedule Performance Index (SPI)]</td> 
+   <td><p>The [!UICONTROL Schedule Performance Index (SPI)] describes the relationship between the planned schedule and actual schedule. Adobe Workfront calculates SPI at the project and task levels. Project managers review this metric to identify whether tasks or projects are currently tracking ahead of or behind schedule.</p>
+  <p>For information, see <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-spi.md">Calculate Schedule Performance Index (SPI)</a>   
+   
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Schedule Exemption]</td> 

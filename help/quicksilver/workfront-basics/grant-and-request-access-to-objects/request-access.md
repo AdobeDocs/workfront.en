@@ -3,7 +3,7 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Request Access to Objects
 description: Your visibility to objects in Adobe Workfront depends on your access to that type of object as well as your permissions on an individual object.
-author: Becky
+author: Courtney
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
 ---

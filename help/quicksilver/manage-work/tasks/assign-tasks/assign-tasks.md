@@ -12,7 +12,8 @@ exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 
 <!--Audited: 10/2025-->
 
-<!--
+<!--remove production/ preview and old/ new experience references at prod-->
+
 <div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
@@ -20,7 +21,6 @@ The highlighted information on this page refers to functionality not yet general
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
 </div> 
--->
 
 You can assign tasks to users, job roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
 
@@ -218,11 +218,7 @@ To assign tasks in a list:
 
 1. After adding your assignees to the task, press Enter or click anywhere on the page to save your changes if you selected Autosave. Otherwise, click **Save**.
 
-## Assign multiple tasks to a user in bulk from a list
-
-<!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
-
-### Assign multiple tasks to a user in the Production environment-->
+## Assign multiple tasks in bulk from a list
 
 1. Go to a list of tasks that you want to assign in bulk. 
 1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
@@ -234,9 +230,20 @@ To assign tasks in a list:
 1. Select several tasks in the tasks list. 
 1. Click **Edit**.
 
-   The **Edit Tasks** dialog box opens.
+   The **Edit Tasks** dialog box opens <span class="preview">in the new experience.</span>
 
-1. In the **Assignments** area, select the **Assignee** box, then start typing the name of a user, job role, or team that you want to assign to all the tasks.
+1. Continue assigning the tasks <span class="preview">using the new experience.</span> 
+
+   <span class="preview">For more information, see the section [Assign multiple tasks in bulk from a list in the new experience](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) in this article.</span> 
+
+1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the **Edit Tasks** box to open the old experience.</span>
+
+   >[!TIP]
+   >
+   >Assigning tasks in the Production environment is available only for the old experience.
+
+
+1. (Conditional) Using the old experience, in the **Assignments** area, select the **Assignee** box, then start typing the name of a user, job role, or team that you want to assign to all the tasks.
 
    >[!IMPORTANT]
    >
@@ -265,10 +272,10 @@ To assign tasks in a list:
 1. Click **Save Changes**.
 1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
 
-<!--
+
 <div class="preview">
 
-### Assign multiple tasks to a user in the Preview environment
+### Assign multiple tasks in bulk from a list in the new experience
 
 1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
 1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
@@ -306,12 +313,10 @@ To assign tasks in a list:
 1. (Optional) If you want to remove existing assignees from all tasks, click the **x** next to their name in the **Search people, roles, or teams** field.
 
 1. Click **Save**.
-1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+1. (Optional and conditional) When the **Assigned to** or the **Assignments** fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
 
 
 </div>
--->
-
 
 
 <!--

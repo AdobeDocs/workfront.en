@@ -2,7 +2,6 @@
 title: Share a portfolio
 description: You can share a portfolio with other users if you have permissions to access it. 
 author: Courtney
-draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
 ---

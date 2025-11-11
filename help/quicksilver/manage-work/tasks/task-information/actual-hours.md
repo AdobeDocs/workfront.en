@@ -87,8 +87,10 @@ Depending on what area of Workfront you access the actual hours from, they could
 
 * In project, tasks, and issue reports and lists: 
 
-  * **Actual Hours**: Hours logged for project, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
-  * **Legacy Actual Hours**: Hours logged for projects, tasks, or issues any time, including before May 2021. They are stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`. 
+  * **Actual Hours**: Hours logged for project, tasks, or issues between May 2021 and today. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
+  * **Legacy Actual Hours**: Hours logged for projects, tasks, or issues any time, between any date before May 2021 and today. They are stored in the Workfront database as minutes and their valuefield is `actualWorkRequired`. 
+
+    Hours logged currently will update both the Actual and the Legacy Actual Hours.
   
     >[!IMPORTANT]
     >
@@ -96,12 +98,14 @@ Depending on what area of Workfront you access the actual hours from, they could
 
 * In the project, task, or issue Details area, actual hours could display in the following fields:
 
-  * **Actual Hours**: In the Details tab, these are hours logged for projects, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
-  * **Actual Hours**: In a project, task, or issue custom form, when they are accessed using a Native field reference custom field that references the Actual Hours native field. These are hours logged for projects, tasks, or issues after May 2021. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
+  * **Actual Hours**: In the Details tab, these are hours logged for projects, tasks, or issues between May 2021 and today. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
+  * **Actual Hours**: In a project, task, or issue custom form, when they are accessed using a Native field reference custom field that references the Actual Hours native field. These are hours logged for projects, tasks, or issues between any date before May 2021 and today. They are stored in the Workfront database in hours and their valuefield is `actualWorkRequiredDouble`.
+
+    Hours logged currently will update both the Actual and the Legacy Actual Hours.
 
 >[!NOTE]
 >
->It is recommended to use the Actual Hours field whenever possible, because the Legacy Actual Hours field could display inaccurate hours due to the way that increments are rounded.
+>It is recommended to use the Actual Hours field whenever possible, because the Legacy Actual Hours field could display inaccurate hours due to the way that increments are rounded when hours are stored in minutes.
 
 ## Actual Hours on tasks and issues vs. Actual Hours on projects
 

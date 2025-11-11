@@ -83,7 +83,7 @@ AI Assistant gives you a quick assessment of a project's overall condition by as
 * At Risk 
 * In Trouble
 
-This state is calculated using the project and program components, such as project progress, underestimated work, and more. For a full list of the components that are used to measure Project Health, see the [Project and program states list](#project-and-program-states-list) section. 
+This state is calculated using project components, such as project progress, underestimated work, and more. For a full list of the components that are used to measure Project Health, see the [Project and program states list](#project-and-program-states-list) section. 
 
 Each project component is assigned a numerical risk score that goes from (0-100), which is then averaged to create the overall Project Health state: 
 
@@ -104,7 +104,7 @@ In the first example, 4 project components are evaluated and their individual ri
 * 1 At Risk (45 risk score) 
 * 1 In Trouble (20 risk score) 
 
-When you average out these scores, the result is 61. Using the Project Health state criteria listed above, this puts this project in the At Risk state. 
+When you average out these scores, the result is 61. Using the Project Health criteria listed above, this puts this project in the At Risk state. 
  
 In the next example, a schedule change of 1 day has occurred early in the project's timeline. In this scenario, AI Assistant evaluates both the timing and impact of the change relative to the project's overall duration: 
 

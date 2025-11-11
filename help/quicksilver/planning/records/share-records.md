@@ -36,6 +36,35 @@ You can share an Adobe Workfront Planning record in the following ways:
 
    * [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
 
+<!--When we release record-level permissions, replace the bullets above with these:
+
+You can share an Adobe Workfront Planning record in the following ways: 
+
+* Copy the link of the record page from your browser when the page is open. 
+
+* Copy a link to the record's page when viewing records in the record type's table view.   
+
+* In the Production environment: 
+
+   * You can share all records in a workspace with other users by sharing the workspace and the record type.
+
+      For more information see the following articles:
+
+      * [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
+
+      * [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
+
+<div class="preview">
+
+* In the Preview environment: 
+
+   * You can share individual records with people, teams, roles, groups, or companies.
+
+</div>
+-->
+
+<!--take out the sentence below when we release record-level sharing-->  
+
 This article describes how you can copy a link to a record's page from the table view of a record type. 
 
 ## Access requirements
