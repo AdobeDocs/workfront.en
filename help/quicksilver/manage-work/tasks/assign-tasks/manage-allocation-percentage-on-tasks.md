@@ -9,7 +9,8 @@ exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
 ---
 # Manage user or role allocation percentage on tasks
 
-<!--
+<!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
+
 <div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
@@ -17,9 +18,11 @@ The highlighted information on this page refers to functionality not yet general
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
 </div> 
--->
+
 
 Allocation percentage represents the amount of time an assigned resource is planned to work on a task in a day. It is the percent of a work day (according to the user or project schedule) at which a resource is allocated throughout the duration of the task.
+
+You can modify the allocation percentage when you make advanced assignments on a task. 
 
 >[!NOTE]
 >
@@ -50,7 +53,7 @@ Allocation percentage represents the amount of time an assigned resource is plan
   <tr> 
    <td>Object permissions</td>
    <td><p>Contribute or higher permissions to the task</p>
-   <p>Edit permissions to update allocation percentage in the Edit Task box</p></td>
+   <p>Edit permissions to update allocation percentage in the Edit Task box when <span class="preview"> editing tasks using the old experience. You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a>.</p></td>
   </tr>
  </tbody>
 </table>
@@ -60,9 +63,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 +++
 
 <!--
-Change this sentence in the table when unshimmming assignments on Edit task:
-<p>Edit permissions to update allocation percentage in the Edit Task box</p>
-To this:
+Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+
 <p>Edit permissions to update allocation percentage in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
 -->
 
@@ -79,11 +81,7 @@ To this:
 ## Modify the user or role percent allocation for a task
 
 1. Go to a task for whose resources you are changing the percent allocation.
-1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the task, then click **Edit**.
-
-   Or
-
-   Click the **Assignments** area in the task header, then click&nbsp;**Advanced**.
+1. Click the **Assignments** area in the task header, then click **Advanced**.
 
 1. Ensure that the **Duration Type** of the task is one of the following:
 
@@ -95,7 +93,7 @@ To this:
    >* For the Calculated Assignment Duration Type, Workfront uses the following formula to calculate the allocation percentage of each assignee: `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
    >* For the Simple Duration Type, you can estimate the hours assigned to each resource, not the allocation percentage. 
 
-1. Click **Assignments**, then modify the **Allocations** for each task assignee.
+1. Modify the **Allocations** field for each task assignee.
 
    You can only modify the allocation percentage for user and job role assignments.
 

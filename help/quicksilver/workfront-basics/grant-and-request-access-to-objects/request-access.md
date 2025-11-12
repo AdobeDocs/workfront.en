@@ -3,7 +3,7 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Request Access to Objects
 description: Your visibility to objects in Adobe Workfront depends on your access to that type of object as well as your permissions on an individual object.
-author: Becky
+author: Courtney
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
 ---
@@ -17,7 +17,7 @@ Your visibility to objects in Adobe Workfront depends on your access to that typ
 >
 >This article describes how you can request permissions to all objects except for the following:
 >
->* Scenario Planner plans in the Adobe Workfront Scenario Planner. For more information, see [Request access to a plan in the Scenario Planner](../../scenario-planner/request-access-to-plan.md). This requires an additional license.
+>* Scenario Planner plans in the Adobe Workfront Scenario Planner. For more information, see [Request permissions to a plan in the Scenario Planner](../../scenario-planner/request-access-to-plan.md). This requires an additional license.
 >
 >* Views and workspaces in Workfront Planning. For more information, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). This requires an additional license. 
 

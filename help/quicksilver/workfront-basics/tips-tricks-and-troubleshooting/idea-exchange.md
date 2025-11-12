@@ -4,6 +4,7 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: The Innovation Lab
 description: The [!UICONTROL Innovation Lab] enables authenticated users to submit, vote on, and discuss ideas with fellow customers.
 feature: Get Started with Workfront
+author: Becky
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
 ---
 # The Innovation Lab

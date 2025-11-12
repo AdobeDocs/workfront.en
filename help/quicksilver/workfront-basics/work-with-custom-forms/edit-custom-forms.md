@@ -91,27 +91,20 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Edit information on a custom form
 
-Editing information on a custom form attached to an object is identical for all objects. For information about what objects can have a custom form, see [Custom forms overview](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+Editing information on a custom form attached to an object is similar for most objects. 
 
-1. Go to an object for which you want to edit information on the custom form.
-1. Click **`<Object type>` Details** in the left panel.
+For information about what objects can have a custom form, see [Custom forms overview](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
-   For example, when editing information on a project custom form, click **Project Details**. 
+1. Go to any list of objects for which you want to edit information on the custom form, except for a list of iterations.
+1. Select one or several objects in the list, then click the **Edit** icon  ![Edit icon](assets/edit-icon.png) at the top of the list.
+1. Click **Custom Forms** in the left panel, inside the **Edit < object >** box. 
 
-1. Scroll to the custom form. When there is a custom form attached to the object, the name of the form displays as an area in the Details section.
-1. If necessary, click the arrow ![](assets/expand-arrow-right.png) to the left of the name of the custom form to expand it.
-1. Near the upper-right corner of the page, click the Edit icon ![](assets/edit-icon.png).
+   When there is a custom form attached to the object, the name of the form displays as an area in the **Custom Forms** section.
 1. Start entering information in any field that you have access to.
 
-   ![](assets/click-in-field-to-edit-info-350x132.png)
+   ![Edit box with custom forms on Billing Record](assets/edit-box-with-custom-forms-on-billing-record.png)
 
-   Or
-
-   If no information has been entered yet on the form, click **Add+** for any field you have access to and start entering information.
-
-   ![](assets/plus-add-to-edit-info-350x180.png)
-
-   If multiple custom forms are attached to the object, you can do this for every form.
+   If multiple custom forms are attached to the object, do this for every form.
 
    Depending on the type of field you are working in, consider the following:
 
@@ -127,7 +120,7 @@ Editing information on a custom form attached to an object is identical for all 
 
    For information about all of the field types, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Click **Save Changes**.
+1. Click **Save**.
 
    >[!IMPORTANT]
    >
@@ -141,19 +134,50 @@ Editing information on a custom form attached to an object is identical for all 
 
    You can also manually update all calculated custom fields for an object when you bulk-edit the object along with other objects in a list. For instructions, see [Recalculate all calculated custom fields for multiple objects in a list when editing the objects](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) in this article.
 
-## Recalculate all calculated custom fields for an object  {#recalculate-all-calculated-custom-fields-for-an-object}
+1. (Conditional) To update the custom fields for an iteration custom form, fo the following:
+
+   1. Go to an iteration. 
+   1. Click **Custom Forms** in the left panel. 
+   1. To add custom forms, start typing the name of a form in the **Add custom form** field in the upper-right corner of the page
+
+      Or
+
+      Click the **Edit** icon in the same area to start editing the fields on the attached forms.
+
+      ![Edit iteration custom form](assets/edit-iteration-custom-form.png)
+
+   1. Click **Save Changes**. 
+
+## Recalculate custom fields for objects
+
+Periodically, depending on changes that might occur to custom forms, or on changes that occur on fields referenced in custom fields, the values of calculated custom fields might be outdated. In this case, you might need to recalculate custom fields, or recalculate the custom expressions for objects. 
+
+The following sections describe how you can recalculate custom expressions for objects with custom forms. 
+
+>[!NOTE]
+>
+>You cannot recalculate custom expressions for groups.
+
+### Recalculate all calculated custom fields from an object's page 
 
 >[!IMPORTANT]
 >
 >You must have a custom form with calculated fields attached to the object before you can follow the steps in this section.
 
+1. Go to the main page of one of the following objects whose custom fields you want to recalculate:
 
-1. Go to the main page of the object whose custom fields you want to recalculate. 
+   * Project
+   * Task
+   * Issue
+   * Portfolio
+   * Program
+   * Document
+
 1. Click the **More** menu ![](assets/more-icon.png) to the right of the object's name, then click **Recalculate Expressions**.
 
    This recalculates all custom fields on the object's form.
 
-## Recalculate all calculated custom fields for multiple objects in a list when editing the objects {#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects}
+### Recalculate all calculated custom fields for multiple objects in a list when editing the objects {#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
@@ -166,17 +190,29 @@ Depending on what objects you want to recalculate the custom expressions for, yo
 
 To manually recalculate the custom fields of several objects by editing them in bulk from a list or report:
 
-1. Go to a list of objects that contain custom forms with calculated fields.
+1. Go to a list of the following object types whose objects contain custom forms with calculated fields:
+
+   * Users
+   * Companies
+   * Billing Records
+
 1. Select the objects whose calculated custom fields you want to update.
 1. Click  the **Edit icon**.
 1. Click **Custom Forms** in the left menu, then select **Recalculate Custom Expressions**. 
-1. Click **Save** **Changes**.
+1. Click **Save** or **Save Changes**.
 
    Workfront calculates all custom fields for all the selected objects.
 
 To recalculate custom expressions from a list of objects:
 
-1. Go to a project list or report and select one or several projects.
+1. Go to a project list or report and select one or several of the following object types:
+
+   * Projects
+   * Tasks
+   * Issues
+   * Portfolios
+   * Programs
+   * Expenses
 1. Click the **More** menu ![](assets/more-icon.png), then click **Recalculate Custom Expressions**. 
 
 ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
@@ -186,5 +222,7 @@ Not all lists of all objects have this capability.
 
 >[!NOTE]
 >
->Depending on the complexity of your projects, we recommend not to select a large number of projects when recalculating calculated custom fields in bulk to ensure optimum performance. Some things that could make a project too complex might be multiple dependencies or assignments or a large number of custom fields.
+>When recalculating expressions for multiple projects, depending on their complexity, we recommend not to select too large a number of projects to ensure optimum performance. 
+>
+>Some things that could make a project too complex might be multiple dependencies or assignments or a large number of custom fields.
 
