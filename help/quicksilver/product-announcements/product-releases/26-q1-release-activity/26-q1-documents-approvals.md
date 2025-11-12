@@ -12,6 +12,18 @@ This page describes Document and approval enhancements made with the First Quart
 
 For a list of all changes available at this point in the First Quarter 2026 release cycle, see [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Cross-organization support for Adobe Express with Workfront Proofing
+
+>[!NOTE]
+>
+>Preview: November 13, 2025 
+>Production fast release: November 13, 2025  
+>Production for everyone: November 13, 2025  
+
+We're introducing cross-organization support for Adobe Express with Workfront Proofing. This enhancement allows customers who operate across multiple IMS organizations to seamlessly use and manage proofing workflows.
+
+For more information, see [Get started with the Adobe Express and Workfront Proof integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
+
 
 ## Adobe Experience Manager now available with the Frame.io integration 
 

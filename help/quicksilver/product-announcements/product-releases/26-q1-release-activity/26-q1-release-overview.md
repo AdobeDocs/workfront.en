@@ -80,6 +80,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Cross-organization support for Adobe Express with Workfront Proofing<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>We're introducing cross-organization support for Adobe Express with Workfront Proofing. This enhancement allows customers who operate across multiple IMS organizations to seamlessly use and manage proofing workflows.</p>
+        </td>
+        <td>November 13, 2025</td>
+        <td>November 13, 2025</td>
+        <td>November 13, 2025</td>
+    </tr>   
+     <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager now available with the Frame.io integration <p>[!BADGE Off schedule]{type=Neutral}</p> </a>
             <p>Now, you can use the Experience Manager Assets​ to manage and store your digital assets that have gone through the review and approval cycle. This integration allows you to leverage the capabilities of Adobe Experience Manager, Frame.io, and Workfront to streamline your content management and collaboration processes. </p>
         </td>
@@ -197,6 +206,12 @@ This update is for both Mac and Windows.
 ### API version 21
 
 Workfront API version 21 was released on October 23, 2025. For API version 21, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
+
+>[!IMPORTANT]
+>
+>This API version change features a breaking change that may affect your existing API calls. This is due to the fact that API version 21 uses Event Subscriptions version 2.
+>
+> For multi-select fields, Event Subsscriptions version 2 always sends as an array. Version 1 sent an array if more than one value selected. If only one value was selected, it sent a string.
 
 For information on what's new and updated, see [What's new in API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md).
 
