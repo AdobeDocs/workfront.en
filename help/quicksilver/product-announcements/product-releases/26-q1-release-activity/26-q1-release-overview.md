@@ -80,6 +80,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Cross-organization support for Adobe Express with Workfront Proofing<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>We're introducing cross-organization support for Adobe Express with Workfront Proofing. This enhancement allows customers who operate across multiple IMS organizations to seamlessly use and manage proofing workflows.</p>
+        </td>
+        <td>November 13, 2025</td>
+        <td>November 13, 2025</td>
+        <td>November 13, 2025</td>
+    </tr>   
+     <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager now available with the Frame.io integration <p>[!BADGE Off schedule]{type=Neutral}</p> </a>
             <p>Now, you can use the Experience Manager Assets​ to manage and store your digital assets that have gone through the review and approval cycle. This integration allows you to leverage the capabilities of Adobe Experience Manager, Frame.io, and Workfront to streamline your content management and collaboration processes. </p>
         </td>
