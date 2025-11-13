@@ -33,6 +33,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [Administrator enhancements](#administrator-enhancements)
 * [Document and approvals enhancements](#documents-and-approvals-enhancements)
+* [Integration enhancements](#integration-enhancements)
+* [Reporting enhancements](#reporting-enhancements)
 * [Other enhancements](#other-enhancements)
 
 ### Administrator enhancements
@@ -127,6 +129,69 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>October 30, 2025</td>
         <td>October 30, 2025</td>
         <td>October 30, 2025</td>
+    </tr>   
+  </tbody>
+</table> 
+
+### Reporting enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicate a report in a Canvas Dashboard</a><p>![BADGE Off schedule]{type=Neutral}</p>
+            <p>You can now duplicate a KPI, table, or chart report in a Canvas Dashboard after it's been created. Once duplicated, you can edit the report as needed before saving.</p>
+        </td>
+        <td>October 23, 2025</td>
+        <td>October 23, 2025</td>
+        <td>October 23, 2025</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Removing field options from report filters</a>
+            <p>We have removed the following field options that were previously available when applying a filter to a report:
+            <ul>
+            <li>Other Groups IDs</li>
+            <li>Other Roles IDs</li>
+            <li>Other Teams IDs</li>
+            </ul>
+            </p>
+        </td>
+        <td>November 6, 2025</td>
+        <td>November 13, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Improved display of grouping count in Canvas Dashboards</a>
+            <p>When a table report has multiple pages of results and the table is configured with groupings, the table now displays both the record amount for the current page and the overall record count for all pages. For example, if your table report has 7 groupings and the first page shows 3, the table will display 3 of 7.</p>
+        </td>
+       <td>November 6, 2025</td>
+        <td>November 13, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">New guardrails to improve loading times in Canvas Dashboards</a>
+            <p>To avoid loading time delays and improve overall performance in Canvas Dashboards, we have applied limits on how many dashboard components can be added to a dashboard:
+            <ul>
+            <li>Reports per dashboard: 25 limit</li>
+            <li>Groupings on table views: 5 limit</li>
+            <li>Distance from the report's base object: 10 limit</li>
+            <li>Columns on a table view: 25 limit</li>
+            <li>Dashboard-level filter prompts: 10 limit</li>
+            </ul></p>
+        </td>
+       <td>November 6, 2025</td>
+        <td>November 13, 2025</td>
+        <td>January 15, 2026</td>
     </tr>   
   </tbody>
 </table> 
