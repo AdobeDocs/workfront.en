@@ -146,10 +146,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Fourth Quarter 2025 release timeframe</a>
-                        <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Fourth Quarter 2025 release timeframe. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the First Quarter 2026 release timeframe</a>
+                        <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the First Quarter 2026 release timeframe. </p>
                     </td>
-                    <td><p>Throughout the Fourth Quarter 2025 release timeframe<br /></p>
+                    <td><p>Throughout the First Quarter 2026 release timeframe<br /></p>
                     <td colspan="2"><p>Fast release: A minimum of 1 week after releasing to Preview (unless otherwise specified)</p>
                             </li>
                         </ul>
