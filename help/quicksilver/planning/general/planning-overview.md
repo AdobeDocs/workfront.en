@@ -273,6 +273,12 @@ The following are the main Workfront Planning objects and concepts:
         You must have an Adobe Experience Manager license to connect record types with Experience Manager objects.
 
         ![New connection tab with Workfront AEM options](assets/new-connection-tab-with-workfront-aem-options.png)
+    
+    * A record type and an Adobe GenStudio for Performance Marketing Brand. 
+
+        You must have an Adobe GenStudio for Performance Marketing license to connect record types with GenStudio Brands. 
+
+        ![New connection tab with Adobe GenStudio Brand option](assets/new-connection-tab-with-genstudio-option.png)
 
 
     After you establish a connection between the record types, you can connect individual records or objects of those types to one another. The connection between the records displays as a connected record field, or a connection.

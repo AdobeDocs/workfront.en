@@ -128,8 +128,8 @@ For more information about Workfront access requirements, see [Access requiremen
 * Empty sheets are not supported. 
 * Fields of the following types are not supported and cannot be mapped to fields on the import sheet:
 
-    * Connection fields to Workfront and AEM Assets object types.
-    * Lookup fields from connected Planning records or Workfront and AEM Assets objects
+    * Connection fields to Workfront, AEM Assets object types, or GenStudio Brands.
+    * Lookup fields from connected Planning records, Workfront, AEM Assets objects or GenStudio Brands.
     * Formula fields
     * Created date, Created by
     * Last modified date, Last modified by
@@ -184,7 +184,7 @@ To import record types using an Excel or CSV file:
 
     >[!TIP]
     >
-    >You can only map to fields from Workfront Planning connected records. You cannot map to fields from Workfront or AEM Assets connections. For more information, see the section [Considerations about importing record types using an Excel or CSV file](#considerations-about-importing-record-types-using-an-excel-or-csv-file) in this article.
+    >You can only map to fields from Workfront Planning connected records. You cannot map to fields from Workfront, AEM Assets, or GenStudio Brands connections. For more information, see the section [Considerations about importing record types using an Excel or CSV file](#considerations-about-importing-record-types-using-an-excel-or-csv-file) in this article.
 
 1. (Conditional) After updating information about the field, click **Save**.
 

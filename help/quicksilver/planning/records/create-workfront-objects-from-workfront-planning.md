@@ -82,14 +82,7 @@ For information about connecting Planning records with Workfront objects, see [C
 <p>Any Workfront and any Planning package</p> <p>Any Workflow and any Planning package</p>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
-<tr> 
-<td> 
-   <p> Additional products</p> </td> 
-   <td> 
-    <p>In addition to Adobe Workfront, you must have an Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront, to connect AEM assets with Planning records.</p>
-    <p>For information, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p>
-   </td> 
-  </tr>   
+
 <tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
