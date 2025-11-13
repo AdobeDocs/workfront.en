@@ -220,7 +220,7 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
         * Workfront Planning connection fields.  
         * People fields. Only fields with one value are supported. 
 
-        You cannot copy information from an external source and paste it in any other field types, including Workfront or AEM Assets connection fields.
+        You cannot copy information from an external source and paste it in any other field types, including Workfront or other applications' connections fields.
 
     >[!NOTE]
     >

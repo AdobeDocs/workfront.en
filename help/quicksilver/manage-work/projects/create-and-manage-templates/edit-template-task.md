@@ -14,13 +14,13 @@ exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 
 <!--take out production and preview references and new/ old experiences at release-->
 
-<div class="preview"> 
+<!--<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> 
+</div> -->
 
 After creating a template, you can edit the information of the template tasks. The information you update on a template task is associated with project tasks after you use the template to create a project or you attach the template to a project.
 
@@ -132,15 +132,21 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 1. (Optional) To edit several template tasks in bulk, select multiple template tasks, then click **Edit** at the top of the template list.
 1. (Conditional) To edit all information about the template task or about several tasks at the same time, click to select them from a list, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) at the top of the list.
 
-   The **Edit Template Task** box displays.
+   The **Edit Template Task** box displays in the new experience.
+
+   ![New experience for Edit Template Task](assets/edit-template-task-box-unshimmed.png)
 
    >[!TIP]
    >
    >You can also select a template task in a list, then click **Edit** to the right of the template task name in the header, to open the **Edit Template Task** box.
 
+   Continue editing the template task as described in the [Edit a template task using the new experience](#edit-a-template-task-using-the-new-experience) section in this article.
+   
+1. (Optional) Click **Switch back to old experience** at the bottom of the **Edit Template Task** box to open the **Edit Template Task** box in the old experience. 
+
    ![Edit template task](assets/edit-template-tasks-box-classic-350x356.png)
 
-1. (Conditional) In the Production environment, consider specifying information in any of the following sections:
+1. Consider specifying information in any of the following sections:
 
    * [Overview](#overview)
    * [Finance](#finance)
@@ -150,9 +156,6 @@ You can edit a template task using the Edit Template Task or Template Task Detai
    * [Comment](#comment)
 
 1. Continue editing the template task as described in the [Edit a template task using the old experience](#edit-a-template-task-using-the-old-experience) section in this article.
-
-1. <span class="preview">(Conditional) In the Preview environment, the Edit Template Task box opens in the new experience. Continue editing the template task as described in the [Edit a template task using the new experience](#edit-a-template-task-using-the-new-experience) section in this article.</span>
-1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the **Edit Template Task** box to open the **Edit Template Task** box in the old experience. Continue editing the template task as described in the [Edit a template task using the old experience](#edit-a-template-task-using-the-old-experience) section in this article.</span>
 
 ### Edit a template task using the old experience
 
@@ -432,8 +435,6 @@ You can also add custom forms to the future tasks of a project when the project 
 1. Click **Save Changes**.
 
    When you or another user creates a project from this template, all settings you applied to template tasks become the settings for the project tasks.
-
-<div class="preview"> 
 
 ### Edit a template task using the new experience
 
@@ -761,4 +762,3 @@ You can also add custom forms to the future tasks of a project when the project 
 
    When you or another user creates a project from this template, all settings you applied to template tasks become the settings for the project tasks.
 
-</div>

@@ -557,6 +557,8 @@ You can display connected records in a record's timeline view by using the Break
     For example, tasks, are connected to projects in Workfront. Using the Breakdown feature, you can display projects that are connected to campaigns in Planning, but not tasks connected to projects in Workfront. 
 
     If you want to display both portfolios and projects in the timeline view of a Workfront Planning record type, both the portfolios and the projects must be connected to the Planning record or to a record connected to the Planning record whose timeline view you are managing.
+* You cannot display Adobe GenStudio Brands connected to Planning record types. 
+    For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 * You can only display record types that are associated with at least two date fields. 
 * The date fields for the record types you want to display in the timeline view must be visible in the table view of the selected record type, as lookup fields. 
 * The Start and End dates of the record types you want to display in the timeline view must by in chronological order. For example, if a record has a Start date of January 31 and an End date of January 1, it does not display in the timeline view. For more information, see the section [Manage a timeline view](#manage-a-timeline-view) in this article. 
