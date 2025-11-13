@@ -125,13 +125,15 @@ To build the calculated custom field that references the multi-select custom fie
 
 ### Build a chart that references a calculated custom field {#build-a-chart-that-references-a-calculated-custom-field}
 
-1. (Optional) To ensure that all the calculated fields that you want to chart by are populated with values, from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
-1. (Optional and conditional) Select the **Recalculate Custom Expressions** field, then click **Save Changes**.  
-   ![Recalculate custom expressions](assets/recalculate-custom-expressions-350x259.png) 
+1. (Optional) To ensure that all the calculated fields that you want to chart by are populated with values, you must recalculate the custom expressions on all the objects in your report. 
+   For information about recalculating expressions, see [Edit information in custom fields](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md). 
 
+   <!--from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
+   1. (Optional and conditional) Select the **Recalculate Custom Expressions** field, then click **Save Changes**.  
+   ![Recalculate custom expressions](assets/recalculate-custom-expressions-350x259.png) 
    >[!NOTE]
    >
-   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![More icon](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**. 
+   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![More icon](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**. -->
 
 1. Go to the report where you want to add the chart for the calculated field that references the multi-select custom field. 
 1. Click **Report Actions**, then **Edit**. 

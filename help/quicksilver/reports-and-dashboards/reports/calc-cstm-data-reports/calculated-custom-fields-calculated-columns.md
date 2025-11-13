@@ -85,6 +85,8 @@ For more information about the syntax you must use in a calculated custom column
 * Bulk editing multiple objects when clicking **Recalculate Expressions** from the More menu in a list of objects.
 * Editing a custom form when **Update previous calculations** is enabled for the calculated custom field. 
 
+For more information, see [Edit information in custom form fields](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+
 ## When to use calculated columns in a view
 
 * When you want real-time data to be available on a report.
