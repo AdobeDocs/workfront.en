@@ -58,11 +58,17 @@ Consider the following about connecting record types:
         * Images
         * Folders
 
+    * Adobe GenStudio for Performance Marketing
+
+        * Brands
+
         >[!IMPORTANT]
         >
-        >You must have an Adobe Experience Manager Assets license, and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to connect Workfront Planning records to Adobe Experience Manager Assets.
-        >
-        >If you have questions about onboarding to the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+        >You must have have the following to connect with Adobe Experience Manager Assets and GenStudio Brands:
+        >* An Adobe Experience Manager Assets license
+        >* An Adobe GenStudio for Performance Marketing license
+        >* Your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to connect Workfront Planning records to Adobe Experience Manager Assets.
+        >For information about the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * After you create records for record types, you can link them to each other through the connected record field.  
 
@@ -88,6 +94,7 @@ Consider the following about connecting record types:
         * Planning records are visible from the Workfront object's Planning tab. For information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
         * You can create a Planning connection custom field and attach it to a Workfront object's custom form. For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
         * Planning record fields are accessible from Experience Manager assets when your Workfront administrator configures the metadata mapping through the integration between Workfront and Adobe Experience Manager Assets. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+        * Planning record fields are not accessible from the Brands in GenStudio for Performance Marketing. 
         
 
     * **When you add lookup fields from the record or object you connect to**: In addition to creating a linked record field, you can also connect to fields from the connected record or object type which are called lookup fields. A linked (or lookup field) with information from the record you're connecting to displays on the record that you're connecting from.
@@ -121,11 +128,13 @@ After you establish a connection between two record types or between a record an
 
 >[!WARNING]
 >
->These options are not available when connecting the following: 
+>The options described in this section are not available when connecting the following: 
 >
 >* Two records from different workspaces
 >
 >* A record type and Experience Manager assets
+>
+>* A record type and an Adobe GenStudio Brand
 
 You can choose whether you want to connect one record to multiple records at a time, or one record at a time to each other. 
 
