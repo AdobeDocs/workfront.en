@@ -159,7 +159,6 @@ When a [!DNL Workfront] administrator assigns a group to a company, the group ad
 
 With this access to the [!UICONTROL Companies] page, a group administrator can assign a group to a company, but it must be a company that the group administrator created. If the group administrator's access level is not configured with administrative access to companies, the [!UICONTROL Group] field is required when the group administrator creates the company—the asterisk indicates this:
 
-Sample image in the Preview environment:
 ![New company dialog with group required](assets/group-admin-add-company-group-required.png)
 
 For information about how users gain administrative access to companies in their access level, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
