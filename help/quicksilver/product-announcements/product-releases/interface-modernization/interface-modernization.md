@@ -18,6 +18,23 @@ For all other changes to Adobe Workfront, see [Product releases](/help/quicksilv
 
 ## Admin and Setup
 
+### Updates to dialog when deleting an item that is in use
+
+**Preview release: November 13, 2025; Production release: November 20, 2025**
+
+The following objects now have an updated dialog when deleting an item that is in use:
+
+* Access levels
+* Companies
+* Expense Type
+* Group / Timesheet Profiles
+* Hour Type
+* Risk Type
+* Schedule
+* Timesheet Profile
+
+The new dialog is now consistent with other areas of Workfront. There is no change to functionality.
+
 ### Interface updates for the Add and Edit Companies dialogs
 
 **Preview release: October 23, 2025; Production release: Starting the week of November 6, 2025**
@@ -125,9 +142,8 @@ For information, see [Create and edit risks on projects](/help/quicksilver/manag
 
 ### Interface updates for personal time off
 
-**Preview release: October 23, 2025; Production release for all customers: Starting the week of October 30, 2025**
+**Preview release: October 23, 2025; Production release for all customers: Starting the week of November 13, 2025**
 
-<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. It was released to Preview again on Oct 23 and Prod rollout started Oct 30. Then it was removed from Prod again on Nov 4. -->
 
 >[!NOTE]
 >
@@ -470,7 +486,7 @@ For information, see [Create Queue Topics](/help/quicksilver/manage-work/request
 
 >[!NOTE]
 >
->This feature has been temporarily removed from the Preview and Production environments on October 15, 2025.
+>This feature was temporarily removed from both Preview and Production on October 15. It is available in Preview and available in Production in a phased roll-out starting on November 13, 2025.
 
 We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
 

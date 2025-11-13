@@ -16,6 +16,18 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Connect GenStudio for Performance Marketing Brands with Workfront Planning record types
+
+>[!NOTE]
+>
+>Preview: November 13, 2025 
+>Production fast release: November 13, 2025 
+>Production for everyone:  November 13, 2026 
+
+You can now connect Workfront Planning record types with Brands from Adobe GenStudio for Performance Marketing. Your organization must have both Workfront Planning and Adobe GenStudio for Performance Marketing.  
+
+For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+
 
 ## New field search box in the Filters, Fields, and Row colors icons in Planning views
 

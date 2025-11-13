@@ -46,6 +46,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Entry date and Entered by ID stored on custom objects</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>The entry date and entered by ID are now stored on custom forms, fields, and sections. You can use these data options in reports as filters, views, or groupings. To display them in the list of custom forms, fields, or sections in Setup, add Entry Date and Entered By: Name as columns in a new or existing view.</p>
+        </td>
+        <td>November 13, 2025</td>
+        <td>November 13, 2025</td>
+        <td>November 13, 2025</td>
+    </tr>  
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updates to button names when editing a layout template</a>

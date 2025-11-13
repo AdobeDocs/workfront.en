@@ -85,6 +85,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. (Optional) To edit or delete companies, select at least one company, then use the toolbar buttons to edit ![Edit icon](assets/edit-icon.png) or delete ![Delete icon](assets/delete.png) it.
 
+   >[!NOTE]
+   >
+   >If you are deleting a company, and the company is set as a Primary company or is in use in another object, you are prompted to choose another company to replace the one you are deleting. The company you select becomes the Primary company, or replaces the deleted company on the objects the company is assigned to.
+
    For information about editing a company, see the section [Create or edit a company in Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) in the article [Create and edit companies](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 1. (Optional) To export the list of companies, click the Export icon ![Export icon](assets/export.png), then select the file format you want for the exported list.
