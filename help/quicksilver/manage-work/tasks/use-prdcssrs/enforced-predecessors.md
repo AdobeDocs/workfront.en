@@ -9,7 +9,7 @@ exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
 ---
 # Enforce predecessors
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 Predecessors are tasks on which other tasks are dependent for completion. Predecessor relationships affect the Start and Completion Dates of the tasks and ultimately impact the timeline of the project.
 
@@ -113,4 +113,6 @@ For more information, see [Access requirements in Workfront documentation](/help
 1. In the **Predecessors** column, start entering the number of the predecessor task followed by "e". For example, type "1e" to add task number 1 as a predecessor to the selected task. 
 1. Click Enter to save your predecessor information for the task.
 
-   ![predecessor_enforced_in_list.png](assets/predecessor-enforced-in-list-350x308.png)
+   ![Predecessor enforced list](assets/predecessor-enforced-in-list-350x308.png)
+
+   The information about the predecessor being enforced is immediately saved.
