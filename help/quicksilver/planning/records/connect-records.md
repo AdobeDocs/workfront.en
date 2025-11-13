@@ -78,8 +78,11 @@ You can connect the following:
 <td> 
    <p> Additional products</p> </td> 
    <td> 
-    <p>In addition to Adobe Workfront, you must have an Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront, to connect AEM assets with Planning records.</p>
-    <p>For information, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p>
+   <p> In addition to Adobe Workfront, you must have the following, if you want to connect records with objects from the following applications:</p>
+   <ul><li><p>An Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront to connect AEM assets with Planning types.</p>
+   <p>For information, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
+   <li><p> An Adobe GenStudio for Performance Marketing license to connect record types with GenStudio Brands</p>
+   <p>For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Get started with Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>   
 <tr> 

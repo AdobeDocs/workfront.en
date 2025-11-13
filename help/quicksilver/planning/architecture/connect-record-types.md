@@ -79,8 +79,11 @@ For an example of connecting record types and records, see [Example of connectin
 <td> 
    <p> Additional products</p> </td> 
    <td> 
-   <p> In addition to Adobe Workfront, you must have an Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront to connect AEM assets with Planning record types.<p>
-    For information, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p>
+   <p> In addition to Adobe Workfront, you must have the following, if you want to connect record types with objects from the following applications:</p>
+   <ul><li><p>An Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront to connect AEM assets with Planning record types.</p>
+   <p>For information, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p></li>
+   <li><p> An Adobe GenStudio for Performance Marketing license to connect record types with GenStudio Brands</p>
+   <p>For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Get started with Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -219,6 +222,10 @@ For an example of connecting record types and records, see [Example of connectin
 
         A New connection tab opens for your selected record or object type. 
 
+    * A **Brand** from Adobe GenStudio for Performance Marketing from the **Adobe GenStudio** section
+
+        ![GenStudio Brand connection selection](assets/brand-genstudio-connection-selection.png)
+
 1. Update the **Name** field with the name of the new connected field, as it will appear in the table view or the record page of the original record type. This creates the connected record column (or field) in the table view of the original record type. By default, the name of the field is the name of the record or object you connect to. 
 
     >[!TIP]
@@ -226,7 +233,7 @@ For an example of connecting record types and records, see [Example of connectin
     >You can have multiple connections to the same record or object type. If you do not edit the connected field name, Workfront adds a numeral after the name of the connected record, to indicate the number of connected record types by the same name. 
 
 1. Update the **Description** field by adding information about the connected record field. The description of a field displays when you hover over the field's column in a table. 
-1. (Conditional) When you connect record types from two different workspaces or a record and an Adobe Experience Manager asset object, select the **Allow multiple records**. By selecting it, you indicate that you allow users to add multiple records when the connected record type field displays on the original records. This is selected by default.  
+1. (Conditional) When you connect record types from two different workspaces, a record type and an Adobe Experience Manager asset object, or a record type and a GenStudio Brand select the **Allow multiple records**. By selecting it, you indicate that you allow users to add multiple records when the connected record type field displays on the original records. This is selected by default.  
     
     ![New connection to record type from another workspace](assets/new-connection-allow-multiple-records-box.png)
     
@@ -268,7 +275,7 @@ For an example of connecting record types and records, see [Example of connectin
     >Your Workfront administrator can map Workfront Planning fields to Experience Manager Assets fields through the Metadata mapping in Workfront. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). 
 
 
-1. (Conditional) When you select to connect to Experience Manager Assets or to a Workfront Planning record type, choose one of the following options in the **Record appearance** area:
+1. (Conditional) When you select to connect to Experience Manager Assets, to a Workfront Planning record type, or to a GenStudio Brand, choose one of the following options in the **Record appearance** area:
 
     * **Name and image**: Both the name and the thumbnail or icon of the connected records will display in the connected record field. This is the default option. 
     * **Name**: Only the name of the connected records will display in the connected record field.
@@ -343,7 +350,10 @@ For an example of connecting record types and records, see [Example of connectin
 
     >[!NOTE]
     >
-    > Aggregators are not available when connecting record types to Experience Manager Assets.  
+    > Aggregators are not available when connecting record types to the following: 
+    >* Experience Manager Assets
+    >* GenStudio Brands.
+    >
 
     Select from the following:
 
