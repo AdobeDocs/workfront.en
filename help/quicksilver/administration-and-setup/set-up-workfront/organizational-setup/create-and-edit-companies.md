@@ -141,6 +141,18 @@ To add or edit a company:
 
    If you are editing an existing company, click **[!UICONTROL Save Changes]** <span class="preview">or **Save**.</span>
 
+## Delete companies
+
+{{step-1-to-setup}}
+
+1. Click **[!UICONTROL Companies]**.
+
+   A list of companies displays.
+
+1. Click the checkbox next to the company you want to delete, then click the Delete icon ![Delete icon](assets/delete-icon.png) near the top of the page.
+1. If you are deleting a company that is set as a Primary company or is in use in another object, select a company to replace the one you are deleting. The company you select becomes the Primary company, or replaces the deleted company on the objects the company is assigned to.
+1. Click **Delete**.
+
 ## Manage company memberships
 
 For information about managing memberships for an existing company, see [Manage company memberships](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
