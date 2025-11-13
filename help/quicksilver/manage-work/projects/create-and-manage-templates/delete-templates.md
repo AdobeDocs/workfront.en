@@ -83,12 +83,12 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 {{step1-to-templates}}
 
-This opens a list of templates
+   This opens a list of templates
 
 1. Select the template that you want to delete by clicking the checkbox to the left of the template name, then click **Delete > Yes, Delete It** to confirm the deletion.
 
    Or
 
-   Click the name of a template to access it, then click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) , then **Delete Template > Yes, Delete it**.
+   Click the name of a template to access it, then click the **More** menu ![More icon](assets/more-icon.png), then **Delete Template > Yes, Delete it**.
 
    The template is no longer available to be associated with a project.

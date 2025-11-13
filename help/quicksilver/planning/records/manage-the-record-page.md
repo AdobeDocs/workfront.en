@@ -356,9 +356,9 @@ To add a Connected records page:
 
       For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
-         >[!TIP]
-         >
-         >You can select more than one record or object to delete them.
+      >[!TIP]
+      >
+      >You can select more than one record or object to delete them.
 
    * Inline edit any of the Planning records in the table on the Connected records page. 
    

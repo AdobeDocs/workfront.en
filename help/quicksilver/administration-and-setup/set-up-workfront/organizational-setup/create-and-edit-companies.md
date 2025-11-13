@@ -135,11 +135,11 @@ To add or edit a company:
 
    For information about creating custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Conditional) If you are creating a company, click **[!UICONTROL Create Company]**<span class="preview">or **Save**.</span>
+1. (Conditional) If you are creating a company, click **[!UICONTROL Create Company]** <span class="preview">or **Save**.</span>
 
    Or
 
-   If you are editing an existing company, click **[!UICONTROL Save Changes]**<span class="preview">or **Save**.</span>
+   If you are editing an existing company, click **[!UICONTROL Save Changes]** <span class="preview">or **Save**.</span>
 
 ## Manage company memberships
 
@@ -161,9 +161,13 @@ For more information about sharing objects, see [Overview of sharing permissions
 
 When a [!DNL Workfront] administrator assigns a group to a company, the group administrators for the group gain [!UICONTROL Manage] access to the company in [!UICONTROL Setup]. This includes access to the [!UICONTROL Companies] page in [!UICONTROL Setup], where they can see and manage the company associated with their group.
 
-With this access to the [!UICONTROL Companies] page, a group administrator can assign a group to a company, but it must be a company that the group administrator created. If the group administrator's access level is not configured with administrative access to companies, the [!UICONTROL Group] field is required when the group administrator creates the company—its bolded title indicates this:
+With this access to the [!UICONTROL Companies] page, a group administrator can assign a group to a company, but it must be a company that the group administrator created. If the group administrator's access level is not configured with administrative access to companies, the [!UICONTROL Group] field is required when the group administrator creates the company—its <span class="preview">asterisk</span> or bolded title indicates this:
 
-![Edit company](assets/group-admin-add-company.png)
+<span class="preview">Sample image in the Preview environment:</span>
+![New company dialog with group required](assets/group-admin-add-company-group-required.png)
+
+Sample image in the Production environment:
+![Group is required on company](assets/group-admin-add-company.png)
 
 For information about how users gain administrative access to companies in their access level, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 

@@ -27,7 +27,7 @@ This section contains the following articles:
 * [Delete initiatives in the [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md) 
 * [Resolve initiative conflicts in the [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md) 
 * [Import projects to plans in the [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) 
-* [Request access to a plan in the [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md) 
+* [Request permissions to a plan in the [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md) 
 * [Share a plan in the [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) 
 * [Update or create projects by publishing initiatives in the [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) 
 * [Overview of reconciling resource allocations between projects and initiatives](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md) 

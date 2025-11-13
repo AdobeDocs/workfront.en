@@ -11,6 +11,12 @@ role: Developer
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
+>[!IMPORTANT]
+>
+>This API version change features a breaking change that may affect your existing API calls. This is due to the fact that API version 21 uses Event Subscriptions version 2.
+>
+> For multi-select fields, Event Subsscriptions version 2 always sends as an array. Version 1 sent an array if more than one value selected. If only one value was selected, it sent a string.
+
 Adobe Workfront released API version 21 on October 23, 2025. API version 21 features the following changes from version 20.
 
 ## Added resources
@@ -337,9 +343,6 @@ A Category object is a custom form.
             <p>Added the following possible values:</p>
              <ul>
               <li>
-                <p><code>SPTMPL</code> (enum.categorytypeenum.staffingplantemplate)</p>
-              </li>
-              <li>
                 <p><code>TEAMOB</code> (Team)</p>
               </li>
             </ul>
@@ -349,9 +352,6 @@ A Category object is a custom form.
             </p>
             <p>Added the following possible values:</p>
              <ul>
-              <li>
-                <p><code>SPTMPL</code> (enum.categorytypeenum.staffingplantemplate)</p>
-              </li>
               <li>
                 <p><code>TEAMOB</code> (Team)</p>
               </li>

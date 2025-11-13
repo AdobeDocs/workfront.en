@@ -27,6 +27,7 @@ Any user can add the AI Reviewer to a review and approval request.
 
 * Your organization must have migrated to Adobe IMS (Identity Management System).
 * Your Workfront instance must have Unified Approvals enabled. 
+* Your organization must have GenStudio Foundation.
 * Adobe must have a signed Adobe Gen AI agreement on file.
     For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 

@@ -25,11 +25,102 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >|----|----|
 >|<ul><li>25.11 (November 13, 2025)</li><li>25.12 (December 11, 2025)</li><li>26.1 (January 14, 2026)</li></ul>| <ul><li>26.1 (January 15, 2026)</li></ul>|
 >
->Note that for the final release of each quarter (25.10 this quarter), users on the fast release schedule will receive the release one day early (October 15, 2025).
+>Note that for the final release of each quarter (26.1 this quarter), users on the fast release schedule will receive the release one day early (January 14, 2026).
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
 
 ## Adobe Workfront enhancements
+
+* [Administrator enhancements](#administrator-enhancements)
+* [Document and approvals enhancements](#documents-and-approvals-enhancements)
+* [Other enhancements](#other-enhancements)
+
+### Administrator enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updates to button names when editing a layout template</a>
+            <p>To provide more consistency with other areas of Setup such as the custom form designer, the buttons you see when editing a layout template have changed to Apply, Save and Close, and Cancel. The new option, Apply, allows you to save your changes to the layout template and continue editing. Previously, the available options were Save and Cancel. </p>
+        </td>
+        <td>October 30, 2025</td>
+        <td>November 13, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>  
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Improved field management with Active flag on custom fields</a>
+            <p>When you have large numbers of custom fields in the system, management of those fields in custom forms and reports can be difficult. You can now mark custom fields inactive with the new <b>Active</b> flag. This flag is available when working with a field on a custom form or when adding or editing a field from the Fields list. </p>
+        </td>
+        <td>October 30, 2025</td>
+        <td>November 13, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>   
+  </tbody>
+</table> 
+
+### Documents and approvals enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Cross-organization support for Adobe Express with Workfront Proofing<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>We're introducing cross-organization support for Adobe Express with Workfront Proofing. This enhancement allows customers who operate across multiple IMS organizations to seamlessly use and manage proofing workflows.</p>
+        </td>
+        <td>November 13, 2025</td>
+        <td>November 13, 2025</td>
+        <td>November 13, 2025</td>
+    </tr>   
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager now available with the Frame.io integration <p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>Now, you can use the Experience Manager Assets​ to manage and store your digital assets that have gone through the review and approval cycle. This integration allows you to leverage the capabilities of Adobe Experience Manager, Frame.io, and Workfront to streamline your content management and collaboration processes. </p>
+        </td>
+        <td>October 30, 2025</td>
+        <td>October 30, 2025</td>
+        <td>October 30, 2025</td>
+    </tr>   
+  </tbody>
+</table> 
+
+### Integration enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">New version of Salesforce integration now available </a>
+            <p>To stay up-to-date with recent changes to the Workfront API, we've created a new Salesforce integration. The new integration features the same functionality as the previous version, and was updated to avoid losing functionality deprecated in the API.</p>
+        </td>
+        <td>October 30, 2025</td>
+        <td>October 30, 2025</td>
+        <td>October 30, 2025</td>
+    </tr>   
+  </tbody>
+</table> 
 
 ### Other enhancements
 
@@ -46,7 +137,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Fourth Quarter 2025 release timeframe</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Fourth Quarter 2025 release timeframe</a>
                         <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Fourth Quarter 2025 release timeframe. </p>
                     </td>
                     <td><p>Throughout the Fourth Quarter 2025 release timeframe<br /></p>
@@ -55,14 +146,28 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                 <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}"> Selection limits on multi-select fields</a>
+              <p>Fields that allow multiple selections, such as check boxes and multi-select dropdowns, are now limited to 5000 selections when a user is filling out the form.</p>
+             </td>
+        <td>October 30, 2025</td>
+        <td>November 13, 2025</td>
+        <td>January 15, 2026</td>
+             </tr>   
             </tbody>
         </table>   
 
-<!--
+
 ### Functionality soon to be removed from Workfront
 
-* 
--->
+#### Deprecation of the override currency on job roles with the 25.11 release
+
+As part of the financial model simplification, we will be deprecating the override currency on job roles in Preview on October 30, and in Production for all customers with the 25.11 release. This change affects how currencies and rates are configured on job roles in the Setup area.
+
+* The **Override Currency** fields on a job role will no longer be available.
+* Each job role will have a single currency with its associated cost and billing rate.
+* All existing override currencies and their rate values will be migrated automatically to become the sole currency and rates for that job role.
 
 ## Interface modernization
 
@@ -101,6 +206,12 @@ This update is for both Mac and Windows.
 ### API version 21
 
 Workfront API version 21 was released on October 23, 2025. For API version 21, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
+
+>[!IMPORTANT]
+>
+>This API version change features a breaking change that may affect your existing API calls. This is due to the fact that API version 21 uses Event Subscriptions version 2.
+>
+> For multi-select fields, Event Subsscriptions version 2 always sends as an array. Version 1 sent an array if more than one value selected. If only one value was selected, it sent a string.
 
 For information on what's new and updated, see [What's new in API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md).
 

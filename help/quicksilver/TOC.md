@@ -15,6 +15,10 @@ feature-set: Workfront
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 2026 Q1 Release {#release-26-q1}
       * [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
+      * [First Quarter 2026 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md)
+      * [First Quarter 2026 Document and approval enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md)
+      * [First Quarter 2026 Integrations enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md)
+      * [First Quarter 2026 Other enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md)
     * 2025 Q4 Release {#release-25-q4}
       * [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
       * [Fourth Quarter 2025 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md)
@@ -1237,7 +1241,7 @@ feature-set: Workfront
       * [Attach a template to a project](manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
       * [Copy and move template tasks](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
       * [Edit project templates](manage-work/projects/create-and-manage-templates/edit-templates.md)
-      * [Edit a template task](manage-work/projects/create-and-manage-templates/edit-template-task.md)
+      * [Edit template tasks](manage-work/projects/create-and-manage-templates/edit-template-task.md)
       * [Delete a template task](manage-work/projects/create-and-manage-templates/delete-template-tasks.md)
       * [Create template from project](manage-work/projects/create-and-manage-templates/create-template-from-project.md)
       * [Share project templates](manage-work/projects/create-and-manage-templates/share-project-template.md)
@@ -1538,6 +1542,7 @@ feature-set: Workfront
       * [Manage reports: article index](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
       * [Edit a report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
       * [Edit report filters in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+      * [Duplicate a report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
       * [Delete a report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
   * Reports {#reports}
     * [Reports](reports-and-dashboards/reports/reports-overview.md)
@@ -1963,6 +1968,7 @@ feature-set: Workfront
     * [Get started with the proofing and GenStudio for Performance Marketing integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
     * [Get started with the proofing and Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
+    * [Use the Adobe Experience Manager with the Frame.io integratio](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
   * Tips, tricks, and troubleshooting for approvals {#ttt-approvals}
     * [Tips, tricks, and troubleshooting for approvals: article index](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
     * [View the number of proof and document decisions for all users](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
@@ -2013,7 +2019,7 @@ feature-set: Workfront
   * [Update initiative priorities in the Scenario Planner](scenario-planner/prioritize-initiatives.md)
   * [Update or create projects by publishing initiatives in the Scenario Planner](scenario-planner/publish-scenarios-update-projects.md)
   * [Overview of reconciling resource allocations between projects and initiatives](scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
-  * [Request access to a plan in the Scenario Planner](scenario-planner/request-access-to-plan.md)
+  * [Request permissions to a plan in the Scenario Planner](scenario-planner/request-access-to-plan.md)
   * [Resolve initiative conflicts in the Scenario Planner](scenario-planner/resolve-conflicts-in-sp.md)
   * [Share a plan in the Scenario Planner](scenario-planner/share-a-plan.md)
   * [Show role allocation for projects and initiatives in the task list](scenario-planner/show-role-allocation-task-list-nwe.md)
@@ -2075,6 +2081,7 @@ feature-set: Workfront
     * [Adobe Workfront Planning release activity for 2024](planning/general/release-activity.md)
     * [Adobe Workfront Planning release activity for 2023](planning/general/release-activity-archives-2023.md)
     * [Adobe Workfront Planning object limitations overview](planning/general/limitations-overview.md)
+    * [Get started with the Adobe Workfront Planning free trial](planning/general/trial-workfront-planning.md)
   * Adobe Workfront Planning architecture {#adobe-workfront-planning-architecture}
     * [Architecture: article index](planning/architecture/architecture-information.md)
     * [Workspaces overview](planning/architecture/workspaces-overview.md)

@@ -9,19 +9,16 @@ exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
 ---
 # Edit issues in a list
 
-<!--Audited: 08/2025-->
+<!--Audited: 10/2025-->
 
-<!--Audited: 03/2025--> 
 
-<!--
-<div class="preview"> 
+<!--<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> 
--->
+</div> -->
  
 You can edit an individual issue or you can edit issues in an issue list or report. This article describes how to edit issues in lists.
 
@@ -170,24 +167,11 @@ To edit issues in bulk:
    Editing the information on all issues is identical to editing information on one issue when editing the following areas:
 
    * Overview
-   * Settings
-   * Custom Forms 
-   * Assignments
-   * Comment
-
-   <!--at release for unshim, replace the list above with this:
-
-   <div class="preview">
-
-   * Overview
    * Assignments
    * Custom Forms 
    * Settings
    * Comment
-
-   </div>
-   -->
-   
+      
    For more information about editing an issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
 
    >[!NOTE]
@@ -200,21 +184,16 @@ To edit issues in bulk:
 
    You can edit only the fields on the forms that are attached to all issues selected and which you have permissions to edit.
 
-   <!--1. (Optional and conditional) Depending what environment you use to edit the issues, do one of the following to recalculate custom expressions for all issues:
-   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
+   <!--1. In the Production environment, in the **Custom Forms** area, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the issues selected are up to date.-->
+ 
+1. Click **Save**.
 
-1. (Optional) In the **Custom Forms** area, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the issues selected are up to date.
-
-   <!--  
-   <div class="preview">
-
-   1. In the Preview environment, with all the issues selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the issue list, then click **Recalculate Expressions**.
-   -->
+   All changes you made are now visible on all the selected issues.
+   
+1. (Optional) With all the issues selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the issue list, then click **Recalculate Expressions**.  
 
    >[!IMPORTANT]
    >
    >We recommend not to select more than 500 issues at a time when you recalculate custom expressions.
 
-1. Click **Save Changes**.
 
-   All changes you made are now visible on all the selected issues.

@@ -9,7 +9,7 @@ exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 ---
 # Attach a template to a project
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 10/2025 -->
 
 You can attach a template to a project either during the initial creation phase of the project or after it's been created.
 
@@ -109,16 +109,15 @@ You can attach a template to a project from the project page or from a project l
 
 1. On the **Projects** page, select the project you want to attach a template to.
 
-1. Click the **More** icon ![More icon](assets/qs-more-icon-on-an-object.png) to the right of the project name.
+1. Click the **More** icon ![More drop-down](assets/more-dropdown.png) to the right of the project name.
 
-   ![More drop-down](assets/more-dropdown.png)
+   ![More icon](assets/qs-more-icon-on-an-object.png)
 
    Or
 
-   Go to a project list or report and select a project, then click the **More** icon ![More icon](assets/qs-more-icon-on-an-object.png) at the top of the list.
+   Go to a project list or report and select a project, then click the **More** icon ![More drop-down](assets/more-dropdown.png) at the top of the list.
 
    ![More menu expanded](assets/more-menu-expanded.png)
-
    
 1. Click **Attach Template**. The **Attach Template** box displays.
 

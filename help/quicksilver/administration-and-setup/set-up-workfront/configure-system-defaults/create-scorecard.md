@@ -11,7 +11,7 @@ exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
 ---
 # Create a scorecard
 
-<!--Audited: 05/2025-->
+<!--Audited: 11/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -42,7 +42,7 @@ You can create a scorecard in the following way:
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront package</td> 
-   <td><p>Any</p></td> 
+   <td><p>Workfront or Workflow Prime or higher</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 

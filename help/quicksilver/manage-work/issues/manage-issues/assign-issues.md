@@ -12,15 +12,13 @@ exl-id: e2dce29e-7370-4580-8326-99c4437998bf
 
 <!--Audited: 10/2024-->
 
-<!--
-<div class="preview"> 
+<!--<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> 
--->
+</div> -->
 
 You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see [Overview of modifying issue assignments](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -201,7 +199,7 @@ For information, see the "Assignments" section in the article  [Edit issues](/he
 <!--
 Assigning issues in bulk is different depending on what environment you choose to do this. 
 
-### Assign issues in bulk in the Production environment -->
+### Assign issues in bulk in the Production environment 
 
 1. Go to a list of issues that you want to assign in bulk. 
 1. Select several issues in the list. 
@@ -226,10 +224,11 @@ Assigning issues in bulk is different depending on what environment you choose t
 1. Click **Save Changes**.
 1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
 
-<!--
 <div class="preview">
 
 ### Assign issues in bulk in the Preview environment
+
+-->
 
 1. Go to a list of issues that you want to assign in bulk. 
 1. Select several issues in the list. 
@@ -249,10 +248,9 @@ Assigning issues in bulk is different depending on what environment you choose t
    
 1. (Optional) If you want to remove existing assignees from all issues, click the **x** next to their name.
 
-1. (Optional) Update the Planned Hours field. For more information, see [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md). 
+1. (Optional) Update the P**lanned Hours** field. For more information, see [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md). 
 
 1. Click **Save**.
-1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
+1. (Optional and conditional) When the **Assigned to** or the **Assignments** fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
 
-</div>
--->
+
