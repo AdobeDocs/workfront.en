@@ -15,7 +15,7 @@ exl-id: bb597032-3395-4c9a-b622-5c920ba55131
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 A company is an organizational unit in [!DNL Adobe Workfront] that can represent your organization, a department within the organization, or a client you work with. You can add companies to [!DNL Workfront] and use them for financial planning, reporting purposes, to define permissions around objects, and to keep information confidential.
 
@@ -99,9 +99,9 @@ To add or edit a company:
 
 1. Update the following information in the **Basic Info** section:
 
-   * **Company Name** <span class="preview"> or **Name**</span>: Type a name for the company.
+   * **Name**: Type a name for the company.
    * **Is Active**: When this option is enabled, users can find the company and attach it to projects that they create and edit. An inactive company cannot be attached to projects. This option is enabled by default.
-   * **This is the Primary Company** <span class="preview">or **Is Primary**</span>: Assigns the company as your organization's primary company. The primary company typically represents your Workfront account where most of your users work.
+   * **Is Primary**: Assigns the company as your organization's primary company. The primary company typically represents your Workfront account where most of your users work.
 
      You can have one company or no company designated as a primary company, but you cannot have multiple companies designated as primary companies. For more information, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -135,11 +135,7 @@ To add or edit a company:
 
    For information about creating custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Conditional) If you are creating a company, click **[!UICONTROL Create Company]** <span class="preview">or **Save**.</span>
-
-   Or
-
-   If you are editing an existing company, click **[!UICONTROL Save Changes]** <span class="preview">or **Save**.</span>
+1. Click **Save**.
 
 ## Manage company memberships
 
@@ -161,13 +157,10 @@ For more information about sharing objects, see [Overview of sharing permissions
 
 When a [!DNL Workfront] administrator assigns a group to a company, the group administrators for the group gain [!UICONTROL Manage] access to the company in [!UICONTROL Setup]. This includes access to the [!UICONTROL Companies] page in [!UICONTROL Setup], where they can see and manage the company associated with their group.
 
-With this access to the [!UICONTROL Companies] page, a group administrator can assign a group to a company, but it must be a company that the group administrator created. If the group administrator's access level is not configured with administrative access to companies, the [!UICONTROL Group] field is required when the group administrator creates the company—its <span class="preview">asterisk</span> or bolded title indicates this:
+With this access to the [!UICONTROL Companies] page, a group administrator can assign a group to a company, but it must be a company that the group administrator created. If the group administrator's access level is not configured with administrative access to companies, the [!UICONTROL Group] field is required when the group administrator creates the company—the asterisk indicates this:
 
-<span class="preview">Sample image in the Preview environment:</span>
+Sample image in the Preview environment:
 ![New company dialog with group required](assets/group-admin-add-company-group-required.png)
-
-Sample image in the Production environment:
-![Group is required on company](assets/group-admin-add-company.png)
 
 For information about how users gain administrative access to companies in their access level, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
