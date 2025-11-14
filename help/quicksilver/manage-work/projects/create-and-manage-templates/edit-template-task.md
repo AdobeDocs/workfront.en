@@ -376,14 +376,14 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
 1. Click **Add Assignee** to add a new assignee to the template task. You can assign users, roles, or teams to a task. You can have multiple assignees on a task. The future tasks will have the same resources assigned to it when created from this template task. 
 1. (Optional) If you have multiple assignees, select the **Owner** radio button to indicate which user or role is considered the Task Owner or the Primary Assignee. Workfront marks the first user or job role that you assign to a template task as the Owner or Primary Assignee. 
-1. (Conditional and optional) If your Task Constraint is Calculated Work or Effort Driven, specify the **Allocation %** (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. 
-1. (Conditional and optional) If your Task Constraint is Simple, specify the **Hours** of each assignee
+1. (Conditional and optional) If your **Duration Type** is **Calculated Work** or **Effort Driven**, specify the **Allocation %** (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. 
+1. (Conditional and optional) If your **Duration Type** is **Simple**, specify the **Hours** of each assignee
 
    Or
 
    Specify the total number of **Planned Hours** for the template task. This distributes the total hours equally between all the assignees. 
 
-1. (Conditional and optional) If your Task Constraint is Simple, specify the **Duration** of the template task in days. This will become the duration of the task created from this template. 
+1. (Conditional and optional) If your **Duration Type** is Simple, specify the **Duration** of the template task in days. This will become the duration of the task created from this template. 
 1. (Optional) Select a role from the **Assignee's Role** drop-down menu. This is the role that the assignee can fulfill on this future task. Only the job roles associated with each assignee in their profile appear in the drop-down menu.
 1. (Optional) Continue editing the following sections, depending on the information you want to modify.
 
@@ -564,7 +564,7 @@ After opening the **Edit Template Task** box in the new experience, consider spe
 
    ![Template task edit assignments](assets/template-task-edit-assignments.png)
 
-1. In the Search people, role, or teams field, start typing the name of an assignee, then select it when it displays in the list
+1. In the **Search people, role, or teams** field, start typing the name of an assignee, then select it when it displays in the list
 
    Or
 
