@@ -30,7 +30,7 @@ The table below tells you the highest level of access (Edit or View) that each o
 | &nbsp; |Plan |Work |Review |Request |External |
 |---|---|---|---|---|---|
 | Projects |Edit |Edit (without Create permissions) |View |View (only the Details page) |No Access |
-| Tasks |Edit |Edit |View |View |View |
+| Tasks |Edit |Edit |View |View |No Access |
 | Issues |Edit |Edit |Edit |Edit |No Access |
 | Portfolios |Edit |View |View |No Access |No Access |
 | Programs |Edit |View |View |No Access |No Access |
