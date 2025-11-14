@@ -135,11 +135,9 @@ For more information about portfolios, see [Understand portfolio methodology](..
 
    >[!IMPORTANT]
    >
-   >Your company must have the following packages to have access to the [!UICONTROL Portfolio Optimizer]:
+   >Your company must have a [!UICONTROL Prime] or higher [!DNL Workfront] package to have access to the [!UICONTROL Portfolio Optimizer]. 
    >
-   >[!UICONTROL Prime] or higher [!DNL Workfront]  
-   >[!UICONTROL Business] or higher [!DNL Workfront] 
-
+   
    For information about using the Portfolio Optimizer, see the [Manage projects in the Portfolio Optimizer: article index](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) section. 
 
 1. (Optional) Click **Documents** in the left panel to attach documents to the portfolio.

@@ -118,8 +118,8 @@ Consider the following when editing tasks in a list:
 
    You can decide between Workfront saving the changes you make in the following way: 
    
-      * Automatically, after every change
-      * Manually, only after you click Save. 
+   * Automatically, after every change
+   * Manually, only after you click Save. 
 
   For information about configuring when Workfront saves changes you make to tasks in a list, see the [Modify Plan Mode before editing tasks in a list](#modify-plan-mode-before-editing-tasks-in-a-list) section in this article.
 

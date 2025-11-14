@@ -979,7 +979,7 @@ This table lists the available native fields for specific Workfront objects in a
 >
 >You must have the following to access Workfront Planning:
 >
->* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
+>* A new Workfront package and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
 >* An additional package for Workfront Planning. 
 >* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
 >
