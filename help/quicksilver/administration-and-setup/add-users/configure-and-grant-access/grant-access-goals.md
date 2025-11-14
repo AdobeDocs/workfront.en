@@ -24,6 +24,32 @@ You must have the following to grant users access to Workfront Goals:
  <col> 
  <tbody> 
   <tr> 
+   <td role="rowheader">Workfront package</td> 
+   <td> <p>Workfront or Workflow Ultimate</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p>
+   <p>Plan</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>You must have the System Administrator access level.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
    <td role="rowheader">Workfront plan</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> 
@@ -40,13 +66,7 @@ You must have the following to grant users access to Workfront Goals:
    <td> <p>You must have the System Administrator access level.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access level you have, contact your Workfront administrator.
-
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-+++
+</table>-->
 
 ## Grant user access to Workfront Goals using a custom access level
 
@@ -63,4 +83,9 @@ For additional information about access to Workfront Goals, see [Requirements to
 
 ## Access to Workfront Goals by license type
 
-A Workfront administrator can use an access level to grant access to Workfront Goals to users with a Plan, Work, Request, or Review license.
+A Workfront administrator can use an access level to grant access to Workfront Goals to users with the following licenses: 
+
+* Standard, Light, Contributor
+* Plan, Work, Request, or Review license.
+
+For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
