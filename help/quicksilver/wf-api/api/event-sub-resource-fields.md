@@ -2446,6 +2446,11 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>attachedRateCard:sourceID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>categoryID</td> 
   </tr> 
   <tr> 
