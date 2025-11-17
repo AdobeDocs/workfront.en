@@ -9,6 +9,8 @@ exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
 ---
 # Delete a Submitted Request re Request Draft
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
 You can delete submitted requests or request drafts that you created in the new requesting experience. Workfront administrators and Planning workspace administrators can also delete requests.
 
 In the legacy requesting experience, you can delete request drafts. You cannot delete submitted requests.
@@ -57,7 +59,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Delete submitted requests or request drafts in the new requesting experience
+
+<div class="preview">
+
+## Delete  requests or request drafts in the new requesting experience
 
 You can delete requests in the Requests area of Workfront, or in the My Requests widget in Home.
 
@@ -67,7 +72,35 @@ You can delete requests in the Requests area of Workfront, or in the My Requests
 
 To delete a request or draft in the new requesting experience:
 
+1. To access the Requests list, click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Requests]**.
 
+1. To access the My Requests widget in Home:
+   
+   1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Home]**.
+   1. Locate the My Requests widget. 
+
+      For more information on the My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. In the Requests list or the My Requests widget, hover over the request or draft that you want to delete.
+
+   A three-dot More menu appears.
+   ![](assets/more-menu.png) 
+
+1. Click the **More** menu to the right of the request or draft name, then click **Delete**. 
+
+     Or
+
+     Right-click on the selected request, then click **Delete**.
+
+     >[!TIP]
+     >
+     >When you do not have access to create issues, you receive a warning that your administrator restricted you from creating requests.
+
+1. In the dialog that opens, click **Delete**.
+
+   The request or draft is deleted.
+
+</div>
 
 ## Delete request drafts in the legacy requesting experience
 
