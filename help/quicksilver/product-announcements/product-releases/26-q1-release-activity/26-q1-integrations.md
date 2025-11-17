@@ -17,9 +17,7 @@ For a list of all changes available at this point in the First Quarter 2026 rele
 
 >[!IMPORTANT]
 >
->The new Salesforce integration is necessary because of changes in Salesforce. However, the Workfront for Salesforce integration, including the new version, will not be available after **February 28, 2026**. 
->
->We recommend using Workfront Automation and Integration for your organization's integration needs with Salesforce. 
+>To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Salesforce integration, including the new version, will not be available after **February 28, 2026**. 
 
 >[!NOTE]
 >
