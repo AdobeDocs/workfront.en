@@ -54,7 +54,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Click **New Custom Form.**
 1. Select which object types you'd like to attach the custom form to, then click **Continue**.
 
-   ![Choose object type](assets/choose-object-type.jpg)
+   ![Choose object types](assets/new-custom-form-select-objects.png)
 
 1. In the **Add a form name** area, type the custom form title.
 1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the **Add** icon ![Add objects icon](assets/add-objects-icon.png) next to **Object Types**, then select the type you want in the menu that displays. You can repeat this to add as many object types as you want. 
