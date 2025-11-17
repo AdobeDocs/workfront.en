@@ -7,7 +7,7 @@ author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
 ---
-# Delete a Submitted Request re Request Draft
+# Delete a submitted request or request draft
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
@@ -19,8 +19,6 @@ For information, see:
 
 * [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md) 
 * [Create requests from drafts](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
-
-You can delete drafted requests after they are saved as drafts if you no longer find them relevant. You cannot recover deleted draft requests.
 
 ## Access requirements
 
@@ -103,6 +101,8 @@ To delete a request or draft in the new requesting experience:
 </div>
 
 ## Delete request drafts in the legacy requesting experience
+
+You can delete drafted requests after they are saved as drafts if you no longer find them relevant. You cannot recover deleted draft requests.
 
 ### Prerequisites for deleting request drafts
 

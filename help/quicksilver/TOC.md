@@ -1482,7 +1482,7 @@ feature-set: Workfront
       * [Enable users to email an issue into a Request Queue project](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
       * [Locate submitted requests](manage-work/requests/create-requests/locate-submitted-requests.md)
       * [Share a link to a request queue](manage-work/requests/create-requests/share-link-to-request-queue.md)
-      * [Delete a request draft](manage-work/requests/create-requests/delete-request-draft.md)
+      * [Delete a submitted request or request draft](manage-work/requests/create-requests/delete-request-draft.md)
       * [Copy and submit requests](manage-work/requests/create-requests/copy-and-submit-requests.md)
       * [Auto-fill a request from previous data](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
       * [Auto-fill a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
