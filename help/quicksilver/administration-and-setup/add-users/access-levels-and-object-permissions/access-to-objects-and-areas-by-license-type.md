@@ -12,7 +12,7 @@ exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
 ---
 # Access to objects and areas by license type
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 11/2025 -->
 
 The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
 

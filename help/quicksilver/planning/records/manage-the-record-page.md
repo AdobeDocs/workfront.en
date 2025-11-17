@@ -231,7 +231,7 @@ To add a section to a record preview or page:
 
       ![Connections tab on record in Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
 
-1. (Optional) Select the **Show all records** setting in the upper-right corner of the Connections tab. All connected record types display, including the ones that don't have any connected records yet. BY default, the toggle is deselected and record types with no connected records are hidden. 
+1. (Optional) Select the **Show all records** setting in the upper-right corner of the Connections tab. All connected record types display, including the ones that don't have any connected records yet. By default, the toggle is deselected and record types with no connected records are hidden. 
 
 1. (Optional) Click **Connect** to add more records to the connected record types. For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).  
 
@@ -285,6 +285,9 @@ To add a section to a record preview or page:
 
 You can view information from connected records or objects by adding a tab for a Connected records page to a record. This adds the connected records in a table view to the tab.
 
+For more information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md). 
+
+<!--this content has been moved to the page linked above
 Consider the following when adding a Connected records page to a record: 
 
 * You can add a Connected records page to a record after you connected record or object types to the record type from the table view of a record type.
@@ -297,10 +300,6 @@ Consider the following when adding a Connected records page to a record:
 
    * Workfront Planning record types
    * Workfront projects, programs, portfolios, groups, or companies. You can view the connected Workfront objects even when you do not have permissions to access them in Workfront. 
-
-   >[!NOTE]
-   >
-   > You cannot add a Connected records page for connected AEM Assets records.
 
 To add a Connected records page:
 
@@ -324,15 +323,15 @@ To add a Connected records page:
       >
       >You must add connected records in the table or Details area of a record before you can display them in a connected records page.
 
-   <!--All fields of the connected record display in the table view of the connected record's tab.--> 
+   (^^^^^^All fields of the connected record display in the table view of the connected record's tab.^^^^^^^^)
    
-   The first five fields of the connected records display by default. <!--No lookup fields display by default.-->
+   The first five fields of the connected records display by default. (^^^^No lookup fields display by default.^^^^^^^)
 
    ![Audience connected table view under campaign details](assets/audience-connected-table-view-under-campaign-details-page.png)
 
 1. (Optional) Search for or click the name of a connected record or object type in the list.
 
-1. (Optional and conditional) In the table view of the connected records page, do any of the following when viewing connected Planning records or any Workfront objects except for projects: <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
+1. (Optional and conditional) In the table view of the connected records page, do any of the following when viewing connected Planning records or any Workfront objects except for projects: 
 
    * Click the name of a record. This opens the record's page in a new tab. 
 
@@ -402,10 +401,13 @@ To add a Connected records page:
    >
    >You cannot create, edit, or delete fields in the table view of a connected record's tab.
    
-1. (Optional)  Hover over the name of the Connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.
+1. (Optional)  Hover over the name of the Connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.-->
+
 
 <!--
-## Add a Brief page to a record's page
+## Add a Brief page to a record
+
+(^^^^^^^^^^move this content to its own article, like you did above - leave the header here with a link^^^^^^^^^^^^)
 
 You can add a Brief page to the record's preview or pages. 
 
