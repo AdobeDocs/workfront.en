@@ -72,6 +72,8 @@ For information, see [Access requirements in Workfront documentation](/help/quic
      >
      >By default, the Home icon in the Main Menu displays the My Updates area for Review-license users (in the current license plan), unless they have a layout template associated with their profile that includes the My Updates area in the Main Menu, in addition to the Home area.
 
+  
+   * <span class="preview">Priorities</span>
    * Portfolios
    * Programs
    * Projects
