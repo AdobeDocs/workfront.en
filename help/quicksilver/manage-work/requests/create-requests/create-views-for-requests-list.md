@@ -11,6 +11,10 @@ feature: Work Management
 
 If you are using the new requesting experience, you can create and save views for the Requests area. These views include filters and column arrangements. 
 
+>[!IMPORTANT]
+>
+>This functionality is available only in the new requesting experience. 
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
@@ -50,15 +54,6 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step1-to-requests}}
 
-1. (Optional and conditional) Select the **Switch to new experience** setting in the upper-right of the screen, if the following things apply to your organization and your Workfront instance: 
-
-    * Your organization has purchased a Workfront package
-    * Your organization has been onboarded to the Adobe Unified Experience. 
-    * Your administrator has granted you access to Workfront Planning
-    * You have at least view permissions to a Workfront Planning workspace
-
-    For more information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
-
 1. Click the **Views** dropdown ![Views dropdown](assets/view-icon-requests.png) and select **New view**.
 
    ![New view](assets/create-new-view.png)
@@ -71,15 +66,6 @@ For more detail about the information in this table, see [Access requirements in
 You can edit existing views, including views you have just created.
 
 {{step1-to-requests}}
-
-1. (Optional and conditional) Select the **Switch to new experience** setting in the upper-right of the screen, if the following things apply to your organization and your Workfront instance: 
-
-    * Your organization has purchased a Workfront package
-    * Your organization has been onboarded to the Adobe Unified Experience. 
-    * Your administrator has granted you access to Workfront Planning
-    * You have at least view permissions to a Workfront Planning workspace
-
-    For more information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)1. 
 
 1. (Optional) To rename a view, click the **Views** dropdown ![Views dropdown](assets/view-icon-requests.png) and click the three-dot menu next to the view, select **Rename**, then type in the new name for the view.
 1. Click the **Views** dropdown ![Views dropdown](assets/view-icon-requests.png) and select the view you want to edit.
@@ -114,6 +100,17 @@ You can edit existing views, including views you have just created.
 
 ## Add the view to a layout template.
 
-A Workfront dministrator can add the new view to layout templates.
+A Workfront administrator can add the new view to layout templates.
 
 For instructions, see [Customize Filters, Views, and Groupings using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+
+## Share a view
+
+You can share views that you create with other users, teams, or groups.
+
+{{step1-to-requests}}
+
+1. Click the View dropdown at the upperplect of the table.
+1. Hover over the view that you want to share, then click on the three-dot menu when it appears.
+1. Select Share.
+
