@@ -2120,6 +2120,7 @@ feature-set: Workfront
     * [Share workspaces](planning/access/share-workspaces.md)
     * [Share record types](planning/access/share-record-types.md)
     * [Share views](planning/access/share-views.md)
+    * [Share records](planning/access/share-records.md)
     * [Request permissions to a view or a workspace](planning/access/request-permissions.md)
   * Adobe Workfront Planning records {#adobe-workfront-planning-records}
     * [Records: article index](planning/records/records-information.md) 
@@ -2130,7 +2131,7 @@ feature-set: Workfront
     * [Edit records](planning/records/edit-records.md)
     * [Delete records](planning/records/delete-records.md)
     * [Restore deleted records](planning/records/restore-deleted-records.md)
-    * [Share records](planning/records/share-records.md)
+    * [Share records using a link](planning/records/share-records.md)
     * [Duplicate records](planning/records/copy-or-duplicate-records.md)
     * [Manage record comments](planning/records/manage-record-comments.md)
     * [History section overview](planning/records/history-section-overview.md)
