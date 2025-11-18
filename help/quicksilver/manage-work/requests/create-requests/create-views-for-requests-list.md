@@ -11,6 +11,8 @@ feature: Work Management
 
 If you are using the new requesting experience, you can create and save views for the Requests area. These views include filters and column arrangements. 
 
+Views can be created and managed in the Requests area of Workfront and in the My Requests widget in Home. View settings are preserved between the Requests area and the widget.
+
 >[!IMPORTANT]
 >
 >This functionality is available only in the new requesting experience. 
@@ -52,9 +54,18 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Create a view in the Requests area
 
-{{step1-to-requests}}
+You can create a view in either the Requests area of Workfront, or in the My Requests widget in Home. 
 
-1. Click the **Views** dropdown ![Views dropdown](assets/view-icon-requests.png) and select **New view**.
+1. To access the Requests list, click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Requests]**.
+
+1. To access the My Requests widget in Home:
+   
+   1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Home]**.
+   1. Locate the My Requests widget. 
+
+      For more information on the My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. In the Requests list or the My Requests widget, click the **Views** dropdown ![Views dropdown](assets/view-icon-requests.png) and select **New view**.
 
    ![New view](assets/create-new-view.png)
 
@@ -65,7 +76,16 @@ For more detail about the information in this table, see [Access requirements in
 
 You can edit existing views, including views you have just created.
 
-{{step1-to-requests}}
+1. To access the Requests list, click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Requests]**.
+
+1. To access the My Requests widget in Home:
+   
+   1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Home]**.
+   1. Locate the My Requests widget. 
+
+      For more information on the My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. In the Requests list or the My Requests widget, locate the view that you want to edit.
 
 1. (Optional) To rename a view, click the **Views** dropdown ![Views dropdown](assets/view-icon-requests.png) and click the three-dot menu next to the view, select **Rename**, then type in the new name for the view.
 1. Click the **Views** dropdown ![Views dropdown](assets/view-icon-requests.png) and select the view you want to edit.
@@ -108,9 +128,18 @@ For instructions, see [Customize Filters, Views, and Groupings using a layout te
 
 You can share views that you create with other users, teams, or groups.
 
-{{step1-to-requests}}
+1. To access the Requests list, click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Requests]**.
 
-1. Click the View dropdown at the upperplect of the table.
+1. To access the My Requests widget in Home:
+   
+   1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Home]**.
+   1. Locate the My Requests widget. 
+
+      For more information on the My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. In the Requests list or the My Requests widget, locate the view that you want to share.
 1. Hover over the view that you want to share, then click on the three-dot menu when it appears.
-1. Select Share.
+1. Select **Share**.
+1. In the dialog that opens, enter the names of the users, teams, or groups that you want to share the view with, then select them from the list when they appear.
+1. Click **Save**.
 
