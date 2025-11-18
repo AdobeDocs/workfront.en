@@ -76,7 +76,7 @@ Workfront is part of Adobe's suite of digital experience products. Moving to Exp
 
 1. (Optional) To stop receiving certain types of notifications, deselect the box for each type that's currently selected. Your changes save automatically. 
 
-    ![Notification type selections](Assets/select-notification-types.png)
+    ![Notification type selections](assets/select-notification-types.png)
 
 ## FAQ
 
