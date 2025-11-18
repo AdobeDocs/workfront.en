@@ -2072,10 +2072,10 @@ feature-set: Workfront
     * [Share a goal in Workfront Goals](workfront-goals/workfront-goals-settings/share-a-goal.md)
     * [Enable Adobe Workfront Goals notifications](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobe Workfront Planning {#adobe-workfront-planning}
-  * [Adobe Workfront Planning: article index](planning/planning-information.md)
+  * [General information about Adobe Workfront Planning](planning/planning-information.md)
   * Adobe Workfront Planning general information {#adobe-workfront-planning-general-information}
     * [Adobe Workfront Planning general information: article index](planning/general/planning-general-article-index.md)
-    * [Adobe Workfront Planning overview](planning/general/planning-overview.md)
+    * [Get started with Adobe Workfront Planning](planning/general/planning-overview.md)
     * [Adobe Workfront Planning best practices](planning/general/planning-best-practices.md)
     * [Adobe Workfront Planning API basics](planning/general/planning-api-basics.md)
     * [Adobe Workfront Planning AI Assistant overview](planning/general/planning-ai-assistant-overview.md)
