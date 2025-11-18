@@ -43,7 +43,7 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td>Edit</td>
         <td>View</td>
         <td>View</td>
-        <td>View</td>
+        <td>No Access</td>
     </tr>
     <tr>
         <td>Issues</td>
