@@ -1,12 +1,12 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Create views in the Requests area
+title: Create and manage views in the Requests area
 description: If you are using the new requesting experience, you can create and save views for the Requests area.
 author: Becky
 feature: Work Management
 ---
-# Create or edit views in the Requests area
+# Create and manage views in the Requests area
 
 
 If you are using the new requesting experience, you can create and save views for the Requests area. These views include filters and column arrangements. 
