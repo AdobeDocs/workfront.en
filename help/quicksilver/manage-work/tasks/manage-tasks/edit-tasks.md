@@ -22,13 +22,13 @@ exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 </div>
 -->
 
-<div class="preview"> 
+<!--<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> 
+</div> -->
 
 You can edit information on tasks that you have created, or that you have Contribute or Manage permissions to.
 
@@ -371,19 +371,17 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 1. Begin editing your task as described above.
 1. Click **Assignments** in the left panel.
 
-      <span class="preview">The Assignments area opens in the new experience.</span>
+      The Assignments area opens in the new experience.
 
 1. (Conditional) Using the new experience, do the following:
  
-   1. <span class="preview">Start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list</span>
+   1. Start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list
 
       Or
 
-      <span class="preview">Click **Assign to me** to assign the task to yourself. </span>
+      Click **Assign to me** to assign the task to yourself. 
 
-   1. <span class="preview">Update the following information:</span>
-
-         <div class="preview">
+   1. Update the following information:
 
          <table style="table-layout:auto"> 
          <col> 
@@ -495,7 +493,6 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
          </tbody> 
          </table>
       
-         </div>
    
       <!--<tr> 
       <td role="rowheader">Allocation</td> 
@@ -514,9 +511,9 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
          </tbody> 
          </table>-->
 
-   1. <span class="preview">(Optional) Click **Switch to old experience** at the bottom of the **Edit Task** box. </span>
-      <span class="preview">The Assignments area opens in the old experience. </span>
-      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
+   1. (Optional) Click **Switch to old experience** at the bottom of the **Edit Task** box. 
+      The Assignments area opens in the old experience. 
+      ![Assignments section in the Edit Task box](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. Click **Search people, roles, or teams** and start typing the name of a user, role, or team that you want to assign to the task, then click it or press Enter when it displays on the list.
 
@@ -664,7 +661,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
          </tbody> 
          </table>
 
-1. Click **Save Changes** <span class="preview"> or **Save** </span> or continue with the following sections.
+1. Click **Save** or continue with the following sections.
 
 ### Custom Forms
 

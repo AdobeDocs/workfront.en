@@ -47,6 +47,7 @@ With the integration between Workfront Planning and GenStudio for Performance Ma
 * Modify your campaigns, products, personas, and activations in Workfront Planning and have real-time updates of the same information in GenStudio for Performance Marketing. 
 * Avoid duplicate data entry.
 * Maintain alignment across planning and activation efforts. 
+* Connect GenStudio Brands and their information to Workfront Planning records. 
 
 ## Integration requirements
 
@@ -179,7 +180,6 @@ For more information about Adobe GenStudio for Performance Marketing, see [Adobe
 </tbody> 
 </table> -->
 
-
 ## Overview of the Workfront Planning and GenStudio for Performance Marketing integration capabilities
 
 Depending on how many Workfront instances your organization has, you automatically have the following permissions to the GenStudio workspace in Planning:  
@@ -284,13 +284,14 @@ The sections below describe the following:
 
 ### Record type fields in the GenStudio workspace
 
-* Record type fields are imported from GenStudio for Performance Marketing to Workfront Planning by default. 
-* You cannot add fields to record types from GenStudio for Performance Marketing. 
-<!--Iskuhi said this is not possible but I can add fields: * You cannot create or delete Activation records' fields from the GenStudio workspace in Workfront Planning. -->
+Record type fields are imported from GenStudio for Performance Marketing to Workfront Planning by default. 
+
+Consider the following about GenStudio record type fields: 
+
 * When you have Manage permissions to the GenStudio workspace in Planning, you can do the following from Workfront Planning: 
 
     * Edit GenStudio field settings. 
-    * Create fields for GenStudio record types, if you have Manage access in the Gen Studio workspace.
+    * Create fields for GenStudio record types.
     
         When you create fields for GenStudio record types in Planning, they are visible from the following areas:
         
@@ -300,7 +301,7 @@ The sections below describe the following:
 
         >[!TIP]
         >
-        >Fields created in Workfront Planning are not visible in the GenStudio list view.
+        >Fields created in Workfront Planning are not visible in GenStudio.
     
     * Hide fields in the table view of a GenStudio record type in Workfront Planning. 
     <!--* Delete fields created in Workfront Planning for GenStudio record types from Workfront Planning. -- this is not possible, per Iskuhi; the link is there but it will generate an error-->
@@ -368,6 +369,12 @@ You can make the following connections between GenStudio record types and other 
 * You can configure automations for a GenStudio record type in Workfront Planning.
     
     For information, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+### Connection to GenStudio Brands from Workfront Planning workspaces
+
+When there is an integration between Workfront Planning and Adobe GenStudio in your organization, you can connect Planning record types to GenStudio Brands from any record type in any workspace in Workfront Planning. 
+
+Brands are not visible as record type cards in the GenStudio workspace. Brands are available to create new connections from any Workfront Planning record type, including those in the GenStudio workspace. 
 
 ## The Preview environment
 

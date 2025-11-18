@@ -39,3 +39,4 @@ The following articles describe how you can create and manage records and their 
 * [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md)
 * [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md)
 * [Export records from the table view](/help/quicksilver/planning/records/export-records-from-the-table-view.md)
+* [Add a Connected record page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)

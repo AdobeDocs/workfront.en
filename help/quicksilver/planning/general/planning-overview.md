@@ -1,5 +1,5 @@
 ---
-title: Adobe Workfront Planning Overview
+title: Get started with Adobe Workfront Planning
 description: Adobe Workfront Planning is an additional capability from Adobe Workfront. You can create fully-customizable workspaces to define workflows that meet the needs of each organizational unit in your enterprise.
 author: Alina
 feature: Workfront Planning
@@ -7,7 +7,7 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 ---
-# Adobe Workfront Planning overview
+# Get started with Adobe Workfront Planning
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -32,7 +32,7 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 
 This article contains general information about Workfront Planning. 
 
-For the complete list of articles that contain documentation for Workfront Planning, see [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md). 
+For the complete list of articles that contain documentation for Workfront Planning, see [General information about Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md). 
 
 ## Introduction to Adobe Workfront Planning
 
@@ -273,6 +273,12 @@ The following are the main Workfront Planning objects and concepts:
         You must have an Adobe Experience Manager license to connect record types with Experience Manager objects.
 
         ![New connection tab with Workfront AEM options](assets/new-connection-tab-with-workfront-aem-options.png)
+    
+    * A record type and an Adobe GenStudio for Performance Marketing Brand. 
+
+        You must have an Adobe GenStudio for Performance Marketing license to connect record types with GenStudio Brands. 
+
+        ![New connection tab with Adobe GenStudio Brand option](assets/new-connection-tab-with-genstudio-option.png)
 
 
     After you establish a connection between the record types, you can connect individual records or objects of those types to one another. The connection between the records displays as a connected record field, or a connection.
@@ -382,7 +388,7 @@ For an up-to-date list of released features, see [Adobe Workfront Planning relea
 
 ## Additional resources for Workfront Planning
 
-* [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md): An index of all articles that contain documentation about Workfront Planning, grouped by area of interest. 
+* [General information about Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md): An index of all articles that contain documentation about Workfront Planning, grouped by area of interest. 
 * [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): With the Workfront AI Assistant for Planning you can search for records, or create, update, and delete records by using commands and letting the assistant do the work for you. 
 
     <!--

@@ -12,17 +12,19 @@ exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
 
 <!--Audited: 11/2025-->
 
+<!--remove the old/new experience references when the toggles are removed-->
+
 <!--
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<div class="preview"> 
+<!--<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 When managing task assignments, you can simultaneously modify them for multiple tasks at a time by using the bulk editing feature in a list of tasks.
 
@@ -119,25 +121,22 @@ When assigning users to work, their availability according to their schedules af
 
 1. Select the tasks for which you want to modify assignments, then click the **Edit** icon ![](assets/edit-icon.png).
 
-   The **Edit Tasks** box opens <span class="preview">in the new experience. Do one of the following:</span>
-
-   <div class="preview">
+   The **Edit Tasks** box opens in the new experience. Do one of the following:
 
    * To add assignees, start typing the name of an assignee in the **Search people, roles, or teams** field, then select them when they display in the list. 
    * To remove assignees, click the **x** icon to the right of their name. Only assignees that are common to all tasks display in the list. 
    * Click Assign to me to assign the selected tasks to yourself.
 
-   </div>
+1. (Conditional) When using the new experience, click **Save**.
 
-1. <span class="preview">(Conditional) When using the new experience, click **Save**.</span>
-
-1. <span class="preview">(Optional) Click **Switch to old experience** at the bottom of the **Edit Tasks** box.</span> 
+1. (Optional) Click **Switch to old experience** at the bottom of the **Edit Tasks** box.
    
-   <span class="preview">The **Edit Tasks** box opens in the old experience.</span>
+   The **Edit Tasks** box opens in the old experience.
 
+   <!--
    >[!TIP]
    >
-   >The old experience is available by default in the Production environment.
+   >The old experience is available by default in the Production environment.-->
 
 1. (Conditional) In the old experience, do the following to modify the assignees:
 
