@@ -246,7 +246,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
         <tr>
         <td>
-            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Create new request by copying previously submitted requests in the new requesting experience</a>
+            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Create new requests by copying previously submitted requests in the new requesting experience</a>
             <p>To make it easier to submit requests, we've added the ability to copy requests to the new requesting experience. Now, you can copy a request, edit any fields, and submit it as a new request. </p>
         </td>
         <td>November 20, 2025</td>

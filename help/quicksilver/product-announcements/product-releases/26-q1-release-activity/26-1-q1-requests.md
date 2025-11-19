@@ -56,7 +56,7 @@ You can share request list views from both the Requests area in Workfront and th
 
 For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
-## Create new request by copying previously submitted requests in the new requesting experience
+## Create new requests by copying previously submitted requests in the new requesting experience
 
 >[!NOTE]
 >
