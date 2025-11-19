@@ -1,6 +1,6 @@
 ---
 navigation-topic: notifications
-title: Subscribe to items in Adobe Workfront
+title: Experience Cloud Notifications overview
 description: Adobe Workfront has unified all digital experiences (DX) products under a single, consistent notification system called Experience Cloud Notifications.
 author: Courtney
 feature: Get Started with Workfront
