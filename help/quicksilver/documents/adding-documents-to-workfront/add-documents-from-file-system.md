@@ -50,7 +50,23 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Add documents to Workfront
+## Add documents to the new Documents area
+
+You can add new documents to Workfront from the file system on your workstation. 
+
+<!--get upload parameters if any-->
+
+To add a document:
+
+1. Go to the project <!--, task, or issue--> where you want to add a new document.
+1. Click the **Documents** tab, then click the **New** > **Document**.
+or
+Drag and drop files directly from your file manager into the document list.
+
+<!--add screen when stable-->
+
+
+## Add documents to Workfront in the legacy documents area 
 
 You can add new documents to Workfront from the file system on your workstation. You can also link documents from third-party applications such as Google Drive and SharePoint.
 
@@ -104,7 +120,7 @@ To add a document:
     </tbody> 
    </table>
 
-## Document security
+## Document security <!-- need to check and see if this is accurate for ESM-->
 
 The Workfront site prevents viruses and other malicious content from entering the site via documents in the following ways:
 
