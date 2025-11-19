@@ -122,6 +122,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+         <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Updated asset selector for the Adobe Workfront for Experience Manager Assets native integration </a>
+            <p>We've upgraded the asset selector in the Adobe Workfront for Experience Manager Assets integration. With this upgrade, you can now select and pull AEM Collections directly into Workfront. </p>
+        </td>
+        <td>November 20, 2025</td>
+        <td>December 11, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>   
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">New version of Salesforce integration now available </a>
