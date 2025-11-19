@@ -64,7 +64,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
     <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. In the [!UICONTROL Header fields] section, mouse over the fields displayed and do one of the following:
+1. In the [!UICONTROL Header fields] section, hover over the current fields and do one of the following:
     * Click the **x** icon to remove a field
         
         Or
@@ -77,21 +77,17 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. You can have up to five fields in the header of an object.
 If you already have five fields selected, you must remove a field before you can add a new one.
-1. In the **Add field** box, start typing the name of a non-editable Workfront field that you want to add, then select it when it displays in the list. The field is added to the immediate right of the Add field box and will display as the first field in the upper-left corner of the object's header.
+1. In the **Add field** box, start typing the name of a a custom field or a native Workfront field that you want to add, then select it when it displays in the list. The field is added to the immediate right of the Add field box and will display as the first field in the upper-right corner of the object's header.
 
     >[!TIP]
     >
-    >* You can only add fields that display in the Overview area of the object's Details section and which are non-editable. Non-editable fields are fields that users cannot manually edit. They are automatically calculated by Workfront. 
+    >* You can add any custom field, or any native field available in the Overview area of an object's Details section. For example, only issues have the Severity field and that field is not available to add to projects or tasks.
     >
-    >* You can add editable fields that are already part of the default headers (for example, Project Owner, Status, Percent Complete, Assignments).
-    >
-    >* When you add the "Resolved By" field to the header of an issue, the field changes to "Resolving Issue, Task, or Project", when there is a resolving object associated with the issue.  
-
+    >* When you add the "Resolved By" field to the header of an issue, the field changes to "Resolving Issue, Task, or Project", when there is a resolving object associated with the issue.
    
-    ![Add field to header](assets/add-field-to-header-in-lt-list.png)  
-  
+    ![Add field to header](assets/add-field-to-header-in-lt-list.png)
 
-1. (Optional) Drag and drop the fields in a different order.       
+1. (Optional) Drag and drop the fields in a different order.     
     
 1. <span class="preview">In the Preview environment: Continue customizing the layout template. You can click **Apply** at any time to save your progress.</span>
 
