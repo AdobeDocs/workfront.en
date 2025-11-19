@@ -81,14 +81,13 @@ If you already have five fields selected, you must remove a field before you can
 
     >[!TIP]
     >
-    >* ou can add any custom field, or any native field available in the Overview area of an object's Details section. For example, only issues have the Severity field and that field is not available to add to projects or tasks.
+    >* You can add any custom field, or any native field available in the Overview area of an object's Details section. For example, only issues have the Severity field and that field is not available to add to projects or tasks.
     >
     >* When you add the "Resolved By" field to the header of an issue, the field changes to "Resolving Issue, Task, or Project", when there is a resolving object associated with the issue.
    
-    ![Add field to header](assets/add-field-to-header-in-lt-list.png)  
-  
+    ![Add field to header](assets/add-field-to-header-in-lt-list.png)
 
-1. (Optional) Drag and drop the fields in a different order.       
+1. (Optional) Drag and drop the fields in a different order.     
     
 1. <span class="preview">In the Preview environment: Continue customizing the layout template. You can click **Apply** at any time to save your progress.</span>
 
