@@ -105,6 +105,10 @@ The record type configured to be global has the following properties:
         Deleting the record type from a secondary workspace only removes it from the secondary workspace. The records and fields added to it from the secondary workspace are also deleted. This does not delete the record type from its original workspace or from any other secondary workspaces where it has been added. 
 
         For more information, see [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md).
+    * Share the record types's views. 
+
+        <!-- when they will be able to add fields to the secondary space, this bullet will need this extra information: 
+         After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added. -->
         
     <!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
     * Add new fields
