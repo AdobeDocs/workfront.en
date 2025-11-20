@@ -1,5 +1,5 @@
 ---
-title: "Adobe Workfront Planning Information: Article Index" 
+title: General Information about Adobe Workfront Planning
 description: As a marketing operations leader, you can use Adobe Workfront Planning to organize work across the marketing lifecycle for all your teams. The articles in this section describe how you can configure the planning capabilities and how you can start using them as part of your campaign management operations. 
 author: Alina
 feature: Workfront Planning
@@ -7,7 +7,10 @@ role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
 ---
-# Adobe Workfront Planning: article index
+# General information about Adobe Workfront Planning
+
+<!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
+<!--this articles used to be called "Adobe Workfront Planning: article index"-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -20,20 +23,7 @@ You can use this page as the starting point for all the documentation related to
 
 The articles in the sections listed below describe how you can configure Workfront Planning and start using it.
 
-<!--consider removing the IMPORTANT below after GA-->
-
->[!IMPORTANT]
->
->The documentation referenced in the sections below will be available some time after the features are released to Production. 
-
-## General information about Adobe Workfront Planning  
-
-Access the following articles for general information about the new Workfront Planning: 
-
-* [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md): A high-level overview of Adobe Workfront Planning, including the terminology and concepts that are unique to this solution. We recommend that you start your journey with Workfront Planning here. 
-* [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md): A list of limitations for the number of objects you can create in Workfront Planning. 
-* [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md): A list of all release notes for Workfront Planning, starting with The Fourth Quarter release of 2024. 
-* [Adobe Workfront Planning best practices](/help/quicksilver/planning/general/planning-best-practices.md): A collection of frequently-asked questions and best practices for using Workfront Planning. 
+For general information and understanding the terminology of Adobe Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 
 ## Workfront Planning architecture and functionality
 
@@ -51,6 +41,7 @@ The following sections contain articles that describe in detail the features cur
 
     * Create, edit, delete workspaces
     * Create, edit, delete record types
+    * Create global record types 
     * Connect record types and examples of connecting record types
     * Workspace templates
 

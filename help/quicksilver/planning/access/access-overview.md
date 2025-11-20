@@ -26,7 +26,7 @@ exl-id: 99fac041-a235-4991-b826-d19944164bc9
 >
 >For more information, contact your account manager
 >
->For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 There are license and sharing permission restrictions to use Adobe Workfront Planning. 
 

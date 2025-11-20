@@ -22,6 +22,9 @@ For a list of all changes available at this point in the First Quarter 2026 rele
 
 The entry date and entered by ID are now stored on custom forms, fields, and sections. You can use these data options in reports as filters, views, or groupings. To display them in the list of custom forms, fields, or sections in Setup, add Entry Date and Entered By: Name as columns in a new or existing view.
 
+>[!NOTE]
+>
+>The entry date and entered by ID are available only on custom forms, fields, and sections created on or after November 13, 2025.
 
 ## Updates to button names when editing a layout template
 
