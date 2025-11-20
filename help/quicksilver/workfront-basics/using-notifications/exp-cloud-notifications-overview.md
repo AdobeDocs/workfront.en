@@ -1,6 +1,6 @@
 ---
 navigation-topic: notifications
-title: Subscribe to items in Adobe Workfront
+title: Experience Cloud Notifications overview
 description: Adobe Workfront has unified all digital experiences (DX) products under a single, consistent notification system called Experience Cloud Notifications.
 author: Courtney
 feature: Get Started with Workfront
@@ -47,7 +47,7 @@ Workfront is part of Adobe's suite of digital experience products. Moving to Exp
 
 1. In the top-right corner of Workfront, click the **Notifications** icon ![Notifications icon](assets/bell-icon.png).
 
-1. In the **Experience Cloud Notifications** panel that opens, select **Notifications**. A list of your notifications appear, with the most recent notification appearing at the top of the list. 
+1. In the **Experience Cloud Notifications** panel that opens, select **Notifications**. A list of your notifications appears, with the most recent notification appearing at the top of the list. 
 
 1. Click a notification to mark it as *Read* and remove it from the recent notifications list. 
 
