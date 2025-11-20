@@ -4,7 +4,8 @@ description: First Quarter 2026 Requests enhancements
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-
+hide: yes
+hidefromtoc: yes
 ---
 # First Quarter 2026 Requests enhancements
 

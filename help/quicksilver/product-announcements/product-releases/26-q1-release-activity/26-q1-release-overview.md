@@ -35,7 +35,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Document and approvals enhancements](#documents-and-approvals-enhancements)
 * [Integration enhancements](#integration-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
-* [Requests enhancements](#requests-enhancements)
+<!--* [Requests enhancements](#requests-enhancements)-->
 * [Other enhancements](#other-enhancements)
 
 ### Administrator enhancements
@@ -206,7 +206,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> 
 
-### Requests enhancements
+<!--### Requests enhancements
 
 <table style="table-layout:auto">
   <tbody>
@@ -254,7 +254,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>January 15, 2026</td>
     </tr>    
   </tbody>
-</table> 
+</table> -->
 
 ### Other enhancements
 
