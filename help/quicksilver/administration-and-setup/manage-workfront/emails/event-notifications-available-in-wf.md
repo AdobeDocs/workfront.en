@@ -618,7 +618,7 @@ See also [Notifications: Information about projects I'm on](../../../workfront-b
   </tr> 
    <tr> 
    <td> <p>Project</p> </td> 
-   <td> <p>Project becomes active</p> </td> 
+   <td> <p>PCurrent Project Status</p> </td> 
    <td> <p>Members of project team</p> </td> 
    <td> <p>A project my team is on becomes active.</p> <p>Members of the project team receive an email notification when the project they are assigned to become active.</p> </td> 
    <td> <p>Inactive</p> </td> 
