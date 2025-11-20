@@ -12,6 +12,19 @@ This page describes Administrator enhancements made with the First Quarter 2026 
 
 For a list of all changes available at this point in the First Quarter 2026 release cycle, see [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Entry date and Entered by ID stored on custom objects
+
+>[!NOTE]
+>
+>Preview: November 13, 2025 
+>Production fast release: November 13, 2025 
+>Production for everyone:  November 13, 2025
+
+The entry date and entered by ID are now stored on custom forms, fields, and sections. You can use these data options in reports as filters, views, or groupings. To display them in the list of custom forms, fields, or sections in Setup, add Entry Date and Entered By: Name as columns in a new or existing view.
+
+>[!NOTE]
+>
+>The entry date and entered by ID are available only on custom forms, fields, and sections created on or after November 13, 2025.
 
 ## Updates to button names when editing a layout template
 
@@ -24,6 +37,7 @@ For a list of all changes available at this point in the First Quarter 2026 rele
 To provide more consistency with other areas of Setup such as the custom form designer, the buttons you see when editing a layout template have changed to **Apply**, **Save and Close**, and **Cancel**. The new option, **Apply**, allows you to save your changes to the layout template and continue editing. Previously, the available options were **Save** and **Cancel**.
 
 For more information, see [Create and manage layout templates](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
 
 
 ## Improved field management with Active flag on custom fields

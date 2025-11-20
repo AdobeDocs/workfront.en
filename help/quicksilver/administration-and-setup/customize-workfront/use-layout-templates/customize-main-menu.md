@@ -109,7 +109,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
      >[!NOTE]
      >
-     >Planning requires an additional license. For information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+     >Planning requires an additional license. For information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
    
    * Custom Application
 

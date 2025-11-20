@@ -123,10 +123,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    >   
    >   * Reassign the work item to active resources. 
    >   * Associate the users in a deactivated team with an active team and reassign the work item to the active team.
-   
-   <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
-    * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
-    -->
 
 1. For each user in the **Assignee** column, specify the following information:
 

@@ -33,6 +33,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [Administrator enhancements](#administrator-enhancements)
 * [Document and approvals enhancements](#documents-and-approvals-enhancements)
+* [Integration enhancements](#integration-enhancements)
+* [Reporting enhancements](#reporting-enhancements)
 * [Other enhancements](#other-enhancements)
 
 ### Administrator enhancements
@@ -46,6 +48,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Entry date and Entered by ID stored on custom objects</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>The entry date and entered by ID are now stored on custom forms, fields, and sections. You can use these data options in reports as filters, views, or groupings. To display them in the list of custom forms, fields, or sections in Setup, add Entry Date and Entered By: Name as columns in a new or existing view.</p>
+        </td>
+        <td>November 13, 2025</td>
+        <td>November 13, 2025</td>
+        <td>November 13, 2025</td>
+    </tr>  
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updates to button names when editing a layout template</a>
@@ -113,11 +124,74 @@ The <add release> release webinar will be held on <date>. You can [register for 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">New version of Salesforce integration now available </a>
-            <p>To stay up-to-date with recent changes to the Workfront API, we've created a new Salesforce integration. The new integration features the same functionality as the previous version, and was updated to avoid losing functionality deprecated in the API.</p>
+            <p>To stay up-to-date with recent changes to the Workfront API, we've created a new Salesforce integration. The new integration features the same functionality as the previous version, and was updated to avoid losing functionality deprecated in the API.</p><p>NOTE: The Workfront for Salesforce integration, including the new version, will not be available after **February 28, 2026**. </p>
         </td>
         <td>October 30, 2025</td>
         <td>October 30, 2025</td>
         <td>October 30, 2025</td>
+    </tr>   
+  </tbody>
+</table> 
+
+### Reporting enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicate a report in a Canvas Dashboard</a><p>![BADGE Off schedule]{type=Neutral}</p>
+            <p>You can now duplicate a KPI, table, or chart report in a Canvas Dashboard after it's been created. Once duplicated, you can edit the report as needed before saving.</p>
+        </td>
+        <td>October 23, 2025</td>
+        <td>October 23, 2025</td>
+        <td>October 23, 2025</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Removing field options from report filters</a>
+            <p>We have removed the following field options that were previously available when applying a filter to a report:
+            <ul>
+            <li>Other Groups IDs</li>
+            <li>Other Roles IDs</li>
+            <li>Other Teams IDs</li>
+            </ul>
+            </p>
+        </td>
+        <td>November 6, 2025</td>
+        <td>November 13, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Improved display of grouping count in Canvas Dashboards</a>
+            <p>When a table report has multiple pages of results and the table is configured with groupings, the table now displays both the record amount for the current page and the overall record count for all pages. For example, if your table report has 7 groupings and the first page shows 3, the table will display 3 of 7.</p>
+        </td>
+       <td>November 6, 2025</td>
+        <td>November 13, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">New guardrails to improve loading times in Canvas Dashboards</a>
+            <p>To avoid loading time delays and improve overall performance in Canvas Dashboards, we have applied limits on how many dashboard components can be added to a dashboard:
+            <ul>
+            <li>Reports per dashboard: 25 limit</li>
+            <li>Groupings on table views: 5 limit</li>
+            <li>Distance from the report's base object: 10 limit</li>
+            <li>Columns on a table view: 25 limit</li>
+            <li>Dashboard-level filter prompts: 10 limit</li>
+            </ul></p>
+        </td>
+       <td>November 6, 2025</td>
+        <td>November 13, 2025</td>
+        <td>January 15, 2026</td>
     </tr>   
   </tbody>
 </table> 
@@ -137,10 +211,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Fourth Quarter 2025 release timeframe</a>
-                        <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Fourth Quarter 2025 release timeframe. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the First Quarter 2026 release timeframe</a>
+                        <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the First Quarter 2026 release timeframe. </p>
                     </td>
-                    <td><p>Throughout the Fourth Quarter 2025 release timeframe<br /></p>
+                    <td><p>Throughout the First Quarter 2026 release timeframe<br /></p>
                     <td colspan="2"><p>Fast release: A minimum of 1 week after releasing to Preview (unless otherwise specified)</p>
                             </li>
                         </ul>
