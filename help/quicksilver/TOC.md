@@ -19,6 +19,7 @@ feature-set: Workfront
       * [First Quarter 2026 Document and approval enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md)
       * [First Quarter 2026 Integrations enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md)
       * [First Quarter 2026 Reporting enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md)
+      * [First Quarter 2026 Requests enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md)
       * [First Quarter 2026 Other enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md)
     * 2025 Q4 Release {#release-25-q4}
       * [Fourth Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
@@ -222,6 +223,9 @@ feature-set: Workfront
       * [Second Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
       * [First Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
       * [Fourth Quarter 2024 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
+    * Adobe Workfront agencies release activity{#agencies-release-activity}
+      * [Adobe Workfront agency release activity](/help/quicksilver/product-announcements/product-releases/agencies-release-activity/agencies-release-activity-article-index.md)
+      * [First Quarter 2026 release activity for Adobe Workfront agency features](/help/quicksilver/product-announcements/product-releases/agencies-release-activity/agencies-release-activity-26-q1.md)
     * Adobe Workfront Scenario Planner release activity {#scenario-planner-release}
       * [Adobe Workfront Scenario Planner release activity](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
       * [Adobe Workfront Scenario Planner with the 21.3 release](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
