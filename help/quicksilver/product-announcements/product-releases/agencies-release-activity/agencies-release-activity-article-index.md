@@ -2,7 +2,7 @@
 content-type: release-notes
 title: 'Adobe Workfront Agencies Release Activity: Article Index'
 description: This is the release activity for agency-specific features in Adobe Workfront.
-author: Lisa, Courtney
+author: Lisa
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
