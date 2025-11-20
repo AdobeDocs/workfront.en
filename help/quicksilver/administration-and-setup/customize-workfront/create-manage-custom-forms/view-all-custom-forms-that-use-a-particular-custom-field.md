@@ -45,8 +45,25 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Find out which custom forms use a particular custom field or widget
 
+To see a field's usage in the list of all custom fields:
+
 {{step-1-to-setup}}
 
 1. In the left panel, click **Custom Forms**.
 1. Click **Fields**, look for the field or widget in the **Name** column, then view the **Forms** column to see which custom forms are using the field or widget.
 1. (Optional) Click the name of any of those custom forms to go to the form and consider what changes you might need to make there if you modify the field or widget.
+
+To see a field's usage within a custom form:
+
+{{step-1-to-setup}}
+
+1. In the left panel, click **Custom Forms**.
+1. Open a custom form and add a field from the library, or select an existing field on the form.
+
+   The usage indicator on the right of the form designer shows how many other custom forms use this field.
+
+1. Click **View Related Forms**.
+
+   On the list of forms, you can click any form name to open the form and see how the field is used. An indicator shows whether each form is active or inactive.
+
+
