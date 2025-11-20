@@ -83,6 +83,8 @@ If you already have five fields selected, you must remove a field before you can
     >
     >* You can add any custom field, or any native field available in the Overview area of an object's Details section. For example, only issues have the Severity field and that field is not available to add to projects or tasks.
     >
+    >* When a user edits a custom field in the header and it is contained in a custom form that is not attached to the object, the custom form is automatically added to the object.
+    >
     >* When you add the "Resolved By" field to the header of an issue, the field changes to "Resolving Issue, Task, or Project", when there is a resolving object associated with the issue.
    
     ![Add field to header](assets/add-field-to-header-in-lt-list.png)
