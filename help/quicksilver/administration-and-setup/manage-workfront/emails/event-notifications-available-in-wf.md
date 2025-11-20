@@ -616,6 +616,13 @@ See also [Notifications: Information about projects I'm on](../../../workfront-b
    <td> <p>An unassigned issue is added to a project I'm on.</p> <p>Users on a project receive an email notification when an unassigned issue is added to the project.</p> <p>A notification is sent only if the project status is Current.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
+   <tr> 
+   <td> <p>Project</p> </td> 
+   <td> <p>Project becomes active</p> </td> 
+   <td> <p>Members of project team</p> </td> 
+   <td> <p>A project my team is on becomes active.</p> <p>Members of the project team receive an email notification when the project they are assigned to become active.</p> </td> 
+   <td> <p>Inactive</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
