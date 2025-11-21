@@ -9,6 +9,8 @@ exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 ---
 # Create and submit requests
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 <!--Audited: 12/2023-->
 
 <!--
@@ -101,7 +103,7 @@ A Workfront administrator must create the following components of a Request Queu
 
 When you create a request in the Workfront web app, Workfront saves the request as a draft before you submit it. Workfront creates a draft as soon as you select your request queue and start entering information for it.
 
-You can continue submitting the request, or you can complete as much information as you have available and navigate away from it to finish it later. Workfront saves the drafted request that you started in the Drafts folder.
+You can continue submitting the request, or you can complete as much information as you have available and navigate away from it to finish it later. Workfront saves the drafted request that you started in the Drafts folder <span class="preview">or in the requests list.</span>
 
 >[!IMPORTANT]
 >
@@ -135,7 +137,7 @@ To create a request in the Workfront web app:
 
     The **New request** box opens.
 
-1. (Conditional) If you switched to the new experience, , select one of the Workfront request queue paths or forms, or click the search bar. 
+1. (Conditional) If you switched to the new experience, select one of the Workfront request queue paths or forms, or click the search bar. 
 
    When you click the search bar, a dropdown appears showing the most recently used queues and forms first. Select one from the list, or begin typing and select the queue or form when it appears.
    
@@ -144,7 +146,7 @@ To create a request in the Workfront web app:
    >Consider the following regarding the new requesting experience:
    >* The list includes both Workfront request queues and Workfront Planning request forms.
    >* You can filter the list by object type.
-   >* In the new requesting experience, drafts are found in the same list as submitted requests.
+   >* <span class="preview">In the new requesting experience, drafts are found in the same list as submitted requests</span>.
 
 1. (Conditional) If you switched to the new experience, select your topic groups and queue topics and continue updating the form.
 
