@@ -714,7 +714,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   
   <tr> 
    <td>[!UICONTROL Cost Performance Index (CPI)]</td> 
-   <td> <p>The [!UICONTROL Cost Performance Index (CPI)] describes the relationship at the project or task level between the planned cost and actual cost. Project Managers review this metric to identify tasks or projects currently tracking under or over cost at a given point. Cost can be measured in hours or dollars, depending on your [!UICONTROL Performance Index Method (PIM)].</p> 
+   <td> <p>The [!UICONTROL Cost Performance Index (CPI)] describes the relationship at the project or task level between the planned cost and actual cost. Project Managers review this metric to identify tasks or projects currently tracking under or over cost at a given point. Cost can be measured in hours or currency, depending on your [!UICONTROL Performance Index Method (PIM)].</p> 
     <p> For information, see <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-cpi.md">Calculate Cost Performance Index(CPI)</a>.</p>  
 
    </td> 
