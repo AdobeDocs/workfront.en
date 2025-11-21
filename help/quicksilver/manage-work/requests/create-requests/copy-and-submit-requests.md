@@ -9,6 +9,9 @@ exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 ---
 # Copy and submit requests
 
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 When you submit similar requests frequently you can copy an existing submitted request. In this case, you can copy an existing request, make minimal changes to it, and resubmit it as a new request.
 
 ## Access requirements
@@ -85,7 +88,7 @@ You must have a request that you or someone in your organization previously subm
   >
   >The copied request is not linked to a resolving object.
 
-## Copy and submit requests
+## Copy and submit requests in the legacy requesting experience
 
 {{step1-to-requests}}
 
@@ -214,3 +217,44 @@ You must have a request that you or someone in your organization previously subm
 1. Click **Submit**.
 
    The copied request is submitted as a new request in the request queue you specified.
+
+<div class="preview">
+
+## Copy and submit requests in the new requesting experience
+
+You can copy and submit requests in the Requests area of Workfront, or from the My Requests widget in Home.
+
+1. To access the Requests list, click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Requests]**.
+
+1. To access the My Requests widget in Home:
+   
+   1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Home]**.
+   1. Locate the My Requests widget. 
+
+      For more information on the My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. In the Requests list or the My Requests widget, hover over the request that you want to copy.
+
+   A three-dot More menu appears.
+   ![](assets/more-menu.png) 
+
+1. Click the **More** menu to the right of the request name, then click **Copy**. 
+
+     Or
+
+     Right-click on the selected request, then click **Copy**.
+
+     >[!TIP]
+     >
+     >When you do not have access to create issues, you receive a warning that your administrator restricted you from creating requests.
+
+1. (Optional) Update any information from the copied request. Available fields depend on the Request Queue or Request Form used for the request.
+
+   <!--When you enter or change any field values in the copied request, it is saved as a draft.-->
+
+1. Click **Submit**.
+
+   The copied request is submitted as a new request.
+
+</div>
+

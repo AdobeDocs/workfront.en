@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
 description: As an Adobe Workfront administrator, you can use an access level to define a user's access to Workfront Goals.
-author: Becky
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
@@ -25,7 +25,7 @@ You must have the following to grant users access to Workfront Goals:
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront package</td> 
-   <td> <p>Workfront or Workflow Ultimate</p> </td> 
+   <td> <p>Workfront Ultimate</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 

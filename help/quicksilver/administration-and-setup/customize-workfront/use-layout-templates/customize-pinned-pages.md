@@ -92,7 +92,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
       >
       >* For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
       >
-      >* For information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
+      >* For information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md). 
 
    * Click **Add a Dashboard**
       * Type a descriptive name in the <!--**Quick link name**-->**Custom name** field
