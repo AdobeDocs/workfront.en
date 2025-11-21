@@ -60,13 +60,13 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 <div class="preview">
 
-## Delete  requests or request drafts in the new requesting experience
+## Delete  requests <!--or request drafts -->in the new requesting experience
 
 You can delete requests in the Requests area of Workfront, or in the My Requests widget in Home.
 
-* Workfront administrators can delete requests and drafts in their organization.
-* Workfront Planning workspace administrators can delete requests and drafts in the Planning workspace that they administer.
-* Users can delete requests and drafts that they submitted.
+* Workfront administrators can delete requests<!-- and drafts--> in their organization.
+* Workfront Planning workspace administrators can delete requests <!--and drafts--> in the Planning workspace that they administer.
+* Users can delete requests <!--and drafts--> that they submitted.
 
 To delete a request or draft in the new requesting experience:
 
@@ -79,12 +79,12 @@ To delete a request or draft in the new requesting experience:
 
       For more information on the My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. In the Requests list or the My Requests widget, hover over the request or draft that you want to delete.
+1. In the Requests list or the My Requests widget, hover over the request <!--or draft -->that you want to delete.
 
    A three-dot More menu appears.
    ![](assets/more-menu.png) 
 
-1. Click the **More** menu to the right of the request or draft name, then click **Delete**. 
+1. Click the **More** menu to the right of the request <!--or draft--> name, then click **Delete**. 
 
      Or
 
@@ -96,7 +96,7 @@ To delete a request or draft in the new requesting experience:
 
 1. In the dialog that opens, click **Delete**.
 
-   The request or draft is deleted.
+   The request <!--or draft--> is deleted.
 
 </div>
 
