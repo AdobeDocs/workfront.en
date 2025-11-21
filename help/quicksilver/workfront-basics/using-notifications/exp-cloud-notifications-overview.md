@@ -10,12 +10,11 @@ hidefromtoc: yes
 
 # Experience Cloud Notifications overview
 
-Adobe Workfront is unifying all digital experiences (DX) products under a single, consistent notification system called Experience Cloud Notifications. Starting in February 2026, your legacy Workfront Notification services will automatically begin migrating to Adobe's centralized notification system. 
+Adobe Workfront is unifying all digital experiences (DX) products under a single, consistent notification system called Experience Cloud Notifications. Starting in or around February 2026, your legacy Workfront Notification services will automatically begin migrating to Adobe's centralized notification system. 
 
-After migration, you can access all notifications across Adobe Workfront and other Adobe DX applications in one place, simplifying how you stay informed and manage your preferences. 
+After this transition, you can access all notifications across Adobe Workfront and other Adobe DX applications in one place, simplifying how you stay informed and manage your preferences. 
 
 ![Announcements](assets/announcements-center.png)
-
 
 ## Why we're making this change
 
@@ -29,8 +28,9 @@ Workfront is part of Adobe's suite of digital experience products. Moving to Exp
 ## What's changing
 
 * A single Notifications icon has replaced the Workfront notification icon in the top header.    
-* Your notification settings are now accessed through the new Experience Cloud Notifications panel and All notifications page.   
+* Your personal notification settings are now accessed through the new Experience Cloud Notifications panel and All notifications page. Previously, these were accessed in your user profile. 
 * There are new filtering and delivery options available.  
+* Customizing email notification subject lines will no longer be available. 
 
 ## What's staying the same
 
@@ -41,7 +41,6 @@ Workfront is part of Adobe's suite of digital experience products. Moving to Exp
 * Workfront will continue to trigger notifications based on your work items.
 
 * Workfront data and permissions will remain unchanged.
-
 
 ## View new notifications in Experience Cloud
 
@@ -63,7 +62,6 @@ Workfront is part of Adobe's suite of digital experience products. Moving to Exp
 >
 >If you can't access your personal notification settings, please reach out to your Administrator. 
 
-
 1. In the upper-right corner of Workfront, click the **Notifications** icon ![Notifications icon](assets/bell-icon.png).
 
 1. In the upper-right corner of the **Experience Cloud** panel, click the **Settings** icon![Settings icon](assets/settings-icon.png).
@@ -76,8 +74,6 @@ Workfront is part of Adobe's suite of digital experience products. Moving to Exp
 
 1. (Optional) To stop receiving certain types of notifications, deselect the box for each type that's currently selected. Your changes save automatically. 
 
-    ![Notification type selections](assets/select-notification-types.png)
-
 ## FAQ
 
 +++Will my existing notifications be lost?
@@ -87,15 +83,16 @@ No. Your historical notifications will remain accessible in Workfront, but new n
 
 +++ Will my users need to do anything?
 
-Generally, no. Workfront administrators will first verify setup, and then users will notice the new Notifications icon after the transition to Experience Cloud occurs.
+Not initially. Workfront administrators will first verify setup, and then users will notice the new Notifications icon after the transition to Experience Cloud occurs. From there, they will need to learn how to access their personal notifications. 
 +++
 
 +++What if my organization isn't ready to transition over to Experience Cloud?
 
-If you need to reschedule the transition, please coordinate with the Adobe Services team. However, all customers are required to move to the new notifications experience, so earlier adoption is recommended. 
+If you need to reschedule the transition, please coordinate with your account team or Customer Support. However, all customers are required to move to the new notifications experience, so earlier adoption is recommended. 
 +++
 
 +++Will this affect Workfront integrations or automations?
 
-No. All existing integrations and automations will continue to function as usual. 
+No. All existing integrations and automations will continue to function as usual.  
 +++
+
