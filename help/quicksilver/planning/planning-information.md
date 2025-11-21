@@ -1,6 +1,7 @@
 ---
 title: General Information about Adobe Workfront Planning
-description: As a marketing operations leader, you can use Adobe Workfront Planning to organize work across the marketing lifecycle for all your teams. The articles in this section describe how you can configure the planning capabilities and how you can start using them as part of your campaign management operations. 
+description: As a marketing operations leader, you can use Adobe Workfront Planning to organize work across the marketing lifecycle for all your teams. The articles in this section describe how you can configure the planning capabilities and how you can start using them as part of your campaign management operations.
+short-description: Use the documents and additional resources to learn how to implement and effectively use Adobe Workfront Planning in your organization.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
