@@ -9,6 +9,8 @@ exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
 ---
 # Create requests from drafts
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 In addition to using the available drafts that Workfront suggests to you when you enter a new request, you can also access a draft request from the Drafts section and finish submitting it from there.
 
 ## Access requirements
@@ -63,6 +65,10 @@ The procedure for creating requests from drafts differs between the new requesti
 
 ### Create requests from drafts in the new requesting experience
 
+
+
+<!--
+   
 1. Open the draft.
 
    Drafts can be found in the following locations:
@@ -70,7 +76,11 @@ The procedure for creating requests from drafts differs between the new requesti
    * In the requests list in the Requests area
    * In the requests list in the My Requests widget in Home
    * In the New request dialog (includes only drafts of requests created with the selected form)
+   
+-->
+1. Open the draft.
 
+   Drafts can be found in the New request dialog (includes only drafts of requests created with the selected form).
 1. Update the information for the request as described in [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (Optional and conditional) At any point during entering the request, click **Discard** draft if you want to delete the draft. This deletes the draft. 
 
