@@ -35,7 +35,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Document and approvals enhancements](#documents-and-approvals-enhancements)
 * [Integration enhancements](#integration-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
-<!--* [Requests enhancements](#requests-enhancements)-->
+* [Requests enhancements](#requests-enhancements)
 * [Other enhancements](#other-enhancements)
 
 ### Administrator enhancements
@@ -206,7 +206,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> 
 
-<!--### Requests enhancements
+### Requests enhancements
 
 <table style="table-layout:auto">
   <tbody>
@@ -219,8 +219,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
      <tr>
         <td>
-            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Save drafts of requests in the new requesting experience</a>
-            <p>To make it easier to create and submit requests, we've added the ability to save drafts to the new requesting experience. Now, when you begin filling out a request and close it, the request is saved in Draft status and can be found in your request list. You can then reopen, update, and submit the draft at your convenience. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Save drafts of requests in the new requesting experience</a>
+            <p>To make it easier to create and submit requests, we've added the ability to save drafts to the new requesting experience. Now, when you begin filling out a request and close it, the request is saved in Draft status and can be found on the request form used to create the draft. You can then reopen, update, and submit the draft at your convenience. </p>
         </td>
         <td>November 20, 2025</td>
         <td>December 11, 2025</td>
@@ -228,25 +228,25 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>  
         <tr>
         <td>
-            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Delete submitted requests in the new requesting experience</a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Delete submitted requests in the new requesting experience</a>
             <p>To make it easier to keep your requests organized and uncluttered, we've added the ability to delete requests to the new requesting experience. Now, you can delete requests that you have submitted. Workfront Administrators and Workfront Planning Workspace administrators can also delete requests.</p>
         </td>
         <td>November 20, 2025</td>
         <td>December 11, 2025</td>
         <td>January 15, 2026</td>
     </tr>   
-        <tr>
+<!--        <tr>
         <td>
-            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
             <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
         </td>
         <td>November 20, 2025</td>
         <td>December 11, 2025</td>
         <td>January 15, 2026</td>
-    </tr>   
+    </tr>   -->
         <tr>
         <td>
-            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Create new requests by copying previously submitted requests in the new requesting experience</a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Create new requests by copying previously submitted requests in the new requesting experience</a>
             <p>To make it easier to submit requests, we've added the ability to copy requests to the new requesting experience. Now, you can copy a request, edit any fields, and submit it as a new request. </p>
         </td>
         <td>November 20, 2025</td>
@@ -254,7 +254,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>January 15, 2026</td>
     </tr>    
   </tbody>
-</table> -->
+</table> 
 
 ### Other enhancements
 
