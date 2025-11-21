@@ -9,6 +9,7 @@ exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 ---
 # Use the My Requests widget
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 >[!IMPORTANT]
 >
@@ -57,11 +58,21 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Create a request
+## Create a new request
 
 You can create a request directly from the My Requests widget.
 
 For instructions, see [Create a request](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) in the article Create work items and projects from the Home area.
+
+<div class="preview">
+
+## Copy a request
+
+You can copy a request in the My Requests widget, edit it, and submit it as a new request.
+
+For instructions, see [Copy and submit requests in the new requesting experience](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) in the article Copy and submit requests.
+
+</div>
 
 ## Filter requests
 

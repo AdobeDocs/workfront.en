@@ -22,7 +22,7 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 >
 >Preview: November 13, 2025 
 >Production fast release: November 13, 2025 
->Production for everyone:  November 13, 2026 
+>Production for everyone:  November 13, 2025
 
 You can now connect Workfront Planning record types with Brands from Adobe GenStudio for Performance Marketing. Your organization must have both Workfront Planning and Adobe GenStudio for Performance Marketing.  
 
