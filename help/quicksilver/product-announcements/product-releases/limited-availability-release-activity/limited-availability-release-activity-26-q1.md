@@ -22,7 +22,7 @@ For a list of all limited availability features released for Adobe Workfront, se
 
 >[!NOTE]
 >
->Production release date: November xx, 2025
+>Production release date: November 20, 2025
 
 You can now apply percentage-based changes to one or more job role billing rates within a rate card. Instead of manually updating each rate one by one, you can apply changes to all selected rates in a single operation.
 
