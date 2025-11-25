@@ -34,9 +34,7 @@ Workfront is part of Adobe's suite of digital experience products. Moving to Exp
 
 ## What's staying the same
 
-* You'll receive in-app notifications during the first phase of the transition and then both in-app and email notifications later on.
-
-* Existing notification preferences will carry over automatically.
+* You'll receive in-app notifications during the first phase of the transition and email notifications later on.
 
 * Workfront will continue to trigger notifications based on your work items.
 
