@@ -36,10 +36,23 @@ This section describes the issues fixed in the weekly Workfront updates for limi
 
 ### Maintenance Updates week of November 23-29, 2025
 
+**Hour / FTE / Percentage removed from Advanced Search on Advanced Assignments**
+
+On the Advanced Assignments Advanced Search, selecting an option for **Hour / FTE / Percentage** did not change the search display. The dropdown has been removed from the toolbar.
+
+**Planned hours not editable on Advanced Assignments when the task duration is 0**
+
+The Planned Hours KPI on the Advanced Assignments screen is no longer editable when the task duration is 0. Previously, you could edit the planned hours but the changes were not saved.
+
+<!--### Maintenance Updates week of November 30-December 6, 2025
+
 **Title**
 
 text
 
+### Maintenance Updates week of December 7-13, 2025
+
 **Title**
 
 text
+-->
