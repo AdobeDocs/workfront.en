@@ -15,13 +15,17 @@ exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
 
 The following [!DNL Adobe Workfront] blueprints are available for system administrators to install. For more information about blueprints, see [Blueprints overview](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
 
-**[!BADGE New!]{type=Informative} Active User Analysis Reports** This blueprint contains a dashboard to help administrators validate user setup, identify misalignments, and ensure configurations support intended application use.​
+[!BADGE New!]{type=Informative} **[!UICONTROL Active User Analysis Reports]**
+This blueprint contains a dashboard to help administrators validate user setup, identify misalignments, and ensure configurations support intended application use.​
 
 **[!UICONTROL Add New Employee IT Checklist]**
 This blueprint contains a template the [!DNL Workfront] professional services organization has used for years during implementation engagements with corporate IT teams to organize new employee onboarding activities. Using this template allows IT teams to operate efficiently, leading to a positive new employee experience and faster track to productivity.
 
 **[!UICONTROL Annual Budget Planning]**
 This blueprint contains a template the [!DNL Workfront] professional services organization has used for years during implementation engagements with Finance teams to organize the activities surrounding annual budget planning. The template helps set expectations with business unit leaders and guides them through the process to request and reserve budgets during the annual planning process.
+
+[!BADGE New!]{type=Informative} **[!UICONTROL Baseline Dashboard]**
+This blueprint contains a dashboard to help you make smarter, faster project decisions. Baselines give you the ability to compare what was planned vs. what's happened, letting you spot problem tasks, scope creep, and project trends at a glance. The Baseline Dashboard includes these reports: Baseline | In Progress Projects, Baseline | Completed Projects, Baseline | In Progress Tasks, and Baseline | Completed Tasks.
 
 **[!UICONTROL Contracted Services Delivery Plan]**
 This blueprint contains a template that organizes the work related to delivering customer-facing services. It is designed to create a uniform approach for contracted services delivery.
