@@ -10,9 +10,11 @@ hidefromtoc: yes
 
 # Experience Cloud Notifications overview
 
-Adobe Workfront is unifying all digital experiences (DX) products under a single, consistent notification system called Experience Cloud Notifications. Starting in or around February 2026, your legacy Workfront Notification services will be migrated to Adobe's centralized notification system, which our team will inform you of before it occurs. 
+Adobe Workfront notifications are moving to Adobe's centralized notification system called Experience Cloud Notifications. This notifications system is used by all digital experience products.  
 
-After this transition, you can access all notifications across Adobe Workfront and other Adobe DX applications in one place, simplifying how you stay informed and manage your preferences. 
+Starting in or around February 2026, current Workfront email and in-app notifications will be migrated to Experience Cloud Notifications. This work will completed in phases. The Workfront team will inform your organization before the migration is set to begin. 
+
+After this transition, users can access all notifications across Adobe Workfront and other Adobe DX applications in one place, simplifying how they stay informed and manage their preferences. 
 
 ![Announcements](assets/announcements-center.png)
 
