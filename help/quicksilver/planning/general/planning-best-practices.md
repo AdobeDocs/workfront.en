@@ -37,17 +37,16 @@ The following are some frequently asked questions about configuring Workfront Pl
     * What do they call the things they want to put in the calendar? 
         Campaigns? Tactics? Initiatives? Activities? Events? 
     * What kinds of questions do they want to answer with this calendar? 
-    * Do we have any overlapping campaigns for the same audience?
-    * What's our budget for that campaign, tactic, activity, or event?
+    * Do they have any overlapping campaigns for the same audience?
+    * What's the budget for that campaign, tactic, activity, or event?
     
     The answers to these questions would dictate what you need to build inside of Workfront Planning. 
     
-    Also, consider that there might be other planners who are currently not Workfront users. These planners may operate out of Excel spreadsheets, Word Docs, PowerPoints, etc. Consider how they might access your information in Workfront Planning.          
+    Also, consider that there might be other planners who are currently not Workfront users. These planners may operate out of Excel spreadsheets, Word documents, PowerPoint presentations, etc. Consider how they might access your information in Workfront Planning.          
 
-* ✅ To take full advantage of Workfront Planning, consider replacing the use of Portfolios and Programs in Workfront Workflow with some other upper-tier structure in Workfront Planning. 
+* ✅ To take full advantage of Workfront Planning, consider replacing the use of Portfolios and Programs in Workfront with some other upper-tier structure in Workfront Planning. 
 
     Today, Workfront customers represent their strategic work through portfolios and programs, in some cases as projects of different types. With the introduction of Planning, all such strategic work should be handled through custom record types in Workfront Planning, while Workfront will be centered around the execution phase of work represented as projects and tasks.   
-
 
 #### When should I create a new workspace versus modifying an existing one? 
 
@@ -80,15 +79,13 @@ The following are some frequently asked questions about configuring Workfront Pl
 
 Record types are the building blocks of a Workfront Planning Workspace. You can define how record types are interconnected.  
 
-
 #### How should I define record types in my workspace?  
 
 * ✅ Take some time to identify what information you need to track (what record types I need) and how this information needs to be connected. Talk with the stakeholders that will use the workspace to consider all their needs. You can also create custom sections with different record types to present the information in a very consumable way.  
 
-
 * ⛔ Don't duplicate record types for a different period (for example, don't create separate record types for **Campaigns 2024** and **Campaigns 2025**). 
 
-    Creating different record types breaks the flow of data, whenever you want to compare data across multiple years. The views today are per record type, so as soon as the year ends, the view of that record type will no longer show the future items. The best practice is to have one record type for the type of work and segment the data using filters or archiving it, if needed. 
+    Creating different record types breaks the flow of data, whenever you want to compare data across multiple years. The views today are per record type, so as soon as the year ends, the view of that record type will no longer show the future items. The best practice is to have one record type for the type of work and segment the data using filters based on different fields or archiving it, if needed. 
        
 #### When should I use a single or multi-select field versus a linked record type? 
 
@@ -101,7 +98,7 @@ Record types are the building blocks of a Workfront Planning Workspace. You can 
     For example, a channel record type such as **Email** may store a list of supporting deliverables, either as native metadata, or as a connection to a standalone **Deliverables** record type. 
 * ⛔ Don't add a new record type if the data you are storing is only relevant for a single record type.  
 
-    For example, a **Campaign** record type may have a single-select field called **Campaign Size** which is only relevant when directly associated with a specific campaign. 
+    For example, a **Campaign** record type may have a single-select field called **Campaign Size** which is only relevant when directly associated with a specific campaign. Create a field instead to capture this information.
 
 #### How should I label my record types? 
 
@@ -114,9 +111,7 @@ Record types are the building blocks of a Workfront Planning Workspace. You can 
 
 Fields are attributes of record types and are displayed as columns in the table view. You can create custom fields for record types and then associate the fields with Workfront Planning records to enhance record information. 
 
-
 #### What field is recommended to be defined as Primary field?
-
 
 * ✅ Do use unique primary field values to make it easier to find and "pick" those records when making connections.  
 
@@ -129,7 +124,7 @@ Fields are attributes of record types and are displayed as columns in the table 
 
 #### How should I start connecting the data in my workspace?   
 
-* ✅ Creating connections is one of the most powerful features of Workfront Planning. You can connect record types to one another or record types with object types from other applications like Adobe Workfront (connection to Projects, Portfolios, Programs, Companies, and Groups) and with Adobe Experience Manager Assets (connection to assets and folders). 
+* ✅ Creating connections is one of the most powerful features of Workfront Planning. You can connect record types to one another or record types with object types from other applications like Adobe Workfront (connection to Projects, Portfolios, Programs, Companies, and Groups), Adobe Experience Manager Assets (connection to assets and folders), and Adobe GenStudio for Performance Marketing. 
 
     Connecting object and record types gives you a full overview of how everything in your company is connected.   
  
@@ -141,11 +136,11 @@ Fields are attributes of record types and are displayed as columns in the table 
 
 * ✅ After you establish the connection between records or object types, you can connect individual records to one another, and display fields from the linked record or object types on a Workfront Planning record. You will reduce the number of places you have to update the same piece of information, and ensure they match perfectly.  
 
-    For example, once you have a connection between a **Campaign** record type and a **Tactics** record type, you will see the primary field information, but when you add lookup fields, you will be able to bring additional information from that record type, like the **Launch date** for that **Tactic**. The data for these lookup fields is auto populated after the records are added.          
+    For example, once you have a connection between a **Campaign** record type and a **Tactics** record type, you will see the primary field information, but when you add lookup fields, you will be able to bring additional information from that record type, like the **Launch date** for a **Tactic**. The data for these lookup fields is auto populated after the records are added.          
 
 #### What field type is recommended for URLs?  
 
-* ✅ Do use a Single-line text field to add a URL data to a record.  
+* ✅ Use a Single-line text field to add a URL data to a record.  
 
 ### Views
 
@@ -169,9 +164,9 @@ Fields are attributes of record types and are displayed as columns in the table 
 
 #### Why don't I see all the records in my timeline view? 
 
-* ✅ Remember to define 2 date fields for your records. You can create a timeline view only when you have at least two date fields associated with a record type. Some records might not display in the timeline view when either the Start or End dates or both have no values and when the Start date is after the End date.  
+* ✅ Remember to define 2 date fields for your records. You can create a timeline view only when you have at least two date fields associated with a record type. Some records might not display in the timeline view when either the Start or End dates or both have no values or when the Start date is after the End date.  
 
-#### How should I use the timeline view Settings
+#### How should I use the timeline view Settings?
 
 * ✅ Define the settings of your timeline view, like the **Bar style** and the **Color** to get a more visually enriching view. You can customize the **Bar style** by defining whether you want to see a thumbnail with a meaningful image and to add more fields to display on the bar (for example, **Owner** or **Status**). 
     
@@ -181,15 +176,15 @@ Fields are attributes of record types and are displayed as columns in the table 
 
 ### Permissions and sharing
 
-Use the sharing feature to give appropriate permissions to employees to views and workspaces.  
+Use the sharing feature to give appropriate permissions to others to views and workspaces.  
 
 #### How should I manage permissions to workspaces?
 
-* ✅ When you create a **workspace**, it is only available to you. Anyone else aside from System Administrators will not be able to find it. Once the workspace is defined and you are ready to bring your team to start the collaboration, you need to share it with them and define their permission level. 
+* ✅ When you create a **workspace**, it is only available to you. Anyone else that is not a System Administrators will not be able to find it. Once the workspace is defined and you are ready to bring your team to start the collaboration, you need to share it with them and define their permission level. 
 
     You can choose from the following permission levels:
 
-    * **Manage**: People can edit, delete and share the workspace. 
+    * **Manage**: People can edit, delete and share the workspace, record types, and edit, delete and create records. 
     * **Contribute**: People can create, edit and delete records.
     * **View**: People can view records.  
 
@@ -197,16 +192,11 @@ Use the sharing feature to give appropriate permissions to employees to views an
 
     A Standard user license is required for someone to have Manage permissions to a workspace.  
 
-* ✅ Give users **Contribute** permissions if you want them to just be able to create, edit and delete records, but you don't want them to change the structure, and the schema of the workspace. With **Contribute** permissions, they cannot create record types or change the fields on the existing record types.   
+* ✅ Give users **Contribute** permissions if you want them to just be able to create, edit and delete records, but you don't want them to change the structure of the workspace. With **Contribute** permissions, they cannot create record types or change the fields on the existing record types.   
 
     A Standard user license is required for someone to have **Contribute** permissions to a workspace.  
 
-* ✅ Give users **View** permissions, if you want them just to view records.  
-
-    >[!NOTE]
-    >
-    >Right now, we don't have specific permissions for record types or records, so this means that all records in any of the record types are visible if you grant someone **View** access to the workspace.  
-
+* ✅ Give users **View** permissions, if you want them just to view records.   
 
 #### How should I manage permissions to record types?
 
@@ -216,18 +206,17 @@ Use the sharing feature to give appropriate permissions to employees to views an
 
 #### How should I manage permissions to views? 
 
-* ✅ Do restrict **Manage** permissions to people that you want to be able to edit, delete and share the view. This means that they can change the filters, grouping fields or some configuration of the view. Those changes will affect the main configuration of the view for everyone else who is also using the view.  
+* ✅ Do reserve the **Manage** permissions for people that you want to be able to edit, delete and share the view. This means that they can change the filters, grouping fields or some configuration of the view. Those changes will affect the main configuration of the view for everyone else who is also using the view.  
 
     A Standard user license is required for someone to have Manage permissions to a view. 
       
-* ✅ Give users **View** access to be able to apply the view. They will be able to change some of the filters or groupings and sorting, but those changes will be only temporary; the changes are not saved for all other users accessing the view. Those changes will not affect the main configuration of the view for everyone else who is also using the view.  Their changes are only visible to the user who is applying the modified settings. After refreshing the screen, the changes are reset to the default.  
+* ✅ Give users **View** permissions to be able to apply the view. They will be able to change some of the filters or groupings and sorting, but those changes will be only temporary; the changes are not saved for all other users accessing the view. Those changes will not affect the main configuration of the view for everyone else who is also using the view.  Their changes are only visible to the user who is applying the modified settings. After refreshing the screen, the changes are reset to the default.  
 
 * ✅ Give **Everyone in the workspace can view** permissions when you want everyone who can view the workspace to see the records and their fields in that specific view. This way, you don't need to add anyone manually to the sharing permission box for the view. 
 
     >[!NOTE]
     >
     >If a view hasn't been shared and you share a link to it with other people, they will be able to see the records in the **Default Table View**. If they have a Standard Workfront license, they can build their own view. 
-
 
 #### How is **Workspace sharing** different than **View sharing**?  
 
@@ -239,8 +228,7 @@ Use the sharing feature to give appropriate permissions to employees to views an
 
 * For **Workspace sharing**: Light and Contribute license users can only get View access to a workspace. To grant someone Contribute or Manage permission to a workspace, they need to have a Standard license. 
 
-* **Views sharing**: Standard license users that have Manage permissions to a workspace will be able to create a view. Light and Contribute license users can only utilize the views that Standard users have created and shared with them. Otherwise, if nothing has been shared, users will be able to see the **Default Table View**.  
-
+* **Views sharing**: Standard license users that have Manage permissions to a workspace can create a view. Light and Contribute license users can only use the views that Standard users have created and shared with them. Otherwise, if nothing has been shared, users will be able to see the **Default Table View**.  
      
 #### What should I do when a Workspace owner changes?  
 
@@ -254,13 +242,13 @@ You can create a request form for each record type when you want users to add re
 
 #### When should I start creating an request form for a record type?
 
-* ✅ You should ensure the record type structure is set up first by adding the necessary fields to the table. These fields describe your records and will be accessible in the form builder. 
+* ✅ You should ensure the record type structure is set up first by adding the necessary fields to the table. These fields describe your records and can be accessible in the form builder. 
 
     Ideally, build the request or intake form after your record type structure is finalized to avoid missing any key fields.      
 
 #### Who can create request forms?
 
-* ✅ Any user with Manage access to the workspace can create or edit a request form. Make sure the user's permissions are properly assigned to allow this functionality.          
+* ✅ Any user with Manage access to the workspace can create or edit a request form for a record type. Make sure the user's permissions are properly assigned to allow this functionality.          
 
 #### How should I create or edit a request form for a record type?
 
@@ -273,12 +261,16 @@ You can create a request form for each record type when you want users to add re
 
     In the form builder, after you publish the form, you can manage permissions to control who can submit requests. 
     
-    You can choose from the following three sharing options: 
+    You can choose from the following sharing options: 
 
-    * **Anyone with view or higher access to the workspace:** Allows all users with View or higher permissions to the workspace can submit a request that creates a record. 
-    * **Anyone with contribute or higher access to the workspace**: Restricts submissions to users with Contribute or higher permissions to the workspace. 
-    * **Anyone with the link:** Enables anyone who has the form link to submit a request. 
-    * **Expiration date:** Ensure you set an expiration date for the public link to enhance security.  
+    * For internal sharing with people in Workfront:
+
+        * **Anyone with view or higher access to the workspace:** Allows all users with View or higher permissions to the workspace can submit a request that creates a record. 
+        * **Anyone with contribute or higher access to the workspace**: Restricts submissions to users with Contribute or higher permissions to the workspace. 
+        * **Only invited people can access**: Add people, teams, roles, groups, or companies that can submit requests to the form.  
+    * For external sharing with people who do not have a Workfront account: 
+        * **Create a public link**, then copy and share it with anyone, even people without a Workfront account: Enables anyone who has the form link to submit a request. 
+        * **Link expiration date:** Ensure you set an expiration date for the public link to enhance security.  
 
 ### Best Practices for managing request forms
 
@@ -288,6 +280,8 @@ The following are recommendations for managing request forms:
 * Use clear labels: Ensure that field labels and descriptions are clear and understandable for all users. 
 * Test forms: Before rolling out new forms to a wider audience, test them using the form link and form previewing option to ensure all fields and logic function as expected. 
 * Keep forms updated: Periodically review forms and update them to match any changes in the record type structure or operational processes. 
+
+<!--do we need to add anything for the Configuration tab of a request form?? -->
 
 <!-- this is hidden, per Andrea:  
 
