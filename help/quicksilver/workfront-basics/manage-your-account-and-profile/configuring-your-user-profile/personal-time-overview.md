@@ -10,9 +10,9 @@ exl-id: e7710495-c418-47b1-8598-725580054fc5
 ---
 # Configure personal time off
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 12/2025 -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront] is not designed to replicate or replace your existing systems for managing, accruing, and tracking personal time off.
 
@@ -66,18 +66,17 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
    >[!NOTE]
    >
-   >If you are on the Adobe Unified Experience, you can access your Workfront profile by clicking the Adobe account menu (your profile picture) in the top navigation area, then choosing Workfront Profile.
+   >If your organization is on the Adobe Unified Experience, click the **Adobe** account menu (your profile picture) in the upper-right corner of the top navigation area, then click **Workfront Profile**.
    >
    >![workfront profile](assets/aue-profile.png)
 
 1. In the left panel, click **[!UICONTROL Time Off]**.
 1. Select the desired date for your personal time off.
 
-   <span class="preview">Sample image in the Preview environment:</span>
    ![Personal time off calendar](assets/personal-time-off-calendar-0925.png)
 
-   Sample image in the Production environment:
-   ![Personal time off calendar](assets/personal-time-off-calendar.png)
+   <!--Sample image in the Production environment:
+   ![Personal time off calendar](assets/personal-time-off-calendar.png)-->
 
 1. Select **[!UICONTROL All day]**, if you are taking a full day off.
 
