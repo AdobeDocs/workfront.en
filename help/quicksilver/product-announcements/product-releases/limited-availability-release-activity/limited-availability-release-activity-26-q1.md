@@ -18,7 +18,11 @@ This article describes the limited availability Workfront features that are rele
 
 For a list of all limited availability features released for Adobe Workfront, see [Adobe Workfront limited availability features release activity: article index](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md).
 
-## Adjust job role rates in rate cards
+## Release notes for limited availability features
+
+This section includes the release notes for new functionality.
+
+### Adjust job role rates in rate cards
 
 >[!NOTE]
 >
@@ -26,4 +30,29 @@ For a list of all limited availability features released for Adobe Workfront, se
 
 You can now apply percentage-based changes to one or more job role billing rates within a rate card. Instead of manually updating each rate one by one, you can apply changes to all selected rates in a single operation.
 
+## Maintenance Updates for limited availability features
 
+This section describes the issues fixed in the weekly Workfront updates for limited availability features.
+
+### Maintenance Updates week of November 23-29, 2025
+
+**Hour / FTE / Percentage removed from Advanced Search on Advanced Assignments**
+
+On the Advanced Assignments Advanced Search, selecting an option for **Hour / FTE / Percentage** did not change the search display. The dropdown has been removed from the toolbar.
+
+**Planned hours not editable on Advanced Assignments when the task duration is 0**
+
+The Planned Hours KPI on the Advanced Assignments screen is no longer editable when the task duration is 0. Previously, you could edit the planned hours but the changes were not saved.
+
+<!--### Maintenance Updates week of November 30-December 6, 2025
+
+**Title**
+
+text
+
+### Maintenance Updates week of December 7-13, 2025
+
+**Title**
+
+text
+-->
