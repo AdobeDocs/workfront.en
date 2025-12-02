@@ -93,7 +93,7 @@ Approvers receive the following notifications about a request pending their appr
 
 To approve a request:
 
-1. Do one of the following: 
+1. (Conditional) If you are using the legacy requesting experience in Workfront, open the request by doing one of the following: 
 
     * If you have access to Workfront Planning and can view at least one workspace, click **Main Menu** ![Dots main menu](assets/dots-menu.png) in the upper-right corner of the screen, or the **Main Menu** ![Lines main menu](assets/lines-menu.png) in the upper-left corner, if available, then click **Requests** > **Submitted** > **Planning**, and click the request with the status of **Pending review** or **In review**.
 
@@ -107,7 +107,7 @@ To approve a request:
     The request page opens in read-only mode.
 
     ![Read-only request page in review status](assets/read-only-reqeust-page-in-review-status.png) 
-
+1. If you are using the new requesting experience in Workfront, click **Main Menu** ![Dots main menu](assets/dots-menu.png) in the upper-right corner of the screen, or the **Main Menu** ![Lines main menu](assets/lines-menu.png) in the upper-left corner, if available, then click **Requests**, and click the request that you want to approve with the status of **Pending review** or **In review**.
 1. (Optional) Click the **Approvals** icon ![Approvals icon](assets/approvals-icon.png) in the upper-right corner of the request to view the approvers.
 1. Click **Review and approve**, then choose one of the following: 
 
