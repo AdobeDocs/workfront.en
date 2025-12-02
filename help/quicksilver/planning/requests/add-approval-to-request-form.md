@@ -84,11 +84,8 @@ For more information about Workfront access requirements, see [Access requiremen
     The **Configuration** area displays.
 
     ![Configuration tab](assets/configuration-tab.png)
-1. In the **Approvers** field, click the drop-down icon and select one or several users or teams in the list
-
-    Or
-
-    Start typing the name of a user or team that you want to set as an approver, then select it when it displays in the list. 
+1. In the **Approvers** field, start typing the name of a user or team that you want to set as an approver, then select it when it displays in the list. 
+1. (Optional and conditional) If you have set more than one approver, and only need one approver to make a decision, enable the **Only one decision is required** option.
 
     <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -97,11 +94,11 @@ For more information about Workfront access requirements, see [Access requiremen
       >
       >* You can add one or several approvers to a request form.
       >
-      >* If you add more than one approver, all approvers must approve the request before Workfront Planning creates a record.
+      >* If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must approve the request before Workfront Planning creates a record.
       >
       >* If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Planning tab of the Submitted section in the Requests area of Workfront.
       >
-      >* All approvers must make a decision before a request is either approved or rejected.
+      >* If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
       >
       >* If a team is set as an approver, only one decision is required from the team.
 
