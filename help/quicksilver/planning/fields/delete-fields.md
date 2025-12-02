@@ -58,13 +58,13 @@ You can delete Workfront Planning fields that are no longer relevant.
    <td> 
 <ul> 
 <li><p>Any Workfront and any Planning package</p></li>
-<p>Or</p>
+Or
 <li><p>Any Workflow and any Planning package</p></li></ul>
 
 <!--
 <p><span class="preview">To delete global record types:</span</p>
 <ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
-<p>Or</p>
+Or
 <li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>
 -->
 

@@ -44,7 +44,7 @@ Before adding records to a workspace from a global record type, also see the art
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <ul><li><p>Any Workfront package and a Planning Plus package</p></li>
-<p>Or</p>
+Or
 <li><p>Any Workflow and a Planning Prime or Ultimate package</p></p></li></ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
@@ -108,10 +108,11 @@ And
 
 >[!NOTE]
 >
->Ensure there is at least one record type designated to be global in at least one other workspace.
+>Ensure there is at least one record type designated to be global in at least one other primary workspace.
 >
 >For information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). 
 
+1. Go to a workspace where you want to create a record type (secondary workspace). 
 1. Start creating a record type, as described in the article [Create record types](/help/quicksilver/planning/architecture/create-record-types.md), then click **Add existing**. <!--check this - the option might have been renamed in the UI-->
 
    ![Modal to add record type with option to add from another workspace](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
@@ -123,7 +124,7 @@ And
 1. Click **Continue**.
 1. In the **Choose the record type** box, click the card for the record type that you want to add from an existing workspace, then click **Add**.
 
-   The record type is added to the workspace you selected and the **global record type** icon ![](assets/global-icon.png) displays on the record type's card. 
+   The record type is added to the secondary workspace that you selected and the **global record type** icon ![](assets/global-icon.png) displays on the record type's card. 
     
    The following things occur:
 

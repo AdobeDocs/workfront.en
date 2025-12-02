@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: plan-a-project
 title: Plan a Project Overview
-description: Find out what a project is, how to establish is scope and structure, as well as key concepts like schedules, timelines, and start and completion dates. 
+description: A project is a large work item in Adobe Workfront. You can break down a project into tasks which are smaller work items. Tasks can be assigned to users or teams who can be responsible for their completion. When all users complete their tasks, the project also becomes complete.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
@@ -10,11 +10,12 @@ exl-id: 23372e16-3933-445d-977c-901f52299cb2
 ---
 # Plan a project overview
 
-<!--Audited: 01/2024-->
+<!--Audited: 12/2025-->
 
 <!--
-< see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
--->
+< see if you need to add something about approval settings, issue for ad-hoc happenings and how to work with documents??-->
+
+<!--this article is linked to the ESM area in the UI; the ESM team on the Adobe side linked to this article for their -->
 
 A project is a large work item in Adobe Workfront. You can break down a project into tasks which are smaller work items. Tasks can be assigned to users or teams who can be responsible for their completion. When all users complete their tasks, the project also becomes complete.
 
@@ -24,9 +25,13 @@ In addition to planning your tasks in a project, many other details go into plan
 
 Project planning means determining exactly what major objectives you must accomplish to complete the project.
 
-In the initial phases of a project, you may not have yet determined if you should actually do the project. It may not be cost effective, or you may not have the resources. In this stage of planning, you can create a project in Workfront without adding any tasks and set the status to planning. 
+In the initial phases of a project, you may not have yet determined if you should actually do the project. It may not be cost effective, or you may not have the resources. In this stage of planning, you can create a project in Workfront without adding any tasks and set its status to Planning. 
+
+Or, you can submit a project request to ask your Portfolio Manager whether it's viable to create the project at all. This allows you to submit a Business Case for the project where you can estimate what will be needed to complete the project. This creates a project with a status of Requested.  
 
 For more information about creating a project, see the article [Create a project](../../../manage-work/projects/create-projects/create-project.md).
+
+For information about creating a project request, see [Request a project](/help/quicksilver/manage-work/projects/create-projects/request-project.md). 
 
 Consider the following questions before you plan a project: 
 
@@ -48,13 +53,19 @@ After you have defined the overall scope of the project, you may then determine 
 
 ### Define the Start and Completion Date of the project {#define-the-start-and-completion-date-of-the-project}
 
-When you plan a project, one of the first things that you must determine is the timeline: when can the project start and by what time it must complete. Determine whether there a set deadline for when the project must be finished, or whether you should set a starting point and work out from there. 
+When you plan a project, one of the first things that you must determine is the timeline: determine when the project can start and by what time it must complete. 
+
+Determine whether there a set deadline for when the project must be finished, or whether you should set a starting point and work out from there. 
 
 You can schedule a project from a Start Date, or you can schedule it from the Completion Date. You can set this attribute when you initially create the project, and you can change it at any time by editing your project.
+
+For information, see [Edit projects](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
 ### Define the project Schedule {#define-the-project-schedule}
 
 You must determine a schedule and associate it with the project, and with the users who are responsible for completing the tasks on the project. 
+
+A schedule defines what time users have available to work on the project. 
 
 Consider defining the following on a Schedule:
 
@@ -64,7 +75,7 @@ Consider defining the following on a Schedule:
 
 Knowing when users are available to work is important in understanding the progress of your tasks on the project. 
 
-You can create multiple project schedules and apply a default schedule to the project. Additional custom schedules may be applied to different individuals.
+You can create multiple schedules in your Workfront instance, and apply a default schedule that will be used for all the projects. You can also create additional custom schedules to associate them with different individuals.
 
 For more information about Schedules, see the article [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
@@ -75,13 +86,18 @@ When planning a project, there is additional information that must be set up bef
 Consider asking the following questions:
 
 * Is there a regulation that mandates that you keep a record of events and processes? If so, what are you required to track?  
+
   Workfront lets you record edits, scope changes, status changes, and actions so you can comply with the regulations specific to your industry.  
   For more information about defining what updates to track in Workfront, see the article [System-tracked updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-* Is there any information that you are required to track that does not have a field in Workfront to store it in? If yes, create Custom Forms for projects or tasks where you can store this information.  
+* Is there any information that you are required to track that does not have a field in Workfront to store it in? 
+
+  If yes, create Custom Forms for projects or tasks where you can store this information.  
+  
   For more information about creating custom forms, see the article [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Are there any approval check points that must be granted before the work on a project can continue? If yes, create Approval Processes for projects or tasks that you can use as you're building your project.  
+  
   For more information about Approval Processes, see the article [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Build the project timeline
@@ -89,11 +105,12 @@ Consider asking the following questions:
 After you determine the major objectives of a project, and you have decided that the project is worth pursuing, you should calculate the timeline for each objective. Each objective can become one of your tasks on the project.
 
 This helps prioritize your objectives and plan your Work Breakdown Structure accordingly. The Work Breakdown Structure defines the timeline of the project.  
-For more information about creating tasks on a project, see the section [Define tasks](#define-tasks).
+For more information about creating tasks on a project, see the section [Define tasks](#define-tasks) in this article.
 
 Consider the following when building the timeline of the project:
 
 * Break down larger objectives into children tasks and define their Start and their Completion dates.
+* Assign tasks to individuals or teams, so you know who is responsible for their completion. You can assign tasks to job roles, but only for the initial planning phase of the project, when you are not quite sure who can be assigned to the tasks. After you launch the project, it is better to replace the job roles with user or team assignments. 
 * Determine whether your objectives have dependencies on other objectives.
 
   You can set up those dependencies as predecessors.
@@ -118,7 +135,7 @@ As you define the objectives of your project and the tasks associated with them,
 
 You can create tasks on a project in the following ways:
 
-* Add tasks to a project in inline edit.
+* Add tasks to a project manually, as you inline edit the Tasks list on the project.
 * Use a Template with defined Template Tasks and add it to your project. 
 
   The Template Tasks become the Tasks of the Project. 

@@ -46,21 +46,17 @@ Depending on what capabilities you want to define for a record type, you can con
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <p>Any Workfront and Planning package</p>
-<p>Any Workfront and Planning package</p>
+<p>Any Workflow and Planning package</p>
+<div class="preview">
 <p><b>NOTE</b></p>
-<p>To configure connectable record types: </p>
-<ul> 
-<li><p>Any Workfront package and any Planning package</p></li>
-<p>Or</p>
-<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
-
 <p>To configure global record types:</p>
 
 <ul> 
 <li><p>Any Workfront package and a Planning Plus package</p></li>
-<p>Or</p>
-<li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
-<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p>
+Or
+<li><p>Any Workflow package and a Planning Prime or Ultimate package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+</div>
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 

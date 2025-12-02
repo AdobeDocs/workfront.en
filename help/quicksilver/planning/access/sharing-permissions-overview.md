@@ -60,21 +60,6 @@ You can manually share the following objects in Workfront Planning:
 
     For more information, see [Share views](/help/quicksilver/planning/access/share-views.md).
    
-Internally, you can share a workspace, a view, or a record type with the following Workfront entities:
-
-* Users
-* Groups
-* Teams
-* Companies
-* Job roles
-
-When you share workspaces and record types with others, the permission level from the record type is automatically inherited to the records and fields associated with them. 
-
->[!IMPORTANT]
->
->If your organization's instance of Workfront has been onboarded to the Adobe Unified Experience, the users you want to share Planning objects with must be added to the Adobe Admin Console. You cannot share Planning objects with Workfront users who have not been added to the Adobe Admin Console. 
-
-
 ## Considerations about sharing objects in Adobe Workfront Planning
 
 * Your Adobe Workfront license type works in conjunction with your Workfront Planning permissions to give you access to view, contribute, or manage workspaces and their objects.
@@ -82,14 +67,30 @@ When you share workspaces and record types with others, the permission level fro
     For information about how license types affect permission levels for Workfront Planning, see [License type overview when using Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 * System Administrators can manage all workspaces in the system, including the ones they did not create. 
 * Other users, including System Administrators, can only access views they created or that have been shared with them. System Administrators can be given permissions only to Manage a view.
-* You can share a link to a workspace or to a view with others. 
 
-    The following scenarios exist:
-    * Users who receive the link to a workspace must be active users and log in to Workfront to be able to access the workspace.
-    * Users who receive the link to a view can access the view in the following ways: 
-        
-        * Must be active users and log in to Workfront, if the link to the view was internally shared. 
-        * Can be external users to Workfront and access the view from a publicly shared link, without logging in to Workfront.
+* When you share workspaces and record types with others, the permission level from the record type is automatically inherited to the records and fields associated with them. 
+
+    >[!IMPORTANT]
+    >
+    >If your organization's instance of Workfront has been onboarded to the Adobe Unified Experience, the users you want to share Planning objects with must be added to the Adobe Admin Console. You cannot share Planning objects with Workfront users who have not been added to the Adobe Admin Console. 
+
+* You can share Planning objects in the following ways: 
+    
+    * Internally, you can share a workspace, a view, or a record type with the following Workfront entities:
+
+        * Users
+        * Groups
+        * Teams
+        * Companies
+        * Job roles
+
+        You can share a Planning object with up to 100 entities per object. 
+
+    * Internally, by sharing a link to a workspace or to a view with other Planning users. The following scenarios exist:
+
+        * Users who receive the link to a workspace must be active users and log in to Workfront to access the workspace.
+        * Users who receive an Internal sharing link for a view must be active users and log in to Workfront to access the view.
+    * Externally, by sharing a Public sharing link to a view with external users that do not have a Workfront account. 
 
 ## Sharing permissions for Adobe Workfront Planning objects
 
@@ -163,7 +164,7 @@ The following scenarios exist:
 
 >[!NOTE]
 >
->*When you remove permissions from a record type, users still retain View permissions to the workspace and all the record types, unless you remover their permissions from the workspace. 
+>When you remove permissions from a record type, users still retain View permissions to the workspace and all the record types, unless you remove their permissions from the workspace. 
 
 ### Permissions to records
 

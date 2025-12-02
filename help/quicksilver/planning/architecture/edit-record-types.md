@@ -40,7 +40,7 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
 <p>To configure connectable record types: </p>
 <ul> 
 <li><p>Any Workfront package and any Planning package</p></li>
-<p>Or</p>
+Or
 <li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
 
 <div class="preview">
@@ -48,7 +48,7 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
 
 <ul> 
 <li><p>Any Workfront package and a Planning Plus package</p></li>
-<p>Or</p>
+Or
 <li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
 
