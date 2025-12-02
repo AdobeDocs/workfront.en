@@ -13,8 +13,6 @@ exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
 If you want to receive the following email notifications from the Preview Sandbox environment, you must enable this functionality in your user settings while you are logged into Preview:
 
 * Email notifications triggered by event notifications
-* Reminder notifications
-* Automatic late or early reminder notifications
 * Email invitations
 
 You can do this for yourself or for any user that you have access to edit. For more information about the access needed to edit users, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
