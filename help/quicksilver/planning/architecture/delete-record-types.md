@@ -44,12 +44,12 @@ For information about record types, see [Record types overview](/help/quicksilve
    <td> 
 <ul> 
 <li><p>Any Workfront and any Planning package</p></li>
-<p>Or</p>
+Or
 <li><p>Any Workflow and any Planning package</p></li></ul>
 <div class="preview">
 <p>To delete global record types:</p>
 <ul><li><p>Any Workfront package and a Planning Plus package</p></li>
-<p>Or</p>
+Or
 <li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
 </div>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
