@@ -16,6 +16,17 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+<!--## Removed public sharing of views on a global record type in a secondary workspace
+
+Preview: December 3, 2025 (****LILIT IS CHECKING ON THIS*****)
+Production fast release: WAITING ON LILIT
+Production for everyone: January 15, 2026
+
+We have removed the Public sharing tab when sharing a view for a global record in a secondary workspace. You cannot share a view publicly from a global record type added to another workspace from an existing global record type. You can share a global record type view publicly from its original workspace.
+
+For information, see [Share views](/help/quicksilver/planning/access/share-views.md).
+-->
+
 ## Connect GenStudio for Performance Marketing Brands with Workfront Planning record types
 
 >[!NOTE]
