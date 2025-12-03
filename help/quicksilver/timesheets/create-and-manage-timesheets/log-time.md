@@ -10,18 +10,12 @@ exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
 ---
 # Log time
 
+{{preview-fast-release-general}}
+
 <!--Audited: 5/2025-->
 
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
-
-<!--<div class="preview">
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>-->
 
 You can log time for work items in Adobe Workfront to indicate the number of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
 
@@ -42,7 +36,7 @@ For more information about the type of hours you can log in Workfront, see [Mana
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <ul><li><p>Light or higher to log hours on a task, issue, or General Hours on a timesheet</p></li>
+   <ul><li><p>Light or higher to log hours on a task, issue, <span class="preview">project</span>, or General Hours on a timesheet</p></li>
    <li><p>Standard to log hours on projects</p></li></ul>
 
    <p>Or: </p>
@@ -390,9 +384,9 @@ You can log project-specific time on a project, task, or issue in the following 
 
 To log time in the Updates section of a project, task, or issue, you must have the following:
 
-* The correct access and permissions, as described in the [Access requirements](#access-requirements) section in this article.
+* The correct access and permissions, as described in the [Access requirements](#access-requirements) section in this article. <span class="preview">If your access level is Light, and you are logging time on a project, you must also have Contribute or higher permissions to the project with access to Log Hours. For more information about granting permissions on projects, see [Share a project](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md).</span>
 
-* Your Workfront administrator must enable the Log time directly on projects setting under [!UICONTROL **Timesheet & Hours** ]> [!UICONTROL **Preferences**] in the System area, if you want to log time directly to a project. 
+* Your Workfront administrator must enable the Log time directly on projects setting under [!UICONTROL **Timesheet & Hours** ]> [!UICONTROL **Preferences**] in the System area, if you want to log time directly to a project.
 
   For more information about allowing users to log hours directly to projects, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -410,7 +404,7 @@ To log time in the Updates section of a project, task, or issue:
    >   
    >   There is an indication in the upper-right corner of the Enter Days box of how many hours are included in a day. 
 
-   ![Log time  ox for a task in the Updates area](assets/log-time-box-in-updates-stream.png)
+   ![Log time box for a task in the Updates area](assets/log-time-box-in-updates-stream.png)
 
 1. Specify the following information:
 
@@ -436,7 +430,7 @@ Or
 
 You must have all of the following:
 
-* A Plan license with administrative access to Timesheets & hours. For more information about granting administrative access to Timesheets & hours, see [Grant users administrative access to certain areas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+* A Standard or Plan license with administrative access to Timesheets & hours, <span class="preview">or a Light license with Edit access to Projects</span>. For more information about granting administrative access to Timesheets & hours, see [Grant users administrative access to certain areas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md). <span class="preview">Administrative access to Timesheets & hours is not available for Light licenses.</span>
 * Contribute or higher permissions to the project with access to Log Hours. For more information about granting permissions on projects, see [Share a project in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 * Your Workfront administrator must enable the Log time directly on projects setting in the **Timesheet & Hours > Preferences** section of the Setup area, if you want to log time directly to a project. For more information about allowing users to log hours directly to projects, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
