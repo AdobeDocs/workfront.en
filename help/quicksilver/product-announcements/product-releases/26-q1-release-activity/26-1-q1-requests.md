@@ -11,7 +11,7 @@ This page describes Requests enhancements made with the First Quarter 2026 relea
 
 For a list of all changes available at this point in the First Quarter 2026 release cycle, see [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Share views in the Requests area and the My Requests widget
+<!--## Share views in the Requests area and the My Requests widget
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ To make it easier to ensure to see the information you need, we've added the abi
 
 You can share request list views from both the Requests area in Workfront and the My Requests widget in Home. Sharing functionality is identical in both places, and view settings, including sharing, are preserved when moving between the My Requests widget and the Requests area.
 
-For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).-->
 
 
 ## Save drafts of requests in the new requesting experience
