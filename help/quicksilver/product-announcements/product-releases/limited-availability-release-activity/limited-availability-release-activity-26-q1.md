@@ -48,7 +48,7 @@ The Planned Hours KPI on the Advanced Assignments screen is no longer editable w
 
 **Exchange Rate Date field hidden when date-effective exchange rates are not used**
 
-The **Exchange Rate Date** field in the Project Details > Finance area is now hidden when the **Use date-effective exchange rates from the system** check box is not selected. Previously, when editing a project, the date field was displayed even when date-effective exchange rates were not enabled.
+The **Exchange Rate Date** field in the Project Details > Finance area is now hidden when the **Use date-effective exchange rates from the system** check box is not selected. Previously, when editing a project, the date field was displayed on the project details even when date-effective exchange rates were not enabled.
 
 <!--### Maintenance Updates week of December 7-13, 2025
 
