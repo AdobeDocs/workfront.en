@@ -44,13 +44,19 @@ On the Advanced Assignments Advanced Search, selecting an option for **Hour / FT
 
 The Planned Hours KPI on the Advanced Assignments screen is no longer editable when the task duration is 0. Previously, you could edit the planned hours but the changes were not saved.
 
-<!--### Maintenance Updates week of November 30-December 6, 2025
+### Maintenance Updates week of November 30-December 6, 2025
+
+**Exchange Rate Date field hidden when date-effective exchange rates are not used**
+
+The **Exchange Rate Date** field in the Project Details > Finance area is now hidden when the **Use date-effective exchange rates from the system** check box is not selected. Previously, when editing a project, the date field was displayed even when date-effective exchange rates were not enabled.
+
+<!--### Maintenance Updates week of December 7-13, 2025
 
 **Title**
 
 text
 
-### Maintenance Updates week of December 7-13, 2025
+### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
