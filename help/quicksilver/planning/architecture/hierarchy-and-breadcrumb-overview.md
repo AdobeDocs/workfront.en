@@ -3,7 +3,6 @@ title: Hierarchy and Breadcrumb Overview
 description: You can create multiple workspace hierarchies between the record types in a workspace.
 hide: yes
 hidefromtoc: yes
-exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
 ---
 <!--update the metadata with real information when making this available in TOC and in the left nav:
 
