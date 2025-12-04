@@ -11,3 +11,5 @@ hidefromtoc: yes
 ---
 
 # Adobe enterprise storage permissions and access overview
+
+<!--linked in UI -->
