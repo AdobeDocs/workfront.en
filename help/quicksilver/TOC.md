@@ -2093,6 +2093,7 @@ feature-set: Workfront
     * [Architecture: article index](planning/architecture/architecture-information.md)
     * [Workspaces overview](planning/architecture/workspaces-overview.md)
     * [Create workspaces](planning/architecture/create-workspaces.md)
+    * [Hierarchies and breadcrumbs overview](planning/architecture/hierarchy-and-breadcrumb-overview.md)
     * [Create workspace hierarchies](planning/architecture/create-workspace-hierarchies.md)
     * [Record types overview](planning/architecture/overview-of-record-types.md)
     * [Create record types](planning/architecture/create-record-types.md)
