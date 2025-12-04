@@ -107,7 +107,7 @@ The record type configured to be global has the following properties:
         For more information, see [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md).
     * Share the record types's views. 
 
-        You cannot share a view publicly from a global record type in a secondary workspace. You can only share views internally from a secondary workspace. 
+        You cannot share a view publicly from a global record type in a secondary workspace. You can only share views internally from a secondary workspace. You can share a view internally and publicly for a global record type in its original workspace. 
         
         For information, see [Share views](/help/quicksilver/planning/access/share-views.md).
 

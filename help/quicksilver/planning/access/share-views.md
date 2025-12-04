@@ -271,7 +271,7 @@ To share a view publicly in Workfront Planning:
 
    >[!TIP]
    >
-   ><span class="preview">The **Create public link** setting is dimmed for a global record type in its secondary workspace.</span>
+   ><span class="preview">The **Public sharing** tab is removed for a global record type in its secondary workspace.</span>
 
 
 1. Click the **Copy link** icon ![Copy link view](assets/copy-link-view.png) to copy the link to your clipboard. 
