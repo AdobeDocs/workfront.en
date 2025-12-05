@@ -67,7 +67,6 @@ The procedure for creating requests from drafts differs between the new requesti
 
 
 
-<!--
    
 1. Open the draft.
 
@@ -77,10 +76,6 @@ The procedure for creating requests from drafts differs between the new requesti
    * In the requests list in the My Requests widget in Home
    * In the New request dialog (includes only drafts of requests created with the selected form)
    
--->
-1. Open the draft.
-
-   Drafts can be found in the New request dialog (includes only drafts of requests created with the selected form).
 1. Update the information for the request as described in [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (Optional and conditional) At any point during entering the request, click **Discard** draft if you want to delete the draft. This deletes the draft. 
 
