@@ -169,7 +169,7 @@ Consider asking the following questions:
 
 * Are there any approval check points that must be granted before the work on a project can continue? If yes, create approval processes for projects or tasks that you can use as you're building your project and take an inventory of what documents or proofs must be approved before work can continue.  
   
-  For more information about approvals, see the follwowing articles:
+  For more information about approvals, see the following articles:
   
   * [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)  
   * [Review and approve work](/help/quicksilver/review-and-approve-work/review-and-approve-work.md)
