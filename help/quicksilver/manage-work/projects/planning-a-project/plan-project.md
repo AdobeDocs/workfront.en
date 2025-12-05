@@ -79,27 +79,6 @@ You can create multiple schedules in your Workfront instance, and apply a defaul
 
 For more information about Schedules, see the article [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-### Manage additional information needed for planning the project {#manage-additional-information-needed-for-planning-the-project}
-
-When planning a project, there is additional information that must be set up before you can start working on the project. 
-
-Consider asking the following questions:
-
-* Is there a regulation that mandates that you keep a record of events and processes? If so, what are you required to track?  
-
-  Workfront lets you record edits, scope changes, status changes, and actions so you can comply with the regulations specific to your industry.  
-  For more information about defining what updates to track in Workfront, see the article [System-tracked updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
-
-* Is there any information that you are required to track that does not have a field in Workfront to store it in? 
-
-  If yes, create Custom Forms for projects or tasks where you can store this information.  
-  
-  For more information about creating custom forms, see the article [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-
-* Are there any approval check points that must be granted before the work on a project can continue? If yes, create Approval Processes for projects or tasks that you can use as you're building your project.  
-  
-  For more information about Approval Processes, see the article [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-
 ## Build the project timeline
 
 After you determine the major objectives of a project, and you have decided that the project is worth pursuing, you should calculate the timeline for each objective. Each objective can become one of your tasks on the project.
@@ -166,3 +145,32 @@ When defining tasks, consider the following:
    * Reassign the tasks to users who are available with no other constraints.  
      For more information about planning your project resources, see the article [Resource Planning: article index](../../../resource-mgmt/resource-planning/resource-planning-overview.md).  
      For more information about scheduling your resources to accomplish the work on a project, see [Workload Balancer overview](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
+
+## Manage additional information needed for planning the project {#manage-additional-information-needed-for-planning-the-project}
+
+When planning a project, there is additional information that must be set up before you can start working on the project. 
+
+Consider asking the following questions:
+
+* Is there a regulation that mandates that you keep a record of events and processes? If so, what are you required to track?  
+
+  Workfront lets you record edits, scope changes, status changes, and actions so you can comply with the regulations specific to your industry.  
+  For more information about defining what updates to track in Workfront, see the article [System-tracked updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+
+* Is there any information that you are required to track that does not have a field in Workfront to store it in? 
+
+  If yes, create Custom Forms for projects or tasks where you can store this information.  
+  
+  For more information about creating custom forms, see the article [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+* Do you need to document processes and do you work with assets that are either part of the day-to-day work or determine the resolution of the project? If yes, create a system for storing documents. 
+
+  For information, see [Documents: article index](/help/quicksilver/documents/documents-overview.md). 
+
+* Are there any approval check points that must be granted before the work on a project can continue? If yes, create approval processes for projects or tasks that you can use as you're building your project and take an inventory of what documents or proofs must be approved before work can continue.  
+  
+  For more information about approvals, see the follwowing articles:
+  
+  * [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)  
+  * [Review and approve work](/help/quicksilver/review-and-approve-work/review-and-approve-work.md)
+  * [Available functionality for unified document approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md) 
