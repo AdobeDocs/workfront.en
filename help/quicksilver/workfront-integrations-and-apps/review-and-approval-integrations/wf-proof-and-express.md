@@ -97,6 +97,8 @@ When requesting approval on a remixed Express template, users can choose a Workf
 
 If no project is selected, the proof will default into an Express-specific project.
 
+For more information, see [Send templates for review and approval](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
+
 ## Review and approve remixed Express file 
 
 Stakeholders can provide feedback relevant to their area of expertise—-such as copy, legal, or brand—-by using markup tools and comments in the Workfront proofing viewer.
