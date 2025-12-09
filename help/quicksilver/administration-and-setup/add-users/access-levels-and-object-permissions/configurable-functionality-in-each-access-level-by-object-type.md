@@ -8,6 +8,10 @@ exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
 ---
 # Configurable access to functionality for each object type
 
+>[!NOTE]
+>
+>The information in this article refers to the legacy access levels. For information about the new access levels, see [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+
 When configuring an access level for your organization, you can determine which specific actions are available to the access level.
 
 This article explains the options an Adobe Workfront administrator can select for each object type, in each access level. It also explains what the default configuration is for each type of access level.
