@@ -40,10 +40,6 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Enable or disable AI Assistant in Workfront
 
->[!NOTE]
->
->AI Assistant is disabled by default for non-admins. 
-
 To enable AI Assistant for a given access level:
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
@@ -52,4 +48,11 @@ To enable AI Assistant for a given access level:
 1. In the **Set additional restrictions...** area of the **Edit Access Level** box, uncheck the **Disable the Workfront AI Assistant** checkbox.
 1. Click **Save**.
 1. Repeat steps 3-5 for each access level you want to enable AI Assistant for.
+
+
+
+>[!NOTE]
+>
+>* AI Assistant is disabled by default for non-admins. 
+>* If a non-admin interacts with the AI Assistant icon in Workfront, the AI Assistant agreement appears requesting the non-admin to accept the terms and conditions. If they accept the agreement, they can use AI Assistant even though it is disabled in their layout template.
 
