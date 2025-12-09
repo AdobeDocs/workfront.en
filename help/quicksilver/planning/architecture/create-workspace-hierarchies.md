@@ -1,6 +1,6 @@
 ---
 title: Create Workspace Hierarchies
-description: You can create multiple workspace hierarchies between the record types in a workspace.
+description: As a workspace manager, you can create multiple workspace hierarchies between the record types in Adobe Workfront Planning. After you connect record types in a workspace and create a hierarchy, record types are connected to one another, with one record type designated as the parent and up to 6 other record types configured as children.
 hide: yes
 hidefromtoc: yes
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
@@ -22,7 +22,14 @@ hidefromtoc: yes
 
 # Create workspace hierarchies
 
-You can create multiple workspace hierarchies between the record types in a workspace. 
+As a workspace manager, you can create multiple workspace hierarchies between the record types in Adobe Workfront Planning. 
+
+After you connect record types in a workspace and create a hierarchy, record types are connected to one another, with one record type designated as the parent and up to 6 other record types configured as children. <!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+Hierarchies will generate breadcrumbs for the record types and records <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> that display in their headers. This way, users know where they are in the hierarchy at any stage of their workflow. 
+
+For general information about hierarchies and breadcrumbs, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md). 
+
 
 ## Access requirements
 
@@ -66,3 +73,5 @@ Or
  For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Create a workspace hierarchy

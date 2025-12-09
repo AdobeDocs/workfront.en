@@ -96,8 +96,6 @@ The following are the highest access settings available for objects in the Stand
 | Financial data |&nbsp; |&nbsp; |✓ |
 | Resource Management |&nbsp; |&nbsp; |✓ |
 | Scenario Planner  |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
-| Boards |&nbsp; |&nbsp; |✓ | 
-| Home |&nbsp; |&nbsp; |✓|
 | Goals  |&nbsp; |&nbsp; |✓ |
 
 {style="table-layout:auto"}
@@ -149,8 +147,8 @@ The following are the highest access settings available for objects in the Light
   <tr> 
    <td>Tasks</td> 
    <td>&nbsp;</td> 
-   <td>✓</td> 
-   <td>&nbsp;</td> 
+   <td></td> 
+   <td>✓ (limited)</td> 
   </tr> 
   <tr> 
    <td>Issues</td> 
@@ -209,7 +207,7 @@ The following are the highest access settings available for objects in the Light
   <tr> 
    <td>Financial data</td> 
    <td></td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓(the default setting is No Access)</p> </td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
@@ -224,22 +222,12 @@ The following are the highest access settings available for objects in the Light
    <td>&nbsp;</td> 
    <td>✓ (The default setting is No Access.)</td> 
   </tr> 
-  <tr> 
-   <td>Boards </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>✓</td> 
-     <tr> 
-   <td>Home </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>✓</td> 
-  </tr> 
+  
   <tr>   
    <td>Goals </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-   <td>✓</td> 
+   <td>✓ (The default setting is No Access)</td> 
  </tbody> 
 </table>
 
@@ -257,6 +245,11 @@ Users with this built-in access level:
 * Can make requests and update those requests
 * Can upload and approve documents
 * Can approve projects, tasks, and issues
+
+  >[!NOTE]
+  >
+  >Contributors can participate in approvals but cannot access the Approvals tab to view or manage approval processes.
+
 * Can review the status of issues they have submitted
 * Can be assigned to work items but can't complete them
 * Can access requests only from the Main Menu. For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
@@ -271,8 +264,8 @@ The following are the highest access settings available for objects in the Contr
 
 | Workfront object type |No access |View access |Edit access |
 |---|---|---|---|
-| Project |&nbsp; |✓ |&nbsp; |
-| Task |&nbsp; |✓ |&nbsp; |
+| Project |&nbsp; |✓ (limited) |&nbsp; |
+| Task |&nbsp; |✓(limited) |&nbsp; |
 | Issue |&nbsp; |&nbsp; |✓ |
 | Portfolios |&nbsp; |✓ |&nbsp; |
 | Programs |&nbsp; |✓ |&nbsp; |
@@ -281,13 +274,11 @@ The following are the highest access settings available for objects in the Contr
 | Document |&nbsp; |&nbsp; |✓ |
 | User |&nbsp; |✓ |&nbsp; |
 | Teams |&nbsp; |✓ |&nbsp; |
-| Template |✓ |&nbsp; |&nbsp; |
+| Templates |✓ |&nbsp; |&nbsp; |
 | Financial data |✓ |&nbsp; |&nbsp; |
 | Resource Management |✓ |&nbsp; |&nbsp; |
 | Scenario Planner  |✓ |&nbsp; |&nbsp; |
-| Boards |&nbsp; | &nbsp; |✓ (Simple cards) | 
-| Home |&nbsp; |✓ (My updates) |&nbsp; |
-| Goals  |&nbsp; |&nbsp; |✓ |
+| Goals  |&nbsp; |&nbsp; |✓ (The default setting is No Access) |
 
 {style="table-layout:auto"}
 
@@ -332,12 +323,10 @@ The following are the highest access settings available for objects in the Exter
 | Document |&nbsp; |✓ (No ability to share documents) |&nbsp; |
 | User |&nbsp; |✓ |&nbsp; |
 | Teams |✓ |&nbsp; |&nbsp; |
-| Template |✓ |&nbsp; |&nbsp; |
+| Templates |✓ |&nbsp; |&nbsp; |
 | Financial data |✓ |&nbsp; |&nbsp; |
 | Resource Management |✓ |&nbsp; |&nbsp; |
 | Scenario Planner  |✓ |&nbsp; |&nbsp; |
-| Boards |✓ |&nbsp; |&nbsp; | 
-| Home |✓ |&nbsp; |&nbsp; |
 | Goals  |✓ |&nbsp; |&nbsp; |
 
 

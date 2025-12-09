@@ -138,6 +138,7 @@ And
       >[!NOTE]
       >
       >You cannot edit the new record type's appearance, additional settings, or original fields. You can edit the record type and all its original fields and settings only from the original workspace.
+      >
 
 1. (Optional) Click, then drag and drop the newly added record type to any section within the workspace. 
 1. (Optional) Click the **More** menu on the new record type's card or to the right of the record type name on its page, then click **Delete**.

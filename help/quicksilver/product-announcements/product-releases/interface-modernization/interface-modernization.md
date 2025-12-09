@@ -1410,6 +1410,13 @@ With this update we have also added information about the colors and color codes
 
 For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
+
+#### New look and feel of the Projects section of a portfolio 
+
+ **Preview and Production:  March 18, 2025**
+
+ We have made improvements to the list of projects in the Projects section of a portfolio. The list now matches the majority of lists in Workfront.
+
 +++
 
 

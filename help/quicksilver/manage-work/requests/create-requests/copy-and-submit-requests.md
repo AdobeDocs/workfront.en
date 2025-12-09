@@ -250,7 +250,7 @@ You can copy and submit requests in the Requests area of Workfront, or from the 
 
 1. (Optional) Update any information from the copied request. Available fields depend on the Request Queue or Request Form used for the request.
 
-   <!--When you enter or change any field values in the copied request, it is saved as a draft.-->
+   When you enter or change any field values in the copied request, it is saved as a draft.
 
 1. Click **Submit**.
 
