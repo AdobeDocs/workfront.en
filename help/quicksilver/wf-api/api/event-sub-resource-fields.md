@@ -3018,6 +3018,11 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>project:status</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>recurrenceRuleID</td> 
   </tr> 
   <tr> 
