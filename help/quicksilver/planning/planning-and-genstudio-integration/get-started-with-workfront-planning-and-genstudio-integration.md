@@ -243,7 +243,13 @@ The sections below describe the following:
     * Add record types
     * Share it with others
 
-        You can share the GenStudio workspace with others who don't have a GenStudio account. You can share it only with users available in the Identity Management System (IMS) of your organization. <!--check to see this is correct--> 
+        You can share the GenStudio workspace with others who don't have a GenStudio account. You can share it only with users available in the Identity Management System (IMS) of your organization. 
+        
+        <!--
+        >[!NOTE]
+        >
+        >You cannot remove GenStudio users from the GenStudio workspace or its record types' sharing. -->
+        <!--check to see this is correct--> 
     <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
 
 * When you have Contribute permissions to the GenStudio workspace in Planning, you cannot modify the workspace from Workfront Planning. 
@@ -372,9 +378,20 @@ You can make the following connections between GenStudio record types and other 
 
 ### Connection to GenStudio Brands from Workfront Planning workspaces
 
-When there is an integration between Workfront Planning and Adobe GenStudio in your organization, you can connect Planning record types to GenStudio Brands from any record type in any workspace in Workfront Planning. 
+When your organization has an integration between Workfront Planning and Adobe GenStudio, you can connect Planning record types to GenStudio Brands from any record type in any workspace in Workfront Planning. 
 
 Brands are not visible as record type cards in the GenStudio workspace. Brands are available to create new connections from any Workfront Planning record type, including those in the GenStudio workspace. 
+
+<!-- when this releases, replace the paragraph above with these:
+
+Brands are connected by default to the following GenStudio workspace record types:
+
+    * Products
+    * Personas
+
+Brands are available for manually connecting to all other GenStudio workspace record types, or record types from all other workspaces you have permissions to manage. 
+
+-->
 
 ## The Preview environment
 

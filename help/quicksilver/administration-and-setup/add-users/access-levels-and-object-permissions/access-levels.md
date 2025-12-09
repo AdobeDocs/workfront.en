@@ -12,6 +12,10 @@ exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
 ---
 # How access levels work
 
+>[!NOTE]
+>
+>The information in this article refers to the legacy access levels. For information about the new access levels, see [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+
 As an Adobe Workfront administrator, you can grant users access to view or edit objects by assigning them an access level. The articles below explain how access levels work.
 
 * [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) 

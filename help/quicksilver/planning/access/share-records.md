@@ -20,7 +20,7 @@ hide: yes
 
 {{planning-important-intro}}
 
-You can adjust people's permissions to individual records in a record type. O
+You can adjust people's permissions to individual records in a record type. 
 
 You can share an Adobe Workfront Planning record in the following ways: 
 
@@ -106,6 +106,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 <!--maybe use the Share record types as example here and touch on the same points: help/quicksilver/planning/access/share-record-types.md; in addition to using Lilit's information-->
 
+<!--checking on the below with Lilit-->
+
 * You can share records with the following entities: people, groups, teams, companies or job roles.
 * When you share a workspace with users, they also receive the same permissions to the records in the workspace, by default. 
 * When you remove an entity from a workspace, all sharing permissions are removed from the record types and all records in it.  
@@ -130,13 +132,13 @@ For more information about Workfront access requirements, see [Access requiremen
    * If they have View permissions to the record type, they gain View permissions to the record
    * If they have Contribute or Manage permissions to the record type, they gain Manage permissions to the record
 
-* As a workspace manager, you can share a record with a user that is not part of the workspace. In this case, there is a warning next to the added entity notifying that they don't have access to the workspace. You can accept to add the user to both the record and the workspace, or deny adding them to the workspace which also removes them from the record. 
+* As a workspace manager, you can share a record with a user that is not part of the workspace. In this case, there is a warning next to the added entity notifying that they don't have access to the workspace. You can continue adding the user to the record which will also add them to the workspace, or stop adding them to the record which will also not add them to the workspace.
 
 * When you share a record with users that have Manage permissions to the workspace, they also get Manage permissions to the record by default. The View permission is dimmed. 
 
 * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.
 
-* You can disable inherited permissions for a single record, in which case you can give them permissions individually, or they can gain permissions if they belong to "Everyone in the workspace" option. <!-- is this OK to say "workspace? should it be "record"??-->
+* You can disable inherited permissions for a single record, in which case you can give them permissions to  individual records, or they can gain permissions if they belong to **Everyone in the workspace can view** option. <!-- is this OK to say "workspace? should it be "record"??-->
 
 * If multiple sharing permissions apply for the same user, they receive the highest permission of those permissions.  
 
@@ -155,3 +157,91 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
 ## Share record permissions
 
+You can adjust permissions to individual records, if you have Manage permission to the workspace. 
+
+{{step1-to-planning}}
+
+1. Open the workspace whose records you want to share. 
+1. Click the record type whose records you want to share. 
+
+1. Do one of the following: 
+
+   * From the table view, hover over the name of a record, click the **More** menu ![More menu](assets/more-menu.png), then click **Share**. 
+   * From any view, click the name of a record, then click **Share** in the upper-right corner of the record's details page.
+
+   The **Share** box opens.
+
+   ![Permissions for records with inherited permissions on](assets/permissions-for-records-with-inherited-permissions-on.png)
+
+1. (Optional) In the **Who has access** area, the **Everyone in the workspace can view** option is selected by default.  All users that have View or higher permissions to the workspace and record type can view the record. 
+
+1. (Optional) Click the number of users under the **Inherited permissions** option to view users, teams, groups, companies, or job roles that inherit permissions from the workspace.
+
+   >[!TIP]
+   >
+   >You cannot remove individual entities from the Inherited permissions list.
+
+1. (Optional and conditional) If you want to share the record type with specific entities and give them a different access to the record type than they already have for the workspace, do the following:
+
+   1. Select **Disable** from the **Inherited permissions** drop-down menu.
+
+   >[!TIP]
+   >
+   >Workspace managers continue to have Manage permissions to the record type and the record.
+
+   1. (Optional) Select **Only invited people can access** from the **Who has access** area.
+
+   1. In the **Grant access to this record type** field, add the users, teams, groups, companies, or job roles that you want to grant a different permission level to than they have for the workspace or the record type.
+   1. Choose one of the following permission levels:
+
+      * View
+      * Manage
+
+      <!--checking on the below with Lilit-->
+
+   >[!IMPORTANT]
+   >
+   >* In addition to teams, groups, companies, and job roles, you can share only with users that have been added to the Adobe Admin Console. You cannot add Workfront-only users. For information, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).  
+   >* If users have Contribute or Manage permissions to the workspace and the record type, they will keep Manage permissions to the record. The View permission is dimmed
+   >* You cannot give users a lesser permission to the record if they have Contribute or higher. 
+   > For more information, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
+
+1. To give users who do not have permissions to the workspace access to view a record, in the **Grant access to this view** field, start typing the name of a user, a group, team, company, or job role, then click it when it displays in the list. 
+
+   The entity you selected is added to the record and to the workspace with **View** permissions. 
+
+   System administrators always receive Manage permissions to records shared with them, and there is an indication that a user is a System administrator.
+
+1. (Optional) Click **Copy link** to copy a link to the record to your clipboard and share it with others. The link will open the record's details page. 
+1. Click **Save**.
+
+   The record is now shared with other users. 
+   <!--Checking with Lilit on this: The users you shared the record with receive both an in-app and email notification about having given permissions to the following entities:
+
+   * The record
+   * The record type, if they never had permissions before
+   * The workspace, if they had not had permissions to the workspace before the record was shared with them. -->
+
+1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the record type page and display it in the selected view. They must have permissions to the record type to be able to view it. For more information, also see [Share records using a link](/help/quicksilver/planning/records/share-records.md). 
+
+## Remove permissions to a record (***************THIS WAS COPIED FROM RECORD TYPES, IT NEEDS TO BE EDITED FOR RECORDS, BUT WAIT ON LILIT'S SLACK RESPONSE**********)
+
+You can remove users' permissions from a record. However, they will retain at least View permissions to the recordworkspace which also gives them at least View permissions to the record type. You must remove their access from the workspace if you want them to have no permissions to the record types in the workspace. 
+
+{{step1-to-planning}}
+
+1. Open the workspace whose record types you want to stop sharing, then click a record type card. This opens the record type page.
+
+1. From the tab of any view, click **Share** in the upper-right corner of the record type. 
+1. Click **Share the record type**.
+
+   The **Share** box opens.
+1. Find the user, group, team, company, or job role that whose permissions you want to remove, expand the permissions drop-down menu to the right of their name, then click **Remove**. <!--check the screen shot below - the UI text for View might not be accurate-->
+
+    ![Remove option on record type sharing drop-down](assets/remove-option-on-record-type-sharing-drop-down.png)
+
+1. Click **Save**.
+
+   People no longer have the indicated permissions to the record type. However, they they still have permissions to the workspace, unless you also remove them from workspace permissions. 
+   
+   There is no notification for the users that have been removed from accessing the view that they no longer have this access.

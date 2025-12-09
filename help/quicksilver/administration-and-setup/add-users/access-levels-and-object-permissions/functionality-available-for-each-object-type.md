@@ -15,6 +15,10 @@ exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
 
 {{highlighted-preview}}
 
+>[!NOTE]
+>
+>The information in this article refers to the legacy access levels. For information about the new access levels, see [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+
 The following tables lists the functionality available for each object type in the various access levels.
 
 It also indicates which actions Workfront administrators can disable or enable using an access level.
