@@ -1,15 +1,18 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Create views in the Requests area
+title: Create or edit views in the Requests area and My Requests widget
 description: If you are using the new requesting experience, you can create and save views for the Requests area.
 author: Becky
 feature: Work Management
 ---
-# Create or edit views in the Requests area
+# Create or edit views in the Requests area and My Requests widget
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
-If you are using the new requesting experience, you can create and save views for the Requests area. These views include filters and column arrangements. 
+If you are using the new requesting experience, you can create and save views for the Requests area. These views include filters, column arrangements, <span class="preview"> and groupings.</span> 
+
+You can create and manage view in the Requests area of Workfront <span class="preview"> or in the My Requests widget in Home.</span>
 
 ## Access requirements
 
@@ -46,7 +49,7 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Create a view in the Requests area
+## Create a view for requests
 
 {{step1-to-requests}}
 
@@ -66,7 +69,7 @@ For more detail about the information in this table, see [Access requirements in
 1. Enter a name for the new view, and click **Create**.
 1. Continue to [Edit a view in the Requests area](#edit-a-view-in-the-requests-area).
 
-## Edit a view in the Requests area
+## Edit a view for requests
 
 You can edit existing views, including views you have just created.
 
@@ -106,6 +109,8 @@ You can edit existing views, including views you have just created.
     >[!TIP]
     >
     >You cannot add any more columns.  
+
+1. <Span class="preview">(Optional) Click **Group** and select the column that you want to group by.</span>
 
 >[!IMPORTANT]
 >
