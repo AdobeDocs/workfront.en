@@ -9,6 +9,8 @@ exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
 ---
 # Build a chart report in a Canvas Dashboard
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
+
 >[!IMPORTANT]
 >
 >The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.<br>
