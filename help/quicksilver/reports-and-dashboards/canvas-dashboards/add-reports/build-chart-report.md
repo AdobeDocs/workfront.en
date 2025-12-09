@@ -114,9 +114,9 @@ There are many configuration options available for building a chart report. In t
 
 1. In the **Bottom (X) axis** section, select the **Update field**, then locate and select the field that contains the data that will be summarized in the chart.
 1. In the **Aggregation type** drop-down, select how the data rolls up to produce the chart output.
-1. (Optional) Add an axis label in the space provided. 
-1. (Optional) Toggle **Hide axis** on. 
-1. (Optional) Input a **Reference line value** to set a target or threshold on the chart.
+1. <span class="preview">(Optional) Add an axis label in the space provided.</span>
+1. <span class="preview"> (Optional) Toggle **Hide axis** on. </span>
+1. <span class="preview">(Optional) Input a **Reference line value** to set a target or threshold on the chart.</span>
 1. Choose a **Line type** from the drop-down menu. 
 1. Select the **Update field** button under the second section, then locate and select the second field you want to display in the chart. 
 
@@ -134,8 +134,8 @@ There are many configuration options available for building a chart report. In t
 1. In the **Metric** section, select the **Update field**, then locate and select the field that contains the data that will be summarized in the chart.
 1. In the **Aggregation type** drop-down, select how the data rolls up to produce the chart output.
 1. In the **Segment** section, select the **Update field**, then locate and select the field that contains the segments you want to display in the pie chart.
-1. In the **Pie** section, toggle **Show segment labels** on to display segment labels.
-1. Toggle **Show total** on to display the total in the middle of the chart. When enabled, there are additional options to show a center label and choose the value format.
+1. <span class="preview"> (Optional) In the **Pie** section, toggle **Show segment labels** on to display segment labels.</span>
+1. <span class="preview"> (Optional) Toggle **Show total** on to display the total in the middle of the chart. When enabled, there are additional options to show a center label and choose the value format.</span>
     
 >[!NOTE]
 >
@@ -145,8 +145,9 @@ There are many configuration options available for building a chart report. In t
 >* Sum aggregation types: The center value displayed is the aggregated total of the numeric or currency value. 
 >* Average, max, and min aggregation types: The center value displays the average, maximum, or minimum value accordingly. 
 
-1. In the Legend section, toggle **Show legend** on to display the chart legend.
-1. Choose a **Legend position** from the drop-down menu.
+1. <span class="preview">(Optional) In the Legend section, toggle **Show legend** on to display the chart legend.</span>
+
+1. <span class="preview"> (Optional) Choose a **Legend position** from the drop-down menu.</span>
 
 ## Configure additional chart report settings
 
