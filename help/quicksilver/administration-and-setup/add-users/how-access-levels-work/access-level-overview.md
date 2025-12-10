@@ -15,7 +15,7 @@ exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
 
 >[!NOTE]
 >
->The information in this article refers to the new access levels. For information about the legacy access levels, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
+>The information in this article refers to the current access levels. For information about the legacy access levels, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
 
 As an Adobe Workfront administrator, you assign an access level to a user for 2 purposes:
 

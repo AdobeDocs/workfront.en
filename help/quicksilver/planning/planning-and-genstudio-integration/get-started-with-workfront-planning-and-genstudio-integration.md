@@ -236,6 +236,7 @@ The sections below describe the following:
     ![GenStudio card in Planning](assets/genstudio-card-with-tag-highlighted.png)
 
     For information, see [Manage the GenStudio workspace in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md). 
+* The GenStudio workspace is automatically shared with all GenStudio users who also have access to Workfront when it's created in Workfront Planning. 
 *  When you have Manage permissions to the GenStudio workspace in Planning, you can:
 
     * Update the GenStudio workspace in Planning (name, description, icon)
@@ -248,8 +249,7 @@ The sections below describe the following:
         <!--
         >[!NOTE]
         >
-        >You cannot remove GenStudio users from the GenStudio workspace or its record types' sharing. -->
-        <!--check to see this is correct--> 
+        >You cannot remove GenStudio users from the GenStudio workspace or its record types'sharing. --> 
     <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
 
 * When you have Contribute permissions to the GenStudio workspace in Planning, you cannot modify the workspace from Workfront Planning. 
@@ -259,16 +259,18 @@ The sections below describe the following:
 * Record types visible both in GenStudio for Performance Marketing and Planning have a GenStudio indicator in Workfront Planning. 
 
     ![GenStudio record type card in Workfront Planning](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
+* Record types in the GenStudio workspace are automatically shared with all GenStudio users who also have access to Workfront when the workspace is created in Planning. 
 * When you have Manage permissions to the GenStudio workspace in Planning, you can do the following from Workfront Planning: 
     * Edit GenStudio record types information (their appearance, advanced settings). 
     * Share GenStudio record types with others.  
     * Create record types. These record types remain only in Workfront Planning. They do not display in GenStudio. 
-    * Enable records from the GenStudio workspace to connect from other workspaces.
-    * Enable records from the GenStudio workspace to be added to other workspaces. 
+    * Enable record types from the GenStudio workspace to connect from other workspaces.
+    * Enable record types from the GenStudio workspace to be added to other workspaces. 
 * When you have Contribute permissions to the GenStudio workspace in Planning, you cannot modify the GenStudio record types from Planning. 
 
 ### Records in the GenStudio workspace
 
+* All GenStudio records are automatically shared with all GenStudio users who also have access to Workfront when the workspace is created in Planning.
 * When you edit GenStudio records from GenStudio for Performance Marketing, the changes are visible in the GenStudio workspace in all your instances of Workfront. 
 * You cannot create or delete Activation records from the GenStudio workspace in Workfront Planning. 
 * When you have Manage or Contribute permissions to the GenStudio workspace in Planning, you can do the following from Workfront Planning: 
@@ -307,12 +309,10 @@ Consider the following about GenStudio record type fields:
 
         >[!TIP]
         >
-        >Fields created in Workfront Planning are not visible in GenStudio.
+        >Fields created in Workfront Planning are not visible in GenStudio lists.
     
     * Hide fields in the table view of a GenStudio record type in Workfront Planning. 
-    <!--* Delete fields created in Workfront Planning for GenStudio record types from Workfront Planning. -- this is not possible, per Iskuhi; the link is there but it will generate an error-->
-
-    <!--this is not true: You cannot delete fields imported from GenStudio from Workfront Planning.-->
+    * You cannot delete fields created in GenStudio from Workfront Planning.
 
 * When you have Contribute permissions to the GenStudio workspace in Planning:
 
