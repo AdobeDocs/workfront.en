@@ -17,7 +17,7 @@ exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
 
 >[!NOTE]
 >
->The information in this article refers to the new access levels. For information about the legacy access levels, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
+>The information in this article refers to the current access levels. For information about the legacy access levels, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
 
 The following tables lists the functionality available for each object type in the various access levels.
 

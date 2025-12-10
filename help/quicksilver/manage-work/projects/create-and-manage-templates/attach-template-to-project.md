@@ -153,15 +153,23 @@ You can attach a template to a project from the project page or from a project l
      </tr> 
      <tr> 
       <td role="rowheader">The selected template tasks below are imported to the project.&nbsp;Deselect the ones you want to exclude. </td> 
-      <td>Deselect any tasks that you want to exclude from the template before attaching it to the project.</td> 
+      <td><p>Deselect any tasks that you want to exclude from the template before attaching it to the project.</p>
+      <p><b>TIP</b></p>
+      <p>You can choose only one task.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Select the project task you want as the predecessor for the tasks in this template.</td> 
-      <td> <p>Click the field to display a list of project tasks, then select which task must finish before the template tasks can start. Alternatively, you can skip this step and set up relationships within the project after the template is attached. </p> <p> Select the <strong>Dependency Type</strong>, <strong>Lag Time</strong> information, and if you want the predecessor to be enforced by checking the <strong>Enforce Predecessor</strong> checkbox. </p> </td> 
+      <td> <p>Click inside the field box to display a list of project tasks, then select which task must finish before the template tasks can start. Alternatively, you can skip this step and set up relationships within the project after the template is attached. </p> <p> Select the <strong>Dependency Type</strong>, <strong>Lag Time</strong> information, and if you want the predecessor to be enforced by checking the <strong>Enforce Predecessor</strong> checkbox. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Select the project task that you want as the parent of the tasks in this template.</td> 
-      <td> Select which project task you want to designate as the parent task for all of the template tasks. If you don't make a selection, all the template tasks appear at the end of your current project tasks. You can skip this step and move tasks around in the project after the template is attached.</td> 
+      <td> <p>Select which project task you want to designate as the parent task for all of the template tasks. If you don't make a selection, all the template tasks appear at the end of your current project tasks. You can skip this step and move tasks around in the project after the template is attached.</p>
+      <p><b>NOTE</b></p>
+      <p>If you selected a parent template task with additional children, only the parent will display the project task as its predecessor after it's added to the project. The children template tasks will not display a predecessor.</p>
+      <p>If you selected only a child template task, the project task will display as its predecessor after it is added to the project. </p> 
+      
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">Options section</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-options-section-nwe-350x78.png" style="width: 350;height: 78;"> </p> </td> 
