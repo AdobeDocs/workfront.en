@@ -11,6 +11,20 @@ This page describes Requests enhancements made with the First Quarter 2026 relea
 
 For a list of all changes available at this point in the First Quarter 2026 release cycle, see [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Form Fill powered by AI now available for requests
+
+>[!NOTE]
+>
+>Preview: December 11, 2025 
+>Production fast release: December 11, 2025  
+>Production for everyone: December 11, 2025  
+
+To make it easier to create requests, we've created Form Fill powered by AI. Now, you can paste in a prompt or upload a document to a request form, and AI will pull out the relevant information and fill in the form. 
+
+Your organization must have AI enabled to access this functionality.
+
+For more information on Form Fill powered by AI, including what is required to enable AI for your organization, see [Use Form Fill powered by AI to fill in a request using prompts or documents](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+
 <!--## Share views in the Requests area and the My Requests widget
 
 >[!NOTE]
@@ -70,3 +84,10 @@ To make it easier to submit requests, we've added the ability to copy requests t
 Previously, this functionality was not available in the new requesting experience.
 
 For information on copying and submitting a request, see [Copy and submit requests](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+
+
+
+
+
+
+
