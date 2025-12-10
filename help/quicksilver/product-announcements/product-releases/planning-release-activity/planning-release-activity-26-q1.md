@@ -40,7 +40,9 @@ For information, see [Get started with the Adobe Workfront Planning and Adobe Ge
 >Production fast release: December 11, 2025
 >Production for everyone: December 11, 2025
 
-We have added a guardrail that prevents you from removing the permissions of GenStudio for Performance Marketing users from Workfront Planning objects. With this improvement, you can no longer remove GenStudio users from the GenStudio workspace in Planning, nor can you disable Inherited permissions for record types in the GenStudio workspace, if those permissions include GenStudio users. Prior to this improvement, when you removed these users from the GenStudio workspace in Planning, they would lose permissions to record types in GenStudio as well.
+We have added a guardrail that prevents you from removing the permissions of GenStudio for Performance Marketing users from Workfront Planning objects. With this improvement, you can no longer remove GenStudio users from the GenStudio workspace in Planning, nor can you disable Inherited permissions for record types in the GenStudio workspace, if those permissions include GenStudio users. Prior to this improvement, when you removed these users from the GenStudio workspace in Planning, they would lose permissions to record types in GenStudio as well. 
+
+Your organization must have both Workfront Planning and Adobe GenStudio for Performance Marketing. 
 
 For information, see [Get started with the Adobe Workfront Planning and Aobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
 
