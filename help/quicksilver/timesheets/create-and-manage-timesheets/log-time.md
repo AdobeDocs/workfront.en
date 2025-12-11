@@ -10,7 +10,7 @@ exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
 ---
 # Log time
 
-{{preview-fast-release-general}}
+{{highlighted-preview}}
 
 <!--Audited: 5/2025-->
 
