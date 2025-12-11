@@ -8,7 +8,7 @@ exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
 ---
 # Get started with lists in [!DNL Adobe Workfront]
 
-<!--Audited: 11/2024-->
+<!--Audited: 12/2025-->
 
 You can view lists of objects in [!DNL Adobe Workfront] to get information about them, such as their start and due dates, users assigned to them, and other objects that are associated with them.
 
@@ -26,7 +26,7 @@ The following are some characteristics of lists in [!DNL Workfront]:
 * The following are the types of lists in Workfront:
 
   * Standard lists
-  * Enhanced lists
+  * Enhanced lists 
 
   For more information, see the section [The difference between the standard and the enhanced lists](#the-difference-between-the-standard-and-the-enhanced-lists) in this article.
 
@@ -200,7 +200,7 @@ Below are some types of object lists that you can find in [!DNL Workfront] and s
    <td>List of timesheets</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Timesheet] s  > [!UICONTROL All Timesheets]*</p> </li> 
+     <li> <p>[!UICONTROL Timesheets]  > [!UICONTROL All Timesheets]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -287,7 +287,7 @@ Below are some types of object lists that you can find in [!DNL Workfront] and s
  </tbody> 
 </table>
 
-You cannot customize the list on the specified area. A [!DNL Workfront] administrator can build a customized list at the system level, or you can build a report for this object if your access level allows you have access to edit reports.
+*You cannot customize the list on the specified area. A [!DNL Workfront] administrator can build a customized list at the system level, or you can build a report for this object if your access level allows you have access to edit reports.
 
 ## List elements
 
@@ -643,25 +643,19 @@ The following table shows some of the differences between the standard and enhan
   </tr> 
   <tr>
   <td> <p>Display <strong>All</strong> or up to <strong>2000</strong> items by default</p> </td> 
-   <td> Display up to 100 items by default, and up to 2000 after scrolling </td> 
+   <td> Display all items in the list after manually scrolling </td> 
   </tr> 
 
  <tr> 
-   <td>Icons at the top of the list are somewhat consistent across all lists, regardless of where you access them. Some lists, tasks, issues, or documents have unique icons pertinent to the functionality of these object types. </td> 
-   <td>Icons at the top of the list differ depending on where you access the list from. In addition, there is a blue bar at the bottom of the list that displays when you select items in the list.</td> 
+   <td>Interacting with the items in the list is consistent across all object types and it's done by using the icons at the top of the list.  </td> 
+   <td>Interacting with the items in the list can differ depending on the object type, and it's done by using the icons at the top of the list as well as the blue toolbar activated after selecting list items. </td> 
   </tr>
 
-  <tr> 
-   <td> <p>Use icons in the toolbar at the top of the list to interact with items in the list</p> </td> 
-   <td> <p>Do one of the following to interact with items in the list, depending on what you want to update:</p>
-   <ul><li>Use the icons in the toolbar at the top for some actions like searching, adding new items, sorting, or filtering</li>
-   <li>Select an item in the list and use the icons in the blue toolbar at the bottom of them list for some actions like deleting or viewing items</li></ul> 
-   </tr>   
-   </td> 
+  </td> 
   </tr> 
   <tr> 
    <td><p>You can apply cell color changes to items in a list</p></td>
-   <td><p>You can apply cell color changes to items in a list only in Workfront Planning. </p></td>
+   <td><p>You cannot apply cell color changes to items in a list. </p></td>
    </td> 
    <td></td> 
   </tr> 
