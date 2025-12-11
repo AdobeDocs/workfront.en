@@ -17,7 +17,7 @@ exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
 
 >[!NOTE]
 >
->The information in this article refers to the legacy access levels. For information about the new access levels, see [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>The information in this article refers to the legacy access levels. For information about the current access levels, see [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 
 Each of the six current built-in access levels is designed for a particular type of user. These access levels let you control what users can edit and view in the system. 

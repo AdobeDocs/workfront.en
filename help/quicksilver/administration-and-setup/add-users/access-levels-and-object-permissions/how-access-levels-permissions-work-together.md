@@ -15,7 +15,7 @@ exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
 
 >[!NOTE]
 >
->The information in this article refers to the legacy access levels. For information about the new access levels, see [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>The information in this article refers to the legacy access levels. For information about the current access levels, see [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 The Adobe Workfront administrator determines what access level each user should have. That access level defines what users can see and do with object types and areas in the system.
 
