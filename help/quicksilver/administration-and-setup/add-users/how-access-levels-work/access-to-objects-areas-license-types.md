@@ -14,7 +14,9 @@ exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
 
 <!-- Audited: 2/2024 -->
 
-{{preview-fast-release-general}}
+>[!NOTE]
+>
+>The information in this article refers to the current access levels. For information about the legacy access levels, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
 
 The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
 
@@ -36,8 +38,7 @@ The table below tells you the highest level of access (Edit or View) that each o
     <tr>
         <td>Projects</td>
         <td>Edit</td>
-        <td><span class="preview">Edit**</span></br>
-        View</td>
+        <td>View</td>
         <td>View</td>
         <td>No Access</td>
     </tr>
@@ -142,7 +143,6 @@ The table below tells you the highest level of access (Edit or View) that each o
 </table>
 
 &#42; Users with a Contributor license can view only reports, dashboards, and calendars that are shared with them.
-<span class="preview">&#42;&#42; Users with a Light license can can only log time at the project level when Edit access is enabled. They cannot create, edit, delete, or share projects.</span>
 
 >[!NOTE]
 >

@@ -30,7 +30,6 @@ Hierarchies will generate breadcrumbs for the record types and records <!--ensur
 
 For general information about hierarchies and breadcrumbs, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md). 
 
-
 ## Access requirements
 
 <!--check the access to see if you oversimplified???-->
@@ -75,3 +74,58 @@ Or
 +++
 
 ## Create a workspace hierarchy
+
+{#step1-to-planning}
+
+1. Click a workspace card.
+1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the workspace name, then click **Settings**. 
+   The **Hierarchies** section opens by default. 
+1. Click **New hierarchy** in the upper-right corner of the **Hierarchies** page.
+1. Click **Add object** and select an object from the dropdown menu. This is going to be the parent object in your hierarchy. 
+   You can select a record type from the current workspace, or a project from Workfront.
+1. Click **Add object** to add a second object which is the first child in your hierarchy, then select another object in the dropdown menu.
+   ![New hierarchy box without field selected](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
+1. Click **Select connected field** to indicate which field connects the two objects.
+1. (Conditional) If a connected field exists between the two object types, select it from the list. Otherwise, click **Add new connection**. 
+
+   >[!WARNING]
+   >
+   >If the **Create corresponding field on linked record type** was not selected when the connected field was created, you must edit the field first before you can continue.
+
+1. (Conditional) If you are adding a new connection, do the following: 
+
+   1. Add a name for your connected field in the **Name** box.
+   1. Select from the following connection types: 
+
+      * **Many to many**
+      * **One to many**
+      * **Many to one**
+      * **One to one**
+   1. Select one of the following types of record appearances:
+
+      * **Name and image**
+      * **Name**
+      * **Image**
+      For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+   1. Click **Save**.
+1. (Optional) Continue adding up to 4 object types to your hierarchies following the steps above. You can add all your object types first and then add the connection fields between them. 
+1. (Optional) Click the **Remove** icon ![Remove icon](assets/minus-icon.png) to remove a connection. 
+1. Click **Save** to save your hierarchy. 
+
+   >[!TIP]
+   >
+   >The **Save** button is dimmed if you don't have all the connected fields in place.
+
+   The following things occur: 
+   
+   * The hierarchy is added to the **Hierarchies** section of the workspace.
+   * The records that populate the connection fields display all the connections in their breadcrumbs, when you go to a record's page.
+1. (Optional) Hover over a hierarchy, then click the **More** menu, then click one of the following:
+
+   * **Edit**: This opens the **Edit hierarchy** box where you can make changes. 
+   * **Delete**: This deletes the hierarchy permanently. Deleted hierarchies cannot be recovered. Connection fields are not deleted. 
+
+
+
+
+   
