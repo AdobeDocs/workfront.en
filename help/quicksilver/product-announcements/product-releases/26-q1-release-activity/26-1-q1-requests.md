@@ -45,8 +45,8 @@ For information on request views, including sharing, see [Create and manage view
 >[!NOTE]
 >
 >Preview: November 20, 2025 
->Production fast release: December 11, 2025  
->Production for everyone: January 16, 2026  
+>Production fast release: January 14, 2026  
+>Production for everyone: January 15, 2026  
 
 To make it easier to create and submit requests, we've added the ability to save drafts to the new requesting experience. Now, when you begin filling out a request and close it, the request is saved in Draft status and can be found on the request form used to create the draft. You can then reopen, update, and submit the draft at your convenience.
 
@@ -61,8 +61,8 @@ For more information on request drafts, see [Create requests from drafts](/help/
 >[!NOTE]
 >
 >Preview: November 20, 2025 
->Production fast release: December 11, 2025  
->Production for everyone: January 16, 2026  
+>Production fast release: January 14, 2026  
+>Production for everyone: January 15, 2026  
 
 To make it easier to keep your requests organized and uncluttered, we've added the ability to delete requests to the new requesting experience. Now, you can delete requests that you have submitted. Workfront Administrators and Workfront Planning Workspace administrators can also delete requests.
 
@@ -77,7 +77,7 @@ For information and instructions, see [Delete a submitted request or request dra
 >
 >Preview: November 20, 2025 
 >Production fast release: December 11, 2025  
->Production for everyone: January 16, 2026  
+>Production for everyone: January 15, 2026  
 
 To make it easier to submit requests, we've added the ability to copy requests to the new requesting experience. Now, you can copy a request, edit any fields, and submit it as a new request.
 
