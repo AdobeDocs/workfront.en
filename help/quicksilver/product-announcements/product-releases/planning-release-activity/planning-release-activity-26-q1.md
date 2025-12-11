@@ -16,6 +16,37 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Adding the Brand connection field to Products and Personas by default in the GenStudio workspace  
+
+>[!NOTE]
+>
+>Preview: December 11, 2025
+>Production fast release: December 11, 2025
+>Production for everyone: December 11, 2025
+
+The connection field with the GenStudio for Performance Marketing Brand is now added by default to the Products and Personas record types in the GenStudio workspace of Workfront Planning.  
+
+Your organization must have both Workfront Planning and Adobe GenStudio for Performance Marketing. 
+
+Prior to this enhancement, you could add the Brand connection field only manually to any record type, including Products and Personas. You can still manually connect the Brand GenStudio record type to other record types in Workfront Planning.  
+
+For information, see [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
+## Restrict removing GenStudio for Performance Marketing users' permissions from Planning 
+
+>[!NOTE]
+>
+>Preview: December 11, 2025
+>Production fast release: December 11, 2025
+>Production for everyone: December 11, 2025
+
+We have added a guardrail that prevents you from removing the permissions of GenStudio for Performance Marketing users from Workfront Planning objects. With this improvement, you can no longer remove GenStudio users from the GenStudio workspace in Planning, nor can you disable Inherited permissions for record types in the GenStudio workspace, if those permissions include GenStudio users. Prior to this improvement, when you removed these users from the GenStudio workspace in Planning, they would lose permissions to record types in GenStudio as well. 
+
+Your organization must have both Workfront Planning and Adobe GenStudio for Performance Marketing. 
+
+For information, see [Get started with the Adobe Workfront Planning and Aobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
+
 ## Removed public sharing of views on a global record type in a secondary workspace
 
 

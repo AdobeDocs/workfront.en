@@ -10,12 +10,7 @@ exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 
 >[!NOTE]
 >
->* This functionality will be available as an open beta on the following schedule:
->
->   * Monthly release: September 11, 2025
->   * Quarterly release: October 16, 2025
->
->* To use this functionality, your organization must meet the requirements to use the Workfront AI Assistant. For details, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+>To use this functionality, your organization must meet the requirements to use the Workfront AI Assistant. For details, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 AI Form Fill can help you auto-fill request fields based on a prompt you enter. It can also fill fields based on text such as emails ar uploaded documents. You can approve or reject these suggestions before submitting the request.
 
