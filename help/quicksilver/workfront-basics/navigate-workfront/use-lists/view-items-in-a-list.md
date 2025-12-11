@@ -23,6 +23,13 @@ The following are some characteristics of lists in [!DNL Workfront]:
 
    For more information about creating system-level lists, see the article [Create, edit, and share default filters, views, and groupings](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
+* The following are the types of lists in Workfront:
+
+  * Standard lists
+  * Enhanced lists
+
+  For more information, see the section [The difference between the standard and the enhanced lists](#the-difference-between-the-standard-and-the-enhanced-lists) in this article.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article. 
@@ -93,8 +100,8 @@ Below are some types of object lists that you can find in [!DNL Workfront] and s
 
 >[!NOTE]
 >
->* This list is not comprehensive. Each of these object lists can also appear on a report or a dashboard. For example, a Project report or a dashboard that contains a Project report also displays a list of projects.
->* In this list, "select" means that you need to click the name of the item, not the checkbox to the left of the name.
+>This list is not comprehensive. Each of these object lists can also appear on a report or a dashboard. For example, a Project report or a dashboard that contains a Project report also displays a list of projects.
+
 
 
 <table style="table-layout:auto"> 
@@ -118,7 +125,7 @@ Below are some types of object lists that you can find in [!DNL Workfront] and s
    <td>List of programs</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Portfolios] >[!UICONTROL select a portfolio] >[!UICONTROL Programs]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] >[!UICONTROL click a portfolio] >[!UICONTROL Programs]</p> </li> 
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[!UICONTROL Programs]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -127,26 +134,26 @@ Below are some types of object lists that you can find in [!DNL Workfront] and s
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projects]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] >[!UICONTROL select a portfolio] >[!UICONTROL Projects]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] >[!UICONTROL select a portfolio] >[!UICONTROL Programs] >[!UICONTROL select a program] >[!UICONTROL Projects]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] >[!UICONTROL click a portfolio] >[!UICONTROL Projects]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] >[!UICONTROL click a portfolio] >[!UICONTROL Programs] >[!UICONTROL click a program] >[!UICONTROL Projects]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>List of tasks</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] >[!UICONTROL select a project] > [!UICONTROL Tasks]</p> </li> 
-     <li> <p>[!UICONTROL Projects] >[!UICONTROL select a project] >[!UICONTROL Tasks] >[!UICONTROL select a task] >[!UICONTROL Subtasks]</p> </li> 
-     <li> <p>[!UICONTROL Projects] >[!UICONTROL select a project] >[!UICONTROL Tasks] >[!UICONTROL select a task] > [!UICONTROL Predecessors*]</p> </li> 
+     <li> <p>[!UICONTROL Projects] >[!UICONTROL click a project] > [!UICONTROL Tasks]</p> </li> 
+     <li> <p>[!UICONTROL Projects] >[!UICONTROL click a project] >[!UICONTROL Tasks] >[!UICONTROL click a task] >[!UICONTROL Subtasks]</p> </li> 
+     <li> <p>[!UICONTROL Projects] >[!UICONTROL click a project] >[!UICONTROL Tasks] >[!UICONTROL click a task] > [!UICONTROL Predecessors*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>List of issues</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] > [!UICONTROL select] a project >[!UICONTROL Issues]</p> </li> 
-     <li> <p>[!UICONTROL Projects] >[!UICONTROL select a project] >[!UICONTROL Tasks] >[!UICONTROL select a task] > [!UICONTROL Issues]</p> </li> 
-     <li> <p>[!UICONTROL Projects] >[!UICONTROL select a project] >[!UICONTROL Tasks] >[!UICONTROL select a task] >[!UICONTROL Subtasks] >[!UICONTROL select a task] > [!UICONTROL Issues]</p> </li> 
+     <li> <p>[!UICONTROL Projects] > [!UICONTROL click] a project >[!UICONTROL Issues]</p> </li> 
+     <li> <p>[!UICONTROL Projects] >[!UICONTROL click a project] >[!UICONTROL Tasks] >[!UICONTROL click a task] > [!UICONTROL Issues]</p> </li> 
+     <li> <p>[!UICONTROL Projects] >[!UICONTROL click a project] >[!UICONTROL Tasks] >[!UICONTROL click a task] >[!UICONTROL Subtasks] >[!UICONTROL click a task] > [!UICONTROL Issues]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -182,11 +189,11 @@ Below are some types of object lists that you can find in [!DNL Workfront] and s
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] >[!UICONTROL select a portfolio] > [!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] > [!UICONTROL select a portfolio] >[!UICONTROL Programs] >[!UICONTROL select a program] >[!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Projects] >[!UICONTROL select a project] >[!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Projects] >[!UICONTROL select a project] >[!UICONTROL Tasks] >[!UICONTROL select a task] > [!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Projects] > [!UICONTROL select] a project > [!UICONTROL Issues] >[!UICONTROL select an issue] > [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] >[!UICONTROL click a portfolio] > [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] > [!UICONTROL click a portfolio] >[!UICONTROL Programs] >[!UICONTROL click a program] >[!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] >[!UICONTROL click a project] >[!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] >[!UICONTROL click a project] >[!UICONTROL Tasks] >[!UICONTROL click a task] > [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] > [!UICONTROL click] a project > [!UICONTROL Issues] >[!UICONTROL click an issue] > [!UICONTROL Documents]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -200,38 +207,38 @@ Below are some types of object lists that you can find in [!DNL Workfront] and s
    <td>List of billing rates</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] >[!UICONTROL select a project] >[!UICONTROL Billing Rates*]</p> </li> 
+     <li> <p>[!UICONTROL Projects] >[!UICONTROL click a project] >[!UICONTROL Billing Rates*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>List of billing records</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] > [!UICONTROL select a project] > [!UICONTROL Billing Records]</p> </li> 
+     <li> <p>[!UICONTROL Projects] > [!UICONTROL click a project] > [!UICONTROL Billing Records]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>List of risks</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] >[!UICONTROL select a project] >[!UICONTROL Risks]</p> </li> 
+     <li> <p>[!UICONTROL Projects] >[!UICONTROL click a project] >[!UICONTROL Risks]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>List of expenses</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] >[!UICONTROL select] a project >[!UICONTROL Expenses]</p> </li> 
-     <li> <p>[!UICONTROL Projects] > [!UICONTROL select a project] >[!UICONTROL Tasks] >[!UICONTROL select a task] >[!UICONTROL Expenses]</p> </li> 
+     <li> <p>[!UICONTROL Projects] >[!UICONTROL click] a project >[!UICONTROL Expenses]</p> </li> 
+     <li> <p>[!UICONTROL Projects] > [!UICONTROL click a project] >[!UICONTROL Tasks] >[!UICONTROL click a task] >[!UICONTROL Expenses]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>List of hour entries</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] >[!UICONTROL select] a project</p> </li> 
-     <li> <p>[!UICONTROL Projects] >[!UICONTROL select a project] >[!UICONTROL Tasks] >[!UICONTROL select a task] >[!UICONTROL Hours]</p> </li> 
-     <li> <p>[!UICONTROL Projects] >[!UICONTROL select] a project >[!UICONTROL Issues] >[!UICONTROL select] an issue >[!UICONTROL Hours]</p> </li>
+     <li> <p>[!UICONTROL Projects] >[!UICONTROL click] a project</p> </li> 
+     <li> <p>[!UICONTROL Projects] >[!UICONTROL click a project] >[!UICONTROL Tasks] >[!UICONTROL click a task] >[!UICONTROL Hours]</p> </li> 
+     <li> <p>[!UICONTROL Projects] >[!UICONTROL click] a project >[!UICONTROL Issues] >[!UICONTROL click] an issue >[!UICONTROL Hours]</p> </li>
     </ul> </td> 
   </tr>
   <tr> 
@@ -246,7 +253,7 @@ Below are some types of object lists that you can find in [!DNL Workfront] and s
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Setup] >[!UICONTROL Groups]</p> </li>
-     <li> <p>[!UICONTROL Setup] >[!UICONTROL Groups] >[!UICONTROL select the parent group] >[!UICONTROL Subgroups] </li> 
+     <li> <p>[!UICONTROL Setup] >[!UICONTROL Groups] >[!UICONTROL click the parent group] >[!UICONTROL Subgroups] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -594,11 +601,11 @@ The following table outlines the similarities and differences between lists and 
  </tbody> 
 </table>
 
- You must have access to filters, views, and groupings to be able to create them. For more information, see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+*You must have access to filters, views, and groupings to be able to create them. For more information, see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
- You must have access to filters, views, and groupings as well as reports, dashboards, and calendars to be able to create them. For more information, see [Grant access to reports, dashboards, and calendars](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+**You must have access to filters, views, and groupings as well as reports, dashboards, and calendars to be able to create them. For more information, see [Grant access to reports, dashboards, and calendars](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
- You can customize lists for reports that are placed on a dashboard only if the creator of the report has configured the list elements to be visible on the dashboard.
+***You can customize lists for reports that are placed on a dashboard only if the creator of the report has configured the list elements to be visible on the dashboard.
 
 >[!NOTE]
 >
@@ -606,24 +613,65 @@ The following table outlines the similarities and differences between lists and 
 
 For more information about building a report, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). For information about creating custom  sections , see [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
-## The difference between the updated and the legacy lists
+## The difference between the standard and the enhanced lists
 
 There are two types of lists in [!DNL Workfront]:
 
-* Legacy lists
+* Standard lists
 
-   ![Blue groupings](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+   ![Standard project list](assets/standard-list-screen-shot-gray-groupings.png)
 
-* Updated lists
+* Enhanced lists
 
-   ![Gray groupings](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+   ![Enhanced lists](assets/enhanced-status-list.png)
 
-The following table shows some of the differences between the legacy and updated lists in [!DNL Workfront]:
+The capabilities of each enhanced list differs depending on what page you are accessing it from. 
+
+For information about enhanced lists, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+
+
+The following table shows some of the differences between the standard and enhanced lists in [!DNL Workfront]:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><b>Standard lists</b></td> 
+   <td><b>Enhanced lists</b></td> 
+  </tr> 
+  <tr>
+  <td> <p>Display <strong>All</strong> or up to <strong>2000</strong> items by default</p> </td> 
+   <td> Display up to 100 items by default, and up to 2000 after scrolling </td> 
+  </tr> 
+
+ <tr> 
+   <td>Icons at the top of the list are somewhat consistent across all lists, regardless of where you access them. Some lists, tasks, issues, or documents have unique icons pertinent to the functionality of these object types. </td> 
+   <td>Icons at the top of the list differ depending on where you access the list from. In addition, there is a blue bar at the bottom of the list that displays when you select items in the list.</td> 
+  </tr>
+
+  <tr> 
+   <td> <p>Use icons in the toolbar at the top of the list to interact with items in the list</p> </td> 
+   <td> <p>Do one of the following to interact with items in the list, depending on what you want to update:</p>
+   <ul><li>Use the icons in the toolbar at the top for some actions like searching, adding new items, sorting, or filtering</li>
+   <li>Select an item in the list and use the icons in the blue toolbar at the bottom of them list for some actions like deleting or viewing items</li></ul> 
+   </tr>   
+   </td> 
+  </tr> 
+  <tr> 
+   <td><p>You can apply cell color changes to items in a list</p></td>
+   <td><p>You can apply cell color changes to items in a list only in Workfront Planning. </p></td>
+   </td> 
+   <td></td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <!--
-<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [Legacy does not equal Classic. Legacy lists appear in NWE and Classic. Updated lists appear in NWE and Classic.]</span>
--->
+consider adding things like adding fields on the fly in an enhanced list when we will be able to do this-->
 
+<!--old table: 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -649,3 +697,4 @@ The following table shows some of the differences between the legacy and updated
   </tr> 
  </tbody> 
 </table>
+-->

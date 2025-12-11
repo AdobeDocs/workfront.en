@@ -202,7 +202,7 @@ CAN YOU DO THIS??
 
 >[!NOTE]
 >
->Before managing the GenStudio workspace, see the article [Get started with the Workfront Planning and GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) for more information. 
+>Before managing the GenStudio workspace, see the article [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) for more information. 
 >
 
 1. Log in to Workfront as a user who also has access to GenStudio. 
@@ -257,7 +257,7 @@ CAN YOU DO THIS??
 
 >[!NOTE]
 >
->Before managing the GenStudio workspace, see the article [Get started with the Workfront Planning and GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) for more information. 
+>Before managing the GenStudio workspace, see the article [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) for more information. 
 >
 
 1. Go to the GenStudio workspace in Workfront Planning and open a record type page, as described in the section [Manage the GenStudio workspace from Workfront Planning](#manage-the-genstudio-workspace-from-workfront-planning) in this article.
@@ -361,24 +361,19 @@ CAN YOU DO THIS??
       * Workfront Planning record details 
       * GenStudio record details
 
-      >[!TIP]
-      >
-      >Fields created in Workfront Planning are not visible in the list view in GenStudio.
-
-      <!--when this releases, replace the tip above with this: 
-      
       >[!NOTE]
       >
       >* Fields created in Workfront Planning are not visible in the list view in GenStudio.
       >
       >* You can connect any GenStudio record type to the Brands GenStudio record type. 
-      >  Products and Personas are connected to Brands by default. -->
+      >  Products and Personas are connected to Brands by default. 
 
 1. Hover over a field in the table view, then click the drop-down menu to do one of the following:
 
    * Sort by it
    * Hide it 
    * Edit its settings
+   
    <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
 
       <!--GenStudio-native fields are note removed from GenStudio. -->
