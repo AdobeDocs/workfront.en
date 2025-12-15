@@ -202,7 +202,7 @@ CAN YOU DO THIS??
 
 >[!NOTE]
 >
->Before managing the GenStudio workspace, see the article [Get started with the Workfront Planning and GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) for more information. 
+>Before managing the GenStudio workspace, see the article [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) for more information. 
 >
 
 1. Log in to Workfront as a user who also has access to GenStudio. 
@@ -243,6 +243,11 @@ CAN YOU DO THIS??
 
    For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
 
+   <!--
+   >[!NOTE]
+   >
+   >You cannot remove GenStudio users from the GenStudio workspace, after you share that workspace with them.-->
+
 1. Click any of the record type cards to view records for that type. 
 
    To manage the record type, views, and fields, see the section [Manage GenStudio record types from Workfront Planning](#manage-genstudio-record-types-from-workfront-planning) in this article. 
@@ -252,7 +257,7 @@ CAN YOU DO THIS??
 
 >[!NOTE]
 >
->Before managing the GenStudio workspace, see the article [Get started with the Workfront Planning and GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) for more information. 
+>Before managing the GenStudio workspace, see the article [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) for more information. 
 >
 
 1. Go to the GenStudio workspace in Workfront Planning and open a record type page, as described in the section [Manage the GenStudio workspace from Workfront Planning](#manage-the-genstudio-workspace-from-workfront-planning) in this article.
@@ -282,6 +287,11 @@ CAN YOU DO THIS??
          A link to the view is copied to your clipboard. 
       * **Export the current view** 
          For information, see [Export records from the table view](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
+
+         <!--
+         >[!NOTE]
+         >
+         >You cannot remove GenStudio users from record types in the GenStudio workspace, after you share that workspace or the record types with them.-->
 
 1. To manage the record type views, do the following: 
 
@@ -351,15 +361,19 @@ CAN YOU DO THIS??
       * Workfront Planning record details 
       * GenStudio record details
 
-      >[!TIP]
+      >[!NOTE]
       >
-      >Fields created in Workfront Planning are not visible in the list view in GenStudio.
+      >* Fields created in Workfront Planning are not visible in the list view in GenStudio.
+      >
+      >* You can connect any GenStudio record type to the Brands GenStudio record type. 
+      >  Products and Personas are connected to Brands by default. 
 
 1. Hover over a field in the table view, then click the drop-down menu to do one of the following:
 
    * Sort by it
    * Hide it 
    * Edit its settings
+   
    <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
 
       <!--GenStudio-native fields are note removed from GenStudio. -->
