@@ -243,10 +243,13 @@ CAN YOU DO THIS??
 
    For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
 
-   <!--
    >[!NOTE]
    >
-   >You cannot remove GenStudio users from the GenStudio workspace, after you share that workspace with them.-->
+   >The following sharing limitations exist:
+   >
+   >* You cannot remove GenStudio users from the GenStudio workspace, after you share that workspace with them.
+   >* If a user has permissions in GenStudio, their access cannot be changed to View in Workfront Planning. They must be granted at least Contribute permissions in the GenStudio workspace in Planning. 
+   >* You cannot disable inherited permissions for GenStudio record types in the GenStudio workspace. 
 
 1. Click any of the record type cards to view records for that type. 
 
@@ -347,11 +350,11 @@ CAN YOU DO THIS??
 
 1. Click the + icon in the upper-right corner of the table view to create the following:
 
-   * Record fields
+   * Fields
 
       For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md)
    
-   * Record connections
+   * Connections
 
       For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
 
@@ -363,6 +366,7 @@ CAN YOU DO THIS??
 
       >[!NOTE]
       >
+      >* You can add more fields only when you have Manage permissions in GenStudio.
       >* Fields created in Workfront Planning are not visible in the list view in GenStudio.
       >
       >* You can connect any GenStudio record type to the Brands GenStudio record type. 
@@ -380,5 +384,6 @@ CAN YOU DO THIS??
 
       >[!NOTE]
       >
-      >You can edit a field's configuration and add more fields only when you have Manage permissions in GenStudio.
+      >* You can edit the configuration of a GenStudio field only when you have Manage permissions in GenStudio.
+      >* You cannot delete a GenStudio field. 
 
