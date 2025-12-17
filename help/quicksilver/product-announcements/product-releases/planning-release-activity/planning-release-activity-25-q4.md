@@ -85,8 +85,8 @@ For more information on approving requests, see [Approve a request in Adobe Work
 We have made improvements to the connected records pages of a record. The following are the improvements made with this update:
 
 * Inline edit projects in the table view of a connected records page
-* Added the New row link to the bottom of the table view when viewing connected projects where you can add new projects without a templates
-* You can no longer create connected record pages for Workfront portfolios and programs. You can only create connected records pages only for Workfront projects. 
+* Added the New row link to the bottom of the table view when viewing connected projects where you can add new projects without a template
+* You can no longer create connected record pages for Workfront portfolios and programs. You can create connected records pages only for Workfront projects. 
 
 For information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).  
 
