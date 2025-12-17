@@ -274,7 +274,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>To make it easier to create and submit requests, we've added the ability to save drafts to the new requesting experience. Now, when you begin filling out a request and close it, the request is saved in Draft status and can be found on the request form used to create the draft. You can then reopen, update, and submit the draft at your convenience. </p>
         </td>
         <td>November 20, 2025</td>
-        <td>December 11, 2025</td>
+        <td>January 14, 2026</td>
         <td>January 15, 2026</td>
     </tr>  
         <tr>
