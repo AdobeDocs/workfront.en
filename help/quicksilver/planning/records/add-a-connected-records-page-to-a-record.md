@@ -13,7 +13,7 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-You can view information from connected records or objects by adding a tab for a Connected records page to a record. This adds the connected records in a table view to the tab.
+You can view information from connected records or objects by adding a tab for a Connected records page to a record in Adobe Workfront Planning. This adds the connected records in a table view to the tab.
 
 Consider the following when adding a Connected records page to a record: 
 
@@ -32,12 +32,17 @@ Consider the following when adding a Connected records page to a record:
    * Table
    * <span class="preview">Timeline</span>
    * <span class="preview">Calendar</span>
+
+* <span class="preview">You can create one page per one object or record type. For example, you cannot create two connected record pages for connected projects or tactics.</span>
+
 -->
 
 * You can add Connected records pages for the following connected record or object types:
 
    * Workfront Planning record types
-   * Workfront projects, programs, portfolios, groups, or companies. You can view the connected Workfront objects even when you do not have permissions to access them in Workfront. 
+   * Workfront projects
+   
+      You can view the connected Workfront projects even when you do not have permissions to access them in Workfront. 
 
 ## Access requirements
 
@@ -92,7 +97,7 @@ For more information about Workfront access requirements, see [Access requiremen
 
 ## Add a Connected records page to a record
 
-You must first connect record types with other record or object types before adding a connected records page to a record. 
+You must first connect record types with other record types or Workfront projects before adding a connected records page to a record. 
 
 1. Click the name of the record to open it from any view of a record type page. 
 1. Click **Add page** from one of the following areas: 
