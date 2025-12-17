@@ -14,6 +14,12 @@ For a list of all changes available at this point in the First Quarter 2026 rele
 
 ## Manage Priorities in the Layout Template
 
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast release: January 14, 2026 
+>Production for everyone: January 15, 2026 
+
 You can now enable or disable Priorities for specific users in the Layout Template. If you previously had Priorities disabled for your organization, it will remain disabled in the layout template with this change.
 
 Priorities will be automatically included for license types that have default access to Requests. For example, a Contributor license will see Requests, Boards, and Priorities by default in the Main Menu, while an External license will only see Documents and Boards because it does not have access to view or submit requests.
@@ -22,6 +28,12 @@ Priorities will be automatically included for license types that have default ac
 For more information, see [Customize the Main Menu using a layout template](help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Check for multi-form conflicts for calculated custom fields
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast release: January 14, 2026 
+>Production for everyone: January 15, 2026 
 
 The same calculated field can have different formulas when attached to different custom forms. If two or more forms containing the same calculated field are attached to an object, then the formulas must be identical on all of the forms. Editing the formula is not allowed if the change could cause a conflict.
 
