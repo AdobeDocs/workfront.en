@@ -10,6 +10,18 @@ recommendations: noDisplay, noCatalog
 ---
 # Use Canvas Dashboards
 
+>[!IMPORTANT]
+>
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. Parts of the feature may not be complete or work as intended during this stage. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) section in the Canvas Dashboards beta overview article.
+>
+>If you have feedback regarding a possible bug or technical issue, please submit a ticket to Workfront Support. For more information, see [Contact Customer Support](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+>
+>Please note that this beta is not available on the following cloud providers:
+>
+>* Bring Your Own Key for Amazon Web Services
+>* Azure
+>* Google Cloud Platform 
+
 Canvas Dashboards allow you to visualize your Adobe Workfront data by adding different report types onto a flexible canvas layout. This article provides an overview of how to use Canvas Dashboards effectively.
 
 ## Accessing Canvas Dashboards
@@ -23,6 +35,16 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
 ## Interacting with Reports
 
 You can interact with individual reports on the Canvas Dashboard. This includes filtering data, drilling down into specific metrics, and exporting report data for further analysis.
+
+### Filter
+
+### Drilldowns
+ 
+KPI, chart, table 
+
+### Add additional columns to table reports
+
+### Exporting Data
 
 ## Saving and Sharing Dashboards
 
