@@ -45,7 +45,7 @@ For information on request views, including sharing, see [Create and manage view
 >[!NOTE]
 >
 >Preview: November 20, 2025 
->Production fast release: December 11, 2026  
+>Production fast release: January 14, 2026  
 >Production for everyone: January 15, 2026  
 
 To make it easier to create and submit requests, we've added the ability to save drafts to the new requesting experience. Now, when you begin filling out a request and close it, the request is saved in Draft status and can be found on the request form used to create the draft. You can then reopen, update, and submit the draft at your convenience.
