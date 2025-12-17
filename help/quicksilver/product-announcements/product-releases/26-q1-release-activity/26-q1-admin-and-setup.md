@@ -16,7 +16,7 @@ For a list of all changes available at this point in the First Quarter 2026 rele
 
 >[!NOTE]
 >
->Preview: December 18, 2025 
+>Preview: December 2, 2025 
 >Production fast release: January 14, 2026 
 >Production for everyone: January 15, 2026 
 
