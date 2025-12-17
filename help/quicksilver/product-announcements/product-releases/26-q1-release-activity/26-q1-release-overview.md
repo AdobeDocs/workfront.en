@@ -218,7 +218,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> Quick search table results in Canvas Dashboards</a>
-            <p>We have introduced a new Show total option that converts pie charts into donut charts. This feature allows users to display a central value that represents the total of all segments in the chart.</p>
+            <p>We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.</p>
         </td>
         <td>December 18, 2025</td>
         <td>January 14, 2026</td>
@@ -227,7 +227,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">New Show total option for Pie Charts</a>
-            <p>We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.</p>
+            <p>We have introduced a new Show total option that converts pie charts into donut charts. This feature allows users to display a central value that represents the total of all segments in the chart.</p>
         </td>
         <td>December 18, 2025</td>
         <td>January 14, 2026</td>
