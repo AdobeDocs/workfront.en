@@ -11,6 +11,7 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 ---
 # Locate submitted requests
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 You can locate the following types of requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
 
@@ -65,11 +66,16 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Locate submitted requests
+## Locate submitted requests in the Requests area
 
 Locating submitted requests differs based on whether you are using the new or legacy requesting experience.
 
-### Locate submitted requests in the new requesing experience
+* [Locate submitted requests in the new requesting experience](#locate-submitted-requests-in-the-new-requesting-experience)
+* [Locate submitted requests in the legacy requesting experience](#locate-submitted-requests-in-the-legacy-requesting-experience)
+
+### Locate submitted requests in the new requesting experience
+
+You can locate submitted requests in the Requests area, <span class="preview">which include links to objects created by those requests.</span>
 
 To locate requests that you or other users have submitted in the new requesting experience:
 
