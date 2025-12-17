@@ -283,7 +283,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>To make it easier to keep your requests organized and uncluttered, we've added the ability to delete requests to the new requesting experience. Now, you can delete requests that you have submitted. Workfront Administrators and Workfront Planning Workspace administrators can also delete requests.</p>
         </td>
         <td>November 20, 2025</td>
-        <td>December 11, 2025</td>
+        <td>January 14, 2026</td>
         <td>January 15, 2026</td>
     </tr>   
         <tr>
