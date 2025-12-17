@@ -74,7 +74,7 @@ Previously, Workfront approvals could be managed only within Workfront Planning.
 
 For more information on approving requests, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).-->
 
-## Inline edit Workfront projects in the record's Connected records page
+## Inline edit Workfront projects and other improvements in the record's Connected records page
 
 >[!NOTE]
 >
@@ -82,7 +82,11 @@ For more information on approving requests, see [Approve a request in Adobe Work
 >Production fast release: October 15, 2025
 >Production all: October 16, 2025
 
-You can now inline edit Workfront connected projects in the Connected records page. You can also create projects without a template from the connected records page.
+We have made improvements to the connected records pages of a record. The following are the improvements made with this update:
+
+* Inline edit projects in the table view of a connected records page
+* Added the New row link to the bottom of the table view when viewing connected projects where you can add new projects without a templates
+* You can no longer create connected record pages for Workfront portfolios and programs. You can only create connected records pages only for Workfront projects. 
 
 For information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).  
 

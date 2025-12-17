@@ -75,7 +75,7 @@ We have made the following improvements to the Workspaces main page in Workfront
 
 For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
-## Add Timeline and Calendar Views to the Connection records page and share them system-wide 
+## Improvements to connected records pages
 
 >[!NOTE]
 >
@@ -83,9 +83,12 @@ For information, see [Edit workspaces](/help/quicksilver/planning/architecture/e
 >Production fast: January 14, 2026 
 >Production for all: January 15, 2026 
 
-You can now add a timeline and a calendar view to the Connected records page of a record. Views shared from this area are visible system-wide by all users you share them with in any other area of Workfront Planning. All views shared in any other of Planning are visible in the Connected records page for the same users they are shared with, as well.  
+To give you more flexibility when working with connected records pages, we have enhanced the functionality of views in this area of Workfront Planning. The following are improvements in the connected records pages of a record that are coming with this release:
 
-Prior to this enhancement, you could view the Connected records page only in the table view.  
+* You can now add a timeline and a calendar view to a record's connected records page.
+*You can now share views from a connected records page. The views shared from these pages are visible system-wide by all users you share them with in any other area of Workfront Planning. All views shared in any other areas of Planning are also visible in the connected records page for the same users they are shared with.
+* We have added a restriction to only allow one connected records page per each record or object type. Prior to this enhancement, you could add multiple pages for the same record or object type. Now, you can use multiple views for the same record type in one connected records page.
+* We have added a **New row** link at the bottom of a table view and a **Connect records** button in the upper-right area of the connected records page. Prior to this enhancement, the **New row** link and the **Connect records** button existed only on a project connected page. 
 
 For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
