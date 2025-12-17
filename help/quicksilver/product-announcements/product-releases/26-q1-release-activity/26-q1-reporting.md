@@ -12,6 +12,22 @@ This page describes Reporting enhancements made with the First Quarter 2026 rele
 
 For a list of all changes available at this point in the First Quarter 2026 release cycle, see [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Currency updates in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast release: January 14, 2026 
+>Production for everyone: January 15, 2026 
+
+We have made the following updates for currency fields:
+
+* When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. 
+
+* When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.
+
+* When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields.
+
 ## Quick search table results in Canvas Dashboards
 
 >[!NOTE]
