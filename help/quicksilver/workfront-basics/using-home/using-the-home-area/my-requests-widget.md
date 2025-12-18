@@ -146,3 +146,18 @@ To search for specific requests in the My Requests widget:
    Requests that contain the term are highlighted in orange.
 
 1. (Optional) To jump to the highlighted requests, click the up or down arrows in the search bar.
+
+<div class="preview">
+
+## Go to an object created by a request
+
+You can find objects created by a request in the My Requests widget.
+
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**. 
+1. Locate the request that created the object. 
+1. Click the object name in the **Created object** column for that request. 
+
+   The object's page opens.
+
+</div>
