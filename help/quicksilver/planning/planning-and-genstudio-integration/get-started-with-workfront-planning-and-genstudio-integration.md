@@ -24,8 +24,6 @@ recommendations: noDisplay, noCatalog
 
 # Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration
 
-<!--update the text in the title everywhere this article is linked from - it changed a few times-->
-
 <!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
@@ -236,14 +234,19 @@ The sections below describe the following:
     ![GenStudio card in Planning](assets/genstudio-card-with-tag-highlighted.png)
 
     For information, see [Manage the GenStudio workspace in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md). 
-*  When you have Manage permissions to the GenStudio workspace in Planning, you can:
+* The GenStudio workspace is automatically shared with all GenStudio users who also have access to Workfront when it's created in Workfront Planning. 
+* As a workspace manager for the GenStudio workspace in Planning, you can:
 
     * Update the GenStudio workspace in Planning (name, description, icon)
     * Create sections
     * Add record types
     * Share it with others
 
-        You can share the GenStudio workspace with others who don't have a GenStudio account. You can share it only with users available in the Identity Management System (IMS) of your organization. <!--check to see this is correct--> 
+        >[!NOTE]
+        >
+        >* You can share the GenStudio workspace with others who don't have a GenStudio account. You can share it only with users available in the Identity Management System (IMS) of your organization. 
+        >* You cannot remove GenStudio users from the GenStudio workspace or its record types' sharing.
+                
     <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
 
 * When you have Contribute permissions to the GenStudio workspace in Planning, you cannot modify the workspace from Workfront Planning. 
@@ -253,16 +256,18 @@ The sections below describe the following:
 * Record types visible both in GenStudio for Performance Marketing and Planning have a GenStudio indicator in Workfront Planning. 
 
     ![GenStudio record type card in Workfront Planning](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
+* Record types in the GenStudio workspace are automatically shared with all GenStudio users who also have access to Workfront when the workspace is created in Planning. 
 * When you have Manage permissions to the GenStudio workspace in Planning, you can do the following from Workfront Planning: 
     * Edit GenStudio record types information (their appearance, advanced settings). 
-    * Share GenStudio record types with others.  
+    * Share GenStudio record types with others. You cannot remove GenStudio users from the GenStudio record types' sharing. 
     * Create record types. These record types remain only in Workfront Planning. They do not display in GenStudio. 
-    * Enable records from the GenStudio workspace to connect from other workspaces.
-    * Enable records from the GenStudio workspace to be added to other workspaces. 
+    * Enable record types from the GenStudio workspace to connect from other workspaces.
+    * Enable record types from the GenStudio workspace to be added to other workspaces. 
 * When you have Contribute permissions to the GenStudio workspace in Planning, you cannot modify the GenStudio record types from Planning. 
 
 ### Records in the GenStudio workspace
 
+* All GenStudio records are automatically shared with all GenStudio users who also have access to Workfront when the workspace is created in Planning.
 * When you edit GenStudio records from GenStudio for Performance Marketing, the changes are visible in the GenStudio workspace in all your instances of Workfront. 
 * You cannot create or delete Activation records from the GenStudio workspace in Workfront Planning. 
 * When you have Manage or Contribute permissions to the GenStudio workspace in Planning, you can do the following from Workfront Planning: 
@@ -301,12 +306,10 @@ Consider the following about GenStudio record type fields:
 
         >[!TIP]
         >
-        >Fields created in Workfront Planning are not visible in GenStudio.
+        >Fields created in Workfront Planning are not visible in GenStudio lists.
     
     * Hide fields in the table view of a GenStudio record type in Workfront Planning. 
-    <!--* Delete fields created in Workfront Planning for GenStudio record types from Workfront Planning. -- this is not possible, per Iskuhi; the link is there but it will generate an error-->
-
-    <!--this is not true: You cannot delete fields imported from GenStudio from Workfront Planning.-->
+    * You cannot delete fields created in GenStudio from Workfront Planning.
 
 * When you have Contribute permissions to the GenStudio workspace in Planning:
 
@@ -360,6 +363,7 @@ You can make the following connections between GenStudio record types and other 
 * A GenStudio record type and a Planning record type from another workspace, if the record types are configured to connect from another workspace. 
 * A GenStudio record type and a Workfront object type (projects, portfolios, programs, companies, groups)
 * A GenStudio record type and an AEM Assets object type.
+* GenStudio record types and GenStudio Brands. The Brands connection is added to the Products and Personas record types by default. 
 
 ### Request forms and automations in the GenStudio record type
 
@@ -372,9 +376,14 @@ You can make the following connections between GenStudio record types and other 
 
 ### Connection to GenStudio Brands from Workfront Planning workspaces
 
-When there is an integration between Workfront Planning and Adobe GenStudio in your organization, you can connect Planning record types to GenStudio Brands from any record type in any workspace in Workfront Planning. 
+When your organization has an integration between Workfront Planning and Adobe GenStudio, you can connect Planning record types to GenStudio Brands from any record type in any workspace in Workfront Planning. 
 
-Brands are not visible as record type cards in the GenStudio workspace. Brands are available to create new connections from any Workfront Planning record type, including those in the GenStudio workspace. 
+Brands are connected by default to the following GenStudio workspace record types:
+
+* Products
+* Personas
+
+Brands are available for manually connecting to all other GenStudio workspace record types, or record types from all other workspaces you have permissions to manage. 
 
 ## The Preview environment
 

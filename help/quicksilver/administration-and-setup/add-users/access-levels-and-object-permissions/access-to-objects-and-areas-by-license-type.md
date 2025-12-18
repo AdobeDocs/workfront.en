@@ -14,6 +14,10 @@ exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
 
 <!-- Audited: 11/2025 -->
 
+>[!NOTE]
+>
+>The information in this article refers to the legacy access levels. For information about the current access levels, see [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+
 The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
 
 * View: The user can review and share items.

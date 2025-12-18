@@ -34,6 +34,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Administrator enhancements](#administrator-enhancements)
 * [Document and approvals enhancements](#documents-and-approvals-enhancements)
 * [Integration enhancements](#integration-enhancements)
+* [Project enhancements](#project-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
 * [Requests enhancements](#requests-enhancements)
 * [Other enhancements](#other-enhancements)
@@ -90,6 +91,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Choose a Workfront project when sending a review in Creative Cloud Express<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>You can choose a Workfront project to send a proof to. This helps keep all related assets and proofs organized within the same project.</p>
+        </td>
+        <td>December 15, 2025</td>
+        <td>December 15, 2025</td>
+        <td>December 15, 2025</td>
+    </tr> 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Cross-organization support for Adobe Express with Workfront Proofing<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
@@ -139,6 +149,29 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>October 30, 2025</td>
         <td>October 30, 2025</td>
         <td>October 30, 2025</td>
+    </tr>   
+  </tbody>
+</table> 
+
+### Project enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+         <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-projects.md" class="MCXref xref" xrefformat="{para}">Light users can log time on projects</a>
+            <p>Light users can now log time directly on projects. Previously, only Standard license users could log hours on projects.</p>
+        </td>
+        <td>December 11, 2025</td>
+        <td>January 15, 2026</td>
+        <td>January 15, 2026</td>
     </tr>   
   </tbody>
 </table> 
@@ -218,6 +251,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Quarterly</strong></td>
     </tr>
     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Form Fill powered by AI now available for requests</a>
+            <p>TTo make it easier to create requests, we've created Form Fill powered by AI. Now, you can paste in a prompt or upload a document to a request form, and AI will pull out the relevant information and fill in the form.  </p>
+        </td>
+        <td>December 11, 2025</td>
+        <td>December 11, 2025</td>
+        <td>December 11, 2025</td>
+    </tr> 
+    <tr>
         <!--<td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
             <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
@@ -232,7 +274,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>To make it easier to create and submit requests, we've added the ability to save drafts to the new requesting experience. Now, when you begin filling out a request and close it, the request is saved in Draft status and can be found on the request form used to create the draft. You can then reopen, update, and submit the draft at your convenience. </p>
         </td>
         <td>November 20, 2025</td>
-        <td>December 11, 2025</td>
+        <td>January 14, 2026</td>
         <td>January 15, 2026</td>
     </tr>  
         <tr>
@@ -241,7 +283,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>To make it easier to keep your requests organized and uncluttered, we've added the ability to delete requests to the new requesting experience. Now, you can delete requests that you have submitted. Workfront Administrators and Workfront Planning Workspace administrators can also delete requests.</p>
         </td>
         <td>November 20, 2025</td>
-        <td>December 11, 2025</td>
+        <td>January 14, 2026</td>
         <td>January 15, 2026</td>
     </tr>   
         <tr>
@@ -289,6 +331,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>November 13, 2025</td>
         <td>January 15, 2026</td>
              </tr>   
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience now available for more Workfront organizations</a><p></p>
+            <p>To allow organizations access to the benefits of the Adobe Unified Experience, we're continuing to make it available to existing Workfront customers.</p>
+        </td>
+        <td><p>December 11, 2025</p></td>
+        <td><p>January 15, 2026</p></td>
+        <td><p>January 15, 2026</p></td>
+    <tr>
             </tbody>
         </table>   
 
@@ -324,6 +375,16 @@ There are no updates for the following at this point in the release:
 * Goals
 
 ## Desktop proofing viewer updates
+
+### Version 2.1.54
+
+**Production release for all customers: December 11, 2025**
+
+The Desktop Proofing Viewer has been updated to from 2.1.52 to 2.1.54. This update included internal tooling updates and did not impact end-user functionality.
+
+The 2.1.53 version also included internal tooling changes. 
+
+This update is for both Mac and Windows.
 
 ### Version 2.1.52 
 

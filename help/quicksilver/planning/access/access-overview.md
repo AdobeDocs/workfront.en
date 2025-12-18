@@ -171,6 +171,7 @@ You can grant permissions to the following entities in Workfront Planning:
 * Workspaces
 * Record types
 * Views
+<!--move this above Views: * <span class="preview">Records</span>-->
 
 For more information, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
