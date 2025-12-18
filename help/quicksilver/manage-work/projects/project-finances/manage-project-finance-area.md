@@ -13,7 +13,7 @@ exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
 -->
 
-You can view or edit the financial information of a project by accessing the Finance area of the Project Details section. There is a limited number of fields that you can view or edit in this area. For information about editing all information for a project see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+You can view or edit the financial information of a project by accessing the Finance area of the Project Details section. There is a limited number of fields that you can view or edit in this area. For information about editing all information for a project, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Access requirements
 
@@ -52,7 +52,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 Consider the following when viewing or editing information in the Finance area:
 
-* The financial information you can find on the Finance area of Project Detailsrepresents values that roll up to the project level from tasks, as well as information entered directly on the project. Some financial information can be managed at the project as well as the task level. 
+* The financial information you can find on the Finance area of Project Details represents values that roll up to the project level from tasks, as well as information entered directly on the project. Some financial information can be managed at the project as well as the task level. 
 * You must have View permissions on the project as well as access to Financial Data from your access level in order to be able to view the Finance area on a project. 
 * You must have Manage permissions on the project as well as access to Financial Data from your access level in order to be able to edit the information on the Finance area . However, we recommend that only the Project Owner should edit the information on this area .
 
@@ -147,7 +147,7 @@ To edit information on the Project Finance subtab:
    >You need Manage permissions to the project to perform the following steps. We also recommend that only the Project Owner should make changes to the Finance subtab of the project.
 
 1. Click **Project Details** in the left panel.
-1. Click the **Edit** icon ![Edit icon](assets/edit-icon.png) in the upper-right corner of the Details section, then click&nbsp;**Finance** . This opens the Finance area for editing.
+1. Click the **Edit** icon ![Edit icon](assets/edit-icon.png) in the upper-right corner of the Details section, then click **Finance**. This opens the Finance area for editing.
 1. Edit any field that is available for editing, by single-clicking the field or click **+Add** to add information to an empty field.
 
    >[!TIP]
@@ -160,7 +160,7 @@ To edit information on the Project Finance subtab:
 
    >[!NOTE]
    >
-   >Depending on how your Workfront administrator sets up our Layout Template, the fields in the Project&nbsp;Details section might be different in your environment. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Depending on how your Workfront administrator sets up our Layout Template, the fields in the Project Details section might be different in your environment. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <table style="table-layout:auto"> 
     <col> 

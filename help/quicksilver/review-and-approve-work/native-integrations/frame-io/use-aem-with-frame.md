@@ -216,7 +216,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 You can send documents from Workfront to Experience Manager Assets or Assets Essentials. Documents uploaded and sent from Workfront to Assets Essentials still count against your overall document storage.
 
-Assets sent to Experience Manager through this integration have a size limit of **5 GB**.
+Assets sent to Experience Manager through this integration have a size limit of **5o TB**.
 
 <!--In the Preview environment, Assets sent to Experience Manager through this integration have a size limit of **30 GB**.-->
 

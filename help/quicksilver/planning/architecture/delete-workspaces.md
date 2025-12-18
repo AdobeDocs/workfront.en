@@ -40,7 +40,7 @@ We recommend recreating some or all of the record types, records, fields, and vi
    <td> 
 <ul> 
 <li><p>Any Workfront and any Planning package</p></li>
-<p>Or</p>
+Or
 <li><p>Any Workflow and any Planning package</p></li></ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
@@ -135,7 +135,7 @@ For more information about Workfront access requirements, see [Access requiremen
 1. To delete a workspace, do one of the following:
 
    * Hover over the workspace card, then click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the card
-      Or
+      Or <!--Add this to the bullet below: <span class="preview">Search for a workspace by name and </span>-->
    * Click a workspace card to open the workspace, then click the **More** menu ![More menu](assets/more-menu.png) to the right of the workspace name. 
 1. Click **Delete**.
 
