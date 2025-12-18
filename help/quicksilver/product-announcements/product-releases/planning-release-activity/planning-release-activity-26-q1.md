@@ -42,7 +42,7 @@ This can be convenient when adding a filter to a view that multiple users will u
 
 The wildcard is available in fields where the value is a user.
 
-For more information on configuring project connection views, including filters, see [](/help/quicksilver/).
+For more information on configuring project connection views, including filters, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
 <!--
 
