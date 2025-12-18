@@ -31,8 +31,6 @@ We have made the following updates for currency fields:
 * When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields.
 
 
-<!--
-
 ## Quick search table results in Canvas Dashboards
 
 >[!NOTE]
@@ -43,7 +41,6 @@ We have made the following updates for currency fields:
 
 We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.
 
--->
 
 ## New Show total option for Pie Charts
 

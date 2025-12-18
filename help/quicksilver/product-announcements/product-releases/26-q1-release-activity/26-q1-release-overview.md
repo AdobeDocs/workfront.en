@@ -250,7 +250,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>January 14, 2026</td>
         <td>January 15, 2026</td>
     </tr>
- <!--    <tr>
+ <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> Quick search table results in Canvas Dashboards</a>
             <p>We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.</p>
@@ -258,7 +258,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>December 18, 2025</td>
         <td>January 14, 2026</td>
         <td>January 15, 2026</td>
-    </tr>-->
+    </tr>
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">New Show total option for Pie Charts</a>
