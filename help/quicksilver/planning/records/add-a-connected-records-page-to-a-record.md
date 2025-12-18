@@ -109,73 +109,91 @@ You must first connect record types with other record types or Workfront project
 
    ![Add Connected records page modal](assets/add-connection-view-page-modal.png) 
 
-1. Add the **Page name**, click **Connected records page**, then click **Create**.
+1. Add the **Page name**, click **Connected records page** for the **Page type**, then click **Create**.
+1. (Optional) Click the name of a connected record or object type in the list, or search for it, then click it when it displays in the list to create the page for that record or object type.
 
-   A new connected records page is added as a new tab to the record's page.
+1. (Optional and conditional) If more than one connected field of the record or object type you are building the page for displays, click the field whose records or objects you want to display in the connected records page from the **Select reference field** list. 
+
+   ![Select reference field list](assets/select-reference-field-list-on-connected-records-page.png)
+
+   One of the following pages is added to the connected records page:
+
+      * The table view of a record type 
+      * The list view of a project object type
    
-   The records that are connected to the current record display in the table view.  
+   The records or projects that are connected to the current record display in the table or list view.  
 
       >[!TIP]
       >
-      >You must add connected records in the table or Details area of a record before you can display them in a connected records page.
+      >You must add connected records in the table or Details area of a record before you can display them in a connected records page. Otherwise, the table or list are empty.
 
-   <!--All fields of the connected record display in the table view of the connected record's tab.--> 
-   
    The first five fields of the connected records display by default. <!--No lookup fields display by default.-->
 
    ![Audience connected table view under campaign details](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. (Optional) Click the name of a connected record or object type in the list, or search for it, then click it when it displays in the list to create the page for that record or object type.
+1. (Conditional) Depending on what type of records you display in the connected record page, do one of the following:
 
-1. (Optional and conditional) If more than one connected field of the record type you are building the page for displays, click the field whose records you want to display in the connected records page. 
+   * Manage the records' table view
+      For information, see the section [Manage the record table view in the connected records page](#manage-the-record-table-view-in-the-connected-records-page) in this article.
+   * Manage the projects' list view
+      For information, see the section [Manage the project list view in the connected records page](#manage-the-project-list-view-in-the-connected-records-page) in this article.
 
-   One of the following pages is added to the connected records page:
+1. (Optional) Double-click the name of the **Connected records page** tab
 
-      * The table view of a record type
-      * The list view of a project object type
+   Or
 
-1. (Optional and conditional) When you create a connected records page for  connected Planning records, do any of the following: <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
+   Hover over the name of the tab, then click **More** ![More menu](assets/more-menu.png), then click **Rename** to rename to new connected records page tab.
 
-   * Click the name of a record. This opens the record's page in a new tab. 
-   * Click **Connect** at the bottom of the table view to connect existing records, select them from the connection box, then click outside the box to close it. The records are automatically added to the table. The records must exist before you can add them.
 
-      For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
-   * Edit any information from the connected records inline in the table view. 
-
-   * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png)
-
-      Or 
+   <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>--> 
    
-      Select one of the records, then click one of the following options in the blue bar at the bottom of the list: 
+1. (Optional)  Hover over the name of the connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.
 
-      * **View** to open the record page in a new tab
-      * **Copy link** to copy a link to the record page
-      * **Edit thumbnail** to open the **Record thumbnail** box and edit the record's thumbnail image
-      * **Duplicate** to duplicate the connected record. The duplicated record is also connected to the current record.
-      * **Insert record above or below** to add new records to the connected record type. New records added here are also connected to the current record. This option is not available in the blue bar when selecting a record in the table.
-      * **Delete** to delete the record. Deleting a connected record deletes it from its record type and from everywhere where the record is connected.
+### Manage the record table view in the connected records page
 
-         For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+When you create a connected records page for  connected Planning records, do the following: <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
 
-         >[!TIP]
-         >
-         >You can select more than one record or object to delete them.
+1. Go to a record type page and click the name of a record. This opens the record's preview page.
+1. Click the tab for a connected records page that display Planning records.
+   The records connected to the record you selected display in the table view. 
+1. Click **Connect** at the bottom of the table view to connect existing records, select them from the connection box, then click outside the box to close it. The records are automatically added to the tabl and connected to the record you selected. The records must exist before you can add them.
 
-   * Inline edit any of the Planning records in the table on the connected records page.
-   * Use any of the following view elements in the toolbar of a connected record page to manage the table view:
+   For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+1. Edit any information from the connected records inline in the table view. 
+1. Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png)
+
+   Or 
+   
+   Select one of the records, then click one of the following options in the blue bar at the bottom of the list: 
+
+   * **View** to open the record page in a new tab
+   * **Copy link** to copy a link to the record page
+   * **Edit thumbnail** to open the **Record thumbnail** box and edit the record's thumbnail image
+   * **Duplicate** to duplicate the connected record. The duplicated record is also connected to the current record.
+   * **Insert record above or below** to add new records to the connected record type. New records added here are also connected to the current record. This option is not available in the blue bar when selecting a record in the table.
+   * **Delete** to delete the record. Deleting a connected record deletes it from its record type and from everywhere where the record is connected. The deleted records move to the **Recently deleted** bin of their record type.
+
+      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+
+      >[!TIP]
+      >
+      >You can select more than one record or object to delete them.
+
+1. Inline edit any of the records in the table on the connected records page.
+1. Use any of the following view elements in the toolbar of a connected record page to manage the table view:
 
    * **Filters**
-   * **Sort**. Not available for projects.
-   * **Grouping**. Not available for projects.
+   * **Sort**
+   * **Grouping**
    * **Fields**, to display, hide, or rearrange fields
-   * **Row height**. Not available for projects.
+   * **Row height**
    * **Search**
 
-      For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+   For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
-      >[!NOTE]
-      >
-      >You cannot create, edit, or delete fields in the table view of a connected record's tab.
+   >[!NOTE]
+   >
+   >You cannot create, edit, or delete fields in the table view of a connected record's tab.
 
    <!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
          * Portfolios
@@ -194,69 +212,72 @@ You must first connect record types with other record types or Workfront project
       >
       >You can select more than one record or object to disconnect them.
       -->
-1. (Optional and conditional) When you create a connected records page for connected Workfront projects, do any of the following:
 
-     * Click **Connect records** in the upper-right corner of the connected record page to connect existing projects.
+### Manage the project list view in the connected records page
 
-         For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
-     * Inline edit project information in the table.
-     * Click **New row** to create a project without a template. The new project is connected to the current record immediately.
+When you create a connected records page for connected Workfront projects, do the following:
 
-         For more information, see [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
-     * Hover over a project and click the **More** menu [More menu](assets/more-menu.png)
+1. Go to a record type page and click the name of a record. This opens the record's preview page.
+1. Click the tab for a connected records page that display Workfront projects.
+   The projects connected to the record you selected display in the list view. 
+1. Click **Connect records** in the upper-right corner of the connected record page to connect existing projects.
+
+   For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+1. Inline edit project information in the table.
+1. Click **New row** to create a project without a template. The new project is automatically connected to the current record.
+
+   For more information, see [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+1. Hover over a project name in the list and click the **More** menu [More menu](assets/more-menu.png)
      
-         Or
-
-         Select one or more projects, and notice the blue bar at the bottom of the list, then click one of the following:
-      
-         * **Delete** to delete the project. Deleting a project disconnects it from the record and moves it to the Workfront's Recycle Bin. 
-         * **Disconnect** to disconnect the project from the record. Disconnecting a project removes it and all the values of its lookup fields from the current record.
-
-         >[!TIP]
-         >
-         >You can select more than one project to disconnect or delete them.
-      * Click the views dropdown menu, and click **New view** to add a new view for the page, then do the following:
-         1. Add a **View name**.
-         1. Select **List** from the **View type** area.
-         1. Click **Create**.
-            A new list view is added to the views dropdown menu.
-         1. (Optional) Hover over the name of a view you created, click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options: 
-
-            * **Rename**, to add a new name for the view.
-            * <span class="preview">**Share**</span>
-               For more information, see [Share views](/help/quicksilver/planning/access/share-views.md).
-            * **Delete**
-               For information, see [Delete record views](/help/quicksilver/planning/views/delete-record-views.md).
-
-               ![](assets/view-more-menu-projects-connected-records-page.png)
-      * Click the **Filter** icon ![Filter icon](assets/filter-icon.png), and use the filter to display specific projects. 
-
-         >[!TIP]
-         >
-         ><span class="preview">For people-type fields, like **Owner**, or **Sponsor**, you can use a wildcard to show projects where the logged in user is assigned to these roles.</span>
-         >
-         >![Filter with user wildcard for project connected records page](assets/filter-with-user-wildcard-project-connected-records-page.png)
-         >
-      * Click the **Columns** icon ![Columns icon](assets/columns-icon.png) to hide or show columns in the list.
-      * Click the **+** icon in the upper-right corner of the table view to add existing fields to the table. Fields must exist before you can add them. 
-
-         The **Column manager** box opens. Do the following:
-
-         1. Search for an existing object field in the **Available** column, then click **+** to the right of the field name it to add it to the **Selected** column. 
-            
-            The fields you select are added to the table view in the connected records page. 
-         1. Click **-** to the right of a field in the **Selected** column to remove it from the table view.  
-         1. Click **Save** to save the connected record page table view.
-1. (Optional) Double-click the name of the **Connected records page** tab
-
    Or
 
-   Hover over the name of the tab, then click **More** ![More menu](assets/more-menu.png), then click **Rename** to rename to new Connected view tab.
+   Select one or more projects, and notice the blue bar at the bottom of the list, then click one of the following:
+      
+   * **Delete** to delete the project. Deleting a project disconnects it from the record and moves it to the Workfront's Recycle Bin. Workfront administrators can recover deleted projects up to 30 days after they were deleted.
+   * **Disconnect** to disconnect the project from the record. Disconnecting a project removes it and all the values of its lookup fields from the current record.
+
+   >[!TIP]
+   >
+   >You can select more than one project to disconnect or delete them.
+1. Click the views dropdown menu, and click **New view** to add a new view for the page, then do the following:
+   1. Add a **View name**.
+   1. Select **List** from the **View type** area.
+   1. Click **Create**.
+      A new list view is added to the views dropdown menu.
+   1. (Optional) Hover over the name of a view you created, click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options: 
+      * **Rename**, to add a new name for the view.
+      * <span class="preview">**Share**</span>
+
+         For more information, see [Share views](/help/quicksilver/planning/access/share-views.md).
+
+         >[!NOTE]
+         >
+         >You cannot share a default view that was created by Workfront.
+
+      * **Delete**
+         For information, see [Delete record views](/help/quicksilver/planning/views/delete-record-views.md).
 
 
-   <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>--> 
-   
-1. (Optional)  Hover over the name of the Connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.
+         ![](assets/view-more-menu-projects-connected-records-page.png)
+   1. Click the **Filter** icon ![Filter icon](assets/filter-icon.png), and use the filter to display specific projects. 
+
+      >[!TIP]
+      >
+      ><span class="preview">For people-type fields, like **Owner**, or **Sponsor**, you can use a wildcard to show projects where the logged in user is assigned to these roles.</span>
+      >
+      >![Filter with user wildcard for project connected records page](assets/filter-with-user-wildcard-project-connected-records-page.png)
+      >
+   1.  Click the **Columns** icon ![Columns icon](assets/columns-icon.png) to hide or show columns in the list.
+   1. Click the **+** icon in the upper-right corner of the table view to add existing fields to the table. Fields must exist before you can add them. 
+
+      The **Column manager** box opens. Do the following:
+
+      1. Search for an existing object field in the **Available** column, then click **+** to the right of the field name it to add it to the **Selected** column. 
+         
+         The fields you select are added to the table view in the connected records page. 
+      1. Click **-** to the right of a field in the **Selected** column to remove it from the table view.  
+      1. Click **Save** to save the connected record page table view.
+
 
 <!--
 <div class="preview">
