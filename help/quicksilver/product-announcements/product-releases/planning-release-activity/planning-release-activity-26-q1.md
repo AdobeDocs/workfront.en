@@ -26,7 +26,7 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 
 To make it easier to ensure to see the information you need, we've added the ability to share views to the Projects Connected records page. Now, you can share views with other users, teams, or groups.
 
-For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
 ## Current user wildcard now available in project connection view filters
 

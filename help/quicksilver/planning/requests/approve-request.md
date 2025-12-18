@@ -136,7 +136,7 @@ You can approve requests to create records from the request itself, <span class=
 
    Or
 
-   Click the [!UICONTROL Home] icon ![Home icon](/help/_includes/assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+   Click the [!UICONTROL Home] icon ![Home icon](/help/_includes/assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront, then locate the My Approvals widget.
 
 1. Locate the object that you want to approve or reject.
 
