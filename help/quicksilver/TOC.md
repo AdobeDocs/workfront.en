@@ -17,6 +17,7 @@ feature-set: Workfront
       * [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
       * [First Quarter 2026 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md)
       * [First Quarter 2026 Document and approval enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md)
+      * [First Quarter 2026 Home enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-home.md)
       * [First Quarter 2026 Integrations enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md)
       * [First Quarter 2026 Project enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-projects.md)
       * [First Quarter 2026 Reporting enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md)
