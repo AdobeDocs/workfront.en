@@ -364,8 +364,8 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 **Latest version**: 
 
-* Mac: 2.1.52 as of 7/31/2025
-* Windows: 2.1.52 of 7/31/2025
+* Mac: 2.1.54 as of 12/11/2025
+* Windows: 2.1.54 of 12/11/2025
 
 <!-- Release -->
 

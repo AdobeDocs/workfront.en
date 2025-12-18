@@ -13,7 +13,9 @@ exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
 
 You can customize the type of information you display on the screen using views. You can use several types of views in Adobe Workfront.
 
-This article describes how to create and edit standard views for lists and reports, and how to create Agile views. For more information, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+This article describes how to create and edit standard views for lists and reports. 
+
+For more information, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Access requirements
 
@@ -52,7 +54,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Create or customize a view
 
-The process for creating or customizing a view differs depending on whether you are creating or customizing a standard view or an agile view.
+The process for creating or customizing a view differs depending on whether you are creating or customizing a standard view or an Agile or a Board view.
 
 * [Create or customize a standard view](#create-or-customize-a-standard-view) 
 * [Create or customize an Agile view](#create-or-customize-an-agile-view)
@@ -155,13 +157,13 @@ You can create a new standard view, or you can customize an existing standard vi
 
 ### Create or customize an Agile view {#create-or-customize-an-agile-view}
 
-You can create an Agile view or customize an existing Agile view that you previously created.
+Agile views, also called Board views, only display for lists of tasks and issues on a project. 
 
->[!IMPORTANT]
->
->Agile views are available only when viewing a project.
+They are preconfigured, but you can modify certain settings for them. 
 
-For more information about Agile views, see the article [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+For more information about Agile or Board views, see the article [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+
+<!-- Legacy Agile views were deprecated with 25.3. This is old: 
 
 >[!NOTE]
 >
@@ -213,9 +215,8 @@ To create or customize an Agile view:
     </tbody> 
    </table>
 
-   <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
-       -->
+   *********   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
+       *************
 
 1. In the **Associate Card Color to** area, select from the following options:
 
@@ -267,3 +268,5 @@ To create or customize an Agile view:
    Your access dictates how the view is saved. If you created the view originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the view impact users with whom the view has been shared.
 
 1. (Optional) Click the **List** icon to return to the list of tasks.
+
+-->

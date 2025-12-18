@@ -18,6 +18,7 @@ feature-set: Workfront
       * [First Quarter 2026 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md)
       * [First Quarter 2026 Document and approval enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md)
       * [First Quarter 2026 Integrations enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md)
+      * [First Quarter 2026 Project enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-projects.md)
       * [First Quarter 2026 Reporting enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md)
       * [First Quarter 2026 Requests enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md)
       * [First Quarter 2026 Other enhancements](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md)
@@ -1976,7 +1977,7 @@ feature-set: Workfront
     * [Get started with the proofing and GenStudio for Performance Marketing integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
     * [Get started with the proofing and Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [Get started with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
-    * [Use the Adobe Experience Manager with the Frame.io integratio](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
+    * [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
   * Tips, tricks, and troubleshooting for approvals {#ttt-approvals}
     * [Tips, tricks, and troubleshooting for approvals: article index](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
     * [View the number of proof and document decisions for all users](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
@@ -2175,7 +2176,7 @@ feature-set: Workfront
     * [Manage Adobe Workfront Planning in-app notifications](planning/notifications/manage-planning-in-app-notifications.md)
   * Adobe Workfront Planning and Gen Studio for Performance Marketing Integration {#planning-and-genstudio-integration}
     * [Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration: article index](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)  
-    * [Get started with the Workfront Planning and GenStudio for Performance Marketing integration](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
+    * [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
     * [Manage the GenStudio workspace in Adobe Workfront Planning](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
     * [Promote a Workfront Planning workspace to GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
 * Adobe Workfront Integrations {#adobe-workfront-integrations}

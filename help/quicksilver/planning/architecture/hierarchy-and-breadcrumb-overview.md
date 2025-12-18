@@ -39,19 +39,17 @@ The following are benefits of using hierarchies in your workspaces:
 * You can have up to 4 record and object types connected in one hierarchy. 
 * You can connect only the following object types in a workspace hierarchy:
     * Record types that belong to the workspace you're building the hierarchies in. 
-    * Workfront projects. 
+    * Workfront projects. Workfront projects cannot be added as parents of other record types. They are always the last child in a hierarchy. 
 * You cannot add the following object types in a hierarchy:
-    * Record types from other workspaces, even when they are set as connectable or global record types.
+    * Record types from other workspaces, even when they are set as connectable or global record types. You can add global record types to hierarchis only when they have been added to the workspace you're building the hierarchy from. 
     * All other Workfront objects.
     * AEM Assets
-* Hierarchies can include both Planning record types and Workfront object types at the same time.
+* Hierarchies can include both Planning record types and Workfront projects at the same time.
 
         For example, you can have a Campaign record type with Planning Tactics and Workfront Projects as the children in the same workspace hierarchy. 
 * If a connection between the selected record types already exists, the system reuses the existing connection.
 * If no connection exists, Workfront will create one as part of the hierarchy setup.
-* The **Create corresponding field on linked record type** setting must be turned on for the connected field. 
-
-    The record types with connections that do not create a corresponding field on their linked record types can also be part of hierarchies, but when you create a new connection during hierarchy setup, you will always have to create a corresponding field on the linked record type. 
+* The **Create corresponding field on linked record type** setting must be turned on for the connected field for records and objects that you want to include in a hierarchy. 
 * The following are rules for hierarchy setup:
     * A record type can only have one parent record type in a given workspace. 
     
@@ -73,7 +71,7 @@ The following are benefits of using hierarchies in your workspaces:
 
 When you create hierarchies between record types, they generate breadcrumbs for records that belong to those record types. 
 
-For example, if you create a hierarchy and connect Campaigns with Tactics, then with Programs, and then with Projects, when you navigate to a record of any of the types connected in the hierarchy, you can view where in the hierarchy the record is placed. 
+For example, if you create a hierarchy and connect Campaigns with Tactics, then with Activities, and then with Projects, when you navigate to a record of any of the types connected in the hierarchy, you can view where in the hierarchy the record is placed. 
 
 Consider the following: 
 

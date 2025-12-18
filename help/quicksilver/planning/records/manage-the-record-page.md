@@ -136,9 +136,9 @@ For more information about Workfront access requirements, see [Access requiremen
  </tbody>
 </table>-->
 
-## Considerations about editing record pages
+## Considerations about working with record pages
 
-* By default, the details and the preview pages of a record display all the fields associated with the record. 
+* By default, the details page of a record display all the fields associated with the record.  
 
 * You cannot add new fields for a record in the preview or details page. You must add new fields in the table view to display them in the preview and details pages. 
 
@@ -148,10 +148,17 @@ For more information about Workfront access requirements, see [Access requiremen
 
    * Rearranging fields
    * Adding or removing sections
+   * Adding or removing connected records pages
 
 * Display changes that you make in the record preview are immediately visible in the record details page. Changes made in the record page are also visible in the record preview box. 
 
 * Adding a cover image or a thumbnail to a record is not part of the overall layout of the record preview or page. You can add unique cover images or thumbnails to each record. For information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) and [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md). 
+
+* You can add additional pages of the following types to a record's page:
+
+   * Connected records page
+
+      For information, see the section [Add a Connected records page to a record](#add-a-connected-records-page-to-a-record).
 
 ## Add sections to a record preview or page
 
