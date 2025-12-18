@@ -128,7 +128,12 @@ For more information about Workfront access requirements, see [Access requiremen
 
 {{step1-to-planning}}
 
-1. (Conditional) If you are a Workfront administrator, click **Workspaces I'm on** to access workspaces you created, or **Other workspaces** to access workspaces others shared with you. 
+1. (Conditional) If you are a Workfront administrator, click one of the following:
+
+   * **Workspaces I'm on** to access workspaces you created
+   * **Other workspaces** to access workspaces others shared with you
+      Or
+      <span class="preview">**All workspaces** to access workspaces shared with you or workspaces you created</span>
 
 1. (Optional) Click **Show all** to display additional workspaces. The **Show all** link displays only when you have more than two rows of workspace cards.
 1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
