@@ -54,7 +54,7 @@ Consider the following when connecting and creating Workfront objects to Workfro
 
     * The table view of a record type
     * The Details area of a record in the connection field
-    * The Connected record page of a record, in the Details area
+    * The Connected record page of a record
 
 * You can create portfolios and programs from the following areas of Workfront Planning:
 
