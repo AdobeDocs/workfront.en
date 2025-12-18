@@ -91,6 +91,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Choose a Workfront project when sending a review in Creative Cloud Express<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>You can choose a Workfront project to send a proof to. This helps keep all related assets and proofs organized within the same project.</p>
+        </td>
+        <td>December 15, 2025</td>
+        <td>December 15, 2025</td>
+        <td>December 15, 2025</td>
+    </tr> 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Cross-organization support for Adobe Express with Workfront Proofing<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
@@ -265,7 +274,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>To make it easier to create and submit requests, we've added the ability to save drafts to the new requesting experience. Now, when you begin filling out a request and close it, the request is saved in Draft status and can be found on the request form used to create the draft. You can then reopen, update, and submit the draft at your convenience. </p>
         </td>
         <td>November 20, 2025</td>
-        <td>December 11, 2025</td>
+        <td>January 14, 2026</td>
         <td>January 15, 2026</td>
     </tr>  
         <tr>
@@ -274,7 +283,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>To make it easier to keep your requests organized and uncluttered, we've added the ability to delete requests to the new requesting experience. Now, you can delete requests that you have submitted. Workfront Administrators and Workfront Planning Workspace administrators can also delete requests.</p>
         </td>
         <td>November 20, 2025</td>
-        <td>December 11, 2025</td>
+        <td>January 14, 2026</td>
         <td>January 15, 2026</td>
     </tr>   
         <tr>

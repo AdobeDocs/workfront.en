@@ -24,7 +24,10 @@ hidefromtoc: yes
 
 As a workspace manager, you can create multiple workspace hierarchies between the record types in Adobe Workfront Planning. 
 
-After you connect record types in a workspace and create a hierarchy, record types are connected to one another, with one record type designated as the parent and up to 6 other record types configured as children. <!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+After record types are connected within a workspace, you can create a hierarchy that organizes those connections. Hierarchies organize record types into parent–child relationships and can contain up to four levels of object types. 
+
+If a connection between two record types does not already exist, it can be created as you set up the hierarchy. Once defined, the hierarchy establishes a structured path across related record types within the workspace.
 
 Hierarchies will generate breadcrumbs for the record types and records <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> that display in their headers. This way, users know where they are in the hierarchy at any stage of their workflow. 
 
@@ -81,8 +84,8 @@ Or
 1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the workspace name, then click **Settings**. 
    The **Hierarchies** section opens by default. 
 1. Click **New hierarchy** in the upper-right corner of the **Hierarchies** page.
-1. Click **Add object** and select an object from the dropdown menu. This is going to be the parent object in your hierarchy. 
-   You can select a record type from the current workspace, or a project from Workfront.
+1. Click **Add object** and select an object from the dropdown menu. This is going to be the first parent object in your hierarchy. 
+   The first parent can only be a Planning record type. Workfront projects cannot be selected as parents of other object types in a hierarchy.
 1. Click **Add object** to add a second object which is the first child in your hierarchy, then select another object in the dropdown menu.
    ![New hierarchy box without field selected](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
 1. Click **Select connected field** to indicate which field connects the two objects.
