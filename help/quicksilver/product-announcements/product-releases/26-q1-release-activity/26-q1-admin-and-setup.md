@@ -25,7 +25,7 @@ You can now enable or disable Priorities for specific users in the Layout Templa
 Priorities will be automatically included for license types that have default access to Requests. For example, a Contributor license will see Requests, Boards, and Priorities by default in the Main Menu, while an External license will only see Documents and Boards because it does not have access to view or submit requests.
 
 
-For more information, see [Customize the Main Menu using a layout template](help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Check for multi-form conflicts for calculated custom fields
 
