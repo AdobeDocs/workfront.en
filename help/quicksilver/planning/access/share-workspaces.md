@@ -204,3 +204,5 @@ Users who access a link to a workspace to which they do not have permissions can
 1. Click **Save**.
 
    The users removed no longer have access to the workspace or its objects.
+  
+   There is no notification for the users that have been removed from accessing the workspace that they no longer have these permissions. 

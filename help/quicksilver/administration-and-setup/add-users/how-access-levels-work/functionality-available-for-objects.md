@@ -15,14 +15,18 @@ exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
 
 {{highlighted-preview}}
 
+>[!NOTE]
+>
+>The information in this article refers to the current access levels. For information about the legacy access levels, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
+
 The following tables lists the functionality available for each object type in the various access levels.
 
 It also indicates which actions Workfront administrators can disable or enable using an access level.
 
 >[!NOTE]
 >
->* This article describes functionality available to access levels in the new Workfront plan model. To see functionality available in the current plan model, see [Functionality available for each object type for various access levels](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* For a list of functionality available to the different plans in the new plan model, see [Adobe Workfront Pricing and Packaging](https://business.adobe.com/products/workfront/pricing.html).
+>* This article describes functionality available to access levels in the new Workfront package model. To see functionality available in the current package model, see [Functionality available for each object type for various access levels](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+>* For a list of functionality available to the different packages in the latest model, see [Adobe Workfront Pricing and Packaging](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projects
 
@@ -43,7 +47,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Add tasks                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Give updates/comments        | ✓        | ✓      | ✓      | &nbsp;        |
 | Change status                | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Log hours                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| Log hours                    | ✓        | <span class="preview">✓</span>      | &nbsp;      | &nbsp;        |
 | Edit assignments             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Manage a baseline            | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Manage risks                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |

@@ -11,6 +11,7 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 ---
 # Locate submitted requests
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 You can locate the following types of requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
 
@@ -65,9 +66,51 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++
 
-## Locate submitted requests
+## Locate submitted requests in the Requests area
 
-To locate requests that you or other users have submitted:
+Locating submitted requests differs based on whether you are using the new or legacy requesting experience.
+
+* [Locate submitted requests in the new requesting experience](#locate-submitted-requests-in-the-new-requesting-experience)
+* [Locate submitted requests in the legacy requesting experience](#locate-submitted-requests-in-the-legacy-requesting-experience)
+
+### Locate submitted requests in the new requesting experience
+
+You can locate submitted requests in the Requests area, <span class="preview">which include links to objects created by those requests.</span>
+
+To locate requests that you or other users have submitted in the new requesting experience:
+
+{{step1-to-requests}}
+
+1. Ensure that the **Use new experience** toggle in the upper-right corner of the screen is enabled.
+
+   The Requests list appears.
+
+1. (Optional) To search for a request, begin typing in the search bar at the upper-right of the list. Search results appear as you type.
+1. (Optional) Click **Filters** and start adding conditions for the requests you want to locate.
+
+    You can filter by the following fields:  
+
+    * **Workspace**: The workspace the request form is associated with.
+    * **Record type**: The record type the request form is associated with.
+    * **Entry date**: The date when the request was submitted.
+    * **Request form**: The name of the request form used to submit the request.
+    * **Status**: The status of the request.
+    * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
+
+    You can have multiple filters joined by either **And** or **Or**.
+    The request list is filtered automatically, as you add the filter conditions. 
+1. (Optional) Use views to focus on the requests you want to locate.
+
+   For instructions, see [Create or edit views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+>[!NOTE]
+>
+>* If you have Workfront Planning, your Workfront and Planning requests appear in the same list. Workfront requests display the value `Issue` in the Object type column.
+>* The Requests list appears with 50 requests displayed. To view more requests, scroll to the bottom of the list.
+
+### Locate submitted requests in the legacy requesting experience
+
+To locate requests that you or other users have submitted in the legacy requesting experience:
 
 {{step1-to-requests}}
 

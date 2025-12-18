@@ -62,13 +62,13 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## Delete  requests <!--or request drafts -->in the new requesting experience
 
-You can delete requests in the Requests area of Workfront, or in the My Requests widget in Home.
+You can delete requests in the Requests area of Workfront, or in the My Requests widget in Home. 
 
 * Workfront administrators can delete requests<!-- and drafts--> in their organization.
 * Workfront Planning workspace administrators can delete requests <!--and drafts--> in the Planning workspace that they administer.
 * Users can delete requests <!--and drafts--> that they submitted.
 
-To delete a request or draft in the new requesting experience:
+### Delete a request from the three-dot menu
 
 1. To access the Requests list, click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Requests]**.
 
@@ -97,6 +97,24 @@ To delete a request or draft in the new requesting experience:
 1. In the dialog that opens, click **Delete**.
 
    The request <!--or draft--> is deleted.
+
+### Bulk delete requests
+
+1. To access the Requests list, click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Requests]**.
+
+1. To access the My Requests widget in Home:
+   
+   1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Home]**.
+   1. Locate the My Requests widget. 
+
+      For more information on the My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. In the Requests list or the My Requests widget, click the box to the left of each request that you want to delete.
+1. In the blue bar at the bottom of the page, click **Delete**.
+
+   >[!NOTE]
+   >
+   >If the Delete option is not visible in the blue bar, you do not have permission to delete one or more of the selected requests.
 
 </div>
 
