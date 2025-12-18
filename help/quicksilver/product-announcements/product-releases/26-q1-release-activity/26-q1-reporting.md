@@ -12,7 +12,7 @@ This page describes Reporting enhancements made with the First Quarter 2026 rele
 
 For a list of all changes available at this point in the First Quarter 2026 release cycle, see [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-<!--
+
 
 ## Currency updates in Canvas Dashboards
 
@@ -30,9 +30,6 @@ We have made the following updates for currency fields:
 
 * When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields.
 
--->
-
-<!--
 
 ## Quick search table results in Canvas Dashboards
 
@@ -44,7 +41,6 @@ We have made the following updates for currency fields:
 
 We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.
 
--->
 
 ## New Show total option for Pie Charts
 

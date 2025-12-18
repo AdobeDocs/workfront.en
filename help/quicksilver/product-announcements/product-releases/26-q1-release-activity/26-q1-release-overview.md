@@ -241,7 +241,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
- <!--    <tr>
+ <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Currency updates in Canvas Dashboards</a>
             <p>We have made the following updates for currency fields:<ul><li>When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. </li><li>When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.</li><li>When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields</li></ul></p>
@@ -249,8 +249,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>December 18, 2025</td>
         <td>January 14, 2026</td>
         <td>January 15, 2026</td>
-    </tr>-->
- <!--    <tr>
+    </tr>
+ <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}"> Quick search table results in Canvas Dashboards</a>
             <p>We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.</p>
@@ -258,7 +258,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>December 18, 2025</td>
         <td>January 14, 2026</td>
         <td>January 15, 2026</td>
-    </tr>-->
+    </tr>
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">New Show total option for Pie Charts</a>
