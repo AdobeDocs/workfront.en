@@ -55,7 +55,7 @@ Or
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p>External, Contributor, Light, or Standard license</p> 
+   <td><p>Any</p> 
   </td> 
   </tr> 
   <tr> 
