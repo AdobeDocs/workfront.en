@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Resize and Collapse the Burndown Chart
 description: You can resize or collapse the burndown chart to adjust how much room it occupies on the story board.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
 ---
@@ -17,8 +17,6 @@ Any changes you make to the size or visibility of the burndown chart are visible
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -26,14 +24,13 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: [!UICONTROL Light] or higher</p> 
-   or
-   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Light or higher</p> 
+   <p>Review or higher</p> </td> 
   </tr>
  </tbody> 
 </table>

@@ -9,7 +9,7 @@ exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
 ---
 # Request a project
 
-<!--Audited: April 2024-->
+<!--Audited: 10/2025-->
 
 You can request for a project to be approved before you start working on it. 
 
@@ -35,6 +35,41 @@ You can request a project when you add a new project in the following areas of A
  <col> 
  <tbody> 
   <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license</p> </td> 
+   <td> <p>Standard</p>
+   <p>Plan</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>Edit access to Projects</p>
+   <p>If you request a project from a portfolio or a program, you must have Edit access to Portfolios and Programs</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>When you create a project request you automatically receive Manage permissions to the project </p> 
+   <p>If you request a project from a portfolio or a program, you must have Manage permissions to the portfolio and the program.</p>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -54,11 +89,7 @@ You can request a project when you add a new project in the following areas of A
    <td> <p>When you create a project request you automatically receive Manage permissions to the project </p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Request a project
 
@@ -77,10 +108,12 @@ You can request a project when you add a new project in the following areas of A
 
    * Follow the same steps as for creating a project while defining a Business Case. (recommended)
 
-     For information about defining a Business Case and requesting a project, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+     For information, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
    * Create a project from scratch or using a template and change the status to **Requested**.
 
-     For information about creating a project, see [Create a project](../../../manage-work/projects/create-projects/create-project.md) or [Create a project using a template](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     For information, see [Create a project](../../../manage-work/projects/create-projects/create-project.md) or [Create a project using a template](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   The project you request has a status of **Requested** and it displays on the **Requested Projects** tab of a Portfolio, if you associated it with a Portfolio. A portfolio manager can now review it and either approve it or reject it, in which case the status of the project changes to either **Approved** or **Rejected**.
+   The project you request has a status of **Requested** and it displays on the **Requested Projects** tab of a Portfolio, if you associated it with a Portfolio. 
+   
+   A portfolio manager can now review it and either approve it or reject it, in which case the status of the project changes to either **Approved** or **Rejected**.

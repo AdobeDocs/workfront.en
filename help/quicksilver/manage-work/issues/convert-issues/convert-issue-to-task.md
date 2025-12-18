@@ -1,22 +1,57 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Convert an issue to a task in Adobe Workfront
-description: If more work must be done to complete an issue after the issue is submitted, you can convert the issue to a task.
+title: Convert an Issue to a Task
+description: If more work must be done to complete an issue after the issue is submitted, you can convert the issue to a task in Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
 ---
-# Convert an issue to a task in&nbsp;Adobe Workfront
+# Convert an issue to a task
 
-If more work must be done to complete an issue after the issue is submitted, you can convert the issue to a task.
+<!--Audited: 08/2025-->
+
+If more work must be done to complete an issue after the issue is submitted, you can convert the issue to a task in Adobe Workfront.
 
 For general information about converting issues, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+   <p>Work or higher</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues, Tasks, and Projects</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the issue</p> <p>Contribute permissions to the project</p> <p>You obtain Manage permissions to the task after the issue is converted</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -38,9 +73,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>View permissions to the issue</p> <p>Contribute permissions to the project</p> <p>You obtain&nbsp;Manage permissions to the task after the issue is converted</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+</table> -->
 
 ## Considerations
 
@@ -132,8 +165,8 @@ The following table illustrates which issue fields are visible from the converte
 | Issue fields |Project or task field |Project list or report |Project Details area |Task list or report |Task Details area |
 |---|---|---|---|---|---|
 | [!UICONTROL Issue Name] |[!UICONTROL Converted Issue Name] |✔ |✔ |✔ |✔ |
-| [!UICONTROL Primary Contact] | [!UICONTROL Converted Issue Originator Name] |✔ | ✔  |✔ |
-| [!UICONTROL Entry Date] |[!UICONTROL Converted Issue Entry Date] |✔ ||✔ |
+| [!UICONTROL Primary Contact] | [!UICONTROL Converted Issue Originator Name] |✔ | ✔  |✔ ||
+| [!UICONTROL Entry Date] |[!UICONTROL Converted Issue Entry Date] |✔ ||✔ ||
 
 
 >[!CAUTION]

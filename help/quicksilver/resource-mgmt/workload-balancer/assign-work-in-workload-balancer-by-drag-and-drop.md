@@ -9,35 +9,29 @@ exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
 ---
 # Assign work in the Workload Balancer by dragging and dropping
 
-{{preview-fast-release-general}}
-
 You can assign work items using the Adobe Workfront Workload Balancer by dragging and dropping work items to the correct users.
 
 For general information about assigning work to users using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
-
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-       <p>or</p>
-       <p>Current: Plan, to assign work in the Workload Balancer in the Resourcing area;</br>
-       Work, to assign work in the Workload Balancer of a team or project</p></td>
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan, when using the Workload Balancer in the Resourcing area; Work, when using the Workload Balancer of a team or project</p></td>
+  </tr>
+  <tr> 
+   <td>Access level configurations</td> 
    <td> <p>Edit access to the following:</p> 
     <ul> 
      <li>Resource Management</li> 
@@ -48,13 +42,13 @@ You must have the following access to perform the steps in this article:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td>Object permissions</td> 
    <td>Contribute permissions or higher to the projects, tasks, and issues that include Make Assignments</td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +60,7 @@ You can assign an item from the Unassigned Work area to a user, or you can reass
 
    You can assign work to users using the Workload Balancer in the Resourcing area, at the project, or at the team level. For more information about where the Workload Balancer is located in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Optional) Go to the **Unassigned Work** area and apply a filter to view tasks, issues, <span class="preview">and role assignments</span> that are not assigned to users
+1. (Optional) Go to the **Unassigned Work** area and apply a filter to view tasks, issues, and role assignments that are not assigned to users
 
    Or
 
@@ -74,7 +68,7 @@ You can assign an item from the Unassigned Work area to a user, or you can reass
 
    >[!NOTE]
    >
-   ><span class="preview">Role assignments are displayed under work items in the Unassigned Work area when the Show Role Assignments setting is enabled. For more information, see [Customize the view](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) in [Navigate the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
+   >Role assignments are displayed under work items in the Unassigned Work area when the Show Role Assignments setting is enabled. For more information, see [Customize the view](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) in [Navigate the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 1. (Conditional) In the Workload Balancer of a project, click the **Show all users** icon ![Show all users](assets/show-all-users-icon-project-workload-balancer.png) to display all Workfront users.
 
@@ -89,25 +83,21 @@ You can assign an item from the Unassigned Work area to a user, or you can reass
    >* The Show all users option is available only in the Workload Balancer of a project. 
    >* Use filters to display only the  users that are important to you. For example, use a filter to display only users from your teams or groups.
 
-1. Click the bar of a work item <span class="preview">or role assignment</span> that indicates either the planned or the projected timeline and drag it over the hours for a user in the **Assigned** area.
+1. Click the bar of a work item or role assignment that indicates either the planned or the projected timeline and drag it over the hours for a user in the **Assigned** area.
 
    The user you hover over to drop the work item to is highlighted.
 
-   <span class="preview">When dragging and dropping role assignments, the user is highlighted in orange if their current role does not match the role assignment. You can still assign the work to the user when the roles do not match.</span>
+   When dragging and dropping role assignments, the user is highlighted in orange if their current role does not match the role assignment. You can still assign the work to the user when the roles do not match.
 
    >[!TIP]
    >
    >The Planned Hours for the user you're hovering over update in real time with the number of daily Planned Hours from the work item, to indicate what the impact of adding a new item might be to their overall allocation.
 
-   <span class="preview">Sample image in the Preview environment:</span>
    ![Drop item to assign to a user](assets/wb-drag-drop-role-or-task-to-user.png)
 
-   Sample image in the Production environment:
-   ![Drop item to assign to a user](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+1. When you are ready, drop the selected work item or role assignment in the same line as the user's name in the Assigned Area. The item is assigned and the allocated Planned Hours are updated for the user with the new hours from the work item.
 
-1. When you are ready, drop the selected work item <span class="preview">or role assignment</span> in the same line as the user's name in the Assigned Area. The item is assigned and the allocated Planned Hours are updated for the user with the new hours from the work item.
-
-   <span class="preview">If the Show Role Assignments setting is not enabled</span>, and the work item was assigned to a job role that the user cannot fulfill, the item displays under the user's name in the Assigned Work area. It also remains in the Unassigned Work area to indicate that the job role associated with it has not been replaced by a user yet.
+   If the Show Role Assignments setting is not enabled, and the work item was assigned to a job role that the user cannot fulfill, the item displays under the user's name in the Assigned Work area. It also remains in the Unassigned Work area to indicate that the job role associated with it has not been replaced by a user yet.
 
    >[!TIP]
    >

@@ -23,7 +23,7 @@ Reports created through the Adobe Workfront Reports tool can be added to a Canva
 
 ## Access Requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view access requirements for the functionality in this article.
 
  <table style="table-layout:auto"> 
 <col> 
@@ -32,7 +32,7 @@ Reports created through the Adobe Workfront Reports tool can be added to a Canva
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <p>Any </p> 
    </td> 
@@ -40,8 +40,8 @@ Reports created through the Adobe Workfront Reports tool can be added to a Canva
  <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td> 
-<p>Current: Plan </p> 
-<p>New: Standard</p> 
+<p>Standard </p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 

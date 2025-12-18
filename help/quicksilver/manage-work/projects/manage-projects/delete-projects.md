@@ -1,5 +1,5 @@
 ---
-title: Delete projects
+title: Delete Projects
 product-area: projects
 navigation-topic: manage-projects
 description: You can delete a project if the project and its data are no longer needed. As an alternative to deleting a project, we recommend editing the project and changing the status to Complete or Dead. This removes all current tasks related to the project from a user's task list, but saves all data associated with the project.
@@ -22,7 +22,34 @@ You can delete a project in a project list or at the project level.
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront package</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> 
+   </td> 
+  </tr> 
+    <td>Access level configurations</td> 
+   <td> <p>Edit access to Projects with ability to Create and Delete projects</p> </td> 
+  </tr> 
+    <td> <p>Object permissions</p> </td> 
+   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,11 +74,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Understand the process of deleting projects
 

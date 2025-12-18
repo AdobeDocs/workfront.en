@@ -2,7 +2,7 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Create Advanced Assignments
-description: You can manage task or issue assignments by using Advanced Assignments.
+description: You can manage task or issue assignments using Advanced Assignments.
 author: Lisa
 feature: Work Management, Resource Management
 role: User
@@ -10,9 +10,18 @@ exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 ---
 # Create advanced assignments
 
-{{preview-fast-release-general}}
+<!-- Audited: 11/2025-->
 
-<!-- Audited: 07/2024-->
+<!--remove the bullet indicated when we get rid of the new/old experience of editing tasks-->
+
+
+<!--<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 You can manage task or issue assignments using Advanced Assignments.
 
@@ -35,7 +44,7 @@ This article describes how to access Advanced Assignments in the task or issue's
 In addition, you can make advanced assignments in the following areas of Workfront:
 
 * In lists and reports when the Assignments field displays in the view.
-* In the Assignments section when editing a task. For more information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+* In the Assignments section when editing a task. For more information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
 * In the task or issue header, in the Assignments area.
 * In the Workload Balancer. For more information, see [Assign work manually using the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
@@ -43,33 +52,32 @@ In addition, you can make advanced assignments in the following areas of Workfro
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Standard</p>
-    <p>Current: Work or higher</p> </td> 
+   <td>Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+   <p>Work or higher</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td role>Access level configurations</td> 
    <td> <p>Edit access to Tasks and Issues</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions to a the task or issue</p>  </td> 
+   <td>Object permissions</td> 
+   <td> <p>Contribute or higher permissions to the task or issue</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,11 +88,8 @@ For more detail about the information in this table, see [Access requirements in
 
    >[!TIP]
    >
-   >You can make advanced assignments directly on the task or issue list. Click inside the **Assignments** field on the same line as the task or issue, then click <span class="preview">**Advanced**</span> or the **People icon** to open the Advanced Assignments window. Skip to step 5 to continue creating advanced assignments.
-   ><span class="preview">Sample image in the Preview environment:</span>
+   >You can make advanced assignments directly on the task or issue list. Click inside the **Assignments** field on the same line as the task or issue, then click **Advanced** at the bottom of the list, or the **People icon** in the upper-right corner of the assignments box, to open the Advanced Assignments window. Skip to step 5 to continue creating advanced assignments.
    >![Click Advanced or the People icon](assets/access-aa-from-lists.png)
-   >Sample image in the Production environment:
-   >![Click the People icon](assets/nwe-advanced-assignments-350x55.png)
 
 1. Click **Assign to** in the **Assignments** field in the header of the task or issue
 
@@ -118,13 +123,8 @@ For more detail about the information in this table, see [Access requirements in
    >   
    >   * Reassign the work item to active resources. 
    >   * Associate the users in a deactivated team with an active team and reassign the work item to the active team.
-   
-   <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
-    * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
-    -->
 
 1. For each user in the **Assignee** column, specify the following information:
-
 
    * **Owner**: Hover over the name of the assignee and click **Make Primary** in the Owner field if you want to mark the assignee as the task or issue owner. A green checkbox indicates that the specified user is the Primary Contact of the task or issue. Adobe Workfront marks the first user or job role that you assign to a task or issue as the Owner or Primary Assignment. A team cannot be designated the Primary Owner of a task or issue.
 

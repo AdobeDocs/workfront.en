@@ -36,30 +36,7 @@ You can also use the following keys to navigate the breadcrumbs:
  </tbody> 
 </table>
 
-+++Access requirements
 
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
-
-+++
 
 <!--drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
 

@@ -12,7 +12,7 @@ exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
 
 In order to access Data Connect data, you must first create a Snowflake reader (or service) account for your organization, then create a new connection for each user or tool that you would like to have access to Data Connect.
 
-After creating a connection, you can find its associated URL and username by clicking on it on the **Data Connect** page (**Main menu** > **Setup** > **System** > **Data Connect**) under the **Existing Connections** tab.
+After creating a connection, you can find its associated URL and username by clicking on it on the Data Connect page (Main menu > Setup > System > Data Connect) under the Existing Connections tab.
 
 For information on using a newly created connection with an external product, see [Establish a connection to Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
@@ -20,33 +20,25 @@ For information on using a newly created connection with an external product, se
 
 +++ Expand to view access requirements. 
 
-You must have the following access to perform the steps in this article: 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td><p>Included in the following plans:</p>
-    <ul>
-        <li>Ultimate</li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect is not available for legacy Workfront plans.</p> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Ultimate</p>
+    <p>Workflow Ultimate</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>Plan</p></td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p></td> 
+   <td> <p>You must be a Workfront administrator</p></td> 
   </tr> 
  </tbody> 
 </table>

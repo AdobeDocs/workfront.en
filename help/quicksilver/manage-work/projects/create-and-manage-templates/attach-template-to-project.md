@@ -9,7 +9,7 @@ exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 ---
 # Attach a template to a project
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 10/2025 -->
 
 You can attach a template to a project either during the initial creation phase of the project or after it's been created.
 
@@ -20,6 +20,37 @@ For more information about creating a project using a template, see [Create a pr
 +++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+    <p>Plan</p>
+    </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects </p> <p>View access to Templates</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the project</p> <p>View permissions or higher to the template</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+ +++
+
+ <!--Old:
+ 
+ <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -43,11 +74,7 @@ For more information about creating a project using a template, see [Create a pr
    <td> <p>Manage permissions to the project</p> <p>For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>. </p> <p>View permissions or higher to the template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
- +++
+</table>-->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -82,16 +109,15 @@ You can attach a template to a project from the project page or from a project l
 
 1. On the **Projects** page, select the project you want to attach a template to.
 
-1. Click the **More** icon ![More icon](assets/qs-more-icon-on-an-object.png) to the right of the project name.
+1. Click the **More** icon ![More drop-down](assets/more-dropdown.png) to the right of the project name.
 
-   ![More drop-down](assets/more-dropdown.png)
+   ![More icon](assets/qs-more-icon-on-an-object.png)
 
    Or
 
-   Go to a project list or report and select a project, then click the **More** icon ![More icon](assets/qs-more-icon-on-an-object.png) at the top of the list.
+   Go to a project list or report and select a project, then click the **More** icon ![More drop-down](assets/more-dropdown.png) at the top of the list.
 
    ![More menu expanded](assets/more-menu-expanded.png)
-
    
 1. Click **Attach Template**. The **Attach Template** box displays.
 
@@ -127,15 +153,23 @@ You can attach a template to a project from the project page or from a project l
      </tr> 
      <tr> 
       <td role="rowheader">The selected template tasks below are imported to the project.&nbsp;Deselect the ones you want to exclude. </td> 
-      <td>Deselect any tasks that you want to exclude from the template before attaching it to the project.</td> 
+      <td><p>Deselect any tasks that you want to exclude from the template before attaching it to the project.</p>
+      <p><b>TIP</b></p>
+      <p>You can choose only one task.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Select the project task you want as the predecessor for the tasks in this template.</td> 
-      <td> <p>Click the field to display a list of project tasks, then select which task must finish before the template tasks can start. Alternatively, you can skip this step and set up relationships within the project after the template is attached. </p> <p> Select the <strong>Dependency Type</strong>, <strong>Lag Time</strong> information, and if you want the predecessor to be enforced by checking the <strong>Enforce Predecessor</strong> checkbox. </p> </td> 
+      <td> <p>Click inside the field box to display a list of project tasks, then select which task must finish before the template tasks can start. Alternatively, you can skip this step and set up relationships within the project after the template is attached. </p> <p> Select the <strong>Dependency Type</strong>, <strong>Lag Time</strong> information, and if you want the predecessor to be enforced by checking the <strong>Enforce Predecessor</strong> checkbox. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Select the project task that you want as the parent of the tasks in this template.</td> 
-      <td> Select which project task you want to designate as the parent task for all of the template tasks. If you don't make a selection, all the template tasks appear at the end of your current project tasks. You can skip this step and move tasks around in the project after the template is attached.</td> 
+      <td> <p>Select which project task you want to designate as the parent task for all of the template tasks. If you don't make a selection, all the template tasks appear at the end of your current project tasks. You can skip this step and move tasks around in the project after the template is attached.</p>
+      <p><b>NOTE</b></p>
+      <p>If you selected a parent template task with additional children, only the parent will display the project task as its predecessor after it's added to the project. The children template tasks will not display a predecessor.</p>
+      <p>If you selected only a child template task, the project task will display as its predecessor after it is added to the project. </p> 
+      
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">Options section</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-options-section-nwe-350x78.png" style="width: 350;height: 78;"> </p> </td> 

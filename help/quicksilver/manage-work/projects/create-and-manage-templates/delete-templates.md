@@ -17,7 +17,37 @@ We recommend that you deactivate templates that you are no longer using, instead
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p> 
+   <p>Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Templates that includes access to Delete</p> <td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the template that includes permissions to Delete it</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,9 +70,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>Manage permissions to the template that includes permissions to Delete it</p> <p> <img src="assets/template-manage-permissions-with-advanced-settings-350x352.png" style="width: 350;height: 352;"> </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+</table>-->
 
 ## Considerations for deleting templates
 
@@ -55,12 +83,12 @@ You must have the following access to perform the steps in this article:
 
 {{step1-to-templates}}
 
-This opens a list of templates
+   This opens a list of templates
 
 1. Select the template that you want to delete by clicking the checkbox to the left of the template name, then click **Delete > Yes, Delete It** to confirm the deletion.
 
    Or
 
-   Click the name of a template to access it, then click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) , then **Delete Template > Yes, Delete it**.
+   Click the name of a template to access it, then click the **More** menu ![More icon](assets/more-icon.png), then **Delete Template > Yes, Delete it**.
 
    The template is no longer available to be associated with a project.

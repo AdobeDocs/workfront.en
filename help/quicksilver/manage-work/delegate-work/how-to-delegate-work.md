@@ -3,7 +3,7 @@ filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: Delegate Tasks and Issues
 description: You can temporarily delegate the work you are assigned to while you are out of the office. This article describes how to delegate task and issue assignments.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 ---
@@ -49,12 +49,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>New: Contributor or higher</p><p>Or</p><p>Current: Review or higher</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Contributor or higher</p><p>Review or higher</p>
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

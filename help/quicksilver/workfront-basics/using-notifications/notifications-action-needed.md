@@ -3,7 +3,7 @@ content-type: reference
 navigation-topic: notifications
 title: 'Notifications: Action needed'
 description: The following notifications let you know if you need to take action on a work item. For information about configuring which notifications you receive, see Modify your own email notifications.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: dd383bd4-da30-45ea-889e-e6b49416974b
 ---

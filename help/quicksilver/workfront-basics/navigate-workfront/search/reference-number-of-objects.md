@@ -4,7 +4,7 @@ navigation-topic: search
 title: Use the reference number of objects
 description: In [!DNL Adobe Workfront], items are identified as objects. Objects correspond with the database and are used to correlate data with an item. Reference numbers are useful in distinguishing between two otherwise similar objects (such as tasks with the same name). You can search for reference numbers and include them in reports.
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
 ---
 # Use the reference number of objects

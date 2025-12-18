@@ -1,17 +1,19 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Delete issues
-description: You can delete issues or requests in Adobe Workfront if you have the correct access and permissions to do so.
+title: Delete Issues
+description: You can delete issues or requests in Adobe Workfront if you have the correct access and permissions to do so, and when you find that they are no longer needed. We recommend closing them, instead of deleting them, so you can preserve the accuracy of your projects.
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
 ---
 # Delete issues
 
-<!--Audited: 05/2025-->
+<!--Audited: 08/2025-->
 
-You can delete issues or requests in Adobe Workfront if you have the correct access and permissions to do so.
+You can delete issues or requests in Adobe Workfront if you have the correct access and permissions to do so, and when you find that they are no longer needed. We recommend closing them, instead of deleting them, so you can preserve the accuracy of your projects.
+
+Workfront administrators can restore deleted issues.
 
 >[!TIP]
 >
@@ -21,20 +23,18 @@ You can delete issues or requests in Adobe Workfront if you have the correct acc
 
 +++ Expand to view access requirements. 
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Contributor or higher</p>
-   <p>Current: Request or higher</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Contributor or higher</p>
+   <p>Request or higher</p>
  </td> 
   </tr> 
   <tr> 

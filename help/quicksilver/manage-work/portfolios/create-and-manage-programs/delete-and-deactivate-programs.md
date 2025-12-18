@@ -26,7 +26,7 @@ We recommend deactivating a portfolio, rather than deleting it, to preserve the 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
 
    <td> <p>Any</p> </td> 
   </tr> 

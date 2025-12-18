@@ -10,7 +10,7 @@ exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
 ---
 # Overview of Resolving and Resolvable Objects
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 08/2025 -->
 
 A Resolvable Object is an issue whose resolution is tied to a Resolving Object. A Resolving Object is a project, task, or another issue.
 
@@ -70,7 +70,7 @@ The default status of the issue is controlled by the status of the project or ta
 
 ## Handle the Resolvable Object during the conversion to a project or a task
 
-Depending on the way the Workfront or group administrator configured the system or group level issue preferences, you might be able to handle the resolvable object during the conversion of an issue to a project or a task.   
+Depending on the way the Workfront or group administrator configured the system- or group-level Issue Preferences, you might be able to handle the resolvable object during the conversion of an issue to a project or a task.   
 
 The following scenarios exist:
 

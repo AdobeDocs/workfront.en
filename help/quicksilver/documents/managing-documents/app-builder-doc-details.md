@@ -86,41 +86,56 @@ If AppBuilder is configured properly, you should see "Create project from templa
 Adobe provides an open source CLI that can be used to help create the App Builder applications. Documentation can be found here: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) as well as Adobe App Builder Instructions [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app).
 
 1. Installation
-    1. To install the tool, (make sure you are on node v18 first) run: `npm install -g @adobe/aio-cli `.
+
+    1. To install the tool, (make sure you are on node v18 first) run: `npm install -g @adobe/aio-cli`.
 
 1. Authenticate in Terminal
+
     1. Launch your terminal and log in to AIO with the command: `aio login`.
 
 1. Initialize Your Application
+
     1. Begin setting up your app by running: `aio app init example-app`.
 
 1. Configuration Selection
+
     1. Proceed to select your Organization and Project from the provided options.      
+
         ![Select org](assets/select-org.png)
+
         ![Select project](assets/select-project.png)
 
 1. Template Selection and Setup
+
     1. Browse all available templates, and choose the **@adobe/aem-cf-editor-ui-ext-tpl** template for your project.
-         ![Search template](assets/search-template.png)
+
+        ![Search template](assets/search-template.png)
+
         ![Select template](assets/select-template.png)
 
 1. Define Your Extension
+
     1. Name your extension.
     1. Provide a descriptive summary of your extension's functionality.
     1. Select an initial version number to start with.
     1. Confirm completion by selecting **I'm done**.
-![Define extension](assets/define-extension.png)
+
+    ![Define extension](assets/define-extension.png)
 
 1. Navigate to Your Project Folder
+
     1. Access the src folder
+
     1. Rename the folder `aem-cf-editor-1` to `workfront-doc-details-1`.
 
 1. Modify Configuration Files
+
     1. Open app.config.yaml
     1. Update the line from `aem/cf-editor/1` to `workfront/doc-details/1`.
     1. Adjust the include path from `src/aem-cf-editor-1/ext.config.yaml` to `src/workfront-doc-details-1/ext.config.yaml`.
 
 1. Edit the Extension Registration Component
+
     1. Open `src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`.
     1. In the methods section, add a function `secondaryNav` that contains an asynchronous function `getButtons`.
     1. `getButtons` should receive an object with the following structure: 
@@ -312,20 +327,22 @@ Adobe provides an open source CLI that can be used to help create the App Builde
 In order to have a guest application loaded within Workfront, the application needs to be pushed to the Production workspace and submitted for approval.
 
 1. Deploy the application to the Production workspace
-    1. `aio app use -w Production `
-    1. `aio app deploy `
+
+    1. `aio app use -w Production`
+    1. `aio app deploy`
 
 1. Navigate to [https://developer-stage.adobe.com/](https://developer-stage.adobe.com/) or [https://developer.adobe.com/](https://developer.adobe.com/).
+
     1. Click **Console** in the upper right-hand corner.
 
 1. Find the project that you used to create the AppBuilder application.
-
 1. Select the Production Workspace.
+
     ![Select production workspace](assets/find-application.png)
 
 1. Submit the application for Private review (you will get warnings that we aren't publishing to the app exchange marketplace, which is fine).
-
 1. Fill out the form (title, description, icon, and note to reviewer).
+
     ![Fill out form for private review](assets/submission-details.png)
 
 >[!IMPORTANT]

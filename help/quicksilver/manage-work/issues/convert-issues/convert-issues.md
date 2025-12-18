@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Overview of converting issues in Adobe Workfront
+title: Overview of Converting Issues in Adobe Workfront
 description: If more work needs to be done to complete an issue after the issue is submitted, you can convert the issue to a project or to a task.
 author: Alina
 feature: Work Management
@@ -11,11 +11,13 @@ exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
 ---
 # Overview of converting issues in Adobe Workfront
 
+<!--Audited: 08/2025-->
+
 If more work needs to be done to complete an issue after the issue is submitted, you can convert the issue to a project or to a task.
 
-For information about converting issues to tasks, see [Convert an issue to a task in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
+For information about converting issues to tasks, see [Convert an issue to a task](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
 
-For information about converting issues to projects, see [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+For information about converting issues to projects, see [Convert an issue to a project](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Considerations when converting issues
 
@@ -56,7 +58,7 @@ For information about converting issues to projects, see [Convert an issue to a 
 
 When converting an issue to a project, you can either convert it to a blank project or use a template.
 
-For information, see [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+For information, see [Convert an issue to a project](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 When using a template, some fields that are populated on the template transfer to the project created from the converted issue. Other fields transfer to the project from the converted issue.
 

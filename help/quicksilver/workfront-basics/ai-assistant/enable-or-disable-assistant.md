@@ -10,40 +10,35 @@ exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
 
 As a Workfront Administrator, you can control which users in your organization have AI Assistant enabled. This is managed through access levels.
 
-## Access requirements
+## Access requirements 
 
-You must have the following access to enable or disable AI Assistant:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td><p>New: Any</p>
-       <p>or</p>
-       <p>Current: Not available</p></td>
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-       <p>or</p>
-       <p>Current: Not available</p></td>
+   <td><p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> </td> 
+   <td> <p>You must be a Workfront administrator</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Enable or disable AI Assistant in Workfront
-
->[!NOTE]
->
->AI Assistant is disabled by default for non-admins. 
 
 To enable AI Assistant for a given access level:
 
@@ -53,4 +48,11 @@ To enable AI Assistant for a given access level:
 1. In the **Set additional restrictions...** area of the **Edit Access Level** box, uncheck the **Disable the Workfront AI Assistant** checkbox.
 1. Click **Save**.
 1. Repeat steps 3-5 for each access level you want to enable AI Assistant for.
+
+
+
+>[!NOTE]
+>
+>* AI Assistant is disabled by default for non-admins. 
+>* If a non-admin interacts with the AI Assistant icon in Workfront, the AI Assistant agreement appears requesting the non-admin to accept the terms and conditions. If they accept the agreement, they can use AI Assistant even though it is disabled in their layout template.
 

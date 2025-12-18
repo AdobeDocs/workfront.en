@@ -33,38 +33,35 @@ The changes you make in the view of the report take effect only in the Details t
 
  +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>New:</p> 
-   <ul><li>Standard for report views</li>
-  <li> Contributor or higher for list views</li></ul>
-   <p>Current:</p>
-   <ul>
-    <li> Plan for report views </li>
-    <li> Request or higher for list views </li> </ul></td> 
+   <td role="rowheader">Adobe Workfront license</strong></td> 
+   <td> 
+    <p>Standard or Plan for report views</p>
+    <p>Contributor or Request for list views</p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to Reports, Dashboards, Calendars to edit a view in a report</p></td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to Reports, Dashboards, Calendars to edit a view in a report</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>Manage permissions to a report to create or edit a view in a report</p> <p>Manage permissions to a view</p></td> 
+   <td role="rowheader">Object permissions</td> 
+    <td> <p>Manage permissions to a report to create or edit a view in a report</p> <p>Manage permissions to a view</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

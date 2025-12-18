@@ -11,13 +11,9 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 ---
 # Create a custom form
 
-{{highlighted-preview}}
+{{preview-fast-release-general}}
 
 <!-- Audited: 6/2025 -->
-
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 You can design a custom form with the form designer in Adobe Workfront. You can attach custom forms to different Workfront objects to capture data about those objects.
 
@@ -25,31 +21,27 @@ You can design a custom form with the form designer in Adobe Workfront. You can 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
-   <td>Any</td> 
+  <tr> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>
-   <p>New: Standard</p>
-   <p>or</p>
-   <p>Current: Plan</p></td> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations</td> 
+  <tr> 
+   <td>Access level configurations</td> 
    <td> <p>Administrative access to custom forms</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,7 +54,7 @@ For more detail about the information in this table, see [Access requirements in
 1. Click **New Custom Form.**
 1. Select which object types you'd like to attach the custom form to, then click **Continue**.
 
-   ![Choose object type](assets/choose-object-type.jpg)
+   ![Choose object types](assets/new-custom-form-select-objects.png)
 
 1. In the **Add a form name** area, type the custom form title.
 1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the **Add** icon ![Add objects icon](assets/add-objects-icon.png) next to **Object Types**, then select the type you want in the menu that displays. You can repeat this to add as many object types as you want. 
@@ -260,6 +252,15 @@ To add a text field:
     <td> If you want to apply a hyperlink to the Descriptive Text you have typed, add it here. The Descriptive text displays as a link on objects where the form is attached.</td>
     <td><ul><li>Descriptive text</li></ul></td>
     </tr>
+    <tr>
+     <td><span class="preview">Active</span></td>
+     <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+     <td><ul><span class="preview">
+     <li>Single line text</li>
+     <li>Paragraph</li>
+     <li>Text with formatting</li>
+     <li>Descriptive text</li></span></ul></td>
+    </tr>
     <tr> 
       <td role="rowheader">Make a required field</td>
       <td><p>Select this option if you want the field to be required in order for the user to complete the custom form.</p></td>
@@ -408,8 +409,17 @@ To add radio buttons, checkbox groups, and drop-downs:
     <li>Multi-select dropdown</li>
     </ul>
     </td>
-     </tr> 
-          <tr> 
+     </tr>
+    <tr>
+     <td><span class="preview">Active</span></td>
+     <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+     <td><ul><span class="preview">
+     <li>Radio buttons</li>
+     <li>Checkbox group</li>
+     <li>Single-select dropdown</li>
+     <li>Multi-select dropdown</li></span></ul></td>
+    </tr>
+    <tr> 
     <td role="rowheader">Make a required field</td> 
     <td>Select this option if you want the field to be required in order for the user to complete the custom form. </td> 
     <td><ul>
@@ -541,6 +551,13 @@ To add typeahead and date fields:
        </ul>
       </td>
      </tr>
+     <tr>
+      <td><span class="preview">Active</span></td>
+      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+      <td><ul><span class="preview">
+      <li>Typeahead</li>
+      <li>Date</li></span></ul></td>
+     </tr>
      <tr> 
       <td role="rowheader">Make a required field</td> 
       <td>Select this option if you want the field to be required in order for the user to complete the custom form. </td> 
@@ -579,7 +596,7 @@ For examples of using the External lookup field to call the same instance of Wor
 
 To add an external lookup:
 
-1. In the **New field** tab on the left side of the screen, find **External lookup** or <span class="preview">**Multi-select external lookup**</span>, and drag it to a section on the canvas.
+1. In the **New field** tab on the left side of the screen, find **External lookup** or **Multi-select external lookup**, and drag it to a section on the canvas.
 1. On the right side of the screen, configure the options for the custom field:
 
    <table style="table-layout:auto"> 
@@ -643,9 +660,12 @@ To add an external lookup:
       <td><p>Click <strong>Add Header</strong>, then type or paste the key-value pair required for authentication with the API.</p><p><strong>Note:</strong> The Header fields are not a secure place to store credentials, and you should be careful of what you enter and save.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Multi-select dropdown</span></td>
-      <td><p><span class="preview">Select this option to allow the user to select more than one value in the drop-down.</span></p></td>
+      <td role="rowheader">Multi-select dropdown</td>
+      <td><p>Select this option to allow the user to select more than one value in the drop-down.</p></td>
      </tr>
+     <tr>
+      <td><span class="preview">Active</span></td>
+      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
      </tr>
      <tr> 
       <td role="rowheader">Make a required field</td>
@@ -736,6 +756,10 @@ The Workfront Mobile app -->
       <td role="rowheader">Instructions</td> 
       <td> <p>Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">Active</span></td>
+      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -869,6 +893,10 @@ This table lists the available native fields for specific Workfront objects in a
         </ul></p></td> 
       <td>
      </tr>
+     <tr>
+      <td><span class="preview">Active</span></td>
+      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+     </tr>
      <tr> 
       <td role="rowheader">Make a required field</td>
       <td><p>Select this option if you want the field to be required in order for the user to complete the custom form.</p></td>
@@ -921,7 +949,11 @@ This table lists the available native fields for specific Workfront objects in a
       <td role="rowheader">Instructions</td> 
       <td> <p>Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.
     <img src="assets/instructions-form-designer.png"></p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td><span class="preview">Active</span></td>
+      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -945,15 +977,11 @@ This table lists the available native fields for specific Workfront objects in a
 >
 >The information in this section refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
 >
->You must have the following to access Workfront Planning:
+>You must have additional packages to access Workfront Planning. 
 >
->* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
->* An additional package for Workfront Planning. 
->* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
->
-> For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+>For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 > 
->For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 You can view records connected from Workfront Planning in a custom field on a Workfront object by adding a  Planning connection custom field to an object's custom form. 
 
@@ -1018,6 +1046,10 @@ To add a Planning connection field:
       <td><p>(Optional) Select up to 7 lookup fields from the connected record type to display in the custom form. The primary field is selected by default and cannot be edited. </p> <p> The connected record's fields that you select display in a table view on the custom form. When the form is attached to a Workfront object, the table view is read-only. </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
      </tr>
+     <tr>
+      <td><span class="preview">Active</span></td>
+      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+     </tr>
       </tbody> 
    </table>
 
@@ -1042,9 +1074,13 @@ To add a Planning connection field:
 
     For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
 
+### Add UI Extensions
+
+An app can be embedded on a Workfront custom form using the UI Extensions field type. To create UI Extensions, you must have access to Adobe App Builder in the Adobe Developer Console. For information, see [Embed an app using a Workfront custom form](/help/quicksilver/app-builder/app-builder.md#embed-an-app-using-a-workfront-custom-form) in the article [Create custom applications for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
+
 ## Organize and preview a form with the form designer
 
- For information on how to organize a custom form with section breaks and see a preview of the form, see [Organize and preview a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+For information on how to organize a custom form with section breaks and see a preview of the form, see [Organize and preview a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 
 

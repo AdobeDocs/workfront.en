@@ -10,9 +10,11 @@ exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
 
 # Edit field settings
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--leave the choice value information in yellow till January 2026-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -24,7 +26,41 @@ This article describes how you can edit the settings for Workfront Planning fiel
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view the access requirements for the functionality in this article. 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront and any Planning package</p> <p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table> 
+
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++     
+
+<!--Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -80,12 +116,7 @@ This article describes how you can edit the settings for Workfront Planning fiel
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p></td> 
   </tr> 
 </tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
-
+</table> -->
 
 ## Considerations about editing field settings
 
@@ -110,7 +141,7 @@ You must consider the following before making changes to a field's configuration
     >There is no notification to other users that the field configuration has changed.
     
 * You can edit existing lookup fields from connected records.
-* In addition to editing the field as described in the [Edit field settings](#edit-field-settings-1) section in this article, <span class="preview">you can edit a single- or multi-select field's choices when you edit a record in the table view, as you update the field values. For information, see the [Add new choices to an existing select field when editing records in the table view](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) section in this article.</span> 
+* In addition to editing the field as described in the [Edit field settings](#edit-field-settings-1) section in this article, you can edit a single- or multi-select field's choices when you edit a record in the table view, as you update the field values. For information, see the [Add new choices to an existing select field when editing records in the table view](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) section in this article. 
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -160,8 +191,6 @@ You must consider the following before making changes to a field's configuration
     For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
 
-<div class="preview">
-
 ## Add new choices to an existing select field when editing records in the table view
 
 <!--some of this information is also available in Edit records article - update both when necessary-->
@@ -190,4 +219,5 @@ To add a new choice to an existing select field when editing a record:
 
     The new choice is added immediately to the single-select field. 
 
-</div>
+   <span class="preview">A new value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>
+

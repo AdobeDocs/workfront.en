@@ -4,7 +4,7 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Teams Overview
 description: The purpose of a team in Adobe Workfront is to capture the real-life dynamic of functional working groups in the workplace.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: c62c0789-2aaa-4091-9c45-b9e7801043a9
 ---

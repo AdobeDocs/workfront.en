@@ -11,6 +11,8 @@ exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
 ---
 # Customize user interface terminology using a layout template
 
+{{preview-fast-release-general}}
+
 As an Adobe Workfront administrator, you can use a layout template to change the labels of some objects that appear throughout Workfront to match terms used in your organization.
 
 After you save a layout template where you changed terminology, then log out of Workfront and back in again, the labels that you changed appear where the default labels would appear in most areas throughout Workfront:
@@ -41,31 +43,29 @@ After configuring a layout template, you must assign it to users for changes you
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td><p>New: Standard</p>
-  <p> Current: Plan</p>
-   </td> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>To perform these steps at the system level, you need the System Administrator access level.
-To perform them for a group, you must be a manager of that group.</p> </td> 
+   <td>Access level configurations</td> 
+   <td> <p>To perform these steps at the system level, you need the System Administrator access level.</p>
+        <p>To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -133,7 +133,13 @@ To perform them for a group, you must be a manager of that group.</p> </td>
    >
    >After you click Done (and even after you save your layout template), you can always return to the Set Terminology settings and click Reset next to any custom terms to return them to their default state.
 
-1. Continue customizing the layout template.
+1. <span class="preview">In the Preview environment: Continue customizing the layout template. You can click **Apply** at any time to save your progress.</span>
+
+   <span class="preview">Or</span>
+
+   <span class="preview">If you are finished customizing, click **Save and Close**.</span>
+
+1. In the Production environment: Continue customizing the layout template.
 
    Or
 

@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Calculated custom fields vs. calculated columns
 description: To aggregate several fields in Adobe Workfront and display that aggregate value in a new field, you can create a calculated custom field in a custom form or a calculated column in a view.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
 ---
@@ -81,8 +81,11 @@ For more information about the syntax you must use in a calculated custom column
 
 * On an object's main page, clicking the More icon ![More icon](assets/more-icon.png), then clicking **Recalculate Expressions**
 
-* Bulk editing multiple objects when **Recalculate Custom Expressions** is enabled
-* Editing a custom form when **Update previous calculations** is enabled for the calculated custom field
+* Bulk editing multiple objects when **Recalculate Custom Expressions** is enabled.
+* Bulk editing multiple objects when clicking **Recalculate Expressions** from the More menu in a list of objects.
+* Editing a custom form when **Update previous calculations** is enabled for the calculated custom field. 
+
+For more information, see [Edit information in custom form fields](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 ## When to use calculated columns in a view
 

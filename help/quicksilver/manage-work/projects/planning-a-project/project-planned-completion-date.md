@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Set the project Planned Completion Date
+title: Set the Project Planned Completion Date
 description: The Planned Completion Date of a project is the date by which the project is set to complete.
 author: Alina
 feature: Work Management, Projects
@@ -21,40 +21,38 @@ The Planned Completion Date of a project can be set manually or automatically, d
 
 ## Access requirements
 
-<!--drafted for P&P:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p>
-   Or
-   <p>Legacy license: Plan </p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p>
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to the project</p> </td> 
   </tr> 
  </tbody> 
 </table>
--->
 
-+++ Expand to view access requirements for the functionality in this article.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-You must have the following access to perform the steps in this article:
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,11 +84,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Manually set the Planned Completion Date of a project
 
@@ -105,7 +99,7 @@ To schedule a project from Completion Date:
 
 {{step1-to-projects}}
 
-1. Click&nbsp;**New Project**, then select **New Project** from the drop-down that appears.
+1. Click **New Project**, then select **New Project** from the dropdown.
 
    For more information about creating projects, see the article [Create a project](../../../manage-work/projects/create-projects/create-project.md).
 

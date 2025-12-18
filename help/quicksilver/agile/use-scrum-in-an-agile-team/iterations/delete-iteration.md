@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: Delete an iteration
 description: You can delete an iteration for your agile team if it is no longer needed.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
 ---
@@ -21,19 +21,16 @@ When you delete an iteration, any stories on the iteration are moved to the back
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: [!UICONTROL Standard]</p> 
-   or
-   <p>Current: [!UICONTROL Work] or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p> 
+   <p>Work or higher</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Object permissions</td> 

@@ -3,7 +3,7 @@ product-area: requests
 navigation-topic: create-requests
 title: Locate Submitted Requests
 description: Learn about the areas of Adobe Workfront where you can locate requests that you or someone else submitted or requests that you never submitted and were saved as drafts. 
-author: Alina
+author: Becky
 feature: Requests
 topic: Collaboration
 role: User
@@ -11,9 +11,6 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 ---
 # Locate submitted requests
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 You can locate the following types of requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
 
@@ -35,21 +32,18 @@ You can locate the following types of requests that you or someone else submitte
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: Contributor or higher</p>
-   Or
-   <p>Current: Request or higher</p>
+   <td> <p>Contributor or higher</p>
+   <p>Request or higher</p>
     </td> 
   </tr> 
   <tr> 
@@ -67,13 +61,50 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
 ## Locate submitted requests
 
-To locate requests that you or other users have submitted:
+Locating submitted requests differs based on whether you are using the new or legacy requesting experience.
+
+### Locate submitted requests in the new requesing experience
+
+To locate requests that you or other users have submitted in the new requesting experience:
+
+{{step1-to-requests}}
+
+1. Ensure that the **Use new experience** toggle in the upper-right corner of the screen is enabled.
+
+   The Requests list appears.
+
+1. (Optional) To search for a request, begin typing in the search bar at the upper-right of the list. Search results appear as you type.
+1. (Optional) Click **Filters** and start adding conditions for the requests you want to locate.
+
+    You can filter by the following fields:  
+
+    * **Workspace**: The workspace the request form is associated with.
+    * **Record type**: The record type the request form is associated with.
+    * **Entry date**: The date when the request was submitted.
+    * **Request form**: The name of the request form used to submit the request.
+    * **Status**: The status of the request.
+    * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
+
+    You can have multiple filters joined by either **And** or **Or**.
+    The request list is filtered automatically, as you add the filter conditions. 
+1. (Optional) Use views to focus on the requests you want to locate.
+
+   For instructions, see [Create or edit views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+>[!NOTE]
+>
+>* If you have Workfront Planning, your Workfront and Planning requests appear in the same list. Workfront requests display the value `Issue` in the Object type column.
+>* The Requests list appears with 50 requests displayed. To view more requests, scroll to the bottom of the list.
+
+### Locate submitted requests in the legacy requesting experience
+
+To locate requests that you or other users have submitted in the legacy requesting experience:
 
 {{step1-to-requests}}
 
@@ -174,6 +205,9 @@ To locate requests that you or other users have submitted:
    </table>
 
 1. (Optional) Click the **Filter page** icon ![](assets/search-icon.png) at the top of the list to search for a request by name. The list updates with results that match your search criteria.
+
+1. (Conditional) To display only Workfront Request queues, search or filter for `Issue` object types.</span>
+
 
    <!--
    <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>

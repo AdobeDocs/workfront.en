@@ -8,32 +8,36 @@ exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
 ---
 # Generate or revise calculated field formulas with AI Assistant
 
-You can use AI Assistant to generate formulas based on a prompt you provide. You can also resolve errors in your invalid custom expressions in calculated fields.
+>[!IMPORTANT]
+>
+>The functionality to generate formulas using AI Assistant has been removed from Adobe Workfront. 
 
-## Access requirements
 
-You must have the following access to perform the steps in this article:
+<!-- You can use AI Assistant to generate formulas based on a prompt you provide. You can also resolve errors in your invalid custom expressions in calculated fields.
+
+
+## Access requirements 
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td><p>New: Prime or Ultimate</p>
-       <p>or</p>
-       <p>Current: Not available</p></td>
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-       <p>or</p>
-       <p>Current: Not available</p></td>
+   <td><p>Standard</p>
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 
@@ -46,7 +50,7 @@ For more detail about the information in this table, see [Access requirements in
 
 <!--## Generate a calculated field expression-->
 
-## Revise a calculated field expression
+<!-- ## Revise a calculated field expression
 
 When you are creating the calculated field in the custom form builder, an error message appears under the field if the formula is invalid.
 
@@ -72,3 +76,4 @@ To revise an invalid calculated field expression:
 
 For more information on calculated fields in Workfront, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
+-->

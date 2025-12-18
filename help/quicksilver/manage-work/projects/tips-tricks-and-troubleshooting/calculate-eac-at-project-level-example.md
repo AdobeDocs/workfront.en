@@ -2,9 +2,9 @@
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
-title: Calculation example - calculate EAC at the Project Level
-description: PIM = Hour-Based
-author: Alina
+title: Calculation Example - Calculate EAC at the Project Level
+description: This article gives an example of calculating the Estimate At Completion (EAC) of a project at the project level in Adobe Workfront. 
+author: Lisa
 feature: Work Management
 exl-id: ff88b7e3-2a5b-464f-bed1-6848067840b8
 ---

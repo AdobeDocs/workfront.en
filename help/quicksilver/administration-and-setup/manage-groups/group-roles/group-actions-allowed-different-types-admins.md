@@ -4,7 +4,7 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Actions Allowed for Group Administrators
 description: This table compares the administration activities available for an Adobe Workfront administrator managing the Workfront system, a group administrator managing a top-level group, and a group administrator managing a subgroup.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
@@ -224,7 +224,14 @@ This table lists the administration activities available for:
 
 &#42;&#42; In the group administrator's access level, access to this action must be enabled. For more information, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-&#42;&#42;&#42; The following activities are part of Advanced Enterprise Controls and are not available for the Select plan. Only organizations who have purchased the Prime or Ultimate plans can access these capabilities.  See the [Adobe Workfront pricing and packaging page](https://business.adobe.com/products/workfront/pricing.html) for more information about plans. (For organizations using the legacy plans, the table above shows the activities for group and subgroup administrators.)
+&#42;&#42;&#42; These packages include the Advanced Enterprise Controls features listed below:
+
+* Workflow Prime and higher
+* Workfront Prime and higher
+
+See the [Adobe Workfront pricing and packaging page](https://business.adobe.com/products/workfront/pricing.html) for more information about packages.
+
+Advanced Enterprise Controls:
 
 * Configure project, task, and issue preferences at the group level
 * Configure timesheet and hour preferences at the group level

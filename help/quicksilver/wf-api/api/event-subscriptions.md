@@ -1,4 +1,5 @@
 ---
+title: Event Subscriptions
 content-type: api
 navigation-topic: Event Subscriptions resources
 description: Event Subscriptions resources

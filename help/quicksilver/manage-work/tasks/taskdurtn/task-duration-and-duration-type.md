@@ -51,7 +51,7 @@ The following are two scenarios that exist when calculating duration in Adobe Wo
 
       Your Workfront or group administrator determines which schedule Workfront uses when a task is assigned to multiple users. For information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   1. If the primary assignee or the project don't have a schedule, Workfront uses the system Default schedule. 
+  1. If the primary assignee or the project don't have a schedule, Workfront uses the system Default schedule. 
 
   The steps are similar to the first scenario after understanding which schedule Workfront uses to calculate Duration.
 

@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
-title: Overview of task predecessors
+title: Overview of Task Predecessors
 description: A predecessor is the task which another task (called a successor or dependent task) depends on. Adobe Workfront supports five types of predecessor dependencies.
 author: Alina
 feature: Work Management

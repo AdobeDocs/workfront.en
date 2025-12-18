@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Create and Modify a Group's Companies
 description: When you are viewing a group that you manage in the Groups area, you can view and work with companies associated with the group and any of its subgroups.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
@@ -19,30 +19,27 @@ If there are any groups above your group, their administrators can also do these
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td>
-   <td><p>New: Standard</p>
-       <p>Or</p>
-       <p>Current: Plan</p></td>
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td>You must be a group administrator of the group or a system administrator.</td>
   </tr>
-  </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -87,6 +84,10 @@ For more detail about the information in this table, see [Access requirements in
    >If you have administrative access to companies in your access level, you can also click Add More Companies at the bottom of the list. This adds a row where you can quickly configure the new company.
 
 1. (Optional) To edit or delete companies, select at least one company, then use the toolbar buttons to edit ![Edit icon](assets/edit-icon.png) or delete ![Delete icon](assets/delete.png) it.
+
+   >[!NOTE]
+   >
+   >If you are deleting a company, and the company is set as a Primary company or is in use in another object, you are prompted to choose another company to replace the one you are deleting. The company you select becomes the Primary company, or replaces the deleted company on the objects the company is assigned to.
 
    For information about editing a company, see the section [Create or edit a company in Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) in the article [Create and edit companies](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 

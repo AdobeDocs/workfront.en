@@ -30,6 +30,37 @@ You can edit a portfolio in the portfolio page or you can edit portfolios in a l
  <col> 
  <tbody> 
   <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Any</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe [!DNL Workfront] licenses</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>[!UICONTROL Edit] access to [!UICONTROL Portfolios]</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to a portfolio</p>
+   <p>[!UICONTROL Manage] permissions to the projects in the portfolio to add or remove them from the portfolio</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p></td> 
   </tr> 
@@ -50,9 +81,7 @@ You can edit a portfolio in the portfolio page or you can edit portfolios in a l
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++ 
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## Edit portfolios
 
@@ -115,6 +144,12 @@ You can edit a portfolio in the portfolio page or you can edit portfolios in a l
    * [Custom Forms](#custom-forms)
    * [Comment](#comment)
 
+
+   >[!TIP]
+   >
+   >To recalculate custom fields for several portfolios at a time, select multiple portfolios in a list, and click the **More** menu ![More menu](assets/more-icon.png)  at the top of the list, then **Recalculate Expressions**.
+
+
 ### [!UICONTROL Overview] {#overview}
 
 1. Begin editing a portfolio as described above.
@@ -136,28 +171,28 @@ You can edit a portfolio in the portfolio page or you can edit portfolios in a l
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Name**]</td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
       <td> <p>Update the name of the portfolio. </p> <p><b>TIP</b></p> 
-      <p>The **Name** field is not available when you select more than one portfolio. </p> </td> 
+      <p>The Name field is not available when you select more than one portfolio. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Description**]</td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
       <td> <p>Type a description for the Portfolio to indicate what is unique about it. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Portfolio Manager**]</td> 
+      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
       <td> <p>Start typing the name of a user that you want to indicate as the portfolio manager, then select it when it appears in the list. This is the same as the [!UICONTROL Portfolio Owner]. This is the person who can oversee the work defined in the projects of the portfolio and can approve the Business Case.</p> <p>Important: When you designate someone as the Portfolio Manager, they automatically gain [!UICONTROL Manage] permissions to the portfolio, the programs and the projects in the portfolio. </p> <p>Tip: You can quickly update the portfolio manager in the portfolio header. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Group**]</td> 
+      <td role="rowheader">[!UICONTROL Group]</td> 
       <td> <p>Add the name of a single group if the group is associated with the portfolio or has responsibility for completing it. </p> <p>Tip:  <p>When accessing the [!UICONTROL Group] field from the [!UICONTROL Portfolio Details] page, do the following: </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the [!UICONTROL information] icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>This option is not available in the [!UICONTROL Edit Portfolio] box. </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[!UICONTROL **Alignment Scorecard**]</p> </td> 
+      <td role="rowheader"> <p role="rowheader">[!UICONTROL Alignment Scorecard]</p> </td> 
       <td> <p>Select the alignment scorecard that you want to use from the drop-down list. A scorecard is used to measure how well a project aligns with the established criteria of a Portfolio often reflecting an organization's mission, values, and strategic goals. For more information, see <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Apply a scorecard to a project and generate an Alignment Score</a> and <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Create a scorecard</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL **Is Active**]</td> 
+      <td role="rowheader">[!UICONTROL Is Active]</td> 
       <td> <p> Select this checkbox if you want the portfolio to be active. Other users can find active portfolios and attach them to projects when creating or editing projects. Inactive portfolios cannot be attached to projects. This is enabled by default.</p> </td> 
      </tr> 
     </tbody> 

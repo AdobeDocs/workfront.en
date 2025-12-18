@@ -4,7 +4,7 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Chart a Report by a Multi-select Custom Field
 description: You can chart a report by a multi-select custom field only after you create an additional calculated field that captures the choices selected in the multi-select custom field. 
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
 ---
@@ -37,26 +37,19 @@ However, if it's not possible to have separate fields for each option of a multi
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-    <p>New:</p>
-   <ul><li><p>Contributor to modify a filter </p></li>
-   <li><p>Standard to modify a report</p></li> </ul>
-
-   <p>Current:</p>
-   <ul><li><p>Request to modify a filter </p></li>
-   <li><p>Plan to modify a report</p></li> </ul></td> 
+   <p>Contributor or Request to modify a filter </p>
+   <p>Standard or Plan to modify a report</p>
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -69,7 +62,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -132,13 +125,15 @@ To build the calculated custom field that references the multi-select custom fie
 
 ### Build a chart that references a calculated custom field {#build-a-chart-that-references-a-calculated-custom-field}
 
-1. (Optional) To ensure that all the calculated fields that you want to chart by are populated with values, from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
-1. (Optional and conditional) Select the **Recalculate Custom Expressions** field, then click **Save Changes**.  
-   ![Recalculate custom expressions](assets/recalculate-custom-expressions-350x259.png) 
+1. (Optional) To ensure that all the calculated fields that you want to chart by are populated with values, you must recalculate the custom expressions on all the objects in your report. 
+   For information about recalculating expressions, see [Edit information in custom fields](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md). 
 
+   <!--from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
+   1. (Optional and conditional) Select the **Recalculate Custom Expressions** field, then click **Save Changes**.  
+   ![Recalculate custom expressions](assets/recalculate-custom-expressions-350x259.png) 
    >[!NOTE]
    >
-   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![More icon](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**. 
+   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![More icon](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**. -->
 
 1. Go to the report where you want to add the chart for the calculated field that references the multi-select custom field. 
 1. Click **Report Actions**, then **Edit**. 

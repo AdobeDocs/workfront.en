@@ -15,25 +15,21 @@ You can share the Workload Balancer with other users who might not have the Reso
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-       <p>or</p>
-       <p>Current: Plan, when using the Workload Balancer in the Resourcing area;</br>
-       Work, when using the Workload Balancer of a team or project</p></td>
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan, when using the Workload Balancer in the Resourcing area; Work, when using the Workload Balancer of a team or project</p></td>
+  </tr>
+  <tr> 
+   <td>Access level configurations</td> 
    <td> <p>View or higher access to the following:</p> 
     <ul> 
      <li>Resource Management</li> 
@@ -44,13 +40,13 @@ You must have the following access to perform the steps in this article:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td>Object permissions</td> 
    <td>View or higher permissions to the projects, tasks, and issues</td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -124,10 +120,10 @@ You need the following access to view information in the Workload Balancer from 
 1. Do one of the following to share the link with others:
 
    * Paste it into an e-mail, chat message, or any other application and share that with other users. 
-   * Add it to a custom section as an external page, add the custom section to a user's profile, or to a Layout Template, then share the Layout Template with users, teams, job roles, or groups.
+   * Add it to a dashboard as an external page, add the dashboard to a user's profile, or to a layout template, then share the layout template with users, teams, job roles, or groups.
 
-     For information about creating an External Page, see [Embed an external web page in a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). For information about adding custom sections to a Layout Template, see [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     For information about creating an external page, see [Embed an external web page in a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). For information about adding dashboards to a layout template, see [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
      >[!IMPORTANT]
      >
-     >When you add the Workload Balancer to the custom section of an object, the information in the Workload Balancer is not filtered by the object. The Workload Balancer displays the information filtered by the originally applied filters.
+     >When you add the Workload Balancer as a dashboard to the left panel of an object, the information in the Workload Balancer is not filtered by the object. The Workload Balancer displays the information filtered by the originally applied filters.

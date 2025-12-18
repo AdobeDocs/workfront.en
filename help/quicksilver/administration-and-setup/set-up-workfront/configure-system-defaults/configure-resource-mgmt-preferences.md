@@ -23,31 +23,27 @@ As an [!DNL Adobe Workfront] administrator, you can configure the [!UICONTROL Re
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-   Or
-   <p>Current: Plan</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] license</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td>System Administrator</td>
+   <td>Access level configurations</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -96,7 +92,8 @@ For information about planning and scheduling resources in [!DNL Workfront], see
       >`User Available Hours = [((40 - 0) * 0.5) - 1] * 0.5 = 9.5 hours`
       >
      
-      <!--This used to be the calculation before we implemented the Work Time field: 
+      <!--
+      This used to be the calculation before we implemented the Work Time field: 
     
       ```
       User Available Hours = ([!UICONTROL Default Schedule] Hours - Exceptions) * FTE - Time off hours
@@ -107,9 +104,8 @@ For information about planning and scheduling resources in [!DNL Workfront], see
       > For example, if the [!UICONTROL Default Schedule] is 40 hours a week and the [!UICONTROL FTE] in the profile of the user is 0.5, the user is available to work for 20 hours a week.
       >If the user has 1 hour of Time off one day, their Available Hours will be calculated as follows:
       >
-      >```
+      >
       >User Available Hours = [(40 - 0) * 0.5)] - 1 = 19 hours
-      >```
       -->
       
       

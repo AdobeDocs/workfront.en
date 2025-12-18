@@ -140,7 +140,8 @@ The 2020.3 release contains the following enhancements for all users:
 
 >[!NOTE]
 >
->## Access requirements>
+>**Access requirements**
+>
 >You must have the following:
 >
 ><table style="table-layout:auto"> 

@@ -3,7 +3,7 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Synchronize Data in the Burndown Chart
 description: The burndown chart is synchronized automatically with data in your project or iteration. If the burndown chart ever becomes out of sync with data in the project or iteration, you can manually synchronize it.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 39086d73-4835-4e15-8fa6-7a7efc48a38b
 ---
@@ -15,8 +15,6 @@ The burndown chart is synchronized automatically with data in your project or it
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -24,14 +22,13 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: [!UICONTROL Light] or higher</p> 
-   or
-   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Light or higher</p> 
+   <p>Review or higher</p> </td> 
   </tr>
  </tbody> 
 </table>

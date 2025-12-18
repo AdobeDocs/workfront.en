@@ -2,7 +2,7 @@
 navigation-topic: business-case-and-scorecards
 title: Apply a scorecard to a project and generate an Alignment Score
 description: You can use a scorecard to measure how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects the mission, values, and strategic goals of an organization.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
 ---
@@ -23,18 +23,15 @@ For more information about scorecards and how you can create one, see [Create a 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td>
-   <p>Current: Prime or higher</p>
-   <p>or</p>
-   <p>Legacy: Business or higher</p> </td>
+   <p>Prime or higher</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td>
-   <p>Current: Standard</p>
-   <p>or</p>
-   <p>Legacy: Plan</p></td>  
+   <p>Standard</p>
+   <p>Plan</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -47,7 +44,7 @@ For more information about scorecards and how you can create one, see [Create a 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

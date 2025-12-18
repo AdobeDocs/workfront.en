@@ -4,14 +4,16 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: You can use a Layout Template to configure what users see when they open Home in Adobe Workfront.
-author: Lisa
+author: Lisa and Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
 ---
-# Customize Home using a Layout Template
+# Customize Home using a layout template
 
-You can use a Layout Template to configure what users see when they first open Home.
+{{preview-fast-release-general}}
+
+You can use a layout template to configure what users see when they first open Home.
 
 You can configure:
 
@@ -37,31 +39,29 @@ After configuring a layout template, you must assign it to users for changes you
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td><p>New: Standard</p>
-  <p> Current: Plan</p>
-   </td> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>To perform these steps at the system level, you need the System Administrator access level.
-To perform them for a group, you must be a manager of that group.</p> </td> 
+   <td>Access level configurations</td> 
+   <td> <p>To perform these steps at the system level, you need the System Administrator access level.</p>
+        <p>To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -146,7 +146,13 @@ To customize Home using a layout template:
       </tbody> 
       </table>
 
-1. Continue customizing the layout template.
+1. <span class="preview">In the Preview environment: Continue customizing the layout template. You can click **Apply** at any time to save your progress.</span>
+
+   <span class="preview">Or</span>
+
+   <span class="preview">If you are finished customizing, click **Save and Close**.</span>
+
+1. In the Production environment: Continue customizing the layout template.
 
    Or
 

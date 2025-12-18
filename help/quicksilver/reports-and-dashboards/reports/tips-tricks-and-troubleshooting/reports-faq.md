@@ -22,8 +22,6 @@ The following are frequently asked questions about reports.
 
 +++ Expand to view access requirements. 
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -31,13 +29,13 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td><p>New: Standard</p> 
-   <p>Current: Work or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p> 
+   <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -50,7 +48,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -204,8 +202,7 @@ To learn more about the **Run this Report with the Access Rights of:** field, se
 
 When you delete a user, you can still access any reports that they created, however, any dashboards that included the report are deleted as well. This means that you can no longer access the following:
 
-* A dashboard that contains the report
-* A custom section that contains a dashboard of the report
+* A dashboard that contains the report, including dashboards in the left panel of an object
 
 To learn more about the implications of deleting a user, see [Delete users](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 

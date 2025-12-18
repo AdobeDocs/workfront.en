@@ -21,37 +21,35 @@ For more information about adding an External lookup field to a custom form and 
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront plan </td> 
-   <td>Any</td> 
+  <tr> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>
-   <p>New: Standard</p>
-   <p>or</p>
-   <p>Current: Plan</p></td> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations</td> 
-   <td>Administrative access to custom forms </td> 
+  <tr> 
+   <td>Access level configurations</td> 
+   <td> <p>Administrative access to custom forms</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Set up an External lookup field for the same instance of Workfront
 
 You can use the External lookup to bring data from your Workfront instance into the custom form.
+
+When someone accesses the field in the custom form, they will only see in the list of options what they have permissions to see in Workfront. For example, if you are showing a list of projects, the user would only see projects that are shared with them.
 
 ### Use native Workfront field values in the External lookup
 
@@ -100,7 +98,7 @@ This example demonstrates how to call the Workfront API and populate a list of p
 
 ### Use custom field values in the External lookup
 
-This example shows you to call the Workfront API and bring data from a custom field into your External lookup field. The example custom field is called "Custom Colors."
+This example shows you how to call the Workfront API and bring data from a custom field into your External lookup field. The example custom field is called "Custom Colors."
 
 1. Open the custom form.
 1. On the left side of the screen, find **External lookup** and drag it to a section on the canvas.

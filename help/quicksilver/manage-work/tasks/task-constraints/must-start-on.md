@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Task Constraint overview: Must Start On'
+title: 'Task Constraint Overview: Must Start On'
 description: Use the Must Start On (MSO) Task Constraint to schedule a task to start exactly on a specific date.
 author: Alina
 feature: Work Management

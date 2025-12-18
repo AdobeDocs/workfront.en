@@ -10,9 +10,12 @@ exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 
 # Share views
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -32,11 +35,58 @@ This article describes how you can share a view with others. For information abo
 
 ## Access requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view access requirements for the functionality in this article. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
  <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront and Planning package</p> 
+Or
+<p>Any Workflow and Planning package</p> 
+ </tr>
+   
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Any</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>Manage permissions to a view</p> 
+   <p><b>IMPORTANT</b></p> 
+   <p>Only users with Manage permissions to a workspace can share a view publicly.</p></td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+  
+</td>
+  </tr>
+ 
+</tbody> 
+</table> 
+
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
@@ -93,11 +143,7 @@ This article describes how you can share a view with others. For information abo
   </tr> 
 
 </tbody> 
-</table> 
-
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table> -->
 
 ## Considerations when sharing views
 
@@ -117,6 +163,11 @@ This article describes how you can share a view with others. For information abo
 
 * When you share a view publicly, the link is accessible by anyone outside of your company for a limited time, indicated by the expiration date. There is no login required to view the shared view.  
 
+   >[!NOTE]
+   >
+   ><span class="preview">You cannot share a view publicly from a global record type in a secondary workspace. For more information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).</span> 
+
+
 * People outside your organization who have access to a view cannot create other views, edit the shared view, or add, delete, or edit record information in the view. 
 
 ## Share permissions to a view internally
@@ -135,13 +186,13 @@ You can share views you created or views you have Manage permissions to with use
 
    This opens the record type page.
 
-1. From the view tab, do one of the following:
+1. From the view's tab, do one of the following:
 
-   * Hover over the tab name of the view you want to share and click the **More** menu ![More menu](assets/more-menu.png) to the right of the view name, then click **Share**. 
+   * Click the view's tab, hover over the view in the drop-down menu, click the **More** menu ![More menu](assets/more-menu.png), then click **Share**.
 
       ![More menu for a view](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   * Click **Share** > **Share the current view**
+   * Click **Share** in the upper-right corner of the screen, then **Share the current view**.
 
       ![Share button with record type and view sharing options](assets/share-button-with-record-type-and-view-sharing-options.png) 
 
@@ -186,6 +237,8 @@ You can share views you created or views you have Manage permissions to with use
 
 You can share views you created or views you have Manage permissions to with people that do not have a Workfront license and who might be external to your organization.
 
+<span class="preview">You cannot share a view publicly from a global record type in its secondary workspace. </span>
+
 >[!IMPORTANT]
 >
 >Only users with Manage permissions to a workspace can share the views of the workspace publicly.
@@ -215,6 +268,11 @@ To share a view publicly in Workfront Planning:
 1. Enable the **Create public link** setting.
 
    A link becomes available. This is a public link. When shared, anyone with the link, including people from outside your organization can access the record type page, and view records and fields on the page. 
+
+   >[!TIP]
+   >
+   ><span class="preview">The **Public sharing** tab is removed for a global record type in its secondary workspace.</span>
+
 
 1. Click the **Copy link** icon ![Copy link view](assets/copy-link-view.png) to copy the link to your clipboard. 
 

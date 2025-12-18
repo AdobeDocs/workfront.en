@@ -53,12 +53,15 @@ For general information about the GenStudio to Workfront Planning integration, s
 </col> 
 <tbody> 
     <tr> 
-    <td role="rowheader"><p>Adobe Workfront package</p></td> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<p>Any Workfront package</p>
-<p>Any Planning package</p>  
-
-   </td> </tr>
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
    <tr> 
 <td> 
    <p> Additional products</p> </td> 
@@ -67,10 +70,9 @@ For general information about the GenStudio to Workfront Planning integration, s
   </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
-   <td><p> Standard</p>
-  </td> 
+   <td><p>Standard</p>
+   </td> 
   </tr> 
-   
   <tr> 
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
@@ -92,8 +94,7 @@ For general information about the GenStudio to Workfront Planning integration, s
    <ul>
    <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
    <li><p> Create permissions in Adobe GenStudio for Performance Marketing to create items</p></li></ul>
-   </td> 
-  </tr> 
+   </td>  
 </tbody> 
 </table> 
 
@@ -102,6 +103,59 @@ For information about Adobe Workfront Planning access, see [Adobe Workfront Plan
 For more information about Adobe GenStudio for Performance Marketing, see [Adobe GenStudio for Performance Marketing User Guide](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
 
 +++   
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+    <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront package</p>
+<p>Any Planning package</p>  
+
+   </td> </tr>
+   <tr> 
+<td> 
+   <p> Additional products</p> </td> 
+   <td> 
+   <p> Adobe GenStudio for Performance Marketing</p></td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p> Standard</p>
+  </td> 
+  </tr> 
+   
+  <tr> 
+   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+   <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+   <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   </p>
+  </td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  
+   <p>In Workfront Planning: </p>
+   <ul>
+   <li><p>Manage permissions to the GenStudio workspace to add new fields or record types to the GenStudio workspace</p></li>
+   <li><p>Contribute permissions to the GenStudio workspace to add, update, or delete records in the GenStudio workspace</p> </li>  
+   </ul>
+   <p>No users can remove GenStudio for Performance Marketing record types or fields from the GenStudio workspace in Workfront Planning</p>
+   <p>In Adobe GenStudio for Performance Marketing: <p>
+   <ul>
+   <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
+   <li><p> Create permissions in Adobe GenStudio for Performance Marketing to create items</p></li></ul>
+   </td> 
+  </tr> 
+</tbody> 
+</table> -->
 
 ## Considerations for managing a GenStudio workspace in Workfront Planning
 
@@ -148,7 +202,7 @@ CAN YOU DO THIS??
 
 >[!NOTE]
 >
->Before managing the GenStudio workspace, see the article [Get started with the Workfront Planning and GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) for more information. 
+>Before managing the GenStudio workspace, see the article [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) for more information. 
 >
 
 1. Log in to Workfront as a user who also has access to GenStudio. 
@@ -189,6 +243,14 @@ CAN YOU DO THIS??
 
    For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
 
+   >[!NOTE]
+   >
+   >The following sharing limitations exist:
+   >
+   >* You cannot remove GenStudio users from the GenStudio workspace, after you share that workspace with them.
+   >* If a user has permissions in GenStudio, their access cannot be changed to View in Workfront Planning. They must be granted at least Contribute permissions in the GenStudio workspace in Planning. 
+   >* You cannot disable inherited permissions for GenStudio record types in the GenStudio workspace. 
+
 1. Click any of the record type cards to view records for that type. 
 
    To manage the record type, views, and fields, see the section [Manage GenStudio record types from Workfront Planning](#manage-genstudio-record-types-from-workfront-planning) in this article. 
@@ -198,7 +260,7 @@ CAN YOU DO THIS??
 
 >[!NOTE]
 >
->Before managing the GenStudio workspace, see the article [Get started with the Workfront Planning and GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) for more information. 
+>Before managing the GenStudio workspace, see the article [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) for more information. 
 >
 
 1. Go to the GenStudio workspace in Workfront Planning and open a record type page, as described in the section [Manage the GenStudio workspace from Workfront Planning](#manage-the-genstudio-workspace-from-workfront-planning) in this article.
@@ -228,6 +290,11 @@ CAN YOU DO THIS??
          A link to the view is copied to your clipboard. 
       * **Export the current view** 
          For information, see [Export records from the table view](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
+
+         <!--
+         >[!NOTE]
+         >
+         >You cannot remove GenStudio users from record types in the GenStudio workspace, after you share that workspace or the record types with them.-->
 
 1. To manage the record type views, do the following: 
 
@@ -283,11 +350,11 @@ CAN YOU DO THIS??
 
 1. Click the + icon in the upper-right corner of the table view to create the following:
 
-   * Record fields
+   * Fields
 
       For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md)
    
-   * Record connections
+   * Connections
 
       For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
 
@@ -297,20 +364,26 @@ CAN YOU DO THIS??
       * Workfront Planning record details 
       * GenStudio record details
 
-      >[!TIP]
+      >[!NOTE]
       >
-      >Fields created in Workfront Planning are not visible in the list view in GenStudio.
+      >* You can add more fields only when you have Manage permissions in GenStudio.
+      >* Fields created in Workfront Planning are not visible in the list view in GenStudio.
+      >
+      >* You can connect any GenStudio record type to the Brands GenStudio record type. 
+      >  Products and Personas are connected to Brands by default. 
 
 1. Hover over a field in the table view, then click the drop-down menu to do one of the following:
 
    * Sort by it
    * Hide it 
    * Edit its settings
+   
    <!--* Delete it - not possible now, per Iskuhi; the link is there but it will generate an error-->
 
       <!--GenStudio-native fields are note removed from GenStudio. -->
 
       >[!NOTE]
       >
-      >You can edit a field's configuration and add more fields only when you have Manage permissions in GenStudio.
+      >* You can edit the configuration of a GenStudio field only when you have Manage permissions in GenStudio.
+      >* You cannot delete a GenStudio field. 
 

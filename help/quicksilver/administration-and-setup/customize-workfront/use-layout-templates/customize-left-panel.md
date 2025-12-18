@@ -11,13 +11,15 @@ exl-id: b100ea35-e045-4021-b5be-2c9071b381da
 ---
 # Customize the left panel using a layout template
 
+{{preview-fast-release-general}}
+
 <!--Audited: 10/2024-->
 
 In a layout template, you can customize what users see in the left panel area throughout [!DNL Adobe Workfront].
 
-For example, you can determine which of the following items users see in the left panel when viewing a task:
+For example, you can determine which of the following items users see in the left panel when viewing a project:
 
-![Branding left panel](assets/left-panel-adobe-branding.png)
+![Left panel of a project](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
 >
@@ -33,32 +35,30 @@ After configuring a layout template, you must assign it to users for changes you
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Adobe Workfront package</td> 
    <td><p>Any</p>
-   <p>Adding custom applications to the Main Menu is only available for organizations licensed for Adobe App Builder.</p></td> 
+       <p>Adding custom applications to the Main Menu is only available for organizations licensed for Adobe App Builder.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td><p>New: Standard</p>
-  <p> Current: Plan</p>
-   </td> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>To perform these steps at the system level, you need the System Administrator access level.
-To perform them for a group, you must be a manager of that group.</p> </td> 
+   <td>Access level configurations</td> 
+   <td> <p>To perform these steps at the system level, you need the System Administrator access level.</p>
+        <p>To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -141,7 +141,7 @@ To perform them for a group, you must be a manager of that group.</p> </td>
      <tr> 
       <td>[!UICONTROL Dashboards]</td> 
       <td>The name of a dashboard</td> 
-      <td>[!UICONTROL My Dashboards], [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]<p><b>NOTE</b>: If you created custom tabs for the [!UICONTROL Reports] area using a layout template in [!DNL Adobe Workfront Classic], they display at the bottom of this list. For users, they display at the bottom of the left panel in the [!UICONTROL Dashboards] area.</p> </td> 
+      <td>[!UICONTROL My Dashboards], [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Scrum Team]</td> 
@@ -194,7 +194,7 @@ To perform them for a group, you must be a manager of that group.</p> </td>
     </tbody> 
    </table>
 
-   *Your company must purchase an additional license for Workfront Planning to be able to add this area to the left panel of projects, portfolios, and programs. For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md)
+   *Your company must purchase an additional license for Workfront Planning to be able to add this area to the left panel of projects, portfolios, and programs. For more information, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 
    **Custom applications must be created separately before they become available as Main Menu options. For more information, see [Create a custom application for Workfront with Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
@@ -221,22 +221,30 @@ To perform them for a group, you must be a manager of that group.</p> </td>
    >* [Brand Adobe [!DNL Workfront] using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
-1. (Optional) If you want to add a left panel item that links to one of your organization's dashboards, click **[!UICONTROL Add custom section]**, type a **[!UICONTROL Custom section title]** for the item, then add the dashboard.
+1. (Optional) If you want to add a left panel item that links to one of your organization's dashboards, click **[!UICONTROL Add dashboard]**, type the **[!UICONTROL Quick link name]** for the item, then choose the dashboard.
 
-   Dashboard items appear at the bottom of the left panel. Users see the Custom section title you type next to the dashboard item when they hover over it in the left panel.
+   You must build the dashboard before it appears in the list.
+   
+   Dashboard items appear at the bottom of the left panel.
 
    >[!NOTE]
    >
-   >Users can add custom dashboard items to their own left panel. When you add custom dashboard items in a layout template, your items display in addition to the ones they add, without overwriting or resetting them. This is also true if you assign users to a new layout template with custom dashboard items. For information about how users can customize the left panel, see [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >Users can add custom dashboard items to their own left panel. When you add custom dashboard items in a layout template, your items display in addition to the ones they add, without overwriting or resetting them. This is also true if you assign users to a new layout template with custom dashboard items. For information about how users can customize the left panel, see [Add a dashboard in the left panel of a Workfront object or area](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
    >
    >For information about dashboards, see [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-1. Continue customizing the layout template.
+1. <span class="preview">In the Preview environment: Continue customizing the layout template. You can click **Apply** at any time to save your progress.</span>
+
+   <span class="preview">Or</span>
+
+   <span class="preview">If you are finished customizing, click **Save and Close**.</span>
+
+1. In the Production environment: Continue customizing the layout template.
 
    Or
 
-   If you are finished customizing, click **[!UICONTROL Save]**.
+   If you are finished customizing, click **Save**.
 
    >[!TIP]
    >
-   >You can click [!UICONTROL **Save**] at any time to save your progress, which closes the layout template editor, then continue to modify the template later.
+   >You can click **Save** at any time to save your progress, then continue to modify the template later.

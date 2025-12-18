@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Manage task information in the Task Details Overview area
-description: Manage task information in the Task Details Overview area
+title: Manage Task Information in the Task Details Overview Area
+description: You can view or edit the information of a task by accessing the Overview area of the Task Details  section. There is a limited number of fields that you can view or edit in the Task Details section.
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
@@ -13,7 +13,9 @@ exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)</p>
 -->
 
-You can view or edit the information of a task by accessing the Overview area of the Task&nbsp;Details  section . There is a limited number of fields that you can view or edit in this area. For information about editing all information for a task see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+You can view or edit the information of a task by accessing the Overview area of the Task Details  section. There is a limited number of fields that you can view or edit in the Task Details section. 
+
+For information about editing all information for a task see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 This article describes how to view or edit information in the Overview area of Task Details. For information about updating other areas of Task Details , see the following articles:
 
@@ -23,12 +25,46 @@ This article describes how to view or edit information in the Overview area of T
 
 ## Access requirements
 
-You must have the following:
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-   *To find out what plan, license type, or access you have, contact your Workfront administrator. 
- </caption> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront package</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront license </p> </td> 
+   <td><p>Standard</p> 
+   <p>Work or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level configurations</td> 
+   <td> <p>View or higher access to Projects and Tasks</p> <p>If you have the correct access level but still can't edit the Details section  of the task, ask your Adobe Workfront if they set additional restrictions in your access level. </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions</p> </td> 
+   <td> <p>Contribute or higher permissions for the project</p> <p>View permissions for the task to view information in the Details section. </p> 
+   <p>Contribute permissions for the task to update the following information in the Details section:</p>
+
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   </ul>
+   
+   <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -57,7 +93,7 @@ You must have the following:
    <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
   </tr> 
  </tbody> 
-</table>
+</table>-->
 
 ## Edit task information in the Task Details Overview section
 

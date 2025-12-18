@@ -11,6 +11,8 @@ exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
 ---
 # Assign users to a layout template
 
+{{preview-fast-release-general}}
+
 You can assign a layout template you have created to any user, job role, team, or group who needs to use it.
 
 For users that do not have a layout template assigned to them, the default layout is used. To learn about the default layout, see [About the default Adobe Workfront layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
@@ -27,31 +29,29 @@ For information about layout templates for groups, see [Create and modify a grou
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-  <p> Current: Plan</p>
-   </td> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>To perform these steps at the system level, you need the System Administrator access level.
-To perform them for a group, you must be a manager of that group.</p> </td> 
+   <td>Access level configurations</td> 
+   <td> <p>To perform these steps at the system level, you need the System Administrator access level.</p>
+        <p>To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -74,7 +74,7 @@ For more detail about the information in this table, see [Access requirements in
 
    You can assign up to 100 users at a time. 
 
-1. Click **Done**, then click **Save** in the lower-left corner.
+1. Click **Done**, then click **Save** or <span class="preview">**Save and Close**</span> in the lower-left corner.
 
    This step completes the process of creating and assigning a layout template.
 

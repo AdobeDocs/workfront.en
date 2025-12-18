@@ -19,29 +19,19 @@ Similar considerations as for sharing objects apply for removing permissions fro
 
 +++ Expand to view access requirements for the functionality in this article. 
 
-
-You must have the following to share objects:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront license*</td> 
-   <td> <p>New  license: Contributor or higher</p>
-   Or  
-   <p>Current license: Request or higher</p>
-   <p><b>NOTE</b></p>
-
-   <p>Some objects require a higher access than Request. </p>
-   
-   <p>For example, for the new license, a Contributor can share issues, but only Standard-license users can share a project.</p>
-   
-   <p>For the current license, a Requestor can share issues, but only Workers or Planners can share a project.</p> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Contributor or higher</p> 
+   <p>Request or higher</p>
+   <p><strong>Note</strong>: Some objects require a higher access than Request.</p>
    </td> 
   </tr> 
   <tr> 
@@ -51,11 +41,11 @@ You must have the following to share objects:
   <tr> 
    <td role="rowheader">Object permissions</td> 
    <td> <p>View permissions or higher to the objects you want to share</p> <p>Manage permissions to remove inherited permissions on objects</p>  </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

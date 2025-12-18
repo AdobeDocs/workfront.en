@@ -24,23 +24,20 @@ When your company has purchased an Adobe Workfront license that includes Resourc
 
 For additional information about prerequisites for using the budgeting tools in Workfront, see [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
-In order to budget resources, manage Resource Pools, and see Cost information in the resource planning tools, your company and you must have the following access:&nbsp;
+In order to budget resources, manage Resource Pools, and see Cost information in the resource planning tools, your company and you must have the following access:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td><p>New: Any</p>
-       <p>or</p>
-       <p>Current: Pro or higher</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p>
-       <p>or</p>
-       <p>Current: Plan</p></td>
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr>  
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -60,11 +57,9 @@ In order to budget resources, manage Resource Pools, and see Cost information in
    <td role="rowheader">Object permissions</td> 
    <td> <p>Manage permissions on the project that include Manage Finance permissions.</p> <p>For information about project permissions, see the article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information about financial permissions on a project, see the article <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Share financial permissions on an object</a></a>.</p> 
    
-   <p><b>NOTE</b> 
-   
-   When budgeting resource in the Role view, if you have less than Manage permissions for at least one project listed under the role, you cannot budget hours, FTE, or Cost for the role. You can budget only the projects that you have Manage permissions for.</p> </td> 
+   <p><b>NOTE:</b> When budgeting resources in the Role view, if you have less than Manage permissions for at least one project listed under the role, you cannot budget hours, FTE, or Cost for the role. You can budget only the projects that you have Manage permissions for.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

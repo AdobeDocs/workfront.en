@@ -4,7 +4,7 @@ product-area: projects
 navigation-topic: use-workfront-view
 title: Add updates in Adobe Workfront View
 description: You can review and add updates to projects you are reviewing in the [!DNL Adobe Workfront] View app.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
 ---
@@ -16,7 +16,7 @@ You cannot add updates to tasks or issues in [!DNL Workfront View].
 
 ## Access requirements
 
-You must have the following access in [!DNL Workfront] to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -25,17 +25,21 @@ You must have the following access in [!DNL Workfront] to perform the steps in t
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront package</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Review] or higher</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
+   <td> 
+   <p>Contributor or higher</p>
+   <p>Review or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Add updates to a project in [!DNL Workfront View]
 

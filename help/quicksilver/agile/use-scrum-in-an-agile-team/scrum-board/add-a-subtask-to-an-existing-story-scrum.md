@@ -3,7 +3,7 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Add a Subtask to an Existing Story on the Scrum Board
 description: When creating subtasks for existing stories, keep in mind the Completion Mode setting for the project, because this affects how stories are updated.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
 ---

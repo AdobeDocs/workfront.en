@@ -86,27 +86,19 @@ Consider the following rules when using EXISTS statements in a filter:
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-      <p>New:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Current:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+     <p>Standard</p>
+     <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -115,12 +107,12 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report to edit filters in a report</p> <p>Manage permissions to a filter to edit it</p></td> 
+   <td><p>Manage permissions to a report to edit filters in a report</p> <p>Manage permissions to a filter to edit it</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

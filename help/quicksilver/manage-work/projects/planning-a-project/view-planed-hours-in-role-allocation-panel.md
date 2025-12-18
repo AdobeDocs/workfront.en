@@ -3,7 +3,7 @@ product-area: projects
 navigation-topic: plan-a-project
 title: View project Planned Hours in the Role Allocation panel
 description: You can view role allocation for all job roles assigned to work items in a project in the Role Allocation panel of the project.
-author: Alina
+author: Alina, Lisa
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
 ---
@@ -18,44 +18,50 @@ You can view role allocation for all job roles assigned to work items in a proje
 >* [Show role allocation for projects and initiatives in the task list](../../../scenario-planner/show-role-allocation-task-list-nwe.md) 
 >* [Show role allocation for projects and initiatives in the Workload Balancer](../../../scenario-planner/show-role-allocation-workload-balancer.md) 
 >
->  You must have a Scenario Planner license in order to see initiative hours in the Role Allocation panel.&nbsp;For information about the Scenario Planner, see [Get started with the Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md) . 
+>  You must have a Scenario Planner license in order to see initiative hours in the Role Allocation panel. For information about the Scenario Planner, see [Get started with the Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md). 
 >
+>If your company has bought the Adobe Scenario Planner in the past, it has been grandfathered in. The Scenario Planner is not available for purchase anymore.
 
 ## Access requirements
 
-<!--drafted for P&P:
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workflow Ultimate</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Light or higher</p> 
-   Or
-   <p>Legacy license: Review or higher</p> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <p>Light or higher</p>
+   <p>Review or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View or higher access to Projects</p>
+   <p>Edit access to Scenario Planner to update hours on initiatives</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View or higher permissions on the project</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
--->
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-You must have the following:
++++
 
-<table style="table-layout:auto"> 
+<!--Old:
+
+able style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -76,9 +82,7 @@ You must have the following:
    <td> <p>View or higher permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+</table>-->
 
 ## Prerequisites
 

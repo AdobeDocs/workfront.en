@@ -2,14 +2,24 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Edit tasks in a list
-description: You can edit task information in a list of tasks by editing the fields displayed in the list. 
+description: You can edit task information in a list of tasks by editing the fields displayed in the list. You must define the Plan Mode in a list of tasks to indicate how you want your changes to be saved to Workfront. You can save your changes manually or automatically. 
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 ---
 # Edit tasks in a list {#edit-tasks-in-a-list}
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 10/2025 -->
+
+<!--
+
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 You can edit task information in a list of tasks by editing the fields displayed in the list. For information about other ways to edit tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -17,6 +27,36 @@ You can edit task information in a list of tasks by editing the fields displayed
 
 +++ Expand to view access requirements for the functionality in this article.
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard<p>
+   <p>Work or higher</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute or higher permissions to the task and the project</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -40,11 +80,7 @@ You can edit task information in a list of tasks by editing the fields displayed
    <td> <p>Contribute or higher permissions to the task and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++ 
+</table>-->
 
 ## Considerations about editing tasks in a list {#considerations-about-editing-tasks-in-a-list}
 
@@ -78,15 +114,20 @@ Consider the following when editing tasks in a list:
      >
      >By default, Workfront automatically saves your changes to tasks in the Subtasks  section or in a task report.
 
-* You can control when Workfront saves the changes you make to the tasks in a list. Your changes can be saved automatically or you can manually save them.
+* You can control when Workfront saves the changes you make to the tasks in a list by defining the Plan Mode before you start editing the tasks. 
 
-  For information about configuring when Workfront saves changes you make to tasks in a list, see the [Select a save option when editing tasks in a list](#select-a-save-option-when-editing-tasks-in-a-list) section in this article.
+   You can decide between Workfront saving the changes you make in the following way: 
+   
+   * Automatically, after every change
+   * Manually, only after you click Save. 
+
+  For information about configuring when Workfront saves changes you make to tasks in a list, see the [Modify Plan Mode before editing tasks in a list](#modify-plan-mode-before-editing-tasks-in-a-list) section in this article.
 
 * Other users must refresh their pages before they can view the updates you make to a task. 
 
-## Select a save option when editing tasks in a list {#select-a-save-option-when-editing-tasks-in-a-list}
+## Modify Plan Mode before editing tasks in a list
 
-You can decide whether the changes you make to tasks in a list are saved automatically as they occur, or if you want to manually save each change.
+You can decide whether the changes you make to tasks in a list are saved automatically as they occur, or if you want to manually save each change. To do this, you must modify the Plan Mode in a list of task before editing the tasks. 
 
 >[!IMPORTANT]
 >
@@ -94,17 +135,17 @@ You can decide whether the changes you make to tasks in a list are saved automat
 
 When you save your changes in a list for a project that has either Automatic or Automatic and On Change selected as the Update Type, Workfront updates the project timeline, along with all in-project and cross-project dependencies. Timeline calculations can take a long time if the project is large or if there are a lot of dependencies. Some methods of editing a task list can be faster than others, depending on the method you select to save your changes.
 
-You can control when Workfront saves the changes you make to the tasks in a list. The following scenarios exist:&nbsp;
+You can control when Workfront saves the changes you make to the tasks in a list. The following scenarios exist: 
 
 * You can have Workfront automatically save the changes, after each update.
 
-  For information, see the section [Edit tasks in a list and automatically save changes](#edit-tasks-in-a-list-and-automatically-save-changes) in this article. 
+  For information, see the section [Set the Plan Mode to automatically save changes](#set-the-plan-mode-to-automatically-save-changes) in this article. 
 
 * You can have control over when you apply multiple changes at a time by manually using a Save button.
 
-  For information, see the section [Edit tasks in a list and manually save changes](#edit-tasks-in-a-list-and-manually-save-changes) in this article.
+  For information, see the section [Set the Plan Mode to manually save changes](#set-the-plan-mode-to-manually-save-changes) in this article.
 
-### Edit tasks in a list and automatically save changes {#edit-tasks-in-a-list-and-automatically-save-changes}
+### Set the Plan Mode to automatically save changes
 
 >[!TIP]
 >
@@ -123,7 +164,7 @@ To edit tasks in a list and save changes automatically:
 1. On the **Projects** page, select a project.
 1. In the left panel, click the **Tasks** section.
 
-1. Click the **Plan mode** icon ![Plan mode icon](assets/plan-mode-icon.png) at the top of the list and make sure the **Autosave** option is selected.
+1. Click the **Plan Mode** icon ![Plan Mode icon](assets/plan-mode-icon.png) at the top of the list and make sure the **Autosave** option is selected.
 
    ![Enable the autosave setting](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
@@ -186,7 +227,7 @@ To edit tasks in a list and save changes automatically:
     </tbody> 
    </table>
 
-### Edit tasks in a list and manually save changes {#edit-tasks-in-a-list-and-manually-save-changes}
+### Set the Plan Mode to manually save changes {#edit-tasks-in-a-list-and-manually-save-changes}
 
 You can manually save changes you make to tasks in a list. When you save changes this way, you have the flexibility to reverse them before saving.
 
@@ -233,7 +274,7 @@ To edit tasks in a list when selecting the Manual save Standard option:
 
 1. In the left panel, click the **Tasks** section.
 
-1. Click the **Plan mode** icon ![Plan mode icon](assets/plan-mode-icon.png) at the top of the list.
+1. Click the **Plan Mode** icon ![Plan Mode icon](assets/plan-mode-icon.png) at the top of the list.
 
 1. In the **Plan Mode** dialog, select **Manual save**, then click **Standard**.
 
@@ -321,7 +362,7 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
 
 1. In the left panel, click the **Tasks** section.
 
-1. Click the **Plan mode** icon ![Plan mode icon](assets/plan-mode-icon.png) at the top of the list.
+1. Click the **Plan Mode** icon ![Plan Mode icon](assets/plan-mode-icon.png) at the top of the list.
 
 1. In the **Plan Mode** dialog, select **Manual save**, then click **Timeline Planning**. 
 
@@ -453,7 +494,7 @@ You can edit multiple tasks all at once. Ensure you have manage permissions to t
 1. On the **Projects** page, select a project.
 1. In the left panel, click the **Tasks** section.
 
-1. Click the **Plan mode** icon ![Plan mode icon](assets/plan-mode-icon.png) at the top of the list and make sure the **Autosave** option is selected.
+1. Click the **Plan Mode** icon ![Plan Mode icon](assets/plan-mode-icon.png) at the top of the list and make sure the **Autosave** option is selected.
 
    ![Enable the autosave setting](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
@@ -462,25 +503,46 @@ You can edit multiple tasks all at once. Ensure you have manage permissions to t
    >You can't edit tasks in bulk when saving tasks manually.
 
 1. Select more than one task in the tasks list. 
-1. Click the **Edit** icon ![Edit icon](assets/qs-edit-icon.png). The **Edit Tasks** dialog box opens.
+1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then **Recalculate Expressions** to update all information in calculated custom fields.
+1. Click the **Edit** icon ![Edit icon](assets/qs-edit-icon.png). The **Edit Tasks** dialog box opens in the new experience.
 
-1. Specify the information you want to change for all the tasks you selected.
-
-   Editing the information on all tasks is identical to editing information on one task. If you want to edit task Duration, the tasks selected must have the same Task Constraint; otherwise, the **Duration** field does not populate.
+   Editing the information on all tasks is identical to editing information on one task.
 
    For more information about editing a task, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+   
+1. (Conditional) In the new experience, do the following:
+      
+   1. Specify the information you want to change for all the tasks you selected in any of the following areas: 
 
-   >[!NOTE]
-   >
-   >The information you are changing on all the tasks selected will override the existing information on individual tasks, except for the **Assignments** field. Adding a new assignee in bulk edit will add that assignee to all the selected tasks. If other assignees are assigned to the selected tasks, they will remain assigned in addition to the one added through bulk edit.
+      * Overview
+      * Assignments
+      * Custom Forms
+      * Finance
+      * Settings
+      * Settings
+      * Comment
 
-1. Click **Custom Forms** to edit the custom forms attached to all the tasks selected. Only active custom forms display in the list.
+      >[!NOTE]
+      >
+      >* The information you are changing on all the tasks selected will override the existing information on individual tasks, except for the **Assignments** field. Adding a new assignee in bulk edit will add that assignee to all the selected tasks. If other assignees are assigned to the selected tasks, they will remain assigned in addition to the one added through bulk edit.
+      >* If you want to edit task Duration, the tasks selected must have the same Task Constraint. Otherwise, the **Duration** field does not populate.
+      >
+      >* Only active custom forms display in the list. If the tasks selected do not have any common custom forms, no forms are listed in this section.
+      >* You can edit only the fields on the forms that are attached to all tasks selected and which you have permissions to edit.  For information about bulk editing custom forms, see [Manage custom forms attached to objects](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
 
-   If the tasks selected do not have any common custom forms, no forms are listed in this section.
+   1. Click **Save**.
+   1. (Optional) Click **Switch back to old experience** at the bottom of the **Edit Tasks** box.
 
-   You can edit only the fields on the forms that are attached to all tasks selected and which you have permissions to edit. 
+1. (Conditional) In the old experience, do the following:
 
-1. (Optional) In the Custom Forms section, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the custom forms attached to the tasks selected are up to date. 
-1. Click **Save Changes**. All changes you made are now visible on all the selected tasks.
+   1. Specify the information you want to change for all the tasks you selected in any of the following areas:
 
-For information about bulk editing custom forms, see [Manage custom forms attached to objects](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
+         * Overview
+         * Settings
+         * Assignments
+         * Custom Forms
+         * Comment
+ 
+   1. (Optional) In the **Custom Forms** section, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the custom forms attached to the tasks selected are up to date. 
+   1. Click **Save Changes**. All changes you made are now visible on all the selected tasks.
+

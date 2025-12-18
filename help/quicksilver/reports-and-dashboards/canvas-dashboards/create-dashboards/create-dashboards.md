@@ -23,7 +23,7 @@ With Canvas Dashboards, you can create and add reports to a customizable dashboa
 
 ## Access Requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view access requirements for the functionality in this article. 
 
  <table style="table-layout:auto"> 
 <col> 
@@ -32,7 +32,7 @@ With Canvas Dashboards, you can create and add reports to a customizable dashboa
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <p>Any </p> 
    </td> 
@@ -40,8 +40,8 @@ With Canvas Dashboards, you can create and add reports to a customizable dashboa
  <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td> 
-<p>Current: Plan </p> 
-<p>New: Standard</p> 
+<p>Standard </p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 

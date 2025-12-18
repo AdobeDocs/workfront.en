@@ -31,8 +31,6 @@ You cannot delegate timesheet, document, or proof approvals.
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -40,17 +38,20 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td> <p>Review or higher</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td>
+   <p>Contribute or higher</p>
+   <p>Review or higher</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-To find out what plan or license type you have, contact your Workfront administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

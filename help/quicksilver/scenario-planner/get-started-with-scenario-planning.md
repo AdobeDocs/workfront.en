@@ -1,5 +1,5 @@
 ---
-title: Get started with the Scenario Planner
+title: Get Started with the Scenario Planner
 description: You can use the Adobe Workfront Scenario Planner to build enterprise-level plans that outline your company's overall strategic outcomes. You can define several initiatives for a plan and place them in various scenarios to find the optimal solution for executing the plan.
 author: Alina
 draft: Probably
@@ -8,11 +8,10 @@ exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
 ---
 # Get started with the [!DNL Scenario Planner]
 
-The [!DNL Scenario Planner] requires an additional license to the [!DNL Adobe Workfront] license. For information about the Workfront [!DNL Scenario Planner], see [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md).
-
 You can use the [!DNL Adobe Workfront Scenario Planner] to build enterprise-level plans that outline your company's overall strategic outcomes. You can define several initiatives for a plan and place them in various scenarios to find the optimal solution for executing the plan.
 
 For a high-level overview of the [!DNL Workfront Scenario Planner], see [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md).
+
 
 ## Approaches for using the [!DNL Workfront Scenario Planner]
 

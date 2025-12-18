@@ -3,7 +3,7 @@ content-type: overview
 product-area: projects
 keywords: recurrent,reoccur,reoccurring
 navigation-topic: manage-tasks
-title: Recurring tasks overview
+title: Recurring Tasks Overview
 description: Recurring tasks overview
 author: Alina
 feature: Work Management, Tasks

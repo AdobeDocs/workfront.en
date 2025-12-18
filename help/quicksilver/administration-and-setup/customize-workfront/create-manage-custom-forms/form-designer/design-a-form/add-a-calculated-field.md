@@ -11,6 +11,8 @@ exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
 ---
 # Add calculated fields to a form
 
+{{preview-fast-release-general}}
+
 <!-- Audited: 5/2025 -->
 
 You can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object.
@@ -41,31 +43,27 @@ A calculated custom field can contain:
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
-   <td>Any</td> 
+  <tr> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>
-   <p>New: Standard</p>
-   <p>or</p>
-   <p>Current: Plan</p></td>
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations</td> 
+  <tr> 
+   <td>Access level configurations</td> 
    <td> <p>Administrative access to custom forms</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -104,6 +102,10 @@ To reuse an existing calculated custom field:
 
 1. Use the search box or expand the **Calculated** section to locate the calculated field you need, then drag the field where you want it to appear in the custom form.
 
+1. <span class="preview">(Conditional) Click **Check for conflicts** to review all objects that might be affected by changing the formula on this calculated field.</span>
+
+   <span class="preview">If two or more forms containing the same calculated field are attached to an object, then the formulas must be identical on all of the forms. Editing the formula is not allowed if the change could cause a conflict.</span>
+
 1. (Optional) Repeat the previous step to add any other fields.
 
    >[!NOTE]
@@ -117,7 +119,7 @@ To reuse an existing calculated custom field:
 
     or
 
-    Click **Save and Close**. 
+    Click **Save and Close**.
 
 ## Add a new calculated field
 
@@ -167,6 +169,10 @@ To reuse an existing calculated custom field:
       <p><b>IMPORTANT</b>: Before you choose a format, consider the correct format for the new field. The format field can't be edited after the custom form is saved. And selecting the wrong format could impact future calculations and aggregate values in report and list groupings.</p>
       <p><strong>NOTE</strong>: Calculated fields with a <strong>Currency</strong> format should not include quotation marks. (For example, use 800.00 and not "800.00.") Using quotation marks can cause unexpected consequences due to nuances with language formatting for currency types.</p></td>
      </tr> 
+     <tr>
+      <td><span class="preview">Active</span></td>
+      <td><span class="preview"><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 

@@ -4,6 +4,7 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Your quick guide to finding help in [!DNL Adobe Workfront]
 description: Your quick guide to finding help in [!DNL Adobe Workfront]
 feature: Get Started with Workfront
+author: Becky
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
 ---
 # Your quick guide to finding help in [!DNL Adobe Workfront]
@@ -17,12 +18,12 @@ Welcome to [!DNL Adobe Workfront!] We know you have questions and are not always
 >[!TIP]
 >
 >We encourage you to bookmark this page. We'll be updating it with added resources as they become available. >
-><!--
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
->(NOTE: from Luke: I wonder who added this. This article does containa lot of good information. I wonder if we should update the TOC so that it appears in a more prominent section?)>
-></MadCap:conditionalText>>
->-->
 
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
+(NOTE: from Luke: I wonder who added this. This article does containa lot of good information. I wonder if we should update the TOC so that it appears in a more prominent section?)>
+</MadCap:conditionalText>>
+-->
 
 ## How can I get questions answered and learn about [!DNL Workfront?]
 

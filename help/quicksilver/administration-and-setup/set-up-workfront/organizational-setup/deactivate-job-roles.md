@@ -17,33 +17,31 @@ You can also reactivate job roles that have previously been deactivated.
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article.
+## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Any </p> </td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td>
-   <p>New: [!UICONTROL Standard]</p>
-   <p>Or</p>
-   <p>Current: [!UICONTROL Plan]</p></td> 
+   <td>[!DNL Adobe Workfront] license</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td>Administrative access to Job Roles</td> 
+   <td>Access level configurations</td> 
+   <td>Administrative access to Job Roles</td>
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

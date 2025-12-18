@@ -20,36 +20,35 @@ When tagging users in comments on a proof, the users you are able to tag might d
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Premium</p> <p>For more information about proofing access with the different plans, see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Any</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Proof role</td> 
    <td>Author, Moderator</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Proof Permission Profile </td> 
+   <td role="rowheader">Proof Permission Profile</td> 
    <td>Supervisor or Administrator</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>For information on requesting additional access, see <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Documents</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -59,10 +58,10 @@ Users with the Proof Permission Profile or Proof role outlined in the [Access re
 
 >[!NOTE]
 >
->You can tag an external collaborator using their email address only if either of the following is true:>
+>You can tag an external collaborator using their email address only if either of the following is true:
+>
 >* A user in your organization's Workfront account has added the collaborator's email address to a proof previously.
 >* The collaborator has used the email address to subscribe to a proof in your organization's Workfront account previously.
->
 
 To tag someone and share a proof in a comment:
 

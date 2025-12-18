@@ -4,7 +4,7 @@ product-area: agile-and-teams
 navigation-topic: scrum-board
 title: Scrum Board Overview
 description: The Scrum agile story board displays together with the completion status and the burndown chart.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
 ---

@@ -7,6 +7,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
 ---
+
+<!--keep the 30 limit verbiage in yellow til Jan 2026-->
+
 # Connected record types overview
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -31,6 +34,8 @@ There are two steps to connections in Workfront Planning:
 
 Consider the following about connecting record types: 
 
+* <span class="preview">You can have up to 30 connected fields for one record type in Workfront Planning.</span>
+
 * You can connect the following entities in Adobe Workfront Planning:
 
     * Two record types. 
@@ -53,11 +58,17 @@ Consider the following about connecting record types:
         * Images
         * Folders
 
+    * Adobe GenStudio for Performance Marketing
+
+        * Brands
+
         >[!IMPORTANT]
         >
-        >You must have an Adobe Experience Manager Assets license, and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to connect Workfront Planning records to Adobe Experience Manager Assets.
-        >
-        >If you have questions about onboarding to the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+        >You must have have the following to connect with Adobe Experience Manager Assets and GenStudio Brands:
+        >* An Adobe Experience Manager Assets license
+        >* An Adobe GenStudio for Performance Marketing license
+        >* Your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to connect Workfront Planning records to Adobe Experience Manager Assets.
+        >For information about the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * After you create records for record types, you can link them to each other through the connected record field.  
 
@@ -65,17 +76,15 @@ Consider the following about connecting record types:
 
 * After you connect a record type with another record type or with an object type from another application, the following scenarios exist: 
     
-    * **When you connect two Planning record types**: A linked record field is created on the record type you're connecting from. A similar linked record field is created on the record type you are connecting to <!--<span class="preview">, only when you enable the Create corresponding field on linked record type setting on the New connection tab.</span>-->. 
+    * **When you connect two Planning record types**: A linked record field is created on the record type you're connecting from. A similar linked record field is created on the record type you are connecting to, only when you enable the Create corresponding field on linked record type setting on the New connection tab. 
 
         For example, if you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is created on the Product record type.
 
-        <div class="preview">
-        
         For example, the following scenarios exist: 
+
         * When you enable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is created on the Product record type.
         * When you disable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is not created on the Product record type.
-        </div>
-
+    
         For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
     * **When you connect a record type with an object type from another application**: 
@@ -85,6 +94,7 @@ Consider the following about connecting record types:
         * Planning records are visible from the Workfront object's Planning tab. For information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
         * You can create a Planning connection custom field and attach it to a Workfront object's custom form. For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
         * Planning record fields are accessible from Experience Manager assets when your Workfront administrator configures the metadata mapping through the integration between Workfront and Adobe Experience Manager Assets. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+        * Planning record fields are not accessible from the Brands in GenStudio for Performance Marketing. 
         
 
     * **When you add lookup fields from the record or object you connect to**: In addition to creating a linked record field, you can also connect to fields from the connected record or object type which are called lookup fields. A linked (or lookup field) with information from the record you're connecting to displays on the record that you're connecting from.
@@ -118,35 +128,29 @@ After you establish a connection between two record types or between a record an
 
 >[!WARNING]
 >
->These options are not available when connecting the following: 
+>The options described in this section are not available when connecting the following: 
 >
 >* Two records from different workspaces
 >
 >* A record type and Experience Manager assets
+>
+>* A record type and an Adobe GenStudio Brand
 
 You can choose whether you want to connect one record to multiple records at a time, or one record at a time to each other. 
 
-Depending on how many records you can add to a connected record field and the environment you use to create the connected fields, the following are the connection types you can choose from when connecting record types: 
+The following are the connection types you can choose from when connecting record types: 
 
-<div class="preview">
+* When the **Create corresponding field on linked record type** setting is disabled, you can choose from: 
 
-* In the Preview environment: 
+    * [Multi-select](#multi-select-connection-type)
+    * [Single-select](#single-select-connection-type)
 
-    * When the Create corresponding field on linked record type setting is disabled, you can choose from: 
-
-        * [Multi-select](#multi-select-connection-type)
-        * [Single-select](#single-select-connection-type)
-
-</div>
-
-* <span class="preview">In the Preview environment, when the Create corresponding field on linked record type setting is enabled,</span> or in the Production environment, you can choose from:
+* When the **Create corresponding field on linked record type** setting is enabled, you can choose from:
 
     * [Many to many](#many-to-many-connection-type)
     * [One to many](#one-to-many-connection-type)
     * [Many to one](#many-to-one-connection-type)
     * [One to one](#many-to-one-connection-type) 
-
-<div class="preview">
 
 ### Multi-select connection type
 
@@ -158,10 +162,10 @@ For example, if you create a multi-select connection between campaigns and proje
 
 After you select this connection type, you cannot change the connection type after you save it to any of the following types:
 
-    * Single-select
-    * One to many
-    * Many to one
-    * One to one
+* Single-select
+* One to many
+* Many to one
+* One to one
 
 ### Single-select connection type
 

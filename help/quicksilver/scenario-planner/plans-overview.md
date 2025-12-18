@@ -2,7 +2,7 @@
 content-type: overview
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Plans overview in the Scenario Planner
+title: Plans Overview in the Scenario Planner
 description: As a business manager, you can use the Adobe Workfront Scenario Planner to outline the strategy for your organization's near and long-term future by outlining its one-, three-, or five-year plans.
 author: Alina
 feature: Workfront Scenario Planner

@@ -10,9 +10,9 @@ exl-id: e7710495-c418-47b1-8598-725580054fc5
 ---
 # Configure personal time off
 
-{{highlighted-preview}}
+<!-- Audited: 12/2025 -->
 
-<!-- Audited: 12/2023 -->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront] is not designed to replicate or replace your existing systems for managing, accruing, and tracking personal time off.
 
@@ -32,33 +32,33 @@ Resource Management tools also use your personal time off to indicate when you a
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Any</td> 
+   <td> Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: Standard (to configure your personal time off)</p>
-        <p>or</p>
-        <p>Current: Work or higher (to configure your personal time off)</p> </td>
+   <td>Adobe Workfront license</td> 
+   <td> <p>To configure your personal time off, you must have:</p>
+        <p>Standard (to configure your personal time off)</p>
+        <p>Work or higher (to configure your personal time off)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td>[!UICONTROL Manager] with [!UICONTROL Edit User] access (to make changes to the time off calendar of other users)<br>
-   <strong>NOTE:</strong> If a manager edits another user's personal time off calendar, all entries are shown in the user's time zone and not the manager's time zone.</td> 
+   <td>Access level configurations</td> 
+   <td><p>To make changes to the time off calendar of another user, you must be that user's manager and have Edit User access.</p>
+   <p><strong>NOTE:</strong> If a manager edits another user's personal time off calendar, all entries are shown in the user's time zone and not the manager's time zone.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configure personal time off in [!DNL Workfront]
 
@@ -66,18 +66,17 @@ For more detail about the information in this table, see [Access requirements in
 
    >[!NOTE]
    >
-   >If you are on the Adobe Unified Experience, you can access your Workfront profile by clicking the Adobe account menu (your profile picture) in the top navigation area, then choosing Workfront Profile.
+   >If your organization is on the Adobe Unified Experience, click the **Adobe** account menu (your profile picture) in the upper-right corner of the top navigation area, then click **Workfront Profile**.
    >
    >![workfront profile](assets/aue-profile.png)
 
 1. In the left panel, click **[!UICONTROL Time Off]**.
 1. Select the desired date for your personal time off.
 
-   <span class="preview">Sample image in the Preview environment:</span>
    ![Personal time off calendar](assets/personal-time-off-calendar-0925.png)
 
-   Sample image in the Production environment:
-   ![Personal time off calendar](assets/personal-time-off-calendar.png)
+   <!--Sample image in the Production environment:
+   ![Personal time off calendar](assets/personal-time-off-calendar.png)-->
 
 1. Select **[!UICONTROL All day]**, if you are taking a full day off.
 

@@ -13,55 +13,48 @@ exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
 
 You can customize the type of information you display on the screen using views. You can use several types of views in Adobe Workfront.
 
-This article describes how to create and edit standard views for lists and reports, and how to create Agile views. For more information, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+This article describes how to create and edit standard views for lists and reports. 
+
+For more information, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader">Adobe Workfront license</strong></td> 
    <td> 
-      <p>New:</p>
-         <ul>
-         <li><p>Contributor or higher</p></li>
-         </ul>
-      <p>Current:</p>
-         <ul>
-         <li><p>Request or higher</p></li>
-         </ul>
+    <p>Contributor or higher</p>
+    <p>Request or higher</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to create a view in a report</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Object permissions*</strong></td> 
+   <td role="rowheader">Object permissions</td> 
    <td> <p>Manage permissions to a report to create or edit a view in a report</p> <p>Manage permissions to a view to edit it</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Create or customize a view
 
-The process for creating or customizing a view differs depending on whether you are creating or customizing a standard view or an agile view.
+The process for creating or customizing a view differs depending on whether you are creating or customizing a standard view or an Agile or a Board view.
 
 * [Create or customize a standard view](#create-or-customize-a-standard-view) 
 * [Create or customize an Agile view](#create-or-customize-an-agile-view)
@@ -164,13 +157,13 @@ You can create a new standard view, or you can customize an existing standard vi
 
 ### Create or customize an Agile view {#create-or-customize-an-agile-view}
 
-You can create an Agile view or customize an existing Agile view that you previously created.
+Agile views, also called Board views, only display for lists of tasks and issues on a project. 
 
->[!IMPORTANT]
->
->Agile views are available only when viewing a project.
+They are preconfigured, but you can modify certain settings for them. 
 
-For more information about Agile views, see the article [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+For more information about Agile or Board views, see the article [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+
+<!-- Legacy Agile views were deprecated with 25.3. This is old: 
 
 >[!NOTE]
 >
@@ -222,9 +215,8 @@ To create or customize an Agile view:
     </tbody> 
    </table>
 
-   <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
-       -->
+   *********   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
+       *************
 
 1. In the **Associate Card Color to** area, select from the following options:
 
@@ -276,3 +268,5 @@ To create or customize an Agile view:
    Your access dictates how the view is saved. If you created the view originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the view impact users with whom the view has been shared.
 
 1. (Optional) Click the **List** icon to return to the list of tasks.
+
+-->

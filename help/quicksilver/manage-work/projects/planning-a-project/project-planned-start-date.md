@@ -2,8 +2,8 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Overview of the project Planned Start Date
-description: Overview of the project Planned Start Date
+title: Overview of the Project Planned Start Date
+description: The Planned Start and the Planned Completion Dates of a project rely on the dates of the tasks on the project. This article describes the Planned Start Date of a project.
 author: Alina
 feature: Work Management, Projects
 role: User

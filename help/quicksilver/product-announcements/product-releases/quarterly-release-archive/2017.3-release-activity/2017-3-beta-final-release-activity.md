@@ -447,8 +447,6 @@ We have made the following improvements to the Workfront add-in for&nbsp; Outloo
 * Add a task or an issue to a project in Workfront: You can now convert an email to a task or an issue in Workfront, using the Outlook 365 add-in. In this process, you can specify a project you want the task or the issue to be added to, as well as an assignee and a due date. Prior to this enhancement, you could only submit a request to a request queue or add a personal task to your Working On list from Outlook 365.&nbsp;
 * Preserve a link to Workfront objects in the original email converted to tasks, issues, or requests: When you convert an email from Outlook 365 to a task, an issue, or a request, Outlook 365 preserves a link to the task or issue that was converted from that email inside the original email. Prior to this change, there was no indication in Outlook whether an email had been converted to a task or submitted as a request.&nbsp;
 
-  For more information about converting an email to a task or an issue from Outlook 365, see [Add an Outlook email to a project as a task or an issue](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md).
-
 ## API Changes {#api-changes}
 
 * [API 8 Now Available](#api-8-now-available) 

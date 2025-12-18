@@ -11,6 +11,8 @@ exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
 ---
 # Create and manage programs: article index
 
+<!--Audited: 08/2025-->
+
 Programs are a collection of projects that contribute to a common strategy, objective, or goal.
 
 Programs are a subdivision of portfolios, and they can't exist outside of a portfolio.

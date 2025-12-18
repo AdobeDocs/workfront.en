@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Delete tasks
+title: Delete Tasks
 description: You can delete tasks that might be duplicates, or have been created in error.
 author: Alina
 feature: Work Management
@@ -15,7 +15,38 @@ For tasks that have historical information (updates, changes of schedule, status
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p> 
+   <p>Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and Projects with access to Delete</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,9 +69,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+</table>-->
 
 ## Understand the process of deleting tasks
 
@@ -63,37 +92,40 @@ You must have the following access to perform the steps in this article:
 
 When you delete a task, you impact other objects linked to the task.
 
-The following objects attached to a task are also deleted when you delete a task:
+Consider the following: 
 
-* Documents
+* The following objects attached to a task are also deleted when you delete a task:
 
-  You cannot delete a task that has a document which has been checked out attached to it. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
+   * Documents
 
-* Issues
-* Subtasks
-* Notes
-* Approvals
+   You cannot delete a task that has a document which has been checked out attached to it. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
 
-Depending on how your Workfront administrator configures the Project, Task, or Issue Deletion Preferences in the Timesheet & Hour Preferences of your Workfront instance, hours logged for the tasks are handled in one of the following ways when deleting a task:
+   * Issues
+   * Subtasks
+   * Notes
+   * Approvals
 
-* Move to the project and will not be restored on the task, if the task is later restored.
-* Are deleted and will be restored on the task, if the task is later restored.
+* Depending on how your Workfront administrator configures the Project, Task, or Issue Deletion Preferences in the Timesheet & Hour Preferences of your Workfront instance, hours logged for the tasks are handled in one of the following ways when deleting a task:
 
-  This also applies when you try to delete projects that have tasks with hours logged on them.
+   * Move to the project and will not be restored on the task, if the task is later restored.
+   * Are deleted and will be restored on the task, if the task is later restored.
 
-  <!--
+   This also applies when you try to delete projects that have tasks with hours logged on them.
+
+   For more information about configuring the deletion preferences for hours logged on issues, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * Expenses on the task will move to the project.
+
+   * The users assigned to the task or to the task approval remain on the project team.
+
+   For more information about project teams, see [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+
+* When you delete a child task and you move its parent to another project, then restore the deleted child task, the task is added back on the original project as a main task. 
+
+<!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this stays NWE; not possible in classic;)
   </MadCap:conditionalText>
   -->
-
-  For more information about configuring the deletion preferences for hours logged on issues, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-
-* Expenses on the task will move to the project.
-
-* The users assigned to the task or to the task approval remain on the project team.
-
-  For more information about project teams, see [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Delete tasks
 

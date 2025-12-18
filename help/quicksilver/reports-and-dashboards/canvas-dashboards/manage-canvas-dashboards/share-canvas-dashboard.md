@@ -23,7 +23,7 @@ You can share a Canvas dashboard with other Adobe Workfront users so they can vi
 
 ## Access Requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view access requirements for the functionality in this article.
  <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -31,7 +31,7 @@ You can share a Canvas dashboard with other Adobe Workfront users so they can vi
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <p>Any </p> 
    </td> 
@@ -39,8 +39,8 @@ You can share a Canvas dashboard with other Adobe Workfront users so they can vi
  <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td> 
-<p>Current: Plan </p> 
-<p>New: Standard</p> 
+<p>Standard </p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 
@@ -87,6 +87,8 @@ For more detail about the information in this table, see [Access requirements in
 1. On the **Canvas Dashboards** page, select the dashboard you want to share. 
 
 1. In the upper-right corner of the page, click the **Share** button. The **Dashboard Sharing** dialog box appears.
+
+   ![Share button](assets/share-button.png)
 
 1. In the **Give access to** field, begin typing the name of a specific user, team, role, group, or company you want to share the Canvas Dashboard with, then select it when it appears in the drop-down list. 
 

@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Overview of the task Planned Start Date
+title: Overview of The task Planned Start Date
 description: The Planned Start Date of a task is the date when you, as the task creator, decide that the work on the task should start. Planned task dates influence the dates and the timeline on the project. For information about the project Planned Start Date, see Overview of the project Planned Start Date.
 author: Alina
 feature: Work Management

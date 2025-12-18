@@ -3,7 +3,7 @@ product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Create an Agile Story
 description: You can create an agile story on an iteration in various ways. After you create an agile story, you can add subtasks to the story.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
 ---
@@ -19,8 +19,6 @@ For information about how to manage the story after it is added to the iteration
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -28,18 +26,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>New: [!UICONTROL Standard]</p> 
-   or
-   <p>Current: [!UICONTROL Work] or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p> 
+   <p>Work or higher</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td>[!UICONTROL Manage] access to the project the story is on </td> 
+   <td>Manage access to the project the story is on </td> 
   </tr> 
  </tbody> 
 </table>

@@ -3,7 +3,7 @@ content-type: reference
 navigation-topic: notifications
 title: "Notifications: Information about projects I'm on"
 description: The following notifications alert you about activities happening in projects you're working on.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
 ---

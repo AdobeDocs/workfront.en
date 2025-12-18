@@ -5,7 +5,7 @@ keywords: audit,trail,custom,field
 navigation-topic: calculate-custom-data-reports
 title: "Calculated custom field example: display a field's edit history"
 description: If users update custom fields on a regular basis and you want to capture a log of all the changes made to a field as well as a date when the changes happen, you can capture this information in a calculated custom field.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
 ---
@@ -29,35 +29,38 @@ This does this following:
 
 ## Access requirements
 
-You must have the following:
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;"> 
-  <p>*To find out what plan, license type, or access you have, contact your Workfront administrator.</p> 
- </caption> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
+   <td> <p>Adobe Workfront package</p> </td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront license*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td>
+      <p>Standard</p>
+      <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Administrative access to Custom Forms</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td><p>Access level configurations</p></td> 
+   <td> <p>Administrative access to Custom Forms</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>Manage permissions on the custom forms </p> <p>For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>.<br></p> </td> 
+   <td> <p>Object permissions</p> </td> 
+   <td> <p>Manage permissions on the custom forms</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisites
 

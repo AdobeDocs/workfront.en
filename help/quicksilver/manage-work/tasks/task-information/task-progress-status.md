@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Task Progress Status overview
+title: Task Progress Status Overview
 description: Adobe Workfront determines the Progress Status of a task by looking at the progression of the task across its timeline. You can configure Workfront to determine the Condition of a project based on the value of the Progress Status of the tasks. For more information about configuring the Condition of the project, see the article Overview of Project Condition and Condition Type.
 author: Alina
 feature: Work Management

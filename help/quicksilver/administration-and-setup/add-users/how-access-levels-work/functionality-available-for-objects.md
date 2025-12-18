@@ -15,14 +15,18 @@ exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
 
 {{highlighted-preview}}
 
+>[!NOTE]
+>
+>The information in this article refers to the current access levels. For information about the legacy access levels, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
+
 The following tables lists the functionality available for each object type in the various access levels.
 
 It also indicates which actions Workfront administrators can disable or enable using an access level.
 
 >[!NOTE]
 >
->* This article describes functionality available to access levels in the new Workfront plan model. To see functionality available in the current plan model, see [Functionality available for each object type for various access levels](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* For a list of functionality available to the different plans in the new plan model, see [Adobe Workfront Pricing and Packaging](https://business.adobe.com/products/workfront/pricing.html).
+>* This article describes functionality available to access levels in the new Workfront package model. To see functionality available in the current package model, see [Functionality available for each object type for various access levels](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+>* For a list of functionality available to the different packages in the latest model, see [Adobe Workfront Pricing and Packaging](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projects
 
@@ -43,7 +47,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Add tasks                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Give updates/comments        | ✓        | ✓      | ✓      | &nbsp;        |
 | Change status                | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Log hours                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| Log hours                    | ✓        | <span class="preview">✓</span>      | &nbsp;      | &nbsp;        |
 | Edit assignments             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Manage a baseline            | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Manage risks                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
@@ -75,7 +79,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Add issues                     | ✓        | ✓      | &nbsp;      | &nbsp;        |
 | Edit a task (excluding status) | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Change task status             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Add documents                  | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Add documents                  | ✓        | ✓      | ✓           | &nbsp;        |
 | Copy a task                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Move a task                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Log hours                      | ✓        | ✓      | &nbsp;      | &nbsp;        |
@@ -139,7 +143,7 @@ Only users with a Standard license can have full access to portfolios.
 | Add and remove projects  | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Approve projects         | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Portfolio optimization   | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Add documents            | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Add documents            | ✓        | ✓      | ✓          | &nbsp;        |
 | Add updates and comments | ✓        | ✓      | &nbsp;      | &nbsp;        |
 
 {style="table-layout:auto"}
@@ -163,7 +167,7 @@ Only users with a Standard license can have full access to programs.
 | Add and remove projects      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Approve projects             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Portfolio Optimization       | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Add documents                | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Add documents                | ✓        | ✓      | ✓           | &nbsp;        |
 | Add Add updates and comments | ✓        | ✓      | &nbsp;      | &nbsp;        |
 
 {style="table-layout:auto"}

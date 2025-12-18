@@ -4,7 +4,7 @@ navigation-topic: navigate-workfront
 title: Adobe [!DNL Workfront] Search
 description: Review these articles to learn how to search in Workfront.
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 recommendations: noDisplay, noCatalog
 exl-id: 4e7a4338-0b1a-4516-8604-e80f26714814
 ---

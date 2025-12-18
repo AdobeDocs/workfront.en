@@ -4,14 +4,12 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Your users can use severities to define how serious an issue is. You can customize any of the five default severities existing in Adobe Workfront, or create a new severity for your users.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
 ---
 # Create or customize issue severities
-
-{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -29,34 +27,29 @@ Your users can use severities to define how serious an issue is. You can customi
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article: 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>
-     <p>New: Standard</p>
-     <p>or</p>
-     <p>Current: Plan</p>
-   </td> 
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Access level configurations</td> 
+   <td>System Administrator</td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++ 
 
 ## Built-in issue severities
 
@@ -96,7 +89,7 @@ As a Workfront administrator, you can create and edit issue severities to suit t
 
 1. In the left panel, click **Project Preferences** > **Severities**.
 
-1. If you are creating a new severity, click <span class="preview">**New row** at the bottom of the table</span>, or **Add a New Severity**.
+1. If you are creating a new severity, click **New row** at the bottom of the table.
 1. Configure the following options for the new severity or edit them for an existing one:
 
    * **Severity Name**: Type a name for the severity.
@@ -115,9 +108,7 @@ As a Workfront administrator, you can create and edit issue severities to suit t
      **Cosmetic** is the default severity for issues in Workfront.
 
      You cannot make a hidden severity the default.
-
-     <div class="preview">
-
+     
      The default severity is indicated with an icon ![Default severity icon](assets/default-icon.png). To choose a new default, do one of the following:
 
        * Select the check box next to the severity name and select **Make Default** in the action bar at the bottom of the screen.
@@ -125,10 +116,8 @@ As a Workfront administrator, you can create and edit issue severities to suit t
 
          The new default severity is labeled with the icon.
 
-     </div>
-
    * **Description**: Type a description for the severity to explain its function.
-   * <span class="preview">**Hide Choice**</span> or **Hide**: <span class="preview">Choose **Yes**</span> or select the check box to hide a severity that is no longer needed.
+   * **Hide Choice**: Select **Yes** to hide a severity that is no longer needed.
 
      A hidden severity does not display anywhere in Workfront, so users can't choose it for their issues.
 

@@ -2,7 +2,7 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: Save a project as a template
-description: Save a project as a template at the project level, so users see that in the UI; there is another article that this links to which is more in depth (step-by-step). This functionality needs to stay in both projects AND templates areas.)
+description: Save a project as a templateSave as template" at the project level, so users see that in the UI; there is another article that this links to which is more in depth (step-by-step). 
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
@@ -36,6 +36,37 @@ If you decide that a project is going to occur again sometime in the future, you
  <col> 
  <tbody> 
   <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Templates</p> /td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions to a project </p> <p>You obtain Manage permissions to the template after you save the project as a template</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
@@ -55,11 +86,7 @@ If you decide that a project is going to occur again sometime in the future, you
    <td> <p>View or higher permissions to a project </p> <p>You obtain Manage permissions to the template after you save the project as a template</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
+</table>-->
 
 ## Save a project as a template
 
@@ -70,7 +97,7 @@ Saving a project as a template differs in the Production and the Preview environ
 
 
 1. Go to the project that you want to save as a template. 
-1. Click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png), then **Save as Template**. 
+1. Click the **More** menu ![More icon](assets/more-icon.png), then **Save as Template**. 
 1. Specify the following information for the template:
 
    <table style="table-layout:auto"> 
@@ -126,7 +153,7 @@ Saving a project as a template differs in the Production and the Preview environ
 -->
 
 1. Go to the project that you want to save as a template. 
-1. Click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png), then **Save as Template**. 
+1. Click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) to the right of the project name in the header, then **Save as Template**. 
 1. In the **Save as Template** section, specify the following information for the template:
 
    <table style="table-layout:auto"> 

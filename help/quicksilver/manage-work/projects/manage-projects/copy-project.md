@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: Copy a project
+title: Copy a Project
 description: You can copy a project rather than create one from scratch. You can copy only one project at a time. You cannot copy projects in bulk.
 author: Alina
 feature: Projects, Work Management
@@ -46,40 +46,40 @@ Please note that you can't copy projects in bulk.
 
 ## Access requirements
 
-<!-- drafted for P&P:
++++ Expand to view access requirements for the functionality in this article.
+You must have the following access to perform the steps in this article:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
+   <td> <p>Adobe Workfront package</p> </td>  
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td> <p>Standard</p> 
+   <p>Plan</p>
+      </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+     <td>Access level configurations </td> 
+   <td> <p>Edit access to Projects with ability to Create and Copy projects</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>View permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>View permissions or higher to the project</p>  </td> 
   </tr> 
  </tbody> 
 </table>
--->
 
-+++ Expand to view access requirements for the functionality in this article.
-You must have the following access to perform the steps in this article:
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<table style="table-layout:auto"> 
+ +++
+
+ <!--Old:
+ 
+ <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -104,11 +104,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>View permissions or higher to the project</p>  </td> 
   </tr> 
  </tbody> 
-</table>
-
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
- +++
+</table>-->
 
 ## Copy a single project
 

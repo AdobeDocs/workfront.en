@@ -9,15 +9,45 @@ exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
 ---
 # Create subtasks
 
-<!-- Audited: 01/2025 -->
+<!-- Audited: 01/2025 --> 
 
-In Adobe Workfront, tasks can have parent-child relationships. Child tasks are called subtasks. You can create subtasks on the tasks list by making a main task a subtask. You can also make a subtask a main task.
+In Adobe Workfront, tasks can have parent-child relationships. Child tasks are called subtasks. You can create subtasks on the tasks list by making a main task a subtask of another task. You can also make a subtask a main task.
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p> 
+   <p>Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> 
+   <p>When you create a task you automatically receive Manage permissions to the task</p> 
+    </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,15 +72,16 @@ You must have the following access to perform the steps in this article:
    <td> <p>Contribute permissions to the project and the parent task with ability to Add Tasks or higher</p> <p>You automatically receive Manage permissions to the task after you create it.</p>  </td> 
   </tr> 
  </tbody> 
-</table>
-
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Create subtasks
 
 You can create subtasks from the task list or the task subtask section.
+
+>[!TIP]
+>
+>Creating subtasks for a project is similar to creating template subtasks to template tasks on a template.
+
 
 ### Create subtasks from the task list {#create-subtasks-from-the-task-list}
 
@@ -81,12 +112,14 @@ You can create subtasks from the task list or the task subtask section.
 1. Go to the project where you want to create subtasks.
 1. Click the **Tasks** section in the left panel.
 1. Click the name of the task where you want to create a subtask.
-1. Click the **Subtasks** section in the left panel, if present. 
+1. Click the **Subtasks** section in the left panel, if available. 
 1. Click **New Task.**
 
-   Follow the steps in the following article to continue creating the subtask: [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   For information about creating tasks, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 1. Click **Create task.**
+
+   The new task is created as a subtask to the task you selected in step 3. <!--ensure this is accurate-->
 
 ## Make a subtask a main task
 

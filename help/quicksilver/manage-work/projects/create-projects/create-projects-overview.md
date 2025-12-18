@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "Create projects: article index"
+title: "Create Projects: Article Index"
 description: Learn information about creating projects in the following articles.
 author: Alina
 feature: Work Management

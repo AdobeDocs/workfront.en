@@ -4,7 +4,7 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: "Agile planning tools overview: article index"
 description: As you create a board using ad hoc and connected cards, you can take advantage of additional agile planning tools on boards.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
 ---

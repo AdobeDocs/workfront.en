@@ -9,9 +9,7 @@ exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 ---
 # Use the My Requests widget
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 >[!IMPORTANT]
 >
@@ -28,27 +26,24 @@ The My Requests widget displays requests that have been submitted to your organi
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Product]</strong></td> 
-   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>New: Contributor or higher</p>
-   Or   
-   <p>Current: [!UICONTROL Request] or higher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
+   <td> <p>Contributor or higher</p>
+   <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
+    <tr> 
+   <td role="rowheader"><strong>Additional products</strong></td> 
+   <td> You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
+  </tr> 
    <td role="rowheader"><strong>Access level configuration</strong></td> 
    <td> <p>View access or higher to any objects for which you are tagged in a conversation or need to resolve an approval (Projects, Tasks, Issues, Documents)</p> </td> 
   </tr> 
@@ -59,15 +54,25 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Create a request
+## Create a new request
 
 You can create a request directly from the My Requests widget.
 
 For instructions, see [Create a request](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) in the article Create work items and projects from the Home area.
+
+<div class="preview">
+
+## Copy a request
+
+You can copy a request in the My Requests widget, edit it, and submit it as a new request.
+
+For instructions, see [Copy and submit requests in the new requesting experience](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) in the article Copy and submit requests.
+
+</div>
 
 ## Filter requests
 
@@ -87,6 +92,8 @@ To configure the filter in the My Requests widget:
    * Status
    * Entered by
 
+    <span class="preview">In the Preview environment, you can also filter by any custom fields that have been added as a column      to the view.</span>
+
 1. In the next field, select the operator that you want to use for this filter condition. Available operators depend on the chosen field.
 1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
 1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
@@ -101,7 +108,7 @@ The filter is saved automatically.
 >* To filter for only Workfront requests, set the filter to **Object type** > **Has any of** > **Issues**.
 >* To filter for only Workfront Planning requests, et the filter to **Object type** > **Has none of** > **Issues**.
 
-## Adjust columns
+## Adjust or add columns
 
 You can choose which of the available columns appear on the My Requests widget, and set their order.
 
@@ -122,6 +129,9 @@ To adjust the columns on the My Requests widget:
 1. In the My Requests widget, click **Columns**.
 1. (Optional)To reorder columns, click the drag handle ![drag handle](assets/drag-handle.png) of the column you want to move and drag it to the desired locations. The column at the top of the list appears in the My Requests widget as the leftmost column.
 1. (Optional) Use the toggle to control whether a column is displayed in the My Requests widget.
+1. <span class="preview">To add a custom field as a column, click the **Add column** icon ![Add column](assets/add-column.png) near the right of the screen, and click the plus icon next to the custom form field that you want to add as a column to the widget.</span>
+
+   <span class="preview">Custom fields on forms attached to the object in the list are available to add as columns.</span>
 
 Column preferences are saved automatically.
 

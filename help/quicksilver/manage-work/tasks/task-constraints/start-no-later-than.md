@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Task Constraint overview: Start No Later Than'
+title: 'Task Constraint Overview: Start No Later Than'
 description: Start No Later Than (SNLT) is a Task Constraint that schedules a task to start prior to the date you specify.
 author: Alina
 feature: Work Management

@@ -4,7 +4,7 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: Kanban Overview
 description: Review this article to better understand how the Kanban board functions.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
 ---

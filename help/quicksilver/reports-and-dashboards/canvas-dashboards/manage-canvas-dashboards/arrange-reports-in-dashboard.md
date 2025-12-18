@@ -24,7 +24,7 @@ Once a report is added to a Canvas Dashboard, they display as a report widget in
 
 ## Access Requirements
 
-+++ Expand to view access requirements. 
++++ Expand to view access requirements for the functionality in this article. 
 
  <table style="table-layout:auto"> 
 <col> 
@@ -33,7 +33,7 @@ Once a report is added to a Canvas Dashboard, they display as a report widget in
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
 <p>Any </p> 
    </td> 
@@ -41,8 +41,8 @@ Once a report is added to a Canvas Dashboard, they display as a report widget in
  <tr> 
    <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td> 
-<p>Current: Plan </p> 
-<p>New: Standard</p> 
+<p>Standard </p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 

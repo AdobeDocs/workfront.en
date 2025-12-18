@@ -4,7 +4,7 @@ product-area: calendars
 navigation-topic: reports
 title: "Calendars: Article Index"
 description: A calendar report is a dynamic report that provides a visual representation of your work. You can display date information in a calendar report for projects, tasks, and issues. Review these articles to get an understanding of calendar reports in Adobe Workfront.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b46834db-358e-4ee2-9512-f7419351de30

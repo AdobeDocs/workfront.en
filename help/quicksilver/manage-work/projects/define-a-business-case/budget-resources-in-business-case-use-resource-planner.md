@@ -2,7 +2,7 @@
 navigation-topic: business-case-and-scorecards
 title: Budget resources in the Business Case using the Resource Planner
 description: As part of resource planning, you can use the project-level Resource Planner to budget the job roles necessary for completing the work in a project when you build the business case.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
 ---
@@ -29,19 +29,17 @@ You can also budget resources in the business case using the Adobe Workfront Sce
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
-   <td> <p>Current: Prime or higher</p>
-   <p>Legacy: Pro or higher</p> 
+   <td role="rowheader"><p>Adobe Workfront plan</p></td> 
+   <td> <p>Prime or higher</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td> <p>Current: Light or higher</p>
-   <p>Legacy: Review or higher</p> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td> <p>Light or higher</p>
+   <p>Review or higher</p> 
    
    <p><b>IMPORTANT:</b></p> 
-   <p>Current: You must have a Standard license to modify resource budgeting information. </p> 
-   <p>Legacy: You must have a Plan license to modify resource budgeting information. </p>
+   <p>You must have a Standard or Plan license to modify resource budgeting information. </p> 
    </td> 
   </tr> 
   <tr> 
@@ -60,7 +58,7 @@ You can also budget resources in the business case using the Adobe Workfront Sce
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

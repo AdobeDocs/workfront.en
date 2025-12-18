@@ -3,7 +3,7 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Share and download proofs in the [!DNL Adobe Workfront] mobile app
 description: You can share a proof document with internal and external recipients directly from the mobile app. You can also download a proof document to your mobile device.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
 ---
@@ -17,7 +17,7 @@ You can share a proof document with internal and external recipients directly fr
 
 ## Share the proof
 
-This option sends an email with a unique proof link to a contact from [!DNL Workfront Proof]. You can also add a new contact, which is saved to your proof contacts.
+This option sends an email with a unique proof link to a contact from [!DNL Workfront Proof]. You can also add a new contact, which is saved to your proof contacts. 
 
 1. Open the document proof and select the **[!UICONTROL More]** menu ![More menu](assets/mobile-verticalmoremenu-20x33.png) on the upper right of the document. Then, select **[!UICONTROL More]**.
 1. Select **[!UICONTROL Share]**.

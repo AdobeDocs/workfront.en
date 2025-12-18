@@ -2,7 +2,7 @@
 navigation-topic: notifications
 title: Enable delivery of emails from the Preview Sandbox environment
 description: If you want to receive email notifications from the Preview Sandbox environment, you must enable this functionality in your user settings while you are logged into Preview.
-author: Lisa
+author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
 ---
@@ -27,7 +27,7 @@ You can do this for yourself or for any user that you have access to edit. For m
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,25 +36,32 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher to change your own setting</p> <p>[!UICONTROL Plan] to edit the setting for other users</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
+   <td> 
+   <p>Contributor or higher to change your own setting</p> <p>Standard to edit the setting for other users</p> 
+   Or
+   <p> Request or higher to change your own setting</p> <p>Plan to edit the setting for other users</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
    <td> <p>You must have one of the following:</p> 
     <ul> 
-     <li> <p>The [!UICONTROL System Administrator] access level.</p> <p> For information about this access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
-     <li> <p>In your access level, [!UICONTROL Edit] must be selected for the [!UICONTROL Users] setting. And, for the [!UICONTROL Users] setting, under [!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png"> , the [!UICONTROL Create] option and at least one of the two [!UICONTROL User Admin] options must be enabled. </p> <p>If you are using the [!UICONTROL User Admin (Group Users)] option, you must be a group administrator of a group where the user is a member.</p> <p> <img src="assets/access-req-users-350x101.png" style="width: 350;height: 101;"> </p> <p>For information about the [!UICONTROL Users] setting in an access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+     <li> <p>The [!UICONTROL System Administrator] access level.</p> </li> 
+     <li> <p>In your access level, [!UICONTROL Edit] must be selected for the [!UICONTROL Users] setting. And, for the [!UICONTROL Users] setting, under [!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png"> , the [!UICONTROL Create] option and at least one of the two [!UICONTROL User Admin] options must be enabled. </li> 
+     <li>If you are using the [!UICONTROL User Admin (Group Users)] option, you must be a group administrator of a group where the user is a member.</li> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Enable the delivery of emails from the Preview Sandbox environment
 

@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Task Constraint overview: As Soon As Possible'
+title: 'Task Constraint Overview: As Soon As Possible'
 description: As Soon As Possible is a task constraint that places the start time of the task as close to the beginning of the project as possible.
 author: Alina
 feature: Work Management

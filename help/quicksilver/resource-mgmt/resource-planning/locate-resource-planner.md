@@ -19,38 +19,31 @@ You can use the Resource Planner to manage the allocation of your resources to p
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td><p>New: Any</p>
-       <p>or</p>
-       <p>Current: Pro or higher</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Light or higher;</br>
-          Standard to locate the Resource Planner in the Main Menu</p>
-       <p>or</p>
-       <p>Current: Review or higher;</br>
-       Plan to locate the Resource Planner in the Main Menu</p></td>
+   <td>Adobe Workfront license</td> 
+   <td><p>Light or higher for one project; Standard for multiple projects</p>
+       <p>Review or higher for one project; Plan for multiple projects</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td>Access level configurations</td> 
    <td> <p>View access or higher to Resource Management</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object permissions</td> 
+   <td>Object permissions</td> 
    <td> <p>View permissions to projects and users </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,10 +54,6 @@ Ensure that all prerequisites for accessing and working with the Resource Planne
 For information about Resource Planner prerequisites, see [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 ## Locate the Resource Planner
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(this was moved from the get-started-resource-planner article)</p>
--->
 
 You can locate the Resource Planner in two areas of Workfront, depending on whether you want to budget your resources for multiple projects, or for just one project.
 

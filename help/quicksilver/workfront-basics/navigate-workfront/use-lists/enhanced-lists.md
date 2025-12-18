@@ -8,8 +8,6 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 ---
 # Use enhanced lists
 
-{{preview-fast-release-general}}
-
 Enhanced lists are available in some areas of Adobe Workfront. These lists use a table format for displaying the list items, and they have a different look and feel than the standard lists. The management of views is also enhanced, including filtering, grouping, managing columns, and searching.
 
 For information about the standard lists, see [Get started with lists in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
@@ -55,7 +53,7 @@ Below are some types of Workfront object lists that use the enhanced list format
 |--- |--- |
 | Priorities | <ul><li>Home &gt; select the Priorities icon in the left menu</li><li>Main Menu &gt; Priorities</li></ul> |
 | List of requests | <ul><li>Requests (new experience only)</li><li>My Requests widget on Home</li></ul> |
-| List of exchange rates | <ul><li>Setup &gt; Project Preferences &gt; Exchange Rates</li></ul> |
+| Lists of statuses, priorities, severities, and exchange rates in Setup | <ul><li>Setup &gt; Project Preferences &gt; Statuses</li><li>Setup &gt; Project Preferences &gt; Priorities</li><li>Setup &gt; Project Preferences &gt; Severities</li><li>Setup &gt; Project Preferences &gt; Exchange Rates</li></ul> |
 
 ## Add and edit items in an enhanced list
 
@@ -89,19 +87,19 @@ When you select the check box next to an item in the enhanced list, the action b
 
 >[!NOTE]
 >
->Various enhanced lists might allow selecting a single item, bulk editing (selecting more than one item), or no item selection.
+>Different enhanced lists might allow selecting a single item, bulk editing (selecting more than one item), or no item selection.
 
 Click a button on the action bar to take that action, such as viewing the list item, deleting the item, or editing the item.
 
 If no actions are available for the selected item, the action bar states "No available actions."
 
-![Action bar example](assets/glist-action-bar-exchange-rates.png)
+![Action bar example](assets/glist-action-bar-statuses.png)
 
 The **More** menu is the three-dot menu that appears next to a primary field on a list item when you hover over it. (The primary field is the left-most column in the table.)
 
 Click the menu to see additional actions for the item. Some actions might be specific to that list and do not appear on any other lists.
 
-![More menu example](assets/glist-more-menu-exchange-rates.png)
+![More menu example](assets/glist-more-menu-priorities.png)
 
 ## Customize columns in an enhanced list
 
@@ -120,9 +118,26 @@ Some enhanced lists allow you to hide and display columns, and reorder the colum
    >
    >The icon next to a field name shows the field type, such as text or date field.
 
-   <span class="preview">An indicator appears on the **Columns** button when columns are hidden. The indicator does not appear when you reorder columns.</span>
+   An indicator appears on the **Columns** button when columns are hidden. The indicator does not appear when you reorder columns.
 
    ![Indicator for hidden columns](assets/glist-columns-hidden-indicator.png)
+
+## Apply a view to an enhanced list
+
+A view is a personalized set of column arrangements and filters that you can apply to a list. You can create new views and edit existing views.
+
+To apply a view, click the **Views** dropdown and select the view you want to apply to the list.
+
+To create a new view:
+
+1. Click the **Views** dropdown and select **New view**.
+1. Enter a name for the view, and click **Create**.
+1. (Optional) Hide, show, or rearrange the columns. For more information, see [Customize columns in an enhanced list](#customize-columns-in-an-enhanced-list).
+1. (Optional) Filter and group the list items. For more information, see [Filter and group items in an enhanced list](#filter-and-group-items-in-an-enhanced-list).
+
+   Changes to views are saved automatically, and the changes are visible to anyone who uses the view.
+
+   The next time you apply this view, the column and filter settings remain the way you set them.
 
 ## Filter and group items in an enhanced list
 
@@ -143,7 +158,7 @@ Filters help you reduce the amount of information you display in the list. Group
 1. Click **Add condition** to add another condition to the filter as an OR statement.
 1. When the filter is applied, you can open the **Filter** options again to change the filter options or clear all of the filters.
 
-   <span class="preview">An indicator appears on the **Filter** button when a filter is applied to the list.</span>
+   An indicator appears on the **Filter** button when a filter is applied to the list.
 
    ![Filter applied indicator](assets/glist-filter-applied-indicator.png)
 
@@ -158,7 +173,7 @@ Filters help you reduce the amount of information you display in the list. Group
 
    ![Grouping in enhanced lists](assets/glist-group-by-due-date-priorities.png)
 
-   <span class="preview">An indicator appears on the **Group** button when a grouping is applied to the list.</span>
+   An indicator appears on the **Group** button when a grouping is applied to the list.
 
    ![Grouping applied indicator](assets/glist-grouping-applied-indicator.png)
 

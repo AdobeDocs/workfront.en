@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: groups-overview
 description: A Home Group is assigned in the user's profile. All users are required to have a Home Group.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
@@ -24,10 +24,10 @@ When establishing Home Groups, consider how your organization divides your Adobe
 
 >[!NOTE]
 >
->If you need to reorganize your Home Groups into organizational units, you need to>
+>If you need to reorganize your Home Groups into organizational units, you need to
+>
 >1. Create the new group, as explained in [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 >1. Reassign the new group as the user's Home Group, as explained in [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
->
 
 ## Layout Template management
 

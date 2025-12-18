@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "Manage projects: article index"
+title: "Manage Projects: Article Index"
 description: Find out information about managing projects in the following articles.
 author: Alina
 feature: Work Management
@@ -32,5 +32,5 @@ This section contains the following articles:
 * [Communicate with Project Team members](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md) 
 * [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) 
 * [Project limits overview](../../../manage-work/projects/manage-projects/project-maximums.md) 
-* [Overview of project metrics](../../../manage-work/projects/manage-projects/project-metrics.md)
+* [Understand project metrics](../../../manage-work/projects/manage-projects/project-metrics.md)
 * [Summarize updates with AI Assistant](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
