@@ -16,6 +16,36 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Share views in the Projects Connected records page
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast release: January 14, 2026  
+>Production for everyone: January 15, 2026  
+
+To make it easier to ensure to see the information you need, we've added the ability to share views to the Projects Connected records page. Now, you can share views with other users, teams, or groups.
+
+For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+## Current user wildcard now available in project connection view filters
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast release: January 14, 2026  
+>Production for everyone: January 15, 2026 
+
+To make it easier to filter for project connections that apply to you, we've created a current user wildcard. Now, when filtering, you can select "Me (logged in user)." The filter will then apply to the user who is viewing the request list. 
+
+This can be convenient when adding a filter to a view that multiple users will use. Each user will see filter results that apply to them.
+
+The wildcard is available in fields where the value is a user.
+
+For more information on configuring project connection views, including filters, see [](/help/quicksilver/).
+
+<!--
+
 ## Create record type hierarchies in workspaces
 
 >[!NOTE]
@@ -43,6 +73,10 @@ When you create hierarchies between record types, they generate breadcrumbs for 
 
 For more information, see [Hierarchy and breadcrumb overview](help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
+-->
+
+<!--
+
 ## New unified breadcrumbs added to records' pages
 
 >[!NOTE]
@@ -56,6 +90,8 @@ We have added breadcrumbs to a record's page to reflect its spot in a hierarchy.
 For example, you can view a project's Planning hierarchy when it's connected to Planning record types in its Planning breadcrumb, and its Workfront hierarchy when it's connected to Workfront object types, like Portfolios or Programs, in Workfront.  
 
 For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+-->
 
 ## Workspace main page improvements 
 
@@ -75,6 +111,8 @@ We have made the following improvements to the Workspaces main page in Workfront
 
 For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
+<!--
+
 ## Improvements to connected records pages
 
 >[!NOTE]
@@ -91,6 +129,8 @@ To give you more flexibility when working with connected records pages, we have 
 * We have added a **New row** link at the bottom of a table view and a **Connect records** button in the upper-right area of the connected records page. Prior to this enhancement, the **New row** link and the **Connect records** button existed only on a project connected page. 
 
 For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+
+-->
 
 ## Adding the Brand connection field to Products and Personas by default in the GenStudio workspace  
 

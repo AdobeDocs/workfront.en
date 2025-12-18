@@ -28,6 +28,8 @@ For information on locating these links, see For instructions on adding columns,
 * [Locate submitted requests](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
 * [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
 
+<!--
+
 ## Create groupings in the Requests list and My Requests widget
 
 >[!NOTE]
@@ -40,6 +42,8 @@ To make it easier for you to find the requests you need, we've added groupings t
 
 For more information on creating views for the Request list and My Requests widget, including adding groupings, see [Create or edit views in the Requests area and My Requests widget](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
+-->
+
 ## Share views in the Requests area and the My Requests widget
 
 >[!NOTE]
@@ -48,7 +52,7 @@ For more information on creating views for the Request list and My Requests widg
 >Production fast release: January 14, 2026  
 >Production for everyone: January 15, 2026  
 
-To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups.
+To make it easier to ensure to see the information you need, we've added the ability to share views to the new requesting experience. Now, you can share views with other users, teams, or groups.
 
 You can share request list views from both the Requests area in Workfront and the My Requests widget in Home. Sharing functionality is identical in both places, and view settings, including sharing, are preserved when moving between the My Requests widget and the Requests area.
 
@@ -84,6 +88,8 @@ For instructions on adding columns, see:
 To make it easier to filter for requests that apply to you, we've created a current user wildcard. Now, when filtering, you can select "Me (logged in user)." The filter will then apply to the user who is viewing the request list. 
 
 This can be convenient when adding a filter to a view that multiple users will use. Each user will see filter results that apply to them.
+
+The wildcard is available in fields where the value is a user.
 
 For more information on configuring views in the Requests list, including filters, see [Create or edit views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 

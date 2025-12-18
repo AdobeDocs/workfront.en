@@ -139,6 +139,31 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> 
 
+
+
+### Integration enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+         <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-home.md" class="MCXref xref" xrefformat="{para}">Update to the Mentions widget in Home</a>
+            <p>e have made the following improvements to the Mentions widget in home: <ul><li>The same experience in the Updates area of most Workfront objects is now also available in the Mentions widget in Home. </li><li>The Mentions widget now contains the comments that the user made or has been tagged in for the past two weeks</li><ul></p>
+        </td>
+        <td>December 17, 2025</td>
+        <td>January 14, 2026</td>
+        <td>January 15, 2026</td>
+    </tr>   
+  </tbody>
+</table> 
+
 ### Integration enhancements
 
 <table style="table-layout:auto">
@@ -350,7 +375,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>January 14, 2026</td>
         <td>January 15, 2026</td>
     </tr> 
-    <tr>
+    <!--<tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Create groupings in the Requests list and My Requests widget</a>
             <p>To make it easier for you to find the requests you need, we've added groupings to the Requests list and the My Requests widget. Now, you can group requests by any column on the list. These groupings become part of the view that you are using when you create the grouping.</p>
@@ -358,7 +383,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>December 18, 2025</td>
         <td>January 14, 2026</td>
         <td>January 15, 2026</td>
-    </tr> 
+    </tr> -->
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Add custom fields to Requests list and My Requests widget</a>
