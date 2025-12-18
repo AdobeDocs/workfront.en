@@ -102,6 +102,10 @@ To reuse an existing calculated custom field:
 
 1. Use the search box or expand the **Calculated** section to locate the calculated field you need, then drag the field where you want it to appear in the custom form.
 
+1. <span class="preview">(Conditional) Click **Check for conflicts** to review all objects that might be affected by changing the formula on this calculated field.</span>
+
+   <span class="preview">If two or more forms containing the same calculated field are attached to an object, then the formulas must be identical on all of the forms. Editing the formula is not allowed if the change could cause a conflict.</span>
+
 1. (Optional) Repeat the previous step to add any other fields.
 
    >[!NOTE]
@@ -115,7 +119,7 @@ To reuse an existing calculated custom field:
 
     or
 
-    Click **Save and Close**. 
+    Click **Save and Close**.
 
 ## Add a new calculated field
 
