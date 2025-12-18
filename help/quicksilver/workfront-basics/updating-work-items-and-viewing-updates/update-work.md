@@ -415,7 +415,7 @@ You can enhance your comments by using Rich Text, or adding various items to it,
    >
    >* Goals
    >* Ad hoc cards on boards
-   >* Records in Workfront Planning. For information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md)
+   >* Records in Workfront Planning. For information, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
    >
    
    To attach an image to your update, do one of the following: 

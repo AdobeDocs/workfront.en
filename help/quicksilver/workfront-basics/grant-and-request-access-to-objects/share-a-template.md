@@ -3,7 +3,7 @@ title: Sharing a template
 product-area: templates
 navigation-topic: grant-and-request-access-to-objects
 description: As an Adobe Workfront administrator, you can grant users access to view or edit templates when you assign their access level. A user must have a Plan license to have access to Edit templates.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
 ---

@@ -4,6 +4,7 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Your quick guide to finding help in [!DNL Adobe Workfront]
 description: Your quick guide to finding help in [!DNL Adobe Workfront]
 feature: Get Started with Workfront
+author: Becky
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
 ---
 # Your quick guide to finding help in [!DNL Adobe Workfront]

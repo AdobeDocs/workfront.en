@@ -609,7 +609,7 @@ Some of the information on the landing page includes the following:
 
 * Get started tutorial for Workfront Planning 
 
-For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
+For more information, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md). 
 
 ### New onboarding experience for Workfront Planning
 
@@ -657,7 +657,7 @@ Production: May 30, 2024
 
 Preview: To be determined 
 
- We have updated the look of the icon for the Planning area in the Main Menu. For information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
+ We have updated the look of the icon for the Planning area in the Main Menu. For information, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md). 
 
 ### Renaming the Workfront Planning program
 
@@ -912,7 +912,7 @@ Preview: To be determined
 
 We have renamed the Maestro area in the Main Menu to Planning.  
 
-For an overview of Adobe Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
+For an overview of Adobe Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md). 
 
 ### New experience when deleting a record type
 

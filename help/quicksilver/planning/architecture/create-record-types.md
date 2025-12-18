@@ -46,7 +46,7 @@ For more information about record types, see [Record types overview](/help/quick
 <p>To configure connectable record types: </p>
 <ul> 
 <li><p>Any Workfront package and any Planning package</p></li>
-<p>Or</p>
+Or
 <li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
 
 <div class="preview">
@@ -54,7 +54,7 @@ For more information about record types, see [Record types overview](/help/quick
 
 <ul> 
 <li><p>Any Workfront package and a Planning Plus package</p></li>
-<p>Or</p>
+Or
 <li><p>Any Workflow and a Planning Prime or Ultimate package</p></li></ul>
 <p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
 
@@ -157,9 +157,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
             This article describes how you create record types from scratch.    
 
-        <!--
         * <span class="preview">By adding them from another workspace</span>
-            <span class="preview">For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>-->
+            <span class="preview">For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>
 
 
 * You can move record types within a section and from one section of a workspace to another. You cannot move record types from one workspace to another workspace. 
@@ -191,7 +190,7 @@ You can manually add record types in both the Operational Record Types and Taxon
 1. (Optional) Click **Add section** to add a new section to the workspace.
 1. Click **Add record type**, then **Add manually**. 
 
-    The Add record type box opens. <!--update screen shot for preview-->
+    The Add record type box opens. 
 
     ![Add record type box with appearance options](assets/add-record-type-box-with-appearance-options.png)
 
@@ -201,15 +200,13 @@ You can manually add record types in both the Operational Record Types and Taxon
     * **Description**: Add more information about the record type.  
     * Select a color and shape for the icon associated with the record type. Do the following: 
         * Select a color to identify your new record type. This is the color of the record type icon. Gray is selected by default.
-        * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default. 
+        * Select an icon from the list, or start typing the name of an icon in the search field to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default. 
 
-1. (Optional and conditional) If you are a system administrator, click the **Advanced settings** <span class="preview">or **Cross-workspace settings**</span> tab and update information about the cross-workspace capabilities of the record type. 
+1. (Optional and conditional) If you are a system administrator, click the **Advanced settings** <span class="preview">or **Cross-workspace settings**</span> tab and <span class="preview">update information about the cross-workspace capabilities of the record type. 
 
-   For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production - Jan 2026-->
+   ![Edit record type box with advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png) </span>
 
-   ![Edit record type box with advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
-
-    For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).    
+   For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).    
 
 1. Click **Save**.
 
@@ -274,8 +271,6 @@ You can import the following when importing information from a CSV or Excel file
 
 For more information, see [Create Record Types by importing information from a CSV or Excel file](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md). 
 
-<!--
-
 <div class="preview">
 
 ## Create record types by adding existing ones from another workspace 
@@ -285,5 +280,3 @@ You can add record types to a workspace by adding existing ones from another wor
 For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 </div>
-
---> 

@@ -14,7 +14,7 @@ This page contains information about the structure and content of the data in Wo
 
 >[!NOTE]
 >
->The data in Data Connect refreshes every four hours, so recent changes may not be immediately reflected.
+>The data in Data Connect refreshes every 4 hours, so recent changes may not be immediately reflected.
 
 ## View types
 
@@ -1654,17 +1654,21 @@ The following table correlates object names in Workfront (as well as their names
         </tr>
     </tbody>
 </table>
-<div>* The type of record is identified through the `enumClass` property. The following are the expected types:<br>
-<ul><li>CONDITION_OPTASK</li>
-<li>CONDITION_PROJ</li>
-<li>CONDITION_TASK</li>
-<li>PRIORITY_OPTASK</li>
-<li>PRIORITY_PROJ</li>
-<li>PRIORITY_TASK</li>
-<li>SEVERITY_OPTASK</li>
-<li>STATUS_OPTASK</li>
-<li>STATUS_PROJ</li>
-<li>STATUS_TASK</li></ul></div>
+
+>[!NOTE]
+>
+>The type of record is identified through the `enumClass` property. The following are the expected types:<br>
+><ul><li>CONDITION_OPTASK</li>
+><li>CONDITION_PROJ</li>
+><li>CONDITION_TASK</li>
+><li>PRIORITY_OPTASK</li>
+><li>PRIORITY_PROJ</li>
+><li>PRIORITY_TASK</li>
+><li>SEVERITY_OPTASK</li>
+><li>STATUS_OPTASK</li>
+><li>STATUS_PROJ</li>
+><li>STATUS_TASK</li></ul>
+
 
 ### Document
 
@@ -6595,6 +6599,11 @@ Limited customer availability
         </tr>
     </tbody>
 </table>
+
+>[!NOTE]
+>
+>There are 3 team types that are stored in the Team object tables: PROJECT, TEMPLATE, and ADHOC. <br>
+>Each of these team types are represented together in the Data Connect data lake views. To isolate the specific type of team you want returned, you'll need to filter on the `teamtype` column. For example, if you only want the traditional teams that are part of your organizational structures, which are configured in the Teams area of the application, you might have a query that looks something like this: <code>select * from teams_current where teamtype = 'ADHOC';</code>
 
 ### Team Member
 

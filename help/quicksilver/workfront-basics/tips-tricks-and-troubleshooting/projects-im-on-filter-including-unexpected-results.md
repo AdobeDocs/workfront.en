@@ -4,7 +4,7 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Projects I'm On filter including unexpected results
 description: Read this article to troubleshoot the Projects I'm On filter including unexpected results.
 feature: Get Started with Workfront
-author: Nolan
+author: Alina
 exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
 ---
 # Projects I'm On filter includes unexpected results 
@@ -37,7 +37,8 @@ exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
 </table>
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
+ 
++++
 
 
 ## Problem

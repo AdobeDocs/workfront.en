@@ -106,6 +106,11 @@ For information, see [Access requirements in Workfront documentation](/help/quic
    * [[!UICONTROL Custom Forms]](#Custom%C2%A0F)
    * [[!UICONTROL Comment]](#comment)
 
+
+    >[!TIP]
+    >
+    >To recalculate custom fields for several programs at a time, select multiple programs in a list, and click the **More** menu ![More menu](assets/more-icon.png) at the top of the list, then **Recalculate Expressions**.
+
 ### [!UICONTROL Overview] {#overview}
 
 1. Begin editing a program as described above.

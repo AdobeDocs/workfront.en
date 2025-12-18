@@ -434,6 +434,19 @@ If the configuration was completed correctly, when you reload the layout templat
 
 Additional instructions are available on the Adobe Developer site, using an example from AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/ 
 
+### Disable flag to allow local testing on Chrome version 142 and later
+
+Chrome version 142 introduces Local Network Access Restrictions. These restrictions can interfere with local testing environments. 
+
+To resolve the problem, you must disable the Local Network Access Check by turning off the corresponding flag in Chrome settings: `chrome://flags/#local-network-access-check`.
+
+To disable the flag
+
+1. Open Chrome and type `chrome://flags` into the address bar, then press **Enter**.
+1. In the search bar at the top, type **Local Network Access Checks**.
+1. Click the dropdown menu next to the **Local Network Access Checks** flag and select Disabled.
+1. Click the **Relaunch** button that appears at the bottom of the screen to apply the changes.
+
 ## Publish applications and approve the submission  
 
 To publish the application and approve it, follow the instructions on the [Adobe Developer site](https://developer.adobe.com/uix/docs/guides/publication/).

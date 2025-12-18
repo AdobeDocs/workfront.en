@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Available functionality for unified document approvals 
+title: Available Functionality for Unified Document Approvals 
 description: Overview of the systems available for review and approval in Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents

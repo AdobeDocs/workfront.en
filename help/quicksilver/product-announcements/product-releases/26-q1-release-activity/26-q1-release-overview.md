@@ -25,7 +25,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >|----|----|
 >|<ul><li>25.11 (November 13, 2025)</li><li>25.12 (December 11, 2025)</li><li>26.1 (January 14, 2026)</li></ul>| <ul><li>26.1 (January 15, 2026)</li></ul>|
 >
->Note that for the final release of each quarter (25.10 this quarter), users on the fast release schedule will receive the release one day early (October 15, 2025).
+>Note that for the final release of each quarter (26.1 this quarter), users on the fast release schedule will receive the release one day early (January 14, 2026).
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
 
@@ -33,6 +33,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [Administrator enhancements](#administrator-enhancements)
 * [Document and approvals enhancements](#documents-and-approvals-enhancements)
+* [Integration enhancements](#integration-enhancements)
+* [Project enhancements](#project-enhancements)
+* [Reporting enhancements](#reporting-enhancements)
+* [Requests enhancements](#requests-enhancements)
 * [Other enhancements](#other-enhancements)
 
 ### Administrator enhancements
@@ -46,6 +50,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Entry date and Entered by ID stored on custom objects</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>The entry date and entered by ID are now stored on custom forms, fields, and sections. You can use these data options in reports as filters, views, or groupings. To display them in the list of custom forms, fields, or sections in Setup, add Entry Date and Entered By: Name as columns in a new or existing view.</p>
+        </td>
+        <td>November 13, 2025</td>
+        <td>November 13, 2025</td>
+        <td>November 13, 2025</td>
+    </tr>  
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updates to button names when editing a layout template</a>
@@ -78,6 +91,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Choose a Workfront project when sending a review in Creative Cloud Express<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>You can choose a Workfront project to send a proof to. This helps keep all related assets and proofs organized within the same project.</p>
+        </td>
+        <td>December 15, 2025</td>
+        <td>December 15, 2025</td>
+        <td>December 15, 2025</td>
+    </tr> 
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Cross-organization support for Adobe Express with Workfront Proofing<p>[!BADGE Off schedule]{type=Neutral}</p> </a>
+            <p>We're introducing cross-organization support for Adobe Express with Workfront Proofing. This enhancement allows customers who operate across multiple IMS organizations to seamlessly use and manage proofing workflows.</p>
+        </td>
+        <td>November 13, 2025</td>
+        <td>November 13, 2025</td>
+        <td>November 13, 2025</td>
+    </tr>   
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager now available with the Frame.io integration <p>[!BADGE Off schedule]{type=Neutral}</p> </a>
@@ -101,15 +132,169 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Fast release</strong></td>
         <td><strong>Quarterly</strong></td>
     </tr>
+         <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Updated asset selector for the Adobe Workfront for Experience Manager Assets native integration </a>
+            <p>We've upgraded the asset selector in the Adobe Workfront for Experience Manager Assets integration. With this upgrade, you can now select and pull AEM Collections directly into Workfront. </p>
+        </td>
+        <td>November 20, 2025</td>
+        <td>December 11, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>   
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">New version of Salesforce integration now available </a>
-            <p>To stay up-to-date with recent changes to the Workfront API, we've created a new Salesforce integration. The new integration features the same functionality as the previous version, and was updated to avoid losing functionality deprecated in the API.</p>
+            <p>To stay up-to-date with recent changes to the Workfront API, we've created a new Salesforce integration. The new integration features the same functionality as the previous version, and was updated to avoid losing functionality deprecated in the API.</p><p>NOTE: The Workfront for Salesforce integration, including the new version, will not be available after **February 28, 2026**. </p>
         </td>
         <td>October 30, 2025</td>
         <td>October 30, 2025</td>
         <td>October 30, 2025</td>
     </tr>   
+  </tbody>
+</table> 
+
+### Project enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+         <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-projects.md" class="MCXref xref" xrefformat="{para}">Light users can log time on projects</a>
+            <p>Light users can now log time directly on projects. Previously, only Standard license users could log hours on projects.</p>
+        </td>
+        <td>December 11, 2025</td>
+        <td>January 15, 2026</td>
+        <td>January 15, 2026</td>
+    </tr>   
+  </tbody>
+</table> 
+
+### Reporting enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicate a report in a Canvas Dashboard</a><p>![BADGE Off schedule]{type=Neutral}</p>
+            <p>You can now duplicate a KPI, table, or chart report in a Canvas Dashboard after it's been created. Once duplicated, you can edit the report as needed before saving.</p>
+        </td>
+        <td>October 23, 2025</td>
+        <td>October 23, 2025</td>
+        <td>October 23, 2025</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Removing field options from report filters</a>
+            <p>We have removed the following field options that were previously available when applying a filter to a report:
+            <ul>
+            <li>Other Groups IDs</li>
+            <li>Other Roles IDs</li>
+            <li>Other Teams IDs</li>
+            </ul>
+            </p>
+        </td>
+        <td>November 6, 2025</td>
+        <td>November 13, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Improved display of grouping count in Canvas Dashboards</a>
+            <p>When a table report has multiple pages of results and the table is configured with groupings, the table now displays both the record amount for the current page and the overall record count for all pages. For example, if your table report has 7 groupings and the first page shows 3, the table will display 3 of 7.</p>
+        </td>
+       <td>November 6, 2025</td>
+        <td>November 13, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">New guardrails to improve loading times in Canvas Dashboards</a>
+            <p>To avoid loading time delays and improve overall performance in Canvas Dashboards, we have applied limits on how many dashboard components can be added to a dashboard:
+            <ul>
+            <li>Reports per dashboard: 25 limit</li>
+            <li>Groupings on table views: 5 limit</li>
+            <li>Distance from the report's base object: 10 limit</li>
+            <li>Columns on a table view: 25 limit</li>
+            <li>Dashboard-level filter prompts: 10 limit</li>
+            </ul></p>
+        </td>
+       <td>November 6, 2025</td>
+        <td>November 13, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>   
+  </tbody>
+</table> 
+
+### Requests enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Form Fill powered by AI now available for requests</a>
+            <p>TTo make it easier to create requests, we've created Form Fill powered by AI. Now, you can paste in a prompt or upload a document to a request form, and AI will pull out the relevant information and fill in the form.  </p>
+        </td>
+        <td>December 11, 2025</td>
+        <td>December 11, 2025</td>
+        <td>December 11, 2025</td>
+    </tr> 
+    <tr>
+        <!--<td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
+            <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
+        </td>
+        <td>December 4, 2025</td>
+        <td>December 11, 2025</td>
+        <td>January 15, 2026</td>
+    </tr> -->
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Save drafts of requests in the new requesting experience</a>
+            <p>To make it easier to create and submit requests, we've added the ability to save drafts to the new requesting experience. Now, when you begin filling out a request and close it, the request is saved in Draft status and can be found on the request form used to create the draft. You can then reopen, update, and submit the draft at your convenience. </p>
+        </td>
+        <td>November 20, 2025</td>
+        <td>January 14, 2026</td>
+        <td>January 15, 2026</td>
+    </tr>  
+        <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Delete submitted requests in the new requesting experience</a>
+            <p>To make it easier to keep your requests organized and uncluttered, we've added the ability to delete requests to the new requesting experience. Now, you can delete requests that you have submitted. Workfront Administrators and Workfront Planning Workspace administrators can also delete requests.</p>
+        </td>
+        <td>November 20, 2025</td>
+        <td>January 14, 2026</td>
+        <td>January 15, 2026</td>
+    </tr>   
+        <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Create new requests by copying previously submitted requests in the new requesting experience</a>
+            <p>To make it easier to submit requests, we've added the ability to copy requests to the new requesting experience. Now, you can copy a request, edit any fields, and submit it as a new request. </p>
+        </td>
+        <td>November 20, 2025</td>
+        <td>December 11, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>    
   </tbody>
 </table> 
 
@@ -128,10 +313,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Fourth Quarter 2025 release timeframe</a>
-                        <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Fourth Quarter 2025 release timeframe. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the First Quarter 2026 release timeframe</a>
+                        <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the First Quarter 2026 release timeframe. </p>
                     </td>
-                    <td><p>Throughout the Fourth Quarter 2025 release timeframe<br /></p>
+                    <td><p>Throughout the First Quarter 2026 release timeframe<br /></p>
                     <td colspan="2"><p>Fast release: A minimum of 1 week after releasing to Preview (unless otherwise specified)</p>
                             </li>
                         </ul>
@@ -146,6 +331,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>November 13, 2025</td>
         <td>January 15, 2026</td>
              </tr>   
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience now available for more Workfront organizations</a><p></p>
+            <p>To allow organizations access to the benefits of the Adobe Unified Experience, we're continuing to make it available to existing Workfront customers.</p>
+        </td>
+        <td><p>December 11, 2025</p></td>
+        <td><p>January 15, 2026</p></td>
+        <td><p>January 15, 2026</p></td>
+    <tr>
             </tbody>
         </table>   
 
@@ -182,6 +376,16 @@ There are no updates for the following at this point in the release:
 
 ## Desktop proofing viewer updates
 
+### Version 2.1.54
+
+**Production release for all customers: December 11, 2025**
+
+The Desktop Proofing Viewer has been updated to from 2.1.52 to 2.1.54. This update included internal tooling updates and did not impact end-user functionality.
+
+The 2.1.53 version also included internal tooling changes. 
+
+This update is for both Mac and Windows.
+
 ### Version 2.1.52 
 
 **Production release for all customers: July 31, 2025**
@@ -197,6 +401,12 @@ This update is for both Mac and Windows.
 ### API version 21
 
 Workfront API version 21 was released on October 23, 2025. For API version 21, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
+
+>[!IMPORTANT]
+>
+>This API version change features a breaking change that may affect your existing API calls. This is due to the fact that API version 21 uses Event Subscriptions version 2.
+>
+> For multi-select fields, Event Subsscriptions version 2 always sends as an array. Version 1 sent an array if more than one value selected. If only one value was selected, it sent a string.
 
 For information on what's new and updated, see [What's new in API version 21](/help/quicksilver/wf-api/api/new-api-version-21.md).
 

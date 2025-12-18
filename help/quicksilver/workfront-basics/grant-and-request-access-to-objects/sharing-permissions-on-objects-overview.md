@@ -3,7 +3,7 @@ content-type: overview
 navigation-topic: grant-and-request-access-to-objects
 title: Overview of sharing permissions on objects
 description: You can share or remove permissions to an object you created or an object that was shared with you.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
 ---

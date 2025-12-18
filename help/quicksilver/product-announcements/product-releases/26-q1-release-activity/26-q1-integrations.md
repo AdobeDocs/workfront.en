@@ -12,8 +12,22 @@ This page describes Integrations enhancements made with the First Quarter 2026 r
 
 For a list of all changes available at this point in the First Quarter 2026 release cycle, see [First Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Updated asset selector for the Adobe Workfront for Experience Manager Assets native integration
+
+
+>[!NOTE]
+>
+>Preview: November 20, 2025 
+>Production fast release: December 11, 2025  
+>Production for everyone: January 16, 2026  
+
+We've upgraded the asset selector in the Adobe Workfront for Experience Manager Assets integration. With this upgrade, you can now select and pull AEM Collections directly into Workfront.
 
 ## New version of Salesforce integration now available
+
+>[!IMPORTANT]
+>
+>To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Salesforce integration, including the new version, will not be available after **February 28, 2026**. 
 
 >[!NOTE]
 >

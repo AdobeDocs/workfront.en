@@ -92,37 +92,40 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 When you delete a task, you impact other objects linked to the task.
 
-The following objects attached to a task are also deleted when you delete a task:
+Consider the following: 
 
-* Documents
+* The following objects attached to a task are also deleted when you delete a task:
 
-  You cannot delete a task that has a document which has been checked out attached to it. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
+   * Documents
 
-* Issues
-* Subtasks
-* Notes
-* Approvals
+   You cannot delete a task that has a document which has been checked out attached to it. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
 
-Depending on how your Workfront administrator configures the Project, Task, or Issue Deletion Preferences in the Timesheet & Hour Preferences of your Workfront instance, hours logged for the tasks are handled in one of the following ways when deleting a task:
+   * Issues
+   * Subtasks
+   * Notes
+   * Approvals
 
-* Move to the project and will not be restored on the task, if the task is later restored.
-* Are deleted and will be restored on the task, if the task is later restored.
+* Depending on how your Workfront administrator configures the Project, Task, or Issue Deletion Preferences in the Timesheet & Hour Preferences of your Workfront instance, hours logged for the tasks are handled in one of the following ways when deleting a task:
 
-  This also applies when you try to delete projects that have tasks with hours logged on them.
+   * Move to the project and will not be restored on the task, if the task is later restored.
+   * Are deleted and will be restored on the task, if the task is later restored.
 
-  <!--
+   This also applies when you try to delete projects that have tasks with hours logged on them.
+
+   For more information about configuring the deletion preferences for hours logged on issues, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * Expenses on the task will move to the project.
+
+   * The users assigned to the task or to the task approval remain on the project team.
+
+   For more information about project teams, see [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+
+* When you delete a child task and you move its parent to another project, then restore the deleted child task, the task is added back on the original project as a main task. 
+
+<!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this stays NWE; not possible in classic;)
   </MadCap:conditionalText>
   -->
-
-  For more information about configuring the deletion preferences for hours logged on issues, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-
-* Expenses on the task will move to the project.
-
-* The users assigned to the task or to the task approval remain on the project team.
-
-  For more information about project teams, see [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Delete tasks
 

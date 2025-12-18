@@ -9,11 +9,13 @@ exl-id: fc633fd6-35b4-4949-8045-22c775002436
 ---
 # Manage a project in the Agile View
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 You can leverage agile functionality for your project without the administrative challenges that typically accompany agile practices (such as managing a team backlog or creating iterations).
 
-If you want to work in an agile environment that uses a team backlog and allows you to create iterations from tasks on the backlog, follow the instructions in [Work in an agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+You can work in an agile environment that uses a team backlog and allows you to create iterations from tasks on the backlog. 
+
+For information, see [Work in an agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## Access requirements
 
@@ -89,7 +91,9 @@ For more detail about the information in this table, see [Access requirements in
 
 ## View a project in the Agile view
 
-1. Go to the project you want to view in an agile view, on either the task list or the issue list.
+You can view both the tasks or the issues on a project in an agile view instead of a list, to leverage agile functionality for your project development. 
+
+1. Go to the project you want to view in an agile view, then click **Tasks** or **Issues** in the left panel.
 1. Click the **Board view** icon ![Board icon](assets/board-icon-for-agile-view.png).
 
    The board view of the project displays by default.
@@ -101,4 +105,6 @@ For more detail about the information in this table, see [Access requirements in
 
    For more information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) and [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Note that you can't define column policies on the board view of a project.
 
-1. (Optional) To return to the list view, click the **List** icon.
+1. (Optional) To return to the list view, click the **List** icon ![List icon](assets/list-icon.png).
+
+   The list of tasks or issues displays. 

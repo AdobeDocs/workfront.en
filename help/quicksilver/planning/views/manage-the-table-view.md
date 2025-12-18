@@ -9,11 +9,10 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 ---
 # Manage the table view
 
-<!--
 
 <span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -186,7 +185,7 @@ You can add up to 500 fields (or columns) in a table view.
 
     The columns you add are visible to all users who access the record type and are added as new fields on the record's page.
 
-1. (Optional) Click the **Fields** icon ![Fields icon](assets/fields-icon.png) in the toolbar, find the field in the list <!--or <span class="preview"> search for a field</span>,--> and unselect the toggle to the right of the field name to hide the field. 
+1. (Optional) Click the **Fields** icon ![Fields icon](assets/fields-icon.png) in the toolbar, find the field in the list or <span class="preview"> search for a field</span>, and unselect the toggle to the right of the field name to hide the field. 
    
 1. Do one of the following to reorder columns in the table:
 
@@ -306,9 +305,7 @@ To add a filter to a table view:
 1. Select a table view, then click **Filters** in the upper-right corner of the table.    
 1. Click **Add condition** and add the following information: 
 
-    * **Select a field** that you want to filter by <!-- the tip below might change-->
-
-        <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
+    * <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list.
 
     * **Select an option** (or a filter modifier) to define what kind of condition the field must meet
 
@@ -539,9 +536,7 @@ To sort grouped records:
 
 1. (Optional) Click **Row colors** to define conditions and choose configure diferent colors for table rows.
 
-1. Click **Add color**, then **Select a field** whose value you want to determine the color of a row. 
-
-    <!--replace the text for this step above with this at preview release: Click **Add color**, then <span class="preview">search for a field or </span> click the drop-down menu to display a list of fields and select it from the list. This is the field whose value you want to determine the color of a row.-->
+1. Click **Add color**, then <span class="preview">search for a field or </span> click the drop-down menu to display a list of fields and select it from the list. This is the field whose value you want to determine the color of a row.
 
     For example, to display campaigns with a status of Active in green, select **Status**, then choose a modifier and a value for the field. 
 

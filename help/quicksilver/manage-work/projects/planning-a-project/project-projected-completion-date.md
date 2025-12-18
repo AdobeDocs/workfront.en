@@ -10,7 +10,7 @@ exl-id: dde400e6-189f-4431-8f2f-7142ce424826
 ---
 # Overview of the Projected Completion Date for projects, tasks, and issues
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2025 -->
 
 The Projected Completion Date is a real-time, calculated indicator of when the project, task, or issue will be completed. When the project, task, or issue is marked as Completed, the Projected Completion Date changes to the date of the Actual Completion Date.
 
@@ -116,6 +116,9 @@ To create an issue report that includes the Projected Completion Date:
 1. Select it when it appears in the list, under the **Issue** object.  
 1. Click **Save + Close**.
 
-   The **Projected Completion Date**  column in the report is populated.  
+    ![Issue Projected Completion Date in report column](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
 
-   ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
+
+    The **Projected Completion Date**  column in the report is populated.  
+
+   

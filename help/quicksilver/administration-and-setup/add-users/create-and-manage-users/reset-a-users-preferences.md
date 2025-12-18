@@ -13,8 +13,6 @@ exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>
-
 As an Adobe Workfront administrator, you can reset or remove the user preference settings for any user in the Workfront system.
 
 Individual users can also reset their own user preference settings.
@@ -100,8 +98,6 @@ When you reset user preferences, some preferences are reverted to the system def
 
 <!--Display this table and hide the HTML table above, when the unshim is released.-->
 
-<div class="preview">
-
 | Preference | Status after the reset |
 | --- | --- |
 | Views | Reverted to the system default <p>Existing views are not deleted. You can select them again.</p> |
@@ -110,8 +106,6 @@ When you reset user preferences, some preferences are reverted to the system def
 | Recent items list | Cleared |
 | Favorites list | Unaffected |
 | User Preferences | Reverted to the system default <p>Email notifications revert to the system defaults. The default notifications are listed in [Event notifications available in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
-
-</div>
 
 ## Reset user preferences
 
@@ -142,8 +136,8 @@ When you reset user preferences, some preferences are reverted to the system def
 
 1. Press **Enter**.
 
-1. <span class="preview">To reset all user preferences, click **Reset**.</span>
+1. To reset all user preferences, click **Reset**.
 
-   <span class="preview">Or</span>
+   Or
 
-   <span class="preview">To reset the user's left navigation to the original layout template configuration, click **Reset Left Navigation**.</span>
+   To reset the user's left navigation to the original layout template configuration, click **Reset Left Navigation**.

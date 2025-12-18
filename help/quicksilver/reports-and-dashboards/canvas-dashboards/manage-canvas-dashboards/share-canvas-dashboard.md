@@ -88,6 +88,8 @@ For more detail about the information in this table, see [Access requirements in
 
 1. In the upper-right corner of the page, click the **Share** button. The **Dashboard Sharing** dialog box appears.
 
+   ![Share button](assets/share-button.png)
+
 1. In the **Give access to** field, begin typing the name of a specific user, team, role, group, or company you want to share the Canvas Dashboard with, then select it when it appears in the drop-down list. 
 
 1. (Optional) To edit a resource's access to the dashboard, click **View** next to their name, then select **Manage** in the drop-down list that appears. 

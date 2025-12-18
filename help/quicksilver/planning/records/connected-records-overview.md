@@ -43,11 +43,11 @@ For information about how you can connect records to one another or to another o
 
 You can connect records to other records or to objects from another application in the following areas: 
 
-* You can connect records from Workfront Planning to Workfront objects or Experience Manager Assets objects in the following areas of a Planning record:
+* You can connect records from Workfront Planning to Workfront objects, Experience Manager Assets objects, or GenStudio Brands in the following areas of a Planning record:
 
   * The connected record fields in the table view of a record type in Planning.
-  * The record's preview or page in the connected record fields on the Details tab.
-  * The record's preview or page on the Connections tab.
+  * The record's preview or details page in the connected record fields on the Details tab.
+  * The record's preview or details page on the Connections tab.
   * The record's page in a Connected records page tab of a connected record.
 
 * You can connect Workfront objects to Workfront Planning records in the following areas of Workfront: 

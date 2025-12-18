@@ -80,8 +80,6 @@ For information about Tracking Mode on tasks, see [Task Tracking Mode overview](
 
 ## Set Tracking Mode for tasks
 
-To set the tracking mode:
-
 1. Go to the task you want to set the tracking mode for.
 1. Click the **More** icon ![](assets/qs-more-icon-on-an-object.png)next to the name of the task, then click **Edit**.
 

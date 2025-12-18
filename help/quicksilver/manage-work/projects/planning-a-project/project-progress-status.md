@@ -22,15 +22,16 @@ The following are the Progress Statuses of projects in Workfront:
  <tbody> 
   <tr> 
    <td>On Time</td> 
-   <td> The Progress Status of a project is <strong>On Time</strong> if:<ul><li>If both Projected and Estimated Completion Dates are earlier than or equal to the project's Planned Completion Date</li></ul> <p> <img src="assets/project-on-time-progress-status-350x69.png" style="width: 350;height: 69;"> </p> </td> 
+   <td> The Progress Status of a project is <strong>On Time</strong> if:<ul><li>If both Projected and Estimated Due Dates are earlier than or equal to the project's Planned Completion Date <p> <img src="assets/project-on-time-progress-status-350x69.png" style="width: 350;height: 69;"> </p></li></ul>  </td> 
   </tr> 
   <tr> 
    <td>At Risk</td> 
-   <td> The Progress Status of a project is <strong>At Risk</strong> if <strong>all</strong> of the following are true:<ul><li>Both the Estimated and Projected Completion Dates are in the future</li><li> The Estimated Completion Date is later than both the Planned Completion Date and the Projected Completion Date </li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> The Progress Status of a project is <strong>At Risk</strong> if <strong>all</strong> of the following are true:<ul><li>Both the Estimated and Projected Completion Dates are in the future</li><li> The Estimated Due Date is later than both the Planned Completion Date and the Projected Completion Date <p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p></li></ul> </td> 
   </tr> 
   <tr> 
    <td>Behind</td> 
-   <td> The Progress Status of a project is <strong>Behind</strong> if <strong>all</strong> of the following are true:<ul><li>Both the Estimated and Projected Completion Dates are in the future</li><li> Both the Estimated and Projected Completion Dates are later than the Planned Completion Date of the project</li><li> The Estimated Completion Date is not later than Projected Completion Date</li></ul> <p> <img src="assets/project-behind-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> The Progress Status of a project is <strong>Behind</strong> if <strong>all</strong> of the following are true:<ul><li>Both the Estimated and Projected Completion Dates are in the future</li><li> Both the Estimated and Projected Completion Dates are later than the Planned Completion Date of the project</li><li> The Estimated Due Date is not later than Projected Completion Date
+   <p> <img src="assets/project-behind-progress-status-350x67.png" style="width: 350;height: 67;"> </p></li></ul>  </td> 
   </tr> 
   <tr> 
    <td>Late</td> 
@@ -45,7 +46,7 @@ The following are the Progress Statuses of projects in Workfront:
 Consider the following:
 
 * The Projected Completion Date of the project is driven by the task on the Critical Path with the latest Projected Completion Date.
-* The Estimated Completion Date of the project is driven by the task on the Critical Path with the latest Estimated Completion Date.
+* The Estimated Due Date of the project is driven by the task on the Critical Path with the latest Estimated Due Date.
 
 For information about the project Critical Path, see [Overview of the project Critical Path](../../../manage-work/tasks/manage-tasks/critical-path.md).
 

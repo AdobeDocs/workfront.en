@@ -845,7 +845,7 @@ A Team object is a collection of Users that can be assigned to a work item.
 
 A TemplateTask object represents a Task that is part of a Template. Template Tasks become Tasks in the Project where the Template is used.
 
-For more information on Template Tasks, see [Edit a template task](../../manage-work/projects/create-and-manage-templates/edit-template-task.md).
+For more information on Template Tasks, see [Edit template tasks](../../manage-work/projects/create-and-manage-templates/edit-template-task.md).
 
 <table style="table-layout:auto"> 
  <col> 

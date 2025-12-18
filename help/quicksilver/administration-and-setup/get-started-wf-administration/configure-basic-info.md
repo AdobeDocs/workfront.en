@@ -54,7 +54,7 @@ To access the Customer Info page:
 
 1. In the left panel, click **System** > **Customer Info**.
 
-   Depending on the Workfront plan that you have purchased, some sections might be missing from the Customer Info page. Contact your Account Representative if you need to find out which Workfront plan your organization uses.
+   Depending on the Workfront package that you have purchased, some sections might be missing from the Customer Info page. Contact your Account Representative if you need to find out which Workfront package your organization uses.
 
    The sections available in the Customer Info area are:
 

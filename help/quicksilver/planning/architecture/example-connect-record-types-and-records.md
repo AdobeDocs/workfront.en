@@ -47,7 +47,7 @@ To do this:
 
         >[!NOTE]
         >
-        >The **Connection type** option is not available when connecting records from different workspaces or when connecting Experience Manager assets. For more information, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+        >The **Connection type** option is not available when connecting records from different workspaces or when connecting Experience Manager assets or GenStudio Brands. For more information, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
         
     * **Record appearance**: Choose from the following options:
         * **Name and image**: Displays the name and the thumbnail or the icon of the connected records. This is selected by default.

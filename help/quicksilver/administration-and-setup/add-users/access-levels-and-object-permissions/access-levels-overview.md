@@ -15,6 +15,11 @@ exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
 
 <!-- Audited: 12/2023 -->
 
+>[!NOTE]
+>
+>The information in this article refers to the legacy access levels. For information about the current access levels, see [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md). 
+
+
 As an Adobe Workfront administrator, you assign an access level to a user for 2 purposes:
 
 * Each user must have an access level in order to log in and work in Workfront. 
@@ -51,8 +56,18 @@ For information on topics related to access levels, see the following articles:
    <td> <p>For instructions on how to assign an access level to a user, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Access levels Standard, Light, Contributor</td> 
-   <td> <p>If you see these access levels in your environment instead of Plan, Work, Review, or Request, your organization uses the new access level model. For information on the new model, see <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">New access levels overview</a>.</p> </td> 
+   <td><b>Types of Access Levels</b></td> 
+   <td><p>There are two types of Access Levels in Workfront:</p>
+   <ul><li>Legacy Access Levels</li>
+   <ul><li>Plan</li>
+   <li>Work</li>
+   <li>Review</li>
+   <li>Request</li></ul>
+   <li>New Access Levels:</li>
+   <ul><li>Standard</li>
+   <li>Light</li>
+   <li>Contributor</li></ul></ul> 
+   <p>For information on the new Access Levels, see <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">New access levels overview</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 

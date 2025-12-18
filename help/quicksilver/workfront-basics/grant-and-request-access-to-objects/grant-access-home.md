@@ -3,7 +3,7 @@ product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
 title: Grant access to objects in the Home area
 description: Users can request access to objects within Adobe Workfront. For more information about requesting access, see Request access to objects .
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
 ---

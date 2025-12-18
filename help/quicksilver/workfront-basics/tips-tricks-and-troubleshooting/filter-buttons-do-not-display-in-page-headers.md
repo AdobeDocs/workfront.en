@@ -4,7 +4,7 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Filter buttons do not display in page headers
 description: Read this article to troubleshoot filter buttons not displaying in page headers.
 feature: Get Started with Workfront
-author: Nolan and Alina
+author: Courtney
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
 ---
 # Filter buttons do not display in page headers
@@ -37,6 +37,8 @@ exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
 </table>
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Problem
 

@@ -54,7 +54,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 1. Click **New Custom Form.**
 1. Select which object types you'd like to attach the custom form to, then click **Continue**.
 
-   ![Choose object type](assets/choose-object-type.jpg)
+   ![Choose object types](assets/new-custom-form-select-objects.png)
 
 1. In the **Add a form name** area, type the custom form title.
 1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the **Add** icon ![Add objects icon](assets/add-objects-icon.png) next to **Object Types**, then select the type you want in the menu that displays. You can repeat this to add as many object types as you want. 
@@ -977,15 +977,11 @@ This table lists the available native fields for specific Workfront objects in a
 >
 >The information in this section refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
 >
->You must have the following to access Workfront Planning:
+>You must have additional packages to access Workfront Planning. 
 >
->* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
->* An additional package for Workfront Planning. 
->* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
->
-> For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+>For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 > 
->For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 You can view records connected from Workfront Planning in a custom field on a Workfront object by adding a  Planning connection custom field to an object's custom form. 
 

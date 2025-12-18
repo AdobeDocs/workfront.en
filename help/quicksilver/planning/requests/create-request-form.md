@@ -235,13 +235,13 @@ On the Configuration tab, you can set the approval process and configure when a 
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
-   * When you associate a request form with approvers, any new request must first be approved by all approvers before it generates a new record. 
-   * You can add one or several approvers to a request form. 
-   * If at least one approver rejects the request, the request is rejected and the record is not created. 
-   * All approvers must make a decision before a request is either approved or rejected.
+   * You can add one or several approvers to a request form.
+   * If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must approve the request before Workfront Planning creates a record.
+   * If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Planning tab of the Submitted section in the Requests area of Workfront.
+   * If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
    * If a team is set as an approver, only one decision is required from the team.
 
-      For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
+   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
 
 1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
 

@@ -28,3 +28,5 @@ For more information about Data Connect, see the following articles:
 * [Workfront Data Connect data dictionary](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
 * [Workfront Data Connect query examples](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md)
 * [View Workfront Data Connect usage metrics](/help/quicksilver/reports-and-dashboards/data-lake/view-usage-metrics.md)
+* [Use the Job History Data view in Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
+* [Use the Monitoring Data Refreshes view in Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)

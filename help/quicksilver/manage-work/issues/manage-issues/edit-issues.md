@@ -13,13 +13,13 @@ exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
 
 <!--Audited: 10/2025--> 
 
-<div class="preview"> 
+<!--<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> 
+</div>--> 
 
 You can edit information on issues that you have created, or that other users have created if they shared the issues with you.
 
@@ -114,7 +114,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 1. Go to the **Main Menu**.
 1. Click **Projects**, then click the name of a project to open the project.
-1. (Optional)&nbsp;Click **Tasks** , then click the name of a task to open the task. 
+1. (Optional) Click **Tasks** , then click the name of a task to open the task. 
 1. Click **Issues** in the left panel.
 
    ![Issues icon](assets/qs-issues-icon-highlighted-on-project-350x278.png)
@@ -129,7 +129,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
    1. (Optional) Click the **Collapse All** icon in the upper-right corner to collapse all areas. 
    1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![right pointing arrow](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
-   1. (Optional) To attach a custom form, start typing the name of a form in the **Add custom form** field, then select it when it displays in the list, then click&nbsp;**Save Changes**. 
+   1. (Optional) To attach a custom form, start typing the name of a form in the **Add custom form** field, then select it when it displays in the list, then click **Save Changes**. 
    1. (Optional) Click the **Export** icon ![Export icon](assets/export.png) to export the Overview and custom forms information to a PDF file, then click **Export**. Select from the following:
 
       * Select all (displays only when there is at least one custom form attached)
@@ -144,7 +144,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
    For information about the fields visible in the Issue Details section, continue with editing the issue in the Edit issue box as described below. 
 
-1. To edit all information about an issue, select an issue in a list, then click&nbsp;**Edit** at the top of the list
+1. To edit all information about an issue, select an issue in a list, then click **Edit** at the top of the list
 
    Or
 
@@ -270,7 +270,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
       <td> <p>This is the date when the assignee of the issue estimates that the issue will be completed. Only assignees can edit this field.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Planned Start&nbsp;Date</td> 
+      <td role="rowheader">Planned Start Date</td> 
       <td>By default, the Planned Start Date is the date and the time when the issue was created. You can update the <strong>Planned Start Date</strong> of the issue. </td> 
      </tr> 
      <tr> 
@@ -342,14 +342,9 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
    >* Reassign the work item to active resources. 
    >* Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
 
-1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
-
-   1. In the Production environment:
-   
-      1. Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue.
-      
-      1. Update the following fields: 
-
+   <!--1. In the Production environment:
+         1. Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue.
+         1. Update the following fields: 
          <table style="table-layout:auto"> 
          <col> 
          </col> 
@@ -367,20 +362,17 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
             Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr> 
          </tbody> 
-         </table>
+         </table>-->
 
-
+  
+1. (Optional) Click **Assign to me** to assign the issue to yourself.
+1. (Optional) Update the **Planned Hours** field.
    
-   1. <span class="preview">(Conditional) In the Preview environment, do one of the following:</span>
+      The **Planned Hours** is the amount of hours it would take the assignees of the issue to complete it. 
    
-      * <span class="preview">Click **Assign to me** to assign the issue to yourself </span>
-      * <span class="preview">Update the **Planned Hours** field.</span>
-   
-         The **Planned Hours** is the amount of hours it would take the assignees of the issue to complete it. 
-   
-         >[!NOTE]
-         >
-         >Changing the Planned Hours of the issue will not change the issue Planned Completion Date. 
+      >[!NOTE]
+      >
+      >Changing the Planned Hours of the issue will not change the issue Planned Completion Date. 
    
 1. To remove assignments from all the issues, see [Assign issues](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md). 
 

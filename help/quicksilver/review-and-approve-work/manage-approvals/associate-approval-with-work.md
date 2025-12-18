@@ -202,7 +202,7 @@ To create a single-use approval process:
    >After you attach the single-use approval process, it displays as "`<Custom>`" in the Approval Process field inside the Edit box of templates and template tasks. For information about editing templates or template tasks, see the following articles:
    >
    >* [Edit project templates](../../manage-work/projects/create-and-manage-templates/edit-templates.md) 
-   >* [Edit a template task](../../manage-work/projects/create-and-manage-templates/edit-template-task.md) 
+   >* [Edit template tasks](../../manage-work/projects/create-and-manage-templates/edit-template-task.md) 
 
    <!--
    ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be removed when they bring the new Edit Template/ Template Task boxes to NWE) </p>   >
