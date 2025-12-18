@@ -33,6 +33,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [Administrator enhancements](#administrator-enhancements)
 * [Document and approvals enhancements](#documents-and-approvals-enhancements)
+* [Home enhancements](#home-enhancements)
 * [Integration enhancements](#integration-enhancements)
 * [Project enhancements](#project-enhancements)
 * [Reporting enhancements](#reporting-enhancements)
@@ -141,7 +142,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 
 
-### Integration enhancements
+### Home enhancements
 
 <table style="table-layout:auto">
   <tbody>
@@ -155,7 +156,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
          <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-home.md" class="MCXref xref" xrefformat="{para}">Update to the Mentions widget in Home</a>
-            <p>e have made the following improvements to the Mentions widget in home: <ul><li>The same experience in the Updates area of most Workfront objects is now also available in the Mentions widget in Home. </li><li>The Mentions widget now contains the comments that the user made or has been tagged in for the past two weeks</li><ul></p>
+            <p>We have made the following improvements to the Mentions widget in home: <ul><li>The same experience in the Updates area of most Workfront objects is now also available in the Mentions widget in Home. </li><li>The Mentions widget now contains the comments that the user made or has been tagged in for the past two weeks</li><ul></p>
         </td>
         <td>December 17, 2025</td>
         <td>January 14, 2026</td>
@@ -177,7 +178,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
          <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Choose a Workfront project when sending a review in Creative Cloud Express</a><p>![BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Choose a Workfront project when sending a review in Creative Cloud Express</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>You can choose a Workfront project to send a proof to. This helps keep all related assets and proofs organized within the same project. </p>
         </td>
         <td>December 15, 2025</td>
@@ -305,7 +306,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicate a report in a Canvas Dashboard</a><p>![BADGE Off schedule]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicate a report in a Canvas Dashboard</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>You can now duplicate a KPI, table, or chart report in a Canvas Dashboard after it's been created. Once duplicated, you can edit the report as needed before saving.</p>
         </td>
         <td>October 23, 2025</td>
