@@ -28,7 +28,11 @@ Canvas Dashboards allow you to visualize your Adobe Workfront data by adding dif
 
 To access Canvas Dashboards, navigate to the Dashboards section in Adobe Workfront. From there, you can view existing dashboards or create a new one if you have the necessary permissions.
 
-1. 
+{{step1-to-dashboards}}
+
+1. In the left panel, click **Canvas Dashboards**.
+1. Click the name of an existing dashboard to open it.
+    ![Open a dashboard](assets/open-dashboard.png)
 
 <!--## Navigating the Dashboard
 
