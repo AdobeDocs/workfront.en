@@ -100,10 +100,10 @@ In order to see all available translations for your chosen language, both the Wo
 
 To determine whether your organization has been migrated to the Adobe Admin Console, examine the URL you use to view Workfront.
 
-|URL|Adobe Experience|
-|---|---|
-|(CompanyName).my.workfront.com|Not migrated to Adobe Admin Console|
-|experience.adobe.com|Migrated to Adobe Admin Console |
+|URL|Adobe Experience|Language control|
+|---|---|---|
+|(CompanyName).my.workfront.com|Not migrated to Adobe Admin Console|[Change the browser language](#change-the-browser-language)|
+|experience.adobe.com|Migrated to Adobe Admin Console|[Change the Adobe Experience Cloud language](#change-the-adobe-experience-cloud-language)|
 
 * [Change the browser language](#change-the-browser-language)
 * [Change the Adobe Experience Cloud language](#change-the-adobe-experience-cloud-language)
