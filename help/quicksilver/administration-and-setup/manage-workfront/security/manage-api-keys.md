@@ -14,6 +14,21 @@ exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
 
+
+
+>[!IMPORTANT]
+>
+>Workfront no longer recommends the use of the `/login` endpoint or API keys. Instead, use one of the following authentication methods:
+>
+>* Server authentication with JWT
+>* User authentication with OAuth2
+>
+>For instructions on setting up these authentication methods, see [Create OAuth2 applications for Workfront integrations](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+>
+>For instructions on using server authentication in Workfront, see [Configure and use your organization's custom OAuth 2 applications using JWT flow](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
+>
+>For instructions on using user authentication in Workfront, see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
+
 In order to minimize API security vulnerabilities, Adobe Workfront administrators can manage the API Keys used to enable applications to access Workfront on behalf of a user.
 
 You can reset or remove your current administrator API Key, configure API Keys to expire, and remove the API Keys for all users.
@@ -67,10 +82,6 @@ Workfront administrators also have a unique API Key. When an application uses an
 ## Manage an administrator API key
 
 You can generate, reset, or remove the API Key for your administrator user account. 
-
->[!NOTE]
->
->You can also generate an API Key through the API. For more information, see the [Event Subscription API](../../../wf-api/general/event-subs-api.md) section in [Event Subscription API](../../../wf-api/general/event-subs-api.md).
 
 {{step-1-to-setup}} 
 
