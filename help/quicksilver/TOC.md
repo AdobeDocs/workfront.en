@@ -1104,10 +1104,10 @@ feature-set: Workfront
       * [Update the status of stories and subtasks on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
       * [View and edit story information on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
   * Work in an agile environment {#work-in-agile-environment}
-    * [Work in an agile environment](agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
-    * [Create an agile story](agile/work-in-an-agile-environment/create-an-agile-story.md)
-    * [Manage the agile backlog](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
-    * [Move an agile story](agile/work-in-an-agile-environment/move-an-agile-story.md)
+    * [Work in an Agile environment](agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
+    * [Create an Agile story](agile/work-in-an-agile-environment/create-an-agile-story.md)
+    * [Manage the Agile backlog](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+    * [Move an Agile story](agile/work-in-an-agile-environment/move-an-agile-story.md)
   * Tips, tricks, and troubleshooting for agile {#tips-tricks-agile}
     * [Tips, tricks, and troubleshooting for agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
     * [Custom statuses not showing up on the agile story board](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
@@ -1235,7 +1235,7 @@ feature-set: Workfront
       * [Remove users from projects](manage-work/projects/manage-projects/remove-users-from-projects.md)
       * [Schedule resources for a project](manage-work/projects/manage-projects/schedule-resources-for-projects.md)
       * [Communicate with Project Team members](manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-      * [anage an Agile project in the Board view](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+      * [Manage an Agile project in the Board view](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
       * [Understand project metrics](manage-work/projects/manage-projects/project-metrics.md)
       * [Project limits overview](manage-work/projects/manage-projects/project-maximums.md)
       * [Summarize updates with AI Assistant](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)

@@ -67,4 +67,4 @@ For example, suppose that Story A contains Subtask 1 and Subtask 2 (and both sub
 
 This same logic applies to second-level subtasks (subtasks of subtasks). If a subtask has one or more second-level subtasks assigned to the same agile team and belong to the iteration, only the second-level subtask is displayed in the backlog.
 
-For more information about the backlog, see [Manage the agile backlog](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+For more information about the backlog, see [Manage the Agile backlog](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
