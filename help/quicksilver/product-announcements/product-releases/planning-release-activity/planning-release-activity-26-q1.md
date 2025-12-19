@@ -16,6 +16,23 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Improvements to connected records pages
+
+>[!NOTE]
+>
+>Preview: December 19, 2025 
+>Production fast: January 14, 2026 
+>Production for all: January 15, 2026 
+
+To give you more flexibility when working with connected records pages, we have enhanced the functionality of views in this area of Workfront Planning. The following are improvements in the connected records pages of a record:
+
+* You can now add a timeline and a calendar view to a record's connected records page.
+* You can now share all views from a connected records page. The views shared from these pages are visible system-wide by all users you share them with in any other area of Workfront Planning. All views shared in any other areas of Planning are also visible in the connected records page for the same users they are shared with.
+* We have added a restriction to only allow one connected records page per each record or object type. Prior to this enhancement, you could add multiple pages for the same record or object type. Now, you can use multiple views for the same record type in one connected records page.
+* We have added a **New row** link at the bottom of a table view and a **Connect records** button in the upper-right area of the connected records page. Prior to this enhancement, the **New row** link and the **Connect records** button existed only on a project connected page. 
+
+For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+
 ## Share views in the Projects Connected records page
 
 >[!NOTE]
@@ -26,7 +43,7 @@ For a list of all features released for Adobe Workfront Planning, see [Adobe Wor
 
 To make it easier to ensure to see the information you need, we've added the ability to share views to the Projects Connected records page. Now, you can share views with other users, teams, or groups.
 
-For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
 ## Current user wildcard now available in project connection view filters
 
@@ -111,26 +128,7 @@ We have made the following improvements to the Workspaces main page in Workfront
 
 For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
-<!--
 
-## Improvements to connected records pages
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production for all: January 15, 2026 
-
-To give you more flexibility when working with connected records pages, we have enhanced the functionality of views in this area of Workfront Planning. The following are improvements in the connected records pages of a record that are coming with this release:
-
-* You can now add a timeline and a calendar view to a record's connected records page.
-* You can now share views from a connected records page. The views shared from these pages are visible system-wide by all users you share them with in any other area of Workfront Planning. All views shared in any other areas of Planning are also visible in the connected records page for the same users they are shared with.
-* We have added a restriction to only allow one connected records page per each record or object type. Prior to this enhancement, you could add multiple pages for the same record or object type. Now, you can use multiple views for the same record type in one connected records page.
-* We have added a **New row** link at the bottom of a table view and a **Connect records** button in the upper-right area of the connected records page. Prior to this enhancement, the **New row** link and the **Connect records** button existed only on a project connected page. 
-
-For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-
--->
 
 ## Adding the Brand connection field to Products and Personas by default in the GenStudio workspace  
 
@@ -139,6 +137,7 @@ For information, see [Add a Connected records page to a record](/help/quicksilve
 >Preview: December 11, 2025
 >Production fast release: December 11, 2025
 >Production for everyone: December 11, 2025
+>[!BADGE Off schedule]{type=Neutral}
 
 The connection field with the GenStudio for Performance Marketing Brand is now added by default to the Products and Personas record types in the GenStudio workspace of Workfront Planning.  
 
@@ -155,6 +154,7 @@ For information, see [Get started with the Adobe Workfront Planning and Adobe Ge
 >Preview: December 11, 2025
 >Production fast release: December 11, 2025
 >Production for everyone: December 11, 2025
+>[!BADGE Off schedule]{type=Neutral}
 
 We have added a guardrail that prevents you from removing the permissions of GenStudio for Performance Marketing users from Workfront Planning objects. With this improvement, you can no longer remove GenStudio users from the GenStudio workspace in Planning, nor can you disable Inherited permissions for record types in the GenStudio workspace, if those permissions include GenStudio users. Prior to this improvement, when you removed these users from the GenStudio workspace in Planning, they would lose permissions to record types in GenStudio as well. 
 
