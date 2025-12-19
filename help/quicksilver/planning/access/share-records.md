@@ -111,6 +111,9 @@ For more information about Workfront access requirements, see [Access requiremen
 <!--checking on the below with Lilit-->
 
 * You can share records with the following entities: people, groups, teams, companies or job roles.
+* When you share a record, users have the same access everywhere where that record appears in the system. 
+* If you restrict permissions to a record, users no longer view that record and the values for its lookup fields anywhere in the system where that record is added. 
+* Workfront checks record permissions in connections up to 5 records deep, ensuring users only see records shared with them.
 * You can grant the following levels of permissions to a record: 
 
    * View 
