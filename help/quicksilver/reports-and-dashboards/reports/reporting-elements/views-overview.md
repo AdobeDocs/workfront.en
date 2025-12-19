@@ -32,12 +32,12 @@ The following are types of views that you can apply in lists or reports in Workf
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>Standard views</strong></td>
-        <td>You can apply them to any list or report of objects. Standard views are highly customizable. You can customize and share a standard view with others. For information see, <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Create or edit views in Adobe Workfront</a>.</td>
+        <td><strong>Standard view</strong></td>
+        <td>You can apply it to any list or report of objects. Standard views are highly customizable. You can customize and share a standard view with others. For information see, <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Create or edit views in Adobe Workfront</a>.</td>
     </tr>
     <tr>
-        <td><strong>Agile view</strong></td>
-        <td>You can apply the Board or Agile view to a list of tasks in the Tasks section of a project or a list of issues in the Issues section of the project. For information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">Manage a project in the Agile View</a>.</td>
+        <td><strong>Board view</strong></td>
+        <td>You can apply the Board view to a list of tasks in the Tasks section of a project or a list of issues in the Issues section of the project to manage your projects using an Agile methodology. For information, see <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">Manage an Agile project in the Board view</a>.</td>
     </tr>
     <tr>
         <td><strong>Gantt view</strong></td>
@@ -60,7 +60,7 @@ You can share the elements of a standard view.
 
 For information about how to share a standard view, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-You cannot share Gantt and Agile views. Everyone with access to the areas where these views display can view the same information. 
+You cannot share Gantt and Board views. Everyone with access to the areas where these views display can view the same information. 
 
 <!-- add something about the enhanced views here, when we have a link-->
 
@@ -68,7 +68,7 @@ You cannot share Gantt and Agile views. Everyone with access to the areas where 
 
 The ability to remove a view functions differently depending on whether you initially created the view, or the view was shared with you. You cannot remove a default view.
 
-You cannot remove Gantt or Agile views. 
+You cannot remove Gantt or Board views. 
 
 For more information about removing a standard view, see [Remove filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 

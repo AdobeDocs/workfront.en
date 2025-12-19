@@ -11,7 +11,7 @@ exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
 
 You can add stories to an iteration in any of the following ways:
 
-* From the backlog after the iteration is created, as described in the [Move stories from the backlog to an iteration or [!UICONTROL Kanban] board](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) section in [Manage the agile backlog](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+* From the backlog after the iteration is created, as described in the [Move stories from the backlog to an iteration or [!UICONTROL Kanban] board](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) section in [Manage the Agile backlog](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
 
 * From the [!UICONTROL Details] page of the individual task or issue
 * From a task or issue list

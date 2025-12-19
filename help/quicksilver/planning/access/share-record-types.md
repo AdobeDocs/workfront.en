@@ -207,6 +207,11 @@ You can adjust permissions to individual record types of a workspace if you have
 
 1. (Optional) In the **Who has access** area, the **Everyone in the workspace can view** option is selected by default.  All users that have View or higher permissions to the workspace can view the record type. 
 
+   >[!WARNING]
+   >
+   >You cannot share record types with individual users. If you add individual users to the record type, they are also added to the workspace.
+
+
 1. (Optional) Click the number of users under the **Inherited permissions** option to view users, teams, groups, companies, or job roles that inherit permissions from the workspace.
 
    >[!TIP]

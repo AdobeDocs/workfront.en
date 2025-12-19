@@ -35,8 +35,8 @@ The following table shows the limits for how many objects you can create in Work
 |     Number of characters for a Single-line text field                                                               |   1,000 characters                                                                                              |
 |     Number of characters for a paragraph  field                                                               |   10,000 characters                                                                                              |
 |     Number of paragraph fields for one record type                                                               |   20 paragraph fields                                                                                              |
-|     Size of file that you can paste in a record type table                    |   1MB                                                                                                           |
-|     Size of file that you can import through the API for a record type table  |   1.5MB                                                                                                         |
+|     Size of file that you can use to import information in a record type table                    |   1MB                                                                                                           |
+|     Size of file that you can use to import information in a record type table through the API  |   1.5MB                                                                                                         |
 |     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
 | Number of views one user can create for one record type | 100 |
 | Size of CSV of Excel file you can import to create record types | 5MB |
