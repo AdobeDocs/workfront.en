@@ -181,6 +181,16 @@ For more information on KPI report examples, see [Create a report dashboard for 
 
 ## Considerations when building a KPI report
 
+### Reports with financial data
+
+Users with View or Edit access to Financial Data in their access level will still see financial data in Canvas Dashboard visualizations—even if the View finance permission is removed at the task or project level.
+
+* Users without financial data rights at the access level will not see financial data in reports.
+* Users who do see financial data are limited to records they already have permission to view (projects, tasks, issues, etc.). They will not see financial values for records they cannot access.
+* Report creators should exercise caution when including financial data in dashboards and be mindful of who they share dashboards with to prevent unintended access.
+
+This is a known limit, and we plan to address it as quickly as possible.
+
 ### Utilizing the field selector
 
 The **Sections** drop-down in the **Build KPI** section is designed to narrow down the choices in a field selector to make an object easier to find when building a table report. To start, you would select a base entity object.
