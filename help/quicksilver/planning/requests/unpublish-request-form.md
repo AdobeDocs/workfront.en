@@ -127,4 +127,4 @@ Click the name of the request form to open it, then click **Unpublish** in the u
     
    Any records previously added using the request form remain on the record type page. 
 
-   Any requests previously added remain in the Requests area of Workfront, on the Planning tab.
+   Any requests previously added remain in the Requests area of Workfront.
