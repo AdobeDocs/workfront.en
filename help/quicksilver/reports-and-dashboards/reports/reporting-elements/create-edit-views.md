@@ -54,10 +54,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Create or customize a view
 
-The process for creating or customizing a view differs depending on whether you are creating or customizing a standard view or an Agile or a Board view.
-
-* [Create or customize a standard view](#create-or-customize-a-standard-view) 
-* [Create or customize an Agile view](#create-or-customize-an-agile-view)
+The process for creating or customizing a view differs depending on whether you are creating or customizing a standard view or a Board view.
 
 ### Create or customize a standard view {#create-or-customize-a-standard-view}
 
@@ -155,13 +152,15 @@ You can create a new standard view, or you can customize an existing standard vi
 
    Your access dictates how the view is saved. If you created the view originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the view impact users with whom the view has been shared.
 
-### Create or customize an Agile view {#create-or-customize-an-agile-view}
+### Create or customize a Board view {#create-or-customize-an-agile-view}
 
-Agile views, also called Board views, only display for lists of tasks and issues on a project. 
+You can manage projects following an Agile methodology using a Board view. 
+
+Board views are available only for lists of tasks and issues on a project. 
 
 They are preconfigured, but you can modify certain settings for them. 
 
-For more information about Agile or Board views, see the article [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+For more information about Agile or Board views, see the article [Manage an Agile project in the Board view](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 <!-- Legacy Agile views were deprecated with 25.3. This is old: 
 

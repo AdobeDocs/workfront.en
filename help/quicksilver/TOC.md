@@ -1235,7 +1235,7 @@ feature-set: Workfront
       * [Remove users from projects](manage-work/projects/manage-projects/remove-users-from-projects.md)
       * [Schedule resources for a project](manage-work/projects/manage-projects/schedule-resources-for-projects.md)
       * [Communicate with Project Team members](manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-      * [Manage a project in the Agile View](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+      * [anage an Agile project in the Board view](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
       * [Understand project metrics](manage-work/projects/manage-projects/project-metrics.md)
       * [Project limits overview](manage-work/projects/manage-projects/project-maximums.md)
       * [Summarize updates with AI Assistant](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
