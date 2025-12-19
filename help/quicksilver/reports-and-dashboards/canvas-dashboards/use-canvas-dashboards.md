@@ -28,13 +28,19 @@ Canvas Dashboards allow you to visualize your Adobe Workfront data by adding dif
 
 To access Canvas Dashboards, navigate to the Dashboards section in Adobe Workfront. From there, you can view existing dashboards or create a new one if you have the necessary permissions.
 
-## Navigating the Canvas
+1. 
 
-Once you open a Canvas Dashboard, you can interact with the reports displayed on the canvas. You can resize, drag, and drop reports to customize the layout according to your preferences.
+<!--## Navigating the Dashboard
+
+Once you open a Canvas Dashboard, you can interact with the reports displayed on the dashboard. You can resize, drag, and drop reports to customize the layout according to your preferences.
+
+## Add dashboard to favorites
+
+-->
 
 ## Interacting with Reports
 
-You can interact with individual reports on the Canvas Dashboard. This includes filtering data, drilling down into specific metrics, and exporting report data for further analysis.
+You can interact with individual reports on the Dashboard. This includes filtering data, drilling down into specific metrics, and exporting report data for further analysis.
 
 ### Filter
 
