@@ -1528,6 +1528,7 @@ feature-set: Workfront
   * [Reports and Dashboards: article index](reports-and-dashboards/reports-and-dashboards-overview.md)
   * Canvas Dashboards {#canvas-dashboards}
     * [Canvas Dashboards overview](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+    * [Use Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
     * Create dashboards {#create-dashboards}
       * [Create Canvas Dashboards: article index](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards-article-index.md)
       * [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)

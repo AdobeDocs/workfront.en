@@ -44,13 +44,33 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
 
 ## Interacting with Reports
 
-You can interact with individual reports on the Dashboard. This includes filtering data, drilling down into specific metrics, and exporting report data for further analysis.
+You can interact with individual reports on the Dashboard.
 
+### Temporarily customize table reports
+
+You can temporarily customize table reports on dashboards. These changes only apply to your current session and do not affect the original report configuration.
+
+1. In the left panel, click **Canvas Dashboards**.
+1. Click the name of an existing dashboard to open it.
+    ![Open a dashboard](assets/open-dashboard.png)
+1. Locate the table report that you want to customize.
+1. Choose any of the following options to customize the report:
+
+    | Option | Description |
+    |--------|-------------|
+    | **Add Column** | Click **Add Column** to add additional columns to the report. |
+    | **Configure columns** | Choose to show or hide specific columns in the report. |
+    | **Row height** | Adjust the row height for the report. |
+    | **Snap scroll** | Enable or disable snap scrolling for easier navigation through the report. |
+
+    >[!IMPORTANT]
+    >
+    >These changes only apply to your current session and do not affect the original report configuration. To make permanent these changes, you need to edit the report.
+
+<!--
 ### Filter
 
 ### Drilldowns
- 
-KPI, chart, table 
 
 ### Add additional columns to table reports
 
@@ -60,4 +80,4 @@ KPI, chart, table
 
 After customizing your Canvas Dashboard, you can save your changes. Additionally, you can share the dashboard with other users in your organization, provided you have the appropriate sharing permissions.
 
-For more detailed instructions on creating, managing, and customizing Canvas Dashboards, refer to the related articles in the [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) section.
+For more detailed instructions on creating, managing, and customizing Canvas Dashboards, refer to the related articles in the [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) section.-->
