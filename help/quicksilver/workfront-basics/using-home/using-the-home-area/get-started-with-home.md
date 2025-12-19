@@ -11,6 +11,10 @@ exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
 
 <!--Audited: 12/2023-->
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 >[!IMPORTANT]
 >
 >Content in this article was replaced with content from the Get started with new Home article. New Home will now be referred to as Home. 
@@ -60,7 +64,13 @@ Below are the 11 widgets currently available to choose from, as well as a summar
         Displays 2 charts with information about average docment approval time and decisions as well as list views of pending and overdue approvals. You must have [Unified Approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) enabled to use this widget.
 
 * **Mentions**\
-    Displays recent comment threads from across Workfront, similar to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.
+    In the Production environment, it displays recent comment threads from across Workfront, similar to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.
+    
+    <div class="preview">
+
+    In the Preview environment, it displays recent comments that you made or comments where other users tagged you that have been added in the past 2 weeks. You can use the reply button to compose a reply within the widget. 
+
+    </div>
 
 * **To-dos**\
     This unique widget allows you to add items to a personal checklist that you can freely edit. To-dos are tracked as tasks in your personal project, and remain for up to two weeks after completion.

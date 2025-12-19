@@ -1,19 +1,19 @@
 ---
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
-title: Manage a Project in the Agile View
-description: You can leverage agile functionality for your project without the administrative challenges that typically accompany agile practices (such as managing a team backlog or creating iterations).
+title: Manage an Agile Project in the Board View
+description: You can leverage Agile functionality for your project without the administrative challenges that typically accompany Agile practices (such as managing a team backlog or creating iterations).
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
 ---
-# Manage a project in the Agile View
+# Manage an Agile project in the Board view
 
 <!-- Audited: 11/2025 -->
 
-You can leverage agile functionality for your project without the administrative challenges that typically accompany agile practices (such as managing a team backlog or creating iterations).
+You can leverage Agile functionality for your project without the administrative challenges that typically accompany Agile practices (such as managing a team backlog or creating iterations).
 
-You can work in an agile environment that uses a team backlog and allows you to create iterations from tasks on the backlog. 
+You can work in an Agile environment that uses a team backlog and allows you to create iterations from tasks on the backlog. 
 
 For information, see [Work in an agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
@@ -89,11 +89,11 @@ For more detail about the information in this table, see [Access requirements in
 </table>-->
 
 
-## View a project in the Agile view
+## View a project in the Board view
 
-You can view both the tasks or the issues on a project in an agile view instead of a list, to leverage agile functionality for your project development. 
+You can view both the tasks or the issues on a project in an Board view instead of a list, to leverage Agile functionality for your project development. 
 
-1. Go to the project you want to view in an agile view, then click **Tasks** or **Issues** in the left panel.
+1. Go to the project you want to manage according to the Agile methodology, then click **Tasks** or **Issues** in the left panel.
 1. Click the **Board view** icon ![Board icon](assets/board-icon-for-agile-view.png).
 
    The board view of the project displays by default.
