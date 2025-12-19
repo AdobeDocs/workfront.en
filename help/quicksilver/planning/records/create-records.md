@@ -202,7 +202,7 @@ Users with Contribute and Manage permissions to the workspace and record type ca
 
     * A new record is added to the record type, unless you chose to add it using a request form with an approval process. The approval must be granted by all approvers before the record is created. 
     * Multiple records are added to the record type, if you added records using a CSV or Excel spreadsheet. 
-    * A new request is added in the Planning tab of the Workfront Requests area, if you added the request by submitting a request form. 
+    * A new request is added in the Workfront's Requests area, if you added the request by submitting a request form. 
 
 <!-- this is not possible anymore: 
 

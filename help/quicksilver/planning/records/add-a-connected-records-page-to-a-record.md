@@ -35,19 +35,6 @@ Consider the following when adding a Connected records page to a record:
       * <span class="preview">Calendar</span>
    * You can display connected Workfront projects in the list view. 
 
-
-<!--replace the above bullet with this: 
-
-* You can display the objects in a connected records page in the following types of views:
-
-   * Table
-   * <span class="preview">Timeline</span>
-   * <span class="preview">Calendar</span>
-
-* <span class="preview">You can create one page per one object or record type. For example, you cannot create two connected record pages for connected projects or tactics.</span>
-
--->
-
 * You can add Connected records pages for the following connected record or object types:
 
    * Workfront Planning record types
@@ -126,7 +113,7 @@ You must first connect record types with other record types or Workfront project
    >[!TIP]
    >
    ><span class="preview">You can create one connected records page per record type. If a connected record type already has a page, it no longer displays as an option.</span>
-
+   >
 
 1. (Optional and conditional) If more than one connected field of the record or object type you are building the page for displays, click the field whose records or objects you want to display in the connected records page from the **Select reference field** list. 
 
@@ -143,7 +130,7 @@ You must first connect record types with other record types or Workfront project
       >
       >You must add connected records in the table or Details area of a record before you can display them in a connected records page. Otherwise, the table or list are empty.
 
-   The first five fields of the connected records display by default. <!--No lookup fields display by default.-->
+   The first five fields of the connected records display by default. No lookup fields display by default.
 
    ![Audience connected table view under campaign details](assets/audience-connected-table-view-under-campaign-details-page.png)
 
@@ -160,9 +147,6 @@ You must first connect record types with other record types or Workfront project
 
    Hover over the name of the tab, then click **More** ![More menu](assets/more-menu.png), then click **Rename** to rename to new connected records page tab.
 
-
-   <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>--> 
-   
 1. (Optional)  Hover over the name of the connected records page tab, click **More** ![More menu](assets/more-menu.png), then click **Delete** to remove to tab.
 
 ### Manage the connected records page for Planning records
@@ -179,6 +163,7 @@ When you create a connected records page for  connected Planning records in the 
 1. Click **Connect** at the bottom of the table view to connect existing records, select them from the connection box, then click outside the box to close it. The records are automatically added to the table and connected to the record you selected. The records must exist before you can add them.
 
    For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+
 1. Edit any information from the connected records inline in the table view. 
 1. Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png)
 
@@ -198,6 +183,7 @@ When you create a connected records page for  connected Planning records in the 
       >[!TIP]
       >
       >You can select more than one record or object to delete them.
+      >
 
 1. Inline edit any of the records in the table on the connected records page.
 1. Use any of the following view elements in the toolbar of a connected record page to manage the table view:
@@ -214,12 +200,13 @@ When you create a connected records page for  connected Planning records in the 
    >[!NOTE]
    >
    >You cannot create, edit, or delete fields in the table view of a connected record's tab.
+   >
 
 <div class="preview">
 
 #### Manage the connected records page for Planning records in the Preview environment
 
-When you create a connected records page for  connected Planning records in the Preview environment, do the following: <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
+When you create a connected records page for connected Planning records in the Preview environment, do the following: <!--or AEM Assets--> <!--AEM is not available yet?? see note below-->
 
 1. Go to a record type page and click the name of a record. This opens the record's preview page.
 1. Click the tab for a connected records page that display Planning records.
@@ -227,6 +214,7 @@ When you create a connected records page for  connected Planning records in the 
 1. Click **Connect records** in the upper-right corner of the connected record page, to connect existing records, select them from the connection box, then click outside the box to close it. The records are automatically added to the table and connected to the record you selected. The records must exist before you can add them.
 
    For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+
 1. Click **New row** at the bottom of the table to add new records. The new records are automatically connected to the records you selected.
 1. Edit any information from the connected records inline in the table view. 
 1. Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png)
@@ -263,7 +251,10 @@ When you create a connected records page for  connected Planning records in the 
    >[!NOTE]
    >
    >You cannot create, edit, or delete fields in the table view of a connected record's tab.
+   >
+
 1. Click the views dropdown menu, and click **New view** to add a new view for the page, then do the following:
+
    1. Add a **View name**.
    1. From the **View type** area, select one of the following types of views:
 
@@ -278,10 +269,11 @@ When you create a connected records page for  connected Planning records in the 
 
    1. Click **Create**.
       A new view is added to the views dropdown menu.
+
    1. (Optional) Hover over the name of a view you created, click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options: 
+
       * **Rename**, to add a new name for the view.
       * **Share**
-
 
          For more information, see [Share views](/help/quicksilver/planning/access/share-views.md).
 
@@ -296,24 +288,6 @@ When you create a connected records page for  connected Planning records in the 
 
 </div>   
 
-
-   <!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
-         * Portfolios
-         * Programs
-         * Groups
-         * Companies
-      Do any of the following in the table view of the connected records page: 
-      * Click the name of a object. This opens the object's page in a new tab. 
-      * Click **Connect** at the bottom of the table view to connect existing objects, select them from the connection box, then click outside the box to close it. The objects are automatically added to the table. The objects must exist before you can add them.
-      For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
-      * Select one of the objects in the table view, then click one of the following options in the blue bar at the bottom of the list: 
-      * **View** to open the record page in a new tab
-      * **Copy link** to copy a link to the record page
-      * **Disconnect** to disconnect the object from the record you are viewing. 
-      TIP      
-      You can select more than one record or object to disconnect them.
-      -->
-
 ### Manage the connected records page for Workfront projects
 
 When you create a connected records page for connected Workfront projects, do the following:
@@ -327,7 +301,8 @@ When you create a connected records page for connected Workfront projects, do th
 1. Inline edit project information in the table.
 1. Click **New row** to create a project without a template. The new project is automatically connected to the current record.
 
-   For more information, see [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+   For more information, see [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+
 1. Hover over a project name in the list and click the **More** menu [More menu](assets/more-menu.png)
      
    Or
@@ -340,7 +315,10 @@ When you create a connected records page for connected Workfront projects, do th
          >[!TIP]
          >
          >You can select more than one project to disconnect or delete them.
+         >
+
 1. Click the views dropdown menu, and click **New view** to add a new view for the page, then do the following:
+
    1. Add a **View name**.
    1. Select **List** from the **View type** area.
    1. Click **Create**.
@@ -400,7 +378,7 @@ To manage multiple views from the connected records page:
    * **Timeline**. For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
    * **Calendar**. For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
 
-1. (Optional) Hover over the name of a view in the Connected records page, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following: *************check to make sure these are all possible*********
+1. (Optional) Hover over the name of a view in the Connected records page, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following: 
 
    * **Rename**
    * **Share**. For more information, see [Share views](/help/quicksilver/planning/access/share-views.md).
@@ -418,3 +396,20 @@ To manage multiple views from the connected records page:
       >Duplicating a view from Connected records pages makes it available in all other areas of Workfornt planning, when viewing the same record types. 
 
 </div> 
+
+<!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
+         * Portfolios
+         * Programs
+         * Groups
+         * Companies
+      Do any of the following in the table view of the connected records page: 
+      * Click the name of a object. This opens the object's page in a new tab. 
+      * Click **Connect** at the bottom of the table view to connect existing objects, select them from the connection box, then click outside the box to close it. The objects are automatically added to the table. The objects must exist before you can add them.
+      For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+      * Select one of the objects in the table view, then click one of the following options in the blue bar at the bottom of the list: 
+      * **View** to open the record page in a new tab
+      * **Copy link** to copy a link to the record page
+      * **Disconnect** to disconnect the object from the record you are viewing. 
+      TIP      
+      You can select more than one record or object to disconnect them.
+      -->

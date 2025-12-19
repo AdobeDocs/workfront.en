@@ -180,7 +180,7 @@ The following must be in place before you can submit a request to a Workfront Pl
       >
       >You cannot display the **Subject** field.
  
-      ![](assets/columns-editing-box-in-requests-planning-tab.png)
+      ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
 
 
 1. Click the name of a request in the list. 

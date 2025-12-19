@@ -28,15 +28,15 @@ To begin using advanced agile in Workfront:
 
 1. Kanban teams: Manage the backlog and build the [!UICONTROL Kanban] board.
 
-   For information, see [Manage the agile backlog](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) and [Kanban overview](../agile/use-kanban-in-an-agile-team/kanban-overview.md).
+   For information, see [Manage the Agile backlog](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) and [Kanban overview](../agile/use-kanban-in-an-agile-team/kanban-overview.md).
 
 1. Scrum teams: Manage the backlog, create an iteration, and build the [!UICONTROL Scrum] board.
 
-   For information, see [Manage the agile backlog](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Iterations overview](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md), and [Scrum board overview](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md).
+   For information, see [Manage the Agile backlog](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Iterations overview](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md), and [Scrum board overview](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md).
 
 1. Add tasks from projects to the backlog or the story board for the team.
 
-   For information, see [Manage the agile backlog](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Add existing tasks or issues to the [!UICONTROL Kanban] board](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md), and [Add stories to an existing iteration](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+   For information, see [Manage the Agile backlog](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Add existing tasks or issues to the [!UICONTROL Kanban] board](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md), and [Add stories to an existing iteration](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Use agile on a project
 

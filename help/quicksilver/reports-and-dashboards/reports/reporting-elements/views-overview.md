@@ -32,8 +32,8 @@ The following are types of views that you can apply in lists or reports in Workf
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>Standard views</strong></td>
-        <td>You can apply them to any list or report of objects. Standard views are highly customizable. You can customize and share a standard view with others. For information see, <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Create or edit views in Adobe Workfront</a>.</td>
+        <td><strong>Standard view</strong></td>
+        <td>You can apply it to any list or report of objects. Standard views are highly customizable. You can customize and share a standard view with others. For information see, <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Create or edit views in Adobe Workfront</a>.</td>
     </tr>
     <tr>
         <td><strong>Board view</strong></td>
