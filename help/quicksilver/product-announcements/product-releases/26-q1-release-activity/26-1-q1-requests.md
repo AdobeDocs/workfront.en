@@ -134,7 +134,7 @@ For more information on request drafts, see [Create requests from drafts](/help/
 
 To make it easier to keep your requests organized and uncluttered, we've added the ability to delete requests to the new requesting experience. Now, you can delete requests that you have submitted. Workfront Administrators and Workfront Planning Workspace administrators can also delete requests.
 
-Previously, deleting requests was not available.
+Previously, this feature was not available in the new requesting experience.
 
 For information and instructions, see [Delete a submitted request or request draft](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 

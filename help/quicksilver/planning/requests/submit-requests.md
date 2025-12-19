@@ -76,7 +76,7 @@ The following must be in place before you can submit a request to a Workfront Pl
 * The following must exist in Workfront Planning:
 
    * A workspace
-   * A record type.
+   * A record type
    * A request form associated with a record type. 
    
       For information, see [Create a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
@@ -156,7 +156,7 @@ The following must be in place before you can submit a request to a Workfront Pl
 1. (Optional) Click **View your request** in the confirmation message, to open the request, or click the **X** icon to close the confirmation.
 1. (Optional) Do any of the following:
 
-   * Click **Filters** and start adding conditions for what requests you want to view in the Planning tab. 
+   * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
 
       ![Editing filters in the Planning requests tab](assets/filters-editing-box-in-requests-planning-tab.png)
 
@@ -245,16 +245,14 @@ The following must be in place before you can submit a request to a Workfront Pl
 
       <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
 
-1. (Optional) Click **Main menu** > **Requests** > the **Planning** tab to view your request, then click the name of the request. 
+1. (Optional) Click **Main menu** > **Requests** to view your request, then click the name of the request. 
 
    The request details page opens. 
 
    ![Request page with comment](assets/new-request-page-with-comment.png)
 
-  
-
 1. (Optional) Enter a comment in the Comments area.
-1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
+1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Created object** field. 
 
    The record's page opens in Workfront Planning. 
 
@@ -264,7 +262,7 @@ The following must be in place before you can submit a request to a Workfront Pl
    >
    >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
 
-1. (Optional) Click the name of the **Record type**. 
+1. (Optional) Click the name of the **Object type**. 
 
    The record type page opens in Workfront Planning. 
 
