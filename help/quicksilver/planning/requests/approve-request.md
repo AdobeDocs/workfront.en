@@ -31,7 +31,7 @@ We recommend that you also see the following articles:
 
 ## Considerations about approving requests 
 
-* Submitted requests display in the Planning tab of the Submitted section in the Requests area of Workfront  with one of the following request statuses: 
+* Submitted requests display in the Requests area of Workfront with one of the following request statuses: 
 
    * **Pending review**: This status is shown when none of the approvers has opened the request object.
    * **In review**: The **Pending review** status changes to **In review** when at least one approver opens the request object. The status of the request remains **In review** until all approvers have approved the request.
@@ -112,7 +112,7 @@ You can approve requests to create records from the request itself, <span class=
     The request page opens in read-only mode.
 
     ![Read-only request page in review status](assets/read-only-reqeust-page-in-review-status.png) 
-1. If you are using the new requesting experience in Workfront, click **Main Menu** ![Dots main menu](assets/dots-menu.png) in the upper-right corner of the screen, or the **Main Menu** ![Lines main menu](assets/lines-menu.png) in the upper-left corner, if available, then click **Requests**, and click the request that you want to approve with the status of **Pending review** or **In review**.
+1. If you are using the new requesting experience in Workfront, click **Main Menu** ![Dots main menu](assets/dots-menu.png) in the upper-right corner of the screen, or the **Main Menu** ![Lines main menu](assets/lines-menu.png) in the upper-left corner, if available, then click **Requests**, and click the request that you want to approve with the status of **Pending review**.
 1. (Optional) Click the **Approvals** icon ![Approvals icon](assets/approvals-icon.png) in the upper-right corner of the request to view the approvers.
 1. Click **Review and approve**, then choose one of the following: 
 
@@ -126,7 +126,7 @@ You can approve requests to create records from the request itself, <span class=
     * **Completed**: The request is approved.
     * **Rejected**: The request is rejected. 
 
-    The request remains in the Planning tab of the Submitted section in the Requests area of Workfront.
+    The request remains in the Requests area of Workfront.
 
 <div class="preview">
 

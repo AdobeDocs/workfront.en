@@ -2,17 +2,17 @@
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: Manage the Agile Backlog
-description: Tasks and issues can be assigned to an agile team and added to that team's backlog as stories, depending on the agile methodology the team is using.
+description: Tasks and issues can be assigned to an Agile team and added to that team's backlog as stories, depending on the Agile methodology the team is using.
 author: Jenny
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
 ---
-# Manage the agile backlog
+# Manage the Agile backlog
 
-The following work items can be assigned to an agile team and added to that team's backlog as stories, depending on the agile methodology the team is using:
+The following work items can be assigned to an Agile team and added to that team's backlog as stories, depending on the Agile methodology the team is using:
 
-* **[!UICONTROL Scrum agile teams]:** Tasks and issues can be assigned to the agile team and added to the backlog.
-* **[!UICONTROL Kanban agile teams]:** Tasks can be assigned to the agile team and added to the backlog. Users can view the backlog directly from the agile story board, as described in [[!UICONTROL Add the backlog] to the Kanban board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). The team uses this backlog to prioritize and manage their work queue.
+* **[!UICONTROL Scrum Agile teams]:** Tasks and issues can be assigned to the Agile team and added to the backlog.
+* **[!UICONTROL Kanban Agile teams]:** Tasks can be assigned to the Agile team and added to the backlog. Users can view the backlog directly from the Agile story board, as described in [[!UICONTROL Add the backlog] to the Kanban board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). The team uses this backlog to prioritize and manage their work queue.
 
 Tasks or issues can be assigned to the team (and subsequently added to the team backlog) from anywhere in [!DNL Adobe Workfront]. For example, a single team might be assigned work assignments from multiple projects.
 
@@ -60,19 +60,19 @@ For more detail about the information in this table, see [Access requirements in
 
 You can reorder stories in the backlog list by using the drag-and-drop method.
 
-1. Go to the agile backlog where you want to reorder stories.
+1. Go to the Agile backlog where you want to reorder stories.
 1. In the **[!UICONTROL View]** drop-down menu, select the **[!UICONTROL Backlog]** view or a custom view that contains the **[!UICONTROL Order]** column.
 
    >[!NOTE]
    >
-   >If a task or issue has an agile team assigned and the project is not in a status that equates with Current, they do not display on the backlog. However, they do still affect the backlog count in the Order column.
+   >If a task or issue has an Agile team assigned and the project is not in a status that equates with Current, they do not display on the backlog. However, they do still affect the backlog count in the Order column.
 
 1. Select one or more stories, then drag the stories to the order where you want them to appear in the backlog.
    ![Drag and drop backlog items](assets/agile-backlog-drag-and-drop.png)
 
 ### Break down stories {#break-down-stories}
 
-Because stories in a backlog vary in size, users can break them down into workable sizes for an iteration. Breaking a story down creates subtasks on the task that the story represents, and replaces the original task in the backlog. You can have a parent task or its subtasks assigned to an agile team, but you cannot have both assigned to a team simultaneously.
+Because stories in a backlog vary in size, users can break them down into workable sizes for an iteration. Breaking a story down creates subtasks on the task that the story represents, and replaces the original task in the backlog. You can have a parent task or its subtasks assigned to an Agile team, but you cannot have both assigned to a team simultaneously.
 
 >[!NOTE]
 >
@@ -99,10 +99,10 @@ You can edit stories directly from the [!UICONTROL Stories] or [!UICONTROL Issue
 
 ## Create new stories on the backlog {#create-new-stories-on-the-backlog}
 
-You can create new stories on the backlog by creating the story directly from the backlog, or by assigning an existing task or issue to an agile team.
+You can create new stories on the backlog by creating the story directly from the backlog, or by assigning an existing task or issue to an Agile team.
 
 * [Create a story from the backlog](#create-a-story-from-the-backlog)
-* [Assign a task or issue to an agile team](#assign-a-task-or-issue-to-an-agile-team)
+* [Assign a task or issue to an Agile team](#assign-a-task-or-issue-to-an-agile-team)
 
 ### Create a story from the backlog {#create-a-story-from-the-backlog}
 
@@ -162,11 +162,11 @@ To create a story from the backlog:
 
 1. Click **[!UICONTROL Save Story]**.
 
-### Assign a task or issue to an agile team {#assign-a-task-or-issue-to-an-agile-team}
+### Assign a task or issue to an Agile team {#assign-a-task-or-issue-to-an-agile-team}
 
-You can assign a task or issue to an agile team. After it is assigned, the task or issue appears as a new story on the team backlog.
+You can assign a task or issue to an Agile team. After it is assigned, the task or issue appears as a new story on the team backlog.
 
-To assign a task or issue to an agile team:
+To assign a task or issue to an Agile team:
 
 1. Go to the project that contains the task that you want to assign.
 1. Select the task or issue in the list.
@@ -174,7 +174,7 @@ To assign a task or issue to an agile team:
 1. Click **[!UICONTROL Assignments]**.
 1. (Optional) Delete any existing assignees.
 1. Click **[!UICONTROL Add Assignee]**.
-1. Begin typing the name of the agile team you want to be assigned to the task or issue, then click the team name when it appears in the drop-down list.
+1. Begin typing the name of the Agile team you want to be assigned to the task or issue, then click the team name when it appears in the drop-down list.
 1. Click **[!UICONTROL Save Changes]**.
    The task or issue is now available on the team backlog.
 
@@ -186,7 +186,7 @@ To assign a task or issue to an agile team:
 
 ### Move stories from the backlog to an iteration or board
 
-1. Go to the backlog of the agile team.
+1. Go to the backlog of the Agile team.
 1. Select the stories you want to move to an iteration or Kanban board, then click **[!UICONTROL More]** > **[!UICONTROL Move to]**.
    If moving the story to a [!UICONTROL Kanban] board, the [!UICONTROL Move Story to the Kanban] Board is displayed.
    If moving the story to an iteration, the [!UICONTROL Move Story to an Iteration] dialog box is displayed.
@@ -204,7 +204,7 @@ To assign a task or issue to an agile team:
 
 If you decide that your team is not yet ready to work on a story, you can move the story to the backlog.
 
-For more information, see [Move an agile story](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
+For more information, see [Move an Agile story](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
 
 ### Export stories from the backlog {#export-stories-from-the-backlog}
 
