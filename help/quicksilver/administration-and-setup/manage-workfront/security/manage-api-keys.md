@@ -23,11 +23,11 @@ exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
 >* Server authentication with JWT
 >* User authentication with OAuth2
 >
->For instructions on setting up these authentication methods, see [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>For instructions on setting up these authentication methods, see [Create OAuth2 applications for Workfront integrations](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
 >
->For instructions on using server authentication in Workfront, see [Configure and use your organization's custom OAuth 2 applications using JWT flow](../../wf-api/api/oauth-app-jwt-flow.md)
+>For instructions on using server authentication in Workfront, see [Configure and use your organization's custom OAuth 2 applications using JWT flow](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
 >
->For instructions on using user authentication in Workfront, see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md)
+>For instructions on using user authentication in Workfront, see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
 
 In order to minimize API security vulnerabilities, Adobe Workfront administrators can manage the API Keys used to enable applications to access Workfront on behalf of a user.
 
