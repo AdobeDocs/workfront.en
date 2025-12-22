@@ -13,9 +13,9 @@ exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
 
 The default color association of stories differs depending on whether the story board is located on an iteration or on a project:
 
-* **[!UICONTROL Iteration]**: On an iteration, story board tiles are color-coded according to the project the story is associated with. (Each project is arbitrarily assigned a color on the story board.) You can change this default behavior for each agile team. Colors for agile stories on an iteration can be tied to the project (default), story priority, owner, or free form. For more information, see [Configure how color indicators are used for stories on the agile story board](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) in the article [Configure Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+* **[!UICONTROL Iteration]**: On an iteration, story board tiles are color-coded according to the project the story is associated with. (Each project is arbitrarily assigned a color on the story board.) You can change this default behavior for each Agile team. Colors for Agile stories on an iteration can be tied to the project (default), story priority, owner, or free form. For more information, see [Configure how color indicators are used for stories on the Agile story board](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) in the article [Configure Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-* **[!UICONTROL Project]**: On a project, any subtasks match the color of the parent task, so that the colors of all stories in any given swimlane are the same. Colors are randomly assigned to tasks when they are created if the task does not have any subtasks or does not have a parent task. You can change this default behavior by modifying the agile view. Colors for agile stories on a project can be tied to the parent story (default), story priority, owner, or free form. For more information, see [Create or customize an [!UICONTROL Agile] view](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Views overview in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+* **[!UICONTROL Project]**: On a project, any subtasks match the color of the parent task, so that the colors of all stories in any given swimlane are the same. Colors are randomly assigned to tasks when they are created if the task does not have any subtasks or does not have a parent task. You can change this default behavior by modifying the Agile view. Colors for Agile stories on a project can be tied to the parent story (default), story priority, owner, or free form. For more information, see [Create or customize an [!UICONTROL Agile] view](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Views overview in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Access requirements
 
@@ -44,7 +44,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Change the color of stories when using free form
 
-If the agile team settings have been configured so the [!UICONTROL Associate Card Color to] option is set to [!UICONTROL Free Form], users can manually change the color of individual story tiles. This can be useful to communicate other types of information that is important to the team or the organization:
+If the Agile team settings have been configured so the [!UICONTROL Associate Card Color to] option is set to [!UICONTROL Free Form], users can manually change the color of individual story tiles. This can be useful to communicate other types of information that is important to the team or the organization:
 
 {{step1-to-team}}
 

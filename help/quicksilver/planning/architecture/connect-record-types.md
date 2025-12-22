@@ -246,8 +246,9 @@ For an example of connecting record types and records, see [Example of connectin
 
     >[!TIP]
     >
-    >In addition to <span class="preview">the limit of 30 connection fields for one record type</span>, there is a limit of 500 fields for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit.
+    >* In addition to <span class="preview">the limit of 30 connection fields for one record type</span>, there is a limit of 500 fields for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit.
     >
+    > <!--* <span class="preview">Selecting the **Create corresponding field on linked record type** is a prerequisite for creating hierarchies.</span>-_>
 
 1. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
 

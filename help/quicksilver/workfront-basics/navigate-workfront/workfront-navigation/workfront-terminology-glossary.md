@@ -246,11 +246,11 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Backlog]</td> 
-   <td>The area in an agile environment where new issues are kept until they are ready to be worked on.</td> 
+   <td>The area in an Agile environment where new issues are kept until they are ready to be worked on.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Baseline]</td> 
-   <td>A source of data to measure iterations against in an agile environment.</td> 
+   <td>A source of data to measure iterations against in an Agile environment.</td> 
   </tr> 
 
   <tr data-mc-conditions=""> 
@@ -2265,7 +2265,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Storyboard]</td> 
-   <td>A chart that represents the status of stories (tasks in the agile methodology) and how they are progressing toward completion.</td> 
+   <td>A chart that represents the status of stories (tasks in the Agile methodology) and how they are progressing toward completion.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Story Hours]</td> 

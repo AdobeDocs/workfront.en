@@ -2,14 +2,14 @@
 product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: Create an Agile story in an Iteration
-description: This article describes how to create a new agile story when you are already in the iteration.
+description: This article describes how to create a new Agile story when you are already in the iteration.
 author: Jenny
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
 ---
-# Create an agile story in an iteration
+# Create an Agile story in an iteration
 
-This article describes how to create a new agile story when you are already in the iteration. For information about creating an agile story from a task, issue, or other area of [!DNL Adobe Workfront], see [Add stories to an existing iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+This article describes how to create a new Agile story when you are already in the iteration. For information about creating an Agile story from a task, issue, or other area of [!DNL Adobe Workfront], see [Add stories to an existing iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Access requirements
 
@@ -37,9 +37,9 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Create an agile story in an iteration
+## Create an Agile story in an iteration
 
-1. Go to the agile iteration where you want to create the story:
+1. Go to the Agile iteration where you want to create the story:
 
    {{step1-to-team}}
 

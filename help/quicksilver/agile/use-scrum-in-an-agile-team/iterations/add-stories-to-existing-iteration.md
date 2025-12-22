@@ -77,7 +77,7 @@ You can configure individual Scrum teams to use the project dates by default, ra
 You can add any task or issue to any iteration if you have Manage access to the project. Keep the following in mind when moving a task or issue to an iteration:
 
 * If you add multiple teams, the task or issue can display only on one team's iteration. This is the iteration you choose in step 3 below.
-* If the task or issue is assigned to an agile team and moved to another team's iteration, the team assignment does not change.
+* If the task or issue is assigned to an Agile team and moved to another team's iteration, the team assignment does not change.
 * If the task or issue is not assigned to a team, the task or issue is assigned to the team who owns the iteration.
 * You can't add parent tasks to the iteration. If you add any child tasks, the parent task appears on the Scrum board as a swimlane.
 
@@ -90,7 +90,7 @@ You can add any task or issue to any iteration if you have Manage access to the 
    Go to the project, report, or dashboard that contains the task or issue you want to add to an iteration. Then, select one or more tasks or issues.
 
 1. Click **[!UICONTROL More]** ![More icon](assets/more-icon.png) > **[!UICONTROL Add to Iteration]**.
-   You cannot assign tasks or issues assigned to non-agile teams.
+   You cannot assign tasks or issues assigned to non-Agile teams.
 
 1. In the **[!UICONTROL Add To]** box, begin typing the name of the iteration, and select it when it appears in the list.
 

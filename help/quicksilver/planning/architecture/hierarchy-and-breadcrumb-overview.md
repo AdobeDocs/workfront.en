@@ -20,6 +20,10 @@ hidefromtoc: yes
 
 # Hierarchy and breadcrumb overview
 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 As a workspace manager, you can define flexible but structured hierarchies between record types and and other object types in Adobe Workfront Planning. 
 
 Hierarchies are connections between record types, or between record types and a Workfront project. 
@@ -39,17 +43,17 @@ The following are benefits of using hierarchies in your workspaces:
 * You can have up to 4 record and object types connected in one hierarchy. 
 * You can connect only the following object types in a workspace hierarchy:
     * Record types that belong to the workspace you're building the hierarchies in. 
-    * Workfront projects. Workfront projects cannot be added as parents of other record types. They are always the last child in a hierarchy. 
+    * Workfront projects. Workfront projects cannot be added as parents of other record types. They are always the last object type in a hierarchy. 
 * You cannot add the following object types in a hierarchy:
-    * Record types from other workspaces, even when they are set as connectable or global record types. You can add global record types to hierarchis only when they have been added to the workspace you're building the hierarchy from. 
+    * Record types from other workspaces, even when they are set as connectable or global record types. You can add global record types to hierarchies only when they have been added to the workspace you're building the hierarchy from. 
     * All other Workfront objects.
-    * AEM Assets
+    * AEM Assets.
 * Hierarchies can include both Planning record types and Workfront projects at the same time.
 
         For example, you can have a Campaign record type with Planning Tactics and Workfront Projects as the children in the same workspace hierarchy. 
 * If a connection between the selected record types already exists, the system reuses the existing connection.
 * If no connection exists, Workfront will create one as part of the hierarchy setup.
-* The **Create corresponding field on linked record type** setting must be turned on for the connected field for records and objects that you want to include in a hierarchy. 
+* The **Create corresponding field on linked record type** setting must be turned on for the connected field for records and object types that you want to include in a hierarchy. 
 * The following are rules for hierarchy setup:
     * A record type can only have one parent record type in a given workspace. 
     
@@ -58,16 +62,19 @@ The following are benefits of using hierarchies in your workspaces:
 
         For example, you can have three different hierarchies in one workspace, and each of them can have Campaigns as their parent record type. 
     * A record can be connected to multiple parent records of the same type, when you connect one to many or many to many record types.
-        For example, Tactic A can belong to both Campaign X and Campaign Y. 
-    * A record type can connect to multiple children record types. 
         
-        For example, a Campaign record type can be the parent to multiple other record types, like Tactics, Tests, and other record types.
+        For example, Tactic A can belong to both Campaign X and Campaign Y. 
+    * A record type can connect to only one child record type at a time. A child record type can also be a parent for another record type.  
+        
+        For example, a Campaign record type can be the parent to only one other record type in the same hierarchy (Tactics), and Tactics can in turn be the parent of Programs which can be a parent to Projects.
+    * A record type cannot be the parent in one hierarchy and the child in another hierarchy in the same workspace. 
     * Global record types may appear in multiple workspaces inside multiple hierarchies, after they are added to those workspaces. 
         
         For example, if a Campaign is a global record type and part of a hierarchy in Workspace 1, it can be added as an existing record type to Workspace 2 and can be part of a hierarchy there. But it cannot be part of a hierarchy in Workspace 2 only when designated as a global record type in Workspace 1, but not added to Workspace 2. 
     
-
 ## Considerations when viewing breadcrumbs
+
+<!-- this might be incomplete, because I have no UI for this yet-->
 
 When you create hierarchies between record types, they generate breadcrumbs for records that belong to those record types. 
 
@@ -81,5 +88,6 @@ Consider the following:
     For example, when looking at a project which is connected to Planning campaigns and tactics, and also to Workfront portfolios and programs, you can switch between both the Planning and the Workfront object types from the breadcrumb. 
 
     For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+* When you edit a record, the changes are visible from all the workspaces and all hierarchies the record is part of.
 
 
