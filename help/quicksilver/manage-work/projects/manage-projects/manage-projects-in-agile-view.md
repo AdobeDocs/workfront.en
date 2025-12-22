@@ -15,7 +15,7 @@ You can leverage Agile functionality for your project without the administrative
 
 You can work in an Agile environment that uses a team backlog and allows you to create iterations from tasks on the backlog. 
 
-For information, see [Work in an agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+For information, see [Work in an Agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## Access requirements
 

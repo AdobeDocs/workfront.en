@@ -1041,26 +1041,26 @@ feature-set: Workfront
     * [Add tags](agile/get-started-with-boards/add-tags.md)
     * [Manage the Boards Admin View](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md)
     * [Boards email notifications and preferences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
-  * Use agile planning tools in boards {#agile-planning-boards}
+  * Use Agile planning tools in boards {#agile-planning-boards}
     * [Agile planning tools overview: article index](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
     * [Manage the work in progress (WIP) limit on a board](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
     * [Add an intake column to a board](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
     * [Use groups on a board](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
     * [Configure card falloff](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-    * [Migrate agile team Kanban cards to Workfront boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+    * [Migrate Agile team Kanban cards to Workfront boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
     * [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
     * [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
     * [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
     * [Configure the backlog on a workstream board](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
     * [Review iteration metrics](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
   * [Agile overview](agile/agile-overview.md)
-  * Get started with agile in Adobe Workfront {#agile-in-workfront}  
-    * [Get started with agile in Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
-    * [Create an agile team](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+  * Get started with Agile in Adobe Workfront {#agile-in-workfront}  
+    * [Get started with Agile in Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+    * [Create an Agile team](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
     * [Configure Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
     * [Configure Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
-  * Kanban in an agile team {#kanban}
-    * [Kanban in an agile team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
+  * Kanban in an Agile team {#kanban}
+    * [Kanban in an Agile team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
     * [Kanban overview](agile/use-kanban-in-an-agile-team/kanban-overview.md)
     * [Add a subtask to an existing story on the Kanban board](agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
     * [Add existing tasks or issues to the Kanban board](agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)
@@ -1074,8 +1074,8 @@ feature-set: Workfront
     * [Use flags on stories on the Kanban board](agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
     * [Add the backlog to the Kanban board](agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
     * [Delete story from Kanban board](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
-  * Scrum in an agile team {#scrum}
-    * [Scrum in an agile team](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
+  * Scrum in an Agile team {#scrum}
+    * [Scrum in an Agile team](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
     * Burndown {#burndown}
       * [Burndown](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
       * [Agile burndown chart overview](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
@@ -1087,7 +1087,7 @@ feature-set: Workfront
       * [Iterations](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
       * [Iterations overview](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
       * [Create an iteration](agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
-      * [Create an agile story in an iteration](agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
+      * [Create an Agile story in an iteration](agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
       * [Add stories to an existing iteration](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
       * [View an iteration](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
       * [Delete an iteration](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
@@ -1103,14 +1103,14 @@ feature-set: Workfront
       * [Manage stories and issues on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)
       * [Update the status of stories and subtasks on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
       * [View and edit story information on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
-  * Work in an agile environment {#work-in-agile-environment}
+  * Work in an Agile environment {#work-in-agile-environment}
     * [Work in an Agile environment](agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
     * [Create an Agile story](agile/work-in-an-agile-environment/create-an-agile-story.md)
     * [Manage the Agile backlog](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
     * [Move an Agile story](agile/work-in-an-agile-environment/move-an-agile-story.md)
-  * Tips, tricks, and troubleshooting for agile {#tips-tricks-agile}
+  * Tips, tricks, and troubleshooting for Agile {#tips-tricks-agile}
     * [Tips, tricks, and troubleshooting for agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
-    * [Custom statuses not showing up on the agile story board](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
+    * [Custom statuses not showing up on the Agile story board](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * Documents {#documents}
   * [Documents: article index](documents/documents-overview.md)
   * Add new documents to Adobe Workfront {#add-new-documents-to-workfront}

@@ -59,9 +59,9 @@ For more detail about the information in this table, see [Access requirements in
      >
      >When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow ![Switch team icon](assets/switch-team-icon.png) to list all of the teams that are assigned to the groups that they manage.
 
-   * **[!UICONTROL This is an Agile Team]:** Select this option if you want to configure this new team to be an agile team.
+   * **[!UICONTROL This is an Agile Team]:** Select this option if you want to configure this new team to be an Agile team.
 
-     For more information about agile teams, see [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     For more information about Agile teams, see [Create an Agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
    
    * **[!UICONTROL Team Members]:** Begin typing the name of a user to add to the team, then select the name when it appears in the drop-down list.
 

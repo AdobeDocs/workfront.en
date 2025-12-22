@@ -189,6 +189,8 @@ For more information about Adobe GenStudio for Performance Marketing, see [Adobe
    </table> 
 
 * Updating the workspace configuration, record types, views, and fields for a GenStudio workspace is identical with updating a Workfront Planning workspace with its elements. 
+<!--Is this just preview?? * You can build hierarchies for the record types in the GenStudio workspace. For more information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+* You cannot include GenStudio Brands in a hierarchy. -->
 
 <!--
 ## Manage GenStudio workspace from Workfront Planning
@@ -291,10 +293,9 @@ CAN YOU DO THIS??
       * **Export the current view** 
          For information, see [Export records from the table view](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
-         <!--
          >[!NOTE]
          >
-         >You cannot remove GenStudio users from record types in the GenStudio workspace, after you share that workspace or the record types with them.-->
+         >You cannot remove GenStudio users from record types in the GenStudio workspace, after you share that workspace or the record types with them.
 
 1. To manage the record type views, do the following: 
 
@@ -387,3 +388,15 @@ CAN YOU DO THIS??
       >* You can edit the configuration of a GenStudio field only when you have Manage permissions in GenStudio.
       >* You cannot delete a GenStudio field. 
 
+<!--Is this just Preview?? Or direct to Prod?? 
+
+## Create workspace hierarchies in the GenStudio workspace
+
+Creating hierarchies in the GenStudio workspace is similar to creating hierarchies in any workspace. 
+
+>[!NOTE]
+>
+>You cannot add GenStudio Brands to a hierarchy in the GenStudio workspace.
+
+For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
+-->

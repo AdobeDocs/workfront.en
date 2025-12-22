@@ -472,7 +472,8 @@ To connect records with Experience Manager assets:
 1. Click the name of a record. 
 
     The preview page opens. 
-1. (Optional) Click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) to open the record's page. 
+1. (Optional) Click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) to open the record's page in a new browser tab.
+<!--1. (Optional and conditional) <span class="preview">Click the name of a record type in the breadcrumb of the record page header to access another record type in the same hierarchy. Hierarchies must exist for the record type of the record you are connecting before you can view them in the breadcrumb. For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md). </span>-->
 1. Click the **Connections** tab in the record's preview or page. 
 
     ![Connections tab on record in Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
@@ -525,7 +526,7 @@ To connect records with Experience Manager assets:
 
     ![Connect button highlighted in connected record details tab](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 
-    For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+    For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 1. Click **New row** in a list of projects to create a project without a template. The new projects are automatically connected to the current record. 
 1. (Optional) If you cannot find a connected record, click **+ Add** to create and connect them. 
 

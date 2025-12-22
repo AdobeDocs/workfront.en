@@ -136,11 +136,14 @@ For more information about Workfront access requirements, see [Access requiremen
     * Linked fields from other records
     * Formula-type fields
     * System fields (Created by, Created date, Last modified by, Last modified date) 
-* If the records you display are linked to other records, the new information of the records that you are editing reflects on the linked records. 
+* If the records you display are linked to other records, the new information of the records that you are editing reflects on the linked records in all workspaces where that record is linked. 
 * You cannot edit records in bulk. <!--this will probably change-->
 * URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or www. . 
 * You can add a cover image to each record. The image is unique for each record, and it does not apply to all records of the same time. 
 * You can edit the order of the fields in a record page and add a cover image for a record. For more information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+* You can edit a record's Start and End dates by resizing or repositioning the records in the timeline and calendar views. 
+
+    You cannot resize or reposition records when the Start and the End date you chose for the record are read-only. For example, using lookup or formula fields for the Start and End date of a record does not allow you to resize or reposition the record in a timeline and calendar view. <!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
 
 ## Edit records
 
@@ -260,6 +263,10 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
 
 1. Click and hold a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.
 
+    >[!IMPORTANT]
+    >
+    >You cannot drag and drop the ends of a record bar, nor drag and drop the record to another date when the Start and the End date you chose for the record are read-only. For example, using lookup or formula fields for the Start and End date of a record does not allow you to resize or reposition the record in a timeline view. <!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
+
 1. Click the bar of a record to open its details area and edit all fields. 
 
     For information, see the [Edit a record from the record's preview in a view](#edit-a-record-from-the-records-preview-in-a-view) section in this article. 
@@ -274,6 +281,10 @@ For information, see [Create records](/help/quicksilver/planning/records/create-
     ![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
 
 1. Click and hold a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.
+
+    >[!IMPORTANT]
+    >
+    >You cannot drag and drop the ends of a record bar, nor drag and drop the record to another date when the Start and the End date you chose for the record are read-only. For example, using lookup or formula fields for the Start and End date of a record does not allow you to resize or reposition the record in a calendar view. <!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
 
 1. Click the bar of a record to open its details area and edit all fields. 
 

@@ -110,7 +110,7 @@ To create tasks on a project:
 
 1. Go to the project where you want to create a task.
 1. Click **Tasks** in the left panel. 
-1. (Conditional) If you are currently viewing the task list in an agile view, click the **List View** icon ![](assets/list-view-in-agile-view-for-tasks.png) in the upper-right corner to display the task list. 
+1. (Conditional) If you are currently viewing the task list in an Agile view, click the **List View** icon ![](assets/list-view-in-agile-view-for-tasks.png) in the upper-right corner to display the task list. 
 1. (Optional) Click the **Plan Mode** icon ![](assets/nwe-plan-mode-icon-task-list.png) and select **Manual Save**, then select either **Standard** or **Timeline Planning**. This disables the **Autosave** option which is enabled by default.
 
    ![Select Manual Save](assets/manual-save-option.png)
