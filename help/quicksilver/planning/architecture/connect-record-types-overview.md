@@ -119,7 +119,7 @@ Consider the following about connecting record types:
         >Workfront objects' date field information displays in 24 hour format in Workfront Planning, regardless of how it displays in Workfront. 
         >
         >For example, if a project's Planned Start Date displays as 3:00 PM in Workfront, it will display as 15:00 in Workfront Planning in an imported lookup field. 
-    <!--* <span class="preview">You must connect record types to be able to create hierarchies in Workfront Planning. When record type connections don't exist, they are automatically created when you create a hierarchy. For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).</span>-->
+    * <span class="preview">You must connect record types to be able to create hierarchies in Workfront Planning. When record type connections don't exist, they are automatically created when you create a hierarchy. For information, see [Create workspace hierarchies](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).</span>
 
 
 ## Connection types

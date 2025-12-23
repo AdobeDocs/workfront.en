@@ -40,7 +40,8 @@ The following are benefits of using hierarchies in your workspaces:
     * AEM Assets.
 * Hierarchies can include both Planning record types and Workfront projects at the same time.
 
-        For example, you can have a Campaign record type with Planning Tactics and Workfront Projects as the children in the same workspace hierarchy. 
+    For example, you can have a Campaign record type with Planning Tactics and Workfront Projects as the children in the same workspace hierarchy. 
+    
 * If a connection between the selected record types already exists, the system reuses the existing connection.
 * If no connection exists, Workfront will create one as part of the hierarchy setup.
 * The **Create corresponding field on linked record type** setting must be turned on for the connected field for records and object types that you want to include in a hierarchy. 
