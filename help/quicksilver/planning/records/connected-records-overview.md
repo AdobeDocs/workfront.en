@@ -38,7 +38,8 @@ For information about how you can connect records to one another or to another o
 * Everyone with access to Workfront Planning and View or higher permissions to the workspace and a record type  can see the connections that you make between records or between records and other applications' objects. They can view connected records and objects regardless of their permissions in the  applications you are connecting to. 
 * You can view and edit everyone else's connections, if you have Manage permissions to the workspace and the record type where the connected records are. 
 * You can connect one record to one or multiple objects from another application., depending on the type of connection you selected when connecting the record types. For more information, see the "Connections types" section in the article [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-<!--* <span class="preview">If connected record types are part of hierarchies, you can access any object type within the hierarchy from the records' pages. For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md). </span>-->
+* <span class="preview">If connected record types are part of hierarchies, you can access any object type within the hierarchy from the records' pages. For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md). </span>
+* <span class="preview">* When connected record types are part of hierarchies, you can connect one record from a child record type to up to 10 records from a parent record type. For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md). </span>
 
 ## Areas where you can connect records 
 
