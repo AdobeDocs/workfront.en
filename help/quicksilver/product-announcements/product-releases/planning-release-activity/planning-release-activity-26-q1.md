@@ -38,7 +38,7 @@ Consider the following when building hierarchies:
 * Connectable record types cannot be used in hierarchies in workspaces other than their own. 
 * Global record types can be used in hierarchies only in the workspaces that they were created in or have been added to.   
 
-For more information, see [Hierarchy and breadcrumb overview](help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+For more information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## New unified breadcrumbs added to records' pages
 
