@@ -16,13 +16,54 @@ This article describes the features that are releasing for Workfront Planning du
 
 For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Create record type hierarchies in workspaces
+
+>[!NOTE]
+>
+>Preview: December 23, 2025 
+>Production fast release: January 14, 2026 
+>Production for everyone: January 15, 2026 
+
+You can now define flexible but structured hierarchies between record or object types.  
+
+Hierarchies are connections between record types. You can have up to 4 record and object types connected in one hierarchy, and you can have up to 5 hierarchies in one workspace. The first record type in the hierarchy is the first parent.  
+
+You can use hierarchies to organize work and to visualize how strategy flows into execution. 
+
+Consider the following when building hierarchies: 
+
+* You can connect only Planning record types from one workspace and Workfront projects in a hierarchy.  
+* A record type or project can only have one parent in the same workspace. 
+* A record type can be the parent in multiple hierarchies. 
+* Connectable record types cannot be used in hierarchies in workspaces other than their own. 
+* Global record types can be used in hierarchies only in the workspaces that they were created in or have been added to.   
+
+For more information, see [Hierarchy and breadcrumb overview](help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+## New unified breadcrumbs added to records' pages
+
+>[!NOTE]
+>
+>Preview: December 23, 2025 
+>Production fast release: January 14, 2026 
+>Production for everyone: January 15, 2026 
+
+When you create hierarchies between record types, they generate breadcrumbs for records that belong to those record types. 
+
+Record breadcrumbs reflect their place in a hierarchy. After you create hierarchies, you can see a record's breadcrumb at the top of its page, indicating what other parent or children objects are connected to it. Hierarchies are consistent across Workfront and Planning.  
+
+For example, you can view a project's Planning hierarchy when it's connected to Planning record types in its Planning breadcrumb, and its Workfront hierarchy when it's connected to Workfront object types, like Portfolios or Programs, in Workfront.    
+
+For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+
 ## Improvements to connected records pages
 
 >[!NOTE]
 >
 >Preview: December 19, 2025 
 >Production fast: January 14, 2026 
->Production for all: January 15, 2026 
+>Production for everyone: January 15, 2026 
 
 To give you more flexibility when working with connected records pages, we have enhanced the functionality of views in this area of Workfront Planning. The following are improvements in the connected records pages of a record:
 
@@ -61,54 +102,6 @@ The wildcard is available in fields where the value is a user.
 
 For more information on configuring project connection views, including filters, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
-<!--
-
-## Create record type hierarchies in workspaces
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production all: January 15, 2026 
-
-You can now define flexible but structured hierarchies between record or object types.  
-
-Hierarchies are connections between record types. You can have up to 4 record and object types connected in one hierarchy, and you can have multiple hierarchies in one workspace. The first record type in the hierarchy is a parent, and all the other record or object types are its children objects.  
-
-You can use hierarchies to organize work in a way that reflects how your teams actually plan, operate, and deliver and to visualize how strategy flows into execution. 
-
-Consider the following when building hierarchies: 
-
-* You can have multiple hierarchies in a workspace 
-* You can connect only Planning record types from one workspace and Workfront projects in a hierarchy.  
-* A record type or a project can only have one parent in the same workspace. 
-* A record type can be the parent in multiple hierarchies 
-* Connectable record types cannot be used in hierarchies in other workspaces than their own. 
-* Global record types can be used in hierarchies only in the workspaces that they were created in or have been added to.  
-
-When you create hierarchies between record types, they generate breadcrumbs for records that belong to those record types. 
-
-For more information, see [Hierarchy and breadcrumb overview](help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
--->
-
-<!--
-
-## New unified breadcrumbs added to records' pages
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production for all: January 15, 2026 
-
-We have added breadcrumbs to a record's page to reflect its spot in a hierarchy. After you create hierarchies, you can see a record's breadcrumb at the top of its page, indicating what other parent or children objects are connected to it. Hierarchies are consistent across Workfront and Planning.  
-
-For example, you can view a project's Planning hierarchy when it's connected to Planning record types in its Planning breadcrumb, and its Workfront hierarchy when it's connected to Workfront object types, like Portfolios or Programs, in Workfront.  
-
-For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
--->
 
 ## Workspace main page improvements 
 
@@ -116,7 +109,7 @@ For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/plann
 >
 >Preview: December 18, 2025 
 >Production fast: January 14, 2026 
->Production for all: January 15, 2026 
+>Production for everyone: January 15, 2026 
 
 We have made the following improvements to the Workspaces main page in Workfront Planning:  
 
@@ -127,7 +120,6 @@ We have made the following improvements to the Workspaces main page in Workfront
 * The **Other workspaces** tab has been renamed to **All workspaces** and it includes all workspaces you have at least permissions to View, including the ones you created.  
 
 For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
-
 
 
 ## Adding the Brand connection field to Products and Personas by default in the GenStudio workspace  

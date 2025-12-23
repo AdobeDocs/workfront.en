@@ -1,24 +1,12 @@
 ---
 title: Create Workspace Hierarchies
-description: As a workspace manager, you can create multiple workspace hierarchies between the record types in Adobe Workfront Planning. After you connect record types in a workspace and create a hierarchy, record types are connected to one another, with one record type designated as the parent and up to 6 other record types configured as children.
-hide: yes
-hidefromtoc: yes
-exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
----
-<!--update the metadata with real information when making this available in TOC and in the left nav:
-
----
-title: Create Workspace Hierarchies
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
+description: As a workspace manager, you can create multiple workspace hierarchies between the record types in Adobe Workfront Planning. After you connect record types in a workspace and create a hierarchy, record types are connected to one another, with one record type designated as the parent and up to 3 other record types configured as children.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hide: yes 
-hidefromtoc: yes 
+exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
 ---
-
--->
 
 # Create workspace hierarchies
 
@@ -32,13 +20,11 @@ After record types are connected within a workspace, you can create a hierarchy 
 
 If a connection between two record types does not already exist, it can be created as you set up the hierarchy. Once defined, the hierarchy establishes a structured path across related record types within the workspace.
 
-Hierarchies will generate breadcrumbs for the record types and their respective records <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> that display in their headers. This way, users know where they are in the hierarchy at any stage of their workflow. 
+Hierarchies generate breadcrumbs for their respective records that display in their headers. This way, users know where they are in the hierarchy at any stage of their workflow. 
 
 For general information about hierarchies and breadcrumbs, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md). 
 
 ## Access requirements
-
-<!--check the access to see if you oversimplified???-->
 
 +++ Expand to view access requirements to perform the steps in this article:  
 
@@ -79,6 +65,8 @@ Or
 
 ## Create a workspace hierarchy
 
+You can create up to 5 hierarchies in one workspace. 
+
 {#step1-to-planning}
 
 1. Click a workspace card.
@@ -103,7 +91,7 @@ Or
 
    Click **Add new connection** to add a new connection field. 
    
-   This creates a connection field from the record type you're using as a parent and a corresponding connection field to it from the record type you're using as a child. 
+   This creates a connection field from the record type that you are using as a parent and a corresponding connection field to it from the record type that you are using as a child. 
    
    If you are creating a connection to Workfront projects, no field is created on the project.
 
@@ -129,7 +117,7 @@ Or
    
    1. Click **Save**.
 
-1. (Conditional) If the **Create corresponding field on linked record type** was not selected when the connected field was created, you will get an error and must do the following first: <!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
+1. (Conditional) If the **Create corresponding field on linked record type** was not selected when the connected field was created, you get an error and must do the following first: <!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
 
    1. Click **Cancel** in the **New hierarchy** box.
    1. Click the back arrow to the left of the workspace name, then click the card of the record type you want to choose as a parent. 
@@ -149,6 +137,13 @@ Or
    
    * The hierarchy is added to the **Hierarchies** section of the workspace.
    * The records that populate the connection fields display all the connections in their breadcrumbs, when you go to a record's page.
+   
+   >[!NOTE]
+   >
+   >You can connect one record from a child record type to up to 10 records from a parent record type. 
+   >
+   >For more information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).     
+
 1. (Optional) Hover over a hierarchy, then click the **More** menu. 
 
    ![Hierarchy More menu expanded](assets/hierarchy-more-menu-expanded.png)
