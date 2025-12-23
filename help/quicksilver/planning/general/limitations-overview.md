@@ -48,12 +48,12 @@ The following table shows the limits for how many objects you can create in Work
 | Number of entities (users, roles, teams, companies, groups) you can share a Planning object with | 100 |
 | <span class="preview">Number of record types in a hierarchy</span> | 4 |
 | <span class="preview">Number of hierarchies in a workspace</span> | 5 |
-| <span class="preview">Number of parent connected records to one child in a hierarchy</span> | 10 |
+| <span class="preview">Number of records from a parent record type connected to one record from a child record type, inside a hierarchy</span> | 10 |
 | Number of records connected to one record in a multi-select connection type, <span class="preview">without a hierarchy configured between the records</span> | 500 |
 
 *We recommend to not have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.
 
-For information about Workfront Planning pricing and packaging, contact your account manager.
+For information about Workfront Planning pricing and packaging, contact your account manager. 
 
 <!--
 ****************KEEP THIS COMMENTED OUT:
