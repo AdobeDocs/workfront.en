@@ -72,10 +72,4 @@ The effective dates on job role rates now permit gaps, though overlapping dates 
 **Title**
 
 text
-
-### Maintenance Updates week of January 18-24, 2026
-
-**Title**
-
-text
 -->
