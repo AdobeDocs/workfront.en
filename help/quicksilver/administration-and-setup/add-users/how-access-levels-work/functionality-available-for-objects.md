@@ -47,7 +47,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Add tasks                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Give updates/comments        | ✓        | ✓      | ✓      | &nbsp;        |
 | Change status                | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Log hours                    | ✓        | <span class="preview">✓</span>      | &nbsp;      | &nbsp;        |
+| Log hours                    | ✓        | ✓      | &nbsp;      | &nbsp;        |
 | Edit assignments             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Manage a baseline            | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Manage risks                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
