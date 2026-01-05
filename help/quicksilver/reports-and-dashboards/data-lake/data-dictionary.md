@@ -34,16 +34,122 @@ There are a number of view types you can utilize in Data Connect to view your Wo
 
 <!-- Custom view -->
 
-## Entity relationship diagram
+## Entity relationship diagrams
 
-Objects in Workfront (and, therefore, in your Data Connect data lake) are defined not only by their individual values, but by their relationships with other objects. The entity relationship diagram below provides a high-level mapping of object relationships in Data Connect. The diagram can be viewed and downloaded using the following link:
+Objects in Workfront (and, therefore, in your Data Connect data lake) are defined not only by their individual values, but by their relationships with other objects. 
 
-[Data Connect entity relationship diagram](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+The entity relationship diagrams (ERDs) below provide a high-level mapping of object relationships in Data Connect for core Workfront objects.
 
 >[!IMPORTANT]
 >
->The provided entity relationship diagram (ERD) is purposely incomplete as a complete ERD would become unreadable due to the high number of relationships within the application.<br>
->This diagram provides an example of how the relationships documented in Project table in the [Terminology table](#terminology-table) section below can be used to join data from Project data view to adjacent objects. It's expected that a complete ERD is not necessary once this pattern is understood for the Project object relationships
+>The diagrams are centered around single objects and do not represent a complete entity relationship diagram for the entire Workfront application. <br>
+>These diagrams are meant to provide examples of how the relationships can be used to join data to adjacent objects.
+
+### Assignments entity relationship diagram
+
++++ Expand to view the diagram
+
+![Assignments entity relationship diagram](assets/Assignment-centered%20ERD.png)
+
++++
+
+### Documents and document approval entity relationship diagram
+
++++ Expand to view the diagram
+
+![Documents and document approval entity relationship diagram](assets/Document%20and%20Document%20Approvals-centered%20ERD.png)
+
++++
+
+
+### Hours and Timesheets entity relationship diagram
+
++++ Expand to view the diagram
+
+![Hours and Timesheets entity relationship diagram](assets/Hours%20and%20Timesheet-centered%20ERD.png)
+
++++
+
+### Issues entity relationship diagram
+
++++ Expand to view the diagram
+
+![Issues entity relationship diagram](assets/OpTask%20(Issue)-centered%20ERD.png)
+
++++
+
+### Projects entity relationship diagram
+
++++ Expand to view the diagram
+
+![Projects entity relationship diagram](assets/Project-centered%20ERD.png)
+
++++
+
+### Tasks entity relationship diagram
+
++++ Expand to view the diagram
+
+![Tasks entity relationship diagram](assets/Task-centered%20ERD.png)
+
++++
+
+### Users entity relationship diagram
+
++++ Expand to view the diagram
+
+![Users entity relationship diagram](assets/User-centered%20ERD.png)
+
++++
+
+## Entity relationship diagrams
+
+Objects in Workfront (and, therefore, in your Data Connect data lake) are defined not only by their individual values, but by their relationships with other objects. 
+
+The entity relationship diagrams (ERDs) below provide a high-level mapping of object relationships in Data Connect for core Workfront objects.
+
+>[!IMPORTANT]
+>
+>The diagrams are centered around single objects and do not represent a complete entity relationship diagram for the entire Workfront application. <br>
+>These diagrams are meant to provide examples of how the relationships can be used to join data to adjacent objects.
+
+### Example entity relationship diagrams
+
++++ Expand to view the example diagrams
+
+### Assignments
+
+![Assignments entity relationship diagram](assets/Assignment-centered%20ERD.png)
+
+
+### Documents and document approvals
+
+![Documents and document approval entity relationship diagram](assets/Document%20and%20Document%20Approvals-centered%20ERD.png)
+
+### Hours and Timesheets
+
+![Hours and Timesheets entity relationship diagram](assets/Hours%20and%20Timesheet-centered%20ERD.png)
+
+
+### Issues
+
+![Issues entity relationship diagram](assets/OpTask%20(Issue)-centered%20ERD.png)
+
+### Projects
+
+![Projects entity relationship diagram](assets/Project-centered%20ERD.png)
+
+
+### Tasks 
+
+![Tasks entity relationship diagram](assets/Task-centered%20ERD.png)
+
+
+### Users 
+
+![Users entity relationship diagram](assets/User-centered%20ERD.png)
+
++++
 
 ## Date types
 
