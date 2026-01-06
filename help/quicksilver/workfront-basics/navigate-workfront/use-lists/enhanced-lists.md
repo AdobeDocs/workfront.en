@@ -163,11 +163,20 @@ To create a new view:
 
 ### Share a view
 
-You can share views that you create with other users, teams, or groups.
+In the **Views** dropdown, you may see three categories of views:
 
-1. In the **Views** dropdown, hover over the view that you want to share, then click on the three-dot menu when it appears.
+* **System Views**: Views that the system administrator assigned to you.
+* **Shared Views**: Views that have been shared with you by other users.
+* **My Views**: Views that you created and can share with others. You can share views with other users, teams, or groups.
+
+To share a view:
+
+1. In the **Views** dropdown, hover over the view in **My Views** that you want to share, then click on the three-dot menu when it appears.
 1. Select **Share**.
 1. In the Share dialog, enter the names of the users, teams, or groups that you want to share the view with, then select them from the list when they appear.
+
+   You can give View or Manage access to the recipients.
+
 1. Click **Save**.
 
 ## Filter and group items in an enhanced list
