@@ -327,16 +327,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>November 6, 2025</td>
         <td>November 13, 2025</td>
         <td>January 15, 2026</td>
-    </tr>   
-       <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Improved display of grouping count in Canvas Dashboards</a>
-            <p>When a table report has multiple pages of results and the table is configured with groupings, the table now displays both the record amount for the current page and the overall record count for all pages. For example, if your table report has 7 groupings and the first page shows 3, the table will display 3 of 7.</p>
-        </td>
-       <td>November 6, 2025</td>
-        <td>November 13, 2025</td>
-        <td>January 15, 2026</td>
-    </tr>   
+    </tr>    
        <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">New guardrails to improve loading times in Canvas Dashboards</a>
